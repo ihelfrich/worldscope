@@ -57,8 +57,30 @@ class GdeltRegionsSection(Section):
     emoji = "🌍"
 
     # Articles per country to keep, and pause between calls so we're polite.
+    # GDELT throttles aggressively from shared IPs (Github Actions runners
+    # especially). We use a higher baseline throttle and retry on 429 with
+    # exponential backoff.
     PER_COUNTRY = 6
-    THROTTLE_S = 1.2
+    THROTTLE_S = 2.0
+    MAX_RETRIES = 3
+
+    def _fetch_one(self, code: str, params: dict) -> dict | None:
+        backoff = 4.0
+        for attempt in range(self.MAX_RETRIES):
+            try:
+                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=25)
+                if resp.status_code == 429:
+                    time.sleep(backoff)
+                    backoff *= 2
+                    continue
+                resp.raise_for_status()
+                return resp.json()
+            except requests.exceptions.HTTPError:
+                time.sleep(backoff)
+                backoff *= 2
+            except Exception:
+                return None
+        return None
 
     def pull(self) -> list[dict]:
         items: list[dict] = []
@@ -74,12 +96,8 @@ class GdeltRegionsSection(Section):
                 "enddatetime": end.strftime("%Y%m%d%H%M%S"),
                 "sort": "datedesc",
             }
-            try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=20)
-                resp.raise_for_status()
-                data = resp.json()
-            except Exception:
-                # GDELT throttles aggressively; skip this country for this run
+            data = self._fetch_one(code, params)
+            if data is None:
                 time.sleep(self.THROTTLE_S)
                 continue
             for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
