@@ -21,19 +21,23 @@ from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
 from .render import render_page
+from .sections.commentary import CommentarySection
 from .sections.federal_register import FederalRegisterSection
+from .sections.gdelt_regions import GdeltRegionsSection
+from .sections.sanctions import SanctionsSection
 from .store import SnapshotStore
 from .synth import synthesize
 from .trends import section_trend
 
 SECTION_REGISTRY = [
     FederalRegisterSection,
-    # next sections in queue (Phase 1):
+    SanctionsSection,
+    GdeltRegionsSection,
+    CommentarySection,
+    # remaining Phase 1 sections (sketched, not built):
     #   MacroSection           — FRED daily releases + central bank press
-    #   SanctionsLegalSection  — OpenSanctions deltas + CourtListener opinions
+    #   CourtListenerSection   — new opinions of consequence (CIT, SCOTUS, federal appeals)
     #   MarketsSection         — FX/yields/indices snapshot
-    #   NewsByRegionSection    — GDELT filtered by source country watchlist
-    #   CommentarySection      — substack RSS digest
     #   ForecastSection        — Metaculus + GoodJudgment
     #   VipFlightsSection      — OpenSky watchlist convergence
 ]
