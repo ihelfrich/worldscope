@@ -28,9 +28,11 @@ from .overview import build_overview
 from .render import render_page
 from .sections import SectionState
 from .sections.commentary import CommentarySection
+from .sections.conflict import ConflictSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.federal_register import FederalRegisterSection
 from .sections.forecasts import ForecastsSection
+from .sections.form4 import Form4Section
 from .sections.gdelt_regions import GdeltRegionsSection
 from .sections.macro import MacroSection
 from .sections.markets import MarketsSection
@@ -48,14 +50,16 @@ SECTION_REGISTRY = [
     PeopleSection,
     SanctionsSection,
     CourtListenerSection,
+    Form4Section,
     GdeltRegionsSection,
+    ConflictSection,
     VipFlightsSection,
     ForecastsSection,
     CommentarySection,
     # remaining (sketched, not built):
     #   MaritimeSection        — AISStream vessels-of-interest watchlist
-    #   ConflictSection        — ACLED event tracker
-    #   ElectionsSection       — global election calendar
+    #   ElectionsSection       — global election calendar (Democracy Intl + ParlGov)
+    #   AnomalySection         — DuckDB-backed z-score screen across watchlist
 ]
 
 
