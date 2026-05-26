@@ -27,9 +27,11 @@ from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
 from .render import render_page
 from .sections import SectionState
+from .sections.billionaires import BillionairesSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
 from .sections.courtlistener import CourtListenerSection
+from .sections.fec import FECSection
 from .sections.federal_register import FederalRegisterSection
 from .sections.forecasts import ForecastsSection
 from .sections.form4 import Form4Section
@@ -47,10 +49,12 @@ SECTION_REGISTRY = [
     FederalRegisterSection,
     MacroSection,
     MarketsSection,
+    BillionairesSection,
     PeopleSection,
     SanctionsSection,
     CourtListenerSection,
     Form4Section,
+    FECSection,
     GdeltRegionsSection,
     ConflictSection,
     VipFlightsSection,
@@ -59,7 +63,7 @@ SECTION_REGISTRY = [
     # remaining (sketched, not built):
     #   MaritimeSection        — AISStream vessels-of-interest watchlist
     #   ElectionsSection       — global election calendar (Democracy Intl + ParlGov)
-    #   AnomalySection         — DuckDB-backed z-score screen across watchlist
+    #   AnomalySection         — surface DuckDB warehouse anomaly screen
 ]
 
 
