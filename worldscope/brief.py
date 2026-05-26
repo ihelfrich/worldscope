@@ -26,21 +26,30 @@ from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
 from .render import render_page
+from .lib.watchareas import load_watch_areas, tag_items
 from .sections import SectionState
+from .sections.acled import AcledSection
 from .sections.billionaires import BillionairesSection
+from .sections.cisa_kev import CisaKevSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.fec import FECSection
 from .sections.federal_register import FederalRegisterSection
+from .sections.firms import FirmsSection
 from .sections.forecasts import ForecastsSection
 from .sections.form4 import Form4Section
+from .sections.gdelt_gkg import GdeltGkgSection
 from .sections.gdelt_regions import GdeltRegionsSection
 from .sections.macro import MacroSection
 from .sections.markets import MarketsSection
+from .sections.mediacloud import MediaCloudSection
 from .sections.people import PeopleSection
+from .sections.promed import PromedSection
+from .sections.reliefweb import ReliefWebSection
 from .sections.sanctions import SanctionsSection
 from .sections.vip_flights import VipFlightsSection
+from .sections.wikidata_changes import WikidataChangesSection
 from .store import SnapshotStore
 from .synth import synthesize
 from .trends import section_trend
@@ -56,8 +65,16 @@ SECTION_REGISTRY = [
     Form4Section,
     FECSection,
     GdeltRegionsSection,
+    GdeltGkgSection,
+    MediaCloudSection,
     ConflictSection,
+    AcledSection,
+    FirmsSection,
     VipFlightsSection,
+    PromedSection,
+    CisaKevSection,
+    WikidataChangesSection,
+    ReliefWebSection,
     ForecastsSection,
     CommentarySection,
     # remaining (sketched, not built):
@@ -88,6 +105,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     today = date.today()
 
     # 1. Resolve every section (fresh pull OR carry-forward OR stale-after-failure)
+    watch_areas = load_watch_areas()
     states: dict[str, SectionState] = {}
     sections_html: list[str] = []
     source_attribution: dict[str, dict] = {}
@@ -96,6 +114,10 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             continue
         sec = cls(store=store)
         state = sec.resolve(today=today)
+        # Tag every item with the watch areas it falls into. The renderer
+        # and the routine prompt both rely on `watch_areas` being present.
+        if watch_areas and state.items:
+            tag_items(state.items, watch_areas, source_id=sec.id)
         states[sec.id] = state
         synth = synthesize(sec.title, state.items, {it.get("_id") for it in state.new})
         sections_html.append(sec.render_html(state, synth))

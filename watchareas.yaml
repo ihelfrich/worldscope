@@ -1,0 +1,327 @@
+# watchareas.yaml — Dr. Helfrich's configured intelligence priorities.
+#
+# Every item from every section is tagged with the watch areas it matches.
+# Tagged items get hoisted into the "Watch areas" section at the top of the
+# daily brief. Edit this file at any time — changes take effect on the next
+# routine run (no code change needed).
+#
+# Match logic (OR within a watch area, OR across fields):
+#   - source_id must be in `sources` (if specified)
+#   - then ANY of: country / actor / theme / entity / bbox / location /
+#     keyword / topic matches → item is in the area
+#
+# Bounding boxes are [west, south, east, north] (decimal degrees, WGS84).
+# Themes use GDELT GKG taxonomy: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
+
+watch_areas:
+
+  - name: "Russia oil sanctions perimeter"
+    priority: high
+    topics: [sanctions, oil, energy]
+    themes: [ECON_SANCTIONS, ENV_OIL_GAS, ENV_OIL, MARITIME_INCIDENT]
+    keywords:
+      - sberbank
+      - rosneft
+      - lukoil
+      - gazprom
+      - tatneft
+      - novatek
+      - surgutneftegas
+      - shadow fleet
+      - dark fleet
+      - g7 price cap
+      - oil price cap
+      - novorossiysk
+      - primorsk
+      - ust-luga
+      - kozmino
+      - urals crude
+      - espo crude
+      - sokol crude
+    countries: [Russia, Belarus]
+    actors: [Rosneft, Lukoil, Gazprom, Surgutneftegas, Tatneft, Novatek]
+    bbox: [27.0, 41.5, 60.0, 70.0]
+    locations: [Novorossiysk, Primorsk, Ust-Luga, Kozmino, Nakhodka, De-Kastri, Sakhalin]
+    sources: [acled, sanctions, gdelt_gkg, gdelt_regions, mediacloud, firms, markets, macro, courtlistener]
+    alert:
+      min_items: 5
+
+  - name: "Israel-Iran-Hezbollah axis"
+    priority: high
+    topics: [middle_east, conflict, military]
+    themes: [ARMEDCONFLICT, KILL, TERROR, MIL_ATTACK, MIL_RAID, AIR_STRIKES, MIL_WEAPONS, ASSASSINATION]
+    keywords:
+      - hezbollah
+      - hamas
+      - islamic jihad
+      - houthi
+      - irgc
+      - quds force
+      - khamenei
+      - netanyahu
+      - nasrallah
+      - haniyeh
+      - shifa
+      - rafah
+      - khan younis
+      - bekaa valley
+      - mt. dov
+      - shebaa
+      - golan
+      - natanz
+      - fordow
+      - bushehr
+      - parchin
+    countries: [Israel, Iran, Lebanon, Syria, Palestine, Yemen]
+    actors: [IDF, Hezbollah, Hamas, IRGC, Houthis, Ansar Allah]
+    bbox: [33.0, 28.0, 60.0, 38.0]
+    locations: [Gaza, Tehran, Beirut, Damascus, Sanaa, Tel Aviv, Jerusalem, Bandar Abbas, Eilat]
+    sources: [acled, firms, sanctions, gdelt_gkg, gdelt_regions, mediacloud, conflict, vip_flights]
+    alert:
+      min_items: 4
+      min_fatalities: 10
+
+  - name: "Taiwan Strait + South China Sea"
+    priority: high
+    topics: [taiwan, china, military, semiconductors]
+    themes: [MIL_AIR_EXERCISE, MIL_NAVAL_EXERCISE, MARITIME_INCIDENT, MIL_AIRSPACE_VIOLATION]
+    keywords:
+      - taiwan strait
+      - taiwan median line
+      - adiz
+      - pla navy
+      - pla air force
+      - aukus
+      - pratas
+      - senkaku
+      - diaoyu
+      - scarborough shoal
+      - second thomas shoal
+      - mischief reef
+      - tsai ing-wen
+      - lai ching-te
+      - william lai
+      - tsmc
+      - umc
+      - semiconductor export
+    countries: [Taiwan, China, Philippines, Japan, Vietnam]
+    actors: [PLA, PLAN, PLAAF, US Pacific Fleet, JMSDF]
+    bbox: [105.0, 5.0, 130.0, 28.0]
+    locations: [Taiwan, Kaohsiung, Taipei, Hsinchu, Subic, Yokosuka, Okinawa]
+    sources: [acled, firms, gdelt_gkg, gdelt_regions, mediacloud, vip_flights, markets]
+    alert:
+      min_items: 3
+
+  - name: "US tariff & trade dockets"
+    priority: high
+    topics: [trade, tariffs, courts]
+    themes: [TRADE, ECON_TARIFFS, ECON_TRADE_DISPUTE]
+    keywords:
+      - section 232
+      - section 301
+      - section 201
+      - reciprocal tariff
+      - ieepa
+      - de minimis
+      - antidumping
+      - countervailing
+      - usmca
+      - cit
+      - court of international trade
+      - ustr
+      - bis entity list
+      - foreign direct product
+    countries: [United States, China, Mexico, Canada, European Union, Japan, South Korea]
+    sources: [federal_register, courtlistener, sanctions, gdelt_gkg, mediacloud, macro]
+    alert:
+      min_items: 3
+
+  - name: "Critical minerals + rare earths"
+    priority: normal
+    topics: [minerals, mining, rare_earths]
+    themes: [ENV_MINING, ENV_METALS]
+    keywords:
+      - rare earth
+      - rare earths
+      - neodymium
+      - dysprosium
+      - terbium
+      - praseodymium
+      - cobalt
+      - lithium
+      - graphite
+      - antimony
+      - gallium
+      - germanium
+      - tungsten
+      - vanadium
+      - nickel sulfate
+      - mp materials
+      - lynas
+      - shenghe
+      - ganfeng
+      - albemarle
+      - sqm
+    countries: [China, Democratic Republic of Congo, Indonesia, Chile, Argentina, Australia, Bolivia, Vietnam]
+    sources: [federal_register, sanctions, gdelt_gkg, mediacloud, markets]
+
+  - name: "EM debt distress + sovereign restructuring"
+    priority: normal
+    topics: [emerging_markets, debt, restructuring]
+    themes: [ECON_BANKRUPTCY, ECON_DEBT, ECON_IMF, ECON_WORLDBANK]
+    keywords:
+      - imf program
+      - dsa
+      - debt sustainability
+      - paris club
+      - common framework
+      - eurobond restructuring
+      - default
+      - moratorium
+      - capital control
+      - currency board
+      - eurobond
+    countries: [Argentina, Egypt, Ghana, Kenya, Lebanon, Pakistan, Sri Lanka, Turkey, Tunisia, Zambia, Ethiopia, Ecuador]
+    sources: [macro, sanctions, gdelt_gkg, mediacloud, markets, forecasts]
+
+  - name: "AI compute + semiconductor export controls"
+    priority: normal
+    topics: [ai, semiconductors, export_controls]
+    themes: [SCIENCE_AI, EXPORT_CONTROLS]
+    keywords:
+      - export control
+      - bis entity list
+      - foreign direct product
+      - h100
+      - h200
+      - b100
+      - b200
+      - mi300
+      - hbm3
+      - cxl
+      - asml
+      - tsmc
+      - samsung foundry
+      - smic
+      - yangtze memory
+      - changxin memory
+      - huawei ascend
+      - nvidia
+    countries: [United States, China, Taiwan, South Korea, Netherlands, Japan]
+    sources: [federal_register, sanctions, courtlistener, gdelt_gkg, mediacloud, form4, markets]
+
+  - name: "Sahel jihadist corridor"
+    priority: normal
+    topics: [africa, conflict, jihadism]
+    themes: [ARMEDCONFLICT, TERROR, KILL]
+    keywords:
+      - jnim
+      - iswap
+      - boko haram
+      - mnla
+      - cma
+      - wagner
+      - africa corps
+      - junta
+      - coup
+      - ouagadougou
+      - bamako
+      - niamey
+      - n'djamena
+    countries: [Mali, Burkina Faso, Niger, Chad, Nigeria, Cameroon, Mauritania, Senegal]
+    bbox: [-17.0, 10.0, 16.0, 18.0]
+    actors: [JNIM, ISWAP, Boko Haram, Wagner, Africa Corps]
+    sources: [acled, firms, gdelt_gkg, mediacloud, conflict]
+    alert:
+      min_fatalities: 20
+
+  - name: "Arctic + High North"
+    priority: low
+    topics: [arctic, energy, military]
+    themes: [ENV_ARCTIC, MIL_NAVAL_EXERCISE]
+    keywords:
+      - northern sea route
+      - nsr
+      - arctic council
+      - lng 2
+      - yamal
+      - vostok oil
+      - svalbard
+      - jan mayen
+      - bear island
+      - thule
+      - pituffik
+      - keflavik
+      - greenland
+    countries: [Russia, Norway, Iceland, Denmark, Canada, United States, Finland, Sweden]
+    bbox: [-180.0, 66.0, 180.0, 90.0]
+    sources: [firms, vip_flights, gdelt_gkg, mediacloud, sanctions]
+
+  - name: "Korean peninsula"
+    priority: normal
+    topics: [korea, military, missile_tests]
+    themes: [MIL_WEAPONS, MIL_AIR_EXERCISE, MIL_NAVAL_EXERCISE]
+    keywords:
+      - dprk
+      - kcna
+      - kim jong un
+      - hwasong
+      - pukguksong
+      - nlt
+      - nll
+      - panmunjom
+      - dmz
+      - yongbyon
+      - kaesong
+      - pyongyang
+    countries: [North Korea, South Korea, Japan, China, Russia]
+    bbox: [124.0, 33.0, 132.0, 43.0]
+    sources: [firms, vip_flights, gdelt_gkg, mediacloud, conflict, sanctions, forecasts]
+
+  - name: "Latin America: narcoeconomy + politics"
+    priority: low
+    topics: [latin_america, narcotics, politics]
+    themes: [DRUG_TRADE, TERROR, KILL, ELECTION]
+    keywords:
+      - cjng
+      - sinaloa
+      - clan del golfo
+      - tren de aragua
+      - primeiro comando
+      - comando vermelho
+      - milei
+      - lula
+      - amlo
+      - sheinbaum
+      - petro
+      - maduro
+      - bukele
+    countries: [Mexico, Colombia, Venezuela, Brazil, Ecuador, Argentina, Peru, Chile, El Salvador, Haiti]
+    sources: [acled, gdelt_gkg, gdelt_regions, mediacloud, sanctions, fec]
+
+  - name: "Central bank divergence + dollar funding"
+    priority: high
+    topics: [central_banks, macro, fx]
+    themes: [ECON_CENTRALBANK, ECON_INTEREST_RATES, ECON_QE]
+    keywords:
+      - fomc
+      - powell
+      - lagarde
+      - ueda
+      - kuroda
+      - bowman
+      - waller
+      - boj jgb purchases
+      - yield curve control
+      - ycc
+      - sofr
+      - reverse repo
+      - rrp
+      - sln
+      - tga
+      - swap line
+      - dollar funding
+      - eur basis
+    sources: [macro, markets, federal_register, gdelt_gkg, mediacloud, commentary]
+    alert:
+      anomaly_zscore: 2.0
