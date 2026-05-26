@@ -63,6 +63,7 @@ class GdeltRegionsSection(Section):
     PER_COUNTRY = 6
     THROTTLE_S = 2.0
     MAX_RETRIES = 3
+    PULL_TIMEOUT_S = 90    # 19 countries × ~3s each, with retries on 429
 
     def _fetch_one(self, code: str, params: dict) -> dict | None:
         backoff = 4.0

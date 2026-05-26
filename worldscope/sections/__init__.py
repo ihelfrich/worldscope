@@ -23,12 +23,40 @@ from __future__ import annotations
 
 import hashlib
 import os
+import threading
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
 from typing import Any, Optional
 
 from ..store import SnapshotStore
+
+
+class PullTimeout(Exception):
+    """Raised when a section's pull() exceeds its deadline."""
+
+
+def _run_with_timeout(fn, seconds: float):
+    """Run `fn()` with a hard wall-clock deadline. If `seconds` elapse before
+    fn returns, raise PullTimeout. Uses a daemon thread so a wedged network
+    call doesn't block the whole interpreter (the thread keeps running in
+    the background until process exit — Python has no clean way to cancel
+    a blocking socket recv on the main thread, and signal-based timeouts
+    don't work inside helper threads, so this is the pragmatic option)."""
+    box: list = [None, None]   # [result, exception]
+    def runner():
+        try:
+            box[0] = fn()
+        except BaseException as exc:
+            box[1] = exc
+    t = threading.Thread(target=runner, daemon=True)
+    t.start()
+    t.join(seconds)
+    if t.is_alive():
+        raise PullTimeout(f"pull() exceeded {seconds}s deadline (still running)")
+    if box[1] is not None:
+        raise box[1]
+    return box[0]
 
 
 # --- the state machine ----------------------------------------------------
@@ -64,6 +92,12 @@ class Section(ABC):
     id: str = ""
     title: str = ""
     emoji: str = "📌"
+
+    # Hard wall-clock deadline for pull(). A section can override (e.g.
+    # SanctionsSection sets 180 for the 2.6 GB FtM scan). When exceeded the
+    # section degrades to STATE_STALE with a timeout error and the previous
+    # snapshot carries forward, instead of wedging the whole brief.
+    PULL_TIMEOUT_S: float = 75
 
     def __init__(self, store: Optional[SnapshotStore] = None) -> None:
         self.store = store or SnapshotStore()
@@ -136,11 +170,12 @@ class Section(ABC):
                 error="skipped and no prior snapshot to carry forward",
             )
 
-        # Normal path: try to pull. Distinguish failure from empty-ok.
+        # Normal path: try to pull, with a hard deadline. Distinguish failure
+        # from empty-ok.
         items: list[dict] = []
         error: Optional[str] = None
         try:
-            raw = self.pull()
+            raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"

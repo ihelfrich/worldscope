@@ -64,6 +64,7 @@ class SanctionsSection(Section):
     id = "sanctions"
     title = "Sanctions & Designations (recent)"
     emoji = "⚖️"
+    PULL_TIMEOUT_S = 200   # 2.6 GB FtM scan takes ~100s on a warm cache
 
     # Window matches the corpus refresh cadence. If the local file is from
     # May 18 and today is May 25, a 14-day window leaves zero hits because
