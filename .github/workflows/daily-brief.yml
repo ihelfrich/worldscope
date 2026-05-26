@@ -37,7 +37,15 @@ jobs:
           # section here so locally-generated sanctions content (from Ian's
           # machine, where the file lives) isn't clobbered by an empty CI run.
           WORLDSCOPE_SKIP: sanctions
+          # Use the repo-tracked snapshot store so carry-forward works in CI.
+          # Locally-generated sanctions snapshots travel with the repo and
+          # CI reads them for the carry-forward render.
+          WORLDSCOPE_STORE_PATH: ${{ github.workspace }}/data/store.sqlite
         run: python -m worldscope.brief --out dist
+      - name: Commit updated snapshot store
+        run: |
+          git add -f data/store.sqlite
+          git diff --staged --quiet || git commit -m "snapshot store $(date -u +%Y-%m-%d)"
       - name: Commit archive
         run: |
           git config user.name "worldscope-bot"

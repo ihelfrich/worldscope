@@ -11,12 +11,27 @@ and the orchestrator use the metadata to distinguish:
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
 
-DEFAULT_PATH = Path.home() / ".worldscope" / "store.sqlite"
+# Resolution order for the snapshot store path:
+#   1. WORLDSCOPE_STORE_PATH env var (explicit override; used by CI)
+#   2. <repo>/data/store.sqlite if the file exists (preferred: snapshots
+#      travel with the repo so CI can carry-forward locally-generated content)
+#   3. ~/.worldscope/store.sqlite (legacy default for first-time local runs)
+def _resolve_default_path() -> Path:
+    env = os.environ.get("WORLDSCOPE_STORE_PATH")
+    if env:
+        return Path(env).expanduser()
+    repo_local = Path(__file__).resolve().parents[2] / "data" / "store.sqlite"
+    if repo_local.exists() or repo_local.parent.exists():
+        return repo_local
+    return Path.home() / ".worldscope" / "store.sqlite"
+
+DEFAULT_PATH = _resolve_default_path()
 
 # Bump when the in-snapshot payload shape changes (used by schema validation).
 SCHEMA_VERSION = 2
