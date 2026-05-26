@@ -28,10 +28,13 @@ from .overview import build_overview
 from .render import render_page
 from .sections import SectionState
 from .sections.commentary import CommentarySection
+from .sections.courtlistener import CourtListenerSection
 from .sections.federal_register import FederalRegisterSection
 from .sections.forecasts import ForecastsSection
 from .sections.gdelt_regions import GdeltRegionsSection
 from .sections.macro import MacroSection
+from .sections.markets import MarketsSection
+from .sections.people import PeopleSection
 from .sections.sanctions import SanctionsSection
 from .sections.vip_flights import VipFlightsSection
 from .store import SnapshotStore
@@ -41,15 +44,18 @@ from .trends import section_trend
 SECTION_REGISTRY = [
     FederalRegisterSection,
     MacroSection,
+    MarketsSection,
+    PeopleSection,
     SanctionsSection,
+    CourtListenerSection,
     GdeltRegionsSection,
     VipFlightsSection,
     ForecastsSection,
     CommentarySection,
     # remaining (sketched, not built):
-    #   CourtListenerSection   — new opinions of consequence (CIT, SCOTUS, fed appeals)
-    #   MarketsSection         — FX/yields/indices time-series snapshot
     #   MaritimeSection        — AISStream vessels-of-interest watchlist
+    #   ConflictSection        — ACLED event tracker
+    #   ElectionsSection       — global election calendar
 ]
 
 
