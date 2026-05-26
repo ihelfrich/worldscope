@@ -91,11 +91,12 @@ jobs:
             exit 0
           fi
           BRIEF_URL="https://ihelfrich.github.io/worldscope/${{ steps.pick.outputs.url_path }}"
+          # curl -F "message=</tmp/body.txt" reads the file as the field value.
           curl -fsS \
             -F "token=$APP_TOKEN" \
             -F "user=$USER_KEY" \
             -F "title=${{ steps.pick.outputs.kind }} brief: ${{ steps.pick.outputs.headline }}" \
-            -F "message=<$(cat /tmp/body.txt)" \
+            -F "message=</tmp/body.txt" \
             -F "url=$BRIEF_URL" \
             -F "url_title=Full brief" \
             -F "priority=0" \
