@@ -1,0 +1,88 @@
+name: Render brief markdown to HTML
+
+# When the routine commits a new briefings/<date>.md or
+# weekly_briefings/<week>.md, render it to HTML and stage it in dist/ so
+# Pages serves it at /briefings/<date>.html or /weekly_briefings/<week>.html.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "briefings/**.md"
+      - "weekly_briefings/**.md"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: render-briefings
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install markdown
+      - name: Render every brief to HTML
+        run: |
+          python <<'PY'
+          import markdown, os, html
+          from pathlib import Path
+          CSS = '''
+            <style>
+              body { font: 15px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif;
+                     max-width: 800px; margin: 30px auto; padding: 0 20px;
+                     color: #1F2937; }
+              h1 { color: #1F3864; border-bottom: 2px solid #1F3864;
+                   padding-bottom: 8px; }
+              h2 { color: #1F3864; margin-top: 28px; font-size: 18px; }
+              h3 { color: #374151; font-size: 15px; }
+              code { background: #F3F4F6; padding: 1px 5px; border-radius: 3px; }
+              table { border-collapse: collapse; margin: 12px 0; }
+              th, td { border: 1px solid #E5E7EB; padding: 6px 10px; }
+              th { background: #F9FAFB; }
+              a { color: #1F3864; }
+            </style>
+          '''
+          for src_dir in ("briefings", "weekly_briefings"):
+              p = Path(src_dir)
+              if not p.exists():
+                  continue
+              out_dir = Path("dist") / src_dir
+              out_dir.mkdir(parents=True, exist_ok=True)
+              for md in p.glob("*.md"):
+                  body = markdown.markdown(md.read_text(encoding="utf-8"),
+                                          extensions=["tables", "fenced_code"])
+                  page = ("<!doctype html><html><head><meta charset='utf-8'>"
+                          "<meta name='robots' content='noindex,nofollow'>"
+                          f"<title>{md.stem}</title>{CSS}</head><body>"
+                          f"{body}</body></html>")
+                  out_path = out_dir / f"{md.stem}.html"
+                  out_path.write_text(page, encoding="utf-8")
+                  print(f"  {md} -> {out_path}")
+          PY
+      - name: Commit dist/ briefings
+        run: |
+          git config user.name "worldscope-bot"
+          git config user.email "noreply@github.com"
+          git add -f dist/briefings dist/weekly_briefings || true
+          git diff --staged --quiet || git commit -m "rendered briefs ($(date -u +%Y-%m-%d))"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: render
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
