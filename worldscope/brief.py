@@ -64,12 +64,22 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     store = SnapshotStore()
     today = date.today()
 
+    # WORLDSCOPE_SKIP=sanctions,gdelt_regions  → comma-separated list of sections
+    # to skip entirely (without overwriting their previous snapshot in dist/).
+    # CI sets WORLDSCOPE_SKIP=sanctions so that locally-generated sanctions
+    # content (requires the 2.6 GB OpenSanctions corpus, not in CI) is preserved.
+    import os as _os
+    skip_set = {s.strip() for s in (_os.environ.get("WORLDSCOPE_SKIP") or "").split(",") if s.strip()}
+
     # 1. Pull every section, compute deltas, synthesize per-section paragraph
     section_deltas: dict[str, tuple[str, dict]] = {}
     sections_html: list[str] = []
     source_attribution: dict[str, dict] = {}
     for cls in SECTION_REGISTRY:
         if section_ids and cls.id not in section_ids:
+            continue
+        if cls.id in skip_set:
+            print(f"[{cls.id}] skipped (WORLDSCOPE_SKIP)")
             continue
         sec = cls(store=store)
         delta = sec.delta(today=today)
