@@ -30,6 +30,7 @@ Writes:
 """
 from __future__ import annotations
 
+import datetime as _dt
 import html
 import json
 import re
@@ -580,24 +581,294 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     return out_path
 
 
+def _brief_meta(md_path: Path) -> dict:
+    """Pull headline + teaser + first dashboard line from a briefing .md."""
+    try:
+        text = md_path.read_text(encoding="utf-8")
+    except Exception:
+        return {"headline": md_path.stem, "teaser": "", "word_count": 0}
+    h1 = re.search(r"^#\s+(.+)$", text, flags=re.M)
+    headline = h1.group(1).strip() if h1 else md_path.stem
+    # Teaser: first non-empty paragraph after the first H2, with markdown stripped
+    after_h2 = re.split(r"^##\s+", text, maxsplit=1, flags=re.M)
+    target = after_h2[1] if len(after_h2) > 1 else text
+    # Skip the heading line itself, take the next paragraph
+    paras = [p.strip() for p in target.split("\n\n") if p.strip()]
+    teaser = paras[1] if len(paras) > 1 else (paras[0] if paras else "")
+    teaser = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", teaser)
+    teaser = re.sub(r"[*_`#>]+", "", teaser)
+    teaser = teaser.replace("\n", " ")
+    if len(teaser) > 280:
+        teaser = teaser[:277].rsplit(" ", 1)[0] + "..."
+    return {
+        "headline": headline,
+        "teaser": teaser,
+        "word_count": len(text.split()),
+    }
+
+
+INDEX_CSS = """
+:root {
+  --ink:#0B1220; --bg:#FAFBFD; --panel:#fff; --border:#D9DEE5;
+  --muted:#5B6473; --accent:#1F3864; --accent-2:#2E75B6;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; font-family:'Source Serif 4','Georgia',serif;
+  background:var(--bg); color:var(--ink); font-size:16.5px; line-height:1.55;
+}
+.shell { max-width:880px; margin:0 auto; padding:32px 24px 80px; }
+.masthead {
+  border-bottom:3px double var(--accent); padding-bottom:18px; margin-bottom:28px;
+}
+.masthead .eyebrow {
+  font-family:Inter,system-ui,sans-serif; font-size:11px;
+  text-transform:uppercase; letter-spacing:0.18em; color:var(--accent);
+  font-weight:700;
+}
+.masthead h1 {
+  font-size:38px; margin:8px 0 6px; letter-spacing:-0.3px; color:var(--ink);
+}
+.masthead .sub {
+  font-family:Inter,sans-serif; font-size:14px; color:var(--muted);
+}
+.brief-card {
+  background:var(--panel); border:1px solid var(--border); border-radius:8px;
+  padding:18px 22px; margin:14px 0; display:block;
+  text-decoration:none; color:inherit;
+  transition:border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+.brief-card:hover {
+  border-color:var(--accent-2);
+  box-shadow:0 2px 12px rgba(31,56,100,0.08);
+  transform:translateY(-1px);
+}
+.brief-card .date {
+  font-family:Inter,sans-serif; font-size:12px; color:var(--accent);
+  font-weight:700; text-transform:uppercase; letter-spacing:0.08em;
+}
+.brief-card .headline {
+  font-size:20px; margin:4px 0 6px; color:var(--ink); line-height:1.3;
+}
+.brief-card .teaser {
+  color:#374151; font-size:14.5px; margin:0;
+}
+.brief-card .meta {
+  font-family:Inter,sans-serif; font-size:11.5px; color:var(--muted);
+  margin-top:8px;
+}
+.toggle {
+  font-family:Inter,sans-serif; font-size:13px; color:var(--accent-2);
+  margin-bottom:20px;
+}
+.toggle a { color:inherit; text-decoration:none; margin-right:14px; }
+.toggle a.active { font-weight:700; color:var(--accent); }
+footer {
+  margin-top:48px; padding-top:14px; border-top:1px solid var(--border);
+  font-family:Inter,sans-serif; font-size:12px; color:var(--muted);
+}
+"""
+
+
 def render_index(out_dir: Path, kind: str) -> None:
     pages = sorted(out_dir.glob("*.html"), reverse=True)
     pages = [p for p in pages if p.name != "index.html"]
     if not pages:
         return
-    rows = "\n".join(
-        f'<li><a href="./{p.name}">{p.stem}</a></li>'
-        for p in pages
-    )
+    src_dir = REPO / kind
+    cards: list[str] = []
+    for p in pages:
+        md = src_dir / f"{p.stem}.md"
+        meta = _brief_meta(md) if md.exists() else {"headline": p.stem, "teaser": "", "word_count": 0}
+        try:
+            d = _date_from_stem(p.stem, kind)
+        except Exception:
+            d = p.stem
+        wc = meta["word_count"]
+        wc_str = f"{wc:,} words" if wc else ""
+        cards.append(
+            f'<a class="brief-card" href="./{p.name}">'
+            f'<div class="date">{html.escape(d)}</div>'
+            f'<h2 class="headline">{html.escape(meta["headline"])}</h2>'
+            f'<p class="teaser">{html.escape(meta["teaser"])}</p>'
+            f'<div class="meta">{wc_str}</div>'
+            f'</a>'
+        )
     label = "Daily briefings" if kind == "briefings" else "Weekly briefings"
-    out_dir.joinpath("index.html").write_text(f"""<!doctype html>
-<html><head><meta charset="utf-8"><title>WORLDSCOPE · {label}</title>
-<style>body{{font-family:Inter,system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;color:#0B1220}}
-h1{{font-family:'Source Serif 4',Georgia,serif;color:#1F3864;border-bottom:3px double #1F3864;padding-bottom:8px}}
-ul{{list-style:none;padding:0}} li{{padding:6px 0;border-bottom:1px solid #E5E7EB}}
-a{{color:#1F3864;text-decoration:none}} a:hover{{text-decoration:underline}}</style>
-</head><body><h1>{label}</h1><ul>{rows}</ul></body></html>
-""", encoding="utf-8")
+    other = "Weekly" if kind == "briefings" else "Daily"
+    other_path = "../weekly_briefings/" if kind == "briefings" else "../briefings/"
+    page = f"""<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · {label}</title>
+<link rel="alternate" type="application/atom+xml" title="WORLDSCOPE {label}" href="./feed.xml">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>{INDEX_CSS}</style>
+</head><body>
+<div class="shell">
+  <div class="masthead">
+    <div class="eyebrow">WORLDSCOPE · archive</div>
+    <h1>{label}</h1>
+    <div class="sub">prepared for Dr. Ian Helfrich · {len(pages)} brief{'s' if len(pages)!=1 else ''} on file</div>
+  </div>
+  <div class="toggle">
+    <a href="./" class="active">{label}</a>
+    <a href="{other_path}">{other} archive</a>
+    <a href="./feed.xml">Atom feed</a>
+  </div>
+  {"".join(cards)}
+  <footer>WORLDSCOPE · daily global intelligence · sources cited inline in every brief</footer>
+</div>
+</body></html>
+"""
+    out_dir.joinpath("index.html").write_text(page, encoding="utf-8")
+    _render_feed(out_dir, kind, pages)
+
+
+def _date_from_stem(stem: str, kind: str) -> str:
+    """Format a stem like '2026-05-26' or '2026-W22' as a display string."""
+    if kind == "briefings":
+        try:
+            d = _dt.date.fromisoformat(stem)
+            return d.strftime("%A, %B %-d, %Y")
+        except (ValueError, AttributeError):
+            return stem
+    return stem  # weekly: keep as 2026-W22
+
+
+def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
+    """Atom feed at <out_dir>/feed.xml."""
+    label = "Daily briefings" if kind == "briefings" else "Weekly briefings"
+    src_dir = REPO / kind
+    base = f"https://ihelfrich.github.io/worldscope/{kind}"
+    entries: list[str] = []
+    for p in pages[:50]:
+        md = src_dir / f"{p.stem}.md"
+        meta = _brief_meta(md) if md.exists() else {"headline": p.stem, "teaser": ""}
+        # ISO date (best-effort)
+        try:
+            iso = _dt.date.fromisoformat(p.stem).isoformat() + "T11:00:00Z"
+        except ValueError:
+            iso = _dt.datetime.utcnow().isoformat(timespec="seconds") + "Z"
+        entries.append(
+            f"  <entry>\n"
+            f"    <title>{html.escape(meta['headline'])}</title>\n"
+            f"    <link href='{base}/{p.name}'/>\n"
+            f"    <id>{base}/{p.stem}</id>\n"
+            f"    <updated>{iso}</updated>\n"
+            f"    <summary>{html.escape(meta['teaser'])}</summary>\n"
+            f"  </entry>"
+        )
+    feed = (
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<feed xmlns="http://www.w3.org/2005/Atom">\n'
+        f"  <title>WORLDSCOPE · {label}</title>\n"
+        f"  <link href='{base}/feed.xml' rel='self'/>\n"
+        f"  <link href='{base}/'/>\n"
+        f"  <id>{base}/feed</id>\n"
+        f"  <updated>{_dt.datetime.utcnow().isoformat(timespec='seconds')}Z</updated>\n"
+        f"  <author><name>WORLDSCOPE</name></author>\n"
+        + "\n".join(entries) + "\n"
+        "</feed>\n"
+    )
+    out_dir.joinpath("feed.xml").write_text(feed, encoding="utf-8")
+
+
+def render_root_landing(out_root: Path) -> None:
+    """Top-level dist/index.html: prominently feature the latest brief and link
+    to the archive. The Daily-briefing workflow's render_page() also writes a
+    dist/index.html; that file gets replaced by this one whenever
+    render-briefings runs after it (which is the desired ordering: latest
+    routine-authored brief wins on the front page)."""
+    daily_dir = out_root / "briefings"
+    weekly_dir = out_root / "weekly_briefings"
+    latest_daily = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []
+    latest_daily = [p for p in latest_daily if p.name != "index.html"]
+    if not latest_daily:
+        return
+    newest = latest_daily[0]
+    src_md = REPO / "briefings" / f"{newest.stem}.md"
+    meta = _brief_meta(src_md) if src_md.exists() else {"headline": newest.stem, "teaser": "", "word_count": 0}
+    try:
+        date_str = _dt.date.fromisoformat(newest.stem).strftime("%A, %B %-d, %Y")
+    except (ValueError, AttributeError):
+        date_str = newest.stem
+    latest_weekly_link = ""
+    if weekly_dir.exists():
+        wp = sorted(weekly_dir.glob("*.html"), reverse=True)
+        wp = [p for p in wp if p.name != "index.html"]
+        if wp:
+            latest_weekly_link = f'<a class="latest-link" href="./weekly_briefings/{wp[0].name}">Latest weekly brief: {wp[0].stem}</a>'
+    page = f"""<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE</title>
+<link rel="alternate" type="application/atom+xml" title="WORLDSCOPE daily" href="./briefings/feed.xml">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>{INDEX_CSS}
+.hero {{
+  background:linear-gradient(135deg,#1F3864 0%,#2E75B6 100%);
+  color:#fff; padding:36px 32px; border-radius:10px;
+  margin-bottom:24px;
+}}
+.hero .eyebrow {{ color:#A5C8F0; }}
+.hero h2 {{ font-size:28px; margin:6px 0 10px; color:#fff; line-height:1.2; }}
+.hero p.teaser {{ color:#E0EAF6; font-size:15.5px; margin:0 0 14px; }}
+.hero .cta {{ display:inline-block; background:#fff; color:#1F3864;
+  padding:10px 18px; border-radius:6px; font-weight:700;
+  font-family:Inter,sans-serif; font-size:13px; text-decoration:none;
+  letter-spacing:0.03em; }}
+.hero .cta:hover {{ background:#FAFBFD; }}
+.latest-link {{ display:block; margin-top:8px; color:#A5C8F0; font-size:13px;
+  font-family:Inter,sans-serif; text-decoration:none; }}
+.section-nav {{ margin:32px 0 16px; display:flex; gap:14px; flex-wrap:wrap; }}
+.section-nav a {{
+  flex:1 1 200px; padding:14px 16px; background:#fff;
+  border:1px solid var(--border); border-radius:8px;
+  text-decoration:none; color:var(--ink);
+  font-family:Inter,sans-serif; font-size:14px;
+  transition:border-color 0.15s;
+}}
+.section-nav a:hover {{ border-color:var(--accent); }}
+.section-nav .label {{ display:block; font-size:11px; color:var(--muted);
+  text-transform:uppercase; letter-spacing:0.1em; margin-bottom:3px; }}
+.section-nav .target {{ color:var(--accent); font-weight:600; font-size:16px; }}
+</style>
+</head><body>
+<div class="shell">
+  <div class="masthead">
+    <div class="eyebrow">WORLDSCOPE</div>
+    <h1>Daily global intelligence</h1>
+    <div class="sub">prepared for Dr. Ian Helfrich · automated open-source briefing engine</div>
+  </div>
+
+  <div class="hero">
+    <div class="eyebrow">Today's brief · {html.escape(date_str)}</div>
+    <h2>{html.escape(meta['headline'])}</h2>
+    <p class="teaser">{html.escape(meta['teaser'])}</p>
+    <a class="cta" href="./briefings/{newest.name}">Read today's full brief →</a>
+    {latest_weekly_link}
+  </div>
+
+  <div class="section-nav">
+    <a href="./briefings/"><span class="label">Daily archive</span><span class="target">All daily briefings</span></a>
+    <a href="./weekly_briefings/"><span class="label">Weekly archive</span><span class="target">Weekly cross-day synthesis</span></a>
+    <a href="./briefings/feed.xml"><span class="label">Subscribe</span><span class="target">Atom feed</span></a>
+  </div>
+
+  <footer>WORLDSCOPE · 22 sections · 12 watch areas · daily at 06:00 ET · sources cited inline</footer>
+</div>
+</body></html>
+"""
+    out_root.joinpath("index.html").write_text(page, encoding="utf-8")
 
 
 def main() -> None:
@@ -611,6 +882,8 @@ def main() -> None:
             out = render_one(md, out_dir, kind)
             print(f"  {md} → {out}")
         render_index(out_dir, kind)
+    render_root_landing(REPO / "dist")
+    print(f"  landing → {REPO/'dist'/'index.html'}")
 
 
 if __name__ == "__main__":

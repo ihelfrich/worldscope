@@ -14,6 +14,14 @@ on:
       - "briefings/**.png"
       - "weekly_briefings/**.md"
       - "weekly_briefings/**.png"
+      - "tools/render_brief.py"
+  schedule:
+    # Catch routine pushes that GITHUB_TOKEN auth suppresses from triggering.
+    # Fires hourly between 11:15 and 13:15 UTC (routine cron is 11:00 UTC).
+    - cron: "15 11-13 * * *"
+    # And once on Friday evenings to catch the weekly routine (20:00 UTC).
+    - cron: "30 20 * * 5"
+  workflow_dispatch:
 
 permissions:
   contents: write

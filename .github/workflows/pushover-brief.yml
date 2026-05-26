@@ -1,8 +1,11 @@
 name: Pushover brief delivery
 
-# Triggered by the routines' pushes to briefings/ or weekly_briefings/.
-# Reads the newly-committed brief, builds a Pushover notification with the
-# headline as title + first ~900 chars as body + a link to the deployed HTML.
+# Triggered by the routines' pushes to briefings/ or weekly_briefings/, by
+# the daily schedule (which catches routine pushes that GITHUB_TOKEN auth
+# suppresses from triggering on push), or manually via workflow_dispatch.
+#
+# Idempotency: each notification commits a marker into .pushover-sent.json
+# so the same brief is never notified twice even if the workflow re-runs.
 
 on:
   push:
@@ -10,28 +13,59 @@ on:
     paths:
       - "briefings/**.md"
       - "weekly_briefings/**.md"
+  schedule:
+    # Hourly between 11:15-13:15 UTC catches the 11:00 UTC daily routine.
+    - cron: "20 11-13 * * *"
+    # Friday evening catches the 20:00 UTC weekly routine.
+    - cron: "35 20 * * 5"
+  workflow_dispatch:
+    inputs:
+      brief:
+        description: 'Specific brief filename to notify on (e.g. briefings/2026-05-26.md). Leave blank to use the newest.'
+        required: false
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: pushover-brief
+  cancel-in-progress: false
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2  # need previous commit to diff
 
       - id: pick
-        name: Pick the newest brief file
+        name: Pick the newest brief that hasn't been notified yet
         run: |
-          # Get files added/modified in this push
-          CHANGED=$(git diff --name-only HEAD~1 HEAD -- briefings/ weekly_briefings/ | grep -E '\.md$' | tail -1)
-          if [ -z "$CHANGED" ]; then
-            echo "no brief file in this push"; exit 0
+          set -e
+          MANUAL="${{ github.event.inputs.brief }}"
+          SENT_FILE=".pushover-sent.json"
+          mkdir -p $(dirname "$SENT_FILE")
+          [ -f "$SENT_FILE" ] || echo "[]" > "$SENT_FILE"
+
+          if [ -n "$MANUAL" ] && [ -f "$MANUAL" ]; then
+            CHANGED="$MANUAL"
+          else
+            # Find the newest .md across briefings/ and weekly_briefings/.
+            CHANGED=$(ls -t briefings/*.md weekly_briefings/*.md 2>/dev/null | head -1)
           fi
+          if [ -z "$CHANGED" ] || [ ! -f "$CHANGED" ]; then
+            echo "no brief file found"
+            echo "file=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Idempotency: skip if already notified
+          if python3 -c "import json,sys; sent=json.load(open('$SENT_FILE')); sys.exit(0 if '$CHANGED' in sent else 1)"; then
+            echo "already notified for $CHANGED, skipping"
+            echo "file=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           echo "file=$CHANGED" >> $GITHUB_OUTPUT
-          # Determine kind for the notification title
           if [[ "$CHANGED" == briefings/* ]]; then
             echo "kind=Daily" >> $GITHUB_OUTPUT
             STEM=$(basename "$CHANGED" .md)
@@ -41,14 +75,10 @@ jobs:
             STEM=$(basename "$CHANGED" .md)
             echo "url_path=weekly_briefings/${STEM}.html" >> $GITHUB_OUTPUT
           fi
-          # Extract headline + body
-          # First markdown # heading becomes the Pushover title; everything else is the message
           HEADLINE=$(head -1 "$CHANGED" | sed 's/^# *//')
           echo "headline=$HEADLINE" >> $GITHUB_OUTPUT
-          # Body is the rest, truncated to Pushover's 1024-char message limit
-          BODY=$(tail -n +2 "$CHANGED" | head -c 900)
-          # Write to a file (multi-line outputs are awkward via $GITHUB_OUTPUT)
-          echo "$BODY" > /tmp/body.txt
+          # Body: skip H1, strip markdown noise, truncate
+          tail -n +2 "$CHANGED" | sed -E 's/\[([^]]+)\]\([^)]+\)/\1/g; s/[*_`#>]+//g' | head -c 900 > /tmp/body.txt
 
       - name: Send Pushover
         if: steps.pick.outputs.file != ''
@@ -61,7 +91,7 @@ jobs:
             exit 0
           fi
           BRIEF_URL="https://ihelfrich.github.io/worldscope/${{ steps.pick.outputs.url_path }}"
-          curl -s \
+          curl -fsS \
             -F "token=$APP_TOKEN" \
             -F "user=$USER_KEY" \
             -F "title=${{ steps.pick.outputs.kind }} brief: ${{ steps.pick.outputs.headline }}" \
@@ -70,3 +100,19 @@ jobs:
             -F "url_title=Full brief" \
             -F "priority=0" \
             https://api.pushover.net/1/messages.json
+
+      - name: Mark notified
+        if: steps.pick.outputs.file != ''
+        run: |
+          python3 -c "
+          import json
+          sent = json.load(open('.pushover-sent.json'))
+          if '${{ steps.pick.outputs.file }}' not in sent:
+              sent.append('${{ steps.pick.outputs.file }}')
+          json.dump(sent, open('.pushover-sent.json', 'w'), indent=2)
+          "
+          git config user.name "worldscope-bot"
+          git config user.email "noreply@github.com"
+          git add .pushover-sent.json
+          git diff --staged --quiet || git commit -m "pushover: notified ${{ steps.pick.outputs.file }}"
+          git push
