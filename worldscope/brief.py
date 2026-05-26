@@ -29,23 +29,27 @@ from .render import render_page
 from .sections import SectionState
 from .sections.commentary import CommentarySection
 from .sections.federal_register import FederalRegisterSection
+from .sections.forecasts import ForecastsSection
 from .sections.gdelt_regions import GdeltRegionsSection
+from .sections.macro import MacroSection
 from .sections.sanctions import SanctionsSection
+from .sections.vip_flights import VipFlightsSection
 from .store import SnapshotStore
 from .synth import synthesize
 from .trends import section_trend
 
 SECTION_REGISTRY = [
     FederalRegisterSection,
+    MacroSection,
     SanctionsSection,
     GdeltRegionsSection,
+    VipFlightsSection,
+    ForecastsSection,
     CommentarySection,
-    # remaining Phase 1 sections (sketched, not built):
-    #   MacroSection           — FRED + Fed/ECB/BoE/BIS releases (wraps econscope)
-    #   CourtListenerSection   — new opinions of consequence (CIT, SCOTUS, federal appeals)
-    #   MarketsSection         — FX/yields/indices snapshot
-    #   ForecastSection        — Metaculus + GoodJudgment forecast moves
-    #   VipFlightsSection      — OpenSky watchlist convergence
+    # remaining (sketched, not built):
+    #   CourtListenerSection   — new opinions of consequence (CIT, SCOTUS, fed appeals)
+    #   MarketsSection         — FX/yields/indices time-series snapshot
+    #   MaritimeSection        — AISStream vessels-of-interest watchlist
 ]
 
 
