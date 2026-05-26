@@ -27,12 +27,14 @@ from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
 from .render import render_page
 from .sections import SectionState
+from .sections.acled import AcledSection
 from .sections.billionaires import BillionairesSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.fec import FECSection
 from .sections.federal_register import FederalRegisterSection
+from .sections.firms import FirmsSection
 from .sections.forecasts import ForecastsSection
 from .sections.form4 import Form4Section
 from .sections.gdelt_regions import GdeltRegionsSection
@@ -57,6 +59,8 @@ SECTION_REGISTRY = [
     FECSection,
     GdeltRegionsSection,
     ConflictSection,
+    AcledSection,
+    FirmsSection,
     VipFlightsSection,
     ForecastsSection,
     CommentarySection,
