@@ -65,6 +65,15 @@ HEAD = """<!DOCTYPE html>
       background: #F59E0B; color: #fff; font-size: 10px; font-weight: 700;
       padding: 2px 6px; border-radius: 3px; margin-right: 6px; letter-spacing: 0.5px;
     }}
+    .stale-badge {{
+      display: inline-block; margin-left: 8px;
+      font-size: 11px; font-weight: 600; padding: 3px 8px;
+      border-radius: 4px; letter-spacing: 0.3px; vertical-align: middle;
+    }}
+    .stale-carry  {{ background: #FFF2CC; color: #856404; border: 1px solid #E6C75A; }}
+    .stale-failed {{ background: #FCE4D6; color: #8B3A0E; border: 1px solid #D27F5A; }}
+    .stale-none   {{ background: #E5E7EB; color: #4B5563; border: 1px solid #C8CDD3; }}
+    .items li.empty {{ color: #6B7280; font-style: italic; }}
     .meta {{ color: #6B7280; font-size: 12px; }}
     .abs {{ color: #374151; font-size: 13px; margin-top: 3px; }}
     footer {{

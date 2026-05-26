@@ -30,14 +30,28 @@ def _tokens(text: str) -> set[str]:
 
 
 def _load_last_n_days(store: SnapshotStore, section_id: str, *, n: int = 14) -> list[tuple[date, list[dict]]]:
-    """Return [(snapshot_date, items), ...] sorted ascending for the last n days."""
+    """Return [(snapshot_date, items), ...] sorted ascending for the last n days.
+
+    Payloads are now SCHEMA_VERSION=2 dicts with shape:
+        {schema_version, pulled_at, status, error, items}
+    We extract `items`. Old (v1) payloads that were bare lists get treated
+    as empty (schema drift defense)."""
     conn: sqlite3.Connection = store._conn
     rows = conn.execute(
         "SELECT snapshot_date, payload FROM snapshots "
         "WHERE section_id = ? AND snapshot_date >= ? ORDER BY snapshot_date",
         (section_id, (date.today() - timedelta(days=n)).isoformat()),
     ).fetchall()
-    return [(date.fromisoformat(d), json.loads(p)) for d, p in rows]
+    out: list[tuple[date, list[dict]]] = []
+    for d, p in rows:
+        try:
+            payload = json.loads(p)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(payload, dict) and isinstance(payload.get("items"), list):
+            out.append((date.fromisoformat(d), payload["items"]))
+        # else: silently drop — schema drift or pre-v2 payload
+    return out
 
 
 def section_trend(store: SnapshotStore, section_id: str) -> dict[str, Any]:

@@ -1,10 +1,15 @@
 """
 brief.py — orchestrate one daily briefing run.
 
-Pulls every registered section, computes 14-day trends, fetches the
-forthcoming-events calendar, generates the analyst's morning brief
-(overview.md), renders the HTML page with a download link, and bundles
-everything into a zip in dist/zips/.
+Each section resolves to a SectionState via the state machine in
+sections/__init__.py. The orchestrator does NOT need to know how the
+state was reached (fresh pull, carry-forward, stale-after-failure); it
+just lays the resulting items + staleness markers into the page.
+
+WORLDSCOPE_SKIP=sanctions,gdelt_regions etc. → comma-separated list of
+section ids to NOT re-pull. Each skipped section uses its most-recent
+snapshot from ~/.worldscope/store.sqlite (carry-forward) so locally-
+generated content survives CI runs that can't see local-only data.
 
 Usage:
     python -m worldscope.brief
@@ -21,6 +26,7 @@ from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
 from .render import render_page
+from .sections import SectionState
 from .sections.commentary import CommentarySection
 from .sections.federal_register import FederalRegisterSection
 from .sections.gdelt_regions import GdeltRegionsSection
@@ -35,16 +41,15 @@ SECTION_REGISTRY = [
     GdeltRegionsSection,
     CommentarySection,
     # remaining Phase 1 sections (sketched, not built):
-    #   MacroSection           — FRED daily releases + central bank press
+    #   MacroSection           — FRED + Fed/ECB/BoE/BIS releases (wraps econscope)
     #   CourtListenerSection   — new opinions of consequence (CIT, SCOTUS, federal appeals)
     #   MarketsSection         — FX/yields/indices snapshot
-    #   ForecastSection        — Metaculus + GoodJudgment
+    #   ForecastSection        — Metaculus + GoodJudgment forecast moves
     #   VipFlightsSection      — OpenSky watchlist convergence
 ]
 
 
 def _list_archive(out_dir: Path) -> list[date]:
-    """Return sorted list of dates with existing briefings in the out_dir."""
     out_dir = Path(out_dir)
     if not out_dir.exists():
         return []
@@ -64,53 +69,54 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     store = SnapshotStore()
     today = date.today()
 
-    # WORLDSCOPE_SKIP=sanctions,gdelt_regions  → comma-separated list of sections
-    # to skip entirely (without overwriting their previous snapshot in dist/).
-    # CI sets WORLDSCOPE_SKIP=sanctions so that locally-generated sanctions
-    # content (requires the 2.6 GB OpenSanctions corpus, not in CI) is preserved.
-    import os as _os
-    skip_set = {s.strip() for s in (_os.environ.get("WORLDSCOPE_SKIP") or "").split(",") if s.strip()}
-
-    # 1. Pull every section, compute deltas, synthesize per-section paragraph
-    section_deltas: dict[str, tuple[str, dict]] = {}
+    # 1. Resolve every section (fresh pull OR carry-forward OR stale-after-failure)
+    states: dict[str, SectionState] = {}
     sections_html: list[str] = []
     source_attribution: dict[str, dict] = {}
     for cls in SECTION_REGISTRY:
         if section_ids and cls.id not in section_ids:
             continue
-        if cls.id in skip_set:
-            print(f"[{cls.id}] skipped (WORLDSCOPE_SKIP)")
-            continue
         sec = cls(store=store)
-        delta = sec.delta(today=today)
-        new_ids = {it["_id"] for it in delta["new"]}
-        synth = synthesize(sec.title, delta["all"], new_ids)
-        section_deltas[sec.id] = (sec.title, delta)
-        sections_html.append(sec.render_html(delta, synth))
+        state = sec.resolve(today=today)
+        states[sec.id] = state
+        synth = synthesize(sec.title, state.items, {it.get("_id") for it in state.new})
+        sections_html.append(sec.render_html(state, synth))
         source_attribution[sec.id] = {
             "title": sec.title,
-            "endpoint": getattr(sec, "__module__", ""),
+            "state": state.state,
+            "source_date": state.source_date,
+            "comparison_date": state.comparison_date,
+            "error": state.error,
         }
-        print(f"[{sec.id}] {len(delta['new'])} new / {len(delta['all'])} total")
+        marker = ""
+        if state.state == "carry_forward":
+            marker = f"  (carried from {state.source_date})"
+        elif state.state == "stale_after_failure":
+            marker = f"  (STALE — failed; last good {state.source_date})"
+        elif state.state == "no_data":
+            marker = "  (no data)"
+        print(f"[{sec.id}] state={state.state}  {len(state.new)} new / {len(state.items)} total{marker}")
 
     # 2. Trend stats over the last 14 days
-    trends = {sid: section_trend(store, sid) for sid in section_deltas}
+    trends = {sid: section_trend(store, sid) for sid in states}
 
     # 3. Forthcoming events calendar
     cal_items = upcoming(fetch_calendar(), days=14)
     print(f"[calendar] {len(cal_items)} upcoming items")
 
     # 4. Cross-section overview (the analyst's morning brief)
+    section_deltas = {
+        sid: (s.title, {"all": s.items, "new": s.new})
+        for sid, s in states.items()
+    }
     overview_md = build_overview(today, section_deltas, trends, cal_items)
 
-    # 5. Render HTML page with overview + download link
+    # 5. Render HTML page
     archive = _list_archive(out_dir)
     if today not in archive:
         archive.append(today)
     page = render_page(
-        today,
-        sections_html,
-        out_dir,
+        today, sections_html, out_dir,
         overview_md=overview_md,
         archive_dates=sorted(set(archive)),
     )
@@ -127,7 +133,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         source_attribution=source_attribution,
     )
 
-    # 7. Also save the overview as a sibling markdown for quick reading
+    # 7. Save the overview Markdown side-by-side
     (out_dir / f"{today.isoformat()}.md").write_text(overview_md, encoding="utf-8")
 
     print(f"\n→ page : {page}")
