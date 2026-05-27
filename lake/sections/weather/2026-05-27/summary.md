@@ -2,253 +2,264 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 128
-new_today: 128
+record_count: 145
+new_today: 145
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-128 new of 128 total items today.
+145 new of 145 total items today.
 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 9:02AM PDT until May 28 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc3f87b73953ac9410348210234d84437c59e864.001.1) — *2026-05-27*
-  > * WHAT...Increased threat of sneaker waves expected.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:36PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.148d2cc616a21e03dda0cd6241e717aaf668df5e.001.1) — *2026-05-27*
+  > At 535 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Leary to 13 miles east of Morgan to near
+Albany to near Marine Corps Logistics Base to near Putney. Movement
+was north at 25 mph.
 
-* WHERE...Beaches in Del Norte, Humboldt, and Mendocino counties
-that are exposed to the northwest.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHEN...From Wednesday afternoon through Thursday evening. .
+SOURCE...Radar ind
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 4:36PM CDT until May 27 at 5:15PM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62a40ef122452794718a995491e26855aaaf5ed9.001.1) — *2026-05-27*
+  > SVRGRB
 
-* IMPACTS...Large, unexpected waves can sweep across the beach
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:01AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbadbc307d5872089662eb8a4527dd84590b0e90.001.1) — *2026-05-27*
-  > Dry conditions are forecast this afternoon for portions areas of
-northeast Minnesota north of a line from Walker to Hibbing to Ely.
-Relative humidity values between 20 and 30 percent will lead to
-near-critical fire weather conditions today. East winds of 5 to 10
-mph with gusts up
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued May 27 at 9:01AM PDT until May 27 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3d2be744ab4bd101459db95bfb799341212e56e.001.2) — *2026-05-27*
-  > * WHAT...For the Gale Warning, north winds 20 to 30 kt with
-gusts up to 40 kt and seas 11 to 14 feet expected. For the
-Small Craft Advisory, north winds 25 to 30 kt with gusts up to
-40 kt and seas 11 to 14 feet.
-
-* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
-10 t
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued May 27 at 9:01AM PDT until May 27 at 12:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3d2be744ab4bd101459db95bfb799341212e56e.002.1) — *2026-05-27*
-  > * WHAT...Northwest winds 25 to 30 kt with gusts up to 35 kt and
-seas 12 to 16 feet.
-
-* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
-60 nm.
-
-* WHEN...Until noon PDT today.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels an
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-40343) — *2026-05-27*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:58AM EDT until May 27 at 1:00PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.542638ba825f6869038b77faa594335930a8a067.001.1) — *2026-05-27*
-  > SVRPHI
-
-The National Weather Service in Mount Holly NJ has issued a
+The National Weather Service in Green Bay has issued a
 
 * Severe Thunderstorm Warning for...
-Central Kent County in central Delaware...
-Southwestern Atlantic County in southern New Jersey...
-Southern Cumberland County in southern New Jersey...
-Cape May County in sout
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:58AM EDT until May 27 at 12:30PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb1db4d32a8a537cdac3a01e1c968c8f7fbdf905.001.1) — *2026-05-27*
-  > At 1158 AM EDT, a severe thunderstorm was located over Pleasantville,
-moving southeast at 25 mph.
+South central Marathon County in central Wisconsin...
 
-HAZARD...60 mph wind gusts and penny size hail.
+* Until 515 PM CDT.
+
+* At 435 PM CDT, a severe thunderstorm was located near Mosinee, or
+10 miles south of Wausau, moving so
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:36PM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adb584653b5617776596052318000ce7b9c4d286.001.1) — *2026-05-27*
+  > At 536 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Vale, or 8 miles southwest of Olive Hill, moving east at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Expect damage to trees and power lines.
+IMPACT...Gusty winds could knock down tree limbs and blow around
 
-Locations impacted include...
-Lancaster, Baltimore, Bre
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:56AM EDT until May 27 at 12:30PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8504f03508b97629444dc242ddb3a1001136d659.001.1) — *2026-05-27*
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:36PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b1361adcd323ecfa21c0869fdb3e7f9a5366e7d.001.1) — *2026-05-27*
+  > At 536 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Dunns, or near Pipestem, moving east at 30 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impac
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 4:35PM CDT until May 27 at 7:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1face5a42101b2355b84366809823f3ec4f2b2e4.001.1) — *2026-05-27*
+  > * WHAT...Urban area and small stream flooding caused by excessive
+rainfall continues.
+
+* WHERE...A portion of north central Texas, including the following
+counties, Fannin and Grayson.
+
+* WHEN...Until 700 PM CDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lyi
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 5:32PM EDT until May 27 at 9:00PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.588d355327616995816dd0c03f2e1b41c7e57ea0.001.1) — *2026-05-27*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...The following counties, in west central Ohio, Clark,
+Greene, Miami, Montgomery and Preble.
+
+* WHEN...Until 900 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locati
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:32PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6b7229c514b87338a1d3a2b69aa637848f3edaa.001.1) — *2026-05-27*
+  > At 532 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Centenary, or 15 miles west of Fork Union, moving east at 35 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 4:31PM CDT until May 27 at 4:45PM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.210f18cbccc25bff87e9bbebd224e24142732e75.001.1) — *2026-05-27*
+  > At 431 PM CDT, a severe thunderstorm was located near Weston, or 12
+miles southeast of Wausau, moving southeast at 35 mph.
+
+HAZARD...Golf ball size hail and 60 mph wind gusts.
+
+SOURCE...Public report of golf ball sized hail in Rib Mountain area
+at 425 PM CDT.
+
+IMPACT...People and
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-46754) — *2026-05-27*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 5:30PM EDT until May 27 at 6:15PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.67bf8deb372abcdfb15c96f1d8d24c4a8bf77f1d.001.1) — *2026-05-27*
+  > SVRAKQ
+
+The National Weather Service in Wakefield has issued a
+
+* Severe Thunderstorm Warning for...
+Southern Fluvanna County in central Virginia...
+
+* Until 615 PM EDT.
+
+* At 530 PM EDT, a severe thunderstorm was located near Centenary, or
+16 miles north of Buckingham, moving so
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 5:29PM EDT until May 27 at 5:45PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f82a71d51432b64c46b467008d80a5b9200f1cd4.001.1) — *2026-05-27*
+  > At 528 PM EDT, a severe thunderstorm was located near Schuyler, or 16
+miles south of Charlottesville, moving east at 30 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Damaging winds will cause some trees and large branches to
+fall. Th
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 2:28PM PDT until May 27 at 2:45PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83a852308e23cc3cabe31e6bb32eaee01f916f60.001.1) — *2026-05-27*
+  > At 227 PM PDT, a severe thunderstorm was located near Vee Lake
+Trailhead, or 22 miles northeast of Lakeview, moving west at 35 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+r
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 5:25PM EDT until May 27 at 6:00PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.baf2017629be324e6ad530c47e9455ac1308fc16.001.1) — *2026-05-27*
+  > For the following areas...
+Straits of Florida from west end of Seven Mile Bridge to 20 nm west
+of Dry Tortugas 20 to 60 nm out...
+
+At 525 PM EDT, strong thunderstorms were located along a line
+extending from 49 nm south of Twenty-Eight Foot Shoal Light to 47 nm
+southwest of Wood'
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:24PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6e45c558cdd74500041c3420952a7b3ca8375c8.001.1) — *2026-05-27*
+  > At 524 PM EDT, Doppler radar was tracking a strong thunderstorm 5
+miles north of Newton, or near Conover, moving east at 25 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Loc
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:23PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f5fc13b52c26ea03fd8752f62627d965d138d98.001.1) — *2026-05-27*
+  > At 523 PM EDT, Doppler radar was tracking a strong thunderstorm 7
+miles southeast of Boydton, or 15 miles northwest of Warrenton,
+moving east at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph, heavy rain, and frequent
+lightning.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could k
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 5:22PM EDT until May 27 at 6:15PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.825113c34b3d571f1326f5bbd2c182200c0201c0.001.1) — *2026-05-27*
+  > SVRRNK
+
+The National Weather Service in BLACKSBURG has issued a
+
+* Severe Thunderstorm Warning for...
+Western Alleghany County in west central Virginia...
+Southern Greenbrier County in southeastern West Virginia...
+Northeastern Summers County in southeastern West Virginia...
+Nort
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 3:19PM MDT until May 27 at 4:00PM MDT by NWS Boise ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ddef7a0b3abef8645352c8654d251e5e3d7cc43.001.1) — *2026-05-27*
+  > SVRBOI
+
+The National Weather Service in Boise has issued a
+
+* Severe Thunderstorm Warning for...
+West central Valley County in southwestern Idaho...
+Southeastern Adams County in southwestern Idaho...
+North central Washington County in southwestern Idaho...
+
+* Until 400 PM MDT.
+
+*
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 5:18PM EDT until May 27 at 9:30PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30479af02d4ac693cad4c4f5051625399e8b3523.001.1) — *2026-05-27*
+  > At 518 PM EDT, Doppler radar shows that the earlier training
+thunderstorms responsible for torrential rainfall and flash-flooding
+within the Buffalo Cove watershed have moved well outside of the
+area and weakened.  No additional heavy rainfall is expected.
+However, significant fl
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 5:17PM EDT until May 27 at 6:00PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.114a8a76f9d4fb258c77fb33daee5b579a0a1c7f.001.1) — *2026-05-27*
+  > SVRRNK
+
+The National Weather Service in BLACKSBURG has issued a
+
+* Severe Thunderstorm Warning for...
+The City of Martinsville in south central Virginia...
+Southwestern Henry County in south central Virginia...
+Southeastern Patrick County in southwestern Virginia...
+
+* Until 600 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 4:13PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b716697354bdc5feee6004ca3123ae41f620f854.001.1) — *2026-05-27*
+  > At 413 PM CDT, Doppler radar was tracking a strong thunderstorm
+capable of producing a landspout near Alanreed, or 19 miles north of
+Clarendon, moving east at 20 mph.
+
+HAZARD...Landspouts and wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Minor damage to outdoor ob
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 5:13PM EDT until May 27 at 5:45PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc415a730451f3f3ccc64ed4bfd8b1ca327e6c6.001.1) — *2026-05-27*
   > SVRRLX
 
 The National Weather Service in Charleston West Virginia has issued a
 
 * Severe Thunderstorm Warning for...
-Central Perry County in southeastern Ohio...
+West central Randolph County in northeastern West Virginia...
+Southeastern Lewis County in northern West Virginia...
+Southern Upshur County in northeastern West Vir
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 5:12PM EDT until May 27 at 11:15PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0d5a70b1935beec72773044fb2053130c0f3dba.001.1) — *2026-05-27*
+  > FFWCHS
 
-* Until 1230 PM EDT.
-
-* At 1156 AM EDT, a severe thunderstorm was located over
-Pleasantville, or near Lancaster, movin
-- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued May 27 at 11:51AM EDT until May 27 at 12:15PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45419b9aeb71d3c7f1bc5814de1e70d70e8538a7.001.1) — *2026-05-27*
-  > TORILN
-
-The National Weather Service in Wilmington has issued a
-
-* Tornado Warning for...
-Northeastern Fairfield County in central Ohio...
-
-* Until 1215 PM EDT.
-
-* At 1150 AM EDT, a severe thunderstorm capable of producing a
-tornado was located over Pleasantville, moving southeas
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 10:51AM CDT until May 27 at 11:45AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b1881aa97d3b04e0cf626ab6c511a56b2a5cd58.001.1) — *2026-05-27*
-  > SMWBRO
-
-The National Weather Service in Brownsville has issued a
-
-* Special Marine Warning for...
-Coastal waters from Port Mansfield TX to the Rio Grande River out
-20 NM...
-Laguna Madre From the Port Of Brownsville to the Arroyo Colorado...
-Waters from Port Mansfield TX to the Ri
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:49AM CDT until May 27 at 1:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64708ab6ea98ceddb7e6b9f1e44f29801600302c.001.1) — *2026-05-27*
-  > FFWFWD
-
-The National Weather Service in Fort Worth has issued a
+The National Weather Service in Charleston has issued a
 
 * Flash Flood Warning for...
-Collin County in north central Texas...
+Chatham County in southeastern Georgia...
+Effingham County in southeastern Georgia...
+Jasper County in southeastern South Carolina...
 
-* Until 100 PM CDT.
+* Until 1115 PM EDT Wednesday.
 
-* At 1049 AM CDT, Doppler radar reported thunderstorms producing
-heavy rain across the warned area. The public also reported
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 11:44AM EDT until May 28 at 5:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b366a44f9ea71908ed9cda8810b40e5a8e63e077.001.1) — *2026-05-27*
-  > ...The Flood Warning is extended for the following rivers in Ohio...
+* At 512 PM EDT, Do
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 5:11PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.074e5242693c9038f1401825d52b8bf6c65a77b5.001.1) — *2026-05-27*
+  > At 510 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Maysville, or 10 miles north of Pumpkin Center, moving east at 30
+mph.
 
-Stillwater Creek At Uhrichsville affecting Tuscarawas County.
+HAZARD...Wind gusts up to 50 mph.
 
-* WHAT...Minor flooding is occurring and minor flooding is forecast.
+SOURCE...Radar indicated.
 
-* WHERE...Stillwater Creek at Uhrichsville.
-
-* WHEN...Until late tonight.
-
-* 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 10:32AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12be65246ba0d670133b7bcedfa06eb0e8a8ccdb.001.1) — *2026-05-27*
-  > Relative humidity values will drop to 25| percent or less along
-with east winds 10 to 15 mph gusting around 20 mph at times
-across northwest MN. Near critical fire weather conditions are
-expected for the afternoon and early evening hours today. Any fire
-that does develop has the 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 10:26AM CDT until May 29 at 1:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91488a3b18d5bb8cd96f3f32ef23da15e39572bb.001.1) — *2026-05-27*
-  > * WHAT...High wave action and dangerous currents expected at
-Lake Michigan beaches. Waves 4 to 7 ft expected.
-
-* WHERE...Lake IL, Northern Cook and Central Cook Counties.
-
-* WHEN...From this evening through late Thursday night.
-
-* IMPACTS...Swimming conditions will be life threat
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 10:26AM CDT until May 29 at 4:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91488a3b18d5bb8cd96f3f32ef23da15e39572bb.002.1) — *2026-05-27*
-  > * WHAT...High wave action and dangerous currents expected at
-Lake Michigan beaches. Waves 4 to 6 ft expected.
-
-* WHERE...Lake IN and Porter Counties.
-
-* WHEN...From late tonight through late Thursday night.
-
-* IMPACTS...Swimming conditions will be life threatening,
-especially for
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 11:24AM EDT until May 27 at 1:00PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bfdb10c697bd170d8dc27b63b0f79c123de1ea70.001.1) — *2026-05-27*
-  > SMWPHI
-
-The National Weather Service in Mount Holly NJ has issued a
-
-* Special Marine Warning for...
-Delaware Bay...
-Coastal waters from Great Egg Inlet to Cape May NJ out 20 nm...
-
-* Until 100 PM EDT.
-
-* At 1124 AM EDT, a strong thunderstorm was located 16 nm southwest
-of Woodla
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued May 27 at 8:20AM PDT until May 29 at 3:00AM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9629f419cff03e5ef2956130bddc4719e0954cdf.003.1) — *2026-05-27*
-  > * WHAT...West winds 25 to 35 kt.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured ob
+- **NEW**  [[Moderate] Gale Watch: Gale Watch issued May 27 at 2:08PM PDT until May 29 at 11:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.097c57a4e28e80c4c08a4a39ce2ed004db67600b.003.1) — *2026-05-27*
+  > * WHAT...West winds 30 to 40 kt.
 
 * WHERE...Central U. S. Waters Strait Of Juan De Fuca and East
 Entrance U. S. Waters Strait Of Juan De Fuca.
 
-* WHEN...From Thursday afternoon through late Thursday night.
+* WHEN...From Thursday afternoon through Friday evening.
 
 * IMPACTS...Strong winds can cause hazardous seas which could
-capsize or 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:20AM CDT until May 27 at 12:30PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4dfd5317129c4e69cae92b79c9e79a6f1ddbcc20.001.1) — *2026-05-27*
-  > At 1020 AM CDT, Doppler radar indicated heavy rain continuing to
-fall across the warned area. Between 2 and 3.5 inches of rain have
-fallen just this morning near the Rockwall, Heath, Forney, Crandall,
-and Oak Grove areas. This heavy rain is in addition to rainfall from
-previous d
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued May 27 at 10:16AM CDT until May 27 at 7:00PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.852ea4608f546cf6d7e62ab8e35c89ff3393fd96.001.1) — *2026-05-27*
+capsize or damag
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued May 27 at 5:04PM EDT until May 27 at 10:00PM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd3d9d5ed2b8b52192bf00982c4ce9b3d1c7adc5.002.1) — *2026-05-27*
   > * WHAT...Flooding caused by excessive rainfall continues to be
 possible.
 
-* WHERE...Portions of southeast Louisiana, including the following
-parishes, Assumption, Central Jefferson, Central Plaquemines,
-Central St. Charles, Central Tangipahoa, Coastal Jefferson, East
-Baton Rouge,
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 11:15AM EDT until May 27 at 3:00PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd6ac77e766f6961f70793602ff5381026ed3fed.001.1) — *2026-05-27*
-  > * WHAT...Flooding caused by excessive rainfall is occurring.
+* WHERE...A portion of northern West Virginia, including the
+following areas, Eastern Tucker and Western Tucker.
 
-* WHERE...A portion of western Maryland, including the following
-county, Allegany.
+* WHEN...Until 10 PM EDT this evening.
 
-* WHEN...Until 300 PM EDT.
+* IMPACTS...Excessive runoff may result in flooding 
 
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone locations is imminent
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued May 27 at 11:11AM EDT until May 27 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b934a8a647083d99cc947e86dd51d0af88832a2f.002.1) — *2026-05-27*
-  > * WHAT...Dangerous rip currents.
-
-* WHERE...Coastal Broward County and Coastal Miami Dade County.
-
-* WHEN...Through This evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued May 27 at 11:11AM EDT until May 27 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b934a8a647083d99cc947e86dd51d0af88832a2f.001.1) — *2026-05-27*
-  > * WHAT...Dangerous rip currents.
-
-* WHERE...Coastal Palm Beach County.
-
-* WHEN...Through This evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 11:06AM EDT until May 27 at 1:45PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.466547fdbd4938c1de50086fa2a0b8ecf1c27cea.001.1) — *2026-05-27*
-  > FFWRLX
-
-The National Weather Service in Charleston has extended the
-
-* Flash Flood Warning for...
-North Central Roane County in central West Virginia...
-North Central Braxton County in north central West Virginia...
-Calhoun County in north central West Virginia...
-Gilmer County i
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 9:54AM CDT until May 28 at 3:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f43d42ea68f85961fdb2f10efda6efa05961baf.001.1) — *2026-05-27*
-  > * WHAT...Dangerous swimming conditions are expected due to high
-waves and strong rip currents.
-
-* WHERE...Beaches along Lake Michigan in Manitowoc County.
-
-* WHEN...From 9 PM CDT this evening through late tonight.
-
-* IMPACTS...Dangerous swimming conditions are expected. Strong
-cu
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:51AM CDT until May 27 at 7:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9eeec4b722619a6a15362176413decc45dfbf70d.001.1) — *2026-05-27*
-  > ...The National Weather Service in Fort Worth TX has issued a Flood
-Warning for the following rivers in Texas...
-
-Little River Near Little River affecting Bell County.
-
-* WHAT...Minor flooding is forecast.
-
-* WHERE...Little River near Little River.
-
-* WHEN...Until this evening.
-
-
-
-_(103 additional items in raw.jsonl)_
+_(120 additional items in raw.jsonl)_

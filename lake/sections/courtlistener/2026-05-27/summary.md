@@ -3,13 +3,13 @@ section: courtlistener
 title: Court opinions of consequence (federal)
 date: 2026-05-27
 record_count: 30
-new_today: 3
+new_today: 4
 state: fresh
 ---
 
 ## Court opinions of consequence (federal)
 
-3 new of 30 total items today.
+4 new of 30 total items today.
 
 - **NEW**  [[SCOTUS] Margolin v. NAIJ](https://www.courtlistener.com/opinion/10864190/margolin-v-naij/) — *2026-05-26*
 - [[SCOTUS] Hamm v. Smith](https://www.courtlistener.com/opinion/10862764/hamm-v-smith/) — *2026-05-21*
@@ -34,7 +34,7 @@ state: fresh
 - [[CA3] Mahmoud Khalil v. President United States of America](https://www.courtlistener.com/opinion/10863452/mahmoud-khalil-v-president-united-states-of-america/) — *2026-05-22*
 - [[CA3] United States v. Jabar Evans](https://www.courtlistener.com/opinion/10861274/united-states-v-jabar-evans/) — *2026-05-19*
 - [[CA3] Sociedad Concesionaria Metropolitana de Salud S.A. v. Webuild S.P.A](https://www.courtlistener.com/opinion/10860703/sociedad-concesionaria-metropolitana-de-salud-sa-v-webuild-spa/) — *2026-05-18*
+- **NEW**  [[CA4] Tony Messer v. Garrison Investment Group, LP](https://www.courtlistener.com/opinion/10865167/tony-messer-v-garrison-investment-group-lp/) — *2026-05-26*
 - [[CA4] United States v. Jaron Starkey](https://www.courtlistener.com/opinion/10863746/united-states-v-jaron-starkey/) — *2026-05-22*
-- [[CA4] United States v. Raquan Scott](https://www.courtlistener.com/opinion/10863745/united-states-v-raquan-scott/) — *2026-05-22*
 
 _(5 additional items in raw.jsonl)_

@@ -2,15 +2,21 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-05-27
-record_count: 13
-new_today: 1
+record_count: 16
+new_today: 4
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-1 new of 13 total items today.
+4 new of 16 total items today.
 
+- **NEW**  [CVE-2026-48027 · Nx Nx Console: Nx Console Embedded Malicious Code Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-48027) — *2026-05-27*
+  > vendor: Nx · product: Nx Console · CISA remediation by 2026-06-10
+- **NEW**  [CVE-2026-45321 · TanStack TanStack: TanStack Unspecified Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-45321) — *2026-05-27*
+  > vendor: TanStack · product: TanStack · CISA remediation by 2026-06-10
+- **NEW**  [CVE-2026-8398 · Daemon Daemon Tools Lite: Daemon Tools Lite Embedded Malicious Code Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-8398) — *2026-05-27*
+  > vendor: Daemon · product: Daemon Tools Lite · CISA remediation by 2026-05-30
 - **NEW**  [CVE-2026-48172 · LiteSpeed cPanel Plugin: LiteSpeed cPanel Plugin Privilege Escalation Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-48172) — *2026-05-26*
   > vendor: LiteSpeed · product: cPanel Plugin · CISA remediation by 2026-05-29
 - [CVE-2026-9082 · Drupal Core: Drupal Core SQL Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-9082) — *2026-05-22*
