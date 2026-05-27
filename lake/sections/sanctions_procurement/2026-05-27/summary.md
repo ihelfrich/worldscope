@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-05-27
-record_count: 96
-new_today: 96
+record_count: 95
+new_today: 95
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-96 new of 96 total items today.
+95 new of 95 total items today.
 
 - **NEW**  [[OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5) — *2026-05-21*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5" target="_blank">Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fo
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $912,279,962 → ISOTEK SYSTEMS, LLC: U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHA](https://www.usaspending.gov/award/DEAC0504OR22860) — *2026-05-27*
   > Agency: Department of Energy.  Description: U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHASE I) FOR PROCESSING OF MATERIAL, BUILDING SHUTDOWN (PHASES II AND III)
 
-_(71 additional items in raw.jsonl)_
+_(70 additional items in raw.jsonl)_

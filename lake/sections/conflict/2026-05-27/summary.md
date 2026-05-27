@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United States] Ukrainian war amputee rebuilds after Russian strike killed her husband](https://www.sandiegouniontribune.com/2026/05/27/ukrainian-war-amputee/) — *2026-05-27*
+- **NEW**  [[Germany] New Horizon Aircraft Ltd . Announces Closing of $25 Million Offering of Common Shares](https://www.finanznachrichten.de/nachrichten-2026-05/68611179-new-horizon-aircraft-ltd-announces-closing-of-dollar-25-million-offering-of-common-shares-200.htm) — *2026-05-27*
+  > domain: finanznachrichten.de · language: English · tone:
+- **NEW**  [[Turkey] Coming weeks  important  for Ukraine EU accession process : European Commission chief](https://aa.com.tr/en/europe/coming-weeks-important-for-ukraine-s-eu-accession-process-european-commission-chief/3949996) — *2026-05-27*
+  > domain: aa.com.tr · language: English · tone:
+- **NEW**  [[United States] UBS Flips GE HealthCare ( GEHC ) From Sell to Neutral After a 30 % Stock Decline](https://www.insidermonkey.com/blog/ubs-flips-ge-healthcare-gehc-from-sell-to-neutral-after-a-30-stock-decline-1769141/) — *2026-05-27*
+  > domain: insidermonkey.com · language: English · tone:
+- **NEW**  [[United States] Shooting at Shakopee prayer service leaves one dead](https://kfgo.com/2026/05/27/shooting-at-a-prayer-service-in-shakopee-leaves-one-person-injured/) — *2026-05-27*
+  > domain: kfgo.com · language: English · tone:
+- **NEW**  [[United States] William Blair Initiates on Insulet ( PODD ) With Outperform and Says the Valuation Gap Is Hard to Justify](https://www.insidermonkey.com/blog/william-blair-initiates-on-insulet-podd-with-outperform-and-says-the-valuation-gap-is-hard-to-justify-1769138/) — *2026-05-27*
+  > domain: insidermonkey.com · language: English · tone:
+- **NEW**  [[United States] Several dogs kept in a large trailer spark concern](https://www.krtv.com/news/montana-and-regional-news/several-dogs-kept-in-a-large-trailer-spark-concern-in-billings) — *2026-05-27*
+  > domain: krtv.com · language: English · tone:
+- **NEW**  [[United States] Kalamazoo County issues health advisory for Austin Lake](https://www.wmuk.org/wmuk-news/2026-05-27/kalamazoo-county-issues-health-advisory-for-austin-lake) — *2026-05-27*
+  > domain: wmuk.org · language: English · tone:
+- **NEW**  [[United States] Analysis : US will need years to restock weapons used in Iran War](https://www.koat.com/article/us-replenish-stockpiles-advanced-weapons-iran-war-analysis/71420739) — *2026-05-27*
+  > domain: koat.com · language: English · tone:
+- **NEW**  [[United States] Top drag queen Pattie Gonia breaks the silence on Patagonia lawsuit](https://nypost.com/2026/05/27/us-news/top-drag-queen-pattie-gonia-breaks-the-silence-on-patagonia-lawsuit/) — *2026-05-27*
+  > domain: nypost.com · language: English · tone:
+- **NEW**  [[Taiwan] Awas ! Kisah Sebenar Sustainable Finance Platform – Jangan Sampai Hilang Semua Dana - Navigation Journal](https://blog.udn.com:443/d6e69b85/189336292) — *2026-05-27*
+  > domain: blog.udn.com · language: English · tone:
+- **NEW**  [[United States] Dallas police solve 1986 cold - case killing of Ruby Battee with DNA match](https://www.kwtx.com/2026/05/27/dallas-police-solve-1986-cold-case-killing-ruby-battee-with-dna-match/) — *2026-05-27*
+  > domain: kwtx.com · language: English · tone:
+- **NEW**  [[United States] Typical CEO pay climbs nearly 6 % in 2025 as median reaches $17 . 7 million](https://www.kbzk.com/politics/economy/typical-ceo-pay-climbs-nearly-6-in-2025-as-median-reaches-17-7-million) — *2026-05-27*
+  > domain: kbzk.com · language: English · tone:
+- **NEW**  [[United Kingdom] Andy Burnham accuses Tony Blair of failing to understand modern politics](https://www.echo-news.co.uk/news/national/26144156.andy-burnham-accuses-tony-blair-failing-understand-modern-politics/) — *2026-05-27*
+  > domain: echo-news.co.uk · language: English · tone:
+- **NEW**  [[United States] Teen accused of murdering stepsister on cruise ship avoids immediate jail time](https://abcnews4.com/news/nation-world/teen-accused-of-murdering-stepsister-anna-kepner-timothy-hudson-on-cruise-ship-avoids-immediate-jail-time-miami-florida-courtroom-international-waters-sexual-assault-mechanical-asphyxia-adult-indictment) — *2026-05-27*
+  > domain: abcnews4.com · language: English · tone:
+- **NEW**  [[United States] Parents could face charges if their kids participate in destructive  teen takeover , Florida sheriff vows](https://nypost.com/2026/05/27/us-news/parents-could-face-charges-if-their-kids-participate-in-destructive-teen-takeovers-florida-sheriff-vows/) — *2026-05-27*
+  > domain: nypost.com · language: English · tone:
+- **NEW**  [[United States] Qualitas Dental Partners Expands Acquisition Capacity to Support Continued Growth Across Southern New England](http://www.prnewswire.com/news-releases/qualitas-dental-partners-expands-acquisition-capacity-to-support-continued-growth-across-southern-new-england-302783666.html) — *2026-05-27*
+  > domain: prnewswire.com · language: English · tone:
+- **NEW**  [[United Kingdom] Matthew Perry personal assistant sentenced to three years and five months in prison](http://www.femalefirst.co.uk/celebrity/matthew-perrys-personal-assistant-sentenced-three-years-five-months-prison-1445080.html) — *2026-05-27*
+  > domain: femalefirst.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] Matthew Perry personal assistant jailed for his role in star ketamine death](https://www.dunfermlinepress.com/news/national/26144430.matthew-perrys-personal-assistant-jailed-role-stars-ketamine-death/) — *2026-05-27*
+  > domain: dunfermlinepress.com · language: English · tone:
+- **NEW**  [[United States] Georgia Doctors Tried to Kill a Cannabis Bill](https://hightimes.com/news/georgia-doctors-cannabis-bill-sb220-analysis/) — *2026-05-27*
+  > domain: hightimes.com · language: English · tone:
+- **NEW**  [[United Kingdom] Andy Burnham accuses Tony Blair of failing to understand modern politics](https://www.bracknellnews.co.uk/news/national/26144156.andy-burnham-accuses-tony-blair-failing-understand-modern-politics/) — *2026-05-27*
+  > domain: bracknellnews.co.uk · language: English · tone:
+- **NEW**  [[United States] Don Lemon seeks grand jury transcripts in Minnesota civil rights case , citing misconduct](https://www.sandiegouniontribune.com/2026/05/27/immigration-enforcement-minnesota-don-lemon/) — *2026-05-27*
   > domain: sandiegouniontribune.com · language: English · tone:
-- **NEW**  [[United Kingdom] CBS reporter who feuded with Bari Weiss attacks network after abrupt ouster from 60 minutes](https://www.independent.co.uk/news/world/americas/cbs-sharyn-alfonsi-bari-weiss-60-minutes-b2984754.html) — *2026-05-27*
-  > domain: independent.co.uk · language: English · tone:
-- **NEW**  [[United States] Matthew Perry assistant , Kenneth Iwamasa , sentenced to 3 years , 5 months in prison for central role in his ketamine death](https://6abc.com/post/matthew-perrys-assistant-kenneth-iwamasa-sentenced-injecting-ketamine-killed-actor/19179536/) — *2026-05-27*
-  > domain: 6abc.com · language: English · tone:
-- **NEW**  [[United States] Trump plays mayor showcasing DC renovations](https://www.chicagotribune.com/2026/05/27/trump-cabinet-meeting-dc-renovations/) — *2026-05-27*
-  > domain: chicagotribune.com · language: English · tone:
-- **NEW**  [[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial](https://wflaorlando.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/) — *2026-05-27*
-  > domain: wflaorlando.iheart.com · language: English · tone:
-- **NEW**  [[United States] White House says Americans in Africa exposed to Ebola will be sent to Kenya facility](https://midutahradio.com/news/national-news/white-house-says-americans-in-africa-exposed-to-ebola-will-be-sent-to-kenya-facility/) — *2026-05-27*
-  > domain: midutahradio.com · language: English · tone:
-- **NEW**  [[United States]   The Mandalorian and Grogu  looks incredible until you realize almost nobody is actually acting](https://boingboing.net/2026/05/27/the-mandalorian-and-grogu-looks-incredible-until-you-realize-almost-nobody-is-actually-acting.html) — *2026-05-27*
-  > domain: boingboing.net · language: English · tone:
-- **NEW**  [[United Kingdom] Brit tourist , 20 ,  taken off life support  after horror truck incident in Thailand](https://www.bristolpost.co.uk/news/uk-world-news/brit-tourist-20-taken-life-10986649) — *2026-05-27*
-  > domain: bristolpost.co.uk · language: English · tone:
-- **NEW**  [[United States] Trump administration to send Americans exposed to Ebola to Kenyan facility](https://www.wbaltv.com/article/trump-administration-ebola-treatment-facility-kenya/71423132) — *2026-05-27*
-  > domain: wbaltv.com · language: English · tone:
-- **NEW**  [[United States] Loris man pleads guilty to fentanyl trafficking](https://www.wmbfnews.com/2026/05/27/loris-man-pleads-guilty-fentanyl-trafficking/) — *2026-05-27*
-  > domain: wmbfnews.com · language: English · tone:
-- **NEW**  [[United States] Two killed when Jeep veers off Interstate 8 into tree in El Cajon](https://timesofsandiego.com/crime/2026/05/27/two-killed-when-jeep-veers-off-interstate-8-into-tree-in-el-cajon/) — *2026-05-27*
-  > domain: timesofsandiego.com · language: English · tone:
-- **NEW**  [[United Kingdom] Priest accused of using info from confessional booth to push mentally ill tenant out of rent - stabilized NYC apartment](https://www.independent.co.uk/news/world/americas/nyc-rent-stabilized-apartment-lawsuit-priest-confessional-b2984656.html) — *2026-05-27*
-  > domain: independent.co.uk · language: English · tone:
-- **NEW**  [[Australia] QBE : female riders surge 128 %, what driving the boom ? | The Singleton Argus](https://www.singletonargus.com.au/story/9254654/qbe-female-riders-surge-128-whats-driving-the-boom/) — *2026-05-27*
-  > domain: singletonargus.com.au · language: English · tone:
-- **NEW**  [[United States] Live snakes , dead bears and brain worms : RFK Jr wild animal antics](https://www.yahoo.com/news/politics/articles/live-snakes-dead-bears-brain-162327602.html) — *2026-05-27*
-  > domain: yahoo.com · language: English · tone:
-- **NEW**  [[United States] More people are going hungry now than at the height of the pandemic](https://www.northcountrypublicradio.org/news/npr/nx-s1-5836441/more-people-are-going-hungry-now-than-at-the-height-of-the-pandemic) — *2026-05-27*
-  > domain: northcountrypublicradio.org · language: English · tone:
-- **NEW**  [[United Kingdom] Homicide : Life on the Street](https://www.tvguide.co.uk/schedule/a26a5828-7a53-5940-bec0-a61a1e846cd0/homicide-life-on-the-street) — *2026-05-27*
-  > domain: tvguide.co.uk · language: English · tone:
-- **NEW**  [[United States] Entertainment News](https://k99wigm.com/entertainment-news/27c7d2158d643349cb4fae5c60de0694) — *2026-05-27*
-  > domain: k99wigm.com · language: English · tone:
-- **NEW**  [[United Kingdom] Shock as Tesco security guard chokes on doughnut and collapses at work](https://www.bristolpost.co.uk/news/uk-world-news/shock-tesco-security-guard-chokes-10986734) — *2026-05-27*
-  > domain: bristolpost.co.uk · language: English · tone:
-- **NEW**  [[Nigeria] Every year in Ijebu - Ode , history arrives on horseback](https://www.thecable.ng/every-year-in-ijebu-ode-history-arrives-on-horseback/) — *2026-05-27*
-  > domain: thecable.ng · language: English · tone:
-- **NEW**  [[United States] Oil prices fall as markets monitor state of play on US - Iran situation](https://www.channelnewsasia.com/world/oil-prices-stocks-wall-street-us-iran-deal-6145721) — *2026-05-27*
-  > domain: channelnewsasia.com · language: English · tone:
-- **NEW**  [[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline](https://www.wfmynews2.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382) — *2026-05-27*
-  > domain: wfmynews2.com · language: English · tone:
-- **NEW**  [[Canada] Authorities say 2nd person has died after chemical tank implosion at U . S . paper mill](https://www.cbc.ca/news/world/longview-washington-deadly-chemical-tank-implosion-9.7214133) — *2026-05-27*
-  > domain: cbc.ca · language: English · tone:
-- **NEW**  [[United States] 10 Perfect Horror Movies That Are About 90 Minutes Long](https://collider.com/perfect-horror-movies-90-minutes-long/) — *2026-05-27*
-  > domain: collider.com · language: English · tone:
-- **NEW**  [[India]   He is in Lord Shiva abode : Hyderabad mountaineer family decides to leave his body on Everest | Indiablooms](https://www.indiablooms.com/news/he-is-in-lord-shivas-abode-hyderabad-mountaineers-family-decides-to-leave-his-body-on-everest/details) — *2026-05-27*
-  > domain: indiablooms.com · language: English · tone:
-- **NEW**  [[United States] EU Tech Sovereignty Package Debuts as CISA Own Cloud Keys Sat Exposed for Months](https://www.techtimes.com/articles/317285/20260527/eu-tech-sovereignty-package-debuts-cisas-own-cloud-keys-sat-exposed-months.htm) — *2026-05-27*
-  > domain: techtimes.com · language: English · tone:
+- **NEW**  [[United States] Phillip Wright Obituary | 2026 | The Duncan Banner](https://obituaries.duncanbanner.com/obituary/phillip-wright-1093810540) — *2026-05-27*
+  > domain: obituaries.duncanbanner.com · language: English · tone:
+- **NEW**  [[United States] Montana hurries to adopt Trump Medicaid Work Rules amid budget woes](https://www.kbzk.com/lifestyle/your-health-matters/montana-hurries-to-adopt-trumps-medicaid-work-rules-amid-budget-woes) — *2026-05-27*
+  > domain: kbzk.com · language: English · tone:
+- **NEW**  [[Nigeria] Barcelona set to sign Gordon for €80m - The Nation Newspaper](https://thenationonlineng.net/barcelona-set-to-sign-gordon-for-e80m/) — *2026-05-27*
+  > domain: thenationonlineng.net · language: English · tone:
+- **NEW**  [[United States] Align Technology ( ALGN ): Record Aligner Shipments and Stifel Stays Bullish at $210](https://www.insidermonkey.com/blog/align-technology-algn-record-aligner-shipments-and-stifel-stays-bullish-at-210-1769131/) — *2026-05-27*
+  > domain: insidermonkey.com · language: English · tone:
 
 _(15 additional items in raw.jsonl)_

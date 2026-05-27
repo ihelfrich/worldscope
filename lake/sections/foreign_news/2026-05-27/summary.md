@@ -11,55 +11,32 @@ state: fresh
 
 886 new of 886 total items today.
 
-- **NEW**  [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-27*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-27*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Israel issues evacuation order for swathes of southern Lebanon](https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The military says areas south of the Zahrani River are now "combat zones" as it threatens Hezbollah with fresh strikes.
-- **NEW**  [[Global] Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns](https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Tedros Adhanom Ghebreyesus said fighting in DR Congo was hampering efforts to stop spread
-- **NEW**  [[Global] Trump says US 'not satisfied' with Iran deal yet](https://www.bbc.com/news/articles/c74dy9jw1q9o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The US president says he believes Iran wants to reach a deal but there is still no agreement on its terms.
-- **NEW**  [[Global] Five people found alive after week trapped in flooded Laos cave](https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The search is continuing for a further two villagers who are still missing, rescuers say.
-- **NEW**  [[Global] Israeli strike in Gaza City kills new head of Hamas's military wing](https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Hamas says Mohammed Odeh was killed alongside his wife and two children in a strike on a residential building.
-- **NEW**  [[Global] Woman caught after 30 years on the run is jailed for armed robberies](https://www.bbc.com/news/articles/cx21dr3lekpo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Klette was finally caught in a flat in Berlin in 2024 and put on trial last year.
-- **NEW**  [[Global] One killed and nine missing after chemical explosion at US paper mill](https://www.bbc.com/news/articles/cj9ppm94xw9o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Nine others were injured and another nine are missing after a tank ruptured at a paper mill in Longview, Washington.
-- **NEW**  [[Global] Hotel that refused to give tourist tap water acted lawfully, Italian court rules](https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The Italian Supreme Court rejected a tourist's claim that her consumer rights were breached when she was only offered €7 bottled mineral water.
-- **NEW**  [[Global] Ghana welcomes Pope's apology over Catholic Church's role in slavery](https://www.bbc.com/news/articles/cwy2d6j14l5o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The West African nation was one of the main gateways for the transatlantic slave trade.
-- **NEW**  [[Global] Trump-backed challenger beats veteran US senator in Texas primary](https://www.bbc.com/news/articles/clypprglrlyo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Ken Paxton's victory sets up what will be a closely watched contest in November's midterm elections.
-- **NEW**  [[Global] South Korea detains dissident who fled China in rubber boat](https://www.bbc.com/news/articles/c87q2pdwpw3o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Dong Guangping, an activist and former police officer, spent hours at sea before reaching Korean waters.
-- **NEW**  [[Global] YouTuber arrested for allegedly using AI to defame Korean actor](https://www.bbc.com/news/articles/c759y6pvezgo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The YouTuber allegedly made false claims that fuelled a career-ending scandal for Kim Soo-hyun.
-- **NEW**  [[Global] Nasa unveils next steps to build permanent Moon base](https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > Nasa plans to send hopping drones and roving vehicles to the Moon as part of plans for a permanent Moon base.
-- **NEW**  [[Global] Iran condemns US strikes as 'gross violation' of ceasefire](https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > The attacks took place while Iranian and Qatari negotiators were in Doha for peace talks.
-- **NEW**  [[Global] First Ghanaians evacuated from South Africa over immigration protests land in Accra](https://www.bbc.com/news/articles/cy0269pwxg3o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > It follows recent protests that have led to fears there could be a resurgence in xenophobic violence.
-- **NEW**  [[Global] Major film union in India calls for boycott of superstar Ranveer Singh](https://www.bbc.com/news/articles/c0q2y01jqk9o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Singh is facing industry backlash over his decision to exit from the upcoming Bollywood film Don 3.
-- **NEW**  [[Global] Hundreds of children die within months as measles cases soar in Bangladesh](https://www.bbc.com/news/articles/cwy2d5d7wn5o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The country has recorded more than 60,000 suspected cases of measles in just over two months.
-- **NEW**  [[Global] Almost 500,000 Russian soldiers killed in Ukraine war, GCHQ says](https://www.bbc.com/news/articles/c4g44gprnnvo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > GCHQ's director Anne Keast-Butler set out the threats facing the UK in her inaugural public speech.
-- **NEW**  [[Global] The world's carmakers are struggling to compete with China](https://www.bbc.com/news/articles/c4g8vg72z43o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The BBC visited China’s EV factories and found they are dominating the ecosystems shaping the global auto industry.
-- **NEW**  [[Global] Can EU find a Russia whisperer to mediate an end to war in Ukraine?](https://www.bbc.com/news/articles/cqxpp73wqero?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > With the US pulling out of trilateral talks with Russia and Ukraine, the EU is looking for potential candidates to step in.
-- **NEW**  [[Global] India's communists once ruled millions. What happened to them?](https://www.bbc.com/news/articles/cwy2gr1rpnqo?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > The story of the rise and decline of India’s communists - from ruling states to struggling for relevance.
-- **NEW**  [[Global] Why temperature records are being not only broken but smashed](https://www.bbc.com/news/articles/c62rrj66p3eo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The combined effects of a heat dome and climate change have brought extreme warmth to western Europe.
-- **NEW**  [[Global] Wave of child abuse cases shakes schools in Paris](https://www.bbc.com/news/articles/c8e8gx2d7j4o?at_medium=RSS&at_campaign=rss) — *2026-05-25*
-  > A school assistant goes on trial accused of sexual mistreatment of children in his care, in the latest case to rock the Paris school system.
+- **NEW**  [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-27*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] US building Ebola quarantine center in Kenya for Americans amid outbreak](https://www.theguardian.com/us-news/2026/may/27/trump-administration-ebola-quarantine-kenya) — *2026-05-27*
+- **NEW**  [[Global] WHO chief calls for DRC ceasefire to tackle Ebola outbreak](https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola) — *2026-05-27*
+- **NEW**  [[Global] Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO](https://www.theguardian.com/world/2026/may/25/spread-of-ebola-in-drc-outpacing-response-efforts-warns-who) — *2026-05-25*
+- **NEW**  [[Global] ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana](https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court) — *2026-05-25*
+- **NEW**  [[Global] Canada to order military plane fleet from Sweden in shift from US suppliers](https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft) — *2026-05-27*
+- **NEW**  [[Global] President Sheinbaum allows Iran team to stay in Mexico during World Cup after US refusal](https://www.theguardian.com/world/2026/may/25/mexico-fifa-iran-team) — *2026-05-26*
+- **NEW**  [[Global] Venezuela inmates occupy prison roof and set fire to mattresses to highlight alleged abuse](https://www.theguardian.com/world/2026/may/25/venezuela-inmates-occupy-prison-roof-protest-alleged-abuses) — *2026-05-25*
+- **NEW**  [[Global] Five villagers found alive in Laos cave as search continues for two missing](https://www.theguardian.com/world/2026/may/27/five-villagers-found-alive-in-laos-cave-as-search-continues-for-two-missing) — *2026-05-27*
+- **NEW**  [[Global] Samsung memory chip staff in line for £310,000 bonuses after AI profit-sharing deal](https://www.theguardian.com/technology/2026/may/27/samsung-memory-chip-staff-bonuses-ai-profit-sharing-deal) — *2026-05-27*
+- **NEW**  [[Global] Dissident detained in South Korea after fleeing China in rubber boat](https://www.theguardian.com/world/2026/may/27/dissident-dong-guangping-south-korea-flee-china-rubber-boat) — *2026-05-27*
+- **NEW**  [[Global] ‘Makes no sense’: experts doubt pause in US arms sale to Taiwan is due to Iran war](https://www.theguardian.com/world/2026/may/27/us-arms-sales-to-taiwan-pause-unlikely-due-to-iran-war-experts) — *2026-05-27*
+- **NEW**  [[Global] Thai rescuers join effort to free seven people trapped in Laos cave](https://www.theguardian.com/world/2026/may/25/laos-flooded-cave-thai-rescuers) — *2026-05-25*
+- **NEW**  [[Global] Australia politics live: Labor spruiks plan for automatic $3,000 compensation payment to scam victims](https://www.theguardian.com/australia-news/live/2026/may/28/australia-politics-live-rishworth-jobseeker-capital-gains-tax-jim-chalmers-anthony-albanese-angus-taylor-question-time-senate-estimates-ntwnfb) — *2026-05-27*
+- **NEW**  [[Global] New NDIS eligibility rules will cut 241,000 participants from scheme in four years, documents reveal](https://www.theguardian.com/australia-news/2026/may/28/ndis-document-reveals-241000-disability-participants-cut-in-four-years) — *2026-05-27*
+- **NEW**  [[Global] Soft toys, memes and a movie villain: Labor tries to simplify the message but selling a budget isn’t child’s play](https://www.theguardian.com/australia-news/2026/may/27/soft-toys-memes-and-a-movie-villain-labor-tries-to-simplify-the-message-but-selling-a-budget-isnt-childs-play) — *2026-05-27*
+- **NEW**  [[Global] Lord Howe Island got rid of its rats and mice – now its ‘wonderful’ insect life is back](https://www.theguardian.com/australia-news/2026/may/27/lord-howe-island-got-rid-of-its-rats-and-mice-now-cockroaches-and-bugs-are-bouncing-back) — *2026-05-27*
+- **NEW**  [[Global] ‘Gone forever’: political anger after NSW Aboriginal heritage site bulldozed for power lines](https://www.theguardian.com/environment/2026/may/27/aboriginal-rock-shelter-destroyed-power-line-contractors-nsw-renewable-energy-zone-ntwnfb) — *2026-05-27*
+- **NEW**  [[Global] Nearly half a million Russians killed in Ukraine war, UK spy chief says](https://www.theguardian.com/world/2026/may/27/nearly-half-a-million-russians-killed-in-ukraine-war-uk-spy-chief-says) — *2026-05-27*
+- **NEW**  [[Global] Brexiters peddled ‘nationalistic pish’, said Reform UK’s Makerfield candidate](https://www.theguardian.com/politics/2026/may/27/brexiters-peddled-nationalistic-pish-said-reform-uk-makerfield-candidate) — *2026-05-27*
+- **NEW**  [[Global] ‘Put an end to this war’: Russian director Andrey Zvyagintsev makes new plea to Putin](https://www.theguardian.com/film/2026/may/27/russian-director-andrey-zvyagintsev-makes-appeal-to-putin) — *2026-05-27*
+- **NEW**  [[Global] UK will get no special treatment from EU, European ministers say](https://www.theguardian.com/world/2026/may/27/uk-will-get-no-special-treatment-eu-european-ministers-say) — *2026-05-27*
+- **NEW**  [[Global] Zelenskyy asks Trump for help with air defences as Russia continues attacks – as it happened](https://www.theguardian.com/world/live/2026/may/27/spain-pedro-sanchez-pope-leo-heatwave-ukraine-latest-updates-europe-live-news) — *2026-05-27*
+- **NEW**  [[Global] Middle East crisis: Rubio says ‘some progress’ on US-Iran deal after Trump says ‘maybe we’ll just have to finish the job’ – as it happened](https://www.theguardian.com/world/live/2026/may/27/iran-war-us-update-live-israel-lebanon-strikes-latest-news-ceasefire-peace-talks-middle-east-live-updates) — *2026-05-27*
 
 _(861 additional items in raw.jsonl)_
