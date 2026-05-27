@@ -49,13 +49,13 @@ state: fresh
   > Російські війська 27 травня атакували дитячий майданчик у Корабельному районі Херсона, мама з доньками поранені, загинув чоловік.
 - **NEW**  [[TITLE: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на Україну | LEDE: У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгре] (uk: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на У)](https://www.pravda.com.ua/news/2026/05/27/8036662/) — *2026-05-27*
   > У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгресу США йшлося про атаку РФ із використанням балістичних ракет середньої дальності "Орєшнік".
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- **NEW**  [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Northolt Treaty Deepens UK-Poland Defense Ties Amid Fears for NATO’s Future](https://www.kyivpost.com/post/76993) — *2026-05-27*
+  > UK Prime Minister Sir Keir Starmer and Polish Prime Minister Donald Tusk have signed the Northolt Treaty, a defense and security pact that will strengthen air defense cooperation and joint efforts against Russian hybrid threats, as well as joint action plan on irregular migration
 
 _(113 additional items in raw.jsonl)_

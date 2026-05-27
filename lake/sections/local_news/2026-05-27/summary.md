@@ -2,21 +2,21 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-27
-record_count: 225
-new_today: 225
+record_count: 265
+new_today: 265
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-225 new of 225 total items today.
+265 new of 265 total items today.
 
 - **NEW**  [[St. Louis] Missouri Supreme Court rejects challenge to governor’s power to call special sessions](https://www.stlpr.org/government-politics-issues/2026-05-27/missouri-supreme-court-rejects-challenge-governors-power-special-sessions) — *2026-05-27*
 - **NEW**  [[St. Louis] St. Louis economic development panel takes aim at data center critics, calls many concerns ‘myths’](https://www.stlpr.org/economy-business/2026-05-27/st-louis-economic-development-data-centers-myths) — *2026-05-27*
 - **NEW**  [[St. Louis] St. Louis police promise transparency as oversight board approves drone program](https://www.stlpr.org/news-briefs/2026-05-27/st-louis-police-approves-drone-program) — *2026-05-27*
 - **NEW**  [[St. Louis] Abortion-rights coalition launches campaign against Missouri’s Amendment 3](https://www.stlpr.org/health-science-environment/2026-05-27/abortion-rights-coalition-launches-campaign-against-missouris-amendment-3) — *2026-05-27*
-- **NEW**  [[St. Louis] Plan to redevelop downtown St. Louis riverfront moves ahead despite fire that destroyed key buildings](https://www.stlpr.org/economy-business/2026-05-27/gateway-south-redevelop-downtown-st-louis-riverfront-fire) — *2026-05-27*
 - **NEW**  [[St. Louis] Immigrants held by ICE are neglected at the Ste. Genevieve County jail, lawmakers say](https://www.stlpr.org/government-politics-issues/2026-05-27/immigrants-held-by-ice-neglected-ste-genevieve-county-jail-lawmakers-say) — *2026-05-27*
+- **NEW**  [[St. Louis] Plan to redevelop downtown St. Louis riverfront moves ahead despite fire that destroyed key buildings](https://www.stlpr.org/economy-business/2026-05-27/gateway-south-redevelop-downtown-st-louis-riverfront-fire) — *2026-05-27*
 - **NEW**  [[St. Louis] Tornado recovery advocates and downtown investors are divided on Rams settlement spending](https://www.stlpr.org/government-politics-issues/2026-05-26/tornado-recovery-advocates-downtown-investors-divided-rams-settlement-spending) — *2026-05-26*
 - **NEW**  [[St. Louis] Missouri lawmakers likely will try property tax reform again after failing this year](https://www.stlpr.org/government-politics-issues/2026-05-26/missouri-lawmakers-will-try-property-tax-reform-again-after-failing) — *2026-05-26*
 - **NEW**  [[St. Louis] Heart of St. Charles venue that hosted thousands of wedding receptions to be demolished](https://www.stlpr.org/news-briefs/2026-05-26/heart-of-st-charles-wedding-venue-demolished) — *2026-05-26*
@@ -41,8 +41,8 @@ state: fresh
   > <p>A few weeks ago, I interviewed Laura Dooley, owner of LoKey Designs, and Nicole Walter, greenhouse buyer for Garden Heights Nursery, for the latest episode of my podcast House of Lou. Naturally, we talked about plants — but specifically about how to decorate with them. I left 
 - **NEW**  [[St. Louis] Every St. Louis parent eventually ends up shopping at Dierbergs for the car carts alone](https://www.stlmag.com/family/dierbergs-car-cart/) — *2026-05-27*
   > <p>As someone who works almost exclusively from home, I’m always looking for any excuse to leave the house. This often translates into frequent trips to the grocery store. Are we out of butter? I’m going to the grocery store. Do we need one single toothpick? Grocery store. And as
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-05-27*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Jill Biden says she feared Joe Biden was having a stroke during disastrous 2024 debate](https://www.ksdk.com/article/news/nation-world/jill-biden-feared-joe-biden-was-having-a-stroke-during-disastrous-2024-debate/507-47b13adc-9e16-4d6a-8336-5251c16e49df) — *2026-05-27*
+  > “I was frightened, because I had never ever seen Joe like that before or since. Never,” Jill Biden told CBS News in an interview scheduled to air Sunday.
 - **NEW**  [[St. Louis] SpaceX's Starship rockets are grounded pending investigation after test flight](https://www.ksdk.com/article/news/nation-world/spacex-starship-rockets-grounded-pending-investigation/507-99d64729-86ad-4598-b857-7440bc6a45a8) — *2026-05-27*
   > Minutes after Starship blasted off from Texas on Friday, the booster separated as normal, but engines conked out as it made its way back to Earth.
 - **NEW**  [[St. Louis] FBI warns of new phishing tool targeting Microsoft 365 accounts](https://www.ksdk.com/article/news/nation-world/fbi-warning-phishing-tool-kali365-microsoft-accounts/507-1562564a-be79-4073-b4d9-b64f1c666456) — *2026-05-27*
@@ -52,4 +52,4 @@ state: fresh
 - **NEW**  [[St. Louis] Second person charged in murder of Steak 'n Shake employee](https://www.ksdk.com/article/news/crime/second-person-charged-murder-steak-n-shake-employee/63-bf67baaf-79e2-4bbf-bd17-58ceba37aa16) — *2026-05-27*
   > A second person was charged in a deadly Steak ’n Shake shooting after a drive-thru dispute that killed employee Chauncia Meekins in April.
 
-_(200 additional items in raw.jsonl)_
+_(240 additional items in raw.jsonl)_

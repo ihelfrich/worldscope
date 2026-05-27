@@ -1,14 +1,5 @@
 {
-  "anomalies": [
-    {
-      "category": "feed-failure",
-      "description": "[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError",
-      "evidence": [
-        "local-news-error-st--louis-st--louis-post-dispatch"
-      ],
-      "z_score": null
-    }
-  ],
+  "anomalies": [],
   "date": "2026-05-27",
   "entities_added": [
     {
@@ -51,12 +42,61 @@
       "type": "org"
     },
     {
+      "canonical_name": "St. Louis Post-Dispatch",
+      "id": "org:newsroom-st--louis-post-dispatch",
+      "metadata": {
+        "city": "St. Louis",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Atlanta",
+      "id": "place:city-atlanta",
+      "metadata": {
+        "kind": "us-city",
+        "state": "Georgia"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "11Alive (WXIA)",
+      "id": "org:newsroom-11alive--wxia",
+      "metadata": {
+        "city": "Atlanta",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "Riverfront Times (via Google News)",
       "id": "org:newsroom-riverfront-times--via-google-news",
       "metadata": {
         "city": "St. Louis",
         "kind": "newsroom",
         "tier": "aggregator"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Atlanta Civic Circle",
+      "id": "org:newsroom-atlanta-civic-circle",
+      "metadata": {
+        "city": "Atlanta",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "FOX 5 Atlanta",
+      "id": "org:newsroom-fox-5-atlanta",
+      "metadata": {
+        "city": "Atlanta",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
       },
       "type": "org"
     },
@@ -71,47 +111,8 @@
       "type": "org"
     },
     {
-      "canonical_name": "Atlanta",
-      "id": "place:city-atlanta",
-      "metadata": {
-        "kind": "us-city",
-        "state": "Georgia"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Atlanta Civic Circle",
-      "id": "org:newsroom-atlanta-civic-circle",
-      "metadata": {
-        "city": "Atlanta",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "SaportaReport",
       "id": "org:newsroom-saportareport",
-      "metadata": {
-        "city": "Atlanta",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "11Alive (WXIA)",
-      "id": "org:newsroom-11alive--wxia",
-      "metadata": {
-        "city": "Atlanta",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Georgia Public Broadcasting",
-      "id": "org:newsroom-georgia-public-broadcasting",
       "metadata": {
         "city": "Atlanta",
         "kind": "newsroom",
@@ -130,16 +131,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "Atlanta Magazine",
-      "id": "org:newsroom-atlanta-magazine",
-      "metadata": {
-        "city": "Atlanta",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Atlanta News First (formerly CBS46) (via Google News)",
       "id": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
       "metadata": {
@@ -150,21 +141,41 @@
       "type": "org"
     },
     {
-      "canonical_name": "FOX 5 Atlanta",
-      "id": "org:newsroom-fox-5-atlanta",
+      "canonical_name": "Atlanta Magazine",
+      "id": "org:newsroom-atlanta-magazine",
       "metadata": {
         "city": "Atlanta",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
       "type": "org"
+    },
+    {
+      "canonical_name": "Georgia Public Broadcasting",
+      "id": "org:newsroom-georgia-public-broadcasting",
+      "metadata": {
+        "city": "Atlanta",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Atlanta Journal-Constitution (via Google News)",
+      "id": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "metadata": {
+        "city": "Atlanta",
+        "kind": "newsroom",
+        "tier": "aggregator"
+      },
+      "type": "org"
     }
   ],
   "entities_updated": [],
-  "new_count": 225,
+  "new_count": 265,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 225,
+  "record_count": 265,
   "relationships": [
     {
       "evidence": [
@@ -204,7 +215,7 @@
     },
     {
       "evidence": [
-        "14b6f76792ef83cb66af57e540faf6617b73f662"
+        "3aa516e919edf52416ba2a3627f821071673147b"
       ],
       "from": "org:newsroom-st--louis-public-radio",
       "to": "place:city-st--louis",
@@ -213,7 +224,7 @@
     },
     {
       "evidence": [
-        "3aa516e919edf52416ba2a3627f821071673147b"
+        "14b6f76792ef83cb66af57e540faf6617b73f662"
       ],
       "from": "org:newsroom-st--louis-public-radio",
       "to": "place:city-st--louis",
@@ -342,6 +353,15 @@
         "7732439b872dfdf90d76ac1fa11b8d2ef595cf11"
       ],
       "from": "org:newsroom-st--louis-magazine",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1f2dace64e2a6d714230d0ea11284b1fed0b7461"
+      ],
+      "from": "org:newsroom-ksdk-5-on-your-side",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
@@ -699,388 +719,91 @@
     },
     {
       "evidence": [
-        "da1994392216883f2bb9c7e1af3343091e092946"
+        "c3198684b188b4de5a4d41948ef2a986354fffbd"
       ],
-      "from": "org:newsroom-ksdk-5-on-your-side",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "cd93179399e8760a4fc22621e47dcea439e46ab0"
+        "38ae81f6ac920ce55dad2eac3f80d3f4b2259a4a"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "fb6cf90b1409b52c89b6dc2a528965949bd41f07"
+        "1bd760795c1ea67dfecfacbf0baed2f4dc00b7bd"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "572084f088e78bedf2f21ec03f55c0d90f2ecc3a"
+        "742ff54e5f4ffd5dc0037a1acbd44931d718d767"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "fb48c3ba662a21051053e44f82f9a67fc61f651d"
+        "196791ff8ffd7a8e7583e310504049b7c9f98d17"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "741e26fb3fc00f6d001fa58a58ebb7f2f0f74313"
+        "7bd8067f70cb23cf2a954653db25379466b37304"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "404e8126bc1b2ddd9dc358dd0556d70c29cf7adf"
+        "d11f5ba54bd8004abff6094a45707cf865704a1a"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "73c05f3e09664882ea989f4cbf3ae556856b91f9"
+        "53fe03beb69be94c0287f4db3b69d89056ce2d32"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4d95882a6565d5a74045827c149c8678eb66cd8a"
+        "ed8db4d4e5f6deef58c4e7baa3ebafe2385bb4c3"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "77333548c48b665d5837e4e5ebc343b25ab3d989"
+        "9ec2d084095f7ef1f062cdf55b5b1daa21591d43"
       ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
+      "from": "org:newsroom-st--louis-post-dispatch",
       "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d8bc7463cc314b4991de9817a184bc3df1e1ba50"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e01a85b5d283c94ef32c1041e83ad70c0208facc"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3a473a75cdc27b3f10f35b9df3e89b7a484e4ccb"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "38324851d07bc07e8ec106e81330134d132a5bc9"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0793012416453026634061203c32d5d9e0187411"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "26bcc3d427eb2b28a3223355a0d39c028a961527"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d1b2ff29d3cb6ebe4483c434e744aa3dd7a6d9d2"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "01cce957b7d41013b7d851161a5f66778838d478"
-      ],
-      "from": "org:newsroom-riverfront-times--via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "424e777932f5cbfb93d39c148342fc11e918e8e1"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "75236eabfd1809b3ae7beb1bfda9f1bb557030db"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8fd4ae48dfd27983695b73b18597452afabca3c9"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d7ea2fdca7585b72ae1bc0632066b260d19a4e85"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a1d0d6acf3ea1d73dbd16fa611abdb2a530504c9"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ecaf31c78648dcc577a141f79b8448c3ad0866b0"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c7a0a9defb2e09f7d4f13e8284257324ac23e6f2"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a47da5af6642f10782e6c7f7c12c060dd10197e1"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "15e95107fb43aa74a00c4267654374a080055df6"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b572367487c0737bc8186c4901ecc1e40044071a"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "be4f57da89fae96e35eae006b60108d883fd3ef6"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a5db8a25f09d3f2ce57ad75583f29f6b37d958d5"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c44e9c2dfd6441601ce69fb4518b1ceaf0617d16"
-      ],
-      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a2dfbee278f689ae4e5197e20c0b7727120ab59e"
-      ],
-      "from": "org:newsroom-atlanta-civic-circle",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ffedec4b8787ec3aaab19963030c0141c319f404"
-      ],
-      "from": "org:newsroom-atlanta-civic-circle",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "bf458af89f53b9199b1505e3390b44a6ebadf9db"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2c02cff7ab64e9b81db1c1266b91f133f4bfbba6"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2af57eca40a2f4cbfdeb05df2db79f41bd175786"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0c0374b1a1db26c0ca47e9d2a08d1b49b398b8ee"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9bde1f761f912560a0daf3c59ee46b6822927a00"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1e69e4f292f375fc4675cabf17e0bae15a1cf3a2"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c4d1af253949fe5a655b14de1ece37645ae43573"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "56728e1de7f975af70cddc9dfa180c76d6214946"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1caae4944393b91a535bee88cc97d97c99c3da1e"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "efb4a84a998d5cd6691d0e5b0302aa65695bcfcf"
-      ],
-      "from": "org:newsroom-saportareport",
-      "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1446,513 +1169,171 @@
     },
     {
       "evidence": [
-        "4b8370fa318863b041c4c724374ad5477daa183d"
+        "cd93179399e8760a4fc22621e47dcea439e46ab0"
       ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "bb4b39e2b600d4f44af691eef9dc525297b2e9c8"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5b5a7a7e55863754f93ccf4ce717b9bb04c506d4"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8fd3cbae4df4ec80c4e1c566cbb0bdef802275c7"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c57b2d51c6561aefd551f926f23946581038df66"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d5c2d77d7551a35c836ebbed082532670ba57051"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "55a1ce55d35776742b0be6ef379e48b1532f578c"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f63826ad1c60daa76b2bb71d75f97fe6af9c0295"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf7fc749489a2e89c38e36cff31366599e6117f1"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fdfcb4454593daf1884387db97084dd191a4ad0c"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "503e4e7c78ad8610fe3ea842b7e0bacc403acc3a"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0844f40741c98cb5f2eeb3dc2199c982f41a3f04"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9ded0f9aa579cdc38b0cb114be87cffd193859ef"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "120f5d47e8f082c699977d322e6a42b464ebe790"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "34392f345a8323c7cc52c37457b5d3bc808fe5f0"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0d37e5f3002a43f2a3059bad84d21ecb83e2e0f0"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e9d09e6a91eed1d3c964c4b863415f3d0503f095"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8d7d548a9f4f01743143d546625731dc6b94ad66"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "bb20fe41bd6c6e3a6b175f38adc61dc14b1efaca"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "52026c2183b9aa59b0aa14bcd0c3c340c802e92a"
-      ],
-      "from": "org:newsroom-georgia-public-broadcasting",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "93bc0e61aaa137752067f0f4c4fb7fd1e8243a61"
-      ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "09b3ec8b6a58a1d524d5378f2b3ddc9f5802b255"
+        "fb6cf90b1409b52c89b6dc2a528965949bd41f07"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ab3af6c9c83c297d86e38ea2933e7870f1dc2474"
+        "572084f088e78bedf2f21ec03f55c0d90f2ecc3a"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "90d5dd7a0567da113a2263af678ca5411a40c271"
+        "fb48c3ba662a21051053e44f82f9a67fc61f651d"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8ad7716d4b67d62396613d563da69f85c9d0dbc2"
+        "741e26fb3fc00f6d001fa58a58ebb7f2f0f74313"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f21a236c4e339be32288063906c760b91c59284e"
+        "404e8126bc1b2ddd9dc358dd0556d70c29cf7adf"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "dc7e0c9c4416cf9a3b596c7e6c52d02d8fc879eb"
+        "73c05f3e09664882ea989f4cbf3ae556856b91f9"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "73ce74fd29ef2c1a48aa5c7ab3d2711d571a5597"
+        "4d95882a6565d5a74045827c149c8678eb66cd8a"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6305f6421cab571e97a6b5f2accf93290a9897c9"
+        "77333548c48b665d5837e4e5ebc343b25ab3d989"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bbba56a334bf8af71560f328fdb68a257b7b7113"
+        "d8bc7463cc314b4991de9817a184bc3df1e1ba50"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "142ea733a1492b405d456d3d80727bca2bf0a886"
+        "e01a85b5d283c94ef32c1041e83ad70c0208facc"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "fd453c9cf0e327f520ee2c5ccaf5da28e54d1604"
+        "3a473a75cdc27b3f10f35b9df3e89b7a484e4ccb"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1ebb379df3e9964b459cbcaa419be5ef32884494"
+        "38324851d07bc07e8ec106e81330134d132a5bc9"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "649cc5cb706a4a17248398ee0cb817d34e3c2b9c"
+        "0793012416453026634061203c32d5d9e0187411"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ef1bd84fef469bcd143c279b16cffa2e361c7435"
+        "26bcc3d427eb2b28a3223355a0d39c028a961527"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "5c7cbc46d88bebbed4f680ec6120c37e47542510"
+        "d1b2ff29d3cb6ebe4483c434e744aa3dd7a6d9d2"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8879d8218d765bb9b0f213930f5594abb8a567cb"
+        "01cce957b7d41013b7d851161a5f66778838d478"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
+      "from": "org:newsroom-riverfront-times--via-google-news",
       "to": "place:city-st--louis",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f9a5ea8296708306dd345e2c75da543c44d6d56a"
+        "a2dfbee278f689ae4e5197e20c0b7727120ab59e"
       ],
-      "from": "org:newsroom-fox-2-st--louis",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e51c638b270f27858ab560ce28e27700921e2310"
-      ],
-      "from": "org:newsroom-fox-2-st--louis",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d56d62b65634a9b5026d0241d451eda54bedf892"
-      ],
-      "from": "org:newsroom-fox-2-st--louis",
-      "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9048811386892fb883defeec45bfb1e957f34c1b"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
+      "from": "org:newsroom-atlanta-civic-circle",
       "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2311c0c2ed055a38e27e1efdd1342bdbb9b8743d"
+        "ffedec4b8787ec3aaab19963030c0141c319f404"
       ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a1ca6e308ff4ebaaf2454d6740dcdc1ccc94e3bd"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "14c0e835b277ccd158dc486e033b4a74faca47dd"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0e06f4ef9108a21fc81d848c67718f83d9c0bcb9"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9b15aa38e3cfdc78ca19402c42167afd91b1a5df"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7a60e59c00a6020698ac2683c34c151d8f92841c"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ed706ab0bbca64d5c5962c133e05e0a6222aa912"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "99414746fdf634c2a9abcbfc8319c14744317478"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "988998818089b1141d46aad432c2df2b4dd2737c"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8e54870134ac049d9eed1f6316a1bd9290689a66"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6d5664159bf162fc18de15a35c19a607cc76181b"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b9541efae4902515a5826f943680818d7fec4ea2"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1673ac49aea44aabb352d8ea47c3eafd3c5883c6"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1c6fd5efab3dace373d49de33154aaf1da7a98e7"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5b1c8e6445959da41a6ee21258a107eb147c825d"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "df43e4c29aecf95d04bef6db17598eff3be0f3d4"
-      ],
-      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "from": "org:newsroom-atlanta-civic-circle",
       "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
@@ -2178,6 +1559,1005 @@
         "b7600c66a910d815c1a25197c25e3d80c2d8c53e"
       ],
       "from": "org:newsroom-fox-5-atlanta",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "424e777932f5cbfb93d39c148342fc11e918e8e1"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "75236eabfd1809b3ae7beb1bfda9f1bb557030db"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8fd4ae48dfd27983695b73b18597452afabca3c9"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d7ea2fdca7585b72ae1bc0632066b260d19a4e85"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a1d0d6acf3ea1d73dbd16fa611abdb2a530504c9"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ecaf31c78648dcc577a141f79b8448c3ad0866b0"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c7a0a9defb2e09f7d4f13e8284257324ac23e6f2"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a47da5af6642f10782e6c7f7c12c060dd10197e1"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "15e95107fb43aa74a00c4267654374a080055df6"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b572367487c0737bc8186c4901ecc1e40044071a"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "be4f57da89fae96e35eae006b60108d883fd3ef6"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a5db8a25f09d3f2ce57ad75583f29f6b37d958d5"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c44e9c2dfd6441601ce69fb4518b1ceaf0617d16"
+      ],
+      "from": "org:newsroom-first-alert-4--kmov---via-google-news",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bf458af89f53b9199b1505e3390b44a6ebadf9db"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2c02cff7ab64e9b81db1c1266b91f133f4bfbba6"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2af57eca40a2f4cbfdeb05df2db79f41bd175786"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0c0374b1a1db26c0ca47e9d2a08d1b49b398b8ee"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9bde1f761f912560a0daf3c59ee46b6822927a00"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1e69e4f292f375fc4675cabf17e0bae15a1cf3a2"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c4d1af253949fe5a655b14de1ece37645ae43573"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "56728e1de7f975af70cddc9dfa180c76d6214946"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1caae4944393b91a535bee88cc97d97c99c3da1e"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "efb4a84a998d5cd6691d0e5b0302aa65695bcfcf"
+      ],
+      "from": "org:newsroom-saportareport",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "93bc0e61aaa137752067f0f4c4fb7fd1e8243a61"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "09b3ec8b6a58a1d524d5378f2b3ddc9f5802b255"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ab3af6c9c83c297d86e38ea2933e7870f1dc2474"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "90d5dd7a0567da113a2263af678ca5411a40c271"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8ad7716d4b67d62396613d563da69f85c9d0dbc2"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f21a236c4e339be32288063906c760b91c59284e"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dc7e0c9c4416cf9a3b596c7e6c52d02d8fc879eb"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "73ce74fd29ef2c1a48aa5c7ab3d2711d571a5597"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6305f6421cab571e97a6b5f2accf93290a9897c9"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1de6e4ad566903d2aa84b5e853844f1cefe0f4c0"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bbba56a334bf8af71560f328fdb68a257b7b7113"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "142ea733a1492b405d456d3d80727bca2bf0a886"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fd453c9cf0e327f520ee2c5ccaf5da28e54d1604"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1ebb379df3e9964b459cbcaa419be5ef32884494"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "649cc5cb706a4a17248398ee0cb817d34e3c2b9c"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ef1bd84fef469bcd143c279b16cffa2e361c7435"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5c7cbc46d88bebbed4f680ec6120c37e47542510"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8879d8218d765bb9b0f213930f5594abb8a567cb"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f9a5ea8296708306dd345e2c75da543c44d6d56a"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e51c638b270f27858ab560ce28e27700921e2310"
+      ],
+      "from": "org:newsroom-fox-2-st--louis",
+      "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7a60e59c00a6020698ac2683c34c151d8f92841c"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ed706ab0bbca64d5c5962c133e05e0a6222aa912"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bfd7bd3753aa9d4e998a48abfcf8602f6cba09e1"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "99414746fdf634c2a9abcbfc8319c14744317478"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "988998818089b1141d46aad432c2df2b4dd2737c"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8e54870134ac049d9eed1f6316a1bd9290689a66"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6d5664159bf162fc18de15a35c19a607cc76181b"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b9541efae4902515a5826f943680818d7fec4ea2"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1673ac49aea44aabb352d8ea47c3eafd3c5883c6"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1c6fd5efab3dace373d49de33154aaf1da7a98e7"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5b1c8e6445959da41a6ee21258a107eb147c825d"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "df43e4c29aecf95d04bef6db17598eff3be0f3d4"
+      ],
+      "from": "org:newsroom-atlanta-news-first--formerly-cbs46---via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9048811386892fb883defeec45bfb1e957f34c1b"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2311c0c2ed055a38e27e1efdd1342bdbb9b8743d"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a1ca6e308ff4ebaaf2454d6740dcdc1ccc94e3bd"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "14c0e835b277ccd158dc486e033b4a74faca47dd"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0e06f4ef9108a21fc81d848c67718f83d9c0bcb9"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9b15aa38e3cfdc78ca19402c42167afd91b1a5df"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4b8370fa318863b041c4c724374ad5477daa183d"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bb4b39e2b600d4f44af691eef9dc525297b2e9c8"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5b5a7a7e55863754f93ccf4ce717b9bb04c506d4"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8fd3cbae4df4ec80c4e1c566cbb0bdef802275c7"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c57b2d51c6561aefd551f926f23946581038df66"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d5c2d77d7551a35c836ebbed082532670ba57051"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "55a1ce55d35776742b0be6ef379e48b1532f578c"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f63826ad1c60daa76b2bb71d75f97fe6af9c0295"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf7fc749489a2e89c38e36cff31366599e6117f1"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fdfcb4454593daf1884387db97084dd191a4ad0c"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "503e4e7c78ad8610fe3ea842b7e0bacc403acc3a"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0844f40741c98cb5f2eeb3dc2199c982f41a3f04"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9ded0f9aa579cdc38b0cb114be87cffd193859ef"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "120f5d47e8f082c699977d322e6a42b464ebe790"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "34392f345a8323c7cc52c37457b5d3bc808fe5f0"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0d37e5f3002a43f2a3059bad84d21ecb83e2e0f0"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e9d09e6a91eed1d3c964c4b863415f3d0503f095"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8d7d548a9f4f01743143d546625731dc6b94ad66"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bb20fe41bd6c6e3a6b175f38adc61dc14b1efaca"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "52026c2183b9aa59b0aa14bcd0c3c340c802e92a"
+      ],
+      "from": "org:newsroom-georgia-public-broadcasting",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d489f785789ef35ac2f4e342fe4afabab30d7e28"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6298a81b93a08bb4689c7eea6edb58cdf141a772"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d6b4b072f33aad8d66a4abcb1a0f8578e9fa3990"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "29f8066006f5b6e922d6f80c8df21c406375cbd3"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "660d3dcbce43394507a1f821bd1a60d0a9cdd5ca"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "094a2048fd02c77737b33adecc4c70dc3af764af"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1a9511003fa59d0b37ebcaf6778d783bc345fd42"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6cb8ad9de25e8e0559449601bae022d50248fe1f"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2db62945bbf6fd141e9b96032b5f887c38c3df75"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d5b7d4d8bf7e284763f036b40ebf670481a43a36"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f942da7bc3c576e51478beea9721a3ff950199b1"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "06ffddb793c9c89f45270833070defc984813b5b"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "22959e4dd3e03fd72901143e5e10f66e7c32b83f"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "815deea7d7531d1e8ef5c0216fc97252f76e8b6e"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "16b252eae975d14cadb786fde7b98bf04b1159a7"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4e03da18a275f35cca0ec21a1411180e8f06bf53"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ea4ee7a15227fdcff0f80d1c048e6ecf2738455e"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d9fe5637ea14c7bc9bb7ad9352bd619987109ed7"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "caa64a0af7306e325131696d422e9a8df9165441"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d72cc419ae0b2bc20d2f4b596a213e2efd387033"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "75ce955e1f94ee3677872117956b0193eacca77e"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dd090aa57f0646582b2a232b715198fdf5d8f151"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3972501f3d6901ac6ac603e6d9a3a813b315a4b2"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3731c18e21c50a6f9d2f00e41d7c2b361fae6664"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "098bf8ca4ea3b3a2957f0f7eb03e91636d58feb8"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1b5b97a93709959ae2abbe90946fb10345c731b0"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e488a3c08ca9289028f968b7306a894fac737704"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a618c7c32e01284837f9a89ccb4f384a05ebc70b"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e0bfd329c1e5e89402b6951f2d4e06e95af64ec7"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "939018a7cf7769e357250bd516bb68b3d21111a1"
+      ],
+      "from": "org:newsroom-atlanta-journal-constitution--via-google-news",
       "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0

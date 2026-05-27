@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United States] Atour ( ATAT ) Q1 2026 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/05/27/atour-atat-q1-2026-earnings-call-transcript/?source=iedfolrf0000001) — *2026-05-27*
-  > domain: fool.com · language: English · tone:
-- **NEW**  [[United States] Monica Mourns Death of Father M . C . Arnold Jr . ](https://www.wbls.com/news/monica-mourns-death-of-father-m-c-arnold-jr/) — *2026-05-27*
-  > domain: wbls.com · language: English · tone:
-- **NEW**  [[United States] California residents evacuated due to chemical tank threat return home but fears remain](https://www.clickondetroit.com/news/2026/05/27/california-residents-evacuated-due-to-chemical-tank-threat-return-home-but-fears-remain/) — *2026-05-27*
-  > domain: clickondetroit.com · language: English · tone:
-- **NEW**  [[Canada] London test pilot school expands to North Bay , buys training jets](https://lfpress.com/news/local-news/london-test-pilot-school-expands-to-north-bay-buys-italian-training-jets) — *2026-05-27*
-  > domain: lfpress.com · language: English · tone:
-- **NEW**  [[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial](https://newsradio967.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/) — *2026-05-27*
-  > domain: newsradio967.iheart.com · language: English · tone:
-- **NEW**  [[United States] 9 missing after Washington paper mill tank rupture and officials say there no hope of survivors](https://www.reflector.com/news/national/9-missing-after-washington-paper-mill-tank-rupture-and-officials-say-theres-no-hope-of/article_b710a2e5-9fa3-5dd0-a6b8-9b0dfc150672.html) — *2026-05-27*
-  > domain: reflector.com · language: English · tone:
-- **NEW**  [[United States] The Young and the Restless Spoilers Friday , May 29 : Diane Disappearance – Kyle Scary News – Troublemaker Patty](https://www.celebdirtylaundry.com/2026/the-young-and-the-restless-spoilers-friday-may-29-dianes-disappearance-kyles-scary-news-troublemaker-patty/) — *2026-05-27*
-  > domain: celebdirtylaundry.com · language: English · tone:
-- **NEW**  [[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident](https://hopestandard.com/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/) — *2026-05-27*
-  > domain: hopestandard.com · language: English · tone:
-- **NEW**  [[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial](https://wlap.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/) — *2026-05-27*
-  > domain: wlap.iheart.com · language: English · tone:
-- **NEW**  [[Iraq]   Dont care about midterms : Trump vows Iran deal ; says  nobody controls Hormuz  ](http://www.iraqsun.com/news/279080587/dont-care-about-midterms-trump-vows-iran-deal-says-nobody-controls-hormuz) — *2026-05-27*
-  > domain: iraqsun.com · language: English · tone:
-- **NEW**  [[Russia] Wall Street climbs , major indices gain ground Wednesday](http://www.europesun.com/news/279080450/wall-street-climbs-major-indices-gain-ground-wednesday) — *2026-05-27*
-  > domain: europesun.com · language: English · tone:
-- **NEW**  [[United Kingdom] Trump says he did not launch strikes against Iran  to get a crummy agreement  ](https://www.eastlothiancourier.com/news/national/26144460.trump-says-not-launch-strikes-iran-to-get-crummy-agreement/) — *2026-05-27*
-  > domain: eastlothiancourier.com · language: English · tone:
-- **NEW**  [[United States] Army Anticipates Big Janus Program Nuclear Microreactor Partnership Opportunities](https://www.executivegov.com/articles/jeff-waksman-army-janus-nuclear-microreactor-energy) — *2026-05-27*
-  > domain: executivegov.com · language: English · tone:
-- **NEW**  [[Australia] Leigh Sales backs Justin Stevens after shock ABC resignation](https://www.geelongadvertiser.com.au/entertainment/television/leigh-sales-praises-impeccable-abc-boss-after-his-shock-resignation/news-story/d06c87e209639580f10ca25ee80d83b4?nk=be6a10001102471dbadc5c7032a4fe5f-1779921098) — *2026-05-27*
-  > domain: geelongadvertiser.com.au · language: English · tone:
-- **NEW**  [[United States] Hard Rock Atlantic City Under Scrutiny After Controversial Security Incident](https://www.newsnet5.com/news/hard-rock-atlantic-city-security-incident-investigation/) — *2026-05-27*
-  > domain: newsnet5.com · language: English · tone:
-- **NEW**  [[Sri Lanka] Balochistan Insurgency Enters a Dangerous New Phase – Sri Lanka Guardian](https://slguardian.org/balochistans-insurgency-enters-a-dangerous-new-phase/) — *2026-05-27*
-  > domain: slguardian.org · language: English · tone:
-- **NEW**  [[Sri Lanka] Saudi Arabia Set to Lead a Global Billionaire Boom as Wealth Map Tilts East](https://slguardian.org/saudi-arabia-set-to-lead-a-global-billionaire-boom-as-wealth-map-tilts-east/) — *2026-05-27*
-  > domain: slguardian.org · language: English · tone:
-- **NEW**  [[United States] Pottstown woman charged with fatally shooting man during apparent gunplay](https://www.timesherald.com/2026/05/27/pottstown-woman-charged-with-fatally-shooting-man-during-apparent-gunplay/) — *2026-05-27*
-  > domain: timesherald.com · language: English · tone:
-- **NEW**  [[Russia] Africa CDC thanks India for Ebola aid](http://www.russiaherald.com/news/279080480/africa-cdc-thanks-india-for-ebola-aid) — *2026-05-27*
-  > domain: russiaherald.com · language: English · tone:
-- **NEW**  [[Canada] Alcohol use in B . C . still above national average despite hitting 20 - year low](https://abbynews.com/2026/05/27/alcohol-use-in-b-c-still-above-national-average-despite-hitting-20-year-low/) — *2026-05-27*
-  > domain: abbynews.com · language: English · tone:
-- **NEW**  [[United Kingdom] Trump says he did not launch strikes against Iran  to get a crummy agreement  ](https://www.denbighshirefreepress.co.uk/news/national/26144460.trump-says-not-launch-strikes-iran-to-get-crummy-agreement/) — *2026-05-27*
-  > domain: denbighshirefreepress.co.uk · language: English · tone:
-- **NEW**  [[Canada] Catholic school board appoints new superintendent of education](https://www.theobserver.ca/news/local-news/catholic-school-board-appoints-new-superintendent-of-education) — *2026-05-27*
-  > domain: theobserver.ca · language: English · tone:
-- **NEW**  [[United States] Dell wins a $9 . 7 billion Pentagon software deal after cozying to Trump](https://www.cnbc.com/2026/05/27/dell-dod-pentagon-software-deal-digital-infrastructure-trump.html) — *2026-05-27*
-  > domain: cnbc.com · language: English · tone:
-- **NEW**  [[United States] Deputy injured in hospital shooting reunites with K - 9 partner](https://www.wndu.com/2026/05/27/deputy-injured-hospital-shooting-reunites-with-k-9-partner/) — *2026-05-27*
-  > domain: wndu.com · language: English · tone:
-- **NEW**  [[United States] Germany Set to Quadruple Maximum Corporate Fines and Codify Statutory Sentencing Criteria , Using Environmental Reform as Vehicle for Broader Overhaul | Skadden , Arps , Slate , Meagher & Flom LLP](https://www.jdsupra.com/legalnews/germany-set-to-quadruple-maximum-7517363/) — *2026-05-27*
-  > domain: jdsupra.com · language: English · tone:
+- **NEW**  [[United States] Shooting outside Saline County club leaves 1 teen dead , 2 injured | The Arkansas Democrat - Gazette](https://www.arkansasonline.com/news/2026/may/27/shooting-outside-saline-county-club-leaves-1-teen/) — *2026-05-27*
+  > domain: arkansasonline.com · language: English · tone:
+- **NEW**  [[United States] Matthew Perry assistant sentenced to 41 months in prison | HOT 96 | The Tri State # 1 Hit Music Station](https://hot96.com/2026/05/27/matthew-perrys-assistant-sentenced-to-41-months-in-prison/) — *2026-05-27*
+  > domain: hot96.com · language: English · tone:
+- **NEW**  [[United States] Former assistant to TV star Matthew Perry sentenced to 41 months in prison](https://www.aljazeera.com/news/2026/5/27/former-assistant-to-tv-star-matthew-perry-sentenced-to-41-months-in-prison) — *2026-05-27*
+  > domain: aljazeera.com · language: English · tone:
+- **NEW**  [[United Kingdom] Matthew Perry personal assistant jailed for his role in star ketamine death](https://www.bordertelegraph.com/news/national/26144430.matthew-perrys-personal-assistant-jailed-role-stars-ketamine-death/) — *2026-05-27*
+  > domain: bordertelegraph.com · language: English · tone:
+- **NEW**  [[Canada] Hamilton man charged after overnight vehicle theft at Grimsby home](https://www.chch.com/chch-news/hamilton-man-charged-after-overnight-vehicle-theft-at-grimsby-home/) — *2026-05-27*
+  > domain: chch.com · language: English · tone:
+- **NEW**  [[Nigeria] June 1 Showdown : TIB Movement Declares Mass Protest In Oyo Over Escalating Kidnappings , Insecurity](https://saharareporters.com/2026/05/27/june-1-showdown-tib-movement-declares-mass-protest-oyo-over-escalating-kidnappings) — *2026-05-27*
+  > domain: saharareporters.com · language: English · tone:
+- **NEW**  [[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident | Tofino / Ucluelet Westerly News](https://westerlynews.ca/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/) — *2026-05-27*
+  > domain: westerlynews.ca · language: English · tone:
+- **NEW**  [[United States] Three Arrested , One Dead in Cocaine Bust at Mundra Port](https://maritime-executive.com/article/three-arrested-one-dead-in-cocaine-bust-at-mundra-port) — *2026-05-27*
+  > domain: maritime-executive.com · language: English · tone:
+- **NEW**  [[United States] At a Critical Moment for Business , SB  26 San Diego Calls Leaders to  All Rise  – CSRwire](https://csrwire.com/press-release/critical-moment-business-sb26-san-diego-calls-leaders-all-rise/) — *2026-05-27*
+  > domain: csrwire.com · language: English · tone:
+- **NEW**  [[United States]   Dutton Ranch  Ratings Revealed - Ep . 1 and 2 Were Record - Setters](https://khak.com/ixp/204/p/dutton-ranch-ratings-season-1/) — *2026-05-27*
+  > domain: khak.com · language: English · tone:
+- **NEW**  [[United States] Kansas legislative leaders approve extended monitoring of 3 exposed to hantavirus](https://greatbendpost.com/posts/63ec3634-e54c-45f4-8412-bea7f850a5c7) — *2026-05-27*
+  > domain: greatbendpost.com · language: English · tone:
+- **NEW**  [[Nigeria] Tear Gas , Panic At Edo Children Day Event As Pupils Collapse , Bouncer Arrested](https://saharareporters.com/2026/05/27/tear-gas-panic-edo-childrens-day-event-pupils-collapse-bouncer-arrested) — *2026-05-27*
+  > domain: saharareporters.com · language: English · tone:
+- **NEW**  [[United States] Matthew Perry assistant gets more than 3 years in prison for central role in his ketamine death](https://whmp.com/news/030030-matthew-perrys-assistant-gets-more-than-3-years-in-prison-for-central-role-in-his-ketamine-death/) — *2026-05-27*
+  > domain: whmp.com · language: English · tone:
+- **NEW**  [[Ireland] Robert Pattinson voice unrecognisable in eerie A24 film Primetime](https://www.breakingnews.ie/entertainment/robert-pattinsons-voice-unrecognisable-in-eerie-a24-film-primetime-1905956.html) — *2026-05-27*
+  > domain: breakingnews.ie · language: English · tone:
+- **NEW**  [[Israel] Binyamina - Givat Ada Council : Sgt . Rotem Yanai killed in operational activity in the north](https://www.israelnationalnews.com/news/427716) — *2026-05-27*
+  > domain: israelnationalnews.com · language: English · tone:
+- **NEW**  [[Israel] Blank Cheque : Senior IDF officer flies to U . S . to secure drone solution](https://www.israelnationalnews.com/news/427715) — *2026-05-27*
+  > domain: israelnationalnews.com · language: English · tone:
+- **NEW**  [[United States] Wall Street climbs , major indices gain ground Wednesday](http://www.phoenixherald.com/news/279080450/wall-street-climbs-major-indices-gain-ground-wednesday) — *2026-05-27*
+  > domain: phoenixherald.com · language: English · tone:
+- **NEW**  [[United States] Chattanooga 19 - year - old charged in fatal May shooting on Highway 58 | Chattanooga Times Free Press](https://www.timesfreepress.com/news/2026/may/27/chattanooga-19-year-old-charged-in-fatal-may/) — *2026-05-27*
+  > domain: timesfreepress.com · language: English · tone:
+- **NEW**  [[Canada] IIO seeks witnesses following February death of man in Shawnigan Lake | Tofino / Ucluelet Westerly News](https://westerlynews.ca/2026/05/27/iio-seeks-witnesses-following-february-death-of-man-in-shawnigan-lake/) — *2026-05-27*
+  > domain: westerlynews.ca · language: English · tone:
+- **NEW**  [[United States] US Attorney Andrew Boutros announces  sweeping reforms to internal grand jury practices and disclosure for Northern Dis . of IL](https://abc7chicago.com/post/us-attorney-andrew-boutros-announces-sweeping-reforms-internal-grand-jury-practices-disclosures-northern-dis-il/19181722/) — *2026-05-27*
+  > domain: abc7chicago.com · language: English · tone:
+- **NEW**  [[United States] Texas Senate race shifts after Paxton defeats Cornyn](https://www.wmtw.com/article/texas-senate-race-paxton-cornyn/71423839) — *2026-05-27*
+  > domain: wmtw.com · language: English · tone:
+- **NEW**  [[United Kingdom] Andy Burnham accuses Tony Blair of failing to understand modern politics](https://www.milfordmercury.co.uk/news/national/26144156.andy-burnham-accuses-tony-blair-failing-understand-modern-politics/) — *2026-05-27*
+  > domain: milfordmercury.co.uk · language: English · tone:
+- **NEW**  [[United States] Matthew Perry assistant gets more than 3 years in prison for central role in his ketamine death](https://wqel.com/news/030030-matthew-perrys-assistant-gets-more-than-3-years-in-prison-for-central-role-in-his-ketamine-death/) — *2026-05-27*
+  > domain: wqel.com · language: English · tone:
+- **NEW**  [[United Kingdom] Britain at risk of lost generation unless it does more to ease youth joblessness crisis , bombshell report warns](https://www.lbc.co.uk/article/youth-joblessness-will-rise-report-warns-5HjdZnd_2/) — *2026-05-27*
+  > domain: lbc.co.uk · language: English · tone:
+- **NEW**  [[Taiwan] Platform NPO CHANNEL : Real Story Dari Pengguna - Compass Log](https://blog.udn.com:443/2d77dd1c/189338549) — *2026-05-27*
+  > domain: blog.udn.com · language: English · tone:
 
 _(15 additional items in raw.jsonl)_
