@@ -102,12 +102,21 @@ class SanctionsProcurementSection(Section):
                     })
         return items
 
-    # ----- OFAC recent actions RSS ------------------------------------------
+    # ----- OFAC recent actions ----------------------------------------------
+    # URL audit 2026-05-27: ofac.treasury.gov/recent-actions/feed retired
+    # (404). The recent-actions page exists at /recent-actions but no longer
+    # offers RSS. Google News site-search for ofac.treasury.gov is the
+    # cleanest substitute that doesn't require HTML scraping.
 
     def _pull_ofac_recent(self) -> list[dict]:
-        url = "https://ofac.treasury.gov/recent-actions/feed"
-        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-        resp.raise_for_status()
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Aofac.treasury.gov+OR+(%22OFAC%22+%22designat%22)"
+               "&hl=en-US&gl=US&ceid=US:en")
+        try:
+            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+            resp.raise_for_status()
+        except requests.exceptions.RequestException:
+            return []
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -152,28 +161,41 @@ class SanctionsProcurementSection(Section):
             "checksum": checksum,
         }]
 
-    # ----- DCSCA Major Arms Sales -------------------------------------------
+    # ----- DSCA Major Arms Sales --------------------------------------------
+    # URL audit 2026-05-27: dsca.mil now returns 403 to all programmatic
+    # access (Akamai bot block; no UA spoof bypasses it). Direct scrape is
+    # off the table. Google News site-search filtered to "major arms sale"
+    # is the cleanest substitute. DSCA notifications also appear in
+    # Federal Register as transmittals; we could pull from there too if we
+    # later want primary-document tier, but for now Google News covers it.
 
     def _pull_dcsca_major_arms(self) -> list[dict]:
-        url = "https://www.dsca.mil/press-media/major-arms-sales"
-        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-        resp.raise_for_status()
-        # Simple HTML scrape — DSCA pages have a consistent <a href> pattern
-        import re
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Adsca.mil+%22major+arms+sale%22"
+               "&hl=en-US&gl=US&ceid=US:en")
+        try:
+            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+            resp.raise_for_status()
+        except requests.exceptions.RequestException:
+            return []
+        feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS * 4)).date()  # arms sales are rare; wider window
-        anchors = re.findall(r'<a[^>]+href="([^"]*major-arms-sale[^"]*)"[^>]*>(.*?)</a>', resp.text, re.DOTALL)
-        for href, txt in anchors[:50]:
-            t = re.sub(r"<[^>]+>", "", txt).strip()
-            if not t: continue
-            full_url = href if href.startswith("http") else f"https://www.dsca.mil{href}"
-            iid = hashlib.sha1(full_url.encode()).hexdigest()[:16]
+        for it in feed:
+            try:
+                d = date.fromisoformat((it.get("date") or "")[:10])
+                if d < cutoff: continue
+            except ValueError:
+                pass
+            iid = hashlib.sha1(
+                f"dcsca|{it.get('url','')}|{it.get('title','')}".encode()
+            ).hexdigest()[:16]
             out.append({
                 "id": f"dcsca-{iid}",
-                "date": date.today().isoformat(),
-                "title": f"[DSCA Arms Sale] {t}"[:300],
-                "url": full_url,
-                "summary": t[:400],
+                "date": it.get("date", date.today().isoformat()),
+                "title": f"[DSCA Arms Sale] {it.get('title','')}"[:300],
+                "url": it.get("url", url),
+                "summary": it.get("summary","")[:400],
                 "subsection": "dcsca",
             })
         return out
