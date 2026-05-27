@@ -141,6 +141,16 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         if watch_areas and state.items:
             tag_items(state.items, watch_areas, source_id=sec.id)
         states[sec.id] = state
+        # Mirror the section's output into the new lake (raw.jsonl +
+        # summary.md + structured.json + records/entities/relationships
+        # SQLite tables). This runs alongside the legacy snapshot path so
+        # the existing brief continues unchanged while the lake fills in.
+        # Failures here log but never block the brief.
+        try:
+            sec.to_lake(state)
+        except Exception as lake_exc:
+            print(f"[{sec.id}] to_lake failed: "
+                  f"{type(lake_exc).__name__}: {lake_exc}")
         synth = synthesize(sec.title, state.items, {it.get("_id") for it in state.new})
         sections_html.append(sec.render_html(state, synth))
         source_attribution[sec.id] = {
