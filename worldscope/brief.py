@@ -51,6 +51,7 @@ from .sections.sanctions import SanctionsSection
 from .sections.chinese_internal import ChineseInternalSection
 from .sections.foreign_news import ForeignNewsSection
 from .sections.local_news import LocalNewsSection
+from .sections.paper_bet_placement import PaperBetPlacementSection
 from .sections.paper_bets import PaperBetsSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
@@ -89,6 +90,9 @@ SECTION_REGISTRY = [
     ReliefWebSection,
     ForecastsSection,
     CommentarySection,
+    # MUST RUN LAST: placement reads every other section's summary.md
+    # from today before deciding where to place paper bets.
+    PaperBetPlacementSection,
     # remaining (sketched, not built):
     #   MaritimeSection        — AISStream vessels-of-interest watchlist
     #   ElectionsSection       — global election calendar (Democracy Intl + ParlGov)
