@@ -2,21 +2,23 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-05-27
-record_count: 33
-new_today: 33
+record_count: 96
+new_today: 96
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-33 new of 33 total items today.
+96 new of 96 total items today.
 
-- **NEW**  [[ofac_recent error] HTTPError]() — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://ofac.treasury.gov/recent-actions/feed
+- **NEW**  [[OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5) — *2026-05-21*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5" target="_blank">Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fo
+- **NEW**  [[OFAC] International Criminal Court-related Designation Removal - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ea293ZzJIMldMbWM4QndMbk5YVFZDX1B1RXQ5UmM0blB5YmR6THJHa3NLeHI3bVFrNmJya0VCcUpSMlp5dFM1T1lldWZ4MlBEMXpISkREbXNYWFNMRFY3bWlR?oc=5) — *2026-05-20*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ea293ZzJIMldMbWM4QndMbk5YVFZDX1B1RXQ5UmM0blB5YmR6THJHa3NLeHI3bVFrNmJya0VCcUpSMlp5dFM1T1lldWZ4MlBEMXpISkREbXNYWFNMRFY3bWlR?oc=5" target="_blank">International Criminal Court-related Designation Removal</a>&nbsp;&nbsp;<fo
+- **NEW**  [[OFAC] Counter Narcotics and Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiXkFVX3lxTE00SUEzZjlGVDZYWVJCUWlDSWhpSzBUbzRKUE9pUkNDaUFJR1hDb1ppNHNISjJESjU2Vy1vSmVXOExZeUxCMnpJWVpMYnc0WEd2em0zeG9jTFMzYVJXTWc?oc=5) — *2026-05-20*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE00SUEzZjlGVDZYWVJCUWlDSWhpSzBUbzRKUE9pUkNDaUFJR1hDb1ppNHNISjJESjU2Vy1vSmVXOExZeUxCMnpJWVpMYnc0WEd2em0zeG9jTFMzYVJXTWc?oc=5" target="_blank">Counter Narcotics and Counter Terrorism Designations</a>&nbsp;&nbsp;<font color=
 - **NEW**  [[BIS Entity List] page checksum 9b92c4bcb0d5](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-05-27*
   > Page content hash: 9b92c4bcb0d5. Compare with prior day's hash to detect updates.
-- **NEW**  [[dcsca error] HTTPError]() — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.dsca.mil/press-media/major-arms-sales
 - **NEW**  [[USASpending] $22,428,256,009 → THE BOEING COMPANY: INTERNATIONAL SPACE STATION](https://www.usaspending.gov/award/NAS1510000) — *2026-05-27*
   > Agency: National Aeronautics and Space Administration.  Description: INTERNATIONAL SPACE STATION
 - **NEW**  [[USASpending] $17,305,145,475 → UCHICAGO ARGONNE, LLC: PERFORMANCE-BASED CONTRACT FOR MANAGEMENT AND OPERATION OF A](https://www.usaspending.gov/award/DEAC0206CH11357) — *2026-05-27*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: IGF::CT::IGFMSOC FPDS-NG MISSION SYSTEMS OPERATIONS CONTRACT (MSOC)
 - **NEW**  [[USASpending] $912,279,962 → ISOTEK SYSTEMS, LLC: U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHA](https://www.usaspending.gov/award/DEAC0504OR22860) — *2026-05-27*
   > Agency: Department of Energy.  Description: U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHASE I) FOR PROCESSING OF MATERIAL, BUILDING SHUTDOWN (PHASES II AND III)
-- **NEW**  [[USASpending] $817,335,475 → SYNCOM SPACE SERVICES LLC: IGF::OT::IGF SYNERGY-ACHIEVING CONSOLIDATED OPERATIONS AND M](https://www.usaspending.gov/award/NNS15AA77T) — *2026-05-27*
-  > Agency: National Aeronautics and Space Administration.  Description: IGF::OT::IGF SYNERGY-ACHIEVING CONSOLIDATED OPERATIONS AND MAINTENANCE, COST PLUS INCENTIVE FEE - INDEFINITE DELIVERY INDEFINITE QUANTITY
 
-_(8 additional items in raw.jsonl)_
+_(71 additional items in raw.jsonl)_

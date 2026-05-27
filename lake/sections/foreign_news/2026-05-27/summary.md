@@ -2,43 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-05-27
-record_count: 869
-new_today: 869
+record_count: 889
+new_today: 889
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-869 new of 869 total items today.
+889 new of 889 total items today.
 
-- **NEW**  [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-27*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-27*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-27*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Cover Story newsletter: A Starship enterprise](https://www.economist.com/the-world-this-week/2026/05/26/cover-story-newsletter-a-starship-enterprise) — *2026-05-26*
-  > How we chose this week’s images
-- **NEW**  [[Global] Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO](https://www.theguardian.com/world/2026/may/25/spread-of-ebola-in-drc-outpacing-response-efforts-warns-who) — *2026-05-25*
-- **NEW**  [[Global] ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana](https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court) — *2026-05-25*
-- **NEW**  [[Global] President Sheinbaum allows Iran team to stay in Mexico during World Cup after US refusal](https://www.theguardian.com/world/2026/may/25/mexico-fifa-iran-team) — *2026-05-26*
-- **NEW**  [[Global] Venezuela inmates occupy prison roof and set fire to mattresses to highlight alleged abuse](https://www.theguardian.com/world/2026/may/25/venezuela-inmates-occupy-prison-roof-protest-alleged-abuses) — *2026-05-25*
-- **NEW**  [[Global] Five villagers found alive in Laos cave as search continues for two missing](https://www.theguardian.com/world/2026/may/27/five-villagers-found-alive-in-laos-cave-as-search-continues-for-two-missing) — *2026-05-27*
-- **NEW**  [[Global] Samsung memory chip staff in line for £310,000 bonuses after AI profit-sharing deal](https://www.theguardian.com/technology/2026/may/27/samsung-memory-chip-staff-bonuses-ai-profit-sharing-deal) — *2026-05-27*
-- **NEW**  [[Global] Dissident detained in South Korea after fleeing China in rubber boat](https://www.theguardian.com/world/2026/may/27/dissident-dong-guangping-south-korea-flee-china-rubber-boat) — *2026-05-27*
-- **NEW**  [[Global] ‘Makes no sense’: experts doubt pause in US arms sale to Taiwan is due to Iran war](https://www.theguardian.com/world/2026/may/27/us-arms-sales-to-taiwan-pause-unlikely-due-to-iran-war-experts) — *2026-05-27*
-- **NEW**  [[Global] Thai rescuers join effort to free seven people trapped in Laos cave](https://www.theguardian.com/world/2026/may/25/laos-flooded-cave-thai-rescuers) — *2026-05-25*
-- **NEW**  [[Global] Lord Howe Island got rid of its rats and mice – now its ‘wonderful’ insect life is back](https://www.theguardian.com/australia-news/2026/may/27/lord-howe-island-got-rid-of-its-rats-and-mice-now-cockroaches-and-bugs-are-bouncing-back) — *2026-05-27*
-- **NEW**  [[Global] Community shocked after Aboriginal rock shelter bulldozed for NSW power lines](https://www.theguardian.com/environment/2026/may/27/aboriginal-rock-shelter-destroyed-power-line-contractors-nsw-renewable-energy-zone-ntwnfb) — *2026-05-27*
-- **NEW**  [[Global] Ed Husic calls on Labor to establish ‘red line’ on Israel’s actions, including treatment of flotilla activists](https://www.theguardian.com/australia-news/2026/may/27/ed-husic-calls-on-labor-to-establish-red-line-on-israels-actions-including-treatment-of-flotilla-activists) — *2026-05-27*
-- **NEW**  [[Global] Jillian Segal hired former Scott Morrison adviser on $200,000 contract without public tender process](https://www.theguardian.com/news/2026/may/27/jillian-segal-hired-former-scott-morrison-adviser-contract-without-public-tender-ntwnfb) — *2026-05-27*
-- **NEW**  [[Global] Australian BTS fans blast Ticketmaster’s ‘predatory’ tactic of hiding price until tickets go on sale](https://www.theguardian.com/music/2026/may/27/australian-bts-fans-blast-ticketmasters-predatory-tactic-of-hiding-price-until-tickets-go-on-sale) — *2026-05-27*
-- **NEW**  [[Global] Zelenskyy asks Trump for help with air defences as Russia continues attacks – Europe live](https://www.theguardian.com/world/live/2026/may/27/spain-pedro-sanchez-pope-leo-heatwave-ukraine-latest-updates-europe-live-news) — *2026-05-27*
-- **NEW**  [[Global] Hungarian MPs vote to remain member of ICC, overturning decision made by Orbán](https://www.theguardian.com/world/2026/may/27/hungary-mps-vote-remain-member-icc-overturn-decision-viktor-orban-peter-magyar) — *2026-05-27*
-- **NEW**  [[Global] Germany’s most wanted woman jailed after three decades evading police](https://www.theguardian.com/world/2026/may/27/daniela-klette-red-army-faction-jailed-armed-robberies-on-the-run) — *2026-05-27*
-- **NEW**  [[Global] Flying Tiger snapped up by Modella Capital amid fears for its future](https://www.theguardian.com/business/2026/may/27/flying-tiger-acquisition-modella-capital-private-equity-tg-jones) — *2026-05-27*
-- **NEW**  [[Global] ‘Mind-bogglingly crazy’: climate experts alarmed by deadly spring heatwaves searing Europe](https://www.theguardian.com/environment/2026/may/27/mind-bogglingly-crazy-climate-experts-alarmed-by-deadly-spring-heatwaves-searing-europe) — *2026-05-27*
-- **NEW**  [[Global] Middle East crisis live: Iran says draft US deal would reopen strait of Hormuz](https://www.theguardian.com/world/live/2026/may/27/iran-war-us-update-live-israel-lebanon-strikes-latest-news-ceasefire-peace-talks-middle-east-live-updates) — *2026-05-27*
-- **NEW**  [[Global] Israel fires more than 120 airstrikes at Lebanon as anti-Hezbollah offensive escalates](https://www.theguardian.com/world/2026/may/27/israel-fires-airstrikes-lebanon-escalating-offensive) — *2026-05-27*
+- **NEW**  [[Global] Muslims worldwide celebrate Eid al-Adha, the Festival of Sacrifice](https://www.aljazeera.com/gallery/2026/5/27/muslims-worldwide-celebrate-eid-al-adha-the-festival-of-sacrifice?traffic_source=rss) — *2026-05-27*
+  > The sacred holiday coincides with Hajj, drawing over 1.7 million pilgrims seeking spiritual fulfilment in Saudi Arabia.
+- **NEW**  [[Global] Why is Israel attacking Lebanon’s Nabatieh, the major southern city?](https://www.aljazeera.com/news/2026/5/27/why-is-israel-attacking-lebanons-nabatieh-the-major-southern-city?traffic_source=rss) — *2026-05-27*
+  > Israel issued forced displacement for Lebanon&#039;s southern city of Nabatieh on Tuesday. Why is it focused on this city?
+- **NEW**  [[Global] Bangladesh seeks IMF aid: How badly has Iran war hit its economy?](https://www.aljazeera.com/economy/2026/5/27/bangladesh-seeks-imf-aid-how-badly-has-iran-war-hit-its-economy?traffic_source=rss) — *2026-05-27*
+  > The International Monetary Fund warns that Iran war could trigger a spike in global debt levels.
+- **NEW**  [[Global] What is the Lobito Corridor, cited by US Africa envoy as model for ties?](https://www.aljazeera.com/news/2026/5/27/what-is-the-lobito-corridor-cited-by-us-africa-envoy-as-model-for-ties?traffic_source=rss) — *2026-05-27*
+  > Washington is set on a trade-focused shift in Africa, but critics say it facilitates further plundering of resources.
+- **NEW**  [[Global] Rescue teams celebrate as survivors found in Laos cave](https://www.aljazeera.com/video/newsfeed/2026/5/27/rescue-teams-celebrate-as-survivors-found-in-laos-cave?traffic_source=rss) — *2026-05-27*
+  > Rescue teams celebrate as survivors found in Laos cave
+- **NEW**  [[Global] Who is Moise Kouame, the youngest French Open match winner since 1991?](https://www.aljazeera.com/sports/2026/5/27/who-is-moise-kouame-the-youngest-french-open-match-winner-since-1991?traffic_source=rss) — *2026-05-27*
+  > World no 318&#039;s victory over Marin Cilic also made him the youngest man to claim a Grand Slam victory in 17 years.
+- **NEW**  [[Global] The Baltics urgently need a de-escalation mechanism; Belarus can help](https://www.aljazeera.com/opinions/2026/5/27/the-baltics-urgently-need-a-de-escalation-mechanism-belarus-can-help?traffic_source=rss) — *2026-05-27*
+  > Amid growing risk of spillover from the Ukraine war, the Baltic states could seek de-escalation channels through Minsk.
+- **NEW**  [[Global] Nigeria’s Eid Crisis: When a ram becomes a luxury](https://www.aljazeera.com/video/newsfeed/2026/5/27/nigerias-eid-crisis-when-a-ram-becomes-a-luxury?traffic_source=rss) — *2026-05-27*
+  > At a Nigerian sheep market, human rights advocate Sadaatu Madaki says that rising prices make Eid difficult for families
+- **NEW**  [[Global] DRC facing ‘catastrophic collision’ of Ebola and war, WHO chief warns](https://www.aljazeera.com/news/2026/5/27/drc-facing-catastrophic-collision-of-ebola-and-war-who-chief-warns?traffic_source=rss) — *2026-05-27*
+  > &#039;Stopping this Ebola transmission depends entirely on humanitarian access,&#039; said Tedros, the WHO chief.
+- **NEW**  [[Global] ‘Eid does not enter tents’: Palestinians in Gaza face grim holiday](https://www.aljazeera.com/news/2026/5/27/eid-does-not-enter-tents-palestinians-in-gaza-face-grim-holiday?traffic_source=rss) — *2026-05-27*
+  > Rising costs and displacement erase Eid traditions, leaving Gaza residents struggling with sorrow and economic hardship.
+- **NEW**  [[Global] Israeli authorities filmed treating Palestinians with aggression on Eid](https://www.aljazeera.com/video/newsfeed/2026/5/27/israeli-authorities-filmed-treating-palestinians-with-aggression-on-eid?traffic_source=rss) — *2026-05-27*
+  > Israeli authorities have been filmed acting aggressively against Palestinians under occupation during Eid al-Adha.
+- **NEW**  [[Global] UFC fighting cage rises on White House lawn for US and Trump celebrations](https://www.aljazeera.com/sports/2026/5/27/ufc-fighting-cage-rises-on-white-house-lawn-for-us-and-trump-celebrations?traffic_source=rss) — *2026-05-27*
+  > The UFC bout at the White House marks the 250th anniversary of the US and President Donald Trump&#039;s 80th birthday.
+- **NEW**  [[Global] Spain police enter PM Sanchez’s Socialist Party HQ in corruption probe](https://www.aljazeera.com/news/2026/5/27/spain-police-enter-pm-sanchezs-socialist-party-hq-in-corruption-probe?traffic_source=rss) — *2026-05-27*
+  > Spanish police enter governing party&#039;s headquarters in Madrid as the corruption cases circle PM Sanchez&#039;s government.
+- **NEW**  [[Global] Pochettino raises expectations as he reveals USMNT 2026 World Cup roster](https://www.aljazeera.com/sports/2026/5/27/pochettino-raises-expectations-as-he-reveals-usmnt-2026-world-cup-roster?traffic_source=rss) — *2026-05-27*
+  > Instead of playing down his side&#039;s chances, Mauricio Pochettino implies that US can win the World Cup on home soil.
+- **NEW**  [[Global] The West only discovers property rights when the landowners are white](https://www.aljazeera.com/opinions/2026/5/27/the-west-only-discovers-property-rights-when-the-landowners-are-white?traffic_source=rss) — *2026-05-27*
+  > Zimbabwe is compensating European farmers. The original dispossession goes unrecognised.
+- **NEW**  [[Global] In Britain, Brexit is debated again as Starmer’s grip on power slips](https://www.aljazeera.com/news/2026/5/27/brexit-debate-reignites?traffic_source=rss) — *2026-05-27*
+  > The PM is promising to strengthen EU ties at a time when the eurosceptic Reform party is on the rise.
+- **NEW**  [[Global] Doctor buried after he died treating Ebola patients in DRC](https://www.aljazeera.com/video/newsfeed/2026/5/27/doctor-buried-after-he-died-treating-ebola-patients-in-drc?traffic_source=rss) — *2026-05-27*
+  > Doctor buried after he died treating Ebola patients in DRC
+- **NEW**  [[Global] Ghana begins repatriating citizens as xenophobia surges in South Africa](https://www.aljazeera.com/video/newsfeed/2026/5/27/ghana-begins-repatriating-citizens-as-xenophobia-surges-in-south-africa?traffic_source=rss) — *2026-05-27*
+  > Ghana begins repatriating citizens as xenophobia surges in South Africa
+- **NEW**  [[Global] Messi’s GOAT statue in India to be removed over safety concerns](https://www.aljazeera.com/sports/2026/5/27/messis-goat-statue-in-india-to-be-removed-over-safety-concerns?traffic_source=rss) — *2026-05-27*
+  > Statue to honour World Cup winner Lionel Messi, unveiled during his GOAT tour of India, unstable on busy Kolkata road.
+- **NEW**  [[Global] How Senegal became genuine World Cup 2026 contenders – at a cost](https://www.aljazeera.com/sports/2026/5/27/how-senegal-became-genuine-world-cup-2026-contenders-at-a-cost?traffic_source=rss) — *2026-05-27*
+  > The West African nation&#039;s success comes from smart diaspora recruitment, as well as controversial local academies.
+- **NEW**  [[Global] Muslim pilgrims participate in stone-throwing ritual on third day of Hajj](https://www.aljazeera.com/video/newsfeed/2026/5/27/muslim-pilgrims-participate-in-stone-throwing-ritual-on-third-day-of-hajj?traffic_source=rss) — *2026-05-27*
+  > More than a million Muslim pilgrims are participating in the stone-throwing ritual on the third day of Hajj.
+- **NEW**  [[Global] Ex-champ Fury sets Dublin fight before ‘Battle of Britain’ against Joshua](https://www.aljazeera.com/sports/2026/5/27/ex-heavyweight-champ-fury-pens-dublin-ahead-of-joshua-battle-of-britain?traffic_source=rss) — *2026-05-27*
+  > Tyson Fury returns to the ring after his defeat by Oleksandr Usyk as he prepares for a rematch with Anthony Joshua.
+- **NEW**  [[Global] US, Iran have launched multiple attacks during ceasefire: A timeline](https://www.aljazeera.com/news/2026/5/27/us-iran-have-launched-multiple-attacks-during-ceasefire-a-timeline?traffic_source=rss) — *2026-05-27*
+  > Washington carried out new strikes on southern Iran, while Tehran downed a US drone and fired at a fighter jet.
+- **NEW**  [[Global] US strike on alleged drug boat in Pacific kills one](https://www.aljazeera.com/news/2026/5/27/us-strike-on-alleged-drug-boat-in-pacific-kills-one?traffic_source=rss) — *2026-05-27*
+  > Dozens of attacks since September have killed at least 194 people in US operation dubbed &#039;Southern Spear&#039;.
+- **NEW**  [[Global] Hakimi leads nine returning Morocco players from Qatar 2022 at World Cup](https://www.aljazeera.com/sports/2026/5/27/hakimi-leads-nine-returning-morocco-players-from-qatar-2022-at-world-cup?traffic_source=rss) — *2026-05-27*
+  > Morocco draw heavily on the country’s diaspora in Europe where majority of the 26 squad players selected were born.
 
-_(844 additional items in raw.jsonl)_
+_(864 additional items in raw.jsonl)_

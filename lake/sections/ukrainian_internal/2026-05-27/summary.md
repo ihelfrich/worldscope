@@ -2,17 +2,15 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-27
-record_count: 134
-new_today: 134
+record_count: 135
+new_today: 135
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-134 new of 134 total items today.
+135 new of 135 total items today.
 
-- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
 - **NEW**  [[TITLE: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві | LEDE: ] (uk: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві)](https://www.pravda.com.ua/columns/2026/05/27/8036657/) — *2026-05-27*
@@ -53,11 +51,13 @@ state: fresh
   > У Києві відкрили Місію демократичних сил Білорусі для підтримки білорусів та співпраці з Україною.
 - **NEW**  [[TITLE: Рада достроково припинила повноваження нардепа Цабаля | LEDE: Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.] (uk: Рада достроково припинила повноваження нардепа Цабаля)](https://www.pravda.com.ua/news/2026/05/27/8036602/) — *2026-05-27*
   > Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.
+- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [‘You No Longer Belong to Yourself Here’](https://www.kyivpost.com/post/76802) — *2026-05-27*
+  > A woman who once planned her future abroad returned to Ukraine and joined the army. Today, as an evacuation medic, “Bandana” helps keep wounded soldiers alive.
 - **NEW**  [Hungary Links Zelensky Meeting to Progress on Minority Rights](https://www.kyivpost.com/post/76981) — *2026-05-27*
   > Hungary’s government on Wednesday said a potential meeting between Prime Minister Péter Magyar and President Volodymyr Zelensky will only take place if negotiations over the rights of the Hungarian minority in Ukraine make progress. Technical-level talks between Budapest and Kyiv
-- **NEW**  [EXPLAINER: So Where Does Ukraine Get So Many ‘Ace’ Drone Pilots From?](https://www.kyivpost.com/post/76979) — *2026-05-27*
-  > Ukraine’s “drone advantage” isn’t just airframes, it’s pilot training. Ukraine runs a massive drone program with ~80,000 personnel involved and an estimated 25-40,000 active combat UAV pilots (elite SBS: ~15k) – outnumbering many nations’ entire air forces. Training grew from 2,0
 
-_(109 additional items in raw.jsonl)_
+_(110 additional items in raw.jsonl)_

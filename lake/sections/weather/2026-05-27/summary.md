@@ -2,25 +2,57 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 122
-new_today: 122
+record_count: 121
+new_today: 121
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-122 new of 122 total items today.
+121 new of 121 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:42AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dda7974b371b3056e4d97c0431419bf7d48bc334.001.1) — *2026-05-27*
-  > At 941 AM CDT, a severe thunderstorm was located over Holly Beach,
-or 8 miles west of South Padre Island, moving east at 20 mph. Port
-Isabel airport reported a wind gust of 61 mph at 932 AM CDT.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:55AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52e59f0477f4f6c6fe87741bfa849adeb790c8a1.001.1) — *2026-05-27*
+  > The storm which prompted the warning has weakened below severe
+limits, and has exited the warned area. Therefore, the warning will
+be allowed to expire.  However, gusty winds and heavy rain are still
+possible with this thunderstorm.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 9:54AM CDT until May 28 at 3:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f43d42ea68f85961fdb2f10efda6efa05961baf.001.1) — *2026-05-27*
+  > * WHAT...Dangerous swimming conditions are expected due to high
+waves and strong rip currents.
 
-HAZARD...70 mph wind gusts.
+* WHERE...Beaches along Lake Michigan in Manitowoc County.
 
-SOURCE...Radar indicated and observed.
+* WHEN...From 9 PM CDT this evening through late tonight.
 
-IMPACT...Expect
+* IMPACTS...Dangerous swimming conditions are expected. Strong
+cu
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 9:53AM CDT until May 27 at 11:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37b7516e206d482cfb029a5d456f7618dcf47e93.001.1) — *2026-05-27*
+  > SMWBRO
+
+The National Weather Service in Brownsville has issued a
+
+* Special Marine Warning for...
+Coastal waters from Port Mansfield TX to the Rio Grande River out
+20 NM...
+Laguna Madre From the Port Of Brownsville to the Arroyo Colorado...
+Waters from Port Mansfield TX to the Ri
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:51AM CDT until May 27 at 7:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9eeec4b722619a6a15362176413decc45dfbf70d.001.1) — *2026-05-27*
+  > ...The National Weather Service in Fort Worth TX has issued a Flood
+Warning for the following rivers in Texas...
+
+Little River Near Little River affecting Bell County.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Little River near Little River.
+
+* WHEN...Until this evening.
+
+
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-13214) — *2026-05-27*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued May 27 at 9:50AM CDT until May 27 at 10:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85a47c1aefa0e6129073869f96187ecfc0b5eddd.001.1) — *2026-05-27*
+  > Observations indicate that the dense fog threat has ended.
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:41AM EDT until May 28 at 8:00AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df455fbc0aa15563468c61867310ea250827be5.001.1) — *2026-05-27*
   > ...The National Weather Service in Wilmington has issued a Flood
 Warning for the following rivers...
@@ -32,8 +64,6 @@ South Fork Licking River Near I 70 near Buckeye Lake.
 * WHERE...South Fork Licking River near I 70 near Buckeye Lake.
 
 * WHEN...Until Thurs
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-53265) — *2026-05-27*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:40AM CDT until May 27 at 10:15AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.582a3bd8f3e7b8c40ab48821f2d62d2727c35b7f.001.1) — *2026-05-27*
   > SVRBRO
 
@@ -182,14 +212,6 @@ possible.
 Franklin, Ohio, Ripley, Switzerland, Union and Wayne, the
 following counties, in Kentucky, Boone, Bracken, Campbell,
 Carroll, Gallatin,
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued May 27 at 8:38AM CDT until May 27 at 10:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8891501038143621b6f7748824b472a3879c83a4.002.1) — *2026-05-27*
-  > * WHAT...Visibility one-quarter mile or less in dense fog.
-
-* WHERE...Dunklin, Clay, Greene, Pemiscot, and Lake.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 8:37AM CDT until May 28 at 6:30PM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0acaca549f6a53223cf3264e8eae5d4b836543a2.001.1) — *2026-05-27*
   > ...The Flood Warning is extended for the following rivers in Texas...
 
@@ -234,35 +256,5 @@ possible.
 counties, Boyd, Carter and Greenup, southeast Ohio, including the
 following counties, Athens, Gallia, Jackson OH, Lawrence OH, Meigs,
 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 7:50AM CDT until May 28 at 1:01PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85ceec35e59a4da5d1fc9d9a3f0eebd636bc9622.001.1) — *2026-05-27*
-  > ...The National Weather Service in Fort Worth TX has issued a Flood
-Warning for the following rivers in Texas...
 
-South Fork Sabine River Near Quinlan affecting Rockwall and Hunt
-Counties.
-
-* WHAT...Minor flooding is forecast.
-
-* WHERE...South Fork Sabine River near Quinlan.
-
-* W
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 8:41AM EDT until May 27 at 11:45AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a519af12401f990f225f6304abf43fecfd10323.001.1) — *2026-05-27*
-  > FFWRLX
-
-The National Weather Service in Charleston has issued a
-
-* Flash Flood Warning for...
-North Central Roane County in central West Virginia...
-North Central Braxton County in north central West Virginia...
-Calhoun County in north central West Virginia...
-Gilmer County in no
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued May 27 at 7:09AM CDT until May 27 at 10:00AM CDT by NWS San Angelo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dcfae44b36098670f4f3ff54b814bb9ff5789ca.002.1) — *2026-05-27*
-  > * WHAT...Visibility 1/4 mile or less in dense fog.
-
-* WHERE...A portion of west central Texas.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-
-_(97 additional items in raw.jsonl)_
+_(96 additional items in raw.jsonl)_
