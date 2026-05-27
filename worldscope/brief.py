@@ -54,9 +54,11 @@ from .sections.local_news import LocalNewsSection
 from .sections.markets_global import MarketsGlobalSection
 from .sections.paper_bet_placement import PaperBetPlacementSection
 from .sections.paper_bets import PaperBetsSection
+from .sections.russian_internal import RussianInternalSection
 from .sections.sanctions_procurement import SanctionsProcurementSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
+from .sections.ukrainian_internal import UkrainianInternalSection
 from .sections.vip_flights import VipFlightsSection
 from .sections.weather import WeatherSection
 from .sections.wikidata_changes import WikidataChangesSection
@@ -71,6 +73,8 @@ SECTION_REGISTRY = [
     LocalNewsSection,
     ForeignNewsSection,
     ChineseInternalSection,
+    RussianInternalSection,
+    UkrainianInternalSection,
     PaperBetsSection,
     WeatherSection,
     MacroSection,
