@@ -110,7 +110,7 @@ class SanctionsProcurementSection(Section):
 
     def _pull_ofac_recent(self) -> list[dict]:
         url = ("https://news.google.com/rss/search?"
-               "q=site%3Aofac.treasury.gov+OR+(%22OFAC%22+%22designat%22)"
+               "q=site%3Aofac.treasury.gov+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
@@ -171,7 +171,7 @@ class SanctionsProcurementSection(Section):
 
     def _pull_dcsca_major_arms(self) -> list[dict]:
         url = ("https://news.google.com/rss/search?"
-               "q=site%3Adsca.mil+%22major+arms+sale%22"
+               "q=site%3Adsca.mil+%22major+arms+sale%22+when%3A60d"
                "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
@@ -201,32 +201,40 @@ class SanctionsProcurementSection(Section):
         return out
 
     # ----- FARA filings -----------------------------------------------------
+    # URL audit 2026-05-27: efile.fara.gov uses an Oracle APEX app with
+    # session-token URLs (f?p=1381:7 returns "page not available" without a
+    # session). The previous best-effort scrape was already producing 0
+    # items. Replaced with Google News site-search for justice.gov/nsd-fara
+    # which surfaces newly-uploaded registration statements and amendments.
 
     def _pull_fara_recent(self) -> list[dict]:
-        # FARA E-File search; recent registrations endpoint
-        url = "https://efile.fara.gov/ords/fara/f?p=1381:7"
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Ajustice.gov+nsd-fara+(registration+OR+amendment)+when%3A14d"
+               "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
             resp.raise_for_status()
         except requests.exceptions.RequestException:
             return []
-        # Best-effort scrape of the table
-        import re
+        feed = _parse_rss(resp.content)
         out = []
-        rows = re.findall(r'<tr[^>]*>(.*?)</tr>', resp.text, re.DOTALL)
-        for row in rows[1:30]:  # skip header, cap at 30
-            cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
-            cells = [re.sub(r"<[^>]+>", "", c).strip() for c in cells]
-            if len(cells) < 3: continue
-            iid = hashlib.sha1("|".join(cells).encode()).hexdigest()[:16]
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
+        for it in feed:
+            try:
+                d = date.fromisoformat((it.get("date") or "")[:10])
+                if d < cutoff: continue
+            except ValueError:
+                pass
+            iid = hashlib.sha1(
+                f"fara|{it.get('url','')}|{it.get('title','')}".encode()
+            ).hexdigest()[:16]
             out.append({
                 "id": f"fara-{iid}",
-                "date": date.today().isoformat(),
-                "title": f"[FARA] {' / '.join(cells[:3])}"[:300],
-                "url": url,
-                "summary": " | ".join(cells)[:400],
+                "date": it.get("date", date.today().isoformat()),
+                "title": f"[FARA] {it.get('title','')}"[:300],
+                "url": it.get("url", url),
+                "summary": it.get("summary","")[:400],
                 "subsection": "fara",
-                "fields": cells,
             })
         return out
 
@@ -286,11 +294,15 @@ class SanctionsProcurementSection(Section):
         return out
 
     # ----- CFIUS news -------------------------------------------------------
+    # URL audit 2026-05-27: home.treasury.gov/news/press-releases/feed
+    # returns 404 (Treasury retired its RSS endpoints). CFIUS doesn't publish
+    # per-case data; we proxy via Google News site-search on home.treasury.gov
+    # filtered for CFIUS/foreign investment terms.
 
     def _pull_cfius_news(self) -> list[dict]:
-        # CFIUS doesn't publish per-case data; it does publish announcements
-        # via Treasury press release feed.
-        url = "https://home.treasury.gov/news/press-releases/feed"
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Ahome.treasury.gov+(CFIUS+OR+%22foreign+investment%22)+when%3A14d"
+               "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
             resp.raise_for_status()
@@ -301,7 +313,8 @@ class SanctionsProcurementSection(Section):
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
         for it in feed:
             title = it.get("title", "")
-            # Filter to CFIUS-related items
+            # Defensive filter: Google News should already be narrow but keep
+            # the keyword guard.
             if "CFIUS" not in title and "foreign invest" not in title.lower():
                 continue
             try:
@@ -321,9 +334,14 @@ class SanctionsProcurementSection(Section):
         return out
 
     # ----- EXIM Bank --------------------------------------------------------
+    # URL audit 2026-05-27: exim.gov dropped RSS entirely (every /feed,
+    # /rss, /news/feed permutation returns 404). The homepage HTML contains
+    # no link rel=alternate. Replaced with Google News site-search.
 
     def _pull_exim_releases(self) -> list[dict]:
-        url = "https://www.exim.gov/feeds/news.rss"
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Aexim.gov+press+release+when%3A14d"
+               "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
             resp.raise_for_status()
@@ -350,9 +368,12 @@ class SanctionsProcurementSection(Section):
         return out
 
     # ----- EU Sanctions -----------------------------------------------------
+    # URL audit 2026-05-27: sanctionsmap.eu API still works but the field
+    # schema changed. Old code looked for `name` and `updated_at`; the API
+    # now uses `specification` (regime name) and `amendment` (unix timestamp
+    # of most recent legal-act amendment). 55 regimes returned today.
 
     def _pull_eu_sanctions(self) -> list[dict]:
-        # EU Sanctions Map publishes a JSON of changes
         url = "https://www.sanctionsmap.eu/api/v1/regime"
         try:
             resp = requests.get(url, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=20)
@@ -361,18 +382,22 @@ class SanctionsProcurementSection(Section):
         except requests.exceptions.RequestException:
             return []
         out = []
-        for regime in (data.get("data") or [])[:50]:
+        for regime in (data.get("data") or [])[:60]:
             r_id = regime.get("id")
-            r_name = regime.get("name")
+            r_name = regime.get("specification") or regime.get("acronym")
             if not r_name: continue
-            updated = regime.get("updated_at") or ""
-            iid = hashlib.sha1(f"eu-sanc|{r_id}|{updated}".encode()).hexdigest()[:16]
+            ts = regime.get("amendment")   # unix timestamp, seconds
+            if isinstance(ts, (int, float)):
+                amend_iso = datetime.fromtimestamp(int(ts), tz=timezone.utc).date().isoformat()
+            else:
+                amend_iso = date.today().isoformat()
+            iid = hashlib.sha1(f"eu-sanc|{r_id}|{ts}".encode()).hexdigest()[:16]
             out.append({
                 "id": f"eu-sanctions-{iid}",
-                "date": updated[:10] or date.today().isoformat(),
-                "title": f"[EU Sanctions] Regime: {r_name}"[:300],
+                "date": amend_iso,
+                "title": f"[EU Sanctions] {r_name}"[:300],
                 "url": f"https://www.sanctionsmap.eu/#/main/details/{r_id}",
-                "summary": f"Regime updated_at: {updated}",
+                "summary": f"Last amended: {amend_iso}. Acronym: {regime.get('acronym') or '-'}.",
                 "subsection": "eu_sanctions",
                 "regime_id": r_id,
                 "regime_name": r_name,
@@ -380,12 +405,18 @@ class SanctionsProcurementSection(Section):
         return out
 
     # ----- UN Sanctions -----------------------------------------------------
+    # URL audit 2026-05-27: un.org rejects the bare worldscope UA with a
+    # 403 (works fine with a real browser UA). Send a browser UA here.
 
     def _pull_un_sanctions(self) -> list[dict]:
-        # UN SC publishes a list of currently active sanctions committees
         url = "https://www.un.org/securitycouncil/sanctions/information"
+        browser_ua = (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
         try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+            resp = requests.get(url, headers={"User-Agent": browser_ua}, timeout=20)
             resp.raise_for_status()
         except requests.exceptions.RequestException:
             return []
@@ -401,9 +432,13 @@ class SanctionsProcurementSection(Section):
         }]
 
     # ----- USTR Actions -----------------------------------------------------
+    # URL audit 2026-05-27: ustr.gov dropped RSS (all /feed, /rss permutations
+    # 404). Replaced with Google News site-search.
 
     def _pull_ustr_actions(self) -> list[dict]:
-        url = "https://ustr.gov/about-us/policy-offices/press-office/press-releases/feed"
+        url = ("https://news.google.com/rss/search?"
+               "q=site%3Austr.gov+when%3A14d"
+               "&hl=en-US&gl=US&ceid=US:en")
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
             resp.raise_for_status()

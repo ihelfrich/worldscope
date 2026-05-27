@@ -3,8 +3,8 @@ markets_global — comprehensive financial-markets layer.
 
 Pulls daily/intraday snapshots from free APIs across five asset classes:
 
-  1. FX — major + EM crosses (USD-base) via open.er-api.com (free, no auth;
-       URL changed 2026-05-27 — exchangerate.host moved behind a paid plan)
+  1. FX (major + EM crosses, USD-base) via open.er-api.com (free, no auth;
+       URL changed 2026-05-27, since exchangerate.host moved behind a paid plan)
   2. Sovereign bond yields — 10y for G20 via FRED (US) + Stooq (rest)
   3. Commodities — oil (WTI + Brent), gold, copper, ag (wheat, corn, soy),
        gas (TTF + Henry Hub), via Stooq
@@ -16,7 +16,7 @@ Pulls daily/intraday snapshots from free APIs across five asset classes:
 Sources used:
   - Stooq.com — free CSV downloads, no auth, very generous rate limit
   - CoinGecko — free public API tier (10-30 calls/min)
-  - open.er-api.com — FX, free public tier, no auth (exchangerate.host went
+  - open.er-api.com: FX, free public tier, no auth (exchangerate.host went
     paid 2026-05-27)
 
 If any sub-source fails, the section degrades gracefully — partial coverage

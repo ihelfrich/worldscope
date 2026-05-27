@@ -79,9 +79,9 @@ def _slug(s: str) -> str:
 #   - The Paper (feedx.net mirror) verified working.
 #   - Xinhua and Global Times English direct feeds still work.
 #
-# RSSHub public instance (rsshub.app) returns 403 on every probe today —
+# RSSHub public instance (rsshub.app) returns 403 on every probe today;
 # Cloudflare appears to block datacenter IPs. If we deploy worldscope on a
-# residential IP later, RSSHub becomes viable; until then, Google News
+# residential IP later, RSSHub becomes viable. Until then, Google News
 # site-search is the most reliable bridge.
 FEEDS: list[tuple[str, str, str, str, str]] = [
     # ---- State-controlled (party line) -------------------------------------
@@ -91,7 +91,7 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
     # ---- Mainstream Independent (market-liberal, semi-private) -------------
     ("Caixin 财新 (via Google News)",              "https://news.google.com/rss/search?q=site%3Acaixin.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",                       "zh", "mainstream_independent",  "Market-liberal business via Google News proxy (direct feed paywalled 2026-05-27)"),
     ("The Paper 澎湃",                             "https://feedx.net/rss/thepaper.xml",                                                                          "zh", "mainstream_independent",  "Shanghai United Media liberal-left (verified 2026-05-27)"),
-    # Caijing 财经: removed 2026-05-27 — RSS retired, Google News indexes ~1
+    # Caijing 财经: removed 2026-05-27. RSS retired, Google News indexes ~1
     # item; coverage of market-liberal Chinese business comes via Caixin and
     # SCMP business below.
     ("SCMP China business",                        "https://www.scmp.com/rss/92/feed",                                                                            "en", "mainstream_independent",  "Hong Kong-based China business coverage (added 2026-05-27 to fill Caijing gap)"),
@@ -101,8 +101,8 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
     ("Caixin Global (via Google News)",            "https://news.google.com/rss/search?q=site%3Acaixinglobal.com&hl=en-US&gl=US&ceid=US:en",                     "en", "mainstream_independent",  "Caixin's English daily via Google News proxy (direct feed 403 2026-05-27)"),
 
     # ---- Nationalist intellectual ------------------------------------------
-    # Guancha 观察者网: removed 2026-05-27 — no working RSS endpoint found
-    # (homepage HTML at /rss). Nationalist-intellectual register partially
+    # Guancha 观察者网: direct RSS removed 2026-05-27 (no working endpoint;
+    # /rss returns HTML). Nationalist-intellectual register partially
     # covered by Global Times. RSSHub /guancha/headline would work if we run
     # our own RSSHub instance; not viable on the public instance.
     ("Guancha 观察者网 (via Google News)",         "https://news.google.com/rss/search?q=site%3Aguancha.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",                       "zh", "mainstream_partisan_right", "Nationalist intellectual via Google News proxy (direct RSS dead 2026-05-27)"),

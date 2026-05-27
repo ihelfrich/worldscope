@@ -49,12 +49,33 @@ class FederalRegisterSection(Section):
 
     def pull(self) -> list[dict]:
         # Pull the last 7 days so a missed run doesn't lose context.
+        #
+        # URL audit 2026-05-27: the Federal Register API returns a fixed
+        # default field set unless `fields[]=…` is supplied explicitly. The
+        # default does NOT include `president`, so the previous code was
+        # always reading null. We now request president (plus a few other
+        # fields useful for the synthesis prompt) explicitly. Verified
+        # against /documents.json on 2026-05-27. Presidential Documents
+        # come back with `{"president": {"identifier": "...", "name": "..."}}`.
         start = (date.today() - timedelta(days=7)).isoformat()
-        params = {
-            "conditions[publication_date][gte]": start,
-            "per_page": 100,
-            "order": "newest",
-        }
+        params: list[tuple[str, str]] = [
+            ("conditions[publication_date][gte]", start),
+            ("per_page", "100"),
+            ("order", "newest"),
+            # Explicit field list. `president` and `signing_date` are the
+            # critical ones; the rest restore the previous default coverage.
+            ("fields[]", "document_number"),
+            ("fields[]", "title"),
+            ("fields[]", "type"),
+            ("fields[]", "publication_date"),
+            ("fields[]", "signing_date"),
+            ("fields[]", "html_url"),
+            ("fields[]", "abstract"),
+            ("fields[]", "agencies"),
+            ("fields[]", "president"),
+            ("fields[]", "executive_order_number"),
+            ("fields[]", "presidential_document_number"),
+        ]
         resp = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=30)
         resp.raise_for_status()
         data = resp.json()
@@ -63,7 +84,8 @@ class FederalRegisterSection(Section):
             if d.get("type") not in self.INTERESTING_TYPES:
                 continue
             agencies = [a.get("name", "") for a in (d.get("agencies") or []) if a.get("name")]
-            president = (d.get("president") or {}).get("name") if d.get("president") else None
+            pres_obj = d.get("president") or {}
+            president = pres_obj.get("name") if isinstance(pres_obj, dict) else None
             items.append({
                 "id": d.get("document_number"),
                 "date": d.get("publication_date"),
@@ -74,6 +96,9 @@ class FederalRegisterSection(Section):
                 "agencies": ", ".join(agencies),
                 "agencies_list": agencies,
                 "president": president,
+                "signing_date": d.get("signing_date"),
+                "executive_order_number": d.get("executive_order_number"),
+                "presidential_document_number": d.get("presidential_document_number"),
             })
         return items
 
@@ -99,7 +124,10 @@ class FederalRegisterSection(Section):
                 "canonical_name": agency,
                 "metadata": {"branch": "executive", "kind": "federal-agency"},
             })
-        if item.get("president"):
+        # The API returns the sitting president on every record, not just
+        # presidential documents. Only emit the person entity for documents
+        # the president actually signed (Presidential Documents).
+        if item.get("president") and item.get("doc_type") == "Presidential Document":
             entities.append({
                 "id": f"person:pres-{_slug(item['president'])}",
                 "type": "person",
@@ -128,7 +156,10 @@ class FederalRegisterSection(Section):
                     "weight": 1.0,
                     "evidence": evidence,
                 })
-            if item.get("president"):
+            # signed-by is only meaningful for Presidential Documents; the
+            # API also returns the sitting president on Rules / Proposed
+            # Rules / Notices but those aren't signed by the president.
+            if item.get("president") and item.get("doc_type") == "Presidential Document":
                 relationships.append({
                     "from": doc_id,
                     "to": f"person:pres-{_slug(item['president'])}",
