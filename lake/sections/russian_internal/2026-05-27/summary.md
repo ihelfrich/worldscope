@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-05-27
-record_count: 1030
-new_today: 1030
+record_count: 1132
+new_today: 1132
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-1030 new of 1030 total items today.
+1132 new of 1132 total items today.
 
 - **NEW**  [[TITLE: Бывший главред RT France Ксения Федорова устроилась на французское телевидение. Там она воспроизводит тезисы российской пропаганды | LEDE: <p>Бывший главный редактор RT France Ксения Федорова у] (ru: Бывший главред RT France Ксения Федорова устроилась на французское телевидение. )](https://meduza.io/news/2026/05/27/byvshiy-glavred-rt-france-kseniya-fedorova-ustroilas-na-frantsuzskoe-televidenie-tam-ona-vosproizvodit-tezisy-rossiyskoy-propagandy) — *2026-05-27*
   > <p>Бывший главный редактор RT France Ксения Федорова устроилась на работу на французском правоконсервативном телеканале CNews, рассказывается в публикациях Politico и русской службы RFI. <p>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: На съезде психиатров России обсудили «зонтик трансгендерности» и «пятую колонну ЛГБТ-френдли врачей». Доклад об этом сделала дочь психиатра по делу Чикатило | LEDE: <p>Главный врач лечебно-реаб] (ru: На съезде психиатров России обсудили «зонтик трансгендерности» и «пятую колонну )](https://meduza.io/news/2026/05/26/na-s-ezde-psihiatrov-rossii-obsudili-zontik-transgendernosti-i-pyatuyu-kolonnu-lgbt-frendli-vrachey-doklad-ob-etom-sdelala-doch-psihiatra-po-delu-chikatilo) — *2026-05-26*
   > <p>Главный врач лечебно-реабилитационного научного центра «Феникс» Ольга Бухановская выступила на XVIII съезде психиатров России с докладом о «расстройстве трансгендерного спектра», в которое включила «гомосексуализм».<p>
 
-_(1005 additional items in raw.jsonl)_
+_(1107 additional items in raw.jsonl)_

@@ -2,19 +2,20 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-27
-record_count: 133
-new_today: 133
+record_count: 134
+new_today: 134
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-133 new of 133 total items today.
+134 new of 134 total items today.
 
+- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві | LEDE: ] (uk: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві)](https://www.pravda.com.ua/columns/2026/05/27/8036657/) — *2026-05-27*
 - **NEW**  [[TITLE: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув пес | LEDE: Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них гос] (uk: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув п)](https://www.pravda.com.ua/news/2026/05/27/8036655/) — *2026-05-27*
   > Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них госпіталізовано.
 - **NEW**  [[TITLE: Коордштаб влаштував Тихановській зустріч із полоненими білорусами, які воювали на боці РФ | LEDE: Секретар Координаційного штабу з питань поводження з військовополоненими Дмитро Усов провів зус] (uk: Коордштаб влаштував Тихановській зустріч із полоненими білорусами, які воювали н)](https://www.pravda.com.ua/news/2026/05/27/8036652/) — *2026-05-27*
@@ -52,13 +53,11 @@ state: fresh
   > У Києві відкрили Місію демократичних сил Білорусі для підтримки білорусів та співпраці з Україною.
 - **NEW**  [[TITLE: Рада достроково припинила повноваження нардепа Цабаля | LEDE: Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.] (uk: Рада достроково припинила повноваження нардепа Цабаля)](https://www.pravda.com.ua/news/2026/05/27/8036602/) — *2026-05-27*
   > Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.
-- **NEW**  [[TITLE: Вінницькому блогеру дали 3 роки в’язниці за шахрайство та образи ТЦК, прокуратура хоче більше | LEDE: Вінницький суд присудив блогеру Олександру Шавлюку 3 роки ув'язнення за образи ТЦК та шахра] (uk: Вінницькому блогеру дали 3 роки в’язниці за шахрайство та образи ТЦК, прокуратур)](https://www.pravda.com.ua/news/2026/05/27/8036600/) — *2026-05-27*
-  > Вінницький суд присудив блогеру Олександру Шавлюку 3 роки ув'язнення за образи ТЦК та шахрайство зі зборами на ЗСУ.
-- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- **NEW**  [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [Hungary Links Zelensky Meeting to Progress on Minority Rights](https://www.kyivpost.com/post/76981) — *2026-05-27*
+  > Hungary’s government on Wednesday said a potential meeting between Prime Minister Péter Magyar and President Volodymyr Zelensky will only take place if negotiations over the rights of the Hungarian minority in Ukraine make progress. Technical-level talks between Budapest and Kyiv
+- **NEW**  [EXPLAINER: So Where Does Ukraine Get So Many ‘Ace’ Drone Pilots From?](https://www.kyivpost.com/post/76979) — *2026-05-27*
+  > Ukraine’s “drone advantage” isn’t just airframes, it’s pilot training. Ukraine runs a massive drone program with ~80,000 personnel involved and an estimated 25-40,000 active combat UAV pilots (elite SBS: ~15k) – outnumbering many nations’ entire air forces. Training grew from 2,0
 
-_(108 additional items in raw.jsonl)_
+_(109 additional items in raw.jsonl)_

@@ -2,6 +2,14 @@
   "anomalies": [
     {
       "category": "feed-failure",
+      "description": "[feed error] President of Ukraine: HTTPError",
+      "evidence": [
+        "ukrainian-internal-error-president-of-ukraine"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
       "description": "[feed error] LIGA.net: HTTPError",
       "evidence": [
         "ukrainian-internal-error-liga-net"
@@ -18,9 +26,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] President of Ukraine: HTTPError",
+      "description": "[feed error] Censor.NET: HTTPError",
       "evidence": [
-        "ukrainian-internal-error-president-of-ukraine"
+        "ukrainian-internal-error-censor-net"
       ],
       "z_score": null
     },
@@ -29,14 +37,6 @@
       "description": "[feed error] Vechirniy Kyiv: HTTPError",
       "evidence": [
         "ukrainian-internal-error-vechirniy-kyiv"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Censor.NET: HTTPError",
-      "evidence": [
-        "ukrainian-internal-error-censor-net"
       ],
       "z_score": null
     },
@@ -122,11 +122,20 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 133,
+  "new_count": 134,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 133,
+  "record_count": 134,
   "relationships": [
+    {
+      "evidence": [
+        "a4d8fa0f0b046239b94b89522c4a17bf62596382"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
     {
       "evidence": [
         "298cd8366066ef5b574117909bc00ce14547bf8b"
@@ -300,9 +309,9 @@
     },
     {
       "evidence": [
-        "b321daa0cd024f6734011c80d8525daae6a797e9"
+        "367b823fed381709dcc9efaf8e2acfa6f6b8bc57"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0

@@ -2,27 +2,60 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 121
-new_today: 121
+record_count: 122
+new_today: 122
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-121 new of 121 total items today.
+122 new of 122 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:31AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.690d84a5d199ad800130b65dbadaecb8f47dcad5.001.1) — *2026-05-27*
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:42AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dda7974b371b3056e4d97c0431419bf7d48bc334.001.1) — *2026-05-27*
+  > At 941 AM CDT, a severe thunderstorm was located over Holly Beach,
+or 8 miles west of South Padre Island, moving east at 20 mph. Port
+Isabel airport reported a wind gust of 61 mph at 932 AM CDT.
+
+HAZARD...70 mph wind gusts.
+
+SOURCE...Radar indicated and observed.
+
+IMPACT...Expect
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:41AM EDT until May 28 at 8:00AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df455fbc0aa15563468c61867310ea250827be5.001.1) — *2026-05-27*
+  > ...The National Weather Service in Wilmington has issued a Flood
+Warning for the following rivers...
+
+South Fork Licking River Near I 70 near Buckeye Lake.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...South Fork Licking River near I 70 near Buckeye Lake.
+
+* WHEN...Until Thurs
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-53265) — *2026-05-27*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:40AM CDT until May 27 at 10:15AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.582a3bd8f3e7b8c40ab48821f2d62d2727c35b7f.001.1) — *2026-05-27*
   > SVRBRO
 
 The National Weather Service in Brownsville has issued a
 
 * Severe Thunderstorm Warning for...
-East central Cameron County in Deep South Texas...
+Southeastern Cameron County in Deep South Texas...
 
-* Until 1000 AM CDT.
+* Until 1015 AM CDT.
 
-* At 930 AM CDT, a severe thunderstorm was located near Holly Beach,
-or 7 miles east of Laureles, movin
+* At 940 AM CDT, a severe thunderstorm was located over Port Of
+Brownsville, moving southeast at 20 mph
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 9:35AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71cd6e935ac66d20cc71cf11cca3228927aaf265.001.1) — *2026-05-27*
+  > SMWBRO
+
+The National Weather Service in Brownsville has issued a
+
+* Special Marine Warning for...
+Coastal waters from Port Mansfield TX to the Rio Grande River out
+20 NM...
+Laguna Madre From the Port Of Brownsville to the Arroyo Colorado...
+Waters from Port Mansfield TX to the Ri
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:31AM CDT until May 31 at 7:00PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6486348fe461e3a50e5d631a14b532c5e5b1390.001.1) — *2026-05-27*
   > ...The National Weather Service in Lake Charles LA has issued a
 Flood Warning for the following rivers in Louisiana...
@@ -32,8 +65,6 @@ Calcasieu River near White Oak Park
 Additional information is available at www.weather.gov.
 
 * WHAT...Minor flooding is occurring and minor flooding is forecas
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-845) — *2026-05-27*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 9:24AM CDT until May 27 at 12:30PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a37be307e44957134e9d620d51b737b51e63e6f.001.1) — *2026-05-27*
   > FFWFWD
 
@@ -132,16 +163,6 @@ NM...
 * Until 1100 AM CDT.
 
 *
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 8:56AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d1d7ca0581e8c7ae7ca1bdc5024009f3a23118e.001.1) — *2026-05-27*
-  > At 856 AM CDT, Doppler radar was tracking a cluster of strong
-thunderstorms over Rio Hondo Elementary School, or near Rio Hondo,
-moving northeast at 85 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow
 - **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued May 27 at 6:42AM PDT until May 27 at 8:00PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16d9e62d03acd7837d4afad604c61dc3d1f75b14.001.1) — *2026-05-27*
   > * WHAT...Sustained southeast to south winds 25 to 35 mph, with gusts
 near 55 mph expected.
@@ -161,16 +182,6 @@ possible.
 Franklin, Ohio, Ripley, Switzerland, Union and Wayne, the
 following counties, in Kentucky, Boone, Bracken, Campbell,
 Carroll, Gallatin,
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 8:41AM CDT until May 27 at 9:45AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98e9aa1f7e97a975f3857e9928eef755f5b357bb.001.1) — *2026-05-27*
-  > SMWBRO
-
-The National Weather Service in Brownsville has issued a
-
-* Special Marine Warning for...
-Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM...
-Coastal waters from Port Mansfield TX to the Rio Grande River out
-20 NM...
-Laguna Madre From 5 nm North Of Port Mansf
 - **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued May 27 at 8:38AM CDT until May 27 at 10:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8891501038143621b6f7748824b472a3879c83a4.002.1) — *2026-05-27*
   > * WHAT...Visibility one-quarter mile or less in dense fog.
 
@@ -253,13 +264,5 @@ Gilmer County in no
 * WHEN...Until 10 AM CDT this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued May 27 at 7:09AM CDT until May 27 at 10:00AM CDT by NWS San Angelo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dcfae44b36098670f4f3ff54b814bb9ff5789ca.001.1) — *2026-05-27*
-  > * WHAT...Visibility 1/4 miles or less in dense fog.
 
-* WHERE...McCulloch and San Saba Counties.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-
-_(96 additional items in raw.jsonl)_
+_(97 additional items in raw.jsonl)_
