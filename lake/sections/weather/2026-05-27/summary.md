@@ -2,15 +2,60 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 120
-new_today: 120
+record_count: 121
+new_today: 121
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-120 new of 120 total items today.
+121 new of 121 total items today.
 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 9:24AM CDT until May 27 at 12:30PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a37be307e44957134e9d620d51b737b51e63e6f.001.1) — *2026-05-27*
+  > FFWFWD
+
+The National Weather Service in Fort Worth has issued a
+
+* Flash Flood Warning for...
+Eastern Dallas County in north central Texas...
+Western Kaufman County in north central Texas...
+Rockwall County in north central Texas...
+
+* Until 1230 PM CDT.
+
+* At 924 AM CDT, Doppler
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:22AM EDT until May 27 at 10:30AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2101d8ff680042491ed3908428f863ae9369536.001.1) — *2026-05-27*
+  > The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 200 AM EDT Thursday for
+portions of northeast Kentucky, southeast Ohio, and West Virginia.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:21AM EDT until May 27 at 11:45AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00d45bbbb3c293187647785d67b9a7d9213b9e4a.001.1) — *2026-05-27*
+  > At 1021 AM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 1 and 2 inches of rain have
+fallen. Additional rainfall amounts up to 0.75 inches are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+H
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-21943) — *2026-05-27*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:20AM CDT until May 27 at 10:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28038dfc6750a6ed3873273288282619d7703871.001.1) — *2026-05-27*
+  > * WHAT...Urban areas and small streams flooding caused by excessive
+rainfall continues.
+
+* WHERE...Aransas County in south central Texas...
+Southeastern Bee County in south central Texas...
+Northeastern Jim Wells County in south central Texas...
+Northeastern Kleberg County in sou
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued May 27 at 10:18AM EDT until May 27 at 10:00PM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b78d159f9e0032dca4d40f6ade0836a284f49e81.001.1) — *2026-05-27*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of east central Ohio, including the following
+areas, Belmont, Guernsey, Monroe, Muskingum and Noble, southwest
+Pennsylvania, including the following areas, Fayette, Greene,
+Higher Elevati
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 9:13AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca2ebaa40067cb36e4c6d4248f5ddfe34ac89e60.001.1) — *2026-05-27*
   > At 913 AM CDT, Doppler radar was tracking a cluster of strong
 thunderstorms over Cameron County moving east at 65 mph.
@@ -36,8 +81,6 @@ Southwestern Licking County in central Ohio...
 * Until 115 PM EDT.
 
 * At 1012 AM EDT, radar a
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-12460) — *2026-05-27*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:06AM EDT until May 29 at 5:18AM EDT by NWS Columbia SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.69c1cafd92093c68ed55a41da618f620454eb1fd.001.1) — *2026-05-27*
   > ...The Flood Warning is extended for the following rivers in South
 Carolina...
@@ -165,14 +208,6 @@ possible.
 counties, Boyd, Carter and Greenup, southeast Ohio, including the
 following counties, Athens, Gallia, Jackson OH, Lawrence OH, Meigs,
 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 8:02AM CDT until May 27 at 9:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eac4aec1161d67459cb890f1f8cfdbc1f64448ec.001.1) — *2026-05-27*
-  > * WHAT...Urban areas and small streams flooding caused by excessive
-rainfall is expected.
-
-* WHERE...Aransas County in south central Texas...
-Southeastern Bee County in south central Texas...
-Northeastern Jim Wells County in south central Texas...
-Northeastern Kleberg County in s
 - **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 8:01AM CDT until May 27 at 9:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ece253c813647b5fb47ab708cb48a2287adab79d.001.1) — *2026-05-27*
   > SMWCRP
 
@@ -196,18 +231,6 @@ Counties.
 * WHERE...South Fork Sabine River near Quinlan.
 
 * W
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 8:44AM EDT until May 27 at 11:45AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a325302d1c97febb4141dfa725aebecf762c1cb3.001.1) — *2026-05-27*
-  > FFWPBZ
-
-The National Weather Service in Pittsburgh has issued a
-
-* Flash Flood Warning for...
-Southern Preston County in northeastern West Virginia...
-Tucker County in northeastern West Virginia...
-
-* Until 1145 AM EDT.
-
-* At 844 AM EDT, Doppler radar indicated thunderstorms prod
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 8:41AM EDT until May 27 at 11:45AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a519af12401f990f225f6304abf43fecfd10323.001.1) — *2026-05-27*
   > FFWRLX
 
@@ -234,36 +257,5 @@ Gilmer County in no
 * WHEN...Until 10 AM CDT this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 7:00AM CDT until May 30 at 11:00AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.faaa2aea74bdcdc5c15fb1a3db7b9647923a3eca.001.1) — *2026-05-27*
-  > ...The Flood Warning is extended for the following rivers in
-Mississippi...
 
-Wolf River Above Gulfport affecting Harrison County.
-
-For the Wolf River...including Landon, Gulfport...Moderate flooding
-is forecast.
-
-* WHAT...Moderate flooding is occurring and moderate flooding is
-fo
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 7:00AM CDT until May 31 at 1:00AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e85a588edaccdba54f7ad0c16e98e9d3f8b38d16.001.1) — *2026-05-27*
-  > ...The Flood Warning is extended for the following rivers in
-Louisiana...Mississippi...
-
-Pearl River Near Pearl River affecting Pearl River, Hancock and
-St. Tammany Counties.
-
-For the Lower Pearl River...including Bogalusa, Pearl River...Minor
-flooding is forecast.
-
-* WHAT...Mino
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued May 27 at 4:47AM PDT until May 28 at 5:00AM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3a1cfd748e334d17df77c7a16a13377d685c543.001.1) — *2026-05-27*
-  > * WHAT...West winds 20 to 30 mph with gusts to 55 mph.
-
-* WHERE...Riverside County Mountains, San Diego County Deserts, San
-Diego County Mountains, and San Gorgonio Pass near Banning.
-
-* WHEN...Until 5 AM PDT Thursday.
-
-* IMPACTS...Gusty winds will blow around unsecured objects. 
-
-_(95 additional items in raw.jsonl)_
+_(96 additional items in raw.jsonl)_

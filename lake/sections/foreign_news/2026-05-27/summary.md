@@ -2,23 +2,21 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-05-27
-record_count: 887
-new_today: 887
+record_count: 867
+new_today: 867
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-887 new of 887 total items today.
+867 new of 867 total items today.
 
-- **NEW**  [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-27*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-27*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-27*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- **NEW**  [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-27*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns](https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
   > Tedros Adhanom Ghebreyesus said fighting in DR Congo was hampering efforts to stop spread
 - **NEW**  [[Global] Israeli strike in Gaza City kills new head of Hamas's military wing](https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss) — *2026-05-27*
@@ -61,5 +59,7 @@ state: fresh
   > The story of the rise and decline of India’s communists - from ruling states to struggling for relevance.
 - **NEW**  [[Global] Why temperature records are being not only broken but smashed](https://www.bbc.com/news/articles/c62rrj66p3eo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
   > The combined effects of a heat dome and climate change have brought extreme warmth to western Europe.
+- **NEW**  [[Global] Wave of child abuse cases shakes schools in Paris](https://www.bbc.com/news/articles/c8e8gx2d7j4o?at_medium=RSS&at_campaign=rss) — *2026-05-25*
+  > A school assistant goes on trial accused of sexual mistreatment of children in his care, in the latest case to rock the Paris school system.
 
-_(862 additional items in raw.jsonl)_
+_(842 additional items in raw.jsonl)_

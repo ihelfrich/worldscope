@@ -52,13 +52,13 @@ state: fresh
   > Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.
 - **NEW**  [[TITLE: Вінницькому блогеру дали 3 роки в’язниці за шахрайство та образи ТЦК, прокуратура хоче більше | LEDE: Вінницький суд присудив блогеру Олександру Шавлюку 3 роки ув'язнення за образи ТЦК та шахра] (uk: Вінницькому блогеру дали 3 роки в’язниці за шахрайство та образи ТЦК, прокуратур)](https://www.pravda.com.ua/news/2026/05/27/8036600/) — *2026-05-27*
   > Вінницький суд присудив блогеру Олександру Шавлюку 3 роки ув'язнення за образи ТЦК та шахрайство зі зборами на ЗСУ.
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
 
 _(108 additional items in raw.jsonl)_
