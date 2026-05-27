@@ -49,7 +49,7 @@ marker. Ian provisions verified names by hand and re-runs the builder.
   party: Democratic
   bioguide_id: W000817
   congress_chamber: senate
-  committees: []                  # populate via ProPublica when key provisioned
+  committees: []                  # populate via api.congress.gov when CONGRESS_GOV_API_KEY provisioned
   twitter: TODO
   bluesky: TODO
   ogeid: TODO
@@ -59,7 +59,10 @@ marker. Ian provisions verified names by hand and re-runs the builder.
 ```
 
 The `bioguide_id` is the unique key for cross-source joins to Quiver
-Quantitative STOCK Act PTRs and to ProPublica Congress.
+Quantitative STOCK Act PTRs and to the Library of Congress API
+(api.congress.gov). ProPublica's Congress API was retired in 2024; the
+`propublica_id` registry field is kept as a stable historical identifier
+but is no longer queried.
 
 ## Composite score
 
@@ -96,7 +99,7 @@ section run):
 | Clerk.house.gov MemberData.xml | https://clerk.house.gov/xml/lists/MemberData.xml | 200 OK, 555,044 bytes | 441 members | Used at registry-build time only |
 | DOJ press release RSS | https://www.justice.gov/news/rss | 200 OK | up to 75 items | Pulled live on every section run; figure-name substring match |
 | CourtListener RECAP search | https://www.courtlistener.com/api/rest/v4/search/?type=r | 200 OK | up to 5 per figure | Only the top-K pre-ranked figures get queried (K=25); throttle-aware |
-| ProPublica Congress API | https://api.propublica.org/congress/v1/ | 401 (no key) | 0 | `PROPUBLICA_API_KEY` not yet provisioned. Speeches, vote alignment, and committee assignments stay empty until then |
+| Library of Congress API | https://api.congress.gov/v3/ | 403 (no key) | 0 | ProPublica's Congress API was retired in 2024 ("ProPublica's Congress API is no longer available", per their docs). The replacement is api.congress.gov, free key signup at https://api.congress.gov. Once `CONGRESS_GOV_API_KEY` is provisioned, covers member metadata, sponsored bills, votes, committee assignments, and the Congressional Record |
 | GovInfo Congressional Record | https://api.govinfo.gov/collections/CREC | 401 (no key) | 0 | `GOVINFO_API_KEY` not yet provisioned. Speech volume / topic drift contributes 0 until then |
 | Senate EFD search | https://efdsearch.senate.gov/search/home/ | 200 OK | not yet wired | CSRF token + session needed; sketched, not implemented |
 | House EFD | https://disclosures-clerk.house.gov/PublicDisclosure/FinancialDisclosure | 200 OK (after redirect) | not yet wired | PDF-based; sketched, not implemented |
@@ -109,7 +112,7 @@ section run):
 
 | Env var | Purpose | Affected component |
 |---|---|---|
-| `PROPUBLICA_API_KEY` | ProPublica Congress API | speech_volume, speech_topic_drift, committees field on registry |
+| `CONGRESS_GOV_API_KEY` | Library of Congress API (api.congress.gov) | speech_volume, speech_topic_drift, committees field on registry. Replaces retired ProPublica Congress API |
 | `GOVINFO_API_KEY` | GovInfo Congressional Record bulk API | speech_volume, speech_topic_drift |
 | `COURTLISTENER_API_TOKEN` (or `COURTLISTENER_API_KEY`) | CourtListener RECAP search | enforcement_hits (already partially live without key, but key lifts rate limits) |
 
