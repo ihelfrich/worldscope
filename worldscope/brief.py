@@ -223,6 +223,30 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as ux:  # pragma: no cover
         print(f"[ukraine-maps] suite failed: {type(ux).__name__}: {ux}")
 
+    # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
+    # renderer's discover_assets() finds them. Without this, the maps and
+    # graphics generated above ended up in figures/daily/... but never made
+    # it into the rendered HTML. This is the actual fix for the recurring
+    # "where are the maps" problem.
+    import shutil as _shutil
+    _repo_root = Path(__file__).resolve().parent.parent
+    briefings_dir = _repo_root / "briefings"
+    briefings_dir.mkdir(parents=True, exist_ok=True)
+    stem = today.isoformat()
+    mirrored = 0
+    for src_path in (
+        list((_repo_root / "figures" / "daily" / stem).glob("*.png"))
+        + list((_repo_root / "figures" / "daily" / stem / "maps").glob("*.png"))
+    ):
+        dest = briefings_dir / f"{stem}-{src_path.name}"
+        try:
+            _shutil.copy(src_path, dest)
+            mirrored += 1
+        except Exception:
+            pass
+    if mirrored:
+        print(f"[mirror] copied {mirrored} generated graphics+maps into briefings/")
+
     # 2. Trend stats over the last 14 days
     trends = {sid: section_trend(store, sid) for sid in states}
 
