@@ -244,6 +244,18 @@ CREATE TABLE IF NOT EXISTS quarantine (
     validation_error  TEXT NOT NULL,
     detected_at       TEXT NOT NULL
 );
+
+-- Record embeddings: 384-dim float32 vectors from a multilingual
+-- sentence-transformer (paraphrase-multilingual-MiniLM-L12-v2). Drives
+-- cross-language semantic search and cross-source headline dedup.
+-- vector is 384 * 4 = 1536 bytes (float32, little-endian).
+CREATE TABLE IF NOT EXISTS record_embeddings (
+    record_id  TEXT PRIMARY KEY REFERENCES records(id) ON DELETE CASCADE,
+    vector     BLOB NOT NULL,
+    model      TEXT NOT NULL,
+    indexed_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_re_indexed ON record_embeddings(indexed_at);
 """
 
 

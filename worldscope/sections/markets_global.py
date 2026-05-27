@@ -3,7 +3,8 @@ markets_global — comprehensive financial-markets layer.
 
 Pulls daily/intraday snapshots from free APIs across five asset classes:
 
-  1. FX — major + EM crosses (USD-base) via exchangerate.host (free, no auth)
+  1. FX — major + EM crosses (USD-base) via open.er-api.com (free, no auth;
+       URL changed 2026-05-27 — exchangerate.host moved behind a paid plan)
   2. Sovereign bond yields — 10y for G20 via FRED (US) + Stooq (rest)
   3. Commodities — oil (WTI + Brent), gold, copper, ag (wheat, corn, soy),
        gas (TTF + Henry Hub), via Stooq
@@ -15,7 +16,8 @@ Pulls daily/intraday snapshots from free APIs across five asset classes:
 Sources used:
   - Stooq.com — free CSV downloads, no auth, very generous rate limit
   - CoinGecko — free public API tier (10-30 calls/min)
-  - exchangerate.host — FX, free no auth
+  - open.er-api.com — FX, free public tier, no auth (exchangerate.host went
+    paid 2026-05-27)
 
 If any sub-source fails, the section degrades gracefully — partial coverage
 is better than no coverage.
@@ -50,20 +52,22 @@ def _slug(s: str) -> str:
 # Each symbol returns one line of CSV with the latest quote.
 
 STOOQ_BONDS = {
-    # 10-year sovereign yields (Stooq stores as percent; some Stooq tickers
-    # vary in availability — we ingest what's available and skip the rest)
-    "US 10y":        "10usy.b",
-    "UK 10y":        "10uky.b",
-    "Germany 10y":   "10dey.b",
-    "France 10y":    "10fry.b",
-    "Italy 10y":     "10ity.b",
-    "Japan 10y":     "10jpy.b",
-    "China 10y":     "10cny.b",
-    "India 10y":     "10iny.b",
-    "Canada 10y":    "10cay.b",
-    "Australia 10y": "10auy.b",
-    "Brazil 10y":    "10bry.b",
-    "Mexico 10y":    "10mxy.b",
+    # 10-year sovereign yields. URL audit 2026-05-27: Stooq's bond-yield
+    # tickers use the form "10y<cc>y.b" (not "10<cc>y.b" as previously coded
+    # here). Probed against stooq.com directly. All 12 tickers below return
+    # live closes as of 2026-05-27.
+    "US 10y":        "10yusy.b",
+    "UK 10y":        "10yuky.b",
+    "Germany 10y":   "10ydey.b",
+    "France 10y":    "10yfry.b",
+    "Italy 10y":     "10yity.b",
+    "Japan 10y":     "10yjpy.b",
+    "China 10y":     "10ycny.b",
+    "India 10y":     "10yiny.b",
+    "Canada 10y":    "10ycay.b",
+    "Australia 10y": "10yauy.b",
+    "Brazil 10y":    "10ybry.b",
+    "Mexico 10y":    "10ymxy.b",
 }
 
 STOOQ_COMMODITIES = {
@@ -142,15 +146,15 @@ class MarketsGlobalSection(Section):
     emoji = "📈"
 
     source_id = "markets-aggregate"
-    source_name = "Global markets aggregate (Stooq + CoinGecko + exchangerate.host)"
+    source_name = "Global markets aggregate (Stooq + CoinGecko + open.er-api.com)"
     source_url = "https://github.com/ihelfrich/worldscope"
     source_tier = "primary_document"   # exchange-quoted prices
     source_license = "varies-per-source"
     attribution_required = True
     attribution_text = (
         "Price data via Stooq.com (no warranty), CoinGecko public API, "
-        "exchangerate.host. Snapshots are last-trade-of-the-day; intraday "
-        "moves not captured."
+        "open.er-api.com (exchangerate-api.com free tier). Snapshots are "
+        "last-trade-of-the-day; intraday moves not captured."
     )
     source_country = None
     source_language = "en"
@@ -226,13 +230,18 @@ class MarketsGlobalSection(Section):
             "subsection": asset_class,
         }]
 
-    # ----- FX (exchangerate.host) -------------------------------------------
+    # ----- FX (open.er-api.com) ---------------------------------------------
+    # URL audit 2026-05-27: exchangerate.host moved behind a paid plan and now
+    # returns empty rates dicts on the free endpoint. Replaced with
+    # open.er-api.com (free tier from exchangerate-api.com, no auth, daily
+    # updates, 160+ currencies). Frankfurter.app was the second candidate but
+    # only covers 30 currencies and misses TWD/VND/ARS/CLP/COP/PEN/EGP/NGN/
+    # KES/GHS/RUB/SAR/AED/QAR which we care about.
 
     def _pull_fx(self) -> list[dict]:
-        url = "https://api.exchangerate.host/latest"
-        params = {"base": "USD", "symbols": ",".join(FX_PAIRS_USD)}
+        url = "https://open.er-api.com/v6/latest/USD"
         try:
-            resp = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=15)
+            resp = requests.get(url, headers={"User-Agent": UA}, timeout=15)
             resp.raise_for_status()
             data = resp.json()
         except requests.exceptions.RequestException as exc:
@@ -243,7 +252,16 @@ class MarketsGlobalSection(Section):
                 "url": url, "summary": str(exc)[:300], "_error": True,
                 "subsection": "fx",
             }]
-        rates = data.get("rates") or {}
+        all_rates = data.get("rates") or {}
+        # Filter to our watchlist; open.er-api returns the whole world.
+        rates = {ccy: all_rates[ccy] for ccy in FX_PAIRS_USD if ccy in all_rates}
+        # Date from the API's last-update timestamp (UTC).
+        api_date = (data.get("time_last_update_utc") or "")[:25]
+        try:
+            from email.utils import parsedate_to_datetime
+            iso_date = parsedate_to_datetime(api_date).date().isoformat() if api_date else date.today().isoformat()
+        except Exception:
+            iso_date = date.today().isoformat()
         out = []
         for ccy, rate in rates.items():
             try:
@@ -252,9 +270,9 @@ class MarketsGlobalSection(Section):
                 continue
             out.append({
                 "id": f"markets-fx-usd{ccy.lower()}",
-                "date": data.get("date", date.today().isoformat()),
+                "date": iso_date,
                 "title": f"[fx] USD/{ccy}: {r}",
-                "url": f"https://exchangerate.host/?base=USD&symbols={ccy}",
+                "url": f"https://www.exchangerate-api.com/docs/free",
                 "summary": f"1 USD = {r} {ccy}",
                 "asset_class": "fx",
                 "name": f"USD/{ccy}",

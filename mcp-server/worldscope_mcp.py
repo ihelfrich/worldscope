@@ -565,6 +565,140 @@ def query_relationships(
 
 
 # ----------------------------------------------------------------------- #
+# Tools: semantic_search / find_similar_to / cluster_today
+# ----------------------------------------------------------------------- #
+# These tools depend on worldscope.embeddings + worldscope.dedup. The
+# sentence-transformers import is heavy (~200 MB resident), so we keep the
+# EmbeddingIndex bound at module load time but only instantiate the model
+# on first call. Each tool catches ImportError so an environment without
+# sentence-transformers installed degrades gracefully (returns an error
+# payload instead of crashing the whole MCP server).
+
+# Make the worldscope package importable from this script's location.
+_PKG_ROOT = REPO_ROOT
+if str(_PKG_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PKG_ROOT))
+
+_emb_index = None  # lazy singleton
+
+
+def _get_embedding_index():
+    """Lazy-load the multilingual embedding index. Raises ImportError if
+    sentence-transformers is not installed."""
+    global _emb_index
+    if _emb_index is None:
+        from worldscope.embeddings import EmbeddingIndex
+        _emb_index = EmbeddingIndex(lake_db_path=LAKE_DB)
+    return _emb_index
+
+
+@mcp.tool()
+def semantic_search(
+    query: str,
+    days_back: int = 7,
+    limit: int = 30,
+    min_similarity: float = 0.4,
+) -> dict:
+    """Semantic / cross-language search using sentence-transformers embeddings.
+
+    Finds records that are semantically similar to the query regardless of
+    language. Searching for "Warsh" will surface matching coverage in
+    Russian (Уолш), Chinese (沃什), Ukrainian (Уорш), Arabic and others
+    because the multilingual model puts cognates near each other in vector
+    space.
+
+    Args:
+        query: search text in any language.
+        days_back: how many days of history to search (default 7).
+        limit: max records to return (default 30).
+        min_similarity: cosine similarity floor below which hits are dropped
+            (default 0.4; below ~0.3 results get noisy).
+
+    Returns:
+        {"count": int, "query": str, "results": [...]}
+        Each result has: record_id, source_id, section_id, original_text,
+        original_url, original_lang, record_date, similarity_score.
+    """
+    try:
+        idx = _get_embedding_index()
+        results = idx.search(
+            query=query,
+            days_back=days_back,
+            limit=min(max(1, limit), 200),
+            min_similarity=float(min_similarity),
+        )
+        return {"count": len(results), "query": query, "results": results}
+    except ImportError as ex:
+        return {"error": f"sentence-transformers not installed: {ex}"}
+    except Exception as ex:
+        return {"error": f"{type(ex).__name__}: {ex}"}
+
+
+@mcp.tool()
+def find_similar_to(record_id: str, top_k: int = 10) -> dict:
+    """Given a lake record ID, return the K most semantically-similar
+    records within a 30-day window. Useful for "show me everything else
+    like this story" across languages.
+
+    Args:
+        record_id: the lake record id to anchor on.
+        top_k: how many neighbors to return (default 10).
+
+    Returns:
+        {"seed_id": str, "count": int, "neighbors": [...]}
+    """
+    try:
+        idx = _get_embedding_index()
+        results = idx.find_neighbors(record_id, top_k=min(max(1, top_k), 100))
+        return {"seed_id": record_id, "count": len(results), "neighbors": results}
+    except ImportError as ex:
+        return {"error": f"sentence-transformers not installed: {ex}"}
+    except Exception as ex:
+        return {"error": f"{type(ex).__name__}: {ex}"}
+
+
+@mcp.tool()
+def cluster_today(
+    date_iso: Optional[str] = None,
+    similarity_threshold: float = 0.78,
+    time_window_hours: int = 36,
+) -> dict:
+    """Return deduplication clusters of a day's records.
+
+    When eight outlets all carry the same Reuters wire about a Fed rate
+    decision, this returns ONE cluster with members listing those eight
+    record_ids and the highest-tier source as the representative.
+
+    Args:
+        date_iso: YYYY-MM-DD. None = today (UTC).
+        similarity_threshold: cosine floor for joining a cluster (default 0.78).
+        time_window_hours: cap on time between cluster members (default 36h).
+
+    Returns:
+        {"date": str, "summary": {...}, "clusters": [...]}
+    """
+    try:
+        from worldscope.dedup import HeadlineDedup
+        idx = _get_embedding_index()
+        dd = HeadlineDedup(
+            embedding_index=idx,
+            similarity_threshold=similarity_threshold,
+            time_window_hours=time_window_hours,
+        )
+        clusters = dd.cluster_today(date_iso)
+        summary = dd.cluster_summary(clusters)
+        return {
+            "date": date_iso or datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "summary": summary,
+            "clusters": clusters,
+        }
+    except ImportError as ex:
+        return {"error": f"sentence-transformers not installed: {ex}"}
+    except Exception as ex:
+        return {"error": f"{type(ex).__name__}: {ex}"}
+
+
+# ----------------------------------------------------------------------- #
 # Resource: lake_overview
 # ----------------------------------------------------------------------- #
 

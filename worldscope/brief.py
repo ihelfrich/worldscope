@@ -175,6 +175,19 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             marker = "  (no data)"
         print(f"[{sec.id}] state={state.state}  {len(state.new)} new / {len(state.items)} total{marker}")
 
+    # 1a. Populate the multilingual embedding index for today. Drives the
+    # cross-language MCP semantic search and the headline dedup module.
+    # Defensive; failure never blocks the brief.
+    try:
+        from .embeddings import EmbeddingIndex  # local import keeps brief lazy
+        per_section = EmbeddingIndex().index_today(today.isoformat())
+        new_embeds = sum(per_section.values())
+        if new_embeds:
+            print(f"[embeddings] indexed {new_embeds} new records across "
+                  f"{len(per_section)} sections")
+    except Exception as ex:  # pragma: no cover
+        print(f"[embeddings] index_today failed: {type(ex).__name__}: {ex}")
+
     # 1b. Render the daily-infographic suite from the lake. Defensive; a
     # graphics failure never blocks the brief.
     try:

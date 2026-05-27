@@ -31,26 +31,45 @@ def _slug(s: str) -> str:
 
 
 # (city, feed_url, source_label, tier)
+#
+# URL audit 2026-05-27: 8 of 16 original feeds were 403/404. Fixes applied:
+#   - STLPR: rss.xml -> /index.rss (verified 200, RSS)
+#   - St. Louis Post-Dispatch: /feeds/news/rss/ -> /search/?f=rss (TownNews
+#     standard query form; verified 200, RSS)
+#   - STLPR news (news.stlpublicradio.org): host retired; remove (covered by
+#     STLPR /index.rss)
+#   - Riverfront Times: now behind Cloudflare 403 (no public RSS); replaced
+#     with Google News site-search feed
+#   - WABE: /feed/ -> /news/feed/ (verified 200, RSS)
+#   - FOX 5 Atlanta: /rss -> /rss.xml (verified 200, RSS)
+#   - CBS46 Atlanta: rebranded to Atlanta News First. No RSS; replaced with
+#     Google News site-search feed for atlantanewsfirst.com.
+#   - AJC arc/outboundfeeds RSS retired (404). Replaced with Google News
+#     site-search feed for ajc.com.
+#   - First Alert 4 (KMOV) returns HTML at the ?clienttype=rss endpoint
+#     (Gray TV no longer serves RSS); replaced with Google News site-search
+#     for firstalert4.com.
 FEEDS: list[tuple[str, str, str, str]] = [
     # ---- St. Louis, MO ----
-    ("St. Louis", "https://www.stlpr.org/rss.xml",                        "St. Louis Public Radio", "mainstream_independent"),
-    ("St. Louis", "https://www.stltoday.com/feeds/news/rss/",             "St. Louis Post-Dispatch", "mainstream_independent"),
-    ("St. Louis", "https://www.riverfronttimes.com/stlouis/Rss.xml?section=2174157", "Riverfront Times", "mainstream_independent"),
-    ("St. Louis", "https://nextstl.com/feed/",                            "NextSTL", "mainstream_independent"),
-    ("St. Louis", "https://www.fox2now.com/feed/",                        "FOX 2 St. Louis", "mainstream_independent"),
-    ("St. Louis", "https://www.ksdk.com/feeds/syndication/rss/news",      "KSDK 5 On Your Side", "mainstream_independent"),
-    ("St. Louis", "https://news.stlpublicradio.org/feed",                 "STLPR news", "mainstream_independent"),
-    ("St. Louis", "https://www.firstalert4.com/news/?clienttype=rss",     "First Alert 4 (KMOV)", "mainstream_independent"),
+    ("St. Louis", "https://www.stlpr.org/news.rss",                                                          "St. Louis Public Radio",     "mainstream_independent"),  # verified 2026-05-27 (index.rss is empty; news.rss has items)
+    ("St. Louis", "https://www.stltoday.com/search/?f=rss",                                                  "St. Louis Post-Dispatch",    "mainstream_independent"),  # verified 2026-05-27
+    ("St. Louis", "https://news.google.com/rss/search?q=site%3Ariverfronttimes.com&hl=en-US&gl=US&ceid=US:en", "Riverfront Times (via Google News)", "aggregator"),       # RFT direct RSS behind Cloudflare; using Google News proxy 2026-05-27
+    ("St. Louis", "https://nextstl.com/feed/",                                                               "NextSTL",                    "mainstream_independent"),
+    ("St. Louis", "https://www.fox2now.com/feed/",                                                           "FOX 2 St. Louis",            "mainstream_independent"),
+    ("St. Louis", "https://www.ksdk.com/feeds/syndication/rss/news",                                         "KSDK 5 On Your Side",        "mainstream_independent"),
+    ("St. Louis", "https://www.stlmag.com/feed/",                                                            "St. Louis Magazine",         "mainstream_independent"),  # added 2026-05-27 to replace retired STLPR-news host
+    ("St. Louis", "https://news.google.com/rss/search?q=site%3Afirstalert4.com&hl=en-US&gl=US&ceid=US:en",    "First Alert 4 (KMOV) (via Google News)", "aggregator"),   # KMOV no longer serves RSS; using Google News proxy 2026-05-27
 
     # ---- Atlanta, GA ----
-    ("Atlanta", "https://www.ajc.com/arc/outboundfeeds/rss/?outputType=xml", "Atlanta Journal-Constitution", "mainstream_independent"),
-    ("Atlanta", "https://www.wabe.org/feed/",                             "WABE 90.1 (NPR)", "mainstream_independent"),
-    ("Atlanta", "https://www.gpb.org/news/rss.xml",                       "Georgia Public Broadcasting", "mainstream_independent"),
-    ("Atlanta", "https://www.11alive.com/feeds/syndication/rss/news",     "11Alive (WXIA)", "mainstream_independent"),
-    ("Atlanta", "https://www.fox5atlanta.com/rss",                        "FOX 5 Atlanta", "mainstream_independent"),
-    ("Atlanta", "https://atlantaciviccircle.org/feed/",                   "Atlanta Civic Circle", "mainstream_independent"),
-    ("Atlanta", "https://www.cbsnews.com/atlanta/local-news/rss/",        "CBS46 Atlanta", "mainstream_independent"),
-    ("Atlanta", "https://www.atlantamagazine.com/feed/",                  "Atlanta Magazine", "mainstream_independent"),
+    ("Atlanta", "https://news.google.com/rss/search?q=site%3Aajc.com&hl=en-US&gl=US&ceid=US:en",              "Atlanta Journal-Constitution (via Google News)", "aggregator"),  # AJC retired RSS; using Google News proxy 2026-05-27
+    ("Atlanta", "https://www.wabe.org/news/feed/",                                                           "WABE 90.1 (NPR)",            "mainstream_independent"),  # verified 2026-05-27
+    ("Atlanta", "https://www.gpb.org/news/rss.xml",                                                          "Georgia Public Broadcasting","mainstream_independent"),
+    ("Atlanta", "https://www.11alive.com/feeds/syndication/rss/news",                                        "11Alive (WXIA)",             "mainstream_independent"),
+    ("Atlanta", "https://www.fox5atlanta.com/rss.xml",                                                       "FOX 5 Atlanta",              "mainstream_independent"),  # verified 2026-05-27
+    ("Atlanta", "https://atlantaciviccircle.org/feed/",                                                      "Atlanta Civic Circle",       "mainstream_independent"),
+    ("Atlanta", "https://news.google.com/rss/search?q=site%3Aatlantanewsfirst.com&hl=en-US&gl=US&ceid=US:en", "Atlanta News First (formerly CBS46) (via Google News)", "aggregator"),  # ANF (rebrand of CBS46) has no RSS; using Google News proxy 2026-05-27
+    ("Atlanta", "https://www.atlantamagazine.com/feed/",                                                     "Atlanta Magazine",           "mainstream_independent"),
+    ("Atlanta", "https://saportareport.com/feed/",                                                           "SaportaReport",              "mainstream_independent"),  # added 2026-05-27 as ATL independent civic newsroom
 ]
 
 

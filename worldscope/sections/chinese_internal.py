@@ -54,25 +54,61 @@ def _slug(s: str) -> str:
 
 
 # (source_label, feed_url, language, tier, notes)
+#
+# URL audit 2026-05-27: Chinese RSS landscape is hostile. Findings:
+#   - People's Daily rss.people.com.cn host times out from outside CN; the
+#     en.people.cn /index.xml endpoints all 404. Replaced with Google News
+#     site-search for people.com.cn (Chinese-language query). Tier kept as
+#     state_controlled.
+#   - Caixin (caixin.com /rss/topnews.xml) returns 200 with empty/HTML body
+#     (paywall wall behind the marker). RSSHub public instance is 403. No
+#     working direct feed found; replaced with Google News site-search for
+#     caixin.com.
+#   - Caixin Global (caixinglobal.com /rss/news.xml) returns 403. Replaced
+#     with Google News site-search.
+#   - Caijing (caijing.com.cn /rss/topnews.xml) 404s and homepage redirect
+#     suggests RSS retired entirely. Google News site-search has only ~1
+#     indexed result. Caijing source removed; SCMP China business RSS added
+#     as the market-liberal Chinese-business voice (Hong Kong-based, still
+#     PRC-adjacent in coverage).
+#   - Sixth Tone /feed -> /rss (verified 200, 51 items).
+#   - Guancha /rss returns 200 but HTML, not RSS. No working RSS found;
+#     removed and substituted with Global Voices Chinese coverage placeholder
+#     comment. The nationalist-intellectual register is partially covered by
+#     Global Times.
+#   - The Paper (feedx.net mirror) verified working.
+#   - Xinhua and Global Times English direct feeds still work.
+#
+# RSSHub public instance (rsshub.app) returns 403 on every probe today —
+# Cloudflare appears to block datacenter IPs. If we deploy worldscope on a
+# residential IP later, RSSHub becomes viable; until then, Google News
+# site-search is the most reliable bridge.
 FEEDS: list[tuple[str, str, str, str, str]] = [
     # ---- State-controlled (party line) -------------------------------------
-    ("People's Daily 人民日报",     "http://rss.people.com.cn/rss/politics.xml",          "zh", "state_controlled",         "Party-line flagship"),
-    ("Xinhua 新华社",               "http://www.xinhuanet.com/world/news_world.xml",      "zh", "state_controlled",         "Official wire service"),
+    ("People's Daily 人民日报 (via Google News)",  "https://news.google.com/rss/search?q=site%3Apeople.com.cn+OR+site%3Apeople.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", "zh", "state_controlled",        "Party-line flagship via Google News proxy (direct feed dead 2026-05-27)"),
+    ("Xinhua 新华社",                              "http://www.xinhuanet.com/world/news_world.xml",                                                                "zh", "state_controlled",        "Official wire service (verified 2026-05-27)"),
 
     # ---- Mainstream Independent (market-liberal, semi-private) -------------
-    ("Caixin 财新",                  "https://www.caixin.com/rss/topnews.xml",              "zh", "mainstream_independent",  "Market-liberal business"),
-    ("The Paper 澎湃",              "https://feedx.net/rss/thepaper.xml",                  "zh", "mainstream_independent",  "Shanghai United Media liberal-left"),
-    ("Caijing 财经",                 "https://www.caijing.com.cn/rss/topnews.xml",          "zh", "mainstream_independent",  "Business + finance"),
+    ("Caixin 财新 (via Google News)",              "https://news.google.com/rss/search?q=site%3Acaixin.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",                       "zh", "mainstream_independent",  "Market-liberal business via Google News proxy (direct feed paywalled 2026-05-27)"),
+    ("The Paper 澎湃",                             "https://feedx.net/rss/thepaper.xml",                                                                          "zh", "mainstream_independent",  "Shanghai United Media liberal-left (verified 2026-05-27)"),
+    # Caijing 财经: removed 2026-05-27 — RSS retired, Google News indexes ~1
+    # item; coverage of market-liberal Chinese business comes via Caixin and
+    # SCMP business below.
+    ("SCMP China business",                        "https://www.scmp.com/rss/92/feed",                                                                            "en", "mainstream_independent",  "Hong Kong-based China business coverage (added 2026-05-27 to fill Caijing gap)"),
 
     # ---- English-language semi-state / private (no translation needed) ----
-    ("Sixth Tone",                   "https://www.sixthtone.com/feed",                      "en", "mainstream_independent",  "SUM Group English, social issues"),
-    ("Caixin Global",                "https://www.caixinglobal.com/rss/news.xml",            "en", "mainstream_independent",  "Caixin's English-language daily"),
+    ("Sixth Tone",                                 "https://www.sixthtone.com/rss",                                                                               "en", "mainstream_independent",  "SUM Group English, social issues (URL verified 2026-05-27: /feed -> /rss)"),
+    ("Caixin Global (via Google News)",            "https://news.google.com/rss/search?q=site%3Acaixinglobal.com&hl=en-US&gl=US&ceid=US:en",                     "en", "mainstream_independent",  "Caixin's English daily via Google News proxy (direct feed 403 2026-05-27)"),
 
     # ---- Nationalist intellectual ------------------------------------------
-    ("Guancha 观察者网",            "https://www.guancha.cn/rss",                          "zh", "mainstream_partisan_right", "Nationalist intellectual"),
+    # Guancha 观察者网: removed 2026-05-27 — no working RSS endpoint found
+    # (homepage HTML at /rss). Nationalist-intellectual register partially
+    # covered by Global Times. RSSHub /guancha/headline would work if we run
+    # our own RSSHub instance; not viable on the public instance.
+    ("Guancha 观察者网 (via Google News)",         "https://news.google.com/rss/search?q=site%3Aguancha.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",                       "zh", "mainstream_partisan_right", "Nationalist intellectual via Google News proxy (direct RSS dead 2026-05-27)"),
 
     # ---- State-controlled, English ----------------------------------------
-    ("Global Times (English)",       "https://www.globaltimes.cn/rss/outbrain.xml",         "en", "state_controlled",         "Hawkish state-controlled English"),
+    ("Global Times (English)",                     "https://www.globaltimes.cn/rss/outbrain.xml",                                                                 "en", "state_controlled",        "Hawkish state-controlled English (verified 2026-05-27)"),
 ]
 
 
