@@ -175,6 +175,25 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             marker = "  (no data)"
         print(f"[{sec.id}] state={state.state}  {len(state.new)} new / {len(state.items)} total{marker}")
 
+    # 1b. Render the daily-infographic suite from the lake. Defensive; a
+    # graphics failure never blocks the brief.
+    try:
+        from .graphics import DailyGraphics  # local import keeps brief lazy
+        graphics_paths = DailyGraphics().render_all(today.isoformat())
+        for gname, gpath in graphics_paths.items():
+            print(f"[graphics] {gname}: {gpath}")
+    except Exception as gx:  # pragma: no cover
+        print(f"[graphics] suite failed: {type(gx).__name__}: {gx}")
+
+    # 1c. Render the daily map suite from the lake. Same defensive posture.
+    try:
+        from .cartography import DailyMaps  # local import keeps brief lazy
+        map_paths = DailyMaps().render_all(today.isoformat())
+        for mname, mpath in map_paths.items():
+            print(f"[maps] {mname}: {mpath}")
+    except Exception as mx:  # pragma: no cover
+        print(f"[maps] suite failed: {type(mx).__name__}: {mx}")
+
     # 2. Trend stats over the last 14 days
     trends = {sid: section_trend(store, sid) for sid in states}
 
