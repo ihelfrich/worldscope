@@ -2,15 +2,21 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-27
-record_count: 253
-new_today: 253
+record_count: 254
+new_today: 254
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-253 new of 253 total items today.
+254 new of 254 total items today.
 
+- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-05-27*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Police Board blows off aldermen, fast-tracks drone approval](https://www.stlmag.com/news/police-board-aldermen-subpoena-drones/) — *2026-05-27*
+  > <p>It was a wild Wednesday in the ongoing battle between St. Louis city leaders and the state-appointed Board of Police Commissioners, with the board approving a drone program over the mayor’s strenuous objections, board members not showing up to an aldermanic hearing despite bei
+- **NEW**  [[St. Louis] Missouri History Museum’s Summer Family Fun Series returns with crafts, music, and free activities on Fridays](https://www.stlmag.com/family/missouri-history-museums-summer-family-fun-series/) — *2026-05-27*
+  > <p>For parents looking to fill long summer mornings without draining the entertainment budget, the Missouri History Museum is bringing back a familiar favorite. The museum’s free Summer Family Fun Series returns this summer, offering weekly themed programming built around history
 - **NEW**  [[St. Louis] Where in Clayton? – 5/27/2026](https://www.stlmag.com/games/where-in-clayton-052726/) — *2026-05-27*
   > <p>Let&#8217;s see how well you know Clayton. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer 
 - **NEW**  [[St. Louis] Katie’s grows footprint at Target with new pasta bake entrées and sauces](https://www.stlmag.com/dining/katies-grows-footprint-at-target-with-new-pasta-bake-entrees-and-sauces/) — *2026-05-27*
@@ -27,10 +33,8 @@ state: fresh
   > <p>A few weeks ago, I interviewed Laura Dooley, owner of LoKey Designs, and Nicole Walter, greenhouse buyer for Garden Heights Nursery, for the latest episode of my podcast House of Lou. Naturally, we talked about plants — but specifically about how to decorate with them. I left 
 - **NEW**  [[St. Louis] Every St. Louis parent eventually ends up shopping at Dierbergs for the car carts alone](https://www.stlmag.com/family/dierbergs-car-cart/) — *2026-05-27*
   > <p>As someone who works almost exclusively from home, I’m always looking for any excuse to leave the house. This often translates into frequent trips to the grocery store. Are we out of butter? I’m going to the grocery store. Do we need one single toothpick? Grocery store. And as
-- **NEW**  [[St. Louis] A house in Tower Grove East hits the market](https://www.stlmag.com/design/property/3445-juniata-street-tower-grove/) — *2026-05-27*
-  > <p>Custom-BuiltStep into summer in this custom-built, Palm Springs-inspired modernist home in the heart of Tower Grove. Built less than ten years ago, it maximizes functional space and natural light, while offering the desirability of indoor-outdoor living.&#160; Resort StyleThis
-- **NEW**  [[St. Louis] SLDC relaunches loan program for first-time homebuyers](https://www.stlmag.com/news/sldc-homestl-home-loans/) — *2026-05-27*
-  > <p>St. Louis’ development agency, the St. Louis Development Corporation, relaunched its HomeSTL loan program on Tuesday, offering up to $50,000 to first-time homebuyers in the city. That loan can make the difference in securing a down payment for those who might not otherwise be 
+- **NEW**  [[St. Louis] Second person charged in murder of Steak 'n Shake employee](https://www.ksdk.com/article/news/crime/second-person-charged-murder-steak-n-shake-employee/63-bf67baaf-79e2-4bbf-bd17-58ceba37aa16) — *2026-05-27*
+  > A second person was charged in a deadly Steak ’n Shake shooting after a drive-thru dispute that killed employee Chauncia Meekins in April.
 - **NEW**  [[St. Louis] NASA just ordered moon buggies and drones for a lunar base — here's the timeline](https://www.ksdk.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382) — *2026-05-27*
   > The space agency outlined the first phase of its moon base plans on Tuesday, awarding hundreds of millions of dollars in contracts to four U.S. companies.
 - **NEW**  [[St. Louis] 'RAMageddon' hits another gaming console as Steam Deck prices jump $300](https://www.ksdk.com/article/news/nation-world/steam-deck-prices-increase-gaming-console-costs-memory-shortage/507-8a421d2d-33f4-4075-a3ef-87505906c2da) — *2026-05-27*
@@ -57,9 +61,5 @@ state: fresh
   > Scott Shipman's family said no service is planned, but a celebration of life will be announced at a later date.
 - **NEW**  [[St. Louis] Man accused of sexually assaulting 13-year-old girl at Kirkwood Walmart](https://www.ksdk.com/article/news/crime/man-accused-sexually-assaulting-13-year-old-girl-kirkwood-walmart/63-7508bdf3-2ee8-4fb1-972d-0360cb85c9b0) — *2026-05-27*
   > Police said the man took the 13-year-old girl to an isolated corner of the store and assaulted her.
-- **NEW**  [[St. Louis] Colorectal cancer screening guidelines updated to include blood test for the first time](https://www.ksdk.com/article/news/nation-world/cancer-screening-guidelines-updated-colorectal-cancer/507-019f4a33-9b1d-4cf1-93cc-fa9053769459) — *2026-05-27*
-  > According to the American Cancer Society, about one in three adults who are eligible for screenings are not tested.
-- **NEW**  [[St. Louis] What is Eid al-Adha and why do Muslims say 'Eid Mubarak'?](https://www.ksdk.com/article/news/nation-world/what-is-eid-al-adha-and-why-do-muslims-say-eid-mubarak/507-d7206ead-3f4f-4380-bedb-eed5b15c7426) — *2026-05-27*
-  > Known as the Festival of Sacrifice, Eid al-Adha is the second of the two major Eid holidays celebrated by Muslims each year.
 
-_(228 additional items in raw.jsonl)_
+_(229 additional items in raw.jsonl)_

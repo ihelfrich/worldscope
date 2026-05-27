@@ -11,6 +11,10 @@ state: fresh
 
 138 new of 138 total items today.
 
+- **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: Розбирали знайдений БпЛА: на Чернігівщині загинули двоє фермерів | LEDE: Радник міністра оборони Сергій Бескрестнов ("Флеш") повідомив, що в Чернігівській області загинули двоє фермерів, які зн] (uk: Розбирали знайдений БпЛА: на Чернігівщині загинули двоє фермерів)](https://www.pravda.com.ua/news/2026/05/28/8036705/) — *2026-05-28*
+  > Радник міністра оборони Сергій Бескрестнов ("Флеш") повідомив, що в Чернігівській області загинули двоє фермерів, які знайшли в полі ударний БпЛА і вирішили його розібрати.
 - **NEW**  [[TITLE: Трамп зробив ще одну заяву про угоду з Іраном | LEDE: Трамп натякнув на "Авраамові угоди", коли говорив про перемир'я з Іраном.] (uk: Трамп зробив ще одну заяву про угоду з Іраном)](https://www.pravda.com.ua/news/2026/05/28/8036704/) — *2026-05-28*
   > Трамп натякнув на "Авраамові угоди", коли говорив про перемир'я з Іраном.
 - **NEW**  [[TITLE: Україна перед "Рамштайном" узгодила з партнерами пріоритети: ППО, снаряди та дрони | LEDE: Міністр оборони Михайло Федоров провів розмову зі своїми колегами з Німеччини та Великої Британії Бори] (uk: Україна перед "Рамштайном" узгодила з партнерами пріоритети: ППО, снаряди та дро)](https://www.pravda.com.ua/news/2026/05/27/8036701/) — *2026-05-27*
@@ -44,17 +48,13 @@ state: fresh
 - **NEW**  [[TITLE: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на Україну | LEDE: У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгре] (uk: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на У)](https://www.pravda.com.ua/news/2026/05/27/8036662/) — *2026-05-27*
   > У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгресу США йшлося про атаку РФ із використанням балістичних ракет середньої дальності "Орєшнік".
 - **NEW**  [[TITLE: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні | LEDE: ] (uk: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні)](https://www.pravda.com.ua/news/2026/05/27/8036661/) — *2026-05-27*
-- **NEW**  [[TITLE: Зеленський: Росія готує додаткову мобілізацію | LEDE: Режим Володимира Путіна поставив завдання збільшити контингент російської окупаційної армії, це свідчить, що Москва не планує по-справжньом] (uk: Зеленський: Росія готує додаткову мобілізацію)](https://www.pravda.com.ua/news/2026/05/27/8036659/) — *2026-05-27*
-  > Режим Володимира Путіна поставив завдання збільшити контингент російської окупаційної армії, це свідчить, що Москва не планує по-справжньому вести мирні переговори.
-- **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [Northolt Treaty Deepens UK-Poland Defense Ties Amid Fears for NATO’s Future](https://www.kyivpost.com/post/76993) — *2026-05-27*
-  > British Prime Minister Keir Starmer and Polish Prime Minister Donald Tusk signed the Northolt Treaty, a defense and security pact that will strengthen air defence cooperation and joint efforts against Russian hybrid threats, as well as joint action plan on irregular migration. Th
+  > UK Prime Minister Sir Keir Starmer and Polish Prime Minister Donald Tusk have signed the Northolt Treaty, a defense and security pact that will strengthen air defense cooperation and joint efforts against Russian hybrid threats, as well as joint action plan on irregular migration
 - **NEW**  [Trump’s Gaza Peace Board Raises Zero Dollars, Reports Say](https://www.kyivpost.com/post/76992) — *2026-05-27*
   > Trump’s Board of Peace for Gaza has raised no money into its official World Bank fund four months after launch and multibillion-dollar pledges, the Financial Times reported. Instead, donors have sent limited contributions to a private JPMorgan account that is not subject to the s
+- **NEW**  [Ukraine Ready to Buy Patriots as Zelensky Warns Russia Prepares New Wave of ‘Terror Strikes’](https://www.kyivpost.com/post/76991) — *2026-05-27*
+  > President Zelensky appealed to US President Trump and Congress for expanded air defense support, warning that Russia is escalating missile and drone attacks on Ukraine. He said a recent strike included hundreds of drones and dozens of missiles and stressed that Ukraine remains he
 
 _(113 additional items in raw.jsonl)_
