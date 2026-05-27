@@ -2,19 +2,41 @@
 section: state_news
 title: State-Level News
 date: 2026-05-27
-record_count: 724
-new_today: 724
+record_count: 728
+new_today: 728
 state: fresh
 ---
 
 ## State-Level News
 
-724 new of 724 total items today.
+728 new of 728 total items today.
 
 - **NEW**  [[Alabama] World Trade Month](https://governor.alabama.gov/newsroom/2026/05/world-trade-month-3/) — *2026-05-27*
   > Download
 - **NEW**  [[Alabama] Governor Kay Ivey’s Memorial Day Message](https://governor.alabama.gov/newsroom/2026/05/governor-kay-iveys-memorial-day-message-2/) — *2026-05-25*
   > Governor Ivey released a video message for Memorial Day ahead of the holiday weekend, honoring America&#8217;s fallen service members and calling on Alabamians to live worthy of their sacrifice. (Governor&#8217;s Office, Alyssa Turner)
+- **NEW**  [[California] Governor Newsom signs legislation to further protect California elections from interference and intimidation](https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/) — *2026-05-27*
+- **NEW**  [[California] Governor Newsom proclaims Small Business Month](https://www.gov.ca.gov/2026/05/27/governor-newsom-proclaims-small-business-month/) — *2026-05-27*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/27/governor
+- **NEW**  [[California] Governor Newsom signs legislation 5.26.2026](https://www.gov.ca.gov/2026/05/26/governor-newsom-signs-legislation-5-26-2026/) — *2026-05-26*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/26/governor-news
+- **NEW**  [[California] Governor Newsom proclaims Older Californians Month](https://www.gov.ca.gov/2026/05/26/governor-newsom-proclaims-older-californians-month-2/) — *2026-05-26*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/26/governor
+- **NEW**  [[California] Governor Newsom secures Presidential Emergency Declaration approval for Orange County hazmat response](https://www.gov.ca.gov/2026/05/25/governor-newsom-secures-presidential-emergency-declaration-approval-for-orange-county-hazmat-response/) — *2026-05-25*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/05/Governor-Newsom-secures-Presidential-Emergency-Declaration-approval-for-Orange-County-hazmat-response-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" deco
+- **NEW**  [[California] Governor Newsom proclaims Memorial Day](https://www.gov.ca.gov/2026/05/25/governor-newsom-proclaims-memorial-day/) — *2026-05-25*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026
+- **NEW**  [[California] California mobilizes 785+ emergency personnel in Orange County hazmat response](https://www.gov.ca.gov/2026/05/24/california-mobilizes-785-emergency-personnel-in-orange-county-hazmat-response/) — *2026-05-25*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/05/Orange-County-Whole-Government-Response-2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/
+- **NEW**  [[Alaska] Memorial Day 2026](https://gov.alaska.gov/memorial-day-2026/) — *2026-05-25*
+  > WHEREAS, America was founded on the principles of liberty and justice for all, and we recognize the generations of brave, patriotic men and women who have served in the military and have given their lives to protect and defend our Nation; and WHEREAS, every year on the last Monda
+- **NEW**  [[California] New California law bans law enforcement from interfering in state elections](https://calmatters.org/politics/2026/05/california-ballot-seizure-law/) — *2026-05-27*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_Election-Day-SD_AH_CM_23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A black insulated bag labeled “OFFICIAL B
 - **NEW**  [[California] Jueces de California están probando un nuevo asistente judicial con inteligencia artificial, y no sabrás si está revisando tu caso](https://calmatters.org/calmatters-en-espanol/2026/05/jueces-california-asistente-judicial-con-inteligencia-artificial/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-LA-Courthouse-ES-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view of the front facade of a court
 - **NEW**  [[California] Los demócratas dijeron que se mantendrían al margen de esta contienda en California. Luego tomaron partido](https://calmatters.org/calmatters-en-espanol/2026/05/democratas-nacionales-contienda-california/) — *2026-05-27*
@@ -33,33 +55,15 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-OPT-OUT-MAZES-GH-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Illustration of Alice from Alice in Wonderland
 - **NEW**  [[California] Our house burned down but our mortgage didn’t. California fire survivors need time](https://calmatters.org/commentary/2026/05/california-fire-survivors-mortgage-forbearance/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/011425-Palisades-Aftermath-TS-08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view of a burned-down neighbor
-- **NEW**  [[California] No shame: A last-minute election guide for undecided CA voters](https://calmatters.org/newsletter/last-minute-voter-guide-chemical-spill/) — *2026-05-26*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/042826_Pomona-Gov-Debate_JAH_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcs
-- **NEW**  [[Arkansas] Arkansas’ most populous county approves data center moratorium, but with exemption](https://arkansasadvocate.com/2026/05/27/arkansas-most-populous-county-approves-data-center-moratorium-but-with-exemption/) — *2026-05-27*
-  > Arkansas’ most populous county approved a yearlong pause on new data centers, but critics expressed frustration that the moratorium carves out one of the projects that’s prompted public backlash. The Pulaski County Quorum Court narrowly voted Tuesday to exempt Connecticut-based A
-- **NEW**  [[Arkansas] States could purge voter rolls close to elections if Supreme Court takes Trump’s side in Arizona case](https://arkansasadvocate.com/2026/05/27/repub/states-could-purge-voter-rolls-close-to-elections-if-supreme-court-takes-trumps-side-in-arizona-case/) — *2026-05-27*
-  > The Trump administration wants the U.S. Supreme Court to empower states to review their voter rolls for noncitizens just days before elections, a change that voting rights advocates say would risk disenfranchising Americans. The U.S. Department of Justice asked the Supreme Court 
-- **NEW**  [[Arkansas] Arkansas driver’s licenses and state IDs now available in Apple Wallet](https://arkansasadvocate.com/briefs/arkansas-drivers-licenses-and-state-ids-now-available-in-apple-wallet/) — *2026-05-27*
-  > Arkansans can now present their driver&#8217;s licenses and state identification cards on mobile devices using Apple Wallet, state finance officials announced Wednesday. The Department of Finance and Administration said Arkansans can use Apple Wallet to present their license or I
-- **NEW**  [[Arkansas] Trump struck a deal for China to buy $17B a year in US ag products. Farmers are skeptical.](https://arkansasadvocate.com/2026/05/27/repub/trump-struck-a-deal-for-china-to-buy-17b-a-year-in-us-ag-products-farmers-are-skeptical/) — *2026-05-27*
-  > By Rebecka Pieder/Medill News Service WASHINGTON &#8211; In a deal that could provide a major trade boost for American farmers, the White House said that during the recent summit, China committed to buying at least $17 billion in additional U.S. agricultural products annually for
-- **NEW**  [[Arkansas] Voluntary departures spike as immigrants face squalid detention, pressure to leave](https://arkansasadvocate.com/2026/05/27/repub/voluntary-departures-spike-as-immigrants-face-squalid-detention-pressure-to-leave/) — *2026-05-27*
-  > A surge in voluntary departure agreements in immigration courts is raising concerns that Trump administration tactics are unfairly pressuring immigrants into leaving the United States, even if they have a legal right to stay. Voluntary departures during the second Trump administr
-- **NEW**  [[Arkansas] Trump administration targets attorneys who file fraudulent asylum claims](https://arkansasadvocate.com/2026/05/26/repub/trump-administration-targets-attorneys-who-file-fraudulent-asylum-claims/) — *2026-05-26*
-  > In its latest effort to narrow pathways to immigration to the United States, the Trump administration says it will crack down on attorneys who file fraudulent asylum claims for their clients. The U.S. has long granted asylum to people who are unable or unwilling to return to thei
-- **NEW**  [[Arkansas] Democratic state AGs say their staff excluded from Vance anti-fraud meeting](https://arkansasadvocate.com/2026/05/26/repub/democratic-state-ags-say-their-staff-excluded-from-vance-anti-fraud-meeting/) — *2026-05-26*
-  > WASHINGTON — A handful of Democratic state attorneys general said Tuesday that expert officials from their offices were denied access to a major White House anti-fraud meeting convened by Vice President JD Vance and attended by Republican AGs. Two dozen Democratic attorneys gener
-- **NEW**  [[Arkansas] Effort to redraw South Carolina voting lines fails amid record start to early voting](https://arkansasadvocate.com/2026/05/26/repub/effort-to-redraw-south-carolina-voting-lines-fails-amid-record-start-to-early-voting/) — *2026-05-26*
-  > COLUMBIA — A GOP push to overhaul South Carolina&#8217;s congressional map ended Tuesday, as a record-setting start to early voting prompted Republican senators to abandon their support. The 26-18 vote to effectively kill the bill requested by the White House included 14 Republic
-- **NEW**  [[Arkansas] Arkansas State University chancellor named new system president](https://arkansasadvocate.com/briefs/arkansas-state-university-chancellor-named-new-system-president/) — *2026-05-26*
-  > The Arkansas State University System Board of Trustees on Tuesday selected Chancellor Todd Shields to become the system’s fourth president effective July 1.  Shields served as a dean at the University of Arkansas in Fayetteville for nine years before being named ASU’s chancellor 
-- **NEW**  [[Arkansas] October trial date set for former FBI Director Comey](https://arkansasadvocate.com/2026/05/26/repub/october-trial-date-set-for-former-fbi-director-comey/) — *2026-05-26*
-  > United States District Judge Louise Flanagan has set an October court date for former FBI director James Comey. A federal grand jury in North Carolina indicted Comey in late April for posting on social media a photo of seashells arranged to read &#8220;86 47.&#8221; The term &#82
-- **NEW**  [[Arkansas] Trump administration seizes on shooting to make case again for White House ballroom](https://arkansasadvocate.com/2026/05/26/repub/trump-administration-seizes-on-shooting-to-make-case-again-for-white-house-ballroom/) — *2026-05-26*
-  > WASHINGTON — Acting Attorney General Todd Blanche argued in a court filing that a shooting Saturday in the vicinity of the White House further proves the need for an East Wing ballroom with “a heavy steel, drone proof roof, missile resistant and drone proof columns, bullet, balli
-- **NEW**  [[Arkansas] Congressional Black Caucus calls for corporate leaders to speak out for voting rights](https://arkansasadvocate.com/2026/05/26/repub/congressional-black-caucus-calls-for-corporate-leaders-to-speak-out-for-voting-rights/) — *2026-05-26*
-  > The Congressional Black Caucus on Tuesday urged American corporations to condemn efforts to dilute Black voting strength, as Southern states eliminate congressional districts where most residents are Black. The CBC’s attempt to mobilize the business community comes as Black repre
-- **NEW**  [[Arkansas] Arkansas judge revives lawsuit challenging state’s near-total abortion ban](https://arkansasadvocate.com/briefs/arkansas-judge-revives-lawsuit-challenging-states-near-total-abortion-ban/) — *2026-05-26*
-  > The legal challenge to Arkansas’ near-total abortion ban remains alive in Pulaski County Circuit Court after a judge reversed her dismissal of the case. Pulaski County Circuit Judge Cara Connors’ decision issued Friday comes nearly a month after she dismissed the lawsuit because 
+- **NEW**  [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Delaware] Wetlands bill to face lawmakers with $1.5M annual cost](https://spotlightdelaware.org/2026/05/27/wetlands-bill-to-face-lawmakers-with-1-5m-annual-cost/) — *2026-05-27*
+  > <figure><img width="750" height="567" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/05/DNREC-Wetland.jpg?fit=750%2C567&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https:
+- **NEW**  [[Delaware] Delaware officials reveal plan to close $185M shortfall for Edgemoor port](https://spotlightdelaware.org/2026/05/27/delaware-officials-reveal-plan-to-close-185-million-shortfall-for-edgemoor-port/) — *2026-05-27*
+  > <figure><img width="693" height="387" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/05/Screenshot-2026-05-22-9.15.30-AM.png?fit=693%2C387&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://
+- **NEW**  [[Delaware] Delaware transportation council rejects grant tied to ASPIRA Georgetown](https://spotlightdelaware.org/2026/05/27/delaware-transportation-council-rejects-grant-tied-to-aspira-georgetown/) — *2026-05-27*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2025/11/ASPIRA-Georgetown-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset=
+- **NEW**  [[Delaware] Amazon robotic facilities could quadruple tech giant’s Middletown footprint](https://spotlightdelaware.org/2026/05/26/amazon-robotic-facilities-could-quadruple-the-tech-giants-footprint-in-middletown/) — *2026-05-26*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/05/IMG_4159-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://
 
-_(699 additional items in raw.jsonl)_
+_(703 additional items in raw.jsonl)_
