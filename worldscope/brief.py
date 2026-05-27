@@ -55,6 +55,7 @@ from .sections.local_news import LocalNewsSection
 from .sections.markets_global import MarketsGlobalSection
 from .sections.paper_bet_placement import PaperBetPlacementSection
 from .sections.paper_bets import PaperBetsSection
+from .sections.political_figures import PoliticalFiguresSection
 from .sections.russian_internal import RussianInternalSection
 from .sections.sanctions_procurement import SanctionsProcurementSection
 from .sections.state_bills import StateBillsSection
@@ -102,6 +103,9 @@ SECTION_REGISTRY = [
     ReliefWebSection,
     ForecastsSection,
     CommentarySection,
+    # Must run AFTER congressional_trades, gdelt_gkg, and form4: it reads
+    # those sections' lake artifacts to build its per-figure signal index.
+    PoliticalFiguresSection,
     # MUST RUN LAST: placement reads every other section's summary.md
     # from today before deciding where to place paper bets.
     PaperBetPlacementSection,
