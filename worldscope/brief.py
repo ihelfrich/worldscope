@@ -48,6 +48,8 @@ from .sections.people import PeopleSection
 from .sections.promed import PromedSection
 from .sections.reliefweb import ReliefWebSection
 from .sections.sanctions import SanctionsSection
+from .sections.chinese_internal import ChineseInternalSection
+from .sections.foreign_news import ForeignNewsSection
 from .sections.local_news import LocalNewsSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
@@ -62,6 +64,8 @@ SECTION_REGISTRY = [
     StateBillsSection,
     StateNewsSection,
     LocalNewsSection,
+    ForeignNewsSection,
+    ChineseInternalSection,
     MacroSection,
     MarketsSection,
     BillionairesSection,
