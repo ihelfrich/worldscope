@@ -13,6 +13,8 @@ state: fresh
 
 - **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[TITLE: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув пес | LEDE: Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них гос] (uk: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув п)](https://www.pravda.com.ua/news/2026/05/27/8036655/) — *2026-05-27*
   > Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них госпіталізовано.
 - **NEW**  [[TITLE: Коордштаб влаштував Тихановській зустріч із полоненими білорусами, які воювали на боці РФ | LEDE: Секретар Координаційного штабу з питань поводження з військовополоненими Дмитро Усов провів зус] (uk: Коордштаб влаштував Тихановській зустріч із полоненими білорусами, які воювали н)](https://www.pravda.com.ua/news/2026/05/27/8036652/) — *2026-05-27*
@@ -54,8 +56,6 @@ state: fresh
   > Вінницький суд присудив блогеру Олександру Шавлюку 3 роки ув'язнення за образи ТЦК та шахрайство зі зборами на ЗСУ.
 - **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 - **NEW**  [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-27*

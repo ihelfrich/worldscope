@@ -14,13 +14,13 @@ state: fresh
 - [Will Bitcoin hit $150k by June 30, 2026?](https://polymarket.com/event/will-bitcoin-hit-150k-by-june-30-2026) — *2026-04-28*
   > yes price: 1% · 24h volume: $5,821,653 · resolves 2026-07-01
 - [US x Iran permanent peace deal by May 31, 2026?](https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125) — *2026-05-27*
-  > yes price: 22% · 24h volume: $4,031,407 · resolves 2026-05-31
+  > yes price: 22% · 24h volume: $4,004,965 · resolves 2026-05-31
 - [Will the Iran ceasefire continue through May 24?](https://polymarket.com/event/will-the-iran-ceasefire-continue-through-may-24-733) — *2026-05-27*
-  > yes price: 99% · 24h volume: $3,720,434
+  > yes price: 99% · 24h volume: $3,710,599
 - [Will the Iranian regime fall by May 31?](https://polymarket.com/event/will-the-iranian-regime-fall-by-may-31) — *2026-05-27*
-  > yes price: 0% · 24h volume: $3,001,914 · resolves 2026-05-31
+  > yes price: 0% · 24h volume: $3,017,914 · resolves 2026-05-31
 - [Will Norway win the 2026 FIFA World Cup?](https://polymarket.com/event/will-norway-win-the-2026-fifa-world-cup-893) — *2026-05-27*
-  > yes price: 3% · 24h volume: $2,195,322 · resolves 2026-07-20
+  > yes price: 3% · 24h volume: $2,195,119 · resolves 2026-07-20
 - **NEW**  [Will Scotland win the 2026 FIFA World Cup?](https://polymarket.com/event/will-scotland-win-the-2026-fifa-world-cup) — *2026-05-27*
   > yes price: 0% · 24h volume: $2,068,674 · resolves 2026-07-20
 - **NEW**  [Will Reza Pahlavi lead Iran in 2026?](https://polymarket.com/event/will-reza-pahlavi-lead-iran-in-2026) — *2026-05-27*
@@ -50,4 +50,4 @@ state: fresh
 - **NEW**  [Will Croatia win the 2026 FIFA World Cup?](https://polymarket.com/event/will-croatia-win-the-2026-fifa-world-cup) — *2026-05-27*
   > yes price: 1% · 24h volume: $799,144 · resolves 2026-07-20
 - **NEW**  [Will Oprah Winfrey win the 2028 Democratic presidential nomination?](https://polymarket.com/event/will-oprah-winfrey-win-the-2028-democratic-presidential-nomination) — *2026-05-27*
-  > yes price: 1% · 24h volume: $793,148 · resolves 2028-11-07
+  > yes price: 1% · 24h volume: $793,951 · resolves 2028-11-07

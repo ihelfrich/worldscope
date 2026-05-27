@@ -11,6 +11,29 @@ state: fresh
 
 121 new of 121 total items today.
 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 9:31AM CDT until May 27 at 10:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.690d84a5d199ad800130b65dbadaecb8f47dcad5.001.1) — *2026-05-27*
+  > SVRBRO
+
+The National Weather Service in Brownsville has issued a
+
+* Severe Thunderstorm Warning for...
+East central Cameron County in Deep South Texas...
+
+* Until 1000 AM CDT.
+
+* At 930 AM CDT, a severe thunderstorm was located near Holly Beach,
+or 7 miles east of Laureles, movin
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:31AM CDT until May 31 at 7:00PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6486348fe461e3a50e5d631a14b532c5e5b1390.001.1) — *2026-05-27*
+  > ...The National Weather Service in Lake Charles LA has issued a
+Flood Warning for the following rivers in Louisiana...
+
+Calcasieu River near White Oak Park
+
+Additional information is available at www.weather.gov.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecas
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-845) — *2026-05-27*
+  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 9:24AM CDT until May 27 at 12:30PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a37be307e44957134e9d620d51b737b51e63e6f.001.1) — *2026-05-27*
   > FFWFWD
 
@@ -24,12 +47,6 @@ Rockwall County in north central Texas...
 * Until 1230 PM CDT.
 
 * At 924 AM CDT, Doppler
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:22AM EDT until May 27 at 10:30AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2101d8ff680042491ed3908428f863ae9369536.001.1) — *2026-05-27*
-  > The heavy rain has ended. Flooding is no longer expected to pose a
-threat. Please continue to heed remaining road closures.
-
-A Flood Watch remains in effect until 200 AM EDT Thursday for
-portions of northeast Kentucky, southeast Ohio, and West Virginia.
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:21AM EDT until May 27 at 11:45AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00d45bbbb3c293187647785d67b9a7d9213b9e4a.001.1) — *2026-05-27*
   > At 1021 AM EDT, Doppler radar indicated thunderstorms producing heavy
 rain across the warned area. Between 1 and 2 inches of rain have
@@ -38,8 +55,6 @@ the warned area. Flash flooding is ongoing or expected to begin
 shortly.
 
 H
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-21943) — *2026-05-27*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:20AM CDT until May 27 at 10:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28038dfc6750a6ed3873273288282619d7703871.001.1) — *2026-05-27*
   > * WHAT...Urban areas and small streams flooding caused by excessive
 rainfall continues.
@@ -208,17 +223,6 @@ possible.
 counties, Boyd, Carter and Greenup, southeast Ohio, including the
 following counties, Athens, Gallia, Jackson OH, Lawrence OH, Meigs,
 
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 8:01AM CDT until May 27 at 9:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ece253c813647b5fb47ab708cb48a2287adab79d.001.1) — *2026-05-27*
-  > SMWCRP
-
-The National Weather Service in Corpus Christi has issued a
-
-* Special Marine Warning for...
-Coastal waters from Baffin Bay to Port Aransas out 20 NM...
-Coastal waters from Port Aransas to Matagorda Ship Channel out 20
-NM...
-Copano, Aransas, and Redfish Bays...
-San Antoni
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 7:50AM CDT until May 28 at 1:01PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85ceec35e59a4da5d1fc9d9a3f0eebd636bc9622.001.1) — *2026-05-27*
   > ...The National Weather Service in Fort Worth TX has issued a Flood
 Warning for the following rivers in Texas...

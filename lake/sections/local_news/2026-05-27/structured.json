@@ -10,22 +10,6 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] St. Louis Public Radio (St. Louis): HTTPError",
-      "evidence": [
-        "local-news-error-st--louis-st--louis-public-radio"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] WABE 90.1 (NPR) (Atlanta): HTTPError",
-      "evidence": [
-        "local-news-error-atlanta-wabe-90-1--npr"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
       "description": "[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError",
       "evidence": [
         "local-news-error-st--louis-st--louis-post-dispatch"
@@ -42,6 +26,30 @@
     },
     {
       "category": "feed-failure",
+      "description": "[feed error] St. Louis Public Radio (St. Louis): HTTPError",
+      "evidence": [
+        "local-news-error-st--louis-st--louis-public-radio"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] WABE 90.1 (NPR) (Atlanta): HTTPError",
+      "evidence": [
+        "local-news-error-atlanta-wabe-90-1--npr"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] STLPR news (St. Louis): HTTPError",
+      "evidence": [
+        "local-news-error-st--louis-stlpr-news"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
       "description": "[feed error] CBS46 Atlanta (Atlanta): HTTPError",
       "evidence": [
         "local-news-error-atlanta-cbs46-atlanta"
@@ -53,14 +61,6 @@
       "description": "[feed error] FOX 5 Atlanta (Atlanta): HTTPError",
       "evidence": [
         "local-news-error-atlanta-fox-5-atlanta"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] STLPR news (St. Louis): HTTPError",
-      "evidence": [
-        "local-news-error-st--louis-stlpr-news"
       ],
       "z_score": null
     }
@@ -96,16 +96,6 @@
       "type": "place"
     },
     {
-      "canonical_name": "Atlanta Civic Circle",
-      "id": "org:newsroom-atlanta-civic-circle",
-      "metadata": {
-        "city": "Atlanta",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Georgia Public Broadcasting",
       "id": "org:newsroom-georgia-public-broadcasting",
       "metadata": {
@@ -126,8 +116,8 @@
       "type": "org"
     },
     {
-      "canonical_name": "Atlanta Magazine",
-      "id": "org:newsroom-atlanta-magazine",
+      "canonical_name": "Atlanta Civic Circle",
+      "id": "org:newsroom-atlanta-civic-circle",
       "metadata": {
         "city": "Atlanta",
         "kind": "newsroom",
@@ -140,6 +130,16 @@
       "id": "org:newsroom-fox-2-st--louis",
       "metadata": {
         "city": "St. Louis",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Atlanta Magazine",
+      "id": "org:newsroom-atlanta-magazine",
+      "metadata": {
+        "city": "Atlanta",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
@@ -509,15 +509,6 @@
       ],
       "from": "org:newsroom-ksdk-5-on-your-side",
       "to": "place:city-st--louis",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ffedec4b8787ec3aaab19963030c0141c319f404"
-      ],
-      "from": "org:newsroom-atlanta-civic-circle",
-      "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1063,36 +1054,9 @@
     },
     {
       "evidence": [
-        "a1ca6e308ff4ebaaf2454d6740dcdc1ccc94e3bd"
+        "ffedec4b8787ec3aaab19963030c0141c319f404"
       ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "14c0e835b277ccd158dc486e033b4a74faca47dd"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0e06f4ef9108a21fc81d848c67718f83d9c0bcb9"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
-      "to": "place:city-atlanta",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9b15aa38e3cfdc78ca19402c42167afd91b1a5df"
-      ],
-      "from": "org:newsroom-atlanta-magazine",
+      "from": "org:newsroom-atlanta-civic-circle",
       "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
@@ -1274,6 +1238,42 @@
       ],
       "from": "org:newsroom-fox-2-st--louis",
       "to": "place:city-st--louis",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a1ca6e308ff4ebaaf2454d6740dcdc1ccc94e3bd"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "14c0e835b277ccd158dc486e033b4a74faca47dd"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0e06f4ef9108a21fc81d848c67718f83d9c0bcb9"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9b15aa38e3cfdc78ca19402c42167afd91b1a5df"
+      ],
+      "from": "org:newsroom-atlanta-magazine",
+      "to": "place:city-atlanta",
       "type": "reports-on",
       "weight": 1.0
     }
