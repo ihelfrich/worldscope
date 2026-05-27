@@ -453,7 +453,14 @@ def load_watch_dashboard() -> list[dict]:
 
 
 def dashboard_html(areas: list[dict], md_text: str) -> str:
-    """Render watch-area tiles. Stat = count of mentions of area name in the brief."""
+    """Render watch-area tiles. Stat = count of mentions of area name in the brief.
+
+    Only emits a tile when the area has signal (mentions > 0 OR an alert match).
+    Empty zero-mention watch areas still appear in the sidebar nav (so the user
+    can jump to them), but they do not pollute the above-the-fold dashboard.
+    Threshold can be overridden per-area via `dashboard_min_mentions` in
+    watchareas.yaml; default is 1.
+    """
     if not areas:
         return ""
     tiles: list[str] = []
@@ -469,6 +476,12 @@ def dashboard_html(areas: list[dict], md_text: str) -> str:
         snippet_re = re.compile(re.escape(name.lower()) + r".{0,200}(alert|surge|spike|breach|red flag)", re.I | re.S)
         if snippet_re.search(md_text):
             alert = "alert"
+        # Empty-card filter: skip if no signal. Alert override keeps a tile
+        # visible even when the area name itself is mentioned zero times,
+        # since the alert may have referenced it indirectly.
+        threshold = int(a.get("dashboard_min_mentions", 1))
+        if mentions < threshold and not alert:
+            continue
         topics = (a.get("topics") or [])[:3]
         topics_str = ", ".join(topics) if topics else ""
         slug = slugify(name)
@@ -479,7 +492,51 @@ def dashboard_html(areas: list[dict], md_text: str) -> str:
             f'<div class="dash-meta">{html.escape(topics_str)}</div>'
             f"</div>"
         )
+    if not tiles:
+        return ""
     return '<div class="dashboard">' + "".join(tiles) + "</div>"
+
+
+def dedupe_images(html_body: str) -> str:
+    """Strip duplicate <img> tags pointing at the same src.
+
+    Defense in depth: the synthesis prompt sometimes refers to the same chart
+    in two different sections (it sees the chart as a useful illustration for
+    both). Rendering both is visual redundancy. Keep first occurrence, drop
+    subsequent ones.
+    """
+    seen: set[str] = set()
+
+    def repl(match: re.Match) -> str:
+        src_match = re.search(r'src=["\']([^"\']+)["\']', match.group(0))
+        if not src_match:
+            return match.group(0)
+        src = src_match.group(1)
+        if src in seen:
+            return ""
+        seen.add(src)
+        return match.group(0)
+
+    return re.sub(r"<img\b[^>]*>", repl, html_body)
+
+
+def strip_stale_zip_notice(md_text: str, zip_exists_now: bool) -> str:
+    """Remove the synthesis-time 'bundle zip was unavailable' DATA NOTE if the
+    zip is actually present at render time.
+
+    Race condition we are working around: the Claude synthesis prompt runs
+    BEFORE the bundle.py zip-generation step on some days. The synthesis sees
+    'no zip yet' and templates a DATA NOTE into the markdown. By the time the
+    renderer runs, the zip exists and the notice is stale. Strip it.
+    """
+    if not zip_exists_now:
+        return md_text
+    return re.sub(
+        r"^>\s*\*\*DATA NOTE:?\*\*[^\n]*bundle zip was unavailable[^\n]*(\n>.*)*\n?",
+        "",
+        md_text,
+        flags=re.M | re.I,
+    )
 
 
 def sidebar_html(headings: list[tuple[int, str, str]], areas: list[dict]) -> str:
@@ -512,6 +569,11 @@ def discover_assets(brief_dir: Path, stem: str) -> tuple[list[Path], Path | None
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
     stem = md_path.stem
+    # Check if today's zip actually exists at render time (race-condition
+    # mitigation: synthesis prompt may have templated a "zip unavailable"
+    # DATA NOTE that is now stale).
+    zip_path = REPO / "dist" / "zips" / f"{stem}.zip"
+    md_text = strip_stale_zip_notice(md_text, zip_path.exists())
     # Extract first H1 as title
     title_match = re.match(r"^#\s+(.+)$", md_text, flags=re.M)
     title = title_match.group(1).strip() if title_match else stem
@@ -522,6 +584,7 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     body_html = inject_heading_anchors(body_html, headings)
     body_html = host_pill_links(body_html)
     body_html = callout_pass(body_html)
+    body_html = dedupe_images(body_html)
     areas = load_watch_dashboard()
     dash = dashboard_html(areas, md_text)
     side = sidebar_html(headings, areas)
