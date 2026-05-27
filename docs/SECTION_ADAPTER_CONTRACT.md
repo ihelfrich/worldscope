@@ -263,4 +263,20 @@ Tests run in CI on every push to `main`. Failing tests block merge.
 
 ---
 
+## Storage decisions (locked in for v1)
+
+These are decisions we landed on after the initial design pass; do not re-litigate without explicit cause.
+
+| Need | Decision | Why not the alternative |
+|---|---|---|
+| Hot lake (live) | This GitHub repo at `lake/` | Single source of truth, free, versioned. |
+| Cold archive (monthly) | GitHub Releases tagged `lake-archive-YYYY-MM` | Releases are free and effectively unlimited; no need for an object store. |
+| Backup redundancy | Optional mirror push to Codeberg or Hugging Face Datasets (private) | Both free, neither requires a payment method. |
+| MCP server hosting | Cloudflare Workers free tier reading via GitHub API | Workers free tier does NOT require payment info; R2 does (avoided). |
+| Embeddings | sentence-transformers locally on Ian's Mac (`all-MiniLM-L6-v2`) | Self-hosted = no API spend, no vendor lock-in. |
+
+**Never use** (decided against): Cloudflare R2 (requires card on file), Backblaze B2 (same), AWS/GCP/Azure of any kind (requires card on file). The whole stack should be operable with no payment method anywhere.
+
+---
+
 *This document is binding. Changes to the contract require an explicit PR titled `contract:` and a migration plan for existing sections.*
