@@ -51,6 +51,7 @@ from .sections.sanctions import SanctionsSection
 from .sections.chinese_internal import ChineseInternalSection
 from .sections.foreign_news import ForeignNewsSection
 from .sections.local_news import LocalNewsSection
+from .sections.paper_bets import PaperBetsSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
 from .sections.vip_flights import VipFlightsSection
@@ -66,6 +67,7 @@ SECTION_REGISTRY = [
     LocalNewsSection,
     ForeignNewsSection,
     ChineseInternalSection,
+    PaperBetsSection,
     MacroSection,
     MarketsSection,
     BillionairesSection,
