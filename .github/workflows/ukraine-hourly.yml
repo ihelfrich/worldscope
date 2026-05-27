@@ -1,0 +1,82 @@
+name: Ukraine theater hourly refresh
+
+# Hourly micro-refresh of the Ukraine theater section: ACLED + FIRMS + air-alert
+# + DeepStateMap + Liveuamap + OSINT crawl. Updates the Pages-published maps
+# and the lake snapshot under lake/sections/ukraine_theater/<date>/. Does NOT
+# fire Pushover; the daily morning routine surfaces Ukraine in its summary.
+#
+# Idempotency: each run overwrites <date>/ for the current day. The lake's
+# upsert semantics keep prior intra-day refreshes addressable by run-id.
+
+on:
+  schedule:
+    - cron: "15 * * * *"  # every hour at :15 past UTC
+  workflow_dispatch:
+    inputs:
+      force_full_recrawl:
+        description: 'Force full re-crawl ignoring cache (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ukraine-hourly
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install web-intel (Go crawler)
+        run: |
+          go install github.com/ihelfrich/web-intel@latest || echo "web-intel install skipped; section will fall back"
+
+      - name: Run Ukraine theater section only
+        env:
+          ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
+          ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
+          NASA_FIRMS_KEY: ${{ secrets.NASA_FIRMS_KEY }}
+          FORCE_FULL_RECRAWL: ${{ github.event.inputs.force_full_recrawl }}
+        run: |
+          python -m worldscope.run_section --section ukraine_theater --emit-maps
+
+      - name: Commit & push refreshed artifacts
+        run: |
+          git config user.name "ukraine-hourly-bot"
+          git config user.email "bot@worldscope.local"
+          DATE=$(date -u +%F)
+          git add lake/sections/ukraine_theater/${DATE}/ briefings/${DATE}-ukraine-*.png 2>/dev/null || true
+          git diff --staged --quiet && echo "no changes" && exit 0
+          git commit -m "ukraine hourly refresh ${DATE} $(date -u +%H:%M)Z"
+
+          # Retry-with-rebase loop, same pattern as render-briefings.yml
+          for i in 1 2 3 4 5; do
+            if git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push origin HEAD; then
+              echo "push ok on attempt $i"
+              exit 0
+            fi
+            echo "push failed attempt $i, rebasing"
+            git pull --rebase origin main || git rebase --abort
+            sleep $((i * 3))
+          done
+          echo "all retries failed"
+          exit 1
