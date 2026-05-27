@@ -2,15 +2,25 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-05-27
-record_count: 889
-new_today: 889
+record_count: 869
+new_today: 869
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-889 new of 889 total items today.
+869 new of 869 total items today.
 
+- **NEW**  [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-27*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-27*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-27*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Family mourn ‘Hamas leader’ killed in Israeli attack](https://www.aljazeera.com/video/newsfeed/2026/5/27/family-mourn-hamas-leader-killed-in-israeli-attack?traffic_source=rss) — *2026-05-27*
+  > A funeral has been held for Mohammed Odeh, believed to be the leader of Hamas’s military wing.
+- **NEW**  [[Global] Mogadishu gathers for Eid with prayers, family meals and outings](https://www.aljazeera.com/gallery/2026/5/27/mogadishu-gathers-for-eid-with-prayers-family-meals-and-outings?traffic_source=rss) — *2026-05-27*
+  > Mogadishu has been tentatively emerging from the waves of violence that have rocked the city over recent decades.
 - **NEW**  [[Global] Muslims worldwide celebrate Eid al-Adha, the Festival of Sacrifice](https://www.aljazeera.com/gallery/2026/5/27/muslims-worldwide-celebrate-eid-al-adha-the-festival-of-sacrifice?traffic_source=rss) — *2026-05-27*
   > The sacred holiday coincides with Hajj, drawing over 1.7 million pilgrims seeking spiritual fulfilment in Saudi Arabia.
 - **NEW**  [[Global] Why is Israel attacking Lebanon’s Nabatieh, the major southern city?](https://www.aljazeera.com/news/2026/5/27/why-is-israel-attacking-lebanons-nabatieh-the-major-southern-city?traffic_source=rss) — *2026-05-27*
@@ -51,15 +61,5 @@ state: fresh
   > Statue to honour World Cup winner Lionel Messi, unveiled during his GOAT tour of India, unstable on busy Kolkata road.
 - **NEW**  [[Global] How Senegal became genuine World Cup 2026 contenders – at a cost](https://www.aljazeera.com/sports/2026/5/27/how-senegal-became-genuine-world-cup-2026-contenders-at-a-cost?traffic_source=rss) — *2026-05-27*
   > The West African nation&#039;s success comes from smart diaspora recruitment, as well as controversial local academies.
-- **NEW**  [[Global] Muslim pilgrims participate in stone-throwing ritual on third day of Hajj](https://www.aljazeera.com/video/newsfeed/2026/5/27/muslim-pilgrims-participate-in-stone-throwing-ritual-on-third-day-of-hajj?traffic_source=rss) — *2026-05-27*
-  > More than a million Muslim pilgrims are participating in the stone-throwing ritual on the third day of Hajj.
-- **NEW**  [[Global] Ex-champ Fury sets Dublin fight before ‘Battle of Britain’ against Joshua](https://www.aljazeera.com/sports/2026/5/27/ex-heavyweight-champ-fury-pens-dublin-ahead-of-joshua-battle-of-britain?traffic_source=rss) — *2026-05-27*
-  > Tyson Fury returns to the ring after his defeat by Oleksandr Usyk as he prepares for a rematch with Anthony Joshua.
-- **NEW**  [[Global] US, Iran have launched multiple attacks during ceasefire: A timeline](https://www.aljazeera.com/news/2026/5/27/us-iran-have-launched-multiple-attacks-during-ceasefire-a-timeline?traffic_source=rss) — *2026-05-27*
-  > Washington carried out new strikes on southern Iran, while Tehran downed a US drone and fired at a fighter jet.
-- **NEW**  [[Global] US strike on alleged drug boat in Pacific kills one](https://www.aljazeera.com/news/2026/5/27/us-strike-on-alleged-drug-boat-in-pacific-kills-one?traffic_source=rss) — *2026-05-27*
-  > Dozens of attacks since September have killed at least 194 people in US operation dubbed &#039;Southern Spear&#039;.
-- **NEW**  [[Global] Hakimi leads nine returning Morocco players from Qatar 2022 at World Cup](https://www.aljazeera.com/sports/2026/5/27/hakimi-leads-nine-returning-morocco-players-from-qatar-2022-at-world-cup?traffic_source=rss) — *2026-05-27*
-  > Morocco draw heavily on the country’s diaspora in Europe where majority of the 26 squad players selected were born.
 
-_(864 additional items in raw.jsonl)_
+_(844 additional items in raw.jsonl)_

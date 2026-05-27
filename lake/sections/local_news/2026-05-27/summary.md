@@ -2,57 +2,17 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-27
-record_count: 247
-new_today: 247
+record_count: 256
+new_today: 256
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-247 new of 247 total items today.
+256 new of 256 total items today.
 
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-05-27*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- **NEW**  [[St. Louis] Wentzville families push back against land redevelopment plans](https://fox2now.com/news/missouri/wentzville-families-push-back-against-land-redevelopment-plans/) — *2026-05-27*
-  > Families that own farmland along Highway N in Wentzville are pushing back against conceptual redevelopment renderings that show dense mixed-use development on their properties.
-- **NEW**  [[St. Louis] Son sees break in mother’s 1993 murder case; 70-year-old man charged](https://fox2now.com/news/illinois/son-sees-break-in-mothers-1993-murder-case-70-year-old-man-charged/) — *2026-05-26*
-  > Wes Sperino said he will always remember waking up as a child and seeing that his mother was watching him sleep. He’s held onto that memory for decades after his mom was murdered when he was a teen.
-- **NEW**  [[St. Louis] Scattered showers Wednesday with warm temperatures](https://fox2now.com/news/weather/scattered-showers-wednesday-with-warm-temperatures/) — *2026-05-27*
-  > Overcast skies overnight have yielded some showers and storms, mostly over our Illinois counties as expected.
-- **NEW**  [[St. Louis] Ex-boyfriend used revenge porn to sabotage woman’s business: Prosecutors](https://fox2now.com/news/missouri/ex-boyfriend-used-revenge-porn-to-sabotage-womans-business-prosecutors/) — *2026-05-26*
-  > Prosecutors say a St. Louis man attempted to sabotage his ex-girlfriend’s business using revenge porn.
-- **NEW**  [[St. Louis] Major Case Squad activated in Berkeley, Missouri over man's death](https://fox2now.com/news/missouri/major-case-squad-activated-in-berkeley-missouri-over-mans-death/) — *2026-05-27*
-  > A man was found shot to death Tuesday evening inside a vehicle in the 8300 block of Airport Road.
-- **NEW**  [[St. Louis] Four Missouri amendments set for August ballots - What would they do?](https://fox2now.com/news/missouri/four-missouri-amendments-set-for-august-ballots-what-would-they-do/) — *2026-05-26*
-  > Missouri voters will decide on four statewide constitutional amendments in the August 2026 primary election, headlined by a proposal to gradually eliminate the state's income tax.
-- **NEW**  [[St. Louis] FBI announces results of violent crime crackdown in St. Louis region](https://fox2now.com/news/missouri/fbi-announces-results-of-violent-crime-crackdown-in-st-louis-region/) — *2026-05-26*
-  > Federal officials announced the results of a large-scale violent crime crackdown across the St. Louis region that led to dozens of arrests, weapons recovered and drugs seized.
-- **NEW**  [[St. Louis] St. Louis readies for BMW Championship in Town and Country](https://fox2now.com/news/missouri/st-louis-readies-for-bmw-championship-in-town-and-country/) — *2026-05-27*
-  > St. Louis is preparing to host the BMW Championship from Aug. 18 to 23 at Bellerive Country Club in Town and Country. The tournament will feature 50 of the top PGA players in the FedEx Cup standings competing for a $20 million purse.
-- **NEW**  [[St. Louis] Tensions rise over Festus data center project, recall efforts](https://fox2now.com/news/missouri/tensions-rise-over-festus-data-center-project-recall-efforts/) — *2026-05-27*
-  > Another lengthy city council meeting filled with a fiery public comment period wrapped up Tuesday night at Festus city hall as residents continued to make their voices heard regarding an unpopular data center project there.
-- **NEW**  [[St. Louis] How to get $50K for your first St. Louis home](https://fox2now.com/news/missouri/how-to-get-50k-for-your-first-st-louis-home/) — *2026-05-26*
-  > The city's independent development agency is bringing back a financial assistance program to help first-time homebuyers.
-- **NEW**  [[St. Louis] St. Louis aldermen to hold hearing on proposed water rate increases](https://fox2now.com/news/missouri/st-louis-aldermen-to-hold-hearing-on-proposed-water-rate-increases/) — *2026-05-27*
-  > People in St. Louis will get a chance Wednesday afternoon to weigh in on a proposal to raise city water rates over the next several years.
-- **NEW**  [[St. Louis] St. Louis Police Board could vote on drone response plan](https://fox2now.com/news/missouri/st-louis-police-board-could-vote-on-drone-response-plan/) — *2026-05-27*
-  > The St. Louis Board of Police Commissioners could vote Wednesday morning on a contract connected to a new drone response plan for the city’s police department.
-- **NEW**  [[St. Louis] Mitchell hits a three-run HR to back Harrison's strong start as the Brewers beat the Cardinals 6-0](https://fox2now.com/sports/st-louis-cardinals/mitchell-hits-a-three-run-hr-to-back-harrisons-strong-start-as-the-brewers-beat-the-cardinals-6-0/) — *2026-05-27*
-  > MILWAUKEE (AP) — Garrett Mitchell hit a three-run homer and Kyle Harrison tossed six innings of four-hit ball to lead the Milwaukee Brewers to a 6-0 victory over the St. Louis Cardinals on Tuesday night. Harrison (6-1) allowed two singles to open the third and two singles in the 
-- **NEW**  [[St. Louis] SSD school board approves pay freeze for union employees](https://fox2now.com/news/missouri/ssd-school-board-approves-pay-freeze-for-union-employees/) — *2026-05-27*
-  > After a majority of the Special School District Board of Education voted to freeze pay for employees represented across six different unions in the 2026-27 school year on May 26, emotions were strong.
-- **NEW**  [[St. Louis] Man found dead in north St. Louis, police investigating](https://fox2now.com/news/missouri/man-found-dead-in-north-st-louis-police-investigating/) — *2026-05-27*
-  > Police are investigating after a man was found dead in north St. Louis Tuesday afternoon.
-- **NEW**  [[St. Louis] Concerns raised over ICE detainees at Ste. Genevieve County jail](https://fox2now.com/news/missouri/concerns-raised-over-ice-detainees-at-ste-genevieve-county-jail/) — *2026-05-26*
-  > Members of Congress toured the Ste. Genevieve County Detention Center on Thursday, raising concerns about housing immigration detainees in a county jail they said was not designed for that purpose.
-- **NEW**  [[St. Louis] Burst pipes leave St. Louis seniors without water for 8 days](https://fox2now.com/news/missouri/burst-pipes-leave-st-louis-seniors-without-water-for-8-days/) — *2026-05-26*
-  > Senior residents at Council Towers, an apartment building in St. Louis, have been without running water inside their homes for more than a week. The water outage began on a Tuesday after multiple pipes burst, which flooded the building's mechanical room.
-- **NEW**  [[St. Louis] St. Louis public weighs in on Rams settlement fund use](https://fox2now.com/news/missouri/st-louis-public-weighs-in-on-rams-settlement-fund-use/) — *2026-05-26*
-  > St. Louis city leaders and residents are publicly weighing how to spend hundreds of millions of dollars in Rams settlement funds, marking the first formal hearing in a process that has been years in the making.
-- **NEW**  [[St. Louis] 61-year-old injured in St. Louis drive-by shooting; Suspect charged](https://fox2now.com/news/missouri/61-year-old-injured-in-st-louis-drive-by-shooting-suspect-charged/) — *2026-05-26*
-  > A 61-year-old man was injured from a St. Louis drive-by shooting in March. A suspect accused in the shooting now faces felony charges two months later.
-- **NEW**  [[St. Louis] 6-year-old boy injured in accidental shooting](https://fox2now.com/news/missouri/6-year-old-boy-injured-in-accidental-shooting/) — *2026-05-26*
-  > A 6-year-old boy is in critical condition at the hospital after accidentally shooting himself overnight. The owner of the firearm is in custody.
+- **NEW**  [[St. Louis] Public pools, splash pads, and water parks in the St. Louis region](https://www.stlmag.com/family/st-louis-swimming-pools-swim-clubs-waterparks/) — *2026-05-27*
+  > <p>St. Louis summers are famously hot and sticky. What better way to cool down than by visiting one of the region&#8217;s many pools, swim clubs, or water parks? Even without owning a seasonal membership, families can take advantage of affordable day passes at many of these aquat
 - **NEW**  [[St. Louis] Drive-in movie theaters within driving distance from St. Louis](https://www.stlmag.com/family/things-to-do/st-louis-area-drive-in-movie-theaters-open-this-weekend/) — *2026-05-27*
   > <p>Skyview Drive-In &#124; Belleville, Illinois 30 minutes east of St. Louis Whether it be a routine family night out or a special celebration, pop into the Skyview for showings of new and old favorites alike. Adult tickets are $13, and children ages 12 and under get in free for 
 - **NEW**  [[St. Louis] Ask Veronica: How to style a room with plants, according to design experts](https://www.stlmag.com/design/ask-veronica-how-to-style-a-room-with-plants-according-to-design-experts/) — *2026-05-27*
@@ -61,5 +21,45 @@ state: fresh
   > <p>As someone who works almost exclusively from home, I’m always looking for any excuse to leave the house. This often translates into frequent trips to the grocery store. Are we out of butter? I’m going to the grocery store. Do we need one single toothpick? Grocery store. And as
 - **NEW**  [[St. Louis] A house in Tower Grove East hits the market](https://www.stlmag.com/design/property/3445-juniata-street-tower-grove/) — *2026-05-27*
   > <p>Custom-BuiltStep into summer in this custom-built, Palm Springs-inspired modernist home in the heart of Tower Grove. Built less than ten years ago, it maximizes functional space and natural light, while offering the desirability of indoor-outdoor living.&#160; Resort StyleThis
+- **NEW**  [[St. Louis] SLDC relaunches loan program for first-time homebuyers](https://www.stlmag.com/news/sldc-homestl-home-loans/) — *2026-05-27*
+  > <p>St. Louis’ development agency, the St. Louis Development Corporation, relaunched its HomeSTL loan program on Tuesday, offering up to $50,000 to first-time homebuyers in the city. That loan can make the difference in securing a down payment for those who might not otherwise be 
+- **NEW**  [[St. Louis] Maryville University Partners with NTEN for a unique cybersecurity program](https://www.stlmag.com/business/maryville-university-nten-cybersecurity-program/) — *2026-05-27*
+  > <p>Students at Maryville University have partnered up with a nonprofit tech organization to create a one-of-a-kind cybersecurity consulting program for nonprofits.&#160; It’s a partnership between the student-led consulting initiative Maryville Solutions and NTEN. The program dir
+- **NEW**  [[St. Louis] A centennial celebration of Miles Davis and John Coltrane heads to Powell Hall](https://www.stlmag.com/culture/music/a-centennial-celebration-of-miles-davis-and-john-coltrane-heads-to-powell-hall/) — *2026-05-27*
+  > <p>St. Louis has always stood at the intersection of the great modern musical genres, whether that’s the blues, jazz, rock and roll, or hip-hop. So it only makes sense that Terence Blanchard and Ravi Coltrane’s centennial celebration of jazz titans Miles Davis and John Coltrane i
+- **NEW**  [[St. Louis] Northside activists clash with downtown advocates as both seek Rams money](https://www.stlmag.com/news/northside-activists-downtown-rams-settlement-funds/) — *2026-05-26*
+  > <p>The operator of the 9 Mile Garden outdoor food truck garden in Affton is working to bring an outdoor marketplace to the downtown St. Louis riverfront. But advocates for the project say that securing money for the riverfront from the Rams settlement bill is crucial to readying 
+- **NEW**  [[St. Louis] ‘The Blue Whale Story’ at Saint Louis Science Center lets families stand beside an 80-foot ocean giant](https://www.stlmag.com/family/the-blue-whale-story-at-saint-louis-science-center-lets-families-stand-beside-an-80-foot-ocean-giant/) — *2026-05-26*
+  > <p>You don’t have to book a beach vacation to see a blue whale this year. Just head to the Saint Louis Science Center. Families can come face-to-fin with the largest creature ever to live on Earth when they visit The Blue Whale Story at the Saint Louis Science Center. Running now
+- **NEW**  [[St. Louis] St. Louis police looking for missing 28-year-old woman with autism](https://www.ksdk.com/article/news/local/st-louis-police-looking-missing-28-year-old-woman-autism/63-6d0377ae-1ce2-4e89-b918-1cd38c54b6aa) — *2026-05-27*
+  > Anyone with information about Tafari's whereabouts is asked to call St. Louis police at 314-444-1212 or dial 911.
+- **NEW**  [[St. Louis] What is a free kick? Understanding soccer's most common action](https://www.ksdk.com/article/sports/soccer/world-cup/what-is-free-kick-soccer-explained/507-e839f9e9-3f0d-4476-99d6-2db0b8bac472) — *2026-05-27*
+  > They are among the most common actions in soccer. Here's what they are:
+- **NEW**  [[St. Louis] No hope of survivors with 9 missing after Washington paper mill tank implosion, officials say](https://www.ksdk.com/article/news/nation-world/tragedy-washington-chemical-tank-implosion-paper-mill/507-be7b218c-82f2-4661-8a4b-1d5b7d41f821) — *2026-05-27*
+  > Officials say the tank that imploded at a paper mill in Washington state is at risk of collapsing further and leaking more of the caustic liquid.
+- **NEW**  [[St. Louis] Missouri birth control access bill clears legislature after years of obstacles](https://www.ksdk.com/article/news/politics/missouri-birth-control-access-bill-clears-legislature-after-years-obstacles/63-420241aa-f2be-42ad-b36e-b51c370333db) — *2026-05-27*
+  > Right now, women on Medicaid can access an annual supply of birth control. This law would expand the same parameters to include private insurance.
+- **NEW**  [[St. Louis] Man shot, killed north of downtown St. Louis](https://www.ksdk.com/article/news/crime/shooting-north-of-downtown-st-louis/63-8a1b1f94-036c-47e3-9333-729e3205a497) — *2026-05-27*
+  > The shooting happened at about 10:50 a.m. Tuesday on North 13th Street.
+- **NEW**  [[St. Louis] Former US Attorney General Pam Bondi is undergoing treatment for thyroid cancer](https://www.ksdk.com/article/news/nation-world/pam-bondi-thyroid-cancer-diagnosis/507-a791c419-d5ef-49ff-b82b-01c4f3423a3a) — *2026-05-27*
+  > News of her diagnosis comes as Bondi is set to join an advisory committee focused on AI policy.
+- **NEW**  [[St. Louis] 'Men do cry sometimes': Washington paper mill community mourns victims of tank implosion](https://www.ksdk.com/article/news/nation-world/longview-washington-mill-nippon-dynawave-facility/507-1f432592-1d30-482a-a4aa-9cabe8c6db9e) — *2026-05-27*
+  > A massive chemical tank holding nearly a million gallons of a highly corrosive liquid imploded and collapsed Tuesday at a Washington paper mill.
+- **NEW**  [[St. Louis] First responders injured during Idaho brush fire that forced residents to evacuate](https://www.ksdk.com/article/news/nation-world/law-enforcement-injured-mountain-home-idaho-brush-fire-response/507-484790c2-6480-4c7b-9a39-b29b1bbb282a) — *2026-05-27*
+  > Officials say several first responders were injured by the fire, and residents may have been hurt as well.
+- **NEW**  [[St. Louis] Downtown St. Louis tower scheduled to be auctioned](https://www.ksdk.com/article/news/local/downtown-st-louis-tower-scheduled-auctioned/63-debbe263-844a-40c5-8c8a-b8673162b4e1) — *2026-05-27*
+  > An online auction of the 30-story Bank of America Plaza at 800 Market St. is scheduled to open at noon on June 22, with a $2 million starting bid.
+- **NEW**  [[St. Louis] Five decades later, families still fighting to add 74 sailors to Vietnam Veterans Memorial Wall](https://www.ksdk.com/article/news/nation-world/families-fight-pentagon-policy-push-add-names-74-navy-sailors-uss-frank-e-evans-vietnam-veterans-memorial-wall/507-c5e86b34-8e05-417d-9806-e069ae8ebd1a) — *2026-05-27*
+  > More than 50 years after the deadly USS Frank E. Evans collision, survivors and lawmakers say the sailors deserve recognition on the memorial wall.
+- **NEW**  [[St. Louis] President Trump gathers Cabinet as he looks to seal deal to end the war with Iran](https://www.ksdk.com/article/news/nation-world/attack-on-iran/president-donald-trump-cabinet-meeting-iran-war-talks-negotiations/507-eb16ce8f-d687-42ea-8a9d-5c010ffb9ebb) — *2026-05-27*
+  > President Donald Trump meets with his Cabinet at a precarious moment for talks aimed at ending the war with Iran.
+- **NEW**  [[St. Louis] Israel says strikes killed Hamas military leader just days after his predecessor died](https://www.ksdk.com/article/news/nation-world/israel-hamas-conflict/israel-says-it-killed-new-hamas-military-leader-2-weeks-after-killing-predecessor/507-09d2b14f-cdb6-458a-9ff2-7390f99923ca) — *2026-05-27*
+  > At least five people were killed and 12 injured in Tuesday's strike on the eve of Eid al-Adha, a major Muslim holiday, according to local hospitals.
+- **NEW**  [[St. Louis] 'I have so much love for this city' | Travis Kelce buys minority stake in Cleveland Guardians](https://www.ksdk.com/article/sports/travis-kelce-cleveland-guradians-sports-baseball/507-776f834b-1e98-44ac-80d4-03bb6ccc1ac7) — *2026-05-27*
+  > Curtis Danburg, vice president of communications and community impact for the Guardians, told Ohio TV station 3News early Wednesday morning.
+- **NEW**  [[St. Louis] Matthew Perry assistant who injected him with ketamine faces final sentencing in overdose case](https://www.ksdk.com/article/news/nation-world/matthew-perry-assistant-faces-final-sentencing-in-overdose-case/507-ab532098-d212-4282-aa67-a7b37410a43e) — *2026-05-27*
+  > Matthew Perry’s longtime assistant faces sentencing Wednesday for supplying and injecting the ketamine that caused the “Friends” star’s death.
+- **NEW**  [[St. Louis] Teen charged with killing stepsister on Carnival Cruise could be jailed until trial](https://www.ksdk.com/article/news/nation-world/teen-charged-with-killing-stepsister-on-carnival-cruise-hearing-on-bail/507-80168d96-7cb6-4c51-ae0b-0afdbf4bd10c) — *2026-05-27*
+  > Hudson has pleaded not guilty to charges of first-degree murder and aggravated sexual abuse in relation to his stepsister's killing last year.
 
-_(222 additional items in raw.jsonl)_
+_(231 additional items in raw.jsonl)_

@@ -4,13 +4,13 @@ title: U.S. Political Figures (per-figure anomaly tracking)
 date: 2026-05-27
 record_count: 613
 active_figures: 576
-scored_above_zero: 17
+scored_above_zero: 15
 state: fresh
 ---
 
 ## U.S. Political Figures (per-figure anomaly tracking)
 
-17 of 576 active figures registered a non-zero anomaly score today. Top 10:
+15 of 576 active figures registered a non-zero anomaly score today. Top 10:
 
 1. **Gilbert Cisneros** (Representative, Democratic, CA-31st): composite 0.169
    drivers: stock_activity=0.68
@@ -33,10 +33,11 @@ state: fresh
 7. **Sara Jacobs** (Representative, Democratic, CA-51st): composite 0.103
    drivers: stock_activity=0.41
    evidence: [lake:political_figures:32705d0714e2], [lake:political_figures:088a659378dd]
-8. **Dwight Evans** (Representative, Democratic, PA-3rd): composite 0.095
+8. **Jim Banks** (Senator, Republican, IN): composite 0.100
+   drivers: enforcement_hits=0.50
+   evidence: [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
+9. **Dwight Evans** (Representative, Democratic, PA-3rd): composite 0.095
    drivers: stock_activity=0.38
    evidence: [lake:political_figures:017beabfffa0], [lake:political_figures:8c284cdfe94a], [lake:political_figures:847e4d2e7b2f], [lake:political_figures:8d61da122da9]
-9. **Greg Stanton** (Representative, Democratic, AZ-4th): composite 0.074
+10. **Greg Stanton** (Representative, Democratic, AZ-4th): composite 0.074
    evidence: [lake:political_figures:03311521dabc]
-10. **Maria Salazar** (Representative, Republican, FL-27th): composite 0.069
-   evidence: [lake:political_figures:20f902ff1d47], [lake:political_figures:5f83b63e045d]

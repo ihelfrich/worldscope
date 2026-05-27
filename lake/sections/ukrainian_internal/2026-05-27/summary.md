@@ -2,17 +2,22 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-27
-record_count: 135
-new_today: 135
+record_count: 136
+new_today: 136
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-135 new of 135 total items today.
+136 new of 136 total items today.
 
 - **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на Україну | LEDE: У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгре] (uk: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на У)](https://www.pravda.com.ua/news/2026/05/27/8036662/) — *2026-05-27*
+  > У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгресу США йшлося про атаку РФ із використанням балістичних ракет середньої дальності "Орєшнік".
+- **NEW**  [[TITLE: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні | LEDE: ] (uk: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні)](https://www.pravda.com.ua/news/2026/05/27/8036661/) — *2026-05-27*
+- **NEW**  [[TITLE: Зеленський: Росія готує додаткову мобілізацію | LEDE: Режим Володимира Путіна поставив завдання збільшити контингент російської окупаційної армії, це свідчить, що Москва не планує по-справжньом] (uk: Зеленський: Росія готує додаткову мобілізацію)](https://www.pravda.com.ua/news/2026/05/27/8036659/) — *2026-05-27*
+  > Режим Володимира Путіна поставив завдання збільшити контингент російської окупаційної армії, це свідчить, що Москва не планує по-справжньому вести мирні переговори.
 - **NEW**  [[TITLE: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві | LEDE: ] (uk: Шлях із перешкодами: рух України до членства ускладнюють і в ЄС, і в Києві)](https://www.pravda.com.ua/columns/2026/05/27/8036657/) — *2026-05-27*
 - **NEW**  [[TITLE: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув пес | LEDE: Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них гос] (uk: Зросла кількість потерпілих від удару РФ по Одещині: постраждали діти, загинув п)](https://www.pravda.com.ua/news/2026/05/27/8036655/) — *2026-05-27*
   > Внаслідок ворожої атаки по Одеському району кількість потерпілих збільшилася до 11, восьмеро з них госпіталізовано.
@@ -45,19 +50,13 @@ state: fresh
   > День вишиванки: як вишиті стрічки пам'яті стали символом шани героям і об'єднанням родин.
 - **NEW**  [[TITLE: Армія РФ вдарила по фермах на Чернігівщині: загинула працівниця, тракторист поранений | LEDE: Вранці 27 травня окупанти атакували село Лукнів Коропської громади на Чернігівщині, внаслідок чого ] (uk: Армія РФ вдарила по фермах на Чернігівщині: загинула працівниця, тракторист пора)](https://www.pravda.com.ua/news/2026/05/27/8036612/) — *2026-05-27*
   > Вранці 27 травня окупанти атакували село Лукнів Коропської громади на Чернігівщині, внаслідок чого загинула працівниця свиноферми, а тракторист одного з підприємств дістав тяжкі поранення.
-- **NEW**  [[TITLE: В Україні прогнозують дощі і до +22 | LEDE: 28-30 травня в Україні дощі та грози, на заході без істотних опадів. Температура вдень 13-22°. Пориви вітру до 20 м/с.] (uk: В Україні прогнозують дощі і до +22)](https://www.pravda.com.ua/news/2026/05/27/8036611/) — *2026-05-27*
-  > 28-30 травня в Україні дощі та грози, на заході без істотних опадів. Температура вдень 13-22°. Пориви вітру до 20 м/с.
-- **NEW**  [[TITLE: Тихановська у Києві відкрила Місію демократичних сил Білорусі | LEDE: У Києві відкрили Місію демократичних сил Білорусі для підтримки білорусів та співпраці з Україною.] (uk: Тихановська у Києві відкрила Місію демократичних сил Білорусі)](https://www.pravda.com.ua/news/2026/05/27/8036608/) — *2026-05-27*
-  > У Києві відкрили Місію демократичних сил Білорусі для підтримки білорусів та співпраці з Україною.
-- **NEW**  [[TITLE: Рада достроково припинила повноваження нардепа Цабаля | LEDE: Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.] (uk: Рада достроково припинила повноваження нардепа Цабаля)](https://www.pravda.com.ua/news/2026/05/27/8036602/) — *2026-05-27*
-  > Парламент достроково припинив повноваження нардепа від "Голосу" Володимира Цабаля, його замінить Микола Давидюк.
 - **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- **NEW**  [‘You No Longer Belong to Yourself Here’](https://www.kyivpost.com/post/76802) — *2026-05-27*
-  > A woman who once planned her future abroad returned to Ukraine and joined the army. Today, as an evacuation medic, “Bandana” helps keep wounded soldiers alive.
-- **NEW**  [Hungary Links Zelensky Meeting to Progress on Minority Rights](https://www.kyivpost.com/post/76981) — *2026-05-27*
-  > Hungary’s government on Wednesday said a potential meeting between Prime Minister Péter Magyar and President Volodymyr Zelensky will only take place if negotiations over the rights of the Hungarian minority in Ukraine make progress. Technical-level talks between Budapest and Kyiv
+- **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Brussels Finally Has a Timetable for Ukraine’s EU Bid](https://www.kyivpost.com/post/76982) — *2026-05-27*
+  > The European Commission is set to propose opening the first cluster of EU membership negotiations with Ukraine and Moldova on June 16, with EU leaders expected to approve the move days later. Progress had long been blocked by Hungary’s Viktor Orbán, but his defeat in March’s elec
 
-_(110 additional items in raw.jsonl)_
+_(111 additional items in raw.jsonl)_
