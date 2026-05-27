@@ -33,6 +33,7 @@ from .sections.billionaires import BillionairesSection
 from .sections.cisa_kev import CisaKevSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
+from .sections.congressional_trades import CongressionalTradesSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.fec import FECSection
 from .sections.federal_register import FederalRegisterSection
@@ -81,6 +82,7 @@ SECTION_REGISTRY = [
     MarketsSection,
     MarketsGlobalSection,
     SanctionsProcurementSection,
+    CongressionalTradesSection,
     BillionairesSection,
     PeopleSection,
     SanctionsSection,
