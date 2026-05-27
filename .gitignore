@@ -1,8 +1,14 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+.venv/
+venv/
 .DS_Store
 .env
-*.sqlite
-dist/
-.observablehq/cache/
-briefings/cache/
+
+# Lake: keep the directory structure committed but exclude transient
+# SQLite write-ahead-log files. The lake/db/worldscope.sqlite database
+# IS committed so the orchestrator has a consistent shared state across
+# CI runs.
+lake/db/*.sqlite-wal
+lake/db/*.sqlite-shm

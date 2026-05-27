@@ -99,6 +99,21 @@ class Section(ABC):
     # snapshot carries forward, instead of wedging the whole brief.
     PULL_TIMEOUT_S: float = 75
 
+    # --- Section-adapter contract (see docs/SECTION_ADAPTER_CONTRACT.md) ---
+    # Subclasses SHOULD override these for proper attribution + trust signaling.
+    # Defaults below match the existing pre-contract sections so no migration
+    # is required to keep working; contract artifacts will be empty/minimal
+    # until each section sets these explicitly.
+    source_id: str = ""                   # e.g. "federal-register"
+    source_name: str = ""                 # e.g. "U.S. Federal Register"
+    source_url: str = ""                  # canonical homepage / API root
+    source_tier: str = "primary_document" # primary_document | mainstream_independent | ...
+    source_license: str = "public-domain"
+    attribution_required: bool = False
+    attribution_text: Optional[str] = None
+    source_country: Optional[str] = "US"
+    source_language: str = "en"
+
     def __init__(self, store: Optional[SnapshotStore] = None) -> None:
         self.store = store or SnapshotStore()
 
@@ -276,3 +291,164 @@ class Section(ABC):
         if state.state == STATE_NO_DATA:
             return "<span class='stale-badge stale-none'>section unavailable today</span>"
         return ""
+
+    # ---- Section-adapter contract artifacts ----------------------------------
+    # The orchestrator calls these AFTER resolve(). Each method has a
+    # sensible default so existing sections work unchanged; subclasses
+    # override to add entity extraction, predictions, paper bets, etc.
+
+    def to_raw_record(self, item: dict, *, today_iso: str) -> dict:
+        """Map one in-memory item to a contract-shaped record_dict for the lake.
+        Subclasses MAY override to enrich (e.g. detect language, add metadata).
+        The dict returned here becomes one line in raw.jsonl AND one row in
+        the lake's `records` table."""
+        return {
+            "id": item.get("_id") or self._item_id(item),
+            "source_id": self.source_id or self.id,
+            "section_id": self.id,
+            "ingested_at_utc": today_iso,
+            "original_url": item.get("url"),
+            "original_text": (item.get("title", "") + " — " + (item.get("summary", "") or ""))[:500],
+            "original_lang": self.source_language,
+            "record_date": item.get("date"),
+            "license": self.source_license,
+            "entities": [],   # subclasses override extract_entities() to populate
+            "extra": {k: v for k, v in item.items() if k not in (
+                "_id", "id", "url", "title", "summary", "date"
+            )},
+        }
+
+    def extract_entities(self, item: dict) -> list[dict]:
+        """Return a list of entity-payload dicts mentioned in this item.
+        Each entry: {id, type, canonical_name, aliases?, metadata?}.
+        Default: empty. Subclasses override for entity-rich sources
+        (federal register, courtlistener, OpenStates, etc.)."""
+        return []
+
+    def synthesize_summary(self, state: "SectionState") -> str:
+        """Default markdown summary. Subclasses can override to do LLM-driven
+        synthesis with section-specific prompts; the orchestrator's parallel
+        sub-agents typically replace this whole method via an LLM Task call."""
+        new_count = len(state.new)
+        total = len(state.items)
+        lines = [
+            f"---",
+            f"section: {self.id}",
+            f"title: {self.title}",
+            f"date: {state.source_date or ''}",
+            f"record_count: {total}",
+            f"new_today: {new_count}",
+            f"state: {state.state}",
+            f"---",
+            f"",
+            f"## {self.title}",
+            f"",
+            f"{new_count} new of {total} total items today.",
+            f"",
+        ]
+        for it in state.items[:25]:
+            is_new = it.get("_id") in {n.get("_id") for n in state.new}
+            marker = "**NEW**  " if is_new else ""
+            lines.append(
+                f"- {marker}[{it.get('title','(no title)')}]({it.get('url','#')}) "
+                f"— *{it.get('date','')}*"
+            )
+            summary = (it.get("summary") or "").strip()
+            if summary:
+                lines.append(f"  > {summary[:280]}")
+        if total > 25:
+            lines.append(f"")
+            lines.append(f"_({total - 25} additional items in raw.jsonl)_")
+        return "\n".join(lines) + "\n"
+
+    def emit_structured(self, state: "SectionState") -> dict:
+        """Produce the structured.json payload for the graph + predictions
+        + paper-bets + anomalies tables. Default returns an empty shell;
+        subclasses override to actually emit entity/relationship updates."""
+        return {
+            "section": self.id,
+            "date": state.source_date or "",
+            "record_count": len(state.items),
+            "new_count": len(state.new),
+            "entities_added": [],
+            "entities_updated": [],
+            "relationships": [],
+            "predictions": [],
+            "paper_bets": [],
+            "anomalies": [],
+        }
+
+    def to_lake(self, state: "SectionState", lake=None) -> "ArtifactSet":
+        """Write the three-artifact set under lake/sections/<section>/<date>/
+        AND mirror the raw records into the lake's `records` table. The
+        orchestrator calls this once per section after resolve() returns."""
+        from datetime import datetime, timezone
+        from ..lake import Lake, ArtifactSet
+
+        lake = lake or Lake.open()
+        today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        section_date = state.source_date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+        # Register the source row + record health
+        lake.register_source(
+            source_id=self.source_id or self.id,
+            name=self.source_name or self.title or self.id,
+            url=self.source_url or None,
+            license=self.source_license,
+            tier=self.source_tier,
+            country=self.source_country,
+            language=self.source_language,
+            attribution_required=self.attribution_required,
+            attribution_text=self.attribution_text,
+        )
+
+        raw_records: list[dict] = []
+        if state.error:
+            lake.record_source_health(
+                self.source_id or self.id, success=False, error=state.error,
+            )
+        else:
+            for item in state.items:
+                record = self.to_raw_record(item, today_iso=today_iso)
+                raw_records.append(record)
+                # Mirror into the records table for queryability
+                try:
+                    lake.upsert_record(
+                        record_id=record["id"],
+                        source_id=record["source_id"],
+                        section_id=record["section_id"],
+                        original_url=record.get("original_url"),
+                        original_text=record.get("original_text"),
+                        original_lang=record.get("original_lang", "en"),
+                        record_date=record.get("record_date"),
+                        license=record.get("license"),
+                        extra=record.get("extra"),
+                    )
+                except Exception as exc:
+                    lake.add_to_quarantine(
+                        q_id=record["id"],
+                        source_id=record["source_id"],
+                        section_id=record["section_id"],
+                        raw_json=record,
+                        validation_error=f"upsert_record: {type(exc).__name__}: {exc}",
+                    )
+            from ..lake import schema_hash_of
+            lake.record_source_health(
+                self.source_id or self.id,
+                success=True,
+                record_count=len(raw_records),
+                schema_hash=schema_hash_of(state.items),
+            )
+
+        summary_md = self.synthesize_summary(state)
+        structured = self.emit_structured(state)
+
+        artifacts = ArtifactSet(
+            section_id=self.id,
+            date=section_date,
+            raw=raw_records,
+            summary_md=summary_md,
+            structured=structured,
+        )
+        lake.write_artifacts(artifacts)
+        return artifacts
