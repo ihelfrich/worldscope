@@ -59,6 +59,7 @@ from .sections.russian_internal import RussianInternalSection
 from .sections.sanctions_procurement import SanctionsProcurementSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
+from .sections.ukraine_theater import UkraineTheaterSection
 from .sections.ukrainian_internal import UkrainianInternalSection
 from .sections.vip_flights import VipFlightsSection
 from .sections.weather import WeatherSection
@@ -76,6 +77,7 @@ SECTION_REGISTRY = [
     ChineseInternalSection,
     RussianInternalSection,
     UkrainianInternalSection,
+    UkraineTheaterSection,
     PaperBetsSection,
     WeatherSection,
     MacroSection,
@@ -206,6 +208,16 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             print(f"[maps] {mname}: {mpath}")
     except Exception as mx:  # pragma: no cover
         print(f"[maps] suite failed: {type(mx).__name__}: {mx}")
+
+    # 1d. Ukraine theater maps. Independent of the world/US suite so a
+    # failure here doesn't block them, and vice versa.
+    try:
+        from .cartography_ukraine import UkraineMaps
+        ukr_paths = UkraineMaps().render_all(today.isoformat())
+        for mname, mpath in ukr_paths.items():
+            print(f"[ukraine-maps] {mname}: {mpath}")
+    except Exception as ux:  # pragma: no cover
+        print(f"[ukraine-maps] suite failed: {type(ux).__name__}: {ux}")
 
     # 2. Trend stats over the last 14 days
     trends = {sid: section_trend(store, sid) for sid in states}
