@@ -11,10 +11,6 @@ state: fresh
 
 133 new of 133 total items today.
 
-- **NEW**  [[feed error] Riverfront Times (St. Louis): HTTPError](https://www.riverfronttimes.com/stlouis/Rss.xml?section=2174157) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.riverfronttimes.com/category/news/feed/
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/feeds/news/rss/) — *2026-05-27*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/feeds/news/rss/
 - **NEW**  [[St. Louis] Chemical tank implosion at Washington paper mill kills 1. Here's the latest on the search for 9 others.](https://www.ksdk.com/article/news/nation-world/tragedy-washington-chemical-tank-implosion-paper-mill/507-be7b218c-82f2-4661-8a4b-1d5b7d41f821) — *2026-05-27*
   > One worker was killed and nine others were unaccounted for with no hope for rescue, authorities said. Nine others were injured.
 - **NEW**  [[St. Louis] Downtown St. Louis tower scheduled to be auctioned](https://www.ksdk.com/article/news/local/downtown-st-louis-tower-scheduled-auctioned/63-debbe263-844a-40c5-8c8a-b8673162b4e1) — *2026-05-27*
@@ -61,5 +57,9 @@ state: fresh
   > Investigators say forensic genealogy DNA helped identify the man accused of killing a woman found in a roadside ditch stripped of clothing near Granite City in 1993.
 - **NEW**  [[St. Louis] National Hamburger Day is Thursday. Free burgers, BOGO deals and deep discounts are on the menu](https://www.ksdk.com/article/news/nation-world/national-hamburger-day-thursday-may-28-2026-deals-discounts-freebies/507-f50a28fd-15bb-4f79-9ca9-87448442cea5) — *2026-05-27*
   > Here's where you can score a deal on May 28.
+- **NEW**  [[St. Louis] Salvation Army and local contractor step in to save St. Louis tornado survivor's home](https://www.ksdk.com/article/news/local/salvation-army-and-local-contractor-step-in-to-save-st-louis-tornado-survivors-home/63-fc5b4856-2fd9-4fb7-b6c0-ab7de2c0cea6) — *2026-05-27*
+  > Salvation Army St. Louis secures $55,000 to rebuild tornado survivor's home. Alonzo Townsend's home was destroyed after a tree crashed into the roof.
+- **NEW**  [[St. Louis] Packers running back Josh Jacobs arrested on charges related to domestic abuse](https://www.ksdk.com/article/news/nation-world/packers-josh-jacobs-arrested-domestic-abuse-charges/507-648d16e2-4252-458e-b5a1-82240588b637) — *2026-05-27*
+  > Josh Jacobs is the Packers’ top returning rusher after running for 929 yards and 13 touchdowns last season.
 
 _(108 additional items in raw.jsonl)_

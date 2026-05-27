@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [497J - FT 12960 (0002112763) (Filer)](https://www.sec.gov/Archives/edgar/data/2112763/000144554626003985/0001445546-26-003985-index.htm) — *2026-05-27*
-  > filed 2026-05-27 14:01 UTC — Filed: 2026-05-27 AccNo: 0001445546-26-003985 Size: 2 KB
-- **NEW**  [497J - FT 12949 (0002111260) (Filer)](https://www.sec.gov/Archives/edgar/data/2111260/000144554626003984/0001445546-26-003984-index.htm) — *2026-05-27*
-  > filed 2026-05-27 14:00 UTC — Filed: 2026-05-27 AccNo: 0001445546-26-003984 Size: 2 KB
-- **NEW**  [497J - FT 12948 (0002111257) (Filer)](https://www.sec.gov/Archives/edgar/data/2111257/000144554626003983/0001445546-26-003983-index.htm) — *2026-05-27*
-  > filed 2026-05-27 14:00 UTC — Filed: 2026-05-27 AccNo: 0001445546-26-003983 Size: 2 KB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014094/0001918704-26-014094-index.htm) — *2026-05-27*
-  > filed 2026-05-27 14:00 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014094 Size: 665 KB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014094/0001918704-26-014094-index.htm) — *2026-05-27*
-  > filed 2026-05-27 14:00 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014094 Size: 665 KB
-- **NEW**  [497J - FT 12916 (0002109427) (Filer)](https://www.sec.gov/Archives/edgar/data/2109427/000144554626003982/0001445546-26-003982-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:59 UTC — Filed: 2026-05-27 AccNo: 0001445546-26-003982 Size: 2 KB
-- **NEW**  [[Dove Nicholas Kirk] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1826542/000119312526240757/0001193125-26-240757-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:59 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001193125-26-240757 Size: 4 KB
-- **NEW**  [[Heritage Global Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/849145/000119312526240757/0001193125-26-240757-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:59 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001193125-26-240757 Size: 4 KB
-- **NEW**  [497 - COMMERCE FUNDS (0000926243) (Filer)](https://www.sec.gov/Archives/edgar/data/926243/000119312526240756/0001193125-26-240756-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:59 UTC — Filed: 2026-05-27 AccNo: 0001193125-26-240756 Size: 1 MB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014093/0001918704-26-014093-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:57 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014093 Size: 1 MB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014093/0001918704-26-014093-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:57 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014093 Size: 1 MB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014092/0001918704-26-014092-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:57 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014092 Size: 953 KB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014092/0001918704-26-014092-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:57 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014092 Size: 953 KB
-- **NEW**  [424B2 - Nomura America Finance, LLC (0001383951) (Filer)](https://www.sec.gov/Archives/edgar/data/1383951/000110465926066661/0001104659-26-066661-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:54 UTC — Filed: 2026-05-27 AccNo: 0001104659-26-066661 Size: 796 KB
-- **NEW**  [424B2 - NOMURA HOLDINGS INC (0001163653) (Filer)](https://www.sec.gov/Archives/edgar/data/1163653/000110465926066661/0001104659-26-066661-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:54 UTC — Filed: 2026-05-27 AccNo: 0001104659-26-066661 Size: 796 KB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014091/0001918704-26-014091-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:54 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014091 Size: 1 MB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014091/0001918704-26-014091-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:54 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014091 Size: 1 MB
-- **NEW**  [497 - FIDELITY SELECT PORTFOLIOS (0000320351) (Filer)](https://www.sec.gov/Archives/edgar/data/320351/000032035126000284/0000320351-26-000284-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:53 UTC — Filed: 2026-05-27 AccNo: 0000320351-26-000284 Size: 19 KB
-- **NEW**  [[LEGGE JEFFREY DALE] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1601955/000072685426000133/0000726854-26-000133-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:53 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0000726854-26-000133 Size: 14 KB
-- **NEW**  [[CITY HOLDING CO] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/726854/000072685426000133/0000726854-26-000133-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:53 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0000726854-26-000133 Size: 14 KB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014090/0001918704-26-014090-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:53 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014090 Size: 1 MB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014090/0001918704-26-014090-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:53 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014090 Size: 1 MB
-- **NEW**  [424B2 - BANK OF NOVA SCOTIA (0000009631) (Filer)](https://www.sec.gov/Archives/edgar/data/9631/000183988226025625/0001839882-26-025625-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:51 UTC — Filed: 2026-05-27 AccNo: 0001839882-26-025625 Size: 803 KB
-- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014089/0001918704-26-014089-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:51 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014089 Size: 669 KB
-- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014089/0001918704-26-014089-index.htm) — *2026-05-27*
-  > filed 2026-05-27 13:51 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014089 Size: 669 KB
+- **NEW**  [424B2 - BofA Finance LLC (0001682472) (Filer)](https://www.sec.gov/Archives/edgar/data/1682472/000191870426014102/0001918704-26-014102-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:15 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014102 Size: 1 MB
+- **NEW**  [424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)](https://www.sec.gov/Archives/edgar/data/70858/000191870426014102/0001918704-26-014102-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:15 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014102 Size: 1 MB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014101/0001918704-26-014101-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:14 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014101 Size: 1 MB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014101/0001918704-26-014101-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:14 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014101 Size: 1 MB
+- **NEW**  [424B2 - CITIGROUP INC (0000831001) (Filer)](https://www.sec.gov/Archives/edgar/data/831001/000095010326007763/0000950103-26-007763-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:14 UTC — Filed: 2026-05-27 AccNo: 0000950103-26-007763 Size: 268 KB
+- **NEW**  [424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)](https://www.sec.gov/Archives/edgar/data/200245/000095010326007763/0000950103-26-007763-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:14 UTC — Filed: 2026-05-27 AccNo: 0000950103-26-007763 Size: 268 KB
+- **NEW**  [424B2 - BofA Finance LLC (0001682472) (Filer)](https://www.sec.gov/Archives/edgar/data/1682472/000191870426014100/0001918704-26-014100-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:13 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014100 Size: 1 MB
+- **NEW**  [424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)](https://www.sec.gov/Archives/edgar/data/70858/000191870426014100/0001918704-26-014100-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:13 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014100 Size: 1 MB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014099/0001918704-26-014099-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:13 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014099 Size: 679 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014099/0001918704-26-014099-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:13 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014099 Size: 679 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014098/0001918704-26-014098-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:12 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014098 Size: 635 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014098/0001918704-26-014098-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:12 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014098 Size: 635 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014097/0001918704-26-014097-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:11 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014097 Size: 687 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014097/0001918704-26-014097-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:11 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014097 Size: 687 KB
+- **NEW**  [[Oppenhaim Eitan] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1964896/000117891326002938/0001178913-26-002938-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001178913-26-002938 Size: 5 KB
+- **NEW**  [[NOVA LTD.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1109345/000117891326002938/0001178913-26-002938-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001178913-26-002938 Size: 5 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000121390026061300/0001213900-26-061300-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC — Filed: 2026-05-27 AccNo: 0001213900-26-061300 Size: 2 MB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000121390026061300/0001213900-26-061300-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC — Filed: 2026-05-27 AccNo: 0001213900-26-061300 Size: 2 MB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426014096/0001918704-26-014096-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014096 Size: 975 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426014096/0001918704-26-014096-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:10 UTC — Filed: 2026-05-27 AccNo: 0001918704-26-014096 Size: 975 KB
+- **NEW**  [485BPOS - AMERICAN PENSION INVESTORS TRUST (0000764859) (Filer)](https://www.sec.gov/Archives/edgar/data/764859/000158064226003297/0001580642-26-003297-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:08 UTC — Filed: 2026-05-27 AccNo: 0001580642-26-003297 Size: 6 MB
+- **NEW**  [485BPOS - AMERICAN PENSION INVESTORS TRUST (0000764859) (Filer)](https://www.sec.gov/Archives/edgar/data/764859/000158064226003297/0001580642-26-003297-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:08 UTC — Filed: 2026-05-27 AccNo: 0001580642-26-003297 Size: 6 MB
+- **NEW**  [497K - FIDELITY SELECT PORTFOLIOS (0000320351) (Filer)](https://www.sec.gov/Archives/edgar/data/320351/000032035126000285/0000320351-26-000285-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:07 UTC — Filed: 2026-05-27 AccNo: 0000320351-26-000285 Size: 3 KB
+- **NEW**  [497K - FIDELITY ADVISOR SERIES VII (0000315700) (Filer)](https://www.sec.gov/Archives/edgar/data/315700/000031570026000011/0000315700-26-000011-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:03 UTC — Filed: 2026-05-27 AccNo: 0000315700-26-000011 Size: 9 KB
+- **NEW**  [497J - FT 12961 (0002112764) (Filer)](https://www.sec.gov/Archives/edgar/data/2112764/000144554626003986/0001445546-26-003986-index.htm) — *2026-05-27*
+  > filed 2026-05-27 14:02 UTC — Filed: 2026-05-27 AccNo: 0001445546-26-003986 Size: 2 KB
 
 _(15 additional items in raw.jsonl)_

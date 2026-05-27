@@ -2,17 +2,63 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 123
-new_today: 123
+record_count: 120
+new_today: 120
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-123 new of 123 total items today.
+120 new of 120 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-59481) — *2026-05-27*
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 9:13AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca2ebaa40067cb36e4c6d4248f5ddfe34ac89e60.001.1) — *2026-05-27*
+  > At 913 AM CDT, Doppler radar was tracking a cluster of strong
+thunderstorms over Cameron County moving east at 65 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations imp
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:12AM EDT until May 27 at 1:15PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1567e1f159c66b3d9aabdf3b5803c69ddb1c516b.001.1) — *2026-05-27*
+  > FFWILN
+
+The National Weather Service in Wilmington has issued a
+
+* Flash Flood Warning for...
+Northwestern Fairfield County in central Ohio...
+Central Franklin County in central Ohio...
+Southwestern Licking County in central Ohio...
+
+* Until 115 PM EDT.
+
+* At 1012 AM EDT, radar a
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-12460) — *2026-05-27*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:06AM EDT until May 29 at 5:18AM EDT by NWS Columbia SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.69c1cafd92093c68ed55a41da618f620454eb1fd.001.1) — *2026-05-27*
+  > ...The Flood Warning is extended for the following rivers in South
+Carolina...
+
+Saluda River At Saluda River at Chappells affecting Greenwood,
+Saluda and Newberry Counties.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
+
+* WHERE...Saluda River at Saluda Riv
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 10:05AM EDT until May 27 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb14183b1d23ad20aefe52a138ae64c77132da6f.001.1) — *2026-05-27*
+  > * WHAT...Dangerous rip currents.
+
+* WHERE...The beaches from Cape Hatteras to Surf City.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
+
+* ADDITIONAL DETAILS...The most likely time for strong ri
 - **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 8:56AM CDT until May 27 at 11:00AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a28f2b3ee9b69425599b4d0ebc4f09e346e77e5d.001.1) — *2026-05-27*
   > SMWHGX
 
@@ -111,18 +157,6 @@ Jourdan River Near Kiln/Bay St. Louis affecting Hancock County.
 * WHEN...Until late this afternoon.
 
 * IMPACTS...
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 8:30AM CDT until May 27 at 10:00AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b476c41d86a5069019c9c69d7df26c2e30ac9e6.001.1) — *2026-05-27*
-  > SMWTAE
-
-The National Weather Service in Tallahassee has issued a
-
-* Special Marine Warning for...
-Coastal Waters from Mexico Beach to Port St Joe out 20 NM...
-Coastal waters from Okaloosa-Walton County Line to Mexico Beach
-out 20 NM...
-Eastern St. Andrews Bay Waterways...
-
-* Unti
 - **NEW**  [[Severe] Flood Watch: Flood Watch issued May 27 at 9:08AM EDT until May 28 at 2:00AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06b09d83ff7d0d561a31fcddeeb829cb917ee72d.001.1) — *2026-05-27*
   > * WHAT...Flash flooding caused by excessive rainfall continues to be
 possible.
@@ -231,35 +265,5 @@ Diego County Mountains, and San Gorgonio Pass near Banning.
 * WHEN...Until 5 AM PDT Thursday.
 
 * IMPACTS...Gusty winds will blow around unsecured objects. 
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued May 27 at 4:46AM PDT until May 28 at 5:00AM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed50c3d26e0d161735a2d8ea823daeeab51e385d.002.1) — *2026-05-27*
-  > * WHAT...Southwest winds 20 to 30 mph with gusts up to 45 mph.
 
-* WHERE...Western Mojave Desert.
-
-* WHEN...Until 5 AM PDT Thursday.
-
-* IMPACTS...Gusty winds will blow around unsecured objects. Tree
-limbs could be blown down and a few power outages may result.
-Pockets of blowing d
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued May 27 at 4:46AM PDT until May 28 at 5:00AM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed50c3d26e0d161735a2d8ea823daeeab51e385d.003.1) — *2026-05-27*
-  > * WHAT...Southwest winds 15 to 25 mph with gusts up to 40 mph.
-
-* WHERE...Morongo Basin.
-
-* WHEN...Until 5 AM PDT Thursday.
-
-* IMPACTS...Gusty winds will blow around unsecured objects. Tree
-limbs could be blown down and a few power outages may result.
-Areas of blowing dust are li
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 6:46AM CDT until May 28 at 3:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e630e9d76184307ce5619179d7bb4e52ceb38d4c.001.1) — *2026-05-27*
-  > * WHAT...Dangerous swimming conditions are expected due to high
-waves and strong rip currents.
-
-* WHERE...Beaches along Lake Michigan in Manitowoc County.
-
-* WHEN...From this evening through late tonight.
-
-* IMPACTS...Dangerous swimming conditions are expected. Strong
-currents ca
-
-_(98 additional items in raw.jsonl)_
+_(95 additional items in raw.jsonl)_
