@@ -1,39 +1,38 @@
 """
 congressional_trades — every disclosed STOCK Act trade by a member of Congress.
 
-Data via the community-maintained mirrors of House + Senate disclosure portals.
-These mirrors do the heavy lifting of scraping the official portals (which
-publish in PDF and obscure HTML) into clean JSON. No auth required.
+Data source: Quiver Quantitative's public beta endpoint
+    https://api.quiverquant.com/beta/live/congresstrading
+No auth required (verified working 2026-05-27). Returns the most recent
+1000 trades across both House + Senate as JSON, with pre-computed
+ExcessReturn vs SPY per trade.
 
-  - Senate Stock Watcher
-    https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions.json
-  - House Stock Watcher
-    https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json
-
-Both are nightly dumps. We filter to the last LOOKBACK_DAYS of disclosed
-trades and emit them as records into the lake.
+The original community mirrors (Senate Stock Watcher, House Stock Watcher)
+went dead in 2025-2026 (senatestockwatcher.com DNS unresolvable, the S3
+buckets returning 403). Quiver is the surviving free option.
 
 This is the foundation for the Polymarket-anomaly-vs-insider-trade
 cross-reference: when a prediction market price moves sharply, the
 synthesis pass can check whether any member of Congress disclosed a
-related-sector trade in the past 30 days.
+related-sector trade in the past 30 days. The ExcessReturn field also
+lets us flag trades that have meaningfully outperformed the market
+since disclosure.
 
 Section-adapter contract: conforms. Emits:
     - person:legislator-<name> for each trader
     - org:public-company-<ticker> for each traded security
-    - relationships: traded (legislator -> company) with amount range
-      and direction (Purchase/Sale) in the metadata
+    - relationships: traded (legislator -> company) with amount range,
+      direction (Purchase/Sale), and excess-return in the metadata
 Anomalies emitted for:
-    - Cluster: same legislator trading >= 10 times in a week
     - Magnitude: any trade in the $1M-$5M or $5M+ amount bands
-    - Cross-section: trade in a sector that had major policy news in
-      the past 7 days (the synthesis pass handles this, not this
-      ingest section)
+    - Outperformance: ExcessReturn vs SPY >= 25% (trade has crushed
+      the market since disclosure)
+    - Volume: any legislator with >= 10 trades in the window
+    - Cross-source failures (Quiver endpoint down)
 """
 from __future__ import annotations
 
 import hashlib
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from typing import Optional
 
@@ -43,8 +42,10 @@ from . import Section, SectionState
 
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
-SENATE_URL = "https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions.json"
-HOUSE_URL  = "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"
+# Quiver Quantitative's public beta endpoint. Returns the most recent
+# 1000 congressional trades, no auth required. Includes pre-computed
+# ExcessReturn vs SPY per trade.
+QUIVER_URL = "https://api.quiverquant.com/beta/live/congresstrading"
 
 # Amount ranges that trigger "large-trade" anomaly
 LARGE_TRADE_RANGES = {
@@ -78,125 +79,100 @@ class CongressionalTradesSection(Section):
     source_country = "US"
     source_language = "en"
 
-    PULL_TIMEOUT_S = 180
-    LOOKBACK_DAYS = 14
+    PULL_TIMEOUT_S = 60
+    LOOKBACK_DAYS = 30   # Quiver returns 1000 most-recent across all time;
+                          # we filter to the window of interest
 
     def pull(self) -> list[dict]:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
+        try:
+            resp = requests.get(QUIVER_URL, headers={"User-Agent": UA}, timeout=45)
+            resp.raise_for_status()
+            data = resp.json()
+        except requests.exceptions.RequestException as exc:
+            return [{
+                "id": "congress-trades-error-quiver",
+                "date": date.today().isoformat(),
+                "title": f"[Quiver Quantitative error] {type(exc).__name__}",
+                "url": QUIVER_URL,
+                "summary": str(exc)[:300],
+                "_error": True,
+            }]
+
         out: list[dict] = []
-
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            futures = {
-                pool.submit(self._pull_senate, cutoff): "senate",
-                pool.submit(self._pull_house, cutoff):  "house",
-            }
-            for fut, chamber in futures.items():
-                try:
-                    out.extend(fut.result())
-                except Exception as exc:
-                    out.append({
-                        "id": f"congress-trades-error-{chamber}",
-                        "date": date.today().isoformat(),
-                        "title": f"[STOCK Act {chamber} error] {type(exc).__name__}",
-                        "url": "",
-                        "summary": str(exc)[:300],
-                        "_error": True,
-                        "chamber": chamber,
-                    })
-        return out
-
-    def _pull_senate(self, cutoff: date) -> list[dict]:
-        resp = requests.get(SENATE_URL, headers={"User-Agent": UA}, timeout=60)
-        resp.raise_for_status()
-        data = resp.json()
-        out = []
         for txn in data:
-            # Senate Stock Watcher schema
             try:
-                txn_date = date.fromisoformat(txn.get("transaction_date", "")[:10])
+                txn_date = date.fromisoformat((txn.get("TransactionDate") or "")[:10])
             except (ValueError, TypeError):
                 continue
-            if txn_date < cutoff: continue
+            if txn_date < cutoff:
+                continue
 
-            senator = (txn.get("senator") or "").strip()
-            ticker = (txn.get("ticker") or "").strip().upper()
-            asset = (txn.get("asset_description") or "").strip()
-            txn_type = (txn.get("type") or "").strip()
-            amount = (txn.get("amount") or "").strip()
-            disclosure_date = txn.get("disclosure_date", "")
+            member = (txn.get("Representative") or "").strip()
+            bioguide = (txn.get("BioGuideID") or "").strip()
+            ticker = (txn.get("Ticker") or "").strip().upper()
+            txn_type = (txn.get("Transaction") or "").strip()
+            amount_range = (txn.get("Range") or "").strip()
+            amount_low = txn.get("Amount")
+            party = (txn.get("Party") or "").strip()
+            chamber_raw = (txn.get("House") or "").strip()
+            chamber = ("senate" if chamber_raw == "Senate"
+                       else "house" if chamber_raw == "Representatives"
+                       else "unknown")
+            disclosure_date = txn.get("ReportDate", "")
+            description = (txn.get("Description") or "").strip()
+            ticker_type = (txn.get("TickerType") or "").strip()
+            excess_return = txn.get("ExcessReturn")
+            price_change = txn.get("PriceChange")
+            spy_change = txn.get("SPYChange")
+            last_modified = txn.get("last_modified", "")
 
             iid = hashlib.sha1(
-                f"senate|{senator}|{ticker or asset}|{txn_date}|{txn_type}|{amount}".encode()
+                f"quiver|{bioguide}|{ticker}|{txn_date}|{txn_type}|{amount_range}".encode()
             ).hexdigest()
+
+            try:
+                excess_pct = float(excess_return) if excess_return is not None else None
+            except (TypeError, ValueError):
+                excess_pct = None
+            ret_marker = ""
+            if excess_pct is not None:
+                ret_marker = f" (excess {excess_pct:+.1f}% vs SPY)"
+
             out.append({
                 "id": iid,
                 "date": txn_date.isoformat(),
-                "title": (f"[Senate] {senator}: {txn_type} {ticker or asset[:50]} "
-                          f"({amount})")[:300],
-                "url": txn.get("ptr_link", "https://senatestockwatcher.com"),
-                "summary": (f"Senator: {senator}.  Asset: {asset[:80]}.  "
-                            f"Type: {txn_type}.  Amount range: {amount}.  "
-                            f"Transaction date: {txn_date.isoformat()}.  "
-                            f"Disclosure date: {disclosure_date}.")[:600],
-                "chamber": "senate",
-                "member": senator,
-                "party": txn.get("party"),
-                "state": txn.get("state"),
+                "title": (f"[{chamber.title()}] {member} ({party}): "
+                          f"{txn_type} {ticker or description[:40]} "
+                          f"({amount_range}){ret_marker}")[:300],
+                "url": f"https://www.quiverquant.com/congresstrading/politician/{bioguide}",
+                "summary": (
+                    f"Member: {member} ({party}, {chamber}).  "
+                    f"BioGuide: {bioguide}.  "
+                    f"Asset: {ticker or '(unspecified)'} ({ticker_type}).  "
+                    f"Type: {txn_type}.  Amount range: {amount_range}.  "
+                    f"Transaction date: {txn_date.isoformat()}.  "
+                    f"Disclosure date: {disclosure_date}.  "
+                    + (f"Excess return vs SPY since disclosure: "
+                       f"{excess_pct:+.2f}%.  " if excess_pct is not None else "")
+                    + (f"Description: {description}.  " if description else "")
+                )[:600],
+                "chamber": chamber,
+                "member": member,
+                "bioguide_id": bioguide,
+                "party": party,
                 "ticker": ticker,
-                "asset_description": asset,
+                "ticker_type": ticker_type,
+                "asset_description": description,
                 "transaction_type": txn_type,
-                "amount_range": amount,
+                "amount_range": amount_range,
+                "amount_low_usd": amount_low,
                 "transaction_date": txn_date.isoformat(),
                 "disclosure_date": disclosure_date,
-                "ptr_link": txn.get("ptr_link"),
-            })
-        return out
-
-    def _pull_house(self, cutoff: date) -> list[dict]:
-        resp = requests.get(HOUSE_URL, headers={"User-Agent": UA}, timeout=120)
-        resp.raise_for_status()
-        data = resp.json()
-        out = []
-        for txn in data:
-            try:
-                txn_date = date.fromisoformat((txn.get("transaction_date") or "")[:10])
-            except (ValueError, TypeError):
-                continue
-            if txn_date < cutoff: continue
-
-            rep = (txn.get("representative") or "").strip()
-            ticker = (txn.get("ticker") or "").strip().upper()
-            asset = (txn.get("asset_description") or "").strip()
-            txn_type = (txn.get("type") or "").strip()
-            amount = (txn.get("amount") or "").strip()
-            disclosure_date = txn.get("disclosure_date", "")
-            owner = (txn.get("owner") or "").strip()    # self / spouse / dependent
-
-            iid = hashlib.sha1(
-                f"house|{rep}|{ticker or asset}|{txn_date}|{txn_type}|{amount}|{owner}".encode()
-            ).hexdigest()
-            out.append({
-                "id": iid,
-                "date": txn_date.isoformat(),
-                "title": (f"[House] {rep} ({owner or 'self'}): {txn_type} "
-                          f"{ticker or asset[:50]} ({amount})")[:300],
-                "url": txn.get("ptr_link", "https://housestockwatcher.com"),
-                "summary": (f"Rep: {rep}.  Owner: {owner or 'self'}.  "
-                            f"Asset: {asset[:80]}.  Type: {txn_type}.  "
-                            f"Amount range: {amount}.  "
-                            f"Transaction date: {txn_date.isoformat()}.  "
-                            f"Disclosure date: {disclosure_date}.")[:600],
-                "chamber": "house",
-                "member": rep,
-                "owner": owner,
-                "district": txn.get("district"),
-                "ticker": ticker,
-                "asset_description": asset,
-                "transaction_type": txn_type,
-                "amount_range": amount,
-                "transaction_date": txn_date.isoformat(),
-                "disclosure_date": disclosure_date,
-                "ptr_link": txn.get("ptr_link"),
+                "last_modified": last_modified,
+                "excess_return_pct": excess_pct,
+                "price_change_pct": price_change,
+                "spy_change_pct": spy_change,
             })
         return out
 
@@ -238,6 +214,7 @@ class CongressionalTradesSection(Section):
         relationships = []
         feed_errors = []
         large_trades = []
+        outperformers = []         # ExcessReturn vs SPY >= 25%
         member_counts: dict[str, int] = {}
 
         for item in state_obj.items:
@@ -265,6 +242,11 @@ class CongressionalTradesSection(Section):
             if item.get("amount_range") in LARGE_TRADE_RANGES:
                 large_trades.append(item)
 
+            # Outperformance vs SPY since disclosure — possible insider signal
+            er = item.get("excess_return_pct")
+            if er is not None and abs(er) >= 25:
+                outperformers.append(item)
+
         base["entities_added"] = list(seen.values())
         base["relationships"] = relationships
 
@@ -276,6 +258,17 @@ class CongressionalTradesSection(Section):
                                 f"{lt.get('transaction_type')} {lt.get('ticker') or 'unknown'} "
                                 f"in band {lt.get('amount_range')}"),
                 "evidence": [lt.get("_id") or self._item_id(lt)],
+            })
+
+        for op in outperformers:
+            er = op.get("excess_return_pct", 0.0) or 0.0
+            base["anomalies"].append({
+                "category": "trade-beat-market",
+                "z_score": er / 10.0,   # 25% excess return -> z=2.5
+                "description": (f"{op.get('member')} ({op.get('chamber')}): "
+                                f"{op.get('transaction_type')} {op.get('ticker','?')} "
+                                f"excess {er:+.1f}% vs SPY since disclosure"),
+                "evidence": [op.get("_id") or self._item_id(op)],
             })
 
         # Volume clustering: any member with >= 10 trades in window
