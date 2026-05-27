@@ -13,6 +13,14 @@ state: fresh
 
 - **NEW**  [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-27*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- **NEW**  [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
 - **NEW**  [[TITLE: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на Україну | LEDE: У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгре] (uk: У листі Трампу й конгресменам Зеленський згадав атаку РФ двома "Орєшніками" на У)](https://www.pravda.com.ua/news/2026/05/27/8036662/) — *2026-05-27*
   > У листі президента Володимира Зеленського до американського лідера Дональда Трампа й членів Конгресу США йшлося про атаку РФ із використанням балістичних ракет середньої дальності "Орєшнік".
 - **NEW**  [[TITLE: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні | LEDE: ] (uk: Прем'єр Болгарії вважає, що ЄС має очолити переговори з РФ щодо війни в Україні)](https://www.pravda.com.ua/news/2026/05/27/8036661/) — *2026-05-27*
@@ -50,13 +58,5 @@ state: fresh
   > День вишиванки: як вишиті стрічки пам'яті стали символом шани героям і об'єднанням родин.
 - **NEW**  [[TITLE: Армія РФ вдарила по фермах на Чернігівщині: загинула працівниця, тракторист поранений | LEDE: Вранці 27 травня окупанти атакували село Лукнів Коропської громади на Чернігівщині, внаслідок чого ] (uk: Армія РФ вдарила по фермах на Чернігівщині: загинула працівниця, тракторист пора)](https://www.pravda.com.ua/news/2026/05/27/8036612/) — *2026-05-27*
   > Вранці 27 травня окупанти атакували село Лукнів Коропської громади на Чернігівщині, внаслідок чого загинула працівниця свиноферми, а тракторист одного з підприємств дістав тяжкі поранення.
-- **NEW**  [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-27*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- **NEW**  [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- **NEW**  [Brussels Finally Has a Timetable for Ukraine’s EU Bid](https://www.kyivpost.com/post/76982) — *2026-05-27*
-  > The European Commission is set to propose opening the first cluster of EU membership negotiations with Ukraine and Moldova on June 16, with EU leaders expected to approve the move days later. Progress had long been blocked by Hungary’s Viktor Orbán, but his defeat in March’s elec
 
 _(111 additional items in raw.jsonl)_

@@ -2,29 +2,107 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-27
-record_count: 124
-new_today: 124
+record_count: 128
+new_today: 128
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-124 new of 124 total items today.
+128 new of 128 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-12920) — *2026-05-27*
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 9:02AM PDT until May 28 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc3f87b73953ac9410348210234d84437c59e864.001.1) — *2026-05-27*
+  > * WHAT...Increased threat of sneaker waves expected.
+
+* WHERE...Beaches in Del Norte, Humboldt, and Mendocino counties
+that are exposed to the northwest.
+
+* WHEN...From Wednesday afternoon through Thursday evening. .
+
+* IMPACTS...Large, unexpected waves can sweep across the beach
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:01AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dbadbc307d5872089662eb8a4527dd84590b0e90.001.1) — *2026-05-27*
+  > Dry conditions are forecast this afternoon for portions areas of
+northeast Minnesota north of a line from Walker to Hibbing to Ely.
+Relative humidity values between 20 and 30 percent will lead to
+near-critical fire weather conditions today. East winds of 5 to 10
+mph with gusts up
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued May 27 at 9:01AM PDT until May 27 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3d2be744ab4bd101459db95bfb799341212e56e.001.2) — *2026-05-27*
+  > * WHAT...For the Gale Warning, north winds 20 to 30 kt with
+gusts up to 40 kt and seas 11 to 14 feet expected. For the
+Small Craft Advisory, north winds 25 to 30 kt with gusts up to
+40 kt and seas 11 to 14 feet.
+
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 t
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued May 27 at 9:01AM PDT until May 27 at 12:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3d2be744ab4bd101459db95bfb799341212e56e.002.1) — *2026-05-27*
+  > * WHAT...Northwest winds 25 to 30 kt with gusts up to 35 kt and
+seas 12 to 16 feet.
+
+* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
+60 nm.
+
+* WHEN...Until noon PDT today.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels an
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-40343) — *2026-05-27*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:49AM EDT until May 27 at 12:30PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12d73b60afbb46cdb9a8ff5b573a1c62d7a39330.001.1) — *2026-05-27*
-  > SVRILN
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:58AM EDT until May 27 at 1:00PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.542638ba825f6869038b77faa594335930a8a067.001.1) — *2026-05-27*
+  > SVRPHI
 
-The National Weather Service in Wilmington has issued a
+The National Weather Service in Mount Holly NJ has issued a
 
 * Severe Thunderstorm Warning for...
-Central Fairfield County in central Ohio...
-North central Hocking County in central Ohio...
+Central Kent County in central Delaware...
+Southwestern Atlantic County in southern New Jersey...
+Southern Cumberland County in southern New Jersey...
+Cape May County in sout
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:58AM EDT until May 27 at 12:30PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb1db4d32a8a537cdac3a01e1c968c8f7fbdf905.001.1) — *2026-05-27*
+  > At 1158 AM EDT, a severe thunderstorm was located over Pleasantville,
+moving southeast at 25 mph.
+
+HAZARD...60 mph wind gusts and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to trees and power lines.
+
+Locations impacted include...
+Lancaster, Baltimore, Bre
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:56AM EDT until May 27 at 12:30PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8504f03508b97629444dc242ddb3a1001136d659.001.1) — *2026-05-27*
+  > SVRRLX
+
+The National Weather Service in Charleston West Virginia has issued a
+
+* Severe Thunderstorm Warning for...
+Central Perry County in southeastern Ohio...
 
 * Until 1230 PM EDT.
 
-* At 1148 AM EDT, a severe thunderstorm was located over Baltim
+* At 1156 AM EDT, a severe thunderstorm was located over
+Pleasantville, or near Lancaster, movin
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued May 27 at 11:51AM EDT until May 27 at 12:15PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45419b9aeb71d3c7f1bc5814de1e70d70e8538a7.001.1) — *2026-05-27*
+  > TORILN
+
+The National Weather Service in Wilmington has issued a
+
+* Tornado Warning for...
+Northeastern Fairfield County in central Ohio...
+
+* Until 1215 PM EDT.
+
+* At 1150 AM EDT, a severe thunderstorm capable of producing a
+tornado was located over Pleasantville, moving southeas
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 10:51AM CDT until May 27 at 11:45AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b1881aa97d3b04e0cf626ab6c511a56b2a5cd58.001.1) — *2026-05-27*
+  > SMWBRO
+
+The National Weather Service in Brownsville has issued a
+
+* Special Marine Warning for...
+Coastal waters from Port Mansfield TX to the Rio Grande River out
+20 NM...
+Laguna Madre From the Port Of Brownsville to the Arroyo Colorado...
+Waters from Port Mansfield TX to the Ri
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 10:49AM CDT until May 27 at 1:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64708ab6ea98ceddb7e6b9f1e44f29801600302c.001.1) — *2026-05-27*
   > FFWFWD
 
@@ -49,38 +127,12 @@ Stillwater Creek At Uhrichsville affecting Tuscarawas County.
 * WHEN...Until late tonight.
 
 * 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 8:43AM PDT until May 27 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bdb9ea7e88af803acf5a0caf8a6e2e6da2f9a309.001.1) — *2026-05-27*
-  > The Beach Hazards Statement will be allowed to expire at 9 am this
-morning.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 11:41AM EDT until May 27 at 12:00PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19fba4ce9d14732ee1b0d767abe3f60bb489075d.002.1) — *2026-05-27*
-  > At 1141 AM EDT, a severe thunderstorm was located over Cheswold, or
-near Dover, moving east at 40 mph.
-
-HAZARD...60 mph wind gusts.
-
-SOURCE...Radar indicated.
-
-IMPACT...Damage to roofs, siding, trees, and power lines is
-possible.
-
-Locations impacted include...
-Dover, Smyrna, Camd
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 10:32AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12be65246ba0d670133b7bcedfa06eb0e8a8ccdb.001.1) — *2026-05-27*
   > Relative humidity values will drop to 25| percent or less along
 with east winds 10 to 15 mph gusting around 20 mph at times
 across northwest MN. Near critical fire weather conditions are
 expected for the afternoon and early evening hours today. Any fire
 that does develop has the 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:31AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ebf0ff7ff96d109cb737e51025d2b4144e8801.001.1) — *2026-05-27*
-  > At 1131 AM EDT, a strong thunderstorm was located near Baltimore,
-moving east at 15 mph.
-
-HAZARD...Wind gusts up to 45 mph and very heavy rain.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. Visibility will be poor 
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 10:26AM CDT until May 29 at 1:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91488a3b18d5bb8cd96f3f32ef23da15e39572bb.001.1) — *2026-05-27*
   > * WHAT...High wave action and dangerous currents expected at
 Lake Michigan beaches. Waves 4 to 7 ft expected.
@@ -165,17 +217,6 @@ from shore into deeper water.
 
 * IMPACTS...Rip currents can sweep even the best swimmers away
 from shore into deeper water.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 10:09AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9c17964072dec9b30ee974e93216708737c49cb.001.1) — *2026-05-27*
-  > At 1009 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Starbase, or 7 miles south of South Padre Island, moving east at 25
-mph.
-
-HAZARD...Wind gusts of 50 to 55 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecu
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued May 27 at 11:06AM EDT until May 27 at 1:45PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.466547fdbd4938c1de50086fa2a0b8ecf1c27cea.001.1) — *2026-05-27*
   > FFWRLX
 
@@ -196,16 +237,6 @@ waves and strong rip currents.
 
 * IMPACTS...Dangerous swimming conditions are expected. Strong
 cu
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued May 27 at 9:53AM CDT until May 27 at 11:00AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37b7516e206d482cfb029a5d456f7618dcf47e93.001.1) — *2026-05-27*
-  > SMWBRO
-
-The National Weather Service in Brownsville has issued a
-
-* Special Marine Warning for...
-Coastal waters from Port Mansfield TX to the Rio Grande River out
-20 NM...
-Laguna Madre From the Port Of Brownsville to the Arroyo Colorado...
-Waters from Port Mansfield TX to the Ri
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:51AM CDT until May 27 at 7:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9eeec4b722619a6a15362176413decc45dfbf70d.001.1) — *2026-05-27*
   > ...The National Weather Service in Fort Worth TX has issued a Flood
 Warning for the following rivers in Texas...
@@ -219,33 +250,5 @@ Little River Near Little River affecting Bell County.
 * WHEN...Until this evening.
 
 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:41AM EDT until May 28 at 8:00AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df455fbc0aa15563468c61867310ea250827be5.001.1) — *2026-05-27*
-  > ...The National Weather Service in Wilmington has issued a Flood
-Warning for the following rivers...
 
-South Fork Licking River Near I 70 near Buckeye Lake.
-
-* WHAT...Minor flooding is forecast.
-
-* WHERE...South Fork Licking River near I 70 near Buckeye Lake.
-
-* WHEN...Until Thurs
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:31AM CDT until May 31 at 7:00PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6486348fe461e3a50e5d631a14b532c5e5b1390.001.1) — *2026-05-27*
-  > ...The National Weather Service in Lake Charles LA has issued a
-Flood Warning for the following rivers in Louisiana...
-
-Calcasieu River near White Oak Park
-
-Additional information is available at www.weather.gov.
-
-* WHAT...Minor flooding is occurring and minor flooding is forecas
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued May 27 at 10:18AM EDT until May 27 at 10:00PM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b78d159f9e0032dca4d40f6ade0836a284f49e81.001.1) — *2026-05-27*
-  > * WHAT...Flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...Portions of east central Ohio, including the following
-areas, Belmont, Guernsey, Monroe, Muskingum and Noble, southwest
-Pennsylvania, including the following areas, Fayette, Greene,
-Higher Elevati
-
-_(99 additional items in raw.jsonl)_
+_(103 additional items in raw.jsonl)_

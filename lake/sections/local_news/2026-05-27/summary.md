@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-27
-record_count: 256
-new_today: 256
+record_count: 246
+new_today: 246
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-256 new of 256 total items today.
+246 new of 246 total items today.
 
 - **NEW**  [[St. Louis] Public pools, splash pads, and water parks in the St. Louis region](https://www.stlmag.com/family/st-louis-swimming-pools-swim-clubs-waterparks/) — *2026-05-27*
   > <p>St. Louis summers are famously hot and sticky. What better way to cool down than by visiting one of the region&#8217;s many pools, swim clubs, or water parks? Even without owning a seasonal membership, families can take advantage of affordable day passes at many of these aquat
@@ -31,12 +31,14 @@ state: fresh
   > <p>The operator of the 9 Mile Garden outdoor food truck garden in Affton is working to bring an outdoor marketplace to the downtown St. Louis riverfront. But advocates for the project say that securing money for the riverfront from the Rams settlement bill is crucial to readying 
 - **NEW**  [[St. Louis] ‘The Blue Whale Story’ at Saint Louis Science Center lets families stand beside an 80-foot ocean giant](https://www.stlmag.com/family/the-blue-whale-story-at-saint-louis-science-center-lets-families-stand-beside-an-80-foot-ocean-giant/) — *2026-05-26*
   > <p>You don’t have to book a beach vacation to see a blue whale this year. Just head to the Saint Louis Science Center. Families can come face-to-fin with the largest creature ever to live on Earth when they visit The Blue Whale Story at the Saint Louis Science Center. Running now
+- **NEW**  [[St. Louis] YouTube to start automatically labeling some AI-generated videos](https://www.ksdk.com/article/news/nation-world/youtube-automatically-labeling-some-ai-generated-videos/507-24e54c8e-0cb2-40ce-abc7-5a276e5e8bf1) — *2026-05-27*
+  > New labels for AI-generated content will appear directly on videos and Shorts as the platform expands efforts to flag realistic AI-created media.
+- **NEW**  [[St. Louis] 9 missing after Washington paper mill tank implosion and officials say there's no hope of survivors](https://www.ksdk.com/article/news/nation-world/tragedy-washington-chemical-tank-implosion-paper-mill/507-be7b218c-82f2-4661-8a4b-1d5b7d41f821) — *2026-05-27*
+  > Officials say the tank that imploded at a paper mill in Washington state is at risk of collapsing further and leaking more of the caustic liquid.
 - **NEW**  [[St. Louis] St. Louis police looking for missing 28-year-old woman with autism](https://www.ksdk.com/article/news/local/st-louis-police-looking-missing-28-year-old-woman-autism/63-6d0377ae-1ce2-4e89-b918-1cd38c54b6aa) — *2026-05-27*
   > Anyone with information about Tafari's whereabouts is asked to call St. Louis police at 314-444-1212 or dial 911.
 - **NEW**  [[St. Louis] What is a free kick? Understanding soccer's most common action](https://www.ksdk.com/article/sports/soccer/world-cup/what-is-free-kick-soccer-explained/507-e839f9e9-3f0d-4476-99d6-2db0b8bac472) — *2026-05-27*
   > They are among the most common actions in soccer. Here's what they are:
-- **NEW**  [[St. Louis] No hope of survivors with 9 missing after Washington paper mill tank implosion, officials say](https://www.ksdk.com/article/news/nation-world/tragedy-washington-chemical-tank-implosion-paper-mill/507-be7b218c-82f2-4661-8a4b-1d5b7d41f821) — *2026-05-27*
-  > Officials say the tank that imploded at a paper mill in Washington state is at risk of collapsing further and leaking more of the caustic liquid.
 - **NEW**  [[St. Louis] Missouri birth control access bill clears legislature after years of obstacles](https://www.ksdk.com/article/news/politics/missouri-birth-control-access-bill-clears-legislature-after-years-obstacles/63-420241aa-f2be-42ad-b36e-b51c370333db) — *2026-05-27*
   > Right now, women on Medicaid can access an annual supply of birth control. This law would expand the same parameters to include private insurance.
 - **NEW**  [[St. Louis] Man shot, killed north of downtown St. Louis](https://www.ksdk.com/article/news/crime/shooting-north-of-downtown-st-louis/63-8a1b1f94-036c-47e3-9333-729e3205a497) — *2026-05-27*
@@ -45,7 +47,7 @@ state: fresh
   > News of her diagnosis comes as Bondi is set to join an advisory committee focused on AI policy.
 - **NEW**  [[St. Louis] 'Men do cry sometimes': Washington paper mill community mourns victims of tank implosion](https://www.ksdk.com/article/news/nation-world/longview-washington-mill-nippon-dynawave-facility/507-1f432592-1d30-482a-a4aa-9cabe8c6db9e) — *2026-05-27*
   > A massive chemical tank holding nearly a million gallons of a highly corrosive liquid imploded and collapsed Tuesday at a Washington paper mill.
-- **NEW**  [[St. Louis] First responders injured during Idaho brush fire that forced residents to evacuate](https://www.ksdk.com/article/news/nation-world/law-enforcement-injured-mountain-home-idaho-brush-fire-response/507-484790c2-6480-4c7b-9a39-b29b1bbb282a) — *2026-05-27*
+- **NEW**  [[St. Louis] WATCH LIVE: Idaho officials share updates on brush fire that forced residents to evacuate](https://www.ksdk.com/article/news/nation-world/law-enforcement-injured-mountain-home-idaho-brush-fire-response/507-484790c2-6480-4c7b-9a39-b29b1bbb282a) — *2026-05-27*
   > Officials say several first responders were injured by the fire, and residents may have been hurt as well.
 - **NEW**  [[St. Louis] Downtown St. Louis tower scheduled to be auctioned](https://www.ksdk.com/article/news/local/downtown-st-louis-tower-scheduled-auctioned/63-debbe263-844a-40c5-8c8a-b8673162b4e1) — *2026-05-27*
   > An online auction of the 30-story Bank of America Plaza at 800 Market St. is scheduled to open at noon on June 22, with a $2 million starting bid.
@@ -59,7 +61,5 @@ state: fresh
   > Curtis Danburg, vice president of communications and community impact for the Guardians, told Ohio TV station 3News early Wednesday morning.
 - **NEW**  [[St. Louis] Matthew Perry assistant who injected him with ketamine faces final sentencing in overdose case](https://www.ksdk.com/article/news/nation-world/matthew-perry-assistant-faces-final-sentencing-in-overdose-case/507-ab532098-d212-4282-aa67-a7b37410a43e) — *2026-05-27*
   > Matthew Perry’s longtime assistant faces sentencing Wednesday for supplying and injecting the ketamine that caused the “Friends” star’s death.
-- **NEW**  [[St. Louis] Teen charged with killing stepsister on Carnival Cruise could be jailed until trial](https://www.ksdk.com/article/news/nation-world/teen-charged-with-killing-stepsister-on-carnival-cruise-hearing-on-bail/507-80168d96-7cb6-4c51-ae0b-0afdbf4bd10c) — *2026-05-27*
-  > Hudson has pleaded not guilty to charges of first-degree murder and aggravated sexual abuse in relation to his stepsister's killing last year.
 
-_(231 additional items in raw.jsonl)_
+_(221 additional items in raw.jsonl)_

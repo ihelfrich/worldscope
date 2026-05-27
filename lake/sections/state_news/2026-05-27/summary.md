@@ -2,19 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-05-27
-record_count: 603
-new_today: 603
+record_count: 615
+new_today: 615
 state: fresh
 ---
 
 ## State-Level News
 
-603 new of 603 total items today.
+615 new of 615 total items today.
 
 - **NEW**  [[Alabama] Governor Kay Ivey’s Memorial Day Message](https://governor.alabama.gov/newsroom/2026/05/governor-kay-iveys-memorial-day-message-2/) — *2026-05-25*
   > Governor Ivey released a video message for Memorial Day ahead of the holiday weekend, honoring America&#8217;s fallen service members and calling on Alabamians to live worthy of their sacrifice. (Governor&#8217;s Office, Alyssa Turner)
-- **NEW**  [[Alaska] Memorial Day 2026](https://gov.alaska.gov/memorial-day-2026/) — *2026-05-25*
-  > WHEREAS, America was founded on the principles of liberty and justice for all, and we recognize the generations of brave, patriotic men and women who have served in the military and have given their lives to protect and defend our Nation; and WHEREAS, every year on the last Monda
 - **NEW**  [[California] Governor Newsom signs legislation 5.26.2026](https://www.gov.ca.gov/2026/05/26/governor-newsom-signs-legislation-5-26-2026/) — *2026-05-26*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/05/26/governor-news
@@ -29,6 +27,12 @@ state: fresh
 - **NEW**  [[California] California mobilizes 785+ emergency personnel in Orange County hazmat response](https://www.gov.ca.gov/2026/05/24/california-mobilizes-785-emergency-personnel-in-orange-county-hazmat-response/) — *2026-05-25*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/05/Orange-County-Whole-Government-Response-2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
 <p><a href="https://www.gov.ca.gov/2026/
+- **NEW**  [[Alaska] Memorial Day 2026](https://gov.alaska.gov/memorial-day-2026/) — *2026-05-25*
+  > WHEREAS, America was founded on the principles of liberty and justice for all, and we recognize the generations of brave, patriotic men and women who have served in the military and have given their lives to protect and defend our Nation; and WHEREAS, every year on the last Monda
+- **NEW**  [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-05-27*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-05-27*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[California] CA colleges try to improve online classes](https://calmatters.org/newsletter/ccc-online-classes/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-Online-Education-LV-11-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing a blue shirt and glasse
 - **NEW**  [[California] Newsom’s unbalanced budget faces strong pushback for spending cuts. Will lawmakers back him?](https://calmatters.org/commentary/2026/05/unbalanced-budget-cuts-newsom-california/) — *2026-05-27*
@@ -49,21 +53,17 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/021125-ICE-Schools-Salinas-LV_36_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Two workers in white full-body protec
 - **NEW**  [[California] California treats homelessness spending as action. That’s not a measure of success](https://calmatters.org/commentary/2026/05/california-homelessness-spending-governance-failure/) — *2026-05-26*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2023/12/120423-Nancy-Wiles-Eviction-MO-CM-13.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Nancy Wiles holds her eviction notic
-- **NEW**  [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-05-27*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Connecticut] Amid housing shortage, new CT coalition focuses on local policy change](https://ctmirror.org/2026/05/27/new-ct-coalition-housing-policy-local/) — *2026-05-27*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/CT-Public-housing-construction-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/
-- **NEW**  [[Connecticut] CT expanding cannabis use will make roads more dangerous](https://ctmirror.org/2026/05/27/ct-expanding-cannabis-use-will-make-roads-more-dangerous/) — *2026-05-27*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/pexels-lighting-weed-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/05/pexel
-- **NEW**  [[Connecticut] CT talks housing, but doesn’t walk it](https://ctmirror.org/2026/05/27/ct-talks-housing-but-doesnt-walk-it/) — *2026-05-27*
-  > <figure><img width="855" height="572" src="https://ctmirror.org/wp-content/uploads/2025/03/housing-construction.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2025/03/
-- **NEW**  [[Connecticut] Why I’m biking 100 miles: to end fossil fuels](https://ctmirror.org/2026/05/27/why-im-riding-100-miles-to-end-fossil-fuels/) — *2026-05-27*
-  > <figure><img width="1024" height="620" src="https://ctmirror.org/wp-content/uploads/2026/05/sierra-club-ride-poster-1024x620.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- **NEW**  [[Connecticut] Larson tries to shift narrative to ideologies, not generations](https://ctmirror.org/2026/05/26/larson-tries-to-shift-narrative-to-ideologies-not-generations/) — *2026-05-27*
-  > <figure><img width="1024" height="932" src="https://ctmirror.org/wp-content/uploads/2026/05/IMG_0742-1024x932.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/I
-- **NEW**  [[Connecticut] Josh Elliott endorsed for House reelection as he runs for governor](https://ctmirror.org/2026/05/26/josh-elliott-endorsed-for-house-reelection-as-he-runs-for-governor/) — *2026-05-27*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/05/9F6833C7-657E-4762-A371-595F9DBF8FB7-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/w
-- **NEW**  [[Connecticut] Natalie Braswell named interim chancellor of CSCU system](https://ctmirror.org/2026/05/26/natalie-braswell-named-interim-chancellor-of-cscu-system/) — *2026-05-26*
-  > <figure><img width="1024" height="907" src="https://ctmirror.org/wp-content/uploads/2021/12/IMG_4259-1.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2021/12/IMG_4259-
+- **NEW**  [[Arkansas] Trump struck a deal for China to buy $17B a year in US ag products. Farmers are skeptical.](https://arkansasadvocate.com/2026/05/27/repub/trump-struck-a-deal-for-china-to-buy-17b-a-year-in-us-ag-products-farmers-are-skeptical/) — *2026-05-27*
+  > By Rebecka Pieder/Medill News Service WASHINGTON &#8211; In a deal that could provide a major trade boost for American farmers, the White House said that during the recent summit, China committed to buying at least $17 billion in additional U.S. agricultural products annually for
+- **NEW**  [[Arkansas] Voluntary departures spike as immigrants face squalid detention, pressure to leave](https://arkansasadvocate.com/2026/05/27/repub/voluntary-departures-spike-as-immigrants-face-squalid-detention-pressure-to-leave/) — *2026-05-27*
+  > A surge in voluntary departure agreements in immigration courts is raising concerns that Trump administration tactics are unfairly pressuring immigrants into leaving the United States, even if they have a legal right to stay. Voluntary departures during the second Trump administr
+- **NEW**  [[Arkansas] Trump administration targets attorneys who file fraudulent asylum claims](https://arkansasadvocate.com/2026/05/26/repub/trump-administration-targets-attorneys-who-file-fraudulent-asylum-claims/) — *2026-05-26*
+  > In its latest effort to narrow pathways to immigration to the United States, the Trump administration says it will crack down on attorneys who file fraudulent asylum claims for their clients. The U.S. has long granted asylum to people who are unable or unwilling to return to thei
+- **NEW**  [[Arkansas] Democratic state AGs say their staff excluded from Vance anti-fraud meeting](https://arkansasadvocate.com/2026/05/26/repub/democratic-state-ags-say-their-staff-excluded-from-vance-anti-fraud-meeting/) — *2026-05-26*
+  > WASHINGTON — A handful of Democratic state attorneys general said Tuesday that expert officials from their offices were denied access to a major White House anti-fraud meeting convened by Vice President JD Vance and attended by Republican AGs. Two dozen Democratic attorneys gener
+- **NEW**  [[Arkansas] Effort to redraw South Carolina voting lines fails amid record start to early voting](https://arkansasadvocate.com/2026/05/26/repub/effort-to-redraw-south-carolina-voting-lines-fails-amid-record-start-to-early-voting/) — *2026-05-26*
+  > COLUMBIA — A GOP push to overhaul South Carolina&#8217;s congressional map ended Tuesday, as a record-setting start to early voting prompted Republican senators to abandon their support. The 26-18 vote to effectively kill the bill requested by the White House included 14 Republic
+- **NEW**  [[Arkansas] Arkansas State University chancellor named new system president](https://arkansasadvocate.com/briefs/arkansas-state-university-chancellor-named-new-system-president/) — *2026-05-26*
+  > The Arkansas State University System Board of Trustees on Tuesday selected Chancellor Todd Shields to become the system’s fourth president effective July 1.  Shields served as a dean at the University of Arkansas in Fayetteville for nine years before being named ASU’s chancellor 
 
-_(578 additional items in raw.jsonl)_
+_(590 additional items in raw.jsonl)_
