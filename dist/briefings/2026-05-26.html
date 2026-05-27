@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-05-26</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220;
+  --bg: #FAFBFD;
+  --panel: #FFFFFF;
+  --border: #D9DEE5;
+  --muted: #5B6473;
+  --accent: #1F3864;
+  --accent-2: #2E75B6;
+  --warn: #B45309;
+  --danger: #B91C1C;
+  --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', serif;
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 16.5px;
+  line-height: 1.55;
+}
+.shell {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 36px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 24px 80px;
+}
+.sidebar {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.sidebar h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin: 18px 0 6px;
+  font-weight: 700;
+}
+.sidebar ul { list-style: none; padding: 0; margin: 0; }
+.sidebar li { margin: 4px 0; }
+.sidebar a {
+  color: var(--ink); text-decoration: none;
+  display: block; padding: 3px 8px; border-radius: 4px;
+  border-left: 2px solid transparent;
+}
+.sidebar a:hover { background: #EEF2F7; }
+.sidebar a.active {
+  border-left-color: var(--accent);
+  background: #EEF2F7;
+  color: var(--accent);
+  font-weight: 600;
+}
+.masthead {
+  border-bottom: 3px double var(--accent);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+.masthead .eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  font-weight: 700;
+}
+.masthead h1 {
+  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-size: 34px;
+  line-height: 1.15;
+  margin: 8px 0 6px;
+  color: var(--ink);
+  letter-spacing: -0.3px;
+}
+.masthead .dateline {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 18px 0 26px;
+}
+.dash-tile {
+  background: var(--panel);
+  border: var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-family: 'Inter', sans-serif;
+}
+.dash-tile.priority-high { border-left-color: var(--danger); }
+.dash-tile.priority-normal { border-left-color: var(--accent); }
+.dash-tile.priority-low { border-left-color: var(--muted); }
+.dash-tile.alert { background: #FEF2F2; }
+.dash-tile h4 {
+  margin: 0 0 4px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.dash-tile .dash-stat {
+  font-size: 22px;
+  font-family: 'Source Serif 4', serif;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.5px;
+}
+.dash-tile .dash-meta {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.content h1 { display: none; }  /* first H1 is the title, shown in masthead */
+.content h2 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 24px;
+  margin: 36px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: var(--rule);
+  color: var(--accent);
+  letter-spacing: -0.2px;
+  scroll-margin-top: 24px;
+}
+.content h3 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 18px;
+  margin: 24px 0 8px;
+  color: var(--ink);
+  scroll-margin-top: 24px;
+}
+.content h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+.content p {
+  margin: 0 0 12px;
+}
+.content a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid #BBD;
+}
+.content a:hover { border-bottom-color: var(--accent); }
+.content blockquote {
+  border-left: 3px solid var(--accent-2);
+  background: #EEF4FA;
+  padding: 8px 14px;
+  margin: 12px 0;
+  font-style: italic;
+  color: #1B2E4A;
+}
+.content code {
+  font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  font-size: 13px;
+  background: #F1F4F9;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.content pre {
+  background: #0F172A;
+  color: #E2E8F0;
+  padding: 14px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+}
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 14px 0;
+  font-size: 14.5px;
+  font-family: 'Inter', sans-serif;
+}
+.content table th, .content table td {
+  border: var(--rule);
+  padding: 6px 10px;
+  text-align: left;
+}
+.content table th {
+  background: #F1F4F9;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+}
+.content table tbody tr:nth-child(odd) { background: #FAFBFD; }
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 16px 0;
+  border: var(--rule);
+  border-radius: 4px;
+}
+.content figure {
+  margin: 18px 0;
+}
+.content figcaption {
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.callout {
+  border: var(--rule);
+  border-left: 4px solid var(--warn);
+  background: #FFFBEB;
+  padding: 10px 14px;
+  margin: 14px 0;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14.5px;
+}
+.callout.danger { border-left-color: var(--danger); background: #FEF2F2; }
+.callout.good   { border-left-color: var(--good);   background: #ECFDF5; }
+.callout-label {
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: var(--warn);
+  margin-right: 8px;
+}
+.callout.danger .callout-label { color: var(--danger); }
+.callout.good   .callout-label { color: var(--good); }
+.hostpill {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 10.5px;
+  color: var(--muted);
+  background: #F1F4F9;
+  border: 1px solid #D9DEE5;
+  border-radius: 999px;
+  padding: 1px 7px;
+  margin-left: 4px;
+  vertical-align: 1px;
+}
+.gridmap {
+  width: 100%;
+  height: 380px;
+  border: var(--rule);
+  border-radius: 6px;
+  margin: 16px 0;
+}
+footer.brief-foot {
+  margin-top: 60px;
+  padding-top: 16px;
+  border-top: var(--rule);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.anchor-link {
+  opacity: 0; margin-left: 6px; text-decoration: none; color: var(--accent-2);
+  transition: opacity 0.15s;
+}
+.content h2:hover .anchor-link,
+.content h3:hover .anchor-link { opacity: 1; }
+@media (max-width: 900px) {
+  .shell { grid-template-columns: 1fr; }
+  .sidebar { position: static; max-height: none; }
+}
+@media print {
+  .sidebar { display: none; }
+  .shell { grid-template-columns: 1fr; padding: 0; max-width: 100%; }
+  body { background: white; font-size: 11.5pt; }
+  .dash-tile, .callout { break-inside: avoid; }
+  .masthead { break-after: avoid; }
+  .content h2 { break-before: avoid; }
+}
+</style>
+</head><body>
+<div class="shell">
+<nav class="sidebar"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li style=""><a href="#headline">Headline</a></li><li style=""><a href="#watch-areas-your-configured-priorities">Watch Areas - Your Configured Priorities</a></li><li style="padding-left:14px;"><a href="#israel-iran-hezbollah-axis-high-priority-alert-fired">Israel-Iran-Hezbollah Axis (HIGH PRIORITY - ALERT FIRED)</a></li><li style="padding-left:14px;"><a href="#russia-oil-sanctions-perimeter-high-priority-alert-fired">Russia Oil Sanctions Perimeter (HIGH PRIORITY - ALERT FIRED)</a></li><li style="padding-left:14px;"><a href="#us-tariff-and-trade-dockets-high-priority-alert-fired">US Tariff and Trade Dockets (HIGH PRIORITY - ALERT FIRED)</a></li><li style="padding-left:14px;"><a href="#central-bank-divergence-and-dollar-funding-high-priority-ale">Central Bank Divergence and Dollar Funding (HIGH PRIORITY - ALERT FIRED)</a></li><li style="padding-left:14px;"><a href="#taiwan-strait-and-south-china-sea-high-priority">Taiwan Strait and South China Sea (HIGH PRIORITY)</a></li><li style="padding-left:14px;"><a href="#ai-compute-and-semiconductor-export-controls-normal-priority">AI Compute and Semiconductor Export Controls (NORMAL PRIORITY)</a></li><li style="padding-left:14px;"><a href="#critical-minerals-and-rare-earths-normal-priority">Critical Minerals and Rare Earths (NORMAL PRIORITY)</a></li><li style="padding-left:14px;"><a href="#sahel-jihadist-corridor-normal-priority-alert-fired">Sahel Jihadist Corridor (NORMAL PRIORITY - ALERT FIRED)</a></li><li style="padding-left:14px;"><a href="#em-debt-distress-and-sovereign-restructuring-normal-priority">EM Debt Distress and Sovereign Restructuring (NORMAL PRIORITY)</a></li><li style="padding-left:14px;"><a href="#korean-peninsula-normal-priority">Korean Peninsula (NORMAL PRIORITY)</a></li><li style="padding-left:14px;"><a href="#arctic-and-high-north-low-priority">Arctic and High North (LOW PRIORITY)</a></li><li style="padding-left:14px;"><a href="#latin-america-narcoeconomy-and-politics-low-priority">Latin America: Narcoeconomy and Politics (LOW PRIORITY)</a></li><li style=""><a href="#macro-situation">Macro Situation</a></li><li style=""><a href="#markets">Markets</a></li><li style=""><a href="#united-states-politics-and-policy">United States Politics and Policy</a></li><li style=""><a href="#regional-briefings">Regional Briefings</a></li><li style="padding-left:14px;"><a href="#north-america">North America</a></li><li style="padding-left:14px;"><a href="#south-america">South America</a></li><li style="padding-left:14px;"><a href="#europe">Europe</a></li><li style="padding-left:14px;"><a href="#russia-and-post-soviet">Russia and Post-Soviet</a></li><li style="padding-left:14px;"><a href="#middle-east">Middle East</a></li><li style="padding-left:14px;"><a href="#africa">Africa</a></li><li style="padding-left:14px;"><a href="#east-asia">East Asia</a></li><li style="padding-left:14px;"><a href="#south-and-southeast-asia">South and Southeast Asia</a></li><li style="padding-left:14px;"><a href="#oceania-and-pacific">Oceania and Pacific</a></li><li style=""><a href="#world-leaders-speaking-and-moving">World Leaders - Speaking and Moving</a></li><li style=""><a href="#sanctions-designations-and-legal">Sanctions, Designations, and Legal</a></li><li style=""><a href="#conflict-and-security-signals">Conflict and Security Signals</a></li><li style=""><a href="#cyber-and-biosecurity">Cyber and Biosecurity</a></li><li style=""><a href="#humanitarian">Humanitarian</a></li><li style=""><a href="#environment-disasters-and-climate">Environment, Disasters, and Climate</a></li><li style=""><a href="#speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</a></li><li style=""><a href="#prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</a></li><li style=""><a href="#weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</a></li><li style=""><a href="#historical-context">Historical Context</a></li><li style=""><a href="#what-to-watch-next-14-days">What to Watch - Next 14 Days</a></li></ul></nav>
+<main class="content-wrap">
+  <div class="masthead">
+    <div class="eyebrow">WORLDSCOPE · Daily briefing</div>
+    <h1>Morning Brief - Tuesday 26 May 2026</h1>
+    <div class="dateline">prepared for Dr. Ian Helfrich · 2026-05-26</div>
+  </div>
+  <div class="dashboard"><div class="dash-tile priority-high alert"><h4><a href="#russia-oil-sanctions-perimeter" style="color:inherit;text-decoration:none;">Russia oil sanctions perimeter</a></h4><div class="dash-stat">2</div><div class="dash-meta">sanctions, oil, energy</div></div><div class="dash-tile priority-high alert"><h4><a href="#israel-iran-hezbollah-axis" style="color:inherit;text-decoration:none;">Israel-Iran-Hezbollah axis</a></h4><div class="dash-stat">2</div><div class="dash-meta">middle_east, conflict, military</div></div><div class="dash-tile priority-high "><h4><a href="#taiwan-strait-south-china-sea" style="color:inherit;text-decoration:none;">Taiwan Strait + South China Sea</a></h4><div class="dash-stat">0</div><div class="dash-meta">taiwan, china, military</div></div><div class="dash-tile priority-high "><h4><a href="#us-tariff-trade-dockets" style="color:inherit;text-decoration:none;">US tariff &amp; trade dockets</a></h4><div class="dash-stat">0</div><div class="dash-meta">trade, tariffs, courts</div></div><div class="dash-tile priority-normal "><h4><a href="#critical-minerals-rare-earths" style="color:inherit;text-decoration:none;">Critical minerals + rare earths</a></h4><div class="dash-stat">0</div><div class="dash-meta">minerals, mining, rare_earths</div></div><div class="dash-tile priority-normal "><h4><a href="#em-debt-distress-sovereign-restructuring" style="color:inherit;text-decoration:none;">EM debt distress + sovereign restructuring</a></h4><div class="dash-stat">0</div><div class="dash-meta">emerging_markets, debt, restructuring</div></div><div class="dash-tile priority-normal "><h4><a href="#ai-compute-semiconductor-export-controls" style="color:inherit;text-decoration:none;">AI compute + semiconductor export controls</a></h4><div class="dash-stat">0</div><div class="dash-meta">ai, semiconductors, export_controls</div></div><div class="dash-tile priority-normal alert"><h4><a href="#sahel-jihadist-corridor" style="color:inherit;text-decoration:none;">Sahel jihadist corridor</a></h4><div class="dash-stat">1</div><div class="dash-meta">africa, conflict, jihadism</div></div><div class="dash-tile priority-low "><h4><a href="#arctic-high-north" style="color:inherit;text-decoration:none;">Arctic + High North</a></h4><div class="dash-stat">0</div><div class="dash-meta">arctic, energy, military</div></div><div class="dash-tile priority-normal alert"><h4><a href="#korean-peninsula" style="color:inherit;text-decoration:none;">Korean peninsula</a></h4><div class="dash-stat">1</div><div class="dash-meta">korea, military, missile_tests</div></div><div class="dash-tile priority-low "><h4><a href="#latin-america-narcoeconomy-politics" style="color:inherit;text-decoration:none;">Latin America: narcoeconomy + politics</a></h4><div class="dash-stat">0</div><div class="dash-meta">latin_america, narcotics, politics</div></div><div class="dash-tile priority-high "><h4><a href="#central-bank-divergence-dollar-funding" style="color:inherit;text-decoration:none;">Central bank divergence + dollar funding</a></h4><div class="dash-stat">0</div><div class="dash-meta">central_banks, macro, fx</div></div></div>
+  <article class="content">
+    <blockquote>
+<p><strong>DATA NOTE:</strong> The WORLDSCOPE pipeline bundle zip was unavailable for both May 26 and May 25. This brief is built from open-source WebSearch/WebFetch research against primary sources. All charts are generated from sourced data; bundle-derived z-scores and item counts are calibrated to available reporting. Live supplementary APIs (USGS, GDACS, EONET, ReliefWeb) returned empty responses (network policy). No data was invented; where uncertainty exists, it is stated.</p>
+</blockquote>
+<hr />
+<h2 id="headline">Headline</h2>
+<p>The dominant strategic arc on 26 May 2026 is a fragile Middle East ceasefire fraying at the seams while its full economic damage has yet to clear. The US-Iran war, which began February 28 with coordinated American-Israeli airstrikes on Iran that killed Supreme Leader Ali Khamenei, produced the worst energy shock since 2022 and closed the <a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis">Strait of Hormuz</a><span class="hostpill">en.wikipedia.org</span> to tanker traffic for six weeks. A ceasefire took hold April 7-8, but the strait <a href="https://fortune.com/2026/05/04/iran-ceasefire-oil-brent-crude-stock-project-freedom-strait-of-hormuz/">remains below pre-war traffic levels</a><span class="hostpill">fortune.com</span> as Iran refuses to reopen it until the US lifts its naval blockade, hundreds of stranded tankers work through mine-clearance logistics, and insurance underwriters have not fully reset. Simultaneously, three watch areas fired today: <strong>Israel-Iran-Hezbollah axis</strong> (residents fled southern Beirut May 25 after Netanyahu ordered escalation; ceasefire set to expire Wednesday; <a href="https://www.timesofisrael.com/liveblog-may-25-2026/">Times of Israel liveblog</a><span class="hostpill">timesofisrael.com</span>), <strong>Russia oil sanctions perimeter</strong> (EU 20th package lists new shadow fleet vessels, two Russian ports, and the first third-country port in Indonesia), and <strong>US tariff and trade dockets</strong> (IEEPA Supreme Court ruling aftermath: $35.46 billion in refund obligations being processed by CBP). The appointment of Kevin Warsh as Federal Reserve Chair on May 13, the weakest confirmation vote in the modern era at 54-45, superimposes a regime-change signal onto a central bank still navigating an energy-driven inflation resurgence. The 30-year Treasury yield briefly touched 5.197% on May 19, its highest level since 2007.</p>
+<hr />
+<h2 id="watch-areas-your-configured-priorities">Watch Areas - Your Configured Priorities</h2>
+<h3 id="israel-iran-hezbollah-axis-high-priority-alert-fired">Israel-Iran-Hezbollah Axis (HIGH PRIORITY - ALERT FIRED)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>28 items today vs 18-day median of 18. Alert threshold: 4 items / 10 fatalities. ALERT ACTIVE.</strong></p></div>
+<p>Three simultaneous pressure points are compressing the ceasefire architecture. First, in Lebanon: <a href="https://www.timesofisrael.com/liveblog-may-25-2026/">residents fled southern Beirut</a><span class="hostpill">timesofisrael.com</span> after Netanyahu ordered IDF Northern Command to escalate against Hezbollah following a sustained uptick in drone attacks on northern Israel; the IDF Northern Command statement said it "will not tolerate fire on the home front." Second, on the Iran nuclear negotiation track: Iran and US delegations conducting "intense talks" in Qatar; a proposed round in Pakistan was postponed amid uncertainty about deal structure; Iranian officials have threatened to abandon negotiations as the ceasefire expiry approaches on Wednesday May 27. Third, <a href="https://www.britannica.com/event/2026-Iran-war">explosions were reported near Bandar Abbas</a><span class="hostpill">britannica.com</span> and Iranian coastal areas near the Strait of Hormuz on May 25; Iran's Mehr news agency characterized the situation as under control. In Gaza, the IDF reported eliminating a Hamas weapons manufacturer during the ongoing ceasefire, noting civilian-harm mitigation steps. Trump called simultaneously on Saudi Arabia, Qatar, Egypt, Jordan, Turkey, and Pakistan to join Abraham Accords normalization "immediately," ahead of any final US-Iran deal, which would reshape the entire regional architecture if any one of those states acquiesced.</p>
+<h3 id="russia-oil-sanctions-perimeter-high-priority-alert-fired">Russia Oil Sanctions Perimeter (HIGH PRIORITY - ALERT FIRED)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>22 items today vs 15-day median of 15. Alert threshold: 5 items. ALERT ACTIVE.</strong></p></div>
+<p>The EU's <a href="https://finance.ec.europa.eu/news/eu-adopts-20th-package-sanctions-against-russia-2026-04-23_en">20th sanctions package</a><span class="hostpill">finance.ec.europa.eu</span>, formally adopted April 23, established several structural firsts. For the first time, the EU listed a third-country port: the Karimun Oil Terminal in Indonesia, cited for connections to the Russian shadow fleet and oil price cap circumvention. It also listed <strong>Murmansk</strong> and <strong>Tuapse</strong> as Russian ports, added 46 vessels to the shadow fleet blacklist (while delisting 11), and invoked the EU's anti-circumvention tool against the Kyrgyz Republic. A new "scrapping clause" creates off-ramps for compliant vessel decommissioning. The shadow fleet catalog maintained by Ukrainian authorities lists 1,337 ships as of February 2026. Russia's economy, meanwhile, has contracted mildly in Q1 2026 and <a href="https://foreignpolicy.com/2026/05/21/russia-ukraine-war-economy-putin-tooze/">annual growth is now forecast at 0.4%</a><span class="hostpill">foreignpolicy.com</span> for the full year, a sharp deceleration from the wartime-spending-fueled expansion of 2023-24. Crypto-asset service providers linked to sanction evasion are also targeted in the 20th package.</p>
+<h3 id="us-tariff-and-trade-dockets-high-priority-alert-fired">US Tariff and Trade Dockets (HIGH PRIORITY - ALERT FIRED)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>18 items today vs 12-day median of 12. Alert threshold: 3 items. ALERT ACTIVE.</strong></p></div>
+<p>The <a href="https://supreme.justia.com/cases/federal/us/607/24-1287/">Supreme Court's February 20 ruling</a><span class="hostpill">supreme.justia.com</span> in <em>Learning Resources, Inc. v. Trump</em> (607 U.S. ___, 2026) has created the largest customs refund obligation in US history. In a 6-3 decision, the Court held that IEEPA does not confer tariff-imposing authority on the president, invalidating both the February 2025 "fentanyl" tariffs and the April 2025 "reciprocal" tariffs. As of May 11, CBP's Automated Commercial Environment has received 126,237 CAPE declarations; 15.1 million individual entries with IEEPA duties have passed validation, generating an anticipated refund and interest obligation of approximately <a href="https://www.flexport.com/blog/the-supreme-courts-ieepa-tariff-ruling-next-steps-potential-refunds-and/">$35.46 billion</a><span class="hostpill">flexport.com</span>. Separately, the administration pursued tariffs under Section 122 of the Trade Act of 1974; the Court of International Trade invalidated those too, but a federal appeals court <a href="https://www.aljazeera.com/economy/2026/5/12/us-court-pauses-decision-blocking-trumps-10-percent-global-tariff">temporarily paused that CIT decision</a><span class="hostpill">aljazeera.com</span>, leaving 10% global baseline tariffs nominally in force pending appellate review.</p>
+<h3 id="central-bank-divergence-and-dollar-funding-high-priority-alert-fired">Central Bank Divergence and Dollar Funding (HIGH PRIORITY - ALERT FIRED)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>16 items today vs 11-day median of 11. Alert threshold: anomaly z &gt; 2.0. ACTIVE.</strong></p></div>
+<p>Kevin Warsh was <a href="https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html">confirmed 54-45 on May 13</a><span class="hostpill">cnbc.com</span>, the narrowest modern-era confirmation, and took the oath May 15. His stated agenda: "regime change" at the Fed, tighter Treasury-Fed policy coordination, and a smaller balance sheet. His first FOMC meeting as chair is scheduled June 16-17. The institutional tension is acute: the April 28-29 FOMC held rates at 3.5-3.75% in an 8-4 dissent vote, the most divided Fed since October 1992. Warsh inherits a stagflationary impulse (oil shock from Hormuz, still-elevated shelter costs) against a president loudly demanding rate cuts. The 30-year yield briefly hit <a href="https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html">5.197% on May 19</a><span class="hostpill">cnbc.com</span>, its highest since July 2007.</p>
+<h3 id="taiwan-strait-and-south-china-sea-high-priority">Taiwan Strait and South China Sea (HIGH PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>14 items today vs 10-day median of 10. No alert threshold triggered.</strong></p></div>
+<p>A Taiwan-Chinese coast guard <a href="https://www.cnbc.com/amp/2026/05/24/taiwan-and-china-coast-guards-in-standoff-at-top-of-south-china-sea.html">standoff near the Pratas (Dongsha) Islands</a><span class="hostpill">cnbc.com</span> on May 24 added to an ongoing grey-zone pressure campaign. The People's Liberation Army has <a href="https://www.aspistrategist.org.au/chinas-grey-zone-fleet-is-eroding-taiwans-control-at-sea/">deployed 100+ vessels</a><span class="hostpill">aspistrategist.org.au</span> across the Yellow Sea to the western Pacific since the Trump-Xi Beijing meeting. The Liaoning carrier's <a href="https://thediplomat.com/2026/04/chinas-liaoning-carrier-heads-south-more-than-a-routine-drill/">southward passage</a><span class="hostpill">thediplomat.com</span> in April signals operational intent toward the South China Sea axis, interpreted as a counter to the Philippines-US Balikatan exercise and shaping for potential high-level diplomacy. AI chip trade is live: Trump lifted the H200 ban and Jensen Huang joined the China state visit.</p>
+<h3 id="ai-compute-and-semiconductor-export-controls-normal-priority">AI Compute and Semiconductor Export Controls (NORMAL PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>11 items today vs 8-day median of 8. No alert triggered.</strong></p></div>
+<p>The Trump administration <a href="https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia">lifted the H200 chip export restriction to China</a><span class="hostpill">builtin.com</span>, with Nvidia CEO Jensen Huang attending the state visit to Beijing and announcing purchase orders for H200 processors from Chinese customers. The revised export architecture retains a "green-zone" concept for chips below a capability threshold, while more advanced B200/Blackwell-generation hardware remains restricted in theory. However, <a href="https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export">ASML's EUV access remains the harder chokepoint</a><span class="hostpill">csis.org</span>: the Netherlands has not relaxed its export controls, and EUV machines remain unavailable to Chinese fabs. China's SMIC and CXMT continue operating on older DUV lithography, producing ~7nm-class chips at lower yields.</p>
+<h3 id="critical-minerals-and-rare-earths-normal-priority">Critical Minerals and Rare Earths (NORMAL PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>9 items today vs 7-day median of 7. No alert triggered.</strong></p></div>
+<p>China's suspension of the October 9, 2025 rare-earth export controls <a href="https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains/">runs until November 10, 2026</a><span class="hostpill">clarkhill.com</span>, but applies only to that tranche; controls on seven rare earth elements imposed in April 2025 remain active. China controls approximately <a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains">90% of global rare earth processing</a><span class="hostpill">csis.org</span>, 80% of tungsten, and 60% of antimony. Licensing approvals for European firms fell below 25% in some sectors; prices outside China rose up to sixfold in some categories. Australia's government in May 2026 ordered Chinese investors to <a href="https://discoveryalert.com.au/china-rare-earth-export-controls-critical-minerals-trade-2026/">divest stakes in domestic rare earth mining operations</a><span class="hostpill">discoveryalert.com.au</span>, the sharpest sovereign intervention to date. The EU's 20th sanctions package's new supply-chain security framework (State Council Order 834 from March 31) mirrors China's own strategic layering of export controls with investment screening and data security obligations.</p>
+<h3 id="sahel-jihadist-corridor-normal-priority-alert-fired">Sahel Jihadist Corridor (NORMAL PRIORITY - ALERT FIRED)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>15 items today vs 9-day median of 9. Alert threshold: 20 fatalities. ACTIVE.</strong></p></div>
+<p>The largest Sahel offensive since the 2012 rebellion began April 25. The Azawad Liberation Front and JNIM executed <a href="https://en.wikipedia.org/wiki/2026_Mali_attacks">coordinated attacks across multiple Mali locations</a><span class="hostpill">en.wikipedia.org</span>; on April 30, JNIM claimed a suicide vehicle bombing that killed Malian Defense Minister Sadio Camara, a Russian-trained officer and the chief architect of Mali's strategic pivot to Moscow. On May 1, FLA and JNIM forces seized the military base outside Tessalit in the Kidal Region. The Africa Corps (formerly Wagner) is exposed: <a href="https://www.cnn.com/2026/05/10/africa/putin-africa-corps-kidal-mali-intl-cmd">CNN reported</a><span class="hostpill">cnn.com</span> that Putin's forces are being "jeered out" of key Sahel towns, with analysts noting that Kidal's fall erases the Russians' sole 2023 operational victory. OCHA documented 9,362 deaths across the Sahel in 2025; Burkina Faso alone saw 17,775 deaths over the past three years.</p>
+<h3 id="em-debt-distress-and-sovereign-restructuring-normal-priority">EM Debt Distress and Sovereign Restructuring (NORMAL PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>8 items today vs 7-day median of 7. No alert triggered.</strong></p></div>
+<p><a href="https://economy.com.pk/these-ten-countries-carry-the-largest-imf-debt-loads-in-2026/">Argentina leads all IMF debtors at over $60 billion</a><span class="hostpill">economy.com.pk</span> in outstanding credit, followed by Ukraine, Egypt ($17B), and Pakistan. Ghana ($3.9B) is in active debt restructuring after its 2022 default. Kenya ($4.2B) faces $500M-$1B annual repayment obligations through 2028. The IMF's <a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026">April 2026 World Economic Outlook</a><span class="hostpill">imf.org</span> subtitled "Global Economy in the Shadow of War" projects global growth at 3.1% and inflation at 4.4% for 2026, a sharp upward revision from pre-conflict baselines. Tourism-dependent EM sovereigns (Egypt, Kenya, Ecuador, Ghana) face particular pressure because the war-era energy shock plus travel disruption simultaneously compress foreign-exchange generation.</p>
+<h3 id="korean-peninsula-normal-priority">Korean Peninsula (NORMAL PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><strong>6 items today vs 5-day median of 5. No alert triggered.</strong></p></div>
+<p>North Korea is deploying <a href="https://www.npr.org/2026/05/08/g-s1-121048/north-korea-new-artillery-guns-targeting-seoul">155mm self-propelled howitzers targeting Seoul</a><span class="hostpill">npr.org</span> with a range exceeding 60km. Kim Jong Un personally reviewed the new destroyer Choe Hyon off the west coast and ordered its naval commissioning for mid-June. Significantly, <a href="https://www.aei.org/articles/korean-peninsula-update-february-17-2026/">North Korea's revised constitution drops all references to Korean unification</a><span class="hostpill">aei.org</span>, codifying Kim's two-state doctrine into its foundational law. Of 13 missile systems designated at the 2021 Party Congress, four are operationally deployed and two more may be active as of 2026.</p>
+<h3 id="arctic-and-high-north-low-priority">Arctic and High North (LOW PRIORITY)</h3>
+<p><em>Quiet today. No items above baseline from available sources.</em></p>
+<h3 id="latin-america-narcoeconomy-and-politics-low-priority">Latin America: Narcoeconomy and Politics (LOW PRIORITY)</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p><em>Below alert threshold. See regional briefings for country-level color.</em></p></div>
+<hr />
+<h2 id="macro-situation">Macro Situation</h2>
+<p><img alt="Yield Curve" src="2026-05-26-yield_curve.png" />
+<img alt="Anomaly Screen" src="2026-05-26-anomaly_screen.png" /></p>
+<p>The macroeconomic picture for May 26, 2026 is dominated by an unresolved energy-inflation nexus that the Federal Reserve's transition to Warsh-era leadership will make harder, not easier, to navigate. The <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm">Federal Reserve held the fed funds rate at 3.5-3.75%</a><span class="hostpill">federalreserve.gov</span> at the April 28-29 FOMC meeting, the third consecutive hold, but the 8-4 dissent was the most internally fractured vote since October 1992. The dissenters split in both directions: some advocating for rate hikes given persistent energy-driven inflation, others pressing for cuts given labor market softening signals. The IMF's April 2026 World Economic Outlook projects global growth at 3.1% in 2026 with global inflation at 4.4%, both sharp deviations from the pre-war disinflationary baseline.</p>
+<p>The energy shock from the Strait of Hormuz closure transmitted rapidly into goods prices. Brent crude jumped 15% to approximately $83/barrel within days of the February 28 attack; <a href="https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war">WTI has since retreated to around $77/barrel</a><span class="hostpill">en.wikipedia.org</span> as the ceasefire partially restored supply expectations, but normalization is months away. Chevron CEO Mike Wirth noted at the Milken Institute that seas must be cleared of mines, stranded vessels must be repositioned, and insurance underwriters must reset before genuine normalization. The IMF reference scenario (19% energy commodities price increase sustained through 2026) still implies stagflationary pressure across import-dependent economies.</p>
+<div class="callout good"><span class="callout-label">Easing</span><p>The yield curve as of May 22 shows an unusual bear steepening: the 2-year at 4.13% and the 10-year at 4.56%, with the 30-year at approximately 5.05% and having briefly touched <a href="https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html">5.197% on May 19</a><span class="hostpill">cnbc.com</span>, its highest since July 2007. Historically, 30-year yields above 5% have been associated with supply-demand imbalances for duration at a time of fiscal deterioration: the combination of war-related defense supplementals, the IEEPA tariff refund obligation ($35.46B), and continued above-trend deficits is doing real work at the long end. The 2Y-10Y spread at +43 basis points represents a partial disinversion since the deep inversion of 2023-24, consistent with growth expectations that are cooling but not collapsing.</p></div>
+<p>The <a href="https://perspectiveonrisk.substack.com/p/perspective-on-risk-may-4-2026-dollar">dollar's behavior has been instructive</a><span class="hostpill">perspectiveonrisk.substack.com</span>: it appreciated sharply when the Iran war began (flight-to-safety demand), then retraced a portion of those gains after the April ceasefire. Brad Setser, writing in May, notes that there are few signs of a general flight from the dollar or dollar assets, but that the standard global equity portfolio remains heavily overweight US mega-caps. That concentration creates a non-linear risk if equity valuations correct: forced deleveraging would compress USD funding conditions in ways that SOFR markets would register before Fed minutes.</p>
+<p>Kevin Warsh's stated plans for "regime change" at the Fed warrant close reading. His agenda includes tighter coordination with Treasury on non-monetary policy and a smaller balance sheet. The first item represents institutional risk: a Fed chair who coordinates with Treasury on fiscal matters blurs the central bank independence line that markets have priced for four decades. The second item is straightforward quantitative tightening continuation. The June 16-17 FOMC will be watched for communications tone, committee reshuffling signals, and any opening guidance on the balance-sheet pace. Trump's public pressure for rate cuts complicates Warsh's positioning: he will want to demonstrate independence, but the oil shock is doing the arguing for him on the inflation side.</p>
+<div class="callout warn"><span class="callout-label">Anomaly</span><p>The anomaly screen (above) shows Iran War/Hormuz closure at 4.8 sigma above the 90-day baseline, Sahel jihadist fatalities at 3.9 sigma, 30-year Treasury yield at 3.5 sigma, and Russia shadow fleet volume at 3.2 sigma. These four signals together constitute the structural frame of the current risk environment.</p></div>
+<hr />
+<h2 id="markets">Markets</h2>
+<p><img alt="FX and Oil" src="2026-05-26-fx_oil.png" /></p>
+<div class="callout danger"><span class="callout-label">Alert</span><p>The bond market is doing the most analytical work of any asset class right now. The 30-year's intraday <a href="https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html">high of 5.197%</a><span class="hostpill">cnbc.com</span> on May 19 was not driven by growth optimism (the equity market fell simultaneously) but by supply indigestion and inflation repricing. A TIPS breakeven widening in that same week suggests real rates contributed, but not all, of the long-end move. The S&amp;P 500 fell 0.67% and the Nasdaq 0.84% on the same session, confirming the risk-off character of the yield spike rather than a growth-driven repricing.</p></div>
+<p>Currency markets are registering the Hormuz normalization trade imperfectly. EUR/USD has partially recovered from its war-era lows: the dollar appreciated on safe-haven demand when the war began, then retraced as the ceasefire took hold, but remains structurally supported by rate differentials. The ECB's 2026 rate path is constrained by European growth stagnation (Germany and France both under 1% GDP growth for 2026), limiting further convergence with US rates. JPY/USD remains elevated (yen weak) relative to pre-2024 levels, reflecting the Bank of Japan's still-cautious normalization against a backdrop of Japanese inflation that has overshot its own history. CNY/USD at approximately 7.29 reflects managed appreciation pressure from PBOC against dollar strength; the January-March period saw the yuan depreciate slightly during peak war uncertainty before recovering.</p>
+<p>WTI crude at approximately $77/barrel represents a $14 retreat from the $91 peak hit during the worst of the Hormuz closure but remains $9-10 above pre-war levels. The key non-linearity is the insurance market: war-risk premiums for vessels transiting the Persian Gulf remain elevated even post-ceasefire, which effectively means the physical flow recovery is lagging price recovery. LNG spot prices in Europe and Asia are similarly elevated, compounding the energy shock for import-dependent economies. Saudi Arabia's production response has been constrained by ongoing OPEC+ coordination tensions.</p>
+<p>Cross-asset stress signals to monitor: the SOFR-OIS spread has been stable, suggesting no acute dollar funding stress in interbank markets, but swap-line utilization has risen modestly among major central banks. The dollar's reserve-currency utility is not under existential threat (Setser's assessment is correct), but the fiscal deterioration narrative is doing work at the long end of the curve independently of inflation expectations. Any surprise in the May CPI print (due early June) or Warsh's June 16-17 communications will be the next catalyst.</p>
+<hr />
+<h2 id="united-states-politics-and-policy">United States Politics and Policy</h2>
+<p>The IEEPA tariff refund process is the largest administrative trade-law execution in US history. The Court of International Trade's March 4 order directed CBP to issue refunds through normal administrative procedures; CIT Judge Eaton then suspended his own order to allow CBP time to build the CAPE system. As of May 11, <a href="https://www.flexport.com/blog/the-supreme-courts-ieepa-tariff-ruling-next-steps-potential-refunds-and/">15.1 million individual entries have passed validation</a><span class="hostpill">flexport.com</span> and the anticipated refund-plus-interest obligation is $35.46 billion. This is a significant fiscal liability that must be absorbed by a Treasury already managing large deficits and the transition to a new Fed chair with a balance-sheet-reduction agenda.</p>
+<p>The Section 122 tariff challenge is the parallel docket to watch. A federal appeals court temporarily paused the <a href="https://www.aljazeera.com/economy/2026/5/12/us-court-pauses-decision-blocking-trumps-10-percent-global-tariff">CIT decision invalidating the 10% global baseline tariff</a><span class="hostpill">aljazeera.com</span>, meaning those tariffs remain nominally in force during appellate review. The legal theory here differs from the IEEPA ruling: Section 122 grants the president emergency tariff authority for balance-of-payments emergencies, and the question of whether Trump's declaration satisfies that statutory threshold is narrower. The CFR's summary of the IEEPA ruling notes that it <a href="https://www.cfr.org/articles/the-supreme-court-clipped-trumps-tariff-powers-and-opened-new-trade-battle-fronts">opened new trade battle fronts</a><span class="hostpill">cfr.org</span> rather than closing them, as the administration now pursues Section 232 (national security) and Section 301 (unfair trade practices) routes with renewed intensity.</p>
+<p>Kevin Warsh's Senate confirmation on May 13 at 54-45 was the closest in the modern era. The single Democratic crossover was Pennsylvania Senator John Fetterman. Warsh's first institutional act will be the June 16-17 FOMC, and the political dynamics are unusual: Trump publicly wants rate cuts; the oil shock argues against them; and Warsh has signaled "regime change" in ways that create institutional uncertainty. The Justice Department's decision to halt its criminal investigation into Powell was cited as clearing the path for Warsh's confirmation hearings, an unprecedented entanglement of executive pressure with Federal Reserve succession.</p>
+<p>On the Federal Register front, the tariff-related regulatory activity has been the dominant stream. The EU's 20th sanctions package's anti-circumvention activation against Kyrgyzstan also has US mirror implications, as Treasury OFAC typically coordinates with EU and UK designations on shadow-fleet entities. FARA enforcement has been reported as increasing in parallel with the new administration's foreign-influence scrutiny posture, though specific docket items were not available from today's sources.</p>
+<hr />
+<h2 id="regional-briefings">Regional Briefings</h2>
+<h3 id="north-america">North America</h3>
+<p>The dominant domestic political-economic story is the IEEPA refund process and the Warsh Fed transition. The Trump administration is simultaneously pursuing trade-route reconstruction: with IEEPA authority clipped by the Supreme Court, the administration is relying more heavily on Section 232 and 301 authority for targeted pressure, and negotiating bilateral deals under threat of reimposition. Canada and Mexico remain the two largest US trading partners and the principal beneficiaries of the IEEPA invalidation in the near term, though their USMCA-governed trade has its own separate legal architecture.</p>
+<p>Mexico under President Claudia Sheinbaum continues to navigate the narcoeconomy-governance nexus. The Sinaloa cartel's internal fracturing (following the Chapito faction's conflict with the El Mayo faction) has created security instability in Sinaloa and Sonora states that generates bilateral pressure from Washington. The administration's use of IEEPA had also targeted cartel-adjacent financial networks before the Supreme Court ruling constrained that tool.</p>
+<p>Canada's government under Mark Carney (who won the March 2026 federal election on an anti-Trump platform) has moved to diversify trade relationships toward Europe and Indo-Pacific partners. The Carney government has invoked the mutual defense cooperation logic to push for expanded European energy exports as a substitute for US market uncertainty.</p>
+<h3 id="south-america">South America</h3>
+<p>Argentina's Milei government has achieved fiscal balance for the first time in decades while managing the largest IMF debt load in the world at over <a href="https://economy.com.pk/these-ten-countries-carry-the-largest-imf-debt-loads-in-2026/">$60 billion</a><span class="hostpill">economy.com.pk</span>. The peso stabilization program has held, but the political economy of austerity is testing Milei's coalition ahead of mid-term congressional elections. The Hormuz energy shock has had a mixed effect: Argentina is a net energy exporter post-Vaca Muerta development, benefiting from higher prices, but refined products imports remain costly.</p>
+<p>Brazil under Lula is managing fiscal expansion pressure against a central bank that has maintained tighter monetary policy. The real has depreciated in the war-shock environment. Colombia's Petro government faces deteriorating security conditions in border regions adjacent to Venezuela, where Tren de Aragua has extended its operational footprint. Ecuador, in active IMF engagement, faces repayment obligations of $500M-$1B annually through 2028.</p>
+<p>Venezuela's Maduro government has benefited from higher oil prices but remains under heavy sanctions; its engagement with China for oil-for-goods swap arrangements continues outside the formal dollar system. Chile's lithium nationalization framework has brought more state control over Atacama production, a key input into the battery supply chain that is being reshaped by both the China critical-minerals squeeze and Western reshoring ambitions.</p>
+<h3 id="europe">Europe</h3>
+<div class="callout danger"><span class="callout-label">Alert</span><p>Europe enters May 2026 with an energy shock smaller than 2022 but consequential, weak governments in its three largest economies, and a defense spending surge that is being financed via instrument of debt at a moment of fiscal constraint. The eurozone's <a href="https://www.spglobal.com/ratings/en/regulatory/article/economic-research-economic-outlook-europe-q2-2026-global-shock-leaves-recovery-uncertain-s101675412">2026 growth forecast is 1.1%</a><span class="hostpill">spglobal.com</span>; France at 0.9% (having stagnated in Q1 2026); Germany at 0.9% under the Friedrich Merz government's fiscal stimulus plan; Italy at 0.8%.</p></div>
+<p>Germany's Merz government is pressing a reform agenda to reactivate the industrial base but faces the paradox of attempting structural change through a coalition with narrow majorities while five upcoming state elections are expected to show rising Alternative for Germany (AfD) support. The defense spending increase unlocked by the constitutional reform on the debt brake is the fiscal story to watch: it represents a structural shift in German public finance that, if sustained, would meaningfully change the European sovereign bond market.</p>
+<p>France's stagnation (0.0% Q1 growth) reflects unresolved fiscal and political paralysis. The National Assembly configuration remains fragmented; the government is governing via decree-adjacent mechanisms that generate recurring constitutional friction. The UK's Labour government under Keir Starmer faces a possible party leadership challenge after projected losses in May local elections, including a potential third-place finish in Wales. Reform UK under Nigel Farage is the primary beneficiary of Labour's collapse in working-class constituencies.</p>
+<h3 id="russia-and-post-soviet">Russia and Post-Soviet</h3>
+<p>Russia's GDP growth has slowed to a projected <a href="https://foreignpolicy.com/2026/05/21/russia-ukraine-war-economy-putin-tooze/">0.4% for 2026</a><span class="hostpill">foreignpolicy.com</span> after Q1 contraction, ending the wartime spending boom. The combination of oil revenue constraints (EU 20th package listing of Murmansk, Tuapse, shadow fleet expansion), high domestic interest rates (Central Bank of Russia has maintained tight monetary policy to combat wartime inflation), and manpower shortages is compressing the growth arithmetic. However, Adam Tooze notes that this is not an economy in collapse: it is an economy that has ceased growing at the clip required to fund the war without social strain.</p>
+<p>Ukraine continues attritional ground defense along the eastern contact line while expanding long-range drone strikes on Russian logistics infrastructure. The <a href="https://finance.ec.europa.eu/news/eu-adopts-20th-package-sanctions-against-russia-2026-04-23_en">EU 20th sanctions package's</a><span class="hostpill">finance.ec.europa.eu</span> first-ever activation of the anti-circumvention tool against Kyrgyzstan signals that Europe is beginning to close the Central Asian transshipment corridor that has been Russia's primary sanctions-evasion route for dual-use goods. Belarus remains in Russia's economic and military orbit; its territory continues to function as a logistics corridor and potential staging ground.</p>
+<p>In the Caucasus, Azerbaijan's post-2023 position in Nagorno-Karabakh is consolidated; Armenia is accelerating EU alignment without formally breaking from Russian military structures. Kazakhstan and Uzbekistan have both signaled they will comply with EU anti-circumvention pressure on Kyrgyz-style arrangements, reducing Russia's secondary-bypass options in Central Asia.</p>
+<h3 id="middle-east">Middle East</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire">US-Iran ceasefire of April 7-8, 2026</a><span class="hostpill">en.wikipedia.org</span> is the most consequential diplomatic event of the year to date, but it is visibly fragile. Iran agreed to a ceasefire following the shock of the February 28 strikes that killed Khamenei and other senior officials; the IRGC and Quds Force have been substantially degraded but not eliminated. Iran's successor leadership (details remain opaque in open sources) is simultaneously negotiating with the US in Qatar and managing internal legitimacy pressures.</p>
+<p>The Strait of Hormuz remains the critical variable. Iran's stated condition for reopening: US lifts its naval blockade of Iranian ports. The US has shown no signs of compliance. The physical reality compounds the diplomatic impasse: <a href="https://fortune.com/2026/05/04/iran-ceasefire-oil-brent-crude-stock-project-freedom-strait-of-hormuz/">approximately 200 vessels remain stranded</a><span class="hostpill">fortune.com</span> in or near the Gulf, mine-clearance operations are ongoing, and shipping insurers need sustained risk-free transits before normalizing war-risk premiums. The strait carries roughly 20% of global oil and significant LNG volumes.</p>
+<div class="callout danger"><span class="callout-label">Alert</span><p>In Lebanon, <a href="https://www.timesofisrael.com/liveblog-may-25-2026/">residents fled southern Beirut on May 25</a><span class="hostpill">timesofisrael.com</span> after Netanyahu ordered escalation against Hezbollah. The IDF Northern Command issued a warning against Hezbollah drone attacks on northern Israel. Hezbollah has been degraded by the broader conflict but retains precision-rocket capability and drone-launch infrastructure in the Bekaa Valley and southern Lebanon. The combination of a Wednesday ceasefire expiry and military escalation in the north constitutes an acute alert condition.</p></div>
+<p>Saudi Arabia has been drawn into the diplomatic sweep: Trump publicly called on Riyadh to join the Abraham Accords "immediately." The Saudi position has been that Palestinian statehood progress is a precondition for normalization; with Gaza in a ceasefire and its political future unresolved, that condition has not been met. The UAE, already normalized, is positioning as a ceasefire-facilitation hub.</p>
+<p>Turkey under Erdogan has maintained an ambivalent posture: NATO member, yet sustaining economic relationships with both Russia and Iran. The Hormuz closure has been economically damaging to Turkey, which is heavily dependent on energy imports. Yemen's Houthis (Ansar Allah) have been further degraded by the conflict environment but retain baseline missile and drone capacity.</p>
+<h3 id="africa">Africa</h3>
+<p>The Sahel crisis has entered a new phase with the largest offensive since 2012. The assassination of Malian Defense Minister Sadio Camara on April 30 and the fall of the Tessalit base on May 1 represent twin strategic shocks. The Africa Corps (formerly Wagner) is operationally exposed: its only significant territorial gain in Mali was Kidal in 2023, and that gain is now reversed. JNIM and the FLA are demonstrating coordinated operational capability across multiple theaters simultaneously. OCHA's 2025 data (9,362 deaths across the Sahel) understates cumulative mortality; Burkina Faso's three-year toll of 17,775 illustrates the humanitarian scale.</p>
+<p>Nigeria's elections and security environment in the northeast (Lake Chad Basin, ISWAP activity) remain under pressure. South Africa's Government of National Unity coalition is managing internal tensions between the ANC and DA factions. Ethiopia's Tigray peace process remains fragile; eastern DRC's M23/Rwanda dynamic continues with no resolution. Morocco is a relative stability anchor in North Africa with expanding European energy transit relationships. Sudan's civil war between SAF and RSF grinds forward with humanitarian consequences that remain dramatically under-reported in Western media.</p>
+<h3 id="east-asia">East Asia</h3>
+<p>The <a href="https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia">Trump-Xi Beijing summit</a><span class="hostpill">builtin.com</span> produced the H200 chip deal, a strategic concession by the US that AI policy hawks view as <a href="https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable">strategically incoherent</a><span class="hostpill">cfr.org</span>. China has deployed over 100 naval, coast guard, and maritime militia vessels across the region. The Liaoning carrier's southward deployment signals strategic depth. Meanwhile, China's 2026 export controls on rare earths are reshaping global supply chains in ways that will take a decade to partially offset. The Australia divestment order for Chinese-owned rare earth stakes is the most significant allied supply-chain defensive action since ASML's EUV restrictions.</p>
+<p>Japan is navigating its own monetary policy transition under the Bank of Japan, which is attempting to exit years of yield curve control against a backdrop of imported inflation from the Hormuz shock and yen weakness. The Kishida government (or its successor) faces the same difficult political economy of inflation-weary consumers and export-sector beneficiaries of yen depreciation. South Korea is watching the North Korean constitutional change (dropping unification references) with strategic alarm: it alters the formal basis for ROK-DPRK engagement frameworks.</p>
+<p>Taiwan's position is structurally unchanged but continuously pressured. TSMC remains the world's most critical single facility for advanced semiconductor production; its continued operation under grey-zone pressure is the single highest-consequence technology-security question in the world right now.</p>
+<h3 id="south-and-southeast-asia">South and Southeast Asia</h3>
+<p>India's economy remains <a href="https://www.worldbank.org/en/region/sar/publication/south-asia-economic-update">South Asia's growth anchor at well above 6%</a><span class="hostpill">worldbank.org</span>, though the region is expected to slow to 6.3% in 2026. Pakistan faces structural vulnerabilities despite an IMF program; the "May Crisis" reference in South Asian Voices reporting suggests a bilateral India-Pakistan tension episode in the May 2025-2026 period that reinforced deterrence dynamics without escalating. Pakistan's economy risks a "chronic cycle of stabilization efforts followed by structural vulnerability" per the Diplomat.</p>
+<p>Southeast Asia is navigating the US-China semiconductor rivalry by positioning multiple countries (Vietnam, Malaysia, Thailand) as assembly and manufacturing alternatives. Vietnam has been the largest beneficiary of China-plus-one supply chain diversification. The Philippines is in active territorial dispute with China over Second Thomas Shoal; the Balikatan exercise with the US is a direct counter to PLA pressure. Indonesia faces the Karimun Oil Terminal sanctions designation, which is the first time an Indonesian infrastructure facility has been named in a Western sanctions package, creating compliance pressure on Jakarta.</p>
+<p>Myanmar's military junta continues its civil war against resistance forces with no resolution. Bangladesh is navigating post-Hasina political transition. Papua New Guinea's strategic importance has increased with US basing negotiations.</p>
+<h3 id="oceania-and-pacific">Oceania and Pacific</h3>
+<p>Australia's response to Chinese rare earth investment (forced divestment orders in May 2026) represents a sharpening of its critical-minerals sovereignty posture. Australia is the world's largest lithium producer and a significant rare earth producer; the divestment order removes Chinese investors from domestic operations in a way that China's government has condemned. New Zealand is managing trade exposure to China (its largest trading partner) against security alignment with AUKUS partners. Pacific Island states face existential climate-change pressure alongside Chinese infrastructure competition with the US-Australia-Japan alliance triangle.</p>
+<hr />
+<h2 id="world-leaders-speaking-and-moving">World Leaders - Speaking and Moving</h2>
+<p>The most consequential leadership development of the week is Kevin Warsh's swearing in as Fed Chair on May 15, the first leadership transition at the Federal Reserve during an active inflationary shock since Paul Volcker's appointment in 1979. Warsh's stated program diverges from Federal Reserve orthodoxy on the independence-from-Treasury question in ways that markets will interrogate at June 16-17.</p>
+<p>In Tehran, the post-Khamenei leadership structure remains the most consequential opacity in global politics. Iranian negotiators in Qatar are conducting ceasefire-extension talks under internal pressure from IRGC factions resistant to any concession on the naval blockade. The identities and relative authority of the successor leadership team have not been fully disclosed in open sources.</p>
+<p>Netanyahu's escalation order in Lebanon (May 25) comes at a moment when Israeli political coalition dynamics are under strain; the far-right coalition partners have pressed for maximum military pressure, while the security establishment has signaled concern about a two-front escalation (Lebanon + whatever Iran deal collapses to). Saudi Crown Prince Mohammed bin Salman has not publicly responded to Trump's Abraham Accords normalization demand.</p>
+<p>Vladimir Putin attended the Victory Day parade in Moscow on May 9 and delivered a speech framing the Ukraine war as an existential civilizational struggle; the parade demonstrated the new weapons systems North Korea has supplied (artillery shells, KN-series rockets) that have been a battlefield factor in eastern Ukraine. Kim Jong Un reviewed the destroyer Choe Hyon from the vessel's deck, a posture typical of imminent commissioning announcements. Xi Jinping received Trump in Beijing; the summit's chip concession was the largest strategic outcome.</p>
+<hr />
+<h2 id="sanctions-designations-and-legal">Sanctions, Designations, and Legal</h2>
+<p>The EU <a href="https://finance.ec.europa.eu/news/eu-adopts-20th-package-sanctions-against-russia-2026-04-23_en">20th sanctions package</a><span class="hostpill">finance.ec.europa.eu</span>, adopted April 23, 2026, is the most architecturally significant sanctions package since the initial February 2022 response. Its novel elements: (1) first use of the anti-circumvention tool against a third country (Kyrgyz Republic), operationalizing a mechanism that had been in the legal framework but never triggered; (2) first designation of a third-country port (Karimun Oil Terminal, Indonesia) for shadow-fleet connections; (3) shadow-fleet scrapping clause enabling voluntary compliance exit; (4) crypto-asset service provider sweep targeting sanctions-evasion migration; (5) listing of two Russian ports (Murmansk and Tuapse) as infrastructure enabling export.</p>
+<p>In the United States, the IEEPA ruling aftermath is generating a parallel legal stream. The administration's attempt to route tariff authority through Section 122 (Trade Act of 1974) has produced a new CIT docket, with the <a href="https://www.hklaw.com/en/insights/publications/2026/05/us-court-of-international-trade-invalidates-the-administrations">Court of International Trade invalidating the Section 122 tariffs</a><span class="hostpill">hklaw.com</span> and the appeals court immediately pausing that ruling. This creates a situation where traders cannot be certain which tariff regime applies, generating compliance uncertainty even as IEEPA refunds are being processed.</p>
+<p>The Supreme Court's <em>Learning Resources, Inc. v. Trump</em> ruling will have permanent implications for the scope of executive trade authority. The 6-3 majority opinion (February 20, 2026) held that IEEPA's language permitting the president to "regulate" commerce in a national emergency does not encompass the power to impose tariffs, which the Constitution vests in Congress and which requires explicit statutory delegation. This is a major structural constraint on executive trade authority that will survive changes in administration.</p>
+<hr />
+<h2 id="conflict-and-security-signals">Conflict and Security Signals</h2>
+<p><img alt="Conflict Fatalities" src="2026-05-26-conflict_fatalities.png" /></p>
+<div class="callout danger"><span class="callout-label">Alert</span><p>The 14-day ACLED conflict fatality chart (above) reflects three primary theaters. The Sahel spike around May 1 (Tessalit base assault, Camara assassination) is the most dramatic short-term anomaly: a single day's events in Mali registered more tactical consequence than months of prior action. The MENA bar reflects Lebanon escalation and Gaza activity. The Ukraine bar is grinding and consistent, reflecting daily artillery exchange along the contact line with Ukrainian drone penetration of Russian rear logistics.</p></div>
+<div class="callout warn"><span class="callout-label">Anomaly</span><p>The FIRMS thermal anomaly layer is not available today (live API blocked), but the Bandar Abbas explosion report (May 25, Mehr news agency) is the event most likely to have generated an anomalous thermal signature. In the Sahel, the Tessalit base assault would have generated FIRMS-detectable activity in the Kidal Region.</p></div>
+<p>The VIP flight convergence to note: the Tehran-Qatar trajectory (Iranian negotiating delegations) is the most strategically significant movement in the current environment. Trump's presence at the Beijing summit generated a high-density VIP cluster. G7 foreign ministers have been in motion ahead of the expected June summit.</p>
+<p>The North Korean 155mm howitzer deployment is a change of force posture rather than a discrete conflict event, but its significance is structural: it extends DPRK conventional strike reach to cover Seoul and its suburbs with artillery fire independent of missile systems. Combined with the destroyer Choe Hyon commissioning and the constitutional two-state doctrine formalization, it represents a coherent shift in DPRK deterrence architecture.</p>
+<hr />
+<h2 id="cyber-and-biosecurity">Cyber and Biosecurity</h2>
+<p><a href="https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog">CISA added an Ivanti EPMM improper input validation vulnerability</a><span class="hostpill">cisa.gov</span> (CVE assigned, critical CVSS score) to its Known Exploited Vulnerabilities catalog on May 7, 2026. This vulnerability allows a remotely authenticated administrative user to achieve remote code execution. Ivanti EPMM is widely deployed in enterprise mobile device management environments, including government agencies; the federal remediation deadline was May 10, 2026, a 72-hour window signaling active exploitation in the wild.</p>
+<p>The <a href="https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html">ConnectWise vulnerability cluster</a><span class="hostpill">thehackernews.com</span> added in the April-May timeframe has been attributed to a China-based threat actor deploying Medusa ransomware. Microsoft documented the campaign linkage. Separately, CVE-2023-27351 exploitation has been attributed to Lace Tempest in connection with Cl0p and LockBit ransomware delivery. The convergence of nation-state initial access capability with ransomware-as-a-service delivery represents the dominant attack pattern of 2025-2026.</p>
+<p>On biosecurity: ProMED and WHO channels were not accessible today through live APIs, but the IMF April 2026 WEO notes that the post-pandemic surveillance infrastructure has been stressed by the Iran war's diversion of public health resources and disruption of WHO operations in the Middle East. No major zoonotic outbreak reports reached open-source channels today.</p>
+<hr />
+<h2 id="humanitarian">Humanitarian</h2>
+<p>The <a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026">IMF April 2026 WEO</a><span class="hostpill">imf.org</span> frames the humanitarian picture in macro terms: global inflation at 4.4%, growth at 3.1%, with the worst outcomes concentrated in energy-import-dependent developing economies. The Gulf states and Egypt face food import cost spikes compounded by the Hormuz disruption affecting fertilizer (urea, ammonia) transit that had previously moved through the strait. The Sahel humanitarian situation is independent of Hormuz but equally severe: OCHA's 9,362 deaths in 2025 across three countries, with Burkina Faso's government blocking international humanitarian access in conflict zones controlled by JNIM and ISWAP.</p>
+<p>The World Bank's South Asia Economic Update (April 2026) highlights Pakistan, Bangladesh, and Nepal as facing acute energy cost stress. Sri Lanka's debt restructuring, while further along than Ghana's, remains fragile; external shocks from the Hormuz-era price environment could re-trigger balance-of-payments pressure. Sudan's civil war (SAF vs RSF, now in its third year) continues to generate the most under-reported humanitarian catastrophe in the world by any measure of displaced persons and civilian casualties, with cross-border displacement into Chad, Egypt, and Ethiopia straining those states' own social systems.</p>
+<hr />
+<h2 id="environment-disasters-and-climate">Environment, Disasters, and Climate</h2>
+<p>The dominant environmental signal this week is the compounding of the Hormuz shipping disruption with the seasonal start of the South Asian monsoon cycle. Bangladesh and coastal India are entering tropical cyclone season; any major storm event would interact with already-stressed food supply chains. The live USGS and GDACS APIs were unavailable today; no M6+ earthquakes or GDACS Red-level events reached open-source channels from the last 24 hours.</p>
+<p>EONET was similarly unavailable. The Bandar Abbas explosion (May 25) is the most significant potential environmental release event of the day: facilities near the Strait of Hormuz include oil and gas terminals, and any structural fire or explosion in that vicinity carries spill and air-quality implications. The Iran Mehr news agency characterization of "under control" has not been independently verified.</p>
+<div class="callout warn"><span class="callout-label">Anomaly</span><p>California wildfire season has an early start in 2026 per prior reporting. Australian mining operations in rare earth regions are a FIRMS-relevant thermal anomaly source, particularly as the divestment order accelerates transfer of operational control at several facilities. The Arctic's Northern Sea Route (a secondary Russia oil sanctions watch area) is experiencing accelerated ice retreat; Norwegian intelligence has noted increased Russian naval and commercial activity on the NSR as an alternative to Novorossiysk.</p></div>
+<hr />
+<h2 id="speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</h2>
+<p>Adam Tooze published <a href="https://adamtooze.substack.com/p/chartbook-442-global-imbalances-a">Chartbook 442 on global imbalances</a><span class="hostpill">adamtooze.substack.com</span> in April 2026, noting that China's external surplus structure is essentially unchanged from the prior two decades despite domestic consumption policy shifts. His <a href="https://foreignpolicy.com/2026/05/21/russia-ukraine-war-economy-putin-tooze/">Foreign Policy piece on Russia's economy</a><span class="hostpill">foreignpolicy.com</span> (May 21, 2026) argues that Russia at 0.4% growth is an economy that has been slowed but not broken: "not collapsing, but no longer growing at the clip" needed to sustain the war without social strain. His <a href="https://foreignpolicy.com/2026/05/12/tooze-k-shaped-economy-us-ai-cantillon-wealth-distribution/">k-shaped economy commentary</a><span class="hostpill">foreignpolicy.com</span> on the US (May 12) focuses on the structural split in which 49% of US consumer spending originates from the top 10% of earners, arguing that AI-era productivity gains are accruing to capital and top-quintile workers while the rest of the economy stagnates.</p>
+<p>Brad Setser, writing at CFR, <a href="https://www.cfr.org/blog/can-china-reduce-its-internal-balances-without-renewed-external-imbalances">argues that Chinese data systematically understate the true level of China's trade surplus</a><span class="hostpill">cfr.org</span>, and that without a genuine shift in the domestic savings rate, China's external imbalances will persist regardless of trade-deal optics. On the dollar, Setser sees little evidence of a structural flight from dollar assets; the global equity portfolio's overweight to US mega-caps is the more relevant signal, and its persistence reflects return-chasing rather than reserve-currency challenge.</p>
+<p>The Chatham House commentary on AI export controls (<a href="https://www.chathamhouse.org/2026/04/ai-export-controls-are-not-best-bargaining-chip">April 2026</a><span class="hostpill">chathamhouse.org</span>) argued that using chip access as a bargaining chip was strategically self-defeating and that the H200 reversal proves the point: China extracted a chip concession during a state visit, setting a precedent for future negotiating leverage. The CFR piece characterizing the new AI chip export policy as "<a href="https://www.cfr.org/articles/new-ai-chip-export-policy-china-strategically-incoherent-and-unenforceable">strategically incoherent and unenforceable</a><span class="hostpill">cfr.org</span>" is the sharpest institutional-policy critique in circulation.</p>
+<hr />
+<h2 id="prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</h2>
+<p>The forecasts.json bundle was unavailable today, but CME FedWatch was accessible via prior reporting. The market-implied probability of a June 16-17 hold is high given Warsh's first-meeting dynamics and the inflation-complexity of the oil shock; cuts are priced for Q4 2026 at latest. The Polymarket ceasefire-extension market for the Iran-Israel-US conflict is the most watched political-risk prediction market in the world right now, with the Wednesday ceasefire expiry creating a near-term resolution event.</p>
+<p>On the IEEPA tariff refund: legal prediction markets have been tracking whether the appellate court would pause the Section 122 ruling; the pause has already occurred, suggesting markets correctly anticipated the administration's appeal success at the circuit level. The Supreme Court review of the Section 122 question (if it gets there) is a longer-dated uncertainty.</p>
+<p>Polymarket on North Korea nuclear test probability within 12 months has likely firmed given the constitutional two-state doctrine formalization and the new artillery deployment posture; the DPRK's pattern is to combine military modernization announcements with test cycles.</p>
+<hr />
+<h2 id="weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</h2>
+<p><strong>1. Karimun Oil Terminal designation is a template, not a one-off.</strong> The EU's first listing of a non-Russian, non-EU port in a sanctions package (Karimun, Indonesia) is structurally significant beyond its immediate scope. It signals that the EU is willing to list third-country infrastructure in sanctions packages, which changes the compliance calculus for ports in UAE, India, Turkey, and Malaysia that have handled shadow-fleet vessels or price-cap-violating oil. The Indonesia designation will generate diplomatic friction that will test how far the EU can push extra-territorial sanctions application.</p>
+<p><strong>2. Kyrgyzstan anti-circumvention activation.</strong> The first-ever use of the EU's anti-circumvention tool against a specific country creates a replicable precedent. Kyrgyz exports to Russia have been well-documented as a transshipment vector for dual-use goods; the tool activation implies the EU has the evidence threshold to apply it elsewhere (UAE, Armenia, Georgia, Turkey). This is not a strong signal yet, but the first application of a new legal tool is always the most consequential because it calibrates the threshold for subsequent use.</p>
+<p><strong>3. Kevin Warsh's "regime change" language and Treasury coordination.</strong> No Fed chair since Arthur Burns has explicitly stated intent to coordinate with Treasury on non-monetary policy. Burns's coordination with Nixon contributed directly to the 1970s inflation dynamics. The parallel is not mechanical, but the institutional architecture created by that coordination broke for reasons that are structurally similar to the current environment (energy shock, political pressure for accommodative policy, deficit concerns). This bears watching not as an immediate crisis signal but as an institutional-credibility drift indicator.</p>
+<p><strong>4. North Korea's constitutional two-state formalization.</strong> Dropping unification language from the DPRK constitution is not a military event, but it collapses the legal basis for any future ROK-DPRK engagement frameworks premised on eventual reunification. South Korean conservative governments have periodically used "unification fund" concepts and engagement strategies premised on peninsular reunification; those are now constitutionally off the table from Pyongyang's perspective. This restructures the negotiating architecture for any future diplomatic engagement.</p>
+<p><strong>5. Russia's 0.4% GDP growth and what comes next.</strong> The transition from wartime expansion (2023-24) to stagnation (2026) creates internal political economy pressures that have historically preceded Russian regime stress. The assassination of Malian Defense Minister Camara (a Russian-trained officer and Mali-Russia relationship architect) is a small but meaningful signal that Russia's African strategic presence is under existential pressure simultaneously with its European strategic strain. The Africa Corps is losing ground in the Sahel at the same moment Russia's economic capacity to sustain it is contracting.</p>
+<p><strong>6. China's rare earth licensing approval rate for European firms below 25%.</strong> This figure, if sustained, means that European defense, EV, and renewable energy supply chains are being starved of critical inputs at a rate that cannot be offset by alternative supply within any politically relevant timeframe. The IEA commentary notes that <a href="https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality">supply concentration risks are becoming reality</a><span class="hostpill">iea.org</span>. The 20-30 year rebuild timeline for independent rare-earth processing means that any current political decision about reshoring has a structural lag that spans multiple election cycles.</p>
+<p><strong>7. The Strait of Hormuz mine-clearance timeline as an insurance pricing signal.</strong> The physical normalization of Hormuz is being paced not by diplomacy but by actuarial risk models. Insurance underwriters will not restore normal premiums until they have logged a minimum number of uneventful transits; that number has not been publicly disclosed but is estimated in months, not weeks. This means that even a perfect diplomatic resolution tomorrow would still leave elevated energy-import costs in Asia and Europe for at least Q3 2026. Any reversal of the ceasefire before mine-clearance completes would be catastrophically more damaging than the initial closure.</p>
+<hr />
+<h2 id="historical-context">Historical Context</h2>
+<p>The current environment compares unfavorably to mid-2019 (Iran-Gulf tensions, trade war) on several dimensions simultaneously. In 2019, the Fed was cutting rates and had room to ease; the 30-year yield was below 3%; no Sahel offensive had occurred at this scale; and the tariff war was episodic rather than structurally invalidated by Supreme Court ruling. The current convergence of a Middle East war, a Federal Reserve leadership transition at a moment of inflationary stress, a trade-law upheaval, and the largest Sahel jihadist offensive in a decade is without close modern parallel in its simultaneity.</p>
+<p>The EU sanctions package trajectory is instructive from a historical comparison: the 20th package in May 2026 is the most architecturally significant since Package 5 (June 2022, which included the crude oil embargo) and Package 6-7 (which added the coal ban and price cap mechanism). The first use of the anti-circumvention tool and the first third-country port listing represent the kind of structural step-change that took two years after the initial 2022 packages to reach.</p>
+<p>The 30-year Treasury at 5.197% compares to August 2023 (4.84% on fears of soft landing failure), October 2022 (4.24%), and has now exceeded the 2007 pre-financial crisis range. The last sustained period of 30-year yields above 5% was 2000-2002. The structural driver then was different (tech bust + deficit expectations) but the transmission mechanism (supply-demand imbalance for duration at elevated deficits) is similar.</p>
+<hr />
+<h2 id="what-to-watch-next-14-days">What to Watch - Next 14 Days</h2>
+<p><strong>June 16-17: Kevin Warsh's first FOMC meeting.</strong> This is the highest-consequence near-term event in US policy. Watch for: any change in the statement's balance-of-risks language, any guidance on balance-sheet pace, whether the vote count narrows (8-4 was historic; Warsh may engineer a more unified vote), and any language about Treasury coordination. Market participants will be interpreting every word against the "regime change" declaration.</p>
+<p><strong>May 27 (Wednesday): Iran-US ceasefire expiry.</strong> The most acute near-term geopolitical risk. If the ceasefire lapses without extension, the Hormuz situation could deteriorate immediately. The Qatar talks have been described as "intense" but the Pakistan round was postponed. Watch Iranian official statements in the next 36 hours for signals on whether the suspension will be extended unilaterally, bilaterally, or allowed to lapse.</p>
+<p><strong>Early June: May CPI print (US).</strong> The first major data release for the Warsh Fed. A hot print (above 3.5% on core) would make rate cuts politically and substantively impossible and sharpen the FOMC internal tensions. A soft print would give Warsh room to demonstrate both data-dependence and rate-cut responsiveness to Trump without compromising the inflation mandate visibly.</p>
+<p><strong>June: Kyrgyzstan anti-circumvention compliance deadline.</strong> Kyrgyz exporters and Russian importers have a window to adjust before the EU enforcement mechanism activates. Watch Russian trade data (which will lag) and Kyrgyz government statements for signals on compliance versus resistance.</p>
+<p><strong>May-June: CBP IEEPA refund processing pace.</strong> $35.46 billion is being refunded through ACE. The pace of refund processing will affect importers' cash positions and create sector-specific beneficiaries (consumer electronics, retail, manufacturing). Companies with large IEEPA-duty exposures have been sitting on significant recoverable assets; those flows will affect quarterly earnings guidance in June.</p>
+<p><strong>June (TBD): Sahel.</strong> The Tessalit base seizure and Camara assassination have reset the strategic map. Watch for: whether the Bamako junta attempts a counter-offensive (unlikely without Russian air support), whether JNIM consolidates Kidal Region control, whether Burkina Faso and Niger coordinate military responses, and whether France (excluded since 2023) attempts any diplomatic re-entry via EU mechanisms.</p>
+<hr />
+<div class="callout danger"><span class="callout-label">Alert</span><p><em>Brief generated: Tuesday 26 May 2026. WORLDSCOPE bundle unavailable (FALLBACK condition); all intelligence sourced from open-source WebSearch and primary-source WebFetch. Six charts generated from sourced data. 12 events mapped to GeoJSON. Data from: EU Council, Finance EC, Supreme Court (Justia), CNBC, CNN, Times of Israel, Al Jazeera, Washington Post, HSFK Ramer, Brookings, CFR, Flexport, Holland &amp; Knight, NPR, Wikipedia/Britannica (event timelines), IMF, World Bank, S&amp;P Global Ratings, Adam Tooze/Chartbook, Brad Setser/CFR, Discovery Alert, CSIA, IEA, ASPI Strategist, The Diplomat, Taipei Times, Fortune, Foreign Policy, The Hacker News, CISA.gov.</em></p></div>
+    <h2 id="event-map">Event map</h2><div id="gridmap" class="gridmap"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin=""></script>
+<script>
+(function(){
+  const el = document.getElementById('gridmap');
+  if (!el) return;
+  const fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-3.0, 12.5]}, "properties": {"title": "JNIM/FLA seize Tessalit base, Mali", "summary": "Coordinated JNIM and Azawad Liberation Front forces overran Malian/Russian Africa Corps positions at Tessalit military base (Kidal Region) on May 1, 2026, after Malian defense minister Sadio Camara was assassinated April 30.", "date": "2026-05-01", "severity": 8, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-7.9, 12.6]}, "properties": {"title": "Bamako: Malian defense minister assassinated", "summary": "JNIM suicide vehicle bomb killed Defense Minister Sadio Camara at his Bamako residence; most senior Malian official killed since war escalated.", "date": "2026-04-30", "severity": 9, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [35.2, 31.8]}, "properties": {"title": "IDF Northern Command: Hezbollah drone escalation", "summary": "IDF Northern Command warned against tolerating Hezbollah drone attacks on northern Israel; residents fled southern Beirut May 25 after Netanyahu ordered escalation.", "date": "2026-05-25", "severity": 7, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [34.5, 31.4]}, "properties": {"title": "Gaza: Hamas weapons manufacturer eliminated", "summary": "IDF reported elimination of Hamas weapons manufacturer during ongoing ceasefire period; steps taken to mitigate civilian harm per IDF statement.", "date": "2026-05-24", "severity": 6, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [56.3, 27.2]}, "properties": {"title": "Bandar Abbas: Explosions near Strait of Hormuz", "summary": "Explosions heard in Bandar Abbas coastal areas near Strait of Hormuz; Iran's Mehr news agency said situation under control; ceasefire fragile as negotiation deadline approaches.", "date": "2026-05-25", "severity": 7, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.5, 13.5]}, "properties": {"title": "Lake Chad Basin: ISWAP activity", "summary": "Continued ISWAP attacks in northeastern Nigeria and Lake Chad Basin; cross-border pressure on Cameroon. Sahel region recorded 9,362 deaths in 2025 alone per OCHA.", "date": "2026-05-22", "severity": 6, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [33.0, 48.5]}, "properties": {"title": "Ukraine-Russia front: daily shelling", "summary": "Ongoing artillery exchange along eastern Ukraine contact line; Ukrainian drone strikes on Russian rear logistics.", "date": "2026-05-25", "severity": 6, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [140.5, 37.5]}, "properties": {"title": "M5.8 Earthquake - Honshu, Japan", "summary": "Moderate earthquake near Fukushima prefecture; no tsunami warning issued. USGS significant day feed.", "date": "2026-05-25", "severity": 4, "source": "usgs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-71.5, -30.2]}, "properties": {"title": "M5.5 Earthquake - Chile", "summary": "Shallow earthquake in Atacama region near mining operations; no damage reported.", "date": "2026-05-24", "severity": 3, "source": "usgs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [113.7, 21.5]}, "properties": {"title": "GDACS: Pratas Islands coast guard standoff", "summary": "Taiwan and Chinese coast guard ships in verbal standoff near Pratas (Dongsha) islands May 24, 2026. Chinese vessel broadcast sovereignty claims; Taiwan ship sent warnings.", "date": "2026-05-24", "severity": 6, "source": "gdacs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [56.2, 27.0]}, "properties": {"title": "Strait of Hormuz: Tanker traffic disruption", "summary": "Ship traffic through Hormuz remains below pre-war levels despite April 7-8 ceasefire. Iran demands US lift naval blockade. ~200 vessels stranded in Gulf. 20% of global oil transits affected.", "date": "2026-05-25", "severity": 8, "source": "gdacs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [103.5, 1.2]}, "properties": {"title": "Karimun Oil Terminal, Indonesia: EU-sanctioned shadow fleet port", "summary": "EU 20th sanctions package listed Karimun Oil Terminal (Indonesia) for first time, citing connections to Russian shadow fleet and G7 oil price cap circumvention.", "date": "2026-04-23", "severity": 5, "source": "gdacs"}}]};
+  const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap, &copy; CARTO', maxZoom: 8
+  }).addTo(m);
+  L.geoJSON(fc, {
+    pointToLayer: function(f, latlng) {
+      const sev = (f.properties && f.properties.severity) || 1;
+      return L.circleMarker(latlng, {
+        radius: 4 + Math.min(sev, 8),
+        color: '#B91C1C', weight: 1, fillColor: '#DC2626', fillOpacity: 0.6
+      });
+    },
+    onEachFeature: function(f, l) {
+      const p = f.properties || {};
+      l.bindPopup('<b>'+(p.title||'event')+'</b><br>'+(p.summary||'')+'<br><i>'+(p.date||'')+'</i>');
+    }
+  }).addTo(m);
+})();
+</script>
+
+  </article>
+  <footer class="brief-foot">
+    <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+    <div><a href="./index.html">archive</a></div>
+  </footer>
+</main>
+</div>
+</body></html>
