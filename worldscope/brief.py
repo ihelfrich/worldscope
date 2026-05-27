@@ -56,6 +56,7 @@ from .sections.paper_bets import PaperBetsSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
 from .sections.vip_flights import VipFlightsSection
+from .sections.weather import WeatherSection
 from .sections.wikidata_changes import WikidataChangesSection
 from .store import SnapshotStore
 from .synth import synthesize
@@ -69,6 +70,7 @@ SECTION_REGISTRY = [
     ForeignNewsSection,
     ChineseInternalSection,
     PaperBetsSection,
+    WeatherSection,
     MacroSection,
     MarketsSection,
     BillionairesSection,
