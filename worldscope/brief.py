@@ -223,6 +223,18 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as ux:  # pragma: no cover
         print(f"[ukraine-maps] suite failed: {type(ux).__name__}: {ux}")
 
+    # 1d-bis. Stage 1 analytical pass: cross-section entity recurrence.
+    # Pre-computes which entities appear in 3+ sections today and writes
+    # lake/sections/_meta/<date>/cross_section.json. The desk-officer
+    # routine reads this instead of trying to derive cross-section
+    # recurrence from raw text it cannot hold in attention.
+    try:
+        from .analysis.cross_section import write as _cs_write
+        cs_path = _cs_write(today.isoformat())
+        print(f"[cross-section] {cs_path}")
+    except Exception as csx:  # pragma: no cover
+        print(f"[cross-section] analyzer failed: {type(csx).__name__}: {csx}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made
