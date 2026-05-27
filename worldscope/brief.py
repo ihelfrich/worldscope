@@ -54,6 +54,7 @@ from .sections.local_news import LocalNewsSection
 from .sections.markets_global import MarketsGlobalSection
 from .sections.paper_bet_placement import PaperBetPlacementSection
 from .sections.paper_bets import PaperBetsSection
+from .sections.sanctions_procurement import SanctionsProcurementSection
 from .sections.state_bills import StateBillsSection
 from .sections.state_news import StateNewsSection
 from .sections.vip_flights import VipFlightsSection
@@ -75,6 +76,7 @@ SECTION_REGISTRY = [
     MacroSection,
     MarketsSection,
     MarketsGlobalSection,
+    SanctionsProcurementSection,
     BillionairesSection,
     PeopleSection,
     SanctionsSection,
