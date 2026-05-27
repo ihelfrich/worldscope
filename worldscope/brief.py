@@ -48,6 +48,7 @@ from .sections.people import PeopleSection
 from .sections.promed import PromedSection
 from .sections.reliefweb import ReliefWebSection
 from .sections.sanctions import SanctionsSection
+from .sections.state_bills import StateBillsSection
 from .sections.vip_flights import VipFlightsSection
 from .sections.wikidata_changes import WikidataChangesSection
 from .store import SnapshotStore
@@ -56,6 +57,7 @@ from .trends import section_trend
 
 SECTION_REGISTRY = [
     FederalRegisterSection,
+    StateBillsSection,
     MacroSection,
     MarketsSection,
     BillionairesSection,

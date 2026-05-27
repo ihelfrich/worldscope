@@ -37,6 +37,7 @@ jobs:
           ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           MEDIACLOUD_API_KEY: ${{ secrets.MEDIACLOUD_API_KEY }}
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
           # CI can't see the local 2.6 GB OpenSanctions corpus or the
           # PEP index built from it. Skip those sections so locally-generated
           # content (from Ian's machine, where the data files live) carries
@@ -47,13 +48,23 @@ jobs:
           # CI reads them for the carry-forward render.
           WORLDSCOPE_STORE_PATH: ${{ github.workspace }}/data/store.sqlite
         run: python -m worldscope.brief --out dist
-      - name: Commit archive + snapshot store
+      - name: Commit archive + snapshot store + lake
         run: |
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
-          git add -f dist/ data/store.sqlite
-          git diff --staged --quiet || git commit -m "briefing $(date -u +%Y-%m-%d)"
-          git push
+          git add -f dist/ data/store.sqlite lake/ || true
+          if git diff --staged --quiet; then
+            echo "no changes"; exit 0
+          fi
+          git commit -m "briefing $(date -u +%Y-%m-%d)"
+          # Retry-with-rebase: same race-safety as render-briefings.yml
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"; break
+            fi
+            echo "Push rejected on attempt $attempt; rebasing"
+            git pull --rebase --autostash origin main
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
