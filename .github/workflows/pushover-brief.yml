@@ -1,23 +1,25 @@
 name: Pushover brief delivery
 
-# Triggered by the routines' pushes to briefings/ or weekly_briefings/, by
-# the daily schedule (which catches routine pushes that GITHUB_TOKEN auth
-# suppresses from triggering on push), or manually via workflow_dispatch.
+# Triggered AFTER "Render brief markdown to HTML" completes, so the URL
+# embedded in the Pushover message is guaranteed to be a live page rather
+# than a 404. (Before this change the two workflows ran in parallel on
+# the same push event; whichever finished first won the race and the
+# loser's commit was rejected, producing dead links in notifications.)
 #
 # Idempotency: each notification commits a marker into .pushover-sent.json
 # so the same brief is never notified twice even if the workflow re-runs.
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Render brief markdown to HTML"]
+    types: [completed]
     branches: [main]
-    paths:
-      - "briefings/**.md"
-      - "weekly_briefings/**.md"
   schedule:
-    # Hourly between 11:15-13:15 UTC catches the 11:00 UTC daily routine.
-    - cron: "20 11-13 * * *"
-    # Friday evening catches the 20:00 UTC weekly routine.
-    - cron: "35 20 * * 5"
+    # Fallback if workflow_run misses (e.g. render failed on first attempt
+    # and was manually re-run). Fires hourly 11:30-13:30 UTC for the daily
+    # routine and Friday 20:40 UTC for the weekly routine.
+    - cron: "30 11-13 * * *"
+    - cron: "40 20 * * 5"
   workflow_dispatch:
     inputs:
       brief:
@@ -34,6 +36,13 @@ concurrency:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    # When fired by workflow_run, only proceed if the upstream Render
+    # workflow actually succeeded. Otherwise we'd send a notification
+    # pointing at HTML that never deployed. Schedule + workflow_dispatch
+    # don't carry a workflow_run context so they always proceed.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
 

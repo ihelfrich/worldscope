@@ -42,13 +42,30 @@ jobs:
       - run: pip install markdown pyyaml
       - name: Render every brief to HTML
         run: python tools/render_brief.py
-      - name: Commit dist/ briefings
+      - name: Commit dist/ briefings (race-safe)
         run: |
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
-          git add -f dist/briefings dist/weekly_briefings || true
-          git diff --staged --quiet || git commit -m "rendered briefs ($(date -u +%Y-%m-%d))"
-          git push
+          # Stage rendered HTML, tolerating either folder being absent.
+          [ -d dist/briefings ] && git add -f dist/briefings || true
+          [ -d dist/weekly_briefings ] && git add -f dist/weekly_briefings || true
+          # If nothing changed, exit cleanly.
+          if git diff --staged --quiet; then
+            echo "No rendered-HTML changes to commit"
+            exit 0
+          fi
+          git commit -m "rendered briefs ($(date -u +%Y-%m-%d))"
+          # Retry-with-rebase loop. Concurrent commits from the pushover
+          # workflow or the routine itself otherwise reject our push and
+          # leave the HTML undeployed -> 404 on the link Pushover sends.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              break
+            fi
+            echo "Push rejected on attempt $attempt; rebasing on origin/main"
+            git pull --rebase --autostash origin main
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
