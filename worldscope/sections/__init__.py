@@ -443,6 +443,99 @@ class Section(ABC):
         summary_md = self.synthesize_summary(state)
         structured = self.emit_structured(state)
 
+        # Push the structured.json payload into the graph tables so the
+        # MCP server's lookup_entity / graph_path / query_relationships
+        # tools can see them. (The artifact files are useful but the
+        # SQLite-backed graph is what makes ad-hoc queries fast.)
+        try:
+            for ent in structured.get("entities_added", []):
+                lake.upsert_entity(
+                    entity_id=ent["id"],
+                    type=ent["type"],
+                    canonical_name=ent["canonical_name"],
+                    aliases=ent.get("aliases"),
+                    metadata=ent.get("metadata"),
+                )
+            for ent in structured.get("entities_updated", []):
+                lake.upsert_entity(
+                    entity_id=ent["id"],
+                    type=ent["type"],
+                    canonical_name=ent["canonical_name"],
+                    aliases=ent.get("aliases"),
+                    metadata=ent.get("metadata"),
+                )
+            for rel in structured.get("relationships", []):
+                lake.upsert_relationship(
+                    from_id=rel["from"],
+                    to_id=rel["to"],
+                    type=rel["type"],
+                    weight=rel.get("weight", 1.0),
+                    evidence=rel.get("evidence"),
+                )
+            # Link records to their mentioned entities for the
+            # record_entities M:N table.
+            for rec in raw_records:
+                for entity_id in rec.get("entities", []) or []:
+                    lake.link_record_entity(rec["id"], entity_id)
+            # Persist anomalies + predictions + paper bets the section emitted.
+            import hashlib
+            for anom in structured.get("anomalies", []):
+                # Deterministic ID so re-runs idempotent
+                aid = hashlib.sha1(
+                    f"{self.id}|{anom.get('category','')}|{anom.get('description','')}|{section_date}".encode()
+                ).hexdigest()
+                lake.add_anomaly(
+                    anomaly_id=aid,
+                    section_id=self.id,
+                    category=anom.get("category", "unknown"),
+                    z_score=anom.get("z_score"),
+                    description=anom.get("description", ""),
+                    evidence=anom.get("evidence", []),
+                )
+            for pred in structured.get("predictions", []):
+                pid = pred.get("id") or hashlib.sha1(
+                    f"{self.id}|{pred.get('claim','')}|{section_date}".encode()
+                ).hexdigest()
+                lake.add_prediction(
+                    prediction_id=pid,
+                    target_date=pred.get("target_date"),
+                    resolution_criteria=pred.get("resolution_criteria", ""),
+                    predicted_outcome=pred.get("predicted_outcome", ""),
+                    confidence=pred.get("confidence", 0.5),
+                    training_window_days=pred.get("training_window_days"),
+                    indicators_used=pred.get("indicators_used", []),
+                    method=pred.get("method", "unspecified"),
+                    evidence=pred.get("evidence", []),
+                    section_id=self.id,
+                )
+            for bet in structured.get("paper_bets", []):
+                bid = bet.get("id") or hashlib.sha1(
+                    f"{self.id}|{bet.get('market_id','')}|{bet.get('side','')}|{section_date}".encode()
+                ).hexdigest()
+                lake.add_paper_bet(
+                    bet_id=bid,
+                    market_platform=bet.get("market_platform", "unknown"),
+                    market_id=bet.get("market_id", ""),
+                    market_url=bet.get("market_url"),
+                    market_question=bet.get("market_question", ""),
+                    market_resolves_at=bet.get("market_resolves_at"),
+                    side=bet.get("side", "YES"),
+                    size_usd=bet.get("size_usd", 0.0),
+                    price_at_bet=bet.get("price_at_bet", 0.5),
+                    rationale=bet.get("rationale", ""),
+                    evidence=bet.get("evidence", []),
+                    model_version=bet.get("model_version", "unspecified"),
+                    confidence_band=bet.get("confidence_band", "medium"),
+                    section_id=self.id,
+                )
+        except Exception as exc:
+            # Don't let graph-population errors fail the artifact write.
+            # The raw + summary + structured files are still safe on disk
+            # and a subsequent run can re-attempt the graph population.
+            import sys
+            print(f"[{self.id}] graph population failed: {type(exc).__name__}: {exc}",
+                  file=sys.stderr)
+
         artifacts = ArtifactSet(
             section_id=self.id,
             date=section_date,
