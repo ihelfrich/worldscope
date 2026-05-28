@@ -396,6 +396,13 @@ LEAFLET_SCRIPT = """
 (function(){
   const el = document.getElementById('gridmap');
   if (!el) return;
+  // Gracefully degrade when leaflet.js failed to load (CDN blocked,
+  // network issue). Previous version threw "L is not defined" and
+  // killed any later scripts on the page.
+  if (typeof window.L === 'undefined') {
+    el.innerHTML = '<div style="padding:16px;color:#4E5667;font-family:Inter,sans-serif;font-size:13px;font-style:italic;text-align:center">Map unavailable (Leaflet failed to load).</div>';
+    return;
+  }
   const fc = %%GEOJSON%%;
   const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
