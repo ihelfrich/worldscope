@@ -1,6 +1,6 @@
 # worldscope MCP server
 
-A Model Context Protocol server that exposes the Worldscope lake as queryable tools to any Claude session.
+A Model Context Protocol server that exposes the Worldscope lake as queryable tools to any Claude session. This is the substrate for the conversational + graph product: a chat session in Claude Desktop / Claude Code can ground every answer in the actual records the daily brief pulled, with citations back to primary sources.
 
 ## What this gives you
 
@@ -9,15 +9,21 @@ Once registered, any Claude session can call these tools natively:
 | Tool | What it does |
 |---|---|
 | `worldscope.search_news(query, days_back, section_id, state, limit)` | Full-text search across ingested records |
+| `worldscope.semantic_search(query, days_back, limit, min_similarity)` | Multilingual semantic search via sentence-transformers embeddings |
+| `worldscope.find_similar_to(record_id, top_k)` | "Show me everything else like this story" — cross-language neighbors of a record |
+| `worldscope.cluster_today(date_iso, similarity_threshold, time_window_hours)` | Dedup clusters: when N outlets carry the same wire, return ONE cluster |
 | `worldscope.lookup_entity(name_or_id, include_records, include_relationships)` | Profile any entity in the graph (person, org, place, filing, bill, ...) |
+| `worldscope.entity_neighborhood_graph(entity_id, radius, max_nodes)` | Nodes + edges payload for graph visualization |
+| `worldscope.query_relationships(entity_id, direction, type, limit)` | Relationship neighborhood for any entity |
+| `worldscope.graph_path(entity_a, entity_b, max_hops)` | Shortest connection path via the relationship graph |
+| `worldscope.cross_section_signals(date_iso, min_confidence, limit)` | Today's converging entities (the homepage hero block's data) |
+| `worldscope.today_top_new(date_iso, per_section, sections)` | Top NEW records across all sections — "what's new today" in one call |
 | `worldscope.recent_state_bills(state, topic, days_back, limit)` | Query the OpenStates slice of the lake |
 | `worldscope.get_paper_bets(status, days_back, limit)` | Paper-trading scorecard: open positions, resolved P&L, hit rate |
 | `worldscope.get_anomalies(category, days_back, limit)` | Section-level anomaly flags (feed failures, statistical alerts, etc.) |
 | `worldscope.get_source_health(stale_hours)` | Which feeds are fresh / stale / failing |
-| `worldscope.graph_path(entity_a, entity_b, max_hops)` | Shortest connection path via the relationship graph |
 | `worldscope.get_brief(date_iso)` | Fetch a past brief by date |
 | `worldscope.get_section_summary(section_id, date_iso)` | Get a section's pre-synthesized markdown summary |
-| `worldscope.query_relationships(entity_id, direction, type, limit)` | Relationship neighborhood for any entity |
 
 And a single resource:
 
@@ -31,28 +37,47 @@ And a single resource:
    pip3 install 'mcp[cli]'
    ```
 
-2. Register the server in your Claude Code config. The path depends on your install:
+2. Register the server in your Claude Desktop / Claude Code config. The path depends on your install:
 
-   - macOS Claude Code: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - macOS Claude Desktop: `~/Library/Application Support/Claude/claude_desktop_config.json`
    - Linux: `~/.config/Claude/claude_desktop_config.json`
 
-   Add this block (merging with any existing `mcpServers`):
+   Add this block (merging with any existing `mcpServers`). Prefer the `-m` form — it doesn't bake in an absolute path:
 
    ```json
    {
      "mcpServers": {
        "worldscope": {
          "command": "python3",
-         "args": ["/Users/ian/Projects/worldscope/mcp-server/worldscope_mcp.py"],
-         "env": {}
+         "args": ["-m", "worldscope.mcp"],
+         "cwd": "/absolute/path/to/worldscope"
        }
      }
    }
    ```
 
-3. Restart Claude Code (or any other MCP-aware Claude client).
+3. Restart Claude Desktop (or any other MCP-aware Claude client).
 
 4. Verify it's loaded by asking Claude: "what worldscope tools do you have?"
+
+## Worked examples — what the conversation feels like
+
+Once the server is live, the chat UX over the lake looks like:
+
+> **You**: What entities are converging today across sections?
+> **Claude** *(uses `cross_section_signals`)*: Today three entities recurred across 3+ sections — **China** (conflict, markets_global, vip_flights), **Jackson** (political_figures, state_bills, conflict), and **New York** (3 sections, total 4 mentions). Want me to drill into any of them?
+
+> **You**: Show me what's new in markets and macro today.
+> **Claude** *(uses `today_top_new` with `sections=["markets","macro"]`)*: Markets snapshot shipped 24 records today; macro shipped 8. Top of each: …
+
+> **You**: Pull the entity neighborhood for "China" with radius 2.
+> **Claude** *(uses `entity_neighborhood_graph`)*: 47 nodes, 89 edges within 2 hops. The graph clusters around three subnetworks: …
+
+> **You**: What's the connection between Kevin Warsh and Larry Summers in the lake?
+> **Claude** *(uses `graph_path`)*: 3-hop path: Warsh → Hoover Institution → Stanford → Summers, weighted by …
+
+> **You**: Find me coverage of "сменено мнение" in any language.
+> **Claude** *(uses `semantic_search`)*: The multilingual model surfaces 6 records: 2 Russian originals, 1 Ukrainian translation, 3 English wire copies, similarity 0.61–0.78.
 
 ## How it reads the lake
 
