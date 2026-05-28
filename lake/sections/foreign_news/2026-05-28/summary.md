@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-05-28
-record_count: 858
-new_today: 191
+record_count: 876
+new_today: 213
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-191 new of 858 total items today.
+213 new of 876 total items today.
 
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-28*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-28*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-28*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-28*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] US carries out new strikes on Iran military site](https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss) — *2026-05-28*
-  > It is the second time in three days that the US has attacked targets in Iran, threatening a fragile ceasefire.
-- [[Global] Israel issues evacuation order for swathes of southern Lebanon](https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The military says areas south of the Zahrani River are now "combat zones" as it threatens Hezbollah with fresh strikes.
-- **NEW**  [[Global] Jill Biden says she thought husband was 'having a stroke' during 2024 debate](https://www.bbc.com/news/articles/c99l270vy3no?at_medium=RSS&at_campaign=rss) — *2026-05-28*
-  > The former US first lady told CBS News that she was frightened by Joe Biden's performance against Donald Trump.
-- [[Global] Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns](https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Tedros Adhanom Ghebreyesus said fighting in DR Congo was hampering efforts to stop spread
-- **NEW**  [[Global] Matthew Perry's assistant jailed for 41 months over actor's ketamine death](https://www.bbc.com/news/articles/cjepvx151gqo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Kenneth Iwamasa, who pleaded guilty last year to one count of conspiracy to distribute ketamine causing death, said he "will forever regret" his actions.
-- [[Global] Five people found alive after week trapped in flooded Laos cave](https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The search is continuing for a further two villagers who are still missing, rescuers say.
-- [[Global] Israeli strike in Gaza City kills new head of Hamas's military wing](https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Hamas says Mohammed Odeh was killed alongside his wife and two children in a strike on a residential building.
-- [[Global] Woman caught after 30 years on the run is jailed for armed robberies](https://www.bbc.com/news/articles/cx21dr3lekpo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Klette was finally caught in a flat in Berlin in 2024 and put on trial last year.
-- [[Global] One killed and nine missing after chemical explosion at US paper mill](https://www.bbc.com/news/articles/cj9ppm94xw9o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Nine others were injured and another nine are missing after a tank ruptured at a paper mill in Longview, Washington.
-- [[Global] Hotel that refused to give tourist tap water acted lawfully, Italian court rules](https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The Italian Supreme Court rejected a tourist's claim that her consumer rights were breached when she was only offered €7 bottled mineral water.
-- [[Global] Ghana welcomes Pope's apology over Catholic Church's role in slavery](https://www.bbc.com/news/articles/cwy2d6j14l5o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The West African nation was one of the main gateways for the transatlantic slave trade.
-- [[Global] Trump-backed challenger beats veteran US senator in Texas primary](https://www.bbc.com/news/articles/clypprglrlyo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Ken Paxton's victory sets up what will be a closely watched contest in November's midterm elections.
-- [[Global] South Korea detains dissident who fled China in rubber boat](https://www.bbc.com/news/articles/c87q2pdwpw3o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > Dong Guangping, an activist and former police officer, spent hours at sea before reaching Korean waters.
-- [[Global] YouTuber arrested for allegedly using AI to defame Korean actor](https://www.bbc.com/news/articles/c759y6pvezgo?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The YouTuber allegedly made false claims that fuelled a career-ending scandal for Kim Soo-hyun.
-- [[Global] Nasa unveils next steps to build permanent Moon base](https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > Nasa plans to send hopping drones and roving vehicles to the Moon as part of plans for a permanent Moon base.
-- [[Global] Iran condemns US strikes as 'gross violation' of ceasefire](https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss) — *2026-05-26*
-  > The attacks took place while Iranian and Qatari negotiators were in Doha for peace talks.
-- [[Global] First Ghanaians evacuated from South Africa over immigration protests land in Accra](https://www.bbc.com/news/articles/cy0269pwxg3o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > It follows recent protests that have led to fears there could be a resurgence in xenophobic violence.
-- **NEW**  [[Global] We analysed thousands of Trump's posts - here's what we found](https://www.bbc.com/news/videos/cpvp30gpd0ko?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The BBC's Ros Atkins and BBC Verify sifted through thousands of the president's posts.
-- **NEW**  [[Global] How my brother went from liberal Hollywood actor to manosphere 'messiah'](https://www.bbc.com/news/articles/cjwppxwxpg1o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The sister of Mexican influencer El Temach tells the BBC she does not recognise him any more.
-- **NEW**  [[Global] Is 'out of control' US tipping culture spreading overseas?](https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > With US waiting staff getting cross at receiving less than 20%, tips are also on the rise elsewhere.
-- **NEW**  [[Global] Paul McCartney on playing guitar with Paul Mescal: 'He knew it better than I did!'](https://www.bbc.com/news/articles/ce8pjg6jp38o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The music legend on delivering "memory songs" for his 20th solo album, The Boys of Dungeon Lane - and why he's intrigued by the new Beatles biopics.
-- [[Global] The world's carmakers are struggling to compete with China](https://www.bbc.com/news/articles/c4g8vg72z43o?at_medium=RSS&at_campaign=rss) — *2026-05-27*
-  > The BBC visited China’s EV factories and found they are dominating the ecosystems shaping the global auto industry.
+- **NEW**  [[Global] Google employee charged with insider trading over Polymarket bets](https://www.aljazeera.com/news/2026/5/28/google-employee-charged-with-insider-trading-over-polymarket-bets?traffic_source=rss) — *2026-05-28*
+  > Michele Spagnuolo allegedly used insider information to profit from bets on people on Google&#039;s most-searched list.
+- **NEW**  [[Global] Aid cuts and climate change drive deadly malaria surge in Zimbabwe](https://www.aljazeera.com/news/2026/5/28/aid-cuts-and-climate-change-drive-deadly-malaria-surge-in-zimbabwe?traffic_source=rss) — *2026-05-28*
+  > A surge in malaria cases in Zimbabwe is exposing fragile health systems and growing treatment shortages in rural areas.
+- **NEW**  [[Global] Parisians defy swimming ban to cool off as record heat hits Europe](https://www.aljazeera.com/video/newsfeed/2026/5/28/parisians-defy-swimming-ban-to-cool-off-as-record-heat-hits-europe?traffic_source=rss) — *2026-05-28*
+  > Parisians cooled off in the city’s Saint-Martin canal as an unprecedented heatwave pushed temperatures across Europe.
+- **NEW**  [[Global] Uganda closes border with DRC in an effort to contain Ebola outbreak](https://www.aljazeera.com/video/newsfeed/2026/5/28/uganda-closes-border-with-drc-in-an-effort-to-contain-ebola-outbreak?traffic_source=rss) — *2026-05-28*
+  > Uganda has closed its border with neighbouring DR Congo for four weeks in an effort to contain an Ebola outbreak.
+- **NEW**  [[Global] US returns Palestinian rights expert Francesca Albanese to sanctions list](https://www.aljazeera.com/news/2026/5/28/us-returns-palestinian-rights-expert-francesca-albanese-to-sanctions-list?traffic_source=rss) — *2026-05-28*
+  > Trump administration has sought to pressure international officials who scrutinise reported abuses by Israeli forces.
+- **NEW**  [[Global] Iran war live: US strikes Iranian site as tensions rise in Strait of Hormuz](https://www.aljazeera.com/news/liveblog/2026/5/28/iran-war-live-israel-orders-mass-forced-displacement-for-all-south-lebanon?traffic_source=rss) — *2026-05-28*
+  > The Lebanese Health Ministry reports that Israeli attacks have killed 3,269 people since March 2.
+- **NEW**  [[Global] Jill Biden worried husband Joe was ‘having a stroke’ during 2024 US debate](https://www.aljazeera.com/news/2026/5/27/jill-biden-worried-husband-joe-was-having-a-stroke-during-2024-us-debate?traffic_source=rss) — *2026-05-27*
+  > The former US first lady said she had never seen former President Joe Biden act the way he did on the 2024 debate stage.
+- **NEW**  [[Global] Bolivia’s president warns ‘time is running out’ amid protest crisis](https://www.aljazeera.com/video/newsfeed/2026/5/27/bolivias-president-warns-time-is-running-out-amid-protest-crisis?traffic_source=rss) — *2026-05-27*
+  > Bolivia’s president has warned protesters “time is running out” amid a weeks-long standoff.
+- [[Global] Markets rally amid hopes of US-Iran deal](https://www.aljazeera.com/news/2026/5/27/markets-rally-amid-hopes-of-us-iran-deal?traffic_source=rss) — *2026-05-27*
+  > Markets betting a deal will reopen the Strait of Hormuz and soothe the deep global economic uncertainty.
+- [[Global] Former assistant to TV star Matthew Perry sentenced to 41 months in prison](https://www.aljazeera.com/news/2026/5/27/former-assistant-to-tv-star-matthew-perry-sentenced-to-41-months-in-prison?traffic_source=rss) — *2026-05-27*
+  > Sentencing of Kenneth Iwamasa concludes prosecution of five people in connection with Perry&#039;s death from drug ketamine.
+- [[Global] Why is Israel ramping up attacks in Lebanon despite a ceasefire?](https://www.aljazeera.com/video/inside-story/2026/5/27/why-is-israel-ramping-up-attacks-in-lebanon-despite-a-ceasefire?traffic_source=rss) — *2026-05-27*
+  > Intensification comes while US-Iran indirect talks continue.
+- [[Global] Trump says no one will control Strait of Hormuz](https://www.aljazeera.com/video/newsfeed/2026/5/27/trump-says-no-one-will-control-strait-of-hormuz?traffic_source=rss) — *2026-05-27*
+  > Donald Trump says he won’t allow Iran to control ⁠the Strait of ⁠Hormuz under the terms of any deal reached with Tehran.
+- [[Global] Ghana welcomes first group fleeing South African anti-immigration protests](https://www.aljazeera.com/news/2026/5/27/ghana-welcomes-first-group-escaping-south-african-anti-immigrant-protests?traffic_source=rss) — *2026-05-27*
+  > The repatriation came following a wave of anti-immigration protests in recent weeks.
+- [[Global] Alabama pushes US Supreme Court to approve congressional map for midterms](https://www.aljazeera.com/news/2026/5/27/alabama-pushes-us-supreme-court-to-approve-congressional-map-for-midterms?traffic_source=rss) — *2026-05-27*
+  > Republicans have revived a push to implement a congressional map that was rejected in 2023 for racial discrimination.
+- [[Global] Trump appears to threaten Oman over Strait of Hormuz impasse](https://www.aljazeera.com/news/2026/5/27/trump-appears-to-threaten-oman-with-bombing-over-strait-of-hormuz-impasse?traffic_source=rss) — *2026-05-27*
+  > The US president warns that Oman, a US ally, &#039;will behave just like everybody else, or we will have to blow them up&#039;.
+- [[Global] Can the US and India repair ties over trade and China?](https://www.aljazeera.com/video/counting-the-cost/2026/5/27/can-the-us-and-india-repair-ties-over-trade-and-china?traffic_source=rss) — *2026-05-27*
+  > Rubio&#039;s visit to India comes as Washington seeks closer ties with New Delhi amid trade tensions and energy politics.
+- [[Global] Israel orders evacuation of the Lebanese city of Tyre amid bombardment](https://www.aljazeera.com/video/newsfeed/2026/5/27/israel-orders-evacuation-of-the-lebanese-city-of-tyre-amid-bombardment?traffic_source=rss) — *2026-05-27*
+  > Israel has ordered the evacuation of the southern Lebanese city of Tyre
+- [[Global] Florida’s ‘Alligator Alcatraz’ migrant detention centre to close](https://www.aljazeera.com/video/newsfeed/2026/5/27/floridas-alligator-alcatraz-migrant-detention-centre-to-close?traffic_source=rss) — *2026-05-27*
+  > The US is set to shut down the federal migrant detention centre known as ‘Alligator Alcatraz’.
+- [[Global] Raid on Indian opposition leader triggers violence in Kerala](https://www.aljazeera.com/video/newsfeed/2026/5/27/raid-on-indian-opposition-leader-triggers-violence-in-kerala?traffic_source=rss) — *2026-05-27*
+  > Raid on Indian opposition leader triggers violence in Kerala
+- [[Global] India orders demolition drive along border as Pakistan tensions simmer](https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss) — *2026-05-27*
+  > The interior minister urged officials to address infiltration, narcotics, smuggling, and other &#039;trans-border crimes&#039;.
+- [[Global] Russia to task bankers with shooting down Ukrainian drones](https://www.aljazeera.com/news/2026/5/27/russia-to-task-bankers-with-shooting-down-ukrainian-drones?traffic_source=rss) — *2026-05-27*
+  > New legislation aims to integrate banks into Russia&#039;s air defences using jamming systems and trained employees.
 
-_(833 additional items in raw.jsonl)_
+_(851 additional items in raw.jsonl)_

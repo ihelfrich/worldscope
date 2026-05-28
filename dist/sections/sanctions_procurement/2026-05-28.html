@@ -349,8 +349,18 @@ footer.foot a { color: var(--navy); }
   .record { break-inside: avoid; box-shadow: none; }
   .section-card { break-inside: avoid; box-shadow: none; }
 }
+
+.ws-bg { position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }
+.ws-bg canvas { display: block; width: 100%; height: 100%; }
+.shell { position: relative; z-index: 1; }
+.topnav { position: sticky; z-index: 60; }
 </style>
 </head><body>
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{"day": "2026-05-28", "recurrences": [{"name": "China", "type": "place", "sections": 3}, {"name": "Jackson", "type": "person", "sections": 3}, {"name": "New York", "type": "place", "sections": 3}]}</script>
+<script src="../../assets/network.js" defer></script>
 <nav class="topnav" aria-label="Primary">
   <span class="brand">WORLDSCOPE</span>
   <a href="../../index.html">Today</a>
