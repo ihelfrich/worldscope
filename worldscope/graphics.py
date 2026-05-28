@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sqlite3
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -682,11 +683,29 @@ class DailyGraphics:
                 ax.text(0.07, y, z_str, fontsize=11, family=SANS_FAMILY,
                         color=color, fontweight="bold", va="top")
                 label_x = 0.22
-            label = a.get("category", "anomaly")
+            # Build a readable label. If description is present and unique
+            # vs category, prefer it (carries the actual context). Otherwise
+            # fall back to category. Uniform categories like
+            # "trade-beats-market" repeated five times read as broken; the
+            # description holds the specific entity / event.
+            category = a.get("category", "anomaly")
+            description = (a.get("description") or "").strip()
             section = a.get("section", "")
-            ax.text(label_x, y, label[:32], fontsize=10, family=SANS_FAMILY,
+            if description and description.lower() != category.lower():
+                # First clause of description, capped so it fits the column.
+                first_clause = re.split(r"[.;,]", description, maxsplit=1)[0]
+                label = first_clause.strip()[:46]
+            else:
+                # No useful description: show category, but include section
+                # context inline so the row isn't a clone of every other row
+                # in the same section.
+                sec_pretty = section.replace("_", " ").title() if section else ""
+                label = f"{category} ({sec_pretty})" if sec_pretty else category
+                label = label[:46]
+            ax.text(label_x, y, label, fontsize=10, family=SANS_FAMILY,
                     color=CAROLINA_NAVY, va="top")
-            if section:
+            if section and len(label) <= 36:
+                # Only show the right-aligned section pill when there's room.
                 ax.text(0.97, y, section.replace("_", " "), fontsize=8,
                         family=SANS_FAMILY, color=SLATE, va="top", ha="right")
             y -= 0.17
