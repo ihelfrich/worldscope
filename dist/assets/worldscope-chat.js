@@ -124,7 +124,11 @@
         return { section_id: sid, count: Math.min(recs.length, limit), records: recs.slice(0, limit) };
       }
       case "search_today": {
-        const q = (input.query || "").toLowerCase();
+        const q = (input.query || "").trim().toLowerCase();
+        if (!q) {
+          return { query: input.query || "", count: 0, records: [],
+                   error: "query is required and must be non-empty" };
+        }
         const limit = Math.max(1, Math.min(input.limit || 25, 50));
         const sectionFilter = input.section_id || null;
         const hits = [];
@@ -151,7 +155,11 @@
         return { date: lake.signals.day, recurrences_found: lake.signals.recurrences_found || 0, entities: ents };
       }
       case "lookup_entity": {
-        const needle = (input.name || "").toLowerCase();
+        const needle = (input.name || "").trim().toLowerCase();
+        if (!needle) {
+          return { query: input.name || "", count: 0, entities: [],
+                   error: "name is required and must be non-empty" };
+        }
         const hits = (lake.entities.entities || []).filter(e =>
           (e.name || "").toLowerCase().includes(needle)
         );

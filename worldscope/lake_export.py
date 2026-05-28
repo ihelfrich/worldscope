@@ -113,40 +113,104 @@ def export_today(
                           encoding="utf-8")
 
     # ---- entities mentioned today -----------------------------------------
+    # The record_entities table only links an entity to whichever section's
+    # extract_entities() emitted it (usually exactly one), so a SQL count
+    # of distinct sections drastically understates true cross-section
+    # presence. The cross-section recurrence analyzer
+    # (worldscope.analysis.cross_section) handles this correctly via
+    # substring matching across all sections, so we:
+    #
+    #   1. Pin every entity surfaced by cross_section.json to the front of
+    #      the export with its analyzer-computed n_sections.
+    #   2. Backfill with the heaviest single-section entities by mention
+    #      count, so the chat's lookup_entity() can still find any heavily-
+    #      referenced name (legislators, court parties, etc).
     entities_doc: dict[str, Any] = {"date": iso, "entities": []}
-    if lake_db.exists():
+    if not lake_db.exists():
+        entities_path.write_text(json.dumps(entities_doc, ensure_ascii=False,
+                                            separators=(",", ":")), encoding="utf-8")
+    else:
         conn = sqlite3.connect(f"file:{lake_db}?mode=ro", uri=True)
         conn.row_factory = sqlite3.Row
         try:
-            ent_rows = conn.execute(
-                """
-                SELECT DISTINCT e.id, e.canonical_name, e.type
-                  FROM entities e
-                  JOIN record_entities re ON e.id = re.entity_id
-                  JOIN records r ON re.record_id = r.id
-                 WHERE substr(r.ingested_at, 1, 10) = ?
-                 ORDER BY e.canonical_name
-                 LIMIT ?
-                """,
-                (iso, MAX_TOTAL_ENTITIES),
-            ).fetchall()
-            # For each, fetch which sections mention it today
-            for er in ent_rows:
-                sec_rows = conn.execute(
-                    """
-                    SELECT DISTINCT r.section_id FROM records r
-                      JOIN record_entities re ON r.id = re.record_id
-                     WHERE re.entity_id = ?
-                       AND substr(r.ingested_at, 1, 10) = ?
+            # 1. Pin cross-section signals.
+            pinned_ids: set[str] = set()
+            cs_in = meta_dir / iso / "cross_section.json"
+            if cs_in.exists():
+                cs_doc = json.loads(cs_in.read_text(encoding="utf-8"))
+                for band in ("high", "medium", "low"):
+                    for ent in (cs_doc.get("by_confidence", {}).get(band) or []):
+                        name = ent.get("canonical_name")
+                        if not name:
+                            continue
+                        # Try analyzer-provided id first, then resolve by name.
+                        eid = ent.get("entity_id")
+                        row = None
+                        if eid:
+                            row = conn.execute(
+                                "SELECT id, canonical_name, type FROM entities WHERE id = ?",
+                                (eid,),
+                            ).fetchone()
+                        if row is None:
+                            row = conn.execute(
+                                "SELECT id, canonical_name, type FROM entities "
+                                "WHERE lower(canonical_name) = ? LIMIT 1",
+                                (name.lower(),),
+                            ).fetchone()
+                        if row is None:
+                            continue
+                        if row["id"] in pinned_ids:
+                            continue
+                        pinned_ids.add(row["id"])
+                        entities_doc["entities"].append({
+                            "id":         row["id"],
+                            "name":       row["canonical_name"],
+                            "type":       row["type"],
+                            "n_sections": int(ent.get("n_sections") or 0),
+                            "n_mentions": int(ent.get("total_mentions") or 0),
+                            "sections":   list(ent.get("sections") or []),
+                            "pinned":     True,
+                        })
+
+            # 2. Backfill with the heaviest mention-count entities, skipping
+            # anything already pinned.
+            remaining = MAX_TOTAL_ENTITIES - len(entities_doc["entities"])
+            if remaining > 0:
+                placeholders = ",".join("?" * len(pinned_ids)) if pinned_ids else "''"
+                ent_rows = conn.execute(
+                    f"""
+                    SELECT e.id, e.canonical_name, e.type,
+                           COUNT(DISTINCT r.section_id) AS n_sections,
+                           COUNT(*)                      AS n_mentions
+                      FROM entities e
+                      JOIN record_entities re ON e.id = re.entity_id
+                      JOIN records r          ON re.record_id = r.id
+                     WHERE substr(r.ingested_at, 1, 10) = ?
+                       {"AND e.id NOT IN (" + placeholders + ")" if pinned_ids else ""}
+                     GROUP BY e.id
+                     ORDER BY n_mentions DESC, n_sections DESC, e.canonical_name
+                     LIMIT ?
                     """,
-                    (er["id"], iso),
+                    [iso] + list(pinned_ids) + [remaining],
                 ).fetchall()
-                entities_doc["entities"].append({
-                    "id":   er["id"],
-                    "name": er["canonical_name"],
-                    "type": er["type"],
-                    "sections": sorted({s["section_id"] for s in sec_rows}),
-                })
+                for er in ent_rows:
+                    sec_rows = conn.execute(
+                        """
+                        SELECT DISTINCT r.section_id FROM records r
+                          JOIN record_entities re ON r.id = re.record_id
+                         WHERE re.entity_id = ?
+                           AND substr(r.ingested_at, 1, 10) = ?
+                        """,
+                        (er["id"], iso),
+                    ).fetchall()
+                    entities_doc["entities"].append({
+                        "id":         er["id"],
+                        "name":       er["canonical_name"],
+                        "type":       er["type"],
+                        "n_sections": er["n_sections"],
+                        "n_mentions": er["n_mentions"],
+                        "sections":   sorted({s["section_id"] for s in sec_rows}),
+                    })
         finally:
             conn.close()
     entities_path.write_text(json.dumps(entities_doc, ensure_ascii=False, separators=(",", ":")),

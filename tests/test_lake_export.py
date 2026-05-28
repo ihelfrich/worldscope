@@ -101,7 +101,14 @@ class TestLakeExport(unittest.TestCase):
         (cs_dir / "cross_section.json").write_text(json.dumps({
             "day": "2026-05-28",
             "recurrences_found": 1,
-            "by_confidence": {"medium": [{"canonical_name": "China", "n_sections": 2, "confidence": "medium"}]},
+            "by_confidence": {"medium": [{
+                "entity_id": "ent-china",
+                "canonical_name": "China",
+                "n_sections": 2,
+                "total_mentions": 2,
+                "sections": ["federal_register", "sanctions"],
+                "confidence": "medium",
+            }]},
         }))
 
     def tearDown(self) -> None:
@@ -174,6 +181,56 @@ class TestLakeExport(unittest.TestCase):
         china = next(e for e in doc["entities"] if e["name"] == "China")
         # China is mentioned by r1 (federal_register) + r6 (sanctions)
         self.assertEqual(sorted(china["sections"]), ["federal_register", "sanctions"])
+
+    def test_cross_section_entities_pinned_to_top(self) -> None:
+        """Regression: entities surfaced by the cross-section recurrence
+        analyzer (cross_section.json) must always survive the export cap,
+        because record_entities only links an entity to whichever section
+        extracted it (usually one), making a SQL count-distinct severely
+        understate cross-section reach. Bug originally manifested as
+        'China' missing from entities.json despite being a top signal."""
+        # Add many high-mention-count single-section entities so they would
+        # otherwise crowd out cross-section signals from any pure SQL ranking.
+        conn = sqlite3.connect(self.lake_db)
+        today_iso = "2026-05-28T03:00:00Z"
+        for i in range(50):
+            ent_id = f"ent-bulk-{i}"
+            conn.execute(
+                "INSERT INTO entities VALUES (?,?,?,?,?,?,?)",
+                (ent_id, "person", f"Bulk Legislator {i:02d}", "[]", "{}", today_iso, today_iso),
+            )
+            # Link to many records to boost mention count.
+            for rid in ("r1", "r2", "r3", "r4", "r5"):
+                conn.execute("INSERT OR IGNORE INTO record_entities VALUES (?,?)", (rid, ent_id))
+        conn.commit(); conn.close()
+
+        paths = export_today(
+            lake_db=self.lake_db, meta_dir=self.meta_dir,
+            out_dir=self.out_dir, today=date(2026, 5, 28),
+        )
+        doc = json.loads(paths["entities"].read_text())
+        names = [e["name"] for e in doc["entities"]]
+        self.assertIn("China", names,
+            "China must be in the export — it's surfaced by cross_section.json")
+        # China is pinned, so should be index 0 (or among the pinned block)
+        china = next(e for e in doc["entities"] if e["name"] == "China")
+        self.assertTrue(china.get("pinned"),
+            "cross-section entities must be flagged pinned=True")
+        china_idx = names.index("China")
+        any_bulk_idx = min(i for i, n in enumerate(names) if n.startswith("Bulk Legislator"))
+        self.assertLess(china_idx, any_bulk_idx,
+            f"China (pinned cross-section) must rank above bulk legislators, "
+            f"but got china_idx={china_idx}, first bulk={any_bulk_idx}")
+
+    def test_entities_include_n_sections_and_n_mentions(self) -> None:
+        paths = export_today(
+            lake_db=self.lake_db, meta_dir=self.meta_dir,
+            out_dir=self.out_dir, today=date(2026, 5, 28),
+        )
+        doc = json.loads(paths["entities"].read_text())
+        china = next(e for e in doc["entities"] if e["name"] == "China")
+        self.assertEqual(china["n_sections"], 2)
+        self.assertEqual(china["n_mentions"], 2)
 
     def test_signals_passthrough(self) -> None:
         paths = export_today(
