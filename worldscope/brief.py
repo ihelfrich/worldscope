@@ -334,6 +334,16 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as gex:  # pragma: no cover
         print(f"[graph] failed: {type(gex).__name__}: {gex}")
 
+    # 1d-sexies-bis. Render the interactive intelligence globe at /globe/.
+    # The page consumes the same today.json / entities.json / signals.json
+    # the homepage exports, so no extra data step is required.
+    try:
+        from .globe_page import render_globe_page as _render_globe_page
+        _globe_html = _render_globe_page(Path(out_dir), today=today)
+        print(f"[globe] {_globe_html}")
+    except Exception as glx:  # pragma: no cover
+        print(f"[globe] failed: {type(glx).__name__}: {glx}")
+
     # 1d-septies. Story threads: detect multi-day arcs by entity
     # persistence across days. Pinned cross-section signals + heavy
     # mentions are the candidate pool; threads with ≥3 days × ≥5 items
