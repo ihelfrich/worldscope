@@ -98,6 +98,63 @@ class TestLegacySectionRender(unittest.TestCase):
         self.assertIn("&lt;img", html_out)
 
 
+try:
+    import numpy  # noqa: F401
+    _NUMPY_AVAILABLE = True
+except ImportError:
+    _NUMPY_AVAILABLE = False
+
+
+@unittest.skipUnless(_NUMPY_AVAILABLE, "numpy not installed")
+class TestEmbeddingIndexReadOnly(unittest.TestCase):
+    """D3 follow-up from codex: a read-only EmbeddingIndex._open() must
+    NOT bootstrap or create the lake DB if it's missing. The MCP
+    semantic tools call _open(read_only=True); allowing the schema
+    bootstrap on that path would break the read-only contract."""
+
+    def test_read_only_open_refuses_to_bootstrap(self) -> None:
+        import tempfile
+        from pathlib import Path
+        from worldscope.embeddings import EmbeddingIndex
+        with tempfile.TemporaryDirectory() as td:
+            missing = Path(td) / "does-not-exist.sqlite"
+            idx = EmbeddingIndex(lake_db_path=missing)
+            self.assertFalse(missing.exists())
+            with self.assertRaises(FileNotFoundError):
+                idx._open(read_only=True)
+            # Should still not exist
+            self.assertFalse(missing.exists())
+
+
+class TestBleachSanitize(unittest.TestCase):
+    """Codex's fourth follow-up: the regex sanitizer was insufficient.
+    sanitize_brief_html() now uses bleach (parser-backed allowlist),
+    not regex."""
+
+    def test_strips_script_tag(self) -> None:
+        from tools.render_brief import sanitize_brief_html
+        out = sanitize_brief_html('<p>Hello</p><script>alert(1)</script>')
+        self.assertNotIn("<script", out)
+        self.assertIn("Hello", out)
+
+    def test_strips_on_event_attribute(self) -> None:
+        from tools.render_brief import sanitize_brief_html
+        out = sanitize_brief_html('<a href="https://x.com" onclick="alert(1)">click</a>')
+        self.assertNotIn("onclick", out)
+
+    def test_strips_unquoted_javascript_href(self) -> None:
+        """The regex sanitizer would miss unquoted href attrs. Parser doesn't."""
+        from tools.render_brief import sanitize_brief_html
+        out = sanitize_brief_html('<a href=javascript:alert(1)>x</a>')
+        self.assertNotIn("javascript:", out)
+
+    def test_keeps_normal_paragraph(self) -> None:
+        from tools.render_brief import sanitize_brief_html
+        out = sanitize_brief_html('<p>Treasury <strong>raised</strong> rates by <em>25bps</em>.</p>')
+        self.assertIn("<strong>", out)
+        self.assertIn("<em>", out)
+
+
 class TestMcpPathValidation(unittest.TestCase):
     """The MCP server's get_section_summary and cross_section_signals
     used to build filesystem paths from user-supplied strings without

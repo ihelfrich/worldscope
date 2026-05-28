@@ -631,45 +631,45 @@ def discover_assets(brief_dir: Path, stem: str) -> tuple[list[Path], Path | None
     return pngs, (geo if geo.exists() else None)
 
 
-# Tags that get the boot entirely (content removed too).
-_DANGEROUS_BLOCK_TAG = re.compile(
-    r"<(?:script|style|iframe|object|embed|link|meta|form)\b[^>]*>.*?</(?:script|style|iframe|object|embed|link|meta|form)\s*>",
-    re.IGNORECASE | re.DOTALL,
-)
-# Bare self-closing or open versions of the above.
-_DANGEROUS_OPEN_TAG = re.compile(
-    r"<(?:script|style|iframe|object|embed|link|meta|form|svg|math)\b[^>]*/?>",
-    re.IGNORECASE,
-)
-# Inline event handlers (onclick=, onerror=, ...). Matches both single
-# and double-quoted forms plus unquoted.
-_ON_EVENT_ATTR = re.compile(
-    r"\s+on[a-z]+\s*=\s*(?:\"[^\"]*\"|'[^']*'|[^\s>]+)",
-    re.IGNORECASE,
-)
-# Dangerous URL schemes inside href= / src=.
-_BAD_HREF = re.compile(
-    r"(\s+(?:href|src|action|formaction|xlink:href)\s*=\s*[\"'])\s*(?:javascript|data|vbscript|file):",
-    re.IGNORECASE,
-)
+# Bleach allowlist for the desk-officer's narrative. We accept the
+# constructs the markdown library actually emits (headings, paragraphs,
+# emphasis, links, code, lists, tables, blockquotes) and reject
+# everything else.
+_BLEACH_TAGS: frozenset[str] = frozenset({
+    "a", "abbr", "blockquote", "br", "code", "del", "em", "h1", "h2",
+    "h3", "h4", "h5", "h6", "hr", "i", "img", "li", "ol", "p", "pre",
+    "small", "span", "strong", "sub", "sup", "table", "tbody", "td",
+    "th", "thead", "tr", "ul",
+})
+_BLEACH_ATTRS: dict[str, list[str]] = {
+    "*":   ["id", "class", "title"],
+    "a":   ["href", "title", "rel"],
+    "img": ["src", "alt", "title", "width", "height"],
+    "th":  ["colspan", "rowspan", "scope"],
+    "td":  ["colspan", "rowspan"],
+}
+_BLEACH_PROTOCOLS: frozenset[str] = frozenset({"http", "https", "mailto"})
 
 
 def sanitize_brief_html(html_body: str) -> str:
     """Post-Markdown sanitize pass for the desk-officer's narrative.
 
-    Strips <script>, <style>, <iframe>, <object>, <embed>, <link>, <meta>,
-    and <form>; strips inline `on*=` event handlers; rewrites
-    href=javascript:/data:/vbscript:/file: to href=about:blank.
-
-    NOT a full HTML parser — covers the obvious XSS surfaces. A future
-    pass can swap in `bleach` for a parser-backed allowlist if the
-    desk-officer's markdown grows new constructs.
+    Uses bleach (a real HTML parser, not regex) to allowlist the tags +
+    attributes + URL schemes the briefing actually uses. <script>,
+    <style>, <iframe>, on*= event handlers, javascript:/data: URLs,
+    encoded scheme tricks, and unquoted attribute values are all
+    rejected by the parser before regex would have a chance to miss
+    them.
     """
-    out = _DANGEROUS_BLOCK_TAG.sub("", html_body)
-    out = _DANGEROUS_OPEN_TAG.sub("", out)
-    out = _ON_EVENT_ATTR.sub("", out)
-    out = _BAD_HREF.sub(r"\1about:blank", out)
-    return out
+    import bleach
+    return bleach.clean(
+        html_body,
+        tags=_BLEACH_TAGS,
+        attributes=_BLEACH_ATTRS,
+        protocols=_BLEACH_PROTOCOLS,
+        strip=True,
+        strip_comments=True,
+    )
 
 
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:

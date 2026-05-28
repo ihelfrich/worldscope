@@ -53,8 +53,36 @@ class Form4Section(Section):
             print(f"[{self.id}] SEC Form 4 feed fetch failed: {type(exc).__name__}: {exc}")
             raise
 
+        # feedparser does NOT raise on HTTP/feed errors — it sets .bozo
+        # and .bozo_exception, or returns a non-2xx .status, or returns
+        # empty .entries. We have to inspect all of those.
+        status = getattr(feed, "status", None)
+        if status is not None and not (200 <= int(status) < 300):
+            raise RuntimeError(
+                f"[{self.id}] SEC Form 4 feed returned HTTP {status}"
+            )
+        if getattr(feed, "bozo", 0):
+            bozo_exc = getattr(feed, "bozo_exception", None)
+            # bozo=1 with CharacterEncodingOverride is benign; raise on
+            # everything else (XML parse error, HTTP failure, etc).
+            from xml.sax import SAXException  # type: ignore
+            tolerable = ("CharacterEncodingOverride",
+                          "NonXMLContentType",
+                          "FeedparserDict")
+            if bozo_exc and type(bozo_exc).__name__ not in tolerable:
+                raise RuntimeError(
+                    f"[{self.id}] SEC Form 4 feed parse failed: "
+                    f"{type(bozo_exc).__name__}: {bozo_exc}"
+                )
+        entries = getattr(feed, "entries", []) or []
+        if not entries:
+            raise RuntimeError(
+                f"[{self.id}] SEC Form 4 feed returned zero entries "
+                f"(status={status}); upstream may be down"
+            )
+
         items: list[dict] = []
-        for e in getattr(feed, "entries", []) or []:
+        for e in entries:
             # --- timestamp ---------------------------------------------------
             dt = None
             for attr in ("updated_parsed", "published_parsed"):

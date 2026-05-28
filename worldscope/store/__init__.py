@@ -58,7 +58,7 @@ class SnapshotStore:
     def put(self, section_id: str, items: list[dict], *,
             status: str = "ok",
             error: Optional[str] = None,
-            when: Optional[date] = None) -> None:
+            when: Optional[date] = None) -> bool:
         """Write a snapshot. `status` is one of: ok, empty_ok, failed.
 
         Invariant: an empty same-day snapshot may NOT replace a non-empty
@@ -66,7 +66,9 @@ class SnapshotStore:
         clobbered by an afternoon manual run that got rate-limited and
         returned []. Same-day non-empty replacing non-empty is allowed
         (a re-pull that picked up more items is welcome).
-        """
+
+        Returns True when the write happened, False when it was refused
+        (caller can then reload the retained snapshot via .get())."""
         d = (when or date.today()).isoformat()
         if not items:
             existing = self._conn.execute(
@@ -78,10 +80,7 @@ class SnapshotStore:
                 try:
                     prior = json.loads(existing[0])
                     if (prior.get("items") or []):
-                        # Refuse to overwrite the prior non-empty snapshot.
-                        # The state machine treats this as "carry yesterday's
-                        # value forward" rather than "lose data silently."
-                        return
+                        return False
                 except Exception:
                     pass
         payload = {
@@ -96,6 +95,7 @@ class SnapshotStore:
             (section_id, d, payload["pulled_at"], json.dumps(payload)),
         )
         self._conn.commit()
+        return True
 
     # ---- read ----------------------------------------------------------
 

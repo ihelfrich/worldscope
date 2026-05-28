@@ -244,7 +244,29 @@ class Section(ABC):
 
         # SUCCESSFUL pull. Write today's snapshot with the right status.
         status = "ok" if items else "empty_ok"
-        self.store.put(self.id, items, status=status, when=today)
+        wrote = self.store.put(self.id, items, status=status, when=today)
+
+        # If the store refused the write (empty-can't-replace-non-empty
+        # invariant), reload the retained same-day snapshot so the
+        # downstream render + lake mirror see the morning's items rather
+        # than this rerun's empty result.
+        if not wrote:
+            retained = self.store.get(self.id, when=today)
+            if retained is not None:
+                items = retained.get("items") or items
+                # New vs the snapshot strictly before today (not "before today's
+                # write" — there is no today write to compare against).
+                prior = self.store.previous(self.id, before=today)
+                new = self._compute_new(items, prior)
+                state = STATE_FRESH if items else STATE_FRESH_EMPTY
+                return SectionState(
+                    section_id=self.id, title=self.title, emoji=self.emoji,
+                    state=state, items=items, new=new,
+                    comparison_date=(prior or {}).get("snapshot_date"),
+                    source_date=today.isoformat(),
+                    extras={"refused_empty_write": True,
+                            **({"filtered_count": len(dropped)} if dropped else {})},
+                )
 
         # Compute new vs. previous snapshot (the one before today's write).
         prior = self.store.previous(self.id, before=today)

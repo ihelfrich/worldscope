@@ -192,6 +192,45 @@ class CacheStateMachineTests(unittest.TestCase):
         snap = self.store.get(sid, when=today)
         self.assertEqual(len(snap["items"]), 3)
 
+    def test_put_returns_false_when_refused(self) -> None:
+        sid = "test_returns_bool"
+        today = date(2026, 5, 28)
+        self.assertTrue(self.store.put(sid, [{"_id":"a"}], when=today))
+        self.assertFalse(self.store.put(sid, [], when=today))
+
+    def test_resolve_reloads_retained_snapshot_after_refused_write(self) -> None:
+        """A1.1/A3 follow-up from codex: when put() refuses an empty same-day
+        overwrite, Section.resolve() must reload the retained snapshot so
+        the rendered page + lake mirror see the morning's items, NOT this
+        rerun's empty result."""
+        sid = "reload_test"
+
+        # Pre-populate the store with a morning snapshot that has items.
+        morning_items = [
+            {"_id": "a", "title": "Morning A", "url": "u1", "date": "2026-05-28", "summary": ""},
+            {"_id": "b", "title": "Morning B", "url": "u2", "date": "2026-05-28", "summary": ""},
+            {"_id": "c", "title": "Morning C", "url": "u3", "date": "2026-05-28", "summary": ""},
+        ]
+        today = date(2026, 5, 28)
+        self.store.put(sid, morning_items, status="ok", when=today)
+
+        # Afternoon section returns []  (e.g. rate-limited).
+        class _AfternoonEmpty(Section):
+            id = "reload_test"
+            title = "Reload Test"
+            emoji = "🔁"
+            def pull(self):
+                return []
+
+        sec = _AfternoonEmpty(store=self.store)
+        state = sec.resolve(today=today)
+
+        # The state machine must reload the retained items, not present
+        # empty results.
+        self.assertEqual(state.state, STATE_FRESH)
+        self.assertEqual(len(state.items), 3)
+        self.assertEqual(state.extras.get("refused_empty_write"), True)
+
 
 if __name__ == "__main__":
     unittest.main()

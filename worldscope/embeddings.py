@@ -99,7 +99,18 @@ class EmbeddingIndex:
 
     def _open(self, *, read_only: bool = False) -> sqlite3.Connection:
         if not self.db_path.exists():
-            # Bootstrap the schema by opening the Lake once.
+            if read_only:
+                # NEVER bootstrap schema on a read_only open. The MCP
+                # server's semantic tools instantiate EmbeddingIndex with
+                # read_only=True; allowing the bootstrap path here would
+                # let a caller create the lake DB under the MCP's
+                # read-only contract. Surface a clear error instead.
+                raise FileNotFoundError(
+                    f"lake DB missing at {self.db_path}; "
+                    "read-only open refuses to bootstrap. "
+                    "Run the daily brief once to create it."
+                )
+            # Bootstrap the schema by opening the Lake once (write path only).
             from .lake import Lake
             Lake.open(self.db_path).close()
         if read_only:
