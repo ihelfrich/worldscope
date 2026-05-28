@@ -435,6 +435,32 @@ class Lake:
                       original_lang: str = "en", record_date: Optional[str] = None,
                       license: Optional[str] = None, extra: Optional[dict] = None) -> None:
         conn = self._ensure_open()
+        # Auto-register the source if it's not already in the sources
+        # table. Sections that emit per-feed source_ids (russian_internal
+        # → "ria", "rbk"; foreign_news → "reuters", "ap"; etc.) used to
+        # only register their AGGREGATE source_id once, so per-feed
+        # records failed FOREIGN KEY constraint and went to quarantine
+        # (7,398 records lost this way before the fix). This INSERT OR
+        # IGNORE makes the upsert self-bootstrapping.
+        conn.execute(
+            "INSERT OR IGNORE INTO sources (id, name, tier, license, language) "
+            "VALUES (?, ?, ?, ?, ?)",
+            (source_id, source_id, "unknown", license or "public-domain",
+             original_lang or "en"),
+        )
+
+        # CRITICAL bug fix: previously this clause overwrote ingested_at
+        # on every conflict. Most sections return rolling windows (the
+        # same record appears in N consecutive pulls), so every record
+        # got its ingested_at bumped to "today" forever. The lake
+        # collapsed to a single day of history regardless of how long
+        # the system had been running, and every trend / historical
+        # query was destroyed silently.
+        #
+        # Now: ingested_at is PRESERVED from the first sighting. Only
+        # mutable fields (url corrections, text revisions, extra_json
+        # enrichments) get updated. record_date stays at its first-seen
+        # value too — those rarely change for the same record id.
         conn.execute(
             """
             INSERT INTO records
@@ -442,11 +468,9 @@ class Lake:
                original_text, original_lang, record_date, license, extra_json)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(id) DO UPDATE SET
-              ingested_at = excluded.ingested_at,
-              original_url = excluded.original_url,
-              original_text = excluded.original_text,
-              record_date = excluded.record_date,
-              extra_json = excluded.extra_json
+              original_url  = COALESCE(excluded.original_url, records.original_url),
+              original_text = COALESCE(excluded.original_text, records.original_text),
+              extra_json    = excluded.extra_json
             """,
             (record_id, source_id, section_id, _utcnow(),
              original_url, (original_text or "")[:500], original_lang,
