@@ -149,6 +149,7 @@ def _parse_rss(xml_bytes: bytes) -> list[dict]:
         link = ""
         pub = ""
         desc = ""
+        source_url = ""  # publisher base URL from <source url="..."> (Google News + others)
         for child in item:
             ctag = child.tag.split("}")[-1]
             if ctag == "title":
@@ -159,6 +160,8 @@ def _parse_rss(xml_bytes: bytes) -> list[dict]:
                 pub = (child.text or "").strip()
             elif ctag in ("description", "summary", "content"):
                 desc = (child.text or "").strip()
+            elif ctag == "source":
+                source_url = (child.attrib.get("url") or "").strip()
         if not title:
             continue
         # Normalize pub date
@@ -167,9 +170,22 @@ def _parse_rss(xml_bytes: bytes) -> list[dict]:
             iso_date = dt.date().isoformat() if dt else ""
         except (TypeError, ValueError):
             iso_date = pub[:10] if pub else ""
+        # Google News RSS proxy URLs (news.google.com/rss/articles/CBMi...)
+        # return raw XML when opened in a browser rather than redirecting
+        # to the article. Detect this and fall back to the publisher
+        # homepage from the <source url="..."> element. The deep article
+        # link cannot be recovered without decoding Google's internal
+        # CBMi protobuf token, which they do not document.
+        is_gnews_proxy = "news.google.com/rss/" in link
+        if is_gnews_proxy:
+            effective_url = source_url if source_url else ""
+        else:
+            effective_url = link
         items.append({
             "title": title[:500],
-            "url": link,
+            "url": effective_url,
+            "deeplink_lost": bool(is_gnews_proxy),
+            "publisher_homepage": source_url,
             "date": iso_date,
             "summary": desc[:600],
         })

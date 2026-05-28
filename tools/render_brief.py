@@ -548,6 +548,20 @@ def dashboard_html(areas: list[dict], md_text: str) -> str:
     return '<div class="dashboard">' + "".join(tiles) + "</div>"
 
 
+def strip_google_news_links(html_body: str) -> str:
+    """Replace <a href="https://news.google.com/rss/...">X</a> with just X.
+
+    Google News proxy URLs serve raw XML to the browser instead of
+    redirecting to the article. They are unsafe to expose as clickable
+    links. We surface the link text as plain text instead.
+    """
+    return re.sub(
+        r'<a\s+href="https://news\.google\.com/rss[^"]*"[^>]*>([^<]*)</a>',
+        r'\1',
+        html_body,
+    )
+
+
 def dedupe_images(html_body: str) -> str:
     """Strip duplicate <img> tags pointing at the same src.
 
@@ -636,6 +650,7 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     body_html = host_pill_links(body_html)
     body_html = callout_pass(body_html)
     body_html = dedupe_images(body_html)
+    body_html = strip_google_news_links(body_html)
     areas = load_watch_dashboard()
     dash = dashboard_html(areas, md_text)
     side = sidebar_html(headings, areas)

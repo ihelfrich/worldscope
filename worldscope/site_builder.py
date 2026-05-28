@@ -59,14 +59,21 @@ def safe_url(url: str) -> str:
     """Return url if it has an http(s) scheme, else return empty string.
 
     Defends against javascript:/data:/file: hrefs sneaking in through
-    source data.
+    source data. Also rejects Google News RSS proxy URLs because they
+    return raw XML to the browser rather than redirecting to the article.
     """
     if not url:
         return ""
     u = url.strip().lower()
-    if u.startswith("http://") or u.startswith("https://"):
-        return url
-    return ""
+    if not (u.startswith("http://") or u.startswith("https://")):
+        return ""
+    # Google News RSS proxy URLs (news.google.com/rss/articles/CBMi...)
+    # are not clickable from a browser; they serve back XML. Treat as
+    # un-linkable so the title renders as plain text rather than a
+    # link to a broken XML page.
+    if "news.google.com/rss/" in u:
+        return ""
+    return url
 
 
 def safe_path_segment(s: str) -> str:
