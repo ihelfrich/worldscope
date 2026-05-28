@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-05-28
-record_count: 944
-new_today: 188
+record_count: 996
+new_today: 240
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-188 new of 944 total items today.
+240 new of 996 total items today.
 
 - [[TITLE: Детская площадка в Херсоне попала под обстрел России. Погиб мужчина, его жена и две дочери ранены | LEDE: <p>Вооруженные силы РФ обстреляли Корабельный район Херсона из реактивных систем залпов] (ru: Детская площадка в Херсоне попала под обстрел России. Погиб мужчина, его жена и )](https://meduza.io/news/2026/05/27/detskaya-ploschadka-v-hersone-popala-pod-obstrel-rossii-pogib-muzhchina-ego-zhena-i-dve-docheri-raneny) — *2026-05-27*
   > <p>Вооруженные силы РФ обстреляли Корабельный район Херсона из реактивных систем залпового огня, сообщает 27 мая «Суспiльне», ссылаясь на местные власти.<p>
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: Сотруднице московского бара, которая опубликовала видео с «кальяном на куличе», назначили три года колонии | LEDE: <p>Суд в Москве приговорил сотрудницу московского бара Ксению Белоусову к трем] (ru: Сотруднице московского бара, которая опубликовала видео с «кальяном на куличе», )](https://meduza.io/news/2026/05/27/sotrudnitse-moskovskogo-bara-kotoraya-opublikovala-video-s-kalyanom-na-kuliche-naznachili-tri-goda-kolonii) — *2026-05-27*
   > <p>Суд в Москве приговорил сотрудницу московского бара Ксению Белоусову к трем годам и 25 дням колонии по делу об оскорблении чувств верующих, сообщили «Медиазона» и «Осторожно, новости». Ее взяли под стражу в зале суда. <p>
 
-_(919 additional items in raw.jsonl)_
+_(971 additional items in raw.jsonl)_

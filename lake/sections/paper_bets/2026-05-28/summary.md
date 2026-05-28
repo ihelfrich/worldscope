@@ -20,8 +20,8 @@ date: 2026-05-28
 - Hit rate: insufficient data
 
 ### Today's market state
-- Active markets indexed: **136**
-  - polymarket: 14
+- Active markets indexed: **137**
+  - polymarket: 15
   - kalshi: 50
   - manifold: 22
   - predictit: 50

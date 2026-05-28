@@ -2,17 +2,73 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-28
-record_count: 103
-new_today: 62
+record_count: 102
+new_today: 63
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-62 new of 103 total items today.
+63 new of 102 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-29493) — *2026-05-28*
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 10:04PM MDT by NWS Missoula MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3ac5781e9f28bab29b7ade935ccfcaaa57d32fa.001.1) — *2026-05-27*
+  > At 904 PM PDT, Doppler radar was tracking a strong thunderstorm 8
+miles southeast of Kooskia, or 16 miles northeast of Grangeville,
+moving northwest at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph and half inch size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 28 at 12:03AM EDT until May 28 at 6:00AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c126d840086ecf44b5b1a231501a09d0dd9bf9de.001.1) — *2026-05-28*
+  > * WHAT...Flooding caused by prior excessive rainfall continues.
+
+* WHERE...Northern Calhoun County in north central West Virginia...
+Northern Gilmer County in north central West Virginia...
+Barbour County in northeastern West Virginia...
+Northwestern Randolph County in northeaste
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-51684) — *2026-05-28*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued May 27 at 11:00PM CDT until May 30 at 6:00AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06a110f193c955fc7c6107e68df80851fd070050.001.1) — *2026-05-27*
+  > * WHAT...Dangerous rip currents.
+
+* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal
+Counties. In Florida, Escambia Coastal, Santa Rosa Coastal and
+Okaloosa Coastal Counties.
+
+* WHEN...Through late Friday night.
+
+* IMPACTS...Rip currents can sweep even the best swimmers awa
+- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued May 27 at 8:54PM PDT until May 28 at 5:00AM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc8ed683ed4f52ff3f2502a4f835bc655aba3a84.001.1) — *2026-05-27*
+  > * WHAT...West winds 20 to 30 mph with gusts up to 55 mph.
+
+* WHERE...Riverside County Mountains, San Diego County Deserts, San
+Diego County Mountains, and San Gorgonio Pass near Banning.
+
+* WHEN...Until 5 AM PDT Thursday.
+
+* IMPACTS...Gusty winds will blow around unsecured object
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:49PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.098490754422497b62924b024921bae4dc871241.001.1) — *2026-05-27*
+  > At 1148 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Corapeake to near Hobbsville to
+Harrellsville. Movement was east at 40 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree l
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued May 27 at 9:48PM MDT until May 28 at 10:00PM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c72d676f6f3a14bd79a7e031f6cd1e47a1ea04d.001.2) — *2026-05-27*
+  > ...RED FLAG WARNING WILL EXPIRE AT 10 PM MDT THIS EVENING FOR LOW
+RELATIVE HUMIDITY AND STRONG WINDS FOR FIRE WEATHER ZONES 120 AND
+122...
+
+* AFFECTED AREA...Fire weather zones 120 and 122.
+
+* WIND...Southeast at 15 to 25 mph with gusts to 40 mph.
+
+* HUMIDITY...As low as 14 perce
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:39PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3a77c02f8ec285e16bb524d85ad9e365bf9e87b.001.1) — *2026-05-27*
   > Some patchy dense fog is developing late this evening, especially
 in lower terrain areas. Fog is expected to become more widespread
@@ -20,18 +76,6 @@ for some areas into the early morning hours, with dense fog likely
 impacting local commutes Thursday morning.
 
 For those traveling, utilize low-beam
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 10:26PM CDT until May 27 at 11:15PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afd338b50f1af0a3eaca5075ed3f61927a54d174.001.1) — *2026-05-27*
-  > SVROUN
-
-The National Weather Service in Norman has issued a
-
-* Severe Thunderstorm Warning for...
-Southeastern Knox County in northern Texas...
-Southwestern Baylor County in northern Texas...
-
-* Until 1115 PM CDT.
-
-* At 1026 PM CDT, a severe thunderstorm was located 6 miles north
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued May 27 at 8:24PM PDT until May 27 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b32c4d10e74338197b052634993a27a2a82854b.001.1) — *2026-05-27*
   > * WHAT...North winds 20 to 30 kt with gusts up to 40 kt and seas
 15 to 17 feet.
@@ -52,16 +96,15 @@ capsize or damage v
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
 and flood-prone locations is imminent or occurring
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:15PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb55b1c844eaa505f09f9620ed40f1cfaae7a463.001.1) — *2026-05-27*
-  > At 1115 PM EDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Franklin to near Como to near Conway.
-Movement was southeast at 40 mph.
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued May 27 at 8:15PM MST until May 28 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2f2476013645d828e84b483fb0b3e725a8307e7.003.1) — *2026-05-27*
+  > * WHAT...Southerly winds 15 to 25 mph, with gusts from 30 to 40 mph.
+Minimum relative humidity between 7 and 10 percent.
 
-HAZARD...Wind gusts up to 40 mph and half inch hail.
+* WHERE...Little Colorado River Valley in Apache County.
 
-SOURCE...Radar indicated.
+* WHEN...From 11 AM MST /noon MDT/ to 8 PM MST /9 PM MDT/ Thursday.
 
-IMPACT...Gusty winds could kn
+* IMPACTS...Rapid spread and gr
 - **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued May 27 at 8:15PM MST until May 28 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2f2476013645d828e84b483fb0b3e725a8307e7.001.2) — *2026-05-27*
   > ...RED FLAG WARNING REMAINS IN EFFECT FROM 11 AM MST /NOON MDT/ TO 8
 PM MST /9 PM MDT/ THURSDAY...
@@ -72,37 +115,6 @@ Minimum relative humidity between 7 and 14 percent.
 * WHERE...Little Colorado River Valley.
 
 * WHEN...From 11 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued May 27 at 8:15PM MST until May 28 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2f2476013645d828e84b483fb0b3e725a8307e7.003.1) — *2026-05-27*
-  > * WHAT...Southerly winds 15 to 25 mph, with gusts from 30 to 40 mph.
-Minimum relative humidity between 7 and 10 percent.
-
-* WHERE...Little Colorado River Valley in Apache County.
-
-* WHEN...From 11 AM MST /noon MDT/ to 8 PM MST /9 PM MDT/ Thursday.
-
-* IMPACTS...Rapid spread and gr
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 9:13PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cd2597e783a023bb1298c6488c5f224fce3724e.001.1) — *2026-05-27*
-  > At 913 PM MDT, Doppler radar was tracking a strong thunderstorm over
-La Cueva, or near Mora, moving east at 10 mph.
-
-HAZARD...Wind gusts up to 50 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objec
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 11:13PM EDT by NWS Columbia SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6bf7d84a18e0b0433bb3e9bbe1e703ced9e82fc.001.1) — *2026-05-27*
-  > At 1112 PM EDT, Doppler radar was tracking a strong thunderstorm near
-J. Strom Thurmond Dam, or 13 miles northwest of Evans, moving east at
-15 mph.
-
-...Boaters on Lake Strom Thurmond Should Seek Safe Harbor...
-
-HAZARD...Wind gusts from 40 to 50 mph.
-
-SOURCE...Radar indicated.
-
-IM
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 11:02PM EDT until May 28 at 8:00PM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79c3d45dd16e0827d7519b0d28e7bdb2e468cebe.001.1) — *2026-05-27*
   > * WHAT...High wave action, strong currents, and dangerous
 swimming conditions expected. Piers may be heavily swamped by
@@ -204,19 +216,6 @@ Mississinewa River near Ridgeville.
 Indiana...
 
 White River at 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 28 at 8:30AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.004.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers in Indiana...
-
-Youngs Creek at Amity.
-
-East Fork White River at Williams, Bedford, and Rivervale.
-
-Mississinewa River near Ridgeville.
-
-...The Flood Warning is extended for the following rivers in
-Indiana...
-
-White River at 
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 31 at 6:48PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.003.1) — *2026-05-27*
   > ...The Flood Warning continues for the following rivers in Indiana...
 
@@ -243,18 +242,5 @@ Mississinewa River near Ridgeville.
 Indiana...
 
 White River at 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 28 at 9:30PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.006.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers in Indiana...
 
-Youngs Creek at Amity.
-
-East Fork White River at Williams, Bedford, and Rivervale.
-
-Mississinewa River near Ridgeville.
-
-...The Flood Warning is extended for the following rivers in
-Indiana...
-
-White River at 
-
-_(78 additional items in raw.jsonl)_
+_(77 additional items in raw.jsonl)_
