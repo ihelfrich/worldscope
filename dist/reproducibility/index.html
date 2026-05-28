@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · Reproducibility</title>
+<meta name="description" content="Dated build provenance pages for WORLDSCOPE daily briefs.">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/reproducibility/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WORLDSCOPE · Reproducibility">
+<meta property="og:description" content="Dated build provenance pages for WORLDSCOPE daily briefs.">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/reproducibility/">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="theme-color" content="#13294B">
+<link rel="stylesheet" href="../assets/worldscope.css">
+<link rel="preload" href="../assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/ss4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="color-scheme" content="light dark">
+
+<style>
+  .ws-bg { position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }
+  .ws-bg canvas { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body class="font-serif text-ink bg-parchment">
+<div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
+<script>window.WS_BASE = "../";</script>
+<script type="application/json" id="ws-network-seed">{}</script>
+<script src="../assets/network.js" defer></script>
+<script src="../assets/worldscope-evidence.js" defer></script>
+<script src="../assets/worldscope-ui.js" defer></script>
+<nav class="glass-nav sticky top-0 z-50 text-ink" role="navigation" aria-label="Primary">
+  <div class="max-w-[1400px] mx-auto px-6 py-2.5 flex flex-wrap items-center gap-x-5 gap-y-1 font-sans text-[13px]">
+    <a href="../index.html" class="font-extrabold tracking-[0.10em] uppercase text-ink text-[13.5px] mr-2">
+      <span class="text-gold mr-1">◆</span>WORLDSCOPE
+    </a>
+    <a href="../index.html" class="text-slate hover:text-ink transition-colors">Today</a>
+    <a href="../globe/" class="text-slate hover:text-ink transition-colors">Globe</a>
+    <a href="../threads/" class="text-slate hover:text-ink transition-colors">Threads</a>
+    <a href="../graph/" class="text-slate hover:text-ink transition-colors">Graph</a>
+    <a href="../reproducibility/" class="text-slate hover:text-ink transition-colors">Reproducibility</a>
+    <a href="../health/" class="text-slate hover:text-ink transition-colors">Health</a>
+    <a href="../sections/" class="text-slate hover:text-ink transition-colors">Sections</a>
+    <a href="../briefings/" class="text-slate hover:text-ink transition-colors">Archive</a>
+    <span class="flex-1"></span>
+    <button type="button" data-palette-trigger class="ws-palette-trigger" aria-label="Open command palette">
+      <span class="text-slate-dim">Jump to anywhere</span><kbd>⌘K</kbd>
+    </button>
+    <button type="button" data-theme-toggle class="ws-theme-toggle" aria-label="Toggle day/night theme" aria-pressed="false" title="Sunset toggle">
+      <span class="ws-theme-icon" aria-hidden="true">☀</span>
+    </button>
+  </div>
+</nav>
+
+<main class="px-7 max-w-[960px] mx-auto py-14">
+  <div class="font-sans text-kicker text-gold uppercase mb-3">Reproducibility</div>
+  <h1 class="font-serif text-editorial text-ink mb-4">Build proof sheets</h1>
+  <p class="font-sans text-slate text-[15px] mb-6">Dated provenance pages for WORLDSCOPE daily briefs.</p>
+  <a class="font-sans text-[14px] font-semibold text-carolina hover:text-navy"
+     href="./2026-05-28/">2026-05-28 proof sheet</a>
+</main>
+<footer class="mt-20 pt-8 border-t border-mist text-slate font-sans text-[12.5px] text-center" role="contentinfo">
+  <div>WORLDSCOPE · sources cited inline · synthesis grounded in numbered items only</div>
+  <div class="mt-1 text-slate-dim">all data primary-sourced · &copy; Dr. Ian Helfrich</div>
+</footer>
+
+
+</body>
+</html>
