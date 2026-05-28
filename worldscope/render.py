@@ -423,6 +423,7 @@ def render_page(
         base="",
         network_seed_json=network_seed_json,
         network_assets_path="assets/network.js",
+        include_chat=True,
     )
 
     out_path = out_dir / f"{date_obj.isoformat()}.html"

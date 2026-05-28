@@ -251,6 +251,20 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as sbx:  # pragma: no cover
         print(f"[site-builder] failed: {type(sbx).__name__}: {sbx}")
 
+    # 1d-quater. Export today's lake to static JSON under dist/data/ so
+    # the homepage chat widget (worldscope-chat.js) can query today's
+    # records, entities, and cross-section signals client-side without a
+    # backend. ~365KB total today; updates on every brief run.
+    try:
+        from .lake_export import export_from_repo as _lake_export
+        _exp_repo = Path(__file__).resolve().parent.parent
+        _exp_paths = _lake_export(_exp_repo, Path(out_dir), today=today)
+        print(f"[lake-export] today={_exp_paths['today']} "
+              f"entities={_exp_paths['entities']} "
+              f"signals={_exp_paths['signals']}")
+    except Exception as lex:  # pragma: no cover
+        print(f"[lake-export] failed: {type(lex).__name__}: {lex}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made

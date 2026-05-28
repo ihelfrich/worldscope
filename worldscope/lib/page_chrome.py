@@ -244,6 +244,97 @@ def footer_block() -> str:
 </footer>"""
 
 
+# Slide-in chat panel: floating toggle button bottom-right, panel slides
+# in from the right edge. Pure HTML + a few utility classes; logic lives
+# in dist/assets/worldscope-chat.js. Loaded by page_shell() on the
+# homepage; section pages don't include it (they don't have the lake
+# export adjacent).
+def chat_panel(base: str = "") -> str:
+    return f"""
+<style>
+  #ws-chat-panel {{
+    position: fixed; top: 0; right: 0; height: 100vh;
+    width: min(440px, 96vw); max-width: 460px;
+    background: #FAF8F3;
+    box-shadow: -6px 0 24px rgba(11,18,32,0.18);
+    transform: translateX(102%);
+    transition: transform 0.32s cubic-bezier(0.2,0.7,0.2,1);
+    z-index: 80;
+    display: flex; flex-direction: column;
+  }}
+  #ws-chat-panel.ws-chat-open {{ transform: translateX(0); }}
+  #ws-chat-toggle {{
+    position: fixed; bottom: 22px; right: 22px;
+    background: #13294B; color: #FAF8F3;
+    border: 0; padding: 12px 16px;
+    border-radius: 9999px;
+    font-family: Inter, sans-serif; font-weight: 700; font-size: 13px;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    cursor: pointer; z-index: 70;
+    box-shadow: 0 2px 6px rgba(11,18,32,0.20), 0 12px 28px rgba(11,18,32,0.18);
+    transition: transform 0.18s, box-shadow 0.18s, background 0.18s;
+  }}
+  #ws-chat-toggle:hover {{ background: #1F3D6E; transform: translateY(-1px); }}
+  #ws-chat-toggle::before {{ content: '◆'; color: #D4A017; margin-right: 6px; }}
+  @media print {{ #ws-chat-toggle, #ws-chat-panel, #ws-chat-settings {{ display: none !important; }} }}
+</style>
+
+<button id="ws-chat-toggle" aria-label="Ask the brief">Ask the brief</button>
+
+<aside id="ws-chat-panel" role="dialog" aria-label="Chat with today's brief">
+  <header class="bg-navy text-white px-4 py-3 flex items-center gap-3 border-b-2 border-gold shrink-0">
+    <span class="font-sans font-extrabold tracking-[0.10em] text-[13px] uppercase">
+      <span class="text-gold mr-1">◆</span>Ask the brief
+    </span>
+    <span class="flex-1"></span>
+    <button id="ws-chat-settings-btn" class="text-mist hover:text-white text-[12px] font-sans" title="Settings">⚙</button>
+    <button id="ws-chat-clear" class="text-mist hover:text-white text-[12px] font-sans" title="Clear conversation">⟲</button>
+    <button id="ws-chat-close" class="text-mist hover:text-white text-[18px] leading-none" title="Close">×</button>
+  </header>
+
+  <div id="ws-chat-list" class="flex-1 overflow-y-auto px-4 py-4 flex flex-col gap-2.5">
+    <div class="self-center font-sans text-[12.5px] text-slate-dim text-center max-w-sm py-4">
+      <div class="font-serif font-semibold text-navy text-[14.5px] mb-1">Grounded in today's briefing</div>
+      <div>Ask anything about today's records. Answers cite sections inline. Click <span class="text-gold">⚙</span> to set your Anthropic API key (stored locally only).</div>
+    </div>
+  </div>
+
+  <div id="ws-chat-busy" class="px-4 pb-1 text-slate-dim font-sans text-[11.5px]" style="display:none">
+    <span class="inline-block w-2 h-2 rounded-full bg-gold animate-pulse-soft mr-1.5"></span>thinking…
+  </div>
+
+  <form id="ws-chat-form" class="border-t border-mist p-3 flex gap-2 shrink-0 bg-panel">
+    <input id="ws-chat-input"
+           type="text"
+           autocomplete="off"
+           placeholder="Ask about today's brief…"
+           class="flex-1 font-sans text-[14px] bg-parchment border border-mist rounded px-3 py-2
+                  focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/15">
+    <button id="ws-chat-send" type="submit"
+            class="font-sans text-[13px] font-semibold bg-navy text-white px-4 rounded hover:bg-navy-soft transition-colors disabled:opacity-50">Ask</button>
+  </form>
+</aside>
+
+<div id="ws-chat-settings" style="display:none"
+     class="fixed inset-0 z-[90] items-center justify-center bg-ink/55 backdrop-blur-sm p-4">
+  <div class="bg-parchment border border-mist-strong rounded-xl shadow-lift max-w-md w-full p-5 font-sans">
+    <h3 class="font-serif text-navy text-[18px] font-bold mb-1">Connect your Anthropic key</h3>
+    <p class="text-slate text-[12.5px] mb-3">Stored only in this browser's localStorage. Used directly with api.anthropic.com via the browser-access header. Nothing is sent through any WORLDSCOPE backend.</p>
+    <label class="block text-[11px] font-bold uppercase tracking-[0.10em] text-slate-dim mb-1">API key</label>
+    <input id="ws-key-input" type="password" placeholder="sk-ant-..."
+           class="w-full font-mono text-[13px] bg-panel border border-mist rounded px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-navy/15">
+    <label class="block text-[11px] font-bold uppercase tracking-[0.10em] text-slate-dim mb-1">Model</label>
+    <select id="ws-model-select" class="w-full text-[13px] bg-panel border border-mist rounded px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-navy/15"></select>
+    <div class="flex gap-2 justify-end">
+      <button id="ws-key-cancel" class="text-slate text-[13px] px-3 py-1.5 hover:text-navy">Cancel</button>
+      <button id="ws-key-save" class="bg-navy text-white text-[13px] font-semibold px-3.5 py-1.5 rounded hover:bg-navy-soft">Save</button>
+    </div>
+  </div>
+</div>
+<script src="{base}assets/worldscope-chat.js" defer></script>
+"""
+
+
 def page_shell(
     *,
     title: str,
@@ -253,6 +344,7 @@ def page_shell(
     base: str = "",
     network_seed_json: str = "{}",
     network_assets_path: str = "assets/network.js",
+    include_chat: bool = False,
 ) -> str:
     """Wrap body content in the full Tailwind-themed page chrome.
 
@@ -289,6 +381,7 @@ def page_shell(
 <script src="{base}{network_assets_path}" defer></script>
 {topnav(base=base)}
 {body_html}
+{chat_panel(base=base) if include_chat else ""}
 </body>
 </html>
 """
