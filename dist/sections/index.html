@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en" data-theme="heritage"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
@@ -14,368 +14,65 @@
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>
-:root {
-  --ink: #0B1220;
-  --parchment: #FAF8F3;
-  --panel: #FFFFFF;
-  --mist: #E8E2D5;
-  --slate: #4E5667;
-  --slate-dim: #6B7180;
-  --navy: #13294B;
-  --navy-soft: #1F3D6E;
-  --gold: #D4A017;
-  --gold-soft: #E8BC42;
-  --teal: #1A8A87;
-  --crimson: #990000;
-  --carolina: #4B9CD3;
-  --rule: 1px solid var(--mist);
-  --rule-strong: 1px solid #C9C1B2;
-  --shadow-card: 0 1px 2px rgba(11,18,32,0.04), 0 4px 12px rgba(11,18,32,0.05);
-  --shadow-lift: 0 2px 6px rgba(11,18,32,0.06), 0 12px 28px rgba(11,18,32,0.10);
-  --t-fast: 0.12s ease-out;
-  --t-slow: 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  font-family: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', serif;
-  color: var(--ink);
-  background: var(--parchment);
-  font-size: 16.5px;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Top navigation: sticky, navy with a gold accent rule */
-.topnav {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: linear-gradient(180deg, var(--navy) 0%, var(--navy-soft) 100%);
-  color: #fff;
-  padding: 11px 28px;
-  display: flex; gap: 22px; align-items: center; flex-wrap: wrap;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 13px;
-  border-bottom: 2px solid var(--gold);
-  box-shadow: 0 1px 4px rgba(11,18,32,0.20);
-}
-.topnav a {
-  color: #E8E2D5; text-decoration: none;
-  padding: 4px 0;
-  transition: color var(--t-fast);
-  position: relative;
-}
-.topnav a:hover { color: #fff; }
-.topnav a:hover::after {
-  content: ''; position: absolute; left: 0; right: 0; bottom: -2px;
-  height: 1px; background: var(--gold);
-}
-.topnav .brand {
-  font-weight: 800; letter-spacing: 0.10em;
-  text-transform: uppercase; color: #fff;
-  margin-right: 8px;
-  font-size: 13.5px;
-}
-.topnav .brand::before {
-  content: '◆ '; color: var(--gold); margin-right: 4px;
-}
-.topnav .spacer { flex: 1; }
-.topnav .hub {
-  font-size: 12px; opacity: 0.85;
-  padding-left: 14px; margin-left: 4px;
-  border-left: 1px solid rgba(255,255,255,0.18);
-}
-
-/* Layout shell */
-.shell {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 36px 28px 90px;
-}
-
-/* Breadcrumbs */
-.crumbs {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  color: var(--slate);
-  margin-bottom: 22px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-.crumbs a {
-  color: var(--navy);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color var(--t-fast);
-}
-.crumbs a:hover { color: var(--gold); }
-.crumbs [aria-current="page"] { color: var(--ink); font-weight: 600; }
-
-/* Headings */
-h1 {
-  font-family: 'Source Serif 4', 'Georgia', serif;
-  font-size: 38px;
-  font-weight: 700;
-  margin: 6px 0 12px;
-  letter-spacing: -0.6px;
-  line-height: 1.1;
-  color: var(--ink);
-}
-h2 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 36px 0 14px;
-  padding-bottom: 8px;
-  border-bottom: var(--rule-strong);
-  color: var(--navy);
-  letter-spacing: -0.2px;
-}
-h2 span { font-weight: 400; color: var(--slate); }
-
-/* Page-meta strip */
-.meta {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  color: var(--slate);
-  margin: 0 0 32px;
-  letter-spacing: 0.01em;
-}
-.meta strong { color: var(--ink); font-weight: 600; }
-
-/* Section index cards */
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 14px;
-  margin-top: 22px;
-}
-.section-card {
-  background: var(--panel);
-  border: var(--rule);
-  border-left: 4px solid var(--navy);
-  border-radius: 10px;
-  padding: 18px 20px 16px;
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  transition: transform var(--t-slow), box-shadow var(--t-slow), border-left-color var(--t-slow);
-  box-shadow: var(--shadow-card);
-}
-.section-card:hover {
-  transform: translateY(-2px);
-  border-left-color: var(--gold);
-  box-shadow: var(--shadow-lift);
-}
-.section-card .name {
-  font-family: 'Source Serif 4', serif;
-  font-size: 18.5px;
-  font-weight: 700;
-  color: var(--ink);
-  letter-spacing: -0.2px;
-  margin-bottom: 4px;
-}
-.section-card .desc {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  color: var(--slate);
-  line-height: 1.5;
-  flex: 1;
-}
-.section-card .count {
-  font-family: 'Inter', sans-serif;
-  font-size: 11.5px;
-  color: var(--navy);
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--mist);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-/* Record cards */
-.record {
-  border: var(--rule);
-  border-radius: 8px;
-  padding: 14px 16px;
-  margin: 10px 0;
-  background: var(--panel);
-  transition: border-color var(--t-fast), box-shadow var(--t-fast);
-}
-.record:hover {
-  border-color: var(--slate-dim);
-  box-shadow: var(--shadow-card);
-}
-.record h3 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 16.5px;
-  font-weight: 600;
-  margin: 0 0 6px;
-  line-height: 1.35;
-  letter-spacing: -0.15px;
-  color: var(--ink);
-}
-.record h3 a {
-  color: inherit;
-  text-decoration: none;
-  background-image: linear-gradient(0deg, var(--gold) 0%, var(--gold) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: 0 100%;
-  transition: background-size var(--t-fast), color var(--t-fast);
-  padding-bottom: 1px;
-}
-.record h3 a:hover {
-  color: var(--navy);
-  background-size: 100% 2px;
-}
-.record .src {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--navy);
-  background: var(--mist);
-  border-radius: 4px;
-  padding: 2px 9px;
-  margin-right: 4px;
-  margin-top: 2px;
-  letter-spacing: 0.02em;
-}
-.record .tier {
-  font-family: 'Inter', sans-serif;
-  font-size: 10.5px;
-  color: var(--slate);
-  margin-left: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-.record .body {
-  margin: 8px 0 0;
-  font-size: 14.5px;
-  color: #2C3340;
-  line-height: 1.55;
-}
-.record .entities {
-  margin-top: 8px;
-  font-family: 'Inter', sans-serif;
-  font-size: 11px;
-  color: var(--slate);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-.record .entities .tag {
-  display: inline-block;
-  background: var(--parchment);
-  border: 1px solid var(--mist);
-  border-radius: 4px;
-  padding: 1px 7px;
-  color: var(--slate);
-}
-
-/* Archive rows */
-.archive-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 12px 16px;
-  margin: 5px 0;
-  background: var(--panel);
-  border: var(--rule);
-  border-radius: 6px;
-  text-decoration: none;
-  color: inherit;
-  font-family: 'Inter', sans-serif;
-  transition: border-color var(--t-fast), transform var(--t-fast), background var(--t-fast);
-}
-.archive-row:hover {
-  border-color: var(--navy);
-  background: linear-gradient(90deg, var(--panel) 0%, #FFFEF8 100%);
-  transform: translateX(2px);
-}
-.archive-row .date {
-  font-size: 14.5px;
-  color: var(--navy);
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
-.archive-row .n {
-  font-size: 12px;
-  color: var(--slate);
-}
-
-/* Footer */
-footer.foot {
-  margin-top: 64px;
-  padding-top: 18px;
-  border-top: var(--rule-strong);
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  color: var(--slate);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-footer.foot a { color: var(--navy); }
-
-/* Mobile */
-@media (max-width: 700px) {
-  .shell { padding: 24px 18px 70px; }
-  .topnav { padding: 10px 16px; font-size: 12.5px; gap: 14px; }
-  .topnav .hub { padding-left: 10px; }
-  h1 { font-size: 28px; overflow-wrap: anywhere; }
-  h2 { font-size: 19px; margin: 28px 0 12px; }
-  .cards-grid { grid-template-columns: 1fr; gap: 10px; }
-  .section-card { padding: 14px 16px; }
-  .record { padding: 12px 14px; min-width: 0; }
-  .record h3 { font-size: 15.5px; overflow-wrap: anywhere; }
-  .archive-row { padding: 10px 14px; overflow-wrap: anywhere; min-width: 0; }
-  .record .entities .tag { overflow-wrap: anywhere; }
-}
-
-/* Print */
-@media print {
-  .topnav, footer.foot { display: none; }
-  body { background: white; }
-  .record { break-inside: avoid; box-shadow: none; }
-  .section-card { break-inside: avoid; box-shadow: none; }
-}
-
-.ws-bg { position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }
-.ws-bg canvas { display: block; width: 100%; height: 100%; }
-.shell { position: relative; z-index: 1; }
-.topnav { position: sticky; z-index: 60; }
-</style>
-</head><body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
 <div class="ws-bg" aria-hidden="true">
   <canvas id="ws-network"></canvas>
 </div>
 <script type="application/json" id="ws-network-seed">{"day": "2026-05-28", "recurrences": [{"name": "New York", "type": "place", "sections": 4}, {"name": "Canada", "type": "place", "sections": 3}, {"name": "China", "type": "place", "sections": 3}, {"name": "Jackson", "type": "person", "sections": 3}]}</script>
 <script src="../assets/network.js" defer></script>
-<nav class="topnav" aria-label="Primary">
-  <span class="brand">WORLDSCOPE</span>
-  <a href="../index.html">Today</a>
-  <a href="../sections/">Sections</a>
-  <a href="../briefings/">Archive</a>
-  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Personal hub (opens in new tab)">helfrich.github.io →</a>
-</nav>
-<div class="shell">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">WORLDSCOPE</a> <span style="color:#aaa" aria-hidden="true">/</span> <span aria-current="page">Sections</span></nav>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer"
+       aria-label="Personal hub (opens in new tab)">helfrich.github.io →</a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell">
+  <nav class="ws-crumbs" aria-label="Breadcrumb"><a href="../index.html">WORLDSCOPE</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Sections</span></nav>
   <main>
-  <h1>Sections</h1><p class="meta"><strong>37</strong> active sections in the WORLDSCOPE lake · <strong>4,771</strong> records ingested today. Click any section to drill into its archive and per-day records.</p><div class="cards-grid"><a class="section-card" href="./acled/"><div class="name">Acled</div><div class="desc">ACLED Armed Conflict Location and Event Data</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./billionaires/"><div class="name">Billionaires</div><div class="desc">Forbes real-time billionaire net-worth changes</div><div class="count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="section-card" href="./chinese_internal/"><div class="name">Chinese Internal</div><div class="desc">Chinese-language domestic press with Claude translation</div><div class="count">9 days on file · latest 2026-05-28 · 265 records</div></a><a class="section-card" href="./cisa_kev/"><div class="name">CISA Known Exploited Vulnerabilities</div><div class="desc">CISA Known Exploited Vulnerabilities catalog</div><div class="count">9 days on file · latest 2026-05-28 · 16 records</div></a><a class="section-card" href="./commentary/"><div class="name">Commentary</div><div class="desc">Curated economist + analyst substack feed</div><div class="count">9 days on file · latest 2026-05-28 · 6 records</div></a><a class="section-card" href="./conflict/"><div class="name">Conflict</div><div class="desc">Conflict events and security incidents</div><div class="count">9 days on file · latest 2026-05-28 · 40 records</div></a><a class="section-card" href="./congressional_trades/"><div class="name">Congressional Trades</div><div class="desc">STOCK Act PTRs via Quiver Quantitative</div><div class="count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="section-card" href="./courtlistener/"><div class="name">Courtlistener</div><div class="desc">Federal and state civil/criminal court filings</div><div class="count">9 days on file · latest 2026-05-28 · 30 records</div></a><a class="section-card" href="./fec/"><div class="name">FEC Campaign Finance</div><div class="desc">Federal Election Commission campaign finance</div><div class="count">9 days on file · latest 2026-05-28 · 15 records</div></a><a class="section-card" href="./federal_register/"><div class="name">Federal Register</div><div class="desc">Executive orders, federal rules, and presidential documents</div><div class="count">9 days on file · latest 2026-05-28 · 21 records</div></a><a class="section-card" href="./firms/"><div class="name">Firms</div><div class="desc">NASA FIRMS thermal anomaly detections</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./forecasts/"><div class="name">Forecasts</div><div class="desc">Polymarket + Kalshi + PredictIt + Manifold prediction markets</div><div class="count">9 days on file · latest 2026-05-28 · 20 records</div></a><a class="section-card" href="./foreign_news/"><div class="name">Foreign News</div><div class="desc">37 countries, multi-tier foreign-language and English-language</div><div class="count">9 days on file · latest 2026-05-28 · 856 records</div></a><a class="section-card" href="./form4/"><div class="name">Form4</div><div class="desc">SEC Form 4 insider trade filings</div><div class="count">9 days on file · latest 2026-05-28 · 40 records</div></a><a class="section-card" href="./gdelt_gkg/"><div class="name">GDELT Global Knowledge Graph</div><div class="desc">GDELT GKG themes, entities, and tone</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./gdelt_regions/"><div class="name">GDELT Regional Tone</div><div class="desc">GDELT GKG regional tone and theme aggregation</div><div class="count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="section-card" href="./local_news/"><div class="name">Local News</div><div class="desc">St. Louis + Atlanta hyperlocal</div><div class="count">9 days on file · latest 2026-05-28 · 237 records</div></a><a class="section-card" href="./macro/"><div class="name">Macro</div><div class="desc">FRED macro indicators</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./markets/"><div class="name">Markets</div><div class="desc">US equity, FX, and Treasury markets</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./markets_global/"><div class="name">Markets Global</div><div class="desc">Global indices, sovereign bond yields, and commodities</div><div class="count">9 days on file · latest 2026-05-28 · 79 records</div></a><a class="section-card" href="./mediacloud/"><div class="name">Mediacloud</div><div class="desc">Global media volume tracking</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./paper_bet_placement/"><div class="name">Paper Bet Placement</div><div class="desc">Daily paper-bet placement decisions</div><div class="count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="section-card" href="./paper_bets/"><div class="name">Paper Bets</div><div class="desc">Paper-betting prediction-market simulation (no real money)</div><div class="count">9 days on file · latest 2026-05-28 · 137 records</div></a><a class="section-card" href="./people/"><div class="name">People</div><div class="desc">Wikidata changes for tracked public figures</div><div class="count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="section-card" href="./political_figures/"><div class="name">Political Figures</div><div class="desc">613-figure US political watchlist with anomaly scoring</div><div class="count">9 days on file · latest 2026-05-28 · 613 records</div></a><a class="section-card" href="./promed/"><div class="name">Promed</div><div class="desc">ProMED disease outbreak reports</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./reliefweb/"><div class="name">Reliefweb</div><div class="desc">ReliefWeb humanitarian situation reports</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./russian_internal/"><div class="name">Russian Internal</div><div class="desc">Russian-language press: state + business + in-exile</div><div class="count">9 days on file · latest 2026-05-28 · 996 records</div></a><a class="section-card" href="./sanctions/"><div class="name">Sanctions</div><div class="desc">OFAC SDN list and EU/UK sanctions designations</div><div class="count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="section-card" href="./sanctions_procurement/"><div class="name">Sanctions Procurement</div><div class="desc">OFAC + DSCA + FARA + USASpending + CFIUS aggregator</div><div class="count">9 days on file · latest 2026-05-28 · 95 records</div></a><a class="section-card" href="./state_bills/"><div class="name">State Bills</div><div class="desc">OpenStates state legislation aggregator</div><div class="count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="section-card" href="./state_news/"><div class="name">State News</div><div class="desc">67 feeds across 50 US states + DC</div><div class="count">9 days on file · latest 2026-05-28 · 646 records</div></a><a class="section-card" href="./ukraine_theater/"><div class="name">Ukraine Theater</div><div class="desc">Total-theater monitoring: ACLED + FIRMS + DeepStateMap + OSINT</div><div class="count">9 days on file · latest 2026-05-28 · 441 records</div></a><a class="section-card" href="./ukrainian_internal/"><div class="name">Ukrainian Internal</div><div class="desc">Ukrainian press: national + Kyiv-local + government</div><div class="count">9 days on file · latest 2026-05-28 · 113 records</div></a><a class="section-card" href="./vip_flights/"><div class="name">VIP Aircraft Tracking</div><div class="desc">Government aircraft tracking (ADS-B)</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="section-card" href="./weather/"><div class="name">Weather</div><div class="desc">NOAA NWS active alerts + SPC outlooks + USGS quakes + NHC tropical</div><div class="count">9 days on file · latest 2026-05-28 · 102 records</div></a><a class="section-card" href="./wikidata_changes/"><div class="name">Wikidata Changes</div><div class="desc">Wikidata edits for tracked entities</div><div class="count">9 days on file · latest 2026-05-28 · 0 records</div></a></div>
+  <h1>Sections</h1><p class="font-sans text-sm text-slate mt-2 mb-6"><strong class="text-ink font-semibold">37</strong> active sections in the WORLDSCOPE lake · <strong class="text-ink font-semibold">4,771</strong> records ingested today. Click any section to drill into its archive and per-day records.</p><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 mt-6"><a class="ws-section-card" href="./acled/"><div class="ws-name">Acled</div><div class="ws-desc">ACLED Armed Conflict Location and Event Data</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./billionaires/"><div class="ws-name">Billionaires</div><div class="ws-desc">Forbes real-time billionaire net-worth changes</div><div class="ws-count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="ws-section-card" href="./chinese_internal/"><div class="ws-name">Chinese Internal</div><div class="ws-desc">Chinese-language domestic press with Claude translation</div><div class="ws-count">9 days on file · latest 2026-05-28 · 265 records</div></a><a class="ws-section-card" href="./cisa_kev/"><div class="ws-name">CISA Known Exploited Vulnerabilities</div><div class="ws-desc">CISA Known Exploited Vulnerabilities catalog</div><div class="ws-count">9 days on file · latest 2026-05-28 · 16 records</div></a><a class="ws-section-card" href="./commentary/"><div class="ws-name">Commentary</div><div class="ws-desc">Curated economist + analyst substack feed</div><div class="ws-count">9 days on file · latest 2026-05-28 · 6 records</div></a><a class="ws-section-card" href="./conflict/"><div class="ws-name">Conflict</div><div class="ws-desc">Conflict events and security incidents</div><div class="ws-count">9 days on file · latest 2026-05-28 · 40 records</div></a><a class="ws-section-card" href="./congressional_trades/"><div class="ws-name">Congressional Trades</div><div class="ws-desc">STOCK Act PTRs via Quiver Quantitative</div><div class="ws-count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="ws-section-card" href="./courtlistener/"><div class="ws-name">Courtlistener</div><div class="ws-desc">Federal and state civil/criminal court filings</div><div class="ws-count">9 days on file · latest 2026-05-28 · 30 records</div></a><a class="ws-section-card" href="./fec/"><div class="ws-name">FEC Campaign Finance</div><div class="ws-desc">Federal Election Commission campaign finance</div><div class="ws-count">9 days on file · latest 2026-05-28 · 15 records</div></a><a class="ws-section-card" href="./federal_register/"><div class="ws-name">Federal Register</div><div class="ws-desc">Executive orders, federal rules, and presidential documents</div><div class="ws-count">9 days on file · latest 2026-05-28 · 21 records</div></a><a class="ws-section-card" href="./firms/"><div class="ws-name">Firms</div><div class="ws-desc">NASA FIRMS thermal anomaly detections</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./forecasts/"><div class="ws-name">Forecasts</div><div class="ws-desc">Polymarket + Kalshi + PredictIt + Manifold prediction markets</div><div class="ws-count">9 days on file · latest 2026-05-28 · 20 records</div></a><a class="ws-section-card" href="./foreign_news/"><div class="ws-name">Foreign News</div><div class="ws-desc">37 countries, multi-tier foreign-language and English-language</div><div class="ws-count">9 days on file · latest 2026-05-28 · 856 records</div></a><a class="ws-section-card" href="./form4/"><div class="ws-name">Form4</div><div class="ws-desc">SEC Form 4 insider trade filings</div><div class="ws-count">9 days on file · latest 2026-05-28 · 40 records</div></a><a class="ws-section-card" href="./gdelt_gkg/"><div class="ws-name">GDELT Global Knowledge Graph</div><div class="ws-desc">GDELT GKG themes, entities, and tone</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./gdelt_regions/"><div class="ws-name">GDELT Regional Tone</div><div class="ws-desc">GDELT GKG regional tone and theme aggregation</div><div class="ws-count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="ws-section-card" href="./local_news/"><div class="ws-name">Local News</div><div class="ws-desc">St. Louis + Atlanta hyperlocal</div><div class="ws-count">9 days on file · latest 2026-05-28 · 237 records</div></a><a class="ws-section-card" href="./macro/"><div class="ws-name">Macro</div><div class="ws-desc">FRED macro indicators</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./markets/"><div class="ws-name">Markets</div><div class="ws-desc">US equity, FX, and Treasury markets</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./markets_global/"><div class="ws-name">Markets Global</div><div class="ws-desc">Global indices, sovereign bond yields, and commodities</div><div class="ws-count">9 days on file · latest 2026-05-28 · 79 records</div></a><a class="ws-section-card" href="./mediacloud/"><div class="ws-name">Mediacloud</div><div class="ws-desc">Global media volume tracking</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./paper_bet_placement/"><div class="ws-name">Paper Bet Placement</div><div class="ws-desc">Daily paper-bet placement decisions</div><div class="ws-count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="ws-section-card" href="./paper_bets/"><div class="ws-name">Paper Bets</div><div class="ws-desc">Paper-betting prediction-market simulation (no real money)</div><div class="ws-count">9 days on file · latest 2026-05-28 · 137 records</div></a><a class="ws-section-card" href="./people/"><div class="ws-name">People</div><div class="ws-desc">Wikidata changes for tracked public figures</div><div class="ws-count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="ws-section-card" href="./political_figures/"><div class="ws-name">Political Figures</div><div class="ws-desc">613-figure US political watchlist with anomaly scoring</div><div class="ws-count">9 days on file · latest 2026-05-28 · 613 records</div></a><a class="ws-section-card" href="./promed/"><div class="ws-name">Promed</div><div class="ws-desc">ProMED disease outbreak reports</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./reliefweb/"><div class="ws-name">Reliefweb</div><div class="ws-desc">ReliefWeb humanitarian situation reports</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./russian_internal/"><div class="ws-name">Russian Internal</div><div class="ws-desc">Russian-language press: state + business + in-exile</div><div class="ws-count">9 days on file · latest 2026-05-28 · 996 records</div></a><a class="ws-section-card" href="./sanctions/"><div class="ws-name">Sanctions</div><div class="ws-desc">OFAC SDN list and EU/UK sanctions designations</div><div class="ws-count">7 days on file · latest 2026-05-26 · 0 records</div></a><a class="ws-section-card" href="./sanctions_procurement/"><div class="ws-name">Sanctions Procurement</div><div class="ws-desc">OFAC + DSCA + FARA + USASpending + CFIUS aggregator</div><div class="ws-count">9 days on file · latest 2026-05-28 · 95 records</div></a><a class="ws-section-card" href="./state_bills/"><div class="ws-name">State Bills</div><div class="ws-desc">OpenStates state legislation aggregator</div><div class="ws-count">9 days on file · latest 2026-05-28 · 1 record</div></a><a class="ws-section-card" href="./state_news/"><div class="ws-name">State News</div><div class="ws-desc">67 feeds across 50 US states + DC</div><div class="ws-count">9 days on file · latest 2026-05-28 · 646 records</div></a><a class="ws-section-card" href="./ukraine_theater/"><div class="ws-name">Ukraine Theater</div><div class="ws-desc">Total-theater monitoring: ACLED + FIRMS + DeepStateMap + OSINT</div><div class="ws-count">9 days on file · latest 2026-05-28 · 441 records</div></a><a class="ws-section-card" href="./ukrainian_internal/"><div class="ws-name">Ukrainian Internal</div><div class="ws-desc">Ukrainian press: national + Kyiv-local + government</div><div class="ws-count">9 days on file · latest 2026-05-28 · 113 records</div></a><a class="ws-section-card" href="./vip_flights/"><div class="ws-name">VIP Aircraft Tracking</div><div class="ws-desc">Government aircraft tracking (ADS-B)</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a><a class="ws-section-card" href="./weather/"><div class="ws-name">Weather</div><div class="ws-desc">NOAA NWS active alerts + SPC outlooks + USGS quakes + NHC tropical</div><div class="ws-count">9 days on file · latest 2026-05-28 · 102 records</div></a><a class="ws-section-card" href="./wikidata_changes/"><div class="ws-name">Wikidata Changes</div><div class="ws-desc">Wikidata edits for tracked entities</div><div class="ws-count">9 days on file · latest 2026-05-28 · 0 records</div></a></div>
   </main>
-  <footer class="foot" role="contentinfo">
+  <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3" role="contentinfo">
     <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
-    <div><a href="../index.html" style="color:inherit">↑ home</a></div>
+    <div><a href="../index.html" class="text-navy hover:text-gold no-underline">↑ home</a></div>
   </footer>
 </div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
 </body></html>
