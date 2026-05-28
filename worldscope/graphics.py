@@ -66,15 +66,15 @@ CATEGORY_COLORS = [
 ]
 
 TIER_COLORS = {
-    "primary_document": CAROLINA_NAVY,
-    "mainstream_independent": CAROLINA_BLUE,
-    "mainstream_partisan_left": BSE_TEAL,
-    "mainstream_partisan_right": OLD_GOLD,
-    "state_controlled": INDIANA_CRIMSON,
-    "aggregator": SLATE,
-    "community": "#6A5D3E",
-    "speculative_blog": "#7A3E3E",
-    "prediction_market": OLD_GOLD,
+    "primary_document": CAROLINA_NAVY,        # deep navy: government, courts, regulators
+    "mainstream_independent": CAROLINA_BLUE,  # carolina blue: AP, BBC, Reuters
+    "aggregator": OLD_GOLD,                    # gold: GDELT, MediaCloud, Google News
+    "prediction_market": BSE_TEAL,             # teal: Polymarket, Kalshi
+    "state_controlled": INDIANA_CRIMSON,       # crimson: TASS, Xinhua, RT
+    "mainstream_partisan_left": "#4A7563",     # muted forest
+    "mainstream_partisan_right": "#A56F3B",    # muted ochre
+    "community": "#6A5D3E",                    # dim brown: forums, BlueSky
+    "speculative_blog": "#7A3E3E",             # dim red: substack analysis
 }
 
 # ---------------------------------------------------------------------------
@@ -829,80 +829,157 @@ class DailyGraphics:
         path = out_dir / "markets_sparklines.png"
 
         history = self.lake.markets_history(date_iso, days=30)
-        # If the lake has no markets_global data at all, render a placeholder
-        # but ensure 12 cells so the layout reads consistently.
-        target_panels = 12
-        names: list[str] = sorted(history.keys()) if history else []
-        # Pad with empty placeholder cells up to 12 panels.
-        panel_data: list[tuple[str, list[tuple[str, float]]]] = []
-        for name in names:
-            panel_data.append((name, history[name]))
-        while len(panel_data) < target_panels:
-            panel_data.append((f"slot {len(panel_data)+1}", []))
-        panel_data = panel_data[:max(target_panels, len(panel_data))]
+        # Only show tickers with at least 2 data points (an actual sparkline).
+        # A grid of 80+ "first-day data" placeholders is embarrassing; better
+        # to show the few tickers that DO have history, or fall back to a
+        # current-values list when nothing has history.
+        sparkable = sorted(
+            ((name, series) for name, series in (history or {}).items()
+             if len(series) >= 2),
+            key=lambda kv: len(kv[1]),
+            reverse=True,
+        )
+        # When history is too thin for any meaningful sparkline, render a
+        # current-values list of today's closes instead.
+        if not sparkable:
+            return self._render_markets_current_values(history, date_iso, path)
+        # Cap to 12 sparklines max so each panel reads cleanly.
+        sparkable = sparkable[:12]
 
-        n = len(panel_data)
-        cols = 4
+        n = len(sparkable)
+        cols = 4 if n >= 4 else max(1, n)
         rows = (n + cols - 1) // cols
         fig, axes = plt.subplots(rows, cols, figsize=(12, max(3, 1.8 * rows)),
                                  dpi=100)
-        axes_flat = np.array(axes).reshape(-1)
+        axes_flat = np.array([axes]).reshape(-1) if n == 1 else np.array(axes).reshape(-1)
 
-        for i, (name, series) in enumerate(panel_data):
+        for i, (name, series) in enumerate(sparkable):
             ax = axes_flat[i]
             ax.set_facecolor(PARCHMENT)
             for spine in ax.spines.values():
                 spine.set_visible(False)
             ax.set_xticks([])
             ax.set_yticks([])
-            ax.set_title(name[:18], fontsize=9, family=SANS_FAMILY,
-                         color=CAROLINA_NAVY, loc="left", pad=2)
-            if not series:
-                ax.text(0.5, 0.5, "first-day data",
-                        ha="center", va="center", fontsize=8,
-                        family=SANS_FAMILY, color=SLATE)
-                continue
-            if len(series) == 1:
-                _, c = series[0]
-                ax.plot([0], [c], marker="o", color=OLD_GOLD, markersize=6)
-                ax.text(0.5, 0.20, "first-day data",
-                        transform=ax.transAxes, ha="center", va="center",
-                        fontsize=7, family=SANS_FAMILY, color=SLATE)
-                ax.text(0.98, 0.92, f"{c:,.2f}",
-                        transform=ax.transAxes, ha="right", va="top",
-                        fontsize=9, family=SERIF_FAMILY, color=CAROLINA_NAVY)
-                continue
+            ax.set_title(name[:18], fontsize=10, family=SANS_FAMILY,
+                         color=CAROLINA_NAVY, loc="left", pad=4)
             xs = np.arange(len(series))
             ys = np.array([s[1] for s in series], dtype=float)
-            ax.plot(xs, ys, color=CAROLINA_NAVY, linewidth=1.5)
-            ax.scatter([xs[-1]], [ys[-1]], color=OLD_GOLD, s=18, zorder=3)
-            # Arrow indicating today's direction
+            ax.plot(xs, ys, color=CAROLINA_NAVY, linewidth=1.7)
+            ax.fill_between(xs, ys, ys.min(), color=CAROLINA_NAVY, alpha=0.10)
+            ax.scatter([xs[-1]], [ys[-1]], color=OLD_GOLD, s=22, zorder=3,
+                       edgecolor=CAROLINA_NAVY, linewidth=0.7)
             direction = ys[-1] - ys[-2]
-            arrow = "▲" if direction > 0 else ("▼" if direction < 0 else "→")
+            arrow = "+" if direction > 0 else ("-" if direction < 0 else "=")
             arrow_color = BSE_TEAL if direction > 0 else (
                 INDIANA_CRIMSON if direction < 0 else SLATE
             )
-            ax.text(0.97, 0.88, arrow, transform=ax.transAxes, ha="right",
-                    va="top", fontsize=12, color=arrow_color, fontweight="bold")
-            ax.text(0.97, 0.10, f"{ys[-1]:,.2f}", transform=ax.transAxes,
-                    ha="right", va="bottom", fontsize=9, family=SERIF_FAMILY,
-                    color=CAROLINA_NAVY)
+            pct = (direction / ys[-2] * 100) if ys[-2] else 0
+            ax.text(0.97, 0.92, f"{arrow}{abs(pct):.1f}%",
+                    transform=ax.transAxes, ha="right", va="top",
+                    fontsize=10, color=arrow_color, family=SANS_FAMILY,
+                    fontweight="bold")
+            ax.text(0.97, 0.08, f"{ys[-1]:,.2f}", transform=ax.transAxes,
+                    ha="right", va="bottom", fontsize=10, family=SERIF_FAMILY,
+                    color=CAROLINA_NAVY, fontweight="bold")
 
-        # Hide any unused axes
-        for j in range(len(panel_data), len(axes_flat)):
+        for j in range(n, len(axes_flat)):
             axes_flat[j].set_visible(False)
 
         fig.suptitle(
-            f"Markets, last 30 days (close), as of {date_iso}",
-            fontsize=16, family=SERIF_FAMILY, color=CAROLINA_NAVY,
+            f"Markets, recent close trajectory ({n} tickers shown), as of {date_iso}",
+            fontsize=15, family=SERIF_FAMILY, color=CAROLINA_NAVY,
             x=0.06, ha="left", y=0.97, fontweight="bold",
         )
         _style_caption(
             fig,
-            "Source: markets_global section (Stooq, CoinGecko, exchangerate.host). "
-            "Daily close. Arrow shows today vs prior day.",
+            f"Source: markets_global section (Stooq, CoinGecko, open.er-api.com). "
+            f"Showing the {n} tickers with the deepest history; "
+            "arrow + percent reflect today vs prior close.",
         )
         fig.tight_layout(rect=[0, 0.03, 1, 0.93])
+        fig.savefig(path, dpi=100, facecolor=PARCHMENT)
+        plt.close(fig)
+        return path
+
+    def _render_markets_current_values(self, history: dict, date_iso: str,
+                                       path: Path) -> Path:
+        """Fallback when no ticker has enough history to sparkline.
+
+        Renders today's closes as a clean two-column list grouped by asset
+        class, with the current value and (if known) the previous value
+        for context. This is the honest case: 'history too thin to chart;
+        here are the current numbers.'
+        """
+        # Each entry is a (name, value, prev) tuple where prev may be None.
+        rows: list[tuple[str, float, float | None]] = []
+        for name, series in (history or {}).items():
+            if not series:
+                continue
+            value = series[-1][1]
+            prev = series[-2][1] if len(series) >= 2 else None
+            rows.append((name, value, prev))
+        rows.sort(key=lambda r: r[0].lower())
+
+        if not rows:
+            fig, ax = plt.subplots(figsize=(11, 4.5), dpi=100)
+            _placeholder(
+                ax,
+                "Markets section has no values for this date yet.\n"
+                "Adapter ran but stored zero closes.",
+                title=f"Markets, current values as of {date_iso}",
+            )
+            _style_caption(
+                fig,
+                "Source: markets_global section (Stooq + CoinGecko + er-api).",
+            )
+            fig.savefig(path, dpi=100, facecolor=PARCHMENT)
+            plt.close(fig)
+            return path
+
+        # Two-column layout, sized to row count.
+        cols = 2
+        n_rows = (len(rows) + cols - 1) // cols
+        fig_h = max(3.5, 0.28 * n_rows + 1.6)
+        fig, ax = plt.subplots(figsize=(11, fig_h), dpi=100)
+        ax.set_facecolor(PARCHMENT)
+        ax.set_xlim(0, 2)
+        ax.set_ylim(0, n_rows + 1)
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+        ax.set_xticks([])
+        ax.set_yticks([])
+
+        for i, (name, value, prev) in enumerate(rows):
+            col = i // n_rows
+            row_in_col = i % n_rows
+            y = n_rows - row_in_col - 0.5
+            x_name = 0.04 + col
+            x_val = 0.95 + col
+            ax.text(x_name, y, name[:32], fontsize=10, family=SANS_FAMILY,
+                    color=CAROLINA_NAVY, va="center")
+            ax.text(x_val, y, f"{value:,.2f}", fontsize=10.5, family=SERIF_FAMILY,
+                    color=CAROLINA_NAVY, va="center", ha="right",
+                    fontweight="bold")
+            if prev is not None and prev != 0:
+                delta = value - prev
+                pct = delta / prev * 100
+                color = BSE_TEAL if delta >= 0 else INDIANA_CRIMSON
+                sign = "+" if delta >= 0 else ""
+                ax.text(x_val + 0.02, y, f"  ({sign}{pct:.2f}%)",
+                        fontsize=9, family=SANS_FAMILY, color=color,
+                        va="center")
+        ax.set_title(
+            f"Markets, current values as of {date_iso}",
+            fontsize=15, family=SERIF_FAMILY, color=CAROLINA_NAVY,
+            loc="left", pad=8,
+        )
+        _style_caption(
+            fig,
+            "Source: markets_global section (Stooq + CoinGecko + er-api). "
+            "History too thin for sparklines; showing today's closes "
+            "with prior-close delta where available.",
+        )
+        fig.tight_layout(rect=[0, 0.04, 1, 1])
         fig.savefig(path, dpi=100, facecolor=PARCHMENT)
         plt.close(fig)
         return path
@@ -1046,13 +1123,24 @@ class DailyGraphics:
         out_dir.mkdir(parents=True, exist_ok=True)
         path = out_dir / "anomaly_density.png"
 
-        records = self.lake.anomalies(date_iso, days=30)
         try:
             end_d = date.fromisoformat(date_iso)
         except ValueError:
             end_d = date.today()
-        # Build a (date, category) count matrix
-        days = [(end_d - timedelta(days=i)) for i in range(29, -1, -1)]
+        # Adapt the window to actual ingestion depth. With <14 days of real
+        # data, a 30-day chart is 25+ days of whitespace and one tall stack
+        # at the right; not useful. Pick a window that gives the existing
+        # data ~30% of the horizontal axis at minimum.
+        real_history = self.lake.real_section_dates()
+        n_real = len(real_history)
+        if n_real >= 14:
+            window_days = 30
+        elif n_real >= 7:
+            window_days = 14
+        else:
+            window_days = max(7, n_real + 4)
+        records = self.lake.anomalies(date_iso, days=window_days)
+        days = [(end_d - timedelta(days=i)) for i in range(window_days - 1, -1, -1)]
         day_keys = [d.isoformat() for d in days]
         categories: list[str] = []
         cat_seen: set[str] = set()
@@ -1068,18 +1156,15 @@ class DailyGraphics:
                 counts[c][day_keys.index(d_iso)] += 1
 
         # Available-history check: count only days with real ingested data.
-        # Backfill placeholders (state == "backfill_no_data") are excluded
-        # so the warm-up banner reflects actual ingestion depth.
-        all_dates = self.lake.real_section_dates()
-        history_days = len(all_dates)
+        history_days = n_real
 
         fig, ax = plt.subplots(figsize=(11, 5), dpi=100)
         if not records:
             _placeholder(
                 ax,
-                "No anomalies detected in the last 30 days.\n"
+                f"No anomalies detected in the last {window_days} days.\n"
                 "Detectors are wired but quiet.",
-                title=f"Anomaly density, 30 day window ending {date_iso}",
+                title=f"Anomaly density, {window_days} day window ending {date_iso}",
             )
             if history_days < 14:
                 fig.text(
@@ -1108,11 +1193,16 @@ class DailyGraphics:
                    edgecolor=CAROLINA_NAVY, linewidth=0.3, label=c, zorder=3)
             bottom = bottom + counts[c]
 
-        ax.set_xticks(x[::3])
-        ax.set_xticklabels([days[i].strftime("%m-%d") for i in range(0, len(days), 3)],
-                           rotation=30, ha="right", fontsize=8, family=SANS_FAMILY)
+        # Adaptive tick density: small windows get every day labeled, big
+        # ones get every third.
+        tick_stride = 1 if window_days <= 10 else (2 if window_days <= 16 else 3)
+        ax.set_xticks(x[::tick_stride])
+        ax.set_xticklabels(
+            [days[i].strftime("%b %-d") for i in range(0, len(days), tick_stride)],
+            rotation=30, ha="right", fontsize=9, family=SANS_FAMILY,
+        )
         ax.set_ylabel("anomalies", fontsize=10, family=SANS_FAMILY, color=SLATE)
-        ax.set_title(f"Anomaly density, 30 day window ending {date_iso}",
+        ax.set_title(f"Anomaly density, {window_days} day window ending {date_iso}",
                      fontsize=15, family=SERIF_FAMILY, color=CAROLINA_NAVY,
                      loc="left", pad=12)
         ax.legend(fontsize=8, frameon=False, loc="upper left",
