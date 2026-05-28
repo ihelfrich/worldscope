@@ -1,0 +1,16 @@
+{
+  "name": "worldscope-design",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Worldscope CSS + design-token build (Tailwind precompiled, self-hosted fonts). Run during CI before the Python brief renders.",
+  "scripts": {
+    "build:css": "tailwindcss -i ./worldscope/design/input.css -o ./dist/assets/worldscope.css --minify",
+    "watch:css": "tailwindcss -i ./worldscope/design/input.css -o ./dist/assets/worldscope.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/aspect-ratio": "^0.4.2"
+  }
+}

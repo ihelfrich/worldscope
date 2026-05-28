@@ -37,6 +37,17 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -e .
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Build CSS bundle (pre-compiled Tailwind, no CDN)
+        # Single source of design truth lives in worldscope/design/.
+        # Output is dist/assets/worldscope.css (~155KB → ~50KB gzip).
+        # Replaces the runtime Tailwind CDN — no FOUC, no warning.
+        run: |
+          npm install --no-audit --no-fund --silent
+          npm run build:css
       - name: Generate briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

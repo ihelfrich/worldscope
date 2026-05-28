@@ -41,7 +41,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - run: pip install markdown pyyaml
+      - run: pip install markdown pyyaml bleach
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Build CSS bundle (pre-compiled Tailwind)
+        run: |
+          npm install --no-audit --no-fund --silent
+          npm run build:css
       - name: Fact-check numeric claims (HARD rule — fails the build on divergence)
         run: |
           # STANDING RULE: every number, every fact, every figure must be

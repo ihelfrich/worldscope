@@ -1,0 +1,413 @@
+/* WORLDSCOPE master CSS input — Tailwind processes this and emits
+ * dist/assets/worldscope.css (~30KB minified after tree-shake).
+ *
+ * Architecture:
+ *   typography.css   — @font-face declarations for self-hosted fonts
+ *   tokens (below)   — CSS custom properties for theming
+ *   @tailwind base   — Tailwind preflight + our base layer
+ *   @tailwind components — design-system component classes
+ *   @tailwind utilities  — Tailwind atomic utilities + our overrides
+ */
+
+@import "./typography.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+ * DESIGN TOKENS — single source of truth for colors + radii +
+ * shadows. All component styles below reference these via
+ * var(--token-name), and Tailwind utilities use the matching
+ * theme values from tailwind.config.js.
+ * ============================================================ */
+
+:root {
+  /* Surfaces — frosty white aesthetic */
+  --canvas:        #FCFCFD;
+  --panel:         #FFFFFF;
+  --panel-elev:    rgba(255, 255, 255, 0.92);  /* semi-transparent overlays */
+  --mist:          #EDEDF0;
+  --mist-strong:   #D4D4D8;
+
+  /* Text */
+  --ink:           #0B1220;
+  --slate:         #4E5667;
+  --slate-mid:     #6B7280;
+  --slate-dim:     #9CA3AF;
+
+  /* Brand */
+  --navy:          #13294B;
+  --navy-soft:     #1F3D6E;
+  --navy-deep:     #091428;
+  --gold:          #C8961A;
+  --gold-soft:     #E0B240;
+  --carolina:      #4B9CD3;
+  --crimson:       #9B1C1C;
+  --teal:          #0F766E;
+  --sage:          #5C7B6C;
+
+  /* Status semantics */
+  --status-ok:       var(--sage);
+  --status-warn:     var(--gold);
+  --status-error:    var(--crimson);
+  --status-info:     var(--carolina);
+  --status-pending:  var(--slate-mid);
+
+  /* Geometry */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+
+  /* Shadows — frosty, low-opacity, never embossed */
+  --shadow-card: 0 1px 1px rgba(11,18,32,0.03), 0 2px 6px rgba(11,18,32,0.04);
+  --shadow-lift: 0 1px 2px rgba(11,18,32,0.04), 0 12px 24px rgba(11,18,32,0.08);
+  --shadow-globe: 0 30px 60px -20px rgba(11,18,32,0.25), 0 20px 40px -25px rgba(11,18,32,0.12);
+
+  /* Motion */
+  --ease-editorial: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-gentle:    cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring:    cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Hairline rule for borders that need to look like ink, not pixels */
+  --hairline:       1px solid var(--mist);
+  --hairline-strong: 1px solid var(--mist-strong);
+}
+
+/* Dark theme tokens kick in via [data-theme="dark"]. Sunset animation
+ * (Step 3 of the plan) crossfades from default → dark. */
+[data-theme="dark"] {
+  --canvas:        #0B0E14;
+  --panel:         #131820;
+  --panel-elev:    rgba(19, 24, 32, 0.92);
+  --mist:          #1F252F;
+  --mist-strong:   #2A323F;
+  --ink:           #ECEFF4;
+  --slate:         #A8B0BD;
+  --slate-mid:     #818996;
+  --slate-dim:     #5A6270;
+  --shadow-card: 0 1px 1px rgba(0,0,0,0.25), 0 2px 6px rgba(0,0,0,0.20);
+  --shadow-lift: 0 1px 2px rgba(0,0,0,0.30), 0 12px 24px rgba(0,0,0,0.30);
+}
+
+
+/* ============================================================
+ * BASE LAYER overrides — sit on top of Tailwind preflight
+ * ============================================================ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: 'Source Serif 4', Georgia, 'Iowan Old Style', ui-serif, serif;
+    color: var(--ink);
+    background: var(--canvas);
+    font-size: 16.5px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+    text-rendering: optimizeLegibility;
+  }
+  /* Tabular figures for numbers everywhere — counts stay column-aligned */
+  .tabular-nums, .count, time, .stat, [data-tabular] {
+    font-feature-settings: 'tnum' 1, 'kern' 1;
+    font-variant-numeric: tabular-nums;
+  }
+  h1, h2, h3 {
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'lnum' 1;
+  }
+  ::selection { background: rgba(200, 150, 26, 0.30); }
+  /* Anchors get their underline via composition, not by default */
+  a { color: inherit; text-decoration: none; }
+}
+
+
+/* ============================================================
+ * COMPONENT LAYER — shared building blocks
+ * ============================================================ */
+
+@layer components {
+  /* The editorial drop cap — used on the first paragraph of long synthesis text */
+  .drop-cap::first-letter {
+    font-family: 'Source Serif 4', serif;
+    float: left;
+    font-size: 4.2em;
+    line-height: 0.85;
+    padding: 0.05em 0.12em 0 0;
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  /* The gold rule between sections — thin, fading */
+  .editorial-rule {
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold) 0%, rgba(200,150,26,0.30) 30%, transparent 100%);
+    border: 0;
+  }
+
+  /* Frosty glass strip — used by the sticky topnav */
+  .glass-nav {
+    background: linear-gradient(180deg, rgba(252,252,253,0.92) 0%, rgba(252,252,253,0.84) 100%);
+    backdrop-filter: blur(12px) saturate(160%);
+    -webkit-backdrop-filter: blur(12px) saturate(160%);
+    border-bottom: 1px solid var(--mist);
+  }
+
+  /* Card hover lift — used across all the card-shaped containers */
+  .lift-card {
+    transition: transform 0.22s var(--ease-editorial),
+                box-shadow 0.22s var(--ease-editorial),
+                border-color 0.22s var(--ease-editorial);
+  }
+  .lift-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+  }
+
+  /* Recurrence chip — hero "signals converging" */
+  .signal-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 9999px;
+    background: var(--panel-elev);
+    border: 1px solid var(--mist);
+    backdrop-filter: blur(6px);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    transition: all 0.18s var(--ease-editorial);
+    cursor: default;
+  }
+  .signal-chip:hover {
+    transform: translateY(-1px);
+    border-color: var(--gold);
+    box-shadow: 0 2px 6px rgba(11,18,32,0.06), 0 8px 20px rgba(11,18,32,0.08);
+  }
+  .signal-chip .count {
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--slate);
+    letter-spacing: 0.05em;
+  }
+  .signal-chip .conf-dot {
+    width: 6px; height: 6px; border-radius: 9999px;
+    background: var(--gold);
+    box-shadow: 0 0 0 2px rgba(200,150,26,0.18);
+  }
+  .signal-chip[data-conf="high"]   .conf-dot { background: var(--navy); box-shadow: 0 0 0 2px rgba(19,41,75,0.18); }
+  .signal-chip[data-conf="medium"] .conf-dot { background: var(--gold); }
+  .signal-chip[data-conf="low"]    .conf-dot { background: var(--slate-dim); box-shadow: none; }
+
+  /* NEW pill — intentionally loud, used sparingly */
+  .new-pill {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 9.5px;
+    padding: 2px 6px 1.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: var(--radius-sm);
+    vertical-align: 0.18em;
+    margin-right: 6px;
+  }
+
+  /* Stale / status badges */
+  .stale-pill {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 10.5px; font-weight: 600;
+    padding: 2px 7px; border-radius: var(--radius-sm);
+    letter-spacing: 0.06em;
+    margin-left: 8px;
+    vertical-align: 0.18em;
+  }
+  .stale-pill.carry  { background: #FEF3C7; color: #78350F; border: 1px solid #FDE68A; }
+  .stale-pill.failed { background: #FEE2E2; color: #7F1D1D; border: 1px solid #FCA5A5; }
+  .stale-pill.none   { background: var(--mist); color: var(--slate); border: 1px solid var(--mist-strong); }
+
+  /* Pull-quote — large serif italic, gold-rule accent */
+  .pull-quote {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(20px, 2.2vw, 26px);
+    line-height: 1.32;
+    color: var(--ink);
+    padding-left: 1.05rem;
+    border-left: 3px solid var(--gold);
+    letter-spacing: -0.005em;
+  }
+
+  /* Stat block — big number, kicker label */
+  .stat-block .stat {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(40px, 4.4vw, 56px);
+    line-height: 0.96;
+    letter-spacing: -0.025em;
+    color: var(--navy);
+  }
+  .stat-block .stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--slate);
+    margin-top: 6px;
+  }
+
+  /* Figure card with sliding gold accent on hover */
+  .figure-card {
+    position: relative;
+    overflow: hidden;
+  }
+  .figure-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--gold);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.28s var(--ease-editorial);
+  }
+  .figure-card:hover::before { transform: scaleY(1); }
+
+  /* Hero delta bullets — what moved today */
+  .ws-deltas {
+    list-style: none; padding: 0; margin: 18px 0 0;
+    display: flex; flex-direction: column; gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px; line-height: 1.4;
+  }
+  .ws-delta { display: flex; gap: 8px; align-items: baseline; color: var(--ink); }
+  .ws-delta-mark {
+    flex-shrink: 0; width: 14px; text-align: center;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 16px; line-height: 1; color: var(--gold);
+  }
+  .ws-delta-warn .ws-delta-mark { color: var(--crimson); }
+  .ws-delta strong { font-weight: 700; color: var(--navy); }
+
+  /* Source-tier triangulation pills */
+  .ws-tier-pill {
+    background: transparent;
+    border: 1px solid var(--mist);
+    color: var(--slate);
+    font-family: 'Inter', sans-serif;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.10em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 9999px;
+    cursor: pointer; transition: all 0.15s var(--ease-gentle);
+  }
+  .ws-tier-pill:hover { border-color: var(--gold); color: var(--ink); }
+  .ws-tier-pill.ws-tier-active {
+    background: var(--navy); color: var(--canvas); border-color: var(--navy);
+  }
+  .ws-sec { transition: opacity 0.22s var(--ease-gentle); }
+
+  /* Thread chapter / day-delta pills */
+  .ws-chapter {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 2px 7px; border-radius: var(--radius-sm);
+    vertical-align: 0.18em;
+  }
+  .ws-chapter-opening { background: var(--mist); color: var(--slate); }
+  .ws-chapter-turning { background: var(--gold); color: var(--navy-deep); }
+  .ws-chapter-cooling { background: #FEE2E2; color: #7F1D1D; border: 1px solid #FCA5A5; }
+  .ws-day-delta {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px; font-weight: 600;
+    padding: 1px 6px; border-radius: var(--radius-sm);
+    vertical-align: 0.16em;
+  }
+  .ws-day-up   { background: rgba(15,118,110,0.14); color: var(--teal); }
+  .ws-day-dn   { background: rgba(155,28,28,0.10); color: var(--crimson); }
+  .ws-day-flat { background: var(--mist); color: var(--slate); }
+  .ws-tier-seg { display: block; height: 100%; transition: opacity 0.15s; }
+  .ws-tier-seg:hover { opacity: 0.78; }
+
+  /* Claim badges (Evidence Drawer hooks) */
+  .claim-badge {
+    display: inline;
+    padding: 0 0.18em;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background 0.12s var(--ease-gentle);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  .claim-verified   { text-decoration-color: rgba(15,118,110,0.55); }
+  .claim-divergent  { text-decoration-color: var(--crimson);
+                      background: rgba(155,28,28,0.08); }
+  .claim-unverified { text-decoration-color: rgba(78,86,103,0.45); }
+  .claim-badge:hover { background: rgba(200,150,26,0.16); }
+  .claim-mark {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72em; font-weight: 700;
+    margin-left: 2px; vertical-align: super; opacity: 0.75;
+  }
+  .claim-verified  .claim-mark { color: var(--teal); }
+  .claim-divergent .claim-mark { color: var(--crimson); opacity: 1; }
+  .claim-unverified .claim-mark { color: var(--slate); }
+
+  /* Section emoji — large flourish in card header */
+  .section-glyph { font-size: 38px; line-height: 1; filter: saturate(0.85); }
+
+  /* Vega chart frame */
+  [data-vega-target] .vega-embed { width: 100%; display: block; }
+  [data-vega-target] svg { display: block; max-width: 100%; }
+
+  /* Pinned-link in graph view */
+  .pinned-link {
+    background: none; border: 0; padding: 0;
+    color: var(--navy); text-decoration: underline;
+    text-underline-offset: 2px; text-decoration-color: rgba(19,41,75,0.25);
+    cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 600;
+  }
+  .pinned-link:hover { color: var(--gold); text-decoration-color: var(--gold); }
+}
+
+
+/* ============================================================
+ * UTILITY LAYER — micro overrides + a11y + print
+ * ============================================================ */
+
+@layer utilities {
+  /* Reduced motion respects the user's OS-level setting */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  /* Print stylesheet — keep editorial chrome out of the print */
+  @media print {
+    .glass-nav, footer .actions, .ws-bg,
+    #ws-evidence-drawer, #ws-chat-toggle, #ws-chat-panel,
+    details > summary::-webkit-details-marker { display: none !important; }
+    details { open: ''; }
+    details > div { display: block !important; }
+    body { background: #fff; }
+    .claim-badge { text-decoration: none; background: none !important; }
+    .claim-mark { display: none; }
+  }
+}
