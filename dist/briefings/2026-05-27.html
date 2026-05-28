@@ -1,462 +1,149 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en" data-theme="heritage"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>WORLDSCOPE · 2026-05-27</title>
+<meta name="description" content="WORLDSCOPE daily briefing: Morning Brief - Wednesday 27 May 2026">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/briefings/2026-05-27.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-05-27">
+<meta property="og:description" content="WORLDSCOPE daily briefing: Morning Brief - Wednesday 27 May 2026">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/briefings/2026-05-27.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>
-:root {
-  --ink: #0B1220;
-  --parchment: #FAF8F3;
-  --bg: #FAF8F3;
-  --panel: #FFFFFF;
-  --mist: #E8E2D5;
-  --border: #E8E2D5;
-  --slate: #4E5667;
-  --muted: #4E5667;
-  --navy: #13294B;
-  --accent: #13294B;
-  --accent-2: #1F3D6E;
-  --gold: #D4A017;
-  --teal: #1A8A87;
-  --crimson: #990000;
-  --carolina: #4B9CD3;
-  --warn: #D4A017;
-  --danger: #990000;
-  --good: #1A8A87;
-  --rule: 1px solid var(--mist);
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  font-family: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', serif;
-  color: var(--ink);
-  background: var(--bg);
-  font-size: 16.5px;
-  line-height: 1.55;
-}
-.shell {
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 36px;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 24px 24px 80px;
-}
-.sidebar {
-  position: sticky;
-  top: 24px;
-  align-self: start;
-  font-family: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  max-height: calc(100vh - 48px);
-  overflow-y: auto;
-  padding-right: 4px;
-}
-.sidebar h3 {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  margin: 18px 0 6px;
-  font-weight: 700;
-}
-.sidebar ul { list-style: none; padding: 0; margin: 0; }
-.sidebar li { margin: 4px 0; }
-.sidebar a {
-  color: var(--ink); text-decoration: none;
-  display: block; padding: 3px 8px; border-radius: 4px;
-  border-left: 2px solid transparent;
-}
-.sidebar a:hover { background: var(--mist); }
-.sidebar a.active {
-  border-left-color: var(--gold);
-  background: var(--mist);
-  color: var(--navy);
-  font-weight: 600;
-}
-.masthead {
-  border-bottom: 2px solid var(--gold);
-  padding-bottom: 18px;
-  margin-bottom: 28px;
-  position: relative;
-}
-.masthead::before {
-  content: ''; position: absolute; left: 0; right: 0; bottom: -5px;
-  height: 1px; background: var(--navy);
-}
-.masthead .eyebrow {
-  font-family: 'Inter', sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--navy);
-  font-weight: 700;
-}
-.masthead .eyebrow::before {
-  content: '◆ '; color: var(--gold);
-}
-.masthead h1 {
-  font-family: 'Source Serif 4', 'Georgia', serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.08;
-  margin: 10px 0 8px;
-  color: var(--ink);
-  letter-spacing: -0.6px;
-}
-.masthead .dateline {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  color: var(--muted);
-}
-.dashboard {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 12px;
-  margin: 18px 0 26px;
-}
-.dash-tile {
-  background: var(--panel);
-  border: var(--rule);
-  border-left: 3px solid var(--accent);
-  border-radius: 6px;
-  padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
-}
-.dash-tile.priority-high { border-left-color: var(--danger); }
-.dash-tile.priority-normal { border-left-color: var(--accent); }
-.dash-tile.priority-low { border-left-color: var(--muted); }
-.dash-tile.alert { background: #FEF2F2; }
-.dash-tile h4 {
-  margin: 0 0 4px;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: var(--ink);
-}
-.dash-tile .dash-stat {
-  font-size: 22px;
-  font-family: 'Source Serif 4', serif;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: -0.5px;
-}
-.dash-tile .dash-meta {
-  font-size: 11px;
-  color: var(--muted);
-  margin-top: 3px;
-}
-.content h1 { display: none; }  /* first H1 is the title, shown in masthead */
-.content h2 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 24px;
-  margin: 36px 0 12px;
-  padding-bottom: 6px;
-  border-bottom: var(--rule);
-  color: var(--accent);
-  letter-spacing: -0.2px;
-  scroll-margin-top: 24px;
-}
-.content h3 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 18px;
-  margin: 24px 0 8px;
-  color: var(--ink);
-  scroll-margin-top: 24px;
-}
-.content h4 {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  margin: 18px 0 6px;
-}
-.content p {
-  margin: 0 0 12px;
-}
-.content a {
-  color: var(--accent);
-  text-decoration: none;
-  border-bottom: 1px solid #BBD;
-}
-.content a:hover { border-bottom-color: var(--accent); }
-.content blockquote {
-  border-left: 3px solid var(--accent-2);
-  background: #EEF4FA;
-  padding: 8px 14px;
-  margin: 12px 0;
-  font-style: italic;
-  color: #1B2E4A;
-}
-.content code {
-  font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
-  font-size: 13px;
-  background: #F1F4F9;
-  padding: 1px 5px;
-  border-radius: 3px;
-}
-.content pre {
-  background: #0F172A;
-  color: #E2E8F0;
-  padding: 14px;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-}
-.content table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 14px 0;
-  font-size: 14.5px;
-  font-family: 'Inter', sans-serif;
-}
-.content table th, .content table td {
-  border: var(--rule);
-  padding: 6px 10px;
-  text-align: left;
-}
-.content table th {
-  background: #F1F4F9;
-  font-weight: 700;
-  position: sticky;
-  top: 0;
-}
-.content table tbody tr:nth-child(odd) { background: #FAFBFD; }
-.content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 16px 0;
-  border: var(--rule);
-  border-radius: 4px;
-}
-.content figure {
-  margin: 18px 0;
-}
-.content figcaption {
-  font-family: 'Inter', sans-serif;
-  font-size: 12.5px;
-  color: var(--muted);
-  margin-top: 6px;
-}
-.callout {
-  border: var(--rule);
-  border-left: 4px solid var(--warn);
-  background: #FFFBEB;
-  padding: 10px 14px;
-  margin: 14px 0;
-  border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-size: 14.5px;
-}
-.callout.danger { border-left-color: var(--danger); background: #FEF2F2; }
-.callout.good   { border-left-color: var(--good);   background: #ECFDF5; }
-.callout-label {
-  display: inline-block;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 700;
-  color: var(--warn);
-  margin-right: 8px;
-}
-.callout.danger .callout-label { color: var(--danger); }
-.callout.good   .callout-label { color: var(--good); }
-.hostpill {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 10.5px;
-  color: var(--muted);
-  background: #F1F4F9;
-  border: 1px solid #D9DEE5;
-  border-radius: 999px;
-  padding: 1px 7px;
-  margin-left: 4px;
-  vertical-align: 1px;
-}
-.gridmap {
-  width: 100%;
-  height: 380px;
-  border: var(--rule);
-  border-radius: 6px;
-  margin: 16px 0;
-}
-footer.brief-foot {
-  margin-top: 60px;
-  padding-top: 16px;
-  border-top: var(--rule);
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  color: var(--muted);
-  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
-}
-.anchor-link {
-  opacity: 0; margin-left: 6px; text-decoration: none; color: var(--accent-2);
-  transition: opacity 0.15s;
-}
-.content h2:hover .anchor-link,
-.content h3:hover .anchor-link { opacity: 1; }
-@media (max-width: 900px) {
-  .shell { grid-template-columns: 1fr; }
-  .sidebar { position: static; max-height: none; }
-}
-/* === mobile-responsive additions === */
-@media (max-width: 700px) {
-  body {
-    font-size: 15.5px;
-  }
-  .shell {
-    padding: 16px 16px 60px;
-  }
-  .sidebar {
-    display: none;
-  }
-  .masthead h1 {
-    font-size: 26px;
-  }
-  .dashboard {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin: 14px 0 22px;
-  }
-  .dash-tile {
-    padding: 8px 10px;
-  }
-  .content img {
-    margin-left: -16px;
-    margin-right: -16px;
-    width: calc(100% + 32px);
-    max-width: none;
-    border-radius: 0;
-  }
-}
-/* === site-wide top navigation === */
-.topnav {
-  background: var(--accent); color: #fff;
-  padding: 9px 24px;
-  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
-  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
-  font-size: 13px;
-  border-bottom: 3px double var(--accent-2);
-  margin: -24px -24px 24px;
-}
-.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
-.topnav a:hover { opacity: 1; text-decoration: underline; }
-.topnav .brand {
-  font-weight: 700; letter-spacing: 0.08em;
-  text-transform: uppercase; opacity: 1;
-}
-.topnav .spacer { flex: 1; }
-.topnav .hub { font-size: 12px; opacity: 0.7; }
-@media (max-width: 700px) {
-  .topnav { padding: 9px 14px; margin: -16px -16px 18px; font-size: 12.5px; gap: 12px; }
-}
-@media print {
-  .sidebar { display: none; }
-  .shell { grid-template-columns: 1fr; padding: 0; max-width: 100%; }
-  body { background: white; font-size: 11.5pt; }
-  .dash-tile, .callout { break-inside: avoid; }
-  .masthead { break-after: avoid; }
-  .content h2 { break-before: avoid; }
-}
-</style>
-</head><body>
-<div class="ws-bg" aria-hidden="true" style="position:fixed;inset:0;z-index:-1;pointer-events:auto;opacity:0.55;">
-  <canvas id="ws-network" style="display:block;width:100%;height:100%;"></canvas>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
 </div>
-<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-05-28&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;China&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}]}</script>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-05-27&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;Canada&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Australia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;China&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Japan&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}]}</script>
 <script src="../assets/network.js" defer></script>
-<nav class="topnav" aria-label="Primary" style="background:linear-gradient(180deg,var(--navy) 0%,var(--accent-2) 100%);color:#fff;padding:11px 28px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;font-family:Inter,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:13px;border-bottom:2px solid var(--gold);box-shadow:0 1px 4px rgba(11,18,32,0.2);position:sticky;top:0;z-index:60;">
-  <span class="brand" style="font-weight:800;letter-spacing:0.10em;text-transform:uppercase;color:#fff;font-size:13.5px;">◆ WORLDSCOPE</span>
-  <a href="../index.html" style="color:#E8E2D5;text-decoration:none;">Today</a>
-  <a href="../sections/" style="color:#E8E2D5;text-decoration:none;">Sections</a>
-  <a href="./index.html" style="color:#E8E2D5;text-decoration:none;">Archive</a>
-  <a href="../zips/2026-05-27.zip" style="color:#E8E2D5;text-decoration:none;">Today's bundle</a>
-  <span class="spacer" style="flex:1;"></span>
-  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" style="color:#E8E2D5;text-decoration:none;font-size:12px;opacity:0.85;padding-left:14px;border-left:1px solid rgba(255,255,255,0.18);">helfrich.github.io →</a>
-</nav>
-<div class="shell" style="position:relative;z-index:1;">
-<nav class="sidebar"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li style=""><a href="#headline">Headline</a></li><li style=""><a href="#watch-areas-configured-priorities">Watch Areas - Configured Priorities</a></li><li style=""><a href="#macro-situation">Macro Situation</a></li><li style=""><a href="#markets">Markets</a></li><li style=""><a href="#united-states-politics-and-policy">United States Politics and Policy</a></li><li style=""><a href="#political-figures-watchlist">Political Figures Watchlist</a></li><li style=""><a href="#regional-briefings">Regional Briefings</a></li><li style="padding-left:14px;"><a href="#north-america">North America</a></li><li style="padding-left:14px;"><a href="#south-america">South America</a></li><li style="padding-left:14px;"><a href="#europe">Europe</a></li><li style="padding-left:14px;"><a href="#russia-and-post-soviet">Russia and Post-Soviet</a></li><li style="padding-left:14px;"><a href="#middle-east">Middle East</a></li><li style="padding-left:14px;"><a href="#africa">Africa</a></li><li style="padding-left:14px;"><a href="#east-asia">East Asia</a></li><li style="padding-left:14px;"><a href="#south-and-southeast-asia">South and Southeast Asia</a></li><li style="padding-left:14px;"><a href="#oceania-and-pacific">Oceania and Pacific</a></li><li style=""><a href="#ukraine-theater-dedicated">Ukraine Theater (Dedicated)</a></li><li style=""><a href="#world-leaders-speaking-and-moving">World Leaders - Speaking and Moving</a></li><li style=""><a href="#sanctions-designations-and-legal">Sanctions, Designations, and Legal</a></li><li style=""><a href="#conflict-and-security-signals">Conflict and Security Signals</a></li><li style=""><a href="#cyber-and-biosecurity">Cyber and Biosecurity</a></li><li style=""><a href="#humanitarian">Humanitarian</a></li><li style=""><a href="#environment-disasters-and-climate">Environment, Disasters, and Climate</a></li><li style=""><a href="#speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</a></li><li style=""><a href="#prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</a></li><li style=""><a href="#weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</a></li><li style=""><a href="#historical-context">Historical Context</a></li><li style=""><a href="#what-to-watch-next-14-days">What to Watch - Next 14 Days</a></li></ul></nav>
-<main class="content-wrap">
-  <div class="masthead">
-    <div class="eyebrow">WORLDSCOPE · Daily briefing</div>
-    <h1>Morning Brief - Wednesday 27 May 2026</h1>
-    <div class="dateline">prepared for Dr. Ian Helfrich · 2026-05-27</div>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-05-27.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
   </div>
-  <div class="dashboard"><div class="dash-tile priority-high alert"><h4><a href="#russia-oil-sanctions-perimeter" style="color:inherit;text-decoration:none;">Russia oil sanctions perimeter</a></h4><div class="dash-stat">2</div><div class="dash-meta">sanctions, oil, energy</div></div><div class="dash-tile priority-high alert"><h4><a href="#israel-iran-hezbollah-axis" style="color:inherit;text-decoration:none;">Israel-Iran-Hezbollah axis</a></h4><div class="dash-stat">2</div><div class="dash-meta">middle_east, conflict, military</div></div><div class="dash-tile priority-normal "><h4><a href="#sahel-jihadist-corridor" style="color:inherit;text-decoration:none;">Sahel jihadist corridor</a></h4><div class="dash-stat">1</div><div class="dash-meta">africa, conflict, jihadism</div></div><div class="dash-tile priority-normal "><h4><a href="#korean-peninsula" style="color:inherit;text-decoration:none;">Korean peninsula</a></h4><div class="dash-stat">1</div><div class="dash-meta">korea, military, missile_tests</div></div></div>
-  <article class="content">
-    <hr />
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-05-27.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline">Headline</a></li><li><a class="" href="#watch-areas-configured-priorities">Watch Areas - Configured Priorities</a></li><li><a class="" href="#macro-situation">Macro Situation</a></li><li><a class="" href="#markets">Markets</a></li><li><a class="" href="#united-states-politics-and-policy">United States Politics and Policy</a></li><li><a class="" href="#political-figures-watchlist">Political Figures Watchlist</a></li><li><a class="" href="#regional-briefings">Regional Briefings</a></li><li><a class=" pl-4" href="#north-america">North America</a></li><li><a class=" pl-4" href="#south-america">South America</a></li><li><a class=" pl-4" href="#europe">Europe</a></li><li><a class=" pl-4" href="#russia-and-post-soviet">Russia and Post-Soviet</a></li><li><a class=" pl-4" href="#middle-east">Middle East</a></li><li><a class=" pl-4" href="#africa">Africa</a></li><li><a class=" pl-4" href="#east-asia">East Asia</a></li><li><a class=" pl-4" href="#south-and-southeast-asia">South and Southeast Asia</a></li><li><a class=" pl-4" href="#oceania-and-pacific">Oceania and Pacific</a></li><li><a class="" href="#ukraine-theater-dedicated">Ukraine Theater (Dedicated)</a></li><li><a class="" href="#world-leaders-speaking-and-moving">World Leaders - Speaking and Moving</a></li><li><a class="" href="#sanctions-designations-and-legal">Sanctions, Designations, and Legal</a></li><li><a class="" href="#conflict-and-security-signals">Conflict and Security Signals</a></li><li><a class="" href="#cyber-and-biosecurity">Cyber and Biosecurity</a></li><li><a class="" href="#humanitarian">Humanitarian</a></li><li><a class="" href="#environment-disasters-and-climate">Environment, Disasters, and Climate</a></li><li><a class="" href="#speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</a></li><li><a class="" href="#prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</a></li><li><a class="" href="#weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</a></li><li><a class="" href="#historical-context">Historical Context</a></li><li><a class="" href="#what-to-watch-next-14-days">What to Watch - Next 14 Days</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Daily briefing</div>
+      <h1>Morning Brief - Wednesday 27 May 2026</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-05-27</div>
+    </header>
+    <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high is-alert"><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">2</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#israel-iran-hezbollah-axis" class="text-inherit no-underline hover:text-navy">Israel-Iran-Hezbollah axis</a></h4><div class="ws-stat">2</div><div class="ws-meta">middle_east, conflict, military</div></div><div class="ws-dash-tile  "><h4><a href="#sahel-jihadist-corridor" class="text-inherit no-underline hover:text-navy">Sahel jihadist corridor</a></h4><div class="ws-stat">1</div><div class="ws-meta">africa, conflict, jihadism</div></div><div class="ws-dash-tile  "><h4><a href="#korean-peninsula" class="text-inherit no-underline hover:text-navy">Korean peninsula</a></h4><div class="ws-stat">1</div><div class="ws-meta">korea, military, missile_tests</div></div></section>
+    <article class="prose prose-slate max-w-none">
+      <hr />
 <h2 id="headline">Headline</h2>
 <p><img alt="Summary card, today at a glance" src="2026-05-27-summary_card.png" /></p>
 <p><img alt="World today, geocoded events past 24h" src="2026-05-27-world_today.png" /></p>
-<div class="callout warn"><span class="callout-label">Anomaly</span><p>The dominant arc on 27 May 2026 is a simultaneously fraying Iran ceasefire and a sharp Russian escalation ladder in Ukraine. On the Iran track, the Polymarket permanent peace deal by May 31 contract has collapsed from 28% to <a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">16%</a><span class="hostpill">polymarket.com</span> in 24 hours, driven by US military strikes on Iranian positions on May 25, Iran's declaration that "no deal is imminent," and Secretary Rubio's framing of the gap as disagreements over "a word, a sentence." On Ukraine, Russian FM Lavrov called Rubio on May 25 to announce Russia is "beginning systematic and consistent strikes" on Kyiv's decision-making centers and to urge evacuation of US citizens and diplomatic staff; Medvedev followed with a specific threat against European diplomats who stayed ("apparently they've got diplomats to spare"); Ukraine overnight struck the Baltimor Su-34 airbase in Voronezh, an aircraft repair plant, and Black Sea Fleet Air Force HQ in a coordinated deep-strike package. Simultaneously, a cascading software supply chain compromise by threat actor <strong>TeamPCP</strong> (TanStack May 11, Nx Console May 18) has now breached approximately 3,800 GitHub internal repositories affecting GitHub, OpenAI, Mistral, and Grafana, with 12+ million weekly npm downloads affected. Three watch areas fired: <strong>Israel-Iran-Hezbollah axis</strong> (12 matched items, threshold 4), <strong>Russia oil sanctions perimeter</strong> (8 items, threshold 5), and <strong>Central bank divergence</strong> (elevated anomaly given the Warsh regime transition at the Fed).</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>The dominant arc on 27 May 2026 is a simultaneously fraying Iran ceasefire and a sharp Russian escalation ladder in Ukraine. On the Iran track, the Polymarket permanent peace deal by May 31 contract has collapsed from 28% to <a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">16%</a><span class="ws-hostpill">polymarket.com</span> in 24 hours, driven by US military strikes on Iranian positions on May 25, Iran's declaration that "no deal is imminent," and Secretary Rubio's framing of the gap as disagreements over "a word, a sentence." On Ukraine, Russian FM Lavrov called Rubio on May 25 to announce Russia is "beginning systematic and consistent strikes" on Kyiv's decision-making centers and to urge evacuation of US citizens and diplomatic staff; Medvedev followed with a specific threat against European diplomats who stayed ("apparently they've got diplomats to spare"); Ukraine overnight struck the Baltimor Su-34 airbase in Voronezh, an aircraft repair plant, and Black Sea Fleet Air Force HQ in a coordinated deep-strike package. Simultaneously, a cascading software supply chain compromise by threat actor <strong>TeamPCP</strong> (TanStack May 11, Nx Console May 18) has now breached approximately 3,800 GitHub internal repositories affecting GitHub, OpenAI, Mistral, and Grafana, with 12+ million weekly npm downloads affected. Three watch areas fired: <strong>Israel-Iran-Hezbollah axis</strong> (12 matched items, threshold 4), <strong>Russia oil sanctions perimeter</strong> (8 items, threshold 5), and <strong>Central bank divergence</strong> (elevated anomaly given the Warsh regime transition at the Fed).</p></div>
 <hr />
 <h2 id="watch-areas-configured-priorities">Watch Areas - Configured Priorities</h2>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>Israel-Iran-Hezbollah axis</strong> (12 items today vs. 7-item 14-day median; ALERT FIRED). Hezbollah clashed with Israeli troops north of the Litani River on May 26-27, expanding beyond the Dabl area where two Merkava tanks were destroyed by <a href="https://www.globalsecurity.org/military/library/news/2026/05/mil-260525-presstv01.htm">Ababil drones on May 25</a><span class="hostpill">globalsecurity.org</span>. Israeli forces struck Srifa in the south and Flawi and Jaroud Buday in the Baalbek district, with additional strikes on the Abbasiya area in the Tyre district. Israeli ground forces are now operating north of the yellow line in Lebanon, <a href="https://liveuamap.com">preparing to pursue Hezbollah field commanders in Nabatieh</a><span class="hostpill">liveuamap.com</span>. The US Navy resumed Hormuz escort operations under "Project Freedom," with a Greek supertanker carrying two million barrels recently transited under escort. On the Iran ceasefire: US Central Command conducted "self-defense strikes" on Iranian missile launch sites and boats on May 25; Iran's foreign ministry called this "a clear violation"; the <a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">deal by May 31 is at 16%</a><span class="hostpill">polymarket.com</span>, down from 28% yesterday.</p></div>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>Russia oil sanctions perimeter</strong> (8 items today vs. 5-item 14-day median; ALERT FIRED). The EU 20th package (April 23, financial measures effective May 14) remains the operative multilateral tool: 632 shadow-fleet vessels under EU port-access and services prohibition, the Karimun Oil Terminal (Indonesia) designated as the first non-Russian port for price-cap circumvention facilitation. WTI crude fell from a $93.50 open to an $89.41 close on May 27. This decline occurred despite an OPEC+ output increase (not a cut, as Liveuamap feed implied): the May 3 OPEC+ meeting agreed to raise collective output by <a href="https://www.cnbc.com/2026/05/03/opec-announces-188000-barrels-per-day-output-increase-.html">188,000 barrels per day</a><span class="hostpill">cnbc.com</span> effective June 2026. The oil price decline despite an output increase suggests markets are pricing in demand-destruction concerns or Iran deal optimism creating a forward Hormuz-reopening discount.</p></div>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>Taiwan Strait / South China Sea</strong> (3 items vs. 4-item median; no alert). No new incident. The watch baseline remains the Tongji research vessel mapping episode (May 7-11) and the Justice Mission-2025 live-fire precedent.</p></div>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>Central bank divergence</strong> (elevated; no formal alert). Kevin Warsh's first FOMC is June 16-17. See Macro section.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Israel-Iran-Hezbollah axis</strong> (12 items today vs. 7-item 14-day median; ALERT FIRED). Hezbollah clashed with Israeli troops north of the Litani River on May 26-27, expanding beyond the Dabl area where two Merkava tanks were destroyed by <a href="https://www.globalsecurity.org/military/library/news/2026/05/mil-260525-presstv01.htm">Ababil drones on May 25</a><span class="ws-hostpill">globalsecurity.org</span>. Israeli forces struck Srifa in the south and Flawi and Jaroud Buday in the Baalbek district, with additional strikes on the Abbasiya area in the Tyre district. Israeli ground forces are now operating north of the yellow line in Lebanon, <a href="https://liveuamap.com">preparing to pursue Hezbollah field commanders in Nabatieh</a><span class="ws-hostpill">liveuamap.com</span>. The US Navy resumed Hormuz escort operations under "Project Freedom," with a Greek supertanker carrying two million barrels recently transited under escort. On the Iran ceasefire: US Central Command conducted "self-defense strikes" on Iranian missile launch sites and boats on May 25; Iran's foreign ministry called this "a clear violation"; the <a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">deal by May 31 is at 16%</a><span class="ws-hostpill">polymarket.com</span>, down from 28% yesterday.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Russia oil sanctions perimeter</strong> (8 items today vs. 5-item 14-day median; ALERT FIRED). The EU 20th package (April 23, financial measures effective May 14) remains the operative multilateral tool: 632 shadow-fleet vessels under EU port-access and services prohibition, the Karimun Oil Terminal (Indonesia) designated as the first non-Russian port for price-cap circumvention facilitation. WTI crude fell from a $93.50 open to an $89.41 close on May 27. This decline occurred despite an OPEC+ output increase (not a cut, as Liveuamap feed implied): the May 3 OPEC+ meeting agreed to raise collective output by <a href="https://www.cnbc.com/2026/05/03/opec-announces-188000-barrels-per-day-output-increase-.html">188,000 barrels per day</a><span class="ws-hostpill">cnbc.com</span> effective June 2026. The oil price decline despite an output increase suggests markets are pricing in demand-destruction concerns or Iran deal optimism creating a forward Hormuz-reopening discount.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Taiwan Strait / South China Sea</strong> (3 items vs. 4-item median; no alert). No new incident. The watch baseline remains the Tongji research vessel mapping episode (May 7-11) and the Justice Mission-2025 live-fire precedent.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Central bank divergence</strong> (elevated; no formal alert). Kevin Warsh's first FOMC is June 16-17. See Macro section.</p></div>
 <p>Quiet today: Critical minerals/rare earths, US tariff and trade dockets, EM debt distress, AI compute/export controls, Sahel jihadist corridor, Arctic/High North, Korean Peninsula, Latin America/narcoeconomy.</p>
 <hr />
 <h2 id="macro-situation">Macro Situation</h2>
-<p>The macro environment on 27 May 2026 is a late-cycle energy shock layered onto a structurally stressed fiscal path, with a new Federal Reserve chair who has signaled willingness to raise rates if inflation remains elevated. The 30-year Treasury yield has been trading around 5.20%, its highest sustained level since 2007, driven by the Hormuz closure-induced oil shock and the <a href="https://www.cbsnews.com/news/whats-in-trump-big-beautiful-bill-senate-version/">One Big Beautiful Bill Act's CBO-scored +$3.4 trillion deficit expansion</a><span class="hostpill">cbsnews.com</span>. The 10-year settled at 4.484% on May 27 (intraday range 4.446-4.490, per the live markets feed). The compression from recent 4.5-4.6% levels is partial relief, not resolution.</p>
+<p>The macro environment on 27 May 2026 is a late-cycle energy shock layered onto a structurally stressed fiscal path, with a new Federal Reserve chair who has signaled willingness to raise rates if inflation remains elevated. The 30-year Treasury yield has been trading around 5.20%, its highest sustained level since 2007, driven by the Hormuz closure-induced oil shock and the <a href="https://www.cbsnews.com/news/whats-in-trump-big-beautiful-bill-senate-version/">One Big Beautiful Bill Act's CBO-scored +$3.4 trillion deficit expansion</a><span class="ws-hostpill">cbsnews.com</span>. The 10-year settled at 4.484% on May 27 (intraday range 4.446-4.490, per the live markets feed). The compression from recent 4.5-4.6% levels is partial relief, not resolution.</p>
 <p><img alt="Yield Curve" src="2026-05-27-yield_curve.png" /></p>
 <p><img alt="Anomaly Screen" src="2026-05-27-anomaly_screen.png" /></p>
-<p>The yield curve configuration is unusual in its simultaneity: the front end (2Y) held down by rate-cut expectations that have been substantially priced out; the 2Y-5Y segment reflecting growth anxiety combined with energy-shock stagflationary pressure; the 30Y term premium expanding on fiscal dominance concerns. Comparing to the <a href="https://fred.stlouisfed.org/series/DGS10">FRED DGS10</a><span class="hostpill">fred.stlouisfed.org</span> and <a href="https://fred.stlouisfed.org/series/DGS30">FRED DGS30</a><span class="hostpill">fred.stlouisfed.org</span> series: the 30Y is up approximately 140bp in 12 months, the fastest sustained long-end selloff since the 2022 post-QE normalization. Historically, a 100bp+ 12-month rise in the 30Y has been associated with either a deflationary recession that reverses the trend (1994, 2000, early 2020) or a fiscal-premium regime shift (1979-1981). The OBBBA deficit path and Warsh's "escaping static frameworks" posture both argue for the latter.</p>
-<p>Kevin Warsh was sworn in May 22 after a <a href="https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html">54-45 Senate confirmation</a><span class="hostpill">cnbc.com</span>, the most divisive in Fed history. His governing philosophy treats inflation as "a choice central banks make," favors an inflation range over a rigid 2% point target, and views AI as structurally disinflationary in a way that supports holding rates higher while the productivity wave materializes. The <a href="https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html">CNBC analysis of his "deep inside Wall Street's plumbing" reforms</a><span class="hostpill">cnbc.com</span> identifies more aggressive balance sheet reduction and changes to open-market operations as the near-term agenda. Adam Tooze's <a href="https://adamtooze.substack.com/p/bond-market-jitters-supply-chain">Chartbook entry published May 27</a><span class="hostpill">adamtooze.substack.com</span> frames the current environment as G7 long-term sovereign bond yields hitting a two-decade high driven by the oil shock: "two [oil shocks] looks like a new trend."</p>
+<p>The yield curve configuration is unusual in its simultaneity: the front end (2Y) held down by rate-cut expectations that have been substantially priced out; the 2Y-5Y segment reflecting growth anxiety combined with energy-shock stagflationary pressure; the 30Y term premium expanding on fiscal dominance concerns. Comparing to the <a href="https://fred.stlouisfed.org/series/DGS10">FRED DGS10</a><span class="ws-hostpill">fred.stlouisfed.org</span> and <a href="https://fred.stlouisfed.org/series/DGS30">FRED DGS30</a><span class="ws-hostpill">fred.stlouisfed.org</span> series: the 30Y is up approximately 140bp in 12 months, the fastest sustained long-end selloff since the 2022 post-QE normalization. Historically, a 100bp+ 12-month rise in the 30Y has been associated with either a deflationary recession that reverses the trend (1994, 2000, early 2020) or a fiscal-premium regime shift (1979-1981). The OBBBA deficit path and Warsh's "escaping static frameworks" posture both argue for the latter.</p>
+<p>Kevin Warsh was sworn in May 22 after a <a href="https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html">54-45 Senate confirmation</a><span class="ws-hostpill">cnbc.com</span>, the most divisive in Fed history. His governing philosophy treats inflation as "a choice central banks make," favors an inflation range over a rigid 2% point target, and views AI as structurally disinflationary in a way that supports holding rates higher while the productivity wave materializes. The <a href="https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html">CNBC analysis of his "deep inside Wall Street's plumbing" reforms</a><span class="ws-hostpill">cnbc.com</span> identifies more aggressive balance sheet reduction and changes to open-market operations as the near-term agenda. Adam Tooze's <a href="https://adamtooze.substack.com/p/bond-market-jitters-supply-chain">Chartbook entry published May 27</a><span class="ws-hostpill">adamtooze.substack.com</span> frames the current environment as G7 long-term sovereign bond yields hitting a two-decade high driven by the oil shock: "two [oil shocks] looks like a new trend."</p>
 <p>The Fed's Regulation D and Regulation A proposed amendments published May 26 introduce a "special-purpose payment account" category, the technical infrastructure for the administration's fintech/stablecoin regulatory framework. The June 16-17 FOMC under Warsh is the most consequential monetary policy event of the summer; market pricing places a 50bp hike at 0.25% probability and any hike below 10% probability, but the forward guidance language will be the analytical event regardless of the rate decision.</p>
-<p>WTI crude at $89.41 close (open $93.50, high $93.68, low $87.80 intraday) represents a 4.4% single-session decline. The <a href="https://www.iea.org">IEA's May 2026 Oil Market Report</a><span class="hostpill">iea.org</span> documented more than 14 million barrels per day "shut in" due to the Hormuz blockage. US Navy escort operations under "Project Freedom" represent partial normalization, but full Hormuz reopening involves mine clearance queues, insurance resets, and tanker scheduling backlogs that extend weeks beyond any formal ceasefire announcement. The <a href="https://gcaptain.com">SPR oil to California for the first time amid Iran war disruptions</a><span class="hostpill">gcaptain.com</span> confirms the Strategic Petroleum Reserve is drawing down toward West Coast refiners, the most supply-constrained by Pacific Basin tanker rerouting.</p>
+<p>WTI crude at $89.41 close (open $93.50, high $93.68, low $87.80 intraday) represents a 4.4% single-session decline. The <a href="https://www.iea.org">IEA's May 2026 Oil Market Report</a><span class="ws-hostpill">iea.org</span> documented more than 14 million barrels per day "shut in" due to the Hormuz blockage. US Navy escort operations under "Project Freedom" represent partial normalization, but full Hormuz reopening involves mine clearance queues, insurance resets, and tanker scheduling backlogs that extend weeks beyond any formal ceasefire announcement. The <a href="https://gcaptain.com">SPR oil to California for the first time amid Iran war disruptions</a><span class="ws-hostpill">gcaptain.com</span> confirms the Strategic Petroleum Reserve is drawing down toward West Coast refiners, the most supply-constrained by Pacific Basin tanker rerouting.</p>
 <hr />
 <h2 id="markets">Markets</h2>
 <p><img alt="Markets sparklines, today vs 30-day baseline" src="2026-05-27-markets_sparklines.png" /></p>
 <p>The S&amp;P 500 closed at 7,520.4 (open 7,526, high 7,530, low 7,500), a narrow Memorial Day-return session. The Nasdaq 100 at 29,973.6 (open 30,079, high 30,100, low 29,813) failed to hold above 30,000 intraday, a technically significant rejection at a psychological threshold. The Dow at 50,644.3 logged a slight gain. The overall picture is risk-off-lite: broad US equities holding a tight range while energy and rates dominate the narrative.</p>
 <p><img alt="FX and Oil" src="2026-05-27-fx_oil.png" /></p>
 <p>The WTI intraday shape ($93.50 open to $87.80 low before recovering to $89.41 close) matters more than the close alone. The $87.80 low touched a key support zone; the recovery to $89 suggests buyers emerged there. Gold fell from $4,542 open to $4,488.5 close, continuing a corrective pattern from the early-May peak reached when Hormuz traffic collapsed to 5% of pre-war norms. Gold correcting in a period of elevated geopolitical risk suggests the market is repricing from a permanent-blockade tail to a reopening-forward scenario, consistent with the US Navy escort resumption.</p>
-<div class="callout danger"><span class="callout-label">Alert</span><p>Cross-asset: EUR/USD at 1.163 (USD/EUR = 0.8597) holds the strong-euro configuration, reflecting relative European resilience after the acute LNG price spike. USD/JPY at 159.23 reflects the Bank of Japan's continued difficulty normalizing yield curve control against US rates that now price in possible hikes. Bitcoin at $74,816 (down 1.49% 24h) trades well below the <a href="https://polymarket.com/event/will-bitcoin-hit-150k-by-june-30-2026">Polymarket "$150k by June 30" contract's 1% probability level</a><span class="hostpill">polymarket.com</span>: a 100%+ move in 34 days is priced as essentially impossible. European indices closed weaker: FTSE 100 at 10,505, DAX at 25,218. Nikkei at 64,999 (at the intraday low) reflects Asian equity weakness tracking global energy and rates uncertainty.</p></div>
-<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10373/registered-offering-reform">SEC Registered Offering Reform proposal</a><span class="hostpill">federalregister.gov</span> (published May 26) expands Form S-3 shelf registration access for more issuers, a pro-capital-formation adjustment consistent with the administration's deregulatory posture that may provide marginal tailwind to smaller-cap issuance costs.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>Cross-asset: EUR/USD at 1.163 (USD/EUR = 0.8597) holds the strong-euro configuration, reflecting relative European resilience after the acute LNG price spike. USD/JPY at 159.23 reflects the Bank of Japan's continued difficulty normalizing yield curve control against US rates that now price in possible hikes. Bitcoin at $74,816 (down 1.49% 24h) trades well below the <a href="https://polymarket.com/event/will-bitcoin-hit-150k-by-june-30-2026">Polymarket "$150k by June 30" contract's 1% probability level</a><span class="ws-hostpill">polymarket.com</span>: a 100%+ move in 34 days is priced as essentially impossible. European indices closed weaker: FTSE 100 at 10,505, DAX at 25,218. Nikkei at 64,999 (at the intraday low) reflects Asian equity weakness tracking global energy and rates uncertainty.</p></div>
+<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10373/registered-offering-reform">SEC Registered Offering Reform proposal</a><span class="ws-hostpill">federalregister.gov</span> (published May 26) expands Form S-3 shelf registration access for more issuers, a pro-capital-formation adjustment consistent with the administration's deregulatory posture that may provide marginal tailwind to smaller-cap issuance costs.</p>
 <hr />
 <h2 id="united-states-politics-and-policy">United States Politics and Policy</h2>
 <p><img alt="United States today: Federal Register actions, congressional activity, regulatory geography" src="2026-05-27-us_today.png" /></p>
-<p>The most operationally significant new Federal Register actions on May 27 are not the routine rules but two executive-branch determinations. <strong>Presidential Determination No. 2026-14</strong> (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10598/emergency-presidential-determination-on-refugee-admissions-for-fiscal-year-2026">Federal Register 2026-10598</a><span class="hostpill">federalregister.gov</span>), signed May 21 and published May 27, raises the FY2026 refugee admissions ceiling from 7,500 to <strong>17,500</strong>, designating the additional 10,000 slots specifically for South African Afrikaners under Executive Order 14204's racially-targeted resettlement program. The President invoked the Immigration and Nationality Act section 207(b) "unforeseen emergency" authority, citing "incitement of racially motivated violence" by the South African government. By end of April 2026, 6,069 refugees had entered the FY2026 program, with all but three being white South Africans per CIS tracking.</p>
-<p>The second May 27 Federal Register action of strategic significance is covered in the Cyber and Biosecurity section: the CDC Foreign Quarantine interim final rule responding to an active Ebola outbreak. Also on May 27: the <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10498/revisions-to-the-blanket-certificate-program">FERC Revisions to the Blanket Certificate Program</a><span class="hostpill">federalregister.gov</span> proposes to expand the scope and scale of pipeline projects certifiable without individual applications, shortening the permitting timeline for new US natural gas infrastructure in the context of the administration's LNG export capacity push. The <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10492/security-zones-vessels-carrying-dangerous-cargo-corpus-christi-and-la-quinta-ship-channels-corpus">Coast Guard security zones around vessels carrying dangerous cargo in Corpus Christi and La Quinta Ship Channels</a><span class="hostpill">federalregister.gov</span> reflect continued elevated domestic security posture around petrochemical infrastructure.</p>
+<p>The most operationally significant new Federal Register actions on May 27 are not the routine rules but two executive-branch determinations. <strong>Presidential Determination No. 2026-14</strong> (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10598/emergency-presidential-determination-on-refugee-admissions-for-fiscal-year-2026">Federal Register 2026-10598</a><span class="ws-hostpill">federalregister.gov</span>), signed May 21 and published May 27, raises the FY2026 refugee admissions ceiling from 7,500 to <strong>17,500</strong>, designating the additional 10,000 slots specifically for South African Afrikaners under Executive Order 14204's racially-targeted resettlement program. The President invoked the Immigration and Nationality Act section 207(b) "unforeseen emergency" authority, citing "incitement of racially motivated violence" by the South African government. By end of April 2026, 6,069 refugees had entered the FY2026 program, with all but three being white South Africans per CIS tracking.</p>
+<p>The second May 27 Federal Register action of strategic significance is covered in the Cyber and Biosecurity section: the CDC Foreign Quarantine interim final rule responding to an active Ebola outbreak. Also on May 27: the <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10498/revisions-to-the-blanket-certificate-program">FERC Revisions to the Blanket Certificate Program</a><span class="ws-hostpill">federalregister.gov</span> proposes to expand the scope and scale of pipeline projects certifiable without individual applications, shortening the permitting timeline for new US natural gas infrastructure in the context of the administration's LNG export capacity push. The <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10492/security-zones-vessels-carrying-dangerous-cargo-corpus-christi-and-la-quinta-ship-channels-corpus">Coast Guard security zones around vessels carrying dangerous cargo in Corpus Christi and La Quinta Ship Channels</a><span class="ws-hostpill">federalregister.gov</span> reflect continued elevated domestic security posture around petrochemical infrastructure.</p>
 <p>The SCOTUS term's May 21 decisions continue to generate downstream legal activity. In <a href="https://www.supremecourt.gov/opinions/25pdf/24-983_c07d.pdf"><em>Havana Docks Corp. v. Royal Caribbean Cruises, Ltd.</em></a>, the 8-1 ruling (Kagan sole dissent) confirmed Helms-Burton Title III liability attaches to physical Cuban-confiscated property with US nationals' certified claims. Royal Caribbean, Carnival, Norwegian, and MSC Cruises face potentially significant damages across approximately one million passenger-transits through Havana Harbor (2016-2019). The same company (Royal Caribbean) appeared in the WORLDSCOPE OpenSanctions monitoring entry on May 4, within 17 days of losing its primary legal defense.</p>
-<p>FEC fundraising for the 2026 Senate cycle remains the strongest leading indicator of competitive map. Key figures: <a href="https://www.fec.gov/data/candidate/S8GA00180/">Jon Ossoff (GA) at $81.15M</a><span class="hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6TX00479/">James Talarico (TX) at $40.28M</a><span class="hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S4NJ00185/">Cory Booker (NJ) at $32.26M</a><span class="hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6IL00482/">Raja Krishnamoorthi (IL) at $31.39M</a><span class="hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6NC00407/">Roy Cooper (NC) at $26.82M</a><span class="hostpill">fec.gov</span>. The Talarico ($40M) figure in Texas is structurally anomalous: Democratic Senate candidates have not raised at this level in Texas outside the 2018 Beto O'Rourke cycle. The next Q2 FEC deadline is June 30.</p>
+<p>FEC fundraising for the 2026 Senate cycle remains the strongest leading indicator of competitive map. Key figures: <a href="https://www.fec.gov/data/candidate/S8GA00180/">Jon Ossoff (GA) at $81.15M</a><span class="ws-hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6TX00479/">James Talarico (TX) at $40.28M</a><span class="ws-hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S4NJ00185/">Cory Booker (NJ) at $32.26M</a><span class="ws-hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6IL00482/">Raja Krishnamoorthi (IL) at $31.39M</a><span class="ws-hostpill">fec.gov</span>, <a href="https://www.fec.gov/data/candidate/S6NC00407/">Roy Cooper (NC) at $26.82M</a><span class="ws-hostpill">fec.gov</span>. The Talarico ($40M) figure in Texas is structurally anomalous: Democratic Senate candidates have not raised at this level in Texas outside the 2018 Beto O'Rourke cycle. The next Q2 FEC deadline is June 30.</p>
 <hr />
 <h2 id="political-figures-watchlist">Political Figures Watchlist</h2>
-<div class="callout warn"><span class="callout-label">Anomaly</span><p>The WORLDSCOPE political_figures scoring system assessed 613 senators and representatives on May 27. The top five anomaly scores are all driven by enforcement_hits (court filing appearances via CourtListener) rather than stock activity, speech anomalies, or GDELT tone elevation. Research confirms this cycle's top scores reflect court document name-appearances, not primary legal jeopardy.</p></div>
-<p><strong>Marsha Blackburn (R-TN, Senator)</strong> leads at anomaly_score=0.200 with 6 CourtListener appearances. Research identifies three sources: (1) an amicus brief co-filed with six senators in <a href="https://www.digitalmusicnews.com/2026/02/19/bots-act-lawsuit-live-nation-senators-brief/">FTC v. Live Nation Entertainment</a><span class="hostpill">digitalmusicnews.com</span> (BOTS Act, January 30, 2026), where Blackburn described herself as the "primary architect" of the law; (2) her name appearing extensively in Tennessee redistricting litigation (NAACP v. Tennessee, filed in May 2026) because she publicly lobbied for the challenged maps; (3) a February 2026 Tennessee Registry of Election Finance complaint alleging crossover between her federal campaign and gubernatorial campaign funds, <a href="https://www.newschannel5.com/news/newschannel-5-investigates/marsha-blackburn-faces-allegations-of-flagrant-violations-of-campaign-laws-in-race-for-tennessee-governor">which the Registry board dropped in April 2026</a><span class="hostpill">newschannel5.com</span> after finding no funds were transferred. None of the three represent personal legal exposure; all three are document-reference appearances.</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>The WORLDSCOPE political_figures scoring system assessed 613 senators and representatives on May 27. The top five anomaly scores are all driven by enforcement_hits (court filing appearances via CourtListener) rather than stock activity, speech anomalies, or GDELT tone elevation. Research confirms this cycle's top scores reflect court document name-appearances, not primary legal jeopardy.</p></div>
+<p><strong>Marsha Blackburn (R-TN, Senator)</strong> leads at anomaly_score=0.200 with 6 CourtListener appearances. Research identifies three sources: (1) an amicus brief co-filed with six senators in <a href="https://www.digitalmusicnews.com/2026/02/19/bots-act-lawsuit-live-nation-senators-brief/">FTC v. Live Nation Entertainment</a><span class="ws-hostpill">digitalmusicnews.com</span> (BOTS Act, January 30, 2026), where Blackburn described herself as the "primary architect" of the law; (2) her name appearing extensively in Tennessee redistricting litigation (NAACP v. Tennessee, filed in May 2026) because she publicly lobbied for the challenged maps; (3) a February 2026 Tennessee Registry of Election Finance complaint alleging crossover between her federal campaign and gubernatorial campaign funds, <a href="https://www.newschannel5.com/news/newschannel-5-investigates/marsha-blackburn-faces-allegations-of-flagrant-violations-of-campaign-laws-in-race-for-tennessee-governor">which the Registry board dropped in April 2026</a><span class="ws-hostpill">newschannel5.com</span> after finding no funds were transferred. None of the three represent personal legal exposure; all three are document-reference appearances.</p>
 <p><strong>Jim Banks (R-IN, Senator)</strong> at anomaly_score=0.100 with 3 court filings follows the same pattern: China-policy and national security legislation makes his name a common FARA/national security court document reference. No evidence of personal legal jeopardy.</p>
-<div class="callout warn"><span class="callout-label">Anomaly</span><p><strong>Angus King (I-ME, Senator)</strong> at anomaly_score=0.025, flagged via new_filings, deserves attention for a different reason. Research surfaces a <a href="https://www.benzinga.com/news/politics/26/03/51556731/senator-ditches-stocks-in-2026-after-7-months-heres-what-hes-selling">February 13, 2026 mass sell-off</a><span class="hostpill">benzinga.com</span>: King liquidated nine full positions (Autodesk, Blackstone, Eli Lilly, Meta, Microsoft, Netflix, On Holding, PayPal, Uber), all purchased in July 2025 and sold 7 months later, disclosed via STOCK Act Periodic Transaction Reports approximately 45 days post-trade. The disclosure source is the Senate Ethics Committee, not the SEC; the anomaly scorer's SEC accession numbers for King are a category error. The February sell-off timing and composition (broad tech and healthcare liquidation) should be cross-referenced against any February 2026 Intelligence Committee briefings King received.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Angus King (I-ME, Senator)</strong> at anomaly_score=0.025, flagged via new_filings, deserves attention for a different reason. Research surfaces a <a href="https://www.benzinga.com/news/politics/26/03/51556731/senator-ditches-stocks-in-2026-after-7-months-heres-what-hes-selling">February 13, 2026 mass sell-off</a><span class="ws-hostpill">benzinga.com</span>: King liquidated nine full positions (Autodesk, Blackstone, Eli Lilly, Meta, Microsoft, Netflix, On Holding, PayPal, Uber), all purchased in July 2025 and sold 7 months later, disclosed via STOCK Act Periodic Transaction Reports approximately 45 days post-trade. The disclosure source is the Senate Ethics Committee, not the SEC; the anomaly scorer's SEC accession numbers for King are a category error. The February sell-off timing and composition (broad tech and healthcare liquidation) should be cross-referenced against any February 2026 Intelligence Committee briefings King received.</p></div>
 <p><strong>Jefferson Van Drew (R-NJ-2, Representative)</strong> at anomaly_score=0.040 is a confirmed false positive: the linked SEC accession numbers do not resolve to congressional PTR filings (which go to the House Clerk, not EDGAR). The desk should flag this as a scorer calibration issue.</p>
-<div class="callout warn"><span class="callout-label">Anomaly</span><p>The pattern of top anomaly scores being enforcement_hits name-collisions rather than genuine trading or enforcement signals indicates the May 27 political_figures cycle has low signal-to-noise. The June 30 FEC Q2 filing deadline will produce the next genuine activity cycle.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>The pattern of top anomaly scores being enforcement_hits name-collisions rather than genuine trading or enforcement signals indicates the May 27 political_figures cycle has low signal-to-noise. The June 30 FEC Q2 filing deadline will produce the next genuine activity cycle.</p></div>
 <hr />
 <h2 id="regional-briefings">Regional Briefings</h2>
 <h3 id="north-america">North America</h3>
 <p><strong>United States:</strong> The policy environment is dominated by the three concurrent pressures detailed above: post-OBBBA fiscal stress, Warsh Fed transition (June 16-17 FOMC), and a regulatory restructuring cluster (fintech EOs, FERC blanket certificate, CDC emergency quarantine rule). The Afrikaner refugee determination (PD 2026-14) is the most politically salient domestic action of the day: raising the refugee ceiling from 7,500 to 17,500 specifically for white South Africans while the Lebanon, Gaza, and Sudan displacement crises generate none of the comparable emergency responses will draw significant international criticism and possible litigation under the Refugee Act's non-discrimination provisions.</p>
-<p><strong>Canada:</strong> <a href="https://www.aljazeera.com/news/2026/5/26/canadas-mark-carney-calls-treatment-of-gaza-flotilla-activists-appalling">PM Mark Carney</a><span class="hostpill">aljazeera.com</span> continues to press Israel on flotilla detainee treatment via Vienna Convention consular access framing, moving the dispute from political complaint to treaty-obligation terms. The Quebec government's <a href="https://montrealgazette.com/news/provincial-news/frechette-tax-measures-announced/">provincial tax-relief measures</a><span class="hostpill">montrealgazette.com</span> (Premier Frechette making products tax-free, cutting car fees) are pre-election positioning; B2Gold's West Africa exposure (Mali, Burkina Faso operations) in its <a href="https://montrealgazette.com/press-releases/globe-newswire/b2gold-releases-its-tenth-annual-responsible-mining-report-and-its-fifth-annual-climate-strategy-report/">10th Annual Responsible Mining Report</a><span class="hostpill">montrealgazette.com</span> deserves monitoring given Sahel security deterioration.</p>
+<p><strong>Canada:</strong> <a href="https://www.aljazeera.com/news/2026/5/26/canadas-mark-carney-calls-treatment-of-gaza-flotilla-activists-appalling">PM Mark Carney</a><span class="ws-hostpill">aljazeera.com</span> continues to press Israel on flotilla detainee treatment via Vienna Convention consular access framing, moving the dispute from political complaint to treaty-obligation terms. The Quebec government's <a href="https://montrealgazette.com/news/provincial-news/frechette-tax-measures-announced/">provincial tax-relief measures</a><span class="ws-hostpill">montrealgazette.com</span> (Premier Frechette making products tax-free, cutting car fees) are pre-election positioning; B2Gold's West Africa exposure (Mali, Burkina Faso operations) in its <a href="https://montrealgazette.com/press-releases/globe-newswire/b2gold-releases-its-tenth-annual-responsible-mining-report-and-its-fifth-annual-climate-strategy-report/">10th Annual Responsible Mining Report</a><span class="ws-hostpill">montrealgazette.com</span> deserves monitoring given Sahel security deterioration.</p>
 <p><strong>Mexico:</strong> No acute incident in the May 27 data. Nearshoring dynamics continue as the structural Mexico story; the USMCA joint review approaches in July 2026.</p>
 <h3 id="south-america">South America</h3>
 <p><strong>Brazil:</strong> No acute signals. The Lula government's fiscal trajectory and BCB rate path remain the primary analytical questions. Brazil's status as a net oil exporter provides modest buffer against the Hormuz-driven global oil shock, though downstream logistics cost increases are flowing through to domestic inflation.</p>
 <p><strong>Argentina/Colombia/Other:</strong> Milei's partial FX liberalization continues. Colombia's ELN and dissident FARC activity in border regions is the persistent security baseline. No acute incidents in the May 27 data for Venezuela, Ecuador, Peru, or Chile.</p>
 <h3 id="europe">Europe</h3>
-<div class="callout danger"><span class="callout-label">Alert</span><p>EUR/USD at 1.163 reflects relative European resilience after the acute LNG price spike: the ECB's credible if trailing inflation management and partial Hormuz normalization reduce the Q1 2026 energy shock drag. The ECB's June 5 meeting is the next European monetary policy decision; any ECB deviation from expected hold or cut will directly affect the transatlantic rate spread.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>EUR/USD at 1.163 reflects relative European resilience after the acute LNG price spike: the ECB's credible if trailing inflation management and partial Hormuz normalization reduce the Q1 2026 energy shock drag. The ECB's June 5 meeting is the next European monetary policy decision; any ECB deviation from expected hold or cut will directly affect the transatlantic rate spread.</p></div>
 <p><strong>Germany:</strong> Chancellor-level condemnation of Israeli flotilla treatment is analytically significant. Germany has historically been the most constrained EU member in criticizing Israel; the threshold crossed here is not merely rhetorical. Germany, France, Spain, and Poland summoned Russian ambassadors after Medvedev's diplomat-threat, a coordinated EU diplomatic response. No VIP flight data returned for May 27 (prior day's GAF527 and JEDI77 callsigns are not updated in today's zero-item VIP feed).</p>
 <p><strong>France and Italy:</strong> France is investigating Israeli security forces for kidnapping and sexual assault related to flotilla detainees; Italy has opened prosecutorial proceedings. Both have extraterritorial jurisdiction via citizen-detainees. The JEDI77 French VIP flight from May 26 remains unresolved (not in today's data).</p>
 <h3 id="russia-and-post-soviet">Russia and Post-Soviet</h3>
-<p>On May 25, <a href="https://www.rferl.org/amp/russia-ukraine-lavrov-rubio-kyiv-attacks-threats/33765072.html">Russian FM Lavrov called Secretary Rubio</a><span class="hostpill">rferl.org</span> at Putin's request to deliver a formal warning: Russian forces are "beginning systematic and consistent strikes on facilities in Kyiv used for the needs of the Armed Forces of Ukraine, as well as on the centres where the relevant decisions are made." Lavrov urged evacuation of US citizens and diplomats. Russia stated its trigger was a Ukrainian strike on Starobilsk (Luhansk Oblast) overnight May 22-23 that Russia characterized as hitting a dormitory (killing 18); Ukraine's General Staff said it targeted a Russian "command facility and Rubicon drone unit school." On May 26, <a href="https://thehill.com/policy/defense/5895742-medvedev-threatens-eu-diplomats/">Medvedev</a><span class="hostpill">thehill.com</span> responded to the EU's announcement that it would maintain full diplomatic presence: "Well, apparently they've got diplomats to spare and need to trim the headcount." Germany, France, Spain, and Poland summoned Russian ambassadors.</p>
-<p>Ukraine's <a href="https://euromaidanpress.com/2026/05/27/ukraine-targets-a-su-34-base-aircraft-repair-plant-and-black-sea-fleet-air-force-hq-in-one-night/">overnight barrage of May 26-27</a><span class="hostpill">euromaidanpress.com</span> struck three high-value Russian military targets: the Baltimor airbase in Voronezh (home to Russia's 47th Bomber Aviation Regiment and its Su-34 fighter-bomber fleet), a Russian aircraft repair plant, and the Black Sea Fleet Air Force HQ. Voronezh Governor Gusev confirmed "two high-speed targets" destroyed over the city with debris damaging civilian structures. The assessment from multiple military analysis outlets is Storm Shadow cruise missiles, based on Gusev's "high-speed targets" language. Zelensky <a href="https://kyivindependent.com/zelensky-sends-trump-urgent-letter-warning-of-critical-missile-defense-shortages/">sent letters to both Trump and Congress</a><span class="hostpill">kyivindependent.com</span> warning of critical Patriot PAC-3 interceptor shortages: "the current pace of deliveries through the PURL program is no longer keeping up with the reality of the threat we face."</p>
-<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10481/continuation-of-the-national-emergency-with-respect-to-belarus">Belarus national emergency continuation</a><span class="hostpill">federalregister.gov</span> (published May 26) maintains OFAC framework while Lukashenko announces "targeted mobilization to prepare for war" (<a href="https://eng.belta.by/president/view/lukashenko-security-issues-remain-on-my-daily-agenda-180663-2026/">BELTA</a><span class="hostpill">eng.belta.by</span>). Central Asia: Kazakhstan and Kyrgyzstan remain active sanctions circumvention corridors per EU 20th package targeting.</p>
+<p>On May 25, <a href="https://www.rferl.org/amp/russia-ukraine-lavrov-rubio-kyiv-attacks-threats/33765072.html">Russian FM Lavrov called Secretary Rubio</a><span class="ws-hostpill">rferl.org</span> at Putin's request to deliver a formal warning: Russian forces are "beginning systematic and consistent strikes on facilities in Kyiv used for the needs of the Armed Forces of Ukraine, as well as on the centres where the relevant decisions are made." Lavrov urged evacuation of US citizens and diplomats. Russia stated its trigger was a Ukrainian strike on Starobilsk (Luhansk Oblast) overnight May 22-23 that Russia characterized as hitting a dormitory (killing 18); Ukraine's General Staff said it targeted a Russian "command facility and Rubicon drone unit school." On May 26, <a href="https://thehill.com/policy/defense/5895742-medvedev-threatens-eu-diplomats/">Medvedev</a><span class="ws-hostpill">thehill.com</span> responded to the EU's announcement that it would maintain full diplomatic presence: "Well, apparently they've got diplomats to spare and need to trim the headcount." Germany, France, Spain, and Poland summoned Russian ambassadors.</p>
+<p>Ukraine's <a href="https://euromaidanpress.com/2026/05/27/ukraine-targets-a-su-34-base-aircraft-repair-plant-and-black-sea-fleet-air-force-hq-in-one-night/">overnight barrage of May 26-27</a><span class="ws-hostpill">euromaidanpress.com</span> struck three high-value Russian military targets: the Baltimor airbase in Voronezh (home to Russia's 47th Bomber Aviation Regiment and its Su-34 fighter-bomber fleet), a Russian aircraft repair plant, and the Black Sea Fleet Air Force HQ. Voronezh Governor Gusev confirmed "two high-speed targets" destroyed over the city with debris damaging civilian structures. The assessment from multiple military analysis outlets is Storm Shadow cruise missiles, based on Gusev's "high-speed targets" language. Zelensky <a href="https://kyivindependent.com/zelensky-sends-trump-urgent-letter-warning-of-critical-missile-defense-shortages/">sent letters to both Trump and Congress</a><span class="ws-hostpill">kyivindependent.com</span> warning of critical Patriot PAC-3 interceptor shortages: "the current pace of deliveries through the PURL program is no longer keeping up with the reality of the threat we face."</p>
+<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10481/continuation-of-the-national-emergency-with-respect-to-belarus">Belarus national emergency continuation</a><span class="ws-hostpill">federalregister.gov</span> (published May 26) maintains OFAC framework while Lukashenko announces "targeted mobilization to prepare for war" (<a href="https://eng.belta.by/president/view/lukashenko-security-issues-remain-on-my-daily-agenda-180663-2026/">BELTA</a><span class="ws-hostpill">eng.belta.by</span>). Central Asia: Kazakhstan and Kyrgyzstan remain active sanctions circumvention corridors per EU 20th package targeting.</p>
 <h3 id="middle-east">Middle East</h3>
-<p>The ceasefire architecture is de facto contested. The framework under negotiation per <a href="https://www.washingtonpost.com/world/2026/05/24/us-iran-near-deal-extend-ceasefire-reopen-hormuz/">Washington Post May 24</a><span class="hostpill">washingtonpost.com</span>: 60-day formal extension, Iran disposes of enriched uranium stockpile, Hormuz reopens within 30 days, US lifts naval blockade. Iran has not accepted all terms. On May 25, US Central Command conducted "self-defense strikes" on Iranian missile launch sites and boats attempting to emplace mines near Bandar Abbas. Iran's foreign ministry called this "a clear violation of the ceasefire." <a href="https://www.nbcnews.com/world/iran/iran-deal-trump-talks-war-nuclear-hormuz-rubio-rcna346781">Iran declared on May 25</a><span class="hostpill">nbcnews.com</span> that "consensus was reached on many topics, but no one can claim that the signing of an agreement is imminent." Rubio said on May 27 that disagreements remained over "a word, a sentence," and that Trump wants "a good deal or no deal."</p>
+<p>The ceasefire architecture is de facto contested. The framework under negotiation per <a href="https://www.washingtonpost.com/world/2026/05/24/us-iran-near-deal-extend-ceasefire-reopen-hormuz/">Washington Post May 24</a><span class="ws-hostpill">washingtonpost.com</span>: 60-day formal extension, Iran disposes of enriched uranium stockpile, Hormuz reopens within 30 days, US lifts naval blockade. Iran has not accepted all terms. On May 25, US Central Command conducted "self-defense strikes" on Iranian missile launch sites and boats attempting to emplace mines near Bandar Abbas. Iran's foreign ministry called this "a clear violation of the ceasefire." <a href="https://www.nbcnews.com/world/iran/iran-deal-trump-talks-war-nuclear-hormuz-rubio-rcna346781">Iran declared on May 25</a><span class="ws-hostpill">nbcnews.com</span> that "consensus was reached on many topics, but no one can claim that the signing of an agreement is imminent." Rubio said on May 27 that disagreements remained over "a word, a sentence," and that Trump wants "a good deal or no deal."</p>
 <p>Bahrain explosions were reported May 27, described locally as "the loudest so far during the war," consistent with Houthi missile and drone reach to Gulf state territory. Bahrain hosts US Fifth Fleet (NSA Bahrain); attacks on Bahraini territory carry different escalatory implications than maritime harassment.</p>
-<p>The Israel-Lebanon front is expanding geographically. Israeli forces north of the yellow line, preparing to pursue Hezbollah field commanders in Nabatieh, represent the deepest Israeli ground penetration since the campaign began in March. The Lebanon war cumulative toll (3,213 killed, 9,737 wounded, 1 million displaced) runs at approximately 37 per day - slightly above the 2006 war's average rate. The <a href="https://www.cbc.ca/news/world/israel-vessels-flotilla-gaza-blockade-9.7203134">Global Sumud Flotilla</a><span class="hostpill">cbc.ca</span> legal dimension: Italy's prosecutorial opening and Canada's Vienna Convention framing are the live legal tracks.</p>
+<p>The Israel-Lebanon front is expanding geographically. Israeli forces north of the yellow line, preparing to pursue Hezbollah field commanders in Nabatieh, represent the deepest Israeli ground penetration since the campaign began in March. The Lebanon war cumulative toll (3,213 killed, 9,737 wounded, 1 million displaced) runs at approximately 37 per day - slightly above the 2006 war's average rate. The <a href="https://www.cbc.ca/news/world/israel-vessels-flotilla-gaza-blockade-9.7203134">Global Sumud Flotilla</a><span class="ws-hostpill">cbc.ca</span> legal dimension: Italy's prosecutorial opening and Canada's Vienna Convention framing are the live legal tracks.</p>
 <h3 id="africa">Africa</h3>
 <p>Nigeria's GDELT signal centers on the ADC primary cancellation in four Nasarawa LGAs, the Great Ogboru candidacy in Delta, and Pentecostal Fellowship security concerns around the Abuja-Kaduna corridor. The Ebola outbreak in DRC and Uganda (detailed in Cyber and Biosecurity) directly affects Central Africa; South Sudan is designated high-risk due to cross-border population movement despite no confirmed cases.</p>
 <p><strong>Sudan/Sahel:</strong> RSF/SAF conflict in Sudan continues at high baseline. JNIM/Africa Corps activity in Mali, Burkina Faso, and Niger persists. No new ACLED data in the May 27 store.</p>
@@ -464,17 +151,17 @@ footer.brief-foot {
 <h3 id="east-asia">East Asia</h3>
 <p>No acute Taiwan Strait incident. The PRC research vessel Tongji mapping episode (May 7-11) remains the current baseline. The next H2 2026 PLA exercise window (October-December) is the planning horizon. Japan's Nikkei closed at 64,999 (at the intraday low). USD/CNY at 6.799 reflects PBOC managed float.</p>
 <h3 id="south-and-southeast-asia">South and Southeast Asia</h3>
-<p><strong>India:</strong> Dalal Street climbed 1%+ on May 26 global cues per <a href="https://economictimes.indiatimes.com/et-front/global-cues-extend-to-d-street-indices-climb-more-than-1/articleshow/131317497.cms">Economic Times</a><span class="hostpill">economictimes.indiatimes.com</span>, consistent with relative energy insulation. The India-Pakistan ceasefire (May 10, 2025 Operation Sindoor aftermath) passes its one-year mark without military exchanges. <strong>Indonesia:</strong> The EU Karimun Oil Terminal designation continues to be contested by Jakarta.</p>
+<p><strong>India:</strong> Dalal Street climbed 1%+ on May 26 global cues per <a href="https://economictimes.indiatimes.com/et-front/global-cues-extend-to-d-street-indices-climb-more-than-1/articleshow/131317497.cms">Economic Times</a><span class="ws-hostpill">economictimes.indiatimes.com</span>, consistent with relative energy insulation. The India-Pakistan ceasefire (May 10, 2025 Operation Sindoor aftermath) passes its one-year mark without military exchanges. <strong>Indonesia:</strong> The EU Karimun Oil Terminal designation continues to be contested by Jakarta.</p>
 <h3 id="oceania-and-pacific">Oceania and Pacific</h3>
-<p><a href="https://www.al-monitor.com/originals/2026/05/second-group-australian-women-linked-islamic-state-return-home">Australian IS-linked women repatriation</a><span class="hostpill">al-monitor.com</span> (second group, May 26) represents a domestic security reintegration challenge. The M4.8 earthquake near Finschhafen, Papua New Guinea is below WORLDSCOPE's M5+ tracking threshold. No other acute Pacific signals in the May 27 data.</p>
+<p><a href="https://www.al-monitor.com/originals/2026/05/second-group-australian-women-linked-islamic-state-return-home">Australian IS-linked women repatriation</a><span class="ws-hostpill">al-monitor.com</span> (second group, May 26) represents a domestic security reintegration challenge. The M4.8 earthquake near Finschhafen, Papua New Guinea is below WORLDSCOPE's M5+ tracking threshold. No other acute Pacific signals in the May 27 data.</p>
 <hr />
 <h2 id="ukraine-theater-dedicated">Ukraine Theater (Dedicated)</h2>
 <p><strong>Resolution caveat:</strong> Frontline data: approximately 1km resolution (DeepStateMap community cartography, 24h latency). FIRMS thermal anomalies: 375m resolution. ACLED events: approximately 1km resolution. This section does not include or speculate about Ukrainian troop or territorial-defense unit positions; the pipeline's ingest filter preserves that protection.</p>
-<p><strong>Frontline status:</strong> The DeepStateMap snapshot as of May 27 contains 524 frontline polygons (<a href="https://deepstatemap.live/">deepstatemap.live</a><span class="hostpill">deepstatemap.live</span>). The most significant 7-day development: Russian advances continue in the Pokrovsk sector (65 combat engagements logged May 26 by Ukrainian General Staff, the highest single-direction daily count in the current reporting period). The Lyman direction saw clashes near Drobysheve, Dibrova, Yampil, Lyman, and Stavky. At Oleksandrivka, clashes occurred near Novokhatske. No major territorial breakthrough on either side in the 7-day window based on available community mapping.</p>
-<p><strong>Overnight deep-strike package (May 26-27):</strong> Ukraine conducted three coordinated strikes on Russian military infrastructure: the <a href="https://militarnyi.com/en/news/ukraine-voronezh-baltimor-airbase-su-34-jet/">Baltimor Su-34 airbase in Voronezh</a><span class="hostpill">militarnyi.com</span> (assessed Storm Shadow cruise missiles; Russia's 47th Bomber Aviation Regiment used these jets extensively for guided glide bomb attacks on Ukrainian cities); an <a href="https://euromaidanpress.com/2026/05/27/ukraine-targets-a-su-34-base-aircraft-repair-plant-and-black-sea-fleet-air-force-hq-in-one-night/">aircraft repair plant</a><span class="hostpill">euromaidanpress.com</span>; and the Black Sea Fleet Air Force HQ. Targeting Russian strategic aviation infrastructure is force-multiplying: Su-34s dropping guided glide bombs are the primary driver of Ukrainian civilian infrastructure destruction in the current operational period. Degrading their maintenance and command capacity reduces Russia's ability to sustain that campaign tempo.</p>
-<p><strong>Escalation dynamics:</strong> The Lavrov-to-Rubio warning (May 25) that Russia is "beginning systematic and consistent strikes on Kyiv's decision-making centers," followed by the public warning to evacuate all foreigners, followed by Medvedev's diplomat threat, followed by Ukraine striking Voronezh creates a mirrored escalation pattern. Russia pre-notifies Kyiv strikes to test NATO's reaction; Ukraine strikes Russian strategic aviation to impose costs. The Oreshnik hypersonic ballistic missile (deployed May 24 in the 90-missile/600-drone Kyiv attack) cannot be intercepted by any current Ukrainian system, which is why Zelensky's <a href="https://kyivindependent.com/zelensky-sends-trump-urgent-letter-warning-of-critical-missile-defense-shortages/">Patriot letter to Trump and Congress</a><span class="hostpill">kyivindependent.com</span> focuses specifically on PAC-3 interceptors: "we rely almost exclusively on the United States" for ballistic missile defense.</p>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>Air alert status:</strong> The alerts.in.ua API returned a 401 authentication error (token required for v2); oblast-level air alert data for May 27 cannot be confirmed from this data source. Based on prior patterns when Russia issues evacuation warnings, alerts would be expected across Kyiv, Cherkasy, Poltava, and northern oblasts.</p></div>
-<p><strong>Ukrainian losses and Russian attrition (May 26):</strong> Per Ukrainian MoD: Russian losses +1,010 troops, 1,790 drones destroyed (<a href="https://newsukraine.rbc.ua/news/russia-s-losses-in-ukraine-as-of-may-26-troops-1779699371.html">RBC-Ukraine</a><span class="hostpill">newsukraine.rbc.ua</span>).</p>
+<p><strong>Frontline status:</strong> The DeepStateMap snapshot as of May 27 contains 524 frontline polygons (<a href="https://deepstatemap.live/">deepstatemap.live</a><span class="ws-hostpill">deepstatemap.live</span>). The most significant 7-day development: Russian advances continue in the Pokrovsk sector (65 combat engagements logged May 26 by Ukrainian General Staff, the highest single-direction daily count in the current reporting period). The Lyman direction saw clashes near Drobysheve, Dibrova, Yampil, Lyman, and Stavky. At Oleksandrivka, clashes occurred near Novokhatske. No major territorial breakthrough on either side in the 7-day window based on available community mapping.</p>
+<p><strong>Overnight deep-strike package (May 26-27):</strong> Ukraine conducted three coordinated strikes on Russian military infrastructure: the <a href="https://militarnyi.com/en/news/ukraine-voronezh-baltimor-airbase-su-34-jet/">Baltimor Su-34 airbase in Voronezh</a><span class="ws-hostpill">militarnyi.com</span> (assessed Storm Shadow cruise missiles; Russia's 47th Bomber Aviation Regiment used these jets extensively for guided glide bomb attacks on Ukrainian cities); an <a href="https://euromaidanpress.com/2026/05/27/ukraine-targets-a-su-34-base-aircraft-repair-plant-and-black-sea-fleet-air-force-hq-in-one-night/">aircraft repair plant</a><span class="ws-hostpill">euromaidanpress.com</span>; and the Black Sea Fleet Air Force HQ. Targeting Russian strategic aviation infrastructure is force-multiplying: Su-34s dropping guided glide bombs are the primary driver of Ukrainian civilian infrastructure destruction in the current operational period. Degrading their maintenance and command capacity reduces Russia's ability to sustain that campaign tempo.</p>
+<p><strong>Escalation dynamics:</strong> The Lavrov-to-Rubio warning (May 25) that Russia is "beginning systematic and consistent strikes on Kyiv's decision-making centers," followed by the public warning to evacuate all foreigners, followed by Medvedev's diplomat threat, followed by Ukraine striking Voronezh creates a mirrored escalation pattern. Russia pre-notifies Kyiv strikes to test NATO's reaction; Ukraine strikes Russian strategic aviation to impose costs. The Oreshnik hypersonic ballistic missile (deployed May 24 in the 90-missile/600-drone Kyiv attack) cannot be intercepted by any current Ukrainian system, which is why Zelensky's <a href="https://kyivindependent.com/zelensky-sends-trump-urgent-letter-warning-of-critical-missile-defense-shortages/">Patriot letter to Trump and Congress</a><span class="ws-hostpill">kyivindependent.com</span> focuses specifically on PAC-3 interceptors: "we rely almost exclusively on the United States" for ballistic missile defense.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Air alert status:</strong> The alerts.in.ua API returned a 401 authentication error (token required for v2); oblast-level air alert data for May 27 cannot be confirmed from this data source. Based on prior patterns when Russia issues evacuation warnings, alerts would be expected across Kyiv, Cherkasy, Poltava, and northern oblasts.</p></div>
+<p><strong>Ukrainian losses and Russian attrition (May 26):</strong> Per Ukrainian MoD: Russian losses +1,010 troops, 1,790 drones destroyed (<a href="https://newsukraine.rbc.ua/news/russia-s-losses-in-ukraine-as-of-may-26-troops-1779699371.html">RBC-Ukraine</a><span class="ws-hostpill">newsukraine.rbc.ua</span>).</p>
 <p><strong>Theater maps:</strong></p>
 <p><img alt="Ukraine theater overview, frontline + ACLED events + FIRMS thermal + alert oblasts" src="2026-05-27-ukraine_theater_overview.png" />
 <em>Full theater view. DeepStateMap frontline overlaid on 24h ACLED events (red dots) and FIRMS thermal anomalies (gold). Air-alert oblasts shown with teal fill.</em></p>
@@ -493,10 +180,10 @@ footer.brief-foot {
 <p>Lukashenko's "targeted mobilization to prepare for war" and "security issues remain on my daily agenda" statements, VIP flight zero-item day for May 27, and the US renewal of the Belarus emergency (May 21) form a coherent threat-perception cluster. The distinction that matters is administrative (training) mobilization versus operational (unit repositioning) mobilization; only the latter is the second-front precursor.</p>
 <hr />
 <h2 id="sanctions-designations-and-legal">Sanctions, Designations, and Legal</h2>
-<p>The EU 20th package (April 23, effective May 14) remains the dominant multilateral action. The Karimun Oil Terminal designation establishes the EU's first application of sanctions to a third-country port facility for Russian price-cap circumvention, extending extraterritorial reach similar to OFAC's secondary sanctions doctrine but applied for the first time in the EU framework. <a href="https://www.hsfkramer.com/notes/crt/2026-05/sanctions-tracker-eu-sanctions-package-targets-energy-revenues-the-shadow-fleet-and-financial-circumvention">Herbert Smith Freehills Kramer's tracker</a><span class="hostpill">hsfkramer.com</span> is the authoritative legal analysis.</p>
+<p>The EU 20th package (April 23, effective May 14) remains the dominant multilateral action. The Karimun Oil Terminal designation establishes the EU's first application of sanctions to a third-country port facility for Russian price-cap circumvention, extending extraterritorial reach similar to OFAC's secondary sanctions doctrine but applied for the first time in the EU framework. <a href="https://www.hsfkramer.com/notes/crt/2026-05/sanctions-tracker-eu-sanctions-package-targets-energy-revenues-the-shadow-fleet-and-financial-circumvention">Herbert Smith Freehills Kramer's tracker</a><span class="ws-hostpill">hsfkramer.com</span> is the authoritative legal analysis.</p>
 <p>The WORLDSCOPE sanctions store shows the Russian banking designation cluster from early May: Belgazprombank and JSC Mir Business Bank (May 8), Sberbank Europe AG and GPB Global Resources BV (May 6), OJSC Russian Regional Development Bank (May 6), JSC Tinkoff Bank (May 5), JOINT STOCK COMPANY GUTA-BANK (May 4). The Tinkoff designation is the highest-profile in the cluster: T-Bank had been previously sanctioned by UK and EU but the May 5 OpenSanctions entry suggests a new or updated listing action, possibly related to post-2022 reconstituted legal entities in Russian-jurisdiction successors.</p>
 <p>Royal Caribbean's May 4 OpenSanctions entry and the May 21 SCOTUS <em>Havana Docks</em> 8-1 ruling within 17 days is the cross-section recurrence this brief has identified twice: same company, sanctions monitoring and then litigation defeat, in the same window. RCCL's insurance, financing, and future Cuba-market positioning are directly affected.</p>
-<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10417/town-hall-meetings-to-provide-input-on-cyber-incident-reporting-for-critical-infrastructure-act">CIRCIA rulemaking town halls</a><span class="hostpill">federalregister.gov</span> (CISA, May 26) signal that mandatory cyber incident reporting for critical infrastructure is still in notice-and-comment. Given three new supply-chain compromise CVEs in the May 27 KEV, the gap between "mandatory reporting required" and "rule is still draft" has operational consequences today.</p>
+<p>The <a href="https://www.federalregister.gov/documents/2026/05/26/2026-10417/town-hall-meetings-to-provide-input-on-cyber-incident-reporting-for-critical-infrastructure-act">CIRCIA rulemaking town halls</a><span class="ws-hostpill">federalregister.gov</span> (CISA, May 26) signal that mandatory cyber incident reporting for critical infrastructure is still in notice-and-comment. Given three new supply-chain compromise CVEs in the May 27 KEV, the gap between "mandatory reporting required" and "rule is still draft" has operational consequences today.</p>
 <hr />
 <h2 id="conflict-and-security-signals">Conflict and Security Signals</h2>
 <p><img alt="Conflict intensity, past 30 days, ACLED + FIRMS geocoded" src="2026-05-27-conflict_intensity_30d.png" /></p>
@@ -507,37 +194,37 @@ footer.brief-foot {
 <p>The Lebanon war fatality count (3,213 killed in approximately 86 days) runs at 37/day, above the 2006 Lebanon war's comparable rate (35/day over 34 days). The current conflict is longer, with more sustained ground combat and no deceleration visible in the data. Hezbollah's demonstrated ability to destroy Merkava tanks with Ababil drones confirms that both sides have upgraded capabilities substantially since 2006.</p>
 <hr />
 <h2 id="cyber-and-biosecurity">Cyber and Biosecurity</h2>
-<p>The most significant cybersecurity development of May 2026 is not any single CVE but a cascading supply chain compromise by threat actor <strong>TeamPCP</strong> using what researchers call the "Mini Shai-Hulud" self-replicating worm. On May 11, 2026 at 19:20-19:26 UTC, TeamPCP exploited a <code>pull_request_target</code> misconfiguration in TanStack's GitHub Actions pipeline, combined with cache poisoning, to hijack TanStack's npm publisher identity and publish <a href="https://snyk.io/blog/tanstack-packages-compromised/">84 malicious package versions</a><span class="hostpill">snyk.io</span> across 42 <code>@tanstack/*</code> packages in 6 minutes (<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-45321">CVE-2026-45321, CVSS 9.6</a><span class="hostpill">nvd.nist.gov</span>). <code>@tanstack/react-query</code> and <code>@tanstack/react-router</code> each have over 12 million weekly downloads. The malware harvested AWS credentials, GCP metadata tokens, Kubernetes service account tokens, npm auth tokens, GitHub tokens, and SSH keys.</p>
-<div class="callout danger"><span class="callout-label">Alert</span><p>One Nx developer's machine was compromised during a routine install of the malicious TanStack package on May 11. TeamPCP used the stolen GitHub OAuth token to publish <a href="https://nx.dev/blog/nx-console-v18-95-0-postmortem">Nx Console version 18.95.0</a><span class="hostpill">nx.dev</span> to the VS Code Marketplace on May 18 (<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-48027">CVE-2026-48027</a><span class="hostpill">nvd.nist.gov</span>), which had approximately 6,000 extension activations during its 18-minute exposure window. That credential in turn led to the breach of <a href="https://thehackernews.com/2026/05/github-internal-repositories-breached.html">approximately 3,800 GitHub internal private repositories</a><span class="hostpill">thehackernews.com</span>, confirmed by GitHub's CISO as affecting GitHub, Grafana Labs, OpenAI, and Mistral AI. The stolen data was reportedly sold for $95,000.</p></div>
-<p>CISA's May 27 KEV also includes <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-8398">CVE-2026-8398</a><span class="hostpill">nvd.nist.gov</span> (Daemon Tools Lite, Embedded Malicious Code, <strong>3-day emergency remediation deadline May 30</strong>). The 3-day deadline versus the standard 14-day is CISA's signal of active critical infrastructure exploitation. Organizations should treat a confirmed Daemon Tools Lite compromise as potentially pivoting from IT to OT environments given the software's disk-imaging use cases in industrial control environments.</p>
-<p>The CDC published an <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10543/control-of-communicable-diseases-foreign-quarantine">emergency interim final rule</a><span class="hostpill">federalregister.gov</span> (bypassing notice-and-comment) on May 27 implementing an entry suspension for nationals from the <strong>Democratic Republic of Congo, Uganda, and South Sudan</strong> following confirmation of a <strong>Bundibugyo strain Ebola outbreak</strong> in DRC and Uganda. An American patient was identified, accelerating the regulatory response. The order was effective May 22; publication on May 27 formalizes the prior May 18 order. <a href="https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/">STAT News confirmed</a><span class="hostpill">statnews.com</span> the disease agent and covered countries. The Bundibugyo strain has a case fatality rate of approximately 25-34%, lower than the Zaire strain (60-90%) but sufficient to trigger emergency travel restrictions.</p>
+<p>The most significant cybersecurity development of May 2026 is not any single CVE but a cascading supply chain compromise by threat actor <strong>TeamPCP</strong> using what researchers call the "Mini Shai-Hulud" self-replicating worm. On May 11, 2026 at 19:20-19:26 UTC, TeamPCP exploited a <code>pull_request_target</code> misconfiguration in TanStack's GitHub Actions pipeline, combined with cache poisoning, to hijack TanStack's npm publisher identity and publish <a href="https://snyk.io/blog/tanstack-packages-compromised/">84 malicious package versions</a><span class="ws-hostpill">snyk.io</span> across 42 <code>@tanstack/*</code> packages in 6 minutes (<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-45321">CVE-2026-45321, CVSS 9.6</a><span class="ws-hostpill">nvd.nist.gov</span>). <code>@tanstack/react-query</code> and <code>@tanstack/react-router</code> each have over 12 million weekly downloads. The malware harvested AWS credentials, GCP metadata tokens, Kubernetes service account tokens, npm auth tokens, GitHub tokens, and SSH keys.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>One Nx developer's machine was compromised during a routine install of the malicious TanStack package on May 11. TeamPCP used the stolen GitHub OAuth token to publish <a href="https://nx.dev/blog/nx-console-v18-95-0-postmortem">Nx Console version 18.95.0</a><span class="ws-hostpill">nx.dev</span> to the VS Code Marketplace on May 18 (<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-48027">CVE-2026-48027</a><span class="ws-hostpill">nvd.nist.gov</span>), which had approximately 6,000 extension activations during its 18-minute exposure window. That credential in turn led to the breach of <a href="https://thehackernews.com/2026/05/github-internal-repositories-breached.html">approximately 3,800 GitHub internal private repositories</a><span class="ws-hostpill">thehackernews.com</span>, confirmed by GitHub's CISO as affecting GitHub, Grafana Labs, OpenAI, and Mistral AI. The stolen data was reportedly sold for $95,000.</p></div>
+<p>CISA's May 27 KEV also includes <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-8398">CVE-2026-8398</a><span class="ws-hostpill">nvd.nist.gov</span> (Daemon Tools Lite, Embedded Malicious Code, <strong>3-day emergency remediation deadline May 30</strong>). The 3-day deadline versus the standard 14-day is CISA's signal of active critical infrastructure exploitation. Organizations should treat a confirmed Daemon Tools Lite compromise as potentially pivoting from IT to OT environments given the software's disk-imaging use cases in industrial control environments.</p>
+<p>The CDC published an <a href="https://www.federalregister.gov/documents/2026/05/27/2026-10543/control-of-communicable-diseases-foreign-quarantine">emergency interim final rule</a><span class="ws-hostpill">federalregister.gov</span> (bypassing notice-and-comment) on May 27 implementing an entry suspension for nationals from the <strong>Democratic Republic of Congo, Uganda, and South Sudan</strong> following confirmation of a <strong>Bundibugyo strain Ebola outbreak</strong> in DRC and Uganda. An American patient was identified, accelerating the regulatory response. The order was effective May 22; publication on May 27 formalizes the prior May 18 order. <a href="https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/">STAT News confirmed</a><span class="ws-hostpill">statnews.com</span> the disease agent and covered countries. The Bundibugyo strain has a case fatality rate of approximately 25-34%, lower than the Zaire strain (60-90%) but sufficient to trigger emergency travel restrictions.</p>
 <hr />
 <h2 id="humanitarian">Humanitarian</h2>
-<p>The Lebanon humanitarian situation is the dominant current emergency: <a href="https://en.wikipedia.org/wiki/2026_Lebanon_war">3,213 killed, 9,737 wounded, 1 million displaced</a><span class="hostpill">en.wikipedia.org</span> since March 2. The 20% displacement rate (1 million of Lebanon's approximately 5 million population) is the threshold above which basic services (water, medical, schools) historically collapse within weeks, as documented in Syria 2012 and Lebanon 2006. Israeli expansion of ground operations into Nabatieh province directly threatens the infrastructure clusters serving the displaced population in the south.</p>
-<p>The Afrikaner refugee determination's 10,000-slot increase (7,500 to 17,500) comes against the backdrop of zero comparable emergency determinations for Lebanon, Gaza, Sudan, or DRC populations displaced by active conflicts this year. The legal and diplomatic challenge to PD 2026-14 will center on the Refugee Act of 1980's prohibition on discrimination based on "race, religion, nationality, political opinion, or membership in a particular social group." The <a href="https://worldrelief.org/pr-world-relief-responds-to-increased-presidential-determination-on-refugee-admissions-for-fy26-urges-additional-space-for-vulnerable-populations/">World Relief response</a><span class="hostpill">worldrelief.org</span> urges additional slots for other vulnerable populations. The direct Ebola outbreak response (DRC/Uganda) creates a separate humanitarian access layer: UNHCR operations in those areas will face travel restriction complications for non-national staff.</p>
+<p>The Lebanon humanitarian situation is the dominant current emergency: <a href="https://en.wikipedia.org/wiki/2026_Lebanon_war">3,213 killed, 9,737 wounded, 1 million displaced</a><span class="ws-hostpill">en.wikipedia.org</span> since March 2. The 20% displacement rate (1 million of Lebanon's approximately 5 million population) is the threshold above which basic services (water, medical, schools) historically collapse within weeks, as documented in Syria 2012 and Lebanon 2006. Israeli expansion of ground operations into Nabatieh province directly threatens the infrastructure clusters serving the displaced population in the south.</p>
+<p>The Afrikaner refugee determination's 10,000-slot increase (7,500 to 17,500) comes against the backdrop of zero comparable emergency determinations for Lebanon, Gaza, Sudan, or DRC populations displaced by active conflicts this year. The legal and diplomatic challenge to PD 2026-14 will center on the Refugee Act of 1980's prohibition on discrimination based on "race, religion, nationality, political opinion, or membership in a particular social group." The <a href="https://worldrelief.org/pr-world-relief-responds-to-increased-presidential-determination-on-refugee-admissions-for-fy26-urges-additional-space-for-vulnerable-populations/">World Relief response</a><span class="ws-hostpill">worldrelief.org</span> urges additional slots for other vulnerable populations. The direct Ebola outbreak response (DRC/Uganda) creates a separate humanitarian access layer: UNHCR operations in those areas will face travel restriction complications for non-national staff.</p>
 <hr />
 <h2 id="environment-disasters-and-climate">Environment, Disasters, and Climate</h2>
-<p>The USGS significant earthquake feed, GDACS Red/Orange alerts, and EONET event tracking were blocked by network policy on May 27. The Liveuamap feed confirms an M4.8 earthquake 58 km north of Finschhafen, Papua New Guinea (below WORLDSCOPE tracking threshold). A Humboldt Bay, California temporary safety zone (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10463/safety-zone-humboldt-bay-humboldt-bay-ca">Federal Register May 27</a><span class="hostpill">federalregister.gov</span>) is the domestic environmental/maritime action of the day.</p>
+<p>The USGS significant earthquake feed, GDACS Red/Orange alerts, and EONET event tracking were blocked by network policy on May 27. The Liveuamap feed confirms an M4.8 earthquake 58 km north of Finschhafen, Papua New Guinea (below WORLDSCOPE tracking threshold). A Humboldt Bay, California temporary safety zone (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10463/safety-zone-humboldt-bay-humboldt-bay-ca">Federal Register May 27</a><span class="ws-hostpill">federalregister.gov</span>) is the domestic environmental/maritime action of the day.</p>
 <p>The Ebola outbreak in DRC and Uganda is the environmental/biosecurity crossover event: the Bundibugyo strain outbreaks have historically been associated with areas of high bushmeat consumption and healthcare system stress, both of which are elevated in current DRC conflict zones. The CDC's entry suspension from South Sudan (no confirmed cases) reflects the public health logic of the DRC eastern front IDP flows creating unmonitored transmission corridors.</p>
 <p>The EPA HFC phasedown reconsideration actions published May 26 (proposing to exempt transport refrigeration units from leak repair requirements; reconsidering AIM Act Technology Transitions provisions) continue the US rollback of Kigali Amendment commitments. The FERC blanket certificate expansion adds to the administration's deregulatory pattern across energy infrastructure. The overall regulatory trajectory across EPA, FERC, and financial technology EOs is coherent: remove friction from energy infrastructure, finance, and technology while centralizing enforcement capacity on immigration and sanctions.</p>
 <hr />
 <h2 id="speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</h2>
-<p>Adam Tooze's Chartbook published May 27: <a href="https://adamtooze.substack.com/p/bond-market-jitters-supply-chain">"Bond Market Jitters. Supply Chain Shocks. The American Den of Pirates and American Health Improvement."</a><span class="hostpill">adamtooze.substack.com</span> covers the oil shock's transmission through G7 sovereign bond markets hitting a two-decade high. The framing "two [oil shocks] looks like a new trend" argues that the post-COVID inflation pattern and the 2026 Hormuz shock are reshaping bond-market prior beliefs about energy supply reliability. Tooze's early May <a href="https://foreignpolicy.com/2026/05/01/adam-tooze-kevin-warsh-federal-reserve-trump-interest-rates/">Foreign Policy piece on Warsh</a><span class="hostpill">foreignpolicy.com</span> ("Will the Next Fed Chairman Kevin Warsh Be More Compliant With Trump?") remains the most analytically important treatment of the Fed transition from a political-economy perspective.</p>
-<p>Tyler Cowen published three pieces on May 27, of which <a href="https://marginalrevolution.com/marginalrevolution/2026/05/can-liberals-be-pacifists-3/">"Can liberals be pacifists?"</a><span class="hostpill">marginalrevolution.com</span> is the most substantive: a conversation via <a href="https://www.pursuitofliberalism.com/p/benjamin-britten-war-and-pacifism">Rebecca Lowe's "Pursuit of Liberalism" Substack</a><span class="hostpill">pursuitofliberalism.com</span> using Benjamin Britten's War Requiem as a vehicle. The argument: absolute pacifism contradicts liberal political commitments because a limited state with rights and collective protection obligations cannot logically be absolutist about force. Britten's status as a conscientious objector who nonetheless produced a war memorial demonstrates the internal tension. In the context of the Lebanon war expansion, Kyiv evacuation warnings, and Iran ceasefire collapse, this is not an academic exercise.</p>
-<p>Paul Krugman's most relevant recent pieces are from May 20-23 rather than May 26-27. <a href="https://paulkrugman.substack.com/p/from-dropping-bombs-to-dropping-bonds">"From Dropping Bombs to Dropping Bonds"</a><span class="hostpill">paulkrugman.substack.com</span> (May 20) argues that bond yields near 2007 highs reflect markets pricing out rate cuts under Warsh while inflation from the oil shock prevents the cuts Trump wants; rising rates will intensify economic pain and risk recession. <a href="https://paulkrugman.substack.com/p/a-whiff-of-stagflation-150">"A Whiff of Stagflation"</a><span class="hostpill">paulkrugman.substack.com</span> (May 22-23) frames tariffs plus immigration crackdown plus oil shock as "entirely caused by Trump administration policies."</p>
-<p>Kristin Forbes's interview on "wargaming for the next crisis" at <a href="https://www.centralbanking.com/central-banks/monetary-policy/7975873/kristin-forbes-on-wargaming-for-the-next-crisis">Central Banking magazine</a><span class="hostpill">centralbanking.com</span> (approximately mid-May) discusses central banks making decisions in the "fog of war" and QE scenario analysis. Her 2026 book <a href="https://mitsloan.mit.edu/ideas-made-to-matter/art-monetary-policy-lessons-sun-tzu-central-banks"><em>The Art of Monetary Policy: Lessons from Sun Tzu for Central Banks</em></a> (MIT Press) is the associated primary source. The juxtaposition: Forbes identified scenario analysis for unexpected crises as the key gap in central bank preparedness; Warsh's first FOMC arrives during a live multi-theater shock.</p>
-<p>No 48-hour commentary was confirmed from Setser, Summers, Applebaum on Lavrov specifically, or Wolf on the Middle East track. Applebaum's <a href="https://www.anneapplebaum.com/2026/05/11/putins-war-comes-home-to-moscow/">May 11 "Putin's War Comes Home to Moscow"</a><span class="hostpill">anneapplebaum.com</span> is the nearest published analysis of Russian escalation dynamics from her; the argument that the elite's deal with Putin (support the war, don't have to think about it) broke when Ukrainian drones targeted Moscow on May 7 is the relevant frame for the Kyiv warnings now.</p>
+<p>Adam Tooze's Chartbook published May 27: <a href="https://adamtooze.substack.com/p/bond-market-jitters-supply-chain">"Bond Market Jitters. Supply Chain Shocks. The American Den of Pirates and American Health Improvement."</a><span class="ws-hostpill">adamtooze.substack.com</span> covers the oil shock's transmission through G7 sovereign bond markets hitting a two-decade high. The framing "two [oil shocks] looks like a new trend" argues that the post-COVID inflation pattern and the 2026 Hormuz shock are reshaping bond-market prior beliefs about energy supply reliability. Tooze's early May <a href="https://foreignpolicy.com/2026/05/01/adam-tooze-kevin-warsh-federal-reserve-trump-interest-rates/">Foreign Policy piece on Warsh</a><span class="ws-hostpill">foreignpolicy.com</span> ("Will the Next Fed Chairman Kevin Warsh Be More Compliant With Trump?") remains the most analytically important treatment of the Fed transition from a political-economy perspective.</p>
+<p>Tyler Cowen published three pieces on May 27, of which <a href="https://marginalrevolution.com/marginalrevolution/2026/05/can-liberals-be-pacifists-3/">"Can liberals be pacifists?"</a><span class="ws-hostpill">marginalrevolution.com</span> is the most substantive: a conversation via <a href="https://www.pursuitofliberalism.com/p/benjamin-britten-war-and-pacifism">Rebecca Lowe's "Pursuit of Liberalism" Substack</a><span class="ws-hostpill">pursuitofliberalism.com</span> using Benjamin Britten's War Requiem as a vehicle. The argument: absolute pacifism contradicts liberal political commitments because a limited state with rights and collective protection obligations cannot logically be absolutist about force. Britten's status as a conscientious objector who nonetheless produced a war memorial demonstrates the internal tension. In the context of the Lebanon war expansion, Kyiv evacuation warnings, and Iran ceasefire collapse, this is not an academic exercise.</p>
+<p>Paul Krugman's most relevant recent pieces are from May 20-23 rather than May 26-27. <a href="https://paulkrugman.substack.com/p/from-dropping-bombs-to-dropping-bonds">"From Dropping Bombs to Dropping Bonds"</a><span class="ws-hostpill">paulkrugman.substack.com</span> (May 20) argues that bond yields near 2007 highs reflect markets pricing out rate cuts under Warsh while inflation from the oil shock prevents the cuts Trump wants; rising rates will intensify economic pain and risk recession. <a href="https://paulkrugman.substack.com/p/a-whiff-of-stagflation-150">"A Whiff of Stagflation"</a><span class="ws-hostpill">paulkrugman.substack.com</span> (May 22-23) frames tariffs plus immigration crackdown plus oil shock as "entirely caused by Trump administration policies."</p>
+<p>Kristin Forbes's interview on "wargaming for the next crisis" at <a href="https://www.centralbanking.com/central-banks/monetary-policy/7975873/kristin-forbes-on-wargaming-for-the-next-crisis">Central Banking magazine</a><span class="ws-hostpill">centralbanking.com</span> (approximately mid-May) discusses central banks making decisions in the "fog of war" and QE scenario analysis. Her 2026 book <a href="https://mitsloan.mit.edu/ideas-made-to-matter/art-monetary-policy-lessons-sun-tzu-central-banks"><em>The Art of Monetary Policy: Lessons from Sun Tzu for Central Banks</em></a> (MIT Press) is the associated primary source. The juxtaposition: Forbes identified scenario analysis for unexpected crises as the key gap in central bank preparedness; Warsh's first FOMC arrives during a live multi-theater shock.</p>
+<p>No 48-hour commentary was confirmed from Setser, Summers, Applebaum on Lavrov specifically, or Wolf on the Middle East track. Applebaum's <a href="https://www.anneapplebaum.com/2026/05/11/putins-war-comes-home-to-moscow/">May 11 "Putin's War Comes Home to Moscow"</a><span class="ws-hostpill">anneapplebaum.com</span> is the nearest published analysis of Russian escalation dynamics from her; the argument that the elite's deal with Putin (support the war, don't have to think about it) broke when Ukrainian drones targeted Moscow on May 7 is the relevant frame for the Kyiv warnings now.</p>
 <hr />
 <h2 id="prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</h2>
 <p><img alt="Paper-bet scorecard, today's placements + week-to-date P&amp;L" src="2026-05-27-paper_bet_scorecard.png" /></p>
 <p>The Iran ceasefire complex generates the highest sustained Polymarket volume of any geopolitical topic since the war's start. As of May 27:</p>
 <ul>
-<li><a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">US-Iran permanent peace deal by May 31: 16% ($6.63M 24h volume)</a><span class="hostpill">polymarket.com</span>. Down from 28% yesterday (12-point drop). Drivers: US strikes on Iranian positions May 25, Iran's "no deal imminent" declaration, Rubio's "word, a sentence" framing of unresolved language.</li>
+<li><a href="https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192-799-449-125">US-Iran permanent peace deal by May 31: 16% ($6.63M 24h volume)</a><span class="ws-hostpill">polymarket.com</span>. Down from 28% yesterday (12-point drop). Drivers: US strikes on Iranian positions May 25, Iran's "no deal imminent" declaration, Rubio's "word, a sentence" framing of unresolved language.</li>
 <li>US-Iran agreement by May 27: approximately 1%, essentially resolved NO.</li>
-<li><a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-may">Hormuz traffic normal by end of May: 1%</a><span class="hostpill">polymarket.com</span>. Consistent with logistics realities; full normalization in four days is implausible.</li>
-<li><a href="https://polymarket.com/event/will-reza-pahlavi-lead-iran-in-2026">Will Reza Pahlavi lead Iran in 2026: 6% ($1.96M volume)</a><span class="hostpill">polymarket.com</span>. At 6% with $1.96M, this is a significant market that should be disaggregated: does "lead" contemplate voluntary transition, external overthrow, or a government of national unity that preserves some Pahlavi legitimacy?</li>
+<li><a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-may">Hormuz traffic normal by end of May: 1%</a><span class="ws-hostpill">polymarket.com</span>. Consistent with logistics realities; full normalization in four days is implausible.</li>
+<li><a href="https://polymarket.com/event/will-reza-pahlavi-lead-iran-in-2026">Will Reza Pahlavi lead Iran in 2026: 6% ($1.96M volume)</a><span class="ws-hostpill">polymarket.com</span>. At 6% with $1.96M, this is a significant market that should be disaggregated: does "lead" contemplate voluntary transition, external overthrow, or a government of national unity that preserves some Pahlavi legitimacy?</li>
 <li>Iranian regime falls by May 31: 0%. Iranian enriched uranium transfer to US by May 31: 1.45%.</li>
-<li><a href="https://polymarket.com/event/will-bitcoin-hit-150k-by-june-30-2026">Bitcoin $150k by June 30: 1% ($5.82M volume)</a><span class="hostpill">polymarket.com</span>. BTC at $74,816; a 100%+ move needed in 34 days.</li>
+<li><a href="https://polymarket.com/event/will-bitcoin-hit-150k-by-june-30-2026">Bitcoin $150k by June 30: 1% ($5.82M volume)</a><span class="ws-hostpill">polymarket.com</span>. BTC at $74,816; a 100%+ move needed in 34 days.</li>
 <li>Fed increases rates by 50bp at June meeting: 0.25%. Any hike at June meeting: inferred below 10% from curve.</li>
 </ul>
 <p>The desk's base case on Iran deal by May 31: below 12%. The Bahrain strikes, Lavrov-to-Rubio dynamic, and "word, a sentence" gap suggest the deadline will be missed. The 16% market appears to be pricing more residual optimism than the facts support.</p>
@@ -545,7 +232,7 @@ footer.brief-foot {
 <h2 id="weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</h2>
 <p><img alt="Watch Areas Volume" src="2026-05-27-watchareas_volume.png" /></p>
 <p><img alt="Anomaly density, today across all sections, z-score colored" src="2026-05-27-anomaly_density.png" /></p>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>1. The TeamPCP "Mini Shai-Hulud" worm and the GitHub/OpenAI/Mistral breach.</strong> The TanStack-to-Nx-to-GitHub supply chain cascade confirms a previously hypothesized threat model: a single malicious npm package published to a trusted library can propagate credential theft across the entire enterprise software stack. TeamPCP also previously compromised Aqua Security's Trivy scanner (March 2026) and Bitwarden CLI (April 2026). The pattern is consistent with an actor targeting security and developer tooling specifically to harvest credentials from security professionals. Organizations whose developers had <code>@tanstack/*</code> auto-update enabled on May 11, 2026 should treat all credentials accessible from those environments as compromised.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>1. The TeamPCP "Mini Shai-Hulud" worm and the GitHub/OpenAI/Mistral breach.</strong> The TanStack-to-Nx-to-GitHub supply chain cascade confirms a previously hypothesized threat model: a single malicious npm package published to a trusted library can propagate credential theft across the entire enterprise software stack. TeamPCP also previously compromised Aqua Security's Trivy scanner (March 2026) and Bitwarden CLI (April 2026). The pattern is consistent with an actor targeting security and developer tooling specifically to harvest credentials from security professionals. Organizations whose developers had <code>@tanstack/*</code> auto-update enabled on May 11, 2026 should treat all credentials accessible from those environments as compromised.</p></div>
 <p><strong>2. WTI's $4 intraday decline despite OPEC+ output increase.</strong> The May 3 OPEC+ meeting raised collective output by 188,000 bpd for June. WTI still fell from $93.50 to $89.41 on May 27. The most compelling explanation: the Iran deal probability falling from 28% to 16% in 24 hours is a measurable Hormuz-reopening forward discount collapsing in real time. If each 1-percentage-point of deal probability represents approximately $0.33 in oil price (12-point drop = approximately $4 price drop), then the Polymarket Iran market is now the marginal price-setter for WTI in the current environment. This is a structural market dynamic that has not been widely analyzed.</p>
 <p><strong>3. Bundibugyo Ebola and the Lavrov warning on the same day.</strong> The CDC entry suspension from DRC, Uganda, and South Sudan (effective May 22, published May 27) and Russia's warning to evacuate foreigners from Kyiv (May 25) are unconnected developments. But their simultaneous presence creates an unusual biosecurity-plus-security overlay: a US government in emergency regulatory posture on both biological and kinetic threat vectors simultaneously. The combination may stress the interagency planning capacity for simultaneous crises more than either event alone.</p>
 <p><strong>4. The Afrikaner refugee determination and the Refugee Act's non-discrimination clause.</strong> PD 2026-14 raising the refugee ceiling from 7,500 to 17,500 exclusively for white South Africans under an "emergency" invocation while Lebanon, Gaza, Sudan, and DRC generate no comparable determinations creates a legal challenge surface. The Refugee Act of 1980 requires that refugee admissions not be based on "race, religion, nationality, political opinion, or membership in a particular social group." The administration's EO 14204 and PD 2026-14 are based explicitly on race (Afrikaner identity). The litigation timeline for a Refugee Act challenge is 30-90 days to a preliminary injunction hearing.</p>
@@ -562,17 +249,17 @@ footer.brief-foot {
 <hr />
 <h2 id="what-to-watch-next-14-days">What to Watch - Next 14 Days</h2>
 <p><strong>May 30:</strong> Daemon Tools Lite CVE-2026-8398 remediation deadline. Organizations running unpatched Daemon Tools in OT or critical infrastructure environments are by CISA definition in violation of binding operational directive (BOD 22-01) after this date.</p>
-<div class="callout danger"><span class="callout-label">Alert</span><p><strong>May 31:</strong> Multiple Polymarket resolution dates: US-Iran permanent deal (16%), Iranian regime falls (0%), enriched uranium transfer to US (1.45%), Hormuz normal (1%). The cluster creates a forecasting benchmark moment. Desk base case: all four resolve NO. If the permanent deal contract resolves YES, WTI will spike immediately and the bond market will react within hours to energy disinflation expectations.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>May 31:</strong> Multiple Polymarket resolution dates: US-Iran permanent deal (16%), Iranian regime falls (0%), enriched uranium transfer to US (1.45%), Hormuz normal (1%). The cluster creates a forecasting benchmark moment. Desk base case: all four resolve NO. If the permanent deal contract resolves YES, WTI will spike immediately and the bond market will react within hours to energy disinflation expectations.</p></div>
 <p><strong>June 5:</strong> ECB monetary policy decision. EUR/USD at 1.163 and Warsh's possible-hike trajectory create a transatlantic rate spread inflection: ECB hold or cut plus any Warsh hike signal compresses EUR/USD toward 1.13-1.15; ECB surprise hawkishness holds the spread.</p>
 <p><strong>June 7:</strong> OPEC+ ministerial meeting. The June production baseline is 188,000 bpd higher than May (per May 3 decision). The June 7 meeting will set July quotas. Given WTI at $89 and demand uncertainty, the political dynamics within OPEC+ around the UAE's recent departure and the Hormuz partial reopening will determine whether the production increase path continues or pauses.</p>
 <p><strong>June 10:</strong> Nx Console CVE-2026-48027 and TanStack CVE-2026-45321 remediation deadlines. Organizations with unrotated credentials from May 11-18 exposure windows should treat all affected environments as compromised regardless of CISA deadline compliance.</p>
-<p><strong>June 11:</strong> FIFA 2026 World Cup begins (US, Canada, Mexico). Coast Guard Eastern Great Lakes safety zones (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10484/safety-zones-annual-events-in-the-captain-of-the-port-eastern-great-lakes-zone">Federal Register May 27</a><span class="hostpill">federalregister.gov</span>) are early precursor security actions.</p>
+<p><strong>June 11:</strong> FIFA 2026 World Cup begins (US, Canada, Mexico). Coast Guard Eastern Great Lakes safety zones (<a href="https://www.federalregister.gov/documents/2026/05/27/2026-10484/safety-zones-annual-events-in-the-captain-of-the-port-eastern-great-lakes-zone">Federal Register May 27</a><span class="ws-hostpill">federalregister.gov</span>) are early precursor security actions.</p>
 <p><strong>June 16-17:</strong> Warsh's first FOMC meeting. The most consequential monetary policy event of the summer. Market pricing: near-zero for 50bp hike; sub-10% for any hike; hold remains base case; but forward guidance language is the analytical event regardless of the rate decision.</p>
 <p><strong>Ongoing - Belarus mobilization monitoring.</strong> Lukashenko's "targeted mobilization" announcement requires distinguishing administrative (training) from operational (unit redeployment toward Ukrainian border) mobilization. Battalion-level repositioning is the threshold; satellite imagery and ACLED are the detection mechanisms.</p>
 <p><strong>June 30:</strong> FEC Q2 filing deadline. The next fundraising inflection for the 2026 Senate cycle (Ossoff at $81M, Talarico at $40M, Booker at $32M). The Q2 numbers will confirm or challenge the structural Texas competitive-map shift implied by the Talarico figure.</p>
 <hr />
 <p><em>Brief compiled for 2026-05-27. Data: SQLite store through 2026-05-27T21:40 UTC (FALLBACK - bundle zip unavailable for May 27 and May 26). Live markets feed current as of May 27 session close. Federal Register primary documents verified. Polymarket contracts as of May 27 live feed. SCOTUS opinions verified against supremecourt.gov. Four WebSearch research agent cycles conducted. Live supplementary APIs (USGS, GDACS, EONET, ReliefWeb) blocked by network policy: data absence confirmed, not quiet-day signal. Charts: 6 available (yield_curve, anomaly_screen, fx_oil, gdelt_tone_heatmap, watchareas_volume, conflict_fatalities), each referenced at most once. Ukraine theater maps: not present for May 27 cycle. Events GeoJSON: present from automated pipeline run (13 features).</em></p>
-    <h2 id="event-map">Event map</h2><div id="gridmap" class="gridmap"></div>
+      <h2 id="event-map">Event map</h2><div id="gridmap" class="w-full h-96 rounded-md border border-mist my-4 overflow-hidden"></div>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -602,11 +289,12 @@ footer.brief-foot {
 })();
 </script>
 
-  </article>
-  <footer class="brief-foot">
-    <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
-    <div><a href="./index.html">archive</a></div>
-  </footer>
-</main>
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
 </div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
 </body></html>
