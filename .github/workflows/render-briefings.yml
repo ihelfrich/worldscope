@@ -40,27 +40,48 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: pip install markdown pyyaml
-      - name: Fact-check market price claims (annotate FAILs inline)
+      - name: Fact-check market price claims (HARD rule — fails the build on divergence)
         run: |
-          # For every briefings/*.md, verify asset-price claims against
-          # the lake's structured market data and annotate divergent
-          # figures with [⚠ actual ≈ $X] markers. Doesn't fail the build:
-          # the goal is to ship the desk officer's narrative with inline
-          # warnings rather than block it.
-          if [ -f lake/db/worldscope.sqlite ]; then
-            for f in briefings/*.md; do
-              [ -f "$f" ] || continue
-              python -m worldscope.fact_check "$f" \
-                --lake lake/db/worldscope.sqlite \
-                --annotate --fail-on never \
-                || echo "fact-check non-zero for $f (continuing)"
-              ann="${f%.md}.annotated.md"
-              if [ -f "$ann" ]; then
-                mv "$ann" "$f"
-              fi
-            done
-          else
-            echo "Lake DB missing — skipping fact-check pass"
+          # STANDING RULE: every number, every fact, every figure must be
+          # checked against the lake's structured market data before
+          # publication. The fact-checker (worldscope.fact_check)
+          # validates asset-price claims against same-day market records;
+          # forecast-context phrases ("$150k by June 30", "Polymarket
+          # contract") are skipped because those are titles not assertions.
+          #
+          # First pass: annotate every brief with [⚠ actual ≈ $X] markers
+          # inline so the divergence is visible in the published HTML
+          # even when the CI build later allows it through.
+          # Second pass: --fail-on FAIL exits 1 if anything still
+          # diverges. The build fails. The HTML is NOT rendered. The
+          # narrative does not ship until the desk officer reconciles
+          # the divergent figures.
+          if [ ! -f lake/db/worldscope.sqlite ]; then
+            echo "Lake DB missing — cannot fact-check"
+            exit 1
+          fi
+          # Annotate FIRST (rewrites the .md in place with warnings)
+          for f in briefings/*.md; do
+            [ -f "$f" ] || continue
+            python -m worldscope.fact_check "$f" \
+              --lake lake/db/worldscope.sqlite \
+              --annotate --fail-on never || true
+            ann="${f%.md}.annotated.md"
+            if [ -f "$ann" ]; then mv "$ann" "$f"; fi
+          done
+          # Then verify — strict. Exit 1 on any FAIL.
+          fail_count=0
+          for f in briefings/*.md; do
+            [ -f "$f" ] || continue
+            if ! python -m worldscope.fact_check "$f" \
+                  --lake lake/db/worldscope.sqlite --fail-on FAIL; then
+              fail_count=$((fail_count + 1))
+              echo "::error file=$f::Numeric claim diverges from lake data — see annotation"
+            fi
+          done
+          if [ "$fail_count" -gt 0 ]; then
+            echo "$fail_count brief(s) failed fact-check. Reconcile before publishing."
+            exit 1
           fi
       - name: Render every brief to HTML
         run: python tools/render_brief.py

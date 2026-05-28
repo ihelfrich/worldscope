@@ -537,9 +537,28 @@ def _section_card(state, synth_text: Optional[str] = None,
   <ul class="list-none p-0 m-0 mt-1">{remaining_html}</ul>
 </details>"""
 
+    # Distinguish "pull succeeded with zero items" from "pull failed":
+    #   fresh_empty   → clean pull, no signal today (italicized note)
+    #   stale_after_failure / carry_forward / no_data → handled by
+    #                   _staleness_pill in the header
     empty_html = ""
     if total == 0:
-        empty_html = '<div class="font-sans text-[13px] text-slate-dim italic py-2">no items in this section today.</div>'
+        st = getattr(state, "state", "")
+        if st == "fresh_empty":
+            empty_html = ('<div class="font-sans text-[13px] text-slate-dim italic py-2 '
+                          'flex items-center gap-1.5">'
+                          '<span class="inline-block w-1.5 h-1.5 rounded-full bg-teal" '
+                          'aria-hidden="true" title="upstream API answered cleanly with zero items"></span>'
+                          'clean pull · no signal in watch areas today</div>')
+        elif st == "stale_after_failure":
+            err = html.escape(getattr(state, "error", "") or "pull failed", quote=True)
+            empty_html = ('<div class="font-sans text-[13px] text-crimson italic py-2 '
+                          f'flex items-center gap-1.5" title="{err}">'
+                          '<span class="inline-block w-1.5 h-1.5 rounded-full bg-crimson"></span>'
+                          'pull failed · showing nothing</div>')
+        else:
+            empty_html = ('<div class="font-sans text-[13px] text-slate-dim italic py-2">'
+                          'no items in this section today.</div>')
 
     return f"""
 <article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
