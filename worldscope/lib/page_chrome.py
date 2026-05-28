@@ -223,6 +223,45 @@ tailwind.config = {
       transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
     }
     .figure-card:hover::before { transform: scaleY(1); }
+    /* Source-tier triangulation toggle pills (above the section grid). */
+    .ws-tier-filter { font-family: 'Inter', sans-serif; }
+    .ws-tier-pill {
+      background: transparent; border: 1px solid #E8E2D5;
+      color: #4E5667;
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 0.10em; text-transform: uppercase;
+      padding: 3px 9px; border-radius: 9999px;
+      cursor: pointer; transition: all 0.15s ease-out;
+    }
+    .ws-tier-pill:hover {
+      border-color: #D4A017; color: #0B1220;
+    }
+    .ws-tier-pill.ws-tier-active {
+      background: #13294B; color: #FAF8F3;
+      border-color: #13294B;
+    }
+    .ws-sec { transition: opacity 0.22s ease-out; }
+
+    /* Hero "what moved" delta bullets — compact, scannable. */
+    .ws-deltas {
+      list-style: none; padding: 0; margin: 18px 0 0;
+      display: flex; flex-direction: column; gap: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px; line-height: 1.4;
+    }
+    .ws-delta {
+      display: flex; gap: 8px; align-items: baseline;
+      color: #0B1220;
+    }
+    .ws-delta-mark {
+      flex-shrink: 0;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 16px; line-height: 1; color: #D4A017;
+      width: 14px; text-align: center;
+    }
+    .ws-delta-warn .ws-delta-mark { color: #990000; }
+    .ws-delta strong { font-weight: 700; color: #13294B; }
+
     /* "Stat block" — oversized number with caption beneath. */
     .stat-block .stat {
       font-family: 'Source Serif 4', Georgia, serif;
@@ -247,6 +286,126 @@ tailwind.config = {
       display: block;
     }
     [data-vega-target] svg { display: block; max-width: 100%; }
+
+    /* Claim badges + Evidence Drawer (worldscope-evidence.js).
+       Status colors deliberately loud on divergent so a hallucinated
+       number can't hide. */
+    .claim-badge {
+      display: inline;
+      padding: 0 0.18em;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.12s ease-out;
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    .claim-verified   { text-decoration-color: rgba(26,138,135,0.55); }
+    .claim-divergent  { text-decoration-color: #990000;
+                        background: rgba(153,0,0,0.10); }
+    .claim-unverified { text-decoration-color: rgba(78,86,103,0.45); }
+    .claim-badge:hover { background: rgba(212,160,23,0.18); }
+    .claim-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72em;
+      font-weight: 700;
+      margin-left: 2px;
+      vertical-align: super;
+      opacity: 0.75;
+    }
+    .claim-verified  .claim-mark { color: #1A8A87; }
+    .claim-divergent .claim-mark { color: #990000; opacity: 1; }
+    .claim-unverified .claim-mark { color: #4E5667; }
+
+    #ws-evidence-drawer {
+      position: fixed; top: 0; right: 0; height: 100vh;
+      width: min(440px, 96vw);
+      background: #FAF8F3;
+      box-shadow: -6px 0 24px rgba(11,18,32,0.18);
+      transform: translateX(102%);
+      transition: transform 0.32s cubic-bezier(0.2,0.7,0.2,1);
+      z-index: 85;
+      display: flex; flex-direction: column;
+      font-family: 'Inter', sans-serif;
+    }
+    #ws-evidence-drawer.ws-evid-open { transform: translateX(0); }
+    .ws-evid-head {
+      background: #13294B; color: #FAF8F3;
+      padding: 12px 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 2px solid #D4A017;
+    }
+    .ws-evid-kicker {
+      font-weight: 800; font-size: 12px;
+      letter-spacing: 0.18em; text-transform: uppercase;
+    }
+    .ws-evid-head button {
+      background: none; border: 0; color: #E8E2D5;
+      font-size: 22px; line-height: 1; cursor: pointer;
+    }
+    #ws-evid-body {
+      flex: 1; overflow-y: auto; padding: 18px 20px;
+    }
+    .ws-evid-status {
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.14em;
+      padding: 6px 10px; border-radius: 4px;
+      display: inline-block; margin-bottom: 14px;
+    }
+    .ws-evid-verified   { background: rgba(26,138,135,0.15); color: #135957; }
+    .ws-evid-divergent  { background: #990000; color: #FAF8F3; }
+    .ws-evid-unverified { background: #E8E2D5; color: #4E5667; }
+    .ws-evid-skipped    { background: #E5E7EB; color: #6B7280; }
+    .ws-evid-claim {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px; font-weight: 600; color: #0B1220;
+      line-height: 1.35; margin-bottom: 16px;
+      padding-left: 12px; border-left: 3px solid #D4A017;
+    }
+    .ws-evid-meta {
+      display: grid; grid-template-columns: 110px 1fr; gap: 6px 14px;
+      font-size: 13px; margin-bottom: 18px;
+    }
+    .ws-evid-meta dt {
+      font-weight: 600; color: #6B7180;
+      text-transform: uppercase; letter-spacing: 0.08em; font-size: 10.5px;
+      align-self: center;
+    }
+    .ws-evid-meta dd { margin: 0; color: #0B1220; }
+    .ws-evid-meta code {
+      background: #E8E2D5; padding: 1px 5px; border-radius: 3px;
+      font-size: 12px;
+    }
+    .ws-evid-h {
+      font-size: 11px; font-weight: 700; color: #4E5667;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      margin: 20px 0 10px;
+    }
+    .ws-evid-recs { list-style: none; padding: 0; margin: 0; }
+    .ws-evid-rec {
+      padding: 10px 0; border-bottom: 1px solid #E8E2D5;
+      font-size: 13px;
+    }
+    .ws-evid-rec.missing { color: #6B7180; font-style: italic; }
+    .ws-evid-rec-title a {
+      color: #13294B; text-decoration: none; font-weight: 500;
+    }
+    .ws-evid-rec-title a:hover { color: #D4A017; }
+    .ws-evid-rec-meta {
+      font-size: 11px; color: #6B7180; margin-top: 3px;
+    }
+    .ws-evid-rec-section {
+      text-transform: uppercase; letter-spacing: 0.10em; font-weight: 600;
+    }
+    .ws-evid-noev {
+      color: #6B7180; font-style: italic; font-size: 13px; margin-top: 16px;
+    }
+    @media print {
+      #ws-evidence-drawer { display: none !important; }
+      .claim-badge { text-decoration: none; background: none !important; }
+      .claim-mark { display: none; }
+    }
   }
   @layer utilities {
     /* Glass strip used by sticky topnav over the canvas background */
@@ -461,6 +620,7 @@ def page_shell(
 <div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
 <script type="application/json" id="ws-network-seed">{_json_script_safe(network_seed_json)}</script>
 <script src="{base}{network_assets_path}" defer></script>
+<script src="{base}assets/worldscope-evidence.js" defer></script>
 {topnav(base=base)}
 {body_html}
 {chat_panel(base=base) if include_chat else ""}

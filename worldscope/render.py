@@ -142,6 +142,140 @@ def _top_new_items(states: dict, limit: int = 3) -> list[tuple[str, str, dict]]:
     return out
 
 
+def _tier_filter_script() -> str:
+    """Inline vanilla-JS for the source-tier triangulation toggle.
+
+    Multi-select: clicking a tier pill activates/deactivates it; "all"
+    is a reset. Section cards whose data-tier isn't in the active set
+    fade to opacity 0.18. Selection persists in localStorage so the
+    reader's preference survives reloads.
+    """
+    return """
+<script>
+(() => {
+  const KEY = 'ws.tier-filter';
+  function apply(active) {
+    document.querySelectorAll('.ws-sec').forEach(el => {
+      const t = el.dataset.tier || 'mainstream_independent';
+      const show = active.has('all') || active.has(t);
+      el.style.opacity = show ? '' : '0.18';
+      el.style.pointerEvents = show ? '' : 'none';
+    });
+    document.querySelectorAll('.ws-tier-pill').forEach(p => {
+      p.classList.toggle('ws-tier-active', active.has(p.dataset.tier));
+    });
+    try { localStorage.setItem(KEY, JSON.stringify([...active])); } catch (e) {}
+  }
+  let active;
+  try {
+    const stored = JSON.parse(localStorage.getItem(KEY) || '["all"]');
+    active = new Set(Array.isArray(stored) && stored.length ? stored : ['all']);
+  } catch (e) { active = new Set(['all']); }
+  document.querySelectorAll('.ws-tier-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const t = pill.dataset.tier;
+      if (t === 'all') { active = new Set(['all']); }
+      else {
+        active.delete('all');
+        if (active.has(t)) active.delete(t); else active.add(t);
+        if (!active.size) active.add('all');
+      }
+      apply(active);
+    });
+  });
+  apply(active);
+})();
+</script>"""
+
+
+def _compute_hero_deltas(states: dict, cross_section: dict,
+                          threads: dict) -> str:
+    """Return up to four 'what moved' bullets for the hero stat block.
+
+    Computed from data already in scope — no extra IO. Each bullet is
+    a single sentence with a number worth eyeballing first."""
+    lines: list[str] = []
+
+    # 1. Top thread (if any active today) — the dominant story.
+    top_thread = None
+    for t in (threads or {}).get("threads", []) or []:
+        if t.get("is_active_today"):
+            top_thread = t
+            break
+    if top_thread:
+        slug = html.escape(top_thread["slug"], quote=True)
+        lines.append(
+            f'<li class="ws-delta ws-delta-thread">'
+            f'<span class="ws-delta-mark" aria-hidden="true">▶</span>'
+            f'<a href="./threads/{slug}/" class="text-navy hover:text-gold no-underline">'
+            f'<strong>{html.escape(top_thread["title"])}</strong></a> — '
+            f'<strong class="tabular-nums">{top_thread["items_total"]:,}</strong> items / '
+            f'<strong class="tabular-nums">{len(top_thread.get("sections_touched") or [])}</strong> sections / '
+            f'<strong class="tabular-nums">{top_thread["days_active"]}</strong> days'
+            f'</li>'
+        )
+
+    # 2. Cross-section recurrence count.
+    rec = int((cross_section or {}).get("recurrences_found") or 0)
+    if rec:
+        top_ent = None
+        for band in ("high", "medium", "low"):
+            for e in (cross_section or {}).get("by_confidence", {}).get(band, []) or []:
+                top_ent = e
+                break
+            if top_ent:
+                break
+        ent_name = html.escape(top_ent.get("canonical_name", "?")) if top_ent else "?"
+        lines.append(
+            f'<li class="ws-delta">'
+            f'<span class="ws-delta-mark" aria-hidden="true">✦</span>'
+            f'<strong class="tabular-nums">{rec}</strong> '
+            f'{"entity" if rec == 1 else "entities"} recurring in 3+ sections'
+            f'{" — leading: <strong>" + ent_name + "</strong>" if top_ent else ""}'
+            f'</li>'
+        )
+
+    # 3. The single highest-volume "fresh" section today, with its delta.
+    top_section = None
+    top_n = 0
+    for sid, st in (states or {}).items():
+        if getattr(st, "state", "") != "fresh":
+            continue
+        n = len(getattr(st, "new", []) or [])
+        if n > top_n:
+            top_n = n
+            top_section = st
+    if top_section and top_n:
+        title = html.escape(getattr(top_section, "title", "") or top_section.section_id)
+        lines.append(
+            f'<li class="ws-delta">'
+            f'<span class="ws-delta-mark" aria-hidden="true">↑</span>'
+            f'Heaviest new-item section: <strong>{title}</strong> — '
+            f'<strong class="tabular-nums">{top_n}</strong> new'
+            f'</li>'
+        )
+
+    # 4. Number of sections that failed today (real signal — silent
+    # pulls hide problems; stale_after_failure is loud).
+    failed = sum(1 for st in (states or {}).values()
+                  if getattr(st, "state", "") == "stale_after_failure")
+    if failed:
+        lines.append(
+            f'<li class="ws-delta ws-delta-warn">'
+            f'<span class="ws-delta-mark" aria-hidden="true">✗</span>'
+            f'<strong class="tabular-nums">{failed}</strong> '
+            f'{"section" if failed == 1 else "sections"} failed to pull today'
+            f'</li>'
+        )
+
+    if not lines:
+        lines.append(
+            '<li class="ws-delta"><span class="ws-delta-mark" aria-hidden="true">·</span>'
+            'A quiet day across the watch list.</li>'
+        )
+    return "\n".join(lines)
+
+
 def _hero_block(date_obj: date, cross_section: dict, states: dict,
                  threads: Optional[dict] = None) -> str:
     kicker = date_obj.strftime("%A · %B %-d, %Y").upper()
@@ -201,38 +335,11 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict,
         f'recurring across 3+ sections.'
     ) if chips_count else 'No cross-section recurrence today.'
 
-    # The "stat block" — pulled into the hero on the right side. Shows
-    # total NEW today, the leading thread (if any), and the cross-section
-    # signal as fallback. The thread treatment makes the brief
-    # longitudinal: instead of "China appeared in 3 sections today" we
-    # say "China — 382 items across 13 sections over 4 days." A link
-    # takes the reader straight to the thread page.
-    if top_thread:
-        slug = html.escape(top_thread["slug"], quote=True)
-        story_quote = (
-            f"<a href='./threads/{slug}/' class='text-navy hover:text-gold no-underline border-b border-gold/40 hover:border-gold transition-colors'>"
-            f"<strong>{html.escape(top_thread['title'])}</strong></a> — "
-            f"<strong class='text-navy tabular-nums'>{top_thread['items_total']:,}</strong> items across "
-            f"<strong class='text-navy tabular-nums'>{len(top_thread['sections_touched'])}</strong> sections "
-            f"over <strong class='text-navy tabular-nums'>{top_thread['days_active']}</strong> days. "
-            f"<span class='text-slate text-[0.85em]'>The dominant thread.</span>"
-        )
-    elif top_entity:
-        story_quote = (
-            f"<strong class='text-navy'>{html.escape(top_entity.get('canonical_name','?'))}</strong> "
-            f"appeared in <strong class='text-navy'>{int(top_entity.get('n_sections') or 0)}</strong> "
-            f"sections today — "
-            f"<span class='text-slate'>"
-            + ", ".join(html.escape(s) for s in (top_entity.get('sections') or [])[:4])
-            + "</span>."
-        )
-    elif total_new:
-        story_quote = (
-            f"<strong class='text-navy'>{total_new}</strong> records new since yesterday. "
-            f"No single thread is converging across sections — today's signal is dispersed."
-        )
-    else:
-        story_quote = "A quiet day across the watch list."
+    # Delta-first hero: instead of one pull-quote, surface three
+    # punchy "what moved" lines computed from today's data. An analyst
+    # should see the day's signal in 5 seconds without scrolling.
+    deltas = _compute_hero_deltas(states or {}, cross_section or {},
+                                    threads or {})
 
     return f"""
 <header class="relative pt-16 lg:pt-20 pb-8 px-7 max-w-[1200px] mx-auto">
@@ -261,7 +368,7 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict,
     <div class="lg:col-span-5 stat-block">
       <div class="stat tabular-nums">{total_new:,}</div>
       <div class="stat-label">records new since yesterday</div>
-      <div class="pull-quote mt-5">{story_quote}</div>
+      <ul class="ws-deltas mt-5">{deltas}</ul>
     </div>
   </div>
 </header>
@@ -565,8 +672,9 @@ def _section_card(state, synth_text: Optional[str] = None,
                           'no items in this section today.</div>')
 
     return f"""
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-{html.escape(state.section_id, quote=True)}">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-{html.escape(state.section_id, quote=True)}"
+         data-tier="{html.escape(getattr(state, 'source_tier', '') or 'mainstream_independent', quote=True)}">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">{emoji}</span>
     <div class="flex-1 min-w-0">
@@ -662,12 +770,23 @@ def render_page(
                                 store_db_path=store_db_path)
                  for sid, st in states.items()]
         sections_block = (
-            '<section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections">'
-            '<hr class="editorial-rule mb-7">'
-            '<div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-5">All sections</div>'
+            '<section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections" id="ws-sections">'
+            '<hr class="editorial-rule mb-6">'
+            '<div class="flex flex-wrap items-baseline gap-4 mb-5">'
+            '<div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim">All sections</div>'
+            '<div class="flex flex-wrap gap-1.5 ws-tier-filter" role="group" aria-label="Filter by source tier">'
+            '<button type="button" class="ws-tier-pill ws-tier-active" data-tier="all">all</button>'
+            '<button type="button" class="ws-tier-pill" data-tier="primary_document">primary</button>'
+            '<button type="button" class="ws-tier-pill" data-tier="mainstream_independent">mainstream</button>'
+            '<button type="button" class="ws-tier-pill" data-tier="regional_independent">regional</button>'
+            '<button type="button" class="ws-tier-pill" data-tier="ngo_independent">ngo</button>'
+            '<button type="button" class="ws-tier-pill" data-tier="academic">academic</button>'
+            '</div></div>'
             '<div class="columns-1 md:columns-2 xl:columns-3 gap-6 [column-fill:_balance]">'
             + "\n".join(cards)
-            + "</div></section>"
+            + "</div>"
+            + _tier_filter_script()
+            + "</section>"
         )
     else:
         sections_block = (
