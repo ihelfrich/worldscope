@@ -29,6 +29,7 @@ from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
 from typing import Any, Optional
 
+from ..lib.content_filter import filter_items as _filter_junk
 from ..store import SnapshotStore
 
 
@@ -99,6 +100,14 @@ class Section(ABC):
     # snapshot carries forward, instead of wedging the whole brief.
     PULL_TIMEOUT_S: float = 75
 
+    # Apply the adult/scam/clickbait content filter (lib.content_filter).
+    # Default on for every section so junk that leaks in through open feeds
+    # (Google News proxies, GDELT, MediaCloud, regional RSS) gets dropped
+    # before snapshot + render. Sections that legitimately surface these
+    # terms (sanctions actions against adult platforms, court cases on
+    # crypto fraud) can opt out by setting this to False.
+    FILTER_ADULT_SCAM: bool = True
+
     # --- Section-adapter contract (see docs/SECTION_ADAPTER_CONTRACT.md) ---
     # Subclasses SHOULD override these for proper attribution + trust signaling.
     # Defaults below match the existing pre-contract sections so no migration
@@ -149,6 +158,12 @@ class Section(ABC):
             out.append(tagged)
         return out
 
+    def _apply_content_filter(self, items: list[dict]) -> tuple[list[dict], list[dict]]:
+        """Drop adult/scam/clickbait items unless the section opts out."""
+        if not items or not self.FILTER_ADULT_SCAM:
+            return items, []
+        return _filter_junk(items)
+
     def _is_skipped(self) -> bool:
         skip_set = {s.strip() for s in (os.environ.get("WORLDSCOPE_SKIP") or "").split(",") if s.strip()}
         return self.id in skip_set
@@ -165,6 +180,9 @@ class Section(ABC):
             if most_recent is not None:
                 src_date = most_recent.get("snapshot_date")
                 items = most_recent.get("items") or []
+                # Filter previously-snapshotted junk so old caches don't
+                # surface OnlyFans/scam content the filter would now drop.
+                items, dropped = self._apply_content_filter(items)
                 # Comparison: the snapshot one step before the most-recent
                 prior = self.store.previous(
                     self.id, before=date.fromisoformat(src_date)
@@ -176,6 +194,7 @@ class Section(ABC):
                     items=items, new=new,
                     comparison_date=(prior or {}).get("snapshot_date"),
                     source_date=src_date,
+                    extras={"filtered_count": len(dropped)} if dropped else {},
                 )
             # Skipped but no prior to carry forward.
             return SectionState(
@@ -188,10 +207,12 @@ class Section(ABC):
         # Normal path: try to pull, with a hard deadline. Distinguish failure
         # from empty-ok.
         items: list[dict] = []
+        dropped: list[dict] = []
         error: Optional[str] = None
         try:
             raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
+            items, dropped = self._apply_content_filter(items)
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"
 
@@ -203,13 +224,16 @@ class Section(ABC):
                 prior = self.store.previous(
                     self.id, before=date.fromisoformat(src_date)
                 )
+                stale_items = most_recent.get("items") or []
+                stale_items, stale_dropped = self._apply_content_filter(stale_items)
                 return SectionState(
                     section_id=self.id, title=self.title, emoji=self.emoji,
                     state=STATE_STALE,
-                    items=most_recent.get("items") or [], new=[],
+                    items=stale_items, new=[],
                     comparison_date=(prior or {}).get("snapshot_date"),
                     source_date=src_date,
                     error=error,
+                    extras={"filtered_count": len(stale_dropped)} if stale_dropped else {},
                 )
             return SectionState(
                 section_id=self.id, title=self.title, emoji=self.emoji,
@@ -232,6 +256,7 @@ class Section(ABC):
             state=state, items=items, new=new,
             comparison_date=(prior or {}).get("snapshot_date"),
             source_date=today.isoformat(),
+            extras={"filtered_count": len(dropped)} if dropped else {},
         )
 
     @staticmethod

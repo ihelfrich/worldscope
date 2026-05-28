@@ -699,6 +699,258 @@ def cluster_today(
 
 
 # ----------------------------------------------------------------------- #
+# Tool: cross_section_signals
+# ----------------------------------------------------------------------- #
+# The cross-section recurrence analyzer (worldscope.analysis.cross_section)
+# writes a JSON file each day under lake/sections/_meta/<date>/. This tool
+# surfaces it directly so a chat session can ask "what's converging today"
+# without needing to read raw JSON from disk.
+
+@mcp.tool()
+def cross_section_signals(
+    date_iso: Optional[str] = None,
+    min_confidence: str = "medium",
+    limit: int = 25,
+) -> dict:
+    """Today's cross-section recurrence signals — entities appearing in 3+
+    sections of the briefing. This is the analytical seed the homepage hero
+    block uses; surfacing it via MCP lets a chat session steer toward the
+    day's most-converged signals.
+
+    Args:
+        date_iso: YYYY-MM-DD. None = most recent date that has analyzer output.
+        min_confidence: "high", "medium", or "low". "medium" returns
+            high+medium bands (default). "low" returns all three.
+        limit: max entities to return (default 25).
+
+    Returns:
+        {"date": str, "entities": [
+            {"canonical_name", "entity_type", "n_sections", "total_mentions",
+             "confidence", "sections": [...], "section_counts": {...},
+             "evidence_records": {...}},
+            ...
+        ], "recurrences_found": int}
+    """
+    limit = min(max(1, limit), 200)
+    meta_root = REPO_ROOT / "lake" / "sections" / "_meta"
+    if not meta_root.exists():
+        return {"error": "no cross-section analyzer output found"}
+
+    if date_iso:
+        target = meta_root / date_iso / "cross_section.json"
+        if not target.exists():
+            return {"error": f"no cross_section.json for {date_iso}"}
+        used_date = date_iso
+    else:
+        candidates = sorted(
+            (d.name for d in meta_root.iterdir() if d.is_dir()),
+            reverse=True,
+        )
+        target = None
+        for d in candidates:
+            p = meta_root / d / "cross_section.json"
+            if p.exists():
+                target = p
+                used_date = d
+                break
+        if target is None:
+            return {"error": "no cross_section.json files found"}
+
+    data = json.loads(target.read_text(encoding="utf-8"))
+    bands = ("high", "medium", "low")
+    cutoff_idx = bands.index(min_confidence.lower()) if min_confidence.lower() in bands else 1
+    keep_bands = bands[:cutoff_idx + 1]
+    entities: list[dict] = []
+    for band in keep_bands:
+        for ent in (data.get("by_confidence", {}).get(band) or []):
+            entities.append(ent)
+            if len(entities) >= limit:
+                break
+        if len(entities) >= limit:
+            break
+    return {
+        "date": used_date,
+        "recurrences_found": int(data.get("recurrences_found") or 0),
+        "min_sections_threshold": int(data.get("min_sections_threshold") or 3),
+        "entities": entities,
+    }
+
+
+# ----------------------------------------------------------------------- #
+# Tool: today_top_new
+# ----------------------------------------------------------------------- #
+
+@mcp.tool()
+def today_top_new(
+    date_iso: Optional[str] = None,
+    per_section: int = 3,
+    sections: int = 20,
+) -> dict:
+    """Top NEW records across all sections for a given date.
+
+    A chat session opening on the homepage often wants a one-shot answer
+    to "what's new today" without re-reading every section. This tool
+    returns up to `per_section` newest records per section, capped at
+    `sections` distinct sections, deterministically ordered for prompt
+    cache stability.
+
+    Args:
+        date_iso: YYYY-MM-DD. None = most recent ingest date.
+        per_section: max records per section (default 3).
+        sections: max distinct sections to include (default 20).
+
+    Returns:
+        {"date": str, "section_count": int, "by_section": {section_id: [records]}}
+    """
+    per_section = min(max(1, per_section), 10)
+    sections = min(max(1, sections), 60)
+    with _open_db() as conn:
+        if date_iso is None:
+            row = conn.execute(
+                "SELECT substr(MAX(ingested_at), 1, 10) FROM records"
+            ).fetchone()
+            date_iso = row[0] if row and row[0] else None
+        if not date_iso:
+            return {"error": "no records in the lake"}
+
+        # Pull all records for the day, then partition + cap per section.
+        rows = conn.execute(
+            """
+            SELECT id, section_id, source_id, original_text, original_url,
+                   record_date, ingested_at, original_lang
+              FROM records
+             WHERE substr(ingested_at, 1, 10) = ?
+             ORDER BY section_id, ingested_at DESC
+            """,
+            (date_iso,),
+        ).fetchall()
+
+    by_section: dict[str, list[dict]] = {}
+    for r in rows:
+        d = dict(r)
+        lst = by_section.setdefault(d["section_id"], [])
+        if len(lst) < per_section:
+            lst.append(d)
+    # Cap section count.
+    if len(by_section) > sections:
+        keep = sorted(by_section.keys())[:sections]
+        by_section = {k: by_section[k] for k in keep}
+
+    return {
+        "date": date_iso,
+        "section_count": len(by_section),
+        "by_section": by_section,
+    }
+
+
+# ----------------------------------------------------------------------- #
+# Tool: entity_neighborhood_graph
+# ----------------------------------------------------------------------- #
+
+@mcp.tool()
+def entity_neighborhood_graph(
+    entity_id: str,
+    radius: int = 1,
+    max_nodes: int = 80,
+) -> dict:
+    """Entity neighborhood as a graph payload: nodes + edges, ready for
+    visualization (D3, sigma.js) or further analysis in chat.
+
+    Args:
+        entity_id: entity id or canonical-name substring.
+        radius: BFS depth from the seed (1 = direct neighbors only,
+            default; capped at 3).
+        max_nodes: cap on the number of nodes returned (default 80).
+
+    Returns:
+        {"seed_id": str, "nodes": [{"id","canonical_name","entity_type"}, ...],
+         "edges": [{"from","to","type","weight","last_seen"}, ...],
+         "truncated": bool}
+    """
+    radius = min(max(1, radius), 3)
+    max_nodes = min(max(2, max_nodes), 300)
+    _SEED_SQL = "SELECT id, canonical_name, type AS entity_type FROM entities"
+    with _open_db() as conn:
+        # Resolve seed
+        seed_row = conn.execute(f"{_SEED_SQL} WHERE id = ?", (entity_id,)).fetchone()
+        if seed_row is None:
+            seed_row = conn.execute(
+                f"{_SEED_SQL} WHERE lower(canonical_name) LIKE ? LIMIT 1",
+                (f"%{entity_id.lower()}%",),
+            ).fetchone()
+        if seed_row is None:
+            return {"error": f"no entity resolved from {entity_id!r}"}
+        seed = seed_row["id"]
+
+        # BFS
+        nodes: dict[str, dict] = {seed: dict(seed_row)}
+        edges: list[dict] = []
+        frontier = {seed}
+        truncated = False
+        for _depth in range(radius):
+            next_frontier: set[str] = set()
+            for nid in frontier:
+                if len(nodes) >= max_nodes:
+                    truncated = True
+                    break
+                rels = conn.execute(
+                    """
+                    SELECT from_entity, to_entity, type, weight, last_seen
+                      FROM relationships
+                     WHERE from_entity = ? OR to_entity = ?
+                     ORDER BY last_seen DESC
+                     LIMIT 60
+                    """,
+                    (nid, nid),
+                ).fetchall()
+                for r in rels:
+                    other = r["to_entity"] if r["from_entity"] == nid else r["from_entity"]
+                    edges.append(dict(r))
+                    if other in nodes:
+                        continue
+                    if len(nodes) >= max_nodes:
+                        truncated = True
+                        continue
+                    other_row = conn.execute(
+                        "SELECT id, canonical_name, type AS entity_type FROM entities WHERE id = ?",
+                        (other,),
+                    ).fetchone()
+                    if other_row is not None:
+                        nodes[other] = dict(other_row)
+                        next_frontier.add(other)
+            frontier = next_frontier
+            if not frontier:
+                break
+
+    # Dedupe edges by (from,to,type)
+    seen_e: set[tuple] = set()
+    deduped: list[dict] = []
+    for e in edges:
+        key = (e.get("from_entity"), e.get("to_entity"), e.get("type"))
+        if key in seen_e:
+            continue
+        seen_e.add(key)
+        deduped.append({
+            "from": e.get("from_entity"),
+            "to": e.get("to_entity"),
+            "type": e.get("type"),
+            "weight": e.get("weight"),
+            "last_seen": e.get("last_seen"),
+        })
+
+    return {
+        "seed_id": seed,
+        "nodes": [{"id": n["id"],
+                   "canonical_name": n.get("canonical_name"),
+                   "entity_type": n.get("entity_type")} for n in nodes.values()],
+        "edges": deduped,
+        "node_count": len(nodes),
+        "edge_count": len(deduped),
+        "truncated": truncated,
+    }
+
+
+# ----------------------------------------------------------------------- #
 # Resource: lake_overview
 # ----------------------------------------------------------------------- #
 
