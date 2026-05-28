@@ -277,10 +277,68 @@
   // init
   // ────────────────────────────────────────────────────────────────
 
+  // ────────────────────────────────────────────────────────────────
+  // THEME TOGGLE — sunset animation
+  // Day ↔ night with a beautiful crossfade. The globe (if present)
+  // spins once and swaps its day/night basemap. All site colors
+  // transition via CSS custom-property crossfade on the root.
+  // ────────────────────────────────────────────────────────────────
+
+  const THEME_KEY = "ws.theme";
+
+  function currentTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "dark" || stored === "light") return stored;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark" : "light";
+  }
+
+  function applyTheme(theme, { animated = false } = {}) {
+    const root = document.documentElement;
+    if (animated) root.classList.add("ws-theme-transitioning");
+    root.setAttribute("data-theme", theme);
+    try { localStorage.setItem(THEME_KEY, theme); } catch (e) {}
+    // Spin the globe(s) and swap basemap if globe.gl is loaded
+    if (window.__wsGlobeInstance && window.__wsGlobeInstance.controls) {
+      const ctrl = window.__wsGlobeInstance.controls();
+      const target = theme === "dark"
+        ? "//unpkg.com/three-globe/example/img/earth-night.jpg"
+        : "//unpkg.com/three-globe/example/img/earth-day.jpg";
+      try {
+        ctrl.autoRotateSpeed = 6.0;   // accelerate for 700ms
+        setTimeout(() => {
+          window.__wsGlobeInstance.globeImageUrl(target);
+        }, 350);
+        setTimeout(() => { ctrl.autoRotateSpeed = 0.4; }, 1100);
+      } catch (e) { /* globe might not expose controls in some versions */ }
+    }
+    // Update theme button icon
+    document.querySelectorAll("[data-theme-toggle]").forEach(b => {
+      b.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+      const icon = b.querySelector(".ws-theme-icon");
+      if (icon) icon.textContent = theme === "dark" ? "☾" : "☀";
+    });
+    if (animated) {
+      setTimeout(() => root.classList.remove("ws-theme-transitioning"), 850);
+    }
+  }
+
+  function bindThemeToggle() {
+    // Apply persisted theme without animation on first paint
+    applyTheme(currentTheme(), { animated: false });
+    document.querySelectorAll("[data-theme-toggle]").forEach(b => {
+      b.addEventListener("click", () => {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        applyTheme(next, { animated: true });
+      });
+    });
+  }
+
   function init() {
     paintSparklines();
     animateAllCounts();
     bindGlobalKeys();
+    bindThemeToggle();
   }
 
   if (document.readyState === "loading") {

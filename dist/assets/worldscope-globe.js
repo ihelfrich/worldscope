@@ -155,10 +155,15 @@
 
     // globe.gl supports both default + named imports across versions.
     const G = window.Globe.default ? window.Globe.default() : window.Globe();
+    const initialTheme = document.documentElement.getAttribute("data-theme") || "light";
+    const initialMap = initialTheme === "dark"
+      ? "//unpkg.com/three-globe/example/img/earth-night.jpg"
+      : "//unpkg.com/three-globe/example/img/earth-day.jpg";
     STATE.globe = G(root)
       .backgroundColor("rgba(0,0,0,0)")
-      // Frosty-white look: muted texture, no atmospheric blue, soft white glow.
-      .globeImageUrl("//unpkg.com/three-globe/example/img/earth-day.jpg")
+      // Basemap chosen by current theme; the theme toggle in worldscope-ui.js
+      // can swap this at runtime via window.__wsGlobeInstance.
+      .globeImageUrl(initialMap)
       .bumpImageUrl("//unpkg.com/three-globe/example/img/earth-topology.png")
       .atmosphereColor("#FFFFFF")
       .atmosphereAltitude(0.18)
@@ -215,6 +220,9 @@
       .ringPropagationSpeed(2.0)
       .ringRepeatPeriod(2200)
       .ringAltitude(0.012);
+
+    // Expose the globe instance for the theme toggle (worldscope-ui.js).
+    window.__wsGlobeInstance = STATE.globe;
 
     // Initial framing — center on Atlantic with a gentle tilt.
     STATE.globe.pointOfView({ lat: 18, lng: -10, altitude: 2.4 }, 1200);
@@ -349,9 +357,13 @@
       await loadDeps();
       await loadData();
       const G = window.Globe.default ? window.Globe.default() : window.Globe();
+      const initialTheme = document.documentElement.getAttribute("data-theme") || "light";
+      const initialMap = initialTheme === "dark"
+        ? "//unpkg.com/three-globe/example/img/earth-night.jpg"
+        : "//unpkg.com/three-globe/example/img/earth-day.jpg";
       const hero = G(root)
         .backgroundColor("rgba(0,0,0,0)")
-        .globeImageUrl("//unpkg.com/three-globe/example/img/earth-day.jpg")
+        .globeImageUrl(initialMap)
         .atmosphereColor("#FFFFFF")
         .atmosphereAltitude(0.16)
         .showGraticules(false)
@@ -360,6 +372,7 @@
         .polygonCapColor(() => "rgba(75,156,211,0.18)")
         .polygonSideColor(() => "rgba(19,41,75,0.10)")
         .polygonStrokeColor(() => "rgba(19,41,75,0.42)");
+      window.__wsGlobeInstance = hero;
       hero.pointOfView({ lat: 18, lng: -10, altitude: 2.6 }, 0);
       if (hero.controls()) {
         hero.controls().autoRotate = true;

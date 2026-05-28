@@ -77,19 +77,53 @@
 
 /* Dark theme tokens kick in via [data-theme="dark"]. Sunset animation
  * (Step 3 of the plan) crossfades from default → dark. */
+/* Dark theme — "Earth at night from space" aesthetic.
+ * Cooled-down navy canvas (not pure black — feels like deep-space).
+ * Brand colors brightened so they read against the dark background.
+ * Sunset toggle in worldscope-ui.js crossfades from light → dark via
+ * the .ws-theme-transitioning class added to <html>. */
 [data-theme="dark"] {
-  --canvas:        #0B0E14;
-  --panel:         #131820;
-  --panel-elev:    rgba(19, 24, 32, 0.92);
-  --mist:          #1F252F;
-  --mist-strong:   #2A323F;
+  --canvas:        #0A0E16;
+  --panel:         #121823;
+  --panel-elev:    rgba(18, 24, 35, 0.92);
+  --mist:          #1F2735;
+  --mist-strong:   #2D3648;
   --ink:           #ECEFF4;
-  --slate:         #A8B0BD;
-  --slate-mid:     #818996;
-  --slate-dim:     #5A6270;
+  --slate:         #B5BCC8;
+  --slate-mid:     #8B93A1;
+  --slate-dim:     #5F6878;
+  /* Brand colors brightened for legibility on dark */
+  --navy:          #6A92C8;       /* was #13294B — brighter so it reads */
+  --navy-soft:     #8AAEDD;
+  --navy-deep:     #4677B5;
+  --gold:          #E5BB4F;       /* was #C8961A — warmer, more luminous */
+  --gold-soft:     #F1D080;
+  --carolina:      #6BB6E5;
+  --crimson:       #E15555;
+  --teal:          #45A89E;
+  --sage:          #84A595;
+  --hairline:       1px solid var(--mist);
+  --hairline-strong: 1px solid var(--mist-strong);
   --shadow-card: 0 1px 1px rgba(0,0,0,0.25), 0 2px 6px rgba(0,0,0,0.20);
   --shadow-lift: 0 1px 2px rgba(0,0,0,0.30), 0 12px 24px rgba(0,0,0,0.30);
+  --shadow-globe: 0 30px 60px -20px rgba(0,0,0,0.55), 0 20px 40px -25px rgba(0,0,0,0.35);
 }
+
+/* Dark theme: glass nav goes inverted */
+[data-theme="dark"] .glass-nav {
+  background: linear-gradient(180deg, rgba(10,14,22,0.88) 0%, rgba(10,14,22,0.82) 100%);
+  border-bottom-color: var(--mist);
+}
+
+/* Dark theme: signal chips, pull-quote, et al */
+[data-theme="dark"] .signal-chip { background: var(--panel-elev); }
+[data-theme="dark"] .new-pill { color: #0A0E16; }
+[data-theme="dark"] .stale-pill.carry  { background: rgba(229,187,79,0.16); color: #E5BB4F; border-color: rgba(229,187,79,0.30); }
+[data-theme="dark"] .stale-pill.failed { background: rgba(225,85,85,0.16);  color: #FCA5A5; border-color: rgba(225,85,85,0.30); }
+[data-theme="dark"] .stale-pill.none   { background: var(--mist);  color: var(--slate); }
+[data-theme="dark"] .pull-quote { color: var(--ink); }
+[data-theme="dark"] ::selection { background: rgba(229, 187, 79, 0.35); }
+[data-theme="dark"] .ws-tier-pill.ws-tier-active { background: var(--gold); color: #0A0E16; border-color: var(--gold); }
 
 
 /* ============================================================
@@ -542,6 +576,44 @@
     padding: 1px 5px; border-radius: 3px;
     border: 1px solid var(--mist-strong);
     margin-right: 4px;
+  }
+
+  /* Theme toggle (day/night sun/moon button) */
+  .ws-theme-toggle {
+    width: 28px; height: 28px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: transparent;
+    border: 1px solid var(--mist);
+    border-radius: 9999px;
+    color: var(--slate);
+    cursor: pointer;
+    transition: all 0.18s var(--ease-gentle);
+  }
+  .ws-theme-toggle:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    transform: rotate(15deg);
+  }
+  .ws-theme-toggle .ws-theme-icon {
+    font-size: 14px; line-height: 1;
+    display: inline-block;
+    transition: transform 0.4s var(--ease-spring);
+  }
+  [data-theme="dark"] .ws-theme-toggle .ws-theme-icon {
+    transform: rotate(-180deg);
+  }
+
+  /* Sunset crossfade transition — fires when [data-theme] changes.
+   * Applied to the html element by the JS for ~850ms so colors
+   * smoothly interpolate instead of snapping. */
+  .ws-theme-transitioning,
+  .ws-theme-transitioning * {
+    transition: background-color 0.7s var(--ease-editorial),
+                color 0.7s var(--ease-editorial),
+                border-color 0.7s var(--ease-editorial),
+                fill 0.7s var(--ease-editorial),
+                stroke 0.7s var(--ease-editorial),
+                box-shadow 0.7s var(--ease-editorial) !important;
   }
 
   /* Subtle palette-trigger button in the topnav */

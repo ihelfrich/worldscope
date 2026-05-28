@@ -82,6 +82,9 @@ def topnav(base: str = "") -> str:
     <button type="button" data-palette-trigger class="ws-palette-trigger" aria-label="Open command palette">
       <span class="text-slate-dim">Jump to anywhere</span><kbd>⌘K</kbd>
     </button>
+    <button type="button" data-theme-toggle class="ws-theme-toggle" aria-label="Toggle day/night theme" aria-pressed="false" title="Sunset toggle">
+      <span class="ws-theme-icon" aria-hidden="true">☀</span>
+    </button>
   </div>
 </nav>"""
 
