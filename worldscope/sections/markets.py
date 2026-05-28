@@ -55,12 +55,13 @@ WATCHLIST = [
 
 
 def _fetch_quote(session, key, symbol):
+    """Returns (quote_dict, error_str). On success error_str is None."""
     try:
         r = session.get(QUOTE, params={"symbol": symbol, "token": key}, timeout=12)
         r.raise_for_status()
-        return r.json()
-    except Exception:
-        return None
+        return r.json(), None
+    except Exception as exc:
+        return None, f"{type(exc).__name__}: {exc}"
 
 
 class MarketsSection(Section):
@@ -80,9 +81,12 @@ class MarketsSection(Section):
         s = requests.Session()
         s.headers["User-Agent"] = UA
         items: list[dict] = []
+        failures: list[str] = []
+        zero_quotes = 0  # symbols Finnhub returned but with c=0 (market closed / no data)
         for symbol, label, group in WATCHLIST:
-            q = _fetch_quote(s, key, symbol)
+            q, err = _fetch_quote(s, key, symbol)
             if not q:
+                failures.append(f"{symbol}:{err}")
                 time.sleep(self.THROTTLE_S)
                 continue
             c = q.get("c")  # current
@@ -92,6 +96,7 @@ class MarketsSection(Section):
             l = q.get("l")  # low
             t = q.get("t")  # timestamp
             if c is None or c == 0:
+                zero_quotes += 1
                 time.sleep(self.THROTTLE_S)
                 continue
             dt = (datetime.fromtimestamp(t, tz=timezone.utc).date().isoformat()
@@ -114,4 +119,20 @@ class MarketsSection(Section):
                 "group": group,
             })
             time.sleep(self.THROTTLE_S)
+
+        # Loud-failure invariant: if NOTHING came back, the upstream is
+        # broken (rate limit, API key revoked, Finnhub outage) and we
+        # should not silently report "success with 0 records" — that's
+        # what produced 18 days of empty markets sections in the lake.
+        if not items:
+            err = (f"Finnhub returned no usable quotes "
+                   f"({len(failures)} hard failures, {zero_quotes} zero-quotes "
+                   f"across {len(WATCHLIST)} symbols)")
+            if failures:
+                err += f"; first: {failures[0]}"
+            raise RuntimeError(f"[{self.id}] {err}")
+        if failures:
+            print(f"[{self.id}] {len(failures)}/{len(WATCHLIST)} symbol fetches failed: "
+                  + "; ".join(failures[:6])
+                  + (f" (+{len(failures)-6} more)" if len(failures) > 6 else ""))
         return items

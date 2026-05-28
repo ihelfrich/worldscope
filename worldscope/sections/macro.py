@@ -59,7 +59,8 @@ WATCHLIST: list[tuple[str, str, str]] = [
 ]
 
 
-def _fetch_latest(session: requests.Session, key: str, series_id: str) -> Optional[dict]:
+def _fetch_latest(session: requests.Session, key: str, series_id: str):
+    """Returns (observation_dict, error_str). On success error_str is None."""
     params = {
         "series_id": series_id, "api_key": key, "file_type": "json",
         "sort_order": "desc", "limit": 1,
@@ -69,10 +70,10 @@ def _fetch_latest(session: requests.Session, key: str, series_id: str) -> Option
         r.raise_for_status()
         obs = (r.json().get("observations") or [])
         if not obs:
-            return None
-        return obs[0]
-    except Exception:
-        return None
+            return None, "no observations returned"
+        return obs[0], None
+    except Exception as exc:
+        return None, f"{type(exc).__name__}: {exc}"
 
 
 class MacroSection(Section):
@@ -89,9 +90,11 @@ class MacroSection(Section):
         session = requests.Session()
         session.headers["User-Agent"] = UA
         items: list[dict] = []
+        failures: list[str] = []
         for sid, label, group in WATCHLIST:
-            obs = _fetch_latest(session, key, sid)
+            obs, err = _fetch_latest(session, key, sid)
             if not obs:
+                failures.append(f"{sid}:{err}")
                 continue
             value = obs.get("value")
             date = obs.get("date", "")
@@ -106,4 +109,17 @@ class MacroSection(Section):
                 "value": value,
                 "group": group,
             })
+
+        # Loud-failure invariant: if EVERY FRED series fetch failed,
+        # the upstream is broken (rate limit, API key revoked, network)
+        # and we should not silently report "success with 0 records".
+        if not items and failures:
+            raise RuntimeError(
+                f"[{self.id}] All {len(failures)} FRED series fetches failed; "
+                f"first: {failures[0]}"
+            )
+        if failures:
+            print(f"[{self.id}] {len(failures)}/{len(WATCHLIST)} series fetches failed: "
+                  + "; ".join(failures[:6])
+                  + (f" (+{len(failures)-6} more)" if len(failures) > 6 else ""))
         return items

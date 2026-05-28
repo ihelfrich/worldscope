@@ -67,6 +67,8 @@ class MediaCloudSection(Section):
         start = end - _dt.timedelta(days=self.DAYS_BACK)
         out: list[dict] = []
         seen_urls: set[str] = set()
+        failures: list[str] = []
+        attempted = 0
         for area in areas[: self.MAX_AREAS]:
             if not area.keywords:
                 continue
@@ -75,6 +77,7 @@ class MediaCloudSection(Section):
             if not kws:
                 continue
             query = " OR ".join(f'"{k}"' for k in kws)
+            attempted += 1
             try:
                 token: Any = None
                 pulled = 0
@@ -112,7 +115,21 @@ class MediaCloudSection(Section):
                             break
                     if not token:
                         break
-            except Exception:
+            except Exception as exc:
+                failures.append(f"{area.name}:{type(exc).__name__}: {exc}")
                 continue
+
+        # Loud-failure invariant: if we tried areas and none yielded,
+        # that's an upstream problem worth surfacing — silent zero-record
+        # "success" hid MediaCloud being broken for weeks.
+        if attempted and not out and failures:
+            raise RuntimeError(
+                f"[{self.id}] All {len(failures)} MediaCloud area queries failed; "
+                f"first: {failures[0]}"
+            )
+        if failures:
+            print(f"[{self.id}] {len(failures)}/{attempted} area queries failed: "
+                  + "; ".join(failures[:4])
+                  + (f" (+{len(failures)-4} more)" if len(failures) > 4 else ""))
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
         return out

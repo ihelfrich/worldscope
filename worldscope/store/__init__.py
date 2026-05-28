@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+import threading
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
@@ -41,17 +42,24 @@ class SnapshotStore:
     def __init__(self, path: Path | str | None = None) -> None:
         self.path = Path(path) if path else DEFAULT_PATH
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self._conn = sqlite3.connect(self.path)
-        self._conn.execute("""
-            CREATE TABLE IF NOT EXISTS snapshots (
-                section_id TEXT NOT NULL,
-                snapshot_date TEXT NOT NULL,
-                pulled_at TEXT NOT NULL,
-                payload TEXT NOT NULL,
-                PRIMARY KEY (section_id, snapshot_date)
-            )
-        """)
-        self._conn.commit()
+        # check_same_thread=False so a section's pull() — which the
+        # orchestrator runs in a _run_with_timeout worker thread — can
+        # still read prior snapshots through self.store. SQLite is
+        # single-writer; we serialize ALL access through self._lock so
+        # concurrent put()s from parallel sections can't interleave.
+        self._conn = sqlite3.connect(self.path, check_same_thread=False)
+        self._lock = threading.RLock()
+        with self._lock:
+            self._conn.execute("""
+                CREATE TABLE IF NOT EXISTS snapshots (
+                    section_id TEXT NOT NULL,
+                    snapshot_date TEXT NOT NULL,
+                    pulled_at TEXT NOT NULL,
+                    payload TEXT NOT NULL,
+                    PRIMARY KEY (section_id, snapshot_date)
+                )
+            """)
+            self._conn.commit()
 
     # ---- write ---------------------------------------------------------
 
@@ -76,66 +84,69 @@ class SnapshotStore:
         """
         d = (when or date.today()).isoformat()
         # Single critical section: lock the DB, check prior state, decide.
-        try:
-            self._conn.execute("BEGIN IMMEDIATE")
-        except sqlite3.OperationalError:
-            # Already in a transaction (nested call). Proceed without
-            # opening a new one — caller owns the lock.
-            pass
-        try:
-            if not items:
-                existing = self._conn.execute(
-                    "SELECT payload FROM snapshots "
-                    "WHERE section_id = ? AND snapshot_date = ?",
-                    (section_id, d),
-                ).fetchone()
-                if existing:
-                    try:
-                        prior = json.loads(existing[0])
-                        if (prior.get("items") or []):
-                            self._conn.execute("COMMIT")
-                            return False
-                    except Exception:
-                        pass
-            payload = {
-                "schema_version": SCHEMA_VERSION,
-                "pulled_at": datetime.now(timezone.utc).isoformat(),
-                "status": status,
-                "error": error,
-                "items": items,
-            }
-            self._conn.execute(
-                "INSERT OR REPLACE INTO snapshots VALUES (?, ?, ?, ?)",
-                (section_id, d, payload["pulled_at"], json.dumps(payload)),
-            )
-            self._conn.execute("COMMIT")
-            return True
-        except Exception:
-            # On any failure inside the critical section, release the lock
-            # so we don't leave the DB wedged for subsequent writers.
-            try: self._conn.execute("ROLLBACK")
-            except sqlite3.OperationalError: pass
-            raise
+        with self._lock:
+            try:
+                self._conn.execute("BEGIN IMMEDIATE")
+            except sqlite3.OperationalError:
+                # Already in a transaction (nested call). Proceed without
+                # opening a new one — caller owns the lock.
+                pass
+            try:
+                if not items:
+                    existing = self._conn.execute(
+                        "SELECT payload FROM snapshots "
+                        "WHERE section_id = ? AND snapshot_date = ?",
+                        (section_id, d),
+                    ).fetchone()
+                    if existing:
+                        try:
+                            prior = json.loads(existing[0])
+                            if (prior.get("items") or []):
+                                self._conn.execute("COMMIT")
+                                return False
+                        except Exception:
+                            pass
+                payload = {
+                    "schema_version": SCHEMA_VERSION,
+                    "pulled_at": datetime.now(timezone.utc).isoformat(),
+                    "status": status,
+                    "error": error,
+                    "items": items,
+                }
+                self._conn.execute(
+                    "INSERT OR REPLACE INTO snapshots VALUES (?, ?, ?, ?)",
+                    (section_id, d, payload["pulled_at"], json.dumps(payload)),
+                )
+                self._conn.execute("COMMIT")
+                return True
+            except Exception:
+                # On any failure inside the critical section, release the lock
+                # so we don't leave the DB wedged for subsequent writers.
+                try: self._conn.execute("ROLLBACK")
+                except sqlite3.OperationalError: pass
+                raise
 
     # ---- read ----------------------------------------------------------
 
     def get(self, section_id: str, *, when: Optional[date] = None) -> Optional[dict]:
         d = (when or date.today()).isoformat()
-        row = self._conn.execute(
-            "SELECT payload FROM snapshots WHERE section_id = ? AND snapshot_date = ?",
-            (section_id, d),
-        ).fetchone()
+        with self._lock:
+            row = self._conn.execute(
+                "SELECT payload FROM snapshots WHERE section_id = ? AND snapshot_date = ?",
+                (section_id, d),
+            ).fetchone()
         return _validate(json.loads(row[0])) if row else None
 
     def previous(self, section_id: str, *, before: Optional[date] = None) -> Optional[dict]:
         """Most recent snapshot strictly before `before` (default: today)."""
         cutoff = (before or date.today()).isoformat()
-        row = self._conn.execute(
-            "SELECT snapshot_date, payload FROM snapshots "
-            "WHERE section_id = ? AND snapshot_date < ? "
-            "ORDER BY snapshot_date DESC LIMIT 1",
-            (section_id, cutoff),
-        ).fetchone()
+        with self._lock:
+            row = self._conn.execute(
+                "SELECT snapshot_date, payload FROM snapshots "
+                "WHERE section_id = ? AND snapshot_date < ? "
+                "ORDER BY snapshot_date DESC LIMIT 1",
+                (section_id, cutoff),
+            ).fetchone()
         if not row:
             return None
         snapshot_date, payload_json = row
@@ -147,11 +158,12 @@ class SnapshotStore:
     def most_recent(self, section_id: str) -> Optional[dict]:
         """Most recent snapshot, regardless of date (used for carry-forward
         when WORLDSCOPE_SKIP is set or when today's pull failed)."""
-        row = self._conn.execute(
-            "SELECT snapshot_date, payload FROM snapshots "
-            "WHERE section_id = ? ORDER BY snapshot_date DESC LIMIT 1",
-            (section_id,),
-        ).fetchone()
+        with self._lock:
+            row = self._conn.execute(
+                "SELECT snapshot_date, payload FROM snapshots "
+                "WHERE section_id = ? ORDER BY snapshot_date DESC LIMIT 1",
+                (section_id,),
+            ).fetchone()
         if not row:
             return None
         snapshot_date, payload_json = row
