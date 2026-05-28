@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · conflict · 2026-05-28</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/conflict/">conflict</a> <span style="color:#aaa">/</span> 2026-05-28</div>
+  <h1>conflict · 2026-05-28</h1><p class="meta">Conflict events and security incidents · 40 records across 1 source</p><h2 id="src-conflict">conflict <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 40 records</span></h2><div class="record"><h3><a href="https://www.easternriverinachronicle.com.au/story/9255382/eleven-feared-dead-after-us-chemical-tank-rupture/" target="_blank" rel="noopener">[Australia] Eleven feared dead after US chemical tank rupture — domain: easternriverinachronicle.com.au · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://bernews.com/2026/05/obas-de-couto-on-tax-insurance-more/" target="_blank" rel="noopener">[Bermuda] De Couto On Tax , Insurance Companies , More — domain: bernews.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.winnipegfreepress.com/arts-and-life/life/faith/2026/05/27/after-protests-outside-synagogues-new-york-makes-it-a-crime-to-block-entry-to-a-house-of-worship" target="_blank" rel="noopener">[Canada] After protests outside synagogues , New York makes it a crime to block entry to a house of worship – Winnipeg Free Press — domain: winnipegfreepress.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.winnipegfreepress.com/breakingnews/2026/05/27/city-needs-more-fire-paramedic-stations-as-population-grows-outgoing-wfps-boss" target="_blank" rel="noopener">[Canada] City needs more fire - paramedic stations as population grows : outgoing WFPS boss – Winnipeg Free Press — domain: winnipegfreepress.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://mapleridgenews.com/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/" target="_blank" rel="noopener">[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident — domain: mapleridgenews.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://business.scoop.co.nz/2026/05/28/etrnl-the-australian-mens-jewellery-brand-built-for-everyday-wear/" target="_blank" rel="noopener">[New Zealand] Business . Scoop » Etrnl : The Australian Men Jewellery Brand Built For Everyday Wear — domain: business.scoop.co.nz · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.barryanddistrictnews.co.uk/news/26141978.jesus-sacrifice-similar-rnli-volunteers/" target="_blank" rel="noopener">[United Kingdom] Jesu sacrifice is similar to that of RNLI volunteers | Barry And District News — domain: barryanddistrictnews.co.uk · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.theguardian.com/artanddesign/2026/may/28/leonora-carrington-work-painted-during-psychiatric-confinement-to-go-on-show-for-first-time" target="_blank" rel="noopener">[United Kingdom] Leonora Carrington work painted during psychiatric confinement to go on show for first time — domain: theguardian.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.dudleynews.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/" target="_blank" rel="noopener">[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout — domain: dudleynews.co.uk · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.thisiswiltshire.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/" target="_blank" rel="noopener">[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout — domain: thisiswiltshire.co.uk · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.yorkpress.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/" target="_blank" rel="noopener">[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout — domain: yorkpress.co.uk · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.theguardian.com/us-news/2026/may/27/dhs-international-flights-sanctuary-cities" target="_blank" rel="noopener">[United Kingdom] Trump administration drawing up plan to stop processing international flights in sanctuary cities | ICE ( US Immigration and Customs Enforcement ) — domain: theguardian.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Trump administration drawing up plan to stop processing international flights in sanctuary cities | ICE ( US Immigration and Customs Enforcement ) — domain: theguardian.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.wirralglobe.co.uk/news/national/26144525.type-2-diabetes-rates-rising-twice-fast-younger-women/" target="_blank" rel="noopener">[United Kingdom] Type 2 diabetes rates rising twice as fast in younger women — domain: wirralglobe.co.uk · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Type 2 diabetes rates rising twice as fast in younger women — domain: wirralglobe.co.uk · language: English · tone:</p></div><div class="record"><h3><a href="https://arktimes.com/arkansas-blog/2026/05/27/a-direct-democracy-defender-makes-his-case" target="_blank" rel="noopener">[United States] A direct democracy defender makes his case — domain: arktimes.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wlky.com/article/blood-test-recommended-colorectal-cancer-screening/71419484" target="_blank" rel="noopener">[United States] ACS adds blood test to colon , rectal cancer screening recommendations — domain: wlky.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wyomingpublicmedia.org/natural-resources-energy/2026-05-27/big-floods-could-come-for-grand-canyons-north-rim-but-theres-a-plan-to-keep-people-safe" target="_blank" rel="noopener">[United States] Big floods could come for Grand Canyon North Rim . But there a plan to keep people safe — domain: wyomingpublicmedia.org · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.kbtx.com/2026/05/27/blood-found-near-last-place-nicole-nikki-winder-was-seen-confirmed-match-brazos-county-sheriff-says/" target="_blank" rel="noopener">[United States] Blood found near the last place Nicole Nikki Winder was seen confirmed as a match , Brazos County sheriff says — domain: kbtx.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Blood found near the last place Nicole Nikki Winder was seen confirmed as a match , Brazos County sheriff says — domain: kbtx.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.peninsuladailynews.com/2026/05/27/cold-case-suspect-known-to-police/" target="_blank" rel="noopener">[United States] Cold case suspect known to police | Peninsula Daily News — domain: peninsuladailynews.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wifr.com/2026/05/27/former-republican-strategist-collin-corbett-files-run-illinois-governor-independent/" target="_blank" rel="noopener">[United States] Former Republican strategist Collin Corbett files to run for Illinois governor as independent — domain: wifr.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://finance.yahoo.com/markets/stocks/articles/caterpillar-buy-sell-hold-amid-155000987.html" target="_blank" rel="noopener">[United States] Is Caterpillar a Buy , Sell , or Hold Amid the Iran War ? — domain: finance.yahoo.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Is Caterpillar a Buy , Sell , or Hold Amid the Iran War ? — domain: finance.yahoo.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.wvtm13.com/article/texas-senate-race-paxton-talarico/71424206" target="_blank" rel="noopener">[United States] Is Texas in play ? How Paxton win could shape the fight for Senate control — domain: wvtm13.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wlky.com/article/shively-bus-stop-crash-suspect-arraignment-kevin/71421221" target="_blank" rel="noopener">[United States] Judge sets bond at $1M for suspect in deadly Shively bus stop crash — domain: wlky.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://kyma.com/news/california-news/2026/05/27/matthew-perrys-former-personal-assistant-sentenced/" target="_blank" rel="noopener">[United States] Matthew Perry former personal assistant sentenced — domain: kyma.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.fox43.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382" target="_blank" rel="noopener">[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline — domain: fox43.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.king5.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382" target="_blank" rel="noopener">[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline — domain: king5.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wqad.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382" target="_blank" rel="noopener">[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline — domain: wqad.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://news.usni.org/2026/05/27/north-korea-tests-new-lightweight-launch-system-and-tactical-cruise-missiles" target="_blank" rel="noopener">[United States] North Korea Tests New Lightweight Launch System and Tactical Cruise Missiles — domain: news.usni.org · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.nydailynews.com/2026/05/27/ny-judge-hears-appalling-ice-detention-conditions-26-federal-plaza/" target="_blank" rel="noopener">[United States] NY judge hears of appalling ICE detention conditions at 26 Federal Plaza — domain: nydailynews.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] NY judge hears of appalling ICE detention conditions at 26 Federal Plaza — domain: nydailynews.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.catholicculture.org/news/headlines/index.cfm?storyid=69567" target="_blank" rel="noopener">[United States] Pope Leo issues new appeal for peace in Ukraine | News Headlines — domain: catholicculture.org · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://dailycaller.com/2026/05/27/trump-admin-ebola-quarantine-kenya-americans/" target="_blank" rel="noopener">[United States] REPORT : Trump Admin Plans To Send Americans With Ebola To Kenya For Quarantine , Treatment — domain: dailycaller.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.mmafighting.com/ufc/490872/ryan-garcia-shuts-door-on-40k-arman-tsarukyan-bet-feud-theres-no-way-i-will-ever-pay-him" target="_blank" rel="noopener">[United States] Ryan Garcia shuts door on $40K Arman Tsarukyan bet feud : There no way I will ever pay him — domain: mmafighting.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Ryan Garcia shuts door on $40K Arman Tsarukyan bet feud : There no way I will ever pay him — domain: mmafighting.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.king5.com/article/news/local/officials-confirm-second-death-recovery-operations-underway-9-missing-longview-paper-mill-implosion/281-47eddf44-f8d4-45f9-8e47-307f85f35a3a" target="_blank" rel="noopener">[United States] Second person dies after chemical tank implosion at Longview paper mill , contamination of Columbia River confirmed — domain: king5.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://fox56.com/news/nation-world/stepmother-convicted-of-killing-5-year-old-girl-in-scalding-hot-bath-nearly-50-years-ago-murder-homicide-investigation-death-manslaughter-assault-physical-abuse-sepsis-burns" target="_blank" rel="noopener">[United States] Stepmother convicted of killing 5 - year - old girl in scalding hot bath nearly 50 years ago — domain: fox56.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://600wmtradio.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/" target="_blank" rel="noopener">[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial — domain: 600wmtradio.iheart.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://whoradio.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/" target="_blank" rel="noopener">[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial — domain: whoradio.iheart.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wlky.com/article/texas-senate-race-paxton-cornyn/71423839" target="_blank" rel="noopener">[United States] Texas Senate race shifts after Paxton defeats Cornyn — domain: wlky.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wvtm13.com/article/texas-senate-race-paxton-cornyn/71423839" target="_blank" rel="noopener">[United States] Texas Senate race shifts after Paxton defeats Cornyn — domain: wvtm13.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.tvline.com/2182457/ncis-character-deserves-spin-off/" target="_blank" rel="noopener">[United States] The NCIS Character That Deserves A Spin - Off — domain: tvline.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.bangordailynews.com/2026/05/27/politics/troy-jackson-bobby-charles-new-maine-gubernatorial-poll/" target="_blank" rel="noopener">[United States] Troy Jackson surge and a Republican steady lead mark new Maine gubernatorial poll — domain: bangordailynews.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Troy Jackson surge and a Republican steady lead mark new Maine gubernatorial poll — domain: bangordailynews.com · language: English · tone:</p></div><div class="record"><h3><a href="https://whtc.com/2026/05/27/trump-says-he-can-outwait-iran-dismisses-midterm-election-pressure/" target="_blank" rel="noopener">[United States] Trump says he can outwait Iran , dismisses midterm election pressure — domain: whtc.com · language: English · tone:</a></h3><span class="src">conflict</span></div>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>

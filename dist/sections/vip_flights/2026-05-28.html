@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · vip_flights · 2026-05-28</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/vip_flights/">vip_flights</a> <span style="color:#aaa">/</span> 2026-05-28</div>
+  <h1>vip_flights · 2026-05-28</h1><p class="meta">Government aircraft tracking (ADS-B) · 19 records across 1 source</p><h2 id="src-vip-flights">vip_flights <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 19 records</span></h2><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=7b103c" target="_blank" rel="noopener">AF21 (China) — on ground · 40km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=c2b3f5" target="_blank" rel="noopener">CFC4042 (Canada) — icao24: c2b3f5 · position: (44.0036, -82.4801) · alt: 11277m · 923km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=a8695d" target="_blank" rel="noopener">EAGLE1 (United States) — icao24: a8695d · position: (34.0897, -117.4821) · alt: 624m · 176km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=3f7588" target="_blank" rel="noopener">GAF197 (Germany) — icao24: 3f7588 · position: (52.6024, 10.0993) · alt: 220m · 260km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=485a86" target="_blank" rel="noopener">JAF45T (Kingdom of the Netherlands) — icao24: 485a86 · position: (41.9972, -2.6692) · alt: 12192m · 818km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=449683" target="_blank" rel="noopener">JAF7GY (Belgium) — icao24: 449683 · position: (38.6548, -3.266) · alt: 12192m · 781km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ab4ec6" target="_blank" rel="noopener">NCR327 (United States) — icao24: ab4ec6 · position: (32.1411, -81.4334) · alt: 1165m · 388km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ac01ae" target="_blank" rel="noopener">NCR347 (United States) — icao24: ac01ae · position: (33.9856, -96.1761) · alt: 12496m · 884km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=aabbef" target="_blank" rel="noopener">NCR711 (United States) — icao24: aabbef · position: (41.1345, -111.6747) · alt: 12496m · 797km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ad3c48" target="_blank" rel="noopener">NCR820 (United States) — icao24: ad3c48 · position: (31.2881, -92.3745) · alt: 11582m · 866km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=a95c2f" target="_blank" rel="noopener">NCR937 (United States) — icao24: a95c2f · position: (42.2318, -81.5058) · alt: 11887m · 989km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae036d" target="_blank" rel="noopener">PAT007 (United States) — icao24: ae036d · position: (36.3626, -85.6683) · alt: 12496m · 846km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae5775" target="_blank" rel="noopener">PAT063 (United States) — icao24: ae5775 · position: (35.9113, -82.1787) · alt: 7924m · 406km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=adfedd" target="_blank" rel="noopener">PAT087 (United States) — icao24: adfedd · position: (21.1869, -157.4118) · alt: 6393m · 453km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=adfe55" target="_blank" rel="noopener">PAT326 (United States) — on ground</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae4791" target="_blank" rel="noopener">PATRIT31 (United States) — icao24: ae4791 · position: (42.1526, -72.6747) · alt: 746m · 224km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae49c4" target="_blank" rel="noopener">RCH305 (United States) — icao24: ae49c4 · position: (29.8685, -97.885) · alt: 3657m · 688km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae2fa8" target="_blank" rel="noopener">RCH437 (United States) — icao24: ae2fa8 · position: (62.4493, -19.7417) · alt: 11277m · 896km/h</a></h3><span class="src">vip_flights</span></div><div class="record"><h3><a href="https://opensky-network.org/aircraft-profile?icao24=ae07d7" target="_blank" rel="noopener">RCH808 (United States) — icao24: ae07d7 · position: (39.1937, -74.3124) · alt: 5242m · 839km/h</a></h3><span class="src">vip_flights</span></div>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>

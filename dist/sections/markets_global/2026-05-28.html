@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · markets_global · 2026-05-28</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/markets_global/">markets_global</a> <span style="color:#aaa">/</span> 2026-05-28</div>
+  <h1>markets_global · 2026-05-28</h1><p class="meta">Global indices, sovereign bond yields, and commodities · 79 records across 1 source</p><h2 id="src-markets-aggregate">markets-aggregate <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 79 records</span></h2><div class="record"><h3><a href="https://stooq.com/q/?s=10yauy.b" target="_blank" rel="noopener">[bond] Australia 10y: 4.915 — open=4.916 high=4.918 low=4.914 close=4.915 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Australia 10y: 4.915 — open=4.916 high=4.918 low=4.914 close=4.915 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10ybry.b" target="_blank" rel="noopener">[bond] Brazil 10y: 14.095 — open=14.07 high=14.095 low=14.065 close=14.095 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Brazil 10y: 14.095 — open=14.07 high=14.095 low=14.065 close=14.095 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10ycay.b" target="_blank" rel="noopener">[bond] Canada 10y: 3.469 — open=3.435 high=3.472 low=3.414 close=3.469 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Canada 10y: 3.469 — open=3.435 high=3.472 low=3.414 close=3.469 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10ycny.b" target="_blank" rel="noopener">[bond] China 10y: 1.735 — open=1.741 high=1.743 low=1.734 close=1.735 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] China 10y: 1.735 — open=1.741 high=1.743 low=1.734 close=1.735 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yfry.b" target="_blank" rel="noopener">[bond] France 10y: 3.605 — open=3.642 high=3.677 low=3.605 close=3.605 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] France 10y: 3.605 — open=3.642 high=3.677 low=3.605 close=3.605 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10ydey.b" target="_blank" rel="noopener">[bond] Germany 10y: 2.9871 — open=2.9617 high=2.9903 low=2.9514 close=2.9871 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Germany 10y: 2.9871 — open=2.9617 high=2.9903 low=2.9514 close=2.9871 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yiny.b" target="_blank" rel="noopener">[bond] India 10y: 6.995 — open=6.99 high=7.004 low=6.973 close=6.995 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] India 10y: 6.995 — open=6.99 high=7.004 low=6.973 close=6.995 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yity.b" target="_blank" rel="noopener">[bond] Italy 10y: 3.714 — open=3.693 high=3.724 low=3.662 close=3.714 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Italy 10y: 3.714 — open=3.693 high=3.724 low=3.662 close=3.714 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yjpy.b" target="_blank" rel="noopener">[bond] Japan 10y: 2.726 — open=2.724 high=2.726 low=2.724 close=2.726 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Japan 10y: 2.726 — open=2.724 high=2.726 low=2.724 close=2.726 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10ymxy.b" target="_blank" rel="noopener">[bond] Mexico 10y: 9.249 — open=9.29 high=9.29 low=9.249 close=9.249 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] Mexico 10y: 9.249 — open=9.29 high=9.29 low=9.249 close=9.249 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yuky.b" target="_blank" rel="noopener">[bond] UK 10y: 4.863 — open=4.862 high=4.868 low=4.81 close=4.863 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] UK 10y: 4.863 — open=4.862 high=4.868 low=4.81 close=4.863 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=10yusy.b" target="_blank" rel="noopener">[bond] US 10y: 4.484 — open=4.479 high=4.49 low=4.446 close=4.484 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[bond] US 10y: 4.484 — open=4.479 high=4.49 low=4.446 close=4.484 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=kc.f" target="_blank" rel="noopener">[commodity] Coffee: 271.7 — open=273.85 high=276.8 low=268.8 close=271.7 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Coffee: 271.7 — open=273.85 high=276.8 low=268.8 close=271.7 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=hg.f" target="_blank" rel="noopener">[commodity] Copper: 634.18 — open=633.47 high=634.53 low=632.55 close=634.18 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Copper: 634.18 — open=633.47 high=634.53 low=632.55 close=634.18 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=ct.f" target="_blank" rel="noopener">[commodity] Cotton: 76.16 — open=77.62 high=77.65 low=75.74 close=76.16 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Cotton: 76.16 — open=77.62 high=77.65 low=75.74 close=76.16 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=gc.f" target="_blank" rel="noopener">[commodity] Gold: 4479.72 — open=4491.97 high=4492.84 low=4474.9 close=4479.72 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Gold: 4479.72 — open=4491.97 high=4492.84 low=4474.9 close=4479.72 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=lb.f" target="_blank" rel="noopener">[commodity] Lumber: 587.0 — open=585.5 high=587 low=584 close=587 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Lumber: 587.0 — open=585.5 high=587 low=584 close=587 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=ng.f" target="_blank" rel="noopener">[commodity] Natural Gas: 3.083 — open=3.085 high=3.085 low=3.075 close=3.083 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Natural Gas: 3.083 — open=3.085 high=3.085 low=3.075 close=3.083 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=si.f" target="_blank" rel="noopener">[commodity] Silver: 7492.3 — open=7498.3 high=7507.5 low=7461 close=7492.3 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Silver: 7492.3 — open=7498.3 high=7507.5 low=7461 close=7492.3 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=sb.f" target="_blank" rel="noopener">[commodity] Sugar: 14.13 — open=14.47 high=14.47 low=14.13 close=14.13 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] Sugar: 14.13 — open=14.47 high=14.47 low=14.13 close=14.13 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=cl.f" target="_blank" rel="noopener">[commodity] WTI Crude: 90.42 — open=89.45 high=90.5 low=89.43 close=90.42 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[commodity] WTI Crude: 90.42 — open=89.45 high=90.5 low=89.43 close=90.42 vol=</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/cardano" target="_blank" rel="noopener">[crypto] ADA: $0.2379 (24h: -1.14%) — price=$0.237883 mcap=$8,796,198,779 vol24=$374,821,670 chg24=-1.1358085928352486%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] ADA: $0.2379 (24h: -1.14%) — price=$0.237883 mcap=$8,796,198,779 vol24=$374,821,670 chg24=-1.1358085928352486%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/binancecoin" target="_blank" rel="noopener">[crypto] BNB: $647.2800 (24h: -1.39%) — price=$647.28 mcap=$87,211,543,750 vol24=$777,798,446 chg24=-1.39207169444196%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] BNB: $647.2800 (24h: -1.39%) — price=$647.28 mcap=$87,211,543,750 vol24=$777,798,446 chg24=-1.39207169444196%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank" rel="noopener">[crypto] BTC: $74,441.0000 (24h: -1.87%) — price=$74441 mcap=$1,491,162,210,573 vol24=$37,193,771,371 chg24=-1.8700347504124155%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] BTC: $74,441.0000 (24h: -1.87%) — price=$74441 mcap=$1,491,162,210,573 vol24=$37,193,771,371 chg24=-1.8700347504124155%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/dogecoin" target="_blank" rel="noopener">[crypto] DOGE: $0.1007 (24h: -0.49%) — price=$0.100651 mcap=$15,531,644,565 vol24=$742,507,330 chg24=-0.49051759449130744%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] DOGE: $0.1007 (24h: -0.49%) — price=$0.100651 mcap=$15,531,644,565 vol24=$742,507,330 chg24=-0.49051759449130744%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/ethereum" target="_blank" rel="noopener">[crypto] ETH: $2,023.6300 (24h: -2.49%) — price=$2023.63 mcap=$244,278,083,701 vol24=$13,678,452,531 chg24=-2.4864750798997566%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] ETH: $2,023.6300 (24h: -2.49%) — price=$2023.63 mcap=$244,278,083,701 vol24=$13,678,452,531 chg24=-2.4864750798997566%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/solana" target="_blank" rel="noopener">[crypto] SOL: $82.4900 (24h: -1.54%) — price=$82.49 mcap=$47,716,311,054 vol24=$2,551,308,760 chg24=-1.5360302139535742%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] SOL: $82.4900 (24h: -1.54%) — price=$82.49 mcap=$47,716,311,054 vol24=$2,551,308,760 chg24=-1.5360302139535742%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/usd-coin" target="_blank" rel="noopener">[crypto] USDC: $0.9998 (24h: +0.00%) — price=$0.99977 mcap=$76,322,065,012 vol24=$15,235,930,010 chg24=0.0010644600961238735%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] USDC: $0.9998 (24h: +0.00%) — price=$0.99977 mcap=$76,322,065,012 vol24=$15,235,930,010 chg24=0.0010644600961238735%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/tether" target="_blank" rel="noopener">[crypto] USDT: $0.9985 (24h: -0.00%) — price=$0.998492 mcap=$189,285,500,833 vol24=$61,181,818,037 chg24=-0.00022746904641164558%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] USDT: $0.9985 (24h: -0.00%) — price=$0.998492 mcap=$189,285,500,833 vol24=$61,181,818,037 chg24=-0.00022746904641164558%</p></div><div class="record"><h3><a href="https://www.coingecko.com/en/coins/ripple" target="_blank" rel="noopener">[crypto] XRP: $1.3100 (24h: -1.58%) — price=$1.31 mcap=$80,981,337,507 vol24=$1,695,814,172 chg24=-1.5759407031238868%</a></h3><span class="src">markets-aggregate</span><p class="body">[crypto] XRP: $1.3100 (24h: -1.58%) — price=$1.31 mcap=$80,981,337,507 vol24=$1,695,814,172 chg24=-1.5759407031238868%</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^xu100" target="_blank" rel="noopener">[equity_index] BIST 100: 13662.75 — open=13902.62 high=13920.85 low=13662.75 close=13662.75 vol=8453005113</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] BIST 100: 13662.75 — open=13902.62 high=13920.85 low=13662.75 close=13662.75 vol=8453005113</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^dax" target="_blank" rel="noopener">[equity_index] DAX: 25177.8 — open=25324.81 high=25394.81 low=25113.15 close=25177.8 vol=44447358</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] DAX: 25177.8 — open=25324.81 high=25394.81 low=25113.15 close=25177.8 vol=44447358</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^dji" target="_blank" rel="noopener">[equity_index] Dow 30: 50644.3 — open=50487.2 high=50830.4 low=50487.2 close=50644.3 vol=262554969</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] Dow 30: 50644.3 — open=50487.2 high=50830.4 low=50487.2 close=50644.3 vol=262554969</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^ukx" target="_blank" rel="noopener">[equity_index] FTSE 100: 10505.0 — open=10491.2 high=10522.3 low=10462.1 close=10505 vol=591745602</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] FTSE 100: 10505.0 — open=10491.2 high=10522.3 low=10462.1 close=10505 vol=591745602</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^hsi" target="_blank" rel="noopener">[equity_index] Hang Seng: 25328.23 — open=25599.45 high=25630.44 low=25258.8 close=25328.23 vol=4082808741</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] Hang Seng: 25328.23 — open=25599.45 high=25630.44 low=25258.8 close=25328.23 vol=4082808741</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^kospi" target="_blank" rel="noopener">[equity_index] KOSPI: 8185.39 — open=8165.73 high=8185.39 low=8140.89 close=8185.39 vol=21611000</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] KOSPI: 8185.39 — open=8165.73 high=8185.39 low=8140.89 close=8185.39 vol=21611000</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^mrv" target="_blank" rel="noopener">[equity_index] MERVAL: 3072011.0 — open=2924355.75 high=3085178 low=2920591.75 close=3072011 vol=32795289</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] MERVAL: 3072011.0 — open=2924355.75 high=3085178 low=2920591.75 close=3072011 vol=32795289</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^ndx" target="_blank" rel="noopener">[equity_index] Nasdaq 100: 29973.57 — open=30081.28 high=30099.79 low=29808.89 close=29973.57 vol=731579710</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] Nasdaq 100: 29973.57 — open=30081.28 high=30099.79 low=29808.89 close=29973.57 vol=731579710</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^nkx" target="_blank" rel="noopener">[equity_index] Nikkei 225: 64567.35 — open=64831.14 high=64948.53 low=64511.73 close=64567.35 vol=</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] Nikkei 225: 64567.35 — open=64831.14 high=64948.53 low=64511.73 close=64567.35 vol=</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^spx" target="_blank" rel="noopener">[equity_index] S&amp;P 500: 7520.4 — open=7526 high=7530.7 low=7499.7 close=7520.4 vol=2072914402</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] S&amp;P 500: 7520.4 — open=7526 high=7530.7 low=7499.7 close=7520.4 vol=2072914402</p></div><div class="record"><h3><a href="https://stooq.com/q/?s=^shc" target="_blank" rel="noopener">[equity_index] Shanghai: 4093.7266 — open=4138.8053 high=4153.5614 low=4077.6160 close=4093.7266 vol=66046739900</a></h3><span class="src">markets-aggregate</span><p class="body">[equity_index] Shanghai: 4093.7266 — open=4138.8053 high=4153.5614 low=4077.6160 close=4093.7266 vol=66046739900</p></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/AED: 3.6725 — 1 USD = 3.6725 AED</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/ARS: 1407.8893 — 1 USD = 1407.8893 ARS</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/AUD: 1.394958 — 1 USD = 1.394958 AUD</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/BRL: 5.027815 — 1 USD = 5.027815 BRL</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/CAD: 1.380782 — 1 USD = 1.380782 CAD</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/CHF: 0.785427 — 1 USD = 0.785427 CHF</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/CLP: 896.746963 — 1 USD = 896.746963 CLP</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/CNY: 6.798706 — 1 USD = 6.798706 CNY</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/COP: 3648.447877 — 1 USD = 3648.447877 COP</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/CZK: 20.862729 — 1 USD = 20.862729 CZK</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/EGP: 52.247003 — 1 USD = 52.247003 EGP</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/EUR: 0.859651 — 1 USD = 0.859651 EUR</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/GBP: 0.743251 — 1 USD = 0.743251 GBP</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/GHS: 11.685753 — 1 USD = 11.685753 GHS</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/HKD: 7.836446 — 1 USD = 7.836446 HKD</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/HUF: 306.000558 — 1 USD = 306.000558 HUF</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/IDR: 17798.07734 — 1 USD = 17798.07734 IDR</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/ILS: 2.847485 — 1 USD = 2.847485 ILS</a></h3><span class="src">markets-aggregate</span></div><div class="record"><h3><a href="https://www.exchangerate-api.com/docs/free" target="_blank" rel="noopener">[fx] USD/INR: 95.770007 — 1 USD = 95.770007 INR</a></h3><span class="src">markets-aggregate</span></div><p class="meta" style="margin-top:6px">+19 more not shown on this page</p>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>
