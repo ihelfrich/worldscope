@@ -670,14 +670,14 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
 <style>{CSS}</style>
 </head><body>
 <div class="shell">
-<nav class="topnav">
+<nav class="topnav" aria-label="Primary">
   <span class="brand">WORLDSCOPE</span>
-  <a href="/worldscope/">Today</a>
-  <a href="/worldscope/sections/">Sections</a>
-  <a href="/worldscope/briefings/">Archive</a>
-  <a href="/worldscope/zips/{html.escape(stem)}.zip">Today's bundle</a>
+  <a href="../index.html">Today</a>
+  <a href="../sections/">Sections</a>
+  <a href="./index.html">Archive</a>
+  <a href="../zips/{html.escape(stem)}.zip">Today's bundle</a>
   <span class="spacer"></span>
-  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">helfrich.github.io →</a>
 </nav>
 {side}
 <main class="content-wrap">
@@ -902,11 +902,37 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
 
 
 def render_root_landing(out_root: Path) -> None:
-    """Top-level dist/index.html: prominently feature the latest brief and link
-    to the archive. The Daily-briefing workflow's render_page() also writes a
-    dist/index.html; that file gets replaced by this one whenever
-    render-briefings runs after it (which is the desired ordering: latest
-    routine-authored brief wins on the front page)."""
+    """Top-level dist/index.html.
+
+    Strategy: the landing page IS the latest brief. We copy the rendered
+    HTML of the newest brief verbatim and rewrite its internal nav so
+    relative links still resolve from /worldscope/ instead of
+    /worldscope/briefings/. This gives visitors the rich brief on first
+    load instead of a sparse hero card."""
+    daily_dir = out_root / "briefings"
+    latest = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []
+    latest = [p for p in latest if p.name != "index.html"]
+    if not latest:
+        return
+    newest = latest[0]
+    rich = newest.read_text(encoding="utf-8")
+    # Rewrite the brief's relative topnav links so they resolve from the
+    # site root instead of /briefings/.
+    rich = rich.replace('href="../index.html"', 'href="./index.html"')
+    rich = rich.replace('href="../sections/"', 'href="./sections/"')
+    rich = rich.replace('href="./index.html">Archive', 'href="./briefings/">Archive')
+    rich = rich.replace('href="../zips/', 'href="./zips/')
+    # Inline-fix any other relative image references the brief used (the
+    # brief MD references images by bare filename like
+    # <img src="2026-05-27-anomaly_screen.png">; we need them resolved
+    # from /briefings/<date>-X.png instead of /<date>-X.png).
+    rich = re.sub(
+        r'(<img[^>]+src=")(\d{4}-\d{2}-\d{2}-[^"]+)(")',
+        r'\1./briefings/\2\3',
+        rich,
+    )
+    (out_root / "index.html").write_text(rich, encoding="utf-8")
+    return
     daily_dir = out_root / "briefings"
     weekly_dir = out_root / "weekly_briefings"
     latest_daily = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []

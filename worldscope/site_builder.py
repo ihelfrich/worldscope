@@ -26,11 +26,88 @@ import html
 import json
 import re
 from collections import Counter, defaultdict
-from datetime import date as _date
+from datetime import date as _date, datetime as _dt
 from pathlib import Path
+from urllib.parse import quote as _urlquote
 
 REPO = Path(__file__).resolve().parent.parent
 LAKE = REPO / "lake" / "sections"
+
+# The Pages base URL for sitemap + Open Graph canonical links.
+PAGES_BASE = "https://ihelfrich.github.io/worldscope"
+
+# Pretty-print section IDs as titles. snake_case → Title Case + a few overrides
+# for tighter naming.
+PRETTY_NAMES = {
+    "cisa_kev": "CISA Known Exploited Vulnerabilities",
+    "fec": "FEC Campaign Finance",
+    "gdelt_gkg": "GDELT Global Knowledge Graph",
+    "gdelt_regions": "GDELT Regional Tone",
+    "us_nmtc": "US New Markets Tax Credit",
+    "vip_flights": "VIP Aircraft Tracking",
+    "ukraine_theater": "Ukraine Theater",
+}
+
+
+def pretty_section(sid: str) -> str:
+    if sid in PRETTY_NAMES:
+        return PRETTY_NAMES[sid]
+    return sid.replace("_", " ").title()
+
+
+def safe_url(url: str) -> str:
+    """Return url if it has an http(s) scheme, else return empty string.
+
+    Defends against javascript:/data:/file: hrefs sneaking in through
+    source data.
+    """
+    if not url:
+        return ""
+    u = url.strip().lower()
+    if u.startswith("http://") or u.startswith("https://"):
+        return url
+    return ""
+
+
+def safe_path_segment(s: str) -> str:
+    """URL-encode a path segment so quotes/spaces/reserved chars don't
+    break links or inject attributes."""
+    return _urlquote(s, safe="")
+
+
+def is_stub_record(rec: dict) -> bool:
+    """Return True for political-figures-style 'incumbent not verified'
+    stubs that pollute the user-facing display."""
+    title = (rec.get("title") or rec.get("original_text") or "").lower()
+    if "[stub]" in title or "incumbent not verified" in title:
+        return True
+    if "slot reserved" in title:
+        return True
+    return False
+
+
+def normalize_entities(raw) -> list[str]:
+    """Coerce the entities field into a clean list of short strings."""
+    if not raw:
+        return []
+    if isinstance(raw, str):
+        raw = [raw]
+    if not isinstance(raw, list):
+        return []
+    out: list[str] = []
+    for item in raw:
+        if isinstance(item, str):
+            out.append(item[:80])
+        elif isinstance(item, dict):
+            cn = item.get("canonical_name") or item.get("name") or item.get("id")
+            if cn:
+                out.append(str(cn)[:80])
+    return out
+
+
+def safe_extra(rec: dict) -> dict:
+    extra = rec.get("extra")
+    return extra if isinstance(extra, dict) else {}
 
 # Reused from render_brief.py to keep visual coherence. Heritage palette
 # values lifted from the existing site CSS.
@@ -135,8 +212,12 @@ footer.foot {
 @media (max-width: 700px) {
   .shell { padding: 16px 14px 60px; }
   .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
-  h1 { font-size: 24px; }
-  .section-card { padding: 12px 14px; }
+  h1 { font-size: 24px; overflow-wrap: anywhere; }
+  .section-card { padding: 12px 14px; min-width: 0; }
+  .record { padding: 10px 12px; min-width: 0; }
+  .record h3 { overflow-wrap: anywhere; }
+  .archive-row { overflow-wrap: anywhere; min-width: 0; }
+  .record .entities .tag { overflow-wrap: anywhere; }
 }
 """
 
@@ -181,20 +262,25 @@ SECTION_DESCRIPTIONS = {
 }
 
 
-def topnav(date_anchor: str = "") -> str:
-    """The shared top navigation across every page."""
-    return f"""<nav class="topnav">
+def topnav(base: str = "") -> str:
+    """The shared top navigation across every page.
+
+    `base` is the path prefix (e.g. "" for root, "../" for one level up,
+    "../../" for two levels up) so links work whether served at root or
+    under a subpath like /worldscope/.
+    """
+    return f"""<nav class="topnav" aria-label="Primary">
   <span class="brand">WORLDSCOPE</span>
-  <a href="/worldscope/">Today's brief</a>
-  <a href="/worldscope/sections/">Sections</a>
-  <a href="/worldscope/briefings/">Archive</a>
-  <a href="/worldscope/zips/">Bundles</a>
-  <span class="spacer"></span>
-  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+  <a href="{base}index.html">Today</a>
+  <a href="{base}sections/">Sections</a>
+  <a href="{base}briefings/">Archive</a>
+  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Personal hub (opens in new tab)">helfrich.github.io →</a>
 </nav>"""
 
 
 def _read_jsonl(path: Path) -> list[dict]:
+    """Load JSONL into a list of dicts. Non-dict lines and malformed JSON
+    are silently skipped (counted in the caller if logging is wanted)."""
     if not path.exists():
         return []
     out: list[dict] = []
@@ -204,9 +290,11 @@ def _read_jsonl(path: Path) -> list[dict]:
             if not line:
                 continue
             try:
-                out.append(json.loads(line))
+                obj = json.loads(line)
             except json.JSONDecodeError:
                 continue
+            if isinstance(obj, dict):
+                out.append(obj)
     return out
 
 
@@ -220,42 +308,48 @@ def _read_meta(path: Path) -> dict:
 
 
 def _record_to_html(rec: dict) -> str:
-    """Render one lake record as a card."""
+    """Render one lake record as a card. Safe against malformed inputs."""
     if rec.get("_error"):
         return ""
+    extra = safe_extra(rec)
     title = rec.get("title") or rec.get("original_text", "")
-    title = re.sub(r"\s+", " ", title).strip()[:240]
-    url = rec.get("url") or rec.get("original_url") or ""
+    title = re.sub(r"\s+", " ", str(title)).strip()[:240]
+    url = safe_url(rec.get("url") or rec.get("original_url") or "")
     summary = rec.get("summary") or ""
     if not summary and rec.get("original_text"):
-        body = rec["original_text"]
+        body = str(rec["original_text"])
         if title and body.startswith(title):
-            body = body[len(title):].lstrip(" -—:")
+            body = body[len(title):].lstrip(" -:")
         summary = body
-    summary = re.sub(r"\s+", " ", summary or "").strip()[:600]
+    summary = re.sub(r"\s+", " ", str(summary or "")).strip()[:600]
     source_label = (rec.get("source_label")
-                    or rec.get("extra", {}).get("source_label")
+                    or extra.get("source_label")
                     or rec.get("source_id", ""))
-    tier = rec.get("source_tier") or rec.get("extra", {}).get("source_tier", "")
-    entities = rec.get("entities") or []
+    tier = rec.get("source_tier") or extra.get("source_tier", "")
+    entities = normalize_entities(rec.get("entities"))
+    # Strip raw "type:slug-foo" prefixes from entity tags for readability.
+    entities_display = [
+        e.split(":", 1)[1] if ":" in e else e
+        for e in entities
+    ]
     title_html = (
-        f'<a href="{html.escape(url)}" target="_blank" rel="noopener">{html.escape(title)}</a>'
+        f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(title)}</a>'
         if url else html.escape(title)
     )
     body_html = (
         f'<p class="body">{html.escape(summary)}</p>' if summary else ""
     )
     ent_html = ""
-    if entities:
+    if entities_display:
         tags = "".join(
-            f'<span class="tag">{html.escape(str(e))}</span>'
-            for e in entities[:8]
+            f'<span class="tag">{html.escape(e)}</span>'
+            for e in entities_display[:8]
         )
         ent_html = f'<div class="entities">{tags}</div>'
     return (
         f'<div class="record">'
         f'<h3>{title_html}</h3>'
-        f'<span class="src">{html.escape(source_label or "?")}</span>'
+        f'<span class="src">{html.escape(str(source_label) or "?")}</span>'
         + (f'<span class="tier">{html.escape(str(tier))}</span>' if tier else "")
         + body_html
         + ent_html
@@ -263,29 +357,55 @@ def _record_to_html(rec: dict) -> str:
     )
 
 
-def _wrap(title: str, body: str, crumbs: list[tuple[str, str]]) -> str:
-    crumbs_html = " <span style=\"color:#aaa\">/</span> ".join(
-        f'<a href="{href}">{html.escape(label)}</a>' if href else html.escape(label)
-        for label, href in crumbs
-    )
+def _wrap(title: str, body: str, crumbs: list[tuple[str, str]],
+          *, base: str = "", description: str = "",
+          canonical: str = "") -> str:
+    """Wrap content in the standard page chrome.
+
+    `base` is the relative-URL prefix for top-nav links (e.g. "../" if the
+    page is one level deep). Crumb hrefs are HTML-attribute-escaped.
+    """
+    crumb_parts: list[str] = []
+    for i, (label, href) in enumerate(crumbs):
+        aria = ' aria-current="page"' if i == len(crumbs) - 1 and not href else ""
+        if href:
+            crumb_parts.append(
+                f'<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
+            )
+        else:
+            crumb_parts.append(f'<span{aria}>{html.escape(label)}</span>')
+    crumbs_html = ' <span style="color:#aaa" aria-hidden="true">/</span> '.join(crumb_parts)
+    desc_attr = html.escape(description or
+                            f"WORLDSCOPE section view: {title}", quote=True)
+    canonical_attr = html.escape(canonical or f"{PAGES_BASE}/", quote=True)
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>WORLDSCOPE · {html.escape(title)}</title>
+<meta name="description" content="{desc_attr}">
+<link rel="canonical" href="{canonical_attr}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{html.escape(title, quote=True)}">
+<meta property="og:description" content="{desc_attr}">
+<meta property="og:url" content="{canonical_attr}">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
 <style>{CSS}</style>
 </head><body>
-{topnav()}
+{topnav(base=base)}
 <div class="shell">
-  <div class="crumbs">{crumbs_html}</div>
+  <nav class="crumbs" aria-label="Breadcrumb">{crumbs_html}</nav>
+  <main>
   {body}
-  <footer class="foot">
+  </main>
+  <footer class="foot" role="contentinfo">
     <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
-    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+    <div><a href="{base}index.html" style="color:inherit">↑ home</a></div>
   </footer>
 </div>
 </body></html>
@@ -312,38 +432,35 @@ def _record_count_for_date(section_id: str, day: str) -> int:
 def render_section_day(section_id: str, day: str, out_root: Path) -> Path:
     """Render dist/sections/<section_id>/<day>.html with all records for that day."""
     raw = _read_jsonl(LAKE / section_id / day / "raw.jsonl")
-    structured = _read_meta(LAKE / section_id / day / "structured.json")
-    summary_md = (LAKE / section_id / day / "summary.md")
-    summary_text = summary_md.read_text(encoding="utf-8") if summary_md.exists() else ""
 
-    # Strip YAML front matter from summary if present.
-    body_summary = re.sub(r"^---\n.*?\n---\n", "", summary_text, count=1, flags=re.S)
+    # Drop TODO-style stub records (e.g. political_figures unverified incumbents)
+    # so they do not pollute the user-facing view.
+    raw = [r for r in raw if not is_stub_record(r) and not r.get("_error")]
 
     # Sort records by source_label then title for deterministic output.
     raw_sorted = sorted(
         raw,
-        key=lambda r: ((r.get("source_label") or r.get("extra", {}).get("source_label") or "").lower(),
+        key=lambda r: ((r.get("source_label") or safe_extra(r).get("source_label") or "").lower(),
                        (r.get("title") or r.get("original_text") or "").lower()),
     )
 
     # Group by source_label.
     by_source: dict[str, list[dict]] = defaultdict(list)
     for r in raw_sorted:
-        if r.get("_error"):
-            continue
         label = (r.get("source_label")
-                 or r.get("extra", {}).get("source_label")
+                 or safe_extra(r).get("source_label")
                  or r.get("source_id") or "(unknown)")
         by_source[label].append(r)
 
-    sources_html_parts = []
+    sources_html_parts: list[str] = []
     for label, recs in sorted(by_source.items(), key=lambda kv: -len(kv[1])):
         cards = "".join(_record_to_html(r) for r in recs[:60])
         more = (f'<p class="meta" style="margin-top:6px">+{len(recs) - 60} more not shown on this page</p>'
                 if len(recs) > 60 else "")
+        anchor = re.sub(r"[^a-z0-9]+", "-", str(label).lower()).strip("-") or "src"
         sources_html_parts.append(
-            f'<h2 id="src-{re.sub(r"[^a-z0-9]+", "-", label.lower())}">'
-            f'{html.escape(label)} '
+            f'<h2 id="src-{html.escape(anchor)}">'
+            f'{html.escape(str(label))} '
             f'<span style="font-family:\'Inter\',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">'
             f'· {len(recs)} record{"s" if len(recs)!=1 else ""}</span>'
             f'</h2>'
@@ -351,16 +468,18 @@ def render_section_day(section_id: str, day: str, out_root: Path) -> Path:
         )
 
     n_total = sum(len(v) for v in by_source.values())
-    title = f"{section_id} · {day}"
+    pretty_id = pretty_section(section_id)
+    title = f"{pretty_id} · {day}"
     desc = SECTION_DESCRIPTIONS.get(section_id, "")
+    sid_seg = safe_path_segment(section_id)
     crumbs = [
-        ("WORLDSCOPE", "/worldscope/"),
-        ("Sections", "/worldscope/sections/"),
-        (section_id, f"/worldscope/sections/{section_id}/"),
+        ("WORLDSCOPE", "../../index.html"),
+        ("Sections", "../"),
+        (pretty_id, "./index.html"),
         (day, ""),
     ]
     body = (
-        f'<h1>{html.escape(section_id)} · {html.escape(day)}</h1>'
+        f'<h1>{html.escape(pretty_id)} <span style="color:var(--muted);font-weight:400;">· {html.escape(day)}</span></h1>'
         f'<p class="meta">{html.escape(desc)} · {n_total} record'
         + ("s" if n_total != 1 else "") + f' across {len(by_source)} source'
         + ("s" if len(by_source) != 1 else "") + "</p>"
@@ -369,39 +488,68 @@ def render_section_day(section_id: str, day: str, out_root: Path) -> Path:
     out_dir = out_root / "sections" / section_id
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{day}.html"
-    out_path.write_text(_wrap(title, body, crumbs), encoding="utf-8")
+    canonical = f"{PAGES_BASE}/sections/{sid_seg}/{day}.html"
+    out_path.write_text(
+        _wrap(title, body, crumbs, base="../../", canonical=canonical,
+              description=f"{pretty_id} drill-down for {day}: {n_total} records across {len(by_source)} sources."),
+        encoding="utf-8",
+    )
     return out_path
 
 
-def render_section_index(section_id: str, out_root: Path) -> Path:
-    """Render dist/sections/<section_id>/index.html listing all dates."""
-    dates = _list_section_dates(section_id)
-    rows = []
-    for d in dates:
+def render_section_index(section_id: str, out_root: Path,
+                         *, rendered_dates: list[str] | None = None) -> Path:
+    """Render dist/sections/<section_id>/index.html listing dates.
+
+    If `rendered_dates` is provided, only those dates get clickable links
+    (the rest are shown as plain text with a "not yet built" marker).
+    Avoids 404s from archive rows pointing at unrendered older dates.
+    """
+    all_dates = _list_section_dates(section_id)
+    rendered = set(rendered_dates) if rendered_dates is not None else set(all_dates)
+    rows: list[str] = []
+    for d in all_dates:
         n = _record_count_for_date(section_id, d)
-        rows.append(
-            f'<a class="archive-row" href="./{d}.html">'
-            f'<span class="date">{d}</span>'
-            f'<span class="n">{n} record{"s" if n != 1 else ""}</span>'
-            f'</a>'
-        )
-    title = f"{section_id} · archive"
+        n_str = f'{n} record{"s" if n != 1 else ""}'
+        if d in rendered:
+            rows.append(
+                f'<a class="archive-row" href="./{html.escape(d, quote=True)}.html">'
+                f'<span class="date">{html.escape(d)}</span>'
+                f'<span class="n">{n_str}</span>'
+                f'</a>'
+            )
+        else:
+            rows.append(
+                f'<div class="archive-row" style="opacity:0.55">'
+                f'<span class="date">{html.escape(d)}</span>'
+                f'<span class="n">{n_str} (archived only, no rendered page)</span>'
+                f'</div>'
+            )
+    pretty_id = pretty_section(section_id)
+    title = f"{pretty_id} archive"
     desc = SECTION_DESCRIPTIONS.get(section_id, "")
+    sid_seg = safe_path_segment(section_id)
     crumbs = [
-        ("WORLDSCOPE", "/worldscope/"),
-        ("Sections", "/worldscope/sections/"),
-        (section_id, ""),
+        ("WORLDSCOPE", "../../index.html"),
+        ("Sections", "../"),
+        (pretty_id, ""),
     ]
     body = (
-        f'<h1>{html.escape(section_id)}</h1>'
-        f'<p class="meta">{html.escape(desc)} · {len(dates)} day'
-        + ("s" if len(dates) != 1 else "") + " on file</p>"
+        f'<h1>{html.escape(pretty_id)}</h1>'
+        f'<p class="meta">{html.escape(desc)} · {len(all_dates)} day'
+        + ("s" if len(all_dates) != 1 else "") + " on file · "
+        + f"{len(rendered)} with rendered page</p>"
         + "".join(rows)
     )
     out_dir = out_root / "sections" / section_id
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "index.html"
-    out_path.write_text(_wrap(title, body, crumbs), encoding="utf-8")
+    canonical = f"{PAGES_BASE}/sections/{sid_seg}/"
+    out_path.write_text(
+        _wrap(title, body, crumbs, base="../../", canonical=canonical,
+              description=f"{pretty_id} archive: {len(all_dates)} days of records."),
+        encoding="utf-8",
+    )
     return out_path
 
 
@@ -412,15 +560,16 @@ def render_sections_root(out_root: Path) -> Path:
     section_ids = sorted(
         d.name for d in LAKE.iterdir() if d.is_dir() and not d.name.startswith("_")
     )
-    cards = []
+    cards: list[str] = []
     for sid in section_ids:
         dates = _list_section_dates(sid)
         latest = dates[0] if dates else None
         latest_n = _record_count_for_date(sid, latest) if latest else 0
         desc = SECTION_DESCRIPTIONS.get(sid, "")
+        sid_seg = safe_path_segment(sid)
         cards.append(
-            f'<a class="section-card" href="./{sid}/">'
-            f'<div class="name">{html.escape(sid)}</div>'
+            f'<a class="section-card" href="./{html.escape(sid_seg, quote=True)}/">'
+            f'<div class="name">{html.escape(pretty_section(sid))}</div>'
             f'<div class="desc">{html.escape(desc)}</div>'
             f'<div class="count">{len(dates)} day'
             + ("s" if len(dates) != 1 else "")
@@ -434,11 +583,52 @@ def render_sections_root(out_root: Path) -> Path:
         'Click any section to drill into its archive and per-day records.</p>'
         + "".join(cards)
     )
-    crumbs = [("WORLDSCOPE", "/worldscope/"), ("Sections", "")]
+    crumbs = [("WORLDSCOPE", "../index.html"), ("Sections", "")]
     out_dir = out_root / "sections"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "index.html"
-    out_path.write_text(_wrap("Sections", body, crumbs), encoding="utf-8")
+    out_path.write_text(
+        _wrap("Sections", body, crumbs, base="../",
+              canonical=f"{PAGES_BASE}/sections/",
+              description=f"WORLDSCOPE section index: {len(section_ids)} active data sources."),
+        encoding="utf-8",
+    )
+    return out_path
+
+
+def render_404(out_root: Path) -> Path:
+    """Site-styled 404 page so broken links land somewhere navigable."""
+    body = (
+        '<h1>404, not found</h1>'
+        '<p class="meta">That page is not in WORLDSCOPE. The brief is at '
+        '<a href="/worldscope/">today\'s brief</a>; the section archives are at '
+        '<a href="/worldscope/sections/">Sections</a>.</p>'
+    )
+    out_path = out_root / "404.html"
+    out_path.write_text(
+        _wrap("404", body, [("WORLDSCOPE", "/worldscope/"), ("404", "")],
+              base="", canonical=f"{PAGES_BASE}/404.html",
+              description="Page not found"),
+        encoding="utf-8",
+    )
+    return out_path
+
+
+def render_sitemap(out_root: Path, urls: list[str]) -> Path:
+    """Emit a sitemap.xml covering every rendered URL."""
+    today = _dt.utcnow().date().isoformat()
+    entries = "\n".join(
+        f"  <url><loc>{html.escape(u, quote=True)}</loc><lastmod>{today}</lastmod></url>"
+        for u in sorted(set(urls))
+    )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{entries}\n"
+        "</urlset>\n"
+    )
+    out_path = out_root / "sitemap.xml"
+    out_path.write_text(xml, encoding="utf-8")
     return out_path
 
 
@@ -450,17 +640,29 @@ def build_all(out_root: Path, *, days_to_render: int = 7) -> dict:
 
     section_pages = 0
     day_pages = 0
+    sitemap_urls: list[str] = [
+        f"{PAGES_BASE}/",
+        f"{PAGES_BASE}/sections/",
+        f"{PAGES_BASE}/briefings/",
+    ]
     for sid in section_ids:
-        render_section_index(sid, out_root)
-        section_pages += 1
-        for day in _list_section_dates(sid)[:days_to_render]:
+        sid_seg = safe_path_segment(sid)
+        dates = _list_section_dates(sid)[:days_to_render]
+        for day in dates:
             render_section_day(sid, day, out_root)
             day_pages += 1
+            sitemap_urls.append(f"{PAGES_BASE}/sections/{sid_seg}/{day}.html")
+        render_section_index(sid, out_root, rendered_dates=dates)
+        section_pages += 1
+        sitemap_urls.append(f"{PAGES_BASE}/sections/{sid_seg}/")
     render_sections_root(out_root)
+    render_404(out_root)
+    render_sitemap(out_root, sitemap_urls)
     return {
         "sections": len(section_ids),
         "section_pages": section_pages,
         "day_pages": day_pages,
+        "sitemap_urls": len(sitemap_urls),
     }
 
 
