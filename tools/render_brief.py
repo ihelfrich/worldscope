@@ -46,16 +46,24 @@ WATCH = REPO / "watchareas.yaml"
 CSS = """
 :root {
   --ink: #0B1220;
-  --bg: #FAFBFD;
+  --parchment: #FAF8F3;
+  --bg: #FAF8F3;
   --panel: #FFFFFF;
-  --border: #D9DEE5;
-  --muted: #5B6473;
-  --accent: #1F3864;
-  --accent-2: #2E75B6;
-  --warn: #B45309;
-  --danger: #B91C1C;
-  --good: #047857;
-  --rule: 1px solid var(--border);
+  --mist: #E8E2D5;
+  --border: #E8E2D5;
+  --slate: #4E5667;
+  --muted: #4E5667;
+  --navy: #13294B;
+  --accent: #13294B;
+  --accent-2: #1F3D6E;
+  --gold: #D4A017;
+  --teal: #1A8A87;
+  --crimson: #990000;
+  --carolina: #4B9CD3;
+  --warn: #D4A017;
+  --danger: #990000;
+  --good: #1A8A87;
+  --rule: 1px solid var(--mist);
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -101,33 +109,42 @@ body {
   display: block; padding: 3px 8px; border-radius: 4px;
   border-left: 2px solid transparent;
 }
-.sidebar a:hover { background: #EEF2F7; }
+.sidebar a:hover { background: var(--mist); }
 .sidebar a.active {
-  border-left-color: var(--accent);
-  background: #EEF2F7;
-  color: var(--accent);
+  border-left-color: var(--gold);
+  background: var(--mist);
+  color: var(--navy);
   font-weight: 600;
 }
 .masthead {
-  border-bottom: 3px double var(--accent);
-  padding-bottom: 16px;
-  margin-bottom: 24px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 18px;
+  margin-bottom: 28px;
+  position: relative;
+}
+.masthead::before {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -5px;
+  height: 1px; background: var(--navy);
 }
 .masthead .eyebrow {
   font-family: 'Inter', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: var(--accent);
+  color: var(--navy);
   font-weight: 700;
+}
+.masthead .eyebrow::before {
+  content: '◆ '; color: var(--gold);
 }
 .masthead h1 {
   font-family: 'Source Serif 4', 'Georgia', serif;
-  font-size: 34px;
-  line-height: 1.15;
-  margin: 8px 0 6px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.08;
+  margin: 10px 0 8px;
   color: var(--ink);
-  letter-spacing: -0.3px;
+  letter-spacing: -0.6px;
 }
 .masthead .dateline {
   font-family: 'Inter', sans-serif;
@@ -631,6 +648,29 @@ def discover_assets(brief_dir: Path, stem: str) -> tuple[list[Path], Path | None
     return pngs, (geo if geo.exists() else None)
 
 
+def _brief_network_seed() -> str:
+    """Inline JSON seed for the ambient canvas: today's cross-section
+    recurrences, mirrors site_builder._network_seed_for_today()."""
+    import datetime as _dt2
+    today = _dt2.date.today().isoformat()
+    cs_path = REPO / "lake" / "sections" / "_meta" / today / "cross_section.json"
+    if not cs_path.exists():
+        return "{}"
+    try:
+        data = json.loads(cs_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return "{}"
+    rec_items = (data.get("by_confidence", {}).get("high", [])
+                 + data.get("by_confidence", {}).get("medium", []))
+    compact = [
+        {"name": r.get("canonical_name", ""),
+         "type": r.get("entity_type", ""),
+         "sections": r.get("n_sections", 0)}
+        for r in rec_items[:30]
+    ]
+    return json.dumps({"day": today, "recurrences": compact})
+
+
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
     stem = md_path.stem
@@ -684,16 +724,21 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
 <style>{CSS}</style>
 </head><body>
-<div class="shell">
-<nav class="topnav" aria-label="Primary">
-  <span class="brand">WORLDSCOPE</span>
-  <a href="../index.html">Today</a>
-  <a href="../sections/">Sections</a>
-  <a href="./index.html">Archive</a>
-  <a href="../zips/{html.escape(stem)}.zip">Today's bundle</a>
-  <span class="spacer"></span>
-  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">helfrich.github.io →</a>
+<div class="ws-bg" aria-hidden="true" style="position:fixed;inset:0;z-index:-1;pointer-events:auto;opacity:0.55;">
+  <canvas id="ws-network" style="display:block;width:100%;height:100%;"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{html.escape(_brief_network_seed(), quote=True)}</script>
+<script src="../assets/network.js" defer></script>
+<nav class="topnav" aria-label="Primary" style="background:linear-gradient(180deg,var(--navy) 0%,var(--accent-2) 100%);color:#fff;padding:11px 28px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;font-family:Inter,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:13px;border-bottom:2px solid var(--gold);box-shadow:0 1px 4px rgba(11,18,32,0.2);position:sticky;top:0;z-index:60;">
+  <span class="brand" style="font-weight:800;letter-spacing:0.10em;text-transform:uppercase;color:#fff;font-size:13.5px;">◆ WORLDSCOPE</span>
+  <a href="../index.html" style="color:#E8E2D5;text-decoration:none;">Today</a>
+  <a href="../sections/" style="color:#E8E2D5;text-decoration:none;">Sections</a>
+  <a href="./index.html" style="color:#E8E2D5;text-decoration:none;">Archive</a>
+  <a href="../zips/{html.escape(stem)}.zip" style="color:#E8E2D5;text-decoration:none;">Today's bundle</a>
+  <span class="spacer" style="flex:1;"></span>
+  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" style="color:#E8E2D5;text-decoration:none;font-size:12px;opacity:0.85;padding-left:14px;border-left:1px solid rgba(255,255,255,0.18);">helfrich.github.io →</a>
 </nav>
+<div class="shell" style="position:relative;z-index:1;">
 {side}
 <main class="content-wrap">
   <div class="masthead">
