@@ -205,6 +205,71 @@ tailwind.config = {
       transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
     }
     .figure-card:hover::before { transform: scaleY(1); }
+    /* Story-thread chapter pills + day deltas + tier breakdown segs. */
+    .ws-chapter {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 2px 7px; border-radius: 3px;
+      vertical-align: 0.18em;
+    }
+    .ws-chapter-opening { background: #E8E2D5; color: #4E5667; }
+    .ws-chapter-turning { background: #D4A017; color: #0B1220; }
+    .ws-chapter-cooling { background: #FCE4D6; color: #8B3A0E; border: 1px solid #E6BFA8; }
+    .ws-day-delta {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px; font-weight: 600;
+      padding: 1px 6px; border-radius: 3px;
+      vertical-align: 0.16em;
+    }
+    .ws-day-up   { background: rgba(26,138,135,0.16); color: #135957; }
+    .ws-day-dn   { background: rgba(153,0,0,0.12);    color: #8b0000; }
+    .ws-day-flat { background: #E8E2D5;              color: #6B7180; }
+    .ws-tier-seg {
+      display: block; height: 100%;
+      transition: opacity 0.15s ease-out;
+    }
+    .ws-tier-seg:hover { opacity: 0.78; }
+
+    /* Source-tier triangulation toggle pills (above the section grid). */
+    .ws-tier-filter { font-family: 'Inter', sans-serif; }
+    .ws-tier-pill {
+      background: transparent; border: 1px solid #E8E2D5;
+      color: #4E5667;
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 0.10em; text-transform: uppercase;
+      padding: 3px 9px; border-radius: 9999px;
+      cursor: pointer; transition: all 0.15s ease-out;
+    }
+    .ws-tier-pill:hover {
+      border-color: #D4A017; color: #0B1220;
+    }
+    .ws-tier-pill.ws-tier-active {
+      background: #13294B; color: #FAF8F3;
+      border-color: #13294B;
+    }
+    .ws-sec { transition: opacity 0.22s ease-out; }
+
+    /* Hero "what moved" delta bullets — compact, scannable. */
+    .ws-deltas {
+      list-style: none; padding: 0; margin: 18px 0 0;
+      display: flex; flex-direction: column; gap: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px; line-height: 1.4;
+    }
+    .ws-delta {
+      display: flex; gap: 8px; align-items: baseline;
+      color: #0B1220;
+    }
+    .ws-delta-mark {
+      flex-shrink: 0;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 16px; line-height: 1; color: #D4A017;
+      width: 14px; text-align: center;
+    }
+    .ws-delta-warn .ws-delta-mark { color: #990000; }
+    .ws-delta strong { font-weight: 700; color: #13294B; }
+
     /* "Stat block" — oversized number with caption beneath. */
     .stat-block .stat {
       font-family: 'Source Serif 4', Georgia, serif;
@@ -229,6 +294,138 @@ tailwind.config = {
       display: block;
     }
     [data-vega-target] svg { display: block; max-width: 100%; }
+
+    /* Claim badges + Evidence Drawer (worldscope-evidence.js).
+       Status colors deliberately loud on divergent so a hallucinated
+       number can't hide. */
+    .claim-badge {
+      display: inline;
+      padding: 0 0.18em;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.12s ease-out;
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    .claim-verified   { text-decoration-color: rgba(26,138,135,0.55); }
+    .claim-divergent  { text-decoration-color: #990000;
+                        background: rgba(153,0,0,0.10); }
+    .claim-unverified { text-decoration-color: rgba(78,86,103,0.45); }
+    .claim-badge:hover { background: rgba(212,160,23,0.18); }
+    .claim-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72em;
+      font-weight: 700;
+      margin-left: 2px;
+      vertical-align: super;
+      opacity: 0.75;
+    }
+    .claim-verified  .claim-mark { color: #1A8A87; }
+    .claim-divergent .claim-mark { color: #990000; opacity: 1; }
+    .claim-unverified .claim-mark { color: #4E5667; }
+
+    #ws-evidence-drawer {
+      position: fixed; top: 0; right: 0; height: 100vh;
+      width: min(440px, 96vw);
+      background: #FAF8F3;
+      box-shadow: -6px 0 24px rgba(11,18,32,0.18);
+      transform: translateX(102%);
+      transition: transform 0.32s cubic-bezier(0.2,0.7,0.2,1);
+      z-index: 85;
+      display: flex; flex-direction: column;
+      font-family: 'Inter', sans-serif;
+    }
+    #ws-evidence-drawer.ws-evid-open { transform: translateX(0); }
+    .ws-evid-head {
+      background: #13294B; color: #FAF8F3;
+      padding: 12px 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 2px solid #D4A017;
+    }
+    .ws-evid-kicker {
+      font-weight: 800; font-size: 12px;
+      letter-spacing: 0.18em; text-transform: uppercase;
+    }
+    .ws-evid-head button {
+      background: none; border: 0; color: #E8E2D5;
+      font-size: 22px; line-height: 1; cursor: pointer;
+    }
+    #ws-evid-body {
+      flex: 1; overflow-y: auto; padding: 18px 20px;
+    }
+    .ws-evid-status {
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.14em;
+      padding: 6px 10px; border-radius: 4px;
+      display: inline-block; margin-bottom: 14px;
+    }
+    .ws-evid-verified   { background: rgba(26,138,135,0.15); color: #135957; }
+    .ws-evid-divergent  { background: #990000; color: #FAF8F3; }
+    .ws-evid-unverified { background: #E8E2D5; color: #4E5667; }
+    .ws-evid-skipped    { background: #E5E7EB; color: #6B7280; }
+    .ws-evid-claim {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px; font-weight: 600; color: #0B1220;
+      line-height: 1.35; margin-bottom: 16px;
+      padding-left: 12px; border-left: 3px solid #D4A017;
+    }
+    .ws-evid-meta {
+      display: grid; grid-template-columns: 110px 1fr; gap: 6px 14px;
+      font-size: 13px; margin-bottom: 18px;
+    }
+    .ws-evid-meta dt {
+      font-weight: 600; color: #6B7180;
+      text-transform: uppercase; letter-spacing: 0.08em; font-size: 10.5px;
+      align-self: center;
+    }
+    .ws-evid-meta dd { margin: 0; color: #0B1220; }
+    .ws-evid-meta code {
+      background: #E8E2D5; padding: 1px 5px; border-radius: 3px;
+      font-size: 12px;
+    }
+    .ws-evid-h {
+      font-size: 11px; font-weight: 700; color: #4E5667;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      margin: 20px 0 10px;
+    }
+    .ws-evid-recs { list-style: none; padding: 0; margin: 0; }
+    .ws-evid-rec {
+      padding: 10px 0; border-bottom: 1px solid #E8E2D5;
+      font-size: 13px;
+    }
+    .ws-evid-rec.missing { color: #6B7180; font-style: italic; }
+    .ws-evid-rec-title a {
+      color: #13294B; text-decoration: none; font-weight: 500;
+    }
+    .ws-evid-rec-title a:hover { color: #D4A017; }
+    .ws-evid-rec-meta {
+      font-size: 11px; color: #6B7180; margin-top: 3px;
+    }
+    .ws-evid-rec-section {
+      text-transform: uppercase; letter-spacing: 0.10em; font-weight: 600;
+    }
+    .ws-evid-noev {
+      color: #6B7180; font-style: italic; font-size: 13px; margin-top: 16px;
+    }
+    .ws-evid-link {
+      display: inline-block; margin-top: 8px;
+      font-family: 'Inter', sans-serif; font-size: 12.5px; font-weight: 600;
+      color: #13294B; text-decoration: none;
+      border-bottom: 1px solid #D4A017;
+    }
+    .ws-evid-link:hover { color: #D4A017; }
+    .ws-evid-rec-section[href] {
+      color: #13294B; text-decoration: none;
+      border-bottom: 1px dotted #4E5667;
+    }
+    .ws-evid-rec-section[href]:hover { color: #D4A017; border-bottom-color: #D4A017; }
+    @media print {
+      #ws-evidence-drawer { display: none !important; }
+      .claim-badge { text-decoration: none; background: none !important; }
+      .claim-mark { display: none; }
+    }
   }
   @layer utilities {
     /* Glass strip used by sticky topnav over the canvas background */
@@ -272,8 +469,10 @@ tailwind.config = {
 </head>
 <body class="font-serif text-ink bg-parchment">
 <div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
+<script>window.WS_BASE = "./";</script>
 <script type="application/json" id="ws-network-seed">{"date": "2026-05-28", "entities": ["China", "Jackson", "New York"]}</script>
 <script src="assets/network.js" defer></script>
+<script src="assets/worldscope-evidence.js" defer></script>
 <nav class="glass-nav sticky top-0 z-50 text-white border-b-2 border-gold shadow-md" role="navigation" aria-label="Primary">
   <div class="max-w-[1200px] mx-auto px-7 py-3 flex flex-wrap items-center gap-5 font-sans text-[13px]">
     <a href="index.html" class="font-extrabold tracking-[0.10em] uppercase text-white text-[13.5px]">
@@ -315,7 +514,10 @@ tailwind.config = {
     <div class="lg:col-span-5 stat-block">
       <div class="stat tabular-nums">1,848</div>
       <div class="stat-label">records new since yesterday</div>
-      <div class="pull-quote mt-5"><a href='./threads/china/' class='text-navy hover:text-gold no-underline border-b border-gold/40 hover:border-gold transition-colors'><strong>China</strong></a> — <strong class='text-navy tabular-nums'>382</strong> items across <strong class='text-navy tabular-nums'>13</strong> sections over <strong class='text-navy tabular-nums'>4</strong> days. <span class='text-slate text-[0.85em]'>The dominant thread.</span></div>
+      <ul class="ws-deltas mt-5"><li class="ws-delta ws-delta-thread"><span class="ws-delta-mark" aria-hidden="true">▶</span><a href="./threads/china/" class="text-navy hover:text-gold no-underline"><strong>China</strong></a> — <strong class="tabular-nums">382</strong> items / <strong class="tabular-nums">13</strong> sections / <strong class="tabular-nums">4</strong> days</li>
+<li class="ws-delta"><span class="ws-delta-mark" aria-hidden="true">✦</span><strong class="tabular-nums">3</strong> entities recurring in 3+ sections — leading: <strong>China</strong></li>
+<li class="ws-delta"><span class="ws-delta-mark" aria-hidden="true">↑</span>Heaviest new-item section: <strong>Ukraine Theater</strong> — <strong class="tabular-nums">267</strong> new</li>
+<li class="ws-delta ws-delta-warn"><span class="ws-delta-mark" aria-hidden="true">✗</span><strong class="tabular-nums">2</strong> sections failed to pull today</li></ul>
     </div>
   </div>
 </header>
@@ -499,29 +701,29 @@ tailwind.config = {
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">State-Level News — 38 new of 642 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] New California law bans law enforcement from interfering in state elections</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_Election-Day-SD_AH_CM_23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size w</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_Election-Day-SD_AH_CM_23.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size w</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] Jueces de California están probando un nuevo asistente judicial con inteligencia artificial, y no sabrás si está revisando tu caso</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-LA-Courthouse-ES-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-si</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-LA-Courthouse-ES-Getty-01-CM.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-si</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] Los demócratas dijeron que se mantendrían al margen de esta contienda en California. Luego tomaron partido</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052026-Villegas-V-Bains-Split-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-si</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052026-Villegas-V-Bains-Split-CM-01.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-si</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] Una pequeña solución podría marcar una gran diferencia en la contaminación del río Tijuana: ¿Cuándo se implementará?</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/112125_Paloma-Aguirre_AH_CM-05.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/112125_Paloma-Aguirre_AH_CM-05.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size wp</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] CA colleges try to improve online classes</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-Online-Education-LV-11-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-Online-Education-LV-11-CM.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] Newsom’s unbalanced budget faces strong pushback for spending cuts. Will lawmakers back him?</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/051426_Newsom-Budget_MG_CM_06.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/051426_Newsom-Budget_MG_CM_06.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size wp-</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] A small fix could make a big difference in Tijuana River pollution: When will it happen?</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/112125_Paloma-Aguirre_AH_CM-05.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/112125_Paloma-Aguirre_AH_CM-05.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size wp</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [California] ‘I felt like I wasn’t learning’: Community college students struggle with online education</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-Online-Education-LV-16-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;682&quot; src=&quot;https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/050826-Online-Education-LV-16-CM.jpg?fit=1024%2C682&amp;amp;ssl=1&quot; class=&quot;attachment-rss-image-size size-rss-image-size</p>
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Local News: St. Louis + Atlanta — 103 new of 245 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [St. Louis] These St. Louis area Pizza Huts set to bring back 80s/90s retro vibes</p>
 <p class="leading-relaxed text-[16.5px] my-3">      The red plastic cups, stained-glass lamps, checkerboard tablecloths, arcade games, and red roofs that defined Pizza Hut in the 1980s and 1990s are officially making a comeback in Missouri, with a few locations in the St.</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [St. Louis] St. Louis Police Board approves 'drone as first responder' plan</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [St. Louis] St. Louis Police Board approves &#x27;drone as first responder&#x27; plan</p>
 <p class="leading-relaxed text-[16.5px] my-3">      A proposal for new police drones in St. Louis was debated and passed by the Police Board on Wednesday, despite opposition from St. Louis Mayor Cara Spencer. The plan authorizes Police Chief Robert Tracy to move forward w</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [St. Louis] List: Route 66 Anniversary Events in the St. Louis area</p>
-<p class="leading-relaxed text-[16.5px] my-3">      As Route 66 approaches its 100th anniversary this year, communities across the St. Louis area are gearing up to celebrate the "Mother Road" with festivals, concerts, museum exhibits, and roadside attractions. Whether you</p>
+<p class="leading-relaxed text-[16.5px] my-3">      As Route 66 approaches its 100th anniversary this year, communities across the St. Louis area are gearing up to celebrate the &quot;Mother Road&quot; with festivals, concerts, museum exhibits, and roadside attractions. Whether you</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [St. Louis] Shooting in north St. Louis leaves woman in critical condition</p>
 <p class="leading-relaxed text-[16.5px] my-3">      A woman was critically injured in a shooting Wednesday evening in north St. Louis.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [St. Louis] Get ready for a summer of political ads in Missouri</p>
@@ -535,7 +737,7 @@ tailwind.config = {
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">International News + Multilateral Institutions — 213 new of 876 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Global] Google employee charged with insider trading over Polymarket bets</p>
-<p class="leading-relaxed text-[16.5px] my-3">      Michele Spagnuolo allegedly used insider information to profit from bets on people on Google&#039;s most-searched list.</p>
+<p class="leading-relaxed text-[16.5px] my-3">      Michele Spagnuolo allegedly used insider information to profit from bets on people on Google&amp;#039;s most-searched list.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Global] Aid cuts and climate change drive deadly malaria surge in Zimbabwe</p>
 <p class="leading-relaxed text-[16.5px] my-3">      A surge in malaria cases in Zimbabwe is exposing fragile health systems and growing treatment shortages in rural areas.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Global] Parisians defy swimming ban to cool off as record heat hits Europe</p>
@@ -552,26 +754,26 @@ tailwind.config = {
 <p class="leading-relaxed text-[16.5px] my-3">      Bolivia’s president has warned protesters “time is running out” amid a weeks-long standoff.</p>
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Chinese Internal News — 243 new of 262 total</h4>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEZhX19PQWdIQmE5RFNfcGZaVFdoYUNLQkQ3NDhibjVyS2g0VTU3RlNGRHEwa2FReU1CMEJTck9LazRiMThZT] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEZhX19PQWdIQmE5RFNfcGZaVFdoYUNLQkQ3NDhibjVyS2g0VTU3RlNGRHEwa2FReU1CMEJTck9LazRiMThZTllLWjVlNGQ2VjZrMEN5Mi1XMEVFM1RLQjF6Q1o2Vkh3aHNIYVhsWDVaSXZZQm9Dd1dsQ0ZlaU</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-26) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVd3eEF4eWdWdHNJMWM0akJ5Z2xpMU5vc3NvbW5wbUJNekVFZ1hnak5lWFRLMGRFRXI3c0IzVTNpWjMwc0l1c] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVd3eEF4eWdWdHNJMWM0akJ5Z2xpMU5vc3NvbW5wbUJNekVFZ1hnak5lWFRLMGRFRXI3c0IzVTNpWjMwc0l1cWVyS0NVckx4QVowZFpFeVRtU01FdlNqR2xUMEV1N3J5VEVUNVlNd21kazdEQkpURUpWQmJUUE</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-26) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQbW40MlpHRlFXQXZQeE1YODFDSzU4VF80Y2wyUkFxMzlqRG1IeVRCbUxpd19jbzlCUVpQVlV3bDNTbXpDUkNkc] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQbW40MlpHRlFXQXZQeE1YODFDSzU4VF80Y2wyUkFxMzlqRG1IeVRCbUxpd19jbzlCUVpQVlV3bDNTbXpDUkNkcVJIWThyZ1J5Y0h6WlczWjMtY25NUGRrWWNDX1VoSDFjc1U4Vlk1RmRyX05BNC1jOXhXT1hXTk</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 新工业革命伙伴城市网络正式启动运作 - 人民网-福建频道 | LEDE: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5fMkt3MXJTbHo5emkta0VsNGVFTlYxUUM1QkRmREFnYjhZdmxaNElxakxOay1rTXNWb0FpY1Z4N0dlV1VqWWJfUFZ3UHVqTU] (zh: 新工业革命伙伴城市网络正式启动运作 - 人民网-福建频道)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5fMkt3MXJTbHo5emkta0VsNGVFTlYxUUM1QkRmREFnYjhZdmxaNElxakxOay1rTXNWb0FpY1Z4N0dlV1VqWWJfUFZ3UHVqTUpjRkZFRWdWSjRfbnVvWTlrMU8yYkZRV0VWSm40YnJXMA?oc=5" target="_blan</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 芒果的新品种，集中品鉴 - 人民网健康 | LEDE: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE40TnhtbGthOXpuQVR0NDE1cGZNaUtZQVFqb190RVVfODV6QnpSYV9tRnJHb3p1UkFkc3Mtcm5MVS01TTJ4Um85cUEtWDlMWjVDbHBqQjg] (zh: 芒果的新品种，集中品鉴 - 人民网健康)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE40TnhtbGthOXpuQVR0NDE1cGZNaUtZQVFqb190RVVfODV6QnpSYV9tRnJHb3p1UkFkc3Mtcm5MVS01TTJ4Um85cUEtWDlMWjVDbHBqQjgtQ3k2RHhnb2dKOG9hVlh3Nm9PM2FNOUNn?oc=5" target="_blank"</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 社区老人有了5元专属理发师 - 人民网健康 | LEDE: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUmZIQ0VXYURLQ3VjYVEtc3BVYzB2cE5mbXRlWm1BNHdkU3A0V3ZjVHRSNjVfZm5FNTJFdjZOSTNlR3pKSm1iV2stN1k2UDdIWDM4a] (zh: 社区老人有了5元专属理发师 - 人民网健康)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUmZIQ0VXYURLQ3VjYVEtc3BVYzB2cE5mbXRlWm1BNHdkU3A0V3ZjVHRSNjVfZm5FNTJFdjZOSTNlR3pKSm1iV2stN1k2UDdIWDM4aUhqRmlhVFZpZmRIV1IxaVFaR2d1amdiUlBB?oc=5" target="_blank"</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 西瓜的老谣言，别再轻信 - 人民网健康 | LEDE: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9KckZWQktUckNqendNamFqSzVrTUd2dDZzUS1BaXdSNU1NcGlPTXBaSUdnN0hXcTFPMEk2d001VjJ0LTNNcFBSODRyejhyQVFWMmhMNFh] (zh: 西瓜的老谣言，别再轻信 - 人民网健康)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9KckZWQktUckNqendNamFqSzVrTUd2dDZzUS1BaXdSNU1NcGlPTXBaSUdnN0hXcTFPMEk2d001VjJ0LTNNcFBSODRyejhyQVFWMmhMNFhGR0RldzVuRkVwTzVBYW9GTlZlSmlwWV9B?oc=5" target="_blank"</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 四川乐山沐川县：打造“沐源尚品”区域公用品牌 - 人民网健康 | LEDE: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZeXR5U1BGTXJfMGlkUk9JTnpCOEhGNkNUTEdwUUJaVG5ENDFTZmVMMHBTcnhyNUgwN0wzZU82aGdLTGpxOFhQb1pjenFR] (zh: 四川乐山沐川县：打造“沐源尚品”区域公用品牌 - 人民网健康)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZeXR5U1BGTXJfMGlkUk9JTnpCOEhGNkNUTEdwUUJaVG5ENDFTZmVMMHBTcnhyNUgwN0wzZU82aGdLTGpxOFhQb1pjenFRR2FvUDNTNG5ILVp3a3NLRHVyYktaUWZfc1ZRb09aZkFR?oc=5" target="_blank"</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEZhX19PQWdIQmE5RFNfcGZaVFdoYUNLQkQ3NDhibjVyS2g0VTU3RlNGRHEwa2FReU1CMEJTck9LazRiMThZT] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEZhX19PQWdIQmE5RFNfcGZaVFdoYUNLQkQ3NDhibjVyS2g0VTU3RlNGRHEwa2FReU1CMEJTck9LazRiMThZTllLWjVlNGQ2VjZrMEN5Mi1XMEVFM1RLQjF6Q1o2Vkh3aHNIYVhsWDVaSXZZQm9Dd1dsQ0ZlaU</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-26) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVd3eEF4eWdWdHNJMWM0akJ5Z2xpMU5vc3NvbW5wbUJNekVFZ1hnak5lWFRLMGRFRXI3c0IzVTNpWjMwc0l1c] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVd3eEF4eWdWdHNJMWM0akJ5Z2xpMU5vc3NvbW5wbUJNekVFZ1hnak5lWFRLMGRFRXI3c0IzVTNpWjMwc0l1cWVyS0NVckx4QVowZFpFeVRtU01FdlNqR2xUMEV1N3J5VEVUNVlNd21kazdEQkpURUpWQmJUUE</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-26) [TITLE: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMihAFBVV95cUxQbW40MlpHRlFXQXZQeE1YODFDSzU4VF80Y2wyUkFxMzlqRG1IeVRCbUxpd19jbzlCUVpQVlV3bDNTbXpDUkNkc] (zh: 责编：王 平 柴逸扉 邮箱：gtbhwb@people.cn - 人民日报)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMihAFBVV95cUxQbW40MlpHRlFXQXZQeE1YODFDSzU4VF80Y2wyUkFxMzlqRG1IeVRCbUxpd19jbzlCUVpQVlV3bDNTbXpDUkNkcVJIWThyZ1J5Y0h6WlczWjMtY25NUGRrWWNDX1VoSDFjc1U4Vlk1RmRyX05BNC1jOXhXT1hXTk</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 新工业革命伙伴城市网络正式启动运作 - 人民网-福建频道 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMib0FVX3lxTE5fMkt3MXJTbHo5emkta0VsNGVFTlYxUUM1QkRmREFnYjhZdmxaNElxakxOay1rTXNWb0FpY1Z4N0dlV1VqWWJfUFZ3UHVqTU] (zh: 新工业革命伙伴城市网络正式启动运作 - 人民网-福建频道)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMib0FVX3lxTE5fMkt3MXJTbHo5emkta0VsNGVFTlYxUUM1QkRmREFnYjhZdmxaNElxakxOay1rTXNWb0FpY1Z4N0dlV1VqWWJfUFZ3UHVqTUpjRkZFRWdWSjRfbnVvWTlrMU8yYkZRV0VWSm40YnJXMA?oc=5&quot; target=&quot;_blan</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 芒果的新品种，集中品鉴 - 人民网健康 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE40TnhtbGthOXpuQVR0NDE1cGZNaUtZQVFqb190RVVfODV6QnpSYV9tRnJHb3p1UkFkc3Mtcm5MVS01TTJ4Um85cUEtWDlMWjVDbHBqQjg] (zh: 芒果的新品种，集中品鉴 - 人民网健康)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE40TnhtbGthOXpuQVR0NDE1cGZNaUtZQVFqb190RVVfODV6QnpSYV9tRnJHb3p1UkFkc3Mtcm5MVS01TTJ4Um85cUEtWDlMWjVDbHBqQjgtQ3k2RHhnb2dKOG9hVlh3Nm9PM2FNOUNn?oc=5&quot; target=&quot;_blank&quot;</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 社区老人有了5元专属理发师 - 人民网健康 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUmZIQ0VXYURLQ3VjYVEtc3BVYzB2cE5mbXRlWm1BNHdkU3A0V3ZjVHRSNjVfZm5FNTJFdjZOSTNlR3pKSm1iV2stN1k2UDdIWDM4a] (zh: 社区老人有了5元专属理发师 - 人民网健康)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUmZIQ0VXYURLQ3VjYVEtc3BVYzB2cE5mbXRlWm1BNHdkU3A0V3ZjVHRSNjVfZm5FNTJFdjZOSTNlR3pKSm1iV2stN1k2UDdIWDM4aUhqRmlhVFZpZmRIV1IxaVFaR2d1amdiUlBB?oc=5&quot; target=&quot;_blank&quot;</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 西瓜的老谣言，别再轻信 - 人民网健康 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE9KckZWQktUckNqendNamFqSzVrTUd2dDZzUS1BaXdSNU1NcGlPTXBaSUdnN0hXcTFPMEk2d001VjJ0LTNNcFBSODRyejhyQVFWMmhMNFh] (zh: 西瓜的老谣言，别再轻信 - 人民网健康)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE9KckZWQktUckNqendNamFqSzVrTUd2dDZzUS1BaXdSNU1NcGlPTXBaSUdnN0hXcTFPMEk2d001VjJ0LTNNcFBSODRyejhyQVFWMmhMNFhGR0RldzVuRkVwTzVBYW9GTlZlSmlwWV9B?oc=5&quot; target=&quot;_blank&quot;</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: 四川乐山沐川县：打造“沐源尚品”区域公用品牌 - 人民网健康 | LEDE: &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZeXR5U1BGTXJfMGlkUk9JTnpCOEhGNkNUTEdwUUJaVG5ENDFTZmVMMHBTcnhyNUgwN0wzZU82aGdLTGpxOFhQb1pjenFR] (zh: 四川乐山沐川县：打造“沐源尚品”区域公用品牌 - 人民网健康)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZeXR5U1BGTXJfMGlkUk9JTnpCOEhGNkNUTEdwUUJaVG5ENDFTZmVMMHBTcnhyNUgwN0wzZU82aGdLTGpxOFhQb1pjenFRR2FvUDNTNG5ILVp3a3NLRHVyYktaUWZfc1ZRb09aZkFR?oc=5&quot; target=&quot;_blank&quot;</p>
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Russian Internal News (state + in-exile) — 201 new of 991 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: Европейскую гуманитарную помощь Украине не ели даже коты | LEDE: ] (ru: Европейскую гуманитарную помощь Украине не ели даже коты)</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: "Его уберут": во Франции выступили с предупреждением по поводу Зеленского | LEDE: ] (ru: "Его уберут": во Франции выступили с предупреждением по поводу Зеленского)</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: &quot;Его уберут&quot;: во Франции выступили с предупреждением по поводу Зеленского | LEDE: ] (ru: &quot;Его уберут&quot;: во Франции выступили с предупреждением по поводу Зеленского)</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: В аэропорту Ульяновска ввели ограничения на полеты | LEDE: ] (ru: В аэропорту Ульяновска ввели ограничения на полеты)</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: Бундесверу очень далеко до статуса первой армии Европы, считает политик | LEDE: ] (ru: Бундесверу очень далеко до статуса первой армии Европы, считает политик)</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: Источник: представители Mitsubishi могли войти в состав делегации Японии | LEDE: ] (ru: Источник: представители Mitsubishi могли войти в состав делегации Японии)</p>
@@ -586,8 +788,8 @@ tailwind.config = {
 <p class="leading-relaxed text-[16.5px] my-3">      Американські військову вчергове заявили, що знищили судно наркотрафіку в Тихому океані.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: Швеція планує оголосити про передачу і продаж Україні винищувачів Gripen – ЗМІ | LEDE: Gripen для України: Швеція планує оголосити про передачу і продаж винищувачів.] (uk: Швеція планує оголосити про передачу і продаж Україні винищувачів Gripen – ЗМІ)</p>
 <p class="leading-relaxed text-[16.5px] my-3">      Gripen для України: Швеція планує оголосити про передачу і продаж винищувачів.</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: США завдали нових ударів по військовому об'єкту в Ірані – ЗМІ | LEDE: За даними ЗМІ, США здійснили нову атаку на військовий об'єкт Ірану.] (uk: США завдали нових ударів по військовому об'єкту в Ірані – ЗМІ)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      За даними ЗМІ, США здійснили нову атаку на військовий об'єкт Ірану.</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: США завдали нових ударів по військовому об&#x27;єкту в Ірані – ЗМІ | LEDE: За даними ЗМІ, США здійснили нову атаку на військовий об&#x27;єкт Ірану.] (uk: США завдали нових ударів по військовому об&#x27;єкту в Ірані – ЗМІ)</p>
+<p class="leading-relaxed text-[16.5px] my-3">      За даними ЗМІ, США здійснили нову атаку на військовий об&#x27;єкт Ірану.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [TITLE: Під час перебування конгресменів США в Києві Зеленський обговорив з ними потреби ППО | LEDE: Двоє конгресменів США прибули до Києва, Зеленський провів з ними зустріч.] (uk: Під час перебування конгресменів США в Києві Зеленський обговорив з ними потреби)</p>
 <p class="leading-relaxed text-[16.5px] my-3">      Двоє конгресменів США прибули до Києва, Зеленський провів з ними зустріч.</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) Trump Endorses Pashinyan Ahead of Crucial Armenia Vote</p>
@@ -618,8 +820,8 @@ tailwind.config = {
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Paper Trading Scorecard — 4 new of 137 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Polymarket] Will Club Bolívar win on 2026-05-27?</p>
 <p class="leading-relaxed text-[16.5px] my-3">      In the upcoming game, scheduled for May 27, 2026</p>
-<p class="leading-relaxed text-[16.5px] my-3">If Club Bolívar wins, this market will resolve to "Yes".</p>
-<p class="leading-relaxed text-[16.5px] my-3">Otherwise, this market will resolve to "No".</p>
+<p class="leading-relaxed text-[16.5px] my-3">If Club Bolívar wins, this market will resolve to &quot;Yes&quot;.</p>
+<p class="leading-relaxed text-[16.5px] my-3">Otherwise, this market will resolve to &quot;No&quot;.</p>
 <p class="leading-relaxed text-[16.5px] my-3">If the game is postponed, this market will remain open until the game</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Polymarket] LoL: Supernova vs Winthrop University (BO5) - North American Challengers League Playoffs</p>
 <p class="leading-relaxed text-[16.5px] my-3">      This market refers to the LoL Lower bracket quarterfinal match between Supernova and Winthrop University in the North American Challengers League Playoffs, initially scheduled for May 27 at 4:00PM ET.</p>
@@ -629,7 +831,7 @@ tailwind.config = {
 <p class="leading-relaxed text-[16.5px] my-3">      This market will resolve according to the 7-day moving average of transit calls (“Arrivals of Ships”) for the Strait of Hormuz that IMF Portwatch reports for May 31, 2026.</p>
 
 <p class="leading-relaxed text-[16.5px] my-3">If the reported value falls exactly between two</p>
-<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Manifold] Will "Contra Wentworth on Physical Attractiveness f..." make the top fifty posts in LessWrong's 2026 Annual Review?</p>
+<p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Manifold] Will &quot;Contra Wentworth on Physical Attractiveness f...&quot; make the top fifty posts in LessWrong&#x27;s 2026 Annual Review?</p>
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">U.S. Weather + Severe / Climate Outlooks — 58 new of 103 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 11:02PM EDT until May 28 at 8:00PM EDT by NWS Grand Rapids MI</p>
@@ -694,11 +896,11 @@ tailwind.config = {
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Government Action: Sanctions + Procurement + Foreign Agents — 20 new of 95 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-27) [OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Crimin</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5&quot; target=&quot;_blank&quot;&gt;International Crimin</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related De</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5&quot; target=&quot;_blank&quot;&gt;Iran-related De</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-21) [OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)</p>
-<p class="leading-relaxed text-[16.5px] my-3">      <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5" target="_blank">Counter Terrorism De</p>
+<p class="leading-relaxed text-[16.5px] my-3">      &lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5&quot; target=&quot;_blank&quot;&gt;Counter Terrorism De</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [USASpending] $534,079,951 → SCIENCE APPLICATIONS INTERNATIONAL CORPORATION: SYSTEM SOFTWARE LIFECYCLE ENGINEERING SSLE</p>
 <p class="leading-relaxed text-[16.5px] my-3">      Agency: General Services Administration.  Description: SYSTEM SOFTWARE LIFECYCLE ENGINEERING SSLE</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [USASpending] $486,224,471 → LOCKHEED MARTIN CORPORATION: TAS::80 0110::TAS GEOSTATIONARY LIGHTNING MAPPER (GLM) INSTR</p>
@@ -716,7 +918,7 @@ tailwind.config = {
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Forbes Real-Time Billionaires (top 30 + biggest movers) — 0 new of 30 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  (no new items today)</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">World leaders & government officials — 324 new of 324 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">World leaders &amp; government officials — 324 new of 324 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - () [Afghanistan] head of state: Hibatullah Akhundzada</p>
 <p class="leading-relaxed text-[16.5px] my-3">      position: Head of state · head of govt: Mohammad Hasan Akhund</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - () [Albania] head of state: Bajram Begaj</p>
@@ -734,7 +936,7 @@ tailwind.config = {
 <p class="leading-relaxed text-[16.5px] my-3">  - () [Argentina] head of state: Javier Milei</p>
 <p class="leading-relaxed text-[16.5px] my-3">      position: Head of state</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Sanctions & Designations (recent) — 30 new of 30 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Sanctions &amp; Designations (recent) — 30 new of 30 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-08) BELORUSSIAN- RUSSIAN BELGAZPROMBANK JOINT STOCK (Company)</p>
 <p class="leading-relaxed text-[16.5px] my-3">      source: ca_dfatd_sema_sanctions, ch_seco_sanctions, eu_journal_sanctions, ua_nsdc_sanctions, ua_war_sanctions · country: by · topics: fin, fin.bank, sanction</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-08) JSC MIR BUSINESS BANK (Company)</p>
@@ -785,7 +987,7 @@ tailwind.config = {
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">MediaCloud — global news index (watch-area filtered) — 0 new of 0 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  (no new items today)</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Conflict & unrest (GDELT, last 48h) — 40 new of 40 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Conflict &amp; unrest (GDELT, last 48h) — 40 new of 40 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [United States] AP News Summary at 9 : 48 p . m . EDT</p>
 <p class="leading-relaxed text-[16.5px] my-3">      domain: woonsocketcall.com · language: English · tone:</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [Canada] Loved ones remember little Sudbury girl as joyful  spitfire</p>
@@ -809,7 +1011,7 @@ tailwind.config = {
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Active fires near conflict zones (NASA FIRMS / VIIRS) — 0 new of 0 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  (no new items today)</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Government & military aircraft airborne (OpenSky) — 8 new of 8 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Government &amp; military aircraft airborne (OpenSky) — 8 new of 8 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) EAGLE1 (United States)</p>
 <p class="leading-relaxed text-[16.5px] my-3">      icao24: a8695d · position: (34.1259, -117.3419) · alt: 579m · 182km/h</p>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) CFC2558 (Canada)</p>
@@ -849,13 +1051,13 @@ tailwind.config = {
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) Will Germany win the 2026 FIFA World Cup?</p>
 <p class="leading-relaxed text-[16.5px] my-3">      yes price: 5% · 24h volume: $719,491 · resolves 2026-07-20</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Commentary & analysis (last 7 days) — 0 new of 6 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Commentary &amp; analysis (last 7 days) — 0 new of 6 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  (no new items today)</p>
 
 <h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">U.S. Political Figures (per-figure anomaly tracking) — 0 new of 613 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  (no new items today)</p>
 
-<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Paper-Bet Placement (today's new positions) — 1 new of 1 total</h4>
+<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">Paper-Bet Placement (today&#x27;s new positions) — 1 new of 1 total</h4>
 <p class="leading-relaxed text-[16.5px] my-3">  - (2026-05-28) [paper_bet_placement] No bets placed today</p>
 <p class="leading-relaxed text-[16.5px] my-3">      The decision module did not identify any markets with sufficient edge today. Either evidence converges with market consensus, or Claude API was unavailable.</p>
 
@@ -909,7 +1111,7 @@ tailwind.config = {
 <li class="leading-snug">[2026-05-20] ECB press: Results of the March 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)</li>
 <li class="leading-snug">[2026-05-20] Fed speeches: Barr, Measuring Financial Health</li>
 <li class="leading-snug">[2026-05-20] Fed press (events + announcements): Minutes of the Federal Open Market Committee, April 28-29, 2026</li>
-<li class="leading-snug">[2026-05-20] Fed press (events + announcements): Federal Reserve Board requests public comment on a proposal to establish a "payment account," which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments</li>
+<li class="leading-snug">[2026-05-20] Fed press (events + announcements): Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments</li>
 <li class="leading-snug">[2026-05-21] Fed press (events + announcements): Federal Reserve Board issues enforcement action with former employee of Commerce Bank</li>
 <li class="leading-snug">[2026-05-21] ECB press: Frank Elderson: A central banker’s perspective on climate change and nature degradation</li>
 <li class="leading-snug">[2026-05-22] ECB press: Philip R. Lane: Europe and the world economy</li>
@@ -919,16 +1121,17 @@ tailwind.config = {
 <li class="leading-snug">[2026-05-22] Fed press (events + announcements): Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman</li>
 <li class="leading-snug">[2026-05-26] ECB press: Isabel Schnabel: Interview with Reuters</li>
 <li class="leading-snug">[2026-05-26] ECB press: Philip R. Lane: Interview with Nikkei</li>
-<li class="leading-snug">[2026-05-26] Fed press (events + announcements): Minutes of the Board's discount rate meeting on April 20 and 29, 2026</li>
+<li class="leading-snug">[2026-05-26] Fed press (events + announcements): Minutes of the Board&#x27;s discount rate meeting on April 20 and 29, 2026</li>
 </ul>
 
 <p class="leading-relaxed text-[16.5px] my-3"><em>Calendar currently shows recent central-bank announcements (often forward-looking). Explicit forthcoming-event APIs — FRED release calendar, FOMC dates, Treasury auctions, SCOTUS oral argument calendar — land in a later sprint.</em></p>
 
 <p class="leading-relaxed text-[16.5px] my-3"><em>Note: this is the deterministic fallback. Set `ANTHROPIC_API_KEY` for synthesized prose.</em></p>
   </div>
-</section><section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections"><hr class="editorial-rule mb-7"><div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-5">All sections</div><div class="columns-1 md:columns-2 xl:columns-3 gap-6 [column-fill:_balance]">
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-acled">
+</section><section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections" id="ws-sections"><hr class="editorial-rule mb-6"><div class="flex flex-wrap items-baseline gap-4 mb-5"><div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim">All sections</div><div class="flex flex-wrap gap-1.5 ws-tier-filter" role="group" aria-label="Filter by source tier"><button type="button" class="ws-tier-pill ws-tier-active" data-tier="all">all</button><button type="button" class="ws-tier-pill" data-tier="primary_document">primary</button><button type="button" class="ws-tier-pill" data-tier="mainstream_independent">mainstream</button><button type="button" class="ws-tier-pill" data-tier="regional_independent">regional</button><button type="button" class="ws-tier-pill" data-tier="ngo_independent">ngo</button><button type="button" class="ws-tier-pill" data-tier="academic">academic</button></div></div><div class="columns-1 md:columns-2 xl:columns-3 gap-6 [column-fill:_balance]">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-acled"
+         data-tier="ngo_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">⚔️</span>
     <div class="flex-1 min-w-0">
@@ -947,8 +1150,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-billionaires">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-billionaires"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">💎</span>
     <div class="flex-1 min-w-0">
@@ -1001,8 +1205,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-chinese_internal">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-chinese_internal"
+         data-tier="regional_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🇨🇳</span>
     <div class="flex-1 min-w-0">
@@ -1055,8 +1260,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-cisa_kev">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-cisa_kev"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🔓</span>
     <div class="flex-1 min-w-0">
@@ -1095,8 +1301,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-commentary">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-commentary"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">💬</span>
     <div class="flex-1 min-w-0">
@@ -1120,8 +1327,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-conflict">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-conflict"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">⚔️</span>
     <div class="flex-1 min-w-0">
@@ -1174,8 +1382,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-congressional_trades">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-congressional_trades"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🏛️</span>
     <div class="flex-1 min-w-0">
@@ -1194,8 +1403,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-courtlistener">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-courtlistener"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">⚖️</span>
     <div class="flex-1 min-w-0">
@@ -1248,8 +1458,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-fec">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-fec"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">💵</span>
     <div class="flex-1 min-w-0">
@@ -1299,8 +1510,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-federal_register">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-federal_register"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🏛️</span>
     <div class="flex-1 min-w-0">
@@ -1344,8 +1556,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-firms">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-firms"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🔥</span>
     <div class="flex-1 min-w-0">
@@ -1364,8 +1577,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-forecasts">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-forecasts"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🔮</span>
     <div class="flex-1 min-w-0">
@@ -1408,8 +1622,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-foreign_news">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-foreign_news"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🌍</span>
     <div class="flex-1 min-w-0">
@@ -1462,8 +1677,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-form4">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-form4"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📑</span>
     <div class="flex-1 min-w-0">
@@ -1516,8 +1732,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-gdelt_gkg">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-gdelt_gkg"
+         data-tier="academic">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🌐</span>
     <div class="flex-1 min-w-0">
@@ -1536,8 +1753,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-gdelt_regions">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-gdelt_regions"
+         data-tier="academic">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🌐</span>
     <div class="flex-1 min-w-0">
@@ -1590,8 +1808,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-local_news">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-local_news"
+         data-tier="regional_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🏙️</span>
     <div class="flex-1 min-w-0">
@@ -1644,8 +1863,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-macro">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-macro"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🏦</span>
     <div class="flex-1 min-w-0">
@@ -1664,8 +1884,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-markets">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-markets"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📊</span>
     <div class="flex-1 min-w-0">
@@ -1684,8 +1905,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-markets_global">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-markets_global"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🌐</span>
     <div class="flex-1 min-w-0">
@@ -1738,8 +1960,9 @@ tailwind.config = {
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-mediacloud">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-mediacloud"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📰</span>
     <div class="flex-1 min-w-0">
@@ -1758,8 +1981,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-paper_bet_placement">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-paper_bet_placement"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📌</span>
     <div class="flex-1 min-w-0">
@@ -1778,8 +2002,9 @@ tailwind.config = {
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-paper_bets">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-paper_bets"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📌</span>
     <div class="flex-1 min-w-0">
@@ -1853,8 +2078,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-people">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-people"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">👤</span>
     <div class="flex-1 min-w-0">
@@ -1907,8 +2133,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-political_figures">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-political_figures"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">👥</span>
     <div class="flex-1 min-w-0">
@@ -1961,8 +2188,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-promed">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-promed"
+         data-tier="ngo_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🦠</span>
     <div class="flex-1 min-w-0">
@@ -1981,8 +2209,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-reliefweb">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-reliefweb"
+         data-tier="ngo_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🆘</span>
     <div class="flex-1 min-w-0">
@@ -2001,8 +2230,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
   
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-russian_internal">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-russian_internal"
+         data-tier="regional_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🇷🇺</span>
     <div class="flex-1 min-w-0">
@@ -2055,8 +2285,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-sanctions">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-sanctions"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">⚖️</span>
     <div class="flex-1 min-w-0">
@@ -2109,8 +2340,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-sanctions_procurement">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-sanctions_procurement"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">⚖️</span>
     <div class="flex-1 min-w-0">
@@ -2163,8 +2395,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-state_bills">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-state_bills"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🏛️</span>
     <div class="flex-1 min-w-0">
@@ -2217,8 +2450,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-state_news">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-state_news"
+         data-tier="regional_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📍</span>
     <div class="flex-1 min-w-0">
@@ -2271,8 +2505,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-ukraine_theater">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-ukraine_theater"
+         data-tier="mainstream_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🎯</span>
     <div class="flex-1 min-w-0">
@@ -2325,8 +2560,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-ukrainian_internal">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-ukrainian_internal"
+         data-tier="regional_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🇺🇦</span>
     <div class="flex-1 min-w-0">
@@ -2379,8 +2615,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-vip_flights">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-vip_flights"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">✈️</span>
     <div class="flex-1 min-w-0">
@@ -2411,8 +2648,9 @@ For the purposes of this market, only main feed posts, quote posts and repost</d
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-weather">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-weather"
+         data-tier="primary_document">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">🌪️</span>
     <div class="flex-1 min-w-0">
@@ -2639,8 +2877,9 @@ For the West Fork Ri</div></li></ul>
 </details>
 </article>
 
-<article class="lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
-         aria-labelledby="sec-wikidata_changes">
+<article class="ws-sec lift-card bg-panel border border-mist rounded-xl p-5 shadow-card border-l-[3px] border-l-navy break-inside-avoid mb-5 animate-fade-rise"
+         aria-labelledby="sec-wikidata_changes"
+         data-tier="ngo_independent">
   <header class="flex items-start gap-3 mb-3">
     <span class="section-glyph shrink-0" aria-hidden="true">📚</span>
     <div class="flex-1 min-w-0">
@@ -2657,7 +2896,42 @@ For the West Fork Ri</div></li></ul>
   <div class="font-sans text-[13px] text-slate-dim italic py-2 flex items-center gap-1.5"><span class="inline-block w-1.5 h-1.5 rounded-full bg-teal" aria-hidden="true" title="upstream API answered cleanly with zero items"></span>clean pull · no signal in watch areas today</div>
   <ul class="list-none p-0 m-0"></ul>
   
-</article></div></section>
+</article></div>
+<script>
+(() => {
+  const KEY = 'ws.tier-filter';
+  function apply(active) {
+    document.querySelectorAll('.ws-sec').forEach(el => {
+      const t = el.dataset.tier || 'mainstream_independent';
+      const show = active.has('all') || active.has(t);
+      el.style.opacity = show ? '' : '0.18';
+      el.style.pointerEvents = show ? '' : 'none';
+    });
+    document.querySelectorAll('.ws-tier-pill').forEach(p => {
+      p.classList.toggle('ws-tier-active', active.has(p.dataset.tier));
+    });
+    try { localStorage.setItem(KEY, JSON.stringify([...active])); } catch (e) {}
+  }
+  let active;
+  try {
+    const stored = JSON.parse(localStorage.getItem(KEY) || '["all"]');
+    active = new Set(Array.isArray(stored) && stored.length ? stored : ['all']);
+  } catch (e) { active = new Set(['all']); }
+  document.querySelectorAll('.ws-tier-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const t = pill.dataset.tier;
+      if (t === 'all') { active = new Set(['all']); }
+      else {
+        active.delete('all');
+        if (active.has(t)) active.delete(t); else active.add(t);
+        if (!active.size) active.add('all');
+      }
+      apply(active);
+    });
+  });
+  apply(active);
+})();
+</script></section>
 <nav class="px-7 max-w-[1200px] mx-auto mt-12 mb-2" aria-label="Recent briefings">
   <hr class="editorial-rule mb-4">
   <div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-2">
