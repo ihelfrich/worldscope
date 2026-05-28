@@ -93,8 +93,18 @@ tailwind.config = {
       font-size: 16.5px;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+      text-rendering: optimizeLegibility;
+    }
+    /* Tabular figures for numbers everywhere — keeps counts column-aligned */
+    .tabular-nums, [data-figure-target] text, .count, time, .stat {
+      font-feature-settings: 'tnum' 1, 'kern' 1;
+      font-variant-numeric: tabular-nums;
     }
     ::selection { background: #D4A01755; }
+    /* Headings: refined editorial rhythm */
+    h1, h2, h3 { font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'lnum' 1; }
   }
   @layer components {
     /* Editorial drop-cap on first letter of the lede paragraph */
@@ -183,6 +193,60 @@ tailwind.config = {
       line-height: 1;
       filter: saturate(0.85);
     }
+    /* Editorial pull-quote: large serif italic, gold-rule accent.
+       Used in the hero "story of the day" treatment. */
+    .pull-quote {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: clamp(20px, 2.2vw, 26px);
+      line-height: 1.32;
+      color: #0B1220;
+      padding-left: 1.05rem;
+      border-left: 3px solid #D4A017;
+      letter-spacing: -0.005em;
+    }
+    /* Figure-card hover: gold accent bar slides in from left.
+       Subtle but unmistakably-editorial cue. */
+    .figure-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .figure-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: #D4A017;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
+    }
+    .figure-card:hover::before { transform: scaleY(1); }
+    /* "Stat block" — oversized number with caption beneath. */
+    .stat-block .stat {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 800;
+      font-size: clamp(40px, 4.4vw, 56px);
+      line-height: 0.96;
+      letter-spacing: -0.025em;
+      color: #13294B;
+    }
+    .stat-block .stat-label {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #4E5667;
+      margin-top: 6px;
+    }
+    /* Vega chart frame — restrained look that matches the card chrome */
+    [data-vega-target] .vega-embed {
+      width: 100%;
+      display: block;
+    }
+    [data-vega-target] svg { display: block; max-width: 100%; }
   }
   @layer utilities {
     /* Glass strip used by sticky topnav over the canvas background */

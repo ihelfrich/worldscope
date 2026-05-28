@@ -265,6 +265,19 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as lex:  # pragma: no cover
         print(f"[lake-export] failed: {type(lex).__name__}: {lex}")
 
+    # 1d-quinquies. Build today's interactive figure + map specs. The
+    # deterministic generator runs unconditionally; the LLM-curated
+    # override is taken when ANTHROPIC_API_KEY is set in the env. Output
+    # is dist/data/figures.json, hydrated client-side by
+    # dist/assets/worldscope-figures.js.
+    try:
+        from .figures_engine import build_from_repo as _build_figures
+        _exp_repo = Path(__file__).resolve().parent.parent
+        _fig_path = _build_figures(_exp_repo, Path(out_dir), today=today)
+        print(f"[figures] {_fig_path}")
+    except Exception as fex:  # pragma: no cover
+        print(f"[figures] failed: {type(fex).__name__}: {fex}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made
@@ -331,6 +344,15 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             })
     except Exception as _csx:
         print(f"[render] cross_section.json read failed: {_csx}")
+    # Load figures.json (written by build_figures above) so the renderer
+    # can drop placeholder cards in the hero band.
+    figures_doc: dict = {}
+    fig_path = Path(out_dir) / "data" / "figures.json"
+    if fig_path.exists():
+        try:
+            figures_doc = json.loads(fig_path.read_text(encoding="utf-8"))
+        except Exception as _fxx:
+            print(f"[render] figures.json read failed: {_fxx}")
     page = render_page(
         today, sections_html, out_dir,
         overview_md=overview_md,
@@ -338,6 +360,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         states=states,
         synth_by_section=synth_by_section,
         cross_section=cross_section_data,
+        figures=figures_doc,
         network_seed_json=network_seed_json,
     )
 

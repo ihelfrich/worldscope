@@ -143,6 +143,17 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
     chips_html = _signal_chips(cross_section)
     chips_count = (cross_section or {}).get("recurrences_found", 0)
 
+    # Compute the headline stat for the hero: total NEW items today + the
+    # leading converging entity. Falls back gracefully when data's thin.
+    total_new = sum(len(getattr(s, "new", []) or []) for s in states.values()) if states else 0
+    top_entity = None
+    for band in ("high", "medium", "low"):
+        for e in (cross_section or {}).get("by_confidence", {}).get(band, []) or []:
+            top_entity = e
+            break
+        if top_entity:
+            break
+
     top_news = _top_new_items(states, limit=3)
     news_cards = []
     for sid, title, it in top_news:
@@ -176,47 +187,131 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
         f'recurring across 3+ sections.'
     ) if chips_count else 'No cross-section recurrence today.'
 
+    # The "stat block" — pulled into the hero on the right side. Shows
+    # total NEW today, the leading converging entity, and a quick
+    # one-line story of the day. Renders restrained on mobile, dramatic
+    # on lg+.
+    if top_entity:
+        story_quote = (
+            f"<strong class='text-navy'>{html.escape(top_entity.get('canonical_name','?'))}</strong> "
+            f"appeared in <strong class='text-navy'>{int(top_entity.get('n_sections') or 0)}</strong> "
+            f"sections today — "
+            f"<span class='text-slate'>"
+            + ", ".join(html.escape(s) for s in (top_entity.get('sections') or [])[:4])
+            + "</span>."
+        )
+    elif total_new:
+        story_quote = (
+            f"<strong class='text-navy'>{total_new}</strong> records new since yesterday. "
+            f"No single thread is converging across sections — today's signal is dispersed."
+        )
+    else:
+        story_quote = "A quiet day across the watch list."
+
     return f"""
-<header class="relative pt-12 pb-10 px-7 max-w-[1200px] mx-auto">
-  <div class="font-sans text-kicker text-gold uppercase mb-3">{html.escape(kicker)}</div>
-  <h1 class="font-serif text-editorial text-ink mb-2">WORLDSCOPE</h1>
-  <p class="font-serif text-lede text-slate max-w-2xl mb-5">
-    Daily political, economic, and OSINT briefing &mdash; primary sources only,
-    synthesized into one page.
-  </p>
-  <div class="flex flex-wrap items-center gap-3 mb-2">
-    <a href="./zips/{date_obj.isoformat()}.zip" download
-       class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-              bg-navy text-white px-4 py-2.5 rounded-md shadow-card
-              hover:bg-navy-soft hover:shadow-lift transition-all">
-      <span aria-hidden="true">⬇</span> Today's package (.zip)
-    </a>
-    <a href="./sections/"
-       class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-              text-navy hover:text-gold transition-colors px-1">
-      Drill into sections →
-    </a>
+<header class="relative pt-16 lg:pt-20 pb-8 px-7 max-w-[1200px] mx-auto">
+  <div class="font-sans text-kicker text-gold uppercase mb-4">{html.escape(kicker)}</div>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
+    <div class="lg:col-span-7">
+      <h1 class="font-serif text-editorial text-ink mb-3">WORLDSCOPE</h1>
+      <p class="font-serif text-lede text-slate max-w-2xl mb-6">
+        Daily political, economic, and OSINT briefing &mdash; primary sources only,
+        synthesized into one page.
+      </p>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="./zips/{date_obj.isoformat()}.zip" download
+           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
+                  bg-navy text-white px-4 py-2.5 rounded-md shadow-card
+                  hover:bg-navy-soft hover:shadow-lift transition-all">
+          <span aria-hidden="true">⬇</span> Today's package (.zip)
+        </a>
+        <a href="./sections/"
+           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
+                  text-navy hover:text-gold transition-colors px-1">
+          Drill into sections →
+        </a>
+      </div>
+    </div>
+    <div class="lg:col-span-5 stat-block">
+      <div class="stat tabular-nums">{total_new:,}</div>
+      <div class="stat-label">records new since yesterday</div>
+      <div class="pull-quote mt-5">{story_quote}</div>
+    </div>
   </div>
 </header>
 
-<section class="px-7 max-w-[1200px] mx-auto mb-8" aria-labelledby="signals-h">
-  <hr class="editorial-rule mb-6">
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-8">
+<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="signals-h">
+  <hr class="editorial-rule mb-7">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-10">
     <div class="lg:col-span-7">
-      <h2 id="signals-h" class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-3">
+      <h2 id="signals-h" class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
         Signals converging today
       </h2>
-      <p class="font-serif text-[15.5px] leading-snug text-ink mb-4 max-w-xl">{signals_intro}</p>
+      <p class="font-serif text-[16px] leading-snug text-ink mb-4 max-w-xl">{signals_intro}</p>
       {chips_html or '<div class="text-slate-dim font-sans text-[13px] italic">No recurring entities reached the 3-section threshold.</div>'}
     </div>
     <div class="lg:col-span-5">
-      <h2 class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-3">
+      <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
         Top of the brief
       </h2>
       {news_col}
     </div>
   </div>
 </section>
+"""
+
+
+# -----------------------------------------------------------------------------
+# Figures band: interactive Vega-Lite charts driven by figures.json
+# -----------------------------------------------------------------------------
+
+def _figures_block(figures_doc: Optional[dict]) -> str:
+    """Render the interactive figure cards. Each card is a placeholder the
+    client-side worldscope-figures.js script hydrates with the Vega-Lite
+    spec, kicker, title, and caption from data/figures.json.
+
+    When figures_doc is None or empty the band is omitted (no empty card
+    skeletons left behind).
+    """
+    figs = (figures_doc or {}).get("figures") or []
+    if not figs:
+        return ""
+    cards: list[str] = []
+    for f in figs:
+        fid    = html.escape(str(f.get("id") or ""), quote=True)
+        kicker = html.escape(str(f.get("kicker") or "FIGURE"))
+        title  = html.escape(str(f.get("title") or ""))
+        # Caption is server-trusted; rendered as HTML so <strong> survives.
+        caption = str(f.get("caption") or "")
+        # Wide cards (map, cross-section recurrence) span 2 cols on lg+;
+        # everything else is 1 col. World map gets even more height.
+        spans = {"world-map": "lg:col-span-2", "cross-section": "lg:col-span-2"}
+        span_class = spans.get(f.get("id") or "", "")
+        h = {"world-map": "min-h-[420px]"}.get(f.get("id") or "", "min-h-[320px]")
+        cards.append(f"""
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise {span_class}"
+         data-figure="{fid}">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>{kicker}</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>{title}</h3>
+  </header>
+  <div data-vega-target class="{h} px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>{caption}</footer>
+</article>""")
+    return f"""
+<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="figures-h">
+  <hr class="editorial-rule mb-7">
+  <div class="flex items-baseline justify-between mb-4 flex-wrap gap-3">
+    <h2 id="figures-h" class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim">
+      Today in charts
+    </h2>
+    <div class="font-sans text-[10.5px] uppercase tracking-[0.10em] text-slate-dim" data-figures-meta></div>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    {"".join(cards)}
+  </div>
+</section>
+<script src="assets/worldscope-figures.js" defer></script>
 """
 
 
@@ -379,6 +474,7 @@ def render_page(
     states: Optional[dict] = None,
     synth_by_section: Optional[dict[str, str]] = None,
     cross_section: Optional[dict] = None,
+    figures: Optional[dict] = None,
     network_seed_json: str = "{}",
 ) -> Path:
     """Render today's brief. When `states` is provided, builds the modern
@@ -389,6 +485,7 @@ def render_page(
     out_dir.mkdir(parents=True, exist_ok=True)
 
     hero = _hero_block(date_obj, cross_section or {}, states or {})
+    figures_band = _figures_block(figures)
     overview = _overview_block(overview_md)
 
     # Section cards. If we have states (the modern path), render every
@@ -413,7 +510,7 @@ def render_page(
         )
 
     archive_html = _archive_nav(archive_dates)
-    main_body = f"<main>{hero}{overview}{sections_block}{archive_html}</main>{footer_block()}"
+    main_body = f"<main>{hero}{figures_band}{overview}{sections_block}{archive_html}</main>{footer_block()}"
 
     page = page_shell(
         title=f"WORLDSCOPE · {date_obj.isoformat()}",

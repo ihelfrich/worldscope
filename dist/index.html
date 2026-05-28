@@ -75,8 +75,18 @@ tailwind.config = {
       font-size: 16.5px;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+      text-rendering: optimizeLegibility;
+    }
+    /* Tabular figures for numbers everywhere — keeps counts column-aligned */
+    .tabular-nums, [data-figure-target] text, .count, time, .stat {
+      font-feature-settings: 'tnum' 1, 'kern' 1;
+      font-variant-numeric: tabular-nums;
     }
     ::selection { background: #D4A01755; }
+    /* Headings: refined editorial rhythm */
+    h1, h2, h3 { font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'lnum' 1; }
   }
   @layer components {
     /* Editorial drop-cap on first letter of the lede paragraph */
@@ -165,6 +175,60 @@ tailwind.config = {
       line-height: 1;
       filter: saturate(0.85);
     }
+    /* Editorial pull-quote: large serif italic, gold-rule accent.
+       Used in the hero "story of the day" treatment. */
+    .pull-quote {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: clamp(20px, 2.2vw, 26px);
+      line-height: 1.32;
+      color: #0B1220;
+      padding-left: 1.05rem;
+      border-left: 3px solid #D4A017;
+      letter-spacing: -0.005em;
+    }
+    /* Figure-card hover: gold accent bar slides in from left.
+       Subtle but unmistakably-editorial cue. */
+    .figure-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .figure-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: #D4A017;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
+    }
+    .figure-card:hover::before { transform: scaleY(1); }
+    /* "Stat block" — oversized number with caption beneath. */
+    .stat-block .stat {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 800;
+      font-size: clamp(40px, 4.4vw, 56px);
+      line-height: 0.96;
+      letter-spacing: -0.025em;
+      color: #13294B;
+    }
+    .stat-block .stat-label {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #4E5667;
+      margin-top: 6px;
+    }
+    /* Vega chart frame — restrained look that matches the card chrome */
+    [data-vega-target] .vega-embed {
+      width: 100%;
+      display: block;
+    }
+    [data-vega-target] svg { display: block; max-width: 100%; }
   }
   @layer utilities {
     /* Glass strip used by sticky topnav over the canvas background */
@@ -223,42 +287,51 @@ tailwind.config = {
   </div>
 </nav>
 <main>
-<header class="relative pt-12 pb-10 px-7 max-w-[1200px] mx-auto">
-  <div class="font-sans text-kicker text-gold uppercase mb-3">THURSDAY · MAY 28, 2026</div>
-  <h1 class="font-serif text-editorial text-ink mb-2">WORLDSCOPE</h1>
-  <p class="font-serif text-lede text-slate max-w-2xl mb-5">
-    Daily political, economic, and OSINT briefing &mdash; primary sources only,
-    synthesized into one page.
-  </p>
-  <div class="flex flex-wrap items-center gap-3 mb-2">
-    <a href="./zips/2026-05-28.zip" download
-       class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-              bg-navy text-white px-4 py-2.5 rounded-md shadow-card
-              hover:bg-navy-soft hover:shadow-lift transition-all">
-      <span aria-hidden="true">⬇</span> Today's package (.zip)
-    </a>
-    <a href="./sections/"
-       class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-              text-navy hover:text-gold transition-colors px-1">
-      Drill into sections →
-    </a>
+<header class="relative pt-16 lg:pt-20 pb-8 px-7 max-w-[1200px] mx-auto">
+  <div class="font-sans text-kicker text-gold uppercase mb-4">THURSDAY · MAY 28, 2026</div>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
+    <div class="lg:col-span-7">
+      <h1 class="font-serif text-editorial text-ink mb-3">WORLDSCOPE</h1>
+      <p class="font-serif text-lede text-slate max-w-2xl mb-6">
+        Daily political, economic, and OSINT briefing &mdash; primary sources only,
+        synthesized into one page.
+      </p>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="./zips/2026-05-28.zip" download
+           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
+                  bg-navy text-white px-4 py-2.5 rounded-md shadow-card
+                  hover:bg-navy-soft hover:shadow-lift transition-all">
+          <span aria-hidden="true">⬇</span> Today's package (.zip)
+        </a>
+        <a href="./sections/"
+           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
+                  text-navy hover:text-gold transition-colors px-1">
+          Drill into sections →
+        </a>
+      </div>
+    </div>
+    <div class="lg:col-span-5 stat-block">
+      <div class="stat tabular-nums">1,384</div>
+      <div class="stat-label">records new since yesterday</div>
+      <div class="pull-quote mt-5"><strong class='text-navy'>China</strong> appeared in <strong class='text-navy'>3</strong> sections today — <span class='text-slate'>conflict, markets_global, vip_flights</span>.</div>
+    </div>
   </div>
 </header>
 
-<section class="px-7 max-w-[1200px] mx-auto mb-8" aria-labelledby="signals-h">
-  <hr class="editorial-rule mb-6">
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-8">
+<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="signals-h">
+  <hr class="editorial-rule mb-7">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-10">
     <div class="lg:col-span-7">
-      <h2 id="signals-h" class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-3">
+      <h2 id="signals-h" class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
         Signals converging today
       </h2>
-      <p class="font-serif text-[15.5px] leading-snug text-ink mb-4 max-w-xl">Today 3 entities are recurring across 3+ sections.</p>
+      <p class="font-serif text-[16px] leading-snug text-ink mb-4 max-w-xl">Today 3 entities are recurring across 3+ sections.</p>
       <div class="flex flex-wrap gap-2"><span class="signal-chip animate-fade-rise" data-conf="medium"><span class="conf-dot" aria-hidden="true"></span>China<span class="count">· 3 sections</span></span>
 <span class="signal-chip animate-fade-rise" data-conf="medium"><span class="conf-dot" aria-hidden="true"></span>Jackson<span class="count">· 3 sections</span></span>
 <span class="signal-chip animate-fade-rise" data-conf="medium"><span class="conf-dot" aria-hidden="true"></span>New York<span class="count">· 3 sections</span></span></div>
     </div>
     <div class="lg:col-span-5">
-      <h2 class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim mb-3">
+      <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
         Top of the brief
       </h2>
       <div class="space-y-3">
@@ -297,6 +370,65 @@ tailwind.config = {
     </div>
   </div>
 </section>
+
+<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="figures-h">
+  <hr class="editorial-rule mb-7">
+  <div class="flex items-baseline justify-between mb-4 flex-wrap gap-3">
+    <h2 id="figures-h" class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim">
+      Today in charts
+    </h2>
+    <div class="font-sans text-[10.5px] uppercase tracking-[0.10em] text-slate-dim" data-figures-meta></div>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise lg:col-span-2"
+         data-figure="cross-section">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>RECURRENCE</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>Signals converging today</h3>
+  </header>
+  <div data-vega-target class="min-h-[320px] px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>3 entities recurred in 3+ sections today. Most converged: China (3 sections).</footer>
+</article>
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise "
+         data-figure="section-volume">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>TODAY</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>Record volume by section</h3>
+  </header>
+  <div data-vega-target class="min-h-[320px] px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>2,086 records ingested across 18 sections today. Highest volume: <strong>political figures</strong> (613).</footer>
+</article>
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise "
+         data-figure="entity-types">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>ENTITIES</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>What&#x27;s being talked about</h3>
+  </header>
+  <div data-vega-target class="min-h-[320px] px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>800 unique entity references in today's brief. Most common type: <strong>person</strong> (737, 92% of total).</footer>
+</article>
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise "
+         data-figure="section-deltas">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>MOVEMENT</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>What changed vs yesterday</h3>
+  </header>
+  <div data-vega-target class="min-h-[320px] px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>9 sections up vs yesterday, 1 down. Largest mover: <strong>state bills</strong> (++382).</footer>
+</article>
+<article class="figure-card lift-card bg-panel border border-mist rounded-xl shadow-card animate-fade-rise lg:col-span-2"
+         data-figure="world-map">
+  <header class="px-6 pt-5 pb-3">
+    <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-gold mb-1.5" data-figure-kicker>GEOGRAPHY</div>
+    <h3 class="font-serif text-[19px] font-bold text-ink leading-tight tracking-[-0.012em]" data-figure-title>Today&#x27;s news, mapped</h3>
+  </header>
+  <div data-vega-target class="min-h-[420px] px-3 pb-2"></div>
+  <footer class="px-6 pb-5 pt-2.5 text-slate text-[12.5px] font-sans leading-snug border-t border-mist tabular-nums" data-figure-caption>1 countries appear in today's brief. Heaviest coverage: <strong>China</strong> (6 mentions).</footer>
+</article>
+  </div>
+</section>
+<script src="assets/worldscope-figures.js" defer></script>
 
 <section class="px-7 max-w-[1200px] mx-auto mb-10" aria-label="Synthesis overview">
   <hr class="editorial-rule mb-7">
