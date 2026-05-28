@@ -223,6 +223,32 @@ tailwind.config = {
       transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
     }
     .figure-card:hover::before { transform: scaleY(1); }
+    /* Story-thread chapter pills + day deltas + tier breakdown segs. */
+    .ws-chapter {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 2px 7px; border-radius: 3px;
+      vertical-align: 0.18em;
+    }
+    .ws-chapter-opening { background: #E8E2D5; color: #4E5667; }
+    .ws-chapter-turning { background: #D4A017; color: #0B1220; }
+    .ws-chapter-cooling { background: #FCE4D6; color: #8B3A0E; border: 1px solid #E6BFA8; }
+    .ws-day-delta {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px; font-weight: 600;
+      padding: 1px 6px; border-radius: 3px;
+      vertical-align: 0.16em;
+    }
+    .ws-day-up   { background: rgba(26,138,135,0.16); color: #135957; }
+    .ws-day-dn   { background: rgba(153,0,0,0.12);    color: #8b0000; }
+    .ws-day-flat { background: #E8E2D5;              color: #6B7180; }
+    .ws-tier-seg {
+      display: block; height: 100%;
+      transition: opacity 0.15s ease-out;
+    }
+    .ws-tier-seg:hover { opacity: 0.78; }
+
     /* Source-tier triangulation toggle pills (above the section grid). */
     .ws-tier-filter { font-family: 'Inter', sans-serif; }
     .ws-tier-pill {
