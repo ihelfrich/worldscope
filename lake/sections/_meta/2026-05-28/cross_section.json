@@ -1,29 +1,31 @@
 {
   "day": "2026-05-28",
   "min_sections_threshold": 3,
-  "entities_scanned": 1732,
-  "records_scanned": 1134,
-  "recurrences_found": 4,
+  "entities_scanned": 1757,
+  "records_scanned": 1320,
+  "recurrences_found": 12,
   "by_confidence": {
     "high": [
       {
         "entity_id": "place:state-new-york",
         "canonical_name": "New York",
         "entity_type": "place",
-        "n_sections": 4,
-        "total_mentions": 6,
+        "n_sections": 5,
+        "total_mentions": 9,
         "confidence": "high",
         "sections": [
           "conflict",
+          "federal_register",
           "forecasts",
           "political_figures",
           "weather"
         ],
         "section_counts": {
           "conflict": 3,
+          "federal_register": 2,
           "forecasts": 1,
           "political_figures": 1,
-          "weather": 1
+          "weather": 2
         },
         "evidence_records": {
           "political_figures": [
@@ -38,18 +40,98 @@
             "mlb-cin-nym-2026-05-27"
           ],
           "weather": [
-            "afd-OKX-148dbd08497f"
+            "afd-OKX-148dbd08497f",
+            "afd-OKX-8fb579ff37c2"
+          ],
+          "federal_register": [
+            "2026-10642",
+            "2026-10612"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-california-jackson",
+        "canonical_name": "Jackson",
+        "entity_type": "person",
+        "n_sections": 4,
+        "total_mentions": 8,
+        "confidence": "high",
+        "sections": [
+          "conflict",
+          "political_figures",
+          "state_bills",
+          "weather"
+        ],
+        "section_counts": {
+          "conflict": 1,
+          "political_figures": 3,
+          "state_bills": 1,
+          "weather": 3
+        },
+        "evidence_records": {
+          "political_figures": [
+            "representative-jackson-jonathan-il-1st",
+            "representative-jackson-ronny-tx-13th",
+            "associate-justice-ketanji-brown-jackson"
+          ],
+          "conflict": [
+            "https://www.bangordailynews.com/2026/05/27/politics/troy-jackson-bobby-charles-new-maine-gubernatorial-poll/|20260528T000000Z"
+          ],
+          "state_bills": [
+            "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.1e66618e85bc3e09e8a004a2de7e52906c211f4d.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.0e5cb1ff8338e20a41d9bf3b0d5fd9738cb1072c.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.c9220b42fe8cf7c644b3bda4f410811c814dcdb9.001.1"
           ]
         }
       }
     ],
     "medium": [
       {
+        "entity_id": "place:country-china",
+        "canonical_name": "China",
+        "entity_type": "place",
+        "n_sections": 4,
+        "total_mentions": 8,
+        "confidence": "medium",
+        "sections": [
+          "conflict",
+          "markets_global",
+          "vip_flights",
+          "weather"
+        ],
+        "section_counts": {
+          "conflict": 4,
+          "markets_global": 1,
+          "vip_flights": 2,
+          "weather": 1
+        },
+        "evidence_records": {
+          "markets_global": [
+            "markets-bond-china-10y"
+          ],
+          "vip_flights": [
+            "7b103c:AF21",
+            "7b1040:AF16"
+          ],
+          "conflict": [
+            "http://europe.chinadaily.com.cn/a/202605/28/WS6a179780a310d6866eb4b1d3.html|20260528T020000Z",
+            "https://www.morningstar.com/company-reports/1483563-insulet-faces-the-prospect-of-more-direct-competition-from-peers|20260528T023000Z",
+            "https://www.morningstar.com/news/dow-jones/2026052711173/dow-jones-top-markets-headlines-at-9-pm-et-us-military-conducts-new-strikes-on-iran-us|20260528T023000Z"
+          ],
+          "weather": [
+            "earthquake-us7000snzw"
+          ]
+        }
+      },
+      {
         "entity_id": "place:country-canada",
         "canonical_name": "Canada",
         "entity_type": "place",
         "n_sections": 3,
-        "total_mentions": 25,
+        "total_mentions": 28,
         "confidence": "medium",
         "sections": [
           "conflict",
@@ -57,8 +139,8 @@
           "weather"
         ],
         "section_counts": {
-          "conflict": 20,
-          "vip_flights": 4,
+          "conflict": 22,
+          "vip_flights": 5,
           "weather": 1
         },
         "evidence_records": {
@@ -78,90 +160,278 @@
         }
       },
       {
-        "entity_id": "place:country-china",
-        "canonical_name": "China",
+        "entity_id": "person:legislator-minnesota-scott",
+        "canonical_name": "Scott",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 13,
+        "confidence": "medium",
+        "sections": [
+          "form4",
+          "political_figures",
+          "weather"
+        ],
+        "section_counts": {
+          "form4": 1,
+          "political_figures": 11,
+          "weather": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "senator-scott-rick-fl",
+            "senator-scott-tim-sc",
+            "representative-peters-scott-ca-50th"
+          ],
+          "form4": [
+            "0001437749-26-018662"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.b065ca0416a427ebac85acce12916540e8170c30.001.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-alaska-johnson",
+        "canonical_name": "Johnson",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 9,
+        "confidence": "medium",
+        "sections": [
+          "fec",
+          "political_figures",
+          "weather"
+        ],
+        "section_counts": {
+          "fec": 1,
+          "political_figures": 5,
+          "weather": 3
+        },
+        "evidence_records": {
+          "fec": [
+            "cand:H6LA04138"
+          ],
+          "political_figures": [
+            "senator-johnson-ron-wi",
+            "representative-johnson-henry-ga-4th",
+            "representative-johnson-mike-la-4th"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.1e66618e85bc3e09e8a004a2de7e52906c211f4d.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.0e5cb1ff8338e20a41d9bf3b0d5fd9738cb1072c.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.c9220b42fe8cf7c644b3bda4f410811c814dcdb9.001.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "place:state-minnesota",
+        "canonical_name": "Minnesota",
         "entity_type": "place",
         "n_sections": 3,
         "total_mentions": 6,
         "confidence": "medium",
         "sections": [
           "conflict",
-          "markets_global",
-          "vip_flights"
+          "state_bills",
+          "weather"
         ],
         "section_counts": {
-          "conflict": 3,
-          "markets_global": 1,
-          "vip_flights": 2
+          "conflict": 1,
+          "state_bills": 4,
+          "weather": 1
         },
         "evidence_records": {
-          "markets_global": [
-            "markets-bond-china-10y"
-          ],
-          "vip_flights": [
-            "7b103c:AF21",
-            "7b1040:AF16"
+          "state_bills": [
+            "ocd-bill/901fe1cf-dd51-43a8-a38c-457a8f533585",
+            "ocd-bill/f25fed8d-370c-426b-b481-925966fd43aa",
+            "ocd-bill/669bed41-edb6-4e5e-96f4-5f210606ee6d"
           ],
           "conflict": [
-            "http://europe.chinadaily.com.cn/a/202605/28/WS6a179780a310d6866eb4b1d3.html|20260528T020000Z",
-            "https://www.morningstar.com/company-reports/1483563-insulet-faces-the-prospect-of-more-direct-competition-from-peers|20260528T023000Z",
-            "https://www.morningstar.com/news/dow-jones/2026052711173/dow-jones-top-markets-headlines-at-9-pm-et-us-military-conducts-new-strikes-on-iran-us|20260528T023000Z"
+            "https://lasvegassun.com/news/2026/may/27/don-lemon-seeks-grand-jury-transcripts-in-minnesot/|20260528T034500Z"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.030bb08464eced5a363337ce80c2f825d558aa1b.001.1"
           ]
         }
       },
       {
-        "entity_id": "person:legislator-california-jackson",
-        "canonical_name": "Jackson",
+        "entity_id": "person:legislator-alaska-fields",
+        "canonical_name": "Fields",
         "entity_type": "person",
         "n_sections": 3,
-        "total_mentions": 5,
+        "total_mentions": 4,
         "confidence": "medium",
         "sections": [
-          "conflict",
           "political_figures",
-          "state_bills"
+          "state_bills",
+          "weather"
         ],
         "section_counts": {
-          "conflict": 1,
-          "political_figures": 3,
-          "state_bills": 1
+          "political_figures": 1,
+          "state_bills": 2,
+          "weather": 1
         },
         "evidence_records": {
           "political_figures": [
-            "representative-jackson-jonathan-il-1st",
-            "representative-jackson-ronny-tx-13th",
-            "associate-justice-ketanji-brown-jackson"
-          ],
-          "conflict": [
-            "https://www.bangordailynews.com/2026/05/27/politics/troy-jackson-bobby-charles-new-maine-gubernatorial-poll/|20260528T000000Z"
+            "representative-fields-cleo-la-6th"
           ],
           "state_bills": [
-            "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09"
+            "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09",
+            "ocd-bill/8a17ad5c-ce48-4f07-8949-7b205422d97e"
+          ],
+          "weather": [
+            "afd-BOX-afcf4f4bc303"
+          ]
+        }
+      },
+      {
+        "entity_id": "place:city-st--louis",
+        "canonical_name": "St. Louis",
+        "entity_type": "place",
+        "n_sections": 3,
+        "total_mentions": 3,
+        "confidence": "medium",
+        "sections": [
+          "political_figures",
+          "state_bills",
+          "weather"
+        ],
+        "section_counts": {
+          "political_figures": 1,
+          "state_bills": 1,
+          "weather": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "reserve-bank-president-st--louis-todo"
+          ],
+          "state_bills": [
+            "ocd-bill/5bdcdbfa-475d-4dd9-a3b4-568db6bdf038"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.030bb08464eced5a363337ce80c2f825d558aa1b.001.1"
           ]
         }
       }
     ],
-    "low": []
+    "low": [
+      {
+        "entity_id": "place:state-ohio",
+        "canonical_name": "Ohio",
+        "entity_type": "place",
+        "n_sections": 3,
+        "total_mentions": 6,
+        "confidence": "low",
+        "sections": [
+          "conflict",
+          "federal_register",
+          "weather"
+        ],
+        "section_counts": {
+          "conflict": 1,
+          "federal_register": 1,
+          "weather": 4
+        },
+        "evidence_records": {
+          "conflict": [
+            "https://www.daytondailynews.com/local/flooding-reported-across-southwest-ohio-more-rain-expected/article_208b305c-cfdc-55c5-be7e-aa6584029a91.html|20260528T020000Z"
+          ],
+          "federal_register": [
+            "2026-10643"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.0d00bb8ddc78e49484a22c66d3d3680087fc87e8.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.acb69f0ad8d4e0f4fe401c537d87db8fe6fef283.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.332f1ca261bcb3ef4f49540771fd76dbe0ac4289.001.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-minnesota-port",
+        "canonical_name": "Port",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 6,
+        "confidence": "low",
+        "sections": [
+          "federal_register",
+          "state_bills",
+          "weather"
+        ],
+        "section_counts": {
+          "federal_register": 3,
+          "state_bills": 1,
+          "weather": 2
+        },
+        "evidence_records": {
+          "state_bills": [
+            "state-bills-error-Alaska"
+          ],
+          "federal_register": [
+            "2026-10597",
+            "2026-10596",
+            "2026-10588"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.001.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-alaska-gray",
+        "canonical_name": "Gray",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 5,
+        "confidence": "low",
+        "sections": [
+          "political_figures",
+          "state_bills",
+          "weather"
+        ],
+        "section_counts": {
+          "political_figures": 1,
+          "state_bills": 2,
+          "weather": 2
+        },
+        "evidence_records": {
+          "political_figures": [
+            "representative-gray-adam-ca-13th"
+          ],
+          "state_bills": [
+            "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09",
+            "ocd-bill/8a17ad5c-ce48-4f07-8949-7b205422d97e"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.001.1"
+          ]
+        }
+      }
+    ]
   },
   "all": [
     {
       "entity_id": "place:state-new-york",
       "canonical_name": "New York",
       "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 6,
+      "n_sections": 5,
+      "total_mentions": 9,
       "confidence": "high",
       "sections": [
         "conflict",
+        "federal_register",
         "forecasts",
         "political_figures",
         "weather"
       ],
       "section_counts": {
         "conflict": 3,
+        "federal_register": 2,
         "forecasts": 1,
         "political_figures": 1,
-        "weather": 1
+        "weather": 2
       },
       "evidence_records": {
         "political_figures": [
@@ -176,7 +446,87 @@
           "mlb-cin-nym-2026-05-27"
         ],
         "weather": [
-          "afd-OKX-148dbd08497f"
+          "afd-OKX-148dbd08497f",
+          "afd-OKX-8fb579ff37c2"
+        ],
+        "federal_register": [
+          "2026-10642",
+          "2026-10612"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-china",
+      "canonical_name": "China",
+      "entity_type": "place",
+      "n_sections": 4,
+      "total_mentions": 8,
+      "confidence": "medium",
+      "sections": [
+        "conflict",
+        "markets_global",
+        "vip_flights",
+        "weather"
+      ],
+      "section_counts": {
+        "conflict": 4,
+        "markets_global": 1,
+        "vip_flights": 2,
+        "weather": 1
+      },
+      "evidence_records": {
+        "markets_global": [
+          "markets-bond-china-10y"
+        ],
+        "vip_flights": [
+          "7b103c:AF21",
+          "7b1040:AF16"
+        ],
+        "conflict": [
+          "http://europe.chinadaily.com.cn/a/202605/28/WS6a179780a310d6866eb4b1d3.html|20260528T020000Z",
+          "https://www.morningstar.com/company-reports/1483563-insulet-faces-the-prospect-of-more-direct-competition-from-peers|20260528T023000Z",
+          "https://www.morningstar.com/news/dow-jones/2026052711173/dow-jones-top-markets-headlines-at-9-pm-et-us-military-conducts-new-strikes-on-iran-us|20260528T023000Z"
+        ],
+        "weather": [
+          "earthquake-us7000snzw"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-california-jackson",
+      "canonical_name": "Jackson",
+      "entity_type": "person",
+      "n_sections": 4,
+      "total_mentions": 8,
+      "confidence": "high",
+      "sections": [
+        "conflict",
+        "political_figures",
+        "state_bills",
+        "weather"
+      ],
+      "section_counts": {
+        "conflict": 1,
+        "political_figures": 3,
+        "state_bills": 1,
+        "weather": 3
+      },
+      "evidence_records": {
+        "political_figures": [
+          "representative-jackson-jonathan-il-1st",
+          "representative-jackson-ronny-tx-13th",
+          "associate-justice-ketanji-brown-jackson"
+        ],
+        "conflict": [
+          "https://www.bangordailynews.com/2026/05/27/politics/troy-jackson-bobby-charles-new-maine-gubernatorial-poll/|20260528T000000Z"
+        ],
+        "state_bills": [
+          "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.1e66618e85bc3e09e8a004a2de7e52906c211f4d.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.0e5cb1ff8338e20a41d9bf3b0d5fd9738cb1072c.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.c9220b42fe8cf7c644b3bda4f410811c814dcdb9.001.1"
         ]
       }
     },
@@ -185,7 +535,7 @@
       "canonical_name": "Canada",
       "entity_type": "place",
       "n_sections": 3,
-      "total_mentions": 25,
+      "total_mentions": 28,
       "confidence": "medium",
       "sections": [
         "conflict",
@@ -193,8 +543,8 @@
         "weather"
       ],
       "section_counts": {
-        "conflict": 20,
-        "vip_flights": 4,
+        "conflict": 22,
+        "vip_flights": 5,
         "weather": 1
       },
       "evidence_records": {
@@ -214,65 +564,250 @@
       }
     },
     {
-      "entity_id": "place:country-china",
-      "canonical_name": "China",
+      "entity_id": "person:legislator-minnesota-scott",
+      "canonical_name": "Scott",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 13,
+      "confidence": "medium",
+      "sections": [
+        "form4",
+        "political_figures",
+        "weather"
+      ],
+      "section_counts": {
+        "form4": 1,
+        "political_figures": 11,
+        "weather": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "senator-scott-rick-fl",
+          "senator-scott-tim-sc",
+          "representative-peters-scott-ca-50th"
+        ],
+        "form4": [
+          "0001437749-26-018662"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.b065ca0416a427ebac85acce12916540e8170c30.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-alaska-johnson",
+      "canonical_name": "Johnson",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 9,
+      "confidence": "medium",
+      "sections": [
+        "fec",
+        "political_figures",
+        "weather"
+      ],
+      "section_counts": {
+        "fec": 1,
+        "political_figures": 5,
+        "weather": 3
+      },
+      "evidence_records": {
+        "fec": [
+          "cand:H6LA04138"
+        ],
+        "political_figures": [
+          "senator-johnson-ron-wi",
+          "representative-johnson-henry-ga-4th",
+          "representative-johnson-mike-la-4th"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.1e66618e85bc3e09e8a004a2de7e52906c211f4d.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.0e5cb1ff8338e20a41d9bf3b0d5fd9738cb1072c.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.c9220b42fe8cf7c644b3bda4f410811c814dcdb9.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-minnesota",
+      "canonical_name": "Minnesota",
       "entity_type": "place",
       "n_sections": 3,
       "total_mentions": 6,
       "confidence": "medium",
       "sections": [
         "conflict",
-        "markets_global",
-        "vip_flights"
+        "state_bills",
+        "weather"
       ],
       "section_counts": {
-        "conflict": 3,
-        "markets_global": 1,
-        "vip_flights": 2
+        "conflict": 1,
+        "state_bills": 4,
+        "weather": 1
       },
       "evidence_records": {
-        "markets_global": [
-          "markets-bond-china-10y"
-        ],
-        "vip_flights": [
-          "7b103c:AF21",
-          "7b1040:AF16"
+        "state_bills": [
+          "ocd-bill/901fe1cf-dd51-43a8-a38c-457a8f533585",
+          "ocd-bill/f25fed8d-370c-426b-b481-925966fd43aa",
+          "ocd-bill/669bed41-edb6-4e5e-96f4-5f210606ee6d"
         ],
         "conflict": [
-          "http://europe.chinadaily.com.cn/a/202605/28/WS6a179780a310d6866eb4b1d3.html|20260528T020000Z",
-          "https://www.morningstar.com/company-reports/1483563-insulet-faces-the-prospect-of-more-direct-competition-from-peers|20260528T023000Z",
-          "https://www.morningstar.com/news/dow-jones/2026052711173/dow-jones-top-markets-headlines-at-9-pm-et-us-military-conducts-new-strikes-on-iran-us|20260528T023000Z"
+          "https://lasvegassun.com/news/2026/may/27/don-lemon-seeks-grand-jury-transcripts-in-minnesot/|20260528T034500Z"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.030bb08464eced5a363337ce80c2f825d558aa1b.001.1"
         ]
       }
     },
     {
-      "entity_id": "person:legislator-california-jackson",
-      "canonical_name": "Jackson",
-      "entity_type": "person",
+      "entity_id": "place:state-ohio",
+      "canonical_name": "Ohio",
+      "entity_type": "place",
       "n_sections": 3,
-      "total_mentions": 5,
-      "confidence": "medium",
+      "total_mentions": 6,
+      "confidence": "low",
       "sections": [
         "conflict",
-        "political_figures",
-        "state_bills"
+        "federal_register",
+        "weather"
       ],
       "section_counts": {
         "conflict": 1,
-        "political_figures": 3,
-        "state_bills": 1
+        "federal_register": 1,
+        "weather": 4
+      },
+      "evidence_records": {
+        "conflict": [
+          "https://www.daytondailynews.com/local/flooding-reported-across-southwest-ohio-more-rain-expected/article_208b305c-cfdc-55c5-be7e-aa6584029a91.html|20260528T020000Z"
+        ],
+        "federal_register": [
+          "2026-10643"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.0d00bb8ddc78e49484a22c66d3d3680087fc87e8.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.acb69f0ad8d4e0f4fe401c537d87db8fe6fef283.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.332f1ca261bcb3ef4f49540771fd76dbe0ac4289.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-minnesota-port",
+      "canonical_name": "Port",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 6,
+      "confidence": "low",
+      "sections": [
+        "federal_register",
+        "state_bills",
+        "weather"
+      ],
+      "section_counts": {
+        "federal_register": 3,
+        "state_bills": 1,
+        "weather": 2
+      },
+      "evidence_records": {
+        "state_bills": [
+          "state-bills-error-Alaska"
+        ],
+        "federal_register": [
+          "2026-10597",
+          "2026-10596",
+          "2026-10588"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-alaska-gray",
+      "canonical_name": "Gray",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 5,
+      "confidence": "low",
+      "sections": [
+        "political_figures",
+        "state_bills",
+        "weather"
+      ],
+      "section_counts": {
+        "political_figures": 1,
+        "state_bills": 2,
+        "weather": 2
       },
       "evidence_records": {
         "political_figures": [
-          "representative-jackson-jonathan-il-1st",
-          "representative-jackson-ronny-tx-13th",
-          "associate-justice-ketanji-brown-jackson"
-        ],
-        "conflict": [
-          "https://www.bangordailynews.com/2026/05/27/politics/troy-jackson-bobby-charles-new-maine-gubernatorial-poll/|20260528T000000Z"
+          "representative-gray-adam-ca-13th"
         ],
         "state_bills": [
-          "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09"
+          "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09",
+          "ocd-bill/8a17ad5c-ce48-4f07-8949-7b205422d97e"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.3a2ab54cab01d75d85f9b86add21da6cd1747eb6.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-alaska-fields",
+      "canonical_name": "Fields",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 4,
+      "confidence": "medium",
+      "sections": [
+        "political_figures",
+        "state_bills",
+        "weather"
+      ],
+      "section_counts": {
+        "political_figures": 1,
+        "state_bills": 2,
+        "weather": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "representative-fields-cleo-la-6th"
+        ],
+        "state_bills": [
+          "ocd-bill/b51a6c85-b696-4635-8e60-e443ae2e0b09",
+          "ocd-bill/8a17ad5c-ce48-4f07-8949-7b205422d97e"
+        ],
+        "weather": [
+          "afd-BOX-afcf4f4bc303"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:city-st--louis",
+      "canonical_name": "St. Louis",
+      "entity_type": "place",
+      "n_sections": 3,
+      "total_mentions": 3,
+      "confidence": "medium",
+      "sections": [
+        "political_figures",
+        "state_bills",
+        "weather"
+      ],
+      "section_counts": {
+        "political_figures": 1,
+        "state_bills": 1,
+        "weather": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "reserve-bank-president-st--louis-todo"
+        ],
+        "state_bills": [
+          "ocd-bill/5bdcdbfa-475d-4dd9-a3b4-568db6bdf038"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.030bb08464eced5a363337ce80c2f825d558aa1b.001.1"
         ]
       }
     }

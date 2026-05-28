@@ -2,37 +2,27 @@
 section: state_news
 title: State-Level News
 date: 2026-05-28
-record_count: 646
-new_today: 42
+record_count: 674
+new_today: 90
 state: fresh
 ---
 
 ## State-Level News
 
-42 new of 646 total items today.
+90 new of 674 total items today.
 
 - [[Alabama] World Trade Month](https://governor.alabama.gov/newsroom/2026/05/world-trade-month-3/) — *2026-05-27*
   > Download
-- [[Alaska] Alaska Legislature approves civics education requirement for all Alaska high schoolers](https://alaskabeacon.com/briefs/alaska-legislature-approves-civics-education-requirement-for-all-alaska-high-schoolers/) — *2026-05-27*
-  > Civics education would be included among graduation requirements for all Alaska high schoolers, under a bill passed by the Alaska Legislature in the final hours of the legislative session last week.  The new requirement aims to bolster Alaska students’ knowledge and understanding
-- [[Alaska] Medicaid is a lifeline for families — not a line item](https://alaskabeacon.com/2026/05/27/medicaid-is-a-lifeline-for-families-not-a-line-item/) — *2026-05-27*
-  > Let’s take a moment to recognize something that quietly makes a major difference in the lives of Alaska’s children and families — Medicaid. For thousands of Alaska families, Medicaid isn&#8217;t just a program. It is a cornerstone that ensures access to the care, support and reso
-- [[Alaska] Trump administration seizes on shooting to make case again for White House ballroom](https://alaskabeacon.com/2026/05/27/repub/trump-administration-seizes-on-shooting-to-make-case-again-for-white-house-ballroom/) — *2026-05-27*
-  > WASHINGTON — Acting Attorney General Todd Blanche argued in a court filing that a shooting Saturday in the vicinity of the White House further proves the need for an East Wing ballroom with “a heavy steel, drone proof roof, missile resistant and drone proof columns, bullet, balli
-- [[Alaska] New Trump administration proposal aims to accelerate drilling amid Alaska oil industry’s revival](https://alaskabeacon.com/2026/05/27/new-trump-administration-proposal-aims-to-accelerate-drilling-amid-alaska-oil-industrys-revival/) — *2026-05-27*
-  > As major oil companies eye new drilling on Alaska’s North Slope, the Trump administration is now working to accelerate their projects by streamlining environmental reviews on federal land. It’s a move that could boost production amid what leaders describe as a &#8220;renaissance&
-- [[Alaska] Proposed Alaska gas pipeline has a narrow window of viability, estimates suggest](https://alaskabeacon.com/2026/05/27/proposed-alaska-gas-pipeline-has-a-narrow-window-of-viability-estimates-suggest/) — *2026-05-27*
-  > The proposed trans-Alaska natural gas line faces a narrow road to profitability, even with Gov. Mike Dunleavy’s proposed multibillion-dollar tax break, according to estimates presented to state legislators. The more the pipeline costs, the more its builders will need to charge fo
-- **NEW**  [[Alaska] Solar power could soon be cheaper than natural gas power in Anchorage](https://alaskabeacon.com/briefs/solar-power-expected-to-soon-be-cheaper-than-natural-gas-power-in-anchorage/) — *2026-05-27*
-  > Alaska’s largest planned solar farm, expected to break ground west of Anchorage this summer, is likely to deliver cheaper electricity than possible with imported natural gas, according to information the state’s largest electric utility shared with state lawmakers this month. In 
-- [[Alaska] Governor failed Alaska gasline legislation homework](https://alaskabeacon.com/2026/05/26/governor-failed-alaska-gasline-legislation-homework/) — *2026-05-26*
-  > Legislators are being held after school this month and the state is paying for the extra time because the governor did not do his homework. If that seems backward, you’re right. Gov. Mike Dunleavy ordered lawmakers to stay late after the regular legislative session ended because 
-- [[Alaska] Trump administration will make green card hopefuls return to home countries before applying](https://alaskabeacon.com/2026/05/26/repub/trump-administration-will-make-green-card-hopefuls-return-to-home-countries-before-applying/) — *2026-05-26*
-  > Immigrants seeking green cards will have to return first to their home countries and wait despite years of potential backlogs, the Trump administration announced Friday.  “An alien who is in the U.S. temporarily and wants a Green Card must return to their home country to apply,” 
-- [[Alaska] Land named for colorful character ‘Herring Pete’ added to Alaska’s Kachemak Bay State Park](https://alaskabeacon.com/briefs/land-named-for-colorful-character-herring-pete-added-to-alaskas-kachemak-bay-state-park/) — *2026-05-26*
-  > A century ago, a Norwegian-born mariner nicknamed “Herring Pete” and his Austrian-born wife operated a fox farm on a scenic, remote and mountainous Kenai Peninsula island. Now that 24-acre island parcel is part of 400,000-acre Kachemak Bay State Park. The Conservation Fund, a pri
-- [[Alaska] North Slope Borough employee crashes fuel truck while allegedly drunk](https://alaskabeacon.com/briefs/north-slope-borough-employee-crashes-fuel-truck-while-allegedly-drunk/) — *2026-05-26*
-  > State prosecutors in Utqiagvik have charged a North Slope Borough employee with allegedly crashing a fuel truck while drunk. According to court documents filed May 13 in Utqiagvik, James Brown was driving on April 9 in Point Lay, a village on the shore of the Arctic Ocean, when h
+- [[California] Governor Newsom signs legislation to further protect California elections from interference and intimidation](https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/) — *2026-05-27*
+- [[California] Governor Newsom proclaims Small Business Month](https://www.gov.ca.gov/2026/05/27/governor-newsom-proclaims-small-business-month/) — *2026-05-27*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/27/governor
+- [[California] Governor Newsom signs legislation 5.26.2026](https://www.gov.ca.gov/2026/05/26/governor-newsom-signs-legislation-5-26-2026/) — *2026-05-26*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/26/governor-news
+- [[California] Governor Newsom proclaims Older Californians Month](https://www.gov.ca.gov/2026/05/26/governor-newsom-proclaims-older-californians-month-2/) — *2026-05-26*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/05/26/governor
 - **NEW**  [[California] New California law bans law enforcement from interfering in state elections](https://calmatters.org/politics/2026/05/california-ballot-seizure-law/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_Election-Day-SD_AH_CM_23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A black insulated bag labeled “OFFICIAL B
 - **NEW**  [[California] Jueces de California están probando un nuevo asistente judicial con inteligencia artificial, y no sabrás si está revisando tu caso](https://calmatters.org/calmatters-en-espanol/2026/05/jueces-california-asistente-judicial-con-inteligencia-artificial/) — *2026-05-27*
@@ -53,13 +43,25 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-OPT-OUT-MAZES-GH-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Illustration of Alice from Alice in Wonderland
 - **NEW**  [[California] Our house burned down but our mortgage didn’t. California fire survivors need time](https://calmatters.org/commentary/2026/05/california-fire-survivors-mortgage-forbearance/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/011425-Palisades-Aftermath-TS-08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view of a burned-down neighbor
-- [[Arizona] States could purge voter rolls close to elections if Supreme Court takes Trump’s side in Arizona case](https://azmirror.com/2026/05/27/repub/states-could-purge-voter-rolls-close-to-elections-if-supreme-court-takes-trumps-side-in-arizona-case/) — *2026-05-27*
-  > The Trump administration wants the U.S. Supreme Court to empower states to review their voter rolls for noncitizens just days before elections, a change that voting rights advocates say would risk disenfranchising Americans. The U.S. Department of Justice asked the Supreme Court 
-- [[Arizona] Hobbs launches multi-million-dollar reelection ad campaign touting working-class background](https://azmirror.com/briefs/hobbs-launches-multi-million-dollar-reelection-ad-campaign-touting-working-class-background/) — *2026-05-27*
-  > In her first campaign ads in her reelection bid, Gov. Katie Hobbs is touting her efforts to lower costs for Arizonans and fight for working families across the Grand Canyon State. Hobbs’ campaign said the two ads — one in English and one in Spanish — are the launch of a multi-mil
-- [[Arizona] Trump struck a deal for China to buy $17B a year in US ag products. Farmers are skeptical.](https://azmirror.com/2026/05/27/repub/trump-struck-a-deal-for-china-to-buy-17b-a-year-in-us-ag-products-farmers-are-skeptical/) — *2026-05-27*
-  > By Rebecka Pieder/Medill News Service WASHINGTON &#8211; In a deal that could provide a major trade boost for American farmers, the White House said that during the recent summit, China committed to buying at least $17 billion in additional U.S. agricultural products annually for
-- [[Arizona] Democratic state AGs say their staff excluded from Vance anti-fraud meeting](https://azmirror.com/2026/05/26/repub/democratic-state-ags-say-their-staff-excluded-from-vance-anti-fraud-meeting/) — *2026-05-26*
-  > WASHINGTON — A handful of Democratic state attorneys general said Tuesday that expert officials from their offices were denied access to a major White House anti-fraud meeting convened by Vice President JD Vance and attended by Republican AGs. Two dozen Democratic attorneys gener
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Connecticut] Which Senators talked the most during CT’s legislative session?](https://ctmirror.org/2026/05/28/which-senators-talked-the-most-during-cts-legislative-session/) — *2026-05-28*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/05/IMG_9655-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uploads/2026
+- **NEW**  [[Connecticut] Words from a Connecticut YIMBY](https://ctmirror.org/2026/05/28/words-from-a-connecticut-yimby/) — *2026-05-28*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/09/YIMBYTOWN-0915-DE-Cannon-085-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2025/
+- **NEW**  [[Connecticut] Addressing youth crime in New Haven County](https://ctmirror.org/2026/05/28/addressing-youth-crime-in-new-haven-county/) — *2026-05-28*
+  > <figure><img width="1024" height="576" src="https://ctmirror.org/wp-content/uploads/2026/04/tv-car-thief-east-haven-1024x576.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
+- [[Connecticut] Embracing the dark](https://ctmirror.org/2026/05/27/embracing-the-dark/) — *2026-05-27*
+  > <figure><img width="1024" height="731" src="https://ctmirror.org/wp-content/uploads/2026/05/pexels-perfect-lens-6188405-1024x731.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
+- [[Connecticut] Amid housing shortage, new CT coalition focuses on local policy change](https://ctmirror.org/2026/05/27/new-ct-coalition-housing-policy-local/) — *2026-05-27*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/CT-Public-housing-construction-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-con
+- [[Connecticut] CT expanding cannabis use will make roads more dangerous](https://ctmirror.org/2026/05/27/ct-expanding-cannabis-use-will-make-roads-more-dangerous/) — *2026-05-27*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/pexels-lighting-weed-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
+- [[Connecticut] CT talks housing, but doesn’t walk it](https://ctmirror.org/2026/05/27/ct-talks-housing-but-doesnt-walk-it/) — *2026-05-27*
+  > <figure><img width="855" height="572" src="https://ctmirror.org/wp-content/uploads/2025/03/housing-construction.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2025/03/
+- [[Connecticut] Why I’m biking 100 miles: to end fossil fuels](https://ctmirror.org/2026/05/27/why-im-riding-100-miles-to-end-fossil-fuels/) — *2026-05-27*
+  > <figure><img width="1024" height="620" src="https://ctmirror.org/wp-content/uploads/2026/05/sierra-club-ride-poster-1024x620.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
+- [[Connecticut] Larson tries to shift narrative to ideologies, not generations](https://ctmirror.org/2026/05/26/larson-tries-to-shift-narrative-to-ideologies-not-generations/) — *2026-05-27*
+  > <figure><img width="1024" height="932" src="https://ctmirror.org/wp-content/uploads/2026/05/IMG_0742-1024x932.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/I
 
-_(621 additional items in raw.jsonl)_
+_(649 additional items in raw.jsonl)_
