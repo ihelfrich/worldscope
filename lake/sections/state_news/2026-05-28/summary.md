@@ -2,17 +2,33 @@
 section: state_news
 title: State-Level News
 date: 2026-05-28
-record_count: 674
-new_today: 90
+record_count: 695
+new_today: 117
 state: fresh
 ---
 
 ## State-Level News
 
-90 new of 674 total items today.
+117 new of 695 total items today.
 
 - [[Alabama] World Trade Month](https://governor.alabama.gov/newsroom/2026/05/world-trade-month-3/) — *2026-05-27*
   > Download
+- [[Arizona] States could purge voter rolls close to elections if Supreme Court takes Trump’s side in Arizona case](https://azmirror.com/2026/05/27/repub/states-could-purge-voter-rolls-close-to-elections-if-supreme-court-takes-trumps-side-in-arizona-case/) — *2026-05-27*
+  > The Trump administration wants the U.S. Supreme Court to empower states to review their voter rolls for noncitizens just days before elections, a change that voting rights advocates say would risk disenfranchising Americans. The U.S. Department of Justice asked the Supreme Court 
+- [[Arizona] Hobbs launches multi-million-dollar reelection ad campaign touting working-class background](https://azmirror.com/briefs/hobbs-launches-multi-million-dollar-reelection-ad-campaign-touting-working-class-background/) — *2026-05-27*
+  > In her first campaign ads in her reelection bid, Gov. Katie Hobbs is touting her efforts to lower costs for Arizonans and fight for working families across the Grand Canyon State. Hobbs’ campaign said the two ads — one in English and one in Spanish — are the launch of a multi-mil
+- [[Arizona] Trump struck a deal for China to buy $17B a year in US ag products. Farmers are skeptical.](https://azmirror.com/2026/05/27/repub/trump-struck-a-deal-for-china-to-buy-17b-a-year-in-us-ag-products-farmers-are-skeptical/) — *2026-05-27*
+  > By Rebecka Pieder/Medill News Service WASHINGTON &#8211; In a deal that could provide a major trade boost for American farmers, the White House said that during the recent summit, China committed to buying at least $17 billion in additional U.S. agricultural products annually for
+- [[Arizona] Democratic state AGs say their staff excluded from Vance anti-fraud meeting](https://azmirror.com/2026/05/26/repub/democratic-state-ags-say-their-staff-excluded-from-vance-anti-fraud-meeting/) — *2026-05-26*
+  > WASHINGTON — A handful of Democratic state attorneys general said Tuesday that expert officials from their offices were denied access to a major White House anti-fraud meeting convened by Vice President JD Vance and attended by Republican AGs. Two dozen Democratic attorneys gener
+- [[Arizona] Arizona added jobs in April, but its employment rate has been stuck at 2024 levels for 2 years](https://azmirror.com/briefs/arizona-added-jobs-in-april-but-its-employment-rate-has-been-stuck-at-2024-levels-for-2-years/) — *2026-05-26*
+  > After seven months of lower employment rates than last year, Arizona’s job market finally saw positive growth in April, according to the latest data from the Bureau of Labor Statistics.  A recent report from the Common Sense Institute, a conservative economic think tank, analyzed
+- [[Arizona] Justin Heap refers alleged noncitizen voters to AG’s office after strongly worded letters](https://azmirror.com/2026/05/26/justin-heap-refers-alleged-noncitizen-voters-to-ags-office-after-strongly-worded-letters/) — *2026-05-26*
+  > After weeks of sparring with state prosecutors, Maricopa County Recorder Justin Heap referred potential noncitizens that he claims to have found on the county’s voter roll to the Arizona Attorney General’s Office on Friday. His referral comes after the attorney general’s office s
+- [[Arizona] Federal judges block Alabama’s racially discriminatory congressional map, order remedial districts](https://azmirror.com/2026/05/26/repub/federal-judges-block-alabamas-racially-discriminatory-congressional-map-order-remedial-districts/) — *2026-05-26*
+  > A three-judge panel on Tuesday morning blocked Alabama from using a 2023 congressional map the panel ruled racially discriminatory and ordered the state to use a remedial map aimed at giving Black Alabamians a chance to elect their preferred leaders. The order comes almost a mont
+- [[Arizona] Voluntary departures spike as immigrants face squalid detention, pressure to leave](https://azmirror.com/2026/05/26/repub/voluntary-departures-spike-as-immigrants-face-squalid-detention-pressure-to-leave/) — *2026-05-26*
+  > A surge in voluntary departure agreements in immigration courts is raising concerns that Trump administration tactics are unfairly pressuring immigrants into leaving the United States, even if they have a legal right to stay. Voluntary departures during the second Trump administr
 - [[California] Governor Newsom signs legislation to further protect California elections from interference and intimidation](https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/) — *2026-05-27*
 - [[California] Governor Newsom proclaims Small Business Month](https://www.gov.ca.gov/2026/05/27/governor-newsom-proclaims-small-business-month/) — *2026-05-27*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
@@ -43,25 +59,9 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-OPT-OUT-MAZES-GH-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Illustration of Alice from Alice in Wonderland
 - **NEW**  [[California] Our house burned down but our mortgage didn’t. California fire survivors need time](https://calmatters.org/commentary/2026/05/california-fire-survivors-mortgage-forbearance/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/011425-Palisades-Aftermath-TS-08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view of a burned-down neighbor
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Connecticut] Which Senators talked the most during CT’s legislative session?](https://ctmirror.org/2026/05/28/which-senators-talked-the-most-during-cts-legislative-session/) — *2026-05-28*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/05/IMG_9655-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uploads/2026
-- **NEW**  [[Connecticut] Words from a Connecticut YIMBY](https://ctmirror.org/2026/05/28/words-from-a-connecticut-yimby/) — *2026-05-28*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/09/YIMBYTOWN-0915-DE-Cannon-085-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2025/
-- **NEW**  [[Connecticut] Addressing youth crime in New Haven County](https://ctmirror.org/2026/05/28/addressing-youth-crime-in-new-haven-county/) — *2026-05-28*
-  > <figure><img width="1024" height="576" src="https://ctmirror.org/wp-content/uploads/2026/04/tv-car-thief-east-haven-1024x576.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- [[Connecticut] Embracing the dark](https://ctmirror.org/2026/05/27/embracing-the-dark/) — *2026-05-27*
-  > <figure><img width="1024" height="731" src="https://ctmirror.org/wp-content/uploads/2026/05/pexels-perfect-lens-6188405-1024x731.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
-- [[Connecticut] Amid housing shortage, new CT coalition focuses on local policy change](https://ctmirror.org/2026/05/27/new-ct-coalition-housing-policy-local/) — *2026-05-27*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/CT-Public-housing-construction-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-con
-- [[Connecticut] CT expanding cannabis use will make roads more dangerous](https://ctmirror.org/2026/05/27/ct-expanding-cannabis-use-will-make-roads-more-dangerous/) — *2026-05-27*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/05/pexels-lighting-weed-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- [[Connecticut] CT talks housing, but doesn’t walk it](https://ctmirror.org/2026/05/27/ct-talks-housing-but-doesnt-walk-it/) — *2026-05-27*
-  > <figure><img width="855" height="572" src="https://ctmirror.org/wp-content/uploads/2025/03/housing-construction.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2025/03/
-- [[Connecticut] Why I’m biking 100 miles: to end fossil fuels](https://ctmirror.org/2026/05/27/why-im-riding-100-miles-to-end-fossil-fuels/) — *2026-05-27*
-  > <figure><img width="1024" height="620" src="https://ctmirror.org/wp-content/uploads/2026/05/sierra-club-ride-poster-1024x620.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- [[Connecticut] Larson tries to shift narrative to ideologies, not generations](https://ctmirror.org/2026/05/26/larson-tries-to-shift-narrative-to-ideologies-not-generations/) — *2026-05-27*
-  > <figure><img width="1024" height="932" src="https://ctmirror.org/wp-content/uploads/2026/05/IMG_0742-1024x932.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/I
+- **NEW**  [[Arkansas] More megachurches want to be your alma mater](https://arkansasadvocate.com/2026/05/28/repub/more-megachurches-want-to-be-your-alma-mater/) — *2026-05-28*
+  > In the heart of the Bible Belt, a small Methodist college graduated its final class in May 2024, shutting its doors after 168 years. Birmingham-Southern College in Birmingham, Alabama, was a Christian private liberal arts school that counted among its graduates members of Congres
+- **NEW**  [[Arkansas] Vermont is first state to ban toxic herbicide paraquat, as others may follow](https://arkansasadvocate.com/2026/05/28/repub/vermont-is-first-state-to-ban-toxic-herbicide-paraquat-as-others-may-follow/) — *2026-05-28*
+  > Vermont became the first state to ban the use of the highly toxic herbicide paraquat after Republican Gov. Phil Scott signed Democratic-sponsored legislation this week.  Vermont’s new law bans the sale or use of paraquat without explicit approval from the secretary of agriculture
 
-_(649 additional items in raw.jsonl)_
+_(670 additional items in raw.jsonl)_

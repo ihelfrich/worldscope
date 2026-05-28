@@ -2,17 +2,25 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-28
-record_count: 120
-new_today: 38
+record_count: 122
+new_today: 41
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-38 new of 120 total items today.
+41 new of 122 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: Зеленський анонсував "сильний крок" щодо отримання Україною винищувачів Gripen | LEDE: Президент Володимир Зеленський, який перебуває з візитом у Швеції, анонсував "сильний крок" щодо отримання] (uk: Зеленський анонсував "сильний крок" щодо отримання Україною винищувачів Gripen)](https://www.pravda.com.ua/news/2026/05/28/8036769/) — *2026-05-28*
+  > Президент Володимир Зеленський, який перебуває з візитом у Швеції, анонсував "сильний крок" щодо отримання Україною шведських винищувачів Gripen.
+- **NEW**  [[TITLE: ДБР розслідує окреме провадження у справі Гринкевичів щодо бронежилетів і шоломів: збитки – 150 млн грн | LEDE: У Державному бюро розслідувань заявили, що розслідують окреме провадження у справ] (uk: ДБР розслідує окреме провадження у справі Гринкевичів щодо бронежилетів і шоломі)](https://www.pravda.com.ua/news/2026/05/28/8036763/) — *2026-05-28*
+  > У Державному бюро розслідувань заявили, що розслідують окреме провадження у справі львівського бізнесмена Ігоря Гринкевича та його сина Романа щодо постачання бронежилетів і шоломів для ЗСУ за завищеними цінами. Збитки державі оцінили майже у 150 млн грн.
+- **NEW**  [[TITLE: Європейським послам показали іноземні компоненти ракет і дронів, якими Росія атакувала Україну 24 травня | LEDE: Європейським послам продемонстрували іноземні компоненти, які були в російських ] (uk: Європейським послам показали іноземні компоненти ракет і дронів, якими Росія ата)](https://www.pravda.com.ua/news/2026/05/28/8036764/) — *2026-05-28*
+  > Європейським послам продемонстрували іноземні компоненти, які були в російських ракетах і БпЛА, випущених по Україні вночі 24 травня.
 - **NEW**  [[TITLE: ЗМІ: У Москві на дахах будинків встановлюють ЗРК | LEDE: У Москві на даху бізнес-центру розмістили ЗРК "Панцирь-СМД-Е" за допомогою гелікоптера Ми-26. Опубліковано відео.] (uk: ЗМІ: У Москві на дахах будинків встановлюють ЗРК)](https://www.pravda.com.ua/news/2026/05/28/8036757/) — *2026-05-28*
   > У Москві на даху бізнес-центру розмістили ЗРК "Панцирь-СМД-Е" за допомогою гелікоптера Ми-26. Опубліковано відео.
 - **NEW**  [[TITLE: Окупанти убили чоловіка і жінку на Сумщині – цивільних атакували дроном | LEDE: Удар російського дрона у Сумській області: загинули двоє цивільних] (uk: Окупанти убили чоловіка і жінку на Сумщині – цивільних атакували дроном)](https://www.pravda.com.ua/news/2026/05/28/8036760/) — *2026-05-28*
@@ -46,18 +54,11 @@ state: fresh
   > Внаслідок російських атак 27 травня та в ніч на 28 травня на Запорізьку, Сумську, Харківську, Донецьку та Одеську області загинула одна людина, ще щонайменше 8 постраждали.
 - **NEW**  [[TITLE: Прем’єр Канади: Канадський СПГ замінятиме на ринку російський | LEDE: Канадський прем'єр-міністр Марк Карні в середу заявив, що "Канада є одним із рішень" для забезпечення енергетичної безпеки ] (uk: Прем’єр Канади: Канадський СПГ замінятиме на ринку російський)](https://www.pravda.com.ua/news/2026/05/28/8036733/) — *2026-05-28*
   > Канадський прем'єр-міністр Марк Карні в середу заявив, що "Канада є одним із рішень" для забезпечення енергетичної безпеки Європи та Азії та в майбутньому її скраплений газ замінятиме на ринку російський.
-- **NEW**  [[TITLE: Україна та ЄС узгодили текст про позику у 90 млрд, документ уже в Раді | LEDE: Європейський Союз та Україна фіналізували текст Кредитної угоди, необхідної для отримання Києвом 90 млрд євро кред] (uk: Україна та ЄС узгодили текст про позику у 90 млрд, документ уже в Раді)](https://www.pravda.com.ua/news/2026/05/28/8036729/) — *2026-05-28*
-  > Європейський Союз та Україна фіналізували текст Кредитної угоди, необхідної для отримання Києвом 90 млрд євро кредиту у 2026-27 років; документ уже внесли до Верховної Ради для затвердження разом з Меморандумом про взаєморозуміння щодо кредиту.
-- **NEW**  [[TITLE: Хто і як бореться з росіянами на окупованих територіях | LEDE: ] (uk: Хто і як бореться з росіянами на окупованих територіях)](https://www.pravda.com.ua/news/2026/05/28/8036695/) — *2026-05-28*
-- **NEW**  [[TITLE: Росія атакувала Україну "Кинджалом" і 147 дронами: ППО знешкодила 138 БпЛА, є влучання | LEDE: У ніч на 28 травня російські війська атакували Україну аеробалістичною ракетою "Кинджал" та 147 бе] (uk: Росія атакувала Україну "Кинджалом" і 147 дронами: ППО знешкодила 138 БпЛА, є вл)](https://www.pravda.com.ua/news/2026/05/28/8036721/) — *2026-05-28*
-  > У ніч на 28 травня російські війська атакували Україну аеробалістичною ракетою "Кинджал" та 147 безпілотниками різних типів. Сили ППО збили 138 дронів, однак є влучання ракети та 9 БпЛА на 7 локаціях.
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- **NEW**  [Trump Threatened or Attacked 1 in 13 Countries, CNN Says](https://www.kyivpost.com/post/77037) — *2026-05-28*
+  > US President Donald Trump has threatened or used force against at least 15 countries during his time in office, according to a CNN analysis published on Wednesday, after Trump warned Oman it could be “blown up” over tensions in the Strait of Hormuz.
+- **NEW**  [‘One-Way Ticket’: Nigerians Promised Russian Jobs, Sent by Kremlin to Die in Ukraine](https://www.kyivpost.com/post/77036) — *2026-05-28*
+  > Ukrainian military intelligence said Nigerian national Ayebusiwa Olabode Victor was killed while fighting for Russia in Ukraine’s Kharkiv region after allegedly being lured with promises of employment. HUR said the case reflects a broader Russian recruitment scheme targeting Afri
 
-_(95 additional items in raw.jsonl)_
+_(97 additional items in raw.jsonl)_
