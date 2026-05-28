@@ -151,6 +151,22 @@ def _safe_iso(s: Optional[str]) -> Optional[str]:
         return None
 
 
+def _is_backfill_placeholder(section_day_dir: Path) -> bool:
+    """True iff the given lake/sections/<id>/<date>/ directory was written
+    by tools/backfill_lake_history.py (i.e. its structured.json carries
+    state == "backfill_no_data"). Backfill placeholders exist to give the
+    trends machinery a stable shape; they should not be counted as real
+    days of ingestion in moving averages or warm-up checks."""
+    sj = section_day_dir / "structured.json"
+    if not sj.exists():
+        return False
+    try:
+        data = json.loads(sj.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return False
+    return data.get("state") == "backfill_no_data"
+
+
 @dataclass
 class LakeView:
     """Read-only view of the lake the graphics engine needs."""
@@ -174,6 +190,36 @@ class LakeView:
                 if d.is_dir() and len(d.name) == 10 and d.name.count("-") == 2:
                     dates.add(d.name)
         return sorted(dates)
+
+    def real_section_dates(self) -> list[str]:
+        """Same as section_dates() but excludes dates where EVERY section's
+        structured.json carries state == "backfill_no_data".
+
+        These backfill placeholders (written by tools/backfill_lake_history.py)
+        exist to give the trends machinery a stable shape to iterate over,
+        not because real data was pulled. The history-depth check uses
+        this method so the "warm-up period" warning reflects real days
+        of ingestion, not scaffolding."""
+        if not self.sections_root.exists():
+            return []
+        # For each date, scan every section; the date counts as "real" if
+        # any section has a non-backfill structured.json (or no structured
+        # marker at all, defensive).
+        date_is_real: dict[str, bool] = {}
+        for sec_dir in self.sections_root.iterdir():
+            if not sec_dir.is_dir():
+                continue
+            for d in sec_dir.iterdir():
+                if not (d.is_dir() and len(d.name) == 10 and d.name.count("-") == 2):
+                    continue
+                day = d.name
+                if date_is_real.get(day):
+                    continue  # already proven real by another section
+                if _is_backfill_placeholder(d):
+                    date_is_real.setdefault(day, False)
+                else:
+                    date_is_real[day] = True
+        return sorted(d for d, real in date_is_real.items() if real)
 
     def section_dirs_for(self, date_iso: str) -> list[Path]:
         if not self.sections_root.exists():
@@ -1002,8 +1048,10 @@ class DailyGraphics:
             if d_iso in day_keys and c in counts:
                 counts[c][day_keys.index(d_iso)] += 1
 
-        # Available-history check
-        all_dates = self.lake.section_dates()
+        # Available-history check: count only days with real ingested data.
+        # Backfill placeholders (state == "backfill_no_data") are excluded
+        # so the warm-up banner reflects actual ingestion depth.
+        all_dates = self.lake.real_section_dates()
         history_days = len(all_dates)
 
         fig, ax = plt.subplots(figsize=(11, 5), dpi=100)
