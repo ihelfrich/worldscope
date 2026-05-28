@@ -427,6 +427,18 @@ tailwind.config = {
     .ws-evid-noev {
       color: #6B7180; font-style: italic; font-size: 13px; margin-top: 16px;
     }
+    .ws-evid-link {
+      display: inline-block; margin-top: 8px;
+      font-family: 'Inter', sans-serif; font-size: 12.5px; font-weight: 600;
+      color: #13294B; text-decoration: none;
+      border-bottom: 1px solid #D4A017;
+    }
+    .ws-evid-link:hover { color: #D4A017; }
+    .ws-evid-rec-section[href] {
+      color: #13294B; text-decoration: none;
+      border-bottom: 1px dotted #4E5667;
+    }
+    .ws-evid-rec-section[href]:hover { color: #D4A017; border-bottom-color: #D4A017; }
     @media print {
       #ws-evidence-drawer { display: none !important; }
       .claim-badge { text-decoration: none; background: none !important; }

@@ -286,10 +286,13 @@ Style:
     out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     out = out.replace(/(?<!\*)\*(?!\*)([^*\n]+)\*/g, '<em>$1</em>');
     out = out.replace(/`([^`]+)`/g, '<code class="bg-mist/60 px-1 rounded text-[12.5px]">$1</code>');
-    // Citation chips: [section_id:record_id] => clickable chip linking to the section
+    // Citation chips: [section_id:record_id] => clickable chip. Click
+    // intercepted by worldscope-evidence.js to open the Evidence Drawer
+    // with the record; the href is a no-JS fallback that navigates to
+    // the section page.
     out = out.replace(/\[([a-z0-9_]+):([^\]]+)\]/gi, (m, sid, rid) => {
       const href = `./sections/${encodeURIComponent(sid)}/`;
-      return `<a href="${href}" class="inline-block bg-gold/20 hover:bg-gold/40 transition-colors text-navy font-sans text-[11px] font-semibold px-1.5 py-0.5 rounded mx-0.5 no-underline" title="${escapeHtml(rid)}">${escapeHtml(sid)} ›</a>`;
+      return `<a href="${href}" data-record-id="${escapeHtml(rid)}" class="inline-block bg-gold/20 hover:bg-gold/40 transition-colors text-navy font-sans text-[11px] font-semibold px-1.5 py-0.5 rounded mx-0.5 no-underline cursor-pointer" title="View evidence for ${escapeHtml(rid)}">${escapeHtml(sid)} ›</a>`;
     });
     // Paragraphs + line breaks
     out = out.split(/\n{2,}/).map(p => `<p class="mb-2 leading-snug">${p.replace(/\n/g, '<br>')}</p>`).join("");

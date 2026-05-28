@@ -258,16 +258,60 @@
     return body;
   }
 
+  // ---- record-only drawer (no claim — used by chat citations) ---------
+
+  function renderRecord(rec) {
+    if (!rec) {
+      return '<div class="ws-evid-noev">Record not found in today\'s lake.</div>';
+    }
+    const sid = rec.section_id || "";
+    const url = rec.url || "";
+    const safeUrl = /^https?:\/\//i.test(url) ? url : "#";
+    const sectionLink = sid
+      ? `<a href="./sections/${encodeURIComponent(sid)}/" class="ws-evid-rec-section">${escapeHtml(sid)} →</a>`
+      : "";
+    return `
+      <div class="ws-evid-status ws-evid-unverified">EVIDENCE RECORD</div>
+      <div class="ws-evid-claim">${escapeHtml(rec.text || rec.title || "(no title)")}</div>
+      <dl class="ws-evid-meta">
+        <dt>Section</dt><dd>${sectionLink || escapeHtml(sid)}</dd>
+        <dt>Source</dt><dd>${escapeHtml(rec.source_id || "?")}</dd>
+        <dt>Date</dt><dd class="tabular-nums">${escapeHtml(rec.date || "")}</dd>
+        ${rec.lang ? `<dt>Language</dt><dd>${escapeHtml(rec.lang)}</dd>` : ""}
+      </dl>
+      ${url ? `<a class="ws-evid-link" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">Open primary source →</a>` : ""}
+    `;
+  }
+
+  function openRecordDrawer(recordId, records) {
+    const drawer = ensureDrawer();
+    drawer.classList.add("ws-evid-open");
+    STATE.open = true;
+    drawer.querySelector("#ws-evid-body").innerHTML = renderRecord(records[recordId]);
+  }
+
   // ---- click handler ----------------------------------------------------
 
   function bindClicks(records) {
     document.addEventListener("click", (e) => {
-      const badge = e.target.closest && e.target.closest("[data-claim-id]");
-      if (!badge) return;
-      e.preventDefault();
-      const cid = badge.dataset.claimId;
-      const claim = (STATE.claims || []).find(c => c.id === cid);
-      if (claim) openDrawer(claim, records);
+      // Claim badge: open the full claim drawer.
+      const claimEl = e.target.closest && e.target.closest("[data-claim-id]");
+      if (claimEl) {
+        e.preventDefault();
+        const cid = claimEl.dataset.claimId;
+        const claim = (STATE.claims || []).find(c => c.id === cid);
+        if (claim) openDrawer(claim, records);
+        return;
+      }
+      // Chat citation chip: open the record drawer instead of navigating
+      // (chip still has an href as fallback for the no-JS case).
+      const recEl = e.target.closest && e.target.closest("[data-record-id]");
+      if (recEl) {
+        e.preventDefault();
+        const rid = recEl.dataset.recordId;
+        openRecordDrawer(rid, records);
+        return;
+      }
     });
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && STATE.open) closeDrawer();
@@ -278,9 +322,10 @@
 
   async function init() {
     const [claims, records] = await Promise.all([loadClaims(), loadRecords()]);
-    if (!claims.length) return;          // no Claim Ledger yet — silent no-op
-    injectBadges(claims);
+    // Bind clicks unconditionally so chat citation chips (data-record-id)
+    // open the record drawer even when the Claim Ledger isn't built yet.
     bindClicks(records);
+    if (claims.length) injectBadges(claims);
   }
 
   if (document.readyState === "loading") {
