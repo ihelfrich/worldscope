@@ -2,21 +2,19 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-05-28
-record_count: 876
-new_today: 213
+record_count: 856
+new_today: 203
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-213 new of 876 total items today.
+203 new of 856 total items today.
 
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-28*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-05-28*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-05-28*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-05-28*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] Google employee charged with insider trading over Polymarket bets](https://www.aljazeera.com/news/2026/5/28/google-employee-charged-with-insider-trading-over-polymarket-bets?traffic_source=rss) — *2026-05-28*
@@ -29,8 +27,8 @@ state: fresh
   > Uganda has closed its border with neighbouring DR Congo for four weeks in an effort to contain an Ebola outbreak.
 - **NEW**  [[Global] US returns Palestinian rights expert Francesca Albanese to sanctions list](https://www.aljazeera.com/news/2026/5/28/us-returns-palestinian-rights-expert-francesca-albanese-to-sanctions-list?traffic_source=rss) — *2026-05-28*
   > Trump administration has sought to pressure international officials who scrutinise reported abuses by Israeli forces.
-- **NEW**  [[Global] Iran war live: US strikes Iranian site as tensions rise in Strait of Hormuz](https://www.aljazeera.com/news/liveblog/2026/5/28/iran-war-live-israel-orders-mass-forced-displacement-for-all-south-lebanon?traffic_source=rss) — *2026-05-28*
-  > The Lebanese Health Ministry reports that Israeli attacks have killed 3,269 people since March 2.
+- **NEW**  [[Global] Iran war live: US strikes Iranian site; Kuwait targeted by missiles, drones](https://www.aljazeera.com/news/liveblog/2026/5/28/iran-war-live-israel-orders-mass-forced-displacement-for-all-south-lebanon?traffic_source=rss) — *2026-05-28*
+  > Kuwait&#039;s military says air defences are battling &#039;hostile&#039; missiles and drones, as alarms sound across the country.
 - **NEW**  [[Global] Jill Biden worried husband Joe was ‘having a stroke’ during 2024 US debate](https://www.aljazeera.com/news/2026/5/27/jill-biden-worried-husband-joe-was-having-a-stroke-during-2024-us-debate?traffic_source=rss) — *2026-05-27*
   > The former US first lady said she had never seen former President Joe Biden act the way he did on the 2024 debate stage.
 - **NEW**  [[Global] Bolivia’s president warns ‘time is running out’ amid protest crisis](https://www.aljazeera.com/video/newsfeed/2026/5/27/bolivias-president-warns-time-is-running-out-amid-protest-crisis?traffic_source=rss) — *2026-05-27*
@@ -61,5 +59,7 @@ state: fresh
   > The interior minister urged officials to address infiltration, narcotics, smuggling, and other &#039;trans-border crimes&#039;.
 - [[Global] Russia to task bankers with shooting down Ukrainian drones](https://www.aljazeera.com/news/2026/5/27/russia-to-task-bankers-with-shooting-down-ukrainian-drones?traffic_source=rss) — *2026-05-27*
   > New legislation aims to integrate banks into Russia&#039;s air defences using jamming systems and trained employees.
+- [[Global] EU states summon Russian envoys over Kyiv threat](https://www.aljazeera.com/news/2026/5/27/belgium-france-latest-countries-to-summon-envoys-following-russia-threats?traffic_source=rss) — *2026-05-27*
+  > Anger of EU states won&#039;t help smooth the way for Brussels to mediate a ceasefire, an idea Putin now says he accepts.
 
-_(851 additional items in raw.jsonl)_
+_(831 additional items in raw.jsonl)_

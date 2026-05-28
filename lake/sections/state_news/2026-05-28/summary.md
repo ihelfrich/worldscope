@@ -2,15 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-05-28
-record_count: 642
-new_today: 38
+record_count: 644
+new_today: 40
 state: fresh
 ---
 
 ## State-Level News
 
-38 new of 642 total items today.
+40 new of 644 total items today.
 
+- [[Alabama] World Trade Month](https://governor.alabama.gov/newsroom/2026/05/world-trade-month-3/) — *2026-05-27*
+  > Download
 - **NEW**  [[California] New California law bans law enforcement from interfering in state elections](https://calmatters.org/politics/2026/05/california-ballot-seizure-law/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_Election-Day-SD_AH_CM_23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A black insulated bag labeled “OFFICIAL B
 - **NEW**  [[California] Jueces de California están probando un nuevo asistente judicial con inteligencia artificial, y no sabrás si está revisando tu caso](https://calmatters.org/calmatters-en-espanol/2026/05/jueces-california-asistente-judicial-con-inteligencia-artificial/) — *2026-05-27*
@@ -31,35 +33,33 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-OPT-OUT-MAZES-GH-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Illustration of Alice from Alice in Wonderland
 - **NEW**  [[California] Our house burned down but our mortgage didn’t. California fire survivors need time](https://calmatters.org/commentary/2026/05/california-fire-survivors-mortgage-forbearance/) — *2026-05-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/011425-Palisades-Aftermath-TS-08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view of a burned-down neighbor
-- [[Alabama] World Trade Month](https://governor.alabama.gov/newsroom/2026/05/world-trade-month-3/) — *2026-05-27*
-  > Download
-- [[Colorado] Democrat Evan Munsing drops out of Colorado​ race for GOP Rep. Evans’ seat](https://coloradonewsline.com/briefs/evan-munsing-drops-out-colorado/) — *2026-05-27*
-  > The Democratic primary field in Colorado&#8217;s most competitive congressional district shrank again Wednesday as Evan Munsing, a private equity consultant and Marine veteran, announced he had suspended his campaign in the 8th District. Munsing&#8217;s withdrawal means that stat
-- [[Colorado] Rep. Crow helps launch anti-corruption caucus in Congress](https://coloradonewsline.com/briefs/crow-anti-corruption-caucus/) — *2026-05-27*
-  > U.S. Rep. Jason Crow is leading a new congressional caucus with the goal of ending corruption and the influence of outside money in politics.   The Aurora Democrat also brought back two previously introduced bills that intend to increase transparency around political action commi
-- [[Colorado] Voluntary departures spike as immigrants face squalid detention, pressure to leave](https://coloradonewsline.com/2026/05/27/repub/voluntary-departures-spike-squalid-detention/) — *2026-05-27*
-  > A surge in voluntary departure agreements in immigration courts is raising concerns that Trump administration tactics are unfairly pressuring immigrants into leaving the United States, even if they have a legal right to stay. Voluntary departures during the second Trump administr
-- [[Colorado] Congressional Black Caucus calls for corporate leaders to speak out for voting rights](https://coloradonewsline.com/2026/05/27/repub/black-caucus-corporate-leaders-voting-rights/) — *2026-05-27*
-  > The Congressional Black Caucus on Tuesday urged American corporations to condemn efforts to dilute Black voting strength, as Southern states eliminate congressional districts where most residents are Black. The CBC’s attempt to mobilize the business community comes as Black repre
-- [[Colorado] Fifty for 150: Mount Blue Sky renamed in 2023 to honor Arapaho and Cheyenne tribes](https://coloradonewsline.com/2026/05/27/fifty-for-150-mount-blue-sky/) — *2026-05-27*
-  > The U.S. Board on Geographic Names in September 2023 renamed a Colorado mountain that boasts the highest paved road in North America Mount Blue Sky. The 14,265-foot mountain in Clear Creek County was previously named after former territorial governor John Evans, who authorized th
-- [[Colorado] ​RTD board overhaul signed by Gov. Polis on a Denver bus](https://coloradonewsline.com/2026/05/26/rtd-board-overhaul-polis/) — *2026-05-26*
-  > In a packed 16th Street FreeRide bus Tuesday, Colorado Gov. Jared Polis signed into law a bill that shrinks the Denver-area transit agency&#8217;s board and gives the governor appointing authority for some members. &#8220;The Denver metropolitan area deserves an A-plus transit ag
-- [[Colorado] Fifty for 150: Colorado Supreme Court in 2023 finds Trump engaged in insurrection](https://coloradonewsline.com/2026/05/26/fifty-for-150-supreme-court-trump-insurrection/) — *2026-05-26*
-  > The ruling handed down by the Colorado Supreme Court on Dec. 19, 2023, was a lengthy one, but two sentences on the first of its 213 pages were enough to send political shockwaves across the country. “A majority of the court holds that President (Donald) Trump is disqualified from
+- [[Alaska] Alaska Legislature approves civics education requirement for all Alaska high schoolers](https://alaskabeacon.com/briefs/alaska-legislature-approves-civics-education-requirement-for-all-alaska-high-schoolers/) — *2026-05-27*
+  > Civics education would be included among graduation requirements for all Alaska high schoolers, under a bill passed by the Alaska Legislature in the final hours of the legislative session last week.  The new requirement aims to bolster Alaska students’ knowledge and understanding
+- [[Alaska] Medicaid is a lifeline for families — not a line item](https://alaskabeacon.com/2026/05/27/medicaid-is-a-lifeline-for-families-not-a-line-item/) — *2026-05-27*
+  > Let’s take a moment to recognize something that quietly makes a major difference in the lives of Alaska’s children and families — Medicaid. For thousands of Alaska families, Medicaid isn&#8217;t just a program. It is a cornerstone that ensures access to the care, support and reso
+- [[Alaska] Trump administration seizes on shooting to make case again for White House ballroom](https://alaskabeacon.com/2026/05/27/repub/trump-administration-seizes-on-shooting-to-make-case-again-for-white-house-ballroom/) — *2026-05-27*
+  > WASHINGTON — Acting Attorney General Todd Blanche argued in a court filing that a shooting Saturday in the vicinity of the White House further proves the need for an East Wing ballroom with “a heavy steel, drone proof roof, missile resistant and drone proof columns, bullet, balli
+- [[Alaska] New Trump administration proposal aims to accelerate drilling amid Alaska oil industry’s revival](https://alaskabeacon.com/2026/05/27/new-trump-administration-proposal-aims-to-accelerate-drilling-amid-alaska-oil-industrys-revival/) — *2026-05-27*
+  > As major oil companies eye new drilling on Alaska’s North Slope, the Trump administration is now working to accelerate their projects by streamlining environmental reviews on federal land. It’s a move that could boost production amid what leaders describe as a &#8220;renaissance&
+- [[Alaska] Proposed Alaska gas pipeline has a narrow window of viability, estimates suggest](https://alaskabeacon.com/2026/05/27/proposed-alaska-gas-pipeline-has-a-narrow-window-of-viability-estimates-suggest/) — *2026-05-27*
+  > The proposed trans-Alaska natural gas line faces a narrow road to profitability, even with Gov. Mike Dunleavy’s proposed multibillion-dollar tax break, according to estimates presented to state legislators. The more the pipeline costs, the more its builders will need to charge fo
+- **NEW**  [[Alaska] Solar power could soon be cheaper than natural gas power in Anchorage](https://alaskabeacon.com/briefs/solar-power-expected-to-soon-be-cheaper-than-natural-gas-power-in-anchorage/) — *2026-05-27*
+  > Alaska’s largest planned solar farm, expected to break ground west of Anchorage this summer, is likely to deliver cheaper electricity than possible with imported natural gas, according to information the state’s largest electric utility shared with state lawmakers this month. In 
+- [[Alaska] Governor failed Alaska gasline legislation homework](https://alaskabeacon.com/2026/05/26/governor-failed-alaska-gasline-legislation-homework/) — *2026-05-26*
+  > Legislators are being held after school this month and the state is paying for the extra time because the governor did not do his homework. If that seems backward, you’re right. Gov. Mike Dunleavy ordered lawmakers to stay late after the regular legislative session ended because 
+- [[Alaska] Trump administration will make green card hopefuls return to home countries before applying](https://alaskabeacon.com/2026/05/26/repub/trump-administration-will-make-green-card-hopefuls-return-to-home-countries-before-applying/) — *2026-05-26*
+  > Immigrants seeking green cards will have to return first to their home countries and wait despite years of potential backlogs, the Trump administration announced Friday.  “An alien who is in the U.S. temporarily and wants a Green Card must return to their home country to apply,” 
+- [[Alaska] Land named for colorful character ‘Herring Pete’ added to Alaska’s Kachemak Bay State Park](https://alaskabeacon.com/briefs/land-named-for-colorful-character-herring-pete-added-to-alaskas-kachemak-bay-state-park/) — *2026-05-26*
+  > A century ago, a Norwegian-born mariner nicknamed “Herring Pete” and his Austrian-born wife operated a fox farm on a scenic, remote and mountainous Kenai Peninsula island. Now that 24-acre island parcel is part of 400,000-acre Kachemak Bay State Park. The Conservation Fund, a pri
+- [[Alaska] North Slope Borough employee crashes fuel truck while allegedly drunk](https://alaskabeacon.com/briefs/north-slope-borough-employee-crashes-fuel-truck-while-allegedly-drunk/) — *2026-05-26*
+  > State prosecutors in Utqiagvik have charged a North Slope Borough employee with allegedly crashing a fuel truck while drunk. According to court documents filed May 13 in Utqiagvik, James Brown was driving on April 9 in Point Lay, a village on the shore of the Arctic Ocean, when h
 - [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-05-28*
   > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
-- [[Arizona] States could purge voter rolls close to elections if Supreme Court takes Trump’s side in Arizona case](https://azmirror.com/2026/05/27/repub/states-could-purge-voter-rolls-close-to-elections-if-supreme-court-takes-trumps-side-in-arizona-case/) — *2026-05-27*
+- [[Arkansas] Arkansas’ most populous county approves data center moratorium, but with exemption](https://arkansasadvocate.com/2026/05/27/arkansas-most-populous-county-approves-data-center-moratorium-but-with-exemption/) — *2026-05-27*
+  > Arkansas’ most populous county approved a yearlong pause on new data centers, but critics expressed frustration that the moratorium carves out one of the projects that’s prompted public backlash. The Pulaski County Quorum Court narrowly voted Tuesday to exempt Connecticut-based A
+- [[Arkansas] States could purge voter rolls close to elections if Supreme Court takes Trump’s side in Arizona case](https://arkansasadvocate.com/2026/05/27/repub/states-could-purge-voter-rolls-close-to-elections-if-supreme-court-takes-trumps-side-in-arizona-case/) — *2026-05-27*
   > The Trump administration wants the U.S. Supreme Court to empower states to review their voter rolls for noncitizens just days before elections, a change that voting rights advocates say would risk disenfranchising Americans. The U.S. Department of Justice asked the Supreme Court 
-- [[Arizona] Hobbs launches multi-million-dollar reelection ad campaign touting working-class background](https://azmirror.com/briefs/hobbs-launches-multi-million-dollar-reelection-ad-campaign-touting-working-class-background/) — *2026-05-27*
-  > In her first campaign ads in her reelection bid, Gov. Katie Hobbs is touting her efforts to lower costs for Arizonans and fight for working families across the Grand Canyon State. Hobbs’ campaign said the two ads — one in English and one in Spanish — are the launch of a multi-mil
-- [[Arizona] Trump struck a deal for China to buy $17B a year in US ag products. Farmers are skeptical.](https://azmirror.com/2026/05/27/repub/trump-struck-a-deal-for-china-to-buy-17b-a-year-in-us-ag-products-farmers-are-skeptical/) — *2026-05-27*
-  > By Rebecka Pieder/Medill News Service WASHINGTON &#8211; In a deal that could provide a major trade boost for American farmers, the White House said that during the recent summit, China committed to buying at least $17 billion in additional U.S. agricultural products annually for
-- [[Arizona] Democratic state AGs say their staff excluded from Vance anti-fraud meeting](https://azmirror.com/2026/05/26/repub/democratic-state-ags-say-their-staff-excluded-from-vance-anti-fraud-meeting/) — *2026-05-26*
-  > WASHINGTON — A handful of Democratic state attorneys general said Tuesday that expert officials from their offices were denied access to a major White House anti-fraud meeting convened by Vice President JD Vance and attended by Republican AGs. Two dozen Democratic attorneys gener
-- [[Arizona] Arizona added jobs in April, but its employment rate has been stuck at 2024 levels for 2 years](https://azmirror.com/briefs/arizona-added-jobs-in-april-but-its-employment-rate-has-been-stuck-at-2024-levels-for-2-years/) — *2026-05-26*
-  > After seven months of lower employment rates than last year, Arizona’s job market finally saw positive growth in April, according to the latest data from the Bureau of Labor Statistics.  A recent report from the Common Sense Institute, a conservative economic think tank, analyzed
-- [[Arizona] Justin Heap refers alleged noncitizen voters to AG’s office after strongly worded letters](https://azmirror.com/2026/05/26/justin-heap-refers-alleged-noncitizen-voters-to-ags-office-after-strongly-worded-letters/) — *2026-05-26*
-  > After weeks of sparring with state prosecutors, Maricopa County Recorder Justin Heap referred potential noncitizens that he claims to have found on the county’s voter roll to the Arizona Attorney General’s Office on Friday. His referral comes after the attorney general’s office s
+- [[Arkansas] Arkansas driver’s licenses and state IDs now available in Apple Wallet](https://arkansasadvocate.com/briefs/arkansas-drivers-licenses-and-state-ids-now-available-in-apple-wallet/) — *2026-05-27*
+  > Arkansans can now present their driver&#8217;s licenses and state identification cards on mobile devices using Apple Wallet, state finance officials announced Wednesday. The Department of Finance and Administration said Arkansans can use Apple Wallet to present their license or I
 
-_(617 additional items in raw.jsonl)_
+_(619 additional items in raw.jsonl)_

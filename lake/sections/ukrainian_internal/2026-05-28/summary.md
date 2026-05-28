@@ -2,19 +2,19 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-28
-record_count: 112
-new_today: 8
+record_count: 113
+new_today: 10
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-8 new of 112 total items today.
+10 new of 113 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Трамп завив про підтримку Пашиняна перед парламентськими виборами у Вірменії | LEDE: Напередодні парламентських виборів у Вірменії Трамп заявив про підтримку Пашиняна.] (uk: Трамп завив про підтримку Пашиняна перед парламентськими виборами у Вірменії)](https://www.pravda.com.ua/news/2026/05/28/8036712/) — *2026-05-28*
+  > Напередодні парламентських виборів у Вірменії Трамп заявив про підтримку Пашиняна.
 - **NEW**  [[TITLE: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі | LEDE: Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і ме] (uk: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі)](https://www.pravda.com.ua/articles/2026/05/28/8036693/) — *2026-05-28*
   > Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і мене, бо я єдиний з усім людством; а тому ніколи не питай, по кому дзвонить дзвін: він дзвонить і по тобі.
 - **NEW**  [[TITLE: Військові США заявили, що вдарили по судну наркоторговців у Тихому океані | LEDE: Американські військову вчергове заявили, що знищили судно наркотрафіку в Тихому океані.] (uk: Військові США заявили, що вдарили по судну наркоторговців у Тихому океані)](https://www.pravda.com.ua/news/2026/05/28/8036711/) — *2026-05-28*
@@ -50,13 +50,13 @@ state: fresh
   > Зустріч у Брюсселі премʼєр-міністра Угорщини Петера Мадяра та президентки Єврокомісії Урсули фон дер Ляєн відбудеться у пʼятницю, 29 травня.
 - [[TITLE: Зеленський провів нараду з Сирським та Гнатовим: погодив нові далекобійні операції | LEDE: Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та нач] (uk: Зеленський провів нараду з Сирським та Гнатовим: погодив нові далекобійні операц)](https://www.pravda.com.ua/news/2026/05/27/8036680/) — *2026-05-27*
   > Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та начальником Генштабу Андрієм Гнатовим погодили нові далекобійні операції.
-- [[TITLE: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським | LEDE: П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президенто] (uk: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським)](https://www.pravda.com.ua/news/2026/05/27/8036678/) — *2026-05-27*
-  > П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президентом Володимиром Зеленським обговорював ключові теми порядку денного держави і "нічого не просив".
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-05-28*
   > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] Hromadske: HTTPError](https://hromadske.ua/rss) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://hromadske.ua/rss
-- **NEW**  [Trump Endorses Pashinyan Ahead of Crucial Armenia Vote](https://www.kyivpost.com/post/76996) — *2026-05-28*
-  > US President Donald Trump endorsed Armenian Prime Minister Nikol Pashinyan ahead of a key parliamentary election, praising his peace agenda and plans for the US-backed “Trump Route” corridor. The endorsement came a day after Secretary of State Marco Rubio visited Yerevan, where W
+- **NEW**  [Unified Front: Zelensky, Tsikhanouskaya Address Russian Threats and Lukashenko’s War Role](https://www.kyivpost.com/post/76997) — *2026-05-28*
+  > Belarusian democratic leader Sviatlana Tsikhanouskaya met President Volodymyr Zelensky in Kyiv during her first working visit to Ukraine, marking a major step in formalizing ties between Kyiv and Belarusian democratic forces. The meeting focused on countering Russian threats, iso
 
-_(87 additional items in raw.jsonl)_
+_(88 additional items in raw.jsonl)_

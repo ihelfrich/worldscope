@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United States] AP News Summary at 9 : 48 p . m . EDT](https://www.woonsocketcall.com/news/national_and_world_news/ap-news-summary-at-9-48-p-m-edt/article_c4785efa-7923-50dd-97a8-e7fb4e782176.html) — *2026-05-28*
-  > domain: woonsocketcall.com · language: English · tone:
-- **NEW**  [[Canada] Loved ones remember little Sudbury girl as joyful  spitfire  ](https://www.timminspress.com:443/news/loved-ones-remember-little-sudbury-girl-as-joyful-spitfire) — *2026-05-28*
-  > domain: timminspress.com · language: English · tone:
-- **NEW**  [[United States] Cincinnati man discovers he earned his diploma decades ago](https://www.wcpo.com/news/education/he-spent-decades-thinking-he-never-graduated-high-school-but-his-diploma-was-there-all-along) — *2026-05-28*
-  > domain: wcpo.com · language: English · tone:
-- **NEW**  [[United Kingdom] United Christian Broadcasters | Christian Media Charity](https://www.ucb.co.uk/word-for-today/192963) — *2026-05-28*
-  > domain: ucb.co.uk · language: English · tone:
-- **NEW**  [[United States] National News - Glenora Radio Network - WWSE | WJTN | WHUG | WKSN | WQFX](https://wjtn.com/news-and-closings/national-headlines/09241a06fff41b8d75e21bd17e0d8db4) — *2026-05-28*
-  > domain: wjtn.com · language: English · tone:
-- **NEW**  [[Malaysia] US carries out new strikes in Iran against military site](https://www.freemalaysiatoday.com/category/world/2026/05/28/us-carries-out-new-strikes-in-iran-against-military-site) — *2026-05-28*
-  > domain: freemalaysiatoday.com · language: English · tone:
-- **NEW**  [[Singapore] US strikes Iran again , official says , after Trump denies deal on Strait of Hormuz](https://www.businesstimes.com.sg/international/global/us-strikes-iran-again-official-says-after-trump-denies-deal-strait-hormuz) — *2026-05-28*
-  > domain: businesstimes.com.sg · language: English · tone:
-- **NEW**  [[United States] Red Sox stop Braves on five hits , end five - game slump](https://www.pressherald.com/2026/05/27/red-sox-stop-braves-on-five-hits-end-five-game-slump/) — *2026-05-28*
-  > domain: pressherald.com · language: English · tone:
-- **NEW**  [[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident](https://pqbnews.com/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/) — *2026-05-28*
-  > domain: pqbnews.com · language: English · tone:
-- **NEW**  [[China] Insulet Faces the Prospect of More Direct Competition From Peers](https://www.morningstar.com/company-reports/1483563-insulet-faces-the-prospect-of-more-direct-competition-from-peers) — *2026-05-28*
-  > domain: morningstar.com · language: English · tone:
-- **NEW**  [[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout](https://www.asianimage.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/) — *2026-05-28*
-  > domain: asianimage.co.uk · language: English · tone:
-- **NEW**  [[United States] US military strikes another alleged drug boat in the eastern Pacific , killing 2](https://mynorthwest.com/national/us-military-strikes-another-alleged-drug-boat-in-the-eastern-pacific-killing-2/4242474) — *2026-05-28*
-  > domain: mynorthwest.com · language: English · tone:
-- **NEW**  [[United States] Brian Borer](https://norfolkdailynews.com/obituaries/brian-borer/article_1366688d-24d9-4974-a658-ae3ec5657ca0.html) — *2026-05-28*
-  > domain: norfolkdailynews.com · language: English · tone:
-- **NEW**  [[United States] California to impose 100 % tax on Trump January 6  slush fund , governor says | WABX 107 . 5](https://wabx.net/2026/05/27/california-to-impose-100-tax-on-trumps-january-6-slush-fund-governor-says/) — *2026-05-28*
-  > domain: wabx.net · language: English · tone:
-- **NEW**  [[China] Dow Jones Top Markets Headlines at 9 PM ET : U . S . Military Conducts New Strikes on Iran | U . S . ... ](https://www.morningstar.com/news/dow-jones/2026052711173/dow-jones-top-markets-headlines-at-9-pm-et-us-military-conducts-new-strikes-on-iran-us) — *2026-05-28*
-  > domain: morningstar.com · language: English · tone:
-- **NEW**  [[Canada] An environmental symbol slips out of Parliament - The Globe and Mail](https://www.theglobeandmail.com/politics/opinion/article-an-environmental-symbol-slips-out-of-parliament/) — *2026-05-28*
-  > domain: theglobeandmail.com · language: English · tone:
-- **NEW**  [[Malaysia] Ringgit opens mostly higher against major currencies , slightly lower versus greenback](https://www.freemalaysiatoday.com/category/business/2026/05/28/ringgit-opens-mostly-higher-against-major-currencies-slightly-lower-versus-greenback) — *2026-05-28*
-  > domain: freemalaysiatoday.com · language: English · tone:
-- **NEW**  [[United States] Aussie bloke on the same flight as ISIS brides claims the group received  special treatment  on the plane](https://www.dailymail.com/news/article-15853779/isis-brides-return-sydney-passenger-backlash.html) — *2026-05-28*
-  > domain: dailymail.com · language: English · tone:
-- **NEW**  [[Singapore] Oil rebounds as US hits Hormuz targets with talks at an impasse](https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-rebounds-us-hits-hormuz-targets-talks-impasse) — *2026-05-28*
-  > domain: businesstimes.com.sg · language: English · tone:
-- **NEW**  [[United States] Man critically injured after ejection in Huntley crash : officials](https://www.fox32chicago.com/news/man-critically-injured-after-ejection-in-huntley-crash-officials) — *2026-05-28*
-  > domain: fox32chicago.com · language: English · tone:
-- **NEW**  [[United States] Christie presents Beyond Ordinary - Then . Now . Next . Works from the Zabludowicz Collection](https://artdaily.com/news/196511/Christie-s-presents-Beyond-Ordinary---Then--Now--Next--Works-from-the-Zabludowicz-Collection) — *2026-05-28*
-  > domain: artdaily.com · language: English · tone:
-- **NEW**  [[United States] US sanctions hit Iran effort to control shipping in the Strait of Hormuz](https://www.wgauradio.com/news/politics/us-imposes-sanctions/VE6UYIFPTQ4F5DVAZ5GBPXK7OU/) — *2026-05-28*
-  > domain: wgauradio.com · language: English · tone:
-- **NEW**  [[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident](https://cranbrooktownsman.com/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/) — *2026-05-28*
-  > domain: cranbrooktownsman.com · language: English · tone:
-- **NEW**  [[United States] IMMA partners with UCD to launch major research project on the Paul ONeill Archive](https://artdaily.com/news/196499/IMMA-partners-with-UCD-to-launch-major-research-project-on-the-Paul-O-Neill-Archive) — *2026-05-28*
-  > domain: artdaily.com · language: English · tone:
-- **NEW**  [[Malaysia] Iran says war unlikely while Trump warns he may  finish the job  ](https://www.freemalaysiatoday.com/category/world/2026/05/28/iran-says-war-unlikely-as-trump-warns-he-may-finish-the-job) — *2026-05-28*
-  > domain: freemalaysiatoday.com · language: English · tone:
+- **NEW**  [[Canada] BRIONES : When your back gives out , life comes to a standstill](https://thefreepress.ca/2026/05/27/briones-when-your-back-gives-out-life-comes-to-a-standstill/) — *2026-05-28*
+  > domain: thefreepress.ca · language: English · tone:
+- **NEW**  [[United States] Happy , who taught researchers that elephants can recognize themselves , is euthanized at Bronx Zoo](https://www.winknews.com/news/international/happy-who-taught-researchers-that-elephants-can-recognize-themselves-is-euthanized-at-bronx-zoo/article_828fa871-baf6-552d-a151-30ea3b73ffbe.html) — *2026-05-28*
+  > domain: winknews.com · language: English · tone:
+- **NEW**  [[United States] More people are going hungry now than at the height of the pandemic](https://www.tpr.org/news/2026-05-27/more-people-are-going-hungry-now-than-at-the-height-of-the-pandemic) — *2026-05-28*
+  > domain: tpr.org · language: English · tone:
+- **NEW**  [[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout](https://www.dailyecho.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/) — *2026-05-28*
+  > domain: dailyecho.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] The man who made a Southampton phone box his permanent home](https://www.dailyecho.co.uk/news/26142812.man-made-southampton-phone-box-permanent-home/) — *2026-05-28*
+  > domain: dailyecho.co.uk · language: English · tone:
+- **NEW**  [[United States] Menomonee Falls police chase ends in crash , 2 passengers paralyzed](https://www.wisn.com/article/police-chase-menomonee-falls-crash-2-passengers-paralyzed/71424701) — *2026-05-28*
+  > domain: wisn.com · language: English · tone:
+- **NEW**  [[United States] 2nd Worker Dies , 9 More Presumed Dead After Chemical Vat Rupture at Washington State Paper Mill](https://www.theepochtimes.com/us/2nd-worker-dies-9-more-presumed-dead-after-chemical-vat-rupture-at-washington-state-paper-mill-6039677) — *2026-05-28*
+  > domain: theepochtimes.com · language: English · tone:
+- **NEW**  [[United States]   The Plainsman : Freedom Worth Fighting For](https://www.theepochtimes.com/bright/the-plainsman-freedom-worth-fighting-for-6038229) — *2026-05-28*
+  > domain: theepochtimes.com · language: English · tone:
+- **NEW**  [[Australia] Police sieze 80 cannabis plants in Ballarat East drug raid | The Courier](https://www.thecourier.com.au/story/9255329/police-sieze-80-cannabis-plants-in-ballarat-east-drug-raid/) — *2026-05-28*
+  > domain: thecourier.com.au · language: English · tone:
+- **NEW**  [[United States] US military conducts another strike against Iran after Trump says Iran is  negotiating on fumes  ](https://www.wcnc.com/article/news/nation-world/attack-on-iran/president-donald-trump-cabinet-meeting-iran-war-talks-negotiations/507-eb16ce8f-d687-42ea-8a9d-5c010ffb9ebb) — *2026-05-28*
+  > domain: wcnc.com · language: English · tone:
+- **NEW**  [[Australia] Hidden NDIS crisis exposed as high - care plans are slashed | Great Lakes Advocate](https://www.greatlakesadvocate.com.au/story/9254239/hidden-ndis-crisis-exposed-as-high-care-plans-are-slashed/) — *2026-05-28*
+  > domain: greatlakesadvocate.com.au · language: English · tone:
+- **NEW**  [[United Kingdom] Type 2 diabetes rates  rising twice as fast in younger women  | Wilts and Gloucestershire Standard](https://www.wiltsglosstandard.co.uk/news/national/26144525.type-2-diabetes-rates-rising-twice-fast-younger-women/) — *2026-05-28*
+  > domain: wiltsglosstandard.co.uk · language: English · tone:
+- **NEW**  [[Kenya] IDF says two senior Hamas operatives eliminated in Gaza strikes](http://www.kenyastar.com/news/279080658/idf-says-two-senior-hamas-operatives-eliminated-in-gaza-strikes) — *2026-05-28*
+  > domain: kenyastar.com · language: English · tone:
+- **NEW**  [[Australia] Shopping centre stabbing marks machete ban anniversary](https://www.dailyadvertiser.com.au/story/9255435/shopping-centre-stabbing-marks-machete-ban-anniversary/) — *2026-05-28*
+  > domain: dailyadvertiser.com.au · language: English · tone:
+- **NEW**  [[United States] Road work to begin Thursday morning at 35th Street , National Ave . ](https://www.wisn.com/article/road-work-to-begin-thursday-morning-at-35th-national-milwaukee/71424588) — *2026-05-28*
+  > domain: wisn.com · language: English · tone:
+- **NEW**  [[United States] Flagler County Offers Emergency Cooling Assistance For Seniors](https://flaglerlive.com/emergency-energy/) — *2026-05-28*
+  > domain: flaglerlive.com · language: English · tone:
+- **NEW**  [[Australia] Kylie Minogue : Docuseries explores her cancer recurrence , career | Southern Cross](https://www.juneesoutherncross.com.au/story/9254423/kylie-minogue-docuseries-explores-her-cancer-recurrence-career/) — *2026-05-28*
+  > domain: juneesoutherncross.com.au · language: English · tone:
+- **NEW**  [[United States] Elderly woman killed by grandson as deputies responded to mental health call , sheriff says](https://foxsanantonio.com/newsletter-daily/bexar-county-sheriff-salazar-to-brief-homicide-investigation-on-north-side) — *2026-05-28*
+  > domain: foxsanantonio.com · language: English · tone:
+- **NEW**  [[United States] Cypher AI Secures $2M to Scale AI - Native Infrastructure for Life Science R & D](https://hitconsultant.net/2026/05/27/cypher-ai-raises-2m-seed-biotech-infrastructure/) — *2026-05-28*
+  > domain: hitconsultant.net · language: English · tone:
+- **NEW**  [[New Zealand] The Co - operative Bank acknowledges breaches of anti - money laundering requirements](https://www.interest.co.nz/banking/138727/reserve-bank-files-anti-money-laundering-court-proceedings-against-co-operative-bank) — *2026-05-28*
+  > domain: interest.co.nz · language: English · tone:
+- **NEW**  [[Kenya]   US putting efforts for Americans to protect them , says US Secy of State](http://www.kenyastar.com/news/279080712/us-putting-efforts-for-americans-to-protect-them-says-us-secy-of-state) — *2026-05-28*
+  > domain: kenyastar.com · language: English · tone:
+- **NEW**  [[United States] Man Sues Carnival Cruise Over Hot Pool Deck Burns | NewsTalk WMEQ](https://wmeq.iheart.com/content/2026-05-27-man-sues-carnival-cruise-over-hot-pool-deck-burns/) — *2026-05-28*
+  > domain: wmeq.iheart.com · language: English · tone:
+- **NEW**  [[Singapore] ICC sets trial date for Philippine Duterte over alleged crimes against humanity](https://www.asiaone.com/asia/icc-sets-trial-date-philippines-duterte-over-alleged-crimes-against-humanity) — *2026-05-28*
+  > domain: asiaone.com · language: English · tone:
+- **NEW**  [[United States] Mary Lucia - Write On ! Radio | KFAI | Minneapolis & Saint Paul](https://kfai.org/podcast/write-on-radio-december-3-2026-mary-lucia/) — *2026-05-28*
+  > domain: kfai.org · language: English · tone:
+- **NEW**  [[United States] Brooke Hogan Claims Key Person In Hulk Hogan Death Has Disappeared](https://www.wrestlezone.com/news/1641649-brooke-hogan-key-person-hulk-hogan-death-disappeared) — *2026-05-28*
+  > domain: wrestlezone.com · language: English · tone:
 
 _(15 additional items in raw.jsonl)_
