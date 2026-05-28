@@ -48,14 +48,19 @@
     // segment in pathname and stop one level under it.
     const m = window.location.pathname.match(/^(.*?\/worldscope\/)/);
     if (m) return m[1] + "data/" + file;
-    // Local dev (served from dist/) — count segments after the last
-    // directory and walk up.
+    // file:// fallback: walking up by segment count goes all the way to
+    // the system root (e.g. file:///data/claims.json). For file://
+    // we can only safely fall back to a sibling lookup and accept it
+    // may 404 when the dev hasn't structured their tree like the build
+    // output (gemini Pass B finding).
+    if (window.location.protocol === "file:") {
+      return "./data/" + file;
+    }
+    // Local dev (served from a webserver under some sub-path) — count
+    // segments and walk up to the site root.
     const segs = window.location.pathname.split("/").filter(Boolean);
-    // Drop the last segment if it's an .html filename
     const last = segs[segs.length - 1] || "";
     const dirs = /\.[a-z]+$/i.test(last) ? segs.slice(0, -1) : segs.slice();
-    // Walk up until we find a "data/" sibling — but we can't probe; just
-    // try the relative path one above the current directory.
     return "../".repeat(dirs.length) + "data/" + file;
   }
 

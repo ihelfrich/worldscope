@@ -64,38 +64,58 @@ class SnapshotStore:
         Invariant: an empty same-day snapshot may NOT replace a non-empty
         one. A morning cron run that pulled 200 items must not be
         clobbered by an afternoon manual run that got rate-limited and
-        returned []. Same-day non-empty replacing non-empty is allowed
-        (a re-pull that picked up more items is welcome).
+        returned []. Same-day non-empty replacing non-empty is allowed.
 
-        Returns True when the write happened, False when it was refused
-        (caller can then reload the retained snapshot via .get())."""
+        Returns True when the write happened, False when it was refused.
+
+        Concurrency: the SELECT-then-INSERT pair is wrapped in a
+        BEGIN IMMEDIATE transaction so two concurrent put() callers
+        across processes can't both read "non-empty exists" and one
+        clobber the other. SQLite's BEGIN IMMEDIATE acquires a
+        reserved lock immediately, serializing the critical section.
+        """
         d = (when or date.today()).isoformat()
-        if not items:
-            existing = self._conn.execute(
-                "SELECT payload FROM snapshots "
-                "WHERE section_id = ? AND snapshot_date = ?",
-                (section_id, d),
-            ).fetchone()
-            if existing:
-                try:
-                    prior = json.loads(existing[0])
-                    if (prior.get("items") or []):
-                        return False
-                except Exception:
-                    pass
-        payload = {
-            "schema_version": SCHEMA_VERSION,
-            "pulled_at": datetime.now(timezone.utc).isoformat(),
-            "status": status,
-            "error": error,
-            "items": items,
-        }
-        self._conn.execute(
-            "INSERT OR REPLACE INTO snapshots VALUES (?, ?, ?, ?)",
-            (section_id, d, payload["pulled_at"], json.dumps(payload)),
-        )
-        self._conn.commit()
-        return True
+        # Single critical section: lock the DB, check prior state, decide.
+        try:
+            self._conn.execute("BEGIN IMMEDIATE")
+        except sqlite3.OperationalError:
+            # Already in a transaction (nested call). Proceed without
+            # opening a new one — caller owns the lock.
+            pass
+        try:
+            if not items:
+                existing = self._conn.execute(
+                    "SELECT payload FROM snapshots "
+                    "WHERE section_id = ? AND snapshot_date = ?",
+                    (section_id, d),
+                ).fetchone()
+                if existing:
+                    try:
+                        prior = json.loads(existing[0])
+                        if (prior.get("items") or []):
+                            self._conn.execute("COMMIT")
+                            return False
+                    except Exception:
+                        pass
+            payload = {
+                "schema_version": SCHEMA_VERSION,
+                "pulled_at": datetime.now(timezone.utc).isoformat(),
+                "status": status,
+                "error": error,
+                "items": items,
+            }
+            self._conn.execute(
+                "INSERT OR REPLACE INTO snapshots VALUES (?, ?, ?, ?)",
+                (section_id, d, payload["pulled_at"], json.dumps(payload)),
+            )
+            self._conn.execute("COMMIT")
+            return True
+        except Exception:
+            # On any failure inside the critical section, release the lock
+            # so we don't leave the DB wedged for subsequent writers.
+            try: self._conn.execute("ROLLBACK")
+            except sqlite3.OperationalError: pass
+            raise
 
     # ---- read ----------------------------------------------------------
 

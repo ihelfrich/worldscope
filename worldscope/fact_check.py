@@ -205,15 +205,27 @@ DATE_PATTERN = re.compile(
 )
 
 FORECAST_CONTEXT = re.compile(
-    r"\b(by\s+\w+|target|strike|polymarket|contract|forecast|hit\s+\$|"
-    r"reach(?:es|ing)?|trades?\s+at\s+\d+%|"
+    # Forecast/contract markers in the surrounding window. The
+    # past-tense veto in _looks_like_forecast() handles the past-event
+    # ambiguity (gemini Pass B finding: "Apple hit $150 yesterday" is
+    # a past event, not a forecast). "hitting" (gerund), "to hit",
+    # "will hit", and similar all match.
+    r"\b(by\s+\w+|target|strike|polymarket|contract|forecast|"
+    r"(?:will|to|projected\s+to|might|could|may|would|expected\s+to|"
+    r"going\s+to|set\s+to)\s+(?:hit|reach|cross|touch|exceed)\s+\$|"
+    r"hitting\s+\$|reach(?:es|ing)?\s+\$|trades?\s+at\s+\d+%|"
     r"\b\d+%\s+probabilit|priced\s+as|impossib)",
     re.IGNORECASE,
 )
 
 PAST_CONTEXT = re.compile(
-    r"\b(reported|announced|issued|filed|published|released|signed|closed|"
-    r"met|occurred|happened|began|started|ended|took effect|as of|on)\b",
+    # Strong past-action verbs and explicit time markers. We do NOT
+    # include short ambiguous words like "on" (matches "on Bitcoin")
+    # or "closed" (matches "closed at" which is also a current
+    # statement) because they false-veto valid forecast-context skips.
+    r"\b(reported|announced|issued|filed|published|released|signed|"
+    r"occurred|happened|began|started|ended|took\s+effect|"
+    r"yesterday|last\s+(?:week|month|year|quarter|night))\b",
     re.IGNORECASE,
 )
 
@@ -232,8 +244,17 @@ def _normalize_value(value_str: str, suffix: str | None = None) -> float:
 
 
 def _looks_like_forecast(text: str, start: int, end: int) -> bool:
+    """A claim is a forecast (skip from validation) ONLY if it both
+    matches the forecast context regex AND does NOT also match past
+    context. Without the past-context veto, sentences like 'Apple hit
+    $150 yesterday' were being skipped as forecasts even though they
+    are definitive past assertions worth validating."""
     window = text[max(0, start - 50):min(len(text), end + 50)]
-    return bool(FORECAST_CONTEXT.search(window))
+    if not FORECAST_CONTEXT.search(window):
+        return False
+    if PAST_CONTEXT.search(window):
+        return False
+    return True
 
 
 def _month_num(name: str) -> int:

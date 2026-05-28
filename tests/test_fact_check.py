@@ -79,6 +79,26 @@ class TestExtractClaims(unittest.TestCase):
         claims = extract_claims(text)
         self.assertEqual(claims, [])
 
+    def test_does_not_skip_past_tense_hit(self) -> None:
+        """Regression for gemini Pass B finding: 'hit $X' alone matched
+        FORECAST_CONTEXT, so past-tense statements like 'Apple hit
+        $150 yesterday' were skipped from validation. Now requires an
+        explicit future modifier OR a forecast-context cue elsewhere
+        in the window."""
+        text = "Apple reported earnings and the stock hit $150 yesterday."
+        claims = extract_claims(text)
+        # Should NOT be empty — this is a past-event price claim worth
+        # checking. (No "Apple" in the asset registry yet, so it'd be
+        # unverified rather than verified, but extraction must happen.)
+        # The claim_type would be "percentage" matching nothing useful,
+        # so we just assert the past-tense phrase wasn't treated as a
+        # forecast skip.
+        text_with_asset = "Bitcoin hit $74,816 yesterday."
+        claims2 = extract_claims(text_with_asset)
+        self.assertTrue(any(c.subject == "bitcoin" for c in claims2),
+                        "past-tense bitcoin price claim was incorrectly "
+                        "skipped as forecast context")
+
     def test_extracts_multiple_claims(self) -> None:
         text = "Bitcoin at $74,816 (down 1.49% 24h). Gold at $4,421. S&P 500 at 745.64."
         claims = extract_claims(text)

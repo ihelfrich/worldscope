@@ -112,11 +112,8 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Aofac.treasury.gov+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -173,11 +170,8 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Adsca.mil+%22major+arms+sale%22+when%3A60d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS * 4)).date()  # arms sales are rare; wider window
@@ -211,11 +205,8 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Ajustice.gov+nsd-fara+(registration+OR+amendment)+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -303,11 +294,8 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Ahome.treasury.gov+(CFIUS+OR+%22foreign+investment%22)+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -342,11 +330,8 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Aexim.gov+press+release+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -375,12 +360,9 @@ class SanctionsProcurementSection(Section):
 
     def _pull_eu_sanctions(self) -> list[dict]:
         url = "https://www.sanctionsmap.eu/api/v1/regime"
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=20)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": UA, "Accept": "application/json"}, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
         out = []
         for regime in (data.get("data") or [])[:60]:
             r_id = regime.get("id")
@@ -415,11 +397,8 @@ class SanctionsProcurementSection(Section):
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/120.0.0.0 Safari/537.36"
         )
-        try:
-            resp = requests.get(url, headers={"User-Agent": browser_ua}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        resp = requests.get(url, headers={"User-Agent": browser_ua}, timeout=20)
+        resp.raise_for_status()
         checksum = hashlib.sha1(resp.text.encode()).hexdigest()[:12]
         return [{
             "id": f"un-sanctions-checksum-{checksum}",
@@ -439,11 +418,12 @@ class SanctionsProcurementSection(Section):
         url = ("https://news.google.com/rss/search?"
                "q=site%3Austr.gov+when%3A14d"
                "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-        except requests.exceptions.RequestException:
-            return []
+        # Don't silently swallow upstream failures — the outer
+        # aggregator (pull()) catches per-subsource exceptions and
+        # records them as visible error items. Returning [] here would
+        # hide the failure (gemini Pass A finding #4).
+        resp = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
         feed = _parse_rss(resp.content)
         out = []
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()

@@ -1,0 +1,10 @@
+# Mark binary files explicitly so git status / diff don't try to text-
+# compare them. The actual cure for concurrent-CI rebase conflicts on
+# these files is the shared "worldscope-state" concurrency group across
+# the workflows that mutate them — see the comment at the top of
+# .github/workflows/daily-brief.yml.
+*.sqlite                       -text -diff
+*.png                          -text -diff
+*.jpg                          -text -diff
+*.pdf                          -text -diff
+*.zip                          -text -diff

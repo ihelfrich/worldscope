@@ -29,7 +29,9 @@ permissions:
   id-token: write
 
 concurrency:
-  group: render-briefings
+  # Shared with daily-brief, ukraine-hourly, and pushover-brief. See
+  # daily-brief.yml's concurrency block for rationale.
+  group: worldscope-state
   cancel-in-progress: false
 
 jobs:

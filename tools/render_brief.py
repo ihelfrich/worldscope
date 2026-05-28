@@ -648,8 +648,13 @@ _BLEACH_TAGS: frozenset[str] = frozenset({
     "small", "span", "strong", "sub", "sup", "table", "tbody", "td",
     "th", "thead", "tr", "ul",
 })
+# DO NOT add id or class to the global allowlist. Doing so lets the
+# desk-officer's markdown emit elements like <div id="ws-evidence-drawer">
+# that clobber the homepage's JavaScript DOM lookups (gemini audit Pass A
+# finding #3). Per-tag attributes are restricted to what each tag
+# actually needs.
 _BLEACH_ATTRS: dict[str, list[str]] = {
-    "*":   ["id", "class", "title"],
+    "*":   ["title"],
     "a":   ["href", "title", "rel"],
     "img": ["src", "alt", "title", "width", "height"],
     "th":  ["colspan", "rowspan", "scope"],
@@ -992,6 +997,14 @@ def render_root_landing(out_root: Path) -> None:
     rich = rich.replace('href="../sections/"', 'href="./sections/"')
     rich = rich.replace('href="./index.html">Archive', 'href="./briefings/">Archive')
     rich = rich.replace('href="../zips/', 'href="./zips/')
+    # Also rewrite asset references and the WS_BASE marker that the
+    # evidence drawer reads. Without this, the root landing page tries
+    # to load assets from /assets/... (one level above dist/), 404ing
+    # the evidence script and silently disabling the Claim Ledger UI.
+    rich = rich.replace('src="../assets/', 'src="./assets/')
+    rich = rich.replace('href="../assets/', 'href="./assets/')
+    rich = rich.replace('window.WS_BASE = "../"', 'window.WS_BASE = "./"')
+    rich = rich.replace("window.WS_BASE = '../'", "window.WS_BASE = './'")
     # Inline-fix any other relative image references the brief used (the
     # brief MD references images by bare filename like
     # <img src="2026-05-27-anomaly_screen.png">; we need them resolved

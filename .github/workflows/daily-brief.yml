@@ -19,7 +19,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: daily-brief
+  # Shared with render-briefings, ukraine-hourly, and pushover-brief.
+  # All four push to main with the binary SQLite snapshot store + lake.
+  # Git cannot auto-merge those files, so concurrent runs were producing
+  # unresolvable rebase conflicts (gemini Pass A finding #2). The shared
+  # group serializes them; each workflow waits its turn.
+  group: worldscope-state
   cancel-in-progress: false
 
 jobs:

@@ -30,7 +30,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: pushover-brief
+  # Shared with daily-brief, render-briefings, and ukraine-hourly —
+  # see daily-brief.yml for rationale.
+  group: worldscope-state
   cancel-in-progress: false
 
 jobs:
