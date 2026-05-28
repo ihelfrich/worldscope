@@ -235,6 +235,19 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as csx:  # pragma: no cover
         print(f"[cross-section] analyzer failed: {type(csx).__name__}: {csx}")
 
+    # 1d-ter. Build per-section drill-down pages from the lake. Without this
+    # the public Pages site only shows the synthesized brief; the ~5,000
+    # raw records per day are invisible. site_builder writes
+    # dist/sections/<id>/<date>.html for each section + date.
+    try:
+        from .site_builder import build_all as _site_build
+        site_stats = _site_build(Path(out_dir), days_to_render=7)
+        print(f"[site-builder] {site_stats['sections']} sections, "
+              f"{site_stats['section_pages']} index pages, "
+              f"{site_stats['day_pages']} day pages")
+    except Exception as sbx:  # pragma: no cover
+        print(f"[site-builder] failed: {type(sbx).__name__}: {sbx}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made

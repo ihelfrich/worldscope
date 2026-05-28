@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · fec · 2026-05-27</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/fec/">fec</a> <span style="color:#aaa">/</span> 2026-05-27</div>
+  <h1>fec · 2026-05-27</h1><p class="meta">Federal Election Commission campaign finance · 27 records across 1 source</p><h2 id="src-fec">fec <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 27 records</span></h2><div class="record"><h3><a href="https://docquery.fec.gov/pdf/207/10030483207/10030483207.pdf" target="_blank" rel="noopener">[F3] ANGELS FOR JOHN GAY — cycle 2010 · filing #718895</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf" target="_blank" rel="noopener">[F3] ANGELS FOR JOHN GAY — cycle 2010 · filing #720559</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf" target="_blank" rel="noopener">[F3] ANGELS FOR JOHN GAY — cycle 2010 · filing #720559</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf" target="_blank" rel="noopener">[F3] ANGELS FOR JOHN GAY — cycle 2010 · filing #720559</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/filing//" target="_blank" rel="noopener">[F3] CITIZENS FOR JOHN RARIG — cycle 1982 · filing #</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf" target="_blank" rel="noopener">[F3] DOUTHITT FOR CONGRESS — cycle 2014 · filing #987909</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/424/13031062424/13031062424.pdf" target="_blank" rel="noopener">[F3] FRIENDS OF SCOTT ROBINSON — cycle 2014 · filing #870444 · receipts $0.00M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/567/12030782567/12030782567.pdf" target="_blank" rel="noopener">[F3] JOEL BALAM FOR CONGRESS COMMITTEE — cycle 2012 · filing #783936 · receipts $0.00M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/947/14031331947/14031331947.pdf" target="_blank" rel="noopener">[F3] REDPATH FOR CONGRESS — cycle 2014 · filing #993204 · receipts $0.00M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf" target="_blank" rel="noopener">[F3] SUE LOWDEN FOR U S SENATE — cycle 2010 · filing #732522</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/filing//" target="_blank" rel="noopener">[F3X] UNITED ASSN OF JOURNEYMEN &amp; APPRETICES PLUMBING &amp; PIPEFITTING LOCAL 63 — cycle 1982 · filing #</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/694/201607070300079694/201607070300079694.pdf" target="_blank" rel="noopener">[F7] CALIFORNIA TEACHERS ASSOCIATION — cycle 2016 · filing #1081800</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/703/201607070300079703/201607070300079703.pdf" target="_blank" rel="noopener">[F7] TEXAS FARM BUREAU — cycle 2016 · filing #1081726</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/361/201803220300001361/201803220300001361.pdf" target="_blank" rel="noopener">[FRQ] D.D. ADAMS FOR CONGRESS — cycle 2018 · filing #</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://docquery.fec.gov/pdf/430/201911150300051430/201911150300051430.pdf" target="_blank" rel="noopener">[FRQ] MAD DOG PAC — cycle 2020 · filing #</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S4NJ00185/" target="_blank" rel="noopener">[Top] BOOKER, CORY A. (DEM, Senate NJ): $32.26M raised — cycle 2026 receipts $32.26M · disbursements $15.55M · net $+16.71M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6OH00163/" target="_blank" rel="noopener">[Top] BROWN, SHERROD (DEM, Senate OH): $25.98M raised — cycle 2026 receipts $25.98M · disbursements $8.95M · net $+17.03M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6NC00407/" target="_blank" rel="noopener">[Top] COOPER, ROY (DEM, Senate NC): $26.82M raised — cycle 2026 receipts $26.82M · disbursements $8.37M · net $+18.46M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S0SC00149/" target="_blank" rel="noopener">[Top] GRAHAM, LINDSEY O. (REP, Senate SC): $20.69M raised — cycle 2026 receipts $20.69M · disbursements $21.57M · net $-0.88M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S0TN00169/" target="_blank" rel="noopener">[Top] HAGERTY, BILL (REP, Senate TN): $14.69M raised — cycle 2026 receipts $14.69M · disbursements $9.07M · net $+5.62M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/H6LA04138/" target="_blank" rel="noopener">[Top] JOHNSON, JAMES MICHAEL (REP, House LA): $17.55M raised — cycle 2026 receipts $17.55M · disbursements $8.48M · net $+9.07M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6IL00482/" target="_blank" rel="noopener">[Top] KRISHNAMOORTHI, S (DEM, Senate IL): $31.39M raised — cycle 2026 receipts $31.39M · disbursements $28.24M · net $+3.15M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/H8NY15148/" target="_blank" rel="noopener">[Top] OCASIO-CORTEZ, ALEXANDRIA (DEM, House NY): $27.73M raised — cycle 2026 receipts $27.73M · disbursements $16.78M · net $+10.95M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S8GA00180/" target="_blank" rel="noopener">[Top] OSSOFF, T. JONATHAN (DEM, Senate GA): $81.15M raised — cycle 2026 receipts $81.15M · disbursements $52.97M · net $+28.17M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6TX00479/" target="_blank" rel="noopener">[Top] TALARICO, JAMES (DEM, Senate TX): $40.28M raised — cycle 2026 receipts $40.28M · disbursements $30.43M · net $+9.86M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6VA00093/" target="_blank" rel="noopener">[Top] WARNER, MARK ROBERT (DEM, Senate VA): $21.99M raised — cycle 2026 receipts $21.99M · disbursements $7.77M · net $+14.22M</a></h3><span class="src">fec</span></div><div class="record"><h3><a href="https://www.fec.gov/data/candidate/S6FL00756/" target="_blank" rel="noopener">[Top] WEIL, JOSHUA JOSEPH (DEM, Senate FL): $15.93M raised — cycle 2026 receipts $15.93M · disbursements $15.93M · net $+0.00M</a></h3><span class="src">fec</span></div>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>

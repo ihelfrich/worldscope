@@ -290,6 +290,57 @@ footer.brief-foot {
   .shell { grid-template-columns: 1fr; }
   .sidebar { position: static; max-height: none; }
 }
+/* === mobile-responsive additions === */
+@media (max-width: 700px) {
+  body {
+    font-size: 15.5px;
+  }
+  .shell {
+    padding: 16px 16px 60px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .masthead h1 {
+    font-size: 26px;
+  }
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 14px 0 22px;
+  }
+  .dash-tile {
+    padding: 8px 10px;
+  }
+  .content img {
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 32px);
+    max-width: none;
+    border-radius: 0;
+  }
+}
+/* === site-wide top navigation === */
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 9px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+  margin: -24px -24px 24px;
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand {
+  font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1;
+}
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+@media (max-width: 700px) {
+  .topnav { padding: 9px 14px; margin: -16px -16px 18px; font-size: 12.5px; gap: 12px; }
+}
 @media print {
   .sidebar { display: none; }
   .shell { grid-template-columns: 1fr; padding: 0; max-width: 100%; }
@@ -301,6 +352,15 @@ footer.brief-foot {
 </style>
 </head><body>
 <div class="shell">
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/2026-05-27.zip">Today's bundle</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
 <nav class="sidebar"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li style=""><a href="#headline">Headline</a></li><li style=""><a href="#watch-areas-configured-priorities">Watch Areas - Configured Priorities</a></li><li style=""><a href="#macro-situation">Macro Situation</a></li><li style=""><a href="#markets">Markets</a></li><li style=""><a href="#united-states-politics-and-policy">United States Politics and Policy</a></li><li style=""><a href="#political-figures-watchlist">Political Figures Watchlist</a></li><li style=""><a href="#regional-briefings">Regional Briefings</a></li><li style="padding-left:14px;"><a href="#north-america">North America</a></li><li style="padding-left:14px;"><a href="#south-america">South America</a></li><li style="padding-left:14px;"><a href="#europe">Europe</a></li><li style="padding-left:14px;"><a href="#russia-and-post-soviet">Russia and Post-Soviet</a></li><li style="padding-left:14px;"><a href="#middle-east">Middle East</a></li><li style="padding-left:14px;"><a href="#africa">Africa</a></li><li style="padding-left:14px;"><a href="#east-asia">East Asia</a></li><li style="padding-left:14px;"><a href="#south-and-southeast-asia">South and Southeast Asia</a></li><li style="padding-left:14px;"><a href="#oceania-and-pacific">Oceania and Pacific</a></li><li style=""><a href="#ukraine-theater-dedicated">Ukraine Theater (Dedicated)</a></li><li style=""><a href="#world-leaders-speaking-and-moving">World Leaders - Speaking and Moving</a></li><li style=""><a href="#sanctions-designations-and-legal">Sanctions, Designations, and Legal</a></li><li style=""><a href="#conflict-and-security-signals">Conflict and Security Signals</a></li><li style=""><a href="#cyber-and-biosecurity">Cyber and Biosecurity</a></li><li style=""><a href="#humanitarian">Humanitarian</a></li><li style=""><a href="#environment-disasters-and-climate">Environment, Disasters, and Climate</a></li><li style=""><a href="#speeches-and-op-eds-by-major-critics-and-influencers">Speeches and Op-Eds by Major Critics and Influencers</a></li><li style=""><a href="#prediction-markets-and-forecasting-consensus">Prediction Markets and Forecasting Consensus</a></li><li style=""><a href="#weak-signals-small-things-that-may-matter">Weak Signals - Small Things That May Matter</a></li><li style=""><a href="#historical-context">Historical Context</a></li><li style=""><a href="#what-to-watch-next-14-days">What to Watch - Next 14 Days</a></li></ul></nav>
 <main class="content-wrap">
   <div class="masthead">

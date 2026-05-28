@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · people · 2026-05-25</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/people/">people</a> <span style="color:#aaa">/</span> 2026-05-25</div>
+  <h1>people · 2026-05-25</h1><p class="meta">Wikidata changes for tracked public figures · 324 records across 1 source</p><h2 id="src-people">people <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 324 records</span></h2><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q24237654" target="_blank" rel="noopener">[Afghanistan] head of state: Hibatullah Akhundzada — position: Head of state · head of govt: Mohammad Hasan Akhund</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q107422711" target="_blank" rel="noopener">[Albania] head of state: Bajram Begaj — position: Head of state · head of govt: Edi Rama</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q2821166" target="_blank" rel="noopener">[Algeria] head of state: Abdelmadjid Tebboune — position: Head of state · head of govt: Sifi Ghrieb</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q3052772" target="_blank" rel="noopener">[Andorra] head of state: Emmanuel Macron — position: Head of state · head of govt: Xavier Espot Zamora</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q93244592" target="_blank" rel="noopener">[Andorra] head of state: Josep-Lluís Serrano Pentinat — position: Head of state · head of govt: Xavier Espot Zamora</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q28650390" target="_blank" rel="noopener">[Angola] head of state: João Lourenço — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q43274" target="_blank" rel="noopener">[Antigua and Barbuda] head of state: Charles III — position: Head of state · head of govt: Gaston Browne</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q52395487" target="_blank" rel="noopener">[Argentina] head of state: Javier Milei — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q3553274" target="_blank" rel="noopener">[Armenia] head of state: Vahagn Khachatryan — position: Head of state · head of govt: Nikol Pashinyan</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q154952" target="_blank" rel="noopener">[Aruba] head of state: William Alexander of the Netherlands — position: Head of state · head of govt: Evelyn Wever-Croes</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q43274" target="_blank" rel="noopener">[Australia] head of state: Charles III — position: Head of state · head of govt: Anthony Albanese</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q78869" target="_blank" rel="noopener">[Austria] head of state: Alexander Van der Bellen — position: Head of state · head of govt: Christian Stocker</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57371" target="_blank" rel="noopener">[Azerbaijan] head of state: Ilham Aliyev — position: Head of state · head of govt: Ali Asadov</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57352" target="_blank" rel="noopener">[Bahrain] head of state: Hamad II of Bahrain — position: Head of state · head of govt: Salman bin Hamad, Crown Prince of Bahrain</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q116763154" target="_blank" rel="noopener">[Bangladesh] head of state: Mohammad Shahabuddin — position: Head of state · head of govt: Muhammad Yunus</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q9333540" target="_blank" rel="noopener">[Barbados] head of state: Sandra Mason — position: Head of state · head of govt: Mia Mottley</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q2866" target="_blank" rel="noopener">[Belarus] head of state: Alexander Lukashenka — position: Head of state · head of govt: Alaksandar Turčyn</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q155004" target="_blank" rel="noopener">[Belgium] head of state: Philippe of Belgium — position: Head of state · head of govt: Bart De Wever</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q43274" target="_blank" rel="noopener">[Belize] head of state: Charles III — position: Head of state · head of govt: Johnny Briceño</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q16669148" target="_blank" rel="noopener">[Benin] head of state: Patrice Talon — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57376" target="_blank" rel="noopener">[Bhutan] head of state: Jigme Khesar Namgyel Wangchuck — position: Head of state · head of govt: Tshering Tobgay</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q110520817" target="_blank" rel="noopener">[Bolivia] head of state: Rodrigo Paz Pereira — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q13081568" target="_blank" rel="noopener">[Bosnia and Herzegovina] head of state: Denis Bećirović — position: Head of state · head of govt: Borjana Krišto</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q5528031" target="_blank" rel="noopener">[Bosnia and Herzegovina] head of state: Željka Cvijanović — position: Head of state · head of govt: Borjana Krišto</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q297825" target="_blank" rel="noopener">[Bosnia and Herzegovina] head of state: Željko Komšić — position: Head of state · head of govt: Borjana Krišto</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q18618881" target="_blank" rel="noopener">[Botswana] head of state: Duma Boko — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10261640/" target="_blank" rel="noopener">[Brazil] Cristiano José Rodrigues de Souza — federal deputy of Rio de Janeiro · Chamber of Deputies (member, 2011-2015)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10262997/" target="_blank" rel="noopener">[Brazil] Cândido Vaccarezza — federal deputy of São Paulo · Chamber of Deputies (member, 2011-2015)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10263110/" target="_blank" rel="noopener">[Brazil] César Colnago — federal deputy of Espírito Santo · state deputy of Espírito Santo · municipal secretary of Vitória</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10263709/" target="_blank" rel="noopener">[Brazil] Dagoberto Nogueira Filho — federal deputy of Mato Grosso do Sul · state secretary of Mato Grosso do Sul · federal deputy of Mato Grosso do Sul (2019-2023)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10263803/" target="_blank" rel="noopener">[Brazil] Dalva Figueiredo — municipal secretary of Macapá · Chamber of Deputies (member, 2011-2015) · federal deputy of Amapá</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q37181" target="_blank" rel="noopener">[Brazil] head of state: Luiz Inácio Lula da Silva — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57327" target="_blank" rel="noopener">[Brunei] head of state: Hassanal Bolkiah I of Brunei — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q433338" target="_blank" rel="noopener">[Bulgaria] head of state: Iliana Iotova — position: Head of state · head of govt: Rumen Radev</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q114341246" target="_blank" rel="noopener">[Burkina Faso] head of state: Ibrahim Traoré — position: Head of state · head of govt: Apollinaire Joachim Kyélem de Tambèla</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q27329764" target="_blank" rel="noopener">[Burundi] head of state: Évariste Ndayishimiye — position: Head of state · head of govt: Gervais Ndirakobuca</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57319" target="_blank" rel="noopener">[Cambodia] head of state: Norodom Sihamoni — position: Head of state · head of govt: Hun Manet</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57272" target="_blank" rel="noopener">[Cameroon] head of state: Paul Biya — position: Head of state · head of govt: Joseph Ngute</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q108134067/" target="_blank" rel="noopener">[Canada] Ali Duale — member of the Nova Scotia House of Assembly (2021-2024)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q106230591/" target="_blank" rel="noopener">[Canada] Farah Mohamed — member of the Senate of Canada (2025-) · member of the Senate of Canada (2025-2025)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q108134788/" target="_blank" rel="noopener">[Canada] Greg Morrow — member of the Nova Scotia House of Assembly (2024-) · member of the Nova Scotia House of Assembly (2021-2024)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q43274" target="_blank" rel="noopener">[Canada] head of state: Charles III — position: Head of state · head of govt: Mark Carney</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q107503681/" target="_blank" rel="noopener">[Canada] Jim Quinn — member of the Senate of Canada (2025-) · member of the Senate of Canada (2021-2025)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q108133685/" target="_blank" rel="noopener">[Canada] Nolan Young — member of the Nova Scotia House of Assembly (2024-) · member of the Nova Scotia House of Assembly (2021-2024)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57649" target="_blank" rel="noopener">[Cape Verde] head of state: José Maria Neves — position: Head of state · head of govt: Ulisses Correia e Silva</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q57758" target="_blank" rel="noopener">[Central African Republic] head of state: Faustin-Archange Touadéra — position: Head of state · head of govt: Félix Moloua</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q16206405" target="_blank" rel="noopener">[Chad] head of state: Mahamat Déby — position: Head of state · head of govt: Albert Pahimi Padacké</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q5937916" target="_blank" rel="noopener">[Chile] head of state: José Antonio Kast — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q4384817/" target="_blank" rel="noopener">[China] Alexei Pushkov — представник в Раді Федерації від законодавчого органу державної влади Пермського краю · Members of Parliament and Senate · голова комітету з міжнародних відносин Державної Думи Федерального Зібрання Російської Федер</a></h3><span class="src">people</span><p class="body">ації</p></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q1006996/" target="_blank" rel="noopener">[China] Fu Ying — National People’s Congress (member, 2013-) · Member of the Standing Committee of the National People&#x27;s Congress · ambassador of China to the United Kingdom (2007-2010)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q104723725/" target="_blank" rel="noopener">[China] Lei Haichao — Minister in Charge of the National Health Commission · Minister of the National Health Commission (2024-)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q10528355/" target="_blank" rel="noopener">[China] Raymond Tam — Secretary for Transport and Public Works (2024-)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q1059126/" target="_blank" rel="noopener">[China] Su Rong — National People’s Congress (member, 2013-) · member of the National Committee of the Chinese People&#x27;s Political Consultative Conference · Vice-Chairperson of the National Committee of the Chinese People&#x27;s Political Consult</a></h3><span class="src">people</span><p class="body">ative Conference (</p></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q106942187/" target="_blank" rel="noopener">[Colombia] Angélica Mayolo Obregón — Minister of Culture of Colombia (2021-2022)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q108748143/" target="_blank" rel="noopener">[Colombia] Carmen Ligia Valderrama Rojas — Minister of information technology and communications of Colombia (2021-2022)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q106515173/" target="_blank" rel="noopener">[Colombia] Daniel Palacios — Minister of the Interior of Colombia (2020-2022)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q704022" target="_blank" rel="noopener">[Colombia] head of state: Gustavo Petro — position: Head of state</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q108528893/" target="_blank" rel="noopener">[Colombia] Iván Durán Pabón — Minister of information technology and communications of Colombia (2021-2021)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.opensanctions.org/entities/Q106907432/" target="_blank" rel="noopener">[Colombia] María Ximena Lombana Villalba — Minister of Commerce, Industry and Tourism (2021-2022)</a></h3><span class="src">people</span></div><div class="record"><h3><a href="https://www.wikidata.org/wiki/Q515602" target="_blank" rel="noopener">[Comoros] head of state: Azali Assoumani — position: Head of state</a></h3><span class="src">people</span></div><p class="meta" style="margin-top:6px">+264 more not shown on this page</p>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>

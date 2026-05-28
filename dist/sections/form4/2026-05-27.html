@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · form4 · 2026-05-27</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/form4/">form4</a> <span style="color:#aaa">/</span> 2026-05-27</div>
+  <h1>form4 · 2026-05-27</h1><p class="meta">SEC Form 4 insider trade filings · 40 records across 1 source</p><h2 id="src-form4">form4 <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 40 records</span></h2><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1119037/000162828026038591/0001628280-26-038591-index.htm" target="_blank" rel="noopener">[ADEN ALLISON] Form 4 (Reporting) — filed 2026-05-27 22:59 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038591 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1847367/000178931726000005/0001789317-26-000005-index.htm" target="_blank" rel="noopener">[ALUMIS INC.] Form 4 (Issuer) — filed 2026-05-27 23:06 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001789317-26-000005 Size: 11 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1780312/000149315226025471/0001493152-26-025471-index.htm" target="_blank" rel="noopener">[AST SpaceMobile, Inc.] Form 4 (Issuer) — filed 2026-05-27 23:12 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001493152-26-025471 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1816200/000162828026038587/0001628280-26-038587-index.htm" target="_blank" rel="noopener">[BIGBEE PAUL] Form 4 (Reporting) — filed 2026-05-27 22:58 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038587 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1401223/000162828026038589/0001628280-26-038589-index.htm" target="_blank" rel="noopener">[Boor William C] Form 4 (Reporting) — filed 2026-05-27 22:59 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038589 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1997257/000162828026038592/0001628280-26-038592-index.htm" target="_blank" rel="noopener">[BRANDOM JACK S] Form 4 (Reporting) — filed 2026-05-27 23:00 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038592 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038587/0001628280-26-038587-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 22:58 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038587 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038588/0001628280-26-038588-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 22:58 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038588 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038589/0001628280-26-038589-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 22:59 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038589 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038590/0001628280-26-038590-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 22:59 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038590 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038591/0001628280-26-038591-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 22:59 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038591 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038592/0001628280-26-038592-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 23:00 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038592 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/278166/000162828026038593/0001628280-26-038593-index.htm" target="_blank" rel="noopener">[CAVCO INDUSTRIES, INC.] Form 4 (Issuer) — filed 2026-05-27 23:00 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001628280-26-038593 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1870677/000162828026038588/0001628280-26-038588-index.htm" target="_blank" rel="noopener">[CIRA BRIAN R] Form 4 (Reporting) — filed 2026-05-27 22:58 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038588 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000054/0001061983-26-000054-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:07 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000054 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000055/0001061983-26-000055-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:08 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000055 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000056/0001061983-26-000056-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:09 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000056 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000057/0001061983-26-000057-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:10 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000057 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000058/0001061983-26-000058-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:11 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000058 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000059/0001061983-26-000059-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:12 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000059 Size: 7 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1061983/000106198326000060/0001061983-26-000060-index.htm" target="_blank" rel="noopener">[CYTOKINETICS INC] Form 4 (Issuer) — filed 2026-05-27 23:13 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001061983-26-000060 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1789317/000178931726000005/0001789317-26-000005-index.htm" target="_blank" rel="noopener">[Drappa Jorn] Form 4 (Reporting) — filed 2026-05-27 23:06 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001789317-26-000005 Size: 11 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1923988/000106198326000060/0001061983-26-000060-index.htm" target="_blank" rel="noopener">[Harrington Robert Arthur] Form 4 (Reporting) — filed 2026-05-27 23:13 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000060 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1226488/000106198326000059/0001061983-26-000059-index.htm" target="_blank" rel="noopener">[HENDERSON JOHN T] Form 4 (Reporting) — filed 2026-05-27 23:12 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000059 Size: 7 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1673743/000206278126000010/0002062781-26-000010-index.htm" target="_blank" rel="noopener">[Hinge Health, Inc.] Form 4 (Issuer) — filed 2026-05-27 23:08 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0002062781-26-000010 Size: 16 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1522780/000106198326000058/0001061983-26-000058-index.htm" target="_blank" rel="noopener">[Kaye Edward M. MD] Form 4 (Reporting) — filed 2026-05-27 23:11 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000058 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1220679/000104952126000030/0001049521-26-000030-index.htm" target="_blank" rel="noopener">[LANCE HOWARD L] Form 4 (Reporting) — filed 2026-05-27 23:00 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001049521-26-000030 Size: 7 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1585160/000106198326000056/0001061983-26-000056-index.htm" target="_blank" rel="noopener">[Landry Robert E] Form 4 (Reporting) — filed 2026-05-27 23:09 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000056 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/2062781/000206278126000010/0002062781-26-000010-index.htm" target="_blank" rel="noopener">[Mecklenburg Gabriel M.I.] Form 4 (Reporting) — filed 2026-05-27 23:08 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0002062781-26-000010 Size: 16 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1049521/000104952126000030/0001049521-26-000030-index.htm" target="_blank" rel="noopener">[MERCURY SYSTEMS INC] Form 4 (Issuer) — filed 2026-05-27 23:00 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001049521-26-000030 Size: 7 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/865752/000128435226000002/0001284352-26-000002-index.htm" target="_blank" rel="noopener">[Monster Beverage Corp] Form 4 (Issuer) — filed 2026-05-27 23:00 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001284352-26-000002 Size: 38 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/865752/000128435326000005/0001284353-26-000005-index.htm" target="_blank" rel="noopener">[Monster Beverage Corp] Form 4 (Issuer) — filed 2026-05-27 23:00 UTC · role: Issuer — Filed: 2026-05-27 AccNo: 0001284353-26-000005 Size: 32 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1813008/000162828026038590/0001628280-26-038590-index.htm" target="_blank" rel="noopener">[Nino Matthew A] Form 4 (Reporting) — filed 2026-05-27 22:59 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038590 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1073385/000106198326000057/0001061983-26-000057-index.htm" target="_blank" rel="noopener">[PARSHALL B LYNNE] Form 4 (Reporting) — filed 2026-05-27 23:10 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000057 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1284353/000128435326000005/0001284353-26-000005-index.htm" target="_blank" rel="noopener">[SACKS RODNEY C] Form 4 (Reporting) — filed 2026-05-27 23:00 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001284353-26-000005 Size: 32 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1284352/000128435226000002/0001284352-26-000002-index.htm" target="_blank" rel="noopener">[SCHLOSBERG HILTON H] Form 4 (Reporting) — filed 2026-05-27 23:00 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001284352-26-000002 Size: 38 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/2011461/000162828026038593/0001628280-26-038593-index.htm" target="_blank" rel="noopener">[SCHUKNECHT SETH G] Form 4 (Reporting) — filed 2026-05-27 23:00 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001628280-26-038593 Size: 4 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1239956/000106198326000055/0001061983-26-000055-index.htm" target="_blank" rel="noopener">[WIERENGA WENDELL] Form 4 (Reporting) — filed 2026-05-27 23:08 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000055 Size: 6 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/2028702/000149315226025471/0001493152-26-025471-index.htm" target="_blank" rel="noopener">[Wisniewski Scott] Form 4 (Reporting) — filed 2026-05-27 23:12 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001493152-26-025471 Size: 5 KB</a></h3><span class="src">form4</span></div><div class="record"><h3><a href="https://www.sec.gov/Archives/edgar/data/1294596/000106198326000054/0001061983-26-000054-index.htm" target="_blank" rel="noopener">[Wysenski Nancy] Form 4 (Reporting) — filed 2026-05-27 23:07 UTC · role: Reporting — Filed: 2026-05-27 AccNo: 0001061983-26-000054 Size: 6 KB</a></h3><span class="src">form4</span></div>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>

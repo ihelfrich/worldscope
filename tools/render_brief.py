@@ -326,6 +326,57 @@ footer.brief-foot {
   .shell { grid-template-columns: 1fr; }
   .sidebar { position: static; max-height: none; }
 }
+/* === mobile-responsive additions === */
+@media (max-width: 700px) {
+  body {
+    font-size: 15.5px;
+  }
+  .shell {
+    padding: 16px 16px 60px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .masthead h1 {
+    font-size: 26px;
+  }
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 14px 0 22px;
+  }
+  .dash-tile {
+    padding: 8px 10px;
+  }
+  .content img {
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 32px);
+    max-width: none;
+    border-radius: 0;
+  }
+}
+/* === site-wide top navigation === */
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 9px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+  margin: -24px -24px 24px;
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand {
+  font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1;
+}
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+@media (max-width: 700px) {
+  .topnav { padding: 9px 14px; margin: -16px -16px 18px; font-size: 12.5px; gap: 12px; }
+}
 @media print {
   .sidebar { display: none; }
   .shell { grid-template-columns: 1fr; padding: 0; max-width: 100%; }
@@ -619,6 +670,15 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
 <style>{CSS}</style>
 </head><body>
 <div class="shell">
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/{html.escape(stem)}.zip">Today's bundle</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
 {side}
 <main class="content-wrap">
   <div class="masthead">

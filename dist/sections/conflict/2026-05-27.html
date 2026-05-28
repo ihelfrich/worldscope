@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · conflict · 2026-05-27</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+:root {
+  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
+  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
+  --warn: #B45309; --danger: #B91C1C; --good: #047857;
+  --rule: 1px solid var(--border);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Source Serif 4','Georgia',serif;
+  color: var(--ink); background: var(--bg);
+  font-size: 16px; line-height: 1.55;
+}
+.topnav {
+  background: var(--accent); color: #fff;
+  padding: 10px 24px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  font-size: 13px;
+  border-bottom: 3px double var(--accent-2);
+}
+.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
+.topnav a:hover { opacity: 1; text-decoration: underline; }
+.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav .spacer { flex: 1; }
+.topnav .hub { font-size: 12px; opacity: 0.7; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
+h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
+  margin: 28px 0 10px; padding-bottom: 5px;
+  border-bottom: var(--rule); color: var(--accent); }
+.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
+  color: var(--muted); margin: 0 0 24px; }
+.section-card {
+  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-card:hover { border-left-color: var(--danger);
+  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
+.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
+.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
+  color: var(--muted); margin-top: 4px; }
+.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
+  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
+.record {
+  border: var(--rule); border-radius: 5px;
+  padding: 10px 14px; margin: 8px 0;
+  background: var(--panel);
+}
+.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
+  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
+.record h3 a { color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid #BBD; }
+.record h3 a:hover { color: var(--accent); }
+.record .src {
+  display: inline-block; font-family: 'Inter',sans-serif;
+  font-size: 11px; color: var(--accent);
+  background: #EEF2F7; border-radius: 999px;
+  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+}
+.record .tier {
+  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
+  margin-left: 5px;
+}
+.record .body {
+  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+}
+.record .entities {
+  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
+  color: var(--muted);
+}
+.record .entities .tag {
+  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
+  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+}
+.archive-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 12px; margin: 4px 0;
+  background: var(--panel); border: var(--rule); border-radius: 4px;
+  text-decoration: none; color: inherit;
+  font-family: 'Inter',sans-serif;
+}
+.archive-row:hover { border-color: var(--accent); }
+.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
+.archive-row .n { font-size: 12px; color: var(--muted); }
+footer.foot {
+  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
+  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .shell { padding: 16px 14px 60px; }
+  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
+  h1 { font-size: 24px; }
+  .section-card { padding: 12px 14px; }
+}
+</style>
+</head><body>
+<nav class="topnav">
+  <span class="brand">WORLDSCOPE</span>
+  <a href="/worldscope/">Today's brief</a>
+  <a href="/worldscope/sections/">Sections</a>
+  <a href="/worldscope/briefings/">Archive</a>
+  <a href="/worldscope/zips/">Bundles</a>
+  <span class="spacer"></span>
+  <a class="hub" href="https://ihelfrich.ai/" target="_blank">ihelfrich.ai →</a>
+</nav>
+<div class="shell">
+  <div class="crumbs"><a href="/worldscope/">WORLDSCOPE</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/">Sections</a> <span style="color:#aaa">/</span> <a href="/worldscope/sections/conflict/">conflict</a> <span style="color:#aaa">/</span> 2026-05-27</div>
+  <h1>conflict · 2026-05-27</h1><p class="meta">Conflict events and security incidents · 40 records across 1 source</p><h2 id="src-conflict">conflict <span style="font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:400;">· 40 records</span></h2><div class="record"><h3><a href="https://www.geelongadvertiser.com.au/entertainment/television/leigh-sales-praises-impeccable-abc-boss-after-his-shock-resignation/news-story/d06c87e209639580f10ca25ee80d83b4?nk=be6a10001102471dbadc5c7032a4fe5f-1779921098" target="_blank" rel="noopener">[Australia] Leigh Sales backs Justin Stevens after shock ABC resignation — domain: geelongadvertiser.com.au · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://abbynews.com/2026/05/27/alcohol-use-in-b-c-still-above-national-average-despite-hitting-20-year-low/" target="_blank" rel="noopener">[Canada] Alcohol use in B . C . still above national average despite hitting 20 - year low — domain: abbynews.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.theobserver.ca/news/local-news/catholic-school-board-appoints-new-superintendent-of-education" target="_blank" rel="noopener">[Canada] Catholic school board appoints new superintendent of education — domain: theobserver.ca · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://lfpress.com/news/local-news/central-elgin-fire-service-gets-new-utility-vehicle-for-beach-ravine-rescues" target="_blank" rel="noopener">[Canada] Central Elgin fire service gets utility vehicle for beach rescues — domain: lfpress.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://lfpress.com/news/local-news/london-test-pilot-school-expands-to-north-bay-buys-italian-training-jets" target="_blank" rel="noopener">[Canada] London test pilot school expands to North Bay , buys training jets — domain: lfpress.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.chathamdailynews.ca:443/entertainment/local-arts/market-square-music-returns-to-downtown-stratford-may-29" target="_blank" rel="noopener">[Canada] Market Square Music returns to downtown Stratford May 29 — domain: chathamdailynews.ca · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.theobserver.ca/entertainment/local-arts/market-square-music-returns-to-downtown-stratford-may-29" target="_blank" rel="noopener">[Canada] Market Square Music returns to downtown Stratford May 29 — domain: theobserver.ca · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.theobserver.ca:443/entertainment/local-arts/market-square-music-returns-to-downtown-stratford-may-29" target="_blank" rel="noopener">[Canada] Market Square Music returns to downtown Stratford May 29 — domain: theobserver.ca · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://hopestandard.com/2026/05/27/pilot-error-blamed-for-2023-northwest-b-c-fatal-helicopter-incident/" target="_blank" rel="noopener">[Canada] Pilot error blamed for 2023 northwest B . C . fatal helicopter incident — domain: hopestandard.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.finanznachrichten.de/nachrichten-2026-05/68611286-smx-public-limited-smx-and-the-age-of-parity-why-verified-recycled-plastic-may-become-the-price-stabilizer-modern-life-needs-200.htm" target="_blank" rel="noopener">[Germany] SMX Public Limited : SMX and The Age Of Parity : Why Verified Recycled Plastic May Become the Price Stabilizer Modern Life Needs — domain: finanznachrichten.de · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="http://www.iraqsun.com/news/279080587/dont-care-about-midterms-trump-vows-iran-deal-says-nobody-controls-hormuz" target="_blank" rel="noopener">[Iraq] Dont care about midterms : Trump vows Iran deal ; says nobody controls Hormuz — domain: iraqsun.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[Iraq] Dont care about midterms : Trump vows Iran deal ; says nobody controls Hormuz — domain: iraqsun.com · language: English · tone:</p></div><div class="record"><h3><a href="http://www.russiaherald.com/news/279080480/africa-cdc-thanks-india-for-ebola-aid" target="_blank" rel="noopener">[Russia] Africa CDC thanks India for Ebola aid — domain: russiaherald.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="http://www.europesun.com/news/279080450/wall-street-climbs-major-indices-gain-ground-wednesday" target="_blank" rel="noopener">[Russia] Wall Street climbs , major indices gain ground Wednesday — domain: europesun.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://slguardian.org/balochistans-insurgency-enters-a-dangerous-new-phase/" target="_blank" rel="noopener">[Sri Lanka] Balochistan Insurgency Enters a Dangerous New Phase – Sri Lanka Guardian — domain: slguardian.org · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://slguardian.org/saudi-arabia-set-to-lead-a-global-billionaire-boom-as-wealth-map-tilts-east/" target="_blank" rel="noopener">[Sri Lanka] Saudi Arabia Set to Lead a Global Billionaire Boom as Wealth Map Tilts East — domain: slguardian.org · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.currencynews.co.uk/forecast/20260527-46029_pound-to-euro-rate-slips-as-ecb-rate-hike-bets-build.html" target="_blank" rel="noopener">[United Kingdom] Pound to Euro Rate Slips as ECB Rate Hike Bets Build — domain: currencynews.co.uk · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.dailyecho.co.uk/news/national/26143852.scots-warned-devastating-impact-energy-bill-hike/" target="_blank" rel="noopener">[United Kingdom] Scots warned of devastating impact of energy bill hike — domain: dailyecho.co.uk · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Scots warned of devastating impact of energy bill hike — domain: dailyecho.co.uk · language: English · tone:</p></div><div class="record"><h3><a href="https://www.cravenherald.co.uk/news/national/26144460.trump-says-not-launch-strikes-iran-to-get-crummy-agreement/" target="_blank" rel="noopener">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: cravenherald.co.uk · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: cravenherald.co.uk · language: English · tone:</p></div><div class="record"><h3><a href="https://www.denbighshirefreepress.co.uk/news/national/26144460.trump-says-not-launch-strikes-iran-to-get-crummy-agreement/" target="_blank" rel="noopener">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: denbighshirefreepress.co.uk · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: denbighshirefreepress.co.uk · language: English · tone:</p></div><div class="record"><h3><a href="https://www.eastlothiancourier.com/news/national/26144460.trump-says-not-launch-strikes-iran-to-get-crummy-agreement/" target="_blank" rel="noopener">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: eastlothiancourier.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United Kingdom] Trump says he did not launch strikes against Iran to get a crummy agreement — domain: eastlothiancourier.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.reflector.com/news/national/9-missing-after-washington-paper-mill-tank-rupture-and-officials-say-theres-no-hope-of/article_b710a2e5-9fa3-5dd0-a6b8-9b0dfc150672.html" target="_blank" rel="noopener">[United States] 9 missing after Washington paper mill tank rupture and officials say there no hope of survivors — domain: reflector.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://710wor.iheart.com/content/2026-05-27-alabama-appeals-to-supreme-court-for-gop-friendly-map/" target="_blank" rel="noopener">[United States] Alabama Appeals to Supreme Court for GOP - Friendly Map — domain: 710wor.iheart.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.executivegov.com/articles/jeff-waksman-army-janus-nuclear-microreactor-energy" target="_blank" rel="noopener">[United States] Army Anticipates Big Janus Program Nuclear Microreactor Partnership Opportunities — domain: executivegov.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.fool.com/earnings/call-transcripts/2026/05/27/atour-atat-q1-2026-earnings-call-transcript/?source=iedfolrf0000001" target="_blank" rel="noopener">[United States] Atour ( ATAT ) Q1 2026 Earnings Call Transcript — domain: fool.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.clickondetroit.com/news/2026/05/27/california-residents-evacuated-due-to-chemical-tank-threat-return-home-but-fears-remain/" target="_blank" rel="noopener">[United States] California residents evacuated due to chemical tank threat return home but fears remain — domain: clickondetroit.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://wgan.com/news/074470-cumberland-county-to-review-crashes-involving-pedestrians-for-potential-prosecution/" target="_blank" rel="noopener">[United States] Cumberland County to review crashes involving pedestrians for potential prosecution — domain: wgan.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.cnbc.com/2026/05/27/dell-dod-pentagon-software-deal-digital-infrastructure-trump.html" target="_blank" rel="noopener">[United States] Dell wins a $9 . 7 billion Pentagon software deal after cozying to Trump — domain: cnbc.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wndu.com/2026/05/27/deputy-injured-hospital-shooting-reunites-with-k-9-partner/" target="_blank" rel="noopener">[United States] Deputy injured in hospital shooting reunites with K - 9 partner — domain: wndu.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.jdsupra.com/legalnews/executive-order-targets-federal-7425890/" target="_blank" rel="noopener">[United States] Executive Order Targets Federal Contractor Racially Discriminatory DEI Activitie - ( UPDATED ) | Cooley LLP — domain: jdsupra.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Executive Order Targets Federal Contractor Racially Discriminatory DEI Activitie - ( UPDATED ) | Cooley LLP — domain: jdsupra.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.empr.com/news/linzess-fda-approval-pediatric-functional-constipation-ages-2-plus/" target="_blank" rel="noopener">[United States] FDA Expands Linzess Indication for Pediatric Functional Constipation — domain: empr.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.jdsupra.com/legalnews/germany-set-to-quadruple-maximum-7517363/" target="_blank" rel="noopener">[United States] Germany Set to Quadruple Maximum Corporate Fines and Codify Statutory Sentencing Criteria , Using Environmental Reform as Vehicle for Broader Overhaul | Skadden , Arps , Slate , Meagher &amp; Flom LLP — domain: jdsupra.com · lan</a></h3><span class="src">conflict</span><p class="body">guage: English · tone:</p></div><div class="record"><h3><a href="https://www.newsnet5.com/news/hard-rock-atlantic-city-security-incident-investigation/" target="_blank" rel="noopener">[United States] Hard Rock Atlantic City Under Scrutiny After Controversial Security Incident — domain: newsnet5.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.wbls.com/news/monica-mourns-death-of-father-m-c-arnold-jr/" target="_blank" rel="noopener">[United States] Monica Mourns Death of Father M . C . Arnold Jr . — domain: wbls.com · language: English · tone:</a></h3><span class="src">conflict</span><p class="body">[United States] Monica Mourns Death of Father M . C . Arnold Jr . — domain: wbls.com · language: English · tone:</p></div><div class="record"><h3><a href="https://www.timesherald.com/2026/05/27/pottstown-woman-charged-with-fatally-shooting-man-during-apparent-gunplay/" target="_blank" rel="noopener">[United States] Pottstown woman charged with fatally shooting man during apparent gunplay — domain: timesherald.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://newsradio967.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/" target="_blank" rel="noopener">[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial — domain: newsradio967.iheart.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://wlap.iheart.com/content/2026-05-27-teen-accused-of-killing-stepsister-on-cruise-ship-avoids-jail-during-trial/" target="_blank" rel="noopener">[United States] Teen Accused Of Killing Stepsister On Cruise Ship Avoids Jail During Trial — domain: wlap.iheart.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://wsbt.com/news/nation-world/teen-accused-of-murdering-stepsister-anna-kepner-timothy-hudson-on-cruise-ship-avoids-immediate-jail-time-miami-florida-courtroom-international-waters-sexual-assault-mechanical-asphyxia-adult-indictment" target="_blank" rel="noopener">[United States] Teen accused of murdering stepsister on cruise ship avoids immediate jail time — domain: wsbt.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.celebdirtylaundry.com/2026/the-young-and-the-restless-spoilers-friday-may-29-dianes-disappearance-kyles-scary-news-troublemaker-patty/" target="_blank" rel="noopener">[United States] The Young and the Restless Spoilers Friday , May 29 : Diane Disappearance – Kyle Scary News – Troublemaker Patty — domain: celebdirtylaundry.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="http://www.sandiegosun.com/news/279080450/wall-street-climbs-major-indices-gain-ground-wednesday" target="_blank" rel="noopener">[United States] Wall Street climbs , major indices gain ground Wednesday — domain: sandiegosun.com · language: English · tone:</a></h3><span class="src">conflict</span></div><div class="record"><h3><a href="https://www.fool.com/investing/2026/05/27/why-pdd-holdings-stock-got-slammed-today/?source=iedfolrf0000001" target="_blank" rel="noopener">[United States] Why PDD Holdings Stock Got Slammed Today — domain: fool.com · language: English · tone:</a></h3><span class="src">conflict</span></div>
+  <footer class="foot">
+    <div>WORLDSCOPE · all records cited inline · raw bundles available per day</div>
+    <div><a href="/worldscope/" style="color:inherit">↑ home</a></div>
+  </footer>
+</div>
+</body></html>
