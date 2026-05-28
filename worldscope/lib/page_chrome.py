@@ -24,6 +24,7 @@ with Tailwind's stock classes.
 from __future__ import annotations
 
 import html
+import json
 from datetime import date as _date
 
 
@@ -656,6 +657,7 @@ def page_shell(
 </head>
 <body class="font-serif text-ink bg-parchment">
 <div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
+<script>window.WS_BASE = {json.dumps(base or "./")};</script>
 <script type="application/json" id="ws-network-seed">{_json_script_safe(network_seed_json)}</script>
 <script src="{base}{network_assets_path}" defer></script>
 <script src="{base}assets/worldscope-evidence.js" defer></script>

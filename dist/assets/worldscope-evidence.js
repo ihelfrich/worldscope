@@ -34,12 +34,37 @@
     open: false,
   };
 
+  // Resolve "data/<file>.json" against the site root. The script is
+  // loaded from every page in the site; root-relative paths break when
+  // we're nested (briefings/, sections/<id>/, graph/, threads/<slug>/).
+  // The server-side render emits window.WS_BASE on page_shell pages;
+  // when absent, infer from the canonical link or fall back to the
+  // depth from the current URL.
+  function resolveDataUrl(file) {
+    if (typeof window.WS_BASE === "string" && window.WS_BASE.length) {
+      return window.WS_BASE.replace(/\/?$/, "/") + "data/" + file;
+    }
+    // GitHub Pages serves the site under /worldscope/ — find that
+    // segment in pathname and stop one level under it.
+    const m = window.location.pathname.match(/^(.*?\/worldscope\/)/);
+    if (m) return m[1] + "data/" + file;
+    // Local dev (served from dist/) — count segments after the last
+    // directory and walk up.
+    const segs = window.location.pathname.split("/").filter(Boolean);
+    // Drop the last segment if it's an .html filename
+    const last = segs[segs.length - 1] || "";
+    const dirs = /\.[a-z]+$/i.test(last) ? segs.slice(0, -1) : segs.slice();
+    // Walk up until we find a "data/" sibling — but we can't probe; just
+    // try the relative path one above the current directory.
+    return "../".repeat(dirs.length) + "data/" + file;
+  }
+
   // ---- data loading -----------------------------------------------------
 
   async function loadClaims() {
     if (STATE.claims !== null) return STATE.claims;
     try {
-      const r = await fetch("./data/claims.json", { cache: "no-cache" });
+      const r = await fetch(resolveDataUrl("claims.json"), { cache: "no-cache" });
       if (!r.ok) { STATE.claims = []; return STATE.claims; }
       const doc = await r.json();
       STATE.claims = Array.isArray(doc.claims) ? doc.claims : [];
@@ -52,7 +77,7 @@
   async function loadRecords() {
     if (STATE.records !== null) return STATE.records;
     try {
-      const r = await fetch("./data/today.json", { cache: "no-cache" });
+      const r = await fetch(resolveDataUrl("today.json"), { cache: "no-cache" });
       if (!r.ok) { STATE.records = {}; return STATE.records; }
       const doc = await r.json();
       // Flatten {sections: {sid: [recs]}} into {record_id: record}.

@@ -730,6 +730,8 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
 <style>{CSS}</style>
 </head><body>
+<script>window.WS_BASE = "../";</script>
+<script src="../assets/worldscope-evidence.js" defer></script>
 <div class="shell">
 <nav class="topnav" aria-label="Primary">
   <span class="brand">WORLDSCOPE</span>
