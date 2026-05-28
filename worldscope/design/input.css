@@ -578,6 +578,18 @@
     margin-right: 4px;
   }
 
+  /* Brand mark — light/dark SVG variants swapped via [data-theme] */
+  .ws-brand { text-decoration: none; }
+  .ws-brand-mark {
+    display: inline-block;
+    transition: transform 0.5s var(--ease-gentle);
+  }
+  .ws-brand:hover .ws-brand-mark { transform: rotate(45deg); }
+  /* Default = light theme: show light mark, hide dark */
+  .ws-brand-dark { display: none; }
+  [data-theme="dark"] .ws-brand-light { display: none; }
+  [data-theme="dark"] .ws-brand-dark  { display: inline-block; }
+
   /* Theme toggle (day/night sun/moon button) */
   .ws-theme-toggle {
     width: 28px; height: 28px;

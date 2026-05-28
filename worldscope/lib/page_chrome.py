@@ -41,6 +41,10 @@ from datetime import date as _date
 TAILWIND_HEAD = """<link rel="stylesheet" href="{base}assets/worldscope.css">
 <link rel="preload" href="{base}assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{base}assets/fonts/ss4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" type="image/svg+xml" href="{base}favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="{base}favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{base}favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{base}apple-touch-icon.png">
 <meta name="color-scheme" content="light dark">
 """
 
@@ -64,11 +68,17 @@ def _json_script_safe(s: str) -> str:
 def topnav(base: str = "") -> str:
     """Frosty-glass sticky top nav. Light-on-light over the canvas
     (rather than navy bar) so it composes with the rest of the design
-    system. ⌘K command palette trigger on the right."""
+    system. ⌘K command palette trigger on the right.
+
+    The brand uses the Diamond Compass SVG mark; CSS swaps the light /
+    dark variant via data-theme on <html>.
+    """
     return f"""<nav class="glass-nav sticky top-0 z-50 text-ink" role="navigation" aria-label="Primary">
   <div class="max-w-[1400px] mx-auto px-6 py-2.5 flex flex-wrap items-center gap-x-5 gap-y-1 font-sans text-[13px]">
-    <a href="{base}index.html" class="font-extrabold tracking-[0.10em] uppercase text-ink text-[13.5px] mr-2">
-      <span class="text-gold mr-1">◆</span>WORLDSCOPE
+    <a href="{base}index.html" class="ws-brand flex items-center gap-1.5 font-extrabold tracking-[0.10em] uppercase text-ink text-[13.5px] mr-2" aria-label="WORLDSCOPE home">
+      <img src="{base}assets/brand/worldscope-mark.svg" alt="" class="ws-brand-mark ws-brand-light" width="22" height="22" loading="eager">
+      <img src="{base}assets/brand/worldscope-mark-dark.svg" alt="" class="ws-brand-mark ws-brand-dark" width="22" height="22" loading="eager">
+      <span>WORLDSCOPE</span>
     </a>
     <a href="{base}index.html" class="text-slate hover:text-ink transition-colors">Today</a>
     <a href="{base}globe/" class="text-slate hover:text-ink transition-colors">Globe</a>
@@ -135,9 +145,8 @@ def chat_panel(base: str = "") -> str:
 
 <aside id="ws-chat-panel" role="dialog" aria-label="Chat with today's brief">
   <header class="bg-navy text-white px-4 py-3 flex items-center gap-3 border-b-2 border-gold shrink-0">
-    <span class="font-sans font-extrabold tracking-[0.10em] text-[13px] uppercase">
-      <span class="text-gold mr-1">◆</span>Ask the brief
-    </span>
+    <img src="{base}assets/brand/worldscope-mark-dark.svg" alt="" width="18" height="18" loading="lazy">
+    <span class="font-sans font-extrabold tracking-[0.10em] text-[13px] uppercase">Ask the brief</span>
     <span class="flex-1"></span>
     <button id="ws-chat-settings-btn" class="text-mist hover:text-white text-[12px] font-sans" title="Settings">⚙</button>
     <button id="ws-chat-clear" class="text-mist hover:text-white text-[12px] font-sans" title="Clear conversation">⟲</button>
