@@ -40,14 +40,13 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: pip install markdown pyyaml
-      - name: Fact-check market price claims (HARD rule — fails the build on divergence)
+      - name: Fact-check numeric claims (HARD rule — fails the build on divergence)
         run: |
           # STANDING RULE: every number, every fact, every figure must be
-          # checked against the lake's structured market data before
-          # publication. The fact-checker (worldscope.fact_check)
-          # validates asset-price claims against same-day market records;
-          # forecast-context phrases ("$150k by June 30", "Polymarket
-          # contract") are skipped because those are titles not assertions.
+          # checked against the lake's structured data before publication.
+          # The fact-checker (worldscope.fact_check) validates claims with
+          # deterministic same-day evidence and writes a typed claim ledger
+          # for the homepage evidence drawer.
           #
           # First pass: annotate every brief with [⚠ actual ≈ $X] markers
           # inline so the divergence is visible in the published HTML
@@ -60,6 +59,8 @@ jobs:
             echo "Lake DB missing — cannot fact-check"
             exit 1
           fi
+          mkdir -p dist/data
+          latest_brief="$(ls briefings/*.md 2>/dev/null | sort | tail -n1 || true)"
           # Annotate FIRST (rewrites the .md in place with warnings)
           for f in briefings/*.md; do
             [ -f "$f" ] || continue
@@ -73,8 +74,12 @@ jobs:
           fail_count=0
           for f in briefings/*.md; do
             [ -f "$f" ] || continue
+            ledger_args=""
+            if [ "$f" = "$latest_brief" ]; then
+              ledger_args="--write-ledger dist/data/claims.json"
+            fi
             if ! python -m worldscope.fact_check "$f" \
-                  --lake lake/db/worldscope.sqlite --fail-on FAIL; then
+                  --lake lake/db/worldscope.sqlite --fail-on FAIL $ledger_args; then
               fail_count=$((fail_count + 1))
               echo "::error file=$f::Numeric claim diverges from lake data — see annotation"
             fi
