@@ -594,6 +594,34 @@ def _record_to_html(rec: dict) -> str:
     )
 
 
+def _network_seed_for_today() -> str:
+    """Return a JSON blob to feed the network.js canvas seed.
+
+    Pulls today's cross-section recurrences from
+    lake/sections/_meta/<today>/cross_section.json so the ambient
+    background reflects the day's actual entity convergences.
+    """
+    import datetime as _dt2
+    today = _dt2.date.today().isoformat()
+    cs_path = REPO / "lake" / "sections" / "_meta" / today / "cross_section.json"
+    if not cs_path.exists():
+        return "{}"
+    try:
+        data = json.loads(cs_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return "{}"
+    rec_items = (data.get("by_confidence", {}).get("high", [])
+                 + data.get("by_confidence", {}).get("medium", []))
+    # Strip to the few fields the canvas script reads.
+    compact = [
+        {"name": r.get("canonical_name", ""),
+         "type": r.get("entity_type", ""),
+         "sections": r.get("n_sections", 0)}
+        for r in rec_items[:30]
+    ]
+    return json.dumps({"day": today, "recurrences": compact})
+
+
 def _wrap(title: str, body: str, crumbs: list[tuple[str, str]],
           *, base: str = "", description: str = "",
           canonical: str = "") -> str:
@@ -632,8 +660,18 @@ def _wrap(title: str, body: str, crumbs: list[tuple[str, str]],
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>{CSS}</style>
+<style>{CSS}
+.ws-bg {{ position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }}
+.ws-bg canvas {{ display: block; width: 100%; height: 100%; }}
+.shell {{ position: relative; z-index: 1; }}
+.topnav {{ position: sticky; z-index: 60; }}
+</style>
 </head><body>
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{_network_seed_for_today()}</script>
+<script src="{base}assets/network.js" defer></script>
 {topnav(base=base)}
 <div class="shell">
   <nav class="crumbs" aria-label="Breadcrumb">{crumbs_html}</nav>
