@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-05-28
-record_count: 382
-new_today: 382
+record_count: 136
+new_today: 136
 state: fresh
 ---
 
 ## State Legislative Action
 
-382 new of 382 total items today.
+136 new of 136 total items today.
 
 - **NEW**  [[Alaska SB 2] An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.]() — *2026-05-28*
   > An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Alaska HB 156] An Act relating to disclosure of information regarding employee compensation by employers, employees, and applicants for employment.]() — *2026-05-27*
   > An Act relating to disclosure of information regarding employee compensation by employers, employees, and applicants for employment.
 
-_(357 additional items in raw.jsonl)_
+_(111 additional items in raw.jsonl)_

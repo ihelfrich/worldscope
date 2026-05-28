@@ -2,17 +2,56 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-05-28
-record_count: 101
-new_today: 51
+record_count: 102
+new_today: 54
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-51 new of 101 total items today.
+54 new of 102 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-14258) — *2026-05-28*
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued May 27 at 9:42PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.267307db30c4169c1149d0b67ac3316e731c937c.001.1) — *2026-05-27*
+  > At 941 PM CDT, Doppler radar was tracking a strong thunderstorm 4
+miles northwest of Truscott, moving southeast at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:42PM EDT until May 28 at 11:22AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0cc9a5ce029b681ae8c55f14d48f00ca7ed780d.001.1) — *2026-05-27*
+  > ...The Flood Warning is extended for the following rivers...
+
+Mad River near Springfield.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
+
+* WHERE...Mad River near Springfield.
+
+* WHEN...Until late Thursday morning.
+
+* IMPACTS...At 13.0 feet, In addition to 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued May 27 at 8:41PM MDT until May 27 at 9:15PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ddf2f8fd30948ea56c13766d4a16e5a355c78ef.001.1) — *2026-05-27*
+  > SVRABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Severe Thunderstorm Warning for...
+North Central San Miguel County in northeastern New Mexico...
+
+* Until 915 PM MDT.
+
+* At 841 PM MDT, a severe thunderstorm was located 8 miles southeast
+of Valmora, or 19 miles 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-59267) — *2026-05-28*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued May 27 at 8:35PM MDT until May 27 at 9:00PM MDT by NWS Great Falls MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84663b1d0850efee5e89e1bcc910c91d18630cc6.001.1) — *2026-05-27*
+  > While temperatures will remain well above normal and in the mid-90s
+on Thursday across Hill and Blaine Counties, low temperatures
+tonight and Thursday night will cool sufficiently to help mitigate
+the effects of the hot temperatures on vulnerable individuals.
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued May 27 at 9:22PM CDT until May 29 at 1:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e7074bea0cf8c34c38c838e7e13f3178bddbabf.001.1) — *2026-05-27*
   > * WHAT...High wave action and dangerous currents expected at Lake
 Michigan beaches. Waves 4 to 6 feet expected.
@@ -85,19 +124,6 @@ Mississinewa River near Ridgeville.
 Indiana...
 
 White River at 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until June 2 at 12:00AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.002.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers in Indiana...
-
-Youngs Creek at Amity.
-
-East Fork White River at Williams, Bedford, and Rivervale.
-
-Mississinewa River near Ridgeville.
-
-...The Flood Warning is extended for the following rivers in
-Indiana...
-
-White River at 
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 28 at 8:30AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.004.1) — *2026-05-27*
   > ...The Flood Warning continues for the following rivers in Indiana...
 
@@ -124,7 +150,7 @@ Mississinewa River near Ridgeville.
 Indiana...
 
 White River at 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 28 at 8:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.005.1) — *2026-05-27*
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until June 2 at 12:00AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.002.1) — *2026-05-27*
   > ...The Flood Warning continues for the following rivers in Indiana...
 
 Youngs Creek at Amity.
@@ -151,6 +177,19 @@ Indiana...
 
 White River at 
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 30 at 2:00AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.007.1) — *2026-05-27*
+  > ...The Flood Warning continues for the following rivers in Indiana...
+
+Youngs Creek at Amity.
+
+East Fork White River at Williams, Bedford, and Rivervale.
+
+Mississinewa River near Ridgeville.
+
+...The Flood Warning is extended for the following rivers in
+Indiana...
+
+White River at 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 10:11PM EDT until May 28 at 8:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43388a7477cef338260a6d4681f17134958ca6c6.005.1) — *2026-05-27*
   > ...The Flood Warning continues for the following rivers in Indiana...
 
 Youngs Creek at Amity.
@@ -235,50 +274,5 @@ possible.
 including the following counties, in central West Virginia,
 Braxton, Calhoun, Gilmer and Taylor. In northeast West Virginia,
 North
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:51PM EDT until May 28 at 12:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62f9a87760cfce8a38df756fb8d31c24ed334da9.001.1) — *2026-05-27*
-  > ...The National Weather Service in Charleston has issued a Flood
-Warning for the following rivers in West Virginia...
 
-West Fork River above Clarksburg affecting Harrison County.
-
-For the West Fork River...Minor flooding is forecast.
-
-* WHAT...Minor flooding is forecast.
-
-* WHERE
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 9:51PM EDT until May 28 at 6:00AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d583d3777747199466627917e5510cce8ce9f267.001.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers...
-
-South Fork Licking River Near I 70 near Buckeye Lake.
-
-* WHAT...Minor flooding is occurring and minor flooding is forecast.
-
-* WHERE...South Fork Licking River near I 70 near Buckeye Lake.
-
-* WHEN...Until Thursday mornin
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 8:47PM CDT until May 30 at 11:17PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df3c02fdbc19550597089d6c8f867f9503a6b0a2.001.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers in
-Mississippi...
-
-Leaf Near McLain affecting Perry, Greene and George Counties.
-
-For the Leaf River...including McLain, New Augusta...Minor flooding
-is forecast.
-
-* WHAT...Minor flooding is occurring.
-
-* WHERE...Leaf near M
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued May 27 at 8:45PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2e06fd903f1a15e540b2d07cd18a15c26b118cf.001.1) — *2026-05-27*
-  > ...The Flood Warning continues for the following rivers in
-Mississippi...
-
-Chickasawhay At Leakesville affecting Greene and George Counties.
-
-For the Chickasawhay River...including Waynesboro, Leakesville...
-Minor flooding is forecast.
-
-* WHAT...Minor flooding is occurring.
-
-* WH
-
-_(76 additional items in raw.jsonl)_
+_(77 additional items in raw.jsonl)_

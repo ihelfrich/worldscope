@@ -3,17 +3,17 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-05-28
 record_count: 94
-new_today: 13
+new_today: 19
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-13 new of 94 total items today.
+19 new of 94 total items today.
 
-- **NEW**  [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5) — *2026-05-27*
+- **NEW**  [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
-- [[OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5) — *2026-05-21*
+- **NEW**  [[OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-21*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5" target="_blank">Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fo
 - [[BIS Entity List] page checksum 9b92c4bcb0d5](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-05-28*
   > Page content hash: 9b92c4bcb0d5. Compare with prior day's hash to detect updates.

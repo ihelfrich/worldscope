@@ -3,14 +3,20 @@ section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-28
 record_count: 112
-new_today: 7
+new_today: 8
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-7 new of 112 total items today.
+8 new of 112 total items today.
 
+- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі | LEDE: Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і ме] (uk: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі)](https://www.pravda.com.ua/articles/2026/05/28/8036693/) — *2026-05-28*
+  > Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і мене, бо я єдиний з усім людством; а тому ніколи не питай, по кому дзвонить дзвін: він дзвонить і по тобі.
 - **NEW**  [[TITLE: Військові США заявили, що вдарили по судну наркоторговців у Тихому океані | LEDE: Американські військову вчергове заявили, що знищили судно наркотрафіку в Тихому океані.] (uk: Військові США заявили, що вдарили по судну наркоторговців у Тихому океані)](https://www.pravda.com.ua/news/2026/05/28/8036711/) — *2026-05-28*
   > Американські військову вчергове заявили, що знищили судно наркотрафіку в Тихому океані.
 - **NEW**  [[TITLE: Швеція планує оголосити про передачу і продаж Україні винищувачів Gripen – ЗМІ | LEDE: Gripen для України: Швеція планує оголосити про передачу і продаж винищувачів.] (uk: Швеція планує оголосити про передачу і продаж Україні винищувачів Gripen – ЗМІ)](https://www.pravda.com.ua/news/2026/05/28/8036710/) — *2026-05-28*
@@ -46,16 +52,11 @@ state: fresh
   > Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та начальником Генштабу Андрієм Гнатовим погодили нові далекобійні операції.
 - [[TITLE: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським | LEDE: П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президенто] (uk: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським)](https://www.pravda.com.ua/news/2026/05/27/8036678/) — *2026-05-27*
   > П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президентом Володимиром Зеленським обговорював ключові теми порядку денного держави і "нічого не просив".
-- [[TITLE: ЗМІ: Ердоган хоче зустрітися з Трампом під час футбольного матчу у США | LEDE: ] (uk: ЗМІ: Ердоган хоче зустрітися з Трампом під час футбольного матчу у США)](https://www.pravda.com.ua/news/2026/05/27/8036676/) — *2026-05-27*
-- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- **NEW**  [Trump Endorses Pashinyan Ahead of Crucial Armenia Vote](https://www.kyivpost.com/post/76996) — *2026-05-28*
+  > US President Donald Trump endorsed Armenian Prime Minister Nikol Pashinyan ahead of a key parliamentary election, praising his peace agenda and plans for the US-backed “Trump Route” corridor. The endorsement came a day after Secretary of State Marco Rubio visited Yerevan, where W
+- **NEW**  [Ukraine to Be Fully Integrated Into EU Air Defense, Drone Priorities, Von der Leyen Says](https://www.kyivpost.com/post/76995) — *2026-05-28*
+  > European Commission President Ursula von der Leyen said Ukraine will be included in Europe’s urgent defense efforts, backed by a €28.3 billion loan for Kyiv’s military needs.
 
 _(87 additional items in raw.jsonl)_

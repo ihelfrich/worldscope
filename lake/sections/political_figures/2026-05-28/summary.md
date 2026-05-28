@@ -27,18 +27,17 @@ state: fresh
 5. **Brian Babin** (Representative, Republican, TX-36th): composite 0.137
    drivers: stock_activity=0.55
    evidence: [lake:political_figures:c7a0893a9aee], [lake:political_figures:b8657e2d9156], [lake:political_figures:c143b6005406], [lake:political_figures:33c10c78f50b], [lake:political_figures:ca0d9f05e92d]
-6. **Jim Jordan** (Representative, Republican, OH-4th): composite 0.125
-   drivers: enforcement_hits=0.50
-   evidence: [lake:political_figures:0001628280-2], [lake:political_figures:https://www.]
-7. **April McClain Delaney** (Representative, Democratic, MD-6th): composite 0.116
+6. **April McClain Delaney** (Representative, Democratic, MD-6th): composite 0.116
    drivers: stock_activity=0.47
    evidence: [lake:political_figures:100ba92776d5], [lake:political_figures:c2bb4a322289], [lake:political_figures:c63ef1724dea], [lake:political_figures:fdd009c37da9], [lake:political_figures:2e16544e1f54]
-8. **Tina Smith** (Senator, Democratic, MN): composite 0.109
+7. **Tina Smith** (Senator, Democratic, MN): composite 0.109
    drivers: stock_activity=0.43
    evidence: [lake:political_figures:b3e80d25d304], [lake:political_figures:797b96ec0ad7], [lake:political_figures:fee392408b92], [lake:political_figures:398707e713df]
-9. **Sara Jacobs** (Representative, Democratic, CA-51st): composite 0.092
+8. **Sara Jacobs** (Representative, Democratic, CA-51st): composite 0.092
    drivers: stock_activity=0.37
    evidence: [lake:political_figures:32705d0714e2], [lake:political_figures:088a659378dd]
-10. **Dwight Evans** (Representative, Democratic, PA-3rd): composite 0.091
+9. **Dwight Evans** (Representative, Democratic, PA-3rd): composite 0.091
    drivers: stock_activity=0.36
    evidence: [lake:political_figures:017beabfffa0], [lake:political_figures:8c284cdfe94a], [lake:political_figures:847e4d2e7b2f], [lake:political_figures:8d61da122da9]
+10. **Tim Moore** (Representative, Republican, NC-14th): composite 0.073
+   evidence: [lake:political_figures:aa7ded56b0a7], [lake:political_figures:a896c0adc717], [lake:political_figures:dab6ce5967cb]
