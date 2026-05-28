@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · Entity graph · 2026-05-28</title>
+<meta name="description" content="Interactive entity co-occurrence graph for 2026-05-28.">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/graph/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WORLDSCOPE · Entity graph · 2026-05-28">
+<meta property="og:description" content="Interactive entity co-occurrence graph for 2026-05-28.">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/graph/">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="theme-color" content="#13294B">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700;8..60,800&display=swap">
+<script src="https://cdn.tailwindcss.com?plugins=typography,forms,aspect-ratio"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#0B1220',
+        parchment: '#FAF8F3',
+        panel: '#FFFFFF',
+        mist: '#E8E2D5',
+        'mist-strong': '#C9C1B2',
+        slate: { DEFAULT: '#4E5667', dim: '#6B7180' },
+        navy: { DEFAULT: '#13294B', soft: '#1F3D6E', deep: '#091428' },
+        gold: { DEFAULT: '#D4A017', soft: '#E8BC42' },
+        carolina: '#4B9CD3',
+        crimson: '#990000',
+        teal: '#1A8A87'
+      },
+      fontFamily: {
+        serif: ['"Source Serif 4"', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', 'serif'],
+        sans:  ['Inter', '-apple-system', 'BlinkMacSystemFont', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        mono:  ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace']
+      },
+      fontSize: {
+        'kicker':    ['11px',  { letterSpacing: '0.18em', lineHeight: '1.2', fontWeight: '700' }],
+        'editorial': ['clamp(36px, 5.5vw, 64px)', { lineHeight: '1.04', letterSpacing: '-0.025em', fontWeight: '800' }],
+        'lede':      ['clamp(17px, 1.4vw, 19px)', { lineHeight: '1.55', fontWeight: '400' }]
+      },
+      boxShadow: {
+        'card':  '0 1px 2px rgba(11,18,32,0.04), 0 4px 12px rgba(11,18,32,0.05)',
+        'lift':  '0 2px 6px rgba(11,18,32,0.06), 0 14px 32px rgba(11,18,32,0.11)',
+        'press': 'inset 0 1px 2px rgba(11,18,32,0.08)'
+      },
+      transitionTimingFunction: {
+        'editorial': 'cubic-bezier(0.2, 0.7, 0.2, 1)'
+      },
+      keyframes: {
+        'fade-rise':  { '0%': { opacity: '0', transform: 'translateY(8px)' },
+                        '100%': { opacity: '1', transform: 'translateY(0)' } },
+        'pulse-soft': { '0%,100%': { opacity: '0.65' }, '50%': { opacity: '1' } }
+      },
+      animation: {
+        'fade-rise': 'fade-rise 0.5s cubic-bezier(0.2,0.7,0.2,1) both',
+        'pulse-soft': 'pulse-soft 3s ease-in-out infinite'
+      }
+    }
+  }
+};
+</script>
+<style type="text/tailwindcss">
+  @layer base {
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Serif 4','Georgia',serif;
+      color: #0B1220;
+      background: #FAF8F3;
+      font-size: 16.5px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+      text-rendering: optimizeLegibility;
+    }
+    /* Tabular figures for numbers everywhere — keeps counts column-aligned */
+    .tabular-nums, [data-figure-target] text, .count, time, .stat {
+      font-feature-settings: 'tnum' 1, 'kern' 1;
+      font-variant-numeric: tabular-nums;
+    }
+    ::selection { background: #D4A01755; }
+    /* Headings: refined editorial rhythm */
+    h1, h2, h3 { font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'lnum' 1; }
+  }
+  @layer components {
+    /* Editorial drop-cap on first letter of the lede paragraph */
+    .drop-cap::first-letter {
+      font-family: 'Source Serif 4', serif;
+      float: left;
+      font-size: 4.2em;
+      line-height: 0.85;
+      padding: 0.05em 0.12em 0 0;
+      color: #13294B;
+      font-weight: 800;
+    }
+    /* Gold-bar accent rule between sections */
+    .editorial-rule {
+      height: 2px;
+      background: linear-gradient(90deg, #D4A017 0%, #D4A01755 30%, transparent 100%);
+      border: 0;
+    }
+    /* Recurrence chip: shown in the hero "signals converging" block */
+    .signal-chip {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      padding: 0.55rem 0.85rem 0.55rem 0.9rem;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.86);
+      border: 1px solid #E8E2D5;
+      backdrop-filter: blur(6px);
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: #13294B;
+      transition: transform 0.18s cubic-bezier(0.2,0.7,0.2,1), box-shadow 0.18s, border-color 0.18s;
+      cursor: default;
+    }
+    .signal-chip:hover {
+      transform: translateY(-1px);
+      border-color: #D4A017;
+      box-shadow: 0 2px 6px rgba(11,18,32,0.06), 0 8px 20px rgba(11,18,32,0.08);
+    }
+    .signal-chip .count {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      color: #4E5667;
+      letter-spacing: 0.05em;
+    }
+    .signal-chip .conf-dot {
+      width: 6px; height: 6px; border-radius: 9999px;
+      background: #D4A017;
+      box-shadow: 0 0 0 2px rgba(212,160,23,0.18);
+    }
+    .signal-chip[data-conf="high"]   .conf-dot { background: #13294B; box-shadow: 0 0 0 2px rgba(19,41,75,0.18); }
+    .signal-chip[data-conf="medium"] .conf-dot { background: #D4A017; }
+    .signal-chip[data-conf="low"]    .conf-dot { background: #C9C1B2; box-shadow: none; }
+    /* NEW marker -- intentionally loud */
+    .new-pill {
+      display: inline-block;
+      background: #D4A017;
+      color: #0B1220;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 9.5px;
+      padding: 2px 6px 1.5px;
+      letter-spacing: 0.12em;
+      border-radius: 3px;
+      vertical-align: 0.18em;
+      margin-right: 6px;
+    }
+    /* Stale-state badges */
+    .stale-pill {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 10.5px; font-weight: 600;
+      padding: 2px 7px; border-radius: 3px;
+      letter-spacing: 0.06em;
+      margin-left: 8px;
+      vertical-align: 0.18em;
+    }
+    .stale-pill.carry  { background: #FFF2CC; color: #856404; border: 1px solid #E6C75A; }
+    .stale-pill.failed { background: #FCE4D6; color: #8B3A0E; border: 1px solid #D27F5A; }
+    .stale-pill.none   { background: #E5E7EB; color: #4B5563; border: 1px solid #C9C1B2; }
+    /* Section emoji as oversized background flourish in card header */
+    .section-glyph {
+      font-size: 38px;
+      line-height: 1;
+      filter: saturate(0.85);
+    }
+    /* Editorial pull-quote: large serif italic, gold-rule accent.
+       Used in the hero "story of the day" treatment. */
+    .pull-quote {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: clamp(20px, 2.2vw, 26px);
+      line-height: 1.32;
+      color: #0B1220;
+      padding-left: 1.05rem;
+      border-left: 3px solid #D4A017;
+      letter-spacing: -0.005em;
+    }
+    /* Figure-card hover: gold accent bar slides in from left.
+       Subtle but unmistakably-editorial cue. */
+    .figure-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .figure-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: #D4A017;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
+    }
+    .figure-card:hover::before { transform: scaleY(1); }
+    /* "Stat block" — oversized number with caption beneath. */
+    .stat-block .stat {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 800;
+      font-size: clamp(40px, 4.4vw, 56px);
+      line-height: 0.96;
+      letter-spacing: -0.025em;
+      color: #13294B;
+    }
+    .stat-block .stat-label {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #4E5667;
+      margin-top: 6px;
+    }
+    /* Vega chart frame — restrained look that matches the card chrome */
+    [data-vega-target] .vega-embed {
+      width: 100%;
+      display: block;
+    }
+    [data-vega-target] svg { display: block; max-width: 100%; }
+  }
+  @layer utilities {
+    /* Glass strip used by sticky topnav over the canvas background */
+    .glass-nav {
+      background: linear-gradient(180deg, rgba(19,41,75,0.96) 0%, rgba(31,61,110,0.94) 100%);
+      backdrop-filter: blur(8px);
+    }
+    /* Card hover lift -- used across hero and section cards */
+    .lift-card {
+      transition: transform 0.22s cubic-bezier(0.2,0.7,0.2,1),
+                  box-shadow 0.22s cubic-bezier(0.2,0.7,0.2,1),
+                  border-color 0.22s;
+    }
+    .lift-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 2px 6px rgba(11,18,32,0.06), 0 14px 32px rgba(11,18,32,0.11);
+    }
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+    /* Print stylesheet -- strip navigation, expand details, ink-on-paper */
+    @media print {
+      .glass-nav, footer .actions, .ws-bg, details > summary::-webkit-details-marker { display: none !important; }
+      details { open: ''; }
+      details > div { display: block !important; }
+      body { background: #fff; }
+    }
+  }
+</style>
+
+<style>
+  .ws-bg { position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }
+  .ws-bg canvas { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body class="font-serif text-ink bg-parchment">
+<div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
+<script type="application/json" id="ws-network-seed">{}</script>
+<script src="../assets/network.js" defer></script>
+<nav class="glass-nav sticky top-0 z-50 text-white border-b-2 border-gold shadow-md" role="navigation" aria-label="Primary">
+  <div class="max-w-[1200px] mx-auto px-7 py-3 flex flex-wrap items-center gap-5 font-sans text-[13px]">
+    <a href="../index.html" class="font-extrabold tracking-[0.10em] uppercase text-white text-[13.5px]">
+      <span class="text-gold mr-1">◆</span>WORLDSCOPE
+    </a>
+    <a href="../index.html" class="text-mist hover:text-white transition-colors">Today</a>
+    <a href="../graph/" class="text-mist hover:text-white transition-colors">Graph</a>
+    <a href="../sections/" class="text-mist hover:text-white transition-colors">Sections</a>
+    <a href="../briefings/" class="text-mist hover:text-white transition-colors">Archive</a>
+    <span class="flex-1"></span>
+    <span class="text-mist/85 text-[12px] pl-3.5 ml-1 border-l border-white/20">Dr. Ian Helfrich</span>
+  </div>
+</nav>
+
+<main class="px-7 max-w-[1400px] mx-auto pt-10 pb-16">
+  <header class="mb-7">
+    <div class="font-sans text-kicker text-gold uppercase mb-3">ENTITY NETWORK · 2026-05-28</div>
+    <h1 class="font-serif text-editorial text-ink mb-2">Today, mapped as a graph</h1>
+    <p class="font-serif text-lede text-slate max-w-3xl">
+      Every node is an entity mentioned today. Every edge is a co-occurrence in the
+      same record. Cross-section recurrence signals glow gold. Click any node to drill
+      into its neighborhood; click <em>Ask the brief</em> to query that entity via chat.
+    </p>
+  </header>
+
+  <hr class="editorial-rule mb-6">
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+    <!-- Graph canvas -->
+    <section class="lg:col-span-9 bg-panel border border-mist rounded-xl shadow-card overflow-hidden">
+      <header class="flex flex-wrap items-center justify-between gap-3 px-5 py-3 border-b border-mist">
+        <div>
+          <div class="font-sans uppercase tracking-[0.18em] text-[10.5px] font-bold text-slate-dim">
+            Force-directed network
+          </div>
+          <div id="g-meta" class="font-sans text-[12.5px] text-slate tabular-nums mt-0.5">loading…</div>
+        </div>
+        <div class="flex items-center gap-2">
+          <input id="g-search"
+                 type="search"
+                 placeholder="search entities…"
+                 class="font-sans text-[13px] bg-parchment border border-mist rounded px-3 py-1.5
+                        w-64 focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/15">
+        </div>
+      </header>
+      <div id="graph-root" class="w-full" style="min-height: 720px"></div>
+      <footer id="g-pinned" class="px-5 py-3 border-t border-mist font-sans text-[12px] text-slate"></footer>
+    </section>
+
+    <!-- Detail sidebar -->
+    <aside class="lg:col-span-3 bg-panel border border-mist rounded-xl shadow-card p-5">
+      <div id="g-detail" class="font-sans text-[13.5px] text-ink">
+        <div class="font-sans text-kicker text-gold uppercase mb-2">DETAIL</div>
+        <h3 class="font-serif text-[19px] font-bold text-ink mb-2 leading-tight">Click any node to inspect</h3>
+        <p class="text-slate text-[13px] leading-relaxed mb-4">
+          Hover over a node to highlight its co-mentioned neighborhood. Drag to reposition.
+          Pinch / scroll to zoom. Use the search box to filter by name.
+        </p>
+        <div class="border-t border-mist mt-4 pt-4">
+          <div class="font-sans uppercase tracking-[0.16em] text-[10.5px] font-bold text-slate-dim mb-2">Legend</div>
+          <ul class="space-y-1.5 text-[12.5px] font-sans text-slate">
+            <li class="flex items-center gap-2"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#13294B"></span> person</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#1A8A87"></span> organization</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#D4A017"></span> place / country</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#990000"></span> policy / statute</li>
+            <li class="flex items-center gap-2"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#4B9CD3"></span> topic</li>
+            <li class="flex items-center gap-2 mt-2"><span class="inline-block w-3 h-3 rounded-full" style="background:rgba(212,160,23,0.3);border:1.5px solid #D4A017"></span> pinned (cross-section signal)</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <p class="text-slate-dim font-sans text-[11.5px] mt-6 italic">
+    Edges drawn between nodes that co-occur in ≥2 records today. Capped at 150 nodes and 600 edges
+    for performance. Cross-section recurrence entities are pinned regardless of mention count.
+  </p>
+</main>
+<style>
+  .pinned-link {
+    background: none; border: 0; padding: 0;
+    color: #13294B; text-decoration: underline;
+    text-underline-offset: 2px; text-decoration-color: rgba(19,41,75,0.25);
+    cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 600;
+  }
+  .pinned-link:hover { color: #D4A017; text-decoration-color: #D4A017; }
+  #graph-root svg { display: block; width: 100%; height: 100%; }
+</style>
+<script src="../assets/worldscope-graph.js" defer></script>
+
+
+</body>
+</html>

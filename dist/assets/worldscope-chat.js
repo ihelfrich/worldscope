@@ -398,6 +398,23 @@ Style:
       inp.value = "";
       ask(v);
     });
+
+    // Cross-page prefill: when the graph view sends the reader back here
+    // with #chat and a query in sessionStorage, auto-open the panel and
+    // load the prefilled question into the input (don't auto-send;
+    // reader confirms by hitting Ask).
+    const prefill = sessionStorage.getItem("ws.chat.prefill");
+    if (prefill || window.location.hash === "#chat") {
+      togglePanel(true);
+      if (prefill) {
+        const inp = document.getElementById("ws-chat-input");
+        if (inp) {
+          inp.value = prefill;
+          inp.focus();
+        }
+        sessionStorage.removeItem("ws.chat.prefill");
+      }
+    }
   }
 
   if (document.readyState === "loading") {

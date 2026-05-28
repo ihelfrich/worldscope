@@ -293,6 +293,7 @@ def topnav(base: str = "") -> str:
       <span class="text-gold mr-1">◆</span>WORLDSCOPE
     </a>
     <a href="{base}index.html" class="text-mist hover:text-white transition-colors">Today</a>
+    <a href="{base}graph/" class="text-mist hover:text-white transition-colors">Graph</a>
     <a href="{base}sections/" class="text-mist hover:text-white transition-colors">Sections</a>
     <a href="{base}briefings/" class="text-mist hover:text-white transition-colors">Archive</a>
     <span class="flex-1"></span>

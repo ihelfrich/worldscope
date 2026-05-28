@@ -278,6 +278,20 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as fex:  # pragma: no cover
         print(f"[figures] failed: {type(fex).__name__}: {fex}")
 
+    # 1d-sexies. Build the entity co-occurrence graph for the /graph/
+    # view. Computes co-occurrence pairs from today's record_entities,
+    # caps at 150 nodes / 600 edges (cross-section signals pinned).
+    # Output is dist/data/graph.json + dist/graph/index.html.
+    try:
+        from .graph_export import build_from_repo as _build_graph
+        from .graph_page  import render_graph_page as _render_graph_page
+        _exp_repo = Path(__file__).resolve().parent.parent
+        _graph_data = _build_graph(_exp_repo, Path(out_dir), today=today)
+        _graph_html = _render_graph_page(Path(out_dir), today=today)
+        print(f"[graph] data={_graph_data} page={_graph_html}")
+    except Exception as gex:  # pragma: no cover
+        print(f"[graph] failed: {type(gex).__name__}: {gex}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made
