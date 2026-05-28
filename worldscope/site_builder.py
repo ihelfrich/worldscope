@@ -30,6 +30,8 @@ from datetime import date as _date, datetime as _dt
 from pathlib import Path
 from urllib.parse import quote as _urlquote
 
+from .lib.page_chrome import _json_script_safe
+
 REPO = Path(__file__).resolve().parent.parent
 LAKE = REPO / "lake" / "sections"
 
@@ -670,7 +672,7 @@ def _wrap(title: str, body: str, crumbs: list[tuple[str, str]],
 <div class="ws-bg" aria-hidden="true">
   <canvas id="ws-network"></canvas>
 </div>
-<script type="application/json" id="ws-network-seed">{_network_seed_for_today()}</script>
+<script type="application/json" id="ws-network-seed">{_json_script_safe(_network_seed_for_today())}</script>
 <script src="{base}assets/network.js" defer></script>
 {topnav(base=base)}
 <div class="shell">

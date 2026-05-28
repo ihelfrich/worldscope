@@ -68,6 +68,17 @@
       ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }
 
+  // Strict caption sanitizer: escapes everything, then unescapes the
+  // single allowed inline tag <strong>...</strong>. No attributes ever
+  // pass through. Anything outside that allowlist remains visibly escaped.
+  function sanitizeCaption(s) {
+    let out = escapeHtml(String(s));
+    // Re-allow only the bare <strong> tag (no attributes).
+    out = out.replace(/&lt;strong&gt;/g, "<strong>")
+             .replace(/&lt;\/strong&gt;/g, "</strong>");
+    return out;
+  }
+
   async function init() {
     let doc;
     try {
@@ -83,9 +94,12 @@
     for (const fig of doc.figures) {
       const card = document.querySelector(`[data-figure="${CSS.escape(fig.id)}"]`);
       if (!card) continue;
-      // Captions can contain inline <strong> from server. Render trusted-by-construction.
+      // Captions may include <strong> for emphasis but nothing else.
+      // Server-side already escapes data, but we re-tighten here as
+      // defense-in-depth: any other tag (incl. <script>, <img onerror=>,
+      // attributes) is stripped.
       const cap = card.querySelector("[data-figure-caption]");
-      if (cap && fig.caption) cap.innerHTML = fig.caption;
+      if (cap && fig.caption) cap.innerHTML = sanitizeCaption(fig.caption);
       const kicker = card.querySelector("[data-figure-kicker]");
       if (kicker && fig.kicker) kicker.textContent = fig.kicker;
       const title = card.querySelector("[data-figure-title]");

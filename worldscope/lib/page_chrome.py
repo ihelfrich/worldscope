@@ -285,6 +285,22 @@ tailwind.config = {
 """
 
 
+def _json_script_safe(s: str) -> str:
+    """Escape JSON for safe embedding inside <script>...</script>.
+
+    json.dumps does NOT escape:
+      - "</" — an entity name containing "</script>" would break out
+        of the script block
+      - "<!--" — could open an HTML comment
+      - U+2028 / U+2029 — JS line terminators inside string literals
+    """
+    return (s
+            .replace("</",   "<\\/")
+            .replace("<!--", "<\\!--")
+            .replace(" ", "\\u2028")
+            .replace(" ", "\\u2029"))
+
+
 def topnav(base: str = "") -> str:
     """Sticky navy-on-parchment top navigation with gold accent rule."""
     return f"""<nav class="glass-nav sticky top-0 z-50 text-white border-b-2 border-gold shadow-md" role="navigation" aria-label="Primary">
@@ -443,7 +459,7 @@ def page_shell(
 </head>
 <body class="font-serif text-ink bg-parchment">
 <div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
-<script type="application/json" id="ws-network-seed">{network_seed_json}</script>
+<script type="application/json" id="ws-network-seed">{_json_script_safe(network_seed_json)}</script>
 <script src="{base}{network_assets_path}" defer></script>
 {topnav(base=base)}
 {body_html}

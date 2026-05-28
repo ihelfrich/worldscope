@@ -36,8 +36,9 @@ class CisaKevSection(Section):
             resp = requests.get(FEED, headers={"User-Agent": UA}, timeout=20)
             resp.raise_for_status()
             data = resp.json()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] CISA KEV feed fetch failed: {type(exc).__name__}: {exc}")
+            raise
         cutoff = date.today() - timedelta(days=self.DAYS_BACK)
         items: list[dict] = []
         for v in data.get("vulnerabilities", []):

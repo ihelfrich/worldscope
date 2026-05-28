@@ -42,11 +42,15 @@ class ForecastsSection(Section):
             resp = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=25)
             resp.raise_for_status()
             data = resp.json()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] Polymarket API fetch failed: {type(exc).__name__}: {exc}")
+            raise
 
         if not isinstance(data, list):
-            return []
+            raise RuntimeError(
+                f"[{self.id}] Polymarket returned non-list payload "
+                f"(type={type(data).__name__}); upstream shape may have changed"
+            )
 
         items: list[dict] = []
         for m in data[: self.LIMIT]:

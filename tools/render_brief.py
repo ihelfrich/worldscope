@@ -631,6 +631,47 @@ def discover_assets(brief_dir: Path, stem: str) -> tuple[list[Path], Path | None
     return pngs, (geo if geo.exists() else None)
 
 
+# Tags that get the boot entirely (content removed too).
+_DANGEROUS_BLOCK_TAG = re.compile(
+    r"<(?:script|style|iframe|object|embed|link|meta|form)\b[^>]*>.*?</(?:script|style|iframe|object|embed|link|meta|form)\s*>",
+    re.IGNORECASE | re.DOTALL,
+)
+# Bare self-closing or open versions of the above.
+_DANGEROUS_OPEN_TAG = re.compile(
+    r"<(?:script|style|iframe|object|embed|link|meta|form|svg|math)\b[^>]*/?>",
+    re.IGNORECASE,
+)
+# Inline event handlers (onclick=, onerror=, ...). Matches both single
+# and double-quoted forms plus unquoted.
+_ON_EVENT_ATTR = re.compile(
+    r"\s+on[a-z]+\s*=\s*(?:\"[^\"]*\"|'[^']*'|[^\s>]+)",
+    re.IGNORECASE,
+)
+# Dangerous URL schemes inside href= / src=.
+_BAD_HREF = re.compile(
+    r"(\s+(?:href|src|action|formaction|xlink:href)\s*=\s*[\"'])\s*(?:javascript|data|vbscript|file):",
+    re.IGNORECASE,
+)
+
+
+def sanitize_brief_html(html_body: str) -> str:
+    """Post-Markdown sanitize pass for the desk-officer's narrative.
+
+    Strips <script>, <style>, <iframe>, <object>, <embed>, <link>, <meta>,
+    and <form>; strips inline `on*=` event handlers; rewrites
+    href=javascript:/data:/vbscript:/file: to href=about:blank.
+
+    NOT a full HTML parser — covers the obvious XSS surfaces. A future
+    pass can swap in `bleach` for a parser-backed allowlist if the
+    desk-officer's markdown grows new constructs.
+    """
+    out = _DANGEROUS_BLOCK_TAG.sub("", html_body)
+    out = _DANGEROUS_OPEN_TAG.sub("", out)
+    out = _ON_EVENT_ATTR.sub("", out)
+    out = _BAD_HREF.sub(r"\1about:blank", out)
+    return out
+
+
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
     stem = md_path.stem
@@ -644,7 +685,12 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     title = title_match.group(1).strip() if title_match else stem
     # Markdown body (drop the first H1 so masthead handles it)
     body_md = re.sub(r"^#\s+.+$", "", md_text, count=1, flags=re.M)
-    body_html = markdown.markdown(body_md, extensions=["tables", "fenced_code", "attr_list", "toc"])
+    # NOTE: attr_list intentionally dropped — it lets the desk-officer
+    # markdown emit arbitrary HTML attributes via {: onclick="..."}, an
+    # XSS vector even for "trusted" input. Tables, fenced code, and toc
+    # are kept because the desk-officer markdown uses them.
+    body_html = markdown.markdown(body_md, extensions=["tables", "fenced_code", "toc"])
+    body_html = sanitize_brief_html(body_html)
     headings = extract_headings(md_text)
     body_html = inject_heading_anchors(body_html, headings)
     body_html = host_pill_links(body_html)

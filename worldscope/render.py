@@ -41,23 +41,24 @@ def _md_to_html(md: str) -> str:
                 in_list = False
             out.append("")
             continue
+        # Strip the prefix BEFORE escaping so we don't escape "# ".
         if line.startswith("# "):
             out.append(
-                f'<h2 class="font-serif text-[26px] font-extrabold text-navy mt-7 mb-3 tracking-tight">{line[2:]}</h2>'
+                f'<h2 class="font-serif text-[26px] font-extrabold text-navy mt-7 mb-3 tracking-tight">{html.escape(line[2:])}</h2>'
             )
         elif line.startswith("## "):
             out.append(
-                f'<h3 class="font-sans uppercase tracking-[0.10em] text-[11px] font-bold text-slate-dim mt-6 mb-2">{line[3:]}</h3>'
+                f'<h3 class="font-sans uppercase tracking-[0.10em] text-[11px] font-bold text-slate-dim mt-6 mb-2">{html.escape(line[3:])}</h3>'
             )
         elif line.startswith("### "):
             out.append(
-                f'<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">{line[4:]}</h4>'
+                f'<h4 class="font-serif text-[17px] font-bold text-navy mt-4 mb-1.5">{html.escape(line[4:])}</h4>'
             )
         elif line.startswith("- "):
             if not in_list:
                 out.append('<ul class="list-disc pl-6 space-y-1 my-2 marker:text-gold">')
                 in_list = True
-            out.append(f'<li class="leading-snug">{line[2:]}</li>')
+            out.append(f'<li class="leading-snug">{html.escape(line[2:])}</li>')
         else:
             if in_list:
                 out.append("</ul>")
@@ -66,10 +67,13 @@ def _md_to_html(md: str) -> str:
             klass = "leading-relaxed text-[16.5px] my-3"
             if paragraph_count == 1:
                 klass += " drop-cap"
-            out.append(f'<p class="{klass}">{line}</p>')
+            out.append(f'<p class="{klass}">{html.escape(line)}</p>')
     if in_list:
         out.append("</ul>")
     htmlout = "\n".join(out)
+    # Apply bold/italic AFTER escaping: the raw asterisks survive html.escape()
+    # so the regex still matches the escaped text. Inline tags inserted here
+    # are intentional and trusted.
     htmlout = re.sub(r"\*\*(.+?)\*\*", r'<strong class="text-navy font-bold">\1</strong>', htmlout)
     htmlout = re.sub(r"(?<!\*)\*(?!\*)([^*]+?)\*(?!\*)", r"<em>\1</em>", htmlout)
     return htmlout

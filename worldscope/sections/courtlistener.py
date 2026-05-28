@@ -49,6 +49,8 @@ class CourtListenerSection(Section):
         start = (datetime.now(timezone.utc) - timedelta(days=self.DAYS)).strftime("%Y-%m-%d")
         items: list[dict] = []
         seen_ids: set[int] = set()
+        successes = 0
+        failures: list[str] = []
         for court in WATCH_COURTS:
             try:
                 r = requests.get(
@@ -64,7 +66,9 @@ class CourtListenerSection(Section):
                 )
                 r.raise_for_status()
                 data = r.json()
-            except Exception:
+                successes += 1
+            except Exception as exc:
+                failures.append(f"{court}:{type(exc).__name__}:{exc}")
                 continue
             for res in (data.get("results") or [])[:8]:
                 rid = res.get("cluster_id") or res.get("id") or 0
@@ -83,4 +87,13 @@ class CourtListenerSection(Section):
                 })
                 if len(items) >= self.LIMIT:
                     return items
+        if failures:
+            print(f"[{self.id}] {len(failures)}/{len(WATCH_COURTS)} courts failed: "
+                  + "; ".join(failures[:5])
+                  + (f" (+{len(failures)-5} more)" if len(failures) > 5 else ""))
+        if successes == 0 and failures:
+            raise RuntimeError(
+                f"All {len(failures)} CourtListener court fetches failed; "
+                f"first error: {failures[0]}"
+            )
         return items

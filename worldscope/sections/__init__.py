@@ -269,26 +269,49 @@ class Section(ABC):
     # ---- render -------------------------------------------------------------
 
     def render_html(self, state: SectionState, synth: Optional[str] = None) -> str:
-        """HTML block for the section. Includes a visible staleness badge
-        when state is carry_forward or stale_after_failure."""
+        """HTML block for the section. Used by the legacy weekly renderer.
+
+        Every interpolated item field is HTML-escaped to defend against XSS
+        from upstream feeds (feed titles, GDELT article titles, etc. can
+        and do contain malformed HTML/JS). URLs are scheme-filtered: only
+        http(s) survives; javascript:/data:/file: become '#'.
+        """
+        import html as _html
+        from urllib.parse import urlparse as _urlparse
+
+        def _safe_url(u: str) -> str:
+            if not u: return "#"
+            try:
+                scheme = _urlparse(u).scheme.lower()
+            except Exception:
+                return "#"
+            return u if scheme in ("http", "https") else "#"
+
         badge = self._staleness_badge(state)
         new_ids = {it.get("_id") for it in state.new}
         items_html = []
         for it in state.items[:50]:
             is_new = it.get("_id") in new_ids
             new_marker = "<span class='new-badge'>NEW</span>" if is_new else ""
+            url     = _html.escape(_safe_url(it.get("url") or ""), quote=True)
+            title_  = _html.escape(it.get("title")   or "(no title)")
+            date_s  = _html.escape(it.get("date")    or "")
+            summary = _html.escape((it.get("summary") or "")[:280])
             items_html.append(
-                f"<li>{new_marker}<a href='{it.get('url','#')}'>"
-                f"{it.get('title','(no title)')}</a>"
-                f"<span class='meta'> · {it.get('date','')}</span>"
-                f"<div class='abs'>{(it.get('summary','') or '')[:280]}</div></li>"
+                f"<li>{new_marker}<a href='{url}'>{title_}</a>"
+                f"<span class='meta'> · {date_s}</span>"
+                f"<div class='abs'>{summary}</div></li>"
             )
         if not state.items:
             items_html.append("<li class='empty'>no items in this section.</li>")
-        synth_html = f"<p class='synth'>{synth}</p>" if synth else ""
+        synth_html = (
+            f"<p class='synth'>{_html.escape(synth)}</p>" if synth else ""
+        )
+        title  = _html.escape(self.title or "")
+        emoji  = _html.escape(self.emoji or "")
         return (
             f"<section class='section'>"
-            f"<h2>{self.emoji} {self.title} "
+            f"<h2>{emoji} {title} "
             f"<span class='count'>· {len(new_ids)} new / {len(state.items)} total</span>"
             f"{badge}</h2>"
             f"{synth_html}"

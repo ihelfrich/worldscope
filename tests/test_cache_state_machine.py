@@ -160,6 +160,38 @@ class CacheStateMachineTests(unittest.TestCase):
         self.assertEqual(state.state, STATE_STALE)
         self.assertEqual(state.source_date, "2026-05-25")  # carries from the prior empty
 
+    def test_empty_does_not_overwrite_same_day_non_empty(self) -> None:
+        """Regression: the morning cron pulled 3 items at 07:00 UTC.
+        An afternoon manual run that returns [] (rate-limited, source
+        down, etc.) must NOT replace the morning's snapshot with empty,
+        which would silently lose data. Invariant lives in
+        SnapshotStore.put()."""
+        sid = "test_no_clobber"
+        today = date(2026, 5, 28)
+        # Morning: 3 items
+        self.store.put(sid,
+                        [{"_id": "a", "title": "alpha"},
+                         {"_id": "b", "title": "beta"},
+                         {"_id": "c", "title": "gamma"}],
+                        status="ok", when=today)
+        # Afternoon: empty pull
+        self.store.put(sid, [], status="empty_ok", when=today)
+        # Morning's data must survive.
+        snap = self.store.get(sid, when=today)
+        self.assertIsNotNone(snap)
+        self.assertEqual(len(snap["items"]), 3)
+
+    def test_non_empty_overwrites_same_day_non_empty(self) -> None:
+        """Counterpart: a same-day re-pull that returned MORE items should
+        replace the prior. Only empty-replaces-non-empty is forbidden."""
+        sid = "test_can_grow"
+        today = date(2026, 5, 28)
+        self.store.put(sid, [{"_id": "a"}], status="ok", when=today)
+        self.store.put(sid, [{"_id": "a"}, {"_id": "b"}, {"_id": "c"}],
+                        status="ok", when=today)
+        snap = self.store.get(sid, when=today)
+        self.assertEqual(len(snap["items"]), 3)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -73,8 +73,9 @@ class VipFlightsSection(Section):
             resp = requests.get(API, headers={"User-Agent": UA}, timeout=30)
             resp.raise_for_status()
             data = resp.json()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] OpenSky API fetch failed: {type(exc).__name__}: {exc}")
+            raise
 
         states = data.get("states") or []
         snapshot_ts = data.get("time")

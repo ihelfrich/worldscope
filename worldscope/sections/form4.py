@@ -49,8 +49,9 @@ class Form4Section(Section):
         cutoff = datetime.now(timezone.utc) - timedelta(hours=self.WINDOW_HOURS)
         try:
             feed = feedparser.parse(FEED, agent=UA)
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] SEC Form 4 feed fetch failed: {type(exc).__name__}: {exc}")
+            raise
 
         items: list[dict] = []
         for e in getattr(feed, "entries", []) or []:

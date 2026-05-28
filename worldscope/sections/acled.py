@@ -114,7 +114,10 @@ class AcledSection(Section):
                 TOKEN_CACHE.unlink()
             except Exception:
                 pass
-            return []
+            raise RuntimeError(
+                f"[{self.id}] ACLED 401 unauthorized — cached token cleared, "
+                "next run will refresh"
+            )
         resp.raise_for_status()
         body = resp.json()
         return body.get("data", []) or []
@@ -122,7 +125,11 @@ class AcledSection(Section):
     def pull(self) -> list[dict]:
         token = self._get_token()
         if not token:
-            return []
+            raise RuntimeError(
+                f"[{self.id}] ACLED token unavailable: set ACLED_EMAIL and "
+                "ACLED_PASSWORD env vars, or check that the OAuth token "
+                "endpoint is reachable"
+            )
         end = datetime.now(timezone.utc).date()
         start = end - timedelta(days=7)
         items: list[dict] = []

@@ -34,6 +34,41 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LAKE_DB = REPO_ROOT / "lake" / "db" / "worldscope.sqlite"
 LAKE_SECTIONS = REPO_ROOT / "lake" / "sections"
 
+# Strict validators for path-segment inputs. Anything that fails these
+# regexes is rejected before being concatenated into a filesystem path.
+import re as _re_path
+_SECTION_ID_RE = _re_path.compile(r"^[a-z][a-z0-9_]{0,63}$")
+_DATE_ISO_RE   = _re_path.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _safe_section_id(section_id: str) -> str | None:
+    """Return section_id when it's a safe path segment; None otherwise."""
+    if not isinstance(section_id, str) or not _SECTION_ID_RE.match(section_id):
+        return None
+    return section_id
+
+
+def _safe_date_iso(date_iso: str | None) -> str | None | object:
+    """Return date_iso when it matches YYYY-MM-DD; None when caller passed
+    None (the "use most recent" sentinel); the sentinel _INVALID otherwise."""
+    if date_iso is None:
+        return None
+    if not isinstance(date_iso, str) or not _DATE_ISO_RE.match(date_iso):
+        return _INVALID
+    return date_iso
+
+
+_INVALID = object()  # sentinel: validation failed
+
+
+def _under(base: Path, candidate: Path) -> bool:
+    """True iff candidate resolves to a path under base — defense in depth."""
+    try:
+        candidate.resolve().relative_to(base.resolve())
+        return True
+    except (ValueError, OSError):
+        return False
+
 try:
     from mcp.server.fastmcp import FastMCP
 except ImportError:
@@ -492,19 +527,35 @@ def get_section_summary(section_id: str, date_iso: Optional[str] = None) -> dict
     Returns:
         {"section_id", "date", "summary_md", "record_count", "structured": {...}}
     """
-    section_dir = LAKE_SECTIONS / section_id
-    if not section_dir.exists():
-        return {"error": f"no section directory for {section_id!r}"}
+    # Validate inputs before they touch the filesystem.
+    safe_sid = _safe_section_id(section_id)
+    if safe_sid is None:
+        return {"error": f"invalid section_id (must match [a-z][a-z0-9_]{{0,63}})"}
+    safe_date = _safe_date_iso(date_iso) if date_iso else None
+    if safe_date is _INVALID:
+        return {"error": "invalid date_iso (must be YYYY-MM-DD)"}
 
-    if date_iso:
-        target = section_dir / date_iso
+    section_dir = LAKE_SECTIONS / safe_sid
+    if not _under(LAKE_SECTIONS, section_dir):
+        return {"error": "path traversal rejected"}
+    if not section_dir.exists():
+        return {"error": f"no section directory for {safe_sid!r}"}
+
+    if safe_date:
+        target = section_dir / safe_date
+        if not _under(LAKE_SECTIONS, target):
+            return {"error": "path traversal rejected"}
         if not target.exists():
-            return {"error": f"no artifacts for {section_id}/{date_iso}"}
-        date_used = date_iso
+            return {"error": f"no artifacts for {safe_sid}/{safe_date}"}
+        date_used = safe_date
     else:
-        dates = sorted([d.name for d in section_dir.iterdir() if d.is_dir()], reverse=True)
+        dates = sorted(
+            (d.name for d in section_dir.iterdir()
+             if d.is_dir() and _DATE_ISO_RE.match(d.name)),
+            reverse=True,
+        )
         if not dates:
-            return {"error": f"no artifacts found under {section_id}"}
+            return {"error": f"no artifacts found under {safe_sid}"}
         target = section_dir / dates[0]
         date_used = dates[0]
 
@@ -732,18 +783,25 @@ def cross_section_signals(
         ], "recurrences_found": int}
     """
     limit = min(max(1, limit), 200)
+    safe_date = _safe_date_iso(date_iso) if date_iso else None
+    if safe_date is _INVALID:
+        return {"error": "invalid date_iso (must be YYYY-MM-DD)"}
+
     meta_root = REPO_ROOT / "lake" / "sections" / "_meta"
     if not meta_root.exists():
         return {"error": "no cross-section analyzer output found"}
 
-    if date_iso:
-        target = meta_root / date_iso / "cross_section.json"
+    if safe_date:
+        target = meta_root / safe_date / "cross_section.json"
+        if not _under(meta_root, target):
+            return {"error": "path traversal rejected"}
         if not target.exists():
-            return {"error": f"no cross_section.json for {date_iso}"}
-        used_date = date_iso
+            return {"error": f"no cross_section.json for {safe_date}"}
+        used_date = safe_date
     else:
         candidates = sorted(
-            (d.name for d in meta_root.iterdir() if d.is_dir()),
+            (d.name for d in meta_root.iterdir()
+             if d.is_dir() and _DATE_ISO_RE.match(d.name)),
             reverse=True,
         )
         target = None

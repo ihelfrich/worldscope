@@ -25,6 +25,15 @@ REPO = Path(__file__).resolve().parent.parent
 MCP_SCRIPT = REPO / "mcp-server" / "worldscope_mcp.py"
 LAKE_DB = REPO / "lake" / "db" / "worldscope.sqlite"
 
+# The MCP server module calls sys.exit(1) at import time when the `mcp`
+# package isn't installed. That hard-kills `unittest discover`. Probe
+# for the dep up front so the whole module can skip cleanly instead.
+try:
+    import mcp  # noqa: F401
+    _MCP_AVAILABLE = True
+except ImportError:
+    _MCP_AVAILABLE = False
+
 
 def _load_mcp_module():
     """Load mcp-server/worldscope_mcp.py as a module. The directory name
@@ -36,6 +45,7 @@ def _load_mcp_module():
     return mod
 
 
+@unittest.skipUnless(_MCP_AVAILABLE, "mcp package not installed — run `pip install 'mcp[cli]'`")
 @unittest.skipUnless(LAKE_DB.exists(), f"lake DB missing at {LAKE_DB}")
 class TestMcpToolsAgainstRealLake(unittest.TestCase):
     @classmethod

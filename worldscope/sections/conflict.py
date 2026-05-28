@@ -53,23 +53,27 @@ class ConflictSection(Section):
         }
         time.sleep(1.0)  # polite throttle
         data = None
+        last_err: Exception | None = None
         for attempt in range(2):
             try:
                 resp = requests.get(DOC_API, params=params,
                                     headers={"User-Agent": UA}, timeout=25)
                 if resp.status_code == 429:
+                    last_err = RuntimeError("429 rate limited")
                     time.sleep(8)
                     continue
                 resp.raise_for_status()
                 data = resp.json()
                 break
-            except Exception:
+            except Exception as exc:
+                last_err = exc
                 if attempt == 0:
                     time.sleep(8)
-                else:
-                    return []
         if not data:
-            return []
+            err = last_err or RuntimeError("exhausted retries")
+            print(f"[{self.id}] GDELT conflict query failed: "
+                  f"{type(err).__name__}: {err}")
+            raise err
 
         items: list[dict] = []
         for art in (data.get("articles") or [])[: self.LIMIT]:

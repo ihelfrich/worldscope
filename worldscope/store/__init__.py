@@ -59,8 +59,31 @@ class SnapshotStore:
             status: str = "ok",
             error: Optional[str] = None,
             when: Optional[date] = None) -> None:
-        """Write a snapshot. `status` is one of: ok, empty_ok, failed."""
+        """Write a snapshot. `status` is one of: ok, empty_ok, failed.
+
+        Invariant: an empty same-day snapshot may NOT replace a non-empty
+        one. A morning cron run that pulled 200 items must not be
+        clobbered by an afternoon manual run that got rate-limited and
+        returned []. Same-day non-empty replacing non-empty is allowed
+        (a re-pull that picked up more items is welcome).
+        """
         d = (when or date.today()).isoformat()
+        if not items:
+            existing = self._conn.execute(
+                "SELECT payload FROM snapshots "
+                "WHERE section_id = ? AND snapshot_date = ?",
+                (section_id, d),
+            ).fetchone()
+            if existing:
+                try:
+                    prior = json.loads(existing[0])
+                    if (prior.get("items") or []):
+                        # Refuse to overwrite the prior non-empty snapshot.
+                        # The state machine treats this as "carry yesterday's
+                        # value forward" rather than "lose data silently."
+                        return
+                except Exception:
+                    pass
         payload = {
             "schema_version": SCHEMA_VERSION,
             "pulled_at": datetime.now(timezone.utc).isoformat(),
