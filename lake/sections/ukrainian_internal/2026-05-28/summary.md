@@ -3,16 +3,16 @@ section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-05-28
 record_count: 113
-new_today: 10
+new_today: 11
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-10 new of 113 total items today.
+11 new of 113 total items today.
 
-- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: У Китаї перевантажений мікроавтобус врізався у вантажівку, 13 загиблих | LEDE: У китайській провінції переповнений мікроавтобус врізався у вантажівку, внаслідок чого 13 людей загинули, троє – о] (uk: У Китаї перевантажений мікроавтобус врізався у вантажівку, 13 загиблих)](https://www.pravda.com.ua/news/2026/05/28/8036713/) — *2026-05-28*
+  > У китайській провінції переповнений мікроавтобус врізався у вантажівку, внаслідок чого 13 людей загинули, троє – отримали трвми.
 - **NEW**  [[TITLE: Трамп завив про підтримку Пашиняна перед парламентськими виборами у Вірменії | LEDE: Напередодні парламентських виборів у Вірменії Трамп заявив про підтримку Пашиняна.] (uk: Трамп завив про підтримку Пашиняна перед парламентськими виборами у Вірменії)](https://www.pravda.com.ua/news/2026/05/28/8036712/) — *2026-05-28*
   > Напередодні парламентських виборів у Вірменії Трамп заявив про підтримку Пашиняна.
 - **NEW**  [[TITLE: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі | LEDE: Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і ме] (uk: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі)](https://www.pravda.com.ua/articles/2026/05/28/8036693/) — *2026-05-28*
@@ -48,15 +48,15 @@ state: fresh
 - [[TITLE: Рада готується ратифікувати угоду з ЄС на 90 млрд євро | LEDE: ] (uk: Рада готується ратифікувати угоду з ЄС на 90 млрд євро)](https://www.pravda.com.ua/news/2026/05/27/8036683/) — *2026-05-27*
 - [[TITLE: Мадяр повідомив, що зустрінеться з фон дер Ляєн 29 травня | LEDE: Зустріч у Брюсселі премʼєр-міністра Угорщини Петера Мадяра та президентки Єврокомісії Урсули фон дер Ляєн відбудеться у пʼятниц] (uk: Мадяр повідомив, що зустрінеться з фон дер Ляєн 29 травня)](https://www.pravda.com.ua/news/2026/05/27/8036682/) — *2026-05-27*
   > Зустріч у Брюсселі премʼєр-міністра Угорщини Петера Мадяра та президентки Єврокомісії Урсули фон дер Ляєн відбудеться у пʼятницю, 29 травня.
-- [[TITLE: Зеленський провів нараду з Сирським та Гнатовим: погодив нові далекобійні операції | LEDE: Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та нач] (uk: Зеленський провів нараду з Сирським та Гнатовим: погодив нові далекобійні операц)](https://www.pravda.com.ua/news/2026/05/27/8036680/) — *2026-05-27*
-  > Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та начальником Генштабу Андрієм Гнатовим погодили нові далекобійні операції.
+- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
+  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-05-28*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - **NEW**  [Unified Front: Zelensky, Tsikhanouskaya Address Russian Threats and Lukashenko’s War Role](https://www.kyivpost.com/post/76997) — *2026-05-28*
   > Belarusian democratic leader Sviatlana Tsikhanouskaya met President Volodymyr Zelensky in Kyiv during her first working visit to Ukraine, marking a major step in formalizing ties between Kyiv and Belarusian democratic forces. The meeting focused on countering Russian threats, iso
+- **NEW**  [Trump Endorses Pashinyan Ahead of Crucial Armenia Vote](https://www.kyivpost.com/post/76996) — *2026-05-28*
+  > US President Donald Trump endorsed Armenian Prime Minister Nikol Pashinyan ahead of a key parliamentary election, praising his peace agenda and plans for the US-backed “Trump Route” corridor. The endorsement came a day after Secretary of State Marco Rubio visited Yerevan, where W
+- **NEW**  [Ukraine to Be Fully Integrated Into EU Air Defense, Drone Priorities, Von der Leyen Says](https://www.kyivpost.com/post/76995) — *2026-05-28*
+  > European Commission President Ursula von der Leyen said Ukraine will be included in Europe’s urgent defense efforts, backed by a €28.3 billion loan for Kyiv’s military needs.
 
 _(88 additional items in raw.jsonl)_
