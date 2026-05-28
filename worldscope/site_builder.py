@@ -116,115 +116,345 @@ def safe_extra(rec: dict) -> dict:
     extra = rec.get("extra")
     return extra if isinstance(extra, dict) else {}
 
-# Reused from render_brief.py to keep visual coherence. Heritage palette
-# values lifted from the existing site CSS.
+# Heritage palette + designed CSS. Tailwind CDN supplies the responsive
+# utility layer; the custom CSS below establishes the visual brand
+# (typography, palette, component-specific rules). Heritage colors:
+#   CAROLINA_NAVY #13294B  OLD_GOLD #D4A017  BSE_TEAL #1A8A87
+#   INDIANA_CRIMSON #990000  CAROLINA_BLUE #4B9CD3
+#   PARCHMENT #FAF8F3  SLATE #4E5667  MIST #E8E2D5
 CSS = """
 :root {
-  --ink: #0B1220; --bg: #FAFBFD; --panel: #fff; --border: #D9DEE5;
-  --muted: #5B6473; --accent: #1F3864; --accent-2: #2E75B6;
-  --warn: #B45309; --danger: #B91C1C; --good: #047857;
-  --rule: 1px solid var(--border);
+  --ink: #0B1220;
+  --parchment: #FAF8F3;
+  --panel: #FFFFFF;
+  --mist: #E8E2D5;
+  --slate: #4E5667;
+  --slate-dim: #6B7180;
+  --navy: #13294B;
+  --navy-soft: #1F3D6E;
+  --gold: #D4A017;
+  --gold-soft: #E8BC42;
+  --teal: #1A8A87;
+  --crimson: #990000;
+  --carolina: #4B9CD3;
+  --rule: 1px solid var(--mist);
+  --rule-strong: 1px solid #C9C1B2;
+  --shadow-card: 0 1px 2px rgba(11,18,32,0.04), 0 4px 12px rgba(11,18,32,0.05);
+  --shadow-lift: 0 2px 6px rgba(11,18,32,0.06), 0 12px 28px rgba(11,18,32,0.10);
+  --t-fast: 0.12s ease-out;
+  --t-slow: 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
-* { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: 'Source Serif 4','Georgia',serif;
-  color: var(--ink); background: var(--bg);
-  font-size: 16px; line-height: 1.55;
+  font-family: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', serif;
+  color: var(--ink);
+  background: var(--parchment);
+  font-size: 16.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Top navigation: sticky, navy with a gold accent rule */
 .topnav {
-  background: var(--accent); color: #fff;
-  padding: 10px 24px;
-  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
-  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(180deg, var(--navy) 0%, var(--navy-soft) 100%);
+  color: #fff;
+  padding: 11px 28px;
+  display: flex; gap: 22px; align-items: center; flex-wrap: wrap;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
   font-size: 13px;
-  border-bottom: 3px double var(--accent-2);
+  border-bottom: 2px solid var(--gold);
+  box-shadow: 0 1px 4px rgba(11,18,32,0.20);
 }
-.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
-.topnav a:hover { opacity: 1; text-decoration: underline; }
-.topnav .brand { font-weight: 700; letter-spacing: 0.08em;
-  text-transform: uppercase; opacity: 1; margin-right: 12px; }
+.topnav a {
+  color: #E8E2D5; text-decoration: none;
+  padding: 4px 0;
+  transition: color var(--t-fast);
+  position: relative;
+}
+.topnav a:hover { color: #fff; }
+.topnav a:hover::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -2px;
+  height: 1px; background: var(--gold);
+}
+.topnav .brand {
+  font-weight: 800; letter-spacing: 0.10em;
+  text-transform: uppercase; color: #fff;
+  margin-right: 8px;
+  font-size: 13.5px;
+}
+.topnav .brand::before {
+  content: '◆ '; color: var(--gold); margin-right: 4px;
+}
 .topnav .spacer { flex: 1; }
-.topnav .hub { font-size: 12px; opacity: 0.7; }
-.shell { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
-.crumbs { font-family: 'Inter',sans-serif; font-size: 12px;
-  color: var(--muted); margin-bottom: 16px; letter-spacing: 0.04em; }
-.crumbs a { color: var(--accent); text-decoration: none; }
-.crumbs a:hover { text-decoration: underline; }
-h1 { font-size: 30px; margin: 4px 0 14px; letter-spacing: -0.3px; }
-h2 { font-family: 'Source Serif 4',serif; font-size: 20px;
-  margin: 28px 0 10px; padding-bottom: 5px;
-  border-bottom: var(--rule); color: var(--accent); }
-.meta { font-family: 'Inter',sans-serif; font-size: 12.5px;
-  color: var(--muted); margin: 0 0 24px; }
+.topnav .hub {
+  font-size: 12px; opacity: 0.85;
+  padding-left: 14px; margin-left: 4px;
+  border-left: 1px solid rgba(255,255,255,0.18);
+}
+
+/* Layout shell */
+.shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 36px 28px 90px;
+}
+
+/* Breadcrumbs */
+.crumbs {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--slate);
+  margin-bottom: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.crumbs a {
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color var(--t-fast);
+}
+.crumbs a:hover { color: var(--gold); }
+.crumbs [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* Headings */
+h1 {
+  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 6px 0 12px;
+  letter-spacing: -0.6px;
+  line-height: 1.1;
+  color: var(--ink);
+}
+h2 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 36px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: var(--rule-strong);
+  color: var(--navy);
+  letter-spacing: -0.2px;
+}
+h2 span { font-weight: 400; color: var(--slate); }
+
+/* Page-meta strip */
+.meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--slate);
+  margin: 0 0 32px;
+  letter-spacing: 0.01em;
+}
+.meta strong { color: var(--ink); font-weight: 600; }
+
+/* Section index cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
 .section-card {
-  background: var(--panel); border: var(--rule); border-left: 3px solid var(--accent);
-  border-radius: 6px; padding: 14px 18px; margin: 10px 0; display: block;
-  text-decoration: none; color: inherit;
-  transition: border-color 0.15s, box-shadow 0.15s;
-}
-.section-card:hover { border-left-color: var(--danger);
-  box-shadow: 0 2px 10px rgba(31,56,100,0.07); }
-.section-card .name { font-size: 17px; font-weight: 700; color: var(--ink); }
-.section-card .desc { font-family: 'Inter',sans-serif; font-size: 13px;
-  color: var(--muted); margin-top: 4px; }
-.section-card .count { font-family: 'Inter',sans-serif; font-size: 12px;
-  color: var(--accent); margin-top: 6px; letter-spacing: 0.04em; }
-.record {
-  border: var(--rule); border-radius: 5px;
-  padding: 10px 14px; margin: 8px 0;
   background: var(--panel);
+  border: var(--rule);
+  border-left: 4px solid var(--navy);
+  border-radius: 10px;
+  padding: 18px 20px 16px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--t-slow), box-shadow var(--t-slow), border-left-color var(--t-slow);
+  box-shadow: var(--shadow-card);
 }
-.record h3 { font-size: 15px; font-family: 'Inter',sans-serif;
-  font-weight: 600; margin: 0 0 4px; line-height: 1.35; }
-.record h3 a { color: var(--ink); text-decoration: none;
-  border-bottom: 1px solid #BBD; }
-.record h3 a:hover { color: var(--accent); }
+.section-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--gold);
+  box-shadow: var(--shadow-lift);
+}
+.section-card .name {
+  font-family: 'Source Serif 4', serif;
+  font-size: 18.5px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.2px;
+  margin-bottom: 4px;
+}
+.section-card .desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--slate);
+  line-height: 1.5;
+  flex: 1;
+}
+.section-card .count {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  color: var(--navy);
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--mist);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Record cards */
+.record {
+  border: var(--rule);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 10px 0;
+  background: var(--panel);
+  transition: border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.record:hover {
+  border-color: var(--slate-dim);
+  box-shadow: var(--shadow-card);
+}
+.record h3 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 16.5px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  line-height: 1.35;
+  letter-spacing: -0.15px;
+  color: var(--ink);
+}
+.record h3 a {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(0deg, var(--gold) 0%, var(--gold) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  transition: background-size var(--t-fast), color var(--t-fast);
+  padding-bottom: 1px;
+}
+.record h3 a:hover {
+  color: var(--navy);
+  background-size: 100% 2px;
+}
 .record .src {
-  display: inline-block; font-family: 'Inter',sans-serif;
-  font-size: 11px; color: var(--accent);
-  background: #EEF2F7; border-radius: 999px;
-  padding: 1px 8px; margin-right: 5px; margin-top: 2px;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--mist);
+  border-radius: 4px;
+  padding: 2px 9px;
+  margin-right: 4px;
+  margin-top: 2px;
+  letter-spacing: 0.02em;
 }
 .record .tier {
-  font-family: 'Inter',sans-serif; font-size: 11px; color: var(--muted);
-  margin-left: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10.5px;
+  color: var(--slate);
+  margin-left: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .record .body {
-  margin: 6px 0 0; font-size: 14.5px; color: #2c3340; line-height: 1.5;
+  margin: 8px 0 0;
+  font-size: 14.5px;
+  color: #2C3340;
+  line-height: 1.55;
 }
 .record .entities {
-  margin-top: 6px; font-family: 'Inter',sans-serif; font-size: 11px;
-  color: var(--muted);
+  margin-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: var(--slate);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 .record .entities .tag {
-  display: inline-block; background: #FAFBFD; border: 1px solid #E0E5EC;
-  border-radius: 3px; padding: 0 5px; margin-right: 4px;
+  display: inline-block;
+  background: var(--parchment);
+  border: 1px solid var(--mist);
+  border-radius: 4px;
+  padding: 1px 7px;
+  color: var(--slate);
 }
+
+/* Archive rows */
 .archive-row {
-  display: flex; justify-content: space-between; align-items: baseline;
-  padding: 8px 12px; margin: 4px 0;
-  background: var(--panel); border: var(--rule); border-radius: 4px;
-  text-decoration: none; color: inherit;
-  font-family: 'Inter',sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 16px;
+  margin: 5px 0;
+  background: var(--panel);
+  border: var(--rule);
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Inter', sans-serif;
+  transition: border-color var(--t-fast), transform var(--t-fast), background var(--t-fast);
 }
-.archive-row:hover { border-color: var(--accent); }
-.archive-row .date { font-size: 14px; color: var(--accent); font-weight: 600; }
-.archive-row .n { font-size: 12px; color: var(--muted); }
+.archive-row:hover {
+  border-color: var(--navy);
+  background: linear-gradient(90deg, var(--panel) 0%, #FFFEF8 100%);
+  transform: translateX(2px);
+}
+.archive-row .date {
+  font-size: 14.5px;
+  color: var(--navy);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.archive-row .n {
+  font-size: 12px;
+  color: var(--slate);
+}
+
+/* Footer */
 footer.foot {
-  margin-top: 50px; padding-top: 14px; border-top: var(--rule);
-  font-family: 'Inter',sans-serif; font-size: 12px; color: var(--muted);
-  display: flex; justify-content: space-between; flex-wrap: wrap;
+  margin-top: 64px;
+  padding-top: 18px;
+  border-top: var(--rule-strong);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--slate);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
 }
+footer.foot a { color: var(--navy); }
+
+/* Mobile */
 @media (max-width: 700px) {
-  .shell { padding: 16px 14px 60px; }
-  .topnav { padding: 10px 14px; font-size: 12.5px; gap: 12px; }
-  h1 { font-size: 24px; overflow-wrap: anywhere; }
-  .section-card { padding: 12px 14px; min-width: 0; }
-  .record { padding: 10px 12px; min-width: 0; }
-  .record h3 { overflow-wrap: anywhere; }
-  .archive-row { overflow-wrap: anywhere; min-width: 0; }
+  .shell { padding: 24px 18px 70px; }
+  .topnav { padding: 10px 16px; font-size: 12.5px; gap: 14px; }
+  .topnav .hub { padding-left: 10px; }
+  h1 { font-size: 28px; overflow-wrap: anywhere; }
+  h2 { font-size: 19px; margin: 28px 0 12px; }
+  .cards-grid { grid-template-columns: 1fr; gap: 10px; }
+  .section-card { padding: 14px 16px; }
+  .record { padding: 12px 14px; min-width: 0; }
+  .record h3 { font-size: 15.5px; overflow-wrap: anywhere; }
+  .archive-row { padding: 10px 14px; overflow-wrap: anywhere; min-width: 0; }
   .record .entities .tag { overflow-wrap: anywhere; }
+}
+
+/* Print */
+@media print {
+  .topnav, footer.foot { display: none; }
+  body { background: white; }
+  .record { break-inside: avoid; box-shadow: none; }
+  .section-card { break-inside: avoid; box-shadow: none; }
 }
 """
 
@@ -584,11 +814,15 @@ def render_sections_root(out_root: Path) -> Path:
             + f'{latest_n} record{"s" if latest_n != 1 else ""}</div>'
             f'</a>'
         )
+    total_records = sum(_record_count_for_date(sid, _list_section_dates(sid)[0])
+                        if _list_section_dates(sid) else 0
+                        for sid in section_ids)
     body = (
         '<h1>Sections</h1>'
-        f'<p class="meta">{len(section_ids)} active sections in the worldscope lake. '
+        f'<p class="meta"><strong>{len(section_ids)}</strong> active sections in the WORLDSCOPE lake '
+        f'· <strong>{total_records:,}</strong> records ingested today. '
         'Click any section to drill into its archive and per-day records.</p>'
-        + "".join(cards)
+        f'<div class="cards-grid">{"".join(cards)}</div>'
     )
     crumbs = [("WORLDSCOPE", "../index.html"), ("Sections", "")]
     out_dir = out_root / "sections"
