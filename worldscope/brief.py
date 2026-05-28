@@ -134,6 +134,26 @@ def _list_archive(out_dir: Path) -> list[date]:
     return sorted(dates)
 
 
+def _render_reproducibility(out_dir: Path, today: date, store_path: Path) -> Path:
+    """Render the dated reproducibility page from current repo artifacts."""
+    from .reproducibility import build_from_repo
+    from .reproducibility_page import render_reproducibility_page
+
+    repo_root = Path(__file__).resolve().parent.parent
+    source_tiers = {
+        cls.id: getattr(cls, "source_tier", "unknown")
+        for cls in SECTION_REGISTRY
+    }
+    doc = build_from_repo(
+        repo_root,
+        Path(out_dir),
+        today=today,
+        store_path=store_path,
+        source_tiers=source_tiers,
+    )
+    return render_reproducibility_page(Path(out_dir), doc)
+
+
 def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -> Path:
     out_dir = Path(out_dir)
     store = SnapshotStore()
@@ -309,6 +329,15 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as tex:  # pragma: no cover
         print(f"[threads] failed: {type(tex).__name__}: {tex}")
 
+    # 1d-octies. Reproducibility page: a static proof sheet for the daily
+    # build inputs, section pull states, claim ledger, lake stats, and
+    # public artifacts. Refreshed again after the final zip/markdown writes.
+    try:
+        _repro_page = _render_reproducibility(Path(out_dir), today, store.path)
+        print(f"[reproducibility] {_repro_page}")
+    except Exception as rex:  # pragma: no cover
+        print(f"[reproducibility] failed: {type(rex).__name__}: {rex}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made
@@ -421,6 +450,12 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
 
     # 7. Save the overview Markdown side-by-side
     (out_dir / f"{today.isoformat()}.md").write_text(overview_md, encoding="utf-8")
+
+    try:
+        _repro_page = _render_reproducibility(Path(out_dir), today, store.path)
+        print(f"[reproducibility] refreshed {_repro_page}")
+    except Exception as rex:  # pragma: no cover
+        print(f"[reproducibility] refresh failed: {type(rex).__name__}: {rex}")
 
     print(f"\n→ page : {page}")
     print(f"→ zip  : {zpath}")
