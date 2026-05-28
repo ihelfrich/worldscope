@@ -510,6 +510,7 @@ def topnav(base: str = "") -> str:
     <a href="{base}threads/" class="text-mist hover:text-white transition-colors">Threads</a>
     <a href="{base}graph/" class="text-mist hover:text-white transition-colors">Graph</a>
     <a href="{base}reproducibility/" class="text-mist hover:text-white transition-colors">Reproducibility</a>
+    <a href="{base}health/" class="text-mist hover:text-white transition-colors">Health</a>
     <a href="{base}sections/" class="text-mist hover:text-white transition-colors">Sections</a>
     <a href="{base}briefings/" class="text-mist hover:text-white transition-colors">Archive</a>
     <span class="flex-1"></span>

@@ -154,6 +154,28 @@ def _render_reproducibility(out_dir: Path, today: date, store_path: Path) -> Pat
     return render_reproducibility_page(Path(out_dir), doc)
 
 
+def _render_source_health(out_dir: Path, today: date, store_path: Path,
+                          states: dict[str, SectionState]) -> Path:
+    """Write source_health.json and render the public heatmap page."""
+    from .health_page import render_health_page
+    from .source_health import build_from_repo
+
+    repo_root = Path(__file__).resolve().parent.parent
+    source_tiers = {
+        cls.id: getattr(cls, "source_tier", "unknown")
+        for cls in SECTION_REGISTRY
+    }
+    doc, _json_path = build_from_repo(
+        repo_root,
+        Path(out_dir),
+        today=today,
+        store_path=store_path,
+        source_tiers=source_tiers,
+        current_states=states,
+    )
+    return render_health_page(Path(out_dir), doc)
+
+
 def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -> Path:
     out_dir = Path(out_dir)
     store = SnapshotStore()
@@ -337,6 +359,14 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         print(f"[reproducibility] {_repro_page}")
     except Exception as rex:  # pragma: no cover
         print(f"[reproducibility] failed: {type(rex).__name__}: {rex}")
+
+    # 1d-novies. Source-health as first-class UX: write the 30-day section
+    # history JSON and render the reliability heatmap page.
+    try:
+        _health_page = _render_source_health(Path(out_dir), today, store.path, states)
+        print(f"[source-health] {_health_page}")
+    except Exception as hex:  # pragma: no cover
+        print(f"[source-health] failed: {type(hex).__name__}: {hex}")
 
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
