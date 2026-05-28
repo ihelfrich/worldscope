@@ -11,55 +11,55 @@ state: fresh
 
 0 new of 79 total items today.
 
-- [[fx] USD/EUR: 0.859651](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 0.859651 EUR
-- [[fx] USD/GBP: 0.743251](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 0.743251 GBP
-- [[fx] USD/JPY: 159.232868](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 159.232868 JPY
-- [[fx] USD/CHF: 0.785427](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 0.785427 CHF
-- [[fx] USD/CAD: 1.380782](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1.380782 CAD
-- [[fx] USD/AUD: 1.394958](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1.394958 AUD
-- [[fx] USD/NZD: 1.712118](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1.712118 NZD
-- [[fx] USD/CNY: 6.798706](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 6.798706 CNY
-- [[fx] USD/HKD: 7.836446](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 7.836446 HKD
-- [[fx] USD/TWD: 31.456473](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 31.456473 TWD
-- [[fx] USD/KRW: 1506.204723](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1506.204723 KRW
-- [[fx] USD/SGD: 1.277549](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1.277549 SGD
-- [[fx] USD/MYR: 3.965343](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 3.965343 MYR
-- [[fx] USD/THB: 32.671451](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 32.671451 THB
-- [[fx] USD/INR: 95.770007](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 95.770007 INR
-- [[fx] USD/IDR: 17798.07734](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 17798.07734 IDR
-- [[fx] USD/PHP: 61.585053](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 61.585053 PHP
-- [[fx] USD/VND: 26280.780513](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 26280.780513 VND
-- [[fx] USD/BRL: 5.027815](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 5.027815 BRL
-- [[fx] USD/MXN: 17.306231](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 17.306231 MXN
-- [[fx] USD/ARS: 1407.8893](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 1407.8893 ARS
-- [[fx] USD/CLP: 896.746963](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 896.746963 CLP
-- [[fx] USD/COP: 3648.447877](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 3648.447877 COP
-- [[fx] USD/PEN: 3.409371](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 3.409371 PEN
-- [[fx] USD/ZAR: 16.37035](https://www.exchangerate-api.com/docs/free) — *2026-05-27*
-  > 1 USD = 16.37035 ZAR
+- [[fx] USD/EUR: 0.859749](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 0.859749 EUR
+- [[fx] USD/GBP: 0.744561](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 0.744561 GBP
+- [[fx] USD/JPY: 159.471405](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 159.471405 JPY
+- [[fx] USD/CHF: 0.787015](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 0.787015 CHF
+- [[fx] USD/CAD: 1.383083](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1.383083 CAD
+- [[fx] USD/AUD: 1.400848](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1.400848 AUD
+- [[fx] USD/NZD: 1.696874](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1.696874 NZD
+- [[fx] USD/CNY: 6.793906](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 6.793906 CNY
+- [[fx] USD/HKD: 7.834766](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 7.834766 HKD
+- [[fx] USD/TWD: 31.430857](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 31.430857 TWD
+- [[fx] USD/KRW: 1500.684943](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1500.684943 KRW
+- [[fx] USD/SGD: 1.277352](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1.277352 SGD
+- [[fx] USD/MYR: 3.965034](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 3.965034 MYR
+- [[fx] USD/THB: 32.611244](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 32.611244 THB
+- [[fx] USD/INR: 95.808304](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 95.808304 INR
+- [[fx] USD/IDR: 17814.213382](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 17814.213382 IDR
+- [[fx] USD/PHP: 61.433698](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 61.433698 PHP
+- [[fx] USD/VND: 26321.729199](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 26321.729199 VND
+- [[fx] USD/BRL: 5.047732](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 5.047732 BRL
+- [[fx] USD/MXN: 17.359847](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 17.359847 MXN
+- [[fx] USD/ARS: 1411.1796](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 1411.1796 ARS
+- [[fx] USD/CLP: 894.659507](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 894.659507 CLP
+- [[fx] USD/COP: 3670.042314](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 3670.042314 COP
+- [[fx] USD/PEN: 3.408738](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 3.408738 PEN
+- [[fx] USD/ZAR: 16.363734](https://www.exchangerate-api.com/docs/free) — *2026-05-28*
+  > 1 USD = 16.363734 ZAR
 
 _(54 additional items in raw.jsonl)_

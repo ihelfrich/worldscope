@@ -2,15 +2,31 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-05-28
-record_count: 131
-new_today: 131
+record_count: 382
+new_today: 382
 state: fresh
 ---
 
 ## State Legislative Action
 
-131 new of 131 total items today.
+382 new of 382 total items today.
 
+- **NEW**  [[Alaska SB 2] An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.]() — *2026-05-28*
+  > An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.
+- **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-05-28*
+  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
+- **NEW**  [[Alaska HB 17] An Act relating to retirement benefits and military service.]() — *2026-05-28*
+  > An Act relating to retirement benefits and military service.
+- **NEW**  [[Alaska HB 121] An Act relating to the practice of accounting; relating to private professional conservators; amending Rule 17(e), Alaska Rules of Probate Procedure; and providing for an effective date.]() — *2026-05-28*
+  > An Act relating to the practice of accounting; relating to private professional conservators; amending Rule 17(e), Alaska Rules of Probate Procedure; and providing for an effective date.
+- **NEW**  [[Alaska HCR 6] Commemorating the 250th birthday of the United States Marine Corps.]() — *2026-05-28*
+  > Commemorating the 250th birthday of the United States Marine Corps.
+- **NEW**  [[Alaska SB 33] An Act relating to defamation claims based on the use of synthetic media; relating to the use of synthetic media in electioneering communications; and providing for an effective date.]() — *2026-05-28*
+  > An Act relating to defamation claims based on the use of synthetic media; relating to the use of synthetic media in electioneering communications; and providing for an effective date.
+- **NEW**  [[Alaska HB 381] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-05-28*
+  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
+- **NEW**  [[Alaska HJR 13] Urging the President of the United States to expand evacuation efforts for applicants with approved Special Immigrant Visas, including resumption of evacuation flights organized by the Coordinator for Afghan Relocation Efforts; urging the United States Department of State to secure l]() — *2026-05-28*
+  > Urging the President of the United States to expand evacuation efforts for applicants with approved Special Immigrant Visas, including resumption of evacuation flights organized by the Coordinator for Afghan Relocation Efforts; urging the United States Department of State to secu
 - **NEW**  [[Alaska SB 68] An Act relating to employment; relating to voluntary flexible work hour plans; relating to the employment of minors; and relating to hours worked by minors employed in the state.]() — *2026-05-27*
   > An Act relating to employment; relating to voluntary flexible work hour plans; relating to the employment of minors; and relating to hours worked by minors employed in the state.
 - **NEW**  [[Alaska SB 116] An Act amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign contribution limits for state and local office once each decade beginning in 2031; and relating to campaign contribution reporting requirements.]() — *2026-05-27*
@@ -23,8 +39,6 @@ state: fresh
   > An Act establishing the Alaska Climate Change Emergency Response Commission; and relating to the powers and duties of the Alaska Climate Change Emergency Response Commission.
 - **NEW**  [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-05-27*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
-- **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-05-27*
-  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
 - **NEW**  [[Alaska HB 104] An Act creating and relating to the address confidentiality program; and providing for an effective date.]() — *2026-05-27*
   > An Act creating and relating to the address confidentiality program; and providing for an effective date.
 - **NEW**  [[Alaska HB 139] An Act relating to renting the governor's mansion; and providing for an effective date.]() — *2026-05-27*
@@ -43,23 +57,9 @@ state: fresh
   > An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful e
 - **NEW**  [[Alaska HB 27] An Act relating to cardiopulmonary resuscitation education in public schools; relating to the duties of the Department of Education and Early Development; relating to medical care for major emergencies; and providing for an effective date.]() — *2026-05-27*
   > An Act relating to cardiopulmonary resuscitation education in public schools; relating to the duties of the Department of Education and Early Development; relating to medical care for major emergencies; and providing for an effective date.
-- **NEW**  [[Alaska HB 381] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-05-27*
-  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
 - **NEW**  [[Alaska HB 148] An Act relating to insurance; and providing for an effective date.]() — *2026-05-27*
   > An Act relating to insurance; and providing for an effective date.
 - **NEW**  [[Alaska HB 156] An Act relating to disclosure of information regarding employee compensation by employers, employees, and applicants for employment.]() — *2026-05-27*
   > An Act relating to disclosure of information regarding employee compensation by employers, employees, and applicants for employment.
-- **NEW**  [[Alaska HB 96] An Act establishing the Home Care Employment Standards Advisory Board; relating to payment for personal care services; and providing for an effective date.]() — *2026-05-27*
-  > An Act establishing the Home Care Employment Standards Advisory Board; relating to payment for personal care services; and providing for an effective date.
-- **NEW**  [[Alaska HB 171] An Act relating to interchange fees on tax and gratuity; and relating to the Alaska Unfair Trade Practices and Consumer Protection Act.]() — *2026-05-27*
-  > An Act relating to interchange fees on tax and gratuity; and relating to the Alaska Unfair Trade Practices and Consumer Protection Act.
-- **NEW**  [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-05-27*
-  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
-- **NEW**  [[Alaska HB 192] An Act relating to the payment of unemployment compensation benefits; relating to a penalty for late unemployment benefit payments; relating to inflation adjustments to unemployment benefit amounts; relating to an insured worker's availability for work; and providing for an effective]() — *2026-05-27*
-  > An Act relating to the payment of unemployment compensation benefits; relating to a penalty for late unemployment benefit payments; relating to inflation adjustments to unemployment benefit amounts; relating to an insured worker's availability for work; and providing for an effec
-- **NEW**  [[Alaska HB 149] An Act relating to pharmacy benefits managers; relating to third-party administrators; and providing for an effective date.]() — *2026-05-27*
-  > An Act relating to pharmacy benefits managers; relating to third-party administrators; and providing for an effective date.
-- **NEW**  [[Alaska SB 79] An Act relating to wage payments; and providing for an effective date.]() — *2026-05-27*
-  > An Act relating to wage payments; and providing for an effective date.
 
-_(106 additional items in raw.jsonl)_
+_(357 additional items in raw.jsonl)_

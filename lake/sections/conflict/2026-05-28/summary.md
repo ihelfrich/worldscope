@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United States] ACS adds blood test to colon , rectal cancer screening recommendations](https://www.wlky.com/article/blood-test-recommended-colorectal-cancer-screening/71419484) — *2026-05-28*
-  > domain: wlky.com · language: English · tone:
-- **NEW**  [[United States] Judge sets bond at $1M for suspect in deadly Shively bus stop crash](https://www.wlky.com/article/shively-bus-stop-crash-suspect-arraignment-kevin/71421221) — *2026-05-28*
-  > domain: wlky.com · language: English · tone:
-- **NEW**  [[Bermuda] De Couto On Tax , Insurance Companies , More](https://bernews.com/2026/05/obas-de-couto-on-tax-insurance-more/) — *2026-05-28*
-  > domain: bernews.com · language: English · tone:
-- **NEW**  [[United States] Is Texas in play ? How Paxton win could shape the fight for Senate control](https://www.wvtm13.com/article/texas-senate-race-paxton-talarico/71424206) — *2026-05-28*
-  > domain: wvtm13.com · language: English · tone:
-- **NEW**  [[United States] Pope Leo issues new appeal for peace in Ukraine | News Headlines](https://www.catholicculture.org/news/headlines/index.cfm?storyid=69567) — *2026-05-28*
-  > domain: catholicculture.org · language: English · tone:
-- **NEW**  [[United States] Former Republican strategist Collin Corbett files to run for Illinois governor as independent](https://www.wifr.com/2026/05/27/former-republican-strategist-collin-corbett-files-run-illinois-governor-independent/) — *2026-05-28*
-  > domain: wifr.com · language: English · tone:
-- **NEW**  [[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline](https://www.king5.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382) — *2026-05-28*
-  > domain: king5.com · language: English · tone:
-- **NEW**  [[Canada] After protests outside synagogues , New York makes it a crime to block entry to a house of worship – Winnipeg Free Press](https://www.winnipegfreepress.com/arts-and-life/life/faith/2026/05/27/after-protests-outside-synagogues-new-york-makes-it-a-crime-to-block-entry-to-a-house-of-worship) — *2026-05-28*
-  > domain: winnipegfreepress.com · language: English · tone:
-- **NEW**  [[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout](https://www.dudleynews.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/) — *2026-05-28*
-  > domain: dudleynews.co.uk · language: English · tone:
-- **NEW**  [[United States] Ryan Garcia shuts door on $40K Arman Tsarukyan bet feud :  There no way I will ever pay him  ](https://www.mmafighting.com/ufc/490872/ryan-garcia-shuts-door-on-40k-arman-tsarukyan-bet-feud-theres-no-way-i-will-ever-pay-him) — *2026-05-28*
-  > domain: mmafighting.com · language: English · tone:
-- **NEW**  [[United States] North Korea Tests New Lightweight Launch System and Tactical Cruise Missiles](https://news.usni.org/2026/05/27/north-korea-tests-new-lightweight-launch-system-and-tactical-cruise-missiles) — *2026-05-28*
-  > domain: news.usni.org · language: English · tone:
-- **NEW**  [[United States] Texas Senate race shifts after Paxton defeats Cornyn](https://www.wlky.com/article/texas-senate-race-paxton-cornyn/71423839) — *2026-05-28*
-  > domain: wlky.com · language: English · tone:
-- **NEW**  [[United Kingdom] Strike action does work , resident doctor leader says ahead of June walkout](https://www.yorkpress.co.uk/news/national/26144524.strike-action-work-resident-doctors-leader-says-ahead-june-walkout/) — *2026-05-28*
-  > domain: yorkpress.co.uk · language: English · tone:
-- **NEW**  [[United States] Trump says he can outwait Iran , dismisses midterm election pressure](https://whtc.com/2026/05/27/trump-says-he-can-outwait-iran-dismisses-midterm-election-pressure/) — *2026-05-28*
-  > domain: whtc.com · language: English · tone:
-- **NEW**  [[United Kingdom] Trump administration  drawing up plan to stop processing international flights in sanctuary cities | ICE ( US Immigration and Customs Enforcement ) ](https://www.theguardian.com/us-news/2026/may/27/dhs-international-flights-sanctuary-cities) — *2026-05-28*
-  > domain: theguardian.com · language: English · tone:
-- **NEW**  [[United States] Texas Senate race shifts after Paxton defeats Cornyn](https://www.wvtm13.com/article/texas-senate-race-paxton-cornyn/71423839) — *2026-05-28*
-  > domain: wvtm13.com · language: English · tone:
-- **NEW**  [[United Kingdom] Jesu sacrifice is similar to that of RNLI volunteers | Barry And District News](https://www.barryanddistrictnews.co.uk/news/26141978.jesus-sacrifice-similar-rnli-volunteers/) — *2026-05-28*
-  > domain: barryanddistrictnews.co.uk · language: English · tone:
-- **NEW**  [[New Zealand] Business . Scoop » Etrnl : The Australian Men Jewellery Brand Built For Everyday Wear](https://business.scoop.co.nz/2026/05/28/etrnl-the-australian-mens-jewellery-brand-built-for-everyday-wear/) — *2026-05-28*
-  > domain: business.scoop.co.nz · language: English · tone:
-- **NEW**  [[United States] Matthew Perry former personal assistant sentenced](https://kyma.com/news/california-news/2026/05/27/matthew-perrys-former-personal-assistant-sentenced/) — *2026-05-28*
-  > domain: kyma.com · language: English · tone:
-- **NEW**  [[Australia] Eleven feared dead after US chemical tank rupture](https://www.easternriverinachronicle.com.au/story/9255382/eleven-feared-dead-after-us-chemical-tank-rupture/) — *2026-05-28*
-  > domain: easternriverinachronicle.com.au · language: English · tone:
-- **NEW**  [[United States] NASA just ordered moon buggies and drones for a lunar base here the timeline](https://www.wqad.com/article/news/nation-world/nasa-moon-base-plans-landers-buggies-drones/507-eb8faea7-725a-4175-9ce4-67e63d537382) — *2026-05-28*
-  > domain: wqad.com · language: English · tone:
-- **NEW**  [[United States] Cold case suspect known to police | Peninsula Daily News](https://www.peninsuladailynews.com/2026/05/27/cold-case-suspect-known-to-police/) — *2026-05-28*
-  > domain: peninsuladailynews.com · language: English · tone:
-- **NEW**  [[United States] Big floods could come for Grand Canyon North Rim . But there a plan to keep people safe](https://www.wyomingpublicmedia.org/natural-resources-energy/2026-05-27/big-floods-could-come-for-grand-canyons-north-rim-but-theres-a-plan-to-keep-people-safe) — *2026-05-28*
-  > domain: wyomingpublicmedia.org · language: English · tone:
-- **NEW**  [[United States] REPORT : Trump Admin Plans To Send Americans With Ebola To Kenya For Quarantine , Treatment](https://dailycaller.com/2026/05/27/trump-admin-ebola-quarantine-kenya-americans/) — *2026-05-28*
-  > domain: dailycaller.com · language: English · tone:
-- **NEW**  [[United States] Second person dies after chemical tank implosion at Longview paper mill , contamination of Columbia River confirmed](https://www.king5.com/article/news/local/officials-confirm-second-death-recovery-operations-underway-9-missing-longview-paper-mill-implosion/281-47eddf44-f8d4-45f9-8e47-307f85f35a3a) — *2026-05-28*
-  > domain: king5.com · language: English · tone:
+- **NEW**  [[] IPAC , APM demand credible polls , neutrality of INEC](https://thesun.ng/ipac-apm-demand-credible-polls-neutrality-of-inec/) — *2026-05-28*
+  > domain: thesun.ng · language: English · tone:
+- **NEW**  [[United States] Police Seek Information On Property Offences In Darwin 28 May](https://www.miragenews.com/police-seek-information-on-property-offences-in-1681639/) — *2026-05-28*
+  > domain: miragenews.com · language: English · tone:
+- **NEW**  [[United States] Benbrook nail salon reopens three months after SUV crashed through its front wall](https://www.wfaa.com/article/news/local/tarrant-county/benbrook-nail-salon-reopens-three-months-after-suv-crashed-through-wall/287-5a85b3f5-6631-41ca-a3ca-0d1ef09906b3) — *2026-05-28*
+  > domain: wfaa.com · language: English · tone:
+- **NEW**  [[Canada] BRIONES : When your back gives out , life comes to a standstill](https://nanaimobulletin.com/2026/05/27/briones-when-your-back-gives-out-life-comes-to-a-standstill/) — *2026-05-28*
+  > domain: nanaimobulletin.com · language: English · tone:
+- **NEW**  [[United States] Pattie Gonia : Patagonia trying to  erase  her with lawsuit](https://www.advocate.com/news/pattie-gonia-patigonia-lawsuit) — *2026-05-28*
+  > domain: advocate.com · language: English · tone:
+- **NEW**  [[United States] Toyota recalls 43 , 500 trucks over engine defect that could cause sudden stall](https://www.fox5atlanta.com/news/toyota-recalls-43500-trucks-over-engine-defect-could-cause-sudden-stall) — *2026-05-28*
+  > domain: fox5atlanta.com · language: English · tone:
+- **NEW**  [[United States] Man fatally shoots himself as Detroit police raid home , 2nd suspect being sought](https://www.wxyz.com/news/man-fatally-shoots-himself-as-detroit-police-raid-home-second-suspect-being-sought) — *2026-05-28*
+  > domain: wxyz.com · language: English · tone:
+- **NEW**  [[United States] South Korea holds rates , alert to inflation risks](https://finance.yahoo.com/economy/policy/articles/south-korea-holds-rates-alert-011752787.html) — *2026-05-28*
+  > domain: finance.yahoo.com · language: English · tone:
+- **NEW**  [[United States] Gavin Newsom Joins New York in Push to Tax Trump Anti - Weaponization Payouts](https://www.newsweek.com/states-tax-trump-anti-weaponization-fund-newsom-new-york-12000917) — *2026-05-28*
+  > domain: newsweek.com · language: English · tone:
+- **NEW**  [[Canada] Northern Health asks local communities for help with Strategic Plan](https://interior-news.com/2026/05/27/northern-health-asks-local-communities-for-help-with-strategic-plan/) — *2026-05-28*
+  > domain: interior-news.com · language: English · tone:
+- **NEW**  [[United States] Libya  Central Node  In RSF War Machine – Eurasia Review](https://www.eurasiareview.com/28052026-libya-central-node-in-rsfs-war-machine/) — *2026-05-28*
+  > domain: eurasiareview.com · language: English · tone:
+- **NEW**  [[India] Non - communicable diseases accounted for 60 % of all deaths in 2022 - 2024 | Data](https://www.thehindu.com/data/non-communicable-diseases-accounted-for-60-of-all-deaths-in-2022-2024-data/article71030137.ece) — *2026-05-28*
+  > domain: thehindu.com · language: English · tone:
+- **NEW**  [[United States] US military conducts another strike against Iran , officials say](https://www.10news.com/us-news/iran-war/us-military-conducts-another-strike-against-iran-after-trump-says-iran-is-negotiating-on-fumes) — *2026-05-28*
+  > domain: 10news.com · language: English · tone:
+- **NEW**  [[United States] Federal spending bill advances funding for Galveston universities](https://www.galvnews.com/news/federal-spending-bill-advances-funding-for-galveston-universities/article_369a6f33-b1a5-4ab4-911b-21f8effc998b.html) — *2026-05-28*
+  > domain: galvnews.com · language: English · tone:
+- **NEW**  [[Australia] Chanelle and Joe share a life , marriage , art . Now they face an incurable cancer diagnosis](https://www.brisbanetimes.com.au/national/chanelle-and-joe-share-a-life-marriage-art-now-they-face-an-incurable-cancer-diagnosis-20260514-p5zwyc.html) — *2026-05-28*
+  > domain: brisbanetimes.com.au · language: English · tone:
+- **NEW**  [[United States] Teen charged with killing stepsister on Carnival Cruise remains free after hearing](https://www.wandtv.com/news/national/teen-charged-with-killing-stepsister-on-carnival-cruise-remains-free-after-hearing/article_e2ebd39f-f2a1-5240-adc4-4f0d2765c3dc.html) — *2026-05-28*
+  > domain: wandtv.com · language: English · tone:
+- **NEW**  [[United States] Patient cleared after Ebola scare at Sharp Grossmont Hospital](https://www.10news.com/news/local-news/patient-cleared-after-ebola-scare-prompts-emergency-response-at-sharp-grossmont-hospital) — *2026-05-28*
+  > domain: 10news.com · language: English · tone:
+- **NEW**  [[United States] Fujitsu , Science Tokyo Launch Quantum Research Hub](https://www.miragenews.com/fujitsu-science-tokyo-launch-quantum-research-1681642/) — *2026-05-28*
+  > domain: miragenews.com · language: English · tone:
+- **NEW**  [[United States] Islamic Center marks somber Eid al - Adha following deadly shooting](https://www.10news.com/news/local-news/islamic-center-marks-somber-eid-al-adha-following-shooting-that-claimed-three-lives) — *2026-05-28*
+  > domain: 10news.com · language: English · tone:
+- **NEW**  [[] 2 fatal shootings in Chester part of violent stretch](https://www.inquirer.com/news/chester-shooting-homicide-fatal-violence-20260527.html) — *2026-05-28*
+  > domain: inquirer.com · language: English · tone:
+- **NEW**  [[] Type 2 diabetes rates  rising twice as fast in younger women  ](https://www.london-now.co.uk/news/national/26144525.type-2-diabetes-rates-rising-twice-fast-younger-women/) — *2026-05-28*
+  > domain: london-now.co.uk · language: English · tone:
+- **NEW**  [[United States] Consumers expect more inflation . That can push up prices](https://www.marketplace.org/story/2026/05/27/consumers-expect-more-inflation-that-can-push-price-increases) — *2026-05-28*
+  > domain: marketplace.org · language: English · tone:
+- **NEW**  [[Canada] The Canadian Energy Stock Id Buy Right Now and It a Bargain](https://www.fool.ca/2026/05/27/the-canadian-energy-stock-id-buy-right-now-and-its-a-bargain-2/) — *2026-05-28*
+  > domain: fool.ca · language: English · tone:
+- **NEW**  [[United States]   5 Lesbians Eating a Quiche  brings laughter , belonging to Charleston](https://charlestoncitypaper.com/2026/05/27/5-lesbians-eating-a-quiche-brings-laughter-belonging-to-charleston/) — *2026-05-28*
+  > domain: charlestoncitypaper.com · language: English · tone:
+- **NEW**  [[United States] Women museum bill fails after anti - trans amendment](https://www.advocate.com/politics/national/republicans-derail-women-history-museaum) — *2026-05-28*
+  > domain: advocate.com · language: English · tone:
 
 _(15 additional items in raw.jsonl)_
