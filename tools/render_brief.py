@@ -1,31 +1,22 @@
 """
-render_brief.py — convert briefings/<date>.md and weekly_briefings/<week>.md
+render_brief.py: convert briefings/<date>.md and weekly_briefings/<week>.md
 into publication-grade HTML at dist/briefings/<date>.html etc.
 
-Design goals (Bloomberg / Stratfor / Economist register):
-
-  - Two-column on desktop, single-column on mobile
-  - Sticky sidebar with auto-generated TOC + jump anchors
-  - Watch-area dashboard at the top (read from watchareas.yaml)
-  - Anomaly callouts: any "anomaly" / "z-score" / "Δ" line is highlighted
-  - Inline charts: any image in dist/briefings/ or briefings/ named
-    <date>-<slug>.png is auto-discovered and inlined as a figure
-  - Print-clean PDF path (@media print)
-  - Embedded Leaflet event map if a sibling <date>-events.geojson exists
-  - Inline links rendered as primary-source citations with hostname pills
-  - Tables get banded rows and a sticky header
-  - Headings get hover-anchor links
+Visual design is delivered by the compiled Tailwind stylesheet at
+/dist/assets/tailwind.css (built from assets/src/tailwind.input.css with the
+heritage-palette daisyUI theme). This module emits semantic markup that
+references those utility and component classes; it does NOT ship its own CSS.
 
 Reads:
-  briefings/<date>.md         — routine output, markdown
-  briefings/<date>-*.png      — routine-generated charts
-  briefings/<date>-events.geojson  — optional event geometry
-  watchareas.yaml             — to render the watch-area dashboard
+  briefings/<date>.md         routine output, markdown
+  briefings/<date>-*.png      routine-generated charts
+  briefings/<date>-events.geojson  optional event geometry
+  watchareas.yaml             watch-area definitions for the dashboard
 
 Writes:
   dist/briefings/<date>.html
   dist/briefings/<date>-*.png  (copied so the HTML can reference them)
-  dist/briefings/index.html    — points to latest + archive
+  dist/briefings/index.html    points to latest + archive
   weekly_briefings/<week>.* analogous
 """
 from __future__ import annotations
@@ -43,366 +34,12 @@ import yaml
 REPO = Path(__file__).resolve().parent.parent
 WATCH = REPO / "watchareas.yaml"
 
-CSS = """
-:root {
-  --ink: #0B1220;
-  --parchment: #FAF8F3;
-  --bg: #FAF8F3;
-  --panel: #FFFFFF;
-  --mist: #E8E2D5;
-  --border: #E8E2D5;
-  --slate: #4E5667;
-  --muted: #4E5667;
-  --navy: #13294B;
-  --accent: #13294B;
-  --accent-2: #1F3D6E;
-  --gold: #D4A017;
-  --teal: #1A8A87;
-  --crimson: #990000;
-  --carolina: #4B9CD3;
-  --warn: #D4A017;
-  --danger: #990000;
-  --good: #1A8A87;
-  --rule: 1px solid var(--mist);
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  font-family: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', serif;
-  color: var(--ink);
-  background: var(--bg);
-  font-size: 16.5px;
-  line-height: 1.55;
-}
-.shell {
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 36px;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 24px 24px 80px;
-}
-.sidebar {
-  position: sticky;
-  top: 24px;
-  align-self: start;
-  font-family: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  max-height: calc(100vh - 48px);
-  overflow-y: auto;
-  padding-right: 4px;
-}
-.sidebar h3 {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  margin: 18px 0 6px;
-  font-weight: 700;
-}
-.sidebar ul { list-style: none; padding: 0; margin: 0; }
-.sidebar li { margin: 4px 0; }
-.sidebar a {
-  color: var(--ink); text-decoration: none;
-  display: block; padding: 3px 8px; border-radius: 4px;
-  border-left: 2px solid transparent;
-}
-.sidebar a:hover { background: var(--mist); }
-.sidebar a.active {
-  border-left-color: var(--gold);
-  background: var(--mist);
-  color: var(--navy);
-  font-weight: 600;
-}
-.masthead {
-  border-bottom: 2px solid var(--gold);
-  padding-bottom: 18px;
-  margin-bottom: 28px;
-  position: relative;
-}
-.masthead::before {
-  content: ''; position: absolute; left: 0; right: 0; bottom: -5px;
-  height: 1px; background: var(--navy);
-}
-.masthead .eyebrow {
-  font-family: 'Inter', sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--navy);
-  font-weight: 700;
-}
-.masthead .eyebrow::before {
-  content: '◆ '; color: var(--gold);
-}
-.masthead h1 {
-  font-family: 'Source Serif 4', 'Georgia', serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.08;
-  margin: 10px 0 8px;
-  color: var(--ink);
-  letter-spacing: -0.6px;
-}
-.masthead .dateline {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  color: var(--muted);
-}
-.dashboard {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 12px;
-  margin: 18px 0 26px;
-}
-.dash-tile {
-  background: var(--panel);
-  border: var(--rule);
-  border-left: 3px solid var(--accent);
-  border-radius: 6px;
-  padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
-}
-.dash-tile.priority-high { border-left-color: var(--danger); }
-.dash-tile.priority-normal { border-left-color: var(--accent); }
-.dash-tile.priority-low { border-left-color: var(--muted); }
-.dash-tile.alert { background: #FEF2F2; }
-.dash-tile h4 {
-  margin: 0 0 4px;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: var(--ink);
-}
-.dash-tile .dash-stat {
-  font-size: 22px;
-  font-family: 'Source Serif 4', serif;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: -0.5px;
-}
-.dash-tile .dash-meta {
-  font-size: 11px;
-  color: var(--muted);
-  margin-top: 3px;
-}
-.content h1 { display: none; }  /* first H1 is the title, shown in masthead */
-.content h2 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 24px;
-  margin: 36px 0 12px;
-  padding-bottom: 6px;
-  border-bottom: var(--rule);
-  color: var(--accent);
-  letter-spacing: -0.2px;
-  scroll-margin-top: 24px;
-}
-.content h3 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 18px;
-  margin: 24px 0 8px;
-  color: var(--ink);
-  scroll-margin-top: 24px;
-}
-.content h4 {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  margin: 18px 0 6px;
-}
-.content p {
-  margin: 0 0 12px;
-}
-.content a {
-  color: var(--accent);
-  text-decoration: none;
-  border-bottom: 1px solid #BBD;
-}
-.content a:hover { border-bottom-color: var(--accent); }
-.content blockquote {
-  border-left: 3px solid var(--accent-2);
-  background: #EEF4FA;
-  padding: 8px 14px;
-  margin: 12px 0;
-  font-style: italic;
-  color: #1B2E4A;
-}
-.content code {
-  font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
-  font-size: 13px;
-  background: #F1F4F9;
-  padding: 1px 5px;
-  border-radius: 3px;
-}
-.content pre {
-  background: #0F172A;
-  color: #E2E8F0;
-  padding: 14px;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-}
-.content table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 14px 0;
-  font-size: 14.5px;
-  font-family: 'Inter', sans-serif;
-}
-.content table th, .content table td {
-  border: var(--rule);
-  padding: 6px 10px;
-  text-align: left;
-}
-.content table th {
-  background: #F1F4F9;
-  font-weight: 700;
-  position: sticky;
-  top: 0;
-}
-.content table tbody tr:nth-child(odd) { background: #FAFBFD; }
-.content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 16px 0;
-  border: var(--rule);
-  border-radius: 4px;
-}
-.content figure {
-  margin: 18px 0;
-}
-.content figcaption {
-  font-family: 'Inter', sans-serif;
-  font-size: 12.5px;
-  color: var(--muted);
-  margin-top: 6px;
-}
-.callout {
-  border: var(--rule);
-  border-left: 4px solid var(--warn);
-  background: #FFFBEB;
-  padding: 10px 14px;
-  margin: 14px 0;
-  border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-size: 14.5px;
-}
-.callout.danger { border-left-color: var(--danger); background: #FEF2F2; }
-.callout.good   { border-left-color: var(--good);   background: #ECFDF5; }
-.callout-label {
-  display: inline-block;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 700;
-  color: var(--warn);
-  margin-right: 8px;
-}
-.callout.danger .callout-label { color: var(--danger); }
-.callout.good   .callout-label { color: var(--good); }
-.hostpill {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 10.5px;
-  color: var(--muted);
-  background: #F1F4F9;
-  border: 1px solid #D9DEE5;
-  border-radius: 999px;
-  padding: 1px 7px;
-  margin-left: 4px;
-  vertical-align: 1px;
-}
-.gridmap {
-  width: 100%;
-  height: 380px;
-  border: var(--rule);
-  border-radius: 6px;
-  margin: 16px 0;
-}
-footer.brief-foot {
-  margin-top: 60px;
-  padding-top: 16px;
-  border-top: var(--rule);
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  color: var(--muted);
-  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
-}
-.anchor-link {
-  opacity: 0; margin-left: 6px; text-decoration: none; color: var(--accent-2);
-  transition: opacity 0.15s;
-}
-.content h2:hover .anchor-link,
-.content h3:hover .anchor-link { opacity: 1; }
-@media (max-width: 900px) {
-  .shell { grid-template-columns: 1fr; }
-  .sidebar { position: static; max-height: none; }
-}
-/* === mobile-responsive additions === */
-@media (max-width: 700px) {
-  body {
-    font-size: 15.5px;
-  }
-  .shell {
-    padding: 16px 16px 60px;
-  }
-  .sidebar {
-    display: none;
-  }
-  .masthead h1 {
-    font-size: 26px;
-  }
-  .dashboard {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin: 14px 0 22px;
-  }
-  .dash-tile {
-    padding: 8px 10px;
-  }
-  .content img {
-    margin-left: -16px;
-    margin-right: -16px;
-    width: calc(100% + 32px);
-    max-width: none;
-    border-radius: 0;
-  }
-}
-/* === site-wide top navigation === */
-.topnav {
-  background: var(--accent); color: #fff;
-  padding: 9px 24px;
-  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
-  font-family: 'Inter','-apple-system','Helvetica Neue',Arial,sans-serif;
-  font-size: 13px;
-  border-bottom: 3px double var(--accent-2);
-  margin: -24px -24px 24px;
-}
-.topnav a { color: #fff; text-decoration: none; opacity: 0.85; }
-.topnav a:hover { opacity: 1; text-decoration: underline; }
-.topnav .brand {
-  font-weight: 700; letter-spacing: 0.08em;
-  text-transform: uppercase; opacity: 1;
-}
-.topnav .spacer { flex: 1; }
-.topnav .hub { font-size: 12px; opacity: 0.7; }
-@media (max-width: 700px) {
-  .topnav { padding: 9px 14px; margin: -16px -16px 18px; font-size: 12.5px; gap: 12px; }
-}
-@media print {
-  .sidebar { display: none; }
-  .shell { grid-template-columns: 1fr; padding: 0; max-width: 100%; }
-  body { background: white; font-size: 11.5pt; }
-  .dash-tile, .callout { break-inside: avoid; }
-  .masthead { break-after: avoid; }
-  .content h2 { break-before: avoid; }
-}
-"""
+# Brief pages live two levels deep under dist/ (dist/briefings/<date>.html), so
+# the stylesheet sits at ../assets/tailwind.css from a brief's perspective.
+ASSETS_PREFIX_BRIEF = "../assets/"
+# Root-level pages (dist/index.html) reference assets at ./assets/.
+ASSETS_PREFIX_ROOT = "./assets/"
+
 
 LEAFLET_SCRIPT = """
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -436,6 +73,85 @@ LEAFLET_SCRIPT = """
 """
 
 
+# Shared <head> fragment: stylesheet links, font preloads, OG metadata stub.
+def _head(title: str, stem: str, assets_prefix: str, *, description: str = "",
+          canonical: str = "") -> str:
+    desc = html.escape(description or f"WORLDSCOPE briefing: {stem}", quote=True)
+    canon = html.escape(canonical or f"https://ihelfrich.github.io/worldscope/briefings/{stem}.html",
+                        quote=True)
+    return f"""<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · {html.escape(title)}</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="{canon}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{html.escape(title, quote=True)}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{canon}">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="{assets_prefix}tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>"""
+
+
+def _navbar(*, brief_stem: str | None = None, assets_prefix: str = "../") -> str:
+    """daisyUI navbar with brand, primary links, mobile collapse via Alpine.js.
+
+    `assets_prefix` is the relative path from the current page to dist/, e.g.
+    "../" for a /briefings/<date>.html page or "./" for /index.html.
+    """
+    zip_href = (f"{assets_prefix}zips/{html.escape(brief_stem)}.zip"
+                if brief_stem else f"{assets_prefix}zips/")
+    return f"""<header class="ws-navbar" x-data="{{ open: false }}">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="{assets_prefix}index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="{assets_prefix}index.html">Today</a>
+      <a href="{assets_prefix}sections/">Sections</a>
+      <a href="{assets_prefix}briefings/">Archive</a>
+      <a href="{html.escape(zip_href, quote=True)}">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="{assets_prefix}index.html" class="block py-1.5">Today</a></li>
+      <li><a href="{assets_prefix}sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="{assets_prefix}briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="{html.escape(zip_href, quote=True)}" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>"""
+
+
 def slugify(s: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     return s[:60]
@@ -466,10 +182,11 @@ def inject_heading_anchors(html_body: str, headings: list[tuple[int, str, str]])
     def repl(match: re.Match) -> str:
         tag = match.group(1)
         inner = match.group(2)
-        # Strip any inner tags for matching
         plain = re.sub(r"<[^>]+>", "", inner).strip()
         slug = by_text.get(plain) or slugify(plain)
-        return f'<{tag} id="{slug}">{inner} <a class="anchor-link" href="#{slug}">§</a></{tag}>'
+        return (f'<{tag} id="{slug}">{inner} '
+                f'<a class="heading-anchor" href="#{slug}" aria-label="link to section">§</a>'
+                f'</{tag}>')
 
     return re.sub(r"<(h[234])>(.+?)</\1>", repl, html_body, flags=re.DOTALL)
 
@@ -483,30 +200,36 @@ def host_pill_links(html_body: str) -> str:
         host = re.sub(r"^https?://(www\.)?", "", href).split("/", 1)[0]
         if not host or host.startswith("#") or host.startswith("/"):
             return full
-        return f'<a href="{href}">{text}</a><span class="hostpill">{host}</span>'
+        return (f'<a href="{href}">{text}</a>'
+                f'<span class="ws-hostpill">{host}</span>')
 
     return re.sub(r'<a href="(https?://[^"]+)"[^>]*>([^<]+)</a>', repl, html_body)
 
 
 def callout_pass(html_body: str) -> str:
-    """Turn lines containing 'anomaly z=' / 'Δ' / 'ALERT:' into callouts."""
+    """Turn lines containing 'anomaly z=' / 'Δ' / 'ALERT:' into Tailwind callouts."""
     def wrap(match: re.Match) -> str:
         p = match.group(0)
         body_text = re.sub(r"<[^>]+>", "", p)
         kind = ""
         label = ""
         if re.search(r"\b(ALERT|RED FLAG|breach|surge|spike)\b", body_text, re.I):
-            kind = "danger"; label = "Alert"
-        elif re.search(r"\bz\s*=|\banomaly\b|\bz-score\b|σ\b|\bΔ\b", body_text, re.I):
-            kind = "warn"; label = "Anomaly"
+            kind = "is-danger"; label = "Alert"
+        elif re.search(r"\bz\s*=|\banomaly\b|\bz-score\b|σ\b|Δ\b",
+                       body_text, re.I):
+            kind = ""; label = "Anomaly"
         elif re.search(r"\b(cooling|easing|de-escalation)\b", body_text, re.I):
-            kind = "good"; label = "Easing"
-        if not kind:
+            kind = "is-good"; label = "Easing"
+        if not label:
             return p
-        return f'<div class="callout {kind}"><span class="callout-label">{label}</span>{p}</div>'
+        return (f'<div class="ws-callout {kind}">'
+                f'<span class="ws-label">{label}</span>{p}</div>')
 
-    return re.sub(r"<p>(?:(?!</p>).)*?(?:ALERT|RED FLAG|anomaly|z-score|σ|Δ|breach|surge|spike|cooling|easing|de-escalation)(?:(?!</p>).)*?</p>",
-                  wrap, html_body, flags=re.I)
+    return re.sub(
+        r"<p>(?:(?!</p>).)*?(?:ALERT|RED FLAG|anomaly|z-score|σ|Δ"
+        r"|breach|surge|spike|cooling|easing|de-escalation)(?:(?!</p>).)*?</p>",
+        wrap, html_body, flags=re.I,
+    )
 
 
 def load_watch_dashboard() -> list[dict]:
@@ -523,11 +246,9 @@ def load_watch_dashboard() -> list[dict]:
 def dashboard_html(areas: list[dict], md_text: str) -> str:
     """Render watch-area tiles. Stat = count of mentions of area name in the brief.
 
-    Only emits a tile when the area has signal (mentions > 0 OR an alert match).
     Empty zero-mention watch areas still appear in the sidebar nav (so the user
     can jump to them), but they do not pollute the above-the-fold dashboard.
-    Threshold can be overridden per-area via `dashboard_min_mentions` in
-    watchareas.yaml; default is 1.
+    Threshold can be overridden per-area via `dashboard_min_mentions`.
     """
     if not areas:
         return ""
@@ -540,37 +261,39 @@ def dashboard_html(areas: list[dict], md_text: str) -> str:
         priority = a.get("priority", "normal")
         mentions = md_lower.count(name.lower())
         alert = ""
-        # Alert if name mentioned alongside red-flag words
-        snippet_re = re.compile(re.escape(name.lower()) + r".{0,200}(alert|surge|spike|breach|red flag)", re.I | re.S)
+        snippet_re = re.compile(
+            re.escape(name.lower()) + r".{0,200}(alert|surge|spike|breach|red flag)",
+            re.I | re.S,
+        )
         if snippet_re.search(md_text):
-            alert = "alert"
-        # Empty-card filter: skip if no signal. Alert override keeps a tile
-        # visible even when the area name itself is mentioned zero times,
-        # since the alert may have referenced it indirectly.
+            alert = "is-alert"
         threshold = int(a.get("dashboard_min_mentions", 1))
         if mentions < threshold and not alert:
             continue
         topics = (a.get("topics") or [])[:3]
         topics_str = ", ".join(topics) if topics else ""
         slug = slugify(name)
+        priority_cls = {"high": "is-high", "low": "is-low"}.get(priority, "")
         tiles.append(
-            f'<div class="dash-tile priority-{html.escape(priority)} {alert}">'
-            f'<h4><a href="#{slug}" style="color:inherit;text-decoration:none;">{html.escape(name)}</a></h4>'
-            f'<div class="dash-stat">{mentions}</div>'
-            f'<div class="dash-meta">{html.escape(topics_str)}</div>'
+            f'<div class="ws-dash-tile {priority_cls} {alert}">'
+            f'<h4><a href="#{slug}" class="text-inherit no-underline hover:text-navy">'
+            f'{html.escape(name)}</a></h4>'
+            f'<div class="ws-stat">{mentions}</div>'
+            f'<div class="ws-meta">{html.escape(topics_str)}</div>'
             f"</div>"
         )
     if not tiles:
         return ""
-    return '<div class="dashboard">' + "".join(tiles) + "</div>"
+    return ('<section aria-label="Watch-area dashboard" '
+            'class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6">'
+            + "".join(tiles) + '</section>')
 
 
 def strip_google_news_links(html_body: str) -> str:
     """Replace <a href="https://news.google.com/rss/...">X</a> with just X.
 
-    Google News proxy URLs serve raw XML to the browser instead of
-    redirecting to the article. They are unsafe to expose as clickable
-    links. We surface the link text as plain text instead.
+    Google News proxy URLs serve raw XML to the browser instead of redirecting
+    to the article. They are unsafe to expose as clickable links.
     """
     return re.sub(
         r'<a\s+href="https://news\.google\.com/rss[^"]*"[^>]*>([^<]*)</a>',
@@ -580,13 +303,7 @@ def strip_google_news_links(html_body: str) -> str:
 
 
 def dedupe_images(html_body: str) -> str:
-    """Strip duplicate <img> tags pointing at the same src.
-
-    Defense in depth: the synthesis prompt sometimes refers to the same chart
-    in two different sections (it sees the chart as a useful illustration for
-    both). Rendering both is visual redundancy. Keep first occurrence, drop
-    subsequent ones.
-    """
+    """Strip duplicate <img> tags pointing at the same src."""
     seen: set[str] = set()
 
     def repl(match: re.Match) -> str:
@@ -603,14 +320,8 @@ def dedupe_images(html_body: str) -> str:
 
 
 def strip_stale_zip_notice(md_text: str, zip_exists_now: bool) -> str:
-    """Remove the synthesis-time 'bundle zip was unavailable' DATA NOTE if the
-    zip is actually present at render time.
-
-    Race condition we are working around: the Claude synthesis prompt runs
-    BEFORE the bundle.py zip-generation step on some days. The synthesis sees
-    'no zip yet' and templates a DATA NOTE into the markdown. By the time the
-    renderer runs, the zip exists and the notice is stale. Strip it.
-    """
+    """Remove the synthesis-time 'bundle zip was unavailable' DATA NOTE when
+    the zip is actually present at render time."""
     if not zip_exists_now:
         return md_text
     return re.sub(
@@ -622,21 +333,25 @@ def strip_stale_zip_notice(md_text: str, zip_exists_now: bool) -> str:
 
 
 def sidebar_html(headings: list[tuple[int, str, str]], areas: list[dict]) -> str:
-    out: list[str] = ['<nav class="sidebar">']
+    out: list[str] = ['<nav class="ws-sidebar" aria-label="Table of contents">']
     if areas:
         out.append('<h3>Watch areas</h3><ul>')
         for a in areas:
             name = a.get("name", "")
             if not name:
                 continue
-            out.append(f'<li><a href="#{slugify(name)}">{html.escape(name)}</a></li>')
+            out.append(
+                f'<li><a href="#{slugify(name)}">{html.escape(name)}</a></li>'
+            )
         out.append('</ul>')
     out.append('<h3>Sections</h3><ul>')
     for level, text, slug in headings:
         if level not in (2, 3):
             continue
-        indent = "padding-left:14px;" if level == 3 else ""
-        out.append(f'<li style="{indent}"><a href="#{slug}">{html.escape(text)}</a></li>')
+        indent_cls = " pl-4" if level == 3 else ""
+        out.append(
+            f'<li><a class="{indent_cls}" href="#{slug}">{html.escape(text)}</a></li>'
+        )
     out.append('</ul></nav>')
     return "".join(out)
 
@@ -649,8 +364,7 @@ def discover_assets(brief_dir: Path, stem: str) -> tuple[list[Path], Path | None
 
 
 def _brief_network_seed() -> str:
-    """Inline JSON seed for the ambient canvas: today's cross-section
-    recurrences, mirrors site_builder._network_seed_for_today()."""
+    """Inline JSON seed for the ambient canvas (today's cross-section recurrences)."""
     import datetime as _dt2
     today = _dt2.date.today().isoformat()
     cs_path = REPO / "lake" / "sections" / "_meta" / today / "cross_section.json"
@@ -674,17 +388,16 @@ def _brief_network_seed() -> str:
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
     stem = md_path.stem
-    # Check if today's zip actually exists at render time (race-condition
-    # mitigation: synthesis prompt may have templated a "zip unavailable"
-    # DATA NOTE that is now stale).
     zip_path = REPO / "dist" / "zips" / f"{stem}.zip"
     md_text = strip_stale_zip_notice(md_text, zip_path.exists())
     # Extract first H1 as title
     title_match = re.match(r"^#\s+(.+)$", md_text, flags=re.M)
     title = title_match.group(1).strip() if title_match else stem
-    # Markdown body (drop the first H1 so masthead handles it)
     body_md = re.sub(r"^#\s+.+$", "", md_text, count=1, flags=re.M)
-    body_html = markdown.markdown(body_md, extensions=["tables", "fenced_code", "attr_list", "toc"])
+    body_html = markdown.markdown(
+        body_md,
+        extensions=["tables", "fenced_code", "attr_list", "toc"],
+    )
     headings = extract_headings(md_text)
     body_html = inject_heading_anchors(body_html, headings)
     body_html = host_pill_links(body_html)
@@ -694,10 +407,8 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     areas = load_watch_dashboard()
     dash = dashboard_html(areas, md_text)
     side = sidebar_html(headings, areas)
-    # Discover sibling assets (PNG charts, events geojson)
     brief_dir = md_path.parent
     pngs, geo = discover_assets(brief_dir, stem)
-    # Copy PNGs into dist/{kind}/ alongside the HTML
     out_dir.mkdir(parents=True, exist_ok=True)
     for png in pngs:
         shutil.copy(png, out_dir / png.name)
@@ -707,56 +418,50 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
             fc = json.loads(geo.read_text(encoding="utf-8"))
             map_section = (
                 '<h2 id="event-map">Event map</h2>'
-                '<div id="gridmap" class="gridmap"></div>'
+                '<div id="gridmap" class="w-full h-96 rounded-md border border-mist '
+                'my-4 overflow-hidden"></div>'
                 + LEAFLET_SCRIPT.replace("%%GEOJSON%%", json.dumps(fc))
             )
         except Exception:
             map_section = ""
     eyebrow = "Daily briefing" if kind == "briefings" else "Weekly briefing"
+    seed = html.escape(_brief_network_seed(), quote=True)
+    head = _head(stem, stem, ASSETS_PREFIX_BRIEF,
+                 description=f"WORLDSCOPE {eyebrow.lower()}: {title}",
+                 canonical=f"https://ihelfrich.github.io/worldscope/{kind}/{stem}.html")
+    navbar = _navbar(brief_stem=stem, assets_prefix="../")
     page = f"""<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>WORLDSCOPE · {html.escape(stem)}</title>
-<link rel="preconnect" href="https://rsms.me/">
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>{CSS}</style>
-</head><body>
-<div class="ws-bg" aria-hidden="true" style="position:fixed;inset:0;z-index:-1;pointer-events:auto;opacity:0.55;">
-  <canvas id="ws-network" style="display:block;width:100%;height:100%;"></canvas>
+<html lang="en" data-theme="heritage"><head>
+{head}
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
 </div>
-<script type="application/json" id="ws-network-seed">{html.escape(_brief_network_seed(), quote=True)}</script>
+<script type="application/json" id="ws-network-seed">{seed}</script>
 <script src="../assets/network.js" defer></script>
-<nav class="topnav" aria-label="Primary" style="background:linear-gradient(180deg,var(--navy) 0%,var(--accent-2) 100%);color:#fff;padding:11px 28px;display:flex;gap:22px;align-items:center;flex-wrap:wrap;font-family:Inter,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:13px;border-bottom:2px solid var(--gold);box-shadow:0 1px 4px rgba(11,18,32,0.2);position:sticky;top:0;z-index:60;">
-  <span class="brand" style="font-weight:800;letter-spacing:0.10em;text-transform:uppercase;color:#fff;font-size:13.5px;">◆ WORLDSCOPE</span>
-  <a href="../index.html" style="color:#E8E2D5;text-decoration:none;">Today</a>
-  <a href="../sections/" style="color:#E8E2D5;text-decoration:none;">Sections</a>
-  <a href="./index.html" style="color:#E8E2D5;text-decoration:none;">Archive</a>
-  <a href="../zips/{html.escape(stem)}.zip" style="color:#E8E2D5;text-decoration:none;">Today's bundle</a>
-  <span class="spacer" style="flex:1;"></span>
-  <a class="hub" href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" style="color:#E8E2D5;text-decoration:none;font-size:12px;opacity:0.85;padding-left:14px;border-left:1px solid rgba(255,255,255,0.18);">helfrich.github.io →</a>
-</nav>
-<div class="shell" style="position:relative;z-index:1;">
-{side}
-<main class="content-wrap">
-  <div class="masthead">
-    <div class="eyebrow">WORLDSCOPE · {eyebrow}</div>
-    <h1>{html.escape(title)}</h1>
-    <div class="dateline">prepared for Dr. Ian Helfrich · {html.escape(stem)}</div>
-  </div>
-  {dash}
-  <article class="content">
-    {body_html}
-    {map_section}
-  </article>
-  <footer class="brief-foot">
-    <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
-    <div><a href="./index.html">archive</a></div>
-  </footer>
-</main>
+{navbar}
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    {side}
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · {eyebrow}</div>
+      <h1>{html.escape(title)}</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · {html.escape(stem)}</div>
+    </header>
+    {dash}
+    <article class="prose prose-slate max-w-none">
+      {body_html}
+      {map_section}
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
 </div>
+<script>document.addEventListener('DOMContentLoaded',function(){{if(window.lucide)window.lucide.createIcons();}});</script>
 </body></html>
 """
     out_path = out_dir / f"{stem}.html"
@@ -765,17 +470,15 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
 
 
 def _brief_meta(md_path: Path) -> dict:
-    """Pull headline + teaser + first dashboard line from a briefing .md."""
+    """Pull headline + teaser + word count from a briefing .md."""
     try:
         text = md_path.read_text(encoding="utf-8")
     except Exception:
         return {"headline": md_path.stem, "teaser": "", "word_count": 0}
     h1 = re.search(r"^#\s+(.+)$", text, flags=re.M)
     headline = h1.group(1).strip() if h1 else md_path.stem
-    # Teaser: first non-empty paragraph after the first H2, with markdown stripped
     after_h2 = re.split(r"^##\s+", text, maxsplit=1, flags=re.M)
     target = after_h2[1] if len(after_h2) > 1 else text
-    # Skip the heading line itself, take the next paragraph
     paras = [p.strip() for p in target.split("\n\n") if p.strip()]
     teaser = paras[1] if len(paras) > 1 else (paras[0] if paras else "")
     teaser = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", teaser)
@@ -790,69 +493,6 @@ def _brief_meta(md_path: Path) -> dict:
     }
 
 
-INDEX_CSS = """
-:root {
-  --ink:#0B1220; --bg:#FAFBFD; --panel:#fff; --border:#D9DEE5;
-  --muted:#5B6473; --accent:#1F3864; --accent-2:#2E75B6;
-}
-* { box-sizing:border-box; }
-body {
-  margin:0; font-family:'Source Serif 4','Georgia',serif;
-  background:var(--bg); color:var(--ink); font-size:16.5px; line-height:1.55;
-}
-.shell { max-width:880px; margin:0 auto; padding:32px 24px 80px; }
-.masthead {
-  border-bottom:3px double var(--accent); padding-bottom:18px; margin-bottom:28px;
-}
-.masthead .eyebrow {
-  font-family:Inter,system-ui,sans-serif; font-size:11px;
-  text-transform:uppercase; letter-spacing:0.18em; color:var(--accent);
-  font-weight:700;
-}
-.masthead h1 {
-  font-size:38px; margin:8px 0 6px; letter-spacing:-0.3px; color:var(--ink);
-}
-.masthead .sub {
-  font-family:Inter,sans-serif; font-size:14px; color:var(--muted);
-}
-.brief-card {
-  background:var(--panel); border:1px solid var(--border); border-radius:8px;
-  padding:18px 22px; margin:14px 0; display:block;
-  text-decoration:none; color:inherit;
-  transition:border-color 0.15s, box-shadow 0.15s, transform 0.15s;
-}
-.brief-card:hover {
-  border-color:var(--accent-2);
-  box-shadow:0 2px 12px rgba(31,56,100,0.08);
-  transform:translateY(-1px);
-}
-.brief-card .date {
-  font-family:Inter,sans-serif; font-size:12px; color:var(--accent);
-  font-weight:700; text-transform:uppercase; letter-spacing:0.08em;
-}
-.brief-card .headline {
-  font-size:20px; margin:4px 0 6px; color:var(--ink); line-height:1.3;
-}
-.brief-card .teaser {
-  color:#374151; font-size:14.5px; margin:0;
-}
-.brief-card .meta {
-  font-family:Inter,sans-serif; font-size:11.5px; color:var(--muted);
-  margin-top:8px;
-}
-.toggle {
-  font-family:Inter,sans-serif; font-size:13px; color:var(--accent-2);
-  margin-bottom:20px;
-}
-.toggle a { color:inherit; text-decoration:none; margin-right:14px; }
-.toggle a.active { font-weight:700; color:var(--accent); }
-footer {
-  margin-top:48px; padding-top:14px; border-top:1px solid var(--border);
-  font-family:Inter,sans-serif; font-size:12px; color:var(--muted);
-}
-"""
-
-
 def render_index(out_dir: Path, kind: str) -> None:
     pages = sorted(out_dir.glob("*.html"), reverse=True)
     pages = [p for p in pages if p.name != "index.html"]
@@ -862,49 +502,51 @@ def render_index(out_dir: Path, kind: str) -> None:
     cards: list[str] = []
     for p in pages:
         md = src_dir / f"{p.stem}.md"
-        meta = _brief_meta(md) if md.exists() else {"headline": p.stem, "teaser": "", "word_count": 0}
+        meta = _brief_meta(md) if md.exists() else {
+            "headline": p.stem, "teaser": "", "word_count": 0,
+        }
         try:
             d = _date_from_stem(p.stem, kind)
         except Exception:
             d = p.stem
         wc = meta["word_count"]
         wc_str = f"{wc:,} words" if wc else ""
-        cards.append(
-            f'<a class="brief-card" href="./{p.name}">'
-            f'<div class="date">{html.escape(d)}</div>'
-            f'<h2 class="headline">{html.escape(meta["headline"])}</h2>'
-            f'<p class="teaser">{html.escape(meta["teaser"])}</p>'
-            f'<div class="meta">{wc_str}</div>'
-            f'</a>'
-        )
+        cards.append(f"""<a class="ws-section-card" href="./{p.name}">
+  <div class="font-sans text-xs font-bold uppercase tracking-widest text-navy">{html.escape(d)}</div>
+  <h2 class="ws-name mt-1">{html.escape(meta['headline'])}</h2>
+  <p class="ws-desc">{html.escape(meta['teaser'])}</p>
+  <div class="ws-count">{wc_str}</div>
+</a>""")
     label = "Daily briefings" if kind == "briefings" else "Weekly briefings"
     other = "Weekly" if kind == "briefings" else "Daily"
     other_path = "../weekly_briefings/" if kind == "briefings" else "../briefings/"
+    head = _head(label, label, ASSETS_PREFIX_BRIEF,
+                 description=f"WORLDSCOPE {label.lower()} archive",
+                 canonical=f"https://ihelfrich.github.io/worldscope/{kind}/")
+    navbar = _navbar(assets_prefix="../")
     page = f"""<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>WORLDSCOPE · {label}</title>
+<html lang="en" data-theme="heritage"><head>
+{head}
 <link rel="alternate" type="application/atom+xml" title="WORLDSCOPE {label}" href="./feed.xml">
-<link rel="preconnect" href="https://rsms.me/">
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>{INDEX_CSS}</style>
-</head><body>
-<div class="shell">
-  <div class="masthead">
-    <div class="eyebrow">WORLDSCOPE · archive</div>
+</head><body class="bg-parchment">
+{navbar}
+<div class="ws-shell-narrow">
+  <header class="ws-masthead">
+    <div class="ws-eyebrow">WORLDSCOPE · archive</div>
     <h1>{label}</h1>
-    <div class="sub">prepared for Dr. Ian Helfrich · {len(pages)} brief{'s' if len(pages)!=1 else ''} on file</div>
+    <div class="ws-dateline">prepared for Dr. Ian Helfrich · {len(pages)} brief{'s' if len(pages)!=1 else ''} on file</div>
+  </header>
+  <div class="font-sans text-sm text-navy mb-5 flex flex-wrap gap-4">
+    <span class="font-bold">{label}</span>
+    <a href="{other_path}" class="text-slate hover:text-gold no-underline">{other} archive</a>
+    <a href="./feed.xml" class="text-slate hover:text-gold no-underline">Atom feed</a>
   </div>
-  <div class="toggle">
-    <a href="./" class="active">{label}</a>
-    <a href="{other_path}">{other} archive</a>
-    <a href="./feed.xml">Atom feed</a>
+  <div class="grid grid-cols-1 gap-3">
+    {"".join(cards)}
   </div>
-  {"".join(cards)}
-  <footer>WORLDSCOPE · daily global intelligence · sources cited inline in every brief</footer>
+  <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate">
+    WORLDSCOPE · daily global intelligence · sources cited inline in every brief
+  </footer>
 </div>
 </body></html>
 """
@@ -920,7 +562,7 @@ def _date_from_stem(stem: str, kind: str) -> str:
             return d.strftime("%A, %B %-d, %Y")
         except (ValueError, AttributeError):
             return stem
-    return stem  # weekly: keep as 2026-W22
+    return stem
 
 
 def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
@@ -931,8 +573,9 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
     entries: list[str] = []
     for p in pages[:50]:
         md = src_dir / f"{p.stem}.md"
-        meta = _brief_meta(md) if md.exists() else {"headline": p.stem, "teaser": ""}
-        # ISO date (best-effort)
+        meta = _brief_meta(md) if md.exists() else {
+            "headline": p.stem, "teaser": "",
+        }
         try:
             iso = _dt.date.fromisoformat(p.stem).isoformat() + "T11:00:00Z"
         except ValueError:
@@ -964,11 +607,12 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
 def render_root_landing(out_root: Path) -> None:
     """Top-level dist/index.html.
 
-    Strategy: the landing page IS the latest brief. We copy the rendered
-    HTML of the newest brief verbatim and rewrite its internal nav so
-    relative links still resolve from /worldscope/ instead of
-    /worldscope/briefings/. This gives visitors the rich brief on first
-    load instead of a sparse hero card."""
+    Strategy: the landing page IS the latest brief. We copy the rendered HTML
+    of the newest brief verbatim and rewrite its internal nav and asset paths
+    so relative links still resolve from /worldscope/ instead of
+    /worldscope/briefings/. This gives visitors the rich brief on first load
+    instead of a sparse hero card.
+    """
     daily_dir = out_root / "briefings"
     latest = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []
     latest = [p for p in latest if p.name != "index.html"]
@@ -976,108 +620,31 @@ def render_root_landing(out_root: Path) -> None:
         return
     newest = latest[0]
     rich = newest.read_text(encoding="utf-8")
-    # Rewrite the brief's relative topnav links so they resolve from the
-    # site root instead of /briefings/.
+    # Re-anchor every ../ relative link to ./.
+    # This includes the stylesheet (../assets/tailwind.css), the network script
+    # (../assets/network.js), all nav links, and the bundle download.
+    rich = rich.replace('href="../assets/', 'href="./assets/')
+    rich = rich.replace('src="../assets/', 'src="./assets/')
     rich = rich.replace('href="../index.html"', 'href="./index.html"')
     rich = rich.replace('href="../sections/"', 'href="./sections/"')
-    rich = rich.replace('href="./index.html">Archive', 'href="./briefings/">Archive')
+    rich = rich.replace('href="../briefings/"', 'href="./briefings/"')
     rich = rich.replace('href="../zips/', 'href="./zips/')
-    # Inline-fix any other relative image references the brief used (the
-    # brief MD references images by bare filename like
-    # <img src="2026-05-27-anomaly_screen.png">; we need them resolved
-    # from /briefings/<date>-X.png instead of /<date>-X.png).
+    # The brief's "archive" footer link is `./index.html` from /briefings/ but
+    # would clash with the root index from /. Rewrite to point at the archive.
+    rich = rich.replace('href="./index.html" class="text-navy hover:text-gold">archive</a>',
+                        'href="./briefings/" class="text-navy hover:text-gold">archive</a>')
+    # The brief's nav links Today (../index.html) now collide with the root
+    # index it lives in. They already resolved correctly to ./index.html
+    # because of the rewrites above; the result is a self-link, which is fine.
+    # Image refs: the brief markdown uses bare filenames like
+    # <img src="2026-05-27-anomaly_screen.png">; resolve them through
+    # /briefings/ when served from the root.
     rich = re.sub(
         r'(<img[^>]+src=")(\d{4}-\d{2}-\d{2}-[^"]+)(")',
         r'\1./briefings/\2\3',
         rich,
     )
     (out_root / "index.html").write_text(rich, encoding="utf-8")
-    return
-    daily_dir = out_root / "briefings"
-    weekly_dir = out_root / "weekly_briefings"
-    latest_daily = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []
-    latest_daily = [p for p in latest_daily if p.name != "index.html"]
-    if not latest_daily:
-        return
-    newest = latest_daily[0]
-    src_md = REPO / "briefings" / f"{newest.stem}.md"
-    meta = _brief_meta(src_md) if src_md.exists() else {"headline": newest.stem, "teaser": "", "word_count": 0}
-    try:
-        date_str = _dt.date.fromisoformat(newest.stem).strftime("%A, %B %-d, %Y")
-    except (ValueError, AttributeError):
-        date_str = newest.stem
-    latest_weekly_link = ""
-    if weekly_dir.exists():
-        wp = sorted(weekly_dir.glob("*.html"), reverse=True)
-        wp = [p for p in wp if p.name != "index.html"]
-        if wp:
-            latest_weekly_link = f'<a class="latest-link" href="./weekly_briefings/{wp[0].name}">Latest weekly brief: {wp[0].stem}</a>'
-    page = f"""<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>WORLDSCOPE</title>
-<link rel="alternate" type="application/atom+xml" title="WORLDSCOPE daily" href="./briefings/feed.xml">
-<link rel="preconnect" href="https://rsms.me/">
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
-<style>{INDEX_CSS}
-.hero {{
-  background:linear-gradient(135deg,#1F3864 0%,#2E75B6 100%);
-  color:#fff; padding:36px 32px; border-radius:10px;
-  margin-bottom:24px;
-}}
-.hero .eyebrow {{ color:#A5C8F0; }}
-.hero h2 {{ font-size:28px; margin:6px 0 10px; color:#fff; line-height:1.2; }}
-.hero p.teaser {{ color:#E0EAF6; font-size:15.5px; margin:0 0 14px; }}
-.hero .cta {{ display:inline-block; background:#fff; color:#1F3864;
-  padding:10px 18px; border-radius:6px; font-weight:700;
-  font-family:Inter,sans-serif; font-size:13px; text-decoration:none;
-  letter-spacing:0.03em; }}
-.hero .cta:hover {{ background:#FAFBFD; }}
-.latest-link {{ display:block; margin-top:8px; color:#A5C8F0; font-size:13px;
-  font-family:Inter,sans-serif; text-decoration:none; }}
-.section-nav {{ margin:32px 0 16px; display:flex; gap:14px; flex-wrap:wrap; }}
-.section-nav a {{
-  flex:1 1 200px; padding:14px 16px; background:#fff;
-  border:1px solid var(--border); border-radius:8px;
-  text-decoration:none; color:var(--ink);
-  font-family:Inter,sans-serif; font-size:14px;
-  transition:border-color 0.15s;
-}}
-.section-nav a:hover {{ border-color:var(--accent); }}
-.section-nav .label {{ display:block; font-size:11px; color:var(--muted);
-  text-transform:uppercase; letter-spacing:0.1em; margin-bottom:3px; }}
-.section-nav .target {{ color:var(--accent); font-weight:600; font-size:16px; }}
-</style>
-</head><body>
-<div class="shell">
-  <div class="masthead">
-    <div class="eyebrow">WORLDSCOPE</div>
-    <h1>Daily global intelligence</h1>
-    <div class="sub">prepared for Dr. Ian Helfrich · automated open-source briefing engine</div>
-  </div>
-
-  <div class="hero">
-    <div class="eyebrow">Today's brief · {html.escape(date_str)}</div>
-    <h2>{html.escape(meta['headline'])}</h2>
-    <p class="teaser">{html.escape(meta['teaser'])}</p>
-    <a class="cta" href="./briefings/{newest.name}">Read today's full brief →</a>
-    {latest_weekly_link}
-  </div>
-
-  <div class="section-nav">
-    <a href="./briefings/"><span class="label">Daily archive</span><span class="target">All daily briefings</span></a>
-    <a href="./weekly_briefings/"><span class="label">Weekly archive</span><span class="target">Weekly cross-day synthesis</span></a>
-    <a href="./briefings/feed.xml"><span class="label">Subscribe</span><span class="target">Atom feed</span></a>
-  </div>
-
-  <footer>WORLDSCOPE · 22 sections · 12 watch areas · daily at 06:00 ET · sources cited inline</footer>
-</div>
-</body></html>
-"""
-    out_root.joinpath("index.html").write_text(page, encoding="utf-8")
 
 
 def main() -> None:
@@ -1089,10 +656,10 @@ def main() -> None:
         out_dir.mkdir(parents=True, exist_ok=True)
         for md in sorted(src.glob("*.md")):
             out = render_one(md, out_dir, kind)
-            print(f"  {md} → {out}")
+            print(f"  {md} -> {out}")
         render_index(out_dir, kind)
     render_root_landing(REPO / "dist")
-    print(f"  landing → {REPO/'dist'/'index.html'}")
+    print(f"  landing -> {REPO/'dist'/'index.html'}")
 
 
 if __name__ == "__main__":

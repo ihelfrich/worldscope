@@ -31,6 +31,12 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install Tailwind toolchain
+        run: npm ci --no-audit --no-fund
       - run: pip install -e .
       - name: Generate briefing
         env:
@@ -52,6 +58,10 @@ jobs:
           # CI reads them for the carry-forward render.
           WORLDSCOPE_STORE_PATH: ${{ github.workspace }}/data/store.sqlite
         run: python -m worldscope.brief --out dist
+      - name: Compile Tailwind CSS
+        # Runs after the Python build so it sees every class referenced in the
+        # freshly-generated HTML before purging unused utilities.
+        run: npm run build:css
       - name: Commit archive + snapshot store + lake
         run: |
           git config user.name "worldscope-bot"

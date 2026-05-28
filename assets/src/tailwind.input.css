@@ -1,0 +1,406 @@
+/*
+ * WORLDSCOPE Tailwind source.
+ *
+ * Three layers:
+ *   1. @tailwind base       (Tailwind reset + custom typography defaults)
+ *   2. @tailwind components (daisyUI primitives + project-specific component classes)
+ *   3. @tailwind utilities  (Tailwind utility classes, purged at build)
+ *
+ * Heritage palette and font stack come from tailwind.config.js. Anything here
+ * that references colors uses the theme tokens via @apply so single source of
+ * truth stays inside the config.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- BASE LAYER ---------- */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-parchment text-ink font-serif antialiased;
+    font-size: 16.5px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  /* Prose tables and code blocks can be naturally wide; let them scroll
+     locally rather than blow out the body. */
+  .prose table,
+  .prose pre {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  .prose img { max-width: 100%; height: auto; }
+
+  /* Heading defaults. Tailwind base strips these, daisyUI does not restore. */
+  h1 {
+    @apply font-serif text-ink font-bold tracking-tight;
+    font-size: 2.25rem;
+    line-height: 1.1;
+  }
+  h2 {
+    @apply font-serif text-navy font-bold;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    @apply font-serif text-ink font-semibold;
+    font-size: 1.15rem;
+    line-height: 1.3;
+  }
+
+  a {
+    @apply text-navy;
+  }
+
+  ::selection {
+    background-color: rgba(212, 160, 23, 0.35);
+    color: #0B1220;
+  }
+
+  /* Scrollbar polish (WebKit only). Quiet, parchment-tinted. */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme('colors.parchment');
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.mist');
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.slate.dim');
+  }
+}
+
+/* ---------- COMPONENT LAYER ---------- */
+
+@layer components {
+  /* Sticky navbar with gold underline + subtle shadow. Used by both the
+     brief page and the section pages. */
+  .ws-navbar {
+    @apply sticky top-0 z-50 bg-navy text-parchment shadow-md;
+    border-bottom: 2px solid theme('colors.gold.DEFAULT');
+  }
+  .ws-navbar a {
+    @apply text-mist transition-colors;
+  }
+  .ws-navbar a:hover {
+    @apply text-white;
+  }
+  .ws-navbar .ws-brand {
+    @apply font-sans font-extrabold tracking-widest uppercase text-white;
+  }
+  .ws-navbar .ws-brand::before {
+    content: '\25C6';
+    color: theme('colors.gold.DEFAULT');
+    margin-right: 0.4em;
+  }
+
+  /* Page shell: max-width, breathing room, sits above the canvas bg.
+     `min-w-0` on direct children defends against an unbreakable token (a
+     long URL inside a record, a "TRACKING-WIDER UPPERCASE METADATA LINE")
+     forcing the grid track wider than the viewport on mobile. */
+  .ws-shell {
+    @apply relative z-10 mx-auto px-5 sm:px-7 pb-24 pt-9;
+    max-width: 70rem;
+  }
+  .ws-shell > * { min-width: 0; }
+  .ws-shell-narrow {
+    @apply relative z-10 mx-auto px-5 sm:px-6 pb-20 pt-8;
+    max-width: 55rem;
+  }
+  .ws-shell-narrow > * { min-width: 0; }
+
+  /* Breadcrumbs (override daisyui defaults to fit the parchment register). */
+  .ws-crumbs {
+    @apply font-sans text-xs uppercase tracking-wider text-slate mb-5;
+  }
+  .ws-crumbs a {
+    @apply text-navy font-semibold no-underline;
+    transition: color 0.15s;
+  }
+  .ws-crumbs a:hover {
+    @apply text-gold;
+  }
+  .ws-crumbs .sep {
+    @apply text-slate-dim mx-2;
+  }
+
+  /* Masthead block at top of each brief. */
+  .ws-masthead {
+    @apply relative pb-5 mb-7;
+    border-bottom: 2px solid theme('colors.gold.DEFAULT');
+  }
+  .ws-masthead::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: -4px;
+    height: 1px;
+    background: theme('colors.navy.DEFAULT');
+  }
+  .ws-masthead .ws-eyebrow {
+    @apply font-sans text-xs font-bold uppercase tracking-widest text-navy;
+  }
+  .ws-masthead .ws-eyebrow::before {
+    content: '\25C6';
+    color: theme('colors.gold.DEFAULT');
+    margin-right: 0.4em;
+  }
+  .ws-masthead h1 {
+    @apply mt-2 mb-1 text-ink;
+    font-size: 1.85rem;
+    letter-spacing: -0.02em;
+    overflow-wrap: anywhere;
+  }
+  @media (min-width: 640px) {
+    .ws-masthead h1 { font-size: 2.4rem; }
+  }
+  .ws-masthead .ws-dateline {
+    @apply font-sans text-sm text-slate;
+  }
+
+  /* Section card on /sections/. Lifts on hover; gold accent stripe on the left. */
+  .ws-section-card {
+    @apply relative flex flex-col rounded-lg bg-white p-5 no-underline shadow-card transition;
+    border: 1px solid theme('colors.mist');
+    border-left: 4px solid theme('colors.navy.DEFAULT');
+  }
+  .ws-section-card:hover {
+    @apply shadow-lift -translate-y-0.5;
+    border-left-color: theme('colors.gold.DEFAULT');
+  }
+  .ws-section-card .ws-name {
+    @apply font-serif font-bold text-lg text-ink leading-snug tracking-tight;
+  }
+  .ws-section-card .ws-desc {
+    @apply font-sans text-sm text-slate leading-snug mt-1 flex-1;
+  }
+  .ws-section-card .ws-count {
+    @apply font-sans text-xs uppercase tracking-wider font-semibold text-navy mt-3 pt-3;
+    border-top: 1px solid theme('colors.mist');
+    overflow-wrap: anywhere;
+  }
+
+  /* Lake record card. Lighter than section card; padded tightly. */
+  .ws-record {
+    @apply rounded-md bg-white px-4 py-3 mb-2 transition;
+    border: 1px solid theme('colors.mist');
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+  .ws-record:hover {
+    @apply shadow-card;
+    border-color: theme('colors.slate.dim');
+  }
+  .ws-record h3 {
+    @apply font-serif font-semibold text-base mb-1 leading-snug;
+  }
+  .ws-record h3 a {
+    @apply text-ink no-underline;
+    background-image: linear-gradient(0deg, theme('colors.gold.DEFAULT') 0%, theme('colors.gold.DEFAULT') 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    transition: background-size 0.15s, color 0.15s;
+    padding-bottom: 1px;
+  }
+  .ws-record h3 a:hover {
+    @apply text-navy;
+    background-size: 100% 2px;
+  }
+  .ws-record .ws-body {
+    @apply text-sm text-ink/80 mt-2 leading-relaxed;
+  }
+  .ws-record .ws-tags {
+    @apply font-sans text-xs text-slate mt-2 flex flex-wrap gap-1;
+  }
+  .ws-record .ws-tag {
+    @apply inline-block rounded bg-parchment text-slate px-2 py-0.5;
+    border: 1px solid theme('colors.mist');
+  }
+
+  /* Archive list row. Slides right on hover. */
+  .ws-archive-row {
+    @apply flex justify-between items-baseline bg-white rounded-md px-4 py-3 mb-1.5 no-underline font-sans text-ink transition;
+    border: 1px solid theme('colors.mist');
+  }
+  .ws-archive-row:hover {
+    @apply translate-x-0.5;
+    border-color: theme('colors.navy.DEFAULT');
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFEF8 100%);
+  }
+  .ws-archive-row .ws-date {
+    @apply text-navy font-semibold text-sm;
+  }
+  .ws-archive-row .ws-n {
+    @apply text-slate text-xs font-sans;
+  }
+
+  /* Dashboard tile (watch-area summary). */
+  .ws-dash-tile {
+    @apply rounded-md bg-white px-3 py-2.5 font-sans shadow-card;
+    border: 1px solid theme('colors.mist');
+    border-left: 3px solid theme('colors.navy.DEFAULT');
+  }
+  .ws-dash-tile.is-alert {
+    background-color: #FEF2F2;
+    border-left-color: theme('colors.crimson');
+  }
+  .ws-dash-tile.is-high {
+    border-left-color: theme('colors.crimson');
+  }
+  .ws-dash-tile.is-low {
+    border-left-color: theme('colors.slate.dim');
+  }
+  .ws-dash-tile h4 {
+    @apply text-sm font-bold text-ink mb-0.5 font-sans;
+  }
+  .ws-dash-tile .ws-stat {
+    @apply font-serif font-bold text-2xl text-navy tracking-tight;
+  }
+  .ws-dash-tile .ws-meta {
+    @apply text-xs text-slate mt-1;
+  }
+
+  /* Source badge (small pill, parchment background). */
+  .ws-src {
+    @apply inline-block font-sans text-xs font-semibold text-navy bg-mist rounded px-2 py-0.5 mr-1 align-middle;
+    letter-spacing: 0.02em;
+  }
+  .ws-tier {
+    @apply font-sans text-[10.5px] uppercase tracking-wider text-slate ml-1;
+  }
+
+  /* Sidebar TOC for the brief page. Sticky, scrollable, fades on top. */
+  .ws-sidebar {
+    @apply sticky top-6 self-start font-sans text-sm leading-snug pr-1;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  .ws-sidebar h3 {
+    @apply font-sans text-[11px] uppercase tracking-widest text-slate font-bold mt-5 mb-1.5;
+  }
+  .ws-sidebar ul {
+    @apply list-none p-0 m-0;
+  }
+  .ws-sidebar li {
+    @apply my-1;
+  }
+  .ws-sidebar a {
+    @apply block px-2 py-0.5 text-ink no-underline rounded;
+    border-left: 2px solid transparent;
+  }
+  .ws-sidebar a:hover {
+    background: theme('colors.mist');
+  }
+  .ws-sidebar a.is-active {
+    background: theme('colors.mist');
+    border-left-color: theme('colors.gold.DEFAULT');
+    color: theme('colors.navy.DEFAULT');
+    font-weight: 600;
+  }
+
+  /* Callouts (anomaly / alert / cooling). */
+  .ws-callout {
+    @apply rounded-md px-4 py-3 my-3 font-sans text-[14.5px];
+    border: 1px solid theme('colors.mist');
+    border-left: 4px solid theme('colors.gold.DEFAULT');
+    background: #FFFBEB;
+  }
+  .ws-callout.is-danger {
+    border-left-color: theme('colors.crimson');
+    background: #FEF2F2;
+  }
+  .ws-callout.is-good {
+    border-left-color: theme('colors.teal');
+    background: #ECFDF5;
+  }
+  .ws-callout .ws-label {
+    @apply inline-block text-[10px] font-bold uppercase tracking-widest mr-2;
+    color: theme('colors.gold.DEFAULT');
+  }
+  .ws-callout.is-danger .ws-label { color: theme('colors.crimson'); }
+  .ws-callout.is-good .ws-label { color: theme('colors.teal'); }
+
+  /* Hostname pill that follows external links inside brief prose. */
+  .ws-hostpill {
+    @apply inline-block font-sans text-[10.5px] text-slate bg-mist rounded-full px-2 ml-1 align-baseline;
+    border: 1px solid rgba(78, 86, 103, 0.2);
+  }
+
+  /* Hero card on landing pages (today's brief preview, etc.). */
+  .ws-hero {
+    @apply rounded-lg p-8 mb-6 text-parchment;
+    background: linear-gradient(135deg, theme('colors.navy.DEFAULT') 0%, theme('colors.navy.soft') 100%);
+    border: 1px solid theme('colors.navy.soft');
+  }
+  .ws-hero h2 {
+    @apply text-white mt-1 mb-2;
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+  .ws-hero .ws-eyebrow {
+    @apply font-sans text-xs font-bold uppercase tracking-widest;
+    color: theme('colors.gold.soft');
+  }
+  .ws-hero .ws-teaser {
+    @apply text-mist text-base mb-4;
+  }
+  .ws-hero .ws-cta {
+    @apply inline-block rounded-md bg-white text-navy font-sans font-bold text-sm uppercase tracking-wider px-5 py-2.5 no-underline transition;
+  }
+  .ws-hero .ws-cta:hover {
+    background: theme('colors.parchment');
+  }
+
+  /* Ambient canvas background placement (network.js paints here). */
+  .ws-bg {
+    @apply fixed inset-0 pointer-events-auto;
+    z-index: -1;
+    opacity: 0.55;
+  }
+  .ws-bg canvas {
+    @apply block w-full h-full;
+  }
+
+  /* Mobile-nav button (Alpine.js toggles aria-expanded). */
+  .ws-mobile-toggle {
+    @apply lg:hidden flex items-center justify-center w-9 h-9 rounded text-parchment;
+    transition: background-color 0.15s;
+  }
+  .ws-mobile-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ---------- UTILITY LAYER OVERRIDES ---------- */
+
+@layer utilities {
+  /* Anchor link that appears on heading hover inside prose articles. */
+  .heading-anchor {
+    @apply opacity-0 ml-1.5 text-slate no-underline transition-opacity;
+  }
+  .prose h2:hover .heading-anchor,
+  .prose h3:hover .heading-anchor {
+    @apply opacity-100;
+  }
+
+  /* Print tweaks. Hide chrome, flatten layout. */
+  @media print {
+    .ws-navbar, .ws-sidebar, .ws-bg, footer.ws-foot {
+      display: none !important;
+    }
+    body { background: white; }
+    .ws-record, .ws-section-card, .ws-callout { box-shadow: none; break-inside: avoid; }
+  }
+}

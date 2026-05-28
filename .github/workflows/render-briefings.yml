@@ -39,16 +39,32 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install Tailwind toolchain
+        run: npm ci --no-audit --no-fund
       - run: pip install markdown pyyaml
       - name: Render every brief to HTML
         run: python tools/render_brief.py
+      - name: Rebuild section pages so Tailwind sees their classes
+        # The site_builder emits HTML with the same utility classes the
+        # brief uses; rebuild before compiling CSS so nothing gets purged.
+        run: |
+          pip install -e . || true
+          python -m worldscope.site_builder --out dist --days 3 || true
+      - name: Compile Tailwind CSS
+        run: npm run build:css
       - name: Commit dist/ briefings (race-safe)
         run: |
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
-          # Stage rendered HTML, tolerating either folder being absent.
+          # Stage rendered HTML and the compiled CSS, tolerating absent folders.
           [ -d dist/briefings ] && git add -f dist/briefings || true
           [ -d dist/weekly_briefings ] && git add -f dist/weekly_briefings || true
+          [ -d dist/sections ] && git add -f dist/sections || true
+          [ -f dist/assets/tailwind.css ] && git add -f dist/assets/tailwind.css || true
           # If nothing changed, exit cleanly.
           if git diff --staged --quiet; then
             echo "No rendered-HTML changes to commit"
