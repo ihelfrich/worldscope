@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-05-28
-record_count: 261
-new_today: 242
+record_count: 265
+new_today: 246
 state: fresh
 ---
 
 ## Chinese Internal News
 
-242 new of 261 total items today.
+246 new of 265 total items today.
 
 - **NEW**  [China’s Fiscal Revenue Improves but Spending Momentum Fades - Caixin Global](https://www.caixinglobal.com) — *2026-05-26*
   > <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPNm9UZmo0bTVfTTgzWjZYeVRsRTdNQU9QYXdSdG4zTEhhc1psRk5iTnpFOHN2NWNKWXhlbnNLVU9SaXdHWWp6dlRXQmNCdzBOSEtqVDg5ZEhrSnNGUmlDZzVMWEdYVkxSbjZUd1pUOEZydGZYRlFUUWktWjNNcTFPdVdkbFM1a0hZeVRKQy1xNEgxUlMtMmFhMjF2d19nTkw5QkxFbU5NTjNjdE
@@ -41,10 +41,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCR2RubkFBUy13dWpxTndpUEpKY3daN2ZpOWVtbnR3LXlHeDQ0TFhtM3JRWmp5TFRKY2lFV0p6WUhfUVN3ZG1zZ0dsWko1bWlLanh3ZDVOLVNFR3N1QWs3Yw?oc=5" target="_blank">视线｜血与煤：全球特大煤矿灾难一览</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 特朗普要求斡旋国正常化对以色列关系 遭巴基斯坦明确拒绝 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRXg0UHBkR0ZiNkpBY01zRnlXcld1LU5ZM3dxdmhKMDd4RWNpMjB4ZjVnQmc1SG0zNmNHU1lyREQwZ0Q1bllscnM2ek] (zh: 特朗普要求斡旋国正常化对以色列关系 遭巴基斯坦明确拒绝 - 财新)](https://international.caixin.com) — *2026-05-27*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRXg0UHBkR0ZiNkpBY01zRnlXcld1LU5ZM3dxdmhKMDd4RWNpMjB4ZjVnQmc1SG0zNmNHU1lyREQwZ0Q1bllscnM2eklJOXNzanA0X3I1dzUxQjA2LXVzaWQzVjFCUGNGZEE?oc=5" target="_blank">特朗普要求斡旋国正常化对以色列关系 遭巴基斯坦明确拒绝</a>&nbsp;&nbsp;<font color="#6f6f6f"
-- **NEW**  [[TITLE: 美国拟调整移民政策 绿卡申请者被要求必须离境申请 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMGxyclZySFZ6TUZoQlAtWXZkSGtRTERRMWZXeDczM2NuZmZqcU1uZ0NKSkNiZnA3NURXRHIxRTFZaWRyWWcybVdQSmhzc] (zh: 美国拟调整移民政策 绿卡申请者被要求必须离境申请 - 财新)](https://international.caixin.com) — *2026-05-26*
-  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMGxyclZySFZ6TUZoQlAtWXZkSGtRTERRMWZXeDczM2NuZmZqcU1uZ0NKSkNiZnA3NURXRHIxRTFZaWRyWWcybVdQSmhzcG9wN0I5OHlLcEU0SnZBekVjUVN2VFlmR1g4d3c?oc=5" target="_blank">美国拟调整移民政策 绿卡申请者被要求必须离境申请</a>&nbsp;&nbsp;<font color="#6f6f6f">财新
 - **NEW**  [[TITLE: 最新财新周刊｜AI如何读心 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kWTlqc2tiN2xuOHBDUnExZmFMQ3RwTWlZZEowTXhGTkNxbUs4SGFHOTUxczcxbkRiMGFCTVU0TldLbGk4V0M0LVBXaDVNVzR0MlIyQl] (zh: 最新财新周刊｜AI如何读心 - 财新周刊)](https://weekly.caixin.com) — *2026-05-26*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kWTlqc2tiN2xuOHBDUnExZmFMQ3RwTWlZZEowTXhGTkNxbUs4SGFHOTUxczcxbkRiMGFCTVU0TldLbGk4V0M0LVBXaDVNVzR0MlIyQlVqbnRjQkdPbjdGMw?oc=5" target="_blank">最新财新周刊｜AI如何读心</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
+- **NEW**  [[TITLE: 美国拟调整移民政策 绿卡申请者被要求必须离境申请 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMGxyclZySFZ6TUZoQlAtWXZkSGtRTERRMWZXeDczM2NuZmZqcU1uZ0NKSkNiZnA3NURXRHIxRTFZaWRyWWcybVdQSmhzc] (zh: 美国拟调整移民政策 绿卡申请者被要求必须离境申请 - 财新)](https://international.caixin.com) — *2026-05-26*
+  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMGxyclZySFZ6TUZoQlAtWXZkSGtRTERRMWZXeDczM2NuZmZqcU1uZ0NKSkNiZnA3NURXRHIxRTFZaWRyWWcybVdQSmhzcG9wN0I5OHlLcEU0SnZBekVjUVN2VFlmR1g4d3c?oc=5" target="_blank">美国拟调整移民政策 绿卡申请者被要求必须离境申请</a>&nbsp;&nbsp;<font color="#6f6f6f">财新
 - **NEW**  [[TITLE: 美伊启动多哈谈判 伊朗南部地区再遭美军袭击 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZHZBNUkzVWI2LTJIcVdhdFdiWmIyQWVhdGZDbzdXVDl6T00tSEVYZUZIZWo3d01SaEhGUjIxQzNHMUFFeGRWaE1xaXBJOW9M] (zh: 美伊启动多哈谈判 伊朗南部地区再遭美军袭击 - 财新)](https://international.caixin.com) — *2026-05-26*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZHZBNUkzVWI2LTJIcVdhdFdiWmIyQWVhdGZDbzdXVDl6T00tSEVYZUZIZWo3d01SaEhGUjIxQzNHMUFFeGRWaE1xaXBJOW9MZmg3MWwxNTdIS1JrSTZBanRfdXA2VzQyekE?oc=5" target="_blank">美伊启动多哈谈判 伊朗南部地区再遭美军袭击</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</f
 - **NEW**  [[TITLE: 从“进入市场”到“进入人心”：怎么讲故事｜出海远见 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EVWcyUmxyYzN3Zy1XUnpaM2tzU0ZhbFAybi1uclBsMmdGaTNoUVdabUtvbjJkcWxGUU0yQnVFNTJSSHJHX3QwWEVZZm1P] (zh: 从“进入市场”到“进入人心”：怎么讲故事｜出海远见 - 财新)](https://opinion.caixin.com) — *2026-05-26*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: 略谈面条之源流及南北差异｜饮食 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IRzM3bENnQ2VTUFpGVURJODdXMnRZdGdJSzlYUHJmZU9hM09HcnVSTnRNNXgxWlpNWlV2ZzY5azNJY0ZzdWRJSW9DdlVISWhQQzRsYU] (zh: 略谈面条之源流及南北差异｜饮食 - 财新)](https://mini.caixin.com) — *2026-05-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IRzM3bENnQ2VTUFpGVURJODdXMnRZdGdJSzlYUHJmZU9hM09HcnVSTnRNNXgxWlpNWlV2ZzY5azNJY0ZzdWRJSW9DdlVISWhQQzRsYUhYbnU4WmgxNmc?oc=5" target="_blank">略谈面条之源流及南北差异｜饮食</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(236 additional items in raw.jsonl)_
+_(240 additional items in raw.jsonl)_

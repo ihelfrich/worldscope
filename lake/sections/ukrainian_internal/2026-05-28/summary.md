@@ -13,6 +13,8 @@ state: fresh
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-05-28*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-05-28*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [[TITLE: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі | LEDE: Жодна людина – не острів, сама по собі; кожен з нас – частина континенту... Смерть кожної людини зменшує і ме] (uk: Ціна підпілля. Що чекає на учасників руху опору окупації в тюрмі та на волі)](https://www.pravda.com.ua/articles/2026/05/28/8036693/) — *2026-05-28*
@@ -52,8 +54,6 @@ state: fresh
   > Президент України Володимир Зеленський на нараді з Головнокомандувачем ЗСУ Олександром Сирським та начальником Генштабу Андрієм Гнатовим погодили нові далекобійні операції.
 - [[TITLE: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським | LEDE: П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президенто] (uk: В "Євросолідарності" розповіли, про що Порошенко розмовляв із Зеленським)](https://www.pravda.com.ua/news/2026/05/27/8036678/) — *2026-05-27*
   > П'ятий президент України, лідер "Європейської солідарності" Петро Порошенко під час зустрічі з чинним президентом Володимиром Зеленським обговорював ключові теми порядку денного держави і "нічого не просив".
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-05-28*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 - **NEW**  [Trump Endorses Pashinyan Ahead of Crucial Armenia Vote](https://www.kyivpost.com/post/76996) — *2026-05-28*
   > US President Donald Trump endorsed Armenian Prime Minister Nikol Pashinyan ahead of a key parliamentary election, praising his peace agenda and plans for the US-backed “Trump Route” corridor. The endorsement came a day after Secretary of State Marco Rubio visited Yerevan, where W
 - **NEW**  [Ukraine to Be Fully Integrated Into EU Air Defense, Drone Priorities, Von der Leyen Says](https://www.kyivpost.com/post/76995) — *2026-05-28*

@@ -2,25 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-28
-record_count: 235
-new_today: 89
+record_count: 236
+new_today: 92
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-89 new of 235 total items today.
+92 new of 236 total items today.
 
-- [[St. Louis] Missouri Supreme Court rejects challenge to governor’s power to call special sessions](https://www.stlpr.org/government-politics-issues/2026-05-27/missouri-supreme-court-rejects-challenge-governors-power-special-sessions) — *2026-05-27*
-- [[St. Louis] St. Louis economic development panel takes aim at data center critics, calls many concerns ‘myths’](https://www.stlpr.org/economy-business/2026-05-27/st-louis-economic-development-data-centers-myths) — *2026-05-27*
-- [[St. Louis] St. Louis police promise transparency as oversight board approves drone program](https://www.stlpr.org/news-briefs/2026-05-27/st-louis-police-approves-drone-program) — *2026-05-27*
-- [[St. Louis] Abortion-rights coalition launches campaign against Missouri’s Amendment 3](https://www.stlpr.org/health-science-environment/2026-05-27/abortion-rights-coalition-launches-campaign-against-missouris-amendment-3) — *2026-05-27*
-- [[St. Louis] Immigrants held by ICE are neglected at the Ste. Genevieve County jail, lawmakers say](https://www.stlpr.org/government-politics-issues/2026-05-27/immigrants-held-by-ice-neglected-ste-genevieve-county-jail-lawmakers-say) — *2026-05-27*
-- [[St. Louis] Plan to redevelop downtown St. Louis riverfront moves ahead despite fire that destroyed key buildings](https://www.stlpr.org/economy-business/2026-05-27/gateway-south-redevelop-downtown-st-louis-riverfront-fire) — *2026-05-27*
-- [[St. Louis] Tornado recovery advocates and downtown investors are divided on Rams settlement spending](https://www.stlpr.org/government-politics-issues/2026-05-26/tornado-recovery-advocates-downtown-investors-divided-rams-settlement-spending) — *2026-05-26*
-- [[St. Louis] Missouri lawmakers likely will try property tax reform again after failing this year](https://www.stlpr.org/government-politics-issues/2026-05-26/missouri-lawmakers-will-try-property-tax-reform-again-after-failing) — *2026-05-26*
-- [[St. Louis] Heart of St. Charles venue that hosted thousands of wedding receptions to be demolished](https://www.stlpr.org/news-briefs/2026-05-26/heart-of-st-charles-wedding-venue-demolished) — *2026-05-26*
-- [[St. Louis] Police drones could soon respond to crime scenes in St. Louis](https://www.stlpr.org/news-briefs/2026-05-26/police-drones-patrol-skies-st-louis) — *2026-05-26*
 - **NEW**  [[St. Louis] DOJ opens criminal investigation into Trump accuser E. Jean Carroll, reports say](https://www.ksdk.com/article/news/nation-world/doj-investigates-e-jean-carroll-trump-lawsuit/507-1a740f9c-6bba-49d1-bddb-ad4a2c7afa26) — *2026-05-28*
   > The Department of Justice is investigating E. Jean Carroll for possible perjury related to her civil lawsuits against Donald Trump, according to reports.
 - **NEW**  [[St. Louis] Popular supplements recalled as FDA reopens investigation into salmonella outbreak](https://www.ksdk.com/article/news/nation-world/moringa-supplements-recalled-fda-investigation-salmonella-outbreak/507-5c9e20e1-00b2-4545-99f5-c3b0b6e2e905) — *2026-05-28*
@@ -51,5 +41,25 @@ state: fresh
   > PlayStation and Xbox have both instituted price increases and Nintendo's Switch 2 will see a hike later this year.
 - **NEW**  [[St. Louis] St. Louis police want drones in the sky. The mayor says not so fast](https://www.ksdk.com/article/news/crime/st-louis-police-want-drones-mayor-says-not-so-fast/63-78223dc0-9e93-43e6-a64c-a724b2abe568) — *2026-05-27*
   > The St. Louis Board of Police Commissioners approved a drone first responder program Wednesday, but Mayor Cara Spencer and commissioners slammed the rushed process.
+- [[St. Louis] Person killed near Berkeley liquor store, Major Case Squad identifies victim](https://www.ksdk.com/article/news/local/st-louis-person-killed-near-berkeley-liquor-store/63-12535be5-f4fa-46e6-ad49-ff8574cb59c7) — *2026-05-27*
+  > A crashed car, a body covered by a sheet and 16 evidence markers on the ground were seen by 5 On Your Side crews at the scene.
+- [[St. Louis] FIFA under scrutiny as New York, New Jersey launch probe into World Cup ticketing practices, seat maps](https://www.ksdk.com/article/news/nation-world/world-cup-ticket-prices-investigation-fifa/507-5964b377-53f7-47f9-90bd-eeba3719ab20) — *2026-05-27*
+  > The 2026 soccer tournament, which will be hosted in the U.S., Canada and Mexico, has seen astronomical ticket prices.
+- [[St. Louis] Man sentenced after admitting to possession of child sexual abuse material](https://www.ksdk.com/article/news/crime/man-sentenced-admitting-to-possession-child-sexual-abuse-material/63-e9f30e05-ae70-4ed0-a926-eb185989b222) — *2026-05-27*
+  > Police said he had child sexual abuse photos and videos on his phone as well as an AI-powered app that removed clothing from images.
+- [[St. Louis] Matthew Perry's assistant gets 3 years, 5 months in prison for central role in his ketamine death](https://www.ksdk.com/article/news/nation-world/matthew-perry-assistant-faces-final-sentencing-in-overdose-case/507-ab532098-d212-4282-aa67-a7b37410a43e) — *2026-05-27*
+  > Matthew Perry’s longtime assistant was sentenced to three years in prison in connection with the "Friends" star's death.
+- **NEW**  [[St. Louis] Ladue weighs its first apartment complex](https://www.ksdk.com/article/news/local/business-journal/ladue-weighs-1st-apartment-complex/63-4460dac7-ead6-490a-a12d-bd0d2df6dcdc) — *2026-05-27*
+  > Plans submitted to the city show a five-story apartment building with 235 units on the roughly 50-acre Rock Hill Quarries site.
+- [[St. Louis] 2 dead, 9 still missing after Washington paper mill tank implosion and officials say there's no hope of survivors](https://www.ksdk.com/article/news/nation-world/tragedy-washington-chemical-tank-implosion-paper-mill/507-be7b218c-82f2-4661-8a4b-1d5b7d41f821) — *2026-05-27*
+  > Officials say the tank that imploded at a paper mill in Washington state is at risk of collapsing further and leaking more of the caustic liquid.
+- [[St. Louis] New U.S. quarter honoring America’s 250th birthday begins shipping next month](https://www.ksdk.com/article/news/nation-world/new-quarter-honoring-americas-250th-birthday-shipping-june/507-6365be13-a690-40e1-9f66-198124bc0af8) — *2026-05-27*
+  > The 2026 semiquincentennial quarter features Thomas Jefferson and the Liberty Bell as part of the nation’s upcoming 250th anniversary celebration.
+- [[St. Louis] How much does the winner of the Scripps National Spelling Bee get? The answer may surprise you](https://www.ksdk.com/article/news/nation-world/how-much-winner-scripps-national-spelling-bee-get/507-bcb22c84-49a3-4c45-8861-6cd3321cc998) — *2026-05-27*
+  > In addition to a cash prize, the winner will also receive a trophy, a medal and several other prizes.
+- [[St. Louis] Longtime St. Charles County elected official dies after cancer battle](https://www.ksdk.com/article/news/local/longtime-st-charles-county-elected-official-dies-after-cancer-battle/63-eb4d7d64-549c-4819-b4b6-2bd2c63d4d5c) — *2026-05-27*
+  > Scott Shipman's family said no service is planned, but a celebration of life will be announced at a later date.
+- [[St. Louis] Man accused of sexually assaulting 13-year-old girl at Kirkwood Walmart](https://www.ksdk.com/article/news/crime/man-accused-sexually-assaulting-13-year-old-girl-kirkwood-walmart/63-7508bdf3-2ee8-4fb1-972d-0360cb85c9b0) — *2026-05-27*
+  > Police said the man took the 13-year-old girl to an isolated corner of the store and assaulted her.
 
-_(210 additional items in raw.jsonl)_
+_(211 additional items in raw.jsonl)_

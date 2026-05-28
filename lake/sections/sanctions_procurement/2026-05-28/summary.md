@@ -2,17 +2,19 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-05-28
-record_count: 94
-new_today: 19
+record_count: 95
+new_today: 20
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-19 new of 94 total items today.
+20 new of 95 total items today.
 
 - **NEW**  [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
+- **NEW**  [[OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related Designation; Counter Terrorism Designation</a>&nbsp;&nbsp;<fon
 - **NEW**  [[OFAC] Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-21*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yRW9QLWNVZXY3bkpqY0dhYkVidUNEYXVIbkw2Ukc2ZW82NXAtZmU3b2xiTGltalVEWnFGeUZYRzhiSU44MGl3QTVwWTRsaWNNQnFOTXBYSXFuQ3ZnY3c?oc=5" target="_blank">Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fo
 - [[BIS Entity List] page checksum 9b92c4bcb0d5](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-05-28*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: TAS::80 0110::TAS GEOSTATIONARY LIGHTNING MAPPER (GLM) INSTRUMENT THE FOR GEOSTATIONARY OPERATIONAL ENVIRONMENTAL SATELLITES (GOES) R.  THE CONTRACTOR SHALL PROVIDE THE PERSONNEL, MATERIALS, FACILITIES AND OTHER
 - **NEW**  [[USASpending] $432,416,292 → LEIDOS BIOMEDICAL RESEARCH INC: NCI OPERATIONAL TASK ORDER](https://www.usaspending.gov/award/75N91019F00129) — *2026-05-28*
   > Agency: Department of Health and Human Services.  Description: NCI OPERATIONAL TASK ORDER
-- **NEW**  [[USASpending] $406,089,353 → AERODYNE-SGT ENGINEERING SERVICES, LLC: THE MIST II CONTRACT WILL PROVIDE MULTIDISCIPLINARY ENGINEER](https://www.usaspending.gov/award/80GSFC21CA007) — *2026-05-28*
-  > Agency: National Aeronautics and Space Administration.  Description: THE MIST II CONTRACT WILL PROVIDE MULTIDISCIPLINARY ENGINEERING TASK ORDERS FOR THE FORMULATION, DESIGN, DEVELOPMENT, FABRICATION, INTEGRATION, TESTING, VERIFICATION, AND OPERATIONS OF SPACE FLIGHT AND GROUND SY
 
-_(69 additional items in raw.jsonl)_
+_(70 additional items in raw.jsonl)_
