@@ -59,34 +59,45 @@ class GdeltRegionsSection(Section):
     # Articles per country to keep, and pause between calls so we're polite.
     # GDELT throttles aggressively from shared IPs (Github Actions runners
     # especially). We use a higher baseline throttle and retry on 429 with
-    # exponential backoff.
+    # exponential backoff. The watchlist is long enough that worst-case
+    # 429-backoff can exceed 90s, so we budget more.
     PER_COUNTRY = 6
     THROTTLE_S = 2.0
     MAX_RETRIES = 3
-    PULL_TIMEOUT_S = 90    # 19 countries × ~3s each, with retries on 429
+    PULL_TIMEOUT_S = 240   # 19 countries × ~3s throttle + retries on 429
 
-    def _fetch_one(self, code: str, params: dict) -> dict | None:
+    def _fetch_one(self, code: str, params: dict) -> tuple[dict | None, str | None]:
+        """Returns (data, error). data=None + error=None means "tried all
+        retries, gave up." data=None + error="..." means a hard failure.
+        data set means success."""
         backoff = 4.0
+        last_err: str | None = None
         for attempt in range(self.MAX_RETRIES):
             try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=25)
+                resp = requests.get(DOC_API, params=params,
+                                    headers={"User-Agent": UA}, timeout=25)
                 if resp.status_code == 429:
+                    last_err = f"429 attempt {attempt+1}"
                     time.sleep(backoff)
                     backoff *= 2
                     continue
                 resp.raise_for_status()
-                return resp.json()
-            except requests.exceptions.HTTPError:
+                return resp.json(), None
+            except requests.exceptions.HTTPError as e:
+                last_err = f"HTTP {e}"
                 time.sleep(backoff)
                 backoff *= 2
-            except Exception:
-                return None
-        return None
+            except Exception as e:
+                # Connection resets, DNS issues, JSON decode errors, etc.
+                return None, f"{type(e).__name__}: {e}"
+        return None, last_err or "exhausted retries"
 
     def pull(self) -> list[dict]:
         items: list[dict] = []
         end = datetime.now(timezone.utc)
         start = end - timedelta(hours=36)
+        successes = 0
+        failures: list[str] = []
         for code, name in WATCHLIST:
             params = {
                 "query": f"sourcecountry:{code} sourcelang:english",
@@ -97,10 +108,12 @@ class GdeltRegionsSection(Section):
                 "enddatetime": end.strftime("%Y%m%d%H%M%S"),
                 "sort": "datedesc",
             }
-            data = self._fetch_one(code, params)
+            data, err = self._fetch_one(code, params)
             if data is None:
+                failures.append(f"{name}({code}):{err}")
                 time.sleep(self.THROTTLE_S)
                 continue
+            successes += 1
             for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
                 # GDELT returns seendate like "20260525T180000Z"
                 seen = art.get("seendate", "")
@@ -120,6 +133,20 @@ class GdeltRegionsSection(Section):
                     "language": art.get("language", ""),
                 })
             time.sleep(self.THROTTLE_S)
-        # Sort newest first for the briefing
+
+        # Surface per-country failures so they're visible in CI logs.
+        if failures:
+            print(f"[{self.id}] {len(failures)}/{len(WATCHLIST)} countries failed: "
+                  + "; ".join(failures[:6])
+                  + (f" (+{len(failures)-6} more)" if len(failures) > 6 else ""))
+
+        # If EVERY country failed, raise — the state machine should mark
+        # this section stale_after_failure rather than fresh_empty.
+        if successes == 0 and failures:
+            raise RuntimeError(
+                f"All {len(failures)} GDELT country fetches failed; first error: "
+                f"{failures[0]}"
+            )
+
         items.sort(key=lambda it: it.get("date", ""), reverse=True)
         return items

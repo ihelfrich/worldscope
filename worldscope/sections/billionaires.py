@@ -36,22 +36,33 @@ class BillionairesSection(Section):
     title = "Forbes Real-Time Billionaires (top 30 + biggest movers)"
     emoji = "💰"
 
+    PULL_TIMEOUT_S = 90   # Forbes RTB JSON can run slow on big payloads
     TOP_N = 30
     MOVERS_N = 10
 
     def pull(self) -> list[dict]:
+        # Single-source section: if Forbes fails we have nothing. Re-raise
+        # (don't return []) so the state machine surfaces a real
+        # stale-after-failure pill instead of pretending we cleanly
+        # pulled zero billionaires today.
         try:
             resp = requests.get(API, params={"limit": 1500},
                                 headers={"User-Agent": UA, "Accept": "application/json"},
                                 timeout=25)
             resp.raise_for_status()
             data = resp.json()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] Forbes RTB fetch failed: "
+                  f"{type(exc).__name__}: {exc}")
+            raise
 
         ppl = (data.get("personList") or {}).get("personsLists", [])
         if not ppl:
-            return []
+            # Forbes' shape may have shifted. Surface this loudly.
+            raise RuntimeError(
+                f"[{self.id}] Forbes RTB returned no personsLists "
+                f"(top-level keys: {list(data.keys())[:10]})"
+            )
 
         # Normalize every entry to a dict the section uses
         all_ppl: list[dict] = []

@@ -44,23 +44,30 @@ class GdeltGkgSection(Section):
     MAX_RETRIES = 3
     HOURS_BACK = 36
 
-    def _fetch(self, params: dict) -> dict | None:
+    def _fetch(self, params: dict) -> tuple[dict | None, str | None]:
+        """Returns (data, error). data set on success; error set when an
+        exception occurred. data=None + error=None means "exhausted retries
+        on 429"."""
         backoff = 4.0
+        last_err: str | None = None
         for _ in range(self.MAX_RETRIES):
             try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=25)
+                resp = requests.get(DOC_API, params=params,
+                                    headers={"User-Agent": UA}, timeout=25)
                 if resp.status_code == 429:
+                    last_err = "429"
                     time.sleep(backoff)
                     backoff *= 2
                     continue
                 resp.raise_for_status()
-                return resp.json()
-            except requests.exceptions.HTTPError:
+                return resp.json(), None
+            except requests.exceptions.HTTPError as e:
+                last_err = f"HTTP {e}"
                 time.sleep(backoff)
                 backoff *= 2
-            except Exception:
-                return None
-        return None
+            except Exception as e:
+                return None, f"{type(e).__name__}: {e}"
+        return None, last_err or "exhausted retries"
 
     def _build_queries(self, area: WatchArea) -> list[tuple[str, str]]:
         """Return (query_string, sub_label) tuples for an area."""
@@ -99,6 +106,8 @@ class GdeltGkgSection(Section):
         edt = end.strftime("%Y%m%d%H%M%S")
         out: list[dict] = []
         seen_urls: set[str] = set()
+        successes = 0
+        failures: list[str] = []
         for area in areas:
             for qstr, sub in self._build_queries(area):
                 params = {
@@ -110,10 +119,12 @@ class GdeltGkgSection(Section):
                     "enddatetime": edt,
                     "sort": "datedesc",
                 }
-                data = self._fetch(params)
+                data, err = self._fetch(params)
                 time.sleep(self.THROTTLE_S)
-                if not data:
+                if data is None:
+                    failures.append(f"{area.name}/{sub}:{err}")
                     continue
+                successes += 1
                 for art in (data.get("articles") or []):
                     url = art.get("url") or ""
                     if not url or url in seen_urls:
@@ -144,5 +155,19 @@ class GdeltGkgSection(Section):
                         "watch_areas": [area.name],
                         "_source": self.id,
                     })
+        if failures:
+            print(f"[{self.id}] {len(failures)} queries failed across {len(areas)} watch areas: "
+                  + "; ".join(failures[:5])
+                  + (f" (+{len(failures)-5} more)" if len(failures) > 5 else ""))
+
+        # If every query failed, surface as STATE_STALE rather than
+        # FRESH_EMPTY — a silent zero on GDELT GKG is almost always a
+        # rate-limit / network problem, not a legitimate empty.
+        if successes == 0 and failures:
+            raise RuntimeError(
+                f"All {len(failures)} GDELT GKG queries failed; first error: "
+                f"{failures[0]}"
+            )
+
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
         return out

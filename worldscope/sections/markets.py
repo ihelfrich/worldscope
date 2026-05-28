@@ -73,7 +73,10 @@ class MarketsSection(Section):
     def pull(self) -> list[dict]:
         key = os.environ.get("FINNHUB_API_KEY")
         if not key:
-            return []
+            raise RuntimeError(
+                f"[{self.id}] FINNHUB_API_KEY not set — section cannot pull. "
+                "Set the env var or remove this section from SECTION_REGISTRY."
+            )
         s = requests.Session()
         s.headers["User-Agent"] = UA
         items: list[dict] = []

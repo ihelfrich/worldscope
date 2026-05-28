@@ -46,12 +46,20 @@ class MediaCloudSection(Section):
 
     def pull(self) -> list[dict]:
         api_key = os.environ.get("MEDIACLOUD_API_KEY")
-        if not api_key or _mc_api is None:
-            return []
+        if not api_key:
+            raise RuntimeError(
+                f"[{self.id}] MEDIACLOUD_API_KEY not set — section cannot pull"
+            )
+        if _mc_api is None:
+            raise RuntimeError(
+                f"[{self.id}] mediacloud package not installed — pip install mediacloud"
+            )
         try:
             search = _mc_api.SearchApi(api_key)
-        except Exception:
-            return []
+        except Exception as e:
+            raise RuntimeError(
+                f"[{self.id}] mediacloud SearchApi() failed: {type(e).__name__}: {e}"
+            ) from e
         areas = load_watch_areas()
         prio_rank = {"high": 0, "normal": 1, "low": 2}
         areas.sort(key=lambda a: prio_rank.get(a.priority, 1))

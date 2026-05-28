@@ -83,7 +83,9 @@ class MacroSection(Section):
     def pull(self) -> list[dict]:
         key = os.environ.get("FRED_API_KEY")
         if not key:
-            return []
+            raise RuntimeError(
+                f"[{self.id}] FRED_API_KEY not set — section cannot pull"
+            )
         session = requests.Session()
         session.headers["User-Agent"] = UA
         items: list[dict] = []

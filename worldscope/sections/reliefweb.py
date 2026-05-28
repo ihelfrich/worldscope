@@ -40,8 +40,10 @@ class ReliefWebSection(Section):
             resp = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=30)
             resp.raise_for_status()
             data = resp.json()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] ReliefWeb API fetch failed: "
+                  f"{type(exc).__name__}: {exc}")
+            raise
         items: list[dict] = []
         for r in (data.get("data") or []):
             f = r.get("fields") or {}

@@ -89,11 +89,17 @@ class WikidataChangesSection(Section):
         try:
             hos = current_heads_of_state()
             hog = current_heads_of_government()
-        except Exception:
-            return []
+        except Exception as exc:
+            raise RuntimeError(
+                f"[{self.id}] failed to load Wikidata heads-of-state/government "
+                f"roster: {type(exc).__name__}: {exc}"
+            ) from exc
         roster = {(e.get("qid") or "").strip(): e for e in (hos + hog) if e.get("qid")}
         if not roster:
-            return []
+            raise RuntimeError(
+                f"[{self.id}] Wikidata returned no heads of state or government; "
+                "upstream SPARQL likely failed"
+            )
         qids = list(roster.keys())
         revisions = self._recent_revisions(qids)
         items: list[dict] = []

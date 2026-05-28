@@ -43,12 +43,17 @@ class PromedSection(Section):
         try:
             resp = requests.get(FEED, headers={"User-Agent": UA}, timeout=25)
             resp.raise_for_status()
-        except Exception:
-            return []
+        except Exception as exc:
+            print(f"[{self.id}] ProMED feed fetch failed: "
+                  f"{type(exc).__name__}: {exc}")
+            raise
         try:
             root = ET.fromstring(resp.content)
-        except ET.ParseError:
-            return []
+        except ET.ParseError as exc:
+            raise RuntimeError(
+                f"[{self.id}] ProMED returned non-XML response (likely an HTML "
+                f"error page); parse error: {exc}"
+            ) from exc
         items: list[dict] = []
         for item in root.findall(".//item"):
             title = (item.findtext("title") or "").strip()
