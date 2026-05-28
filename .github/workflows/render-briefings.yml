@@ -40,6 +40,28 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: pip install markdown pyyaml
+      - name: Fact-check market price claims (annotate FAILs inline)
+        run: |
+          # For every briefings/*.md, verify asset-price claims against
+          # the lake's structured market data and annotate divergent
+          # figures with [⚠ actual ≈ $X] markers. Doesn't fail the build:
+          # the goal is to ship the desk officer's narrative with inline
+          # warnings rather than block it.
+          if [ -f lake/db/worldscope.sqlite ]; then
+            for f in briefings/*.md; do
+              [ -f "$f" ] || continue
+              python -m worldscope.fact_check "$f" \
+                --lake lake/db/worldscope.sqlite \
+                --annotate --fail-on never \
+                || echo "fact-check non-zero for $f (continuing)"
+              ann="${f%.md}.annotated.md"
+              if [ -f "$ann" ]; then
+                mv "$ann" "$f"
+              fi
+            done
+          else
+            echo "Lake DB missing — skipping fact-check pass"
+          fi
       - name: Render every brief to HTML
         run: python tools/render_brief.py
       - name: Commit dist/ briefings (race-safe)
