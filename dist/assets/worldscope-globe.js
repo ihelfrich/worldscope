@@ -339,18 +339,69 @@
 
   // ---- init ------------------------------------------------------------
 
-  async function init() {
-    const root = document.getElementById("globe-root");
+  async function buildHeroGlobe() {
+    // Hero embed: smaller, control-less, just the planet spinning quietly
+    // as a teaser. Click goes to /globe/. Loaded after the page settles
+    // so it doesn't block the homepage's first paint.
+    const root = document.getElementById("ws-hero-globe");
     if (!root) return;
-    root.style.cursor = "grab";
     try {
       await loadDeps();
       await loadData();
-      buildGlobe();
-      bindControls();
+      const G = window.Globe.default ? window.Globe.default() : window.Globe();
+      const hero = G(root)
+        .backgroundColor("rgba(0,0,0,0)")
+        .globeImageUrl("//unpkg.com/three-globe/example/img/earth-day.jpg")
+        .atmosphereColor("#FFFFFF")
+        .atmosphereAltitude(0.16)
+        .showGraticules(false)
+        .polygonsData(STATE.countries)
+        .polygonAltitude(0.003)
+        .polygonCapColor(() => "rgba(75,156,211,0.18)")
+        .polygonSideColor(() => "rgba(19,41,75,0.10)")
+        .polygonStrokeColor(() => "rgba(19,41,75,0.42)");
+      hero.pointOfView({ lat: 18, lng: -10, altitude: 2.6 }, 0);
+      if (hero.controls()) {
+        hero.controls().autoRotate = true;
+        hero.controls().autoRotateSpeed = 0.4;
+        hero.controls().enableZoom = false;
+        hero.controls().enablePan = false;
+      }
+      // Hide the cursor change — the hero globe is a link to /globe/,
+      // not draggable in place.
+      root.style.cursor = "pointer";
+      const ro = new ResizeObserver(entries => {
+        for (const entry of entries) {
+          const { width, height } = entry.contentRect;
+          hero.width(width).height(height);
+        }
+      });
+      ro.observe(root);
     } catch (e) {
-      root.innerHTML = `<div style="padding:32px;color:#990000;font-family:Inter,sans-serif;font-size:13px">Globe failed to load: ${escapeHtml(String(e))}</div>`;
-      console.error(e);
+      // Quiet failure — the decorative gradient placeholder stays.
+      console.warn("hero globe failed:", e);
+    }
+  }
+
+  async function init() {
+    // Two entry points: /globe/ page (full interactive) or homepage hero embed.
+    const fullRoot = document.getElementById("globe-root");
+    const heroRoot = document.getElementById("ws-hero-globe");
+    if (fullRoot) {
+      fullRoot.style.cursor = "grab";
+      try {
+        await loadDeps();
+        await loadData();
+        buildGlobe();
+        bindControls();
+      } catch (e) {
+        fullRoot.innerHTML = `<div style="padding:32px;color:#990000;font-family:Inter,sans-serif;font-size:13px">Globe failed to load: ${escapeHtml(String(e))}</div>`;
+        console.error(e);
+      }
+    } else if (heroRoot) {
+      // Defer until window load so the homepage's critical content paints first.
+      if (document.readyState === "complete") buildHeroGlobe();
+      else window.addEventListener("load", buildHeroGlobe);
     }
   }
 

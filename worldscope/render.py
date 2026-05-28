@@ -341,56 +341,95 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict,
     deltas = _compute_hero_deltas(states or {}, cross_section or {},
                                     threads or {})
 
+    # Globe-first hero: content flows around an embedded interactive
+    # Earth on the right. Density on the left: kicker, the day's
+    # narrative thread (link), big new-records stat, delta bullets,
+    # signal chips. Cuts editorial chrome (no big "WORLDSCOPE" billboard,
+    # no separate signals section — folded into the hero).
+    top_news_link = ""
+    if top_news:
+        sid, title, it = top_news[0]
+        url = html.escape(it.get("url") or "#", quote=True)
+        top_news_link = (
+            f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+            f'class="block mt-1 text-[13.5px] text-slate hover:text-navy transition-colors leading-snug border-l-2 border-l-mist hover:border-l-gold pl-3">'
+            f'<span class="font-sans text-[10px] uppercase tracking-[0.14em] text-slate-dim">{html.escape(title)}</span><br>'
+            f'<span class="font-serif font-medium">{html.escape(it.get("title") or "")}</span>'
+            f'</a>'
+        )
+
+    # Lead-line: either the top thread, or the leading entity, or a quiet-day fallback.
+    if top_thread:
+        slug = html.escape(top_thread["slug"], quote=True)
+        lead = (
+            f'<a href="./threads/{slug}/" class="text-ink hover:text-gold transition-colors no-underline">'
+            f'<strong class="text-navy">{html.escape(top_thread["title"])}</strong></a> · '
+            f'<span class="tabular-nums">{top_thread["items_total"]:,}</span> items / '
+            f'<span class="tabular-nums">{len(top_thread.get("sections_touched") or [])}</span> sections / '
+            f'<span class="tabular-nums">{top_thread["days_active"]}</span> days.'
+        )
+    elif top_entity:
+        lead = (
+            f'<strong class="text-navy">{html.escape(top_entity.get("canonical_name","?"))}</strong> '
+            f'recurring in <span class="tabular-nums">{int(top_entity.get("n_sections") or 0)}</span> sections.'
+        )
+    else:
+        lead = '<span class="text-slate">A quiet day across the watch list.</span>'
+
     return f"""
-<header class="relative pt-16 lg:pt-20 pb-8 px-7 max-w-[1200px] mx-auto">
-  <div class="font-sans text-kicker text-gold uppercase mb-4">{html.escape(kicker)}</div>
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
-    <div class="lg:col-span-7">
-      <h1 class="font-serif text-editorial text-ink mb-3">WORLDSCOPE</h1>
-      <p class="font-serif text-lede text-slate max-w-2xl mb-6">
-        Daily political, economic, and OSINT briefing &mdash; primary sources only,
-        synthesized into one page.
-      </p>
-      <div class="flex flex-wrap items-center gap-3">
-        <a href="./zips/{date_obj.isoformat()}.zip" download
-           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-                  bg-navy text-white px-4 py-2.5 rounded-md shadow-card
-                  hover:bg-navy-soft hover:shadow-lift transition-all">
-          <span aria-hidden="true">⬇</span> Today's package (.zip)
-        </a>
-        <a href="./sections/"
-           class="inline-flex items-center gap-2 font-sans text-[13px] font-semibold
-                  text-navy hover:text-gold transition-colors px-1">
-          Drill into sections →
-        </a>
+<header class="relative pt-12 lg:pt-16 pb-6 px-7 max-w-[1400px] mx-auto">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+    <!-- LEFT: narrative + numbers -->
+    <div class="lg:col-span-7 stat-block">
+      <div class="font-sans text-kicker text-gold uppercase mb-4">{html.escape(kicker)}</div>
+      <p class="pull-quote mb-6">{lead}</p>
+      <div class="flex items-baseline gap-6 mb-1">
+        <div>
+          <div class="stat tabular-nums" data-count="{total_new}">{total_new:,}</div>
+          <div class="stat-label">records new since yesterday</div>
+        </div>
+        <div class="text-slate-dim font-sans text-[12.5px] leading-snug">
+          <span class="block tabular-nums text-navy text-[14px] font-semibold">{chips_count or "—"}</span>
+          <span class="text-[10.5px] uppercase tracking-[0.14em] font-bold">converging</span>
+        </div>
+      </div>
+      {top_news_link}
+      <ul class="ws-deltas mt-6">{deltas}</ul>
+      <div class="mt-6 flex flex-wrap gap-2">{chips_html}</div>
+      <div class="mt-7 flex flex-wrap items-center gap-3 text-[12.5px] font-sans">
+        <a href="./globe/" class="text-navy hover:text-gold font-semibold transition-colors">Open globe →</a>
+        <span class="text-slate-dim">·</span>
+        <a href="./threads/" class="text-slate hover:text-navy transition-colors">Threads</a>
+        <span class="text-slate-dim">·</span>
+        <a href="./reproducibility/" class="text-slate hover:text-navy transition-colors">Reproducibility</a>
+        <span class="text-slate-dim">·</span>
+        <a href="./zips/{date_obj.isoformat()}.zip" download class="text-slate hover:text-navy transition-colors">.zip</a>
       </div>
     </div>
-    <div class="lg:col-span-5 stat-block">
-      <div class="stat tabular-nums">{total_new:,}</div>
-      <div class="stat-label">records new since yesterday</div>
-      <ul class="ws-deltas mt-5">{deltas}</ul>
+
+    <!-- RIGHT: embedded globe preview -->
+    <div class="lg:col-span-5">
+      <a href="./globe/" class="block group" aria-label="Open the interactive globe">
+        <div id="ws-hero-globe" class="relative w-full rounded-2xl border border-mist bg-canvas overflow-hidden shadow-card lift-card"
+             style="aspect-ratio: 1/1; max-height: 520px;
+                    background: radial-gradient(ellipse at 50% 60%, #FFFFFF 0%, var(--canvas) 70%, #F4F4F6 100%);">
+          <!-- Globe lazy-loads here when viewport allows; static fallback below otherwise. -->
+          <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div class="relative w-[78%]" style="aspect-ratio:1/1">
+              <!-- Decorative frosty-Earth disc until the JS globe initializes -->
+              <div class="absolute inset-0 rounded-full shadow-globe opacity-90"
+                   style="background:
+                     radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95) 0%, rgba(75,156,211,0.18) 35%, rgba(19,41,75,0.10) 100%);"></div>
+            </div>
+          </div>
+          <div class="absolute bottom-3 right-4 font-sans text-[10.5px] uppercase tracking-[0.16em] text-slate-mid font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+            Open globe →
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 </header>
-
-<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="signals-h">
-  <hr class="editorial-rule mb-7">
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-10">
-    <div class="lg:col-span-7">
-      <h2 id="signals-h" class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
-        Signals converging today
-      </h2>
-      <p class="font-serif text-[16px] leading-snug text-ink mb-4 max-w-xl">{signals_intro}</p>
-      {chips_html or '<div class="text-slate-dim font-sans text-[13px] italic">No recurring entities reached the 3-section threshold.</div>'}
-    </div>
-    <div class="lg:col-span-5">
-      <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3">
-        Top of the brief
-      </h2>
-      {news_col}
-    </div>
-  </div>
-</section>
 """
 
 
@@ -588,6 +627,128 @@ def _volume_anomaly_pill(state, store_db_path: Optional[Path] = None) -> str:
         return ""
 
 
+def _section_toc(states: dict) -> str:
+    """Dense TOC of every section: emoji, name, counts, sparkline, tier.
+    One row per section — replaces the 33-card grid that was producing
+    479 visible chrome elements. Sparklines hydrate client-side from
+    data/section_history.json via worldscope-ui.js.
+
+    Sorted by:
+      1. fresh sections with items (descending by NEW count)
+      2. carry-forward sections
+      3. stale-after-failure sections
+      4. fresh-empty sections (bottom — quiet sources)
+    """
+    def sort_key(item):
+        sid, st = item
+        state = getattr(st, "state", "")
+        n_new = len(getattr(st, "new", []) or [])
+        n_total = len(getattr(st, "items", []) or [])
+        # Lower bucket sorts first
+        bucket = {
+            "fresh": 0 if n_total > 0 else 3,
+            "carry_forward": 1,
+            "stale_after_failure": 2,
+            "fresh_empty": 3,
+            "no_data": 4,
+        }.get(state, 5)
+        return (bucket, -n_new, -n_total, sid)
+
+    rows = []
+    for sid, st in sorted(states.items(), key=sort_key):
+        title  = html.escape(getattr(st, "title", "") or sid)
+        emoji  = html.escape(getattr(st, "emoji", "📌") or "📌")
+        tier   = getattr(st, "source_tier", "") or "mainstream_independent"
+        tier_label = {
+            "primary_document":      "PRIMARY",
+            "mainstream_independent":"MAINSTREAM",
+            "regional_independent":  "REGIONAL",
+            "ngo_independent":       "NGO",
+            "academic":              "ACADEMIC",
+            "social":                "SOCIAL",
+        }.get(tier, "")
+        state_attr = html.escape(getattr(st, "state", "") or "fresh", quote=True)
+        n_new   = len(getattr(st, "new", []) or [])
+        n_total = len(getattr(st, "items", []) or [])
+        sid_attr = html.escape(sid, quote=True)
+        title_attr = html.escape(title, quote=True)
+        rows.append(
+            f'<a class="ws-toc-row" data-state="{state_attr}" '
+            f'   data-tier="{html.escape(tier, quote=True)}" '
+            f'   data-palette-section="{title_attr}" '
+            f'   href="./sections/{sid_attr}/" '
+            f'   aria-label="{title_attr} — {n_new} new of {n_total} total">'
+            f'<span class="glyph" aria-hidden="true">{emoji}</span>'
+            f'<span class="name">{title}</span>'
+            f'<span class="counts"><span class="new">{n_new}</span> · {n_total}</span>'
+            f'<span class="spark" data-spark="{sid_attr}" aria-hidden="true"></span>'
+            f'<span class="tier">{tier_label}</span>'
+            f'</a>'
+        )
+
+    return (
+        '<section class="px-7 max-w-[1400px] mx-auto pb-12" aria-label="Sections" id="ws-sections">'
+        '<hr class="editorial-rule mb-6">'
+        '<div class="flex flex-wrap items-baseline gap-4 mb-4">'
+        '<div class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim">All sections</div>'
+        '<div class="font-sans text-[11px] text-slate-dim">— sorted by activity · click any to drill</div>'
+        '<span class="flex-1"></span>'
+        '<div class="flex flex-wrap gap-1.5 ws-tier-filter" role="group" aria-label="Filter by source tier">'
+        '<button type="button" class="ws-tier-pill ws-tier-active" data-tier="all">all</button>'
+        '<button type="button" class="ws-tier-pill" data-tier="primary_document">primary</button>'
+        '<button type="button" class="ws-tier-pill" data-tier="mainstream_independent">mainstream</button>'
+        '<button type="button" class="ws-tier-pill" data-tier="regional_independent">regional</button>'
+        '<button type="button" class="ws-tier-pill" data-tier="ngo_independent">ngo</button>'
+        '<button type="button" class="ws-tier-pill" data-tier="academic">academic</button>'
+        '</div></div>'
+        '<div class="ws-toc bg-panel border border-mist rounded-xl overflow-hidden shadow-card">'
+        + "\n".join(rows) +
+        '</div>'
+        + _toc_tier_filter_script() +
+        '</section>'
+    )
+
+
+def _toc_tier_filter_script() -> str:
+    """Inline JS for the source-tier toggle on the dense TOC. Same
+    behavior as the old grid: pills filter rows by data-tier."""
+    return """
+<script>
+(() => {
+  const KEY = 'ws.tier-filter';
+  function apply(active) {
+    document.querySelectorAll('.ws-toc-row').forEach(el => {
+      const t = el.dataset.tier || 'mainstream_independent';
+      const show = active.has('all') || active.has(t);
+      el.style.display = show ? '' : 'none';
+    });
+    document.querySelectorAll('.ws-tier-pill').forEach(p => {
+      p.classList.toggle('ws-tier-active', active.has(p.dataset.tier));
+    });
+    try { localStorage.setItem(KEY, JSON.stringify([...active])); } catch (e) {}
+  }
+  let active;
+  try {
+    const stored = JSON.parse(localStorage.getItem(KEY) || '["all"]');
+    active = new Set(Array.isArray(stored) && stored.length ? stored : ['all']);
+  } catch (e) { active = new Set(['all']); }
+  document.querySelectorAll('.ws-tier-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const t = pill.dataset.tier;
+      if (t === 'all') { active = new Set(['all']); }
+      else {
+        active.delete('all');
+        if (active.has(t)) active.delete(t); else active.add(t);
+        if (!active.size) active.add('all');
+      }
+      apply(active);
+    });
+  });
+  apply(active);
+})();
+</script>"""
+
+
 def _section_card(state, synth_text: Optional[str] = None,
                    store_db_path: Optional[Path] = None) -> str:
     title = html.escape(getattr(state, "title", "") or state.section_id)
@@ -765,29 +926,7 @@ def render_page(
     # section as a card. Otherwise fall back to the pre-rendered HTML the
     # caller produced.
     if states:
-        synths = synth_by_section or {}
-        cards = [_section_card(st, synth_text=synths.get(sid),
-                                store_db_path=store_db_path)
-                 for sid, st in states.items()]
-        sections_block = (
-            '<section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections" id="ws-sections">'
-            '<hr class="editorial-rule mb-6">'
-            '<div class="flex flex-wrap items-baseline gap-4 mb-5">'
-            '<div class="font-sans uppercase tracking-[0.16em] text-[11px] font-bold text-slate-dim">All sections</div>'
-            '<div class="flex flex-wrap gap-1.5 ws-tier-filter" role="group" aria-label="Filter by source tier">'
-            '<button type="button" class="ws-tier-pill ws-tier-active" data-tier="all">all</button>'
-            '<button type="button" class="ws-tier-pill" data-tier="primary_document">primary</button>'
-            '<button type="button" class="ws-tier-pill" data-tier="mainstream_independent">mainstream</button>'
-            '<button type="button" class="ws-tier-pill" data-tier="regional_independent">regional</button>'
-            '<button type="button" class="ws-tier-pill" data-tier="ngo_independent">ngo</button>'
-            '<button type="button" class="ws-tier-pill" data-tier="academic">academic</button>'
-            '</div></div>'
-            '<div class="columns-1 md:columns-2 xl:columns-3 gap-6 [column-fill:_balance]">'
-            + "\n".join(cards)
-            + "</div>"
-            + _tier_filter_script()
-            + "</section>"
-        )
+        sections_block = _section_toc(states)
     else:
         sections_block = (
             '<section class="px-7 max-w-[1200px] mx-auto pb-12 space-y-5">'
@@ -796,7 +935,14 @@ def render_page(
         )
 
     archive_html = _archive_nav(archive_dates)
-    main_body = f"<main>{hero}{threads_band}{figures_band}{overview}{sections_block}{archive_html}</main>{footer_block()}"
+    main_body = (
+        f"<main>{hero}{threads_band}{figures_band}{overview}{sections_block}{archive_html}</main>"
+        f"{footer_block()}"
+        # Load the globe library only on the homepage so the embedded
+        # hero globe activates. The /globe/ page loads it separately
+        # (relative path differs).
+        '<script src="assets/worldscope-globe.js" defer></script>'
+    )
 
     page = page_shell(
         title=f"WORLDSCOPE · {date_obj.isoformat()}",

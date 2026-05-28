@@ -112,6 +112,12 @@
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
     text-rendering: optimizeLegibility;
+    /* Critical: kill the horizontal overflow gemini's audit flagged.
+     * The chat panel hides via translateX(102%) which the browser still
+     * counts in scrollWidth, producing a horizontal scrollbar on every
+     * page. `overflow-x: clip` hides it WITHOUT establishing a scroll
+     * container (so position:fixed children still work). */
+    overflow-x: clip;
   }
   /* Tabular figures for numbers everywhere — counts stay column-aligned */
   .tabular-nums, .count, time, .stat, [data-tabular] {
@@ -373,6 +379,195 @@
   /* Vega chart frame */
   [data-vega-target] .vega-embed { width: 100%; display: block; }
   [data-vega-target] svg { display: block; max-width: 100%; }
+
+  /* ════════════════════════════════════════════════════════════
+   * Dense section TOC (replaces the 33-card grid)
+   * ════════════════════════════════════════════════════════════ */
+
+  .ws-toc {
+    display: flex; flex-direction: column;
+    border-top: var(--hairline);
+  }
+  .ws-toc-row {
+    display: grid;
+    grid-template-columns:
+      [emoji] 28px
+      [name]  1fr
+      [counts] auto
+      [spark] 70px
+      [tier]  auto;
+    align-items: baseline;
+    gap: 14px;
+    padding: 11px 14px 10px;
+    border-bottom: var(--hairline);
+    color: var(--ink);
+    text-decoration: none;
+    transition: background 0.12s var(--ease-gentle),
+                border-left-color 0.12s var(--ease-gentle);
+    border-left: 2px solid transparent;
+    font-family: 'Inter', sans-serif;
+  }
+  .ws-toc-row:hover {
+    background: rgba(200, 150, 26, 0.045);
+    border-left-color: var(--gold);
+  }
+  .ws-toc-row .glyph {
+    font-size: 18px;
+    line-height: 1; opacity: 0.92;
+    text-align: center;
+  }
+  .ws-toc-row .name {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--ink);
+    letter-spacing: -0.005em;
+  }
+  .ws-toc-row .counts {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--slate);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+  }
+  .ws-toc-row .counts .new {
+    color: var(--navy); font-weight: 700;
+  }
+  .ws-toc-row .spark {
+    color: var(--slate);   /* sets currentColor for the polyline */
+    line-height: 0;
+  }
+  .ws-toc-row .tier {
+    font-size: 9.5px; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--slate-mid);
+    padding-left: 4px;
+  }
+  /* Empty / failed states subdue the row */
+  .ws-toc-row[data-state="fresh_empty"] { opacity: 0.55; }
+  .ws-toc-row[data-state="stale_after_failure"] .name {
+    color: var(--crimson);
+  }
+  .ws-toc-row[data-state="stale_after_failure"] .name::after {
+    content: ' · stale'; font-size: 11px; font-weight: 500;
+    color: var(--crimson); opacity: 0.75;
+  }
+  .ws-toc-row[data-state="carry_forward"] .name::after {
+    content: ' · carried'; font-size: 11px; font-weight: 500;
+    color: var(--gold); opacity: 0.75;
+  }
+  /* Mobile: drop sparkline + tier columns */
+  @media (max-width: 640px) {
+    .ws-toc-row {
+      grid-template-columns: 28px 1fr auto;
+      gap: 10px; padding: 10px 12px;
+    }
+    .ws-toc-row .spark, .ws-toc-row .tier { display: none; }
+  }
+
+  /* ════════════════════════════════════════════════════════════
+   * Command palette (⌘K)
+   * ════════════════════════════════════════════════════════════ */
+
+  #ws-palette { display: none; }
+  #ws-palette.open {
+    display: block;
+    position: fixed; inset: 0; z-index: 100;
+  }
+  .ws-palette-scrim {
+    position: absolute; inset: 0;
+    background: rgba(11, 18, 32, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    animation: fade-in 0.16s ease-out;
+  }
+  .ws-palette-card {
+    position: relative;
+    margin: 12vh auto 0;
+    max-width: 600px; width: 92vw;
+    background: var(--panel);
+    border: 1px solid var(--mist-strong);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lift);
+    overflow: hidden;
+    animation: fade-rise 0.22s var(--ease-spring);
+    display: flex; flex-direction: column;
+    max-height: 70vh;
+  }
+  #ws-palette-input {
+    width: 100%;
+    border: 0; outline: 0;
+    padding: 18px 22px 14px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 19px; font-weight: 500;
+    color: var(--ink);
+    background: transparent;
+    border-bottom: 1px solid var(--mist);
+  }
+  #ws-palette-input::placeholder { color: var(--slate-dim); }
+  #ws-palette-list {
+    list-style: none; padding: 6px 0; margin: 0;
+    overflow-y: auto; flex: 1;
+  }
+  #ws-palette-list li {
+    display: flex; align-items: baseline; gap: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px; color: var(--ink);
+    border-left: 3px solid transparent;
+  }
+  #ws-palette-list li.active {
+    background: var(--mist);
+    border-left-color: var(--gold);
+  }
+  #ws-palette-list li .hint {
+    width: 22px; flex-shrink: 0;
+    color: var(--slate-dim); font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  #ws-palette-list li.active .hint { color: var(--gold); font-weight: 700; }
+  .ws-palette-foot {
+    display: flex; gap: 18px;
+    padding: 10px 22px;
+    border-top: 1px solid var(--mist);
+    font-family: 'Inter', sans-serif;
+    font-size: 11px; color: var(--slate-dim);
+  }
+  .ws-palette-foot kbd {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px; font-weight: 600;
+    background: var(--mist); color: var(--slate);
+    padding: 1px 5px; border-radius: 3px;
+    border: 1px solid var(--mist-strong);
+    margin-right: 4px;
+  }
+
+  /* Subtle palette-trigger button in the topnav */
+  .ws-palette-trigger {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(11, 18, 32, 0.08);
+    border-radius: 9999px;
+    padding: 4px 10px 4px 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px; color: var(--slate);
+    cursor: pointer;
+    transition: all 0.14s var(--ease-gentle);
+  }
+  .ws-palette-trigger:hover {
+    border-color: var(--gold);
+    color: var(--ink);
+  }
+  .ws-palette-trigger kbd {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px; font-weight: 600;
+    background: var(--panel); color: var(--slate);
+    padding: 1px 5px; border-radius: 3px;
+    border: 1px solid var(--mist-strong);
+    margin-left: 2px;
+  }
 
   /* Pinned-link in graph view */
   .pinned-link {

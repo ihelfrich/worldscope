@@ -62,22 +62,26 @@ def _json_script_safe(s: str) -> str:
 
 
 def topnav(base: str = "") -> str:
-    """Sticky navy-on-parchment top navigation with gold accent rule."""
-    return f"""<nav class="glass-nav sticky top-0 z-50 text-white border-b-2 border-gold shadow-md" role="navigation" aria-label="Primary">
-  <div class="max-w-[1200px] mx-auto px-7 py-3 flex flex-wrap items-center gap-5 font-sans text-[13px]">
-    <a href="{base}index.html" class="font-extrabold tracking-[0.10em] uppercase text-white text-[13.5px]">
+    """Frosty-glass sticky top nav. Light-on-light over the canvas
+    (rather than navy bar) so it composes with the rest of the design
+    system. ⌘K command palette trigger on the right."""
+    return f"""<nav class="glass-nav sticky top-0 z-50 text-ink" role="navigation" aria-label="Primary">
+  <div class="max-w-[1400px] mx-auto px-6 py-2.5 flex flex-wrap items-center gap-x-5 gap-y-1 font-sans text-[13px]">
+    <a href="{base}index.html" class="font-extrabold tracking-[0.10em] uppercase text-ink text-[13.5px] mr-2">
       <span class="text-gold mr-1">◆</span>WORLDSCOPE
     </a>
-    <a href="{base}index.html" class="text-mist hover:text-white transition-colors">Today</a>
-    <a href="{base}globe/" class="text-mist hover:text-white transition-colors">Globe</a>
-    <a href="{base}threads/" class="text-mist hover:text-white transition-colors">Threads</a>
-    <a href="{base}graph/" class="text-mist hover:text-white transition-colors">Graph</a>
-    <a href="{base}reproducibility/" class="text-mist hover:text-white transition-colors">Reproducibility</a>
-    <a href="{base}health/" class="text-mist hover:text-white transition-colors">Health</a>
-    <a href="{base}sections/" class="text-mist hover:text-white transition-colors">Sections</a>
-    <a href="{base}briefings/" class="text-mist hover:text-white transition-colors">Archive</a>
+    <a href="{base}index.html" class="text-slate hover:text-ink transition-colors">Today</a>
+    <a href="{base}globe/" class="text-slate hover:text-ink transition-colors">Globe</a>
+    <a href="{base}threads/" class="text-slate hover:text-ink transition-colors">Threads</a>
+    <a href="{base}graph/" class="text-slate hover:text-ink transition-colors">Graph</a>
+    <a href="{base}reproducibility/" class="text-slate hover:text-ink transition-colors">Reproducibility</a>
+    <a href="{base}health/" class="text-slate hover:text-ink transition-colors">Health</a>
+    <a href="{base}sections/" class="text-slate hover:text-ink transition-colors">Sections</a>
+    <a href="{base}briefings/" class="text-slate hover:text-ink transition-colors">Archive</a>
     <span class="flex-1"></span>
-    <span class="text-mist/85 text-[12px] pl-3.5 ml-1 border-l border-white/20">Dr. Ian Helfrich</span>
+    <button type="button" data-palette-trigger class="ws-palette-trigger" aria-label="Open command palette">
+      <span class="text-slate-dim">Jump to anywhere</span><kbd>⌘K</kbd>
+    </button>
   </div>
 </nav>"""
 
@@ -226,6 +230,7 @@ def page_shell(
 <script type="application/json" id="ws-network-seed">{_json_script_safe(network_seed_json)}</script>
 <script src="{base}{network_assets_path}" defer></script>
 <script src="{base}assets/worldscope-evidence.js" defer></script>
+<script src="{base}assets/worldscope-ui.js" defer></script>
 {topnav(base=base)}
 {body_html}
 {chat_panel(base=base) if include_chat else ""}

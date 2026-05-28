@@ -293,6 +293,16 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as sbx:  # pragma: no cover
         print(f"[site-builder] failed: {type(sbx).__name__}: {sbx}")
 
+    # 1d-quater-pre. Export per-section 14-day history for the homepage
+    # TOC sparklines. ~10KB, hydrated client-side by worldscope-ui.js.
+    try:
+        from .section_history import build_from_repo as _build_history
+        _exp_repo = Path(__file__).resolve().parent.parent
+        _hist_path = _build_history(_exp_repo, Path(out_dir), today=today)
+        print(f"[section-history] {_hist_path}")
+    except Exception as shex:  # pragma: no cover
+        print(f"[section-history] failed: {type(shex).__name__}: {shex}")
+
     # 1d-quater. Export today's lake to static JSON under dist/data/ so
     # the homepage chat widget (worldscope-chat.js) can query today's
     # records, entities, and cross-section signals client-side without a
