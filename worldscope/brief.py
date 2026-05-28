@@ -19,6 +19,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 from datetime import date
 from pathlib import Path
 
@@ -142,6 +143,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     watch_areas = load_watch_areas()
     states: dict[str, SectionState] = {}
     sections_html: list[str] = []
+    synth_by_section: dict[str, str] = {}
     source_attribution: dict[str, dict] = {}
     for cls in SECTION_REGISTRY:
         if section_ids and cls.id not in section_ids:
@@ -164,6 +166,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             print(f"[{sec.id}] to_lake failed: "
                   f"{type(lake_exc).__name__}: {lake_exc}")
         synth = synthesize(sec.title, state.items, {it.get("_id") for it in state.new})
+        synth_by_section[sec.id] = synth
         sections_html.append(sec.render_html(state, synth))
         source_attribution[sec.id] = {
             "title": sec.title,
@@ -286,14 +289,42 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     }
     overview_md = build_overview(today, section_deltas, trends, cal_items)
 
-    # 5. Render HTML page
+    # 5. Render HTML page. The modern renderer takes `states` + per-section
+    # synth + cross-section recurrence JSON to build the editorial hero +
+    # adaptive card grid. cross_section.json is written by step 1d-bis
+    # above; we re-read it here (decoupled so render.py doesn't depend on
+    # the analysis pipeline directly).
     archive = _list_archive(out_dir)
     if today not in archive:
         archive.append(today)
+    cross_section_data: dict = {}
+    network_seed_json = "{}"
+    try:
+        cs_path = (Path(__file__).resolve().parent.parent
+                   / "lake" / "sections" / "_meta" / today.isoformat()
+                   / "cross_section.json")
+        if cs_path.exists():
+            cross_section_data = json.loads(cs_path.read_text(encoding="utf-8"))
+            # Build a network seed for the ambient canvas: top entities by
+            # recurrence become the colored nodes.
+            seed_entities = []
+            for band in ("high", "medium"):
+                for ent in (cross_section_data.get("by_confidence", {}).get(band) or [])[:5]:
+                    seed_entities.append(ent.get("canonical_name"))
+            network_seed_json = json.dumps({
+                "date": today.isoformat(),
+                "entities": [e for e in seed_entities if e][:8],
+            })
+    except Exception as _csx:
+        print(f"[render] cross_section.json read failed: {_csx}")
     page = render_page(
         today, sections_html, out_dir,
         overview_md=overview_md,
         archive_dates=sorted(set(archive)),
+        states=states,
+        synth_by_section=synth_by_section,
+        cross_section=cross_section_data,
+        network_seed_json=network_seed_json,
     )
 
     # 6. Bundle the zip
