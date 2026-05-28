@@ -292,6 +292,23 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     except Exception as gex:  # pragma: no cover
         print(f"[graph] failed: {type(gex).__name__}: {gex}")
 
+    # 1d-septies. Story threads: detect multi-day arcs by entity
+    # persistence across days. Pinned cross-section signals + heavy
+    # mentions are the candidate pool; threads with ≥3 days × ≥5 items
+    # become permanent URLs. Output is dist/data/threads.json plus
+    # dist/threads/index.html and dist/threads/<slug>/index.html.
+    try:
+        from .threads      import build_from_repo as _build_threads
+        from .threads_page import render_all_threads as _render_all_threads
+        _exp_repo = Path(__file__).resolve().parent.parent
+        _, _threads_path = _build_threads(_exp_repo, Path(out_dir), today=today)
+        _thr_doc = json.loads(_threads_path.read_text(encoding="utf-8"))
+        _thr_pages = _render_all_threads(Path(out_dir), _thr_doc, today=today)
+        print(f"[threads] {len(_thr_doc.get('threads') or [])} arcs, "
+              f"{len(_thr_pages)} pages")
+    except Exception as tex:  # pragma: no cover
+        print(f"[threads] failed: {type(tex).__name__}: {tex}")
+
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
     # graphics generated above ended up in figures/daily/... but never made
@@ -367,6 +384,16 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             figures_doc = json.loads(fig_path.read_text(encoding="utf-8"))
         except Exception as _fxx:
             print(f"[render] figures.json read failed: {_fxx}")
+    # Same for threads.json — surfaces the multi-day arcs in the hero
+    # pull-quote and threads band.
+    threads_doc: dict = {}
+    thr_path = Path(out_dir) / "data" / "threads.json"
+    if thr_path.exists():
+        try:
+            threads_doc = json.loads(thr_path.read_text(encoding="utf-8"))
+        except Exception as _txx:
+            print(f"[render] threads.json read failed: {_txx}")
+    _store_db_path = Path(__file__).resolve().parent.parent / "data" / "store.sqlite"
     page = render_page(
         today, sections_html, out_dir,
         overview_md=overview_md,
@@ -375,6 +402,8 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         synth_by_section=synth_by_section,
         cross_section=cross_section_data,
         figures=figures_doc,
+        threads=threads_doc,
+        store_db_path=_store_db_path,
         network_seed_json=network_seed_json,
     )
 

@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · Thread · Jackson</title>
+<meta name="description" content="Multi-day thread for Jackson.">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/threads/jackson/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WORLDSCOPE · Thread · Jackson">
+<meta property="og:description" content="Multi-day thread for Jackson.">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/threads/jackson/">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="theme-color" content="#13294B">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700;8..60,800&display=swap">
+<script src="https://cdn.tailwindcss.com?plugins=typography,forms,aspect-ratio"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#0B1220',
+        parchment: '#FAF8F3',
+        panel: '#FFFFFF',
+        mist: '#E8E2D5',
+        'mist-strong': '#C9C1B2',
+        slate: { DEFAULT: '#4E5667', dim: '#6B7180' },
+        navy: { DEFAULT: '#13294B', soft: '#1F3D6E', deep: '#091428' },
+        gold: { DEFAULT: '#D4A017', soft: '#E8BC42' },
+        carolina: '#4B9CD3',
+        crimson: '#990000',
+        teal: '#1A8A87'
+      },
+      fontFamily: {
+        serif: ['"Source Serif 4"', 'Source Serif Pro', 'Georgia', 'Iowan Old Style', 'serif'],
+        sans:  ['Inter', '-apple-system', 'BlinkMacSystemFont', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        mono:  ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace']
+      },
+      fontSize: {
+        'kicker':    ['11px',  { letterSpacing: '0.18em', lineHeight: '1.2', fontWeight: '700' }],
+        'editorial': ['clamp(36px, 5.5vw, 64px)', { lineHeight: '1.04', letterSpacing: '-0.025em', fontWeight: '800' }],
+        'lede':      ['clamp(17px, 1.4vw, 19px)', { lineHeight: '1.55', fontWeight: '400' }]
+      },
+      boxShadow: {
+        'card':  '0 1px 2px rgba(11,18,32,0.04), 0 4px 12px rgba(11,18,32,0.05)',
+        'lift':  '0 2px 6px rgba(11,18,32,0.06), 0 14px 32px rgba(11,18,32,0.11)',
+        'press': 'inset 0 1px 2px rgba(11,18,32,0.08)'
+      },
+      transitionTimingFunction: {
+        'editorial': 'cubic-bezier(0.2, 0.7, 0.2, 1)'
+      },
+      keyframes: {
+        'fade-rise':  { '0%': { opacity: '0', transform: 'translateY(8px)' },
+                        '100%': { opacity: '1', transform: 'translateY(0)' } },
+        'pulse-soft': { '0%,100%': { opacity: '0.65' }, '50%': { opacity: '1' } }
+      },
+      animation: {
+        'fade-rise': 'fade-rise 0.5s cubic-bezier(0.2,0.7,0.2,1) both',
+        'pulse-soft': 'pulse-soft 3s ease-in-out infinite'
+      }
+    }
+  }
+};
+</script>
+<style type="text/tailwindcss">
+  @layer base {
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Serif 4','Georgia',serif;
+      color: #0B1220;
+      background: #FAF8F3;
+      font-size: 16.5px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+      text-rendering: optimizeLegibility;
+    }
+    /* Tabular figures for numbers everywhere — keeps counts column-aligned */
+    .tabular-nums, [data-figure-target] text, .count, time, .stat {
+      font-feature-settings: 'tnum' 1, 'kern' 1;
+      font-variant-numeric: tabular-nums;
+    }
+    ::selection { background: #D4A01755; }
+    /* Headings: refined editorial rhythm */
+    h1, h2, h3 { font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'lnum' 1; }
+  }
+  @layer components {
+    /* Editorial drop-cap on first letter of the lede paragraph */
+    .drop-cap::first-letter {
+      font-family: 'Source Serif 4', serif;
+      float: left;
+      font-size: 4.2em;
+      line-height: 0.85;
+      padding: 0.05em 0.12em 0 0;
+      color: #13294B;
+      font-weight: 800;
+    }
+    /* Gold-bar accent rule between sections */
+    .editorial-rule {
+      height: 2px;
+      background: linear-gradient(90deg, #D4A017 0%, #D4A01755 30%, transparent 100%);
+      border: 0;
+    }
+    /* Recurrence chip: shown in the hero "signals converging" block */
+    .signal-chip {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      padding: 0.55rem 0.85rem 0.55rem 0.9rem;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.86);
+      border: 1px solid #E8E2D5;
+      backdrop-filter: blur(6px);
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: #13294B;
+      transition: transform 0.18s cubic-bezier(0.2,0.7,0.2,1), box-shadow 0.18s, border-color 0.18s;
+      cursor: default;
+    }
+    .signal-chip:hover {
+      transform: translateY(-1px);
+      border-color: #D4A017;
+      box-shadow: 0 2px 6px rgba(11,18,32,0.06), 0 8px 20px rgba(11,18,32,0.08);
+    }
+    .signal-chip .count {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      color: #4E5667;
+      letter-spacing: 0.05em;
+    }
+    .signal-chip .conf-dot {
+      width: 6px; height: 6px; border-radius: 9999px;
+      background: #D4A017;
+      box-shadow: 0 0 0 2px rgba(212,160,23,0.18);
+    }
+    .signal-chip[data-conf="high"]   .conf-dot { background: #13294B; box-shadow: 0 0 0 2px rgba(19,41,75,0.18); }
+    .signal-chip[data-conf="medium"] .conf-dot { background: #D4A017; }
+    .signal-chip[data-conf="low"]    .conf-dot { background: #C9C1B2; box-shadow: none; }
+    /* NEW marker -- intentionally loud */
+    .new-pill {
+      display: inline-block;
+      background: #D4A017;
+      color: #0B1220;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 9.5px;
+      padding: 2px 6px 1.5px;
+      letter-spacing: 0.12em;
+      border-radius: 3px;
+      vertical-align: 0.18em;
+      margin-right: 6px;
+    }
+    /* Stale-state badges */
+    .stale-pill {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 10.5px; font-weight: 600;
+      padding: 2px 7px; border-radius: 3px;
+      letter-spacing: 0.06em;
+      margin-left: 8px;
+      vertical-align: 0.18em;
+    }
+    .stale-pill.carry  { background: #FFF2CC; color: #856404; border: 1px solid #E6C75A; }
+    .stale-pill.failed { background: #FCE4D6; color: #8B3A0E; border: 1px solid #D27F5A; }
+    .stale-pill.none   { background: #E5E7EB; color: #4B5563; border: 1px solid #C9C1B2; }
+    /* Section emoji as oversized background flourish in card header */
+    .section-glyph {
+      font-size: 38px;
+      line-height: 1;
+      filter: saturate(0.85);
+    }
+    /* Editorial pull-quote: large serif italic, gold-rule accent.
+       Used in the hero "story of the day" treatment. */
+    .pull-quote {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: clamp(20px, 2.2vw, 26px);
+      line-height: 1.32;
+      color: #0B1220;
+      padding-left: 1.05rem;
+      border-left: 3px solid #D4A017;
+      letter-spacing: -0.005em;
+    }
+    /* Figure-card hover: gold accent bar slides in from left.
+       Subtle but unmistakably-editorial cue. */
+    .figure-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .figure-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: #D4A017;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.28s cubic-bezier(0.2,0.7,0.2,1);
+    }
+    .figure-card:hover::before { transform: scaleY(1); }
+    /* "Stat block" — oversized number with caption beneath. */
+    .stat-block .stat {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 800;
+      font-size: clamp(40px, 4.4vw, 56px);
+      line-height: 0.96;
+      letter-spacing: -0.025em;
+      color: #13294B;
+    }
+    .stat-block .stat-label {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #4E5667;
+      margin-top: 6px;
+    }
+    /* Vega chart frame — restrained look that matches the card chrome */
+    [data-vega-target] .vega-embed {
+      width: 100%;
+      display: block;
+    }
+    [data-vega-target] svg { display: block; max-width: 100%; }
+  }
+  @layer utilities {
+    /* Glass strip used by sticky topnav over the canvas background */
+    .glass-nav {
+      background: linear-gradient(180deg, rgba(19,41,75,0.96) 0%, rgba(31,61,110,0.94) 100%);
+      backdrop-filter: blur(8px);
+    }
+    /* Card hover lift -- used across hero and section cards */
+    .lift-card {
+      transition: transform 0.22s cubic-bezier(0.2,0.7,0.2,1),
+                  box-shadow 0.22s cubic-bezier(0.2,0.7,0.2,1),
+                  border-color 0.22s;
+    }
+    .lift-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 2px 6px rgba(11,18,32,0.06), 0 14px 32px rgba(11,18,32,0.11);
+    }
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+    /* Print stylesheet -- strip navigation, expand details, ink-on-paper */
+    @media print {
+      .glass-nav, footer .actions, .ws-bg, details > summary::-webkit-details-marker { display: none !important; }
+      details { open: ''; }
+      details > div { display: block !important; }
+      body { background: #fff; }
+    }
+  }
+</style>
+
+<style>
+  .ws-bg { position: fixed; inset: 0; z-index: -1; pointer-events: auto; opacity: 0.55; }
+  .ws-bg canvas { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body class="font-serif text-ink bg-parchment">
+<div class="ws-bg" aria-hidden="true"><canvas id="ws-network"></canvas></div>
+<script type="application/json" id="ws-network-seed">{}</script>
+<script src="../../assets/network.js" defer></script>
+<nav class="glass-nav sticky top-0 z-50 text-white border-b-2 border-gold shadow-md" role="navigation" aria-label="Primary">
+  <div class="max-w-[1200px] mx-auto px-7 py-3 flex flex-wrap items-center gap-5 font-sans text-[13px]">
+    <a href="../../index.html" class="font-extrabold tracking-[0.10em] uppercase text-white text-[13.5px]">
+      <span class="text-gold mr-1">◆</span>WORLDSCOPE
+    </a>
+    <a href="../../index.html" class="text-mist hover:text-white transition-colors">Today</a>
+    <a href="../../threads/" class="text-mist hover:text-white transition-colors">Threads</a>
+    <a href="../../graph/" class="text-mist hover:text-white transition-colors">Graph</a>
+    <a href="../../sections/" class="text-mist hover:text-white transition-colors">Sections</a>
+    <a href="../../briefings/" class="text-mist hover:text-white transition-colors">Archive</a>
+    <span class="flex-1"></span>
+    <span class="text-mist/85 text-[12px] pl-3.5 ml-1 border-l border-white/20">Dr. Ian Helfrich</span>
+  </div>
+</nav>
+
+<main class="px-7 max-w-[1100px] mx-auto pt-10 pb-16">
+  <div class="font-sans text-[12px] mb-4">
+    <a href="../" class="text-carolina hover:text-navy">← All threads</a>
+  </div>
+  <header class="mb-6">
+    <div class="flex items-baseline gap-3 mb-3 flex-wrap">
+      <div class="font-sans text-kicker text-gold uppercase">person &middot; THREAD</div>
+      <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-ink px-2 py-0.5 rounded bg-gold">active</span>
+    </div>
+    <h1 class="font-serif text-editorial text-ink mb-3">Jackson</h1>
+    <p class="font-serif text-lede text-slate max-w-3xl mb-5">Jackson has surfaced in 26 items across 4 sections over 4 days; active today.</p>
+    <div class="font-sans text-[12.5px] text-slate flex flex-wrap gap-x-5 gap-y-1">
+      <span><span class="text-slate-dim">Days active:</span> <strong class="text-navy tabular-nums">4</strong></span>
+      <span><span class="text-slate-dim">Total items:</span> <strong class="text-navy tabular-nums">26</strong></span>
+      <span><span class="text-slate-dim">Sections:</span> <strong class="text-navy">courtlistener, political_figures, state_news, weather</strong></span>
+      <span><span class="text-slate-dim">Heat:</span> <strong class="text-navy tabular-nums">144.2</strong></span>
+    </div>
+  </header>
+  <hr class="editorial-rule mb-6">
+  
+<section class="mb-7">
+  <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-gold mb-3 flex items-baseline gap-3">
+    <span class="tabular-nums">TODAY</span>
+    <span class="text-slate-dim font-normal normal-case tracking-normal text-[12px]">8 items</span>
+  </h2>
+  <ul class="list-none p-0 m-0">
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Representative: Jonathan Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Jonathan Jackson (Representative). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mentions: 0. Co</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Representative: Ronny Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Ronny Jackson (Representative). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mentions: 0. Court</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Associate Justice: Ketanji Brown Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Ketanji Brown Jackson (Associate Justice). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mention</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://georgiarecorder.com/briefs/carr-backs-businessman-rick-jackson-in-georgias-gop-runoff-for-governor/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Georgia] Carr backs businessman Rick Jackson in Georgia’s GOP runoff for governor</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Georgia Attorney General Chris Carr, whose unsuccessful run for governor ended last week when he finished fourth in the Republican primary, has endorsed wealthy healthcare executive Rick Jackson. Jackson, who received about 33% of the vote,</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://idahocapitalsun.com/2026/05/26/do-jackson-holes-busiest-trails-create-a-wildlife-sacrifice-zone-study-finds-coexistence/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Idaho] Do Jackson Hole’s busiest trails create a wildlife ‘sacrifice zone’? Study finds coexistence.</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">This story was first published by WyoFile on May 20, 2026. Trail runners, mountain bikers, cross-country skiers and townsfolk just out for lunchtime walks take to the trails around Jackson in droves. Bordering wild country that includes a w</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://www.pressherald.com/2026/05/27/troy-jackson-surges-in-new-maine-governor-poll/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Maine] Troy Jackson surges in new Maine governor poll</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">&lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;683&quot; src=&quot;https://www.pressherald.com/wp-content/uploads/sites/4/2026/05/43612460_20260525_Bernie_2.jpg?w=1024&quot; class=&quot;attachment-rss-image-size size-rss-image-size wp-post-image&quot; alt=&quot;&quot; decoding=&quot;async&quot; lo</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://mississippitoday.org/2026/05/27/jackson-data-center-rezoning-postponed/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Mississippi] Jackson data center rezoning hearing postponed</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Protesters gather during a Jackson Planning Board meeting opposing a possible data center in Jackson on Wednesday, May 27, 2026.</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://wyofile.com/local-lookout-blaze-destroys-cheyenne-apartments-jackson-workforce-housing-school-cellphone-ban-debate/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Wyoming] Local Lookout: Blaze destroys Cheyenne apartments | Jackson workforce housing | School cellphone ban debate</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">&lt;div&gt;&lt;img width=&quot;300&quot; height=&quot;225&quot; src=&quot;https://wyofile.com/wp-content/uploads/2025/09/Local-Lookout-Wednesday-300x225.png&quot; class=&quot;attachment-medium size-medium wp-post-image&quot; alt=&quot;&quot; style=&quot;margin-bottom: 15px;&quot; decoding=&quot;async&quot; srcset=&quot;htt</div>
+</li></ul>
+</section>
+<section class="mb-7">
+  <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3 flex items-baseline gap-3">
+    <span class="tabular-nums">2026-05-27</span>
+    <span class="text-slate-dim font-normal normal-case tracking-normal text-[12px]">8 items</span>
+  </h2>
+  <ul class="list-none p-0 m-0">
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Representative: Jonathan Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Jonathan Jackson (Representative). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mentions: 0. Co</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Representative: Ronny Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Ronny Jackson (Representative). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mentions: 0. Court</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">political_figures</span>
+    <a class="font-serif font-medium text-[15px] text-ink leading-snug">Associate Justice: Ketanji Brown Jackson (anomaly 0.00)</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Ketanji Brown Jackson (Associate Justice). Composite anomaly score 0.000. Components: stock 0.00, speech-volume 0.00, topic-drift 0.00, gdelt-tone 0.00, filings 0.00, enforcement 0.00. PTRs: 0. GDELT mentions: 0. Form 4 hits: 0. DOJ mention</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://georgiarecorder.com/briefs/carr-backs-businessman-rick-jackson-in-georgias-gop-runoff-for-governor/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Georgia] Carr backs businessman Rick Jackson in Georgia’s GOP runoff for governor</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Georgia Attorney General Chris Carr, whose unsuccessful run for governor ended last week when he finished fourth in the Republican primary, has endorsed wealthy healthcare executive Rick Jackson. Jackson, who received about 33% of the vote,</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://www.pressherald.com/2026/05/27/troy-jackson-surges-in-new-maine-governor-poll/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Maine] Troy Jackson surges in new Maine governor poll</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">&lt;figure&gt;&lt;img width=&quot;1024&quot; height=&quot;683&quot; src=&quot;https://www.pressherald.com/wp-content/uploads/sites/4/2026/05/43612460_20260525_Bernie_2.jpg?w=1024&quot; class=&quot;attachment-rss-image-size size-rss-image-size wp-post-image&quot; alt=&quot;&quot; decoding=&quot;async&quot; lo</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://mississippitoday.org/2026/05/27/jackson-data-center-rezoning-postponed/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Mississippi] Jackson data center rezoning hearing postponed</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">Protesters gather during a Jackson Planning Board meeting opposing a possible data center in Jackson on Wednesday, May 27, 2026.</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://idahocapitalsun.com/2026/05/26/do-jackson-holes-busiest-trails-create-a-wildlife-sacrifice-zone-study-finds-coexistence/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[Idaho] Do Jackson Hole’s busiest trails create a wildlife ‘sacrifice zone’? Study finds coexistence.</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">This story was first published by WyoFile on May 20, 2026. Trail runners, mountain bikers, cross-country skiers and townsfolk just out for lunchtime walks take to the trails around Jackson in droves. Bordering wild country that includes a w</div>
+</li>
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">state_news</span>
+    <a href="https://ncnewsline.com/2026/05/25/duke-universitys-jackson-ewing-on-a-massive-merger-between-ncs-two-largest-electricity-providers/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[North Carolina] Duke University’s Jackson Ewing on a massive merger between NC’s two largest electricity providers</a>
+  </div>
+  <div class="text-slate text-[13px] leading-snug mt-1 font-sans">&amp;#160; Earlier this month, regulatory commissions in North and South Carolina approved a merger between the two energy monopolies that dominate electricity production and distribution in our state: Duke Energy Carolinas and Duke Energy Prog</div>
+</li></ul>
+</section>
+<section class="mb-7">
+  <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3 flex items-baseline gap-3">
+    <span class="tabular-nums">2026-05-26</span>
+    <span class="text-slate-dim font-normal normal-case tracking-normal text-[12px]">1 item</span>
+  </h2>
+  <ul class="list-none p-0 m-0">
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">courtlistener</span>
+    <a href="https://www.courtlistener.com/opinion/10861403/donte-jackson-v-protas-spivok-collins-llc/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[CA4] Donte Jackson v. Protas, Spivok &amp; Collins LLC</a>
+  </div>
+  
+</li></ul>
+</section>
+<section class="mb-7">
+  <h2 class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim mb-3 flex items-baseline gap-3">
+    <span class="tabular-nums">2026-05-25</span>
+    <span class="text-slate-dim font-normal normal-case tracking-normal text-[12px]">1 item</span>
+  </h2>
+  <ul class="list-none p-0 m-0">
+<li class="py-2.5 border-b border-mist last:border-b-0">
+  <div class="flex items-baseline gap-2 flex-wrap">
+    <span class="font-sans uppercase tracking-[0.10em] text-[10px] font-bold text-slate-dim">courtlistener</span>
+    <a href="https://www.courtlistener.com/opinion/10861403/donte-jackson-v-protas-spivok-collins-llc/" target="_blank" rel="noopener noreferrer" class="font-serif font-medium text-[15px] text-navy hover:text-gold leading-snug">[CA4] Donte Jackson v. Protas, Spivok &amp; Collins LLC</a>
+  </div>
+  
+</li></ul>
+</section>
+</main>
+
+
+</body>
+</html>

@@ -138,7 +138,8 @@ def _top_new_items(states: dict, limit: int = 3) -> list[tuple[str, str, dict]]:
     return out
 
 
-def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
+def _hero_block(date_obj: date, cross_section: dict, states: dict,
+                 threads: Optional[dict] = None) -> str:
     kicker = date_obj.strftime("%A · %B %-d, %Y").upper()
     chips_html = _signal_chips(cross_section)
     chips_count = (cross_section or {}).get("recurrences_found", 0)
@@ -153,6 +154,15 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
             break
         if top_entity:
             break
+
+    # If we have story threads, the top active one becomes the lead
+    # for the pull-quote (more narrative than the bare cross-section signal).
+    top_thread = None
+    if threads and threads.get("threads"):
+        for t in threads["threads"]:
+            if t.get("is_active_today"):
+                top_thread = t
+                break
 
     top_news = _top_new_items(states, limit=3)
     news_cards = []
@@ -188,10 +198,22 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
     ) if chips_count else 'No cross-section recurrence today.'
 
     # The "stat block" — pulled into the hero on the right side. Shows
-    # total NEW today, the leading converging entity, and a quick
-    # one-line story of the day. Renders restrained on mobile, dramatic
-    # on lg+.
-    if top_entity:
+    # total NEW today, the leading thread (if any), and the cross-section
+    # signal as fallback. The thread treatment makes the brief
+    # longitudinal: instead of "China appeared in 3 sections today" we
+    # say "China — 382 items across 13 sections over 4 days." A link
+    # takes the reader straight to the thread page.
+    if top_thread:
+        slug = html.escape(top_thread["slug"], quote=True)
+        story_quote = (
+            f"<a href='./threads/{slug}/' class='text-navy hover:text-gold no-underline border-b border-gold/40 hover:border-gold transition-colors'>"
+            f"<strong>{html.escape(top_thread['title'])}</strong></a> — "
+            f"<strong class='text-navy tabular-nums'>{top_thread['items_total']:,}</strong> items across "
+            f"<strong class='text-navy tabular-nums'>{len(top_thread['sections_touched'])}</strong> sections "
+            f"over <strong class='text-navy tabular-nums'>{top_thread['days_active']}</strong> days. "
+            f"<span class='text-slate text-[0.85em]'>The dominant thread.</span>"
+        )
+    elif top_entity:
         story_quote = (
             f"<strong class='text-navy'>{html.escape(top_entity.get('canonical_name','?'))}</strong> "
             f"appeared in <strong class='text-navy'>{int(top_entity.get('n_sections') or 0)}</strong> "
@@ -259,6 +281,52 @@ def _hero_block(date_obj: date, cross_section: dict, states: dict) -> str:
   </div>
 </section>
 """
+
+
+# -----------------------------------------------------------------------------
+# Threads band: multi-day arcs surfaced as a horizontal scroller of cards
+# -----------------------------------------------------------------------------
+
+def _threads_band(threads_doc: Optional[dict]) -> str:
+    """Render the active-threads strip. Shows up to 6 threads ranked by
+    heat, each a clickable card linking to /threads/<slug>/. Omitted
+    entirely when no threads exist (no empty skeleton)."""
+    threads = (threads_doc or {}).get("threads") or []
+    threads = [t for t in threads if t.get("is_active_today")]
+    threads = threads[:6]
+    if not threads:
+        return ""
+    cards: list[str] = []
+    for t in threads:
+        slug   = html.escape(t["slug"], quote=True)
+        title  = html.escape(t["title"])
+        etype  = html.escape((t.get("entity_type") or "topic").split(":")[0])
+        n_secs = len(t.get("sections_touched") or [])
+        cards.append(f"""
+<a href="./threads/{slug}/"
+   class="lift-card shrink-0 w-[260px] bg-panel border border-mist rounded-lg p-4 shadow-card border-l-[3px] border-l-gold animate-fade-rise no-underline">
+  <div class="font-sans uppercase tracking-[0.16em] text-[10px] font-bold text-slate-dim mb-1.5">{etype} &middot; {t["days_active"]}d</div>
+  <div class="font-serif text-[16.5px] font-bold text-ink leading-tight mb-1.5 tracking-[-0.012em]">{title}</div>
+  <div class="font-sans text-[11.5px] text-slate tabular-nums">
+    <span class="text-navy font-bold">{t["items_total"]:,}</span> items &middot;
+    <span class="text-navy font-bold">{n_secs}</span> sections
+  </div>
+</a>""")
+    return f"""
+<section class="px-7 max-w-[1200px] mx-auto mb-10" aria-labelledby="threads-h">
+  <hr class="editorial-rule mb-6">
+  <div class="flex items-baseline justify-between mb-4 flex-wrap gap-3">
+    <h2 id="threads-h" class="font-sans uppercase tracking-[0.18em] text-[11px] font-bold text-slate-dim">
+      Story threads &middot; running this week
+    </h2>
+    <a href="./threads/" class="font-sans text-[12px] font-semibold text-navy hover:text-gold transition-colors">
+      All threads →
+    </a>
+  </div>
+  <div class="flex gap-4 overflow-x-auto pb-3 -mx-1 px-1" style="scrollbar-width: thin">
+    {"".join(cards)}
+  </div>
+</section>"""
 
 
 # -----------------------------------------------------------------------------
@@ -341,7 +409,76 @@ def _staleness_pill(state) -> str:
     return ""
 
 
-def _section_card(state, synth_text: Optional[str] = None) -> str:
+TIER_LABEL = {
+    "primary_document":      ("primary", "bg-navy text-white"),
+    "mainstream_independent":("mainstream", "bg-mist text-navy border border-mist-strong"),
+    "regional_independent":  ("regional", "bg-mist text-slate border border-mist-strong"),
+    "ngo_independent":       ("ngo", "bg-mist text-teal border border-mist-strong"),
+    "academic":              ("academic", "bg-mist text-carolina border border-mist-strong"),
+    "social":                ("social", "bg-mist text-slate-dim border border-mist-strong"),
+}
+
+
+def _source_tier_pill(state) -> str:
+    tier = getattr(state, "source_tier", "") or ""
+    label, klass = TIER_LABEL.get(tier, ("", ""))
+    if not label:
+        return ""
+    src_name = html.escape(getattr(state, "source_name", "") or "")
+    title_attr = f' title="{src_name}"' if src_name else ""
+    return (f'<span class="inline-block font-sans uppercase tracking-[0.10em] '
+            f'text-[9.5px] font-bold {klass} px-1.5 py-0.5 rounded mr-1"'
+            f'{title_attr}>{label}</span>')
+
+
+def _volume_anomaly_pill(state, store_db_path: Optional[Path] = None) -> str:
+    """Show a small +Nσ or -Nσ marker when today's volume is significantly
+    off the trailing 7-day mean. Computed quietly from the snapshot store
+    so it never blocks rendering on slow IO."""
+    if not store_db_path or not Path(store_db_path).exists():
+        return ""
+    try:
+        import sqlite3, json as _json, statistics as _stats
+        today_n = len(getattr(state, "items", []) or [])
+        if today_n == 0:
+            return ""
+        conn = sqlite3.connect(f"file:{store_db_path}?mode=ro", uri=True)
+        try:
+            cur = conn.execute(
+                "SELECT payload FROM snapshots WHERE section_id = ? "
+                "  AND snapshot_date < ? "
+                "  AND snapshot_date >= date(?, '-13 days') "
+                "ORDER BY snapshot_date DESC LIMIT 7",
+                (state.section_id, state.source_date or date.today().isoformat(),
+                 state.source_date or date.today().isoformat()),
+            )
+            counts = []
+            for (p,) in cur.fetchall():
+                try:
+                    counts.append(len(_json.loads(p).get("items") or []))
+                except Exception:
+                    pass
+        finally:
+            conn.close()
+        if len(counts) < 3:
+            return ""
+        mean = _stats.mean(counts)
+        sd   = _stats.pstdev(counts) or 1.0
+        z    = (today_n - mean) / sd
+        if abs(z) < 1.5:
+            return ""
+        sign = "+" if z > 0 else ""
+        klass = "bg-teal text-white" if z > 0 else "bg-crimson text-white"
+        return (f'<span class="inline-block font-sans uppercase tracking-[0.10em] '
+                f'text-[9.5px] font-bold {klass} px-1.5 py-0.5 rounded ml-1.5" '
+                f'title="today {today_n} vs trailing-7 mean {mean:.1f} (σ={sd:.1f})">'
+                f'{sign}{z:.1f}σ</span>')
+    except Exception:
+        return ""
+
+
+def _section_card(state, synth_text: Optional[str] = None,
+                   store_db_path: Optional[Path] = None) -> str:
     title = html.escape(getattr(state, "title", "") or state.section_id)
     emoji = html.escape(getattr(state, "emoji", "📌") or "📌")
     items = list(getattr(state, "items", []) or [])
@@ -349,6 +486,8 @@ def _section_card(state, synth_text: Optional[str] = None) -> str:
     total = len(items)
     n_new = len(new_ids)
     stale = _staleness_pill(state)
+    tier  = _source_tier_pill(state)
+    anomaly = _volume_anomaly_pill(state, store_db_path=store_db_path)
 
     # Bring NEW items to the top, then keep relative order
     new_first: list[dict] = []
@@ -412,8 +551,8 @@ def _section_card(state, synth_text: Optional[str] = None) -> str:
           class="font-serif text-[19px] font-bold text-navy leading-tight mb-0.5">
         {title}{stale}
       </h2>
-      <div class="font-sans text-[11.5px] uppercase tracking-[0.10em] text-slate-dim">
-        <span class="text-navy font-bold">{n_new} new</span> &middot; {total} total
+      <div class="font-sans text-[11.5px] uppercase tracking-[0.10em] text-slate-dim flex items-center flex-wrap gap-y-1">
+        {tier}<span class="text-navy font-bold">{n_new} new</span> &middot; {total} total{anomaly}
       </div>
     </div>
   </header>
@@ -475,6 +614,8 @@ def render_page(
     synth_by_section: Optional[dict[str, str]] = None,
     cross_section: Optional[dict] = None,
     figures: Optional[dict] = None,
+    threads: Optional[dict] = None,
+    store_db_path: Optional[Path] = None,
     network_seed_json: str = "{}",
 ) -> Path:
     """Render today's brief. When `states` is provided, builds the modern
@@ -484,8 +625,9 @@ def render_page(
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    hero = _hero_block(date_obj, cross_section or {}, states or {})
+    hero = _hero_block(date_obj, cross_section or {}, states or {}, threads=threads)
     figures_band = _figures_block(figures)
+    threads_band = _threads_band(threads)
     overview = _overview_block(overview_md)
 
     # Section cards. If we have states (the modern path), render every
@@ -493,7 +635,9 @@ def render_page(
     # caller produced.
     if states:
         synths = synth_by_section or {}
-        cards = [_section_card(st, synth_text=synths.get(sid)) for sid, st in states.items()]
+        cards = [_section_card(st, synth_text=synths.get(sid),
+                                store_db_path=store_db_path)
+                 for sid, st in states.items()]
         sections_block = (
             '<section class="px-7 max-w-[1200px] mx-auto pb-12" aria-label="Sections">'
             '<hr class="editorial-rule mb-7">'
@@ -510,7 +654,7 @@ def render_page(
         )
 
     archive_html = _archive_nav(archive_dates)
-    main_body = f"<main>{hero}{figures_band}{overview}{sections_block}{archive_html}</main>{footer_block()}"
+    main_body = f"<main>{hero}{threads_band}{figures_band}{overview}{sections_block}{archive_html}</main>{footer_block()}"
 
     page = page_shell(
         title=f"WORLDSCOPE · {date_obj.isoformat()}",
