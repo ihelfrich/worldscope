@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-05-29
-record_count: 15
-new_today: 0
+record_count: 16
+new_today: 1
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 15 total items today.
+1 new of 16 total items today.
 
+- **NEW**  [CVE-2026-0257 · Palo Alto Networks PAN-OS: Palo Alto Networks PAN-OS Authentication Bypass Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-0257) — *2026-05-29*
+  > vendor: Palo Alto Networks · product: PAN-OS · CISA remediation by 2026-06-01
 - [CVE-2026-48027 · Nx Nx Console: Nx Console Embedded Malicious Code Vulnerability [RANSOMWARE-LINKED]](https://nvd.nist.gov/vuln/detail/CVE-2026-48027) — *2026-05-27*
   > vendor: Nx · product: Nx Console · CISA remediation by 2026-06-10
 - [CVE-2026-45321 · TanStack TanStack: TanStack Unspecified Vulnerability [RANSOMWARE-LINKED]](https://nvd.nist.gov/vuln/detail/CVE-2026-45321) — *2026-05-27*

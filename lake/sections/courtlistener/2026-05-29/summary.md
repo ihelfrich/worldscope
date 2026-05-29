@@ -3,13 +3,13 @@ section: courtlistener
 title: Court opinions of consequence (federal)
 date: 2026-05-29
 record_count: 30
-new_today: 9
+new_today: 10
 state: fresh
 ---
 
 ## Court opinions of consequence (federal)
 
-9 new of 30 total items today.
+10 new of 30 total items today.
 
 - **NEW**  [[SCOTUS] Fernandez v. United States](https://www.courtlistener.com/opinion/10865527/fernandez-v-united-states/) — *2026-05-28*
 - **NEW**  [[SCOTUS] Flowers Foods, Inc. v. Brock](https://www.courtlistener.com/opinion/10865526/flowers-foods-inc-v-brock/) — *2026-05-28*
@@ -31,10 +31,10 @@ state: fresh
 - [[CA1] Vasquez-Chavez v. Bondi](https://www.courtlistener.com/opinion/10863498/vasquez-chavez-v-bondi/) — *2026-05-22*
 - [[CA1] Arocho-Rodriguez v. Roldan-Concepcion](https://www.courtlistener.com/opinion/10863027/arocho-rodriguez-v-roldan-concepcion/) — *2026-05-21*
 - [[CA1] United States v. Ortiz-Rodriguez](https://www.courtlistener.com/opinion/10862439/united-states-v-ortiz-rodriguez/) — *2026-05-20*
+- **NEW**  [[CA3] Patria Laureano v. Attorney General United States of America](https://www.courtlistener.com/opinion/10866282/patria-laureano-v-attorney-general-united-states-of-america/) — *2026-05-29*
 - **NEW**  [[CA3] SLT Imports Inc v. SAR Transport Systems Pvt Ltd](https://www.courtlistener.com/opinion/10865631/slt-imports-inc-v-sar-transport-systems-pvt-ltd/) — *2026-05-28*
 - [[CA3] United States v. Paul Girard](https://www.courtlistener.com/opinion/10864336/united-states-v-paul-girard/) — *2026-05-26*
 - [[CA3] Mahmoud Khalil v. President United States of America](https://www.courtlistener.com/opinion/10863452/mahmoud-khalil-v-president-united-states-of-america/) — *2026-05-22*
 - [[CA3] United States v. Jabar Evans](https://www.courtlistener.com/opinion/10861274/united-states-v-jabar-evans/) — *2026-05-19*
-- [[CA3] Sociedad Concesionaria Metropolitana de Salud S.A. v. Webuild S.P.A](https://www.courtlistener.com/opinion/10860703/sociedad-concesionaria-metropolitana-de-salud-sa-v-webuild-spa/) — *2026-05-18*
 
 _(5 additional items in raw.jsonl)_

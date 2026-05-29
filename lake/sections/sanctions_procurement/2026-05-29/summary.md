@@ -2,23 +2,23 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-05-29
-record_count: 96
+record_count: 97
 new_today: 18
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-18 new of 96 total items today.
+18 new of 97 total items today.
 
 - **NEW**  [[OFAC] Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JaWJWcmlkbmQ2NU5oRnlxRkx1blBweGRaWW55dDdfWWk1d2ZONTY5N3FKOEg4UGJOVEZPZmk3czBQT2s1TWpMTjBzTUo2MXpPZGtoMFF3Ul9tRzhJcWg0V3RB?oc=5" target="_blank">Iran-related Designations; Issuance of Russia-related General License and A
 - [[OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related Designation; Counter Terrorism Designation</a>&nbsp;&nbsp;<fon
-- [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
 - **NEW**  [[OFAC] Designations Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE42SnA2VXlwRlY1bEFUcml3VW0yY3g0MW9qd2dLZC15Yjk5bHZVTlRPRkp1eXBudDZGUWE5X3RSQ0czYmc5ZGNwWFFSWGxwR3dHNjh0ckhkWlFZWWVNUGc?oc=5" target="_blank">Designations Removals</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Ass
+- [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
 - **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiSUxCVkxFTVQzeHkybjNQTW5HVERKWjFkMGVrUTQ4UW1uVHlGc2xSZ1ZadlFnWm9FZ0ZaNnZIT1BzbEJjdExFZ2tsYXRiZk54akJkTG1JQXVSMnpQR1AtNEJfbkU?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[BIS Entity List] page checksum 9b92c4bcb0d5](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-05-29*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $1,159,611,054 → SCIENCE APPLICATIONS INTERNATIONAL CORPORATION: THE SCOPE OF THE TO IS TO PROVIDE ENTERPRISE IT SERVICES FOR](https://www.usaspending.gov/award/47QFCA21F0001) — *2026-05-29*
   > Agency: General Services Administration.  Description: THE SCOPE OF THE TO IS TO PROVIDE ENTERPRISE IT SERVICES FOR THE USACE.
 
-_(71 additional items in raw.jsonl)_
+_(72 additional items in raw.jsonl)_

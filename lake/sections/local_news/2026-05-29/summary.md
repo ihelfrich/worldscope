@@ -2,52 +2,54 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-05-29
-record_count: 229
-new_today: 198
+record_count: 252
+new_today: 229
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-198 new of 229 total items today.
+229 new of 252 total items today.
 
-- **NEW**  [[St. Louis] Florentin moves to former Steve’s Hot Dogs space in the Delmar Maker District](https://www.stlmag.com/dining/florentin-moving-to-former-steves-hot-dogs-space-in-the-delmar-maker-district/) — *2026-05-28*
-  > <p>Florentin, Ben Poremba’s acclaimed brunch spot, is getting a new address—just a few doors from its current one. Last month, the chef and restaurateur announced that the restaurant will relocate to the former Steve’s Hot Dogs space, at 5248 Delmar. Florentin’s last day at the o
-- **NEW**  [[St. Louis] ‘Dinoroarus’ stomps back to the Saint Louis Zoo with roaring animatronic, prehistoric fun](https://www.stlmag.com/family/dinoroarus-saint-louis-zoo/) — *2026-05-28*
-  > <p>This summer, the Saint Louis Zoo is turning back the clock about 200 million years. Cue the tiny dinosaur obsessions and Jurassic Park soundtracks: Dinoroarus is officially returning to the Saint Louis Zoo. Opening June 19, the seasonal walk-through attraction transforms Histo
-- **NEW**  [[St. Louis] Lou’s Clues – 6/1/2026](https://www.stlmag.com/games/lous-clues-060126/) — *2026-05-28*
-  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- **NEW**  [[St. Louis] Richard Kind is ready for his Muny debut in ‘Hairspray’](https://www.stlmag.com/culture/richard-kind-is-ready-for-his-muny-debut-in-hairspray/) — *2026-05-28*
-  > <p>While character actor Richard Kind is perhaps best known for his many supporting parts, he will be stepping into a leading role as Edna Turnblad in The Muny’s production of Hairspray, on stage at the Forest Park theater from June 15-21. Kind has built a career on memorable sup
-- **NEW**  [[St. Louis] What’s True in the Lou? – 5/29/2026](https://www.stlmag.com/games/whats-true-in-the-lou-052926/) — *2026-05-28*
-  > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
-- **NEW**  [[St. Louis] Mark your calendars for these summer fairs and festivals](https://www.stlmag.com/culture/fairs-festivals/st-louis-summer-fairs-and-festivals/) — *2026-05-28*
-  > <p>ALL SUMMER LONG Enjoy some Shakespeare in the Park as the St. Louis Shakespeare Festival puts on their annual production in Forest Park. The Tempest, directed by former fest artistic director Rick Dildine, will transform Shakespeare Glen into a mysterious island for a month of
-- **NEW**  [[St. Louis] How one St. Louis family is making local race and triathlon culture more accessible for parents](https://www.stlmag.com/family/beyond-the-start-line/) — *2026-05-28*
-  > <p>At most races, Molly Carr notices the same thing: parents trying to juggle snacks, strollers, parking logistics, bathroom breaks, and nervous kids before the starting horn even sounds. “That’s the stuff nobody tells you,” Carr says with a laugh. The South City mom of three and
-- [[St. Louis] How WashU’s Tim Miller helped pioneer a major breakthrough for ALS](https://www.stlmag.com/news/washu-medicine-tim-miller-als-breakthrough/) — *2026-05-28*
-  > <p>Dr. Tim Miller and the drug tofersen are the talk of the medical world after a test led by Miller showed that tofersen could achieve remarkable results for patients with ALS, also known as amyotrophic lateral sclerosis or Lou Gehrig’s disease. As the New York Times detailed in
-- [[St. Louis] St. Louis business leaders seek to shake up the data center narrative](https://www.stlmag.com/business/stl-leaders-seek-to-shake-up-data-center-narrative/) — *2026-05-28*
-  > <p>Data centers are the topic that just won’t go away, and given the public acrimony surrounding them, local business leaders and other supporters are keen on reframing the conversation. Case-in-point was the panel convened yesterday by the regional business association Greater S
-- **NEW**  [[St. Louis] Top cannabis events across St. Louis](https://www.stlmag.com/culture/top-cannabis-events-st-louis/) — *2026-05-27*
-  > <p>May 29: Fried Friday May 31: Sunset Serenity Full Moon Floating Sound Immersion June 1: M4MM Minority Industry Mixer June 2-7: Cosmic Kinection 2026 June 2, 16: Tabletop Tuesday &#8211; DnD and Ice Cream Social June 2, 9, 16, 23, 30: Puff N’ Pose Yoga at The Church June 3, 10,
+- **NEW**  [[St. Louis] Longtime St. Charles prom and wedding reception hall demolished for multiyear redevelopment](https://www.stlpr.org/economy-business/2026-05-29/longtime-st-charles-prom-wedding-reception-hall-demolished-multiyear-redevelopment) — *2026-05-29*
+- **NEW**  [[St. Louis] St. Louis leaders hope to avoid escalation over police budget after commission ignores subpoena](https://www.stlpr.org/government-politics-issues/2026-05-29/st-louis-aldermen-police-budget-commission-ignores-subpoena) — *2026-05-29*
+- **NEW**  [[St. Louis] The legal decisions shaping the future of Missouri elections and local police](https://www.stlpr.org/show/st-louis-on-the-air/2026-05-29/the-legal-decisions-shaping-the-future-of-missouri-elections-and-local-police) — *2026-05-29*
+- **NEW**  [[St. Louis] Man charged with scamming tornado victims seeking home repairs in north St. Louis](https://www.stlpr.org/law-order/2026-05-29/man-charged-allegedly-scamming-tornado-victims-seeking-home-repair-north-st-louis) — *2026-05-29*
+- **NEW**  [[St. Louis] The story behind the proposed Gateway Arch National Park expansion into Illinois](https://www.stlpr.org/podcast/meet-me/2026-05-29/story-behind-gateway-arch-national-park-expansion-east-st-louis-illinois) — *2026-05-29*
+- **NEW**  [[St. Louis] St. Louis nonprofit hopes fund that gave $3,000 gift cards to tornado victims can be replicated](https://www.stlpr.org/news-briefs/2026-05-29/st-louis-nonprofit-fund-gift-cards-tornado-victims-replicated) — *2026-05-29*
+- **NEW**  [[St. Louis] A tuneful 'The Tempest' in Forest Park sings a Shakespearean song of rage and redemption](https://www.stlpr.org/arts/2026-05-29/tempest-forest-park-st-louis-shakespeare-festival-music) — *2026-05-29*
+- **NEW**  [[St. Louis] Illinois Lt. Gov. candidate Mitchell says he’s ready to step in if Pritzker leaves office](https://www.stlpr.org/podcast/politically-speaking/2026-05-29/illinois-gov-jb-pritzkers-running-mate-christian-mitchell) — *2026-05-29*
+- **NEW**  [[St. Louis] $30M federal grant for Lambert power plant is central to terminal consolidation](https://www.stlpr.org/economy-business/2026-05-28/federal-grant-lambert-power-plant-terminal-consolidation) — *2026-05-28*
+- **NEW**  [[St. Louis] Dick Durbin warns of deep divisions in farewell address to Illinois lawmakers](https://www.stlpr.org/government-politics-issues/2026-05-28/dick-durbin-warns-divisions-farewell-illinois-lawmakers) — *2026-05-28*
+- **NEW**  [[St. Louis] Best wheat beers in St. Louis right now](https://www.stlmag.com/dining/best-wheat-beers-st-louis/) — *2026-05-29*
+  > <p>There’s something about wheat beer that just works in St. Louis. Maybe it’s our German brewing roots. Maybe it’s the humidity that makes us crave something light and refreshing by June. Or maybe it’s because wheat beers hit a sweet spot that so many craft drinkers are rediscov
+- **NEW**  [[St. Louis] Inside the Independent Physicians Network strengthening St. Louis healthcare](https://www.stlmag.com/branded-content/arbor-fertility-independent-physicians-st-louis-aips-network/) — *2026-05-29*
+  > <p>When patients think about healthcare, they often picture a single physician visit. What they rarely see are the relationships between doctors behind the scenes that shape the quality of their care.&#160;Across St. Louis, connections between independent physicians are quietly i
+- **NEW**  [[St. Louis] Embrace fantasy at Faeded, the costume party where communal resistance meets queer art](https://www.stlmag.com/culture/embrace-fantasy-at-faeded-the-costume-party-where-communal-resistance-meets-queer-art/) — *2026-05-29*
+  > <p>Femmes in glittering gowns fit for a fae queen, queer folk dressed as elves, and people on stilts with pumpkin heads are just some of the things you could see at this year&#8217;s First Friday: Faeded, at the Contemporary Art Museum St. Louis and the Pulitzer Arts Foundation. 
+- **NEW**  [[St. Louis] Missouri cannabis group JAINE is helping women grow their careers](https://www.stlmag.com/business/missouri-cannabis-group-jaine-helping-women-grow-careers/) — *2026-05-29*
+  > <p>Female cannabis plants are the ones you know, the fuzzy buds with THC in them. The male plants are not psychoactive. So it only makes sense that the industry that has grown around selling cannabis should respect all things female, no? And yet, says JAINE co-president Kassie Fe
+- **NEW**  [[St. Louis] A guide to summer family fun in St. Louis](https://www.stlmag.com/family/a-guide-to-summer-family-fun-in-st-louis/) — *2026-05-29*
+  > <p>Summer is the season to make the most of days that are less defined by school and extracurricular activities, and more about enjoying time together with family and friends. This year, explore all that the St. Louis region has to offer, especially the many family-friendly attra
+- **NEW**  [[St. Louis] Film screenings to catch this month](https://www.stlmag.com/culture/film-screenings-to-catch-this-month/) — *2026-05-29*
+  > <p>Summer is here, and as the weather gets hotter, St. Louis is rich with great rep screenings. The Hi-Pointe Theatre has great restorations and a documentary classic on 35mm (in addition to stacked lineups for Bleak Week and QFest), Arkadin Cinema &#38; Bar kicks off their summe
+- **NEW**  [[St. Louis] Ask George: Do you have a favorite pick-your-own fruit farm in the St. Louis area?](https://www.stlmag.com/dining/ask-george-do-you-have-a-favorite-pick-your-own-fruit-farm-in-the-st-louis-area/) — *2026-05-29*
+  > <p>If there’s an ideal time for families to visit a pick-your-own fruit farm—and, in my opinion, there’s no better way to spend a few hours—it’s during those shoulder seasons between the end of school and the start of summer camp, or between the end of camp and the return to scho
+- **NEW**  [[St. Louis] Michelin-starred chef to spearhead culinary operations and new restaurant at The Inns at St. Albans](https://www.stlmag.com/dining/michelin-starred-chef-to-spearhead-culinary-operations-and-new-restaurant-at-inns-of-st-albans/) — *2026-05-29*
+  > <p>One of the region’s most enchanting event destinations is poised for a major culinary evolution. A three-chef team will soon take over culinary operations at The Inns at St. Albans, with accomplished chef Christopher Anderson at the helm. Anderson trained at the two-Michelin-s
+- **NEW**  [[St. Louis] Officer who shot Emeshyon Wilkins previously targeted a woman in a similar way, lawyer says](https://www.stlmag.com/news/officer-shot-emeyshon-wilkins-woman/) — *2026-05-29*
+  > <p>The attorney representing the family of a 17-year-old shot in the back by a St. Louis police officer says newly uncovered allegations involving the officer raise fresh questions about his credibility. The allegations also suggest government attorneys may have failed to turn ov
+- **NEW**  [[St. Louis] Tornado reveals stunning ceiling at newly reopened Cabanne Library](https://www.stlmag.com/news/tornado-cabanne-library-ceiling/) — *2026-05-29*
+  > <p>Few, if any, good things have come from the deadly tornado that ripped through St. Louis last May—but the ceiling that was revealed at the Cabanne Library has to be counted as one of them. Both the Cabanne Library and the Julia Davis Library suffered serious damage in the May 
 - **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-05-29*
   > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- [[St. Louis] Top Free OnlyFans: The Best Free Only Fans of 2026 - St. Louis Riverfront Times](https://www.riverfronttimes.com) — *2026-05-28*
+- [[St. Louis] Top 10 Swedish OnlyFans Stars Sharing Content in 2026 - St. Louis Riverfront Times](https://www.riverfronttimes.com) — *2026-05-29*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMQU9lS2FrV0dSbHZZZXgyckRzUy1OSDYyeGpBeVhlbENNbk9Ud25UVnVXc2FyZTdYSFlqRENxVkpoRUVOWjVIYS1lS2Vxa21oXzBxTXk4UTg1UXpqOXc?oc=5" target="_blank">Top 10 Swedish OnlyFans Stars Sharing Content in 2026</a>&nbsp;&nbsp;<font color
+- [[St. Louis] Top Free OnlyFans: The Best Free Only Fans of 2026 - St. Louis Riverfront Times](https://www.riverfronttimes.com) — *2026-05-29*
   > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MTW9pXzV4SnFuTUFieEdsRlBmTEVZVW5VZWxacHBzY3BFU244S3k2cUxrYVl4MkE4a0h1S2t2ejREQWc2TzVsNE1WdkwtXzhMRXlDRkMwUkJDdw?oc=5" target="_blank">Top Free OnlyFans: The Best Free Only Fans of 2026</a>&nbsp;&nbsp;<font color="#6f6f6
-- **NEW**  [[St. Louis] 10 Best Teen OnlyFans Models in 2026: Top Barely Legal Content Creators On OnlyFans - St. Louis Riverfront Times](https://www.riverfronttimes.com) — *2026-05-28*
-  > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE45LXhCSm41cndDYXBrN0hlYm9HRzB4TkFlQmYwU3BCRW4tNnRzTVltY3M5TFU0Tk5HWVNGQmNnMVZyWXNtMHltNmlMeGhpSTJSZW1IVjZQNmxXQQ?oc=5" target="_blank">10 Best Teen OnlyFans Models in 2026: Top Barely Legal Content Creators On OnlyFans</
-- **NEW**  [[Atlanta] Blue Origin rocket explodes on the launch pad during an engine-firing test](https://www.gpb.org/news/2026/05/29/blue-origin-rocket-explodes-on-the-launch-pad-during-engine-firing-test) — *2026-05-29*
-- **NEW**  [[Atlanta] WHO chief lands in Congo to address rare Ebola outbreak amid distrust and insecurity](https://www.gpb.org/news/2026/05/29/who-chief-lands-in-congo-address-rare-ebola-outbreak-amid-distrust-and-insecurity) — *2026-05-29*
-- **NEW**  [[Atlanta] Shrey Parikh, 14, wins the Scripps Spelling Bee after a nail-biting 'spell-off'](https://www.gpb.org/news/2026/05/29/shrey-parikh-14-wins-the-scripps-spelling-bee-after-nail-biting-spell-off) — *2026-05-29*
-- **NEW**  [[Atlanta] Which first lady feared her husband might be having a stroke? The quiz knows](https://www.gpb.org/news/2026/05/29/which-first-lady-feared-her-husband-might-be-having-stroke-the-quiz-knows) — *2026-05-29*
-- **NEW**  [[Atlanta] Why the U.S. cattle herd is at a 75-year low — and what it means for beef prices](https://www.gpb.org/news/2026/05/29/why-the-us-cattle-herd-at-75-year-low-and-what-it-means-for-beef-prices) — *2026-05-29*
-- **NEW**  [[Atlanta] Former AG Pam Bondi to testify before Congress over handling of the Epstein files](https://www.gpb.org/news/2026/05/29/former-ag-pam-bondi-testify-congress-over-handling-of-the-epstein-files) — *2026-05-29*
-- **NEW**  [[Atlanta] Replacing aging U.S. voting equipment will take years and billions of dollars](https://www.gpb.org/news/2026/05/29/replacing-aging-us-voting-equipment-will-take-years-and-billions-of-dollars) — *2026-05-29*
-- **NEW**  [[Atlanta] Former senior CIA officer took home gold bars and millions in cash, FBI says](https://www.gpb.org/news/2026/05/29/former-senior-cia-officer-took-home-gold-bars-and-millions-in-cash-fbi-says) — *2026-05-29*
-- **NEW**  [[Atlanta] FIFA's World Cup ticket sales outraged fans. Now they are under investigation](https://www.gpb.org/news/2026/05/28/fifas-world-cup-ticket-sales-outraged-fans-now-they-are-under-investigation) — *2026-05-28*
-- **NEW**  [[Atlanta] Treasury Department prepares $250 bill with Trump's face on it](https://www.gpb.org/news/2026/05/28/treasury-department-prepares-250-bill-trumps-face-on-it) — *2026-05-28*
-- **NEW**  [[Atlanta] GPB evening headlines for May 28, 2026](https://www.gpb.org/news/2026/05/28/gpb-evening-headlines-for-may-28-2026) — *2026-05-28*
-- **NEW**  [[Atlanta] Drake tops the charts, sets records and sweeps away the oldies](https://www.gpb.org/news/2026/05/28/drake-tops-the-charts-sets-records-and-sweeps-away-the-oldies) — *2026-05-28*
+- **NEW**  [[St. Louis] St. Louis police release suspect vehicle video in 2025 killing of two children](https://fox2now.com/news/missouri/st-louis-police-release-suspect-vehicle-video-in-2025-killing-of-two-children/) — *2026-05-29*
+  > One year following the shooting that killed two young brothers, police are continuing to ask the public for their help in finding the suspect.
+- **NEW**  [[St. Louis] ICE detains Missouri school employees amid asylum wait](https://fox2now.com/news/missouri/ice-detains-missouri-school-employees-amid-asylum-wait/) — *2026-05-28*
+  > Two employees for the Maplewood-Richmond Heights School District were detained by ICE at a recent immigration appointment.
 
-_(204 additional items in raw.jsonl)_
+_(227 additional items in raw.jsonl)_
