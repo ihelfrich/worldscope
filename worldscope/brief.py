@@ -118,6 +118,16 @@ SECTION_REGISTRY = [
 ]
 
 
+def _run_stage(label: str, fn) -> None:
+    """Run one defensive post-section stage. A failure here logs but never
+    blocks the brief — the daily run must complete even if graphics, maps, or
+    the site build fail."""
+    try:
+        fn()
+    except Exception as ex:  # pragma: no cover - defensive
+        print(f"[{label}] failed: {type(ex).__name__}: {ex}")
+
+
 def _list_archive(out_dir: Path) -> list[date]:
     out_dir = Path(out_dir)
     if not out_dir.exists():
@@ -181,72 +191,66 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
             marker = "  (no data)"
         print(f"[{sec.id}] state={state.state}  {len(state.new)} new / {len(state.items)} total{marker}")
 
-    # 1a. Populate the multilingual embedding index for today. Drives the
-    # cross-language MCP semantic search and the headline dedup module.
-    # Defensive; failure never blocks the brief.
-    try:
+    # Defensive post-section stages. Each runs the lake-derived analytics and
+    # rendering for today; any one failing logs but never blocks the brief.
+    # Run in order — site_builder reads what the earlier stages wrote.
+    def _stage_embeddings() -> None:
+        # Populate the multilingual embedding index for today. Drives the
+        # cross-language MCP semantic search and the headline dedup module.
         from .embeddings import EmbeddingIndex  # local import keeps brief lazy
         per_section = EmbeddingIndex().index_today(today.isoformat())
         new_embeds = sum(per_section.values())
         if new_embeds:
             print(f"[embeddings] indexed {new_embeds} new records across "
                   f"{len(per_section)} sections")
-    except Exception as ex:  # pragma: no cover
-        print(f"[embeddings] index_today failed: {type(ex).__name__}: {ex}")
 
-    # 1b. Render the daily-infographic suite from the lake. Defensive; a
-    # graphics failure never blocks the brief.
-    try:
+    def _stage_graphics() -> None:
+        # Render the daily-infographic suite from the lake.
         from .graphics import DailyGraphics  # local import keeps brief lazy
-        graphics_paths = DailyGraphics().render_all(today.isoformat())
-        for gname, gpath in graphics_paths.items():
+        for gname, gpath in DailyGraphics().render_all(today.isoformat()).items():
             print(f"[graphics] {gname}: {gpath}")
-    except Exception as gx:  # pragma: no cover
-        print(f"[graphics] suite failed: {type(gx).__name__}: {gx}")
 
-    # 1c. Render the daily map suite from the lake. Same defensive posture.
-    try:
+    def _stage_maps() -> None:
+        # Render the daily world/US map suite from the lake.
         from .cartography import DailyMaps  # local import keeps brief lazy
-        map_paths = DailyMaps().render_all(today.isoformat())
-        for mname, mpath in map_paths.items():
+        for mname, mpath in DailyMaps().render_all(today.isoformat()).items():
             print(f"[maps] {mname}: {mpath}")
-    except Exception as mx:  # pragma: no cover
-        print(f"[maps] suite failed: {type(mx).__name__}: {mx}")
 
-    # 1d. Ukraine theater maps. Independent of the world/US suite so a
-    # failure here doesn't block them, and vice versa.
-    try:
+    def _stage_ukraine_maps() -> None:
+        # Ukraine theater maps. Independent of the world/US suite so a failure
+        # here doesn't block them, and vice versa.
         from .cartography_ukraine import UkraineMaps
-        ukr_paths = UkraineMaps().render_all(today.isoformat())
-        for mname, mpath in ukr_paths.items():
+        for mname, mpath in UkraineMaps().render_all(today.isoformat()).items():
             print(f"[ukraine-maps] {mname}: {mpath}")
-    except Exception as ux:  # pragma: no cover
-        print(f"[ukraine-maps] suite failed: {type(ux).__name__}: {ux}")
 
-    # 1d-bis. Stage 1 analytical pass: cross-section entity recurrence.
-    # Pre-computes which entities appear in 3+ sections today and writes
-    # lake/sections/_meta/<date>/cross_section.json. The desk-officer
-    # routine reads this instead of trying to derive cross-section
-    # recurrence from raw text it cannot hold in attention.
-    try:
+    def _stage_cross_section() -> None:
+        # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
+        # which entities appear in 3+ sections today and writes
+        # lake/sections/_meta/<date>/cross_section.json. The desk-officer
+        # routine reads this instead of deriving recurrence from raw text it
+        # cannot hold in attention.
         from .analysis.cross_section import write as _cs_write
-        cs_path = _cs_write(today.isoformat())
-        print(f"[cross-section] {cs_path}")
-    except Exception as csx:  # pragma: no cover
-        print(f"[cross-section] analyzer failed: {type(csx).__name__}: {csx}")
+        print(f"[cross-section] {_cs_write(today.isoformat())}")
 
-    # 1d-ter. Build per-section drill-down pages from the lake. Without this
-    # the public Pages site only shows the synthesized brief; the ~5,000
-    # raw records per day are invisible. site_builder writes
-    # dist/sections/<id>/<date>.html for each section + date.
-    try:
+    def _stage_site_builder() -> None:
+        # Build per-section drill-down pages from the lake. Without this the
+        # public Pages site only shows the synthesized brief; the ~5,000 raw
+        # records per day are invisible. Writes dist/sections/<id>/<date>.html.
         from .site_builder import build_all as _site_build
         site_stats = _site_build(Path(out_dir), days_to_render=7)
         print(f"[site-builder] {site_stats['sections']} sections, "
               f"{site_stats['section_pages']} index pages, "
               f"{site_stats['day_pages']} day pages")
-    except Exception as sbx:  # pragma: no cover
-        print(f"[site-builder] failed: {type(sbx).__name__}: {sbx}")
+
+    for label, fn in (
+        ("embeddings", _stage_embeddings),
+        ("graphics", _stage_graphics),
+        ("maps", _stage_maps),
+        ("ukraine-maps", _stage_ukraine_maps),
+        ("cross-section", _stage_cross_section),
+        ("site-builder", _stage_site_builder),
+    ):
+        _run_stage(label, fn)
 
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
@@ -267,8 +271,9 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         try:
             _shutil.copy(src_path, dest)
             mirrored += 1
-        except Exception:
-            pass
+        except Exception as cx:
+            print(f"[mirror] copy {src_path.name} failed: "
+                  f"{type(cx).__name__}: {cx}")
     if mirrored:
         print(f"[mirror] copied {mirrored} generated graphics+maps into briefings/")
 
