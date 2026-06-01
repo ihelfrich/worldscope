@@ -246,6 +246,26 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_integrity() -> None:
+        # Data-integrity report. Classifies every section (fresh / stale / empty /
+        # failed / no-key / skipped) from the lake + source_health, writes a _meta
+        # artifact, and prepends an honest "Data integrity" panel — the
+        # auto-generated, accurate replacement for hand-written DATA NOTE prose.
+        from . import integrity as _ig
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            sids = [c.id for c in SECTION_REGISTRY]
+            reports = _ig.assess(conn, sids, today=today)
+            _ig.write_artifact(today, reports)
+            panel = _ig.render_integrity_panel(reports)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[integrity] {_ig.summary_line(reports)}")
+        finally:
+            lake.close()
+
     def _stage_radar() -> None:
         # Research radar. Reads the same populated lake the sections wrote,
         # flags developments (surges + novel multi-section emergence) into the
@@ -301,6 +321,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("maps", _stage_maps),
         ("ukraine-maps", _stage_ukraine_maps),
         ("cross-section", _stage_cross_section),
+        ("integrity", _stage_integrity),
         ("signals", _stage_signals),
         ("radar", _stage_radar),
         ("site-builder", _stage_site_builder),
