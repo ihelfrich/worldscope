@@ -26,6 +26,8 @@ import html
 import os
 import re
 import threading
+
+from ..textutil import clean_text, strip_html
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
@@ -301,9 +303,9 @@ class Section(ABC):
             # scrapers; escape every interpolated value to prevent stored XSS and
             # broken markup. quote=True so a value can't break out of href='...'.
             url = html.escape(it.get("url", "#") or "#", quote=True)
-            title = html.escape(it.get("title", "(no title)") or "(no title)")
+            title = html.escape(strip_html(it.get("title")) or "(no title)")
             item_date = html.escape(it.get("date", "") or "")
-            summary = html.escape((it.get("summary", "") or "")[:280])
+            summary = html.escape(clean_text(it.get("summary"), 280))
             items_html.append(
                 f"<li>{new_marker}<a href='{url}'>"
                 f"{title}</a>"
