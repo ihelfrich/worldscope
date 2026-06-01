@@ -2,40 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-01
-record_count: 190
-new_today: 104
+record_count: 175
+new_today: 99
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-104 new of 190 total items today.
+99 new of 175 total items today.
 
-- **NEW**  [[St. Louis] Illinois POWER Act data center regulation won’t move forward this spring](https://www.stlpr.org/government-politics-issues/2026-05-31/illinois-power-act-data-center-regulation-wont-move-forward-this-spring) — *2026-05-31*
-- **NEW**  [[St. Louis] Lou’s Clues – 6/1/2026](https://www.stlmag.com/games/lous-clues-060126/) — *2026-05-31*
-  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- [[St. Louis] How NOTO built one of St. Louis’ most creative Italian cocktail programs](https://www.stlmag.com/dining/noto-creative-italian-cocktail-program/) — *2026-05-30*
-  > <p>Since opening in 2020, NOTO (5105 Westwood, St. Peters) has gained a reputation for its incredible Neapolitan pizza, attentive service, and expressive cocktails. General manager London Rodgers recently shared more about the process, inspiration, and challenges of running the p
-- **NEW**  [[St. Louis] Busch was 'electric': What Oli Marmol, players said after Cardinals took series from Cubs](https://www.stltoday.com/sports/professional/mlb/cardinals/article_d18921f2-0e8e-4bcb-a2f3-23416efc6a48.html) — *2026-05-31*
-  > Here's what manager Oliver Marmol as well as Matthew Liberatore, Hunter Dobbins and Masyn Winn had to say after a series-clinching win vs. the Cubs in Sunday night's finale.
-- **NEW**  [[St. Louis] Cardinals lose 6-1 against the Chicago Cubs second game of series](https://www.stltoday.com/news/multimedia/image_7c1a3bba-f057-5d2e-b0b0-4734c1272f33.html) — *2026-05-31*
-  > St. Louis Cardinals pitcher Graceffo takes the mound as Chicago Cubs runner Pete Crow-Armstrong gestures to fans on Saturday, May 30, 2026, as he rounds third base on a solo home run in the eighth inning of a game at…
-- **NEW**  [[St. Louis] UCLA Bruins shortstop Roch Cholowsky (1) throws to first base against the Murray State Racers during the ninth inning at Charles Schwab Field.](https://www.stltoday.com/image_b7638b15-8c38-55b0-ab75-34bb068685cb.html) — *2026-05-31*
-  > UCLA and shortstop Roch Cholowsky lost to Saint Mary's for the second time in three days on Sunday and were bounced from the NCAA Regionals.
-- **NEW**  [[St. Louis] 'The energy in the stadium was electric,' Masyn Winn says of Cardinals-cubs](https://www.stltoday.com/sports/professional/mlb/cardinals/video_d7cb0772-ef30-44e9-a2a5-ad0dcfd7eca1.html) — *2026-05-31*
-  > St. Louis Cardinals shortstop Masyn Winn speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] 'Great experience' earning first save vs. Cubs, Cardinals' Hunter Dobbins says](https://www.stltoday.com/sports/professional/mlb/cardinals/video_096c8726-6255-4ee5-bd9d-2379542a9ff8.html) — *2026-05-31*
-  > St. Louis Cardinals pitcher Hunter Dobbins speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] 'Exactly as planned': Oli Marmol on Hunter Dobbins giving Cardinals bullpen rest vs. Cubs](https://www.stltoday.com/sports/professional/mlb/cardinals/video_16c092df-9f6b-4e77-ba6d-c3d6d6f6786f.html) — *2026-05-31*
-  > St. Louis Cardinals manager Oliver Marmol speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] 'The loudest I've heard Busch this year,' Matthew Liberatore says of Cardinals-Cubs game](https://www.stltoday.com/sports/professional/mlb/cardinals/video_1b0f6ccf-1833-43d0-91df-a23b84277015.html) — *2026-05-31*
-  > St. Louis Cardinals pitcher Matthew Liberatore speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] 'Tarps off' crew gives Cardinals energy, pitcher Hunter Dobbins says](https://www.stltoday.com/sports/professional/mlb/cardinals/video_24d4f6cb-6d23-4e6b-9353-60053e214c32.html) — *2026-05-31*
-  > St. Louis Cardinals pitcher Hunter Dobbins speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] 'They continue to compete. They continue to grow,' Oli Marmol says of young Cardinals](https://www.stltoday.com/sports/professional/mlb/cardinals/video_4ce5773a-145e-4573-9818-675f5147f5a2.html) — *2026-05-31*
-  > St. Louis Cardinals manager Oliver Marmol speaks with the media after a series-clinching win vs. the Cubs at Busch Stadium on Sunday, May 31, 2026.
-- **NEW**  [[St. Louis] MLB: Chicago Cubs at St. Louis Cardinals](https://www.stltoday.com/image_4a216031-781c-56c9-84c4-e6f9439724d3.html) — *2026-05-31*
-  > May 31, 2026; St. Louis, Missouri, USA; St. Louis Cardinals starting pitcher Matthew Liberatore (32) walks off the field after he was removed from the game against the Chicago Cubs during the sixth inning at Busch Stadium. Mandatory Credit: Jeff…
 - **NEW**  [[St. Louis] After 41 years, neighborhood gives beloved mail carrier a party he'll never forget](https://www.ksdk.com/article/news/local/making-a-difference/after-41-years-neighborhood-gives-beloved-mail-carrier-mike-carranza-a-party-hell-never-forget/63-0bf078f4-7d5e-4485-ace7-4577da59e463) — *2026-06-01*
   > After 41 years on the same route, beloved mail carrier Mike Carranza's retirement was cause for a surprise neighborhood celebration in Frontenac Estates.
 - **NEW**  [[St. Louis] 'My son is covered in blood': Carnival assault in St. Peters sends 2 teens to hospital, sparks safety concerns](https://www.ksdk.com/article/news/crime/mid-rivers-mall-carnival-assault-in-st-peters-sends-2-teens-to-hospital/63-ba3d723b-a627-458a-9969-9d19914dafc3) — *2026-06-01*
@@ -60,5 +35,31 @@ state: fresh
   > Police said the horses are expected to survive, but their injuries will likely prevent them from competing.
 - **NEW**  [[St. Louis] New pill nearly doubles survival time for pancreatic cancer patients](https://www.ksdk.com/article/news/health/experimental-pill-pancreatic-cancer-treatment/507-3566d833-d519-4d66-aaeb-6c773551a7b0) — *2026-05-31*
   > Researchers say the pill, daraxonrasib, works by blocking a mutated protein that fuels tumor growth in more than 90% of pancreatic cancer cases.
+- **NEW**  [[St. Louis] Police arrest 2 minors after fight in Mid Rivers Mall parking lot](https://www.ksdk.com/article/news/crime/missouri-minors-arrested-after-fight-mid-rivers-mall-parking-lot-st-peters/63-d25b130d-1eab-43eb-8581-27e21352dfce) — *2026-05-31*
+  > The fight happened near the mall's Spring Carnival, officers said.
+- **NEW**  [[St. Louis] Family charged in Troy, Illinois, home explosion that left 3 dead](https://www.ksdk.com/article/news/local/family-charged-in-deadly-troy-illinois-home-explosion/63-9c9875b2-718e-4cf7-bbe0-08c4f58401f1) — *2026-05-31*
+  > Family members have been charged after an explosion in Troy killed three people. Court records say the parents knew their son was making explosives at home.
+- **NEW**  [[St. Louis] All 11 victims of the chemical tank implosion at a Washington paper mill have been recovered](https://www.ksdk.com/article/news/nation-world/victims-chemical-tank-implosion-paper-mill-washington-state-identified-recovered/507-f8de6c66-86ad-4644-91a6-b83bedc0db07) — *2026-05-31*
+  > All 11 killed in the chemical tank implosion at a Washington paper mill have been identified, and the bodies of those who were unaccounted for have been recovered.
+- **NEW**  [[St. Louis] Major US airline accused of letting drunken passengers board flights now faces stiff penalty](https://www.ksdk.com/article/news/nation-world/alaska-airlines-fine-faa-federal-flight-violations-intoxicated-passengers/507-ddb968f5-3d43-4e5c-b355-1802ce58fcd0) — *2026-05-31*
+  > Federal officials say the incidents occurred on 11 flights and could pose safety risks to passengers and crews.
+- **NEW**  [[St. Louis] 2026 FIFA World Cup | US team captain celebrated as a leader on and off the pitch](https://www.ksdk.com/article/sports/soccer/world-cup/united-states-world-cup-team-captain/507-5faf49f4-6444-4ca5-9977-8a61bbee4b91) — *2026-05-31*
+  > Tim Ream, 38, who appeared surprised by the selection, said being named captain of the U.S. men's national team was an honor that he wouldn't take for granted.
+- **NEW**  [[St. Louis] Bus driver charged in deadly chain-reaction crash on I-95 in Virginia that killed 5 people](https://www.ksdk.com/article/news/nation-world/bus-driver-charged-virginia-interstate-95-crash-family-killed/507-43d62147-fde6-4485-9670-a9a62704d475) — *2026-05-31*
+  > Authorities allege that the driver failed to slow for traffic approaching a work zone, triggering a chain-reaction crash that killed five people.
+- **NEW**  [[St. Louis] Dennis Hull, Blackhawks star who helped Canada win the '72 Summit Series, dies at 81](https://www.ksdk.com/article/news/nation-world/dennis-hull-nhl-forward-chicago-blackhawks-canada-all-star-summit-series/507-be9ec46c-f98d-49a1-a96d-146ca3ff1ee9) — *2026-05-31*
+  > Dennis Hull, the two-way NHL forward who starred alongside superstar older brother Bobby Hull with the Chicago Blackhawks, died Friday night at age 81.
+- **NEW**  [[St. Louis] St. Louis Junior Bonds Program offering $5K bonds to 8th graders; here's how to apply](https://www.ksdk.com/article/news/education/st-louis-junior-bonds-program-offering-5k-bonds-to-8th-graders/63-ddee7f6e-723d-44c2-a2ea-908fd170e4b2) — *2026-05-31*
+  > The Scholarship Foundation of St. Louis urges local families to apply for the St. Louis Junior Bonds Program by June 1, offering financial mentorship and $5,000.
+- **NEW**  [[St. Louis] 'A blessing in disguise': Family of woman who died after Pointfest clarifies cause of death, honors her legacy](https://www.ksdk.com/article/news/local/danielle-uskiwich-pointfest-death-st-charles-teacher-honored-creve-coeur-park/63-20bdfdca-ab16-4890-a6c8-df13487f8be4) — *2026-05-31*
+  > Family and friends gather to honor Danielle Uskiwich, a St. Charles educator who died from a brain bleed after a concert incident revealed an underlying condition.
+- [[St. Louis] Man dies after being hit by multiple vehicles in south St. Louis](https://www.ksdk.com/article/news/crime/south-st-louis-hit-and-run-crash-predestrian-killed/63-66e8077b-2c23-4c70-8e62-df5e9457e73f) — *2026-05-31*
+  > A man was killed after being struck by multiple vehicles Friday night on Gravois. Police said the first vehicle that hit him fled the scene.
+- [[St. Louis] Nearly 150 passengers forced to jump into sea as pirate tour boat sinks in Turkey](https://www.ksdk.com/article/news/nation-world/pirate-tour-boat-sinks-in-turkey/507-001e6986-4ea1-4509-abac-126e8cb090b9) — *2026-05-31*
+  > All passengers were safely taken to shore, and no injuries were reported.
+- [[St. Louis] Claude Lemieux's brain is being donated to Boston University's CTE Center, his family says](https://www.ksdk.com/article/news/nation-world/claude-lemieuxs-brain-donated-cte-center/507-b7476b95-e4f5-409c-a1ff-939ad4cabaff) — *2026-05-31*
+  > The family said it gave the CTE Center permission to publicly share any findings with Lemieux's name.
+- [[St. Louis] Mystery boom that shook New England was a 3-foot meteor, expert says](https://www.ksdk.com/article/news/nation-world/mystery-boom-meteor-new-england/507-660a9286-23ea-4045-9326-503042489d5e) — *2026-05-31*
+  > NASA said the meteor fragmented around 40 miles in the sky and the energy breakup was "estimated to be equivalent to about 300 tons of TNT.
 
-_(165 additional items in raw.jsonl)_
+_(150 additional items in raw.jsonl)_

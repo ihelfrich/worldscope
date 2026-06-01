@@ -13,12 +13,12 @@ state: fresh
 
 - [[OFAC] Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-29*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZT2x6ZWpsX3daM2U4SWE3bngxSGgwT3lxRmI1X1hpdHRIS19aU3p6S1d0SE1TT1V2dlM5cENaOXRfcFN4YUlsXzk3Mkk3cG9MTGR4M3lBWnpDcHZUTlE?oc=5" target="_blank">Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Aske
-- [[OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related Designation; Counter Terrorism Designation</a>&nbsp;&nbsp;<fon
 - [[OFAC] Designations Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE42SnA2VXlwRlY1bEFUcml3VW0yY3g0MW9qd2dLZC15Yjk5bHZVTlRPRkp1eXBudDZGUWE5X3RSQ0czYmc5ZGNwWFFSWGxwR3dHNjh0ckhkWlFZWWVNUGc?oc=5" target="_blank">Designations Removals</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Ass
 - [[OFAC] Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JaWJWcmlkbmQ2NU5oRnlxRkx1blBweGRaWW55dDdfWWk1d2ZONTY5N3FKOEg4UGJOVEZPZmk3czBQT2s1TWpMTjBzTUo2MXpPZGtoMFF3Ul9tRzhJcWg0V3RB?oc=5" target="_blank">Iran-related Designations; Issuance of Russia-related General License and A
+- [[OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related Designation; Counter Terrorism Designation</a>&nbsp;&nbsp;<fon
 - [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
