@@ -3,13 +3,13 @@ section: fec
 title: Campaign finance (FEC: top fundraisers + recent filings)
 date: 2026-06-01
 record_count: 27
-new_today: 5
+new_today: 3
 state: fresh
 ---
 
 ## Campaign finance (FEC: top fundraisers + recent filings)
 
-5 new of 27 total items today.
+3 new of 27 total items today.
 
 - [[Top] OSSOFF, T. JONATHAN (DEM, Senate GA): $81.15M raised](https://www.fec.gov/data/candidate/S8GA00180/) — *2026-06-01*
   > cycle 2026 receipts $81.15M · disbursements $52.97M · net $+28.17M
@@ -35,31 +35,31 @@ state: fresh
   > cycle 2026 receipts $16.31M · disbursements $14.13M · net $+2.18M
 - [[Top] WEIL, JOSHUA JOSEPH (DEM, Senate FL): $15.93M raised](https://www.fec.gov/data/candidate/S6FL00756/) — *2026-06-01*
   > cycle 2026 receipts $15.93M · disbursements $15.93M · net $+0.00M
-- [[F3X] GROOM LAW GROUP, CHARTERED POLITICAL ACTION COMMITTEE](https://docquery.fec.gov/pdf/225/202602050300519225/202602050300519225.pdf) — **
-  > cycle 2026 · filing #-1000977
-- **NEW**  [[F3X] CHANGE FOR THE BETTER](https://docquery.fec.gov/pdf/229/12030703229/12030703229.pdf) — **
-  > cycle 2012 · filing #758677
 - [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
   > cycle 1982 · filing #
-- [[FRQ] D.D. ADAMS FOR CONGRESS](https://docquery.fec.gov/pdf/361/201803220300001361/201803220300001361.pdf) — **
-  > cycle 2018 · filing #
-- [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
-  > cycle 2014 · filing #948970 · receipts $0.02M
+- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/207/10030483207/10030483207.pdf) — **
+  > cycle 2010 · filing #718895
 - [[F3X] UNITED ASSN OF JOURNEYMEN & APPRETICES PLUMBING & PIPEFITTING LOCAL 63](https://www.fec.gov/data/filing//) — **
   > cycle 1982 · filing #
-- [[F3] FRIENDS OF SCOTT ROBINSON](https://docquery.fec.gov/pdf/424/13031062424/13031062424.pdf) — **
-  > cycle 2014 · filing #870444 · receipts $0.00M
-- [[F3X] HUMPAC (AKA AMERICAN MEDICORP GOOD GOV'T CMTE)](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing # · receipts $0.00M
-- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
-  > cycle 2010 · filing #720559
-- **NEW**  [[F7] CALIFORNIA TEACHERS ASSOCIATION](https://docquery.fec.gov/pdf/694/201607070300079694/201607070300079694.pdf) — **
-  > cycle 2016 · filing #1081800
-- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
-  > cycle 2010 · filing #720559
-- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
-  > cycle 2010 · filing #720559
 - [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
   > cycle 2014 · filing #948970 · receipts $0.02M
+- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+  > cycle 2010 · filing #720559
+- [[F3] JOEL BALAM FOR CONGRESS COMMITTEE](https://docquery.fec.gov/pdf/567/12030782567/12030782567.pdf) — **
+  > cycle 2012 · filing #783936 · receipts $0.00M
+- [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing # · receipts $0.02M
+- **NEW**  [[F3] SUE LOWDEN FOR U S SENATE](https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf) — **
+  > cycle 2010 · filing #732522
+- [[F7] TEXAS FARM BUREAU](https://docquery.fec.gov/pdf/703/201607070300079703/201607070300079703.pdf) — **
+  > cycle 2016 · filing #1081726
+- [[F3] BUCK FOR COLORADO](https://docquery.fec.gov/pdf/867/12020164867/12020164867.pdf) — **
+  > cycle 2012 · filing #768060 · receipts $0.00M
+- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+  > cycle 2010 · filing #720559
+- [[F3] FRIENDS OF LEE FERRELL](https://docquery.fec.gov/pdf/016/13031062016/13031062016.pdf) — **
+  > cycle 2014 · filing #870438
+- [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
+  > cycle 2014 · filing #987909
 
 _(2 additional items in raw.jsonl)_

@@ -2,273 +2,208 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-01
-record_count: 140
-new_today: 138
+record_count: 127
+new_today: 125
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-138 new of 140 total items today.
+125 new of 127 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:54AM CDT until June 1 at 1:30AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.601de447fc0abc080a06bda047fa806cfd7dd86d.002.1) — *2026-06-01*
-  > At 1254 AM CDT, a severe thunderstorm was located 3 miles south of
-Herman, or 7 miles northwest of Blair, moving east at 20 mph.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 1 at 8:31AM EDT until June 1 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a365f93efde71d84e215416fe855d32aae2e367.001.1) — *2026-06-01*
+  > * WHAT...Dangerous rip currents.
 
-HAZARD...60 mph wind gusts and quarter size hail.
+* WHERE...The beaches from Duck to Cape Lookout.
 
-SOURCE...Radar indicated.
+* WHEN...Until 8 PM EDT this evening.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roof
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:53AM CDT until June 1 at 1:00AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b45918b6b903a2a70122866b967a78163614a354.001.1) — *2026-06-01*
-  > The severe thunderstorm which prompted the warning has weakened.
-Therefore, the warning will be allowed to expire.  However, small
-hail and gusty winds are still possible with this thunderstorm.
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
 
-A Severe Thunderstorm Watch remains in effect until 400 AM CDT for
-east central Kans
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:53AM CDT until June 1 at 1:45AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c32a99e04f141b67273ca81a480bc186704e19c6.001.1) — *2026-06-01*
-  > SVREAX
-
-The National Weather Service in Pleasant Hill has issued a
-
-* Severe Thunderstorm Warning for...
-Northeastern Wyandotte County in northeastern Kansas...
-Southern Clay County in west central Missouri...
-Southeastern Platte County in west central Missouri...
-Northwestern Ja
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:53AM CDT until June 1 at 1:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ce43a23cce8c18cd63dfd574e3321cba08e9e1a.001.1) — *2026-06-01*
-  > The storm which prompted the warning has weakened below severe
-limits, and no longer poses an immediate threat to life or property.
-Therefore, the warning will be allowed to expire.  However, small
-hail is still possible with this thunderstorm.
-
-A Severe Thunderstorm Watch remain
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:52AM CDT until June 1 at 1:45AM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4f661100da87382971d66cd2e9582a61e8b743e3.001.1) — *2026-06-01*
-  > At 1252 AM CDT, a severe thunderstorm was located near La Harpe,
-moving east at 30 mph.
-
-HAZARD...70 mph wind gusts and ping pong ball size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...People and animals outdoors will be injured. Expect hail
-damage to roofs, siding, windows, and ve
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:51AM CDT until June 1 at 1:30AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a890fb99cc93ca13e1b176df6d2bd7b9240cb75e.001.1) — *2026-06-01*
-  > SVRTOP
-
-The National Weather Service in Topeka has issued a
-
-* Severe Thunderstorm Warning for...
-Northern Jefferson County in northeastern Kansas...
-
-* Until 130 AM CDT.
-
-* At 1251 AM CDT, a severe thunderstorm was located 5 miles southeast
-of Valley Falls, moving east at 20 mph
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:51AM CDT until June 1 at 1:15AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c7331ad56173a4955142318374ca4ab2dc71042.001.1) — *2026-06-01*
-  > At 1251 AM CDT, a severe thunderstorm was located over Holt, or near
-Kearney, moving east at 30 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
-
-SOURCE...Public reported quarter size hail in Trimble at 1251 am.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind da
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:51AM CDT until June 1 at 1:00AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf1904d27639f4d1f267c0e91c911fa2c2ea5d31.001.1) — *2026-06-01*
-  > The storm which prompted the warning has moved out of the area.
-Therefore, the warning will be allowed to expire.
-
-A Severe Thunderstorm Watch remains in effect until 400 AM CDT for
-east central Kansas.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:50AM CDT until June 1 at 1:15AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0943ed9f5c2402cc7b5ed1a581134aa01bb62967.001.1) — *2026-06-01*
-  > At 1250 AM CDT, a severe thunderstorm was located 6 miles north of
-Bushong, moving east at 25 mph.
-
-HAZARD...Ping pong ball size hail and 60 mph wind gusts.
-
-SOURCE...Radar indicated.
-
-IMPACT...People and animals outdoors will be injured. Expect hail
-damage to roofs, siding, wind
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 1 at 12:49AM CDT until June 1 at 3:45AM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5a0cfbfb69fb13d10b5f7adccdd5af09872127f.001.1) — *2026-06-01*
-  > FFWICT
-
-The National Weather Service in Wichita has issued a
-
-* Flash Flood Warning for...
-Northeastern Greenwood County in southeastern Kansas...
-
-* Until 345 AM CDT.
-
-* At 1249 AM CDT, Doppler radar indicated thunderstorms producing
-heavy rain across the warned area. Between 2.
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-41823) — *2026-06-01*
+* ADDITIONAL DETAILS...The most likely time for strong rip
+curr
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-49218) — *2026-06-01*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:47AM CDT until June 1 at 1:15AM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c21ef88010c48624872f9df2c1b2147f2668ad3.001.1) — *2026-06-01*
-  > SVROUN
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued June 1 at 5:23AM PDT until June 1 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f47e3122bc7b90a389677516b9c552b2a915a636.001.1) — *2026-06-01*
+  > * WHAT...Visibility down to a quarter to half an mile in dense fog.
 
-The National Weather Service in Norman has issued a
+* WHERE...Southern Monterey Bay and the Big Sur Coast.
 
-* Severe Thunderstorm Warning for...
-Northeastern Dewey County in northwestern Oklahoma...
+* WHEN...Until 9 AM PDT this morning.
 
-* Until 115 AM CDT.
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 4:22AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86c956828f1664363d4e027d57b06de96c1ceeaa.001.1) — *2026-06-01*
+  > A front approaching the area will bring gusty northeast winds
+along the Northern Bristol Bay Coast beginning today. The
+strongest winds, up to 45 mph are expected to occur this afternoon
+and evening before winds slowly diminish late tonight through
+Tuesday morning. A few gusts of
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 7:19AM CDT until June 1 at 8:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60777f2689185569604767d8a6e5138c08d9662f.001.1) — *2026-06-01*
+  > SVRPAH
 
-* At 1247 AM CDT, a severe thunderstorm was located 4 miles east of
-Taloga, moving east at 10 mph.
-
-HAZARD
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:47AM CDT until June 1 at 1:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79c3ef78b9bccf16fe49403adf36d7e9a6e5b45d.001.1) — *2026-06-01*
-  > At 1247 AM CDT, a severe thunderstorm was located 4 miles north of
-Avoca, or 7 miles south of Harlan, moving east at 10 mph.
-
-HAZARD...Golf ball size hail and 60 mph wind gusts.
-
-SOURCE...Radar indicated.
-
-IMPACT...People and animals outdoors will be injured. Expect hail
-damage t
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:46AM CDT until June 1 at 1:15AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fbb72c6aa4da793cce215e1f34fc7c0846ed65cd.001.1) — *2026-06-01*
-  > At 1246 AM CDT, a severe thunderstorm was located near Logan, or 20
-miles east of Blair, moving east at 10 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding, and tr
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:46AM CDT until June 1 at 1:45AM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc84e213711edf397c803849695c8a104a0a743e.001.1) — *2026-06-01*
-  > SVRICT
-
-The National Weather Service in Wichita has issued a
+The National Weather Service in Paducah has issued a
 
 * Severe Thunderstorm Warning for...
-Woodson County in southeastern Kansas...
-Southeastern Greenwood County in southeastern Kansas...
+Southwestern Jackson County in southern Illinois...
+Northeastern Bollinger County in southeastern Missouri...
+Perry County in southeastern Missouri...
+Northwestern Cape Girardeau Co
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 7:16AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17e1f6bcf89caf31be4acb8327ab3a48300bd799.001.1) — *2026-06-01*
+  > At 716 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Southeast Memphis, or near Germantown, moving east at 30 mph.
 
-* Until 145 AM CDT.
-
-* At 1246 AM CDT, a severe thunderstorm was located 7 miles we
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:45AM CDT until June 1 at 1:00AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e8af71024c3ae1ee9c82568af15508f72966161.002.1) — *2026-06-01*
-  > At 1244 AM CDT, a severe thunderstorm was located near Smithville,
-moving east at 20 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding, and trees.
+IMPACT...Gusty winds could knock down tree limbs and blow around
 
-Locations impact
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:45AM CDT until June 1 at 1:15AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31190c621b9a01dc9dca9038781291c21649748a.001.1) — *2026-06-01*
-  > SVRTOP
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 7:09AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571efce2be64dc4eeffb08dd21fa75d27f86b8b1.001.1) — *2026-06-01*
+  > At 709 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Du Quoin to Womac. Movement was southeast
+at 50 mph.
 
-The National Weather Service in Topeka has issued a
-
-* Severe Thunderstorm Warning for...
-Central Wabaunsee County in east central Kansas...
-
-* Until 115 AM CDT.
-
-* At 1245 AM CDT, a severe thunderstorm was located near Volland,
-moving northeast at 20 mph.
-
-HAZARD...60 mp
-- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued May 31 at 11:41PM MDT until June 1 at 6:00PM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4403189c6c623bc9833ee0f204418d48f531c98.001.1) — *2026-05-31*
-  > * WHAT...West winds 20 to 30 mph with gusts up to 40 mph.
-
-* WHERE...Fort Peck Lake.
-
-* WHEN...Until 6 PM MDT Monday.
-
-* IMPACTS...Strong winds and rough waves on area lakes will create
-hazardous conditions for small craft.
-
-* ADDITIONAL DETAILS...Wave heights in excess of 4 feet
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:41AM CDT until June 1 at 1:15AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c3181934b26aa0794d1abe28594bbdbbea0d55a.001.1) — *2026-06-01*
-  > At 1241 AM CDT, a severe thunderstorm was located near Hornick, or 20
-miles southeast of Sioux City, moving east at 20 mph.
-
-HAZARD...Quarter size hail.
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Damage to vehicles is expected.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+uns
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 6:08AM MDT by NWS Goodland KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3ede5f4ab8f6c2baf4c657ffcc2a7e83bfd0196.001.1) — *2026-06-01*
+  > At 608 AM MDT, Doppler radar was tracking a strong thunderstorm near
+Burlington, moving northeast at 15 mph.
 
-This severe storm will be near...
-Hornick and Smithland a
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:37AM CDT until June 1 at 1:15AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61913e66ff789ac418fb9e3db827a007ce4064e4.001.1) — *2026-06-01*
-  > SVRTOP
-
-The National Weather Service in Topeka has issued a
-
-* Severe Thunderstorm Warning for...
-Southeastern Anderson County in east central Kansas...
-
-* Until 115 AM CDT.
-
-* At 1236 AM CDT, a severe thunderstorm was located over Colony,
-moving east at 25 mph.
-
-HAZARD...70 mph 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 12:37AM CDT until June 1 at 1:15AM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643ea3bd91a8ce7d6205b91c566e637c685e90e1.001.1) — *2026-06-01*
-  > At 1237 AM CDT, a severe thunderstorm was located 6 miles west of
-Gridley, or 8 miles east of Madison, moving east at 20 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Wind gusts up to 40 mph and penny size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 12:29AM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcb3aed3471f600242cdc5cec5ce5c4d35066363.001.1) — *2026-06-01*
-  > At 1228 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Cestos to 7 miles northwest of Oakwood.
-Movement was east at 15 mph.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Mino
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.016.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-HAZARD...Wind gusts up to 50 mph and penny size hail.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.021.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-SOURCE...Radar indicated.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.020.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-IMPACT...Gusty winds could knoc
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 1 at 12:18AM CDT until June 1 at 2:30AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bad4667cd15f962981e7efa94c34a6dbc3ac4a58.001.1) — *2026-06-01*
-  > FFWTOP
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.005.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-The National Weather Service in Topeka has issued a
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.017.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* Flash Flood Warning for...
-Central Lyon County in east central Kansas...
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.018.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* Until 230 AM CDT.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.015.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* At 1218 AM CDT, Doppler radar indicated thunderstorms producing
-heavy rain across the warned area. Between 1.5 and 3 inc
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued May 31 at 9:14PM AKDT until June 2 at 8:00PM AKDT by NWS Juneau AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.460d89ffdcaeba14e986b2034031df0ddbe9400c.001.1) — *2026-05-31*
-  > * WHAT...Temperatures 80 to 85 expected in areas away from the inner
-channels and outer coast.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.019.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* WHERE...City of Hyder, Ketchikan Gateway Borough, and Prince of
-Wales Island.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.022.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* WHEN...From 10 AM to 8 PM AKDT Tuesday.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:58AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0a31d058474416450ce3fed39d46aab128085e8.006.1) — *2026-06-01*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* IMPACTS...Individuals not accustomed to these unusually ho
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 12:06AM CDT until June 1 at 3:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97ad47744f42e446c405e39905cf54f4e4192585.002.1) — *2026-06-01*
-  > SEVERE THUNDERSTORM WATCH 259 REMAINS VALID UNTIL 3 AM CDT EARLY
-THIS MORNING FOR THE FOLLOWING AREAS
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 6:56AM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.605ed28ebc85db17db3418bf9b5bd7f74f70ca3f.001.1) — *2026-06-01*
+  > Areas of fog have developed across the area. Most locations will
+have visibility of 1-3 miles. A few spots will have occasional
+visibility down to 1/4 mile until mid-morning. Exercise caution
+when driving in reduced visibility.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:52AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0309f9d14529fefe6d116f4b44330a2c0cc94e4f.003.1) — *2026-06-01*
+  > Offshore waters forecast for the Gulf of Alaska West of 144W
 
-IN IOWA THIS WATCH INCLUDES 8 COUNTIES
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
 
-IN SOUTHWEST IOWA
+.TODAY...E wind 40 kt. Seas 11 to 19 ft. Rai
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:52AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0309f9d14529fefe6d116f4b44330a2c0cc94e4f.002.1) — *2026-06-01*
+  > Offshore waters forecast for the Gulf of Alaska West of 144W
 
-FREMONT               HARRISON              MILLS
-MONTGOMERY            PAGE                  POTTAWATTAMIE
-SHELBY
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
 
-IN
+.TODAY...E wind 25 to 40 kt. Seas 8 to 16 ft
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 6:50AM CDT until June 1 at 9:00AM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cebdbb5820d5369e9a6b5a3f3ad20c20571dd136.002.1) — *2026-06-01*
+  > SEVERE THUNDERSTORM WATCH 260 REMAINS VALID UNTIL 9 AM CDT THIS
+MORNING FOR THE FOLLOWING AREAS
 
-_(115 additional items in raw.jsonl)_
+IN ILLINOIS THIS WATCH INCLUDES 5 COUNTIES
+
+IN SOUTH CENTRAL ILLINOIS
+
+CLINTON               WASHINGTON
+
+IN SOUTHWEST ILLINOIS
+
+MONROE                RANDOLPH              SAINT CLAIR
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:48AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fcc6db23c4c81d91ad890823290c133ef18d1b0.007.1) — *2026-06-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 1 at 3:48AM AKDT until June 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fcc6db23c4c81d91ad890823290c133ef18d1b0.012.1) — *2026-06-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Severe] Storm Warning: Storm Warning issued June 1 at 3:48AM AKDT until June 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fcc6db23c4c81d91ad890823290c133ef18d1b0.005.1) — *2026-06-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+
+_(102 additional items in raw.jsonl)_
