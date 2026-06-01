@@ -32,10 +32,25 @@ def test_macro_missing_key_raises(monkeypatch, tmp_path):
         MacroSection(store=_store(tmp_path)).pull()
 
 
-def test_markets_missing_key_raises(monkeypatch, tmp_path):
+def test_markets_uses_keyless_yahoo_without_finnhub(monkeypatch, tmp_path):
+    # No Finnhub key is NOT a failure: markets falls back to keyless Yahoo.
     monkeypatch.delenv("FINNHUB_API_KEY", raising=False)
-    with pytest.raises(MissingCredential):
-        MarketsSection(store=_store(tmp_path)).pull()
+    from worldscope.sections import markets as mk
+    monkeypatch.setattr(mk, "_fetch_quote_yahoo",
+                        lambda s, sym: {"c": 100.0, "d": 1.0, "dp": 1.0,
+                                        "h": 101.0, "l": 99.0, "t": None})
+    monkeypatch.setattr(mk.time, "sleep", lambda *_: None)
+    items = mk.MarketsSection(store=_store(tmp_path)).pull()
+    assert items and all("value" in it for it in items)
+
+
+def test_markets_all_fetches_fail_raises(monkeypatch, tmp_path):
+    monkeypatch.delenv("FINNHUB_API_KEY", raising=False)
+    from worldscope.sections import markets as mk
+    monkeypatch.setattr(mk, "_fetch_quote_yahoo", lambda s, sym: None)
+    monkeypatch.setattr(mk.time, "sleep", lambda *_: None)
+    with pytest.raises(UpstreamHTTPError):
+        mk.MarketsSection(store=_store(tmp_path)).pull()
 
 
 def test_acled_missing_creds_raises(monkeypatch, tmp_path):

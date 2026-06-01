@@ -50,7 +50,7 @@ STALE_DAYS = 3
 # (Source: the adapters' own environ.get() calls.)
 REQUIRED_KEYS: dict[str, list[str]] = {
     "macro":      ["FRED_API_KEY"],
-    "markets":    ["FINNHUB_API_KEY"],
+    # markets falls back to keyless Yahoo, so it has no hard credential need.
     "mediacloud": ["MEDIACLOUD_API_KEY"],
     "acled":      ["ACLED_EMAIL", "ACLED_PASSWORD"],
     "firms":      ["FIRMS_MAP_KEY"],

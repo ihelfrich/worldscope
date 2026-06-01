@@ -47,8 +47,8 @@ def test_skipped_wins():
 
 
 def test_missing_keys_reads_env():
-    assert ig._missing_keys("markets", env={}) == ["FINNHUB_API_KEY"]
-    assert ig._missing_keys("markets", env={"FINNHUB_API_KEY": "x"}) == []
+    assert ig._missing_keys("macro", env={}) == ["FRED_API_KEY"]
+    assert ig._missing_keys("macro", env={"FRED_API_KEY": "x"}) == []
     assert ig._missing_keys("acled", env={"ACLED_EMAIL": "a"}) == ["ACLED_PASSWORD"]
     assert ig._missing_keys("federal_register", env={}) == []  # keyless source
 
