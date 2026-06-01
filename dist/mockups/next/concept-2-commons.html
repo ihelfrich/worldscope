@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Concept 2 · The Commons</title>
+<style>
+  :root{
+    --bg:#F3F4F1; --panel:#FFFFFF; --ink:#16191C; --soft:#5A626B; --faint:#8B929A;
+    --hair:#E2E5E0; --teal:#0E6E63; --teal-d:#0A524A; --amber:#B9751B; --rose:#A23A33;
+    --serif:"Liberation Serif",Georgia,"Times New Roman",serif;
+    --sans:"Liberation Sans","Inter","Helvetica Neue",Arial,sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased}
+  .shell{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:210px 1fr;gap:0;min-height:100vh}
+  /* spine */
+  .spine{border-right:1px solid var(--hair);padding:26px 22px;position:relative;background:linear-gradient(180deg,#F3F4F1,#EFF1ED)}
+  .spine .brand{display:flex;align-items:center;gap:9px;margin-bottom:30px}
+  .spine .mk{width:11px;height:11px;border:2px solid var(--teal);border-radius:50%}
+  .spine .brand b{font-weight:800;letter-spacing:.16em;font-size:13px}
+  .spine .now{font-family:var(--mono);font-size:10px;color:var(--soft);letter-spacing:.1em;line-height:1.8;margin-bottom:26px}
+  .spine .now .live{color:var(--teal);font-weight:700}
+  .idx{list-style:none}
+  .idx li{font-size:13px;padding:9px 0;border-top:1px solid var(--hair);color:var(--soft);
+    display:flex;align-items:center;gap:9px;cursor:default}
+  .idx li:hover{color:var(--ink)}
+  .idx li .n{font-family:var(--mono);font-size:10px;color:var(--faint)}
+  .idx li.on{color:var(--teal-d);font-weight:700}
+  .idx li .pri{margin-left:auto;width:6px;height:6px;border-radius:50%;background:var(--rose)}
+  /* main */
+  main{padding:30px 46px 50px;max-width:880px}
+  .crumbs{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+  .crumbs .tag{color:var(--teal);font-weight:700}
+  h1{font-family:var(--serif);font-size:40px;line-height:1.08;letter-spacing:-.01em;margin-bottom:14px;font-weight:700}
+  .take{font-size:17px;color:#2C3137;max-width:54ch;margin-bottom:20px}
+  .take b{color:var(--ink)}
+  /* evidence meter row */
+  .evrow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0 24px}
+  .ev{background:var(--panel);border:1px solid var(--hair);border-radius:10px;padding:13px 15px}
+  .ev .lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+  .ev .big{font-size:22px;font-weight:800;margin-top:4px;font-family:var(--sans);letter-spacing:-.02em}
+  .ev .sub{font-size:11.5px;color:var(--soft);margin-top:2px}
+  .bar{height:6px;border-radius:3px;background:#E7EAE6;margin-top:9px;overflow:hidden}
+  .bar b{display:block;height:100%}
+  .body p{font-family:var(--serif);font-size:17px;line-height:1.62;margin-bottom:13px;max-width:64ch}
+  .body a{color:var(--teal-d);text-decoration:none;border-bottom:1px solid #BFD7D2}
+  /* steelman / counterpoint */
+  .debate{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--hair);border-radius:12px;
+    overflow:hidden;margin:24px 0 10px}
+  .debate>div{padding:16px 18px}
+  .debate .l{background:#F1F7F5;border-right:1px solid var(--hair)}
+  .debate .r{background:#FBF4EC}
+  .debate h4{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px}
+  .debate .l h4{color:var(--teal-d)} .debate .r h4{color:var(--amber)}
+  .debate p{font-size:14px;color:#33383D;line-height:1.5}
+  /* provenance chips */
+  .srcbar{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-top:18px;
+    padding-top:16px;border-top:1px dashed var(--hair)}
+  .srcbar .lead{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-right:4px}
+  .src{font-size:12px;display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:7px;
+    background:var(--panel);border:1px solid var(--hair);color:#2F353B}
+  .src i{width:6px;height:6px;border-radius:50%;background:var(--teal)}
+  .prov{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:26px;letter-spacing:.04em;line-height:1.7}
+</style></head>
+<body>
+<div class="shell">
+  <nav class="spine">
+    <div class="brand"><span class="mk"></span><b>WORLDSCOPE</b></div>
+    <div class="now"><span class="live">● LIVE</span> 06:00 UTC<br>SUN 31 MAY 2026<br>NO. 151 · DR. I. HELFRICH</div>
+    <ul class="idx">
+      <li class="on"><span class="n">01</span> Iran deadline <span class="pri"></span></li>
+      <li><span class="n">02</span> Russia oil perimeter <span class="pri"></span></li>
+      <li><span class="n">03</span> US tariff &amp; trade <span class="pri"></span></li>
+      <li><span class="n">04</span> Macro &amp; rates</li>
+      <li><span class="n">05</span> Signals · radar</li>
+      <li><span class="n">06</span> Markets</li>
+    </ul>
+  </nav>
+  <main>
+    <div class="crumbs"><span class="tag">Lead</span> · Iran deadline · Ukraine deep strike · updated 14m ago</div>
+    <h1>The Iran deal clock expired without a formal agreement.</h1>
+    <p class="take"><b>The short version:</b> the deadline passed unsigned, prediction markets now price
+      peace at 4%, and Ukraine widened the war the same night — so energy and escalation risk just repriced.</p>
+
+    <div class="evrow">
+      <div class="ev"><div class="lab">Cross-source</div><div class="big">6 sources</div>
+        <div class="sub">4 independent sections</div><div class="bar"><b style="width:80%;background:var(--teal)"></b></div></div>
+      <div class="ev"><div class="lab">Confidence</div><div class="big">High · 64%</div>
+        <div class="sub">vs 41% baseline</div><div class="bar"><b style="width:64%;background:linear-gradient(90deg,var(--amber),var(--teal))"></b></div></div>
+      <div class="ev"><div class="lab">Market move</div><div class="big" style="color:var(--rose)">8% → 4%</div>
+        <div class="sub">US–Iran peace by May 31</div><div class="bar"><b style="width:25%;background:var(--rose)"></b></div></div>
+    </div>
+
+    <div class="body">
+      <p>Polymarket's <a>US–Iran peace deal by May 31</a> prints at 4%, down from 8% a week ago; the
+      Hormuz blockade-lifting contract fell from 33% to 18% in 48 hours. In the same window Ukraine's SBU
+      destroyed two Tu-142 aircraft and an Iskander system at <a>Taganrog</a> and struck the Feodosiya oil
+      terminal in Crimea. Russia retaliated with 290 drones; air defences claimed 284 kills.</p>
+    </div>
+
+    <div class="debate">
+      <div class="l"><h4>↑ Steelman — escalation</h4><p>Fresh OFAC designations + a missed deadline + a
+        confirmed deep strike inside Russian infrastructure point to a widening, not a winding-down.</p></div>
+      <div class="r"><h4>↓ Counterpoint — noise</h4><p>The May 24 ceasefire was never formally extended but
+        also never broken; markets may be over-reading a procedural lapse as a rupture.</p></div>
+    </div>
+
+    <div class="srcbar"><span class="lead">Provenance</span>
+      <span class="src"><i></i>Polymarket</span>
+      <span class="src"><i></i>OFAC / Treasury</span>
+      <span class="src"><i></i>Federal Register</span>
+      <span class="src"><i></i>Conflict desk</span>
+      <span class="src"><i></i>SCOTUS</span>
+      <span class="src" style="border-style:dashed;color:var(--soft)">+ click any sentence →</span>
+    </div>
+
+    <div class="prov">Every claim is traceable to lake records ingested through 2026-06-01 06:00 UTC.
+      Charts are pipeline-generated; supplementary live feeds used where reachable. Confidence is the
+      system's own cross-source persistence estimate, graded against outcomes. Timestamps UTC.</div>
+  </main>
+</div>
+</body></html>
