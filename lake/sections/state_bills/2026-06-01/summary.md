@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-06-01
 record_count: 140
-new_today: 0
+new_today: 1
 state: fresh
 ---
 
 ## State Legislative Action
 
-0 new of 140 total items today.
+1 new of 140 total items today.
 
 - [[Alaska HB 381] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-05-31*
   > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for

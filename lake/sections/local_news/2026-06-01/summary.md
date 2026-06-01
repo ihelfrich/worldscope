@@ -2,17 +2,45 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-01
-record_count: 184
-new_today: 135
+record_count: 217
+new_today: 194
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-135 new of 184 total items today.
+194 new of 217 total items today.
 
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-06-01*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Nicolas Cage revels in being 'a Spider-Man for aging adults'](https://www.stltoday.com/life-entertainment/nation-world/movies-tv/article_d473d3a1-1581-5021-9065-c1dc2e5b0010.html) — *2026-06-01*
+  > At 62, Nicolas Cage is finally embracing his inner Spider-Man, swinging around the Big Apple with style while also feeling his age a bit.
+- **NEW**  [[St. Louis] Heart of St. Charles banquet center demolition underway](https://www.stltoday.com/news/local/stcharles/collection_59c7932c-ed2f-4dea-aef3-aaf14d80e7e2.html) — *2026-06-01*
+  > The Heart of St. Charles building is being demolished to make way for a new hotel. The former banquet center hosted many weddings and events through the decades, but the building has been vacant since 2019.
+- **NEW**  [[St. Louis] St. Louis police identify man killed in Columbus Square neighborhood](https://www.stltoday.com/news/local/crime-courts/article_7f484cae-18b8-4ba4-9c43-e8099fb9a694.html) — *2026-06-01*
+  > Terrence Tunstall was shot to death May 26 in the 1400 block of North 13th Street. Tunstall, 43, lived in St. Louis.
+- **NEW**  [[St. Louis] Suntrup plans car repair shop at historic Manchester school. Residents say history at risk](https://www.stltoday.com/news/local/metro/article_65bf2f94-8874-4700-8687-3f1d34fe3db9.html) — *2026-06-01*
+  > The Henry Avenue Historic District has become a battleground between city officials who support the plan and residents who say the development would destroy the neighborhood.
+- **NEW**  [[St. Louis] Serena Williams](https://www.stltoday.com/image_7f213a88-00b7-5542-819c-339af904e92c.html) — *2026-06-01*
+  > Serena Williams
+- **NEW**  [[St. Louis] Photos: Suntrup plans car repair shop at historic Manchester school](https://www.stltoday.com/news/multimedia/pictures/collection_d7c8c584-91b0-4f34-ab39-880b7ffae6ea.html) — *2026-06-01*
+  > Suntrup plans car repair shop at historic Manchester school
+- **NEW**  [[St. Louis] Mail-in ballots are tabulated at the Maricopa County Elections Headquarters in Phoenix on Oct. 20, 2020.](https://www.stltoday.com/image_ee2b84d5-c0a1-593e-8ef0-c8f8cd9d51e8.html) — *2026-06-01*
+  > Mail-in ballots are tabulated at the Maricopa County Elections Headquarters in Phoenix on Oct. 20, 2020.
+- **NEW**  [[St. Louis] Photos: Land trust looks to offset high home prices in Webster Groves, one house at a time](https://www.stltoday.com/news/multimedia/pictures/collection_9ce32604-29d3-4d65-adf2-a97c6f0e6781.html) — *2026-06-01*
+  > Land trust looks to offset high home prices in Webster Groves, one house at a time
+- **NEW**  [[St. Louis] Big K.R.I.T.](https://www.stltoday.com/news/multimedia/image_2d9413c4-61c3-5a93-b301-063816f0d1d0.html) — *2026-06-01*
+  > Mississippi rapper Big K.R.I.T.
+- **NEW**  [[St. Louis] Big K.R.I.T.](https://www.stltoday.com/news/multimedia/image_105fab93-b2dc-5dd4-8047-18d1d25ad1b5.html) — *2026-06-01*
+  > Mississippi rapper Big K.R.I.T.
+- **NEW**  [[St. Louis] Where to eat, play, and stay in Springfield, Missouri](https://www.stlmag.com/culture/travel/where-to-eat-play-and-stay-in-springfield-missouri/) — *2026-06-01*
+  > <p>PLAY Plan on spending several hours at&#160;Wonders of Wildlife National Museum and Aquarium,&#160;attached to the sprawling Bass Pro Shops. Yes, it’s absolutely worth a visit. Spanning more than&#160;350,000 square feet, Johnny Morris&#8217; world-class attraction is&#160;lar
+- **NEW**  [[St. Louis] The best golf courses within a short drive of St. Louis](https://www.stlmag.com/health/outdoors/scenic-golf-courses-midwest/) — *2026-06-01*
+  > <p>Whether you’re closing in on earning a PGA Tour card or picking up a set of clubs for the first time, there’s a golf course in and around St. Louis that fits your needs. With everything from hilly, wooded courses to windswept golf links, our region hosts some of the country’s 
+- **NEW**  [[St. Louis] This month in your garden: June tips for St. Louisans](https://www.stlmag.com/design/this-month-in-your-garden-june-tips-for-st-louisans/) — *2026-06-01*
+  > <p>1. Scout for Pests and Disease “June is usually pretty hot, humid, and rainy, which means quite a few fungal diseases, cankers, and pests are really prevalent,” she says. That makes June one of the most important months to regularly inspect plants for signs of trouble. “I usua
+- **NEW**  [[St. Louis] Top family-friendly events this week in St. Louis](https://www.stlmag.com/family/top-family-friendly-events-this-week-in-st-louis/) — *2026-06-01*
+  > <p>STL Summer Adventure &#124; June 1–August 10 St. Louis County Library and St. Louis Public Library’s STL Summer Adventure returns with reading challenges, hands-on activities, and family-friendly events designed to keep kids learning all summer long. The program is for ages 0–
+- **NEW**  [[St. Louis] GO! St. Louis keeps momentum going with a summer of races](https://www.stlmag.com/health/go-st-louis-keeps-momentum-going-with-a-summer-of-races/) — *2026-06-01*
+  > <p>Runners familiar with GO! St. Louis may associate it with the Greater St. Louis Marathon. The annual race celebrated its 26th year in April, but the nonprofit is far from the finish line for 2026, with a recently announced slate of events to keep runners of all ages active thr
 - **NEW**  [[St. Louis] Dr. Brown’s sues Dr. Brown’s as the bottle company seeks to stop the soda company’s trademark claim](https://www.stlmag.com/news/dr-browns-sues-trademark-claim/) — *2026-06-01*
   > <p>A maker of classic sodas in cans with old-timey designs is facing off against the maker of gold-standard, anti-colic baby bottles. The issue? That consumers might confuse one Dr. Brown&#8217;s for another.  Since 1869, Dr. Brown’s has been a New York-based soda company, with f
 - **NEW**  [[St. Louis] Developer has 9 days to come up with a plan to save Euclid School](https://www.stlmag.com/news/benjamin-anderson-euclid-school/) — *2026-06-01*
@@ -23,36 +51,15 @@ state: fresh
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
 - [[St. Louis] How NOTO built one of St. Louis’ most creative Italian cocktail programs](https://www.stlmag.com/dining/noto-creative-italian-cocktail-program/) — *2026-05-30*
   > <p>Since opening in 2020, NOTO (5105 Westwood, St. Peters) has gained a reputation for its incredible Neapolitan pizza, attentive service, and expressive cocktails. General manager London Rodgers recently shared more about the process, inspiration, and challenges of running the p
-- **NEW**  [[St. Louis] St. Louis librarians share their top summer reads for 2026](https://www.stlpr.org/show/st-louis-on-the-air/2026-06-01/st-louis-librarians-summer-reads-books-2026) — *2026-06-01*
-- **NEW**  [[St. Louis] New Missouri guidebook highlights over 80 scenic sites to explore](https://www.stlpr.org/show/st-louis-on-the-air/2026-06-01/new-missouri-guidebook-scenic-nature-sites) — *2026-06-01*
-- **NEW**  [[St. Louis] Here’s what St. Louis restaurants opened and closed in May 2026](https://www.stlpr.org/economy-business/2026-06-01/st-louis-restaurants-opened-closed-may-2026) — *2026-06-01*
-- **NEW**  [[St. Louis] Funding power plants was on the ballot 50 years ago. Will it be again?](https://www.stlpr.org/government-politics-issues/2026-06-01/funding-power-plants-missouri) — *2026-06-01*
-- **NEW**  [[St. Louis] Why a bill to move St. Charles County school board races from April to November barely passed](https://www.stlpr.org/show/st-louis-on-the-air/2026-06-01/bill-st-charles-county-school-board-races-april-to-november) — *2026-06-01*
-- **NEW**  [[St. Louis] Illinois lawmakers pass bill to shield abortion information from digital medical records](https://www.stlpr.org/government-politics-issues/2026-06-01/illinois-lawmakers-bill-shield-abortion-information-digital-medical-records) — *2026-06-01*
-- **NEW**  [[St. Louis] Illinois POWER Act data center regulation won’t move forward this spring](https://www.stlpr.org/government-politics-issues/2026-05-31/illinois-power-act-data-center-regulation-wont-move-forward-this-spring) — *2026-05-31*
-- **NEW**  [[St. Louis] 'Dutton Ranch' stars say more than 3,400 rattlesnakes were caught on set while filming](https://www.ksdk.com/article/news/nation-world/dutton-ranch-rattlesnake-wrangler-caught-filming/507-13eb8d29-9748-40b6-bc8f-68f9fc3dc046) — *2026-06-01*
-  > Kelly Reilly said there were six "snake wranglers" on set to clear out the snakes from the areas where they were filming.
-- **NEW**  [[St. Louis] Carnival data breach: Personal information compromised in social engineering attack](https://www.ksdk.com/article/news/nation-world/carnival-data-breach-employee-deceive/507-f2fb6cbe-7600-4f57-9c74-49a959ffd1bf) — *2026-06-01*
-  > The Carnival Corporation said it was reaching out to impacted customers. It's unclear how many people are affected.
-- **NEW**  [[St. Louis] Lionel Richie pays tribute to Commodores co-founder Ronald LaPread after bassist's death](https://www.ksdk.com/article/entertainment/lionel-richie-ronald-lapread-commodores/507-3405cdce-7ab0-4b79-8736-e417efa99486) — *2026-06-01*
-  > Richie remembered LaPread as a "dear brother."
-- **NEW**  [[St. Louis] Vacant restaurant to make way for a coffee chain's new store in south St. Louis County](https://www.ksdk.com/article/news/local/business-journal/vacant-restaurant-to-make-way-for-a-coffee-chains-new-store-in-south-st-louis-county/63-4bef7bea-80d3-45b0-956c-788ca3d5d2ce) — *2026-06-01*
-  > The Dutch Bros location will have a double drive-thru and a walk-up window, according to filings.
-- **NEW**  [[St. Louis] US bombs Iranian military sites and Kuwait is hit by drone and missile fire](https://www.ksdk.com/article/news/nation-world/iranian-military-sites-tehran-israel-washington-united-states-iran-war/507-513a85b7-de2d-4a9e-a4c4-c746e7d65720) — *2026-06-01*
-  > The nominal ceasefire between Iran and the U.S. has been repeatedly tested with such back-and-forth attacks.
-- **NEW**  [[St. Louis] 'Euphoria' is over | Creator Sam Levinson confirms Sunday episode was series finale](https://www.ksdk.com/article/entertainment/euphoria-season-finale-zendaya-sydney-sweeney/507-c6b90ed0-d82b-4ff5-8979-586117cb4ce5) — *2026-06-01*
-  > Many of the show's stars have blossomed into household names since the series premiere in 2019.
-- **NEW**  [[St. Louis] Man dies after being hit by multiple vehicles in south St. Louis](https://www.ksdk.com/article/news/local/as-seen-on-tv/south-st-louis-hit-and-run-crash-predestrian-killed/63-66e8077b-2c23-4c70-8e62-df5e9457e73f) — *2026-06-01*
-  > A man was killed after being struck by multiple vehicles Friday night on Gravois. Police said the first vehicle that hit him fled the scene.
-- **NEW**  [[St. Louis] After 41 years, neighborhood gives beloved mail carrier a party he'll never forget](https://www.ksdk.com/article/news/local/making-a-difference/after-41-years-neighborhood-gives-beloved-mail-carrier-mike-carranza-a-party-hell-never-forget/63-0bf078f4-7d5e-4485-ace7-4577da59e463) — *2026-06-01*
-  > After 41 years on the same route, beloved mail carrier Mike Carranza's retirement was cause for a surprise neighborhood celebration in Frontenac Estates.
-- **NEW**  [[St. Louis] 'My son is covered in blood': Carnival assault in St. Peters sends 2 teens to hospital, sparks safety concerns](https://www.ksdk.com/article/news/crime/mid-rivers-mall-carnival-assault-in-st-peters-sends-2-teens-to-hospital/63-ba3d723b-a627-458a-9969-9d19914dafc3) — *2026-06-01*
-  > Two teens were hospitalized after an assault Friday night at a carnival in St. Peters, renewing concerns from parents and business owners over youth violence.
-- **NEW**  [[St. Louis] Peabo Bryson, singer-songwriter behind several Disney classics, suffers stroke](https://www.ksdk.com/article/news/nation-world/peabo-bryson-has-stroke/507-395853a1-644b-4bf4-b606-9e429a953399) — *2026-06-01*
-  > The 75-year-old Grammy-award winning singer, songwriter has had many hits, including "If You're Ever in My Arms Again" and "A Whole New World."
-- **NEW**  [[St. Louis] 'Mister Rogers' Neighborhood' jazz guitarist Joe Negri dies at 99](https://www.ksdk.com/article/news/nation-world/handyman-joe-negri-mister-rogers-neighborhood-died/507-1e1e4f4c-d266-4224-9ce1-276838f0d9d3) — *2026-06-01*
-  > Joe Negri, known for his role as Handyman Negri on "Mister Rogers’ Neighborhood," has died at 99.
-- **NEW**  [[St. Louis] 'Overwhelmed with emotions': Navy veteran reunites with missing service dog](https://www.ksdk.com/article/news/nation-world/florida-navy-veteran-reunites-with-missing-service-dog/507-07ad02fb-3ec5-4491-96c4-cd34e57a867a) — *2026-05-31*
-  > Scott Baker and his service dog Mal’i reunited after a dayslong search in Jacksonville, Florida.
+- **NEW**  [[St. Louis] When is the UFC fight at the White House?](https://www.ksdk.com/article/news/nation-world/ufc-fight-at-the-white-house-when-how-to-watch-full-card/507-976d3047-b5dc-4318-8962-6bee894a000e) — *2026-06-01*
+  > Crews have been busy building a temporary arena on the White House South Lawn for this month's UFC bout.
+- **NEW**  [[St. Louis] Judge to decide if a key hearing for the man accused of killing Charlie Kirk will be public](https://www.ksdk.com/article/news/nation-world/judge-decision-key-hearing-open-to-public-reporters-charlie-kirk-murder-trial/507-9b0bf747-fc25-4d51-8723-ff0904275189) — *2026-06-01*
+  > A Utah judge is set to decide whether to bar reporters and the public from parts of a key upcoming hearing in the case of the man accused of killing Charlie Kirk.
+- **NEW**  [[St. Louis] South Africa soccer body says World Cup squad will depart Monday after visa delay](https://www.ksdk.com/article/sports/soccer/world-cup/south-africa-team-visa-troubles-world-cup-tournament/507-ce67bbd5-3098-4820-a9ad-6080dac931cc) — *2026-06-01*
+  > The South African team was due to depart Sunday but had not secured U.S. visas for some players and backroom staff members.
+- **NEW**  [[St. Louis] Cruise ship rescues injured sailor stranded nearly 500 miles off Oregon coast](https://www.ksdk.com/article/news/nation-world/cruise-ship-rescues-stranded-mariner/507-cfa5f5b1-f8ae-4cba-ba6c-0d99536c4dab) — *2026-06-01*
+  > The cruise ship diverted more than 100 miles from its intended course after an injured mariner put out a distress call.
+- **NEW**  [[St. Louis] More than $565K raised for Tornado Relief Fund by 5 On Your Side, Urban League of Metropolitan St. Louis](https://www.ksdk.com/article/news/local/st-louis-half-a-million-raised-for-tornado-relief-fund-urban-league/63-817b09c1-1147-440e-b49c-41d70f9ff86c) — *2026-06-01*
+  > “We believe our greatest responsibility is to stand up for the people we serve, not just on the day of a disaster, but every day after,” KSDK officials said.
 
-_(159 additional items in raw.jsonl)_
+_(192 additional items in raw.jsonl)_

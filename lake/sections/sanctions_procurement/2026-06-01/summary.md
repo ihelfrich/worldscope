@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-06-01
-record_count: 101
-new_today: 1
+record_count: 103
+new_today: 2
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-1 new of 101 total items today.
+2 new of 103 total items today.
 
 - [[OFAC] Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-29*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZT2x6ZWpsX3daM2U4SWE3bngxSGgwT3lxRmI1X1hpdHRIS19aU3p6S1d0SE1TT1V2dlM5cENaOXRfcFN4YUlsXzk3Mkk3cG9MTGR4M3lBWnpDcHZUTlE?oc=5" target="_blank">Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Aske
@@ -23,6 +23,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYmsxWDE3WFh2VzgyWDZ2Y2xnSVJHZzFTTnUtUlM5Z0tOMktfbXRkUmJhMmdHa2wwM19JRnhiWkwxdENoT0owTkx0cEU0ZmdIUk5CVGFjZ2cxbDJOS2c?oc=5" target="_blank">International Criminal Court-related Designation</a>&nbsp;&nbsp;<font color="#6f
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiSUxCVkxFTVQzeHkybjNQTW5HVERKWjFkMGVrUTQ4UW1uVHlGc2xSZ1ZadlFnWm9FZ0ZaNnZIT1BzbEJjdExFZ2tsYXRiZk54akJkTG1JQXVSMnpQR1AtNEJfbkU?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
+- **NEW**  [[OFAC] Publication of Introduction to OFAC Guide - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-01*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HSXNIZTI0cmRlUEZMeEUxRU1mNTdNT1Z0Qll2QjNyMVJpdUVNVjd4Q1ZXU29URzYzZWo0T3MyX1ZhbHFHR21aaDVYaTNYMjRmZW45UU0wei1sd3hsbGc?oc=5" target="_blank">Publication of Introduction to OFAC Guide</a>&nbsp;&nbsp;<font color="#6f6f6f">O
 - **NEW**  [[BIS Entity List] page checksum 0220879c7d79](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-06-01*
   > Page content hash: 0220879c7d79. Compare with prior day's hash to detect updates.
 - [[USASpending] $48,063,763,681 → LOCKHEED MARTIN CORP: ](https://www.usaspending.gov/award/DEAC0494AL85000) — *2026-06-01*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE ARES I UPPER STAGES. THE UPPER STAGE (US) ELEMENT IS AN INTEGRAL PART OF THE ARES I LAUNCH VEHICLE AND PROVIDES THE SECOND STAGE OF 
 - [[USASpending] $7,595,339,605 → MISSION SUPPORT & TEST SERVICES LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION S](https://www.usaspending.gov/award/DENA0003624) — *2026-06-01*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERVICES LLC (MSTS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NEVADA NATIONAL SECURITY SITE.
-- [[USASpending] $4,430,784,857 → NORTHROP GRUMMAN SYSTEMS CORPORATION: FIRST DDT AND E, ARES I-X, AND FLIGHT TESTS.  FIRST STAGE WI](https://www.usaspending.gov/award/NNM07AA75C) — *2026-06-01*
-  > Agency: National Aeronautics and Space Administration.  Description: FIRST DDT AND E, ARES I-X, AND FLIGHT TESTS.  FIRST STAGE WILL BE A FIVE SEGMENT, SOLID ROCKET BOOSTER DERIVED FROM THE SPACE SHUTTLE PROGRAM (SSP) SOLID ROCKET BOOSTER (SRB)/REUSABLE SOLID ROCKET MOTOR (RSRM). 
 
-_(76 additional items in raw.jsonl)_
+_(78 additional items in raw.jsonl)_

@@ -2,42 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-01
-record_count: 832
-new_today: 605
+record_count: 830
+new_today: 632
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-605 new of 832 total items today.
+632 new of 830 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[India] TMC forgery case filed by 2 MLAs, says Suvendu Adhikari; Mamata expels them](https://www.hindustantimes.com/india-news/tmc-forgery-case-filed-by-2-mlas-says-suvendu-adhikari-mamata-expels-them-101780314681204.html) — *2026-06-01*
-- **NEW**  [[India] 'All major points settled': First tranche of India-US trade deal soon, says Piyush Goyal](https://www.hindustantimes.com/india-news/all-major-points-settled-first-tranche-of-india-us-trade-deal-soon-says-piyush-goyal-101780312909430.html) — *2026-06-01*
-- **NEW**  [[India] Twisha ‘dowry death’ case: CBI recreates crime scene with mother-in-law Giribala, husband Samarth in Bhopal](https://www.hindustantimes.com/india-news/cbi-uses-dummy-to-recreate-crime-scene-with-giribala-samarth-singh-at-twisha-sharmas-marital-home-in-bhopal-101780312525585.html) — *2026-06-01*
-- **NEW**  [[India] Monkey's cash heist at UP court:  ₹2 lakh bag snatched, currency notes rain from tree | Video](https://www.hindustantimes.com/india-news/monkeys-cash-heist-at-up-court-rs-2-lakh-bag-snatched-currency-notes-rain-from-tree-video-101780306981445.html) — *2026-06-01*
-- **NEW**  [[India] Fire rips through fish market in Odisha’s Cuttack, guts over 30 shops, bank](https://www.hindustantimes.com/india-news/fire-rips-through-fish-market-in-odisha-s-cuttack-guts-over-30-shops-bank-101780312340807.html) — *2026-06-01*
-- **NEW**  [[India] Manipur: Minors caught in crossfire pick up guns, bombs, lose their innocence](https://www.hindustantimes.com/india-news/manipur-minors-caught-in-crossfire-pick-up-guns-bombs-lose-their-innocence-101780312340430.html) — *2026-06-01*
-- **NEW**  [[India] Govt to retain AI labelling rule, bring schedule for advisories](https://www.hindustantimes.com/india-news/govt-to-retain-ai-labelling-rule-bring-schedule-for-advisories-101780311863247.html) — *2026-06-01*
-- **NEW**  [[India] ‘Beware of pickpockets’: Rahul Gandhi slams CBSE, Modi govt over re-evaluation process](https://www.hindustantimes.com/india-news/beware-of-pickpockets-rahul-gandhi-slams-cbse-modi-govt-over-re-evaluation-process-101780311033541.html) — *2026-06-01*
-- **NEW**  [[India] Mamata Banerjee's party expels two MLAs a day after 61 of 80 skipped party meeting. Reason: 'anti-party activities'](https://www.hindustantimes.com/india-news/mamata-banerjees-party-expels-two-mlas-a-day-after-61-of-80-skipped-party-meeting-reason-anti-party-activities-101780308459418.html) — *2026-06-01*
-- **NEW**  [[India] ‘8 lakh signed petition, 1 crore affected’: CJP chief Dipke cites numbers ahead of protest to seek minister resignation](https://www.hindustantimes.com/india-news/8-lakh-signed-petition-1-crore-affected-cjp-chief-abhijeet-dipke-numbers-seeking-dharmendra-pradhan-resignation-101780308446786.html) — *2026-06-01*
-- **NEW**  [[India] JEE (Advanced) 2026: 56,880 candidates qualify, Shubham Kumar tops CRL](https://www.hindustantimes.com/india-news/jee-advanced-2026-56-880-candidates-qualify-shubham-kumar-tops-crl-101780310059403.html) — *2026-06-01*
-- **NEW**  [[India] ECI announces schedule for Rajya Sabha, state legislative councils elections; polling on June 18](https://www.hindustantimes.com/india-news/election-commission-announces-schedule-for-elections-in-rajya-sabha-state-legislative-councils-polling-on-june-18-101780309117113.html) — *2026-06-01*
-- **NEW**  [[India] Sacred groves, living laws: How Khasi traditions quietly protect Meghalaya’s forests](https://www.hindustantimes.com/india-news/sacred-groves-living-laws-how-khasi-traditions-quietly-protect-meghalaya-s-forests-101780308439181.html) — *2026-06-01*
-- **NEW**  [[India] 'Not only India': Nepal PM's ‘encroachment’ remark on Lipulekh Pass dispute ignites controversy at home](https://www.hindustantimes.com/india-news/not-only-india-nepal-pms-encroachment-remark-on-lipulekh-pass-dispute-ignites-controversy-at-home-101780305964751.html) — *2026-06-01*
-- **NEW**  [[India] ‘Rejected job offers in US’: CJP's Abhijeet Dipke on India return, reason for protest](https://www.hindustantimes.com/india-news/rejected-job-offers-in-us-cjps-abhijeet-dipke-on-india-return-reason-for-protest-101780307288678.html) — *2026-06-01*
-- **NEW**  [[India] Football legend Messi's ‘swaying’ statue from Mamata era taken down in Kolkata, may be relocated](https://www.hindustantimes.com/india-news/football-legend-messis-swaying-statue-from-mamata-era-taken-down-in-kolkata-may-be-relocated-101780306637491.html) — *2026-06-01*
-- **NEW**  [[India] Education Ministry fact-checks viral claims of fire at its Delhi office](https://www.hindustantimes.com/india-news/education-ministry-fact-checks-viral-claims-of-fire-at-its-delhi-office-101780306480082.html) — *2026-06-01*
-- **NEW**  [[India] India, Australia underscore maritime freedom and supply chain security in high-level talks](https://www.hindustantimes.com/india-news/india-australia-underscore-maritime-freedom-and-supply-chain-security-in-high-level-talks-101780306739697.html) — *2026-06-01*
-- **NEW**  [[India] Odisha: Daily wager dies after 'torture' in police custody, probe ordered](https://www.hindustantimes.com/india-news/odisha-daily-wager-dies-after-torture-in-police-custody-probe-ordered-101780305887708.html) — *2026-06-01*
-- **NEW**  [[India] Nagaland CM Rio seeks Centre’s help for release of 6 abducted Nagas in Manipur](https://www.hindustantimes.com/india-news/nagaland-cm-rio-seeks-centre-s-help-for-release-of-6-abducted-nagas-in-manipur-101780305380101.html) — *2026-06-01*
-- **NEW**  [[India] PM Modi holds talks with Myanmar President Aung Hlaing at Delhi's Hyderabad House](https://www.hindustantimes.com/india-news/pm-modi-holds-talks-with-myanmar-president-aung-hlaing-at-delhi-hyderabad-house-101780304166873.html) — *2026-06-01*
-- **NEW**  [[India] 'Meet me at the airport': Cockroach Janta Party founder's step-by-step plan for protest in Delhi](https://www.hindustantimes.com/india-news/meet-me-at-the-airport-cockroach-janta-party-founders-step-by-step-plan-for-protest-in-delhi-101780303334297.html) — *2026-06-01*
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-01*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- **NEW**  [[Global] As Israel pushes past the Litani, Lebanese question the purpose of UNIFIL](https://www.aljazeera.com/features/2026/6/1/as-israel-pushes-past-the-litani-lebanese-question-the-purpose-of-unifil?traffic_source=rss) — *2026-06-01*
+  > Israel has pushed past the Litani River, with the UNFIL peacekeeping force helpless to prevent an invasion.
+- **NEW**  [[Global] Indian PM Modi meets Myanmar military gov’t leader in New Delhi](https://www.aljazeera.com/news/2026/6/1/indian-pm-modi-meets-myanmar-military-govt-leader-in-new-delhi?traffic_source=rss) — *2026-06-01*
+  > Myanmar opposition groups criticise India for hosting Min Aung Hlaing, but India says engagement is best way forward.
+- **NEW**  [[Global] Lebanon latest: Israel captures more land in the south](https://www.aljazeera.com/video/newsfeed/2026/6/1/lebanon-latest-israel-captures-more-land-in-the-south?traffic_source=rss) — *2026-06-01*
+  > Al Jazeera’s Zeina Khodr brings you the latest from Lebanon as Israel expands its occupation there.
+- **NEW**  [[Global] Egypt’s new monorail offers a modern ride, but Cairo is still not convinced](https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced?traffic_source=rss) — *2026-06-01*
+  > Cairo&#039;s East Nile monorail opened to passengers this month as a flagship of Egypt&#039;s infrastructure ambitions.
+- **NEW**  [[Global] Sacked Arsenal staffer doesn’t regret speaking out for Palestine](https://www.aljazeera.com/video/newsfeed/2026/6/1/sacked-arsenal-staffer-doesnt-regret-speaking-out-for-palestine?traffic_source=rss) — *2026-06-01*
+  > Mark Bonnick is suing Arsenal football club for unfair dismissal, saying he was sacked for supporting Palestine.
+- **NEW**  [[Global] Huge explosion at Malta fireworks factory](https://www.aljazeera.com/video/newsfeed/2026/6/1/huge-explosion-at-malta-fireworks-factory?traffic_source=rss) — *2026-06-01*
+  > A large explosion has torn through a fireworks factory in northern Malta, damaging buildings several kilometres away.
+- **NEW**  [[Global] ‘Spoiled insulin’: Sudan war disrupts drug supplies, fuelling smuggling](https://www.aljazeera.com/news/2026/6/1/spoiled-insulin-sudan-war-disrupts-drug-supplies-fuelling-smuggling?traffic_source=rss) — *2026-06-01*
+  > As the conflict destroys local production, Sudanese patients are forced to rely on expensive, smuggled medicines.
+- **NEW**  [[Global] Hungary’s Magyar to amend the constitution to remove President Tamas Sulyok](https://www.aljazeera.com/news/2026/6/1/hungarys-magyar-to-amend-the-constitution-to-remove-president-tamas-sulyok?traffic_source=rss) — *2026-06-01*
+  > After coming to power in April, PM Peter Magyar had given Sulyok a deadline of Sunday to leave office.
+- **NEW**  [[Global] How the world failed Ryan and Yaman](https://www.aljazeera.com/features/2026/6/1/how-the-world-failed-ryan-and-yaman?traffic_source=rss) — *2026-06-01*
+  > An Israeli strike killed my children. What pains me is not just their loss but also the normalisation of their murder.
+- **NEW**  [[Global] Ukraine’s forcibly transferred children must not be a bargaining chip](https://www.aljazeera.com/opinions/2026/6/1/ukraines-forcibly-transferred-children-must-not-be-a-bargaining-chip?traffic_source=rss) — *2026-06-01*
+  > Russia must face more pressure to fulfil its legal obligations to return the Ukrainian children.
+- **NEW**  [[Global] Residents flee Beirut’s southern suburbs as Israel orders strikes](https://www.aljazeera.com/video/newsfeed/2026/6/1/residents-flee-beiruts-southern-suburbs-as-israel-orders-strikes?traffic_source=rss) — *2026-06-01*
+  > Videos show gridlocked traffic in the southern suburbs of Beirut as residents rushed to evacuate the Dahiyeh area.
+- **NEW**  [[Global] How could El Nino reshape tropical storms around the world this year?](https://www.aljazeera.com/news/2026/6/1/how-could-el-nino-reshape-tropical-storms-around-the-world-this-year?traffic_source=rss) — *2026-06-01*
+  > El Nino tends to reduce hurricanes in the Atlantic while increasing storms in the Pacific Ocean.
+- **NEW**  [[Global] Greece reopens Syrian and Afghan asylum cases, hoping for returns](https://www.aljazeera.com/news/2026/6/1/greece-reopens-syrian-and-afghan-asylum-cases-hoping-for-returns?traffic_source=rss) — *2026-06-01*
+  > Greece&#039;s migration minister recently said Athens does not share common values with &#039;hardcore Islam&#039;.
+- **NEW**  [[Global] England World Cup 2026 team preview: Players to watch, group and squad list](https://www.aljazeera.com/sports/2026/6/1/england-world-cup-2026-team-preview-players-to-watch-group-and-squad-list?traffic_source=rss) — *2026-06-01*
+  > England cruised through qualifying, but some fans are concerned over the squad selection and the form against top teams.
+- **NEW**  [[Global] French Navy seizes Russian oil tanker](https://www.aljazeera.com/video/newsfeed/2026/6/1/french-navy-seizes-russian-oil-tanker?traffic_source=rss) — *2026-06-01*
+  > French Navy seizes Russian oil tanker
+- **NEW**  [[Global] What is Lebanon’s Beaufort Castle, and why has Israel captured it?](https://www.aljazeera.com/news/2026/6/1/what-is-lebanons-beaufort-castle-and-why-has-israel-captured-it?traffic_source=rss) — *2026-06-01*
+  > The fortress, a historical battleground, is playing a central role in Israel’s military campaign against Hezbollah.
+- **NEW**  [[Global] Kuwait condemns Iranian attack as Iran-US trade new strikes](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) — *2026-06-01*
+  > Kuwait activated its air defences after what its foreign ministry later described as a ‘heinous Iranian attack’.
+- **NEW**  [[Global] French navy, backed by the UK, intercepts Russian oil tanker](https://www.aljazeera.com/news/2026/6/1/french-navy-backed-by-the-uk-intercepts-russian-oil-tanker?traffic_source=rss) — *2026-06-01*
+  > According to France, the tanker, which had sailed from Murmansk, was trying to &#039;skirt international sanctions&#039;.
+- **NEW**  [[Global] Ethiopia holds elections with PM Abiy’s party expected to dominate](https://www.aljazeera.com/news/2026/6/1/ethiopia-holds-elections-with-pm-abiys-party-expected-to-dominate?traffic_source=rss) — *2026-06-01*
+  > Voting will not take place in northern Tigray region and some parts of the Amhara region amid insecurity.
+- **NEW**  [[Global] Israel bombs a beloved Lebanese landmark, chef Husen Fayad’s restaurant](https://www.aljazeera.com/video/newsfeed/2026/6/1/israel-bombs-a-beloved-lebanese-landmark-chef-husen-fayads-restaurant?traffic_source=rss) — *2026-06-01*
+  > Israel destroyed Arch Almoulouk, a resort and restaurant owned by famous Lebanese chef Husen Fayad in Wadi al-Hujeir.
+- **NEW**  [[Global] US, Iran trade new attacks amid talks: Here’s what we know](https://www.aljazeera.com/news/2026/6/1/us-iran-trade-new-attacks-amid-talks-heres-what-we-know?traffic_source=rss) — *2026-06-01*
+  > Washington and Tehran are attacking each other despite a ceasefire that came into effect on April 8.
+- **NEW**  [[Global] Ultra-Orthodox Jewish demonstrators storm Israeli police station](https://www.aljazeera.com/video/newsfeed/2026/6/1/ultra-orthodox-jewish-demonstrators-storm-israeli-police-station?traffic_source=rss) — *2026-06-01*
+  > Ultra-Orthodox Jewish demonstrators storm Israeli police station
+- **NEW**  [[Global] Which football rule changes will be implemented during the World Cup?](https://www.aljazeera.com/sports/2026/6/1/which-football-rule-changes-will-be-implemented-during-the-world-cup?traffic_source=rss) — *2026-06-01*
+  > Red cards for covering mouths, corner kicks for time wasting and broadened use of VAR technology will be implemented.
+- **NEW**  [[Global] Iran’s IRGC launches retaliatory strike after US attacks](https://www.aljazeera.com/news/2026/6/1/irans-irgc-launches-retaliatory-strike-after-us-attacks?traffic_source=rss) — *2026-06-01*
+  > Kuwait, which hosts US forces, says its defence systems intercepted missiles and drones amid sirens across the country.
 
-_(807 additional items in raw.jsonl)_
+_(805 additional items in raw.jsonl)_
