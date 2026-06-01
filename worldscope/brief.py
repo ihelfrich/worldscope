@@ -246,6 +246,36 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_radar() -> None:
+        # Research radar. Reads the same populated lake the sections wrote,
+        # flags developments (surges + novel multi-section emergence) into the
+        # anomalies table, scores every source's credibility by cross-source
+        # corroboration, seeds candidate new sources, persists a _meta artifact
+        # the desk-officer routine can read, and prepends a "Research radar"
+        # panel to the brief. Failure here never blocks the brief.
+        from . import radar as _rd
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            records = _rd._load_records(today, _rd.RADAR_WINDOW_DAYS, conn)
+            agg = _rd.aggregate_keys(records, today=today, days=_rd.RADAR_WINDOW_DAYS)
+            devs = _rd.detect_developments(agg, today=today, days=_rd.RADAR_WINDOW_DAYS)
+            creds = _rd.score_sources(
+                records, health_by_source=_rd._health_map(conn),
+                tier_by_source=_rd._tier_map(conn))
+            candidates = _rd.discover_candidate_sources(
+                records, known_hosts=_rd._known_hosts(conn))
+            n_anom = _rd.persist_developments(lake, devs, today=today)
+            _rd.write_radar_artifact(today, devs, creds, candidates)
+            panel = _rd.render_radar_panel(devs, creds)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[radar] {len(devs)} developments · {n_anom} anomalies written "
+                  f"· {len(creds)} sources scored · {len(candidates)} candidate sources")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -272,6 +302,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("ukraine-maps", _stage_ukraine_maps),
         ("cross-section", _stage_cross_section),
         ("signals", _stage_signals),
+        ("radar", _stage_radar),
         ("site-builder", _stage_site_builder),
     ):
         _run_stage(label, fn)
