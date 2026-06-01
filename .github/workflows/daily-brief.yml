@@ -86,6 +86,10 @@ jobs:
           path: dist
   deploy:
     needs: build
+    # GitHub Pages only deploys from the default branch (the github-pages
+    # environment is branch-protected). Skip on feature-branch / manual runs so
+    # they don't show a spurious "deploy failed" — the build still runs fully.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
