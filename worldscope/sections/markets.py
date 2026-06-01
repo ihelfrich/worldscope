@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import Section
+from . import Section, MissingCredential, UpstreamHTTPError
 
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 QUOTE = "https://finnhub.io/api/v1/quote"
@@ -75,7 +75,7 @@ class MarketsSection(Section):
     def pull(self) -> list[dict]:
         key = os.environ.get("FINNHUB_API_KEY")
         if not key:
-            return []
+            raise MissingCredential("FINNHUB_API_KEY not set")
         s = requests.Session()
         s.headers["User-Agent"] = UA
         items: list[dict] = []
@@ -120,7 +120,7 @@ class MarketsSection(Section):
         # the section STATE_STALE and carries the last good snapshot forward
         # rather than recording a misleading empty_ok.
         if not items and fetch_failures == len(WATCHLIST):
-            raise RuntimeError(
+            raise UpstreamHTTPError(
                 f"all {fetch_failures} Finnhub quote fetches failed "
                 f"(check FINNHUB_API_KEY / API status)"
             )

@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError
 
 API = "https://api.reliefweb.int/v1/reports"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
@@ -39,9 +39,12 @@ class ReliefWebSection(Section):
         try:
             resp = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=30)
             resp.raise_for_status()
+        except requests.RequestException as e:
+            raise UpstreamHTTPError(f"ReliefWeb request failed: {e}") from e
+        try:
             data = resp.json()
-        except Exception:
-            return []
+        except ValueError as e:
+            raise UpstreamParseError(f"ReliefWeb returned non-JSON: {e}") from e
         items: list[dict] = []
         for r in (data.get("data") or []):
             f = r.get("fields") or {}

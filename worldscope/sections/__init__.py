@@ -40,6 +40,41 @@ class PullTimeout(Exception):
     """Raised when a section's pull() exceeds its deadline."""
 
 
+# --------------------------------------------------------------------------- #
+# Typed source-failure exceptions.
+#
+# The trust rule: a section must NOT swallow an upstream failure and return [].
+# An empty list means "the source confirmed there was nothing today" — a quiet
+# day. A failure (missing credential, HTTP error, auth rejection, unparseable
+# body) must be *raised*, so resolve() records it as stale_after_failure /
+# no_data (not fresh_empty) and source_health logs the failure. That is what
+# lets the data-integrity layer tell a broken sensor from a quiet one.
+# --------------------------------------------------------------------------- #
+
+class SourceUnavailable(RuntimeError):
+    """Base: the upstream source could not be consulted this run."""
+
+
+class MissingCredential(SourceUnavailable):
+    """A required API key / credential is not set in the environment."""
+
+
+class UpstreamHTTPError(SourceUnavailable):
+    """The upstream returned a non-2xx status or the request failed."""
+
+
+class UpstreamAuthError(UpstreamHTTPError):
+    """The upstream rejected our credentials (401/403)."""
+
+
+class UpstreamParseError(SourceUnavailable):
+    """The upstream responded but the body could not be parsed (JSON/XML/HTML)."""
+
+
+class UpstreamSchemaError(UpstreamParseError):
+    """The upstream parsed but did not match the expected shape."""
+
+
 def _run_with_timeout(fn, seconds: float):
     """Run `fn()` with a hard wall-clock deadline. If `seconds` elapse before
     fn returns, raise PullTimeout. Uses a daemon thread so a wedged network

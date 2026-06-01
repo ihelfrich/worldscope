@@ -19,7 +19,7 @@ from typing import Optional
 
 import requests
 
-from . import Section
+from . import Section, MissingCredential, UpstreamHTTPError
 
 OBS_API = "https://api.stlouisfed.org/fred/series/observations"
 SER_API = "https://api.stlouisfed.org/fred/series"
@@ -83,7 +83,7 @@ class MacroSection(Section):
     def pull(self) -> list[dict]:
         key = os.environ.get("FRED_API_KEY")
         if not key:
-            return []
+            raise MissingCredential("FRED_API_KEY not set")
         session = requests.Session()
         session.headers["User-Agent"] = UA
         items: list[dict] = []
@@ -104,4 +104,10 @@ class MacroSection(Section):
                 "value": value,
                 "group": group,
             })
+        # FRED always has values for these series; an empty result with a key
+        # set means every fetch failed (bad key / FRED down), not a quiet day.
+        if not items:
+            raise UpstreamHTTPError(
+                "FRED returned no observations for any watched series "
+                "(check FRED_API_KEY / API status)")
         return items
