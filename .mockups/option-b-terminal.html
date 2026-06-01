@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Option B · Modern Dark / Terminal</title>
+<style>
+  :root{
+    --bg:#0c1016; --panel:#141b24; --panel2:#1a232e; --hair:#243140;
+    --text:#dfe7ef; --muted:#7d8 a; --muted:#7d8b9c;
+    --accent:#3fd0c9;       /* single vivid teal accent */
+    --amber:#f4b740; --red:#ff5d52; --green:#46d39a;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14.5px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .bar{position:sticky;top:0;z-index:5;background:rgba(12,16,22,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--hair);display:flex;align-items:center;gap:22px;padding:12px 28px}
+  .bar .brand{font-family:var(--mono);font-weight:700;letter-spacing:.28em;font-size:12px;color:#fff}
+  .bar .brand b{color:var(--accent)}
+  .bar nav{display:flex;gap:18px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .bar nav a{color:var(--muted);text-decoration:none} .bar nav a.on{color:var(--accent)}
+  .bar .clock{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .wrap{max-width:1240px;margin:0 auto;padding:26px 28px 60px}
+  .hero{background:linear-gradient(180deg,var(--panel) 0%,var(--bg) 100%);border:1px solid var(--hair);border-radius:14px;padding:26px 28px;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent)}
+  .hero .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+  .hero h1{font-size:27px;font-weight:800;letter-spacing:-.02em;margin:8px 0 12px;line-height:1.18}
+  .hero p{color:#c2ccd8;font-size:15px;max-width:80ch}
+  .hero p a{color:var(--accent);text-decoration:none}
+  /* ticker strip */
+  .strip{display:flex;gap:0;margin:16px 0 24px;border:1px solid var(--hair);border-radius:10px;overflow:hidden;background:var(--panel)}
+  .strip .cell{flex:1;padding:11px 14px;border-right:1px solid var(--hair)}
+  .strip .cell:last-child{border-right:none}
+  .strip .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .strip .v{font-family:var(--mono);font-size:17px;font-weight:700;margin-top:3px}
+  .red{color:var(--red)} .green{color:var(--green)} .amber{color:var(--amber)}
+  /* watch grid */
+  h2.s{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:30px 0 14px;display:flex;align-items:center;gap:10px}
+  h2.s::after{content:"";flex:1;height:1px;background:var(--hair)}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .card{background:var(--panel);border:1px solid var(--hair);border-radius:12px;padding:16px 17px;position:relative}
+  .card.hi{border-top:2px solid var(--red)}
+  .card .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:700}
+  .card h3{font-size:15.5px;font-weight:700;margin:6px 0 8px}
+  .card p{font-size:13px;color:#aab6c4;line-height:1.5}
+  .quiet{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:14px;line-height:1.7}
+  .quiet b{color:#9fb0c0}
+  /* section panel */
+  .panel{background:var(--panel);border:1px solid var(--hair);border-radius:14px;padding:22px 24px;margin-top:16px}
+  .panel h3.t{font-size:18px;font-weight:800;letter-spacing:-.01em;margin-bottom:3px}
+  .panel .src{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-bottom:14px}
+  .panel p{color:#c2ccd8;font-size:14px;margin-bottom:11px}
+  .conf{font-family:var(--mono);font-size:10px;padding:1px 6px;border-radius:4px;background:var(--panel2);color:var(--accent);text-transform:uppercase}
+  .chartph{height:160px;border:1px dashed var(--hair);border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--muted);background:var(--panel2);margin-bottom:16px}
+  footer{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:34px;padding-top:16px;border-top:1px solid var(--hair);display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+  <div class="bar">
+    <span class="brand"><b>◆</b> WORLD<span style="color:var(--accent)">SCOPE</span></span>
+    <nav><a class="on">Today</a><a>Sections</a><a>Archive</a><a>Bundle</a></nav>
+    <span class="clock">31 MAY 2026 · 09:20 UTC</span>
+  </div>
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Lead · Iran deadline / Ukraine deep strike</div>
+      <h1>The Iran deal clock expired without a formal agreement</h1>
+      <p>Polymarket's <a href="#">US–Iran peace deal by May 31</a> prints at 4%, down from 8% a week ago; Hormuz blockade-lifting fell 33%→18% in 48h. Meanwhile <strong>Ukraine's SBU</strong> destroyed two Tu-142 aircraft and an Iskander system at Taganrog and struck the Feodosiya oil terminal in Crimea. Russia retaliated with 290 drones and five Kh-101 cruise missiles; 284 claimed intercepted. <strong>Crimea began fuel rationing</strong> at 20 L/person/day this morning.</p>
+    </div>
+
+    <div class="strip">
+      <div class="cell"><div class="k">S&P 500</div><div class="v green">7,519 ▲9.2%</div></div>
+      <div class="cell"><div class="k">Brent</div><div class="v amber">$109</div></div>
+      <div class="cell"><div class="k">Gold</div><div class="v green">$4,460</div></div>
+      <div class="cell"><div class="k">USD/JPY</div><div class="v red">159.27</div></div>
+      <div class="cell"><div class="k">UST 10Y</div><div class="v">4.63%</div></div>
+      <div class="cell"><div class="k">Anomaly hi</div><div class="v red">FEC 2.8σ</div></div>
+    </div>
+
+    <h2 class="s">Watch Areas · Configured Priorities</h2>
+    <div class="cards">
+      <div class="card hi"><div class="tag">● High</div><h3>Israel–Iran–Hezbollah</h3><p>May 31 deadline passes with no deal. The ceasefire through May 24 not formally extended. Hegseth frames the US floor as denuclearization; OFAC issued fresh Counter-Terrorism Designations.</p></div>
+      <div class="card hi"><div class="tag">● High</div><h3>Russia oil perimeter</h3><p>Overnight Taganrog port strike hits the watch-area box directly. Tanker + fuel terminal ablaze signals capability inside Russian coastal infrastructure; Crimea rationing confirms downstream effects.</p></div>
+      <div class="card hi"><div class="tag">● High</div><h3>US tariff &amp; trade</h3><p>Federal Circuit emergency stay on CIT Section 122 invalidation is the week's outstanding ruling. Three new CIT opinions: ICON EV, Toyo Kohan, Oregon v. US.</p></div>
+    </div>
+    <div class="quiet"><b>Quiet today —</b> Taiwan Strait · Korean peninsula · Critical minerals · EM debt distress · Sahel corridor · AI/semiconductor export controls · Latin America · Arctic.</div>
+
+    <h2 class="s">Macro Situation</h2>
+    <div class="panel">
+      <h3 class="t">Yield curve &amp; oil transmission</h3>
+      <div class="src">SOURCE — worldscope lake · yield_curve 2026-05-30</div>
+      <div class="chartph">[ yield-curve chart ]</div>
+      <p>The curve is no longer inverted at the front end; the 1M–1Y band sits ~3.62–3.85% while the 10Y holds near 4.63%. The 90-day shift is down 10–20bp at the short end — markets buying a soft landing the data doesn't yet validate. <span class="conf">medium</span></p>
+      <p>Oil is the primary transmission mechanism. Brent in a $107–111 band since the Feb-28 jump to $115; every dollar above $100 for a quarter adds ~0.15–0.20pp to CPI. At $109 for six months: ~0.9pp annually, blocking any Fed cut regardless of Warsh's preferences. <span class="conf">high</span></p>
+      <p>Warsh's 54–45 confirmation was the narrowest in modern Fed history. His record favors tighter policy than markets expect; June 16–17 FOMC is his first test. <span class="conf">medium</span></p>
+    </div>
+
+    <footer>
+      <span>WORLDSCOPE · grounded in cited items only</span>
+      <span>data through EOD 2026-05-30 · all times UTC</span>
+    </footer>
+  </div>
+</body>
+</html>

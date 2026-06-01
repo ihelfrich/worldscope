@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Option C · Swiss / Brutalist</title>
+<style>
+  :root{
+    --paper:#f4f4f1; --ink:#111; --line:#111; --muted:#666;
+    --accent:#e8402a;   /* one hot signal red, used sparingly */
+    --sans:"Helvetica Neue","Arial",sans-serif;
+    --mono:"JetBrains Mono","SFMono-Regular",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+  .frame{max-width:1200px;margin:0 auto;border-left:1px solid var(--line);border-right:1px solid var(--line);min-height:100vh}
+  /* masthead: hard grid */
+  .top{display:grid;grid-template-columns:1fr auto;border-bottom:2px solid var(--line)}
+  .top .id{padding:16px 20px;border-right:1px solid var(--line)}
+  .top .id .n{font-family:var(--mono);font-size:11px;letter-spacing:.3em;text-transform:uppercase}
+  .top .id h1{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:.95;margin-top:6px;text-transform:uppercase}
+  .top .d{padding:16px 20px;font-family:var(--mono);font-size:11px;line-height:1.9;text-align:right;color:var(--ink)}
+  /* index row */
+  .idx{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);font-family:var(--mono);font-size:11px}
+  .idx .c{padding:9px 12px;border-right:1px solid var(--line)}
+  .idx .c:last-child{border-right:none}
+  .idx .c span{display:block;color:var(--muted);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase}
+  .idx .c b{font-size:15px;font-weight:700}
+  .neg{color:var(--accent)}
+  /* lede */
+  .lede{padding:26px 20px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:120px 1fr;gap:0}
+  .lede .num{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .lede h2{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.08;margin-bottom:14px}
+  .lede p{font-size:15px;max-width:70ch;line-height:1.55}
+  .lede p a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--accent)}
+  /* watch areas as ledger rows */
+  .lab{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--ink);color:var(--paper)}
+  .row{display:grid;grid-template-columns:50px 230px 1fr;border-bottom:1px solid var(--line)}
+  .row>div{padding:14px 16px;border-right:1px solid var(--line)}
+  .row>div:last-child{border-right:none}
+  .row .rk{font-family:var(--mono);font-size:13px;font-weight:700}
+  .row .nm{font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:-.01em}
+  .row .nm i{display:block;font-family:var(--mono);font-style:normal;font-size:9.5px;letter-spacing:.1em;color:var(--accent);margin-top:5px}
+  .row p{font-size:13.5px;line-height:1.5}
+  .quiet{padding:12px 20px;border-bottom:2px solid var(--line);font-family:var(--mono);font-size:11px;color:var(--muted);line-height:1.8}
+  /* section */
+  .sec{padding:24px 20px;border-bottom:1px solid var(--line)}
+  .sec h3{font-size:22px;font-weight:800;text-transform:uppercase;letter-spacing:-.02em;margin-bottom:2px}
+  .sec .src{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--muted);margin-bottom:16px;text-transform:uppercase}
+  .sec .body{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .sec p{font-size:14px;line-height:1.55;margin-bottom:10px}
+  .conf{font-family:var(--mono);font-size:10px;border:1px solid var(--ink);padding:0 4px;text-transform:uppercase}
+  .chartph{grid-column:1/-1;height:150px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--muted);background:repeating-linear-gradient(90deg,transparent,transparent 11px,rgba(0,0,0,.04) 11px,rgba(0,0,0,.04) 12px)}
+  footer{padding:14px 20px 40px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="top">
+    <div class="id"><div class="n">Worldscope / Daily</div><h1>Morning Brief</h1></div>
+    <div class="d">SUN 31 MAY 2026<br>NO. 151 / MMXXVI<br>FOR I. HELFRICH</div>
+  </div>
+
+  <div class="idx">
+    <div class="c"><span>S&P 500</span><b>7,519</b></div>
+    <div class="c"><span>Brent</span><b>$109</b></div>
+    <div class="c"><span>Gold</span><b>$4,460</b></div>
+    <div class="c"><span>USD/JPY</span><b class="neg">159.27</b></div>
+    <div class="c"><span>UST 10Y</span><b>4.63%</b></div>
+    <div class="c"><span>Anomaly</span><b class="neg">FEC 2.8σ</b></div>
+  </div>
+
+  <div class="lede">
+    <div class="num">Lead 01</div>
+    <div>
+      <h2>The Iran deal clock expired without a formal agreement</h2>
+      <p>Polymarket's <a href="#">US–Iran peace deal by May 31</a> prints at 4%, down from 8% a week ago; Hormuz blockade-lifting fell from 33% to 18% in 48 hours. In the same window <strong>Ukraine's SBU</strong> destroyed two Tu-142 maritime patrol aircraft and an Iskander system at Taganrog and struck the Feodosiya oil terminal in Crimea. Russia retaliated overnight with 290 drones and five Kh-101 cruise missiles; air defences claimed 284 kills. <strong>Crimea began fuel rationing</strong> at 20 litres per person per day this morning.</p>
+    </div>
+  </div>
+
+  <div class="lab">Watch Areas — Configured Priorities</div>
+  <div class="row"><div class="rk">01</div><div class="nm">Israel–Iran–Hezbollah<i>Priority High</i></div><p>May 31 deadline passes with no deal. The ceasefire through May 24 has not been formally extended. Hegseth frames the US floor as denuclearization; OFAC issued fresh Counter-Terrorism Designations with an amended Iran FAQ.</p></div>
+  <div class="row"><div class="rk">02</div><div class="nm">Russia Oil Perimeter<i>Priority High</i></div><p>The overnight Taganrog port strike hits the watch-area bounding box directly. A tanker and fuel terminal ablaze signal Ukrainian capability inside Russian coastal infrastructure; Crimea rationing confirms downstream supply effects.</p></div>
+  <div class="row"><div class="rk">03</div><div class="nm">US Tariff &amp; Trade<i>Priority High</i></div><p>The Federal Circuit emergency stay on CIT's Section 122 invalidation is the week's outstanding ruling. Three new CIT opinions: ICON EV, Toyo Kohan, and Oregon v. United States — the first state-level tariff challenge at opinion stage.</p></div>
+  <div class="quiet">QUIET — TAIWAN STRAIT / KOREAN PENINSULA / CRITICAL MINERALS / EM DEBT / SAHEL CORRIDOR / AI-SEMI EXPORT CONTROLS / LATIN AMERICA / ARCTIC</div>
+
+  <div class="sec">
+    <h3>Macro Situation</h3>
+    <div class="src">Source — Worldscope Lake / Yield Curve 2026-05-30</div>
+    <div class="body">
+      <div class="chartph">[ yield-curve chart ]</div>
+      <div>
+        <p>The curve is no longer inverted at the front end; the 1M–1Y band sits ~3.62–3.85%, the 10Y near 4.63%. The 90-day shift is down 10–20bp at the short end — markets buying a soft landing the data doesn't yet validate. <span class="conf">Med</span></p>
+        <p>Warsh's 54–45 confirmation was the narrowest in modern Fed history; his record favors tighter policy than markets expect. The June 16–17 FOMC is his first test. <span class="conf">Med</span></p>
+      </div>
+      <div>
+        <p>Oil is the primary transmission mechanism. Brent in a $107–111 band since the Feb-28 jump to $115; every dollar above $100 for a quarter adds ~0.15–0.20pp to CPI. At $109 sustained six months: ~0.9pp annually, blocking any Fed cut. <span class="conf">High</span></p>
+        <p>Watch the 10-year breakeven; a cross above 2.85% signals the market pricing durable Hormuz-driven inflation rather than transitory. <span class="conf">Med</span></p>
+      </div>
+    </div>
+  </div>
+
+  <footer><span>Worldscope · grounded in cited items only</span><span>Data through EOD 2026-05-30 · UTC</span></footer>
+</div>
+</body>
+</html>
