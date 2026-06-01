@@ -223,6 +223,29 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         for mname, mpath in UkraineMaps().render_all(today.isoformat()).items():
             print(f"[ukraine-maps] {mname}: {mpath}")
 
+    def _stage_signals() -> None:
+        # Cross-source signal fusion. Reads the lake the sections just populated,
+        # ranks entities/themes by how many INDEPENDENT sections corroborate them,
+        # logs the strongest as falsifiable predictions (auto-graded later to build
+        # a calibrated track record), grades any predictions now due, and prepends
+        # a "Signals" panel to the brief. Failure here never blocks the brief.
+        from . import signals as _sg
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            sigs = _sg.build_signals(today=today, days=_sg.DEFAULT_WINDOW_DAYS, conn=conn)
+            preds = _sg.signals_to_predictions(sigs, today=today)
+            n_written = _sg.persist_predictions(lake, preds)
+            graded = _sg.grade_due_predictions(lake, conn, today=today)
+            panel = _sg.render_signals_panel(sigs, preds)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[signals] {len(sigs)} cross-source signals · "
+                  f"wrote {n_written} predictions · graded {graded} due")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -248,6 +271,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("maps", _stage_maps),
         ("ukraine-maps", _stage_ukraine_maps),
         ("cross-section", _stage_cross_section),
+        ("signals", _stage_signals),
         ("site-builder", _stage_site_builder),
     ):
         _run_stage(label, fn)

@@ -526,6 +526,33 @@ class Lake:
              method, json.dumps(evidence, sort_keys=True), section_id),
         )
 
+    def resolve_prediction(self, *, prediction_id: str, resolved_at: str,
+                           actual_outcome: str) -> None:
+        """Settle a prediction. Records the ground-truth outcome and stores the
+        Brier contribution (predicted_prob - actual_prob)^2 for the scorer.
+
+        ``actual_outcome`` is matched against ``predicted_outcome`` to derive the
+        realized 0/1 truth value; the predicted probability is ``confidence``."""
+        conn = self._ensure_open()
+        row = conn.execute(
+            "SELECT predicted_outcome, confidence FROM predictions WHERE id = ?",
+            (prediction_id,),
+        ).fetchone()
+        brier: Optional[float] = None
+        if row is not None:
+            predicted_outcome, confidence = row[0], row[1]
+            try:
+                actual = 1.0 if str(actual_outcome).strip().upper() == \
+                    str(predicted_outcome).strip().upper() else 0.0
+                brier = (float(confidence) - actual) ** 2
+            except (TypeError, ValueError):
+                brier = None
+        conn.execute(
+            "UPDATE predictions SET resolved_at = ?, actual_outcome = ?, "
+            "brier_contribution = ? WHERE id = ?",
+            (resolved_at, actual_outcome, brier, prediction_id),
+        )
+
     def add_paper_bet(self, *, bet_id: str, market_platform: str, market_id: str,
                       market_url: Optional[str], market_question: str,
                       market_resolves_at: Optional[str], side: str,
