@@ -408,6 +408,42 @@ class PaperBetsSection(Section):
             "",
         ]
 
+        # Forecast skill: realized edge over the market + calibration of our
+        # own probabilistic calls. Hit rate alone says we picked favorites;
+        # edge-over-implied says whether we actually beat the crowd.
+        from ..scoring import track_record as _tr
+        bet_skill = _tr.score_paper_bets_from_connection(conn)
+        pred_skill = _tr.score_predictions_from_connection(conn)
+
+        lines.append("### Forecast skill")
+        if bet_skill.n_resolved and bet_skill.realized_edge is not None:
+            lines.append(
+                f"- Realized edge over market: **{bet_skill.realized_edge * 100:+.1f} pts**"
+                f" (won {bet_skill.hit_rate * 100:.0f}% vs {bet_skill.mean_implied_prob * 100:.0f}% implied)"
+            )
+            if bet_skill.by_band:
+                band_bits = ", ".join(
+                    f"{b}: {v['hit_rate'] * 100:.0f}% (n={v['n']})"
+                    for b, v in bet_skill.by_band.items()
+                )
+                lines.append(f"- Hit rate by confidence band: {band_bits}")
+        else:
+            lines.append("- Bet edge: insufficient resolved data")
+        if pred_skill.n_resolved:
+            bss = (f"{pred_skill.brier_skill_score:+.2f}"
+                   if pred_skill.brier_skill_score is not None else "n/a")
+            lines.append(
+                f"- Predictions resolved: **{pred_skill.n_resolved}** ·"
+                f" Brier **{pred_skill.brier:.3f}** · skill vs climatology **{bss}**"
+            )
+            lines.append(
+                f"- Calibration error (ECE): **{pred_skill.ece:.3f}** ·"
+                f" overconfidence **{pred_skill.overconfidence:+.3f}**"
+            )
+        else:
+            lines.append("- Prediction calibration: insufficient resolved data")
+        lines.append("")
+
         # Top 5 open positions by current unrealized P&L
         wins_open = conn.execute(
             """
