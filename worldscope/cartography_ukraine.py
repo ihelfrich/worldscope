@@ -93,8 +93,11 @@ OBLAST_CENTROIDS: dict[str, tuple[float, float]] = {
 class UkraineMaps:
     """Render the four Ukraine-theater maps for a given date."""
 
-    DEFAULT_LAKE = Path("/Users/ian/Projects/worldscope/lake/db/worldscope.sqlite")
-    DEFAULT_OUT_ROOT = Path("/Users/ian/Projects/worldscope/figures/daily")
+    # Derived from the repo root so they resolve on any machine (and in CI),
+    # not just the author's. cartography_ukraine.py lives at <repo>/worldscope/.
+    _REPO_ROOT = Path(__file__).resolve().parent.parent
+    DEFAULT_LAKE = _REPO_ROOT / "lake" / "db" / "worldscope.sqlite"
+    DEFAULT_OUT_ROOT = _REPO_ROOT / "figures" / "daily"
 
     def __init__(
         self,

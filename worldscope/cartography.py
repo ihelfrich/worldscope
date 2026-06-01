@@ -520,8 +520,11 @@ def _kde_grid(
 class DailyMaps:
     """Render the four standard maps for the daily brief."""
 
-    DEFAULT_LAKE = Path("/Users/ian/Projects/worldscope/lake/db/worldscope.sqlite")
-    DEFAULT_OUT_ROOT = Path("/Users/ian/Projects/worldscope/figures/daily")
+    # Derived from the repo root so they resolve on any machine (and in CI),
+    # not just the author's. cartography.py lives at <repo>/worldscope/.
+    _REPO_ROOT = Path(__file__).resolve().parent.parent
+    DEFAULT_LAKE = _REPO_ROOT / "lake" / "db" / "worldscope.sqlite"
+    DEFAULT_OUT_ROOT = _REPO_ROOT / "figures" / "daily"
 
     def __init__(
         self,
