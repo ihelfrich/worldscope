@@ -105,7 +105,18 @@ FOOT = """
 
 def _md_to_html(md: str) -> str:
     """Minimal Markdown → HTML for the overview block. Avoids a markdown dep
-    by handling only the constructs we actually emit."""
+    by handling only the constructs we actually emit.
+
+    The overview text is LLM-generated from untrusted upstream feed content,
+    so each line's text is HTML-escaped *before* it is wrapped in a tag. The
+    bold/italic regex pass then runs on the already-escaped text, turning our
+    own ``*``/``**`` markers into tags without letting raw feed HTML through.
+    """
+    import html as _html
+
+    def esc(text: str) -> str:
+        return _html.escape(text, quote=False)
+
     out: list[str] = []
     in_list = False
     for raw in md.splitlines():
@@ -117,29 +128,30 @@ def _md_to_html(md: str) -> str:
             out.append("")
             continue
         if line.startswith("# "):
-            out.append(f"<h2>{line[2:]}</h2>")
+            out.append(f"<h2>{esc(line[2:])}</h2>")
         elif line.startswith("## "):
-            out.append(f"<h3>{line[3:]}</h3>")
+            out.append(f"<h3>{esc(line[3:])}</h3>")
         elif line.startswith("### "):
-            out.append(f"<h4>{line[4:]}</h4>")
+            out.append(f"<h4>{esc(line[4:])}</h4>")
         elif line.startswith("- "):
             if not in_list:
                 out.append("<ul>")
                 in_list = True
-            out.append(f"<li>{line[2:]}</li>")
+            out.append(f"<li>{esc(line[2:])}</li>")
         else:
             if in_list:
                 out.append("</ul>")
                 in_list = False
-            out.append(f"<p>{line}</p>")
+            out.append(f"<p>{esc(line)}</p>")
     if in_list:
         out.append("</ul>")
-    # Bold/italic light pass
-    html = "\n".join(out)
+    # Bold/italic light pass — runs on escaped text, so only our own markers
+    # become tags.
+    html_out = "\n".join(out)
     import re
-    html = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html)
-    html = re.sub(r"(?<!\*)\*(?!\*)([^*]+?)\*(?!\*)", r"<em>\1</em>", html)
-    return html
+    html_out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html_out)
+    html_out = re.sub(r"(?<!\*)\*(?!\*)([^*]+?)\*(?!\*)", r"<em>\1</em>", html_out)
+    return html_out
 
 
 def render_page(
