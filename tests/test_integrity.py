@@ -85,3 +85,25 @@ def test_render_panel_flags_problems():
     ]
     html = ig.render_integrity_panel(reports)
     assert "Data integrity" in html and "markets" in html and "NO_KEY" in html
+
+
+def test_snapshot_store_merge_prevents_false_empty():
+    # A section with no lake records but a fresh snapshot must read FRESH,
+    # not EMPTY (foreign_news et al. live only in the snapshot store).
+    class FakeStore:
+        def most_recent(self, sid):
+            return {"snapshot_date": TODAY.isoformat(),
+                    "items": [{"x": 1}] * 832, "status": "ok"}
+
+    class FakeConn:
+        def execute(self, *a):
+            class C:
+                def fetchone(self_inner): return (None, 0)
+                def fetchall(self_inner): return []
+                def __iter__(self_inner): return iter([])
+            return C()
+
+    reports = ig.assess(FakeConn(), ["foreign_news"], today=TODAY,
+                        env={}, store=FakeStore())
+    assert reports[0].status == "FRESH"
+    assert "832" in reports[0].reason

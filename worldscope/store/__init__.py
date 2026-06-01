@@ -41,7 +41,11 @@ class SnapshotStore:
     def __init__(self, path: Path | str | None = None) -> None:
         self.path = Path(path) if path else DEFAULT_PATH
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self._conn = sqlite3.connect(self.path)
+        # check_same_thread=False: sections run pull() inside the timeout
+        # wrapper's worker thread, and some (e.g. billionaires) read the store
+        # there to compute day-over-day movers. The main thread blocks on the
+        # worker (join), so access is serialized and this is safe.
+        self._conn = sqlite3.connect(self.path, check_same_thread=False)
         self._conn.execute("""
             CREATE TABLE IF NOT EXISTS snapshots (
                 section_id TEXT NOT NULL,

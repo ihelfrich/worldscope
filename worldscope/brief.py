@@ -257,7 +257,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         try:
             conn = lake._ensure_open()
             sids = [c.id for c in SECTION_REGISTRY]
-            reports = _ig.assess(conn, sids, today=today)
+            reports = _ig.assess(conn, sids, today=today, store=store)
             _ig.write_artifact(today, reports)
             panel = _ig.render_integrity_panel(reports)
             if panel:

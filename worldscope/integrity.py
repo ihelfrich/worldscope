@@ -133,10 +133,15 @@ def _skip_set(env: Optional[dict] = None) -> set[str]:
 
 
 def assess(conn, section_ids: list[str], *, today: date,
-           env: Optional[dict] = None) -> list[SectionIntegrity]:
-    """Build an integrity report for ``section_ids`` from the lake. Reads record
-    recency from ``records`` and failure state from ``source_health`` (matched by
-    source id == section id, best effort)."""
+           env: Optional[dict] = None, store=None) -> list[SectionIntegrity]:
+    """Build an integrity report for ``section_ids``.
+
+    Recency/count come from the lake ``records`` table AND — crucially — the
+    snapshot store: many news-heavy sections (foreign_news, russian_internal, …)
+    write hundreds of items to the snapshot store but no rows to the lake records
+    table, so a lake-only view wrongly calls them EMPTY. Failure state comes from
+    ``source_health``. Pass ``store`` (a SnapshotStore) to include snapshot
+    coverage."""
     env = env if env is not None else os.environ
     skip = _skip_set(env)
     today_iso = today.isoformat()
@@ -165,6 +170,19 @@ def assess(conn, section_ids: list[str], *, today: date,
     out: list[SectionIntegrity] = []
     for sid in section_ids:
         last, cnt = recency.get(sid, (None, 0))
+        # Merge snapshot-store coverage so snapshot-only sections aren't EMPTY.
+        if store is not None:
+            try:
+                mr = store.most_recent(sid)
+            except Exception:
+                mr = None
+            if mr:
+                sd = mr.get("snapshot_date")
+                n = len(mr.get("items") or [])
+                if sd and (last is None or sd > last):
+                    last = sd
+                if cnt == 0 and sd == today_iso:
+                    cnt = n
         cf, err = health.get(sid, (0, None))
         out.append(classify_section(
             sid, today=today, last_record_date=last, today_count=cnt,
@@ -264,13 +282,14 @@ def _main(argv: Optional[list[str]] = None) -> int:
     today = date.fromisoformat(args.date)
 
     from .lake import Lake
+    from .store import SnapshotStore
     lake = Lake.open()
     conn = lake._ensure_open()
     sids = section_ids_from_registry()
     if not sids:  # fallback: whatever the lake has seen, plus key-gated sections
         seen = [r[0] for r in conn.execute("SELECT DISTINCT section_id FROM records")]
         sids = sorted(set(seen) | set(REQUIRED_KEYS))
-    reports = assess(conn, sids, today=today)
+    reports = assess(conn, sids, today=today, store=SnapshotStore())
     print(summary_line(reports), "\n")
     for r in reports:
         if r.status == "FRESH":
