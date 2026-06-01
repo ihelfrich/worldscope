@@ -23,9 +23,7 @@ API = "https://www.federalregister.gov/api/v1/documents.json"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
 
-def _slug(s: str) -> str:
-    """URL-safe slug for entity IDs."""
-    return "".join(c.lower() if c.isalnum() else "-" for c in (s or "")).strip("-")
+from ._util import slug as _slug
 
 
 class FederalRegisterSection(Section):

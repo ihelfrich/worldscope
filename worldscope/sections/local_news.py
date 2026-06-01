@@ -26,8 +26,7 @@ from .state_news import _parse_rss   # reuse the stdlib RSS parser
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
 
-def _slug(s: str) -> str:
-    return "".join(c.lower() if c.isalnum() else "-" for c in (s or "")).strip("-")
+from ._util import slug as _slug
 
 
 # (city, feed_url, source_label, tier)

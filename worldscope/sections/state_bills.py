@@ -38,8 +38,7 @@ INTERESTING_CLASSIFICATIONS = {
 }
 
 
-def _slug(s: str) -> str:
-    return "".join(c.lower() if c.isalnum() else "-" for c in (s or "")).strip("-")
+from ._util import slug as _slug
 
 
 class StateBillsSection(Section):
