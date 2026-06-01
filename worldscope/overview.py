@@ -24,6 +24,7 @@ except ImportError:
 
 from .calendar import CalendarItem
 from .synth import SYNTH_MODEL, _first_text
+from .textutil import clean_text
 
 
 SYSTEM = """You are a research desk officer writing a daily analyst's morning brief.
@@ -59,12 +60,13 @@ Write the Markdown brief now.
 """
 
 
-def _format_section_for_prompt(title: str, delta: dict, max_items: int = 8) -> str:
+def _format_section_for_prompt(title: str, delta: dict, max_items: int = 6) -> str:
     new = delta.get("new", [])
     lines = [f"### {title} — {len(new)} new of {len(delta.get('all', []))} total"]
     for it in new[:max_items]:
-        lines.append(f"  - ({it.get('date','?')}) {it.get('title','')}")
-        s = (it.get("summary", "") or "")[:220]
+        t = clean_text(it.get("title"), 200)
+        lines.append(f"  - ({it.get('date','?')}) {t}")
+        s = clean_text(it.get("summary"), 220)
         if s:
             lines.append(f"      {s}")
     if not new:
@@ -101,10 +103,16 @@ def build_overview(
     trends: dict[str, dict],
     calendar: list[CalendarItem],
 ) -> str:
-    section_pulls = "\n\n".join(
-        _format_section_for_prompt(title, delta)
-        for _id, (title, delta) in section_deltas.items()
+    # Focus on sections that actually changed today, busiest first. Listing the
+    # dozens of 0-new sections just buries the signal (and wastes prompt tokens).
+    changed = sorted(
+        ((title, delta) for _id, (title, delta) in section_deltas.items()
+         if delta.get("new")),
+        key=lambda td: -len(td[1].get("new", [])),
     )
+    section_pulls = "\n\n".join(
+        _format_section_for_prompt(title, delta) for title, delta in changed
+    ) or "(no new items today across tracked sections)"
     trends_summary = _format_trends(trends)
     calendar_summary = _format_calendar(calendar)
 
@@ -144,14 +152,21 @@ def build_overview(
 
     # Deterministic fallback
     total_new = sum(len(d["new"]) for _, (_, d) in section_deltas.items())
+    movers = " · ".join(
+        f"{title} ({len(delta.get('new', []))})" for title, delta in changed[:12]
+    ) or "no sections with new items"
     lines = [
         f"# WORLDSCOPE morning brief — {today.isoformat()}",
         "",
         f"## Headline",
-        f"{total_new} new items across {len(section_deltas)} section(s).",
+        f"{total_new} new items across {len(changed)} active section(s) "
+        f"(of {len(section_deltas)} tracked).",
+        "",
+        "## Top movers today",
+        movers,
         "",
         "## What changed today",
-        section_pulls or "(no sections pulled)",
+        section_pulls,
         "",
         "## How it fits the arc (last 14 days)",
         trends_summary,
