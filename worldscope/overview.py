@@ -23,7 +23,7 @@ except ImportError:
     anthropic = None  # type: ignore
 
 from .calendar import CalendarItem
-from .synth import _first_text
+from .synth import SYNTH_MODEL, _first_text
 
 
 SYSTEM = """You are a research desk officer writing a daily analyst's morning brief.
@@ -115,9 +115,15 @@ def build_overview(
         try:
             client = anthropic.Anthropic()
             resp = client.messages.create(
-                model="claude-sonnet-4-5",
+                model=SYNTH_MODEL,
                 max_tokens=1200,
-                system=SYSTEM,
+                # Cache the static system prompt (auto-caches the last
+                # cacheable block) so the identical preamble isn't re-billed.
+                system=[{
+                    "type": "text",
+                    "text": SYSTEM,
+                    "cache_control": {"type": "ephemeral"},
+                }],
                 messages=[{
                     "role": "user",
                     "content": PROMPT.format(

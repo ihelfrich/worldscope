@@ -20,6 +20,10 @@ try:
 except ImportError:
     anthropic = None  # type: ignore
 
+# Single source of truth for the synthesis model, shared with overview.py and
+# overridable via env so the id can be bumped without code edits.
+SYNTH_MODEL = os.environ.get("WORLDSCOPE_SYNTH_MODEL", "claude-sonnet-4-6")
+
 SYSTEM = """You are a research-grade desk officer writing a daily intelligence
 briefing for an economist. The brief must be:
 
@@ -98,9 +102,17 @@ def synthesize(section_title: str, items: list[dict], new_ids: set[str]) -> str:
     try:
         client = anthropic.Anthropic()
         resp = client.messages.create(
-            model="claude-sonnet-4-5",
+            model=SYNTH_MODEL,
             max_tokens=400,
-            system=SYSTEM,
+            # Cache the static system prompt. Note: Sonnet 4.6's minimum
+            # cacheable prefix is ~2048 tokens, so this short prompt may not
+            # actually cache — it's correct and harmless, and engages if the
+            # prompt grows.
+            system=[{
+                "type": "text",
+                "text": SYSTEM,
+                "cache_control": {"type": "ephemeral"},
+            }],
             messages=[{
                 "role": "user",
                 "content": PROMPT.format(
