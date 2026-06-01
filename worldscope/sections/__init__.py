@@ -24,6 +24,7 @@ from __future__ import annotations
 import hashlib
 import html
 import os
+import re
 import threading
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
@@ -244,13 +245,56 @@ class Section(ABC):
 
     # ---- render -------------------------------------------------------------
 
+    @staticmethod
+    def _norm_title(t: str) -> str:
+        """Normalize a headline for duplicate detection: lowercase, drop all
+        non-alphanumerics, collapse whitespace. Casing/punctuation variants of
+        the same wire story therefore collide; genuinely different headlines do
+        not. Deliberately conservative — semantic near-dupes (same story, reworded)
+        are left to the embeddings clusterer in worldscope.dedup."""
+        t = re.sub(r"[^a-z0-9 ]+", " ", (t or "").lower())
+        return re.sub(r"\s+", " ", t).strip()
+
+    @staticmethod
+    def _is_broken_item(it: dict) -> bool:
+        """Drop items that render as noise: empty/placeholder titles, or titles
+        with fewer than four alphanumeric characters (bullets, separators, junk)."""
+        title = (it.get("title") or "").strip()
+        if not title or title.lower() in ("(no title)", "no title", "untitled"):
+            return True
+        return sum(c.isalnum() for c in title) < 4
+
+    @classmethod
+    def _dedup_display_items(cls, items: list[dict]) -> list[dict]:
+        """Return items with broken entries removed and exact/normalized title
+        and URL duplicates collapsed to their first occurrence. Display-only:
+        the lake and counts are unaffected."""
+        seen_titles: set[str] = set()
+        seen_urls: set[str] = set()
+        out: list[dict] = []
+        for it in items:
+            if cls._is_broken_item(it):
+                continue
+            nt = cls._norm_title(it.get("title", ""))
+            ukey = (it.get("url") or "").strip().lower().rstrip("/").split("?", 1)[0]
+            if (nt and nt in seen_titles) or (ukey and ukey in seen_urls):
+                continue
+            if nt:
+                seen_titles.add(nt)
+            if ukey:
+                seen_urls.add(ukey)
+            out.append(it)
+        return out
+
     def render_html(self, state: SectionState, synth: Optional[str] = None) -> str:
         """HTML block for the section. Includes a visible staleness badge
         when state is carry_forward or stale_after_failure."""
         badge = self._staleness_badge(state)
         new_ids = {it.get("_id") for it in state.new}
+        display_items = self._dedup_display_items(state.items)
+        n_hidden = len(state.items) - len(display_items)
         items_html = []
-        for it in state.items[:50]:
+        for it in display_items[:50]:
             is_new = it.get("_id") in new_ids
             new_marker = "<span class='new-badge'>NEW</span>" if is_new else ""
             # title/url/summary/date originate from untrusted upstream feeds and
@@ -266,13 +310,18 @@ class Section(ABC):
                 f"<span class='meta'> · {item_date}</span>"
                 f"<div class='abs'>{summary}</div></li>"
             )
-        if not state.items:
+        if not display_items:
             items_html.append("<li class='empty'>no items in this section.</li>")
         synth_html = f"<p class='synth'>{synth}</p>" if synth else ""
+        hidden_note = (
+            f" <span class='count'>· {n_hidden} repetitive/broken hidden</span>"
+            if n_hidden > 0 else ""
+        )
         return (
             f"<section class='section'>"
             f"<h2>{self.emoji} {self.title} "
             f"<span class='count'>· {len(new_ids)} new / {len(state.items)} total</span>"
+            f"{hidden_note}"
             f"{badge}</h2>"
             f"{synth_html}"
             f"<ul class='items'>{''.join(items_html)}</ul>"
