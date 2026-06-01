@@ -311,6 +311,62 @@ def get_paper_bets(
 
 
 # ----------------------------------------------------------------------- #
+# Tool: get_forecast_skill
+# ----------------------------------------------------------------------- #
+
+# The track-record scorer is pure stdlib with no relative imports, so load it
+# straight from its file rather than importing the whole worldscope package
+# (keeps the MCP server lightweight and dependency-isolated).
+_TRACK_RECORD = None
+
+
+def _track_record():
+    global _TRACK_RECORD
+    if _TRACK_RECORD is None:
+        import importlib.util as _ilu
+        path = REPO_ROOT / "worldscope" / "scoring" / "track_record.py"
+        spec = _ilu.spec_from_file_location("ws_track_record", path)
+        mod = _ilu.module_from_spec(spec)
+        # Register before exec: @dataclass resolves cls.__module__ via sys.modules.
+        sys.modules[spec.name] = mod
+        spec.loader.exec_module(mod)
+        _TRACK_RECORD = mod
+    return _TRACK_RECORD
+
+
+@mcp.tool()
+def get_forecast_skill() -> dict:
+    """WORLDSCOPE's objective track record on its own forecasts.
+
+    Returns two blocks:
+      predictions — calibration/skill over resolved probabilistic calls:
+        Brier score, Brier skill score vs a climatology baseline (>0 beats
+        "always predict the base rate"), expected calibration error, and
+        overconfidence (mean confidence minus accuracy).
+      paper_bets — over resolved simulated trades: hit rate (with 95% Wilson
+        interval), hit rate by confidence band, and realized edge over the
+        market's own implied probability (the only number that distinguishes
+        skill from picking favorites).
+
+    Both degrade to n_resolved=0 on a thin or empty book rather than erroring.
+    """
+    tr = _track_record()
+    conn = _open_db()
+    try:
+        try:
+            preds = tr.score_predictions_from_connection(conn).as_dict()
+        except sqlite3.OperationalError:
+            preds = {"n_resolved": 0, "note": "predictions table not present yet"}
+        try:
+            bets = tr.score_paper_bets_from_connection(conn).as_dict()
+        except sqlite3.OperationalError:
+            bets = {"n_resolved": 0, "note": "paper-bet tables not present yet"}
+    finally:
+        conn.close()
+    return {"predictions": preds, "paper_bets": bets}
+
+
+# ----------------------------------------------------------------------- #
 # Tool: get_anomalies
 # ----------------------------------------------------------------------- #
 
