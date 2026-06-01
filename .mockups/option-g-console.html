@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — G · Console (dense panels)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--unc:#4B9CD3;--maroon:#A8456A;--gold:#FFC627;--crimson:#FF5A52;
+    --bg:#0E1217;--panel:#161C24;--panel2:#1C2530;--hair:#27313D;--ink:#E6ECF2;--sub:#8593A1;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",sans-serif;font-size:13px;
+    line-height:1.45;-webkit-font-smoothing:antialiased}
+  .mono{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+  .bar{display:flex;align-items:center;gap:16px;padding:9px 18px;border-bottom:1px solid var(--hair);background:var(--panel)}
+  .bar .b{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:11px;letter-spacing:.26em}
+  .bar .b span{color:var(--gold)}
+  .bar .st{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--sub)}
+  .bar .dot{width:6px;height:6px;border-radius:50%;background:var(--crimson);display:inline-block;margin-right:5px;vertical-align:1px}
+  .grid{display:grid;grid-template-columns:1.6fr 1fr;gap:1px;background:var(--hair);padding:1px}
+  .col{display:grid;gap:1px}
+  .p{background:var(--panel);padding:14px 16px}
+  .p .h{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--sub);display:flex;justify-content:space-between;margin-bottom:10px}
+  .p .h em{font-style:normal;color:var(--gold)}
+  .lead h2{font-size:20px;font-weight:700;letter-spacing:-.01em;line-height:1.15;margin-bottom:10px}
+  .lead p{font-size:13px;color:#b9c4cf;line-height:1.55}
+  .lead a{color:var(--unc);text-decoration:none}
+  table{width:100%;border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:12px}
+  td{padding:6px 0;border-bottom:1px solid var(--hair)}
+  td.r{text-align:right;font-weight:600}
+  .up{color:#5BD6A5}.dn{color:var(--crimson)}.hot{color:var(--gold)}
+  .spark{height:30px;display:flex;align-items:flex-end;gap:2px;margin-top:8px}
+  .spark i{flex:1;background:var(--unc);opacity:.8}
+  .wa{padding:11px 0;border-bottom:1px solid var(--hair)}
+  .wa:last-child{border-bottom:none}
+  .wa .t{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13.5px}
+  .wa .t .p{padding:0;background:none}
+  .wa .chip{font-family:"IBM Plex Mono",monospace;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--bg);background:var(--crimson);padding:1px 5px;border-radius:2px}
+  .wa p{font-size:12px;color:var(--sub);margin-top:6px;line-height:1.5}
+  .wa p strong{color:var(--ink)}
+  .anom div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--hair);font-family:"IBM Plex Mono",monospace;font-size:12px}
+  .anom .barfill{height:4px;background:var(--crimson);margin-top:3px;border-radius:2px}
+  .quiet{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--sub);line-height:1.8}
+  .ft{font-family:"IBM Plex Mono",monospace;font-size:9.5px;color:var(--sub);padding:11px 18px;border-top:1px solid var(--hair);display:flex;justify-content:space-between;text-transform:uppercase;letter-spacing:.08em}
+</style></head>
+<body>
+  <div class="bar"><span class="b">◆ WORLD<span>SCOPE</span></span><span class="mono" style="font-size:10px;color:var(--sub)">MORNING BRIEF · SUN 31 MAY 2026</span><span class="st"><span class="dot"></span>3 HIGH · 1 ACTIVE · 8 QUIET · 09:20Z</span></div>
+  <div class="grid">
+    <div class="col">
+      <div class="p lead"><div class="h"><span>LEAD · IRAN / UKRAINE</span><em>01</em></div>
+        <h2>The Iran deal clock expired without a formal agreement</h2>
+        <p>Polymarket's <a href="#">US–Iran peace deal by May 31</a> prints at 4%, down from 8% a week ago; Hormuz blockade-lifting fell 33%→18% in 48h. <strong>Ukraine's SBU</strong> destroyed two Tu-142 aircraft and an Iskander at Taganrog and struck the Feodosiya oil terminal. Russia retaliated with 290 drones and five Kh-101 missiles; 284 claimed intercepted. <strong>Crimea began fuel rationing</strong> at 20 L/person/day.</p>
+      </div>
+      <div class="p"><div class="h"><span>WATCH AREAS · PRIORITIES</span><em>HIGH ×3</em></div>
+        <div class="wa"><div class="t">Israel–Iran–Hezbollah <span class="chip">High</span></div><p>May 31 deadline passes; ceasefire through May 24 not formally extended. Hegseth frames US floor as <strong>denuclearization</strong>; OFAC issued fresh designations.</p></div>
+        <div class="wa"><div class="t">Russia Oil Perimeter <span class="chip">High</span></div><p>Overnight <strong>Taganrog</strong> strike hits the watch box directly; Crimea rationing confirms downstream supply effects.</p></div>
+        <div class="wa"><div class="t">US Tariff &amp; Trade <span class="chip">High</span></div><p>Fed Circuit emergency stay on CIT <strong>Section 122</strong> invalidation pending. Three new opinions: ICON EV, Toyo Kohan, Oregon v. US.</p></div>
+      </div>
+      <div class="p"><div class="h"><span>MACRO · YIELD CURVE</span><em>2026-05-30</em></div>
+        <div class="spark"><i style="height:40%"></i><i style="height:44%"></i><i style="height:46%"></i><i style="height:50%"></i><i style="height:58%"></i><i style="height:70%"></i><i style="height:82%"></i><i style="height:90%"></i><i style="height:96%"></i><i style="height:100%"></i></div>
+        <p style="font-size:12px;color:#b9c4cf;margin-top:10px;line-height:1.5">Front end no longer inverted — 1M–1Y ≈3.62–3.85%, 10Y ≈4.63%. Oil is the transmission mechanism: Brent $107–111 keeps any Fed cut off the table. <span class="hot mono" style="font-size:10px">[HIGH]</span></p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p"><div class="h"><span>MARKETS · 30 MAY</span><em>LIVE</em></div>
+        <table>
+          <tr><td>S&P 500</td><td class="r up">7,519 ▲9.2%</td></tr>
+          <tr><td>Brent crude</td><td class="r hot">$109</td></tr>
+          <tr><td>Gold</td><td class="r up">$4,460</td></tr>
+          <tr><td>USD / JPY</td><td class="r dn">159.27</td></tr>
+          <tr><td>EUR / USD</td><td class="r">1.166</td></tr>
+          <tr><td>UST 10Y</td><td class="r">4.63%</td></tr>
+          <tr><td>Ruble</td><td class="r">71.07</td></tr>
+        </table>
+      </div>
+      <div class="p anom"><div class="h"><span>ANOMALY SCREEN · Z-SCORE</span><em>σ</em></div>
+        <div><span>FEC fundraising</span><span class="dn">2.8</span></div><div class="barfill" style="width:100%"></div>
+        <div style="margin-top:8px"><span>Political figures</span><span class="dn">2.3</span></div><div class="barfill" style="width:82%"></div>
+        <div style="margin-top:8px"><span>Court opinions</span><span class="hot">1.8</span></div><div class="barfill" style="width:64%;background:var(--gold)"></div>
+      </div>
+      <div class="p"><div class="h"><span>QUIET TODAY</span><em>8</em></div>
+        <div class="quiet">Taiwan Strait · Korean peninsula · Critical minerals · EM debt distress · Sahel corridor · AI/semi export controls · Latin America · Arctic</div>
+      </div>
+    </div>
+  </div>
+  <div class="ft"><span>Worldscope · grounded in cited items only</span><span>data through EOD 2026-05-30 · UTC</span></div>
+</body></html>
