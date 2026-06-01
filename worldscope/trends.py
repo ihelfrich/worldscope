@@ -27,6 +27,7 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
+import statistics
 from collections import Counter
 from datetime import date, timedelta
 from typing import Any
@@ -95,11 +96,17 @@ def section_trend(store: SnapshotStore, section_id: str) -> dict[str, Any]:
     # collapse the median toward 0 artificially.
     counts = [(d, len(items)) for d, items, _ in series]
     real_counts = [(d, len(items)) for d, items, is_bf in series if not is_bf]
-    today_count = counts[-1][1] if counts else 0
+    # today_count must be today's actual count, not merely the last snapshot in
+    # the window: if today's pull failed or was skipped, counts[-1] is an older
+    # day and would silently report a stale day's count as "today".
+    _today = date.today()
+    today_count = next((c for d, c in reversed(counts) if d == _today), 0)
 
     last_7_real = [c for _, c in real_counts[-7:]]
     last_14_real = [c for _, c in real_counts]
-    median = lambda xs: sorted(xs)[len(xs) // 2] if xs else 0
+    # True median (averages the two central values for even-length input);
+    # the previous sorted[len//2] returned the upper-middle element.
+    median = lambda xs: round(statistics.median(xs)) if xs else 0
 
     # Carrying narrative: tokens that appear today AND in >= 3 prior REAL
     # snapshots. Backfill placeholders have no items so they would not

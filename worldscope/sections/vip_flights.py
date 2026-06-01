@@ -106,8 +106,9 @@ class VipFlightsSection(Section):
                 "summary": (
                     f"icao24: {icao24} · "
                     f"position: ({lat}, {lon}) · "
-                    f"alt: {int(altitude_m)}m" if altitude_m else "on ground"
-                ) + (f" · {int(velocity*3.6)}km/h" if velocity else ""),
+                    + (f"alt: {int(altitude_m)}m" if altitude_m else "on ground")
+                    + (f" · {int(velocity*3.6)}km/h" if velocity else "")
+                ),
                 "icao24": icao24,
                 "callsign": callsign,
                 "country": country,
