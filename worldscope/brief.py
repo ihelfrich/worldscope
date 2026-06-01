@@ -313,6 +313,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
 
     print(f"\n→ page : {page}")
     print(f"→ zip  : {zpath}")
+    store.close()
     return page
 
 

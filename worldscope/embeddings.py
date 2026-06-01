@@ -92,9 +92,29 @@ class EmbeddingIndex:
         if self._model is None:
             # local import so module-level import is cheap even when the
             # ML stack isn't installed (e.g. on CI for read-only paths).
-            from sentence_transformers import SentenceTransformer
+            try:
+                from sentence_transformers import SentenceTransformer
+            except ImportError as exc:
+                raise RuntimeError(
+                    "sentence-transformers is not installed; embedding index "
+                    "is unavailable. Install the ML extra or set the section to "
+                    "skip embeddings."
+                ) from exc
+            # First use downloads a ~400 MB model from HuggingFace. A network
+            # hiccup or HF outage would otherwise raise an opaque error deep in
+            # the call stack; surface a clear, actionable message instead. Set
+            # HF_HUB_OFFLINE=1 to force the local cache only.
             logger.info("loading sentence-transformer model %s", self.model_name)
-            self._model = SentenceTransformer(self.model_name)
+            try:
+                self._model = SentenceTransformer(self.model_name)
+            except Exception as exc:
+                raise RuntimeError(
+                    f"failed to load sentence-transformer model "
+                    f"{self.model_name!r}: {type(exc).__name__}: {exc}. "
+                    f"This downloads ~400 MB from HuggingFace on first use; "
+                    f"check connectivity or pre-populate the HF cache "
+                    f"(HF_HUB_OFFLINE=1 to use cache only)."
+                ) from exc
         return self._model
 
     def _open(self, *, read_only: bool = False) -> sqlite3.Connection:

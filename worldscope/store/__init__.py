@@ -53,6 +53,28 @@ class SnapshotStore:
         """)
         self._conn.commit()
 
+    # ---- lifecycle -----------------------------------------------------
+
+    def close(self) -> None:
+        """Close the underlying SQLite connection. Idempotent."""
+        if getattr(self, "_conn", None) is not None:
+            self._conn.close()
+            self._conn = None
+
+    def __enter__(self) -> "SnapshotStore":
+        return self
+
+    def __exit__(self, exc_type, exc, tb) -> None:
+        self.close()
+
+    def __del__(self) -> None:
+        # Safety net for paths that don't close explicitly (e.g. an exception
+        # propagating out of a caller). Best-effort; never raise from __del__.
+        try:
+            self.close()
+        except Exception:
+            pass
+
     # ---- write ---------------------------------------------------------
 
     def put(self, section_id: str, items: list[dict], *,

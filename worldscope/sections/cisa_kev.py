@@ -32,12 +32,13 @@ class CisaKevSection(Section):
     DAYS_BACK = 14
 
     def pull(self) -> list[dict]:
-        try:
-            resp = requests.get(FEED, headers={"User-Agent": UA}, timeout=20)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception:
-            return []
+        # Let network/parse failures propagate: the base class records them as
+        # STATE_STALE and carries the last good snapshot forward. Masking a
+        # fetch failure as "0 new KEVs" would be a security-relevant false
+        # negative.
+        resp = requests.get(FEED, headers={"User-Agent": UA}, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
         cutoff = date.today() - timedelta(days=self.DAYS_BACK)
         items: list[dict] = []
         for v in data.get("vulnerabilities", []):
