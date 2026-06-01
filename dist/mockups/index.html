@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE — Design Prototypes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--unc:#2C6FA6;--maroon:#8C1D40;--gold:#9A6B00;--crimson:#990000;
+    --bg:#FBFBF9;--ink:#1A1C1F;--sub:#5E646C;--hair:#E7E6E1;--card:#fff;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:960px;margin:0 auto;padding:48px 24px 80px}
+  .mk{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--sub)}
+  .mk b{color:var(--maroon)}
+  h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(30px,5vw,46px);letter-spacing:-.02em;margin:10px 0 14px;line-height:1.05}
+  .lede{font-size:16px;color:var(--sub);max-width:64ch;margin-bottom:8px}
+  .note{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--sub);background:#FFF8E6;border:1px solid var(--hair);border-left:3px solid var(--gold);border-radius:6px;padding:12px 14px;margin:20px 0 34px}
+  .grp{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sub);margin:34px 0 14px;padding-bottom:6px;border-bottom:1px solid var(--hair)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+  a.card{display:block;background:var(--card);border:1px solid var(--hair);border-left:3px solid var(--unc);border-radius:10px;padding:16px 18px;text-decoration:none;color:var(--ink);transition:.15s}
+  a.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,28,31,.08);border-left-color:var(--gold)}
+  a.card.live{border-left-color:var(--maroon)}
+  a.card .id{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--maroon)}
+  a.card h3{font-family:"Fraunces",serif;font-weight:600;font-size:18px;letter-spacing:-.01em;margin:5px 0 6px}
+  a.card p{font-size:13px;color:var(--sub);line-height:1.5}
+  a.card .tag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--maroon);background:#F6E9EE;border-radius:99px;padding:2px 7px;margin-top:9px}
+  footer{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--sub);margin-top:50px;padding-top:18px;border-top:1px solid var(--hair)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mk"><b>◆</b> WORLDSCOPE</div>
+  <h1>Design Prototypes</h1>
+  <p class="lede">Exploratory directions for the daily brief surface, all rendered on the real 2026-05-31 briefing content. These are mockups for review — not the production site.</p>
+  <div class="note">↳ The interactive ones (K, K2, L) need JavaScript/CSS that in-app file previews strip out. Opened here as real web pages, they work. Click into a card and interact.</div>
+
+  <div class="grp">Interactive — open these first</div>
+  <div class="grid">
+    <a class="card live" href="./option-l-terminal.html"><div class="id">L · Living terminal</div><h3>Types to you, time-aware</h3><p>Light terminal that types the brief out line by line; background blends through the day and carries a world-state tone-wash. Ask-anything line.</p><span class="tag">watch ~10s</span></a>
+    <a class="card live" href="./option-k2-deck-nojs.html"><div class="id">K2 · Spatial deck (no-JS)</div><h3>Slide-panel navigator</h3><p>The day as a row of columns; click to glide focus — one expands, the rest stay quiet slivers. Pure CSS, works anywhere. ◐ theme toggle.</p><span class="tag">click around</span></a>
+    <a class="card live" href="./option-k-deck.html"><div class="id">K · Spatial deck (JS)</div><h3>Push-stack navigator</h3><p>Same idea, dynamic: click a story and a panel slides in; chain entities deeper; breadcrumb + arrow-key nav. Needs JS — works in a browser.</p><span class="tag">click around</span></a>
+  </div>
+
+  <div class="grp">Static directions</div>
+  <div class="grid">
+    <a class="card" href="./option-i-quiet.html"><div class="id">I · Quiet luxury</div><h3>Single calm column</h3><p>Thin Fraunces display, huge whitespace, one hairline rule between movements. The anti-dashboard.</p></a>
+    <a class="card" href="./option-j-2040.html"><div class="id">J · 2040 neo-grotesk</div><h3>Dark, oversized gauge</h3><p>Space Grotesk, a gradient posture number, glowing priority dots. The most product-forward.</p></a>
+    <a class="card" href="./option-d-refined.html"><div class="id">D · Refined mix</div><h3>Coded-color Swiss</h3><p>Swiss bones; college colors as a signal system (legend at the foot); adaptive light/dark from one token set.</p></a>
+    <a class="card" href="./option-h-dossier.html"><div class="id">H · Maroon dossier</div><h3>Classified register</h3><p>Deep ASU-maroon header band, gold rule, Spectral serif, "Eyes Only" stamp. Authoritative.</p></a>
+    <a class="card" href="./option-f-atlas.html"><div class="id">F · Atlas</div><h3>Cartographic</h3><p>Coordinate-grid paper, monospace, an event map with strike pins and the watch-box lat/lon.</p></a>
+    <a class="card" href="./option-g-console.html"><div class="id">G · Console</div><h3>Dense panels</h3><p>Dark Bloomberg-style multi-panel: markets table, anomaly bars, sparkline, quiet list — all at once.</p></a>
+    <a class="card" href="./option-e-broadsheet.html"><div class="id">E · Broadsheet</div><h3>Newspaper of record</h3><p>Big Fraunces masthead, three-column deck, maroon drop-cap, double rules.</p></a>
+    <a class="card" href="./option-a-editorial.html"><div class="id">A · Editorial-intelligence</div><h3>Newsprint dossier</h3><p>Serif headlines, two-column lede with a live markets/anomaly rail, ruled watch-area ledger.</p></a>
+    <a class="card" href="./option-b-terminal.html"><div class="id">B · Modern dark</div><h3>Terminal cards</h3><p>Dark canvas, teal accent, sticky nav, ticker strip, red priority bars.</p></a>
+    <a class="card" href="./option-c-swiss.html"><div class="id">C · Swiss / brutalist</div><h3>Hard grid</h3><p>Everything boxed, Helvetica + mono, uppercase, one signal red. Severe.</p></a>
+  </div>
+
+  <footer>WORLDSCOPE · design review · not the production brief</footer>
+</div>
+</body>
+</html>

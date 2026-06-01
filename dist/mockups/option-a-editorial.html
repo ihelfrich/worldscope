@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Option A · Editorial-Intelligence</title>
+<style>
+  :root{
+    --paper:#ffffff; --ink:#15181d; --muted:#5b6470; --hair:#e3e6ea;
+    --accent:#0b5cad;        /* one restrained blue */
+    --alert:#a3201b; --pos:#0f7a5a;
+    --serif:"Times New Roman",Georgia,serif;
+    --sans:"Helvetica Neue",Arial,sans-serif;
+    --mono:"SFMono-Regular",Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.5;font-size:15px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+  /* Masthead */
+  .mast{border-bottom:3px double var(--ink);padding:18px 0 12px;display:flex;justify-content:space-between;align-items:flex-end}
+  .mast .name{font-family:var(--sans);font-weight:800;letter-spacing:.32em;font-size:13px;text-transform:uppercase}
+  .mast h1{font-family:var(--serif);font-weight:700;font-size:30px;letter-spacing:-.01em;margin-top:2px}
+  .mast .meta{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:right;line-height:1.7}
+  .rule{height:1px;background:var(--ink);margin:0}
+  /* layout: dossier two-column */
+  .grid{display:grid;grid-template-columns:1fr 300px;gap:0;border-bottom:1px solid var(--hair)}
+  .lede{padding:22px 28px 26px 0;border-right:1px solid var(--hair)}
+  .kicker{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .lede h2{font-family:var(--serif);font-size:23px;line-height:1.2;margin:6px 0 12px;font-weight:700}
+  .lede p{font-size:15.5px;line-height:1.62}
+  .lede p a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(11,92,173,.3)}
+  .rail{padding:22px 0 22px 24px}
+  .rail h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--ink);padding-bottom:5px;margin-bottom:10px}
+  .tick{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;padding:5px 0;border-bottom:1px dotted var(--hair)}
+  .tick .v{font-weight:700}
+  .dn{color:var(--alert)} .up{color:var(--pos)}
+  /* watch areas */
+  .areas{padding:24px 0 8px}
+  .areas h3{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+  .wa{display:grid;grid-template-columns:170px 1fr;gap:0;border-top:1px solid var(--hair);padding:14px 0}
+  .wa .lbl{font-family:var(--serif);font-weight:700;font-size:16px;padding-right:18px}
+  .wa .pri{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--alert);padding:1px 6px;margin-top:5px;border-radius:1px}
+  .wa p{font-size:14px;color:#222;line-height:1.55}
+  /* section */
+  .sec{padding:26px 0;border-top:3px double var(--ink)}
+  .sec h2{font-family:var(--serif);font-size:21px;font-weight:700;margin-bottom:4px}
+  .sec .src{font-family:var(--mono);font-size:10.5px;color:var(--muted);letter-spacing:.05em;margin-bottom:14px}
+  .twocol{column-count:2;column-gap:34px;font-size:14.5px;line-height:1.6}
+  .twocol p{margin-bottom:11px}
+  .conf{font-family:var(--mono);font-size:10px;color:var(--muted);text-transform:uppercase}
+  .chartph{background:repeating-linear-gradient(45deg,#f6f7f8,#f6f7f8 9px,#fff 9px,#fff 18px);border:1px solid var(--hair);height:150px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--muted);margin:0 0 14px}
+  footer{font-family:var(--mono);font-size:10.5px;color:var(--muted);border-top:1px solid var(--ink);padding:14px 0 40px;margin-top:10px;display:flex;justify-content:space-between}
+  .quiet{font-family:var(--sans);font-size:13px;color:var(--muted);padding:6px 0 18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div>
+      <div class="name">Worldscope</div>
+      <h1>The Morning Brief</h1>
+    </div>
+    <div class="meta">SUNDAY 31 MAY 2026<br>VOL. MMXXVI · NO. 151<br>PREPARED FOR I. HELFRICH</div>
+  </div>
+
+  <div class="grid">
+    <div class="lede">
+      <div class="kicker">Lead — Iran Deadline / Ukraine Deep Strike</div>
+      <h2>The Iran deal clock expired without a formal agreement</h2>
+      <p>Polymarket's <a href="#">US–Iran permanent peace deal by May 31</a> prints at 4%, down from 8% a week ago; the Hormuz blockade-lifting contract dropped from 33% to 18% in 48 hours. In the same window <strong>Ukraine's SBU</strong> launched its most significant deep-strike package in weeks — drones destroyed two Tu-142 maritime patrol aircraft and an Iskander system at Taganrog airfield and struck the Feodosiya oil terminal in Crimea. Russia retaliated overnight with 290 drones and five Kh-101 cruise missiles; Ukrainian air defenses claimed 284 kills. <strong>Crimea began fuel rationing</strong> at 20 litres per person per day as of this morning.</p>
+    </div>
+    <div class="rail">
+      <h3>Markets · 30 May</h3>
+      <div class="tick"><span>S&P 500</span><span class="v up">7,519 ▲9.2%</span></div>
+      <div class="tick"><span>Brent</span><span class="v">$109</span></div>
+      <div class="tick"><span>Gold</span><span class="v up">$4,460</span></div>
+      <div class="tick"><span>USD/JPY</span><span class="v dn">159.27</span></div>
+      <div class="tick"><span>EUR/USD</span><span class="v">1.166</span></div>
+      <div class="tick"><span>UST 10Y</span><span class="v">4.63%</span></div>
+      <h3 style="margin-top:20px">Anomaly Screen</h3>
+      <div class="tick"><span>FEC fundraising</span><span class="v dn">2.8σ</span></div>
+      <div class="tick"><span>Political figures</span><span class="v dn">2.3σ</span></div>
+      <div class="tick"><span>Court opinions</span><span class="v">1.8σ</span></div>
+    </div>
+  </div>
+
+  <div class="areas">
+    <h3>Watch Areas — Configured Priorities</h3>
+    <div class="wa">
+      <div class="lbl">Israel–Iran–Hezbollah axis<br><span class="pri">High</span></div>
+      <p>The May 31 deadline passes without a deal. The Iranian ceasefire that held through May 24 has not been formally extended. Hegseth framed the US floor as denuclearization rather than full normalization; OFAC issued Counter-Terrorism Designations with an amended Iran-related FAQ within the past week.</p>
+    </div>
+    <div class="wa">
+      <div class="lbl">Russia oil sanctions perimeter<br><span class="pri">High</span></div>
+      <p>The overnight strike on Taganrog port hits the watch-area bounding box directly. Burning a tanker and fuel terminal there signals Ukrainian capability to operate inside Russian coastal infrastructure; Crimea fuel rationing confirms downstream supply effects.</p>
+    </div>
+    <div class="wa">
+      <div class="lbl">US tariff &amp; trade dockets<br><span class="pri">High</span></div>
+      <p>The Federal Circuit emergency stay on CIT's Section 122 tariff invalidation is the week's outstanding ruling. CIT added three new opinions: ICON EV, Toyo Kohan, and Oregon v. United States — the first state-level tariff challenge at opinion stage.</p>
+    </div>
+    <div class="quiet">Quiet today — Taiwan Strait · Korean peninsula · Critical minerals · EM debt · Sahel corridor · AI/semiconductor export controls · Latin America · Arctic.</div>
+  </div>
+
+  <div class="sec">
+    <h2>Macro Situation</h2>
+    <div class="src">SOURCE — WORLDSCOPE LAKE · YIELD CURVE 2026-05-30</div>
+    <div class="chartph">[ yield-curve chart ]</div>
+    <div class="twocol">
+      <p>The US yield curve as of late May is no longer inverted at the front end; the 1-month to 1-year band sits around 3.62–3.85%, while the 10-year holds near 4.63%. The 90-day comparison shows the curve shifted down 10–20bp at the short end, consistent with markets buying a soft landing the data does not yet validate. <span class="conf">[medium]</span></p>
+      <p>Oil is the primary macro transmission mechanism. Brent has settled into a $107–111 band since the jump to $115 when the conflict began February 28. Every dollar sustained above $100 for a quarter adds ~0.15–0.20pp to US CPI; at $109 for six months, roughly 0.9pp annually — preventing any Fed cut regardless of Warsh's stated preferences. <span class="conf">[high]</span></p>
+      <p>Kevin Warsh's 54–45 confirmation on May 13 was the narrowest in modern Fed history. His record favors tighter policy than markets expect from a Trump appointee; the June 16–17 FOMC is his first test, priced for maximum ambiguity. <span class="conf">[medium]</span></p>
+    </div>
+  </div>
+
+  <footer>
+    <span>WORLDSCOPE · GROUNDED IN CITED ITEMS ONLY</span>
+    <span>DATA THROUGH EOD 2026-05-30 · ALL TIMES UTC</span>
+  </footer>
+</div>
+</body>
+</html>
