@@ -7,11 +7,49 @@ dependencies = [
   "requests>=2.31",
   "pandas>=2.0",
   "feedparser>=6.0",
-  "jinja2>=3.1",
   "anthropic>=0.34",
   "python-dotenv>=1.0",
+  "pyyaml>=6.0",        # lib/watchareas.py, tools/
+  "numpy>=1.24",        # dedup, scoring, graphics, cartography
+  "markdown>=3.5",      # tools/render_brief.py
+]
+
+[project.optional-dependencies]
+# Daily-graphics + cartography suites. Heavy; only needed to render the
+# infographic/map PNGs, not to produce the text brief.
+graphics = [
+  "matplotlib>=3.7",
+  "fiona>=1.9",
+]
+# DuckDB warehouse + multilingual embedding index for the MCP semantic search.
+analytics = [
+  "duckdb>=0.9",
+  "sentence-transformers>=2.2",
+]
+# Extra upstream source adapters that need a vendor SDK.
+sources = [
+  "mediacloud>=4.0",
+]
+# Everything, for a full local environment.
+all = [
+  "matplotlib>=3.7",
+  "fiona>=1.9",
+  "duckdb>=0.9",
+  "sentence-transformers>=2.2",
+  "mediacloud>=4.0",
+]
+# Test + lint tooling.
+dev = [
+  "pytest>=8.0",
+  "numpy>=1.24",
+  "matplotlib>=3.7",
 ]
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["worldscope*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
