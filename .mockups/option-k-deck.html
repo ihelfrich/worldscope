@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — K · Spatial Deck (interactive prototype)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --unc:#5BB0E8; --maroon:#C76A8C; --gold:#FFC627; --crimson:#FF6B61; --green:#5BD6A5;
+    --bg:#0A0B0D; --surf:#101216; --surf2:#15181E; --hair:#20242B; --hair2:#2C313A;
+    --ink:#F1F3F6; --sub:#8C95A0; --dim:#5A626C;
+  }
+  html[data-theme="light"]{
+    --bg:#FBFBF9; --surf:#FFFFFF; --surf2:#F4F4F0; --hair:#E7E6E1; --hair2:#D8D7D1;
+    --ink:#1A1C1F; --sub:#5E646C; --dim:#9AA0A7;
+    --unc:#2C6FA6; --maroon:#8C1D40; --gold:#9A6B00; --crimson:#B11015;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:"Space Grotesk",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;overflow:hidden;display:flex;flex-direction:column;
+    transition:background .4s,color .4s}
+  .mono{font-family:"IBM Plex Mono",monospace}
+  .serif{font-family:"Fraunces",Georgia,serif}
+
+  /* ---- top bar / breadcrumb ---- */
+  header{display:flex;align-items:center;gap:18px;padding:14px 22px;border-bottom:1px solid var(--hair);
+    flex:none;background:var(--bg);z-index:5}
+  .mk{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--ink)}
+  .mk b{color:var(--gold)}
+  .trail{display:flex;align-items:center;gap:7px;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+    color:var(--dim);overflow:hidden;white-space:nowrap}
+  .trail a{color:var(--sub);text-decoration:none;cursor:pointer;letter-spacing:.04em}
+  .trail a.cur{color:var(--ink)}
+  .trail a:hover{color:var(--ink)}
+  .trail .sep{color:var(--dim)}
+  .tools{margin-left:auto;display:flex;align-items:center;gap:14px}
+  .tools .hint{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.06em;color:var(--dim)}
+  .tools .hint kbd{border:1px solid var(--hair2);border-radius:3px;padding:0 4px;color:var(--sub)}
+  .tg{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--sub);background:none;border:1px solid var(--hair2);border-radius:999px;padding:5px 10px;cursor:pointer}
+  .tg:hover{color:var(--ink);border-color:var(--dim)}
+
+  /* ---- the deck ---- */
+  #deck{flex:1;display:flex;overflow-x:auto;overflow-y:hidden;scroll-behavior:smooth}
+  #deck::-webkit-scrollbar{height:8px}#deck::-webkit-scrollbar-thumb{background:var(--hair2);border-radius:99px}
+  .col{flex:0 0 auto;width:64px;height:100%;border-right:1px solid var(--hair);position:relative;
+    overflow:hidden;transition:width .46s cubic-bezier(.6,.02,.1,1),background .3s;background:var(--bg);cursor:pointer}
+  .col.active{width:min(560px,86vw);cursor:default;background:var(--surf)}
+  .col.root{background:var(--bg)}
+  .col.active.root{background:var(--bg)}
+
+  /* collapsed spine */
+  .spine{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    padding:18px 0;gap:14px}
+  .col.active .spine{opacity:0;pointer-events:none;transition:opacity .2s}
+  .spine .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  .spine .vt{writing-mode:vertical-rl;transform:rotate(180deg);font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sub);margin-top:4px}
+  .spine .no{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--dim)}
+
+  /* expanded content */
+  .pad{position:absolute;inset:0;padding:30px 34px;overflow-y:auto;opacity:0;
+    transition:opacity .3s .12s}
+  .col.active .pad{opacity:1}
+  .pad::-webkit-scrollbar{width:7px}.pad::-webkit-scrollbar-thumb{background:var(--hair2);border-radius:99px}
+  .ey{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    display:flex;align-items:center;gap:8px}
+  .ey .d{width:7px;height:7px;border-radius:50%}
+  .colclose{position:absolute;top:22px;right:24px;font-family:"IBM Plex Mono",monospace;font-size:14px;
+    color:var(--dim);cursor:pointer;line-height:1}
+  .colclose:hover{color:var(--ink)}
+  h1.t{font-family:"Fraunces",serif;font-weight:300;font-size:30px;line-height:1.1;letter-spacing:-.02em;
+    margin:16px 0 18px;max-width:20ch}
+  h2.t{font-family:"Fraunces",serif;font-weight:400;font-size:25px;line-height:1.12;letter-spacing:-.01em;
+    margin:14px 0 16px;max-width:22ch}
+  .body{font-size:15px;line-height:1.66;color:#cdd3da}
+  html[data-theme="light"] .body{color:#3c4147}
+  .body p{margin-bottom:14px}
+  .body strong{color:var(--ink);font-weight:500}
+
+  /* the quiet index list on the root */
+  .idx{margin-top:6px}
+  .idx .grp{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--dim);margin:26px 0 10px}
+  .row{display:flex;align-items:baseline;gap:12px;padding:11px 0;border-top:1px solid var(--hair);
+    cursor:pointer;transition:padding .2s}
+  .row:hover{padding-left:8px}
+  .row:last-child{border-bottom:1px solid var(--hair)}
+  .row .rd{width:7px;height:7px;border-radius:50%;flex:none;transform:translateY(5px)}
+  .row .rt{flex:1}
+  .row .rn{font-family:"Fraunces",serif;font-weight:400;font-size:18px;letter-spacing:-.01em;line-height:1.25}
+  .row .rs{font-size:12.5px;color:var(--sub);margin-top:3px;line-height:1.45}
+  .row .rk{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--dim);white-space:nowrap}
+  .row .arr{font-family:"IBM Plex Mono",monospace;color:var(--dim);opacity:0;transition:opacity .2s}
+  .row:hover .arr{opacity:1}
+
+  /* threads (links that push a new column) */
+  .thr{margin-top:22px;border-top:1px solid var(--hair);padding-top:16px}
+  .thr .lab{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:10px}
+  .chip{display:inline-flex;align-items:center;gap:7px;font-family:"IBM Plex Mono",monospace;font-size:11px;
+    color:var(--sub);border:1px solid var(--hair2);border-radius:999px;padding:6px 12px;margin:0 7px 8px 0;
+    cursor:pointer;transition:.18s;background:var(--surf2)}
+  .chip:hover{color:var(--ink);border-color:var(--dim);transform:translateX(2px)}
+  .chip .cd{width:6px;height:6px;border-radius:50%}
+  a.cite{color:var(--unc);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--unc) 35%,transparent);cursor:pointer}
+  .data{display:flex;gap:26px;flex-wrap:wrap;margin:4px 0 6px}
+  .data .v{font-family:"Fraunces",serif;font-weight:300;font-size:27px;letter-spacing:-.01em}
+  .data .k{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:3px}
+  .conf{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.06em;text-transform:uppercase;
+    border:1px solid var(--hair2);border-radius:3px;padding:1px 5px;color:var(--sub);vertical-align:2px}
+
+  .c-gold{color:var(--gold)} .c-unc{color:var(--unc)} .c-maroon{color:var(--maroon)} .c-crimson{color:var(--crimson)}
+  .bg-gold{background:var(--gold)} .bg-unc{background:var(--unc)} .bg-maroon{background:var(--maroon)} .bg-crimson{background:var(--crimson)} .bg-dim{background:var(--dim)}
+</style>
+</head>
+<body>
+  <header>
+    <span class="mk"><b>◆</b> WORLDSCOPE</span>
+    <nav class="trail" id="trail"></nav>
+    <div class="tools">
+      <span class="hint"><kbd>←</kbd><kbd>→</kbd> move · <kbd>esc</kbd> back</span>
+      <button class="tg" id="themeBtn">◐ Theme</button>
+    </div>
+  </header>
+  <div id="deck"></div>
+
+<script>
+/* ---------------- content graph (real 2026-05-31 brief) ---------------- */
+const P = {
+  today: { kind:"root", accent:"gold", eyebrow:"Sunday 31 May 2026 · № 151",
+    headline:"The Iran deal clock expired without a formal agreement",
+    lede:`Polymarket's <a class="cite" data-go="iran">US–Iran peace deal by May 31</a> prints at 4%, down from 8% a week ago; Hormuz blockade-lifting fell 33%→18% in 48 hours. <strong>Ukraine's SBU</strong> destroyed two Tu-142 aircraft and an Iskander at Taganrog and struck the Feodosiya oil terminal. <strong>Crimea began fuel rationing</strong> at 20 L/person/day this morning.`,
+    index:[
+      {grp:"Watch Areas · 3 high", items:[
+        {go:"iran",   accent:"crimson", n:"Israel–Iran–Hezbollah", s:"Deadline passes; no deal", k:"HIGH"},
+        {go:"russia", accent:"crimson", n:"Russia Oil Perimeter",   s:"Taganrog port struck overnight", k:"HIGH"},
+        {go:"tariff", accent:"crimson", n:"US Tariff & Trade",       s:"Fed Circuit stay pending", k:"HIGH"},
+      ]},
+      {grp:"Briefing", items:[
+        {go:"macro",   accent:"unc",  n:"Macro Situation", s:"Curve un-inverts; oil drives CPI", k:"FIG 1"},
+        {go:"markets", accent:"unc",  n:"Markets",          s:"S&P 7,519 · Brent $109 · Gold $4,460", k:"30 MAY"},
+      ]},
+      {grp:"Quiet today · 8", items:[
+        {go:"quiet", accent:"dim", n:"Taiwan · Korea · Sahel · Arctic …", s:"No new activity", k:"—"},
+      ]},
+    ] },
+
+  iran: { accent:"crimson", eyebrow:"Watch Area · Priority High",
+    title:"Israel–Iran–Hezbollah axis",
+    body:`<p>The May 31 deadline passes without a deal. The Iranian ceasefire that held through <a class="cite" data-go="poly">May 24</a> has not been formally extended.</p>
+      <p>Hegseth framed the US floor as <strong>denuclearization</strong> rather than full normalization. <a class="cite" data-go="ofac">OFAC</a> issued Counter-Terrorism Designations with an amended Iran-related FAQ within the past week.</p>`,
+    threads:[ {go:"russia",accent:"crimson",t:"Russia Oil Perimeter"},{go:"poly",accent:"gold",t:"Polymarket prices"},{go:"ofac",accent:"unc",t:"OFAC actions"} ] },
+
+  russia: { accent:"crimson", eyebrow:"Watch Area · Priority High",
+    title:"Russia oil sanctions perimeter",
+    body:`<p>The overnight strike on <strong>Taganrog port</strong> (27–60E, 41.5–70N) hits the watch-area bounding box directly — a secondary naval and fuel-logistics node on the Sea of Azov.</p>
+      <p>Burning a tanker and fuel terminal there signals Ukrainian capability to operate inside Russian coastal infrastructure. <strong>Crimea fuel rationing</strong> (20 L/person/day on AI-95) confirms downstream supply effects.</p>`,
+    threads:[ {go:"iran",accent:"crimson",t:"Iran axis"},{go:"ofac",accent:"unc",t:"OFAC General License"} ] },
+
+  tariff: { accent:"crimson", eyebrow:"Watch Area · Priority High",
+    title:"US tariff & trade dockets",
+    body:`<p>The Federal Circuit emergency stay on CIT's <strong>Section 122</strong> tariff invalidation is the week's outstanding ruling. CBP refunds from the earlier SCOTUS IEEPA invalidation remain in process.</p>
+      <p>CIT added three new opinions: <a class="cite" data-go="cit">ICON EV, Toyo Kohan, and Oregon v. United States</a> — the first state-level tariff challenge at opinion stage.</p>`,
+    threads:[ {go:"cit",accent:"unc",t:"CIT opinions"},{go:"macro",accent:"unc",t:"Macro impact"} ] },
+
+  macro: { accent:"unc", eyebrow:"Briefing · Fig. 1",
+    title:"Macro situation",
+    body:`<div class="data">
+        <div><div class="v c-gold">$109</div><div class="k">Brent</div></div>
+        <div><div class="v">4.63%</div><div class="k">UST 10Y</div></div>
+        <div><div class="v c-crimson">2.8σ</div><div class="k">FEC anomaly</div></div>
+      </div>
+      <p>The curve is no longer inverted at the front end; the 1M–1Y band sits ≈3.62–3.85%, the 10Y near 4.63%. Markets buying a soft landing the data doesn't yet validate. <span class="conf">Med</span></p>
+      <p>Oil is the primary transmission mechanism. Every dollar above $100 for a quarter adds ≈0.15–0.20 pp to CPI; at $109 sustained six months, ≈0.9 pp annually — blocking any Fed cut. <span class="conf">High</span></p>
+      <p>Warsh's 54–45 confirmation was the narrowest in modern Fed history; the June 16–17 FOMC is his first test. <span class="conf">Med</span></p>`,
+    threads:[ {go:"markets",accent:"unc",t:"Markets"},{go:"tariff",accent:"crimson",t:"Tariff dockets"} ] },
+
+  markets: { accent:"unc", eyebrow:"Briefing · 30 May",
+    title:"Markets",
+    body:`<div class="data">
+        <div><div class="v c-unc">7,519</div><div class="k">S&P ▲9.2%</div></div>
+        <div><div class="v c-gold">$109</div><div class="k">Brent</div></div>
+        <div><div class="v">$4,460</div><div class="k">Gold</div></div>
+        <div><div class="v c-crimson">159.27</div><div class="k">USD/JPY</div></div>
+      </div>
+      <p>The S&P closed near 7,519, up 9.2% YTD — a war-and-AI economy: defence +22% vs SPY since Feb 28, energy +18%. The rest of the market is essentially flat.</p>
+      <p>USD/JPY at 159.27 sits in the BOJ intervention zone; gold trades $4,400–4,500 as a war-premium vehicle.</p>`,
+    threads:[ {go:"macro",accent:"unc",t:"Macro situation"} ] },
+
+  poly:{accent:"gold",eyebrow:"Source · Prediction markets",title:"Polymarket prices",
+    body:`<div class="data"><div><div class="v c-gold">4%</div><div class="k">Peace deal</div></div><div><div class="v">18%</div><div class="k">Hormuz lift</div></div><div><div class="v">0%</div><div class="k">Traffic normal</div></div></div>
+      <p>The peace-deal contract fell 8%→4% over a week; Hormuz blockade-lifting 33%→18% in 48h. The market assigns ≈⅕ probability of rapid resolution, ⅘ continued impasse.</p>`, threads:[{go:"iran",accent:"crimson",t:"Iran axis"}] },
+  ofac:{accent:"unc",eyebrow:"Source · Treasury / OFAC",title:"OFAC actions this week",
+    body:`<p>Counter-Terrorism Designations with an amended Iran-related FAQ; a Russia-related <strong>General License No. 1</strong> under the Harmful Foreign Activities Sanctions Regulations; and an ICC-related designation adding an international-legal dimension.</p>`, threads:[{go:"iran",accent:"crimson",t:"Iran axis"},{go:"russia",accent:"crimson",t:"Russia perimeter"}] },
+  cit:{accent:"unc",eyebrow:"Source · Court of Int'l Trade",title:"New CIT opinions",
+    body:`<p><strong>ICON EV LLC v. United States</strong> — EV classification. <strong>Toyo Kohan Co. v. United States</strong> — Japanese tinplate steel. <strong>Oregon v. United States</strong> — first state-level tariff challenge at opinion stage.</p>`, threads:[{go:"tariff",accent:"crimson",t:"Tariff dockets"}] },
+  quiet:{accent:"dim",eyebrow:"Quiet today · 8 areas",title:"No new activity",
+    body:`<p>Taiwan Strait · Korean peninsula · Critical minerals · EM debt distress · Sahel jihadist corridor · AI / semiconductor export controls · Latin America · Arctic.</p><p style="color:var(--dim)">Areas are scanned every cycle; they surface here automatically when signal returns.</p>`, threads:[] },
+};
+
+/* ---------------- deck engine ---------------- */
+const deck = document.getElementById('deck');
+const trailEl = document.getElementById('trail');
+let stack = ["today"];      // ids of open columns, left→right
+let active = 0;             // index of expanded column
+
+function render(){
+  deck.innerHTML = "";
+  stack.forEach((id, i) => {
+    const d = P[id];
+    const col = document.createElement('div');
+    col.className = "col" + (i===active?" active":"") + (id==="today"?" root":"");
+    col.dataset.i = i;
+
+    // collapsed spine
+    const spine = document.createElement('div');
+    spine.className = "spine";
+    spine.innerHTML = `<span class="dot bg-${d.accent||'dim'}"></span>
+      <span class="vt">${(d.title||"Today")}</span>
+      <span class="no">${String(i+1).padStart(2,'0')}</span>`;
+    col.appendChild(spine);
+
+    // expanded content
+    const pad = document.createElement('div');
+    pad.className = "pad";
+    if(d.kind==="root"){
+      pad.innerHTML = rootHTML(d);
+    }else{
+      pad.innerHTML = `<span class="colclose" data-close="${i}">✕</span>
+        <div class="ey"><span class="d bg-${d.accent}"></span><span class="c-${d.accent}">${d.eyebrow}</span></div>
+        <h2 class="t">${d.title}</h2>
+        <div class="body">${d.body}</div>
+        ${threadsHTML(d)}`;
+    }
+    col.appendChild(pad);
+
+    // collapsed click → activate
+    col.addEventListener('click',(e)=>{
+      if(col.classList.contains('active')) return;
+      active = i; render(); scrollTo(i);
+    });
+    deck.appendChild(col);
+  });
+  // wire interactions on active column
+  wire();
+  renderTrail();
+}
+
+function rootHTML(d){
+  let idx = d.index.map(g=>`
+    <div class="grp">${g.grp}</div>
+    ${g.items.map(it=>`
+      <div class="row" data-go="${it.go}">
+        <span class="rd bg-${it.accent}"></span>
+        <span class="rt"><div class="rn">${it.n}</div><div class="rs">${it.s}</div></span>
+        <span class="rk">${it.k}</span><span class="arr">→</span>
+      </div>`).join("")}
+  `).join("");
+  return `<div class="ey"><span class="d bg-${d.accent}"></span><span class="c-${d.accent}">${d.eyebrow}</span></div>
+    <h1 class="t">${d.headline}</h1>
+    <div class="body">${d.lede}</div>
+    <div class="idx">${idx}</div>`;
+}
+function threadsHTML(d){
+  if(!d.threads||!d.threads.length) return "";
+  return `<div class="thr"><div class="lab">Open thread →</div>${
+    d.threads.map(t=>`<span class="chip" data-go="${t.go}"><span class="cd bg-${t.accent}"></span>${t.t}</span>`).join("")
+  }</div>`;
+}
+
+function wire(){
+  deck.querySelectorAll('[data-go]').forEach(el=>{
+    el.addEventListener('click',(e)=>{ e.stopPropagation(); open(el.dataset.go); });
+  });
+  deck.querySelectorAll('[data-close]').forEach(el=>{
+    el.addEventListener('click',(e)=>{ e.stopPropagation(); closeFrom(+el.dataset.close); });
+  });
+}
+
+function open(id){
+  // push to the right of the active column, truncating anything beyond it
+  stack = stack.slice(0, active+1);
+  if(stack[active]!==id){ stack.push(id); active = stack.length-1; }
+  render(); scrollTo(active);
+}
+function closeFrom(i){
+  stack = stack.slice(0, i);
+  active = stack.length-1;
+  render(); scrollTo(active);
+}
+function scrollTo(i){
+  requestAnimationFrame(()=>{
+    const col = deck.children[i]; if(!col) return;
+    setTimeout(()=>col.scrollIntoView({inline:'end',block:'nearest'}),60);
+  });
+}
+function renderTrail(){
+  trailEl.innerHTML = stack.map((id,i)=>{
+    const label = id==="today" ? "Today" : P[id].title;
+    return `<a class="${i===active?'cur':''}" data-t="${i}">${label}</a>`
+      + (i<stack.length-1?'<span class="sep">›</span>':'');
+  }).join("");
+  trailEl.querySelectorAll('[data-t]').forEach(a=>a.addEventListener('click',()=>{active=+a.dataset.t;render();scrollTo(active);}));
+}
+
+document.addEventListener('keydown',(e)=>{
+  if(e.key==="ArrowRight" && active<stack.length-1){ active++; render(); scrollTo(active); }
+  else if(e.key==="ArrowLeft" && active>0){ active--; render(); scrollTo(active); }
+  else if(e.key==="Escape" && active>0){ closeFrom(active); }
+});
+document.getElementById('themeBtn').addEventListener('click',()=>{
+  const h=document.documentElement; h.dataset.theme = h.dataset.theme==="dark"?"light":"dark";
+});
+
+render();
+</script>
+</body>
+</html>
