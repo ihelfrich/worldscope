@@ -42,7 +42,6 @@ import json
 import os
 import re
 import urllib.parse
-import urllib.request
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path

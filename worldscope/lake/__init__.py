@@ -42,7 +42,7 @@ import hashlib
 import json
 import sqlite3
 from contextlib import contextmanager
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional

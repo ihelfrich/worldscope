@@ -21,14 +21,13 @@ from __future__ import annotations
 
 import logging
 import sqlite3
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
 import numpy as np
 
-from .embeddings import EmbeddingIndex, EMBED_DIM, _blob_to_vec, _normalize
-from .lake import LAKE_DB
+from .embeddings import EmbeddingIndex, _blob_to_vec, _normalize
 
 
 logger = logging.getLogger(__name__)
