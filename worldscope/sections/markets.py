@@ -12,7 +12,6 @@ from __future__ import annotations
 import os
 import time
 from datetime import datetime, timezone
-from typing import Optional
 
 import requests
 
@@ -55,11 +54,14 @@ WATCHLIST = [
 
 
 def _fetch_quote(session, key, symbol):
+    # Per-symbol best-effort: one bad ticker must not fail the whole section.
+    # Narrowed to the expected network/parse errors so a programming error
+    # still surfaces instead of being silently swallowed as None.
     try:
         r = session.get(QUOTE, params={"symbol": symbol, "token": key}, timeout=12)
         r.raise_for_status()
         return r.json()
-    except Exception:
+    except (requests.RequestException, ValueError):
         return None
 
 
@@ -77,9 +79,11 @@ class MarketsSection(Section):
         s = requests.Session()
         s.headers["User-Agent"] = UA
         items: list[dict] = []
+        fetch_failures = 0
         for symbol, label, group in WATCHLIST:
             q = _fetch_quote(s, key, symbol)
             if not q:
+                fetch_failures += 1
                 time.sleep(self.THROTTLE_S)
                 continue
             c = q.get("c")  # current
@@ -111,4 +115,13 @@ class MarketsSection(Section):
                 "group": group,
             })
             time.sleep(self.THROTTLE_S)
+        # If every symbol failed to fetch (e.g. bad API key or Finnhub down),
+        # that's an outage, not an empty market. Raise so the base class marks
+        # the section STATE_STALE and carries the last good snapshot forward
+        # rather than recording a misleading empty_ok.
+        if not items and fetch_failures == len(WATCHLIST):
+            raise RuntimeError(
+                f"all {fetch_failures} Finnhub quote fetches failed "
+                f"(check FINNHUB_API_KEY / API status)"
+            )
         return items

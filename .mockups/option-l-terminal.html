@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — L · Living Terminal (light, time-aware)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1C1F24; --sub:#5A626C; --dim:#94999F;
+    --unc:#2C6FA6; --maroon:#8C1D40; --gold:#9A6B00; --crimson:#B11015; --green:#1A7F55;
+    --panel:rgba(255,255,255,.62); --panelbd:rgba(28,31,36,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"IBM Plex Mono",monospace;color:var(--ink);overflow:hidden;position:relative}
+
+  /* ===== SKY: background blends through the day (demo cycle ~28s) ===== */
+  .sky{position:fixed;inset:0;z-index:-2;animation:day 28s ease-in-out infinite}
+  @keyframes day{
+    0%   {background:linear-gradient(160deg,#FDEDE1 0%,#F7E6D6 55%,#F3E0CF 100%)}  /* dawn */
+    25%  {background:linear-gradient(160deg,#F4F7F9 0%,#EAF1F6 55%,#E6EEF3 100%)}  /* midday */
+    50%  {background:linear-gradient(160deg,#FBEBDA 0%,#F3DCC9 55%,#EDD2BE 100%)}  /* dusk */
+    75%  {background:linear-gradient(160deg,#EDEAF2 0%,#E4E0EC 55%,#DCD8E6 100%)}  /* night (kept light) */
+    100% {background:linear-gradient(160deg,#FDEDE1 0%,#F7E6D6 55%,#F3E0CF 100%)}
+  }
+  /* ===== WORLD-STATE TONE: a tension wash over the sky. Redder = more elevated. ===== */
+  .tone{position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:radial-gradient(120% 80% at 70% -10%, rgba(177,16,21,.10), transparent 60%);
+    mix-blend-mode:multiply;animation:pulse 9s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+
+  .wrap{height:100%;display:flex;flex-direction:column;max-width:980px;margin:0 auto;padding:26px 26px 22px}
+
+  /* status line */
+  .status{display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--sub);margin-bottom:14px}
+  .status .mk{color:var(--ink);font-weight:600;letter-spacing:.26em}
+  .status .mk b{color:var(--gold)}
+  .status .clk{margin-left:auto}
+  .state{display:inline-flex;align-items:center;gap:7px;color:var(--crimson);font-weight:600}
+  .state .d{width:8px;height:8px;border-radius:50%;background:var(--crimson);
+    box-shadow:0 0 0 0 rgba(177,16,21,.5);animation:beat 1.8s ease-out infinite}
+  @keyframes beat{0%{box-shadow:0 0 0 0 rgba(177,16,21,.45)}70%{box-shadow:0 0 0 7px rgba(177,16,21,0)}100%{box-shadow:0 0 0 0 rgba(177,16,21,0)}}
+
+  /* terminal panel */
+  .term{flex:1;background:var(--panel);border:1px solid var(--panelbd);border-radius:14px;
+    backdrop-filter:blur(10px) saturate(1.1);box-shadow:0 1px 0 rgba(255,255,255,.6) inset,0 18px 50px rgba(28,31,36,.08);
+    padding:26px 30px;overflow:hidden;display:flex;flex-direction:column}
+  .feed{flex:1;font-size:15px;line-height:1.95}
+  /* each line types itself out (steps) then drops its caret */
+  .ln{white-space:nowrap;overflow:hidden;width:0;border-right:2px solid var(--gold);
+    animation:type var(--d) steps(var(--n)) var(--delay) both, drop .01s linear calc(var(--delay) + var(--d)) forwards}
+  @keyframes type{from{width:0}to{width:var(--w)}}
+  @keyframes drop{to{border-right-color:transparent}}
+  .ln.tall{line-height:1.4;margin:6px 0}
+  .gt{color:var(--maroon)}                 /* » markers */
+  .em{color:var(--ink);font-weight:600}
+  .up{color:var(--unc)} .hot{color:var(--gold)} .al{color:var(--crimson);font-weight:600}
+  .mut{color:var(--sub)}
+  .voice{font-family:"Fraunces",serif;font-style:italic;font-size:17px;color:var(--ink)}
+
+  /* the ask line */
+  .ask{margin-top:18px;border-top:1px solid var(--panelbd);padding-top:16px;
+    opacity:0;animation:fade .6s ease 8.4s forwards}
+  @keyframes fade{to{opacity:1}}
+  .prompt{display:flex;align-items:center;gap:10px;font-size:15px}
+  .prompt .car{display:inline-block;width:9px;height:19px;background:var(--maroon);animation:blink 1.05s steps(1) infinite}
+  @keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}
+  .prompt .ph{color:var(--dim)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .chip{font-size:11px;color:var(--sub);background:rgba(255,255,255,.55);border:1px solid var(--panelbd);
+    border-radius:999px;padding:6px 12px;cursor:pointer;transition:.15s}
+  .chip:hover{color:var(--ink);border-color:var(--dim)}
+  .chip b{color:var(--maroon);font-weight:500}
+</style>
+</head>
+<body>
+  <div class="sky"></div>
+  <div class="tone"></div>
+  <div class="wrap">
+    <div class="status">
+      <span class="mk"><b>◆</b> WORLDSCOPE</span>
+      <span>Sun 31 May 2026</span>
+      <span class="state"><span class="d"></span>World state · Elevated</span>
+      <span class="clk">09:20Z · synthesizing</span>
+    </div>
+
+    <div class="term">
+      <div class="feed">
+        <div class="ln" style="--w:57ch;--n:57;--d:1.15s;--delay:.25s"><span class="mut">WORLDSCOPE online — reading 41 sources across 14 sections…</span></div>
+        <div class="ln" style="--w:39ch;--n:39;--d:.85s;--delay:1.5s"><span class="gt">»</span> Iran deadline passed without a deal.</div>
+        <div class="ln" style="--w:50ch;--n:50;--d:1.0s;--delay:2.45s">&nbsp;&nbsp; peace-deal odds <span class="hot">8% → 4%</span> · Hormuz lifting <span class="hot">33% → 18%</span></div>
+        <div class="ln" style="--w:60ch;--n:60;--d:1.2s;--delay:3.55s"><span class="gt">»</span> Ukraine SBU hit <span class="em">Taganrog</span> — 2 Tu-142, an Iskander, oil ablaze.</div>
+        <div class="ln" style="--w:46ch;--n:46;--d:.95s;--delay:4.85s"><span class="gt">»</span> Crimea begins fuel rationing — <span class="em">20 L/person/day</span>.</div>
+        <div class="ln" style="--w:54ch;--n:54;--d:1.05s;--delay:5.9s"><span class="al">[ELEVATED]</span> 3 watch areas high · 8 quiet · Brent <span class="hot">$109</span> · S&P <span class="up">7,519</span></div>
+        <div class="ln tall voice" style="--w:62ch;--n:62;--d:1.25s;--delay:7.05s">— I'd watch the 10Y breakeven: above 2.85% means the oil-inflation</div>
+        <div class="ln tall voice" style="--w:36ch;--n:36;--d:.7s;--delay:8.3s">&nbsp;&nbsp; shock is no longer transitory.</div>
+      </div>
+
+      <div class="ask">
+        <div class="prompt">
+          <span class="ph">ask anything —</span>
+          <span class="car"></span>
+        </div>
+        <div class="chips">
+          <span class="chip">Why did the ruble <b>strengthen</b> under sanctions?</span>
+          <span class="chip">Show me <b>every billionaire</b> who traded this week</span>
+          <span class="chip">Map the <b>Taganrog</b> strike + sensor swaths</span>
+          <span class="chip">How accurate were <b>last month's</b> calls?</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

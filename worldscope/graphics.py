@@ -405,6 +405,23 @@ class LakeView:
         finally:
             con.close()
 
+    def prediction_skill(self):
+        """Calibration/skill over resolved predictions, or None if unavailable.
+
+        Delegates to scoring.track_record; returns a PredictionSkill whose
+        .bins drive the reliability diagram. Degrades to None when the lake or
+        the predictions table is absent."""
+        con = self.connect()
+        if con is None:
+            return None
+        try:
+            from .scoring.track_record import score_predictions_from_connection
+            return score_predictions_from_connection(con)
+        except Exception:
+            return None
+        finally:
+            con.close()
+
     def anomalies(self, end_iso: str, days: int = 30) -> list[tuple[str, str]]:
         """Return [(date_iso, category), ...] for the last `days` ending at end_iso."""
         con = self.connect()
@@ -619,6 +636,7 @@ class DailyGraphics:
         results["markets_sparklines"] = self.render_markets_sparklines(date_iso)
         results["section_volume"] = self.render_section_volume(date_iso)
         results["paper_bet_scorecard"] = self.render_paper_bet_scorecard(date_iso)
+        results["calibration"] = self.render_calibration(date_iso)
         results["anomaly_density"] = self.render_anomaly_density(date_iso)
         return results
 
@@ -1110,6 +1128,85 @@ class DailyGraphics:
             fig,
             "Source: Worldscope lake paper_bet_marks + paper_bet_resolutions. "
             "Includes unrealized + realized P&L.",
+        )
+        fig.tight_layout(rect=[0, 0.04, 1, 1])
+        fig.savefig(path, dpi=100, facecolor=PARCHMENT)
+        plt.close(fig)
+        return path
+
+    # ---- forecast calibration -------------------------------------------
+
+    def render_calibration(self, date_iso: str) -> Path:
+        """Reliability diagram: predicted confidence vs. observed frequency
+        over the system's own resolved predictions. The dashed diagonal is
+        perfect calibration; points below it are overconfident, above are
+        underconfident. Marker area scales with the number of calls per bin."""
+        out_dir = self.output_root / date_iso
+        out_dir.mkdir(parents=True, exist_ok=True)
+        path = out_dir / "calibration.png"
+
+        skill = self.lake.prediction_skill()
+        n_resolved = skill.n_resolved if skill else 0
+        MIN_RESOLVED = 8
+
+        fig, ax = plt.subplots(figsize=(7.5, 7.5), dpi=100)
+        if not skill or n_resolved < MIN_RESOLVED or not skill.bins:
+            _placeholder(
+                ax,
+                f"Calibration accumulating.\n{n_resolved} resolved prediction"
+                f"{'s' if n_resolved != 1 else ''} so far; need {MIN_RESOLVED} to plot.",
+                title=f"Forecast calibration, as of {date_iso}",
+            )
+            _style_caption(fig, "Source: Worldscope lake predictions table.")
+            fig.savefig(path, dpi=100, facecolor=PARCHMENT)
+            plt.close(fig)
+            return path
+
+        # Perfect-calibration diagonal + over/under-confidence shading.
+        ax.plot([0, 1], [0, 1], linestyle="--", color=SLATE, linewidth=1.0,
+                alpha=0.7, zorder=1)
+        ax.fill_between([0, 1], [0, 1], 0, color=INDIANA_CRIMSON, alpha=0.05, zorder=0)
+        ax.fill_between([0, 1], [0, 1], 1, color=BSE_TEAL, alpha=0.05, zorder=0)
+
+        xs = [b.mean_predicted for b in skill.bins]
+        ys = [b.observed_freq for b in skill.bins]
+        ns = [b.n for b in skill.bins]
+        smax = max(ns) or 1
+        sizes = [80 + 520 * (n / smax) for n in ns]
+        ax.plot(xs, ys, color=CAROLINA_NAVY, linewidth=1.6, zorder=2)
+        ax.scatter(xs, ys, s=sizes, color=OLD_GOLD, edgecolor=CAROLINA_NAVY,
+                   linewidth=1.2, zorder=3, alpha=0.95)
+
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        ax.set_aspect("equal", adjustable="box")
+        ax.set_xlabel("predicted probability (confidence)", fontsize=10,
+                      family=SANS_FAMILY, color=SLATE)
+        ax.set_ylabel("observed frequency (came true)", fontsize=10,
+                      family=SANS_FAMILY, color=SLATE)
+        ax.set_title(f"Forecast calibration, as of {date_iso}", fontsize=15,
+                     family=SERIF_FAMILY, color=CAROLINA_NAVY, loc="left", pad=12)
+        ax.text(0.97, 0.05, "overconfident", ha="right", va="bottom",
+                fontsize=8, family=SANS_FAMILY, color=INDIANA_CRIMSON, alpha=0.85)
+        ax.text(0.03, 0.95, "underconfident", ha="left", va="top",
+                fontsize=8, family=SANS_FAMILY, color=BSE_TEAL, alpha=0.85)
+
+        bss = (f"{skill.brier_skill_score:+.2f}"
+               if skill.brier_skill_score is not None else "n/a")
+        txt = (f"n = {n_resolved}\n"
+               f"Brier = {skill.brier:.3f}\n"
+               f"skill vs climatology = {bss}\n"
+               f"ECE = {skill.ece:.3f}\n"
+               f"overconfidence = {skill.overconfidence:+.3f}")
+        ax.text(0.045, 0.60, txt, transform=ax.transAxes, fontsize=9.5,
+                family=SANS_FAMILY, color=CAROLINA_NAVY, va="top",
+                bbox=dict(boxstyle="round,pad=0.5", facecolor=PARCHMENT,
+                          edgecolor=MIST))
+
+        _style_caption(
+            fig,
+            "Source: Worldscope lake predictions table. Marker area scales "
+            "with calls per bin; dashed line is perfect calibration.",
         )
         fig.tight_layout(rect=[0, 0.04, 1, 1])
         fig.savefig(path, dpi=100, facecolor=PARCHMENT)

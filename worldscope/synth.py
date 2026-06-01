@@ -3,8 +3,11 @@ LLM synthesis with strict anti-hallucination prompt.
 
 Rule: every claim in the synthesized paragraph must trace to one of the items
 in the input list. The prompt instructs the model to cite by item index and
-refuse to include claims it cannot ground. We post-validate by re-reading the
-output for fabricated specifics.
+refuse to include claims it cannot ground.
+
+If the API is unconfigured or the call fails for any reason, ``synthesize``
+returns a deterministic, fact-derived fallback string rather than raising, so
+a single bad response never aborts the surrounding briefing run.
 """
 from __future__ import annotations
 
@@ -16,6 +19,10 @@ try:
     import anthropic  # type: ignore
 except ImportError:
     anthropic = None  # type: ignore
+
+# Single source of truth for the synthesis model, shared with overview.py and
+# overridable via env so the id can be bumped without code edits.
+SYNTH_MODEL = os.environ.get("WORLDSCOPE_SYNTH_MODEL", "claude-sonnet-4-6")
 
 SYSTEM = """You are a research-grade desk officer writing a daily intelligence
 briefing for an economist. The brief must be:
@@ -44,9 +51,23 @@ Do not list every item — synthesize. Cite specifics from the items only.
 """
 
 
+def _first_text(resp) -> str:
+    """Extract the first text block from a messages response, defensively.
+
+    Adaptive-thinking models, refusals, and empty completions can yield a
+    response whose first content block is not text (or whose content list is
+    empty), so indexing ``resp.content[0].text`` directly can raise. Return
+    "" when no text block is present.
+    """
+    for block in getattr(resp, "content", None) or []:
+        if getattr(block, "type", None) == "text":
+            return (block.text or "").strip()
+    return ""
+
+
 def synthesize(section_title: str, items: list[dict], new_ids: set[str]) -> str:
     """Returns the synthesized paragraph. Falls back to a deterministic
-    fallback string if the API isn't configured."""
+    fallback string if the API isn't configured or the call fails."""
     if not items:
         return f"No new items in {section_title} today."
 
@@ -64,8 +85,9 @@ def synthesize(section_title: str, items: list[dict], new_ids: set[str]) -> str:
         )
     items_text = "\n".join(lines)
 
-    if anthropic is None or not os.environ.get("ANTHROPIC_API_KEY"):
-        # Fallback: deterministic prose so the pipeline keeps working offline
+    def _fallback() -> str:
+        # Deterministic prose so the pipeline keeps working offline or on
+        # any API failure.
         n = len(new_indices)
         if n == 0:
             return f"No new items in {section_title} today (last seen items unchanged)."
@@ -74,18 +96,35 @@ def synthesize(section_title: str, items: list[dict], new_ids: set[str]) -> str:
             f"Most recent: {items[0].get('title','')[:160]}."
         )
 
-    client = anthropic.Anthropic()
-    resp = client.messages.create(
-        model="claude-sonnet-4-5",
-        max_tokens=400,
-        system=SYSTEM,
-        messages=[{
-            "role": "user",
-            "content": PROMPT.format(
-                section_title=section_title,
-                items_text=items_text,
-                new_indices=", ".join(str(i) for i in new_indices) or "none",
-            )
-        }],
-    )
-    return resp.content[0].text.strip()
+    if anthropic is None or not os.environ.get("ANTHROPIC_API_KEY"):
+        return _fallback()
+
+    try:
+        client = anthropic.Anthropic()
+        resp = client.messages.create(
+            model=SYNTH_MODEL,
+            max_tokens=400,
+            # Cache the static system prompt. Note: Sonnet 4.6's minimum
+            # cacheable prefix is ~2048 tokens, so this short prompt may not
+            # actually cache — it's correct and harmless, and engages if the
+            # prompt grows.
+            system=[{
+                "type": "text",
+                "text": SYSTEM,
+                "cache_control": {"type": "ephemeral"},
+            }],
+            messages=[{
+                "role": "user",
+                "content": PROMPT.format(
+                    section_title=section_title,
+                    items_text=items_text,
+                    new_indices=", ".join(str(i) for i in new_indices) or "none",
+                )
+            }],
+        )
+    except Exception as exc:  # network/auth/API errors must not abort the brief
+        print(f"[synth] {section_title}: API call failed "
+              f"({type(exc).__name__}: {exc}); using deterministic fallback")
+        return _fallback()
+    text = _first_text(resp)
+    return text or _fallback()

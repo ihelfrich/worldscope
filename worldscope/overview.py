@@ -23,6 +23,7 @@ except ImportError:
     anthropic = None  # type: ignore
 
 from .calendar import CalendarItem
+from .synth import SYNTH_MODEL, _first_text
 
 
 SYSTEM = """You are a research desk officer writing a daily analyst's morning brief.
@@ -107,24 +108,39 @@ def build_overview(
     trends_summary = _format_trends(trends)
     calendar_summary = _format_calendar(calendar)
 
-    # LLM path
+    # LLM path. Any failure (network/auth/empty or non-text response) falls
+    # through to the deterministic template below rather than aborting the
+    # brief after every section has already been pulled.
     if anthropic is not None and os.environ.get("ANTHROPIC_API_KEY"):
-        client = anthropic.Anthropic()
-        resp = client.messages.create(
-            model="claude-sonnet-4-5",
-            max_tokens=1200,
-            system=SYSTEM,
-            messages=[{
-                "role": "user",
-                "content": PROMPT.format(
-                    today_date=today.isoformat(),
-                    section_pulls=section_pulls,
-                    trends_summary=trends_summary,
-                    calendar_summary=calendar_summary,
-                ),
-            }],
-        )
-        return resp.content[0].text.strip()
+        try:
+            client = anthropic.Anthropic()
+            resp = client.messages.create(
+                model=SYNTH_MODEL,
+                max_tokens=1200,
+                # Cache the static system prompt (auto-caches the last
+                # cacheable block) so the identical preamble isn't re-billed.
+                system=[{
+                    "type": "text",
+                    "text": SYSTEM,
+                    "cache_control": {"type": "ephemeral"},
+                }],
+                messages=[{
+                    "role": "user",
+                    "content": PROMPT.format(
+                        today_date=today.isoformat(),
+                        section_pulls=section_pulls,
+                        trends_summary=trends_summary,
+                        calendar_summary=calendar_summary,
+                    ),
+                }],
+            )
+            text = _first_text(resp)
+            if text:
+                return text
+            print("[overview] empty/non-text API response; using deterministic fallback")
+        except Exception as exc:
+            print(f"[overview] API call failed ({type(exc).__name__}: {exc}); "
+                  f"using deterministic fallback")
 
     # Deterministic fallback
     total_new = sum(len(d["new"]) for _, (_, d) in section_deltas.items())

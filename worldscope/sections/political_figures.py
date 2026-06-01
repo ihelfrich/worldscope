@@ -42,7 +42,6 @@ import json
 import os
 import re
 import urllib.parse
-import urllib.request
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -355,8 +354,7 @@ def _fetch_courtlistener_recent(figure_name: str, *, days: int = 14,
 # ------------------------------------------------------------------ #
 
 
-def _slug(s: str) -> str:
-    return "".join(c.lower() if c.isalnum() else "-" for c in (s or "")).strip("-")
+from ._util import slug as _slug
 
 
 class PoliticalFiguresSection(Section):

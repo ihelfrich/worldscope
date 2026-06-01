@@ -48,8 +48,7 @@ from .state_news import _parse_rss
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com) Mozilla/5.0"
 
 
-def _slug(s: str) -> str:
-    return "".join(c.lower() if c.isalnum() else "-" for c in (s or "")).strip("-")
+from ._util import slug as _slug
 
 
 # (source_label, feed_url, language, tier, scope, notes)

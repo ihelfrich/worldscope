@@ -22,6 +22,7 @@ uses for synthesis, rendering, and bundling.
 from __future__ import annotations
 
 import hashlib
+import html
 import os
 import threading
 from abc import ABC, abstractmethod
@@ -252,11 +253,18 @@ class Section(ABC):
         for it in state.items[:50]:
             is_new = it.get("_id") in new_ids
             new_marker = "<span class='new-badge'>NEW</span>" if is_new else ""
+            # title/url/summary/date originate from untrusted upstream feeds and
+            # scrapers; escape every interpolated value to prevent stored XSS and
+            # broken markup. quote=True so a value can't break out of href='...'.
+            url = html.escape(it.get("url", "#") or "#", quote=True)
+            title = html.escape(it.get("title", "(no title)") or "(no title)")
+            item_date = html.escape(it.get("date", "") or "")
+            summary = html.escape((it.get("summary", "") or "")[:280])
             items_html.append(
-                f"<li>{new_marker}<a href='{it.get('url','#')}'>"
-                f"{it.get('title','(no title)')}</a>"
-                f"<span class='meta'> · {it.get('date','')}</span>"
-                f"<div class='abs'>{(it.get('summary','') or '')[:280]}</div></li>"
+                f"<li>{new_marker}<a href='{url}'>"
+                f"{title}</a>"
+                f"<span class='meta'> · {item_date}</span>"
+                f"<div class='abs'>{summary}</div></li>"
             )
         if not state.items:
             items_html.append("<li class='empty'>no items in this section.</li>")
@@ -282,7 +290,7 @@ class Section(ABC):
             )
         if state.state == STATE_STALE and state.source_date:
             days_ago = (today - date.fromisoformat(state.source_date)).days
-            reason = state.error or "pull failed"
+            reason = html.escape(state.error or "pull failed", quote=True)
             return (
                 f"<span class='stale-badge stale-failed' title='{reason}'>"
                 f"stale · last good from {state.source_date} ({days_ago} day{'s' if days_ago != 1 else ''} ago)"

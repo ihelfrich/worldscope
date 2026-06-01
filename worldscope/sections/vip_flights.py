@@ -69,12 +69,12 @@ class VipFlightsSection(Section):
     LIMIT = 30
 
     def pull(self) -> list[dict]:
-        try:
-            resp = requests.get(API, headers={"User-Agent": UA}, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception:
-            return []
+        # Let network/parse failures propagate: the base class records them as
+        # STATE_STALE and carries the last good snapshot forward. Catching and
+        # returning [] here would mask an outage as a legitimate "0 aircraft".
+        resp = requests.get(API, headers={"User-Agent": UA}, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
 
         states = data.get("states") or []
         snapshot_ts = data.get("time")
@@ -106,8 +106,9 @@ class VipFlightsSection(Section):
                 "summary": (
                     f"icao24: {icao24} · "
                     f"position: ({lat}, {lon}) · "
-                    f"alt: {int(altitude_m)}m" if altitude_m else "on ground"
-                ) + (f" · {int(velocity*3.6)}km/h" if velocity else ""),
+                    + (f"alt: {int(altitude_m)}m" if altitude_m else "on ground")
+                    + (f" · {int(velocity*3.6)}km/h" if velocity else "")
+                ),
                 "icao24": icao24,
                 "callsign": callsign,
                 "country": country,

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Refined / 2040 system</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     WORLDSCOPE — refined Swiss system
+     Color is a coded language, not decoration:
+       --unc      Carolina blue  → links / market data / info
+       --maroon   ASU maroon     → watch-area identity / structure
+       --gold     ASU gold       → now / active / highlight
+       --crimson  Indiana crimson→ alert / elevated priority
+     One token set; light & dark derived from it.
+     ============================================================ */
+  :root{
+    --unc:#4B9CD3; --unc-deep:#2C6FA6;
+    --maroon:#8C1D40; --maroon-soft:#A8456A;
+    --gold:#FFC627; --gold-ink:#8A5E00;
+    --crimson:#990000; --crimson-bright:#C5141B;
+  }
+  html[data-theme="light"]{
+    --paper:#FBFBF9; --surface:#FFFFFF; --ink:#15181D; --sub:#5A6470;
+    --hair:#E5E6E2; --hair-strong:#15181D; --gutter:#9AA1A8;
+    --chip:#F1F1EC; --shadow:0 1px 0 rgba(0,0,0,.03);
+  }
+  html[data-theme="dark"]{
+    --paper:#0C0E12; --surface:#13161C; --ink:#ECEFF3; --sub:#9AA6B2;
+    --hair:#222831; --hair-strong:#ECEFF3; --gutter:#5C6571;
+    --chip:#1A1F27; --shadow:none;
+    --unc:#67B4E6; --maroon-soft:#C76A8C; --gold:#FFCE45; --crimson-bright:#FF6A66;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--paper);color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif;font-weight:450;
+    font-size:clamp(14px,0.55vw + 12px,16px);line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    font-feature-settings:"ss01","cv05","tnum" 0;
+    transition:background .35s ease,color .35s ease;
+  }
+  .num{font-variant-numeric:tabular-nums}
+  .mono{font-family:"IBM Plex Mono",monospace}
+  a{color:var(--unc-deep);text-decoration:none}
+  html[data-theme="dark"] a{color:var(--unc)}
+
+  /* ---- status spine: encodes the day's active postures ---- */
+  .spine{display:flex;height:4px}
+  .spine i{flex:1}
+  .spine .hi{background:var(--crimson)}
+  .spine .md{background:var(--maroon)}
+  .spine .lo{background:var(--hair)}
+  .spine .now{background:var(--gold)}
+
+  .frame{max-width:1160px;margin:0 auto;padding:0 clamp(20px,4vw,56px)}
+
+  /* ---- masthead ---- */
+  header.mh{display:flex;align-items:flex-end;justify-content:space-between;
+    gap:24px;padding:26px 0 16px;border-bottom:1.5px solid var(--hair-strong)}
+  .wordmark{font-family:"IBM Plex Mono",monospace;font-weight:600;
+    font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--ink)}
+  .wordmark b{color:var(--maroon)}
+  html[data-theme="dark"] .wordmark b{color:var(--maroon-soft)}
+  .mh h1{font-family:"Space Grotesk",sans-serif;font-weight:600;
+    font-size:clamp(26px,3vw,38px);letter-spacing:-.025em;line-height:1;margin-top:8px}
+  .mh .right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+  .dateline{font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.7;
+    color:var(--sub);letter-spacing:.02em}
+  .toggle{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--sub);background:none;border:1px solid var(--hair);
+    border-radius:999px;padding:5px 11px;cursor:pointer;transition:.2s}
+  .toggle:hover{border-color:var(--gutter);color:var(--ink)}
+
+  /* ---- market index strip ---- */
+  .strip{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:1px solid var(--hair)}
+  .strip .c{padding:13px 16px 13px 0}
+  .strip .c + .c{padding-left:18px;border-left:1px solid var(--hair)}
+  .strip .k{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--sub)}
+  .strip .v{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:18px;
+    margin-top:5px;letter-spacing:-.01em}
+  .up{color:var(--unc-deep)} html[data-theme="dark"] .up{color:var(--unc)}
+  .dn{color:var(--crimson)} html[data-theme="dark"] .dn{color:var(--crimson-bright)}
+  .hot{color:var(--gold-ink)} html[data-theme="dark"] .hot{color:var(--gold)}
+
+  /* ---- lede ---- */
+  .lede{display:grid;grid-template-columns:84px 1fr;gap:0;
+    padding:34px 0 30px;border-bottom:1px solid var(--hair)}
+  .ix{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--gutter);padding-top:6px}
+  .ix b{display:block;color:var(--maroon);font-weight:600}
+  html[data-theme="dark"] .ix b{color:var(--maroon-soft)}
+  .lede h2{font-family:"Space Grotesk",sans-serif;font-weight:500;
+    font-size:clamp(22px,2.4vw,30px);line-height:1.12;letter-spacing:-.02em;
+    margin-bottom:16px;max-width:22ch}
+  .lede p{font-size:1.02em;line-height:1.62;max-width:64ch;color:var(--ink)}
+  .lede strong{font-weight:600}
+
+  /* ---- section label ---- */
+  .slab{display:flex;align-items:center;gap:12px;margin:38px 0 18px}
+  .slab .n{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--gutter)}
+  .slab h3{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:13px;
+    letter-spacing:.16em;text-transform:uppercase}
+  .slab .line{flex:1;height:1px;background:var(--hair)}
+
+  /* ---- watch-area ledger ---- */
+  .wa{display:grid;grid-template-columns:14px 220px 1fr;gap:0;
+    border-top:1px solid var(--hair);transition:background .2s}
+  .wa:last-child{border-bottom:1px solid var(--hair)}
+  .wa:hover{background:var(--surface)}
+  .wa .bar{background:var(--maroon)}
+  html[data-theme="dark"] .wa .bar{background:var(--maroon-soft)}
+  .wa .id{padding:18px 20px 18px 18px}
+  .wa .id .nm{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:16px;
+    letter-spacing:-.01em;line-height:1.2}
+  .wa .id .pri{display:inline-flex;align-items:center;gap:6px;margin-top:9px;
+    font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--crimson)}
+  html[data-theme="dark"] .wa .id .pri{color:var(--crimson-bright)}
+  .wa .id .pri::before{content:"";width:6px;height:6px;border-radius:50%;
+    background:currentColor}
+  .wa .tx{padding:18px 0 18px 4px;font-size:.95em;line-height:1.55;color:var(--sub)}
+  .wa .tx strong{color:var(--ink);font-weight:600}
+  .quiet{padding:16px 0 4px;font-family:"IBM Plex Mono",monospace;font-size:11px;
+    line-height:1.9;color:var(--gutter)}
+  .quiet b{color:var(--sub)}
+
+  /* ---- macro ---- */
+  .macro{display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:start;
+    padding-top:6px}
+  .chart{border:1px solid var(--hair);background:var(--surface);height:188px;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--gutter);
+    position:relative;overflow:hidden}
+  .chart::before{content:"";position:absolute;inset:0;
+    background:repeating-linear-gradient(90deg,transparent 0 27px,var(--hair) 27px 28px);
+    opacity:.5}
+  .chart span{position:relative}
+  .cap{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.04em;
+    color:var(--gutter);margin-top:9px;text-transform:uppercase}
+  .macro p{font-size:.96em;line-height:1.6;margin-bottom:13px}
+  .conf{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;
+    text-transform:uppercase;padding:1px 5px;border:1px solid var(--hair);
+    border-radius:3px;color:var(--sub);vertical-align:1px}
+
+  /* ---- legend (signals the system) ---- */
+  .legend{display:flex;flex-wrap:wrap;gap:18px;margin:40px 0 14px;padding:14px 0;
+    border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+  .legend .it{display:flex;align-items:center;gap:8px;
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.04em;
+    text-transform:uppercase;color:var(--sub)}
+  .legend .sw{width:11px;height:11px;border-radius:3px}
+
+  footer{display:flex;justify-content:space-between;padding:22px 0 56px;
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--gutter)}
+  @media(max-width:720px){
+    .strip{grid-template-columns:repeat(3,1fr)}
+    .strip .c:nth-child(3n+1){border-left:none;padding-left:0}
+    .lede,.wa{grid-template-columns:1fr}
+    .wa .bar{display:none}.macro{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+  <div class="spine" title="Day posture — three high, one active, rest quiet">
+    <i class="hi"></i><i class="hi"></i><i class="hi"></i><i class="now"></i>
+    <i class="lo"></i><i class="lo"></i><i class="lo"></i><i class="lo"></i><i class="lo"></i><i class="lo"></i>
+  </div>
+
+  <div class="frame">
+    <header class="mh">
+      <div>
+        <div class="wordmark"><b>◆</b> World&shy;scope</div>
+        <h1>The Morning Brief</h1>
+      </div>
+      <div class="right">
+        <button class="toggle" onclick="document.documentElement.dataset.theme = document.documentElement.dataset.theme==='light'?'dark':'light'">◐ Theme</button>
+        <div class="dateline">SUNDAY 31 MAY 2026<br>№ 151 · MMXXVI<br>FOR&nbsp;I.&nbsp;HELFRICH</div>
+      </div>
+    </header>
+
+    <div class="strip num">
+      <div class="c"><div class="k">S&P 500</div><div class="v up">7,519</div></div>
+      <div class="c"><div class="k">Brent</div><div class="v hot">$109</div></div>
+      <div class="c"><div class="k">Gold</div><div class="v up">$4,460</div></div>
+      <div class="c"><div class="k">USD / JPY</div><div class="v dn">159.27</div></div>
+      <div class="c"><div class="k">UST 10Y</div><div class="v">4.63%</div></div>
+      <div class="c"><div class="k">Anomaly</div><div class="v dn">FEC 2.8σ</div></div>
+    </div>
+
+    <div class="lede">
+      <div class="ix">№ 01<b>Lead</b></div>
+      <div>
+        <h2>The Iran deal clock expired without a formal agreement</h2>
+        <p>Polymarket's <a href="#">US–Iran permanent peace deal by May 31</a> prints at 4%, down from 8% a week ago; the Hormuz blockade-lifting contract fell from 33% to 18% in 48 hours. In the same window <strong>Ukraine's SBU</strong> launched its most significant deep-strike package in weeks — drones destroyed two Tu-142 maritime patrol aircraft and an Iskander system at Taganrog airfield and struck the Feodosiya oil terminal in Crimea. Russia retaliated overnight with 290 drones and five Kh-101 cruise missiles; air defences claimed 284 kills. <strong>Crimea began fuel rationing</strong> at 20 litres per person per day this morning.</p>
+      </div>
+    </div>
+
+    <div class="slab"><span class="n mono">§</span><h3>Watch Areas — Configured Priorities</h3><span class="line"></span></div>
+
+    <div class="wa">
+      <div class="bar"></div>
+      <div class="id"><div class="nm">Israel–Iran–Hezbollah</div><span class="pri">Priority · High</span></div>
+      <div class="tx">The May 31 deadline passes without a deal. The Iranian ceasefire that held through May 24 has not been formally extended. Hegseth framed the US floor as <strong>denuclearization</strong> rather than full normalization; OFAC issued Counter-Terrorism Designations with an amended Iran-related FAQ within the past week.</div>
+    </div>
+    <div class="wa">
+      <div class="bar"></div>
+      <div class="id"><div class="nm">Russia Oil Perimeter</div><span class="pri">Priority · High</span></div>
+      <div class="tx">The overnight strike on <strong>Taganrog port</strong> hits the watch-area bounding box directly. Burning a tanker and fuel terminal there signals Ukrainian capability to operate inside Russian coastal infrastructure; Crimea fuel rationing confirms downstream supply effects.</div>
+    </div>
+    <div class="wa">
+      <div class="bar"></div>
+      <div class="id"><div class="nm">US Tariff &amp; Trade</div><span class="pri">Priority · High</span></div>
+      <div class="tx">The Federal Circuit emergency stay on CIT's <strong>Section 122</strong> tariff invalidation is the week's outstanding ruling. CIT added three new opinions: ICON EV, Toyo Kohan, and Oregon v. United States — the first state-level tariff challenge at opinion stage.</div>
+    </div>
+    <div class="quiet"><b>Quiet today —</b> Taiwan Strait · Korean peninsula · Critical minerals · EM debt distress · Sahel corridor · AI / semiconductor export controls · Latin America · Arctic</div>
+
+    <div class="slab"><span class="n mono">§</span><h3>Macro Situation</h3><span class="line"></span></div>
+    <div class="macro">
+      <div>
+        <div class="chart"><span>yield-curve · 2026-05-30</span></div>
+        <div class="cap">Fig. 1 — UST curve, front end no longer inverted</div>
+      </div>
+      <div>
+        <p>The curve is no longer inverted at the front end; the 1M–1Y band sits ≈3.62–3.85%, the 10Y near 4.63%. The 90-day shift is down 10–20 bp at the short end — markets buying a soft landing the data does not yet validate. <span class="conf">Med</span></p>
+        <p>Oil is the primary transmission mechanism. Brent holds a $107–111 band since the Feb-28 jump to $115; every dollar above $100 for a quarter adds ≈0.15–0.20 pp to CPI. At $109 sustained six months: ≈0.9 pp annually — blocking any Fed cut regardless of Warsh's stated preferences. <span class="conf">High</span></p>
+        <p>Warsh's 54–45 confirmation was the narrowest in modern Fed history; the June 16–17 FOMC is his first test, priced for maximum ambiguity. <span class="conf">Med</span></p>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div class="it"><span class="sw" style="background:var(--unc)"></span>Carolina · links / data</div>
+      <div class="it"><span class="sw" style="background:var(--maroon)"></span>Maroon · watch-area identity</div>
+      <div class="it"><span class="sw" style="background:var(--gold)"></span>Gold · now / active</div>
+      <div class="it"><span class="sw" style="background:var(--crimson)"></span>Crimson · alert / elevated</div>
+    </div>
+
+    <footer>
+      <span>Worldscope · grounded in cited items only</span>
+      <span>Data through EOD 2026-05-30 · UTC</span>
+    </footer>
+  </div>
+</body>
+</html>
