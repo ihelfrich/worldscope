@@ -53,16 +53,33 @@ _STAT = {
     "not_enough_info": ("open", "UNCONFIRMED"),
 }
 
-# Drop sports/entertainment clusters — real multi-source, but not intelligence.
+# Drop clusters that are real multi-source but not intelligence: sport,
+# entertainment, lifestyle, holidays, and explainer/clickbait pieces.
 _NOISE = re.compile(
     r"\b(vs\.?|game \d|world cup|nba|playoffs?|finals?|french open|roland garros|"
     r"atp|wta|grand slam|premier league|la liga|serie a|bundesliga|champions league|"
     r"fifa|uefa|olympic|super bowl|formula 1|grand prix|knocked out|"
-    r"quarter-?final|semi-?final|transfer window|box office|grammy|oscar)\b", re.I)
+    r"quarter-?final|semi-?final|transfer window|box office|grammy|oscar|"
+    # holidays / faith observances / lifestyle / soft features
+    r"eid mubarak|eid al-?|ramadan|hajj|diwali|hanukkah|christmas|easter|"
+    r"mother'?s day|father'?s day|valentine|horoscope|zodiac|recipe|"
+    r"celebrit|royal family|met gala|red carpet|netflix|spotify|box-office|"
+    r"things to know|what to know|everything you need|guide to|tips for|"
+    r"best (?:movies|shows|books|restaurants))\b", re.I)
+
+# Explainer/question-style headlines aren't assessments.
+_EXPLAINER = re.compile(r"^\s*(what is|what are|why do|why does|why is|how to|"
+                        r"how do|how does|who is|who are|when is|when does|"
+                        r"everything you|here'?s (?:what|why|how)|a guide)\b", re.I)
 
 
 def _relevant(c) -> bool:
-    return not _NOISE.search(c.claim_text or "")
+    t = (c.claim_text or "").strip()
+    if not t or _NOISE.search(t) or _EXPLAINER.search(t):
+        return False
+    if t.endswith("?"):           # clickbait questions / explainers
+        return False
+    return True
 
 
 def _headline(text: str, max_words: int = 14) -> str:
@@ -254,18 +271,22 @@ def render(today: date, *, homepage: bool = False) -> Path:
 
 
 def _effective_date(today: date) -> date:
-    """The most data-rich of the last few days, so the homepage isn't thin when
-    today's ingest is still in progress. Dates the brief by the data it shows."""
-    best, best_n = today, -1
-    for d in range(0, 4):
+    """The MOST RECENT day with enough data — not the day with the most records.
+    Recency wins so the brief never looks stale; we only fall back further when a
+    day is genuinely thin (ingest still in progress)."""
+    FLOOR = 1500
+    fallback, fb_n = today, -1
+    for d in range(0, 6):
         dt = today - timedelta(days=d)
         try:
             nrec = len(sg.load_records_from_jsonl(today=dt, days=1))
         except Exception:
             nrec = 0
-        if nrec > best_n:
-            best, best_n = dt, nrec
-    return best
+        if nrec >= FLOOR:
+            return dt                       # most recent adequately-covered day
+        if nrec > fb_n:
+            fallback, fb_n = dt, nrec
+    return fallback
 
 
 def render_homepage(today: date, out_root: Path) -> Path:
