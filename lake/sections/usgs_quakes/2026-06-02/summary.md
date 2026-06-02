@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-06-02
-record_count: 10
-new_today: 10
+record_count: 9
+new_today: 9
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-10 new of 10 total items today.
+9 new of 9 total items today.
 
 - **NEW**  [M 6.2 - 22 km WSW of Scarcelli, Italy](https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxm) — *2026-06-01*
   > M6.2 · 22 km WSW of Scarcelli, Italy · depth 243 km
@@ -25,8 +25,6 @@ state: fresh
   > M4.6 · northern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 4.6 - 69 km WNW of Macabuboni, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000spz4) — *2026-06-02*
   > M4.6 · 69 km WNW of Macabuboni, Philippines · depth 10 km
-- **NEW**  [M 4.6 - 111 km SSW of Intipucá, El Salvador](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sput) — *2026-06-01*
-  > M4.6 · 111 km SSW of Intipucá, El Salvador · depth 35 km
 - **NEW**  [M 4.5 - 30 km WNW of Titahi Bay, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq0j) — *2026-06-02*
   > M4.5 · 30 km WNW of Titahi Bay, New Zealand · depth 66.66 km
 - **NEW**  [M 4.5 - 68 km NNE of La Serena, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq0g) — *2026-06-02*

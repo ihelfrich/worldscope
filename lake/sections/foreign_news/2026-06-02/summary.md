@@ -2,21 +2,39 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-02
-record_count: 837
-new_today: 619
+record_count: 844
+new_today: 633
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-619 new of 837 total items today.
+633 new of 844 total items today.
 
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-02*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-02*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-02*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-02*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-02*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- **NEW**  [[Global] Trump signs order allowing AI companies to give government access to models before release](https://www.france24.com/en/americas/20260602-trump-signs-order-allowing-ai-companies-to-give-government-access-to-models-before-release) — *2026-06-02*
+  > President Donald Trump on Tuesday signed an executive order to enable leading AI developers to voluntarily ​submit their most capable models for government cybersecurity tests before releasing them to the public. The order was triggered by concerns over Anthropic's Mythos model, 
+- **NEW**  [[Global] Fifteen years on, the Dupont de Ligonnès case still haunts France](https://www.france24.com/en/france/20260602-fifteen-years-on-the-dupont-de-ligonn%C3%A8s-case-still-haunts-france) — *2026-06-02*
+  > For more than 15 years, the fate of Xavier Dupont de Ligonnès has remained one of France’s biggest mysteries. The 50-year-old is suspected of having murdered his entire family and burying them in concrete under their home before fleeing the scene. Now, the discovery of an obscure
+- **NEW**  [[Global] 1994 Tutsi Genocide: 'French government has never fully come to terms with its involvement'](https://www.france24.com/en/1994-tutsi-genocide-french-government-has-never-fully-come-to-terms-with-its-involvement) — *2026-06-02*
+  > Annette Young is pleased to welcome Phil Clark, Professor of International Politics at SOAS University of London. He specialises in conflict and post-conflict issues. As French President Emmanuel Macron and Rwandan President Paul Kagame inaugurate a new memorial in Paris dedicate
+- **NEW**  [[Global] US, Iran: Washington keeps 'chasing the perfect war'](https://www.france24.com/en/video/20260602-us-iran-washington-keeps-chasing-the-perfect-war) — *2026-06-02*
+  > No lessons learned:The Quincy Institute's Adam Weinstein tells #F24Debate Washington keeps chasing the fantasy of a 'quick and easy' war abroad ➡️https://f24.my/BxciRead the full article⤵️https://quincyinst.org/2026/05/06/washington-is-still-chasing-the-perfect-war/
+- **NEW**  [[Global] REPLAY: Rubio faces Senate grilling over Trump's foreign policy](https://www.france24.com/en/video/20260602-replay-rubio-faces-senate-grilling-over-trump-s-foreign-policy) — *2026-06-02*
+  > Secretary of State Marco Rubio told lawmakers Tuesday in his first public testimony since the Iran war began that the Iranians have agreed to negotiate on nuclear points that they had not been willing to address in the past but would not offer an assessment on what those talks mi
+- **NEW**  [[Global] Macron, Kagame inaugurate Paris memorial honouring victims of the Rwandan genocide](https://www.france24.com/en/video/20260602-macron-kagame-inaugurate-paris-memorial-honouring-victims-of-the-rwandan-genocide) — *2026-06-02*
+  > Rwanda's President Paul Kagame is in Paris with President Emmanuel Macron for the inauguration of a new memorial site dedicated to the victims of the 1994 Genocide against the Tutsis. More than one million Tutsis were killed over a period of just over 100 days. France at the time
+- **NEW**  [[Global] ADF rebels commit deadly attack in DR Congo](https://www.france24.com/en/video/20260602-adf-rebels-commit-deadly-attack-in-dr-congo) — *2026-06-02*
+  > ADF fighters killed at least 16 people in the city of Beni on Sunday, according to the Congolese government. While the details about the attack are still not clear, it is the first time the ADF made an incursion into Beni in three years. FRANCE 24's Emmet Livingstone reports from
+- **NEW**  [[Global] Kenyan president defends Ebola centre for US citizens amid protests](https://www.france24.com/en/video/20260602-kenyan-president-defends-ebola-centre-for-us-citizens-amid-protests) — *2026-06-02*
+  > Kenyans are protesting an #Ebola quarantine centre set to take in #US citizens suspected to have been exposed to the #virus. Questioning why their country should treat foreign patients, protesters are also concerned the project could help the disease spread to #Kenya.
 - **NEW**  [[Global] Thomas Pesquet set to return to space in 2027](https://www.france24.com/en/video/20260602-thomas-pesquet-set-to-return-to-space-in-2027) — *2026-06-02*
   > French astronaut Thomas Pesquet is set to return to space with fellow spaceman Arnaud Prost in 2027. It comes as part of an agreement between the French government and American space company Vast announced at Choose France Summit.
 - **NEW**  [[Global] Celine Dion announces new Paris dates to meet demand](https://www.france24.com/en/video/20260602-celine-dion-announces-new-paris-dates-to-meet-demand) — *2026-06-02*
@@ -43,23 +61,5 @@ state: fresh
   > Four nurses who were being treated for Ebola caused by the Bundibugyo strain of the virus have been discharged from ​a hospital in ‌Bunia in the Democratic Republic of Congo after recovering from the disease, the World ⁠Health Organization said on Sunday. More recoveries are expe
 - **NEW**  [[Global] 'Civilians caught in the crossfire' as Israel continues strikes across Lebanon](https://www.france24.com/en/video/20260602-civilians-caught-in-the-crossfire-as-israel-continues-strikes-across-lebanon) — *2026-06-02*
   > Israeli drone strikes on southern Lebanon on Tuesday killed at least eight people, including a father and his two children, a day after US President Donald Trump said Israel and the Iranian-backed Hezbollah agreed to dial back fighting. FRANCE 24's Renée Davis reports from Beirut
-- **NEW**  [[Global] French slavery law repealed: 'Now we can start talking about reparations,' historian says](https://www.france24.com/en/tv-shows/perspective/20260602-french-slavery-law-repealed-now-we-can-start-talking-about-reparations-historian-says) — *2026-06-02*
-  > Now that France has finally repealed the so-called Code Noir or Black Code, experts are urging the country to also consider the issue of reparations. The Code Noir was the law that effectively regulated slavery by making people like property, notably in the French colonies – enab
-- **NEW**  [[Global] Californians vote in fiercely contested gubernatorial and congressional primaries](https://www.france24.com/en/americas/20260602-californians-vote-in-fiercely-contested-gubernatorial-and-congressional-primaries) — *2026-06-02*
-  > Californians have their final chance to vote Tuesday in a fiercely contested gubernatorial primary ahead of Democratic Governor Gavin Newsom’s mandate coming to an end at the end of the year. The state's open-primary system, which allows the two best-performing candidates to adva
-- **NEW**  [[Global] 'Peaky Blinders' star Joe Cole and director Clio Barnard on class, masculinity and modern Britain](https://www.france24.com/en/tv-shows/arts24/20260602-peaky-blinders-star-joe-cole-and-director-clio-barnard-on-class-masculinity-and-modern-britain) — *2026-06-02*
-  > Premiering in the Directors' Fortnight section at the Cannes Film Festival, "I See Buildings Fall Like Lightning" is Clio Barnard's adaptation of Keiran Goddard's acclaimed novel about five childhood friends from working-class Birmingham whose lives have drifted far from the futu
-- **NEW**  [[Global] Japanese tech giant pledges massive investment for French data centres](https://www.france24.com/en/video/20260602-japanese-tech-giant-pledges-massive-investment-for-french-data-centres) — *2026-06-02*
-  > Japanese SoftBank’s group announced 45 billion euros of investment in France by 2031 and the opening of three data centres. Data centre operators are choosing the country because it has space to expand and ample electricity thanks to its nuclear plants.
-- **NEW**  [[Global] Offshore detention hubs: Europe turns to Trump-style tactics on migration](https://www.france24.com/en/tv-shows/press-review/20260602-offshore-detention-hubs-europe-turns-to-trump-style-tactics-on-migration) — *2026-06-02*
-  > PRESS REVIEW – Tuesday, June 2: The European Union approves the creation of offshore "return hubs" to where failed asylum seekers could be sent. The British papers focus on a new trove of documents pertaining to Peter Mandelson, the former ambassador to the US. The Canadian provi
-- **NEW**  [[Global] Ukrainian cities targeted by hundreds of drones as Russia intensifies attacks](https://www.france24.com/en/video/20260602-ukrainian-cities-targeted-by-hundreds-of-russian-drones) — *2026-06-02*
-  > Moscow launched over 600 drones and 70 missiles on Kyv and other Ukrainian cities overnight on June 2. Dozens were injured, and the death toll is rising quickly. This comes as Russia has intensified its attacks on Ukraine in the past few weeks.
-- **NEW**  [[Global] WWII internment of travellers: French survivors fight for recognition](https://www.france24.com/en/tv-shows/focus/20260602-wwii-internment-of-travellers-french-survivors-fight-for-recognition) — *2026-06-02*
-  > Throughout World War II, discriminatory policies saw thousands of Romani, Sinti, Manush, Yenish and travellers displaced across France, imprisoned in vast internment camps and sent to extermination camps in Eastern Europe. Eighty years ago, the last travellers were freed from Fre
-- **NEW**  [[Global] Armenia Prime minister refuses Moscow's pressure for EU referendum](https://www.france24.com/en/video/20260602-armenia-prime-minister-refuses-moscow-s-pressure-for-eu-referendum) — *2026-06-02*
-  > Armenian PM Nikol Pashinyan rejected on Monday Russian leader Vladimir Putin's call for Yerevan to hold a referendum on joining the EU. This pressure from Moscow comes a week before a parliamentary vote, on June 7th.
-- **NEW**  [[Global] Mexican police tear-gas teachers' protest 10 days before World Cup](https://www.france24.com/en/video/20260602-mexican-police-tear-gas-teachers-protest-10-days-before-world-cup) — *2026-06-02*
-  > Mexico City police hurled tear gas at protesting teachers to keep them from reaching the historic square where the "Fan fest" for the 2026 World Cup is under construction. The clash started when teachers broke through one of the metal barriers that have been set up at the entranc
 
-_(812 additional items in raw.jsonl)_
+_(819 additional items in raw.jsonl)_

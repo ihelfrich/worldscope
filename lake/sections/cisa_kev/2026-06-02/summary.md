@@ -2,15 +2,19 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-06-02
-record_count: 16
-new_today: 1
+record_count: 18
+new_today: 3
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-1 new of 16 total items today.
+3 new of 18 total items today.
 
+- **NEW**  [CVE-2022-0492 · Linux Kernel: Linux Kernel Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2022-0492) — *2026-06-02*
+  > vendor: Linux · product: Kernel · CISA remediation by 2026-06-05
+- **NEW**  [CVE-2025-48595 · Android Framework: Android Framework Integer Overflow Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2025-48595) — *2026-06-02*
+  > vendor: Android · product: Framework · CISA remediation by 2026-06-05
 - **NEW**  [CVE-2024-21182 · Oracle WebLogic Server: Oracle WebLogic Server Unspecified Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2024-21182) — *2026-06-01*
   > vendor: Oracle · product: WebLogic Server · CISA remediation by 2026-06-04
 - [CVE-2026-0257 · Palo Alto Networks PAN-OS: Palo Alto Networks PAN-OS Authentication Bypass Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-0257) — *2026-05-29*

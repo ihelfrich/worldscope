@@ -2,15 +2,21 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-02
-record_count: 153
-new_today: 143
+record_count: 155
+new_today: 145
 state: fresh
 ---
 
 ## State Legislative Action
 
-143 new of 153 total items today.
+145 new of 155 total items today.
 
+- **NEW**  [[Alaska HB 176] An Act relating to notice of new fees and fee increases from the University of Alaska; relating to billing statements from the University of Alaska; and providing for an effective date.]() — *2026-06-02*
+  > An Act relating to notice of new fees and fee increases from the University of Alaska; relating to billing statements from the University of Alaska; and providing for an effective date.
+- **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-02*
+  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
+- **NEW**  [[Alaska SB 130] An Act relating to the fisheries product development tax credit; providing for an effective date by amending the effective date of sec. 2, ch. 31, SLA 2022; and providing for an effective date.]() — *2026-06-02*
+  > An Act relating to the fisheries product development tax credit; providing for an effective date by amending the effective date of sec. 2, ch. 31, SLA 2022; and providing for an effective date.
 - **NEW**  [[Alaska SB 143] An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.]() — *2026-06-02*
   > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
 - **NEW**  [[Alaska HB 13] An Act relating to optional municipal property tax exemptions for real property owned and occupied by volunteer certified or licensed providers of fire fighting, emergency medical, mobile intensive care paramedic services, or hazardous materials response services; relating to optional]() — *2026-06-02*
@@ -25,8 +31,6 @@ state: fresh
   > An Act relating to the rights of minors undergoing evaluation or inpatient treatment at psychiatric hospitals; relating to the use of seclusion or restraint of minors at psychiatric hospitals; relating to a report published by the Department of Health; relating to inspections by 
 - **NEW**  [[Alaska HB 93] An Act changing the residency requirements for hunting, trapping, and sport fishing privileges; and providing for an effective date.]() — *2026-06-02*
   > An Act changing the residency requirements for hunting, trapping, and sport fishing privileges; and providing for an effective date.
-- **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-01*
-  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
 - **NEW**  [[Alaska SB 208] An Act relating to industrial hemp; relating to the sale and lease of state land for agricultural uses; designating the O-S Cross cabbage, commonly known as 'giant green cabbage,' as the official state vegetable; and providing for an effective date.]() — *2026-06-01*
   > An Act relating to industrial hemp; relating to the sale and lease of state land for agricultural uses; designating the O-S Cross cabbage, commonly known as 'giant green cabbage,' as the official state vegetable; and providing for an effective date.
 - **NEW**  [[Alaska SB 24] An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use educat]() — *2026-06-01*
@@ -57,9 +61,5 @@ state: fresh
   > An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certa
 - **NEW**  [[Alaska SB 146] An Act relating to the regional educational attendance area and small municipal school district fund; and relating to Mt. Edgecumbe High School.]() — *2026-06-01*
   > An Act relating to the regional educational attendance area and small municipal school district fund; and relating to Mt. Edgecumbe High School.
-- **NEW**  [[Alaska SB 104] An Act relating to the transfer of a title on the death of the owner; relating to the transferability of common interest community ownership interests; and providing for an effective date.]() — *2026-06-01*
-  > An Act relating to the transfer of a title on the death of the owner; relating to the transferability of common interest community ownership interests; and providing for an effective date.
-- **NEW**  [[Alaska HB 314] An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to ]() — *2026-06-01*
-  > An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating
 
-_(128 additional items in raw.jsonl)_
+_(130 additional items in raw.jsonl)_

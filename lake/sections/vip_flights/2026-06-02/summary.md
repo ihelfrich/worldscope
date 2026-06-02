@@ -12,54 +12,54 @@ state: fresh
 29 new of 30 total items today.
 
 - **NEW**  [JAF8GH (Bulgaria)](https://opensky-network.org/aircraft-profile?icao24=4520ce) — *2026-06-02*
-  > icao24: 4520ce · position: (50.5644, 2.9989) · alt: 1158m · 261km/h
-- **NEW**  [PAT26 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae74ac) — *2026-06-02*
-  > icao24: ae74ac · position: (39.3073, -76.7638) · alt: 205m · 205km/h
-- **NEW**  [PAT319 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfede) — *2026-06-02*
-  > icao24: adfede · position: (36.1278, -85.1796) · alt: 5478m · 433km/h
-- **NEW**  [JAF49Y (Bulgaria)](https://opensky-network.org/aircraft-profile?icao24=4520aa) — *2026-06-02*
-  > icao24: 4520aa · position: (41.4531, -3.4725) · alt: 10972m · 787km/h
-- **NEW**  [CFC3742 (Canada)](https://opensky-network.org/aircraft-profile?icao24=c2b369) — *2026-06-02*
-  > icao24: c2b369 · position: (43.9647, -76.0811) · alt: 10363m · 873km/h
+  > icao24: 4520ce · position: (36.1331, -4.9065) · alt: 11277m · 885km/h
+- **NEW**  [PAT217 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfeda) — *2026-06-02*
+  > icao24: adfeda · position: (36.7549, -78.9705) · alt: 6598m · 497km/h
+- **NEW**  [CFC3418 (Canada)](https://opensky-network.org/aircraft-profile?icao24=c2c363) — *2026-06-02*
+  > icao24: c2c363 · position: (44.168, -75.9238) · alt: 6172m · 663km/h
 - **NEW**  [PAT758 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfe4a) — *2026-06-02*
-  > icao24: adfe4a · position: (26.5798, -79.9454) · alt: 899m · 371km/h
+  > icao24: adfe4a · position: (27.9331, -81.4383) · alt: 7924m · 441km/h
 - **NEW**  [PAT473 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfe92) — *2026-06-02*
-  > icao24: adfe92 · position: (33.3688, -117.752) · alt: 2712m · 425km/h
-- **NEW**  [PAT357 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfe99) — *2026-06-02*
-  > icao24: adfe99 · position: (36.7977, -87.4785) · alt: 7924m · 432km/h
-- **NEW**  [PAT215 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfec9) — *2026-06-02*
-  > icao24: adfec9 · position: (39.728, -86.1446) · alt: 2042m · 510km/h
-- **NEW**  [PAT481A (United States)](https://opensky-network.org/aircraft-profile?icao24=adfec0) — *2026-06-02*
-  > icao24: adfec0 · position: (35.3291, -90.0183) · alt: 2667m · 499km/h
-- **NEW**  [CFC2582 (Canada)](https://opensky-network.org/aircraft-profile?icao24=c2b57b) — *2026-06-02*
-  > icao24: c2b57b · position: (61.7936, -142.9401) · alt: 7932m · 546km/h
-- **NEW**  [KAF3217 (Kuwait)](https://opensky-network.org/aircraft-profile?icao24=706216) — *2026-06-02*
-  > icao24: 706216 · position: (36.1629, 20.5181) · alt: 10675m · 816km/h
-- **NEW**  [PAT359 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae08fc) — *2026-06-02*
-  > icao24: ae08fc · position: (29.5746, -98.6504) · alt: 1219m · 295km/h
-- **NEW**  [PAT341 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae08fa) — *2026-06-02*
-  > icao24: ae08fa · position: (44.0549, -73.0117) · alt: 2430m · 458km/h
+  > icao24: adfe92 · position: (34.4241, -119.6579) · alt: 4008m · 382km/h
+- **NEW**  [PAT211 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfe8d) — *2026-06-02*
+  > icao24: adfe8d · position: (37.3423, -84.1525) · alt: 8229m · 564km/h
+- **NEW**  [CFC4045 (Canada)](https://opensky-network.org/aircraft-profile?icao24=c2b3f5) — *2026-06-02*
+  > icao24: c2b3f5 · position: (51.0831, 17.2422) · alt: 10363m · 764km/h
 - **NEW**  [JAF6AC (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1c2) — *2026-06-02*
-  > icao24: 44d1c2 · position: (39.8838, 17.8297) · alt: 6400m · 690km/h
-- **NEW**  [FAF6515 (France)](https://opensky-network.org/aircraft-profile?icao24=3b75f8) — *2026-06-02*
-  > icao24: 3b75f8 · position: (45.7195, -0.173) · alt: 579m · 434km/h
-- **NEW**  [FAF6527 (France)](https://opensky-network.org/aircraft-profile?icao24=3b75f7) — *2026-06-02*
-  > icao24: 3b75f7 · position: (45.6598, -0.2698) · alt: 472m · 280km/h
-- **NEW**  [FAF6526 (France)](https://opensky-network.org/aircraft-profile?icao24=3b75fb) — *2026-06-02*
-  > icao24: 3b75fb · position: (45.8228, -0.2249) · alt: 769m · 457km/h
+  > icao24: 44d1c2 · position: (39.1414, 15.6973) · alt: 4975m · 659km/h
+- **NEW**  [GAF604 (Germany)](https://opensky-network.org/aircraft-profile?icao24=3ebe12) — *2026-06-02*
+  > icao24: 3ebe12 · position: (52.5032, 7.3266) · alt: 12496m · 920km/h
 - **NEW**  [NCR860 (United States)](https://opensky-network.org/aircraft-profile?icao24=a6caa1) — *2026-06-02*
-  > icao24: a6caa1 · position: (42.3838, -99.5357) · alt: 11887m · 978km/h
-- **NEW**  [BAF652 (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44f683) — *2026-06-02*
-  > icao24: 44f683 · position: (41.2695, -71.3935) · alt: 9745m · 800km/h
+  > icao24: a6caa1 · position: (41.4574, -76.344) · alt: 9677m · 713km/h
+- **NEW**  [RCH3295 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae07d4) — *2026-06-02*
+  > icao24: ae07d4 · position: (41.5863, -82.5844) · alt: 9753m · 889km/h
 - **NEW**  [RCH217 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae07d9) — *2026-06-02*
-  > icao24: ae07d9 · position: (43.975, 23.1677) · alt: 9753m · 730km/h
-- **NEW**  [PAT350 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfd74) — *2026-06-02*
-  > icao24: adfd74 · position: (42.0027, -70.1851) · alt: 2644m · 347km/h
-- **NEW**  [PAT201 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfd7b) — *2026-06-02*
-  > icao24: adfd7b · position: (34.3006, -91.8918) · alt: 5151m · 490km/h
-- **NEW**  [RRR1320 (United Kingdom)](https://opensky-network.org/aircraft-profile?icao24=407d8f) — *2026-06-02*
-  > icao24: 407d8f · position: (51.626, 1.4132) · alt: 6530m · 743km/h
+  > icao24: ae07d9 · position: (49.4378, 7.6381) · alt: 350m · 237km/h
+- **NEW**  [RCH310 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae0803) — *2026-06-02*
+  > icao24: ae0803 · position: (33.5646, -80.2479) · alt: 8229m · 958km/h
+- **NEW**  [SAMU12 (France)](https://opensky-network.org/aircraft-profile?icao24=39ac48) — *2026-06-02*
+  > icao24: 39ac48 · position: (44.2944, 2.5987) · alt: 960m · 200km/h
+- **NEW**  [NCR563 (United States)](https://opensky-network.org/aircraft-profile?icao24=a9c52e) — *2026-06-02*
+  > icao24: a9c52e · position: (31.9975, 35.3083) · alt: 1821m · 532km/h
 - **NEW**  [RCH626 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae1441) — *2026-06-02*
-  > icao24: ae1441 · position: (38.5795, -74.9325) · alt: 7315m · 610km/h
+  > icao24: ae1441 · position: (33.9198, -84.5356) · alt: 312m · 232km/h
+- **NEW**  [JEDI22 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae1402) — *2026-06-02*
+  > icao24: ae1402 · position: (30.5972, -88.0566) · alt: 160m · 213km/h
+- [PAT079 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae04ef) — *2026-06-02*
+  > icao24: ae04ef · position: (63.9831, -149.0868) · alt: 6431m · 445km/h
+- **NEW**  [PAT140 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae03fe) — *2026-06-02*
+  > icao24: ae03fe · position: (33.3375, -104.5391) · alt: 1196m · 235km/h
+- **NEW**  [PAT008 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae036e) — *2026-06-02*
+  > icao24: ae036e · position: (43.1826, -75.3349) · alt: 411m · 248km/h
+- **NEW**  [CFCAU (Canada)](https://opensky-network.org/aircraft-profile?icao24=c0055d) — *2026-06-02*
+  > icao24: c0055d · position: (49.1755, -122.0923) · alt: 914m · 120km/h
+- **NEW**  [JAF54D (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44a8a6) — *2026-06-02*
+  > icao24: 44a8a6 · position: (42.3182, 18.7796) · alt: 12192m · 784km/h
+- **NEW**  [AF17 (China)](https://opensky-network.org/aircraft-profile?icao24=7b1041) — *2026-06-02*
+  > icao24: 7b1041 · position: (22.3181, 113.9116) · on ground · 50km/h
+- **NEW**  [NCR315 (United States)](https://opensky-network.org/aircraft-profile?icao24=ac01ae) — *2026-06-02*
+  > icao24: ac01ae · position: (34.7168, -85.3873) · alt: 11582m · 796km/h
+- **NEW**  [PAT261 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae5772) — *2026-06-02*
+  > icao24: ae5772 · position: (38.5496, -85.2614) · alt: 5791m · 393km/h
 
 _(5 additional items in raw.jsonl)_

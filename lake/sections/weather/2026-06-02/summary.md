@@ -2,241 +2,257 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-02
-record_count: 81
-new_today: 78
+record_count: 89
+new_today: 87
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-78 new of 81 total items today.
+87 new of 89 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 10:43AM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a34e344c55c3c5ba7b78f2dbf73eb6848e9487.001.1) — *2026-06-02*
-  > At 1043 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Morgan Springs, or 17 miles west of Waldron, moving south at 20 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:50PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3975bbdc9e6bdd2d18c1198efac7811d55b3d07.001.1) — *2026-06-02*
+  > At 1250 PM CDT, Doppler radar was tracking a line of strong
+thunderstorms extending from 13 miles northeast of Blevins to over
+Ashdown, or extending from 15 miles north of Prescott to over
+Ashdown, moving southeast at 20 mph.
 
-HAZARD...Winds in excess of 40 mph.
+HAZARD...Wind gusts up to 50 mph and half inch size h
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 11:49AM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b8b52ac80d2dd15a8ea83c07546981fcf86d3f1.001.1) — *2026-06-02*
+  > At 1149 AM MDT, Doppler radar was tracking a strong thunderstorm 7
+miles southwest of Conchas Lake State Park, or 30 miles west of
+Tucumcari, moving west at 5 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could kn
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 11:49AM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8711d04341340cadf10d4136f93a6e8680f9ddcd.001.1) — *2026-06-02*
+  > At 1149 AM MDT, Doppler radar was tracking a strong thunderstorm over
+Silver Lake, moving north at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured o
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-56226) — *2026-06-02*
+unsecured objects. Minor
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-15231) — *2026-06-02*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued June 2 at 8:37AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6320126294e8d9d296a9b5ee4e2d8f56115ed91.002.2) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 20
-kt with gusts up to 25 kt and seas 7 to 9 feet. For the Gale
-Watch, north winds 25 to 30 kt with gusts up to 40 kt and seas
-8 to 13 feet possible.
-
-* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
-60 n
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 2 at 10:36AM CDT until June 8 at 7:00AM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39251ed7f921ba764d869c556bba77dea4f13fcc.001.1) — *2026-06-02*
-  > ...The Flood Warning continues for the following rivers in
-Arkansas...
-
-Cache River Near Patterson affecting Jackson and Woodruff
-Counties.
-
-For the Cache River...including Patterson...Minor flooding is
-forecast.
-
-* WHAT...Minor flooding is occurring and minor flooding is forecas
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 11:33AM EDT until June 2 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e61751b2ac78849d2416646520123b86cd1c4824.001.1) — *2026-06-02*
-  > * WHAT...Dangerous rip currents and strong longshore currents in
-the surf zone.
-
-* WHERE...Ocracoke Island and Core Banks beaches.
-
-* WHEN...Through this evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water. Strong longshore curren
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 11:33AM EDT until June 2 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e61751b2ac78849d2416646520123b86cd1c4824.002.1) — *2026-06-02*
-  > * WHAT...Dangerous rip currents, large breaking waves expected,
-and strong longshore currents in the surf zone.
-
-* WHERE...The beaches north of Hatteras Inlet.
-
-* WHEN...Through this evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper w
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 2 at 10:28AM CDT until June 2 at 11:30AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9deb097fa474ee35365a8f59ca1e63c0567458d9.001.1) — *2026-06-02*
-  > SVRAMA
-
-The National Weather Service in Amarillo has issued a
-
-* Severe Thunderstorm Warning for...
-West central Beaver County in the Panhandle of Oklahoma...
-Northeastern Texas County in the Panhandle of Oklahoma...
-
-* Until 1130 AM CDT.
-
-* At 1028 AM CDT, a severe thunderstorm 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 10:24AM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a21d7afbd8ca52d7ecb59dd4f6070ad9729c362c.001.1) — *2026-06-02*
-  > At 1023 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Hatfield, or 9 miles southwest of Mena, moving south at 20 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:46PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f04835a697de6b0bfa477fe10552e312b4144b59.001.1) — *2026-06-02*
+  > At 1246 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Itasca and another near Covington, moving southwest at 5 mph.
 
 HAZARD...Winds in excess of 40 mph.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured object
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 9:24AM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a19ad98fddaa99f217ca670c2418d3087662bd61.001.1) — *2026-06-02*
-  > At 924 AM MDT, Doppler radar was tracking a strong thunderstorm 4
-miles east of Hermosa, or 17 miles southeast of Rapid City, moving
-northeast at 35 mph.
+unsecured objects.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:45PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76a2328b5754f2be6af09506e03aa5fbb00a748c.001.1) — *2026-06-02*
+  > At 1245 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Village, or 11 miles east of Magnolia, moving south at 10 mph.
 
-HAZARD...Wind gusts up to 40 mph and pea to penny size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock dow
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 10:21AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a837a854800f89b3bfe50a498a97426135060e8a.001.1) — *2026-06-02*
-  > At 1021 AM CDT, Doppler radar was tracking a strong thunderstorm 7
-miles north of Optima, or 13 miles northeast of Guymon, moving
-northeast at 20 mph.
-
-HAZARD...Wind gusts up to 40 mph and penny size hail.
+HAZARD...Wind gusts up to 50 mph and penny size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree lim
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 10:20AM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d3d99cdac90db5dc78cf617db20a75479d6b26e.001.1) — *2026-06-02*
-  > At 1020 AM CDT, Doppler radar was tracking an area of strong
-thunderstorms 29 miles north of Gillham, or 33 miles northwest of
-Umpire, moving south at 15 mph.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:41PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5c858c834937ef12b54fdec8b4376998d882e31.001.1) — *2026-06-02*
+  > At 1241 PM CDT, Doppler radar was tracking a strong thunderstorm
+capable of producing a waterspout over Marshes near Creole, or near
+Grand Chenier, moving west at 10 mph.
 
-HAZARD...Wind gusts up to 40 mph and penny size hail.
+HAZARD...Waterspouts and wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 10:19AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d76899f6c4ea6c1a632088f838e212511f24c96.001.1) — *2026-06-02*
-  > The combination of light winds and abundant tropical moisture
-will make the atmosphere favorable for the development of weak
-tropical funnels today. Most of these funnel clouds will be
-short lived and usually do not touch the ground. However, you
-should be prepared to seek shelte
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 2 at 10:17AM CDT until June 3 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebf7dc14fbe64e4289c3b4c72e67b80166546add.002.1) — *2026-06-02*
-  > ...The Flood Warning continues for the following rivers in Kansas...
+IMPACT...Waterspouts can easil
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 2 at 11:40AM MDT until June 2 at 2:45PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c8ff5804c6f44a502c5267a6df2e5563723e2b9.001.1) — *2026-06-02*
+  > FFWABQ
 
-Marais Des Cygnes River at La Cygne affecting Linn County.
+The National Weather Service in Albuquerque has issued a
 
-...The Flood Warning is cancelled for the following rivers in
-Kansas...
+* Flash Flood Warning for...
+The Blue 2 Scar burn scar in...
+South Central Lincoln County in central New Mexico...
 
-Marais Des Cygnes River at Osawatomie affecting Miami County.
+* Until 245 PM MDT.
 
-* WHAT...Minor
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 2 at 7:53AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25c4be6ca5955d2d56fba0d2484ac9baabd86088.005.2) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25
-kt with gusts up to 30 kt expected. For the Gale Warning,
-northwest winds 20 to 30 kt with gusts up to 35 kt and seas 7
-to 12 ft expected.
+* At 1140 AM MDT, Doppler radar indicated thunderstorms producing
+heavy rain 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:39PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e68e31ec69bc91489c4c705e5ec353b14fda731.001.1) — *2026-06-02*
+  > At 1239 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Delcambre, or near Abbeville, moving west at 15 mph.
 
-* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHEN...For th
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 2 at 7:53AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25c4be6ca5955d2d56fba0d2484ac9baabd86088.004.3) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 10 to 20
-kt with gusts up to 30 kt expected. For the Gale Warning,
-northwest winds 15 to 25 kt with gusts up to 35 kt expected.
+SOURCE...Radar indicated.
 
-* WHERE...Coastal Waters from Point Pinos to Point Piedras
-Blancas California out to 10 NM.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* W
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 2 at 7:53AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25c4be6ca5955d2d56fba0d2484ac9baabd86088.002.3) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25
-kt with gusts up to 30 kt expected. For the Gale Warning,
-northwest winds 20 to 30 kt with gusts up to 40 kt expected.
+Locations
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:38PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4888e4b8ec2bbba71fa7673d246caf41bb248460.001.1) — *2026-06-02*
+  > At 1238 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Gilmer, moving west at 20 mph.
 
-* WHERE...Coastal Waters from Point Arena to Point Reyes
-California out to 10 NM.
+HAZARD...Wind gusts up to 50 mph and penny size hail.
 
-* WHEN...For 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 2 at 7:53AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25c4be6ca5955d2d56fba0d2484ac9baabd86088.001.3) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25
-kt with gusts up to 30 kt expected. For the Gale Warning,
-northwest winds 20 to 30 kt with gusts up to 35 kt and seas 6
-to 11 ft expected.
+SOURCE...Radar indicated.
 
-* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor damage
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:36PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3c8f4ca4f0e81a0c50b0c79c2c504883b853ee2.001.1) — *2026-06-02*
+  > At 1236 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Hubbell, or 15 miles northeast of Belleville, moving north at 20 mph.
 
-* WHEN...For the
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 2 at 7:53AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25c4be6ca5955d2d56fba0d2484ac9baabd86088.003.3) — *2026-06-02*
-  > * WHAT...For the Small Craft Advisory, northwest winds 10 to 20
-kt with gusts up to 30 kt expected. For the Gale Warning,
-northwest winds 20 to 30 kt with gusts up to 40 kt and seas 8
-to 10 ft expected.
+HAZARD...Wind gusts up to 50 mph and half inch hail.
 
-* WHERE...Coastal Waters from Point Reyes to Pigeon Point
-California out to 
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 2 at 10:46AM EDT until June 5 at 4:00AM EDT by NWS Melbourne FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c835a27559fe8c7a83386d5ad8eea818273fcdb.001.1) — *2026-06-02*
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 12:34PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c401a2b0eb964eedf50387074be14fa530f77163.001.1) — *2026-06-02*
+  > At 1234 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Vivian, or 22 miles southeast of Atlanta, moving west at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow arou
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 2 at 12:32PM CDT until June 2 at 1:15PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.113929d0c3b86cd8776b565198eb784f8d803b88.002.1) — *2026-06-02*
+  > At 1231 PM CDT, a severe thunderstorm was located near Osnabrock, or
+14 miles east of Langdon, moving northeast at 30 mph.
+
+HAZARD...Ping pong ball size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...People and animals outdoors will be injured. Expect damage
+to roofs, siding, windows
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 2 at 11:30AM MDT until June 2 at 1:30PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32ebe990da9c5e51100152425c446f541b5ba362.001.1) — *2026-06-02*
+  > FFWEPZ
+
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
+
+* Flash Flood Warning for...
+The Salt burn scar in...
+North Central Otero County in south central New Mexico...
+
+* Until 130 PM MDT.
+
+* At 1130 AM MDT, Doppler radar indicated thunderstorms producing
+he
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 2 at 1:23PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53ed65bbbbcf9eb7c1bf9f262d180883f7b8dc45.001.1) — *2026-06-02*
+  > At 122 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Camden On Gauley, or 11 miles southwest of Webster Springs, moving
+south at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree l
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 2 at 12:23PM CDT until June 6 at 7:00PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.752ddaabcd4bb7c16e7f2c67687ae0d5ea35535b.001.1) — *2026-06-02*
   > * WHAT...Dangerous rip currents expected.
 
-* WHERE...Coastal Volusia, Coastal Indian River, Coastal Saint
-Lucie, Coastal Martin, Mainland Northern Brevard, Northern
-Brevard Barrier Islands, Mainland Southern Brevard and
-Southern Brevard Barrier Islands Counties.
+* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal
+Counties. In Florida, Escambia Coastal, Santa Rosa Coastal and
+Okaloosa Coastal Counties.
 
-* WHEN...Through
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 10:14AM EDT until June 2 at 8:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de2ee4e2b8ca18788bbe8a4e4bd19defb4f2b7db.001.1) — *2026-06-02*
-  > * WHAT...Dangerous Rip Currents. Breaking waves of 4 to 6 ft
+* WHEN...From Wednesday morning through Saturday evening.
+
+* IMPACTS...Rip currents can s
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 1:20PM EDT until June 2 at 8:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4759dc1e50b87eb4b8c125a3095f7c35af423c1e.003.1) — *2026-06-02*
+  > * WHAT...Dangerous Rip Currents. Breaking waves of 6 to 7 ft
 will result in rough surf conditions and a high risk of rip
 currents.
 
+* WHERE...Virginia Beach.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into dee
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 1:20PM EDT until June 2 at 8:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4759dc1e50b87eb4b8c125a3095f7c35af423c1e.001.2) — *2026-06-02*
+  > * WHAT...For the High Surf Advisory, large breaking waves around 8
+feet in the surf zone. For the Beach Hazards Statement, these
+breaking waves will result in rough surf conditions and a high
+risk of rip currents.
+
+* WHERE...Eastern Currituck County.
+
+* WHEN...Until 8 PM EDT this
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 2 at 1:20PM EDT until June 2 at 8:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4759dc1e50b87eb4b8c125a3095f7c35af423c1e.002.1) — *2026-06-02*
+  > * WHAT...Dangerous Rip Currents. Breaking waves of 4 to 6 ft will
+result in rough surf conditions and a high risk of rip
+currents.
+
 * WHERE...In Maryland, the Maryland Atlantic beaches including
-Ocean City. In North Carolina, the Atlantic beaches of the
-northern Outer Banks inclu
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued June 2 at 7:11AM PDT until June 4 at 11:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be574b650b1aff765754e208907451b5b3ec9932.002.2) — *2026-06-02*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 9 to 13 ft possible when conditions are worst.
+Ocean City. In Virginia, the Atlantic beaches of Accomack
+County including Assateague
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 2 at 11:19AM MDT until June 2 at 12:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2539a5670bb766ab33cbd510d205041c31a2deac.001.1) — *2026-06-02*
+  > SVRABQ
 
-* WHERE...Outer waters from Santa Cruz Island to San Clemente
-Island to 60 NM offshore including San Nicolas and Santa
-Barbara Islands.
+The National Weather Service in Albuquerque has issued a
 
-* WHEN...For the 
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued June 2 at 7:11AM PDT until June 3 at 11:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be574b650b1aff765754e208907451b5b3ec9932.004.1) — *2026-06-02*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 9 to 13 ft possible when conditions are worst.
+* Severe Thunderstorm Warning for...
+North Central Guadalupe County in east central New Mexico...
+South Central San Miguel County in northeastern New Mexico...
 
-* WHERE...Point Piedras Blancas to Point Sal westward out to 10
-NM.
+* Until noon MDT.
 
-* WHEN...From Wednesday afternoon through Wednesday evening.
+* At 1119 AM MDT, a severe thunder
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 2 at 11:17AM MDT until June 2 at 2:15PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92dfc5a1de0302ce41efa298667059b36453369d.001.1) — *2026-06-02*
+  > FFWABQ
 
-* IMPACTS...Potentially
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued June 2 at 7:11AM PDT until June 4 at 11:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be574b650b1aff765754e208907451b5b3ec9932.001.2) — *2026-06-02*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 11 to 14 ft possible when conditions are worst.
+The National Weather Service in Albuquerque has issued a
 
-* WHERE...Point Piedras Blancas to Point Sal from 10 to 60 NM
-and Waters from Pt. Sal to Santa Cruz Island CA and westward
-60 nm including San Miguel and
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 2 at 8:26AM CDT until June 2 at 7:00PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3afb554d7c8cb27e043142ece681b216ed014c9c.001.1) — *2026-06-02*
-  > ...The Flood Warning continues for the following rivers in
-Mississippi...
+* Flash Flood Warning for...
+The South Fork and Salt burn scars in...
+South Central Lincoln County in central New Mexico...
 
-Pascagoula River At Graham Ferry affecting Jackson County.
+* Until 215 PM MDT.
 
-For the Pascagoula River...including Graham Ferry...Minor flooding is
-forecast.
+* At 1117 AM MDT, Doppler radar indicated thunderstorms producing
+he
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 2 at 11:15AM MDT until June 2 at 12:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4d1b20584e8e4f61736b01fd5174e058b717cf9.001.1) — *2026-06-02*
+  > SVRABQ
 
-* WHAT...Minor flooding is occurring and minor flooding is forec
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 2 at 8:21AM CDT until June 3 at 2:00PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.737eabec0c3423657deed18bb51f09286971d4b1.001.1) — *2026-06-02*
-  > ...The Flood Warning continues for the following rivers in
-Missouri...
+The National Weather Service in Albuquerque has issued a
 
-Little Osage River near Horton affecting Vernon County.
+* Severe Thunderstorm Warning for...
+Southeastern San Miguel County in northeastern New Mexico...
 
-For the Little Osage River...including Fulton, Horton...Minor
-flooding is forecast.
+* Until noon MDT.
 
-* WHAT...Minor flooding is occurring and minor flooding is forecas
+* At 1115 AM MDT, a severe thunderstorm was located 6 miles south of
+Conchas, or 25 miles west o
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued June 2 at 11:02AM MDT until June 4 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d39b8bb412447709a218e5b7f577f5049e044c2c.001.1) — *2026-06-02*
+  > The National Weather Service in Salt Lake City has issued a Fire
+Weather Watch for wind and low relative humidity, which is in
+effect from Thursday morning through Thursday evening.
 
-_(56 additional items in raw.jsonl)_
+* AFFECTED AREA...Fire Weather Zone 496 Color Country Mountains
+and Fire Weather Zone 498 Grand S
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 2 at 11:40AM CDT until June 2 at 6:07PM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c443be5a792a98808867775a8072483bf724a667.001.1) — *2026-06-02*
+  > ...The Flood Warning is extended for the following rivers in
+Illinois...Kentucky...
+
+Ohio River at Shawneetown affecting Crittenden, Hardin, Union and
+Gallatin Counties.
+
+.River levels have crested and are continuing to fall along the Ohio
+River. Shawneetown is forecast to fall b
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 2 at 9:39AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44ba1ba63f3af1ef4b0f2b3b10d75af5341ee49e.001.1) — *2026-06-02*
+  > * WHAT...The Imperial County APCD has issued an air quality alert
+due to harmful levels of ozone pollution.
+Visit https://www.aqmd.gov/alertinfo to check current and forecasted
+air quality levels.
+
+* WHERE...the Imperial Valley. Levels of ozone pollution can vary by
+time and loca
+
+_(64 additional items in raw.jsonl)_

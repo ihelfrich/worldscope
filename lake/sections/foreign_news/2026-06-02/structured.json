@@ -2,6 +2,14 @@
   "anomalies": [
     {
       "category": "feed-failure",
+      "description": "[feed error] Reuters Business: ConnectionError",
+      "evidence": [
+        "foreign-news-error-global-reuters-business"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
       "description": "[feed error] Reuters Top News: ConnectionError",
       "evidence": [
         "foreign-news-error-global-reuters-top-news"
@@ -13,14 +21,6 @@
       "description": "[feed error] Reuters World: ConnectionError",
       "evidence": [
         "foreign-news-error-global-reuters-world"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Reuters Business: ConnectionError",
-      "evidence": [
-        "foreign-news-error-global-reuters-business"
       ],
       "z_score": null
     },
@@ -42,17 +42,17 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] Arab News: HTTPError",
+      "description": "[feed error] The Jakarta Post: HTTPError",
       "evidence": [
-        "foreign-news-error-saudi-arabia-arab-news"
+        "foreign-news-error-indonesia-the-jakarta-post"
       ],
       "z_score": null
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] DW Germany news: HTTPError",
+      "description": "[feed error] Arab News: HTTPError",
       "evidence": [
-        "foreign-news-error-germany-dw-germany-news"
+        "foreign-news-error-saudi-arabia-arab-news"
       ],
       "z_score": null
     },
@@ -66,17 +66,25 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] The Jakarta Post: HTTPError",
+      "description": "[feed error] Süddeutsche Zeitung: HTTPError",
       "evidence": [
-        "foreign-news-error-indonesia-the-jakarta-post"
+        "foreign-news-error-germany-süddeutsche-zeitung"
       ],
       "z_score": null
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] Al-Ahram English: HTTPError",
+      "description": "[feed error] El País (English): HTTPError",
       "evidence": [
-        "foreign-news-error-egypt-al-ahram-english"
+        "foreign-news-error-spain-el-país--english"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] DW Germany news: HTTPError",
+      "evidence": [
+        "foreign-news-error-germany-dw-germany-news"
       ],
       "z_score": null
     },
@@ -90,17 +98,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] El Universal (MX): HTTPError",
+      "description": "[feed error] Al-Ahram English: HTTPError",
       "evidence": [
-        "foreign-news-error-mexico-el-universal--mx"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Süddeutsche Zeitung: HTTPError",
-      "evidence": [
-        "foreign-news-error-germany-süddeutsche-zeitung"
+        "foreign-news-error-egypt-al-ahram-english"
       ],
       "z_score": null
     },
@@ -122,9 +122,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] El País (English): HTTPError",
+      "description": "[feed error] El Universal (MX): HTTPError",
       "evidence": [
-        "foreign-news-error-spain-el-país--english"
+        "foreign-news-error-mexico-el-universal--mx"
       ],
       "z_score": null
     },
@@ -162,9 +162,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] Swissinfo: HTTPError",
+      "description": "[feed error] World Bank News: HTTPError",
       "evidence": [
-        "foreign-news-error-switzerland-swissinfo"
+        "foreign-news-error-global-world-bank-news"
       ],
       "z_score": null
     },
@@ -178,9 +178,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] World Bank News: HTTPError",
+      "description": "[feed error] Swissinfo: HTTPError",
       "evidence": [
-        "foreign-news-error-global-world-bank-news"
+        "foreign-news-error-switzerland-swissinfo"
       ],
       "z_score": null
     },
@@ -202,17 +202,17 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] PBoC English: HTTPError",
+      "description": "[feed error] Anadolu Agency (semi-state): HTTPError",
       "evidence": [
-        "foreign-news-error-china-pboc-english"
+        "foreign-news-error-turkey-anadolu-agency--semi-state"
       ],
       "z_score": null
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] Anadolu Agency (semi-state): HTTPError",
+      "description": "[feed error] PBoC English: HTTPError",
       "evidence": [
-        "foreign-news-error-turkey-anadolu-agency--semi-state"
+        "foreign-news-error-china-pboc-english"
       ],
       "z_score": null
     },
@@ -246,26 +246,18 @@
       "type": "org"
     },
     {
-      "canonical_name": "Singapore",
-      "id": "place:country-singapore",
+      "canonical_name": "Al Jazeera English",
+      "id": "org:newsroom-al-jazeera-english",
       "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "The Straits Times (SG)",
-      "id": "org:newsroom-the-straits-times--sg",
-      "metadata": {
-        "country": "Singapore",
+        "country": "Global",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
       "type": "org"
     },
     {
-      "canonical_name": "Al Jazeera English",
-      "id": "org:newsroom-al-jazeera-english",
+      "canonical_name": "The Guardian (World)",
+      "id": "org:newsroom-the-guardian--world",
       "metadata": {
         "country": "Global",
         "kind": "newsroom",
@@ -282,16 +274,6 @@
       "type": "place"
     },
     {
-      "canonical_name": "Hindustan Times",
-      "id": "org:newsroom-hindustan-times",
-      "metadata": {
-        "country": "India",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "The Hindu",
       "id": "org:newsroom-the-hindu",
       "metadata": {
@@ -302,10 +284,28 @@
       "type": "org"
     },
     {
-      "canonical_name": "BBC World News",
-      "id": "org:newsroom-bbc-world-news",
+      "canonical_name": "Hindustan Times",
+      "id": "org:newsroom-hindustan-times",
       "metadata": {
-        "country": "Global",
+        "country": "India",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Singapore",
+      "id": "place:country-singapore",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "The Straits Times (SG)",
+      "id": "org:newsroom-the-straits-times--sg",
+      "metadata": {
+        "country": "Singapore",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
@@ -330,26 +330,54 @@
       "type": "org"
     },
     {
-      "canonical_name": "Australia",
-      "id": "place:country-australia",
+      "canonical_name": "United Kingdom",
+      "id": "place:country-united-kingdom",
       "metadata": {
         "kind": "country"
       },
       "type": "place"
     },
     {
-      "canonical_name": "ABC News (Australia)",
-      "id": "org:newsroom-abc-news--australia",
+      "canonical_name": "The Guardian (UK)",
+      "id": "org:newsroom-the-guardian--uk",
       "metadata": {
-        "country": "Australia",
+        "country": "United Kingdom",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
       "type": "org"
     },
     {
-      "canonical_name": "The Guardian (World)",
-      "id": "org:newsroom-the-guardian--world",
+      "canonical_name": "Japan",
+      "id": "place:country-japan",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "The Japan Times",
+      "id": "org:newsroom-the-japan-times",
+      "metadata": {
+        "country": "Japan",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "BBC World News",
+      "id": "org:newsroom-bbc-world-news",
+      "metadata": {
+        "country": "Global",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Deutsche Welle English",
+      "id": "org:newsroom-deutsche-welle-english",
       "metadata": {
         "country": "Global",
         "kind": "newsroom",
@@ -370,24 +398,6 @@
       "id": "org:newsroom-the-philippine-star",
       "metadata": {
         "country": "Philippines",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "United Kingdom",
-      "id": "place:country-united-kingdom",
-      "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "The Guardian (UK)",
-      "id": "org:newsroom-the-guardian--uk",
-      "metadata": {
-        "country": "United Kingdom",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
@@ -422,52 +432,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "Deutsche Welle English",
-      "id": "org:newsroom-deutsche-welle-english",
-      "metadata": {
-        "country": "Global",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Belgium",
-      "id": "place:country-belgium",
-      "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "POLITICO Europe",
-      "id": "org:newsroom-politico-europe",
-      "metadata": {
-        "country": "Belgium",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Japan",
-      "id": "place:country-japan",
-      "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "The Japan Times",
-      "id": "org:newsroom-the-japan-times",
-      "metadata": {
-        "country": "Japan",
-        "kind": "newsroom",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Hong Kong",
       "id": "place:country-hong-kong",
       "metadata": {
@@ -496,6 +460,42 @@
       "type": "org"
     },
     {
+      "canonical_name": "Australia",
+      "id": "place:country-australia",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "ABC News (Australia)",
+      "id": "org:newsroom-abc-news--australia",
+      "metadata": {
+        "country": "Australia",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Belgium",
+      "id": "place:country-belgium",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "POLITICO Europe",
+      "id": "org:newsroom-politico-europe",
+      "metadata": {
+        "country": "Belgium",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "Nigeria",
       "id": "place:country-nigeria",
       "metadata": {
@@ -508,6 +508,24 @@
       "id": "org:newsroom-the-punch--nigeria",
       "metadata": {
         "country": "Nigeria",
+        "kind": "newsroom",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Italy",
+      "id": "place:country-italy",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "ANSA (IT)",
+      "id": "org:newsroom-ansa--it",
+      "metadata": {
+        "country": "Italy",
         "kind": "newsroom",
         "tier": "mainstream_independent"
       },
@@ -532,48 +550,20 @@
       "type": "org"
     },
     {
-      "canonical_name": "China",
-      "id": "place:country-china",
+      "canonical_name": "South Africa",
+      "id": "place:country-south-africa",
       "metadata": {
         "kind": "country"
       },
       "type": "place"
     },
     {
-      "canonical_name": "China Daily (state-controlled)",
-      "id": "org:newsroom-china-daily--state-controlled",
+      "canonical_name": "Mail & Guardian",
+      "id": "org:newsroom-mail---guardian",
       "metadata": {
-        "country": "China",
-        "kind": "newsroom",
-        "tier": "state_controlled"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Italy",
-      "id": "place:country-italy",
-      "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "ANSA (IT)",
-      "id": "org:newsroom-ansa--it",
-      "metadata": {
-        "country": "Italy",
+        "country": "South Africa",
         "kind": "newsroom",
         "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Bank of Japan",
-      "id": "org:newsroom-bank-of-japan",
-      "metadata": {
-        "country": "Japan",
-        "kind": "newsroom",
-        "tier": "primary_document"
       },
       "type": "org"
     },
@@ -596,20 +586,12 @@
       "type": "org"
     },
     {
-      "canonical_name": "South Africa",
-      "id": "place:country-south-africa",
+      "canonical_name": "Bank of Japan",
+      "id": "org:newsroom-bank-of-japan",
       "metadata": {
-        "kind": "country"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Mail & Guardian",
-      "id": "org:newsroom-mail---guardian",
-      "metadata": {
-        "country": "South Africa",
+        "country": "Japan",
         "kind": "newsroom",
-        "tier": "mainstream_independent"
+        "tier": "primary_document"
       },
       "type": "org"
     },
@@ -628,6 +610,24 @@
         "country": "Eurozone",
         "kind": "newsroom",
         "tier": "primary_document"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "China",
+      "id": "place:country-china",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "China Daily (state-controlled)",
+      "id": "org:newsroom-china-daily--state-controlled",
+      "metadata": {
+        "country": "China",
+        "kind": "newsroom",
+        "tier": "state_controlled"
       },
       "type": "org"
     },
@@ -661,458 +661,629 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 619,
+  "new_count": 633,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 837,
+  "record_count": 844,
   "relationships": [
     {
       "evidence": [
-        "5ffa93bcd31c56b0a9712fe147d11b751aa4e331"
+        "01be32b45a3214b12f140b2fa883cf8010baff2d"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "52bd21f2ae8b0e36982c3ecef744c60afe1b53a0"
+        "40f6b66115aa6141d5e15d6b7b1794a3209b616e"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4066d00e9bc8455ed5f7d31a5b8c3a613c9e0d7e"
+        "d5c80248b7e7d9e1628f80be4e0b1b76f4c1ef77"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1aa0892950ab099b2a5b480c4f93210bfc737661"
+        "699fe501eaae818d14eceae5a7dd69e50b02b945"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "32b0486d1fdbfc5c5108a263d392990aec7dff51"
+        "2897e2403220828ba5a079090760f3cc83d41b06"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0e850d6f9d2cc5591fd7f53aecf07838c4f3819e"
+        "4856a9582991a876164544e40479c6b536637c01"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "d86b5197a02b8807bdb0466ee41575983292d66f"
+        "2d149870167c5c3384aee0a587d7b8365d44c8e7"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "80deb78ede2685f2d2096efcebbe58c9ec5b93e7"
+        "63c8b1b0cd71c3ab55357f7150d125e90c7ec153"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2adadd4213dc591f4948cc0f42702bfe1fcc6265"
+        "adfab2a5f65c52f2ff2a0da398b33fbeaae223e4"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2deac3879ede0edf0bb3533d0e986ce2d64d795f"
+        "3e8288e4bba3ea2794f73a716486c3434dcf15d1"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4a4d73f0bd81189277f0729318e2653cb5d2704e"
+        "38a199445062218377f721449e38799f88457d43"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ba314897227e8273d6af717ef455c9536688daf9"
+        "97b9304e36a4b9e5cdd8602e990a2e06cdd07b38"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "58fc95f3cffcbb27a6e1c0f8bfce9de63538c5a7"
+        "da9ec4d73ddbc8bee1b565aff7832015a87e5e59"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "121e4ff3b6f02ccb25e597a10bebeb4a8fd4cb7f"
+        "eb9f8aa452c6f29c4fcef050acdb3ed756f96430"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ef58de8cc0ee00675399f8c697ec9270ae90ce5e"
+        "5db3a4a600f0a32752ca12aefd0be5619875afb1"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "22217003e0fe11a2e05462348548a86cd2e59b52"
+        "4ad26483ad6023816164bc900393ac23695fcb7b"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7e5dbed006aa3f851488a0b776e3c93e3815a15d"
+        "c650f7c91c89f1468b4b4cf498bd31688487b0e1"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "72f5c13fd4e9e45a1aa4b8dadea8b9fcd582eac9"
+        "f456a2a484cb6be811d7d1f9d803d64298048a52"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8e55d0260525f0618c3ace6b5f120fb5d9167139"
+        "172911db014a6b155e00fe3f2fe803026d45b5be"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "dd06afcc742479eab68d973896c38e61237cea1a"
+        "8f5813ce9ed1ac14110e995883db26b7af18c74c"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1de7fe8992f5aae0d44b33633585018de167ad4d"
+        "bc13833d7646e25f46ad0397e1439db44b997ebe"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "3da47270ac9ef78ed0af820a5d0f362e6acce36e"
+        "594e10691d549ff9bc9b6295347a906c07465873"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2bcb2c419151b1d6d7c5005e9afff35efd6599a2"
+        "736378825150cae551d13362f888b2c83cca34b9"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1a0f99f3731e77ecb2ded5843a7397086ba57852"
+        "96edb309d9cddb903adf18ed888dda80fa66f242"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bc80824cf688c807134fa36c2be957b866c4cd80"
+        "eb18e847310fb92b6bc8935d73ba8fb32ed66198"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4efe144a6defa6230dfe11af68c27f074a9ea8ff"
+        "a7b37f8c416f2e8fc3d3a7410a0986b7d17f436b"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "301106ccab80eb8cb8a6aa3b69ece72b97a031fb"
+        "8fe59b7298a08fd3ddfdceba79e4637bcda3d526"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "c541933e8a9932761c33c21b3b8ad77038fb3704"
+        "f5ccd001d3f6a3a6cbdd309421b3d56cc3de271e"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4b06ce59a9f6d60aef7db4abdc7fe2c56850b41a"
+        "b01b21ad15484a4e82de7a2a554f2ba8ae2de9aa"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b3cb2a1e6bee620a6d602b10ecab17a265c68d1a"
+        "91aad39534876dae800a7dbdde22a292211b907c"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6a2682f4394afc3d7031e9f96bc19dd14cb6edbb"
+        "5b3b8955daeaad6568065c2f3c521f9769e10faa"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7842f2a6f82b462a92f0e3021155636aa551d3f6"
+        "48a7bd641ab67210dc4a850333a4572d66665b0a"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bb35c9f457bdd8390142b796da5de89d1288d372"
+        "95b0d02ec2e7bfca8e47a843d964e0d989959acb"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9fa926d040e801d92477985aa69d8858c9777c79"
+        "a8a9677821ccc877fa6312ef33aed27f258292a4"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ae0854fa0dab042e98b4d1069f1be4bd28d3a107"
+        "f5adf34568d01dbd9b183ea49f1c48c8d7510cb3"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e1daab00d86c6dde3bef989c46e72ff12b720907"
+        "8161bdde28f53e0071e4ea39ea980558449da6a3"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "75fea4ceaf14561a806c2754e7f0e7544892d387"
+        "e8f3dd45eb537a191eca2f1df89142a61cf67b8f"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "958042cf74e9323a999bcd32cc130f2a6ec93c42"
+        "8fe834daeda7c7069da0d3d5a0711462eadab670"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a7a355bfd843fb588fc705458acab47e2bca7a56"
+        "ad868666b7defac68844ef53ea564e453c4159d7"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9addfaf7b3e54ce9aa885a03deda75543122ba40"
+        "47fcbaacb2cdad5a19a0d05a080b45371ccf70d3"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ff00031a0c912bfa806cf6b475d78c65101cb867"
+        "22db984dd85d9c81186fb89d84004407907ef6b3"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "5d6e086fd04e755ea2b17ad14088190942a35e25"
+        "754d150d037c306987a66c7e9618edcc2e7ee129"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0c5ef9f467e6b13fe1a6bfed6ce9b35e88fddf0c"
+        "2b045db79fe6a39f3746691908efbddca79228d3"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e285b7f3050bfba4fa890923f209597648e44ee2"
+        "9c528870ebe7f4f57966980208137b996205fff9"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2aa27d675c24bbaf138c8cbe6014261f7c4bc64a"
+        "9fcb913ba1d6eb4e8d757eabbb20a662ad802f03"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "cc20f77bff329b3d7861e1441df57e5fa0ed90eb"
+        "670d8baece285ae5de60a5211cd9d997652b980d"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bf72a35e7d43ef5b4a3a404f3b04f09528813da2"
+        "8bdd1cab8bb6d7901728658449ff14b5750b827b"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4f5d5cba490f00aecee53a2db9e15fd38d0c59a2"
+        "b487f0aa8851a62253cdf43d5c036a0fff80acc9"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0a85adf10d16ad66c0cd12a5f33951e663b851c4"
+        "5a41623f30ae4b2693416a736c69ad04971ea9f6"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1415c2e50cae179908ee73a1302dbe3b569ed3f1"
+        "7b23a4cc31780a1ea325649c0024f3f1ed3ad64d"
       ],
-      "from": "org:newsroom-the-straits-times--sg",
-      "to": "place:country-singapore",
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2b370f534b94b94ef4b51d43db7dc247a3b13ff3"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "487a0b534bbc8a6193f3446aeff234b888d7c705"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "39f076437973151aa29709b3d0cc5f4030a50830"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f22145ed9258355b7b7ed9a64864c4b96c632284"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "89453880e14921a60ec9c92b75a2537e9d692b56"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9b9025bc2b7f0cd94b81496cf46fee87757b19fc"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "eaf8bd463ea6f2d2007d9da4ea5eb67112784edb"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf219aa2a37ad63da425a62d332870c5f0cd2b42"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "001fc39a213cda282f1750686808b1ead253adbc"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e0514aa6a66cfb1fdafca667bdcc50ee0a26cc6a"
+      ],
+      "from": "org:newsroom-the-hindu",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "adb606fb8a09c0c7f9f1c4c8e3aa44adfca3b793"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "182c4a485a31dfee397ce0b835b933f9b4142ddc"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "253199eb0415586c2b2261a6c2f5181481d44d33"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "059380a3071dd3fce2f78fb12323410b5bad66fd"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "55480fb67f5d075d091676dd65e926c9befeeb52"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9646660c5ba505688ecd2257face9f3ea698cdb9"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "226a22efeb21960b068ec65712f6c7436d5e1243"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f508f059236328ec7d214bf6b73adc8d5552f120"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "898e550a7bf9e0cc4cfe62b890e4f606956cd205"
+      ],
+      "from": "org:newsroom-hindustan-times",
+      "to": "place:country-india",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1127,7 +1298,7 @@
     },
     {
       "evidence": [
-        "876e285715b4ef18f1ee3299bdb9c25954cfcce6"
+        "3c88b48f3824d629e2ec45491f8216580a4f0a8b"
       ],
       "from": "org:newsroom-hindustan-times",
       "to": "place:country-india",
@@ -1154,7 +1325,7 @@
     },
     {
       "evidence": [
-        "25d5d49e13504c3f7999bbf99f9d3be313bd5280"
+        "0b80b54772d3101aa458687edb0144f883f50dd5"
       ],
       "from": "org:newsroom-hindustan-times",
       "to": "place:country-india",
@@ -1937,637 +2108,457 @@
     },
     {
       "evidence": [
-        "b50ae424748db4e6aac4d1aa6de0e92938c33250"
+        "1a50c2c79311014a596696a38b1d33cc74f6a2db"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a71546febba8e8acf7975f7d4f507468f7f440c3"
+        "e659bf554831d3e48f5a157135bc819baaf49738"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6d1767dcea04c8093983c58124844352536c198c"
+        "24da28f1958170863cbfd1338a1203b7c525ae18"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "44f7995820056f59981ee5441cbb73cd05957cea"
+        "b40638828754cf4dbe17329ac10ddf6b65d0f0e0"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1accb2585da3a3b7bce7536f4100ca7f17377ceb"
+        "7904324916d71d629ea2619396bbe6d9b2161f62"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2529a7df5d6de0e82712b8197ee2d30360b63aa3"
+        "0613e2d8bdea27b0772a8b0e65b0c191ab2afa04"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bed662fc9576e2ad9a653059d87c8c8fa2df26b1"
+        "435468dbbb5828a1da36b5f86938afcdb3cfbc8f"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9b78fa31f57156553c1d29b35e79b037b2d9f1ad"
+        "5ffa93bcd31c56b0a9712fe147d11b751aa4e331"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ac35c351fabdfa20a84e310c2b831c120c45ced6"
+        "52bd21f2ae8b0e36982c3ecef744c60afe1b53a0"
       ],
-      "from": "org:newsroom-hindustan-times",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "63c8b1b0cd71c3ab55357f7150d125e90c7ec153"
+        "4066d00e9bc8455ed5f7d31a5b8c3a613c9e0d7e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9b9025bc2b7f0cd94b81496cf46fee87757b19fc"
+        "1aa0892950ab099b2a5b480c4f93210bfc737661"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "2897e2403220828ba5a079090760f3cc83d41b06"
+        "32b0486d1fdbfc5c5108a263d392990aec7dff51"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "eaf8bd463ea6f2d2007d9da4ea5eb67112784edb"
+        "0e850d6f9d2cc5591fd7f53aecf07838c4f3819e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "cf219aa2a37ad63da425a62d332870c5f0cd2b42"
+        "5b7968bad65be5ef0fe6027ca849c6e79749ae04"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "001fc39a213cda282f1750686808b1ead253adbc"
+        "80deb78ede2685f2d2096efcebbe58c9ec5b93e7"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e0514aa6a66cfb1fdafca667bdcc50ee0a26cc6a"
+        "2adadd4213dc591f4948cc0f42702bfe1fcc6265"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "d45300b96f232f64eab51ff1c9e58daaf27e0348"
+        "2deac3879ede0edf0bb3533d0e986ce2d64d795f"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4f8432843b3a26d4110703022b5f3a93354613c0"
+        "4a4d73f0bd81189277f0729318e2653cb5d2704e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a048fbc4d64b46b27b9a34d6fb1e9eba759115c4"
+        "ba314897227e8273d6af717ef455c9536688daf9"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "597204b0b88eea3394ef07cccf3469295876e4d6"
+        "58fc95f3cffcbb27a6e1c0f8bfce9de63538c5a7"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "58f48b5074a832f1550f0158826d535fffa547c0"
+        "121e4ff3b6f02ccb25e597a10bebeb4a8fd4cb7f"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "dd9b52da6f6bd224ee7798b7b189f69ab7361f2b"
+        "ef58de8cc0ee00675399f8c697ec9270ae90ce5e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6b7dd3ff6fc43c6f9ec749783bf79431c1e900e6"
+        "22217003e0fe11a2e05462348548a86cd2e59b52"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "19062f2212a00a009815c6795902ac7bea0c649d"
+        "7e5dbed006aa3f851488a0b776e3c93e3815a15d"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "07642b4795c2a52f426e3fdbf8b3fe8a2687bc4f"
+        "72f5c13fd4e9e45a1aa4b8dadea8b9fcd582eac9"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bcd74676546f58ed9e4a05ffd145129e9f39823a"
+        "8e55d0260525f0618c3ace6b5f120fb5d9167139"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ac9bef4d7de1557ff50b17502102f4770182d132"
+        "dd06afcc742479eab68d973896c38e61237cea1a"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "d0ba9042b07f682b1fa4b26462d0d524e496fe9c"
+        "1de7fe8992f5aae0d44b33633585018de167ad4d"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f839e15ab6ec1e5495f0fe65c5873af3c566c533"
+        "3da47270ac9ef78ed0af820a5d0f362e6acce36e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "12c2606eacb1d3c68988912019c415a0fc08fb19"
+        "2bcb2c419151b1d6d7c5005e9afff35efd6599a2"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "de903c08d8bd2ba6e60ca74b49f13e8970a94fa4"
+        "1a0f99f3731e77ecb2ded5843a7397086ba57852"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8e4f4e992fd9b8a8585bc9ebf0b71ffc143c2c14"
+        "bc80824cf688c807134fa36c2be957b866c4cd80"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0643916734651aa2396de16f2c7b6712e8b6c51f"
+        "4efe144a6defa6230dfe11af68c27f074a9ea8ff"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "cf8a5b8903ba450a894cf4d806e26bcef94b590f"
+        "301106ccab80eb8cb8a6aa3b69ece72b97a031fb"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "11849014065dd972f7aaa43c22393f1c290f439b"
+        "c541933e8a9932761c33c21b3b8ad77038fb3704"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "d2908ebb75395939ecb5c0e232889dd64e07d269"
+        "4b06ce59a9f6d60aef7db4abdc7fe2c56850b41a"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "aabcc2c05cca21588b6745c0fc80a1eca909151e"
+        "b3cb2a1e6bee620a6d602b10ecab17a265c68d1a"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "c42cb4667d5650d817b98394dc1ee5354d5da9f2"
+        "6a2682f4394afc3d7031e9f96bc19dd14cb6edbb"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9b5076f05ead81e5964dc3a0198ad6de887d0f40"
+        "7842f2a6f82b462a92f0e3021155636aa551d3f6"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b33cf4e360820f7437c850f584fa33ea0d3efba5"
+        "bb35c9f457bdd8390142b796da5de89d1288d372"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "73a47d1e0d447b79949c030c486ec7b310fed26d"
+        "9fa926d040e801d92477985aa69d8858c9777c79"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "c401ff8052e251059770b8819918c573343e2df5"
+        "ae0854fa0dab042e98b4d1069f1be4bd28d3a107"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "abbf1c324eb470a882e0789ee7c1005174ab670d"
+        "e1daab00d86c6dde3bef989c46e72ff12b720907"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1598bb697f5145dd3eb80eccbbc8f706906b5f05"
+        "75fea4ceaf14561a806c2754e7f0e7544892d387"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "95c2ce3f4dd0045607a5b39d2883c8433b57d8fd"
+        "958042cf74e9323a999bcd32cc130f2a6ec93c42"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "22db984dd85d9c81186fb89d84004407907ef6b3"
+        "bc41fd2bc14f16c1a8c1b808ad5dfb09b9549a2e"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "db1ca8e3cca09431c22136e74b0519128e622975"
+        "9addfaf7b3e54ce9aa885a03deda75543122ba40"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "298b76ff165655c95e0f3d7107bae8e8726a749b"
+        "ff00031a0c912bfa806cf6b475d78c65101cb867"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "5ff13c1567e8d079ad780f58379a18dcdaac28bb"
+        "5d6e086fd04e755ea2b17ad14088190942a35e25"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "04b19090317f674450c5f2911c08e3e425f35ffe"
+        "0c5ef9f467e6b13fe1a6bfed6ce9b35e88fddf0c"
       ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f6997142331b9189236ae77ae3a1095db6b798e2"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7d63f19f766708437fb0d90636c5742552be32a5"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3c0d1b11a20cba0f76e37be117a525ab16eb86e5"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4c91f67f27e825dc19319640ab771baa0467364d"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3dd110adc96f86cca6182c719475135ccdd5ca6d"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3bc257425170ea4b2b2607324bb965e941a989a2"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf5aea5ebedc63ab0baad774682fbcebfd696fc5"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d458ab6c929b66c37c9046205161e9538189db68"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fe2d5521ecda58e413fd5063c7707c3be18bf3b5"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c86a3f5f858245a4f9f53f12b35f2f23c3375a65"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "68abaef4f9f1257a8cb34be0aaa879559d42634c"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "06be354122b56a30430f05df4e2e9c27765b13de"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c650f7c91c89f1468b4b4cf498bd31688487b0e1"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1ed698247f3e78bdb120c88c9babf53a1c63a56f"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3c7db0101934c6126992d65e3ef57f05b42bd1b8"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "753ea04ed901a90978e5ee40e0d47dce20ed7c59"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "06ca3dd74bea16aaa730ccb0c2528abd07ad8b31"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d89442248adcbaba080dd82da037623003e00445"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6f8e5b64c5e5dcc3181cb5c828e6173bed199e0b"
-      ],
-      "from": "org:newsroom-the-hindu",
-      "to": "place:country-india",
+      "from": "org:newsroom-the-straits-times--sg",
+      "to": "place:country-singapore",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
         "e566a5cc82938a4746284c419170c39bd10641d3"
-      ],
-      "from": "org:newsroom-le-monde--english",
-      "to": "place:country-france",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ac61a5876052114ec349aba2de770bd09d0d7408"
       ],
       "from": "org:newsroom-le-monde--english",
       "to": "place:country-france",
@@ -2585,7 +2576,16 @@
     },
     {
       "evidence": [
-        "8db60e1ed812ca9eb6947b0b8141131bcba57707"
+        "e4115b5c766a72a5959bd423bc060f07ec86daf6"
+      ],
+      "from": "org:newsroom-le-monde--english",
+      "to": "place:country-france",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2b84fb6632744fe5d97de5cd4be3bb5f7349b142"
       ],
       "from": "org:newsroom-le-monde--english",
       "to": "place:country-france",
@@ -2603,7 +2603,16 @@
     },
     {
       "evidence": [
-        "b8d22810219cecc0b7091a2501570a8b4040e123"
+        "ac61a5876052114ec349aba2de770bd09d0d7408"
+      ],
+      "from": "org:newsroom-le-monde--english",
+      "to": "place:country-france",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "def1aa0a13c0f7975608a3e5336e5b16e2469d6e"
       ],
       "from": "org:newsroom-le-monde--english",
       "to": "place:country-france",
@@ -2613,6 +2622,15 @@
     {
       "evidence": [
         "ab03684b09da0837600bd21808ea9832aa05c92a"
+      ],
+      "from": "org:newsroom-le-monde--english",
+      "to": "place:country-france",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4ee7b032aa9d6bcfdd981b4435264da8e87601c5"
       ],
       "from": "org:newsroom-le-monde--english",
       "to": "place:country-france",
@@ -2675,24 +2693,6 @@
     },
     {
       "evidence": [
-        "b56cd4ff5862c720fa6705131c116449b01db31b"
-      ],
-      "from": "org:newsroom-le-monde--english",
-      "to": "place:country-france",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "483e32cb6b85fdf39ca3d201dc19b9259ed3b5af"
-      ],
-      "from": "org:newsroom-le-monde--english",
-      "to": "place:country-france",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "bae01137735823e8944a45e41e4f60309130008e"
       ],
       "from": "org:newsroom-le-monde--english",
@@ -2720,304 +2720,70 @@
     },
     {
       "evidence": [
-        "408605a119f28d359ba663429a7350cc2c53bd9a"
+        "bb02c497565208c2a086909dbb9b5dbf353541cb"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "16a1a782d679e8996a9a4ffde917dc36aa7eace4"
+        "4ffd45f642c2b8cea926fd02cff1c32fdf6e8d06"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "5fc514f51b85b03f6462897aef5c514dd514ab68"
+        "b88cf6a415e1f03ca41a1ec6681231519c5f0787"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8574f81bc655980bea75defe486eef6f5e10e265"
+        "79e78bc3f56b7d297e1dfcaacab7b8ec11064d1c"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f232d6c95e31241ea609b35ba62f6a851c14eb3d"
+        "ab5dbe043a40d0d6e1f851f32f6ea2abb0b67d73"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7cdf646551412603bc7c314759a0042be324e297"
+        "e80d22a160f5a804a7eb5650fc2385c9d25411b5"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e70f7fd0e1f0d609334ae4b2126b6b173b8f5143"
+        "25d0751833f492d60a6c69aeee168ff8c0fb7f76"
       ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
+      "from": "org:newsroom-the-guardian--uk",
+      "to": "place:country-united-kingdom",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "74fcef24e7f4c85d727ac67dd01ded71f5d7a047"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "417b3073b98597899dbae491a858eb79ca0512b7"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e65101cdae545b1c65b7c4cd31963a7f1a16f993"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8e3940e371e25ff11a10401de52243ef5dc31b5e"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3aaebbbb5ee6ed4f458942e2227bbc656eb0d906"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "93d855cc60daefc9f72616dc82b24e9ec1113fec"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e54862be11c6c3b4dc123ebeb885b1d6d50f5c90"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "178eccb75d522bb1e4f1058bdd45ed0d8c3ac36d"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b62c5e27205e1aa936cff1d6b664d08b49f70aa1"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cba89355cfe2e7108632b032230713852d6c2abe"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b03fe41f6fdea2e87d7d69848e3beb88d1fdb078"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "dfd7e770fb9c6f3c0a48c6e46389eb7f80d9e175"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "963ab43c79d4341aaf63ede32bb1e7a9eb25881c"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5fe8589f5a2bcb9c6f0b27139862b5a4c3fca363"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a56da9e6d97e6e1d317f16f17b801e809bf9aaf6"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d86802c8d3fad606b86ad6755100e6def4132eae"
-      ],
-      "from": "org:newsroom-abc-news--australia",
-      "to": "place:country-australia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b29febc849e293b98b9a9219abdac8e08413c5fd"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9ae0ed0244ca1e2461bfbedf1037584c36b41879"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5eb1cc42907ba13274341e81ed706e1af1ac9f8c"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5bce5e9e3ea0734cd667b43cf339fe98ad37c50b"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "83ceaa8221207b91dbeba89cf9c2dee5c2fd9623"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "21faaed91afa285316730777a1e3a8a83e01be8c"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ed90cb6bb921aaa18cf88b62088e70916bcc2acf"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ec07086f0716422372ce4d58e4245ea116182285"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "71a095ff17b5d9bf2ed40a1c1b82822f2ab44c35"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1ed83a3f878cb4f2fe819d1e2eab42af5810ad19"
-      ],
-      "from": "org:newsroom-the-philippine-star",
-      "to": "place:country-philippines",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "bc2ad40851baeb56b5d94a13680d9bd471775d1b"
+        "652c0ba3c871ba9e240ae65ef899077bf6fea7e2"
       ],
       "from": "org:newsroom-the-guardian--uk",
       "to": "place:country-united-kingdom",
@@ -3027,15 +2793,6 @@
     {
       "evidence": [
         "805f78f2cf52a8ba46904175dd1fe0d1fc24dc3d"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "39d8c745e5d11a24c3ad7e2cdac77b679b2d9e8b"
       ],
       "from": "org:newsroom-the-guardian--uk",
       "to": "place:country-united-kingdom",
@@ -3080,61 +2837,7 @@
     },
     {
       "evidence": [
-        "d4a232cd98d77d995c89c2c0296f8714bad6ddb4"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "407eac4ae78a1e3061a145e62a14ce0428708589"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0ebca1e6bda76bb234535e473d019033f1633877"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fca6fea7e9fbfddf164ea2266ba543f6277740b6"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "eb77d0c1d6b9332c6a13b9723c15dae44e3f8214"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "85016698389688ba46d53eb851e76ee888e79615"
-      ],
-      "from": "org:newsroom-the-guardian--uk",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "dceaef56ca97f33446b15fc52b82b01eae80c7a5"
+        "e36824f331a0bd05123885218b6841809cc5828e"
       ],
       "from": "org:newsroom-the-guardian--uk",
       "to": "place:country-united-kingdom",
@@ -3336,231 +3039,6 @@
       ],
       "from": "org:newsroom-the-guardian--uk",
       "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e31c986f81d018170d031a884a568a3419304a28"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "789ee45f1630c1e2efbd5f84bfcf9677662fdb9a"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "62d00456a6d490c6369a0ced90950daae335fc53"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cb1d85dfba5c3448b2cca7fa32ebedd8d62e6be8"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fa61d587141281c944cf08604a54984db2e9ca6a"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "df0482a7178a2264afa2213e3ddf794319f1d03d"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c9108062e47c2583137d4cfdacd6389f6d209e98"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ffb53278db484f9c70b0d57d840c406bf63f055a"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "670cedc05b8583a0c399c1182840fa6cf9d5e2eb"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "abbb6f782a8f416723f70de75846a123d8113f56"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "95bad47fcb7f4404015731a24aee4414a0877635"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a51d24a3f9338c684bb9bbb49ae4beed1dce257f"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "87106a4d2c78984fba11e5dd92b81d19d1ce1941"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "621776835615699dcf738f171fcdb213ad35d365"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "563ac4e5de9d5df1a78903d5a67f0ef608d468cb"
-      ],
-      "from": "org:newsroom-the-times-of-israel",
-      "to": "place:country-israel",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "06ec974459eab15c330498a4c96189858d81d7ef"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e1d909abc80aceea9117984d301c7e750acc4261"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "676965d658c9ae01cbc805f3882caec2f6357626"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "67332be4960a4042d9017103262f477ac7f86b9e"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0291b4ede5e6ae4798412e530e184cc48c8f8b97"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4a77012df5e20fbcdc8110336db1a3ab84c86f85"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9f67ae0e33f9fe59a484a2551e3e7939f270d3d6"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9e73571c9b797f9d377dc8bc6e639b973b1c0e7b"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0a5d98320f402a335ecdeb4878413bfa953e8568"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d0d975f41dfebc5581ce9822f25b4c175e90d40c"
-      ],
-      "from": "org:newsroom-politico-europe",
-      "to": "place:country-belgium",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -3831,6 +3309,249 @@
       ],
       "from": "org:newsroom-the-japan-times",
       "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "54aa19a4a03d3848952803a8f8682cfdffd9cfbc"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2e5df548c879c6797b66a32016cbd6e58d2d7745"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "75b1163c8eb39c70cacbd463dc8ac9022a988af2"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "04c141564f28da2538ad3a42be63412922e416fd"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dfa554e3c966e834029f25641e4fa7c19d7902a8"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "db4c5eecfe77f551ddea43cd2345dc07d72165b7"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8b9bc6919b86d1de9d0334f9b7b11d7a29a5df56"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1cbd22fbb558d5d5060fe8313fadbb8dc00ef63b"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "caf6989448b50b6ecc941d281b9aeb1eb1143b57"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "40a76df28ee78e8b201e0f3fc7f5fe0bdbe25684"
+      ],
+      "from": "org:newsroom-the-philippine-star",
+      "to": "place:country-philippines",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "585a6819e20a001b4708a43686258c139a42e469"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ef97fea619ef97ee02c9398ad1f9cfb0627c0947"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d0796c99a5d90a4bea3312a97fc1d74ef4cd432b"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2af425ae53e2dde587f70254366dd7bc9b466f8e"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e31c986f81d018170d031a884a568a3419304a28"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "789ee45f1630c1e2efbd5f84bfcf9677662fdb9a"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "62d00456a6d490c6369a0ced90950daae335fc53"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cb1d85dfba5c3448b2cca7fa32ebedd8d62e6be8"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fa61d587141281c944cf08604a54984db2e9ca6a"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "df0482a7178a2264afa2213e3ddf794319f1d03d"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c9108062e47c2583137d4cfdacd6389f6d209e98"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ffb53278db484f9c70b0d57d840c406bf63f055a"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "670cedc05b8583a0c399c1182840fa6cf9d5e2eb"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "abbb6f782a8f416723f70de75846a123d8113f56"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "95bad47fcb7f4404015731a24aee4414a0877635"
+      ],
+      "from": "org:newsroom-the-times-of-israel",
+      "to": "place:country-israel",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "222c6b0d0eccfbf2272f0f649d092b71dd290827"
+      ],
+      "from": "org:newsroom-south-china-morning-post--hk",
+      "to": "place:country-hong-kong",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dcf480a0c790406ce554090131136ee099ab1761"
+      ],
+      "from": "org:newsroom-south-china-morning-post--hk",
+      "to": "place:country-hong-kong",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -4268,25 +3989,7 @@
     },
     {
       "evidence": [
-        "167eb0aa50152951c435c1545765cf613fc302bf"
-      ],
-      "from": "org:newsroom-south-china-morning-post--hk",
-      "to": "place:country-hong-kong",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "61e76ac3f0c502d7bb6a4ecea3b5439cddf17f88"
-      ],
-      "from": "org:newsroom-south-china-morning-post--hk",
-      "to": "place:country-hong-kong",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a03ea1770c2ff84d57cd935307ed57413cecd220"
+        "cd1aecea334f8642f96048e983bd41a9a0407a3e"
       ],
       "from": "org:newsroom-financial-times--world",
       "to": "place:country-united-kingdom",
@@ -4295,7 +3998,70 @@
     },
     {
       "evidence": [
-        "af2a3e6e5ddf90a8a7b3425b68982ed1766c9ce4"
+        "f6a05a04ca9f6353318a8c5354fa257d9a6cad95"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "baafe42dcafb1aa0751c510f800242402831d6ae"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8dfd02b5d3b2a8c733a649e8427bb2a58798359e"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5dd6a46fbb9964bfaed27b4ae40f00252ed6a820"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9069e91ec1407fa90dd9fe99ebc7e4ecfa059568"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7ba504cb1531e4b487c59d1c696ab987d929309e"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f32b14b0644dfb3ed41ef42551ac9e0a4ea0c656"
+      ],
+      "from": "org:newsroom-financial-times--world",
+      "to": "place:country-united-kingdom",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ba695569c524d790f9f4a529f624bc7d2b1e84a5"
       ],
       "from": "org:newsroom-financial-times--world",
       "to": "place:country-united-kingdom",
@@ -4313,7 +4079,7 @@
     },
     {
       "evidence": [
-        "f43f5f9c35366862752d3c95ee72feda94a474ac"
+        "1f4658fd67fed61030818326bfdefd975b14efa6"
       ],
       "from": "org:newsroom-financial-times--world",
       "to": "place:country-united-kingdom",
@@ -4323,15 +4089,6 @@
     {
       "evidence": [
         "146b8fe770ddf8363d26dedc6506023e6c3ca615"
-      ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9069e91ec1407fa90dd9fe99ebc7e4ecfa059568"
       ],
       "from": "org:newsroom-financial-times--world",
       "to": "place:country-united-kingdom",
@@ -4376,7 +4133,7 @@
     },
     {
       "evidence": [
-        "1e086e239742467a4adfc105be1cc74c7708bc11"
+        "b9ab32751459e25be5b9f2298d0e98c4caf4057b"
       ],
       "from": "org:newsroom-financial-times--world",
       "to": "place:country-united-kingdom",
@@ -4457,61 +4214,412 @@
     },
     {
       "evidence": [
-        "f17fd26adf7d2c3c3bbdc89e4efe72b2cb290704"
+        "408605a119f28d359ba663429a7350cc2c53bd9a"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "182cad9076979671ce9664f7698b962dc65cc05f"
+        "16a1a782d679e8996a9a4ffde917dc36aa7eace4"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6f996271b33ada165169def217651a56b74cdd97"
+        "5fc514f51b85b03f6462897aef5c514dd514ab68"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b4ce5f1ca1784d63bfff76004021f04841b001a1"
+        "8574f81bc655980bea75defe486eef6f5e10e265"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b8d323a38778c1634edf23757abf0cd20d4b3872"
+        "f232d6c95e31241ea609b35ba62f6a851c14eb3d"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "48fb4394444c3fd753bbd28b95fcc48afdba3459"
+        "7cdf646551412603bc7c314759a0042be324e297"
       ],
-      "from": "org:newsroom-financial-times--world",
-      "to": "place:country-united-kingdom",
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e70f7fd0e1f0d609334ae4b2126b6b173b8f5143"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "74fcef24e7f4c85d727ac67dd01ded71f5d7a047"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "417b3073b98597899dbae491a858eb79ca0512b7"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e65101cdae545b1c65b7c4cd31963a7f1a16f993"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8e3940e371e25ff11a10401de52243ef5dc31b5e"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3aaebbbb5ee6ed4f458942e2227bbc656eb0d906"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "93d855cc60daefc9f72616dc82b24e9ec1113fec"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e54862be11c6c3b4dc123ebeb885b1d6d50f5c90"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "178eccb75d522bb1e4f1058bdd45ed0d8c3ac36d"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b62c5e27205e1aa936cff1d6b664d08b49f70aa1"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cba89355cfe2e7108632b032230713852d6c2abe"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b03fe41f6fdea2e87d7d69848e3beb88d1fdb078"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dfd7e770fb9c6f3c0a48c6e46389eb7f80d9e175"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "963ab43c79d4341aaf63ede32bb1e7a9eb25881c"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5fe8589f5a2bcb9c6f0b27139862b5a4c3fca363"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a56da9e6d97e6e1d317f16f17b801e809bf9aaf6"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d86802c8d3fad606b86ad6755100e6def4132eae"
+      ],
+      "from": "org:newsroom-abc-news--australia",
+      "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6c1f0c9001851dda3df277811c6b1cc368305473"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "929aaa5f980f90a1f1e04459a80f9b81a218767e"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "56d21058c7fd70c2d5a6980b0dac3706aa9cee46"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b93df7d8da480badaf8b6ce04b00f41aa753eef4"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "06ec974459eab15c330498a4c96189858d81d7ef"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e1d909abc80aceea9117984d301c7e750acc4261"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "676965d658c9ae01cbc805f3882caec2f6357626"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "67332be4960a4042d9017103262f477ac7f86b9e"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0291b4ede5e6ae4798412e530e184cc48c8f8b97"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b322a00164b2279a141b98c2175b366d8c576eaa"
+      ],
+      "from": "org:newsroom-politico-europe",
+      "to": "place:country-belgium",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4fc3bbfd5189460d23539c0d82f60aa877a65704"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3db31694f4f5a3b3e4ace03948ef69378520e2ce"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "027e7f5a6eddb4ec312972787ef394d7827a90e0"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "629f097742ce311160ce6d419da157193fc75d3e"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9212c45bc157db8476556912316bec77e95191b5"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9421d35b76dccbdb72763ad6742d1fb07d430fcd"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2ab77236e6246b25f03f221b88fdd5313cfcd695"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "964db0f51e5d2e0f8cfe4efd90bfbd13fc2cf717"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4e3be0ea97226f089412751387da034d90f30551"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ed2affdbff4807b115fca9f3657e5af035212763"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9cb2d52d632bdc4bf092e818a6c9676fcf5152aa"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
         "49725248dfabb9ee92fbf07d708c54943e28a434"
+      ],
+      "from": "org:newsroom-the-punch--nigeria",
+      "to": "place:country-nigeria",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "38a5be67d720d0ed9a829ba55b4493d90ba70f4a"
       ],
       "from": "org:newsroom-the-punch--nigeria",
       "to": "place:country-nigeria",
@@ -4673,109 +4781,109 @@
     },
     {
       "evidence": [
-        "0e1f9ba2423fc23e045d2a570fef7ba9a50673c6"
+        "78a46bd419d4376001d8a29202ef1b67880d67ba"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "cc562a44e8b2f5e116a2133a5fa23fdd9c4118f1"
+        "b3430ae0d9e48fe3e1de291e6fae54b4150612f9"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "676886f67f4d9193a0c60da96d2f94d755cecfea"
+        "25c58a016a4d89a899580aa88c27a236f2ad1788"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "52e1fff9e04ad880c59196af64e6fe7d01574207"
+        "d2b51c45a16171a91c930b2e4c9ff5734ef0e3c1"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "86ac21bda3b0c7133ff368bec87a547ace2b26e0"
+        "506b208e0e3aee87c60be2ca6bf4d0225c72b217"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "dbd79aeac1dfa85f68fedc4bc9f24f89624d5d53"
+        "4cc6d9cb04ded63cb7cbe2fbc7daed88e72c1893"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e7e889c50818ce808f55ea405eab9fd3c1abf1b5"
+        "0eb2608beb0cd532d84049a7eefd637da1ff53f2"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ec27c4f7f67bc6366915e9b915548bede41c8a3a"
+        "68f5c8bbc5c424cbe66b93cd7bddfce0f8fcc8c2"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "07376f67187b4a4ad0662a7dc8fe7b465ea7d29f"
+        "5d4ac23e7358d7957f521f98e30936cf509764c3"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "794ac6a4b867f819fc2ed5df6581ee175d54a794"
+        "8312072974d956e09c80d9ffc0176d9abfde6d87"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-ansa--it",
+      "to": "place:country-italy",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e813045ff75082688fbbcf96a3f8b7a99cf62fa3"
+        "2528607c704536e6ce66949344f6f3077f8d3009"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-un-news",
+      "to": "place:country-un",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4ffff115f7ec527ae0e7ca9aab946cbb55e77714"
+        "5915c17cb988ea95bec30afe12c7b886ddfa2468"
       ],
-      "from": "org:newsroom-the-punch--nigeria",
-      "to": "place:country-nigeria",
+      "from": "org:newsroom-un-news",
+      "to": "place:country-un",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -4857,6 +4965,294 @@
       ],
       "from": "org:newsroom-un-news",
       "to": "place:country-un",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ad93b1bba686e44652b2af6b4d613755507f8c73"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6165e48df9a5597eaa7cec981f60b1111e36ef0f"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ddea10d66187a988f534ef54aa53cf594ac0aa94"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b9a0d4c29dc5d2b39c26d588b8979da3f457a414"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f484b69a0c8e93e07c1deb17b2faa2d8ea60a411"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "900c17cfd975a532a1bbf542cf4294d709e7e196"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b856fc2853a692597c48baf8b34e803445cd17ba"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "872f10620d2b7022c9348f5c02879575bf99b3b8"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a8451ebbaba4750b7fdfda94280793cdcbd07e57"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a21004e506707731929f40c3799bd12c3566bc96"
+      ],
+      "from": "org:newsroom-mail---guardian",
+      "to": "place:country-south-africa",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "187ae98fda71e3e331c786b38bde550625f658c2"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "084912432e7bdb429bc1f151de66f3c23ef3ca50"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fbe73cad4a5fbcbb20340faccff2a7aa8a149062"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2aeda3ec2741a4f05a9d88b3015952ff9bf0e3fc"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "15271cada5d68d4d4388dc6b5befade3e2291b1f"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1772edb36cc43989f16ff529450e6f2d5e0b49e4"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cadc8433b2ba4f57acfdf3189648a62ee5b6877f"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "346d146bef0a22577e7dd0e00659412e4c09c84b"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "22a02a0e6d4cb61ba8063b3b926ba8df4bf5eb13"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e452117d6660b9d082d5e16d77f5103ae32d6bf5"
+      ],
+      "from": "org:newsroom-bank-of-canada",
+      "to": "place:country-canada",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a28597d54a566d3df0a5826c4efb238b5f50ca75"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "98a0fffe0fc29c6d87897b466f8a363b9420218e"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "97c75bec427805deaa8f2a1da51635facd937db0"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "53ccd3cbcda49fe4d879fff5bf144267abfc098e"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a162d198edd32a914b6ac6ab7bd8fab33ec649a8"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b4b002e6387ee0d6fda418bec428981126cad13d"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "75080f95f2e670115ede77541a234da5f1b2485f"
+      ],
+      "from": "org:newsroom-bank-of-japan",
+      "to": "place:country-japan",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8eb1ec5d9ea0c9b0d8ca1830832f88996c93f5d9"
+      ],
+      "from": "org:newsroom-ecb-press",
+      "to": "place:country-eurozone",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "643e526bce03b1e9999aee9c78b5f18ebb9697eb"
+      ],
+      "from": "org:newsroom-ecb-press",
+      "to": "place:country-eurozone",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e87ca7e900b332f883d0dd91db8d03360ad7b6ce"
+      ],
+      "from": "org:newsroom-ecb-press",
+      "to": "place:country-eurozone",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "046647594048a3c50791b76842aeb42ca32f679b"
+      ],
+      "from": "org:newsroom-ecb-press",
+      "to": "place:country-eurozone",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f745ceb928a56603d40deb0383ac78dd94e21f15"
+      ],
+      "from": "org:newsroom-ecb-press",
+      "to": "place:country-eurozone",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -5762,388 +6158,37 @@
     },
     {
       "evidence": [
-        "506b208e0e3aee87c60be2ca6bf4d0225c72b217"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4cc6d9cb04ded63cb7cbe2fbc7daed88e72c1893"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0eb2608beb0cd532d84049a7eefd637da1ff53f2"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "68f5c8bbc5c424cbe66b93cd7bddfce0f8fcc8c2"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5d4ac23e7358d7957f521f98e30936cf509764c3"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8312072974d956e09c80d9ffc0176d9abfde6d87"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "aa8454c624c121101c3f5708f536a72ab856cf37"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "46777d2475fad7ed5b587b9aa0f6a2e2b0431c5b"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0f547acd2999f56cea39a4fc2b39224dc1c565a1"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "13a2c962d3d7080466790b6dca167b561ea04e10"
-      ],
-      "from": "org:newsroom-ansa--it",
-      "to": "place:country-italy",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a28597d54a566d3df0a5826c4efb238b5f50ca75"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "98a0fffe0fc29c6d87897b466f8a363b9420218e"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "97c75bec427805deaa8f2a1da51635facd937db0"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "53ccd3cbcda49fe4d879fff5bf144267abfc098e"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a162d198edd32a914b6ac6ab7bd8fab33ec649a8"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b4b002e6387ee0d6fda418bec428981126cad13d"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "75080f95f2e670115ede77541a234da5f1b2485f"
-      ],
-      "from": "org:newsroom-bank-of-japan",
-      "to": "place:country-japan",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "187ae98fda71e3e331c786b38bde550625f658c2"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "084912432e7bdb429bc1f151de66f3c23ef3ca50"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fbe73cad4a5fbcbb20340faccff2a7aa8a149062"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2aeda3ec2741a4f05a9d88b3015952ff9bf0e3fc"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "15271cada5d68d4d4388dc6b5befade3e2291b1f"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1772edb36cc43989f16ff529450e6f2d5e0b49e4"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cadc8433b2ba4f57acfdf3189648a62ee5b6877f"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "346d146bef0a22577e7dd0e00659412e4c09c84b"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "22a02a0e6d4cb61ba8063b3b926ba8df4bf5eb13"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e452117d6660b9d082d5e16d77f5103ae32d6bf5"
-      ],
-      "from": "org:newsroom-bank-of-canada",
-      "to": "place:country-canada",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ad93b1bba686e44652b2af6b4d613755507f8c73"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6165e48df9a5597eaa7cec981f60b1111e36ef0f"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ddea10d66187a988f534ef54aa53cf594ac0aa94"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b9a0d4c29dc5d2b39c26d588b8979da3f457a414"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f484b69a0c8e93e07c1deb17b2faa2d8ea60a411"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "900c17cfd975a532a1bbf542cf4294d709e7e196"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b856fc2853a692597c48baf8b34e803445cd17ba"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "872f10620d2b7022c9348f5c02879575bf99b3b8"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a8451ebbaba4750b7fdfda94280793cdcbd07e57"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a21004e506707731929f40c3799bd12c3566bc96"
-      ],
-      "from": "org:newsroom-mail---guardian",
-      "to": "place:country-south-africa",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8eb1ec5d9ea0c9b0d8ca1830832f88996c93f5d9"
-      ],
-      "from": "org:newsroom-ecb-press",
-      "to": "place:country-eurozone",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "643e526bce03b1e9999aee9c78b5f18ebb9697eb"
-      ],
-      "from": "org:newsroom-ecb-press",
-      "to": "place:country-eurozone",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e87ca7e900b332f883d0dd91db8d03360ad7b6ce"
-      ],
-      "from": "org:newsroom-ecb-press",
-      "to": "place:country-eurozone",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "046647594048a3c50791b76842aeb42ca32f679b"
-      ],
-      "from": "org:newsroom-ecb-press",
-      "to": "place:country-eurozone",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f745ceb928a56603d40deb0383ac78dd94e21f15"
-      ],
-      "from": "org:newsroom-ecb-press",
-      "to": "place:country-eurozone",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "c8274dab0b9ec480d40340dde3af8a84266295f7"
       ],
       "from": "org:newsroom-reserve-bank-of-australia",
       "to": "place:country-australia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7bac9be9da8be1dc1e16b45f45480613140498d6"
+      ],
+      "from": "org:newsroom-rt--russia--state-controlled",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4132ec8f96557068f650cec465ac84a48e3e07a6"
+      ],
+      "from": "org:newsroom-rt--russia--state-controlled",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "704ee0e94a36701a7a591fca1eae3e744e50637a"
+      ],
+      "from": "org:newsroom-rt--russia--state-controlled",
+      "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
