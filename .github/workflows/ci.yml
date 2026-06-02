@@ -17,6 +17,12 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+# Opt JS actions into Node.js 24 ahead of the 2026-06-16 forced cutover (our
+# actions still ship Node 20). Silences the deprecation warning and validates
+# Node 24 now, without the risk of bumping to action majors we can't verify.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   test:
     runs-on: ubuntu-latest
