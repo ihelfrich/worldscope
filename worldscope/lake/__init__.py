@@ -95,6 +95,24 @@ CREATE TABLE IF NOT EXISTS source_health (
     consecutive_failures   INTEGER NOT NULL DEFAULT 0
 );
 
+-- Source runs: append-only history of every pull (source_health is latest-only).
+-- Lets us see "ReliefWeb failed 6 days straight", reliability rates, latencies.
+CREATE TABLE IF NOT EXISTS source_runs (
+    id            TEXT PRIMARY KEY,
+    source_id     TEXT NOT NULL,
+    section_id    TEXT,
+    started_at    TEXT,
+    finished_at   TEXT NOT NULL,
+    success       INTEGER NOT NULL,
+    record_count  INTEGER NOT NULL DEFAULT 0,
+    new_count     INTEGER NOT NULL DEFAULT 0,
+    schema_hash   TEXT,
+    error_type    TEXT,
+    error_message TEXT,
+    latency_ms    INTEGER
+);
+CREATE INDEX IF NOT EXISTS idx_source_runs_src ON source_runs(source_id, finished_at);
+
 -- Records: every individual item ingested from any source.
 CREATE TABLE IF NOT EXISTS records (
     id              TEXT PRIMARY KEY,             -- deterministic hash, see Section._item_id
@@ -404,6 +422,32 @@ class Lake:
                 """,
                 (source_id, now, error),
             )
+
+    def record_source_run(
+        self, *, source_id: str, section_id: Optional[str] = None,
+        success: bool, record_count: int = 0, new_count: int = 0,
+        schema_hash: Optional[str] = None, error_type: Optional[str] = None,
+        error_message: Optional[str] = None, latency_ms: Optional[int] = None,
+        started_at: Optional[str] = None, finished_at: Optional[str] = None,
+    ) -> str:
+        """Append one pull to the source_runs history. Returns the run id."""
+        finished = finished_at or _utcnow()
+        run_id = hashlib.sha1(
+            f"{source_id}|{section_id}|{finished}".encode("utf-8")).hexdigest()
+        conn = self._ensure_open()
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO source_runs
+              (id, source_id, section_id, started_at, finished_at, success,
+               record_count, new_count, schema_hash, error_type, error_message,
+               latency_ms)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (run_id, source_id, section_id, started_at, finished,
+             1 if success else 0, record_count, new_count, schema_hash,
+             error_type, (error_message or "")[:500] or None, latency_ms),
+        )
+        return run_id
 
     def register_source(
         self, *, source_id: str, name: str, url: Optional[str], license: str,

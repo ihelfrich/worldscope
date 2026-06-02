@@ -26,6 +26,7 @@ import html
 import os
 import re
 import threading
+import time
 
 from ..textutil import clean_text, strip_html
 from abc import ABC, abstractmethod
@@ -124,6 +125,8 @@ class SectionState:
     comparison_date: Optional[str]   # the date 'items' is being compared against
     source_date: Optional[str]       # the date 'items' actually came from
     error: Optional[str] = None
+    error_type: Optional[str] = None     # exception class name on failure
+    latency_ms: Optional[int] = None     # wall-clock of the pull()
     extras: dict = field(default_factory=dict)
 
 
@@ -228,11 +231,15 @@ class Section(ABC):
         # from empty-ok.
         items: list[dict] = []
         error: Optional[str] = None
+        error_type: Optional[str] = None
+        _t0 = time.monotonic()
         try:
             raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"
+            error_type = type(exc).__name__
+        latency_ms = int((time.monotonic() - _t0) * 1000)
 
         # FAILED pull → keep last known good if it exists, mark stale.
         # Empty prior is still valid ("yesterday had 0 items").
@@ -248,13 +255,13 @@ class Section(ABC):
                     items=most_recent.get("items") or [], new=[],
                     comparison_date=(prior or {}).get("snapshot_date"),
                     source_date=src_date,
-                    error=error,
+                    error=error, error_type=error_type, latency_ms=latency_ms,
                 )
             return SectionState(
                 section_id=self.id, title=self.title, emoji=self.emoji,
                 state=STATE_NO_DATA, items=[], new=[],
                 comparison_date=None, source_date=None,
-                error=error,
+                error=error, error_type=error_type, latency_ms=latency_ms,
             )
 
         # SUCCESSFUL pull. Write today's snapshot with the right status.
@@ -271,6 +278,7 @@ class Section(ABC):
             state=state, items=items, new=new,
             comparison_date=(prior or {}).get("snapshot_date"),
             source_date=today.isoformat(),
+            latency_ms=latency_ms,
         )
 
     @staticmethod
@@ -533,6 +541,18 @@ class Section(ABC):
                 record_count=len(raw_records),
                 schema_hash=schema_hash_of(state.items),
             )
+
+        # Append this pull to the source_runs history (latest-only source_health
+        # can't show "failed 6 days straight"; this can). Never blocks the brief.
+        try:
+            lake.record_source_run(
+                source_id=self.source_id or self.id, section_id=self.id,
+                success=state.error is None, record_count=len(raw_records),
+                new_count=len(state.new or []), error_type=state.error_type,
+                error_message=state.error, latency_ms=state.latency_ms,
+            )
+        except Exception:
+            pass
 
         summary_md = self.synthesize_summary(state)
         structured = self.emit_structured(state)
