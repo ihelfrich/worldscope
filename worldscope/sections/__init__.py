@@ -609,6 +609,22 @@ class Section(ABC):
         summary_md = self.synthesize_summary(state)
         structured = self.emit_structured(state)
 
+        # Mined default entities + their record_entities links run in their OWN
+        # guard, BEFORE the subclass structured payload — so a malformed
+        # structured entry (a missing key in a section's emit_structured) can't
+        # silently skip the entity-linking the default extractor produced.
+        try:
+            for ent in default_entities.values():
+                lake.upsert_entity(
+                    entity_id=ent["id"], type=ent["type"],
+                    canonical_name=ent["canonical_name"],
+                    aliases=ent.get("aliases"), metadata=ent.get("metadata"))
+            for rec in raw_records:
+                for entity_id in rec.get("entities", []) or []:
+                    lake.link_record_entity(rec["id"], entity_id)
+        except Exception as exc:
+            print(f"[{self.id}] entity-link failed: {type(exc).__name__}: {exc}")
+
         # Push the structured.json payload into the graph tables so the
         # MCP server's lookup_entity / graph_path / query_relationships
         # tools can see them. (The artifact files are useful but the
@@ -638,17 +654,6 @@ class Section(ABC):
                     weight=rel.get("weight", 1.0),
                     evidence=rel.get("evidence"),
                 )
-            # Upsert mined entities so their record_entities links don't fail FK.
-            for ent in default_entities.values():
-                lake.upsert_entity(
-                    entity_id=ent["id"], type=ent["type"],
-                    canonical_name=ent["canonical_name"],
-                    aliases=ent.get("aliases"), metadata=ent.get("metadata"))
-            # Link records to their mentioned entities for the
-            # record_entities M:N table.
-            for rec in raw_records:
-                for entity_id in rec.get("entities", []) or []:
-                    lake.link_record_entity(rec["id"], entity_id)
             # Persist anomalies + predictions + paper bets the section emitted.
             import hashlib
             for anom in structured.get("anomalies", []):

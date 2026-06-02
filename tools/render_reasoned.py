@@ -82,8 +82,11 @@ def _oneline(text: str, max_chars: int = 150) -> str:
 
 
 def _css() -> str:
-    m = re.search(r"<style>(.*?)</style>", PROTOTYPE.read_text(encoding="utf-8"), re.S)
-    return m.group(1) if m else ""
+    try:
+        m = re.search(r"<style>(.*?)</style>", PROTOTYPE.read_text(encoding="utf-8"), re.S)
+        return m.group(1) if m else ""
+    except OSError:
+        return ""   # missing prototype -> unstyled but correct, not a lost render
 
 
 def _esc(s: str) -> str:
