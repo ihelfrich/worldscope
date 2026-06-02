@@ -296,6 +296,26 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_claims() -> None:
+        # The evidence engine: cluster the lake's records into typed, evidence-
+        # graded claims (status from corroboration + source tier, with denial
+        # detection), persist claims + claim_evidence, and prepend a "Claims"
+        # panel. Reads the same records signals/radar use. Never blocks a brief.
+        from . import claims as _cl
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            cls = _cl.build_from_lake(today=today, days=_cl.DEFAULT_WINDOW_DAYS, conn=conn)
+            n = _cl.persist_claims(lake, cls, today=today)
+            panel = _cl.render_claims_panel(cls)
+            if panel:
+                sections_html.insert(0, panel)
+            n_contra = sum(1 for c in cls if c.status == "contradicted")
+            print(f"[claims] {len(cls)} claims · {n_contra} contradicted · persisted {n}")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -324,6 +344,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("integrity", _stage_integrity),
         ("signals", _stage_signals),
         ("radar", _stage_radar),
+        ("claims", _stage_claims),
         ("site-builder", _stage_site_builder),
     ):
         _run_stage(label, fn)

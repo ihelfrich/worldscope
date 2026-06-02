@@ -510,9 +510,28 @@ class Section(ABC):
                 self.source_id or self.id, success=False, error=state.error,
             )
         else:
+            registered = {self.source_id or self.id}
             for item in state.items:
                 record = self.to_raw_record(item, today_iso=today_iso)
                 raw_records.append(record)
+                # Register the per-item source first. News/aggregator sections
+                # attribute each item to its outlet (e.g. 'foreign-news:bbc-world-
+                # news'); without registering those, the records→sources FK fails
+                # and the entire outlet corpus is quarantined. Registering them
+                # with the section's tier also gives us per-outlet provenance.
+                rsid = record["source_id"]
+                if rsid not in registered:
+                    try:
+                        lake.register_source(
+                            source_id=rsid,
+                            name=rsid.split(":", 1)[-1].replace("-", " ").strip() or rsid,
+                            url=None, license=self.source_license,
+                            tier=self.source_tier, country=self.source_country,
+                            language=self.source_language,
+                        )
+                    except Exception:
+                        pass
+                    registered.add(rsid)
                 # Mirror into the records table for queryability
                 try:
                     lake.upsert_record(

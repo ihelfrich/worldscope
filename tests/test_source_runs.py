@@ -1,7 +1,28 @@
 """Tests for source_runs per-run history (audit Sprint 1 #2)."""
+import pytest
+
 from worldscope.lake import Lake
 from worldscope.sections import Section
 from worldscope.store import SnapshotStore
+
+
+def test_records_need_registered_source_else_fk_fails(tmp_path):
+    # The bug that quarantined 18k records: news sections attribute each item to
+    # a per-outlet source_id that to_lake must register, or the records->sources
+    # FK rejects it. This documents the contract the fix relies on.
+    lk = Lake(db_path=tmp_path / "lake.sqlite")
+    lk._ensure_open()
+    with pytest.raises(Exception):
+        lk.upsert_record(record_id="r1", source_id="foreign-news:bbc-world",
+                         section_id="foreign_news", original_url=None,
+                         original_text="hi")
+    lk.register_source(source_id="foreign-news:bbc-world", name="bbc world",
+                       url=None, license="x", tier="aggregator")
+    lk.upsert_record(record_id="r1", source_id="foreign-news:bbc-world",
+                     section_id="foreign_news", original_url=None,
+                     original_text="hi")
+    assert lk._ensure_open().execute(
+        "SELECT COUNT(*) FROM records").fetchone()[0] == 1
 
 
 def _lake(tmp_path):

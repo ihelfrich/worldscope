@@ -164,6 +164,49 @@ CREATE TABLE IF NOT EXISTS relationships (
 CREATE INDEX IF NOT EXISTS idx_rel_from ON relationships(from_entity, type);
 CREATE INDEX IF NOT EXISTS idx_rel_to   ON relationships(to_entity, type);
 
+-- Claims: the unit of the evidence engine. A claim is an assertion that
+-- appeared across the lake, carrying its evidence, epistemic status, type, and
+-- a confidence that moves over time. Identity is the normalized claim_key, so a
+-- claim accumulates evidence across days rather than being re-minted daily.
+CREATE TABLE IF NOT EXISTS claims (
+    id                TEXT PRIMARY KEY,        -- sha1(claim_key)
+    claim_key         TEXT NOT NULL,
+    claim_text        TEXT NOT NULL,
+    claim_type        TEXT NOT NULL,           -- reported_fact | official_statement | market_signal | statistical_anomaly | osint_observation | inference | forecast | correction | contradiction
+    status            TEXT NOT NULL,           -- not_enough_info | single_source | multi_source | primary_confirmed | contradicted | stale | retracted
+    confidence        REAL NOT NULL,
+    confidence_prev   REAL,                    -- previous value, to show movement
+    actors_json       TEXT NOT NULL DEFAULT '[]',
+    places_json       TEXT NOT NULL DEFAULT '[]',
+    topics_json       TEXT NOT NULL DEFAULT '[]',
+    n_sources         INTEGER NOT NULL DEFAULT 0,
+    n_sections        INTEGER NOT NULL DEFAULT 0,
+    event_time        TEXT,
+    requires_followup INTEGER NOT NULL DEFAULT 0,
+    first_seen        TEXT NOT NULL,
+    last_seen         TEXT NOT NULL,
+    method            TEXT NOT NULL,
+    model_version     TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_claims_status ON claims(status);
+CREATE INDEX IF NOT EXISTS idx_claims_seen   ON claims(last_seen);
+
+-- Claim evidence: which records support / refute / contextualize a claim, with
+-- the source tier and role so confidence + status are auditable.
+CREATE TABLE IF NOT EXISTS claim_evidence (
+    claim_id      TEXT NOT NULL REFERENCES claims(id) ON DELETE CASCADE,
+    record_id     TEXT NOT NULL,
+    section_id    TEXT,
+    source_id     TEXT,
+    source_tier   TEXT,
+    support_label TEXT NOT NULL DEFAULT 'supports',  -- supports | refutes | context
+    evidence_role TEXT,                              -- reported | official | market | physical | osint
+    weight        REAL NOT NULL DEFAULT 1.0,
+    record_date   TEXT,
+    PRIMARY KEY (claim_id, record_id)
+);
+CREATE INDEX IF NOT EXISTS idx_claim_ev_record ON claim_evidence(record_id);
+
 -- Predictions: forward-looking claims the system has made.
 CREATE TABLE IF NOT EXISTS predictions (
     id                      TEXT PRIMARY KEY,
@@ -695,6 +738,64 @@ class Lake:
             """,
             (anomaly_id, section_id, category, z_score, description,
              json.dumps(evidence, sort_keys=True), _utcnow()),
+        )
+
+    # ---- claims (the evidence engine) -----------------------------------
+
+    def upsert_claim(self, *, claim_key: str, claim_text: str, claim_type: str,
+                     status: str, confidence: float, actors: list[str],
+                     places: list[str], topics: list[str], n_sources: int,
+                     n_sections: int, event_time: Optional[str] = None,
+                     requires_followup: bool = False, when: Optional[str] = None,
+                     method: str = "claim-extract-v1",
+                     model_version: Optional[str] = None) -> str:
+        """Insert or update a claim by its stable key. Preserves first_seen and
+        records the previous confidence so movement is visible. Returns the id."""
+        conn = self._ensure_open()
+        claim_id = hashlib.sha1(claim_key.encode("utf-8")).hexdigest()
+        when = when or _utcnow()
+        existing = conn.execute(
+            "SELECT confidence, first_seen FROM claims WHERE id = ?", (claim_id,)
+        ).fetchone()
+        confidence_prev = existing["confidence"] if existing else None
+        first_seen = existing["first_seen"] if existing else when
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO claims
+              (id, claim_key, claim_text, claim_type, status, confidence,
+               confidence_prev, actors_json, places_json, topics_json,
+               n_sources, n_sections, event_time, requires_followup,
+               first_seen, last_seen, method, model_version)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (claim_id, claim_key, claim_text, claim_type, status, float(confidence),
+             confidence_prev,
+             json.dumps(actors, ensure_ascii=False),
+             json.dumps(places, ensure_ascii=False),
+             json.dumps(topics, ensure_ascii=False),
+             n_sources, n_sections, event_time, 1 if requires_followup else 0,
+             first_seen, when, method, model_version),
+        )
+        return claim_id
+
+    def add_claim_evidence(self, *, claim_id: str, record_id: str,
+                           section_id: Optional[str] = None,
+                           source_id: Optional[str] = None,
+                           source_tier: Optional[str] = None,
+                           support_label: str = "supports",
+                           evidence_role: Optional[str] = None,
+                           weight: float = 1.0,
+                           record_date: Optional[str] = None) -> None:
+        conn = self._ensure_open()
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO claim_evidence
+              (claim_id, record_id, section_id, source_id, source_tier,
+               support_label, evidence_role, weight, record_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (claim_id, record_id, section_id, source_id, source_tier,
+             support_label, evidence_role, weight, record_date),
         )
 
     # ---- brief accounting + quarantine ----------------------------------
