@@ -15,7 +15,7 @@ import argparse
 import html
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -28,6 +28,21 @@ from worldscope.lake import Lake              # noqa: E402
 
 PROTOTYPE = REPO / "dist" / "mockups" / "next" / "reasoned.html"
 OUT = REPO / "dist" / "mockups" / "next" / "reasoned-live.html"
+HOME = REPO / "dist" / "index.html"
+
+# Non-Latin scripts we can flag deterministically (Latin-script languages like
+# Spanish/French aren't reliably detectable cheaply, so we leave those).
+_SCRIPTS = [("RU", (0x0400, 0x04FF)), ("ZH", (0x4E00, 0x9FFF)),
+            ("AR", (0x0600, 0x06FF)), ("UK", (0x0400, 0x04FF))]
+
+
+def _lang_tag(text: str) -> str:
+    for ch in text or "":
+        o = ord(ch)
+        for code, (lo, hi) in _SCRIPTS:
+            if lo <= o <= hi:
+                return code
+    return ""
 
 # claim status -> ledger pill class + assessment label (intelligence nomenclature)
 _STAT = {
@@ -94,8 +109,12 @@ def _gather(today: date):
     return claims, reports, fresh, len(preds)
 
 
-def render(today: date) -> Path:
-    claims, reports, fresh, n_preds = _gather(today)
+def render(today: date, *, homepage: bool = False) -> Path:
+    try:
+        claims, reports, fresh, n_preds = _gather(today)
+    except Exception as exc:        # never let homepage generation crash a deploy
+        claims, reports, fresh, n_preds = [], [], 0, 0
+        print(f"[reasoned] gather failed: {type(exc).__name__}: {exc}")
     claims = [c for c in claims if _relevant(c)]
     n = len(reports)
 
@@ -153,15 +172,27 @@ def render(today: date) -> Path:
     calls = []
     for c in ranked[:10]:
         pill, label = _STAT.get(c.status, ("open", c.status))
+        lt = _lang_tag(c.claim_text)
+        tag = (f"<span style='font-family:var(--mono);font-size:9px;color:var(--gold);"
+               f"border:1px solid #E2C9B5;border-radius:3px;padding:0 4px;margin-right:6px'>{lt}</span>"
+               if lt else "")
         calls.append(
             "<div class='call'>"
-            f"<div class='q'>{_esc(_oneline(c.claim_text, 130))}"
+            f"<div class='q'>{tag}{_esc(_oneline(c.claim_text, 130))}"
             f"<div class='meta'>{_esc(', '.join(c.topics[:4]))} · {c.claim_type.replace('_',' ')}</div></div>"
             f"<div class='prob'><span class='m'><b style='width:{int(c.confidence*100)}%'></b></span>"
             f"<span class='pct'>{int(c.confidence*100)}%</span></div>"
             f"<div class='res'>{c.n_sources} src</div>"
             f"<div class='stat {pill}'>{label}</div></div>")
     ledger = "".join(calls)
+
+    nav_links = " · ".join(
+        f"<a href='{h}' style='color:inherit;text-decoration:none;"
+        f"border-bottom:1px solid var(--hair)'>{t}</a>"
+        for t, h in (("Sections", "./sections/"), ("Archive", "./briefings/"),
+                     ("Bundle", f"./zips/{today.isoformat()}.zip")))
+    subbar_right = ((nav_links + " · OSINT · FOR DR. I. HELFRICH") if homepage
+                    else "OSINT · ALL-SOURCE · PREPARED FOR DR. I. HELFRICH")
 
     body = f"""<div class="wrap">
   <header class="standing">
@@ -176,7 +207,7 @@ def render(today: date) -> Path:
     <div class="ledgerstrip">{ribbon}</div>
   </header>
   <div class="subbar"><span class="live"><i></i>{today.strftime('%A %d %B %Y').upper()}</span>
-    <span>OSINT · ALL-SOURCE · PREPARED FOR DR. I. HELFRICH</span></div>
+    <span>{subbar_right}</span></div>
 
   <section class="judgment">
     <div class="eyebrow">Key judgment</div>
@@ -214,15 +245,40 @@ def render(today: date) -> Path:
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>WORLDSCOPE · Reasoned (live) · {today.isoformat()}</title>"
             f"<style>{css}</style></head><body>{body}</body></html>")
-    OUT.write_text(page, encoding="utf-8")
-    return OUT
+    out = HOME if homepage else OUT
+    out.write_text(page, encoding="utf-8")
+    return out
+
+
+def _effective_date(today: date) -> date:
+    """The most data-rich of the last few days, so the homepage isn't thin when
+    today's ingest is still in progress. Dates the brief by the data it shows."""
+    best, best_n = today, -1
+    for d in range(0, 4):
+        dt = today - timedelta(days=d)
+        try:
+            nrec = len(sg.load_records_from_jsonl(today=dt, days=1))
+        except Exception:
+            nrec = 0
+        if nrec > best_n:
+            best, best_n = dt, nrec
+    return best
+
+
+def render_homepage(today: date, out_root: Path) -> Path:
+    """Write the Reasoned brief as the site homepage (dist/index.html)."""
+    global HOME
+    HOME = Path(out_root) / "index.html"
+    return render(_effective_date(today), homepage=True)
 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Render the Reasoned design from real data.")
     ap.add_argument("--date", default=date.today().isoformat())
+    ap.add_argument("--home", action="store_true",
+                    help="write dist/index.html (the homepage) instead of the preview")
     args = ap.parse_args(argv)
-    out = render(date.fromisoformat(args.date))
+    out = render(date.fromisoformat(args.date), homepage=args.home)
     print(f"[reasoned] wrote {out}")
     return 0
 
