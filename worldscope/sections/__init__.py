@@ -421,11 +421,33 @@ class Section(ABC):
         }
 
     def extract_entities(self, item: dict) -> list[dict]:
-        """Return a list of entity-payload dicts mentioned in this item.
-        Each entry: {id, type, canonical_name, aliases?, metadata?}.
-        Default: empty. Subclasses override for entity-rich sources
-        (federal register, courtlistener, OpenStates, etc.)."""
-        return []
+        """Return entity-payload dicts mentioned in this item:
+        {id, type, canonical_name, aliases?, metadata?}.
+
+        Default: mine distinctive surface mentions (multi-word proper-noun runs,
+        tickers, CVE ids) from the title so record_entities is populated even for
+        sections without a bespoke extractor — enabling 'all records mentioning
+        X' queries and richer claim actors. These are coarse 'mention'-typed
+        entities; resolution to canonical real-world entities is a later step.
+        Subclasses override for typed, resolved entities."""
+        from .. import signals as _sg  # local import avoids any import cycle
+        text = item.get("title") or item.get("summary") or ""
+        if not text:
+            return []
+        out: list[dict] = []
+        seen: set[str] = set()
+        # record_key_pairs already drops stopwords and sub-3-char tokens, so
+        # single proper nouns (Italy, Madagascar, Ebola) — the right entities for
+        # structured feeds — are kept, while generic words are not.
+        for key, cased in _sg.record_key_pairs({"title": text}):
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append({"id": f"mention:{key.replace(' ', '-')}",
+                        "type": "mention", "canonical_name": cased})
+            if len(out) >= 6:
+                break
+        return out
 
     def synthesize_summary(self, state: "SectionState") -> str:
         """Default markdown summary. Subclasses can override to do LLM-driven
@@ -505,6 +527,7 @@ class Section(ABC):
         )
 
         raw_records: list[dict] = []
+        default_entities: dict[str, dict] = {}  # mined entities to upsert + link
         if state.error:
             lake.record_source_health(
                 self.source_id or self.id, success=False, error=state.error,
@@ -513,6 +536,16 @@ class Section(ABC):
             registered = {self.source_id or self.id}
             for item in state.items:
                 record = self.to_raw_record(item, today_iso=today_iso)
+                # Attach mined entities so record_entities populates even when
+                # to_raw_record left them empty (fixes sections that extract
+                # entities but use the base record shape). Payloads are upserted
+                # below so the link FK holds.
+                ents = self.extract_entities(item)
+                if ents:
+                    if not record.get("entities"):
+                        record["entities"] = [e["id"] for e in ents]
+                    for e in ents:
+                        default_entities[e["id"]] = e
                 raw_records.append(record)
                 # Register the per-item source first. News/aggregator sections
                 # attribute each item to its outlet (e.g. 'foreign-news:bbc-world-
@@ -605,6 +638,12 @@ class Section(ABC):
                     weight=rel.get("weight", 1.0),
                     evidence=rel.get("evidence"),
                 )
+            # Upsert mined entities so their record_entities links don't fail FK.
+            for ent in default_entities.values():
+                lake.upsert_entity(
+                    entity_id=ent["id"], type=ent["type"],
+                    canonical_name=ent["canonical_name"],
+                    aliases=ent.get("aliases"), metadata=ent.get("metadata"))
             # Link records to their mentioned entities for the
             # record_entities M:N table.
             for rec in raw_records:
