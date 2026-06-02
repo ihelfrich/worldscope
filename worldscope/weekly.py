@@ -194,10 +194,11 @@ def run(out_dir: Path | str = "dist/weekly", week: Optional[str] = None) -> Path
 
     page = render_page(today, sections_html, out_dir,
                        overview_md=overview_md, archive_dates=None)
-    # Rename the page to use week id (render_page wrote it as <date>.html)
+    # Rename the page to use week id (render_page wrote it as <date>.html).
+    # The homepage (index.html) stays the daily landing page from
+    # render_brief.py; the weekly recap lives at its own URL + in the archive.
     week_html = out_dir / f"{week_id}.html"
     (out_dir / f"{today.isoformat()}.html").rename(week_html)
-    (out_dir / "index.html").write_text(week_html.read_text(encoding="utf-8"), encoding="utf-8")
 
     # Bundle: overview + raw per-section JSON + macro recap
     zpath = out_dir / f"{week_id}.zip"

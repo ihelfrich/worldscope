@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError
 
 FEED = "https://promedmail.org/promed-posts/?cat=feed"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
@@ -43,12 +43,12 @@ class PromedSection(Section):
         try:
             resp = requests.get(FEED, headers={"User-Agent": UA}, timeout=25)
             resp.raise_for_status()
-        except Exception:
-            return []
+        except requests.RequestException as e:
+            raise UpstreamHTTPError(f"ProMED feed request failed: {e}") from e
         try:
             root = ET.fromstring(resp.content)
-        except ET.ParseError:
-            return []
+        except ET.ParseError as e:
+            raise UpstreamParseError(f"ProMED feed is not valid XML: {e}") from e
         items: list[dict] = []
         for item in root.findall(".//item"):
             title = (item.findtext("title") or "").strip()

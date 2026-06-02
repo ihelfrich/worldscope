@@ -1,5 +1,12 @@
-"""HTML render layer. Writes one briefing page per day to dist/YYYY-MM-DD.html
-plus an index.html that mirrors the most recent."""
+"""HTML render layer. Writes one data-brief page per day to dist/YYYY-MM-DD.html
+(the full all-sections drill-down).
+
+It deliberately does NOT write dist/index.html: the site homepage is the
+publication-grade "landing" page emitted by tools/render_brief.py (heritage
+Tailwind + Alpine living-brief UI). Letting this plain renderer also write
+index.html caused the homepage to flip between the two whenever the daily data
+pull ran after the briefing render. The landing page is now the sole owner of
+index.html; every site_builder nav already points "Today" → index.html."""
 from __future__ import annotations
 
 from datetime import date
@@ -343,5 +350,6 @@ def render_page(
     )
     out_path = out_dir / f"{date_obj.isoformat()}.html"
     out_path.write_text(page, encoding="utf-8")
-    (out_dir / "index.html").write_text(page, encoding="utf-8")
+    # NB: intentionally does not write index.html — the landing page from
+    # tools/render_brief.py owns the homepage (see module docstring).
     return out_path

@@ -1,0 +1,250 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE — Reasoned</title>
+<style>
+  :root{
+    --bg:#F8F6F0; --paper:#FCFAF4; --ink:#201E18; --soft:#6F695C; --faint:#9A9384;
+    --hair:#E7E1D4; --hair2:#EFEADF; --gold:#9A6B00; --gold-l:#C79A2E; --ox:#7A2A20;
+    --ink2:#2B4257; --ok:#3B6B43;
+    --serif:"Liberation Serif","Iowan Old Style",Palatino,Georgia,serif;
+    --sans:"Liberation Sans","Inter","Helvetica Neue",Arial,sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--serif);line-height:1.6;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 44px}
+  a{color:var(--ink2);text-decoration:none;border-bottom:1px solid #CDC8BB}
+  .mono{font-family:var(--mono)} .sans{font-family:var(--sans)}
+
+  /* ── standing header: brand + the accountability ribbon ── */
+  header.standing{display:flex;align-items:stretch;justify-content:space-between;gap:30px;
+    border-bottom:2px solid var(--ink);margin-top:24px;padding-bottom:0}
+  .brand{display:flex;align-items:center;gap:12px;padding-bottom:16px}
+  .brand .mk{width:26px;height:26px}
+  .brand .nm b{font-family:var(--sans);font-weight:800;letter-spacing:.26em;font-size:16px;display:block}
+  .brand .nm span{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--soft)}
+  /* the ribbon = "we keep score" */
+  .ledgerstrip{display:flex;align-items:center;gap:22px;padding:6px 0 14px}
+  .ks{text-align:right}
+  .ks .k{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+  .ks .v{font-family:var(--sans);font-weight:700;font-size:17px;letter-spacing:-.01em;margin-top:2px}
+  .ks .v.ox{color:var(--ox)} .ks .v.ok{color:var(--ok)}
+  .ks .v small{font-family:var(--mono);font-size:11px;color:var(--soft);font-weight:400}
+  .reli{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+  .reli .k{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+
+  .subbar{display:flex;justify-content:space-between;align-items:center;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--soft);
+    padding:9px 0;border-bottom:1px solid var(--hair)}
+  .subbar .live{color:var(--ox)} .subbar .live i{display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:var(--ox);margin-right:6px;animation:p 2.4s ease-in-out infinite}
+  @keyframes p{0%,100%{opacity:.35}50%{opacity:1}}
+
+  /* ── the judgment (hero) ── */
+  .judgment{padding:38px 0 8px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+  h1{font-size:52px;line-height:1.05;letter-spacing:-.02em;font-weight:700;max-width:18ch}
+  .stand{font-size:20px;color:#3A372F;margin-top:18px;max-width:50ch;font-style:italic}
+  /* epistemic status bar — the novel element */
+  .status{display:flex;align-items:center;gap:0;margin-top:26px;border:1px solid var(--hair);
+    border-radius:11px;overflow:hidden;background:var(--paper);max-width:760px}
+  .status .seg{padding:13px 18px;border-right:1px solid var(--hair2);flex:1}
+  .status .seg:last-child{border-right:0}
+  .status .k{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+  .status .conf{font-family:var(--sans);font-weight:700;font-size:15px;display:flex;align-items:center;gap:9px}
+  .cbar{width:74px;height:7px;border-radius:4px;background:#EAE3D4;overflow:hidden}
+  .cbar b{display:block;height:100%;width:64%;background:linear-gradient(90deg,var(--gold-l),var(--ox))}
+  .status .cont{font-family:var(--sans);font-size:13.5px;color:var(--ox);font-weight:600}
+  .status .moved{font-family:var(--sans);font-weight:700;font-size:15px;color:var(--ox)}
+
+  /* ── reasoning + evidence margin ── */
+  .reading{display:grid;grid-template-columns:1fr 270px;gap:46px;padding:34px 0 8px;
+    border-top:1px solid var(--hair);margin-top:30px}
+  .essay p{font-size:17.5px;line-height:1.72;margin-bottom:14px;max-width:60ch}
+  .essay p:first-child::first-letter{font-size:56px;float:left;line-height:.82;padding:7px 11px 0 0;font-weight:700;color:var(--ox)}
+  .ref{font-family:var(--sans);font-size:10px;vertical-align:super;color:var(--ox);font-weight:700;
+    border:1px solid #E2C9B5;border-radius:4px;padding:0 4px;margin-left:1px;cursor:default}
+  /* a claim's epistemic underline */
+  .claim{border-bottom:2px solid #E4D7B0;cursor:default}
+  .claim.weak{border-bottom-style:dotted;border-bottom-color:#E0C2BC}
+  aside .note{border-left:2px solid var(--gold);padding-left:14px;margin-bottom:24px}
+  aside .note.contest{border-color:var(--ink2)}
+  aside .note .h{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  aside .note.contest .h{color:var(--ink2)}
+  aside .note p{font-family:var(--sans);font-size:13px;color:#48443B;line-height:1.55}
+  aside .ev{border-top:1px solid var(--hair);padding-top:14px;margin-top:6px}
+  aside .ev .row{display:flex;justify-content:space-between;font-family:var(--sans);font-size:12px;margin-bottom:9px;color:#48443B}
+  aside .ev .row .m{width:96px;height:6px;border-radius:3px;background:#EAE3D4;overflow:hidden;align-self:center}
+  aside .ev .row .m b{display:block;height:100%}
+  aside .srcs{margin-top:6px}
+  aside .srcs .s{font-family:var(--sans);font-size:12px;display:flex;gap:8px;padding:6px 0;border-top:1px solid var(--hair2)}
+  aside .srcs .s .n{font-family:var(--mono);color:var(--ox);font-size:11px;min-width:14px}
+
+  /* ── steelman / counterpoint ── */
+  .debate{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--hair);border-radius:12px;
+    overflow:hidden;margin:22px 0 4px;max-width:900px}
+  .debate>div{padding:16px 20px}
+  .debate .l{background:#F4F1E6;border-right:1px solid var(--hair)}
+  .debate .r{background:#F6F0EC}
+  .debate h4{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px}
+  .debate .l h4{color:var(--gold)} .debate .r h4{color:var(--ox)}
+  .debate p{font-family:var(--sans);font-size:14px;color:#3a372f;line-height:1.55}
+
+  /* ── THE LEDGER (the revolution: open, scored calls) ── */
+  .ledger{margin-top:40px;border-top:2px solid var(--ink);padding-top:22px}
+  .ledger .head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px}
+  .ledger h2{font-size:26px;letter-spacing:-.01em}
+  .ledger .head .sub{font-family:var(--mono);font-size:10.5px;color:var(--soft);letter-spacing:.06em}
+  .ledger .intro{font-family:var(--sans);font-size:14px;color:var(--soft);margin-bottom:18px;max-width:74ch}
+  .calls{display:grid;gap:0;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:var(--paper)}
+  .call{display:grid;grid-template-columns:1fr 150px 120px 78px;gap:18px;align-items:center;
+    padding:14px 18px;border-top:1px solid var(--hair2)}
+  .call:first-child{border-top:0}
+  .call .q{font-size:15.5px}
+  .call .q .meta{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:3px;letter-spacing:.04em}
+  .call .prob{display:flex;align-items:center;gap:10px}
+  .call .prob .m{flex:1;height:7px;border-radius:4px;background:#EAE3D4;overflow:hidden}
+  .call .prob .m b{display:block;height:100%;background:linear-gradient(90deg,var(--gold-l),var(--ox))}
+  .call .prob .pct{font-family:var(--sans);font-weight:700;font-size:14px}
+  .call .res{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+  .call .stat{justify-self:end;font-family:var(--sans);font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px}
+  .stat.open{background:#F1ECDD;color:var(--gold)}
+  .stat.hit{background:#EBF2EA;color:var(--ok)}
+  .stat.miss{background:#F7ECE9;color:var(--ox)}
+
+  .prov{font-family:var(--mono);font-size:10px;color:var(--faint);padding:26px 0 46px;letter-spacing:.04em;line-height:1.8;margin-top:8px}
+  .prov b{color:var(--soft)}
+</style></head>
+<body>
+<div class="wrap">
+
+  <header class="standing">
+    <div class="brand">
+      <svg class="mk" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="18" stroke="#7A2A20" stroke-width="1.5"/>
+        <circle cx="20" cy="20" r="11" stroke="#9A6B00" stroke-width="1"/>
+        <path d="M20 3 L20 37 M3 20 L37 20" stroke="#9A6B00" stroke-width=".6" opacity=".5"/>
+        <circle cx="20" cy="20" r="3.2" fill="#7A2A20"/>
+      </svg>
+      <div class="nm"><b>WORLDSCOPE</b><span>INTELLIGENCE THAT SHOWS ITS WORK</span></div>
+    </div>
+    <div class="ledgerstrip">
+      <div class="ks"><div class="k">Calls logged</div><div class="v">142</div></div>
+      <div class="ks"><div class="k">Brier score</div><div class="v ok">0.18 <small>↓ better</small></div></div>
+      <div class="ks"><div class="k">Resolved · 7d</div><div class="v">✓5 <span class="ox">✗2</span></div></div>
+      <div class="reli">
+        <span class="k">Calibration</span>
+        <svg width="92" height="40" viewBox="0 0 92 40">
+          <rect x="0" y="0" width="92" height="40" fill="none"/>
+          <line x1="4" y1="36" x2="88" y2="4" stroke="#D8D0BF" stroke-width="1" stroke-dasharray="3 3"/>
+          <polyline points="4,35 22,30 40,25 58,15 76,9 88,5" fill="none" stroke="#9A6B00" stroke-width="1.6"/>
+          <circle cx="22" cy="30" r="1.8" fill="#7A2A20"/><circle cx="40" cy="25" r="1.8" fill="#7A2A20"/>
+          <circle cx="58" cy="15" r="1.8" fill="#7A2A20"/><circle cx="76" cy="9" r="1.8" fill="#7A2A20"/>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <div class="subbar">
+    <span class="live"><i></i>LIVE · 06:00 UTC · updated 14m ago</span>
+    <span>SUNDAY 31 MAY 2026 · NO. 151 · FOR DR. IAN HELFRICH</span>
+  </div>
+
+  <section class="judgment">
+    <div class="eyebrow">Today's read · our judgment, with the receipts</div>
+    <h1>The Iran deal is dead — and the market stopped pretending otherwise.</h1>
+    <p class="stand">The May 31 deadline passed unsigned, peace odds collapsed to 4%, and Ukraine widened
+      the war the same night. We read this as escalation, not noise — here's why, and where we could be wrong.</p>
+    <div class="status">
+      <div class="seg"><div class="k">Our confidence</div>
+        <div class="conf">High · 64% <span class="cbar"><b></b></span></div></div>
+      <div class="seg"><div class="k">What's contested</div>
+        <div class="cont">Ceasefire status — disputed</div></div>
+      <div class="seg"><div class="k">Market repriced</div>
+        <div class="moved">8% → 4%</div></div>
+      <div class="seg"><div class="k">Corroboration</div>
+        <div class="conf">6 sources · 4 sections</div></div>
+    </div>
+  </section>
+
+  <div class="reading">
+    <div class="essay">
+      <p>Polymarket's <a>US–Iran peace deal by May 31</a><span class="ref">1</span> prints at 4%, down from
+      8% a week ago, and the <span class="claim">Hormuz blockade-lifting contract fell from 33% to 18% in 48
+      hours</span><span class="ref">1</span>. The market has, in effect, stopped pricing a deal. In the same
+      window <span class="claim">Ukraine's SBU destroyed two Tu-142 aircraft and an Iskander system at
+      Taganrog</span><span class="ref">2</span> and struck the Feodosiya oil terminal in Crimea.</p>
+      <p>What deserves attention is the <em>shape</em> of the response: <span class="claim">fresh OFAC
+      Counter-Terrorism Designations</span><span class="ref">3</span> and an amended Iran FAQ point to an
+      administration hardening its floor to denuclearization. The <span class="claim weak">ceasefire was
+      never formally extended</span><span class="ref">4</span> — but it was never formally broken either,
+      which is exactly where our read is most exposed.</p>
+    </div>
+    <aside>
+      <div class="note"><div class="h">Why it matters</div>
+        <p>Energy and escalation risk repriced <em>together</em> — rare, and usually a leading indicator.</p></div>
+      <div class="note contest"><div class="h">Where we're exposed</div>
+        <p>If the ceasefire quietly holds, "rupture" is an over-read. We're tracking the OFAC text for a 72h reversal.</p></div>
+      <div class="ev">
+        <div class="row"><span>Cross-source</span><span class="m"><b style="width:80%;background:var(--gold)"></b></span></div>
+        <div class="row"><span>Confidence vs base</span><span class="m"><b style="width:64%;background:linear-gradient(90deg,var(--gold-l),var(--ox))"></b></span></div>
+        <div class="srcs">
+          <div class="s"><span class="n">1</span>Polymarket live contract</div>
+          <div class="s"><span class="n">2</span>Conflict desk · Taganrog</div>
+          <div class="s"><span class="n">3</span>OFAC / Federal Register</div>
+          <div class="s"><span class="n">4</span>Wire · ceasefire (unconfirmed)</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="debate">
+    <div class="l"><h4>↑ Steelman · escalation</h4><p>Missed deadline + fresh designations + a confirmed deep
+      strike inside Russian infrastructure read as a widening, not a winding-down.</p></div>
+    <div class="r"><h4>↓ Counterpoint · noise</h4><p>A never-extended-but-never-broken ceasefire and thin
+      single-wire sourcing on the lapse could be a procedural gap the market over-read.</p></div>
+  </div>
+
+  <section class="ledger">
+    <div class="head"><h2>The ledger — what we're calling, and our record</h2>
+      <span class="sub">auto-graded against outcomes · Brier 0.18</span></div>
+    <p class="intro">We don't just report — we commit to falsifiable calls and keep score in public. Each is
+      drawn from today's cross-source signals and resolves itself against the lake.</p>
+    <div class="calls">
+      <div class="call">
+        <div class="q">Iran remains cross-section salient (no formal deal) through Jun 14
+          <div class="meta">from 6 sources · signals-fusion</div></div>
+        <div class="prob"><span class="m"><b style="width:64%"></b></span><span class="pct">64%</span></div>
+        <div class="res">resolves Jun 14</div>
+        <div class="stat open">OPEN</div>
+      </div>
+      <div class="call">
+        <div class="q">Hormuz traffic normalizes by end-May
+          <div class="meta">Polymarket · 18% and falling</div></div>
+        <div class="prob"><span class="m"><b style="width:22%"></b></span><span class="pct">22%</span></div>
+        <div class="res">resolved May 31</div>
+        <div class="stat miss">✗ MISS</div>
+      </div>
+      <div class="call">
+        <div class="q">CIT Section 122 stay holds on appeal (14d)
+          <div class="meta">Federal Circuit · courts desk</div></div>
+        <div class="prob"><span class="m"><b style="width:58%"></b></span><span class="pct">58%</span></div>
+        <div class="res">resolves Jun 12</div>
+        <div class="stat open">OPEN</div>
+      </div>
+      <div class="call">
+        <div class="q">FEC fundraising anomaly persists 7d
+          <div class="meta">radar · 2.8σ surge</div></div>
+        <div class="prob"><span class="m"><b style="width:71%"></b></span><span class="pct">71%</span></div>
+        <div class="res">resolved May 30</div>
+        <div class="stat hit">✓ HIT</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="prov">PROVENANCE · every claim links to its lake records (ingested through 2026-06-01 06:00 UTC) ·
+    confidence is the system's own cross-source persistence estimate, <b>graded against outcomes</b> ·
+    charts pipeline-generated · supplementary live feeds where reachable · timestamps UTC.</div>
+</div>
+</body></html>

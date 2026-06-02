@@ -29,7 +29,7 @@ from typing import Any
 
 import requests
 
-from . import Section
+from . import Section, MissingCredential, UpstreamAuthError
 
 TOKEN_URL = "https://acleddata.com/oauth/token"
 READ_URL = "https://acleddata.com/api/acled/read"
@@ -109,20 +109,23 @@ class AcledSection(Section):
             timeout=60,
         )
         if resp.status_code == 401:
-            # Token rejected; nuke cache so next run refreshes.
+            # Token rejected; nuke cache so next run refreshes, then fail loudly
+            # so this registers as an auth failure rather than a quiet empty.
             try:
                 TOKEN_CACHE.unlink()
             except Exception:
                 pass
-            return []
+            raise UpstreamAuthError("ACLED token rejected (401)")
         resp.raise_for_status()
         body = resp.json()
         return body.get("data", []) or []
 
     def pull(self) -> list[dict]:
+        if not (os.environ.get("ACLED_EMAIL") and os.environ.get("ACLED_PASSWORD")):
+            raise MissingCredential("ACLED_EMAIL / ACLED_PASSWORD not set")
         token = self._get_token()
         if not token:
-            return []
+            raise UpstreamAuthError("ACLED authentication failed (no token)")
         end = datetime.now(timezone.utc).date()
         start = end - timedelta(days=7)
         items: list[dict] = []

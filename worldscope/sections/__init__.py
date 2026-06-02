@@ -26,6 +26,7 @@ import html
 import os
 import re
 import threading
+import time
 
 from ..textutil import clean_text, strip_html
 from abc import ABC, abstractmethod
@@ -38,6 +39,41 @@ from ..store import SnapshotStore
 
 class PullTimeout(Exception):
     """Raised when a section's pull() exceeds its deadline."""
+
+
+# --------------------------------------------------------------------------- #
+# Typed source-failure exceptions.
+#
+# The trust rule: a section must NOT swallow an upstream failure and return [].
+# An empty list means "the source confirmed there was nothing today" — a quiet
+# day. A failure (missing credential, HTTP error, auth rejection, unparseable
+# body) must be *raised*, so resolve() records it as stale_after_failure /
+# no_data (not fresh_empty) and source_health logs the failure. That is what
+# lets the data-integrity layer tell a broken sensor from a quiet one.
+# --------------------------------------------------------------------------- #
+
+class SourceUnavailable(RuntimeError):
+    """Base: the upstream source could not be consulted this run."""
+
+
+class MissingCredential(SourceUnavailable):
+    """A required API key / credential is not set in the environment."""
+
+
+class UpstreamHTTPError(SourceUnavailable):
+    """The upstream returned a non-2xx status or the request failed."""
+
+
+class UpstreamAuthError(UpstreamHTTPError):
+    """The upstream rejected our credentials (401/403)."""
+
+
+class UpstreamParseError(SourceUnavailable):
+    """The upstream responded but the body could not be parsed (JSON/XML/HTML)."""
+
+
+class UpstreamSchemaError(UpstreamParseError):
+    """The upstream parsed but did not match the expected shape."""
 
 
 def _run_with_timeout(fn, seconds: float):
@@ -89,6 +125,8 @@ class SectionState:
     comparison_date: Optional[str]   # the date 'items' is being compared against
     source_date: Optional[str]       # the date 'items' actually came from
     error: Optional[str] = None
+    error_type: Optional[str] = None     # exception class name on failure
+    latency_ms: Optional[int] = None     # wall-clock of the pull()
     extras: dict = field(default_factory=dict)
 
 
@@ -193,11 +231,15 @@ class Section(ABC):
         # from empty-ok.
         items: list[dict] = []
         error: Optional[str] = None
+        error_type: Optional[str] = None
+        _t0 = time.monotonic()
         try:
             raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"
+            error_type = type(exc).__name__
+        latency_ms = int((time.monotonic() - _t0) * 1000)
 
         # FAILED pull → keep last known good if it exists, mark stale.
         # Empty prior is still valid ("yesterday had 0 items").
@@ -213,13 +255,13 @@ class Section(ABC):
                     items=most_recent.get("items") or [], new=[],
                     comparison_date=(prior or {}).get("snapshot_date"),
                     source_date=src_date,
-                    error=error,
+                    error=error, error_type=error_type, latency_ms=latency_ms,
                 )
             return SectionState(
                 section_id=self.id, title=self.title, emoji=self.emoji,
                 state=STATE_NO_DATA, items=[], new=[],
                 comparison_date=None, source_date=None,
-                error=error,
+                error=error, error_type=error_type, latency_ms=latency_ms,
             )
 
         # SUCCESSFUL pull. Write today's snapshot with the right status.
@@ -236,6 +278,7 @@ class Section(ABC):
             state=state, items=items, new=new,
             comparison_date=(prior or {}).get("snapshot_date"),
             source_date=today.isoformat(),
+            latency_ms=latency_ms,
         )
 
     @staticmethod
@@ -378,11 +421,33 @@ class Section(ABC):
         }
 
     def extract_entities(self, item: dict) -> list[dict]:
-        """Return a list of entity-payload dicts mentioned in this item.
-        Each entry: {id, type, canonical_name, aliases?, metadata?}.
-        Default: empty. Subclasses override for entity-rich sources
-        (federal register, courtlistener, OpenStates, etc.)."""
-        return []
+        """Return entity-payload dicts mentioned in this item:
+        {id, type, canonical_name, aliases?, metadata?}.
+
+        Default: mine distinctive surface mentions (multi-word proper-noun runs,
+        tickers, CVE ids) from the title so record_entities is populated even for
+        sections without a bespoke extractor — enabling 'all records mentioning
+        X' queries and richer claim actors. These are coarse 'mention'-typed
+        entities; resolution to canonical real-world entities is a later step.
+        Subclasses override for typed, resolved entities."""
+        from .. import signals as _sg  # local import avoids any import cycle
+        text = item.get("title") or item.get("summary") or ""
+        if not text:
+            return []
+        out: list[dict] = []
+        seen: set[str] = set()
+        # record_key_pairs already drops stopwords and sub-3-char tokens, so
+        # single proper nouns (Italy, Madagascar, Ebola) — the right entities for
+        # structured feeds — are kept, while generic words are not.
+        for key, cased in _sg.record_key_pairs({"title": text}):
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append({"id": f"mention:{key.replace(' ', '-')}",
+                        "type": "mention", "canonical_name": cased})
+            if len(out) >= 6:
+                break
+        return out
 
     def synthesize_summary(self, state: "SectionState") -> str:
         """Default markdown summary. Subclasses can override to do LLM-driven
@@ -462,14 +527,44 @@ class Section(ABC):
         )
 
         raw_records: list[dict] = []
+        default_entities: dict[str, dict] = {}  # mined entities to upsert + link
         if state.error:
             lake.record_source_health(
                 self.source_id or self.id, success=False, error=state.error,
             )
         else:
+            registered = {self.source_id or self.id}
             for item in state.items:
                 record = self.to_raw_record(item, today_iso=today_iso)
+                # Attach mined entities so record_entities populates even when
+                # to_raw_record left them empty (fixes sections that extract
+                # entities but use the base record shape). Payloads are upserted
+                # below so the link FK holds.
+                ents = self.extract_entities(item)
+                if ents:
+                    if not record.get("entities"):
+                        record["entities"] = [e["id"] for e in ents]
+                    for e in ents:
+                        default_entities[e["id"]] = e
                 raw_records.append(record)
+                # Register the per-item source first. News/aggregator sections
+                # attribute each item to its outlet (e.g. 'foreign-news:bbc-world-
+                # news'); without registering those, the records→sources FK fails
+                # and the entire outlet corpus is quarantined. Registering them
+                # with the section's tier also gives us per-outlet provenance.
+                rsid = record["source_id"]
+                if rsid not in registered:
+                    try:
+                        lake.register_source(
+                            source_id=rsid,
+                            name=rsid.split(":", 1)[-1].replace("-", " ").strip() or rsid,
+                            url=None, license=self.source_license,
+                            tier=self.source_tier, country=self.source_country,
+                            language=self.source_language,
+                        )
+                    except Exception:
+                        pass
+                    registered.add(rsid)
                 # Mirror into the records table for queryability
                 try:
                     lake.upsert_record(
@@ -498,6 +593,18 @@ class Section(ABC):
                 record_count=len(raw_records),
                 schema_hash=schema_hash_of(state.items),
             )
+
+        # Append this pull to the source_runs history (latest-only source_health
+        # can't show "failed 6 days straight"; this can). Never blocks the brief.
+        try:
+            lake.record_source_run(
+                source_id=self.source_id or self.id, section_id=self.id,
+                success=state.error is None, record_count=len(raw_records),
+                new_count=len(state.new or []), error_type=state.error_type,
+                error_message=state.error, latency_ms=state.latency_ms,
+            )
+        except Exception:
+            pass
 
         summary_md = self.synthesize_summary(state)
         structured = self.emit_structured(state)
@@ -531,6 +638,12 @@ class Section(ABC):
                     weight=rel.get("weight", 1.0),
                     evidence=rel.get("evidence"),
                 )
+            # Upsert mined entities so their record_entities links don't fail FK.
+            for ent in default_entities.values():
+                lake.upsert_entity(
+                    entity_id=ent["id"], type=ent["type"],
+                    canonical_name=ent["canonical_name"],
+                    aliases=ent.get("aliases"), metadata=ent.get("metadata"))
             # Link records to their mentioned entities for the
             # record_entities M:N table.
             for rec in raw_records:

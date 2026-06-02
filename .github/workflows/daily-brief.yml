@@ -22,6 +22,10 @@ concurrency:
   group: daily-brief
   cancel-in-progress: false
 
+# Opt JS actions into Node.js 24 ahead of the 2026-06-16 forced cutover.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,6 +52,7 @@ jobs:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           MEDIACLOUD_API_KEY: ${{ secrets.MEDIACLOUD_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           # CI can't see the local 2.6 GB OpenSanctions corpus or the
           # PEP index built from it. Skip those sections so locally-generated
           # content (from Ian's machine, where the data files live) carries
@@ -85,6 +90,10 @@ jobs:
           path: dist
   deploy:
     needs: build
+    # GitHub Pages only deploys from the default branch (the github-pages
+    # environment is branch-protected). Skip on feature-branch / manual runs so
+    # they don't show a spurious "deploy failed" — the build still runs fully.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

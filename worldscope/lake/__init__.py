@@ -95,6 +95,24 @@ CREATE TABLE IF NOT EXISTS source_health (
     consecutive_failures   INTEGER NOT NULL DEFAULT 0
 );
 
+-- Source runs: append-only history of every pull (source_health is latest-only).
+-- Lets us see "ReliefWeb failed 6 days straight", reliability rates, latencies.
+CREATE TABLE IF NOT EXISTS source_runs (
+    id            TEXT PRIMARY KEY,
+    source_id     TEXT NOT NULL,
+    section_id    TEXT,
+    started_at    TEXT,
+    finished_at   TEXT NOT NULL,
+    success       INTEGER NOT NULL,
+    record_count  INTEGER NOT NULL DEFAULT 0,
+    new_count     INTEGER NOT NULL DEFAULT 0,
+    schema_hash   TEXT,
+    error_type    TEXT,
+    error_message TEXT,
+    latency_ms    INTEGER
+);
+CREATE INDEX IF NOT EXISTS idx_source_runs_src ON source_runs(source_id, finished_at);
+
 -- Records: every individual item ingested from any source.
 CREATE TABLE IF NOT EXISTS records (
     id              TEXT PRIMARY KEY,             -- deterministic hash, see Section._item_id
@@ -145,6 +163,49 @@ CREATE TABLE IF NOT EXISTS relationships (
 );
 CREATE INDEX IF NOT EXISTS idx_rel_from ON relationships(from_entity, type);
 CREATE INDEX IF NOT EXISTS idx_rel_to   ON relationships(to_entity, type);
+
+-- Claims: the unit of the evidence engine. A claim is an assertion that
+-- appeared across the lake, carrying its evidence, epistemic status, type, and
+-- a confidence that moves over time. Identity is the normalized claim_key, so a
+-- claim accumulates evidence across days rather than being re-minted daily.
+CREATE TABLE IF NOT EXISTS claims (
+    id                TEXT PRIMARY KEY,        -- sha1(claim_key)
+    claim_key         TEXT NOT NULL,
+    claim_text        TEXT NOT NULL,
+    claim_type        TEXT NOT NULL,           -- reported_fact | official_statement | market_signal | statistical_anomaly | osint_observation | inference | forecast | correction | contradiction
+    status            TEXT NOT NULL,           -- not_enough_info | single_source | multi_source | primary_confirmed | contradicted | stale | retracted
+    confidence        REAL NOT NULL,
+    confidence_prev   REAL,                    -- previous value, to show movement
+    actors_json       TEXT NOT NULL DEFAULT '[]',
+    places_json       TEXT NOT NULL DEFAULT '[]',
+    topics_json       TEXT NOT NULL DEFAULT '[]',
+    n_sources         INTEGER NOT NULL DEFAULT 0,
+    n_sections        INTEGER NOT NULL DEFAULT 0,
+    event_time        TEXT,
+    requires_followup INTEGER NOT NULL DEFAULT 0,
+    first_seen        TEXT NOT NULL,
+    last_seen         TEXT NOT NULL,
+    method            TEXT NOT NULL,
+    model_version     TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_claims_status ON claims(status);
+CREATE INDEX IF NOT EXISTS idx_claims_seen   ON claims(last_seen);
+
+-- Claim evidence: which records support / refute / contextualize a claim, with
+-- the source tier and role so confidence + status are auditable.
+CREATE TABLE IF NOT EXISTS claim_evidence (
+    claim_id      TEXT NOT NULL REFERENCES claims(id) ON DELETE CASCADE,
+    record_id     TEXT NOT NULL,
+    section_id    TEXT,
+    source_id     TEXT,
+    source_tier   TEXT,
+    support_label TEXT NOT NULL DEFAULT 'supports',  -- supports | refutes | context
+    evidence_role TEXT,                              -- reported | official | market | physical | osint
+    weight        REAL NOT NULL DEFAULT 1.0,
+    record_date   TEXT,
+    PRIMARY KEY (claim_id, record_id)
+);
+CREATE INDEX IF NOT EXISTS idx_claim_ev_record ON claim_evidence(record_id);
 
 -- Predictions: forward-looking claims the system has made.
 CREATE TABLE IF NOT EXISTS predictions (
@@ -405,6 +466,32 @@ class Lake:
                 (source_id, now, error),
             )
 
+    def record_source_run(
+        self, *, source_id: str, section_id: Optional[str] = None,
+        success: bool, record_count: int = 0, new_count: int = 0,
+        schema_hash: Optional[str] = None, error_type: Optional[str] = None,
+        error_message: Optional[str] = None, latency_ms: Optional[int] = None,
+        started_at: Optional[str] = None, finished_at: Optional[str] = None,
+    ) -> str:
+        """Append one pull to the source_runs history. Returns the run id."""
+        finished = finished_at or _utcnow()
+        run_id = hashlib.sha1(
+            f"{source_id}|{section_id}|{finished}".encode("utf-8")).hexdigest()
+        conn = self._ensure_open()
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO source_runs
+              (id, source_id, section_id, started_at, finished_at, success,
+               record_count, new_count, schema_hash, error_type, error_message,
+               latency_ms)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (run_id, source_id, section_id, started_at, finished,
+             1 if success else 0, record_count, new_count, schema_hash,
+             error_type, (error_message or "")[:500] or None, latency_ms),
+        )
+        return run_id
+
     def register_source(
         self, *, source_id: str, name: str, url: Optional[str], license: str,
         tier: str, country: Optional[str] = None, language: str = "en",
@@ -526,6 +613,33 @@ class Lake:
              method, json.dumps(evidence, sort_keys=True), section_id),
         )
 
+    def resolve_prediction(self, *, prediction_id: str, resolved_at: str,
+                           actual_outcome: str) -> None:
+        """Settle a prediction. Records the ground-truth outcome and stores the
+        Brier contribution (predicted_prob - actual_prob)^2 for the scorer.
+
+        ``actual_outcome`` is matched against ``predicted_outcome`` to derive the
+        realized 0/1 truth value; the predicted probability is ``confidence``."""
+        conn = self._ensure_open()
+        row = conn.execute(
+            "SELECT predicted_outcome, confidence FROM predictions WHERE id = ?",
+            (prediction_id,),
+        ).fetchone()
+        brier: Optional[float] = None
+        if row is not None:
+            predicted_outcome, confidence = row[0], row[1]
+            try:
+                actual = 1.0 if str(actual_outcome).strip().upper() == \
+                    str(predicted_outcome).strip().upper() else 0.0
+                brier = (float(confidence) - actual) ** 2
+            except (TypeError, ValueError):
+                brier = None
+        conn.execute(
+            "UPDATE predictions SET resolved_at = ?, actual_outcome = ?, "
+            "brier_contribution = ? WHERE id = ?",
+            (resolved_at, actual_outcome, brier, prediction_id),
+        )
+
     def add_paper_bet(self, *, bet_id: str, market_platform: str, market_id: str,
                       market_url: Optional[str], market_question: str,
                       market_resolves_at: Optional[str], side: str,
@@ -624,6 +738,64 @@ class Lake:
             """,
             (anomaly_id, section_id, category, z_score, description,
              json.dumps(evidence, sort_keys=True), _utcnow()),
+        )
+
+    # ---- claims (the evidence engine) -----------------------------------
+
+    def upsert_claim(self, *, claim_key: str, claim_text: str, claim_type: str,
+                     status: str, confidence: float, actors: list[str],
+                     places: list[str], topics: list[str], n_sources: int,
+                     n_sections: int, event_time: Optional[str] = None,
+                     requires_followup: bool = False, when: Optional[str] = None,
+                     method: str = "claim-extract-v1",
+                     model_version: Optional[str] = None) -> str:
+        """Insert or update a claim by its stable key. Preserves first_seen and
+        records the previous confidence so movement is visible. Returns the id."""
+        conn = self._ensure_open()
+        claim_id = hashlib.sha1(claim_key.encode("utf-8")).hexdigest()
+        when = when or _utcnow()
+        existing = conn.execute(
+            "SELECT confidence, first_seen FROM claims WHERE id = ?", (claim_id,)
+        ).fetchone()
+        confidence_prev = existing["confidence"] if existing else None
+        first_seen = existing["first_seen"] if existing else when
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO claims
+              (id, claim_key, claim_text, claim_type, status, confidence,
+               confidence_prev, actors_json, places_json, topics_json,
+               n_sources, n_sections, event_time, requires_followup,
+               first_seen, last_seen, method, model_version)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (claim_id, claim_key, claim_text, claim_type, status, float(confidence),
+             confidence_prev,
+             json.dumps(actors, ensure_ascii=False),
+             json.dumps(places, ensure_ascii=False),
+             json.dumps(topics, ensure_ascii=False),
+             n_sources, n_sections, event_time, 1 if requires_followup else 0,
+             first_seen, when, method, model_version),
+        )
+        return claim_id
+
+    def add_claim_evidence(self, *, claim_id: str, record_id: str,
+                           section_id: Optional[str] = None,
+                           source_id: Optional[str] = None,
+                           source_tier: Optional[str] = None,
+                           support_label: str = "supports",
+                           evidence_role: Optional[str] = None,
+                           weight: float = 1.0,
+                           record_date: Optional[str] = None) -> None:
+        conn = self._ensure_open()
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO claim_evidence
+              (claim_id, record_id, section_id, source_id, source_tier,
+               support_label, evidence_role, weight, record_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (claim_id, record_id, section_id, source_id, source_tier,
+             support_label, evidence_role, weight, record_date),
         )
 
     # ---- brief accounting + quarantine ----------------------------------

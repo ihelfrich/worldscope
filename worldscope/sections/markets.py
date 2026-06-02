@@ -5,20 +5,25 @@ Pulls latest quote for a watchlist of major equity indices, currencies,
 treasuries (via ETF proxies), and key commodities. Stores values to the
 snapshot store so day-over-day deltas show up automatically.
 
-Requires FINNHUB_API_KEY in env. Falls back to empty section if missing.
+Uses Finnhub when FINNHUB_API_KEY is set; otherwise falls back to Yahoo's
+keyless chart endpoint, so the section populates with or without the key. Only a
+total fetch failure (every symbol, on the chosen provider) is treated as an
+outage and raised.
 """
 from __future__ import annotations
 
 import os
 import time
 from datetime import datetime, timezone
+from typing import Optional
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError
 
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 QUOTE = "https://finnhub.io/api/v1/quote"
+YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
 
 # (symbol, label, group). All accessible on Finnhub free tier.
 WATCHLIST = [
@@ -53,35 +58,62 @@ WATCHLIST = [
 ]
 
 
-def _fetch_quote(session, key, symbol):
-    # Per-symbol best-effort: one bad ticker must not fail the whole section.
-    # Narrowed to the expected network/parse errors so a programming error
-    # still surfaces instead of being silently swallowed as None.
+# Both fetchers return a normalized {c, d, dp, h, l, t} dict (Finnhub's shape)
+# or None on a per-symbol failure. One bad ticker must not fail the section.
+
+def _fetch_quote_finnhub(session, key, symbol) -> Optional[dict]:
     try:
         r = session.get(QUOTE, params={"symbol": symbol, "token": key}, timeout=12)
         r.raise_for_status()
-        return r.json()
+        q = r.json()
     except (requests.RequestException, ValueError):
         return None
+    c = q.get("c")
+    if c in (None, 0):
+        return None
+    return {"c": c, "d": q.get("d"), "dp": q.get("dp"),
+            "h": q.get("h"), "l": q.get("l"), "t": q.get("t")}
+
+
+def _fetch_quote_yahoo(session, symbol) -> Optional[dict]:
+    """Keyless fallback. Yahoo's v8 chart endpoint carries price + previous
+    close in `meta`; we derive the change to match Finnhub's shape."""
+    try:
+        r = session.get(YAHOO.format(symbol=symbol),
+                        params={"range": "1d", "interval": "1d"}, timeout=12)
+        r.raise_for_status()
+        result = (((r.json() or {}).get("chart") or {}).get("result") or [])
+    except (requests.RequestException, ValueError):
+        return None
+    meta = (result[0].get("meta") if result else None) or {}
+    c = meta.get("regularMarketPrice")
+    pc = meta.get("chartPreviousClose") or meta.get("previousClose")
+    if c is None or not pc:
+        return None
+    d = c - pc
+    return {"c": c, "d": d, "dp": (d / pc) * 100 if pc else 0.0,
+            "h": meta.get("regularMarketDayHigh"),
+            "l": meta.get("regularMarketDayLow"),
+            "t": meta.get("regularMarketTime")}
 
 
 class MarketsSection(Section):
     id = "markets"
-    title = "Markets snapshot (Finnhub)"
+    title = "Markets snapshot"
     emoji = "📈"
 
     THROTTLE_S = 0.6
 
     def pull(self) -> list[dict]:
         key = os.environ.get("FINNHUB_API_KEY")
-        if not key:
-            return []
+        provider = "Finnhub" if key else "Yahoo"
         s = requests.Session()
         s.headers["User-Agent"] = UA
         items: list[dict] = []
         fetch_failures = 0
         for symbol, label, group in WATCHLIST:
-            q = _fetch_quote(s, key, symbol)
+            q = (_fetch_quote_finnhub(s, key, symbol) if key
+                 else _fetch_quote_yahoo(s, symbol))
             if not q:
                 fetch_failures += 1
                 time.sleep(self.THROTTLE_S)
@@ -92,9 +124,6 @@ class MarketsSection(Section):
             h = q.get("h")  # high
             l = q.get("l")  # low
             t = q.get("t")  # timestamp
-            if c is None or c == 0:
-                time.sleep(self.THROTTLE_S)
-                continue
             dt = (datetime.fromtimestamp(t, tz=timezone.utc).date().isoformat()
                   if t else "")
             arrow = "▲" if (d or 0) >= 0 else "▼"
@@ -120,8 +149,8 @@ class MarketsSection(Section):
         # the section STATE_STALE and carries the last good snapshot forward
         # rather than recording a misleading empty_ok.
         if not items and fetch_failures == len(WATCHLIST):
-            raise RuntimeError(
-                f"all {fetch_failures} Finnhub quote fetches failed "
-                f"(check FINNHUB_API_KEY / API status)"
+            raise UpstreamHTTPError(
+                f"all {fetch_failures} {provider} quote fetches failed "
+                f"(provider down / blocked)"
             )
         return items

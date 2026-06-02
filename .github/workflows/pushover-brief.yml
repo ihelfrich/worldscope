@@ -33,6 +33,10 @@ concurrency:
   group: pushover-brief
   cancel-in-progress: false
 
+# Opt JS actions into Node.js 24 ahead of the 2026-06-16 forced cutover.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   notify:
     runs-on: ubuntu-latest

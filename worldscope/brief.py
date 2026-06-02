@@ -31,6 +31,7 @@ from .sections import SectionState
 from .sections.acled import AcledSection
 from .sections.billionaires import BillionairesSection
 from .sections.cisa_kev import CisaKevSection
+from .sections.epss import EpssSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
 from .sections.congressional_trades import CongressionalTradesSection
@@ -47,7 +48,10 @@ from .sections.markets import MarketsSection
 from .sections.mediacloud import MediaCloudSection
 from .sections.people import PeopleSection
 from .sections.promed import PromedSection
+from .sections.who_don import WhoDonSection
 from .sections.reliefweb import ReliefWebSection
+from .sections.gdacs import GdacsSection
+from .sections.usgs_quakes import UsgsQuakesSection
 from .sections.sanctions import SanctionsSection
 from .sections.chinese_internal import ChineseInternalSection
 from .sections.foreign_news import ForeignNewsSection
@@ -100,9 +104,13 @@ SECTION_REGISTRY = [
     FirmsSection,
     VipFlightsSection,
     PromedSection,
+    WhoDonSection,
     CisaKevSection,
+    EpssSection,
     WikidataChangesSection,
     ReliefWebSection,
+    GdacsSection,
+    UsgsQuakesSection,
     ForecastsSection,
     CommentarySection,
     # Must run AFTER congressional_trades, gdelt_gkg, and form4: it reads
@@ -223,6 +231,99 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         for mname, mpath in UkraineMaps().render_all(today.isoformat()).items():
             print(f"[ukraine-maps] {mname}: {mpath}")
 
+    def _stage_signals() -> None:
+        # Cross-source signal fusion. Reads the lake the sections just populated,
+        # ranks entities/themes by how many INDEPENDENT sections corroborate them,
+        # logs the strongest as falsifiable predictions (auto-graded later to build
+        # a calibrated track record), grades any predictions now due, and prepends
+        # a "Signals" panel to the brief. Failure here never blocks the brief.
+        from . import signals as _sg
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            sigs = _sg.build_signals(today=today, days=_sg.DEFAULT_WINDOW_DAYS, conn=conn)
+            preds = _sg.signals_to_predictions(sigs, today=today)
+            n_written = _sg.persist_predictions(lake, preds)
+            graded = _sg.grade_due_predictions(lake, conn, today=today)
+            panel = _sg.render_signals_panel(sigs, preds)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[signals] {len(sigs)} cross-source signals · "
+                  f"wrote {n_written} predictions · graded {graded} due")
+        finally:
+            lake.close()
+
+    def _stage_integrity() -> None:
+        # Data-integrity report. Classifies every section (fresh / stale / empty /
+        # failed / no-key / skipped) from the lake + source_health, writes a _meta
+        # artifact, and prepends an honest "Data integrity" panel — the
+        # auto-generated, accurate replacement for hand-written DATA NOTE prose.
+        from . import integrity as _ig
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            sids = [c.id for c in SECTION_REGISTRY]
+            reports = _ig.assess(conn, sids, today=today, store=store)
+            _ig.write_artifact(today, reports)
+            panel = _ig.render_integrity_panel(reports)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[integrity] {_ig.summary_line(reports)}")
+        finally:
+            lake.close()
+
+    def _stage_radar() -> None:
+        # Research radar. Reads the same populated lake the sections wrote,
+        # flags developments (surges + novel multi-section emergence) into the
+        # anomalies table, scores every source's credibility by cross-source
+        # corroboration, seeds candidate new sources, persists a _meta artifact
+        # the desk-officer routine can read, and prepends a "Research radar"
+        # panel to the brief. Failure here never blocks the brief.
+        from . import radar as _rd
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            records = _rd._load_records(today, _rd.RADAR_WINDOW_DAYS, conn)
+            agg = _rd.aggregate_keys(records, today=today, days=_rd.RADAR_WINDOW_DAYS)
+            devs = _rd.detect_developments(agg, today=today, days=_rd.RADAR_WINDOW_DAYS)
+            creds = _rd.score_sources(
+                records, health_by_source=_rd._health_map(conn),
+                tier_by_source=_rd._tier_map(conn))
+            candidates = _rd.discover_candidate_sources(
+                records, known_hosts=_rd._known_hosts(conn))
+            n_anom = _rd.persist_developments(lake, devs, today=today)
+            _rd.write_radar_artifact(today, devs, creds, candidates)
+            panel = _rd.render_radar_panel(devs, creds)
+            if panel:
+                sections_html.insert(0, panel)
+            print(f"[radar] {len(devs)} developments · {n_anom} anomalies written "
+                  f"· {len(creds)} sources scored · {len(candidates)} candidate sources")
+        finally:
+            lake.close()
+
+    def _stage_claims() -> None:
+        # The evidence engine: cluster the lake's records into typed, evidence-
+        # graded claims (status from corroboration + source tier, with denial
+        # detection), persist claims + claim_evidence, and prepend a "Claims"
+        # panel. Reads the same records signals/radar use. Never blocks a brief.
+        from . import claims as _cl
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            cls = _cl.build_from_lake(today=today, days=_cl.DEFAULT_WINDOW_DAYS, conn=conn)
+            n = _cl.persist_claims(lake, cls, today=today)
+            panel = _cl.render_claims_panel(cls)
+            if panel:
+                sections_html.insert(0, panel)
+            n_contra = sum(1 for c in cls if c.status == "contradicted")
+            print(f"[claims] {len(cls)} claims · {n_contra} contradicted · persisted {n}")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -248,6 +349,10 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("maps", _stage_maps),
         ("ukraine-maps", _stage_ukraine_maps),
         ("cross-section", _stage_cross_section),
+        ("integrity", _stage_integrity),
+        ("signals", _stage_signals),
+        ("radar", _stage_radar),
+        ("claims", _stage_claims),
         ("site-builder", _stage_site_builder),
     ):
         _run_stage(label, fn)

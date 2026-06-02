@@ -50,6 +50,12 @@ LEAFLET_SCRIPT = """
 (function(){
   const el = document.getElementById('gridmap');
   if (!el) return;
+  if (typeof L === 'undefined') {       // Leaflet CDN blocked/unreachable
+    el.classList.add('ws-map-unavailable');
+    el.innerHTML = '<p class="ws-meta" style="padding:1rem">Interactive map '
+      + 'unavailable (map library did not load).</p>';
+    return;
+  }
   const fc = %%GEOJSON%%;
   const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {

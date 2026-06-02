@@ -18,7 +18,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError
 
 DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
@@ -60,15 +60,16 @@ class GdeltRegionsSection(Section):
     # especially). We use a higher baseline throttle and retry on 429 with
     # exponential backoff.
     PER_COUNTRY = 6
-    THROTTLE_S = 2.0
-    MAX_RETRIES = 3
+    THROTTLE_S = 0.7
+    MAX_RETRIES = 2
     PULL_TIMEOUT_S = 90    # 19 countries × ~3s each, with retries on 429
+    BUDGET_S = 70          # stop with margin so we return partial, not PullTimeout
 
     def _fetch_one(self, code: str, params: dict) -> dict | None:
-        backoff = 4.0
+        backoff = 2.0
         for attempt in range(self.MAX_RETRIES):
             try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=25)
+                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=12)
                 if resp.status_code == 429:
                     time.sleep(backoff)
                     backoff *= 2
@@ -86,7 +87,11 @@ class GdeltRegionsSection(Section):
         items: list[dict] = []
         end = datetime.now(timezone.utc)
         start = end - timedelta(hours=36)
+        got_any = False
+        deadline = time.monotonic() + self.BUDGET_S
         for code, name in WATCHLIST:
+            if time.monotonic() > deadline:
+                break  # budget spent — return partial instead of overrunning
             params = {
                 "query": f"sourcecountry:{code} sourcelang:english",
                 "mode": "artlist",
@@ -100,6 +105,7 @@ class GdeltRegionsSection(Section):
             if data is None:
                 time.sleep(self.THROTTLE_S)
                 continue
+            got_any = True
             for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
                 # GDELT returns seendate like "20260525T180000Z"
                 seen = art.get("seendate", "")
@@ -121,4 +127,7 @@ class GdeltRegionsSection(Section):
             time.sleep(self.THROTTLE_S)
         # Sort newest first for the briefing
         items.sort(key=lambda it: it.get("date", ""), reverse=True)
+        if not items and not got_any:
+            raise UpstreamHTTPError(
+                "GDELT returned nothing for any country (rate-limited / blocked)")
         return items

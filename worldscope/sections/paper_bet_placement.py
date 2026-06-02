@@ -109,27 +109,45 @@ def _load_market_state(target_date: str) -> list[dict]:
     return markets[:30]
 
 
-def _call_claude_for_decisions(summaries: dict[str, str],
-                               markets: list[dict]) -> list[dict]:
-    """Ask Claude Sonnet which markets are mispriced given today's evidence.
-    Returns a list of decision dicts. Empty list on any failure (degraded ok)."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        sys.stderr.write("[paper_bet_placement] no ANTHROPIC_API_KEY; skipping placement\n")
-        return []
+def _load_signals(target_date: str) -> list:
+    """Build today's cross-source fusion signals from the lake the other
+    sections just populated. Returns a ranked list of signals.Signal; empty on
+    any failure (placement degrades to summary-only, as before)."""
     try:
-        from anthropic import Anthropic
-    except ImportError:
-        sys.stderr.write("[paper_bet_placement] anthropic SDK missing; skipping placement\n")
+        from datetime import date as _date
+        from ..signals import build_signals
+        return build_signals(today=_date.fromisoformat(target_date), days=7)
+    except Exception as exc:
+        sys.stderr.write(f"[paper_bet_placement] signal load failed: "
+                         f"{type(exc).__name__}: {exc}\n")
         return []
 
-    # Compose the evidence brief
-    evidence_blocks = []
-    for sec, text in summaries.items():
-        evidence_blocks.append(f"### {sec}\n\n{text}\n")
-    evidence_md = "\n---\n".join(evidence_blocks) if evidence_blocks else "(no section summaries available yet)"
 
-    # Compose the market roster
+def _format_signal_roster(signals: list, *, limit: int = 15) -> str:
+    """One line per top signal: key, corroboration breadth, persist prob, and
+    the sections that corroborate it. This is the structured cross-source
+    context the model uses to favour convergence-backed markets."""
+    if not signals:
+        return "(no cross-source signals surfaced today)"
+    lines = []
+    for i, s in enumerate(signals[:limit], start=1):
+        secs = ", ".join(s.sections[:6]) + ("…" if len(s.sections) > 6 else "")
+        lines.append(
+            f"{i}. {s.label[:70]} — {s.n_sections} sections [{secs}] · "
+            f"{int(round(s.confidence * 100))}% persist · key='{s.key}'"
+        )
+    return "\n".join(lines)
+
+
+def _build_decision_prompts(summaries: dict[str, str], markets: list[dict],
+                            signals: list) -> tuple[str, str]:
+    """Construct (system_prompt, user_prompt) for the placement decision.
+
+    Pure and side-effect-free so it can be unit-tested without an API key."""
+    evidence_blocks = [f"### {sec}\n\n{text}\n" for sec, text in summaries.items()]
+    evidence_md = ("\n---\n".join(evidence_blocks)
+                   if evidence_blocks else "(no section summaries available yet)")
+
     market_lines = []
     for i, m in enumerate(markets, start=1):
         price = m.get("yes_price")
@@ -139,22 +157,26 @@ def _call_claude_for_decisions(summaries: dict[str, str],
             f"vol={m.get('volume',0):,.0f}  ends={m.get('end_date') or 'n/a'}"
         )
     market_roster = "\n".join(market_lines)
+    signal_roster = _format_signal_roster(signals)
 
     system_prompt = (
         "You are the paper-bet decision module for an OSINT research platform. "
-        "You are given today's evidence summaries across multiple sections plus "
-        "a list of active prediction markets with current YES prices.\n\n"
-        "Your job: identify markets where the evidence in today's summaries "
-        "suggests the true probability is meaningfully different from the "
-        "current market price. For each such market, output a decision JSON "
-        "specifying side (YES/NO), our internal credence (0-1), confidence "
-        "band (low/medium/high), and the rationale citing specific evidence.\n\n"
+        "You are given (a) today's evidence summaries across many sections, "
+        "(b) a ranked list of CROSS-SOURCE SIGNALS — entities/themes corroborated "
+        "by multiple INDEPENDENT sections today — and (c) active prediction "
+        "markets with current YES prices.\n\n"
+        "Your job: find markets where today's evidence implies a true probability "
+        "meaningfully different from the market price. Treat the cross-source "
+        "signals as your highest-value lens: a market whose outcome is driven by a "
+        "theme that is converging across many independent sections deserves more "
+        "weight than one supported by a single section or none.\n\n"
         "Hard rules:\n"
         f"- Only output decisions where |credence - market_price| >= {EDGE_THRESHOLD}.\n"
-        "- Confidence band 'low' for thin evidence, 'medium' for solid single-"
-        "  source evidence, 'high' for multi-source converging evidence.\n"
-        "- Cite specific section names in the rationale (e.g. 'per state_bills "
-        "  section: California AB-2643 just passed Privacy committee').\n"
+        "- Confidence band: 'high' ONLY when the thesis is backed by a signal "
+        "  corroborated across 3+ independent sections; 'medium' for solid single-"
+        "  source evidence; 'low' for thin evidence.\n"
+        "- Cite the specific section names AND any cross-source signal keys that "
+        "  support each decision.\n"
         f"- Output AT MOST {MAX_NEW_BETS_PER_DAY} decisions, ranked by edge × confidence.\n"
         "- Output VALID JSON only — a single array of objects. No prose, no "
         "  markdown fences, no commentary.\n\n"
@@ -166,14 +188,37 @@ def _call_claude_for_decisions(summaries: dict[str, str],
         '  "credence": float 0-1,\n'
         '  "confidence_band": "low" | "medium" | "high",\n'
         '  "rationale": str,\n'
-        '  "evidence_sections": [str, ...]\n'
+        '  "evidence_sections": [str, ...],\n'
+        '  "signals_cited": [str, ...]\n'
         "}"
     )
     user_prompt = (
+        f"## Cross-source signals (ranked; multi-section convergence)\n\n{signal_roster}\n\n"
         f"## Today's evidence (across sections)\n\n{evidence_md}\n\n"
         f"## Active prediction markets (top 30 by volume)\n\n{market_roster}\n\n"
         "Return the JSON array of decisions now."
     )
+    return system_prompt, user_prompt
+
+
+def _call_claude_for_decisions(summaries: dict[str, str],
+                               markets: list[dict],
+                               signals: Optional[list] = None) -> list[dict]:
+    """Ask Claude Sonnet which markets are mispriced given today's evidence and
+    cross-source signals. Returns a list of decision dicts. Empty list on any
+    failure (degraded ok)."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        sys.stderr.write("[paper_bet_placement] no ANTHROPIC_API_KEY; skipping placement\n")
+        return []
+    try:
+        from anthropic import Anthropic
+    except ImportError:
+        sys.stderr.write("[paper_bet_placement] anthropic SDK missing; skipping placement\n")
+        return []
+
+    system_prompt, user_prompt = _build_decision_prompts(
+        summaries, markets, signals or [])
 
     try:
         client = Anthropic(api_key=api_key)
@@ -226,6 +271,9 @@ class PaperBetPlacementSection(Section):
             exclude={"paper_bets", "paper_bet_placement"},
         )
         markets = _load_market_state(today)
+        # Cross-source fusion signals from the lake the other sections just
+        # populated — the structured convergence context for the decision.
+        signals = _load_signals(today)
 
         if not markets:
             return [{
@@ -239,7 +287,7 @@ class PaperBetPlacementSection(Section):
                 "_skipped": True,
             }]
 
-        decisions = _call_claude_for_decisions(summaries, markets)
+        decisions = _call_claude_for_decisions(summaries, markets, signals)
 
         if not decisions:
             return [{
@@ -280,6 +328,14 @@ class PaperBetPlacementSection(Section):
                     f"{today}|{market_id}|{side}".encode()
                 ).hexdigest()
 
+                evidence_sections = d.get("evidence_sections", []) or []
+                signals_cited = d.get("signals_cited", []) or []
+                # Persist both the cited section names and the cross-source
+                # signal keys, so the bet's provenance is auditable.
+                evidence = list(evidence_sections) + [
+                    f"signal:{k}" for k in signals_cited
+                ]
+
                 lake.add_paper_bet(
                     bet_id=bet_id,
                     market_platform=market.get("platform", "unknown"),
@@ -291,8 +347,8 @@ class PaperBetPlacementSection(Section):
                     size_usd=size_usd,
                     price_at_bet=price,
                     rationale=d.get("rationale", "")[:1000],
-                    evidence=d.get("evidence_sections", []),
-                    model_version=f"placement-v1::{MODEL}",
+                    evidence=evidence,
+                    model_version=f"placement-v2-signals::{MODEL}",
                     confidence_band=confidence_band,
                     section_id=self.id,
                 )
@@ -313,7 +369,8 @@ class PaperBetPlacementSection(Section):
                     "market_price": price,
                     "edge": edge,
                     "confidence_band": confidence_band,
-                    "evidence_sections": d.get("evidence_sections", []),
+                    "evidence_sections": evidence_sections,
+                    "signals_cited": signals_cited,
                     "rationale": d.get("rationale", ""),
                     "market_platform": market.get("platform"),
                     "market_id": market_id,
@@ -362,6 +419,8 @@ class PaperBetPlacementSection(Section):
             lines.append(f"- our credence: **{bet['credence']:.2f}** (edge **{bet['edge']*100:.1f}%**)")
             lines.append(f"- size: **${bet['size_usd']:.2f}**  confidence: **{bet['confidence_band']}**")
             lines.append(f"- evidence cited: {', '.join(bet.get('evidence_sections', []))}")
+            if bet.get("signals_cited"):
+                lines.append(f"- signals cited: {', '.join(bet.get('signals_cited', []))}")
             lines.append(f"- rationale: {bet.get('rationale','')[:400]}")
             lines.append("")
 
@@ -392,8 +451,9 @@ class PaperBetPlacementSection(Section):
                 "size_usd": item.get("size_usd"),
                 "price_at_bet": item.get("market_price"),
                 "rationale": item.get("rationale", ""),
-                "evidence": item.get("evidence_sections", []),
+                "evidence": (item.get("evidence_sections", [])
+                             + [f"signal:{k}" for k in item.get("signals_cited", [])]),
                 "confidence_band": item.get("confidence_band"),
-                "model_version": f"placement-v1::{MODEL}",
+                "model_version": f"placement-v2-signals::{MODEL}",
             })
         return base

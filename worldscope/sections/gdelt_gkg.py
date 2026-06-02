@@ -27,7 +27,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 from ..lib.watchareas import WatchArea, load_watch_areas
-from . import Section
+from . import Section, UpstreamHTTPError
 
 DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
@@ -40,15 +40,19 @@ class GdeltGkgSection(Section):
 
     PULL_TIMEOUT_S = 180
     PER_QUERY = 25
-    THROTTLE_S = 2.0
-    MAX_RETRIES = 3
+    THROTTLE_S = 0.7
+    MAX_RETRIES = 2
     HOURS_BACK = 36
+    # Wall-clock budget for the whole pull: stop issuing queries with margin to
+    # spare so we return the partial result we have instead of being killed by
+    # the PULL_TIMEOUT_S deadline (GDELT 429s used to make this loop overrun).
+    BUDGET_S = 150
 
     def _fetch(self, params: dict) -> dict | None:
-        backoff = 4.0
+        backoff = 2.0
         for _ in range(self.MAX_RETRIES):
             try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=25)
+                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=12)
                 if resp.status_code == 429:
                     time.sleep(backoff)
                     backoff *= 2
@@ -99,8 +103,14 @@ class GdeltGkgSection(Section):
         edt = end.strftime("%Y%m%d%H%M%S")
         out: list[dict] = []
         seen_urls: set[str] = set()
+        got_any = False
+        deadline = time.monotonic() + self.BUDGET_S
         for area in areas:
+            if time.monotonic() > deadline:
+                break  # budget spent — return what we have, don't overrun
             for qstr, sub in self._build_queries(area):
+                if time.monotonic() > deadline:
+                    break
                 params = {
                     "query": qstr,
                     "mode": "artlist",
@@ -114,6 +124,7 @@ class GdeltGkgSection(Section):
                 time.sleep(self.THROTTLE_S)
                 if not data:
                     continue
+                got_any = True
                 for art in (data.get("articles") or []):
                     url = art.get("url") or ""
                     if not url or url in seen_urls:
@@ -145,4 +156,7 @@ class GdeltGkgSection(Section):
                         "_source": self.id,
                     })
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
+        if not out and not got_any:
+            raise UpstreamHTTPError(
+                "GDELT returned nothing for any query (rate-limited / blocked)")
         return out
