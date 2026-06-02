@@ -34,7 +34,7 @@ import argparse
 import json
 import os
 from dataclasses import dataclass, field
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -263,7 +263,7 @@ def write_artifact(today: date, reports: list[SectionIntegrity], *,
     out_path = out_dir / "integrity.json"
     out_path.write_text(json.dumps({
         "date": today.isoformat(),
-        "generated_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "summary": summary_line(reports),
         "sections": [r.to_dict() for r in reports],
     }, indent=2), encoding="utf-8")
