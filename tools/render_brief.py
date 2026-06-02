@@ -611,14 +611,22 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
 
 
 def render_root_landing(out_root: Path) -> None:
-    """Top-level dist/index.html.
+    """Top-level dist/index.html — the WORLDSCOPE homepage.
 
-    Strategy: the landing page IS the latest brief. We copy the rendered HTML
-    of the newest brief verbatim and rewrite its internal nav and asset paths
-    so relative links still resolve from /worldscope/ instead of
-    /worldscope/briefings/. This gives visitors the rich brief on first load
-    instead of a sparse hero card.
-    """
+    The homepage is the 'Reasoned' intelligence brief, generated from the live
+    claim graph (judgment / key developments / current reporting, graded by
+    cross-source corroboration). Self-contained HTML, no build step. If that
+    generation fails for any reason, fall back to the previous behavior (copy
+    the newest rendered brief) so a deploy is never blocked."""
+    import datetime as _d
+    try:
+        import render_reasoned
+        out = render_reasoned.render_homepage(_d.date.today(), out_root)
+        print(f"  homepage (reasoned) -> {out}")
+        return
+    except Exception as exc:
+        print(f"  reasoned homepage failed ({type(exc).__name__}: {exc}); "
+              f"falling back to brief copy")
     daily_dir = out_root / "briefings"
     latest = sorted(daily_dir.glob("*.html"), reverse=True) if daily_dir.exists() else []
     latest = [p for p in latest if p.name != "index.html"]
