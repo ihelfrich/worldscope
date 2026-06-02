@@ -29,14 +29,41 @@ from worldscope.lake import Lake              # noqa: E402
 PROTOTYPE = REPO / "dist" / "mockups" / "next" / "reasoned.html"
 OUT = REPO / "dist" / "mockups" / "next" / "reasoned-live.html"
 
-# claim status -> ledger pill class + human label
+# claim status -> ledger pill class + assessment label (intelligence nomenclature)
 _STAT = {
-    "primary_confirmed": ("hit", "primary-confirmed"),
-    "multi_source": ("open", "multi-source"),
-    "single_source": ("open", "single-source"),
-    "contradicted": ("miss", "contradicted"),
-    "not_enough_info": ("open", "unverified"),
+    "primary_confirmed": ("hit", "CONFIRMED"),
+    "multi_source": ("open", "CORROBORATED"),
+    "single_source": ("open", "SINGLE-SOURCE"),
+    "contradicted": ("miss", "DISPUTED"),
+    "not_enough_info": ("open", "UNCONFIRMED"),
 }
+
+# Drop sports/entertainment clusters — real multi-source, but not intelligence.
+_NOISE = re.compile(
+    r"\b(vs\.?|game \d|world cup|nba|playoffs?|finals?|french open|roland garros|"
+    r"atp|wta|grand slam|premier league|la liga|serie a|bundesliga|champions league|"
+    r"fifa|uefa|olympic|super bowl|formula 1|grand prix|knocked out|"
+    r"quarter-?final|semi-?final|transfer window|box office|grammy|oscar)\b", re.I)
+
+
+def _relevant(c) -> bool:
+    return not _NOISE.search(c.claim_text or "")
+
+
+def _headline(text: str, max_words: int = 14) -> str:
+    """First clause of the lead claim, as a tight headline."""
+    t = re.split(r"(?<=[a-z])\.\s|[;:]| — ", (text or "").strip())[0]
+    t = re.split(r",\s", t)[0] if len(t.split()) > max_words else t
+    words = t.split()
+    if len(words) > max_words:
+        t = " ".join(words[:max_words])
+    return t.rstrip(" .,;:–—-")
+
+
+def _oneline(text: str, max_chars: int = 150) -> str:
+    """First sentence of a claim, capped — no run-ons in the lists."""
+    t = re.split(r"(?<=[a-z])\.\s", (text or "").strip())[0].strip()
+    return (t[:max_chars].rstrip() + "…") if len(t) > max_chars else t
 
 
 def _css() -> str:
@@ -69,6 +96,7 @@ def _gather(today: date):
 
 def render(today: date) -> Path:
     claims, reports, fresh, n_preds = _gather(today)
+    claims = [c for c in claims if _relevant(c)]
     n = len(reports)
 
     # hero = the most-corroborated non-contradicted claim; fall back to the first
@@ -90,11 +118,12 @@ def render(today: date) -> Path:
     # ---- judgment hero ----
     if hero:
         _, hlabel = _STAT.get(hero.status, ("open", hero.status))
-        h1 = _esc(hero.claim_text)
-        stand = (f"Carried by {hero.n_sources} sources across {hero.n_sections} "
-                 f"independent sections. Status: {hlabel}. "
-                 + (hero.contradiction_note and _esc(hero.contradiction_note) or
-                    "Read the evidence below."))
+        h1 = _esc(_headline(hero.claim_text))
+        conf_word = ("high" if hero.confidence >= 0.75 else
+                     "moderate" if hero.confidence >= 0.55 else "low")
+        stand = (f"We assess with {conf_word} confidence; {hero.n_sources} sources "
+                 f"across {hero.n_sections} independent sections. "
+                 + (_esc(hero.contradiction_note) if hero.contradiction_note else ""))
         status_bar = "".join([
             f"<div class='seg'><div class='k'>Confidence</div>"
             f"<div class='conf'>{int(hero.confidence*100)}% <span class='cbar'>"
@@ -116,7 +145,7 @@ def render(today: date) -> Path:
         rows.append(
             f"<div class='note'><div class='h'>{label} · {int(c.confidence*100)}%"
             f" · {c.n_sources} sources</div>"
-            f"<p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>{_esc(c.claim_text)}</p>"
+            f"<p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>{_esc(_oneline(c.claim_text))}</p>"
             f"<div class='srcbar' style='margin-top:8px'>{srcs}</div></div>")
     reading = "".join(rows)
 
@@ -126,7 +155,7 @@ def render(today: date) -> Path:
         pill, label = _STAT.get(c.status, ("open", c.status))
         calls.append(
             "<div class='call'>"
-            f"<div class='q'>{_esc(c.claim_text)}"
+            f"<div class='q'>{_esc(_oneline(c.claim_text, 130))}"
             f"<div class='meta'>{_esc(', '.join(c.topics[:4]))} · {c.claim_type.replace('_',' ')}</div></div>"
             f"<div class='prob'><span class='m'><b style='width:{int(c.confidence*100)}%'></b></span>"
             f"<span class='pct'>{int(c.confidence*100)}%</span></div>"
@@ -142,15 +171,15 @@ def render(today: date) -> Path:
         <circle cx="20" cy="20" r="11" stroke="#9A6B00" stroke-width="1"/>
         <path d="M20 3 L20 37 M3 20 L37 20" stroke="#9A6B00" stroke-width=".6" opacity=".5"/>
         <circle cx="20" cy="20" r="3.2" fill="#7A2A20"/></svg>
-      <div class="nm"><b>WORLDSCOPE</b><span>INTELLIGENCE THAT SHOWS ITS WORK</span></div>
+      <div class="nm"><b>WORLDSCOPE</b><span>DAILY INTELLIGENCE BRIEF</span></div>
     </div>
     <div class="ledgerstrip">{ribbon}</div>
   </header>
-  <div class="subbar"><span class="live"><i></i>LIVE · {today.isoformat()}</span>
-    <span>FROM THE LAKE · {len(claims)} CLAIMS · FOR DR. IAN HELFRICH</span></div>
+  <div class="subbar"><span class="live"><i></i>{today.strftime('%A %d %B %Y').upper()}</span>
+    <span>OSINT · ALL-SOURCE · PREPARED FOR DR. I. HELFRICH</span></div>
 
   <section class="judgment">
-    <div class="eyebrow">Today's read · {n_primary} confirmed, {n_contra} contradicted</div>
+    <div class="eyebrow">Key judgment</div>
     <h1>{h1}</h1>
     <p class="stand">{stand}</p>
     <div class="status">{status_bar}</div>
@@ -158,27 +187,26 @@ def render(today: date) -> Path:
 
   <div class="reading">
     <div class="essay">
-      <p style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Most-corroborated claims</p>
+      <p style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Key developments</p>
       {reading}
     </div>
     <aside>
-      <div class="note"><div class="h">How to read this</div>
-        <p>Every claim is a cluster of real records that assert the same thing.
-        Status and confidence come from how many independent sources corroborate
-        it — and whether any source denies it. Nothing here is hand-asserted.</p></div>
+      <div class="note"><div class="h">Sourcing &amp; confidence</div>
+        <p>Each item is a cluster of independent reports of the same event.
+        Confidence reflects the number of independent sources and their tier;
+        items a source denies are marked DISPUTED. Assessments are derived, not
+        asserted, and every item links to its underlying records.</p></div>
     </aside>
   </div>
 
   <section class="ledger">
-    <div class="head"><h2>The ledger — every claim, scored by its evidence</h2>
-      <span class="sub">{len(claims)} claims · built from the lake</span></div>
-    <p class="intro">Not a feed of headlines: a list of assertions, each graded by
-      cross-source corroboration and source tier, each linking to the records behind it.</p>
+    <div class="head"><h2>Current reporting</h2>
+      <span class="sub">{len(claims)} items · by assessed confidence</span></div>
     <div class="calls">{ledger}</div>
   </section>
 
-  <div class="prov">PROVENANCE · every claim is backed by lake records ingested for {today.isoformat()} ·
-    status &amp; confidence are derived from cross-source corroboration, not asserted · timestamps UTC.</div>
+  <div class="prov">SOURCING · all items drawn from records ingested for {today.isoformat()}; confidence and
+    status are derived from cross-source corroboration and source tier. Times UTC.</div>
 </div>"""
 
     css = _css()
