@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import sys
 from datetime import date, timedelta
@@ -113,30 +114,272 @@ def _esc(s: str) -> str:
 def _gather(today: date):
     lake = Lake.open()
     conn = lake._ensure_open()
-    claims = cl.build_from_lake(today=today, conn=conn)
-    # integrity (section list falls back to lake-distinct when the registry
-    # import is unavailable locally)
+    recs = sg.load_records_from_jsonl(today=today, days=2)
+    tiers = cl._tier_map(conn)
+    claims = (cl.build_claims(recs, today=today, tier_by_source=tiers) if recs
+              else cl.build_from_lake(today=today, conn=conn))
     sids = ig.section_ids_from_registry()
     if not sids:
         sids = sorted({r[0] for r in conn.execute("SELECT DISTINCT section_id FROM records")})
     from worldscope.store import SnapshotStore
     reports = ig.assess(conn, sids, today=today, store=SnapshotStore())
     fresh = sum(1 for r in reports if r.status == "FRESH")
-    # signals -> open prediction count
     sigs = sg.build_signals(today=today, conn=conn)
     preds = sg.signals_to_predictions(sigs, today=today)
     lake.close()
-    return claims, reports, fresh, len(preds)
+    return claims, reports, fresh, preds, recs
+
+
+# ── rich-section builders (charts / markets / theater / outlook) ────────────
+
+CHART_SPECS = [
+    ("gdelt_tone_heatmap", "Global media tone (geographic)"),
+    ("yield_curve", "US Treasury yield curve"),
+    ("fx_oil", "FX &amp; oil"),
+    ("conflict_fatalities", "Conflict fatalities"),
+    ("anomaly_screen", "Cross-section anomaly screen"),
+    ("watchareas_volume", "Watch-area volume"),
+]
+
+
+def _latest_chart_date(today: date) -> Optional[str]:
+    bdir = REPO / "dist" / "briefings"
+    for d in range(0, 9):
+        ds = (today - timedelta(days=d)).isoformat()
+        if (bdir / f"{ds}-yield_curve.png").exists():
+            return ds
+    return None
+
+
+def _section(title: str, inner: str, *, cap: str = "", sid: str = "") -> str:
+    if not inner:
+        return ""
+    cap_html = f"<div class='ws-cap'>{cap}</div>" if cap else ""
+    attr = f" data-ws-section='{sid}' data-ws-label='{_esc(title)}'" if sid else ""
+    return (f"<section class='ws-sec'{attr}><h2 class='ws-h'>{title}</h2>"
+            f"{inner}{cap_html}</section>")
+
+
+def _charts_html(today: date) -> str:
+    cd = _latest_chart_date(today)
+    if not cd:
+        return ""
+    tiles = []
+    for name, label in CHART_SPECS:
+        if (REPO / "dist" / "briefings" / f"{cd}-{name}.png").exists():
+            tiles.append(
+                f"<figure class='ws-chart'><img src='./briefings/{cd}-{name}.png' "
+                f"alt='{label}' loading='lazy'><figcaption>{label}</figcaption></figure>")
+    if not tiles:
+        return ""
+    return _section("Indicators &amp; maps", f"<div class='ws-charts'>{''.join(tiles)}</div>",
+                    cap=f"Generated from lake data · {cd}", sid="indicators")
+
+
+_MKT_ORDER = ["equit", "commod", "rate", "treasur", "bond", "credit", "crypto",
+              "vol", "fx", "currenc"]
+
+
+def _markets_html(recs: list) -> str:
+    # Lake records carry text in original_text (not title); change% in extra.
+    # Bucket by the leading [group] tag and take a cross-asset spread, not the
+    # first 12 (which are all one asset class).
+    buckets: dict = {}
+    for r in recs:
+        if r.get("section_id") != "markets_global":
+            continue
+        line = (r.get("title") or r.get("original_text") or "").split(" — ")[0].strip()
+        if not line:
+            continue
+        gm = re.match(r"^\[([^\]]+)\]", line)
+        grp = (gm.group(1).lower() if gm else "other")
+        buckets.setdefault(grp, [])
+        if line not in [x[0] for x in buckets[grp]]:
+            buckets[grp].append((line, r))
+
+    def _rank(g):
+        for i, key in enumerate(_MKT_ORDER):
+            if key in g:
+                return i
+        return len(_MKT_ORDER)
+
+    rows = []
+    for grp in sorted(buckets, key=_rank):
+        for line, r in buckets[grp][:2]:        # up to 2 per asset class
+            lbl = re.sub(r"^\[[^\]]+\]\s*", "", line)
+            dp = (r.get("extra") or {}).get("change_pct")
+            cls = "up" if (isinstance(dp, (int, float)) and dp >= 0) else "dn"
+            rows.append(f"<div class='row {cls}'><span>{_esc(lbl)}</span></div>")
+            if len(rows) >= 12:
+                break
+        if len(rows) >= 12:
+            break
+    if not rows:
+        return ""
+    return _section("Markets", f"<div class='ws-mkt'>{''.join(rows)}</div>",
+                    cap="Cross-asset levels · markets_global", sid="markets")
+
+
+def _claims_chart_data(ranked: list) -> list:
+    """[{label, sources, status, conf}] for the interactive corroboration chart —
+    the day's reporting ranked by how many independent sources carry it."""
+    out = []
+    for c in ranked[:12]:
+        _, label = _STAT.get(c.status, ("open", c.status))
+        out.append({"label": _oneline(c.claim_text, 44), "sources": c.n_sources,
+                    "status": label, "conf": int(c.confidence * 100)})
+    return out
+
+
+def _theater_html(recs: list, today: date) -> str:
+    th = [r for r in recs if r.get("section_id") == "ukraine_theater"]
+    if not th:
+        return ""
+    seen, items = set(), []
+    for r in th:
+        t = sg._clean_text(r.get("title") or r.get("original_text") or "")
+        if t and t not in seen and len(t) > 12:
+            seen.add(t)
+            items.append(t)
+        if len(items) >= 6:
+            break
+    lis = "".join(f"<li><div class='t'>{_esc(_oneline(t, 150))}</div></li>" for t in items)
+    # embed the most recent theater map if one exists (hourly feed is under repair)
+    bdir = REPO / "dist" / "briefings"
+    map_html = ""
+    for d in range(0, 14):
+        ds = (today - timedelta(days=d)).isoformat()
+        mp = bdir / f"{ds}-ukraine_theater_overview.png"
+        if mp.exists():
+            note = "" if d <= 1 else f" (latest available · {ds})"
+            map_html = (f"<figure class='ws-chart' style='margin-bottom:14px'>"
+                        f"<img src='./briefings/{ds}-ukraine_theater_overview.png' "
+                        f"alt='Ukraine theater'><figcaption>Theater overview{note}</figcaption></figure>")
+            break
+    return _section("Ukraine theater", f"{map_html}<ul class='ws-list'>{lis}</ul>",
+                    cap=f"{len(th)} theater records today", sid="theater")
+
+
+_KEY_RE = re.compile(r"'([^']+)' \(key '([^']+)'\)")
+
+
+def _outlook_html(preds: list) -> str:
+    if not preds:
+        return ""
+    lis = []
+    for p in preds[:6]:
+        crit = p.get("resolution_criteria", "")
+        m = _KEY_RE.search(crit)
+        label = m.group(1) if m else (p.get("_key") or "signal")
+        conf = int(float(p.get("confidence", 0)) * 100)
+        tgt = p.get("target_date", "")
+        lis.append(f"<li><div class='t'>{_esc(label)} stays cross-source-salient</div>"
+                   f"<div class='m'>{conf}% · resolves {tgt}</div></li>")
+    return _section("Outlook — what we're watching",
+                    f"<ul class='ws-list'>{''.join(lis)}</ul>",
+                    cap="Falsifiable calls from cross-source signals · auto-graded", sid="outlook")
+
+
+EXTRA_CSS = """
+.ws-sec{max-width:1180px;margin:0 auto;padding:34px 44px 0}
+.ws-sec h2.ws-h{font-family:var(--serif);font-weight:700;font-size:24px;letter-spacing:-.01em;
+  border-top:2px solid var(--ink);padding-top:16px;margin:0 0 16px}
+.ws-charts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:880px){.ws-charts{grid-template-columns:1fr}.ws-mkt{grid-template-columns:1fr!important}}
+.ws-chart{border:1px solid var(--hair);border-radius:10px;overflow:hidden;background:var(--paper);margin:0}
+.ws-chart img{width:100%;height:auto;display:block}
+.ws-chart figcaption{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--soft);padding:8px 12px;border-top:1px solid var(--hair)}
+.ws-cap{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:10px;letter-spacing:.04em}
+.ws-mkt{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.ws-mkt .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--hair2);
+  font-family:var(--sans);font-size:14px}
+.ws-mkt .row.up{color:var(--ok)} .ws-mkt .row.dn{color:var(--ox)}
+.ws-list{list-style:none;padding:0;margin:0}
+.ws-list li{padding:11px 0;border-bottom:1px solid var(--hair2)}
+.ws-list .t{font-family:var(--serif);font-size:16px;color:var(--ink)}
+.ws-list .m{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:3px}
+"""
+
+
+CUSTOM_CSS = """
+.ws-plot{margin:0 0 18px}
+.ws-plot svg{max-width:100%;height:auto;font-family:var(--sans)}
+#ws-cog{position:fixed;top:14px;right:14px;z-index:60;width:40px;height:40px;border-radius:50%;
+  border:1px solid var(--hair);background:var(--paper);color:var(--ink);font-size:18px;cursor:pointer;
+  box-shadow:0 1px 5px rgba(0,0,0,.10);line-height:1}
+#ws-customize{position:fixed;top:62px;right:14px;z-index:60;background:var(--paper);
+  border:1px solid var(--hair);border-radius:11px;padding:14px 16px;display:none;min-width:190px;
+  box-shadow:0 6px 22px rgba(0,0,0,.14)}
+#ws-customize.open{display:block}
+#ws-customize .ws-cust-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--soft);margin-bottom:10px}
+#ws-customize label{display:flex;align-items:center;gap:8px;font-family:var(--sans);
+  font-size:13.5px;color:var(--ink);padding:5px 0;cursor:pointer}
+"""
+
+CONTROLLER_JS = r"""
+(function(){
+  var KEY="ws-hidden-sections", hidden=[];
+  try{hidden=JSON.parse(localStorage.getItem(KEY)||"[]");}catch(e){}
+  var secs=[].slice.call(document.querySelectorAll("[data-ws-section]"));
+  function apply(){secs.forEach(function(s){
+    s.style.display=hidden.indexOf(s.getAttribute("data-ws-section"))>=0?"none":"";});}
+  apply();
+  var list=document.getElementById("ws-cust-list");
+  if(list){secs.forEach(function(s){
+    var id=s.getAttribute("data-ws-section"), label=s.getAttribute("data-ws-label")||id;
+    var row=document.createElement("label"),
+        cb=document.createElement("input"); cb.type="checkbox"; cb.checked=hidden.indexOf(id)<0;
+    cb.addEventListener("change",function(){
+      if(cb.checked){hidden=hidden.filter(function(x){return x!==id;});}
+      else if(hidden.indexOf(id)<0){hidden.push(id);}
+      try{localStorage.setItem(KEY,JSON.stringify(hidden));}catch(e){}
+      apply();
+    });
+    row.appendChild(cb); row.appendChild(document.createTextNode(" "+label)); list.appendChild(row);
+  });}
+  var cog=document.getElementById("ws-cog"), panel=document.getElementById("ws-customize");
+  if(cog&&panel){cog.addEventListener("click",function(){panel.classList.toggle("open");});}
+  try{
+    var raw=document.getElementById("ws-data");
+    var cl=(raw?JSON.parse(raw.textContent||"{}"):{}).claims||[];
+    var el=document.getElementById("ws-plot-claims");
+    if(el&&cl.length&&window.Plot){
+      var col={CONFIRMED:"#2F6B3A",CORROBORATED:"#2B4257",DISPUTED:"#990000",
+               "SINGLE-SOURCE":"#9A6B00",UNCONFIRMED:"#6F695C"};
+      el.appendChild(Plot.plot({
+        height:Math.max(190,cl.length*26), marginLeft:250, marginRight:28,
+        style:{background:"transparent",fontSize:"11px"},
+        x:{label:"independent sources",grid:true},
+        y:{label:null},
+        marks:[
+          Plot.barX(cl,{y:"label",x:"sources",
+            fill:function(d){return col[d.status]||"#888";},
+            sort:{y:"x",reverse:true}, tip:true,
+            title:function(d){return d.label+"\n"+d.status+" · "+d.conf+"% confidence · "+d.sources+" sources";}})
+        ]
+      }));
+    }
+  }catch(e){if(window.console)console.error(e);}
+})();
+"""
 
 
 def render(today: date, *, homepage: bool = False) -> Path:
     try:
-        claims, reports, fresh, n_preds = _gather(today)
+        claims, reports, fresh, preds, recs = _gather(today)
     except Exception as exc:        # never let homepage generation crash a deploy
-        claims, reports, fresh, n_preds = [], [], 0, 0
+        claims, reports, fresh, preds, recs = [], [], 0, [], []
         print(f"[reasoned] gather failed: {type(exc).__name__}: {exc}")
     claims = [c for c in claims if _relevant(c)]
     n = len(reports)
+    n_preds = len(preds)
+    # rich sections from real assets (each degrades to '' on missing data)
+    charts_html = _charts_html(today)
+    markets_html = _markets_html(recs)
+    theater_html = _theater_html(recs, today)
+    outlook_html = _outlook_html(preds)
 
     # hero = the most-corroborated non-contradicted claim; fall back to the first
     ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
@@ -236,7 +479,7 @@ def render(today: date, *, homepage: bool = False) -> Path:
     <div class="status">{status_bar}</div>
   </section>
 
-  <div class="reading">
+  <div class="reading" data-ws-section="developments" data-ws-label="Key developments">
     <div class="essay">
       <p style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Key developments</p>
       {reading}
@@ -249,10 +492,15 @@ def render(today: date, *, homepage: bool = False) -> Path:
         asserted, and every item links to its underlying records.</p></div>
     </aside>
   </div>
+  {charts_html}
+  {markets_html}
+  {theater_html}
+  {outlook_html}
 
-  <section class="ledger">
+  <section class="ledger" data-ws-section="reporting" data-ws-label="Current reporting">
     <div class="head"><h2>Current reporting</h2>
       <span class="sub">{len(claims)} items · by assessed confidence</span></div>
+    <div id="ws-plot-claims" class="ws-plot"></div>
     <div class="calls">{ledger}</div>
   </section>
 
@@ -260,11 +508,23 @@ def render(today: date, *, homepage: bool = False) -> Path:
     status are derived from cross-source corroboration and source tier. Times UTC.</div>
 </div>"""
 
+    data_json = json.dumps({"claims": _claims_chart_data(ranked)})
+    controls = (
+        "<button id='ws-cog' aria-label='Customize sections' "
+        "title='Customize sections'>⚙</button>"
+        "<div id='ws-customize'><div class='ws-cust-h'>Show sections</div>"
+        "<div id='ws-cust-list'></div></div>"
+        f"<script id='ws-data' type='application/json'>{data_json}</script>"
+        "<script src='./assets/vendor/d3.min.js'></script>"
+        "<script src='./assets/vendor/plot.umd.min.js'></script>"
+        f"<script>{CONTROLLER_JS}</script>")
+
     css = _css()
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>WORLDSCOPE · Reasoned (live) · {today.isoformat()}</title>"
-            f"<style>{css}</style></head><body>{body}</body></html>")
+            f"<style>{css}{EXTRA_CSS}{CUSTOM_CSS}</style></head>"
+            f"<body>{body}{controls}</body></html>")
     out = HOME if homepage else OUT
     out.write_text(page, encoding="utf-8")
     return out
