@@ -1,0 +1,65 @@
+---
+section: state_bills
+title: State Legislative Action
+date: 2026-06-02
+record_count: 234
+new_today: 223
+state: fresh
+---
+
+## State Legislative Action
+
+223 new of 234 total items today.
+
+- **NEW**  [[Alaska SB 143] An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.]() — *2026-06-02*
+  > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
+- **NEW**  [[Alaska HB 13] An Act relating to optional municipal property tax exemptions for real property owned and occupied by volunteer certified or licensed providers of fire fighting, emergency medical, mobile intensive care paramedic services, or hazardous materials response services; relating to optional]() — *2026-06-02*
+  > An Act relating to optional municipal property tax exemptions for real property owned and occupied by volunteer certified or licensed providers of fire fighting, emergency medical, mobile intensive care paramedic services, or hazardous materials response services; relating to opt
+- **NEW**  [[Alaska HB 36] An Act relating to treatment foster homes; relating to the placement of foster children in hospitals and residential psychiatric treatment centers for psychiatric care; relating to the duties of the Department of Family and Community Services; relating to the care of children in state]() — *2026-06-02*
+  > An Act relating to treatment foster homes; relating to the placement of foster children in hospitals and residential psychiatric treatment centers for psychiatric care; relating to the duties of the Department of Family and Community Services; relating to the care of children in 
+- **NEW**  [[Alaska HB 96] An Act establishing the Home Care Employment Standards Advisory Board; relating to payment for personal care services; and providing for an effective date.]() — *2026-06-02*
+  > An Act establishing the Home Care Employment Standards Advisory Board; relating to payment for personal care services; and providing for an effective date.
+- [[Alaska HB 381] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-06-02*
+  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
+- **NEW**  [[Alaska HB 52] An Act relating to the rights of minors undergoing evaluation or inpatient treatment at psychiatric hospitals; relating to the use of seclusion or restraint of minors at psychiatric hospitals; relating to a report published by the Department of Health; relating to inspections by the D]() — *2026-06-02*
+  > An Act relating to the rights of minors undergoing evaluation or inpatient treatment at psychiatric hospitals; relating to the use of seclusion or restraint of minors at psychiatric hospitals; relating to a report published by the Department of Health; relating to inspections by 
+- **NEW**  [[Alaska HB 93] An Act changing the residency requirements for hunting, trapping, and sport fishing privileges; and providing for an effective date.]() — *2026-06-02*
+  > An Act changing the residency requirements for hunting, trapping, and sport fishing privileges; and providing for an effective date.
+- **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-01*
+  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
+- **NEW**  [[Alaska SB 208] An Act relating to industrial hemp; relating to the sale and lease of state land for agricultural uses; designating the O-S Cross cabbage, commonly known as 'giant green cabbage,' as the official state vegetable; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to industrial hemp; relating to the sale and lease of state land for agricultural uses; designating the O-S Cross cabbage, commonly known as 'giant green cabbage,' as the official state vegetable; and providing for an effective date.
+- **NEW**  [[Alaska SB 24] An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use educat]() — *2026-06-01*
+  > An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use e
+- **NEW**  [[Alaska HB 28] An Act relating to education; relating to reimbursement of school district energy costs; relating to correspondence study program materials; relating to substitute teaching; relating to the qualifications of school board members; relating to school consolidation; relating to the requi]() — *2026-06-01*
+  > An Act relating to education; relating to reimbursement of school district energy costs; relating to correspondence study program materials; relating to substitute teaching; relating to the qualifications of school board members; relating to school consolidation; relating to the 
+- **NEW**  [[Alaska HB 27] An Act relating to cardiopulmonary resuscitation education in public schools; relating to the duties of the Department of Education and Early Development; relating to medical care for major emergencies; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to cardiopulmonary resuscitation education in public schools; relating to the duties of the Department of Education and Early Development; relating to medical care for major emergencies; and providing for an effective date.
+- [[Alaska HB 23] An Act renaming the State Commission for Human Rights the Alaska State Commission for Civil Rights; relating to investigations and conciliation by the Alaska State Commission for Civil Rights; relating to removal of commissioners of the Alaska State Commission for Civil Rights; relati]() — *2026-06-01*
+  > An Act renaming the State Commission for Human Rights the Alaska State Commission for Civil Rights; relating to investigations and conciliation by the Alaska State Commission for Civil Rights; relating to removal of commissioners of the Alaska State Commission for Civil Rights; r
+- **NEW**  [[Alaska HB 363] An Act relating to the sale of alcohol; relating to the sale or dispensing of alcoholic beverages by patriotic organizations; relating to club licenses; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to the sale of alcohol; relating to the sale or dispensing of alcoholic beverages by patriotic organizations; relating to club licenses; and providing for an effective date.
+- **NEW**  [[Alaska SB 187] An Act prohibiting certain food additives in public school meals; and providing for an effective date.]() — *2026-06-01*
+  > An Act prohibiting certain food additives in public school meals; and providing for an effective date.
+- **NEW**  [[Alaska HB 239] An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful explo]() — *2026-06-01*
+  > An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful e
+- **NEW**  [[Alaska SB 164] An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.]() — *2026-06-01*
+  > An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.
+- **NEW**  [[Alaska HB 280] An Act relating to the Multistate Tax Compact; relating to apportionment of income to the state, including the apportionment of income of broadcasters, financial institutions, and telecommunications service providers; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to the Multistate Tax Compact; relating to apportionment of income to the state, including the apportionment of income of broadcasters, financial institutions, and telecommunications service providers; and providing for an effective date.
+- **NEW**  [[Alaska SB 258] An Act relating to contracts for the licensing of software applications.]() — *2026-06-01*
+  > An Act relating to contracts for the licensing of software applications.
+- **NEW**  [[Alaska HB 195] An Act changing the term 'physician assistant' to 'physician associate'; relating to physician associates; relating to collaborative practice agreements for pharmacists; relating to the prescription of opioid overdose drugs; relating to the prescription and administration of drugs an]() — *2026-06-01*
+  > An Act changing the term 'physician assistant' to 'physician associate'; relating to physician associates; relating to collaborative practice agreements for pharmacists; relating to the prescription of opioid overdose drugs; relating to the prescription and administration of drug
+- **NEW**  [[Alaska HB 117] An Act relating to electronic monitoring of fishing vessels using trawl gear in a finfish fishery; relating to administrative areas for regulation of certain commercial set net entry permits; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to electronic monitoring of fishing vessels using trawl gear in a finfish fishery; relating to administrative areas for regulation of certain commercial set net entry permits; and providing for an effective date.
+- **NEW**  [[Alaska SB 89] An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certain he]() — *2026-06-01*
+  > An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certa
+- **NEW**  [[Alaska SB 146] An Act relating to the regional educational attendance area and small municipal school district fund; and relating to Mt. Edgecumbe High School.]() — *2026-06-01*
+  > An Act relating to the regional educational attendance area and small municipal school district fund; and relating to Mt. Edgecumbe High School.
+- **NEW**  [[Alaska SB 104] An Act relating to the transfer of a title on the death of the owner; relating to the transferability of common interest community ownership interests; and providing for an effective date.]() — *2026-06-01*
+  > An Act relating to the transfer of a title on the death of the owner; relating to the transferability of common interest community ownership interests; and providing for an effective date.
+- **NEW**  [[Alaska HB 314] An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to ]() — *2026-06-01*
+  > An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating
+
+_(209 additional items in raw.jsonl)_
