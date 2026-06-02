@@ -47,6 +47,7 @@ from .sections.markets import MarketsSection
 from .sections.mediacloud import MediaCloudSection
 from .sections.people import PeopleSection
 from .sections.promed import PromedSection
+from .sections.who_don import WhoDonSection
 from .sections.reliefweb import ReliefWebSection
 from .sections.gdacs import GdacsSection
 from .sections.sanctions import SanctionsSection
@@ -101,6 +102,7 @@ SECTION_REGISTRY = [
     FirmsSection,
     VipFlightsSection,
     PromedSection,
+    WhoDonSection,
     CisaKevSection,
     WikidataChangesSection,
     ReliefWebSection,
