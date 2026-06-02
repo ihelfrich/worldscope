@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-02
-record_count: 234
-new_today: 223
+record_count: 153
+new_today: 143
 state: fresh
 ---
 
 ## State Legislative Action
 
-223 new of 234 total items today.
+143 new of 153 total items today.
 
 - **NEW**  [[Alaska SB 143] An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.]() — *2026-06-02*
   > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Alaska HB 314] An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to ]() — *2026-06-01*
   > An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating
 
-_(209 additional items in raw.jsonl)_
+_(128 additional items in raw.jsonl)_
