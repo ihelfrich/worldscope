@@ -99,3 +99,13 @@ def test_credential_failure_resolves_to_no_data_not_fresh_empty(monkeypatch, tmp
 def test_typed_exceptions_share_a_base():
     for exc in (MissingCredential, UpstreamHTTPError, UpstreamParseError, UpstreamAuthError):
         assert issubclass(exc, SourceUnavailable)
+
+
+def test_gdelt_regions_total_failure_raises(monkeypatch, tmp_path):
+    # Every GDELT fetch failing (rate-limited) must raise, not look like a quiet
+    # day. Budget logic still returns partial when at least one fetch succeeds.
+    from worldscope.sections import gdelt_regions as gr
+    monkeypatch.setattr(gr.GdeltRegionsSection, "_fetch_one", lambda self, c, p: None)
+    monkeypatch.setattr(gr.time, "sleep", lambda *_: None)
+    with pytest.raises(UpstreamHTTPError):
+        gr.GdeltRegionsSection(store=_store(tmp_path)).pull()
