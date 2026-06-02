@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import sys
 from datetime import date, timedelta
@@ -150,11 +151,12 @@ def _latest_chart_date(today: date) -> Optional[str]:
     return None
 
 
-def _section(title: str, inner: str, *, cap: str = "") -> str:
+def _section(title: str, inner: str, *, cap: str = "", sid: str = "") -> str:
     if not inner:
         return ""
     cap_html = f"<div class='ws-cap'>{cap}</div>" if cap else ""
-    return (f"<section class='ws-sec'><h2 class='ws-h'>{title}</h2>"
+    attr = f" data-ws-section='{sid}' data-ws-label='{_esc(title)}'" if sid else ""
+    return (f"<section class='ws-sec'{attr}><h2 class='ws-h'>{title}</h2>"
             f"{inner}{cap_html}</section>")
 
 
@@ -171,7 +173,7 @@ def _charts_html(today: date) -> str:
     if not tiles:
         return ""
     return _section("Indicators &amp; maps", f"<div class='ws-charts'>{''.join(tiles)}</div>",
-                    cap=f"Generated from lake data · {cd}")
+                    cap=f"Generated from lake data · {cd}", sid="indicators")
 
 
 _MKT_ORDER = ["equit", "commod", "rate", "treasur", "bond", "credit", "crypto",
@@ -215,7 +217,18 @@ def _markets_html(recs: list) -> str:
     if not rows:
         return ""
     return _section("Markets", f"<div class='ws-mkt'>{''.join(rows)}</div>",
-                    cap="Cross-asset levels · markets_global")
+                    cap="Cross-asset levels · markets_global", sid="markets")
+
+
+def _claims_chart_data(ranked: list) -> list:
+    """[{label, sources, status, conf}] for the interactive corroboration chart —
+    the day's reporting ranked by how many independent sources carry it."""
+    out = []
+    for c in ranked[:12]:
+        _, label = _STAT.get(c.status, ("open", c.status))
+        out.append({"label": _oneline(c.claim_text, 44), "sources": c.n_sources,
+                    "status": label, "conf": int(c.confidence * 100)})
+    return out
 
 
 def _theater_html(recs: list, today: date) -> str:
@@ -244,7 +257,7 @@ def _theater_html(recs: list, today: date) -> str:
                         f"alt='Ukraine theater'><figcaption>Theater overview{note}</figcaption></figure>")
             break
     return _section("Ukraine theater", f"{map_html}<ul class='ws-list'>{lis}</ul>",
-                    cap=f"{len(th)} theater records today")
+                    cap=f"{len(th)} theater records today", sid="theater")
 
 
 _KEY_RE = re.compile(r"'([^']+)' \(key '([^']+)'\)")
@@ -264,7 +277,7 @@ def _outlook_html(preds: list) -> str:
                    f"<div class='m'>{conf}% · resolves {tgt}</div></li>")
     return _section("Outlook — what we're watching",
                     f"<ul class='ws-list'>{''.join(lis)}</ul>",
-                    cap="Falsifiable calls from cross-source signals · auto-graded")
+                    cap="Falsifiable calls from cross-source signals · auto-graded", sid="outlook")
 
 
 EXTRA_CSS = """
@@ -286,6 +299,70 @@ EXTRA_CSS = """
 .ws-list li{padding:11px 0;border-bottom:1px solid var(--hair2)}
 .ws-list .t{font-family:var(--serif);font-size:16px;color:var(--ink)}
 .ws-list .m{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:3px}
+"""
+
+
+CUSTOM_CSS = """
+.ws-plot{margin:0 0 18px}
+.ws-plot svg{max-width:100%;height:auto;font-family:var(--sans)}
+#ws-cog{position:fixed;top:14px;right:14px;z-index:60;width:40px;height:40px;border-radius:50%;
+  border:1px solid var(--hair);background:var(--paper);color:var(--ink);font-size:18px;cursor:pointer;
+  box-shadow:0 1px 5px rgba(0,0,0,.10);line-height:1}
+#ws-customize{position:fixed;top:62px;right:14px;z-index:60;background:var(--paper);
+  border:1px solid var(--hair);border-radius:11px;padding:14px 16px;display:none;min-width:190px;
+  box-shadow:0 6px 22px rgba(0,0,0,.14)}
+#ws-customize.open{display:block}
+#ws-customize .ws-cust-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--soft);margin-bottom:10px}
+#ws-customize label{display:flex;align-items:center;gap:8px;font-family:var(--sans);
+  font-size:13.5px;color:var(--ink);padding:5px 0;cursor:pointer}
+"""
+
+CONTROLLER_JS = r"""
+(function(){
+  var KEY="ws-hidden-sections", hidden=[];
+  try{hidden=JSON.parse(localStorage.getItem(KEY)||"[]");}catch(e){}
+  var secs=[].slice.call(document.querySelectorAll("[data-ws-section]"));
+  function apply(){secs.forEach(function(s){
+    s.style.display=hidden.indexOf(s.getAttribute("data-ws-section"))>=0?"none":"";});}
+  apply();
+  var list=document.getElementById("ws-cust-list");
+  if(list){secs.forEach(function(s){
+    var id=s.getAttribute("data-ws-section"), label=s.getAttribute("data-ws-label")||id;
+    var row=document.createElement("label"),
+        cb=document.createElement("input"); cb.type="checkbox"; cb.checked=hidden.indexOf(id)<0;
+    cb.addEventListener("change",function(){
+      if(cb.checked){hidden=hidden.filter(function(x){return x!==id;});}
+      else if(hidden.indexOf(id)<0){hidden.push(id);}
+      try{localStorage.setItem(KEY,JSON.stringify(hidden));}catch(e){}
+      apply();
+    });
+    row.appendChild(cb); row.appendChild(document.createTextNode(" "+label)); list.appendChild(row);
+  });}
+  var cog=document.getElementById("ws-cog"), panel=document.getElementById("ws-customize");
+  if(cog&&panel){cog.addEventListener("click",function(){panel.classList.toggle("open");});}
+  try{
+    var raw=document.getElementById("ws-data");
+    var cl=(raw?JSON.parse(raw.textContent||"{}"):{}).claims||[];
+    var el=document.getElementById("ws-plot-claims");
+    if(el&&cl.length&&window.Plot){
+      var col={CONFIRMED:"#2F6B3A",CORROBORATED:"#2B4257",DISPUTED:"#990000",
+               "SINGLE-SOURCE":"#9A6B00",UNCONFIRMED:"#6F695C"};
+      el.appendChild(Plot.plot({
+        height:Math.max(190,cl.length*26), marginLeft:250, marginRight:28,
+        style:{background:"transparent",fontSize:"11px"},
+        x:{label:"independent sources",grid:true},
+        y:{label:null},
+        marks:[
+          Plot.barX(cl,{y:"label",x:"sources",
+            fill:function(d){return col[d.status]||"#888";},
+            sort:{y:"x",reverse:true}, tip:true,
+            title:function(d){return d.label+"\n"+d.status+" · "+d.conf+"% confidence · "+d.sources+" sources";}})
+        ]
+      }));
+    }
+  }catch(e){if(window.console)console.error(e);}
+})();
 """
 
 
@@ -402,7 +479,7 @@ def render(today: date, *, homepage: bool = False) -> Path:
     <div class="status">{status_bar}</div>
   </section>
 
-  <div class="reading">
+  <div class="reading" data-ws-section="developments" data-ws-label="Key developments">
     <div class="essay">
       <p style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Key developments</p>
       {reading}
@@ -420,9 +497,10 @@ def render(today: date, *, homepage: bool = False) -> Path:
   {theater_html}
   {outlook_html}
 
-  <section class="ledger">
+  <section class="ledger" data-ws-section="reporting" data-ws-label="Current reporting">
     <div class="head"><h2>Current reporting</h2>
       <span class="sub">{len(claims)} items · by assessed confidence</span></div>
+    <div id="ws-plot-claims" class="ws-plot"></div>
     <div class="calls">{ledger}</div>
   </section>
 
@@ -430,11 +508,23 @@ def render(today: date, *, homepage: bool = False) -> Path:
     status are derived from cross-source corroboration and source tier. Times UTC.</div>
 </div>"""
 
+    data_json = json.dumps({"claims": _claims_chart_data(ranked)})
+    controls = (
+        "<button id='ws-cog' aria-label='Customize sections' "
+        "title='Customize sections'>⚙</button>"
+        "<div id='ws-customize'><div class='ws-cust-h'>Show sections</div>"
+        "<div id='ws-cust-list'></div></div>"
+        f"<script id='ws-data' type='application/json'>{data_json}</script>"
+        "<script src='./assets/vendor/d3.min.js'></script>"
+        "<script src='./assets/vendor/plot.umd.min.js'></script>"
+        f"<script>{CONTROLLER_JS}</script>")
+
     css = _css()
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>WORLDSCOPE · Reasoned (live) · {today.isoformat()}</title>"
-            f"<style>{css}{EXTRA_CSS}</style></head><body>{body}</body></html>")
+            f"<style>{css}{EXTRA_CSS}{CUSTOM_CSS}</style></head>"
+            f"<body>{body}{controls}</body></html>")
     out = HOME if homepage else OUT
     out.write_text(page, encoding="utf-8")
     return out
