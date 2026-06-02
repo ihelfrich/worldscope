@@ -48,6 +48,7 @@ from .sections.mediacloud import MediaCloudSection
 from .sections.people import PeopleSection
 from .sections.promed import PromedSection
 from .sections.reliefweb import ReliefWebSection
+from .sections.gdacs import GdacsSection
 from .sections.sanctions import SanctionsSection
 from .sections.chinese_internal import ChineseInternalSection
 from .sections.foreign_news import ForeignNewsSection
@@ -103,6 +104,7 @@ SECTION_REGISTRY = [
     CisaKevSection,
     WikidataChangesSection,
     ReliefWebSection,
+    GdacsSection,
     ForecastsSection,
     CommentarySection,
     # Must run AFTER congressional_trades, gdelt_gkg, and form4: it reads
