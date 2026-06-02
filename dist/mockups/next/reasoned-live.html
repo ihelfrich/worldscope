@@ -1,0 +1,160 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>WORLDSCOPE · Reasoned (live) · 2026-06-01</title><style>
+  :root{
+    --bg:#F8F6F0; --paper:#FCFAF4; --ink:#201E18; --soft:#6F695C; --faint:#9A9384;
+    --hair:#E7E1D4; --hair2:#EFEADF; --gold:#9A6B00; --gold-l:#C79A2E; --ox:#7A2A20;
+    --ink2:#2B4257; --ok:#3B6B43;
+    --serif:"Liberation Serif","Iowan Old Style",Palatino,Georgia,serif;
+    --sans:"Liberation Sans","Inter","Helvetica Neue",Arial,sans-serif;
+    --mono:"DejaVu Sans Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--serif);line-height:1.6;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 44px}
+  a{color:var(--ink2);text-decoration:none;border-bottom:1px solid #CDC8BB}
+  .mono{font-family:var(--mono)} .sans{font-family:var(--sans)}
+
+  /* ── standing header: brand + the accountability ribbon ── */
+  header.standing{display:flex;align-items:stretch;justify-content:space-between;gap:30px;
+    border-bottom:2px solid var(--ink);margin-top:24px;padding-bottom:0}
+  .brand{display:flex;align-items:center;gap:12px;padding-bottom:16px}
+  .brand .mk{width:26px;height:26px}
+  .brand .nm b{font-family:var(--sans);font-weight:800;letter-spacing:.26em;font-size:16px;display:block}
+  .brand .nm span{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--soft)}
+  /* the ribbon = "we keep score" */
+  .ledgerstrip{display:flex;align-items:center;gap:22px;padding:6px 0 14px}
+  .ks{text-align:right}
+  .ks .k{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+  .ks .v{font-family:var(--sans);font-weight:700;font-size:17px;letter-spacing:-.01em;margin-top:2px}
+  .ks .v.ox{color:var(--ox)} .ks .v.ok{color:var(--ok)}
+  .ks .v small{font-family:var(--mono);font-size:11px;color:var(--soft);font-weight:400}
+  .reli{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+  .reli .k{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+
+  .subbar{display:flex;justify-content:space-between;align-items:center;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--soft);
+    padding:9px 0;border-bottom:1px solid var(--hair)}
+  .subbar .live{color:var(--ox)} .subbar .live i{display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:var(--ox);margin-right:6px;animation:p 2.4s ease-in-out infinite}
+  @keyframes p{0%,100%{opacity:.35}50%{opacity:1}}
+
+  /* ── the judgment (hero) ── */
+  .judgment{padding:38px 0 8px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+  h1{font-size:52px;line-height:1.05;letter-spacing:-.02em;font-weight:700;max-width:18ch}
+  .stand{font-size:20px;color:#3A372F;margin-top:18px;max-width:50ch;font-style:italic}
+  /* epistemic status bar — the novel element */
+  .status{display:flex;align-items:center;gap:0;margin-top:26px;border:1px solid var(--hair);
+    border-radius:11px;overflow:hidden;background:var(--paper);max-width:760px}
+  .status .seg{padding:13px 18px;border-right:1px solid var(--hair2);flex:1}
+  .status .seg:last-child{border-right:0}
+  .status .k{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+  .status .conf{font-family:var(--sans);font-weight:700;font-size:15px;display:flex;align-items:center;gap:9px}
+  .cbar{width:74px;height:7px;border-radius:4px;background:#EAE3D4;overflow:hidden}
+  .cbar b{display:block;height:100%;width:64%;background:linear-gradient(90deg,var(--gold-l),var(--ox))}
+  .status .cont{font-family:var(--sans);font-size:13.5px;color:var(--ox);font-weight:600}
+  .status .moved{font-family:var(--sans);font-weight:700;font-size:15px;color:var(--ox)}
+
+  /* ── reasoning + evidence margin ── */
+  .reading{display:grid;grid-template-columns:1fr 270px;gap:46px;padding:34px 0 8px;
+    border-top:1px solid var(--hair);margin-top:30px}
+  .essay p{font-size:17.5px;line-height:1.72;margin-bottom:14px;max-width:60ch}
+  .essay p:first-child::first-letter{font-size:56px;float:left;line-height:.82;padding:7px 11px 0 0;font-weight:700;color:var(--ox)}
+  .ref{font-family:var(--sans);font-size:10px;vertical-align:super;color:var(--ox);font-weight:700;
+    border:1px solid #E2C9B5;border-radius:4px;padding:0 4px;margin-left:1px;cursor:default}
+  /* a claim's epistemic underline */
+  .claim{border-bottom:2px solid #E4D7B0;cursor:default}
+  .claim.weak{border-bottom-style:dotted;border-bottom-color:#E0C2BC}
+  aside .note{border-left:2px solid var(--gold);padding-left:14px;margin-bottom:24px}
+  aside .note.contest{border-color:var(--ink2)}
+  aside .note .h{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  aside .note.contest .h{color:var(--ink2)}
+  aside .note p{font-family:var(--sans);font-size:13px;color:#48443B;line-height:1.55}
+  aside .ev{border-top:1px solid var(--hair);padding-top:14px;margin-top:6px}
+  aside .ev .row{display:flex;justify-content:space-between;font-family:var(--sans);font-size:12px;margin-bottom:9px;color:#48443B}
+  aside .ev .row .m{width:96px;height:6px;border-radius:3px;background:#EAE3D4;overflow:hidden;align-self:center}
+  aside .ev .row .m b{display:block;height:100%}
+  aside .srcs{margin-top:6px}
+  aside .srcs .s{font-family:var(--sans);font-size:12px;display:flex;gap:8px;padding:6px 0;border-top:1px solid var(--hair2)}
+  aside .srcs .s .n{font-family:var(--mono);color:var(--ox);font-size:11px;min-width:14px}
+
+  /* ── steelman / counterpoint ── */
+  .debate{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--hair);border-radius:12px;
+    overflow:hidden;margin:22px 0 4px;max-width:900px}
+  .debate>div{padding:16px 20px}
+  .debate .l{background:#F4F1E6;border-right:1px solid var(--hair)}
+  .debate .r{background:#F6F0EC}
+  .debate h4{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px}
+  .debate .l h4{color:var(--gold)} .debate .r h4{color:var(--ox)}
+  .debate p{font-family:var(--sans);font-size:14px;color:#3a372f;line-height:1.55}
+
+  /* ── THE LEDGER (the revolution: open, scored calls) ── */
+  .ledger{margin-top:40px;border-top:2px solid var(--ink);padding-top:22px}
+  .ledger .head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px}
+  .ledger h2{font-size:26px;letter-spacing:-.01em}
+  .ledger .head .sub{font-family:var(--mono);font-size:10.5px;color:var(--soft);letter-spacing:.06em}
+  .ledger .intro{font-family:var(--sans);font-size:14px;color:var(--soft);margin-bottom:18px;max-width:74ch}
+  .calls{display:grid;gap:0;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:var(--paper)}
+  .call{display:grid;grid-template-columns:1fr 150px 120px 78px;gap:18px;align-items:center;
+    padding:14px 18px;border-top:1px solid var(--hair2)}
+  .call:first-child{border-top:0}
+  .call .q{font-size:15.5px}
+  .call .q .meta{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:3px;letter-spacing:.04em}
+  .call .prob{display:flex;align-items:center;gap:10px}
+  .call .prob .m{flex:1;height:7px;border-radius:4px;background:#EAE3D4;overflow:hidden}
+  .call .prob .m b{display:block;height:100%;background:linear-gradient(90deg,var(--gold-l),var(--ox))}
+  .call .prob .pct{font-family:var(--sans);font-weight:700;font-size:14px}
+  .call .res{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+  .call .stat{justify-self:end;font-family:var(--sans);font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px}
+  .stat.open{background:#F1ECDD;color:var(--gold)}
+  .stat.hit{background:#EBF2EA;color:var(--ok)}
+  .stat.miss{background:#F7ECE9;color:var(--ox)}
+
+  .prov{font-family:var(--mono);font-size:10px;color:var(--faint);padding:26px 0 46px;letter-spacing:.04em;line-height:1.8;margin-top:8px}
+  .prov b{color:var(--soft)}
+</style></head><body><div class="wrap">
+  <header class="standing">
+    <div class="brand">
+      <svg class="mk" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="18" stroke="#7A2A20" stroke-width="1.5"/>
+        <circle cx="20" cy="20" r="11" stroke="#9A6B00" stroke-width="1"/>
+        <path d="M20 3 L20 37 M3 20 L37 20" stroke="#9A6B00" stroke-width=".6" opacity=".5"/>
+        <circle cx="20" cy="20" r="3.2" fill="#7A2A20"/></svg>
+      <div class="nm"><b>WORLDSCOPE</b><span>INTELLIGENCE THAT SHOWS ITS WORK</span></div>
+    </div>
+    <div class="ledgerstrip"><div class='ks'><div class='k'>Claims today</div><div class='v'>60</div></div><div class='ks'><div class='k'>Primary-confirmed</div><div class='v ok'>5</div></div><div class='ks'><div class='k'>Contradicted</div><div class='v ox'>3</div></div><div class='ks'><div class='k'>Sources fresh</div><div class='v'>14/18</div></div><div class='ks'><div class='k'>Open signals</div><div class='v'>12</div></div></div>
+  </header>
+  <div class="subbar"><span class="live"><i></i>LIVE · 2026-06-01</span>
+    <span>FROM THE LAKE · 60 CLAIMS · FOR DR. IAN HELFRICH</span></div>
+
+  <section class="judgment">
+    <div class="eyebrow">Today's read · 5 confirmed, 3 contradicted</div>
+    <h1>US military carries out new strikes in Iran, this time against a military site that posed a threat to U.S. forces and commercial traffic in the Strait of Hormuz, a U.S. official tells Reuters. The U.S</h1>
+    <p class="stand">Carried by 10 sources across 4 independent sections. Status: primary-confirmed. Read the evidence below.</p>
+    <div class="status"><div class='seg'><div class='k'>Confidence</div><div class='conf'>91% <span class='cbar'><b style='width:91%'></b></span></div></div><div class='seg'><div class='k'>Status</div><div class='cont'>primary-confirmed</div></div><div class='seg'><div class='k'>Corroboration</div><div class='conf'>10 sources · 4 sections</div></div><div class='seg'><div class='k'>Type</div><div class='conf'>reported fact</div></div></div>
+  </section>
+
+  <div class="reading">
+    <div class="essay">
+      <p style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Most-corroborated claims</p>
+      <div class='note'><div class='h'>primary-confirmed · 91% · 7 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>Will the San Antonio Spurs win Game 7 of the Western Conference Finals on May 30, 2026?</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>forecasts</span> <span class='src'><i></i>foreign_news</span> <span class='src'><i></i>local_news</span> <span class='src'><i></i>paper_bets</span></div></div><div class='note'><div class='h'>multi-source · 73% · 7 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>US bombs Iranian military sites and Kuwait is hit by drone and missile fire</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>foreign_news</span> <span class='src'><i></i>local_news</span></div></div><div class='note'><div class='h'>multi-source · 65% · 6 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>Netanyahu prolonging wars to serve political, personal interests, says Israeli newspaper</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>foreign_news</span></div></div><div class='note'><div class='h'>multi-source · 65% · 6 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>Ghana lawmakers approve bill criminalizing LGBTQ &#x27;promotion&#x27;, official says</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>foreign_news</span></div></div><div class='note'><div class='h'>multi-source · 69% · 5 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>Russia recalls ambassador to Armenia for consultations over Yerevan&#x27;s EU integration push</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>foreign_news</span> <span class='src'><i></i>ukraine_theater</span></div></div><div class='note'><div class='h'>multi-source · 64% · 4 sources</div><p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>3 climbers who fell near treacherous pass on Alaska’s Mount McKinley are dead, 1 rescued</p><div class='srcbar' style='margin-top:8px'><span class='src'><i></i>foreign_news</span> <span class='src'><i></i>local_news</span></div></div>
+    </div>
+    <aside>
+      <div class="note"><div class="h">How to read this</div>
+        <p>Every claim is a cluster of real records that assert the same thing.
+        Status and confidence come from how many independent sources corroborate
+        it — and whether any source denies it. Nothing here is hand-asserted.</p></div>
+    </aside>
+  </div>
+
+  <section class="ledger">
+    <div class="head"><h2>The ledger — every claim, scored by its evidence</h2>
+      <span class="sub">60 claims · built from the lake</span></div>
+    <p class="intro">Not a feed of headlines: a list of assertions, each graded by
+      cross-source corroboration and source tier, each linking to the records behind it.</p>
+    <div class="calls"><div class='call'><div class='q'>US military carries out new strikes in Iran, this time against a military site that posed a threat to U.S. forces and commercial traffic in the Strait of Hormuz, a U.S. official tells Reuters. The U.S<div class='meta'>forecasts, foreign_news, paper_bets, ukraine_theater · reported fact</div></div><div class='prob'><span class='m'><b style='width:91%'></b></span><span class='pct'>91%</span></div><div class='res'>10 src</div><div class='stat hit'>primary-confirmed</div></div><div class='call'><div class='q'>Will the San Antonio Spurs win Game 7 of the Western Conference Finals on May 30, 2026?<div class='meta'>forecasts, foreign_news, local_news, paper_bets · reported fact</div></div><div class='prob'><span class='m'><b style='width:91%'></b></span><span class='pct'>91%</span></div><div class='res'>7 src</div><div class='stat hit'>primary-confirmed</div></div><div class='call'><div class='q'>US bombs Iranian military sites and Kuwait is hit by drone and missile fire<div class='meta'>foreign_news, local_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:73%'></b></span><span class='pct'>73%</span></div><div class='res'>7 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>Netanyahu prolonging wars to serve political, personal interests, says Israeli newspaper<div class='meta'>foreign_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:65%'></b></span><span class='pct'>65%</span></div><div class='res'>6 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>Ghana lawmakers approve bill criminalizing LGBTQ &#x27;promotion&#x27;, official says<div class='meta'>foreign_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:65%'></b></span><span class='pct'>65%</span></div><div class='res'>6 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>Russia recalls ambassador to Armenia for consultations over Yerevan&#x27;s EU integration push<div class='meta'>foreign_news, ukraine_theater · reported fact</div></div><div class='prob'><span class='m'><b style='width:69%'></b></span><span class='pct'>69%</span></div><div class='res'>5 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>3 climbers who fell near treacherous pass on Alaska’s Mount McKinley are dead, 1 rescued<div class='meta'>foreign_news, local_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:64%'></b></span><span class='pct'>64%</span></div><div class='res'>4 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>Friday briefing: ​What do the cuts in aid mean for the fight against Ebola in the DRC?<div class='meta'>foreign_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:61%'></b></span><span class='pct'>61%</span></div><div class='res'>4 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>‘India a critical anchor’: US war secy Hegseth stresses Delhi must act in self-interest, points to China buildup<div class='meta'>foreign_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:57%'></b></span><span class='pct'>57%</span></div><div class='res'>4 src</div><div class='stat open'>multi-source</div></div><div class='call'><div class='q'>Djokovic knocked out in French Open third round by Brazil&#x27;s Fonseca<div class='meta'>foreign_news · reported fact</div></div><div class='prob'><span class='m'><b style='width:57%'></b></span><span class='pct'>57%</span></div><div class='res'>4 src</div><div class='stat open'>multi-source</div></div></div>
+  </section>
+
+  <div class="prov">PROVENANCE · every claim is backed by lake records ingested for 2026-06-01 ·
+    status &amp; confidence are derived from cross-source corroboration, not asserted · timestamps UTC.</div>
+</div></body></html>
