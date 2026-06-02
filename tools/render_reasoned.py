@@ -113,30 +113,196 @@ def _esc(s: str) -> str:
 def _gather(today: date):
     lake = Lake.open()
     conn = lake._ensure_open()
-    claims = cl.build_from_lake(today=today, conn=conn)
-    # integrity (section list falls back to lake-distinct when the registry
-    # import is unavailable locally)
+    recs = sg.load_records_from_jsonl(today=today, days=2)
+    tiers = cl._tier_map(conn)
+    claims = (cl.build_claims(recs, today=today, tier_by_source=tiers) if recs
+              else cl.build_from_lake(today=today, conn=conn))
     sids = ig.section_ids_from_registry()
     if not sids:
         sids = sorted({r[0] for r in conn.execute("SELECT DISTINCT section_id FROM records")})
     from worldscope.store import SnapshotStore
     reports = ig.assess(conn, sids, today=today, store=SnapshotStore())
     fresh = sum(1 for r in reports if r.status == "FRESH")
-    # signals -> open prediction count
     sigs = sg.build_signals(today=today, conn=conn)
     preds = sg.signals_to_predictions(sigs, today=today)
     lake.close()
-    return claims, reports, fresh, len(preds)
+    return claims, reports, fresh, preds, recs
+
+
+# ── rich-section builders (charts / markets / theater / outlook) ────────────
+
+CHART_SPECS = [
+    ("gdelt_tone_heatmap", "Global media tone (geographic)"),
+    ("yield_curve", "US Treasury yield curve"),
+    ("fx_oil", "FX &amp; oil"),
+    ("conflict_fatalities", "Conflict fatalities"),
+    ("anomaly_screen", "Cross-section anomaly screen"),
+    ("watchareas_volume", "Watch-area volume"),
+]
+
+
+def _latest_chart_date(today: date) -> Optional[str]:
+    bdir = REPO / "dist" / "briefings"
+    for d in range(0, 9):
+        ds = (today - timedelta(days=d)).isoformat()
+        if (bdir / f"{ds}-yield_curve.png").exists():
+            return ds
+    return None
+
+
+def _section(title: str, inner: str, *, cap: str = "") -> str:
+    if not inner:
+        return ""
+    cap_html = f"<div class='ws-cap'>{cap}</div>" if cap else ""
+    return (f"<section class='ws-sec'><h2 class='ws-h'>{title}</h2>"
+            f"{inner}{cap_html}</section>")
+
+
+def _charts_html(today: date) -> str:
+    cd = _latest_chart_date(today)
+    if not cd:
+        return ""
+    tiles = []
+    for name, label in CHART_SPECS:
+        if (REPO / "dist" / "briefings" / f"{cd}-{name}.png").exists():
+            tiles.append(
+                f"<figure class='ws-chart'><img src='./briefings/{cd}-{name}.png' "
+                f"alt='{label}' loading='lazy'><figcaption>{label}</figcaption></figure>")
+    if not tiles:
+        return ""
+    return _section("Indicators &amp; maps", f"<div class='ws-charts'>{''.join(tiles)}</div>",
+                    cap=f"Generated from lake data · {cd}")
+
+
+_MKT_ORDER = ["equit", "commod", "rate", "treasur", "bond", "credit", "crypto",
+              "vol", "fx", "currenc"]
+
+
+def _markets_html(recs: list) -> str:
+    # Lake records carry text in original_text (not title); change% in extra.
+    # Bucket by the leading [group] tag and take a cross-asset spread, not the
+    # first 12 (which are all one asset class).
+    buckets: dict = {}
+    for r in recs:
+        if r.get("section_id") != "markets_global":
+            continue
+        line = (r.get("title") or r.get("original_text") or "").split(" — ")[0].strip()
+        if not line:
+            continue
+        gm = re.match(r"^\[([^\]]+)\]", line)
+        grp = (gm.group(1).lower() if gm else "other")
+        buckets.setdefault(grp, [])
+        if line not in [x[0] for x in buckets[grp]]:
+            buckets[grp].append((line, r))
+
+    def _rank(g):
+        for i, key in enumerate(_MKT_ORDER):
+            if key in g:
+                return i
+        return len(_MKT_ORDER)
+
+    rows = []
+    for grp in sorted(buckets, key=_rank):
+        for line, r in buckets[grp][:2]:        # up to 2 per asset class
+            lbl = re.sub(r"^\[[^\]]+\]\s*", "", line)
+            dp = (r.get("extra") or {}).get("change_pct")
+            cls = "up" if (isinstance(dp, (int, float)) and dp >= 0) else "dn"
+            rows.append(f"<div class='row {cls}'><span>{_esc(lbl)}</span></div>")
+            if len(rows) >= 12:
+                break
+        if len(rows) >= 12:
+            break
+    if not rows:
+        return ""
+    return _section("Markets", f"<div class='ws-mkt'>{''.join(rows)}</div>",
+                    cap="Cross-asset levels · markets_global")
+
+
+def _theater_html(recs: list, today: date) -> str:
+    th = [r for r in recs if r.get("section_id") == "ukraine_theater"]
+    if not th:
+        return ""
+    seen, items = set(), []
+    for r in th:
+        t = sg._clean_text(r.get("title") or r.get("original_text") or "")
+        if t and t not in seen and len(t) > 12:
+            seen.add(t)
+            items.append(t)
+        if len(items) >= 6:
+            break
+    lis = "".join(f"<li><div class='t'>{_esc(_oneline(t, 150))}</div></li>" for t in items)
+    # embed the most recent theater map if one exists (hourly feed is under repair)
+    bdir = REPO / "dist" / "briefings"
+    map_html = ""
+    for d in range(0, 14):
+        ds = (today - timedelta(days=d)).isoformat()
+        mp = bdir / f"{ds}-ukraine_theater_overview.png"
+        if mp.exists():
+            note = "" if d <= 1 else f" (latest available · {ds})"
+            map_html = (f"<figure class='ws-chart' style='margin-bottom:14px'>"
+                        f"<img src='./briefings/{ds}-ukraine_theater_overview.png' "
+                        f"alt='Ukraine theater'><figcaption>Theater overview{note}</figcaption></figure>")
+            break
+    return _section("Ukraine theater", f"{map_html}<ul class='ws-list'>{lis}</ul>",
+                    cap=f"{len(th)} theater records today")
+
+
+_KEY_RE = re.compile(r"'([^']+)' \(key '([^']+)'\)")
+
+
+def _outlook_html(preds: list) -> str:
+    if not preds:
+        return ""
+    lis = []
+    for p in preds[:6]:
+        crit = p.get("resolution_criteria", "")
+        m = _KEY_RE.search(crit)
+        label = m.group(1) if m else (p.get("_key") or "signal")
+        conf = int(float(p.get("confidence", 0)) * 100)
+        tgt = p.get("target_date", "")
+        lis.append(f"<li><div class='t'>{_esc(label)} stays cross-source-salient</div>"
+                   f"<div class='m'>{conf}% · resolves {tgt}</div></li>")
+    return _section("Outlook — what we're watching",
+                    f"<ul class='ws-list'>{''.join(lis)}</ul>",
+                    cap="Falsifiable calls from cross-source signals · auto-graded")
+
+
+EXTRA_CSS = """
+.ws-sec{max-width:1180px;margin:0 auto;padding:34px 44px 0}
+.ws-sec h2.ws-h{font-family:var(--serif);font-weight:700;font-size:24px;letter-spacing:-.01em;
+  border-top:2px solid var(--ink);padding-top:16px;margin:0 0 16px}
+.ws-charts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:880px){.ws-charts{grid-template-columns:1fr}.ws-mkt{grid-template-columns:1fr!important}}
+.ws-chart{border:1px solid var(--hair);border-radius:10px;overflow:hidden;background:var(--paper);margin:0}
+.ws-chart img{width:100%;height:auto;display:block}
+.ws-chart figcaption{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--soft);padding:8px 12px;border-top:1px solid var(--hair)}
+.ws-cap{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:10px;letter-spacing:.04em}
+.ws-mkt{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.ws-mkt .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--hair2);
+  font-family:var(--sans);font-size:14px}
+.ws-mkt .row.up{color:var(--ok)} .ws-mkt .row.dn{color:var(--ox)}
+.ws-list{list-style:none;padding:0;margin:0}
+.ws-list li{padding:11px 0;border-bottom:1px solid var(--hair2)}
+.ws-list .t{font-family:var(--serif);font-size:16px;color:var(--ink)}
+.ws-list .m{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:3px}
+"""
 
 
 def render(today: date, *, homepage: bool = False) -> Path:
     try:
-        claims, reports, fresh, n_preds = _gather(today)
+        claims, reports, fresh, preds, recs = _gather(today)
     except Exception as exc:        # never let homepage generation crash a deploy
-        claims, reports, fresh, n_preds = [], [], 0, 0
+        claims, reports, fresh, preds, recs = [], [], 0, [], []
         print(f"[reasoned] gather failed: {type(exc).__name__}: {exc}")
     claims = [c for c in claims if _relevant(c)]
     n = len(reports)
+    n_preds = len(preds)
+    # rich sections from real assets (each degrades to '' on missing data)
+    charts_html = _charts_html(today)
+    markets_html = _markets_html(recs)
+    theater_html = _theater_html(recs, today)
+    outlook_html = _outlook_html(preds)
 
     # hero = the most-corroborated non-contradicted claim; fall back to the first
     ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
@@ -249,6 +415,10 @@ def render(today: date, *, homepage: bool = False) -> Path:
         asserted, and every item links to its underlying records.</p></div>
     </aside>
   </div>
+  {charts_html}
+  {markets_html}
+  {theater_html}
+  {outlook_html}
 
   <section class="ledger">
     <div class="head"><h2>Current reporting</h2>
@@ -264,7 +434,7 @@ def render(today: date, *, homepage: bool = False) -> Path:
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>WORLDSCOPE · Reasoned (live) · {today.isoformat()}</title>"
-            f"<style>{css}</style></head><body>{body}</body></html>")
+            f"<style>{css}{EXTRA_CSS}</style></head><body>{body}</body></html>")
     out = HOME if homepage else OUT
     out.write_text(page, encoding="utf-8")
     return out
