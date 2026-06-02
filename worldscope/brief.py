@@ -31,6 +31,7 @@ from .sections import SectionState
 from .sections.acled import AcledSection
 from .sections.billionaires import BillionairesSection
 from .sections.cisa_kev import CisaKevSection
+from .sections.epss import EpssSection
 from .sections.commentary import CommentarySection
 from .sections.conflict import ConflictSection
 from .sections.congressional_trades import CongressionalTradesSection
@@ -104,6 +105,7 @@ SECTION_REGISTRY = [
     PromedSection,
     WhoDonSection,
     CisaKevSection,
+    EpssSection,
     WikidataChangesSection,
     ReliefWebSection,
     GdacsSection,
