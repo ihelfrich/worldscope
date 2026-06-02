@@ -2,14 +2,14 @@
 section: markets_global
 title: Global Markets: FX + Bonds + Commodities + Equities + Crypto
 date: 2026-06-01
-record_count: 78
+record_count: 79
 new_today: 0
 state: fresh
 ---
 
 ## Global Markets: FX + Bonds + Commodities + Equities + Crypto
 
-0 new of 78 total items today.
+0 new of 79 total items today.
 
 - [[fx] USD/EUR: 0.858131](https://www.exchangerate-api.com/docs/free) — *2026-06-01*
   > 1 USD = 0.858131 EUR
@@ -62,4 +62,4 @@ state: fresh
 - [[fx] USD/ZAR: 16.249718](https://www.exchangerate-api.com/docs/free) — *2026-06-01*
   > 1 USD = 16.249718 ZAR
 
-_(53 additional items in raw.jsonl)_
+_(54 additional items in raw.jsonl)_

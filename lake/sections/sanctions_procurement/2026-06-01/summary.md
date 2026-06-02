@@ -2,21 +2,21 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-06-01
-record_count: 105
-new_today: 4
+record_count: 103
+new_today: 2
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-4 new of 105 total items today.
+2 new of 103 total items today.
 
 - [[OFAC] Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-29*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZT2x6ZWpsX3daM2U4SWE3bngxSGgwT3lxRmI1X1hpdHRIS19aU3p6S1d0SE1TT1V2dlM5cENaOXRfcFN4YUlsXzk3Mkk3cG9MTGR4M3lBWnpDcHZUTlE?oc=5" target="_blank">Counter Terrorism Designations; Issuance of Amended Iran-related Frequently Aske
-- [[OFAC] Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JaWJWcmlkbmQ2NU5oRnlxRkx1blBweGRaWW55dDdfWWk1d2ZONTY5N3FKOEg4UGJOVEZPZmk3czBQT2s1TWpMTjBzTUo2MXpPZGtoMFF3Ul9tRzhJcWg0V3RB?oc=5" target="_blank">Iran-related Designations; Issuance of Russia-related General License and A
 - [[OFAC] Designations Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE42SnA2VXlwRlY1bEFUcml3VW0yY3g0MW9qd2dLZC15Yjk5bHZVTlRPRkp1eXBudDZGUWE5X3RSQ0czYmc5ZGNwWFFSWGxwR3dHNjh0ckhkWlFZWWVNUGc?oc=5" target="_blank">Designations Removals</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Ass
+- [[OFAC] Iran-related Designations; Issuance of Russia-related General License and Amended Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JaWJWcmlkbmQ2NU5oRnlxRkx1blBweGRaWW55dDdfWWk1d2ZONTY5N3FKOEg4UGJOVEZPZmk3czBQT2s1TWpMTjBzTUo2MXpPZGtoMFF3Ul9tRzhJcWg0V3RB?oc=5" target="_blank">Iran-related Designations; Issuance of Russia-related General License and A
 - [[OFAC] Iran-related Designation; Counter Terrorism Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-28*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wZHZVOFR1Yy1MSzRFaERsQlZWWmFCSV9fcUQ5eFpEWVdtV3N2dFFZdFlqWG9ldkNFNTBGdjRBSHVrdTlwNmhRT2xndXotaHlyakdWdXpvS2Fkek5QY0UwWG9B?oc=5" target="_blank">Iran-related Designation; Counter Terrorism Designation</a>&nbsp;&nbsp;<fon
 - [[OFAC] International Criminal Court-related Designation - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-05-27*
@@ -25,10 +25,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiSUxCVkxFTVQzeHkybjNQTW5HVERKWjFkMGVrUTQ4UW1uVHlGc2xSZ1ZadlFnWm9FZ0ZaNnZIT1BzbEJjdExFZ2tsYXRiZk54akJkTG1JQXVSMnpQR1AtNEJfbkU?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - **NEW**  [[OFAC] Publication of Introduction to OFAC Guide - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-01*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HSXNIZTI0cmRlUEZMeEUxRU1mNTdNT1Z0Qll2QjNyMVJpdUVNVjd4Q1ZXU29URzYzZWo0T3MyX1ZhbHFHR21aaDVYaTNYMjRmZW45UU0wei1sd3hsbGc?oc=5" target="_blank">Publication of Introduction to OFAC Guide</a>&nbsp;&nbsp;<font color="#6f6f6f">O
-- **NEW**  [[OFAC] Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control, and FTI Consulting, Inc. - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-01*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMzlsd0hTaGp2RHJxNi1pcWViTTlXMTVwRzBFd3pWQlhFM2hpbGg2OW9sZEhqTmFqdkRDejhfVTdpcVpPQkQwQ3Q1LWlkRjhaSjVuN2NYLXhTWnhud3RBNUhB?oc=5" target="_blank">Settlement Agreement between the U.S. Department of the Treasury's Office o
-- **NEW**  [[OFAC] Introduction to the Office of Foreign Assets Control - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-01*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE01ZGVCYmNKRGxWSmtLMHlUemlMOWVxSWNhd2dSSEFEUlB3WEY0RnMyQ3hOdUsxQlBsSnZlYUFWbjN4ODlWTU9ULXlGR2pqM2M2WHRJN0RGQVhMYWVYczlqdmZPWFA?oc=5" target="_blank">Introduction to the Office of Foreign Assets Control</a>&nbsp;&nbsp;<fon
 - **NEW**  [[BIS Entity List] page checksum 0220879c7d79](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-06-01*
   > Page content hash: 0220879c7d79. Compare with prior day's hash to detect updates.
 - [[USASpending] $48,063,763,681 → LOCKHEED MARTIN CORP: ](https://www.usaspending.gov/award/DEAC0494AL85000) — *2026-06-01*
@@ -61,5 +57,9 @@ state: fresh
   > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPULSION PROGRAM SUPPORT
 - [[USASpending] $10,721,561,627 → ALLIANCE FOR ENERGY INNOVATION, LLC: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWAB](https://www.usaspending.gov/award/DEAC3608GO28308) — *2026-06-01*
   > Agency: Department of Energy.  Description: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY
+- [[USASpending] $10,495,704,426 → THE BOEING COMPANY: PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFA](https://www.usaspending.gov/award/NNM07AB03C) — *2026-06-01*
+  > Agency: National Aeronautics and Space Administration.  Description: PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE ARES I UPPER STAGES. THE UPPER STAGE (US) ELEMENT IS AN INTEGRAL PART OF THE ARES I LAUNCH VEHICLE AND PROVIDES THE SECOND STAGE OF 
+- [[USASpending] $7,595,339,605 → MISSION SUPPORT & TEST SERVICES LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION S](https://www.usaspending.gov/award/DENA0003624) — *2026-06-01*
+  > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERVICES LLC (MSTS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NEVADA NATIONAL SECURITY SITE.
 
-_(80 additional items in raw.jsonl)_
+_(78 additional items in raw.jsonl)_

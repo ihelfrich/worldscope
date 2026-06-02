@@ -11,263 +11,267 @@ state: fresh
 
 129 new of 131 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 1:26PM MDT until June 1 at 2:15PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.daf8c038be9a9919ce75c1498ef28d698e72d093.001.1) — *2026-06-01*
-  > SVRCYS
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 11:32AM CDT until June 1 at 11:45AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44daaf992e6ee4b9fff07bcacccc7f4c3ed8d26b.001.1) — *2026-06-01*
+  > At 1132 AM CDT, severe thunderstorms were located along a line
+extending from near Lynchburg to Fayetteville, moving southeast at 35
+mph.
 
-The National Weather Service in Cheyenne has issued a
+HAZARD...60 mph wind gusts and nickel size hail.
 
-* Severe Thunderstorm Warning for...
-Southwestern Goshen County in southeastern Wyoming...
-Southern Platte County in southeastern Wyoming...
+SOURCE...Emergency management reported power outages previously in
+Marshall county, TN.
 
-* Until 215 PM MDT.
+IM
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 11:30AM CDT until June 1 at 11:45AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb05c2e4b3bc733dfca4a09fbc04b0a2beae6a2c.001.1) — *2026-06-01*
+  > At 1130 AM CDT, a severe thunderstorm was located over Lynchburg,
+moving southeast at 35 mph.
 
-* At 125 PM MDT, severe thunderstorms were located alo
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 2:25PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f878b7a7e15460ed2e27c2296932ae3162856045.001.1) — *2026-06-01*
-  > At 224 PM CDT, Doppler radar was tracking a strong thunderstorm 7
-miles south of West Plains, moving southeast at 15 mph.
+HAZARD...60 mph wind gusts and nickel size hail.
+
+SOURCE...Emergency management reported power outages with this storm
+back in Marshall county, TN.
+
+IMPACT...Expect damage to roofs, sid
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 11:29AM CDT until June 1 at 11:45AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4249a75d4fbf711f6ab7359d2fd271067f72acb7.002.1) — *2026-06-01*
+  > At 1128 AM CDT, a severe thunderstorm was located near Waynesboro,
+moving southeast at 35 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and trees.
+
+Locations i
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 11:29AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.763cd6770114c4ff9b03f7b53a25f88203257b74.001.1) — *2026-06-01*
+  > At 1129 AM CDT, Doppler radar was tracking a strong thunderstorm 8
+miles northwest of Jumpertown, or 9 miles east of Ripley, moving
+southeast at 20 mph.
 
 HAZARD...Wind gusts up to 40 mph and penny size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured 
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:24PM CDT until June 1 at 7:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d8bce3b4cb13e9d78db7ee85f02d1a316d08be7.002.1) — *2026-06-01*
-  > SEVERE THUNDERSTORM WATCH 261 REMAINS VALID UNTIL 7 PM CDT THIS
-EVENING FOR THE FOLLOWING AREAS
+IMPACT...Gusty winds could knock down tree l
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 1 at 11:29AM CDT until June 1 at 2:15PM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9669b4089ca41ef964308fc371a55df7d7c3a604.002.1) — *2026-06-01*
+  > At 1129 AM CDT, Rainfall has ended but amounts were high enough that
+flash flooding remains possible through early this afternoon.
 
-IN ALABAMA THIS WATCH INCLUDES 18 COUNTIES
+HAZARD...Flash flooding caused by thunderstorms.
 
-IN CENTRAL ALABAMA
+SOURCE...Radar.
 
-BLOUNT                CALHOUN               CHEROKEE
-CLAY                  CLEBURNE              ETOWAH
-FAYETTE        
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:24PM CDT until June 1 at 7:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d8bce3b4cb13e9d78db7ee85f02d1a316d08be7.001.1) — *2026-06-01*
-  > THE NATIONAL WEATHER SERVICE HAS EXTENDED SEVERE THUNDERSTORM
-WATCH 261 TO INCLUDE THE FOLLOWING AREAS UNTIL 7 PM CDT THIS
-EVENING
-
-IN ALABAMA THIS WATCH INCLUDES 17 COUNTIES
-
-IN CENTRAL ALABAMA
-
-AUTAUGA               BIBB                  CHAMBERS
-CHILTON               COOSA    
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:23PM CDT until June 1 at 2:30PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84447bf792501d79e55c83c8a6a06f271defb3bd.001.1) — *2026-06-01*
-  > The storms which prompted the warning have moved out of the area.
-Therefore, the warning will be allowed to expire.
-
-A Severe Thunderstorm Watch remains in effect until 700 PM CDT for
-central, northwestern and west central Alabama.
-
-Remember, a Severe Thunderstorm Warning still r
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 1 at 12:21PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4559260429b8389f87ef87c42cce5c6253af2b2.001.1) — *2026-06-01*
-  > ...The Flood Warning continues for the following rivers in
-Washington...
-
-Stehekin River at Stehekin affecting Chelan County.
-
-For the Stehekin River...including Stehekin...Minor flooding is
-forecast.
-
-* WHAT...Minor flooding is occurring and forecast to continue.
-
-* WHERE...Steh
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:20PM CDT until June 1 at 3:00PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bfd74161f83e6854f2ca705f06ac7da698747590.001.1) — *2026-06-01*
-  > At 219 PM CDT, a severe thunderstorm was located 12 miles southwest
-of Willow Springs, moving southeast at 15 mph.
-
-HAZARD...60 mph wind gusts and half dollar size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding,
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 1:20PM MDT until June 1 at 1:45PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cecbcea4172b03dfbbed6b9938c290b6c2799f4.001.1) — *2026-06-01*
-  > At 120 PM MDT, a severe thunderstorm was located 4 miles south of
-Commerce City, or 8 miles northeast of Denver, moving east at 25 mph.
-
-HAZARD...Two inch hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...People and animals outdoors will be injured. Expect damage
-to roofs, siding, windo
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 3:20PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a091008bab2243cdab9cf1992136aa8e423c75aa.001.1) — *2026-06-01*
-  > At 320 PM EDT/220 PM CDT/, Doppler radar was tracking a strong
-thunderstorm near White City, or 13 miles northeast of Port St. Joe,
-moving south at 15 mph.
-
-HAZARD...Wind gusts up to 40 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow aro
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-18846) — *2026-06-01*
+IMPACT...Flash flooding of small creeks and streams, urban areas,
+highways, stree
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-57153) — *2026-06-01*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:18PM CDT until June 1 at 2:30PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d04d38057d7a13a698ee4a05f502a797ad6a50c.001.1) — *2026-06-01*
-  > At 218 PM CDT, severe thunderstorms were located along a line
-extending from near Sumiton to near Boley Springs, moving east at 35
-mph.
-
-HAZARD...60 mph wind gusts and penny size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Expect damage to roofs, siding, and trees.
-
-Locations impa
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:16PM CDT until June 1 at 9:00PM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55aa21f14946022506a1ca6d30c3b1858032e146.001.1) — *2026-06-01*
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 11:27AM CDT until June 1 at 7:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.346d043e5b6143efb63dfae271929b186dc3e184.001.1) — *2026-06-01*
   > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
-263 IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
+261 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
 
-IN ARKANSAS THIS WATCH INCLUDES 7 COUNTIES
+IN MISSISSIPPI THIS WATCH INCLUDES 6 COUNTIES
 
-IN NORTHWEST ARKANSAS
+IN EAST CENTRAL MISSISSIPPI
 
-BENTON                CARROLL               CRAWFORD
-MADISON               WASHI
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:14PM CDT until June 1 at 9:00PM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1ac5b79a1f9a35f7850181ab0acface56e00dca.001.1) — *2026-06-01*
+NOXUBEE
+
+IN NORTH CENTRAL MISSISSIPPI
+
+GRENADA               WEBSTER
+
+I
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 11:27AM CDT until June 1 at 12:30PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d10475fc8030209c8f250058a3700cb89eea3408.001.1) — *2026-06-01*
+  > SVRHUN
+
+The National Weather Service in Huntsville Alabama has issued a
+
+* Severe Thunderstorm Warning for...
+Southwestern Colbert County in northwestern Alabama...
+Northwestern Franklin County in northwestern Alabama...
+
+* Until 1230 PM CDT.
+
+* At 1127 AM CDT, a severe thunderst
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 11:26AM CDT until June 1 at 7:00PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c09e8783cf237ad8014b63e61a00b7777b15914a.001.1) — *2026-06-01*
   > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
-263 IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
+261 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
 
-IN ARKANSAS THIS WATCH INCLUDES 32 COUNTIES
+IN ALABAMA THIS WATCH INCLUDES 11 COUNTIES
 
-IN CENTRAL ARKANSAS
+IN NORTH CENTRAL ALABAMA
 
-CONWAY                FAULKNER              GARLAND
-LONOKE                PERRY  
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:13PM CDT until June 1 at 9:00PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaa6a9f717a9bc8c2913afdb27b86087fc976be7.001.1) — *2026-06-01*
+CULLMAN               LIMESTONE             MADISON
+MORGAN
+
+IN NORTHEAST ALAB
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 11:26AM CDT until June 1 at 7:00PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c879fa248d2d4032bfa7169cdd72b3aa8b7c7bf.001.1) — *2026-06-01*
   > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
-263 IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
-
-IN MISSOURI THIS WATCH INCLUDES 9 COUNTIES
-
-IN SOUTH CENTRAL MISSOURI
-
-HOWELL                OREGON
-
-IN SOUTHWEST MISSOURI
-
-BARRY                 C
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:13PM CDT until June 1 at 7:00PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.617db9fdd5b9cceb4321e750078bc4df4706ba1a.002.1) — *2026-06-01*
-  > SEVERE THUNDERSTORM WATCH 261 REMAINS VALID UNTIL 7 PM CDT THIS
-EVENING FOR THE FOLLOWING AREAS
+261 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
 
 IN MISSISSIPPI THIS WATCH INCLUDES 22 COUNTIES
 
 IN NORTH MISSISSIPPI
 
 ALCORN                BENTON                CALHOUN
-CHICKASAW             COAHOMA               DESOTO
-ITAWAMBA  
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 2:13PM CDT until June 1 at 9:00PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.617db9fdd5b9cceb4321e750078bc4df4706ba1a.001.1) — *2026-06-01*
+CHICKASAW             COA
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued June 1 at 11:26AM CDT until June 1 at 7:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c1be3ccd5788502dddf722f2c302254ef50caf4.001.1) — *2026-06-01*
   > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
-263 IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
+261 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS
 
-IN ARKANSAS THIS WATCH INCLUDES 8 COUNTIES
+IN ALABAMA THIS WATCH INCLUDES 18 COUNTIES
 
-IN EAST ARKANSAS
+IN CENTRAL ALABAMA
 
-CRAIGHEAD             CRITTENDEN            CROSS
-GREENE                LEE          
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 3:11PM EDT until June 1 at 4:15PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4321eaaaa40f69cbdbbb7e6bc6178e3183c9db6.001.1) — *2026-06-01*
-  > SVRGSP
+BLOUNT                CALHOUN               CHEROKEE
+CLAY                  CLEBURNE
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 11:22AM CDT until June 1 at 12:15PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25564c2d9213931a6f5b60660a9c5b4e540385cd.001.1) — *2026-06-01*
+  > SVRMEG
 
-The National Weather Service in Greenville-Spartanburg has issued a
-
-* Severe Thunderstorm Warning for...
-Northern Hart County in northeastern Georgia...
-West central Anderson County in Upstate South Carolina...
-Southeastern Oconee County in Upstate South Carolina...
-
-* U
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:10PM CDT until June 1 at 3:15PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d09753516154f1491159129e2aad7aea60c9444f.001.1) — *2026-06-01*
-  > SVRBMX
-
-The National Weather Service in Birmingham has issued a
+The National Weather Service in Memphis has issued a
 
 * Severe Thunderstorm Warning for...
-Northern Tuscaloosa County in west central Alabama...
-Pickens County in west central Alabama...
+Tishomingo County in northeastern Mississippi...
+Northeastern Prentiss County in northeastern Mississippi...
+Southeastern Alcorn County in northeastern Mississippi...
 
-* Until 315 PM CDT.
+* Until 1215 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 1 at 11:20AM CDT until June 2 at 1:00AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2be1129d4bbff8fdfac3d5387f3b2b41bc9da3c.001.1) — *2026-06-01*
+  > ...The Flood Warning continues for the following rivers in
+Louisiana...
 
-* At 209 PM CDT, severe thunderstorms were located along a l
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:10PM CDT until June 1 at 2:30PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e31466988a33270862096d673015baa384456de.001.1) — *2026-06-01*
-  > At 209 PM CDT, severe thunderstorms were located along a line
-extending from 6 miles west of Slackland to near Bangor, moving
-southeast at 40 mph.
+Calcasieu River Near Glenmora
 
-HAZARD...60 mph wind gusts and quarter size hail.
+Additional information is available at www.weather.gov.
 
-SOURCE...Emergency management.
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
 
-IMPACT...Hail damage to vehicles is expected. Exp
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 1:10PM MDT until June 1 at 1:45PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8fa97bcaec7ffb34b088a224c38a9a35f9d1bd0.001.1) — *2026-06-01*
-  > At 110 PM MDT, a severe thunderstorm was located over northeastern
-Colorado Springs, moving northeast at 10 mph.
+* WHERE...Calcasieu River near Glenmora.
 
-HAZARD...60 mph wind gusts and quarter size hail.
+* WHEN.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 11:18AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f365ed2e01036fcd5764847d996b13ce9126a571.001.1) — *2026-06-01*
+  > At 1118 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Pulaski, moving southeast at 40 mph.
 
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding, and t
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:07PM CDT until June 1 at 2:45PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ea5502584a6c1512262f35bdd0857610218643c.001.1) — *2026-06-01*
-  > At 207 PM CDT, a severe thunderstorm was located over Steens, or 7
-miles northeast of Columbus, moving south at 15 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Wind gusts up to 40 mph and penny size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:04PM CDT until June 1 at 2:45PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37e0e54adf4fc297d43aa5d11f5358a8fe96b0a1.001.1) — *2026-06-01*
-  > At 204 PM CDT, severe thunderstorms were located along a line
-extending from 6 miles north of Bankston to near Caledonia, moving
-south at 15 mph.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor 
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued June 1 at 12:14PM EDT until June 1 at 12:45PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0202c0ffe60aeb979180b3020fc69dfbd76d0e88.001.1) — *2026-06-01*
+  > SMWKEY
 
-HAZARD...60 mph wind gusts and half dollar size hail.
+The National Weather Service in Key West has issued a
+
+* Special Marine Warning for...
+Hawk Channel and Straits of Florida from Ocean Reef to west end of
+Seven Mile Bridge out 20 nm...
+Bayside and Gulf side from Craig Key to west end of Seven Mile
+Bridge...
+Florida Bay in
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued June 1 at 12:12PM EDT until June 1 at 12:45PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b9869fc2753bc7e31f4feaab9a62433ac4ae06a.001.1) — *2026-06-01*
+  > SMWKEY
+
+The National Weather Service in Key West has issued a
+
+* Special Marine Warning for...
+Bayside and Gulf side from Craig Key to west end of Seven Mile
+Bridge...
+Hawk Channel from Craig Key to west end of Seven Mile Bridge out to
+the reef...
+
+* Until 1245 PM EDT.
+
+* At 1212
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 1 at 9:04AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4fc7f566c5499527f18a260bfff79f6f12280cb2.001.1) — *2026-06-01*
+  > AQAPSR
+
+The Arizona Department of Environmental Quality (ADEQ) has issued an
+Ozone High Pollution Advisory for the Phoenix Metro Area for today.
+
+This means that forecast weather conditions combined with existing
+ozone levels are expected to result in local maximum 8-hour ozone
+c
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 11:01AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6c1ef22778709fe7ab0780c245b3a0c507b7cc0.001.1) — *2026-06-01*
+  > At 1100 AM CDT, Doppler radar was tracking a strong thunderstorm 11
+miles northwest of Waynesboro, moving southeast at 35 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expec
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 2:01PM CDT until June 1 at 3:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1c497128dca6e1baf739ce6dbe1f20de1c0cd7d.001.1) — *2026-06-01*
-  > SVRBMX
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsec
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 1 at 10:59AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.907f2903353a8febd6faee4d8b1a9634d5b294f8.001.1) — *2026-06-01*
+  > At 1059 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Glen, or near Corinth, moving southeast at 25 mph.
 
-The National Weather Service in Birmingham has issued a
-
-* Severe Thunderstorm Warning for...
-Northern Jefferson County in central Alabama...
-Northern St. Clair County in central Alabama...
-
-* Until 300 PM CDT.
-
-* At 201 PM CDT, severe thunderstorms were located along a l
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 1 at 3:00PM EDT until June 1 at 3:30PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.402be070330c7827bdb685473b45d6f028e16a2e.002.1) — *2026-06-01*
-  > At 259 PM EDT, a severe thunderstorm was located near Seneca, moving
-south at 15 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Wind gusts up to 40 mph and half inch hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Minor hail damage to vehicles is expected. Expect wind
-damage to trees and power lines.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured ob
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 1 at 10:59AM CDT until June 2 at 3:38AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9a4e72c2f3f3b940d54b7b99699e2dc6c024c82.001.1) — *2026-06-01*
+  > ...The Flood Warning continues for the following rivers in
+Missouri...
 
-Locations impacte
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued June 1 at 3:00PM EDT until June 1 at 3:45PM EDT by NWS Melbourne FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4dff7e10d4c34436c208c35c4076ce7e00be35d.001.1) — *2026-06-01*
-  > For the following areas...
-Sebastian Inlet to Jupiter Inlet 0-20 nm...
-Sebastian Inlet to Jupiter Inlet 20-60 nm...
+Moniteau Creek near Fayette affecting Howard County.
 
-At 300 PM EDT, a strong thunderstorm was located 7 nm east of South
-Beach, or 9 nm east of Vero Beach, moving southeast at 25 knots.
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
 
-HAZARD...Wind gusts to 40 kno
+* WHERE...Moniteau Creek near Fayette.
+
+* WHEN...Until late tonight.
+
+* IMPACTS...At
+- **NEW**  [[Moderate] Ashfall Advisory: Ashfall Advisory issued June 1 at 5:31AM HST until June 1 at 12:00PM HST by NWS Honolulu HI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5cabf70455e849f1141c0ba3b9c25eede3501f5.001.1) — *2026-06-01*
+  > * WHAT...Kilauea is erupting lava fountains within the summit
+caldera. Fountaining episodes typically last less than 12 hours
+but ash can remain in the air longer depending on wind and weather
+conditions.
+
+* WHERE...Hawaii Volcanoes National Park and areas to the north and
+northe
+- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued June 1 at 8:29AM PDT until June 1 at 12:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.401ad89e920a3db8abf12a6a7a709399b5c3fa38.001.1) — *2026-06-01*
+  > * WHAT...Very steep and hazardous seas 8 to 11 feet and north
+winds 15 to 25 kt with gusts up to 30 kt.
+
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
+
+* WHEN...Until noon PDT today.
+
+* IMPACTS...Very steep and hazardous seas could capsize or cause
+d
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 1 at 11:28AM EDT until June 2 at 2:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf05b50036db4c62188868784877442bd3518ba4.001.1) — *2026-06-01*
+  > * WHAT...Dangerous rip currents.
+
+* WHERE...Walton, Bay, and state park and west-facing Gulf County
+Beaches.
+
+* WHEN...Through late Monday night.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 1 at 10:56AM EDT until June 2 at 5:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63174e6e7615fbfc64eb3be8245eaafc526dd548.002.1) — *2026-06-01*
+  > ...The Flood Warning is extended for the following rivers in
+Indiana...
+
+White River at Hazleton and Petersburg.
+
+.As of Monday morning, the last of the lowland flooding remains in
+the Petersburg and Hazleton areas on the White River in southwest
+Indiana.  Flooding will come to a
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 1 at 10:56AM EDT until June 4 at 6:30AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63174e6e7615fbfc64eb3be8245eaafc526dd548.001.1) — *2026-06-01*
+  > ...The Flood Warning is extended for the following rivers in
+Indiana...
+
+White River at Hazleton and Petersburg.
+
+.As of Monday morning, the last of the lowland flooding remains in
+the Petersburg and Hazleton areas on the White River in southwest
+Indiana.  Flooding will come to a
 
 _(106 additional items in raw.jsonl)_

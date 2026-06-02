@@ -4,7 +4,7 @@ title: ReliefWeb — humanitarian situation reports
 date: 2026-05-31
 record_count: 0
 new_today: 0
-state: stale_after_failure
+state: fresh_empty
 ---
 
 ## ReliefWeb — humanitarian situation reports

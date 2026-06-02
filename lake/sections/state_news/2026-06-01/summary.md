@@ -2,25 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-06-01
-record_count: 361
-new_today: 275
+record_count: 319
+new_today: 223
 state: fresh
 ---
 
 ## State-Level News
 
-275 new of 361 total items today.
+223 new of 319 total items today.
 
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-01*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
-- **NEW**  [[Alaska] High-profile child deaths spark push for welfare agency transparency](https://alaskabeacon.com/2026/06/01/repub/high-profile-child-deaths-spark-push-for-welfare-agency-transparency/) — *2026-06-01*
-  > After two 5-year-old Indianapolis girls separately died from abuse in the last two years, Indiana Republican state Sen. Julie McGuire said lawmakers could not get basic answers from the state agency responsible for the safety of children. Kinsleigh Welty had been known to the chi
-- **NEW**  [[Alaska] In Kachemak Bay, Kotzebue and beyond, Alaskans are on the lookout for harmful algae blooms](https://alaskabeacon.com/2026/06/01/in-kachemak-bay-kotzebue-and-beyond-alaskans-are-on-the-lookout-for-harmful-algae-blooms/) — *2026-06-01*
-  > Algae is vital to a healthy marine system, and most of the hundreds of varieties in Alaska’s waters are beneficial or benign. But the handful that are harmful are, like other algae, proliferating in warmer conditions and releasing or threatening to release toxins that can sicken 
-- [[Alaska] In setback for oil companies, tax board raises trans-Alaska pipeline value by $3 billion](https://alaskabeacon.com/2026/05/29/in-setback-for-oil-companies-tax-board-raises-trans-alaska-pipeline-value-by-3-billion/) — *2026-05-30*
-  > Alaska and three of its municipalities could be in line for an extra $60 million in oil industry tax revenue after a new ruling in a long-running feud over the value of the trans-Alaska pipeline system. A state appeals board this week determined the property tax value of the enor
-- **NEW**  [[California] Un tanque de productos químicos estuvo a punto de explotar. ¿Acaso los reguladores de California no detectaron las señales de alerta?](https://calmatters.org/calmatters-en-espanol/2026/06/un-tanque-de-productos-quimicos-estuvo-a-punto-de-explotar-acaso-los-reguladores-de-california-no-detectaron-las-senales-de-alerta/) — *2026-06-01*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-Garden-Grove-Leak-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows large industrial stor
 - **NEW**  [[California] Suspense in California governor’s race as Democrats hold on to their ballots](https://calmatters.org/newsletter/democrats-slower-to-vote/) — *2026-06-01*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/110524_UCSD-Voting_AD_CM_02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An overhead view of people waiting in line to
 - **NEW**  [[California] Long after protests ended, this interfaith group rallies to remember LA immigrants taken by ICE](https://calmatters.org/commentary/2026/06/godmothers-los-angeles-immigration-ice/) — *2026-06-01*
@@ -35,6 +25,8 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/052226-Garden-Grove-Leak-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows large industrial stor
 - [[California] California overhauls carbon market — critics say it’s a giveaway to oil](https://calmatters.org/environment/climate-change/2026/05/cap-and-invest-amendment-affordability/) — *2026-05-30*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/050924-Marathon-Refinery-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large oil refinery is illuminated aga
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-01*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[California] Governor Newsom proclaims Jewish Heritage Month](https://www.gov.ca.gov/2026/05/31/governor-newsom-proclaims-jewish-heritage-month/) — *2026-05-31*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/05/31/governor
@@ -49,21 +41,29 @@ state: fresh
 - [[California] Governor Newsom announces appointments 5.29.2026](https://www.gov.ca.gov/2026/05/29/governor-newsom-announces-appointments-5-29-2026/) — *2026-05-30*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
 <p><a href="https://www.gov.ca.gov/2026/05/2
-- **NEW**  [[Arizona] Trump’s transgender military ban driven by ‘desire to harm,’ appeals court rules](https://azmirror.com/2026/06/01/repub/trumps-transgender-military-ban-driven-by-desire-to-harm-appeals-court-rules/) — *2026-06-01*
-  > WASHINGTON — Transgender military members won a temporary victory against the Trump administration in federal appeals court Monday when two judges ruled a policy banning them from service violated their constitutional right to equal protection under the law. Judges Judith W. Roge
-- **NEW**  [[Arizona] ‘Deeply grateful to the Tribal leaders’: Katie Hobbs completes visits to all 22 tribal nations](https://azmirror.com/2026/06/01/deeply-grateful-to-the-tribal-leaders-katie-hobbs-completes-visits-to-all-22-tribal-nations/) — *2026-06-01*
-  > Sharing acorn stew with tribal leaders in San Carlos. Zip lining at Grand Canyon West on Hualapai tribal land. Riding the country’s only tribally-owned mountain roller coaster at Sunrise Park Resort. And kids running alongside a small pack of Rez dogs to greet a state SUV rumblin
-- **NEW**  [[Arizona] The Mark Lamb scandal isn’t just hypocrisy. It’s a Republican Party in moral free fall.](https://azmirror.com/2026/06/01/the-mark-lamb-scandal-isnt-just-hypocrisy-its-a-republican-party-in-moral-free-fall/) — *2026-06-01*
-  > Few things are more predictable in politics than self-proclaimed moral crusaders getting caught in their own hypocrisy. Mark Lamb, the self-described “family man” who built his public image as a gun-slinging Pinal County Sheriff, tough on Mexican cartels and wrapped in “family va
-- **NEW**  [[Arizona] Trump’s $1.8B ‘slush fund’ for loyalists has no modern precedent, presidency scholar says](https://azmirror.com/2026/06/01/repub/trumps-1-8b-slush-fund-for-loyalists-has-no-modern-precedent-presidency-scholar-says/) — *2026-06-01*
+- **NEW**  [[Alaska] In Kachemak Bay, Kotzebue and beyond, Alaskans are on the lookout for harmful algae blooms](https://alaskabeacon.com/2026/06/01/in-kachemak-bay-kotzebue-and-beyond-alaskans-are-on-the-lookout-for-harmful-algae-blooms/) — *2026-06-01*
+  > Algae is vital to a healthy marine system, and most of the hundreds of varieties in Alaska’s waters are beneficial or benign. But the handful that are harmful are, like other algae, proliferating in warmer conditions and releasing or threatening to release toxins that can sicken 
+- [[Alaska] In setback for oil companies, tax board raises trans-Alaska pipeline value by $3 billion](https://alaskabeacon.com/2026/05/29/in-setback-for-oil-companies-tax-board-raises-trans-alaska-pipeline-value-by-3-billion/) — *2026-05-30*
+  > Alaska and three of its municipalities could be in line for an extra $60 million in oil industry tax revenue after a new ruling in a long-running feud over the value of the trans-Alaska pipeline system. A state appeals board this week determined the property tax value of the enor
+- **NEW**  [[Arkansas] Migrants detained at ICE facilities launch hunger strikes to protest conditions](https://arkansasadvocate.com/2026/06/01/repub/migrants-detained-at-ice-facilities-launch-hunger-strikes-to-protest-conditions/) — *2026-06-01*
+  > In at least four states, migrants detained in ICE facilities have launched hunger strikes in recent weeks to protest the conditions in which they are being held. An ongoing hunger and labor strike at the 1,000-bed Delaney Hall facility in Newark, New Jersey, reportedly involves r
+- **NEW**  [[Arkansas] How Trump’s giant ‘slush fund’ sparked lawsuits, roiled Republicans and revived Jan. 6](https://arkansasadvocate.com/2026/06/01/repub/how-trumps-giant-slush-fund-sparked-lawsuits-roiled-republicans-and-revived-jan-6/) — *2026-06-01*
+  > WASHINGTON — The Trump administration’s nearly $1.8 billion “anti-weaponization” fund has attracted scrutiny for its corruption potential, even splitting congressional Republicans who rarely confront President Donald Trump’s decisions and policies.&#160; Among the top concerns: C
+- **NEW**  [[Arkansas] Arkansas Advocate staff win multiple state journalism awards](https://arkansasadvocate.com/2026/06/01/arkansas-advocate-staff-win-multiple-state-journalism-awards/) — *2026-06-01*
+  > Arkansas Advocate staff won five first-place awards, including for its series exploring overcrowding in the state prison system, in the 2026 Arkansas Press Women Professional Communications Contest over the weekend. The Advocate&#8217;s &#8220;Overcrowded&#8221; series by Deputy 
+- **NEW**  [[Arkansas] The feds have embraced medical marijuana. Now what?](https://arkansasadvocate.com/2026/06/01/repub/the-feds-have-embraced-medical-marijuana-now-what/) — *2026-06-01*
+  > The U.S. Department of Justice’s recent decision to downgrade the drug classification for medical cannabis will help medical marijuana businesses. Companies will be able to claim some federal tax benefits. New research can start up at state universities. But the broader divide be
+- **NEW**  [[Arkansas] Flesh-eating screwworms head for American livestock](https://arkansasadvocate.com/2026/05/31/repub/flesh-eating-screwworms-head-for-american-livestock/) — *2026-05-31*
+  > Southern states are bracing for a potential invasion of the New World screwworm that could disrupt livestock markets and raise already high meat prices. So far, the parasite has yet to land in the United States, but it has been spreading across Mexico and Central America. Previou
+- **NEW**  [[Arkansas] Rental rates and abortion laws: Dems scrutinize states vying to go first in picking a president](https://arkansasadvocate.com/2026/05/31/repub/rental-rates-and-abortion-laws-dems-scrutinize-states-vying-to-go-first-in-picking-a-president/) — *2026-05-31*
+  > WASHINGTON — Democratic Party leaders from a dozen states traveled to Washington, D.C., at the end of May to press for their voters to cast the first ballots in the next presidential primary.  State representatives argued that diversifying the early states would ensure Democrats 
+- **NEW**  [[Arkansas] Utah governor orders ‘higher bar’ for data centers, says public input ‘absolutely matters’](https://arkansasadvocate.com/2026/05/31/repub/utah-governor-orders-higher-bar-for-data-centers-says-public-input-absolutely-matters/) — *2026-05-31*
+  > Facing public outcry from across the state and intense pushback from communities closest to a massive proposed data center in northern Utah, Gov. Spencer Cox on Friday said the health of the Great Salt Lake and safeguards to Utah’s air and water quality must come first.  In an ex
+- **NEW**  [[Arkansas] The data center debates are only a preview of Arkansas’ AI challenges](https://arkansasadvocate.com/2026/05/31/the-data-center-debates-are-only-a-preview-of-arkansas-ai-challenges/) — *2026-05-31*
+  > As central Arkansas debated how to handle the influx of data centers needed to power artificial intelligence, another story played out in Fort Smith. There, local police sent an alert to community members about an AI-generated video that purported to show an injured officer thank
+- [[Arkansas] Louisiana lawmakers approve incentives for controversial wood pellet industry](https://arkansasadvocate.com/2026/05/30/repub/louisiana-lawmakers-approve-incentives-for-controversial-wood-pellet-industry/) — *2026-05-30*
+  > A bill aimed at making Louisiana more enticing to the wood pellet industry has sailed through the state legislature. House Bill 670 won unanimous approval in the Louisiana House and Senate. It would ease regulations for pellet manufacturers while directing state support toward wo
+- [[Arkansas] Trump ‘slush fund’ echoes scorned 19th-century spoils system, academics say](https://arkansasadvocate.com/2026/05/30/repub/trump-slush-fund-echoes-scorned-19th-century-spoils-system-academics-say/) — *2026-05-30*
   > President Donald Trump’s extraordinary $1.776 billion fund to pay off allies and others who say they have been wronged by past administrations has drawn widespread condemnation by opponents, including some Republicans, who characterize it as an act of brazen corruption. But the T
-- [[Arizona] Maricopa County recorder asks judge to hold board of supervisors in civil contempt of court](https://azmirror.com/2026/05/29/maricopa-county-recorder-asks-judge-to-hold-board-of-supervisors-in-civil-contempt-of-court/) — *2026-05-30*
-  > Maricopa County Recorder Justin Heap is asking a judge to hold the county’s board of supervisors in civil contempt, escalating a longstanding and messy dispute over election control as the state primary creeps closer. Heap’s filing in Maricopa County Superior Court accuses superv
-- **NEW**  [[Colorado] An unapologetic Tina Peters decries ‘retribution’ after release from prison](https://coloradonewsline.com/2026/06/01/unapologetic-tina-peters-release-prison/) — *2026-06-01*
-  > Former Mesa County Clerk Tina Peters on Monday used the new freedom granted to her by Colorado Gov. Jared Polis to promptly renew her baseless allegations of widespread election fraud, casting doubt on the legitimacy of recent Democratic victories and the upcoming midterm electio
-- **NEW**  [[Colorado] Fifty for 150: Colorado passes landmark police reform bill in the wake of 2020 George Floyd protests](https://coloradonewsline.com/2026/06/01/fifty-for-150-colorado-police-reform-bill/) — *2026-06-01*
-  > The Colorado General Assembly took the unprecedented step of suspending its work on March 14, 2020, pausing in the middle of its 120-day legislative session amid deepening nationwide disruptions caused by the COVID-19 pandemic. When lawmakers reconvened at the Capitol more than t
-- **NEW**  [[Colorado] How billionaire money could influence Colorado’s Democratic primary election for governor](https://coloradonewsline.com/2026/06/01/billionaire-money-colorado-democratic-primary/) — *2026-06-01*
-  > Colorado’s Democratic primary for governor between Attorney General Phil Weiser and U.S. Sen. Michael Bennet is heating up. TV ads are everywhere, and social media is abuzz with supporters extolling their favorite candidate’s strengths or the opponent’s weaknesses. Colorado has e
 
-_(336 additional items in raw.jsonl)_
+_(294 additional items in raw.jsonl)_

@@ -24,8 +24,8 @@ date: 2026-06-01
 - Prediction calibration: insufficient resolved data
 
 ### Today's market state
-- Active markets indexed: **139**
-  - polymarket: 12
+- Active markets indexed: **149**
+  - polymarket: 14
   - kalshi: 50
-  - manifold: 27
+  - manifold: 35
   - predictit: 50

@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-01
-record_count: 859
-new_today: 668
+record_count: 830
+new_today: 632
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-668 new of 859 total items today.
+632 new of 830 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-01*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-01*
   > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- **NEW**  [[Australia] The sliding door moment for 'awestruck' Diamonds bolter](https://www.abc.net.au/news/2026-06-01/2026-super-netball-round-up-round12/106746962) — *2026-06-01*
-  > Despite signing her first full-time Super Netball contract this year there was no guarantee Jessie Grenvold would get a lot of court time. But through injury, the Mavericks defender took on a starting spot and is now a Diamond.
-- **NEW**  [[Australia] Maroons hit with double injury blow ahead of Origin II](https://www.abc.net.au/news/2026-06-01/state-of-origin-queensland-maroons-nsw-blues-carrigan-shibasaki/106746388) — *2026-06-01*
-  > Queensland's task of levelling the State of Origin series has become more difficult after confirmation two of its stars have been ruled out of Game II at the MCG.
-- **NEW**  [[Australia] 'One more to go': Aussies on cusp of winning rugby 7s World Championship](https://www.abc.net.au/news/2026-06-01/australia-win-rugby-7s-world-championship-round-in-spain/106746068) — *2026-06-01*
-  > Australia puts itself in pole position to win the women's rugby sevens World Championship, while the men's team also enjoys the spoils of victory in Spain.
-- **NEW**  [[Australia] Why Naomi Osaka and Taylor Townsend's dinner party 'caused a stir'](https://www.abc.net.au/news/2026-06-01/naomi-osaka-taylor-townsend-french-open-dinner/106744350) — *2026-06-01*
-  > From the Harlem Renaissance of the 20s and 30s to Soul Food Sundays at Wimbledon in the 80s and 90s, Naomi Osaka and Taylor Townsend's dinner party before the French Open continues a long history of black athletes coming together.
-- **NEW**  [[Australia] Fowler wins FA Cup with Man City as fans honour Aussie coach's late father](https://www.abc.net.au/news/2026-06-01/mary-fowler-manchester-city-wins-fa-cup/106744048) — *2026-05-31*
-  > The Women's FA Cup has a distinctly Australian flavour with Mary Fowler's Manchester City thumping Charlize Rule's Brighton and Hove Albion, coached by compatriot Dario Vidošić, whose father was honoured by fans at Wembley.
-- **NEW**  [[Australia] Teen star reaches first major quarterfinal while Świątek out of French Open](https://www.abc.net.au/news/2026-06-01/joao-fonseca-major-quarterfinal-iga-swiatek-out-of-french-open/106743872) — *2026-05-31*
-  > Nineteen-year-old Joao Fonseca beats two-time French Open runner-up Casper Ruud to reach his first grand slam quarterfinal, while four-time champion Iga Świątek suffers her earliest exit since 2019.
-- **NEW**  [[Australia] Aussie Hindley on Giro podium as great Dane Vingegaard completes set](https://www.abc.net.au/news/2026-06-01/jai-hindley-finishes-third-in-giro-ditalia/106743752) — *2026-05-31*
-  > Australian Jai Hindley finishes third at the Giro d'Italia, while Denmark's Jonas Vingegaard adds a title in Rome to his victories in France and Spain.
-- **NEW**  [[Australia] Two new faces named as Socceroos reveal World Cup squad](https://www.abc.net.au/news/2026-06-01/socceroos-squad-named-for-2026-fifa-world-cup/106743604) — *2026-05-31*
-  > Recently realigned Cristian Volpato and Japan-born Tete Yengi are in line for potential national debuts after being named in Australia's squad for this year's World Cup.
-- **NEW**  [[Australia] One-third of Ian Thorpe's life was in the spotlight, and it took its toll](https://www.abc.net.au/news/2026-06-01/the-assembly-ian-thorpe/106547466) — *2026-05-31*
-  > Ian Thorpe became a global star as a teenager, attracting both opportunities and scrutiny. Now, he wishes he'd done some things differently.
-- **NEW**  [[Australia] Applications to protect Victoria Park rejected ahead of construction of Olympic stadium](https://www.abc.net.au/news/2026-05-31/victoria-park-cultural-heritage-applications-olympic-games/106740566) — *2026-05-31*
-  > The federal government has rejected two applications for protection of Brisbane's Victoria Park ahead of construction on the Olympic stadium beginning tomorrow, but is still considering another five.
-- **NEW**  [[Australia] West Coast claims fourth win as Essendon's injury nightmare continues](https://www.abc.net.au/news/2026-05-31/afl-rd-12-live-blog-melb-gws-wce-ess/106726984) — *2026-05-31*
-  > West Coast makes light work of Essendon at Perth Stadium, as the Bombers lose another promising youngster to a serious injury.
-- **NEW**  [[Australia] Haas laments Broncos' BS as Maguire warns against hoping for another miracle](https://www.abc.net.au/news/2026-05-31/nrl-live-score-broncos-dragons-raiders-cowboys-panthers-warriors/106740882) — *2026-05-31*
-  > After four straight losses, the 5-7 Broncos are in the same position as last year before launching an audacious run to the premiership, but coach Michael Maguire says the team should not expect to be able to do that again.
-- [[Australia] Team 'astonished' as rider kicked out of Giro d'Italia Women](https://www.abc.net.au/news/2026-05-31/lorena-wiebes-kicked-out-of-giro-ditalia-women-stage-one/106742328) — *2026-05-31*
-  > Lorena Wiebes powered to victory on stage one of Giro d'Italia Women, but was later kicked off the race for having an underweight bike, a finding that shocked her team.
-- **NEW**  [[Australia] Hundreds arrested as PSG's Champions League win sparks riots](https://www.abc.net.au/news/2026-05-31/psg-fans-arrested-after-champions-league-final/106742174) — *2026-05-31*
-  > More than 50 police officers are wounded, with most suffering minor injuries, as football fans set off fires and vandalise shops, with one small group even trying to storm a Paris police station.
-- [[Australia] Socceroos defeated by Mexico despite encouraging second-half showing](https://www.abc.net.au/news/2026-05-31/socceroos-vs-mexico-live-blog-world-cup-warm-up/106739316) — *2026-05-31*
-  > The Socceroos are beaten 1-0 by Mexico in their penultimate World Cup warm up match despite an improved and impressive second-half performance at the Rose Bowl.
-- [[Australia] Under-strength Australia undone by debutant in first Pakistan ODI](https://www.abc.net.au/news/2026-05-31/australia-loses-first-pakistan-odi-arafat-minhas/106742040) — *2026-05-31*
-  > Australia drops the first game in its limited-overs series in Pakistan as spinner Arafat Minhas takes 5-32 in his maiden one-day international.
-- **NEW**  [[Australia] A planning rule wouldn't bend so the lights at this Canberra oval had to](https://www.abc.net.au/news/2026-05-31/act-manuka-oval-lights-lean-inwards-strict-planning-rule/106737702) — *2026-05-30*
-  > If the six light poles skirting Manuka Oval look like they're on a lean, it's because they are. The 47-metre-high poles slant inwards because otherwise they couldn't be approved under an unusual Canberra planning rule.
-- [[Australia] Last Australian knocked out of French Open as Gauff's title defence ended](https://www.abc.net.au/news/2026-05-31/coco-gauff-french-open-defence-daria-kasatkina-aryna-sabalenka/106741960) — *2026-05-30*
-  > Aryna Sabalenka ends Australia's campaign at the French Open with a straightforward win over Daria Kasatkina, while Coco Gauff joins the slew of big names knocked out early in Paris.
-- [[Australia] PSG wins thrilling shootout for back-to-back Champions League crowns](https://www.abc.net.au/news/2026-05-31/psg-beats-arsenal-in-champions-league-final/106741958) — *2026-05-30*
-  > Paris Saint-Germain beats Arsenal in a tense shootout in the Champions League final to be crowned European champions for the second straight year.
-- [[Australia] How clay-court chaos is a return to the norm at the French Open](https://www.abc.net.au/news/2026-05-31/french-open-mens-draw-no-clear-favourite/106741000) — *2026-05-30*
-  > All the key favourites are now out of the men's draw at the French Open, but then again, this tournament has always been just a little bit different.
-- [[Australia] Periods stopped Vanessa participating in sport and she's not alone](https://www.abc.net.au/news/2026-05-31/periods-barrier-disabled-women-in-sport-participation/106726306) — *2026-05-30*
-  > Vanessa was forced to regularly skip sport because of her period. New research shows that more than 60 per cent of disabled athletes have done the same.
+- **NEW**  [[Global] As Israel pushes past the Litani, Lebanese question the purpose of UNIFIL](https://www.aljazeera.com/features/2026/6/1/as-israel-pushes-past-the-litani-lebanese-question-the-purpose-of-unifil?traffic_source=rss) — *2026-06-01*
+  > Israel has pushed past the Litani River, with the UNFIL peacekeeping force helpless to prevent an invasion.
+- **NEW**  [[Global] Indian PM Modi meets Myanmar military gov’t leader in New Delhi](https://www.aljazeera.com/news/2026/6/1/indian-pm-modi-meets-myanmar-military-govt-leader-in-new-delhi?traffic_source=rss) — *2026-06-01*
+  > Myanmar opposition groups criticise India for hosting Min Aung Hlaing, but India says engagement is best way forward.
+- **NEW**  [[Global] Lebanon latest: Israel captures more land in the south](https://www.aljazeera.com/video/newsfeed/2026/6/1/lebanon-latest-israel-captures-more-land-in-the-south?traffic_source=rss) — *2026-06-01*
+  > Al Jazeera’s Zeina Khodr brings you the latest from Lebanon as Israel expands its occupation there.
+- **NEW**  [[Global] Egypt’s new monorail offers a modern ride, but Cairo is still not convinced](https://www.aljazeera.com/features/2026/6/1/egypts-new-monorail-offers-a-modern-ride-but-cairo-is-still-not-convinced?traffic_source=rss) — *2026-06-01*
+  > Cairo&#039;s East Nile monorail opened to passengers this month as a flagship of Egypt&#039;s infrastructure ambitions.
+- **NEW**  [[Global] Sacked Arsenal staffer doesn’t regret speaking out for Palestine](https://www.aljazeera.com/video/newsfeed/2026/6/1/sacked-arsenal-staffer-doesnt-regret-speaking-out-for-palestine?traffic_source=rss) — *2026-06-01*
+  > Mark Bonnick is suing Arsenal football club for unfair dismissal, saying he was sacked for supporting Palestine.
+- **NEW**  [[Global] Huge explosion at Malta fireworks factory](https://www.aljazeera.com/video/newsfeed/2026/6/1/huge-explosion-at-malta-fireworks-factory?traffic_source=rss) — *2026-06-01*
+  > A large explosion has torn through a fireworks factory in northern Malta, damaging buildings several kilometres away.
+- **NEW**  [[Global] ‘Spoiled insulin’: Sudan war disrupts drug supplies, fuelling smuggling](https://www.aljazeera.com/news/2026/6/1/spoiled-insulin-sudan-war-disrupts-drug-supplies-fuelling-smuggling?traffic_source=rss) — *2026-06-01*
+  > As the conflict destroys local production, Sudanese patients are forced to rely on expensive, smuggled medicines.
+- **NEW**  [[Global] Hungary’s Magyar to amend the constitution to remove President Tamas Sulyok](https://www.aljazeera.com/news/2026/6/1/hungarys-magyar-to-amend-the-constitution-to-remove-president-tamas-sulyok?traffic_source=rss) — *2026-06-01*
+  > After coming to power in April, PM Peter Magyar had given Sulyok a deadline of Sunday to leave office.
+- **NEW**  [[Global] How the world failed Ryan and Yaman](https://www.aljazeera.com/features/2026/6/1/how-the-world-failed-ryan-and-yaman?traffic_source=rss) — *2026-06-01*
+  > An Israeli strike killed my children. What pains me is not just their loss but also the normalisation of their murder.
+- **NEW**  [[Global] Ukraine’s forcibly transferred children must not be a bargaining chip](https://www.aljazeera.com/opinions/2026/6/1/ukraines-forcibly-transferred-children-must-not-be-a-bargaining-chip?traffic_source=rss) — *2026-06-01*
+  > Russia must face more pressure to fulfil its legal obligations to return the Ukrainian children.
+- **NEW**  [[Global] Residents flee Beirut’s southern suburbs as Israel orders strikes](https://www.aljazeera.com/video/newsfeed/2026/6/1/residents-flee-beiruts-southern-suburbs-as-israel-orders-strikes?traffic_source=rss) — *2026-06-01*
+  > Videos show gridlocked traffic in the southern suburbs of Beirut as residents rushed to evacuate the Dahiyeh area.
+- **NEW**  [[Global] How could El Nino reshape tropical storms around the world this year?](https://www.aljazeera.com/news/2026/6/1/how-could-el-nino-reshape-tropical-storms-around-the-world-this-year?traffic_source=rss) — *2026-06-01*
+  > El Nino tends to reduce hurricanes in the Atlantic while increasing storms in the Pacific Ocean.
+- **NEW**  [[Global] Greece reopens Syrian and Afghan asylum cases, hoping for returns](https://www.aljazeera.com/news/2026/6/1/greece-reopens-syrian-and-afghan-asylum-cases-hoping-for-returns?traffic_source=rss) — *2026-06-01*
+  > Greece&#039;s migration minister recently said Athens does not share common values with &#039;hardcore Islam&#039;.
+- **NEW**  [[Global] England World Cup 2026 team preview: Players to watch, group and squad list](https://www.aljazeera.com/sports/2026/6/1/england-world-cup-2026-team-preview-players-to-watch-group-and-squad-list?traffic_source=rss) — *2026-06-01*
+  > England cruised through qualifying, but some fans are concerned over the squad selection and the form against top teams.
+- **NEW**  [[Global] French Navy seizes Russian oil tanker](https://www.aljazeera.com/video/newsfeed/2026/6/1/french-navy-seizes-russian-oil-tanker?traffic_source=rss) — *2026-06-01*
+  > French Navy seizes Russian oil tanker
+- **NEW**  [[Global] What is Lebanon’s Beaufort Castle, and why has Israel captured it?](https://www.aljazeera.com/news/2026/6/1/what-is-lebanons-beaufort-castle-and-why-has-israel-captured-it?traffic_source=rss) — *2026-06-01*
+  > The fortress, a historical battleground, is playing a central role in Israel’s military campaign against Hezbollah.
+- **NEW**  [[Global] Kuwait condemns Iranian attack as Iran-US trade new strikes](https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss) — *2026-06-01*
+  > Kuwait activated its air defences after what its foreign ministry later described as a ‘heinous Iranian attack’.
+- **NEW**  [[Global] French navy, backed by the UK, intercepts Russian oil tanker](https://www.aljazeera.com/news/2026/6/1/french-navy-backed-by-the-uk-intercepts-russian-oil-tanker?traffic_source=rss) — *2026-06-01*
+  > According to France, the tanker, which had sailed from Murmansk, was trying to &#039;skirt international sanctions&#039;.
+- **NEW**  [[Global] Ethiopia holds elections with PM Abiy’s party expected to dominate](https://www.aljazeera.com/news/2026/6/1/ethiopia-holds-elections-with-pm-abiys-party-expected-to-dominate?traffic_source=rss) — *2026-06-01*
+  > Voting will not take place in northern Tigray region and some parts of the Amhara region amid insecurity.
+- **NEW**  [[Global] Israel bombs a beloved Lebanese landmark, chef Husen Fayad’s restaurant](https://www.aljazeera.com/video/newsfeed/2026/6/1/israel-bombs-a-beloved-lebanese-landmark-chef-husen-fayads-restaurant?traffic_source=rss) — *2026-06-01*
+  > Israel destroyed Arch Almoulouk, a resort and restaurant owned by famous Lebanese chef Husen Fayad in Wadi al-Hujeir.
+- **NEW**  [[Global] US, Iran trade new attacks amid talks: Here’s what we know](https://www.aljazeera.com/news/2026/6/1/us-iran-trade-new-attacks-amid-talks-heres-what-we-know?traffic_source=rss) — *2026-06-01*
+  > Washington and Tehran are attacking each other despite a ceasefire that came into effect on April 8.
+- **NEW**  [[Global] Ultra-Orthodox Jewish demonstrators storm Israeli police station](https://www.aljazeera.com/video/newsfeed/2026/6/1/ultra-orthodox-jewish-demonstrators-storm-israeli-police-station?traffic_source=rss) — *2026-06-01*
+  > Ultra-Orthodox Jewish demonstrators storm Israeli police station
+- **NEW**  [[Global] Which football rule changes will be implemented during the World Cup?](https://www.aljazeera.com/sports/2026/6/1/which-football-rule-changes-will-be-implemented-during-the-world-cup?traffic_source=rss) — *2026-06-01*
+  > Red cards for covering mouths, corner kicks for time wasting and broadened use of VAR technology will be implemented.
+- **NEW**  [[Global] Iran’s IRGC launches retaliatory strike after US attacks](https://www.aljazeera.com/news/2026/6/1/irans-irgc-launches-retaliatory-strike-after-us-attacks?traffic_source=rss) — *2026-06-01*
+  > Kuwait, which hosts US forces, says its defence systems intercepted missiles and drones amid sirens across the country.
 
-_(834 additional items in raw.jsonl)_
+_(805 additional items in raw.jsonl)_
