@@ -50,8 +50,11 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
-      - run: pip install markdown pyyaml
+      - run: pip install markdown pyyaml anthropic
       - name: Render every brief to HTML
+        env:
+          # lets the homepage generator translate foreign headlines (Haiku)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python tools/render_brief.py
       - name: Rebuild section pages so Tailwind sees their classes
         # The site_builder emits HTML with the same utility classes the
