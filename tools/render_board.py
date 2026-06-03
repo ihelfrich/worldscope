@@ -110,8 +110,10 @@ def _theater_section(map_data: dict, recs: list, map_json: str, esc) -> str:
            f"{c.get('frontline',0)} frontline · drag to pan, scroll to zoom · "
            f"borders Natural Earth 50m · fires NASA FIRMS")
     legend = ("<div class='maplegend'>"
-              "<span><i class='lg-fire'></i>FIRMS fire</span>"
-              "<span><i class='lg-conf'></i>conflict event</span>"
+              "<span><i class='lg-fire'></i>FIRMS fire <em>size=FRP</em></span>"
+              "<span><i class='lg-fhi'></i>high</span>"
+              "<span><i class='lg-flo'></i>low conf.</span>"
+              "<span><i class='lg-conf'></i>conflict <em>size=deaths</em></span>"
               "<span><i class='lg-city'></i>city</span>"
               "<span><i class='lg-front'></i>frontline</span></div>")
     return (
@@ -446,9 +448,12 @@ _CSS_TAIL = """
  font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--soft)}
 .maplegend span{display:inline-flex;align-items:center;gap:5px}
 .maplegend i{width:9px;height:9px;border-radius:50%;display:inline-block}
-.maplegend .lg-fire{background:#E8731C}.maplegend .lg-conf{background:#C0392B}
+.maplegend em{font-style:normal;opacity:.6;margin-left:3px}
+.maplegend .lg-fire{background:#E8731C}.maplegend .lg-fhi{background:#C0392B}
+.maplegend .lg-flo{background:#F0B429}
+.maplegend .lg-conf{background:#7E1F17;border-radius:0;transform:rotate(45deg)}
 .maplegend .lg-city{background:#1C1A14}
-.maplegend .lg-front{border-radius:0;width:12px;height:0;border-top:2px dashed #C0392B}
+.maplegend .lg-front{border-radius:0;width:12px;height:0;border-top:2px solid #C0392B}
 .maptip{position:absolute;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5;
  background:var(--ink);color:#F4F1E8;font-family:var(--sans);font-size:11px;line-height:1.3;
  padding:6px 9px;border-radius:6px;max-width:230px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -540,19 +545,31 @@ _MAP_JS = r"""
       var p=proj([a.lon,a.lat]); if(!p)return;
       g.append("circle").attr("class","alert").attr("cx",p[0]).attr("cy",p[1]).attr("r",13);
     });
-    // event points (fires + conflict)
+    // project all event points
     var pts=(data.points||[]).map(function(d){var p=proj([d.lon,d.lat]);return p?{x:p[0],y:p[1],d:d}:null;})
                 .filter(Boolean);
-    g.selectAll("circle.pt").data(pts).enter().append("circle")
-      .attr("class",function(o){return o.d.kind==="conflict"?"conf":"fire";})
+    // FIRMS fires: circles, radius scaled by FRP (MW), filled by confidence
+    var fireCol={high:"#C0392B",nominal:"#E8731C",low:"#F0B429"};
+    g.selectAll("circle.fire").data(pts.filter(function(o){return o.d.kind==="fire";}))
+      .enter().append("circle").attr("class","fire")
       .attr("cx",function(o){return o.x;}).attr("cy",function(o){return o.y;})
-      .attr("r",function(o){return o.d.kind==="conflict"
-        ? Math.max(3,Math.sqrt((o.d.fatalities||0)+1)*2.2) : 2.1;})
-      .on("mousemove",function(ev,o){
-        var lbl=o.d.kind==="conflict"
-          ? ("Conflict · "+(o.d.fatalities||0)+" fatalities"+(o.d.text?"<br>"+o.d.text:""))
-          : "FIRMS thermal anomaly";
-        showTip(lbl,o.x,o.y);}).on("mouseout",hideTip);
+      .attr("r",function(o){return Math.max(1.5,Math.min(8,Math.sqrt((o.d.frp||0)+0.5)*1.4));})
+      .attr("fill",function(o){return fireCol[o.d.conf]||fireCol.nominal;})
+      .on("mousemove",function(ev,o){showTip(
+        "FIRMS thermal anomaly<br>FRP "+(o.d.frp||0)+" MW · "+(o.d.conf||"nominal")+" confidence",
+        o.x,o.y);}).on("mouseout",hideTip);
+    // ACLED conflict events: diamonds, size scaled by fatalities, hue by event type
+    function diamond(s){return "M0,"+(-s)+"L"+s+",0L0,"+s+"L"+(-s)+",0Z";}
+    function confCol(t){t=t||"";return /shelling|artillery|missile|drone|air|strike|bomb/.test(t)
+      ? "#7E1F17" : /armed clash|battle|attack/.test(t) ? "#C0392B" : "#9A6B00";}
+    g.selectAll("path.conf").data(pts.filter(function(o){return o.d.kind==="conflict";}))
+      .enter().append("path").attr("class","conf")
+      .attr("d",function(o){return diamond(Math.max(3,Math.sqrt((o.d.fatalities||0)+1)*2.4));})
+      .attr("transform",function(o){return "translate("+o.x+","+o.y+")";})
+      .attr("fill",function(o){return confCol(o.d.etype);})
+      .on("mousemove",function(ev,o){showTip(
+        "Conflict event"+(o.d.etype?" · "+o.d.etype:"")+"<br>"+(o.d.fatalities||0)+" fatalities"
+        +(o.d.text?"<br>"+o.d.text:""),o.x,o.y);}).on("mouseout",hideTip);
     // cities
     var cg=g.append("g");
     (data.cities||[]).forEach(function(c){
@@ -564,7 +581,7 @@ _MAP_JS = r"""
   // pan + zoom
   svg.call(d3.zoom().scaleExtent([1,9]).on("zoom",function(ev){
     g.attr("transform",ev.transform);
-    g.selectAll("circle.fire,circle.conf,circle.city").attr("vector-effect","non-scaling-stroke");
+    g.selectAll("circle.fire,path.conf,circle.city").attr("vector-effect","non-scaling-stroke");
   }));
 })();
 """
