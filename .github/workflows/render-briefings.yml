@@ -88,7 +88,9 @@ jobs:
               break
             fi
             echo "Push rejected on attempt $attempt; rebasing on origin/main"
-            git pull --rebase --autostash origin main
+            # Regenerated HTML/CSS conflicts: prefer OUR fresh build (-X theirs
+            # favors the replayed commit during rebase). Abort cleanly if stuck.
+            git pull --rebase --autostash -X theirs origin main || git rebase --abort
           done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
