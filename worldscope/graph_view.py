@@ -127,25 +127,30 @@ def connections(today: str | None = None, *, lake_path: Path | None = None,
             a["evidence"].append({"section": r["section"],
                                   "text": re.sub(r"<[^>]+>", "", r["text"])[:160]})
 
-    # keep entities that genuinely span >= 2 domains, prefer people/orgs
-    ranked = [a for a in agg.values()
-              if len(a["domains"]) >= 2 and a["type"] in {"person", "org", "filing", "event"}]
-    # fall back to >=3 sections if domain-spanning is sparse
-    if len(ranked) < 6:
-        ranked = [a for a in agg.values() if len(a["sections"]) >= 2
-                  and a["type"] in {"person", "org", "filing", "event"}]
-    ranked.sort(key=lambda a: (len(a["domains"]), len(a["sections"]), a["mentions"]),
-                reverse=True)
-    ranked = ranked[:limit]
+    # candidate pool: structured entities spanning >=2 domains (or >=2 sections),
+    # with a real-looking name. We attach edges, then keep only those with a
+    # genuine graph relationship so every card is substantive (no bare mentions).
+    def _good_name(name: str, etype: str) -> bool:
+        nm = (name or "").strip()
+        if len(nm) < 4 or any(ch.isdigit() for ch in nm):
+            return False
+        if etype == "person" and len(nm.split()) < 2:    # drop bare surnames
+            return False
+        if nm.isupper() and len(nm) <= 5:                 # stray acronyms
+            return False
+        return True
 
-    # attach high-value edges for the unified id-sets
-    id_to_node = {}
-    for a in ranked:
-        for i in a["ids"]:
-            id_to_node[i] = a
+    pool = [a for a in agg.values()
+            if a["type"] in {"person", "org", "filing", "event"}
+            and _good_name(a["name"], a["type"])
+            and (len(a["domains"]) >= 2 or len(a["sections"]) >= 2)]
+    pool.sort(key=lambda a: (len(a["domains"]), len(a["sections"]), a["mentions"]),
+              reverse=True)
+    pool = pool[:60]
+
     edges_total = conn.execute("SELECT COUNT(*) FROM relationships").fetchone()[0]
     name_by_id = {r[0]: r[1] for r in conn.execute("SELECT id, canonical_name FROM entities")}
-    for a in ranked:
+    for a in pool:
         a["edges"] = []
         seen = set()
         for i in list(a["ids"])[:40]:
@@ -163,6 +168,13 @@ def connections(today: str | None = None, *, lake_path: Path | None = None,
                 a["edges"].append({"type": er["ty"], "other": other[:48], "out": outward})
             if len(a["edges"]) >= 8:
                 break
+
+    # keep only entities with a real edge; rank edges-first so the substantive
+    # connections (trades, signings, sponsorships) lead.
+    ranked = [a for a in pool if a["edges"]]
+    ranked.sort(key=lambda a: (len(a["edges"]), len(a["domains"]), a["mentions"]),
+                reverse=True)
+    ranked = ranked[:limit]
     conn.close()
 
     out = []
