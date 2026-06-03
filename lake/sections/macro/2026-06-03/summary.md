@@ -19,15 +19,15 @@ state: fresh
   > latest: 0.41 as of 2026-06-02
 - **NEW**  [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-04-01*
   > latest: 332.407 as of 2026-04-01
-- [[Labor] Unemployment rate (UNRATE)](https://fred.stlouisfed.org/series/UNRATE) — *2026-04-01*
-  > latest: 4.3 as of 2026-04-01
 - [[Labor] Nonfarm payrolls (PAYEMS)](https://fred.stlouisfed.org/series/PAYEMS) — *2026-04-01*
   > latest: 158736 as of 2026-04-01
-- **NEW**  [[Growth] Real GDP (GDPC1)](https://fred.stlouisfed.org/series/GDPC1) — *2026-01-01*
-  > latest: 24152.656 as of 2026-01-01
-- **NEW**  [[Growth] Personal consumption (PCE)](https://fred.stlouisfed.org/series/PCE) — *2026-04-01*
-  > latest: 21979.4 as of 2026-04-01
-- **NEW**  [[FX] JPY/USD (DEXJPUS)](https://fred.stlouisfed.org/series/DEXJPUS) — *2026-05-29*
-  > latest: 159.23 as of 2026-05-29
-- [[FX] CNY/USD (DEXCHUS)](https://fred.stlouisfed.org/series/DEXCHUS) — *2026-05-29*
-  > latest: 6.7662 as of 2026-05-29
+- **NEW**  [[Labor] Job openings (JOLTS) (JTSJOL)](https://fred.stlouisfed.org/series/JTSJOL) — *2026-04-01*
+  > latest: 7618 as of 2026-04-01
+- [[Money] M2 money supply (M2SL)](https://fred.stlouisfed.org/series/M2SL) — *2026-04-01*
+  > latest: 22804.5 as of 2026-04-01
+- **NEW**  [[FX] EUR/USD (DEXUSEU)](https://fred.stlouisfed.org/series/DEXUSEU) — *2026-05-29*
+  > latest: 1.1679 as of 2026-05-29
+- [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-05-26*
+  > latest: 97.63 as of 2026-05-26
+- **NEW**  [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-06-02*
+  > latest: 15.77 as of 2026-06-02

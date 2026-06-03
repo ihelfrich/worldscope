@@ -2,35 +2,19 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-03
-record_count: 247
+record_count: 246
 new_today: 197
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-197 new of 247 total items today.
+197 new of 246 total items today.
 
-- **NEW**  [[St. Louis] Is the St. Charles Farmers Market the most kid-friendly in the region?](https://www.stlmag.com/family/st-charles-farmers-market-kid-friendly/) — *2026-06-03*
-  > <p>A change in location may have been all the St. Charles Farmers Market needed to become one of the area&#8217;s most family-friendly weekend destinations. This season, the market packed up its produce, parted ways with the City of St. Charles, and moved to Lakeside Park. While 
-- **NEW**  [[St. Louis] A house in Wildwood hits the market](https://www.stlmag.com/design/property/744-spiceberry-lane-wildwood/) — *2026-06-03*
-  > <p>Thoughtful Design Built in 2019, the residence was conceived with an intuitive floor plan, striking details, and carefully considered design elements.&#160; Cape Cod-InspiredThis four-bedroom, five-bathroom home is as charming as it is sophisticated. Clad in white brick with l
-- **NEW**  [[St. Louis] Police Board’s big raises mean an even bigger increase for St. Louis’ fire department](https://www.stlmag.com/news/police-boards-raises-command-staff-fire/) — *2026-06-03*
-  > <p>On Monday night, the state-appointed Board of Police Commissioners proposed significant pay increases for high-ranking officers: 16 percent for lieutenants, 18 percent for captains, 20 percent for majors, and 22 percent for lieutenant colonels. The Police Board is expected to 
-- **NEW**  [[St. Louis] Broadway star Kate Baldwin helps Opera Theatre of Saint Louis expand its horizons in a glorious show](https://www.stlmag.com/culture/kate-baldwin-opera-theatre/) — *2026-06-03*
-  > <p>One of Broadway’s big stars is in St. Louis this summer, but she’s not at The Muny. Two-time Tony Award nominee Kate Baldwin is starring in The Light in the Piazza as it makes its debut at Opera Theatre of Saint Louis. It may not be your idea of opera, but she is terrific, and
-- **NEW**  [[St. Louis] Now is the time to build up the riverfront, civic and business leaders say](https://www.stlmag.com/business/st-louis-downtown-riverfront-revitilization/) — *2026-06-03*
-  > <p>The portion of the Mississippi River that lines St. Louis’ downtown has long felt like an afterthought for the city, but civic and business leaders say the moment now is as good as any to spur riverfront revitalization. This growing focus is partially powered by the idea for $
-- **NEW**  [[St. Louis] Top things to do in St. Louis this weekend: June 5–7](https://www.stlmag.com/culture/top-events-in-st-louis-this-weekend/) — *2026-06-03*
-  > <p>Circus Flora &#124; Through June 21 Circus Flora celebrates its 40th anniversary season with Flying High, featuring the Flying Wallendas, the Olate Dogs, a Human Cannonball, and more. See website for details. The Big Top, 3401 Washington. International Horseradish Festival &#1
-- **NEW**  [[St. Louis] Busch Family Brewing & Distilling in Defiance to remain closed for 2026 season](https://www.stlmag.com/dining/busch-family-brewing-distilling-in-defiance-to-remain-closed-for-2026-season/) — *2026-06-03*
-  > <p>After two seasons of brewing beer, bronco busting at monthly Saturday night rodeos, pouring its signature Bridlespur Bourbon, and drawing crowds for country-themed parties and events, Busch Family Brewing &#38; Distilling (4151 Benne) in Defiance will not open for the 2026 sea
-- **NEW**  [[St. Louis] St. Louis nurse launches BYOBaby STL to help new moms find community](https://www.stlmag.com/family/byobaby-stl/) — *2026-06-02*
-  > <p>In her six years as a labor and delivery nurse, Nya J. Martin saw the same thing again and again: new moms arriving at the hospital prepared for birth, but not always prepared for the decisions that came with it. “There are so many choices that you have to make when you come t
-- [[St. Louis] Police Board can’t grab Rams funds, city’s reserves, judge rules](https://www.stlmag.com/news/police-board-rams-funds-reserves-ruling/) — *2026-06-02*
-  > <p>St. Louis city leaders got a win in court today in their ongoing battle with the state-appointed Board of Police Commissioners. Judge Joan Moriarty denied the board’s request that $67.5 million be added to their coffers this fiscal year, which ends in about a month.&#160; The 
-- **NEW**  [[St. Louis] Webster Arts Fair returns this weekend](https://www.stlmag.com/culture/fairs-festivals/the-webster-arts-fair-returns-this-weekend-for-its-20th-year/) — *2026-06-02*
-  > <p>The Webster Arts Fair returns to the Green at Eden Seminary this weekend for its 22nd year. Spend time in the community by browsing work from more than 100 artists, as well as rocking out, eating up, and enjoying the beautiful setting on Friday, Saturday, and Sunday. “We want 
+- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-06-03*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] NIH researchers charged with attempting to smuggle vials of mpox virus into the US](https://www.ksdk.com/article/news/nation-world/nih-researchers-charged-attempting-smuggle-monkeypox-virus-us/507-46415135-2777-49aa-8425-0129968f34d5) — *2026-06-03*
+  > Both worked at NIH's Rocky Mountain Lab in Montana, where they conducted research involving emerging viral pathogens and how diseases cross from animals to humans.
 - **NEW**  [[St. Louis] NHL's 'Stanley Pup,' featuring 32 dogs competing, is back for a third year](https://www.ksdk.com/article/sports/nhl-stanley-pup-dogs-rescue-special-time-hockey-date/507-185c2fbf-7b2b-4ee8-bb06-f012d5ee0940) — *2026-06-03*
   > The 'Stanley Pup' special will premiere in the United States and Canada on Monday, June 8.
 - **NEW**  [[St. Louis] Frontier flight diverted after passenger tried to open door, choke off-duty flight attendant, police say](https://www.ksdk.com/article/news/nation-world/frontier-flight-diverted-passenger-tried-opening-door-choke-off-duty-flight-attendant/507-897b814a-73df-44c2-ba82-951a33daae95) — *2026-06-03*
@@ -61,5 +45,21 @@ state: fresh
   > The donation matches the amount a nonprofit gave to the PAC supporting the August ballot measure.
 - **NEW**  [[St. Louis] 66-year-old with intellectual disabilities found safe](https://www.ksdk.com/article/news/local/st-louis-police-looking-for-missing-66-year-old-with-intellectual-disabilities/63-ef069ecf-1ac3-4b0c-b500-ce833b01ff15) — *2026-06-03*
   > The man was found and returned home safely.
+- **NEW**  [[St. Louis] U.S. Marshals arrest suspect in $2.6 million estate theft case](https://www.ksdk.com/article/news/nation-world/us-marshals-arrest-suspect-in-estate-theft-case/507-4c63583f-94ab-4389-aa11-4e603b4f42b3) — *2026-06-03*
+  > Prosecutors allege Ronald Wisner took control of the victim’s estate after his 2024 death and funneled more than a million dollars through financial accounts.
+- **NEW**  [[St. Louis] Hotel workers in Seattle threaten strike ahead of World Cup crowds: 'We're very serious'](https://www.ksdk.com/article/news/nation-world/seattle-embassy-suites-hilton-world-cup-fifa/507-10f532b6-fe05-4ae7-b769-30c6e0acb7b5) — *2026-06-03*
+  > More than 100 Embassy Suites employees will vote whether to authorize a strike. About 750,000 visitors are expected in the city for the 2026 FIFA World Cup games.
+- **NEW**  [[St. Louis] Meet the 2026 Gerber Baby: Minnesota infant wins nationwide photo search](https://www.ksdk.com/article/news/nation-world/meet-the-2026-gerber-baby-minnesota-infant-wins-nationwide-photo-search/507-753e00e0-d5c4-42d0-b9fe-c71ac3869098) — *2026-06-03*
+  > The winner's family will receive $50,000, and he’ll appear in Gerber ads and social media campaigns throughout the year.
+- **NEW**  [[St. Louis] George Santos reported to prosecutors over suspicious Kalshi trades, AP source says](https://www.ksdk.com/article/news/nation-world/george-santos-suspicious-kalshi-trades/507-d15e9792-9eed-41ab-ade3-bf81f1e91241) — *2026-06-03*
+  > The prediction marketplace Kalshi detected trades made by Santos ahead of Trump's State of the Union address, a source told AP.
+- **NEW**  [[St. Louis] Diane Keaton's personal collection hits auction block, including iconic 'Annie Hall' pieces](https://www.ksdk.com/article/entertainment/diane-keaton-auction-annie-hall/507-f51c7c26-4a73-4252-8b36-fc5b6ab73383) — *2026-06-03*
+  > A collection of more than 50 lots, titled "Diane Keaton: Architecture of an Icon," will go up for auction on Monday, June 8.
+- **NEW**  [[St. Louis] Iran and the US trade strikes in the Persian Gulf, further testing the ceasefire](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-united-states-war-israel-drone-strikes-gulf-conflict/507-be6adab6-6364-4284-86f5-d95f06c90d46) — *2026-06-03*
+  > Talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel’s broadening war in Lebanon are further straining the efforts.
+- **NEW**  [[St. Louis] US says it plans extra tariffs of 10% or more for most trading partners after forced labor probe](https://www.ksdk.com/article/news/nation-world/extra-tariffs-proposed-forced-labor/507-62a7ce17-8a2e-42b3-ae4c-1cfc68256145) — *2026-06-03*
+  > A report released early Wednesday listed several countries that would face tariffs for allegedly failing to enforce a forced labor import ban.
+- **NEW**  [[St. Louis] 'How I Met Your Mother' actor sentenced for attempted murder of Hollywood makeup artist](https://www.ksdk.com/article/news/nation-world/nick-pasqual-how-i-met-your-mother-actor-sentenced-attempted-murder/507-2fd3b3b4-2f7a-4650-bd4d-c8056226594b) — *2026-06-03*
+  > Nick Pasqual received his sentence Tuesday for the 2024 stabbing of estranged ex-girlfriend Allie Shehorn.
 
-_(222 additional items in raw.jsonl)_
+_(221 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-06-03
-record_count: 1124
-new_today: 660
+record_count: 1125
+new_today: 663
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-660 new of 1124 total items today.
+663 new of 1125 total items today.
 
 - **NEW**  [[TITLE: «Десятки тысяч погибших — это не абстракция. Это можете быть вы. Вас оставят умирать в грязи». Генсек НАТО предостерег россиян от вербовки на фронт | LEDE: <p>Генеральный секретарь НАТО Марк Рю] (ru: «Десятки тысяч погибших — это не абстракция. Это можете быть вы. Вас оставят уми)](https://meduza.io/news/2026/06/03/desyatki-tysyach-pogibshih-eto-ne-abstraktsiya-eto-mozhete-byt-vy-vas-ostavyat-umirat-v-gryazi-gensek-nato-predostereg-rossiyan-ot-verbovki-na-front) — *2026-06-03*
   > <p>Генеральный секретарь НАТО Марк Рютте обратился к российской молодежи с призывом не поддаваться вербовке на войну. С таким заявлением он выступил во время визита в Киев.<p>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: Российским фехтовальщикам разрешили выступать с флагом и гимном | LEDE: <p>Исполнительный комитет Международной федерации фехтования (FIE) разрешил российским и белорусским спортсменам участвов] (ru: Российским фехтовальщикам разрешили выступать с флагом и гимном)](https://meduza.io/news/2026/06/02/rossiyskim-fehtovalschikam-razreshili-vystupat-s-flagom-i-gimnom) — *2026-06-02*
   > <p>Исполнительный комитет Международной федерации фехтования (FIE) разрешил российским и белорусским спортсменам участвовать в соревнованиях с флагом и гимном. Об этом сообщается на сайте организации. <p>
 
-_(1099 additional items in raw.jsonl)_
+_(1100 additional items in raw.jsonl)_

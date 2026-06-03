@@ -2,64 +2,63 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-03
-record_count: 898
-new_today: 653
+record_count: 855
+new_today: 609
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-653 new of 898 total items today.
+609 new of 855 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-03*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-03*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-03*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-03*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-03*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- **NEW**  [[Global] What is the St Petersburg forum, Putin’s economic outreach to the world?](https://www.aljazeera.com/news/2026/6/3/what-is-the-st-petersburg-forum-putins-economic-outreach-to-the-world?traffic_source=rss) — *2026-06-03*
-  > A Ukrainian drone strike targeted energy facilities near St Petersburg hours before the forum began.
-- **NEW**  [[Global] The Ebola outbreak the world isn’t paying attention to](https://www.aljazeera.com/video/the-take-2/2026/6/3/aje-onl-tt_glb_ebola26_video-030626?traffic_source=rss) — *2026-06-03*
-  > A deadly Ebola outbreak in the DRC is spreading across borders, with no approved vaccine or treatment for this strain.
-- **NEW**  [[Global] Which World Cup 2026 stadiums will host matches in US, Canada and Mexico?](https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-stadiums-matches-us-canada-mexico?traffic_source=rss) — *2026-06-03*
-  > A quick look at the 16 venues across 16 cities in three countries, which will host the biggest-ever FIFA World Cup.
-- **NEW**  [[Global] UK minister condemns violent protests against student’s murder](https://www.aljazeera.com/news/2026/6/3/uk-minister-condemns-violent-protests-against-students-murder?traffic_source=rss) — *2026-06-03*
-  > Henry Nowak&#039;s death has spurred right-wing claims ‘two-tier’ policing disadvantages white people
-- **NEW**  [[Global] Turkiye’s top diplomat, Indonesia’s president discuss $10bn trade goal](https://www.aljazeera.com/news/2026/6/3/defence-energy-halal-sectors-top-agenda-in-turkiye-indonesia-talks?traffic_source=rss) — *2026-06-03*
-  > The two discuss a range of sectors, including defence, energy, transportation and the halal food industry.
-- **NEW**  [[Global] FBI agents fatally shoot alleged hostage-taker in California](https://www.aljazeera.com/news/2026/6/3/fbi-agents-fatally-shoot-alleged-hostage-taker-in-california?traffic_source=rss) — *2026-06-03*
-  > The shooting ends a 12-hour standoff in the city of Bakersfield between suspect and law enforcement.
-- **NEW**  [[Global] Pro-Palestine US army veteran Adam Hamawy wins New Jersey primary](https://www.aljazeera.com/video/newsfeed/2026/6/3/pro-palestine-us-army-veteran-adam-hamawy-wins-new-jersey-primary?traffic_source=rss) — *2026-06-03*
-  > A former US Army combat surgeon who volunteered at Gaza hospital has a Democratic primary in New Jersey.
-- **NEW**  [[Global] Three British navy personnel killed in helicopter crash in England](https://www.aljazeera.com/news/2026/6/3/three-british-navy-personnel-killed-in-helicopter-crash-in-england?traffic_source=rss) — *2026-06-03*
-  > An investigation under way after the deadly accident during a training exercise near the town of Sourton in Devon.
-- **NEW**  [[Global] Sabalenka the latest French Open shock exit as Shnaider wins quarterfinal](https://www.aljazeera.com/sports/2026/6/3/sabalenka-the-latest-french-open-star-to-fall-as-shnaider-wins-quarterfinal?traffic_source=rss) — *2026-06-03*
-  > Tennis&#039;s top-ranked Aryna Sabalenka knocked out of French Open in quarterfinal Roland-Garros defeat to Diana Shnaider.
-- **NEW**  [[Global] ‘Doesn’t seem qualified’: Who is Bill Pulte, acting US intelligence chief?](https://www.aljazeera.com/news/2026/6/3/doesnt-seem-qualified-who-is-bill-pulte-acting-us-intelligence-chief?traffic_source=rss) — *2026-06-03*
-  > Republican and Democratic lawmakers have questioned the credentials of President Trump&#039;s latest appointee.
-- **NEW**  [[Global] Lamine Yamal and Nico Williams set to be fit for Spain’s World Cup opener](https://www.aljazeera.com/sports/2026/6/3/lamine-yamal-and-nico-williams-set-to-be-fit-for-spains-world-cup-opener?traffic_source=rss) — *2026-06-03*
-  > Barcelona&#039;s Lamine Yamal and Athletic&#039;s Nico Williams are expected to shake injuries in time to face Cape Verde.
-- **NEW**  [[Global] The Population Bust](https://www.aljazeera.com/video/featured-documentaries/2026/6/3/the-population-bust?traffic_source=rss) — *2026-06-03*
-  > A revealing global journey into declining birth rates, ageing societies, and their far-reaching impact.
-- **NEW**  [[Global] Israel detains Palestine international women’s football player](https://www.aljazeera.com/sports/2026/6/3/israel-detains-palestine-international-football-player?traffic_source=rss) — *2026-06-03*
-  > Rand Halawani&#039;s detention also saw four other women arrested on Tuesday, including a former Palestine player.
-- **NEW**  [[Global] Iran’s World Cup squad to depart for Mexico on June 6 despite US visa delay](https://www.aljazeera.com/sports/2026/6/3/irans-world-cup-squad-to-depart-for-mexico-on-june-6-despite-us-visa-delay?traffic_source=rss) — *2026-06-03*
-  > Squad&#039;s visas for the US haven&#039;t been issued, with Marco Rubio saying IRGC-linked members won&#039;t be allowed to &#039;embed&#039;.
-- **NEW**  [[Global] DRC suggests behind-closed-doors World Cup warm-up to offset Ebola threat](https://www.aljazeera.com/sports/2026/6/3/dr-congo-to-offset-ebola-threat-with-behind-closed-doors-world-cup-warm-up?traffic_source=rss) — *2026-06-03*
-  > Mayor of Spain&#039;s La Linea de la Concepcion bans friendly between DR Congo and Chile due to health concerns.
-- **NEW**  [[Global] Why is France so invested in the future of Lebanon?](https://www.aljazeera.com/news/2026/6/3/why-is-france-so-invested-in-the-future-of-lebanon?traffic_source=rss) — *2026-06-03*
-  > Analysts say France is hoping to reassert its diminishing influence in the region.
-- **NEW**  [[Global] Kuwait and Bahrain attacked as Iran launches missile and drone barrage](https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-and-bahrain-attacked-as-iran-launches-missile-and-drone-barrage?traffic_source=rss) — *2026-06-03*
-  > Kuwait and Bahrain attacked as Iran launches missile and drone barrage
-- **NEW**  [[Global] Is Asia facing a new currency crisis?](https://www.aljazeera.com/video/counting-the-cost/2026/6/3/is-asia-facing-a-new-currency-crisis?traffic_source=rss) — *2026-06-03*
-  > A stronger dollar, higher energy costs and market uncertainty are putting pressure on currencies across Asia.
-- **NEW**  [[Global] Does UK’s new far-right party, Restore, pose a threat to Farage’s Reform?](https://www.aljazeera.com/news/2026/6/3/does-uks-new-far-right-party-restore-pose-a-threat-to-farages-reform?traffic_source=rss) — *2026-06-03*
-  > Restore Britain’s manifesto has pledged to implement the &#039;most ambitious programme of mass deportations&#039;.
-- **NEW**  [[Global] Video: Teachers in northern Nigeria protest abduction of school children](https://www.aljazeera.com/video/newsfeed/2026/6/3/video-teachers-in-northern-nigeria-protest-abduction-of-school-children?traffic_source=rss) — *2026-06-03*
-  > Teachers in north-eastern Nigeria held protests, demanding stronger protection for learning institutions.
-- **NEW**  [[Global] Ferrari sign Leclerc on new long-term contract before home F1 Monaco GP](https://www.aljazeera.com/sports/2026/6/3/ferrari-sign-leclerc-on-new-long-term-contract-ahead-of-home-f1-monaco-gp?traffic_source=rss) — *2026-06-03*
-  > Charles Leclerc has extended his contract with Ferrari for an undisclosed length, having joined the F1 team in 2019.
+- **NEW**  [[Global] 'Both sides are committed' to US-EU trade deal, US Trade Representative Jamieson Greer says](https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260603-both-sides-are-committed-to-us-eu-trade-deal-us-trade-representative-jamieson-greer-says) — *2026-06-03*
+  > In an interview with FRANCE 24, US Trade Representative Jamieson Greer insisted that despite fresh US tariffs proposed this Wednesday, "both sides are committed to compliance" with the US-EU trade deal. The top US trade official said he saw "a lot of room" for continued complianc
+- **NEW**  [[Global] Months after the regime crackdown, Iranians search for missing protesters](https://www.france24.com/en/middle-east/20260603-months-after-the-regime-crackdown-iranians-search-for-missing-protesters) — *2026-06-03*
+  > The deadly crackdown on the December 2025-January 2026 anti-regime protests saw many Iranians killed, tracked or detained. The US-Israel war on Iran has intensified the repression, but it has not stopped families from trying to trace their missing loved ones or from seeking justi
+- **NEW**  [[Global] Japan: Modern-day samurais battle new foe: Climate change](https://www.france24.com/en/video/20260603-japan-modern-day-samurais-battle-new-foe-climate-change) — *2026-06-03*
+  > It is a tradition that dates back a thousand years and has survived wars, earthquakes and even a nuclear disaster. But in recent years, Japan’s Soma Nomaoi samurai festival has found itself under threat from a new enemy: extreme heat.
+- **NEW**  [[Global] Director Wim Wenders pulls 1975 film featuring then-teenager Nastassja Kinski in nude scene](https://www.france24.com/en/culture/20260603-director-wim-wenders-pulls-1975-film-featuring-then-teenager-nastassja-kinski-in-nude-scene) — *2026-06-03*
+  > German director Wim Wenders announced Wednesday that he would be pulling his 1975 film “Wrong Move” from circulation due to a scene in which actress Nastassja Kinski, then a teenager, appeared topless.
+- **NEW**  [[Global] 'US war on Iran not about the Iranian people: Europe can put the issue of human rights on the table'](https://www.france24.com/en/us-war-on-iran-not-about-the-iranian-people-europe-can-put-the-issue-of-human-rights-on-the-table) — *2026-06-03*
+  > Nadia Massih is pleased to welcome Mahmood Amiry-Moghaddam, President of Iran Human Rights and Professor of Neuroscience at University of Oslo. He offers a stark assessment of the Iranian regime's response to recent unrest and wartime conditions. Professor Amiry-Moghaddam argues 
+- **NEW**  [[Global] Iranian Revolutionary Guards claim attacks on Bahrain and Kuwait](https://www.france24.com/en/video/20260603-iranian-revolutionary-guards-claim-attacks-on-bahrain-and-kuwait) — *2026-06-03*
+  > The already fragile ceasefire between Iran and the US has come under strain following a series of attacks from Iran in the Gulf and from the US on Qeshm Island. The Iranian attacks killed one person and injured 63 others. FRANCE 24's Hoda Abdel-Hamid tells us more on the attacks.
+- **NEW**  [[Global] Algeria court clears way for pardon of jailed French journalist Christophe Gleizes](https://www.france24.com/en/africa/20260603-algeria-clears-path-for-pardon-jailed-french-journalist-christophe-gleizes) — *2026-06-03*
+  > French sports journalist Christophe Gleizes, detained in Algeria since 2024 on terror charges, may be eligible for a possible presidential pardon, his lawyers said Wednesday. Algeria's Court de Cassation, the country's highest appeals court, rejected prosecutors' calls for a toug
+- **NEW**  [[Global] France arrests Russian captain of Moscow-linked oil tanker](https://www.france24.com/en/europe/20260603-france-arrests-russian-captain-of-moscow-linked-oil-tanker) — *2026-06-03*
+  > The captain of the Tagor, a tanker suspected of belonging to Russia’s “ghost fleet” that was boarded in the Atlantic Ocean by the French Navy, was taken into custody on Tuesday, announced Brest prosecutor Stéphane Kellenberger.
+- **NEW**  [[Global] AI chatbot responses polluted by pro-Russian disinformation](https://www.france24.com/en/technology/20260603-ai-chatbot-responses-polluted-pro-russian-disinformation) — *2026-06-03*
+  > AI-driven chatbots are increasingly being used as sources of information, but they are also vulnerable to disinformation campaigns. Experts have found that pro-Russian misinformation, in particular, can seep into the responses generated by these conversational agents.
+- **NEW**  [[Global] Ukraine's attack on Saint Petersburg 'brings war back to Russia'](https://www.france24.com/en/ukraine-s-attack-on-saint-petersburg-brings-war-back-to-russia) — *2026-06-03*
+  > Volodymyr Zelensky called Kyiv's attack on Saint Petersburg a 'fair' response to the deadly Russian strikes on several Ukrainian cities a day earlier. It is also a testimony to Ukraine's growing capacity to strike further inside Russia. FRANCE 24's Douglas Herbert tells us what t
+- **NEW**  [[Global] A year before the French election, De Gaulle remains politically fashionable](https://www.france24.com/en/a-year-before-the-french-election-de-gaulle-remains-politically-fashionable) — *2026-06-03*
+  > ‘De Gaulle: Resistance’, is released in cinemas in France on June 3, the first part of a two-parter on Charles de Gaulle, the French general and statesman who led the Free French Forces against Nazi Germany and Vichy France. The much anticipated films took director Antonin Baudry
+- **NEW**  [[Global] Paris's Saint-Germain-des-Prés book fair returns](https://www.france24.com/en/tv-shows/entre-nous/20260603-paris-s-saint-germain-des-pr%C3%A9s-book-fair-returns) — *2026-06-03*
+  > The Saint-Germain-des-Prés book fair is a literary rendez-vous at the famous Parisien café, Les Deux Magots. To the delight of book lovers, the event is returning for its third year, bringing a rich and modern programme to the Left Bank historical venue where Boris Vian, Jean-Pau
+- **NEW**  [[Global] Russia: Ukraine drones hit Saint Petersburg](https://www.france24.com/en/video/20260603-russia-ukraine-drones-hit-saint-petersburg) — *2026-06-03*
+  > Ukrainian drones hit energy and military sites in Saint Petersburg early Wednesday morning as officials gathered for a flagship economic forum in the city, Russian and Ukrainian authorities said.
+- **NEW**  [[Global] Shnaider beats Sabalenka at French Open to make semi-finals](https://www.france24.com/en/sport/20260603-shnaider-beats-sabalenka-at-french-open-to-make-semi-finals) — *2026-06-03*
+- **NEW**  [[Global] Shnaider beats Sabalenka at French Open to make semi-finals](https://www.france24.com/en/sport/20260603-shnaider-beats-sabalenka-at-french-open-to-make-semi-finals) — *2026-06-03*
+  > World No. 1 Aryna Sabalenka was eliminated on Wednesday in the quarterfinals of the French Open, losing to Russia's Diana Shnaider (3-6, 7-5, 6-0).
+- **NEW**  [[Global] 'Palestinians are unbelievable people: Vast majority of in Gaza just want to live a normal life'](https://www.france24.com/en/video/20260603-palestinians-are-unbelievable-people-vast-majority-of-in-gaza-just-want-to-live-a-normal-life) — *2026-06-03*
+  > Angela Diffly is pleased to welcome Dr. Adi Nadimpalli, Medical Coordinator for Gaza with Doctors Without Borders. He offers a stark assessment of conditions in Gaza following the October 2025 ceasefire. While acknowledging that "the number of kinetic injuries and violence has de
+- **NEW**  [[Global] Israel and Hezbollah exchange fire amid new talks in Washington](https://www.france24.com/en/israel-and-hezbollah-exchange-fire-amid-new-talks-in-washington) — *2026-06-03*
+  > Lebanon said Israeli strikes on June 3 killed at least nine people in the country's south, while the Israeli army says it has intercepted a "hostile aircraft" in its northern regions. This comes as a new round of talks is to be held in Washington. FRANCE 24's Renée Davis in Beiru
+- **NEW**  [[Global] Trump denies impasse in Iran talks after fresh strikes on Gulf countries](https://www.france24.com/en/trump-denies-impasse-in-iran-talks-after-fresh-strikes-on-gulf-countries) — *2026-06-03*
+  > The ceasefire with Iran is being further tested after Iranian drones hit a terminal building in Kuwait. It forced the country to close down the airport briefly and one person was killed and at least 63 injured, according to the Kuwaiti health ministry. Meanwhile, talks with the U
+- **NEW**  [[Global] Ukrainian drones hit Saint Petersburg as 'Russian Davos' opens in the city](https://www.france24.com/en/ukrainian-drones-hit-saint-petersburg-as-russian-davos-opens-in-the-city) — *2026-06-03*
+  > Ukrainian long-range drones hit an oil terminal in the Russian city of St Petersburg on June 3, setting the facility ablaze. It came hours before Vladimir Putin's showcase economic forum got under way in the city, apparently an attempt to embarrass the Kremlin chief. Moscow said 
+- **NEW**  [[Global] Film show: 'DJ Ahmet' charms with sheep, grief and a rave](https://www.france24.com/en/tv-shows/arts24/20260603-film-show-dj-ahmet-charms-with-sheep-grief-and-a-rave) — *2026-06-03*
+  > Critic Emma Jones tells us why North Macedonian production "DJ Ahmet", starring first-time actors, is a gem of an independent movie and proof that the small country punches well above its weight when it comes to cinema. We also discuss unsettling thriller "The Plague", starring J
+- **NEW**  [[Global] Under Paris's Notre Dame, archaeologists are unearthing 2,000 years of history](https://www.france24.com/en/under-paris-s-notre-dame-archaeologists-are-unearthing-2-000-years-of-history) — *2026-06-03*
+  > Since Notre Dame Cathedral reopened to the public in 2024 following a devastating fire, it has been one of the most popular tourist destinations in Paris. What many don’t realize is that the work continues near the cathedral underground. To make way for trees and shade on the squ
+- **NEW**  [[Global] US finds huge tunnel on the Mexican border used to smuggle drugs](https://www.france24.com/en/us-finds-huge-tunnel-under-mexican-border-used-to-smuggle-drugs) — *2026-06-03*
+  > Mexican authorities have discovered an illegal tunnel that is 600 metres long on the US border with Mexico. It links Tijuana with the city of San Diego. Its purpose? Possibly the illegal smuggling of drugs. The discovery was the result of a six-month long investigation.
 
-_(873 additional items in raw.jsonl)_
+_(830 additional items in raw.jsonl)_

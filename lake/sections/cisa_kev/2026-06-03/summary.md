@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-06-03
-record_count: 18
-new_today: 0
+record_count: 19
+new_today: 1
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 18 total items today.
+1 new of 19 total items today.
 
+- **NEW**  [CVE-2026-45247 · Mirasvit Mirasvit Full Page Cache Warmer: Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-45247) — *2026-06-03*
+  > vendor: Mirasvit · product: Mirasvit Full Page Cache Warmer · CISA remediation by 2026-06-06
 - [CVE-2022-0492 · Linux Kernel: Linux Kernel Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2022-0492) — *2026-06-02*
   > vendor: Linux · product: Kernel · CISA remediation by 2026-06-05
 - [CVE-2025-48595 · Android Framework: Android Framework Integer Overflow Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2025-48595) — *2026-06-02*

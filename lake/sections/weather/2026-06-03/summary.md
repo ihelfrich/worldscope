@@ -2,29 +2,17 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-03
-record_count: 75
-new_today: 70
+record_count: 74
+new_today: 69
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-70 new of 75 total items today.
+69 new of 74 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-35478) — *2026-06-03*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-49698) — *2026-06-03*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued June 3 at 12:34PM EDT until June 3 at 1:00PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.304f0e68151e6e5e27d933effd28fd9175045bdd.001.1) — *2026-06-03*
-  > SMWKEY
-
-The National Weather Service in Key West has issued a
-
-* Special Marine Warning for...
-Hawk Channel and Straits of Florida from Craig Key to west end of
-Seven Mile Bridge out 20 nm...
-Bayside and Gulf side from Craig Key to west end of Seven Mile
-Bridge...
-
-* Until 100 PM
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 11:33AM CDT until June 3 at 2:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99681903e8fc8265c6dd68daabdc90514a41bd5d.001.1) — *2026-06-03*
   > FFWMAF
 
@@ -71,13 +59,6 @@ weather conditions today. Southerly winds of 10 to 20 mph with
 gusts of 20 to 25 mph are forecast for today. Minimum relative
 humidity values of 20 to 30 percent are also expected. Together,
 these conditions could le
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.001.3) — *2026-06-03*
-  > * WHAT...For the Gale Warning, northwest winds 20 to 30 kt with
-gusts up to 40 kt and seas 7 to 12 feet expected. For the
-Small Craft Advisory, northwest winds 20 to 30 kt with gusts
-up to 40 kt and seas 6 to 9 feet expected.
-
-* WHERE...Coastal waters from Cape Mendocino to Pt. A
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.002.2) — *2026-06-03*
   > * WHAT...For the Gale Warning, north winds 25 to 30 kt with
 gusts up to 40 kt and seas 8 to 13 feet expected. For the
@@ -85,27 +66,13 @@ Small Craft Advisory, north winds 20 to 25 kt with gusts up to
 35 kt and seas 7 to 10 feet expected.
 
 * WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 4 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.005.2) — *2026-06-03*
-  > * WHAT...Northwest winds 15 to 25 kt with gusts up to 40 kt
-expected.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.001.3) — *2026-06-03*
+  > * WHAT...For the Gale Warning, northwest winds 20 to 30 kt with
+gusts up to 40 kt and seas 7 to 12 feet expected. For the
+Small Craft Advisory, northwest winds 20 to 30 kt with gusts
+up to 40 kt and seas 6 to 9 feet expected.
 
-* WHERE...Coastal Waters from Point Pinos to Point Piedras
-Blancas California out to 10 NM.
-
-* WHEN...Until 9 AM PDT Thursday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.002.2) — *2026-06-03*
-  > * WHAT...Northwest winds 25 to 35 kt with gusts up to 40 kt and
-seas 9 to 14 ft expected.
-
-* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
-
-* WHEN...Until 3 AM PDT Friday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels and re
+* WHERE...Coastal waters from Cape Mendocino to Pt. A
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.001.2) — *2026-06-03*
   > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
 seas 9 to 14 ft expected.
@@ -127,6 +94,17 @@ California out to 10 NM.
 
 * IMPACTS...Strong winds will cause hazardous seas which could
 capsize or damage vessels a
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 4 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.005.2) — *2026-06-03*
+  > * WHAT...Northwest winds 15 to 25 kt with gusts up to 40 kt
+expected.
+
+* WHERE...Coastal Waters from Point Pinos to Point Piedras
+Blancas California out to 10 NM.
+
+* WHEN...Until 9 AM PDT Thursday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage 
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.003.2) — *2026-06-03*
   > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
 seas 7 to 12 ft expected.
@@ -138,16 +116,16 @@ California out to 10 NM.
 
 * IMPACTS...Strong winds will cause hazardous seas which could
 capsize or
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.003.1) — *2026-06-03*
-  > * WHAT...dangerous rip currents and large breaking waves expected
-in the surf zone.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.002.2) — *2026-06-03*
+  > * WHAT...Northwest winds 25 to 35 kt with gusts up to 40 kt and
+seas 9 to 14 ft expected.
 
-* WHERE...Northern Outer Banks beaches.
+* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
 
-* WHEN...From 8 AM EDT this morning through this evening.
+* WHEN...Until 3 AM PDT Friday.
 
-* IMPACTS...Dangerous swimming and surfing conditions. Rip
-currents can sweep even the best swi
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and re
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.002.1) — *2026-06-03*
   > * WHAT...Dangerous rip currents.
 
@@ -159,6 +137,16 @@ currents can sweep even the best swi
 from shore into deeper water.
 
 * ADDITIONAL DETAILS...The most likely ti
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.003.1) — *2026-06-03*
+  > * WHAT...dangerous rip currents and large breaking waves expected
+in the surf zone.
+
+* WHERE...Northern Outer Banks beaches.
+
+* WHEN...From 8 AM EDT this morning through this evening.
+
+* IMPACTS...Dangerous swimming and surfing conditions. Rip
+currents can sweep even the best swi
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.001.2) — *2026-06-03*
   > * WHAT...dangerous rip currents and large breaking waves
 expected in the surf zone.
@@ -238,5 +226,13 @@ in the Joy Bluff community.
 
 * ADDITIONAL DETAILS...
 - At 1000 AM ED
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 7:05AM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12df09d51e4a34fa50bc12de3faafcacca6ff18a.002.2) — *2026-06-03*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
+combined seas 11 to 16 ft expected when conditions are worst.
 
-_(50 additional items in raw.jsonl)_
+* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and
+westward 60 nm including San Miguel and Santa Rosa Islands.
+
+* WHEN...For the Small Craft Advis
+
+_(49 additional items in raw.jsonl)_

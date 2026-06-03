@@ -2,19 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-06-03
-record_count: 824
-new_today: 388
+record_count: 827
+new_today: 392
 state: fresh
 ---
 
 ## State-Level News
 
-388 new of 824 total items today.
+392 new of 827 total items today.
 
 - **NEW**  [[Alabama] Flags Lowered Honoring Former State Senator John Emanuel Amari](https://governor.alabama.gov/newsroom/2026/06/flags-lowered-honoring-former-state-senator-john-emanuel-amari/) — *2026-06-02*
   > Download
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-03*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Connecticut] CT GOP candidate defiant in face of criticism for anti-gay post](https://ctmirror.org/2026/06/03/jadon-maccormack-connecticut-anti-gay-republican/) — *2026-06-03*
   > <figure><img width="1024" height="671" src="https://ctmirror.org/wp-content/uploads/2026/06/3D37AC1D-422B-4703-9459-F3E41951067F-1024x671.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirro
 - **NEW**  [[Connecticut] Here are the 6 things the CT-Puerto Rico Trade Commission will focus on](https://ctmirror.org/2026/06/03/ct-puerto-rico-trade-commission-2/) — *2026-06-03*
@@ -55,11 +53,13 @@ state: fresh
   > <figure><img width="1024" height="390" src="https://ctmirror.org/wp-content/uploads/2026/05/gun-storage-check-week-banner-1024x390.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
 - [[Connecticut] CT needs a 21st century tool to fight Medicaid fraud](https://ctmirror.org/2026/06/01/connecticut-needs-a-21st-century-tool-to-fight-medicaid-fraud-michael/) — *2026-06-01*
   > <figure><img width="800" height="538" src="https://ctmirror.org/wp-content/uploads/2026/05/Medicaid-form.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/Medicai
-- **NEW**  [[California] ¿Quiénes van ganando en las elecciones estatales de California? Esto es lo que sabemos hasta ahora](https://calmatters.org/calmatters-en-espanol/2026/06/quienes-van-ganando-elecciones-estatales-california/) — *2026-06-03*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Chico-Elections_SO_CM_07.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elderly person wearing a beige hat and
-- **NEW**  [[California] Cinco cosas que debes saber sobre las elecciones de California](https://calmatters.org/calmatters-en-espanol/2026/06/cinco-temas-que-debes-saber-sobre-las-elecciones-de-california/) — *2026-06-03*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226-Xavier-Becerra-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a suit and glasses smiles and 
-- **NEW**  [[California] What happened in the California election while you were sleeping](https://calmatters.org/newsletter/primary-election-results/) — *2026-06-03*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226-Steve-Hilton-AP-CM-02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man in a suit speaks into a microphone ons
+- **NEW**  [[Colorado] US Senate panel pans DHS plan to stop customs processing at blue-city airports](https://coloradonewsline.com/2026/06/03/repub/senate-panel-dhs-plan-blue-city-airports/) — *2026-06-03*
+  > WASHINGTON — Homeland Security Secretary Markwayne Mullin appeared before the U.S. Senate Appropriations Homeland Security panel Tuesday and defended his threats to cripple international air travel into some cities led by Democrats. Democratic senators on the panel also pressed M
+- **NEW**  [[Colorado] Fifty for 150: World’s first recreational marijuana sales begin in Colorado in 2014](https://coloradonewsline.com/2026/06/03/fifty-for-150-recreational-marijuana-sales-colorado/) — *2026-06-03*
+  > Colorado became a tourist destination for cannabis users in 2014, when the first legal recreational marijuana sales in the world began in the state.  Legalization in Colorado marked the beginning of what would become a national shift in attitude toward the recreational use of mar
+- **NEW**  [[Colorado] Rising costs of fuel, other goods squeeze already strained abortion funds](https://coloradonewsline.com/2026/06/03/repub/rising-costs-strain-abortion-funds/) — *2026-06-03*
+  > The increasing costs of fuel for cars and airplanes are adding extra strain to abortion funds that help people pay to travel for care in other states, leaders of several funds said this week. Abortion funds can help when someone must travel from their home state to a state where 
+- **NEW**  [[Colorado] Colorado’s 3 Republican candidates for governor square off in first full debate](https://coloradonewsline.com/2026/06/02/republican-governor-candidates-first-full-debate/) — *2026-06-03*
+  > Colorado Springs ministry leader Victor Marx faced his two rivals for the Colorado Republican Party&#8217;s nomination for governor in a debate for the first time on Tuesday night, and quickly found himself the target of stinging criticism from both of them. &#8220;You can&#8217;
 
-_(799 additional items in raw.jsonl)_
+_(802 additional items in raw.jsonl)_
