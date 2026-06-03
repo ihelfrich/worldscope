@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-03
-record_count: 246
-new_today: 195
+record_count: 259
+new_today: 208
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-195 new of 246 total items today.
+208 new of 259 total items today.
 
 - **NEW**  [[St. Louis] Is the St. Charles Farmers Market the most kid-friendly in the region?](https://www.stlmag.com/family/st-charles-farmers-market-kid-friendly/) — *2026-06-03*
   > <p>A change in location may have been all the St. Charles Farmers Market needed to become one of the area&#8217;s most family-friendly weekend destinations. This season, the market packed up its produce, parted ways with the City of St. Charles, and moved to Lakeside Park. While 
@@ -31,6 +31,14 @@ state: fresh
   > <p>The Webster Arts Fair returns to the Green at Eden Seminary this weekend for its 22nd year. Spend time in the community by browsing work from more than 100 artists, as well as rocking out, eating up, and enjoying the beautiful setting on Friday, Saturday, and Sunday. “We want 
 - [[St. Louis] How a St. Louis nature kid became one of America’s top young conservationists](https://www.stlmag.com/family/jr-ranger-rick-semifinals/) — *2026-06-02*
   > <p>Last year, when Courtney Wilson asked her then-5-year-old son, Lincoln Wilson-Gale, to choose a souvenir during a trip to Washington, Missouri, he selected a bird field guide. “That was the first time I realized this is really his thing,” Wilson says. Today, Lincoln often carr
+- **NEW**  [[St. Louis] NHL's 'Stanley Pup,' featuring 32 dogs competing, is back for a third year](https://www.ksdk.com/article/sports/nhl-stanley-pup-dogs-rescue-special-time-hockey-date/507-185c2fbf-7b2b-4ee8-bb06-f012d5ee0940) — *2026-06-03*
+  > The 'Stanley Pup' special will premiere in the United States and Canada on Monday, June 8.
+- **NEW**  [[St. Louis] Frontier flight diverted after passenger tried to open door, choke off-duty flight attendant, police say](https://www.ksdk.com/article/news/nation-world/frontier-flight-diverted-passenger-tried-opening-door-choke-off-duty-flight-attendant/507-897b814a-73df-44c2-ba82-951a33daae95) — *2026-06-03*
+  > Passengers, including one who trains in jiu-jitsu, helped restrain the 51-year-old man until the plane landed in Miami.
+- **NEW**  [[St. Louis] Man charged in deadly shooting in Loretta Hall Park](https://www.ksdk.com/article/news/crime/st-louis-man-charged-deadly-shooting-loretta-hall-park/63-dd1e37ca-7c36-4ef0-a426-4d773995208b) — *2026-06-03*
+  > Police said that while the victim was lying on the ground, Perry stood over him and shot him again.
+- **NEW**  [[St. Louis] Who's winning the governor's race in California? Check the latest results](https://www.ksdk.com/article/news/politics/elections/whos-winning-the-governors-race-in-california-check-the-latest-results/507-32f24419-a578-4ac3-9de1-e8303f3ef5ab) — *2026-06-03*
+  > Track the results from the 2026 California gubernatorial primary election with this interactive map:
 - **NEW**  [[St. Louis] Is your SUV affected? Ford recalls 420,000 vehicles over seat belt safety issue](https://www.ksdk.com/article/news/nation-world/ford-suv-seat-belt-safety-recall/507-04d1189a-83c5-4ce7-8c68-3aafd29533bf) — *2026-06-03*
   > Ford is recalling nearly 420,000 vehicles because of a seat belt issue that may result in an injury if a crash occurs.
 - **NEW**  [[St. Louis] FBI personnel have fatally shot a man holding hostages in Bakersfield, California, police say](https://www.ksdk.com/article/news/nation-world/fbi-fatally-shot-man-holding-hostages-bakersfield/507-226e469a-d96c-4488-91d0-51705a5298a7) — *2026-06-03*
@@ -53,13 +61,5 @@ state: fresh
   > The donation matches the amount a nonprofit gave to the PAC supporting the August ballot measure.
 - **NEW**  [[St. Louis] 66-year-old with intellectual disabilities found safe](https://www.ksdk.com/article/news/local/st-louis-police-looking-for-missing-66-year-old-with-intellectual-disabilities/63-ef069ecf-1ac3-4b0c-b500-ce833b01ff15) — *2026-06-03*
   > The man was found and returned home safely.
-- **NEW**  [[St. Louis] U.S. Marshals arrest suspect in $2.6 million estate theft case](https://www.ksdk.com/article/news/nation-world/us-marshals-arrest-suspect-in-estate-theft-case/507-4c63583f-94ab-4389-aa11-4e603b4f42b3) — *2026-06-03*
-  > Prosecutors allege Ronald Wisner took control of the victim’s estate after his 2024 death and funneled more than a million dollars through financial accounts.
-- **NEW**  [[St. Louis] Hotel workers in Seattle threaten strike ahead of World Cup crowds: 'We're very serious'](https://www.ksdk.com/article/news/nation-world/seattle-embassy-suites-hilton-world-cup-fifa/507-10f532b6-fe05-4ae7-b769-30c6e0acb7b5) — *2026-06-03*
-  > More than 100 Embassy Suites employees will vote whether to authorize a strike. About 750,000 visitors are expected in the city for the 2026 FIFA World Cup games.
-- **NEW**  [[St. Louis] Meet the 2026 Gerber Baby: Minnesota infant wins nationwide photo search](https://www.ksdk.com/article/news/nation-world/meet-the-2026-gerber-baby-minnesota-infant-wins-nationwide-photo-search/507-753e00e0-d5c4-42d0-b9fe-c71ac3869098) — *2026-06-03*
-  > The winner's family will receive $50,000, and he’ll appear in Gerber ads and social media campaigns throughout the year.
-- **NEW**  [[St. Louis] George Santos reported to prosecutors over suspicious Kalshi trades, AP source says](https://www.ksdk.com/article/news/nation-world/george-santos-suspicious-kalshi-trades/507-d15e9792-9eed-41ab-ade3-bf81f1e91241) — *2026-06-03*
-  > The prediction marketplace Kalshi detected trades made by Santos ahead of Trump's State of the Union address, a source told AP.
 
-_(221 additional items in raw.jsonl)_
+_(234 additional items in raw.jsonl)_

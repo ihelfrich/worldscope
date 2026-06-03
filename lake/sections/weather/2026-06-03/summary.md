@@ -2,17 +2,39 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-03
-record_count: 72
-new_today: 67
+record_count: 73
+new_today: 68
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-67 new of 72 total items today.
+68 new of 73 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-37408) — *2026-06-03*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-25072) — *2026-06-03*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 3 at 10:10AM MDT until June 4 at 7:00PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91802fef15fe37908214d0f6828c32d33635f4c9.001.1) — *2026-06-03*
+  > The National Weather Service in Grand Junction has issued a Red
+Flag Warning for gusty winds, low relative humidity and dry
+fuels, which is in effect from 1 PM to 7 PM MDT Thursday.
+
+* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little
+Snake Forecast Area and Fire Weather 
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 9:09AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d66460d7802ad0d5d1284ae84c18e9e74c431646.001.1) — *2026-06-03*
+  > AQAPSR
+
+The Arizona Department of Environmental Quality (ADEQ) has issued an
+Ozone High Pollution Advisory for the Phoenix Metro Area today.
+
+This means that forecast weather conditions combined with existing
+ozone levels are expected to result in local maximum 8-hour ozone
+conce
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 10:57AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c4f042e470c9083a531273f7eeca5184e8d18d3.001.1) — *2026-06-03*
+  > Dry conditions and breezy winds will lead to near critical fire
+weather conditions today. Southerly winds of 10 to 20 mph with
+gusts of 20 to 25 mph are forecast for today. Minimum relative
+humidity values of 20 to 30 percent are also expected. Together,
+these conditions could le
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.002.2) — *2026-06-03*
   > * WHAT...For the Gale Warning, north winds 25 to 30 kt with
 gusts up to 40 kt and seas 8 to 13 feet expected. For the
@@ -48,6 +70,16 @@ seas 9 to 14 ft expected.
 
 * IMPACTS...Strong winds will cause hazardous seas which could
 capsize or damage vessels and re
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.001.2) — *2026-06-03*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
+seas 9 to 14 ft expected.
+
+* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+
+* WHEN...Until 3 AM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and red
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.004.2) — *2026-06-03*
   > * WHAT...Northwest winds 15 to 25 kt with gusts up to 35 kt
 expected.
@@ -59,16 +91,6 @@ California out to 10 NM.
 
 * IMPACTS...Strong winds will cause hazardous seas which could
 capsize or damage vessels a
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.001.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
-seas 9 to 14 ft expected.
-
-* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
-
-* WHEN...Until 3 AM PDT Friday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels and red
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.003.2) — *2026-06-03*
   > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
 seas 7 to 12 ft expected.
@@ -216,30 +238,5 @@ combined seas 11 to 16 ft expected when conditions are worst.
 
 * WHEN...For the Small Craft Advisory, until noon PDT today. For
 the Gale Warning, from n
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 7:05AM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12df09d51e4a34fa50bc12de3faafcacca6ff18a.003.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 8 to 13 ft expected when conditions are worst.
 
-* WHERE...Outer waters from Santa Cruz Island to San Clemente
-Island to 60 NM offshore including San Nicolas and Santa
-Barbara Islands.
-
-* WHEN...For the 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 8:31AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8d9e89e7259f7ba443a280a9eb3a3e1d9f3f9d8.001.1) — *2026-06-03*
-  > Dry conditions and breezy winds will lead to near critical fire
-weather conditions today. Southerly winds of 10 to 20 mph with
-gusts of 20 to 25 mph are forecast for today. Minimum relative
-humidity values of 20 to 30 percent are also expected. Together,
-these conditions could le
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 3 at 8:00AM CDT until June 4 at 10:00PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bdb345cd2a1b6acb4bd696e7589147fa2025cb5b.001.1) — *2026-06-03*
-  > ...The Flood Warning is extended for the following rivers in
-Missouri...
-
-Osage River at Taberville affecting St. Clair and Vernon Counties.
-
-For the Osage River...including Taberville...Minor flooding is
-forecast.
-
-* WHAT...Minor flooding is occurring and minor flooding is forec
-
-_(47 additional items in raw.jsonl)_
+_(48 additional items in raw.jsonl)_

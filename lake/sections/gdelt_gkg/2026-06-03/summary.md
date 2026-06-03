@@ -2,64 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-06-03
-record_count: 50
-new_today: 50
+record_count: 75
+new_today: 75
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-50 new of 50 total items today.
+75 new of 75 total items today.
 
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran has agreed not to have a nuke , Trump says as he reveals hell  probably meet  the new Ayatollah](https://www.lbc.co.uk/article/iran-has-agreed-not-to-have-a-nuke-trump-says-5Hjdb6C_2/) — *2026-06-03*
-  > lbc.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump Confirms Details of Heated Call with Netanyahu](https://wjdx.iheart.com/content/2026-06-03-trump-confirms-details-of-heated-call-with-netanyahu/) — *2026-06-03*
-  > wjdx.iheart.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran and the US trade strikes in the Persian Gulf , further testing the ceasefire](https://www.wkms.org/npr-news/2026-06-03/iran-and-the-us-trade-strikes-in-the-persian-gulf-further-testing-the-ceasefire) — *2026-06-03*
-  > wkms.org · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Donald Trump confirms he called Benjamin Netanyahu  crazy  amid Iran peace talks](https://www.brentwoodlive.co.uk/news/national/26162820.donald-trump-confirms-called-benjamin-netanyahu-crazy-amid-iran-peace-talks/) — *2026-06-03*
-  > brentwoodlive.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump admits cursing out Netanyahu over Lebanon war](https://punchng.com/trump-admits-he-cursed-out-israels-netanyahu-over-lebanon-war/) — *2026-06-03*
-  > punchng.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump says he called Netanyahu  crazy , Israel stalling Iran peace talks](https://www.citizensvoice.com/2026/06/03/trump-called-netanyahu-crazy-israel/) — *2026-06-03*
-  > citizensvoice.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump Confirms Details of Heated Call with Netanyahu](https://kwhn.iheart.com/content/2026-06-03-trump-confirms-details-of-heated-call-with-netanyahu/) — *2026-06-03*
-  > kwhn.iheart.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran , US Exchange Attacks As Tensions In Gulf Rise](http://www.iraqsun.com/news/279099368/iran-us-exchange-attacks-as-tensions-in-gulf-rise) — *2026-06-03*
-  > iraqsun.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] The Iran war : act two](https://www.ynetnews.com/opinions-analysis/article/h1bictaxze) — *2026-06-03*
-  > ynetnews.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Donald Trump confirms he called Benjamin Netanyahu  crazy  amid Iran peace talks](https://www.asianimage.co.uk/news/national/26162820.donald-trump-confirms-called-benjamin-netanyahu-crazy-amid-iran-peace-talks/) — *2026-06-03*
-  > asianimage.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Donald Trump confirms he called Benjamin Netanyahu  crazy  amid Iran peace talks](https://www.yorkpress.co.uk/news/national/26162820.donald-trump-confirms-called-benjamin-netanyahu-crazy-amid-iran-peace-talks/) — *2026-06-03*
-  > yorkpress.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran , US Exchange Attacks Amid Uncertainty In Peace Talks](http://www.iraqsun.com/news/279099319/iran-us-exchange-attacks-amid-uncertainty-in-peace-talks) — *2026-06-03*
-  > iraqsun.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Donald Trump confirms he called Benjamin Netanyahu  crazy  amid Iran peace talks](https://www.enfieldindependent.co.uk/news/national/26162820.donald-trump-confirms-called-benjamin-netanyahu-crazy-amid-iran-peace-talks/) — *2026-06-03*
-  > enfieldindependent.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] The Iron Dome of Lies : Rape , Ruin & Plunder | Palestine This Week with Mouin Rabbani](https://www.middleeastmonitor.com/20260603-the-iron-dome-of-lies-rape-ruin-plunder-palestine-this-week-with-mouin-rabbani/) — *2026-06-03*
-  > middleeastmonitor.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump confirms that he called Netanyahu   crazy  ](https://ktar.com/national-news/netanyahu-crazy-trump/5876470/) — *2026-06-03*
-  > ktar.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump says he called Netanyahu  crazy , Israel stalling Iran peace talks](https://www.sun-sentinel.com/2026/06/03/trump-called-netanyahu-crazy-israel/) — *2026-06-03*
-  > sun-sentinel.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump confirms he called Netanyahu crazy in phone call](https://www.naroomanewsonline.com.au/story/9282950/trump-confirms-he-called-netanyahu-crazy-in-phone-call/) — *2026-06-03*
-  > naroomanewsonline.com.au · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran , US Exchange Attacks As Tensions In Gulf Rise](http://www.newyorktelegraph.com/news/279099368/iran-us-exchange-attacks-as-tensions-in-gulf-rise) — *2026-06-03*
-  > newyorktelegraph.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Kuwait Airport Hit as Shaky Ceasefire Between US and Iran Breaks Into Fresh Strikes - Novinite . com](https://www.novinite.com/articles/238838/Kuwait+Airport+Hit+as+Shaky+Ceasefire+Between+US+and+Iran+Breaks+Into+Fresh+Strikes) — *2026-06-03*
-  > novinite.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] After heated phone call with Netanyahu , Trump says  would like to meet  Iran supreme leader Mojtaba Khamenei](https://www.hindustantimes.com/world-news/after-heated-phone-call-with-netanyahu-trump-says-would-like-to-meet-iran-supreme-leader-mojtaba-khamenei-101780490429547.html) — *2026-06-03*
-  > hindustantimes.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Ceasefire tested as US , Iran exchange strikes and Israel bombards southern Lebanon](https://foxreno.com/news/nation-world/fragile-ceasefire-tested-as-us-iran-exchange-strikes-kuwait-airport-and-israel-bombards-southern-lebanon-beirut-persian-gulf-tensions-hezbollah-mediation-efforts-president-donald-trump-strait-of-hormuz-qesham-island) — *2026-06-03*
-  > foxreno.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Ceasefire tested as US , Iran exchange strikes and Israel bombards southern Lebanon](https://wjla.com/news/nation-world/fragile-ceasefire-tested-as-us-iran-exchange-strikes-kuwait-airport-and-israel-bombards-southern-lebanon-beirut-persian-gulf-tensions-hezbollah-mediation-efforts-president-donald-trump-strait-of-hormuz-qesham-island) — *2026-06-03*
-  > wjla.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump confirms he called Netanyahu  crazy , as he says Israel is complicating peace talks with Iran](https://krmg.com/2026/06/03/trump-confirms-he-called-netanyahu-crazy-as-he-says-israel-is-complicating-peace-talks-with-iran-2/) — *2026-06-03*
-  > krmg.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel is building more military posts in Gaza , satellite imagery shows - Grenada Chronicle – Daily Grenada And Caribbean News](https://grenadachronicle.com/israel-is-building-more-military-posts-in-gaza-satellite-imagery-shows/) — *2026-06-03*
-  > grenadachronicle.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trump confirms he called Netanyahu crazy in x - rated phone call](https://cyprus-mail.com/2026/06/03/trump-confirms-he-called-netanyahu-crazy-in-x-rated-phone-call) — *2026-06-03*
-  > cyprus-mail.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Dozens of Azerbaijan Companies Manage Russian  Shadow Fleet  Tankers](https://www.occrp.org/en/news/dozens-of-azerbaijan-companies-manage-russian-shadow-fleet-tankers) — *2026-06-03*
+  > occrp.org · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Joint training of NATO Special Operations Forces - Radio Romania International](https://www.rri.ro/en/close-up/romania-the-eastern-flank/joint-training-of-nato-special-operations-forces-id1024303.html) — *2026-06-03*
+  > rri.ro · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Hungary Ends Two - Year Block on Ukraine Arms Payouts](https://www.kyivpost.com/post/77412) — *2026-06-03*
+  > kyivpost.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Ships Most Oil Since 2022 as Drones Strike Refineries](https://finance.yahoo.com/sectors/energy/articles/russia-ships-most-oil-since-131323587.html) — *2026-06-03*
+  > finance.yahoo.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Story of Russian ruble : Fueled from abroad , drained from within](https://www.dailysabah.com/opinion/op-ed/story-of-russian-ruble-fueled-from-abroad-drained-from-within) — *2026-06-03*
+  > dailysabah.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Putin humiliated as £120m warship deployed in English Channel blown up by Ukraine | World | News](https://www.express.co.uk/news/world/2212862/putin-warship-english-channel-destroyed-ukraine) — *2026-06-03*
+  > express.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia China Energy Lifeline Is Becoming a Noose  | Peak Oil News and Message Boards](https://peakoil.com/publicpolicy/russias-china-energy-lifeline-is-becoming-a-noose) — *2026-06-03*
+  > peakoil.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine , Estonia Agree to Expand Defense Cooperation During Svyrydenko Visit](https://www.kyivpost.com/post/77401) — *2026-06-03*
+  > kyivpost.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia western oil exports hit 8 - month high as drone strikes curb refining  | Peak Oil News and Message Boards](https://peakoil.com/production/russias-western-oil-exports-hit-8-month-high-as-drone-strikes-curb-refining) — *2026-06-03*
+  > peakoil.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] U . S . Treasury Economic Fury Targets Iran Largest Digital Asset Exchange For Terror Finance And Sanctions Evasion – Eurasia Review](https://www.eurasiareview.com/03062026-u-s-treasurys-economic-fury-targets-irans-largest-digital-asset-exchange-for-terror-finance-and-sanctions-evasion/) — *2026-06-03*
+  > eurasiareview.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] U . S . Forces Disable Sanctioned Tanker Bound for Iran as Blockade Enforcement Continues](https://gcaptain.com/u-s-forces-disable-sanctioned-tanker-bound-for-iran-as-blockade-enforcement-continues/) — *2026-06-03*
+  > gcaptain.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] The United States can see every barrel ; it does not control where they go](https://www.oilandgas360.com/the-united-states-can-see-every-barrel-it-does-not-control-where-they-go/) — *2026-06-03*
+  > oilandgas360.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] CIMA welcomes a new cohort of future finance leaders in Southern Africa](https://www.bizcommunity.com/article/cima-welcomes-a-new-cohort-of-future-finance-leaders-in-southern-africa-401569a) — *2026-06-03*
+  > bizcommunity.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Cruise Passenger Hailed As Hero For Jumping Into Water To Save Elderly Man](https://magic1079.iheart.com/content/2026-06-03-cruise-passenger-hailed-as-hero-for-jumping-into-water-to-save-elderly-man/) — *2026-06-03*
+  > magic1079.iheart.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes]  【 翻墙必看 】 中共  焊死车门  恐惧什么 ？ | 对外投资 | 技术转移 | 监管新规](https://www.epochtimes.com/gb/26/6/2/n14780164.htm) — *2026-06-03*
+  > epochtimes.com · Chinese · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] La Comunidad exhorta a Puente a actuar en Cercanías tras la admisión a trámite del recurso por no convocar la Sectorial](http://www.gentedigital.es/madrid/noticia/4335214/la-comunidad-exhorta-a-puente-a-actuar-en-cercanias-tras-la-admision-a-tramite-del-recurso-por-no-convocar-la-sectorial/) — *2026-06-03*
+  > gentedigital.es · Spanish · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Cruise Passenger Hailed As Hero For Jumping Into Water To Save Elderly Man](https://1031thebeat.iheart.com/content/2026-06-03-cruise-passenger-hailed-as-hero-for-jumping-into-water-to-save-elderly-man/) — *2026-06-03*
+  > 1031thebeat.iheart.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Cruise Passenger Hailed As Hero For Jumping Into Water To Save Elderly Man](https://1059therock.iheart.com/content/2026-06-03-cruise-passenger-hailed-as-hero-for-jumping-into-water-to-save-elderly-man/) — *2026-06-03*
+  > 1059therock.iheart.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Cruise Passenger Hailed As Hero For Jumping Into Water To Save Elderly Man](https://1049bobfm.iheart.com/content/2026-06-03-cruise-passenger-hailed-as-hero-for-jumping-into-water-to-save-elderly-man/) — *2026-06-03*
+  > 1049bobfm.iheart.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Греция и Украина : Афины вручили ноту Киеву из - за Magura детали](https://focus.ua/voennye-novosti/756462-greciya-i-ukraina-afiny-vruchili-notu-kievu-iz-za-magura-detali) — *2026-06-03*
+  > focus.ua · Russian · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Polish sailor returns to St . Paul , 45 years after it saved his life](https://vancouversun.com:443/news/polish-sailor-returns-to-st-pauls-hospital-45-years-after-staff-saved-his-life) — *2026-06-03*
+  > vancouversun.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Cruise Passenger Hailed As Hero For Jumping Into Water To Save Elderly Man](https://1013wnco.iheart.com/content/2026-06-03-cruise-passenger-hailed-as-hero-for-jumping-into-water-to-save-elderly-man/) — *2026-06-03*
+  > 1013wnco.iheart.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Trump hat sich verzockt – und zahlt jetzt den Preis](https://web.de/magazine/politik/nahostkonflikt/trump-verzockt-zahlt-preis-42341706) — *2026-06-03*
+  > web.de · German · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] China é um  grande problema  para as sanes da UE contra a Rússia , diz OSullivan à Euronews](https://pt.euronews.com/my-europe/2026/06/03/china-e-um-grande-problema-para-as-sancoes-da-ue-contra-a-russia-diz-osullivan-a-euronews) — *2026-06-03*
+  > pt.euronews.com · Portuguese · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Взрывы в Санкт - Петербурге : СОУ атаковали нефтяной терминал и корабль](https://focus.ua/voennye-novosti/756444-vzryvy-v-sankt-peterburge-sou-atakovali-neftyanoy-terminal-i-korabl) — *2026-06-03*
+  > focus.ua · Russian · tone NA
 
-_(25 additional items in raw.jsonl)_
+_(50 additional items in raw.jsonl)_

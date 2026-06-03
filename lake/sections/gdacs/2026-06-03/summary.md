@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-06-03
-record_count: 122
-new_today: 29
+record_count: 98
+new_today: 5
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-29 new of 122 total items today.
+5 new of 98 total items today.
 
 - [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=5&eventtype=DR) — *2025-11-21*
   > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 398352 km2
@@ -45,21 +45,21 @@ state: fresh
   > Earthquake · Green alert · Italy · Magnitude 6.2M, Depth:247.119km
 - [[Green] Earthquake in Italy](https://www.gdacs.org/report.aspx?eventid=1543713&episodeid=1709136&eventtype=EQ) — *2026-06-01*
   > Earthquake · Green alert · Italy · Magnitude 6.2M, Depth:247.119km
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
-- **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
-  > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
+- **NEW**  [[Green] Tropical Cyclone AMANDA-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=4&eventtype=TC) — *2026-06-02*
+  > Tropical Cyclone · Green alert ·  · Tropical Storm (maximum wind speed of 102 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
+- [[Green] Tropical Cyclone JANGMI-26](https://www.gdacs.org/report.aspx?eventid=1001272&episodeid=29&eventtype=TC) — *2026-05-27*
+  > Tropical Cyclone · Green alert · Japan · Tropical Storm (maximum wind speed of 139 km/h)
 
-_(97 additional items in raw.jsonl)_
+_(73 additional items in raw.jsonl)_

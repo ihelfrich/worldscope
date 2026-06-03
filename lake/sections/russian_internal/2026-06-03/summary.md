@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-06-03
-record_count: 1116
-new_today: 649
+record_count: 1169
+new_today: 704
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-649 new of 1116 total items today.
+704 new of 1169 total items today.
 
 - **NEW**  [[TITLE: Патриарх Кирилл отправил в Бразилию митрополита Илариона. Его подозревали в перевозке наркотиков в Чехии | LEDE: <p>Глава Русской православной церкви патриарх Кирилл отправил митрополита Иларио] (ru: Патриарх Кирилл отправил в Бразилию митрополита Илариона. Его подозревали в пере)](https://meduza.io/news/2026/06/03/patriarh-kirill-otpravil-v-braziliyu-mitropolita-illariona-ego-podozrevali-v-perevozke-narkotikov-v-chehii) — *2026-06-03*
   > <p>Глава Русской православной церкви патриарх Кирилл отправил митрополита Илариона, которого в Чехии заподозрили в перевозке наркотиков, на служение в Аргентинско-Южноамериканскую епархию.<p>
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: На заправках в Белгородской и Курской областях начали ограничивать продажу бензина | LEDE: <p>В нескольких округах Белгородской области на заправках «Роснефти» перестали наливать бензин АИ-92 в] (ru: На заправках в Белгородской и Курской областях начали ограничивать продажу бензи)](https://meduza.io/news/2026/06/02/na-zapravkah-v-belgorodskoy-i-kurskoy-oblastyah-nachali-ogranichivat-prodazhu-benzina) — *2026-06-02*
   > <p>В нескольких округах Белгородской области на заправках «Роснефти» перестали наливать бензин АИ-92 в канистры. Об этом изданию «Пепел» сообщили жители Корочанского, Алексеевского, Яковлевского и других округов. <p>
 
-_(1091 additional items in raw.jsonl)_
+_(1144 additional items in raw.jsonl)_

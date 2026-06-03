@@ -2,21 +2,23 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-03
-record_count: 855
-new_today: 606
+record_count: 878
+new_today: 632
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-606 new of 855 total items today.
+632 new of 878 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-03*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-03*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-03*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-03*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-03*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
 - [[Global] ‘We don’t have another country to run to’: Kenyans fear US plan for Ebola quarantine site](https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site) — *2026-06-02*
 - [[Global] Mozambique says five citizens killed in ‘xenophobic attacks’ in South Africa](https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa) — *2026-06-02*
 - [[Global] People ‘panicking’ as Ghana passes sweeping law criminalising LGBTQ+ activity](https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity) — *2026-06-01*
@@ -38,6 +40,5 @@ state: fresh
 - **NEW**  [[Global] Ukrainian drones hit St Petersburg as ‘Russian Davos’ opens in city](https://www.theguardian.com/world/2026/jun/03/ukraine-drones-st-petersburg-russia-economic-forum) — *2026-06-03*
 - [[Global] EU accused of creating ICE-style immigration enforcement system](https://www.theguardian.com/world/2026/jun/02/eu-accused-creating-ice-style-immigration-enforcement-system) — *2026-06-02*
 - [[Global] Nightclub promoter, 21, stabbed to death after brawl in Dublin’s tourism district](https://www.theguardian.com/world/2026/jun/02/qayyum-balogun-nightclub-promoter-stabbed-to-death-dublin) — *2026-06-02*
-- **NEW**  [[Global] One killed and several wounded in Iranian attack on Kuwait’s international airport](https://www.theguardian.com/world/2026/jun/03/us-fires-missile-tanker-strait-of-hormuz) — *2026-06-03*
 
-_(830 additional items in raw.jsonl)_
+_(853 additional items in raw.jsonl)_
