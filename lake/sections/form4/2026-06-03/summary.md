@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [497K - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126011927/0001999371-26-011927-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:51 UTC — Filed: 2026-06-03 AccNo: 0001999371-26-011927 Size: 152 KB
-- **NEW**  [[Ge Grace Xin] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2070712/000167335826000082/0001673358-26-000082-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:51 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001673358-26-000082 Size: 4 KB
-- **NEW**  [[Yum China Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1673358/000167335826000082/0001673358-26-000082-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:51 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001673358-26-000082 Size: 4 KB
-- **NEW**  [[Wei Zhe David] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2081704/000167335826000081/0001673358-26-000081-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:49 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001673358-26-000081 Size: 4 KB
-- **NEW**  [[Yum China Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1673358/000167335826000081/0001673358-26-000081-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:49 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001673358-26-000081 Size: 4 KB
-- **NEW**  [[Jacobs Bruce N.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1821074/000119312526254589/0001193125-26-254589-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:30 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001193125-26-254589 Size: 6 KB
-- **NEW**  [[Kymera Therapeutics, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1815442/000119312526254589/0001193125-26-254589-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:30 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001193125-26-254589 Size: 6 KB
-- **NEW**  [[Li Tiezheng] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1975789/000149315226026976/0001493152-26-026976-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:23 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001493152-26-026976 Size: 12 KB
-- **NEW**  [[FinVolution Group] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1691445/000149315226026976/0001493152-26-026976-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:23 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001493152-26-026976 Size: 12 KB
-- **NEW**  [424B5 - Celcuity Inc. (0001603454) (Filer)](https://www.sec.gov/Archives/edgar/data/1603454/000149315226026972/0001493152-26-026972-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:16 UTC — Filed: 2026-06-03 AccNo: 0001493152-26-026972 Size: 1 MB
-- **NEW**  [[McGill Jacqueline Elizabeth] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2118452/000162828026040042/0001628280-26-040042-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:14 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001628280-26-040042 Size: 4 KB
-- **NEW**  [[GOLD FIELDS LTD] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1172724/000162828026040042/0001628280-26-040042-index.htm) — *2026-06-03*
-  > filed 2026-06-03 11:14 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001628280-26-040042 Size: 4 KB
-- **NEW**  [[Gomide de Faria Mariano] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1968909/000119312526254555/0001193125-26-254555-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:57 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001193125-26-254555 Size: 15 KB
-- **NEW**  [[VTEX] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1793663/000119312526254555/0001193125-26-254555-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:57 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001193125-26-254555 Size: 15 KB
-- **NEW**  [424B3 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426015451/0001918704-26-015451-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:56 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015451 Size: 1 MB
-- **NEW**  [424B3 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426015451/0001918704-26-015451-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:56 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015451 Size: 1 MB
-- **NEW**  [424B3 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426015450/0001918704-26-015450-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:55 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015450 Size: 1 MB
-- **NEW**  [424B3 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426015450/0001918704-26-015450-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:55 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015450 Size: 1 MB
-- **NEW**  [[Tamari Shahar] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1964142/000119312526254550/0001193125-26-254550-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:52 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001193125-26-254550 Size: 9 KB
-- **NEW**  [[Global-E Online Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1835963/000119312526254550/0001193125-26-254550-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:52 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001193125-26-254550 Size: 9 KB
-- **NEW**  [[Chen Wen-Chang (Victor)] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2065419/000198889426000080/0001988894-26-000080-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:49 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001988894-26-000080 Size: 5 KB
-- **NEW**  [[Amer Sports, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1988894/000198889426000080/0001988894-26-000080-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:49 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001988894-26-000080 Size: 5 KB
-- **NEW**  [[Debbi Nir] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1964141/000119312526254544/0001193125-26-254544-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:44 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001193125-26-254544 Size: 9 KB
-- **NEW**  [[Global-E Online Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1835963/000119312526254544/0001193125-26-254544-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:44 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001193125-26-254544 Size: 9 KB
-- **NEW**  [424B3 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426015447/0001918704-26-015447-index.htm) — *2026-06-03*
-  > filed 2026-06-03 10:40 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015447 Size: 1 MB
+- **NEW**  [[Charlotte's Web Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1750155/000175015526000086/0001750155-26-000086-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:53 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001750155-26-000086 Size: 5 KB
+- **NEW**  [[Usifer Maureen K] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1333732/000175015526000086/0001750155-26-000086-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:53 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001750155-26-000086 Size: 5 KB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002795/0000905148-26-002795-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002795 Size: 10 KB
+- **NEW**  [[Schott Jan L] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1385248/000090514826002795/0000905148-26-002795-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002795 Size: 10 KB
+- **NEW**  [497 - ADVANCED SERIES TRUST (0000814679) (Filer)](https://www.sec.gov/Archives/edgar/data/814679/000081467926000080/0000814679-26-000080-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC — Filed: 2026-06-03 AccNo: 0000814679-26-000080 Size: 6 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000121390026064542/0001213900-26-064542-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC — Filed: 2026-06-03 AccNo: 0001213900-26-064542 Size: 2 MB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000121390026064542/0001213900-26-064542-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC — Filed: 2026-06-03 AccNo: 0001213900-26-064542 Size: 2 MB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002794/0000905148-26-002794-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002794 Size: 5 KB
+- **NEW**  [[RICHEY VICTOR L JR] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1216231/000090514826002794/0000905148-26-002794-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:52 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002794 Size: 5 KB
+- **NEW**  [[Lucas Thomas Gregory] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2019369/000090514826002793/0000905148-26-002793-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002793 Size: 10 KB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002793/0000905148-26-002793-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002793 Size: 10 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426015494/0001918704-26-015494-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015494 Size: 836 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426015494/0001918704-26-015494-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015494 Size: 836 KB
+- **NEW**  [[Williams Richard Tyrone] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1655252/000153826326000070/0001538263-26-000070-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001538263-26-000070 Size: 9 KB
+- **NEW**  [[HomeTrust Bancshares, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1538263/000153826326000070/0001538263-26-000070-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:51 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001538263-26-000070 Size: 9 KB
+- **NEW**  [[Roberto Kuahara] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1912901/000090514826002792/0000905148-26-002792-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:50 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002792 Size: 10 KB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002792/0000905148-26-002792-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:50 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002792 Size: 10 KB
+- **NEW**  [[BURAN JOHN R] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1237678/000100470226000072/0001004702-26-000072-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0001004702-26-000072 Size: 6 KB
+- **NEW**  [[OCEANFIRST FINANCIAL CORP] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1004702/000100470226000072/0001004702-26-000072-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0001004702-26-000072 Size: 6 KB
+- **NEW**  [[Harris-Peterson Candace] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1777558/000090514826002791/0000905148-26-002791-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002791 Size: 13 KB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002791/0000905148-26-002791-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002791 Size: 13 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426015493/0001918704-26-015493-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015493 Size: 853 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426015493/0001918704-26-015493-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC — Filed: 2026-06-03 AccNo: 0001918704-26-015493 Size: 853 KB
+- **NEW**  [[GEORGE MARCUS J] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1519537/000090514826002790/0000905148-26-002790-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Reporting — Filed: 2026-06-03 AccNo: 0000905148-26-002790 Size: 7 KB
+- **NEW**  [[Thermon Group Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1489096/000090514826002790/0000905148-26-002790-index.htm) — *2026-06-03*
+  > filed 2026-06-03 15:49 UTC · role: Issuer — Filed: 2026-06-03 AccNo: 0000905148-26-002790 Size: 7 KB
 
 _(15 additional items in raw.jsonl)_

@@ -2,19 +2,19 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-06-03
-record_count: 124
+record_count: 122
 new_today: 29
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-29 new of 124 total items today.
+29 new of 122 total items today.
 
-- [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=4&eventtype=DR) — *2025-11-21*
-  > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 311371 km2
-- [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=4&eventtype=DR) — *2025-11-21*
-  > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 311371 km2
+- [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=5&eventtype=DR) — *2025-11-21*
+  > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 398352 km2
+- [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=5&eventtype=DR) — *2025-11-21*
+  > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 398352 km2
 - [[Green] Flood in Germany](https://www.gdacs.org/report.aspx?eventid=1103919&episodeid=2&eventtype=FL) — *2026-05-29*
   > Flood · Green alert · Germany · Magnitude 0
 - [[Green] Flood in Germany](https://www.gdacs.org/report.aspx?eventid=1103919&episodeid=2&eventtype=FL) — *2026-05-29*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Green] Tropical Cyclone ONE-E-26](https://www.gdacs.org/report.aspx?eventid=1001273&episodeid=3&eventtype=TC) — *2026-06-02*
   > Tropical Cyclone · Green alert ·  · Tropical Depression (maximum wind speed of 102 km/h)
 
-_(99 additional items in raw.jsonl)_
+_(97 additional items in raw.jsonl)_

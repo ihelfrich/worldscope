@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-03
-record_count: 158
-new_today: 76
+record_count: 241
+new_today: 159
 state: fresh
 ---
 
 ## State Legislative Action
 
-76 new of 158 total items today.
+159 new of 241 total items today.
 
 - **NEW**  [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-06-03*
   > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
@@ -62,4 +62,4 @@ state: fresh
 - [[Alaska SB 258] An Act relating to contracts for the licensing of software applications.]() — *2026-06-01*
   > An Act relating to contracts for the licensing of software applications.
 
-_(133 additional items in raw.jsonl)_
+_(216 additional items in raw.jsonl)_
