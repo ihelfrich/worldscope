@@ -2,15 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-06-03
-record_count: 827
-new_today: 392
+record_count: 828
+new_today: 393
 state: fresh
 ---
 
 ## State-Level News
 
-392 new of 827 total items today.
+393 new of 828 total items today.
 
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-03*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Alabama] Flags Lowered Honoring Former State Senator John Emanuel Amari](https://governor.alabama.gov/newsroom/2026/06/flags-lowered-honoring-former-state-senator-john-emanuel-amari/) — *2026-06-02*
   > Download
 - **NEW**  [[Connecticut] CT GOP candidate defiant in face of criticism for anti-gay post](https://ctmirror.org/2026/06/03/jadon-maccormack-connecticut-anti-gay-republican/) — *2026-06-03*
@@ -53,13 +55,14 @@ state: fresh
   > <figure><img width="1024" height="390" src="https://ctmirror.org/wp-content/uploads/2026/05/gun-storage-check-week-banner-1024x390.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
 - [[Connecticut] CT needs a 21st century tool to fight Medicaid fraud](https://ctmirror.org/2026/06/01/connecticut-needs-a-21st-century-tool-to-fight-medicaid-fraud-michael/) — *2026-06-01*
   > <figure><img width="800" height="538" src="https://ctmirror.org/wp-content/uploads/2026/05/Medicaid-form.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/Medicai
-- **NEW**  [[Colorado] US Senate panel pans DHS plan to stop customs processing at blue-city airports](https://coloradonewsline.com/2026/06/03/repub/senate-panel-dhs-plan-blue-city-airports/) — *2026-06-03*
-  > WASHINGTON — Homeland Security Secretary Markwayne Mullin appeared before the U.S. Senate Appropriations Homeland Security panel Tuesday and defended his threats to cripple international air travel into some cities led by Democrats. Democratic senators on the panel also pressed M
-- **NEW**  [[Colorado] Fifty for 150: World’s first recreational marijuana sales begin in Colorado in 2014](https://coloradonewsline.com/2026/06/03/fifty-for-150-recreational-marijuana-sales-colorado/) — *2026-06-03*
-  > Colorado became a tourist destination for cannabis users in 2014, when the first legal recreational marijuana sales in the world began in the state.  Legalization in Colorado marked the beginning of what would become a national shift in attitude toward the recreational use of mar
-- **NEW**  [[Colorado] Rising costs of fuel, other goods squeeze already strained abortion funds](https://coloradonewsline.com/2026/06/03/repub/rising-costs-strain-abortion-funds/) — *2026-06-03*
-  > The increasing costs of fuel for cars and airplanes are adding extra strain to abortion funds that help people pay to travel for care in other states, leaders of several funds said this week. Abortion funds can help when someone must travel from their home state to a state where 
-- **NEW**  [[Colorado] Colorado’s 3 Republican candidates for governor square off in first full debate](https://coloradonewsline.com/2026/06/02/republican-governor-candidates-first-full-debate/) — *2026-06-03*
-  > Colorado Springs ministry leader Victor Marx faced his two rivals for the Colorado Republican Party&#8217;s nomination for governor in a debate for the first time on Tuesday night, and quickly found himself the target of stinging criticism from both of them. &#8220;You can&#8217;
+- **NEW**  [[California] Governor Newsom announces judicial appointments 6.2.2026](https://www.gov.ca.gov/2026/06/02/governor-newsom-announces-judicial-appointments-6-2-2026/) — *2026-06-03*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/06/02/governor-news
+- **NEW**  [[California] Trump is still trying to rob victims to pay criminals for their political support](https://www.gov.ca.gov/2026/06/02/trump-is-still-trying-to-rob-victims-to-pay-criminals-for-their-political-support/) — *2026-06-02*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Trump-is-still-trying-to-rob-victims-to-pay-criminals-for-their-political-support-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a h
+- [[California] ICYMI: California ranks #1 in U.S. for supporting maternal mental health](https://www.gov.ca.gov/2026/06/01/icymi-california-ranks-1-in-u-s-for-supporting-maternal-mental-health/) — *2026-06-01*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/ICYMI-California-ranks-1-in-U.S.-for-supporting-maternal-mental-health-SEO-GFX-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https:
 
-_(802 additional items in raw.jsonl)_
+_(803 additional items in raw.jsonl)_

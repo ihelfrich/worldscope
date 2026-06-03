@@ -2,17 +2,30 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-03
-record_count: 74
-new_today: 69
+record_count: 76
+new_today: 71
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-69 new of 74 total items today.
+71 new of 76 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-49698) — *2026-06-03*
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 12:21PM CDT until June 3 at 12:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2ad6a5a69bb4cb876edf044c1808e2da1cbc371.001.1) — *2026-06-03*
+  > The heavy rain has ended. Please continue to heed remaining road
+closures.
+
+A Flood Watch remains in effect until 100 AM CDT /1200 AM MDT/
+Thursday for portions of southeast New Mexico and Texas.
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-28400) — *2026-06-03*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued June 3 at 11:17AM MDT until June 4 at 12:00AM MDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e32ade76add9b8b0e580f1d254f0750bc80cb9.001.1) — *2026-06-03*
+  > * WHAT...Flash looding caused by excessive rainfall is possible.
+
+* WHERE...Portions of southeast New Mexico, including the following
+areas, Central Lea, Eddy County Plains, Guadalupe Mountains of Eddy
+County, Northern Lea and Southern Lea and Texas, including the
+following areas
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 11:33AM CDT until June 3 at 2:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99681903e8fc8265c6dd68daabdc90514a41bd5d.001.1) — *2026-06-03*
   > FFWMAF
 
@@ -23,12 +36,6 @@ East Central Culberson County in southwestern Texas...
 North Central Jeff Davis County in southwestern Texas...
 Reeves County in southwestern Texas...
 West Central Ward County in wes
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 11:27AM CDT until June 3 at 12:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7fbb80ba8b260edef56418f82d2b11be3c263b0.001.1) — *2026-06-03*
-  > At 1127 AM CDT /1027 AM MDT/, Doppler radar indicated thunderstorms
-producing heavy rain across the warned area. Between 0.5 and 1.5
-inches of rain have fallen. The expected rainfall rate is 0.5 to 1
-inch in 1 hour. Additional rainfall amounts up to 1 inch are possible
-in the war
 - **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 3 at 11:26AM CDT until June 7 at 7:00AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.918fbc5aa7a66dde78e9d6d7fe830266eebd2c45.001.2) — *2026-06-03*
   > * WHAT...For the High Rip Current Risk, dangerous rip currents.
 For the High Surf Advisory, large breaking waves of 4 to 6
@@ -226,13 +233,5 @@ in the Joy Bluff community.
 
 * ADDITIONAL DETAILS...
 - At 1000 AM ED
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 7:05AM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12df09d51e4a34fa50bc12de3faafcacca6ff18a.002.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 11 to 16 ft expected when conditions are worst.
 
-* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and
-westward 60 nm including San Miguel and Santa Rosa Islands.
-
-* WHEN...For the Small Craft Advis
-
-_(49 additional items in raw.jsonl)_
+_(51 additional items in raw.jsonl)_

@@ -17,6 +17,8 @@ state: fresh
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-03*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-03*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - **NEW**  [Greece Files Protest With Kyiv Over Armed Ukrainian Sea Drone Found Near Lefkada](https://www.kyivpost.com/post/77459) — *2026-06-03*
   > Athens on Wednesday submitted an official diplomatic protest to Kyiv over a naval drone found off the Greek island of Lefkada in May. Greek authorities said the explosive-laden vessel posed risks to civilian traffic and the environment, while claiming an investigation concluded t
 - **NEW**  [‘Nothing Stops Ukrainian Art’ – Met Opera Chief Peter Gelb](https://www.kyivpost.com/interviews/77452) — *2026-06-03*
@@ -59,7 +61,5 @@ state: fresh
   > Armenians head to the polls on June 7 in a high-stakes election that could determine whether the country continues Prime Minister Nikol Pashinyan’s pro-Western shift or remains tied to Russia’s orbit. Moscow has increased pressure through economic threats and political rhetoric, 
 - **NEW**  [Exclusive: Anne Applebaum Says Ukraine Is Becoming a Security Provider, Not Just a Security Consumer](https://www.kyivpost.com/post/77407) — *2026-06-03*
   > Speaking to Kyiv Post after interviewing Kyrylo Budanov at the Security Architecture Forum in Kyiv, Anne Applebaum said Ukraine’s military achievements, particularly in drone warfare, have altered international perceptions of the country. She argued that Ukraine is increasingly v
-- **NEW**  [Kostyuk Reaches Historic French Open Semifinal, Dedicates Win to Ukraine](https://www.kyivpost.com/post/77404) — *2026-06-03*
-  > Ukrainian tennis star Marta Kostyuk advanced to her first Grand Slam semifinal with a three-set victory over compatriot Elina Svitolina at the French Open. After the match, Kostyuk said representing Ukraine mattered more than winning titles as she reflected on the deadly Russian 
 
 _(105 additional items in raw.jsonl)_
