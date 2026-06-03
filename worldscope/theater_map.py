@@ -141,12 +141,15 @@ def theater_geojson(date_iso: str | None = None, *, lake_path: Path | None = Non
                 conflict.append({
                     "lon": round(lon, 3), "lat": round(lat, 3), "kind": "conflict",
                     "fatalities": int(_flt(r.get("fatalities")) or 0),
+                    "etype": (r.get("sub_event_type") or r.get("event_type") or "").lower(),
                     "text": (r.get("_original_text") or r.get("notes") or "")[:140],
                 })
         elif kind == "thermal":
             lon, lat = _flt(r.get("longitude")), _flt(r.get("latitude"))
             if _in_bbox(lon, lat):
-                fires.append({"lon": round(lon, 3), "lat": round(lat, 3), "kind": "fire"})
+                fires.append({"lon": round(lon, 3), "lat": round(lat, 3), "kind": "fire",
+                              "frp": round(_flt(r.get("frp")) or 0.0, 1),
+                              "conf": (r.get("confidence") or "nominal")})
         elif kind == "air-alert":
             ob = (r.get("oblast") or "").replace("’", "'").strip()
             if ob:
