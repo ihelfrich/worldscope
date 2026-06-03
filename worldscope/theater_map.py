@@ -67,13 +67,17 @@ def fetch_frontline_live(timeout: int = 15, max_rings: int = 1200) -> list[list]
     """Pull the current DeepStateMap frontline directly (not the lake's truncated
     copy) and return simplified outer rings clipped to the theater. Rounds to ~1km
     and decimates points to keep the embedded payload light. Degrades to [] on any
-    network/parse failure so the map still renders borders + events."""
+    network/parse failure so the map still renders borders + events.
+
+    Uses stdlib urllib (no `requests`) so it works in any CI job regardless of
+    which extras are installed before the renderer runs."""
+    import json as _json
+    import urllib.request
     try:
-        import requests
-        r = requests.get(FRONTLINE_URL, headers={"User-Agent": "worldscope-map/1.0"},
-                         timeout=timeout)
-        r.raise_for_status()
-        data = r.json()
+        req = urllib.request.Request(FRONTLINE_URL,
+                                     headers={"User-Agent": "worldscope-map/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = _json.loads(resp.read().decode("utf-8"))
     except Exception as exc:
         print(f"[theater_map] live frontline fetch failed: {type(exc).__name__}: {exc}")
         return []
