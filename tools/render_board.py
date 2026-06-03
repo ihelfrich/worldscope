@@ -24,6 +24,11 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 import render_reasoned as rr  # noqa: E402  (reuse gather + helpers + rich sections)
 from worldscope.theater_map import theater_geojson  # noqa: E402
+from worldscope.graph_view import connections as _graph_connections  # noqa: E402
+
+_EDGE_VERB = {"traded": "traded", "signed-by": "signed", "sponsored-by": "sponsored",
+              "co-sponsored-by": "co-sponsored", "issued-by": "issued",
+              "introduced-in": "introduced in", "reports-on": "reported on"}
 
 OUT = REPO / "dist" / "mockups" / "next" / "board.html"
 
@@ -125,6 +130,48 @@ def _theater_section(map_data: dict, recs: list, map_json: str, esc) -> str:
         f"<ul class='ws-list theater-list'>{lis}</ul>"
         "</div>"
         f"<div class='ws-cap'>{cap}</div></section>")
+
+
+def _connections_section(conn_data: dict, esc) -> str:
+    """Power & Money: people/institutions that connect across domains, drawn
+    from the lake's entity graph (insider trades, bill sponsorship, executive
+    actions, agency rules) — unified by name so cross-domain links surface."""
+    ents = conn_data.get("entities", [])
+    if not ents:
+        return ""
+    cards = []
+    for e in ents:
+        chips = "".join(
+            f"<span class='chip' style='background:{DOM_COLOR.get(d,'#8A8276')}'>"
+            f"{esc(DOM_LABEL.get(d,d).split(' ')[0])}</span>" for d in e["domains"])
+        # group edges by verb for a compact 'traded: A, B, C' line
+        byverb: dict = {}
+        for ed in e["edges"]:
+            byverb.setdefault(_EDGE_VERB.get(ed["type"], ed["type"]), []).append(ed["other"])
+        edge_lines = []
+        for verb, others in byverb.items():
+            # tickers (traded) are short — join inline; bills/actions get truncated
+            joined = ", ".join(esc(o if len(o) < 30 else o[:28] + "…") for o in others[:4])
+            edge_lines.append(f"<div class='edge'><b>{esc(verb)}</b> {joined}</div>")
+        ev = ""
+        if not edge_lines and e["evidence"]:
+            ev = f"<div class='cev'>{esc(e['evidence'][0]['text'][:120])}</div>"
+        cards.append(
+            f"<div class='ent'>"
+            f"<div class='ehead'><span class='etype et-{e['type']}'>{esc(e['type'])}</span>"
+            f"<span class='ename'>{esc(e['name'])}</span></div>"
+            f"<div class='echips'>{chips}<span class='espan'>{e['n_domains']} domains · "
+            f"{e['mentions']} mentions</span></div>"
+            f"{''.join(edge_lines)}{ev}</div>")
+    total = conn_data.get("edges_total", 0)
+    return (
+        "<section class='ws-sec' data-ws-section='connections' data-ws-label='Connections'>"
+        "<h2 class='ws-h'>Connections <span class='h2sub'>— people &amp; institutions "
+        "across domains · from the entity graph</span></h2>"
+        f"<div class='entgrid'>{''.join(cards)}</div>"
+        f"<div class='ws-cap'>Unified from {total:,} relationship edges in the lake "
+        "— insider trades, bill sponsorship, executive actions, agency rules. "
+        "An entity here appears across ≥2 domains.</div></section>")
 
 
 def render(today: date, *, out: Path | None = None, asset_base: str = "../../") -> Path:
@@ -249,6 +296,14 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
                     "bbox": [22.0, 44.0, 40.5, 53.0], "counts": {}}
     theater_html = _theater_section(map_data, recs, json.dumps(map_data), esc)
 
+    # ── Connections: cross-domain entity graph (Power & Money) ──────────────
+    try:
+        conn_data = _graph_connections(today.isoformat())
+    except Exception as exc:
+        print("connections failed:", exc)
+        conn_data = {"entities": [], "edges_total": 0}
+    connections_html = _connections_section(conn_data, esc)
+
     n_threads = len(threads)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -271,6 +326,8 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
   <h2>Threads underneath <span class="h2sub">— what's connecting across domains · click to open</span></h2>
   {threads_html}
 </section>
+
+{connections_html}
 
 <div class="filters">{fchips}</div>
 <div class="grid" data-ws-section="grid" data-ws-label="Domain grid">{grid_html}</div>
@@ -459,6 +516,25 @@ _CSS_TAIL = """
  padding:6px 9px;border-radius:6px;max-width:230px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .theater-list li{font-family:var(--serif);font-size:14.5px}
 .theater-list li.muted{color:var(--soft);font-style:italic}
+/* Connections / Power & Money entity cards */
+.entgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.ent{background:var(--paper);border:1px solid var(--hair);border-radius:11px;padding:13px 15px;
+ transition:transform .16s,box-shadow .16s}
+.ent:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(40,34,20,.09)}
+.ehead{display:flex;align-items:baseline;gap:8px;margin-bottom:7px}
+.etype{font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;
+ color:#fff;background:#6E685C;border-radius:3px;padding:2px 6px}
+.et-person{background:#2C6FA6}.et-org{background:#6B5B4A}.et-filing{background:#7B3FBF}
+.et-event{background:#0F8B7E}
+.ename{font-family:var(--serif);font-size:17px;font-weight:700;line-height:1.15}
+.echips{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-bottom:8px}
+.espan{font-family:var(--mono);font-size:9px;color:var(--soft);margin-left:3px}
+.ent .edge{font-family:var(--sans);font-size:12.5px;color:var(--ink);padding:3px 0;
+ border-top:1px solid var(--hair2);line-height:1.35}
+.ent .edge b{font-family:var(--mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;
+ color:var(--gold);margin-right:5px}
+.ent .cev{font-family:var(--serif);font-size:13px;color:var(--soft);margin-top:5px;
+ border-top:1px solid var(--hair2);padding-top:5px}
 """
 
 _JS = r"""
