@@ -3,20 +3,14 @@ section: chinese_internal
 title: Chinese Internal News
 date: 2026-06-03
 record_count: 290
-new_today: 231
+new_today: 232
 state: fresh
 ---
 
 ## Chinese Internal News
 
-231 new of 290 total items today.
+232 new of 290 total items today.
 
-- [Cover Story: How AI Took Over China’s Micro-Drama Industry in 90 Days - Caixin Global](https://www.caixinglobal.com) — *2026-06-01*
-  > <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxObjRqcDlGODIwMG1kcy14bDJySTVGYUpLVmY2dUFma1VGc2loNlA4YThxZTI2Q2JpV3piTURsTGJzenBaSkVUMGRwYWYxVnExQmxnbnpfOE83N0FWM19HLVJWbF9NN2pNNFBfb0JNYkJINUJMc2ZkM0dUQ3paZkUxU0ZkSXpvQ1hNUXJOQ2RCZnMtSWFaRjdTSUhrN3hPZUhkdl8xMzFVYUNoYm
-- [China Manufacturing Activity Flatlines as New Export Orders Fall - Caixin Global](https://www.caixinglobal.com) — *2026-06-01*
-  > <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLU82YzV5Rk1pdE9fWldCTHpYYlFFOGppZlF3YUdkY3Vod2tRRS1zOFVZTXVQQ256TXlfb0JKdTIzQmJDYnY3R3B3Wm9yWXM1ckhjcHl2eVl0YzNzU1F3TS1wc3VpLVZRQXhkQllkNmo5MmVJNURGSGpxWldfRkY2dG5JYkc5eGdySlZXNjdyMUpQSnptcVczTUQ5bTgzOTR3QlRzVWhtRHVSS2
-- **NEW**  [Analysis: China’s Local Fiscal Recovery Hides Scramble to Plug Budget Holes - Caixin Global](https://www.caixinglobal.com) — *2026-06-02*
-  > <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQdzhqaGZnZ3RkeFF0SjY5dTdxV0l6a29MTkoxUXhqa1JYV3Zwakhhc2FoZTJMTVp4RHlmQXg4WXpKZzM1eElQNjVsZ1RaU3NSYS1Vcm1mazgxaUdNTTdfc0ZBbkk4a29ldVNzS1FxYmpWLVhoOGRENmIzWGp0Q2RvTExsOURYZ3J0c3JTbkdjZktBd2JRLXcyM2syRU5GTS1RbkozMENHMWZPc1
 - **NEW**  [[TITLE: 从市长到主席边升官边敛财 62岁正省级女高官王莉霞将受审 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE45QnNra2tNWkNrMHVSNTc4WVJSR2dFQk5kemRqcnQycmNZdF80ZzlDbXdMUHJsZ1dhb0VTRkVCdWJ] (zh: 从市长到主席边升官边敛财 62岁正省级女高官王莉霞将受审 - china.caixin.com)](https://china.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE45QnNra2tNWkNrMHVSNTc4WVJSR2dFQk5kemRqcnQycmNZdF80ZzlDbXdMUHJsZ1dhb0VTRkVCdWJ2d1VjRDV2MGRldGRxUDMtdGRkMWJuSV91Uy1YbnJj?oc=5" target="_blank">从市长到主席边升官边敛财 62岁正省级女高官王莉霞将受审</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.
 - **NEW**  [[TITLE: 老虎证券6月12日起将停止存量用户中国境内开仓加仓 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tUVVvbGVEWXRrdWFac1RUMVhHeHVIWTZidDVfNDA4dzAwbjBqczlaRGFrYUlpejc3d1BueDlENTNSckFsMThQTE9EczVf] (zh: 老虎证券6月12日起将停止存量用户中国境内开仓加仓 - 财新)](https://finance.caixin.com) — *2026-06-02*
@@ -49,17 +43,23 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KV2k5a2J6OHQ0eUVtck5wekdwdmxQeTFUX0tkelQ5QU02T2NWUURPVlFKTlV6MjlyUDc0eXdid2RwbEp0ZlJobi1fMlVDZWlmdjdTUEo4MnFXUDRfUG14QlZB?oc=5" target="_blank">澳门加入多边央行数字货币桥 首批11家本地银行参与</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 缪延亮：把握不确定性中的确定性 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sSDNDMm5WYkxKcFZGY0dtVFBuakh3TlJQZHlKcnoyeWhYa1BONGpBOExGZ1ZWWENSOUF4QTdkNFhCOERGWXZzMnYzX0QwWXYxVDhrY3] (zh: 缪延亮：把握不确定性中的确定性 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sSDNDMm5WYkxKcFZGY0dtVFBuakh3TlJQZHlKcnoyeWhYa1BONGpBOExGZ1ZWWENSOUF4QTdkNFhCOERGWXZzMnYzX0QwWXYxVDhrY3JmTGxpQXZ3SVREdUhR?oc=5" target="_blank">缪延亮：把握不确定性中的确定性</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 延迟需求如何改变本次能源冲击路径 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYe] (zh: 延迟需求如何改变本次能源冲击路径 - 财新)](https://opinion.caixin.com) — *2026-06-03*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYenRmVTR6WmJvQzdLM0l3?oc=5" target="_blank">延迟需求如何改变本次能源冲击路径</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2] (zh: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新)](https://opinion.caixin.com) — *2026-06-03*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2bFN6N01nOXhwbElzOWF1SllkcnpR?oc=5" target="_blank">零碳出海：碳市场改革与CBAM规则下的企业破局之路</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 高考报名人数为什么会下降 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qNXVoNXFPWmNXeDduY3Bld0pfMVdXMU9KSWo3aWFoWHZiRG1TaUU5dW1iOXNqclFQa2w5X3htM1Q3NXo2WDlJUzV4VmNXR2M5WGdsUnU2T] (zh: 高考报名人数为什么会下降 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qNXVoNXFPWmNXeDduY3Bld0pfMVdXMU9KSWo3aWFoWHZiRG1TaUU5dW1iOXNqclFQa2w5X3htM1Q3NXo2WDlJUzV4VmNXR2M5WGdsUnU2TnFTSWExem5hcnhR?oc=5" target="_blank">高考报名人数为什么会下降</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2] (zh: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新)](https://opinion.caixin.com) — *2026-06-03*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2bFN6N01nOXhwbElzOWF1SllkcnpR?oc=5" target="_blank">零碳出海：碳市场改革与CBAM规则下的企业破局之路</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 延迟需求如何改变本次能源冲击路径 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYe] (zh: 延迟需求如何改变本次能源冲击路径 - 财新)](https://opinion.caixin.com) — *2026-06-03*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYenRmVTR6WmJvQzdLM0l3?oc=5" target="_blank">延迟需求如何改变本次能源冲击路径</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 创始人的天花板 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0Z3ViYkJXR2N5WVV5MWY4NE9CN0ZTU19UUkZ6dE1WbkpYTUtHWUxiSFR6dVFCQ0V3bnY5SDk4emc1MjQ2RzUtT0h3YzFYN2pwS3Ytc3Z6ZUcweV] (zh: 创始人的天花板 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0Z3ViYkJXR2N5WVV5MWY4NE9CN0ZTU19UUkZ6dE1WbkpYTUtHWUxiSFR6dVFCQ0V3bnY5SDk4emc1MjQ2RzUtT0h3YzFYN2pwS3Ytc3Z6ZUcweVBaNWdsTkFn?oc=5" target="_blank">创始人的天花板</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 姚洋：为什么硅谷大厂在疯抢文科生 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE85SHhPVFd4NnBqQ2hiNHVVdF9kQVZSVktMbTdnYlBJcEhyWVJPYWtzX0FLMVUzVkNUbFZkbDNXQXItVF85V3hzd09Bb0R1SlFXeHpmN] (zh: 姚洋：为什么硅谷大厂在疯抢文科生 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE85SHhPVFd4NnBqQ2hiNHVVdF9kQVZSVktMbTdnYlBJcEhyWVJPYWtzX0FLMVUzVkNUbFZkbDNXQXItVF85V3hzd09Bb0R1SlFXeHpmNUF2UUdHVDhxRmdQZlRR?oc=5" target="_blank">姚洋：为什么硅谷大厂在疯抢文科生</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: “开门杀”等交通事故赔偿最新司法解释6月底施行 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxeExUQ052QnRyRmtoZm9sMG1DVG84RUhqMDRNM3pRYUk3dW9kSVpPUHlSanB2M0Y1UHlQS1VUOW1OLXJYTW1nNlNyN1FxU1] (zh: “开门杀”等交通事故赔偿最新司法解释6月底施行 - 财新)](https://mini.caixin.com) — *2026-06-02*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxeExUQ052QnRyRmtoZm9sMG1DVG84RUhqMDRNM3pRYUk3dW9kSVpPUHlSanB2M0Y1UHlQS1VUOW1OLXJYTW1nNlNyN1FxU1VCYV9WdTJpb3Z5UnY1MEE?oc=5" target="_blank">“开门杀”等交通事故赔偿最新司法解释6月底施行</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: 中央巡视办原主任黎晓宏被查 曾在金融、纪检领域工作多年 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE12cE1YdllvV1FQWnFGU0JWdlViNTluUFFhRnJQbDhsQjZ4ODZsb2M5ZGdfd3JkUE54MWNiWmlhbl9S] (zh: 中央巡视办原主任黎晓宏被查 曾在金融、纪检领域工作多年 - china.caixin.com)](https://china.caixin.com) — *2026-06-02*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE12cE1YdllvV1FQWnFGU0JWdlViNTluUFFhRnJQbDhsQjZ4ODZsb2M5ZGdfd3JkUE54MWNiWmlhbl9SSThFR25FaVdnU3FRRUR3bjhyajQzQnVqblFVZmdN?oc=5" target="_blank">中央巡视办原主任黎晓宏被查 曾在金融、纪检领域工作多年</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.c
+- [[TITLE: 【商圈】从大师释永信到囚徒刘应成 少林商业帝国缔造者落幕 - database.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxMUkzNHlEaTBORVZCLVNZMjhNcW5aZHhNVWtjUmY3Mk9xaGJEY1BMOVFyZnhyajBBRVY5OWU4] (zh: 【商圈】从大师释永信到囚徒刘应成 少林商业帝国缔造者落幕 - database.caixin.com)](https://database.caixin.com) — *2026-06-02*
+  > <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxMUkzNHlEaTBORVZCLVNZMjhNcW5aZHhNVWtjUmY3Mk9xaGJEY1BMOVFyZnhyajBBRVY5OWU4UGctVWJVNTVWbWxESTZvNWJjaGZ3S29IbnBLWTIzOEdVM2lFOA?oc=5" target="_blank">【商圈】从大师释永信到囚徒刘应成 少林商业帝国缔造者落幕</a>&nbsp;&nbsp;<font color="#6f6f6f">databas
+- [[TITLE: 剧本杀密室逃脱须适龄管控 最高法、市监总局发布典型案例 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jNmZfSUNYTGY1TGtfX3hOM1JuQ0NFU1ROak9VQlllZnRRMGR4ai1Vd0lqdndmUlBqQjJxd0VIS1h3] (zh: 剧本杀密室逃脱须适龄管控 最高法、市监总局发布典型案例 - china.caixin.com)](https://china.caixin.com) — *2026-06-02*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jNmZfSUNYTGY1TGtfX3hOM1JuQ0NFU1ROak9VQlllZnRRMGR4ai1Vd0lqdndmUlBqQjJxd0VIS1h3bjB5eF9kMGFha3pBSGM2MUdpbVF2bVVoWDRILW1F?oc=5" target="_blank">剧本杀密室逃脱须适龄管控 最高法、市监总局发布典型案例</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.c
 
 _(265 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-06-03
-record_count: 114
+record_count: 115
 new_today: 11
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-11 new of 114 total items today.
+11 new of 115 total items today.
 
 - **NEW**  [[OFAC] Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-02*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wUkY4R3d1eEg3R0dFYkZqSm8wSjdUWnhFRjNnV2pwaFZoXzFLenRaVEVGY0hnZnZmbkpJeEJLdVVhN2xzWWg3MEZaTWpPM3dvbmlsekxldER2LXdnVEE?oc=5" target="_blank">Counter Terrorism and Iran-related Designations; Democratic Republic of the Cong
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $22,428,178,818 → THE BOEING COMPANY: INTERNATIONAL SPACE STATION](https://www.usaspending.gov/award/NAS1510000) — *2026-06-03*
   > Agency: National Aeronautics and Space Administration.  Description: INTERNATIONAL SPACE STATION
 
-_(89 additional items in raw.jsonl)_
+_(90 additional items in raw.jsonl)_

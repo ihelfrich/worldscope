@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-03
-record_count: 259
-new_today: 208
+record_count: 247
+new_today: 197
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-208 new of 259 total items today.
+197 new of 247 total items today.
 
 - **NEW**  [[St. Louis] Is the St. Charles Farmers Market the most kid-friendly in the region?](https://www.stlmag.com/family/st-charles-farmers-market-kid-friendly/) — *2026-06-03*
   > <p>A change in location may have been all the St. Charles Farmers Market needed to become one of the area&#8217;s most family-friendly weekend destinations. This season, the market packed up its produce, parted ways with the City of St. Charles, and moved to Lakeside Park. While 
@@ -21,6 +21,8 @@ state: fresh
   > <p>One of Broadway’s big stars is in St. Louis this summer, but she’s not at The Muny. Two-time Tony Award nominee Kate Baldwin is starring in The Light in the Piazza as it makes its debut at Opera Theatre of Saint Louis. It may not be your idea of opera, but she is terrific, and
 - **NEW**  [[St. Louis] Now is the time to build up the riverfront, civic and business leaders say](https://www.stlmag.com/business/st-louis-downtown-riverfront-revitilization/) — *2026-06-03*
   > <p>The portion of the Mississippi River that lines St. Louis’ downtown has long felt like an afterthought for the city, but civic and business leaders say the moment now is as good as any to spur riverfront revitalization. This growing focus is partially powered by the idea for $
+- **NEW**  [[St. Louis] Top things to do in St. Louis this weekend: June 5–7](https://www.stlmag.com/culture/top-events-in-st-louis-this-weekend/) — *2026-06-03*
+  > <p>Circus Flora &#124; Through June 21 Circus Flora celebrates its 40th anniversary season with Flying High, featuring the Flying Wallendas, the Olate Dogs, a Human Cannonball, and more. See website for details. The Big Top, 3401 Washington. International Horseradish Festival &#1
 - **NEW**  [[St. Louis] Busch Family Brewing & Distilling in Defiance to remain closed for 2026 season](https://www.stlmag.com/dining/busch-family-brewing-distilling-in-defiance-to-remain-closed-for-2026-season/) — *2026-06-03*
   > <p>After two seasons of brewing beer, bronco busting at monthly Saturday night rodeos, pouring its signature Bridlespur Bourbon, and drawing crowds for country-themed parties and events, Busch Family Brewing &#38; Distilling (4151 Benne) in Defiance will not open for the 2026 sea
 - **NEW**  [[St. Louis] St. Louis nurse launches BYOBaby STL to help new moms find community](https://www.stlmag.com/family/byobaby-stl/) — *2026-06-02*
@@ -29,8 +31,6 @@ state: fresh
   > <p>St. Louis city leaders got a win in court today in their ongoing battle with the state-appointed Board of Police Commissioners. Judge Joan Moriarty denied the board’s request that $67.5 million be added to their coffers this fiscal year, which ends in about a month.&#160; The 
 - **NEW**  [[St. Louis] Webster Arts Fair returns this weekend](https://www.stlmag.com/culture/fairs-festivals/the-webster-arts-fair-returns-this-weekend-for-its-20th-year/) — *2026-06-02*
   > <p>The Webster Arts Fair returns to the Green at Eden Seminary this weekend for its 22nd year. Spend time in the community by browsing work from more than 100 artists, as well as rocking out, eating up, and enjoying the beautiful setting on Friday, Saturday, and Sunday. “We want 
-- [[St. Louis] How a St. Louis nature kid became one of America’s top young conservationists](https://www.stlmag.com/family/jr-ranger-rick-semifinals/) — *2026-06-02*
-  > <p>Last year, when Courtney Wilson asked her then-5-year-old son, Lincoln Wilson-Gale, to choose a souvenir during a trip to Washington, Missouri, he selected a bird field guide. “That was the first time I realized this is really his thing,” Wilson says. Today, Lincoln often carr
 - **NEW**  [[St. Louis] NHL's 'Stanley Pup,' featuring 32 dogs competing, is back for a third year](https://www.ksdk.com/article/sports/nhl-stanley-pup-dogs-rescue-special-time-hockey-date/507-185c2fbf-7b2b-4ee8-bb06-f012d5ee0940) — *2026-06-03*
   > The 'Stanley Pup' special will premiere in the United States and Canada on Monday, June 8.
 - **NEW**  [[St. Louis] Frontier flight diverted after passenger tried to open door, choke off-duty flight attendant, police say](https://www.ksdk.com/article/news/nation-world/frontier-flight-diverted-passenger-tried-opening-door-choke-off-duty-flight-attendant/507-897b814a-73df-44c2-ba82-951a33daae95) — *2026-06-03*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[St. Louis] 66-year-old with intellectual disabilities found safe](https://www.ksdk.com/article/news/local/st-louis-police-looking-for-missing-66-year-old-with-intellectual-disabilities/63-ef069ecf-1ac3-4b0c-b500-ce833b01ff15) — *2026-06-03*
   > The man was found and returned home safely.
 
-_(234 additional items in raw.jsonl)_
+_(222 additional items in raw.jsonl)_

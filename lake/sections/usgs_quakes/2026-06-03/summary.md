@@ -15,10 +15,10 @@ state: fresh
   > M5.7 · 154 km WSW of Pistol River, Oregon · depth 10 km
 - **NEW**  [M 5.6 - Vanuatu region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq90) — *2026-06-03*
   > M5.6 · Vanuatu region · depth 10 km
+- **NEW**  [M 5.1 - 64 km W of Petrolia, CA](https://earthquake.usgs.gov/earthquakes/eventpage/nc75370186) — *2026-06-03*
+  > M5.1 · 64 km W of Petrolia, CA · depth 0.150000005960464 km
 - **NEW**  [M 5.1 - 76 km S of Daroot-Korgon, Kyrgyzstan](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq7x) — *2026-06-03*
   > M5.1 · 76 km S of Daroot-Korgon, Kyrgyzstan · depth 10 km
-- **NEW**  [M 5.1 - 64 km W of Petrolia, CA](https://earthquake.usgs.gov/earthquakes/eventpage/nc75370186) — *2026-06-03*
-  > M5.08 · 64 km W of Petrolia, CA · depth 0.150000005960464 km
 - **NEW**  [M 4.9 - Pitcairn Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq6g) — *2026-06-03*
   > M4.9 · Pitcairn Islands region · depth 10 km
 - **NEW**  [M 4.7 - 142 km SSE of Vilyuchinsk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq8i) — *2026-06-03*
