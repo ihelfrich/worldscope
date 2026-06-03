@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from datetime import date
@@ -22,6 +23,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 import render_reasoned as rr  # noqa: E402  (reuse gather + helpers + rich sections)
+from worldscope.theater_map import theater_geojson  # noqa: E402
 
 OUT = REPO / "dist" / "mockups" / "next" / "board.html"
 
@@ -80,7 +82,51 @@ def _provenance(c, esc) -> str:
     return "".join(pills)
 
 
-def render(today: date) -> Path:
+def _theater_section(map_data: dict, recs: list, map_json: str, esc) -> str:
+    """Interactive d3-geo theater map (real borders + FIRMS fires + frontline)
+    beside the latest theater reporting. Replaces the broken matplotlib PNG."""
+    # latest theater headlines (dedup, drop the map PNG entirely)
+    seen, items = set(), []
+    for r in recs:
+        if r.get("section_id") != "ukraine_theater":
+            continue
+        # the map already shows fire/thermal telemetry — the list is for narrative
+        if (r.get("extra") or {}).get("source_kind") in {"thermal", "air-alert"}:
+            continue
+        t = (r.get("title") or r.get("original_text") or "").strip()
+        # strip embedded HTML and the trailing Google-News-RSS anchor junk
+        t = re.sub(r"\s*[-—]\s*<a\b.*$", "", t, flags=re.I)
+        t = re.sub(r"<[^>]+>", "", t).strip()
+        if not t or "thermal anomaly" in t.lower() or t.lower().startswith("[firms]"):
+            continue
+        if t.lower() not in seen and len(t) > 14:
+            seen.add(t.lower())
+            items.append(esc(rr._oneline(t, 150)))
+        if len(items) >= 7:
+            break
+    lis = "".join(f"<li>{t}</li>" for t in items) or "<li class='muted'>No fresh theater reporting.</li>"
+    c = map_data.get("counts", {})
+    cap = (f"{c.get('conflict',0)} conflict · {c.get('fire',0)} fire · "
+           f"{c.get('frontline',0)} frontline · drag to pan, scroll to zoom · "
+           f"borders Natural Earth 50m · fires NASA FIRMS")
+    legend = ("<div class='maplegend'>"
+              "<span><i class='lg-fire'></i>FIRMS fire</span>"
+              "<span><i class='lg-conf'></i>conflict event</span>"
+              "<span><i class='lg-city'></i>city</span>"
+              "<span><i class='lg-front'></i>frontline</span></div>")
+    return (
+        "<section class='ws-sec mapwrap' data-ws-section='theater' data-ws-label='Ukraine theater'>"
+        "<h2 class='ws-h'>Ukraine theater <span class='h2sub'>— live, drawn from the lake</span></h2>"
+        "<div class='mapgrid'>"
+        "<div class='mapbox'><svg id='ws-map-svg' role='img' aria-label='Ukraine theater map'></svg>"
+        f"{legend}<div id='ws-map-tip' class='maptip'></div></div>"
+        f"<ul class='ws-list theater-list'>{lis}</ul>"
+        "</div>"
+        f"<div class='ws-cap'>{cap}</div></section>")
+
+
+def render(today: date, *, out: Path | None = None, asset_base: str = "../../") -> Path:
+    out = out or OUT
     try:
         claims, reports, fresh, preds, recs = rr._gather(today)
     except Exception as exc:
@@ -184,14 +230,22 @@ def render(today: date) -> Path:
     cl_chart = rr._claims_chart_data(ranked, tmap)
     data_json = json.dumps({"threads": th_chart, "claims": cl_chart})
 
-    # ── reused rich sections (real assets) — rewrite paths for depth-2 page ──
-    def _fix(html):                       # ./briefings/ -> ../../briefings/
-        return html.replace("./briefings/", "../../briefings/") if html else ""
+    # ── reused rich sections (real assets) — rewrite paths to asset_base ──
+    def _fix(html):                       # ./briefings/ -> {asset_base}briefings/
+        return html.replace("./briefings/", f"{asset_base}briefings/") if html else ""
 
     charts_html = _fix(rr._charts_html(today))
-    theater_html = _fix(rr._theater_html(recs, today))
     markets_html = rr._markets_html(recs)
     outlook_html = rr._outlook_html(preds)
+
+    # ── interactive Ukraine theater map (d3-geo, client-side, real borders) ──
+    try:
+        map_data = theater_geojson(today.isoformat())
+    except Exception as exc:
+        print("theater_geojson failed:", exc)
+        map_data = {"points": [], "frontline": [], "alerts": [], "cities": [],
+                    "bbox": [22.0, 44.0, 40.5, 53.0], "counts": {}}
+    theater_html = _theater_section(map_data, recs, json.dumps(map_data), esc)
 
     n_threads = len(threads)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -241,14 +295,18 @@ all figures built from the lake · {today.isoformat()} · foreign headlines tran
 <div id="ws-customize"><div class="ws-cust-h">Show on board</div><div id="ws-cust-list"></div></div>
 
 <script id="ws-data" type="application/json">{data_json}</script>
-<script src="../../assets/vendor/d3.min.js"></script>
-<script src="../../assets/vendor/plot.umd.min.js"></script>
+<script id="ws-map" type="application/json">{json.dumps(map_data)}</script>
+<script>window.WS_ASSET_BASE="{asset_base}";</script>
+<script src="{asset_base}assets/vendor/d3.min.js"></script>
+<script src="{asset_base}assets/vendor/plot.umd.min.js"></script>
+<script src="{asset_base}assets/vendor/topojson-client.min.js"></script>
 <script>{_JS}</script>
+<script>{_MAP_JS}</script>
 <script>{rr.CONTROLLER_JS}</script>
 </body></html>"""
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(page, encoding="utf-8")
-    return OUT
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(page, encoding="utf-8")
+    return out
 
 
 _CSS = """
@@ -364,6 +422,38 @@ h2{font-family:var(--serif);font-size:22px;letter-spacing:-.01em;margin:0 0 14px
 _CSS_TAIL = """
 .ws-sec{max-width:1180px}
 .ws-sec h2.ws-h{border-top:2px solid var(--ink)}
+/* interactive theater map */
+.mapgrid{display:grid;grid-template-columns:1.55fr 1fr;gap:22px;align-items:start}
+@media(max-width:880px){.mapgrid{grid-template-columns:1fr}}
+.mapbox{position:relative;border:1px solid var(--hair);border-radius:12px;overflow:hidden;
+ background:#Eaf1f4;aspect-ratio:4/3}
+#ws-map-svg{width:100%;height:100%;display:block;cursor:grab}
+#ws-map-svg:active{cursor:grabbing}
+#ws-map-svg .sea{fill:#E7EEF2}
+#ws-map-svg .grat{fill:none;stroke:#CBD7DC;stroke-width:.4}
+#ws-map-svg .land{fill:#F0ECE0;stroke:#C9Bfa9;stroke-width:.5}
+#ws-map-svg .ua{fill:#FBF4E6;stroke:#9A6B00;stroke-width:1.1}
+#ws-map-svg .front{fill:none;stroke:#C0392B;stroke-width:1.1;stroke-opacity:.9;
+ stroke-linejoin:round}
+#ws-map-svg .fire{fill:#E8731C;fill-opacity:.78}
+#ws-map-svg .conf{fill:#C0392B;fill-opacity:.55;stroke:#7E1F17;stroke-width:.5}
+#ws-map-svg .city{fill:#1C1A14}
+#ws-map-svg .citylbl{font:600 9px var(--sans,sans-serif);fill:#1C1A14;paint-order:stroke;
+ stroke:#FBF4E6;stroke-width:2.4px}
+#ws-map-svg .alert{fill:none;stroke:#0F8B7E;stroke-width:1.4;opacity:.8}
+.maplegend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 12px;
+ background:rgba(252,250,243,.92);border:1px solid var(--hair);border-radius:8px;padding:7px 10px;
+ font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--soft)}
+.maplegend span{display:inline-flex;align-items:center;gap:5px}
+.maplegend i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.maplegend .lg-fire{background:#E8731C}.maplegend .lg-conf{background:#C0392B}
+.maplegend .lg-city{background:#1C1A14}
+.maplegend .lg-front{border-radius:0;width:12px;height:0;border-top:2px dashed #C0392B}
+.maptip{position:absolute;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5;
+ background:var(--ink);color:#F4F1E8;font-family:var(--sans);font-size:11px;line-height:1.3;
+ padding:6px 9px;border-radius:6px;max-width:230px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.theater-list li{font-family:var(--serif);font-size:14.5px}
+.theater-list li.muted{color:var(--soft);font-style:italic}
 """
 
 _JS = r"""
@@ -405,11 +495,99 @@ _JS = r"""
 """
 
 
+_MAP_JS = r"""
+(function(){
+  var node=document.getElementById("ws-map-svg");
+  var raw=document.getElementById("ws-map");
+  if(!node||!raw||!window.d3||!window.topojson) return;
+  var data; try{data=JSON.parse(raw.textContent||"{}");}catch(e){return;}
+  var W=860,H=645,base=(window.WS_ASSET_BASE||"../../");
+  var bb=data.bbox||[22,44,40.5,53];
+  var svg=d3.select(node).attr("viewBox","0 0 "+W+" "+H);
+  // MultiPoint of the bbox corners — avoids d3-geo spherical winding ambiguity
+  // (a wrong-wound Polygon fits the whole globe instead of the rectangle).
+  var bboxFeat={type:"MultiPoint",coordinates:[[bb[0],bb[1]],[bb[2],bb[1]],
+    [bb[2],bb[3]],[bb[0],bb[3]]]};
+  var proj=d3.geoMercator().fitExtent([[14,14],[W-14,H-14]],bboxFeat);
+  var path=d3.geoPath(proj);
+  var tip=document.getElementById("ws-map-tip");
+  function showTip(html,x,y){if(!tip)return;tip.innerHTML=html;tip.style.opacity=1;
+    tip.style.left=Math.min(x+12,W-10)+"px";tip.style.top=(y+12)+"px";}
+  function hideTip(){if(tip)tip.style.opacity=0;}
+
+  svg.append("rect").attr("class","sea").attr("width",W).attr("height",H);
+  var g=svg.append("g");
+  // graticule
+  g.append("path").datum(d3.geoGraticule().step([2,2])()).attr("class","grat").attr("d",path);
+
+  fetch(base+"assets/vendor/countries-50m.json").then(function(r){return r.json();})
+   .then(function(world){
+     var feats=topojson.feature(world,world.objects.countries).features;
+     g.selectAll("path.land").data(feats).enter().append("path")
+       .attr("class",function(d){return (+d.id===804)?"ua":"land";}).attr("d",path);
+     drawOverlays();
+   }).catch(function(){drawOverlays();});
+
+  function drawOverlays(){
+    // frontline outlines drawn as LineStrings (tracing only — avoids d3-geo
+    // spherical polygon-fill complement when ring winding is inconsistent)
+    (data.frontline||[]).forEach(function(ring){
+      g.append("path").datum({type:"LineString",coordinates:ring})
+        .attr("class","front").attr("d",path);
+    });
+    // alert oblast rings
+    (data.alerts||[]).forEach(function(a){
+      var p=proj([a.lon,a.lat]); if(!p)return;
+      g.append("circle").attr("class","alert").attr("cx",p[0]).attr("cy",p[1]).attr("r",13);
+    });
+    // event points (fires + conflict)
+    var pts=(data.points||[]).map(function(d){var p=proj([d.lon,d.lat]);return p?{x:p[0],y:p[1],d:d}:null;})
+                .filter(Boolean);
+    g.selectAll("circle.pt").data(pts).enter().append("circle")
+      .attr("class",function(o){return o.d.kind==="conflict"?"conf":"fire";})
+      .attr("cx",function(o){return o.x;}).attr("cy",function(o){return o.y;})
+      .attr("r",function(o){return o.d.kind==="conflict"
+        ? Math.max(3,Math.sqrt((o.d.fatalities||0)+1)*2.2) : 2.1;})
+      .on("mousemove",function(ev,o){
+        var lbl=o.d.kind==="conflict"
+          ? ("Conflict · "+(o.d.fatalities||0)+" fatalities"+(o.d.text?"<br>"+o.d.text:""))
+          : "FIRMS thermal anomaly";
+        showTip(lbl,o.x,o.y);}).on("mouseout",hideTip);
+    // cities
+    var cg=g.append("g");
+    (data.cities||[]).forEach(function(c){
+      var p=proj([c.lon,c.lat]); if(!p)return;
+      cg.append("circle").attr("class","city").attr("cx",p[0]).attr("cy",p[1]).attr("r",2.4);
+      cg.append("text").attr("class","citylbl").attr("x",p[0]+4).attr("y",p[1]+3).text(c.name);
+    });
+  }
+  // pan + zoom
+  svg.call(d3.zoom().scaleExtent([1,9]).on("zoom",function(ev){
+    g.attr("transform",ev.transform);
+    g.selectAll("circle.fire,circle.conf,circle.city").attr("vector-effect","non-scaling-stroke");
+  }));
+})();
+"""
+
+
+def render_homepage(today: date, out_root) -> Path:
+    """Top-level dist/index.html — the live WORLDSCOPE homepage, with assets
+    referenced at ./ (root-relative). Called by tools/render_brief.py."""
+    out_root = Path(out_root)
+    return render(rr._effective_date(today), out=out_root / "index.html", asset_base="./")
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=date.today().isoformat())
+    ap.add_argument("--homepage", action="store_true",
+                    help="write dist/index.html (root assets) instead of the mockup")
     args = ap.parse_args(argv)
-    out = render(rr._effective_date(date.fromisoformat(args.date)))
+    today = rr._effective_date(date.fromisoformat(args.date))
+    if args.homepage:
+        out = render_homepage(date.fromisoformat(args.date), REPO / "dist")
+    else:
+        out = render(today)
     print(f"[board] wrote {out}")
     return 0
 

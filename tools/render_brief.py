@@ -613,12 +613,20 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
 def render_root_landing(out_root: Path) -> None:
     """Top-level dist/index.html — the WORLDSCOPE homepage.
 
-    The homepage is the 'Reasoned' intelligence brief, generated from the live
-    claim graph (judgment / key developments / current reporting, graded by
-    cross-source corroboration). Self-contained HTML, no build step. If that
-    generation fails for any reason, fall back to the previous behavior (copy
-    the newest rendered brief) so a deploy is never blocked."""
+    The homepage is the WORLDSCOPE 'situation board': cross-domain threads first,
+    a color-anchored domain grid, interactive charts, and a live d3-geo Ukraine
+    theater map — all generated from the live claim graph + lake. Self-contained
+    HTML. If the board fails, fall back to the 'Reasoned' brief, then to copying
+    the newest rendered brief, so a deploy is never blocked."""
     import datetime as _d
+    try:
+        import render_board
+        out = render_board.render_homepage(_d.date.today(), out_root)
+        print(f"  homepage (board) -> {out}")
+        return
+    except Exception as exc:
+        print(f"  board homepage failed ({type(exc).__name__}: {exc}); "
+              f"falling back to reasoned")
     try:
         import render_reasoned
         out = render_reasoned.render_homepage(_d.date.today(), out_root)
