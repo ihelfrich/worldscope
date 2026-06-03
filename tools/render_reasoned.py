@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import sys
 from datetime import date, timedelta
@@ -109,6 +110,35 @@ def _css() -> str:
 
 def _esc(s: str) -> str:
     return html.escape(str(s or ""))
+
+
+def _translate(texts: list) -> dict:
+    """Translate non-English headlines to English via Haiku, batched into one
+    call. No-op (returns {}) without ANTHROPIC_API_KEY — so it degrades to the
+    original text + a language tag. Any failure falls back silently."""
+    uniq = [t for t in dict.fromkeys(texts) if t][:12]
+    if not uniq or not os.environ.get("ANTHROPIC_API_KEY"):
+        return {}
+    try:
+        import anthropic
+        numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(uniq))
+        prompt = ("Translate each numbered news headline into concise English. "
+                  "Output ONLY the translations with the same numbering, one per "
+                  "line, nothing else.\n\n" + numbered)
+        resp = anthropic.Anthropic(timeout=40).messages.create(
+            model="claude-haiku-4-5-20251001", max_tokens=1200,
+            messages=[{"role": "user", "content": prompt}])
+        body = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+        out = {}
+        for line in body.splitlines():
+            m = re.match(r"\s*(\d+)\.\s*(.+)", line)
+            if m:
+                i = int(m.group(1)) - 1
+                if 0 <= i < len(uniq):
+                    out[uniq[i]] = m.group(2).strip()
+        return out
+    except Exception:
+        return {}
 
 
 def _gather(today: date):
@@ -220,14 +250,15 @@ def _markets_html(recs: list) -> str:
                     cap="Cross-asset levels · markets_global", sid="markets")
 
 
-def _claims_chart_data(ranked: list) -> list:
+def _claims_chart_data(ranked: list, tmap: dict) -> list:
     """[{label, sources, status, conf}] for the interactive corroboration chart —
     the day's reporting ranked by how many independent sources carry it."""
     out = []
     for c in ranked[:12]:
         _, label = _STAT.get(c.status, ("open", c.status))
-        out.append({"label": _oneline(c.claim_text, 44), "sources": c.n_sources,
-                    "status": label, "conf": int(c.confidence * 100)})
+        out.append({"label": _oneline(tmap.get(c.claim_text, c.claim_text), 44),
+                    "sources": c.n_sources, "status": label,
+                    "conf": int(c.confidence * 100)})
     return out
 
 
@@ -385,6 +416,12 @@ def render(today: date, *, homepage: bool = False) -> Path:
     ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
                                            c.confidence), reverse=True)
     hero = ranked[0] if ranked else None
+    # Translate the foreign (non-Latin-script) headlines among what we show.
+    tmap = _translate([c.claim_text for c in ranked[:14] if _lang_tag(c.claim_text)])
+
+    def _tx(c):
+        return tmap.get(c.claim_text, c.claim_text)
+
     n_contra = sum(1 for c in claims if c.status == "contradicted")
     n_primary = sum(1 for c in claims if c.status == "primary_confirmed")
 
@@ -400,7 +437,7 @@ def render(today: date, *, homepage: bool = False) -> Path:
     # ---- judgment hero ----
     if hero:
         _, hlabel = _STAT.get(hero.status, ("open", hero.status))
-        h1 = _esc(_headline(hero.claim_text))
+        h1 = _esc(_headline(_tx(hero)))
         conf_word = ("high" if hero.confidence >= 0.75 else
                      "moderate" if hero.confidence >= 0.55 else "low")
         stand = (f"We assess with {conf_word} confidence; {hero.n_sources} sources "
@@ -424,10 +461,13 @@ def render(today: date, *, homepage: bool = False) -> Path:
     for c in ranked[1:7]:
         pill, label = _STAT.get(c.status, ("open", c.status))
         srcs = " ".join(f"<span class='src'><i></i>{_esc(s)}</span>" for s in c.topics[:5])
+        trn = (f" <span style='font-family:var(--mono);font-size:9px;color:var(--gold)'>"
+               f"· translated from {_lang_tag(c.claim_text)}</span>"
+               if c.claim_text in tmap else "")
         rows.append(
             f"<div class='note'><div class='h'>{label} · {int(c.confidence*100)}%"
             f" · {c.n_sources} sources</div>"
-            f"<p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>{_esc(_oneline(c.claim_text))}</p>"
+            f"<p style='font-family:var(--serif);font-size:16px;color:var(--ink)'>{_esc(_oneline(_tx(c)))}{trn}</p>"
             f"<div class='srcbar' style='margin-top:8px'>{srcs}</div></div>")
     reading = "".join(rows)
 
@@ -436,12 +476,13 @@ def render(today: date, *, homepage: bool = False) -> Path:
     for c in ranked[:10]:
         pill, label = _STAT.get(c.status, ("open", c.status))
         lt = _lang_tag(c.claim_text)
+        badge = (f"{lt}→EN" if c.claim_text in tmap else lt) if lt else ""
         tag = (f"<span style='font-family:var(--mono);font-size:9px;color:var(--gold);"
-               f"border:1px solid #E2C9B5;border-radius:3px;padding:0 4px;margin-right:6px'>{lt}</span>"
-               if lt else "")
+               f"border:1px solid #E2C9B5;border-radius:3px;padding:0 4px;margin-right:6px'>{badge}</span>"
+               if badge else "")
         calls.append(
             "<div class='call'>"
-            f"<div class='q'>{tag}{_esc(_oneline(c.claim_text, 130))}"
+            f"<div class='q'>{tag}{_esc(_oneline(_tx(c), 130))}"
             f"<div class='meta'>{_esc(', '.join(c.topics[:4]))} · {c.claim_type.replace('_',' ')}</div></div>"
             f"<div class='prob'><span class='m'><b style='width:{int(c.confidence*100)}%'></b></span>"
             f"<span class='pct'>{int(c.confidence*100)}%</span></div>"
@@ -508,7 +549,7 @@ def render(today: date, *, homepage: bool = False) -> Path:
     status are derived from cross-source corroboration and source tier. Times UTC.</div>
 </div>"""
 
-    data_json = json.dumps({"claims": _claims_chart_data(ranked)})
+    data_json = json.dumps({"claims": _claims_chart_data(ranked, tmap)})
     controls = (
         "<button id='ws-cog' aria-label='Customize sections' "
         "title='Customize sections'>⚙</button>"

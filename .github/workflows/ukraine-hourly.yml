@@ -68,7 +68,7 @@ jobs:
           git config user.name "ukraine-hourly-bot"
           git config user.email "bot@worldscope.local"
           DATE=$(date -u +%F)
-          git add lake/sections/ukraine_theater/${DATE}/ briefings/${DATE}-ukraine-*.png 2>/dev/null || true
+          git add lake/sections/ukraine_theater/${DATE}/ briefings/${DATE}-ukraine*.png 2>/dev/null || true
           git diff --staged --quiet && echo "no changes" && exit 0
           git commit -m "ukraine hourly refresh ${DATE} $(date -u +%H:%M)Z"
 

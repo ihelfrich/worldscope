@@ -82,7 +82,10 @@ jobs:
               echo "Pushed on attempt $attempt"; break
             fi
             echo "Push rejected on attempt $attempt; rebasing"
-            git pull --rebase --autostash origin main
+            # Generated artifacts (dist/, lake/, store) are fully rebuilt each
+            # run, so on a conflict prefer OUR fresh copy (-X theirs favors the
+            # commit being replayed during a rebase). Abort cleanly if it can't.
+            git pull --rebase --autostash -X theirs origin main || git rebase --abort
           done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

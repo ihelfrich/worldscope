@@ -1,0 +1,14 @@
+# Runtime dependencies for CI jobs that don't `pip install -e .`
+# (e.g. the ukraine-hourly refresh). Mirrors the core deps in pyproject.toml
+# plus matplotlib for map/figure rendering. Kept free of GDAL/fiona so the
+# install never fails on a runner without system geo libraries — map steps that
+# need them degrade gracefully.
+requests>=2.31
+pandas>=2.0
+feedparser>=6.0
+anthropic>=0.34
+python-dotenv>=1.0
+pyyaml>=6.0
+numpy>=1.24
+markdown>=3.5
+matplotlib>=3.7

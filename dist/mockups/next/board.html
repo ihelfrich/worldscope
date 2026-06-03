@@ -1,0 +1,276 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLDSCOPE · Situation Board · 2026-06-02</title>
+<style>
+:root{--bg:#F4F1E8;--ink:#1C1A14;--soft:#6E685C;--faint:#9A9384;--hair:#E2DACA;
+ --hair2:#ECE5D6;--paper:#FCFAF3;--ok:#2F6B3A;--ox:#C0392B;--gold:#9A6B00;
+ --serif:"Iowan Old Style",Palatino,Georgia,serif;
+ --sans:"Inter",system-ui,Helvetica,Arial,sans-serif;
+ --mono:ui-monospace,"DejaVu Sans Mono",Menlo,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.4;
+ -webkit-font-smoothing:antialiased;padding-bottom:56px}
+/* masthead */
+.top{display:flex;align-items:center;justify-content:space-between;gap:20px;
+ padding:16px 30px;background:var(--ink);color:#F4F1E8;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.22em;font-size:17px}
+.brand .mk{width:13px;height:13px;background:#C0392B;transform:rotate(45deg);
+ animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(405deg)}}
+.brand .sub{font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.2em;
+ color:#A9A293;border-left:1px solid #3A362C;padding-left:11px}
+.meta{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:#C9C2B1;display:flex;
+ align-items:center;gap:6px}
+.live{display:inline-flex;align-items:center;gap:5px;color:#E8B4AC}
+.live i{width:7px;height:7px;border-radius:50%;background:#C0392B;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(192,57,43,.5)}
+ 50%{opacity:.5;box-shadow:0 0 0 5px rgba(192,57,43,0)}}
+/* ribbon */
+.ribbon{display:flex;gap:0;border-bottom:1px solid var(--hair);background:var(--paper)}
+.ribbon .ks{flex:1;padding:14px 18px;border-right:1px solid var(--hair2)}
+.ribbon .ks:last-child{border-right:0}
+.ribbon .v{font-family:var(--serif);font-size:28px;font-weight:700;line-height:1}
+.ribbon .v.ok{color:var(--ok)} .ribbon .v.ox{color:var(--ox)}
+.ribbon .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+ color:var(--soft);margin-top:5px}
+h2{font-family:var(--serif);font-size:22px;letter-spacing:-.01em;margin:0 0 14px;font-weight:700}
+.h2sub{font-family:var(--sans);font-size:12.5px;font-weight:400;color:var(--soft);letter-spacing:0}
+/* threads hero */
+.threads{padding:26px 30px 8px;max-width:1180px;margin:0 auto}
+.thread{border-bottom:1px solid var(--hair);animation:rise .5s ease both}
+.thread:nth-child(2){animation-delay:.04s}.thread:nth-child(3){animation-delay:.08s}
+.thread:nth-child(4){animation-delay:.12s}.thread:nth-child(5){animation-delay:.16s}
+.thread:nth-child(6){animation-delay:.2s}.thread:nth-child(n+7){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.thead{display:flex;align-items:baseline;gap:16px;padding:12px 6px;cursor:pointer;
+ transition:background .15s}
+.thead:hover{background:#FBF7EC}
+.tchips{display:flex;flex-wrap:wrap;gap:5px;align-items:center;min-width:230px;max-width:230px}
+.chip{font-family:var(--mono);font-size:9px;letter-spacing:.04em;text-transform:uppercase;color:#fff;
+ padding:2px 7px;border-radius:3px;font-weight:600}
+.span{font-family:var(--mono);font-size:9px;color:var(--soft);margin-left:2px}
+.ttext{font-family:var(--serif);font-size:16.5px;flex:1;line-height:1.35}
+.tnote{font-family:var(--mono);font-size:9px;color:var(--gold)}
+.tmeta{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.tn{font-family:var(--mono);font-size:10px;color:var(--soft)}
+.caret{font-family:var(--mono);font-size:16px;color:var(--faint);width:14px;text-align:center;
+ transition:transform .25s}
+.thread.open .caret{transform:rotate(45deg)}
+.body{max-height:0;overflow:hidden;opacity:0;transition:max-height .35s ease,opacity .3s,padding .3s;
+ padding:0 6px}
+.thread.open .body{max-height:520px;opacity:1;padding:2px 6px 18px}
+.assess{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:4px 0 10px}
+.alabel{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+ padding:3px 9px;border-radius:4px;color:#fff;font-weight:600}
+.a-primary_confirmed{background:#2F6B3A}.a-multi_source{background:#2C6FA6}
+.a-single_source{background:#C77800}.a-contradicted{background:#C0392B}
+.a-not_enough_info{background:#8A8276}
+.abar{display:inline-block;width:120px;height:6px;background:var(--hair);border-radius:3px;overflow:hidden}
+.abar b{display:block;height:100%;background:var(--ink);width:0;animation:fill .8s .15s ease both}
+@keyframes fill{from{width:0}}
+.aconf,.asec{font-family:var(--mono);font-size:10px;color:var(--soft);letter-spacing:.04em}
+.contra{font-family:var(--sans);font-size:13px;color:var(--ox);margin:0 0 10px;
+ border-left:2px solid var(--ox);padding-left:10px}
+.provwrap{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.provk{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;
+ color:var(--faint);margin-right:4px}
+.prov{font-family:var(--mono);font-size:9.5px;color:var(--c);border:1px solid var(--c);
+ border-radius:3px;padding:2px 7px;background:color-mix(in srgb,var(--c) 8%,transparent)}
+.empty{font-family:var(--serif);font-size:16px;color:var(--soft);padding:14px 0}
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding:18px 30px 4px;max-width:1180px;margin:0 auto}
+.fchip{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;
+ letter-spacing:.06em;border:1px solid var(--hair);background:var(--paper);color:var(--soft);
+ padding:6px 12px;border-radius:999px;cursor:pointer;transition:all .15s}
+.fchip i{width:7px;height:7px;border-radius:50%}
+.fchip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.fchip:not(.on):hover{border-color:var(--c);color:var(--ink);transform:translateY(-1px)}
+/* domain grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;
+ padding:14px 30px;max-width:1180px;margin:0 auto}
+.card{background:var(--paper);border:1px solid var(--hair);border-radius:12px;overflow:hidden;
+ border-top:3px solid var(--c);transition:transform .18s,box-shadow .18s;animation:rise .5s both}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(40,34,20,.10)}
+.card header{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:11px;
+ letter-spacing:.1em;text-transform:uppercase;padding:12px 15px;background:#fff;color:var(--ink)}
+.card header .cdot{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.card header .cn{margin-left:auto;color:var(--c);font-weight:700}
+.card ul{list-style:none}
+.card li{display:flex;align-items:flex-start;gap:10px;padding:10px 15px;border-top:1px solid var(--hair2);
+ font-size:13.5px}
+.card li.more{font-family:var(--mono);font-size:10px;color:var(--faint);letter-spacing:.04em}
+.card li .dot{width:8px;height:8px;border-radius:50%;margin-top:6px;flex-shrink:0}
+.card li .it{flex:1;font-family:var(--serif);font-size:14px;line-height:1.36}
+.card li .src{font-family:var(--mono);font-size:10px;color:var(--soft)}
+.chartwrap{padding:26px 30px 0;max-width:1180px;margin:0 auto}
+.plot svg{max-width:100%;height:auto;font-family:var(--sans)}
+.foot{font-family:var(--mono);font-size:10px;color:var(--faint);padding:26px 30px;letter-spacing:.04em;
+ max-width:1180px;margin:0 auto}
+@media(max-width:680px){.tchips{min-width:0;max-width:none}.thead{flex-wrap:wrap;gap:6px}
+ .ribbon{flex-wrap:wrap}.ribbon .ks{flex:1 1 33%}}
+
+.ws-sec{max-width:1180px;margin:0 auto;padding:34px 44px 0}
+.ws-sec h2.ws-h{font-family:var(--serif);font-weight:700;font-size:24px;letter-spacing:-.01em;
+  border-top:2px solid var(--ink);padding-top:16px;margin:0 0 16px}
+.ws-charts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:880px){.ws-charts{grid-template-columns:1fr}.ws-mkt{grid-template-columns:1fr!important}}
+.ws-chart{border:1px solid var(--hair);border-radius:10px;overflow:hidden;background:var(--paper);margin:0}
+.ws-chart img{width:100%;height:auto;display:block}
+.ws-chart figcaption{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--soft);padding:8px 12px;border-top:1px solid var(--hair)}
+.ws-cap{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:10px;letter-spacing:.04em}
+.ws-mkt{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.ws-mkt .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--hair2);
+  font-family:var(--sans);font-size:14px}
+.ws-mkt .row.up{color:var(--ok)} .ws-mkt .row.dn{color:var(--ox)}
+.ws-list{list-style:none;padding:0;margin:0}
+.ws-list li{padding:11px 0;border-bottom:1px solid var(--hair2)}
+.ws-list .t{font-family:var(--serif);font-size:16px;color:var(--ink)}
+.ws-list .m{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-top:3px}
+
+.ws-plot{margin:0 0 18px}
+.ws-plot svg{max-width:100%;height:auto;font-family:var(--sans)}
+#ws-cog{position:fixed;top:14px;right:14px;z-index:60;width:40px;height:40px;border-radius:50%;
+  border:1px solid var(--hair);background:var(--paper);color:var(--ink);font-size:18px;cursor:pointer;
+  box-shadow:0 1px 5px rgba(0,0,0,.10);line-height:1}
+#ws-customize{position:fixed;top:62px;right:14px;z-index:60;background:var(--paper);
+  border:1px solid var(--hair);border-radius:11px;padding:14px 16px;display:none;min-width:190px;
+  box-shadow:0 6px 22px rgba(0,0,0,.14)}
+#ws-customize.open{display:block}
+#ws-customize .ws-cust-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--soft);margin-bottom:10px}
+#ws-customize label{display:flex;align-items:center;gap:8px;font-family:var(--sans);
+  font-size:13.5px;color:var(--ink);padding:5px 0;cursor:pointer}
+
+.ws-sec{max-width:1180px}
+.ws-sec h2.ws-h{border-top:2px solid var(--ink)}
+</style></head><body>
+<header class="top">
+  <div class="brand"><span class="mk"></span>WORLDSCOPE<span class="sub">SITUATION BOARD</span></div>
+  <div class="meta"><span class="live"><i></i>LIVE</span> · TUESDAY 02 JUNE 2026</div>
+</header>
+
+<div class="ribbon">
+  <div class="ks"><div class="v">52</div><div class="k">claims today</div></div>
+  <div class="ks"><div class="v ok">2</div><div class="k">primary-confirmed</div></div>
+  <div class="ks"><div class="v ox">4</div><div class="k">contradicted</div></div>
+  <div class="ks"><div class="v">15/18</div><div class="k">sources fresh</div></div>
+  <div class="ks"><div class="v">15</div><div class="k">cross-domain threads</div></div>
+</div>
+
+<section class="threads" data-ws-section="threads" data-ws-label="Threads underneath">
+  <h2>Threads underneath <span class="h2sub">— what's connecting across domains · click to open</span></h2>
+  <div class='thread' data-i='0'><div class='thead'><div class='tchips'><span class='chip' style='background:#1E8A4C'>Markets</span><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='chip' style='background:#B5602B'>State</span><span class='span'>4 domains</span></div><div class='ttext'>Residence permit for Russian propagandist Xenia Fedorova sparks embarrassment at highest levels of French government</div><div class='tmeta'><span class='tn'>23 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-contradicted'>DISPUTED</span><span class='abar'><b style='width:46%'></b></span><span class='aconf'>46% confidence</span><span class='asec'>23 sources · 4 sections</span></div><div class='contra'>3 record(s) appear to deny this (foreign_news).</div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#1E8A4C'>Forecasts</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span><span class='prov' style='--c:#B5602B'>Russian Internal</span></div></div></div><div class='thread' data-i='1'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='chip' style='background:#1E8A4C'>Markets</span><span class='span'>3 domains</span></div><div class='ttext'>Trump ‘slush fund’ echoes scorned 19th-century spoils system, academics say</div><div class='tmeta'><span class='tn'>28 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-contradicted'>DISPUTED</span><span class='abar'><b style='width:46%'></b></span><span class='aconf'>46% confidence</span><span class='asec'>28 sources · 4 sections</span></div><div class='contra'>4 record(s) appear to deny this (state_news).</div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span><span class='prov' style='--c:#1E8A4C'>Paper Bets</span><span class='prov' style='--c:#6B5B4A'>State News</span></div></div></div><div class='thread' data-i='2'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='chip' style='background:#C0392B'>Conflict</span><span class='span'>3 domains</span></div><div class='ttext'>US bombs Iranian military sites and Kuwait is hit by drone and missile fire</div><div class='tmeta'><span class='tn'>9 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-multi_source'>CORROBORATED</span><span class='abar'><b style='width:79%'></b></span><span class='aconf'>79% confidence</span><span class='asec'>9 sources · 3 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span><span class='prov' style='--c:#C0392B'>Ukraine Theater</span></div></div></div><div class='thread' data-i='3'><div class='thead'><div class='tchips'><span class='chip' style='background:#1E8A4C'>Markets</span><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#C0392B'>Conflict</span><span class='span'>3 domains</span></div><div class='ttext'>US military carries out new strikes in Iran, this time against a military site that posed a threat to U.S. forces and commercial traffic in the Strait of Hormuz…</div><div class='tmeta'><span class='tn'>6 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-primary_confirmed'>CONFIRMED</span><span class='abar'><b style='width:83%'></b></span><span class='aconf'>83% confidence</span><span class='asec'>6 sources · 3 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#1E8A4C'>Forecasts</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#C0392B'>Ukraine Theater</span></div></div></div><div class='thread' data-i='4'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#C0392B'>Conflict</span><span class='chip' style='background:#0F8B7E'>Earth</span><span class='span'>3 domains</span></div><div class='ttext'>M4.6 — 111 km SSW of Intipucá, El Salvador — Magnitude 4.6, depth 35km, alert level: None</div><div class='tmeta'><span class='tn'>3 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-primary_confirmed'>CONFIRMED</span><span class='abar'><b style='width:77%'></b></span><span class='aconf'>77% confidence</span><span class='asec'>3 sources · 3 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#C0392B'>Ukraine Theater</span><span class='prov' style='--c:#0F8B7E'>Weather</span></div></div></div><div class='thread' data-i='5'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='span'>2 domains</span></div><div class='ttext'>Bus hits cars in Virginia, killing 5 people and injuring 34</div><div class='tmeta'><span class='tn'>3 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-multi_source'>CORROBORATED</span><span class='abar'><b style='width:65%'></b></span><span class='aconf'>65% confidence</span><span class='asec'>3 sources · 2 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span></div></div></div><div class='thread' data-i='6'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='span'>2 domains</span></div><div class='ttext'>Stephen Curry signs endorsement deal with Chinese sportswear brand Li-Ning</div><div class='tmeta'><span class='tn'>3 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-multi_source'>CORROBORATED</span><span class='abar'><b style='width:65%'></b></span><span class='aconf'>65% confidence</span><span class='asec'>3 sources · 2 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span></div></div></div><div class='thread' data-i='7'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#6B5B4A'>US</span><span class='span'>2 domains</span></div><div class='ttext'>Anthropic races toward a Wall Street debut with a confidential SEC filing</div><div class='tmeta'><span class='tn'>3 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-multi_source'>CORROBORATED</span><span class='abar'><b style='width:65%'></b></span><span class='aconf'>65% confidence</span><span class='asec'>3 sources · 2 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#6B5B4A'>Local News</span></div></div></div><div class='thread' data-i='8'><div class='thead'><div class='tchips'><span class='chip' style='background:#2C6FA6'>Geopolitics</span><span class='chip' style='background:#B5602B'>State</span><span class='span'>2 domains</span></div><div class='ttext'>Nvidia составит конкуренцию Intel и AMD на рынке центральных процессоров. Первые ноутбуки на Windows с чипом компании выйдут осенью</div><div class='tmeta'><span class='tn'>3 src</span><span class='caret'>+</span></div></div><div class='body'><div class='assess'><span class='alabel a-multi_source'>CORROBORATED</span><span class='abar'><b style='width:65%'></b></span><span class='aconf'>65% confidence</span><span class='asec'>3 sources · 2 sections</span></div><div class='provwrap'><span class='provk'>Evidence</span><span class='prov' style='--c:#2C6FA6'>Foreign News</span><span class='prov' style='--c:#B5602B'>Russian Internal</span></div></div></div>
+</section>
+
+<div class="filters"><button class='fchip on' data-dom='all'>All domains</button><button class='fchip' data-dom='geo' style='--c:#2C6FA6'><i style='background:#2C6FA6'></i>Geopolitics</button><button class='fchip' data-dom='mkt' style='--c:#1E8A4C'><i style='background:#1E8A4C'></i>Markets &amp; macro</button><button class='fchip' data-dom='usgov' style='--c:#6B5B4A'><i style='background:#6B5B4A'></i>US governance</button><button class='fchip' data-dom='state' style='--c:#B5602B'><i style='background:#B5602B'></i>State media</button></div>
+<div class="grid" data-ws-section="grid" data-ws-label="Domain grid"><section class='card' data-dom='geo' style='--c:#2C6FA6'><header><span class='cdot'></span>Geopolitics<span class='cn'>16</span></header><ul><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>US bombs Iranian military sites and Kuwait is hit by drone and missile fire</span><span class='src'>9</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>WHO calls for community cooperation to contain Ebola outbreak in DRC</span><span class='src'>4</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Philippines, Vietnam to bolster security, maritime safety collaboration</span><span class='src'>4</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Protests over US Ebola site in Kenya kill two, court keeps block</span><span class='src'>4</span></li><li><span class='dot' style='background:#2F6B3A'></span><span class='it'>M4.6 — 111 km SSW of Intipucá, El Salvador — Magnitude 4.6, depth 35km, alert level: None</span><span class='src'>3</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Bus hits cars in Virginia, killing 5 people and injuring 34</span><span class='src'>3</span></li><li class='more'>+10 more in Geopolitics</li></ul></section><section class='card' data-dom='mkt' style='--c:#1E8A4C'><header><span class='cdot'></span>Markets &amp; macro<span class='cn'>2</span></header><ul><li><span class='dot' style='background:#C0392B'></span><span class='it'>Residence permit for Russian propagandist Xenia Fedorova sparks embarrassment at highest levels of F…</span><span class='src'>23</span></li><li><span class='dot' style='background:#2F6B3A'></span><span class='it'>US military carries out new strikes in Iran, this time against a military site that posed a threat t…</span><span class='src'>6</span></li></ul></section><section class='card' data-dom='usgov' style='--c:#6B5B4A'><header><span class='cdot'></span>US governance<span class='cn'>31</span></header><ul><li><span class='dot' style='background:#C0392B'></span><span class='it'>Trump ‘slush fund’ echoes scorned 19th-century spoils system, academics say</span><span class='src'>28</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Mother calls for accountability, after son among 2 teens injured in assault outside Mid Rivers Mall…</span><span class='src'>3</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>2 killed in helicopter crash after late-night flight from North Georgia wedding venue, company says…</span><span class='src'>3</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>United Airlines flight to Spain turns back to Newark after possible security threat midair</span><span class='src'>3</span></li><li><span class='dot' style='background:#C0392B'></span><span class='it'>Man shot several times at Atlanta gas station Friday night</span><span class='src'>2</span></li><li><span class='dot' style='background:#C77800'></span><span class='it'>First Partner Siebel Newsom celebrates the annual Move Your Body, Calm Your Mind Day in Sacramento</span><span class='src'>2</span></li><li class='more'>+25 more in US governance</li></ul></section><section class='card' data-dom='state' style='--c:#B5602B'><header><span class='cdot'></span>State media<span class='cn'>3</span></header><ul><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>AI firm MiniMax prepares for mainland China listing after shares surge in Hong Kong</span><span class='src'>2</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Nvidia, Unitree and Sharpa unite to design humanoid robot that can perform ‘real work’</span><span class='src'>2</span></li><li><span class='dot' style='background:#2C6FA6'></span><span class='it'>Spain’s property market sees boost as Hongkongers, others, depart the UK and Canada</span><span class='src'>2</span></li></ul></section></div>
+
+<section class="chartwrap" data-ws-section="threadchart" data-ws-label="Thread chart">
+  <h2>Strongest threads <span class="h2sub">— ranked by domains spanned · color = sources</span></h2>
+  <div id="ws-plot" class="plot"></div>
+</section>
+
+<section class="chartwrap" data-ws-section="corrob" data-ws-label="Corroboration chart">
+  <h2>Today's reporting <span class="h2sub">— ranked by independent corroboration</span></h2>
+  <div id="ws-plot-claims" class="ws-plot"></div>
+</section>
+
+<section class='ws-sec' data-ws-section='indicators' data-ws-label='Indicators &amp;amp; maps'><h2 class='ws-h'>Indicators &amp; maps</h2><div class='ws-charts'><figure class='ws-chart'><img src='../../briefings/2026-06-01-gdelt_tone_heatmap.png' alt='Global media tone (geographic)' loading='lazy'><figcaption>Global media tone (geographic)</figcaption></figure><figure class='ws-chart'><img src='../../briefings/2026-06-01-yield_curve.png' alt='US Treasury yield curve' loading='lazy'><figcaption>US Treasury yield curve</figcaption></figure><figure class='ws-chart'><img src='../../briefings/2026-06-01-fx_oil.png' alt='FX &amp; oil' loading='lazy'><figcaption>FX &amp; oil</figcaption></figure><figure class='ws-chart'><img src='../../briefings/2026-06-01-conflict_fatalities.png' alt='Conflict fatalities' loading='lazy'><figcaption>Conflict fatalities</figcaption></figure><figure class='ws-chart'><img src='../../briefings/2026-06-01-anomaly_screen.png' alt='Cross-section anomaly screen' loading='lazy'><figcaption>Cross-section anomaly screen</figcaption></figure><figure class='ws-chart'><img src='../../briefings/2026-06-01-watchareas_volume.png' alt='Watch-area volume' loading='lazy'><figcaption>Watch-area volume</figcaption></figure></div><div class='ws-cap'>Generated from lake data · 2026-06-01</div></section>
+<section class='ws-sec' data-ws-section='theater' data-ws-label='Ukraine theater'><h2 class='ws-h'>Ukraine theater</h2><figure class='ws-chart' style='margin-bottom:14px'><img src='../../briefings/2026-05-27-ukraine_theater_overview.png' alt='Ukraine theater'><figcaption>Theater overview (latest available · 2026-05-27)</figcaption></figure><ul class='ws-list'><li><div class='t'>frontline snapshot, 524 polygons</div></li><li><div class='t'>thermal anomaly 48.522, 34.620 (FRP 0.84 MW, conf nominal)</div></li><li><div class='t'>thermal anomaly 48.519, 34.630 (FRP 1.61 MW, conf nominal)</div></li><li><div class='t'>thermal anomaly 48.520, 34.631 (FRP 1.32 MW, conf nominal)</div></li><li><div class='t'>thermal anomaly 47.867, 33.434 (FRP 1.77 MW, conf nominal)</div></li><li><div class='t'>thermal anomaly 46.841, 33.435 (FRP 5.92 MW, conf nominal)</div></li></ul><div class='ws-cap'>825 theater records today</div></section>
+<section class='ws-sec' data-ws-section='markets' data-ws-label='Markets'><h2 class='ws-h'>Markets</h2><div class='ws-mkt'><div class='row dn'><span>S&amp;P 500: 7580.1</span></div><div class='row dn'><span>Nasdaq 100: 30333.18</span></div><div class='row dn'><span>WTI Crude: 87.36</span></div><div class='row dn'><span>Natural Gas: 3.29</span></div><div class='row dn'><span>US 10y: 4.436</span></div><div class='row dn'><span>UK 10y: 4.816</span></div><div class='row dn'><span>BTC: $73,877.0000  (24h: +0.55%)</span></div><div class='row dn'><span>ETH: $2,024.0400  (24h: +0.52%)</span></div><div class='row dn'><span>USD/EUR: 0.857782</span></div><div class='row dn'><span>USD/GBP: 0.743623</span></div></div><div class='ws-cap'>Cross-asset levels · markets_global</div></section>
+<section class='ws-sec' data-ws-section='outlook' data-ws-label='Outlook — what we&#x27;re watching'><h2 class='ws-h'>Outlook — what we're watching</h2><ul class='ws-list'><li><div class='t'>United States stays cross-source-salient</div><div class='m'>68% · resolves 2026-06-16</div></li><li><div class='t'>State stays cross-source-salient</div><div class='m'>68% · resolves 2026-06-16</div></li><li><div class='t'>China stays cross-source-salient</div><div class='m'>68% · resolves 2026-06-16</div></li><li><div class='t'>Education stays cross-source-salient</div><div class='m'>68% · resolves 2026-06-16</div></li><li><div class='t'>Program stays cross-source-salient</div><div class='m'>68% · resolves 2026-06-16</div></li><li><div class='t'>Reporting stays cross-source-salient</div><div class='m'>63% · resolves 2026-06-16</div></li></ul><div class='ws-cap'>Falsifiable calls from cross-source signals · auto-graded</div></section>
+
+<div class="foot">Threads = claims whose evidence spans ≥2 domains · color = domain · dot = assessment ·
+all figures built from the lake · 2026-06-02 · foreign headlines translated by Haiku</div>
+
+<button id="ws-cog" title="Customize what's on screen">⚙</button>
+<div id="ws-customize"><div class="ws-cust-h">Show on board</div><div id="ws-cust-list"></div></div>
+
+<script id="ws-data" type="application/json">{"threads": [{"label": "Residence permit for Russian propagandist\u2026", "domains": 4, "sources": 23}, {"label": "Trump \u2018slush fund\u2019 echoes scorned 19th-cen\u2026", "domains": 3, "sources": 28}, {"label": "US bombs Iranian military sites and Kuwait\u2026", "domains": 3, "sources": 9}, {"label": "US military carries out new strikes in Ira\u2026", "domains": 3, "sources": 6}, {"label": "M4.6 \u2014 111 km SSW of Intipuc\u00e1, El Salvador\u2026", "domains": 3, "sources": 3}, {"label": "Bus hits cars in Virginia, killing 5 peopl\u2026", "domains": 2, "sources": 3}, {"label": "Stephen Curry signs endorsement deal with\u2026", "domains": 2, "sources": 3}, {"label": "Anthropic races toward a Wall Street debut\u2026", "domains": 2, "sources": 3}, {"label": "Nvidia \u0441\u043e\u0441\u0442\u0430\u0432\u0438\u0442 \u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0446\u0438\u044e Intel \u0438 AMD \u043d\u0430\u2026", "domains": 2, "sources": 3}, {"label": "3 climbers who fell near treacherous pass\u2026", "domains": 2, "sources": 3}], "claims": [{"label": "US bombs Iranian military sites and Kuwait i\u2026", "sources": 9, "status": "CORROBORATED", "conf": 79}, {"label": "US military carries out new strikes in Iran,\u2026", "sources": 6, "status": "CONFIRMED", "conf": 83}, {"label": "WHO calls for community cooperation to conta\u2026", "sources": 4, "status": "CORROBORATED", "conf": 61}, {"label": "Philippines, Vietnam to bolster security, ma\u2026", "sources": 4, "status": "CORROBORATED", "conf": 61}, {"label": "Protests over US Ebola site in Kenya kill tw\u2026", "sources": 4, "status": "CORROBORATED", "conf": 61}, {"label": "M4.6 \u2014 111 km SSW of Intipuc\u00e1, El Salvador \u2014\u2026", "sources": 3, "status": "CONFIRMED", "conf": 77}, {"label": "Bus hits cars in Virginia, killing 5 people\u2026", "sources": 3, "status": "CORROBORATED", "conf": 65}, {"label": "Stephen Curry signs endorsement deal with Ch\u2026", "sources": 3, "status": "CORROBORATED", "conf": 65}, {"label": "Anthropic races toward a Wall Street debut w\u2026", "sources": 3, "status": "CORROBORATED", "conf": 65}, {"label": "Nvidia \u0441\u043e\u0441\u0442\u0430\u0432\u0438\u0442 \u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0446\u0438\u044e Intel \u0438 AMD \u043d\u0430 \u0440\u2026", "sources": 3, "status": "CORROBORATED", "conf": 65}, {"label": "3 climbers who fell near treacherous pass on\u2026", "sources": 3, "status": "CORROBORATED", "conf": 62}, {"label": "Mother calls for accountability, after son a\u2026", "sources": 3, "status": "CORROBORATED", "conf": 59}]}</script>
+<script src="../../assets/vendor/d3.min.js"></script>
+<script src="../../assets/vendor/plot.umd.min.js"></script>
+<script>
+(function(){
+  // expand/collapse threads
+  document.querySelectorAll(".thread .thead").forEach(function(h){
+    h.addEventListener("click",function(){h.parentNode.classList.toggle("open");});
+  });
+  // domain filter: isolate a domain's card (and dim non-matching threads)
+  var chips=[].slice.call(document.querySelectorAll(".fchip"));
+  var cards=[].slice.call(document.querySelectorAll(".card[data-dom]"));
+  chips.forEach(function(ch){ch.addEventListener("click",function(){
+    chips.forEach(function(x){x.classList.remove("on");}); ch.classList.add("on");
+    var d=ch.getAttribute("data-dom");
+    cards.forEach(function(c){
+      c.style.display=(d==="all"||c.getAttribute("data-dom")===d)?"":"none";});
+  });});
+  // threads-by-domain chart
+  try{
+    var raw=document.getElementById("ws-data");
+    var th=(raw?JSON.parse(raw.textContent||"{}"):{}).threads||[];
+    var el=document.getElementById("ws-plot");
+    if(el&&th.length&&window.Plot){
+      el.appendChild(Plot.plot({
+        height:Math.max(200,th.length*28),marginLeft:250,marginRight:30,
+        style:{background:"transparent",fontSize:"11px",color:"#1C1A14"},
+        x:{label:"domains spanned →",grid:true,ticks:5},
+        y:{label:null},
+        color:{type:"linear",scheme:"YlOrRd",legend:true,label:"sources"},
+        marks:[
+          Plot.barX(th,{y:"label",x:"domains",fill:"sources",sort:{y:"x",reverse:true},
+            tip:true,rx:2,
+            title:function(d){return d.label+"\n"+d.domains+" domains · "+d.sources+" sources";}})
+        ]
+      }));
+    }
+  }catch(e){if(window.console)console.error(e);}
+})();
+</script>
+<script>
+(function(){
+  var KEY="ws-hidden-sections", hidden=[];
+  try{hidden=JSON.parse(localStorage.getItem(KEY)||"[]");}catch(e){}
+  var secs=[].slice.call(document.querySelectorAll("[data-ws-section]"));
+  function apply(){secs.forEach(function(s){
+    s.style.display=hidden.indexOf(s.getAttribute("data-ws-section"))>=0?"none":"";});}
+  apply();
+  var list=document.getElementById("ws-cust-list");
+  if(list){secs.forEach(function(s){
+    var id=s.getAttribute("data-ws-section"), label=s.getAttribute("data-ws-label")||id;
+    var row=document.createElement("label"),
+        cb=document.createElement("input"); cb.type="checkbox"; cb.checked=hidden.indexOf(id)<0;
+    cb.addEventListener("change",function(){
+      if(cb.checked){hidden=hidden.filter(function(x){return x!==id;});}
+      else if(hidden.indexOf(id)<0){hidden.push(id);}
+      try{localStorage.setItem(KEY,JSON.stringify(hidden));}catch(e){}
+      apply();
+    });
+    row.appendChild(cb); row.appendChild(document.createTextNode(" "+label)); list.appendChild(row);
+  });}
+  var cog=document.getElementById("ws-cog"), panel=document.getElementById("ws-customize");
+  if(cog&&panel){cog.addEventListener("click",function(){panel.classList.toggle("open");});}
+  try{
+    var raw=document.getElementById("ws-data");
+    var cl=(raw?JSON.parse(raw.textContent||"{}"):{}).claims||[];
+    var el=document.getElementById("ws-plot-claims");
+    if(el&&cl.length&&window.Plot){
+      var col={CONFIRMED:"#2F6B3A",CORROBORATED:"#2B4257",DISPUTED:"#990000",
+               "SINGLE-SOURCE":"#9A6B00",UNCONFIRMED:"#6F695C"};
+      el.appendChild(Plot.plot({
+        height:Math.max(190,cl.length*26), marginLeft:250, marginRight:28,
+        style:{background:"transparent",fontSize:"11px"},
+        x:{label:"independent sources",grid:true},
+        y:{label:null},
+        marks:[
+          Plot.barX(cl,{y:"label",x:"sources",
+            fill:function(d){return col[d.status]||"#888";},
+            sort:{y:"x",reverse:true}, tip:true,
+            title:function(d){return d.label+"\n"+d.status+" · "+d.conf+"% confidence · "+d.sources+" sources";}})
+        ]
+      }));
+    }
+  }catch(e){if(window.console)console.error(e);}
+})();
+</script>
+</body></html>
