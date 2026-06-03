@@ -2,236 +2,252 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-03
-record_count: 76
-new_today: 71
+record_count: 97
+new_today: 93
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-71 new of 76 total items today.
+93 new of 97 total items today.
 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 12:21PM CDT until June 3 at 12:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2ad6a5a69bb4cb876edf044c1808e2da1cbc371.001.1) — *2026-06-03*
-  > The heavy rain has ended. Please continue to heed remaining road
-closures.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 4:12PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4bbf9ba9fbd921e0ce7f9f2c73ff3d94fcd2309.001.1) — *2026-06-03*
+  > At 412 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Jewfish Creek Bridge, moving east at 10 mph.
 
-A Flood Watch remains in effect until 100 AM CDT /1200 AM MDT/
-Thursday for portions of southeast New Mexico and Texas.
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-28400) — *2026-06-03*
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 3 at 2:09PM MDT until June 3 at 3:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.639f711438780eb215937fab62ed2bdf41f4d43a.001.1) — *2026-06-03*
+  > SVREPZ
+
+The National Weather Service in El Paso has issued a
+
+* Severe Thunderstorm Warning for...
+North central Otero County in south central New Mexico...
+
+* Until 300 PM MDT.
+
+* At 208 PM MDT, a severe thunderstorm was located 9 miles northeast
+of Elk Silver, moving southeast 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:09PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47b1bccef9afa57c0c36176b2236dcbd3335a429.001.1) — *2026-06-03*
+  > At 309 PM CDT, Doppler radar was tracking a strong thunderstorm 9
+miles east of Beaver, moving northwest at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-55708) — *2026-06-03*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued June 3 at 11:17AM MDT until June 4 at 12:00AM MDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03e32ade76add9b8b0e580f1d254f0750bc80cb9.001.1) — *2026-06-03*
-  > * WHAT...Flash looding caused by excessive rainfall is possible.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:08PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3eb4552d4cdbabac50a4a51d2007618f6bdafb6.001.1) — *2026-06-03*
+  > At 308 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Giltner to near Inland to near Ayr.
+Movement was northeast at 25 mph.
 
-* WHERE...Portions of southeast New Mexico, including the following
-areas, Central Lea, Eddy County Plains, Guadalupe Mountains of Eddy
-County, Northern Lea and Southern Lea and Texas, including the
-following areas
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 11:33AM CDT until June 3 at 2:30PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.99681903e8fc8265c6dd68daabdc90514a41bd5d.001.1) — *2026-06-03*
-  > FFWMAF
+HAZARD...Wind gusts up to 50 mph and penny size hail.
 
-The National Weather Service in Midland/Odessa has issued a
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knoc
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued June 3 at 3:07PM CDT until June 3 at 3:45PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a8fd2cfc3892b7cbd5e9d28c936be1b2ca897d1.002.1) — *2026-06-03*
+  > At 306 PM CDT, a severe thunderstorm was located 6 miles south of
+Balko, or 13 miles northeast of Perryton, moving north at 25 mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Minor damage to roofs, siding, and trees is possible.
+
+Locations impacted include.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued June 3 at 4:07PM EDT until June 3 at 4:30PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0db2130d7ed49b93cdba61ea9658d1c963fbabfd.001.1) — *2026-06-03*
+  > SMWKEY
+
+The National Weather Service in Key West has issued a
+
+* Special Marine Warning for...
+Hawk Channel and Straits of Florida from Ocean Reef to Craig Key
+out 20 nm...
+Florida Bay including Barnes Sound, Blackwater Sound, and
+Buttonwood Sound...
+
+* Until 430 PM EDT.
+
+* At 40
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:05PM CDT by NWS Dodge City KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ca9d1dfc308277df84153b74a887e6b741b9648.001.1) — *2026-06-03*
+  > At 305 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Ryus to near Plains to 8 miles north of
+Forgan. Movement was north at 40 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tr
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 2:03PM MDT until June 3 at 3:15PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea37b13a970a1cc13c39ecbae36cd8954633137f.001.1) — *2026-06-03*
+  > At 203 PM MDT, Doppler radar indicated thunderstorms producing heavy
+rain over the South Fork Burn Scar. Between 0.5 and 1.25 inches of
+rain has fallen. Flash flooding is ongoing or expected to begin
+shortly.
+
+Excessive rainfall over the burn scar will impact Eagle Creek and
+Gavi
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 2:03PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1c35625b99cca4ab56bfff41bf0ccf0ce80a356.001.1) — *2026-06-03*
+  > At 203 PM MDT, Doppler radar was tracking an area of strong
+thunderstorms near Lake George, moving northeast at 8 mph.
+
+HAZARD...Wind gusts up to 40 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured obj
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 1:02PM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02bf95be95a5e48ea0e7ab77fead7328de57dc42.004.1) — *2026-06-03*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
+combined seas 11 to 16 ft expected when conditions are worst.
+
+* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and
+westward 60 nm including San Miguel and Santa Rosa Islands.
+
+* WHEN...For the Small Craft Advis
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 1:02PM PDT until June 3 at 9:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02bf95be95a5e48ea0e7ab77fead7328de57dc42.001.1) — *2026-06-03*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
+combined seas 8 to 13 ft expected when conditions are worst.
+
+* WHERE...Point Piedras Blancas to Point Sal westward out to 10
+NM.
+
+* WHEN...For the Gale Warning, until 9 PM PDT this evening. For
+the Small Craft Advis
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 1:02PM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02bf95be95a5e48ea0e7ab77fead7328de57dc42.003.1) — *2026-06-03*
+  > * WHAT...Northwest winds 25 to 30 kt with gusts up to 40 kt and
+combined seas 11 to 16 ft expected when conditions are worst.
+
+* WHERE...Point Piedras Blancas to Point Sal from 10 to 60 NM.
+
+* WHEN...For the Small Craft Advisory, until noon PDT today. For
+the Gale Warning, from n
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 1:02PM PDT until June 4 at 9:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02bf95be95a5e48ea0e7ab77fead7328de57dc42.002.2) — *2026-06-03*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
+combined seas 8 to 13 ft expected when conditions are worst.
+
+* WHERE...Outer waters from Santa Cruz Island to San Clemente
+Island to 60 NM offshore including San Nicolas and Santa
+Barbara Islands.
+
+* WHEN...For the 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:02PM CDT by NWS Dodge City KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14678873ccd6fb8c1e3d39f5130410db4edb99b9.001.1) — *2026-06-03*
+  > At 302 PM CDT, Doppler radar was tracking a strong thunderstorm 9
+miles north of Ulysses, moving north at 30 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objec
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:00PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e566182f8bca5fdfe18500eb90873713f1f99bdc.001.1) — *2026-06-03*
+  > At 300 PM CDT, Doppler radar was tracking a strong thunderstorm 11
+miles northwest of Chinati Mountains, or 12 miles south of
+Candelaria, moving northeast at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could kno
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued June 3 at 1:48PM MDT until June 3 at 4:45PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff7a8f6691f00887e62cc8a66166282bed05176f.001.1) — *2026-06-03*
+  > FFWABQ
+
+The National Weather Service in Albuquerque has issued a
 
 * Flash Flood Warning for...
-East Central Culberson County in southwestern Texas...
-North Central Jeff Davis County in southwestern Texas...
-Reeves County in southwestern Texas...
-West Central Ward County in wes
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 3 at 11:26AM CDT until June 7 at 7:00AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.918fbc5aa7a66dde78e9d6d7fe830266eebd2c45.001.2) — *2026-06-03*
-  > * WHAT...For the High Rip Current Risk, dangerous rip currents.
-For the High Surf Advisory, large breaking waves of 4 to 6
-feet expected in the surf zone.
+The Hermits Peak and Calf Canyon Burn Scar in...
+Northwestern San Miguel County in northeastern New Mexico...
 
-* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal
-Counties. In Florida, Escambia Coastal, Santa Rosa Coastal and
-Okal
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 3 at 10:10AM MDT until June 4 at 7:00PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91802fef15fe37908214d0f6828c32d33635f4c9.001.1) — *2026-06-03*
-  > The National Weather Service in Grand Junction has issued a Red
-Flag Warning for gusty winds, low relative humidity and dry
-fuels, which is in effect from 1 PM to 7 PM MDT Thursday.
+* Until 445 PM MDT.
 
-* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little
-Snake Forecast Area and Fire Weather 
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 9:09AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d66460d7802ad0d5d1284ae84c18e9e74c431646.001.1) — *2026-06-03*
-  > AQAPSR
+* At 148 PM MDT, Doppler radar indicated thunderstorm
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 2:47PM CDT by NWS Goodland KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.953017f3c9af9727af7fadf61c9a194fdfa5eb70.001.1) — *2026-06-03*
+  > At 247 PM CDT, Doppler radar was tracking a strong thunderstorm 6
+miles south of Edmond, or 11 miles north of Hill City, moving
+northeast at 20 mph.
 
-The Arizona Department of Environmental Quality (ADEQ) has issued an
-Ozone High Pollution Advisory for the Phoenix Metro Area today.
+HAZARD...Wind gusts of 50 to 55 mph and penny size hail.
 
-This means that forecast weather conditions combined with existing
-ozone levels are expected to result in local maximum 8-hour ozone
-conce
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 10:57AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c4f042e470c9083a531273f7eeca5184e8d18d3.001.1) — *2026-06-03*
-  > Dry conditions and breezy winds will lead to near critical fire
-weather conditions today. Southerly winds of 10 to 20 mph with
-gusts of 20 to 25 mph are forecast for today. Minimum relative
-humidity values of 20 to 30 percent are also expected. Together,
-these conditions could le
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.002.2) — *2026-06-03*
-  > * WHAT...For the Gale Warning, north winds 25 to 30 kt with
-gusts up to 40 kt and seas 8 to 13 feet expected. For the
-Small Craft Advisory, north winds 20 to 25 kt with gusts up to
-35 kt and seas 7 to 10 feet expected.
+SOURCE...Radar indicated.
 
-* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:40AM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5537edf98cdf38243dbd0dccb7cadd1733b5f8bd.001.3) — *2026-06-03*
-  > * WHAT...For the Gale Warning, northwest winds 20 to 30 kt with
-gusts up to 40 kt and seas 7 to 12 feet expected. For the
-Small Craft Advisory, northwest winds 20 to 30 kt with gusts
-up to 40 kt and seas 6 to 9 feet expected.
+IMPACT...Gusty winds could knock down tree li
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 3 at 3:44PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0426ca5c6de2ceb80bae5d918167e3ce1726bbb.001.1) — *2026-06-03*
+  > At 344 PM EDT, National Weather Service meteorologists were tracking
+a strong thunderstorm near Royal Palm Ranger, or 11 miles southwest
+of Homestead, moving east at 15 mph.
 
-* WHERE...Coastal waters from Cape Mendocino to Pt. A
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.001.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
-seas 9 to 14 ft expected.
+HAZARD...Wind gusts of 45 to 50 mph.
 
-* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+SOURCE...Radar indicated.
 
-* WHEN...Until 3 AM PDT Friday.
+IMPACT...Gusty winds could knock down tr
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 3:37PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cab9e1834f164d8392fa0cf820e8377ea4ed99a.002.1) — *2026-06-03*
+  > The Miami Valley Regional Planning Commission and the Regional Air
+Pollution Control Agency have issued an Air Quality Alert for Clark,
+Darke, Greene, Miami, Montgomery, Preble, and Shelby counties in the
+Miami Valley Region, from midnight tonight to midnight EDT Thursday
+night.
 
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels and red
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 4 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.004.2) — *2026-06-03*
-  > * WHAT...Northwest winds 15 to 25 kt with gusts up to 35 kt
-expected.
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 3:37PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cab9e1834f164d8392fa0cf820e8377ea4ed99a.001.1) — *2026-06-03*
+  > The Southwest Ohio Air Quality Agency has issued an Air Quality
+Advisory for Butler, Clermont, Hamilton and Warren counties in Ohio;
+Boone, Campbell and Kenton counties in Kentucky; and Dearborn County
+in Indiana, from midnight tonight to midnight EDT Thursday night.
 
-* WHERE...Coastal Waters from Point Reyes to Pigeon Point
-California out to 10 NM.
-
-* WHEN...Until 3 AM PDT Thursday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels a
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 4 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.005.2) — *2026-06-03*
-  > * WHAT...Northwest winds 15 to 25 kt with gusts up to 40 kt
-expected.
-
-* WHERE...Coastal Waters from Point Pinos to Point Piedras
-Blancas California out to 10 NM.
-
-* WHEN...Until 9 AM PDT Thursday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.003.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
-seas 7 to 12 ft expected.
-
-* WHERE...Coastal Waters from Point Arena to Point Reyes
-California out to 10 NM.
-
-* WHEN...Until 3 AM PDT Friday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 8:32AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8afcb030572790738d309bc7160cc5eb0dc5d552.002.2) — *2026-06-03*
-  > * WHAT...Northwest winds 25 to 35 kt with gusts up to 40 kt and
-seas 9 to 14 ft expected.
-
-* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
-
-* WHEN...Until 3 AM PDT Friday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels and re
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.002.1) — *2026-06-03*
-  > * WHAT...Dangerous rip currents.
-
-* WHERE...Ocracoke Island and Core Banks beaches.
-
-* WHEN...From Wednesday morning through Wednesday evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-
-* ADDITIONAL DETAILS...The most likely ti
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.003.1) — *2026-06-03*
-  > * WHAT...dangerous rip currents and large breaking waves expected
-in the surf zone.
-
-* WHERE...Northern Outer Banks beaches.
-
-* WHEN...From 8 AM EDT this morning through this evening.
-
-* IMPACTS...Dangerous swimming and surfing conditions. Rip
-currents can sweep even the best swi
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 11:23AM EDT until June 3 at 8:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89511a2acccbb46971f3a704b8a1dadfab850e45.001.2) — *2026-06-03*
-  > * WHAT...dangerous rip currents and large breaking waves
-expected in the surf zone.
-
-* WHERE...Hatteras Island beaches.
-
-* WHEN...Until 8 PM EDT this evening.
-
-* IMPACTS...Dangerous swimming and surfing conditions and
-localized beach erosion. Rip currents can sweep even the best
-
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 3 at 11:13AM EDT until June 5 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a104ee3a05648749c166d5b57d6b8b2e4150dda0.001.1) — *2026-06-03*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Coastal Broward County and Coastal Miami Dade County.
-
-* WHEN...From Thursday morning through Friday evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 3 at 11:13AM EDT until June 5 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a104ee3a05648749c166d5b57d6b8b2e4150dda0.002.1) — *2026-06-03*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Coastal Palm Beach County.
-
-* WHEN...Through Friday evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 9:39AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ac372ddcf91adaeae3edca2efaa12669d7da214a.001.1) — *2026-06-03*
-  > The Wisconsin Department of Natural Resources has issued an Air
-Quality Advisory for the following counties: Jefferson, Kenosha,
-Milwaukee, Ozaukee, Racine, Rock, Walworth, Washington, Waukesha.
-
-WHAT...The Ozone AQI is expected to reach the Unhealthy for
-Sensitive Groups level.
-
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 9:27AM CDT until June 4 at 7:00PM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cbb88f0738cd3961aa524a88832d6acea559e13.001.1) — *2026-06-03*
+Levels of o
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued June 3 at 2:34PM CDT until June 5 at 1:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.738bd0a351cdaac5ee3f3defc2864640f17c82c5.001.1) — *2026-06-03*
   > * WHAT...Dangerous swimming conditions are expected due to high
 waves and strong rip currents.
 
 * WHERE...Beaches along Lake Michigan in Door, Kewaunee and
 Manitowoc Counties.
 
-* WHEN...From Thursday morning through Thursday evening.
+* WHEN...From Thursday afternoon through late Thursday night.
 
-* IMPACTS...Dangerous swimming conditions are
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 3 at 8:26AM MDT until June 3 at 9:00PM MDT by NWS Boise ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5267568e90d754d3a4b87cefbfed66707fda0895.001.1) — *2026-06-03*
-  > ...DRY COLD FRONT WEDNESDAY AFTERNOON TO EVENING...
-...VERY LOW RH WITH GUSTY WINDS...
+* IMPACTS...Dangerous swimming condition
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued June 3 at 3:20PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c79346aca7eb3a9194ce38d8ceaa4320bc6e53.001.1) — *2026-06-03*
+  > The Southwest Ohio Air Quality Agency has issued an Air Quality
+Advisory for Butler, Clermont, Hamilton and Warren counties in Ohio;
+Boone, Campbell and Kenton counties in Kentucky; and Dearborn County
+in Indiana, from midnight tonight to midnight EDT Thursday night.
 
-.Gusty winds and near single-digit minimum relative humidity
-values are expected tomorrow afternoon and evening, with a dry
-frontal passage. Virga showers possible late this afternoon.
-
-* AFFE
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 3 at 9:19AM CDT until June 7 at 7:00PM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14eafa353fcee22b7fb757eb1c3dd7777124de10.001.1) — *2026-06-03*
+Levels of o
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 3 at 12:19PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca76b569853153e15d4e263fa8e0e644f6bf9409.001.1) — *2026-06-03*
   > ...The Flood Warning continues for the following rivers in
-Arkansas...
+Washington...
 
-Cache River Near Patterson affecting Jackson and Woodruff
-Counties.
+Stehekin River at Stehekin affecting Chelan County.
 
-For the Cache River...including Patterson...Minor flooding is
+For the Stehekin River...including Stehekin...Minor flooding is
 forecast.
 
-* WHAT...Minor flooding is occurring and minor flooding is forecas
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 3 at 10:18AM EDT until June 5 at 12:00AM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42927de63ee19c03585f538a223a3b89df46c2c4.001.1) — *2026-06-03*
-  > * WHAT...Minor flooding is occurring and minor flooding is forecast.
+* WHAT...Minor flooding is occurring and forecast to continue.
 
-* WHERE...Ohoopee River near Reidsville.
+* WHERE...Steh
+- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued June 3 at 12:38PM MDT until June 4 at 6:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8733befacff2644fb8759841f99554055987795.001.1) — *2026-06-03*
+  > * WHAT...West winds 20 to 25 mph with gusts up to 35 mph expected
+for American Falls Reservoir.
 
-* WHEN...Until Thursday night.
+* WHERE...Lower Snake River Plain.
 
-* IMPACTS...At 11.0 feet, water enters the back yards of some homes
-in the Joy Bluff community.
+* WHEN...From 9 AM to 6 PM MDT Thursday.
 
-* ADDITIONAL DETAILS...
-- At 1000 AM ED
+* IMPACTS...Strong winds and rough waves on area lakes will create
+hazardous conditions for small craft.
 
-_(51 additional items in raw.jsonl)_
+_(72 additional items in raw.jsonl)_

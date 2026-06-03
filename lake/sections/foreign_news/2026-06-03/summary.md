@@ -2,42 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-03
-record_count: 856
-new_today: 611
+record_count: 886
+new_today: 646
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-611 new of 856 total items today.
+646 new of 886 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-03*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-03*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-03*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[Global] ‘We don’t have another country to run to’: Kenyans fear US plan for Ebola quarantine site](https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site) — *2026-06-02*
-- [[Global] Mozambique says five citizens killed in ‘xenophobic attacks’ in South Africa](https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa) — *2026-06-02*
-- [[Global] People ‘panicking’ as Ghana passes sweeping law criminalising LGBTQ+ activity](https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity) — *2026-06-01*
-- [[Global] UK will not have to pay Rwanda £100m over failed asylum scheme, court rules](https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme) — *2026-06-01*
-- [[Global] Wildfires devastating richer areas but fewer hectares burned globally – study](https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study) — *2026-06-01*
-- **NEW**  [[Global] Kidnappings, threats and ‘protection fees’: how can Mexico confront rise in deadly extortion?](https://www.theguardian.com/world/2026/jun/03/how-can-mexico-confront-rise-in-deadly-extortion) — *2026-06-03*
-- **NEW**  [[Global] Trump administration proposes 25% tariffs on Brazil despite US trade surplus](https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs) — *2026-06-02*
-- **NEW**  [[Global] Cricket Canada suspended over allegations of gang-linked corruption](https://www.theguardian.com/world/2026/jun/02/cricket-canada-suspension) — *2026-06-02*
-- [[Global] Musket balls and a burnt hull: evidence of real pirates of the Caribbean found in Bahamas](https://www.theguardian.com/world/2026/jun/02/shipwrecks-evidence-real-pirates-of-the-caribbean-nassau-harbour-bahamas) — *2026-06-02*
-- [[Global] Mexico City police teargas teachers’ protest 10 days before World Cup](https://www.theguardian.com/world/2026/jun/01/mexico-city-teachers-protest) — *2026-06-01*
-- [[Global] Typhoon Jangmi threatens Japan as Europe swelters](https://www.theguardian.com/environment/2026/jun/01/typhoon-jangmi-japan-europe-temperatures-australia) — *2026-06-01*
-- **NEW**  [[Global] Diphtheria outbreak: residents of remote NT community say health clinic has no hand sanitiser](https://www.theguardian.com/australia-news/2026/jun/04/diphtheria-outbreak-nt-aboriginal-community-health-clinic-ntwnfb) — *2026-06-03*
-- **NEW**  [[Global] NSW motorists who use medicinal cannabis may soon be able to drive without fear of major penalty](https://www.theguardian.com/australia-news/2026/jun/04/nsw-drivers-medicinal-cannabis-proposed-new-laws) — *2026-06-03*
-- **NEW**  [[Global] Anti-abortion activists are trying to limit access in NSW – and they are just getting started](https://www.theguardian.com/australia-news/2026/jun/03/anti-abortion-activists-are-trying-to-limit-access-in-nsw-and-they-are-just-getting-started) — *2026-06-03*
-- **NEW**  [[Global] Trump threatens tariffs on 60 trading partners including UK and Canada over ‘forced labour’](https://www.theguardian.com/business/2026/jun/03/trump-threatens-tariffs-60-countries-forced-labour) — *2026-06-03*
-- **NEW**  [[Global] Nicotine use soars by 40% in eight years as Australian black market explodes](https://www.theguardian.com/australia-news/2026/jun/03/illegal-tobacco-news-australia-spending-less-to-consume-more-nicotine) — *2026-06-03*
-- **NEW**  [[Global] ​Why is Europe still not ready for extreme heat?](https://www.theguardian.com/world/2026/jun/03/why-is-europe-still-not-ready-for-extreme-heat) — *2026-06-03*
-- **NEW**  [[Global] Four migrant workers reportedly burned alive in their car in attack in Italy](https://www.theguardian.com/world/2026/jun/03/migrant-workers-burned-alive-in-car-in-italy) — *2026-06-03*
-- **NEW**  [[Global] Ukrainian drones hit St Petersburg as ‘Russian Davos’ opens in city](https://www.theguardian.com/world/2026/jun/03/ukraine-drones-st-petersburg-russia-economic-forum) — *2026-06-03*
-- [[Global] EU accused of creating ICE-style immigration enforcement system](https://www.theguardian.com/world/2026/jun/02/eu-accused-creating-ice-style-immigration-enforcement-system) — *2026-06-02*
-- [[Global] Nightclub promoter, 21, stabbed to death after brawl in Dublin’s tourism district](https://www.theguardian.com/world/2026/jun/02/qayyum-balogun-nightclub-promoter-stabbed-to-death-dublin) — *2026-06-02*
-- **NEW**  [[Global] One killed and 63 hurt in Iran attack on Kuwait airport as Trump says ceasefire talks ongoing](https://www.theguardian.com/world/2026/jun/03/us-fires-missile-tanker-strait-of-hormuz) — *2026-06-03*
+- **NEW**  [[Global] Israeli strikes near Tyre hospital put youngest patient at risk](https://www.aljazeera.com/video/newsfeed/2026/6/3/israeli-strikes-near-tyre-hospital-put-youngest-patient-at-risk?traffic_source=rss) — *2026-06-03*
+  > Jabal Aamel Hospital in Tyre was heavily damaged after an Israeli strike levelled nearby buildings, leaving key medical
+- **NEW**  [[Global] Dalai Lama receives Grammy award for spoken-word album](https://www.aljazeera.com/video/newsfeed/2026/6/3/dalai-lama-receives-grammy-award-for-spoken-word-album?traffic_source=rss) — *2026-06-03*
+  > Tibetan spiritual leader Tenzin Gyatso received his first Grammy award for his spoken-word album.
+- **NEW**  [[Global] Gunfire erupts in Mogadishu before protests against Somali president’s rule](https://www.aljazeera.com/news/2026/6/3/heavy-gunfire-erupts-in-mogadishu-amid-protests-against-presidents-rule?traffic_source=rss) — *2026-06-03*
+  > Ex-Somali PM Khaire accuses government forces of attacking him before planned antigovernment protests in Mogadishu.
+- **NEW**  [[Global] Iran faces a new energy imbalance, but its options are limited](https://www.aljazeera.com/economy/2026/6/3/iran-faces-a-new-energy-imbalance-but-its-options-are-limited?traffic_source=rss) — *2026-06-03*
+  > Iran’s government weighs limited energy control options in a strained economy, with the war impacting production.
+- **NEW**  [[Global] Israeli attacks kill nine in Lebanon, reach Beirut outskirts](https://www.aljazeera.com/news/2026/6/3/israeli-attacks-kill-nine-in-lebanon-reach-beirut-outskirts?traffic_source=rss) — *2026-06-03*
+  > The attacks test a US-mediated deal to curb Israel-Hezbollah attacks, and new Israel-Lebanon talks in Washington.
+- **NEW**  [[Global] Lula says Brazil cannot ‘accept treatment’ after new US tariffs proposed](https://www.aljazeera.com/news/2026/6/3/lula-says-brazil-cannot-accept-treatment-after-new-us-tariffs-proposed?traffic_source=rss) — *2026-06-03*
+  > Brazil&#039;s president says he was surprised by the proposed 25 percent tariffs, which came amid signs relations improving.
+- **NEW**  [[Global] US cites forced labour concerns as grounds for new tariffs](https://www.aljazeera.com/economy/2026/6/3/us-cites-forced-labour-concerns-as-grounds-for-new-tariffs?traffic_source=rss) — *2026-06-03*
+  > USTR&#039;s proposal comes from a Section 301 unfair trade practices investigation designed to help rebuild Trump&#039;s tariffs.
+- **NEW**  [[Global] Netanyahu downplays US-Israel rift after Trump confirms criticism](https://www.aljazeera.com/news/2026/6/3/netanyahu-downplays-us-israel-rift-after-trump-confirms-criticism?traffic_source=rss) — *2026-06-03*
+  > US president acknowledges he had harsh words for Netanyahu over Lebanon attacks but says he &#039;likes&#039; the Israeli leader.
+- **NEW**  [[Global] FIFA World Cup 2026: Can Asian champions Qatar reach the knockouts?](https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-qatar-squad-team-players-group-knockouts?traffic_source=rss) — *2026-06-03*
+  > Al Jazeera speaks to Qatar coach Julen Lopetegui ahead of the World Cup, with a shot at knockouts within their grasp.
+- **NEW**  [[Global] ‘Disgraceful’: Egypt jails activist Douma after article on its prisons](https://www.aljazeera.com/news/2026/6/3/egypt-sentences-activist-douma-to-prison-three-years-after-pardon?traffic_source=rss) — *2026-06-03*
+  > Rights group PEN America says Douma&#039;s &#039;case embodies part of an escalating crackdown on writers in Egypt&#039;.
+- **NEW**  [[Global] Bangladesh’s top diplomat elected UN General Assembly leader in tight race](https://www.aljazeera.com/news/2026/6/3/bangladeshs-rahman-elected-un-general-assembly-president-in-tight-race?traffic_source=rss) — *2026-06-03*
+  > Khalilur Rahman elected as the president of the UNGA&#039;s 81st session, garnering 99 votes in secret ballot.
+- **NEW**  [[Global] Israeli settlers are driving Palestinian shepherds from their grazing lands](https://www.aljazeera.com/features/2026/6/3/israeli-settlers-are-driving-palestinian-shepherds-from-their-grazing-lands?traffic_source=rss) — *2026-06-03*
+  > Settler attacks in the Jordan Valley have forced growing numbers of Palestinian communities to flee their villages.
+- **NEW**  [[Global] What is the St Petersburg forum, Putin’s economic outreach to the world?](https://www.aljazeera.com/news/2026/6/3/what-is-the-st-petersburg-forum-putins-economic-outreach-to-the-world?traffic_source=rss) — *2026-06-03*
+  > A Ukrainian drone strike targeted energy facilities near St Petersburg hours before the forum began.
+- **NEW**  [[Global] The Ebola outbreak the world isn’t paying attention to](https://www.aljazeera.com/video/the-take-2/2026/6/3/aje-onl-tt_glb_ebola26_video-030626?traffic_source=rss) — *2026-06-03*
+  > A deadly Ebola outbreak in the DRC is spreading across borders, with no approved vaccine or treatment for this strain.
+- **NEW**  [[Global] Which World Cup 2026 stadiums will host matches in US, Canada and Mexico?](https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-stadiums-matches-us-canada-mexico?traffic_source=rss) — *2026-06-03*
+  > A quick look at the 16 venues across 16 cities in three countries, which will host the biggest-ever FIFA World Cup.
+- **NEW**  [[Global] UK minister condemns violent protests against student’s murder](https://www.aljazeera.com/news/2026/6/3/uk-minister-condemns-violent-protests-against-students-murder?traffic_source=rss) — *2026-06-03*
+  > Henry Nowak&#039;s death has spurred right-wing claims ‘two-tier’ policing disadvantages white people
+- **NEW**  [[Global] Turkiye’s top diplomat, Indonesia’s president discuss $10bn trade goal](https://www.aljazeera.com/news/2026/6/3/defence-energy-halal-sectors-top-agenda-in-turkiye-indonesia-talks?traffic_source=rss) — *2026-06-03*
+  > The two discuss a range of sectors, including defence, energy, transportation and the halal food industry.
+- **NEW**  [[Global] FBI agents fatally shoot alleged hostage-taker in California](https://www.aljazeera.com/news/2026/6/3/fbi-agents-fatally-shoot-alleged-hostage-taker-in-california?traffic_source=rss) — *2026-06-03*
+  > The shooting ends a 12-hour standoff in the city of Bakersfield between suspect and law enforcement.
+- **NEW**  [[Global] Pro-Palestine US army veteran Adam Hamawy wins New Jersey primary](https://www.aljazeera.com/video/newsfeed/2026/6/3/pro-palestine-us-army-veteran-adam-hamawy-wins-new-jersey-primary?traffic_source=rss) — *2026-06-03*
+  > A former US Army combat surgeon who volunteered at Gaza hospital has a Democratic primary in New Jersey.
+- **NEW**  [[Global] Three British navy personnel killed in helicopter crash in England](https://www.aljazeera.com/news/2026/6/3/three-british-navy-personnel-killed-in-helicopter-crash-in-england?traffic_source=rss) — *2026-06-03*
+  > An investigation under way after the deadly accident during a training exercise near the town of Sourton in Devon.
+- **NEW**  [[Global] Sabalenka the latest French Open shock exit as Shnaider wins quarterfinal](https://www.aljazeera.com/sports/2026/6/3/sabalenka-the-latest-french-open-star-to-fall-as-shnaider-wins-quarterfinal?traffic_source=rss) — *2026-06-03*
+  > Tennis&#039;s top-ranked Aryna Sabalenka knocked out of French Open in quarterfinal Roland-Garros defeat to Diana Shnaider.
+- **NEW**  [[Global] ‘Doesn’t seem qualified’: Who is Bill Pulte, acting US intelligence chief?](https://www.aljazeera.com/news/2026/6/3/doesnt-seem-qualified-who-is-bill-pulte-acting-us-intelligence-chief?traffic_source=rss) — *2026-06-03*
+  > Republican and Democratic lawmakers have questioned the credentials of President Trump&#039;s latest appointee.
+- **NEW**  [[Global] Lamine Yamal and Nico Williams set to be fit for Spain’s World Cup opener](https://www.aljazeera.com/sports/2026/6/3/lamine-yamal-and-nico-williams-set-to-be-fit-for-spains-world-cup-opener?traffic_source=rss) — *2026-06-03*
+  > Barcelona&#039;s Lamine Yamal and Athletic&#039;s Nico Williams are expected to shake injuries in time to face Cape Verde.
+- **NEW**  [[Global] The Population Bust](https://www.aljazeera.com/video/featured-documentaries/2026/6/3/the-population-bust?traffic_source=rss) — *2026-06-03*
+  > A revealing global journey into declining birth rates, ageing societies, and their far-reaching impact.
+- **NEW**  [[Global] Israel detains Palestine international women’s football player](https://www.aljazeera.com/sports/2026/6/3/israel-detains-palestine-international-football-player?traffic_source=rss) — *2026-06-03*
+  > Rand Halawani&#039;s detention also saw four other women arrested on Tuesday, including a former Palestine player.
 
-_(831 additional items in raw.jsonl)_
+_(861 additional items in raw.jsonl)_
