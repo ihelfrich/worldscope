@@ -2,19 +2,17 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-06-04
-record_count: 20
+record_count: 19
 new_today: 9
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-9 new of 20 total items today.
+9 new of 19 total items today.
 
 - [M 5.7 - 154 km WSW of Pistol River, Oregon](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq93) — *2026-06-03*
   > M5.7 · 154 km WSW of Pistol River, Oregon · depth 10 km
-- [M 5.6 - Vanuatu region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq90) — *2026-06-03*
-  > M5.6 · Vanuatu region · depth 10 km
 - [M 5.2 - 202 km SSE of Vilyuchinsk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqcw) — *2026-06-03*
   > M5.2 · 202 km SSE of Vilyuchinsk, Russia · depth 10 km
 - [M 5.2 - 39 km NE of San Fernando, Peru](https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqcu) — *2026-06-03*

@@ -2,39 +2,46 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-04
-record_count: 789
-new_today: 445
+record_count: 861
+new_today: 534
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-445 new of 789 total items today.
+534 new of 861 total items today.
 
-- **NEW**  [[Global] Rebel attacks in eastern DRC kill 30 people and hamper Ebola response](https://www.theguardian.com/global-development/2026/jun/04/allied-democratic-forces-adf-rebel-attacks-massacre-eastern-drc-ebola-response) — *2026-06-04*
-- [[Global] DRC Ebola outbreak could have begun as early as January, WHO chief says](https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says) — *2026-06-03*
-- [[Global] ‘We don’t have another country to run to’: Kenyans fear US plan for Ebola quarantine site](https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site) — *2026-06-02*
-- [[Global] Mozambique says five citizens killed in ‘xenophobic attacks’ in South Africa](https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa) — *2026-06-02*
-- [[Global] Dead but deportable: US immigration judge signed order to eject teen murder victim](https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim) — *2026-06-03*
-- [[Global] Kidnappings, threats and ‘protection fees’: how can Mexico confront rise in deadly extortion?](https://www.theguardian.com/world/2026/jun/03/how-can-mexico-confront-rise-in-deadly-extortion) — *2026-06-03*
-- [[Global] One-ton cocaine bust reveals secret US-Mexico tunnel](https://www.theguardian.com/us-news/2026/jun/02/san-diego-drug-tunnel) — *2026-06-02*
-- [[Global] Trump administration proposes 25% tariffs on Brazil despite US trade surplus](https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs) — *2026-06-02*
-- [[Global] Cricket Canada suspended over allegations of gang-linked corruption](https://www.theguardian.com/world/2026/jun/02/cricket-canada-suspension) — *2026-06-02*
-- **NEW**  [[Global] Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens](https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag) — *2026-06-04*
-- **NEW**  [[Global] Australian woman linked to Islamic State lived with teenage slave who was repeatedly raped, court told](https://www.theguardian.com/australia-news/2026/jun/04/australian-woman-linked-to-islamic-state-is-teenage-slave-repeatedly-raped-court-melbourne-ntwnfb) — *2026-06-04*
-- **NEW**  [[Global] Labor’s NDIS overhaul faces delay as Coalition and Greens consider teaming up to slow bill’s passage](https://www.theguardian.com/australia-news/2026/jun/04/labors-ndis-overhaul-faces-delay-as-coalition-and-greens-consider-teaming-up-to-slow-bills-passage) — *2026-06-04*
-- **NEW**  [[Global] Husic says Labor pile-on after Aukus criticism ‘not healthy’ – as it happened](https://www.theguardian.com/australia-news/live/2026/jun/04/australia-politics-live-capital-gains-tax-property-prices-economy-budget-jim-chalmers-anthony-albanese-angus-taylor-pauline-hanson-senate-estimates-question-time-ntwnfb) — *2026-06-04*
-- **NEW**  [[Global] Dozens of vulnerable children were deemed not at risk by Victoria’s child protection system. They are now dead](https://www.theguardian.com/society/2026/jun/04/victoria-child-protection-system-vulnerable-children-deemed-not-at-risk-now-dead-ntwnfb) — *2026-06-04*
-- **NEW**  [[Global] Police can use force to move body parts during strip-searches, NSW argues in appeal court](https://www.theguardian.com/australia-news/2026/jun/04/nsw-police-strip-search-powers-court-appeal-using-force-to-move-body-parts) — *2026-06-04*
-- **NEW**  [[Global] UK to challenge EU over ‘devastating’ plans to almost halve tariff-free steel import quotas](https://www.theguardian.com/business/2026/jun/04/uk-challenge-eu--new-tariff-free-steel-import-quotas) — *2026-06-04*
-- **NEW**  [[Global] Protests in Albania grow over Jared Kushner-backed luxury resort](https://www.theguardian.com/world/2026/jun/04/protests-in-albania-grow-over-jared-kushner-backed-luxury-resort) — *2026-06-04*
-- [[Global] Wim Wenders withdraws 1975 film featuring 13-year-old Nastassja Kinski topless](https://www.theguardian.com/film/2026/jun/03/wim-wenders-withdraws-1975-film-featuring-13-year-old-nastassja-kinski-topless) — *2026-06-03*
-- [[Global] ‘Of course we will give it back’: Bayeux tapestry set for secret journey across Channel](https://www.theguardian.com/world/2026/jun/03/behind-historic-efforts-transport-bayeux-tapestry-france-uk) — *2026-06-03*
-- [[Global] ​Why is Europe still not ready for extreme heat?](https://www.theguardian.com/world/2026/jun/03/why-is-europe-still-not-ready-for-extreme-heat) — *2026-06-03*
-- **NEW**  [[Global] Middle East crisis live: Israel to continue ground operation in southern Lebanon despite agreed ceasefire](https://www.theguardian.com/world/live/2026/jun/04/middle-east-crisis-israel-lebanon-hezbolllah-us-ceasefire-southern-military-attacks-continue-latest-news-updates) — *2026-06-04*
-- **NEW**  [[Global] Israel and Lebanon agree new ceasefire as Trump scrambles to end Iran war](https://www.theguardian.com/world/2026/jun/04/israel-lebanon-renew-ceasefire-hezbollah-trump-iran-deal-middle-east-us) — *2026-06-04*
-- **NEW**  [[Global] Oman resists US pressure to break ties with Iran over strait of Hormuz](https://www.theguardian.com/world/2026/jun/04/oman-resists-us-pressure-to-break-ties-with-iran-over-strait-of-hormuz) — *2026-06-04*
-- **NEW**  [[Global] Netanayahu’s been ‘a great partner’, says Trump – as it happened](https://www.theguardian.com/world/live/2026/jun/03/us-israel-iran-war-lebanon-trump-khamenei-netanyahu-hormuz-latest-news-updates) — *2026-06-04*
-- **NEW**  [[Global] US House passes war powers resolution to curb Trump’s authority in Iran](https://www.theguardian.com/us-news/2026/jun/03/house-passes-war-power-resolution-trump-iran) — *2026-06-04*
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-04*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-04*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-04*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-06-04*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- **NEW**  [[India] CM Adityanath inaugurates eastern U.P.’s first flatted factory complex in GIDA](https://www.thehindu.com/news/national/uttar-pradesh/cm-adityanath-inaugurates-eastern-ups-first-flatted-factory-complex/article71060550.ece) — *2026-06-04*
+- **NEW**  [[India] Monsoon 2026 LIVE: Southwest monsoon arrives in Kerala, says IMD](https://www.thehindu.com/sci-tech/energy-and-environment/monsoon-tracker-live-kerala-southwest-rains-june-4-2026-updates/article71059458.ece) — *2026-06-04*
+  > The India Meteorological Department issues orange alert for six districts as heavy rains hit parts of Kerala
+- **NEW**  [[India] Heavy rainfall alert in six Telangana districts on June 5](https://www.thehindu.com/news/national/telangana/heavy-rainfall-alert-in-six-telangana-districts-on-june-5/article71060506.ece) — *2026-06-04*
+- **NEW**  [[India] Congress raises questions on 'substantial' LIC stake in firm under SEBI scanner](https://www.thehindu.com/news/national/congress-raises-questions-on-substantial-lic-stake-in-firm-under-sebi-scanner/article71060571.ece) — *2026-06-04*
+- **NEW**  [[India] TDP launches State-wide bicycle campaign for World Environment Day; Naidu to ride in Vizag](https://www.thehindu.com/news/national/andhra-pradesh/tdp-launches-state-wide-bicycle-campaign-for-world-environment-day-naidu-to-ride-in-vizag/article71060324.ece) — *2026-06-04*
+- **NEW**  [[India] TMC councillor of Kolkata Municipal Corporation arrested for ‘molesting’ woman](https://www.thehindu.com/news/cities/kolkata/tmc-councillor-of-kolkata-municipal-corporation-arrested-for-molesting-woman/article71060137.ece) — *2026-06-04*
+- **NEW**  [[India] Kerala govt’s White Paper on fiscal health seeks revamp of loss-making public sector enterprises](https://www.thehindu.com/news/national/kerala/kerala-govts-white-paper-on-fiscal-health-seeks-revamp-of-loss-making-public-sector-enterprises/article71060340.ece) — *2026-06-04*
+- **NEW**  [[India] Man dies after elephant attack in Gudalur](https://www.thehindu.com/news/cities/Coimbatore/man-dies-after-elephant-attack-in-gudalur/article71060436.ece) — *2026-06-04*
+  > Forest department officials said that he was stable until Wednesday (June 3) evening. However, his condition deteriorated and he died from his injuries at around 1.30 a.m on Thursday morning
+- **NEW**  [[India] Patna Kalam revival: How Bihar is bringing back the lost art that captured everyday India](https://www.thehindu.com/society/patna-kalam-revival-india-bihar-forgotten-art/article70711121.ece) — *2026-06-04*
+- **NEW**  [[India] Tamil Nadu receives surplus Cauvery water for yet another year](https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-receives-surplus-cauvery-water-for-yet-another-year/article71057602.ece) — *2026-06-04*
+- **NEW**  [[India] Sudanese national with fever detected at Hyderabad airport amid Ebola scare, shifted to Gandhi Hospital](https://www.thehindu.com/news/cities/Hyderabad/sudanese-national-with-fever-detected-at-hyderabad-airport-amid-ebola-scare-shifted-to-gandhi-hospital/article71060207.ece) — *2026-06-04*
+- **NEW**  [[India] Three mutilated bodies found on railway track in Jharkhand's Bokaro; probe under way](https://www.thehindu.com/news/national/jharkhand/three-mutilated-bodies-found-on-railway-track-in-jharkhands-bokaro-probe-under-way/article71060246.ece) — *2026-06-04*
+  > A police officer said a motorcycle and liquor bottles were also found at the spot
+- **NEW**  [[India] Ruined education system for past 12 years: Rahul Gandhi slams PM after NEET aspirant’s death](https://www.thehindu.com/education/ruined-education-system-for-past-12-years-rahul-slams-pm-after-neet-aspirants-suicide/article71059956.ece) — *2026-06-04*
+- **NEW**  [[India] Kerala Assembly: KSRTC to expand services to northern districts to address regional imbalances, says Transport Minister C.P. John](https://www.thehindu.com/news/national/kerala/kerala-assembly-ksrtc-to-expand-services-to-northern-districts-to-address-regional-imbalances-says-transport-minister-cp-john/article71060303.ece) — *2026-06-04*
+- **NEW**  [[India] India set for $2-billion drone order in biggest buy, industry body says: report](https://www.thehindu.com/news/national/india-set-for-2-billion-drone-order-in-biggest-buy-industry-body-says-report/article71060126.ece) — *2026-06-04*
+- **NEW**  [[India] Fire breaks out at Madipakkam dumpyard; smoke disrupts traffic](https://www.thehindu.com/news/cities/chennai/fire-breaks-out-at-madipakkam-dumpyard-smoke-disrupts-traffic/article71059790.ece) — *2026-06-04*
+- **NEW**  [[India] Eviction of Malayidamthuruth Dalit families: Kerala HC grants govt two more weeks to resolve impasse](https://www.thehindu.com/news/national/kerala/eviction-of-malayidamthuruth-dalit-families-kerala-hc-grants-govt-two-more-weeks-to-resolve-impasse/article71060393.ece) — *2026-06-04*
+- **NEW**  [[India] World Environment Day 2026 : Exploring the tree flora at Lok Bhavan Kerala](https://www.thehindu.com/life-and-style/tree-flora-lok-bhavan-kerala-world-environment-day/article71055465.ece) — *2026-06-04*
+- **NEW**  [[India] Over one lakh devotees witness Kancheepuram temple car festival](https://www.thehindu.com/news/national/tamil-nadu/over-one-lakh-devotees-gather-to-witness-kancheepuram-temple-car-festival/article71058411.ece) — *2026-06-04*
+- **NEW**  [[India] Modi government in panic mode on current economic situation: Congress](https://www.thehindu.com/news/national/modi-government-in-panic-mode-on-current-economic-situation-congress/article71060174.ece) — *2026-06-04*
+- **NEW**  [[India] Naidu calls June 4 an unforgettable day in Andhra Pradesh’s history](https://www.thehindu.com/news/national/andhra-pradesh/naidu-calls-june-4-an-unforgettable-day-in-andhra-pradeshs-history/article71060279.ece) — *2026-06-04*
 
-_(764 additional items in raw.jsonl)_
+_(836 additional items in raw.jsonl)_

@@ -2,21 +2,25 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-06-04
-record_count: 120
-new_today: 107
+record_count: 121
+new_today: 110
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-107 new of 120 total items today.
+110 new of 121 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-06-04*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-04*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-04*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- **NEW**  [[TITLE: В Україні дощитиме до кінця тижня | LEDE: В Україні 5-7 червня очікуються дощі, грози і тумани. Температура до +29°. Подробиці прогнозу] (uk: В Україні дощитиме до кінця тижня)](https://www.pravda.com.ua/news/2026/06/04/8037732/) — *2026-06-04*
+  > В Україні 5-7 червня очікуються дощі, грози і тумани. Температура до +29°. Подробиці прогнозу
+- **NEW**  [[TITLE: СБС уразили російський прикордонний корабель "Світляк" та комплекс "Панцир" у Криму | LEDE: У ніч на 4 червня підрозділи Сил безпілотних систем ЗСУ уразили російський прикордонний сторожовий ко] (uk: СБС уразили російський прикордонний корабель "Світляк" та комплекс "Панцир" у Кр)](https://www.pravda.com.ua/news/2026/06/04/8037731/) — *2026-06-04*
+  > У ніч на 4 червня підрозділи Сил безпілотних систем ЗСУ уразили російський прикордонний сторожовий корабель класу "Світляк" у тимчасово окупованому Криму.
+- **NEW**  [[TITLE: ГУР: Росія може випускати по Україні до 100 балістичних ракет на місяць | LEDE: За оцінками воєнної розвідки України, Росія здатна застосовувати до 100 балістичних ракет зберігаючи сталий рівен] (uk: ГУР: Росія може випускати по Україні до 100 балістичних ракет на місяць)](https://www.pravda.com.ua/news/2026/06/04/8037729/) — *2026-06-04*
+  > За оцінками воєнної розвідки України, Росія здатна застосовувати до 100 балістичних ракет зберігаючи сталий рівень їхніх запасів.
+- **NEW**  [[TITLE: Справу проти детектива НАБУ Гусарова, якого називали "кротом", закрили | LEDE: Шевченківський суд Києва звільнив співробітника Національного антикорупційного бюро Віктора Гусарова від криміналь] (uk: Справу проти детектива НАБУ Гусарова, якого називали "кротом", закрили)](https://www.pravda.com.ua/news/2026/06/04/8037722/) — *2026-06-04*
+  > Шевченківський суд Києва звільнив співробітника Національного антикорупційного бюро Віктора Гусарова від кримінальної відповідальності.
 - **NEW**  [[TITLE: Удар по корвету "Бойкий" у Кронштадті: супутник зафіксував, як росіяни гасять пожежу на кораблі | LEDE: На супутникових знімках, які опублікували "Схеми", видно, як російські пожежники намагают] (uk: Удар по корвету "Бойкий" у Кронштадті: супутник зафіксував, як росіяни гасять по)](https://www.pravda.com.ua/news/2026/06/04/8037721/) — *2026-06-04*
   > На супутникових знімках, які опублікували "Схеми", видно, як російські пожежники намагаються загасити пожежу на корветі "Бойкий" у порту Кронштадта після української атаки.
 - **NEW**  [[TITLE: У Польщі розбився вертоліт, пілот загинув | LEDE: 4 червня у Польщі знайшли уламки вертольота Robinson R44 Raven II, який вночі зник з радарів, його пілот загинув.] (uk: У Польщі розбився вертоліт, пілот загинув)](https://www.pravda.com.ua/news/2026/06/04/8037720/) — *2026-06-04*
@@ -47,17 +51,13 @@ state: fresh
   > Європейська комісія послабила фіскальні правила ЄС, щоб дозволити країнам-членам зменшити свою залежність від викопного палива на тлі енергетичного шоку, спричиненого війною в Ірані.
 - **NEW**  [[TITLE: Росіяни 43 рази штурмували Покровський напрямок – Генштаб | LEDE: Протягом 3 червня на фронті відбулося 279 бойових зіткнень. Найбільше атак російські війська провели на Покровському напрямку, ] (uk: Росіяни 43 рази штурмували Покровський напрямок – Генштаб)](https://www.pravda.com.ua/news/2026/06/04/8037699/) — *2026-06-04*
   > Протягом 3 червня на фронті відбулося 279 бойових зіткнень. Найбільше атак російські війська провели на Покровському напрямку, де українські захисники відбили 43 штурми, та на Гуляйпільському напрямку, де окупанти здійснили 37 атак.
-- **NEW**  [[TITLE: Росія випустила по Україні "Іскандер" і 293 БпЛА: 264 дронів змогли знешкодили | LEDE: Росія атакувала Україну ракетою "Іскандер-М" та 293 дронами, протиповітряна оборона знешкодила 264 безпіло] (uk: Росія випустила по Україні "Іскандер" і 293 БпЛА: 264 дронів змогли знешкодили)](https://www.pravda.com.ua/news/2026/06/04/8037697/) — *2026-06-04*
-  > Росія атакувала Україну ракетою "Іскандер-М" та 293 дронами, протиповітряна оборона знешкодила 264 безпілотники. Атака триває.
-- **NEW**  [[TITLE: Росіяни вдарили по Павлограду: 2 постраждалих та руйнування | LEDE: У Павлограді внаслідок російського удару постраждали дві людини, пошкоджено будинки, підприємство та лінію електропередач.] (uk: Росіяни вдарили по Павлограду: 2 постраждалих та руйнування)](https://www.pravda.com.ua/news/2026/06/04/8037695/) — *2026-06-04*
-  > У Павлограді внаслідок російського удару постраждали дві людини, пошкоджено будинки, підприємство та лінію електропередач.
-- **NEW**  [[TITLE: Через ворожу атаку на Київщині постраждав водій, триває гасіння пожежі | LEDE: У ніч на 3 червня через ворожу атаку на Київщині травмувався водій бензовоза.] (uk: Через ворожу атаку на Київщині постраждав водій, триває гасіння пожежі)](https://www.pravda.com.ua/news/2026/06/04/8037693/) — *2026-06-04*
-  > У ніч на 3 червня через ворожу атаку на Київщині травмувався водій бензовоза.
-- **NEW**  [[TITLE: У війні проти України Росія втратила ще 1300 вояк і 4 танки | LEDE: У Генштабі повідомили про втрати ворога за добу 3 травня.] (uk: У війні проти України Росія втратила ще 1300 вояк і 4 танки)](https://www.pravda.com.ua/news/2026/06/04/8037694/) — *2026-06-04*
-  > У Генштабі повідомили про втрати ворога за добу 3 травня.
-- **NEW**  [Israel, Lebanon Agree to Ceasefire in US-Brokered Talks](https://www.kyivpost.com/post/77497) — *2026-06-04*
-  > The US, Israel and Lebanon announced a ceasefire agreement on Thursday, after two days of high-level talks. The deal requires Hezbollah to stop all attacks and evacuate operatives from south of the Litani River, while Lebanon’s armed forces assume control of designated areas.
-- **NEW**  [Ukraine Could Begin Ballistic Missile Test Flights ‘Toward Moscow’ This Summer – Fire Point](https://www.kyivpost.com/post/77495) — *2026-06-04*
-  > Fire Point co-founder Denys Shtilerman says Ukraine could begin test flights of a domestically developed ballistic missile capable of reaching Moscow as early as this summer. The announcement comes days after the company reported a successful test of its FP-7.X missile, designed 
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-06-04*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-04*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-04*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-06-04*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
 
-_(95 additional items in raw.jsonl)_
+_(96 additional items in raw.jsonl)_

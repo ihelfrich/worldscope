@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-04
-record_count: 252
-new_today: 252
+record_count: 209
+new_today: 209
 state: fresh
 ---
 
 ## State Legislative Action
 
-252 new of 252 total items today.
+209 new of 209 total items today.
 
 - **NEW**  [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-04*
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Alaska SB 143] An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.]() — *2026-06-02*
   > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
 
-_(227 additional items in raw.jsonl)_
+_(184 additional items in raw.jsonl)_

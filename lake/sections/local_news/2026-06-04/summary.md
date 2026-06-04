@@ -3,14 +3,16 @@ section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-04
 record_count: 227
-new_today: 119
+new_today: 123
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-119 new of 227 total items today.
+123 new of 227 total items today.
 
+- **NEW**  [[St. Louis] Queer Writes returns to Missouri History Museum with tribute to Kathleen Finneran](https://www.stlmag.com/culture/queer-writes-returns-kathleen-finneran-tribute/) — *2026-06-04*
+  > <p>The Missouri Historical Society and That Uppity Theater Company will host its fourth annual Queer Writes event to kick off Pride Month on June 11. Featuring five local artists performing original work, the event will also include a tribute to local author and WashU professor K
 - **NEW**  [[St. Louis] Where in the Lou 6/4/2026](https://www.stlmag.com/games/where-in-the-lou-060426/) — *2026-06-04*
   > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
 - [[St. Louis] Review: Oni brings creative ramen, sushi, and izakaya to The Grove](https://www.stlmag.com/dining/review-oni-brings-creative-ramen-sushi-and-izakaya-to-the-grove/) — *2026-06-03*
@@ -29,37 +31,25 @@ state: fresh
   > <p>One of Broadway’s big stars is in St. Louis this summer, but she’s not at The Muny. Two-time Tony Award nominee Kate Baldwin is starring in The Light in the Piazza as it makes its debut at Opera Theatre of Saint Louis. It may not be your idea of opera, but she is terrific, and
 - [[St. Louis] Now is the time to build up the riverfront, civic and business leaders say](https://www.stlmag.com/business/st-louis-downtown-riverfront-revitilization/) — *2026-06-03*
   > <p>The portion of the Mississippi River that lines St. Louis’ downtown has long felt like an afterthought for the city, but civic and business leaders say the moment now is as good as any to spur riverfront revitalization. This growing focus is partially powered by the idea for $
-- [[St. Louis] Top things to do in St. Louis this weekend: June 5–7](https://www.stlmag.com/culture/top-events-in-st-louis-this-weekend/) — *2026-06-03*
-  > <p>Circus Flora &#124; Through June 21 Circus Flora celebrates its 40th anniversary season with Flying High, featuring the Flying Wallendas, the Olate Dogs, a Human Cannonball, and more. See website for details. The Big Top, 3401 Washington. International Horseradish Festival &#1
-- **NEW**  [[feed error] St. Louis Public Radio (St. Louis): HTTPError](https://www.stlpr.org/news.rss) — *2026-06-04*
-  > 403 Client Error: Forbidden for url: https://www.stlpr.org/news.rss
-- **NEW**  [[St. Louis] See the June 4, 1926, front page: No censure of Judge Mix; Grand Jury reports today](https://www.stltoday.com/news/archives/article_692b9bad-a560-4314-b614-a0149472a0bf.html) — *2026-06-04*
-  > Headlines from the June 4, 1926, front page include: Glider, carrying two, stays in air 9 hours.
-- **NEW**  [[St. Louis] Webster Groves has money problems, again. Officials say they can reverse trend](https://www.stltoday.com/news/article_139113e9-1843-44d0-a9eb-b48d0295177b.html) — *2026-06-04*
-  > Money, money, money, ain't it funny? It's never too early for a little ABBA, and it's pretty on theme with what we've got in today's newsletter for you. Whether it's money problems, donations or what a trip to the new-old…
-- **NEW**  [[St. Louis] SERRA'S 'TWAIN' TO BE RESTORED](https://www.stltoday.com/image_9a073376-df74-5510-8a9e-c09e4ae2dbf0.html) — *2026-06-04*
-  > JB Fence & Fabrication Inc. employees gate off Richard Serra's sculpture, "Twain," for renovation on Tuesday, June 2, 2026, in Serra Sculpture Park in downtown St. Louis.
-- **NEW**  [[St. Louis] '86 47' culture war has come to Kirkwood](https://www.stltoday.com/image_8e5c1538-4f21-5fae-ad2e-cd3ae02fb2d2.html) — *2026-06-04*
-  > JOE HOLLEMAN
-- **NEW**  [[St. Louis] '86 47' culture war has come to Kirkwood](https://www.stltoday.com/article_b2c3c085-b397-5ece-9c89-76d77554ef5f.html) — *2026-06-04*
-  > PILLORIED POST: The "86 47" culture war now has a local battlefield: the Kirkwood School District.
-- **NEW**  [[St. Louis] '60 Minutes' colleagues back Scott Pelley after firing](https://www.stltoday.com/article_504dca3b-af99-5508-ba69-b5bb86309983.html) — *2026-06-04*
-  > Scott Pelley's former "60 Minutes" colleagues are rallying around the veteran journalist after he became the latest cut in a spree of firings at the legendary TV news program.
-- **NEW**  [[St. Louis] FROM THE SPORTS SECTION](https://www.stltoday.com/article_6bb2121b-523d-5b1e-994f-5758e12cfb66.html) — *2026-06-04*
-  > From Lynn Worthy's column: I can't help but look at the Baltimore Orioles as a warped, funhouse mirror version of the modern rebuild the Cardinals have undertaken. Each time I see an Orioles score or think about their team, it…
-- **NEW**  [[St. Louis] St. Charles Co. candidates face off](https://www.stltoday.com/image_111a5ca3-f17e-5e8b-9d1c-025518c1229d.html) — *2026-06-04*
-  > Former state Sen. Bill Eigel, center, speaks as Steve Ehlmann, current St. Charles County executive, left, and Jason Law, former mayor of Lake Saint Louis, listen during a debate Tuesday, June 2, 2026, at Lindenwood University in St. Charles. The…
-- **NEW**  [[St. Louis] St. Charles Co. candidates face off](https://www.stltoday.com/article_667598e1-c669-54cc-a3a2-cb6bed8dd0a4.html) — *2026-06-04*
-  > ST. CHARLES COUNTY — Three Republican candidates vying to be St. Charles County's next county executive pitched their — often conflicting — visions for the county's future during a debate Tuesday night.
-- **NEW**  [[St. Louis] SERRA'S 'TWAIN' TO BE RESTORED](https://www.stltoday.com/image_577bf1a0-2e07-5a37-af09-061c5cdb5f8c.html) — *2026-06-04*
-  > "Twain" by Richard Serra is pictured Wednesday, March 27, 2024, in Serra Sculpture Park at Market and North 11th streets in downtown St. Louis.
-- [[St. Louis] ‘He’s the reason she’s here’: Off-duty firefighter saves daughter’s life in serious car crash - First Alert 4](https://www.firstalert4.com) — *2026-06-02*
-  > <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUFvVXlfdTEwblRtOTM3ci1sdW85T2EyNnF4NGMycXVnd2hCMTh1SlFJNjJrZHFiZkhCbkFtSGpKRk5JTkhLMEdkUGhGQ0k4blB1dnpkUTVHRzVtaFZ1ZnJvdVR6Q252aE9UYjVNOExuc1ltTHBBOThlS1QtTXV1WFc2UmFvRDNsYmtrNFA2bUZqdW9wTWZsVl83by1Ea3JKX1ZKM0pCd0N2VF
-- **NEW**  [[St. Louis] 2 teens released to parents after being detained for trying to break into cars in Tower Grove South - First Alert 4](https://www.firstalert4.com) — *2026-06-03*
-  > <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPX25oMHFyZVU3WXlnaGk0T0lWS1J5VVppVlQzV19uZDRiQVhFUkp0bl9NbHV2RGxvT21ydXRUaUcxT0wxeWNIM0xMVlkxd2djOUpzWDNSSlF0R2NVRUNDYzFPeXNZV0djTlMya2o0d1Z3b2FBWG8tWnZNelQxb2pOT1U5VzYxdmxkZTFBZU45NUJVb2FjaG0tU1JOamw2bzFibnNJN3I5ajJfNm
-- [[St. Louis] Sen. Schmitt accuses local school board president of calling for the assassination of President Trump - First Alert 4](https://www.firstalert4.com) — *2026-06-02*
-  > <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNSjNKR0EzZWlaYUtYRzkxTzNJX0p2X185QzVxTnY4SHMyUkV0dnJQMHZaUkFGZ0NQc2tkZTRXYU1WTnpfaHZSY0lteVI1ak5wT0xveWVVaXZ1MS11enFoYmwyc2xESjJMZzhtMklSVXBzUWRZTTc3RDR0ZUdWREF5cG5ST01ZY2VTZFJUQjNXbmN5R2dnMlpfMnREWGx2Ql92bnFuMnF6MFdSVk
-- [[St. Louis] Shrewsbury officer hit by driver after armed robbery at post office - First Alert 4](https://www.firstalert4.com) — *2026-06-02*
-  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWlSZFBuVmp2MWFFU0V5VkNEUFdPNjlJY2dGU3V1cHBIQkFZRWhEYk1PbG0zcVpjY3c2VmNLSkhaLURJMWRLc1IxNkFkMllJcVMwQWFNMVZzYTk5ZU9ybVZqTktKMmtkZXhINWp1NWk2cWNPT0NFYkFYbm10cThULUJSNnE2VFYwX040VlhxYy1BLVNEbUE3dE9TZzRmS29BMDZabWxhQQ?oc=
+- **NEW**  [[St. Louis] World Cup warmup game sparks excitement for St. Louis Bosnians](https://www.stlpr.org/show/st-louis-on-the-air/2026-06-04/st-louis-world-cup-bosnia-game) — *2026-06-04*
+- **NEW**  [[St. Louis] Svjetsko prvenstvo: Prijateljska utakmica budi uzbuđenje među Bosancima u St. Louisu](https://www.stlpr.org/show/st-louis-on-the-air/2026-06-04/svjetsko-prvenstvo-prijateljska-utakmica-budi-uzbudjenje-medu-bosancima-u-st-louisu) — *2026-06-04*
+- **NEW**  [[St. Louis] Most education bills failed in the Missouri legislature this year — here's why](https://www.stlpr.org/government-politics-issues/2026-06-04/missouri-legislature-education-bills) — *2026-06-04*
+- **NEW**  [[St. Louis] Overdose ‘deaths of despair’ decrease significantly in Missouri and Illinois](https://www.stlpr.org/health-science-environment/2026-06-04/despair-deaths-suicide-missouri-illinois) — *2026-06-04*
+- **NEW**  [[St. Louis] Cahokia school district and teachers union reach tentative agreement](https://www.stlpr.org/education/2026-06-03/cahokia-school-teachers-union-reach-tentative-agreement) — *2026-06-03*
+- [[St. Louis] St. Louis police board OKs raises for civilian staff, delays vote on commanders](https://www.stlpr.org/government-politics-issues/2026-06-03/st-louis-police-board-tables-commander-raises) — *2026-06-03*
+- [[St. Louis] $10M in state funds would demolish more than 120 FEMA-ineligible homes from St. Louis tornado](https://www.stlpr.org/government-politics-issues/2026-06-03/10m-in-state-funds-would-demolish-more-than-120-fema-ineligible-homes-from-st-louis-tornado) — *2026-06-03*
+- [[St. Louis] Looking for Pride events? Here are more than 20 across the St. Louis region](https://www.stlpr.org/race-identity-and-faith/2026-06-03/here-are-more-than-20-pride-events-across-the-st-louis-region) — *2026-06-03*
+- [[St. Louis] ‘Welcome to hell': Kids allege physical, sexual abuse at Missouri treatment center](https://www.stlpr.org/law-order/2026-06-03/calo-students-abused-missouri-lake-ozarks-trauma-troubled-teens-lawsuits) — *2026-06-03*
+- [[St. Louis] What are Metro East lawmakers saying about the end of the 2026 Illinois legislative session?](https://www.stlpr.org/government-politics-issues/2026-06-02/metro-east-lawmakers-end-2026-illinois-legislative-session) — *2026-06-02*
+- **NEW**  [[St. Louis] 1 dead, 3 hurt in shooting after California high school graduation ceremony](https://www.ksdk.com/article/news/nation-world/fairfield-high-school-graduation-shooting/507-ab0dbadd-6cbd-4347-8210-3713ccb6dcc2) — *2026-06-04*
+  > Fairfield Police are investigating the shooting after the Sem Yeto High School graduation ceremony in the Bay Area.
+- **NEW**  [[St. Louis] South Grand business owner frustrated after vandal strikes The Gin Room](https://www.ksdk.com/article/news/crime/south-grand-business-owner-frustrated-after-vandal-strikes-the-gin-room-steves-hot-dogs/63-a8ad3d85-0e03-4b9d-b7f2-f87ead4fa6ea) — *2026-06-04*
+  > The owner of The Gin Room found her business vandalized Wednesday, days after similar incidents at Steve's Hot Dogs, renewing calls for more police patrols.
+- **NEW**  [[St. Louis] Obama museum showcases political and personal sides of former president](https://www.ksdk.com/article/news/nation-world/obama-museum-chicago-what-is-inside/507-63f18443-6ce3-41e7-baea-c97a95fcc15e) — *2026-06-04*
+  > The Obama Presidential Center opens to the general public on Juneteenth. Here are the top attractions for visitors.
+- **NEW**  [[St. Louis] Trump says he's nominating Todd Blanche to serve as attorney general](https://www.ksdk.com/article/news/nation-world/trump-nominates-todd-blanche-attorney-general/507-40dd8c8b-6ecc-49dd-ae6d-1eb95cad12ab) — *2026-06-04*
+  > Trump said at a dinner at the White House that he plans to nominate Blanche formally on Thursday, according to a video of the event posted on social media.
+- **NEW**  [[St. Louis] Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-united-states-war-israel-drone-strikes-gulf-conflict/507-be6adab6-6364-4284-86f5-d95f06c90d46) — *2026-06-04*
+  > Talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel’s broadening war in Lebanon are further straining the efforts.
 
 _(202 additional items in raw.jsonl)_

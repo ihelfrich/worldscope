@@ -2,17 +2,84 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-04
-record_count: 84
-new_today: 67
+record_count: 81
+new_today: 65
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-67 new of 84 total items today.
+65 new of 81 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-6128) — *2026-06-04*
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued June 4 at 5:35AM CDT until June 4 at 10:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e2da24d27731eb4cf0358ef95555a753ec60292.001.1) — *2026-06-04*
+  > * WHAT...Flash flooding caused by excessive rainfall is possible.
+
+* WHERE...Portions of north central Kansas, including the following
+counties, Jewell, Mitchell, Osborne and Smith and south central
+Nebraska, including the following counties, Nuckolls and Thayer.
+
+* WHEN...From 1
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-9570) — *2026-06-04*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 4 at 4:45AM CDT until June 5 at 6:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a88976b9ba8d07e59ed18aa92af620b4a4975f2c.001.1) — *2026-06-04*
+  > ...Forecast flooding changed to Minor severity and increased in
+duration for the following rivers in Kansas...
+
+South Fork Solomon Near Osborne affecting Osborne County.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...South Fork Solomon near Osborne.
+
+* WHEN...Until Friday eveni
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 4 at 2:37AM PDT until June 5 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9710c19661c720e40433bd046747fe22bd396cdb.010.1) — *2026-06-04*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
+seas 7 to 12 ft.
+
+* WHERE...Coastal Waters from Point Arena to Point Reyes
+California out to 10 NM.
+
+* WHEN...Until 9 AM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage v
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 4 at 2:37AM PDT until June 5 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9710c19661c720e40433bd046747fe22bd396cdb.006.2) — *2026-06-04*
+  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 25 kt
+with gusts up to 30 kt and seas 8 to 12 ft. For the Gale
+Warning, northwest winds 20 to 30 kt with gusts up to 45 kt and
+seas 10 to 14 ft expected.
+
+* WHERE...Waters from Pigeon Point to Point Pinos 10-60 NM.
+
+* W
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 4 at 2:37AM PDT until June 5 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9710c19661c720e40433bd046747fe22bd396cdb.007.2) — *2026-06-04*
+  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 25 kt
+with gusts up to 30 kt and seas 7 to 11 ft. For the Gale
+Warning, northwest winds 20 to 30 kt with gusts up to 40 kt and
+seas 11 to 13 ft expected.
+
+* WHERE...Waters from Point Pinos to Point Piedras Blancas 10-
+6
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 4 at 2:37AM PDT until June 5 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9710c19661c720e40433bd046747fe22bd396cdb.009.1) — *2026-06-04*
+  > * WHAT...Northwest winds 25 to 35 kt with gusts up to 45 kt and
+seas 10 to 14 ft.
+
+* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
+
+* WHEN...Until 9 AM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce vis
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 4 at 2:37AM PDT until June 5 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9710c19661c720e40433bd046747fe22bd396cdb.008.1) — *2026-06-04*
+  > * WHAT...Northwest winds 25 to 30 kt with gusts up to 40 kt and
+seas 10 to 14 ft.
+
+* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+
+* WHEN...Until 9 AM PDT Friday.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and reduce visi
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 4 at 4:25AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3df48b0f107b5998de3a7e4f6c740084b572100c.001.1) — *2026-06-04*
   > Warm conditions, southwest winds gusting as high as 25 mph, and
 relative humidity falling as low as 25 percent will result in an
@@ -163,69 +230,5 @@ following counties, Codington, Deuel and Hamlin.
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
 and 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 4 at 12:55AM CDT until June 6 at 2:25PM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fefbcedea0617a7a62b7fa561d6e130457d2ebd2.001.1) — *2026-06-04*
-  > ...The National Weather Service in Topeka KS has issued a Flood
-Warning for the following rivers in Kansas...
 
-Salt Creek near Ada affecting Ottawa County.
-
-* WHAT...Moderate flooding is forecast.
-
-* WHERE...Salt Creek near Ada.
-
-* WHEN...From early this morning to early Saturday
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued June 4 at 12:38AM CDT until June 4 at 9:00AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.727feecce3932d0f8a75138efb130df877c4b7dc.001.1) — *2026-06-04*
-  > ...The National Weather Service in Hastings has issued a Flood
-Warning for the following rivers in Kansas...
-
-South Fork Solomon Near Osborne affecting Osborne County.
-
-* WHAT...Heavy rainfall Wednesday evening will lead to flooding along
-the South Fork of the Solomon River near 
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 4 at 1:04AM EDT until June 5 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca0795d97823b774651bb93d5d70dd0482632f71.001.1) — *2026-06-04*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Coastal Palm Beach County.
-
-* WHEN...Through Friday evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued June 4 at 1:04AM EDT until June 5 at 8:00PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca0795d97823b774651bb93d5d70dd0482632f71.002.1) — *2026-06-04*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Coastal Broward County and Coastal Miami Dade County.
-
-* WHEN...From Thursday morning through Friday evening.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 3 at 10:12PM MDT until June 4 at 7:00PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.815bb1893db861dbc1dd14b74fc57821162b84a6.001.1) — *2026-06-03*
-  > * AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little
-Snake Forecast Area and Fire Weather Zone 202 White River
-Forecast Area. In Utah, Fire Weather Zone 486 Eastern Uinta
-Basin and Fire Weather Zone 487 Book Cliffs.
-
-* TIMING...From 1 PM to 7 PM MDT Thursday.
-
-* WINDS...We
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 9:01PM PDT until June 5 at 6:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4546980845578ae9cabd6eb88162b4fd561909a5.002.2) — *2026-06-03*
-  > * WHAT...For the Gale Warning, northwest winds 20 to 30 kt with
-gusts up to 40 kt and seas 7 to 12 feet expected. For the
-Small Craft Advisory, northwest winds 20 to 30 kt with gusts
-up to 35 kt and seas 7 to 10 feet.
-
-* WHERE...Coastal waters from Cape Mendocino to Pt. Arena CA 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 3 at 9:01PM PDT until June 5 at 3:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4546980845578ae9cabd6eb88162b4fd561909a5.001.2) — *2026-06-03*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 40 kt and
-seas 8 to 12 feet.
-
-* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
-60 nm.
-
-* WHEN...Until 3 PM PDT Friday.
-
-* IMPACTS...Strong winds will cause hazardous seas which could
-capsize or damage vessels an
-
-_(59 additional items in raw.jsonl)_
+_(56 additional items in raw.jsonl)_
