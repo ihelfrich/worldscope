@@ -3,16 +3,14 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-06-05
 record_count: 320
-new_today: 130
+new_today: 138
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-130 new of 320 total items today.
+138 new of 320 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-06-05*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[FIRMS] thermal anomaly 48.977, 24.713 (FRP 0.93 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@24.713,48.977,9z) — *2026-06-04*
   > VIIRS S-NPP NRT, sat N, acquired 2026-06-04 0105Z, FRP 0.93 MW
 - [[FIRMS] thermal anomaly 48.976, 24.712 (FRP 1.5 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@24.712,48.976,9z) — *2026-06-04*
@@ -60,6 +58,8 @@ state: fresh
 - **NEW**  [[FIRMS] thermal anomaly 52.179, 34.034 (FRP 1.83 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.034,52.179,9z) — *2026-06-04*
   > VIIRS S-NPP NRT, sat N, acquired 2026-06-04 2301Z, FRP 1.83 MW
 - **NEW**  [[FIRMS] thermal anomaly 52.179, 34.040 (FRP 1.83 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.040,52.179,9z) — *2026-06-04*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-06-04 2301Z, FRP 1.83 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.173, 34.034 (FRP 1.83 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.034,52.173,9z) — *2026-06-04*
   > VIIRS S-NPP NRT, sat N, acquired 2026-06-04 2301Z, FRP 1.83 MW
 
 _(295 additional items in raw.jsonl)_

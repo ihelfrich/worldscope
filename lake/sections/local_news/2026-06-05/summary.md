@@ -2,17 +2,41 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-05
-record_count: 239
-new_today: 205
+record_count: 225
+new_today: 196
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-205 new of 239 total items today.
+196 new of 225 total items today.
 
 - [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-06-05*
   > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] What’s True in the Lou? – 6/5/2026](https://www.stlmag.com/games/whats-true-in-the-lou-060526/) — *2026-06-05*
+  > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
+- **NEW**  [[St. Louis] Excellence in Nursing Awards 2026](https://www.stlmag.com/health/excellence-in-nursing-awards-winners-2026/) — *2026-06-05*
+  > <p>For the 17th year in a row, St. Louis Magazine is honoring the remarkable efforts of nurses across the region by hosting the annual Excellence in Nursing Awards, presented by BJC HealthCare and Barnes-Jewish College Goldfarb School of Nursing. Winners were chosen by a prestigi
+- **NEW**  [[St. Louis] Farotto’s Pasta & Pizzeria celebrates its 70th anniversary](https://www.stlmag.com/dining/farottos-pasta-pizzeria-celebrates-its-70th-anniversary/) — *2026-06-04*
+  > <p>One of St. Louis’ longest-running pizzerias recently celebrated its 70th anniversary. Farotto’s Pasta &#38; Pizzeria (9525 Manchester) marked the occasion with a private party for its loyal patrons. The family-owned and -operated eatery is best known for its time-tested staple
+- **NEW**  [[St. Louis] Ask Veronica: Traveling this summer? 7 St. Louis-style gifts your host will love](https://www.stlmag.com/design/ask-veronica-traveling-this-summer-7-st-louis-style-gifts-your-host-will-love/) — *2026-06-04*
+  > <p>A few weeks ago, I received a late-night text from a neighbor. She’s traveling to Italy later this month to visit family she hasn’t seen in 20 years, and was struggling to figure out what gift to take them. “I can&#8217;t think of anything that is nicer or tastes better than a
+- **NEW**  [[St. Louis] All Punks Meet In St. Louis Under the Arch convenes this weekend](https://www.stlmag.com/culture/music/all-punks-meet-in-st-louis-under-the-arch-convenes-this-weekend/) — *2026-06-04*
+  > <p>On June 6, punk music devotees from the river city and all around the country will gather under the St. Louis Arch for one big group portrait. The snapshot serves as a focal point for an all-ages DIY festival dubbed All Punks Meet In St. Louis Under the Arch that will take pla
+- **NEW**  [[St. Louis] YoungLiars gets wild with Emily Dickinson](https://www.stlmag.com/culture/youngliars-gets-wild-with-emily-dickinson/) — *2026-06-04*
+  > <p>The poet Emily Dickinson was known for asking the big questions: pondering the nature of God, death, beauty, and the infinite. It turns out that Dr. Pepper–guzzling millennial teenagers in pajamas have a lot of the same lines of inquiry going. Playing this weekend and next at 
+- **NEW**  [[St. Louis] How Rosati Kain helped launch a teen from a troubled home to a different life](https://www.stlmag.com/news/solutions/catholic-high-schools-upward-mobility-rosati/) — *2026-06-04*
+  > <p>Michele Bildner did not know, as a senior at Rosati Kain High School in 1998, the meaning of the term “economic connectedness”—that is, the social mixing of people from either side of an area’s median household income. Nor could she have known that such mixing appears to benef
+- **NEW**  [[St. Louis] Looking for a ’90s summer? Check out this new experience at The Magic House](https://www.stlmag.com/family/a-90s-summer-the-magic-house/) — *2026-06-04*
+  > <p>Long before kids had tablets, summer entertainment meant friendship bracelets, sprinkler runs, and figuring out how to make the perfect lizard bead keychain before the streetlights came on. Thanks to the social media fixation on bringing back that era for kids, The Magic House
+- **NEW**  [[St. Louis] WashU’s new dorm takes its name from a librarian it laid off (and then rehired)](https://www.stlmag.com/news/washu-clara-mcleod-james-mcleod/) — *2026-06-04*
+  > <p>Last June, Clara McLeod was let go from Washington University after working as a librarian for its earth, environmental and planetary sciences department for more than 37 years. Now the university is naming its newest dormitory building, a 600-bed residential hall that’s break
+- [[St. Louis] Queer Writes returns to Missouri History Museum with tribute to Kathleen Finneran](https://www.stlmag.com/culture/queer-writes-returns-kathleen-finneran-tribute/) — *2026-06-04*
+  > <p>The Missouri Historical Society and That Uppity Theater Company will host its fourth annual Queer Writes event to kick off Pride Month on June 11. Featuring five local artists performing original work, the event will also include a tribute to local author and WashU professor K
+- **NEW**  [[St. Louis] Senate passes $70B bill to fund ICE without limits on Trump settlement fund](https://www.ksdk.com/article/news/nation-world/senate-immigration-john-thune-donald-trump-republican-gop/507-a9e6cd65-4e4e-4a6d-9782-10bbc2b7f2f4) — *2026-06-05*
+  > The GOP defeated multiple attempts by Democrats and Republicans to add language to the bill that would ban Trump’s settlement fund for political allies.
+- **NEW**  [[St. Louis] Marjane Satrapi, cartoonist known for Oscar-nominated 'Persepolis,' dies at 56.](https://www.ksdk.com/article/entertainment/paris-france-oscar-marjane-satrapi/507-034df1ef-c7a8-4a1c-b34b-bb3a0779427e) — *2026-06-05*
+  > Adapted into a full-length movie in 2007, 'Persepolis' tells the story of Satrapi's personal adversity during the Islamic Revolution in Iran.
 - **NEW**  [[St. Louis] Taylor Swift returns to country roots for 'Toy Story 5' soundtrack midnight release](https://www.ksdk.com/article/entertainment/taylor-swift-toy-story-5-movie/507-8716fdb6-d720-40c2-bcbc-36df1e88919b) — *2026-06-05*
   > The movie's release date, June 19, is exactly 20 years to the day from the release of Swift's debut single "Tim McGraw."
 - **NEW**  [[St. Louis] Fatal police shooting under investigation in Eureka neighborhood; no officers injured](https://www.ksdk.com/article/news/crime/police-response-shuts-down-eureka-neighborhood-after-reports-of-gunfire/63-378e4be8-07ce-4dc7-942e-03a946c75a4c) — *2026-06-05*
@@ -37,29 +61,5 @@ state: fresh
   > Residents and the county clerk criticize Franklin County commissioners for suspending public comment, calling the move a threat to public accountability.
 - **NEW**  [[St. Louis] St. Louis will host Olympic marathon trials in 2028, officials announce](https://www.ksdk.com/article/sports/olympics/st-louis-major-olympics-event-marathon-trials/63-ca9ce3f7-ef5b-4e87-87db-97d98eaf6537) — *2026-06-04*
   > City officials on Thursday scheduled an announcement for the "major" Olympics-related sporting event coming to St. Louis.
-- **NEW**  [[St. Louis] Who could win the World Cup? Wall Street firm analyzed 20,000 matches to predict the winner](https://www.ksdk.com/article/news/nation-world/world-cup-who-will-win-odds-goldman-sachs/507-05531204-17d3-46bc-b1da-7dee5039d2f2) — *2026-06-04*
-  > Goldman Sachs set its predictions ahead of the tournament start after analyzing thousands of matches dating back to 1978.
-- **NEW**  [[St. Louis] Kennedy Center moves to erase Trump references after judge said they were illegally added](https://www.ksdk.com/article/news/nation-world/kennedy-center-removes-trump-references/507-a9adf422-3e8c-4ab2-a32d-d96b3bb625a4) — *2026-06-04*
-  > The institution's lawyers said email signatures, letterheads and other documents must reflect the performing arts center's original name by June 12.
-- **NEW**  [[St. Louis] 'Mad Max' pilot caused scary close call with JetBlue passenger jet: 'That guy's insane'](https://www.ksdk.com/article/news/nation-world/faa-investigating-close-call-fort-lauderdale-jetblue/507-acf570a4-732c-4f3e-bc74-1ab71b1eb179) — *2026-06-04*
-  > The FAA is investigating after a close encounter between a small plane and a passenger jet alarmed pilots and air traffic control.
-- **NEW**  [[St. Louis] What doctors want you to know about health information on social media](https://www.ksdk.com/article/news/nation-world/what-doctors-want-you-to-know-about-health-information-on-social-media/507-0f7e85af-5512-448f-b36d-c32cba337bd9) — *2026-06-04*
-  > A pediatric expert says false health information online is making his job harder and putting young people at real risk.
-- **NEW**  [[St. Louis] 40,000 baby bottles sold at Walmart recalled over choking hazard](https://www.ksdk.com/article/news/nation-world/boon-nursh-baby-bottles-recalled-choking-hazard/507-2a7af512-8410-4b24-8505-d4bd1480ba2f) — *2026-06-04*
-  > Boon NURSH baby bottles are under recall after reports of peeling plastic that could pose a choking risk to young children.
-- **NEW**  [[St. Louis] Beloved Maplewood-Richmond Heights janitor deported to Nicaragua, Rep. Wesley Bell says](https://www.ksdk.com/article/news/local/beloved-maplewood-richmond-heights-janitor-deported-to-nicaragua-rep-wesley-bell-says/63-8282e44b-587a-462e-ae32-22cc2a3455af) — *2026-06-04*
-  > The man's wife said she’s already made the decision to self-deport with their daughter so the family can stay together.
-- **NEW**  [[St. Louis] Neymar joins list of high-profile players entering World Cup with injuries](https://www.ksdk.com/article/sports/soccer/world-cup/messi-players-injuries-world-cup/507-aae31cf0-f46a-4edc-9e65-2064f8ebe1a0) — *2026-06-04*
-  > The injuries come as the World Cup has expanded to include 48 teams, meaning more matches during the 39-day tournament.
-- **NEW**  [[St. Louis] National Donut Day 2026: Here's where to score free and discounted treats on Friday](https://www.ksdk.com/article/news/nation-world/national-donut-day-deals-discounts-2026-freebies-list/507-8f07e94b-2301-4233-90e0-672e03bf71ec) — *2026-06-04*
-  > National Donut Day dates back to World War I, and is celebrated on the first Friday of June each year. Here's where you can get some sweet deals.
-- **NEW**  [[St. Louis] Florida teen's high school graduation milestone moment goes viral](https://www.ksdk.com/article/news/nation-world/florida-teen-graduation-milestone-moment-viral/507-076c5abb-dddf-4aff-bc10-407edc6562c7) — *2026-06-04*
-  > When Tyon Newsome walked across the stage to receive his high school diploma, he became the first male graduate on both sides of his family.
-- **NEW**  [[St. Louis] When is NASA’s Artemis III mission? What to know about the next launch in the program](https://www.ksdk.com/article/news/nation-world/when-is-nasa-artemis-iii-mission-launch/507-f5324088-d56c-4cb8-afef-a15ff0e25821) — *2026-06-04*
-  > The agency is set to reveal the astronauts selected for the mission, which aims to advance plans for future lunar landings and Mars exploration.
-- **NEW**  [[St. Louis] From the farm to Harvard: Tennessee high schooler earns full scholarship after challenging year](https://www.ksdk.com/article/news/nation-world/tennesee-high-schooler-earns-full-scholarship-after-challenging-year-harvard/507-0b5dec5c-0a45-4e90-a120-7ed04444ab63) — *2026-06-04*
-  > Kathleen Self, a recent high school graduate in Tennessee, overcame family challenges to earn a full scholarship to Harvard.
-- **NEW**  [[St. Louis] Wyze recalls solar-powered security cameras due to burn, fire hazards](https://www.ksdk.com/article/news/nation-world/wyze-recalls-solar-powered-security-cameras-burn-fire-hazards/507-78d93f7c-27b5-4a1d-b3ea-57bb792cf2d3) — *2026-06-04*
-  > The cameras were shipped with incorrect assembly instructions that could lead users to inadvertently puncture the lithium-ion battery's metal casing.
 
-_(214 additional items in raw.jsonl)_
+_(200 additional items in raw.jsonl)_

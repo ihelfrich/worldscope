@@ -2,29 +2,27 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-06-05
-record_count: 267
-new_today: 227
+record_count: 272
+new_today: 231
 state: fresh
 ---
 
 ## Chinese Internal News
 
-227 new of 267 total items today.
+231 new of 272 total items today.
 
-- **NEW**  [Analysis: Huawei’s Chip Design Vision Faces Reality Check - Caixin Global](https://www.caixinglobal.com) — *2026-06-04*
-  > <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQaWNWSEJob2t6N2U2Y2M1cWd4c1JnaFo3N2hnbDdKMExSRWRhZVd1Q3NCSjVMaEZtLWNIV2FBa2M5TkVWdnk2MXlOclpRWUNpUGhJa1dXdUFycmNnUzBTUHN6MkFEbXU3bVAxdVBFTHI5SEVuWmljUnhsRVhheWtLelBBTDhNUkh5OVZlSWt5M1RjVnVYMERnYjZ3VjZic3NjUWZ6bHRpOVVDbU
 - [[TITLE: 超越美债，黄金成全球官方储备第一大资产 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mekp5dEl1M3d5X19vNktPcjFvRjh3MnRPTlVaUnF4MFJxVWJRdlBYOUdLNlVRMWN0Zy1zakZoM0FoYlN1emloTThOV3NhWDczY0] (zh: 超越美债，黄金成全球官方储备第一大资产 - 财新)](https://mini.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mekp5dEl1M3d5X19vNktPcjFvRjh3MnRPTlVaUnF4MFJxVWJRdlBYOUdLNlVRMWN0Zy1zakZoM0FoYlN1emloTThOV3NhWDczY0VHOW9vSWVaejh3N0E?oc=5" target="_blank">超越美债，黄金成全球官方储备第一大资产</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 高考报名人数为什么会下降 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qNXVoNXFPWmNXeDduY3Bld0pfMVdXMU9KSWo3aWFoWHZiRG1TaUU5dW1iOXNqclFQa2w5X3htM1Q3NXo2WDlJUzV4VmNXR2M5WGdsUnU2T] (zh: 高考报名人数为什么会下降 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qNXVoNXFPWmNXeDduY3Bld0pfMVdXMU9KSWo3aWFoWHZiRG1TaUU5dW1iOXNqclFQa2w5X3htM1Q3NXo2WDlJUzV4VmNXR2M5WGdsUnU2TnFTSWExem5hcnhR?oc=5" target="_blank">高考报名人数为什么会下降</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 人事观察｜广电总局副局长韩冬履新宁夏宣传部长 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9McFhfTlFDZEVkUnpnZ2plY2NHeU5hMTY4LVFwT19RdDFkTW1RenlVczIwVjVGRXJYMmlCb1IwOW80SnJ5M] (zh: 人事观察｜广电总局副局长韩冬履新宁夏宣传部长 - china.caixin.com)](https://china.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9McFhfTlFDZEVkUnpnZ2plY2NHeU5hMTY4LVFwT19RdDFkTW1RenlVczIwVjVGRXJYMmlCb1IwOW80SnJ5MFhBMENjLVpvYkRjaVF1bXMzb2lCOUo0T3A4?oc=5" target="_blank">人事观察｜广电总局副局长韩冬履新宁夏宣传部长</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</f
-- [[TITLE: 特稿｜北京雨燕：与城共生一千年 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBheHBLNXE4VzZGWGp0b1F6dlZsLU90dWZkNW12OE84dXQ5ODdkdXUtYXJTWFFfQzVzenZzNXFrMGZ3cV9sR2xTWWlNdVZYODFJM19xb1] (zh: 特稿｜北京雨燕：与城共生一千年 - 财新)](https://science.caixin.com) — *2026-06-03*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBheHBLNXE4VzZGWGp0b1F6dlZsLU90dWZkNW12OE84dXQ5ODdkdXUtYXJTWFFfQzVzenZzNXFrMGZ3cV9sR2xTWWlNdVZYODFJM19xb1hXejZhREtIWXFobEx3?oc=5" target="_blank">特稿｜北京雨燕：与城共生一千年</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 缪延亮：把握不确定性中的确定性 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sSDNDMm5WYkxKcFZGY0dtVFBuakh3TlJQZHlKcnoyeWhYa1BONGpBOExGZ1ZWWENSOUF4QTdkNFhCOERGWXZzMnYzX0QwWXYxVDhrY3] (zh: 缪延亮：把握不确定性中的确定性 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sSDNDMm5WYkxKcFZGY0dtVFBuakh3TlJQZHlKcnoyeWhYa1BONGpBOExGZ1ZWWENSOUF4QTdkNFhCOERGWXZzMnYzX0QwWXYxVDhrY3JmTGxpQXZ3SVREdUhR?oc=5" target="_blank">缪延亮：把握不确定性中的确定性</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 美国史上最广301调查公布：拟对60个经济体加征10%或12.5%的关税 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9rcEZZVUVwQVFCUVE5M2xoVno2T2gzcXJYVkhwVW9KMml0MDYwb2dFNlpKNm55QUtSZ1dnMmpzLWkwbV9iY] (zh: 美国史上最广301调查公布：拟对60个经济体加征10%或12.5%的关税 - 财新)](https://international.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9rcEZZVUVwQVFCUVE5M2xoVno2T2gzcXJYVkhwVW9KMml0MDYwb2dFNlpKNm55QUtSZ1dnMmpzLWkwbV9iYy1KYUMyTDNhYTVZMFAwN2hoczBtRUdRVTJJVGtyWFJlWkRNRnc?oc=5" target="_blank">美国史上最广301调查公布：拟对60个经济体加征10%或12.5%的关税</a>&nbsp;&nbsp;<font color=
+- [[TITLE: 陈燕妮：我的右耳怎么了？｜亲历 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFYjBaSURTd20tZ3JvWERoMHpwcFo2ZXhKQjZEU2huelpvd2ZfQW9KQ0VDTFo1S011bnQtSUx0Mi1oLUoyRkxmSTd5aVlSNkRwWXBUYz] (zh: 陈燕妮：我的右耳怎么了？｜亲历 - 财新)](https://mini.caixin.com) — *2026-06-03*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFYjBaSURTd20tZ3JvWERoMHpwcFo2ZXhKQjZEU2huelpvd2ZfQW9KQ0VDTFo1S011bnQtSUx0Mi1oLUoyRkxmSTd5aVlSNkRwWXBUYzRxUEg3anJYY1E?oc=5" target="_blank">陈燕妮：我的右耳怎么了？｜亲历</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2] (zh: 零碳出海：碳市场改革与CBAM规则下的企业破局之路 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuMFc0R2JDUVl0cjJnR2NfZzU1WWtGQTRFc1BLQVNEVFpjWUxoOE15N0trU3l2dEhsdlZHaGY2UGdia0RZWjhSaUFBUWk2bFN6N01nOXhwbElzOWF1SllkcnpR?oc=5" target="_blank">零碳出海：碳市场改革与CBAM规则下的企业破局之路</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 创始人的天花板 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0Z3ViYkJXR2N5WVV5MWY4NE9CN0ZTU19UUkZ6dE1WbkpYTUtHWUxiSFR6dVFCQ0V3bnY5SDk4emc1MjQ2RzUtT0h3YzFYN2pwS3Ytc3Z6ZUcweV] (zh: 创始人的天花板 - 财新)](https://opinion.caixin.com) — *2026-06-03*
@@ -33,6 +31,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sLXUtU0VQZnM4MlhjVG1HSklJUW9LZk02UENGTFBCby1BdDRLbk43aTg2SVBLR0h0bXVrMlBQYVcwWkxrcGxqWERPaDZDVzFPV2NvbWdNaWFKOExXSk5SQnh3?oc=5" target="_blank">今日开盘：沪指报4068.34点 跌幅0.17%</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 姚洋：为什么硅谷大厂在疯抢文科生 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE85SHhPVFd4NnBqQ2hiNHVVdF9kQVZSVktMbTdnYlBJcEhyWVJPYWtzX0FLMVUzVkNUbFZkbDNXQXItVF85V3hzd09Bb0R1SlFXeHpmN] (zh: 姚洋：为什么硅谷大厂在疯抢文科生 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE85SHhPVFd4NnBqQ2hiNHVVdF9kQVZSVktMbTdnYlBJcEhyWVJPYWtzX0FLMVUzVkNUbFZkbDNXQXItVF85V3hzd09Bb0R1SlFXeHpmNUF2UUdHVDhxRmdQZlRR?oc=5" target="_blank">姚洋：为什么硅谷大厂在疯抢文科生</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: 鸣谢-2026财新夏季峰会-蓄力创新共谋发展-CAIXIN.COM - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qVkVPWlBzVWpDTENuZ19kQTZ3NV9YUnNrQjFlZkVOWWlFU3pRNUVsYk1VRjFHQzlaS3F1aWRiSGhrN013Uzhn] (zh: 鸣谢-2026财新夏季峰会-蓄力创新共谋发展-CAIXIN.COM - 财新)](https://topics.caixin.com) — *2026-06-03*
+  > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qVkVPWlBzVWpDTENuZ19kQTZ3NV9YUnNrQjFlZkVOWWlFU3pRNUVsYk1VRjFHQzlaS3F1aWRiSGhrN013UzhnanktWVpOYnNneDRVTUM5ZzVCQQ?oc=5" target="_blank">鸣谢-2026财新夏季峰会-蓄力创新共谋发展-CAIXIN.COM</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 延迟需求如何改变本次能源冲击路径 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYe] (zh: 延迟需求如何改变本次能源冲击路径 - 财新)](https://opinion.caixin.com) — *2026-06-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE96MV9Ic0pBblJtMy0tRGhNNmZsdFZwSzhqVzFsNTRUbHBCTEVWeXUyNGxSWDZ4Z0JwLUE5MjUzSTRWeEJwOUh5ZFowd0RnN0xQVlZYenRmVTR6WmJvQzdLM0l3?oc=5" target="_blank">延迟需求如何改变本次能源冲击路径</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 财新周刊目录 - database.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MaTAycGlDMjVZcFFnVUZxbXJYT05kc1hXWk1fR2x6Q01HaVZ5UmdIRWFreDduN1hpaWkydG4wN0txaEtWQno1cTgwZzBZbj] (zh: 财新周刊目录 - database.caixin.com)](http://m.database.caixin.com) — *2026-06-05*
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: 苦难无法消除，但残忍不是必然｜生命情感对话③ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wa3BKeno1Z3ZZZjQ1VXByOGpDVjZFSnVtb0NEYnM2cjZXYXAxSkgwS3h2X1dqYkVnc3YwbXp1ZGtHLXdjZ0RlY2NvUzJQWXh] (zh: 苦难无法消除，但残忍不是必然｜生命情感对话③ - 财新)](https://mini.caixin.com) — *2026-06-04*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wa3BKeno1Z3ZZZjQ1VXByOGpDVjZFSnVtb0NEYnM2cjZXYXAxSkgwS3h2X1dqYkVnc3YwbXp1ZGtHLXdjZ0RlY2NvUzJQWXhwTlpEVTVVU2ZJRXdKcEE?oc=5" target="_blank">苦难无法消除，但残忍不是必然｜生命情感对话③</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(242 additional items in raw.jsonl)_
+_(247 additional items in raw.jsonl)_

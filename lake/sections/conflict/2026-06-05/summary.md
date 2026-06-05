@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[India] BHEL shares jump over 2 pc on bagging Rs 21 , 000 crore power project order](https://www.prokerala.com/news/articles/a1771686.html) — *2026-06-05*
-  > domain: prokerala.com · language: English · tone:
-- **NEW**  [[United States] Platner Denies Allegations From Ex - Girlfriends](https://kprcradio.iheart.com/content/2026-06-05-platner-denies-allegations-from-ex-girlfriends/) — *2026-06-05*
-  > domain: kprcradio.iheart.com · language: English · tone:
-- **NEW**  [[United States] Selena Gomez Unveils Bold Red Hair Transformation While Filming in London](https://www.975wabd.com/2026/06/05/selena-gomez-unveils-bold-red-hair-transformation-while-filming-in-london/) — *2026-06-05*
-  > domain: 975wabd.com · language: English · tone:
-- **NEW**  [[United Kingdom] Carnage as Tesla ploughs into house in Wigan as 999 crews scrambled | united kingdom | News](https://www.express.co.uk/news/uk/2213665/tesla-crashes-into-house-atherton-wigan) — *2026-06-05*
-  > domain: express.co.uk · language: English · tone:
-- **NEW**  [[India] BJP : INDIA alliance exists only  on paper and TV screens  ](https://www.siasat.com/bjp-india-alliance-exists-only-on-paper-and-tv-screens-3483224/) — *2026-06-05*
-  > domain: siasat.com · language: English · tone:
-- **NEW**  [[United States] As Ebola spreads in Congo , a radio station tries to stop health misinformation](https://www.news4jax.com/news/world/2026/06/05/as-ebola-spreads-in-congo-a-radio-station-tries-to-stop-health-misinformation/) — *2026-06-05*
-  > domain: news4jax.com · language: English · tone:
-- **NEW**  [[United States] Federal Register :: Promoting Advanced Artificial Intelligence Innovation and Security](https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security) — *2026-06-05*
-  > domain: federalregister.gov · language: English · tone:
-- **NEW**  [[India] Breakthrough Nanocarrier Offers Targeted Breast Cancer Treatment](https://www.rediff.com/news/report/nanocarriers-for-targeted-breast-cancer-gene-therapy/20260605.htm) — *2026-06-05*
-  > domain: rediff.com · language: English · tone:
-- **NEW**  [[Turkey] Trump peace push stalls as Hezbollah rejects truce , Israel holds firm](https://www.dailysabah.com/world/mid-east/trump-peace-push-stalls-as-hezbollah-rejects-truce-israel-holds-firm) — *2026-06-05*
-  > domain: dailysabah.com · language: English · tone:
-- **NEW**  [[United States] Senate in overnight session as Republicans debate limits on $1 . 8B Trump settlement](https://www.durangoherald.com/articles/senate-in-overnight-session-as-republicans-debate-limits-on-1-8b-trump-settlement/) — *2026-06-05*
-  > domain: durangoherald.com · language: English · tone:
-- **NEW**  [[United Kingdom] Supermarket mayo named best in united kingdom and it £1 . 10 cheaper than Hellman ](https://www.dailystar.co.uk/life-style/supermarket-mayo-named-best-uk-37251570) — *2026-06-05*
-  > domain: dailystar.co.uk · language: English · tone:
-- **NEW**  [[United Kingdom] Olivia Attwood glamorous co - star mum , lookalike sister and huge net worth revealed](https://www.dailystar.co.uk/tv/olivia-attwoods-glamorous-co-star-37251167) — *2026-06-05*
-  > domain: dailystar.co.uk · language: English · tone:
-- **NEW**  [[United States] Pope Leo visiting Europe migration hot spots . Catholics hope hell ease political tensions](https://www.news4jax.com/news/world/2026/06/05/pope-leos-visiting-europes-migration-hot-spots-catholics-hope-hell-ease-political-tensions/) — *2026-06-05*
-  > domain: news4jax.com · language: English · tone:
-- **NEW**  [[India] James Handy murder suspect allegedly called 911 to confess crime](https://aninews.in/news/entertainment/bollywood/james-handy-murder-suspect-allegedly-called-911-to-confess-crime20260605134521/) — *2026-06-05*
-  > domain: aninews.in · language: English · tone:
-- **NEW**  [[United States] This Day in Rock History : June 5](https://963kklz.com/2026/06/05/this-day-in-rock-history-june-5-2/) — *2026-06-05*
-  > domain: 963kklz.com · language: English · tone:
-- **NEW**  [[Philippines]   Time travel yarn ?: Ex - Marine claim of receiving iPhone 16e in 2024 raises eyebrows](https://interaksyon.philstar.com/trends-spotlights/2026/06/05/314559/ex-marine-claim-iphone16e-2024-eyebrows/) — *2026-06-05*
-  > domain: interaksyon.philstar.com · language: English · tone:
-- **NEW**  [[Australia] Iranian - French author known for Persepolis dies at 56](https://www.mandurahmail.com.au/story/9286994/iranian-french-author-known-for-persepolis-dies-at-56/) — *2026-06-05*
-  > domain: mandurahmail.com.au · language: English · tone:
-- **NEW**  [[United States] Government Reshuffling And Its Implications On State And Local Procurement](https://www.mondaq.com:443/unitedstates/government-contracts-procurement-ppp/1796744/government-reshuffling-and-its-implications-on-state-and-local-procurement) — *2026-06-05*
-  > domain: mondaq.com · language: English · tone:
-- **NEW**  [[Pakistan] Naqvi , Iranian counterpart Momeni discuss de - escalation , security issues in Bishkek](https://tribune.com.pk/story/2611569/naqvi-iranian-counterpart-momeni-discuss-de-escalation-security-issues-in-bishkek) — *2026-06-05*
-  > domain: tribune.com.pk · language: English · tone:
-- **NEW**  [[Israel] חדשות היום , 5 ביוני](https://www.haaretz.co.il/news/dailynews/2026-06-05/ty-article-live/0000019e-9482-d59e-a79f-fea7d7930000?liveBlogItemId=770095837) — *2026-06-05*
-  > domain: haaretz.co.il · language: English · tone:
-- **NEW**  [[India] Karnataka Terror Link Probe Police Arrest Allabaksh](https://organiser.org/2026/06/05/356727/bharat/karnataka-terror-link-probe-alla-baksh-arrested-in-tumakuru-over-alleged-links-with-foreign-terrorists/) — *2026-06-05*
-  > domain: organiser.org · language: English · tone:
-- **NEW**  [[United States] Langworthy wants more transparency in healthcare costs | News , Sports , Jobs](https://www.observertoday.com/news/local-region/2026/06/langworthy-wants-more-transparency-in-healthcare-costs/) — *2026-06-05*
-  > domain: observertoday.com · language: English · tone:
-- **NEW**  [[India] Delhi Riots 2020 Case : Tahir Hussain contradictions exposed](https://organiser.org/2026/06/05/356698/bharat/stockpiled-bricks-to-anti-kafir-mandates-unpacking-tahirs-own-words-on-how-his-residence-became-a-command-centre/) — *2026-06-05*
-  > domain: organiser.org · language: English · tone:
-- **NEW**  [[Australia]   Hard day  for teen family as killer cop sentenced](https://www.singletonargus.com.au/story/9286728/hard-day-for-teens-family-as-killer-cop-sentenced/) — *2026-06-05*
-  > domain: singletonargus.com.au · language: English · tone:
-- **NEW**  [[United States] Australian court hears bail arguments for woman accused of enslaving Yazidi teen in Syria](https://www.winknews.com/news/international/australian-court-hears-bail-arguments-for-woman-accused-of-enslaving-yazidi-teen-in-syria/article_1fe79694-90bf-5ae7-b646-22269881fe87.html) — *2026-06-05*
-  > domain: winknews.com · language: English · tone:
+- **NEW**  [[United Kingdom] Stop cleaning duvets and pillows in washing machines when alternative is easier and faster](https://www.mirror.co.uk/lifestyle/stop-cleaning-duvets-pillows-washing-37251401) — *2026-06-05*
+  > domain: mirror.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] Jury continues deliberations in trial of two teenagers accused of beach murder](https://www.burytimes.co.uk/news/national/26168962.jury-continues-deliberations-trial-two-teenagers-accused-beach-murder/) — *2026-06-05*
+  > domain: burytimes.co.uk · language: English · tone:
+- **NEW**  [[Australia] Elicia Tjong : extended care paramedics ease pressure on busy EDs | The Advertiser - Cessnock](https://www.cessnockadvertiser.com.au/story/9286707/elicia-tjong-extended-care-paramedics-ease-pressure-on-busy-eds/) — *2026-06-05*
+  > domain: cessnockadvertiser.com.au · language: English · tone:
+- **NEW**  [[Australia] Origin - of - life oxygen exhibit a  scientific experiment  ](https://www.cessnockadvertiser.com.au/story/9286984/origin-of-life-oxygen-exhibit-a-scientific-experiment/) — *2026-06-05*
+  > domain: cessnockadvertiser.com.au · language: English · tone:
+- **NEW**  [[United States] Trump Open to Meeting Ayatollah for Iran Deal | Newsradio 92 . 7 WBEX](https://wbex.iheart.com/content/2026-06-05-trump-open-to-meeting-ayatollah-for-iran-deal/) — *2026-06-05*
+  > domain: wbex.iheart.com · language: English · tone:
+- **NEW**  [[India] Police detain BJP MLA Yatnal during protest against Karnataka govt Hijab ban withdrawal in schools](http://www.calcuttanews.net/news/279103611/police-detain-bjp-mla-yatnal-during-protest-against-karnataka-govt-hijab-ban-withdrawal-in-schools) — *2026-06-05*
+  > domain: calcuttanews.net · language: English · tone:
+- **NEW**  [[Singapore] Top Gun : Maverick actor James Handy murdered](https://www.asiaone.com:443/entertainment/top-gun-maverick-actor-james-handy-murdered) — *2026-06-05*
+  > domain: asiaone.com · language: English · tone:
+- **NEW**  [[United States] Senate passes $70B immigration enforcement bill without limits on Trump settlement fund](https://www.wrvo.org/2026-06-05/senate-passes-70b-immigration-enforcement-bill-without-limits-on-trump-settlement-fund) — *2026-06-05*
+  > domain: wrvo.org · language: English · tone:
+- **NEW**  [[United Kingdom] Chinese leader will travel to North Korea next week in first visit since 2019](https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/26168799.chinese-leader-will-travel-north-korea-next-week-first-visit-since-2019/) — *2026-06-05*
+  > domain: burnhamandhighbridgeweeklynews.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] Chelmsford man found dead in Dorset as police share update | Clacton and Frinton Gazette](https://www.clactonandfrintongazette.co.uk/news/26168870.chelmsford-man-found-dead-dorset-police-share-update/) — *2026-06-05*
+  > domain: clactonandfrintongazette.co.uk · language: English · tone:
+- **NEW**  [[United States] Senate votes to fund immigration enforcement without limits on Trump anti - weaponization fund](https://www.nbcnews.com/politics/congress/senate-votes-immigration-enforcement-trump-anti-weaponization-fund-rcna348611) — *2026-06-05*
+  > domain: nbcnews.com · language: English · tone:
+- **NEW**  [[Papua New Guinea] Modilon crisis exposes lack of accountability](https://www.thenational.com.pg/modilon-crisis-exposes-lack-of-accountability/) — *2026-06-05*
+  > domain: thenational.com.pg · language: English · tone:
+- **NEW**  [[Ireland] MOBO Awards founder Kanya King dies aged 57](https://www.rte.ie/entertainment/2026/0605/1576915-mobo-awards-founder-kanya-king-dies-aged-57/) — *2026-06-05*
+  > domain: rte.ie · language: English · tone:
+- **NEW**  [[United States] Trump Open to Meeting Ayatollah for Iran Deal | NewsTalk WMEQ](https://wmeq.iheart.com/content/2026-06-05-trump-open-to-meeting-ayatollah-for-iran-deal/) — *2026-06-05*
+  > domain: wmeq.iheart.com · language: English · tone:
+- **NEW**  [[United Kingdom] Im raising kids in a two - dad home Prince William view on periods is different for us](https://metro.co.uk/2026/06/05/im-raising-kids-a-two-dad-home-prince-williams-view-periods-different-us-28645568/) — *2026-06-05*
+  > domain: metro.co.uk · language: English · tone:
+- **NEW**  [[Greece] Theodorikakos : Multinationals Cant Charge 100 % + Margins](https://athens-times.com/theodorikakos-multinationals-cant-sell-with-100-120-profit-margins/) — *2026-06-05*
+  > domain: athens-times.com · language: English · tone:
+- **NEW**  [[United Kingdom] Rough sleeping kills . How NHS workers save lives on the street](https://www.bigissue.com/news/housing/rough-sleepers-nhs-outreach-project/) — *2026-06-05*
+  > domain: bigissue.com · language: English · tone:
+- **NEW**  [[Germany] Antipodean Currencies Fall Amid Risk - Aversion](https://www.finanznachrichten.de/nachrichten-2026-06/68690760-antipodean-currencies-fall-amid-risk-aversion-020.htm) — *2026-06-05*
+  > domain: finanznachrichten.de · language: English · tone:
+- **NEW**  [[United States] Senate Passes $70 Billion ICE and Border Patrol Bill](https://www.kcra.com/article/senate-passes-70-billion-ice-border-patrol-funding-bill/71502984) — *2026-06-05*
+  > domain: kcra.com · language: English · tone:
+- **NEW**  [[United States] Driver airlifted to hospital after serious crash in Berrien County](https://wsbt.com/news/local/driver-airlifted-to-hospital-after-serious-crash-in-berrien-county-chikaming-township-driving-seatbelt-east-road-i-94-evidence-ditch-medical-investigation-michigan) — *2026-06-05*
+  > domain: wsbt.com · language: English · tone:
+- **NEW**  [[United States] Do Israeli voters still trust Benjamin Netanyahu ? ](https://www.csmonitor.com/World/Middle-East/2026/0605/Israel-Netanyahu-election-Lebanon-Trump-Iran) — *2026-06-05*
+  > domain: csmonitor.com · language: English · tone:
+- **NEW**  [[China] Gas tank blast kills two and injures 13 at Liaoning shop](http://africa.chinadaily.com.cn/a/202606/05/WS6a223c80a310d6866eb4ca3e.html) — *2026-06-05*
+  > domain: africa.chinadaily.com.cn · language: English · tone:
+- **NEW**  [[United States] This Minnesota City Wants All Goose Eggs GONE](https://kikn.com/ixp/481/p/rochester-canada-geese-issue/) — *2026-06-05*
+  > domain: kikn.com · language: English · tone:
+- **NEW**  [[United States] NPR photojournalist David Gilkey , in remembrance](https://www.kclu.org/arts-culture/2026-06-05/npr-photojournalist-david-gilkey-in-nbsp-remembrance) — *2026-06-05*
+  > domain: kclu.org · language: English · tone:
+- **NEW**  [[United Kingdom] Chinese leader will travel to North Korea next week in first visit since 2019](https://www.impartialreporter.com/news/national/26168799.chinese-leader-will-travel-north-korea-next-week-first-visit-since-2019/) — *2026-06-05*
+  > domain: impartialreporter.com · language: English · tone:
 
 _(15 additional items in raw.jsonl)_

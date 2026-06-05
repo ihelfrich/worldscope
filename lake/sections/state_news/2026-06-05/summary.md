@@ -2,17 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-06-05
-record_count: 762
-new_today: 355
+record_count: 782
+new_today: 378
 state: fresh
 ---
 
 ## State-Level News
 
-355 new of 762 total items today.
+378 new of 782 total items today.
 
-- **NEW**  [[Alabama] Governor Ivey Approves Request for Alabama National Guard to Support America 250 Events in Nation’s Capital](https://governor.alabama.gov/newsroom/2026/06/governor-ivey-approves-request-for-alabama-national-guard-to-support-america-250-events-in-nations-capital/) — *2026-06-04*
-  > MONTGOMERY – Governor Kay Ivey on Thursday announced she approved a request for the Alabama National Guard (ALNG) to support operations surrounding the America 250 events in Washington, D.C. “One month from today, our nation will mark 250 years of &#8230; <a href="https://governo
 - **NEW**  [[California] Governor Newsom announces appointments 6.4.2026](https://www.gov.ca.gov/2026/06/04/governor-newsom-announces-appointments-6-4-2026/) — *2026-06-05*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/06/04/governor-news
@@ -27,41 +25,43 @@ state: fresh
 - [[California] Governor Newsom announces judicial appointments 6.2.2026](https://www.gov.ca.gov/2026/06/02/governor-newsom-announces-judicial-appointments-6-2-2026/) — *2026-06-03*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
 <p><a href="https://www.gov.ca.gov/2026/06/0
-- **NEW**  [[Colorado] Bennet, Weiser debate again ahead of ballots dropping in Colorado Democratic primary for governor](https://coloradonewsline.com/2026/06/04/bennet-weiser-democratic-governor-primary-debate/) — *2026-06-05*
-  > Colorado’s two Democratic candidates for governor met again for a debate in Denver Thursday, less than a week before county clerks across the state will begin mailing ballots to registered voters for the June 30 primary election. U.S. Sen. Michael Bennet and Attorney General Phil
-- **NEW**  [[Colorado] Gov. Polis vetoes bill to allow civil suits against immigration authorities](https://coloradonewsline.com/2026/06/04/polis-vetoes-civil-immigration-suits-bill/) — *2026-06-04*
-  > Gov. Jared Polis vetoed a measure Wednesday that would have allowed Coloradans to sue federal immigration officials who violate their constitutional rights, one of the first bills Democrats introduced in the 2026 legislative session.  Senate Bill 26-5 would have created a state-l
-- **NEW**  [[Colorado] Trump picks acting AG Blanche to stay on full time](https://coloradonewsline.com/2026/06/04/repub/trump-picks-acting-ag-blanche-to-stay-on-full-time/) — *2026-06-04*
-  > President Donald Trump will nominate acting Attorney General Todd Blanche to fill the top role at the DOJ on a permanent basis.
-- [[Colorado] Fifty for 150: Obama accepts the Democratic nomination in Denver in 2008](https://coloradonewsline.com/2026/06/04/fifty-for-150-obama-accepts-nomination/) — *2026-06-04*
-  > In August 2008, Americans were feeling uneasy. Eight years of the George W. Bush administration had mired the country in two protracted wars in the Middle East. The attacks of 9/11 still cast a dark shadow over much government policy, and Osama bin Laden was still on the run. A f
-- [[Colorado] US House approves measure to restrain Trump action in Iran](https://coloradonewsline.com/2026/06/03/repub/house-iran-war-powers-resolution/) — *2026-06-03*
-  > WASHINGTON — The U.S. House passed a resolution Wednesday to force President Donald Trump to withdraw from the war with Iran and require congressional approval for further military action in the country. The 215-208 vote, in which four Republicans voted with all Democrats to adop
-- [[Colorado] Treasury’s Bessent mum on Trump’s IRS immunity deal](https://coloradonewsline.com/2026/06/03/repub/bessent-trump-irs-immunity-deal/) — *2026-06-03*
+- **NEW**  [[California] The top-two primary was supposed to change California politics. Did it flop?](https://calmatters.org/politics/2026/06/california-primary-election-top-two/) — *2026-06-04*
+  > <figure><img width="1024" height="707" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Chico-Elections_SO_CM_12.jpg?fit=1024%2C707&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A voter stands at a privacy booth casting
+- **NEW**  [[California] New green card rules are confusing Californians](https://calmatters.org/newsletter/green-card-rules-changes/) — *2026-06-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/Green-Card_ISTOCK_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person&#039;s hand hols a green card with ident
+- **NEW**  [[California] 5 things to know about the Trump administration’s new green card policy](https://calmatters.org/justice/2026/06/green-cards-what-to-know/) — *2026-06-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/082124_Naturalization-Ceremony_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A side-view of a row of people st
+- **NEW**  [[California] ‘It’s a family’: How a California tribal college is opening doors for Native students](https://calmatters.org/education/2026/06/california-indian-nations-college-tribal-colleges/) — *2026-06-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/051526-Tribal-College-DF-CM-08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing a black long-sleeve shirt
+- **NEW**  [[California] Medi-Cal cuts, tax increases loom as Capitol lawmakers dicker over the budget](https://calmatters.org/commentary/2026/06/medical-cuts-taxes-budget-california/) — *2026-06-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/082825-Mendota-Rural-Mobile-Unit-LV-CM-12.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A healthcare worker in blue scr
+- **NEW**  [[California] A California housing bill would raise wages to $28. Why do some unions hate it?](https://calmatters.org/housing/2026/06/ab-1751-trades-carpenters-fight/) — *2026-06-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/041323-QUITO-VILLAGE-MHN-10-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Martin Rivera works at the Quito Village D
+- **NEW**  [[California] The mayoral showdown that benefits Karen Bass doesn’t really benefit Los Angeles voters](https://calmatters.org/commentary/2026/06/los-angeles-mayor-bass-pratt/) — *2026-06-04*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060326-Mayor-Bass-Election-Party-CS-01-CM.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person speaks at a podium in 
+- [[California] Federal judge orders immigrant detention center to allow San Diego County health inspection](https://calmatters.org/justice/2026/06/otay-mesa-san-diego-inspection-2/) — *2026-06-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/03/022026_Padilla-Otay-Mesa_AH_02_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large detention facility complex sits
+- [[California] Election denier likely loses job in Shasta County. But voters back hand-counting ballots](https://calmatters.org/politics/2026/06/california-primary-election-shasta-county/) — *2026-06-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Shasta-County-Election_MH_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elderly person wearing a blue b
+- [[California] In a first, California Supreme Court reverses a death sentence under new racial justice law](https://calmatters.org/justice/2026/06/death-penalty-racial-justice-act/) — *2026-06-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/07/050824-Supreme-Court-JF-AP-CM-25.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A lawyer in a suit stands before seven C
+- **NEW**  [[Alaska] Treasury’s Bessent mum on Trump’s IRS immunity deal](https://alaskabeacon.com/2026/06/04/repub/treasurys-bessent-mum-on-trumps-irs-immunity-deal/) — *2026-06-04*
   > WASHINGTON — The day after acting Attorney General Todd Blanche said the Trump administration’s &#8220;anti-weaponization&#8221; fund was dead, Treasury Secretary Scott Bessent evaded questions on Capitol Hill Wednesday about whether President Donald Trump, his family and the Tru
-- [[Colorado] What vacant ambassador posts means for Colorado](https://coloradonewsline.com/2026/06/03/vacant-ambassador-posts-colorado/) — *2026-06-03*
-  > Across the Western Hemisphere today, more than a dozen U.S. ambassador posts are either vacant or awaiting Senate confirmation. At the same time, instability across the region is growing. In Haiti, a worsening security and humanitarian crisis is fueling migration pressures across
-- [[Colorado] US Senate panel pans DHS plan to stop customs processing at blue-city airports](https://coloradonewsline.com/2026/06/03/repub/senate-panel-dhs-plan-blue-city-airports/) — *2026-06-03*
-  > WASHINGTON — Homeland Security Secretary Markwayne Mullin appeared before the U.S. Senate Appropriations Homeland Security panel Tuesday and defended his threats to cripple international air travel into some cities led by Democrats. Democratic senators on the panel also pressed M
-- [[Colorado] Fifty for 150: World’s first recreational marijuana sales begin in Colorado in 2014](https://coloradonewsline.com/2026/06/03/fifty-for-150-recreational-marijuana-sales-colorado/) — *2026-06-03*
-  > Colorado became a tourist destination for cannabis users in 2014, when the first legal recreational marijuana sales in the world began in the state.  Legalization in Colorado marked the beginning of what would become a national shift in attitude toward the recreational use of mar
-- [[Colorado] Rising costs of fuel, other goods squeeze already strained abortion funds](https://coloradonewsline.com/2026/06/03/repub/rising-costs-strain-abortion-funds/) — *2026-06-03*
-  > The increasing costs of fuel for cars and airplanes are adding extra strain to abortion funds that help people pay to travel for care in other states, leaders of several funds said this week. Abortion funds can help when someone must travel from their home state to a state where 
-- [[Colorado] Colorado’s 3 Republican candidates for governor square off in first full debate](https://coloradonewsline.com/2026/06/02/republican-governor-candidates-first-full-debate/) — *2026-06-03*
-  > Colorado Springs ministry leader Victor Marx faced his two rivals for the Colorado Republican Party&#8217;s nomination for governor in a debate for the first time on Tuesday night, and quickly found himself the target of stinging criticism from both of them. &#8220;You can&#8217;
-- **NEW**  [[Arizona] Every Cochise County police agency will soon use the same iris scanners ICE deploys](https://azmirror.com/briefs/every-cochise-county-police-agency-will-soon-use-the-same-iris-scanners-ice-deploys/) — *2026-06-04*
-  > Every law enforcement agency in Cochise County will soon be using the same iris-scanning technology as U.S. Immigration and Customs Enforcement.  This week, the Cochise County Sheriff’s Office announced that, with the support of the Western States Sheriff’s Association, it and ev
-- **NEW**  [[Arizona] Mayes will go back to the grand jury after Arizona Supreme Court doesn’t revive fake electors case](https://azmirror.com/briefs/mayes-will-go-back-to-the-grand-jury-after-arizona-supreme-court-doesnt-revive-fake-electors-case/) — *2026-06-04*
-  > The Arizona Supreme Court has refused to revive the case against the state’s 11 fake electors who tried to help President Donald Trump overturn his 2020 loss, leaving its outcome at the mercy of the midterm elections.  Last year, Arizona Attorney General Kris Mayes asked the stat
-- **NEW**  [[Arizona] Arizona signs onto deal to tap California desalination, ease pressure on shrinking Lake Mead](https://azmirror.com/2026/06/04/repub/arizona-signs-onto-deal-to-tap-california-desalination-ease-pressure-on-shrinking-lake-mead/) — *2026-06-04*
-  > Lake Mead could soon benefit from the nation’s largest desalination plant thanks to an agreement that would allow water agencies in Nevada, Arizona, and California to explore ways to exchange water supplies across the drought-challenged Colorado River Basin. On Wednesday, the fed
-- **NEW**  [[Arizona] Arizona promised these voters privacy. It accidentally broke its vow.](https://azmirror.com/2026/06/04/arizona-promised-these-voters-privacy-it-accidentally-broke-its-vow/) — *2026-06-04*
-  > Staff at the Arizona Secretary of State’s Office accidentally publicly released the home addresses and telephone numbers of hundreds of voters whose information the state had pledged to keep private, an incident that potentially risked exposing them to physical harm and harassmen
-- **NEW**  [[Arizona] New medical guidance affirms Tylenol safety during pregnancy months after Trump sows doubt](https://azmirror.com/2026/06/04/repub/new-medical-guidance-affirms-tylenol-safety-during-pregnancy-months-after-trump-sows-doubt/) — *2026-06-04*
+- **NEW**  [[Alaska] Cleanups removed over 1.5 million pounds of trash from Alaska beaches last year, report says](https://alaskabeacon.com/briefs/cleanups-removed-over-1-5-million-pounds-of-trash-from-alaska-beaches-last-year-report-says/) — *2026-06-04*
+  > Alaskans collected more than 1.5 million pounds of marine debris last year in organized community cleanups involving nearly 1,700 people in total, a new report says. The report, issued Wednesday by Ocean Conservancy, Alaska Sea Grant and the Sitka Sound Science Center, summarizes
+- **NEW**  [[Alaska] New medical guidance affirms Tylenol safety during pregnancy months after Trump sows doubt](https://alaskabeacon.com/2026/06/04/repub/new-medical-guidance-affirms-tylenol-safety-during-pregnancy-months-after-trump-sows-doubt/) — *2026-06-04*
   > The Society for Maternal-Fetal Medicine published new clinical guidance this week affirming that acetaminophen, better known by its brand Tylenol, should be the “first-line” defense against pain and fever during pregnancy.  The directive contradicts the Trump administration’s not
-- [[Arizona] House passes War Powers Resolution to force Trump to end the war he launched against Iran](https://azmirror.com/2026/06/03/repub/house-passes-war-powers-resolution-to-force-trump-to-end-the-war-he-launched-against-iran/) — *2026-06-03*
+- **NEW**  [[Alaska] US House approves measure to restrain Trump action in Iran](https://alaskabeacon.com/2026/06/04/repub/us-house-approves-measure-to-restrain-trump-action-in-iran/) — *2026-06-04*
   > WASHINGTON — The U.S. House passed a resolution Wednesday to force President Donald Trump to withdraw from the war with Iran and require congressional approval for further military action in the country. The 215-208 vote, in which four Republicans voted with all Democrats to adop
-- [[Arizona] Treasury secretary dodges questions on whether Trump still has lifetime IRS audit immunity](https://azmirror.com/2026/06/03/repub/treasury-secretary-dodges-questions-on-whether-trump-still-has-lifetime-irs-audit-immunity/) — *2026-06-03*
-  > WASHINGTON — The day after acting Attorney General Todd Blanche said the Trump administration’s &#8220;anti-weaponization&#8221; fund was dead, Treasury Secretary Scott Bessent evaded questions on Capitol Hill Wednesday about whether President Donald Trump, his family and the Tru
+- **NEW**  [[Alaska] Trump picks acting AG Blanche to stay on full time](https://alaskabeacon.com/2026/06/04/repub/trump-picks-acting-ag-blanche-to-stay-on-full-time/) — *2026-06-04*
+  > WASHINGTON — President Donald Trump will nominate acting Attorney General Todd Blanche, his former personal lawyer, to fill the top role at the Department of Justice on a permanent basis, he said Wednesday night. Trump revealed Blanche as his choice at an outdoor event at the Whi
+- **NEW**  [[Alaska] Trump administration denies Alaska’s request for larger cost share of Halong disaster recovery](https://alaskabeacon.com/2026/06/04/trump-administration-denies-alaskas-request-for-larger-cost-share-of-halong-disaster-recovery/) — *2026-06-04*
+  > The Trump administration has denied Alaska’s request for a larger federal cost share for disaster recovery efforts following devastation wrought by the remnants of Typhoon Halong in Western Alaska last fall.  In a May 31 denial letter, a senior official with the Federal Emergency
+- [[Alaska] ‘You’d be crying at the pump’: This Alaska village’s gas was $8.44 — before the Iran war](https://alaskabeacon.com/2026/06/03/youd-be-crying-at-the-pump-this-alaska-villages-gas-was-8-44-before-the-iran-war/) — *2026-06-03*
+  > This story is co-published by Northern Journal and Bethel-based public media outlet KYUK. HOOPER BAY, ALASKA — Every few weeks this winter, 75-year-old Harvey Joe, an Yup’ik elder in this Western Alaska village, climbed onto his snowmachine. Dragging a sled with a fuel drum on to
+- [[Alaska] Congress weighs cuts to states’ already ‘insufficient’ election security dollars](https://alaskabeacon.com/2026/06/03/repub/congress-weighs-cuts-to-states-already-insufficient-election-security-dollars/) — *2026-06-03*
+  > Ahead of the November midterm elections, President Donald Trump and his Republican allies have demanded Congress pass sweeping voting restrictions, including showing proof of citizenship to register — all in the name of election security. At the same time, the only federal agency
+- [[Alaska] Trump administration dumps $1.77B ‘anti-weaponization’ fund](https://alaskabeacon.com/2026/06/03/repub/trump-administration-dumps-1-77b-anti-weaponization-fund/) — *2026-06-03*
+  > WASHINGTON — The Trump administration has scrapped plans to use nearly $1.8 billion in taxpayer dollars to pay people who believe they were wrongly prosecuted by the Justice Department — a proposal that halted work on legislation to fund immigration and deportation activities.  A
 
-_(737 additional items in raw.jsonl)_
+_(757 additional items in raw.jsonl)_

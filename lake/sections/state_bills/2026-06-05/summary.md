@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-06-05
 record_count: 127
-new_today: 36
+new_today: 93
 state: fresh
 ---
 
 ## State Legislative Action
 
-36 new of 127 total items today.
+93 new of 127 total items today.
 
 - **NEW**  [[Alaska SB 275] An Act relating to natural gas and natural gas projects; relating to the Alaska Gasline Development Corporation; relating to the powers and duties of the Legislative Budget and Audit Committee; relating to the value of certain oil and gas; relating to an income tax on certain natural]() — *2026-06-05*
   > An Act relating to natural gas and natural gas projects; relating to the Alaska Gasline Development Corporation; relating to the powers and duties of the Legislative Budget and Audit Committee; relating to the value of certain oil and gas; relating to an income tax on certain nat
