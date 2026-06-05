@@ -2,17 +2,21 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-05
-record_count: 225
-new_today: 196
+record_count: 237
+new_today: 216
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-196 new of 225 total items today.
+216 new of 237 total items today.
 
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-06-05*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Ben Poremba’s Del Bono to bring wood-fired pizza to the Delmar Maker District](https://www.stlmag.com/dining/del-bono-delmar-maker-district/) — *2026-06-05*
+  > <p>This summer, Ben Poremba&#8217;s Bengelina Hospitality Group will debut its latest concept, Del Bono (5232-B Delmar). Featuring wood-fired pizza, the new concept is slated to open June 18 at the Maker’s Yard, a part of the Delmar Maker District that includes Nixta, Florentin, 
+- **NEW**  [[St. Louis] Ask George: Are any local restaurants using AI to help manage their day-to-day operations?](https://www.stlmag.com/dining/ask-george-local-restaurants-using-ai/) — *2026-06-05*
+  > <p>I hope you, dear reader, aren&#8217;t growing weary of hearing about AI. I’m reminded of the famous courtroom scene in Scent of a Woman when Al Pacino’s character bellows, “Naw, I’m just getting warmed up.” Like most industries, restaurants are only beginning to explore AI’s p
+- **NEW**  [[St. Louis] St. Peters man’s victory will give many more people the right to a jury trial](https://www.stlmag.com/news/st-peters-chris-bank-jury-trial/) — *2026-06-05*
+  > <p>A St. Peters man and his sunflowers have changed the way that many Missourians found guilty in municipal courts can seek new trials in the higher circuit court system. “Now the game has changed, the balance of power has shifted,” says Bevis Schock, the attorney for Chris Bank,
 - **NEW**  [[St. Louis] What’s True in the Lou? – 6/5/2026](https://www.stlmag.com/games/whats-true-in-the-lou-060526/) — *2026-06-05*
   > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
 - **NEW**  [[St. Louis] Excellence in Nursing Awards 2026](https://www.stlmag.com/health/excellence-in-nursing-awards-winners-2026/) — *2026-06-05*
@@ -21,45 +25,41 @@ state: fresh
   > <p>One of St. Louis’ longest-running pizzerias recently celebrated its 70th anniversary. Farotto’s Pasta &#38; Pizzeria (9525 Manchester) marked the occasion with a private party for its loyal patrons. The family-owned and -operated eatery is best known for its time-tested staple
 - **NEW**  [[St. Louis] Ask Veronica: Traveling this summer? 7 St. Louis-style gifts your host will love](https://www.stlmag.com/design/ask-veronica-traveling-this-summer-7-st-louis-style-gifts-your-host-will-love/) — *2026-06-04*
   > <p>A few weeks ago, I received a late-night text from a neighbor. She’s traveling to Italy later this month to visit family she hasn’t seen in 20 years, and was struggling to figure out what gift to take them. “I can&#8217;t think of anything that is nicer or tastes better than a
+- **NEW**  [[St. Louis] Where in St. Charles 6/5/2026](https://www.stlmag.com/games/where-in-st-charles-060526/) — *2026-06-04*
+  > <p>Let&#8217;s see how well you know St. Charles. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the ans
 - **NEW**  [[St. Louis] All Punks Meet In St. Louis Under the Arch convenes this weekend](https://www.stlmag.com/culture/music/all-punks-meet-in-st-louis-under-the-arch-convenes-this-weekend/) — *2026-06-04*
   > <p>On June 6, punk music devotees from the river city and all around the country will gather under the St. Louis Arch for one big group portrait. The snapshot serves as a focal point for an all-ages DIY festival dubbed All Punks Meet In St. Louis Under the Arch that will take pla
 - **NEW**  [[St. Louis] YoungLiars gets wild with Emily Dickinson](https://www.stlmag.com/culture/youngliars-gets-wild-with-emily-dickinson/) — *2026-06-04*
   > <p>The poet Emily Dickinson was known for asking the big questions: pondering the nature of God, death, beauty, and the infinite. It turns out that Dr. Pepper–guzzling millennial teenagers in pajamas have a lot of the same lines of inquiry going. Playing this weekend and next at 
-- **NEW**  [[St. Louis] How Rosati Kain helped launch a teen from a troubled home to a different life](https://www.stlmag.com/news/solutions/catholic-high-schools-upward-mobility-rosati/) — *2026-06-04*
-  > <p>Michele Bildner did not know, as a senior at Rosati Kain High School in 1998, the meaning of the term “economic connectedness”—that is, the social mixing of people from either side of an area’s median household income. Nor could she have known that such mixing appears to benef
-- **NEW**  [[St. Louis] Looking for a ’90s summer? Check out this new experience at The Magic House](https://www.stlmag.com/family/a-90s-summer-the-magic-house/) — *2026-06-04*
-  > <p>Long before kids had tablets, summer entertainment meant friendship bracelets, sprinkler runs, and figuring out how to make the perfect lizard bead keychain before the streetlights came on. Thanks to the social media fixation on bringing back that era for kids, The Magic House
-- **NEW**  [[St. Louis] WashU’s new dorm takes its name from a librarian it laid off (and then rehired)](https://www.stlmag.com/news/washu-clara-mcleod-james-mcleod/) — *2026-06-04*
-  > <p>Last June, Clara McLeod was let go from Washington University after working as a librarian for its earth, environmental and planetary sciences department for more than 37 years. Now the university is naming its newest dormitory building, a 600-bed residential hall that’s break
-- [[St. Louis] Queer Writes returns to Missouri History Museum with tribute to Kathleen Finneran](https://www.stlmag.com/culture/queer-writes-returns-kathleen-finneran-tribute/) — *2026-06-04*
-  > <p>The Missouri Historical Society and That Uppity Theater Company will host its fourth annual Queer Writes event to kick off Pride Month on June 11. Featuring five local artists performing original work, the event will also include a tribute to local author and WashU professor K
-- **NEW**  [[St. Louis] Senate passes $70B bill to fund ICE without limits on Trump settlement fund](https://www.ksdk.com/article/news/nation-world/senate-immigration-john-thune-donald-trump-republican-gop/507-a9e6cd65-4e4e-4a6d-9782-10bbc2b7f2f4) — *2026-06-05*
-  > The GOP defeated multiple attempts by Democrats and Republicans to add language to the bill that would ban Trump’s settlement fund for political allies.
-- **NEW**  [[St. Louis] Marjane Satrapi, cartoonist known for Oscar-nominated 'Persepolis,' dies at 56.](https://www.ksdk.com/article/entertainment/paris-france-oscar-marjane-satrapi/507-034df1ef-c7a8-4a1c-b34b-bb3a0779427e) — *2026-06-05*
-  > Adapted into a full-length movie in 2007, 'Persepolis' tells the story of Satrapi's personal adversity during the Islamic Revolution in Iran.
-- **NEW**  [[St. Louis] Taylor Swift returns to country roots for 'Toy Story 5' soundtrack midnight release](https://www.ksdk.com/article/entertainment/taylor-swift-toy-story-5-movie/507-8716fdb6-d720-40c2-bcbc-36df1e88919b) — *2026-06-05*
-  > The movie's release date, June 19, is exactly 20 years to the day from the release of Swift's debut single "Tim McGraw."
-- **NEW**  [[St. Louis] Fatal police shooting under investigation in Eureka neighborhood; no officers injured](https://www.ksdk.com/article/news/crime/police-response-shuts-down-eureka-neighborhood-after-reports-of-gunfire/63-378e4be8-07ce-4dc7-942e-03a946c75a4c) — *2026-06-05*
+- **NEW**  [[St. Louis] Chicago Bears moving forward with plans for new stadium in Indiana](https://www.ksdk.com/article/news/nation-world/chicago-bears-new-stadium-hammond-indiana/507-7456649c-b09a-4b62-9c54-d83ea8afe1d3) — *2026-06-05*
+  > The Bears, a charter NFL franchise, have played in Illinois since the team’s founding in 1920.
+- **NEW**  [[St. Louis] Target baby wipes recalled over possible bacterial contamination](https://www.ksdk.com/article/news/nation-world/target-baby-wipes-recall-up-up-potential-microbial-contamination/507-6800ead7-692c-4e0e-a4fe-73c22d2dad61) — *2026-06-05*
+  > The recall affects select Up & Up baby wipes sold at Target stores nationwide and through Target's website.
+- **NEW**  [[St. Louis] Lego launches its largest set ever, featuring over 12,000 pieces](https://www.ksdk.com/article/news/nation-world/lego-biggest-set-sagrada-familia-12000-pieces/507-374c8a44-e239-46ec-9871-d38d8c8825fa) — *2026-06-05*
+  > The Lego set is a replica of one of Europe's iconic landmarks.
+- **NEW**  [[St. Louis] Man suspected of smashing windows at Steve's Hot Dogs charged with property damage](https://www.ksdk.com/article/news/crime/man-charged-vandalism-steves-hot-dogs/63-29a91882-ea5b-47e4-85dc-75067e7c4662) — *2026-06-05*
+  > Nicholas Owens was charged with two counts of first-degree property damage in connection with the incidents on Monday and Tuesday.
+- **NEW**  [[St. Louis] George Washington's 1757 beer recipe revived ahead of America's 250th anniversary](https://www.ksdk.com/article/news/nation-world/george-washington-beer-recipe-talea-liberty-lager/507-a00041e6-dcff-459d-beb8-28c9b4fb5efc) — *2026-06-05*
+  > The original recipe calls for bran hops, molasses, water and yeast, producing a beverage with relatively low alcohol content.
+- **NEW**  [[St. Louis] Missouri-based American Shaman agrees to stop selling kratom and 7-OH](https://www.ksdk.com/article/news/politics/missouri-based-american-shaman-agrees-to-stop-selling-kratom-and-7-oh/63-b84241cc-898a-4fa9-b10d-b47a290cc359) — *2026-06-05*
+  > Hanaway’s lawsuit alleged American Shaman advertised “free samples” of 7-OH, short for 7-hydroxymitragynine, despite its addictive nature.
+- **NEW**  [[St. Louis] NASCAR Hall of Famer Ned Jarrett dies at 93](https://www.ksdk.com/article/news/nation-world/nascar-hall-of-famer-ned-jarrett-dies/507-1f8657f2-b648-4d70-8f40-872cc06c6c48) — *2026-06-05*
+  > Jarrett was a two-time NASCAR premier-series champion and one of the first racers to make a successful transition from the track to the television booth.
+- **NEW**  [[St. Louis] Eureka police identify man killed by officers, say he charged at them with semi-automatic handgun](https://www.ksdk.com/article/news/crime/police-response-shuts-down-eureka-neighborhood-after-reports-of-gunfire/63-378e4be8-07ce-4dc7-942e-03a946c75a4c) — *2026-06-05*
   > Neighbors reported hearing more than a dozen gunshots before one person was fatally shot by officers in Eureka. Police continued investigating Thursday night.
-- **NEW**  [[St. Louis] ‘The Super Bowl of marathons’: St. Louis secures 2028 US Olympic Trials](https://www.ksdk.com/article/sports/olympics/the-super-bowl-marathons-st-louis-secures-2028-us-olympic-trials/63-b3170ea7-d4a9-4e85-ad7c-ca7afb73462a) — *2026-06-05*
-  > Elite athletes will pack the Gateway City to compete for six spots on Team USA, an event expected to generate a massive economic boost for St. Louis.
-- **NEW**  [[St. Louis] 'You should be ashamed of yourself': Surveillance video shows autism therapist kicking 5-year-old child in face](https://www.ksdk.com/article/news/nation-world/surveillance-video-arizona-autism-therapist-kicking-nonverbal-child/507-8552a0a3-7c51-46e7-a691-c857415abd06) — *2026-06-05*
-  > An Arizona autism therapy center employee was arrested and fired after surveillance footage captured him allegedly kicking a nonverbal 5-year-old boy in the face.
-- **NEW**  [[St. Louis] Actor James Handy reportedly stabbed to death by girlfriend's son](https://www.ksdk.com/article/news/nation-world/actor-james-handy-stabbed-to-death-by-girlfriends-son/507-ebe411f6-f345-49ca-bdd9-5c905d8e00c2) — *2026-06-05*
-  > Handy was a character actor known for films like “Jumanji,” “Top Gun: Maverick” and “Arachnophobia.”
-- **NEW**  [[St. Louis] ‘It's like losing a member of your family’: Steve's Hot Dogs owner mourns dog killed in Tower Grove Park attack](https://www.ksdk.com/article/news/local/its-like-losing-a-member-of-your-family-steves-hot-dogs-owner-mourns-dog-killed-in-tower-grove-park-attack-pit-bulls-restaurant-vandalized/63-b1a9f64c-0a8c-4384-b312-aae76c6dcef2) — *2026-06-05*
-  > Animal Control is investigating after Steve Ewing says two loose pit bulls attacked his wife and killed the family's 4-year-old dog, Emmi.
-- **NEW**  [[St. Louis] LEGO unveils its largest set ever, with more than 12,000 pieces](https://www.ksdk.com/article/news/nation-world/lego-largest-set-ever-sagrada-familia/507-a1ff36ed-4696-4bae-8112-4f7847e99ff6) — *2026-06-05*
-  > The replica of Barcelona's Sagrada Familia costs nearly $800 and is available for pre-order now before it is officially released in November.
-- **NEW**  [[St. Louis] World Cup friendly matches: Everything you need to know](https://www.ksdk.com/article/sports/soccer/world-cup/what-is-soccer-friendly/507-80a9cf73-198e-4775-ad16-186162c41b00) — *2026-06-05*
-  > National teams use friendlies to prepare for major tournaments such as the upcoming FIFA World Cup.
-- **NEW**  [[St. Louis] Prosecutors seek death penalty in fatal kidnapping of Michelle Hampton](https://www.ksdk.com/article/news/crime/michelle-hampton-kidnapping-murder-death-penalty/63-16470da3-b7cc-4a8c-a6a1-4ab763c79212) — *2026-06-04*
-  > Federal prosecutors filed a notice of intent to seek the death penalty for two men charged in the fatal kidnapping of Michelle Hampton from a Clayton home.
-- **NEW**  [[St. Louis] Why gas prices rise fast but fall slowly](https://www.ksdk.com/article/traffic/gas-prices/why-gas-prices-rise-fast-but-fall-slowly/63-1004f2c8-88a9-4c88-814b-53cafc326337) — *2026-06-04*
-  > A St. Louis Fed economist explains the "rockets and feathers" effect, where gas prices spike quickly on uncertainty but decline more gradually.
-- **NEW**  [[St. Louis] Franklin County silences public comment after heated meetings](https://www.ksdk.com/article/news/politics/franklin-county-silences-public-comment-after-heated-meetings/63-30d9aa1c-b85a-4f47-9ed0-afdcd43aed70) — *2026-06-04*
-  > Residents and the county clerk criticize Franklin County commissioners for suspending public comment, calling the move a threat to public accountability.
-- **NEW**  [[St. Louis] St. Louis will host Olympic marathon trials in 2028, officials announce](https://www.ksdk.com/article/sports/olympics/st-louis-major-olympics-event-marathon-trials/63-ca9ce3f7-ef5b-4e87-87db-97d98eaf6537) — *2026-06-04*
-  > City officials on Thursday scheduled an announcement for the "major" Olympics-related sporting event coming to St. Louis.
+- **NEW**  [[St. Louis] California student killed after high school graduation ceremony was still wearing his robes when he was shot](https://www.ksdk.com/article/news/nation-world/california-student-killed-after-high-school-graduation-ceremony-robe/507-e4954fae-a30a-43cd-ad91-14c23bf6d8bb) — *2026-06-05*
+  > A growing memorial now sits in the parking lot where families had gathered to celebrate graduation before the evening ended in gunfire.
+- **NEW**  [[St. Louis] 'Thank you for loving Kyle': Kyle Busch's family releases statement following NASCAR legend's death](https://www.ksdk.com/article/news/nation-world/kyle-busch-family-statement-following-nascar-legends-death/507-9ea456c1-a410-4bf0-b227-ed713b8997e6) — *2026-06-05*
+  > The two-time NASCAR Cup Series champion passed away on May 21.
+- **NEW**  [[St. Louis] Legionella bacteria found in water at SLPS central office, employees moved to other buildings](https://www.ksdk.com/article/news/local/legionella-bacteria-water-slps-central-office-employees-moved-other-buildings/63-ddb784b0-ae95-483a-939d-f399149d676f) — *2026-06-05*
+  > The district will conduct additional testing to determine the extent of the bacteria and "whether it presents any health or safety risk."
+- **NEW**  [[St. Louis] WATCH: Video shows moment truck-driving preacher helps thwart alleged kidnapping in South Carolina](https://www.ksdk.com/article/news/nation-world/video-truck-driving-preacher-thwarts-alleged-kidnapping-south-carolina/507-82b2d5aa-1029-410b-b089-521c5a8758b0) — *2026-06-05*
+  > A handcuffed woman ran into a trucker's path in South Carolina. He says God put him there. And it was all caught on camera.
+- **NEW**  [[St. Louis] Some Facebook users may soon get a second settlement payment. Here's what to know](https://www.ksdk.com/article/news/nation-world/facebook-settlement-second-payments-when-are-they-coming/507-1901ace9-cb13-47a1-879f-caf9f7cf7a0c) — *2026-06-05*
+  > According to the Facebook settlement administrator's website, a second distribution of payouts was approved in early May.
+- **NEW**  [[St. Louis] 'Ted Lasso' and 'Buffy' actor Anthony Head has died](https://www.ksdk.com/article/news/nation-world/anthony-head-dies-ted-lasso-buffy-the-vampire-slayer/507-7403c9e1-3aa7-438b-a694-5a48b7b1740b) — *2026-06-05*
+  > Head achieved U.S. fame as librarian Rupert Giles in cult-favorite supernatural series “Buffy the Vampire Slayer,” which ran from 1997 to 2003.
+- **NEW**  [[St. Louis] Astronauts aboard ISS briefly ordered to shelter amid air leak repairs, NASA says](https://www.ksdk.com/article/news/nation-world/international-space-station-air-leak-astronauts-return-to-normal/507-e7e10f78-4557-4fdc-ba42-7f41a9283eac) — *2026-06-05*
+  > The decision to have astronauts take shelter on a spacecraft docked at the ISS was made “out of an abundance of caution,” a NASA spokesperson said.
 
-_(200 additional items in raw.jsonl)_
+_(212 additional items in raw.jsonl)_

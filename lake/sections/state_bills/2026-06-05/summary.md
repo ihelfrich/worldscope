@@ -2,23 +2,25 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-05
-record_count: 127
-new_today: 93
+record_count: 128
+new_today: 94
 state: fresh
 ---
 
 ## State Legislative Action
 
-93 new of 127 total items today.
+94 new of 128 total items today.
 
+- **NEW**  [[Alaska SB 174] An Act establishing the Alaska Invasive Species Council in the Department of Fish and Game; relating to management of invasive species; and providing for an effective date.]() — *2026-06-05*
+  > An Act establishing the Alaska Invasive Species Council in the Department of Fish and Game; relating to management of invasive species; and providing for an effective date.
+- [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-06-05*
+  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
 - **NEW**  [[Alaska SB 275] An Act relating to natural gas and natural gas projects; relating to the Alaska Gasline Development Corporation; relating to the powers and duties of the Legislative Budget and Audit Committee; relating to the value of certain oil and gas; relating to an income tax on certain natural]() — *2026-06-05*
   > An Act relating to natural gas and natural gas projects; relating to the Alaska Gasline Development Corporation; relating to the powers and duties of the Legislative Budget and Audit Committee; relating to the value of certain oil and gas; relating to an income tax on certain nat
 - **NEW**  [[Alaska HJR 10] Proposing amendments to the Constitution of the State of Alaska relating to the Alaska permanent fund and to appropriations from the Alaska permanent fund.]() — *2026-06-05*
   > Proposing amendments to the Constitution of the State of Alaska relating to the Alaska permanent fund and to appropriations from the Alaska permanent fund.
 - [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-05*
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
-- [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-06-05*
-  > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
 - **NEW**  [[Alaska HCR 2] Proposing an amendment to the Uniform Rules of the Alaska State Legislature relating to voting and abstention from voting.]() — *2026-06-05*
   > Proposing an amendment to the Uniform Rules of the Alaska State Legislature relating to voting and abstention from voting.
 - **NEW**  [[Alaska HB 152] An Act establishing an education tax on the income of individuals, partners, shareholders in S corporations, trusts, and estates; repealing tax credits applied against the tax on individuals under the Alaska Net Income Tax Act; and providing for an effective date.]() — *2026-06-05*
@@ -59,7 +61,5 @@ state: fresh
   > Authorizing the Senate and the House of Representatives to recess for a period of more than three days.
 - **NEW**  [[Alaska SB 79] An Act relating to wage payments; and providing for an effective date.]() — *2026-06-05*
   > An Act relating to wage payments; and providing for an effective date.
-- **NEW**  [[Alaska SB 272] An Act relating to the electronic health information exchange system; and providing for an effective date.]() — *2026-06-05*
-  > An Act relating to the electronic health information exchange system; and providing for an effective date.
 
-_(102 additional items in raw.jsonl)_
+_(103 additional items in raw.jsonl)_

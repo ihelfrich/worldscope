@@ -2,21 +2,21 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-06-05
-record_count: 884
-new_today: 672
+record_count: 874
+new_today: 675
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-672 new of 884 total items today.
+675 new of 874 total items today.
 
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-06-05*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-05*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-06-05*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-06-05*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] ‘Family values’ African charter condemned by rights groups as regressive and dangerous](https://www.theguardian.com/global-development/2026/jun/05/ghana-african-charter-family-values-gender-women-sex-lgbtq-reproductive-rights) — *2026-06-05*
 - **NEW**  [[Global] Experts criticise plan for American-only Ebola quarantine centre in Kenya](https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya) — *2026-06-04*
 - **NEW**  [[Global] Civilians flee as Somali troops and opposition-allied militias trade fire in Mogadishu](https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire) — *2026-06-04*
@@ -31,13 +31,13 @@ state: fresh
 - **NEW**  [[Global] Nauru issues rare statement after whistleblower alleges violent threats against Australia’s non-citizens](https://www.theguardian.com/australia-news/2026/jun/04/nauru-issues-rare-statement-after-whistleblower-alleges-violent-threats-against-non-citizens-ntwnfb) — *2026-06-04*
 - **NEW**  [[Global] Europe’s far right exploit Henry Nowak murder in UK with populist rhetoric on race](https://www.theguardian.com/world/2026/jun/04/polish-far-right-nowak-britain-descent-depths-earth) — *2026-06-04*
 - [[Global] Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens](https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag) — *2026-06-04*
+- **NEW**  [[Global] Australian housing was already cooling before the budget – but how cold it gets depends on two key factors](https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes) — *2026-06-05*
 - **NEW**  [[Global] One Nation, six farcical explanations and no clearer understanding of its housing policy](https://www.theguardian.com/australia-news/2026/jun/05/one-nation-pauline-hanson-housing-policy-ntwnfb) — *2026-06-05*
 - **NEW**  [[Global] Allegra Spender defends voting against CGT reform – as it happened](https://www.theguardian.com/australia-news/live/2026/jun/05/tax-changes-labor-coalition-politics-housing-prices-nsw-pharmacists-trump-tariffs-ntwnfb) — *2026-06-05*
 - **NEW**  [[Global] Woman illegally strip-searched by police ‘reasonably thought’ officers would call her a liar, judge says](https://www.theguardian.com/australia-news/2026/jun/05/woman-illegally-strip-searched-by-police-music-festival-court-case-ntwnfb) — *2026-06-05*
 - **NEW**  [[Global] ANU scandals during Julie Bishop’s tenure caused $100m in reputational damage, university estimates](https://www.theguardian.com/australia-news/2026/jun/05/anu-australian-national-university-julie-bishop-scandals-reputational-damage-ntwnfb) — *2026-06-05*
-- **NEW**  [[Global] Tech companies invoke possibility of Trump’s wrath in fight against Labor’s media laws](https://www.theguardian.com/australia-news/2026/jun/05/tech-companies-industry-fight-against-australia-labor-news-bargaining-incentive-media-laws) — *2026-06-05*
-- **NEW**  [[Global] William Hill owner agrees £243m takeover by Greek casino and lottery firm](https://www.theguardian.com/business/2026/jun/05/william-hill-owner-agrees-evoke-takeover-greek-casino-lottery-firm) — *2026-06-05*
-- **NEW**  [[Global] EU summit with western Balkan leaders to reaffirm membership prospects](https://www.theguardian.com/world/2026/jun/05/eu-summit-montenegro-western-balkan-countries-membership-enlargement) — *2026-06-05*
-- **NEW**  [[Global] Divine intervention: why Pope Leo visit could be a godsend for Pedro Sánchez](https://www.theguardian.com/world/2026/jun/05/divine-intervention-pope-leo-spain-tour-pedro-sanchez-boost) — *2026-06-05*
+- **NEW**  [[Global] Putin rejects Zelenskyy’s offer to meet and reaffirms Ukraine war aims](https://www.theguardian.com/world/2026/jun/05/putin-rejects-zelenskyys-offer-to-meet-and-reaffirms-ukraine-war-aims) — *2026-06-05*
+- **NEW**  [[Global] Outrage in Albania over Kushner-Trump $1.6bn luxury resort – The Latest](https://www.theguardian.com/world/audio/2026/jun/05/outrage-in-albania-over-kushner-trump-16bn-luxury-resort-plan-the-latest) — *2026-06-05*
+- **NEW**  [[Global] Scientists make sourdough bread using yeast found in 5,000-year-old mummy](https://www.theguardian.com/science/2026/jun/05/scientists-sourdough-bread-yeast-strains-mummy) — *2026-06-05*
 
-_(859 additional items in raw.jsonl)_
+_(849 additional items in raw.jsonl)_

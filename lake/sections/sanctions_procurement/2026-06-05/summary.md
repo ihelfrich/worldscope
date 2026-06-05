@@ -2,19 +2,21 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-06-05
-record_count: 116
-new_today: 17
+record_count: 117
+new_today: 18
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-17 new of 116 total items today.
+18 new of 117 total items today.
 
 - **NEW**  [[OFAC] Cuba Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-04*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TN0Z3SEw4N0lGYTNuOEFOMy0zdm1kNzYxM3Rfd1RuZEFXYzJ3azFKcEhITVBUc3ZNRjFSakhwamZGY2hCSjh4Wkx1SVN4LUwxNktNT1BEdzVOTDZRSFE?oc=5" target="_blank">Cuba Designations; Issuance of Cuba-related Frequently Asked Question</a>&nbsp;&
 - [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-04*
   > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WMjlDczhOY3RiSXpEMnJjSU9UVFlTb2xpOXB3a1FoQ01Zd21MVlVwSVNOUTZ2TVJHejJfMkpJM1p3dm92RTFscEZ6UXpVUFNNTkFCOExDSDBLS00?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
+- **NEW**  [[OFAC] Iran-related Designations; Counter Terrorism Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-05*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5waWRTNEhhUTE5VnJkam5DUEM1ZEw3cmk2T1UzeVVvODMxSXpCQ1Bwal9mWlJyQ29xU1ZPQ0E5Qlhvb3J2cnFXLUVsQmRhZ29yOGNfS0VIWkVYVFctUUE?oc=5" target="_blank">Iran-related Designations; Counter Terrorism Designations Updates</a>&nbsp;&nbsp
 - [[OFAC] Counter Terrorism and Iran-related Designations; Democratic Republic of the Congo-related Designations; Issuance of Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-02*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wUkY4R3d1eEg3R0dFYkZqSm8wSjdUWnhFRjNnV2pwaFZoXzFLenRaVEVGY0hnZnZmbkpJeEJLdVVhN2xzWWg3MEZaTWpPM3dvbmlsekxldER2LXdnVEE?oc=5" target="_blank">Counter Terrorism and Iran-related Designations; Democratic Republic of the Cong
 - [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-02*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: Department of Energy.  Description: THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMPLETION CONTRACT - TASK ORDER 6 (LIQUID WASTE OPERATIONS).
 - [[USASpending] $1,738,511,190 → BLUE ORIGIN MANUFACTURING, LLC: RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING](https://www.usaspending.gov/award/80MSFC23CA014) — *2026-06-05*
   > Agency: National Aeronautics and Space Administration.  Description: RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED LANDER.
-- **NEW**  [[USASpending] $1,594,955,955 → NORTHROP GRUMMAN SYSTEMS CORPORATION: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUI](https://www.usaspending.gov/award/NNH15CN76C) — *2026-06-05*
-  > Agency: National Aeronautics and Space Administration.  Description: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPACE STATION 
 
-_(91 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

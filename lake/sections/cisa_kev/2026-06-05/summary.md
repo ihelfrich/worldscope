@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-06-05
-record_count: 10
-new_today: 0
+record_count: 11
+new_today: 1
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 10 total items today.
+1 new of 11 total items today.
 
+- **NEW**  [CVE-2026-28318 · SolarWinds Serv-U: SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-28318) — *2026-06-05*
+  > vendor: SolarWinds · product: Serv-U · CISA remediation by 2026-06-19
 - [CVE-2026-45247 · Mirasvit Mirasvit Full Page Cache Warmer: Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-45247) — *2026-06-03*
   > vendor: Mirasvit · product: Mirasvit Full Page Cache Warmer · CISA remediation by 2026-06-06
 - [CVE-2022-0492 · Linux Kernel: Linux Kernel Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2022-0492) — *2026-06-02*

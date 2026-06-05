@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United Kingdom] Stop cleaning duvets and pillows in washing machines when alternative is easier and faster](https://www.mirror.co.uk/lifestyle/stop-cleaning-duvets-pillows-washing-37251401) — *2026-06-05*
-  > domain: mirror.co.uk · language: English · tone:
-- **NEW**  [[United Kingdom] Jury continues deliberations in trial of two teenagers accused of beach murder](https://www.burytimes.co.uk/news/national/26168962.jury-continues-deliberations-trial-two-teenagers-accused-beach-murder/) — *2026-06-05*
-  > domain: burytimes.co.uk · language: English · tone:
-- **NEW**  [[Australia] Elicia Tjong : extended care paramedics ease pressure on busy EDs | The Advertiser - Cessnock](https://www.cessnockadvertiser.com.au/story/9286707/elicia-tjong-extended-care-paramedics-ease-pressure-on-busy-eds/) — *2026-06-05*
-  > domain: cessnockadvertiser.com.au · language: English · tone:
-- **NEW**  [[Australia] Origin - of - life oxygen exhibit a  scientific experiment  ](https://www.cessnockadvertiser.com.au/story/9286984/origin-of-life-oxygen-exhibit-a-scientific-experiment/) — *2026-06-05*
-  > domain: cessnockadvertiser.com.au · language: English · tone:
-- **NEW**  [[United States] Trump Open to Meeting Ayatollah for Iran Deal | Newsradio 92 . 7 WBEX](https://wbex.iheart.com/content/2026-06-05-trump-open-to-meeting-ayatollah-for-iran-deal/) — *2026-06-05*
-  > domain: wbex.iheart.com · language: English · tone:
-- **NEW**  [[India] Police detain BJP MLA Yatnal during protest against Karnataka govt Hijab ban withdrawal in schools](http://www.calcuttanews.net/news/279103611/police-detain-bjp-mla-yatnal-during-protest-against-karnataka-govt-hijab-ban-withdrawal-in-schools) — *2026-06-05*
-  > domain: calcuttanews.net · language: English · tone:
-- **NEW**  [[Singapore] Top Gun : Maverick actor James Handy murdered](https://www.asiaone.com:443/entertainment/top-gun-maverick-actor-james-handy-murdered) — *2026-06-05*
-  > domain: asiaone.com · language: English · tone:
-- **NEW**  [[United States] Senate passes $70B immigration enforcement bill without limits on Trump settlement fund](https://www.wrvo.org/2026-06-05/senate-passes-70b-immigration-enforcement-bill-without-limits-on-trump-settlement-fund) — *2026-06-05*
-  > domain: wrvo.org · language: English · tone:
-- **NEW**  [[United Kingdom] Chinese leader will travel to North Korea next week in first visit since 2019](https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/26168799.chinese-leader-will-travel-north-korea-next-week-first-visit-since-2019/) — *2026-06-05*
-  > domain: burnhamandhighbridgeweeklynews.co.uk · language: English · tone:
-- **NEW**  [[United Kingdom] Chelmsford man found dead in Dorset as police share update | Clacton and Frinton Gazette](https://www.clactonandfrintongazette.co.uk/news/26168870.chelmsford-man-found-dead-dorset-police-share-update/) — *2026-06-05*
-  > domain: clactonandfrintongazette.co.uk · language: English · tone:
-- **NEW**  [[United States] Senate votes to fund immigration enforcement without limits on Trump anti - weaponization fund](https://www.nbcnews.com/politics/congress/senate-votes-immigration-enforcement-trump-anti-weaponization-fund-rcna348611) — *2026-06-05*
-  > domain: nbcnews.com · language: English · tone:
-- **NEW**  [[Papua New Guinea] Modilon crisis exposes lack of accountability](https://www.thenational.com.pg/modilon-crisis-exposes-lack-of-accountability/) — *2026-06-05*
-  > domain: thenational.com.pg · language: English · tone:
-- **NEW**  [[Ireland] MOBO Awards founder Kanya King dies aged 57](https://www.rte.ie/entertainment/2026/0605/1576915-mobo-awards-founder-kanya-king-dies-aged-57/) — *2026-06-05*
-  > domain: rte.ie · language: English · tone:
-- **NEW**  [[United States] Trump Open to Meeting Ayatollah for Iran Deal | NewsTalk WMEQ](https://wmeq.iheart.com/content/2026-06-05-trump-open-to-meeting-ayatollah-for-iran-deal/) — *2026-06-05*
-  > domain: wmeq.iheart.com · language: English · tone:
-- **NEW**  [[United Kingdom] Im raising kids in a two - dad home Prince William view on periods is different for us](https://metro.co.uk/2026/06/05/im-raising-kids-a-two-dad-home-prince-williams-view-periods-different-us-28645568/) — *2026-06-05*
-  > domain: metro.co.uk · language: English · tone:
-- **NEW**  [[Greece] Theodorikakos : Multinationals Cant Charge 100 % + Margins](https://athens-times.com/theodorikakos-multinationals-cant-sell-with-100-120-profit-margins/) — *2026-06-05*
-  > domain: athens-times.com · language: English · tone:
-- **NEW**  [[United Kingdom] Rough sleeping kills . How NHS workers save lives on the street](https://www.bigissue.com/news/housing/rough-sleepers-nhs-outreach-project/) — *2026-06-05*
-  > domain: bigissue.com · language: English · tone:
-- **NEW**  [[Germany] Antipodean Currencies Fall Amid Risk - Aversion](https://www.finanznachrichten.de/nachrichten-2026-06/68690760-antipodean-currencies-fall-amid-risk-aversion-020.htm) — *2026-06-05*
-  > domain: finanznachrichten.de · language: English · tone:
-- **NEW**  [[United States] Senate Passes $70 Billion ICE and Border Patrol Bill](https://www.kcra.com/article/senate-passes-70-billion-ice-border-patrol-funding-bill/71502984) — *2026-06-05*
-  > domain: kcra.com · language: English · tone:
-- **NEW**  [[United States] Driver airlifted to hospital after serious crash in Berrien County](https://wsbt.com/news/local/driver-airlifted-to-hospital-after-serious-crash-in-berrien-county-chikaming-township-driving-seatbelt-east-road-i-94-evidence-ditch-medical-investigation-michigan) — *2026-06-05*
-  > domain: wsbt.com · language: English · tone:
-- **NEW**  [[United States] Do Israeli voters still trust Benjamin Netanyahu ? ](https://www.csmonitor.com/World/Middle-East/2026/0605/Israel-Netanyahu-election-Lebanon-Trump-Iran) — *2026-06-05*
-  > domain: csmonitor.com · language: English · tone:
-- **NEW**  [[China] Gas tank blast kills two and injures 13 at Liaoning shop](http://africa.chinadaily.com.cn/a/202606/05/WS6a223c80a310d6866eb4ca3e.html) — *2026-06-05*
-  > domain: africa.chinadaily.com.cn · language: English · tone:
-- **NEW**  [[United States] This Minnesota City Wants All Goose Eggs GONE](https://kikn.com/ixp/481/p/rochester-canada-geese-issue/) — *2026-06-05*
-  > domain: kikn.com · language: English · tone:
-- **NEW**  [[United States] NPR photojournalist David Gilkey , in remembrance](https://www.kclu.org/arts-culture/2026-06-05/npr-photojournalist-david-gilkey-in-nbsp-remembrance) — *2026-06-05*
-  > domain: kclu.org · language: English · tone:
-- **NEW**  [[United Kingdom] Chinese leader will travel to North Korea next week in first visit since 2019](https://www.impartialreporter.com/news/national/26168799.chinese-leader-will-travel-north-korea-next-week-first-visit-since-2019/) — *2026-06-05*
-  > domain: impartialreporter.com · language: English · tone:
+- **NEW**  [[Israel] Secular man attacked by ultra - Orthadox protesters in Jerusalem](https://www.jpost.com/israel-news/article-898506) — *2026-06-05*
+  > domain: jpost.com · language: English · tone:
+- **NEW**  [[Israel] After years of hostile relations with Israel , Slovenia new prime minister signals diplomatic reset | JTA](https://www.clevelandjewishnews.com/jta/after-years-of-hostile-relations-with-israel-slovenia-s-new-prime-minister-signals-diplomatic-reset/article_1a0ed484-9432-56a7-92fd-3fb416eefcbd.html) — *2026-06-05*
+  > domain: clevelandjewishnews.com · language: English · tone:
+- **NEW**  [[United States] Innocent Woman Killed By Gunmen Who Fired 70 To 80 Shots At Wrong Target](https://b101.iheart.com/content/2026-06-05-innocent-woman-killed-by-gunmen-who-fired-70-to-80-shots-at-wrong-target/) — *2026-06-05*
+  > domain: b101.iheart.com · language: English · tone:
+- **NEW**  [[United States] Netflix New 3 - Part Michael Jackson Series Fuels Rotten Tomatoes Review Bomb After $855M Movie](https://screenrant.com/michael-jackson-the-verdict-netflix-rotten-tomatoes-score/) — *2026-06-05*
+  > domain: screenrant.com · language: English · tone:
+- **NEW**  [[United States] Person dies in crash on Highway 26 in Clatsop County](https://www.kgw.com/article/news/local/highway-26-deadly-crash-clatsop-county/283-bd03c939-4817-44f2-9b50-5cfa50c65fd3) — *2026-06-05*
+  > domain: kgw.com · language: English · tone:
+- **NEW**  [[United States] US employers likely added 105 , 000 jobs in May with labor market stable despite costly Iran war](https://www.timesfreepress.com/news/2026/jun/05/us-employers-likely-added-105000-jobs-in-may-with-labor-market-stable-despite-costly-iran-war/) — *2026-06-05*
+  > domain: timesfreepress.com · language: English · tone:
+- **NEW**  [[United States] Xi Jinping will travel to North Korea next week in first visit since 2019](https://www.apr.org/2026-06-05/xi-jinping-will-travel-to-north-korea-next-week-in-first-visit-since-2019) — *2026-06-05*
+  > domain: apr.org · language: English · tone:
+- **NEW**  [[United States] Trump administration imposes sanctions on Cuban president](https://www.abc12.com/news/politics/trump-administration-imposes-sanctions-on-cuban-president/article_fb322692-63cb-5232-b35c-33b76c555b26.html) — *2026-06-05*
+  > domain: abc12.com · language: English · tone:
+- **NEW**  [[United States]   Guardian angel : Deputy saves breast cancer patient trapped in fiery crash](https://ktvl.com/news/nation-world/guardian-angel-south-carolina-chester-county-deputy-saves-breast-cancer-patient-trapped-in-fiery-crash-interstate-77-radiation-treatment) — *2026-06-05*
+  > domain: ktvl.com · language: English · tone:
+- **NEW**  [[United States] Woman Leaps From Balcony To Escape Terrifying Three - Week kidnapping Ordeal](https://wibafm.iheart.com/content/2026-06-05-woman-leaps-from-balcony-to-escape-terrifying-three-week-kidnapping-ordeal/) — *2026-06-05*
+  > domain: wibafm.iheart.com · language: English · tone:
+- **NEW**  [[] Sri Lanka nursing home worker says a  chained  patient was among 13 fire victims | National News](https://www.2news.com/news/national/sri-lanka-nursing-home-worker-says-a-chained-patient-was-among-13-fire-victims/article_989377d0-f32b-5f4d-96c5-15dbf105c7bb.html) — *2026-06-05*
+  > domain: 2news.com · language: English · tone:
+- **NEW**  [[Pakistan] Pakistan vs India Stock Market : What Three Years of Data Actually Reveal](https://en.dailypakistan.com.pk/05-Jun-2026/pakistan-vs-india-stock-market-what-three-years-of-data-actually-reveal) — *2026-06-05*
+  > domain: en.dailypakistan.com.pk · language: English · tone:
+- **NEW**  [[United States]   Thank you for loving Kyle : Kyle Busch family releases statement following NASCAR legend death](https://www.whas11.com/article/news/nation-world/kyle-busch-family-statement-following-nascar-legends-death/507-9ea456c1-a410-4bf0-b227-ed713b8997e6) — *2026-06-05*
+  > domain: whas11.com · language: English · tone:
+- **NEW**  [[Australia] Putin says he sees no reason for now to meet Zelenskiy](https://www.perthnow.com.au/news/conflict/putin-says-he-sees-no-reason-for-now-to-meet-zelenskiy-c-22392443) — *2026-06-05*
+  > domain: perthnow.com.au · language: English · tone:
+- **NEW**  [[United States] Brad Pitt visits sets of Channing Tatum starrer  Isle of Man  ](http://www.bignewsnetwork.com/news/279104423/brad-pitt-visits-sets-of-channing-tatum-starrer-isle-of-man) — *2026-06-05*
+  > domain: bignewsnetwork.com · language: English · tone:
+- **NEW**  [[Israel] JNS takes home 13 awards in 45th annual AJPA journalism contest](https://www.clevelandjewishnews.com/jns/jns-takes-home-13-awards-in-45th-annual-ajpa-journalism-contest/article_97c55d91-e848-5c98-8008-41cd6caa30c9.html) — *2026-06-05*
+  > domain: clevelandjewishnews.com · language: English · tone:
+- **NEW**  [[United States] Samara Weaving New R - Rated Mystery Thriller Earns Stellar Rotten Tomatoes Score](https://screenrant.com/samara-weaving-carolina-carolina-rotten-tomatoes-score/) — *2026-06-05*
+  > domain: screenrant.com · language: English · tone:
+- **NEW**  [[United States] Life Spine Announces  Total Victory  in Patent Battle with Globus – Ortho Spine News](https://orthospinenews.com/2026/06/05/life-spine-announces-total-victory-in-patent-battle-with-globus/) — *2026-06-05*
+  > domain: orthospinenews.com · language: English · tone:
+- **NEW**  [[Bermuda] Arrests made after police execute warrant in St George - The Royal Gazette | Bermuda News , Business , Sports , Events , & Community](https://www.royalgazette.com/crime/news/article/20260605/arrests-made-after-police-execute-warrant-in-st-georges/) — *2026-06-05*
+  > domain: royalgazette.com · language: English · tone:
+- **NEW**  [[United States] Woman Leaps From Balcony To Escape Terrifying Three - Week kidnapping Ordeal](https://b101.iheart.com/content/2026-06-05-woman-leaps-from-balcony-to-escape-terrifying-three-week-kidnapping-ordeal/) — *2026-06-05*
+  > domain: b101.iheart.com · language: English · tone:
+- **NEW**  [[United States] Guru Somasundaram , Anumol starrer Paris Cafe teaser unveiled](http://www.bignewsnetwork.com/news/279104244/guru-somasundaram-anumol-starrer-paris-cafe-teaser-unveiled) — *2026-06-05*
+  > domain: bignewsnetwork.com · language: English · tone:
+- **NEW**  [[United States] Watch moment James Handy suspected killer is arrested](https://pagesix.com/2026/06/05/celebrity-news/watch-moment-james-handys-suspected-killer-is-arrested/) — *2026-06-05*
+  > domain: pagesix.com · language: English · tone:
+- **NEW**  [[United States] Innocent Woman Killed By Gunmen Who Fired 70 To 80 Shots At Wrong Target](https://mix1033.iheart.com/content/2026-06-05-innocent-woman-killed-by-gunmen-who-fired-70-to-80-shots-at-wrong-target/) — *2026-06-05*
+  > domain: mix1033.iheart.com · language: English · tone:
+- **NEW**  [[Philippines] Putin says he currently sees no reason to meet Ukraine Zelenskiy](https://tribune.net.ph/2026/06/05/putin-says-he-currently-sees-no-reason-to-meet-ukraines-zelenskiy) — *2026-06-05*
+  > domain: tribune.net.ph · language: English · tone:
+- **NEW**  [[Ireland] 20 - year - old given suspended sentence for drug charges  - News](https://www.waterford-news.ie/news/20-year-old-given-suspended-sentence-for-drug-charges_arid-100494.html) — *2026-06-05*
+  > domain: waterford-news.ie · language: English · tone:
 
 _(15 additional items in raw.jsonl)_

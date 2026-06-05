@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[Jazic Annemarie] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1707990/000110465926070716/0001104659-26-070716-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:35 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070716 Size: 13 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070716/0001104659-26-070716-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:35 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070716 Size: 13 KB
-- **NEW**  [[DILLARD MIKE] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1180008/000110465926070714/0001104659-26-070714-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:35 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070714 Size: 14 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070714/0001104659-26-070714-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:35 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070714 Size: 14 KB
-- **NEW**  [[Lucie Denise Alexandra] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1708000/000110465926070713/0001104659-26-070713-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:34 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070713 Size: 11 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070713/0001104659-26-070713-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:34 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070713 Size: 11 KB
-- **NEW**  [[MATHENY DRUE] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1180017/000110465926070712/0001104659-26-070712-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:33 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070712 Size: 11 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070712/0001104659-26-070712-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:33 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070712 Size: 11 KB
-- **NEW**  [[Mahaffy Denise Dillard] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1592712/000110465926070711/0001104659-26-070711-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:32 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070711 Size: 10 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070711/0001104659-26-070711-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:32 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070711 Size: 10 KB
-- **NEW**  [[DILLARD ALEX] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1180004/000110465926070710/0001104659-26-070710-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:31 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070710 Size: 15 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070710/0001104659-26-070710-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:31 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070710 Size: 15 KB
-- **NEW**  [[Dillard William T. III] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1592970/000110465926070707/0001104659-26-070707-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:31 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070707 Size: 18 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070707/0001104659-26-070707-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:31 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070707 Size: 18 KB
-- **NEW**  [424B7 - BrightSpring Health Services, Inc. (0001865782) (Filer)](https://www.sec.gov/Archives/edgar/data/1865782/000186578226000010/0001865782-26-000010-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:30 UTC — Filed: 2026-06-05 AccNo: 0001865782-26-000010 Size: 950 KB
-- **NEW**  [[DILLARD WILLIAM T II] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1179684/000110465926070706/0001104659-26-070706-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:30 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070706 Size: 14 KB
-- **NEW**  [[DILLARD'S, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/28917/000110465926070706/0001104659-26-070706-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:30 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070706 Size: 14 KB
-- **NEW**  [424B5 - Celcuity Inc. (0001603454) (Filer)](https://www.sec.gov/Archives/edgar/data/1603454/000149315226027395/0001493152-26-027395-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:28 UTC — Filed: 2026-06-05 AccNo: 0001493152-26-027395 Size: 1 MB
-- **NEW**  [[Qiu Wenbin] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1975717/000110465926070696/0001104659-26-070696-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:16 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001104659-26-070696 Size: 7 KB
-- **NEW**  [[Baozun Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1625414/000110465926070696/0001104659-26-070696-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:16 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001104659-26-070696 Size: 7 KB
-- **NEW**  [[Jiang Jun Jason] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2126427/000121390026065479/0001213900-26-065479-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001213900-26-065479 Size: 11 KB
-- **NEW**  [[Jinxin Technology Holding Co] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1967631/000121390026065479/0001213900-26-065479-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001213900-26-065479 Size: 11 KB
-- **NEW**  [[DAVIS GEOFFREY STUART] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1992533/000119312526258297/0001193125-26-258297-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:04 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001193125-26-258297 Size: 4 KB
-- **NEW**  [[Melco Resorts & Entertainment LTD] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1381640/000119312526258297/0001193125-26-258297-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:04 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001193125-26-258297 Size: 4 KB
-- **NEW**  [424B4 - AEVEX Corp. (0002096300) (Filer)](https://www.sec.gov/Archives/edgar/data/2096300/000119312526258295/0001193125-26-258295-index.htm) — *2026-06-05*
-  > filed 2026-06-05 10:03 UTC — Filed: 2026-06-05 AccNo: 0001193125-26-258295 Size: 7 MB
+- **NEW**  [424B2 - GS Finance Corp. (0001419828) (Filer)](https://www.sec.gov/Archives/edgar/data/1419828/000119312526259591/0001193125-26-259591-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:14 UTC — Filed: 2026-06-05 AccNo: 0001193125-26-259591 Size: 591 KB
+- **NEW**  [424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)](https://www.sec.gov/Archives/edgar/data/886982/000119312526259591/0001193125-26-259591-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:14 UTC — Filed: 2026-06-05 AccNo: 0001193125-26-259591 Size: 591 KB
+- **NEW**  [[Smith Michael Alexander] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1870278/000187027826000017/0001870278-26-000017-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:14 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001870278-26-000017 Size: 4 KB
+- **NEW**  [[INSMED Inc] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1104506/000187027826000017/0001870278-26-000017-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:14 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001870278-26-000017 Size: 4 KB
+- **NEW**  [[Orvidas Laura] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2030095/000203009526000002/0002030095-26-000002-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0002030095-26-000002 Size: 5 KB
+- **NEW**  [[NETGEAR, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1122904/000203009526000002/0002030095-26-000002-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0002030095-26-000002 Size: 5 KB
+- **NEW**  [[Casey George] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1850870/000185087026000006/0001850870-26-000006-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001850870-26-000006 Size: 7 KB
+- **NEW**  [[Leonardo DRS, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1833756/000185087026000006/0001850870-26-000006-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001850870-26-000006 Size: 7 KB
+- **NEW**  [[HA Sustainable Infrastructure Capital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1561894/000156189426000128/0001561894-26-000128-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001561894-26-000128 Size: 17 KB
+- **NEW**  [[ARDISANA LIZABETH A] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1283890/000156189426000128/0001561894-26-000128-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000128 Size: 17 KB
+- **NEW**  [424B2 - TORONTO DOMINION BANK (0000947263) (Filer)](https://www.sec.gov/Archives/edgar/data/947263/000114036126024272/0001140361-26-024272-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC — Filed: 2026-06-05 AccNo: 0001140361-26-024272 Size: 337 KB
+- **NEW**  [[HA Sustainable Infrastructure Capital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1561894/000156189426000127/0001561894-26-000127-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001561894-26-000127 Size: 17 KB
+- **NEW**  [[OSGOOD STEVEN G] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1306273/000156189426000127/0001561894-26-000127-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000127 Size: 17 KB
+- **NEW**  [[Eckel Jeffrey] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1574200/000156189426000126/0001561894-26-000126-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000126 Size: 23 KB
+- **NEW**  [[HA Sustainable Infrastructure Capital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1561894/000156189426000126/0001561894-26-000126-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001561894-26-000126 Size: 23 KB
+- **NEW**  [497 - Tidal Trust III (0001722388) (Filer)](https://www.sec.gov/Archives/edgar/data/1722388/000199937126012221/0001999371-26-012221-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:13 UTC — Filed: 2026-06-05 AccNo: 0001999371-26-012221 Size: 22 KB
+- **NEW**  [[Armbrister Clarence D] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1850745/000156189426000125/0001561894-26-000125-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000125 Size: 17 KB
+- **NEW**  [[HA Sustainable Infrastructure Capital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1561894/000156189426000125/0001561894-26-000125-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001561894-26-000125 Size: 17 KB
+- **NEW**  [[Butterfass Sarah] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1826252/000182625226000002/0001826252-26-000002-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001826252-26-000002 Size: 5 KB
+- **NEW**  [[NETGEAR, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1122904/000182625226000002/0001826252-26-000002-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001826252-26-000002 Size: 5 KB
+- **NEW**  [[HA Sustainable Infrastructure Capital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1561894/000156189426000124/0001561894-26-000124-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001561894-26-000124 Size: 17 KB
+- **NEW**  [[Floyd Nancy C] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1522601/000156189426000124/0001561894-26-000124-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000124 Size: 17 KB
+- **NEW**  [[Baker Gail] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1851842/000185184226000004/0001851842-26-000004-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001851842-26-000004 Size: 7 KB
+- **NEW**  [[Leonardo DRS, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1833756/000185184226000004/0001851842-26-000004-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Issuer — Filed: 2026-06-05 AccNo: 0001851842-26-000004 Size: 7 KB
+- **NEW**  [[Schulte Laura Ann] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2066996/000156189426000123/0001561894-26-000123-index.htm) — *2026-06-05*
+  > filed 2026-06-05 20:12 UTC · role: Reporting — Filed: 2026-06-05 AccNo: 0001561894-26-000123 Size: 16 KB
 
 _(15 additional items in raw.jsonl)_
