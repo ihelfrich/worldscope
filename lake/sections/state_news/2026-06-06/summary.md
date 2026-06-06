@@ -1,0 +1,68 @@
+---
+section: state_news
+title: State-Level News
+date: 2026-06-06
+record_count: 659
+new_today: 79
+state: fresh
+---
+
+## State-Level News
+
+79 new of 659 total items today.
+
+- [[Alabama] Governor Ivey Approves Request for Alabama National Guard to Support America 250 Events in Nation’s Capital](https://governor.alabama.gov/newsroom/2026/06/governor-ivey-approves-request-for-alabama-national-guard-to-support-america-250-events-in-nations-capital/) — *2026-06-04*
+  > MONTGOMERY – Governor Kay Ivey on Thursday announced she approved a request for the Alabama National Guard (ALNG) to support operations surrounding the America 250 events in Washington, D.C. “One month from today, our nation will mark 250 years of &#8230; <a href="https://governo
+- **NEW**  [[California] Governor Newsom visits Space Beach and highlights California’s aerospace dominance](https://www.gov.ca.gov/2026/06/05/governor-newsom-visits-space-beach-and-highlights-californias-aerospace-dominance/) — *2026-06-05*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Vast-Gavin-Newsom-017-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/06/05/governor-newsom-visits-space-
+- [[California] Governor Newsom fast-tracks 400 wildfire prevention projects, expands prescribed fire, and unveils draft five-year action plan](https://www.gov.ca.gov/2026/06/05/governor-newsom-fast-tracks-400-wildfire-prevention-projects-expands-prescribed-fire-and-unveils-draft-five-year-action-plan/) — *2026-06-05*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Governor-Newsom-fast-tracks-400-wildfire-prevention-projects-expands-prescribed-fire-and-unveils-draft-five-year-action-plan-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-pos
+- [[California] Delta Conveyance Project receives critical federal clearance to advance construction](https://www.gov.ca.gov/2026/06/05/delta-conveyance-project-receives-critical-federal-clearance-to-advance-construction/) — *2026-06-05*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/06/05/delta-conveya
+- [[California] Governor Newsom honors National Gun Violence Awareness Day, highlights nation-leading gun safety laws](https://www.gov.ca.gov/2026/06/05/governor-newsom-honors-national-gun-violence-awareness-day-highlights-nation-leading-gun-safety-laws/) — *2026-06-05*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Governor-Newsom-honors-National-Gun-Violence-Awareness-Day-highlights-nation-leading-gun-safety-laws-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic 
+- [[California] Governor Newsom announces appointments 6.4.2026](https://www.gov.ca.gov/2026/06/04/governor-newsom-announces-appointments-6-4-2026/) — *2026-06-05*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/06/0
+- [[California] Governor Newsom announces expansion of the world’s largest civilian aerial firefighting fleet: deployment of fourth C-130 H airtanker and new helitack base](https://www.gov.ca.gov/2026/06/04/governor-newsom-announces-expansion-of-the-worlds-largest-civilian-aerial-firefighting-fleet-deployment-of-fourth-c-130-h-airtanker-and-new-helitack-base/) — *2026-06-04*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Governor-Newsom-announces-expansion-of-the-worlds-largest-civilian-aerial-firefighting-fleet-deployment-of-fourth-C-130-H-airtanker-and-new-helitack-base-150x150.png" class="attachment-thumbnail 
+- [[California] California charts smarter path to support farmers and ranchers while maintaining food safety and clean water](https://www.gov.ca.gov/2026/06/04/california-charts-smarter-path-to-support-farmers-and-ranchers-while-maintaining-food-safety-and-clean-water/) — *2026-06-04*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/California-charts-smarter-path-to-support-farmers-and-ranchers-while-maintaining-food-safety-and-clean-water-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Ca
+- [[California] Trump data confirms that Governor Newsom’s strategies have led to the largest reduction in homelessness nationwide](https://www.gov.ca.gov/2026/06/04/trump-data-confirms-that-governor-newsoms-strategies-have-led-to-the-largest-reduction-in-homelessness-nationwide/) — *2026-06-04*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/Trump-data-confirms-that-Governor-Newsoms-strategies-have-led-to-the-largest-reduction-in-homelessness-nationwide-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" al
+- [[California] California continues aggressive fight against organized retail theft, recovering nearly $260 million in stolen merchandise](https://www.gov.ca.gov/2026/06/04/california-continues-aggressive-fight-against-organized-retail-theft-recovering-nearly-260-million-in-stolen-merchandise/) — *2026-06-04*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/RELEASE-BSCC-2-year-update-on-ORT-VP-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic that says California continues aggressive fight against organized retail
+- [[Arkansas] US Senate blocks Trump’s SAVE America Act, thwarting restrictions on voting](https://arkansasadvocate.com/2026/06/05/repub/us-senate-blocks-trumps-save-america-act-thwarting-restrictions-on-voting/) — *2026-06-05*
+  > The U.S. Senate rejected the SAVE America Act on Thursday, dealing a blow to President Donald Trump’s efforts to impose voting restrictions ahead of the November midterm elections. Senators voted 48-50 against advancing an amendment that would have incorporated Trump’s top legisl
+- [[Arkansas] Trump administration processing freeze on asylum seekers violated law, judge rules](https://arkansasadvocate.com/2026/06/05/repub/trump-administration-processing-freeze-on-asylum-seekers-violated-law-judge-rules/) — *2026-06-05*
+  > WASHINGTON — A federal judge in Rhode Island Friday struck down several Trump administration policies that halted processing for asylum seekers following a shooting in Washington, D.C., that left one West Virginia National Guard member dead and another seriously injured. In a sea
+- [[Arkansas] Republicans push $70B for immigration enforcement through US Senate, with no limits on ICE](https://arkansasadvocate.com/2026/06/05/repub/republicans-push-70b-for-immigration-enforcement-through-us-senate-with-no-limits-on-ice/) — *2026-06-05*
+  > WASHINGTON — The U.S. Senate approved a nearly $70 billion package early Friday, moving Republicans one step closer to funding immigration and deportation activities for the next three years without negotiating new constraints on federal agents with Democrats.  The 52-47 mostly p
+- [[Arkansas] First-time homebuyers face hurdles despite gradual improvement](https://arkansasadvocate.com/2026/06/05/repub/first-time-homebuyers-face-hurdles-despite-gradual-improvement/) — *2026-06-05*
+  > The idea started with a sermon Micah Longmire heard at his Presbyterian church in Ogden, Utah, about the importance of grandparents in a child’s life. Longmire, now 31, exchanged a look with his mother-in-law. “We were like, ‘I’d be OK living with you after that sermon,’ and the 
+- [[Arkansas] Murder charge dismissed against Arkansas man running for county sheriff](https://arkansasadvocate.com/2026/06/04/murder-charge-dismissed-against-arkansas-man-running-for-county-sheriff/) — *2026-06-04*
+  > A second degree murder case was dismissed against the Arkansas man who won the Republican nomination for Lonoke County sheriff as he awaited trial on the charge he killed his daughter’s accused sexual abuser. Special Circuit Court Judge Ralph Wilson Jr. cited violations of Aaron 
+- [[Arkansas] Trump to pump $700M into coal power in the states, as he again blasts renewable energy](https://arkansasadvocate.com/2026/06/04/repub/trump-to-pump-700m-into-coal-power-in-the-states-as-he-again-blasts-renewable-energy/) — *2026-06-04*
+  > The federal government will spend $700 million on building or refurbishing coal power infrastructure across the country in a boost to “clean, beautiful coal,” President Donald Trump said Thursday in the Oval Office. Trump said he was invoking the Cold War-era Defense Production A
+- [[Arkansas] US Senate launches marathon session to pass nearly $70B for ICE, Border Patrol](https://arkansasadvocate.com/2026/06/04/repub/us-senate-launches-marathon-session-to-pass-nearly-70b-for-ice-border-patrol/) — *2026-06-04*
+  > WASHINGTON — U.S. Senate Republicans fended off an attempt Thursday to block the Department of Justice from using an “anti-weaponization” fund to pay people who feel they were wrongly prosecuted, as well as another proposal that sought to require congressional authorization for a
+- [[Arkansas] Trump picks acting AG Blanche to stay on full time](https://arkansasadvocate.com/2026/06/04/repub/trump-picks-acting-ag-blanche-to-stay-on-full-time/) — *2026-06-04*
+  > WASHINGTON — President Donald Trump will nominate acting Attorney General Todd Blanche, his former personal lawyer, to fill the top role at the Department of Justice on a permanent basis, he said Wednesday night. Trump revealed Blanche as his choice at an outdoor event at the Whi
+- [[Arkansas] UPDATED: PBS programs will remain in Arkansas after commission accepts funds raised for dues](https://arkansasadvocate.com/2026/06/04/pbs-programs-will-remain-in-arkansas-after-commission-accepts-funds-raised-for-dues/) — *2026-06-04*
+  > PBS programs will be available in Arkansas for another year after the state’s public television commission agreed Thursday to pay PBS dues and undo its effort to cut ties from the national network. Arkansas had been set to become the first state to cut off from PBS, but paused th
+- [[Arkansas] Inspection shows sanitation, use-of-force transparency lacking at La. ICE detention center](https://arkansasadvocate.com/2026/06/04/repub/inspection-shows-sanitation-use-of-force-transparency-lacking-at-la-ice-detention-center/) — *2026-06-04*
+  > WASHINGTON — A Louisiana detention center that houses roughly 1,500 immigrants failed to ensure sanitary conditions, properly store perishable food, properly notify use-of-force incidents and maintain medical records of detainees, according to a report published Thursday by the D
+- [[Arkansas] New medical guidance affirms Tylenol safety during pregnancy months after Trump sows doubt](https://arkansasadvocate.com/2026/06/04/repub/new-medical-guidance-affirms-tylenol-safety-during-pregnancy-months-after-trump-sows-doubt/) — *2026-06-04*
+  > The Society for Maternal-Fetal Medicine published new clinical guidance this week affirming that acetaminophen, better known by its brand Tylenol, should be the “first-line” defense against pain and fever during pregnancy.  The directive contradicts the Trump administration’s not
+- [[Arkansas] Utah Gov. Spencer Cox steps away from Pride month declaration, joining other Republicans](https://arkansasadvocate.com/2026/06/04/repub/utah-gov-spencer-cox-steps-away-from-pride-month-declaration-joining-other-republicans/) — *2026-06-04*
+  > Utah Gov. Spencer Cox is among a wave of Republican governors across the country who have declared June something other than Pride Month, stepping away from what was a common recognition nationally since 1999.  Instead, June will be “Fidelity Month” in the Beehive State.  Cox had
+- [[Arkansas] Black midwives are suing Southern states, claiming regulations make it harder to help patients](https://arkansasadvocate.com/2026/06/04/repub/black-midwives-are-suing-southern-states-claiming-regulations-make-it-harder-to-help-patients/) — *2026-06-04*
+  > Black midwives in the South, a region rife with racial disparities in maternal health access and maternal mortality, are leading lawsuits over state regulations that they say limit their ability to provide care. Women behind the litigation say midwives can help improve birthing o
+- [[Arkansas] Farm animal welfare rules might be rolled back by Congress](https://arkansasadvocate.com/2026/06/04/repub/farm-animal-welfare-rules-might-be-rolled-back-by-congress/) — *2026-06-04*
+  > Congress is looking to roll back state animal welfare laws as it wrangles over reauthorization of the federal farm bill. The farm bill, which Congress generally reworks every five years, includes money and federal rules for food assistance programs, farm subsidies, and other ag-r
+- **NEW**  [[Arizona] Federal judge: Trump freeze on asylum applications from 39 countries violates federal law](https://azmirror.com/2026/06/05/repub/federal-judge-trump-freeze-on-asylum-applications-from-39-countries-violates-federal-law/) — *2026-06-05*
+  > WASHINGTON — A federal judge in Rhode Island Friday struck down several Trump administration policies that halted processing for asylum seekers following a shooting in Washington, D.C., that left one West Virginia National Guard member dead and another seriously injured. In a sea
+
+_(634 additional items in raw.jsonl)_

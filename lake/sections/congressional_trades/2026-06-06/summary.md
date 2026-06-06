@@ -1,0 +1,65 @@
+---
+section: congressional_trades
+title: Congressional STOCK Act Trades (House + Senate)
+date: 2026-06-06
+record_count: 50
+new_today: 50
+state: fresh
+---
+
+## Congressional STOCK Act Trades (House + Senate)
+
+50 new of 50 total items today.
+
+- **NEW**  [[House] Lloyd Doggett (D): Purchase PG ($1,001 - $15,000) (excess +3.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/D000399) — *2026-05-15*
+  > Member: Lloyd Doggett (D, house).  BioGuide: D000399.  Asset: PG (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-15.  Disclosure date: 2026-06-04.  Excess return vs SPY since disclosure: +3.72%.  Description: AUTOMATIC REINVESTMENT OF DIVIDENDS 
+- **NEW**  [[House] Tim Walberg (R): Sale FSSL ($15,001 - $50,000) (excess -1.3% vs SPY)](https://www.quiverquant.com/congresstrading/politician/W000798) — *2026-06-01*
+  > Member: Tim Walberg (R, house).  BioGuide: W000798.  Asset: FSSL (ST).  Type: Sale.  Amount range: $15,001 - $50,000.  Transaction date: 2026-06-01.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -1.29%.
+- **NEW**  [[House] Josh Gottheimer (D): Sale ABT ($1,001 - $15,000) (excess +8.0% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-27*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: ABT (ST).  Type: Sale.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-27.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: +8.02%.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase LITE ($1,001 - $15,000) (excess -7.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-22*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: LITE (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-22.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -7.69%.
+- **NEW**  [[House] Josh Gottheimer (D): Sale INTU ($1,001 - $15,000) (excess -6.1% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-22*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: INTU (ST).  Type: Sale.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-22.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -6.14%.  Description: 5/26/26 FULL SALE LESS THAN $1,000.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase MU ($1,001 - $15,000) (excess +14.1% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-21*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: MU (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-21.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: +14.08%.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase ADI ($1,001 - $15,000) (excess -3.6% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-19*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: ADI (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-19.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -3.62%.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase MSFT ($250,001 - $500,000) (excess -0.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-19*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: MSFT (OP).  Type: Purchase.  Amount range: $250,001 - $500,000.  Transaction date: 2026-05-19.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -0.69%.  Description: CALL OPTIONS; STRIKE PRICE $3
+- **NEW**  [[House] Josh Gottheimer (D): Sale MSFT ($250,001 - $500,000) (excess -0.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-19*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: MSFT (OP).  Type: Sale.  Amount range: $250,001 - $500,000.  Transaction date: 2026-05-19.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -0.69%.  Description: CALL OPTIONS; STRIKE PRICE $340; 
+- **NEW**  [[House] Josh Gottheimer (D): Sale MSFT ($500,001 - $1,000,000) (excess -0.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-19*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: MSFT (OP).  Type: Sale.  Amount range: $500,001 - $1,000,000.  Transaction date: 2026-05-19.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -0.69%.  Description: CALL OPTIONS; STRIKE PRICE $330
+- **NEW**  [[House] Josh Gottheimer (D): Purchase MSFT ($500,001 - $1,000,000) (excess -0.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-19*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: MSFT (OP).  Type: Purchase.  Amount range: $500,001 - $1,000,000.  Transaction date: 2026-05-19.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -0.69%.  Description: CALL OPTIONS; STRIKE PRICE 
+- **NEW**  [[House] Josh Gottheimer (D): Sale TPH ($1,001 - $15,000)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-15*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: TPH (ST).  Type: Sale.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-15.  Disclosure date: 2026-06-03.
+- **NEW**  [[House] Josh Gottheimer (D): Sale NSRGY ($1,001 - $15,000) (excess -0.2% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-14*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: NSRGY (ST).  Type: Sale.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-14.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: -0.20%.
+- **NEW**  [[House] Cleo Fields (D): Purchase AAPL ($1,001 - $15,000) (excess +4.5% vs SPY)](https://www.quiverquant.com/congresstrading/politician/F000110) — *2026-05-14*
+  > Member: Cleo Fields (D, house).  BioGuide: F000110.  Asset: AAPL (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-14.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: +4.48%.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase PANW ($1,001 - $15,000) (excess +15.6% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-14*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: PANW (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-14.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: +15.62%.
+- **NEW**  [[House] Josh Gottheimer (D): Purchase SNDK ($1,001 - $15,000) (excess +15.6% vs SPY)](https://www.quiverquant.com/congresstrading/politician/G000583) — *2026-05-07*
+  > Member: Josh Gottheimer (D, house).  BioGuide: G000583.  Asset: SNDK (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-07.  Disclosure date: 2026-06-03.  Excess return vs SPY since disclosure: +15.56%.
+- **NEW**  [[Senate] Sheldon Whitehouse (D): Sale (Partial) NVDA ($100,001 - $250,000) (excess -4.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/W000802) — *2026-05-08*
+  > Member: Sheldon Whitehouse (D, senate).  BioGuide: W000802.  Asset: NVDA (Stock).  Type: Sale (Partial).  Amount range: $100,001 - $250,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: -4.69%.
+- **NEW**  [[Senate] Sheldon Whitehouse (D): Sale (Partial) NVDA ($100,001 - $250,000) (excess -4.7% vs SPY)](https://www.quiverquant.com/congresstrading/politician/W000802) — *2026-05-08*
+  > Member: Sheldon Whitehouse (D, senate).  BioGuide: W000802.  Asset: NVDA (Stock).  Type: Sale (Partial).  Amount range: $100,001 - $250,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: -4.69%.
+- **NEW**  [[Senate] Sheldon Whitehouse (D): Sale (Partial) ORCL ($15,001 - $50,000) (excess +9.0% vs SPY)](https://www.quiverquant.com/congresstrading/politician/W000802) — *2026-05-07*
+  > Member: Sheldon Whitehouse (D, senate).  BioGuide: W000802.  Asset: ORCL (Stock).  Type: Sale (Partial).  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-07.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: +9.00%.
+- **NEW**  [[House] Virginia Foxx (R): Purchase ARLP ($1,001 - $15,000) (excess +2.2% vs SPY)](https://www.quiverquant.com/congresstrading/politician/F000450) — *2026-05-15*
+  > Member: Virginia Foxx (R, house).  BioGuide: F000450.  Asset: ARLP (ST).  Type: Purchase.  Amount range: $1,001 - $15,000.  Transaction date: 2026-05-15.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: +2.16%.
+- **NEW**  [[House] Kevin Hern (R): Exchange DVN ($15,001 - $50,000) (excess -2.9% vs SPY)](https://www.quiverquant.com/congresstrading/politician/H001082) — *2026-05-08*
+  > Member: Kevin Hern (R, house).  BioGuide: H001082.  Asset: DVN (ST).  Type: Exchange.  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: -2.91%.  Description: CRTA MERGED INTO DVN.
+- **NEW**  [[House] Kevin Hern (R): Exchange CTRA ($15,001 - $50,000)](https://www.quiverquant.com/congresstrading/politician/H001082) — *2026-05-08*
+  > Member: Kevin Hern (R, house).  BioGuide: H001082.  Asset: CTRA (ST).  Type: Exchange.  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Description: COTERRA MERGED INTO DEVON.
+- **NEW**  [[House] Kevin Hern (R): Exchange DVN ($15,001 - $50,000) (excess -2.9% vs SPY)](https://www.quiverquant.com/congresstrading/politician/H001082) — *2026-05-08*
+  > Member: Kevin Hern (R, house).  BioGuide: H001082.  Asset: DVN (ST).  Type: Exchange.  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Excess return vs SPY since disclosure: -2.91%.  Description: COTERRA MERGED INTO DEVON.
+- **NEW**  [[House] Kevin Hern (R): Exchange CTRA ($15,001 - $50,000)](https://www.quiverquant.com/congresstrading/politician/H001082) — *2026-05-08*
+  > Member: Kevin Hern (R, house).  BioGuide: H001082.  Asset: CTRA (ST).  Type: Exchange.  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-08.  Disclosure date: 2026-06-02.  Description: MERGED WITH DVN ENERGY CORP..
+- **NEW**  [[House] Christian D. Menefee (D): Sale PINS ($15,001 - $50,000) (excess +6.0% vs SPY)](https://www.quiverquant.com/congresstrading/politician/M001245) — *2026-05-28*
+  > Member: Christian D. Menefee (D, house).  BioGuide: M001245.  Asset: PINS (ST).  Type: Sale.  Amount range: $15,001 - $50,000.  Transaction date: 2026-05-28.  Disclosure date: 2026-06-01.  Excess return vs SPY since disclosure: +6.02%.  Description: SPOUSE RECEIVED RESTRICTED STO
+
+_(25 additional items in raw.jsonl)_
