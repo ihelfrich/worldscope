@@ -2,15 +2,37 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-06-06
-record_count: 172
-new_today: 162
+record_count: 173
+new_today: 163
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-162 new of 172 total items today.
+163 new of 173 total items today.
 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-38903) — *2026-06-06*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 6 at 5:28AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e2b86187a6908076156ef0ca98c7149d81fa553.001.1) — *2026-06-06*
+  > At 528 AM EDT, Doppler radar was tracking a strong thunderstorm near
+Markle, or 7 miles east of Huntington, moving east at 30 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+un
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 6 at 3:25AM MDT until June 6 at 7:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2930373ef7a9b7026a6e574a8e86b695edbe6cda.001.1) — *2026-06-06*
+  > * AFFECTED AREA...Fire Weather Zones 242, 243, 244, 245 and 248.
+
+* TIMING...From noon today to 7 PM MDT this evening.
+
+* WINDS...Southeast 15 to 25 mph with gusts up to 30 mph.
+
+* RELATIVE HUMIDITY...As low as 14 percent.
+
+* IMPACTS...Conditions will be favorable for rapid fire 
 - **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued June 6 at 2:21AM PDT until June 6 at 11:00PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a9bbcde8d72f7d879388ef934b12518fc53dfe0.001.1) — *2026-06-06*
   > * AFFECTED AREA...Fire weather zones 424, 425, 426, 427, 437, 438,
 469, and 470.
@@ -36,16 +58,6 @@ North Central Bell County in central Texas...
 
 * At 419 AM CDT, Doppler radar indicated thunderstorms producing
 heavy rain across the warned area. Between 2 and 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-14497) — *2026-06-06*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 6 at 2:17AM PDT until June 7 at 3:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da8df3ccb6f21a92ecca91698c08e55956acf490.002.2) — *2026-06-06*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 10 to 14 ft expected when conditions are worst.
-
-* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and
-westward 60 nm including San Miguel and Santa Rosa Islands.
-
-* WHEN...For the Small Craft Advis
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 6 at 2:17AM PDT until June 7 at 3:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da8df3ccb6f21a92ecca91698c08e55956acf490.001.2) — *2026-06-06*
   > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
 combined seas 11 to 15 ft expected when conditions are worst.
@@ -54,6 +66,14 @@ combined seas 11 to 15 ft expected when conditions are worst.
 
 * WHEN...For the Small Craft Advisory, until 3 AM PDT Saturday.
 For the Gale Warning, fro
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued June 6 at 2:17AM PDT until June 7 at 3:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da8df3ccb6f21a92ecca91698c08e55956acf490.002.2) — *2026-06-06*
+  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
+combined seas 10 to 14 ft expected when conditions are worst.
+
+* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and
+westward 60 nm including San Miguel and Santa Rosa Islands.
+
+* WHEN...For the Small Craft Advis
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued June 6 at 5:15AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.323a41e291598ffe13512acfd81b3cc8e011d36b.001.1) — *2026-06-06*
   > At 515 AM EDT/415 AM CDT/, Doppler radar was tracking a strong
 thunderstorm near Knox, moving east at 45 mph.
@@ -198,16 +218,6 @@ central Minnesota early this morning. Visibilities of 1/2 to 1/4
 mile have already been observed, which should persist through
 sunrise. Improvement in visibilities is expected within a few
 hours after sunrise. If trav
-- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued June 6 at 1:31AM PDT until June 6 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.177f39bed16ba7950908d61beda971c782bb7516.002.1) — *2026-06-06*
-  > * WHAT...West winds 20 to 30 mph with gusts up to 40 mph.
-
-* WHERE...Los Banos - Dos Palos and the Coastal Mountain Range north
-of 198.
-
-* WHEN...Until 11 PM PDT this evening.
-
-* IMPACTS...Strong winds and rough waves on area lakes will create
-hazardous conditions for small craft
 - **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued June 6 at 1:31AM PDT until June 7 at 2:00AM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.177f39bed16ba7950908d61beda971c782bb7516.003.1) — *2026-06-06*
   > * WHAT...West winds 20 to 30 mph with gusts up to 45 mph expected.
 
@@ -226,13 +236,5 @@ hazardous conditions for small craft.
 
 * IMPACTS...Gusty winds will blow around unsecured objects. Tree
 limbs could be blown down and a few power outages may resul
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued June 6 at 2:30AM MDT until June 7 at 9:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1763473277af1521745c86524986c2511f206f90.001.1) — *2026-06-06*
-  > ...FIRE WEATHER WATCH IN EFFECT FROM SUNDAY MORNING THROUGH
-SUNDAY EVENING FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE
-WEATHER ZONES 425 AND 427...
 
-* AFFECTED AREA...Fire Weather Zone 425 Middle Snake River
-Valley/Twin Falls BLM north of the Snake River and Fire
-Weather Z
-
-_(147 additional items in raw.jsonl)_
+_(148 additional items in raw.jsonl)_

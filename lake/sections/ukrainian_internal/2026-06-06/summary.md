@@ -2,17 +2,30 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-06-06
-record_count: 128
-new_today: 45
+record_count: 129
+new_today: 46
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-45 new of 128 total items today.
+46 new of 129 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-06-06*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-06-06*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-06*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-06*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-06-06*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- [[feed error] Hromadske: HTTPError](https://hromadske.ua/rss) — *2026-06-06*
+  > 404 Client Error: Not Found for url: https://hromadske.ua/rss
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-06-06*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [[TITLE: ГО "Пасажири Києва": Трагічне ДТП в Києві – це пряма ціна бездіяльності влади | LEDE: ] (uk: ГО "Пасажири Києва": Трагічне ДТП в Києві – це пряма ціна бездіяльності влади)](https://www.pravda.com.ua/news/2026/06/06/8038047/) — *2026-06-06*
 - **NEW**  [[TITLE: Трагедії на дорогах: де шукати крайнього? | LEDE: Висока смертність у ДТП — друга після війни проблема України. Чому влада та поліція не діють для безпеки на дорогах?] (uk: Трагедії на дорогах: де шукати крайнього?)](https://www.pravda.com.ua/columns/2026/06/06/8038041/) — *2026-06-06*
   > Висока смертність у ДТП — друга після війни проблема України. Чому влада та поліція не діють для безпеки на дорогах?
 - **NEW**  [[TITLE: Зеленський нагородив 37 українських та іноземних працівників медіа | LEDE: З нагоди Дня журналіста президент Володимир Зеленський підписав указ про нагородження 37 журналістів, працівників і пр] (uk: Зеленський нагородив 37 українських та іноземних працівників медіа)](https://www.pravda.com.ua/news/2026/06/06/8038042/) — *2026-06-06*
@@ -41,19 +54,5 @@ state: fresh
 - **NEW**  [[TITLE: Михайло Дубинянський: Туга за другим фронтом | LEDE: ] (uk: Михайло Дубинянський: Туга за другим фронтом)](https://www.pravda.com.ua/news/2026/06/06/8037931/) — *2026-06-06*
 - **NEW**  [[TITLE: РФ атакувала Запоріжжя: 5 поранених | LEDE: 6 червня російський дрон атакував Запоріжжя – п’ятеро людей постраждали, виникла пожежа.] (uk: РФ атакувала Запоріжжя: 5 поранених)](https://www.pravda.com.ua/news/2026/06/06/8038016/) — *2026-06-06*
   > 6 червня російський дрон атакував Запоріжжя – п’ятеро людей постраждали, виникла пожежа.
-- **NEW**  [[TITLE: ПС: Росія уночі атакувала 272 дронами | LEDE: Вночі 6 червня ППО України знищили або подавили 249 із 272 атакуючих БпЛА, атака триває.] (uk: ПС: Росія уночі атакувала 272 дронами)](https://www.pravda.com.ua/news/2026/06/06/8038015/) — *2026-06-06*
-  > Вночі 6 червня ППО України знищили або подавили 249 із 272 атакуючих БпЛА, атака триває.
-- **NEW**  [[TITLE: У Дніпрі під час затримання чоловік підірвав гранату: сам загинув, четверо поліцейських поранені | LEDE: У Дніпрі під час спроби затримання чоловік кинув гранату в бік поліцейських – внаслідок ] (uk: У Дніпрі під час затримання чоловік підірвав гранату: сам загинув, четверо поліц)](https://www.pravda.com.ua/news/2026/06/06/8038014/) — *2026-06-06*
-  > У Дніпрі під час спроби затримання чоловік кинув гранату в бік поліцейських – внаслідок вибуху зловмисник загинув на місці, а четверо правоохоронців дістали поранення.
-- **NEW**  [[TITLE: За добу Сили оборони України відмінусували ще 1380 окупантів та понад 476 одиниць техніки – Генштаб | LEDE: За минулу добу Сили оборони України вбили та поранили 1 380 російських окупантів, заг] (uk: За добу Сили оборони України відмінусували ще 1380 окупантів та понад 476 одиниц)](https://www.pravda.com.ua/news/2026/06/06/8038013/) — *2026-06-06*
-  > За минулу добу Сили оборони України вбили та поранили 1 380 російських окупантів, загальні втрати ворога у війні склали 1 372 270 осіб.
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-06*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-06*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-06-06*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [Romanian President Convenes Security Meeting Over Black Sea Naval Drone Detonation](https://www.kyivpost.com/post/77642) — *2026-06-06*
-  > Romanian President Klaus Iohannis convened an emergency working meeting to address national and regional security after a maritime drone detonated in the strategic Black Sea port of Constanța. Scheduled at the headquarters of the 243rd Radioelectronic and Surveillance Brigade “Ca
 
-_(103 additional items in raw.jsonl)_
+_(104 additional items in raw.jsonl)_

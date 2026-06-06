@@ -1,7 +1,7 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T09:28:57Z",
-  "summary": "Data integrity \u00b7 31/41 sections fresh \u00b7 5 failing (acled, gdacs, promed, reliefweb, vip_flights) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 1 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-06-06T09:38:32Z",
+  "summary": "Data integrity \u00b7 30/41 sections fresh \u00b7 4 failing (acled, promed, reliefweb, vip_flights) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 3 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
@@ -10,14 +10,6 @@
       "last_record_date": "2026-06-02",
       "today_count": 0,
       "consecutive_failures": 15
-    },
-    {
-      "section_id": "gdacs",
-      "status": "FAILED",
-      "reason": "last pull failed (3\u00d7): UpstreamHTTPError: GDACS request failed: HTTPSConnectionPool(host='www.gdacs.org', port=443): Max retries exceeded with ",
-      "last_record_date": "2026-06-05",
-      "today_count": 0,
-      "consecutive_failures": 3
     },
     {
       "section_id": "promed",
@@ -30,7 +22,7 @@
     {
       "section_id": "reliefweb",
       "status": "FAILED",
-      "reason": "last pull failed (15\u00d7): UpstreamHTTPError: ReliefWeb request failed: 410 Client Error: Gone for url: https://api.reliefweb.int/v1/reports?appnam",
+      "reason": "last pull failed (15\u00d7): UpstreamParseError: ReliefWeb returned non-JSON: Expecting value: line 1 column 1 (char 0)",
       "last_record_date": "2026-06-02",
       "today_count": 0,
       "consecutive_failures": 15
@@ -56,6 +48,22 @@
       "status": "NO_KEY",
       "reason": "required credential not set: MEDIACLOUD_API_KEY",
       "last_record_date": "2026-06-06",
+      "today_count": 0,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "conflict",
+      "status": "STALE",
+      "reason": "no data today; last good 2026-06-06 (0d)",
+      "last_record_date": "2026-06-06",
+      "today_count": 0,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "federal_register",
+      "status": "STALE",
+      "reason": "no data today; last good 2026-06-05 (1d)",
+      "last_record_date": "2026-06-05",
       "today_count": 0,
       "consecutive_failures": 0
     },
@@ -94,9 +102,9 @@
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "148 records today",
+      "reason": "149 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 148,
+      "today_count": 149,
       "consecutive_failures": 0
     },
     {
@@ -116,19 +124,11 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "conflict",
-      "status": "FRESH",
-      "reason": "40 records today",
-      "last_record_date": "2026-06-06",
-      "today_count": 40,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "congressional_trades",
       "status": "FRESH",
-      "reason": "50 records today",
+      "reason": "1 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 50,
+      "today_count": 1,
       "consecutive_failures": 0
     },
     {
@@ -156,14 +156,6 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "federal_register",
-      "status": "FRESH",
-      "reason": "8 records today",
-      "last_record_date": "2026-06-08",
-      "today_count": 8,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "forecasts",
       "status": "FRESH",
       "reason": "20 records today",
@@ -174,9 +166,9 @@
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "389 records today",
+      "reason": "375 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 389,
+      "today_count": 375,
       "consecutive_failures": 0
     },
     {
@@ -188,27 +180,35 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "gdacs",
+      "status": "FRESH",
+      "reason": "154 records today",
+      "last_record_date": "2026-06-06",
+      "today_count": 154,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "gdelt_gkg",
       "status": "FRESH",
-      "reason": "90 records today",
+      "reason": "51 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 90,
+      "today_count": 51,
       "consecutive_failures": 0
     },
     {
       "section_id": "gdelt_regions",
       "status": "FRESH",
-      "reason": "12 records today",
+      "reason": "6 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 12,
+      "today_count": 6,
       "consecutive_failures": 0
     },
     {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "49 records today",
+      "reason": "41 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 49,
+      "today_count": 41,
       "consecutive_failures": 0
     },
     {
@@ -246,9 +246,9 @@
     {
       "section_id": "paper_bets",
       "status": "FRESH",
-      "reason": "149 records today",
+      "reason": "100 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 149,
+      "today_count": 100,
       "consecutive_failures": 0
     },
     {
@@ -262,33 +262,33 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "393 records today",
+      "reason": "351 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 393,
+      "today_count": 351,
       "consecutive_failures": 0
     },
     {
       "section_id": "sanctions_procurement",
       "status": "FRESH",
-      "reason": "33 records today",
+      "reason": "32 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 33,
+      "today_count": 32,
       "consecutive_failures": 0
     },
     {
       "section_id": "state_bills",
       "status": "FRESH",
-      "reason": "21 records today",
+      "reason": "10 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 21,
+      "today_count": 10,
       "consecutive_failures": 0
     },
     {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "40 records today",
+      "reason": "42 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 40,
+      "today_count": 42,
       "consecutive_failures": 0
     },
     {
@@ -302,9 +302,9 @@
     {
       "section_id": "ukrainian_internal",
       "status": "FRESH",
-      "reason": "51 records today",
+      "reason": "52 records today",
       "last_record_date": "2026-06-06",
-      "today_count": 51,
+      "today_count": 52,
       "consecutive_failures": 0
     },
     {
@@ -318,9 +318,9 @@
     {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "92 records today",
+      "reason": "94 records today",
       "last_record_date": "2026-06-07",
-      "today_count": 92,
+      "today_count": 94,
       "consecutive_failures": 0
     },
     {

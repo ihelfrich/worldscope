@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-06-06
-record_count: 1061
-new_today: 405
+record_count: 1014
+new_today: 363
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-405 new of 1061 total items today.
+363 new of 1014 total items today.
 
 - **NEW**  [[TITLE: Минцифры России начало переговоры с Apple о возврате «Макса» в App Store | LEDE: <p>Власти РФ начали переговоры с компанией Apple о возврате мессенджера «Макс» в магазин приложений App Store, с] (ru: Минцифры России начало переговоры с Apple о возврате «Макса» в App Store)](https://meduza.io/news/2026/06/06/mintsifry-rossii-nachalo-peregovory-s-apple-o-vozvrate-maksa-v-app-store) — *2026-06-06*
   > <p>Власти РФ начали переговоры с компанией Apple о возврате мессенджера «Макс» в магазин приложений App Store, сообщил глава Минцифры Максут Шадаев на Международном экономическом форуме в Петербурге.<p>
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: Дочь Путина призвала поддержать российский «высокотех». Чего-чего? Сейчас объясним | LEDE: <p>.<p>] (ru: Дочь Путина призвала поддержать российский «высокотех». Чего-чего? Сейчас объясн)](https://meduza.io/feature/2026/06/05/doch-putina-prizvala-podderzhat-rossiyskiy-vysokoteh-chego-chego) — *2026-06-05*
   > <p>.<p>
 
-_(1036 additional items in raw.jsonl)_
+_(989 additional items in raw.jsonl)_

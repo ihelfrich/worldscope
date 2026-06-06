@@ -2,21 +2,17 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-06-06
-record_count: 263
-new_today: 193
+record_count: 268
+new_today: 196
 state: fresh
 ---
 
 ## Chinese Internal News
 
-193 new of 263 total items today.
+196 new of 268 total items today.
 
-- [Analysis: Huawei’s Chip Design Vision Faces Reality Check - Caixin Global](https://www.caixinglobal.com) — *2026-06-04*
-  > <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQaWNWSEJob2t6N2U2Y2M1cWd4c1JnaFo3N2hnbDdKMExSRWRhZVd1Q3NCSjVMaEZtLWNIV2FBa2M5TkVWdnk2MXlOclpRWUNpUGhJa1dXdUFycmNnUzBTUHN6MkFEbXU3bVAxdVBFTHI5SEVuWmljUnhsRVhheWtLelBBTDhNUkh5OVZlSWt5M1RjVnVYMERnYjZ3VjZic3NjUWZ6bHRpOVVDbU
 - [[TITLE: 重庆理工一副校长遇刺身亡 凶手已被刑拘 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1NDFUM3U3S0dMZEhwNFRyMURjcGwwdDdadm9zN29oRHJjSURyQkJPZFhjV2ttSFAyZWkyanJZc2JfM2JkeHkt] (zh: 重庆理工一副校长遇刺身亡 凶手已被刑拘 - china.caixin.com)](https://china.caixin.com) — *2026-06-05*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1NDFUM3U3S0dMZEhwNFRyMURjcGwwdDdadm9zN29oRHJjSURyQkJPZFhjV2ttSFAyZWkyanJZc2JfM2JkeHktQUVIbzJBa0FUVlM4OXBmaTFObGtYR0Zr?oc=5" target="_blank">重庆理工一副校长遇刺身亡 凶手已被刑拘</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</font
-- **NEW**  [[TITLE: 财新周刊目录 - database.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MaTAycGlDMjVZcFFnVUZxbXJYT05kc1hXWk1fR2x6Q01HaVZ5UmdIRWFreDduN1hpaWkydG4wN0txaEtWQno1cTgwZzBZbj] (zh: 财新周刊目录 - database.caixin.com)](http://m.database.caixin.com) — *2026-06-05*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MaTAycGlDMjVZcFFnVUZxbXJYT05kc1hXWk1fR2x6Q01HaVZ5UmdIRWFreDduN1hpaWkydG4wN0txaEtWQno1cTgwZzBZbjNLTHlyLVFXNS00Wmhjei1ZR3F4dzc?oc=5" target="_blank">财新周刊目录</a>&nbsp;&nbsp;<font color="#6f6f6f">database.caixin.com</font>
 - **NEW**  [[TITLE: 时隔24年，上海队夺得队史第二座CBA总冠军 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qUEg3TEI3NDhkUWNVSENjSkJ5eGRoUXhhN2pBY2ZwNE5FMzEtT2hiZkY5Qy01ZFlIa2JVWmFRSXJKZzkwUHU4RjA0aTllNW1] (zh: 时隔24年，上海队夺得队史第二座CBA总冠军 - 财新)](https://mini.caixin.com) — *2026-06-06*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qUEg3TEI3NDhkUWNVSENjSkJ5eGRoUXhhN2pBY2ZwNE5FMzEtT2hiZkY5Qy01ZFlIa2JVWmFRSXJKZzkwUHU4RjA0aTllNW1QQTB4YndKejFILWJzVHc?oc=5" target="_blank">时隔24年，上海队夺得队史第二座CBA总冠军</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 从“长虹元老”到成都市长 王凤朝被指“妄议大政方针” - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE12dGlZT1B3QmE0Z0d3TU9DNVpLZUxoWUR2LTZIbnJHTmZfRk9EWHh5Sk04NTZoRUx0WXVfQk1pTE9UM] (zh: 从“长虹元老”到成都市长 王凤朝被指“妄议大政方针” - china.caixin.com)](https://china.caixin.com) — *2026-06-05*
@@ -61,5 +57,9 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE03bHRYZ3UtRUtnWmZVSGFQa3RLLWNFVUs5UmFNSTNVVXI4Y05GdkcwU2dna1UtMnZMVHBSUzN1U0hpVmZ1a2ZSWE5VSnR1dmVIZWo5eVgxSVowWldFMDRKblJWbktRUTVXMmc?oc=5" target="_blank">普京称俄罗斯准备“妥协” 泽连斯基提议乌俄元首直接会晤</a>&nbsp;&nbsp;<font color="#6f6f6f"
 - [[TITLE: 火线评论｜女大学生被家人骗入戒网瘾学校，非法管教何时休？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RcnRtUUFCOHpLZDljZnhTRERxamt6RV9YTjRPQ1VYOEp6SlVXTzJmRHVfUW5adEJmTHVfbmxqdGJBeGM5UzNZZlVPW] (zh: 火线评论｜女大学生被家人骗入戒网瘾学校，非法管教何时休？ - 财新)](https://opinion.caixin.com) — *2026-06-04*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RcnRtUUFCOHpLZDljZnhTRERxamt6RV9YTjRPQ1VYOEp6SlVXTzJmRHVfUW5adEJmTHVfbmxqdGJBeGM5UzNZZlVPWGFFQTVFNkE3WHRRemdmY1Jqa3lNNFNR?oc=5" target="_blank">火线评论｜女大学生被家人骗入戒网瘾学校，非法管教何时休？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: 韩国地方选举执政党获压倒性胜利 但首尔市长一职旁落 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE0xNndURzdJLXJRQ1hOakw4MUlteGRTZnBObThXcjY0RUdqeklVSHc4LVdsWEgxSGcxZnFUb1lPZjRwX3RvMW9aeU1BOWlI] (zh: 韩国地方选举执政党获压倒性胜利 但首尔市长一职旁落 - 财新)](https://international.caixin.com) — *2026-06-04*
+  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE0xNndURzdJLXJRQ1hOakw4MUlteGRTZnBObThXcjY0RUdqeklVSHc4LVdsWEgxSGcxZnFUb1lPZjRwX3RvMW9aeU1BOWlIVmNCY2sxY3RDb3VNT2gzX1hTU0Y5dmd3dEJ1TEE?oc=5" target="_blank">韩国地方选举执政党获压倒性胜利 但首尔市长一职旁落</a>&nbsp;&nbsp;<font color="#6f6f6f">财
+- **NEW**  [[TITLE: 美国5月非农就业远超预期，年底加息概率大增 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBUU3E3eDJLeVpoRENjZUFqeDZkVkhRTkt0NGRDd2RpWU13aW52V0tqTTFmVWxRdTNGUGF1TUtRR1oxUlNHWUxIcXg3dXFCUzNv] (zh: 美国5月非农就业远超预期，年底加息概率大增 - 财新)](https://international.caixin.com) — *2026-06-05*
+  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBUU3E3eDJLeVpoRENjZUFqeDZkVkhRTkt0NGRDd2RpWU13aW52V0tqTTFmVWxRdTNGUGF1TUtRR1oxUlNHWUxIcXg3dXFCUzNvMVdoNVBiaEh3WkhocEVXandwMFFrbmswZ2c?oc=5" target="_blank">美国5月非农就业远超预期，年底加息概率大增</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</f
 
-_(238 additional items in raw.jsonl)_
+_(243 additional items in raw.jsonl)_

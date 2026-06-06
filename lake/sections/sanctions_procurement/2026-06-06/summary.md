@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-06-06
-record_count: 111
+record_count: 110
 new_today: 11
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-11 new of 111 total items today.
+11 new of 110 total items today.
 
 - [[OFAC] Cuba Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-04*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TN0Z3SEw4N0lGYTNuOEFOMy0zdm1kNzYxM3Rfd1RuZEFXYzJ3azFKcEhITVBUc3ZNRjFSakhwamZGY2hCSjh4Wkx1SVN4LUwxNktNT1BEdzVOTDZRSFE?oc=5" target="_blank">Cuba Designations; Issuance of Cuba-related Frequently Asked Question</a>&nbsp;&
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $1,546,101,316 → GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.: GLOBAL SECURITY ENGINEERING&SUPPLY CHAIN SERVICES.](https://www.usaspending.gov/award/19AQMM18C0185) — *2026-06-06*
   > Agency: Department of State.  Description: GLOBAL SECURITY ENGINEERING&SUPPLY CHAIN SERVICES.
 
-_(86 additional items in raw.jsonl)_
+_(85 additional items in raw.jsonl)_
