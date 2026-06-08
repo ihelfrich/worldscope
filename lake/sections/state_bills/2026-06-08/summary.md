@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-08
-record_count: 90
-new_today: 41
+record_count: 126
+new_today: 77
 state: fresh
 ---
 
 ## State Legislative Action
 
-41 new of 90 total items today.
+77 new of 126 total items today.
 
 - [[Alaska SB 2001] An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal property ]() — *2026-06-08*
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to the determination of the value of taxable real and personal property for purposes of calculating local contributions for public school funding; relating to municipal proper
@@ -62,4 +62,4 @@ state: fresh
 - [[California AB 2195] Child support: license suspensions.]() — *2026-06-06*
   > Existing law delegates to the Department of Child Support Services and local child support agencies the responsibility for collecting and enforcing child support obligations, including child support delinquencies, as defined. Existing law requires a local child support agency to 
 
-_(65 additional items in raw.jsonl)_
+_(101 additional items in raw.jsonl)_

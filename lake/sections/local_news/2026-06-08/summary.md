@@ -2,28 +2,36 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-08
-record_count: 139
-new_today: 75
+record_count: 179
+new_today: 127
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-75 new of 139 total items today.
+127 new of 179 total items today.
 
+- **NEW**  [[St. Louis] 73 Missouri land owners settle with feds over Rock Island Trail easements](https://www.stlmag.com/news/missouri-land-owners-settle-rock-island-trail/) — *2026-06-08*
+  > <p>A group of 22 Missouri landowners got checks from the federal government last month—their long-fought compensation for what they alleged was the wrongful taking of their land. In accepting that settlement, they join another 51 Missourians paid out for the same reason in March.
 - **NEW**  [[St. Louis] St. Louis restaurant openings, closings, and coming soons](https://www.stlmag.com/dining/st-louis-restaurant-openings-closings-coming-soon/) — *2026-06-07*
-  > <p>The following information is accurate as of an early-June press date. May is a traditionally robust month for restaurant openings in St. Louis, and so it was this year, with 21 openings and only five closings. Two restaurants in Clayton closed: Bistro La Floraison (7637 Wydown
+  > <p>The following information is accurate as of an early-June press date. May is a traditionally robust month for restaurant openings in St. Louis, and so it was this year, with 22 openings and only five closings. Two restaurants in Clayton closed: Bistro La Floraison (7637 Wydown
 - **NEW**  [[St. Louis] Lou’s Clues – 6/8/2026](https://www.stlmag.com/games/lous-clues-060826/) — *2026-06-07*
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-06-08*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Texas father gunned down while helping his son recover his truck after a carjacking](https://www.ksdk.com/article/news/nation-world/texas-father-killed-helping-son-recover-truck/507-1931d903-3bc2-4dc8-9dc6-12d1af1d618d) — *2026-06-08*
+  > Investigators said the stolen truck was equipped with a GPS tracker. After the truck was taken at gunpoint, the owner contacted his father for help.
+- **NEW**  [[St. Louis] Deadly 5-car crash shuts down westbound I-70 in St. Louis](https://www.ksdk.com/article/traffic/st-louis-crash-interstate-70-at-branch-street/63-f8d36de0-2ce7-4eb9-8930-97d2087c01d3) — *2026-06-08*
+  > Westbound lanes of I-70 were closed for hours after a crash early Monday morning involving several vehicles.
+- **NEW**  [[St. Louis] North St. Louis shooting leaves man dead](https://www.ksdk.com/article/news/crime/north-st-louis-shooting-leaves-man-dead/63-14904861-7a8e-4947-90ee-c7d1e03bd64d) — *2026-06-08*
+  > The victim died at the hospital, and one person was detained pending further investigation, police said.
+- **NEW**  [[St. Louis] Private jet bound for Texas crashes in Dominican Republic, killing two US pilots](https://www.ksdk.com/article/news/nation-world/private-jet-crash-dominican-republic-pilots-killed/507-f210870c-b267-43b1-b6e5-061bcc8a0e1b) — *2026-06-08*
+  > La Romana International Airport said the plane was bound for Austin, Texas.
 - **NEW**  [[St. Louis] Basements flooded after water main break leaves trail of damage in University City](https://www.ksdk.com/article/news/local/massive-water-main-break-floods-university-city-olivette-overland-basements-prompting-a-boil-advisory/63-e7fbb6a0-b2e5-44dc-8694-844df7a1a5e6) — *2026-06-08*
   > Floodwater rushed into basements after a major water main break, damaging homes and triggering a boil advisory for 12,000 customers in three St. Louis County cities.
 - **NEW**  [[St. Louis] A million miles of kindness: Ladue School District bus driver retires after 27 years](https://www.ksdk.com/article/news/local/making-a-difference/ladue-school-district-spoede-elementary-school-bus-driver-carolyn-taylor-retires/63-668334f4-e58a-4041-8491-f6cd1b2793a2) — *2026-06-08*
   > Students at Spoede Elementary School gave Carolyn Taylor a hero’s farewell as the beloved bus driver retired after 27 years and more than a million miles.
 - **NEW**  [[St. Louis] Apple TV becomes fastest streamer to achieve 'studio EGOT' status](https://www.ksdk.com/article/news/nation-world/apple-tv-studio-egot-status-tony-awards-2026/507-a49685cd-055d-421b-b190-7f9c26157382) — *2026-06-08*
   > Apple TV has quickly achieved the unofficial "studio EGOT" status after "Schmigadoon!" secured a Tony award Sunday night.
-- **NEW**  [[St. Louis] Israel says it has struck Iran after taking missile fire](https://www.ksdk.com/article/news/nation-world/attack-on-iran/israel-iran-exchange-missile-fire/507-b1376aa3-67d7-49b6-959b-e2d811fa2383) — *2026-06-08*
+- **NEW**  [[St. Louis] Israel and Iran trade strikes, threatening to drag region back to full-scale war](https://www.ksdk.com/article/news/nation-world/attack-on-iran/israel-iran-exchange-missile-fire/507-b1376aa3-67d7-49b6-959b-e2d811fa2383) — *2026-06-08*
   > Israel's recent airstrikes on central and western Iran escalate tensions in the Middle East, following missile fire from Tehran and stalling U.S.-Iran ceasefire talk
 - **NEW**  [[St. Louis] Broadway revivals and 'Liberation' win big at the Tony Awards, hosted by Pink](https://www.ksdk.com/article/news/nation-world/the-tony-awards-winners-2026/507-1947be4d-eda9-4fbc-8f37-0ad4e78de545) — *2026-06-08*
   > The Tony Awards, hosted by Pink, kicked off Sunday.
@@ -53,13 +61,5 @@ state: fresh
   > An American doctor working in the Democratic Republic of Congo who tested positive for Ebola has been released from the hospital.
 - **NEW**  [[St. Louis] St. Louis extreme heat relief guide: Find cooling centers, get help paying power bills](https://www.ksdk.com/article/news/health/st-louis-extreme-heat-cooling-centers-near-me-map-power-bill-help-heat-illness-symptoms/63-36a9294a-9d84-4f3f-9da5-e3aaf5b2e0c6) — *2026-06-07*
   > Looking for ways to stay cool this summer? Here's where to find cooling centers, utility assistance and tips to avoid heat-related illness.
-- **NEW**  [[St. Louis] New memorial in Grafton honors D-Day rangers and the sacrifices of a generation](https://www.ksdk.com/article/news/local/new-memorial-in-grafton-honors-d-day-rangers/63-ddf49694-31b6-4c60-90ff-1ef118240b21) — *2026-06-07*
-  > The National Memorial of Military Ascent honors Army Rangers who fought their way up the cliffs of Pointe du Hoc during the Allied invasion of Normandy.
-- **NEW**  [[St. Louis] Faith in the Wild brings Noah's Ark-inspired family experience to the Saint Louis Zoo](https://www.ksdk.com/article/news/faith-in-the-wild-family-experience-at-saint-louis-zoo/63-5ed5a9e7-b157-48e6-8e49-6c4a3a981911) — *2026-06-07*
-  > Faith in the Wild goes from 10 a.m. to 4 p.m. Sunday under the zoo's white event tent.
-- **NEW**  [[St. Louis] 'This is it' | Hiker survives harrowing grizzly attack at Glacier National Park](https://www.ksdk.com/article/news/nation-world/san-diego-hiker-grizzly-bear-attack-encounter-glacier-national-park/507-8f16e393-df4b-4148-84d7-f0dfb8a3ac45) — *2026-06-07*
-  > "I just kind of thought, 'This is it.' It bit down on my arm, dragged me maybe 20 feet," the hiker said.
-- [[St. Louis] 'It's like a big Bosnian get-together': St. Louis Bosnians flood Energizer Park on Saturday ahead of World Cup](https://www.ksdk.com/article/news/local/st-louis-bosnians-flood-energizer-park-ahead-of-world-cup-bosnia-versus-panama-game/63-19b9fbbf-5091-4945-ba06-acc02703c2d7) — *2026-06-07*
-  > Several generations of Bosnian families came together Saturday to support their homeland while celebrating their roots in St. Louis.
 
-_(114 additional items in raw.jsonl)_
+_(154 additional items in raw.jsonl)_

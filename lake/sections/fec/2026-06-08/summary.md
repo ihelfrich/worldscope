@@ -35,31 +35,31 @@ state: fresh
   > cycle 2026 receipts $16.31M · disbursements $14.13M · net $+2.18M
 - [[Top] WEIL, JOSHUA JOSEPH (DEM, Senate FL): $15.93M raised](https://www.fec.gov/data/candidate/S6FL00756/) — *2026-06-08*
   > cycle 2026 receipts $15.93M · disbursements $15.93M · net $+0.00M
+- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/207/10030483207/10030483207.pdf) — **
+  > cycle 2010 · filing #718895
+- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+  > cycle 2010 · filing #720559
 - **NEW**  [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
   > cycle 2014 · filing #948970 · receipts $0.02M
-- **NEW**  [[F3] BUCK FOR COLORADO](https://docquery.fec.gov/pdf/867/12020164867/12020164867.pdf) — **
-  > cycle 2012 · filing #768060 · receipts $0.00M
 - [[FRQ] D.D. ADAMS FOR CONGRESS](https://docquery.fec.gov/pdf/361/201803220300001361/201803220300001361.pdf) — **
   > cycle 2018 · filing #
-- [[F3] FRIENDS OF LEE FERRELL](https://docquery.fec.gov/pdf/016/13031062016/13031062016.pdf) — **
-  > cycle 2014 · filing #870438
 - [[FRQ] MAD DOG PAC](https://docquery.fec.gov/pdf/430/201911150300051430/201911150300051430.pdf) — **
   > cycle 2020 · filing #
-- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/207/10030483207/10030483207.pdf) — **
-  > cycle 2010 · filing #718895
-- **NEW**  [[F3X] GROOM LAW GROUP, CHARTERED POLITICAL ACTION COMMITTEE](https://docquery.fec.gov/pdf/225/202602050300519225/202602050300519225.pdf) — **
-  > cycle 2026 · filing #-1000977
-- [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing #
-- [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing # · receipts $0.02M
-- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/207/10030483207/10030483207.pdf) — **
-  > cycle 2010 · filing #718895
-- [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
-  > cycle 2014 · filing #987909
 - [[F3X] CHANGE FOR THE BETTER](https://docquery.fec.gov/pdf/229/12030703229/12030703229.pdf) — **
   > cycle 2012 · filing #758677
+- **NEW**  [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
+  > cycle 2014 · filing #948970 · receipts $0.02M
+- [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing # · receipts $0.02M
 - [[F7] TEXAS FARM BUREAU](https://docquery.fec.gov/pdf/703/201607070300079703/201607070300079703.pdf) — **
   > cycle 2016 · filing #1081726
+- [[F3X] UNITED ASSN OF JOURNEYMEN & APPRETICES PLUMBING & PIPEFITTING LOCAL 63](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing #
+- **NEW**  [[F3] BUCK FOR COLORADO](https://docquery.fec.gov/pdf/867/12020164867/12020164867.pdf) — **
+  > cycle 2012 · filing #768060 · receipts $0.00M
+- **NEW**  [[F3X] GROOM LAW GROUP, CHARTERED POLITICAL ACTION COMMITTEE](https://docquery.fec.gov/pdf/225/202602050300519225/202602050300519225.pdf) — **
+  > cycle 2026 · filing #-1000977
+- [[F3] SUE LOWDEN FOR U S SENATE](https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf) — **
+  > cycle 2010 · filing #732522
 
 _(2 additional items in raw.jsonl)_

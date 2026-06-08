@@ -2,14 +2,14 @@
 section: billionaires
 title: Forbes Real-Time Billionaires (top 30 + biggest movers)
 date: 2026-06-08
-record_count: 40
-new_today: 2
+record_count: 36
+new_today: 0
 state: fresh
 ---
 
 ## Forbes Real-Time Billionaires (top 30 + biggest movers)
 
-2 new of 40 total items today.
+0 new of 36 total items today.
 
 - [#1 Elon Musk — $788.77B](https://www.forbes.com/profile/elon-musk/) — *2026-06-08*
   > United States · Technology · source: Tesla, SpaceX · holdings: TSLA-US(NASDAQ), TSLA-US(NASDAQ)
@@ -27,11 +27,11 @@ state: fresh
   > United States · Technology · source: Facebook · holdings: META-US(NASDAQ)
 - [#8 Jensen Huang — $177.30B](https://www.forbes.com/profile/jensen-huang/) — *2026-06-08*
   > United States · Technology · source: Semiconductors · holdings: NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ)
-- [#9 Bernard Arnault & family — $147.41B](https://www.forbes.com/profile/bernard-arnault/) — *2026-06-08*
+- [#9 Bernard Arnault & family — $149.35B](https://www.forbes.com/profile/bernard-arnault/) — *2026-06-08*
   > France · Fashion & Retail · source: LVMH · holdings: BIRK-US(NYSE), RMS-FR(EURONEXT PARIS), MC-FR(EURONEXT PARIS)
 - [#10 Warren Buffett — $144.75B](https://www.forbes.com/profile/warren-buffett/) — *2026-06-08*
   > United States · Finance & Investments · source: Berkshire Hathaway · holdings: BRK.A-US(NYSE), BRK.B-US(NYSE)
-- [#11 Amancio Ortega — $139.63B](https://www.forbes.com/profile/amancio-ortega/) — *2026-06-08*
+- [#11 Amancio Ortega — $140.28B](https://www.forbes.com/profile/amancio-ortega/) — *2026-06-08*
   > Spain · Fashion & Retail · source: Zara · holdings: SAN-ES(MADRID), ENG-ES(MADRID), ITX-ES(MADRID)
 - [#12 Rob Walton & family — $137.74B](https://www.forbes.com/profile/rob-walton/) — *2026-06-08*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
@@ -41,7 +41,7 @@ state: fresh
   > United States · Technology · source: Microsoft · holdings: MSFT-US(NASDAQ), TWTR-US(NYSE)
 - [#15 Alice Walton — $126.03B](https://www.forbes.com/profile/alice-walton/) — *2026-06-08*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
-- [#16 Carlos Slim Helu & family — $120.21B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-06-08*
+- [#16 Carlos Slim Helu & family — $120.26B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-06-08*
   > Mexico · Telecom · source: Telecom · holdings: AMX-US(NYSE), BT.A-GB(LONDON), FCC-ES(MADRID), GCARSOA1-MX(MEXICO)
 - [#17 Michael Bloomberg — $109.42B](https://www.forbes.com/profile/michael-bloomberg/) — *2026-06-08*
   > United States · Finance & Investments · source: Bloomberg LP
@@ -51,15 +51,15 @@ state: fresh
   > United States · Technology · source: Microsoft · holdings: ACGL-US(NASDAQ), ARCO-US(NYSE), AN-US(NYSE), BRK.A-US(NYSE)
 - [#20 Thomas Peterffy — $97.32B](https://www.forbes.com/profile/thomas-peterffy/) — *2026-06-08*
   > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
-- [#21 Francoise Bettencourt Meyers & family — $93.42B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-06-08*
+- [#21 Francoise Bettencourt Meyers & family — $93.85B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-06-08*
   > France · Fashion & Retail · source: L'Oréal · holdings: OR-FR(EURONEXT PARIS)
 - [#22 Giancarlo Devasini — $89.30B](https://www.forbes.com/profile/giancarlo-devasini/) — *2026-06-08*
   > Italy · Finance & Investments · source: Cryptocurrency
-- [#23 Gautam Adani — $88.76B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-06-08*
+- [#23 Gautam Adani — $88.11B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-06-08*
   > India · Diversified · source: Infrastructure, commodities · holdings: 512599-IN(BSE INDIA), 542066-IN(BSE INDIA), 541450-IN(BSE INDIA), 532921-IN(BSE INDIA)
-- [#24 Mukesh Ambani — $87.31B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-06-08*
+- [#24 Mukesh Ambani — $86.95B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-06-08*
   > India · Diversified · source: Diversified · holdings: 543940-IN(BSE INDIA), 500325-IN(BSE INDIA)
 - [#25 Masayoshi Son — $81.88B](https://www.forbes.com/profile/masayoshi-son/) — *2026-06-08*
   > Japan · Finance & Investments · source: Telecom, Investments · holdings: 9984-JP(TOKYO)
 
-_(15 additional items in raw.jsonl)_
+_(11 additional items in raw.jsonl)_

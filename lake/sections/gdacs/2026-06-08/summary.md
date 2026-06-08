@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-06-08
-record_count: 122
-new_today: 39
+record_count: 128
+new_today: 45
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-39 new of 122 total items today.
+45 new of 128 total items today.
 
 - **NEW**  [[Orange] Earthquake in Philippines](https://www.gdacs.org/report.aspx?eventid=1544720&episodeid=1710268&eventtype=EQ) — *2026-06-07*
   > Earthquake · Orange alert · Philippines · Magnitude 7.8M, Depth:55.193km
@@ -51,15 +51,15 @@ state: fresh
   > Earthquake · Green alert · Philippines · Magnitude 5.5M, Depth:51.144km
 - **NEW**  [[Green] Earthquake in Philippines](https://www.gdacs.org/report.aspx?eventid=1544803&episodeid=1710364&eventtype=EQ) — *2026-06-08*
   > Earthquake · Green alert · Philippines · Magnitude 5.5M, Depth:51.144km
+- **NEW**  [[Green] Earthquake in Philippines](https://www.gdacs.org/report.aspx?eventid=1544876&episodeid=1710453&eventtype=EQ) — *2026-06-08*
+  > Earthquake · Green alert · Philippines · Magnitude 5.5M, Depth:81.095km
+- **NEW**  [[Green] Earthquake in Philippines](https://www.gdacs.org/report.aspx?eventid=1544876&episodeid=1710453&eventtype=EQ) — *2026-06-08*
+  > Earthquake · Green alert · Philippines · Magnitude 5.5M, Depth:81.095km
 - [[Green] Earthquake in Balleny Islands Region](https://www.gdacs.org/report.aspx?eventid=1544408&episodeid=1710024&eventtype=EQ) — *2026-06-05*
   > Earthquake · Green alert · Balleny Islands Region · Magnitude 5.6M, Depth:10km
 - [[Green] Earthquake in Balleny Islands Region](https://www.gdacs.org/report.aspx?eventid=1544408&episodeid=1710024&eventtype=EQ) — *2026-06-05*
   > Earthquake · Green alert · Balleny Islands Region · Magnitude 5.6M, Depth:10km
 - **NEW**  [[Green] Earthquake in Bhutan](https://www.gdacs.org/report.aspx?eventid=1544678&episodeid=1710208&eventtype=EQ) — *2026-06-07*
   > Earthquake · Green alert · Bhutan · Magnitude 5.6M, Depth:10km
-- **NEW**  [[Green] Earthquake in Bhutan](https://www.gdacs.org/report.aspx?eventid=1544678&episodeid=1710208&eventtype=EQ) — *2026-06-07*
-  > Earthquake · Green alert · Bhutan · Magnitude 5.6M, Depth:10km
-- **NEW**  [[Green] Earthquake in Philippines](https://www.gdacs.org/report.aspx?eventid=1544800&episodeid=1710357&eventtype=EQ) — *2026-06-08*
-  > Earthquake · Green alert · Philippines · Magnitude 5.7M, Depth:35km
 
-_(97 additional items in raw.jsonl)_
+_(103 additional items in raw.jsonl)_
