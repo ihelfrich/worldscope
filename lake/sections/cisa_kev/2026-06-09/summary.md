@@ -1,0 +1,37 @@
+---
+section: cisa_kev
+title: CISA Known Exploited Vulnerabilities (last 14d)
+date: 2026-06-09
+record_count: 12
+new_today: 2
+state: fresh
+---
+
+## CISA Known Exploited Vulnerabilities (last 14d)
+
+2 new of 12 total items today.
+
+- **NEW**  [CVE-2026-42271 · BerriAI LiteLLM: BerriAI LiteLLM Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-42271) — *2026-06-08*
+  > vendor: BerriAI · product: LiteLLM · CISA remediation by 2026-06-22
+- **NEW**  [CVE-2026-50751 · Check Point Security Gateway: Check Point Security Gateway Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-50751) — *2026-06-08*
+  > vendor: Check Point · product: Security Gateway · CISA remediation by 2026-06-11
+- [CVE-2026-28318 · SolarWinds Serv-U: SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-28318) — *2026-06-05*
+  > vendor: SolarWinds · product: Serv-U · CISA remediation by 2026-06-19
+- [CVE-2026-45247 · Mirasvit Mirasvit Full Page Cache Warmer: Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-45247) — *2026-06-03*
+  > vendor: Mirasvit · product: Mirasvit Full Page Cache Warmer · CISA remediation by 2026-06-06
+- [CVE-2022-0492 · Linux Kernel: Linux Kernel Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2022-0492) — *2026-06-02*
+  > vendor: Linux · product: Kernel · CISA remediation by 2026-06-05
+- [CVE-2025-48595 · Android Framework: Android Framework Integer Overflow Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2025-48595) — *2026-06-02*
+  > vendor: Android · product: Framework · CISA remediation by 2026-06-05
+- [CVE-2024-21182 · Oracle WebLogic Server: Oracle WebLogic Server Unspecified Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2024-21182) — *2026-06-01*
+  > vendor: Oracle · product: WebLogic Server · CISA remediation by 2026-06-04
+- [CVE-2026-0257 · Palo Alto Networks PAN-OS: Palo Alto Networks PAN-OS Authentication Bypass Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-0257) — *2026-05-29*
+  > vendor: Palo Alto Networks · product: PAN-OS · CISA remediation by 2026-06-01
+- [CVE-2026-48027 · Nx Nx Console: Nx Console Embedded Malicious Code Vulnerability [RANSOMWARE-LINKED]](https://nvd.nist.gov/vuln/detail/CVE-2026-48027) — *2026-05-27*
+  > vendor: Nx · product: Nx Console · CISA remediation by 2026-06-10
+- [CVE-2026-45321 · TanStack TanStack: TanStack Unspecified Vulnerability [RANSOMWARE-LINKED]](https://nvd.nist.gov/vuln/detail/CVE-2026-45321) — *2026-05-27*
+  > vendor: TanStack · product: TanStack · CISA remediation by 2026-06-10
+- [CVE-2026-8398 · Daemon Daemon Tools Lite: Daemon Tools Lite Embedded Malicious Code Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-8398) — *2026-05-27*
+  > vendor: Daemon · product: Daemon Tools Lite · CISA remediation by 2026-05-30
+- [CVE-2026-48172 · LiteSpeed cPanel Plugin: LiteSpeed cPanel Plugin Privilege Escalation Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-48172) — *2026-05-26*
+  > vendor: LiteSpeed · product: cPanel Plugin · CISA remediation by 2026-05-29
