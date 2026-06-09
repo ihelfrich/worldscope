@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-06-09
-record_count: 115
-new_today: 104
+record_count: 127
+new_today: 122
 state: fresh
 ---
 
 ## State Legislative Action
 
-104 new of 115 total items today.
+122 new of 127 total items today.
 
 - [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-06-09*
   > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Alaska SB 180] An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.]() — *2026-06-08*
   > An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.
 
-_(90 additional items in raw.jsonl)_
+_(102 additional items in raw.jsonl)_

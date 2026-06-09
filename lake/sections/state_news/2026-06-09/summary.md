@@ -2,21 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-06-09
-record_count: 443
-new_today: 302
+record_count: 476
+new_today: 341
 state: fresh
 ---
 
 ## State-Level News
 
-302 new of 443 total items today.
+341 new of 476 total items today.
 
-- **NEW**  [[California] Why Bay Area tech layoffs aren’t raising recession fears — yet](https://calmatters.org/newsletter/tech-layoffs-bay-area/) — *2026-06-08*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/01/032223_Meta-Facebook_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" src
-- **NEW**  [[California] California wants to change how it funds senior services. That could mean fewer meals for LA’s elderly](https://calmatters.org/commentary/2026/06/aging-services-changes-meals-california/) — *2026-06-08*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/101625_Senior-EBT_BANG_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elderly woman wearing a brown crochet pag
-- **NEW**  [[California] California wants to cap business tax credits, alarming life sciences and tech industries](https://calmatters.org/economy/2026/06/california-business-tax-credit-cap/) — *2026-06-08*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060426-Biotech-Lab-KCA-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Three lab workers in white lab coats a
 - **NEW**  [[Alabama] Governor Ivey Invites Alabamians to Cast a Line on Free Fishing Day](https://governor.alabama.gov/newsroom/2026/06/governor-ivey-invites-alabamians-to-cast-a-line-on-free-fishing-day/) — *2026-06-08*
   > MONTGOMERY – Governor Kay Ivey on Monday announced that on Saturday, June 13, 2026, Alabamians and out-of-state visitors alike will have the opportunity to fish for free in most public waters, including both freshwater and saltwater. Free Fishing Day allows &#8230; <a href="https
 - **NEW**  [[California] Governor Newsom issues proclamation declaring California’s 2026 general election](https://www.gov.ca.gov/2026/06/08/governor-newsom-issues-proclamation-declaring-californias-2026-general-election/) — *2026-06-08*
@@ -25,18 +19,16 @@ state: fresh
 - **NEW**  [[California] California leads the nation in job creation](https://www.gov.ca.gov/2026/06/08/california-leads-the-nation-in-job-creation/) — *2026-06-08*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/California-leads-the-nation-in-job-creation-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="California leads the nation in job creation" decoding="async" />
 <p
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-09*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- **NEW**  [[California] Why Bay Area tech layoffs aren’t raising recession fears — yet](https://calmatters.org/newsletter/tech-layoffs-bay-area/) — *2026-06-08*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/01/032223_Meta-Facebook_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" src
+- **NEW**  [[California] California wants to change how it funds senior services. That could mean fewer meals for LA’s elderly](https://calmatters.org/commentary/2026/06/aging-services-changes-meals-california/) — *2026-06-08*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/101625_Senior-EBT_BANG_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elderly woman wearing a brown crochet pag
+- **NEW**  [[California] California wants to cap business tax credits, alarming life sciences and tech industries](https://calmatters.org/economy/2026/06/california-business-tax-credit-cap/) — *2026-06-08*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060426-Biotech-Lab-KCA-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Three lab workers in white lab coats a
 - [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-06-09*
   > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Delaware] DCF takes on deepening crises in Season 2 of How to (Not) Kill Your Community](https://spotlightdelaware.org/2026/06/08/sponsored-dcf-podcast-season-2/) — *2026-06-08*
-  > <figure><img width="1024" height="692" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/DCF-sponcon_IMG_8106_CROP.png?fit=1024%2C692&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Back-of-camera image of a podcast episod
-- [[Delaware] New bill would give Delawareans vote on constitutional changes](https://spotlightdelaware.org/2026/06/08/new-bill-would-give-delawareans-vote-on-constitutional-changes/) — *2026-06-08*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/Delaware-voting-machine-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcs
-- [[Delaware] Get Involved: General Assembly reconvenes, Sussex affordable housing, more](https://spotlightdelaware.org/2026/06/08/get-involved-general-assembly-reconvenes-sussex-affordable-housing-more/) — *2026-06-08*
-  > <figure><img width="1000" height="800" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/Get-Involved-Artwork-Template-1000x800-10.png?fit=1000%2C800&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loadi
-- [[Delaware] Bills would require, incentivize Delaware data centers to bring their own power](https://spotlightdelaware.org/2026/06/08/bills-would-require-incentivize-delaware-data-centers-to-bring-their-own-power/) — *2026-06-08*
-  > <figure><img width="1024" height="681" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/Data-center-WIKI.jpg?fit=1024%2C681&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https:/
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-09*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Connecticut] Former Bridgeport munitions testing site redeveloped as urban forest](https://ctmirror.org/2026/06/09/bridgeport-munitions-testing-site-redeveloped-urban-forest/) — *2026-06-09*
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/05/REMINGTON-WOODS-0529-JM-7957-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-
 - **NEW**  [[Connecticut] Why I marched for Israel](https://ctmirror.org/2026/06/09/why-i-marched-for-israel/) — *2026-06-09*
@@ -63,5 +55,13 @@ state: fresh
   > <figure><img width="1024" height="704" src="https://ctmirror.org/wp-content/uploads/2026/05/katie-Beckett-waiver-1024x704.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
 - [[Connecticut] Amid manufacturing workforce woes, CT bets on youth robotics](https://ctmirror.org/2026/06/07/robotics-manufacturing-technology-first-recf-ct/) — *2026-06-07*
   > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/06/EventCourtesyPhoto_FIRSTDistrictChampionships_Competition-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="h
+- [[Connecticut] PAID POST: Affordable Financing Helps Connecticut Nonprofits Build Stronger Communities](https://ctmirror.org/2026/06/07/chefa-ct-nonprofit-financing-community-impact-infrastructure/) — *2026-06-07*
+  > <figure><img width="1024" height="769" src="https://ctmirror.org/wp-content/uploads/2026/06/CHEFA-1-1024x769.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/06/CHE
+- [[Connecticut] We built transportation’s future, then got stuck in traffic](https://ctmirror.org/2026/06/07/ct-built-transportations-future-then-got-stuck-in-traffic/) — *2026-06-07*
+  > <figure><img width="802" height="401" src="https://ctmirror.org/wp-content/uploads/2026/06/Dynamixion_car_by_Buckminster_Fuller_1933_side_views.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror
+- **NEW**  [[Delaware] Wilmington City Council formally opposes mayor’s plan to close park encampment](https://spotlightdelaware.org/2026/06/09/wilmington-city-council-formally-opposes-mayors-plan-to-close-park-encampment/) — *2026-06-09*
+  > <figure><img width="1024" height="768" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/20260511_172952.jpg?fit=1024%2C768&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="ht
+- **NEW**  [[Delaware] What to know about Delaware’s new medical school](https://spotlightdelaware.org/2026/06/09/what-to-know-about-delawares-new-medical-school/) — *2026-06-09*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/skmc-exterior-1280x853-1.jpeg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset
 
-_(418 additional items in raw.jsonl)_
+_(451 additional items in raw.jsonl)_

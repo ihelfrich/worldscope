@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-06-09
-record_count: 20
-new_today: 18
+record_count: 22
+new_today: 21
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-18 new of 20 total items today.
+21 new of 22 total items today.
 
 - **NEW**  [M 6.1 - 104 km WNW of Mantua, Cuba](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx) — *2026-06-08*
   > M6.1 · 104 km WNW of Mantua, Cuba · depth 26 km
@@ -17,6 +17,8 @@ state: fresh
   > M5.5 · southern Mid-Atlantic Ridge · depth 10 km
 - [M 5.5 - 12 km WSW of Balangonan, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srfx) — *2026-06-08*
   > M5.5 · 12 km WSW of Balangonan, Philippines · depth 81.095 km
+- **NEW**  [M 5.4 - 21 km SSW of Lumatil, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srpu) — *2026-06-09*
+  > M5.4 · 21 km SSW of Lumatil, Philippines · depth 35 km
 - **NEW**  [M 5.4 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srku) — *2026-06-08*
   > M5.4 · southern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 5.4 - 197 km SSE of Isangel, Vanuatu](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srkc) — *2026-06-08*
@@ -27,6 +29,8 @@ state: fresh
   > M5.2 · 21 km SW of Sarangani, Philippines · depth 82.366 km
 - **NEW**  [M 5.2 - 44 km SSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgq) — *2026-06-08*
   > M5.2 · 44 km SSW of Sarangani, Philippines · depth 55.698 km
+- **NEW**  [M 5.1 - 6 km SSW of Sibagat, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srpr) — *2026-06-09*
+  > M5.1 · 6 km SSW of Sibagat, Philippines · depth 10 km
 - **NEW**  [M 5.1 - 10 km N of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srmq) — *2026-06-08*
   > M5.1 · 10 km N of Sarangani, Philippines · depth 23.958 km
 - **NEW**  [M 5.1 - 52 km S of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srk7) — *2026-06-08*
@@ -39,6 +43,8 @@ state: fresh
   > M4.9 · 101 km N of Mīnāb, Iran · depth 10 km
 - **NEW**  [M 4.9 - 75 km S of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srh6) — *2026-06-08*
   > M4.9 · 75 km S of Sarangani, Philippines · depth 39.205 km
+- **NEW**  [M 4.8 - 116 km SW of Tambolaka, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srpn) — *2026-06-09*
+  > M4.8 · 116 km SW of Tambolaka, Indonesia · depth 24.483 km
 - **NEW**  [M 4.8 - 82 km WSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srkw) — *2026-06-08*
   > M4.8 · 82 km WSW of Sarangani, Philippines · depth 35 km
 - **NEW**  [M 4.7 - 8 km SSW of Pangyan, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srml) — *2026-06-08*
@@ -49,5 +55,3 @@ state: fresh
   > M4.6 · 84 km S of Sarangani, Philippines · depth 76.732 km
 - **NEW**  [M 4.6 - 54 km SE of Angoram, Papua New Guinea](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgy) — *2026-06-08*
   > M4.6 · 54 km SE of Angoram, Papua New Guinea · depth 154.37 km
-- [M 4.6 - 30 km WSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000srfd) — *2026-06-08*
-  > M4.6 · 30 km WSW of Sarangani, Philippines · depth 72.975 km

@@ -2,64 +2,54 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-06-09
-record_count: 216
-new_today: 203
+record_count: 218
+new_today: 205
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-203 new of 216 total items today.
+205 new of 218 total items today.
 
+- **NEW**  [[St. Louis] Abide in Love marks a year of helping immigrants detained in Missouri](https://www.stlpr.org/government-politics-issues/2026-06-09/abide-love-helping-immigrants-detained-missouri) — *2026-06-09*
+- **NEW**  [[St. Louis] Festus City Council rejects recall resolutions for mayor, 3 council members](https://www.stlpr.org/news-briefs/2026-06-09/festus-city-council-rejects-recall-resolutions-for-mayor-3-council-members) — *2026-06-09*
+- **NEW**  [[St. Louis] Belleville’s Skyview Drive-In for sale after almost 80 years of family ownership](https://www.stlpr.org/culture-history/2026-06-08/belleville-skyview-drive-in-for-sale) — *2026-06-08*
+- **NEW**  [[St. Louis] St. Louis Public Schools district employee diagnosed with Legionnaires’ disease](https://www.stlpr.org/news-briefs/2026-06-08/st-louis-public-schools-district-employee-diagnosed-with-legionnaires-disease) — *2026-06-08*
+- **NEW**  [[St. Louis] Missouri Supreme Court declines to hear case about tax issue on August ballot, just before deadline](https://www.stlpr.org/government-politics-issues/2026-06-08/missouri-supreme-court-declines-to-hear-case-tax-issue-august-ballot-just-before-deadline) — *2026-06-08*
+- **NEW**  [[St. Louis] SLU Billikens, Missouri Tigers to play basketball series at Enterprise Center starting in November](https://www.stlpr.org/sports/2026-06-08/billikens-tigers-basketball-series-enterprise-center) — *2026-06-08*
+- **NEW**  [[St. Louis] St. Louis could see extreme heat, flash floods and storms this week](https://www.stlpr.org/news-briefs/2026-06-08/st-louis-extreme-weather-heat-floods-storms) — *2026-06-08*
+- **NEW**  [[St. Louis] Missouri delays SNAP restrictions on candy, sugary drinks until 2027](https://www.stlpr.org/news-briefs/2026-06-08/missouri-delays-snap-restrictions-2027) — *2026-06-08*
+- [[St. Louis] Bosanska i Panamska zajednica u St. Louisu slave kulturu uoči SP nakon remija 1:1](https://www.stlpr.org/sports/2026-06-08/bosanska-i-panamska-zajednica-u-st-louisu-slave-kulturu-uoci-sp-nakon-remija-1-1) — *2026-06-08*
+- [[St. Louis] Solar farm could turn polluted land to boon for East St. Louis residents’ electric bills](https://www.stlpr.org/health-science-environment/2026-06-08/solar-farm-polluted-land-east-st-louis-electric-bills) — *2026-06-08*
+- **NEW**  [[St. Louis] Eight Track Spirits looks to supply bartenders with ‘the workhorses behind the bar’](https://www.stlmag.com/business/eight-track-spirits-launches/) — *2026-06-09*
+  > <p>The spirits stocked behind a bar tend to fall into two broad categories—the more expensive bottles with their labels prominently on display, and the less visible, yet more often used liquors in what’s known as the well or rail.&#160; It’s the latter space where the newly launc
+- **NEW**  [[St. Louis] Photos: 2026 Excellence in Nursing Awards](https://www.stlmag.com/health/photos-2026-excellence-in-nursing-awards/) — *2026-06-08*
+  > <p>On June 4, area nurses and their friends, family, and colleagues enjoyed a celebratory evening at Missouri Botanical Garden’s Bayer Event Center for the 2026 Excellence in Nursing Awards, presented by BJC HealthCare and Barnes-Jewish College Goldfarb School of Nursing. The eve
+- **NEW**  [[St. Louis] How Butler’s Pantry helped shape St. Louis dining culture](https://www.stlmag.com/dining/butlers-pantry-richard-nix/) — *2026-06-08*
+  > <p>Anyone who has attended a St. Louis wedding reception or gala over the past several decades likely recognizes the name Butler’s Pantry. Founded 60 years ago, the company has grown into one of the largest catering operations in St. Louis—arguably the largest—and among the bigge
+- **NEW**  [[St. Louis] What happens when you finally reach financial security and realize the bigger question has nothing to do with money?](https://www.stlmag.com/branded-content/what-happens-after-financial-security-volare-wealth/) — *2026-06-08*
+  > <p>People spend decades preparing for financial freedom. They save consistently, build retirement accounts, reduce debt, and follow the plan year after year. Then, one day, the numbers finally look strong. And a different question appears: Now what? Chris Wedell, financial adviso
+- **NEW**  [[St. Louis] Top family-friendly events this week in St. Louis](https://www.stlmag.com/family/top-family-friendly-events-this-week-in-st-louis/) — *2026-06-08*
+  > <p>Family Movie Night: Zootopia 2 &#124; June 10 9 Mile Garden’s Family Movie Night series returns with a screening of Zootopia 2, plus food trucks, desserts, and cold drinks. Lawn chairs, blankets, and leashed dogs are welcome. 9 Mile Garden, 9445 Gravois. St. Louis Kids Book Cl
+- **NEW**  [[St. Louis] Free summer concert series for every day of the week](https://www.stlmag.com/culture/music/st-louis-free-summer-concert-series-every-day-of-the-week/) — *2026-06-08*
+  > <p>Music lovers can turn out&#160;any day of the week to see exciting free concerts and live performances all across the St. Louis area. With the&#160;array of different genres and settings on offer, you can always find the right fit, whether you&#8217;re looking for a place to p
+- **NEW**  [[St. Louis] Wash Ave Food Hall targeting October 2026 opening](https://www.stlmag.com/dining/wash-ave-food-hall-downtown-st-louis/) — *2026-06-08*
+  > <p>Wash Ave Food Hall (1122 Washington), the highly anticipated hospitality concept planned for downtown&#8217;s Washington Avenue, is now targeting an October 2026 opening, according to an updated announcement from developer Oliver Properties. The project will transform the form
+- [[St. Louis] 73 Missouri land owners settle with feds over Rock Island Trail easements](https://www.stlmag.com/news/missouri-land-owners-settle-rock-island-trail/) — *2026-06-08*
+  > <p>A group of 22 Missouri landowners got checks from the federal government last month—their long-fought compensation for what they alleged was the wrongful taking of their land. In accepting that settlement, they join another 51 Missourians paid out for the same reason in March.
+- [[St. Louis] St. Louis restaurant openings, closings, and coming soons](https://www.stlmag.com/dining/st-louis-restaurant-openings-closings-coming-soon/) — *2026-06-07*
+  > <p>The following information is accurate as of an early-June press date. May is a traditionally robust month for restaurant openings in St. Louis, and so it was this year, with 22 openings and only five closings. Two restaurants in Clayton closed: Bistro La Floraison (7637 Wydown
+- [[St. Louis] Lou’s Clues – 6/8/2026](https://www.stlmag.com/games/lous-clues-060826/) — *2026-06-07*
+  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
+- **NEW**  [[St. Louis] President Trump says pilots are fine after US helicopter crashes near Strait of Hormuz](https://www.ksdk.com/article/news/nation-world/attack-on-iran/president-trump-pilots-us-army-helicopter-crash-strait-hormuz/507-2593fd20-ed39-4004-b38f-37af97ca5ca4) — *2026-06-09*
+  > It's unclear what caused the helicopter to go down, but the crash comes after renewed tensions between the U.S., its allies in the region and Iran.
+- **NEW**  [[St. Louis] North St. Louis shooting leaves 2 critically injured](https://www.ksdk.com/article/news/crime/north-st-louis-shooting-sherry-avenue/63-1cfd99e4-494a-40a1-b88a-a1f493391551) — *2026-06-09*
+  > Two men were injured in a shooting Tuesday morning on Sherry Avenue.
+- **NEW**  [[St. Louis] Deadly crash shuts down westbound I-70 in St. Louis](https://www.ksdk.com/article/traffic/st-louis-crash-interstate-70-at-branch-street/63-f8d36de0-2ce7-4eb9-8930-97d2087c01d3) — *2026-06-09*
+  > Westbound lanes of I-70 were closed for hours after a crash early Monday morning involving several vehicles.
+- **NEW**  [[St. Louis] Seattle-area teenager dies in lacrosse accident](https://www.ksdk.com/article/news/nation-world/seattle-washington-lacrosse-mercer-island/507-41f4cb3c-dd6d-4747-bf5e-c95b0ebb7c99) — *2026-06-09*
+  > Eliot lived on Mercer Island, Washington.
 - **NEW**  [[St. Louis] Festus City Council blocks recall election amid data center dispute](https://www.ksdk.com/article/news/politics/festus-city-council-blocks-recall-election-amid-data-center-dispute/63-8d389cd2-e1b1-4dcc-a6b4-45e33b7eaae3) — *2026-06-09*
   > Festus leaders rejected recall election measures tied to the data center debate, despite certified petitions, leaving opponents pursuing a "Plan B."
-- **NEW**  [[St. Louis] Donald Trump booed by the crowd during the anthem prior to Game 3 of the NBA Finals](https://www.ksdk.com/article/news/nation-world/donald-trump-booed-game-3-nba-finals-knicks-spurs-msg/507-8ed4862f-afe3-46a9-875f-7e6a76c9df8e) — *2026-06-09*
-  > Donald Trump's attendance at Game 3 of the NBA Finals sparked boos and heightened security that disrupted fans' plans at Madison Square Garden on Monday.
-- **NEW**  [[St. Louis] FBI testimony alleges Florida teen tried to destroy evidence after killing stepsister on cruise ship](https://www.ksdk.com/article/news/nation-world/timothy-hudson-anna-kepner-death-carnival-cruise-fbi-testimony/507-9e279644-a61a-4c83-b3e8-7fdb2bc1c415) — *2026-06-09*
-  > A teenager charged with killing his stepsister on a cruise now faces charges in adult court, and a possible life sentence if found guilty.
-- **NEW**  [[St. Louis] Baby ejected from car after Arkansas police pursuit ends in crash](https://www.ksdk.com/article/news/nation-world/baby-ejected-from-car-arkansas-police-pursuit-crash/507-95dbd4af-a9f5-4cc6-a5fa-68cef7e41fb2) — *2026-06-09*
-  > Three more children, all under 6 years old, were in the car when it crashed.
-- **NEW**  [[St. Louis] Community to weigh gun violence solutions at town hall following teen's death](https://www.ksdk.com/article/news/crime/community-to-weigh-gun-violence-solutions-at-town-hall-following-teens-death/63-2af5dbe3-ab2e-4271-82e2-b793e9cbce02) — *2026-06-09*
-  > State Sen. Angela Mosley to co-host town hall aimed at combating gun violence, days after 16 year old was shot and killed in north St. Louis store.
-- [[St. Louis] St. Louis' first heat wave arrives Tuesday through Thursday | Weather Impact Alert](https://www.ksdk.com/article/weather/weather-impact/st-louis-first-extreme-heat-wave-tuesday-through-friday-weather-impact-alert/63-931beec3-ef3d-42af-8f37-95dba211f860) — *2026-06-09*
-  > Heat indices will soar above 100 degrees Tuesday into Thursday. This will be our first real heat of the summer season. Severe storms expected Thursday.
-- **NEW**  [[St. Louis] Two of the brightest planets in the night sky are about to nearly touch](https://www.ksdk.com/article/news/nation-world/venus-jupiter-conjunction-night-sky-june-9/507-e7b5360a-db8c-4dd7-88bb-61e3b7d5c9c2) — *2026-06-09*
-  > Even though they're millions of miles apart in space, Jupiter and Venus will appear stacked side by side in the night sky this week.
-- **NEW**  [[St. Louis] Detective arrested after drawing gun on officer who microwaved fish in break room, officials say](https://www.ksdk.com/article/news/nation-world/detective-arrested-drawing-gun-on-officer-microwaved-fish/507-ca2b2b0c-93b6-45d3-b539-c51fdeef28e0) — *2026-06-09*
-  > Former South Carolina police officer Michael DeBiase was arrested for pointing a gun at a coworker over a fish odor dispute, state law enforcement officials said.
-- **NEW**  [[St. Louis] From life support to graduation | Georgia teen survives shooting, walks stage with bullet still lodged in cheek](https://www.ksdk.com/article/news/nation-world/georgia-teen-survives-shooting-walks-graduation-stage/507-e058035d-6d22-4d44-9657-d42d78617f23) — *2026-06-09*
-  > Quantavis Lovett beat the odds. Just weeks after being removed from life support, the high school senior walked across the graduation stage.
-- **NEW**  [[St. Louis] 'Chaos': '6-7' event near St. Louis attracts hundreds of kids, sparking fights, arrests; minor caught with butcher knife](https://www.ksdk.com/article/news/crime/st-louis-6-7-event-hundreds-of-kids-fights-disruptions-businesses/63-7b1275a5-bae4-4bf1-8308-727034d6fdab) — *2026-06-08*
-  > A butcher knife was seized and several minors were detained after large crowd at a Shrewsbury event leads to fights and chaos at nearby businesses.
-- **NEW**  [[St. Louis] 'Wicked' stars Ariana Grande, Ethan Slater split after 3 years](https://www.ksdk.com/article/news/nation-world/ariana-grande-ethan-slater-break-up/507-6fd61243-171b-4e0e-86d3-8e6a78b13d11) — *2026-06-08*
-  > Ariana Grande and Ethan Slater quietly ended their relationship a few months ago, according to multiple media reports.
-- **NEW**  [[St. Louis] Man charged after prosecutors say 6-year-old girl was sexually molested inside Bridgeton Target](https://www.ksdk.com/article/news/crime/man-charged-after-prosecutors-say-6-year-old-girl-was-sexually-molested-inside-bridgeton-target/63-0bd8f06d-7670-4c07-ad2b-d61249171a9c) — *2026-06-08*
-  > Investigators say the girl ran to her mother, who called 911. Police arrested the out-of-state suspect about 10 minutes later.
-- **NEW**  [[St. Louis] Missouri knew half of north St. Louis was uninsured for a decade. Then the tornado came](https://www.ksdk.com/article/news/local/missouri-knew-half-of-north-st-louis-was-uninsured-for-decade-then-the-tornado-came/63-7041cd01-471f-4c0b-97e9-0285ce8fb69f) — *2026-06-08*
-  > 5 On Your Side fought the state for insurance records. What we found had been sitting in a government file since 1988.
-- **NEW**  [[St. Louis] Federal judge strikes down Trump's $100,000 fee on new H-1B visas](https://www.ksdk.com/article/news/nation-world/federal-judge-strikes-down-trump-fee-h-1b-visas/507-ed6d05c3-d5ef-4e23-b0a2-b7b29336bf3d) — *2026-06-08*
-  > H-1B visas are meant for high-skilled jobs that are difficult to find American workers to fill.
-- **NEW**  [[St. Louis] Jet fuel spending jumps nearly 80% in April, prompting more airlines to trim schedules](https://www.ksdk.com/article/news/nation-world/jet-fuel-spending-jumps-airlines-trim-schedules/507-7495430b-7a78-4972-83e4-659788cad1cd) — *2026-06-08*
-  > U.S. carriers spent nearly $6.5 billion on fuel in April, compared with about $3.6 billion a year earlier, according to the Bureau of Transportation Statistics.
-- **NEW**  [[St. Louis] 6.1 magnitude earthquake strikes near Cuba, felt in parts of Florida](https://www.ksdk.com/article/news/nation-world/earthquake-near-cuba-felt-in-florida/507-3ebfe0f9-6c3e-48a7-854e-28dc1eebfd83) — *2026-06-08*
-  > According to the National Weather Service in Miami, it had received several reports of shaking from the earthquake across southwestern Florida.
-- **NEW**  [[St. Louis] 'I will forever be grateful for the memories we made': Kyle Busch's brother speaks out after NASCAR legend's death](https://www.ksdk.com/article/news/nation-world/kyle-busch-brother-kurt-remembers/507-88b81087-102d-4932-879f-c3c9b98e8cee) — *2026-06-08*
-  > Kurt Busch thanked fans for their support after his brother's death and reflected on their bond in a social media post Monday.
-- **NEW**  [[St. Louis] US Coast Guard concludes search for Michigan woman who disappeared in Bahamas](https://www.ksdk.com/article/news/nation-world/lynette-hooker-michigan-woman-bahamas-search-coast-guard-ends/507-f80349b0-af2f-4242-9ce8-299a9c434850) — *2026-06-08*
-  > The Coast Guard reopened the Bahamas search last week following new evidence.
-- **NEW**  [[St. Louis] Saint Louis Zoo's Merah, second-oldest orangutan in North America, dies at 57](https://www.ksdk.com/article/news/local/saint-louis-zoo-second-oldest-orangutan-north-america-dies-at-57/63-c7ed121f-5907-4dff-ad79-0562cf9eb590) — *2026-06-08*
-  > Merah died by humane euthanasia last week after an assessment of her health and quality of life, the Saint Louis Zoo announced Monday.
-- **NEW**  [[St. Louis] USDA secretary announces response plan to combat New World screwworm](https://www.ksdk.com/article/news/nation-world/usda-new-world-screwworm-texas-cattle/507-c154fc05-dd37-43dd-bd62-2cc5e98ee7ed) — *2026-06-08*
-  > Federal officials are preparing a response after New World screwworm was found in southern Texas, prompting a statewide disaster declaration.
-- **NEW**  [[St. Louis] Vietnam veteran near St. Louis finds healing through storytelling in new memoir | Spotlight on Service](https://www.ksdk.com/article/news/local/st-louis-vietnam-veteran-new-memoir-webster-groves/63-5fc5d80b-f655-4695-bcb6-85ff18484632) — *2026-06-08*
-  > Webster Groves native Tom Becker struggled with PTSD after his Vietnam deployment, long before the disorder became an official diagnosis.
-- **NEW**  [[St. Louis] Grammy-winning songwriter Talay Riley stabbed to death in London](https://www.ksdk.com/article/news/nation-world/songwriter-talay-riley-stabbed-to-death/507-9e87382a-8f67-4cfe-85eb-3899eefc067c) — *2026-06-08*
-  > British singer-songwriter Talay Riley, who wrote hits for stars like Dua Lipa, Britney Spears and Khalid, was killed in a stabbing in London.
-- **NEW**  [[St. Louis] Netflix finds its Scooby-Doo for upcoming live-action series](https://www.ksdk.com/article/news/nation-world/scooby-doo-netflix-real-dog-playing-iconic-cartoon/507-3811541c-6a02-479c-a062-6d036b400a23) — *2026-06-08*
-  > For the first time ever, Scooby-Doo will be a real dog.
-- **NEW**  [[St. Louis] Dramatic video shows Texas police save driver pinned in a burning car](https://www.ksdk.com/article/news/nation-world/dramatic-video-texas-police-save-driver-burning-car/507-687e8066-9c99-4f1c-9aef-08364c3da360) — *2026-06-08*
-  > Richardson police responded on the evening of May 28 to a crash that pinned a man inside a burning car. Through heroic efforts, the man was safely removed.
-- **NEW**  [[St. Louis] It's official: SLU will face Mizzou in basketball series at Enterprise Center](https://www.ksdk.com/article/news/local/slu-mizzou-basketball-series-enterprise-center/63-311f1c9b-903f-419a-8825-fb54a755dbe5) — *2026-06-08*
-  > The Billikens and Tigers announced a three-game series that begins on Friday, Nov. 6, at Enterprise Center. It is the first time the teams have met in 25 years.
 
-_(191 additional items in raw.jsonl)_
+_(193 additional items in raw.jsonl)_
