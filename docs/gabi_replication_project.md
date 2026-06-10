@@ -118,15 +118,21 @@ on a duplicated worksheet page.
 
 1. **Now → June 16:** Gabi finishes the COMPETE2020 recon (her current deliverable). No new
    assignments before then.
-2. **Ian, this week:** cut Gabi's NMTC slice (tract GEOID, CDE, year, QLICI amount, total project
-   cost) with a one-page data dictionary; drop it in the Portugal pod's `Data/` folder. Add a
-   pointer to the Census 2000 tract income tables (NHGIS/IPUMS or Census FTP — free).
+2. **Done (June 10):** the data prep is finished and committed alongside the notebook — a
+   cleaned NMTC transaction slice, a tract-level 2003–2007 aggregate, and a rebuilt
+   census-2000 eligibility file carrying the running variable, all documented in
+   `docs/replication/freedman2012/data/DATA_DICTIONARY.md`. One finding the pod should
+   know: **the NMTC file in the lab Drive (FY2022 public release) reports all deals on
+   2020 census tracts**, so it cannot be merged with year-2000 income data. The committed
+   slice derives instead from the FY2017 release (2010 tracts) crosswalked back to 2000
+   boundaries. The first stage was pre-run on these exact files and replicates (+1.7pp
+   jump in P(any deal) at the cutoff, t ≈ 4.5), so the notebook's checkpoints are real
+   numbers rather than guesses.
 3. **June 16 check-in (Ian/Liz + Gabi):** debrief recon; introduce the replication as rung 2–3 of
-   the 5-step plan; hand over the Freedman PDF, a duplicated worksheet page with step 0
-   pre-filled, and the guided R notebook at
-   [`docs/replication/freedman2012/`](replication/freedman2012/README.md) (synthetic-data dress
-   rehearsal in Part 2 runs out of the box; real-data parts activate as files land in
-   `data/raw/`). Liz sets the weekly cadence and the "stuck >30 min → ask" rule.
+   the 5-step plan; hand over a duplicated worksheet page with step 0 pre-filled and the
+   project folder at [`docs/replication/freedman2012/`](replication/freedman2012/README.md)
+   (papers, data, and notebook all committed — it runs end to end out of the box). Liz sets
+   the weekly cadence and the "stuck >30 min → ask" rule.
 4. **Weeks of June 16–July:** Gabi cards Freedman first (rung 2), then builds the replication
    (rung 3) in the Bench, with the worksheet as the spine.
 5. **Katia:** stays focused on interviews; Gabi's recon table + glossary flow to her. The
