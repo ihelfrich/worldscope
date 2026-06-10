@@ -8,9 +8,18 @@ worksheet "Replicating a paper"). The spine of the project is the R notebook:
 
 ## The papers
 
-> The cloud session that built this folder couldn't download PDFs (its network is
-> restricted to GitHub/PyPI/npm), so fetch them with the links below — the notebook's
-> first chunk also does this for you. Save them into `papers/` (git-ignored).
+Both PDFs are committed in [`papers/`](papers/), verified byte-for-byte against their
+sources (SHA-256: Freedman `564c9d58…f7d6`, Baum-Snow & Marion `9bc256d6…acb8`):
+
+- `papers/freedman_2012_teaching_new_markets_old_tricks_wp.pdf` — the working-paper
+  version, from Cornell eCommons (45 pp.)
+- `papers/baum_snow_marion_2009_lihtc_wp.pdf` — the working-paper version, from
+  Brown Economics (46 pp.)
+
+These are the author-posted, ungated working-paper versions — fine for reading and
+carding. **Cite the published versions** (links below), and pull the comparison
+numbers for Part 4 of the notebook from the published first-stage table if you have
+library access, since tables can shift between working paper and journal.
 
 **Main paper — the one being replicated:**
 

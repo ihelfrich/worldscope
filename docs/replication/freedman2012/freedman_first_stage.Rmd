@@ -74,29 +74,23 @@ library(broom)
 library(estimatr)
 ```
 
-## Get the papers
+## The papers
 
-Run this once. It creates a `papers/` folder next to this notebook and downloads
-what it can; the Freedman PDF sits behind a click-through page, so the chunk opens
-it in your browser instead — download it and save it into `papers/` yourself.
+Both papers are already in the `papers/` folder next to this notebook (they came
+with the git repo — see the README for sources and checksums):
 
-```{r get-papers, eval=FALSE}
-dir.create("papers", showWarnings = FALSE)
+- `papers/freedman_2012_teaching_new_markets_old_tricks_wp.pdf` — **the main paper**
+- `papers/baum_snow_marion_2009_lihtc_wp.pdf` — the backup paper, for later
 
-# Baum-Snow & Marion (2009) — the backup paper, direct downloads:
-download.file(
-  "https://economics.brown.edu/sites/default/files/papers/2007-5_paper.pdf",
-  "papers/baum_snow_marion_2007_wp.pdf", mode = "wb"
-)
-download.file(
-  "https://www.novoco.com/public-media/documents/baumsnow-marion_lihtc-dec08.pdf",
-  "papers/baum_snow_marion_2008_nearfinal.pdf", mode = "wb"
-)
+These are the authors' ungated working-paper versions. If you have library access,
+also grab the published *Journal of Public Economics* version of Freedman (2012)
+— [ScienceDirect link](https://www.sciencedirect.com/science/article/abs/pii/S0047272712000886) —
+and take the Part 4 comparison numbers from *that* first-stage table.
 
-# Freedman (2012) — main paper. Two ungated copies; save one as
-# papers/freedman_2012_nmtc.pdf
-browseURL("https://ecommons.cornell.edu/handle/1813/89085")            # Cornell working paper
-browseURL("https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2180227") # SSRN copy
+```{r open-paper, eval=FALSE}
+# Opens the main paper in your PDF viewer:
+system2("open", "papers/freedman_2012_teaching_new_markets_old_tricks_wp.pdf")  # macOS
+# On Windows: shell.exec("papers/freedman_2012_teaching_new_markets_old_tricks_wp.pdf")
 ```
 
 ## Read the paper (before Part 3)
