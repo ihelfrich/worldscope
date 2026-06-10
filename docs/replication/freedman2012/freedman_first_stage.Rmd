@@ -1,0 +1,526 @@
+---
+title: 'Replicating Freedman (2012): does NMTC money jump at the eligibility cutoff?'
+author: "QSS Lab — Portugal pod (Gabi, advised by Ian & Liz)"
+date: "Summer 2026"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Read this first
+
+Welcome! This notebook is the spine of your first replication. It walks the
+worksheet steps — **data → sample → specification → run → compare → reconcile** —
+for *one* result from one published paper:
+
+> **Freedman, Matthew (2012), "Teaching new markets old tricks: The effects of
+> subsidized investment on low-income neighborhoods,"** *Journal of Public
+> Economics* 96(11–12), 1000–1014.
+
+**The one result we are replicating (worksheet step 0):** census tracts whose
+median family income falls *just below* 80% of their area's median receive
+discontinuously more New Markets Tax Credit (NMTC) investment than tracts *just
+above* that line. This is the paper's **first stage** — the engine that makes
+everything else in the paper credible. We are *not* replicating the full paper.
+
+A few ground rules:
+
+1. **Work top to bottom.** Part 2 uses *fake* data that you generate yourself, so
+   you can run the entire pipeline in 30 minutes before touching anything messy.
+   Every later step reuses the pattern you build there.
+2. **Run every chunk yourself** (the green ▶ button in RStudio). Reading code is
+   not the same as running it.
+3. **Stuck > 30 minutes → ask.** That's the lab rule. There are no dumb questions,
+   only silent stuck people.
+4. Boxes marked **CHECKPOINT** tell you what you should be seeing. If you see
+   something else, stop and figure out why (or ask) — don't push on.
+
+---
+
+# Part 0 — Setup
+
+## Install R and RStudio (once)
+
+If you haven't already: install [R](https://cran.r-project.org/) first, then
+[RStudio Desktop](https://posit.co/download/rstudio-desktop/). Open *this file*
+(`freedman_first_stage.Rmd`) in RStudio.
+
+## Install the packages we need (once)
+
+```{r packages}
+pkgs <- c(
+  "tidyverse",  # data manipulation (dplyr) + plotting (ggplot2) — the workhorse
+  "readxl",     # read Excel files (the CDFI Fund ships .xlsx)
+  "janitor",    # clean_names(): turns "Project GEOID " into "project_geoid"
+  "scales",     # nice axis labels ($, %, commas)
+  "broom",      # tidy(): turns regression output into a data frame
+  "estimatr"    # lm_robust(): regression with honest standard errors
+)
+to_install <- setdiff(pkgs, rownames(installed.packages()))
+if (length(to_install) > 0) install.packages(to_install)
+
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(scales)
+library(broom)
+library(estimatr)
+```
+
+## Get the papers
+
+Run this once. It creates a `papers/` folder next to this notebook and downloads
+what it can; the Freedman PDF sits behind a click-through page, so the chunk opens
+it in your browser instead — download it and save it into `papers/` yourself.
+
+```{r get-papers, eval=FALSE}
+dir.create("papers", showWarnings = FALSE)
+
+# Baum-Snow & Marion (2009) — the backup paper, direct downloads:
+download.file(
+  "https://economics.brown.edu/sites/default/files/papers/2007-5_paper.pdf",
+  "papers/baum_snow_marion_2007_wp.pdf", mode = "wb"
+)
+download.file(
+  "https://www.novoco.com/public-media/documents/baumsnow-marion_lihtc-dec08.pdf",
+  "papers/baum_snow_marion_2008_nearfinal.pdf", mode = "wb"
+)
+
+# Freedman (2012) — main paper. Two ungated copies; save one as
+# papers/freedman_2012_nmtc.pdf
+browseURL("https://ecommons.cornell.edu/handle/1813/89085")            # Cornell working paper
+browseURL("https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2180227") # SSRN copy
+```
+
+## Read the paper (before Part 3)
+
+You don't need the paper for Parts 1–2. Before Part 3, read Freedman (2012):
+
+- **Sections 1–2** (the program and the eligibility rule) carefully,
+- **Section 3** (data) carefully — this is the section you are about to re-create,
+- the **first-stage table and figure** carefully (find them! writing down *which*
+  table/figure holds the first stage is your first worksheet entry),
+- everything else (outcomes, robustness) on a skim for now.
+
+As you read, fill in the worksheet's paper card: research question, identification
+idea, data sources, sample restrictions, the exact first-stage specification, and
+the headline first-stage numbers. **Copy the published coefficients into
+Part 4's comparison table below** — they are your target.
+
+---
+
+# Part 1 — The idea, in plain words
+
+**The program.** The New Markets Tax Credit (created 2000) gives investors a 39%
+federal tax credit for putting equity into community development entities (CDEs),
+which must invest it in businesses and real-estate projects in *low-income
+communities*. Billions of dollars flow through it.
+
+**The rule.** A census tract is a "low-income community" (eligible) if **either**
+
+- its **poverty rate is ≥ 20%**, **or**
+- its **median family income (MFI) is ≤ 80%** of the area median (the state
+  median for non-metro tracts; the larger of state/metro median for metro tracts).
+
+**The trick.** A tract at 79.9% of area MFI and a tract at 80.1% are basically
+identical neighborhoods — but one is eligible for subsidized investment and the
+other is not. Comparing tracts just below vs. just above the line is as close to
+a randomized experiment as observational data gets. That's a **regression
+discontinuity (RD)** design.
+
+**The first stage.** None of this matters unless the rule actually moves money:
+do just-below tracts really get more NMTC investment than just-above tracts? That
+jump-at-the-cutoff is what we replicate.
+
+**Why the lab cares.** "Does public money pull private money into places that
+wouldn't otherwise get it?" is *exactly* the question the Portugal pod asks of
+COMPETE2020. You're learning the US benchmark for the thing you'll help Katia
+build.
+
+> **Vocabulary you'll meet:** *running variable* (the MFI ratio — the continuous
+> variable the rule is applied to), *cutoff* (0.80), *bandwidth/window* (how far
+> from the cutoff we let tracts be and still count as "close"), *first stage* (the
+> effect of crossing the cutoff on treatment, here NMTC dollars), *QLICI* (a
+> qualified low-income community investment — one NMTC deal; one row in the data).
+
+---
+
+# Part 2 — Dress rehearsal on fake data
+
+Before fighting real, messy data, we build a tiny fake world where we *know* the
+truth, and check that our code recovers it. This is a habit worth keeping forever:
+**if your code can't find an effect you put there on purpose, it won't find one in
+real data either.**
+
+## 2.1 Simulate a world with a known jump
+
+```{r simulate}
+set.seed(45)   # makes "random" numbers reproducible (45 for IRC §45D, the NMTC statute)
+
+n_tracts <- 4000
+
+fake <- tibble(
+  geoid     = sprintf("%011d", sample(1e9, n_tracts)),  # 11-character tract IDs
+  mfi_ratio = runif(n_tracts, min = 0.40, max = 1.20)   # tract MFI / area MFI
+) |>
+  mutate(
+    below_cutoff = mfi_ratio <= 0.80,
+    # The TRUTH we plant: crossing below the cutoff raises the chance a tract
+    # gets any NMTC deal by 8 percentage points. Richer tracts also get a bit
+    # less investment in general (the smooth, boring part).
+    prob_invest  = 0.05 + 0.08 * below_cutoff + 0.10 * (1 - mfi_ratio),
+    got_nmtc     = rbinom(n_tracts, size = 1, prob = prob_invest),
+    qlici_amount = if_else(got_nmtc == 1, round(exp(rnorm(n_tracts, 15, 1))), 0)
+  )
+
+glimpse(fake)
+```
+
+> **CHECKPOINT.** `glimpse()` should show 4,000 rows and 6 columns, with
+> `qlici_amount` equal to 0 for most tracts and in the millions for some.
+
+## 2.2 *Look* before you regress
+
+The single most convincing object in any RD paper is a picture: average the
+outcome in narrow bins of the running variable and look for the jump.
+
+```{r rd-plot-fake, fig.width=8, fig.height=5}
+binned <- fake |>
+  mutate(bin = cut_width(mfi_ratio, width = 0.02, center = 0.01)) |>
+  group_by(bin) |>
+  summarise(
+    bin_mid    = mean(mfi_ratio),
+    share_nmtc = mean(got_nmtc),
+    n          = n()
+  )
+
+ggplot(binned, aes(x = bin_mid, y = share_nmtc)) +
+  geom_point(aes(size = n), alpha = 0.7) +
+  geom_vline(xintercept = 0.80, linetype = "dashed", color = "red") +
+  scale_y_continuous(labels = percent) +
+  labs(
+    title    = "Fake world: share of tracts with any NMTC investment",
+    subtitle = "Each dot = tracts in a 2-point bin of the income ratio. See the jump at 0.80?",
+    x        = "Tract MFI / area MFI (running variable)",
+    y        = "Share with any NMTC deal",
+    size     = "Tracts in bin"
+  ) +
+  theme_minimal()
+```
+
+> **CHECKPOINT.** Dots should drift gently downward as the ratio rises, with a
+> visible *step down* right at the dashed line. That step is the 8-percentage-point
+> jump we planted.
+
+## 2.3 Measure the jump with a regression
+
+The simplest honest version: keep tracts *near* the cutoff (a ±10-point window),
+and let the outcome depend on (a) a dummy for being below the cutoff and (b) a
+straight line in the running variable that's allowed to differ on each side. The
+dummy's coefficient is the jump.
+
+```{r rd-reg-fake}
+window <- fake |>
+  filter(mfi_ratio >= 0.70, mfi_ratio <= 0.90) |>
+  mutate(dist = mfi_ratio - 0.80)         # center the running variable at the cutoff
+
+first_stage_fake <- lm_robust(
+  got_nmtc ~ below_cutoff + dist + below_cutoff:dist,
+  data = window
+)
+
+tidy(first_stage_fake) |> select(term, estimate, std.error, p.value)
+```
+
+> **CHECKPOINT.** The `below_cutoffTRUE` estimate should be roughly **0.08**
+> (within ~2 standard errors of it). If it is: your pipeline works, and you just
+> ran your first regression discontinuity. 🎉
+
+## 2.4 Two experiments to run before moving on
+
+Don't skip these — each one teaches a thing you'll need to *argue about* later:
+
+1. **Shrink the window** to ±5 points (`0.75`–`0.85`) and re-run. The estimate
+   should stay near 0.08 but the standard error should grow. *Why?* (Fewer tracts.)
+   This is the bandwidth trade-off every RD paper wrestles with.
+2. **Placebo cutoff:** re-run the regression pretending the cutoff is 0.90
+   (re-center `dist` there, window 0.85–0.95). The "jump" should be ≈ 0 and
+   insignificant. *Why is this comforting?*
+
+```{r experiments, eval=FALSE}
+# Your code for experiments 1 and 2 here. Copy 2.3 and modify it.
+```
+
+---
+
+# Part 3 — The real thing
+
+Now the same pipeline on real data. Create a `data/raw/` folder next to this
+notebook and put the files there as you get them. Every chunk below checks
+whether its input exists, so the notebook still knits while files are missing.
+
+## 3.1 Data piece #1: NMTC transactions
+
+**Preferred:** Ian's slice of the CDFI Fund transaction file, from the pod's
+`Data/` folder in Drive — `nmtc_slice.csv`, with columns
+`tract_geoid, cde, year, qlici_amount, total_project_cost` (see its one-page data
+dictionary). **Fallback:** the full public release from the
+[CDFI Fund data page](https://www.cdfifund.gov/documents/data-releases) — an Excel
+file; read it with `read_excel()` and `clean_names()`, then rename to the columns
+above.
+
+```{r load-nmtc}
+nmtc_path <- "data/raw/nmtc_slice.csv"
+
+if (file.exists(nmtc_path)) {
+  nmtc_raw <- read_csv(
+    nmtc_path,
+    col_types = cols(tract_geoid = col_character())  # NEVER read GEOIDs as numbers!
+  )
+  glimpse(nmtc_raw)
+} else {
+  message("Put nmtc_slice.csv in data/raw/ — see README. Skipping for now.")
+}
+```
+
+> **Why `col_character()` matters (first real-data trap):** a tract GEOID is an
+> 11-digit *label* — 2 state + 3 county + 6 tract digits. Read as a number,
+> `01001020100` (Autauga County, Alabama) silently becomes `1001020100` and will
+> never match anything again. Rule: **IDs are text, not numbers.**
+
+### Clean it
+
+Real administrative data is messy on purpose-revealing dimensions. Work through
+each of these and *write down what you find* (worksheet: "data" section):
+
+```{r clean-nmtc}
+if (exists("nmtc_raw")) {
+  nmtc <- nmtc_raw |>
+    clean_names() |>
+    mutate(
+      tract_geoid = str_pad(str_trim(tract_geoid), width = 11,
+                            side = "left", pad = "0")
+    )
+
+  # Q1: How many rows? How many DISTINCT tracts? (Many deals share a tract.)
+  n_rows   <- nrow(nmtc)
+  n_tracts <- n_distinct(nmtc$tract_geoid)
+  c(rows = n_rows, distinct_tracts = n_tracts)
+
+  # Q2: What years are covered? Which years does FREEDMAN's sample cover?
+  #     (Check Section 3 of the paper — his window is the program's early
+  #      years. Filter to match HIS window and note the choice.)
+  count(nmtc, year)
+
+  # Q3: Any rows with missing or zero qlici_amount? What will you do with them?
+  summary(nmtc$qlici_amount)
+}
+```
+
+```{r filter-years}
+if (exists("nmtc")) {
+  paper_years <- c(2003, 2004, 2005, 2006, 2007)  # <-- CHECK against Section 3 and fix!
+  nmtc_sample <- nmtc |> filter(year %in% paper_years)
+}
+```
+
+> **CHECKPOINT.** After cleaning, every `tract_geoid` should be exactly 11
+> characters: `all(nchar(nmtc_sample$tract_geoid) == 11)` must be `TRUE`.
+
+## 3.2 Data piece #2: the running variable
+
+The transaction file only contains tracts that *got* deals. For an RD you need
+**all tracts** — including the thousands that got nothing — each with its income
+ratio. Get the CDFI Fund's census-2000 NMTC eligibility file (all ~65k tracts with
+MFI ratio, poverty rate, and eligibility flags); Novoco's
+[NMTC resource center](https://www.novoco.com/resource-centers/new-markets-tax-credits)
+hosts the same data if the CDFI page is hard to navigate. Save it as
+`data/raw/eligibility_2000.csv` (export the Excel sheet to CSV if needed) with at
+least: `tract_geoid`, `mfi_ratio` (as a proportion or percent — check!),
+`poverty_rate`, and a metro/non-metro indicator if present.
+
+```{r load-eligibility}
+elig_path <- "data/raw/eligibility_2000.csv"
+
+if (file.exists(elig_path)) {
+  elig <- read_csv(elig_path, col_types = cols(tract_geoid = col_character())) |>
+    clean_names() |>
+    mutate(tract_geoid = str_pad(str_trim(tract_geoid), 11, "left", "0"))
+
+  # Sanity checks — run and READ the output:
+  nrow(elig)                       # ~65,000 (all census-2000 tracts)?
+  summary(elig$mfi_ratio)          # centered near 1? Or near 100 (= percent)? Rescale if so!
+  mean(elig$poverty_rate >= 0.20, na.rm = TRUE)  # plausible share of high-poverty tracts?
+}
+```
+
+> **The OR-clause trap (the classic mistake in this replication).** Eligibility is
+> *income ≤ 80% of area median* **OR** *poverty ≥ 20%*. A tract at 85% of area MFI
+> with 22% poverty is **eligible** even though it's above the income cutoff. If you
+> ignore this, your "ineligible" side is contaminated and the jump shrinks.
+> **Go find how Freedman handles this** (hint: look at how he defines his sample
+> around the income threshold) and do the same. Write down what he does — this is
+> a worksheet "sample" entry, and it's the single most important sample decision
+> in the project.
+
+```{r or-clause}
+if (exists("elig")) {
+  # Most likely answer (verify against the paper!): keep tracts that are NOT
+  # eligible via the poverty route, so the income cutoff is the only margin.
+  elig_clean <- elig |> filter(poverty_rate < 0.20)
+  nrow(elig_clean)
+}
+```
+
+## 3.3 Merge: build the analysis file
+
+One row per tract: its running variable + its NMTC dollars (zero if none). The
+direction of the join is the whole game — the *eligibility universe* is the left
+table, so untreated tracts survive with `NA`, which we then make an explicit 0.
+
+```{r merge}
+if (exists("elig_clean") && exists("nmtc_sample")) {
+  tract_invest <- nmtc_sample |>
+    group_by(tract_geoid) |>
+    summarise(
+      n_deals      = n(),
+      total_qlici  = sum(qlici_amount, na.rm = TRUE)
+    )
+
+  analysis <- elig_clean |>
+    left_join(tract_invest, by = "tract_geoid") |>
+    mutate(
+      n_deals     = replace_na(n_deals, 0),
+      total_qlici = replace_na(total_qlici, 0),
+      got_nmtc    = as.integer(n_deals > 0)
+    )
+
+  # Diagnostics — interrogate the merge before trusting it:
+  mean(analysis$got_nmtc)                            # share of tracts with any deal (small!)
+  n_unmatched <- nrow(tract_invest) -
+    sum(tract_invest$tract_geoid %in% elig_clean$tract_geoid)
+  n_unmatched   # deals in tracts NOT in your eligibility universe — WHY?
+}
+```
+
+> **CHECKPOINT.** Some transactions *won't* match (`n_unmatched > 0`) — possible
+> reasons: you dropped poverty-eligible tracts in 3.2 (fine — those deals are
+> outside the experiment), 2010-vintage GEOIDs in later transaction years (which
+> is itself a reason to match Freedman's early sample window), territories.
+> Account for every unmatched deal in one of those buckets before moving on.
+> "I can explain every row I dropped" is what separates a replication from a vibe.
+
+## 3.4 Run the first stage
+
+Identical shape to 2.3 — that was the point of the rehearsal.
+
+```{r first-stage}
+if (exists("analysis")) {
+  window_real <- analysis |>
+    filter(mfi_ratio >= 0.70, mfi_ratio <= 0.90) |>
+    mutate(
+      below_cutoff = mfi_ratio <= 0.80,
+      dist         = mfi_ratio - 0.80
+    )
+
+  fs_any <- lm_robust(got_nmtc ~ below_cutoff + dist + below_cutoff:dist,
+                      data = window_real)
+  fs_amt <- lm_robust(total_qlici ~ below_cutoff + dist + below_cutoff:dist,
+                      data = window_real)
+
+  tidy(fs_any) |> select(term, estimate, std.error, p.value)
+  tidy(fs_amt) |> select(term, estimate, std.error, p.value)
+}
+```
+
+And the picture — the real version of 2.2:
+
+```{r rd-plot-real, fig.width=8, fig.height=5}
+if (exists("window_real")) {
+  window_real |>
+    mutate(bin = cut_width(mfi_ratio, width = 0.01)) |>
+    group_by(bin) |>
+    summarise(bin_mid = mean(mfi_ratio), share = mean(got_nmtc), n = n()) |>
+    ggplot(aes(bin_mid, share)) +
+    geom_point(aes(size = n), alpha = 0.7) +
+    geom_vline(xintercept = 0.80, linetype = "dashed", color = "red") +
+    scale_y_continuous(labels = percent) +
+    labs(
+      title = "The real first stage: share of tracts with any NMTC deal",
+      x = "Tract MFI / area MFI", y = "Share with any NMTC deal", size = "Tracts"
+    ) +
+    theme_minimal()
+}
+```
+
+---
+
+# Part 4 — Compare and reconcile (the actual deliverable)
+
+## 4.1 The comparison table
+
+Fill in the paper's numbers (from the first-stage table you identified in Part 0)
+and yours:
+
+```{r comparison}
+comparison <- tribble(
+  ~quantity,                          ~freedman_2012, ~ours,  ~same_sign, ~similar_size,
+  "Jump in P(any NMTC deal) at 0.80",  NA_real_,       NA_real_, NA,        NA,
+  "Jump in NMTC $ at 0.80",            NA_real_,       NA_real_, NA,        NA,
+  "N tracts in window",                NA_real_,       NA_real_, NA,        NA
+)
+comparison
+```
+
+**Success is not getting the identical number.** You're using a (possibly) newer
+data release, your own sample rules, and a simpler specification. Success is:
+same sign, same order of magnitude, **and a written list of reasons for every
+remaining gap**.
+
+## 4.2 The reconciliation checklist
+
+For each gap, work through the suspects in this order (cheapest first):
+
+1. **Sample window** — same years as the paper? Same bandwidth around the cutoff?
+2. **Sample rules** — did you handle the poverty OR-clause the way he did? Metro
+   and non-metro both in? Tracts with missing income?
+3. **Data vintage** — his CDFI file was an early release; yours has revisions.
+4. **Specification** — he may use local linear with a chosen bandwidth, controls,
+   or clustered standard errors. Match one ingredient at a time and watch what moves.
+5. **Units** — dollars vs. log dollars vs. an indicator; percent vs. proportion.
+
+Document every experiment in the worksheet. *This section is the skill.* The
+regression takes one line; knowing why two careful people get different numbers
+from "the same" data is what the lab is actually training you to do.
+
+---
+
+# Part 5 — Stretch goals (rungs 4–5 of the 5-step plan)
+
+Only after Part 4 is written up:
+
+- **(a) One outcome.** Pick one neighborhood outcome around the cutoff (tract
+  poverty or median home values from the 2005–2009 ACS) and estimate the same
+  RD on it. You've now touched the paper's reduced form.
+- **(b) The rural split.** Estimate the first stage separately for metro and
+  non-metro tracts. *Does the eligibility discontinuity mobilize less money in
+  rural tracts?* — if yes, you've produced a fact that feeds directly into Ian's
+  rural mobilization-gap paper. (This is "finding the hole" — rung 4.)
+- **(c) Build the running variable yourself** from Census 2000 SF3 (median family
+  income, table P077) via the `tidycensus` package, and reconstruct the area
+  medians (state for non-metro, max of state/metro for metro tracts). Comparing
+  your homemade ratio to the CDFI file's is a serious data exercise.
+- **(d) The Portugal question.** One page: what is the COMPETE2020 analogue of
+  this design? What's the running variable? What's the cutoff? What data would
+  Katia need? (This is rung 5 — your first research proposal.)
+
+When you get here, duplicate the Notion worksheet page and write it up. Then we
+talk about Baum-Snow & Marion (2009) — same skills, new program — or you keep
+going on (d). Your call.

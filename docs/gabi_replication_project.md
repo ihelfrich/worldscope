@@ -122,8 +122,11 @@ on a duplicated worksheet page.
    cost) with a one-page data dictionary; drop it in the Portugal pod's `Data/` folder. Add a
    pointer to the Census 2000 tract income tables (NHGIS/IPUMS or Census FTP — free).
 3. **June 16 check-in (Ian/Liz + Gabi):** debrief recon; introduce the replication as rung 2–3 of
-   the 5-step plan; hand over the Freedman PDF and a duplicated worksheet page with step 0
-   pre-filled. Liz sets the weekly cadence and the "stuck >30 min → ask" rule.
+   the 5-step plan; hand over the Freedman PDF, a duplicated worksheet page with step 0
+   pre-filled, and the guided R notebook at
+   [`docs/replication/freedman2012/`](replication/freedman2012/README.md) (synthetic-data dress
+   rehearsal in Part 2 runs out of the box; real-data parts activate as files land in
+   `data/raw/`). Liz sets the weekly cadence and the "stuck >30 min → ask" rule.
 4. **Weeks of June 16–July:** Gabi cards Freedman first (rung 2), then builds the replication
    (rung 3) in the Bench, with the worksheet as the spine.
 5. **Katia:** stays focused on interviews; Gabi's recon table + glossary flow to her. The
