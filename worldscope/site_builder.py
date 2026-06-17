@@ -168,6 +168,7 @@ def _navbar(base: str = "") -> str:
     <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
       <a href="{base}index.html">Today</a>
       <a href="{base}sections/">Sections</a>
+      <a href="{base}coverage.html">Coverage</a>
       <a href="{base}briefings/">Archive</a>
     </nav>
     <div class="flex-1"></div>
@@ -197,6 +198,7 @@ def _navbar(base: str = "") -> str:
     <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
       <li><a href="{base}index.html" class="block py-1.5">Today</a></li>
       <li><a href="{base}sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="{base}coverage.html" class="block py-1.5">Coverage</a></li>
       <li><a href="{base}briefings/" class="block py-1.5">Archive</a></li>
       <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
     </ul>
@@ -559,6 +561,160 @@ def render_sections_root(out_root: Path) -> Path:
     return out_path
 
 
+# --------------------------------------------------------------------------
+# Source coverage page — surfaces the integrity assessment (which section is
+# fresh / stale / empty / failed / awaiting a credential) as a public page, so
+# the per-source status is visible at a glance instead of needing a DB query.
+# --------------------------------------------------------------------------
+
+# Light-theme status pills (white text on a solid color). Mirrors the status
+# vocabulary in worldscope.integrity.
+_COVERAGE_BADGE = {
+    "FRESH":   "#2f7d4f",
+    "STALE":   "#b07a00",
+    "EMPTY":   "#9a3b2f",
+    "FAILED":  "#b3261e",
+    "NO_KEY":  "#3b5168",
+    "SKIPPED": "#6b6b6b",
+}
+_COVERAGE_ORDER = ["FAILED", "NO_KEY", "EMPTY", "STALE", "SKIPPED", "FRESH"]
+
+
+def _latest_integrity() -> tuple[str, dict]:
+    """Load the most recent committed integrity.json artifact. Falls back to a
+    live assessment when none is on disk (e.g. a fresh checkout). Returns
+    (date, report_dict); report_dict may be empty if nothing is available."""
+    meta = REPO / "lake" / "sections" / "_meta"
+    if meta.exists():
+        dates = sorted(
+            (d.name for d in meta.iterdir()
+             if d.is_dir() and re.match(r"\d{4}-\d{2}-\d{2}$", d.name)),
+            reverse=True,
+        )
+        for d in dates:
+            data = _read_meta(meta / d / "integrity.json")
+            if data.get("sections"):
+                return data.get("date", d), data
+    # Fallback: compute live from the lake.
+    try:
+        from .integrity import assess, section_ids_from_registry, summary_line
+        from .lake import Lake
+        from .store import SnapshotStore
+        today = _date.today()
+        lake = Lake.open()
+        conn = lake._ensure_open()
+        sids = section_ids_from_registry() or sorted(
+            {r[0] for r in conn.execute("SELECT DISTINCT section_id FROM records")})
+        reports = assess(conn, sids, today=today, store=SnapshotStore())
+        lake.close()
+        return today.isoformat(), {
+            "date": today.isoformat(),
+            "summary": summary_line(reports),
+            "sections": [r.to_dict() for r in reports],
+        }
+    except Exception:
+        return "", {}
+
+
+def _coverage_table_html(report: dict) -> str:
+    """Render the coverage table from an integrity report dict. Pure/testable."""
+    sections = report.get("sections") or []
+    sections = sorted(
+        sections,
+        key=lambda s: (_COVERAGE_ORDER.index(s.get("status"))
+                       if s.get("status") in _COVERAGE_ORDER else 99,
+                       s.get("section_id", "")),
+    )
+    counts: dict[str, int] = {}
+    for s in sections:
+        counts[s.get("status", "?")] = counts.get(s.get("status", "?"), 0) + 1
+    chips = " ".join(
+        f'<span class="cov-chip" style="background:{_COVERAGE_BADGE.get(st, "#6b6b6b")}">'
+        f'{html.escape(st)} {counts[st]}</span>'
+        for st in _COVERAGE_ORDER if counts.get(st)
+    )
+    rows = []
+    for s in sections:
+        st = s.get("status", "?")
+        color = _COVERAGE_BADGE.get(st, "#6b6b6b")
+        sid = s.get("section_id", "")
+        sid_seg = safe_path_segment(sid)
+        # Link the section name to its drill-down archive when it has records.
+        name_html = (
+            f'<a href="sections/{html.escape(sid_seg, quote=True)}/">{html.escape(pretty_section(sid))}</a>'
+            if (s.get("last_record_date") or s.get("today_count")) else html.escape(pretty_section(sid))
+        )
+        cf = s.get("consecutive_failures") or 0
+        rows.append(
+            "<tr>"
+            f'<td class="cov-name">{name_html}</td>'
+            f'<td><span class="cov-chip" style="background:{color}">{html.escape(st)}</span></td>'
+            f'<td class="cov-reason">{html.escape(s.get("reason", ""))}</td>'
+            f'<td class="cov-date">{html.escape(str(s.get("last_record_date") or "—"))}</td>'
+            f'<td class="cov-num">{int(s.get("today_count") or 0)}</td>'
+            f'<td class="cov-num">{int(cf) if cf else "—"}</td>'
+            "</tr>"
+        )
+    return (
+        f'<div class="cov-chips">{chips}</div>'
+        '<div class="cov-wrap"><table class="cov-table">'
+        '<thead><tr><th>Source</th><th>Status</th><th>Detail</th>'
+        '<th>Last record</th><th>Today</th><th>Fails</th></tr></thead>'
+        f'<tbody>{"".join(rows)}</tbody></table></div>'
+    )
+
+
+_COVERAGE_STYLE = """<style>
+.cov-chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.5rem 0 1.4rem}
+.cov-chip{display:inline-block;color:#fff;font:600 11px/1.5 ui-sans-serif,system-ui,sans-serif;
+  letter-spacing:.02em;padding:.1rem .5rem;border-radius:999px;white-space:nowrap}
+.cov-wrap{overflow-x:auto}
+.cov-table{width:100%;border-collapse:collapse;font:14px/1.45 ui-sans-serif,system-ui,sans-serif}
+.cov-table th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.04em;
+  color:#6b675e;border-bottom:1px solid #d9d2c4;padding:.45rem .6rem}
+.cov-table td{border-bottom:1px solid #ece7db;padding:.5rem .6rem;vertical-align:top}
+.cov-name{font-weight:600;white-space:nowrap}
+.cov-reason{color:#4a463e}
+.cov-date{white-space:nowrap;color:#6b675e;font-variant-numeric:tabular-nums}
+.cov-num{text-align:right;font-variant-numeric:tabular-nums;color:#6b675e}
+</style>"""
+
+
+def render_source_coverage(out_root: Path, *, report: dict | None = None) -> Path:
+    """Render dist/coverage.html — the public per-source status board."""
+    when, data = ("", report or {})
+    if report is None:
+        when, data = _latest_integrity()
+    else:
+        when = report.get("date", "")
+    summary = data.get("summary", "")
+    n = len(data.get("sections") or [])
+    fresh = sum(1 for s in (data.get("sections") or []) if s.get("status") == "FRESH")
+    body = (
+        '<h1>Source coverage</h1>'
+        '<p class="font-sans text-sm text-slate mt-2 mb-2">'
+        f'Status of all {n} ingest sources as of '
+        f'<strong class="text-ink font-semibold">{html.escape(when or "—")}</strong> · '
+        f'{fresh}/{n} fresh. Every gap is shown, not hidden — a failed or '
+        'credential-less source is reported with its reason rather than appearing '
+        'as a quiet empty.</p>'
+        + (f'<p class="font-sans text-sm text-slate mb-6">{html.escape(summary)}</p>' if summary else "")
+        + _COVERAGE_STYLE
+        + (_coverage_table_html(data) if data.get("sections")
+           else '<p class="font-sans text-sm text-slate">No integrity report available yet.</p>')
+    )
+    crumbs = [("WORLDSCOPE", "index.html"), ("Source coverage", "")]
+    out_path = out_root / "coverage.html"
+    out_path.write_text(
+        _wrap("Source coverage", body, crumbs, base="",
+              canonical=f"{PAGES_BASE}/coverage.html",
+              description="WORLDSCOPE source coverage: live status of every ingest "
+                          "source — fresh, stale, empty, failed, or awaiting a credential."),
+        encoding="utf-8",
+    )
+    return out_path
+
+
 def render_404(out_root: Path) -> Path:
     """Site-styled 404 page so broken links land somewhere navigable."""
     body = (
@@ -622,6 +778,8 @@ def build_all(out_root: Path, *, days_to_render: int = 7) -> dict:
         section_pages += 1
         sitemap_urls.append(f"{PAGES_BASE}/sections/{sid_seg}/")
     render_sections_root(out_root)
+    render_source_coverage(out_root)
+    sitemap_urls.append(f"{PAGES_BASE}/coverage.html")
     render_404(out_root)
     render_sitemap(out_root, sitemap_urls)
     return {

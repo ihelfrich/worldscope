@@ -4,13 +4,21 @@ RSS feed of unusual disease outbreaks. The closest the open web gets to
 real-time biosurveillance. Posts include human, animal, plant, and
 zoonotic outbreaks with location and source citations.
 
-Feed: https://promedmail.org/promed-posts/?cat=feed (RSS)
+NOTE (2026): ProMED relaunched its site and the legacy public RSS feed
+(``/promed-posts/?cat=feed``) now returns 404 — there is no documented public
+RSS/JSON endpoint at time of writing. This adapter reads whatever URL is set in
+the PROMED_FEED_URL env var (defaulting to the legacy path) and parses it as
+RSS, so a working feed URL or an authenticated proxy can be dropped in without
+a code change. Until one is configured, the section fails cleanly and the
+integrity stage reports it as down (rather than silently empty). Official
+outbreak coverage is still provided by the who_don section in the meantime.
 
 Items carry the disease name in the title; we parse common patterns
 ("Avian influenza - North America (12): USA") to surface country.
 """
 from __future__ import annotations
 
+import os
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -19,7 +27,9 @@ import requests
 
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-FEED = "https://promedmail.org/promed-posts/?cat=feed"
+# Legacy public RSS is discontinued; overridable so a working feed/proxy URL can
+# be supplied via env without editing code.
+FEED = os.environ.get("PROMED_FEED_URL", "https://promedmail.org/promed-posts/?cat=feed")
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
 
 
