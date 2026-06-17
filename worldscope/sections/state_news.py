@@ -129,6 +129,58 @@ FEEDS: list[tuple[str, str, str, str]] = [
 ]
 
 
+def _normalize_feed_date(pub: str) -> str:
+    """Resolve a feed entry's publish date to an ISO `YYYY-MM-DD` string, or ""
+    when no valid date can be recovered.
+
+    Tries, in order: RFC-822 (`pubDate`, e.g. "Mon, 09 Jun 2025 12:00:00 GMT"),
+    ISO-8601 / W3C (Atom `published`/`updated` and Dublin Core `dc:date`, e.g.
+    "2025-06-09T12:00:00Z"), then a bare leading ISO date. Every candidate is
+    validated, so a malformed value yields "" rather than a junk record_date —
+    important because a blank/garbage date is what lets a year-old article get
+    treated as today's news downstream."""
+    pub = (pub or "").strip()
+    if not pub:
+        return ""
+    try:
+        dt = parsedate_to_datetime(pub)
+        if dt is not None:
+            return dt.date().isoformat()
+    except (TypeError, ValueError, OverflowError):
+        pass
+    try:
+        return datetime.fromisoformat(pub.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        pass
+    try:
+        return date.fromisoformat(pub[:10]).isoformat()
+    except ValueError:
+        return ""
+
+
+def keep_recent(it: dict, cutoff: date, *, today: date | None = None) -> bool:
+    """Recency gate for a parsed feed item, shared by the RSS news sections.
+
+    Returns True if the item should be kept in the fresh window. A real,
+    parseable date earlier than ``cutoff`` is dropped. When the entry has no
+    resolvable date we cannot prove it is recent *or* old, so we keep it (to
+    preserve coverage) but stamp ``date`` to today and mark ``date_estimated``
+    — that flag both stops a blank record_date from masquerading as fresh in the
+    lake and lets downstream surfaces demote an item whose age we don't know.
+    """
+    today = today or date.today()
+    raw = (it.get("date") or "")[:10]
+    try:
+        item_date = date.fromisoformat(raw)
+    except ValueError:
+        it["date"] = today.isoformat()
+        it["date_estimated"] = True
+        return True
+    if item_date < cutoff:
+        return False
+    return True
+
+
 def _parse_rss(xml_bytes: bytes) -> list[dict]:
     """Minimal RSS / Atom parser. We use stdlib only to avoid adding feedparser
     as a hard dependency (and feedparser has been flaky on some feeds)."""
@@ -155,20 +207,22 @@ def _parse_rss(xml_bytes: bytes) -> list[dict]:
                 title = (child.text or "").strip()
             elif ctag == "link":
                 link = (child.attrib.get("href") or child.text or "").strip()
-            elif ctag in ("pubDate", "published", "updated"):
-                pub = (child.text or "").strip()
+            elif ctag in ("pubDate", "published", "updated", "date"):
+                # "date" captures Dublin Core <dc:date>, which many international
+                # / RSS-1.0 feeds use instead of <pubDate>; missing it was a
+                # major source of blank record_dates. Don't overwrite a value
+                # already found with an empty one.
+                val = (child.text or "").strip()
+                if val and not pub:
+                    pub = val
             elif ctag in ("description", "summary", "content"):
                 desc = (child.text or "").strip()
             elif ctag == "source":
                 source_url = (child.attrib.get("url") or "").strip()
         if not title:
             continue
-        # Normalize pub date
-        try:
-            dt = parsedate_to_datetime(pub) if pub else None
-            iso_date = dt.date().isoformat() if dt else ""
-        except (TypeError, ValueError):
-            iso_date = pub[:10] if pub else ""
+        # Normalize pub date (RFC-822 / ISO-8601 / dc:date), validated.
+        iso_date = _normalize_feed_date(pub)
         # Google News RSS proxy URLs (news.google.com/rss/articles/CBMi...)
         # return raw XML when opened in a browser rather than redirecting
         # to the article. Detect this and fall back to the publisher
@@ -241,11 +295,7 @@ class StateNewsSection(Section):
             feed_items = _parse_rss(resp.content)
             out = []
             for it in feed_items:
-                try:
-                    item_date = date.fromisoformat(it.get("date", "")[:10])
-                except ValueError:
-                    item_date = date.today()
-                if item_date < cutoff:
+                if not keep_recent(it, cutoff):
                     continue
                 item_id = hashlib.sha1(
                     f"{state}|{source_label}|{it.get('url','')}|{it.get('title','')}".encode()
