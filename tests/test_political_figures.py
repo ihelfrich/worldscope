@@ -13,9 +13,12 @@ from __future__ import annotations
 
 import unittest
 
+from datetime import date
+
 from worldscope.sections.political_figures import (
     PoliticalFiguresSection,
     load_registry,
+    _max_signal_date,
 )
 
 
@@ -44,6 +47,21 @@ class RegistryTest(unittest.TestCase):
             name = entry.get("name") or ""
             self.assertNotIn("—", name, msg=f"em-dash in name: {name}")
             self.assertNotIn("–", name, msg=f"en-dash in name: {name}")
+
+
+class AnchorDateTest(unittest.TestCase):
+    """The scorer anchors recency to the freshest signal in the lake, so a
+    slightly-stale committed lake still scores instead of decaying to zero."""
+
+    def test_max_signal_date_picks_latest_valid(self):
+        groups = [
+            [{"date": "2026-06-08"}, {"date": "2026-06-10"}],
+            [{"date": "2026-06-05T12:00:00Z"}, {"date": "bad"}, {"date": None}],
+        ]
+        self.assertEqual(_max_signal_date(*groups), date(2026, 6, 10))
+
+    def test_max_signal_date_none_when_no_dates(self):
+        self.assertIsNone(_max_signal_date([], [{"date": ""}, {"date": "nope"}]))
 
 
 class SmokePullTest(unittest.TestCase):

@@ -21,7 +21,7 @@ from typing import Any
 import requests
 
 from . import Section, SectionState
-from .state_news import _parse_rss   # reuse the stdlib RSS parser
+from .state_news import _parse_rss, keep_recent   # reuse the stdlib RSS parser
 
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
@@ -118,11 +118,7 @@ class LocalNewsSection(Section):
             feed_items = _parse_rss(resp.content)
             out = []
             for it in feed_items:
-                try:
-                    item_date = date.fromisoformat(it.get("date", "")[:10])
-                except ValueError:
-                    item_date = date.today()
-                if item_date < cutoff:
+                if not keep_recent(it, cutoff):
                     continue
                 item_id = hashlib.sha1(
                     f"{city}|{source_label}|{it.get('url','')}|{it.get('title','')}".encode()

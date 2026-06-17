@@ -1,5 +1,5 @@
 """
-foreign_news — international news coverage, ~70 feeds across ~40 countries.
+foreign_news — international news coverage, ~85 feeds across ~50 countries.
 
 Curated by tier:
   - Major wire services (Reuters, AP, AFP, BBC, NHK, DW, Al Jazeera, etc.)
@@ -25,7 +25,7 @@ from typing import Any
 import requests
 
 from . import Section, SectionState
-from .state_news import _parse_rss
+from .state_news import _parse_rss, keep_recent
 
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
@@ -60,6 +60,11 @@ FEEDS: list[tuple[str, str, str, str]] = [
     ("New Zealand",   "https://www.stuff.co.nz/rss/national",               "Stuff (NZ)",                "mainstream_independent"),
     ("Indonesia",     "https://www.thejakartapost.com/rss",                 "The Jakarta Post",          "mainstream_independent"),
     ("Philippines",   "https://www.philstar.com/rss/headlines",             "The Philippine Star",       "mainstream_independent"),
+    ("Singapore",     "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "Channel NewsAsia", "mainstream_independent"),
+    ("Pakistan",      "https://www.dawn.com/feeds/home",                    "Dawn (Pakistan)",           "mainstream_independent"),
+    ("Bangladesh",    "https://www.thedailystar.net/frontpage/rss.xml",     "The Daily Star (Bangladesh)", "mainstream_independent"),
+    ("Thailand",      "https://www.bangkokpost.com/rss/data/topstories.xml","Bangkok Post",              "mainstream_independent"),
+    ("Vietnam",       "https://e.vnexpress.net/rss/news.rss",               "VnExpress International",    "mainstream_independent"),
 
     # ---- EUROPE ------------------------------------------------------------
     ("France",        "https://www.lemonde.fr/en/rss/une.xml",              "Le Monde (English)",        "mainstream_independent"),
@@ -71,6 +76,9 @@ FEEDS: list[tuple[str, str, str, str]] = [
     ("Italy",         "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml", "ANSA (IT)",           "mainstream_independent"),
     ("Switzerland",   "https://www.swissinfo.ch/eng/rss",                   "Swissinfo",                 "mainstream_independent"),
     ("Belgium",       "https://www.politico.eu/feed",                       "POLITICO Europe",           "mainstream_independent"),
+    ("Ukraine",       "https://kyivindependent.com/feed/",                  "The Kyiv Independent",      "mainstream_independent"),
+    ("Poland",        "https://notesfrompoland.com/feed/",                  "Notes from Poland",         "mainstream_independent"),
+    ("Eastern Europe","https://www.intellinews.com/feed",                   "bne IntelliNews",           "mainstream_independent"),
 
     # ---- MIDDLE EAST -------------------------------------------------------
     ("Israel",        "https://www.timesofisrael.com/feed/",                "The Times of Israel",       "mainstream_independent"),
@@ -78,6 +86,8 @@ FEEDS: list[tuple[str, str, str, str]] = [
     ("Lebanon",       "https://www.dailystar.com.lb/rss/News",              "The Daily Star (Lebanon)",  "mainstream_independent"),
     ("Saudi Arabia",  "https://www.arabnews.com/rss.xml",                   "Arab News",                 "mainstream_independent"),
     ("Iran",          "https://www.iranintl.com/en/rss",                    "Iran International (Persian-language diaspora)", "mainstream_independent"),
+    ("Middle East",   "https://www.middleeasteye.net/rss",                  "Middle East Eye",           "mainstream_independent"),
+    ("Qatar",         "https://www.dohanews.co/feed/",                      "Doha News",                 "mainstream_independent"),
 
     # ---- AFRICA ------------------------------------------------------------
     ("South Africa",  "https://mg.co.za/feed/",                             "Mail & Guardian",           "mainstream_independent"),
@@ -85,6 +95,10 @@ FEEDS: list[tuple[str, str, str, str]] = [
     ("Kenya",         "https://nation.africa/kenya/rss",                    "Nation (Kenya)",            "mainstream_independent"),
     ("Nigeria",       "https://punchng.com/feed/",                          "The Punch (Nigeria)",       "mainstream_independent"),
     ("Egypt",         "https://english.ahram.org.eg/rss/3.aspx",            "Al-Ahram English",          "mainstream_independent"),
+    ("Nigeria",       "https://www.premiumtimesng.com/feed",                "Premium Times (Nigeria)",   "mainstream_independent"),
+    ("South Africa",  "https://www.dailymaverick.co.za/feed/",              "Daily Maverick (SA)",       "mainstream_independent"),
+    ("East Africa",   "https://www.theeastafrican.co.ke/rss",               "The East African",          "mainstream_independent"),
+    ("Pan-Africa",    "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", "AllAfrica",      "mainstream_independent"),
 
     # ---- AMERICAS ----------------------------------------------------------
     ("Canada",        "https://www.theglobeandmail.com/feeds/world/rss/",   "Globe and Mail (Canada)",   "mainstream_independent"),
@@ -92,6 +106,8 @@ FEEDS: list[tuple[str, str, str, str]] = [
     ("Argentina",     "https://www.batimes.com.ar/feed/rss/",               "Buenos Aires Times",        "mainstream_independent"),
     ("Mexico",        "https://www.eluniversal.com.mx/rss.xml",             "El Universal (MX)",         "mainstream_independent"),
     ("Chile",         "https://www.df.cl/noticias/rss",                     "Diario Financiero (CL)",    "mainstream_independent"),
+    ("South America", "https://en.mercopress.com/rss/",                     "MercoPress (South Atlantic)", "mainstream_independent"),
+    ("Colombia",      "https://colombiaone.com/feed/",                      "Colombia One",              "mainstream_independent"),
 
     # ---- STATE-CONTROLLED (flagged: tier=state_controlled) -----------------
     ("Russia",        "https://www.rt.com/rss/news/",                       "RT (Russia, state-controlled)",      "state_controlled"),
@@ -170,11 +186,7 @@ class ForeignNewsSection(Section):
             feed_items = _parse_rss(resp.content)
             out = []
             for it in feed_items:
-                try:
-                    item_date = date.fromisoformat(it.get("date", "")[:10])
-                except ValueError:
-                    item_date = date.today()
-                if item_date < cutoff:
+                if not keep_recent(it, cutoff):
                     continue
                 item_id = hashlib.sha1(
                     f"{country}|{source_label}|{it.get('url','')}|{it.get('title','')}".encode()
