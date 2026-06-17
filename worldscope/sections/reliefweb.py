@@ -5,16 +5,25 @@ ReliefWeb is the UN OCHA aggregator for humanitarian situation reports,
 flash appeals, cluster reports, and assessments. Excellent coverage of
 under-reported crises (Sahel, DRC, Sudan, Yemen, Myanmar, Haiti).
 
-API: https://apidoc.reliefweb.int/  (no key required, polite UA needed)
+API: https://apidoc.reliefweb.int/  (no key required, but since 1 Nov 2025 the
+API requires a *pre-approved* ``appname`` — the legacy v1 endpoint now returns
+410 Gone and v2 returns 403 for an unregistered appname). Register an appname
+at https://apidoc.reliefweb.int/ and set it via the RELIEFWEB_APPNAME env var.
 """
 from __future__ import annotations
+
+import os
 
 import requests
 
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-API = "https://api.reliefweb.int/v1/reports"
+# v1 was retired (returns 410 Gone); v2 is request-compatible with v1.
+API = "https://api.reliefweb.int/v2/reports"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
+# ReliefWeb enforces a pre-approved appname since 2025-11-01. Overridable so an
+# operator can drop in their registered appname without a code change.
+APPNAME = os.environ.get("RELIEFWEB_APPNAME", "worldscope")
 
 
 class ReliefWebSection(Section):
@@ -27,7 +36,7 @@ class ReliefWebSection(Section):
 
     def pull(self) -> list[dict]:
         params = {
-            "appname": "worldscope",
+            "appname": APPNAME,
             "limit": self.LIMIT,
             "sort[]": "date.created:desc",
             "fields[include][]": [
