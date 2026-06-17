@@ -108,6 +108,11 @@ snapshot store  ──┐                         worldscope/store/         (car
         │   │              source CREDIBILITY (corroboration + tier);      │
         │   │              dataset building + light exploration;           │
         │   │              candidate-source discovery (seed)               │
+        │   │ stories.py   EVENT-level clustering → the Top Stories front  │
+        │   │              page: groups the day's records into story       │
+        │   │              threads (shared entities + headline tokens,     │
+        │   │              embeddings when present), ranked by independent │
+        │   │              cross-source / cross-language coverage breadth  │
         │   │ embeddings   semantic dedup / cross-language clustering      │
         │   │ graphics/maps figures from the lake                         │
         │   └────────────────────────────────────────────────────────────┘
@@ -161,9 +166,14 @@ tables are the rails; `signals.py` and `radar.py` fill them.
    bad auto-source from silently polluting the lake. Subscription-billed, safe.
 2. **Publish datasets to Hugging Face.** Push `lake/datasets/**` Parquet to a HF
    Datasets repo on a cadence — the concrete "democratize information" step.
-3. **Semantic trend clustering (Tier 2).** Use the existing embeddings to group
-   near-duplicate stories and detect latent themes that keyword fusion misses;
-   feed clusters into both signals and radar.
+3. **Semantic trend clustering (Tier 2).** ✅ *shipped (v1) as `stories.py`* — the
+   daily **Top Stories** front page clusters records into event-level story
+   threads ranked by independent cross-source coverage breadth. It runs the
+   deterministic, embedding-free path by default (shared discriminative
+   entities + headline-token overlap, with document-frequency pruning to stop
+   single-link chaining) and folds in `record_embeddings` cosine when the index
+   is populated. *Next:* feed the clusters back into signals/radar and persist
+   cross-day story identity so a thread can be tracked as it develops.
 4. **Credibility v2.** Blend in prediction-grounded accuracy (did this source's
    claims resolve true?) and decay; expose a per-source scorecard page.
 5. **Quant auto-exploration (Tier 1, then optional Tier 3).** Extend

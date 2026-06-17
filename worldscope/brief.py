@@ -333,6 +333,30 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         from .analysis.cross_section import write as _cs_write
         print(f"[cross-section] {_cs_write(today.isoformat())}")
 
+    def _stage_stories() -> None:
+        # Event-level story clustering: the Top Stories front page. Groups the
+        # day's records into story threads by shared entities + headline token
+        # overlap (folding in embeddings when the index is populated), ranks
+        # them by independent cross-source coverage breadth, persists a
+        # top_stories.json artifact, and prepends a "Top Stories" panel. Reads
+        # the same lake signals/radar/claims use. Runs LAST among the
+        # panel stages so Top Stories lands at the very top of the brief.
+        from . import stories as _st
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            sts = _st.build_stories(today=today, days=_st.DEFAULT_WINDOW_DAYS, conn=conn)
+            _st.write_stories_artifact(today, sts)
+            panel = _st.render_stories_panel(sts)
+            if panel:
+                sections_html.insert(0, panel)
+            multi = sum(1 for s in sts if s.n_languages > 1)
+            print(f"[stories] {len(sts)} top stories clustered · "
+                  f"{multi} multi-language")
+        finally:
+            lake.close()
+
     def _stage_site_builder() -> None:
         # Build per-section drill-down pages from the lake. Without this the
         # public Pages site only shows the synthesized brief; the ~5,000 raw
@@ -353,6 +377,9 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("signals", _stage_signals),
         ("radar", _stage_radar),
         ("claims", _stage_claims),
+        # Runs after the other panel stages so its insert(0) puts Top Stories
+        # at the very top of the page — it is the front-page experience.
+        ("stories", _stage_stories),
         ("site-builder", _stage_site_builder),
     ):
         _run_stage(label, fn)
