@@ -171,6 +171,23 @@ def _normalize_name(name: str) -> str:
     return " ".join(parts).lower()
 
 
+def _max_signal_date(*row_groups: list[dict]) -> Optional[date]:
+    """The latest parseable ``date`` across the loaded signal rows, or None when
+    no row carries a usable date. Used to anchor the anomaly scorer's recency
+    windows to the data the lake actually holds rather than wall-clock today."""
+    best: Optional[date] = None
+    for rows in row_groups:
+        for r in rows or []:
+            raw = (r.get("date") or "")[:10]
+            try:
+                d = date.fromisoformat(raw)
+            except (ValueError, TypeError):
+                continue
+            if best is None or d > best:
+                best = d
+    return best
+
+
 def _load_quiver_ptrs_from_lake() -> list[dict]:
     """Read the most recent raw.jsonl from congressional_trades in the lake.
 
@@ -421,6 +438,14 @@ class PoliticalFiguresSection(Section):
             "gdelt_all": gdelt_all,
             "form4_all": form4_all,
             "doj_all": doj_all,
+            # The freshest signal date actually present in the lake. The scorer
+            # measures recency against THIS rather than wall-clock today, so a
+            # lake that is a few days stale (CI, a fresh checkout reading
+            # committed artifacts) still scores its figures instead of having
+            # every window decay to zero. On a live daily run the freshest data
+            # IS today, so this is a no-op; source-staleness is tracked
+            # separately by the integrity stage.
+            "anchor_date": _max_signal_date(ptrs_all, gdelt_all, form4_all, doj_all),
         }
 
     def _signals_for(self, figure: dict, index: dict) -> dict:
@@ -518,7 +543,10 @@ class PoliticalFiguresSection(Section):
             }]
 
         index = self._build_signal_index()
-        scorer = FigureAnomalyScorer()
+        # Anchor recency to the freshest signal in the lake (falls back to
+        # wall-clock today when the lake is empty, so a truly dead lake still
+        # scores zero and trips the liveness check).
+        scorer = FigureAnomalyScorer(today=index.get("anchor_date"))
 
         # First pass: score every figure WITHOUT the CourtListener component.
         pre_scored = []
