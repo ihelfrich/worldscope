@@ -438,14 +438,19 @@ class PoliticalFiguresSection(Section):
             "gdelt_all": gdelt_all,
             "form4_all": form4_all,
             "doj_all": doj_all,
-            # The freshest signal date actually present in the lake. The scorer
-            # measures recency against THIS rather than wall-clock today, so a
-            # lake that is a few days stale (CI, a fresh checkout reading
-            # committed artifacts) still scores its figures instead of having
-            # every window decay to zero. On a live daily run the freshest data
-            # IS today, so this is a no-op; source-staleness is tracked
-            # separately by the integrity stage.
-            "anchor_date": _max_signal_date(ptrs_all, gdelt_all, form4_all, doj_all),
+            # The freshest signal date actually present in the COMMITTED LAKE.
+            # The scorer measures recency against THIS rather than wall-clock
+            # today, so a lake that is a few days stale (CI, a fresh checkout
+            # reading committed artifacts) still scores its figures instead of
+            # having every window decay to zero. On a live daily run the
+            # freshest lake data IS today, so this is a no-op; source-staleness
+            # is tracked separately by the integrity stage.
+            #
+            # Deliberately excludes doj_all: DOJ RSS is fetched LIVE, not from
+            # the lake snapshot, so its always-today dates would otherwise drag
+            # the anchor back to today and defeat the lake-relative behaviour
+            # whenever the build host has network (e.g. CI).
+            "anchor_date": _max_signal_date(ptrs_all, gdelt_all, form4_all),
         }
 
     def _signals_for(self, figure: dict, index: dict) -> dict:
