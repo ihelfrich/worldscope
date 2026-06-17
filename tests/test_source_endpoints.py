@@ -68,3 +68,28 @@ def test_acled_token_missing_access_token_raises():
         with pytest.raises(UpstreamAuthError) as ei:
             sec._get_token()
     assert "no access_token" in str(ei.value)
+
+
+# ---- Source coverage page --------------------------------------------------
+
+def test_coverage_table_renders_and_orders_by_status():
+    from worldscope.site_builder import _coverage_table_html
+    report = {
+        "date": "2026-06-10",
+        "sections": [
+            {"section_id": "foreign_news", "status": "FRESH", "reason": "120 records today",
+             "last_record_date": "2026-06-10", "today_count": 120, "consecutive_failures": 0},
+            {"section_id": "acled", "status": "FAILED", "reason": "auth failed",
+             "last_record_date": "2026-06-02", "today_count": 0, "consecutive_failures": 20},
+            {"section_id": "firms", "status": "NO_KEY", "reason": "FIRMS_MAP_KEY not set",
+             "last_record_date": None, "today_count": 0, "consecutive_failures": 0},
+        ],
+    }
+    html_out = _coverage_table_html(report)
+    # FAILED must sort above FRESH.
+    assert html_out.index("acled") < html_out.index("foreign_news")
+    # Status chips present for each status.
+    assert "FAILED" in html_out and "NO_KEY" in html_out and "FRESH" in html_out
+    # Fresh section links to its drill-down; the no-record/no-key one does not.
+    assert 'href="sections/foreign_news/"' in html_out
+    assert 'href="sections/firms/"' not in html_out
