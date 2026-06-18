@@ -574,10 +574,17 @@ def render(today: date, *, homepage: bool = False) -> Path:
 def _effective_date(today: date) -> date:
     """The MOST RECENT day with enough data — not the day with the most records.
     Recency wins so the brief never looks stale; we only fall back further when a
-    day is genuinely thin (ingest still in progress)."""
+    day is genuinely thin (ingest still in progress).
+
+    The lookback spans two weeks so a multi-day ingestion gap (a stalled cron,
+    or data commits blocked by repo size) doesn't blank or pin the homepage to a
+    near-empty 'today'; it degrades gracefully to the freshest substantive day
+    instead. On a healthy daily run the first iteration (today) clears the floor,
+    so this stays a no-op."""
     FLOOR = 1500
+    LOOKBACK = 14
     fallback, fb_n = today, -1
-    for d in range(0, 6):
+    for d in range(0, LOOKBACK):
         dt = today - timedelta(days=d)
         try:
             nrec = len(sg.load_records_from_jsonl(today=dt, days=1))
