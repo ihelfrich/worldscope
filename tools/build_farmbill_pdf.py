@@ -48,6 +48,15 @@ def strip_inline(text: str) -> str:
     return text
 
 
+def _png_size(path: Path) -> tuple[int, int]:
+    """(width, height) in px from a PNG IHDR — no Pillow dependency."""
+    with open(path, "rb") as fh:
+        head = fh.read(24)
+    if head[:8] != b"\x89PNG\r\n\x1a\n":
+        return (1600, 900)
+    return (int.from_bytes(head[16:20], "big"), int.from_bytes(head[20:24], "big"))
+
+
 class PDF(FPDF):
     def footer(self) -> None:
         self.set_y(-12)
@@ -74,6 +83,27 @@ def render_markdown(pdf: PDF, md_text: str) -> None:
             pdf.ln(2)
             continue
         pdf.set_x(pdf.l_margin)  # always start each block at the left margin
+        # Embedded figure: ![alt](relative/path.png)
+        mi = re.match(r"!\[(.*?)\]\((.*?)\)", line.strip())
+        if mi:
+            alt, rel = mi.group(1), mi.group(2)
+            img = (BASE / rel).resolve()
+            if img.exists():
+                usable = pdf.w - pdf.l_margin - pdf.r_margin
+                iw, ih = _png_size(img)
+                draw_h = usable * (ih / iw)
+                # page-break if the figure won't fit in the remaining space
+                if pdf.get_y() + draw_h + 8 > pdf.h - pdf.b_margin:
+                    pdf.add_page()
+                pdf.ln(2)
+                pdf.image(str(img), x=pdf.l_margin, w=usable)
+                if alt:
+                    pdf.set_font("Helvetica", "I", 8)
+                    pdf.set_text_color(110)
+                    pdf.multi_cell(0, 4, "Figure: " + strip_inline(alt))
+                    pdf.set_text_color(0)
+                pdf.ln(2)
+            continue
         # Table row -> render cells joined (simple, readable).
         if line.lstrip().startswith("|"):
             cells = [c.strip() for c in line.strip().strip("|").split("|")]

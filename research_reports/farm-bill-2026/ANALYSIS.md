@@ -6,6 +6,55 @@
 
 ---
 
+## At a glance — the bill in six charts
+
+*(Figures are regenerated from the notes by `tools/build_farmbill_figures.py`. The first two are tallied directly from the analysts' `Type:` tags across all 460 sections; the rest are transcribed from the cited sections.)*
+
+**Anatomy.** Twelve titles, 460 sections, ~133k words of operative text. Research (VII), Conservation (II), Rural Development (VI), Forestry (VIII), and Miscellaneous (XII) carry the bulk of the sections.
+
+![Anatomy of the bill: sections and words per title](figures/fig6_title_size.png)
+
+**What the bill does.** Across all 460 sections, **REFORM (233)** and **EXTEND (166)** dominate, with **152 genuinely NEW** provisions and only **16 repeals** — this is a policy-and-reauthorization vehicle, not a clean-sheet rewrite. But the *mix varies sharply by title*: Forestry (VIII) is the most NEW-heavy (new authorities and categorical exclusions), Research (VII) is overwhelmingly EXTEND (reauthorize-and-move-on), and Crop Insurance (XI) leans on STUDY mandates.
+
+![Overall provision-type distribution](figures/fig2_overall_action_types.png)
+
+![Provision mix by title](figures/fig1_action_mix_by_title.png)
+
+**Where the money moves.** The biggest affirmative dollar moves are trade promotion (MAP/FMD, near-doubled), the EQIP ramp to $3.255B by FY31, and a set of newly-funded conservation, broadband, and local-food lines.
+
+![Where the money moves, annual $M](figures/fig4_funding_moves.png)
+
+**Farm credit.** FSA loan limits roughly double across the board, with indexing rebased from input prices to land values.
+
+![FSA farm-loan limits before/after](figures/fig3_fsa_loan_limits.png)
+
+**Forestry.** The bill's most environmentally consequential numbers: three existing NEPA categorical exclusions tripled from 3,000 to 10,000 acres, plus new CEs.
+
+![Forestry NEPA categorical-exclusion acreage caps](figures/fig5_forestry_ce_caps.png)
+
+### Two things the charts can't show
+
+**The reconciliation split** — why the "farm bill" looks thin where you'd expect it to be thick:
+
+| Farm-bill function | Where it was actually decided | In H.R. 7567? |
+|---|---|---|
+| SNAP benefit levels, work requirements, Thrifty Food Plan | 2025 reconciliation (P.L. 119-21) | **No** — only administrative/integrity tweaks |
+| Commodity reference prices, PLC/ARC, base acres | 2025 reconciliation (P.L. 119-21) | **No** — absent from Title I |
+| Conservation, credit, trade, forestry, rural dev, research, energy, horticulture, crop insurance, misc. | This bill | **Yes** — the policy reauthorization |
+
+**The national-security throughline** — the same handful of statutory hooks recur across nine titles:
+
+| Mechanism | Where | Target |
+|---|---|---|
+| Foreign-adversary farmland ban + AFIDA overhaul + USDA on CFIUS | XII §§12301–12306 | PRC/Russia/DPRK/Iran land buyers |
+| "Foreign entity of concern" component/supplier screen (CHIPS Act defn.) | IX §9012 (solar), VI §6302 (precision-ag), X §10006 (GE microbes) | China-linked supply chains |
+| Research-collaboration ban with countries of concern | VII §§7608, 7614 | China/Russia ag research |
+| Trade enforcement (WTO vs. India; EU "common names"; Argentine beef) | III §§3202, 3311, 3402 | EU GIs, India, Argentina |
+| Buy-American 95% + China/Russia poultry & seafood ban | IV §4302 | imported school-meal inputs |
+| Food/ag critical-infrastructure risk assessments + IC detailees | XII §12201 | domestic resilience |
+
+---
+
 ## 1. The single most important framing fact: this is the *second half* of a two-part farm bill
 
 The biggest analytical key to this document is what is **missing** from it.
