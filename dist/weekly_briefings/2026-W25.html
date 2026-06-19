@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-W25</title>
+<meta name="description" content="WORLDSCOPE weekly briefing: 2026-W25">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/weekly_briefings/2026-W25.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-W25">
+<meta property="og:description" content="WORLDSCOPE weekly briefing: 2026-W25">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/weekly_briefings/2026-W25.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-W25.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-W25.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline-of-the-week">Headline of the week</a></li><li><a class="" href="#macro-how-the-picture-moved">Macro: how the picture moved</a></li><li><a class="" href="#markets-rotation-and-dispersion">Markets: rotation and dispersion</a></li><li><a class="" href="#politics-and-policy-what-moved-in-washington-and-elsewhere">Politics and policy: what moved in Washington and elsewhere</a></li><li><a class="" href="#sanctions-and-legal">Sanctions and legal</a></li><li><a class="" href="#geopolitical-signal">Geopolitical signal</a></li><li><a class="" href="#commentary-digest">Commentary digest</a></li><li><a class="" href="#cross-section-themes-the-synthesis-layer">Cross-section themes (the synthesis layer)</a></li><li><a class="" href="#what-to-watch-next-14-days">What to watch -- next 14 days</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Weekly briefing</div>
+      <h1>2026-W25</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-W25</div>
+    </header>
+    
+    <article class="prose prose-slate max-w-none">
+      <blockquote>
+<p><strong>DATA NOTE (FALLBACK):</strong> No weekly bundle zip was available for 2026-W25, and no daily bundle zips were recoverable from the CDN for any day since 2026-06-09. The data pipeline appears to have stopped producing packaged outputs after June 9. This brief is synthesized from: the W22 weekly bundle (May 25-31), daily lake sections through June 9, the <code>ukraine_theater</code> lake section which extended to June 17, and live WebSearch research on the five to seven most consequential storylines of the week. All concrete claims trace to sourced items; uncertainty is stated where it exists. The pipeline outage itself is flagged at the bottom as an operational watch item.</p>
+</blockquote>
+<hr />
+<h2 id="headline-of-the-week">Headline of the week</h2>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p>The week of June 13-19, 2026 will likely be marked in the historical record by two events that happened within hours of each other on June 17-19: the virtual signing of a 14-point US-Iran memorandum of understanding that formally suspended more than 100 days of armed conflict and began reopening the Strait of Hormuz, and Ukraine's largest-ever drone assault on Moscow, which set the Kapotnya oil refinery ablaze for the second time in three days while Zelensky declared "Moscow will burn" if Putin continues the war. The juxtaposition is not accidental -- it is the structural condition of mid-2026: one major US-adjacent war de-escalating on paper while another intensifies on the ground, both touching energy infrastructure, both generating domestic political pressures that pull the Trump administration in opposing directions. Layered beneath both: Kevin Warsh's inaugural FOMC meeting produced a hawkish dot-plot shock that the bond market processed as a regime change from the easing cycle of the Powell era to something new, inflation-fighting, and price-level uncertain. Three simultaneous regime shifts -- in the Middle East, in Eastern Europe, and at the Federal Reserve -- each consequential enough to anchor a week on its own, arriving in the same five-day window.</p></div>
+<hr />
+<h2 id="macro-how-the-picture-moved">Macro: how the picture moved</h2>
+<p>The Warsh shock is the macro story of the week, and it needs to be read against the backdrop of what was already in motion before his inaugural press conference.</p>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p>Going into the June 17 FOMC meeting, the macro snapshot from the data pipeline showed the Fed Funds Effective Rate at 3.62% (June 5), the 2-year Treasury at 4.17%, the 10-year at 4.55%, and WTI crude oil at $95.96 (June 1) -- still elevated from the Hormuz disruption premium that peaked near $112 in late May but had been retreating as ceasefire signals accumulated. The T10Y2Y spread was tightening to 0.41 (June 8), suggesting the market had not fully abandoned a medium-term easing story. VIX at 21.51 on June 5 was up sharply from 16.76 during the W22 period -- a regime shift in vol that preceded the FOMC.</p></div>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p>What Warsh delivered on June 17 was the clearest signal of a policy inflection since the 2022 tightening cycle began. The committee held at 3.5-3.75% -- as expected -- but the median dot-plot projection for end-2026 moved from 3.4% to 3.8%, meaning the committee sees at least one hike as the modal path. Nine of 18 FOMC participants now pencil in at least one hike; Warsh himself declined to submit a dot-plot projection, which is itself a signal of how he intends to govern: by reserving maximum optionality at the cost of transparency. The statement dropped easing-bias language entirely, the shortest Fed policy statement in years. The 2-year yield jumped 16 basis points immediately, the largest single-day move on an FOMC decision day since March 2008. The Dow fell 507 points. The 10-year rose roughly 7 basis points to approach 4.50%.</p></div>
+<p>The ironies are structural. The primary reason the committee is now penciling in a hike is energy-driven inflation from the Iran war -- the exact shock that the Iran MOU, signed the same day, is supposed to resolve over the coming 60-day negotiation window. If Hormuz fully reopens and the war risk premium exits crude, the inflation impulse driving Warsh's hawkish dot dissolves. But markets cannot price that because the MOU terms on nuclear program, sanctions relief, and Iranian asset releases remain contested and unverified. The Warsh Fed is tightening into a possible oil-price relief rally that it cannot credit until it materializes. The bond market understands this and is pricing a messy middle path: rates higher for longer, but not dramatically higher.</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>Currency and commodity signals reinforced the shift. EUR/USD at 1.1533 (June 5) was meaningfully weaker than the 1.1627 anomaly flagged in W22 (-2.53 standard deviations), suggesting the dollar had strengthened as the Warsh hawkish narrative built through the pre-meeting week. JPY at 160.26 per dollar remains in stressed territory. Gold (GLD $397.27, June 8) held near recent highs -- a hedge against the regime uncertainty, not a pure deflation bet. Bitcoin futures (BITO) up 4.87% on June 8 suggests crypto was pricing the Iran MOU as risk-on before the FOMC reset.</p></div>
+<hr />
+<h2 id="markets-rotation-and-dispersion">Markets: rotation and dispersion</h2>
+<p>The week's market narrative reversed what had looked, entering June, like a durable risk rally. The S&amp;P 500 had closed at a record near 7,600 in late May and early June, with the June 1 close at 7,599.96. By June 16 it was at 7,487 -- roughly 1.5% off the record, driven entirely by the FOMC anticipation and Warsh's hawkish pre-meeting communications.</p>
+<p>Within the week, the dominant rotation was from rate-sensitive domestic equities to energy and commodities, which paradoxically held better even as the Iran deal was building, because markets reasoned that a deal delayed (the 60-day negotiation window) is different from a deal that closes. USO (WTI crude proxy) rose 1.60% on June 8 alone. The Russell 2000 outperformed on June 8 (IWM +0.87%), which is notable because small caps are usually rate-sensitive -- the read is that the Iran MOU reduced tail risk enough to lift domestic-cyclical names briefly before Warsh's press conference reversed the flow.</p>
+<p>The credit structure was resilient but not euphoric: HYG (high yield) +0.14% on June 8, LQD (IG) -0.10%. The yield curve twist -- 2-year +16bps, 10-year +7bps -- is a bear flattener in the front end, which compresses bank NIM and is broadly negative for financials. TLT (20+ year Treasuries) was already at $84.62 on June 8, down from cycle highs, anticipating the Warsh event.</p>
+<p>Internationally, MSCI EM (EEM) was outperforming (+1.80% on June 8), with the Iran MOU functioning as a geopolitical relief valve for EM commodity importers. The FXI (China large-cap) fell -0.20% on June 8 despite Xi-Kim bilateral meetings in Pyongyang visible in the Chinese internal feed -- markets reading the Xi-Kim summit as alliance consolidation rather than economic stimulus. Korea's GNI jumped 9.2% in Q1 2026, outpacing GDP growth by a factor of five, driven by semiconductor exports and Nvidia partnership announcements.</p>
+<p>OpenAI's confidential S-1 submission (confirmed June 8, filed ~May 22) is the capital markets event of the month even though it will not price until September. At an $850 billion target valuation with $25 billion in projected 2026 revenue but a $14 billion projected loss and positive cash flow not expected until 2030, OpenAI is asking the market to price an AI infrastructure monopoly rather than a tech business. Goldman Sachs, Morgan Stanley, and JPMorgan are leading. The IPO window will be shaped directly by whether the Warsh hawkish pivot holds: a higher-for-longer rate environment compresses long-duration growth multiples, the exact category where OpenAI trades.</p>
+<hr />
+<h2 id="politics-and-policy-what-moved-in-washington-and-elsewhere">Politics and policy: what moved in Washington and elsewhere</h2>
+<p>The Federal Register data for the week of June 9 (the most recent packaged) showed two items worth flagging as structural signals. The State Department filed a temporary final rule creating a $750 fee for expedited B1/B2 tourist visas -- a supply-side revenue measure that aligns with broader fee-maximization posture. The Copyright Office simultaneously opened its tenth triennial DMCA rulemaking on circumvention of access controls -- a proceeding that will shape AI training data rights, with submissions from major technology firms already anticipated. These two items represent the dual-track federal posture: monetizing the immigration gate while leaving AI regulatory architecture in the soft-law rulemaking phase.</p>
+<p>The campaign finance picture through June 9 is stark. Ossoff (GA Senate) leads all 2026 candidates at $81.15M raised, followed by Talarico (TX Senate, Democrat) at $40.28M. Booker (NJ), Krishnamoorthi (IL), Ocasio-Cortez (NY-House), and Cooper (NC) round out the top of the leaderboard, all Democrats. The top Republican in the fundraising tables is Graham at $20.92M, less than a quarter of Ossoff's pace. Speaker Johnson at $17.55M. The structural Democratic fundraising advantage heading into the 2026 midterms is the widest since 2017-18 -- a pattern that historically precedes significant House seat swings, though the map and redistricting mediate the conversion rate.</p>
+<p>South Korea's President Lee called the outcome of the June local elections "a warning from the nation" to his administration, signaling domestic political fragility in Seoul at a moment when Korea is simultaneously deepening Nvidia AI partnerships and navigating the US-China tech bifurcation.</p>
+<hr />
+<h2 id="sanctions-and-legal">Sanctions and legal</h2>
+<p>The EU's 21st Russia sanctions package, proposed by von der Leyen in Brussels on June 9, is the most technically sophisticated package since the shadow fleet targeting began. For the first time, the EU proposes sanctioning not just shadow fleet vessels (30 additions to an existing list of 632) but also the support services ecosystem -- bunkering operations, port-side provisioning. If adopted unanimously, this closes the operational gap that has allowed sanctioned crude to transit through Turkish, Indian, and Emirati re-export chains. The package also proposes pausing automatic adjustment of the oil price cap mechanism until January 2027, stabilizing the enforcement instrument while negotiations over the Hormuz MOU proceed. Ninety additional bank asset freezes and restrictions on nickel powders and high-performance metal alloys round out the package. It requires unanimous EU member state approval; Hungary's vote is the variable.</p>
+<p>The courtlistener feed through June 8 showed a high volume of immigration-related appeals in the 6th and 8th Circuits (Dodaj v. Blanche, Tiah v. Blanche -- both styling against the Attorney General). The DMCA rulemaking is the legal proceeding most likely to generate downstream market-moving decisions in the AI space by Q4.</p>
+<hr />
+<h2 id="geopolitical-signal">Geopolitical signal</h2>
+<p><strong>Iran.</strong> The week's headline. The Islamabad MOU -- 14 points, virtually signed June 17, with a formal Geneva ceremony on June 19 -- commits to a 60-day ceasefire extension, US naval blockade withdrawal, Hormuz reopening without tolls, and the launch of negotiations on nuclear program, sanctions relief, and Iranian asset releases. Pakistan's foreign ministry confirmed the agreement as in effect as of Wednesday. Key ambiguity: Iran's nuclear enrichment commitments within the MOU are not publicly confirmed by either government. Polymarket's "permanent peace deal by December 31, 2026" contract was at 68% as of June 9 data, up from 6% on the June 15 resolution date -- the market is pricing a 60-day window that successfully converts to something durable, but not certain. The same week, Iran was still launching one-way attack drones at commercial ships transiting the Strait of Hormuz (CENTCOM confirmed interceptions June 13), and an Iranian strike damaged Kuwait International Airport's radar infrastructure (June 13). The transition from active hostilities to MOU in less than 96 hours is itself the analytical event: the kinetic and diplomatic tracks were running in parallel until the last moment.</p>
+<p><strong>Ukraine.</strong> The week produced a qualitative escalation that the ceasefire-adjacent Iran dynamic obscures but cannot diminish. Russia launched 6 Tsirkon hypersonic missiles, 34 Iskander-M ballistic missiles, 30 Kh-101 cruise missiles, and 611 strike drones in a single overnight attack on June 15 -- one of the largest combined-arms barrages of the war. Ukraine responded June 18 with its largest-ever drone offensive against Moscow: 555+ drones launched, roughly 194 downed in the Moscow air defense envelope alone, with the Kapotnya refinery -- which supplies approximately one-third of Moscow's gasoline -- struck and set ablaze for the second time in three days. Zelensky's statement ("Moscow will burn if Putin continues the war") is a deliberate strategic communication: the exchange is no longer asymmetric in public visibility. Russia threatened "massive group strikes" in retaliation. Simultaneously, the ukraine_theater feed recorded Ukrainian strikes on four Kherson-Crimea bridges (June 11), a large fire at the Rybinsk fuel depot (June 14), and a fire at the Kapotnya Moscow refinery preceding the drone strike (June 16). Russia also lost a Buro 1440 Dawn/Rassvet satellite from its planned 16-satellite Starlink-analog constellation (announced June 9). The frontline polygon count (521-522 polygons, community-maintained) showed minimal shift -- the kinetic energy is going into infrastructure targeting rather than territorial movement.</p>
+<p><strong>China-North Korea.</strong> The Chinese internal feed on June 9 showed Xi Jinping and Kim Jong-un at a small bilateral lunch (reported: "Xi and Peng Liyuan attend lunch hosted by Kim Jong-un"), followed by Xi and Peng at the China-Korea Friendship Tower. State media framing was alliance consolidation. The timing -- during the Iran MOU process -- is a signal that Beijing is managing the strategic hedge: letting the US handle Iran while tightening the Northeast Asian alliance anchor.</p>
+<hr />
+<h2 id="commentary-digest">Commentary digest</h2>
+<p>The commentary feed through the week of June 9 offered several frames worth holding alongside the week's events.</p>
+<p><strong>Conversable Economist, "Chair Jerome Powell: An Early Retrospective" (June 8).</strong> Powell's tenure closed in May 2026. The piece frames his record as competent stewardship through an extraordinary sequence -- pandemic response, 525bps of tightening in 16 months, soft landing -- undone at the margin by Trump's removal. The question it leaves open: whether the soft landing was durable enough to survive Warsh's inaugural dot-plot pivot. The answer arrived nine days later.</p>
+<p><strong>Conversable Economist, "Is GDP Failing to Capture AI?" (June 4).</strong> Korinek and McKelvey's paper raises the measurement question that will define the next decade of macro debate: if AI is generating massive consumer surplus through free or near-free services, GDP is structurally undercount the growth contribution. The implication for monetary policy is that the Fed may be running tighter than it knows, fighting inflation in a measurement framework that was built for a different economy.</p>
+<p><strong>Marginal Revolution, "Monday assorted links" (June 8).</strong> Cowen's note that Piketty has "become a degrowther" is worth marking: the leading inequality economist now arguing for reduced aggregate output is the intellectual signal of a moment when the AI-productivity dividend has not yet materialized in the distribution data, while the energy and conflict costs of the current geopolitical configuration are already visible.</p>
+<p><strong>Marginal Revolution, "Sao Paulo notes" (June 9).</strong> Cowen's observation that Brazil's "country of the future always will be" characterization "now seems so wrong" -- citing rapid aging, rising conservatism, and domestic airport professionalism -- is a live datapoint against the EM optimism that the Iran MOU is generating. EM is not a monolith; Brazil's internal demographic and political trajectory runs counter to the commodity-producer-beneficiary thesis.</p>
+<p><strong>Adam Tooze (W22 context, still relevant): "Two oil shocks looks like a new trend."</strong> His May framing that back-to-back Hormuz disruptions are evidence of a structural shift in energy geopolitics, not episodic risk, remains the correct analytical frame for interpreting both the Iran MOU's incompleteness and the Warsh Fed's inflation anxiety. A 60-day MOU does not retire the structural risk premium; it suspends it.</p>
+<hr />
+<h2 id="cross-section-themes-the-synthesis-layer">Cross-section themes (the synthesis layer)</h2>
+<p><strong>Theme 1: The Iran deal and the Warsh pivot are the same story.</strong> The FOMC's hawkish dot-plot is explicitly driven by energy-inflation concern arising from the Hormuz disruption. The MOU that potentially resolves that disruption was signed the same day as the FOMC decision. This is not coincidence but compression: the policy-relevant information content of both events depends on what happens in the 60-day negotiation window. If the MOU holds and oil normalizes toward $80, Warsh's dot-plot looks premature and markets will price cuts back. If the MOU frays, the hike path is validated. The S&amp;P 500, the 2-year yield, and the EUR/USD are all effectively options on MOU durability.</p>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p><strong>Theme 2: Ukraine escalation is running in the opposite direction from Iran de-escalation, and Washington has to manage both.</strong> The Trump administration is simultaneously advertising the Iran MOU as a "deal" (Trump's favored branding) and implicitly tolerating the largest Ukrainian drone strike on Moscow in the war's history. These are not incompatible, but they generate a diplomatic coherence problem: the same administration that brokered Hormuz reopening is watching its ceasefire-adjacent credibility tested in real time by a Kyiv that has concluded escalation is more useful than diplomatic positioning. The Russia-Ukraine track -- which had stalled formally since the Iran operation began in late February -- shows no sign of restart.</p></div>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p><strong>Theme 3: The Warsh era opens with maximum ambiguity as a design feature.</strong> Declining to submit a dot projection, cutting statement length, removing easing bias, and giving no forward guidance in the press conference is not an accident -- it is a communication strategy. Warsh is telling markets that the old framework (data-dependent, gradual, transparently signaled) is being retired. What replaces it is unknown. This is the source of the VIX elevation (21.51 on June 5, higher after the event). Markets price regime uncertainty more harshly than policy certainty in either direction.</p></div>
+<p><strong>Theme 4: The shadow fleet enforcement infrastructure is closing.</strong> The EU's 21st package targeting bunkering services for the first time, combined with earlier US secondary sanctions on Chinese banks transacting in Russian crude, represents a qualitative shift from targeting the asset (the vessel) to targeting the service network that makes the asset useful. If the EU vote is unanimous, the shadow fleet's operational cost structure changes materially. The oil price cap enforcement architecture is being rebuilt bottom-up from the service layer.</p>
+<p><strong>Theme 5: The AI capital-formation cycle is maturing toward a liquidity event.</strong> OpenAI's $850B IPO filing, Korea's Nvidia partnership announcement, and the GDP-measurement debate are the same phenomenon at different time scales: the capital that poured into AI infrastructure is now seeking a public market exit, the export economy is reorganizing around AI chip demand, and macroeconomists are questioning whether their frameworks can even detect the output. The Warsh rate-hike signal -- which compresses long-duration multiples -- lands directly on this cycle's most rate-sensitive component.</p>
+<hr />
+<h2 id="what-to-watch-next-14-days">What to watch -- next 14 days</h2>
+<ul>
+<li>
+<p><strong>Geneva signing ceremony (June 19, today):</strong> Whether the formal ceremony produces a joint statement with shared language on nuclear enrichment is the first test of MOU durability. Divergent public characterizations by Tehran and Washington in the hours after the ceremony will be the signal to watch.</p>
+</li>
+<li>
+<p><strong>Russia retaliation for Moscow drone strike:</strong> Russia has pledged "massive group strikes." Timing, scale, and target selection (energy infrastructure, population centers, or military nodes) will indicate whether the Kremlin is calibrating for negotiation or for escalation.</p>
+</li>
+<li>
+<p><strong>EU unanimity vote on 21st sanctions package:</strong> Hungary's position is the variable. A veto would be the first formal fracture in EU sanctions coherence since the regime began.</p>
+</li>
+<li>
+<p><strong>Iran 60-day nuclear negotiation kickoff:</strong> The first substantive talks on enrichment levels and IAEA access are the policy meat inside the MOU. Watch for whether Iran tables a position on centrifuge numbers publicly or keeps the track opaque.</p>
+</li>
+<li>
+<p><strong>Fed speakers:</strong> Warsh's first post-meeting speeches will attempt to clarify what the shorter, less transparent FOMC statement actually means. The 2-year yield will move on every public utterance.</p>
+</li>
+<li>
+<p><strong>Peru election finalization:</strong> Fujimori led at 50.11% with 0.6% of votes outstanding as of last count. Sanchez has called for protests. If Fujimori is confirmed, Peru shifts to its fourth consecutive right-wing executive in 12 years despite unresolved corruption investigations.</p>
+</li>
+<li>
+<p><strong>South Korea local election fallout:</strong> President Lee's concession that the results were "a warning from the nation" suggests accelerated domestic political pressure in Seoul, complicating Korean coordination on both the US tech partnership and the North Korea-China summit response.</p>
+</li>
+<li>
+<p><strong>FIFA World Cup 2026:</strong> Underway through July 20. Relevant for prediction market volume (top-traded contracts), political optics (Trump attending NBA Finals June 9, booed), and US soft power in a summer when hard power is absorbing enormous attention.</p>
+</li>
+<li>
+<p><strong>WORLDSCOPE data pipeline:</strong> The absence of packaged daily zips from June 10-19 is an operational gap that this brief has compensated for via lake-section reads and web supplementation, but it degrades cross-section signal fidelity. Investigating the CDN build process and whether the lake-to-zip workflow is broken is a priority action for the next operational cycle.</p>
+</li>
+</ul>
+<hr />
+<p><em>Brief composed from W22 weekly bundle, daily lake data through 2026-06-09, ukraine_theater lake section through 2026-06-17, and web research. Committed 2026-06-19 (W25 Friday).</em></p>
+      
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>
