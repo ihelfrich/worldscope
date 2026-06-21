@@ -167,6 +167,7 @@ def _navbar(base: str = "") -> str:
     <a href="{base}index.html" class="ws-brand text-sm">WORLDSCOPE</a>
     <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
       <a href="{base}index.html">Today</a>
+      <a href="{base}developing.html">Developing</a>
       <a href="{base}sections/">Sections</a>
       <a href="{base}track-record.html">Forecasts</a>
       <a href="{base}briefings/">Archive</a>
@@ -197,6 +198,7 @@ def _navbar(base: str = "") -> str:
        x-show="open" x-cloak x-transition>
     <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
       <li><a href="{base}index.html" class="block py-1.5">Today</a></li>
+      <li><a href="{base}developing.html" class="block py-1.5">Developing</a></li>
       <li><a href="{base}sections/" class="block py-1.5">Sections</a></li>
       <li><a href="{base}track-record.html" class="block py-1.5">Forecasts</a></li>
       <li><a href="{base}briefings/" class="block py-1.5">Archive</a></li>
@@ -627,6 +629,9 @@ def build_all(out_root: Path, *, days_to_render: int = 7) -> dict:
     track_record_ok = render_track_record(out_root)
     if track_record_ok:
         sitemap_urls.append(f"{PAGES_BASE}/track-record.html")
+    developing_ok = render_developing(out_root)
+    if developing_ok:
+        sitemap_urls.append(f"{PAGES_BASE}/developing.html")
     render_404(out_root)
     render_sitemap(out_root, sitemap_urls)
     return {
@@ -634,6 +639,7 @@ def build_all(out_root: Path, *, days_to_render: int = 7) -> dict:
         "section_pages": section_pages,
         "day_pages": day_pages,
         "track_record": track_record_ok,
+        "developing": developing_ok,
         "sitemap_urls": len(sitemap_urls),
     }
 
@@ -657,6 +663,23 @@ def render_track_record(out_root: Path) -> bool:
         return True
     except Exception as exc:  # pragma: no cover - defensive, never block a build
         print(f"[track-record] skipped: {type(exc).__name__}: {exc}")
+        return False
+
+
+def render_developing(out_root: Path, *, today: "_date | None" = None) -> bool:
+    """Render dist/developing.html — the cross-day story-thread tracker. Thin
+    adapter; all (testable) logic lives in ``story_threads``. Never raises."""
+    try:
+        from . import story_threads as stt
+        when = today or _date.today()
+        threads = stt.build_threads(today=when, days=stt.DEFAULT_WINDOW_DAYS)
+        if not threads:
+            return False
+        body = stt.build_body(threads, today=when)
+        stt.write_page(out_root, body, wrap=_wrap)
+        return True
+    except Exception as exc:  # pragma: no cover - defensive, never block a build
+        print(f"[developing] skipped: {type(exc).__name__}: {exc}")
         return False
 
 

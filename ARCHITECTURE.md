@@ -116,6 +116,10 @@ snapshot store  ──┐                         worldscope/store/         (car
         │   │ foresight.py TIME axis: lead/lag PRECEDENCE mining → A surges │
         │   │              ⇒ B elevates L days later; significance-gated    │
         │   │              early warnings → falsifiable EMERGENCE predictions│
+        │   │ story_threads CROSS-DAY identity: links daily story clusters   │
+        │   │              into tracked threads w/ breadth MOMENTUM          │
+        │   │              (escalating/steady/cooling) → Developing Situations│
+        │   │ track_record_page  public forecast ledger + calibration       │
         │   │ embeddings   semantic dedup / cross-language clustering      │
         │   │ graphics/maps figures from the lake                         │
         │   └────────────────────────────────────────────────────────────┘
@@ -192,8 +196,11 @@ tables are the rails; `signals.py` and `radar.py` fill them.
    deterministic, embedding-free path by default (shared discriminative
    entities + headline-token overlap, with document-frequency pruning to stop
    single-link chaining) and folds in `record_embeddings` cosine when the index
-   is populated. *Next:* feed the clusters back into signals/radar and persist
-   cross-day story identity so a thread can be tracked as it develops.
+   is populated. ✅ *cross-day identity shipped as `story_threads.py`* — links
+   each day's clusters into persistent threads by entity+headline signature
+   overlap, derives coverage-breadth **momentum** (escalating/steady/cooling),
+   and renders the **Developing Situations** page + brief panel. *Next:* feed
+   the clusters/threads back into signals/radar.
 4. **Credibility v2.** Blend in prediction-grounded accuracy (did this source's
    claims resolve true?) and decay; expose a per-source scorecard page.
 5. **Quant auto-exploration (Tier 1, then optional Tier 3).** ✅ *lead/lag

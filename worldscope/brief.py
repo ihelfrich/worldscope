@@ -355,6 +355,27 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_threads() -> None:
+        # Cross-day story-thread tracker: links the daily top-story clusters that
+        # cover the same evolving event into persistent threads, derives each
+        # thread's coverage-breadth momentum (escalating/steady/cooling), writes
+        # a story_threads.json artifact, and prepends a "Developing Situations"
+        # panel. Reuses stories.build_stories per day. Never blocks a brief.
+        from . import story_threads as _stt
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            threads = _stt.build_threads(today=today, days=_stt.DEFAULT_WINDOW_DAYS, conn=conn)
+            _stt.write_threads_artifact(today, threads)
+            panel = _stt.render_threads_panel(threads)
+            if panel:
+                sections_html.insert(0, panel)
+            active = sum(1 for t in threads if t.active_today)
+            print(f"[threads] {len(threads)} developing threads · {active} active today")
+        finally:
+            lake.close()
+
     def _stage_track_record() -> None:
         # Forecast track record. Reads the lake's predictions ledger (signals +
         # foresight), prepends a compact skill/commitment panel linking to the
@@ -429,6 +450,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("signals", _stage_signals),
         ("radar", _stage_radar),
         ("foresight", _stage_foresight),
+        ("threads", _stage_threads),
         ("track-record", _stage_track_record),
         ("claims", _stage_claims),
         # Runs after the other panel stages so its insert(0) puts Top Stories
