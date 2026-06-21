@@ -355,6 +355,27 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_track_record() -> None:
+        # Forecast track record. Reads the lake's predictions ledger (signals +
+        # foresight), prepends a compact skill/commitment panel linking to the
+        # full public page (which _stage_site_builder renders to
+        # dist/track-record.html). Makes the self-grading loop legible to a
+        # reader instead of leaving it buried in SQLite. Never blocks a brief.
+        from . import track_record_page as _trp
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            rows = _trp.load_predictions(conn)
+            panel = _trp.render_panel(rows)
+            if panel:
+                sections_html.insert(0, panel)
+            resolved, pending = _trp.partition(rows)
+            print(f"[track-record] {len(rows)} forecasts on ledger · "
+                  f"{len(pending)} open · {len(resolved)} resolved")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -408,6 +429,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("signals", _stage_signals),
         ("radar", _stage_radar),
         ("foresight", _stage_foresight),
+        ("track-record", _stage_track_record),
         ("claims", _stage_claims),
         # Runs after the other panel stages so its insert(0) puts Top Stories
         # at the very top of the page — it is the front-page experience.

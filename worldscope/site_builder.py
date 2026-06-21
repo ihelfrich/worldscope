@@ -168,6 +168,7 @@ def _navbar(base: str = "") -> str:
     <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
       <a href="{base}index.html">Today</a>
       <a href="{base}sections/">Sections</a>
+      <a href="{base}track-record.html">Forecasts</a>
       <a href="{base}briefings/">Archive</a>
     </nav>
     <div class="flex-1"></div>
@@ -197,6 +198,7 @@ def _navbar(base: str = "") -> str:
     <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
       <li><a href="{base}index.html" class="block py-1.5">Today</a></li>
       <li><a href="{base}sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="{base}track-record.html" class="block py-1.5">Forecasts</a></li>
       <li><a href="{base}briefings/" class="block py-1.5">Archive</a></li>
       <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
     </ul>
@@ -622,14 +624,40 @@ def build_all(out_root: Path, *, days_to_render: int = 7) -> dict:
         section_pages += 1
         sitemap_urls.append(f"{PAGES_BASE}/sections/{sid_seg}/")
     render_sections_root(out_root)
+    track_record_ok = render_track_record(out_root)
+    if track_record_ok:
+        sitemap_urls.append(f"{PAGES_BASE}/track-record.html")
     render_404(out_root)
     render_sitemap(out_root, sitemap_urls)
     return {
         "sections": len(section_ids),
         "section_pages": section_pages,
         "day_pages": day_pages,
+        "track_record": track_record_ok,
         "sitemap_urls": len(sitemap_urls),
     }
+
+
+def render_track_record(out_root: Path) -> bool:
+    """Render dist/track-record.html from the lake's predictions ledger. Thin
+    DB→module→file adapter; all the (testable) logic lives in
+    ``track_record_page``. Never raises — a missing/empty lake just skips it."""
+    try:
+        from . import track_record_page as trp
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            rows = trp.load_predictions(lake._ensure_open())
+        finally:
+            lake.close()
+        if not rows:
+            return False
+        body = trp.build_body(rows)
+        trp.write_page(out_root, body, wrap=_wrap)
+        return True
+    except Exception as exc:  # pragma: no cover - defensive, never block a build
+        print(f"[track-record] skipped: {type(exc).__name__}: {exc}")
+        return False
 
 
 if __name__ == "__main__":
