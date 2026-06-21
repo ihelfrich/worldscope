@@ -19,6 +19,9 @@ module.exports = {
     // daisyUI dynamic classes that may come from Python string composition
     { pattern: /^(badge|btn|card|navbar|breadcrumbs|prose)/ },
     { pattern: /^(bg|text|border)-(parchment|navy|gold|teal|crimson|carolina|slate|mist|ink)/ },
+    // semantic status colors emitted by the track-record + developing pages
+    // (hit/miss verdicts, escalating/cooling trajectory) — never purge these.
+    { pattern: /^text-(emerald|rose|sky)-700/ },
   ],
   theme: {
     extend: {
