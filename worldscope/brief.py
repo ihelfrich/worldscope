@@ -324,6 +324,37 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_foresight() -> None:
+        # Temporal lead/lag early-warning miner. Reads the same lake as
+        # signals/radar but along the TIME axis: learns which keys reliably
+        # precede which others (A surges → B elevates L days later), gated by a
+        # Bonferroni-corrected binomial significance test so a thin history can't
+        # mint confident coincidences. Emits today's early warnings (a leader
+        # fired today while its follower is still quiet) as falsifiable emergence
+        # predictions on the same Brier loop signals uses, grades any now due,
+        # writes a foresight.json artifact, and prepends a "Foresight" panel.
+        # Failure here never blocks the brief.
+        from . import foresight as _fs
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            rules, warnings, _intensity, _axis = _fs.build_foresight(
+                today=today, days=_fs.DEFAULT_WINDOW_DAYS, conn=conn)
+            preds = _fs.warnings_to_predictions(warnings, today=today)
+            n_written = _fs.persist_predictions(lake, preds)
+            graded = _fs.grade_due_predictions(lake, conn, today=today)
+            _fs.write_foresight_artifact(today, rules, warnings)
+            panel = _fs.render_foresight_panel(rules, warnings)
+            if panel:
+                sections_html.insert(0, panel)
+            n_pred = sum(1 for r in rules if r.predictive)
+            print(f"[foresight] {len(rules)} lead/lag rules · {n_pred} predictive "
+                  f"· {len(warnings)} warnings · wrote {n_written} predictions "
+                  f"· graded {graded} due")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -376,6 +407,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("integrity", _stage_integrity),
         ("signals", _stage_signals),
         ("radar", _stage_radar),
+        ("foresight", _stage_foresight),
         ("claims", _stage_claims),
         # Runs after the other panel stages so its insert(0) puts Top Stories
         # at the very top of the page — it is the front-page experience.

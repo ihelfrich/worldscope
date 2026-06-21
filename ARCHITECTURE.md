@@ -113,6 +113,9 @@ snapshot store  ──┐                         worldscope/store/         (car
         │   │              threads (shared entities + headline tokens,     │
         │   │              embeddings when present), ranked by independent │
         │   │              cross-source / cross-language coverage breadth  │
+        │   │ foresight.py TIME axis: lead/lag PRECEDENCE mining → A surges │
+        │   │              ⇒ B elevates L days later; significance-gated    │
+        │   │              early warnings → falsifiable EMERGENCE predictions│
         │   │ embeddings   semantic dedup / cross-language clustering      │
         │   │ graphics/maps figures from the lake                         │
         │   └────────────────────────────────────────────────────────────┘
@@ -124,21 +127,38 @@ snapshot store  ──┐                         worldscope/store/         (car
    GitHub Pages  +  Pushover               .github/workflows/*
 ```
 
-**signals vs radar — the distinction that keeps them from overlapping:**
+**signals vs radar vs foresight — the distinctions that keep them from overlapping:**
 
 - **signals** answers *"what is converging right now?"* — keys salient across
   many independent sections **today**. A steady, broad key (e.g. "Iran") is a
-  strong signal.
+  strong signal. Its predictions are about **persistence** (an already-salient
+  key stays salient) — a relatively easy, high-base-rate call.
 - **radar** answers *"what changed?"* — keys that **spiked** vs their own
   baseline (surge) or **broke in broadly for the first time** (novel). A steady
   key is *not* a development. Radar also scores source credibility, builds quant
   datasets, and seeds source discovery.
+- **foresight** answers *"what comes next?"* — it reads the lake along the **time
+  axis** (the one dimension the committed day-by-day git history uniquely owns)
+  and mines **lead/lag precedence**: ordered rules `A ⇒ B (lag L)` where a surge
+  in `A` is followed, `L` days later, by `B` being elevated far more often than
+  `B`'s own base rate. Today's *actionable* output is an **early warning**: a
+  rule whose leader surged **today** while the follower is still **quiet**, logged
+  as a falsifiable **emergence** prediction (a currently-low key will *become*
+  active) — a harder, low-base-rate call than signals' persistence bet. Crucially,
+  a rule only earns the `predictive` flag (and the right to emit a prediction)
+  once it survives a one-sided **binomial significance test, Bonferroni-corrected**
+  for the number of (leader, follower, lag) hypotheses tested — so a thin lake
+  yields *no* confident-looking coincidences, and the rulebook strengthens as the
+  history accrues. (With only a few weeks of lake, expect 0 predictive rules; that
+  is the honest state, not a bug.)
 
-Both reuse the same key-extraction (`signals.record_key_pairs`) and the same
+All three reuse the same key-extraction (`signals.record_key_pairs`) and the same
 lake loaders, so they always see identical records and improvements to the
-stopword/cleaning layer benefit both. Both run as **defensive post-section
-stages** in `brief.py` (`_stage_signals`, `_stage_radar`) — a failure logs but
-never blocks the brief.
+stopword/cleaning layer benefit all. All run as **defensive post-section
+stages** in `brief.py` (`_stage_signals`, `_stage_radar`, `_stage_foresight`) — a
+failure logs but never blocks the brief. signals/foresight predictions share the
+single `predictions` table and Brier/calibration scorer, distinguished by their
+`method` tag (`signal-fusion-v1` vs `lead-lag-foresight-v1`).
 
 ---
 
@@ -176,8 +196,11 @@ tables are the rails; `signals.py` and `radar.py` fill them.
    cross-day story identity so a thread can be tracked as it develops.
 4. **Credibility v2.** Blend in prediction-grounded accuracy (did this source's
    claims resolve true?) and decay; expose a per-source scorecard page.
-5. **Quant auto-exploration (Tier 1, then optional Tier 3).** Extend
-   `radar.explore_dataset` with correlation/lead-lag screens across datasets;
+5. **Quant auto-exploration (Tier 1, then optional Tier 3).** ✅ *lead/lag
+   screens shipped as `foresight.py`* — significance-gated `A ⇒ B (lag L)`
+   precedence mining over the lake's key-intensity panel, emitting self-graded
+   emergence predictions (see §5). *Next:* extend `radar.explore_dataset` with
+   correlation/lead-lag screens across the curated *numeric* datasets too, and
    optionally let a cheap model write a short "what's interesting here" note.
 6. **Calibration surfacing.** Promote the Brier/calibration reliability diagram
    to a first-class public page so the track record is visible.
