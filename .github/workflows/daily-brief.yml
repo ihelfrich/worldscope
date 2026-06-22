@@ -31,6 +31,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: the commit/push step rebases onto origin/main on a
+          # reject, and a shallow clone can't find the merge base — which
+          # silently failed every day, freezing the committed lake for 13 days.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -76,17 +81,27 @@ jobs:
             echo "no changes"; exit 0
           fi
           git commit -m "briefing $(date -u +%Y-%m-%d)"
-          # Retry-with-rebase: same race-safety as render-briefings.yml
-          for attempt in 1 2 3 4 5; do
+          # Retry-with-rebase: same race-safety as render-briefings.yml. This
+          # job races many concurrent pushers (hourly, render, pushover), so
+          # give it more attempts with backoff, and FAIL LOUDLY if it never
+          # lands — a swallowed failure here is what froze the lake silently.
+          pushed=0
+          for attempt in 1 2 3 4 5 6 7 8; do
             if git push; then
-              echo "Pushed on attempt $attempt"; break
+              echo "Pushed on attempt $attempt"; pushed=1; break
             fi
-            echo "Push rejected on attempt $attempt; rebasing"
+            echo "Push rejected on attempt $attempt; rebasing onto origin/main"
             # Generated artifacts (dist/, lake/, store) are fully rebuilt each
             # run, so on a conflict prefer OUR fresh copy (-X theirs favors the
             # commit being replayed during a rebase). Abort cleanly if it can't.
-            git pull --rebase --autostash -X theirs origin main || git rebase --abort
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep $((attempt * 3))
           done
+          if [ "$pushed" != "1" ]; then
+            echo "::error::daily-brief could not push after 8 attempts — lake not updated"
+            exit 1
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
