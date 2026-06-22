@@ -72,6 +72,11 @@ jobs:
         # Runs after the Python build so it sees every class referenced in the
         # freshly-generated HTML before purging unused utilities.
         run: npm run build:css
+      - name: Prune + VACUUM lake under the 100MB git limit
+        # The lake crossed GitHub's hard 100MB file limit (bloated by ~22k
+        # quarantine rows), so the push was rejected for ~13 days. Keep it
+        # well under the limit before committing.
+        run: python -m worldscope.lake_maintenance
       - name: Commit archive + snapshot store + lake
         run: |
           git config user.name "worldscope-bot"

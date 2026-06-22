@@ -33,6 +33,7 @@ from .sections.billionaires import BillionairesSection
 from .sections.cisa_kev import CisaKevSection
 from .sections.epss import EpssSection
 from .sections.commentary import CommentarySection
+from .sections.tech_news import TechNewsSection
 from .sections.conflict import ConflictSection
 from .sections.congressional_trades import CongressionalTradesSection
 from .sections.courtlistener import CourtListenerSection
@@ -113,6 +114,7 @@ SECTION_REGISTRY = [
     UsgsQuakesSection,
     ForecastsSection,
     CommentarySection,
+    TechNewsSection,
     # Must run AFTER congressional_trades, gdelt_gkg, and form4: it reads
     # those sections' lake artifacts to build its per-figure signal index.
     PoliticalFiguresSection,
