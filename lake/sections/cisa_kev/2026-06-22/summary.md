@@ -2,14 +2,14 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-06-22
-record_count: 11
+record_count: 9
 new_today: 9
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-9 new of 11 total items today.
+9 new of 9 total items today.
 
 - **NEW**  [CVE-2026-20253 · Splunk Enterprise: Splunk Enterprise Missing Authentication for Critical Function Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-20253) — *2026-06-18*
   > vendor: Splunk · product: Enterprise · CISA remediation by 2026-06-21
@@ -29,7 +29,3 @@ state: fresh
   > vendor: Arista · product: Extensible Operating System · CISA remediation by 2026-06-23
 - **NEW**  [CVE-2026-20245 · Cisco Catalyst SD-WAN Manager: Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-20245) — *2026-06-09*
   > vendor: Cisco · product: Catalyst SD-WAN Manager · CISA remediation by 2026-06-23
-- [CVE-2026-42271 · BerriAI LiteLLM: BerriAI LiteLLM Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-42271) — *2026-06-08*
-  > vendor: BerriAI · product: LiteLLM · CISA remediation by 2026-06-22
-- [CVE-2026-50751 · Check Point Security Gateway: Check Point Security Gateway Improper Authentication Vulnerability [RANSOMWARE-LINKED]](https://nvd.nist.gov/vuln/detail/CVE-2026-50751) — *2026-06-08*
-  > vendor: Check Point · product: Security Gateway · CISA remediation by 2026-06-11

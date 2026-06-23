@@ -1,7 +1,7 @@
 {
   "date": "2026-06-22",
-  "generated_at": "2026-06-22T23:57:45Z",
-  "summary": "Data integrity \u00b7 32/42 sections fresh \u00b7 4 failing (acled, gdelt_regions, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-06-23T00:09:36Z",
+  "summary": "Data integrity \u00b7 32/42 sections fresh \u00b7 4 failing (acled, promed, reliefweb, vip_flights) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
@@ -10,14 +10,6 @@
       "last_record_date": "2026-06-02",
       "today_count": 0,
       "consecutive_failures": 21
-    },
-    {
-      "section_id": "gdelt_regions",
-      "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): PullTimeout: pull() exceeded 90s deadline (still running)",
-      "last_record_date": "2026-06-09",
-      "today_count": 0,
-      "consecutive_failures": 1
     },
     {
       "section_id": "promed",
@@ -34,6 +26,14 @@
       "last_record_date": "2026-06-02",
       "today_count": 0,
       "consecutive_failures": 21
+    },
+    {
+      "section_id": "vip_flights",
+      "status": "FAILED",
+      "reason": "last pull failed (4\u00d7): ConnectTimeout: HTTPSConnectionPool(host='opensky-network.org', port=443): Max retries exceeded with url: /api/states/al",
+      "last_record_date": "2026-06-08",
+      "today_count": 0,
+      "consecutive_failures": 4
     },
     {
       "section_id": "firms",
@@ -87,24 +87,24 @@
       "section_id": "billionaires",
       "status": "FRESH",
       "reason": "40 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 40,
       "consecutive_failures": 0
     },
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "213 records today",
+      "reason": "211 records today",
       "last_record_date": "2026-06-22",
-      "today_count": 213,
+      "today_count": 211,
       "consecutive_failures": 0
     },
     {
       "section_id": "cisa_kev",
       "status": "FRESH",
-      "reason": "11 records today",
+      "reason": "9 records today",
       "last_record_date": "2026-06-22",
-      "today_count": 11,
+      "today_count": 9,
       "consecutive_failures": 0
     },
     {
@@ -142,9 +142,9 @@
     {
       "section_id": "fec",
       "status": "FRESH",
-      "reason": "12 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 12,
+      "reason": "27 records today",
+      "last_record_date": "2026-06-23",
+      "today_count": 27,
       "consecutive_failures": 0
     },
     {
@@ -159,24 +159,24 @@
       "section_id": "forecasts",
       "status": "FRESH",
       "reason": "20 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 20,
       "consecutive_failures": 0
     },
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "738 records today",
+      "reason": "639 records today",
       "last_record_date": "2026-12-28",
-      "today_count": 738,
+      "today_count": 639,
       "consecutive_failures": 0
     },
     {
       "section_id": "form4",
       "status": "FRESH",
-      "reason": "13 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 13,
+      "reason": "11 records today",
+      "last_record_date": "2026-06-23",
+      "today_count": 11,
       "consecutive_failures": 0
     },
     {
@@ -196,11 +196,19 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "gdelt_regions",
+      "status": "FRESH",
+      "reason": "6 records today",
+      "last_record_date": "2026-06-22",
+      "today_count": 6,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "188 records today",
+      "reason": "189 records today",
       "last_record_date": "2026-06-22",
-      "today_count": 188,
+      "today_count": 189,
       "consecutive_failures": 0
     },
     {
@@ -222,16 +230,16 @@
     {
       "section_id": "markets_global",
       "status": "FRESH",
-      "reason": "9 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 9,
+      "reason": "47 records today",
+      "last_record_date": "2026-06-23",
+      "today_count": 47,
       "consecutive_failures": 0
     },
     {
       "section_id": "paper_bet_placement",
       "status": "FRESH",
       "reason": "1 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 1,
       "consecutive_failures": 0
     },
@@ -239,7 +247,7 @@
       "section_id": "paper_bets",
       "status": "FRESH",
       "reason": "139 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 139,
       "consecutive_failures": 0
     },
@@ -247,24 +255,24 @@
       "section_id": "political_figures",
       "status": "FRESH",
       "reason": "613 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 613,
       "consecutive_failures": 0
     },
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "554 records today",
+      "reason": "543 records today",
       "last_record_date": "2026-06-23",
-      "today_count": 554,
+      "today_count": 543,
       "consecutive_failures": 0
     },
     {
       "section_id": "sanctions_procurement",
       "status": "FRESH",
-      "reason": "34 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 34,
+      "reason": "2 records today",
+      "last_record_date": "2026-06-23",
+      "today_count": 2,
       "consecutive_failures": 0
     },
     {
@@ -278,9 +286,9 @@
     {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "333 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 333,
+      "reason": "321 records today",
+      "last_record_date": "2026-06-23",
+      "today_count": 321,
       "consecutive_failures": 0
     },
     {
@@ -295,16 +303,16 @@
       "section_id": "ukraine_theater",
       "status": "FRESH",
       "reason": "297 records today",
-      "last_record_date": "2026-06-22",
+      "last_record_date": "2026-06-23",
       "today_count": 297,
       "consecutive_failures": 0
     },
     {
       "section_id": "ukrainian_internal",
       "status": "FRESH",
-      "reason": "65 records today",
+      "reason": "57 records today",
       "last_record_date": "2026-06-23",
-      "today_count": 65,
+      "today_count": 57,
       "consecutive_failures": 0
     },
     {
@@ -316,19 +324,11 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "vip_flights",
-      "status": "FRESH",
-      "reason": "13 records today",
-      "last_record_date": "2026-06-22",
-      "today_count": 13,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "185 records today",
+      "reason": "173 records today",
       "last_record_date": "2026-06-24",
-      "today_count": 185,
+      "today_count": 173,
       "consecutive_failures": 0
     },
     {

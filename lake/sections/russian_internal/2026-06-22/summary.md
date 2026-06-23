@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-06-22
-record_count: 825
-new_today: 822
+record_count: 857
+new_today: 854
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-822 new of 825 total items today.
+854 new of 857 total items today.
 
 - **NEW**  [[TITLE: Месси стал лучшим бомбардиром в истории чемпионатов мира | LEDE: <p>Нападающий и капитан сборной Аргентины по футболу Лионель Месси благодаря голу в матче с Австрией стал лучшим бомбардиром в и] (ru: Месси стал лучшим бомбардиром в истории чемпионатов мира)](https://meduza.io/news/2026/06/22/messi-stal-luchshim-bombardirom-v-istorii-chempionatov-mira) — *2026-06-22*
   > <p>Нападающий и капитан сборной Аргентины по футболу Лионель Месси благодаря голу в матче с Австрией стал лучшим бомбардиром в истории чемпионатов мира. <p>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: Взломан телеграм-канал Сергея Собянина. В нем появились сообщения «Москва будет гореть» и ссылка на донаты для ВСУ | LEDE: <p>В телеграм-канале мэра Москвы Сергея Собянина вечером 21 июня появи] (ru: Взломан телеграм-канал Сергея Собянина. В нем появились сообщения «Москва будет )](https://meduza.io/news/2026/06/22/vzloman-telegram-kanal-sergeya-sobyanina-v-nem-poyavilis-soobscheniya-moskva-budet-goret-i-ssylka-na-donaty-dlya-vsu) — *2026-06-22*
   > <p>В телеграм-канале мэра Москвы Сергея Собянина вечером 21 июня появились сообщения «МОСКВА БУДЕТ ГОРЕТЬ», а также ссылки на сбор на дроны для ВСУ. <p>
 
-_(800 additional items in raw.jsonl)_
+_(832 additional items in raw.jsonl)_

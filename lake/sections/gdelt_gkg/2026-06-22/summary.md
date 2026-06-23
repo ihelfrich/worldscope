@@ -11,53 +11,53 @@ state: fresh
 
 25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Прокуратура выясняет обстоятельства опрокидывания катера с рыбаками на Камчатке](https://russian.rt.com/russia/news/1647585-kamchatka-kater-proverka) — *2026-06-22*
-  > russian.rt.com · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Vance says talks with Iranian officials set  good foundation  for a deal to end the war - Boston News , Weather , Sports](https://whdh.com/news/vance-says-talks-with-iranian-officials-set-good-foundation-for-a-deal-to-end-the-war/) — *2026-06-22*
-  > whdh.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] U . S . government opposes plan to sell Titanic artifacts – NBC Bay Area](https://www.nbcbayarea.com/news/national-international/us-government-opposes-plan-to-sell-titanic-artifacts/4102838/) — *2026-06-22*
-  > nbcbayarea.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 7 Big Things That Happened at Hellfest 2026](https://banana1015.com/ixp/366/p/big-things-happened-hellfest-2026/) — *2026-06-22*
-  > banana1015.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Open to talks , says Russia , but without ultimatums](http://www.iranherald.com/news/279136145/russia-says-it-is-open-to-talks-without-ultimatums) — *2026-06-22*
-  > iranherald.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Claudia Sheinbaum anuncia envío de petróleo a Cuba](http://www.elmanana.com/noticias/economia/claudia-sheinbaum-anuncia-envio-de-petroleo-a-cuba/6150271) — *2026-06-22*
-  > elmanana.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] North - east Scotland approaching  Goldilocks zone  for energy transition – expert](https://www.halesowennews.co.uk/news/national/26218446.north-east-scotland-approaching-goldilocks-zone-energy-transition---expert/) — *2026-06-22*
-  > halesowennews.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Cooking Gas Prices Surge 41 % In Nigeria Bauchi As Scarcity Bites](https://naija247news.com/cooking-gas-prices-surge-41-in-nigerias-bauchi-as-scarcity-bites/) — *2026-06-22*
-  > naija247news.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump :  I will do what I have to do  if Iran does not stick to deal](https://whbl.com/2026/06/22/trump-i-will-do-what-i-have-to-do-if-iran-does-not-stick-to-deal/) — *2026-06-22*
-  > whbl.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 트럼프  이란 동결자금으로 미 농산물 구매 추진 … 원유 제재는 60일 면제](https://www.hani.co.kr/arti/international/america/1264808.html) — *2026-06-22*
-  > hani.co.kr · Korean · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] First hantavirus cruise ship passengers released from Perth quarantine](https://www.perthnow.com.au/news/first-hantavirus-cruise-ship-passengers-released-from-perth-quarantine-c-22469539) — *2026-06-22*
-  > perthnow.com.au · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 減肥免靠意志力 研究曝 「 睡前少滑手機 」 有望瘦12公斤 | 生活 | 三立新聞網 SETN . COM](https://www.setn.com/News.aspx?NewsID=1860067) — *2026-06-22*
-  > setn.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Crude At $95 Shields Nigeria From 234 , 000 Bpd Output Shortfall As Structural Revenue Risks Persist](https://naija247news.com/crude-at-95-shields-nigeria-from-234000-bpd-output-shortfall-as-structural-revenue-risks-persist/) — *2026-06-22*
-  > naija247news.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Iran says Israel opposed Switzerland talks , sought to sabotage Iran - US framework](https://aa.com.tr/en/middle-east/iran-says-israel-opposed-switzerland-talks-sought-to-sabotage-iran-us-framework/3974923) — *2026-06-22*
-  > aa.com.tr · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Hormuz : Traffic flows despite Iran closure announcement](https://www.surinametimes.com/artikel/hormuz-traffic-flows-despite-irans-closure-announcement) — *2026-06-22*
-  > surinametimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump says Iran sanctions relief will go  largely to our farmers  ](https://aa.com.tr/en/us-israel-iran-war/trump-says-iran-sanctions-relief-will-go-largely-to-our-farmers/3974983) — *2026-06-22*
-  > aa.com.tr · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] North - east Scotland approaching  Goldilocks zone  for energy transition – expert](https://www.somersetcountygazette.co.uk/news/national/26218446.north-east-scotland-approaching-goldilocks-zone-energy-transition---expert/) — *2026-06-22*
-  > somersetcountygazette.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Đi để hiểu , hiểu để thương ... ](https://tienphong.vn/di-de-hieu-hieu-de-thuong-post1852830.tpo) — *2026-06-22*
-  > tienphong.vn · Vietnamese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] India , Mongolia discuss new initiatives for next phase of Strategic Partnership : EAM after meeting with Mongolian counterpart](http://www.azerbaijannews.net/news/279140823/india-mongolia-discuss-new-initiatives-for-next-phase-of-strategic-partnership-eam-after-meeting-with-mongolian-counterpart) — *2026-06-22*
-  > azerbaijannews.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 台股盤前 ／ 美伊談判推進費半彈2 %！ 台指夜盤噴455點 台股有望再攻新高 | 財經 | 三立新聞網 SETN . COM](https://www.setn.com/News.aspx?NewsID=1860705) — *2026-06-22*
-  > setn.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] انخفاض مؤشر نازداك الأميركي 350 نقطة](https://www.addustour.com/articles/1573921-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D9%85%D8%A4%D8%B4%D8%B1-%D9%86%D8%A7%D8%B2%D8%AF%D8%A7%D9%83-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-350-%D9%86%D9%82%D8%B7%D8%A9) — *2026-06-22*
-  > addustour.com · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Raport al Serviciilor Secrete europene : Putin este sub presiune , economia Rusiei a intrat într - o „ situație explozivă  ](https://business24.ro/economia-rusiei/raport-servicii-secrete-europene-putin-sub-presiune-moscova-situatie-exploziva-banci-1657267) — *2026-06-22*
-  > business24.ro · Romanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]   تضامن الغربية  تنقذ مواطناً بلا مأوى وتودعه دار الرعاية بطنطا](https://www.dostor.org/5609043) — *2026-06-22*
-  > dostor.org · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] NWS confirms 10th tornado , reveals two twisters hit Eden Isles simultaneously](https://www.fox8live.com/2026/06/22/nws-confirms-10th-tornado-severe-weather-outbreak/) — *2026-06-22*
-  > fox8live.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Jury finds George Pino not guilty on all charges in connection to deadly 2022 boat crash - WSVN 7News | Miami News , Weather , Sports](https://wsvn.com/news/local/miami-dade/jury-finds-george-pino-not-guilty-on-all-charges-in-connection-to-deadly-2022-boat-crash/) — *2026-06-22*
-  > wsvn.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Tucker Carlson says hell no longer support the Republican Party – Brandon Sun](https://www.brandonsun.com/entertainment/2026/06/22/tucker-carlson-says-hell-no-longer-support-the-republican-party) — *2026-06-22*
+  > brandonsun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 許楠儁捲緋聞爆戀愛觀 ！ 公司狂虧 「 你成功了 」 揭真相](https://ent.ltn.com.tw/news/breakingnews/5480544) — *2026-06-22*
+  > ent.ltn.com.tw · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] US and Iran Agree To Establish  Deconfliction Cell  for Lebanon](https://news.antiwar.com/2026/06/22/us-and-iran-agree-to-establish-deconfliction-cell-for-lebanon/) — *2026-06-22*
+  > news.antiwar.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Tucker Carlson says hell no longer support the Republican Party](https://www.yahoo.com/news/politics/articles/tucker-carlson-says-hell-no-223946669.html) — *2026-06-22*
+  > yahoo.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] WA news LIVE : Perth cruise ship quarantiners finally on their way home](https://www.theage.com.au/national/western-australia/wa-news-live-perth-cruise-ship-quarantiners-finally-on-their-way-home-20260623-p60970.html) — *2026-06-22*
+  > theage.com.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Young Wiky pianist making beautiful sounds | Elliot Lake Standard](https://www.elliotlakestandard.ca:443/opinion/columnists/young-wiky-pianist-making-beautiful-sounds) — *2026-06-22*
+  > elliotlakestandard.ca · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Megadeth Frontman Details Cancer Treatment , Memory Loss in Upcoming Memoir](https://wdhafm.com/2026/06/22/megadeth-frontman-details-cancer-treatment-memory-loss-in-upcoming-memoir/) — *2026-06-22*
+  > wdhafm.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Florida avanza hacia fin de la espera para comprar armas entre advertencias sobre violencia armada](https://www.diariolasamericas.com/florida/florida-avanza-fin-la-espera-comprar-armas-advertencias-violencia-armada-n5397615) — *2026-06-22*
+  > diariolasamericas.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Inflación energética de América Latina se disparó en marzo ante dependencia del crudo y guerra en Irán | Economía](https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/06/22/inflacion-energetica-de-america-latina-se-disparo-en-marzo-ante-dependencia-del-crudo-y-guerra-en-iran.shtml) — *2026-06-22*
+  > biobiochile.cl · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Tin tức Tin liên quan - Hình ảnh và video clip nóng mới nhất](https://baomoi.com/messi-t47756790.epi) — *2026-06-22*
+  > baomoi.com · Vietnamese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Was the Reflecting Pool vandalized ? Here what we know so far](https://www.kcra.com/article/was-the-reflecting-pool-vandalized/71668921) — *2026-06-22*
+  > kcra.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Guthrie Ransom Note Claims She Was Dead](https://1430kasi.iheart.com/content/2026-06-22-guthrie-ransom-note-claims-she-was-dead/) — *2026-06-22*
+  > 1430kasi.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Clive Davis , music executive and champion of legendary pop artists , has died at 94](https://www.krwg.org/national-news/2026-06-22/clive-davis-music-executive-and-champion-of-legendary-pop-artists-has-died-at-94) — *2026-06-22*
+  > krwg.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Crimen de lesa humanidad : Fusilamiento peronistas en Argentina](https://www.diariolibre.com/mundo/estados-unidos/2026/06/22/crimen-de-lesa-humanidad-fusilamiento-peronistas-en-argentina/3575869) — *2026-06-22*
+  > diariolibre.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Olivia Rodrigo Launching All - Women Music Festival : See The Performers](https://y102reading.iheart.com/content/2026-06-22-olivia-rodrigo-launching-all-women-music-festival-see-the-performers/) — *2026-06-22*
+  > y102reading.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Chevron signs pact with Microsoft for powering its Texas data centre](http://www.oklahomacitysun.com/news/279140482/chevron-signs-pact-with-microsoft-for-powering-its-texas-data-centre) — *2026-06-22*
+  > oklahomacitysun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Open to talks , says Russia , but without ultimatums](http://www.oklahomacitysun.com/news/279136145/russia-says-it-is-open-to-talks-without-ultimatums) — *2026-06-22*
+  > oklahomacitysun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Trump : Iran Negotiations Working Out  Very Well  | NewsRadio 104 . 9 WBUV](https://newsradio1049.iheart.com/content/2026-06-22-trump-iran-negotiations-working-out-very-well/) — *2026-06-22*
+  > newsradio1049.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Як Лукашенко готується до війни ? Що відомо з доповіді білоруської опозиції](https://gordonua.com/ukr/section-worldnews/news-yak-lukashenko-hotuyetsya-do-viyny-shcho-vidomo-z-dopovidi-biloruskoyi-opozytsiyi-22-06-2026.html) — *2026-06-22*
+  > gordonua.com · Ukrainian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] George Washington note accepting British surrender to go on display in London](https://www.ludlowadvertiser.co.uk/news/national/26218447.george-washington-note-accepting-british-surrender-go-display-london/) — *2026-06-22*
+  > ludlowadvertiser.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Terror en secundaria de Filipinas : violento tiroteo deja 3 muertos y 5 heridos ; detienen a 2 sospechosos | VIDEO](https://elmanana.com.mx/global/2026/6/22/momento-exacto-del-violento-tiroteo-en-secundaria-hay-muertos-heridos-178846.html) — *2026-06-22*
+  > elmanana.com.mx · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Left - leaning Wikipedia blocked founder from editing site after he campaigned to make it more balanced](https://nypost.com/2026/06/22/tech/left-leaning-wikipedia-blocked-founder-from-editing-site-after-he-campaigned-to-make-it-more-balanced/) — *2026-06-22*
+  > nypost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Адмирал Нахимов : биография , кратко , самое важное](https://rodina-history.ru/2026/06/23/admiral-nahimov-ili-otstoim-sevastopol.html) — *2026-06-22*
+  > rodina-history.ru · Russian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Music mogul Clive Davis dies at 94](https://www.salon.com/2026/06/22/music-mogul-clive-davis-dies-at-94/) — *2026-06-22*
+  > salon.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Los humanos se volvieron más grandes y ganaron hasta 16 kilos de masa corporal hace 2 millones de años](https://www.abc.es/ciencia/tamano-humano-incremento-forma-notable-millones-anos-20260622011514-nt.html) — *2026-06-22*
+  > abc.es · Spanish · tone NA

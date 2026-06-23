@@ -12,8 +12,8 @@ state: fresh
 
 18 of 576 active figures registered a non-zero anomaly score today. Top 10:
 
-1. **David Taylor** (Representative, Republican, OH-2nd): composite 0.283
-   drivers: stock_activity=0.57, new_filings=0.40, enforcement_hits=0.50
+1. **David Taylor** (Representative, Republican, OH-2nd): composite 0.268
+   drivers: stock_activity=0.57, enforcement_hits=0.50
    evidence: [lake:political_figures:22c160fd6dd8], [lake:political_figures:9901f47f6dfc], [lake:political_figures:f07b90ef9cae], [lake:political_figures:f6a5d3a298ae], [lake:political_figures:1afb9ff9ee94]
 2. **Gilbert Cisneros** (Representative, Democratic, CA-31st): composite 0.148
    drivers: stock_activity=0.59
@@ -24,17 +24,18 @@ state: fresh
 4. **April McClain Delaney** (Representative, Democratic, MD-6th): composite 0.129
    drivers: stock_activity=0.52
    evidence: [lake:political_figures:10733744b60c], [lake:political_figures:a7dee1d1d176], [lake:political_figures:a7d8ceff92ce], [lake:political_figures:4e1099cbddcb], [lake:political_figures:c2a5cc9bc4d5]
-5. **John Boozman** (Senator, Republican, AR): composite 0.088
+5. **Scott Perry** (Representative, Republican, PA-10th): composite 0.125
+   drivers: enforcement_hits=0.50
+   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:https://www.]
+6. **John Boozman** (Senator, Republican, AR): composite 0.088
    drivers: stock_activity=0.35
    evidence: [lake:political_figures:4eebd2225e0e], [lake:political_figures:ce81b98f3661], [lake:political_figures:3b261e602549], [lake:political_figures:bf739a13b994], [lake:political_figures:5f3cfff5fe20]
-6. **Thomas Kean** (Representative, Republican, NJ-7th): composite 0.077
+7. **Thomas Kean** (Representative, Republican, NJ-7th): composite 0.077
    drivers: stock_activity=0.31
    evidence: [lake:political_figures:8a3b1531872c], [lake:political_figures:d0a99c7280bf]
-7. **John McGuire** (Representative, Republican, VA-5th): composite 0.071
+8. **John McGuire** (Representative, Republican, VA-5th): composite 0.071
    evidence: [lake:political_figures:5d6326906c0e], [lake:political_figures:0ceeba774b5c]
-8. **Jim Banks** (Senator, Republican, IN): composite 0.049
+9. **Jim Banks** (Senator, Republican, IN): composite 0.049
    evidence: [lake:political_figures:c88e70d569ef], [lake:political_figures:0002069783-2]
-9. **Robert Latta** (Representative, Republican, OH-5th): composite 0.043
+10. **Robert Latta** (Representative, Republican, OH-5th): composite 0.043
    evidence: [lake:political_figures:59c5154653c7]
-10. **Christian Menefee** (Representative, Democratic, TX-18th): composite 0.039
-   evidence: [lake:political_figures:4ec7741792dd]

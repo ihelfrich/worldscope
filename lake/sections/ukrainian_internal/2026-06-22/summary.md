@@ -2,18 +2,20 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-06-22
-record_count: 128
-new_today: 120
+record_count: 97
+new_today: 89
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-120 new of 128 total items today.
+89 new of 97 total items today.
 
-- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-06-22*
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-06-23*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-06-23*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-22*
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-06-23*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[TITLE: Росіяни атакували Запоріжжя: двоє поранених, пошкоджено будинки, СТО та АЗС | LEDE: Унаслідок російського удару по Запорізькому району отримали поранення двоє літніх людей, а також пошкоджено ж] (uk: Росіяни атакували Запоріжжя: двоє поранених, пошкоджено будинки, СТО та АЗС)](https://www.pravda.com.ua/news/2026/06/23/8040646/) — *2026-06-23*
   > Унаслідок російського удару по Запорізькому району отримали поранення двоє літніх людей, а також пошкоджено житлові будинки, станцію технічного обслуговування та автозаправну станцію.
@@ -52,11 +54,9 @@ state: fresh
 - **NEW**  [[TITLE: У Туреччині затримали 4 осіб, які протестували проти НАТО біля французького фрегата | LEDE: ] (uk: У Туреччині затримали 4 осіб, які протестували проти НАТО біля французького фрег)](https://www.pravda.com.ua/news/2026/06/22/8040600/) — *2026-06-22*
 - **NEW**  [[TITLE: Санду заявила, що ЄС має без зволікань відкрити решту кластерів для Молдови | LEDE: Президентка Молдови Мая Санду заявила, що країна технічно готова до переговорів за всіма кластерами, тому ЄС ] (uk: Санду заявила, що ЄС має без зволікань відкрити решту кластерів для Молдови)](https://www.pravda.com.ua/news/2026/06/22/8040599/) — *2026-06-22*
   > Президентка Молдови Мая Санду заявила, що країна технічно готова до переговорів за всіма кластерами, тому ЄС має негайно відкрити решту п'ять переговорних кластерів.
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-06-22*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-06-22*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-06-23*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - **NEW**  [‘Time Is Not on Moscow’s Side’: US Warns Russia at UN as Its Casualties Hit 40,000 a Month](https://www.kyivpost.com/post/78738) — *2026-06-23*
   > The US told the UN Security Council that “time is not on Moscow’s side,” urging Russia to make a deal as it suffers an estimated 40,000 casualties a month, faces economic strain and struggles to keep pace with Ukraine’s battlefield innovation. The warning came as UN officials rep
 
-_(103 additional items in raw.jsonl)_
+_(72 additional items in raw.jsonl)_

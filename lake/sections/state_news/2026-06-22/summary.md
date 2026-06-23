@@ -2,25 +2,19 @@
 section: state_news
 title: State-Level News
 date: 2026-06-22
-record_count: 431
-new_today: 418
+record_count: 385
+new_today: 372
 state: fresh
 ---
 
 ## State-Level News
 
-418 new of 431 total items today.
+372 new of 385 total items today.
 
-- **NEW**  [[California] L.A, Unified superintendent resigns amid FBI probe into chatbot contract](https://calmatters.org/education/2026/06/los-angeles-unified-superintendent-resigns/) — *2026-06-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/011422_Alberto-Carvalho_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with graying dark hair and w
-- **NEW**  [[California] CA Democrats want election results faster, but say any solution hurts voters](https://calmatters.org/newsletter/california-democrats-election-results-faster/) — *2026-06-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Sac-Ballot-Count_FG_CM_02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A worker wearing gloves sorts stacks of 
-- **NEW**  [[California] California gave every student in prison a laptop. How community colleges are using them](https://calmatters.org/education/2026/06/california-community-college-prisons-laptops-online-classes/) — *2026-06-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/052626_Project-Rebound_JAH_03_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with a long beard, wearing a bl
-- **NEW**  [[California] Thousands of Joshua trees are dying as the Mojave region develops. They must be saved](https://calmatters.org/commentary/2026/06/joshua-trees-dying-mojave-california/) — *2026-06-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/09/082525-Joshua-Tree-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Silhouettes of Joshua trees stand tall agains
-- **NEW**  [[California] Want faster election results? California Democrats won’t clamp down on late voters](https://calmatters.org/politics/2026/06/california-slow-vote-counting-fix/) — *2026-06-20*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Sac-Ballot-Count_FG_CM_09.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Blue-gloved hands sort and review stacks
+- **NEW**  [[Alabama] Governor Ivey Announces Alabama STEM Council Executive Committee Appointments](https://governor.alabama.gov/newsroom/2026/06/governor-ivey-announces-alabama-stem-council-executive-committee-appointments/) — *2026-06-22*
+  > MONTGOMERY – Governor Kay Ivey, in conjunction with Alabama Department of Workforce (ADOW) Secretary Greg Reed, has announced new appointments to the Alabama STEM Council. The appointees represent key sectors across Alabama, including medicine, aerospace, automotive manufacturing
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-06-23*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[California] California leaders announce historic Veterans and Affordable Housing Bond Act of 2026 to expand homeownership and build affordable housing for generations of Californians](https://www.gov.ca.gov/2026/06/22/california-leaders-announce-historic-veterans-and-affordable-housing-bond-act-of-2026-to-expand-homeownership-and-build-affordable-housing-for-generations-of-californians/) — *2026-06-22*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/California-leaders-announce-historic-Veterans-and-Affordable-Housing-Bond-Act-of-2026-to-expand-homeownership-and-build-affordable-housing-for-generations-of-Californians-SEO-GFX-150x150.png" cla
 - **NEW**  [[California] Governor Newsom announces $1.3 billion in new private investment, creating thousands of new jobs in key industries across California](https://www.gov.ca.gov/2026/06/22/governor-newsom-announces-1-3-billion-in-new-private-investment-creating-thousands-of-new-jobs-in-key-industries-across-california/) — *2026-06-22*
@@ -30,37 +24,35 @@ state: fresh
 - **NEW**  [[California] Governor Newsom proclaims State of Emergency in Los Angeles for the Boyle Heights fire response](https://www.gov.ca.gov/2026/06/20/governor-newsom-proclaims-state-of-emergency-in-los-angeles-for-the-boyle-heights-fire-response/) — *2026-06-21*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/06/SEO-Thumbnail-Template-2.0-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
 <p><a href="https://www.gov.ca.gov/2026/06/20/governor
-- **NEW**  [[Alabama] Governor Ivey Announces Alabama STEM Council Executive Committee Appointments](https://governor.alabama.gov/newsroom/2026/06/governor-ivey-announces-alabama-stem-council-executive-committee-appointments/) — *2026-06-22*
-  > MONTGOMERY – Governor Kay Ivey, in conjunction with Alabama Department of Workforce (ADOW) Secretary Greg Reed, has announced new appointments to the Alabama STEM Council. The appointees represent key sectors across Alabama, including medicine, aerospace, automotive manufacturing
-- **NEW**  [[Connecticut] John Larson steps up attacks on Luke Bronin on labor, fundraising](https://ctmirror.org/2026/06/22/larson-bronin-labor-endorsements/) — *2026-06-22*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/06/Larson-endorsements-0622-JL-010-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/
-- **NEW**  [[Connecticut] PODCAST: Could New Haven be the next Silicon Valley?](https://ctmirror.org/2026/06/22/podcast-new-haven-silicon-valley/) — *2026-06-22*
-  > <figure><img width="1024" height="680" src="https://ctmirror.org/wp-content/uploads/2026/04/Picture1-1024x680.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/04/Pi
-- **NEW**  [[Connecticut] Connecticut: Have you called 911 for help? Tell us about your experience.](https://ctmirror.org/2026/06/22/connecticut-ambulance-wait-times-callout/) — *2026-06-22*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/03/AP20114528208343-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
-- **NEW**  [[Connecticut] Do you work or volunteer for CT’s emergency medical services? We want to hear from you.](https://ctmirror.org/2026/06/22/connecticut-emergency-medical-services-callout/) — *2026-06-22*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/06/AP100311173403-PDedit-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploa
-- **NEW**  [[Connecticut] Health insurers are seeking rate hikes again. Here’s what to know](https://ctmirror.org/2026/06/22/what-to-know-about-health-insurance-rate-hikes/) — *2026-06-22*
-  > <figure><img width="600" height="409" src="https://ctmirror.org/wp-content/uploads/2026/03/access-health-copy.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/03/ac
-- **NEW**  [[Connecticut] The free press must be free](https://ctmirror.org/2026/06/22/the-free-press-must-be-free/) — *2026-06-22*
-  > <figure><img width="1024" height="530" src="https://ctmirror.org/wp-content/uploads/2026/06/nonprofit-news-2-1024x530.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
-- **NEW**  [[Connecticut] Let CT’s voters decide on August 11](https://ctmirror.org/2026/06/22/let-cts-voters-decide-on-august-11/) — *2026-06-22*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2019/11/IMG_8005.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2019/11/IMG_8005.jp
-- **NEW**  [[Connecticut] CT is trying to kickstart a quantum computing sector](https://ctmirror.org/2026/06/21/innovation-cluster-quantum-decd-new-haven-ct/) — *2026-06-21*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/06/INNOVATION-CLUSTERS-7-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploa
-- **NEW**  [[Connecticut] Shapiro’s Folly Part Deux: the bridge that won’t die](https://ctmirror.org/2026/06/21/shapiros-folly-part-deux-the-bridge-that-wont-die/) — *2026-06-21*
-  > <figure><img width="686" height="386" src="https://ctmirror.org/wp-content/uploads/2026/06/LI-bridge-tunnel-art-2.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/0
-- **NEW**  [[Delaware] Dover panhandling debate resurfaces as flashpoint for various city issues](https://spotlightdelaware.org/2026/06/22/dover-panhandling-debate-resurfaces-as-flashpoint-for-various-city-issues/) — *2026-06-22*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/David-Anderson-Dover-protest-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority=
-- **NEW**  [[Delaware] Controversial affordable housing bill faces final hurdle](https://spotlightdelaware.org/2026/06/21/controversial-affordable-housing-bill-faces-final-hurdle/) — *2026-06-22*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/Crossings-at-Silver-Lake-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" src
-- **NEW**  [[Delaware] Get Involved: Legislature nears 2027 end, Delmarva rate case begins](https://spotlightdelaware.org/2026/06/21/get-involved-legislature-nears-2027-end-delmarva-rate-case-begins/) — *2026-06-22*
-  > <figure><img width="1000" height="800" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/Get-Involved-6.23-27.png?fit=1000%2C800&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="htt
-- **NEW**  [[Alaska] Flags to be Flown at Half-Staff in Honor of Former Representative Susan Sullivan](https://gov.alaska.gov/flags-to-be-flown-at-half-staff-in-honor-of-former-representative-susan-sullivan-2/) — *2026-06-22*
-  > Governor Mike Dunleavy and First Lady Rose Dunleavy extend their deepest sympathies to the family and friends of former Alaska Representative Susan Sullivan. In 1974, Susan made history as the youngest woman elected to the Alaska Legislature. During her service, she chaired the H
-- **NEW**  [[Alaska] Flags to be Flown at Half-Staff in Honor of Former Representative Susan Sullivan](https://gov.alaska.gov/flags-to-be-flown-at-half-staff-in-honor-of-former-representative-susan-sullivan/) — *2026-06-22*
-  > Governor Dunleavy has ordered that Alaska and United States flags fly at half-staff between sunrise and sunset on June 24, 2026, in honor of former legislator Susan Sullivan.
-- **NEW**  [[Alaska] Alaska Pollinator Week 2026](https://gov.alaska.gov/alaska-pollinator-week-2026/) — *2026-06-22*
-  > WHEREAS, Alaska has an abundance of plant and animal species that make up the natural beauty of our Great State and contribute to the health of our ecosystems and industries; and WHEREAS, bees, birds, butterflies, and other pollinators provide substantial benefits that sustain he
+- **NEW**  [[California] L.A, Unified superintendent resigns amid FBI probe into chatbot contract](https://calmatters.org/education/2026/06/los-angeles-unified-superintendent-resigns/) — *2026-06-22*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/011422_Alberto-Carvalho_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with graying dark hair and w
+- **NEW**  [[California] CA Democrats want election results faster, but say any solution hurts voters](https://calmatters.org/newsletter/california-democrats-election-results-faster/) — *2026-06-22*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Sac-Ballot-Count_FG_CM_02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A worker wearing gloves sorts stacks of 
+- **NEW**  [[California] California gave every student in prison a laptop. How community colleges are using them](https://calmatters.org/education/2026/06/california-community-college-prisons-laptops-online-classes/) — *2026-06-22*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/052626_Project-Rebound_JAH_03_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with a long beard, wearing a bl
+- **NEW**  [[California] Thousands of Joshua trees are dying as the Mojave region develops. They must be saved](https://calmatters.org/commentary/2026/06/joshua-trees-dying-mojave-california/) — *2026-06-22*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/09/082525-Joshua-Tree-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Silhouettes of Joshua trees stand tall agains
+- **NEW**  [[Alaska] Alaska’s gasline tax discount coupon needs an expiration date](https://alaskabeacon.com/2026/06/22/alaskas-gasline-tax-discount-coupon-needs-an-expiration-date/) — *2026-06-22*
+  > Businesses routinely offer discounts and coupons as enticements to get people to spend money, or to buy something they wouldn’t normally purchase if they had to pay full price. It’s the same for the proposed Alaska North Slope natural gas pipeline project. The dream has been arou
+- **NEW**  [[Alaska] Trump ‘trampled’ voter privacy by feeding info into Homeland Security system, judge says](https://alaskabeacon.com/2026/06/22/repub/trump-trampled-voter-privacy-by-feeding-info-into-homeland-security-system-judge-says/) — *2026-06-22*
+  > The Trump administration illegally overhauled a U.S. Department of Homeland Security computer program in its hunt for noncitizen voters, a judge ruled Monday in a stinging decision that laid into federal officials for violating the privacy of millions of Americans. The ruling str
+- **NEW**  [[Alaska] US Education Department offers two-year trim on student loan interest rates](https://alaskabeacon.com/2026/06/22/repub/us-education-department-offers-two-year-trim-on-student-loan-interest-rates/) — *2026-06-22*
+  > WASHINGTON — The U.S. Department of Education will temporarily reduce interest rates for federal student loan borrowers enrolled in auto pay starting July 1, the agency announced Thursday.  Borrowers who enroll in auto pay — the optional feature that allows a borrower to have the
+- **NEW**  [[Alaska] Nonprofit foundation gifts Alaska Legislature 16 apartments in Juneau](https://alaskabeacon.com/briefs/nonprofit-foundation-gifts-alaska-legislature-16-apartments-in-juneau/) — *2026-06-22*
+  > The Juneau Community Foundation is giving the Alaska Legislature 16 two-bedroom apartments as part of a long-term effort to keep the state’s capital in Juneau. Members of the House-Senate Legislative Council voted unanimously to accept the apartments, which are spread across two 
+- **NEW**  [[Alabama] Politics without decency has no bottom](https://www.alreporter.com/2026/06/22/politics-without-decency-has-no-bottom/) — *2026-06-22*
+- **NEW**  [[Alabama] Petroleum and Convenience Marketers endorses Jerry Carl](https://www.alreporter.com/2026/06/22/petroleum-and-convenience-marketers-endorses-jerry-carl/) — *2026-06-22*
+- **NEW**  [[Alabama] Opinion | John Wahl’s tax plan exposed a conservative divide](https://www.alreporter.com/2026/06/22/opinion-john-wahls-tax-plan-exposed-a-conservative-divide/) — *2026-06-22*
+- **NEW**  [[Alabama] Opinion | In a hopelessly divided country, only competency can save us](https://www.alreporter.com/2026/06/22/opinion-in-a-hopelessly-divided-country-only-competency-can-save-us/) — *2026-06-22*
+- **NEW**  [[Alabama] Construction on second Alabama Veterans Cemetery scheduled to begin in October](https://www.alreporter.com/2026/06/22/construction-on-second-alabama-veterans-cemetery-scheduled-to-begin-in-october/) — *2026-06-22*
+- **NEW**  [[Alabama] Senate panel advances Sean Costello for Alabama U.S. attorney](https://www.alreporter.com/2026/06/22/senate-panel-advances-sean-costello-for-alabama-u-s-attorney/) — *2026-06-22*
+- **NEW**  [[Alabama] GOP runoff wins, Tuberville lawsuit reshape Alabama politics](https://www.alreporter.com/2026/06/22/gop-runoff-wins-tuberville-lawsuit-reshape-alabama-politics/) — *2026-06-22*
+- **NEW**  [[Alabama] Opinion | Whose job is the road?](https://www.alreporter.com/2026/06/22/opinion-whose-job-is-the-road/) — *2026-06-22*
+- **NEW**  [[Arkansas] US Supreme Court further erodes Voting Rights Act by declining Arkansas case, advocates say](https://arkansasadvocate.com/2026/06/22/us-supreme-court-further-erodes-voting-rights-act-by-declining-arkansas-case-advocates-say/) — *2026-06-22*
+  > The U.S. Supreme Court declined Monday to review Arkansas’ limits on assistance for voters at the polls, a decision that advocates say further erodes the landmark 1965 law preventing discrimination against racial minorities at the ballot box.   The decision leaves in place last J
+- **NEW**  [[Arkansas] Trump ‘trampled’ voter privacy by feeding info into Homeland Security system, judge says](https://arkansasadvocate.com/2026/06/22/repub/trump-trampled-voter-privacy-by-feeding-info-into-homeland-security-system-judge-says/) — *2026-06-22*
+  > The Trump administration illegally overhauled a U.S. Department of Homeland Security computer program in its hunt for noncitizen voters, a judge ruled Monday in a stinging decision that laid into federal officials for violating the privacy of millions of Americans. The ruling str
+- **NEW**  [[Arkansas] Arkansas sues Roblox and Discord, accusing platforms of putting children at risk](https://arkansasadvocate.com/2026/06/22/arkansas-sues-roblox-and-discord-accusing-platforms-of-putting-children-at-risk/) — *2026-06-22*
+  > Arkansas is accusing social gaming platforms Roblox and Discord of profiting from putting children at risk of sexual predation in a lawsuit filed by Attorney General Tim Griffin earlier this month. The June 11 lawsuit filed in a Los Angeles trial court claims that Roblox and Disc
 
-_(406 additional items in raw.jsonl)_
+_(360 additional items in raw.jsonl)_
