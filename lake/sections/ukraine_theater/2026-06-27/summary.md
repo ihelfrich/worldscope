@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-06-27
-record_count: 895
-new_today: 765
+record_count: 909
+new_today: 786
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-765 new of 895 total items today.
+786 new of 909 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 521 polygons](https://deepstatemap.live/) — *2026-06-27*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[FIRMS] thermal anomaly 47.869, 33.434 (FRP 0.73 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.434,47.869,9z) — *2026-06-26*
   > VIIRS S-NPP NRT, sat N, acquired 2026-06-26 0050Z, FRP 0.73 MW
 
-_(870 additional items in raw.jsonl)_
+_(884 additional items in raw.jsonl)_
