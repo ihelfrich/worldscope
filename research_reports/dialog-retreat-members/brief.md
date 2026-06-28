@@ -57,6 +57,7 @@ that form the actual connective tissue.
 | `network.json` / `network.md` / `network.dot` | the socioeconomic graph (**325 nodes, 417 edges**) |
 | **`LEGAL_AND_FINANCIAL_FILINGS.md`** | **SEC investment/ownership filings, litigation index, OGE disclosures, and public Form 990 financials** |
 | `foundations/<slug>/` | nonprofit Form 990 bundles (revenue/assets/officers) for ~25 network foundations |
+| **`explorer/index.html`** | **interactive investigative toolkit — linked network + map + timeline (open in a browser; see `explorer/README.md`)** |
 | `entities/<slug>/` | per-entity public-record document bundles (brief + raw JSON) |
 
 ## The network in one paragraph

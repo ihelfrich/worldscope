@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<title>Dialog — Investigative Explorer</title>
+<link rel="stylesheet" href="vendor/leaflet.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">DIALOG <span>investigative explorer</span></div>
+  <input id="search" type="search" placeholder="Search people, companies, funds…" autocomplete="off"/>
+  <div id="meta" class="meta"></div>
+  <button id="reset" title="Clear selection &amp; filters">Reset</button>
+</header>
+
+<div id="controls">
+  <div class="ctl-group"><label>Node types</label><div id="typeFilters" class="chips"></div></div>
+  <div class="ctl-group"><label>Event types</label><div id="eventFilters" class="chips"></div></div>
+  <div class="ctl-group grow"><label>Time range <span id="timeLabel"></span></label>
+    <div id="timeline"></div>
+  </div>
+</div>
+
+<main id="grid">
+  <section id="netPanel" class="panel">
+    <div class="panel-h">Network <small>force graph · click a node to focus its ego-network</small>
+      <span class="legend" id="netLegend"></span></div>
+    <svg id="net"></svg>
+  </section>
+  <section id="mapPanel" class="panel">
+    <div class="panel-h">Geography <small>HQ / jurisdiction · click a marker to select</small></div>
+    <div id="map"></div>
+  </section>
+  <aside id="detail" class="panel">
+    <div class="panel-h">Detail</div>
+    <div id="detailBody"><p class="muted">Select a node in the network or map, brush the timeline, or search.
+      Everything is linked: a selection filters all three views.</p>
+      <p class="muted small">Public-record data only. Appearing on the leaked roster does
+      <b>not</b> imply membership, agreement, or wrongdoing.</p></div>
+  </aside>
+</main>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
