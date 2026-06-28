@@ -55,6 +55,8 @@ that form the actual connective tissue.
 | `dossiers/07-directory-uncertain-names.md` | Cochran (Oklo), Kapadia (XN), and unresolved overlay fragments |
 | **`dossiers/08-leak-roster-expansion.md`** | **second-degree web: ~80 leak-roster names not in the video — finance, tech, politics/law, foreign, academics, media** |
 | `network.json` / `network.md` / `network.dot` | the socioeconomic graph (**325 nodes, 417 edges**) |
+| **`LEGAL_AND_FINANCIAL_FILINGS.md`** | **SEC investment/ownership filings, litigation index, OGE disclosures, and public Form 990 financials** |
+| `foundations/<slug>/` | nonprofit Form 990 bundles (revenue/assets/officers) for ~25 network foundations |
 | `entities/<slug>/` | per-entity public-record document bundles (brief + raw JSON) |
 
 ## The network in one paragraph

@@ -1,6 +1,6 @@
 # Research brief: Galaxy Digital
 
-*type: entity · pulled: 2026-06-28T07:15:55Z*
+*type: entity · pulled: 2026-06-28T15:47:32Z*
 
 ## 🏛️  U.S. Federal Register (last 30 days)
 _0 item(s)_
@@ -8,9 +8,21 @@ _0 item(s)_
 (no hits)
 
 ## 📄 SEC EDGAR filings (last 365 days)
-_0 item(s)_
+_25 item(s)_
 
-(no hits)
+- **[2026-02-26]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-21.1](https://www.sec.gov/Archives/edgar/data/1859392/000185939226000016/0001859392-26-000016-index.htm)
+- **[2026-02-26]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-21.1](https://www.sec.gov/Archives/edgar/data/1859392/000185939226000019/0001859392-26-000019-index.htm)
+- **[2026-02-26]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-21.1](https://www.sec.gov/Archives/edgar/data/1859392/000185939226000017/0001859392-26-000017-index.htm)
+- **[2026-03-31]** [Themes ETF Trust  (CIK 0001976322) — NPORT-P](https://www.sec.gov/Archives/edgar/data/1976322/000089418926010229/0000894189-26-010229-index.htm)
+- **[2025-10-21]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-99.2](https://www.sec.gov/Archives/edgar/data/1859392/000185939225000073/0001859392-25-000073-index.htm)
+- **[2026-04-28]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-99.2](https://www.sec.gov/Archives/edgar/data/1859392/000185939226000047/0001859392-26-000047-index.htm)
+- **[2025-09-18]** [Forward Industries, Inc.  (FORD)  (CIK 0000038264) — SCHEDULE 13D](https://www.sec.gov/Archives/edgar/data/38264/000119312525207730/0001193125-25-207730-index.htm)
+- **[2026-02-03]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-99.2](https://www.sec.gov/Archives/edgar/data/1859392/000185939226000009/0001859392-26-000009-index.htm)
+- **[2026-03-31]** [Tidal Trust II  (CIK 0001924868) — NPORT-P](https://www.sec.gov/Archives/edgar/data/1924868/000089418926011006/0000894189-26-011006-index.htm)
+- **[2025-12-23]** [Themes ETF Trust  (CIK 0001976322) — NPORT-P](https://www.sec.gov/Archives/edgar/data/1976322/000089418925018798/0000894189-25-018798-index.htm)
+- **[2025-08-05]** [Galaxy Digital Inc.  (GLXY)  (CIK 0001859392) — EX-99.2](https://www.sec.gov/Archives/edgar/data/1859392/000185939225000032/0001859392-25-000032-index.htm)
+- **[2025-12-30]** [Tidal Trust II  (CIK 0001924868) — NPORT-P](https://www.sec.gov/Archives/edgar/data/1924868/000089418925020043/0000894189-25-020043-index.htm)
+- _… and 13 more in the data bundle_
 
 ## ⚖️  Court opinions (last 365 days)
 _11 item(s)_
