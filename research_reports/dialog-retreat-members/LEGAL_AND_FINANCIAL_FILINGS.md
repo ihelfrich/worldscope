@@ -64,9 +64,31 @@ for him (he is a non-officer Meta director). *(Corrects an earlier premise.)*
 appears only inside third-party documents (e.g., the **Cerebras** S-1, as a reported
 investor), never as a Section 16 filer.
 
-*(Further trails — Henry Kravis/KKR, Joe Lonsdale/8VC, Jim Breyer/Circle (CRCL),
-Micky Malka/Robinhood (HOOD), Barry Silbert/DCG — are captured as raw EDGAR pulls
-under the respective `entities/<slug>/raw/edgar.json`.)*
+**Henry Kravis / KKR** — KKR's 13F filer is *Kohlberg Kravis Roberts & Co. L.P.*
+(CIK **0001399770**), distinct from public-co KKR & Co. Inc. (CIK 0001404912).
+Q1 2026 13F-HR (filed 2026-05-15): **$5.35B, 96 positions** (top: BrightSpring
+$1.78B, Henry Schein $1.15B, BridgeBio $985M). **Kravis** files Form 4s personally
+(CIK **0001081714**; 360 lifetime) — latest 2026-06-05 sold **14,669,771
+BrightSpring shares @ $58.45**.
+
+**Joe Lonsdale / 8VC** — 8VC *does* file a 13F (8VC GP I LLC, CIK **0001667766**):
+Q1 2026 = **$39.6M, a single position** (Joby Aviation, JOBY). Lonsdale (CIK
+0001832823) filed **SC 13G/A** on **Senti Biosciences** (~1.0%, joint with 8VC
+funds). No Palantir 13D/G under his CIK.
+
+**Barry Silbert / DCG** — DCG files **no** 13F/13D/13G under its own name. Silbert
+(CIK **0001976415**) files **Form 144** (proposed restricted-stock sales) — **119+**
+on file, all on Grayscale crypto trusts (GTAO/FILG/GSOL/GDLC…), latest 2026-05-07.
+
+**Jim Breyer / Breyer Capital** (CIK **0001537061**) — files 13G, not 13F. **Circle
+(CRCL)** post-IPO: **SC 13G 2025-08-13 = ~6.3% (13,331,954 sh)**, reduced to **~3.0%**
+(13G/A 2026-02-17). Reporting persons: James Breyer, Breyer Capital, the Breyer 2005
+Trust.
+
+**Micky Malka / Ribbit** — Ribbit Management Co. (CIK **0001836733**) Q1 2026 13F =
+**$1.68B, 16 positions**: Nu Holdings $424M, Figure $382M, **Robinhood $225M**,
+**Coinbase $129M**, Block $86M. **Robinhood (HOOD) SC 13G** via affiliated *Bullfrog
+Capital* (Malka a reporting person): 13G/A 2024-11-14 = **14,284,835 sh, 1.9%**.
 
 ### Institutional holdings (Form 13F-HR)
 
