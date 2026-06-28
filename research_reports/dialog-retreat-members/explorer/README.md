@@ -37,6 +37,25 @@ event-type **chips** filter globally. **Search** (top-left) jumps to any node.
   legal name — its evidence lives on the connected company/fund node.
 - Geographic placement is by **primary affiliation**, not residence.
 
+## Money-flow view (`money.html`)
+
+A second page (linked top-left as **"Money flows →"**) traces **documented dollar
+flows** as a Sankey, across four toggleable categories:
+
+- **political** — donor → PAC → candidate (a16z/Brockman/Lonsdale → Leading the
+  Future → Bores [opposed, lost] / Torres / Menendez …), FEC/reported.
+- **investment** — LP → fund → portfolio (Soros → Key Square; PIF → Affinity;
+  KKR/Ribbit/8VC/RenTech/Founders Fund → their holdings), from 13Fs & rounds.
+- **philanthropy** — gift → trust → grantee (Barre Seid → Marble Freedom Trust;
+  Thiel Foundation → Emergent Ventures).
+- **enforcement / exits** — settlements (Galaxy → NY AG; Genesis → victims fund)
+  and insider stock sales (Thiel/Kravis → public market), from Form 4/144.
+
+Hover a flow for the **amount + the filing/report it comes from + a confidence
+tag**; click a node to isolate its inflows/outflows with source links. **Dashed
+links = amount not publicly disclosed** (rendered at uniform width, never
+invented). Rebuild with `python tools/dialog_build_money.py`.
+
 ## Provenance & caveats
 
 - **Public-record data only.** Built from `network.json`, the `entities/` and

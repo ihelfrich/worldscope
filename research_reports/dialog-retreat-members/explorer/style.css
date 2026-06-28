@@ -64,3 +64,22 @@ svg .label{fill:var(--mut);font-size:9px;pointer-events:none}
 .tl-bar{cursor:crosshair}
 .tl-axis text{fill:var(--mut);font-size:9px}.tl-axis line,.tl-axis path{stroke:var(--line)}
 .tl-brush .selection{fill:var(--accent);fill-opacity:.12;stroke:var(--accent)}
+
+/* --- nav + money/sankey view --- */
+.navlink{color:var(--accent);text-decoration:none;font-size:12px;padding:4px 8px;border:1px solid var(--line);border-radius:6px}
+.navlink:hover{border-color:var(--accent)}
+#topbar .navlink{margin-left:4px}
+#moneyGrid{display:grid;grid-template-columns:1fr 360px;gap:8px;padding:8px;height:calc(100vh - 116px)}
+#sankey{flex:1;width:100%}
+.snode rect{stroke:#0d1117;stroke-width:.5px;cursor:pointer}
+.snode text{fill:var(--ink);font-size:10px;pointer-events:none}
+.slink{fill:none;stroke-opacity:.32}
+.slink.undisc{stroke-dasharray:3 3;stroke-opacity:.5}
+.slink:hover{stroke-opacity:.7}
+.sankey-dim{opacity:.08}
+.tip{position:fixed;pointer-events:none;background:#0b0f16;border:1px solid var(--line);
+  border-radius:6px;padding:6px 9px;font-size:11px;max-width:300px;opacity:0;transition:opacity .1s;z-index:2000}
+.tip b{color:var(--accent)}
+.flowrow{display:flex;gap:8px;border-left:2px solid var(--line);padding:3px 6px;margin:2px 0;font-size:12px}
+.flowrow .amt{flex:0 0 70px;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.flowrow a{color:var(--accent);text-decoration:none}
