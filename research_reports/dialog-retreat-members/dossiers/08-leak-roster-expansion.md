@@ -164,4 +164,23 @@ funds, co-founders, business partners. No private contact data.*
 - **Dan Schulman** — CEO of **Verizon** (from Oct 2025); **former PayPal CEO (2014–2023)**; chairs JUST Capital; Cisco board; Valor Capital. **Bridge:** PayPal institutional root (led it post-founders); fintech/crypto VC via Valor. *(Not reported as a roster member.)*
 - **Strauss Zelnick** — Chairman/CEO of **Take-Two Interactive**; founder of **ZMC (Zelnick Media Capital)**. **Bridge:** the gaming-exec cluster in the leak (Sarah **Bond**, Manuel **Bronstein**); ZMC PE/media network; family tie via wife Wendy Belzberg.
 
-*Section D (finance) is appended below as the final research batch completes.*
+## D. Finance / hedge funds / private equity
+
+> **Key intermediaries:** the **Meta/Facebook board** (Arnold + Andreessen now;
+> Thiel + Breyer historically), the **Brex board** (Malka + Duckett), **a16z
+> co-investment** in OpenAI alongside Founders Fund, **Narya Capital** (Andreessen +
+> Thiel both backed it), a **Fed-advisory cluster** (Jain NY Fed, Karniol-Tambour
+> Dallas Fed, Kroszner ex-Governor), CFR, and Columbia Business School.
+
+- **Henry Kravis** — co-founder/Co-Exec-Chairman, **KKR** (~$758B AUM); boards of Axel Springer, Catalio; CFR; Columbia Business School overseer. Wife **Marie-Josée Kravis** (MoMA president). KKR's ~$50B AI data-center/power JV sits adjacent to the OpenAI/Stargate compute buildout. No direct personal Thiel co-investment found.
+- **John Arnold** — founder/Co-Chair, **Arnold Ventures**; ex-Centaurus (energy hedge fund); **Meta board director (2024)**. **Direct roster pairing:** shares the **Meta board with Marc Andreessen** — the one confirmed finance-roster one-to-one link. Breakthrough Energy co-investor (Gates/Bezos/Doerr/Khosla).
+- **Pete Briger** — Exec Chairman, **Fortress Investment Group** (co-founded 1998; ex-Goldman Special Situations); director of **Strategy/MicroStrategy** (Saylor's bitcoin-treasury firm); part-owner of the SF 49ers; CFR/CNAS. Fortress co-founder **Mike Novogratz** (Galaxy) is a roster-adjacent tie.
+- **Peter Brown** — CEO/Chair, **Renaissance Technologies** (~$89B; Medallion). PhD under Geoffrey Hinton; ex-IBM (statistical MT with Robert Mercer). **Family node:** spouse is roster-mate **Peggy Hamburg** (ex-FDA) — links to the Simons Foundation / Math for America cluster. Indirect Brown→Mercer historical thread (no shared politics evidenced).
+- **Bob Jain** — founder, **Jain Global**; ex-Co-CIO of **Millennium** (returning to an exclusive Millennium mandate 2026); Harvard Management Co. & Cornell boards; **NY Fed Investor Advisory Committee**. Patron: Izzy Englander. No direct Thiel tie.
+- **Micky Malka** — founder, **Ribbit Capital** (fintech/crypto VC); **Robinhood** & **MercadoLibre** boards. **Two roster bridges:** 8+ shared deals with **Marc Andreessen/a16z** (Coinbase, Robinhood, Affirm, 2026 Morpho), and the **Brex board link to Thasunda Brown Duckett**. PayPal-mafia adjacency via Affirm (Levchin)/Coinbase cap tables; LP Sheryl Sandberg.
+- **Karen Karniol-Tambour** — Co-CIO, **Bridgewater Associates**; Atlantic Council & Truman Center boards; **Dallas Fed advisory council**; WEF YGL. *(Resolves the video's "K. K. Tamb—" overlay read.)* No direct Thiel tie; connects via the Fed-advisory and Davos circuits.
+- **Scott Stephenson** — ex-Chairman/CEO, **Verisk Analytics**; boards of PSEG, Definitive Healthcare, ZestyAI, Hi Marley. The most network-isolated roster member relative to the Thiel orbit; insurtech-AI board cluster is his main connective tissue.
+- **Thasunda Brown Duckett** — President/CEO, **TIAA**; Nike & **Brex** boards; ex-JPMorgan (mentor Jamie Dimon). **Roster bridge:** the **Brex board to Micky Malka/Ribbit**.
+- **Marc Andreessen** — co-founder/GP, **a16z** (~$90B; record >$15B raise Jan 2026); **Meta** & **Coinbase** boards; 2026 PCAST. **Deep Thiel orbit:** co-backed **JD Vance's Narya Capital** with Thiel (2019); a16z co-invests with **Founders Fund** in **OpenAI** (and Anthropic/Inflection); shared Meta board with **Arnold**; strongest a16z co-investment tie to **Malka/Ribbit**.
+- **Jim Breyer** — founder/CEO, **Breyer Capital**; ex-Accel managing partner who **led Facebook's 2005 Series A** — the historical boardroom bridge to **Peter Thiel** (Facebook's first angel/board member 2005–2013) and **Andreessen**. Blackstone board; lead director of **Circle** (crypto); founding Stanford HAI advisory board; ex-Harvard Corporation.
+- **Randy Kroszner** — UChicago Booth professor; **ex-Federal Reserve Governor**; Senior Advisor at Patomak Global Partners; Paulson Institute board; ex-Bank of England FPC. The roster's regulatory/academic anchor — outside the venture orbit; Fed-advisory overlap with **Jain** and **Karniol-Tambour**.

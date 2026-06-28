@@ -53,12 +53,20 @@ that form the actual connective tissue.
 | `dossiers/05-academics-authors.md` | Cowen, Grant, Athey, Haidt, Klein, Harris, Cialdini, K. Scott, Stephens, Levin, Thompson, Warren |
 | `dossiers/06-money-politics-ltf.md` | Leading the Future PAC, aimoneywatch.org, Bores + endorsed candidates |
 | `dossiers/07-directory-uncertain-names.md` | Cochran (Oklo), Kapadia (XN), and unresolved overlay fragments |
-| `network.json` / `network.md` / `network.dot` | the socioeconomic graph |
+| **`dossiers/08-leak-roster-expansion.md`** | **second-degree web: ~80 leak-roster names not in the video — finance, tech, politics/law, foreign, academics, media** |
+| `network.json` / `network.md` / `network.dot` | the socioeconomic graph (**325 nodes, 417 edges**) |
 | `entities/<slug>/` | per-entity public-record document bundles (brief + raw JSON) |
 
 ## The network in one paragraph
 
-The graph has a single dominant human hub: **Peter Thiel** (degree 17, second
+*(Updated after the second-degree expansion: the graph now holds **325 nodes and
+417 edges**. Thiel's degree rose to **23**; new connector nodes emerged —
+**Micky Malka** (Ribbit) bridging the a16z and Brex board interlocks, **Matt
+Cohler** linking early-Facebook to the LinkedIn/PayPal-Mafia founding team, and
+the **Meta board** (Arnold + Andreessen) and **Brex board** (Malka + Duckett) as
+direct intra-roster pairings.)*
+
+The graph has a single dominant human hub: **Peter Thiel** (degree 23, second
 only to the Dialog node itself), radiating through three structures he built —
 **PayPal** (the "Mafia": Musk, Hoffman, Sacks, and Thiel himself), **Founders
 Fund / Clarium / Thiel Capital** (which reach Oscar Health, Stripe, Facebook,
@@ -82,14 +90,16 @@ hub ranking and per-person adjacency.
 
 | Rank | Node | Type | Degree |
 |---|---|---|---|
-| 1 | Dialog retreat | org (satirical hub) | 22 |
-| 2 | **Peter Thiel** | person | 17 |
-| 3 | Leading the Future (PAC) | pac | 11 |
-| 4 | OpenAI | company | 10 |
-| 5 | Reid Hoffman | person | 8 |
-| 5 | Joe Lonsdale | person | 8 |
-| 7 | Elon Musk | person | 7 |
-| 8 | Nicolas Berggruen / Wences Casares / PayPal | — | 6 |
+| 1 | Dialog retreat (roster hub) | org | 101 |
+| 2 | **Peter Thiel** | person | 23 |
+| 3 | OpenAI | company | 15 |
+| 4 | Leading the Future (PAC) | pac | 11 |
+| 5 | Joe Lonsdale / Elon Musk / Founders Fund | — | 9 |
+| 8 | Reid Hoffman | person | 8 |
+| 9 | PayPal / **Micky Malka** | — | 7 |
+
+*(The Dialog node's degree ≈ the number of named roster members; it is the
+roster index, not evidence of coordination. Thiel is the dominant **human** hub.)*
 
 ## Reading guide & caveats
 

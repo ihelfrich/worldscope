@@ -1,34 +1,34 @@
 # Dialog network — adjacency & hub ranking
 
-_166 nodes · 184 edges · public-record / public-reporting ties only_
+_325 nodes · 417 edges · public-record / public-reporting ties only_
 
 ## Most-connected nodes (degree centrality)
 
-- **Dialog retreat (invite-only, off-the-record)** (org) — degree 22
-- **Peter Thiel** (person) — degree 17
+- **Dialog retreat (invite-only, off-the-record)** (org) — degree 101
+- **Peter Thiel** (person) — degree 23
+- **OpenAI** (company) — degree 15
 - **Leading the Future (pro-AI super PAC, ~$125M)** (pac) — degree 11
-- **OpenAI** (company) — degree 10
+- **Joe Lonsdale** (person) — degree 9
+- **Elon Musk** (person) — degree 9
+- **Founders Fund** (fund) — degree 9
 - **Reid Hoffman** (person) — degree 8
-- **Joe Lonsdale** (person) — degree 8
-- **Elon Musk** (person) — degree 7
+- **PayPal (the 'Mafia' origin)** (company) — degree 7
+- **Micky Malka** (person) — degree 7
 - **Nicolas Berggruen** (person) — degree 6
 - **Wences Casares** (person) — degree 6
-- **PayPal (the 'Mafia' origin)** (company) — degree 6
+- **Facebook / Meta** (company) — degree 6
+- **Chamath Palihapitiya** (person) — degree 6
+- **Eric Schmidt** (person) — degree 6
+- **Ali Jehangir Siddiqui** (person) — degree 6
+- **Lawrence Summers** (person) — degree 6
+- **Marc Andreessen** (person) — degree 6
+- **Harvard University** (org) — degree 6
 - **Bryan Johnson** (person) — degree 5
 - **Palantir Technologies** (company) — degree 5
-- **Chamath Palihapitiya** (person) — degree 5
-- **Greg Brockman** (person) — degree 4
-- **Tyler Cowen** (person) — degree 4
-- **Ezra Klein** (person) — degree 4
-- **Bret Stephens** (person) — degree 4
-- **Founders Fund** (fund) — degree 4
-- **Oscar Health** (company) — degree 4
-- **Microsoft** (company) — degree 4
-- **Sam Altman** (person) — degree 4
-- **Oklo** (company) — degree 4
-- **Robert Rubin** (person) — degree 4
-- **Charlie Songhurst** (person) — degree 3
-- **Manuel Bronstein** (person) — degree 3
+- **Microsoft** (company) — degree 5
+- **Robert Rubin** (person) — degree 5
+- **Thrive Capital** (fund) — degree 5
+- **Jim Breyer** (person) — degree 5
 
 ## Adjacency by person
 
@@ -50,6 +50,12 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - ← co-invested (Ezetap) → **Nicolas Berggruen** — _with Chamath, Sacks_
 - ← longevity-funding theme → **Bryan Johnson** — _shared interest_
 - interview subject → **The Free Press (Bari Weiss)** — _Weiss post-2024_
+- backed → **Narya Capital** — _Vance's fund_
+- first board seat → **Facebook / Meta** — _2005-13_
+- co-launched → **Erebor (bank)**
+- co-founded → **Mithril Capital**
+- ← friend of → **Garry Kasparov** — _Palantir Night Live_
+- early guest → **The Tim Ferriss Show**
 
 ### Auren Hoffman (Dialog co-founder)
 - co-founded → **Dialog retreat (invite-only, off-the-record)** — _Dialog co-founder_
@@ -65,6 +71,8 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - founder → **xAI / X** — _X merged in_
 - co-founder → **Neuralink**
 - co-founded (2015) → **OpenAI** — _now litigation adversary_
+- ← works for → **Shivon Zilis** — _Neuralink/xAI/Tesla_
+- ← commissioned by → **Tim Urban** — _Wait But Why_
 
 ### Joe Lonsdale
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
@@ -75,6 +83,7 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - founded → **Cicero Institute**
 - co-founded → **Epirus** — _defense_
 - mega-donor → **Leading the Future (pro-AI super PAC, ~$125M)** — _pro-AI PAC_
+- co-founder → **University of Austin (UATX)**
 
 ### Reid Hoffman
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
@@ -112,6 +121,7 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
 - product exec → **Sierra**
 - brief VP Product (2024) → **OpenAI** — _unverified_
+- ← gaming-exec peer → **Strauss Zelnick** — _leak cluster_
 
 ### Caroline Cochran
 - co-founder/COO → **Oklo**
@@ -166,11 +176,13 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
 - ambassador; daughter of → **Prince Bandar bin Sultan**
 - envoy for → **Saudi PIF / Vision Fund orbit** — _Saudi tech/VC capital_
+- ← co-listed → **Turki Al Faisal Al Saud** — _Saudi_
 
 ### Mike Novogratz
 - founder/CEO → **Galaxy Digital**
 - ex-principal → **Fortress Investment Group**
 - ex-partner → **Goldman Sachs**
+- co-founded → **Fortress Investment Group**
 
 ### Barry Sternlicht
 - founder/CEO → **Starwood Capital**
@@ -180,6 +192,7 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - ex-co-chair → **Goldman Sachs**
 - ex-director → **Citigroup**
 - senior counselor → **Centerview Partners**
+- ← family → **Gretchen Rubin** — _father-in-law_
 
 ### Nicolas Berggruen
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
@@ -212,6 +225,7 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - early exec → **Facebook / Meta**
 - All-In co-host with → **David Sacks**
 - co-host → **All-In podcast**
+- earliest backer → **Groq**
 
 ### David Sacks
 - PayPal alum → **PayPal (the 'Mafia' origin)** — _PayPal Mafia_
@@ -240,6 +254,8 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 ### Joshua Kushner
 - co-founder → **Oscar Health**
 - founder → **Thrive Capital**
+- ← brother of → **Jared Kushner**
+- founder → **Thrive Capital**
 
 ### Scott Cook
 - co-founder/chair → **Intuit**
@@ -251,6 +267,9 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 
 ### Stan McChrystal
 - founder/CEO → **McChrystal Group**
+
+### Peggy Hamburg
+- ← married to → **Peter Brown**
 
 ### Demet Mutlu
 - founder/CEO → **Trendyol**
@@ -265,6 +284,7 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
 - professor → **Wharton (UPenn)**
 - ← intellectual tie → **Robert Cialdini**
+- co-curator → **Next Big Idea Club**
 
 ### Susan Athey
 - named-in (claim/unverified) → **Dialog retreat (invite-only, off-the-record)** — _video's leaked roster_
@@ -336,3 +356,399 @@ _166 nodes · 184 edges · public-record / public-reporting ties only_
 
 ### Sam Liccardo
 - ← endorsed → **Leading the Future (pro-AI super PAC, ~$125M)**
+
+### JD Vance (VP; Thiel protégé)
+- founded → **Narya Capital**
+- ← Yale Law friend of → **Dan Driscoll**
+
+### Trae Stephens (Anduril; Founders Fund)
+- co-founder → **Anduril Industries**
+- partner → **Founders Fund**
+
+### Wendy Schmidt
+- ← co-founder (philanthropy) → **Eric Schmidt**
+
+### Shahid Khaqan Abbasi
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Airblue**
+
+### Marc Andreessen
+- co-founder → **Andreessen Horowitz (a16z)**
+- director → **Meta board of directors**
+- board → **Coinbase**
+- co-backed → **Narya Capital** — _with Thiel_
+- ← Meta-board peer → **John Arnold** — _direct roster pairing_
+- ← a16z co-investor → **Micky Malka** — _8+ shared deals_
+
+### John Arnold
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Arnold Ventures**
+- director → **Meta board of directors**
+- Meta-board peer → **Marc Andreessen** — _direct roster pairing_
+
+### Peter Attia
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- host → **The Tim Ferriss Show** — _reciprocal_
+- domain peer → **Atul Gawande** — _longevity_
+
+### Ida Auken
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Scott Belsky
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- partner → **A24**
+
+### Preet Bharara
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder → **Vox Media** — _CAFE→Vox_
+
+### Elizabeth Blackburn
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- Nobel biologist → **Harvard University** — _(UCSF/Salk)_
+
+### Sarah Bond
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- president of Xbox → **Microsoft**
+- ← gaming-exec peer → **Strauss Zelnick** — _leak cluster_
+
+### Scooter Braun
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ex-CEO → **HYBE America**
+
+### Jim Breyer
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Breyer Capital**
+- ex-partner → **Accel (Facebook 2005 Series A)**
+- board → **Blackstone**
+- lead director → **Circle**
+
+### Pete Briger
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- exec chairman → **Fortress Investment Group**
+- director → **Strategy / MicroStrategy** — _Saylor_
+
+### Josh Brolin
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Peter Brown
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Renaissance Technologies**
+- married to → **Peggy Hamburg**
+
+### Thasunda Brown Duckett
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **TIAA**
+- board → **Brex (board interlock)**
+- ← Brex-board peer → **Micky Malka** — _direct roster pairing_
+
+### Sophia Bush
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Cesar Carvalho
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder/CEO → **Wellhub (Gympass)**
+
+### Julian Castro
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Latino Community Foundation**
+
+### Matt Clifford
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- chair → **Entrepreneur First**
+- chair → **ARIA (UK R&D agency)**
+- investor → **Helsing (defense AI)**
+
+### Matt Cohler
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ex-GP → **Accel (Facebook 2005 Series A)**
+- early employee → **Facebook / Meta**
+- founding team → **LinkedIn** — _Hoffman's deputy_
+- board → **KKR**
+
+### Adam D'Angelo
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder/CEO → **Quora / Poe**
+- director → **OpenAI** — _board_
+
+### Mitch Daniels
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- interim president → **Purdue University**
+
+### Dan Driscoll
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- Yale Law friend of → **JD Vance (VP; Thiel protégé)**
+- Army Secretary → **Anduril Industries** — _procurement_
+
+### Charles Duhigg
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- featured author → **Next Big Idea Club**
+
+### Steve Ells
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Chipotle**
+
+### Niall Ferguson
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ← podcast tie → **Tim Ferriss**
+- co-founder → **University of Austin (UATX)** — _with Lonsdale_
+- fellow → **Hoover Institution (Stanford)**
+- columnist → **The Free Press (Bari Weiss)**
+
+### Tim Ferriss
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- host → **The Tim Ferriss Show**
+- podcast tie → **Niall Ferguson**
+
+### Atul Gawande
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ← domain peer → **Peter Attia** — _longevity_
+- professor → **Harvard University**
+- ex-CEO → **Haven (Amazon-BRK-JPM)**
+
+### Peter Goettler
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Cato Institute**
+
+### Tom Goldstein
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ← ex-Acting SG → **Neal Katyal** — _SCOTUS bar peer_
+
+### Joseph Gordon-Levitt
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Edge.org / Brockman literary agency** — _(HitRecord — creator platform)_
+
+### Jonathan Greenblatt
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Anti-Defamation League**
+
+### Yasmin Green
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ← led 2025 delegation w/ → **Ali Jehangir Siddiqui** — _Dialog→Pakistan_
+- CEO → **Google Jigsaw**
+
+### Gen. Alexus Grynkewich
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Himanshu Gulati
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Severin Hacker
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder/CTO → **Duolingo**
+- studied at → **Carnegie Mellon University**
+
+### Hallie Hoffman
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Rob Hur
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- DOJ alum → **Harvard University** — _elite-law node_
+
+### Bob Jain
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Jain Global**
+- ex-Co-CIO → **Millennium Management**
+- advisory → **Federal Reserve advisory councils** — _NY Fed_
+
+### Kaja Kallas
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Karen Karniol-Tambour
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- Co-CIO → **Bridgewater Associates**
+- advisory → **Federal Reserve advisory councils** — _Dallas Fed_
+- board → **Atlantic Council**
+
+### Garry Kasparov
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder/chair → **Renew Democracy Initiative / HRF**
+- friend of → **Peter Thiel** — _Palantir Night Live_
+
+### Neal Katyal
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ex-Acting SG → **Tom Goldstein** — _SCOTUS bar peer_
+
+### Tarō Kōno
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Henry Kravis
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder → **KKR**
+- married to → **Marie-Josée Kravis** — _MoMA_
+
+### Marie-Josée Kravis
+- ← married to → **Henry Kravis** — _MoMA_
+
+### Randy Kroszner
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- professor → **University of Chicago**
+- advisor → **Patomak Global Partners**
+- ex-governor → **Federal Reserve advisory councils**
+
+### Jared Kushner
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder/CEO → **Affinity Partners**
+- director → **QXO, Inc.**
+- brother of → **Joshua Kushner**
+
+### Isaac Lee
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ex-exec → **HYBE America**
+
+### Howie Liu
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder/CEO → **Airtable**
+
+### Tom Lue
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- GC → **Google DeepMind**
+
+### Palmer Luckey
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder/CEO → **Anduril Industries**
+- co-founder → **Erebor (bank)** — _with Thiel_
+- founded → **Oculus (→ Meta)**
+
+### Micky Malka
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Ribbit Capital**
+- board → **Robinhood**
+- board → **Brex (board interlock)**
+- early investor → **Coinbase**
+- Brex-board peer → **Thasunda Brown Duckett** — _direct roster pairing_
+- a16z co-investor → **Marc Andreessen** — _8+ shared deals_
+
+### Souad Mekhennet
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- correspondent → **NYT Opinion** — _(WaPo)_
+
+### Roger Myerson
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- professor → **University of Chicago**
+- member → **Council on Foreign Relations**
+
+### Jim O'Neill
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- MD → **Mithril Capital**
+- MD → **Thiel Capital**
+- co-founder → **Thiel Fellowship**
+
+### Benj Pasek
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Daniel Pink
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-curator → **Next Big Idea Club**
+
+### Steven Pinker
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- professor → **Harvard University**
+- salon member → **Edge.org / Brockman literary agency**
+
+### Jared Polis
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder → **Founders Fund** — _(Techstars/VC milieu — not FF; peripheral)_
+
+### Jonathan Ross
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **Groq**
+- joined → **Nvidia** — _2025_
+
+### Gretchen Rubin
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- podcast guest → **The Tim Ferriss Show**
+- family → **Robert Rubin** — _father-in-law_
+
+### Sandro Salsano
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Will Scharf
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- staff secretary → **Harvard University** — _HLS node_
+
+### Eric Schmidt
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- Chair/CEO → **Relativity Space**
+- exec chair → **Steel Perlot**
+- founder → **Special Competitive Studies Project**
+- co-founder → **Google Jigsaw** — _ex-Google Ideas_
+- co-founder (philanthropy) → **Wendy Schmidt**
+
+### Dan Schulman
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Verizon**
+- ex-CEO → **PayPal (the 'Mafia' origin)** — _2014-23_
+
+### Drew Scott
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Michael Sellitto
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- global affairs → **Anthropic**
+
+### Pete Shadbolt
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- co-founder → **PsiQuantum**
+
+### Ali Jehangir Siddiqui
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- chairman → **JS Group / JS Bank**
+- board chair → **OnZero (data centers)**
+- board → **Atlantic Council**
+- led 2025 delegation w/ → **Simon Stevens (Lord Stevens)** — _Dialog→Pakistan_
+- led 2025 delegation w/ → **Yasmin Green** — _Dialog→Pakistan_
+
+### Simon Stevens (Lord Stevens)
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ← led 2025 delegation w/ → **Ali Jehangir Siddiqui** — _Dialog→Pakistan_
+- ex-president global health → **UnitedHealth (historical)**
+
+### Scott Stephenson
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- ex-CEO → **Verisk Analytics**
+
+### Ryan Stowers
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- exec director → **Charles Koch Foundation**
+
+### Lawrence Summers
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- professor → **Harvard University**
+- ex-board → **OpenAI** — _resigned 2025_
+- advisor → **Andreessen Horowitz (a16z)**
+- advisor → **Block (Square)**
+- advisor → **SandboxAQ**
+
+### John Townsend
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+
+### Tom Tugendhat
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- fellow → **Hudson Institute**
+
+### Turki Al Faisal Al Saud
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- founder → **King Faisal Foundation**
+- member → **World Economic Forum**
+- co-listed → **Reema bint Bandar Al Saud** — _Saudi_
+
+### Tim Urban
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- commissioned by → **Elon Musk** — _Wait But Why_
+
+### Nawaf Saud Nasir Al-Sabah
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- CEO → **Kuwait Petroleum Corp**
+
+### Strauss Zelnick
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- Chairman/CEO → **Take-Two Interactive**
+- founder → **ZMC (Zelnick Media Capital)**
+- gaming-exec peer → **Sarah Bond** — _leak cluster_
+- gaming-exec peer → **Manuel Bronstein** — _leak cluster_
+
+### Shivon Zilis
+- named-in (real leak) → **Dialog retreat (invite-only, off-the-record)** — _WIRED-verified roster_
+- exec → **Neuralink**
+- ex-board → **OpenAI** — _2018-23_
+- works for → **Elon Musk** — _Neuralink/xAI/Tesla_
