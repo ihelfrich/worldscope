@@ -1,0 +1,111 @@
+# Research brief: "Dialog" retreat — member network dossier
+
+*type: network-dossier · built by WORLDSCOPE research pipeline + analyst agents*
+
+## What this is
+
+A satirical news-style video by **@thomasvangenderen** ("Duke Silver",
+aimoneywatch.org in bio) claims a leaked member directory for **"Dialog,"** an
+invite-only, off-the-record retreat associated with Peter Thiel was exposed in
+the retreat website's source code. This report **evaluates every named person**,
+their **companies owned / founded / heavily invested in**, and their **known
+associates**, then assembles the **socioeconomic network** that connects them —
+including the intermediary entities (funds, PACs, boards, media, institutions)
+that form the actual connective tissue.
+
+> **Ground truth & guardrails.** All subjects are **public figures**; everything
+> here is **public-record / public-reporting OSINT** (corporate filings, board
+> rosters, FEC disclosures, court opinions, the Federal Register, published
+> reporting). No private/personal data. **"Dialog" is a real retreat** —
+> reportedly co-founded ~2006 by **Peter Thiel and Auren Hoffman** — but the
+> specific "source-code member leak," the per-person membership list, the dollar
+> figures, and the "roundtable topics" in the video are the **creator's
+> satirical claims and are treated as unverified** throughout. Where a claim *is*
+> independently real (the **Leading the Future** super PAC, the **Alex Bores**
+> race, the **Epstein/Lisa Randall** email motif), it is labeled as such.
+
+## How it was built
+
+1. **Seven analyst agents** profiled the ~55 named people in parallel clusters
+   (tech/PayPal, politicians, finance, corporate, academics, money-and-politics,
+   and uncertain overlay reads) → `dossiers/01..07`.
+2. **A document harvester** (`tools/dialog_pull_documents.py`) ran the WORLDSCOPE
+   research pipeline over **66 entities** (every principal + their key
+   companies/funds/PACs), pulling real public records into
+   `entities/<slug>/` — **1,058 documents**: **796 SEC EDGAR filings**, **167
+   court opinions** (CourtListener), **95 Federal Register actions**.
+3. **A network builder** (`tools/dialog_build_network.py`) encoded the documented
+   ties as a typed graph → `network.json` (166 nodes, 184 edges), `network.md`
+   (adjacency + hub ranking), and `network.dot` (Graphviz).
+
+## Files
+
+| Path | Contents |
+|---|---|
+| `dossiers/01-tech-paypal-ai.md` | Thiel, Musk, Lonsdale, Hoffman, Brockman, Kwon, Teller, Akhund, Songhurst, Bronstein |
+| `dossiers/02-politicians-officials.md` | Cruz, Booker, Himes, Bessent, Monaco, Moore, Norquist, Leo, Brand, Slaughter, Reema Al-Saud |
+| `dossiers/03-finance-pe-crypto.md` | Novogratz, Sternlicht, Rubin, Galperin, Chamath, Bryan Johnson, Berggruen, Silbert, Casares, Kapadia |
+| `dossiers/04-corporate-ceos.md` | Mohan, Narasimhan, Mutlu, Schlosser, Cook, Cannon-Brookes, McChrystal, Hamburg |
+| `dossiers/05-academics-authors.md` | Cowen, Grant, Athey, Haidt, Klein, Harris, Cialdini, K. Scott, Stephens, Levin, Thompson, Warren |
+| `dossiers/06-money-politics-ltf.md` | Leading the Future PAC, aimoneywatch.org, Bores + endorsed candidates |
+| `dossiers/07-directory-uncertain-names.md` | Cochran (Oklo), Kapadia (XN), and unresolved overlay fragments |
+| `network.json` / `network.md` / `network.dot` | the socioeconomic graph |
+| `entities/<slug>/` | per-entity public-record document bundles (brief + raw JSON) |
+
+## The network in one paragraph
+
+The graph has a single dominant human hub: **Peter Thiel** (degree 17, second
+only to the Dialog node itself), radiating through three structures he built —
+**PayPal** (the "Mafia": Musk, Hoffman, Sacks, and Thiel himself), **Founders
+Fund / Clarium / Thiel Capital** (which reach Oscar Health, Stripe, Facebook,
+Oklo via Altman's Thiel-LP'd **Hydrazine Capital**, and Eric Weinstein's bridge
+to Sam Harris), and **Palantir** (with protégé **Joe Lonsdale**, whose **8VC**
+spins out its own defense-tech orbit). The **OpenAI** cluster (Brockman, Altman,
+Kwon, Bret Taylor → Bronstein) is the second pole, fused to the first by the
+**Leading the Future** super PAC, to which both **Lonsdale and Brockman** are
+mega-donors alongside **a16z** — the money node that ties the tech principals to
+sitting politicians (**Cruz**, a longtime Thiel donee who chairs the Senate's AI
+jurisdiction; **Himes**, who *oversees* Palantir/OpenAI contracting; **Bessent**,
+whose Treasury writes the financial-data rules). Secondary clusters — Wall
+Street/crypto (Novogratz, Silbert, Casares, Berggruen, Chamath), the Stanford
+GSB economics axis (Athey ↔ Levin), NYT/Atlantic/Free Press media, and the
+conservative-money network (Leo, Norquist) — attach through shared boards (CFR,
+Aspen), shared platforms (All-In, Conversations with Tyler), and shared capital
+(Ezetap co-investors Thiel + Chamath + Berggruen). See `network.md` for the full
+hub ranking and per-person adjacency.
+
+## Top hubs (degree centrality)
+
+| Rank | Node | Type | Degree |
+|---|---|---|---|
+| 1 | Dialog retreat | org (satirical hub) | 22 |
+| 2 | **Peter Thiel** | person | 17 |
+| 3 | Leading the Future (PAC) | pac | 11 |
+| 4 | OpenAI | company | 10 |
+| 5 | Reid Hoffman | person | 8 |
+| 5 | Joe Lonsdale | person | 8 |
+| 7 | Elon Musk | person | 7 |
+| 8 | Nicolas Berggruen / Wences Casares / PayPal | — | 6 |
+
+## Reading guide & caveats
+
+- **Verified vs. claimed.** The strongest *documented* Thiel-orbit ties are
+  Lonsdale (protégé + Palantir + 8VC), Brockman (OpenAI + LTF donor), Schlosser
+  (Founders Fund-backed Oscar), Cochran (Oklo via Hydrazine), Cruz (donee),
+  Cowen (Thiel-Foundation-funded Emergent Ventures), and Berggruen/Chamath
+  (Ezetap co-investors). The *weakest* / outliers: Rubin, Sternlicht, Warren,
+  Cialdini, Mutlu, Teller — present in the satire but with little to no
+  documented tie to the core network.
+- **Several agents asserted a "WIRED-reported 222-name Dialog leak" as fact.**
+  That corroboration could **not** be independently confirmed here and is treated
+  as **unverified**; only the existence of the *Dialog retreat itself* is taken
+  as real.
+- **Transcript corrections surfaced:** Bret Stephens edits *SAPIR*, not *The Free
+  Press* (Bari Weiss's); the overlay "Caroline Cochra—" is **Oklo's** Caroline
+  Cochran (not Oxide); "Gourav Kapadia" is **Gaurav Kapadia** of XN. The
+  "N.S.N. Al-Sabah", "K.K. Tamb—", and the "Henry/Jared/Scott" fragments could
+  not be resolved and were deliberately not guessed.
+- **Document bundles** under `entities/` are raw pulls keyed by name; common
+  names (e.g., "Robert Rubin") may include same-name false positives — treat the
+  raw JSON as leads, not confirmed filings, until the named party is verified in
+  the document itself.
