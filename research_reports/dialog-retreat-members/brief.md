@@ -17,12 +17,15 @@ that form the actual connective tissue.
 > here is **public-record / public-reporting OSINT** (corporate filings, board
 > rosters, FEC disclosures, court opinions, the Federal Register, published
 > reporting). No private/personal data. **"Dialog" is a real retreat** —
-> reportedly co-founded ~2006 by **Peter Thiel and Auren Hoffman** — but the
-> specific "source-code member leak," the per-person membership list, the dollar
-> figures, and the "roundtable topics" in the video are the **creator's
-> satirical claims and are treated as unverified** throughout. Where a claim *is*
-> independently real (the **Leading the Future** super PAC, the **Alex Bores**
-> race, the **Epstein/Lisa Randall** email motif), it is labeled as such.
+> co-founded 2006 by **Peter Thiel and Auren Hoffman** — and **the data leak is
+> real too**: in June 2026 hacktivist **maia arson crimew** exposed an open
+> directory in dialog.org's source code; **WIRED verified** it. The actual
+> released roster (the **113-name Directory List** + a **~222-person 2026 retreat
+> registration**) is documented in **`LEAK_actual_names.md`**. What remains the
+> *video's* satirical dramatization are the specific dollar figures and
+> "roundtable topics"; those stay flagged. Other independently-real elements (the
+> **Leading the Future** super PAC, the **Alex Bores** race, the **Epstein/Lisa
+> Randall** email motif) are labeled as such.
 
 ## How it was built
 
@@ -42,6 +45,7 @@ that form the actual connective tissue.
 
 | Path | Contents |
 |---|---|
+| **`LEAK_actual_names.md`** | **the real leak: full 113-name Directory List + 222-registrant names** |
 | `dossiers/01-tech-paypal-ai.md` | Thiel, Musk, Lonsdale, Hoffman, Brockman, Kwon, Teller, Akhund, Songhurst, Bronstein |
 | `dossiers/02-politicians-officials.md` | Cruz, Booker, Himes, Bessent, Monaco, Moore, Norquist, Leo, Brand, Slaughter, Reema Al-Saud |
 | `dossiers/03-finance-pe-crypto.md` | Novogratz, Sternlicht, Rubin, Galperin, Chamath, Bryan Johnson, Berggruen, Silbert, Casares, Kapadia |

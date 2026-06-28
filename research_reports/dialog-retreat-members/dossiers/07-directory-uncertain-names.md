@@ -3,6 +3,12 @@
 *These names were read off a blurry moving on-screen overlay. Confidence is
 flagged per entry; obscured first-name fragments are deliberately NOT guessed.*
 
+> **UPDATE — resolved by the real leak.** The authoritative 113-name Directory
+> List (see `../LEAK_actual_names.md`) confirms two reads left open below:
+> **"K. K. Tamb—" = Karen Karniol-Tambour** (Co-CIO, Bridgewater) and
+> **"N. S. N. Al-Sabah" = Nawaf Saud Nasir Al-Sabah** (CEO, Kuwait Petroleum).
+> Caroline Cochran (Oklo) and Gaurav Kapadia (XN) are likewise confirmed.
+
 ### Gaurav Kapadia (overlay: "Gourav Kapadia") — HIGH confidence
 → See **Dossier 03 (Finance)** for the full profile. Founder/CEO of hedge fund
 **XN LP** (~$7.4B AUM, founded 2018); ex-co-founder of **Soroban Capital**; earlier
