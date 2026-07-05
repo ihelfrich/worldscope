@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-05
 record_count: 575
-new_today: 513
+new_today: 516
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-513 new of 575 total items today.
+516 new of 575 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-07-05*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
