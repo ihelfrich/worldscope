@@ -3,13 +3,13 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-06
 record_count: 108
-new_today: 46
+new_today: 47
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-46 new of 108 total items today.
+47 new of 108 total items today.
 
 - **NEW**  [[OFAC] Counter Narcotics Designations; Counter Terrorism Designations and Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-01*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTRURVT0dId2tkcDlhY0s3WHB5TUZON2E2RVpNQk1KWXBkanN3LWp2TEVoNkpZdzQ1Smlka1Q3cF9tV0dESGlSdUVwY3JkWHJVanNSMzZUcm5pMlluTEE?oc=5" target="_blank">Counter Narcotics Designations; Counter Terrorism Designations and Designation U

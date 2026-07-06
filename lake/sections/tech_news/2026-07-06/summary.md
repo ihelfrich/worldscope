@@ -27,6 +27,9 @@ In a proof of concept, they reconstructed a signed-in user'
 Their strongest trick slipped p
 - **NEW**  [[Cybersecurity Dive] The security leaders defining the next decade aren’t in CISO seats yet](https://www.cybersecuritydive.com/spons/the-security-leaders-defining-the-next-decade-arent-in-ciso-seats-yet/824263/) — *2026-07-06*
   > The first recognition program for the security leaders who will define the future of cybersecurity.
+- **NEW**  [[Schneier on Security] France to Stop Certifying Non-Quantum-Safe Encryption](https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html) — *2026-07-06*
+  > France is accelerating its transition to post-quantum encryption:
+France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant encryption, a move that will force government bodies and critical operators to shift 
 - **NEW**  [[The Register] Secure Unix ancestor KSOS did type safety before Rust made it cool](https://www.theregister.com/os-platforms/2026/07/06/secure-unix-ancestor-ksos-did-type-safety-before-rust-made-it-cool/5266458) — *2026-07-06*
   > Modula-based source code resurfaces after nearly four decades
 - **NEW**  [[The Register] Insert token to continue, says AI. Yeah, about that...](https://www.theregister.com/columnists/2026/07/06/insert-token-to-continue-says-ai-yeah-about-that/5266319) — *2026-07-06*
@@ -37,6 +40,10 @@ Their strongest trick slipped p
   > Zipped just 800m past Asteroid Torifune as part of very extended mission
 - **NEW**  [[The Register] Zombie ‘who owns Unix?’ lawsuit comes alive again](https://www.theregister.com/os-platforms/2026/07/06/zombie-who-owns-unix-lawsuit-comes-alive-again/5266761) — *2026-07-06*
   > SCO's legal successor Xinuos asks legal brains to let it bite IBM over ancient license and copyright claims
+- **NEW**  [[Computer Weekly] Middle East urged to prioritise prevention as cyber workforce gap hits 300,000](https://www.computerweekly.com/news/366645533/Middle-East-urged-to-prioritize-prevention-as-cyber-workforce-gap-hits-300000) — *2026-07-06*
+  > &lt;p&gt;The Middle East’s &lt;a href="https://www.computerweekly.com/news/366642842/AI-threats-push-Middle-East-CISOs-towards-identity-first-security" target="_blank" rel="noopener"&gt;cyber security&lt;/a&gt; workforce shortage is deepening at a time when organisations are acce
+- **NEW**  [[Computer Weekly] Datacentre dive: Inside nLighten’s Bristol edge datacentre](https://www.computerweekly.com/feature/Datacentre-dive-Inside-nlightens-Bristol-edge-datacentre) — *2026-07-06*
+  > &lt;p&gt;It’s the last cool morning before the most recent heatwave settled over the UK. It’s grey and a little close. My lodgings sit on the edge of Bristol city centre, where the Luftwaffe’s best efforts, then de-industrialisation and the demise of empire, mark the urban fabric
 - **NEW**  [[Computer Weekly] Tracking AI in the supply chain](https://www.computerweekly.com/feature/Tracking-AI-in-the-supply-chain) — *2026-07-06*
   > &lt;p&gt;&lt;a href="https://www.techtarget.com/sustainability/tip/Supply-chain-traceability-software-to-consider"&gt;Supply chains networks&lt;/a&gt; span manufacturers, warehouses, shipping lines, trucking fleets, retailers and customers. Recent disruptions ranging from Covid-1
 - **NEW**  [[Computer Weekly] CW@60: A career in data - it's all about the people that you meet](https://www.computerweekly.com/feature/CW60-A-career-in-data-its-all-about-the-people-that-you-meet) — *2026-07-06*
@@ -64,13 +71,5 @@ Their strongest trick slipped p
   > These may be the last days of Amazon’s Mechanical Turk.
 - **NEW**  [[BleepingComputer] JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/) — *2026-07-04*
   > Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]
-- **NEW**  [[The Hacker News] U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html) — *2026-07-04*
-  > A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left.
-
-The odd part: the group that took the money
-- **NEW**  [[Ars Technica] Review: Supergirl is not the disaster its low box office suggests](https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/) — *2026-07-04*
-  > It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.
-- **NEW**  [[Ars Technica] When the ability to smell goes away](https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/) — *2026-07-04*
-  > Disturbances in this critical sense are often linked to problems with brain health.
 
 _(32 additional items in raw.jsonl)_

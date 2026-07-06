@@ -2,31 +2,137 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-06
-record_count: 131
-new_today: 129
+record_count: 126
+new_today: 124
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-129 new of 131 total items today.
+124 new of 126 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-3856) — *2026-07-06*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-59457) — *2026-07-06*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 6 at 4:25AM CDT until July 6 at 5:15AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c256230db860b23f465390cc5bc86b4667be345.001.1) — *2026-07-06*
-  > SMWMOB
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 7:16AM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.309bc5c4101bb5368537a664371398af947e2841.001.1) — *2026-07-06*
+  > At 716 AM EDT, Doppler radar was tracking a strong thunderstorm over
+Choptank, or 7 miles northwest of Hurlock, moving northeast at 20
+mph.
 
-The National Weather Service in Mobile has issued a
+HAZARD...Wind gusts up to 40 mph, heavy rain, and frequent
+lightning.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tre
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 4:13AM PDT until July 7 at 10:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5844472d31be7326fa4449c389a0f3de43e6e125.001.1) — *2026-07-06*
+  > ...DRY AND WINDY CONDITIONS WILL LEAD TO CRITICAL FIRE WEATHER...
+
+* AFFECTED AREA...Fire Weather Zones 690 Kittitas Valley, 691
+Lower Columbia Basin of Oregon, 691 Lower Columbia Basin of
+Washington and 703 Warm Springs Reservation.
+
+* TIMING...From Tuesday morning through Tuesd
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 6 at 6:08AM CDT until July 6 at 7:15AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.525bc2308f4e0b3d4bf36743578610e21279b6a3.001.1) — *2026-07-06*
+  > SMWTAE
+
+The National Weather Service in Tallahassee has issued a
 
 * Special Marine Warning for...
-Coastal waters from Okaloosa-Walton County Line to Pensacola FL out
+Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
+Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
 20 NM...
-Eastern Choctawhatchee Bay...
-Western Choctawhatchee Bay...
+St. Andrews Bay Waterways...
 
-* Until 515 AM CDT.
+* Until 715 A
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 6 at 7:07AM EDT until July 6 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d99500ef42fe79e40c42c3a14f446b4bf9f6406.001.1) — *2026-07-06*
+  > * WHAT...Heat index values up to 110 expected.
 
-* At 424 AM CDT, a strong th
+* WHERE...Beaufort, Charleston, Coastal Colleton, Coastal Jasper,
+Inland Berkeley, and Tidal Berkeley Counties.
+
+* WHEN...From 11 AM this morning to 7 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause he
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 6 at 7:06AM EDT until July 6 at 8:00PM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74aef56fa5530c6eff032a6bf965d2b6c9cb3b27.001.1) — *2026-07-06*
+  > * WHAT...Heat index values around 105 expected.
+
+* WHERE...Portions of southeast North Carolina and northeast South
+Carolina.
+
+* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:59AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c22e00a53992bdb62040780069b9418b9d82e486.001.1) — *2026-07-06*
+  > At 659 AM EDT/559 AM CDT/, Doppler radar was tracking a strong
+thunderstorm near Blountstown, moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations 
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 5:58AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.587fdf6ed67b8f961cf687e6e2e89b951b9d1b2d.001.1) — *2026-07-06*
+  > * WHAT...Visibility 1/4 of a mile or less in dense fog.
+
+* WHERE...Fayette, Lauderdale, and Tipton Counties.
+
+* WHEN...Until 9 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 5:58AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.587fdf6ed67b8f961cf687e6e2e89b951b9d1b2d.002.1) — *2026-07-06*
+  > * WHAT...Visibility 1/4 of a mile or less in dense fog.
+
+* WHERE...Portions of North Mississippi and West Tennessee.
+
+* WHEN...Until 9 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued July 6 at 3:46AM PDT until July 6 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23fe0ea5f257e5af0afe9975a33e21d4f11932d9.001.1) — *2026-07-06*
+  > * WHAT...West winds 10 to 15 mph with gusts up to 30 mph.
+
+* WHERE...West Side Coastal Mountains north of 198 and San Luis
+Reservoir.
+
+* WHEN...Until 11 PM PDT this evening.
+
+* IMPACTS...Strong winds and rough waves on area lakes will create
+hazardous conditions for small craft.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 6:40AM EDT until July 6 at 10:45AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adbbaa8f84b7dbc17c8be59607a838d9e798d303.001.1) — *2026-07-06*
+  > FFWPHI
+
+The National Weather Service in Mount Holly has issued a
+
+* Flash Flood Warning for...
+North Central Caroline County in eastern Maryland...
+Southwestern Kent County in northeastern Maryland...
+Central Queen Anne's County in northeastern Maryland...
+
+* Until 1045 AM EDT.
+
+
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 3:24AM MST until July 8 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1848241e8f1ce7cf78906e4f302dd68faaca300f.001.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions with temperatures of 107 to 111
+degrees.
+
+* WHERE...South Central Pinal County, Southeast Pinal County, Tohono
+O'odham Nation, Tucson Metro Area, Upper Gila River Valley, and
+Western Pima County.
+
+* WHEN...From 10 AM Tuesday to 8 PM MST Wednesd
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 6 at 3:01AM PDT until July 10 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b38352327600a65e2e99e9983b5c57a2781e5a9b.001.1) — *2026-07-06*
+  > * WHAT...An increased risk of sneaker waves and strong rip
+currents due to long period SW swell.
+
+* WHERE...Pacific Coast Beaches.
+
+* WHEN...From Tuesday morning through Friday afternoon.
+
+* IMPACTS...Dangerous conditions are forecast along the
+shoreline. Hazards include sneaker 
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 5:17AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dca9ab7328a5fae1be66fb2c8b4be5ded1f6b23.001.1) — *2026-07-06*
   > The combination of a moist airmass and calm winds is resulting in
 patchy dense fog this morning, especially across rural areas and
@@ -39,14 +145,6 @@ If you are driv
   > * WHAT...Visibility of 1/4 mile or less in dense fog.
 
 * WHERE...A portion of western Kentucky.
-
-* WHEN...Until 9 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:55AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a4a239d531322aba128ca5ec790cd4abd170388.001.1) — *2026-07-06*
-  > * WHAT...Visibility of 1/4 mile or less in dense fog.
-
-* WHERE...Portions of North Mississippi and West Tennessee.
 
 * WHEN...Until 9 AM CDT this morning.
 
@@ -138,35 +236,6 @@ possible.
 
 * IMPACTS...Excessive runoff may result in flooding of rivers,
 creeks, streams, and other low-lying and flood-prone locations.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 3:24AM EDT until July 6 at 8:00AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4e6c95325e1128dc3c9f3cd3f949d7c9fb54cf8.001.1) — *2026-07-06*
-  > At 324 AM EDT, the public flash flooding across Kelleys Island.
-Between 7 and 13 inches of rain have fallen since late Sunday
-evening. Rainfall rates have decreased, with additional rainfall
-amounts up to 1 inch possible early this morning. Flash flooding is
-already occurring.
-
-H
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.001.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
-117 expected. Major Heat Risk.
-
-* WHERE...Portions of southwest Arizona and southeast and southern
-California.
-
-* WHEN...From 10 AM MST /10 AM PDT/ Tuesday to 8 PM MST /8 PM PDT/
-Thursday.
-
-* IMPACTS...Heat relate
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.002.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
-115 expected. Major Heat Risk.
-
-* WHERE...A portion of south central Arizona.
-
-* WHEN...From 10 AM Tuesday to 8 PM MST Thursday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat event
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.003.1) — *2026-07-06*
   > * WHAT...Dangerously hot conditions. Afternoon temperatures 111 to
 116 expected. Major Heat Risk.
@@ -175,73 +244,5 @@ extreme heat event
 Valley, North Phoenix/Glendale, Northwest Valley,
 Scottsdale/Paradise Valley, South Mountain/Ahwatukee, and Southeast
 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 6 at 12:12AM PDT until July 6 at 8:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d4011903bf32f3772d207ad719fc57024f7ec8e.001.1) — *2026-07-06*
-  > * IMPACTS...Abundant lightning on dry fuels will likely create
-new ignitions across the region. Any fires that develop could
-spread rapidly. Numerous new fire starts could overwhelm
-initial attack.
 
-* AFFECTED AREA...Northern sections of Fire Weather Zones 624 and
-625.
-
-* THUNDER
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 12:11AM PDT until July 7 at 10:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59d5474bced92440b0328b0eeba33c1e64eac45d.001.1) — *2026-07-06*
-  > ...HOT, DRY, AND BREEZY CONDITIONS ACROSS EASTERN WASHINGTON ON
-TUESDAY...
-
-The National Weather Service in Spokane has issued a Fire Weather
-Watch for wind and low relative humidity, which is in effect from
-Tuesday morning through Tuesday evening.
-
-* Affected Area: Eastern Colum
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 12:11AM PDT until July 7 at 10:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59d5474bced92440b0328b0eeba33c1e64eac45d.002.1) — *2026-07-06*
-  > ...HOT, DRY, AND BREEZY CONDITIONS ACROSS EASTERN WASHINGTON ON
-TUESDAY...
-
-* Affected Area: Okanogan Valley (Zone 703), Foothills of
-Central Washington Cascades (Zone 705), Waterville Plateau
-(Zone 706) and Western Columbia Basin (Zone 707).
-
-* Winds: South 10 to 20 mph with gus
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.002.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 117
-expected.
-
-* WHERE...San Diego County Deserts.
-
-* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.003.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 114
-in the northern Coachella Valley expected.
-
-* WHERE...San Gorgonio Pass near Banning.
-
-* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 6 at 3:09AM EDT until July 6 at 10:00PM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d3c0266c75f6de3198b8e9a442def630ff92cd6.002.1) — *2026-07-06*
-  > * WHAT...High risk of rip currents expected.
-
-* WHERE...Lorain and Cuyahoga Counties.
-
-* WHEN...From 11 AM EDT this morning through this evening.
-
-* IMPACTS...Wind and wave action will cause currents on the
-lakeshore. Swimmers should not enter the water. Currents can
-carry swimme
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.001.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 115
-expected.
-
-* WHERE...Coachella Valley.
-
-* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-
-_(106 additional items in raw.jsonl)_
+_(101 additional items in raw.jsonl)_

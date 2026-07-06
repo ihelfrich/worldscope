@@ -2,17 +2,33 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-06
-record_count: 189
-new_today: 188
+record_count: 199
+new_today: 198
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-188 new of 189 total items today.
+198 new of 199 total items today.
 
-- **NEW**  [[St. Louis] Lou’s Clues – 7/6/2026](https://www.stlmag.com/games/lous-clues-070626/) — *2026-07-06*
-  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
+- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-06*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] The Bosnian soccer team lost. Bosnians in St. Louis won anyway](https://www.stlpr.org/sports/2026-07-06/st-louis-bosnian-world-cup-culture-growth) — *2026-07-06*
+- **NEW**  [[St. Louis] St. Louis Public Schools is getting ready to close schools. Here’s what you need to know](https://www.stlpr.org/education/2026-07-06/st-louis-public-schools-getting-ready-to-close-schools-heres-what-you-need-to-know) — *2026-07-06*
+- **NEW**  [[St. Louis] Rep. Steve Butz stands by his vote to place St. Louis police under state control](https://www.stlpr.org/podcast/politically-speaking/2026-07-06/rep-steve-butz-stands-by-his-vote-to-place-st-louis-police-under-state-control) — *2026-07-06*
+- **NEW**  [[St. Louis] Collinsville has half the money needed to renovate water plant for 'forever chemicals'](https://www.stlpr.org/health-science-environment/2026-07-06/collinsville-half-money-renovate-water-plant-forever-chemicals) — *2026-07-06*
+- **NEW**  [[St. Louis] Outgoing WashU scholar says support for humanities is vital for students in the AI age](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-06/washu-scholar-latin-american-studies-humanities-students-ai) — *2026-07-06*
+- **NEW**  [[St. Louis] Red, white and boom: St. Louis metro celebrates America's 250th Independence Day](https://www.stlpr.org/culture-history/2026-07-04/photos-st-louis-america-250-independence) — *2026-07-04*
+- **NEW**  [[St. Louis] Mourners throng funeral procession in Tehran for Iran's Supreme Leader Ayatollah Ali Khamenei](https://www.ksdk.com/article/news/nation-world/attack-on-iran/funeral-procession-in-tehran-for-supreme-leader-ayatollah-ali-khamenei/507-2ce048d2-1706-45b6-b4e0-974749215b36) — *2026-07-06*
+  > Khamenei's flag-draped coffin sat on board a truck decorated to resemble the ornamental grating that surrounds the shrine of an imam as mourners flocked the streets.
+- **NEW**  [[St. Louis] North county teen gathering ends with police shooting 2; 9 arrested](https://www.ksdk.com/article/news/crime/north-county-house-party-police-shooting-teen-arrests/63-b4bf556c-eea9-4a71-b64c-c8107aa8b280) — *2026-07-06*
+  > Police said an officer shot two teens after perceiving a threat while responding to a large gathering of teens in north St. Louis County.
+- **NEW**  [[St. Louis] Man dies, 3 others injured in lightning strike on Florida beach](https://www.ksdk.com/article/news/nation-world/man-dies-others-injured-lightning-strike-florida-beach/507-d731e6ec-5af8-4fc2-b93c-b15c682a8bec) — *2026-07-06*
+  > A lightning strike at Fort Myers Beach killed a man and injured three of his family members Friday, officials said.
+- **NEW**  [[St. Louis] Paul McCartney sang a Beatles hit at Taylor Swift's wedding that he hadn't performed in 62 years](https://www.ksdk.com/article/news/nation-world/paul-mccartney-taylor-swift-rolling-stone-madison-square-garden-wedding/507-85d371ba-8413-450b-b3cc-633529331387) — *2026-07-06*
+  > As The Beatles ventured into different sounds and eventually stopped touring altogether, the song was scrapped from the setlist.
+- **NEW**  [[St. Louis] 2 killed in quadruple shooting near MetroLink in north St. Louis County](https://www.ksdk.com/article/news/crime/2-killed-in-quadruple-shooting-near-metrolink-in-north-st-louis-county/63-e634517e-ead9-4f01-92e7-3b08454d94fa) — *2026-07-06*
+  > A late-night altercation near the North Hanley MetroLink Station ended in gunfire, leaving two people dead and two others injured, police said.
 - **NEW**  [[St. Louis] 41 minors detained on Fourth of July as St. Louis enforces new downtown curfew](https://www.ksdk.com/article/news/crime/st-louis-police-detain-more-than-40-minors-downtown-curfew-fourth-of-july-weekend/63-8960e57d-773a-44fd-9ddd-0bdab5891307) — *2026-07-06*
   > More than 40 minors were detained as St. Louis police enforced the city's new downtown curfew during the Fourth of July weekend.
 - **NEW**  [[St. Louis] Bridgeton plans September fireworks show after flooding](https://www.ksdk.com/article/news/local/bridgeton-plans-september-fireworks-show-after-flooding/63-f821abfe-16b9-423d-a7c3-d5fab4a127c2) — *2026-07-06*
@@ -39,27 +55,5 @@ state: fresh
   > The victims ranged in age from 6 to 37.
 - **NEW**  [[St. Louis] Miss Volunteer America and Miss Teen Volunteer America visit St. Louis to promote service, leadership](https://www.ksdk.com/article/news/local/miss-volunteer-america-and-miss-teen-volunteer-america-visit-st-louis-to-promote-service-leadership/63-d2019729-d329-4dfd-9e7b-34c2c259f343) — *2026-07-05*
   > National titleholders share how service, leadership and stepping outside their comfort zones are shaping the next generation.
-- **NEW**  [[St. Louis] Delta flight hit by firework while landing at Chicago airport](https://www.ksdk.com/article/news/nation-world/delta-flight-hit-by-firework-chicago-airport/507-2876a9f2-88a6-4634-a5e4-958acd4b4ef5) — *2026-07-05*
-  > The aircraft landed safely with no reported injuries.
-- **NEW**  [[St. Louis] Virginia launches first statewide program that limits some drivers' speeds](https://www.ksdk.com/article/news/nation-world/virginia-launches-first-statewide-program-limits-driver-speed/507-bea43ac9-d598-4ff8-8c30-e39d4858185a) — *2026-07-05*
-  > Judges can order the devices for certain speeding offenders as an alternative to penalties such as license suspension or vehicle impoundment.
-- **NEW**  [[St. Louis] LIST: Fourth of July fireworks displays, celebrations in the St. Louis area](https://www.ksdk.com/article/entertainment/events/fourth-of-july-fireworks-displays-2026-celebrations-st-louis-area/63-b8935502-cead-49b0-8fc0-ce09fa8cac1a) — *2026-07-05*
-  > Celebrations and fireworks displays will take place across the St. Louis area and Metro East, commemorating America's 250th birthday.
-- **NEW**  [[St. Louis] July 4 street takeover shut down in south St. Louis; 9 arrested, vehicles and guns seized](https://www.ksdk.com/article/news/crime/fourth-of-july-street-takeover-event-in-south-city/63-e147635c-123d-46a7-bb42-8fa25ddec745) — *2026-07-05*
-  > Officers disrupted a violent street takeover Saturday in south St. Louis, arresting nine adults and detaining four minors.
-- **NEW**  [[St. Louis] Trump mixes patriotism with partisanship as he celebrates America's 'joyous' 250th anniversary](https://www.ksdk.com/article/news/nation-world/america-celebrates-250th-birthday/507-3ada3e99-1aad-4a65-9406-6aee761734dd) — *2026-07-05*
-  > As the U.S. celebrates its 250th anniversary, festivities unfold across the nation amid intense political polarization and severe weather.
-- **NEW**  [[St. Louis] Severe storms rain on America's Birthday Parade in downtown St. Louis](https://www.ksdk.com/article/life/holidays/americas-birthday-parade-in-downtown-st-louis-canceled-due-to-storms/63-3821b9e0-88a2-49e7-a89f-7528fbe216a6) — *2026-07-05*
-  > While storms canceled the parade, Celebrate Saint Louis’ concert, drone show and fireworks went on Saturday night after a rain delay.
-- **NEW**  [[St. Louis] 17-year-old killed, 2 other teens injured in College Hill shooting](https://www.ksdk.com/article/news/crime/teen-shooting-linton-avenue-north-st-louis/63-25c669b8-ea69-49f6-83ac-02381b36b8e2) — *2026-07-05*
-  > Police said a 17-year-old died from his injuries, and two 16-year-old boys were dropped off at hospitals with gunshot wounds.
-- **NEW**  [[St. Louis] 2 teens injured in north St. Louis shooting](https://www.ksdk.com/article/news/crime/north-st-louis-shooting-newstead-farlin-teens-injured/63-7cf81c37-ee13-42fe-89cb-b58a4f9c01d9) — *2026-07-05*
-  > Police said the shooting left a 15-year-old and a 17-year-old injured.
-- **NEW**  [[St. Louis] Man shot and killed Friday night in north St. Louis](https://www.ksdk.com/article/news/crime/north-st-louis-shooting-riverview-boulevard/63-362970ed-4721-456d-adba-d3ba8f029fbc) — *2026-07-05*
-  > Police said a 60-year-old man died after being shot in the torso Friday night on Riverview Boulevard.
-- **NEW**  [[St. Louis] Man dies after late-night shooting in north St. Louis](https://www.ksdk.com/article/news/crime/man-dies-after-late-night-shooting-north-st-louis/63-0d380eb0-b685-4837-bb14-69ce11fd0f20) — *2026-07-05*
-  > A man was critically injured in a shooting on Ashland Avenue. He died a short time later.
-- **NEW**  [[St. Louis] Fire breaks out on Brooklyn Bridge during New York's fireworks show](https://www.ksdk.com/article/news/nation-world/fire-brooklyn-bridge-fireworks-show/507-e71a5a4e-a3e2-42e5-be30-981f9bd55ede) — *2026-07-05*
-  > A fire erupted on the Brooklyn Bridge during NYC's July Fourth fireworks, creating dramatic smoke but causing no injuries.
 
-_(164 additional items in raw.jsonl)_
+_(174 additional items in raw.jsonl)_

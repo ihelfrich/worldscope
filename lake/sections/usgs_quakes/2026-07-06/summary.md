@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-06
-record_count: 12
-new_today: 12
+record_count: 13
+new_today: 13
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-12 new of 12 total items today.
+13 new of 13 total items today.
 
 - **NEW**  [M 5.8 - 48 km SSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadc) — *2026-07-06*
   > M5.8 · 48 km SSW of Sarangani, Philippines · depth 35 km
@@ -27,6 +27,8 @@ state: fresh
   > M5.0 · 98 km NW of Coquimbo, Chile · depth 10 km
 - **NEW**  [M 4.7 - 91 km WNW of Tamarindo, Costa Rica](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tacl) — *2026-07-06*
   > M4.7 · 91 km WNW of Tamarindo, Costa Rica · depth 10 km
+- **NEW**  [M 4.6 - 112 km NNW of Neiafu, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tada) — *2026-07-06*
+  > M4.6 · 112 km NNW of Neiafu, Tonga · depth 113.237 km
 - **NEW**  [M 4.6 - 185 km W of Abepura, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tab5) — *2026-07-05*
   > M4.6 · 185 km W of Abepura, Indonesia · depth 19.39 km
 - **NEW**  [M 4.6 - 31 km NNW of Mianzhu, Deyang, Sichuan, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taa7) — *2026-07-05*
