@@ -11,18 +11,18 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-01*
-  > latest: 3.63 as of 2026-07-01
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-01*
-  > latest: 4.17 as of 2026-07-01
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-01*
-  > latest: 4.48 as of 2026-07-01
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-01*
-  > latest: 4.97 as of 2026-07-01
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-03*
+  > latest: 3.63 as of 2026-07-03
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-02*
+  > latest: 4.14 as of 2026-07-02
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-02*
+  > latest: 4.49 as of 2026-07-02
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-02*
+  > latest: 4.98 as of 2026-07-02
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-02*
   > latest: 3.64 as of 2026-07-02
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-02*
-  > latest: 0.35 as of 2026-07-02
+- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-06*
+  > latest: 0.35 as of 2026-07-06
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-05-01*
   > latest: 333.979 as of 2026-05-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-05-01*
@@ -43,13 +43,13 @@ state: fresh
   > latest: 6724564 as of 2026-07-01
 - [[Money] M2 money supply (M2SL)](https://fred.stlouisfed.org/series/M2SL) — *2026-05-01*
   > latest: 23052.3 as of 2026-05-01
-- [[FX] EUR/USD (DEXUSEU)](https://fred.stlouisfed.org/series/DEXUSEU) — *2026-06-26*
-  > latest: 1.1403 as of 2026-06-26
-- [[FX] JPY/USD (DEXJPUS)](https://fred.stlouisfed.org/series/DEXJPUS) — *2026-06-26*
-  > latest: 161.67 as of 2026-06-26
-- [[FX] CNY/USD (DEXCHUS)](https://fred.stlouisfed.org/series/DEXCHUS) — *2026-06-26*
-  > latest: 6.798 as of 2026-06-26
+- [[FX] EUR/USD (DEXUSEU)](https://fred.stlouisfed.org/series/DEXUSEU) — *2026-07-02*
+  > latest: 1.1448 as of 2026-07-02
+- [[FX] JPY/USD (DEXJPUS)](https://fred.stlouisfed.org/series/DEXJPUS) — *2026-07-02*
+  > latest: 160.9 as of 2026-07-02
+- [[FX] CNY/USD (DEXCHUS)](https://fred.stlouisfed.org/series/DEXCHUS) — *2026-07-02*
+  > latest: 6.7886 as of 2026-07-02
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-06-29*
   > latest: 71.87 as of 2026-06-29
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-01*
-  > latest: 16.59 as of 2026-07-01
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-03*
+  > latest: 15.81 as of 2026-07-03

@@ -2,64 +2,64 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-06
-record_count: 202
-new_today: 201
+record_count: 236
+new_today: 236
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-201 new of 202 total items today.
+236 new of 236 total items today.
 
-- **NEW**  [[St. Louis] Mourners throng funeral procession in Tehran for Iran's Supreme Leader Ayatollah Ali Khamenei](https://www.ksdk.com/article/news/nation-world/attack-on-iran/funeral-procession-in-tehran-for-supreme-leader-ayatollah-ali-khamenei/507-2ce048d2-1706-45b6-b4e0-974749215b36) — *2026-07-06*
-  > Khamenei's flag-draped coffin sat on board a truck decorated to resemble the ornamental grating that surrounds the shrine of an imam as mourners flocked the streets.
-- **NEW**  [[St. Louis] North county teen gathering ends with police shooting 2; 9 arrested](https://www.ksdk.com/article/news/crime/north-county-house-party-police-shooting-teen-arrests/63-b4bf556c-eea9-4a71-b64c-c8107aa8b280) — *2026-07-06*
-  > Police said an officer shot two teens after perceiving a threat while responding to a large gathering of teens in north St. Louis County.
-- **NEW**  [[St. Louis] Man dies, 3 others injured in lightning strike on Florida beach](https://www.ksdk.com/article/news/nation-world/man-dies-others-injured-lightning-strike-florida-beach/507-d731e6ec-5af8-4fc2-b93c-b15c682a8bec) — *2026-07-06*
-  > A lightning strike at Fort Myers Beach killed a man and injured three of his family members Friday, officials said.
-- **NEW**  [[St. Louis] Paul McCartney sang a Beatles hit at Taylor Swift's wedding that he hadn't performed in 62 years](https://www.ksdk.com/article/news/nation-world/paul-mccartney-taylor-swift-rolling-stone-madison-square-garden-wedding/507-85d371ba-8413-450b-b3cc-633529331387) — *2026-07-06*
-  > As The Beatles ventured into different sounds and eventually stopped touring altogether, the song was scrapped from the setlist.
-- **NEW**  [[St. Louis] 2 killed in quadruple shooting near MetroLink in north St. Louis County](https://www.ksdk.com/article/news/crime/2-killed-in-quadruple-shooting-near-metrolink-in-north-st-louis-county/63-e634517e-ead9-4f01-92e7-3b08454d94fa) — *2026-07-06*
-  > A late-night altercation near the North Hanley MetroLink Station ended in gunfire, leaving two people dead and two others injured, police said.
-- **NEW**  [[St. Louis] 41 minors detained on Fourth of July as St. Louis enforces new downtown curfew](https://www.ksdk.com/article/news/crime/st-louis-police-detain-more-than-40-minors-downtown-curfew-fourth-of-july-weekend/63-8960e57d-773a-44fd-9ddd-0bdab5891307) — *2026-07-06*
-  > More than 40 minors were detained as St. Louis police enforced the city's new downtown curfew during the Fourth of July weekend.
-- **NEW**  [[St. Louis] Bridgeton plans September fireworks show after flooding](https://www.ksdk.com/article/news/local/bridgeton-plans-september-fireworks-show-after-flooding/63-f821abfe-16b9-423d-a7c3-d5fab4a127c2) — *2026-07-06*
-  > An overflowing pond flooded Bridgeton's fireworks launch site, leaving the city to assess damaged fireworks and plan a September show.
-- **NEW**  [[St. Louis] England defeats Mexico to head into World Cup quarterfinals](https://www.ksdk.com/article/sports/soccer/world-cup/england-defeats-mexico-head-into-quarterfinals-world-cup/507-e914d742-b286-4ee8-8954-7bc1c49fb865) — *2026-07-06*
-  > The Brits will verse Norway on July 11 in Florida.
+- **NEW**  [[St. Louis] Trump says Walmart cut prices at his request, but Walmart statement omits administration's role](https://www.ksdk.com/article/news/nation-world/walmart-cut-prices-summer-trump/507-fb6239e9-6e07-47b0-9826-3e47547aa51e) — *2026-07-06*
+  > The company, in a statement issued Monday, said its price rollbacks at Walmart and Sam's Club will help customers “make the most” of the summer season.
+- **NEW**  [[St. Louis] Is Folarin Balogun starting against Belgium after his suspension was lifted?](https://www.ksdk.com/article/sports/soccer/world-cup/us-belgium-starting-lineup-folarin-balogun/507-cfae7826-07e3-4dfd-a109-eb42a6ca1bab) — *2026-07-06*
+  > The USMNT is taking on Belgium in the World Cup round of 16 game Monday night in Seattle.
+- **NEW**  [[St. Louis] Democrats begin pulling Graham Platner endorsements after Maine candidate faces sexual assault allegation](https://www.ksdk.com/article/news/nation-world/graham-platner-accused-sexual-assault-politico-report/507-0f83ed83-d3fc-48d8-aff7-b861185467e7) — *2026-07-06*
+  > Maine Senate candidate Graham Platner denied the sexual assault allegation and said he would be considering next steps for his campaign.
+- **NEW**  [[St. Louis] If the US wins in the round of 16, who would they play next?](https://www.ksdk.com/article/sports/soccer/world-cup/when-does-usa-play-next-world-cup/507-9da19a63-10c4-4507-8143-0d662c743818) — *2026-07-06*
+  > A win against Belgium on Monday night will secure the Americans a spot in the quarterfinals, a feat not achieved since the 2002 World Cup.
+- **NEW**  [[St. Louis] Powerball jackpot expands to UK later this month. Here's what to know.](https://www.ksdk.com/article/news/nation-world/powerball-expands-to-united-kingdom/507-ef261903-b223-47b6-904b-cb2b6dd032e8) — *2026-07-06*
+  > Powerball is expanding to the U.K., allowing British lottery players a chance to win the jackpot and the move could lead to bigger prizes for everyone.
 - **NEW**  [[St. Louis] Who has moved on in the World Cup? See the quarterfinal bracket](https://www.ksdk.com/article/sports/soccer/world-cup/world-cup-quarterfinal-teams-advancing-eliminated/507-23e186d4-7180-47eb-ad81-29d4ec4b5743) — *2026-07-06*
   > Only a handful of teams remain in the 2026 World Cup after the first knockout round of 32.
-- **NEW**  [[St. Louis] 'God told me to come': Bystander saves 2-year-old with CPR after near-drowning in Michigan](https://www.ksdk.com/article/news/nation-world/bystander-saves-child-cpr-michigan/507-d24d5d40-5ee0-48ba-b801-98e9fa543f05) — *2026-07-06*
-  > A 2-year-old girl was pulled from the water unconscious and not breathing. That's when Mariza Mojica stepped in.
-- **NEW**  [[St. Louis] 8 rescued after seaplane makes 'hard landing' in New York City river](https://www.ksdk.com/article/news/nation-world/8-rescued-plane-lands-new-york-river/507-f021aae3-5e68-4114-9462-084956d36c38) — *2026-07-05*
-  > The sea plane carrying eight people made a “hard landing” around noon, according to the New York City Fire Department.
-- **NEW**  [[St. Louis] Khamenei's other sons appear at his funeral in Iran as new supreme leader remains in hiding](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-top-officials-attend-prayer-late-supreme-leader-ayatollah-ali-khamenei-tehran/507-61ed472c-7786-4d9b-95c5-3153cf6706f1) — *2026-07-05*
-  > Several senior officials made rare public appearances after the war, while Iran's new supreme leader remained out of public view.
-- **NEW**  [[St. Louis] Mexico national team returns Rolex watches gifted by influencer](https://www.ksdk.com/article/sports/soccer/world-cup/mexico-national-team-returns-gifts/507-6d44a5c1-a296-4d2e-aa89-80665327404b) — *2026-07-05*
-  > The FIFA Code of Ethics has strict restrictions about gifts, violation of which could lead to fines and bans.
-- **NEW**  [[St. Louis] National Guard members shoot, kill man during pursuit in Memphis, police say](https://www.ksdk.com/article/news/nation-world/memphis-national-guard-shooting/507-c1028c76-b959-4205-97cc-a4034d5e01ff) — *2026-07-05*
-  > A 20-year-old man was shot and killed by Tennessee National Guardsmen in downtown Memphis after they responded to a shooting in the area, police said.
-- **NEW**  [[St. Louis] Cristiano Ronaldo says it again: His 6th World Cup with Portugal will be his last](https://www.ksdk.com/article/sports/soccer/world-cup/cristiano-ronaldo-world-cup-with-portugal-will-be-his-last/507-3d84e113-5666-4340-a3f1-2b3c27544863) — *2026-07-05*
-  > Ronaldo took the moment Sunday to repeat something he has said at least once before: this World Cup will be his last.
-- **NEW**  [[St. Louis] FIFA clears Folarin Balogun to play in USMNT's Round of 16 match against Belgium](https://www.ksdk.com/article/sports/soccer/world-cup/fifa-clears-folarin-balogun-play-against-belgium/507-d24de2ac-4319-4528-949e-1011d8368de0) — *2026-07-05*
-  > The U.S. men's leading scorer was initially set to miss the match after receiving a red card against Bosnia and Herzegovina.
-- **NEW**  [[St. Louis] 8 people, including 4 children, shot near Coney Island after Fourth of July fireworks](https://www.ksdk.com/article/news/nation-world/coney-island-fourth-of-july-shooting/507-13e71d76-80bf-4765-aa05-19138d1881b6) — *2026-07-05*
-  > The victims ranged in age from 6 to 37.
-- **NEW**  [[St. Louis] Miss Volunteer America and Miss Teen Volunteer America visit St. Louis to promote service, leadership](https://www.ksdk.com/article/news/local/miss-volunteer-america-and-miss-teen-volunteer-america-visit-st-louis-to-promote-service-leadership/63-d2019729-d329-4dfd-9e7b-34c2c259f343) — *2026-07-05*
-  > National titleholders share how service, leadership and stepping outside their comfort zones are shaping the next generation.
-- **NEW**  [[St. Louis] Delta flight hit by firework while landing at Chicago airport](https://www.ksdk.com/article/news/nation-world/delta-flight-hit-by-firework-chicago-airport/507-2876a9f2-88a6-4634-a5e4-958acd4b4ef5) — *2026-07-05*
-  > The aircraft landed safely with no reported injuries.
-- **NEW**  [[St. Louis] Virginia launches first statewide program that limits some drivers' speeds](https://www.ksdk.com/article/news/nation-world/virginia-launches-first-statewide-program-limits-driver-speed/507-bea43ac9-d598-4ff8-8c30-e39d4858185a) — *2026-07-05*
-  > Judges can order the devices for certain speeding offenders as an alternative to penalties such as license suspension or vehicle impoundment.
-- **NEW**  [[St. Louis] LIST: Fourth of July fireworks displays, celebrations in the St. Louis area](https://www.ksdk.com/article/entertainment/events/fourth-of-july-fireworks-displays-2026-celebrations-st-louis-area/63-b8935502-cead-49b0-8fc0-ce09fa8cac1a) — *2026-07-05*
-  > Celebrations and fireworks displays will take place across the St. Louis area and Metro East, commemorating America's 250th birthday.
-- **NEW**  [[St. Louis] July 4 street takeover shut down in south St. Louis; 9 arrested, vehicles and guns seized](https://www.ksdk.com/article/news/crime/fourth-of-july-street-takeover-event-in-south-city/63-e147635c-123d-46a7-bb42-8fa25ddec745) — *2026-07-05*
-  > Officers disrupted a violent street takeover Saturday in south St. Louis, arresting nine adults and detaining four minors.
-- **NEW**  [[St. Louis] Trump mixes patriotism with partisanship as he celebrates America's 'joyous' 250th anniversary](https://www.ksdk.com/article/news/nation-world/america-celebrates-250th-birthday/507-3ada3e99-1aad-4a65-9406-6aee761734dd) — *2026-07-05*
-  > As the U.S. celebrates its 250th anniversary, festivities unfold across the nation amid intense political polarization and severe weather.
-- **NEW**  [[St. Louis] Severe storms rain on America's Birthday Parade in downtown St. Louis](https://www.ksdk.com/article/life/holidays/americas-birthday-parade-in-downtown-st-louis-canceled-due-to-storms/63-3821b9e0-88a2-49e7-a89f-7528fbe216a6) — *2026-07-05*
-  > While storms canceled the parade, Celebrate Saint Louis’ concert, drone show and fireworks went on Saturday night after a rain delay.
-- **NEW**  [[St. Louis] 17-year-old killed, 2 other teens injured in College Hill shooting](https://www.ksdk.com/article/news/crime/teen-shooting-linton-avenue-north-st-louis/63-25c669b8-ea69-49f6-83ac-02381b36b8e2) — *2026-07-05*
-  > Police said a 17-year-old died from his injuries, and two 16-year-old boys were dropped off at hospitals with gunshot wounds.
+- **NEW**  [[St. Louis] 110-year-old and 107-year-old women share their secrets to a long life](https://www.ksdk.com/article/news/nation-world/110-year-old-and-107-year-old-women-share-their-secrets-to-a-long-life/507-464edb57-41ad-4275-8992-68dd0c3c3f64) — *2026-07-06*
+  > In June 2026, Willie Mae Jackson celebrated her 110th birthday in Jacksonville while Sallie Chatman marked her 107th birthday in nearby Folkston, Georgia.
+- **NEW**  [[St. Louis] 7-Eleven sues Nike over use of convenience store's colors on new sneaker launch](https://www.ksdk.com/article/news/nation-world/7-eleven-nike-lawsuit-air-max-95-sneaker-launch/507-c73281ed-18ba-4149-a9e2-cb307feab00b) — *2026-07-06*
+  > The convenience store chain filed a lawsuit alleging the new Air Max 95 sneaker launch features a "confusingly similar imitation" of the brand.
+- **NEW**  [[St. Louis] 'Shot-caller' of shooting that killed 13-year-old Alton girl sentenced to prison](https://www.ksdk.com/article/news/local/illinois-teen-killed-alton-shot-caller-sentenced-to-prison-keith-sanders/63-71dc76fc-483d-4fd1-8b8c-d93deb808a01) — *2026-07-06*
+  > The teenager was shot in the head while on her porch after the "shot-caller" encouraged shooting at where a rival gang was located, prosecutors said.
+- **NEW**  [[St. Louis] Prosecutors push for a trial for the man accused of killing Charlie Kirk](https://www.ksdk.com/article/news/nation-world/charlie-kirk-shooting-suspect-preliminary-hearing-begins/507-c04700e6-42cc-4639-bfeb-fe7e5035ec45) — *2026-07-06*
+  > The five-day preliminary hearing also marks the first time that Charlie Kirk’s parents and widow will be in the courtroom with the man accused of murdering him.
+- **NEW**  [[St. Louis] Texas mom tracked child's phone after car stolen with 3 kids inside, sheriff says](https://www.ksdk.com/article/news/nation-world/texas-mom-tracked-childs-phone-after-car-stolen-houston/507-33b91ade-6209-4056-9d79-15b1ff504237) — *2026-07-06*
+  > "One of the Juveniles inside the vehicle had a phone, so the mom started tracking the phone and providing live information," a sheriff's office spokesperson said.
+- **NEW**  [[St. Louis] Over 100-pound catfish caught in St. Charles](https://www.ksdk.com/article/news/local/st-charles-101-pound-catfish-caught-missouri-river/63-5e13c3e7-ae28-44b1-adf0-149385cedc2a) — *2026-07-06*
+  > Brad Hilton caught the massive catfish while rod-and-reel fishing on the Missouri River.
+- **NEW**  [[St. Louis] Lauren Bennett, singer featured on LMFAO's 'Party Rock Anthem,' dies at 37](https://www.ksdk.com/article/news/nation-world/lauren-bennett-dead-party-rock-anthem-singer-grl-group/507-cc9b5862-6f7a-40f3-8f43-80a81a462f90) — *2026-07-06*
+  > The English singer was also a part of the musical group G.R.L and the Paradiso Girls.
+- **NEW**  [[St. Louis] Trump confirms he called FIFA head after World Cup red card but insists he didn't demand outcome](https://www.ksdk.com/article/sports/soccer/world-cup/trump-overturning-folarin-baloguns-red-card/507-e14b2b1e-90f1-421f-9e6d-edb290b21da7) — *2026-07-06*
+  > Trump confirmed that he called FIFA President Gianni Infantino and asked for a second look at the punishment against Balogun.
+- **NEW**  [[St. Louis] FIFA rejects Belgium's appeal over US forward Folarin Balogun's eligibility for World Cup match](https://www.ksdk.com/article/sports/soccer/world-cup/belgian-to-challenge-decision-to-let-balogun-play-red-card/507-182fda34-310d-4c00-9510-16d1dda672f9) — *2026-07-06*
+  > FIFA announced Sunday that Folarin Balogun's suspension had been lifted for the round of 16 match in an extraordinary move that drew praise from President Trump.
+- **NEW**  [[St. Louis] New prosthetic breakthrough, an early Alzheimer's signal and a warning for parents about e-bikes](https://www.ksdk.com/article/news/nation-world/prosthetic-breakthrough-alzheimer-study-e-bike-hospital-visits-increase-among-children/507-0bd6a1b6-e3a2-44f5-8637-f71e134fde90) — *2026-07-06*
+  > A new blood test may give doctors an early warning sign for Alzheimer's disease, long before memory problems begin. Here are today's health headlines.
+- **NEW**  [[St. Louis] 4 dead, including a police officer, in Ohio shooting; 2 other officers hurt](https://www.ksdk.com/article/news/nation-world/rittman-ohio-shooting-wayne-county/507-6d35041b-bb8e-41b7-9455-3c12b8e6218a) — *2026-07-06*
+  > The shooting prompted a massive law enforcement response that locked down a portion of Rittman, a town outside Akron with about 6,000 people.
+- **NEW**  [[St. Louis] Trump Accounts launch: Treasury providing $1,000 boost to some children](https://www.ksdk.com/article/news/nation-world/trump-accounts-eligibility-how-to-sign-up/507-deaba3e7-cfe6-4d78-ad62-468751e97fd6) — *2026-07-06*
+  > What exactly are Trump Accounts? Here's what you need to know.
+- **NEW**  [[St. Louis] Idaho mom, who claimed vaccines killed twin babies, now charged with murder](https://www.ksdk.com/article/news/nation-world/idaho-mom-charged-with-murder-claimed-vaccines-cause/507-a57ef362-2369-4f8a-aa17-8905abe4e4c7) — *2026-07-06*
+  > Police arrested 23-year-old Andrea Shaw more than a year after her twin toddlers were found dead in May 2025.
+- **NEW**  [[St. Louis] Microsoft cuts 4,800 jobs, including many at Xbox in a 'reset' of its gaming division](https://www.ksdk.com/article/news/nation-world/xbox-layoffs-microsoft/507-e755c185-30fc-49f8-98f8-154bedbaaa34) — *2026-07-06*
+  > The move is part of a broader reorganization to "reset" Xbox amid increased competition.
+- **NEW**  [[St. Louis] Paul McCartney sang a Beatles hit at Taylor Swift's wedding that he hadn't performed in 62 years](https://www.ksdk.com/article/news/nation-world/paul-mccartney-taylor-swift-rolling-stone-madison-square-garden-wedding/507-85d371ba-8413-450b-b3cc-633529331387) — *2026-07-06*
+  > As The Beatles ventured into different sounds and eventually stopped touring altogether, the song was scrapped from the setlist.
+- **NEW**  [[St. Louis] England player hospitalized following 'serious' injury during World Cup postgame celebration](https://www.ksdk.com/article/sports/soccer/world-cup/england-jordan-henderson-wrist-injury-celebration-mexico-game/507-b4775daf-267f-4238-bc54-cf4f38225210) — *2026-07-06*
+  > The English midfielder will miss the rest of the World Cup after tumbling over an advertising board after Sunday's game.
+- **NEW**  [[St. Louis] What is a red card? Here's how a foul on the soccer field has turned into international outrage.](https://www.ksdk.com/article/sports/soccer/world-cup/what-is-a-red-card-world-cup/507-ee67a18a-3f00-4284-a343-325bf1b8e193) — *2026-07-06*
+  > Folarin Balogun is one of the star players of the U.S. men's soccer team. But his ejection and subsequent reinstatement have ignited a firestorm in the world of FIFA
+- **NEW**  [[St. Louis] AUDIO: Flight 'felt a big bang' after getting hit by firework in Chicago on Fourth of July](https://www.ksdk.com/article/news/nation-world/plane-hit-by-firework-descending-into-chicago-4th-of-july/507-bce465a4-51dc-4141-8678-2df976b9901c) — *2026-07-06*
+  > "We’re just hoping it was just a mortar that went off underneath but definitely felt a big bang," one of the pilots told the control tower.
+- **NEW**  [[St. Louis] What time is the US soccer game today in the World Cup?](https://www.ksdk.com/article/sports/soccer/world-cup/what-time-us-soccer-game-monday-world-cup/507-5efd505b-49f5-4a5f-a92c-be483b987437) — *2026-07-06*
+  > The lead-up to Monday's match between the U.S. and Belgium has been quite eventful.
 
-_(177 additional items in raw.jsonl)_
+_(211 additional items in raw.jsonl)_

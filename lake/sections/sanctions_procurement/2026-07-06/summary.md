@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-06
-record_count: 108
-new_today: 47
+record_count: 114
+new_today: 46
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-47 new of 108 total items today.
+46 new of 114 total items today.
 
 - **NEW**  [[OFAC] Counter Narcotics Designations; Counter Terrorism Designations and Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-01*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTRURVT0dId2tkcDlhY0s3WHB5TUZON2E2RVpNQk1KWXBkanN3LWp2TEVoNkpZdzQ1Smlka1Q3cF9tV0dESGlSdUVwY3JkWHJVanNSMzZUcm5pMlluTEE?oc=5" target="_blank">Counter Narcotics Designations; Counter Terrorism Designations and Designation U
@@ -23,14 +23,12 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VakdXMTRvVUVSSHZuZGY5UEo2TXc4NEotU0duTXNvYVQ1eV9NY1hlandGalZ6dnF3dVhkOXhoZElUOUY3aW5aNFpOcW1EX0MyVEZwdElwQ0VXeVhUbFE?oc=5" target="_blank">Russia-related Designations Removals</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
 - **NEW**  [[OFAC] Mexican Cartel Fuel Smuggling Schemes - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-30*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE14bGtVR3VpZWVHWDRpUFU5Sk9ObWpYdjBtMDBsM25pUzF4MElkMS11YzVqTzRCZGZ6WmlwSUhXU3ZxNjEybHVJSFZqV2Y3aHRhcGhHT1g1R0pLZ1VQODI0aXVVLUY?oc=5" target="_blank">Mexican Cartel Fuel Smuggling Schemes</a>&nbsp;&nbsp;<font color="#6f6f6
-- **NEW**  [[OFAC] 1261 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
-  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE5VdFBJMmJhdC1PYlB2dVBkdWJNT3AzTk1QS0VOMjFUQ0w2UFFQMlhQbEVybVU2Y0xveDFGMVdOaGlHVGwzT3RjazB6RQ?oc=5" target="_blank">1261</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
+- **NEW**  [[OFAC] OFAC Quick-Reference Guide: Delisting Petitions- Best Practices - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TT2tQQmpxZi1pWlhIdUVVSGcwZDA0YThwSDFvREk1YVBPSDBtTUpwb0VSZjhhYk5PbW1HNjZxR3ROY09IRUFuM2c2dk4xVGZpdlRUYkNaVWVXWG5maTN3emNpU2U?oc=5" target="_blank">OFAC Quick-Reference Guide: Delisting Petitions- Best Practices</a>&nbsp
 - **NEW**  [[OFAC] 897 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE9tSmtHeGxkQkJnV0JlajQyMFRQX3A5WlVnQ0xicWxndUU2S0tsQ2JLRkttLVl4aTI1SU95REJ2YjZrYzhEd0ZSWEFR?oc=5" target="_blank">897</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - **NEW**  [[OFAC] | Office of Foreign Assets Control - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE52b21zVW5FOXVsS19DUEFIbEd6V1pOSjlqT3JneDJIRW5PSnlVbTg4NzBXdkZIR1VyYi1EN0VvWVZJcmdJMzg4aE9MdVZTYkhhR29R?oc=5" target="_blank">| Office of Foreign Assets Control</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Asset
-- **NEW**  [[OFAC] OFAC Quick-Reference Guide: Delisting Petitions- Best Practices - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TT2tQQmpxZi1pWlhIdUVVSGcwZDA0YThwSDFvREk1YVBPSDBtTUpwb0VSZjhhYk5PbW1HNjZxR3ROY09IRUFuM2c2dk4xVGZpdlRUYkNaVWVXWG5maTN3emNpU2U?oc=5" target="_blank">OFAC Quick-Reference Guide: Delisting Petitions- Best Practices</a>&nbsp
 - **NEW**  [[OFAC] Reconsideration Request Form Home - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NclFxYnNhSXRMdkRtQVBFQTF1NGNaR3Mxb1lGeHpHREhOVnI3b0c5NnFEWkJkOUk1RE5BS2h4SExONW95UjYzTWFEUlAtYmpGLTJiRVpSUnVuS0JPTmY4eHVMUWM?oc=5" target="_blank">Reconsideration Request Form Home</a>&nbsp;&nbsp;<font color="#6f6f6f">O
 - **NEW**  [[BIS Entity List] page checksum eee98845011c](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-06*
@@ -61,5 +59,7 @@ state: fresh
   > Agency: Department of Energy.  Description:
 - **NEW**  [[USASpending] $15,555,973,335 → LOCKHEED MARTIN CORP: TAS::80 0124::TAS DESIGN, DEVELOPMENT, TEST&EVALUATION OF PR](https://www.usaspending.gov/award/NNJ06TA25C) — *2026-07-06*
   > Agency: National Aeronautics and Space Administration.  Description: TAS::80 0124::TAS DESIGN, DEVELOPMENT, TEST&EVALUATION OF PROJECT ORION
+- **NEW**  [[USASpending] $10,790,056,187 → ALLIANCE FOR ENERGY INNOVATION, LLC: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWAB](https://www.usaspending.gov/award/DEAC3608GO28308) — *2026-07-06*
+  > Agency: Department of Energy.  Description: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY
 
-_(83 additional items in raw.jsonl)_
+_(89 additional items in raw.jsonl)_

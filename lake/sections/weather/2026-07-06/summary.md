@@ -2,250 +2,268 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-06
-record_count: 114
-new_today: 112
+record_count: 147
+new_today: 145
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-112 new of 114 total items today.
+145 new of 147 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-42406) — *2026-07-06*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-15895) — *2026-07-06*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 8:22AM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.854594b4bc00167a98a290bbbca292144eff179d.001.1) — *2026-07-06*
-  > At 822 AM EDT, Doppler radar was tracking a cluster of strong
-thunderstorms over Secretary, or near Hurlock, moving east at 10 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:34PM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df0f656fc6ffeea1f40a20c15a6280ca22bdb5a3.001.1) — *2026-07-06*
+  > At 633 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Dogwood, or 8 miles southwest of Sheridan, moving southeast at 10
+mph.
 
-HAZARD...Wind gusts up to 40 mph, pea size hail, heavy rain, and
-frequent lightning.
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock d
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 6 at 8:22AM EDT until July 6 at 8:00PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7def4bc0c1203cf5f5407eee0b8f45551d5dbcb1.001.1) — *2026-07-06*
-  > * WHAT...Heat index values up to 107 expected.
+IMPACT...Gusty winds could knock down tree limbs and blo
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:34PM EDT until July 6 at 10:30PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cbba9b2e2712b4491d1d9af8726643b7fe0f23c.001.1) — *2026-07-06*
+  > FFWRAH
 
-* WHERE...Laurens, Montgomery, Wheeler, Wilkinson, Emanuel,
-Jefferson, Johnson, Treutlen, Washington, and Toombs Counties.
-
-* WHEN...From noon today to 8 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:56AM EDT until July 6 at 2:00PM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d62996bc93b603898143cffb887a9be11120f443.001.1) — *2026-07-06*
-  > FFWCLE
-
-The National Weather Service in Cleveland has issued a
+The National Weather Service in Raleigh has issued a
 
 * Flash Flood Warning for...
-Northeastern Lucas County in northwestern Ohio...
-Ottawa County in northwestern Ohio...
+North Central Johnston County in central North Carolina...
+Wake County in central North Carolina...
 
-* Until 200 PM EDT Monday.
+* Until 1030 PM EDT.
 
-* At 756 AM EDT, Doppler radar indicated thunderstorms producing
-heavy
-- **NEW**  [[Moderate] High Surf Warning: High Surf Warning issued July 6 at 9:49PM ChST until July 9 at 4:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.221d8aaa4e2260c2cb2c4e76d96a551c57d8a3bf.001.2) — *2026-07-06*
-  > * WHAT...Dangerously large breaking waves up to 25 feet in the
-surf zone with significant coastal flooding.
+* At 734 PM EDT, Doppler radar indicated training thunderstorms
+pr
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued July 6 at 6:32PM CDT until July 6 at 7:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cb691809001e822c946ef5690649e813b9007c7.001.1) — *2026-07-06*
+  > At 631 PM CDT, a severe thunderstorm capable of producing a tornado
+was located over Syre, or 31 miles northwest of Detroit Lakes, moving
+east at 45 mph.
 
-* WHERE...Guam, Rota, Tinian and Saipan.
+HAZARD...Tornado and quarter size hail.
 
-* WHEN...For the Coastal Flood Warning, until 4 PM ChST
-Wednesday. For the High Surf Warning, until 4 PM ChST Thursday.
+SOURCE...Radar indicated rotation.
 
-* IMPACT
-- **NEW**  [[Severe] Coastal Flood Warning: Coastal Flood Warning issued July 6 at 9:49PM ChST until July 8 at 4:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.221d8aaa4e2260c2cb2c4e76d96a551c57d8a3bf.001.1) — *2026-07-06*
-  > * WHAT...Dangerously large breaking waves up to 25 feet in the
-surf zone with significant coastal flooding.
+IMPACT...Flying debris will be dangerous to thos
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 6 at 7:32PM EDT until July 6 at 8:15PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9fd4c9ba43385f6b4903dd44f74d653a7e7abaf5.001.1) — *2026-07-06*
+  > At 732 PM EDT, a severe thunderstorm was located 8 miles southeast of
+Downtown Concord, or 4 miles southwest of Mt Pleasant, moving east at
+5 mph.
 
-* WHERE...Guam, Rota, Tinian and Saipan.
+HAZARD...60 mph wind gusts.
 
-* WHEN...For the Coastal Flood Warning, until 4 PM ChST
-Wednesday. For the High Surf Warning, until 4 PM ChST Thursday.
+SOURCE...Radar indicated.
 
-* IMPACT
-- **NEW**  [[Extreme] Typhoon Warning: Typhoon Warning issued July 6 at 9:49PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd91021354e665b3c4b413100dc18ded4ad02814.001.1) — *2026-07-06*
-  > * WHAT...Typhoon Warning remains in effect through at least tonight.
+IMPACT...Expect damage to trees and power lines.
 
-* WHERE...Marianas Coastal Waters.
+Locations impacted include
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 6 at 7:31PM EDT until July 7 at 7:30AM EDT by NWS Buffalo NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2a7d0f40bee81129f0a14fe1e0a340491f02606.001.1) — *2026-07-06*
+  > * WHAT...Small stream flooding caused by excessive rainfall is
+expected.
 
-* WHEN...Damaging winds expected through early Tuesday morning.
+* WHERE...A portion of western New York, including the following
+county, Allegany.
 
-* IMPACTS...Sustained winds to 45 kt with gusts to 60 kt and seas
-of 15 to 25 ft.
+* WHEN...Until 730 AM EDT Tuesday.
 
-* ADDITIONAL DETAILS...As 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:43AM EDT until July 6 at 10:45AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d43cdcadfdd7cd80263ae0c3f4cccf034d3f305a.001.1) — *2026-07-06*
-  > At 743 AM EDT, Doppler radar indicated thunderstorms are lessening
-in intensity across the warned area. However, between 2 and 4 inches
-of rain have fallen. Flash flooding is ongoing or expected to begin
-shortly.
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone l
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 6 at 7:31PM EDT until July 6 at 8:15PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1748a516db906081d0abc1186ac5957de0453dc1.001.1) — *2026-07-06*
+  > SVRAKQ
 
-HAZARD...Flash flooding caused by thunderstorms.
+The National Weather Service in Wakefield has issued a
 
-SOURCE...Radar.
+* Severe Thunderstorm Warning for...
+Nottoway County in south central Virginia...
+Southern Amelia County in central Virginia...
 
-- **NEW**  [[Extreme] Typhoon Warning: Typhoon Warning issued July 6 at 9:40PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b62c8a2be3814b6fd31fd0bdbc8102042e3da071.003.1) — *2026-07-06*
-  > ...SUPER TYPHOON BAVI CONTINUES WEST-NORTHWEST AWAY FROM MARIANAS
-COASTAL WATERS...
-...TROPICAL STORM CONDITIONS CONTINUE ACROSS THE MARIANAS...
+* Until 815 PM EDT.
 
-.NEW INFORMATION...
-None.
+* At 731 PM EDT, a severe thunderstorm was located near Jetersvill
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:31PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa67a4b87ee8b3b8af8a3e00ec02831811440042.001.1) — *2026-07-06*
+  > At 631 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Como, or 7 miles southeast of Sulphur Springs. This storm was nearly
+stationary.
 
-.AREAS AFFECTED...
-This local statement provides information and recommended actions
-for people in Guam and
-- **NEW**  [[Extreme] Typhoon Warning: Typhoon Warning issued July 6 at 9:40PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b62c8a2be3814b6fd31fd0bdbc8102042e3da071.002.1) — *2026-07-06*
-  > ...SUPER TYPHOON BAVI CONTINUES WEST-NORTHWEST AWAY FROM MARIANAS
-COASTAL WATERS...
-...TROPICAL STORM CONDITIONS CONTINUE ACROSS THE MARIANAS...
+HAZARD...Wind gusts up to 50 mph.
 
-.NEW INFORMATION...
-None.
+SOURCE...Radar indicated.
 
-.AREAS AFFECTED...
-This local statement provides information and recommended actions
-for people in Guam and
-- **NEW**  [[Extreme] Typhoon Warning: Typhoon Warning issued July 6 at 9:40PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b62c8a2be3814b6fd31fd0bdbc8102042e3da071.001.1) — *2026-07-06*
-  > ...SUPER TYPHOON BAVI CONTINUES WEST-NORTHWEST AWAY FROM MARIANAS
-COASTAL WATERS...
-...TROPICAL STORM CONDITIONS CONTINUE ACROSS THE MARIANAS...
+IMPACT...Gusty winds could knock down tree limbs and blow around
+un
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 6 at 5:30PM MDT until July 6 at 6:15PM MDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d0ae0c002a86189dfc33b89872f0ecf43c08b70.001.1) — *2026-07-06*
+  > SVRLBF
 
-.NEW INFORMATION...
-None.
+The National Weather Service in North Platte has issued a
 
-.AREAS AFFECTED...
-This local statement provides information and recommended actions
-for people in Guam and
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 4:13AM PDT until July 7 at 10:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5844472d31be7326fa4449c389a0f3de43e6e125.001.1) — *2026-07-06*
-  > ...DRY AND WINDY CONDITIONS WILL LEAD TO CRITICAL FIRE WEATHER...
+* Severe Thunderstorm Warning for...
+Southern Sheridan County in the Panhandle of Nebraska...
 
-* AFFECTED AREA...Fire Weather Zones 690 Kittitas Valley, 691
-Lower Columbia Basin of Oregon, 691 Lower Columbia Basin of
-Washington and 703 Warm Springs Reservation.
+* Until 615 PM MDT.
 
-* TIMING...From Tuesday morning through Tuesd
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 6 at 7:07AM EDT until July 6 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d99500ef42fe79e40c42c3a14f446b4bf9f6406.001.1) — *2026-07-06*
-  > * WHAT...Heat index values up to 110 expected.
+* At 530 PM MDT, a severe thunderstorm was located 20 miles north of
+Antioch, or 21 miles south o
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 7:29PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1086827747f2830faeb5ec82dd9d2921c058e8c9.001.1) — *2026-07-06*
+  > At 729 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Red Jacket, or 9 miles east of Williamson, moving east at 15 mph.
 
-* WHERE...Beaufort, Charleston, Coastal Colleton, Coastal Jasper,
-Inland Berkeley, and Tidal Berkeley Counties.
+HAZARD...Wind gusts up to 40 mph and pea size hail.
 
-* WHEN...From 11 AM this morning to 7 PM EDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...Hot temperatures and high humidity may cause he
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 6 at 7:06AM EDT until July 6 at 8:00PM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.74aef56fa5530c6eff032a6bf965d2b6c9cb3b27.001.1) — *2026-07-06*
-  > * WHAT...Heat index values around 105 expected.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 4:29PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.113ec37b19c9bfb6c98cdbc14d34ff8ffce7e15c.001.1) — *2026-07-06*
+  > At 429 PM PDT, Doppler radar was tracking a strong thunderstorm 12
+miles southwest of Fort Rock, or 29 miles south of La Pine, moving
+northeast at 20 mph.
 
-* WHERE...Portions of southeast North Carolina and northeast South
-Carolina.
+HAZARD...Winds in excess of 40 mph and penny size hail.
 
-* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 5:58AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.587fdf6ed67b8f961cf687e6e2e89b951b9d1b2d.001.1) — *2026-07-06*
-  > * WHAT...Visibility 1/4 of a mile or less in dense fog.
+IMPACT...Gusty winds could knock down tr
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 6 at 6:29PM CDT until July 6 at 6:45PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf01c0d28f2e018ad9978c4e4af59c2cd76ed6dd.001.1) — *2026-07-06*
+  > At 629 PM CDT, severe thunderstorms were located along a line from 7
+miles west of Bernice to 6 miles north of Campti, or along a line
+from 13 miles south of Junction City to 17 miles north of
+Natchitoches, moving east at 35 mph.
 
-* WHERE...Fayette, Lauderdale, and Tipton Counties.
+HAZARD...60 mph wind gusts and small hail.
 
-* WHEN...Until 9 AM CDT this morning.
+SOURC
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 5:28PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4cb8f7b318df412eedfaefab0a3d04db2a185a8c.001.1) — *2026-07-06*
+  > At 528 PM MDT, Doppler radar was tracking a strong thunderstorm near
+Sandy Beach Campground, or 24 miles southwest of Lusk, moving north
+at 15 mph.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 5:58AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.587fdf6ed67b8f961cf687e6e2e89b951b9d1b2d.002.1) — *2026-07-06*
-  > * WHAT...Visibility 1/4 of a mile or less in dense fog.
+HAZARD...Wind gusts up to 50 mph and pea size hail.
 
-* WHERE...Portions of North Mississippi and West Tennessee.
+SOURCE...Radar indicated.
 
-* WHEN...Until 9 AM CDT this morning.
+IMPACT...Gusty winds could knock down tree limbs an
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:28PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b90f6d0f883f55a3436bc2a25b4130b14bd6dc96.001.1) — *2026-07-06*
+  > At 627 PM CDT, Doppler radar was tracking a strong thunderstorm
+about 3 miles south of Tuscumbia. This thunderstorm was nearly
+stationary.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued July 6 at 3:46AM PDT until July 6 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23fe0ea5f257e5af0afe9975a33e21d4f11932d9.001.1) — *2026-07-06*
-  > * WHAT...West winds 10 to 15 mph with gusts up to 30 mph.
+HAZARD...Heavy downpours, ponding of water and minor street
+flooding.
 
-* WHERE...West Side Coastal Mountains north of 198 and San Luis
-Reservoir.
+SOURCE...Radar indicated.
 
-* WHEN...Until 11 PM PDT this evening.
+IMPACT...Minor street flooding and poor vi
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 6 at 7:28PM EDT until July 6 at 8:00PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a2e295b0fab7355786aaaa9f8473749080408c4.001.1) — *2026-07-06*
+  > SMWKEY
 
-* IMPACTS...Strong winds and rough waves on area lakes will create
-hazardous conditions for small craft.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 3:24AM MST until July 8 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1848241e8f1ce7cf78906e4f302dd68faaca300f.001.1) — *2026-07-06*
-  > * WHAT...Dangerously hot conditions with temperatures of 107 to 111
-degrees.
+The National Weather Service in Key West has issued a
 
-* WHERE...South Central Pinal County, Southeast Pinal County, Tohono
-O'odham Nation, Tucson Metro Area, Upper Gila River Valley, and
-Western Pima County.
+* Special Marine Warning for...
+Gulf Waters from East Cape Sable to Chokoloskee 20 to 60 nm out and
+beyond 5 fathoms...
 
-* WHEN...From 10 AM Tuesday to 8 PM MST Wednesd
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 6 at 3:01AM PDT until July 10 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b38352327600a65e2e99e9983b5c57a2781e5a9b.001.1) — *2026-07-06*
-  > * WHAT...An increased risk of sneaker waves and strong rip
-currents due to long period SW swell.
+* Until 800 PM EDT.
 
-* WHERE...Pacific Coast Beaches.
+* At 728 PM EDT, a strong thunderstorm was located near S Tower. The
+strong
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:28PM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.657df3ba8f50ebe49be1dab355b3dfaab7c407b9.001.1) — *2026-07-06*
+  > At 628 PM CDT, Doppler radar indicated strong thunderstorms along a
+line extending from 3 miles northeast of Gans to near Arkoma.
+Movement was west at 15 mph.
 
-* WHEN...From Tuesday morning through Friday afternoon.
+HAZARD...Wind gusts up to 50 mph.
 
-* IMPACTS...Dangerous conditions are forecast along the
-shoreline. Hazards include sneaker 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 5:17AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dca9ab7328a5fae1be66fb2c8b4be5ded1f6b23.001.1) — *2026-07-06*
-  > The combination of a moist airmass and calm winds is resulting in
-patchy dense fog this morning, especially across rural areas and
-valleys. Rapidly changing visibilities will be possible through
-the early morning hours before the fog lifts shortly after
-daybreak.
+SOURCE...Radar indicated.
 
-If you are driv
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 4:00AM CDT until July 6 at 9:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.650f1a2ccb28966698156a1e40e8528587f55ec0.001.1) — *2026-07-06*
-  > * WHAT...Visibility of 1/4 mile or less in dense fog.
+IMPACT...Gusty winds could knock down small tree limbs and
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 6:28PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a7166d2ccdd51b26867e2406c647a1e8e472afb.001.1) — *2026-07-06*
+  > At 628 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Amite. This thunderstorm was nearly stationary.
 
-* WHERE...A portion of western Kentucky.
+HAZARD...Wind gusts of 50 to 55 mph and nickel size hail.
 
-* WHEN...Until 9 AM CDT this morning.
+SOURCE...Radar indicated.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:55AM CDT until July 6 at 9:00AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7898c7eacc38e08fa42edc8b0a09400072c2bbf0.001.1) — *2026-07-06*
-  > * WHAT...Visibility of 1/4 mile or less in dense fog.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured o
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:27PM EDT until July 6 at 9:15PM EDT by NWS Buffalo NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3563fa5166acf8c42ef5c526fa530b4ce78a135.001.1) — *2026-07-06*
+  > At 727 PM EDT, Local law enforcement reported that heavy rain from
+earlier this afternoon was producing flash flooding across the
+warned area. Between 3 and 4 inches of rain have fallen according to
+Doppler radar. Flooding impacts will continue, but little to no
+additional rainfa
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:27PM EDT until July 6 at 8:30PM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e73f2ec7ade73db28b71cd8dd4cd908b14fbcdc9.001.1) — *2026-07-06*
+  > At 727 PM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 2 and 3 inches of rain have
+fallen. Additional light rainfall is possible in the warned area.
+Flash flooding is ongoing or expected to begin shortly.
 
-* WHERE...Portions of north central, northeast, and northwest
-Alabama and southern middle Tennessee.
+HAZARD...Flash flooding
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 4:26PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20f481d037e3ed58103377487e22a7d86c81fd39.001.1) — *2026-07-06*
+  > At 425 PM PDT, Doppler radar was tracking a strong thunderstorm near
+Digit Point Campground At Miller Lake, or 25 miles north of Crater
+Lake, moving northeast at 5 mph.
 
-* WHEN...Until 9 AM CDT this morning.
+HAZARD...Winds in excess of 40 mph and penny size hail.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:54AM CDT until July 6 at 9:00AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d23c52a6de0767227da31b540d12c851697a2a59.001.1) — *2026-07-06*
-  > * WHAT...Visibility less than half mile in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...A portion of Middle Tennessee.
+IMPACT...Gusty winds could
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:26PM EDT until July 6 at 10:30PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5265d65cdb8fb9e9797ce598ca97bf263ce995b.001.1) — *2026-07-06*
+  > FFWLWX
 
-* WHEN...Until 9 AM CDT this morning.
+The National Weather Service in Sterling Virginia has issued a
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 6 at 3:34AM CDT until July 7 at 11:30AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9bcc88bccea7efee26b20a5ee0fff8b80cf7067.002.1) — *2026-07-06*
-  > ...The Flood Warning continues for the following rivers in Iowa...
+* Flash Flood Warning for...
+Southeastern Baltimore County in northern Maryland...
+Baltimore City in northern Maryland...
 
-Iowa River near Tama Hwy E49 affecting Tama and Poweshiek
-Counties.
+* Until 1030 PM EDT.
 
-South Skunk River at Colfax affecting Marion, Polk and Jasper
-Counties.
+* At 726 PM EDT, Doppler radar indicated thunderstorms producin
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 7:25PM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b9d38a7d031958f7bef0513475db7ddc54b80c.001.1) — *2026-07-06*
+  > At 724 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Sweetwater, moving northeast at 10 mph.
 
-* WHAT...Moderate flooding is occurring and moderate flooding is
-forec
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 6 at 3:34AM CDT until July 7 at 10:00AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9bcc88bccea7efee26b20a5ee0fff8b80cf7067.001.1) — *2026-07-06*
-  > ...The Flood Warning continues for the following rivers in Iowa...
+HAZARD...Wind gusts up to 45 mph and pea size hail.
 
-Iowa River near Tama Hwy E49 affecting Tama and Poweshiek
-Counties.
+SOURCE...Radar indicated.
 
-South Skunk River at Colfax affecting Marion, Polk and Jasper
-Counties.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 7:25PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fbd51002dd99e5a565adeef4b99b886de669c0a.001.1) — *2026-07-06*
+  > At 725 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Oilville, or 8 miles east of Goochland, moving east at 10 mph.
 
-* WHAT...Minor flooding is forecast.
+HAZARD...Wind gusts up to 40 mph, heavy rain, and frequent
+lightning.
 
-* WHERE...The Iowa River near Ta
+SOURCE...Radar indicated.
 
-_(89 additional items in raw.jsonl)_
+IMPACT...Gusty winds could knock down tree limbs 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 7:24PM EDT until July 6 at 9:30PM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed223cb96a8b0c241d5e8a4265126bec49c6dc38.001.1) — *2026-07-06*
+  > FFWPBZ
+
+The National Weather Service in Pittsburgh has issued a
+
+* Flash Flood Warning for...
+East Central Clarion County in west central Pennsylvania...
+Southern Jefferson PA County in west central Pennsylvania...
+
+* Until 930 PM EDT.
+
+* At 724 PM EDT, Doppler radar indicated th
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 7:22PM EDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7182b58708a885ea7384b68e3e49aaa5b09ebe5.001.1) — *2026-07-06*
+  > At 722 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Corydon. This thunderstorm was nearly stationary.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations imp
+
+_(122 additional items in raw.jsonl)_

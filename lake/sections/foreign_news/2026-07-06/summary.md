@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-06
-record_count: 1008
-new_today: 865
+record_count: 1038
+new_today: 896
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-865 new of 1008 total items today.
+896 new of 1038 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-06*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-06*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-06*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Ukraine warns of interceptor missile shortage as 19 killed in Kyiv region](https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Banks accused of failing most vulnerable customers](https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Homeless people or those in financial hardship have been pushed to online applications and away from basic bank accounts.
+- **NEW**  [[Global] Amazon bars breastfeeding boss from business course](https://www.bbc.co.uk/news/articles/cp9llgg5k8ro?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Rachel Bews says she told on the way her child would not be allowed on site. Amazon has apologised for not communicating its policy clearly.
+- **NEW**  [[Global] 'I wear it on my middle finger': The rise of the defiant divorce ring](https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Around the world women are marking their split with new - or repurposed engagement - rings.
+- **NEW**  [[Global] Can China repeat its EV success with robotaxis?](https://www.bbc.co.uk/news/articles/cvgl8dlxjd3o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > China's self-driving car firms have been given a headstart by the country's EV supply chain as they expand globally.
+- **NEW**  [[Global] Microsoft cuts 4,800 jobs and shrinks Xbox in 'significant restructure'](https://www.bbc.co.uk/news/articles/c36yy27rnpeo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > The sweeping layoffs equate to 2.1% of Microsoft's workforce, with 1,600 immediate job losses at Xbox.
+- **NEW**  [[Global] ITV hits such as I'm a Celebrity to stay free to watch after Sky takeover](https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Sky boss Dana Strong's comments came as the channel announces it is buying ITV's media and entertainment divisions in a £1.6bn deal.
+- **NEW**  [[Global] Three things you can do to stop EU border checks at the airport costing you](https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
+  > Queues are expected at airports this summer owing to EU's new digital border control system.
+- **NEW**  [[Global] Wegovy weight loss pill now available in UK - here's what you need to know](https://www.bbc.co.uk/news/articles/czj8w4pjd4yo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > The once-a-day pill, from the makers of the Wegovy weight-loss jab, can now be bought privately in UK pharmacies.
+- **NEW**  [[Global] Backlash after China bubble tea firm ordered to pay Louis Vuitton $1.5m](https://www.bbc.co.uk/news/articles/cwykk095yzzo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > A court in China ruled that Molly Tea had infringed on the luxury brand's four-petal flower design.
+- **NEW**  [[Global] EasyJet agrees 'in principle' to £5.2bn takeover deal](https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > The low-cost airline had previously rejected four takeover offers from US investment firm Castlelake.
+- **NEW**  [[Global] What Sky buying ITV could mean for your favourite shows](https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Sky is set to buy ITV's TV and streaming channels for up to £1.6bn, the companies announced on Monday.
+- **NEW**  [[Global] 'Start work at 11' - but will other bosses be as flexible over England's 1am match?](https://www.bbc.co.uk/news/articles/c8x27k180x8o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
+  > Employers are being urged to use their "common sense" to allow staff to work flexibly where they can.
+- **NEW**  [[Global] 'I wear it on my middle finger': The rise of the defiant divorce ring](https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Around the world women are marking their split with new - or repurposed engagement - rings.
+- **NEW**  [[Global] Banks accused of failing most vulnerable customers](https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Homeless people or those in financial hardship have been pushed to online applications and away from basic bank accounts.
+- **NEW**  [[Global] Fuel providers hopeful of more price reductions](https://www.bbc.co.uk/news/articles/c4gy4g2npk4o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Rubis and ATF Fuels both say they expect to see prices fall further in time.
+- **NEW**  [[Global] Three things you can do to stop EU border checks at the airport costing you](https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
+  > Queues are expected at airports this summer owing to EU's new digital border control system.
+- **NEW**  [[Global] Shoppers hit by hidden fees](https://www.bbc.co.uk/videos/c872254pj4vo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Shoppers hit by hidden fees
+- **NEW**  [[Global] Consumer Fight Back](https://www.bbc.co.uk/sounds/play/m002ykhx?at_medium=RSS&at_campaign=rss) — *2026-07-04*
+  > Linzi checks in on 89-year-old Margaret's battle to get her landline reconnected.
+- **NEW**  [[Global] Money Box](https://www.bbc.co.uk/sounds/play/m002ykfp?at_medium=RSS&at_campaign=rss) — *2026-07-04*
+  > Half a million people say 'no thanks' to joining a workplace pension, why?
+- **NEW**  [[Global] Trump confirms he asked Fifa to review Balogun ban](https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > President Donald Trump confirms he asked Fifa to review United States striker Folarin Balogun's one-match suspension at the World Cup.
+- **NEW**  [[Global] Ukraine warns of interceptor missile shortage as 23 killed in Kyiv region](https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
   > President Zelensky says Sunday's "massive Russian attack" on Kyiv consisted of 68 missiles and 351 strike drones.
-- **NEW**  [[Global] Huge crowds fill Tehran streets for Khamenei's funeral procession](https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Many people were waving Iranian flags and red banners symbolising vengeance for the former supreme leader's war death.
-- **NEW**  [[Global] 'I ate ketchup and cheese,' says Venezuelan girl trapped under quake rubble for 32 hours](https://www.bbc.co.uk/news/articles/c9922x87nj8o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Fabiana was trapped in the rubble of a 10-storey residential building after two earthquakes rocked Venezuela in June.
-- **NEW**  [[Global] Australian PM apologises for 'inappropriate' comments about Kylie Minogue](https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Albanese has apologised 'unequivocally' after his remarks prompted a backlash.
-- **NEW**  [[Global] Marine Le Pen appeal verdict: Why this moment matters for France](https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > The leader of France's National Rally leads the opinion polls ahead of the 2027 presidential election and will now find out if she can stand.
-- **NEW**  [[Global] A global hub for fake luxury goods, Vietnam cracks down on its black market](https://www.bbc.co.uk/news/articles/cdx7zzywz7wo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > The Trump administration wants Vietnam to stamp out its booming counterfeit industry. Locals are divided.
-- **NEW**  [[Global] Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts](https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The storm, with winds of nearly 290km/h (180mph) and gusts of 350km/h, is lashing the island of Rota.
-- **NEW**  [[Global] Australia space agency has found 'likely source' of mystery space balls](https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The agency says that they "appear to be pressure vessels from a space launch vehicle".
-- **NEW**  [[Global] 'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago](https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > The plane had 52 passengers and six crew onboard. No injuries were reported.
-- **NEW**  [[Global] The African fishermen who blame Chinese trawlers for their woes](https://www.bbc.co.uk/news/articles/cj4gy9qy7vyo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Fishing crews in Sierra Leone say large Chinese ships are illegally hoovering up stocks.
-- **NEW**  [[Global] Bangladesh courts China even as ties with India improve](https://www.bbc.co.uk/news/articles/cy4e1lzwgvxo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Relations between Dhaka and Delhi, that turned frosty under the interim government, are on the mend.
-- **NEW**  [[Global] Thousands welcome home Cape Verde footballers after stunning World Cup run](https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.
-- **NEW**  [[Global] Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks](https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Nigeria's government said one of its nationals was reportedly killed by police officers "using gruesome interrogation techniques".
-- **NEW**  [[Global] From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding](https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Some of the famous guests have been posting on social media about the big day in New York.
-- **NEW**  [[Global] How Iran's new regime is very different to what came before](https://www.bbc.co.uk/news/articles/cg534ryp660o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Khamenei's funeral is another reminder of the change Iran has seen, but what does its new leadership want?
-- **NEW**  [[Global] Cowboys, fighter jets and US Border Patrol - inside Trump's big recruitment drive](https://www.bbc.co.uk/news/articles/ce3ex7rnpg6o?at_medium=RSS&at_campaign=rss) — *2026-07-04*
-  > Space Force and Customs and Border Patrol are using a rodeo as a way to drive up recruitment numbers.
-- **NEW**  [[Global] France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts](https://www.bbc.co.uk/sport/football/articles/cn4dpd11v1eo?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > After dismantling all before them at this World Cup, France had to find a new way to win against a Paraguay side whose use of the dark arts angered many of those watching.
-- **NEW**  [[Global] Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding](https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss) — *2026-07-04*
-  > The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.
-- **NEW**  [[Global] 'Hotter and hotter and hotter' - Europe's new climate in seven charts](https://www.bbc.co.uk/news/articles/c8e2j0j87reo?at_medium=RSS&at_campaign=rss) — *2026-07-04*
-  > Temperature records were smashed in June - and scientists warn this is a sign of things to come.
-- **NEW**  [[Global] More cows than pupils - what is behind mass school closures in rural Kenya?](https://www.bbc.co.uk/news/articles/cy72mn3m7l3o?at_medium=RSS&at_campaign=rss) — *2026-07-04*
-  > More than 2,000 primary schools are facing closure as enrolment numbers plummet.
-- **NEW**  [[Global] Watch: Why Australia's PM apologised for 'inappropriate' Kylie comments](https://www.bbc.co.uk/news/videos/c1kyylkz9vyo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Australian Prime Minister Anthony Albanese has apologised for remarks he made about popstar Kylie Minogue in a podcast interview last week.
-- **NEW**  [[Global] Girl trapped in Venezuela quake 'survived on ketchup and cheese'](https://www.bbc.co.uk/news/videos/cjrggj051pvo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > BBC international correspondent Yogita Limayee meets 12-year-old Fabiana, who was trapped in Venezuela's devastating earthquakes.
+- **NEW**  [[Global] Charlie Kirk's family attends hearing for suspect charged with his murder](https://www.bbc.co.uk/news/articles/c1myyyyjvx5o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Tyler Robinson, 23, is accused of murdering Kirk, a key Trump ally and founder of youth organisation Turning Point USA.
 
-_(983 additional items in raw.jsonl)_
+_(1013 additional items in raw.jsonl)_
