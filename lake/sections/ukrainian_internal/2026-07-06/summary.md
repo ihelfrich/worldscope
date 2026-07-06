@@ -13,6 +13,8 @@ state: fresh
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-06*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: На Київщині з міркувань безпеки обмежили рух поїздів: очікуються затримки – УЗ | LEDE: На деяких ділянках залізниці у Київській області з безпекових міркувань обмежили рух поїздів, через що низ] (uk: На Київщині з міркувань безпеки обмежили рух поїздів: очікуються затримки – УЗ)](https://www.pravda.com.ua/news/2026/07/06/8042547/) — *2026-07-06*
+  > На деяких ділянках залізниці у Київській області з безпекових міркувань обмежили рух поїздів, через що низка рейсів прямуватиме із затримкою за резервними маршрутами.
 - **NEW**  [[TITLE: "Батальйон Монако 4": Як УП знайшла фігурантів операції "Мідас" на Лазуровому березі | LEDE: Чотири роки тому у липні 2022-ого "Українська правда" опублікувала першу частину серіалу "Батальйон ] (uk: "Батальйон Монако 4": Як УП знайшла фігурантів операції "Мідас" на Лазуровому бе)](https://www.pravda.com.ua/articles/2026/07/06/8042535/) — *2026-07-06*
   > Чотири роки тому у липні 2022-ого "Українська правда" опублікувала першу частину серіалу "Батальйон Монако" про українські еліти, які втекли за кордон під час великої війни. За вікном вже середина 2026-ого і можна сміливо констатувати, що у цього елітного "підрозділу" не лише від
 - **NEW**  [[TITLE: Російська ракета влучила в девʼятиповерхівку на Подолі: в Києві вже 7 загиблих та 24 поранених | LEDE: У ніч на 6 липня російська ракета влучила в дев'ятиповерховий житловий будинок у Подільськ] (uk: Російська ракета влучила в девʼятиповерхівку на Подолі: в Києві вже 7 загиблих т)](https://www.pravda.com.ua/news/2026/07/06/8042543/) — *2026-07-06*
@@ -48,15 +50,13 @@ state: fresh
 - **NEW**  [[TITLE: ДТП з 12 загиблими: Водію, який втік із місця події, вручили підозру | LEDE: Водія Nissan підозрюють у порушенні ПДР після аварії, де загинули 12 осіб, травмовано 6, ДТП сталася на трасі Одеса–] (uk: ДТП з 12 загиблими: Водію, який втік із місця події, вручили підозру)](https://www.pravda.com.ua/news/2026/07/05/8042517/) — *2026-07-05*
   > Водія Nissan підозрюють у порушенні ПДР після аварії, де загинули 12 осіб, травмовано 6, ДТП сталася на трасі Одеса–Мелітополь.
 - **NEW**  [[TITLE: У Словаччині провалився референдум щодо довічних виплат Фіцо і відновлення спецпрокуратури | LEDE: ] (uk: У Словаччині провалився референдум щодо довічних виплат Фіцо і відновлення спецп)](https://www.pravda.com.ua/news/2026/07/05/8042495/) — *2026-07-05*
-- **NEW**  [[TITLE: Гауляйтер окупованої Херсонщини заявив, що область залишилася без світла | LEDE: Вся окупована Херсонська область частково або повністю без світла. Заявив гауляйтер окупованої області.] (uk: Гауляйтер окупованої Херсонщини заявив, що область залишилася без світла)](https://www.pravda.com.ua/news/2026/07/05/8042516/) — *2026-07-05*
-  > Вся окупована Херсонська область частково або повністю без світла. Заявив гауляйтер окупованої області.
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-06*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-06*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-06*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 - [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-06*
   > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-06*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [The Ukrainian Cossack Who Gave Us Vienna Coffee](https://www.kyivpost.com/post/79506) — *2026-07-05*
+  > Yuriy Kulchytsky, a native of western Ukraine who fought with the Cossacks, was one of the most extraordinary figures of the 17th century. During the siege of Vienna in 1683, he volunteered for a dangerous mission: dressed as a Turk, he walked through the enemy camp and delivered
 
 _(77 additional items in raw.jsonl)_

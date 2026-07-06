@@ -2,21 +2,17 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-06
-record_count: 57
-new_today: 57
+record_count: 52
+new_today: 52
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-57 new of 57 total items today.
+52 new of 52 total items today.
 
 - **NEW**  [[BleepingComputer] Flipper Zero firmware development continues with community help](https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/) — *2026-07-05*
   > Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]
-- **NEW**  [[The Register] MFA-optional banks leave safe doors (and accounts) wide open for thieves to pillage](https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161) — *2026-07-05*
-  > Financial institutions are putting their clients at risk in the name of convenience.
-- **NEW**  [[The Register] C programmers commit fresh crimes against readability](https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981) — *2026-07-05*
-  > Prepare to be befuddled and bamboozled – and probably bewitched
 - **NEW**  [[Ars Technica] Chemical accidents rise as Trump administration proposes weakening safety rules](https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/) — *2026-07-05*
   > Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.
 - **NEW**  [[Ars Technica] The missing 500 million: Cosmic bombardment melted Earth's first crust](https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/) — *2026-07-05*
@@ -41,10 +37,6 @@ The odd part: the group that took the money
   > The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider.
 
 "The campaign remains 
-- **NEW**  [[The Register] Confidential computing's core trust mechanism is broken. The fix may not exist](https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056) — *2026-07-04*
-  > Attested TLS: the handshake that can't prove who's on the other end
-- **NEW**  [[The Register] NASA says it will isolate volunteers from the outside world for a year](https://www.theregister.com/science/2026/07/04/nasa-says-it-will-isolate-volunteers-from-the-outside-world-for-a-year/5266558) — *2026-07-04*
-  > There might also be a downside
 - **NEW**  [[Ars Technica] Review: Supergirl is not the disaster its low box office suggests](https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/) — *2026-07-04*
   > It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.
 - **NEW**  [[Ars Technica] When the ability to smell goes away](https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/) — *2026-07-04*
@@ -71,5 +63,16 @@ Bad Epoll sits in the same small stretch of kernel code w
 Avalon combines credential collection, lateral movement,
 - **NEW**  [[The Record] Spyware found on phone of European Parliament member probing it](https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member) — *2026-07-03*
   > Stelios Kouloglou, formerly a member of the European Parliament's committee investigating abuses of commercial spyware, was twice infected with Pegasus while serving, researchers said.
+- **NEW**  [[Schneier on Security] Flock Cameras Can Surveil Cars Without License Plates](https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html) — *2026-07-03*
+  > This is from a 2024 company presentation:
+Officers can also tap into data showing a car&#8217;s decals, bumper stickers, back and top racks&#8212;along with temporary and unique state tags.
+Flock calls it a &#8220;Vehicle Fingerprint&#8221; and it&#8217;s touted as a way for law 
+- **NEW**  [[Computer Weekly] Europe’s sovereignty ambitions stall at the procurement desk](https://www.computerweekly.com/news/366645394/Europes-sovereignty-ambitions-stall-at-the-procurement-desk) — *2026-07-03*
+  > &lt;p&gt;&lt;a href="https://www.linkedin.com/in/sachikomuto/"&gt;Sachiko Muto&lt;/a&gt;, chair of OpenForum Europe and senior researcher at Rise Institute, has spent the better part of two decades telling European policymakers that open source must be at the heart of digital sov
+- **NEW**  [[Computer Weekly] Interview: Oracle NetSuite’s Evan Goldberg – SaaSpocalypse averted](https://www.computerweekly.com/news/366645140/Oracle-NetSuites-Goldberg-SaaSpocalypse-averted) — *2026-07-03*
+  > &lt;p&gt;Evan Goldberg, executive vice-president of Oracle NetSuite, recently took a class in artificial intelligence (AI) at Stanford University to brush up on his knowledge, he told Computer Weekly on a visit to London. Goldberg has a &lt;a href="https://www.computerweekly.com/
+- **NEW**  [[Computer Weekly] Platforms must shoulder burden of proof for social media design](https://www.computerweekly.com/news/366645433/Platforms-must-shoulder-burden-of-proof-for-social-media-design) — *2026-07-03*
+  > &lt;p&gt;The harms of social media design are so clear that the “burden of proof” for safer features must fall on the companies themselves, rather than parents or policymakers, a technology psychologist has told MPs. &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;During &lt;a href="https://commi
 
-_(32 additional items in raw.jsonl)_
+_(27 additional items in raw.jsonl)_

@@ -2,16 +2,25 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-06
-record_count: 181
-new_today: 180
+record_count: 184
+new_today: 183
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-180 new of 181 total items today.
+183 new of 184 total items today.
 
-- **NEW**  [[St. Louis] Red, white and boom: St. Louis metro celebrates America's 250th Independence Day](https://www.stlpr.org/culture-history/2026-07-04/photos-st-louis-america-250-independence) — *2026-07-04*
+- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-06*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Lou’s Clues – 7/6/2026](https://www.stlmag.com/games/lous-clues-070626/) — *2026-07-06*
+  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
+- **NEW**  [[St. Louis] England defeats Mexico to head into World Cup quarterfinals](https://www.ksdk.com/article/sports/soccer/world-cup/england-defeats-mexico-head-into-quarterfinals-world-cup/507-e914d742-b286-4ee8-8954-7bc1c49fb865) — *2026-07-06*
+  > The Brits will verse Norway on July 11 in Florida.
+- **NEW**  [[St. Louis] Who has moved on in the World Cup? See the quarterfinal bracket](https://www.ksdk.com/article/sports/soccer/world-cup/world-cup-quarterfinal-teams-advancing-eliminated/507-23e186d4-7180-47eb-ad81-29d4ec4b5743) — *2026-07-06*
+  > Only a handful of teams remain in the 2026 World Cup after the first knockout round of 32.
+- **NEW**  [[St. Louis] 'God told me to come': Bystander saves 2-year-old with CPR after near-drowning in Michigan](https://www.ksdk.com/article/news/nation-world/bystander-saves-child-cpr-michigan/507-d24d5d40-5ee0-48ba-b801-98e9fa543f05) — *2026-07-06*
+  > A 2-year-old girl was pulled from the water unconscious and not breathing. That's when Mariza Mojica stepped in.
 - **NEW**  [[St. Louis] 8 rescued after seaplane makes 'hard landing' in New York City river](https://www.ksdk.com/article/news/nation-world/8-rescued-plane-lands-new-york-river/507-f021aae3-5e68-4114-9462-084956d36c38) — *2026-07-05*
   > The sea plane carrying eight people made a “hard landing” around noon, according to the New York City Fire Department.
 - **NEW**  [[St. Louis] Khamenei's other sons appear at his funeral in Iran as new supreme leader remains in hiding](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-top-officials-attend-prayer-late-supreme-leader-ayatollah-ali-khamenei-tehran/507-61ed472c-7786-4d9b-95c5-3153cf6706f1) — *2026-07-05*
@@ -52,13 +61,5 @@ state: fresh
   > A man was critically injured in a shooting on Ashland Avenue. He died a short time later.
 - **NEW**  [[St. Louis] Fire breaks out on Brooklyn Bridge during New York's fireworks show](https://www.ksdk.com/article/news/nation-world/fire-brooklyn-bridge-fireworks-show/507-e71a5a4e-a3e2-42e5-be30-981f9bd55ede) — *2026-07-05*
   > A fire erupted on the Brooklyn Bridge during NYC's July Fourth fireworks, creating dramatic smoke but causing no injuries.
-- **NEW**  [[St. Louis] 12 sickened with E. coli connected to frozen blueberries sold at Publix](https://www.ksdk.com/article/news/nation-world/frozen-blueberries-publix-e-coli-recall/507-15890300-91f7-4802-9d13-1bd9f046d80e) — *2026-07-05*
-  > The frozen blueberries were sold at Publix stores in: Alabama, Florida, Georgia, Kentucky, North Carolina, South Carolina, Tennessee and Virginia.
-- **NEW**  [[St. Louis] LIVE RADAR | Drenching storms cancel multiple St. Louis July 4 events](https://www.ksdk.com/article/weather/weather-impact/st-louis-weather-radar-scattered-storms-dampen-july-4-events-friday-july-3-2026/63-f8f5985a-3798-4e9c-94c5-7b0f7d06b89d) — *2026-07-04*
-  > Storms are dropping significant rain across the St. Louis region. Stay ahead of the showers on the free 5 On Your Side weather radar.
-- **NEW**  [[St. Louis] Thousands of Amana air conditioners recalled due to fire and burn risks](https://www.ksdk.com/article/news/nation-world/amana-air-conditioners-recalled/507-ba8ec1aa-3140-45d0-abff-f3167b30c867) — *2026-07-04*
-  > A recall was issued for 13,514 Amana air conditioners due to fire and burn hazards, urging users to stop use and seek refunds.
-- **NEW**  [[St. Louis] Paul Pelosi in hit-and-run in Napa County wine country, car left with major damage, authorities say](https://www.ksdk.com/article/news/nation-world/paul-pelosi-hit-and-run-california/507-4f79f8bd-562a-465e-920f-8289b8e483ce) — *2026-07-04*
-  > Paul Pelosi, husband of former House Speaker Nancy Pelosi, may face misdemeanor charges after allegedly hitting a parked car in California and leaving the scene.
 
-_(156 additional items in raw.jsonl)_
+_(159 additional items in raw.jsonl)_
