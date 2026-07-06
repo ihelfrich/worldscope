@@ -92,12 +92,26 @@ class AcledSection(Section):
             headers={"User-Agent": UA, "Accept": "application/json"},
             timeout=30,
         )
+        # Surface *why* auth failed instead of an opaque "no token". A non-200
+        # here means the myACLED credentials were present but rejected by the
+        # OAuth endpoint (wrong/expired password, or the account is not approved
+        # for API access) — a credential/account problem, not a code one. The
+        # endpoint returns an OAuth error body like
+        # {"error":"invalid_grant","error_description":"..."} we echo back.
         if resp.status_code != 200:
-            return None
+            detail = (resp.text or "")[:180].replace("\n", " ")
+            raise UpstreamAuthError(
+                f"ACLED token endpoint rejected credentials "
+                f"(HTTP {resp.status_code}): {detail} — verify ACLED_EMAIL / "
+                f"ACLED_PASSWORD are your current, API-approved myACLED credentials"
+            )
         body = resp.json()
         token = body.get("access_token")
         if not token:
-            return None
+            raise UpstreamAuthError(
+                "ACLED token endpoint returned 200 but no access_token "
+                f"(response: {str(body)[:180]})"
+            )
         self._save_token(token, int(body.get("expires_in", 3600)))
         return token
 

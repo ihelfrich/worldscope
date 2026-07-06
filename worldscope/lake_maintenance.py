@@ -12,14 +12,22 @@ snapshots table accrues one row per section per day, nothing ever deleted
 them, and the store crossed 103 MB — every daily-brief push after that was
 rejected. maintain_store() applies the same treatment to it.
 
+The age-based prune alone is not enough: `records` grows ~1 MB/day and the
+data is far younger than the retention window, so nothing ages out and the
+lake was creeping back toward 100 MB (90 MB and climbing on 2026-07-06). So
+BOTH DBs now also enforce a hard size ceiling by dropping their oldest day
+until the VACUUMed file is under the ceiling.
+
 This module, run before the daily commit, keeps both DBs healthy:
   1. prune the quarantine table to a short retention window,
-  2. prune records (and orphaned links) beyond a rolling window (insurance
-     against unbounded future growth),
-  3. prune snapshot-store history beyond a rolling window, always keeping
-     the newest row per section (the render carry-forward reads it),
-  4. VACUUM to reclaim freed pages,
-  5. warn loudly if a file is still close to the limit.
+  2. prune records (and orphaned links) beyond a rolling window,
+  3. enforce a hard MB ceiling on the lake by dropping the oldest ingested
+     day of records (cascading orphan cleanup), always keeping the newest,
+  4. prune snapshot-store history beyond a rolling window, always keeping
+     the newest row per section (the render carry-forward reads it), then
+     enforce the store's own MB ceiling,
+  5. VACUUM to reclaim freed pages,
+  6. warn loudly if a file is still close to the limit.
 
     python -m worldscope.lake_maintenance            # default thresholds
     python -m worldscope.lake_maintenance --keep-days 120
@@ -48,8 +56,16 @@ def _exec(con: sqlite3.Connection, sql: str, params=()) -> int:
         return 0
 
 
+def _cleanup_record_orphans(con: sqlite3.Connection) -> None:
+    """Delete link/embedding/evidence rows whose parent record is gone."""
+    _exec(con, "DELETE FROM record_entities WHERE record_id NOT IN (SELECT id FROM records)")
+    _exec(con, "DELETE FROM record_embeddings WHERE record_id NOT IN (SELECT id FROM records)")
+    _exec(con, "DELETE FROM claim_evidence WHERE record_id NOT IN (SELECT id FROM records)")
+
+
 def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
-             quarantine_keep_days: int = 2, vacuum: bool = True) -> dict:
+             quarantine_keep_days: int = 2, max_mb: float = 85.0,
+             vacuum: bool = True) -> dict:
     db_path = Path(db_path)
     if not db_path.exists():
         print(f"[lake-maint] no lake at {db_path}")
@@ -68,12 +84,34 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
                    "(SELECT id FROM quarantine ORDER BY detected_at DESC LIMIT -1 OFFSET 2000)")
         nr = _exec(con, "DELETE FROM records WHERE ingested_at < ?", (r_cut,))
         # clean up links/embeddings orphaned by the record prune
-        _exec(con, "DELETE FROM record_entities WHERE record_id NOT IN (SELECT id FROM records)")
-        _exec(con, "DELETE FROM record_embeddings WHERE record_id NOT IN (SELECT id FROM records)")
-        _exec(con, "DELETE FROM claim_evidence WHERE record_id NOT IN (SELECT id FROM records)")
+        _cleanup_record_orphans(con)
         con.commit()
         if vacuum:
             con.execute("VACUUM")
+
+        # Hard size ceiling, same design as maintain_store(). The age prune
+        # above reclaims nothing until data is `keep_days` old, but `records`
+        # grows ~1MB/day and dominates the file — so once VACUUMed size still
+        # exceeds max_mb, drop the oldest ingested *day* of records (cascading
+        # the orphan cleanup) and repeat. The newest ingested day is always
+        # kept so the queryable lake never empties to nothing.
+        newest_day = con.execute("SELECT MAX(date(ingested_at)) FROM records").fetchone()[0]
+        while vacuum and newest_day and db_path.stat().st_size / 1e6 > max_mb:
+            oldest = con.execute(
+                "SELECT MIN(date(ingested_at)) FROM records WHERE date(ingested_at) <> ?",
+                (newest_day,),
+            ).fetchone()[0]
+            if oldest is None:
+                print(f"::warning::lake is {db_path.stat().st_size/1e6:.1f}MB with only "
+                      f"the newest day of records left — non-record tables dominate")
+                break
+            dropped = _exec(con, "DELETE FROM records WHERE date(ingested_at) = ?", (oldest,))
+            _cleanup_record_orphans(con)
+            con.commit()
+            con.execute("VACUUM")
+            nr += dropped
+            if dropped == 0:
+                break  # nothing removed; avoid an infinite loop
     finally:
         con.close()
 
@@ -83,7 +121,7 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
           f"{before/1e6:.1f}MB -> {mb:.1f}MB")
     if mb > SOFT_WARN_MB:
         print(f"::warning::lake is {mb:.1f}MB, approaching GitHub's 100MB limit — "
-              f"tighten --keep-days or move the lake out of git (LFS / external store)")
+              f"lower --max-mb or move the lake out of git (external store)")
     return {"ok": True, "before": before, "after": after, "mb": mb,
             "quarantine_deleted": nq, "records_deleted": nr}
 
@@ -154,6 +192,9 @@ def main(argv=None) -> int:
     ap.add_argument("--keep-days", type=int, default=120,
                     help="retain records ingested within this many days")
     ap.add_argument("--quarantine-keep-days", type=int, default=2)
+    ap.add_argument("--max-mb", type=float, default=85.0,
+                    help="hard size ceiling: drop oldest record-days until the "
+                         "VACUUMed lake is under this many MB")
     ap.add_argument("--store", default=str(DEFAULT_STORE))
     ap.add_argument("--store-keep-days", type=int, default=60,
                     help="retain snapshots within this many days of the newest")
@@ -161,7 +202,8 @@ def main(argv=None) -> int:
     ap.add_argument("--no-vacuum", action="store_true")
     args = ap.parse_args(argv)
     res = maintain(Path(args.db), keep_days=args.keep_days,
-                   quarantine_keep_days=args.quarantine_keep_days, vacuum=not args.no_vacuum)
+                   quarantine_keep_days=args.quarantine_keep_days,
+                   max_mb=args.max_mb, vacuum=not args.no_vacuum)
     store_res = maintain_store(Path(args.store), keep_days=args.store_keep_days,
                                max_mb=args.store_max_mb, vacuum=not args.no_vacuum)
     return 0 if (res.get("ok") and store_res.get("ok")) else 1
