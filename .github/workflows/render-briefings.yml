@@ -42,6 +42,8 @@ env:
 jobs:
   render:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -67,6 +69,7 @@ jobs:
       - name: Compile Tailwind CSS
         run: npm run build:css
       - name: Commit dist/ briefings (race-safe)
+        id: commit
         run: |
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
@@ -78,8 +81,10 @@ jobs:
           # If nothing changed, exit cleanly.
           if git diff --staged --quiet; then
             echo "No rendered-HTML changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
           git commit -m "rendered briefs ($(date -u +%Y-%m-%d))"
           # Retry-with-rebase loop. Concurrent commits from the pushover
           # workflow or the routine itself otherwise reject our push and
@@ -94,13 +99,24 @@ jobs:
             # favors the replayed commit during rebase). Abort cleanly if stuck.
             git pull --rebase --autostash -X theirs origin main || git rebase --abort
           done
+      # The scheduled catch-up runs (4x/day) usually find nothing new to
+      # render; redeploying an identical dist/ just burns a Pages deployment
+      # and has been failing with "Deployment failed, try again later".
+      # Deploy only when this run committed something, or when a human asked.
       - uses: actions/configure-pages@v5
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
         with:
           path: dist
   deploy:
     needs: render
+    if: needs.render.outputs.changed == 'true' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
+    # Serialize Pages deploys with daily-brief.yml (see comment there).
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
