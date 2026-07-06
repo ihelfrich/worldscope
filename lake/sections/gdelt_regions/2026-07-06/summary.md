@@ -3,23 +3,23 @@ section: gdelt_regions
 title: World News (by country, top stories)
 date: 2026-07-06
 record_count: 6
-new_today: 0
-state: stale_after_failure
+new_today: 6
+state: fresh
 ---
 
 ## World News (by country, top stories)
 
-0 new of 6 total items today.
+6 new of 6 total items today.
 
-- [[China] China , Finland agree to strengthen cooperation , jointly address challenges](https://www.globaltimes.cn/page/202607/1365210.shtml) — *2026-07-06*
-  > globaltimes.cn · English
-- [[China] ByteDance Doubao and Alibaba Qwen to shut down AI agent features on July 15 · TechNode](https://technode.com/2026/07/06/bytedances-doubao-and-alibabas-qwen-to-shut-down-ai-agent-features-on-july-15/) — *2026-07-06*
-  > technode.com · English
-- [[China] Neymar signals Brazil farewell after World Cup exit](http://www.china.org.cn/2026-07/06/content_118584403.shtml) — *2026-07-06*
-  > china.org.cn · English
-- [[China] China Long March - 8A rocket launches new satellite group](http://www.china.org.cn/2026-07/06/content_118584337.shtml) — *2026-07-06*
-  > china.org.cn · English
-- [[China] China , Finland agree to strengthen cooperation , jointly address challenges](http://www.china.org.cn/2026-07/06/content_118584062.shtml) — *2026-07-06*
-  > china.org.cn · English
-- [[China] Cristiano Ronaldo :  This will be my last World Cup  ](http://www.china.org.cn/2026-07/06/content_118584399.shtml) — *2026-07-06*
-  > china.org.cn · English
+- **NEW**  [[South Korea] DAY6 Member Dowoon Breaks Silence on Dating and Marriage Rumors During Concert](https://www.kpopstarz.com/articles/323086/20260706/day6-member-dowoon-breaks-silence-dating-marriage-rumors-during-concert.htm) — *2026-07-06*
+  > kpopstarz.com · English
+- **NEW**  [[South Korea] Blogs | Koreabridge](https://koreabridge.net/posts) — *2026-07-06*
+  > koreabridge.net · English
+- **NEW**  [[South Korea]  [ Deep dive ] Korea Democrats soul - search after losing the youth vote](https://english.hani.co.kr/arti/english_edition/e_national/1266935.html) — *2026-07-06*
+  > english.hani.co.kr · English
+- **NEW**  [[South Korea] Blue House pushes back against US claims about Coupang after White House says it  deeply concerned  ](https://english.hani.co.kr/arti/english_edition/e_international/1266934.html) — *2026-07-06*
+  > english.hani.co.kr · English
+- **NEW**  [[South Korea]  [ Column ] The Tumen is the new Yalu , the Yalu is the new Pearl River](https://english.hani.co.kr/arti/english_edition/english_editorials/1266938.html) — *2026-07-06*
+  > english.hani.co.kr · English
+- **NEW**  [[South Korea]  [ Editorial ] Seoul must respond firmly to U biased claims about Coupang](https://english.hani.co.kr/arti/english_edition/english_editorials/1266932.html) — *2026-07-06*
+  > english.hani.co.kr · English

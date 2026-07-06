@@ -2,17 +2,25 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-06
-record_count: 985
-new_today: 843
+record_count: 1008
+new_today: 865
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-843 new of 985 total items today.
+865 new of 1008 total items today.
 
-- **NEW**  [[Global] Ukraine warns of interceptor missile shortage as 18 killed in Kyiv region](https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Ukraine warns of interceptor missile shortage as 19 killed in Kyiv region](https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
   > President Zelensky says Sunday's "massive Russian attack" on Kyiv consisted of 68 missiles and 351 strike drones.
+- **NEW**  [[Global] Huge crowds fill Tehran streets for Khamenei's funeral procession](https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
+  > Many people were waving Iranian flags and red banners symbolising vengeance for the former supreme leader's war death.
 - **NEW**  [[Global] 'I ate ketchup and cheese,' says Venezuelan girl trapped under quake rubble for 32 hours](https://www.bbc.co.uk/news/articles/c9922x87nj8o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
   > Fabiana was trapped in the rubble of a 10-storey residential building after two earthquakes rocked Venezuela in June.
 - **NEW**  [[Global] Australian PM apologises for 'inappropriate' comments about Kylie Minogue](https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss) — *2026-07-06*
@@ -53,13 +61,5 @@ state: fresh
   > Australian Prime Minister Anthony Albanese has apologised for remarks he made about popstar Kylie Minogue in a podcast interview last week.
 - **NEW**  [[Global] Girl trapped in Venezuela quake 'survived on ketchup and cheese'](https://www.bbc.co.uk/news/videos/cjrggj051pvo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
   > BBC international correspondent Yogita Limayee meets 12-year-old Fabiana, who was trapped in Venezuela's devastating earthquakes.
-- **NEW**  [[Global] Why Ukrainian strikes on annexed Crimea are a blow to Putin](https://www.bbc.co.uk/news/videos/c2dy21549w1o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Eastern Europe correspondent Sarah Rainsford explains why Crimea is a target for Kyiv, and why the peninsula matters to Vladimir Putin.
-- **NEW**  [[Global] Emotion and politics merge in Tehran at funeral of former supreme leader](https://www.bbc.co.uk/news/videos/c4gyye3rplno?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > The BBC's chief international correspondent Lyse Doucet is in Tehran, where funeral events are taking place in honour of Iran's former leader, Ayatollah Ali Khamenei.
-- **NEW**  [[Global] Scorching heat and delays: How Washington DC marked America 250](https://www.bbc.co.uk/news/videos/cwyk2ypj014o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > The United States of America marked its 250th birthday with fireworks, flyovers, some intense weather across the country.
-- **NEW**  [[Global] ITV sells media and entertainment arm to Sky for £1.6bn](https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The two broadcasters say the deal will create a strong rival to global streaming giants.
 
-_(960 additional items in raw.jsonl)_
+_(983 additional items in raw.jsonl)_

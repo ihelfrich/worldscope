@@ -27,6 +27,8 @@ state: fresh
   > M5.0 · 98 km NW of Coquimbo, Chile · depth 10 km
 - **NEW**  [M 4.7 - 91 km WNW of Tamarindo, Costa Rica](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tacl) — *2026-07-06*
   > M4.7 · 91 km WNW of Tamarindo, Costa Rica · depth 10 km
+- **NEW**  [M 4.6 - 28 km NNE of Kuji, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taf3) — *2026-07-06*
+  > M4.6 · 28 km NNE of Kuji, Japan · depth 66.979 km
 - **NEW**  [M 4.6 - 112 km NNW of Neiafu, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tada) — *2026-07-06*
   > M4.6 · 112 km NNW of Neiafu, Tonga · depth 113.237 km
 - **NEW**  [M 4.6 - 185 km W of Abepura, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tab5) — *2026-07-05*
@@ -35,5 +37,3 @@ state: fresh
   > M4.6 · 31 km NNW of Mianzhu, Deyang, Sichuan, China · depth 10 km
 - **NEW**  [M 4.5 - 28 km NW of Shikotan, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taa3) — *2026-07-05*
   > M4.5 · 28 km NW of Shikotan, Russia · depth 98.821 km
-- **NEW**  [M 4.5 - 71 km W of Ovalle, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta95) — *2026-07-05*
-  > M4.5 · 71 km W of Ovalle, Chile · depth 17.675 km

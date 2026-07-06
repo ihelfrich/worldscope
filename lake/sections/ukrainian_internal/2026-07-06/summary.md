@@ -2,65 +2,64 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-07-06
-record_count: 114
-new_today: 106
+record_count: 117
+new_today: 109
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-106 new of 114 total items today.
+109 new of 117 total items today.
 
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-06*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-06*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-06*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-06*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] Hromadske: HTTPError](https://hromadske.ua/rss) — *2026-07-06*
-  > 404 Client Error: Not Found for url: https://hromadske.ua/rss
-- **NEW**  [Ukraine Seeks Emergency UN Security Council Meeting After Russian Attack](https://www.kyivpost.com/post/79680) — *2026-07-06*
-  > Ukraine has requested an emergency meeting of the UN Security Council following Russia's second large-scale missile and drone attack within days. Kyiv urged council members to back the request, warning that delayed or weak responses only encourage further Russian attacks.
-- **NEW**  [British Defence Intelligence Update Ukraine July 3, 2026](https://www.kyivpost.com/post/79679) — *2026-07-06*
-  > British Defence Intelligence.
-- **NEW**  [Ukraine Tells Allies Patriots Due in 2027: Save Lives – Send Stockpiled Patriots](https://www.kyivpost.com/post/79674) — *2026-07-06*
-  > Ukraine has proposed that allies temporarily transfer Patriot interceptor missiles from their own stockpiles and replenish them later with future deliveries already on order, arguing the move could save lives as Russia intensifies ballistic missile attacks.
-- **NEW**  [‘Putin Will Keep Aiming Missiles at Sleeping Children’ – Sybiha Urges More Air Defense Ahead of NATO Summit](https://www.kyivpost.com/post/79671) — *2026-07-06*
-  > Foreign Minister Andrii Sybiha called on NATO leaders gathering in Ankara to urgently boost Ukraine's air defenses after Russia launched a major missile and drone attack on Kyiv. He said delays in supplying Patriot interceptors only encourage Moscow to continue targeting civilian
-- **NEW**  [Ukraine Strikes Major Russian Refinery, Baltic Oil Ports, Drones Trigger First Air Raid in Chelyabinsk](https://www.kyivpost.com/post/79667) — *2026-07-06*
-  > Ukraine reportedly targeted one of Russia’s largest oil refineries, two major Baltic export ports, and an industrial facility in an overnight drone campaign, according to Russian officials and media. The attacks also reportedly triggered the first air raid alerts in Chelyabinsk s
-- **NEW**  [Zelensky After Deadly Russian Attack: ‘Patriot Missiles Belong in Ukraine, Not in Warehouses’](https://www.kyivpost.com/post/79666) — *2026-07-06*
-  > Zelensky urged Ukraine’s allies to provide more Patriot interceptor missiles after Russia launched a massive overnight attack involving 68 missiles and 351 drones. He said Ukraine successfully intercepted drones and cruise missiles but lacked sufficient capabilities to stop balli
-- **NEW**  [Over 600 Evacuated After Ongoing Explosions Near Kyiv](https://www.kyivpost.com/post/79665) — *2026-07-06*
-  > More than 600 residents were evacuated from a town just outside Kyiv city limits after a Russian overnight attack left explosive hazards continuing to detonate.
-- **NEW**  [‘One of the Worst Attacks’: Russia Fires 29 Ballistic Missiles at Kyiv Without Intercepts](https://www.kyivpost.com/post/79658) — *2026-07-06*
-  > Russia launched 419 aerial weapons against Ukraine overnight, including 23 ballistic missiles and six anti-ship missiles that Ukrainian air defenses failed to intercept. While 363 targets were destroyed or suppressed, Kyiv suffered severe damage as residential buildings were stru
-- **NEW**  [Make NATO European? How Trump Is Reshaping the Alliance](https://www.kyivpost.com/post/79655) — *2026-07-06*
-  > Trump’s demands for Europe to shoulder more of NATO’s defense are accelerating a transformation already underway after Russia’s invasion of Ukraine. As alliance leaders gather in Ankara, European nations are boosting military spending and preparing to assume greater responsibilit
-- **NEW**  [‘Deliberate Provocation’: Ukrainian Writer’s Grave Vandalized in Poland](https://www.kyivpost.com/post/79653) — *2026-07-06*
-  > Unknown vandals stole a bronze relief from the grave of Ukrainian writer and professor Lepkyi at Krakow’s Rakowicki Cemetery. Ukraine’s Foreign Ministry condemned the incident as a “deliberate provocation” intended to inflame tensions between Kyiv and Warsaw, while Polish police 
-- **NEW**  [Trump Eyes New Ukraine Peace Push With Zelensky Meeting at NATO Summit](https://www.kyivpost.com/post/79650) — *2026-07-06*
-  > Trump will meet Zelensky at the NATO summit in Turkey as the White House intensifies efforts to end Russia’s war against Ukraine. The talks follow Trump’s recent phone call with Putin, with another conversation expected after the meeting. Trump will also urge NATO allies to boost
-- **NEW**  [Ballistic Missiles Hit Kyiv, Region: 17 Dead, Dozens Injured as Rescuers Search Rubble](https://www.kyivpost.com/post/79648) — *2026-07-06*
-  > Russia launched a large-scale ballistic missile attack on Kyiv and region, killing at least 17 people and injuring dozens while striking residential neighborhoods across the capital. Apartment buildings in the Darnytskyi and Podilskyi districts suffered direct hits, leaving resid
-- **NEW**  [The Ukrainian Cossack Who Gave Us Vienna Coffee](https://www.kyivpost.com/post/79506) — *2026-07-05*
-  > Yuriy Kulchytsky, a native of western Ukraine who fought with the Cossacks, was one of the most extraordinary figures of the 17th century. During the siege of Vienna in 1683, he volunteered for a dangerous mission: dressed as a Turk, he walked through the enemy camp and delivered
-- **NEW**  [‘Less Arrogance and a Little More Humility’ – Mick Ryan](https://www.kyivpost.com/interviews/79534) — *2026-07-05*
-  > Maj. Gen. Mick Ryan (Ret.) sits down with the Kyiv Post to discuss why Western militaries are misinterpreting the drone revolution, the false “death of the tank,” and why the Pacific must learn from the Black Sea.
-- **NEW**  [Trump’s Kazakhstan ‘War Metal’ Deal Sparks Conflict-of-Interest Questions Over Family Ties](https://www.kyivpost.com/post/79331) — *2026-07-05*
-  > US has secured a 70% stake for US-backed Kaz Resources in one of the world’s largest undeveloped tungsten deposits in Kazakhstan, a strategic mineral vital for defense and technology. The project could meet annual US tungsten import needs and is backed by up to $1.6 billion in fi
-- **NEW**  [Germany Dismisses Taurus Missile Delivery, Citing Ukraine’s Drone Success](https://www.kyivpost.com/post/79636) — *2026-07-05*
-  > German Defense Minister Boris Pistorius stated in an interview that Germany does not need to supply Ukraine with long-range Taurus cruise missiles. He argued that Kyiv is already effectively targeting Russian oil refineries and military logistics using its domestic drone capabili
-- **NEW**  [Science Under Attack, but Undefeated](https://www.kyivpost.com/opinion/79562) — *2026-07-05*
-  > Ukrainian science has suffered colossal damage from Russia’s war, not least the
-attack on the historic Palladin Institute in Kyiv. Over 10,000 scientists have been displaced or killed, and some 1,400 research buildings hit, yet Ukraine’s scientific community remains resilient, ro
-- **NEW**  [Russia Attacked Ukraine with 2,200 Drones and 1,730 Guided Bombs in a Single Week](https://www.kyivpost.com/post/79641) — *2026-07-05*
-  > President Volodymyr Zelensky reported that Ukraine faced approximately 2,200 attack drones, over 1,730 guided aerial bombs, and 106 missiles in just one week. While Ukrainian forces typically intercept over 90% of drones, Zelensky stressed the critical lack of anti-ballistic capa
-- **NEW**  [Netherlands to Host Full Operational Phase of Special Tribunal for Ukraine](https://www.kyivpost.com/post/79634) — *2026-07-05*
-  > The Hague has agreed to host the full operational phase of the Special Tribunal for the Crime of Aggression against Ukraine, according to Ukrainian Foreign Minister Andrii Sybiha. The tribunal will proceed through preparatory phases in The Hague before reaching Phase 2, which inv
-- **NEW**  [Russian Strikes Kill One in Izyum, Wound Three in Zaporizhzhia](https://www.kyivpost.com/post/79640) — *2026-07-05*
-  > On Sunday, July 5, a Russian missile strike targeted a gas station in Izyum, Kharkiv region, killing one man and injuring three women. Separately, a drone attack in Zaporizhzhia wounded three men at a commercial site amid ongoing weekend bombardments, including fatal drone strike
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-06*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: В Ryanair назвали аеропорти, які найбільше страждають від затримок через нову систему в’їзду ЄС | LEDE: Ірландська бюджетна авіакомпанія Ryanair назвала європейські аеропорти, де пасажири стика] (uk: В Ryanair назвали аеропорти, які найбільше страждають від затримок через нову си)](https://www.pravda.com.ua/news/2026/07/06/8042639/) — *2026-07-06*
+  > Ірландська бюджетна авіакомпанія Ryanair назвала європейські аеропорти, де пасажири стикаються з тривалими затримками через нову цифрову систему в’їзду/виїзду ЄС.
+- **NEW**  [[TITLE: Міноборони: У липні військові отримають додаткові 10 тисяч за роботу в тилу | LEDE: В Міноборони повідомили, що у липні військовослужбовці отримають або уже отримали додаткові 10 000 грн за роб] (uk: Міноборони: У липні військові отримають додаткові 10 тисяч за роботу в тилу)](https://www.pravda.com.ua/news/2026/07/06/8042634/) — *2026-07-06*
+  > В Міноборони повідомили, що у липні військовослужбовці отримають або уже отримали додаткові 10 000 грн за роботу в тилу за червень.
+- **NEW**  [[TITLE: У Києві з-під завалів деблокували тіло чоловіка: загиблих уже 13, поранених – 56 | LEDE: У Києві рятувальники деблокували тіло чоловіка після атаки РФ: 13 загиблих, 56 поранених, серед них 7 ді] (uk: У Києві з-під завалів деблокували тіло чоловіка: загиблих уже 13, поранених – 56)](https://www.pravda.com.ua/news/2026/07/06/8042609/) — *2026-07-06*
+  > У Києві рятувальники деблокували тіло чоловіка після атаки РФ: 13 загиблих, 56 поранених, серед них 7 дітей.
+- **NEW**  [[TITLE: Туск звернувся до опозиції: Не грайтеся з вогнем. Допомога Україні – в інтересах Польщі | LEDE: Прем'єр-міністр Польщі Дональд Туск на тлі скандалу з нібито таємною передачею його урядом ракет ] (uk: Туск звернувся до опозиції: Не грайтеся з вогнем. Допомога Україні – в інтересах)](https://www.pravda.com.ua/news/2026/07/06/8042632/) — *2026-07-06*
+  > Прем'єр-міністр Польщі Дональд Туск на тлі скандалу з нібито таємною передачею його урядом ракет до Patriot Україні нагадав, що військова допомога Києву є консенсусною політикою Варшави.
+- **NEW**  [[TITLE: Іспанія очікує 100 мільйонів туристів цьогоріч | LEDE: В Іспанії очікують, що цього року країну відвідають 100 мільйонів іноземних туристів.] (uk: Іспанія очікує 100 мільйонів туристів цьогоріч)](https://www.pravda.com.ua/news/2026/07/06/8042630/) — *2026-07-06*
+  > В Іспанії очікують, що цього року країну відвідають 100 мільйонів іноземних туристів.
+- **NEW**  [[TITLE: Уряд Італії не хоче загострювати відносини зі США попри нові випади Трампа в бік Мелоні | LEDE: Глава МЗС Італії Антоніо Таяні та міністр оборони Гвідо Крозетто заявили, що Рим має зберігати ст] (uk: Уряд Італії не хоче загострювати відносини зі США попри нові випади Трампа в бік)](https://www.pravda.com.ua/news/2026/07/06/8042629/) — *2026-07-06*
+  > Глава МЗС Італії Антоніо Таяні та міністр оборони Гвідо Крозетто заявили, що Рим має зберігати стабільні відносини зі США попри нові нападки президента Дональда Трампа на прем'єрку Джорджу Мелоні.
+- **NEW**  [[TITLE: "Мадяр": СБС вполювали в Азовському морі два танкери окупантів з бензином для Криму | LEDE: Сили безпілотних систем в ніч проти 6 липня уразили в Азовському морі два танкери з бензином з Таганр] (uk: "Мадяр": СБС вполювали в Азовському морі два танкери окупантів з бензином для Кр)](https://www.pravda.com.ua/news/2026/07/06/8042628/) — *2026-07-06*
+  > Сили безпілотних систем в ніч проти 6 липня уразили в Азовському морі два танкери з бензином з Таганрогу на окупований Крим, на суші – два ЗРК С-400 "Тріумф", нафтобазу у Керчі та РЛС "Небо-У".
+- **NEW**  [[TITLE: На Київщині через атаку росіян загинули 6 людей | LEDE: У ніч на 6 липня внаслідок атаки на Київщині загинули 6 людей, 21 поранений у лікарнях, евакуйовано понад 600 мешканців.] (uk: На Київщині через атаку росіян загинули 6 людей)](https://www.pravda.com.ua/news/2026/07/06/8042620/) — *2026-07-06*
+  > У ніч на 6 липня внаслідок атаки на Київщині загинули 6 людей, 21 поранений у лікарнях, евакуйовано понад 600 мешканців.
+- **NEW**  [[TITLE: МЗС Польщі про суперечку з Україною: Росія може тішитись | LEDE: МЗС Польщі: Росія задоволена напруженням між поляками та українцями через історичні суперечки.] (uk: МЗС Польщі про суперечку з Україною: Росія може тішитись)](https://www.pravda.com.ua/news/2026/07/06/8042625/) — *2026-07-06*
+  > МЗС Польщі: Росія задоволена напруженням між поляками та українцями через історичні суперечки.
+- **NEW**  [[TITLE: Обережний Пашинян: що означає стримана реакція Єревана на безпрецедентну підтримку ЄС | LEDE: Президентка Єврокомісії Урсула фон дер Ляєн оголосила в Єревані про надання доступу до ринку ЄС вір] (uk: Обережний Пашинян: що означає стримана реакція Єревана на безпрецедентну підтрим)](https://www.pravda.com.ua/articles/2026/07/06/8042621/) — *2026-07-06*
+  > Президентка Єврокомісії Урсула фон дер Ляєн оголосила в Єревані про надання доступу до ринку ЄС вірменським товарам.
+- **NEW**  [[TITLE: Росіяни вдарили по працівниках ДТЕК у Краматорську: троє поранених | LEDE: Вранці 6 липня армія РФ завдала авіаудару по Краматорську, у результаті атаки поранення дістали троє працівників АТ "Д] (uk: Росіяни вдарили по працівниках ДТЕК у Краматорську: троє поранених)](https://www.pravda.com.ua/news/2026/07/06/8042619/) — *2026-07-06*
+  > Вранці 6 липня армія РФ завдала авіаудару по Краматорську, у результаті атаки поранення дістали троє працівників АТ "ДТЕК Донецькі електромережі", які виконували роботи неподалік місця влучання.
+- **NEW**  [[TITLE: Директор ДБР про ідеї реформи: Це знищення Бюро, підозрювані "зависнуть у повітрі" | LEDE: Директор Державного бюро розслідувань Олексій Сухачов каже, що висновок аудиту діяльності ДБР підтверд] (uk: Директор ДБР про ідеї реформи: Це знищення Бюро, підозрювані "зависнуть у повітр)](https://www.pravda.com.ua/news/2026/07/06/8042617/) — *2026-07-06*
+  > Директор Державного бюро розслідувань Олексій Сухачов каже, що висновок аудиту діяльності ДБР підтвердив спроможність Бюро виконувати задачі в повному обсязі, а реформа ДБР у запропонованому вигляді на його думку призведе до знищення інституції.
+- **NEW**  [[TITLE: Після масованої атаки Росії Україна подала запит на термінове засідання Радбезу ООН | LEDE: Україна ініціювала термінове засідання Ради безпеки ООН після чергового масованого російського обстрі] (uk: Після масованої атаки Росії Україна подала запит на термінове засідання Радбезу )](https://www.pravda.com.ua/news/2026/07/06/8042614/) — *2026-07-06*
+  > Україна ініціювала термінове засідання Ради безпеки ООН після чергового масованого російського обстрілу, який стався в ніч на 6 липня.
+- **NEW**  [[TITLE: ЗМІ: Франція змінила свою позицію щодо продажу системи ППО SAMP/T Туреччині | LEDE: Франція пом’якшила свою позицію і тепер відкрита до потенційного продажу французько-італійської системи проти] (uk: ЗМІ: Франція змінила свою позицію щодо продажу системи ППО SAMP/T Туреччині)](https://www.pravda.com.ua/news/2026/07/06/8042615/) — *2026-07-06*
+  > Франція пом’якшила свою позицію і тепер відкрита до потенційного продажу французько-італійської системи протиповітряної оборони SAMP/T Туреччині після багатьох років політичної опозиції.
+- **NEW**  [[TITLE: Глава МЗС Польщі оцінив рішення розсекретити військову допомогу Україні | LEDE: Міністр закордонних справ Польщі Радослав Сікорський прокоментував рішення Міністерства оборони щодо розсекречува] (uk: Глава МЗС Польщі оцінив рішення розсекретити військову допомогу Україні)](https://www.pravda.com.ua/news/2026/07/06/8042612/) — *2026-07-06*
+  > Міністр закордонних справ Польщі Радослав Сікорський прокоментував рішення Міністерства оборони щодо розсекречування даних про ту допомогу, яку Польща надала Україні після початку повномасштабного вторгнення Росії.
+- **NEW**  [[TITLE: В Україні підуть дощі, місцями грози: синоптики попереджають про град та шквали | LEDE: 7-9 липня в Україні очікуються дощі, грози, подекуди град та шквали до 20 м/с. Температура до +29°.] (uk: В Україні підуть дощі, місцями грози: синоптики попереджають про град та шквали)](https://www.pravda.com.ua/news/2026/07/06/8042605/) — *2026-07-06*
+  > 7-9 липня в Україні очікуються дощі, грози, подекуди град та шквали до 20 м/с. Температура до +29°.
+- **NEW**  [[TITLE: Генштаб: Сили оборони вкотре уразили НПЗ у Ярославлі і ще низку об’єктів | LEDE: Українські підрозділи Сил оборони вчергове завдали удару по нафтопереробному заводу "Славнефть-ЯНОС" у Ярославлі] (uk: Генштаб: Сили оборони вкотре уразили НПЗ у Ярославлі і ще низку об’єктів)](https://www.pravda.com.ua/news/2026/07/06/8042606/) — *2026-07-06*
+  > Українські підрозділи Сил оборони вчергове завдали удару по нафтопереробному заводу "Славнефть-ЯНОС" у Ярославлі РФ, а також
+- **NEW**  [[TITLE: На Херсонщині через удар російських КАБів постраждали 4 людини, серед них двоє дітей | LEDE: 6 липня росіяни вдарили керованими авіабомбами по селу Зеленівка Херсонського району, внаслідок атак] (uk: На Херсонщині через удар російських КАБів постраждали 4 людини, серед них двоє д)](https://www.pravda.com.ua/news/2026/07/06/8042607/) — *2026-07-06*
+  > 6 липня росіяни вдарили керованими авіабомбами по селу Зеленівка Херсонського району, внаслідок атаки постраждали четверо людей, серед них дві дівчини віком 11 і 17 років.
+- **NEW**  [[TITLE: Лисак дорікнув міськраді Одеси через недобудовані укриття, затримку "єВідновлення" і бруд у місті | LEDE: Начальник Одеської МВА Сергій Лисак заявив, що міська рада не виконала обіцянку до кінц] (uk: Лисак дорікнув міськраді Одеси через недобудовані укриття, затримку "єВідновленн)](https://www.pravda.com.ua/news/2026/07/06/8042603/) — *2026-07-06*
+  > Начальник Одеської МВА Сергій Лисак заявив, що міська рада не виконала обіцянку до кінця червня ввести в експлуатацію 20 захисних споруд, а також розкритикував темпи реалізації програми "єВідновлення" для пошкоджених пам'яток і роботу комунальних служб.
+- **NEW**  [[TITLE: Сікорський відреагував на слова Пєскова, що потенційна провокація проти Польщі – "західна пропаганда" | LEDE: Польський міністр закордонних справ Радослав Сікорський відкинув заяви речника Крем] (uk: Сікорський відреагував на слова Пєскова, що потенційна провокація проти Польщі –)](https://www.pravda.com.ua/news/2026/07/06/8042601/) — *2026-07-06*
+  > Польський міністр закордонних справ Радослав Сікорський відкинув заяви речника Кремля Дмитра Пєскова про те, що попередження про можливість російських провокацій у Польщі є "західною пропагандою" та "залякуванням".
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-06*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [CARTOON: Scrabbling for Peace or Playing Mind Games?](https://www.kyivpost.com/post/79687) — *2026-07-06*
+  > Serhiy Kolyada’s ironic take on the latest international events.
+- **NEW**  [Jet-Powered Interceptor Drone Downs First Shahed in Ukraine, Arms Maker Says](https://www.kyivpost.com/post/79686) — *2026-07-06*
+  > On Monday, Firebolt Engineering, a UK-Ukrainian arms maker, said its Griffen jet-powered drone successfully destroyed a Russian Shahed drone during Moscow's overnight attack on Ukraine.
 
-_(89 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

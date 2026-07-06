@@ -11,6 +11,12 @@ state: fresh
 
 57 new of 57 total items today.
 
+- **NEW**  [[The Hacker News] How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions](https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html) — *2026-07-06*
+  > Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, tri
+- **NEW**  [[The Hacker News] Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT](https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html) — *2026-07-06*
+  > A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts.
+
+The multi-stage campaign, codenamed Operation D
 - **NEW**  [[The Hacker News] New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions](https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html) — *2026-07-06*
   > Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint ra
 - **NEW**  [[The Hacker News] New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html) — *2026-07-06*
@@ -21,15 +27,15 @@ According to LevelBlue, the cross-platform malware is advertised under a malware
   > Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits.
 
 In a proof of concept, they reconstructed a signed-in user'
-- **NEW**  [[The Hacker News] SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing](https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html) — *2026-07-06*
-  > Scanners meant to catch malicious add-on "skills" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the Hong Kong University of Science and Technology.
-
-Their strongest trick slipped p
+- **NEW**  [[Cybersecurity Dive] Why schools are easy prey for hackers — and why they struggle to fight back](https://www.cybersecuritydive.com/news/schools-cybersecurity-threats-education-sector-reporters-notebook/824123/) — *2026-07-06*
+  > Power plants and gas pipelines might receive more attention, but schools are arguably more vulnerable.
 - **NEW**  [[Cybersecurity Dive] The security leaders defining the next decade aren’t in CISO seats yet](https://www.cybersecuritydive.com/spons/the-security-leaders-defining-the-next-decade-arent-in-ciso-seats-yet/824263/) — *2026-07-06*
   > The first recognition program for the security leaders who will define the future of cybersecurity.
 - **NEW**  [[Schneier on Security] France to Stop Certifying Non-Quantum-Safe Encryption](https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html) — *2026-07-06*
   > France is accelerating its transition to post-quantum encryption:
 France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant encryption, a move that will force government bodies and critical operators to shift 
+- **NEW**  [[The Register] Moody Bible Institute breach leaves 2.3M accounts needing salvation, says cyber expert](https://www.theregister.com/security/2026/07/06/moody-bible-institute-breach-leaves-23m-accounts-needing-salvation-says-cyber-expert/5266827) — *2026-07-06*
+  > ShinyHunters leaks names, addresses, DOBs, and more after Christian college discloses cyberattack
 - **NEW**  [[The Register] Secure Unix ancestor KSOS did type safety before Rust made it cool](https://www.theregister.com/os-platforms/2026/07/06/secure-unix-ancestor-ksos-did-type-safety-before-rust-made-it-cool/5266458) — *2026-07-06*
   > Modula-based source code resurfaces after nearly four decades
 - **NEW**  [[The Register] Insert token to continue, says AI. Yeah, about that...](https://www.theregister.com/columnists/2026/07/06/insert-token-to-continue-says-ai-yeah-about-that/5266319) — *2026-07-06*
@@ -38,8 +44,10 @@ France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifyi
   > Who wrote this rubbish? Oh ...
 - **NEW**  [[The Register] Japan’s asteroid sample retriever rapidly buzzes remote space rock](https://www.theregister.com/science/2026/07/06/japans-asteroid-sample-retriever-rapidly-buzzes-remote-space-rock/5266795) — *2026-07-06*
   > Zipped just 800m past Asteroid Torifune as part of very extended mission
-- **NEW**  [[The Register] Zombie ‘who owns Unix?’ lawsuit comes alive again](https://www.theregister.com/os-platforms/2026/07/06/zombie-who-owns-unix-lawsuit-comes-alive-again/5266761) — *2026-07-06*
-  > SCO's legal successor Xinuos asks legal brains to let it bite IBM over ancient license and copyright claims
+- **NEW**  [[Ars Technica] Bentley teases its first EV, the Torcal](https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/) — *2026-07-06*
+  > The new model will be officially unveiled in late September.
+- **NEW**  [[Ars Technica] The Czinger 21C might be the wildest car we drive all year](https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/) — *2026-07-06*
+  > This hybrid V8 has organic-looking 3D-printed components and shatters lap records.
 - **NEW**  [[Computer Weekly] Middle East urged to prioritise prevention as cyber workforce gap hits 300,000](https://www.computerweekly.com/news/366645533/Middle-East-urged-to-prioritize-prevention-as-cyber-workforce-gap-hits-300000) — *2026-07-06*
   > &lt;p&gt;The Middle East’s &lt;a href="https://www.computerweekly.com/news/366642842/AI-threats-push-Middle-East-CISOs-towards-identity-first-security" target="_blank" rel="noopener"&gt;cyber security&lt;/a&gt; workforce shortage is deepening at a time when organisations are acce
 - **NEW**  [[Computer Weekly] Datacentre dive: Inside nLighten’s Bristol edge datacentre](https://www.computerweekly.com/feature/Datacentre-dive-Inside-nlightens-Bristol-edge-datacentre) — *2026-07-06*
@@ -63,13 +71,5 @@ France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifyi
   > Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.
 - **NEW**  [[Ars Technica] The missing 500 million: Cosmic bombardment melted Earth's first crust](https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/) — *2026-07-05*
   > The heat of the Hadean may have come from impacts as well as the interior.
-- **NEW**  [[TechCrunch] Uber’s European expansion plans may have hit a speed bump](https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/) — *2026-07-05*
-  > Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold.
-- **NEW**  [[TechCrunch] Trump memecoin investors lost $3.8 billion, analysis finds](https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/) — *2026-07-05*
-  > Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump’s $TRUMP memecoin, while Trump made $636 million.
-- **NEW**  [[TechCrunch] Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/) — *2026-07-05*
-  > These may be the last days of Amazon’s Mechanical Turk.
-- **NEW**  [[BleepingComputer] JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/) — *2026-07-04*
-  > Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]
 
 _(32 additional items in raw.jsonl)_
