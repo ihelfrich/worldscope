@@ -1,0 +1,89 @@
+name: Watchdog dead-man switch
+
+# Fires daily at 14:00 UTC. The Mac-side watchdog commits a timestamp to
+# heartbeat/watchdog.txt on every successful run; if the last commit
+# touching that file is older than 48 hours (or the file is missing),
+# the laptop is dead, asleep for days, or the watchdog itself broke,
+# and this job alerts via Pushover.
+#
+# Mute: set repo variable WATCHDOG_MUTE_UNTIL to a YYYY-MM-DD date to
+# suppress alerts through that date (inclusive). Unset/empty = never muted.
+
+on:
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so git log can date the last heartbeat commit.
+          fetch-depth: 0
+
+      - name: Compute heartbeat age
+        id: age
+        run: |
+          set -e
+          NOW=$(date -u +%s)
+          if [ ! -f heartbeat/watchdog.txt ]; then
+            echo "heartbeat/watchdog.txt missing from tree; treating as stale"
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            echo "age_hours=missing" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          LAST=$(git log -1 --format=%ct -- heartbeat/watchdog.txt)
+          if [ -z "$LAST" ]; then
+            echo "heartbeat/watchdog.txt has no commit history; treating as stale"
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            echo "age_hours=unknown" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          AGE_H=$(( (NOW - LAST) / 3600 ))
+          echo "age_hours=$AGE_H" >> "$GITHUB_OUTPUT"
+          if [ "$AGE_H" -gt 48 ]; then
+            echo "heartbeat stale (${AGE_H}h old)"
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "heartbeat fresh (${AGE_H}h)"
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Alert if stale and not muted
+        if: steps.age.outputs.stale == 'true'
+        env:
+          USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          MUTE_UNTIL: ${{ vars.WATCHDOG_MUTE_UNTIL }}
+          AGE_HOURS: ${{ steps.age.outputs.age_hours }}
+        run: |
+          TODAY=$(date -u +%F)
+          # Muted only when WATCHDOG_MUTE_UNTIL is a well-formed YYYY-MM-DD
+          # and >= today (UTC); YYYY-MM-DD compares correctly as a string.
+          # A malformed value fails OPEN (still alerts) instead of silently
+          # muting forever, which is the safe direction for a dead-man switch.
+          if [ -n "$MUTE_UNTIL" ]; then
+            if ! echo "$MUTE_UNTIL" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+              echo "::warning::WATCHDOG_MUTE_UNTIL='$MUTE_UNTIL' is not YYYY-MM-DD; ignoring mute"
+            elif ! [[ "$MUTE_UNTIL" < "$TODAY" ]]; then
+              echo "muted until $MUTE_UNTIL"
+              exit 0
+            fi
+          fi
+          if [ -z "$USER_KEY" ] || [ -z "$APP_TOKEN" ]; then
+            echo "::notice::Pushover credentials missing; set PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN as repo secrets. Skipping."
+            exit 0
+          fi
+          curl -fsS \
+            --form-string "token=$APP_TOKEN" \
+            --form-string "user=$USER_KEY" \
+            --form-string "title=Mac watchdog CRIT" \
+            --form-string "message=Mac watchdog silent >48h — laptop dead, asleep for days, or watchdog broken" \
+            --form-string "priority=1" \
+            https://api.pushover.net/1/messages.json
+          echo "dead-man alert sent (heartbeat age: ${AGE_HOURS}h)"
