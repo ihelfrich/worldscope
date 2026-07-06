@@ -2,64 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-06
-record_count: 61
-new_today: 0
-state: stale_after_failure
+record_count: 49
+new_today: 49
+state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-0 new of 61 total items today.
+49 new of 49 total items today.
 
-- [[Russia oil sanctions perimeter · themes] В Киеве прогремела четвёртая серия взрывов](https://aif.ru/incidents/v-kieve-progremela-chetvyortaya-seriya-vzryvov) — *2026-07-06*
-  > aif.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] The Socialist Wave Isnt About Trump It the Democrat Party Reality](https://www.dailysignal.com/2026/07/05/socialist-wave-trump-democratic/) — *2026-07-06*
-  > dailysignal.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Nga mở đợt không kích lớn vào thủ đô Ukraine ngay trước Thượng đỉnh NATO](http://vov.vn/the-gioi/nga-mo-dot-khong-kich-lon-vao-thu-do-ukraine-ngay-truoc-thuong-dinh-nato-post1312670.vov) — *2026-07-06*
-  > vov.vn · Vietnamese · tone NA
-- [[Russia oil sanctions perimeter · themes] SCDNR : Several hospitalized after boat crash in Kershaw County](https://www.wistv.com/2026/07/05/scdnr-several-hospitalized-after-boat-crash-kershaw-county/) — *2026-07-06*
-  > wistv.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] La OPEP+ acelera producción para recuperar el mercado petróleo tras Ormuz](https://www.mundiario.com/articulo/economia/opep-acelera-aumento-produccion-recuperar-mercado-petroleo-ormuz/20260706012155393134.html) — *2026-07-06*
-  > mundiario.com · Spanish · tone NA
-- [[Russia oil sanctions perimeter · themes] Philippine Senate opening the politically volatile impeachment trial of Vice President Sara Duterte](https://isp.netscape.com:443/news/world/story/0001/20260706/6052d854b78881b742e48732b9305509) — *2026-07-06*
-  > isp.netscape.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Киев вздрогнул от ответа за атаки на Крым : главная новость СВО 6 июля](https://aif.ru/society/kiev-vzdrognul-ot-otveta-za-ataki-na-krym-glavnaya-novost-svo-6-iyulya) — *2026-07-06*
-  > aif.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Что известно о крушении гидросамолета в Нью - Йорке](https://www.5-tv.ru/news/5077112/gidrosamolet-spassazirami-poterpel-krusenie-vnujorke/) — *2026-07-06*
-  > 5-tv.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Small plane makes hard landing into New York East River , officials say](https://abc17news.com/news/national-world/cnn-national/2026/07/05/small-plane-crashes-into-new-yorks-east-river-officials-say/) — *2026-07-06*
-  > abc17news.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Schianto con la moto in Garfagnana gravissimo un centauro](https://www.zazoom.it/2026-07-06/schianto-con-la-moto-in-garfagnana-gravissimo-un-centauro/19427426/) — *2026-07-06*
-  > zazoom.it · Italian · tone NA
-- [[Russia oil sanctions perimeter · themes] Muestra colectiva Paraguay Ñane Reta Rekove , para visitar en el Cabildo](https://www.ultimahora.com/muestra-colectiva-paraguay-nane-reta-rekove-para-visitar-en-el-cabildo) — *2026-07-06*
-  > ultimahora.com · Spanish · tone NA
-- [[Russia oil sanctions perimeter · themes] 中市府二度稽查中聯 致癌油元凶疑巴西黃豆污染 - 社會](https://news.cts.com.tw/cts/society/202607/202607053051835.html) — *2026-07-06*
-  > news.cts.com.tw · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] WorkBuddy爆了 ， 微信AI也来了 腾讯AI找到  新船票  了吗 ？ |钉钉|马化腾|刘炽平|知名企业](https://www.163.com/dy/article/L155DD3C05198NMR.html) — *2026-07-06*
-  > 163.com · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] Citizens High & Dry - OrissaPOST](https://www.orissapost.com/citizens-high-dry/) — *2026-07-06*
-  > orissapost.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Giá xăng dầu hôm nay 6 / 7 : Giá dầu giảm nhẹ sau khi OPEC+ nâng sản lượng](http://vov.vn/thi-truong/gia-xang-dau-hom-nay-67-gia-dau-giam-nhe-sau-khi-opec-nang-san-luong-post1312603.vov) — *2026-07-06*
-  > vov.vn · Vietnamese · tone NA
-- [[Russia oil sanctions perimeter · themes] Юрист предупредил , что за перевозку бензина на авто могут лишить прав](https://aif.ru/society/yurist-predupredil-chto-za-perevozku-benzina-na-avto-mogut-lishit-prav) — *2026-07-06*
-  > aif.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Babak Baru Perang Energi : OPEC+ Siap Banjiri Pasar Global , Siap - siap Harga Minyak Makin Ambles](https://ekbis.sindonews.com/read/1725219/34/babak-baru-perang-energi-opec-siap-banjiri-pasar-global-siap-siap-harga-minyak-makin-ambles-1783289225) — *2026-07-06*
-  > ekbis.sindonews.com · Indonesian · tone NA
-- [[Russia oil sanctions perimeter · themes] Казахстан заявил о попытках незаконного вывоза топлива за границу](https://www.azattyqasia.org/a/kazahstan-zayavil-o-popytkah-nezakonnogo-vyvoza-topliva-za-granitsu/33797271.html) — *2026-07-06*
-  > azattyqasia.org · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] அரசியல் | மகத்தான 60 இந்தியர்கள் - Politics Books in Tamil | Best Tamil Books](https://books.dinamalar.com/book/mahathana-60-indiyargal-tvshankaran-arasiyal/30420) — *2026-07-06*
-  > books.dinamalar.com · Tamil · tone NA
-- [[Russia oil sanctions perimeter · themes]   60 डॉलर पर आएगा कच्चा तेल , पेट्रोल - डीजल के सस्ता होने की उम्मीद बढ़ी , चेक करें 6 जुलाई के रेट , Business Hindi News](https://www.livehindustan.com/business/hope-of-petrol-and-diesel-becoming-cheaper-increases-crude-oil-may-come-at-60-dollar-check-the-rates-of-july-6-201783299298646.html) — *2026-07-06*
-  > livehindustan.com · Hindi · tone NA
-- [[Russia oil sanctions perimeter · themes] 华尔街见闻早餐FM - Radio | 2026年7月6日](https://wallstreetcn.com/articles/3776233) — *2026-07-06*
-  > wallstreetcn.com · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] 中聯致癌油延燒 食藥署公布257家受影響業者名單 - 社會](https://news.cts.com.tw/cts/society/202607/202607053051832.html) — *2026-07-06*
-  > news.cts.com.tw · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] Где есть бензин в Новосибирске : список работающих АЗС на утро 6 июля | Новосибирская область](https://fedpress.ru/news/54/society/3443078) — *2026-07-06*
-  > fedpress.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Thị trường đảo lộn : 3 tài sản được coi là an toàn nhất thế giới đồng loạt  gây thất vọng  ](https://stockbiz.vn/tin-tuc/thi-truong-dao-lon-3-tai-san-duoc-coi-la-an-toan-nhat-the-gioi-dong-loat-gay-that-vong/40754777) — *2026-07-06*
-  > stockbiz.vn · Vietnamese · tone NA
-- [[Russia oil sanctions perimeter · themes]  「 超級颱風 」 巴威直撲太平洋小島 美氣象局 ： 恐釀災難性破壞 | ETtoday國際新聞](https://www.ettoday.net/news/20260706/3195782.htm) — *2026-07-06*
-  > ettoday.net · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 拚毒駕績效爭議 南港警分局 ： 已取消偵查隊協助勤務 | 社會](https://www.cna.com.tw/news/asoc/202607060039.aspx) — *2026-07-06*
+  > cna.com.tw · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Man dies after being pulled from water at Lake St . Croix Beach](https://www.fox9.com/news/man-dies-after-being-pulled-from-water-lake-st-croix-beach) — *2026-07-06*
+  > fox9.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Footprints : Blame poverty , not the people - Newspaper](https://www.dawn.com/news/2013257) — *2026-07-06*
+  > dawn.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Así cambió la relación entre Wanda Nara y Maxi López con el paso de los años](https://elintransigente.com/2026/07/wanda-nara-mates-clandestinos-maxi-lopez/) — *2026-07-06*
+  > elintransigente.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Justiz - Anti - Folter - Stelle kritisiert Zustände in Gefängnissen](https://unternehmen-heute.de/news.php?newsid=6703850) — *2026-07-06*
+  > unternehmen-heute.de · German · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Dogs of the World : Epic photo series celebrates canines across continents](https://www.nzherald.co.nz/travel/dogs-of-the-world-epic-photo-series-celebrates-canines-across-continents/6YWNMYCN7ZFENEBV4NZC5VPBRA/) — *2026-07-06*
+  > nzherald.co.nz · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Mumbai shanty collapse : Many residents left risky building , returned hours later before it killed 5 kids , woman](https://timesofindia.indiatimes.com/city/mumbai/mumbai-shanty-collapse-many-residents-left-risky-building-returned-hours-later-before-it-killed-5-kids-woman/articleshow/132205292.cms) — *2026-07-06*
+  > timesofindia.indiatimes.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Hành trình phát hiện rãnh chôn tập thể , tìm thấy 5 hài cốt liệt sĩ đầu tiên tại công viên Lê Thị Riêng](https://baomoi.com/hanh-trinh-phat-hien-ranh-chon-tap-the-tim-thay-5-hai-cot-liet-si-dau-tien-tai-cong-vien-le-thi-rieng-c55552796.epi) — *2026-07-06*
+  > baomoi.com · Vietnamese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] NEW INFORMATION : State of Emergency Declared for Wood County](https://www.wdbj7.com/2026/07/05/new-information-state-emergency-declared-wood-county/) — *2026-07-06*
+  > wdbj7.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] ВСУ уничтожали собственные опорные пункты в боях за Лесное](https://ria.ru/20260706/vsu-2102951571.html) — *2026-07-06*
+  > ria.ru · Russian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Harbhajan Singh watches  Satluj  amid ban ; Praises Diljit Dosanjh ; Says  Truth cannot remain buried forever  ](https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/harbhajan-singh-watches-satluj-amid-ban-praises-diljit-dosanjh-says-truth-cannot-remain-buried-forever/articleshow/132205627.cms) — *2026-07-06*
+  > timesofindia.indiatimes.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 内蒙古公布6起网络谣言典型案例 - 新闻中心 - 内蒙古新闻网](https://inews.nmgnews.com.cn/system/2026/07/05/030368829.shtml) — *2026-07-06*
+  > inews.nmgnews.com.cn · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Govt to provide Rs 4 lakh compensation to kin of victims in Mankhurd shanties collapse incident : Maharashtra Minister Girish Mahajan](https://aninews.in/news/national/general-news/govt-to-provide-rs-4-lakh-compensation-to-kin-of-victims-in-mankhurds-shanties-collapse-incident-maharashtra-minister-girish-mahajan20260706045209/) — *2026-07-06*
+  > aninews.in · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Andrés Ruiz :  Debemos exigir que la Semana Negra no defienda dictaduras  ](https://www.lne.es/gijon/2026/07/06/andres-ruiz-debemos-exigir-semana-132154702.html) — *2026-07-06*
+  > lne.es · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Nazi  unemployable  after salute during Holocaust movie](https://www.tenterfieldstar.com.au/story/9305351/nazi-unemployable-after-salute-during-holocaust-movie/) — *2026-07-06*
+  > tenterfieldstar.com.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ρωσική προέλαση , στόχος το Κίεβο - Γιώργος Ρωμανός](https://www.inewsgr.com/421/rosiki-proelasi-stochos-to-kievo-giorgos-romanos.htm) — *2026-07-06*
+  > inewsgr.com · Greek · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Föräldrarna separerades mot sin vilja – Lina och Malia tar strid mot Växjö kommun](https://www.smp.se/vaxjo/foraldrarna-separerades-mot-sin-vilja-lina-och-malia-tar-strid-mot-vaxjo-kommun/) — *2026-07-06*
+  > smp.se · Swedish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Drugs and cash seized after weekend search warrant](https://2ca.com.au/local-news/drugs-and-cash-seized-after-weekend-search-warrant/) — *2026-07-06*
+  > 2ca.com.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] ⚠️偽プラットフォーム 「 Juntoshi 」 の違法な利益獲得方法を暴露 - 静寂エリア](https://blog.udn.com:443/5696a2bf/191117695) — *2026-07-06*
+  > blog.udn.com · Japanese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Mkhwanazi July 6 media briefing ― a year on](https://www.timeslive.co.za/news/south-africa/2026-07-06-mkhwanazis-july-6-media-briefing-a-year-on/) — *2026-07-06*
+  > timeslive.co.za · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Attaque de missiles russes sur Kiev , lUkraine prive Sébastopol d  électricit : la guerre senlise avant le sommet de lOTAN](https://www.leparisien.fr/international/ukraine/attaque-de-missiles-russes-sur-kiev-lukraine-prive-sebastopol-delectricite-la-guerre-senlise-avant-le-sommet-de-lotan-06-07-2026-ER5D2OXGBJDAJGBWZBVEE5UHDU.php) — *2026-07-06*
+  > leparisien.fr · French · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Denuncian que maquinarias para labores de rescate en La Guaira  están paradas  ](https://bitlysdowssl-aws.com/2026/07/denuncian-que-maquinas-para-labores-de-rescate-en-la-guaira-estan-paradas/) — *2026-07-06*
+  > bitlysdowssl-aws.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Tras una larga llamada entre Trump y Putin , arrecian los ataques en Ucrania y Crimea](https://www.perfil.com/noticias/internacional/tras-una-llamada-entre-trump-y-putin-arrecian-los-ataques-en-ucrania-y-crimea.phtml) — *2026-07-06*
+  > perfil.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Hoy Tamaulipas - Tamaulipas PAN da garrotazo a Omeheira Lopez ratifica candidatura de Gloria Garza](https://hoytamaulipas.net/notas/621569/PAN-da-garrotazo-a-Omeheira-Lopez-ratifica-candidatura-de-Gloria-Garza.html) — *2026-07-06*
+  > hoytamaulipas.net · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ένοπλοι σκότωσαν τουλάχιστον εννέα αγρότες και απήγαγαν πολλούς ακόμη σε επίθεση σε χωριό στη Νιγηρία](https://www.protothema.gr/world/article/1846043/enoploi-skotosan-toulahiston-ennea-agrotes-kai-apigagan-pollous-akomi-se-epithesi-se-horio-sti-nigiria/) — *2026-07-06*
+  > protothema.gr · Greek · tone NA
 
-_(36 additional items in raw.jsonl)_
+_(24 additional items in raw.jsonl)_

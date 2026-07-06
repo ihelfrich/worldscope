@@ -2,15 +2,21 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-06
-record_count: 938
-new_today: 796
+record_count: 922
+new_today: 780
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-796 new of 938 total items today.
+780 new of 922 total items today.
 
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-06*
   > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
 - **NEW**  [[Global] Archaeologists uncover ancient Byzantine city in Egypt’s western desert](https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert) — *2026-07-04*
@@ -34,8 +40,5 @@ state: fresh
 - **NEW**  [[Global] Calls for killing of Trump at funeral of Iran supreme leader Ali Khamenei](https://www.theguardian.com/world/2026/jul/05/iran-ali-khamenei-funeral-supreme-leader-mojtaba-absent) — *2026-07-05*
 - **NEW**  [[Global] Iran seeks to tighten control over strait of Hormuz alongside Khamenei funeral](https://www.theguardian.com/world/2026/jul/05/iran-control-strait-of-hormuz-ali-khamenei-funeral) — *2026-07-05*
 - **NEW**  [[Global] Gaza protests against two Democrats spark outcry and debate on tactics](https://www.theguardian.com/us-news/2026/jul/05/gaza-protests-democrats-debate-on-tactics) — *2026-07-05*
-- **NEW**  [[Global] Crowds gather as six-day funeral for former Iranian supreme leader begins](https://www.theguardian.com/world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei) — *2026-07-04*
-- **NEW**  [[Global] ‘Nepotism and bias’ rife in England and Wales police leadership, report finds](https://www.theguardian.com/uk-news/2026/jul/06/nepotism-bias-england-wales-police-leadership-report) — *2026-07-05*
-- **NEW**  [[Global] Making public transport fully accessible ‘could boost UK economy by £176bn’](https://www.theguardian.com/uk-news/2026/jul/06/public-transport-fully-accessible-boost-uk-economy) — *2026-07-05*
 
-_(913 additional items in raw.jsonl)_
+_(897 additional items in raw.jsonl)_

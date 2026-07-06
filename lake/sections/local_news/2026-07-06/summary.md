@@ -11,10 +11,10 @@ state: fresh
 
 183 new of 184 total items today.
 
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-06*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - **NEW**  [[St. Louis] Lou’s Clues – 7/6/2026](https://www.stlmag.com/games/lous-clues-070626/) — *2026-07-06*
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
+- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-06*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - **NEW**  [[St. Louis] England defeats Mexico to head into World Cup quarterfinals](https://www.ksdk.com/article/sports/soccer/world-cup/england-defeats-mexico-head-into-quarterfinals-world-cup/507-e914d742-b286-4ee8-8954-7bc1c49fb865) — *2026-07-06*
   > The Brits will verse Norway on July 11 in Florida.
 - **NEW**  [[St. Louis] Who has moved on in the World Cup? See the quarterfinal bracket](https://www.ksdk.com/article/sports/soccer/world-cup/world-cup-quarterfinal-teams-advancing-eliminated/507-23e186d4-7180-47eb-ad81-29d4ec4b5743) — *2026-07-06*

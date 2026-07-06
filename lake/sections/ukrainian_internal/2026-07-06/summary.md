@@ -13,6 +13,8 @@ state: fresh
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-06*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-06*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - **NEW**  [[TITLE: На Київщині з міркувань безпеки обмежили рух поїздів: очікуються затримки – УЗ | LEDE: На деяких ділянках залізниці у Київській області з безпекових міркувань обмежили рух поїздів, через що низ] (uk: На Київщині з міркувань безпеки обмежили рух поїздів: очікуються затримки – УЗ)](https://www.pravda.com.ua/news/2026/07/06/8042547/) — *2026-07-06*
   > На деяких ділянках залізниці у Київській області з безпекових міркувань обмежили рух поїздів, через що низка рейсів прямуватиме із затримкою за резервними маршрутами.
 - **NEW**  [[TITLE: "Батальйон Монако 4": Як УП знайшла фігурантів операції "Мідас" на Лазуровому березі | LEDE: Чотири роки тому у липні 2022-ого "Українська правда" опублікувала першу частину серіалу "Батальйон ] (uk: "Батальйон Монако 4": Як УП знайшла фігурантів операції "Мідас" на Лазуровому бе)](https://www.pravda.com.ua/articles/2026/07/06/8042535/) — *2026-07-06*
@@ -50,13 +52,11 @@ state: fresh
 - **NEW**  [[TITLE: ДТП з 12 загиблими: Водію, який втік із місця події, вручили підозру | LEDE: Водія Nissan підозрюють у порушенні ПДР після аварії, де загинули 12 осіб, травмовано 6, ДТП сталася на трасі Одеса–] (uk: ДТП з 12 загиблими: Водію, який втік із місця події, вручили підозру)](https://www.pravda.com.ua/news/2026/07/05/8042517/) — *2026-07-05*
   > Водія Nissan підозрюють у порушенні ПДР після аварії, де загинули 12 осіб, травмовано 6, ДТП сталася на трасі Одеса–Мелітополь.
 - **NEW**  [[TITLE: У Словаччині провалився референдум щодо довічних виплат Фіцо і відновлення спецпрокуратури | LEDE: ] (uk: У Словаччині провалився референдум щодо довічних виплат Фіцо і відновлення спецп)](https://www.pravda.com.ua/news/2026/07/05/8042495/) — *2026-07-05*
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-06*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-06*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-06*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [The Ukrainian Cossack Who Gave Us Vienna Coffee](https://www.kyivpost.com/post/79506) — *2026-07-05*
   > Yuriy Kulchytsky, a native of western Ukraine who fought with the Cossacks, was one of the most extraordinary figures of the 17th century. During the siege of Vienna in 1683, he volunteered for a dangerous mission: dressed as a Turk, he walked through the enemy camp and delivered
+- **NEW**  [‘Less Arrogance and a Little More Humility’ – Mick Ryan](https://www.kyivpost.com/interviews/79534) — *2026-07-05*
+  > Maj. Gen. Mick Ryan (Ret.) sits down with the Kyiv Post to discuss why Western militaries are misinterpreting the drone revolution, the false “death of the tank,” and why the Pacific must learn from the Black Sea.
 
 _(77 additional items in raw.jsonl)_

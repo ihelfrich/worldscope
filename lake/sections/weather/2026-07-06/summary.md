@@ -2,15 +2,73 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-06
-record_count: 146
-new_today: 144
+record_count: 143
+new_today: 141
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-144 new of 146 total items today.
+141 new of 143 total items today.
 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:46PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7da589b64ba343e82665a909458bae47eb8340d.001.1) — *2026-07-05*
+  > At 1046 PM CDT, Doppler radar was tracking a strong thunderstorm 4
+miles southeast of Borger, moving east at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured object
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-48986) — *2026-07-06*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 10:43PM CDT until July 6 at 6:00AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3892f7bc153fcd5029a128c31c7fc84cdb1103b.001.1) — *2026-07-05*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Central Cooper County in central Missouri...
+
+* WHEN...Until 600 AM CDT Monday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring.
+
+* ADDITI
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:42PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b4e5170d8b44715b4c4f848b9059172aa6fa4b1.001.1) — *2026-07-05*
+  > At 1042 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 11 miles east of Sheffield to 13 miles
+southwest of Sonora to 31 miles west of Telegraph to near Roosevelt
+to 7 miles southwest of Hilda. Movement was south at 25 mph.
+
+HAZARD...Wind gusts
+- **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued July 5 at 10:41PM CDT until July 6 at 12:15AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86066d8202d2468652b3f23a1e02770767e4bfdc.001.1) — *2026-07-05*
+  > The National Weather Service in Midland has issued a
+
+* Dust Storm Warning for...
+Southeastern Eddy County in southeastern New Mexico...
+Southern Lea County in southeastern New Mexico...
+Pecos County in southwestern Texas...
+Reeves County in southwestern Texas...
+Ward County in w
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 10:41PM CDT until July 5 at 11:15PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b2141f305ba3051b6a1eac7d1c398d9149aa2f1.001.1) — *2026-07-05*
+  > At 1041 PM CDT, a severe thunderstorm was located 10 miles southeast
+of Greenwood, moving southeast at 20 mph.
+
+HAZARD...60 mph wind gusts and half dollar size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 5 at 11:33PM EDT until July 6 at 12:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d325dd769287a58e8686637993b3c70365c863b.001.1) — *2026-07-05*
+  > For the following areas...
+Delaware Bay waters north of East Point NJ to Slaughter Beach DE...
+
+At 1133 PM EDT, strong thunderstorms were located along a line
+extending from 7 nm north of Pea Patch Island to 6 nm northwest of
+Bowers Beach, moving east at 25 knots.
+
+HAZARD...Wind 
 - **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 8:32PM PDT until July 5 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4f750f49dfe6d4cb94867488641f190723391a2.001.1) — *2026-07-05*
   > SVRMFR
 
@@ -45,16 +103,6 @@ Southeastern New Castle County in northern Delaware...
 North central Kent County in central Delaware...
 Northwestern Cumberland County in southern New Jersey...
 Salem County 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 10:29PM CDT until July 5 at 11:15PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.831d15781819a4910d07f07d8dc75b5d5bbf79a0.001.1) — *2026-07-05*
-  > At 1028 PM CDT, a severe thunderstorm was located 7 miles southeast
-of Greenwood, moving south at 20 mph.
-
-HAZARD...Ping pong ball size hail and 60 mph wind gusts.
-
-SOURCE...Radar indicated.
-
-IMPACT...People and animals outdoors will be injured. Expect hail
-damage to roofs, sidin
 - **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 11:28PM EDT until July 6 at 2:15AM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f476737ad138de14f4a79954cea1925ce8255925.001.1) — *2026-07-05*
   > * WHAT...Flooding caused by excessive rainfall is expected.
 
@@ -65,8 +113,6 @@ counties, Lancaster and Lebanon.
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
 and flood-prone loc
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-36235) — *2026-07-06*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 5 at 8:25PM PDT until July 10 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9cc8f9139c5e5e031e3553653b69134dc6c996.001.1) — *2026-07-05*
   > * WHAT...An increased risk of sneaker waves and strong rip
 currents due to long period SW swell.
@@ -97,42 +143,6 @@ counties, Dauphin and York.
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
 and flood-prone location
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:19PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13d5e5762c1718c57ec85d5fe33530fff6de0bbc.001.1) — *2026-07-05*
-  > At 1019 PM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 6 miles northeast of Borger to 8 miles north of
-Washburn to 3 miles west of Bushland. Movement was south at 15 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph and penny size hail.
-
-SOURCE...Rada
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 5 at 11:19PM EDT until July 5 at 11:45PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.609063e8569938046a8bc4835306b365f84d1c89.001.1) — *2026-07-05*
-  > For the following areas...
-Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20
-NM...
-Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM...
-Waters from Manasquan Inlet NJ to Little Egg Inlet NJ from 20 to 60
-NM...
-Waters from Sandy Hook NJ to Manasquan In
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:14PM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.583d16fcdc067497db80a0c234401be2a71e6e3a.001.1) — *2026-07-05*
-  > At 1011 PM CDT, Doppler radar was tracking a strong thunderstorm over
-Hilshire Village, or over Spring Valley, moving south at 5 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 8:14PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cdeaaf3c61f5e2d4c8baff6f6560f14259b761b.001.1) — *2026-07-05*
-  > At 814 PM PDT, Doppler radar was tracking a strong thunderstorm 7
-miles west of North Fork Sprague River Trailhead, or 41 miles
-northwest of Lakeview, moving north at 15 mph.
-
-HAZARD...Wind gusts up to 50 mph and penny size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds c
 - **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued July 5 at 9:11PM MDT until July 5 at 10:15PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d81364d55581e7cb437855bc599194051344dba.001.1) — *2026-07-05*
   > The National Weather Service in El Paso has issued a
 
@@ -163,15 +173,6 @@ Weather Watch for wind and low relative humidity, which is in
 effect from Tuesday morning through Tuesday evening.
 
 * AFFECTED AREA...Fire Weather Zone 7
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:10PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edbff684e140c839ea3a871272ac3fbc76fea180.001.1) — *2026-07-05*
-  > At 1010 PM CDT, Doppler radar was tracking a strong thunderstorm near
-Everton, or 11 miles east of Greenfield, moving south at 25 mph.
-
-HAZARD...Wind gusts up to 50 mph and pea size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 11:05PM EDT until July 6 at 1:45AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84522ddd5dd8aaebce69255886ad6f3123f16cf4.001.1) — *2026-07-05*
   > FFWBGM
 
@@ -218,13 +219,6 @@ Northeastern New Castle County in northern Delaware...
 Northwestern Burlington County in southern New Jersey...
 Northwestern Camden County in southern New Jersey...
 Northwestern Glouces
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 5 at 10:55PM EDT until July 6 at 12:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97b9e56dd1d2656006b198cee9f7091e101750f4.001.1) — *2026-07-05*
-  > For the following areas...
-Delaware Bay waters north of East Point NJ to Slaughter Beach DE...
-
-At 1055 PM EDT, strong thunderstorms were located along a line
-extending from 27 nm north of Reedy Point to 6 nm north of Pea Patch
-Island to 7 nm southwest of Woodland Beach, moving n
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 9:53PM CDT until July 6 at 1:00AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52d682e9835328d6c258e79c4ad0b4fe80ff7666.001.1) — *2026-07-05*
   > FFWMAF
 
@@ -238,15 +232,33 @@ Southern Scurry County in western Texas...
 * Until 100 AM CDT.
 
 * At 953 PM CDT, Doppler radar indicated thunde
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 8:53PM MDT by NWS Great Falls MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5af889140356bf0c83bbe3e1a67fb7eb740bf99f.001.1) — *2026-07-05*
-  > At 852 PM MDT, Doppler radar was tracking a strong thunderstorm 14
-miles west of Hays, or 19 miles west of Zortman, moving northeast at
-35 mph.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 10:48PM EDT until July 6 at 2:00AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04c6e01cf75d50dfa4913737d5734ce6d9ffd2d6.001.1) — *2026-07-05*
+  > FFWBGM
 
-HAZARD...Wind gusts up to 50 mph and half inch hail.
+* AFFECTED AREA...Fire Weather Zones 690 Kittitas Valley, 691
+Lower Columbia Basin of Oregon and 691 Lower Columbia Basin of
+Washington.
 
-SOURCE...Radar indicated.
+* Flash Flood Warning for...
+Southwestern Sullivan County in central New York...
+Southeastern Lackawanna County in northeastern Pennsylvania...
+Pike County in northeastern Pennsylvania...
+Southern Wayne County in no
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 12:48PM ChST until July 6 at 3:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee91a06150c8e554a520a71f3b6627156d69fc9b.001.1) — *2026-07-06*
+  > FFWGUM
 
-IMPACT...Gusty winds could knock down tree limbs and b
+The National Weather Service in Tiyan has extended the
 
-_(121 additional items in raw.jsonl)_
+* Flash Flood Warning for...
+Saipan...
+Tinian...
+
+* Until 300 PM ChST.
+
+* At 1248 PM ChST, satellite estimates indicate heavy rain across the
+warned area. Flash flooding is ongoing or expected to begin
+shortly.
+
+HAZA
+
+_(118 additional items in raw.jsonl)_
