@@ -1,0 +1,45 @@
+name: Watchdog alert relay
+
+# Relay endpoint for the Mac-side watchdog. The laptop triggers this via
+# `gh workflow run watchdog-alert.yml -f message=...` when a local check
+# goes CRIT; this job forwards the message to Pushover so it reaches
+# Ian's phone even when the Mac itself can't (e.g. local network issues).
+#
+# Injection safety: the user-supplied `message` input is passed to the
+# shell ONLY via an environment variable (never interpolated with
+# ${{ }} inside the run script), and to curl via --form-string so a
+# leading '@' or '<' cannot trigger curl's file-read behaviour.
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Alert text to forward to Pushover'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Pushover alert
+        env:
+          USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          ALERT_MESSAGE: ${{ inputs.message }}
+        run: |
+          if [ -z "$USER_KEY" ] || [ -z "$APP_TOKEN" ]; then
+            echo "::notice::Pushover credentials missing; set PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN as repo secrets. Skipping."
+            exit 0
+          fi
+          curl -fsS \
+            --form-string "token=$APP_TOKEN" \
+            --form-string "user=$USER_KEY" \
+            --form-string "title=Mac watchdog CRIT" \
+            --form-string "message=$ALERT_MESSAGE" \
+            --form-string "priority=1" \
+            https://api.pushover.net/1/messages.json
+          echo "alert relayed to Pushover"
