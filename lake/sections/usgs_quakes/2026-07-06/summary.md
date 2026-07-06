@@ -2,19 +2,21 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-06
-record_count: 11
-new_today: 11
+record_count: 12
+new_today: 12
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-11 new of 11 total items today.
+12 new of 12 total items today.
 
+- **NEW**  [M 5.8 - 48 km SSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadc) — *2026-07-06*
+  > M5.8 · 48 km SSW of Sarangani, Philippines · depth 35 km
 - **NEW**  [M 5.8 - 274 km SE of Levuka, Fiji](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta9m) — *2026-07-05*
   > M5.8 · 274 km SE of Levuka, Fiji · depth 685.692 km
-- **NEW**  [M 5.3 - 71 km S of Severo-Kuril’sk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta86) — *2026-07-05*
-  > M5.3 · 71 km S of Severo-Kuril’sk, Russia · depth 82.936 km
+- **NEW**  [M 5.4 - 65 km SSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadj) — *2026-07-06*
+  > M5.4 · 65 km SSW of Sarangani, Philippines · depth 35 km
 - **NEW**  [M 5.0 - 106 km NW of Coquimbo, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taab) — *2026-07-05*
   > M5.0 · 106 km NW of Coquimbo, Chile · depth 10 km
 - **NEW**  [M 5.0 - 26 km NNW of Mianzhu, Deyang, Sichuan, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taaa) — *2026-07-05*

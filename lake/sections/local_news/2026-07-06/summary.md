@@ -2,19 +2,21 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-06
-record_count: 184
-new_today: 183
+record_count: 189
+new_today: 188
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-183 new of 184 total items today.
+188 new of 189 total items today.
 
 - **NEW**  [[St. Louis] Lou’s Clues – 7/6/2026](https://www.stlmag.com/games/lous-clues-070626/) — *2026-07-06*
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-06*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] 41 minors detained on Fourth of July as St. Louis enforces new downtown curfew](https://www.ksdk.com/article/news/crime/st-louis-police-detain-more-than-40-minors-downtown-curfew-fourth-of-july-weekend/63-8960e57d-773a-44fd-9ddd-0bdab5891307) — *2026-07-06*
+  > More than 40 minors were detained as St. Louis police enforced the city's new downtown curfew during the Fourth of July weekend.
+- **NEW**  [[St. Louis] Bridgeton plans September fireworks show after flooding](https://www.ksdk.com/article/news/local/bridgeton-plans-september-fireworks-show-after-flooding/63-f821abfe-16b9-423d-a7c3-d5fab4a127c2) — *2026-07-06*
+  > An overflowing pond flooded Bridgeton's fireworks launch site, leaving the city to assess damaged fireworks and plan a September show.
 - **NEW**  [[St. Louis] England defeats Mexico to head into World Cup quarterfinals](https://www.ksdk.com/article/sports/soccer/world-cup/england-defeats-mexico-head-into-quarterfinals-world-cup/507-e914d742-b286-4ee8-8954-7bc1c49fb865) — *2026-07-06*
   > The Brits will verse Norway on July 11 in Florida.
 - **NEW**  [[St. Louis] Who has moved on in the World Cup? See the quarterfinal bracket](https://www.ksdk.com/article/sports/soccer/world-cup/world-cup-quarterfinal-teams-advancing-eliminated/507-23e186d4-7180-47eb-ad81-29d4ec4b5743) — *2026-07-06*
@@ -37,8 +39,6 @@ state: fresh
   > The victims ranged in age from 6 to 37.
 - **NEW**  [[St. Louis] Miss Volunteer America and Miss Teen Volunteer America visit St. Louis to promote service, leadership](https://www.ksdk.com/article/news/local/miss-volunteer-america-and-miss-teen-volunteer-america-visit-st-louis-to-promote-service-leadership/63-d2019729-d329-4dfd-9e7b-34c2c259f343) — *2026-07-05*
   > National titleholders share how service, leadership and stepping outside their comfort zones are shaping the next generation.
-- **NEW**  [[St. Louis] 41 minors detained on Fourth of July as St. Louis enforces new downtown curfew](https://www.ksdk.com/article/news/crime/st-louis-police-detain-more-than-40-minors-downtown-curfew-fourth-of-july-weekend/63-8960e57d-773a-44fd-9ddd-0bdab5891307) — *2026-07-05*
-  > More than 40 minors were detained as St. Louis police enforced the city's new downtown curfew during the Fourth of July weekend.
 - **NEW**  [[St. Louis] Delta flight hit by firework while landing at Chicago airport](https://www.ksdk.com/article/news/nation-world/delta-flight-hit-by-firework-chicago-airport/507-2876a9f2-88a6-4634-a5e4-958acd4b4ef5) — *2026-07-05*
   > The aircraft landed safely with no reported injuries.
 - **NEW**  [[St. Louis] Virginia launches first statewide program that limits some drivers' speeds](https://www.ksdk.com/article/news/nation-world/virginia-launches-first-statewide-program-limits-driver-speed/507-bea43ac9-d598-4ff8-8c30-e39d4858185a) — *2026-07-05*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[St. Louis] Fire breaks out on Brooklyn Bridge during New York's fireworks show](https://www.ksdk.com/article/news/nation-world/fire-brooklyn-bridge-fireworks-show/507-e71a5a4e-a3e2-42e5-be30-981f9bd55ede) — *2026-07-05*
   > A fire erupted on the Brooklyn Bridge during NYC's July Fourth fireworks, creating dramatic smoke but causing no injuries.
 
-_(159 additional items in raw.jsonl)_
+_(164 additional items in raw.jsonl)_

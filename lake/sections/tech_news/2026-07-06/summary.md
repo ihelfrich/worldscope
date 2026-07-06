@@ -2,15 +2,54 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-06
-record_count: 52
-new_today: 52
+record_count: 57
+new_today: 57
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-52 new of 52 total items today.
+57 new of 57 total items today.
 
+- **NEW**  [[The Hacker News] New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions](https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html) — *2026-07-06*
+  > Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint ra
+- **NEW**  [[The Hacker News] New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html) — *2026-07-06*
+  > Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments.
+
+According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, co
+- **NEW**  [[The Hacker News] Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages](https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html) — *2026-07-06*
+  > Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits.
+
+In a proof of concept, they reconstructed a signed-in user'
+- **NEW**  [[The Hacker News] SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing](https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html) — *2026-07-06*
+  > Scanners meant to catch malicious add-on "skills" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the Hong Kong University of Science and Technology.
+
+Their strongest trick slipped p
+- **NEW**  [[Cybersecurity Dive] The security leaders defining the next decade aren’t in CISO seats yet](https://www.cybersecuritydive.com/spons/the-security-leaders-defining-the-next-decade-arent-in-ciso-seats-yet/824263/) — *2026-07-06*
+  > The first recognition program for the security leaders who will define the future of cybersecurity.
+- **NEW**  [[The Register] Secure Unix ancestor KSOS did type safety before Rust made it cool](https://www.theregister.com/os-platforms/2026/07/06/secure-unix-ancestor-ksos-did-type-safety-before-rust-made-it-cool/5266458) — *2026-07-06*
+  > Modula-based source code resurfaces after nearly four decades
+- **NEW**  [[The Register] Insert token to continue, says AI. Yeah, about that...](https://www.theregister.com/columnists/2026/07/06/insert-token-to-continue-says-ai-yeah-about-that/5266319) — *2026-07-06*
+  > Barney Rubble points to bubble trouble
+- **NEW**  [[The Register] Apprentice developer defied orders – then got a job supporting her weird code](https://www.theregister.com/software/2026/07/06/apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code/5266330) — *2026-07-06*
+  > Who wrote this rubbish? Oh ...
+- **NEW**  [[The Register] Japan’s asteroid sample retriever rapidly buzzes remote space rock](https://www.theregister.com/science/2026/07/06/japans-asteroid-sample-retriever-rapidly-buzzes-remote-space-rock/5266795) — *2026-07-06*
+  > Zipped just 800m past Asteroid Torifune as part of very extended mission
+- **NEW**  [[The Register] Zombie ‘who owns Unix?’ lawsuit comes alive again](https://www.theregister.com/os-platforms/2026/07/06/zombie-who-owns-unix-lawsuit-comes-alive-again/5266761) — *2026-07-06*
+  > SCO's legal successor Xinuos asks legal brains to let it bite IBM over ancient license and copyright claims
+- **NEW**  [[Computer Weekly] Tracking AI in the supply chain](https://www.computerweekly.com/feature/Tracking-AI-in-the-supply-chain) — *2026-07-06*
+  > &lt;p&gt;&lt;a href="https://www.techtarget.com/sustainability/tip/Supply-chain-traceability-software-to-consider"&gt;Supply chains networks&lt;/a&gt; span manufacturers, warehouses, shipping lines, trucking fleets, retailers and customers. Recent disruptions ranging from Covid-1
+- **NEW**  [[Computer Weekly] CW@60: A career in data - it's all about the people that you meet](https://www.computerweekly.com/feature/CW60-A-career-in-data-its-all-about-the-people-that-you-meet) — *2026-07-06*
+  > &lt;div class="imagecaption alignLeft"&gt;
+ &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
+&lt;/div&gt; 
+&lt;p&gt;&lt;i&gt;On 22 September 1966,&amp;nbsp; t
+- **NEW**  [[MIT Technology Review] South Korea’s hottest new bachelors are chip workers](https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/) — *2026-07-06*
+  > Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says
+- **NEW**  [[TechCrunch] Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent](https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/) — *2026-07-06*
+  > Even Realities, an ex-Apple team building camera-free smart glasses, raised $150M from Meituan and Tencent at a $1B valuation.
+- **NEW**  [[TechCrunch] This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon](https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/) — *2026-07-06*
+  > While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.
 - **NEW**  [[BleepingComputer] Flipper Zero firmware development continues with community help](https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/) — *2026-07-05*
   > Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]
 - **NEW**  [[Ars Technica] Chemical accidents rise as Trump administration proposes weakening safety rules](https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/) — *2026-07-05*
@@ -23,56 +62,15 @@ state: fresh
   > Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump’s $TRUMP memecoin, while Trump made $636 million.
 - **NEW**  [[TechCrunch] Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/) — *2026-07-05*
   > These may be the last days of Amazon’s Mechanical Turk.
-- **NEW**  [[TechCrunch] 5 desk gadgets that can make your workday better](https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/) — *2026-07-05*
-  > The right desk gadgets can help you reduce clutter, stay focused, and add a little extra convenience to your day.
-- **NEW**  [[TechCrunch] What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public](https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/) — *2026-07-05*
-  > Bending Spoons remains largely unknown, even as its portfolio of products has served more than a billion people.
 - **NEW**  [[BleepingComputer] JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/) — *2026-07-04*
   > Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]
 - **NEW**  [[The Hacker News] U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html) — *2026-07-04*
   > A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left.
 
 The odd part: the group that took the money
-- **NEW**  [[The Hacker News] North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html) — *2026-07-04*
-  > The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider.
-
-"The campaign remains 
 - **NEW**  [[Ars Technica] Review: Supergirl is not the disaster its low box office suggests](https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/) — *2026-07-04*
   > It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.
 - **NEW**  [[Ars Technica] When the ability to smell goes away](https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/) — *2026-07-04*
   > Disturbances in this critical sense are often linked to problems with brain health.
-- **NEW**  [[Ars Technica] A martian rock has lots of carbon on it, and it's not clear why](https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/) — *2026-07-04*
-  > Biology could explain the find, but there are other potential explanations.
-- **NEW**  [[BleepingComputer] NetNut proxy network disrupted, 2 million infected devices cut off](https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/) — *2026-07-03*
-  > A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]
-- **NEW**  [[BleepingComputer] ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit](https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/) — *2026-07-03*
-  > A new phishing-as-a-service (PhaaS) platform dubbed "ARToken" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]
-- **NEW**  [[BleepingComputer] Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/) — *2026-07-03*
-  > Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]
-- **NEW**  [[The Hacker News] Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html) — *2026-07-03*
-  > Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards.
 
-The flaws matter because FatFs is nearly everywhere. It ships inside the fir
-- **NEW**  [[The Hacker News] New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android](https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html) — *2026-07-03*
-  > A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out.
-
-Bad Epoll sits in the same small stretch of kernel code w
-- **NEW**  [[The Hacker News] New Avalon Malware Framework Packs CrownX Ransomware Capabilities](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html) — *2026-07-03*
-  > Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.
-
-Avalon combines credential collection, lateral movement,
-- **NEW**  [[The Record] Spyware found on phone of European Parliament member probing it](https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member) — *2026-07-03*
-  > Stelios Kouloglou, formerly a member of the European Parliament's committee investigating abuses of commercial spyware, was twice infected with Pegasus while serving, researchers said.
-- **NEW**  [[Schneier on Security] Flock Cameras Can Surveil Cars Without License Plates](https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html) — *2026-07-03*
-  > This is from a 2024 company presentation:
-Officers can also tap into data showing a car&#8217;s decals, bumper stickers, back and top racks&#8212;along with temporary and unique state tags.
-Flock calls it a &#8220;Vehicle Fingerprint&#8221; and it&#8217;s touted as a way for law 
-- **NEW**  [[Computer Weekly] Europe’s sovereignty ambitions stall at the procurement desk](https://www.computerweekly.com/news/366645394/Europes-sovereignty-ambitions-stall-at-the-procurement-desk) — *2026-07-03*
-  > &lt;p&gt;&lt;a href="https://www.linkedin.com/in/sachikomuto/"&gt;Sachiko Muto&lt;/a&gt;, chair of OpenForum Europe and senior researcher at Rise Institute, has spent the better part of two decades telling European policymakers that open source must be at the heart of digital sov
-- **NEW**  [[Computer Weekly] Interview: Oracle NetSuite’s Evan Goldberg – SaaSpocalypse averted](https://www.computerweekly.com/news/366645140/Oracle-NetSuites-Goldberg-SaaSpocalypse-averted) — *2026-07-03*
-  > &lt;p&gt;Evan Goldberg, executive vice-president of Oracle NetSuite, recently took a class in artificial intelligence (AI) at Stanford University to brush up on his knowledge, he told Computer Weekly on a visit to London. Goldberg has a &lt;a href="https://www.computerweekly.com/
-- **NEW**  [[Computer Weekly] Platforms must shoulder burden of proof for social media design](https://www.computerweekly.com/news/366645433/Platforms-must-shoulder-burden-of-proof-for-social-media-design) — *2026-07-03*
-  > &lt;p&gt;The harms of social media design are so clear that the “burden of proof” for safer features must fall on the companies themselves, rather than parents or policymakers, a technology psychologist has told MPs. &amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;During &lt;a href="https://commi
-
-_(27 additional items in raw.jsonl)_
+_(32 additional items in raw.jsonl)_

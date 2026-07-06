@@ -2,263 +2,246 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-06
-record_count: 143
-new_today: 141
+record_count: 131
+new_today: 129
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-141 new of 143 total items today.
+129 new of 131 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:46PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7da589b64ba343e82665a909458bae47eb8340d.001.1) — *2026-07-05*
-  > At 1046 PM CDT, Doppler radar was tracking a strong thunderstorm 4
-miles southeast of Borger, moving east at 10 mph.
-
-HAZARD...Wind gusts up to 50 mph and half inch hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured object
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-48986) — *2026-07-06*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-3856) — *2026-07-06*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 10:43PM CDT until July 6 at 6:00AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3892f7bc153fcd5029a128c31c7fc84cdb1103b.001.1) — *2026-07-05*
-  > * WHAT...Flooding caused by excessive rainfall continues.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 6 at 4:25AM CDT until July 6 at 5:15AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c256230db860b23f465390cc5bc86b4667be345.001.1) — *2026-07-06*
+  > SMWMOB
 
-* WHERE...Central Cooper County in central Missouri...
-
-* WHEN...Until 600 AM CDT Monday.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone locations is imminent or occurring.
-
-* ADDITI
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:42PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b4e5170d8b44715b4c4f848b9059172aa6fa4b1.001.1) — *2026-07-05*
-  > At 1042 PM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 11 miles east of Sheffield to 13 miles
-southwest of Sonora to 31 miles west of Telegraph to near Roosevelt
-to 7 miles southwest of Hilda. Movement was south at 25 mph.
-
-HAZARD...Wind gusts
-- **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued July 5 at 10:41PM CDT until July 6 at 12:15AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86066d8202d2468652b3f23a1e02770767e4bfdc.001.1) — *2026-07-05*
-  > The National Weather Service in Midland has issued a
-
-* Dust Storm Warning for...
-Southeastern Eddy County in southeastern New Mexico...
-Southern Lea County in southeastern New Mexico...
-Pecos County in southwestern Texas...
-Reeves County in southwestern Texas...
-Ward County in w
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 10:41PM CDT until July 5 at 11:15PM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b2141f305ba3051b6a1eac7d1c398d9149aa2f1.001.1) — *2026-07-05*
-  > At 1041 PM CDT, a severe thunderstorm was located 10 miles southeast
-of Greenwood, moving southeast at 20 mph.
-
-HAZARD...60 mph wind gusts and half dollar size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding, and
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 5 at 11:33PM EDT until July 6 at 12:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d325dd769287a58e8686637993b3c70365c863b.001.1) — *2026-07-05*
-  > For the following areas...
-Delaware Bay waters north of East Point NJ to Slaughter Beach DE...
-
-At 1133 PM EDT, strong thunderstorms were located along a line
-extending from 7 nm north of Pea Patch Island to 6 nm northwest of
-Bowers Beach, moving east at 25 knots.
-
-HAZARD...Wind 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 8:32PM PDT until July 5 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4f750f49dfe6d4cb94867488641f190723391a2.001.1) — *2026-07-05*
-  > SVRMFR
-
-The National Weather Service in Medford has issued a
-
-* Severe Thunderstorm Warning for...
-Western Lake County in south central Oregon...
-East central Klamath County in south central Oregon...
-
-* Until 900 PM PDT.
-
-* At 832 PM PDT, a severe thunderstorm was located 15 mil
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 11:30PM EDT until July 6 at 2:00AM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f0620f7192654e7570c1be28f14eb155c3c6807.001.1) — *2026-07-05*
-  > FFWOKX
-
-The National Weather Service in Upton has extended the
-
-* Flash Flood Warning for...
-Northern Orange County in southeastern New York...
-
-* Until 200 AM EDT.
-
-* At 1130 PM EDT, Doppler radar and automated rain gauges indicated
-thunderstorms producing heavy rain across the 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 5 at 11:30PM EDT until July 6 at 12:15AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.735a71005eb0abc1634c6cbc42e37dd5563180db.001.1) — *2026-07-05*
-  > SVRPHI
-
-The National Weather Service in Mount Holly NJ has issued a
-
-* Severe Thunderstorm Warning for...
-Southeastern New Castle County in northern Delaware...
-North central Kent County in central Delaware...
-Northwestern Cumberland County in southern New Jersey...
-Salem County 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 11:28PM EDT until July 6 at 2:15AM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f476737ad138de14f4a79954cea1925ce8255925.001.1) — *2026-07-05*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...A portion of central Pennsylvania, including the following
-counties, Lancaster and Lebanon.
-
-* WHEN...Until 215 AM EDT.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone loc
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 5 at 8:25PM PDT until July 10 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b9cc8f9139c5e5e031e3553653b69134dc6c996.001.1) — *2026-07-05*
-  > * WHAT...An increased risk of sneaker waves and strong rip
-currents due to long period SW swell.
-
-* WHERE...Pacific Coast Beaches.
-
-* WHEN...From Tuesday morning through Friday afternoon.
-
-* IMPACTS...Dangerous swimming and surfing conditions and
-localized beach erosion can be ex
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 11:25PM EDT until July 6 at 2:15AM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93f658d75eb428716eef3ca081da9f024ce28cd6.001.1) — *2026-07-05*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...A portion of central Pennsylvania, including the following
-counties, Dauphin, Lancaster, Lebanon and York.
-
-* WHEN...Until 215 AM EDT.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 5 at 11:19PM EDT until July 6 at 2:15AM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aeea7d8ae9536559f53fc422642bb2e37d883ad2.001.1) — *2026-07-05*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...A portion of central Pennsylvania, including the following
-counties, Dauphin and York.
-
-* WHEN...Until 215 AM EDT.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone location
-- **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued July 5 at 9:11PM MDT until July 5 at 10:15PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d81364d55581e7cb437855bc599194051344dba.001.1) — *2026-07-05*
-  > The National Weather Service in El Paso has issued a
-
-* Dust Storm Warning for...
-West central Hidalgo County in southwestern New Mexico...
-
-* Until 1015 PM MDT.
-
-* At 910 PM MDT, an area of blowing dust was between Mile Markers
-11 and 12 on Interstate 10.
-
-HAZARD...Less than a q
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 5 at 8:10PM PDT until July 7 at 10:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4667f9360ab4101663a6a3263dad69527269b393.002.1) — *2026-07-05*
-  > ...DRY AND WINDY CONDITIONS WILL LEAD TO CRITICAL FIRE WEATHER...
-
-* AFFECTED AREA...Fire Weather Zones 690 Kittitas Valley, 691
-Lower Columbia Basin of Oregon and 691 Lower Columbia Basin of
-Washington.
-
-* TIMING...From Tuesday morning through Tuesday evening.
-
-* WINDS...West 10
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 5 at 8:10PM PDT until July 7 at 10:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4667f9360ab4101663a6a3263dad69527269b393.001.1) — *2026-07-05*
-  > ...DRY AND WINDY CONDITIONS WILL LEAD TO CRITICAL FIRE WEATHER...
-
-The National Weather Service in Pendleton has issued a Fire
-Weather Watch for wind and low relative humidity, which is in
-effect from Tuesday morning through Tuesday evening.
-
-* AFFECTED AREA...Fire Weather Zone 7
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 11:05PM EDT until July 6 at 1:45AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84522ddd5dd8aaebce69255886ad6f3123f16cf4.001.1) — *2026-07-05*
-  > FFWBGM
-
-The National Weather Service in Binghamton has extended the
-
-* Flash Flood Warning for...
-Southwestern Lackawanna County in northeastern Pennsylvania...
-Northern Luzerne County in northeastern Pennsylvania...
-South Central Wyoming County in northeastern Pennsylvania...
-
-*
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 9:03PM MDT by NWS Great Falls MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e00ad82413f64c8430a6221dddaad3f4de3c72f.001.1) — *2026-07-05*
-  > Strong northerly winds associated with showers and thunderstorms
-north of the Canadian border will impact the US highway 2
-corridor through the evening and early overnight hours. Wind gusts
-will mostly remain in the 45 to 55 mph range, but a few isolated
-gusts over 55 mph can't b
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 5 at 10:02PM CDT by NWS San Angelo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9f842bd5e8329c92f86b584014e04ceb548ee6d.001.1) — *2026-07-05*
-  > At 957 PM CDT, a gust front producing strong wind gusts was located
-along a line extending from northwest Crockett County to Eldorado to
-Menard, moving south at 50 mph. Also, expect blowing dust to
-significant reduce the visibility. Motorists should be prepared to
-slow down due t
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 5 at 10:02PM CDT until July 5 at 11:00PM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.36bd2d14bdcc6a15e1473e419682d95e5e2752b5.001.1) — *2026-07-05*
-  > SMWLCH
-
-The National Weather Service in Lake Charles has issued a
+The National Weather Service in Mobile has issued a
 
 * Special Marine Warning for...
-Coastal waters from Cameron LA to High Island TX out 20 NM...
-Sabine Lake...
+Coastal waters from Okaloosa-Walton County Line to Pensacola FL out
+20 NM...
+Eastern Choctawhatchee Bay...
+Western Choctawhatchee Bay...
 
-* Until 1100 PM CDT.
+* Until 515 AM CDT.
 
-* At 1002 PM CDT, a strong thunderstorm was located 7 nm northeast of
-The Mouth O
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 11:00PM EDT until July 6 at 3:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a066f1d85a9eb06893897df94c3b202de3b046b0.001.1) — *2026-07-05*
-  > FFWPHI
+* At 424 AM CDT, a strong th
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 6 at 5:17AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9dca9ab7328a5fae1be66fb2c8b4be5ded1f6b23.001.1) — *2026-07-06*
+  > The combination of a moist airmass and calm winds is resulting in
+patchy dense fog this morning, especially across rural areas and
+valleys. Rapidly changing visibilities will be possible through
+the early morning hours before the fog lifts shortly after
+daybreak.
 
-The National Weather Service in Mount Holly has issued a
+If you are driv
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 4:00AM CDT until July 6 at 9:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.650f1a2ccb28966698156a1e40e8528587f55ec0.001.1) — *2026-07-06*
+  > * WHAT...Visibility of 1/4 mile or less in dense fog.
 
-* Flash Flood Warning for...
-Northeastern New Castle County in northern Delaware...
-Northwestern Burlington County in southern New Jersey...
-Northwestern Camden County in southern New Jersey...
-Northwestern Glouces
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 9:53PM CDT until July 6 at 1:00AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52d682e9835328d6c258e79c4ad0b4fe80ff7666.001.1) — *2026-07-05*
-  > FFWMAF
+* WHERE...A portion of western Kentucky.
 
-The National Weather Service in Midland/Odessa has issued a
+* WHEN...Until 9 AM CDT this morning.
 
-* Flash Flood Warning for...
-Howard County in western Texas...
-Mitchell County in western Texas...
-Southern Scurry County in western Texas...
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:55AM CDT until July 6 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a4a239d531322aba128ca5ec790cd4abd170388.001.1) — *2026-07-06*
+  > * WHAT...Visibility of 1/4 mile or less in dense fog.
 
-* Until 100 AM CDT.
+* WHERE...Portions of North Mississippi and West Tennessee.
 
-* At 953 PM CDT, Doppler radar indicated thunde
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 5 at 10:48PM EDT until July 6 at 2:00AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.04c6e01cf75d50dfa4913737d5734ce6d9ffd2d6.001.1) — *2026-07-05*
-  > FFWBGM
+* WHEN...Until 9 AM CDT this morning.
 
-* AFFECTED AREA...Fire Weather Zones 690 Kittitas Valley, 691
-Lower Columbia Basin of Oregon and 691 Lower Columbia Basin of
-Washington.
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:55AM CDT until July 6 at 9:00AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7898c7eacc38e08fa42edc8b0a09400072c2bbf0.001.1) — *2026-07-06*
+  > * WHAT...Visibility of 1/4 mile or less in dense fog.
 
-* Flash Flood Warning for...
-Southwestern Sullivan County in central New York...
-Southeastern Lackawanna County in northeastern Pennsylvania...
-Pike County in northeastern Pennsylvania...
-Southern Wayne County in no
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 12:48PM ChST until July 6 at 3:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee91a06150c8e554a520a71f3b6627156d69fc9b.001.1) — *2026-07-06*
-  > FFWGUM
+* WHERE...Portions of north central, northeast, and northwest
+Alabama and southern middle Tennessee.
 
-The National Weather Service in Tiyan has extended the
+* WHEN...Until 9 AM CDT this morning.
 
-* Flash Flood Warning for...
-Saipan...
-Tinian...
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 6 at 3:54AM CDT until July 6 at 9:00AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d23c52a6de0767227da31b540d12c851697a2a59.001.1) — *2026-07-06*
+  > * WHAT...Visibility less than half mile in dense fog.
 
-* Until 300 PM ChST.
+* WHERE...A portion of Middle Tennessee.
 
-* At 1248 PM ChST, satellite estimates indicate heavy rain across the
-warned area. Flash flooding is ongoing or expected to begin
-shortly.
+* WHEN...Until 9 AM CDT this morning.
 
-HAZA
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 6 at 3:34AM CDT until July 7 at 11:30AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9bcc88bccea7efee26b20a5ee0fff8b80cf7067.002.1) — *2026-07-06*
+  > ...The Flood Warning continues for the following rivers in Iowa...
 
-_(118 additional items in raw.jsonl)_
+Iowa River near Tama Hwy E49 affecting Tama and Poweshiek
+Counties.
+
+South Skunk River at Colfax affecting Marion, Polk and Jasper
+Counties.
+
+* WHAT...Moderate flooding is occurring and moderate flooding is
+forec
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 6 at 3:34AM CDT until July 7 at 10:00AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9bcc88bccea7efee26b20a5ee0fff8b80cf7067.001.1) — *2026-07-06*
+  > ...The Flood Warning continues for the following rivers in Iowa...
+
+Iowa River near Tama Hwy E49 affecting Tama and Poweshiek
+Counties.
+
+South Skunk River at Colfax affecting Marion, Polk and Jasper
+Counties.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...The Iowa River near Ta
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 6 at 4:09AM EDT until July 7 at 12:00AM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d1b80bf2f2a3d042906a01841512d988a739d1e.001.1) — *2026-07-06*
+  > ...The combination of a slow moving frontal zone with a tropical air
+mass in place will increase the risk of flash flooding this
+afternoon and evening...
+
+* WHAT...Flash flooding caused by excessive rainfall is possible.
+
+* WHERE...Washington D.C., including the following areas i
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 6 at 3:58AM EDT until July 6 at 8:00PM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a73ef439567d2b02880f792ac3c45057cff6cb9c.001.1) — *2026-07-06*
+  > * WHAT...Flash flooding caused by excessive rainfall is possible.
+
+* WHERE...A portion of central Pennsylvania, including the following
+county, Elk.
+
+* WHEN...This afternoon through this evening.
+
+* IMPACTS...Locally heavy rain and excessive runoff may result in
+flooding of river
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 6 at 3:58AM EDT until July 6 at 8:00PM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a73ef439567d2b02880f792ac3c45057cff6cb9c.002.1) — *2026-07-06*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...A portion of central Pennsylvania, including the following
+areas, Adams, Bedford, Blair, Cambria, Clearfield, Columbia,
+Cumberland, Dauphin, Franklin, Fulton, Huntingdon, Juniata,
+Lancaster,
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 6 at 3:53AM EDT until July 6 at 10:00PM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43175f18a8661e9ad523328d8d7b18faf2b31489.001.1) — *2026-07-06*
+  > * WHAT...High wave action, strong currents, and dangerous
+swimming conditions expected. Piers may be heavily swamped by
+waves.
+
+* WHERE...Oceana, Muskegon, Ottawa, Allegan and Van Buren
+counties.
+
+* WHEN...From this afternoon through this evening.
+
+* IMPACTS...Strong currents can
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 6 at 5:51PM ChST until July 8 at 6:00AM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f08444149b436101dd15c6e29128aa5e0f7203a0.001.1) — *2026-07-06*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Guam, Rota, Saipan and Tinian.
+
+* WHEN...Through late Tuesday night.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 6 at 3:24AM EDT until July 6 at 8:00AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4e6c95325e1128dc3c9f3cd3f949d7c9fb54cf8.001.1) — *2026-07-06*
+  > At 324 AM EDT, the public flash flooding across Kelleys Island.
+Between 7 and 13 inches of rain have fallen since late Sunday
+evening. Rainfall rates have decreased, with additional rainfall
+amounts up to 1 inch possible early this morning. Flash flooding is
+already occurring.
+
+H
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.001.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
+117 expected. Major Heat Risk.
+
+* WHERE...Portions of southwest Arizona and southeast and southern
+California.
+
+* WHEN...From 10 AM MST /10 AM PDT/ Tuesday to 8 PM MST /8 PM PDT/
+Thursday.
+
+* IMPACTS...Heat relate
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.002.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
+115 expected. Major Heat Risk.
+
+* WHERE...A portion of south central Arizona.
+
+* WHEN...From 10 AM Tuesday to 8 PM MST Thursday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat event
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:15AM MST until July 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d93b4d28d548599ac464bb8fa90ab6a207f055fb.003.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 111 to
+116 expected. Major Heat Risk.
+
+* WHERE...Buckeye/Avondale, Central Phoenix, Deer Valley, East
+Valley, North Phoenix/Glendale, Northwest Valley,
+Scottsdale/Paradise Valley, South Mountain/Ahwatukee, and Southeast
+
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 6 at 12:12AM PDT until July 6 at 8:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d4011903bf32f3772d207ad719fc57024f7ec8e.001.1) — *2026-07-06*
+  > * IMPACTS...Abundant lightning on dry fuels will likely create
+new ignitions across the region. Any fires that develop could
+spread rapidly. Numerous new fire starts could overwhelm
+initial attack.
+
+* AFFECTED AREA...Northern sections of Fire Weather Zones 624 and
+625.
+
+* THUNDER
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 12:11AM PDT until July 7 at 10:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59d5474bced92440b0328b0eeba33c1e64eac45d.001.1) — *2026-07-06*
+  > ...HOT, DRY, AND BREEZY CONDITIONS ACROSS EASTERN WASHINGTON ON
+TUESDAY...
+
+The National Weather Service in Spokane has issued a Fire Weather
+Watch for wind and low relative humidity, which is in effect from
+Tuesday morning through Tuesday evening.
+
+* Affected Area: Eastern Colum
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 6 at 12:11AM PDT until July 7 at 10:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59d5474bced92440b0328b0eeba33c1e64eac45d.002.1) — *2026-07-06*
+  > ...HOT, DRY, AND BREEZY CONDITIONS ACROSS EASTERN WASHINGTON ON
+TUESDAY...
+
+* Affected Area: Okanogan Valley (Zone 703), Foothills of
+Central Washington Cascades (Zone 705), Waterville Plateau
+(Zone 706) and Western Columbia Basin (Zone 707).
+
+* Winds: South 10 to 20 mph with gus
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.002.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions with high temperatures up to 117
+expected.
+
+* WHERE...San Diego County Deserts.
+
+* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.003.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions with high temperatures up to 114
+in the northern Coachella Valley expected.
+
+* WHERE...San Gorgonio Pass near Banning.
+
+* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme 
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 6 at 3:09AM EDT until July 6 at 10:00PM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d3c0266c75f6de3198b8e9a442def630ff92cd6.002.1) — *2026-07-06*
+  > * WHAT...High risk of rip currents expected.
+
+* WHERE...Lorain and Cuyahoga Counties.
+
+* WHEN...From 11 AM EDT this morning through this evening.
+
+* IMPACTS...Wind and wave action will cause currents on the
+lakeshore. Swimmers should not enter the water. Currents can
+carry swimme
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 6 at 12:09AM PDT until July 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44183b66dfa04dd5852d55cf997df6dfd561ac39.001.1) — *2026-07-06*
+  > * WHAT...Dangerously hot conditions with high temperatures up to 115
+expected.
+
+* WHERE...Coachella Valley.
+
+* WHEN...From 10 AM Tuesday to 8 PM PDT Thursday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+
+_(106 additional items in raw.jsonl)_

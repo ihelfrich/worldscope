@@ -24,7 +24,7 @@ state: fresh
 4. **Deb Fischer** (Senator, Republican, NE): composite 0.025
    evidence: [lake:political_figures:0000902664-2]
 5. **Jahana Hayes** (Representative, Democratic, CT-5th): composite 0.025
-   evidence: [lake:political_figures:0001443147-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:0001443147-2]
 6. **Brian Mast** (Representative, Republican, FL-21st): composite 0.025
    evidence: [lake:political_figures:0000902664-2]
 7. **Clarence Thomas** (Associate Justice, Nonpartisan, United States): composite 0.025
