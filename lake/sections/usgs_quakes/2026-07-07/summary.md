@@ -3,13 +3,13 @@ section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-07
 record_count: 12
-new_today: 5
+new_today: 6
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-5 new of 12 total items today.
+6 new of 12 total items today.
 
 - **NEW**  [M 5.8 - 296 km SSE of Ushuaia, Argentina](https://earthquake.usgs.gov/earthquakes/eventpage/us6000takd) — *2026-07-07*
   > M5.8 · 296 km SSE of Ushuaia, Argentina · depth 10 km
@@ -33,5 +33,5 @@ state: fresh
   > M4.8 · 48 km WSW of La Ligua, Chile · depth 29.486 km
 - [M 4.6 - 52 km E of Noda, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tai6) — *2026-07-06*
   > M4.6 · 52 km E of Noda, Japan · depth 57.696 km
-- [M 4.6 - 28 km NNE of Kuji, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000taf3) — *2026-07-06*
-  > M4.6 · 28 km NNE of Kuji, Japan · depth 66.979 km
+- **NEW**  [M 4.5 - 32 km NE of Yaguaraparo, Venezuela](https://earthquake.usgs.gov/earthquakes/eventpage/us6000talr) — *2026-07-07*
+  > M4.5 · 32 km NE of Yaguaraparo, Venezuela · depth 126.81 km

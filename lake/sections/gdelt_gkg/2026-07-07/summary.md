@@ -11,6 +11,10 @@ state: fresh
 
 25 new of 25 total items today.
 
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine exposed a Russian weakness . NATO must exploit it](https://www.stcatharinesstandard.ca/opinion/contributors/ukraine-has-exposed-a-russian-weakness-its-up-to-nato-to-fully-exploit-it/article_0fe18f45-6741-596c-a73e-060e0efc99db.html) — *2026-07-07*
+  > stcatharinesstandard.ca · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia tanker operators step in as others in non - G7 fleet retreat amid flag clampdowns](https://www.hellenicshippingnews.com/russia-tanker-operators-step-in-as-others-in-non-g7-fleet-retreat-amid-flag-clampdowns/) — *2026-07-07*
+  > hellenicshippingnews.com · English · tone NA
 - **NEW**  [[Russia oil sanctions perimeter · keywords] Russian strikes kill 28 in Kyiv area , exposing Ukraine air - defence shortages](https://dunyanews.tv/en/World/961248-russian-strikes-kill-28-in-kyiv-area-exposing-ukraine-airdefence-sho) — *2026-07-07*
   > dunyanews.tv · English · tone NA
 - **NEW**  [[Russia oil sanctions perimeter · keywords] Russian strikes kill 28 in Ukraine amid air defence strain](https://www.pakistantoday.com.pk/2026/07/07/russian-strikes-kill-28-in-ukraine) — *2026-07-07*
@@ -57,7 +61,3 @@ state: fresh
   > bozemandailychronicle.com · English · tone NA
 - **NEW**  [[Russia oil sanctions perimeter · keywords] Europe Targets Shadow Fleet Tankers Falsely Using Cameroon Flag , Sources Say](https://www.insurancejournal.com/news/international/2026/07/06/876251.htm) — *2026-07-06*
   > insurancejournal.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Drone debris damages Russia Ust - Luga , Vysotsk ports , other regions report attacks](https://whbl.com/2026/07/06/drone-debris-damages-russias-ust-luga-vysotsk-ports-other-regions-report-attacks/) — *2026-07-06*
-  > whbl.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Drone debris damages Russia Ust - Luga , Vysotsk ports , other regions report attacks](https://www.straitstimes.com/world/europe/drone-debris-damages-russias-ust-luga-vysotsk-ports-other-regions-report-attacks) — *2026-07-06*
-  > straitstimes.com · English · tone NA

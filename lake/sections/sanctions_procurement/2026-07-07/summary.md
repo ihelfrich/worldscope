@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-07
-record_count: 110
+record_count: 112
 new_today: 11
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-11 new of 110 total items today.
+11 new of 112 total items today.
 
 - [[OFAC] Counter Narcotics Designations; Counter Terrorism Designations and Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-01*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTRURVT0dId2tkcDlhY0s3WHB5TUZON2E2RVpNQk1KWXBkanN3LWp2TEVoNkpZdzQ1Smlka1Q3cF9tV0dESGlSdUVwY3JkWHJVanNSMzZUcm5pMlluTEE?oc=5" target="_blank">Counter Narcotics Designations; Counter Terrorism Designations and Designation U
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $1,402,839,311 → AUSTAL USA, LLC: OFFSHORE PATROL CUTTER (OPC) STAGE 2 CONTRACT: DETAILED DESI](https://www.usaspending.gov/award/70Z02322C93220001) — *2026-07-07*
   > Agency: Department of Homeland Security.  Description: OFFSHORE PATROL CUTTER (OPC) STAGE 2 CONTRACT: DETAILED DESIGN AND PRODUCTION (DD&P) OF 11 OPCS.
 
-_(85 additional items in raw.jsonl)_
+_(87 additional items in raw.jsonl)_

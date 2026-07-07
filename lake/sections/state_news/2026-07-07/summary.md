@@ -2,23 +2,27 @@
 section: state_news
 title: State-Level News
 date: 2026-07-07
-record_count: 420
-new_today: 92
+record_count: 445
+new_today: 120
 state: fresh
 ---
 
 ## State-Level News
 
-92 new of 420 total items today.
+120 new of 445 total items today.
 
-- [[Alabama] Flags Lowered for U.S. Wildland Fire Service Firefighter Sydney Kathryne Watson](https://governor.alabama.gov/newsroom/2026/07/flags-lowered-for-u-s-wildland-fire-service-firefighter-sydney-kathryne-watson/) — *2026-07-06*
-  > Download
 - **NEW**  [[California] Governor Newsom signs legislation 7.6.26](https://www.gov.ca.gov/2026/07/06/governor-newsom-signs-legislation-7-6-26/) — *2026-07-07*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/07/06/governor-news
 - [[California] Governor Newsom announces $12.5 million in community emergency preparedness to help Californians get “Ready” for the next disaster](https://www.gov.ca.gov/2026/07/06/governor-newsom-announces-12-5-million-in-community-emergency-preparedness-to-help-californians-get-ready-for-the-next-disaster/) — *2026-07-06*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Community-Emergency-Preparedness-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/07/06/governor-newsom-an
+- **NEW**  [[California] Push to shutter Oakland charter school hinges on a misguided approach to accountability](https://calmatters.org/commentary/2026/07/oakland-charter-school-closure-accountability/) — *2026-07-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/051122_St-Hope-Charter-School_MG_CM_32.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A close-up of a student&#039;s han
+- **NEW**  [[California] Tech devices in California’s new cars create thorny political issues](https://calmatters.org/commentary/2026/07/tech-devices-in-cars-ca/) — *2026-07-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/100922-Car-Screen-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A vehicle&#039;s center touchscreen displays n
+- **NEW**  [[California] Abortion pills could come to California community college health centers](https://calmatters.org/education/2026/07/abortion-pills-could-come-to-california-community-college-health-centers/) — *2026-07-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/071824-Mifespristone-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A close-up of a medication box labeled &quot;M
 - [[California] Private prison company sells two of California’s immigrant detention centers to the feds](https://calmatters.org/justice/2026/07/corecivic-sells-ice-detention-centers/) — *2026-07-06*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092225-CalCity-Detention-MV-CM-13.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A sign for the CoreCivic California Cit
 - [[California] Las escuelas de California son las más segregadas del país, a pesar de los programas voluntarios de transporte escolar](https://calmatters.org/calmatters-en-espanol/2026/07/escuelas-de-california-las-mas-segregadas-del-pais/) — *2026-07-06*
@@ -59,9 +63,5 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/07/ap-dc-fireworks-july-4.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/
 - [[Connecticut] Erosion of the common good in our national health care system](https://ctmirror.org/2026/07/06/erosion-of-the-common-good-in-our-national-primary-care-health-care/) — *2026-07-06*
   > <figure><img width="1024" height="741" src="https://ctmirror.org/wp-content/uploads/2026/06/work-requirement-chart-kff-1-1024x741.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conten
-- [[Connecticut] Muskets and pickling: Fifth Regiment brings CT’s Revolutionary War era to life](https://ctmirror.org/2026/07/05/ct-fifth-regiment-revolutionary-war-reenactment-greenwich/) — *2026-07-05*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/FIFTH-REGIMENT-0628-JL-05-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/u
-- [[Connecticut] Reflections upon the Reflecting Pool](https://ctmirror.org/2026/07/05/reflections-upon-the-reflecting-pool/) — *2026-07-05*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/07/ap-reflecting-pool.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/a
 
-_(395 additional items in raw.jsonl)_
+_(420 additional items in raw.jsonl)_

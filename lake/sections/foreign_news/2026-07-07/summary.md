@@ -2,64 +2,61 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-07
-record_count: 1003
-new_today: 573
+record_count: 1031
+new_today: 671
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-573 new of 1003 total items today.
+671 new of 1031 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-07*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-07*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Banks accused of pushing customers away from basic accounts](https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Some of the UK's biggest banks have been failing their most vulnerable customers, according to the financial regulator.
-- [[Global] Amazon bars breastfeeding boss from business course](https://www.bbc.co.uk/news/articles/cp9llgg5k8ro?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Rachael Bews says she told on the way her child would not be allowed on site. Amazon has apologised for not communicating its policy clearly.
-- **NEW**  [[Global] Samsung profits jump 1,800% as AI chip sales soar](https://www.bbc.co.uk/news/articles/c1kyy8yrpxdo?at_medium=RSS&at_campaign=rss) — *2026-07-07*
-  > The firm's shares fell sharply on Tuesday as some investors had expected an even stronger performance.
-- **NEW**  [[Global] Phone contract comparisons 'amounted to mis-selling' student loans, MPs say](https://www.bbc.co.uk/news/articles/c4gy9lpylz9o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > A new report says students were not well-enough informed that their loan terms could change retrospectively.
-- [[Global] 'I wear it on my middle finger': The rise of the defiant divorce ring](https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Around the world women are marking their split with new - or repurposed engagement - rings.
-- **NEW**  [[Global] Robots available for rent: But what can they do?](https://www.bbc.co.uk/news/articles/c4gymkg9lr2o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Robotics tech is changing fast, so for many it makes sense to rent a robot.
-- **NEW**  [[Global] E-bike injury payouts top £110m and push up insurance premiums](https://www.bbc.co.uk/news/articles/c05y9pe5p1jo?at_medium=RSS&at_campaign=rss) — *2026-07-07*
-  > It is only seven years since the first claim over an injury from a micromobility vehicle was made.
-- [[Global] Can China repeat its EV success with robotaxis?](https://www.bbc.co.uk/news/articles/cvgl8dlxjd3o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > China's self-driving car firms have been given a headstart by the country's EV supply chain as they expand globally.
-- [[Global] Microsoft cuts 4,800 jobs and shrinks Xbox in 'significant restructure'](https://www.bbc.co.uk/news/articles/c36yy27rnpeo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The sweeping layoffs equate to 2.1% of Microsoft's workforce, with 1,600 immediate job losses at Xbox.
-- [[Global] ITV hits such as I'm a Celebrity to stay free to watch after Sky takeover](https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Sky boss Dana Strong's comments came as the channel announces it is buying ITV's media and entertainment divisions in a £1.6bn deal.
-- [[Global] Three things you can do to stop EU border checks at the airport costing you](https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Queues are expected at airports this summer owing to EU's new digital border control system.
-- [[Global] Wegovy weight loss pill now available in UK - here's what you need to know](https://www.bbc.co.uk/news/articles/czj8w4pjd4yo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The once-a-day pill, from the makers of the Wegovy weight-loss jab, can now be bought privately in UK pharmacies.
-- [[Global] Backlash after China bubble tea firm ordered to pay Louis Vuitton $1.5m](https://www.bbc.co.uk/news/articles/cwykk095yzzo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > A court in China ruled that Molly Tea had infringed on the luxury brand's four-petal flower design.
-- [[Global] EasyJet agrees 'in principle' to £5.2bn takeover deal](https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > The low-cost airline had previously rejected four takeover offers from US investment firm Castlelake.
-- [[Global] What Sky buying ITV could mean for your favourite shows](https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Sky is set to buy ITV's TV and streaming channels for up to £1.6bn, the companies announced on Monday.
-- [[Global] 'Start work at 11' - but will other bosses be as flexible over England's 1am match?](https://www.bbc.co.uk/news/articles/c8x27k180x8o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Employers are being urged to use their "common sense" to allow staff to work flexibly where they can.
-- **NEW**  [[Global] Volunteers racing to save surplus Silverstone food](https://www.bbc.co.uk/news/articles/czrxx44e2ndo?at_medium=RSS&at_campaign=rss) — *2026-07-07*
-  > A Towcester community larder is collecting produce from the circuit following the Grand Prix.
-- [[Global] 'I wear it on my middle finger': The rise of the defiant divorce ring](https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Around the world women are marking their split with new - or repurposed engagement - rings.
-- **NEW**  [[Global] Banks accused of pushing customers away from basic accounts](https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Some of the UK's biggest banks have been failing their most vulnerable customers, according to the financial regulator.
-- [[Global] Fuel providers hopeful of more price reductions](https://www.bbc.co.uk/news/articles/c4gy4g2npk4o?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Rubis and ATF Fuels both say they expect to see prices fall further in time.
-- [[Global] Three things you can do to stop EU border checks at the airport costing you](https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss) — *2026-07-05*
-  > Queues are expected at airports this summer owing to EU's new digital border control system.
-- [[Global] Shoppers hit by hidden fees](https://www.bbc.co.uk/videos/c872254pj4vo?at_medium=RSS&at_campaign=rss) — *2026-07-06*
-  > Shoppers hit by hidden fees
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-07*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- **NEW**  [[Global] French court clears way for far-right leader Le Pen to run in 2027, with ankle bracelet](https://www.france24.com/en/europe/20260707-french-court-clears-way-for-far-right-leader-le-pen-to-run-in-2027-with-ankle-bracelet) — *2026-07-07*
+  > A French appeal court on Tuesday upheld Marine Le Pen's conviction for embezzling EU funds but shortened her ban on running for public office, in theory giving a path ​for the far-right ‌leader to run in the 2027 presidential election. The court also sentenced Le Pen to ⁠a three-
+- **NEW**  [[Global] Who is Jordan Bardella, the successor to French far right's Marine Le Pen?](https://www.france24.com/en/who-is-jordan-bardella-the-successor-to-french-far-right-s-marine-le-pen) — *2026-07-07*
+  > French far -right figurehead Marine Le Pen has been barred from public office for 15 months and sentenced to a year under electronic card after an appeal's course found her guilty of embezzling EU funds. Although this means she could run in the election, Le Pen always said she wo
+- **NEW**  [[Global] Le Pen sentenced to 15-month ban from public office in EU embezzlement case](https://www.france24.com/en/le-pen-sentenced-to-15-month-ban-from-public-office-in-eu-embezzlement-case) — *2026-07-07*
+  > A French ​appeals court on ​July 7 upheld Marine Le Pen's conviction for misusing EU funds ​but shortened ‌her ban ⁠on running for elected office. In theory, this potentially re-opens a path for the ⁠far-right leader to run in the 2027 presidential ​race. But Le Pen is also sente
+- **NEW**  [[Global] World Cup 2026: Ronaldo out of last World Cup as Spain beat Portugal](https://www.france24.com/en/tv-shows/world-cup-debrief/20260707-world-cup-2026-ronaldo-out-of-last-world-cup-as-spain-beat-portugal) — *2026-07-07*
+  > Mikel Merino broke the deadlock in injury time as Spain continue their perfect run with a 1-0 win. Portugal's exit means Cristiano Ronaldo played his final game at the World Cup, as he confirmed he's retiring from international football. Spain will face Belgium next after Rudi Ga
+- **NEW**  [[Global] 🔴 Live: Marine Le Pen convicted on appeal, but may still stand in the 2027 presidential election](https://www.france24.com/en/france/20260707-live-french-far-right-leader-marine-le-pen-faces-key-ruling-in-race-for-president) — *2026-07-07*
+- **NEW**  [[Global] 🔴 Follow live: French court upholds Le Pen's fraud conviction, threatening her 2027 presidential hopes](https://www.france24.com/en/france/20260707-live-french-far-right-leader-marine-le-pen-faces-key-ruling-in-race-for-president) — *2026-07-07*
+- **NEW**  [[Global] Woman suspected in Monaco bombing found shot dead near Kyiv, prosecutors say](https://www.france24.com/en/europe/20260707-woman-suspected-in-monaco-bombing-found-shot-dead-near-kyiv-prosecutors-say) — *2026-07-07*
+  > The body of the Ukrainian woman suspected of planting a parcel bomb in Monaco last week was found near Kyiv, the local newspaper Ukrainska Pravda reported Tuesday. Ukraine's prosecutor general's ‌office later confirmed the body was found and said they also detained an employee of
+- **NEW**  [[Global] Syria: Macron ‘safe’ after blasts near French president’s hotel](https://www.france24.com/en/video/20260707-syria-macron-safe-after-blasts-near-french-president-s-hotel) — *2026-07-07*
+  > Two bomb explosions rocked Syria’s Damascus on Tuesday, close to the hotel where French President Emmanuel Macron was staying as he visited the country. The Élysée palace said Macron was safe, with his motorcade seen leaving the hotel before the explosions.
+- **NEW**  [[Global] German Gen Z joins the Bundeswehr: The military becomes a plan B](https://www.france24.com/en/tv-shows/focus/20260707-german-gen-z-joins-the-bundeswehr-the-military-becomes-a-plan-b) — *2026-07-07*
+  > Germany is rearming amid an economic recession with thousands of jobs slashed across industrial and service sectors. In these tough economic conditions, the Bundeswehr is now one of the country's most attractive employers for young people. Applications rose by 23 percent in Janua
+- **NEW**  [[Global] What to know about Macron's landmark visit to Syria](https://www.france24.com/en/what-to-know-about-macron-s-landmark-visit-to-syria) — *2026-07-07*
+  > French President Emmanuel Macron's visit to Syria is historic: he is the first EU leader to visit the country since the rebels took over and ousted dictator al-Assad. Both Macron and al-Sharaa hope to build a path towards Syria's rehabilitation, but two unclaimed explosions in Da
+- **NEW**  [[Global] At the World Cup, Belgium knock out US team tainted by red card controversy](https://www.france24.com/en/at-the-world-cup-belgium-knock-out-us-team-tainted-by-red-card-controversy) — *2026-07-07*
+  > Donald Trump intervention wasn’t enough. Belgium have beaten and knocked the United States out of the World Cup. A 4-1 victory for the Red Devils in a match where all eyes were on Florian Balogun, the US striker who had been shown a red card and was not due to play until FIFA lif
+- **NEW**  [[Global] 'France stands by Syria's side': Macron 'most enthusiastic in Europe' to repair ties](https://www.france24.com/en/france-stands-by-syria-s-side-macron-most-enthusiastic-in-europe-to-repair-ties) — *2026-07-07*
+  > French President Emmanuel Macron has told Syria that 'France stands by its side' at a press conference in Damascus during his landmark visit to Ahmed al-Sharaa. Both leaders are hoping to bring more investment into the war-torn country as it looks to rebuild, although security ch
+- **NEW**  [[Global] Replay: French President Emmanuel Macron speaks after Damascus blasts](https://www.france24.com/en/replay-french-president-emmanuel-macron-speaks-after-damascus-blasts) — *2026-07-07*
+  > Rewatch Macron and al-Sharaa's press conference during the French president's landmark visit and after two bombs exploded in Damascus, near Macron's hotel.
+- **NEW**  [[Global] Al-Sharaa's capacity to bring security to Syria and the region under scrutiny](https://www.france24.com/en/al-sharaa-s-capacity-to-bring-security-to-syria-and-the-region-under-scrutiny) — *2026-07-07*
+  > French President Emmanuel Macron is visiting Syria's leader Ahmed al-Sharaa ahead of a Nato summit on July 7. Even though the two leaders are expected to sign several contracts crucial for Syria's reconstruction, security is the main concern - both inside the country, but also in
+- **NEW**  [[Global] Syria's rehabilitation 'suits the West' while Damascus hopes to attract investors](https://www.france24.com/en/syria-s-rehabilitation-suits-the-west-while-damascus-hopes-to-attract-investors) — *2026-07-07*
+  > At least 18 people have been wounded after two bombs exploded in the centre of Damascus near the hotel where French President Emmanuel Macron is staying. This comes as Ahmed al-Sharaa is trying to convince the world that Syria is dealing with important security challenges, in a b
+- **NEW**  [[Global] Samsung Electronics profits surge 1,800% annually amid artificial intelligence spending boom](https://www.france24.com/en/tv-shows/business/20260707-samsung-electronics-profits-surge-1-800-annually-amid-artificial-intelligence-spending-boom) — *2026-07-07*
+  > South Korean chipmaker Samsung Electronics posted record quarterly profits Tuesday thanks to the global AI infrastructure buildout coupled with a memory chip shortage. Also in this edition, oil futures rise as tensions reignite in the Hormuz Strait and Canada commits to its bigge
+- **NEW**  [[Global] Explosions trying to deter 'business as usual' strategy at the heart of Macron's visit](https://www.france24.com/en/explosions-trying-to-deter-business-as-usual-strategy-at-the-heart-of-macron-s-visit) — *2026-07-07*
+  > As French President Emmanuel Macron is holding a landmark visit to his Syrian counterpart, several bombs exploded near Damascus's Four Seasons Hotel, in the city centre, where Macron is said to be staying. But the two presidents seem undeterred as the visit signs a landmark momen
+- **NEW**  [[Global] Syria's 'security challenges' main obstacle to attracting investors](https://www.france24.com/en/syria-s-security-challenges-main-obstacle-to-attracting-investors) — *2026-07-07*
+  > Explosions rocked Damascus on July 7 as France’s president is meeting with his Syrian counterpart in a surprise, landmark visit. Emmanuel Macorn was not at the hotel at the time of the explosions and had already arrived in the presidential palace. The two leaders were about to ki
+- **NEW**  [[Global] Explosions heard near Macron's Damascus hotel amid high-risk, landmark visit](https://www.france24.com/en/explosions-heard-near-macron-s-damascus-hotel-amid-high-risk-landmark-visit) — *2026-07-07*
+  > Explosions were heard in Damascus as French President Emmanuel Macron is holding a surprise visit to Damascus, hosted by Syrian President Ahmad al-Sharaa. Macron played a major role in pushing Europe and the United States to drop most sanctions on Syria. FRANCE 24's Clovis Casali
+- **NEW**  [[Global] Judgement day for Marine Le Pen](https://www.france24.com/en/tv-shows/press-review/20260707-judgement-day-for-marine-le-pen) — *2026-07-07*
+  > PRESS REVIEW: Tuesday, July 7 – While Marine Le Pen hopes for an acquittal – or a tad more leniency – over the alleged embezzlement of €4.4 million from the European Parliament, has her party already moved on? In other news, New Zealand and Australia reel after a Chinese missile 
+- **NEW**  [[Global] 🔴 Syria: Explosions heard in Damascus during French president Macron's visit](https://www.france24.com/en/middle-east/20260707-explosions-heard-in-damascus-during-french-president-macron-s-visit) — *2026-07-07*
 
-_(978 additional items in raw.jsonl)_
+_(1006 additional items in raw.jsonl)_
