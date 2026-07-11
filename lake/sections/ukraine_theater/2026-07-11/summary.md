@@ -2,46 +2,22 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
-record_count: 254
-new_today: 164
+record_count: 242
+new_today: 125
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-164 new of 254 total items today.
+125 new of 242 total items today.
 
-- **NEW**  [[FIRMS] thermal anomaly 49.768, 29.636 (FRP 1.57 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.636,49.768,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0128Z, FRP 1.57 MW
-- **NEW**  [[FIRMS] thermal anomaly 49.767, 29.633 (FRP 0.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.633,49.767,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0128Z, FRP 0.95 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.082, 22.102 (FRP 0.91 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.102,44.082,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0130Z, FRP 0.91 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.080, 22.103 (FRP 1.08 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.103,44.080,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0130Z, FRP 1.08 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.954, 25.281 (FRP 1.37 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.281,45.954,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0130Z, FRP 1.37 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.258, 31.677 (FRP 10.14 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.677,45.258,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1115Z, FRP 10.14 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.355, 30.904 (FRP 3.23 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.904,45.355,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1115Z, FRP 3.23 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.718, 28.743 (FRP 5.09 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@28.743,45.718,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 5.09 MW
-- **NEW**  [[FIRMS] thermal anomaly 46.419, 32.415 (FRP 3.92 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.415,46.419,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.92 MW
-- **NEW**  [[FIRMS] thermal anomaly 46.867, 29.576 (FRP 5.9 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.576,46.867,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 5.9 MW
-- **NEW**  [[FIRMS] thermal anomaly 51.405, 30.225 (FRP 7.32 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.225,51.405,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 7.32 MW
-- **NEW**  [[FIRMS] thermal anomaly 51.892, 29.345 (FRP 3.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.345,51.892,9z) — *2026-07-10*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.54 MW
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
+- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2016-07-28*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Initial reports of two explosions in Damascus near the hotel where French President Emmanuel Macron is staying - Liveuamap](https://syria.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
@@ -61,5 +37,29 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGZDUkZCNUV0SnR1alZkOUpubVRuQ2ZOUktDWlNFbzdTODhsVXI5T0hWSWpURFFHLWh1eGZTYmhNRGNNbEd3bUppTGlxakw1a1NTcVpPbXFJNXhoaVBvQThXSVowSDNkdnEtOFMwdjVHaGRYQjJaanpEVzltYjJkTHVzVUtiSk4yS3hSU1NHNTdreEc0b1E?oc=5" target="_blank">Thre
 - **NEW**  [[Liveuamap] The director of ambulance and emergency services at the Syrian Ministry of Health confirmed that the death toll from the explosion of an improvised explosive device planted inside a cafe on Nasr Street in Damascus has risen to 4, with 10 in](https://syria.liveuamap.com) — *2026-07-02*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPSTBUR1VUelhyQVJkWUM0NTlvSFloTXFaOTA5WE1MSFFoTkZKNEV5RnIxdk04cHkwOTdBNnROUUhXN2wtQ2NWSTlPX1hWM0tzVnAyanRuVlpfVktlNDJSNVM1d0xVNHFSTk9jR2hhZlo5cnY2U29hVGJrY3BqQUV3b1dIWVh6elRQellwTVR4QU1feWZLMTcxeGxR?oc=5" target="_blank"
+- [[Liveuamap] Restrictions on aircraft arrivals and departures have been ordered at Novosibirsk&039;s Tolmachevo Airport, according to Rosaviatsiya. Novosibirsk Oblast, Russia - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNS0ZtaEFtbnU0cUpoMnBlU1dOcXNtb1d4c25fVUkydk1DTWdEZjM3elpRTkJCNWlWU3pQV3FNOGlwaVlORHBsWElFblI0MkNSV0xtZ2hJTW42dVhyQWIyVnpfdzVnX0d2dUtoMW85elFHVFdERkIyT3FHLTNCSWF3M0xGakZDY2FkTWw0a0pmcVktdw?oc=5" target="_blank">Restricti
+- [[Liveuamap] Explosions were reported in Zaporizhzhia. Airstrikes with glide bombs - Liveuamap](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNbUFRUkVMZzUxVi12ampRTzJIUllsclN5X3EzYzY0cWxOal9oSU5lMFVsRFBtdXBMU3hMR2ROQkhrT1F1VkxRSFdXbDJUNjNwbkZrekhBc2F3TVZSVGQ1bEt1clhpWTZvWkJacjV4R0JKU1ljUzNtdHdfNlIza2xPX3FMaHpsWnVNUWRTeS10WGdYbnN0Snc?oc=5" target="_blank">Expl
+- **NEW**  [[Liveuamap] At Kursk and North Slobozhansky(Sumy) direction Ukrainian forces have repelled 2 Russian army assaults, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2hKUVJyd3hHRlJPTG8xVlpUUkVDNU51NGFPTkwtdVhBaTVTVG02V1huU2FocG9NSWVjR2Z0QTFlTTQ2bXp1T1V4M3hnZ1IyTERtbVFZT1hMSXdFNmdCOG5wc2NmN2NaOS1paEhTMGhyajU1OWdfdGVjUENXMll3dlg2QXk3UXlnSWthVzltalBaQl9ZeVBUQzFHZw?oc=5" target="_blan
+- [[Liveuamap] President Trump to meet with Ukrainian President Zelenskyy and Syrian President Sharaa on Wednesday in Ankara, on the margins of the NATO summit, as per Senior US Official Ankara - Ukraine Interactive map - Ukraine Latest news on live map -](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOeVByS1hTXzJtdEozc0dPajJRaWtMS1NyZUZ6SnFIdDMyT0pCemkwQ080eFNoZG13WVJPTC1nNVVNQ2FiV3hiWTZYdHFNTnVheG5iMnNJM1k3RUotTkpwRkozMWR1eXN0ckw3MU1tcWR6djZvV1llUXZlakhXM1piUDdFOGpyR1dHSVNmS1ZZaExDQQ?oc=5" target="_blank">President
+- [[Liveuamap] Oil terminal is on fire at the Kerch port after overnight attack - Liveuamap](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQMy1OZmN1a0ktOXQ3NVlWNlFDU1pCWnY1TWdXZXdBVFZ1WkQ2SGttRGxXSkNkMkdkRGI1QTBHVGFkLThVUWlHYXN3LUYwR0hiS3Y5akxicmp4LTdEZmhDVFNuMTc5Y2lyXzRwc1hUZ2xjQ1NYU2ItUzVveEdnYnRVWUJ6dWpMcjVndzAyNWNuM20?oc=5" target="_blank">Oil terminal
+- [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
+  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
+- [[Liveuamap] Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-06-29*
+  > <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZDYxem55U2Mxa3ZOVk9sWjJFZDVvRkQyVmp0R2RvM2tMSlZhUGNYSlRXTndydklxTnVXTHo1dm93U00zb3VleGhuTzROWmwyZ2NSckZleHUyd0FZUUhoSm0xZW42MzQt?oc=5" target="_blank">Somalia latest news in English on live map</a>&nbsp;&nbsp;<font col
+- [[Liveuamap] Turkey Interactive News Map - incidents reports from Turkey - turkey.liveuamap.com - Liveuamap](https://turkey.liveuamap.com) — *2026-07-02*
+  > <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNVXlBdDdtMWpMRzZqcGpYY0hpQlVwaHViaWplbDBELWJZN0duU1Q0U2NubE9xVU9qcU1seGtYLUU5X3JUcTJJNTRScEQ1UV91SmR2ZHFkb0IyM3NocjRSNGpZWmZlcWhuTEI1TUx3MXVVOTU2TnRHajFIREVnSGZqRQ?oc=5" target="_blank">Turkey Interactive News Map - inc
+- **NEW**  [[Liveuamap] The Israeli army continued carrying out extensive demolition operations inside the town of Khiam, where successive explosions were heard throughout the night, shaking the area. Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liv](https://lebanon.liveuamap.com) — *2026-07-10*
+  > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNRHJFSW41V2NXMnlhN3p2Y0lfZDVyZFB1SFRDUmtPRy1QRnN4ZFhjdEtua1ZMQXhZTlR5Rk50X2VDR3J3UlF3cHZRWTBLYlU3R1pxdXd5RzBIbmxLejFpdW84WGhQcHpLMHFEUGlPOFN1OFk4cDg0TmVqb3IySTg2YzMyVFZ0MEU2aWR6LXF5dG5ndWp3anFFR0E3Wk5HU2M?oc=5" target="
+- [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-07-01*
+  > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
+- **NEW**  [[Liveuamap] LAFD Alert- Hyde Park Traffic Accident [Fatality] 3328 W 78th St Los Angeles, California - California today on live map - Liveuamap](https://california.liveuamap.com) — *2026-07-10*
+  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2g4X3p5RTYtVmNBNEExajZlQjRHbnE0OG5XVWhVWkRxLVVsWWVSNEZta1c5UXNsR09iNFhxb3JGQ3FPd2wwWVBQeEMzMG1uTnkycGxseUkwbHhVak1EV09iNVZfNHNaOGdwUGdtUVRSUk9KS05wRGozNGJSOW5wV3RERVI1dG05OE9WZmpwWTZzZ2ZBSEdlNGhRa2o2bjdGUnczaHhCOEVSMm
+- **NEW**  [[Liveuamap] Day of news on the map - Հունիս, 18 2026 - Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-07-04*
+  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUTlVmSDhmR1cyQ0gtOGFtT1h3S1RCbS1RZ1VIWV9UclJTOHd0a3Nydjl4RnlHTVdwUzNqWVp0RXBIOFNsWG1ieDJjdlpzbnZJREhJQV9adEV5b1A0?oc=5" target="_blank">Day of news on the map - Հունիս, 18 2026 - Somalia latest news in English on live m
 
-_(229 additional items in raw.jsonl)_
+_(217 additional items in raw.jsonl)_
