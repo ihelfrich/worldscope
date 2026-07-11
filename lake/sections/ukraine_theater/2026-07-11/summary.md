@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
 record_count: 254
-new_today: 139
+new_today: 137
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-139 new of 254 total items today.
+137 new of 254 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -47,8 +47,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Mandatory evacuation has been declared in Vyschchetarasivka of Nikopol district and Vasylkivka of Synelnykove district of Dnipropetrovsk region Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liv](https://liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
-- **NEW**  [[Liveuamap] Houses in Qantara were burned by the Israeli army Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-10*
-  > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHhSTVYyQmZYZFZYaThuU0dORVJpNHhnZFhiNnl1X0lGU0EtRkFZVllzS1VkV25uVWxfcHZGeHNRMm9MUVE5NVZuclJSY0t2U3FLQ3A5UXBaXzg5cHlHMHBJYlBDcnhYMHBOcGtLZ3hSa2xISHgzRHpvYmVMS1JPbDJ6WkdCUUhSTnFSNVk4azlJNmV4VmN6YU51czNCTFE?oc=5" target="
 - **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] 4 explosions were reported in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
@@ -57,6 +55,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQRWl1V1JmdVlSUmViZW1VaGhiRGN2X2J6bXpmaWo3Y0dNSmlIc1lXX0ZHRkdJSC15RXpOYmltaVJXd0JZY1ZwQnpsNllxZTFMbDlLZDE0RS1CdHBIR1VSWGxaVFFJa0pKVS1lRzNIRzhNUU9BSDg5dkxzVGhZcFZ2WEpReFBkVTFPQXpJX09vUHVBb09T?oc=5" target="_blank">At Olek
 - **NEW**  [[Liveuamap] At Kupyansk direction clashes yesterday near Novoplatonivka, Kivsharivka, - General Staff of Armed Forces of Ukraine reports Kharkiv Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-09*
   > <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlhfNGR0anJrNFlVbXBDUTNkZXZrdVV5RHJvbzNyUnlBb0djV3Y1aG9CUE9fV3RCUW9ULVA1ZWdRM2VKVlVEOXBsVlllYVdWREZqUEhvVlY2QXc2REFKNW5wYi0tdG4xcVhHTDI0SXBXbnR6Y1JXc0lUOGs4ZlctSEFtRldIV2ZoWTlDOXNpSFNSQXc3SVVLeDZqcEJPNEtS?oc=5" target=
+- **NEW**  [[Liveuamap] Qatari Foreign Ministry: We demand that Iran immediately cease any practices that threaten the security of the region and endanger maritime and energy security. Doha Municipality, Qatar - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-07*
+  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHZoNWo4dERDNGdEZV81RHdpLUp3dWFOTnI3amZNWFdRZWJ3MHdDS3VhZ0x5Ml9JNUpIR19hRVoyZm0ybmVTcHh3TGV3eDZHZ2o2S25PeTZVYkR2eFdlTklxcWhCVDBxZVRoUHk5U2N4aGNPVDc2Ml9za3N2VGUwbXRWUjdnRncwcHBWMzAxUGRPcjI1My00TlJvUnVVMmpkZ0E?oc=5" targ
 - **NEW**  [[Liveuamap] The roof of residential house is on fire in Zaporizhzhia after drone strike - Liveuamap](https://liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVTlOSDdRc1FUbzVXNGpWNzZrRDBqU2I0ZGwtUXc0dUYyNkFFeFc5RnIwMEFyYTRNaWwtaHZwWUJra01yMG5FRklNQzI2SjN2WEJFZGNOdllDdlVJWUJTYlU0RzA4dmJZMV9JbHI2VHA3YVhwSDRLbTRFTFIzN2ZJbzVjTzhJUmVhWE14b3FfaEdRbVMzWlM0RWlmeGg?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Three explosions were heard in the vicinity of Taherouyi village in the Serik region. Zaporizhzhia, Zaporiz&039;ka oblast - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
