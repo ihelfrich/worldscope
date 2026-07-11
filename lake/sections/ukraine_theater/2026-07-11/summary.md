@@ -3,18 +3,14 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
 record_count: 254
-new_today: 137
+new_today: 164
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-137 new of 254 total items today.
+164 new of 254 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[FIRMS] thermal anomaly 49.768, 29.636 (FRP 1.57 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.636,49.768,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0128Z, FRP 1.57 MW
 - **NEW**  [[FIRMS] thermal anomaly 49.767, 29.633 (FRP 0.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.633,49.767,9z) — *2026-07-10*
@@ -39,6 +35,10 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 7.32 MW
 - **NEW**  [[FIRMS] thermal anomaly 51.892, 29.345 (FRP 3.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.345,51.892,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.54 MW
+- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
@@ -47,8 +47,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Mandatory evacuation has been declared in Vyschchetarasivka of Nikopol district and Vasylkivka of Synelnykove district of Dnipropetrovsk region Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liv](https://liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
-- **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] 4 explosions were reported in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1h2N2JTRHltN3YyNHZBMFhudElDSkxlWUFOakVxRFA2SEsxdGRQSzlXdXZRank0Z3lWbnFNd0hSNHVuN3pLR2szVWV0UTJuNHpMTXl6dDEzRlg5cG44UVNuaUYxOG4waFQ0RmVwMlZLSUROS04tZlU2WEVpMHVjQUlOU2RwRnc?oc=5" target="_blank">4 explosions were report
 - **NEW**  [[Liveuamap] At Oleksandrivka direction clashes yesterday near Ternove, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-11*
@@ -61,5 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVTlOSDdRc1FUbzVXNGpWNzZrRDBqU2I0ZGwtUXc0dUYyNkFFeFc5RnIwMEFyYTRNaWwtaHZwWUJra01yMG5FRklNQzI2SjN2WEJFZGNOdllDdlVJWUJTYlU0RzA4dmJZMV9JbHI2VHA3YVhwSDRLbTRFTFIzN2ZJbzVjTzhJUmVhWE14b3FfaEdRbVMzWlM0RWlmeGg?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Three explosions were heard in the vicinity of Taherouyi village in the Serik region. Zaporizhzhia, Zaporiz&039;ka oblast - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGZDUkZCNUV0SnR1alZkOUpubVRuQ2ZOUktDWlNFbzdTODhsVXI5T0hWSWpURFFHLWh1eGZTYmhNRGNNbEd3bUppTGlxakw1a1NTcVpPbXFJNXhoaVBvQThXSVowSDNkdnEtOFMwdjVHaGRYQjJaanpEVzltYjJkTHVzVUtiSk4yS3hSU1NHNTdreEc0b1E?oc=5" target="_blank">Thre
+- **NEW**  [[Liveuamap] The director of ambulance and emergency services at the Syrian Ministry of Health confirmed that the death toll from the explosion of an improvised explosive device planted inside a cafe on Nasr Street in Damascus has risen to 4, with 10 in](https://syria.liveuamap.com) — *2026-07-02*
+  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPSTBUR1VUelhyQVJkWUM0NTlvSFloTXFaOTA5WE1MSFFoTkZKNEV5RnIxdk04cHkwOTdBNnROUUhXN2wtQ2NWSTlPX1hWM0tzVnAyanRuVlpfVktlNDJSNVM1d0xVNHFSTk9jR2hhZlo5cnY2U29hVGJrY3BqQUV3b1dIWVh6elRQellwTVR4QU1feWZLMTcxeGxR?oc=5" target="_blank"
 
 _(229 additional items in raw.jsonl)_
