@@ -3,16 +3,14 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
 record_count: 254
-new_today: 132
+new_today: 133
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-132 new of 254 total items today.
+133 new of 254 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - **NEW**  [[FIRMS] thermal anomaly 49.768, 29.636 (FRP 1.57 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.636,49.768,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0128Z, FRP 1.57 MW
 - **NEW**  [[FIRMS] thermal anomaly 49.767, 29.633 (FRP 0.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.633,49.767,9z) — *2026-07-10*
@@ -37,29 +35,31 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 7.32 MW
 - **NEW**  [[FIRMS] thermal anomaly 51.892, 29.345 (FRP 3.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.345,51.892,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.54 MW
+- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
-  > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
-- **NEW**  [[Liveuamap] Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today - israelpalestine.liveuamap.com - Liveuamap](https://israelpalestine.liveuamap.com) — *2016-04-27*
-  > <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NcWp5WDZfanl1bHV4Skt0RG5yZGQtVnBTbUhsMFRQMUpSdDlxV2Nvc25Kd3hzQU9jM1pFRnh2eDRJbDUyN19VQ1hQVVI5LUU?oc=5" target="_blank">Palestine and Israel news today on map - Jerusalem today - Israel News today - Palestine News today 
 - **NEW**  [[Liveuamap] Initial reports of two explosions in Damascus near the hotel where French President Emmanuel Macron is staying - Liveuamap](https://syria.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Mandatory evacuation has been declared in Vyschchetarasivka of Nikopol district and Vasylkivka of Synelnykove district of Dnipropetrovsk region Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liv](https://liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
-- **NEW**  [[Liveuamap] Trump: I hope to end Ukraine war soon. Ankara - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-07*
-  > <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxON01NazBSQ2FOUlJ4LUcxMzVScnVHZG8yRVNwQTNSeHI0MmJpZmtrNEdFZUoyUGZ3Q2lPRnBrbzJOeVFCVV9MQkRXQ0t1a05xTFhnekxVek04aDFrbmRwUFYwN3ppU1FZM1AwQWx0c0owMXJjZVprVndDRlByZ0NueW9B?oc=5" target="_blank">Trump: I hope to end Ukraine wa
-- **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] At Sloviansk direction clashes yesterday near Kryva Luka, Ray-Oleksandrivka, Mykolayivka and Zakitne, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnoxeWJ1MF9LQ05xODVIbGc4NUJ5UUJ4Z2hVSWZqVWc1djQtR3g0VElET2UzWEJZMG5GdTJ1ci1JTXJ6SGRjZ05ZMUlWQ1FPR0xna2c1cktvZ2NGd0d6V2NtQjdHU1RwaU9EeUYzVjc3aXRGa1c5a2VQTDJRSWNXcENLQnRjS21maEZHcVhWbw?oc=5" target="_blank">At Sloviansk 
 - **NEW**  [[Liveuamap] At Kupyansk direction clashes yesterday near Novoplatonivka, Kivsharivka, - General Staff of Armed Forces of Ukraine reports Kharkiv Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-09*
   > <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlhfNGR0anJrNFlVbXBDUTNkZXZrdVV5RHJvbzNyUnlBb0djV3Y1aG9CUE9fV3RCUW9ULVA1ZWdRM2VKVlVEOXBsVlllYVdWREZqUEhvVlY2QXc2REFKNW5wYi0tdG4xcVhHTDI0SXBXbnR6Y1JXc0lUOGs4ZlctSEFtRldIV2ZoWTlDOXNpSFNSQXc3SVVLeDZqcEJPNEtS?oc=5" target=
 - **NEW**  [[Liveuamap] Erbil: A drone attack targeted camps belonging to the Iranian Kurdish opposition group known as PJAK. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-09*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQcE5lWUluSG9LQ0JvNWw2UzYzdnV5UU03X3luVnNuNnlLSHNzWHJYQVdncUNlbHFpR2I1emhtUlBtbXJtTHM2WUtORlQ3bUZWU21za2xQVEk5dXlaNUY5NHZQenpMMHVkdUw2TXltMlp0ekF2clhITGhsSEh4aExlMXhhNVJaU0JVWVFBMDlQOVpjc2ItMkIyYQ?oc=5" target="_blank">E
-- [[Liveuamap] Restrictions on aircraft arrivals and departures have been ordered at Novosibirsk&039;s Tolmachevo Airport, according to Rosaviatsiya. Novosibirsk Oblast, Russia - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-06*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNS0ZtaEFtbnU0cUpoMnBlU1dOcXNtb1d4c25fVUkydk1DTWdEZjM3elpRTkJCNWlWU3pQV3FNOGlwaVlORHBsWElFblI0MkNSV0xtZ2hJTW42dVhyQWIyVnpfdzVnX0d2dUtoMW85elFHVFdERkIyT3FHLTNCSWF3M0xGakZDY2FkTWw0a0pmcVktdw?oc=5" target="_blank">Restricti
+- **NEW**  [[Liveuamap] Qatari Foreign Ministry: We demand that Iran immediately cease any practices that threaten the security of the region and endanger maritime and energy security. Doha Municipality, Qatar - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-07*
+  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHZoNWo4dERDNGdEZV81RHdpLUp3dWFOTnI3amZNWFdRZWJ3MHdDS3VhZ0x5Ml9JNUpIR19hRVoyZm0ybmVTcHh3TGV3eDZHZ2o2S25PeTZVYkR2eFdlTklxcWhCVDBxZVRoUHk5U2N4aGNPVDc2Ml9za3N2VGUwbXRWUjdnRncwcHBWMzAxUGRPcjI1My00TlJvUnVVMmpkZ0E?oc=5" targ
+- **NEW**  [[Liveuamap] Explosions were audible in Zaporizhzhia - Liveuamap](https://liveuamap.com) — *2026-07-08*
+  > <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxORjZvdWFhUWQ5QmpkVWdHbTZac083cjczMnhzZTVhdDNHUV9NSXVaVGE1WXZfWm5DLUs4eEdUWldvNXV5Q1VRb1NlN0Zvd1NPSDZRdkFETHZIWUNmdVlWd2NIWTUyWlplcWdHSXJJeE9kZzFzdllfTVdJSTRJSHkyZ0tkTWcwZw?oc=5" target="_blank">Explosions were audible i
+- **NEW**  [[Liveuamap] Drones raid reported in Azov of Rostov region - Liveuamap](https://liveuamap.com) — *2026-07-08*
+  > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPRmpIZnQ4dTRGSUlzWXdQX1E0eWRNQTVqNlVYZl9PM1ZyRzN0YmNZVFpNTVJ3ZFJXRjBkSkh0NmF6bWZiTkN2UkxXaERRWmp5Mk93TURtUjBTbVpKOWVMMmFWSzRQUzhoR0hYWFdxN2FCLVJTQ3hRM29yUndaV1RzcDVWNjVoX19Rcjl2M2hB?oc=5" target="_blank">Drones raid rep
+- **NEW**  [[Liveuamap] Three explosions were heard in the vicinity of Taherouyi village in the Serik region. Zaporizhzhia, Zaporiz&039;ka oblast - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGZDUkZCNUV0SnR1alZkOUpubVRuQ2ZOUktDWlNFbzdTODhsVXI5T0hWSWpURFFHLWh1eGZTYmhNRGNNbEd3bUppTGlxakw1a1NTcVpPbXFJNXhoaVBvQThXSVowSDNkdnEtOFMwdjVHaGRYQjJaanpEVzltYjJkTHVzVUtiSk4yS3hSU1NHNTdreEc0b1E?oc=5" target="_blank">Thre
+- **NEW**  [[Liveuamap] Iranian Parliament Speaker: America committed serious violations of the Memorandum of Understanding - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
+  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNNDMzYzZXblNydGkxdkVSd1lUeXZEemtyZW5ZMHlRT2JHdk51S2xoMElTNExSc2k3V2UtMDU4eXJibEpwbXBHdVlRRVNCMEFIZ293TVc1dUdjazU0d0x3RXFvbzcxWXBZekJJMmZBdHZtckpZYkQzaTRMWnVfRFp6eHllSzBfWW5lRGdPWmZPMV94cUVKZ0xKbFBqQU5YUQ?oc=5" target="_
 
 _(229 additional items in raw.jsonl)_
