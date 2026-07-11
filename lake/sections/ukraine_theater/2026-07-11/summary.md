@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
 record_count: 254
-new_today: 133
+new_today: 139
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-133 new of 254 total items today.
+139 new of 254 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -41,7 +41,7 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.54 MW
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2016-07-28*
+- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Initial reports of two explosions in Damascus near the hotel where French President Emmanuel Macron is staying - Liveuamap](https://syria.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
@@ -51,7 +51,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHhSTVYyQmZYZFZYaThuU0dORVJpNHhnZFhiNnl1X0lGU0EtRkFZVllzS1VkV25uVWxfcHZGeHNRMm9MUVE5NVZuclJSY0t2U3FLQ3A5UXBaXzg5cHlHMHBJYlBDcnhYMHBOcGtLZ3hSa2xISHgzRHpvYmVMS1JPbDJ6WkdCUUhSTnFSNVk4azlJNmV4VmN6YU51czNCTFE?oc=5" target="
 - **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
-- **NEW**  [[Liveuamap] 4 explosions were reported in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-09*
+- **NEW**  [[Liveuamap] 4 explosions were reported in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1h2N2JTRHltN3YyNHZBMFhudElDSkxlWUFOakVxRFA2SEsxdGRQSzlXdXZRank0Z3lWbnFNd0hSNHVuN3pLR2szVWV0UTJuNHpMTXl6dDEzRlg5cG44UVNuaUYxOG4waFQ0RmVwMlZLSUROS04tZlU2WEVpMHVjQUlOU2RwRnc?oc=5" target="_blank">4 explosions were report
 - **NEW**  [[Liveuamap] At Oleksandrivka direction clashes yesterday near Ternove, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQRWl1V1JmdVlSUmViZW1VaGhiRGN2X2J6bXpmaWo3Y0dNSmlIc1lXX0ZHRkdJSC15RXpOYmltaVJXd0JZY1ZwQnpsNllxZTFMbDlLZDE0RS1CdHBIR1VSWGxaVFFJa0pKVS1lRzNIRzhNUU9BSDg5dkxzVGhZcFZ2WEpReFBkVTFPQXpJX09vUHVBb09T?oc=5" target="_blank">At Olek
