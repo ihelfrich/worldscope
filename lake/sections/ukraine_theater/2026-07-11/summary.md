@@ -3,18 +3,16 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-11
 record_count: 254
-new_today: 130
+new_today: 132
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-130 new of 254 total items today.
+132 new of 254 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-11*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[FIRMS] thermal anomaly 49.768, 29.636 (FRP 1.57 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.636,49.768,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 0128Z, FRP 1.57 MW
 - **NEW**  [[FIRMS] thermal anomaly 49.767, 29.633 (FRP 0.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.633,49.767,9z) — *2026-07-10*
@@ -39,6 +37,8 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 7.32 MW
 - **NEW**  [[FIRMS] thermal anomaly 51.892, 29.345 (FRP 3.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.345,51.892,9z) — *2026-07-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-10 1117Z, FRP 3.54 MW
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-11*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
@@ -51,10 +51,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
 - **NEW**  [[Liveuamap] Trump: I hope to end Ukraine war soon. Ankara - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-07*
   > <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxON01NazBSQ2FOUlJ4LUcxMzVScnVHZG8yRVNwQTNSeHI0MmJpZmtrNEdFZUoyUGZ3Q2lPRnBrbzJOeVFCVV9MQkRXQ0t1a05xTFhnekxVek04aDFrbmRwUFYwN3ppU1FZM1AwQWx0c0owMXJjZVprVndDRlByZ0NueW9B?oc=5" target="_blank">Trump: I hope to end Ukraine wa
-- **NEW**  [[Liveuamap] Explosions were audible in Mariupol: attack on the vessels in the sea - Liveuamap](https://liveuamap.com) — *2026-07-09*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQeUZycW5DS2pFakRiZDVhSUE5M0pnYzlycnNwdV94YVZCdzlTekFCaDNPUjB1M0x1TU1WbmlKbEl6b2Fzb2RqamhRZFNPem5MRjJHa1NpaWpUbWU1ZkVna1lxVGY2bDQ5X1E0ektpZkxmSGtUMlNza3MwRGZsaFpjSExsQ3JfaHg1MkJiMzlrRHJ2NjA?oc=5" target="_blank">Explosio
 - **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
+- **NEW**  [[Liveuamap] At Sloviansk direction clashes yesterday near Kryva Luka, Ray-Oleksandrivka, Mykolayivka and Zakitne, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-11*
+  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOQnoxeWJ1MF9LQ05xODVIbGc4NUJ5UUJ4Z2hVSWZqVWc1djQtR3g0VElET2UzWEJZMG5GdTJ1ci1JTXJ6SGRjZ05ZMUlWQ1FPR0xna2c1cktvZ2NGd0d6V2NtQjdHU1RwaU9EeUYzVjc3aXRGa1c5a2VQTDJRSWNXcENLQnRjS21maEZHcVhWbw?oc=5" target="_blank">At Sloviansk 
 - **NEW**  [[Liveuamap] At Kupyansk direction clashes yesterday near Novoplatonivka, Kivsharivka, - General Staff of Armed Forces of Ukraine reports Kharkiv Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-09*
   > <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlhfNGR0anJrNFlVbXBDUTNkZXZrdVV5RHJvbzNyUnlBb0djV3Y1aG9CUE9fV3RCUW9ULVA1ZWdRM2VKVlVEOXBsVlllYVdWREZqUEhvVlY2QXc2REFKNW5wYi0tdG4xcVhHTDI0SXBXbnR6Y1JXc0lUOGs4ZlctSEFtRldIV2ZoWTlDOXNpSFNSQXc3SVVLeDZqcEJPNEtS?oc=5" target=
 - **NEW**  [[Liveuamap] Erbil: A drone attack targeted camps belonging to the Iranian Kurdish opposition group known as PJAK. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-09*
