@@ -2,25 +2,27 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-12
-record_count: 243
-new_today: 127
+record_count: 241
+new_today: 150
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-127 new of 243 total items today.
+150 new of 241 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-12*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-12*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
+- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-11*
+  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Initial reports of two explosions in Damascus near the hotel where French President Emmanuel Macron is staying - Liveuamap](https://syria.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
+- **NEW**  [[Liveuamap] An employee of a critical infrastructure facility was injured as a result of the Russian attack on Chernihiv - Liveuamap](https://liveuamap.com) — *2026-07-11*
+  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUlTSzlXWEpja3BoSzVtbkw3MnBNaUgwZlYxTlJPSDJmLW9zN1NtYWRrclNKOE1zdDRIMmVEVXE4ZlJ2WFM3aThMVFlXUDRyanBKN0N2LVYwVFNzSlNwNlJ0X1dOVHVhTnpTYUdLRFM1a2dJbVdLU3BEZkhJMGpqVG9XMmhhX3RwTzNoRldRaE5uYVFz?oc=5" target="_blank">An empl
 - **NEW**  [[Liveuamap] Mandatory evacuation has been declared in Vyschchetarasivka of Nikopol district and Vasylkivka of Synelnykove district of Dnipropetrovsk region Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liv](https://liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
 - **NEW**  [[Liveuamap] Explosion was reported in Sevastopol Sevastopol, - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-10*
@@ -47,8 +49,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2hKUVJyd3hHRlJPTG8xVlpUUkVDNU51NGFPTkwtdVhBaTVTVG02V1huU2FocG9NSWVjR2Z0QTFlTTQ2bXp1T1V4M3hnZ1IyTERtbVFZT1hMSXdFNmdCOG5wc2NmN2NaOS1paEhTMGhyajU1OWdfdGVjUENXMll3dlg2QXk3UXlnSWthVzltalBaQl9ZeVBUQzFHZw?oc=5" target="_blan
 - [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
-- [[Liveuamap] Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-06-29*
-  > <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZDYxem55U2Mxa3ZOVk9sWjJFZDVvRkQyVmp0R2RvM2tMSlZhUGNYSlRXTndydklxTnVXTHo1dm93U00zb3VleGhuTzROWmwyZ2NSckZleHUyd0FZUUhoSm0xZW42MzQt?oc=5" target="_blank">Somalia latest news in English on live map</a>&nbsp;&nbsp;<font col
+- [[Liveuamap] Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-06-30*
+  > <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE53QjJWQmhTczFmTk9OeXYtVFIydWhkdnFOUU5OUVNfUnF4UHA1UzdDdk9ORlg4OVZjMU5URFVFTDg5UDhlZjNjWFpHVm5EcEZ0aWo4Y3lzUGlQdWtOcFBITjVISmFlUQ?oc=5" target="_blank">Somalia latest news in English on live map</a>&nbsp;&nbsp;<font color
+- [[Liveuamap] Libya live map. Libya civil war news today - Liveuamap](https://libya.liveuamap.com) — *2026-07-11*
+  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yM0FwSnE1ZDJmNElKdlFaa2MzN2JUb1VSRUIzS0xvT0RSVmNqSmtmRGxpVnlBYUVTbzJiVmJndnFBSEg4MUZYaU9CNHpweFBqNllxbmdVVl9UQlRqb19xOTRUM0J3LXc?oc=5" target="_blank">Libya live map. Libya civil war news today</a>&nbsp;&nbsp;<font colo
 - [[Liveuamap] Greenland news on the map - Liveuamap](https://greenland.liveuamap.com) — *2026-07-02*
   > <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFAxNG5KQ2JaNHhfOUhRNkVYZmpqNWlhNnRBallpWjhxQ0NLdFhJRUlaTWx4WVZ3N210QXpBUnRaM2FhWjUwaTdKSkpQdUVnNV9zb2dNLVdYYW50ZjA4RUZKd3dMeVdOc2dzaUdGNDlR?oc=5" target="_blank">Greenland news on the map</a>&nbsp;&nbsp;<font color="#6f6f
 - **NEW**  [[Liveuamap] The Israeli army continued carrying out extensive demolition operations inside the town of Khiam, where successive explosions were heard throughout the night, shaking the area. Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liv](https://lebanon.liveuamap.com) — *2026-07-10*
@@ -57,9 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEN6a2p6ckY1bUV1V2JWZG1kNkc4SW1zWVhyZGJERjhLcllzQ0RTdDVGaHZ5b0x0WUZHVGtOUUxzalBad1BoU1JTU3lGekNxYWFFSE5EY21acU5jN3BJMU1OcFdSWXpUUEs4Z0kxYUU4TmRJN3BNWXdGc0NsS0tobHhBZlNZV2NoYkFVNnV0X2dJSHRNU1dOR2l3?oc=5" target="_blank"
 - [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
   > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
-- **NEW**  [[Liveuamap] Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Africa contries - Liveuamap](https://alshabab.liveuamap.com) — *2026-07-11*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUVWUxTHFzY1ZyajhpaEVLMHhRQVZsRGYyeS12TlhyZmRVRWtFX3pOWEpQSEFQQTI3QzJNQnZ4Wk82TkFDR2xGQTExZGVncDJoRzB5dk4tOWVvLTVLNXc?oc=5" target="_blank">Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Af
-- **NEW**  [[Liveuamap] LAFD Alert- Hyde Park Traffic Accident [Fatality] 3328 W 78th St Los Angeles, California - California today on live map - Liveuamap](https://california.liveuamap.com) — *2026-07-10*
-  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2g4X3p5RTYtVmNBNEExajZlQjRHbnE0OG5XVWhVWkRxLVVsWWVSNEZta1c5UXNsR09iNFhxb3JGQ3FPd2wwWVBQeEMzMG1uTnkycGxseUkwbHhVak1EV09iNVZfNHNaOGdwUGdtUVRSUk9KS05wRGozNGJSOW5wV3RERVI1dG05OE9WZmpwWTZzZ2ZBSEdlNGhRa2o2bjdGUnczaHhCOEVSMm
 
-_(218 additional items in raw.jsonl)_
+_(216 additional items in raw.jsonl)_
