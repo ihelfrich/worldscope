@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-12
-record_count: 241
+record_count: 240
 new_today: 128
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-128 new of 241 total items today.
+128 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-12*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -23,6 +23,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2tiMzN3R3N1RHI3MEpVdFVyOXQ5dG9OYXF6UTZmMmZTbmZ3aU5Lc09FRm5jaThNY200aW5FT1NaVjk4Q0psQTRXWlpGeHUyVjM0M3pKYXNUOFlRZHBPMnp3MUlMZERoYWxGVE1mWXQ1OFlZN1VXREdXUzIzTVZNVEpQYjkxLWRoVlNWZ3NkZUhXM0dC?oc=5" target="_blank">Ukraine
 - **NEW**  [[Liveuamap] Initial reports of two explosions in Damascus near the hotel where French President Emmanuel Macron is staying - Liveuamap](https://syria.liveuamap.com) — *2026-07-12*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkFFekg1eElPTlhvWE5WVW1TU1Q4bDdydm45bUlSN1ZQaUNYSldhUnNMeXdMWDh6Mlc2eVFuYTMtTDBPcl9PelBNRGpKOFdmcHlTSDBMTWIwN0FkNWhpbllSM1dlSDkzYkdvdTJ0WjZqTjhzUkhGdm1HbS1GRGZJX2txd0VNdGNodUMxekVKODkyRlBhTWJieUJIQkg?oc=5" target="_bla
+- **NEW**  [[Liveuamap] The crew of a container ship damaged in an incident 9 nautical miles east of Oman has been rescued by local authorities after abandoning the vessel, the United Kingdom Maritime Trade Operations (UKMTO) said on Sunday. UKMTO said the ship su](https://iran.liveuamap.com) — *2026-07-12*
+  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQTHo5MDBocDNVT2Vza0lvWUUzbzNtUGMtWlZDdnA4ZkNoRXNaZ3JJMGM5cFNsSHBVX3JzLWdRSGtyR0FzN2NXYWVycnpSbWw2SklfSWFsS1c5N0hfcFVIZEd1RngyTHUwWHpqTnVaTlpTQ0JkWTdMSlIxRG9mUXJyLWhXcGRhMmtYNjY2Y29FcjVEQzlYUWVDUzRtLU9QUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] Syrian FM: Under the directives of President Ahmad al-Sharaa, we have turned the page on a dark chapter in Syria&039;s history with the lifting of the designation that had been imposed on the country since 1979 as a result of the policies o](https://syria.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOYzVzOFQtLUJlTnlrVGl5YXBPVlZpRmIyTnVXN0d5RWFkT21uTTk5NFBXUUI4X2xtOThLNGp4bjNyandhVmxMc0c3VGVvNVdYSS1iZktBUk9tU213M1haSUtZcFUtS3lqSGtxbTVIdFRkWjg0dU9iLUFLVkQ5c3hNVzQ4UU4wUFRQeXF3SHJiUzBoaHJubjZzd185UQ?oc=5" target="_blan
 - **NEW**  [[Liveuamap] Syria - Liveuamap](https://syria.liveuamap.com) — *2026-07-12*
@@ -59,7 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNRHJFSW41V2NXMnlhN3p2Y0lfZDVyZFB1SFRDUmtPRy1QRnN4ZFhjdEtua1ZMQXhZTlR5Rk50X2VDR3J3UlF3cHZRWTBLYlU3R1pxdXd5RzBIbmxLejFpdW84WGhQcHpLMHFEUGlPOFN1OFk4cDg0TmVqb3IySTg2YzMyVFZ0MEU2aWR6LXF5dG5ndWp3anFFR0E3Wk5HU2M?oc=5" target="
 - [[Liveuamap] Lebanese Ministry of Health: Four people killed in an Israeli airstrike targeting the town of Nabatieh al-Fawqa in the south Lebanon Nabatieh,Nabatiyeh Governorate - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-06*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEN6a2p6ckY1bUV1V2JWZG1kNkc4SW1zWVhyZGJERjhLcllzQ0RTdDVGaHZ5b0x0WUZHVGtOUUxzalBad1BoU1JTU3lGekNxYWFFSE5EY21acU5jN3BJMU1OcFdSWXpUUEs4Z0kxYUU4TmRJN3BNWXdGc0NsS0tobHhBZlNZV2NoYkFVNnV0X2dJSHRNU1dOR2l3?oc=5" target="_blank"
-- [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
-  > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
 
-_(216 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_
