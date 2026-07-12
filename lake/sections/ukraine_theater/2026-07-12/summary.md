@@ -2,19 +2,21 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-12
-record_count: 320
-new_today: 143
+record_count: 240
+new_today: 136
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-143 new of 320 total items today.
+136 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-12*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-12*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
+  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Mandatory evacuation has been declared in Vyschchetarasivka of Nikopol district and Vasylkivka of Synelnykove district of Dnipropetrovsk region Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liv](https://liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
 - **NEW**  [[Liveuamap] Ukraine and Germany are launching joint production of BARS jet drones with a range of up to 800 km. - Liveuamap](https://liveuamap.com) — *2026-07-10*
@@ -41,8 +43,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE5FZ0ROTVFkYlNqcmYyR0l0WExVd3hQY3dpSTd3cHVBcTRWSXF4b1RNaVhIbFMyenlYcHQ5VmhSZ1RaRUk5NnpzVHN3?oc=5" target="_blank">Map of Central Asia: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan - centralasia.liveuamap.c
 - **NEW**  [[Liveuamap] News and incidents from Belarus in English on live map - belarus.liveuamap.com - Liveuamap](https://belarus.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiREFVX3lxTFBHdHo3TjdUb1JSMHA5eV94TkpDZXNqZFZsak12RG5PVzRxQ3lRUmg1Q2tTVmN6NkxLcllSbjkyWjdxeTh4?oc=5" target="_blank">News and incidents from Belarus in English on live map - belarus.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f"
-- **NEW**  [[Liveuamap] Sign Up - Liveuamap](https://me.liveuamap.com) — *2017-09-27*
-  > <a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1XcFJvS0hiQVVLdFVDdFdhaGpILVhYNFdBRFVPdjNkdUFacVgzOTNCUDhPYVpZMVNnS29fMF9DZXF6d2p3bEE?oc=5" target="_blank">Sign Up</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - **NEW**  [[Liveuamap] Qatari Foreign Ministry: We demand that Iran immediately cease any practices that threaten the security of the region and endanger maritime and energy security. Doha Municipality, Qatar - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-07*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHZoNWo4dERDNGdEZV81RHdpLUp3dWFOTnI3amZNWFdRZWJ3MHdDS3VhZ0x5Ml9JNUpIR19hRVoyZm0ybmVTcHh3TGV3eDZHZ2o2S25PeTZVYkR2eFdlTklxcWhCVDBxZVRoUHk5U2N4aGNPVDc2Ml9za3N2VGUwbXRWUjdnRncwcHBWMzAxUGRPcjI1My00TlJvUnVVMmpkZ0E?oc=5" targ
 - **NEW**  [[Liveuamap] NATO&039;s Rutte in Ankara Summit:We don&039;t have the luxury of time. We need the capabilities now to ensure we remain ready. Russia is putting almost half of its national budget into its war machine. Can you imagine Almost 50% of what Ru](https://liveuamap.com) — *2026-07-07*
@@ -51,10 +51,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNS0ZtaEFtbnU0cUpoMnBlU1dOcXNtb1d4c25fVUkydk1DTWdEZjM3elpRTkJCNWlWU3pQV3FNOGlwaVlORHBsWElFblI0MkNSV0xtZ2hJTW42dVhyQWIyVnpfdzVnX0d2dUtoMW85elFHVFdERkIyT3FHLTNCSWF3M0xGakZDY2FkTWw0a0pmcVktdw?oc=5" target="_blank">Restricti
 - **NEW**  [[Liveuamap] Iranian Parliament Speaker: America committed serious violations of the Memorandum of Understanding - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNNDMzYzZXblNydGkxdkVSd1lUeXZEemtyZW5ZMHlRT2JHdk51S2xoMElTNExSc2k3V2UtMDU4eXJibEpwbXBHdVlRRVNCMEFIZ293TVc1dUdjazU0d0x3RXFvbzcxWXBZekJJMmZBdHZtckpZYkQzaTRMWnVfRFp6eHllSzBfWW5lRGdPWmZPMV94cUVKZ0xKbFBqQU5YUQ?oc=5" target="_
-- [[Liveuamap] Explosions were reported in Zaporizhzhia. Airstrikes with glide bombs - Liveuamap](https://liveuamap.com) — *2026-07-06*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNbUFRUkVMZzUxVi12ampRTzJIUllsclN5X3EzYzY0cWxOal9oSU5lMFVsRFBtdXBMU3hMR2ROQkhrT1F1VkxRSFdXbDJUNjNwbkZrekhBc2F3TVZSVGQ1bEt1clhpWTZvWkJacjV4R0JKU1ljUzNtdHdfNlIza2xPX3FMaHpsWnVNUWRTeS10WGdYbnN0Snc?oc=5" target="_blank">Expl
-- **NEW**  [[Liveuamap] At Kursk and North Slobozhansky(Sumy) direction Ukrainian forces have repelled 2 Russian army assaults, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-07-06*
-  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2hKUVJyd3hHRlJPTG8xVlpUUkVDNU51NGFPTkwtdVhBaTVTVG02V1huU2FocG9NSWVjR2Z0QTFlTTQ2bXp1T1V4M3hnZ1IyTERtbVFZT1hMSXdFNmdCOG5wc2NmN2NaOS1paEhTMGhyajU1OWdfdGVjUENXMll3dlg2QXk3UXlnSWthVzltalBaQl9ZeVBUQzFHZw?oc=5" target="_blan
+- **NEW**  [[Liveuamap] European Commission President: - Ukraine urgently needs to strengthen its air defenses and we will discuss this at the NATO summit. - We are seeking to reach an agreement on the 21st package of sanctions against Russia in the coming days. -](https://liveuamap.com) — *2026-07-06*
+  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOT0pkcmpuQkx5OTdvVXRaWk5vaFY3eW5FVWdLS3JjYkxUa3RSb09FNlNqVkVIMEw2OTRnZjZWRUVuQU8yR3BhNWg1R2NoQVhGdnd0UjVCT2pJc3libEdTck00NGU0RUt5bUNfSndIbUVsR01hb0JjLTZHc3BTM2lNNGhKMkxwY1B0NmxSZlMxWmY?oc=5" target="_blank">European Com
+- **NEW**  [[Liveuamap] Sign Up - Liveuamap](https://me.liveuamap.com) — *2017-09-27*
+  > <a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1XcFJvS0hiQVVLdFVDdFdhaGpILVhYNFdBRFVPdjNkdUFacVgzOTNCUDhPYVpZMVNnS29fMF9DZXF6d2p3bEE?oc=5" target="_blank">Sign Up</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
 - [[Liveuamap] Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-06-29*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - Liveuamap](https://syria.liveuamap.com) — *2026-06-28*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ER0Q3OVFEd3E0dS0yTlBxNDhfME1ydm9LR3d4VTlZNlgtd0tyQ21hcWxxV0dBc0RsVExwUUVzV2Z6VFcyYTJaQkwwbzFoT3BTbzNLZ3o2bU5oeFN1YklEaXBDTFBlWHM?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today</a>&nbsp;&n
 
-_(295 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_
