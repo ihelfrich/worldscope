@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-13
 record_count: 240
-new_today: 132
+new_today: 131
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-132 new of 240 total items today.
+131 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-13*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -23,16 +23,14 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOLV9SMDBwQmJidVJBa25IWXpCa2Z1cDY1QWJPYW9GM1E3OEc4NDh2Zm9ySHV4VFpPYzdMQ3FyQjFRUzlJTWlDMG5tSjVEaWdGLWQ4UjdlMmZKOGlWWjN0cHdSYWpQOFhLdGcyYkphZzJGYWZibVBNV25adzRJbS1rd0t4VVpZdE8tbzVhYnVzc2VjQzlOcnJ2cVhSaDhHV19iZmc?oc=5" targ
 - **NEW**  [[Liveuamap] US Central Command: A US Air Force F-35A stealth fighter jet is being refueled over the Middle East. US forces are constantly present and ready when needed. Strait of Hormuz - Iran news on live map in English - War in Iran - Conflict in the](https://iran.liveuamap.com) — *2026-07-12*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOWERndU1CMWw5bHJZSlE0cy00Q3JOMWRiRXBIcmJjZ09nZ1B4bDhlNHVyM2VvSzZCZm8weVo2Q0VBT1hNTmNWTmZyQldlTlZJdDVKYmhtN3l4Z1M1MnQyM1JDYWhDWHJCLW5NNzBBdjd2NEZ0SV9BTVZXWnJIandsUFUtREpucEk0RF9jQVZHa29xVVByNURB?oc=5" target="_blank">US 
-- **NEW**  [[Liveuamap] At Pokrovsk direction clashes yesterday near Novooleksandrivka, Shakhove, Bilytske, Rodynske and Serhiyivka, also towards Nove Shakhove, Hryshyne, Kucheriv Yar, Sofiyivka, Nykanorivka, Dorozhne, Novyi Donbas, Kamyanka, Kotlyne, Molodetske, ](https://liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQckxOdENfaFZ3WU5TVXduUnh5dTVucmt1ZGdHR0ttUzA1QTJlOU1YeGpIbHd1dDVyWGdsM2hkNVNwNFhPZzNxdUdKTEo2d3E3eHE4eHNVTkFwOEFtcmF4MmwxN0NxSnpBSTNqMG5DdV81SWVwN3NaNFFOdVZhWXloLVFwUHJDa2lhTzAxWnU4QklRZGFaeDFkWE9ZT1VtVmN6VU5sbWJ3?oc=5"
 - **NEW**  [[Liveuamap] A Mahan Air (Iranian) plane approaches Sana'a airport - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOWHd1aDltVXV0djUwXzdCZ0Q3bEFvNW91Uzd4Q0pXVjU5ZmQwNUpXWF9Ra2p1cjBQOHlabl9pSVdLdHRlTlRnN21qazRKdURLRjdNX3hYbWU1OXRZX2FtUU1QY2s4eGd4SXhsTHJBTzh3cW5Oc09VMkRtcjlFcV9IVjJIR1gxSFlCcldYVTFZVGJxaTN3bFVpMFIwMnNmQQ?oc=5" target="_
 - **NEW**  [[Liveuamap] A US official: The first pilot area from which Israel will withdraw from Lebanon will be identified within days. - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW5wdTBDRFB3cE4wVHdqSnBfOXFBdHduOGlqVWpmNzZEZGpsbG4yZS1QUWZTRElWMTNOY0Ryc1BjeVl3cFNrcnZyMGI2YzR0Tmt6Yi1NdXF5WEV5YUdrUFp1Y2NJV2ZpLVJ5YXIyZzhFNFZqN1diSGVpaW5TY2VPRE91d2hvZnFMZFVCZGozd3JjaHhTM01iNXVOMFFSMzF6OEE?oc=5" targ
+- **NEW**  [[Liveuamap] Iran&039;s IRGC says it launched the first phase of its retaliation against the U.S., claiming to have struck Prince Hassan Air Base in Jordan with multiple ballistic missiles, targeting the base&039;s command-and-control center and U.S. MQ](https://iran.liveuamap.com) — *2026-07-12*
+  > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxObVNBMXpXbmtQYVZCN1drX2d3NzJnUU1mckFZdlVtLXRuYk9VbVhsMWg4VWM3cXZyVDFNRWtDMjFGTFNzMWlJRDFiQnlCV1dLY0tZZDIwSU9LQzYxZVd2Zm1Sbnc3NFQ5NE05Q1RWajFKN3ctZ1VZNlBITk9ZWHNXdGJ2cWw2Umx5enB6dUNxTFFiQXpUSE5v?oc=5" target="_blank">Ira
 - **NEW**  [[Liveuamap] Warplanes targeted the area between Beit Yahoun, Konin and Barashit at night - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOTk81eFAwTnA1WVBwZ2VJQ0xmREV5TGxRWmJydHRwNGt0eTJTQVJSTzFyaFlMMi0tYjR0bWxXM3lKeHhSTThmR1JXVkl1OWw0Z083ZWtmZVhMZHJKb29jY0ZVTlV6RktsX0s3T1BwS0NyaTdSYmNNVWtoVzRWSmdTR0V4VXZXVXpQTG44X2U1aHNLWmxNTUlDRUhLSQ?oc=5" target="_blan
-- **NEW**  [[Liveuamap] CENTCOM: At 7:15 p.m. ET today, U.S. Central Command forces began launching the third round of strikes this week against Iran after Islamic Revolutionary Guard Corps forces blatantly attacked M/V GFS Galaxy, a Cyprus-flagged container ship ](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPcS1XaEFjNzhxeEdsU2x0UHhUbHh5ZFBENnJZbnV4ckViblVCUkVsa2FhUmdzV21WNmVka0hFMmhjbXAxM1F6Z1Q1Z0VnNlNaNmFIRW44Zk1obklDWUxMd2dOLWRuMUNvcnVPT3pSb2hab0RScWFSdWJFOFdVSWhjVjhvaTVCSUI2TUVDWmhLTmpMWWZpRUE?oc=5" target="_blank">CENT
 - **NEW**  [[Liveuamap] The Lebanese president stressed the need to stop the shelling and bombing operations carried out by Israel in several towns in the south. Baabda, Mount Lebanon Governorate - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-09*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVndqdG02WTFZU0U0V0JjWWtfejlCRUR6V0tucEU0TzY0TUdkRkEwcS1fS3YxTWdLeGF6NnAwd01UTXM3NzhGRklVM0dnZWlpV2hnZmk2SzJTMmFLcTZpY0g1XzVfX3lFeThJYVlyT0c5ekY4YXFGNzh6eF9IZHVWWDRZU1l1V0hJMWtnblBSWjZManViTnZOMDNnQzc?oc=5" target="_bla
 - **NEW**  [[Liveuamap] Heavy gunfire from vehicles northeast of Al-Bureij camp in the central Gaza Strip - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-10*
@@ -61,5 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEN6a2p6ckY1bUV1V2JWZG1kNkc4SW1zWVhyZGJERjhLcllzQ0RTdDVGaHZ5b0x0WUZHVGtOUUxzalBad1BoU1JTU3lGekNxYWFFSE5EY21acU5jN3BJMU1OcFdSWXpUUEs4Z0kxYUU4TmRJN3BNWXdGc0NsS0tobHhBZlNZV2NoYkFVNnV0X2dJSHRNU1dOR2l3?oc=5" target="_blank"
 - **NEW**  [[Liveuamap] Day of news on the map - Srpanj, 09 2026 - Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com](https://sudan.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yampLQ0g5Q3pDc3JBeVd0eUw5OEhnQmc5SHZMWHBRa2JzeThZZXZzTWZQcHNPMFBHQ2xGT2l3ZU11ZURBdl9oZUxhdzMyVHJkTHlDMFlJZHExdw?oc=5" target="_blank">Day of news on the map - Srpanj, 09 2026 - Sudan latest news in English on live map -
+- [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
+  > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
 
 _(215 additional items in raw.jsonl)_
