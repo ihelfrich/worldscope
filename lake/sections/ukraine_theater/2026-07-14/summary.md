@@ -2,23 +2,21 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-14
-record_count: 241
+record_count: 240
 new_today: 137
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-137 new of 241 total items today.
+137 new of 240 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-14*
+- **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-14*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-14*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[Liveuamap] Drones raid in Moscow region and local authorities report shooting them down - Liveuamap](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2dvVjlPbzhQVzhMaXJKZ2luNHZ2TFN2N2J5aTRJSkxBRmQzZTQyZFBaNjludVQ5aDRiaEh0QmNCZ1J1Uk1Qa1h6QlBvNEhxWnplY2d5UFpNNGJEZy1GbE10Vll4NzNZd0t4MDRIVEg5dG0wS2ltTmFoQnNhSUJ3UzNvX3FZMVZkejljYjQ3VFNQcjQ2RUE?oc=5" target="_blank">Dron
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] At least 6 violent explosions were reported in Kyiv. Ballistic missiles were launched from Bryansk region - Liveuamap](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOYmE3eWRIQ0psS2dkUy1Vc1NPRDIzM3pxejc0VmYzbUZTZDlITTdDaFpuRXlSYlRmSVhXMG8tdkFvSXRlS1RuTVpGcEFuQ2szVEV3UzZPUTI1VkdzdjJMLXl2eWFMWlNINzg1RndMZmRjb014dlJ2WjZndXlNZ2tHcUNqY0hQZzZZYk9MbGw0WlU?oc=5" target="_blank">At least 6 v
 - **NEW**  [[Liveuamap] US Air Force Boeing KC-135R Stratotanker declared Code 7700 (emergency) over the Dead Sea - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
@@ -27,6 +25,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxON1ZWUS1rTFZudUptOHVFYmU3ZFZpWG5WaEpWQTdXOUxJZnVtN1ZnamdPSmFZcTZTMEdHLXE4NVdaOXEySnlubTNtWGlLYW5INmR6U3VueDJTNG84bDd2ME8zZC1mRU94VkRBY2JYTGhWbWFrQzBBV19OYXozell4Wjd2RVFjRGhyb003ZjFTUWdUUUtqZGo4?oc=5" target="_blank">Ukr
 - **NEW**  [[Liveuamap] French Foreign Minister: Sanctions against Iran will not be lifted as long as it does not abandon its nuclear program. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQYTE3VGdnb3E2aTdGTVNYT2lOQ1BHaFFJcHA1aW4zaG54eGJNQmIyNGJhMjZXWTJRRjNYQ3NIY2lRazBJdldfaHEwTWh3ajdkV1FZNE1zYVhMd015ZnlHNTFiM1g3R1dySnlxeWU3N2d5emhkNGtQMVJ6RFlHdEpHdUsxZ29BTUdzb0RKa1JtS3htdERvUHMw?oc=5" target="_blank">Fre
+- **NEW**  [[Liveuamap] Qatar and Saudi Arabia have announced that their air defenses dealt with a ballistic missile threat launched by the Houthi militia towards the region. - Liveuamap](https://yemen.liveuamap.com) — *2026-07-14*
+  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWWlsLURFUTl3T3h1dmozRk5OUGlLcng2M0pSUXlPRlJWOFYtNDlFci0tLXh0X2dUVG1ydkZ1OVhzeU56UjM1TWVDWDFfQk1MUGg3UGlVUTdMcHJPR3gzdlQ3b3ZYQk9SN2lPcWtwYjBXdDVOWFZPZGdqRm1IN0xHMGNNeU9LZUxpTTYtcHVHYVdJTHhEV01fZDZYQQ?oc=5" target="_blan
 - **NEW**  [[Liveuamap] The British government classifies the Iranian Revolutionary Guard as a terrorist organization. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPMFE5MUhZN0tHNlJQajBCd3hiU3RJQkZpYTJHUHdicTlEdC1PbXVMSkxYWnBubjMxcTFCZGZObXotVWJLLTFpSWRzSU84WU5Tbm1maXktYkhKNXNJeTZRc2ZQclpNRzdjM0FOYmNHZnI3dEp0dlczRElwSEpuYnFmRWlhS2UzWG5WcHZ5NHlJclBSZVd3a1E?oc=5" target="_blank">The 
 - **NEW**  [[Liveuamap] A US official: The first pilot area from which Israel will withdraw from Lebanon will be identified within days. - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-13*
@@ -62,4 +62,4 @@ state: fresh
 - [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
   > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
 
-_(216 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_
