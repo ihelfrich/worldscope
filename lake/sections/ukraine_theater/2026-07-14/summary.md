@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-14
-record_count: 240
-new_today: 135
+record_count: 241
+new_today: 138
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-135 new of 240 total items today.
+138 new of 241 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-14*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -21,8 +21,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] At least 6 violent explosions were reported in Kyiv. Ballistic missiles were launched from Bryansk region - Liveuamap](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOYmE3eWRIQ0psS2dkUy1Vc1NPRDIzM3pxejc0VmYzbUZTZDlITTdDaFpuRXlSYlRmSVhXMG8tdkFvSXRlS1RuTVpGcEFuQ2szVEV3UzZPUTI1VkdzdjJMLXl2eWFMWlNINzg1RndMZmRjb014dlJ2WjZndXlNZ2tHcUNqY0hQZzZZYk9MbGw0WlU?oc=5" target="_blank">At least 6 v
-- **NEW**  [[Liveuamap] Fire reported at the Afipskyi oil refinery in Krasnodar Krai - Liveuamap](https://liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcmV5QWVqOHV0d0w2eHJmRVpLRU5FNm5yQWZJSnFSZkRjTEVpcVNMSkJ2VTQtLTkyUEllV19YQ2pfcjJYaG44WXpldzFWMlFtQUJrZkUtOThfcnpod05JRU1DUXY2QjFqS1NUZlZ1VnRzQ3BmbFpPZWpEdUpMaHpxUkM0eGt1OWIzMXhpREtTWQ?oc=5" target="_blank">Fire reported
 - **NEW**  [[Liveuamap] French Foreign Minister: Sanctions against Iran will not be lifted as long as it does not abandon its nuclear program. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQYTE3VGdnb3E2aTdGTVNYT2lOQ1BHaFFJcHA1aW4zaG54eGJNQmIyNGJhMjZXWTJRRjNYQ3NIY2lRazBJdldfaHEwTWh3ajdkV1FZNE1zYVhMd015ZnlHNTFiM1g3R1dySnlxeWU3N2d5emhkNGtQMVJ6RFlHdEpHdUsxZ29BTUdzb0RKa1JtS3htdERvUHMw?oc=5" target="_blank">Fre
 - **NEW**  [[Liveuamap] The British government classifies the Iranian Revolutionary Guard as a terrorist organization. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
@@ -37,6 +35,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWRyODREdDR0enEtTkZzTEZpOElKOUpPOG1wWjNnaFdNZjlLUGNxS3hHWXRWOS1jSEFvM3VGUXAxb0M0MjdvaGpsUGJ3Z1BYLXV3T0JtXzFNb1c4cVZDZ3dyX1JyU3FlTENsY2E5OFVqaGpLXzVKbEpFcnlNMlJvamNwX0x3alpMNWlzLXBkc0ZIRWxCXzBxZVUtWEFsZ05oUUV3M2RmNng?oc
 - **NEW**  [[Liveuamap] International Energy Agency: Escalating hostilities between the US and Iran are affecting our oil forecasts. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-10*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3BvcGRhTjc1S05UQzVxSHljZ3hfR1BHS1A4TzlxU3NodHhNQW96V19nZ0ZiT0JSb3NSX2ZWd01UaW5mNkstWjU2MS1SQlR0YUtSczEtczBmejREbUZMZTBoWDBuanV1U3ZZNjlabkxVSE9PNjR6bWNfbXFHa1N1eExfVE9JeW05ZF9yelgyUGhCa0Q4ZzVBeDNLLUM?oc=5" target="_bla
+- **NEW**  [[Liveuamap] Iranian television: The United States has turned Qatar and Oman into a shield and used its bases and capabilities in these two countries to launch aggressive attacks against Iran. The armed forces, in response to repeated ceasefire violatio](https://iran.liveuamap.com) — *2026-07-12*
+  > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxObXpXX0xOdF9tZURwV1huT19JNUdNdmpIY3k1ZGZQbW5ibDNWb0RZVS01TUlDbGhZeGt1c2hPSDQyWHg2YkJhRVFXakloUkJJVURybjhLSjlSanp1WlhZMG8yTThSRmRPeHdhaXc2R29OdTdORHdhSHl0aVU4aU8zSmZaejlaSmRSRVc1ZldXQWROMUQzUTFURA?oc=5" target="_blank">I
 - **NEW**  [[Liveuamap] Qatari Foreign Ministry: We demand that Iran immediately cease any practices that threaten the security of the region and endanger maritime and energy security. Doha Municipality, Qatar - Iran news on live map in English - War in Iran - Con](https://iran.liveuamap.com) — *2026-07-07*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHZoNWo4dERDNGdEZV81RHdpLUp3dWFOTnI3amZNWFdRZWJ3MHdDS3VhZ0x5Ml9JNUpIR19hRVoyZm0ybmVTcHh3TGV3eDZHZ2o2S25PeTZVYkR2eFdlTklxcWhCVDBxZVRoUHk5U2N4aGNPVDc2Ml9za3N2VGUwbXRWUjdnRncwcHBWMzAxUGRPcjI1My00TlJvUnVVMmpkZ0E?oc=5" targ
 - **NEW**  [[Liveuamap] Defense forces hit two Russian military-industrial complex enterprises, Belgorod airfield oil depot, bridges and other military facilities, — General Staff Kyiv, Kyiv city - Ukraine Interactive map - Ukraine Latest news on live map - Liveua](https://liveuamap.com) — *2026-07-07*
@@ -57,9 +57,9 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yampLQ0g5Q3pDc3JBeVd0eUw5OEhnQmc5SHZMWHBRa2JzeThZZXZzTWZQcHNPMFBHQ2xGT2l3ZU11ZURBdl9oZUxhdzMyVHJkTHlDMFlJZHExdw?oc=5" target="_blank">Day of news on the map - Srpanj, 09 2026 - Sudan latest news in English on live map -
 - [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
   > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
+- **NEW**  [[Liveuamap] Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Africa contries - Liveuamap](https://alshabab.liveuamap.com) — *2026-07-11*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUVWUxTHFzY1ZyajhpaEVLMHhRQVZsRGYyeS12TlhyZmRVRWtFX3pOWEpQSEFQQTI3QzJNQnZ4Wk82TkFDR2xGQTExZGVncDJoRzB5dk4tOWVvLTVLNXc?oc=5" target="_blank">Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Af
 - **NEW**  [[Liveuamap] День новин на карті - Травень, 01 2026 - Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com](https://sudan.liveuamap.com) — *2026-07-12*
   > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iZ01NcVNxYTJJUmNndGxhb2JGMFFhRUItTVJzWVFNZmdFWjkteEdWdER6Uk13Zk9oUDFEZHFQQnhQdG1kdjMxc2ZLSDQ5SC0xRTBQUVMzNVR3dw?oc=5" target="_blank">День новин на карті - Травень, 01 2026 - Sudan latest news in English on live map - S
-- **NEW**  [[Liveuamap] Day of news on the map - Srpanj, 06 2026 - Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com](https://sudan.liveuamap.com) — *2026-07-11*
-  > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxV01reUVkM3ZDWjJzbGhLWlN3dW0tM2d1dkJDNGlyQTdyQUdjNkxDQmc4MzJfSXNuVThzR1MzY21tQ0Y3TzRuTFlmeXRSeWJXdGpaaVhtV1lmdw?oc=5" target="_blank">Day of news on the map - Srpanj, 06 2026 - Sudan latest news in English on live map -
 
-_(215 additional items in raw.jsonl)_
+_(216 additional items in raw.jsonl)_
