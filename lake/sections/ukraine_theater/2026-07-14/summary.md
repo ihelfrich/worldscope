@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-14
 record_count: 240
-new_today: 142
+new_today: 141
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-142 new of 240 total items today.
+141 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-14*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -23,10 +23,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQTHo5MDBocDNVT2Vza0lvWUUzbzNtUGMtWlZDdnA4ZkNoRXNaZ3JJMGM5cFNsSHBVX3JzLWdRSGtyR0FzN2NXYWVycnpSbWw2SklfSWFsS1c5N0hfcFVIZEd1RngyTHUwWHpqTnVaTlpTQ0JkWTdMSlIxRG9mUXJyLWhXcGRhMmtYNjY2Y29FcjVEQzlYUWVDUzRtLU9QUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] Fire reported at the Afipskyi oil refinery in Krasnodar Krai - Liveuamap](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcmV5QWVqOHV0d0w2eHJmRVpLRU5FNm5yQWZJSnFSZkRjTEVpcVNMSkJ2VTQtLTkyUEllV19YQ2pfcjJYaG44WXpldzFWMlFtQUJrZkUtOThfcnpod05JRU1DUXY2QjFqS1NUZlZ1VnRzQ3BmbFpPZWpEdUpMaHpxUkM0eGt1OWIzMXhpREtTWQ?oc=5" target="_blank">Fire reported
-- **NEW**  [[Liveuamap] The FSB reported that it had thwarted large-scale Ukrainian drone attacks on military airfields in the Amur and Chelyabinsk regions. The FSB claims to have received information that Ukrainian intelligence services had deployed FPV drones to](https://liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFRhVVlSajVmS0dfbnJpMzdmX3JNbHZIdFJBZUVtemdRWlNwYzZGYzF4OHdreVl0LTFNM0NTWndWbUhQOS1PaTQ2bEV3Qzg4SDgyTGp4eGV5dzBiWXFhVXJQODUyOTYwYVNPbGpXQzhQWXlOTkdYSEp1X3pSOUpldFdON2d5RUNnSzJBZnFqd1lnYTg?oc=5" target="_blank">The FSB 
-- **NEW**  [[Liveuamap] US Air Force Boeing KC-135R Stratotanker declared Code 7700 (emergency) over the Dead Sea - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPYk5qVHJCTFhVV1BZRHYzdVEwWUEwa3BoWEdCRC0yU0JHOVVDeXBjZzYyMVdNQkJ6eVFTRVd3ODVVR2ZGaU1UUjFXV3E2OGZtWmx5MUxNaVJKTGdfNUZoaGhuSmxJQURWNVVNa1VXQzFlRHlmM3JKVXloMEtZaWlGWGhuN3NxTDlVQlV3V1dkZW05QWNYeHptWmdB?oc=5" target="_blank"
+- **NEW**  [[Liveuamap] Overnight Russia launched 3 Kh-59/69 missiles and 134 strike drones, - Ukrainian Air Force - Liveuamap](https://liveuamap.com) — *2026-07-13*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVRSaTRrTjFzLU1uSUgzY0tXMW5RZFFNWWZFdl9FdmJNZzltTngxb3RXMTI2TTQ2NnNLWmx2MGdDYzl4QjhtNDF2bE1sbzU0eDNjcVU5U1BWbTJiU3ZBcmQtT2RndDNkaTNWMENuX2oxdEt2Vl9HVlFQbE1WLThVRllHVEMyZ1ZIZGdPRjNsQURiUQ?oc=5" target="_blank">Overnight
+- **NEW**  [[Liveuamap] ADNOC Logistics & Services: We confirm that in the early hours of Tuesday, the oil tankers Al Bahia and Mombasa B were attacked with projectiles while transiting the Strait of Hormuz. Abu Dhabi, Abu Dhabi - Iran news on live map in English ](https://iran.liveuamap.com) — *2026-07-14*
+  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPNC0ya3lnX3JMNHhvazdhcDNWb3doc0hzLXFqRXRMd05LR1djVHFzY0xxbHQ3dGtzN3hCU3d2dHZlNGV6ZzhMVlZUVzBoRGRONzJyQXBUcUp3aHVIcng4UUxoSTZKS21yOTExbUhzQldwYXk4bmpReDYyLWRZV1pkZGxjcUFTWGk2RkhqLVROOHBDTUxNTVc4Zk9B?oc=5" target="_blank"
 - **NEW**  [[Liveuamap] A large explosion in Hadatha Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNSkJCai1pbkdVbjV6ck1ZbXZtTVR1anBKcU5zdEpYY09ORm9ISVUtbGZJNVJGeXdHSFZHa0pRWnR0bEphYWo4c01oSXlLRDJIei0tdmQyM0R2SGZTRDVsbXFzSXpUQ3BzRXhwU1FBWm45bzdWRUhyT0VsOHRwV3NmUHJhTQ?oc=5" target="_blank">A large explosion in Hadatha 
 - **NEW**  [[Liveuamap] Bushehr defense activated Bushehr Province, Iran - Iran news on live map in English - War in Iran - Conflict in the Gulf - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
