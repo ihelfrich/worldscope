@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-15
-record_count: 239
+record_count: 240
 new_today: 145
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-145 new of 239 total items today.
+145 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-15*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -27,12 +27,12 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVRSaTRrTjFzLU1uSUgzY0tXMW5RZFFNWWZFdl9FdmJNZzltTngxb3RXMTI2TTQ2NnNLWmx2MGdDYzl4QjhtNDF2bE1sbzU0eDNjcVU5U1BWbTJiU3ZBcmQtT2RndDNkaTNWMENuX2oxdEt2Vl9HVlFQbE1WLThVRllHVEMyZ1ZIZGdPRjNsQURiUQ?oc=5" target="_blank">Overnight
 - **NEW**  [[Liveuamap] Ballistic missile threat from Bryansk region Klintsy, Bryansk - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNUXJ1UXh6X1hXNjdaTWYwYl81X2hBLW9qT0dwd0ptRFdlYmNRenhQV2VvRVJpSjJCSDhFZUVXOTFrUWdfd01Td2pLTjY3aFE0ZnBCbGZtYWVqbkFfQzRtWVdqWTNwdEduWEI1bjFLWnVnRVk0bjFWbjFsbW5YVjAwSG03WGxiTkpHaXFtWEF3?oc=5" target="_blank">Ballistic missi
-- **NEW**  [[Liveuamap] ADNOC Logistics & Services: We confirm that in the early hours of Tuesday, the oil tankers Al Bahia and Mombasa B were attacked with projectiles while transiting the Strait of Hormuz. Abu Dhabi, Abu Dhabi - Iran news on live map in English ](https://iran.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPNC0ya3lnX3JMNHhvazdhcDNWb3doc0hzLXFqRXRMd05LR1djVHFzY0xxbHQ3dGtzN3hCU3d2dHZlNGV6ZzhMVlZUVzBoRGRONzJyQXBUcUp3aHVIcng4UUxoSTZKS21yOTExbUhzQldwYXk4bmpReDYyLWRZV1pkZGxjcUFTWGk2RkhqLVROOHBDTUxNTVc4Zk9B?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] A large explosion in Hadatha Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNSkJCai1pbkdVbjV6ck1ZbXZtTVR1anBKcU5zdEpYY09ORm9ISVUtbGZJNVJGeXdHSFZHa0pRWnR0bEphYWo4c01oSXlLRDJIei0tdmQyM0R2SGZTRDVsbXFzSXpUQ3BzRXhwU1FBWm45bzdWRUhyT0VsOHRwV3NmUHJhTQ?oc=5" target="_blank">A large explosion in Hadatha 
-- **NEW**  [[Liveuamap] Trump threatens: "Iran will not return to negotiations, we will attack power plants and bridges" - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQSU1Bd2FyTEN4N3JHbGJPSkx6dVhsaDFEV0hNWVlIT1pkSlZwaHVxVTJ4T1hpQl9TWnNBVTR1VnA4aUVWSmN6OU9wWVpNck5lVUtlMVhoY0kxWDhQQjFyTjhyVkYwRXNyMEM2R0FsV1FEbUd2aEpYSmJxMUwwVmZ1clBIWmJhV1lybTFSdkJ0RGpoek9UbW02V3J6LURZd00?oc=5" target="
+- **NEW**  [[Liveuamap] Additional launches from Bandar Abbas towards the Strait of Hormuz - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-13*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTd4VUZMaHFzdi1DazQzcG9QNHg4WW9zcjJYS2ZFZEdmRmVOZHVORGVOU3BmekJwWDFLallfZWRiM0Q4MGg4cVNxUWh5ckxqQWFZNXZ5LTdlcFdEQUxGTXJ4R3ZkQzdaQmt2bm5OU2xhRmRDdE9pQm1WNlpXLVkwWm9kUzJUSDBJdVJPMmFNSUZXZXoxcEE?oc=5" target="_blank">Addi
+- **NEW**  [[Liveuamap] Bahrain Defense Force: We intercepted a number of Iranian aerial attacks this morning. Muharraq Governorate, Bahrain - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPa0JlcGF6aVIzRTdMTnlCczRhTGliVGtOM1pFTlQyWmcwbk5aV3ZXQlNOX1ctc0czZlJZMnpmVFRZQTAyQ0Zzc1ZFQzRtV2FqZEl6b2JaM1FHbDViRTBibUd2eXF5eDZGa05WVVFLb0MzcW5DOWdjdlpqejgzNmwtWVdodFFWcXZ4RFh4Ny1CMElhVDhOYkE?oc=5" target="_blank">Bahr
+- **NEW**  [[Liveuamap] Houthis Brigadier General Yahya Saree: By its reckless decision to attack Sana'a airport, the Saudi bears full responsibility for the dire consequences of this brutal aggression. - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
+  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNenRJd1ljc0VjQ19Rd1AySTlKN09iMWFneGNGbGUzMnFQaTU4YXYzMTc5VVVNS0gzRHFOdktqZ1FwQ1lXdEQtdkZZc3g1MThjQ0RQd3NmaTJKTWZ6T09JcVFJa0stU0t4X2dLemowaFNtUU92MUFkOGV4aHIzS3lNY21PcHd3VU1INTN6RUpPYXlPbWxiSXdFck1OMWJydm9pS1E?oc=5" targ
 - **NEW**  [[Liveuamap] Two people, one seriously injured, arrived at Al-Shifa Hospital in Gaza City following an Israeli drone strike on the Al-Tuam neighborhood northwest of Gaza City. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQalM3QVMyU0ZtNUQ2eGVEa3Z1ankwNWNiVko3aHlmUTl6NG1PRm1IZTNsT0NtM1Z0RTdWc3pIMHFpMC1vbEhjQ3dtcEVzbTdJV0hIZ3BwMnJpdmlPbGVvU2JiaG5naW1YSXduVG5yLUViaXdoRXZaN19tZjRPNEd0MFh4SU1iQjBiQjJpUVotLTdDaEpaWkY1emxhbTRJeXkzZERwRmtWM2lEeD
 - **NEW**  [[Liveuamap] Israeli bombing in Beit Yahoun Nabatiyeh Governorate, Lebanon - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-12*
@@ -51,15 +51,15 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxONkVUQm5OQ3dtMWNmd1FiUE1UTFI2RnFlUnlXdDhmS3dQbHRmU3JfNGp4cnU0NHNVUm41OEloNGJMWUR5UmU5Mmh2OTB1YnFJanB2d01xZE9SQ1JvU3NLMXpJdXp6SFlZODc4Vk5HMDlPajJiZmZMMVVmeEw5eWlFTUlvUkdyQndzVllNbll3?oc=5" target="_blank">Fire reported a
 - **NEW**  [[Liveuamap] 7 Severe Explosions in Chabahar - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQeGFlbUZFTGR1V01yUUFPa01UVzRQcWJ1TUgzeE9aeUFhLW0wdHEyU19SQ2FsOVcwX0tzQjJjSS0tZDUxUE5CRHhYVmIxeFY3bXZHZ19xQjhjcjFValFOWXpGLXozbmM1MkdFSDdITUktSG90NXl6WFR0X3paS2NRRkVR?oc=5" target="_blank">7 Severe Explosions in Chabahar
-- **NEW**  [[Liveuamap] U.S. Central Command forces are now conducting strikes against Iran in response to Iranian attacks on three commercial vessels transiting the Strait of Hormuz. Multiple explosions have been reported on Qeshm Island and in Bandar Abbas, loca](https://iran.liveuamap.com) — *2026-07-08*
-  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNQllzNElXVDdWTzkyRVFHZEtacTNZd1ZKX0tNU2tNZnJHV0lQNGoteGdHbDFsbmhpbm5XZFlQTkQ4VHI0b3gzN0JUUUJ6U3BjTEJ6blRZTFAyM2xvdEFIbFViM2FYNmdjVHlMVk9zX1pveFVFT3pvMzhtWlU1cGt3b1p2TUpuZkUtRHQ4eXBVMU9TemFwWk94SFhpbGZyUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] News Live - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-07-08*
   > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQSXJoMlJEV0tqR1daLVpvTkpsUkdEOWc0X2dPUkdfWFFheVB3dVpqNGpQajdMQnBuamZxZk9EbWNpX2Zwam5SNmRoTnRhb2R0OWxtRW5QQXVnWjZDN2RuMFRmRW9lSV9iSjZQWnpuWGViS1lVdU1lM3M2RjFZcElNYXlldw?oc=5" target="_blank">News Live</a>&nbsp;&nbsp;<fon
-- [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
-  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XdG9KQzV2QlZiZmVRMEM3WmZjTXN2djdUZnZBZGExVU9OYjcwN21FbzM0cm5UaS1ObzZXVDVLQVRsc25MNXFzMFRGV2R0QnRWVE8wT0ZGczAwaVJfSDZMVkpEOVpFenc?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gul
 - [[Liveuamap] Libya live map. Libya civil war news today - Liveuamap](https://libya.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yM0FwSnE1ZDJmNElKdlFaa2MzN2JUb1VSRUIzS0xvT0RSVmNqSmtmRGxpVnlBYUVTbzJiVmJndnFBSEg4MUZYaU9CNHpweFBqNllxbmdVVl9UQlRqb19xOTRUM0J3LXc?oc=5" target="_blank">Libya live map. Libya civil war news today</a>&nbsp;&nbsp;<font colo
+- [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-30*
+  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvdGY5WmMyNlRaNUpXR2l5ZFRDQWRia0FqTGxpTGdKbTlLaWlyN3hralpvNE5Qb3gtYWFyanlNUThHXzZ3R2NlWF9rS3phMGNQazlSeWVldmE2ckxlTWpNc21QQVVqdlU?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveua
+- [[Liveuamap] Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-07-05*
+  > <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE53Sk4tU1pZZlFmTHUzWldQNUNWeFAwYVEyencxRG1RRDQ0ZjZHSXN6NDVvLUQxUDBCNXc2cU5WblRSd0VXQWFXVFQ1bFpYMnQ3T3pHbmJqSkdOX3cyZ1Nwbk9XUGUySzVsamt2bTFzR3hMYl9LbHdYZw?oc=5" target="_blank">Somalia latest news in English on live map</a
+- **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - Liveuamap](https://syria.liveuamap.com) — *2026-06-28*
+  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ER0Q3OVFEd3E0dS0yTlBxNDhfME1ydm9LR3d4VTlZNlgtd0tyQ21hcWxxV0dBc0RsVExwUUVzV2Z6VFcyYTJaQkwwbzFoT3BTbzNLZ3o2bU5oeFN1YklEaXBDTFBlWHM?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today</a>&nbsp;&n
 
-_(214 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_
