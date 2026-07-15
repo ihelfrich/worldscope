@@ -3,24 +3,24 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-15
 record_count: 239
-new_today: 143
+new_today: 144
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-143 new of 239 total items today.
+144 new of 239 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-15*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-15*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-15*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - **NEW**  [[Liveuamap] Ukrainian FPV drone shot down Russian Mi-28 helicopter over Belgorod region - Liveuamap](https://liveuamap.com) — *2026-07-15*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNMWx4a1VxczlqY09oMEJPOFg0T1VBTHFpWXUwcU1PMV80RWU3em5Fc3hkNW9EWWdDRmY2T1U5OUUyZ3Q2VTVTQlVFVEtBTndScElURjhnZzBYZ2RKWVJPV00wd2VGT3lnWklqRFdVaEtoSkNsRkU4enFXSVVwRE9DMlYybHhVY0hZLXZGeGllOHBYWmZzRzdjajRB?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] Drones raid in Moscow region and local authorities report shooting them down - Liveuamap](https://liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2dvVjlPbzhQVzhMaXJKZ2luNHZ2TFN2N2J5aTRJSkxBRmQzZTQyZFBaNjludVQ5aDRiaEh0QmNCZ1J1Uk1Qa1h6QlBvNEhxWnplY2d5UFpNNGJEZy1GbE10Vll4NzNZd0t4MDRIVEg5dG0wS2ltTmFoQnNhSUJ3UzNvX3FZMVZkejljYjQ3VFNQcjQ2RUE?oc=5" target="_blank">Dron
 - **NEW**  [[Liveuamap] Ukrainian military cleared the settlements of Ternove, Zaporizhske, Novoheorhiivka, Vorone, Sichneve and Maliivka of Dnipropetrovsk region from the Russian troops Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest new](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1N4TUctdF9WSmtFSmlvTG82NDZ3dFhHZ0QyaFlfc3RkWFRkTHAwMlZkbW82Y0hpeUxoNG1WTWZIXzBIRmtZWDExQWoyeUZwajl4VmcycW5CZmxHdEpCNEtad1BNelEtR1Ftc2xOT0tRdFd3VWJsMWYyaUgyOFQ0SE83Snc3SnYzeGI1bEZJcw?oc=5" target="_blank">Ukrainian mil
+- **NEW**  [[Liveuamap] Drones raid in Moscow region and local authorities report shooting them down - Liveuamap](https://liveuamap.com) — *2026-07-13*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2dvVjlPbzhQVzhMaXJKZ2luNHZ2TFN2N2J5aTRJSkxBRmQzZTQyZFBaNjludVQ5aDRiaEh0QmNCZ1J1Uk1Qa1h6QlBvNEhxWnplY2d5UFpNNGJEZy1GbE10Vll4NzNZd0t4MDRIVEg5dG0wS2ltTmFoQnNhSUJ3UzNvX3FZMVZkejljYjQ3VFNQcjQ2RUE?oc=5" target="_blank">Dron
 - **NEW**  [[Liveuamap] The crew of a container ship damaged in an incident 9 nautical miles east of Oman has been rescued by local authorities after abandoning the vessel, the United Kingdom Maritime Trade Operations (UKMTO) said on Sunday. UKMTO said the ship su](https://iran.liveuamap.com) — *2026-07-12*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQTHo5MDBocDNVT2Vza0lvWUUzbzNtUGMtWlZDdnA4ZkNoRXNaZ3JJMGM5cFNsSHBVX3JzLWdRSGtyR0FzN2NXYWVycnpSbWw2SklfSWFsS1c5N0hfcFVIZEd1RngyTHUwWHpqTnVaTlpTQ0JkWTdMSlIxRG9mUXJyLWhXcGRhMmtYNjY2Y29FcjVEQzlYUWVDUzRtLU9QUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] Overnight Russia launched 3 Kh-59/69 missiles and 134 strike drones, - Ukrainian Air Force - Liveuamap](https://liveuamap.com) — *2026-07-13*
@@ -33,8 +33,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZll5c2pEYkJQeXdqMmh4Q2VkdDdieG9FUy1xTDh1S1FpVnVxRXNWanVhM3ljU3BiNHFpalJydHRQZGN2NkVlbXljT1FscHVKZHVUR3JydWVZNFlEeldVdF8xMW53TzNzUVQ4bFVad1RkZTZZWjdKdWFnSGYydw?oc=5" target="_blank">The vessel is on fire near Odesa Odes
 - **NEW**  [[Liveuamap] US military: More than 20 warships and hundreds of fighter jets are operating in the Middle East Strait of Hormuz - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFlLQ1ZucVJaV2MtcWJMTnJSaWxOelZYdldad0MtMlBrd3cwTDd3Z3pUWi1RcVdYU0hJVkRISFlnRjdzZzBfWHJqcmNFUFB6TFhMWlhTQ0d6V1VnNmh5Nm10aUpZTFdvaWRzQVJ6bmM3NUtFSGJ5ZEtJOVZvbTBtQXM0T3RxYmJudWJMc3piUGpId0d0MGFv?oc=5" target="_blank">US 
-- **NEW**  [[Liveuamap] Smoke rises from Ahvaz following the U.S. attack Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxObmx6cnJuYWdhY2x5WWM4SXFKMExobjFHbmVMOF9iakdqeF91aXdkSVhzbHpSX2Z2Tml0LWp4M204R0lQcEdQbFlWMWtvY0haWGRNa0FGdWFfdlF3LVI4T0xBSm1ncHplV0NrbUFheXFUeG14WG9OYXEwMUJITG1VSUJNRWJrbGVHUmxuSmFoTXNnbExVTGNR?oc=5" target="_blank">Smo
+- **NEW**  [[Liveuamap] Explosion heard in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
+  > <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5oY0Q0UExtRkpOUFhuMGN0WDc3UGZhV3ktNVJ0UmNxNGhEMDJ3MC1iRDVDckxobC1HdFViWThwMkFXRGNvaHBRR0hNcFQwWnFaMmtncmM0dnM0Rko5QmxHeTNKZjZFWlB6ZzdOY2psamFOTC1lSHhQaDZB?oc=5" target="_blank">Explosion heard in Ahvaz Khuzestan Province
 - **NEW**  [[Liveuamap] Houthis Brigadier General Yahya Saree: By its reckless decision to attack Sana'a airport, the Saudi bears full responsibility for the dire consequences of this brutal aggression. - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNenRJd1ljc0VjQ19Rd1AySTlKN09iMWFneGNGbGUzMnFQaTU4YXYzMTc5VVVNS0gzRHFOdktqZ1FwQ1lXdEQtdkZZc3g1MThjQ0RQd3NmaTJKTWZ6T09JcVFJa0stU0t4X2dLemowaFNtUU92MUFkOGV4aHIzS3lNY21PcHd3VU1INTN6RUpPYXlPbWxiSXdFck1OMWJydm9pS1E?oc=5" targ
 - **NEW**  [[Liveuamap] Vehicles launch explosive devices simultaneously with heavy gunfire east of Salah al-Din in Khan Yunis, southern Gaza Strip - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-12*
