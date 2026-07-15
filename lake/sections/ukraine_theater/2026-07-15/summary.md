@@ -11,10 +11,10 @@ state: fresh
 
 144 new of 239 total items today.
 
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-15*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-15*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-15*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[Liveuamap] Ukrainian FPV drone shot down Russian Mi-28 helicopter over Belgorod region - Liveuamap](https://liveuamap.com) — *2026-07-15*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNMWx4a1VxczlqY09oMEJPOFg0T1VBTHFpWXUwcU1PMV80RWU3em5Fc3hkNW9EWWdDRmY2T1U5OUUyZ3Q2VTVTQlVFVEtBTndScElURjhnZzBYZ2RKWVJPV00wd2VGT3lnWklqRFdVaEtoSkNsRkU4enFXSVVwRE9DMlYybHhVY0hZLXZGeGllOHBYWmZzRzdjajRB?oc=5" target="_blank"
 - **NEW**  [[Liveuamap] Ukrainian military cleared the settlements of Ternove, Zaporizhske, Novoheorhiivka, Vorone, Sichneve and Maliivka of Dnipropetrovsk region from the Russian troops Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest new](https://liveuamap.com) — *2026-07-13*
@@ -33,8 +33,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZll5c2pEYkJQeXdqMmh4Q2VkdDdieG9FUy1xTDh1S1FpVnVxRXNWanVhM3ljU3BiNHFpalJydHRQZGN2NkVlbXljT1FscHVKZHVUR3JydWVZNFlEeldVdF8xMW53TzNzUVQ4bFVad1RkZTZZWjdKdWFnSGYydw?oc=5" target="_blank">The vessel is on fire near Odesa Odes
 - **NEW**  [[Liveuamap] US military: More than 20 warships and hundreds of fighter jets are operating in the Middle East Strait of Hormuz - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFlLQ1ZucVJaV2MtcWJMTnJSaWxOelZYdldad0MtMlBrd3cwTDd3Z3pUWi1RcVdYU0hJVkRISFlnRjdzZzBfWHJqcmNFUFB6TFhMWlhTQ0d6V1VnNmh5Nm10aUpZTFdvaWRzQVJ6bmM3NUtFSGJ5ZEtJOVZvbTBtQXM0T3RxYmJudWJMc3piUGpId0d0MGFv?oc=5" target="_blank">US 
-- **NEW**  [[Liveuamap] Explosion heard in Ahvaz Khuzestan Province, Iran - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5oY0Q0UExtRkpOUFhuMGN0WDc3UGZhV3ktNVJ0UmNxNGhEMDJ3MC1iRDVDckxobC1HdFViWThwMkFXRGNvaHBRR0hNcFQwWnFaMmtncmM0dnM0Rko5QmxHeTNKZjZFWlB6ZzdOY2psamFOTC1lSHhQaDZB?oc=5" target="_blank">Explosion heard in Ahvaz Khuzestan Province
+- **NEW**  [[Liveuamap] Aircraft launch an airstrike on the entrance to the "Hasayna" area, west of the Nuseirat camp, in the central Gaza Strip. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-15*
+  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1k2OTZXMVVHeDR6d3gzLWpRc3NoUV9KdzNpcldzUHF5bnc3Q3pYeS13Wm83WFFjSFQzd1JJTlYxaUZxNk5uTG0teFI4ZXd3dEVhZzhlZ05GaFhoUVVwR2FBVVh1RnNWWUpJeXRqNnRiTXlzcHBPVlNYY3k2OE1qbm8wMkQ3OUVrMGlpTFdiSGFzcWtXY3N6QWF0ZFk0WC1FcmNVMks5Zw?oc=
 - **NEW**  [[Liveuamap] Houthis Brigadier General Yahya Saree: By its reckless decision to attack Sana'a airport, the Saudi bears full responsibility for the dire consequences of this brutal aggression. - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNenRJd1ljc0VjQ19Rd1AySTlKN09iMWFneGNGbGUzMnFQaTU4YXYzMTc5VVVNS0gzRHFOdktqZ1FwQ1lXdEQtdkZZc3g1MThjQ0RQd3NmaTJKTWZ6T09JcVFJa0stU0t4X2dLemowaFNtUU92MUFkOGV4aHIzS3lNY21PcHd3VU1INTN6RUpPYXlPbWxiSXdFck1OMWJydm9pS1E?oc=5" targ
 - **NEW**  [[Liveuamap] Vehicles launch explosive devices simultaneously with heavy gunfire east of Salah al-Din in Khan Yunis, southern Gaza Strip - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-12*
