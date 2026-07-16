@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-16
-record_count: 239
-new_today: 148
+record_count: 240
+new_today: 147
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-148 new of 239 total items today.
+147 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-16*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -17,8 +17,6 @@ state: fresh
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[Liveuamap] Ukrainian military cleared the settlements of Ternove, Zaporizhske, Novoheorhiivka, Vorone, Sichneve and Maliivka of Dnipropetrovsk region from the Russian troops Dnipropetrovsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest new](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1N4TUctdF9WSmtFSmlvTG82NDZ3dFhHZ0QyaFlfc3RkWFRkTHAwMlZkbW82Y0hpeUxoNG1WTWZIXzBIRmtZWDExQWoyeUZwajl4VmcycW5CZmxHdEpCNEtad1BNelEtR1Ftc2xOT0tRdFd3VWJsMWYyaUgyOFQ0SE83Snc3SnYzeGI1bEZJcw?oc=5" target="_blank">Ukrainian mil
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-16*
-  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Drones raid in Moscow region and local authorities report shooting them down - Liveuamap](https://liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2dvVjlPbzhQVzhMaXJKZ2luNHZ2TFN2N2J5aTRJSkxBRmQzZTQyZFBaNjludVQ5aDRiaEh0QmNCZ1J1Uk1Qa1h6QlBvNEhxWnplY2d5UFpNNGJEZy1GbE10Vll4NzNZd0t4MDRIVEg5dG0wS2ltTmFoQnNhSUJ3UzNvX3FZMVZkejljYjQ3VFNQcjQ2RUE?oc=5" target="_blank">Dron
 - **NEW**  [[Liveuamap] The crew of a container ship damaged in an incident 9 nautical miles east of Oman has been rescued by local authorities after abandoning the vessel, the United Kingdom Maritime Trade Operations (UKMTO) said on Sunday. UKMTO said the ship su](https://iran.liveuamap.com) — *2026-07-12*
@@ -27,14 +25,16 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXRLdmpCRERRTmltMU5yLTNUbWM0dEtGX0l5bnpmTWNfZld4d1loMVppd3FHR055b1IyMXBMN1Bra1NMN0oza2JETVRvWUZxMGJrdUdrcGFleUtqamJMU2NCaURrbEZITVZHam56bm5xMXBQRGVaV0FPOEdFd0dtSVB2SzB0cVppakl6ZDVLcw?oc=5" target="_blank">Mykhailo Fedo
 - **NEW**  [[Liveuamap] Explosions in Qeshm, Sirik and Bandar Abbas - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
   > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPWkE3eGRydk5EZ1JXd3JQd3pTNTZhdVRnc1JFMEw4N0FreG9oY0dNOXlFZ3BWeDJMd0JFTjd0d05hdGNMNGVsRUI5ZXFTVGhJaUxzSGRoM3hHa0RIMW5jUTNwcm92Z2dxeEdfQzBNTHZPTGRSMS1PcTNRYndScWlnWEpuZXE1QS1XTmJlNVcxcUo1UQ?oc=5" target="_blank">Explosion
-- **NEW**  [[Liveuamap] Aircraft launch an airstrike on the entrance to the "Hasayna" area, west of the Nuseirat camp, in the central Gaza Strip. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1k2OTZXMVVHeDR6d3gzLWpRc3NoUV9KdzNpcldzUHF5bnc3Q3pYeS13Wm83WFFjSFQzd1JJTlYxaUZxNk5uTG0teFI4ZXd3dEVhZzhlZ05GaFhoUVVwR2FBVVh1RnNWWUpJeXRqNnRiTXlzcHBPVlNYY3k2OE1qbm8wMkQ3OUVrMGlpTFdiSGFzcWtXY3N6QWF0ZFk0WC1FcmNVMks5Zw?oc=
+- **NEW**  [[Liveuamap] Syrian Interior Ministry: Targeting an international drug smuggling network in an operation in Daraa - Liveuamap](https://syria.liveuamap.com) — *2026-07-16*
+  > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmJiSFRmOVBsbDZGTEdUdnBuTjZrNnhBQjhiMHA3T2xPT1l0VTNBUVl5UFk5ME1GNVV2UEdjMU5ZTXctWDItOEpYaE4wOXpqS2JEZjBWNWR2X25NNHo3ZVhJX1J5MElJVzRxNGZJNloyRjU5T3pGcG9qS1BVUDNuTHhRaUNqckNVS0FHWS1SOXRPUFgwbXdVbTIyUmxfRFE?oc=5" target="
+- **NEW**  [[Liveuamap] Explosion in Bandar Abbas بندرعباس ‼️ - Iran news on live map in English - War in Iran - Conflict in the Gulf - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-16*
+  > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQOVdkSjhIMWVvaW9aZExDQmVvRFZsMFQ2ZVUzUGFIdnhDVHJPX2FqRGdPUFZXYzdzSE1xN1pNMzR4VmN2bXRFQVVmbXY1N1F1OVJCZk0wYVZLT0VlME9TaWszcGZUWWxieTZyOGVpMDRjb3RKaVVnZVl6YjE1bjJ6b3kzVQ?oc=5" target="_blank">Explosion in Bandar Abbas بند
+- **NEW**  [[Liveuamap] Israeli forces stormed the town of Halhul, north of Hebron, a short while ago. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-14*
+  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOWmhoWXVlb1lQMDJsd3dnSVJzbFVUZTRCOXNQa2RiRzVRWFoyUkhlS05za1NCWGEyWDE5WlNleWdfQzdJTGk3Wl9ncXZwel82OEVCMzZqNTlWaVdORmlJSXBuVFdmckdDc1N6SWZqcmdON0ZjSXNaTWJ2S051UmZ1bkl2M19UWHMzSC11WE5TUThrNUFJSjlReVp6aHRtSGpLLTFHRGsxMA?oc=
 - **NEW**  [[Liveuamap] Houthis Foreign Ministry: The ceasefire has ended Sana&039;a, Capital Municipality - Interactive map of Yemen war - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2ZqZXVOUjBfVVJlTmZJTGUzbHN2ZjkySkVlUW5vbURWdjZ2Nzd6dHExOWNYODFjWG44UjZDbmwybUsxMmowMWtTbmNYbTh2ZmpjSFZlVHluTi1qZkx6d3Myb2JCRUExcW55bG5hMF9VanJPcm85TEk3ZGFwYUJvMl90RUliRkQ2TzhFcUxja2xxcVNteTQydmtIbw?oc=5" target="_blan
 - **NEW**  [[Liveuamap] A powerful explosion rocks Erbil; air defenses shoot down two drones targeting the airport and the US consulate building. Erbil, Erbil Governorate - Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - i](https://iraq.liveuamap.com) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzE1bVExd01lZXAtWGhfa24zdmtEaGRKTDJ1Q0p2VFhnc3hXM0hiMkJMU2NhSnlVLVd2T1otZDZ0QzJBSEh6NWliSVRLekZ6LThmT0t6RUNGN3JmS3Rrd2d5OEUwVF9FRWRtLXk1Ung0cDhuQkZnMURqeFo4bjRHVjN4emQ5dVN4cUlRbWJXMTNzT1phYUE?oc=5" target="_blank">A po
-- **NEW**  [[Liveuamap] Ukraine - Liveuamap](https://liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQY050Y25tdDJNa2ZXTnZMRndOUFVwWk9tOEVYMHd6ZE5kZTVreVdxQVdhbml1RGxmSkc4aE5qbmxONkpjWFdBbmlUXzFJLS1wZy0zdnVvcWczQkJyWXB0a2NPclpJTlE3aWRrV3NoR2JuTVRWNnR0eDFjSWluNDZMSmJHTlAxRnRaYmw4OENR?oc=5" target="_blank">Ukraine</a>&nbs
 - **NEW**  [[Liveuamap] A US official: The first pilot area from which Israel will withdraw from Lebanon will be identified within days. - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW5wdTBDRFB3cE4wVHdqSnBfOXFBdHduOGlqVWpmNzZEZGpsbG4yZS1QUWZTRElWMTNOY0Ryc1BjeVl3cFNrcnZyMGI2YzR0Tmt6Yi1NdXF5WEV5YUdrUFp1Y2NJV2ZpLVJ5YXIyZzhFNFZqN1diSGVpaW5TY2VPRE91d2hvZnFMZFVCZGozd3JjaHhTM01iNXVOMFFSMzF6OEE?oc=5" targ
 - **NEW**  [[Liveuamap] CENTCOM: At 5 p.m. ET today, U.S. Central Command forces began launching more strikes against Iran to continue degrading their ability to attack civilian mariners and commercial ships freely transiting the Strait of Hormuz. The Commander in](https://iran.liveuamap.com) — *2026-07-12*
@@ -47,7 +47,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmstQlFLc2hpRlMwV25QSmhjS0FtcGZQTVlOakxpZ1U4Z1hsV09UaFl6OHkyTU9QZ1dZQW9BVnAtUWlHWUl0VFA0NzdqNTZWZGdJaC1QYzJHS3BZSzZGVW1NWDJZYjNKNmx1Snd3TTVJVXlXemdJcXNFNjBuZUpCamdSdw?oc=5" target="_blank">Lebanon news on live map</a>&
 - [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
+- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XdG9KQzV2QlZiZmVRMEM3WmZjTXN2djdUZnZBZGExVU9OYjcwN21FbzM0cm5UaS1ObzZXVDVLQVRsc25MNXFzMFRGV2R0QnRWVE8wT0ZGczAwaVJfSDZMVkpEOVpFenc?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gul
 - [[Liveuamap] Libya live map. Libya civil war news today - Liveuamap](https://libya.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yM0FwSnE1ZDJmNElKdlFaa2MzN2JUb1VSRUIzS0xvT0RSVmNqSmtmRGxpVnlBYUVTbzJiVmJndnFBSEg4MUZYaU9CNHpweFBqNllxbmdVVl9UQlRqb19xOTRUM0J3LXc?oc=5" target="_blank">Libya live map. Libya civil war news today</a>&nbsp;&nbsp;<font colo
@@ -57,9 +57,9 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE53Sk4tU1pZZlFmTHUzWldQNUNWeFAwYVEyencxRG1RRDQ0ZjZHSXN6NDVvLUQxUDBCNXc2cU5WblRSd0VXQWFXVFQ1bFpYMnQ3T3pHbmJqSkdOX3cyZ1Nwbk9XUGUySzVsamt2bTFzR3hMYl9LbHdYZw?oc=5" target="_blank">Somalia latest news in English on live map</a
 - [[Liveuamap] Greenland news on the map - Liveuamap](https://greenland.liveuamap.com) — *2026-07-02*
   > <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFAxNG5KQ2JaNHhfOUhRNkVYZmpqNWlhNnRBallpWjhxQ0NLdFhJRUlaTWx4WVZ3N210QXpBUnRaM2FhWjUwaTdKSkpQdUVnNV9zb2dNLVdYYW50ZjA4RUZKd3dMeVdOc2dzaUdGNDlR?oc=5" target="_blank">Greenland news on the map</a>&nbsp;&nbsp;<font color="#6f6f
+- [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-06-18*
+  > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nb09zd2VzMnVkVHRLSzZWSkl3NTZWRTFScXpSVlcwOGdCbXFpSTNuM2xnbTU4MWRWT0F5U29jT1NkVXJEc0VNakdpZGo5X2FEdnRVRGg3dGVKVU15YlBqV2ZVTFdzNEU0akYzOUpUQjNLaUJtaGhHYjF4cHlqSlU?oc=5" target="_blank">Iraq news map in English - News from
 - **NEW**  [[Liveuamap] Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Africa contries - Liveuamap](https://alshabab.liveuamap.com) — *2026-07-11*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUVWUxTHFzY1ZyajhpaEVLMHhRQVZsRGYyeS12TlhyZmRVRWtFX3pOWEpQSEFQQTI3QzJNQnZ4Wk82TkFDR2xGQTExZGVncDJoRzB5dk4tOWVvLTVLNXc?oc=5" target="_blank">Day of news on live map - July, 09 2026 - Al Shabab - Somalia, Kenya, Horn of Af
-- **NEW**  [[Liveuamap] День новин на карті - Травень, 01 2026 - Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com](https://sudan.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iZ01NcVNxYTJJUmNndGxhb2JGMFFhRUItTVJzWVFNZmdFWjkteEdWdER6Uk13Zk9oUDFEZHFQQnhQdG1kdjMxc2ZLSDQ5SC0xRTBQUVMzNVR3dw?oc=5" target="_blank">День новин на карті - Травень, 01 2026 - Sudan latest news in English on live map - S
 
-_(214 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_
