@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-07-17
-record_count: 1077
-new_today: 1074
+record_count: 905
+new_today: 902
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-1074 new of 1077 total items today.
+902 new of 905 total items today.
 
 - **NEW**  [[TITLE: Зеленский пообещал открыть архивы по Волынской резне | LEDE: <p>Президент Украины Владимир Зеленский объявил о планах открыть архивы украинских спецслужб, посвященные Волынской резне. Об этом о] (ru: Зеленский пообещал открыть архивы по Волынской резне)](https://meduza.io/news/2026/07/17/zelenskiy-poobeschal-otkryt-arhivy-po-volynskoy-rezne) — *2026-07-17*
   > <p>Президент Украины Владимир Зеленский объявил о планах открыть архивы украинских спецслужб, посвященные Волынской резне. Об этом он объявил по итогам совещания, посвященного отношениям с Польшей. <p>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: Сотрудница МУС публично рассказала о домогательствах со стороны прокурора Международного уголовного суда Карима Хана | LEDE: <p>Бывшая помощница прокурора Международного уголовного суда (МУС) К] (ru: Сотрудница МУС публично рассказала о домогательствах со стороны прокурора Междун)](https://meduza.io/news/2026/07/17/sotrudnitsa-mus-publichno-rasskazala-o-domogatelstvah-so-storony-prokurora-mezhdunarodnogo-ugolovnogo-suda-karima-hana) — *2026-07-17*
   > <p>Бывшая помощница прокурора Международного уголовного суда (МУС) Карима Хана публично рассказала о домогательствах с его стороны. Она дала интервью журналистке телеканала CNN Кристиан Аманпур.<p>
 
-_(1052 additional items in raw.jsonl)_
+_(880 additional items in raw.jsonl)_

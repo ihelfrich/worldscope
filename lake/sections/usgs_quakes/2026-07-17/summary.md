@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-17
-record_count: 29
-new_today: 29
+record_count: 28
+new_today: 28
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-29 new of 29 total items today.
+28 new of 28 total items today.
 
 - **NEW**  [M 7.3 - 58 km WSW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu) — *2026-07-17*
   > M7.3 · 58 km WSW of Puerto Madero, Mexico · depth 18.584 km · PAGER yellow
@@ -47,8 +47,6 @@ state: fresh
   > M5.0 · south of the Kermadec Islands · depth 10 km
 - **NEW**  [M 5.0 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15z) — *2026-07-16*
   > M5.0 · southern Mid-Atlantic Ridge · depth 10 km
-- **NEW**  [M 5.0 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15b) — *2026-07-16*
-  > M5.0 · southern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 4.9 - 46 km SW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1dz) — *2026-07-17*
   > M4.9 · 46 km SW of Puerto Madero, Mexico · depth 73.875 km
 - **NEW**  [M 4.8 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t17h) — *2026-07-17*
@@ -61,5 +59,7 @@ state: fresh
   > M4.7 · 60 km WSW of Aquiles Serdán, Mexico · depth 35 km
 - **NEW**  [M 4.7 - 283 km NE of Lospalos, Timor Leste](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t18g) — *2026-07-17*
   > M4.7 · 283 km NE of Lospalos, Timor Leste · depth 309.906 km
+- **NEW**  [M 4.7 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15s) — *2026-07-16*
+  > M4.7 · southern Mid-Atlantic Ridge · depth 10 km
 
-_(4 additional items in raw.jsonl)_
+_(3 additional items in raw.jsonl)_

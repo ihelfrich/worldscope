@@ -13,13 +13,15 @@ state: fresh
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-17*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-17*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-17*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Від початку доби на фронті відбулося 229 бойових зіткнень – Генштаб | LEDE: 229 бойових зіткнень відбулось на фронті з початку доби 17 липня і до 22:00.] (uk: Від початку доби на фронті відбулося 229 бойових зіткнень – Генштаб)](https://www.pravda.com.ua/news/2026/07/17/8044646/) — *2026-07-17*
+  > 229 бойових зіткнень відбулось на фронті з початку доби 17 липня і до 22:00.
 - **NEW**  [[TITLE: РФ знову атакувала судно під прапором Маршаллових Островів в порту Одещини: 4 постраждалих | LEDE: Російські війська ввечері 17 липня атакували цивільне судно під прапором Маршаллових Островів ] (uk: РФ знову атакувала судно під прапором Маршаллових Островів в порту Одещини: 4 по)](https://www.pravda.com.ua/news/2026/07/17/8044644/) — *2026-07-17*
   > Російські війська ввечері 17 липня атакували цивільне судно під прапором Маршаллових Островів на Одещині: четверо членів екіпажу постраждали.
 - **NEW**  [[TITLE: ЗМІ: Адміністрація Трампа направляє до Ізраїлю додаткові літаки-заправники | LEDE: ] (uk: ЗМІ: Адміністрація Трампа направляє до Ізраїлю додаткові літаки-заправники)](https://www.pravda.com.ua/news/2026/07/17/8044642/) — *2026-07-17*
 - **NEW**  [[TITLE: Протестувальників закликають у суботу також виходити на мітинг: вимагають звільнити Сирського | LEDE: Ветеран Дмитро Козятинський, який скликав людей на мітинги проти відставки Михайла Федорова] (uk: Протестувальників закликають у суботу також виходити на мітинг: вимагають звільн)](https://www.pravda.com.ua/news/2026/07/17/8044641/) — *2026-07-17*
-  > Ветеран Дмитро Козятинський, який скликав людей на мітинги проти відставки Михайла Федорова 16 липня, закликає у суботу, 18 липня, теж вийти на протести з вимогою звільнити головнокомандувача ЗСУ Сирського.
+  > Ветеран Дмитро Козятинський, який скликав людей на мітинги проти відставки Михайла Федорова, закликає у суботу, 18 липня, теж вийти на протести з вимогою звільнити головнокомандувача ЗСУ Сирського.
 - **NEW**  [[TITLE: У Києві завершили очищувальні роботи на озері Кирилівське після російського удару | LEDE: Рятувальники завершили збирати нафтопродукти з поверхні водойми на озері Кирилівське в Києві.] (uk: У Києві завершили очищувальні роботи на озері Кирилівське після російського удар)](https://www.pravda.com.ua/news/2026/07/17/8044640/) — *2026-07-17*
   > Рятувальники завершили збирати нафтопродукти з поверхні водойми на озері Кирилівське в Києві.
 - **NEW**  [[TITLE: Росіяни ударним БпЛА атакували Чернігівщину: постраждала сім’я з трьома дітьми | LEDE: Російські війська ввечері 17 липня атакували Новгород-Сіверський на Чернігівщині.] (uk: Росіяни ударним БпЛА атакували Чернігівщину: постраждала сім’я з трьома дітьми)](https://www.pravda.com.ua/news/2026/07/17/8044638/) — *2026-07-17*
@@ -50,13 +52,11 @@ state: fresh
   > Увечері 17 липня атака по Харкову - одна людина загинула, поранені 7-річний і 2-річний хлопчики, пошкоджені будинки.
 - **NEW**  [[TITLE: Детонація у Вишневому: двом підозрюваним керівникам обрали запобіжний захід – 2 місяці під вартою | LEDE: Соломʼянський суд Києва обрав запобіжний захід гендиректору підприємства зі структури "] (uk: Детонація у Вишневому: двом підозрюваним керівникам обрали запобіжний захід – 2 )](https://www.pravda.com.ua/news/2026/07/17/8044601/) — *2026-07-17*
   > Соломʼянський суд Києва обрав запобіжний захід гендиректору підприємства зі структури "Укроборонпрому" Миколі Андріяшу та його заступнику Руслану Кучинському, яких підозрюють у службовій недбалості у справі про детонацію боєприпасів у Вишневому 6 липня.
-- **NEW**  [[TITLE: ЄП: Угорщина заблокувала рух України й Молдови до відкриття нових переговорних кластерів | LEDE: На засіданні робочої групи Ради ЄС з питань розширення Угорщина не підтримала початок відкриття ] (uk: ЄП: Угорщина заблокувала рух України й Молдови до відкриття нових переговорних к)](https://www.pravda.com.ua/news/2026/07/17/8044621/) — *2026-07-17*
-  > На засіданні робочої групи Ради ЄС з питань розширення Угорщина не підтримала початок відкриття переговорних кластерів №2 і №3 для України. Через відсутність консенсусу рішення щодо України та Молдови відклали.
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-17*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- **NEW**  [Russia Continues to Produce Missiles Using Foreign Parts](https://www.kyivpost.com/post/80514) — *2026-07-17*
-  > Authorities say Russia continues building missiles using foreign parts from countries such as Switzerland, China and the US, alongside Russian and Belarusian components, based on the forensic analysis of debris from a Russian strike on Bila Tserkva in May.
-- **NEW**  [Ukraine Pledges to Grant Poland Access on Volhynia Files](https://www.kyivpost.com/post/80513) — *2026-07-17*
-  > President Volodymyr Zelensky announced a five-point plan to strengthen ties with Poland following a recent diplomatic rift. Ukraine agreed to grant additional permits for exhumation of the historical sites, while boosting joint capabilities to advance bilateral ties.
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-17*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-17*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-17*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 
 _(113 additional items in raw.jsonl)_

@@ -21,8 +21,8 @@ state: fresh
   > latest: 5.09 as of 2026-07-16
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-16*
   > latest: 3.62 as of 2026-07-16
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-16*
-  > latest: 0.41 as of 2026-07-16
+- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-17*
+  > latest: 0.37 as of 2026-07-17
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-06-01*
   > latest: 332.568 as of 2026-06-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-06-01*

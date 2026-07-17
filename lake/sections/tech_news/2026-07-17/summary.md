@@ -2,14 +2,14 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-17
-record_count: 53
-new_today: 53
+record_count: 58
+new_today: 58
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-53 new of 53 total items today.
+58 new of 58 total items today.
 
 - **NEW**  [[BleepingComputer] Abbott Laboratories probes two cyber incidents amid extortion claims](https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/) — *2026-07-17*
   > Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and
@@ -56,6 +56,16 @@ Blog moderation policy.
 - **NEW**  [[Schneier on Security] Details of Alan Turing’s Voice Encryption System](https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html) — *2026-07-17*
   > Really interesting piece of cryptographic history:
 In November 2023, a large cache of his wartime papers&#8212;nicknamed the &#8220;Bayley papers&#8221;&#8212;was auctioned in London for almost half a million U.S. dollars. The previously unknown cache contains many sheets in Turi
+- **NEW**  [[The Register] Mozilla speeds Firefox release schedule to biweekly](https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423) — *2026-07-17*
+  > And what to expect in Firefox 153 as the next ESR release gets close
+- **NEW**  [[The Register] Microsoft cuts OneDrive support for older Windows 10 versions next month](https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489) — *2026-07-17*
+  > 22H2 has until 2028, or there's always Windows 11
+- **NEW**  [[The Register] Billing software error sends billion-dollar AWS estimates](https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521) — *2026-07-17*
+  > Amazon asks users not to panic as it works to fix the bug
+- **NEW**  [[The Register] AI spam filters are getting suckered by old-school text salting](https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434) — *2026-07-17*
+  > Turns out decades-old email tricks still work against some LLM-powered email filters
+- **NEW**  [[The Register] Torvalds challenged the haters to fork Linux. Someone said 'hold my beer'](https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275) — *2026-07-17*
+  > More a rewrite really, and of a very early version: Linux 0.11 – in Rust
 - **NEW**  [[Ars Technica] Google-backed satellites for wildfire detection launch as smoke chokes US, Canada](https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/) — *2026-07-17*
   > The FireSat program can spot wildfires that other satellites miss.
 - **NEW**  [[Ars Technica] The Pentagon's Space Development Agency hasn't moved as fast as anyone would like](https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/) — *2026-07-17*
@@ -64,15 +74,5 @@ In November 2023, a large cache of his wartime papers&#8212;nicknamed the &#8220
   > "We're turning the clock back on rational healthcare."
 - **NEW**  [[Ars Technica] Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states](https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/) — *2026-07-17*
   > Don't eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia.
-- **NEW**  [[Ars Technica] Troubling new details emerge on diabetes ouster controversy](https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/) — *2026-07-17*
-  > American Diabetes Association blocked publication of op-ed articles so the authors posted them as a preprint.
-- **NEW**  [[Computer Weekly] Interview: Dan Cherowbrier, CTO, Formula E](https://www.computerweekly.com/news/366645733/Interview-Dan-Cherowbrier-CTO-Formula-E) — *2026-07-17*
-  > &lt;p&gt;Lots of digital leaders must keep multiple plates spinning. After all, being a successful technology chief in the modern era means ensuring nothing falls crashing to the floor. Yet for Dan Cherowbrier, chief technology officer (CTO) at &lt;a href="https://www.computerwee
-- **NEW**  [[Computer Weekly] Frustration as Post Office Horizon replacement contract signing delayed again](https://www.computerweekly.com/news/366646034/Frustration-as-Post-Office-Horizon-replacement-contract-signing-delayed-again) — *2026-07-17*
-  > &lt;p&gt;Subpostmasters are frustrated as uncertainty remains around the contract to replace the controversial Horizon system, which is at the centre of the &lt;a href="https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know"&gt;Po
-- **NEW**  [[Computer Weekly] Datacentre dive: Through the looking glass at Telehouse South](https://www.computerweekly.com/feature/Datacentre-dive-Through-the-looking-glass-at-Telehouse-South) — *2026-07-17*
-  > &lt;p&gt;I cross the road on a concrete footbridge, the multi-lane A1261 rumbling beneath. Ahead, men in the “uniform” of contemporary IT staff trudge to their afternoon shift, tidy-but-boring shirt and trousers, and a rucksack that lets the side down as it slumps off both should
-- **NEW**  [[Computer Weekly] NatWest signs up to quantum trial for fraud detection](https://www.computerweekly.com/news/366645980/NatWest-signs-up-to-quantum-trial-for-fraud-detection) — *2026-07-17*
-  > &lt;p&gt;Eleven organisations, including NatWest, have joined &lt;a href="https://www.computerweekly.com/news/366626055/Digital-Catapult-explores-quantum-innovation-for-advanced-connectivity"&gt;Digital Catapult’s Quantum Technology Access Programme (QTAP)&lt;/a&gt;, delivered in
 
-_(28 additional items in raw.jsonl)_
+_(33 additional items in raw.jsonl)_
