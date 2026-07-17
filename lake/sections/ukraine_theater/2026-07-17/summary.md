@@ -11,8 +11,6 @@ state: fresh
 
 285 new of 376 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-17*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-17*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[FIRMS] thermal anomaly 46.618, 32.688 (FRP 2.3 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.688,46.618,9z) — *2026-07-16*
@@ -61,5 +59,7 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 2.41 MW
 - **NEW**  [[FIRMS] thermal anomaly 52.368, 33.309 (FRP 0.85 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.309,52.368,9z) — *2026-07-16*
   > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 0.85 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.369, 33.312 (FRP 1.55 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.312,52.369,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 1.55 MW
 
 _(351 additional items in raw.jsonl)_
