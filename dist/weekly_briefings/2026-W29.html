@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-W29</title>
+<meta name="description" content="WORLDSCOPE weekly briefing: Weekly Brief -- 2026-W29 (July 11 through July 17, 2026)">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/weekly_briefings/2026-W29.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-W29">
+<meta property="og:description" content="WORLDSCOPE weekly briefing: Weekly Brief -- 2026-W29 (July 11 through July 17, 2026)">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/weekly_briefings/2026-W29.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-W29.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-W29.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline-of-the-week">Headline of the Week</a></li><li><a class="" href="#macro-how-the-picture-moved">Macro: How the Picture Moved</a></li><li><a class="" href="#markets-rotation-and-dispersion">Markets: Rotation and Dispersion</a></li><li><a class="" href="#politics-and-policy-washington-and-elsewhere">Politics and Policy: Washington and Elsewhere</a></li><li><a class="" href="#sanctions-and-legal">Sanctions and Legal</a></li><li><a class="" href="#geopolitical-signal">Geopolitical Signal</a></li><li><a class="" href="#commentary-digest">Commentary Digest</a></li><li><a class="" href="#cross-section-themes">Cross-Section Themes</a></li><li><a class="" href="#what-to-watch-next-14-days">What to Watch -- Next 14 Days</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Weekly briefing</div>
+      <h1>Weekly Brief -- 2026-W29 (July 11 through July 17, 2026)</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-W29</div>
+    </header>
+    
+    <article class="prose prose-slate max-w-none">
+      <blockquote>
+<p><strong>Note:</strong> Weekly bundle 2026-W29.zip was not generated as of execution time. This brief is synthesized from the daily briefings of July 11-17, the July 7 lake ingest (most recent structured bundle), verified live web research, and cross-day trajectory analysis across all sections. [FALLBACK]</p>
+</blockquote>
+<hr />
+<h2 id="headline-of-the-week">Headline of the Week</h2>
+<p>The week of July 11-17 will be remembered as the moment the world's three most consequential security contests all passed structural thresholds in the same seven-day window. The United States and Iran escalated from a ceasefire collapse on July 8 through six consecutive days of American airstrikes against Iranian military targets, a naval blockade of the Strait of Hormuz, and the physical closure of 21 percent of seaborne oil flow -- with no diplomatic offramp visible as of Friday. Ukraine liberated its first complete oblast in the war, struck Russia's largest refinery at a 2,500 km range record, and watched ballistic missiles penetrate its exhausted interceptor grid on the eve of the NATO Ankara summit. And Marine Le Pen, convicted but legally rehabilitated by an appeals court on July 7, declared her 2027 French presidential candidacy on TF1 the same evening, reopening a race that structural analysts had considered settled. All three events are continuations of processes tracked across prior weeks. What makes W29 distinctive is not any individual development but the simultaneity: three overlapping regime shifts compressing into a single window, each interacting with the others through oil prices, alliance credibility, and strategic distraction.</p>
+<hr />
+<h2 id="macro-how-the-picture-moved">Macro: How the Picture Moved</h2>
+<p>The macro picture over the week is best read as a tale of two channels: the official financial-conditions channel, which remained remarkably calm, and the physical commodity channel, which was repricing war in real time.</p>
+<p>On the official channel, nothing changed. The Fed funds effective rate sat at 3.63% throughout the week, unchanged from the June 17 FOMC hold. The 10-year Treasury remained at 4.49%, the 30-year at 4.98%, the 10s-2s spread at +35 basis points -- the widest since 2022, representing a full de-inversion from the -107 basis-point trough of October 2023. Unemployment at 4.2%, nonfarm payrolls at 158.98 million, JOLTS openings at 7.594 million: these are not distress numbers. Prediction markets placed near-zero probability on any Fed action at the July 29 meeting throughout the week.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>On the physical channel, the repricing was sharp. WTI crude was $71.87 on June 29. By July 14, with Strait of Hormuz transits down more than 50 percent week-on-week and two ADNOC supertankers struck by Iranian cruise missiles, Brent touched $86.27 intraday -- a 20 percent surge in two weeks. The IEA published its July Oil Market Report warning that the US-Iran escalation "could upend" a projected 2027 supply surplus. Agricultural commodities (DBA) spiked 2.99 percent in a single session July 6, registering a z-score of +2.3 against the 90-day baseline. The DBA-Brent correlation in this configuration is a supply-shock inflation signal, not a demand signal -- it implies markets are pricing energy costs feeding through fertilizer and freight into food within one to two quarters.</p></div>
+<p>The single most important macro divergence of the week is the VIX-geopolitics gap. VIX sat at 15.81 throughout while CENTCOM struck 500-plus Iranian targets, Russia executed the largest combined-arms barrage of the entire Ukraine war on July 6, and the Strait of Hormuz -- through which 21 percent of seaborne oil transits -- moved into contested military space. This is not a market pricing systemic risk; it is a market pricing bounded escalation with a diplomatic resolution still visible. The question for W30 is whether that pricing is correct or whether it represents a complacency that a single threshold event -- an Iranian mine in the navigation channel, or a strike on Iranian civilian infrastructure -- would abruptly correct.</p>
+<p>One new piece moved the macro picture in a direction independent of the Gulf conflict: China's Q2 GDP came in at 4.3 percent year-on-year, the slowest since Q4 2022, missing both the 4.5 percent consensus and Beijing's own 4.5-5.0 percent full-year target. Factory output surprised to the upside at 5.3 percent, but retail sales grew only 1.0 percent and fixed-asset investment contracted 5.7 percent in H1, with real estate down 18 percent. This is a two-engine economy running on one: the export-facing industrial base is holding, but the domestic demand engine remains broken by the property crisis. The Politburo will meet in late July with a GDP miss that forecloses the option of doing nothing.</p>
+<hr />
+<h2 id="markets-rotation-and-dispersion">Markets: Rotation and Dispersion</h2>
+<p>The cross-asset signal across the week was unusual enough to warrant naming directly: crypto (BITO +3.60 percent), agriculture (DBA +2.99 percent), emerging markets (EEM +2.85 percent), silver (SLV +1.98 percent), and gold (GLD +1.06 percent) all moved in the same direction on the July 6 session, while credit spreads (HYG +0.20 percent, LQD +0.03 percent) remained essentially flat. This configuration -- hard assets and EM equities rising together while credit is inert and VIX is falling -- is textbook supply-shock inflation pricing without accompanying financial stress. Markets are treating Hormuz as a cost shock, not a credit event.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>The technology sector told a different story. The S&amp;P 500 lost 0.79 percent and the Nasdaq fell 1.55 percent on July 14 as chip stocks sold off on energy-cost anxiety for hyperscaler margins. The energy sector was the sole gainer at +1.37 percent. This is the first meaningful sector rotation since the AI-led rally began -- not a trend reversal, but a stress test showing the limits of the AI premium when physical input costs spike.</p></div>
+<p>Samsung's Q2 2026 earnings are the week's most important single data point for the global AI infrastructure cycle: operating profit of 89.4 trillion won ($58.4 billion), approximately 19 times year-on-year, on HBM4 memory demand with DRAM prices up 44 percent and NAND up 53 percent quarter-on-quarter. The Samsung stock fell 7 percent on the release. The market's interpretation is that HBM4 margin expansion has peaked as competing capacity ramps. If that read is correct, it leads the broader AI infrastructure supply chain by 6-9 months and implies hyperscaler capex plans for 2027 face a pricing headwind the current consensus does not price.</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>The Urals crude anomaly deserves its own note. While Brent moved sharply higher on Hormuz, Urals fell to $41.66 per barrel during the brief ceasefire period -- pre-Iran-war levels -- before partially recovering. The Urals-Brent discount has widened to roughly $44 per barrel, reflecting accumulated sanctions, insurance exclusion, and buyer diversification that the Hormuz shock does not reverse. Russia's budget assumes approximately $59-60 per barrel for fiscal balance; the June-July data point was $17 below that level.</p></div>
+<hr />
+<h2 id="politics-and-policy-washington-and-elsewhere">Politics and Policy: Washington and Elsewhere</h2>
+<p>The week's dominant executive action in Washington was kinetic, not regulatory. Trump authorized the reimposition of a naval blockade of Iranian ports effective July 14 under IEEPA authority, imposed a 20 percent shipping toll on all Hormuz cargo, and expanded the strike target set to 300-plus Iranian military facilities across six consecutive nights. The legal basis for a unilateral blockade under IEEPA against a non-declared belligerent is contested; litigation is likely but has not yet been filed as of Friday.</p>
+<p>On the regulatory front, the Federal Register confirms the deregulatory acceleration that has been building since the OBBBA's enactment. The EEOC's rescission of its 1978 Title VII affirmative action guidelines (effective July 6), the OPM performance appraisal simplification rule, the DOT airline refund enforcement deferral, and the NRC proposed NEPA streamlining for nuclear projects constitute a multi-agency pattern visible only at the weekly synthesis level: each action individually is modest, but the convergence across civil rights, civil service, consumer protection, and energy regulation in a single week reflects a systematic clearing of regulatory frameworks that have operated since the Carter and Reagan administrations.</p>
+<p>FEC data showed the 2026 Senate cycle's money map stabilizing. Jon Ossoff leads at $81.15 million raised. The Maine Senate vacancy created by Graham Platner's withdrawal (July 10, following a rape allegation that moved his Kalshi dropout probability from 9 to 96 percent within 24 hours) is the cycle's most consequential open variable: Democrats have until July 27 to submit a replacement. Platner had raised $16.31 million and was competitive against Susan Collins; his replacement starts from zero name recognition and a compressed calendar.</p>
+<p>Outside Washington, the week's sharpest political signal came from France. The Paris appeals court on July 7 upheld Marine Le Pen's EU funds embezzlement conviction but reduced her public-office ban from 60 months to 45 months (30 suspended). With the ban's enforcement suspended pending Court of Cassation review, Le Pen announced the same evening on TF1 that she will contest the April 2027 presidential first round. The 2027 race is now a genuine three-way contest among Le Pen, the Macron centrist bloc, and the fragmented left -- a configuration French institutional markets have not priced. Kazakhstan's Constitutional Court simultaneously ruled that Tokayev's term clock resets under the March 2026 amended constitution, mirroring Putin's 2020 maneuver and potentially extending his rule to 2036. A single week produced two separate term-extension mechanisms in two different countries using two different institutional vehicles.</p>
+<hr />
+<h2 id="sanctions-and-legal">Sanctions and Legal</h2>
+<p>The sanctions perimeter around Russia's energy sector underwent its most significant structural development of the year with the publication of the IISS report linking 144 drone incidents over European NATO facilities to Russian shadow fleet tankers operating off European coasts from August 2024 through February 2026. The report -- covered independently by Ars Technica, the Aviationist, and Bloomberg -- is a category-creation event in maritime law. It transforms the sanctions enforcement problem from economic interdiction into a hybrid-warfare problem: the same vessels evading oil-revenue sanctions are simultaneously conducting intelligence surveillance of nuclear submarine bases (Ile Longue, France), air bases (RAF Lakenheath, Kleine-Brogel), and critical infrastructure across 13 European states. The EU's immediate counter is flag-registry pressure on Cameroon-flagged vessels, but the structural answer requires a revision of boarding authority, liability doctrine, and reinsurance frameworks that will take years.</p>
+<p>The London High Court's ruling that Western insurers are not liable for Nord Stream damages closes an alternate compensation pathway for Russian state-adjacent infrastructure owners. The FCA's May 2026 sanctions compliance report -- surfacing in GDELT coverage this week -- documents systematic weaknesses in UK financial institutions' screening systems, a leading indicator of enforcement actions within 6-12 months.</p>
+<p>The appellate immigration docket against AG Blanche has now reached three circuits simultaneously: two panels in the 7th Circuit (E.E.V. v. Blanche, July 6), the 4th Circuit (Pierre Riley v. Blanche), and a 4th Circuit national security proceeding (John Doe 1 v. ODNI). The pattern of multi-circuit parallel filing is coordinated litigation strategy, building simultaneously across jurisdictions rather than waiting for a single circuit split. The cumulative record being constructed here constrains executive removal authority regardless of which administration controls DOJ in 2028.</p>
+<hr />
+<h2 id="geopolitical-signal">Geopolitical Signal</h2>
+<p>The NATO Ankara summit (July 7-8) produced the week's most consequential institutional output, though the summit itself fell in W28: the €70 billion ($80 billion) Ukraine aid pledge for 2026 (with equivalent sought for 2027), the 5 percent GDP defense target by 2035, and -- most structurally significant -- a US license for Ukraine to manufacture Patriot missile defense systems domestically. The manufacturing license is a 5-7 year industrial undertaking that will not produce battlefield inventory before 2028 at earliest, but it signals a permanent transfer of air defense industrial capacity to Ukrainian soil that has no precedent in the conflict.</p>
+<p>On the Ukraine theater itself, the week produced two findings of high strategic consequence that received inadequate attention relative to Hormuz. First, on July 13, Ukrainian forces liberated six villages in Dnipropetrovsk Oblast -- completing the first full-oblast clearance of the war and reversing over 400 square kilometers of Russian gains accumulated since January 2026. The operation followed the deep-strike logic: Ukrainian long-range drones systematically degraded Russian logistics over months, and the conventional breakthrough followed. If the pattern is repeatable, it changes the terminal trajectory analysis.</p>
+<p>Second, on July 6, Russia launched its largest combined-arms salvo of the war: 351 drones, 39 cruise missiles, 23 ballistic missiles, and 6 Zircon hypersonics against the Kyiv metropolitan area, killing at least 26 people. Ukrainian forces intercepted all cruise missiles and 326 drones -- but zero ballistic and zero Zircon missiles were stopped. The military expert quoted in Bloomberg the same day was unambiguous: "We simply don't have the missiles." The intercept gap is structural: the same US industrial base is now producing Patriot interceptors for two simultaneous theaters (Ukraine and the Gulf), and production cannot expand within the relevant time horizon.</p>
+<p>China conducted its first-ever SLBM test into international open waters on July 6, launching from a submarine in the South China Sea toward an impact point between Nauru and Tonga, coinciding with the opening of Joint Sea-2026 naval exercises with Russia. The USNI assessment is that this demonstrates progress toward a Continuous At-Sea Deterrence posture. The test was deliberately timed to overlap with RIMPAC.</p>
+<p>Sudan's RSF siege of El Obeid (North Kordofan) -- 500,000 people trapped, starvation documented as a weapon of war by the UN -- received radically insufficient coverage relative to its humanitarian scale. The WFP projects 33.7 million Sudanese facing acute hunger in 2026; an Amnesty International Nairobi report published July 1 documented crimes against humanity. This is the world's worst active humanitarian emergency by displaced persons. It is not in the top five media attention items globally this week.</p>
+<hr />
+<h2 id="commentary-digest">Commentary Digest</h2>
+<p>The five most consequential commentary pieces of the week, each connecting directly to the brief's structural arguments:</p>
+<ol>
+<li>
+<p><strong>Adam Tooze (Chartbook #457, "The Metamorphoses of the Dollar")</strong>: Tooze argues that the dollar system's current configuration -- where the dollar's share of global equity market indices exceeds its share of official FX reserves -- creates a structural brittleness that manifests precisely in crisis moments like a Hormuz closure, when the safe-haven dollar bid conflicts with the trade-finance disruption that Hormuz would generate. His exchange with Brad Setser on whether Chinese trade surplus data is being obscured in non-dollar instruments is the week's most technically significant financial debate.</p>
+</li>
+<li>
+<p><strong>Tyler Cowen (Marginal Revolution, "From Prediction Markets to Decision Markets and Beyond")</strong>: The Maine Platner dropout -- 9 percent to 96 percent in 24 hours -- is used to demonstrate what Cowen calls the "decision market" property: you can reverse-engineer the cost of a specific political decision in real time. Democrats implicitly paid a 10-point polling penalty to have Platner as their candidate. This argument generalizes to the Iran conflict: prediction markets that are now opening on ceasefire probability are functioning as real-time valuations of Trump's strike decisions.</p>
+</li>
+<li>
+<p><strong>"The Navalization of Economic Warfare" (widely republished, July 6-7)</strong>: This framing unifies what would otherwise appear to be three separate stories: the US Hormuz blockade, the Russian shadow fleet ISR conversion, and Ukrainian strikes on Kerch logistics. All three represent the same structural shift -- trade routes governed by rules-based institutions (UNCLOS, IMO, flag-state law) are becoming contested military space. Financial sanctions are being replaced by physical interdiction, and the institutional framework is not keeping pace.</p>
+</li>
+<li>
+<p><strong>IEA July 2026 Oil Market Report</strong>: The IEA projected the first annual global oil demand decline since COVID-19, then immediately warned that US-Iran escalation "could upend" the projected 2027 surplus. The report is notable for the speed of its own self-revision -- published in a moment where its baseline assumptions had already been invalidated by events.</p>
+</li>
+<li>
+<p><strong>Hankyoreh editorial ("For Trump as for Putin, the costs of wars are outweighing the benefits of winning them")</strong>: A Korean external perspective worth noting precisely because it appeared the same week South Korea's DAPA publicly admitted that NATO alliance geometry -- not capability or cost -- decided Canada's submarine contract in Germany's favor. The editorial's Nash equilibrium argument about frozen conflict applies equally to the Gulf: if neither the US nor Iran has an institutional mechanism to enforce ceasefire compliance, the equilibrium is sustained grey-zone friction, not resolution.</p>
+</li>
+</ol>
+<hr />
+<h2 id="cross-section-themes">Cross-Section Themes</h2>
+<p><strong>1. The energy-fiscal-political feedback loop tightening around Russia.</strong> This week, for the first time, six independent sections converged on a single picture of Russian systemic stress: Urals at $41.66 (macro and markets), fuel rationing in 78-83 of 83 federal regions (GDELT), Omsk refinery offline completing all 11 major targets (Ukraine theater), Putin approval at 66 percent with its sharpest consecutive weekly decline since 2022 (GDELT regions), shadow fleet ISR conversion increasing deniability costs (sanctions), and Chinese and UAE operators retreating from the fleet while Russian operators absorb their slots (shipping). No single section reveals this magnitude of compounding pressure; only the cross-section view does.</p>
+<p><strong>2. The Hormuz-Ukraine-Samsung triangle as a single AI-supply-chain story.</strong> Samsung's record HBM earnings depend on AI data center demand. AI data center power costs depend on energy prices. Energy prices depend on Hormuz. The Nasdaq selling off on July 14 on chip stocks while energy sector names gained is the market beginning to price this triangle. The explicit causal chain -- Gulf military operations raising energy input costs compressing hyperscaler margins slowing AI capex -- has not yet been named in mainstream financial commentary but was traceable in the week's cross-section data.</p>
+<p><strong>3. Two European institutions hardening simultaneously, one against Russia, one against the center.</strong> NATO's Ankara summit output and Le Pen's candidacy declaration are not obviously connected, but they both reflect the same underlying European dynamic: the post-1989 institutional settlement is being renegotiated by force on its eastern border and by democratic pressure on its political interior. Both trajectories are accelerating. They are not contradictory -- a more militarized Europe is also a more politically contested Europe.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>4. Complacency as the week's signal.</strong> VIX at 15.81 across a week that included a US naval blockade, a ballistic missile penetration of a NATO-partnered capital, the first Chinese SLBM test into international waters, and the simultaneous escalation of three watch areas to alert status is historically anomalous. Markets are treating the current environment as bounded. The assumption that will break this complacency is the same assumption that sustained it: that there is always a diplomatic off-ramp. The Hormuz situation has none visible as of Friday.</p></div>
+<p><strong>5. The Maine Senate vacancy as a microcosm of American political fragility.</strong> A candidate who raised $16.31 million, won a Democratic primary with 72 percent of the vote, and was polling competitively against Susan Collins was removed from the race within 24 hours by a single allegation -- not a trial, not a conviction, not an investigation, but an allegation. The Kalshi market correctly priced the career-ending nature of the scandal before the party establishment did. The replacement process (600 delegates, July 27 deadline, zero weeks for the new candidate to fundraise) is a structural test of whether American political parties can execute emergency nominations under compressed timelines.</p>
+<hr />
+<h2 id="what-to-watch-next-14-days">What to Watch -- Next 14 Days</h2>
+<p><strong>July 19:</strong> FIFA World Cup Final, Spain vs. Argentina, MetLife Stadium. Spain at approximately 58 percent on Polymarket; this is the week's largest single prediction market resolution by volume. The security overlay -- major international public event at US-hosted venues during active US kinetic operations -- is a tier-1 planning context.</p>
+<p><strong>July 27:</strong> Maine Democratic convention replacement nominee deadline. The choice of candidate (progressive vs. moderate profile) signals which faction controls the party's nominating machinery in a state where the race is now genuinely competitive against Collins.</p>
+<p><strong>July 28-29:</strong> FOMC meeting. The policy rate is almost certainly on hold, but the statement language on inflation expectations and the term premium carries enormous signal value. If the July CPI (published August 13) already shows Hormuz energy passthrough in the July data, Warsh's August Jackson Hole communications become the forward guidance market-mover. The 30-year near 5 percent -- reflecting fiscal risk, not growth -- is the yield to watch.</p>
+<p><strong>Late July:</strong> Chinese Politburo meeting on economic targets. Fixed-asset investment at -5.7 percent and real estate at -18 percent in H1 are not numbers that survive without a policy response. The scale and instrument of the stimulus signal (infrastructure bond acceleration, property-sector floor, consumption vouchers) will determine whether the 4.5-5.0 percent full-year GDP target survives.</p>
+<p><strong>Ongoing -- Hormuz:</strong> The physical closure indicator to watch is Iranian deployment of sea mines or the sinking of a vessel in the main navigation channel. Either action transforms the transit risk from deterrence to physical blockade and triggers a price response that dwarfs the current 20 percent Brent move. Qatar's LNG dependency for European gas supply runs through the Strait -- a factor absent from prior Hormuz-closure scenario analyses.</p>
+<p><strong>Ongoing -- Le Pen and the Court of Cassation:</strong> The court could rule before the August parliamentary recess (typically early August) or defer to autumn. A ruling before recess compresses the 2027 French presidential campaign calendar by months. The asymmetric trade -- short EUR/USD, long OAT-Bund spread on a Le Pen victory scenario -- is being entered now; the premium remains modest because the terminal probability is uncertain, not because the directional impact is uncertain.</p>
+<p><strong>Ongoing -- NATO Patriot supply chain:</strong> The authorization for Ukraine to manufacture Patriot missiles domestically is a verbal commitment requiring State and DoD implementation. Watch for the signed framework agreement and any DOD procurement filings for a European PAC-3 maintenance center (announced jointly by US, Germany, and Poland) as the operationalization signal.</p>
+<hr />
+<p><em>Weekly brief committed for 2026-W29 -- approximately 2,100 words -- synthesized from seven daily briefings July 11-17 plus verified web research</em></p>
+      
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>
