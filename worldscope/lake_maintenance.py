@@ -49,7 +49,8 @@ def _exec(con: sqlite3.Connection, sql: str, params=()) -> int:
 
 
 def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
-             quarantine_keep_days: int = 2, vacuum: bool = True) -> dict:
+             quarantine_keep_days: int = 2, max_mb: float = 85.0,
+             vacuum: bool = True) -> dict:
     db_path = Path(db_path)
     if not db_path.exists():
         print(f"[lake-maint] no lake at {db_path}")
@@ -73,6 +74,24 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
         _exec(con, "DELETE FROM claim_evidence WHERE record_id NOT IN (SELECT id FROM records)")
         con.commit()
         if vacuum:
+            con.execute("VACUUM")
+
+        # Age-based pruning alone let the lake hit GitHub's 100 MB limit on
+        # 2026-07-17 (105 MB in CI, pushes rejected all day). Enforce a hard
+        # ceiling the way maintain_store() does: drop the oldest remaining
+        # day of records (plus orphans) and repeat until under max_mb.
+        while vacuum and db_path.stat().st_size / 1e6 > max_mb:
+            oldest = con.execute(
+                "SELECT date(MIN(ingested_at)) FROM records").fetchone()[0]
+            if oldest is None:
+                print(f"::warning::lake still {db_path.stat().st_size/1e6:.1f}MB "
+                      f"with no records left to prune — non-record tables are the bloat")
+                break
+            nr += _exec(con, "DELETE FROM records WHERE date(ingested_at) = ?", (oldest,))
+            _exec(con, "DELETE FROM record_entities WHERE record_id NOT IN (SELECT id FROM records)")
+            _exec(con, "DELETE FROM record_embeddings WHERE record_id NOT IN (SELECT id FROM records)")
+            _exec(con, "DELETE FROM claim_evidence WHERE record_id NOT IN (SELECT id FROM records)")
+            con.commit()
             con.execute("VACUUM")
     finally:
         con.close()
@@ -154,6 +173,7 @@ def main(argv=None) -> int:
     ap.add_argument("--keep-days", type=int, default=120,
                     help="retain records ingested within this many days")
     ap.add_argument("--quarantine-keep-days", type=int, default=2)
+    ap.add_argument("--lake-max-mb", type=float, default=85.0)
     ap.add_argument("--store", default=str(DEFAULT_STORE))
     ap.add_argument("--store-keep-days", type=int, default=60,
                     help="retain snapshots within this many days of the newest")
@@ -161,7 +181,8 @@ def main(argv=None) -> int:
     ap.add_argument("--no-vacuum", action="store_true")
     args = ap.parse_args(argv)
     res = maintain(Path(args.db), keep_days=args.keep_days,
-                   quarantine_keep_days=args.quarantine_keep_days, vacuum=not args.no_vacuum)
+                   quarantine_keep_days=args.quarantine_keep_days,
+                   max_mb=args.lake_max_mb, vacuum=not args.no_vacuum)
     store_res = maintain_store(Path(args.store), keep_days=args.store_keep_days,
                                max_mb=args.store_max_mb, vacuum=not args.no_vacuum)
     return 0 if (res.get("ok") and store_res.get("ok")) else 1
