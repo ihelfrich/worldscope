@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-17
-record_count: 117
-new_today: 43
+record_count: 119
+new_today: 45
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-43 new of 117 total items today.
+45 new of 119 total items today.
 
 - **NEW**  [[OFAC] Hong Kong-related Designations Updates and Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oeVVfOThEdUF6VTk5a1dMUExXaU1jd24xSkhMOWZ3OEFkZXhfY3NBd2NfaGRER09pUUhROElHbnVXMmlQWDc1djhPTE1hSWdQc0l2SmJ1eDdpT051UEE?oc=5" target="_blank">Hong Kong-related Designations Updates and Removals</a>&nbsp;&nbsp;<font color="
@@ -17,6 +17,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjQ0xnalhtVkxyU0VkZ0xSNlVPSXhuRmJKbl9UdmlucDRsZkl3cmNYbzROS3JnT0Y0NUpRSnNsNHNsZ2prdS10T2NncDBtWF8zVlJWNlZCT2hHRUZrR1E?oc=5" target="_blank">Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequent
 - **NEW**  [[OFAC] Non-Proliferation Designations; Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-15*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1dTA1U3RSRUNmaV9Vb0dVWHVwN2lIR2Joei05ejZDQkpTV3lPSmljTGpXR1RVZEp2MGxibnAtVGhYMEJpTHd1YUxFNkdmSUJobkxkMk5NdUx3a2RtbVE?oc=5" target="_blank">Non-Proliferation Designations; Counter Terrorism Designations</a>&nbsp;&nbsp;<f
+- **NEW**  [[OFAC] 1263 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
+  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzRnJlcHJtMWVfbnFEQm9VUGY0SnhyY2hiR3pMRlFNU0hLX3JjQ25VWnV0T0dEMk1hTDNOUThZSFlPay0tZUVGZFRGSQ?oc=5" target="_blank">1263</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - **NEW**  [[OFAC] Iran-related Designations; Iran-related and Counter Terrorism Designation Update; Issuance of Iran-related General License - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-14*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QNE9QTDdBaldQa3NjUktFcTRTaWJGMHZwYTE5QXBSeGZ1QUxsWWpCb3NpOVJldHBEaVN1S1ppb0FmNmJRcWt6Rkt5V2lScnJ3VjhlaFVnbWFSMU5kUHc?oc=5" target="_blank">Iran-related Designations; Iran-related and Counter Terrorism Designation Update
 - **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 13902 of January 10, 2020 (“Imposing Sanctions With Respect to Additional Sec - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-14*
@@ -33,8 +35,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlOWJyMmxObTQ3WGg4cUpJWUJHZVA5NVlGVDB5VHI2b3hCMjI4NVVwbkFOSFVsMWNweEc3NWtjS0RqSGlURXUtdURIYmRYODFyNC16TzVWeEhZMXpjbTJRWmlzcFI?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Democratic Republic of the Congo Sancti
 - **NEW**  [[OFAC] Issuance of Venezuela-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MX0M3a2cwYU5lMTNMSXdDcGRYYk1JZ2NQdm9jeHRRVW9ocHdpTmsyRDMtTWJzT1dNVjBLMWtHa2EyT3RSalE5YlExVnp2OXVVdDdzYnZfRE0wUVpwd0dSTU5B?oc=5" target="_blank">Issuance of Venezuela-related Frequently Asked Question</a>&nbsp;&nbsp;<fon
-- **NEW**  [[OFAC] 1263 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzRnJlcHJtMWVfbnFEQm9VUGY0SnhyY2hiR3pMRlFNU0hLX3JjQ25VWnV0T0dEMk1hTDNOUThZSFlPay0tZUVGZFRGSQ?oc=5" target="_blank">1263</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - **NEW**  [[BIS Entity List] page checksum 493be4a346ff](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-17*
   > Page content hash: 493be4a346ff. Compare with prior day's hash to detect updates.
 - **NEW**  [[FARA] Trial Attorney, GS-0905-14/15 - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-15*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $1,480,702,409 → HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC: THE AWARD CONTINUES PERFORMANCE OF INTEGRATED TANK DISPOSITI](https://www.usaspending.gov/award/89303925FEM400064) — *2026-07-17*
   > Agency: Department of Energy.  Description: THE AWARD CONTINUES PERFORMANCE OF INTEGRATED TANK DISPOSITION CONTRACT VIA THE IMPLEMENTATION TASK ORDER, TO-02.
 
-_(92 additional items in raw.jsonl)_
+_(94 additional items in raw.jsonl)_

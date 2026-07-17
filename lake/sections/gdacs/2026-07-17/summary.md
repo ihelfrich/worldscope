@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-17
-record_count: 57
-new_today: 28
+record_count: 101
+new_today: 72
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-28 new of 57 total items today.
+72 new of 101 total items today.
 
 - [[Orange] Flood in China](https://www.gdacs.org/report.aspx?eventid=1103933&episodeid=18&eventtype=FL) — *2026-06-06*
   > Flood · Orange alert · China · Magnitude 0
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Green] Earthquake in Volcano Islands, Japan Region](https://www.gdacs.org/report.aspx?eventid=1552150&episodeid=1718503&eventtype=EQ) — *2026-07-16*
   > Earthquake · Green alert · Volcano Islands, Japan Region · Magnitude 5.5M, Depth:12.806km
 
-_(32 additional items in raw.jsonl)_
+_(76 additional items in raw.jsonl)_

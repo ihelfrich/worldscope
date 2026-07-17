@@ -11,7 +11,7 @@ state: fresh
 
 58 new of 58 total items today.
 
-- **NEW**  [[BleepingComputer] Abbott Laboratories probes two cyber incidents amid extortion claims](https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/) — *2026-07-17*
+- **NEW**  [[BleepingComputer] Abbott probes two cyber incidents amid extortion claims](https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/) — *2026-07-17*
   > Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and
 - **NEW**  [[BleepingComputer] HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload](https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/) — *2026-07-17*
   > A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]
@@ -21,6 +21,10 @@ state: fresh
   > Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek "clean" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection.
 - **NEW**  [[BleepingComputer] New Windows LegacyHive zero-day gives hackers admin privileges](https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/) — *2026-07-17*
   > A security researcher using the "Nightmare Eclipse" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]
+- **NEW**  [[The Hacker News] New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html) — *2026-07-17*
+  > An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.
+
+Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-
 - **NEW**  [[The Hacker News] OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests](https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html) — *2026-07-17*
   > Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.
 
@@ -37,10 +41,6 @@ A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open 
   > Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.
 
 Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, 
-- **NEW**  [[The Hacker News] Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images](https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html) — *2026-07-17*
-  > North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges.
-
-"Any user who ran the project ended up with a f
 - **NEW**  [[The Record] Dairy company Fairlife suspends production in US after cyber incident](https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident) — *2026-07-17*
   > Fairlife’s U.S. operation includes plants in Michigan, New York and Arizona, and the company's retail sales passed $1 billion in 2022.
 - **NEW**  [[The Record] Zelensky appoints Ukraine's acting security service chief as acting defense minister](https://therecord.media/ukraine-acting-defense-minister-yevhenii-khmara) — *2026-07-17*

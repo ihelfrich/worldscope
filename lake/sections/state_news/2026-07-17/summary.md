@@ -2,27 +2,21 @@
 section: state_news
 title: State-Level News
 date: 2026-07-17
-record_count: 933
-new_today: 920
+record_count: 974
+new_today: 961
 state: fresh
 ---
 
 ## State-Level News
 
-920 new of 933 total items today.
+961 new of 974 total items today.
 
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-07-17*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Alabama] Governor Ivey Deploys Swiftwater Rescue Teams to Texas to Assist Amid Severe Flooding](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-deploys-swiftwater-rescue-teams-to-texas-to-assist-amid-severe-flooding/) — *2026-07-17*
   > MONTGOMERY – Governor Kay Ivey on Friday announced she has deployed four Type III Swiftwater search-and-rescue teams to assist Texas with ongoing life-threatening flooding. “Alabamians always stand ready to lend a helping hand to our neighbors in need. I pray &#8230; <a href="htt
 - **NEW**  [[Alabama] Governor Ivey Continues Rebuilding Alabama with $3.6 Million in Road Grants](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-continues-rebuilding-alabama-with-3-6-million-in-road-grants/) — *2026-07-16*
   > MONTGOMERY – Governor Kay Ivey on Thursday announced more than $3.6 million in state funding is being awarded to cities and counties for 11 road projects across Alabama, highlighting her ongoing commitment to enhancing the state’s infrastructure. The grants are &#8230; <a href="h
 - **NEW**  [[Alabama] Governor Ivey Taps Glenda Allred as New Tourism Director, Announces Lee Sentell’s Retirement](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-taps-glenda-allred-as-new-tourism-director-announces-lee-sentells-retirement/) — *2026-07-15*
   > MONTGOMERY – Governor Kay Ivey on Wednesday announced the retirement of Lee Sentell, Alabama’s longest-serving Tourism Director. Governor Bob Riley originally appointed Sentell in 2003. “Since Lee began serving at the Department of Tourism, we have grown the state’s tourism &#823
-- **NEW**  [[Alaska] Alaska Launches America 250 Commemorative Merchandise Collection](https://gov.alaska.gov/alaska-launches-america-250-commemorative-merchandise-collection/) — *2026-07-16*
-  > As the United States celebrates 250 years of independence, Governor Mike Dunleavy invites you to celebrate the milestone in true Alaska fashion. The State of Alaska has partnered to launch a limited-edition collection of America 250 commemorative merchandise, honoring both the na
-- **NEW**  [[Alaska] Rural Transit Day 2026](https://gov.alaska.gov/rural-transit-day-2026/) — *2026-07-16*
-  > WHEREAS, Rural Transit Day has been celebrated since July 16, 2020, highlighting the ways in which agencies recognize and support the specialized needs of rural passengers and staff; and WHEREAS, as the reliance on rural transit has increased, so has the need to maintain the elem
 - **NEW**  [[California] Governor Newsom announces California nearly triples internet infrastructure ready to connect homes and businesses](https://www.gov.ca.gov/2026/07/17/governor-newsom-announces-california-nearly-triples-internet-infrastructure-ready-to-connect-homes-and-businesses/) — *2026-07-17*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Middle-Mile-Broadband-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/07/17/governor-newsom-announces-cal
@@ -47,23 +41,29 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-announces-deployment-of-California-firefighters-to-support-wildfire-efforts-in-Oregon-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decodin
 - **NEW**  [[California] California leads the nation in cracking down on deadly Kratom goods — the feds are now following our lead](https://www.gov.ca.gov/2026/07/15/california-leads-the-nation-in-cracking-down-on-deadly-kratom-goods-the-feds-are-now-following-our-lead/) — *2026-07-15*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-leads-the-nation-in-cracking-down-on-deadly-Kratom-goods-—-the-feds-are-now-following-our-lead-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" dec
-- **NEW**  [[Connecticut] Himes calls Trump’s election speech ‘easily disprovable lies’](https://ctmirror.org/2026/07/17/jim-himes-donald-trump-election-fraud-lies/) — *2026-07-17*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/AP26064822539344-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uplo
-- **NEW**  [[Connecticut] CT early childhood educators eligible for new health insurance subsidy in 2027](https://ctmirror.org/2026/07/17/early-childhood-educators-health-insurance-subsidy/) — *2026-07-17*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/CTPublic-early-childhood-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/07/
-- **NEW**  [[Connecticut] Wildfire smoke threatens the World Cup final. FIFA doesn’t have a plan.](https://ctmirror.org/2026/07/17/wildfire-smoke-fifa-world-cup/) — *2026-07-17*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/07/AP26197610610978.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/AP2
-- **NEW**  [[Connecticut] CT redoubles efforts to equip workforce for AI economy](https://ctmirror.org/2026/07/17/artificial-intelligence-raise-us-workforce-ct/) — *2026-07-17*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/AIBillSigning_Lamont-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- **NEW**  [[Connecticut] Fewer refugees are entering CT this year, and all are from S. Africa](https://ctmirror.org/2026/07/17/fewer-refugees-are-entering-ct-this-year-and-all-are-from-s-africa/) — *2026-07-17*
-  > <figure><img width="1024" height="652" src="https://ctmirror.org/wp-content/uploads/2026/07/W0dLw-refugees-entering-the-u.s.-each-fiscal-year--1024x652.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://
-- **NEW**  [[Connecticut] DCF data reveals new details about child deaths](https://ctmirror.org/2026/07/17/dcf-data-reveals-new-details-about-child-deaths/) — *2026-07-17*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/03/KIDS-CONFIRMATION-HEARING-0317-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-con
-- **NEW**  [[Connecticut] The Supreme Court didn’t ban trans athletes. It handed CT a choice](https://ctmirror.org/2026/07/17/the-supreme-court-didnt-ban-trans-athletes-it-handed-connecticut-a-choice/) — *2026-07-17*
-  > <figure><img width="1024" height="576" src="https://ctmirror.org/wp-content/uploads/2026/07/Untitled-design-1024x576.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/202
-- **NEW**  [[Connecticut] Immigration fear is reshaping patient trust inside CT hospitals](https://ctmirror.org/2026/07/17/immigration-fear-is-reshaping-patient-trust-inside-connecticut-hospitalsl/) — *2026-07-17*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/07/woman-in-hospital-bed-pixabay.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- **NEW**  [[Connecticut] A killing, a pardon and a defamation suit — not a typical campaign.](https://ctmirror.org/2026/07/16/jonathan-de-barros-republican-defamation-lawsuit/) — *2026-07-16*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/IMG_0833-2-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07
+- **NEW**  [[California] Juez exige que los inmigrantes de Adelanto reciban agua potable y atención médica](https://calmatters.org/calmatters-en-espanol/2026/07/juez-exige-que-inmigrantes-de-adelanto-reciban-agua-potable/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/111513_Adelanto_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view from behind of a detention center guar
+- **NEW**  [[California] California restringe los cortes de servicios públicos mientras una peligrosa ola de calor se extiende por todo el estado](https://calmatters.org/calmatters-en-espanol/2026/07/california-restringe-cortes-de-servicios-publicos-ola-de-calor/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/090622_PowerLines_LV__009-CM-1.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The sun sets behind a row of transmission 
+- **NEW**  [[California] Una nueva ley responsabiliza a las universidades si sus graduados no ganan más de 36,000 dólares al año](https://calmatters.org/calmatters-en-espanol/2026/07/sueldo-graduados-california/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/060911_Cosmetology-School_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A side view of unidentifiable adult
+- **NEW**  [[California] New heat rules limit when utilities can cut off your power](https://calmatters.org/newsletter/extreme-heat-power-shutoffs/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/10/092324_Sunset-LA_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The sun sets behind rows of high tension power 
+- **NEW**  [[California] To lower building costs, California wrongly takes aim at EV chargers for new apartments](https://calmatters.org/commentary/2026/07/housing-costs-electric-vehicle-chargers/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/080222_EVFresnoFile_LV__009-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Electric vehicle chargers in a row on the 
+- **NEW**  [[California] California restricts utility shutoffs as dangerous heat ripples across state](https://calmatters.org/environment/2026/07/california-utility-heat-shutoff-rules-cpuc/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/090622_PowerLines_LV__009-CM-1.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The sun sets behind a row of transmission 
+- **NEW**  [[California] Judge demands immigrants at Adelanto get clean water and medical care](https://calmatters.org/justice/2026/07/judge-adelanto-conditions-injunction/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/111513_Adelanto_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view from behind of a detention center guar
+- **NEW**  [[California] These California Republicans have one advantage in the race for Congress: Money](https://calmatters.org/politics/2026/07/california-congressional-races-republican-fundraising/) — *2026-07-16*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071526-Villegas-Valadao-split-CM-.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A side-by-side split image showing a pe
+- **NEW**  [[California] As kids grapple with a mid-summer heat wave, new state laws try to help](https://calmatters.org/environment/climate-change/2026/07/california-school-heat-illness-laws/) — *2026-07-16*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/05/042924_Living-Schoolyard_LA_CM_31.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
+- **NEW**  [[California] Survey: Californians overwhelmingly opposed to new data centers](https://calmatters.org/newsletter/data-center-ppic-survey/) — *2026-07-16*
+  > <figure><img width="1024" height="713" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/01/010526-Data-Center-GETTY-01-CM.jpg?fit=1024%2C713&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows a large data center c
+- **NEW**  [[Delaware] Family of Kadir Skinner to sue Wilmington over police killing](https://spotlightdelaware.org/2026/07/17/family-of-kadir-skinner-to-sue-wilmington-over-police-killing-of-the-teen/) — *2026-07-17*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/DSC_0073-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="ht
+- **NEW**  [[Delaware] Could a small Sussex town be the first to disincorporate in a century?](https://spotlightdelaware.org/2026/07/17/could-a-small-sussex-town-be-the-first-to-disincorporate-in-a-century/) — *2026-07-17*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Greenwood-sign-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
 
-_(908 additional items in raw.jsonl)_
+_(949 additional items in raw.jsonl)_

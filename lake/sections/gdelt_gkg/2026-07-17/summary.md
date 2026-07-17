@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-17
-record_count: 25
-new_today: 25
+record_count: 50
+new_today: 50
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+50 new of 50 total items today.
 
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Costa Concordia captain claimed he  fell into  lifeboat as he left ship](https://thetab.com/2026/07/17/costa-concordia-captain-bizarrely-claimed-he-tripped-and-fell-into-lifeboat-as-he-abandoned-ship) — *2026-07-17*
-  > thetab.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Deadly Lambton College shooting : Murder suspect back in court](https://www.chathamdailynews.ca:443/news/local-news/deadly-lambton-college-shooting-murder-suspect-back-in-court-from-jail) — *2026-07-17*
-  > chathamdailynews.ca · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] US and Iran escalate strikes across Mideast ; bridges and a water plant hit](https://santamariatimes.com/ap/business/us-and-iran-escalate-strikes-across-mideast-bridges-and-a-water-plant-hit/article_b0fb4bdc-ab84-4fa7-96c7-4422d4c665ce.html) — *2026-07-17*
-  > santamariatimes.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Po pádu plastiky Rovnováha u Barrandovského mostu vznikne věrná replika](https://www.metro.cz/praha/cerv-dobyvatel-se-vrati-praha-chce-zhroucene-plastice-postavit-vernou-repliku.A260717_201452_metro-praha_hyr) — *2026-07-17*
-  > metro.cz · Czech · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Hormuz to Panama : The 2026 Energy Shock Remaking Latin America](https://www.riotimesonline.com/from-hormuz-to-the-panama-canal-how-the-2026-energy-shock-2026-07-17/) — *2026-07-17*
-  > riotimesonline.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Reuters : Δεξαμενόπλοιο του ρωσικού « σκιώδους στόλου » προκάλεσε πετρελαιοκηλίδα στο Ομάν](https://www.skai.gr/news/world/reuters-deksamenoploio-tou-rosikou-skiodous-stolou-prokalese-petrelaiokilida-sto-oman) — *2026-07-17*
-  > skai.gr · Greek · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Venezia scontri tra polizia e manifestanti al corteo contro lo yacht Boardwalk](https://www.zazoom.it/2026-07-17/venezia-scontri-tra-polizia-e-manifestanti-al-corteo-contro-lo-yacht-boardwalk/19473151/) — *2026-07-17*
-  > zazoom.it · Italian · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Ράλι 16 % το πετρέλαιο στην εβδομάδα](https://www.capital.gr/agores/4005414/rali-16-to-petrelaio-stin-ebdomada/) — *2026-07-17*
-  > capital.gr · Greek · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Труд : Либертарианцы вне закона : Минюст обновил список иноагентов](https://www.trud.ru/article/17-07-2026/1822781_libertariantsy_vne_zakona_minjust_obnovil_spisok_inoagentov.html) — *2026-07-17*
-  > trud.ru · Russian · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Russia says foreign troops sent to Ukraine will be legitimate targets](http://www.argentinastar.com/news/279189432/russia-will-target-foreign-troops-sent-to-ukraine-after-peace-deal) — *2026-07-17*
-  > argentinastar.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Magnitude 7 . 3 quake hits Mexican coast near Guatemala](https://www.thecourier.com.au/story/9312929/magnitude-73-quake-hits-mexican-coast-near-guatemala/) — *2026-07-17*
-  > thecourier.com.au · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] The Latest : DHS Secretary Mullin says hell chase voter fraud after Trump revives election claims | National](https://santamariatimes.com/ap/national/the-latest-dhs-secretary-mullin-says-he-ll-chase-voter-fraud-after-trump-revives-election/article_de7d8d5b-ac08-57f6-899c-1933cf6c4cef.html) — *2026-07-17*
-  > santamariatimes.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Powerful 7 . 3 - magnitude earthquake hits off Mexico southern coast](https://www.wjcl.com/article/mexico-earthquake-southern-coast/73171180) — *2026-07-17*
-  > wjcl.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Voices for Healthcare : Heat waves and health over 60](http://www.gulfcoastmedia.com/stories/voices-for-healthcare-heat-waves-and-health-over-60,338633) — *2026-07-17*
-  > gulfcoastmedia.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Pirații somalezi îl sfidează pe Trump și intervin în războiul SUA - Iran . Au capturat un vas comercial în zona unde Teheranul a cerut o blocadă](https://ziare.com/piratii-somalezi/sfidare-trump-interventie-razboi-sua-iran-2024895) — *2026-07-17*
-  > ziare.com · Romanian · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Oración del Santo Niño de Atocha para abrir caminos difíciles y prosperar](https://www.excelsior.com.mx/cultura/oracion-santo-nino-atocha-para-abrir-caminos-dificiles-y-prosperar) — *2026-07-17*
-  > excelsior.com.mx · Spanish · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Atienden afectaciones viales por lluvias en diversos municipios del estado](https://www.eldiariodechihuahua.mx/local/2026/jul/17/atienden-afectaciones-viales-por-lluvias-en-diversos-municipios-del-estado-818700.html) — *2026-07-17*
-  > eldiariodechihuahua.mx · Spanish · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] إنذار جديد لأمن الملاحة .. قراصنة يستولون على ناقلة نفط قبالة السواحل اليمنية](https://arabic.euronews.com/2026/07/17/new-warning-for-maritime-security-pirates-seize-oil-tanker-off-the-yemeni-coast) — *2026-07-17*
-  > arabic.euronews.com · Arabic · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Νέο κύμα αμερικανικών επιθέσεων κατά του Ιράν για έβδομη διαδοχική νύχτα](https://www.capital.gr/diethni/4005418/neo-kuma-amerikanikon-epitheseon-kata-tou-iran-gia-ebdomi-diadoxiki-nuxta/) — *2026-07-17*
-  > capital.gr · Greek · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] 台中高精密代工 》 OEM精密金屬加工服務推薦晶禹金屬加工 ， 打造穩定供應鏈 - a46j8s979653 的部落格](https://blog.udn.com:443/a46j8s979653/191412405) — *2026-07-17*
-  > blog.udn.com · Chinese · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] 當希望化為泡影 ， 揭開Freedom背後嘅故事 - 金盾日誌](https://blog.udn.com:443/0a639cbf/191412406) — *2026-07-17*
-  > blog.udn.com · Chinese · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Tornado World Championship 2026 in Quiberon](https://www.yachtsandyachting.com/news/298107/2026-Tornado-World-Championship-day-3) — *2026-07-17*
-  > yachtsandyachting.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes]   We were ready to go : Kerr County leaders credit early warnings , staged crews after deadly flooding](https://www.click2houston.com/news/local/2026/07/17/kerr-county-officials-to-hold-briefing-on-flood-response/) — *2026-07-17*
-  > click2houston.com · English · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Camionero murió tras caer al vacío desde el puente Zárate - Brazo Largo y el vehículo se incendió](https://www.andigital.com.ar/nota/142195/camionero-murio-tras-caer-al-vacio-desde-el-puente-zarate-brazo-largo-y-el-vehiculo-se-incendio/) — *2026-07-17*
-  > andigital.com.ar · Spanish · tone NA
-- **NEW**  [[Taiwan Strait + South China Sea · themes] Снимак са друштвених мрежа одвео полицију до бахатог возача - супротним смером кренуо на Газелу](https://www.rts.rs/vesti/hronika/5999714/voznja-suprotnim-smerom-bahati-vozac-snimak-drustvene-mreze.html) — *2026-07-17*
-  > rts.rs · Serbian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Shadow Fleet : The Vessels Behind the World Biggest Superyachts](https://www.superyachts.com/news/story/shadow-fleet-the-vessels-behind-the-worlds-biggest-superyachts-18118/) — *2026-07-17*
+  > superyachts.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] UK Denies Bail to Chinese Captain of Detained Shadow Fleet Tanker](https://maritime-executive.com/article/uk-denies-bail-to-chinese-captain-of-detained-shadow-fleet-tanker) — *2026-07-17*
+  > maritime-executive.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian troops surviving an average of  20 and 30 minute on Ukraine front line due to AI  killing machine , CIA says](https://www.lbc.co.uk/article/russian-troops-surviving-ukraine-front-line-5Hjddm2_2/) — *2026-07-17*
+  > lbc.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ireland to prioritise maritime security during EU presidency](http://www.irishsun.com/news/279194259/ireland-to-prioritise-maritime-security-during-eu-presidency) — *2026-07-17*
+  > irishsun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Sanctioned tanker is leaking oil near Oman , according to satellite images and experts](https://www.al-monitor.com/originals/2026/07/sanctioned-tanker-leaking-oil-near-oman-according-satellite-images-and-experts) — *2026-07-17*
+  > al-monitor.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] UK court denies bail to Indian captain of sanctioned Russian oil vessel](https://timesofindia.indiatimes.com/world/uk/uk-court-denies-bail-to-indian-captain-of-sanctioned-russian-oil-vessel/articleshow/132468884.cms) — *2026-07-17*
+  > timesofindia.indiatimes.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Senate advances sweeping Russia sanctions bill targeting top oil buyers , provoking China – NaturalNews . com](https://www.naturalnews.com/2026-07-17-senate-advances-sanctions-bill-targeting-top-oil-buyers.html) — *2026-07-17*
+  > naturalnews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Latvian PM to Bulgaria and Greece :  Do You Want Money or Peace ? Over Russia Sanctions - Novinite . com](https://www.novinite.com/articles/239688/Latvian+PM+to+Bulgaria+and+Greece:+) — *2026-07-17*
+  > novinite.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Sanctioned tanker is leaking oil near Oman , according to satellite images and experts](https://www.moneycontrol.com/world/sanctioned-tanker-is-leaking-oil-near-oman-according-to-satellite-images-and-experts-article-13977129.html) — *2026-07-17*
+  > moneycontrol.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian stuff blowing up : Ukraine destroys a Russian strategic bomber](https://www.dailykos.com/stories/2026/7/17/800071020/community/russian-stuff-blowing-up/) — *2026-07-17*
+  > dailykos.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Strait of Hormuz grinds to a halt : Ship traffic falls to three week low amid missile strikes](https://www.businesstoday.in/world/story/strait-of-hormuz-grinds-to-a-halt-ship-traffic-falls-to-three-week-low-amid-missile-strikes-543724-2026-07-17) — *2026-07-17*
+  > businesstoday.in · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine new French and Swedish jets will pose threat to Russia top warplanes ( Ukraine Battlefield update : Day 1 , 605 ) – EUobserver](https://euobserver.com/229098/ukraines-new-french-and-swedish-jets-will-pose-threat-to-russias-top-warplanes-ukraine-battlefield-update-day-1605/) — *2026-07-17*
+  > euobserver.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Latest Articles](https://freerepublic.com/tag/*/index?more=4388297) — *2026-07-17*
+  > freerepublic.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords]   Shameles : Greece and LNG emerge as major roadblock in new Russia sanctions](https://www.euronews.com/my-europe/2026/07/17/shameless-greece-and-lng-emerge-as-major-roadblock-in-new-russia-sanctions) — *2026-07-17*
+  > euronews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine  cuts off  Crimea from Russia , plunging it into an energy crisis | Russia - Ukraine war News](https://www.aljazeera.com/news/2026/7/17/ukraine-cuts-off-crimea-from-russia-plunging-it-into-an-energy-crisis) — *2026-07-17*
+  > aljazeera.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Putin Approval Rating Sees Biggest Weekly Drop Since 2022 Amid Fuel Crisis](https://www.kyivpost.com/post/80486) — *2026-07-17*
+  > kyivpost.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Blumenthal Publishes Graham  Sledgehammer  Bill Targeting Russia Energy Projects](https://english.pravda.ru/news/world/167411-us-russia-sanctions-update/) — *2026-07-17*
+  > english.pravda.ru · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Shaheen Joins Blumenthal and Darline Graham in Introducing Legislation with 60+ Cosponsors to Hold Purchasers of Russian Oil Accountable](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260716-sfrc01.htm) — *2026-07-17*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] US Senate unveils revised Russia sanctions bill to cement Lindsey Graham legacy , targets top buyers of Russian energy](http://www.newyorktelegraph.com/news/279192938/us-senate-unveils-revised-russia-sanctions-bill-to-cement-lindsey-graham-legacy-targets-top-buyers-of-russian-energy) — *2026-07-17*
+  > newyorktelegraph.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine steps up attacks on Russia Black Sea fuel network – POLITICO](https://www.politico.eu/article/ukraine-steps-up-attacks-on-russias-black-sea-fuel-network/) — *2026-07-17*
+  > politico.eu · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Delays 21st Sanctions Package Against Russia as Member States Fail to Reach Consensus - Novinite . com](https://www.novinite.com/view_news.php?id=239644) — *2026-07-17*
+  > novinite.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] US Senate unveils revised Russia sanctions bill to cement Lindsey Graham legacy , targets top buyers of Russian energy](http://www.israelherald.com/news/279192938/us-senate-unveils-revised-russia-sanctions-bill-to-cement-lindsey-graham-legacy-targets-top-buyers-of-russian-energy) — *2026-07-17*
+  > israelherald.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] US Senate unveils revised Russia sanctions bill to cement Lindsey Graham legacy , targets top buyers of Russian energy](http://www.chinanationalnews.com/news/279192938/us-senate-unveils-revised-russia-sanctions-bill-to-cement-lindsey-graham-legacy-targets-top-buyers-of-russian-energy) — *2026-07-17*
+  > chinanationalnews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] NATO Baltic plans are an  act of war , Russian officials warn](https://www.bankingnews.gr/diethni/articles/888739/nato-s-baltic-plans-are-an-act-of-war-russian-officials-warn%20title=) — *2026-07-17*
+  > bankingnews.gr · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] US Senate unveils revised Russia sanctions bill to cement Lindsey Graham legacy , targets top buyers of Russian energy](http://www.newzealandstar.com/news/279192938/us-senate-unveils-revised-russia-sanctions-bill-to-cement-lindsey-graham-legacy-targets-top-buyers-of-russian-energy) — *2026-07-17*
+  > newzealandstar.com · English · tone NA
+
+_(25 additional items in raw.jsonl)_

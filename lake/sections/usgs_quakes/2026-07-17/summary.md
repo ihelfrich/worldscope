@@ -25,8 +25,6 @@ state: fresh
   > M5.2 · 11 km SE of Kiupo, Philippines · depth 79.819 km
 - **NEW**  [M 5.2 - 42 km NE of Shwebo, Burma (Myanmar)](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t173) — *2026-07-17*
   > M5.2 · 42 km NE of Shwebo, Burma (Myanmar) · depth 10 km
-- **NEW**  [M 5.2 - 48 km E of Nishinoomote, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15t) — *2026-07-16*
-  > M5.2 · 48 km E of Nishinoomote, Japan · depth 35 km
 - **NEW**  [M 5.1 - 72 km SW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1f0) — *2026-07-17*
   > M5.1 · 72 km SW of Puerto Madero, Mexico · depth 10 km
 - **NEW**  [M 5.1 - 78 km WSW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ey) — *2026-07-17*
@@ -39,14 +37,14 @@ state: fresh
   > M5.1 · 101 km WSW of Puerto Madero, Mexico · depth 10 km
 - **NEW**  [M 5.1 - 16 km NW of Kirakira, Solomon Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b3) — *2026-07-17*
   > M5.1 · 16 km NW of Kirakira, Solomon Islands · depth 66.187 km
+- **NEW**  [M 5.0 - 79 km SW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1hd) — *2026-07-17*
+  > M5.0 · 79 km SW of Puerto Madero, Mexico · depth 35 km
 - **NEW**  [M 5.0 - 59 km SSW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1f6) — *2026-07-17*
   > M5.0 · 59 km SSW of Puerto Madero, Mexico · depth 35.128 km
 - **NEW**  [M 5.0 - 66 km SW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1du) — *2026-07-17*
   > M5.0 · 66 km SW of Puerto Madero, Mexico · depth 53.729 km
 - **NEW**  [M 5.0 - south of the Kermadec Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b0) — *2026-07-17*
   > M5.0 · south of the Kermadec Islands · depth 10 km
-- **NEW**  [M 5.0 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15z) — *2026-07-16*
-  > M5.0 · southern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 4.9 - 46 km SW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1dz) — *2026-07-17*
   > M4.9 · 46 km SW of Puerto Madero, Mexico · depth 73.875 km
 - **NEW**  [M 4.8 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t17h) — *2026-07-17*
@@ -59,7 +57,9 @@ state: fresh
   > M4.7 · 60 km WSW of Aquiles Serdán, Mexico · depth 35 km
 - **NEW**  [M 4.7 - 283 km NE of Lospalos, Timor Leste](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t18g) — *2026-07-17*
   > M4.7 · 283 km NE of Lospalos, Timor Leste · depth 309.906 km
-- **NEW**  [M 4.7 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t15s) — *2026-07-16*
-  > M4.7 · southern Mid-Atlantic Ridge · depth 10 km
+- **NEW**  [M 4.6 - 206 km N of Hadibu, Yemen](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19p) — *2026-07-17*
+  > M4.6 · 206 km N of Hadibu, Yemen · depth 10 km
+- **NEW**  [M 4.6 - 72 km N of Claveria, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19a) — *2026-07-17*
+  > M4.6 · 72 km N of Claveria, Philippines · depth 37.589 km
 
 _(3 additional items in raw.jsonl)_
