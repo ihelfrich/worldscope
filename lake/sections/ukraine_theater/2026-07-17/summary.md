@@ -2,64 +2,64 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-17
-record_count: 239
-new_today: 148
+record_count: 376
+new_today: 285
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-148 new of 239 total items today.
+285 new of 376 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 523 polygons](https://deepstatemap.live/) — *2026-07-17*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-07-17*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[Liveuamap] Ukrainian FPV drone shot down Russian Mi-28 helicopter over Belgorod region - Liveuamap](https://liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNMWx4a1VxczlqY09oMEJPOFg0T1VBTHFpWXUwcU1PMV80RWU3em5Fc3hkNW9EWWdDRmY2T1U5OUUyZ3Q2VTVTQlVFVEtBTndScElURjhnZzBYZ2RKWVJPV00wd2VGT3lnWklqRFdVaEtoSkNsRkU4enFXSVVwRE9DMlYybHhVY0hZLXZGeGllOHBYWmZzRzdjajRB?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
-- **NEW**  [[Liveuamap] Iranian state media outlet IRNA is claiming that the Islamic Revolutionary Guard Corps (IRGC) carried out a surprise attack on a U.S. Special Operations compound in the al-Tanf area of Syria, alleging that several helicopters and a radar sy](https://iran.liveuamap.com) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPYjktcF9IdkRyU3h6bjdOUE5iSU4xSUQzTFpiUXNhUFRjTjRoUTZxUFNhdWpucS1lTjdZaUdkNVRuQUFRMjJYZ1B4OUZpSGwybFRmcGc3OEcweDNQV091eDdGY0VFMmliODFsWlZvQ1hQNzg1bVBTNVZkVWN6RVEtQzRiYWpiRHRiLVliR0l3eV85QmlobjVpNUtB?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] Drones raid in Moscow region and local authorities report shooting them down - Liveuamap](https://liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2dvVjlPbzhQVzhMaXJKZ2luNHZ2TFN2N2J5aTRJSkxBRmQzZTQyZFBaNjludVQ5aDRiaEh0QmNCZ1J1Uk1Qa1h6QlBvNEhxWnplY2d5UFpNNGJEZy1GbE10Vll4NzNZd0t4MDRIVEg5dG0wS2ltTmFoQnNhSUJ3UzNvX3FZMVZkejljYjQ3VFNQcjQ2RUE?oc=5" target="_blank">Dron
-- **NEW**  [[Liveuamap] The bodies of 501 of the dead, which, according to the Russian side, may belong to Ukrainian servicemen, have been returned to Ukraine, - Coordination HQ - Liveuamap](https://liveuamap.com) — *2026-07-16*
-  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNSFJJQ3RzWlZ4YjlwU3RXdlZCajQycmIxVDlLekU0Tmk0dmRVb21QXzhqUUp5VXVfVUNlOEdCQzhBVlFlR1VUWWxqRTVlZnYxQzE1RjVtWEg4TlkyVWdFMG9iekgtWnlfa1ZEM1pUWHdObmthQ2lVYWkyRmtmeDJDdVRqNDQyZ0FDYlF1QUNQNA?oc=5" target="_blank">The bodies of
-- **NEW**  [[Liveuamap] Dubai government: Reuters reports of explosions in downtown Dubai are false. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-16*
-  > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPUUhSMkN6QXNMMHV1S2h2aGNWRVZ1SXJtbFl0MlZOREFRT2s1NFY5Mi1tTzhoeFppVlJJaERGTEhKZkZpRFpRRFEzbm5qcEo4NzlFTGpwX0lPemVQUXRXWTY1TFg0N3ZLTTB5YlpRY2ZsaXAxS3ZDSDNOeXY2SXRjRXoyX1hVcVRzVU9BVzNkMFhNRVg1X1Nj?oc=5" target="_blank">Dub
-- **NEW**  [[Liveuamap] 1 person killed, 6 wounded as result of FPV drone strike at the market in Kherson - Liveuamap](https://liveuamap.com) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUE5WlZwVXAweDA3UXhHNnpYN09yY05KWXExTnZPSFNfV2FmYUVZbzUtOHVzN3VTbjhYRGFZM01lTGNCblFtMjVhRjFlYTd4SWlQZjd6bHVwRzg0YzBhei1tTUtsdk42bTdTU08waWp6TjJFMDBSV1RBYlZXWVZpLTJsT1B2LUl0WTR1bzNmREpTXzQ?oc=5" target="_blank">1 person
-- **NEW**  [[Liveuamap] The crew of a container ship damaged in an incident 9 nautical miles east of Oman has been rescued by local authorities after abandoning the vessel, the United Kingdom Maritime Trade Operations (UKMTO) said on Sunday. UKMTO said the ship su](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQTHo5MDBocDNVT2Vza0lvWUUzbzNtUGMtWlZDdnA4ZkNoRXNaZ3JJMGM5cFNsSHBVX3JzLWdRSGtyR0FzN2NXYWVycnpSbWw2SklfSWFsS1c5N0hfcFVIZEd1RngyTHUwWHpqTnVaTlpTQ0JkWTdMSlIxRG9mUXJyLWhXcGRhMmtYNjY2Y29FcjVEQzlYUWVDUzRtLU9QUQ?oc=5" target="_
-- **NEW**  [[Liveuamap] Israeli forces stormed the town of Halhul, north of Hebron, a short while ago. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOWmhoWXVlb1lQMDJsd3dnSVJzbFVUZTRCOXNQa2RiRzVRWFoyUkhlS05za1NCWGEyWDE5WlNleWdfQzdJTGk3Wl9ncXZwel82OEVCMzZqNTlWaVdORmlJSXBuVFdmckdDc1N6SWZqcmdON0ZjSXNaTWJ2S051UmZ1bkl2M19UWHMzSC11WE5TUThrNUFJSjlReVp6aHRtSGpLLTFHRGsxMA?oc=
-- **NEW**  [[Liveuamap] Houthis Foreign Ministry: The ceasefire has ended - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2ZqZXVOUjBfVVJlTmZJTGUzbHN2ZjkySkVlUW5vbURWdjZ2Nzd6dHExOWNYODFjWG44UjZDbmwybUsxMmowMWtTbmNYbTh2ZmpjSFZlVHluTi1qZkx6d3Myb2JCRUExcW55bG5hMF9VanJPcm85TEk3ZGFwYUJvMl90RUliRkQ2TzhFcUxja2xxcVNteTQydmtIbw?oc=5" target="_blan
-- **NEW**  [[Liveuamap] Kuwaiti Army: Air defenses are currently intercepting Iranian drone attacks - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVgyZ2FvMjBxclBiaElpOWw5bzE4OWd6cmlxb0ZmWU53QVVsZi01M1p3LTZTQUdmM3N0WVlmaUloenNrMGtIMGVqdkJvUld2ZFRZRGFmMGlOc1Q2aWlZdjlEMGUyQ24yTFNvUGlOSlBCdkFQakd5MUt0LXNXSFdEV0d6dzV4VFE1eDZUNDhvcHdiSllmNm9PTFRvN1JFTGs?oc=5" target="
-- **NEW**  [[Liveuamap] Targeting an oil tanker off the coast of Yemen Red Sea - Interactive map of Yemen war - Yemen news live map - Liveuamap](https://yemen.liveuamap.com) — *2026-07-13*
-  > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPN0t6VW9JZkVNRUJFUktDcXFmaWRBX1hfdXFlSjRtMHZIa19oRjdwR0RKSkdWX2tQVTgwTjMzcE5temJ3ZWxCdnNQWnBCbUp5OUtZNFd3emZLTTZCbmg3UFFhVkFUYUFRS0lBT0tVWklZMkZJMlpkSFZSSHc4Zm5NdDdvX3l6Y1hWVlBCbHJCRS1SWGktcjNnNw?oc=5" target="_blank">T
-- **NEW**  [[Liveuamap] The Iranian Army Ground Forces Public Relations Office stated that the US military launched an attack this morning on one of the Iranian Army Ground Forces bases in Bampur, resulting in the death of seven officers. The statement emphasized ](https://iran.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVlqcFJoNDFOVTVLVHM1QzJiZlktY2VtbVhxWFhCNTlPLUFBX3pmTGZhcThLXzgtZ2lxbmN0RkRZTzBnb2NCaXBBNWsxdjQ4RU91LW1NTDdRaVhMYU5yYWRPbS1leFVVOXVqVUNRSUU1bmx1NDlFWjRBNkdldUJJZmhiaS1QLVRUNUl2Z0tUY2dPcUJpcG82Mw?oc=5" target="_blank">T
-- **NEW**  [[Liveuamap] CENTCOM: At 5 p.m. ET today, U.S. Central Command forces began launching more strikes against Iran to continue degrading their ability to attack civilian mariners and commercial ships freely transiting the Strait of Hormuz. The Commander in](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPVkJTZnEyOTQ2blFkX1l4WG1FLXRNZmRsbFFVZ2RFUElxSFlUeXR4cGZ3cGxLR2NhQ2NoN1NKQno3cVJtT05XaW5jTVBxd2NpdUVXZlg5bThPRzlVQlFvVkNIQUdOV3pobFhzdXdNRHphOW91OTN2ZVFhejZoVzdoWW1QNFI3Nk8yOTJIemtQU0pkUzA4Nmg5aEY4S20?oc=5" target="_bla
-- **NEW**  [[Liveuamap] Israeli drone strike targeted a truck in the southern town of Shoukin. - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-10*
-  > <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNRXNodDZERk5rMm0yWVNvQW02R0dpZW5mVWJENzdobVlCWEJoWnlfaFB5UUxlUTVTQ3UwXzlmQlZLS1BSTmpyQTFjTG11dEV2ZGQtZzZzOEVtNWZtc2cyaTVyVWdBSjNIeTNwSi1Qc2FNdFM3eFVFVThTeU9GUmR4dWp3b1hsYmYxN2dEeDV5aURvRURnMEl5aEVQT0xiaC1OUGl4Vw?oc=5" t
-- **NEW**  [[Liveuamap] Airstrike with glide bomb reported in Kyivskyi district of Kharkiv - Liveuamap](https://liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPUi1yenFtNUlETnVyLWdIRFVVRk1GM2pFWlk4QkJ5cGVGOFRuZ2NxZUQxQ195eVZUUmZEVTRTdDNOUG9ZREo5OG9OcU1CSVEyRmxxb2J5QlFTSnpEWDR2ZldqRHRCcmhFRUhNYTBUYWRqa1AwTHRSSUh1Y2R4ZV9ES19WeW10OEFxeC1HQVJkV0M?oc=5" target="_blank">Airstrike wi
-- **NEW**  [[Liveuamap] A powerful explosion rocks Erbil; air defenses shoot down two drones targeting the airport and the US consulate building. Erbil, Erbil Governorate - Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - i](https://iraq.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzE1bVExd01lZXAtWGhfa24zdmtEaGRKTDJ1Q0p2VFhnc3hXM0hiMkJMU2NhSnlVLVd2T1otZDZ0QzJBSEh6NWliSVRLekZ6LThmT0t6RUNGN3JmS3Rrd2d5OEUwVF9FRWRtLXk1Ung0cDhuQkZnMURqeFo4bjRHVjN4emQ5dVN4cUlRbWJXMTNzT1phYUE?oc=5" target="_blank">A po
-- **NEW**  [[Liveuamap] Fire reported at the port in Kerch overnight - Liveuamap](https://liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxONkVUQm5OQ3dtMWNmd1FiUE1UTFI2RnFlUnlXdDhmS3dQbHRmU3JfNGp4cnU0NHNVUm41OEloNGJMWUR5UmU5Mmh2OTB1YnFJanB2d01xZE9SQ1JvU3NLMXpJdXp6SFlZODc4Vk5HMDlPajJiZmZMMVVmeEw5eWlFTUlvUkdyQndzVllNbll3?oc=5" target="_blank">Fire reported a
-- **NEW**  [[Liveuamap] International Energy Agency: Escalating hostilities between the US and Iran are affecting our oil forecasts. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-15*
-  > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQR3BvcGRhTjc1S05UQzVxSHljZ3hfR1BHS1A4TzlxU3NodHhNQW96V19nZ0ZiT0JSb3NSX2ZWd01UaW5mNkstWjU2MS1SQlR0YUtSczEtczBmejREbUZMZTBoWDBuanV1U3ZZNjlabkxVSE9PNjR6bWNfbXFHa1N1eExfVE9JeW05ZF9yelgyUGhCa0Q4ZzVBeDNLLUM?oc=5" target="_bla
-- [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-14*
-  > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmstQlFLc2hpRlMwV25QSmhjS0FtcGZQTVlOakxpZ1U4Z1hsV09UaFl6OHkyTU9QZ1dZQW9BVnAtUWlHWUl0VFA0NzdqNTZWZGdJaC1QYzJHS3BZSzZGVW1NWDJZYjNKNmx1Snd3TTVJVXlXemdJcXNFNjBuZUpCamdSdw?oc=5" target="_blank">Lebanon news on live map</a>&
-- [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-06-29*
-  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYy16YkxmMTg4N1VsejlUUXh5TnRPSW0waUVqNDlMaldlSkFCMDhwbk9TYzJkczNjZm9vZW84MFgxaDJjd2tzZHkxdWhDaThnLXFHTF8tX1h0am5ldmZUeTk4VGxwSl9jVlE?oc=5" target="_blank">Lebanon news on live map</a>&nbsp;&nbsp;<font color="#6f6f6f">Li
-- **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-07-12*
-  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XdG9KQzV2QlZiZmVRMEM3WmZjTXN2djdUZnZBZGExVU9OYjcwN21FbzM0cm5UaS1ObzZXVDVLQVRsc25MNXFzMFRGV2R0QnRWVE8wT0ZGczAwaVJfSDZMVkpEOVpFenc?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gul
-- [[Liveuamap] Libya live map. Libya civil war news today - Liveuamap](https://libya.liveuamap.com) — *2026-07-11*
-  > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yM0FwSnE1ZDJmNElKdlFaa2MzN2JUb1VSRUIzS0xvT0RSVmNqSmtmRGxpVnlBYUVTbzJiVmJndnFBSEg4MUZYaU9CNHpweFBqNllxbmdVVl9UQlRqb19xOTRUM0J3LXc?oc=5" target="_blank">Libya live map. Libya civil war news today</a>&nbsp;&nbsp;<font colo
+- **NEW**  [[FIRMS] thermal anomaly 46.618, 32.688 (FRP 2.3 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.688,46.618,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 2.3 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.616, 32.727 (FRP 0.85 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.727,46.616,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.85 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.389, 34.814 (FRP 1.17 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.814,46.389,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.17 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.465, 32.140 (FRP 0.73 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.140,46.465,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.73 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.123, 34.828 (FRP 1.78 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.828,46.123,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.78 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.150, 33.330 (FRP 2.41 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.330,46.150,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 2.41 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.149, 33.331 (FRP 3.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.331,46.149,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 3.44 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.136, 32.388 (FRP 0.91 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.388,46.136,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.91 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.533, 29.237 (FRP 0.67 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.237,45.533,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.67 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.378, 30.928 (FRP 0.59 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.928,45.378,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.59 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.373, 30.928 (FRP 0.59 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.928,45.373,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.59 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.359, 30.899 (FRP 1.71 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.899,45.359,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.71 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.358, 30.903 (FRP 1.12 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.903,45.358,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.12 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.129, 33.999 (FRP 0.81 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.999,45.129,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.81 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.294, 25.106 (FRP 0.72 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.106,45.294,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 0.72 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.294, 25.108 (FRP 1.45 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.108,45.294,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.45 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.191, 25.425 (FRP 1.21 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.425,45.191,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.21 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.190, 25.428 (FRP 1.24 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.428,45.190,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.24 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.123, 25.414 (FRP 1.56 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.414,45.123,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2318Z, FRP 1.56 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.809, 32.220 (FRP 0.62 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.220,52.809,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 0.62 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.804, 32.222 (FRP 0.7 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.222,52.804,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 0.7 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.850, 29.988 (FRP 2.41 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.988,52.850,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 2.41 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.368, 33.309 (FRP 0.85 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.309,52.368,9z) — *2026-07-16*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-07-16 2316Z, FRP 0.85 MW
 
-_(214 additional items in raw.jsonl)_
+_(351 additional items in raw.jsonl)_
