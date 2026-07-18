@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-18
-record_count: 50
+record_count: 96
 new_today: 3
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-3 new of 50 total items today.
+3 new of 96 total items today.
 
 - [[Orange] Eruption  Mayon](https://www.gdacs.org/report.aspx?eventid=1000144&episodeid=1&eventtype=VO) — *2026-07-16*
   > Volcano · Orange alert · Philippines
@@ -62,4 +62,4 @@ state: fresh
 - [[Green] Earthquake in South Of Fiji Islands](https://www.gdacs.org/report.aspx?eventid=1552085&episodeid=1718432&eventtype=EQ) — *2026-07-15*
   > Earthquake · Green alert · South Of Fiji Islands · Magnitude 5.8M, Depth:340.334km
 
-_(25 additional items in raw.jsonl)_
+_(71 additional items in raw.jsonl)_

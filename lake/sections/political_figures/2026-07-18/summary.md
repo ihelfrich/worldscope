@@ -35,7 +35,7 @@ state: fresh
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2], [lake:political_figures:0001504430-2], [lake:political_figures:0001504430-2]
 8. **Nancy Mace** (Representative, Republican, SC-1st): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:0001940272-2], [lake:political_figures:0001493152-2]
+   evidence: [lake:political_figures:gkg-20260718], [lake:political_figures:0001940272-2], [lake:political_figures:0001493152-2]
 9. **Clarence Thomas** (Associate Justice, Nonpartisan, United States): composite 0.040
    drivers: new_filings=0.40
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001473289-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001193125-2]
