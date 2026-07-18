@@ -2,17 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-18
-record_count: 230
-new_today: 60
+record_count: 246
+new_today: 145
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-60 new of 230 total items today.
+145 new of 246 total items today.
 
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-18*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - [[St. Louis] Kris Miss Bake Shop opens in Lake Saint Louis](https://www.stlmag.com/dining/kris-miss-bake-shop-opens-in-lake-saint-louis/) — *2026-07-17*
   > <p>Kristen Gassel remembers the moment she shed her first tear over her vegan and allergen-friendly baked goods brand, Kris Miss. A few years ago, a little boy and his mother approached her booth at the Lake Saint Louis Farmers &#38; Artists Market. The mom had a lot of questions
 - [[St. Louis] New Cardinal Glennon center will keep more moms and babies together after high-risk births](https://www.stlmag.com/family/new-cardinal-glennon-center-high-risk-births/) — *2026-07-17*
@@ -33,33 +31,34 @@ state: fresh
   > <p>Has your dog ever considered an acting career? Has your pup ever dreamt of the bright lights and the roar of the crowd? Does your canine thoughtfully pore over the assorted works of Shakespeare, squeezing meaning out of each archaic phrase? If so, they may be in luck. St. Loui
 - [[St. Louis] Photos: St. Louis Magazine’s Happy Hour at 4 Hands at The District](https://www.stlmag.com/event/party-pics/photos-happy-hour-4-hands-the-district-july-2026/) — *2026-07-16*
   > <p>On July 15, readers gathered for a happy hour at 4 Hands at The District. Guests enjoyed a relaxed evening of locally brewed beer and conversation with fellow members of the St. Louis Magazine community. The happy hour offered attendees an opportunity to connect, explore the b
-- **NEW**  [[St. Louis] Woman found dying in St. Louis street](https://www.ksdk.com/article/news/local/st-louis-murder-investigation-woman-body-found-lee-avenue/63-1ced6566-8d75-4714-a44c-5f8b1c280762) — *2026-07-18*
-  > Officers found a woman in the street, unconscious and barely breathing with severe head injuries. She later died at the hospital.
-- **NEW**  [[St. Louis] Why do soccer players walk out with kids?](https://www.ksdk.com/article/sports/soccer/world-cup/why-do-soccer-players-walk-out-with-kids-children-pitch-field/507-7ae50da4-baac-48f6-bfa4-ba58017ccf1d) — *2026-07-18*
-  > The tradition has been featured in every World Cup since 2002.
-- **NEW**  [[St. Louis] Skeletal remains found near West Florissant in St. Louis](https://www.ksdk.com/article/news/local/skeletal-remains-found-near-w-florissant-north-st-louis/63-a920ff6c-e0f7-4860-8f1b-6ee21409a163) — *2026-07-18*
-  > Police said skeletal remains were found on Friday afternoon near West Florissant and Thrush avenues.
-- **NEW**  [[St. Louis] US and Iran exchange strikes as they struggle over Strait of Hormuz](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-strait-hormuz-attack-war-infrastructure-military-target-strikes/507-51e7fd69-d142-4437-a746-7ab667c675f7) — *2026-07-18*
-  > The region has endured days of back-and-forth attacks in a conflict increasingly focused on control of the strait.
-- **NEW**  [[St. Louis] Boil order issued for parts of Potosi due to water main break](https://www.ksdk.com/article/news/local/missouri-boil-advisory-issued-potosi-water-main-break/63-47ccef48-9bc2-4674-9932-99a4183fdd01) — *2026-07-18*
-  > The city issued a 48-hour mandatory boil order for residents in affected areas.
-- **NEW**  [[St. Louis] Who is the referee for World Cup final?](https://www.ksdk.com/article/sports/soccer/world-cup/referee-world-cup-final-argentina-spain-game/507-c37125b0-aedc-4da5-88fd-66647ef60cc3) — *2026-07-18*
-  > It's the second straight World Cup final where Argentina will have a European referee to face a European opponent.
-- **NEW**  [[St. Louis] Mega Millions results for Friday, July 17: Did anyone win the $672 million jackpot?](https://www.ksdk.com/article/news/nation-world/mega-millions-results-numbers-friday-july-17-2026/507-598290a7-e2f3-4c11-8fef-5b2195ebbe48) — *2026-07-18*
-  > The Mega Millions jackpot has been growing since March, when the game saw its last big winner.
-- **NEW**  [[St. Louis] 2 Forest Service employees zip-tied, held hostage for hours in California, officials say](https://www.ksdk.com/article/news/nation-world/forest-service-hostage-situation-california/507-9ab16eb9-bc00-47a7-be7c-3b6aa21753ad) — *2026-07-18*
-  > The U.S. Forest Service employees were taken hostage while doing field work in Northern California and were safely released.
-- **NEW**  [[St. Louis] 'Disturbing': Man left baby in car seat in the middle of busy St. Louis street, charges say](https://www.ksdk.com/article/news/crime/man-left-baby-in-the-middle-of-busy-st-louis-street-charges-say/63-8d1fc9a2-9d82-4155-88ca-290bb5f23fcf) — *2026-07-18*
-  > Police said a man abandoned a baby in a car seat in the middle of Goodfellow Boulevard and told the mother he left the baby at a police station.
-- [[St. Louis] US and Iran escalate strikes across Mideast; bridges and a water plant hit](https://www.ksdk.com/article/news/nation-world/us-strikes-united-states-american-war-iran/507-8467ed5f-98f2-41e0-9c7a-8352fba9bf21) — *2026-07-18*
-  > Speaking in a primetime address to the American public, President Donald Trump insisted the war was going well.
-- **NEW**  [[St. Louis] DeChambeau gets 2-shot penalty in dramatic late-night British Open ruling](https://www.ksdk.com/article/news/nation-world/bryson-dechambeau-2-shot-penalty-british-open/507-5d6e4170-f1a5-4833-bb15-4197ef3d24e7) — *2026-07-18*
-  > Bryson DeChambeau was given a two-shot penalty after his second round at the British Open on Friday that dropped the American star out of the final group.
-- **NEW**  [[St. Louis] Wreckage of sunken vessel found as 2 people remain missing after San Francisco boat tragedy](https://www.ksdk.com/article/news/nation-world/wreckage-sunken-vessel-found-2-people-remain-missing/507-785fd6c1-8a09-4d4a-9f45-c08da6cc2066) — *2026-07-18*
-  > The wreckage was found using boat-mounted sonar, and authorities are now using a remotely operated vehicle to assess the submerged vessel.
-- **NEW**  [[St. Louis] 'Doing my job' | DoorDash driver completes sandwich delivery after being struck by fleeing suspect](https://www.ksdk.com/article/news/nation-world/doordash-driver-hit-car-police-chase-suspect/507-3dd1e444-d4da-4dee-925b-d52206f3a302) — *2026-07-18*
-  > DoorDash driver Miracle Herron said it was pretty miraculous that she escaped serious injury when police say a fleeing suspect struck her.
-- [[St. Louis] Driver accused of hitting firefighter at scene of deadly Riverview crash still on the run](https://www.ksdk.com/article/news/local/st-louis-driver-hit-county-firefighter-investigating-deadly-crash-still-on-the-run/63-ad477c37-88b3-450c-8a82-c33d649a0b73) — *2026-07-17*
-  > A man was killed and two others were injured in the initial crash. The fire chief says a family member later drove through the scene, hitting a firefighter.
+- **NEW**  [[St. Louis] Football vs. fútbol: Nine reasons I'll always take the NFL over World Cup | Opinion](https://www.stltoday.com/sports/professional/fifa/article_5f5aa32e-a4a4-5f0d-bdf0-deb9282f4ce7.html) — *2026-07-18*
+  > The Beautiful Game? Meh. Eye of the beholder, etc., etc.
+- **NEW**  [[St. Louis] England defeats France 6-4 in the Bronze Final of the FIFA World Cup](https://www.stltoday.com/sports/professional/fifa/article_f0a6b7c0-9cb5-597a-8bc3-a003bf690a86.html) — *2026-07-18*
+  > England claimed third place at the World Cup by beating France 6-4 on Saturday, while Les Bleus' captain Kylian Mbappe became the tournament's all-time top scorer with 22 goals.
+- **NEW**  [[St. Louis] SOCCER-WORLDCUP-FRA-ENG/](https://www.stltoday.com/image_3f73a1b2-999d-538f-82e1-af48b5eb9a8f.html) — *2026-07-18*
+  > England's Bukayo Saka, center, celebrates scoring his third goal against France with Jude Bellingham, left, and Reece James during the third place match at the FIFA World Cup on Saturday in Miami Gardens, Fla.
+- **NEW**  [[St. Louis] SOCCER-WORLDCUP-FRA-ENG/](https://www.stltoday.com/image_0efc322a-be5c-5989-91cc-2d1032392b01.html) — *2026-07-18*
+  > England's Bukayo Saka beats France goalkeeper Mike Maignan to score during the third place match of the FIFA World Cup on Saturday in Miami Gardens, Fla.
+- **NEW**  [[St. Louis] SOCCER-WORLDCUP-FRA-ENG/](https://www.stltoday.com/image_f6cc6844-a8d0-576c-bf52-1a5d949d6082.html) — *2026-07-18*
+  > France's Kylian Mbappe battles with England's Marc Guehi during the third place match of the FIFA World Cup on Saturday in Miami Gardens, Fla.
+- **NEW**  [[St. Louis] Nolan Arenado drives D-Backs to victory as they exploit Cardinals Dustin May's rocky 3rd](https://www.stltoday.com/sports/professional/mlb/cardinals/article_791dc562-8381-459c-9c83-5c6f54867b00.html) — *2026-07-18*
+  > Arenado had two hits in his first two at-bats and his two-out, two-run double in the third pushed Arizona toward a five-run lead, they'd hold for a 5-3 victory.
+- **NEW**  [[St. Louis] Summer watermelons for sale](https://www.stltoday.com/news/multimedia/image_428ce995-3230-5a91-9f7a-e92c309ab086.html) — *2026-07-18*
+  > Ariyon Brown, left, 6, and Anthony Brown, 5, sip on slushies from a nearby gas station as they climb on watermelons on their family’s watermelon stand on McCausland Avenue in St. Louis, on Saturday, July 18, 2026.
+- **NEW**  [[St. Louis] Photos: Cardinals drop Game 2 to Diamondbacks in Arizona](https://www.stltoday.com/sports/professional/mlb/cardinals/collection_8b046f5f-1078-46ca-8443-5628e078ae0c.html) — *2026-07-18*
+- **NEW**  [[St. Louis] Why Clemson coach Dabo Swinney's next college football job will be his best job](https://www.stltoday.com/sports/college/football/article_0ebd425d-0689-543e-877c-0736b2b0d3bc.html) — *2026-07-18*
+  > Dabo Swinney has 13 seasons of double-digit wins in 17 full seasons as coach at Clemson. He has won 11 championships in the last 15 years, including two national titles.
+- **NEW**  [[St. Louis] BASEBALL-MLB-HOU-BAL/](https://www.stltoday.com/image_aeceed93-c3ce-501f-9c65-882b2accf4e8.html) — *2026-07-18*
+  > Houston Astros first baseman Christian Walker walks to the dugout after sustaining the injury during the fourth inning of Saturday's game against the Baltimore Orioles at Daikin Park in Houston.
+- **NEW**  [[St. Louis] US military launches new airstrikes to punish Iran for deaths of US troops](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-strait-hormuz-attack-war-infrastructure-military-target-strikes/507-51e7fd69-d142-4437-a746-7ab667c675f7) — *2026-07-18*
+  > The U.S. military has launched airstrikes against Iran's Revolutionary Guard in retaliation for an attack in Jordan that killed two U.S. service members.
+- **NEW**  [[St. Louis] 16 US service members have died in the Iran war, reflecting a conflict fought largely in the air](https://www.ksdk.com/article/news/nation-world/16-us-service-members-have-died-in-iran-war/507-4a7ae15e-4a40-412b-bfe2-8d8117b2e6c7) — *2026-07-18*
+  > The deaths reflect the complicated reality that American boots don’t need to be on the ground for there to be lethal risks in the conflict.
+- **NEW**  [[St. Louis] British runner breaks record for fastest mile that stood since 1999](https://www.ksdk.com/article/news/nation-world/british-runner-josh-kerr-breaks-record-fastest-mile/507-9c7621ed-5062-40a8-8c04-a45027e91150) — *2026-07-18*
+  > British runner Josh Kerr ran 3 minutes, 42.66 seconds to break the longstanding men’s mile world record.
+- **NEW**  [[St. Louis] Taylor Farms recalls iceberg lettuce products in 27 states amid Cyclospora outbreak investigation](https://www.ksdk.com/article/news/nation-world/taylor-farms-recalls-iceberg-lettuce-products/507-2cc0d142-0b05-49e7-a8b1-f861e827e67b) — *2026-07-18*
+  > Taylor Farms recalled shredded lettuce sold in 27 states amid a multi-state investigation into the cyclosporiasis outbreak.
+- **NEW**  [[St. Louis] Judge tells both sides in Festus data center lawsuit to communicate better](https://www.ksdk.com/article/news/local/judge-tells-both-sides-in-festus-data-center-lawsuit-to-communicate-better/63-5b90402e-9d53-4ae9-b419-0a0c17a86c41) — *2026-07-18*
+  > A judge denied a default judgment in a lawsuit against Festus and data center developer CRG, citing poor communication between attorneys.
 
-_(205 additional items in raw.jsonl)_
+_(221 additional items in raw.jsonl)_

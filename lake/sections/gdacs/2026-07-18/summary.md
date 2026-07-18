@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-18
-record_count: 96
-new_today: 3
+record_count: 100
+new_today: 7
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-3 new of 96 total items today.
+7 new of 100 total items today.
 
 - [[Orange] Eruption  Mayon](https://www.gdacs.org/report.aspx?eventid=1000144&episodeid=1&eventtype=VO) — *2026-07-16*
   > Volcano · Orange alert · Philippines
@@ -45,21 +45,21 @@ state: fresh
   > Flood · Green alert · India · Magnitude 0
 - **NEW**  [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=9&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
-- [[Green] Earthquake in Fiji](https://www.gdacs.org/report.aspx?eventid=1551894&episodeid=1718222&eventtype=EQ) — *2026-07-14*
-  > Earthquake · Green alert · Fiji · Magnitude 5.5M, Depth:574.304km
-- [[Green] Earthquake in Fiji](https://www.gdacs.org/report.aspx?eventid=1551894&episodeid=1718222&eventtype=EQ) — *2026-07-14*
-  > Earthquake · Green alert · Fiji · Magnitude 5.5M, Depth:574.304km
 - [[Green] Earthquake in Volcano Islands, Japan Region](https://www.gdacs.org/report.aspx?eventid=1552150&episodeid=1718503&eventtype=EQ) — *2026-07-16*
   > Earthquake · Green alert · Volcano Islands, Japan Region · Magnitude 5.5M, Depth:12.806km
 - [[Green] Earthquake in Volcano Islands, Japan Region](https://www.gdacs.org/report.aspx?eventid=1552150&episodeid=1718503&eventtype=EQ) — *2026-07-16*
   > Earthquake · Green alert · Volcano Islands, Japan Region · Magnitude 5.5M, Depth:12.806km
+- **NEW**  [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719148&eventtype=EQ) — *2026-07-18*
+  > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
+- **NEW**  [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719148&eventtype=EQ) — *2026-07-18*
+  > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
 - [[Green] Earthquake in East Of South Sandwich Islands](https://www.gdacs.org/report.aspx?eventid=1552027&episodeid=1718368&eventtype=EQ) — *2026-07-15*
   > Earthquake · Green alert · East Of South Sandwich Islands · Magnitude 5.7M, Depth:13.061km
 - [[Green] Earthquake in East Of South Sandwich Islands](https://www.gdacs.org/report.aspx?eventid=1552027&episodeid=1718368&eventtype=EQ) — *2026-07-15*
   > Earthquake · Green alert · East Of South Sandwich Islands · Magnitude 5.7M, Depth:13.061km
-- [[Green] Earthquake in South Of Fiji Islands](https://www.gdacs.org/report.aspx?eventid=1552085&episodeid=1718432&eventtype=EQ) — *2026-07-15*
-  > Earthquake · Green alert · South Of Fiji Islands · Magnitude 5.8M, Depth:340.334km
-- [[Green] Earthquake in South Of Fiji Islands](https://www.gdacs.org/report.aspx?eventid=1552085&episodeid=1718432&eventtype=EQ) — *2026-07-15*
-  > Earthquake · Green alert · South Of Fiji Islands · Magnitude 5.8M, Depth:340.334km
+- **NEW**  [[Green] Earthquake in Mexico](https://www.gdacs.org/report.aspx?eventid=1552687&episodeid=1719131&eventtype=EQ) — *2026-07-18*
+  > Earthquake · Green alert · Mexico · Magnitude 5.7M, Depth:10km
+- **NEW**  [[Green] Earthquake in Mexico](https://www.gdacs.org/report.aspx?eventid=1552687&episodeid=1719131&eventtype=EQ) — *2026-07-18*
+  > Earthquake · Green alert · Mexico · Magnitude 5.7M, Depth:10km
 
-_(71 additional items in raw.jsonl)_
+_(75 additional items in raw.jsonl)_

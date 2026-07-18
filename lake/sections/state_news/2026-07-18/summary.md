@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-07-18
-record_count: 697
-new_today: 45
+record_count: 711
+new_today: 83
 state: fresh
 ---
 
 ## State-Level News
 
-45 new of 697 total items today.
+83 new of 711 total items today.
 
 - [[Alabama] Governor Ivey Deploys Swiftwater Rescue Teams to Texas to Assist Amid Severe Flooding](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-deploys-swiftwater-rescue-teams-to-texas-to-assist-amid-severe-flooding/) — *2026-07-17*
   > MONTGOMERY – Governor Kay Ivey on Friday announced she has deployed four Type III Swiftwater search-and-rescue teams to assist Texas with ongoing life-threatening flooding. “Alabamians always stand ready to lend a helping hand to our neighbors in need. I pray &#8230; <a href="htt
@@ -35,20 +35,35 @@ state: fresh
 - [[California] Governor Newsom announces appointments 7.15.2026](https://www.gov.ca.gov/2026/07/15/governor-newsom-announces-appointments-7-15-2026/) — *2026-07-16*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
 <p><a href="https://www.gov.ca.gov/2026/07/1
-- [[Alabama] Tuberville plaintiffs ask to expedite appeal](https://www.alreporter.com/2026/07/17/tuberville-plaintiffs-ask-to-expedite-appeal/) — *2026-07-17*
-- [[Alabama] Opinion | Alabama: What path will we choose?](https://www.alreporter.com/2026/07/17/opinion-alabama-what-path-will-we-choose/) — *2026-07-17*
-- [[Alabama] Trump pushes SAVE America Act with election fraud claims](https://www.alreporter.com/2026/07/17/trump-pushes-save-america-act-with-election-fraud-claims/) — *2026-07-17*
-- [[Alabama] CAIR: Tuberville speech could “set stage” for anti-Muslim violence](https://www.alreporter.com/2026/07/17/cair-tuberville-speech-could-set-stage-for-anti-muslim-violence/) — *2026-07-17*
-- [[Alabama] Alabama to receive over $260k in 23andMe bankruptcy settlement](https://www.alreporter.com/2026/07/17/alabama-to-receive-over-260k-in-23andme-bankruptcy-settlement/) — *2026-07-17*
-- [[Alabama] Birmingham invites proposals for 2027 BOLD funding program](https://www.alreporter.com/2026/07/17/birmingham-invites-proposals-for-2027-bold-funding-program/) — *2026-07-17*
-- [[Alabama] Jerry Carl announces additional campaign endorsements](https://www.alreporter.com/2026/07/17/jerry-carl-announces-additional-campaign-endorsements/) — *2026-07-17*
-- [[Alabama] Gov. Ivey announces $3.6 million in grants for 11 road projects](https://www.alreporter.com/2026/07/17/gov-ivey-announces-3-6-million-in-grants-for-11-road-projects/) — *2026-07-17*
-- [[Alabama] APLS punts second consecutive meeting as libraries face major changes](https://www.alreporter.com/2026/07/17/apls-punts-second-consecutive-meeting-as-libraries-face-major-changes/) — *2026-07-17*
-- [[Alabama] Rep. Figures secures $50 million infrastructure investment in 2026 Water Resources Development Act](https://www.alreporter.com/2026/07/16/rep-figures-secures-50-million-water-infrastructure-investment-in-2026-water-resources-development-act/) — *2026-07-16*
-- [[Alabama] Fear is not proof, and suspicion is not a reason for war](https://www.alreporter.com/2026/07/16/fear-is-not-proof-and-suspicion-is-not-a-reason-for-war/) — *2026-07-16*
-- [[Alabama] Legal Services Alabama announces executive director’s retirement](https://www.alreporter.com/2026/07/16/legal-services-alabama-announces-executive-directors-retirement/) — *2026-07-16*
-- [[Alabama] Alabama students post large science gains, overall eighth-grade scores improve](https://www.alreporter.com/2026/07/16/alabama-students-post-large-science-gains-overall-eighth-grade-scores-improve/) — *2026-07-16*
-- [[Alabama] Opinion | Every election must end](https://www.alreporter.com/2026/07/16/opinion-every-election-must-end/) — *2026-07-16*
-- [[Alabama] Rep. Figures introduces $15 billion tariff relief bill for small, mid-sized farmers](https://www.alreporter.com/2026/07/16/rep-figures-introduces-15-billion-tariff-relief-bill-for-small-mid-sized-farmers/) — *2026-07-16*
+- **NEW**  [[Arizona] Judge hands Ohio’s former prisons chief sweeping control over Arizona prison healthcare](https://azmirror.com/2026/07/17/judge-hands-ohios-former-prisons-chief-sweeping-control-over-arizona-prison-healthcare/) — *2026-07-18*
+  > A federal judge on Friday appointed Ohio’s former prisons chief to run Arizona’s prison healthcare system, giving her the sole power to determine what the state needs to do to stop violating the constitutional rights of inmates with substandard medical care — and she set the stag
+- **NEW**  [[Arizona] GOP legislative leaders, Mayes to defend Arizona deportation law in court](https://azmirror.com/2026/07/17/gop-legislative-leaders-mayes-to-defend-arizona-deportation-law-in-court/) — *2026-07-17*
+  > Republican legislative leaders and Attorney General Kris Mayes are on the same side in a lawsuit challenging the state’s power to enforce immigration law, playing defense for a 2024 law that would give state judges the authority to issue deportation orders and local police office
+- **NEW**  [[Arizona] High court says public comment on Arizona elections manual is not required](https://azmirror.com/briefs/high-court-says-public-comment-on-arizona-elections-manual-is-not-required/) — *2026-07-17*
+  > The Arizona Secretary of State is not required to allow public comment on new versions of the state’s elections rulebook, the state’s highest court wrote in a Friday opinion that explained an order the court issued nine months prior.  In the October order, the Arizona Supreme Cou
+- [[Arizona] DHS chief threatens to prosecute election officials as Trump escalates fight over state voter rolls](https://azmirror.com/2026/07/17/repub/dhs-chief-threatens-to-prosecute-election-officials-as-trump-escalates-fight-over-state-voter-rolls/) — *2026-07-17*
+  > Homeland Security Secretary Markwayne Mullin threatened on Friday to prosecute election officials in states that don’t “participate in securing the elections” ahead of the November midterms.&#160; Election officials who do not comply with administration directives to enhance secu
+- [[Arizona] ‘Suck on a salt lick’: Fontes fires back after Trump election speech, DHS pressure on states](https://azmirror.com/briefs/suck-on-a-salt-lick-fontes-fires-back-after-trump-election-speech-dhs-pressure-on-states/) — *2026-07-17*
+  > Arizona’s top election official and top prosecutor both had strong words for President Donald Trump and his administration after a prime-time speech on Thursday that was filled with false claims of widespread voter fraud.  Arizona Secretary of State Adrian Fontes bristled at the 
+- [[Arizona] ICE agents have shot 22 people during Trump’s second term. Most were during traffic stops.](https://azmirror.com/2026/07/17/repub/ice-shootings-22-people-during-trumps-second-term-most-were-during-traffic-stops/) — *2026-07-17*
+  > WASHINGTON — U.S. Immigration and Customs Enforcement agents on July 13 killed 25-year-old&#160;Johan Sebastián Durán Guerrero, a Colombian national with legal work authorization, in Maine, making him the 22nd person shot at by federal immigration officers during President Donald
+- [[Arizona] Federal judge blocks Arizona prison agency’s push to hire less-qualified doctors for inmate care](https://azmirror.com/briefs/federal-judge-blocks-arizona-prison-agencys-push-to-hire-less-qualified-doctors-for-inmate-care/) — *2026-07-17*
+  > A federal judge rejected a request from the Arizona Department of Corrections, Rehabilitation and Reentry that it be allowed to hire doctors who don’t meet agreed upon standards, sharply criticizing the state prison agency for failing to increase salaries, as it has been repeated
+- [[Arizona] Trump, offering no proof, claims foreign meddling threatens US elections in speech slammed for stoking voter fears](https://azmirror.com/2026/07/16/repub/trump-offering-no-proof-claims-foreign-meddling-threatens-us-elections-in-speech-slammed-for-stoking-voter-fears/) — *2026-07-17*
+  > The nation’s election infrastructure is vulnerable to cyberattacks by foreign actors, President Donald Trump said during a primetime address Thursday night, citing a batch of documents he declassified — but providing no proof broad interference actually occurred or affected an el
+- [[Arizona] Hobbs raised $2.6M in Q2, more than the GOP field, fueling her early ad blitz in reelection bid](https://azmirror.com/2026/07/16/hobbs-raised-2-6m-in-q2-more-than-the-gop-field-fueling-her-early-ad-blitz-in-reelection-bid/) — *2026-07-17*
+  > Arizona Gov. Katie Hobbs raked in campaign donations during the second quarter of 2026, collecting about $2.6 million — but she also spent big as she launched a high-dollar advertising campaign boasting about her record as governor.  Campaign finance reports for April 1 through J
+- [[Arizona] Trailer park firm sued by Kris Mayes is the biggest donor to a PAC backing Warren Petersen](https://azmirror.com/2026/07/16/boavida-group-trailer-park-firm-sued-by-kris-mayes-is-the-biggest-donor-to-a-pac-backing-warren-petersen/) — *2026-07-16*
+  > A trailer park management company being sued by Democratic Attorney General Kris Mayes is spending big to back one of Mayes’ GOP opponents in a bid to defeat her in November.  Mayes filed a lawsuit against the BoaVida Group last year after electricity outages during a deadly summ
+- [[Arizona] House Dem Leader Jeffries hammers Trump, asks for teachers union help in midterms](https://azmirror.com/2026/07/16/repub/house-dem-leader-jeffries-hammers-trump-asks-for-teachers-union-help-in-midterms/) — *2026-07-16*
+  > WASHINGTON — U.S. House Democratic Leader Hakeem Jeffries rallied a key group for his party Thursday, telling the American Federation of Teachers’ national convention that, if successful in November’s midterm elections, a Democratic majority in the House would pursue several prog
+- [[Arizona] Democrats see path to flip Arizona Legislature as national statehouse map tilts toward them](https://azmirror.com/2026/07/16/repub/democrats-see-path-to-flip-arizona-legislature-as-national-statehouse-map-tilts-toward-them/) — *2026-07-16*
+  > Following a string of special election victories, Democrats have a path to flip several Republican-held legislative chambers and break GOP supermajorities in states across the country this November. High prices and overall voter dissatisfaction with Washington have put control of
+- [[Arizona] AZ Court of Appeals: Citing fake AI-generated cases can get you sanctioned, no matter your intent](https://azmirror.com/briefs/az-court-of-appeals-citing-fake-ai-generated-cases-can-get-you-sanctioned-no-matter-your-intent/) — *2026-07-16*
+  > The Arizona Court of Appeals put lawyers and self-represented litigants alike on notice: If you let artificial intelligence write your legal brief and don&#8217;t check whether the cases it cites are real, you can be sanctioned for it — even if you never meant to mislead anyone. 
+- [[Arizona] After the Hacienda Healthcare rape, Arizona built a group home watchdog. Now it’s being defunded.](https://azmirror.com/2026/07/15/after-the-hacienda-healthcare-rape-arizona-built-a-group-home-watchdog-now-its-being-defunded/) — *2026-07-16*
+  > An independent oversight program created in response to a horrific rape, meant to protect some of Arizona’s most vulnerable people, will cease at the end of this year unless it finds a new funding source, a casualty of Arizona’s newest bipartisan state budget.  In 2018, a 29-year
+- [[California] Juez exige que los inmigrantes de Adelanto reciban agua potable y atención médica](https://calmatters.org/calmatters-en-espanol/2026/07/juez-exige-que-inmigrantes-de-adelanto-reciban-agua-potable/) — *2026-07-17*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/111513_Adelanto_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view from behind of a detention center guar
 
-_(672 additional items in raw.jsonl)_
+_(686 additional items in raw.jsonl)_

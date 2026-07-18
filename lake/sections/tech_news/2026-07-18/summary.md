@@ -2,29 +2,37 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-18
-record_count: 58
-new_today: 2
+record_count: 53
+new_today: 10
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-2 new of 58 total items today.
+10 new of 53 total items today.
 
-- **NEW**  [[The Register] NextBSD returns to dollop Apple source on FreeBSD](https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788) — *2026-07-18*
-  > New maintainer revives the project with Darwin components, Gershwin, and Claude Code
-- **NEW**  [[TechCrunch] Neil Rimer thinks the AI money is coming back out](https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/) — *2026-07-18*
-  > Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.
+- **NEW**  [[BleepingComputer] Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/) — *2026-07-18*
+  > 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
+- **NEW**  [[BleepingComputer] WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/) — *2026-07-18*
+  > Public exploits have been released for the critical "wp2shell" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]
+- **NEW**  [[BleepingComputer] Microsoft warns of surge in ACR Stealer attacks on customers](https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/) — *2026-07-18*
+  > Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]
+- **NEW**  [[BleepingComputer] The Future of Age Verification: Your Face Never Leaves Your Device](https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/) — *2026-07-18*
+  > As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risk
+- **NEW**  [[Ars Technica] Will AI fix prior authorization—or make it worse?](https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/) — *2026-07-18*
+  > The government is piloting a program that uses AI for insurance-coverage decisions.
+- **NEW**  [[TechCrunch] Waymo says San Francisco service has resumed after one-hour pause](https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/) — *2026-07-18*
+  > This isn’t the first time power outages have caused issues for Waymo.
+- **NEW**  [[TechCrunch] Kimi: Threat or menace?](https://techcrunch.com/2026/07/18/kimi-threat-or-menace/) — *2026-07-18*
+  > Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about "full AI communism."
+- **NEW**  [[TechCrunch] All the EVs that were discontinued or killed off in the U.S. this year](https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/) — *2026-07-18*
+  > Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.
+- **NEW**  [[TechCrunch] Federal employees can download TikTok on their work phones again](https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/) — *2026-07-18*
+  > The Department of Justice says that federal employees can now download TikTok on their government devices.
+- **NEW**  [[TechCrunch] A 600-mile road trip (and data) proves EV charging doesn’t suck anymore](https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/) — *2026-07-18*
+  > A recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S.
 - [[BleepingComputer] Abbott probes two cyber incidents amid extortion claims](https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/) — *2026-07-17*
   > Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and
-- [[BleepingComputer] HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload](https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/) — *2026-07-17*
-  > A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]
-- [[BleepingComputer] Ernst & Young discloses data breach after support system hack](https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/) — *2026-07-17*
-  > Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
-- [[BleepingComputer] Inside the Search for "Clean" Residential Proxies for Carding](https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/) — *2026-07-17*
-  > Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek "clean" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection.
-- [[BleepingComputer] New Windows LegacyHive zero-day gives hackers admin privileges](https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/) — *2026-07-17*
-  > A security researcher using the "Nightmare Eclipse" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]
 - [[The Hacker News] New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html) — *2026-07-17*
   > Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.
 
@@ -60,14 +68,6 @@ Blog moderation policy.
 - [[Schneier on Security] Details of Alan Turing’s Voice Encryption System](https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html) — *2026-07-17*
   > Really interesting piece of cryptographic history:
 In November 2023, a large cache of his wartime papers&#8212;nicknamed the &#8220;Bayley papers&#8221;&#8212;was auctioned in London for almost half a million U.S. dollars. The previously unknown cache contains many sheets in Turi
-- [[The Register] Mozilla speeds Firefox release schedule to biweekly](https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423) — *2026-07-17*
-  > And what to expect in Firefox 153 as the next ESR release gets close
-- [[The Register] Microsoft cuts OneDrive support for older Windows 10 versions next month](https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489) — *2026-07-17*
-  > 22H2 has until 2028, or there's always Windows 11
-- [[The Register] Billing software error sends billion-dollar AWS estimates](https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521) — *2026-07-17*
-  > Amazon asks users not to panic as it works to fix the bug
-- [[The Register] AI spam filters are getting suckered by old-school text salting](https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434) — *2026-07-17*
-  > Turns out decades-old email tricks still work against some LLM-powered email filters
 - [[Ars Technica] Google-backed satellites for wildfire detection launch as smoke chokes US, Canada](https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/) — *2026-07-17*
   > The FireSat program can spot wildfires that other satellites miss.
 - [[Ars Technica] The Pentagon's Space Development Agency hasn't moved as fast as anyone would like](https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/) — *2026-07-17*
@@ -75,4 +75,4 @@ In November 2023, a large cache of his wartime papers&#8212;nicknamed the &#8220
 - [[Ars Technica] Hegseth wants a "High-T" military; doctors call it a clinical minefield](https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/) — *2026-07-17*
   > "We're turning the clock back on rational healthcare."
 
-_(33 additional items in raw.jsonl)_
+_(28 additional items in raw.jsonl)_
