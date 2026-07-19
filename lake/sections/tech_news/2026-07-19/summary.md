@@ -3,16 +3,18 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-19
 record_count: 58
-new_today: 5
+new_today: 6
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-5 new of 58 total items today.
+6 new of 58 total items today.
 
 - **NEW**  [[The Register] Using AI makes people less likely to admit they don't know something](https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567) — *2026-07-19*
   > Researchers found confidence increased even as accuracy fell
+- **NEW**  [[Ars Technica] As mosquito ranges expand, better monitoring is key to preventing disease](https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/) — *2026-07-19*
+  > Monitoring is expensive and labor intensive. But it helps public health officials stop outbreaks.
 - [[BleepingComputer] Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/) — *2026-07-18*
   > 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
 - [[BleepingComputer] WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/) — *2026-07-18*
@@ -71,8 +73,5 @@ Expel, which shared technical details of the event, described the threat actor a
   > Lots of articles about this.
 As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.
 Blog moderation policy.
-- [[Schneier on Security] Details of Alan Turing’s Voice Encryption System](https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html) — *2026-07-17*
-  > Really interesting piece of cryptographic history:
-In November 2023, a large cache of his wartime papers&#8212;nicknamed the &#8220;Bayley papers&#8221;&#8212;was auctioned in London for almost half a million U.S. dollars. The previously unknown cache contains many sheets in Turi
 
 _(33 additional items in raw.jsonl)_

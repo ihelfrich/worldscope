@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-19
-record_count: 115
+record_count: 114
 new_today: 0
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-0 new of 115 total items today.
+0 new of 114 total items today.
 
 - [[OFAC] Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-13*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjQ0xnalhtVkxyU0VkZ0xSNlVPSXhuRmJKbl9UdmlucDRsZkl3cmNYbzROS3JnT0Y0NUpRSnNsNHNsZ2prdS10T2NncDBtWF8zVlJWNlZCT2hHRUZrR1E?oc=5" target="_blank">Cyber-related Designations; Cuba Designations; Issuance of Cuba-related Frequent
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $754,260,780 → THE MITRE CORPORATION: CAASD MUST PROVIDE ESSENTIAL ENGINEERING, RESEARCH, AND ANAL](https://www.usaspending.gov/award/693KA822C00001) — *2026-07-19*
   > Agency: Department of Transportation.  Description: CAASD MUST PROVIDE ESSENTIAL ENGINEERING, RESEARCH, AND ANALYSIS CAPABILITIES TO SUPPORT THE FAA IN THE PERFORMANCE OF ITS MISSION THROUGH A SYSTEMS APPROACH THAT ADDRESSES ALL DIMENSIONS (E.G. POLITICAL, OPERATIONAL, ECONOMIC, 
 
-_(90 additional items in raw.jsonl)_
+_(89 additional items in raw.jsonl)_

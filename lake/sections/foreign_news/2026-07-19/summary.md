@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-19
-record_count: 981
-new_today: 393
+record_count: 956
+new_today: 473
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-393 new of 981 total items today.
+473 new of 956 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-19*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-19*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-19*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[Global] Cover Story newsletter: It’s too darn hot](https://www.economist.com/the-world-this-week/2026/07/17/cover-story-newsletter-its-too-darn-hot) — *2026-07-17*
-  > An exclusive look at how we designed our cover
-- **NEW**  [[Global] US and Iran exchange strikes after two US soldiers killed in Jordan](https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.
-- **NEW**  [[Global] Andrew Tate and brother arrested in US after more charges laid against them in UK](https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.
-- **NEW**  [[Global] Russia launches major ballistic missile attack on Kyiv](https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > One death is reported in what President Zelensky calls "one of the most massive ballistic attacks" on Ukraine's capital.
-- **NEW**  [[Global] Cuban dissident Luis Manuel Otero Alcántara goes into exile in US](https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison.
+- **NEW**  [[Global] Chinese firm seeks compensation over British Steel nationalisation](https://www.bbc.co.uk/news/articles/cwyj4ppqn41o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
+  > Jingye said it will take action "through legal means to the very end" after the UK government nationalised British Steel.
 - **NEW**  [[Global] New EU border system tripling time at passport control, airport boss says](https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
   > Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.
-- **NEW**  [[Global] Ferry carrying 116 passengers sinks off Guyana coast, authorities say](https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > Eight passengers have so far been rescued after the vessel capsized between Georgetown and Port Kaituma.
-- [[Global] Hungary's president agrees to stand down after parliament backs removal](https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term.
-- [[Global] German politician resigns over surrogacy child controversy](https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.
-- [[Global] Space start-up launches India’s first commercial rocket designed for orbit](https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > India's first space-tech unicorn Skyroot Aerospace successfully launched Vikram-1 on Saturday.
-- [[Global] Laos says it can't determine cause of  tourist deaths linked to methanol](https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Officials say they have no evidence of poisoning over the 2024 deaths because autopsies were not conducted.
-- [[Global] Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities](https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.
-- [[Global] Indian activist on hunger strike for 20 days forcibly taken to hospital](https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Cockroach Janta Party founder Abhijeet Dipke has now begun an indefinite fast in Sonam Wangchuk's place.
-- [[Global] White House defends Argentina team over Falklands banner](https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > The comments could further fuel the row over the incident, which has seen Downing Street back calls for Fifa to investigate.
-- [[Global] One anti-war critic fined, another held as Russia clamps down on dissent](https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody.
-- **NEW**  [[Global] Russians turn to cash, putting more strain on slowing wartime economy](https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.
+- [[Global] 'My buyers dropped their offer by £15,000 the day before exchange': Gazundering and how to avoid it](https://www.bbc.co.uk/news/articles/c3d39r338m0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
+  > It's a small but growing problem in the property market - here's how to protect yourself.
+- **NEW**  [[Global] Is Burnham promising a new dawn for North Sea oil and gas?](https://www.bbc.co.uk/news/articles/c4g3l22ry6wo?at_medium=RSS&at_campaign=rss) — *2026-07-19*
+  > The incoming PM is expected to announce fresh support for the North Sea from day one of his premiership.
+- **NEW**  [[Global] The hidden cost of the night shift and how to sleep it off](https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss) — *2026-07-19*
+  > More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?
+- [[Global] Brewdog founder faces data complaints over efforts to buy back firm](https://www.bbc.co.uk/news/articles/c4gw9pp0xlno?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > The UK data watchdog has received complaints after James Watt reportedly contacted former shareholders.
+- [[Global] The financial winners and losers from the World Cup](https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?
+- [[Global] Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?](https://www.bbc.co.uk/news/articles/clyl3z2xld8o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country.
+- [[Global] China hits out at British Steel nationalisation](https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > The UK government said taking the firm into public hands would safeguard "a vital national capability".
+- [[Global] Five headaches Andy Burnham will have to deal with as PM](https://www.bbc.co.uk/news/articles/c62122pgjqdo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > From defence spending to housing - the next UK leader has a series of challenges to deal with.
+- [[Global] China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic](https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > The company has unveiled a massive new artificial intelligence model it says can take on top American firms.
+- [[Global] Why has British Steel been nationalised?](https://www.bbc.co.uk/news/articles/c5y66y40kgpo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.
+- [[Global] Why are UK fuel prices rising again?](https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > UK fuel prices are going up again after the collapse of peace talks to end the US-Israel war with Iran.
+- [[Global] Who is the frontrunner to be the UK's next chancellor?](https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.
+- [[Global] Trump Media to sell instant access to 'market-moving' social posts](https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.
 - **NEW**  [[Global] Private jets flock to Montana - but locals can't afford the trailer park](https://www.bbc.co.uk/news/articles/ckg92d8d40yo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
   > Rents in Bozeman, Montana have skyrocketed as wealthy out-of-towners flock to the city to experience the American West.
-- **NEW**  [[Global] Why the World Cup half-time show may be a taste of things to come](https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > The 2026 World Cup's spectacle is creating debate about the place of music in sport - and how it could infiltrate other tournaments.
-- [[Global] Control, threats, disfiguring surgery: My life inside Jeffrey Epstein's 'cult'](https://www.bbc.co.uk/news/articles/czek5wl6p2go?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > "Anya" gives the BBC a rare account of how sex-criminal financier Epstein lured and abused his “assistants”.
-- [[Global] What this desert city can teach the world about tackling heat deaths](https://www.bbc.co.uk/news/articles/cgl3lnpxy6no?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Maricopa County in Arizona has some of the hottest temperatures, but it has reduced the number of heat-related deaths.
-- [[Global] Kim Jong Un was meant to be their only idol - then North Koreans discovered K-pop](https://www.bbc.co.uk/news/articles/c0jygjezvlwo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Defectors tell the BBC that despite restrictions, K-pop has cut through in the stifling dictatorship.
-- [[Global] He made history in Congress - then the Supreme Court changed its mind](https://www.bbc.co.uk/news/articles/cn949jvjxplo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Residents say they're afraid that if Shomari Figures loses his seat, their federal-funding could disappear with him.
+- [[Global] Guidance needed for families reclaiming childcare](https://www.bbc.co.uk/news/articles/cx2d5yxpry0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
+  > Some families have had problems claiming back cash as part of the pilot scheme.
+- [[Global] Rural residents back heating oil protection plan](https://www.bbc.co.uk/news/articles/clyry0ky6vno?at_medium=RSS&at_campaign=rss) — *2026-07-18*
+  > Households reliant on heating oil as a fuel source say better regulation of pricing is needed.
+- [[Global] 'I'd rather not leave the house so I don't get into more debt'](https://www.bbc.co.uk/news/articles/cy8d1zm01k0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
+  > Great Yarmouth has some of the highest levels of problem debt in the country, but help is at hand.
+- [[Global] What are your rights if you buy something that breaks?](https://www.bbc.co.uk/news/videos/c3r0lq9n14wo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Martin Lewis explains why you should go back to the item's retailer, not the manufacturer.
+- [[Global] Why women should speak openly about money](https://www.bbc.co.uk/news/videos/cvgwdxqj3k4o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Emma joins Nuala McGovern to discuss her book Start With Yourself: A New Vision for Work and Life.
+- [[Global] What are your rights if you buy something that breaks?](https://www.bbc.co.uk/news/videos/c3r0lq9n14wo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Martin Lewis explains why you should go back to the item's retailer, not the manufacturer.
+- [[Global] How do you split the bill with friends?](https://www.bbc.co.uk/news/videos/c5yzy3j39vwo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
+  > Hands down the worst part of going out for dinner.
+- **NEW**  [[Global] US and Iran exchange strikes after two US soldiers killed in Jordan](https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss) — *2026-07-19*
+  > Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.
+- **NEW**  [[Global] Tate brothers arrested in US as further UK charges take total to 59](https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
+  > The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.
 
-_(956 additional items in raw.jsonl)_
+_(931 additional items in raw.jsonl)_

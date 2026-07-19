@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-19
-record_count: 131
+record_count: 130
 new_today: 29
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-29 new of 131 total items today.
+29 new of 130 total items today.
 
 - [[Orange] Eruption  Mayon](https://www.gdacs.org/report.aspx?eventid=1000144&episodeid=1&eventtype=VO) — *2026-07-16*
   > Volcano · Orange alert · Philippines
@@ -37,17 +37,15 @@ state: fresh
   > Flood · Green alert · United States · Magnitude 0
 - [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=49&eventtype=FL) — *2026-05-19*
   > Flood · Green alert · United States · Magnitude 0
-- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=7&eventtype=FL) — *2026-06-13*
+- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=8&eventtype=FL) — *2026-06-13*
   > Flood · Green alert · Philippines · Magnitude 0
-- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=7&eventtype=FL) — *2026-06-13*
+- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=8&eventtype=FL) — *2026-06-13*
   > Flood · Green alert · Philippines · Magnitude 0
-- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=7&eventtype=FL) — *2026-06-13*
+- [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=8&eventtype=FL) — *2026-06-13*
   > Flood · Green alert · Philippines · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=9&eventtype=FL) — *2026-06-23*
+- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=10&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=9&eventtype=FL) — *2026-06-23*
-  > Flood · Green alert · India · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=9&eventtype=FL) — *2026-06-23*
+- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=10&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
 - **NEW**  [[Green] Flood in Mexico](https://www.gdacs.org/report.aspx?eventid=1103981&episodeid=6&eventtype=FL) — *2026-06-28*
   > Flood · Green alert · Mexico · Magnitude 0
@@ -61,5 +59,7 @@ state: fresh
   > Earthquake · Green alert · Volcano Islands, Japan Region · Magnitude 5.5M, Depth:12.806km
 - [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719148&eventtype=EQ) — *2026-07-18*
   > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
+- [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719148&eventtype=EQ) — *2026-07-18*
+  > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
 
-_(106 additional items in raw.jsonl)_
+_(105 additional items in raw.jsonl)_
