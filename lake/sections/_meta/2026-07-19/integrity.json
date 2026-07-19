@@ -1,55 +1,47 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T09:15:04Z",
-  "summary": "Data integrity \u00b7 29/42 sections fresh \u00b7 6 failing (acled, gdelt_gkg, gdelt_regions, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 3 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-07-19T09:42:39Z",
+  "summary": "Data integrity \u00b7 31/42 sections fresh \u00b7 5 failing (acled, gdelt_gkg, promed, reliefweb, vip_flights) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
       "status": "FAILED",
-      "reason": "last pull failed (38\u00d7): UpstreamAuthError: ACLED authentication failed (no token)",
+      "reason": "last pull failed (39\u00d7): UpstreamAuthError: ACLED authentication failed (no token)",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 38
+      "consecutive_failures": 39
     },
     {
       "section_id": "gdelt_gkg",
       "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT returned nothing for any query (rate-limited / blocked)",
+      "reason": "last pull failed (2\u00d7): UpstreamHTTPError: GDELT returned nothing for any query (rate-limited / blocked)",
       "last_record_date": "2026-07-18",
       "today_count": 0,
-      "consecutive_failures": 1
-    },
-    {
-      "section_id": "gdelt_regions",
-      "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): PullTimeout: pull() exceeded 90s deadline (still running)",
-      "last_record_date": "2026-07-18",
-      "today_count": 0,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "section_id": "promed",
       "status": "FAILED",
-      "reason": "last pull failed (38\u00d7): UpstreamHTTPError: ProMED feed request failed: 404 Client Error: Not Found for url: https://www.promedmail.org/promed-po",
+      "reason": "last pull failed (39\u00d7): UpstreamHTTPError: ProMED feed request failed: 404 Client Error: Not Found for url: https://www.promedmail.org/promed-po",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 38
+      "consecutive_failures": 39
     },
     {
       "section_id": "reliefweb",
       "status": "FAILED",
-      "reason": "last pull failed (38\u00d7): UpstreamHTTPError: ReliefWeb request failed: 410 Client Error: Gone for url: https://api.reliefweb.int/v1/reports?appnam",
+      "reason": "last pull failed (39\u00d7): UpstreamHTTPError: ReliefWeb request failed: 410 Client Error: Gone for url: https://api.reliefweb.int/v1/reports?appnam",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 38
+      "consecutive_failures": 39
     },
     {
       "section_id": "vip_flights",
       "status": "FAILED",
-      "reason": "last pull failed (6\u00d7): ConnectTimeout: HTTPSConnectionPool(host='opensky-network.org', port=443): Max retries exceeded with url: /api/states/al",
+      "reason": "last pull failed (7\u00d7): ConnectTimeout: HTTPSConnectionPool(host='opensky-network.org', port=443): Max retries exceeded with url: /api/states/al",
       "last_record_date": "2026-07-07",
       "today_count": 0,
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "section_id": "firms",
@@ -63,14 +55,6 @@
       "section_id": "mediacloud",
       "status": "NO_KEY",
       "reason": "required credential not set: MEDIACLOUD_API_KEY",
-      "last_record_date": "2026-07-19",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "conflict",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-07-19 (0d)",
       "last_record_date": "2026-07-19",
       "today_count": 0,
       "consecutive_failures": 0
@@ -118,9 +102,9 @@
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "127 records today",
+      "reason": "139 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 127,
+      "today_count": 139,
       "consecutive_failures": 0
     },
     {
@@ -137,6 +121,14 @@
       "reason": "2 records today",
       "last_record_date": "2026-07-19",
       "today_count": 2,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "conflict",
+      "status": "FRESH",
+      "reason": "40 records today",
+      "last_record_date": "2026-07-19",
+      "today_count": 40,
       "consecutive_failures": 0
     },
     {
@@ -182,17 +174,17 @@
     {
       "section_id": "forecasts",
       "status": "FRESH",
-      "reason": "20 records today",
+      "reason": "21 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 20,
+      "today_count": 21,
       "consecutive_failures": 0
     },
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "501 records today",
+      "reason": "539 records today",
       "last_record_date": "2026-12-28",
-      "today_count": 501,
+      "today_count": 539,
       "consecutive_failures": 0
     },
     {
@@ -212,11 +204,19 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "gdelt_regions",
+      "status": "FRESH",
+      "reason": "12 records today",
+      "last_record_date": "2026-07-19",
+      "today_count": 12,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "30 records today",
+      "reason": "42 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 30,
+      "today_count": 42,
       "consecutive_failures": 0
     },
     {
@@ -254,9 +254,9 @@
     {
       "section_id": "paper_bets",
       "status": "FRESH",
-      "reason": "139 records today",
+      "reason": "141 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 139,
+      "today_count": 141,
       "consecutive_failures": 0
     },
     {
@@ -270,9 +270,9 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "369 records today",
+      "reason": "495 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 369,
+      "today_count": 495,
       "consecutive_failures": 0
     },
     {
@@ -286,9 +286,9 @@
     {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "69 records today",
+      "reason": "72 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 69,
+      "today_count": 72,
       "consecutive_failures": 0
     },
     {
@@ -302,17 +302,17 @@
     {
       "section_id": "ukraine_theater",
       "status": "FRESH",
-      "reason": "12 records today",
+      "reason": "98 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 12,
+      "today_count": 98,
       "consecutive_failures": 0
     },
     {
       "section_id": "ukrainian_internal",
       "status": "FRESH",
-      "reason": "43 records today",
+      "reason": "48 records today",
       "last_record_date": "2026-07-19",
-      "today_count": 43,
+      "today_count": 48,
       "consecutive_failures": 0
     },
     {
@@ -326,9 +326,9 @@
     {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "87 records today",
+      "reason": "93 records today",
       "last_record_date": "2026-07-20",
-      "today_count": 87,
+      "today_count": 93,
       "consecutive_failures": 0
     },
     {

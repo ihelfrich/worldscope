@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-19
-record_count: 108
-new_today: 6
+record_count: 131
+new_today: 29
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-6 new of 108 total items today.
+29 new of 131 total items today.
 
 - [[Orange] Eruption  Mayon](https://www.gdacs.org/report.aspx?eventid=1000144&episodeid=1&eventtype=VO) — *2026-07-16*
   > Volcano · Orange alert · Philippines
@@ -62,4 +62,4 @@ state: fresh
 - [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719148&eventtype=EQ) — *2026-07-18*
   > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
 
-_(83 additional items in raw.jsonl)_
+_(106 additional items in raw.jsonl)_

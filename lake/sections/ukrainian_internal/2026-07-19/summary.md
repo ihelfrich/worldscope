@@ -2,19 +2,23 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-07-19
-record_count: 113
-new_today: 32
+record_count: 114
+new_today: 34
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-32 new of 113 total items today.
+34 new of 114 total items today.
 
-- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-19*
-  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-19*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-19*
+  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: Молдова після 34 інцидентів із дронами закупить системи виявлення БПЛА | LEDE: Молдова придбає нові системи виявлення та перехоплення дронів за фінансування ЄС. Партнерство зміцнить безпеку кра] (uk: Молдова після 34 інцидентів із дронами закупить системи виявлення БПЛА)](https://www.pravda.com.ua/news/2026/07/19/8044799/) — *2026-07-19*
+  > Молдова придбає нові системи виявлення та перехоплення дронів за фінансування ЄС. Партнерство зміцнить безпеку країни.
+- **NEW**  [[TITLE: Федоров vs Сирський: "чорний лебідь" для влади | LEDE: Відставка Федорова викликала політичну кризу: суспільство реагує та вимагає змін у ЗСУ і владі.] (uk: Федоров vs Сирський: "чорний лебідь" для влади)](https://www.pravda.com.ua/columns/2026/07/19/8044798/) — *2026-07-19*
+  > Відставка Федорова викликала політичну кризу: суспільство реагує та вимагає змін у ЗСУ і владі.
 - **NEW**  [[TITLE: Росіяни влучили у підземний перехід біля метро "Лук’янівська" | LEDE: Під час масованої російської атаки на Київ сталося пряме влучання у підземний перехід біля станції метро "Лук'янівська".] (uk: Росіяни влучили у підземний перехід біля метро "Лук’янівська")](https://www.pravda.com.ua/news/2026/07/19/8044789/) — *2026-07-19*
   > Під час масованої російської атаки на Київ сталося пряме влучання у підземний перехід біля станції метро "Лук'янівська".
 - **NEW**  [[TITLE: Російський дрон знову влучив у пасажирський поїзд на Запоріжжі | LEDE: Удар дрона по потягу в Запорізькій області: провідниця поранена, пасажирів евакуйовано, залізниця працює.] (uk: Російський дрон знову влучив у пасажирський поїзд на Запоріжжі)](https://www.pravda.com.ua/news/2026/07/19/8044780/) — *2026-07-19*
@@ -46,15 +50,11 @@ state: fresh
   > У ДСНС показали наслідки масованої атаки на Київ та їх ліквідацію.
 - **NEW**  [[TITLE: На Київщині – пожежі та двоє потерпілих через масовану ворожу атаку | LEDE: Внаслідок масованої ворожої атаки в Бучанському районі на Київщині постраждали двоє людей, виникли пожежі.] (uk: На Київщині – пожежі та двоє потерпілих через масовану ворожу атаку)](https://www.pravda.com.ua/news/2026/07/19/8044761/) — *2026-07-19*
   > Внаслідок масованої ворожої атаки в Бучанському районі на Київщині постраждали двоє людей, виникли пожежі.
-- **NEW**  [[TITLE: У Ставропольському краї РФ горить нафтобаза після атаки дронів | LEDE: У російському Ставропольському краї зазнала атаки нафтобаза, після чого спалахнула пожежа.] (uk: У Ставропольському краї РФ горить нафтобаза після атаки дронів)](https://www.pravda.com.ua/news/2026/07/19/8044760/) — *2026-07-19*
-  > У російському Ставропольському краї зазнала атаки нафтобаза, після чого спалахнула пожежа.
-- **NEW**  [[TITLE: Через ворожу атаку на Київ загинула людина – КМВА | LEDE: У Києві в ніч на 19 липня внаслідок російського ракетного удару загинула людина.] (uk: Через ворожу атаку на Київ загинула людина – КМВА)](https://www.pravda.com.ua/news/2026/07/19/8044759/) — *2026-07-19*
-  > У Києві в ніч на 19 липня внаслідок російського ракетного удару загинула людина.
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-19*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-19*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Russian Guided Bombs Strike Sumy and Kherson Region, Drone Hits Izyum](https://www.kyivpost.com/post/80613) — *2026-07-19*
+  > On Sunday morning, July 19, Russian forces targeted the city of Sumy with seven guided aerial bombs, striking residential and industrial areas and injuring three people. Simultaneously, an airstrike utilizing guided bombs on the Bilozerka community in the Kherson region killed a 
 - **NEW**  [Russia Launches Over 1,450 Drones and 1,640 Guided Bombs at Ukraine in One Week](https://www.kyivpost.com/post/80609) — *2026-07-19*
   > President Volodymyr Zelensky reported that Russian forces launched approximately 1,450 strike drones, more than 1,640 guided aerial bombs, and 99 missiles at Ukraine over the past week. The week of sustained aerial assaults culminated in an unprecedented attack on Sunday, July 19
 
-_(88 additional items in raw.jsonl)_
+_(89 additional items in raw.jsonl)_

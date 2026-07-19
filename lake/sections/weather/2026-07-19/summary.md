@@ -11,20 +11,50 @@ state: fresh
 
 130 new of 140 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-18793) — *2026-07-19*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-58990) — *2026-07-19*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 19 at 4:56AM EDT until July 19 at 5:30AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba94638bc9ff3bb2168859e7c28982e9ba821b15.001.1) — *2026-07-19*
-  > SMWTBW
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 19 at 4:17AM CDT until July 19 at 1:00PM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7fd55e3fa9700775edceab59edb1de9a0487af3.001.1) — *2026-07-19*
+  > * WHAT...High wave action and dangerous currents expected at Lake
+Michigan beaches. Waves 3 to 5 ft expected.
 
-The National Weather Service in Ruskin has issued a
+* WHERE...In Illinois, Lake, Northern Cook and Central Cook
+Counties. In Indiana, Lake and Porter Counties.
 
-* Special Marine Warning for...
-Coastal waters from Bonita Beach to Englewood FL out 20 NM...
-Coastal waters from Englewood to Tarpon Springs FL out 20 NM...
+* WHEN...Until 1 PM CDT this afternoon.
 
-* Until 530 AM EDT.
+* IMPACTS...Swimmin
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 19 at 5:15AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b517daf74e2231bb4dba7a3aa8a9b26cbf021a1a.001.1) — *2026-07-19*
+  > At 515 AM EDT, Doppler radar was tracking a strong thunderstorm 13
+miles south of Gulf Gate Estates, or 17 miles west of North Port,
+moving north at 35 mph.
 
-* At 456 AM EDT, a strong thunderstorm 
+HAZARD...Wind gusts of 40 to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 19 at 4:14AM CDT until July 19 at 6:30AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e6e16ea667689e78bf21031023cd42660969bbe.001.1) — *2026-07-19*
+  > At 414 AM CDT /314 AM MDT/, Doppler radar indicated thunderstorms
+producing heavy rain across the warned area. Between 1 and 2 inches
+of rain have fallen. Additional rainfall amounts up to 0.5 inches are
+possible in the warned area. Flash flooding is ongoing or expected to
+begin 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 19 at 4:10AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc9f29d14c6706e4a63b5a335375e7e028ed3d7.001.1) — *2026-07-19*
+  > Dry conditions and occasionally breezy winds will lead to near
+critical fire weather conditions today. Southwest winds of 5 to
+10 mph with gusts of 15 to 20 mph are forecast for this
+afternoon. Minimum relative humidity values of 35 to 45 percent
+are also expected. Together, thes
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 19 at 3:07AM MDT until July 19 at 6:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.791eb110049cd992f867a38cbe871b53ca5b3e19.001.1) — *2026-07-19*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...A portion of central New Mexico, including the following
+area, South Central Mountains.
+
+* WHEN...From noon MDT today through this afternoon.
+
+* IMPACTS...Excessive runoff may result in floo
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 19 at 3:33AM CDT until July 19 at 9:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13593072d71d457b71d34e1729c754e0f23d77b9.001.1) — *2026-07-19*
   > * WHAT...Heat index values up to 103 expected.
 
@@ -61,30 +91,6 @@ values in the 35 to 40 percent range. This along with a southwest
 wind 10 to 15 mph, gusts 20 mph will lead to near critical fire
 weather conditions once again thru early evening. These
 conditions could lead to the r
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 19 at 4:27AM EDT until July 19 at 5:30AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4e0e7838c6f11978b6592d9fa9177e228222bae.001.1) — *2026-07-19*
-  > SMWTBW
-
-The National Weather Service in Ruskin has issued a
-
-* Special Marine Warning for...
-Waters from Englewood to Tarpon Springs FL out 20 to 60 NM...
-Waters from Tarpon Springs to Suwannee River FL out 20 to 60 NM...
-
-* Until 530 AM EDT.
-
-* At 427 AM EDT, a strong thundersto
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 19 at 3:25AM CDT until July 19 at 6:30AM CDT by NWS Midland/Odessa TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df010d4943b87fc327a38e7a83d44e8d599b0b2b.001.1) — *2026-07-19*
-  > FFWMAF
-
-The National Weather Service in Midland/Odessa has issued a
-
-* Flash Flood Warning for...
-East Central Culberson County in southwestern Texas...
-West Central Reeves County in southwestern Texas...
-
-* Until 630 AM CDT /530 AM MDT/.
-
-* At 325 AM CDT /225 AM MDT/, Doppler ra
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 19 at 6:24PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ed23f6237788a8b8ec9fa1a2fd8310bc323d18f.001.1) — *2026-07-19*
   > A tropical disturbance, Invest 90W, has shifted north of Chuuk State
 and has weakened. As a result, the Joint Typhoon Warning Center has
@@ -215,23 +221,6 @@ illnesses.
 
 * WHEN...From 1 PM CDT /noon MDT/ this afternoon to 9 PM CDT /8 PM
 MDT/ this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 19 at 2:26AM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4e009a69ec6ccf1e9e3ef40157faebd6a7a7870.001.1) — *2026-07-19*
-  > The Illinois Environmental Protection Agency in Springfield Illinois
-is forecasting unhealthy conditions for sensitive groups (USG) for
-fine particulates due to smoke until midnight CDT tonight.
-
-Active children and adults, especially people with pulmonary or
-respiratory disease 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 19 at 2:23AM CDT until July 21 at 7:00PM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.688f1badd8966a34d0a68466609992f04b727244.001.1) — *2026-07-19*
-  > * WHAT...Heat index values up to 105.
-
-* WHERE...Portions of south central and southwest Illinois and
-central, east central, and southeast Missouri.
-
-* WHEN...Until 7 PM CDT Tuesday.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.
