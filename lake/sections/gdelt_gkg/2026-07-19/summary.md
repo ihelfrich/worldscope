@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-19
-record_count: 65
-new_today: 65
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-65 new of 65 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Uzmanından  ayak soğukluğu damar hastalığının habercisi olabilir  uyarısı](https://www.haber1.com/saglik/uzmanindan-ayak-soguklugu-damar-hastaliginin-habercisi-olabilir-uyarisi/) — *2026-07-19*
-  > haber1.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 科创板史上最大IPO遭遇科技股  猛回调  - 经济观察网 － 专业财经新闻网站](http://www.eeo.com.cn/2026/0718/963642.shtml) — *2026-07-19*
-  > eeo.com.cn · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]  „ Zkuste to bez drátů , milý Marconi . BMW s Toyotou nechávají ve Španělsku jezdit auta na olej na vaření , aby dokázaly , že není jen jedné cesty](http://www.autoforum.cz/predstaveni/zkuste-to-bez-dratu-mily-marconi-bmw-s-toyotou-nechavaji-ve-spanelsku-jezdit-auta-na-olej-na-vareni-aby-dokazaly-ze-neni-jen-jedne-cesty/) — *2026-07-19*
-  > autoforum.cz · Czech · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Mbikëqyrja e jashtëzakonshme e ushqimit tregon se mbikëqyrja e rregullt po dështon](https://koha.mk/mbikeqyrja-e-jashtezakonshme-e-ushqimit-tregon-se-mbikeqyrja-e-rregullt-po-deshton/) — *2026-07-19*
-  > koha.mk · Albanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] В Таджикистане на 78 га созданы плантации павловнии](https://khovar.tj/rus/2026/07/v-tadzhikistane-na-78-ga-sozdany-plantatsii-pavlovnii/) — *2026-07-19*
-  > khovar.tj · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Beunruhigende Szene am Pier : Gigantisches Kreuzfahrtschiff kippt auf einmal um](https://www.nordkurier.de/panorama/spektakulaere-szene-am-pier-gigantisches-kreuzfahrtschiff-kippt-ploetzlich-um-4722749) — *2026-07-19*
-  > nordkurier.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Gold , Silver Face Another Volatile Week , West Asia Tensions & Oil Surge Cloud Bullion Outlook](https://www.freepressjournal.in/business/gold-silver-face-another-volatile-week-west-asia-tensions-oil-surge-cloud-bullion-outlook) — *2026-07-19*
-  > freepressjournal.in · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] İran Dışişleri Bakanı  ndan  güvenlik açığı sürüyor olabilir  açıklaması](https://www.internethaber.com/iran-disisleri-bakanindan-guvenlik-acigi-suruyor-olabilir-aciklamasi-2451562h.htm) — *2026-07-19*
-  > internethaber.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] U . S . Launches New Strikes on Iran After Two American Troops Are Killed](https://www.wvlkam.com/2026/07/19/u-s-launches-new-strikes-on-iran-after-two-american-troops-are-killed/) — *2026-07-19*
-  > wvlkam.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Loléoduc Kirkouk - Banyas : des gains en termes de chiffres et de dimensions stratégique](https://sana.sy/fr/economy/2318943/) — *2026-07-19*
-  > sana.sy · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] U . S . Launches New Strikes on Iran After Two American Troops Are Killed](https://www.newsradio1029.com/2026/07/19/u-s-launches-new-strikes-on-iran-after-two-american-troops-are-killed/) — *2026-07-19*
-  > newsradio1029.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Wilderness Road Guildford crash – Man , 19 , dies | Your Local Guardian](https://www.yourlocalguardian.co.uk/news/26292631.wilderness-road-guildford-crash---man-19-dies/) — *2026-07-19*
-  > yourlocalguardian.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 경북 의성에 또다시 호우경보 … 밤까지 최대 80㎜ 비 예보](https://www.hani.co.kr/arti/area/area_general/1268924.html) — *2026-07-19*
-  > hani.co.kr · Korean · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] El tráfico de mercancías se contrae en un mal inicio de año tras dispararse los carburantes](https://www.eldiadevalladolid.com/noticia/z09720cfd-132f-4c8e-b4d5ef68e2cba341/202607/el-trafico-de-mercancias-se-contrae-en-un-mal-inicio-de-ano) — *2026-07-19*
-  > eldiadevalladolid.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 無人機空襲 、 斷網頻繁導致線上支付不暢 俄民眾被迫現金交易 - 政治圈](https://www.chinatimes.com/realtimenews/20260719002446-260408) — *2026-07-19*
-  > chinatimes.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Federico Croce En la Cima : Me dijeron que la gente se iba a reír de mi voz](https://www.losandes.com.ar/sociedad/federico-croce-en-la-cima-me-dijeron-que-la-gente-se-iba-reir-mi-voz-n5998904) — *2026-07-19*
-  > losandes.com.ar · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Leila Guerriero y otros cinco autores para leer esta semana](https://www.milenio.com/cultura/laberinto/leila-guerriero-y-otros-cinco-autores-para-leer-esta-semana) — *2026-07-19*
-  > milenio.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] No escuro e pressionada por Trump , Cuba aposta em reformas que podem fracassar](https://www.estadao.com.br/internacional/no-escuro-e-pressionada-por-trump-cuba-aposta-em-reformas-que-devem-fracassar/) — *2026-07-19*
-  > estadao.com.br · Portuguese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] الأسبوع المقبل .. انطلاق تدريب الرقابة المالية لشركات الطروحات الحكومية](https://www.shorouknews.com/news/view.aspx?cdate=19072026&id=7e4e0a53-4056-4c9d-9d87-cc37e51acf2c) — *2026-07-19*
-  > shorouknews.com · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Emtia piyasalarında fırtına : Petrol uçtu , gümüş sert düştü](https://www.dunya.com/finans/haberler/emtia-piyasalarinda-firtina-petrol-uctu-gumus-sert-dustu-haberi-832783) — *2026-07-19*
-  > dunya.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Strage di via dAmelio , Rifondazione comunista aderisce allappello di Salvatore Borsellino](https://www.palermotoday.it/politica/strage-via-d-amelio-rifondazione-comunista.html) — *2026-07-19*
-  > palermotoday.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 济南南部山区一网红打卡地有游客落水 ， 消防紧急救援 ， 将落水女子成功营救上岸](https://baijiahao.baidu.com/s?id=1871142010163285829) — *2026-07-19*
-  > baijiahao.baidu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Al menos un muerto en Ucrania mientras Rusia lanza ataque nocturno con misiles y drones sobre Kiev](https://es.euronews.com/my-europe/2026/07/19/al-menos-1-muerto-en-ucrania-mientras-rusia-lanza-ataque-nocturno-con-misiles-y-drones-sob) — *2026-07-19*
-  > es.euronews.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 3 loại rau củ nằm trong  danh sách  đen của đường ruột , gây ung thư](https://kenh14.vn/3-loai-rau-cu-nam-trong-danh-sach-den-cua-duong-ruot-gay-ung-thu-me-may-cung-khong-an-nhieu-215260719182339169.chn) — *2026-07-19*
-  > kenh14.vn · Vietnamese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Eşel mobil sisteminde takvim netleşti : ÖTV desteği 1 Ekimde sona erecek](https://www.dunya.com/enerji/esel-mobil-sisteminde-takvim-netlesti-otv-destegi-1-ekimde-sona-erecek-haberi-832803) — *2026-07-19*
-  > dunya.com · Turkish · tone NA
-
-_(40 additional items in raw.jsonl)_
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Calendario Escolar 2026 - 2027 : ¿ Cuántos puentes marca la SEP ? ](https://www.razon.com.mx/mexico/2026/07/19/calendario-escolar-2026-2027-cuantos-puentes-marca-la-sep/) — *2026-07-19*
+  > razon.com.mx · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Video : ¿ Andinistas están dentro de un glaciar ?: Rescatistas regresan de buscar por falta de apoyo logístico por Latina Noticias](https://www.deperu.com/tv/oM8EfXZRMo4.andinistas-estan-dentro-de-un-glaciar-rescatistas-regresan-de-buscar-por-falta-de-apoyo-logistico.UCpSJ5fGhmAME9Kx2D3ZvN3Q.html) — *2026-07-19*
+  > deperu.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] FEELING THINGS : 3 Signs Youre Annoying , the Most Millennial Things We Do , | 95 . 3 The Bull](https://953bull.iheart.com/featured/bobby-bones/content/2026-07-19-834-bobby-bones-presents-the-b-feeling-things-3-signs-youre-annoying-the-mo/) — *2026-07-19*
+  > 953bull.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] U . S . service member killed in action in northern Iraq , another wounded](https://abc6onyourside.com/news/nation-world/us-service-member-killed-in-action-in-northern-iraq-another-wounded-centcom-iranian-drone-pentagon-jordan-unidentified-remains-missing-in-action-war) — *2026-07-19*
+  > abc6onyourside.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] ВМС : армія Росії атакувала турецький суховантаж , 5 людей загинули](https://www.radiosvoboda.org/a/news-vms-armiia-rosii-suhovantazh-zahybli/33806985.html) — *2026-07-19*
+  > radiosvoboda.org · Ukrainian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Latest Articles](https://freerepublic.com/tag/*/index?more=4388588) — *2026-07-19*
+  > freerepublic.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Водолазы МЧС достали из озера Сон - Куль почти 10 км рыболовных сетей » Gazeta . kg новости Кыргызстана и Бишкека сегодня](https://gazeta.kg/society/208908-vodolazy-mchs-dostali-iz-ozera-son-kul-pochti-10-km-rybolovnyh-setej.html) — *2026-07-19*
+  > gazeta.kg · Russian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Trimestrul II în cifre](https://www.bursa.ro/trimestrul-ii-in-cifre-61616958) — *2026-07-19*
+  > bursa.ro · Romanian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 藍營4小雞接力絕食 ！ 作家看傻酸 「 只是微斷食 」： 笑死人 、 侮辱選民智商 | 政治 | 三立新聞網 SETN . COM](https://www.setn.com/news/1875170) — *2026-07-19*
+  > setn.com · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Kidnap Syndicate Bust : Soldiers Recover Ransom in Imo](https://punchng.com/soldiers-bust-kidnap-syndicate-recover-ransom-in-imo/) — *2026-07-19*
+  > punchng.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Iran retaliates against US allies again after being hit](http://www.brazilsun.com/news/279195987/iran-attacks-logistics-hubs-air-bases-of-us-allies-after-being-hit) — *2026-07-19*
+  > brazilsun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] غزة .. الموت خارج العناوين](https://www.omandaily.om/%D8%B1%D8%A3%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/na/%D8%BA%D8%B2%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AA-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%88%D9%8A%D9%86) — *2026-07-19*
+  > omandaily.om · Arabic · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Gabinete de Netanyahu critica prefeito de NY após comentário sobre prisão](https://www.correiobraziliense.com.br/mundo/2026/07/7464152-gabinete-de-netanyahu-critica-prefeito-de-ny-apos-comentario-sobre-prisao.html) — *2026-07-19*
+  > correiobraziliense.com.br · Portuguese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Kuruc . info - Lehetne tanulni az írektől : közérdekre hivatkozva nyilvánosságra hozták a fojtogatós gyilkos nevét és fényképét](https://kuruc.info/r/2/304835/) — *2026-07-19*
+  > kuruc.info · Hungarian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 5 người tử vong , 8 nạn nhân ngộ độc khí hầm biogas được cấp cứu khẩn cấp](http://vov.vn/xa-hoi/5-nguoi-tu-vong-8-nan-nhan-ngo-doc-khi-ham-biogas-duoc-cap-cuu-khan-cap-post1316760.vov) — *2026-07-19*
+  > vov.vn · Vietnamese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] المؤامرة تجاوزت](https://www.arabstoday.net/w-2649/053518-%D8%A7%D9%84%D9%85%D8%A4%D8%A7%D9%85%D8%B1%D8%A9-%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D8%AA) — *2026-07-19*
+  > arabstoday.net · Arabic · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] US boxer Hannah Rapp dies after being hit by car while cycling](https://www.abc.net.au/news/2026-07-20/american-boxer-hannah-rapp-dies-after-being-hit-by-car/106934222) — *2026-07-19*
+  > abc.net.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Young Australians urged to discuss organ donation](https://www.bendigoadvertiser.com.au/story/9313479/young-australians-urged-to-discuss-organ-donation/) — *2026-07-19*
+  > bendigoadvertiser.com.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Quem era o motorista de aplicativo morto durante corrida em Ribeirão Preto](https://acidadeon.com/ribeiraopreto/cotidiano/quem-era-o-motorista-de-aplicativo-morto-durante-corrida-em-ribeirao-preto/) — *2026-07-19*
+  > acidadeon.com · Portuguese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Haiti : Signs of hope despite gang violence and political uncertainty](https://www.globalissues.org/news/2026/07/19/43612) — *2026-07-19*
+  > globalissues.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Mundial 2026 en DIRECTO : España campeón del mundo ; derrota 1 - 0 a Argentina](https://elmanana.com.mx/deportes/2026/7/19/mundial-2026-en-directo-espana-campeon-del-mundo-derrota-1-0-a-argentina-176809.html) — *2026-07-19*
+  > elmanana.com.mx · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] New : Has Iran Supreme Leader Mojtaba Khamenei Fled Iran ? ](https://redstate.com/wardclark/2026/07/19/new-has-irans-supreme-leader-mojtaba-khamenei-fled-iran-n2204509) — *2026-07-19*
+  > redstate.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Rubio čestitao Bejrutu na  koraku ka miru : Prva poseta libanskog predsednika Vašingtonu od 2009 . godine](https://naslovi.net/2026-07-20/kurir/rubio-cestitao-bejrutu-na-koraku-ka-miru-prva-poseta-libanskog-predsednika-vasingtonu-od-2009-godine/42110130) — *2026-07-19*
+  > naslovi.net · Serbian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Încă un militar SUA a fost ucis în Orientul Mijlociu . Numărul victimelor americane a ajuns la 17](https://hotnews.ro/inca-un-militar-sua-a-fost-ucis-in-orientul-mijlociu-numarul-victimelor-americane-a-ajuns-la-17-2304612) — *2026-07-19*
+  > hotnews.ro · Romanian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] ROUNDUP / Medien : united states verlegen weitere Kampfjets nach Nahost](https://www.finanzen.net/nachricht/aktien/roundup-medien-usa-verlegen-weitere-kampfjets-nach-nahost-15806618) — *2026-07-19*
+  > finanzen.net · German · tone NA

@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-19
-record_count: 202
-new_today: 69
+record_count: 214
+new_today: 123
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-69 new of 202 total items today.
+123 new of 214 total items today.
 
 - [[St. Louis] Kris Miss Bake Shop opens in Lake Saint Louis](https://www.stlmag.com/dining/kris-miss-bake-shop-opens-in-lake-saint-louis/) — *2026-07-17*
   > <p>Kristen Gassel remembers the moment she shed her first tear over her vegan and allergen-friendly baked goods brand, Kris Miss. A few years ago, a little boy and his mother approached her booth at the Lake Saint Louis Farmers &#38; Artists Market. The mom had a lot of questions
@@ -29,29 +29,38 @@ state: fresh
   > <p>Let&#8217;s see how well you know St. Charles. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the ans
 - **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-19*
   > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- [[St. Louis] In Missouri's flashfloods, two rescuers lost their boat. It didn't stop them](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-18/southeast-missouri-flash-floods-boat-rescues) — *2026-07-18*
-- [[St. Louis] Missouri cyclospora cases go up as outbreak linked to alleged supplier from St. Louis E. coli scare](https://www.stlpr.org/health-science-environment/2026-07-17/missouri-cyclospora-cases-double-outbreak-linked-supplier-2024-st-louis-e-coli-scare) — *2026-07-17*
-- [[St. Louis] Post-Dispatch owner Hoffmann to pay $20M for KMOX, Y98 and other stations, pending FCC approval](https://www.stlpr.org/news-briefs/2026-07-17/st-louis-post-dispatch-owner-david-hoffmann-20-milion-deal-kmox) — *2026-07-17*
-- [[St. Louis] St. Louis could see a warmer winter again this year. Here's why](https://www.stlpr.org/news-briefs/2026-07-17/st-louis-warmer-winter) — *2026-07-17*
-- [[St. Louis] St. Louis Fed says food, other costs rising but data center construction helping regional economy](https://www.stlpr.org/economy-business/2026-07-17/st-louis-fed-food-other-costs-rising-but-data-center-construction-helping-regional-economy) — *2026-07-17*
-- [[St. Louis] Missouri woman faces deportation to a strange country, while her husband remains behind](https://www.stlpr.org/government-politics-issues/2026-07-17/missouri-woman-deportation-third-country) — *2026-07-17*
-- [[St. Louis] St. Louis wants teens home for the summer. Experts say enforcement is only half the battle](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-17/st-louis-summer-teen-curfew-experts-enforcement) — *2026-07-17*
-- [[St. Louis] Wyclef Jean will reply to your post-MATI DM](https://www.stlpr.org/arts/2026-07-17/wyclef-jean-resilience-fox-theatre-mati) — *2026-07-17*
-- **NEW**  [[St. Louis] What time is kickoff for World Cup final?](https://www.ksdk.com/article/news/nation-world/what-time-world-cup-final-kickoff/507-0f3ec31d-830a-4e6b-9c61-d159f798639f) — *2026-07-19*
-  > Spain and Argentina face off in New Jersey on Sunday for international soccer's biggest title.
-- **NEW**  [[St. Louis] Volunteers work to restore 200-year-old Collinsville cemetery and preserve local history](https://www.ksdk.com/article/news/community/volunteers-work-to-restore-200-year-old-collinsville-cemetery-and-preserve-local-history/63-6646691f-da58-4ac0-bf43-ca8d0ba04081) — *2026-07-19*
-  > Community members are cleaning, repairing and researching one of the region's oldest cemeteries.
-- **NEW**  [[St. Louis] Viral raccoon 'Jimothy' inspires mural, tattoos and city proclamation in Seattle, Washington](https://www.ksdk.com/article/news/entertainment-news/viral-raccoon-jimothy-mural-tattoos-city-proclamation-seattle-washington/507-c130b6f0-207e-49a2-bf98-0c6a193019e8) — *2026-07-19*
-  > "I think it's kind of a symbol of resilience," a tattoo artist in Seattle said. "He's dealing with life a little bit differently, and he seems to be fine."
-- [[St. Louis] Heat and humidity builds this weekend in St. Louis | Weather Impact Alert](https://www.ksdk.com/article/weather/weather-impact/st-louis-heat-humidity-builds-weekend-weather-impact-alert-july-17/63-f6217dd1-d3bf-4937-b700-c5458e6e47d6) — *2026-07-19*
-  > With the combination of high humidity and building heat, a Heat Advisory has been issued for the St. Louis area
-- **NEW**  [[St. Louis] Thunderstorms expected to clear wildfire smoke from Northeast ahead of World Cup final](https://www.ksdk.com/article/sports/soccer/world-cup/canadian-wildfire-smoke-northeast-thunderstorms-new-jersey-world-cup-conditions/507-f5c1555e-6cbc-4b0c-9e19-87b615dbcce5) — *2026-07-19*
-  > Smoke from Canadian wildfires that engulfed the Northeast in haze is expected to mostly clear from the New Jersey area just in time for the World Cup final.
-- **NEW**  [[St. Louis] US strikes Iran's Revolutionary Guard over an attack that killed troops in Jordan](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-war-military-target-strikes-revolutionary-guard-american-troops-killed/507-5225627f-3b6b-4f3d-b673-ccc13aaeb68b) — *2026-07-19*
-  > The U.S. military launched airstrikes targeting Iran's Revolutionary Guard to retaliate for the killing of American troops in Jordan.
+- **NEW**  [[St. Louis] No joke: St. Louis comedians are turning punchlines into charity checks](https://www.ksdk.com/article/news/local/making-a-difference/st-louis-comedians-are-turning-punchlines-into-charity-checks/63-05c7689c-0df2-450d-a576-810728eb8709) — *2026-07-19*
+  > St. Louis comedians are turning laughs into charitable giving, donating every ticket dollar to local nonprofits through the volunteer group Standup Comedy for Good.
+- **NEW**  [[St. Louis] Who is the top goal scorer at the World Cup?](https://www.ksdk.com/article/sports/soccer/world-cup/who-top-goal-scorer-world-cup-golden-boot/507-ce5a1984-fdd0-4acd-b079-43f157ffdee0) — *2026-07-19*
+  > Kylian Mbappé won the award twice in a row, becoming the first to do so.
+- **NEW**  [[St. Louis] JD and Usha Vance welcome a baby boy, the first child born to a sitting VP in more than 150 years](https://www.ksdk.com/article/news/nation-world/jd-usha-vance-welcome-a-baby-boy/507-14e8b8ba-c0fa-4cea-aa75-cddc9cc0bd3d) — *2026-07-19*
+  > Vice President JD Vance and his wife, Usha, announce the birth of their fourth child Sunday.
+- **NEW**  [[St. Louis] Cardinal Dolan returns to St. Louis for archdiocese's 200th anniversary](https://www.ksdk.com/article/news/local/cardinal-timothy-dolan-returns-to-st-louis-for-archdioceses-200th-anniversary/63-feed2b57-e401-4a7d-a8bc-0c74e7f4ba38) — *2026-07-19*
+  > Cardinal Timothy Dolan returned to his hometown to celebrate the Archdiocese of St. Louis' 200th anniversary and reflect on 50 years as a priest.
+- **NEW**  [[St. Louis] When was the last time a World Cup final match ended in 1-0?](https://www.ksdk.com/article/sports/soccer/world-cup/when-last-time-world-cup-final-1-0/507-dc02ad2f-6f2a-4efe-95e6-da286eafee01) — *2026-07-19*
+  > Spain's tense World Cup final win over Argentina was full of historic firsts, but what about final matches ending in 1-0?
+- **NEW**  [[St. Louis] Who won the World Cup?](https://www.ksdk.com/article/sports/soccer/world-cup/world-cup-2026-winner-argentina-spain/507-a3f5d7af-27d7-438c-a18b-f7a66d62fec2) — *2026-07-19*
+  > Here's a full recap of what happened during the 2026 World Cup final match between Argentina and Spain.
+- **NEW**  [[St. Louis] How does overtime work at the World Cup?](https://www.ksdk.com/article/sports/soccer/world-cup/soccer-overtime-rules-world-cup/507-3bb0d70a-0a24-4f2f-96a1-54c607abfae2) — *2026-07-19*
+  > Here's what to know about FIFA World Cup timing rules, including overtime.
+- **NEW**  [[St. Louis] US announces another troop death as Israel warns Tehran's attacks are coming close](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-war-military-target-strikes-revolutionary-guard-american-troops-killed/507-5225627f-3b6b-4f3d-b673-ccc13aaeb68b) — *2026-07-19*
+  > The U.S. and Iran have returned closer to all-out war as the interim deal meant to end the fighting crumbled and shipping traffic in the Strait of Hormuz stalled.
+- **NEW**  [[St. Louis] How much do winners of the World Cup get paid?](https://www.ksdk.com/article/news/nation-world/how-much-do-winners-of-the-world-cup-get-paid/507-b15b07f0-2ad2-413a-b73a-703c4eb6bd80) — *2026-07-19*
+  > Despite the win, the two finalist are walking away with a chunk of prize money.
+- **NEW**  [[St. Louis] 2 killed, 7 injured in North Carolina
+shooting, police say](https://www.ksdk.com/article/news/nation-world/asheville-north-carolina-shooting/507-7eb21916-6675-43d2-8e07-c95d48f21754) — *2026-07-19*
+  > Investigators believe the shooting was not random and are working to identify those responsible.
 - **NEW**  [[St. Louis] 'Together, we heal': East St. Louis community honors 5 slain family members with day of remembrance](https://www.ksdk.com/article/news/crime/east-st-louis-community-honors-5-slain-family-members-with-day-of-remembrance/63-5af66fa9-2c61-4ece-8a02-4b7c3fb7054f) — *2026-07-19*
   > Neighbors gathered for a community healing event, candlelight vigil and balloon release Saturday, following last weekend's shooting spree in East St. Louis.
-- **NEW**  [[St. Louis] US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-strait-hormuz-attack-war-infrastructure-military-target-strikes/507-51e7fd69-d142-4437-a746-7ab667c675f7) — *2026-07-19*
-  > The U.S. military has launched airstrikes against Iran's Revolutionary Guard in retaliation for an attack in Jordan that killed two U.S. service members.
+- **NEW**  [[St. Louis] Target recalls children's sandals over decorative pearls that could pose a choking hazard](https://www.ksdk.com/article/news/nation-world/target-recalls-childrens-sandals-after-choking-hazard/507-ac0f16ef-14b7-4bf5-9032-6de507442a84) — *2026-07-19*
+  > The recall affects Cat & Jack toddler sandals after decorative pearls detached in 23 reported incidents. No injuries have been reported.
+- **NEW**  [[St. Louis] Missing tubers found safe after failing to return from float on fast-moving, flooded river in Texas](https://www.ksdk.com/article/news/nation-world/frio-river-texas-tubing-water-recreation-float-fast-flooding-dangerous-conditions/507-572b9c12-3269-4b25-a340-94edf6db93f2) — *2026-07-19*
+  > The department said the tubers were located safe around 9 a.m. local time Sunday after crews and partner agencies searched the river area.
+- **NEW**  [[St. Louis] Motorcycle crash on I-64 leaves teen dead, rider injured](https://www.ksdk.com/article/traffic/motorcycle-crash-interstate-64-pedestrian-struck-chesterfield/63-8e883510-264c-471b-83e6-6b54063d892c) — *2026-07-19*
+  > The crash happened early Sunday morning on westbound I-64 near Highway K.
+- **NEW**  [[St. Louis] Professional boxer Hannah Rapp killed in crash while a riding bicycle in Texas](https://www.ksdk.com/article/news/nation-world/professional-boxer-hannah-rapp-killed-crash-riding-bicycle-texas/507-b10e3e29-bc1f-4c01-874b-a8dc398aac87) — *2026-07-19*
+  > "She was an exceptional boxer, but above all, an invaluable member of our boxing family," the World Boxing Council president said in a news release.
+- **NEW**  [[St. Louis] What time is kickoff for World Cup final?](https://www.ksdk.com/article/news/nation-world/what-time-world-cup-final-kickoff/507-0f3ec31d-830a-4e6b-9c61-d159f798639f) — *2026-07-19*
+  > Spain and Argentina face off in New Jersey on Sunday for international soccer's biggest title.
 
-_(177 additional items in raw.jsonl)_
+_(189 additional items in raw.jsonl)_

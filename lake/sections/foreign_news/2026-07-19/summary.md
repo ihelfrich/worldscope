@@ -2,64 +2,42 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-19
-record_count: 956
-new_today: 473
+record_count: 1005
+new_today: 640
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-473 new of 956 total items today.
+640 new of 1005 total items today.
 
-- **NEW**  [[Global] Chinese firm seeks compensation over British Steel nationalisation](https://www.bbc.co.uk/news/articles/cwyj4ppqn41o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > Jingye said it will take action "through legal means to the very end" after the UK government nationalised British Steel.
-- **NEW**  [[Global] New EU border system tripling time at passport control, airport boss says](https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.
-- [[Global] 'My buyers dropped their offer by £15,000 the day before exchange': Gazundering and how to avoid it](https://www.bbc.co.uk/news/articles/c3d39r338m0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > It's a small but growing problem in the property market - here's how to protect yourself.
-- **NEW**  [[Global] Is Burnham promising a new dawn for North Sea oil and gas?](https://www.bbc.co.uk/news/articles/c4g3l22ry6wo?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > The incoming PM is expected to announce fresh support for the North Sea from day one of his premiership.
-- **NEW**  [[Global] The hidden cost of the night shift and how to sleep it off](https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?
-- [[Global] Brewdog founder faces data complaints over efforts to buy back firm](https://www.bbc.co.uk/news/articles/c4gw9pp0xlno?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > The UK data watchdog has received complaints after James Watt reportedly contacted former shareholders.
-- [[Global] The financial winners and losers from the World Cup](https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?
-- [[Global] Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?](https://www.bbc.co.uk/news/articles/clyl3z2xld8o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country.
-- [[Global] China hits out at British Steel nationalisation](https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > The UK government said taking the firm into public hands would safeguard "a vital national capability".
-- [[Global] Five headaches Andy Burnham will have to deal with as PM](https://www.bbc.co.uk/news/articles/c62122pgjqdo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > From defence spending to housing - the next UK leader has a series of challenges to deal with.
-- [[Global] China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic](https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > The company has unveiled a massive new artificial intelligence model it says can take on top American firms.
-- [[Global] Why has British Steel been nationalised?](https://www.bbc.co.uk/news/articles/c5y66y40kgpo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.
-- [[Global] Why are UK fuel prices rising again?](https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > UK fuel prices are going up again after the collapse of peace talks to end the US-Israel war with Iran.
-- [[Global] Who is the frontrunner to be the UK's next chancellor?](https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.
-- [[Global] Trump Media to sell instant access to 'market-moving' social posts](https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.
-- **NEW**  [[Global] Private jets flock to Montana - but locals can't afford the trailer park](https://www.bbc.co.uk/news/articles/ckg92d8d40yo?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Rents in Bozeman, Montana have skyrocketed as wealthy out-of-towners flock to the city to experience the American West.
-- [[Global] Guidance needed for families reclaiming childcare](https://www.bbc.co.uk/news/articles/cx2d5yxpry0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Some families have had problems claiming back cash as part of the pilot scheme.
-- [[Global] Rural residents back heating oil protection plan](https://www.bbc.co.uk/news/articles/clyry0ky6vno?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Households reliant on heating oil as a fuel source say better regulation of pricing is needed.
-- [[Global] 'I'd rather not leave the house so I don't get into more debt'](https://www.bbc.co.uk/news/articles/cy8d1zm01k0o?at_medium=RSS&at_campaign=rss) — *2026-07-18*
-  > Great Yarmouth has some of the highest levels of problem debt in the country, but help is at hand.
-- [[Global] What are your rights if you buy something that breaks?](https://www.bbc.co.uk/news/videos/c3r0lq9n14wo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Martin Lewis explains why you should go back to the item's retailer, not the manufacturer.
-- [[Global] Why women should speak openly about money](https://www.bbc.co.uk/news/videos/cvgwdxqj3k4o?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Emma joins Nuala McGovern to discuss her book Start With Yourself: A New Vision for Work and Life.
-- [[Global] What are your rights if you buy something that breaks?](https://www.bbc.co.uk/news/videos/c3r0lq9n14wo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Martin Lewis explains why you should go back to the item's retailer, not the manufacturer.
-- [[Global] How do you split the bill with friends?](https://www.bbc.co.uk/news/videos/c5yzy3j39vwo?at_medium=RSS&at_campaign=rss) — *2026-07-17*
-  > Hands down the worst part of going out for dinner.
-- **NEW**  [[Global] US and Iran exchange strikes after two US soldiers killed in Jordan](https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.
-- **NEW**  [[Global] Tate brothers arrested in US as further UK charges take total to 59](https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss) — *2026-07-19*
-  > The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-19*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-19*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-19*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] São Tomé and Príncipe heads to polls in tense presidential election](https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election) — *2026-07-19*
+- [[Global] ‘We are preserving a tradition’: how Ghana’s sensationalist film posters became collectible art](https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art) — *2026-07-18*
+- [[Global] Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group](https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya) — *2026-07-17*
+- **NEW**  [[Global] Dozens missing after passenger ferry sinks off coast of Guyana](https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana) — *2026-07-19*
+- **NEW**  [[Global] Earthquake in Peru leaves at least six dead](https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people) — *2026-07-19*
+- [[Global] Flash flood warnings strike north-east US amid wildfire smoke from Canada](https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us) — *2026-07-18*
+- [[Global] Air quality warnings remain in place across US as wildfire smoke continues to swathe country](https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires) — *2026-07-18*
+- [[Global] Cuba edges toward breakdown as power cuts and US meddling push society to brink](https://www.theguardian.com/world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink) — *2026-07-18*
+- [[Global] Australia updates travel advice for Laos as charges announced over mass methanol poisoning](https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers) — *2026-07-17*
+- [[Global] Biodiversity fears as human-bred hybrid fish integrate into Philippines lake](https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake) — *2026-07-17*
+- [[Global] ICE arrests human rights lawyer who fled Chinese crackdown](https://www.theguardian.com/us-news/2026/jul/17/ice-arrests-human-rights-lawyer-wu-shaoping-fled-chinese-crackdown) — *2026-07-17*
+- [[Global] Weather tracker: Thunderstorms strike across Europe amid record heatwave](https://www.theguardian.com/environment/2026/jul/17/weather-tracker-thunderstorms-strike-across-europe-amid-record-heatwave) — *2026-07-17*
+- [[Global] China ‘strongly dissatisfied’ with nationalisation of British Steel](https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied) — *2026-07-17*
+- **NEW**  [[Global] News live: Lee Hanson says her mother’s comments about the White Australia policy were ‘misinterpreted’](https://www.theguardian.com/australia-news/live/2026/jul/20/australia-news-live-anthony-albanese-pauline-hanson-labor-one-nation-angus-taylor-coalition-antisemitism-royal-commission-ntwnfb) — *2026-07-19*
+- **NEW**  [[Global] Australia’s life dissatisfaction levels double as ‘wellbeing poverty’ reaches new highs](https://www.theguardian.com/business/2026/jul/20/australias-life-dissatisfaction-levels-double-as-wellbeing-poverty-reaches-new-highs) — *2026-07-19*
+- **NEW**  [[Global] Australian and NZ safety assurances about asbestos in play sand were based on supplier’s own assessment](https://www.theguardian.com/australia-news/2026/jul/20/play-sand-asbestos-safety-assurances-australia-nz-based-on-supplier-assessment) — *2026-07-19*
+- **NEW**  [[Global] Government use of automated AI decision-making to be curbed under new Australian rules](https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton) — *2026-07-19*
+- **NEW**  [[Global] Victoria announces new social media ‘demasking’ powers for accounts accused of vilification](https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers) — *2026-07-19*
+- **NEW**  [[Global] Molten salt and human sweat: the weird batteries that could store renewable energy](https://www.theguardian.com/environment/2026/jul/19/molten-salt-human-sweat-weird-batteries-store-renewable-energy) — *2026-07-19*
+- **NEW**  [[Global] Bad Bunny concert in Milan abandoned because of hailstorm](https://www.theguardian.com/music/2026/jul/19/bad-bunny-milan-abandoned-hailstorm) — *2026-07-19*
+- **NEW**  [[Global] Russia pounds Kyiv for five hours in one of its biggest ballistic missile attacks](https://www.theguardian.com/world/2026/jul/19/dozens-of-russian-missiles-pound-kyiv-ukraine-in-major-attack) — *2026-07-19*
+- [[Global] Hungary’s president agrees to stand down after law change ends his term](https://www.theguardian.com/world/2026/jul/18/hungarys-president-agrees-to-stand-down-after-law-change-ends-his-term) — *2026-07-18*
 
-_(931 additional items in raw.jsonl)_
+_(980 additional items in raw.jsonl)_
