@@ -3,63 +3,63 @@ section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-20
 record_count: 50
-new_today: 0
-state: stale_after_failure
+new_today: 50
+state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-0 new of 50 total items today.
+50 new of 50 total items today.
 
-- [[Russia oil sanctions perimeter · themes]   Šī ir pirmā reize , kad mēs ar kaut ko tādu saskaramies  – negaidīta atziņa no Maskavas](https://www.la.lv/si-ir-pirma-reize-kad-mes-ar-kaut-ko-tadu-saskaramies-negaidita-atzina-no-maskavas) — *2026-07-20*
-  > la.lv · Latvian · tone NA
-- [[Russia oil sanctions perimeter · themes] ЦБ купил юаней на внутреннем рынке на 4 , 8 миллиарда рублей](https://1prime.ru/20260720/tsb-871615092.html) — *2026-07-20*
-  > 1prime.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] هيئة بريطانية : جنوح سفينة قبالة الساحل العماني بعد استهداف بمقذوف](https://www.shorouknews.com/news/view.aspx?cdate=20072026&id=9316e959-d172-4f60-9798-06a4cb00f84f) — *2026-07-20*
-  > shorouknews.com · Arabic · tone NA
-- [[Russia oil sanctions perimeter · themes] Ship ablaze in Strait of Hormuz after attack ; crew rescued : united kingdom maritime agency](https://aninews.in/news/world/europe/ship-ablaze-in-strait-of-hormuz-after-attack-crew-rescued-uk-maritime-agency20260720134908/) — *2026-07-20*
-  > aninews.in · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Producția industrială din Republica Moldova a crescut cu peste 8 % în luna mai](https://news.yam.md/ro/story/45542133) — *2026-07-20*
-  > news.yam.md · Romanian · tone NA
-- [[Russia oil sanctions perimeter · themes] Grande dame returns : inside the historic the Queenscliff Hotel | The Daily Advertiser](https://www.dailyadvertiser.com.au/story/9310011/grande-dame-returns-inside-the-historic-the-queenscliff-hotel/) — *2026-07-20*
-  > dailyadvertiser.com.au · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Nepal News | Nepal First Online News Portal](https://nepalnews.com/2026/07/20/the-renaissance-of-shramdan/) — *2026-07-20*
-  > nepalnews.com · Nepali · tone NA
-- [[Russia oil sanctions perimeter · themes] 澎湖2漁船凌晨擦撞1人落海獲救 半沉漁船拖返馬公 | 社會 | 三立新聞網 SETN . COM](https://www.setn.com/news/1875426) — *2026-07-20*
-  > setn.com · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] Asya borsaları düşüşte ! ABD - İran gerilimi sürüyor](https://www.sabah.com.tr/finans/borsa/asya-borsalari-dususte-abd-iran-gerilimi-suruyor-7625937) — *2026-07-20*
-  > sabah.com.tr · Turkish · tone NA
-- [[Russia oil sanctions perimeter · themes] Трагедия в Одесском заливе : число погибших возросло до 10](https://odessa-life.od.ua/news/tragediya-v-odesskom-zalive-posle-ataki-rf-chislo-pogibshih-vozroslo-do-10) — *2026-07-20*
-  > odessa-life.od.ua · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Зеленски : Погођени руски логистички објекти , складиште нафте и бродови у Црном мору](https://www.politika.rs/scc/clanak/772207/zelenski-pogodeni-ruski-logisticki-objekti-skladiste-nafte-i-brodovi-u-crnom-moru) — *2026-07-20*
-  > politika.rs · Serbian · tone NA
-- [[Russia oil sanctions perimeter · themes]  « Մերսեդես »- ը բախվել է կամրջի արգելապատնեշին , կողաշրջվել ․ վարորդի կինն ու 2 երեխաները տեղափոխվել են հիվանդանոց](https://armtimes.com/hy/article/340347) — *2026-07-20*
-  > armtimes.com · Armenian · tone NA
-- [[Russia oil sanctions perimeter · themes] Økonomi , Rente | Roser « harryhandelen »: Godt nytt for renten](https://www.f-b.no/roser-harryhandelen-godt-nytt-for-renten/s/5-59-3969230) — *2026-07-20*
-  > f-b.no · Norwegian · tone NA
-- [[Russia oil sanctions perimeter · themes] Nolan Wells death : 2 weeks later , many questions loom](https://www.cnn.com/2026/07/20/us/nolan-wells-death-investigation-2-weeks) — *2026-07-20*
-  > cnn.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Iran : nave in fiamme nello stretto di Hormuz . Attacco united states a Tabriz](https://www.primapress.it/iran-nave-in-fiamme-nello-stretto-di-hormuz-attacco-usa-a-tabriz/) — *2026-07-20*
-  > primapress.it · Italian · tone NA
-- [[Russia oil sanctions perimeter · themes] Kocaelide kontrolden çıkan motosikletin lokantadaki müşteriye çarpması kamerada](https://www.haberler.com/guncel/kontrolden-cikan-motosiklet-lokantaya-daldi-musteri-yaralandi-20068854-haberi/) — *2026-07-20*
-  > haberler.com · Turkish · tone NA
-- [[Russia oil sanctions perimeter · themes] Derryn Hinch ex - wife Jackie Weaver jokes about his long list of former lovers in heartfelt tribute at his state funeral](https://www.dailymail.com/news/article-15989747/derryn-hinch-state-funeral-melbourne-jackie-weaver-tribute.html) — *2026-07-20*
-  > dailymail.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] روبیو می‌گوید به‌رغم ادامۀ حملات به ایران ، آمریکا آماده مذاکره است](https://www.radiofarda.com/a/rubio-says-iran-using-hormuz-as-leverage-calls-on-other-countries-to-step-up-/33807343.html) — *2026-07-20*
-  > radiofarda.com · Persian · tone NA
-- [[Russia oil sanctions perimeter · themes] The crocodile effect | TTG Asia](https://www.ttgasia.com/2026/07/20/the-crocodile-effect/) — *2026-07-20*
-  > ttgasia.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] 中国电信发布人工智能产业基金](https://news.pedaily.cn/202607/566566.shtml) — *2026-07-20*
-  > news.pedaily.cn · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] Nohemi Pérez :  En Venezuela si sueltas un niño desaparece  ](https://www.elprogreso.es/articulo/lugo/nohemi-perez-venezuela-sueltas-nino-desaparece/202607201022271986506.html) — *2026-07-20*
-  > elprogreso.es · Spanish · tone NA
-- [[Russia oil sanctions perimeter · themes] БПЛА ВСУ вновь атаковал танкер на терминале КТК в Черном море](https://aif.ru/incidents/tanker-vnov-atakovan-bpla-na-terminale-ktk) — *2026-07-20*
-  > aif.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Rússia ataca reservatórios de combustível em Odessa , Ucrânia atinge navios russos](https://www.rtp.pt/noticias/guerra-na-ucrania/russia-ataca-reservatorios-de-combustivel-em-odessa-ucrania-atinge-navios-russos_n1754543) — *2026-07-20*
-  > rtp.pt · Portuguese · tone NA
-- [[Russia oil sanctions perimeter · themes] Rubio Says Iran Seeking to Use Strait of Hormuz as Leverage Against World](https://www.khaama.com/rubio-says-iran-seeking-to-use-strait-of-hormuz-as-leverage-against-world/) — *2026-07-20*
-  > khaama.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Gas prices hit $4 again after oil soars more than 15 % in a week](https://www.nbcsandiego.com/news/national-international/gas-prices-4-dollars-oil-soars-more-than-15-percent/4050838/) — *2026-07-20*
-  > nbcsandiego.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian attacks kill 6 in Kyiv and other cities , expose gaps in Ukraine air defenses](https://www.naharnet.com:443/stories/en/321345-russian-attacks-kill-6-in-kyiv-and-other-cities-expose-gaps-in-ukraine-s-air-defenses) — *2026-07-20*
+  > naharnet.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian attacks kill 6 in Kyiv and other cities and expose gaps in Ukraine air defenses](https://isp.netscape.com:443/news/world/story/0001/20260719/ddea9c0a10367fc84b3cb563896102e3) — *2026-07-20*
+  > isp.netscape.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia intensifies Black Sea attacks as fears mount over potential wider European conflict](https://www.bankingnews.gr/diethni/articles/889246/russia-intensifies-black-sea-attacks-as-fears-mount-over-potential-wider-european-conflict) — *2026-07-20*
+  > bankingnews.gr · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests](http://www.idahostatejournal.com/news/national/ukraine-fires-400-drones-toward-moscow-as-zelenskyy-grapples-with-protests/article_e648820b-c746-57be-a1fd-c7be7a806cca.html) — *2026-07-20*
+  > idahostatejournal.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Kazakhstan Warns Drone Attack on CPC Oil Tankers Risks Global Energy Security](https://astanatimes.com/2026/07/kazakhstan-warns-drone-attack-on-cpc-oil-tankers-risks-global-energy-security/) — *2026-07-20*
+  > astanatimes.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests](https://www.clickondetroit.com/news/world/2026/07/20/ukraine-fires-400-drones-toward-moscow-as-zelenskyy-grapples-with-protests/) — *2026-07-20*
+  > clickondetroit.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine fires 400 drones at Moscow as Russia steps up ballistic missile attacks](https://www.euronews.com/2026/07/20/ukraine-fires-400-drones-at-moscow-as-russia-steps-up-ballistic-missile-attacks) — *2026-07-20*
+  > euronews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests](https://www.news4jax.com/news/world/2026/07/20/ukraine-fires-400-drones-toward-moscow-as-zelenskyy-grapples-with-protests/) — *2026-07-20*
+  > news4jax.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests](https://www.clickorlando.com/news/world/2026/07/20/ukraine-fires-400-drones-toward-moscow-as-zelenskyy-grapples-with-protests/) — *2026-07-20*
+  > clickorlando.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Zelensky : We struck energy facilities in Stavropol Krai and tankers in the Black Sea](https://news.am/en/news/1050600) — *2026-07-20*
+  > news.am · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia unleashes one of the biggest ballistic missile attacks of Ukraine war , Kyiv says](https://www.abc57.com/news/russia-unleashes-one-of-the-biggest-ballistic-missile-attacks-of-ukraine-war-kyiv-says) — *2026-07-20*
+  > abc57.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine strikes Russia shadow fleet , air defense systems and energy infrastructure](https://en.apa.az/europe/ukraine-strikes-russias-shadow-fleet-air-defense-systems-and-energy-infrastructure-516890) — *2026-07-20*
+  > en.apa.az · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Launches Major Missile , Drone Attack On Kyiv As Ukraine Hits Black Sea Tankers](https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260719-rferl01.htm) — *2026-07-20*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia unleashes major ballistic missile attacks , Ukraine says](https://www.wjcl.com/article/russia-missile-attacks-ukraine-kyiv/73178544) — *2026-07-20*
+  > wjcl.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian attacks kill 6 in Kyiv and other cities , expose gaps in Ukraine air defenses](https://www.naharnet.com/stories/en/321345-russian-attacks-kill-6-in-kyiv-and-other-cities-expose-gaps-in-ukraine-s-air-defenses) — *2026-07-20*
+  > naharnet.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Strikes Greek - Linked Tanker in Black Sea](https://athens-times.com/russian-drones-strike-greek-linked-tanker-in-black-sea-5-dead-in-attack-on-turkish-vessel/) — *2026-07-20*
+  > athens-times.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia launches major missile attack on Ukrainian cities - World](https://www.dawn.com/news/2016860/russia-launches-major-missile-attack-on-ukrainian-cities) — *2026-07-20*
+  > dawn.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Launches Ballistic Missile Attacks On Kyiv , Four Killed Across Ukraine](https://www.outlookindia.com/international/russia-launches-ballistic-missile-attacks-on-kyiv-four-killed-across-ukraine) — *2026-07-20*
+  > outlookindia.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine Invasion Day 1 , 607 : massive RU missile attack on Kyiv](https://www.dailykos.com/stories/2026/7/19/800072157/community/1607/) — *2026-07-20*
+  > dailykos.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] The world is looking ahead toward a post - Iran oil market that offsets most Hormuz volumes in a few years as ships reject a U . S .- backed alternate route](https://finance.yahoo.com/energy/articles/world-looking-ahead-toward-post-175103429.html) — *2026-07-20*
+  > finance.yahoo.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine war briefing : Russia behind deadly strike on cargo ship , says Ukraine , as Putin thanks North Korea](https://www.aol.co.uk/articles/ukraine-war-briefing-russia-behind-002950000.html) — *2026-07-20*
+  > aol.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine blames Russia for deadly strike on Turkish cargo ship](https://www.koreaherald.com/article/10813656) — *2026-07-20*
+  > koreaherald.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine war briefing : Russia behind deadly strike on cargo ship , says Ukraine , as Putin thanks North Korea](https://www.theguardian.com/world/2026/jul/20/ukraine-war-briefing-russia-behind-deadly-strike-on-cargo-ship-says-ukraine-as-putin-thanks-north-korea) — *2026-07-20*
+  > theguardian.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia hits Kyiv with largest ballistic missile barrage since start of invasion](https://www.stripes.com/theaters/europe/2026-07-19/russia-kyiv-largest-barrage-missiles-22311326.html) — *2026-07-20*
+  > stripes.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · themes] Explainer : After nine straight nights of strikes , where is the US - Iran conflict headed ? ](https://tribune.com.pk/story/2619295/explainer-after-nine-straight-nights-of-strikes-where-is-the-us-iran-conflict-headed) — *2026-07-20*
+  > tribune.com.pk · English · tone NA
 
 _(25 additional items in raw.jsonl)_

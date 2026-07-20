@@ -2,275 +2,219 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-20
-record_count: 176
-new_today: 167
+record_count: 161
+new_today: 153
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-167 new of 176 total items today.
+153 new of 161 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-8025) — *2026-07-20*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-56259) — *2026-07-20*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 4:49AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76dc43e7b3084e50c5ecf3fb61df672431777ac6.001.1) — *2026-07-20*
-  > At 448 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Plum City to near Mantorville to near
-Clarks Grove. Movement was southeast at 40 mph.
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 8:04AM CDT until July 20 at 9:00PM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e016846db79a1a6bbbc7bcb6cb9577df667e9c59.002.1) — *2026-07-20*
+  > ...RED FLAG WARNING REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 8
+PM MDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR CORSON
+AND DEWEY...
 
-HAZARD...Wind gusts up to 50 mph.
+...RED FLAG WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 9
+PM CDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 8:04AM CDT until July 20 at 9:00PM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e016846db79a1a6bbbc7bcb6cb9577df667e9c59.001.1) — *2026-07-20*
+  > ...RED FLAG WARNING REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 8
+PM MDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR CORSON
+AND DEWEY...
 
-SOURCE...Radar indicated.
+...RED FLAG WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 9
+PM CDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 20 at 8:00AM CDT until July 20 at 8:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.001.1) — *2026-07-20*
+  > * WHAT...Dangerously hot conditions with heat index values up to 107
+expected.
 
-IMPACT...Gusty winds could knock do
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 5:30AM EDT until July 20 at 6:30AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e2cd8d4c94829e383a8405d9d6f61ab440c00f6.001.1) — *2026-07-20*
-  > SMWTBW
+* WHERE...Portions of northwest and west central Iowa, northeast
+Nebraska, and southeast South Dakota.
 
-The National Weather Service in Ruskin has issued a
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
 
-* Special Marine Warning for...
-Coastal waters from Englewood to Tarpon Springs FL out 20 NM...
-Coastal waters from Tarpon Springs to Suwannee River FL out 20
-NM...
+* IMPACTS...Heat related illnesses i
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 8:00AM CDT until July 20 at 8:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.003.1) — *2026-07-20*
+  > * WHAT...Heat index values up to 104 expected.
 
-* Until 630 AM EDT.
+* WHERE...Portions of northwest Iowa and south central and southeast
+South Dakota.
 
-* At 530 AM EDT, a strong thunde
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 5:28AM EDT until July 20 at 6:30AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e09491244e85a0d1d59b1544d823a24dc3cbd884.001.1) — *2026-07-20*
-  > SMWTBW
-
-The National Weather Service in Ruskin has issued a
-
-* Special Marine Warning for...
-Coastal waters from Tarpon Springs to Suwannee River FL out 20
-NM...
-Waters from Tarpon Springs to Suwannee River FL out 20 to 60 NM...
-
-* Until 630 AM EDT.
-
-* At 527 AM EDT, a strong thu
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 3:24AM MDT until July 20 at 9:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c24072a7671cb439cf3c38f0d65681e739d7cf.001.1) — *2026-07-20*
-  > * WHAT...High Temperatures 99 to 103.
-
-* WHERE...Fort Collins, Boulder, Denver metro, and Greeley.
-
-* WHEN...Until 9 PM MDT this evening.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:20AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.724ae054f14d47f6a72f8c1dd4bf7962b6e4a2d1.001.1) — *2026-07-20*
-  > * WHAT...Southwest winds 30 to 40 kt with gusts up to 55 kt and
-seas 10 to 15 ft. The strongest winds are forecast to be over
-the open Gulf waters.
-
-* WHERE...Portions of the coastal waters of Alabama and
-northwest Florida.
-
-* WHEN...Tropical Storm force winds possible from early
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:20AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.724ae054f14d47f6a72f8c1dd4bf7962b6e4a2d1.002.1) — *2026-07-20*
-  > * WHAT...Southwest winds 25 to 35 kt with gusts up to 55 kt and
-seas 10 to 15 ft. The strongest winds are forecast to be over
-the open Gulf waters.
-
-* WHERE...Pensacola Bay System, Western Choctawhatchee Bay,
-Eastern Choctawhatchee Bay, Coastal waters from Okaloosa
-Walton County 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 4:20AM CDT until July 21 at 8:00PM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ce4f1a86ee83a1276123a400c8b2134594bd9e4.001.1) — *2026-07-20*
-  > * WHAT...Dangerous heat and humidity. Heat index values well over
-100 degrees.
-
-* WHERE...Across Middle Tennessee.
-
-* WHEN...From 10 AM this morning to 8 PM CDT Tuesday.
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 4:17AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f418a7a8627b864335b9dba6a112a2a16a6119a8.001.1) — *2026-07-20*
-  > Due to continued dry conditions in forested areas around Park
-Rapids, Bemidji and Baudette conditions will remain favorable for
-near critical fire weather conditions once again this afternoon
-and early evening. This is despite higher RH values today. The
-situation is evaluated da
-- **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued July 20 at 4:16AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05775107a488c0c5c46950b35f5c84fa390c9a71.001.1) — *2026-07-20*
-  > HLSMOB
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 8:00AM CDT until July 20 at 4:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.002.1) — *2026-07-20*
+  > * WHAT...Heat index values up to 103 expected.
 
-This product covers portions of southwest Alabama...northwest Florida...south
-central Alabama...and inland southeast Mississippi.
+* WHERE...Portions of southwest Minnesota and southeast South Dakota.
 
-**TROPICAL DEPRESSION TWO EXPECTED TO BECOME A TROPICAL STORM LATER TODAY**
-**TROPICAL STORM WATCH EXTENDED TO MISSISSIPPI/ALABAMA BORDER**
+* WHEN...From 11 AM this morning to 4 PM CDT this afternoon.
 
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.002.1) — *2026-07-20*
+  > The Pennsylvania Department of Environmental Protection has
+issued a code ORANGE air quality alert for Monday, for the Mon
+Valley area.
 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 20 at 4:12AM CDT until July 21 at 7:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66ba0ba38d86ad64827f4b30ba434af0a1e25214.001.1) — *2026-07-20*
-  > * WHAT...High waves and dangerous currents expected.
+A code ORANGE air quality alert means that air pollution
+concentrations within the region may become unhealthy for sensitive
+groups. Sensitive 
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.003.1) — *2026-07-20*
+  > The Pennsylvania Department of Environmental Protection has issued
+a code ORANGE air quality alert for Monday, for Indiana county.
 
-* WHERE...Beaches along Lake Michigan in Door, Kewaunee and
-Manitowoc Counties.
+A code ORANGE air quality alert means that air pollution
+concentrations within the region may become unhealthy for sensitive
+groups. Sensitive group
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.001.1) — *2026-07-20*
+  > The Pennsylvania Department of Environmental Protection has
+issued a code ORANGE air quality alert for Monday, for the greater
+Pittsburgh region, including Allegheny, Butler, Beaver, Armstrong,
+Washington, Westmoreland and Fayette counties.
 
-* WHEN...From 10 AM CDT this morning through Tuesday morning.
+A code ORANGE air quality alert means 
+- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 20 at 5:54AM PDT until July 23 at 9:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.758d3b1f1b159e68a24ac0f3c0437f40e4740def.001.1) — *2026-07-20*
+  > * WHAT...Dangerously hot conditions with temperatures 100 to 102
+degrees, and 101 to 105 in the Columbia Basin possible. This will
+pose a moderate to major risk of heat-related illness.
 
-* IMPACTS...Dangerous swimming conditions are expected. Strong
-currents can pull s
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.002.1) — *2026-07-20*
-  > A Tropical Storm Watch means tropical storm-force winds are possible
-somewhere within this area within the next 48 hours
+* WHERE...Eastern Columbia River Gorge of Oregon and Washington,
+Lower Columbia Basin of Oreg
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 8:49AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca954fe435897e417548134b71ca5f465792f5a.001.1) — *2026-07-20*
+  > SVRMQT
 
-* LOCATIONS AFFECTED
-- Grand Bay
-- Dauphin Island
-- Bayou La Batre
+The National Weather Service in Marquette has issued a
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-3
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.006.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Pensacola
-- Pensacola Beach
-- Perdido Bay
+* Severe Thunderstorm Warning for...
+Keweenaw County in western Upper Michigan...
+Northern Houghton County in western Upper Michigan...
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 20-30 mph with gusts to 35 mph
+* Until 945 AM EDT.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTE
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.005.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Bagdad
-- Gulf Breeze
-- Navarre
+* At 849 AM EDT, a severe thunderstorm was located near Re
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 8:48AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86ec5af0829f0a910fedc61020e9f52d6c1658d9.001.1) — *2026-07-20*
+  > SMWMQT
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 20-30 mph with gusts to 35 mph
+The National Weather Service in Marquette has issued a
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Pote
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.007.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Destin
-- Eglin AFB
-- Fort Walton Beach
+* Special Marine Warning for...
+Lake Superior West of Line from Manitou Island to Marquette MI
+Beyond 5NM from shore...
+Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
+Canal MI 5NM off shore to the US
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:42AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f45154d161320a6345682619944dce682d8b9d75.001.1) — *2026-07-20*
+  > At 742 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Grand Meadow to near Rose Creek to near
+Northwood. Movement was southeast at 45 mph.
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 20-30 mph with gusts to 35 mph
+HAZARD...Wind gusts up to 40 mph.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSI
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.001.1) — *2026-07-20*
-  > A Tropical Storm Watch means tropical storm-force winds are possible
-somewhere within this area within the next 48 hours
+SOURCE...Radar indicated.
 
-* LOCATIONS AFFECTED
-- Gulf Shores
-- Orange Beach
-- Fort Morgan
+IMPACT...Gusty winds could knock dow
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 8:39AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ca2cf1050ca901ead9b00247ec2077023b6957e.001.1) — *2026-07-20*
+  > SVRMQT
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-35 m
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.003.1) — *2026-07-20*
-  > A Tropical Storm Watch means tropical storm-force winds are possible
-somewhere within this area within the next 48 hours
+The National Weather Service in Marquette has issued a
 
-* LOCATIONS AFFECTED
-- Daphne
-- Fairhope
-- Foley
+* Severe Thunderstorm Warning for...
+West central Houghton County in western Upper Michigan...
+Northern Ontonagon County in western Upper Michigan...
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-15 mph with gusts t
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:04AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edc8229fc59951b6c163606ca2985c6776a8cfc1.004.1) — *2026-07-20*
-  > A Tropical Storm Watch means tropical storm-force winds are possible
-somewhere within this area within the next 48 hours
+* Until 945 AM EDT.
 
-* LOCATIONS AFFECTED
-- Mobile
-- Prichard
-- Theodore
+* At 839 AM EDT, severe thunderstorms were l
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 8:13AM EDT until July 20 at 9:15AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.376ffb44ca45941274abb2bdc9f0d1c8a1ae5cf4.001.1) — *2026-07-20*
+  > SMWMQT
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-15 mph with gust
-- **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued July 20 at 5:03AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cad1a80cc3103d32a67899bd88b1eab7e5a956ad.001.1) — *2026-07-20*
-  > HLSTAE
+The National Weather Service in Marquette has issued a
 
-This product covers eastern Florida panhandle, Florida Big Bend, southeastern Alabama and southwestern Georgia
+* Special Marine Warning for...
+Black River To Ontonagon MI...
+Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
+Canal MI 5NM off shore to the US/Canadian border including Isle
+Royale National Park...
+O
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 9:34PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a16c355b5cd1b00b5135c175968b6005180df92.001.1) — *2026-07-20*
+  > Corrected typos and updated discussion.
 
-**TROPICAL DEPRESSION TWO HAS STRENGTHENED SLIGHTLY AS IT DRIFTS
-OVER THE NORTHEASTERN GULF**
+...A DEVELOPING MONSOON PATTERN IS EXPECTED TO BRING HEAVY
+DOWNPOURS...GUSTY WINDS...AND CHOPPY SEAS THE NEXT SEVERAL DAYS...
 
-NEW INFORMATION
----------------
+A developing monsoon pattern is producing fresh west-southwesterlies
+and a surge of numerous to widespread local
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 3:33AM AKDT until July 20 at 7:00PM AKDT by NWS Juneau AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95ff62517d43df9e0966f9ddfa55b6aeb1ee4aba.001.1) — *2026-07-20*
+  > * WHAT...Temperatures up to 82 expected.
 
-* CHANGES TO WATCHES AND WARNING
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:55AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee7f1d9b3879ad8d1644204dfb5253149338898.002.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Panama City
-- Panama City Beach
-- Mexico Beach
-- Lynn Haven
-- Bayou George
+* WHERE...City of Hyder.
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 15-25 mph with gusts to 35 mph
+* WHEN...From 1 PM this afternoon to 7 PM AKDT this evening.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UN
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:55AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee7f1d9b3879ad8d1644204dfb5253149338898.001.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Santa Rosa Beach
-- Sandestin
-- Freeport
+* IMPACTS...Individuals not accustomed to these unusually hot
+temperatures for this region may experience heat related illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 6:30AM CDT until July 20 at 10:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b070c0edcd19a0b03d94958b1a6f346171cdec54.001.1) — *2026-07-20*
+  > * WHAT...Heat index values up to 110 expected.
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-20 mph with gusts to 30 mph
+* WHERE...Portions of north central Kansas and central, east central,
+and south central Nebraska.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENS
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:55AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee7f1d9b3879ad8d1644204dfb5253149338898.004.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Apalachicola
-- Eastpoint
-- Carrabelle
-- Alligator Point
+* WHEN...From 10 AM this morning to 10 PM CDT this evening.
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-35 mph with gusts to 40 mph
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.027.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK,
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:55AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee7f1d9b3879ad8d1644204dfb5253149338898.003.1) — *2026-07-20*
-  > * LOCATIONS AFFECTED
-- Port Saint Joe
-- Cape San Blas
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.028.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-35 mph with gusts to 40 mph
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.026.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Pote
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 20 at 4:51AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9783beac38e745bfe9d30c19903ea962d1da714.001.1) — *2026-07-20*
-  > * WHAT...Southwest winds 25 to 35 kt with gusts up to 45 kt and
-seas 8 to 13 ft.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.029.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Waters from Mexico Beach to Okaloosa Walton County
-Line FL from 20 to 60 NM, Waters from Apalachicola to Mexico
-Beach FL from 20 to 60 NM and Waters from Suwannee River to
-Apalachicola FL 
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 20 at 4:51AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9783beac38e745bfe9d30c19903ea962d1da714.003.1) — *2026-07-20*
-  > * WHAT...Southwest winds 20 to 30 kt with gusts up to 35 kt and
-seas 6 to 11 ft.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.002.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...St. Andrews Bay Waterways, Coastal waters from Mexico
-Beach to Okaloosa Walton County Line FL out 20 NM, Coastal
-waters from Mexico Beach to Apalachicola FL out 20 NM and
-Coastal Waters Fr
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.003.1) — *2026-07-20*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-_(151 additional items in raw.jsonl)_
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 6:23AM CDT until July 20 at 9:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9b7d20c4afef808ff2dc7b4c32dcf4ee6901ef9.001.1) — *2026-07-20*
+  > ...RED FLAG WARNING REMAINS IN EFFECT FROM NOON CDT /11 AM MDT/ TODAY
+TO 9 PM CDT /8 PM MDT/ THIS EVENING DUE TO WIND AND LOW RELATIVE
+HUMIDITY FOR MORTON, GRANT, SIOUX, AND EMMONS COUNTIES...
+
+.Critical fire weather conditions are expected in parts of south
+central North Dakota 
+
+_(136 additional items in raw.jsonl)_

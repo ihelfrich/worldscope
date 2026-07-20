@@ -19,8 +19,8 @@ state: fresh
   > latest: 4.57 as of 2026-07-16
 - [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-16*
   > latest: 5.09 as of 2026-07-16
-- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-16*
-  > latest: 3.62 as of 2026-07-16
+- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-17*
+  > latest: 3.59 as of 2026-07-17
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-17*
   > latest: 0.37 as of 2026-07-17
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-06-01*

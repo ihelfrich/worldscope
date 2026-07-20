@@ -3,16 +3,28 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-20
 record_count: 58
-new_today: 17
+new_today: 30
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-17 new of 58 total items today.
+30 new of 58 total items today.
 
+- **NEW**  [[BleepingComputer] Hugging Face warns an autonomous AI agent hacked its network](https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/) — *2026-07-20*
+  > The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]
+- **NEW**  [[BleepingComputer] Microsoft confirms Windows Server Update Services sync delays](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/) — *2026-07-20*
+  > Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]
+- **NEW**  [[BleepingComputer] Windows KB5121767 OOB update fixes shutdowns on some Dell PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/) — *2026-07-20*
+  > Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]
 - **NEW**  [[BleepingComputer] Critical ServiceNow code execution flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/) — *2026-07-20*
   > Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]
+- **NEW**  [[The Hacker News] Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine](https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html) — *2026-07-20*
+  > At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops.
+
+That is the finding o
+- **NEW**  [[The Hacker News] Mythos Didn't Break Your Security Program. Your Exposure Window Could.](https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html) — *2026-07-20*
+  > The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversar
 - **NEW**  [[The Hacker News] New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html) — *2026-07-20*
   > Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 
 - **NEW**  [[The Hacker News] Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs](https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html) — *2026-07-20*
@@ -23,29 +35,34 @@ The findings come from an analysis of 200 Gemini CLI session logs between March 
   > In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.
 
 The company said it detected and responded to the incident targeting its production infrastructure earlier l
-- **NEW**  [[The Hacker News] SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines](https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html) — *2026-07-20*
-  > Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads.
-
-The rogue gems are listed below -
-
-
-  git_credentia
+- **NEW**  [[The Record] Software provider to more than 2,000 US hospitals says hackers stole employee and customer data](https://therecord.media/software-provider-for-us-hospitals-customer-data-breach) — *2026-07-20*
+  > Craneware, which is headquartered in Edinburgh and listed on London's AIM market, told investors it detected unauthorized access to a “subset” of its data environment and has since brought in outside forensic investigators.
 - **NEW**  [[Cybersecurity Dive] Your attack surface is bigger than you think](https://www.cybersecuritydive.com/spons/your-attack-surface-is-bigger-than-you-think/825160/) — *2026-07-20*
   > New data reveals where attack surfaces are hiding the most risk.
 - **NEW**  [[Cybersecurity Dive] How agentic endpoint security shuts down IDE-based supply chain attacks](https://www.cybersecuritydive.com/spons/how-agentic-endpoint-security-shuts-down-ide-based-supply-chain-attacks/825550/) — *2026-07-20*
   > Attention shifts from EDR to Agentic Endpoint Security to close visibility gaps that AI can exploit.
 - **NEW**  [[Cybersecurity Dive] The secret problem in AI infrastructure: Why MCP security starts with secrets](https://www.cybersecuritydive.com/spons/the-secret-problem-in-ai-infrastructure-why-mcp-security-starts-with-secre/825210/) — *2026-07-20*
   > AI changes how infrastructure is accessed. Here's what to secure.
+- **NEW**  [[Schneier on Security] On Flock License Plate Tracking Cameras](https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html) — *2026-07-20*
+  > A recent story of a writer who was mistakenly identified, tracked, and arrested using data from Flock cameras has gone viral.
+The New Jersey plates that were allegedly stolen from the LA dealer were 34 03 DTM, not 34 10 DTM. But when the police report was created and the plate wa
+- **NEW**  [[The Register] Watching the world burn as all the money flows into a multitrillion-dollar Magic 8 Ball](https://www.theregister.com/ai-and-ml/2026/07/20/watching-the-world-burn-as-all-the-money-flows-into-a-multitrillion-dollar-magic-8-ball/5274553) — *2026-07-20*
+  > On this week's episode of The Kettle, we welcome a special guest to discuss how the AI datacenter buildout is setting the world on fire – literally
+- **NEW**  [[The Register] Infosec expert: Paidwork users' data pwned after 23M-record database dumped online](https://www.theregister.com/cyber-crime/2026/07/20/infosec-expert-paidwork-users-data-pwned-after-23m-record-database-dumped-online/5274869) — *2026-07-20*
+  > HIBP claims leaked info includes bank account numbers, payout histories, and personal details
+- **NEW**  [[The Register] Microsoft rushes out Windows fix for Dell's hot and bothered PCs](https://www.theregister.com/os-platforms/2026/07/20/microsoft-rushes-out-windows-fix-for-dells-hot-and-bothered-pcs/5274810) — *2026-07-20*
+  > With a wave of the wand, affected models will go to the Patch Tuesday ball after all
+- **NEW**  [[The Register] UK's seventh prime minister in a decade says he'll ditch digital ID scheme](https://www.theregister.com/public-sector/2026/07/20/uks-seventh-prime-minister-in-a-decade-says-hell-ditch-digital-id-scheme/5274794) — *2026-07-20*
+  > One of Labour's biggest technology projects is headed for the bin as Burnham reshuffles Whitehall's priorities
 - **NEW**  [[The Register] Major glitch in Matrix as UK government projects watchdog rates shared services cluster red](https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368) — *2026-07-20*
   > Nine-department ERP overhaul judged unachievable without urgent action
-- **NEW**  [[The Register] Airbus takes flight from AWS. What happens next is critical](https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109) — *2026-07-20*
-  > Which way to the Land of the Free again?
-- **NEW**  [[The Register] Auditors tell UK government to do the math before banking on £45B AI savings](https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194) — *2026-07-20*
-  > Departments haven't worked out how the technology will reshape staffing, roles, and skills across the public sector
-- **NEW**  [[The Register] High hardware costs see Red Hat offer a two-server edge rig, no mini-PC required](https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762) — *2026-07-20*
-  > Worries about ‘prohibitive cost of powering, maintaining, and deploying a third node’
-- **NEW**  [[The Register] Comment in code read 'Dear future me, sorry I wrote this'](https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130) — *2026-07-20*
-  > Developer was hired to write VB, used C# instead, and thought he mostly made it work
+- **NEW**  [[Ars Technica] Beyond grep: The case for a context-rich AI coding harness](https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/) — *2026-07-20*
+  > Augment Code's Vinay Perneti talks models, harnesses, and context.
+- **NEW**  [[Computer Weekly] Burnham government to drop digital ID and tech department](https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department) — *2026-07-20*
+  > &lt;p&gt;Andy Burnham’s premiership is set to start with the scrapping of controversial plans for a digital ID scheme for all UK adults.&lt;/p&gt; 
+&lt;p&gt;The Department for Science, Innovation and Technology (DSIT) is also likely to be dumped as Keir Starmer ends his time in N
+- **NEW**  [[Computer Weekly] Dutch Surf tests practical route out of Big Tech dependency](https://www.computerweekly.com/news/366645979/Dutch-SURF-tests-practical-route-out-of-Big-Tech-dependency) — *2026-07-20*
+  > &lt;p&gt;When a group of Dutch researchers studying the societal impact of algorithms realised they were doing that work entirely on platforms they had no control over, they turned to &lt;a href="https://www.surf.nl/en"&gt;Surf&lt;/a&gt;, the IT cooperative for Dutch education an
 - **NEW**  [[Computer Weekly] Viva la devolution – rebalancing power through technology](https://www.computerweekly.com/opinion/Viva-la-devolution-rebalancing-power-through-technology) — *2026-07-20*
   > &lt;p&gt;Andy Burnham has promised to deliver the "&lt;a href="https://www.bbc.co.uk/news/live/cgrk4rpxnx7t"&gt;biggest rebalancing of power our country has seen&lt;/a&gt;" as our new prime minister, with power taken away from Westminster and redistributed to all parts of the UK.
 - **NEW**  [[Computer Weekly] Where AI fits in modern supply chains](https://www.computerweekly.com/news/366645439/Where-AI-fits-in-modern-supply-chains) — *2026-07-20*
@@ -55,23 +72,5 @@ The rogue gems are listed below -
  &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
 &lt;/div&gt; 
 &lt;p&gt;&lt;i&gt;&lt;em&gt;On 22 September 2026, C
-- **NEW**  [[MIT Technology Review] AI is more likely than humans to form biases when hiring](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/) — *2026-07-20*
-  > The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also 
-- [[BleepingComputer] Hackers abuse ViPNet software to target Russian govt agencies](https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/) — *2026-07-19*
-  > An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]
-- [[The Hacker News] Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution](https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html) — *2026-07-19*
-  > F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.
-- [[Ars Technica] India's first privately-developed rocket reaches orbit on dramatic debut launch](https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/) — *2026-07-19*
-  > "On the first attempt, reaching orbit, I never thought it was possible."
-- [[Ars Technica] As mosquito ranges expand, better monitoring is key to preventing disease](https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/) — *2026-07-19*
-  > Monitoring is expensive and labor intensive. But it helps public health officials stop outbreaks.
-- [[TechCrunch] Netflix paid $587M for Ben Affleck’s AI filmmaking startup](https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/) — *2026-07-19*
-  > Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck.
-- [[TechCrunch] What to watch for after Jensen Huang’s Japan visit](https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/) — *2026-07-19*
-  > Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.
-- [[TechCrunch] Can an Apple lawsuit derail OpenAI’s hardware plans?](https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/) — *2026-07-19*
-  > On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.
-- [[TechCrunch] TechCrunch Mobility: The battle over robotaxi rules](https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/) — *2026-07-19*
-  > Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.
 
 _(33 additional items in raw.jsonl)_
