@@ -12,18 +12,18 @@ state: fresh
 
 16 of 576 active figures registered a non-zero anomaly score today. Top 10:
 
-1. **John James** (Representative, Republican, MI-10th): composite 0.267
-   drivers: new_filings=0.67, enforcement_hits=1.00
-   evidence: [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2]
-2. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.157
+1. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.157
    drivers: new_filings=0.57, enforcement_hits=0.50
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
-3. **Tracey Mann** (Representative, Republican, KS-1st): composite 0.075
+2. **Tracey Mann** (Representative, Republican, KS-1st): composite 0.075
    drivers: new_filings=0.75
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
-4. **Rand Paul** (Senator, Republican, KY): composite 0.067
+3. **Rand Paul** (Senator, Republican, KY): composite 0.067
    drivers: new_filings=0.67
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]
+4. **John James** (Representative, Republican, MI-10th): composite 0.067
+   drivers: new_filings=0.67
+   evidence: [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2]
 5. **Rick Scott** (Senator, Republican, FL): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
@@ -41,4 +41,4 @@ state: fresh
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
 10. **Deborah Ross** (Representative, Democratic, NC-2nd): composite 0.050
    drivers: new_filings=0.50
-   evidence: [lake:political_figures:gkg-20260720], [lake:political_figures:gkg-20260625], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
+   evidence: [lake:political_figures:gkg-20260625], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]

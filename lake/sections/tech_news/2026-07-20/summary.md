@@ -3,16 +3,22 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-20
 record_count: 58
-new_today: 15
+new_today: 17
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-15 new of 58 total items today.
+17 new of 58 total items today.
 
 - **NEW**  [[BleepingComputer] Critical ServiceNow code execution flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/) — *2026-07-20*
   > Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]
+- **NEW**  [[The Hacker News] New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html) — *2026-07-20*
+  > Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 
+- **NEW**  [[The Hacker News] Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs](https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html) — *2026-07-20*
+  > A solo Russian-speaking threat actor known as "bandcampro" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.
+
+The findings come from an analysis of 200 Gemini CLI session logs between March 19 an
 - **NEW**  [[The Hacker News] World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent](https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html) — *2026-07-20*
   > In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.
 
@@ -30,6 +36,8 @@ The rogue gems are listed below -
   > Attention shifts from EDR to Agentic Endpoint Security to close visibility gaps that AI can exploit.
 - **NEW**  [[Cybersecurity Dive] The secret problem in AI infrastructure: Why MCP security starts with secrets](https://www.cybersecuritydive.com/spons/the-secret-problem-in-ai-infrastructure-why-mcp-security-starts-with-secre/825210/) — *2026-07-20*
   > AI changes how infrastructure is accessed. Here's what to secure.
+- **NEW**  [[The Register] Major glitch in Matrix as UK government projects watchdog rates shared services cluster red](https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368) — *2026-07-20*
+  > Nine-department ERP overhaul judged unachievable without urgent action
 - **NEW**  [[The Register] Airbus takes flight from AWS. What happens next is critical](https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109) — *2026-07-20*
   > Which way to the Land of the Free again?
 - **NEW**  [[The Register] Auditors tell UK government to do the math before banking on £45B AI savings](https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194) — *2026-07-20*
@@ -38,8 +46,6 @@ The rogue gems are listed below -
   > Worries about ‘prohibitive cost of powering, maintaining, and deploying a third node’
 - **NEW**  [[The Register] Comment in code read 'Dear future me, sorry I wrote this'](https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130) — *2026-07-20*
   > Developer was hired to write VB, used C# instead, and thought he mostly made it work
-- **NEW**  [[The Register] AI ops tools will create console sprawl and break IT more often: Gartner](https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712) — *2026-07-20*
-  > Yet by 2030, a quarter of the IT ops work you do now will be handled by an unsupervised clanker
 - **NEW**  [[Computer Weekly] Viva la devolution – rebalancing power through technology](https://www.computerweekly.com/opinion/Viva-la-devolution-rebalancing-power-through-technology) — *2026-07-20*
   > &lt;p&gt;Andy Burnham has promised to deliver the "&lt;a href="https://www.bbc.co.uk/news/live/cgrk4rpxnx7t"&gt;biggest rebalancing of power our country has seen&lt;/a&gt;" as our new prime minister, with power taken away from Westminster and redistributed to all parts of the UK.
 - **NEW**  [[Computer Weekly] Where AI fits in modern supply chains](https://www.computerweekly.com/news/366645439/Where-AI-fits-in-modern-supply-chains) — *2026-07-20*
@@ -55,14 +61,6 @@ The rogue gems are listed below -
   > An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]
 - [[The Hacker News] Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution](https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html) — *2026-07-19*
   > F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.
-- [[The Hacker News] UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware](https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html) — *2026-07-19*
-  > Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.
-
-According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has be
-- [[The Hacker News] SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access](https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html) — *2026-07-19*
-  > A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.
-
-Cybersecurity company Volexity is tracking the act
 - [[Ars Technica] India's first privately-developed rocket reaches orbit on dramatic debut launch](https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/) — *2026-07-19*
   > "On the first attempt, reaching orbit, I never thought it was possible."
 - [[Ars Technica] As mosquito ranges expand, better monitoring is key to preventing disease](https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/) — *2026-07-19*

@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-07-20
-record_count: 249
-new_today: 193
+record_count: 251
+new_today: 196
 state: fresh
 ---
 
 ## Chinese Internal News
 
-193 new of 249 total items today.
+196 new of 251 total items today.
 
 - [[TITLE: 世界杯决赛西阿大战，数据一网打尽 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEclpKYzlpcFlUOXJKZk1jMzBwNDRBeE5fZWt4QnlrYTJyaE1ORnBTY0NaQnB3aUtSZzNmQUlkU040aUQ5ZEM0NWRhdXFOUnl5QWNxZ] (zh: 世界杯决赛西阿大战，数据一网打尽 - 财新)](https://mini.caixin.com) — *2026-07-19*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEclpKYzlpcFlUOXJKZk1jMzBwNDRBeE5fZWt4QnlrYTJyaE1ORnBTY0NaQnB3aUtSZzNmQUlkU040aUQ5ZEM0NWRhdXFOUnl5QWNxZTBnYWlaNGgtbWc?oc=5" target="_blank">世界杯决赛西阿大战，数据一网打尽</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
@@ -47,8 +47,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE45cmVtZjRNUzBiQUNYV0hVQUlYSkhCM2kyVzNfQ3lCY3E1aUJLclMzNlZacGZaY19kNXdob0ZBeDRmamVELVlENkJwVF9pU1VvbkNMc195OW9Lc0N5UHBIdg?oc=5" target="_blank">最新财新周刊｜霍尔木兹分水岭</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
 - **NEW**  [[TITLE: 今日开盘：两市双双高开 沪指涨幅0.73% - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PMEtkeEF6V05XN1ZFZFBYNUZvcUJWOWJYYzdKd3poa1R5N0VvTzJrWTRUWnRUM29TajNKVnFHWlA1WVhjMzVFS19DWlFqWHB0] (zh: 今日开盘：两市双双高开 沪指涨幅0.73% - 财新)](https://finance.caixin.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PMEtkeEF6V05XN1ZFZFBYNUZvcUJWOWJYYzdKd3poa1R5N0VvTzJrWTRUWnRUM29TajNKVnFHWlA1WVhjMzVFS19DWlFqWHB0Z3RLWHBuSmM3MjNNWFcwMWdR?oc=5" target="_blank">今日开盘：两市双双高开 沪指涨幅0.73%</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 花旗调高中国股票评级至“超配” 大摩建议加仓港股 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tQVBwZUVSeDZORGNzYk92WExVOVJGUWxMSDd3RU0zZ1RtRi13OW5KVW1KQU42SW5DQkd0dXpEcjd2ZkJjZGpYcmw1bjFUL] (zh: 花旗调高中国股票评级至“超配” 大摩建议加仓港股 - 财新)](https://finance.caixin.com) — *2026-07-20*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tQVBwZUVSeDZORGNzYk92WExVOVJGUWxMSDd3RU0zZ1RtRi13OW5KVW1KQU42SW5DQkd0dXpEcjd2ZkJjZGpYcmw1bjFULWk5dG1ubHpkSjRxWGFabEdhQnZ3?oc=5" target="_blank">花旗调高中国股票评级至“超配” 大摩建议加仓港股</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CMjVxZERyNnNMTFpfU2djemwyalByQ1Q0YXF3MTZUVXhmVWF0aFptMjlxZUJGUkdOVFl5bzJLam9ma1hNOUxFZHcyVU] (zh: 商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群 - 财新)](https://companies.caixin.com) — *2026-07-18*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CMjVxZERyNnNMTFpfU2djemwyalByQ1Q0YXF3MTZUVXhmVWF0aFptMjlxZUJGUkdOVFl5bzJLam9ma1hNOUxFZHcyVUpyZzdqcmZqdDBSZkRoRmhvTDdBRTRMaXY?oc=5" target="_blank">商汤计划年内发射首批算力卫星 拟建5个万卡以上国产集群</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fon
 - **NEW**  [[TITLE: 国家队重仓ETF上周资金净流入850亿元 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CVEtRNmp2RjJpU0hyV2VRWUdCRXE5aVVfbE1YMndqZHE1TGgzSWJtdERPUWFCSlVSZjUxeHg0ckFjdGliVTludGdnakQ3UW5mR] (zh: 国家队重仓ETF上周资金净流入850亿元 - 财新)](https://finance.caixin.com) — *2026-07-20*
@@ -57,9 +55,11 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE85NE9WUWdybDRzZEdYVkVYcC1oM0dGTkNCbVdiQldpbHN6aUxuTjBpeEhyd0psay0tS0JzVHVtTXZfWEhTSmxjQWY5VmV0ZDQxMXFjUnA2Mi1BWTJPNkdZ?oc=5" target="_blank">反腐记｜蔡赴朝、欧阳卫民落马 马兴瑞被移送司法</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</
 - [[TITLE: 财经早知道｜中国诚通、中国国新出手，增持中国股票资产 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xSkg2TjZOOXI4NGo4eVFNVklEaFhIRGEtdWhBdG1BdnA5Z0VhZlN1REhxUjJJUFQtV2hDNmItLTZIaWdaN1hDZ2hTYTJ] (zh: 财经早知道｜中国诚通、中国国新出手，增持中国股票资产 - 财新)](https://finance.caixin.com) — *2026-07-19*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xSkg2TjZOOXI4NGo4eVFNVklEaFhIRGEtdWhBdG1BdnA5Z0VhZlN1REhxUjJJUFQtV2hDNmItLTZIaWdaN1hDZ2hTYTJESndLeVZUOTBfM1B1YUxxYTNycEtR?oc=5" target="_blank">财经早知道｜中国诚通、中国国新出手，增持中国股票资产</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 花旗调高中国股票评级至“超配” 大摩建议加仓港股 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tQVBwZUVSeDZORGNzYk92WExVOVJGUWxMSDd3RU0zZ1RtRi13OW5KVW1KQU42SW5DQkd0dXpEcjd2ZkJjZGpYcmw1bjFUL] (zh: 花旗调高中国股票评级至“超配” 大摩建议加仓港股 - 财新)](https://finance.caixin.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tQVBwZUVSeDZORGNzYk92WExVOVJGUWxMSDd3RU0zZ1RtRi13OW5KVW1KQU42SW5DQkd0dXpEcjd2ZkJjZGpYcmw1bjFULWk5dG1ubHpkSjRxWGFabEdhQnZ3?oc=5" target="_blank">花旗调高中国股票评级至“超配” 大摩建议加仓港股</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 国泰海通首席经济学家：本轮AI科技周期预计可持续到2028年 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PQlU0NS1Pb01YU0I4WTd0S1hoalpMSXF2N2d5Y1NNZzVsaWV4LXlxclZPY0RZRlRiek1JcnBreGwtMzZ2WUdXSXl] (zh: 国泰海通首席经济学家：本轮AI科技周期预计可持续到2028年 - 财新)](https://finance.caixin.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PQlU0NS1Pb01YU0I4WTd0S1hoalpMSXF2N2d5Y1NNZzVsaWV4LXlxclZPY0RZRlRiek1JcnBreGwtMzZ2WUdXSXl0dEhHeVJlaWJfR3pWYTBTbGU5ZHJDaXhn?oc=5" target="_blank">国泰海通首席经济学家：本轮AI科技周期预计可持续到2028年</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fon
-- [[TITLE: 人事观察｜卸任公安部部长助理后 55岁谭权重庆履新 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xemtnT2NCMXhXVDlXZ1ZyRm5xSmF1OHl4cHhoN1dULVdoYTlNQUNzVTY2cFR3ZFVJT2xrN19mczZXUE] (zh: 人事观察｜卸任公安部部长助理后 55岁谭权重庆履新 - china.caixin.com)](https://china.caixin.com) — *2026-07-18*
-  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xemtnT2NCMXhXVDlXZ1ZyRm5xSmF1OHl4cHhoN1dULVdoYTlNQUNzVTY2cFR3ZFVJT2xrN19mczZXUE9jN282eVJuTXQ5T1kzR3puWDM4RllFMVhKd1dj?oc=5" target="_blank">人事观察｜卸任公安部部长助理后 55岁谭权重庆履新</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com
+- **NEW**  [[TITLE: 票房｜周星驰《功夫女足》票房破14亿 《八仙！》成暑期档评分最高新片 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9paXJSUWVXbklKVEgzbk5EVWpVWlBTVFI2SkdtU1hlM0I1MkJZdmZUanVFTnhvNlBtWEwtTk5uMkF6R2FNRDJ] (zh: 票房｜周星驰《功夫女足》票房破14亿 《八仙！》成暑期档评分最高新片 - 财新)](https://companies.caixin.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9paXJSUWVXbklKVEgzbk5EVWpVWlBTVFI2SkdtU1hlM0I1MkJZdmZUanVFTnhvNlBtWEwtTk5uMkF6R2FNRDJlQVdLbnJnZGJSdEZMMGYzSWFXeEpkdWw2QkpUY2k?oc=5" target="_blank">票房｜周星驰《功夫女足》票房破14亿 《八仙！》成暑期档评分最高新片</a>&nbsp;&nbsp;<font color="#6f6f6f">
 
-_(224 additional items in raw.jsonl)_
+_(226 additional items in raw.jsonl)_

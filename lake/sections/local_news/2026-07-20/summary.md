@@ -2,20 +2,22 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-20
-record_count: 172
-new_today: 34
+record_count: 171
+new_today: 35
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-34 new of 172 total items today.
+35 new of 171 total items today.
 
 - **NEW**  [[St. Louis] Lou’s Clues – 7/20/2026](https://www.stlmag.com/games/lous-clues-072026/) — *2026-07-20*
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- **NEW**  [[St. Louis] Missouri reports 216 cyclospora cases, a fivefold jump in one week](https://www.stlpr.org/news-briefs/2026-07-19/missouri-216-cyclospora-parasite-cases-diarrhea) — *2026-07-20*
-- [[St. Louis] In Missouri's flashfloods, two rescuers lost their boat. It didn't stop them](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-18/southeast-missouri-flash-floods-boat-rescues) — *2026-07-18*
-- **NEW**  [[St. Louis] US bombing of Iran expands as American troops killed and Tehran retaliates against the Gulf states](https://www.ksdk.com/article/news/nation-world/troops-gulf-states-united-arab-emirates-iran-trump/507-1c1a5fa4-3877-445c-ad53-1741c4c4ca9f) — *2026-07-20*
+- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-20*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] 13-year-old injured in downtown St. Louis road rage shooting](https://www.ksdk.com/article/news/crime/downtown-st-louis-road-rage-shooting-teen-injured/63-cff5eacb-3fdf-4b4f-9aef-3e7ef02a8188) — *2026-07-20*
+  > A teen was injured in a road rage shooting near Ballpark Village Saturday night. Police said the teen was riding with his father when another driver opened fire.
+- **NEW**  [[St. Louis] US expands bombing in Iran, which retaliates against Gulf states](https://www.ksdk.com/article/news/nation-world/attack-on-iran/troops-gulf-states-united-arab-emirates-iran-trump/507-1c1a5fa4-3877-445c-ad53-1741c4c4ca9f) — *2026-07-20*
   > “We hit them very hard again tonight,” U.S. President Donald Trump said. “And we did that in honor of the” soldiers killed, he said.
 - **NEW**  [[St. Louis] FDA says Taylor Farms cyclospora finding was 'false positive'](https://www.ksdk.com/article/news/nation-world/fda-taylor-farms-cyclospora-false-positive/507-3ae4ce53-024a-4713-aa65-73362ce6323d) — *2026-07-20*
   > FDA retracts cyclospora contamination finding in Taylor Farms de Mexico lettuce, calling it a "false positive."
@@ -61,4 +63,4 @@ shooting, police say](https://www.ksdk.com/article/news/nation-world/asheville-n
 - [[St. Louis] Viral raccoon 'Jimothy' inspires mural, tattoos and city proclamation in Seattle, Washington](https://www.ksdk.com/article/news/entertainment-news/viral-raccoon-jimothy-mural-tattoos-city-proclamation-seattle-washington/507-c130b6f0-207e-49a2-bf98-0c6a193019e8) — *2026-07-19*
   > "I think it's kind of a symbol of resilience," a tattoo artist in Seattle said. "He's dealing with life a little bit differently, and he seems to be fine."
 
-_(147 additional items in raw.jsonl)_
+_(146 additional items in raw.jsonl)_

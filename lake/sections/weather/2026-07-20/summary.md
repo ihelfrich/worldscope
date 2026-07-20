@@ -2,15 +2,27 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-20
-record_count: 177
+record_count: 176
 new_today: 167
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-167 new of 177 total items today.
+167 new of 176 total items today.
 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-8025) — *2026-07-20*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 4:49AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76dc43e7b3084e50c5ecf3fb61df672431777ac6.001.1) — *2026-07-20*
+  > At 448 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Plum City to near Mantorville to near
+Clarks Grove. Movement was southeast at 40 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock do
 - **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 5:30AM EDT until July 20 at 6:30AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e2cd8d4c94829e383a8405d9d6f61ab440c00f6.001.1) — *2026-07-20*
   > SMWTBW
 
@@ -37,8 +49,6 @@ Waters from Tarpon Springs to Suwannee River FL out 20 to 60 NM...
 * Until 630 AM EDT.
 
 * At 527 AM EDT, a strong thu
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-42292) — *2026-07-20*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 3:24AM MDT until July 20 at 9:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c24072a7671cb439cf3c38f0d65681e739d7cf.001.1) — *2026-07-20*
   > * WHAT...High Temperatures 99 to 103.
 
@@ -262,15 +272,5 @@ seas 6 to 11 ft.
 Beach to Okaloosa Walton County Line FL out 20 NM, Coastal
 waters from Mexico Beach to Apalachicola FL out 20 NM and
 Coastal Waters Fr
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 3:51AM CDT until July 21 at 8:00PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.653304e4b56c8099d789e87c102a90b1077f3c92.001.1) — *2026-07-20*
-  > * WHAT...Heat index values up to 105 to 109 expected.
 
-* WHERE...Portions of north central, northeast, and northwest
-Alabama and southern middle Tennessee.
-
-* WHEN...From 10 AM this morning to 8 PM CDT Tuesday.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnes
-
-_(152 additional items in raw.jsonl)_
+_(151 additional items in raw.jsonl)_
