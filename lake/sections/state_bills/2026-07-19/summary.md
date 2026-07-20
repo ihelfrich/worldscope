@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-07-19
 record_count: 124
-new_today: 20
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## State Legislative Action
 
-20 new of 124 total items today.
+0 new of 124 total items today.
 
 - [[Alaska SB 249] An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; relating to unfair trade or deceptive acts or practices; and providing for an effective date.]() — *2026-07-18*
   > An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; relating to unfair trade or deceptive acts or practices; and providing for an effective date.
