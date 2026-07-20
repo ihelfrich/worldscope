@@ -3,35 +3,35 @@ section: gdelt_regions
 title: World News (by country, top stories)
 date: 2026-07-20
 record_count: 12
-new_today: 0
-state: stale_after_failure
+new_today: 12
+state: fresh
 ---
 
 ## World News (by country, top stories)
 
-0 new of 12 total items today.
+12 new of 12 total items today.
 
-- [[Japan] Liberals Have Relaxed About Trump Because They Trust Him To Keep The Wars Going](https://nuclear-news.net/2026/07/20/1-a-liberals-have-relaxed-about-trump-because-they-trust-him-to-keep-the-wars-going/) — *2026-07-20*
-  > nuclear-news.net · English
-- [[Japan] Honda extends its agreement with China GAC through 2038](https://asia.nikkei.com/business/business-deals/honda-extends-its-agreement-with-china-s-gac-through-2038) — *2026-07-20*
+- **NEW**  [[China] Turning green into gold](http://europe.chinadaily.com.cn/a/202607/21/WS6a5e68e5a310986e2b46649a.html) — *2026-07-20*
+  > europe.chinadaily.com.cn · English
+- **NEW**  [[China] Economy resilient , stronger momentum ahead](http://europe.chinadaily.com.cn/a/202607/20/WS6a5d8cf4a310986e2b46629d.html) — *2026-07-20*
+  > europe.chinadaily.com.cn · English
+- **NEW**  [[China] I will claim Social Security early . Why do so few people talk about the elephant in the room ? ](https://www.morningstar.com/news/marketwatch/20260720334/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room) — *2026-07-20*
+  > morningstar.com · English
+- **NEW**  [[China] RTX Unit Gets $1 . 8 Billion Modification to Navy Contract](https://www.morningstar.com/news/dow-jones/202607207963/rtx-unit-gets-18-billion-modification-to-navy-contract) — *2026-07-20*
+  > morningstar.com · English
+- **NEW**  [[China] How a Top Fidelity Dividend Fund Manager Is Navigating the Tech Stock Wave](https://www.morningstar.com/funds/how-top-fidelity-dividend-fund-manager-is-navigating-tech-stock-wave) — *2026-07-20*
+  > morningstar.com · English
+- **NEW**  [[China] Why cheap Chinese AI models could actually be a boon for Nvidia , Micron and other chip stocks](https://www.morningstar.com/news/marketwatch/20260720333/why-cheap-chinese-ai-models-could-actually-be-a-boon-for-nvidia-micron-and-other-chip-stocks) — *2026-07-20*
+  > morningstar.com · English
+- **NEW**  [[Japan] China high - rise pig farming leads to pork glut , falling prices](https://asia.nikkei.com/business/agriculture/china-s-high-rise-pig-farming-leads-to-pork-glut-falling-prices) — *2026-07-20*
   > asia.nikkei.com · English
-- [[Japan] Supporters of India cockroach movement caned by police](https://asia.nikkei.com/politics/supporters-of-india-s-cockroach-movement-caned-by-police) — *2026-07-20*
-  > asia.nikkei.com · English
-- [[Japan] Corporations Lead U . S . Militarization of Space](https://nuclear-news.net/2026/07/20/corporations-lead-u-s-militarization-of-space/) — *2026-07-20*
-  > nuclear-news.net · English
-- [[Japan]   Extreme risk : AUKUS warnings as Garrett inquiry docks in Adelaide « nuclear - news](https://nuclear-news.net/2026/07/20/1-b1-extreme-risk-aukus-warnings-as-garretts-inquiry-docks-in-adelaide/) — *2026-07-20*
-  > nuclear-news.net · English
-- [[Japan] State - owned Hongqi ultra - luxury sedan beats Rolls - Royce in China](https://asia.nikkei.com/business/automobiles/state-owned-hongqi-s-ultra-luxury-sedan-beats-rolls-royce-in-china) — *2026-07-20*
-  > asia.nikkei.com · English
-- [[Ukraine] Temporary pedestrian crossing opens near Lukyanivska metro station](https://en.interfax.com.ua/news/general/1186440.html) — *2026-07-20*
-  > en.interfax.com.ua · English
-- [[Ukraine] Skelya Regiment denies Kostiantynivka capture claims , calls them manipulation](https://en.interfax.com.ua/news/general/1186445.html) — *2026-07-20*
-  > en.interfax.com.ua · English
-- [[Ukraine] Russian strike wipes out multiple corporate hubs in Ukraine](https://en.interfax.com.ua/news/general/1186439.html) — *2026-07-20*
-  > en.interfax.com.ua · English
-- [[Ukraine] Russian drone destroys URCS vehicle](https://en.interfax.com.ua/news/general/1186422.html) — *2026-07-20*
-  > en.interfax.com.ua · English
-- [[Ukraine] Death toll in Odesa cargo ship strike rises to 10 , including Ukrainian pilot](https://en.interfax.com.ua/news/general/1186426.html) — *2026-07-20*
-  > en.interfax.com.ua · English
-- [[Ukraine] Russia Fires More Ballistic Missiles in 19 Days Than It Produces in a Month – Analysis](https://www.kyivpost.com/post/80652) — *2026-07-20*
-  > kyivpost.com · English
+- **NEW**  [[Japan] RBI swap facility attracts over USD 20 . 7 billion in forex inflows till July 17](http://www.japanherald.com/news/279199539/rbi-swap-facility-attracts-over-usd-207-billion-in-forex-inflows-till-july-17) — *2026-07-20*
+  > japanherald.com · English
+- **NEW**  [[Japan] U . S . stocks kick off week in the red as Investors lock in profits](http://www.japanherald.com/news/279199759/u-s-stocks-kick-off-week-in-the-red-as-investors-lock-in-profits) — *2026-07-20*
+  > japanherald.com · English
+- **NEW**  [[Japan] Family of seven allegedly leaves Orlando restaurant without paying $300 bill :  Dine and Dash strikes again  ](https://attackofthefanboy.com/social-media/family-of-seven-allegedly-leaves-orlando-restaurant-without-paying-300-bill-dine-and-dash-strikes-again/) — *2026-07-20*
+  > attackofthefanboy.com · English
+- **NEW**  [[Japan] Texas woman says her stolen rental was fraudulently sold on Facebook Marketplace . Then she showed up to confront the buyers herself](https://attackofthefanboy.com/news/news-cars/texas-woman-says-her-stolen-rental-was-fraudulently-sold-on-facebook-marketplace-then-she-showed-up-to-confront-the-buyers-herself/) — *2026-07-20*
+  > attackofthefanboy.com · English
+- **NEW**  [[Japan] Google Opal AI Builds Apps From Your Words When It Works](https://www.cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works/) — *2026-07-20*
+  > cnet.com · English

@@ -3,13 +3,13 @@ section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-20
 record_count: 165
-new_today: 2
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## GDACS — global disaster alerts
 
-2 new of 165 total items today.
+0 new of 165 total items today.
 
 - [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719206&eventtype=EQ) — *2026-07-19*
   > Earthquake · Orange alert · Peru · Magnitude 5.5M, Depth:10km
@@ -59,7 +59,7 @@ state: fresh
   > Earthquake · Green alert · Mexico · Magnitude 5.5M, Depth:35km
 - [[Green] Earthquake in Mexico](https://www.gdacs.org/report.aspx?eventid=1552874&episodeid=1719340&eventtype=EQ) — *2026-07-19*
   > Earthquake · Green alert · Mexico · Magnitude 5.5M, Depth:35km
-- **NEW**  [[Green] Earthquake in Canada](https://www.gdacs.org/report.aspx?eventid=1552972&episodeid=1719455&eventtype=EQ) — *2026-07-20*
+- [[Green] Earthquake in Canada](https://www.gdacs.org/report.aspx?eventid=1552972&episodeid=1719455&eventtype=EQ) — *2026-07-20*
   > Earthquake · Green alert · Canada · Magnitude 5.6M, Depth:10km
 
 _(140 additional items in raw.jsonl)_

@@ -2,41 +2,55 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-20
-record_count: 58
-new_today: 30
+record_count: 52
+new_today: 42
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-30 new of 58 total items today.
+42 new of 52 total items today.
 
-- **NEW**  [[BleepingComputer] Hugging Face warns an autonomous AI agent hacked its network](https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/) — *2026-07-20*
-  > The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]
-- **NEW**  [[BleepingComputer] Microsoft confirms Windows Server Update Services sync delays](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/) — *2026-07-20*
-  > Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]
-- **NEW**  [[BleepingComputer] Windows KB5121767 OOB update fixes shutdowns on some Dell PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/) — *2026-07-20*
-  > Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]
-- **NEW**  [[BleepingComputer] Critical ServiceNow code execution flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/) — *2026-07-20*
-  > Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]
+- **NEW**  [[BleepingComputer] Estée Lauder discloses data breach via Oracle E-Business flaw](https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/) — *2026-07-20*
+  > Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+- **NEW**  [[BleepingComputer] SonicWall SMA1000 flaws exploited as zero-days to push custom malware](https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/) — *2026-07-20*
+  > Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]
+- **NEW**  [[BleepingComputer] Hackers steal $23.7 million in crypto from Ostium in off-chain attack](https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/) — *2026-07-20*
+  > The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]
+- **NEW**  [[BleepingComputer] Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/) — *2026-07-20*
+  > Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]
+- **NEW**  [[BleepingComputer] JadePuffer agentic attacks now target AI model data with ransomware](https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/) — *2026-07-20*
+  > The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]
+- **NEW**  [[The Hacker News] FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html) — *2026-07-20*
+  > Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign cod
+- **NEW**  [[The Hacker News] Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign](https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html) — *2026-07-20*
+  > A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Me
+- **NEW**  [[The Hacker News] HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050](https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html) — *2026-07-20*
+  > A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050.
+
+Group-IB, which named the malware HollowGraph, sa
+- **NEW**  [[The Hacker News] ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More](https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html) — *2026-07-20*
+  > A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.
+
+The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware d
 - **NEW**  [[The Hacker News] Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine](https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html) — *2026-07-20*
   > At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops.
 
 That is the finding o
-- **NEW**  [[The Hacker News] Mythos Didn't Break Your Security Program. Your Exposure Window Could.](https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html) — *2026-07-20*
-  > The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversar
-- **NEW**  [[The Hacker News] New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html) — *2026-07-20*
-  > Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 
-- **NEW**  [[The Hacker News] Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs](https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html) — *2026-07-20*
-  > A solo Russian-speaking threat actor known as "bandcampro" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.
-
-The findings come from an analysis of 200 Gemini CLI session logs between March 19 an
-- **NEW**  [[The Hacker News] World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent](https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html) — *2026-07-20*
-  > In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.
-
-The company said it detected and responded to the incident targeting its production infrastructure earlier l
-- **NEW**  [[The Record] Software provider to more than 2,000 US hospitals says hackers stole employee and customer data](https://therecord.media/software-provider-for-us-hospitals-customer-data-breach) — *2026-07-20*
-  > Craneware, which is headquartered in Edinburgh and listed on London's AIM market, told investors it detected unauthorized access to a “subset” of its data environment and has since brought in outside forensic investigators.
+- **NEW**  [[The Record] Flock Safety kills acoustic system designed to detect 'human distress'](https://therecord.media/flock-safety-kills-audio-detection-system-human-distress) — *2026-07-20*
+  > "Community consultation" is one of the reasons automated license plate reader (ALPR) company Flock Safety cited in its decision to drop voice-oriented tech from a gunshot detection system.
+- **NEW**  [[The Record] India says allegedly leaked nuclear plant files pose no safety risk](https://therecord.media/india-nuclear-plant-kudankulam-world-leaks-documents) — *2026-07-20*
+  > Documents that the World Leaks cybercrime group claimed to leak from the Kudankulam Nuclear Power Plant do not contain information pertaining to safety or security, Indian officials said.
+- **NEW**  [[The Record] More than 1,000 domains illegally streaming World Cup games seized, DOJ says](https://therecord.media/world-cup-illegal-streams-doj) — *2026-07-20*
+  > Over the course of the World Cup tournament, the Department of Justice seized more than 1,000 domains for illegally streaming games.
+- **NEW**  [[The Record] Hackers were inside South Korea's diplomat training system for 9 months](https://therecord.media/south-korea-cyberattack-foreign-ministry) — *2026-07-20*
+  > Unidentified hackers compromised an online education system used by South Korea's diplomatic academy, stealing personal information belonging to former and current employees of the country's Ministry of Foreign Affairs.
+- **NEW**  [[The Record] Romania races to restore land registry after cyberattack disrupts property market](https://therecord.media/romania-cyberattack-land-registry) — *2026-07-20*
+  > Romania's land registry agency is still recovering from a cyberattack it called "the most serious technical incident in the institution's history."
+- **NEW**  [[Cybersecurity Dive] Researchers trace SonicWall SMA1000 exploitation to late June](https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654/) — *2026-07-20*
+  > Multiple threat actors, including INC ransomware, have targeted vulnerable firewall systems.
+- **NEW**  [[Cybersecurity Dive] Hackers steal customer data from major hospital software vendor](https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643/) — *2026-07-20*
+  > The breach is another reminder of how vulnerable the healthcare industry is to supply-chain attacks.
 - **NEW**  [[Cybersecurity Dive] Your attack surface is bigger than you think](https://www.cybersecuritydive.com/spons/your-attack-surface-is-bigger-than-you-think/825160/) — *2026-07-20*
   > New data reveals where attack surfaces are hiding the most risk.
 - **NEW**  [[Cybersecurity Dive] How agentic endpoint security shuts down IDE-based supply chain attacks](https://www.cybersecuritydive.com/spons/how-agentic-endpoint-security-shuts-down-ide-based-supply-chain-attacks/825550/) — *2026-07-20*
@@ -46,31 +60,13 @@ The company said it detected and responded to the incident targeting its product
 - **NEW**  [[Schneier on Security] On Flock License Plate Tracking Cameras](https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html) — *2026-07-20*
   > A recent story of a writer who was mistakenly identified, tracked, and arrested using data from Flock cameras has gone viral.
 The New Jersey plates that were allegedly stolen from the LA dealer were 34 03 DTM, not 34 10 DTM. But when the police report was created and the plate wa
-- **NEW**  [[The Register] Watching the world burn as all the money flows into a multitrillion-dollar Magic 8 Ball](https://www.theregister.com/ai-and-ml/2026/07/20/watching-the-world-burn-as-all-the-money-flows-into-a-multitrillion-dollar-magic-8-ball/5274553) — *2026-07-20*
-  > On this week's episode of The Kettle, we welcome a special guest to discuss how the AI datacenter buildout is setting the world on fire – literally
-- **NEW**  [[The Register] Infosec expert: Paidwork users' data pwned after 23M-record database dumped online](https://www.theregister.com/cyber-crime/2026/07/20/infosec-expert-paidwork-users-data-pwned-after-23m-record-database-dumped-online/5274869) — *2026-07-20*
-  > HIBP claims leaked info includes bank account numbers, payout histories, and personal details
-- **NEW**  [[The Register] Microsoft rushes out Windows fix for Dell's hot and bothered PCs](https://www.theregister.com/os-platforms/2026/07/20/microsoft-rushes-out-windows-fix-for-dells-hot-and-bothered-pcs/5274810) — *2026-07-20*
-  > With a wave of the wand, affected models will go to the Patch Tuesday ball after all
-- **NEW**  [[The Register] UK's seventh prime minister in a decade says he'll ditch digital ID scheme](https://www.theregister.com/public-sector/2026/07/20/uks-seventh-prime-minister-in-a-decade-says-hell-ditch-digital-id-scheme/5274794) — *2026-07-20*
-  > One of Labour's biggest technology projects is headed for the bin as Burnham reshuffles Whitehall's priorities
-- **NEW**  [[The Register] Major glitch in Matrix as UK government projects watchdog rates shared services cluster red](https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368) — *2026-07-20*
-  > Nine-department ERP overhaul judged unachievable without urgent action
-- **NEW**  [[Ars Technica] Beyond grep: The case for a context-rich AI coding harness](https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/) — *2026-07-20*
-  > Augment Code's Vinay Perneti talks models, harnesses, and context.
-- **NEW**  [[Computer Weekly] Burnham government to drop digital ID and tech department](https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department) — *2026-07-20*
-  > &lt;p&gt;Andy Burnham’s premiership is set to start with the scrapping of controversial plans for a digital ID scheme for all UK adults.&lt;/p&gt; 
-&lt;p&gt;The Department for Science, Innovation and Technology (DSIT) is also likely to be dumped as Keir Starmer ends his time in N
-- **NEW**  [[Computer Weekly] Dutch Surf tests practical route out of Big Tech dependency](https://www.computerweekly.com/news/366645979/Dutch-SURF-tests-practical-route-out-of-Big-Tech-dependency) — *2026-07-20*
-  > &lt;p&gt;When a group of Dutch researchers studying the societal impact of algorithms realised they were doing that work entirely on platforms they had no control over, they turned to &lt;a href="https://www.surf.nl/en"&gt;Surf&lt;/a&gt;, the IT cooperative for Dutch education an
-- **NEW**  [[Computer Weekly] Viva la devolution – rebalancing power through technology](https://www.computerweekly.com/opinion/Viva-la-devolution-rebalancing-power-through-technology) — *2026-07-20*
-  > &lt;p&gt;Andy Burnham has promised to deliver the "&lt;a href="https://www.bbc.co.uk/news/live/cgrk4rpxnx7t"&gt;biggest rebalancing of power our country has seen&lt;/a&gt;" as our new prime minister, with power taken away from Westminster and redistributed to all parts of the UK.
-- **NEW**  [[Computer Weekly] Where AI fits in modern supply chains](https://www.computerweekly.com/news/366645439/Where-AI-fits-in-modern-supply-chains) — *2026-07-20*
-  > &lt;p&gt;In &lt;a href="https://www.computerweekly.com/feature/Tracking-AI-in-the-supply-chain"&gt;retail and in manufacturing, artificial intelligence (AI)&lt;/a&gt; is being put at the heart of back-office operations to flex stock up and down based on demand and to manage suppl
-- **NEW**  [[Computer Weekly] CW@60: The real promise of technology is human](https://www.computerweekly.com/feature/CW60-The-real-promise-of-technology-is-human) — *2026-07-20*
-  > &lt;div class="imagecaption alignLeft"&gt;
- &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
-&lt;/div&gt; 
-&lt;p&gt;&lt;i&gt;&lt;em&gt;On 22 September 2026, C
+- **NEW**  [[Ars Technica] DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him](https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners/) — *2026-07-20*
+  > Pennsylvania cop charged with oppression and obstruction.
+- **NEW**  [[Ars Technica] Firefighting drones in the works as wildfires plague US nearly year-round](https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round/) — *2026-07-20*
+  > California and XPRIZE competition tests whether drones can stop wildfires early.
+- **NEW**  [[Ars Technica] Judge halts Paramount's $111B purchase of Warner Bros. in win for US states](https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states/) — *2026-07-20*
+  > Judge grants restraining order, saying merger "likely to violate antitrust laws."
+- **NEW**  [[Ars Technica] The Space Force is now seeking to buy up to $30 billion in rocket launches](https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/) — *2026-07-20*
+  > The Trump administration is asking the Space Force to do a lot. This will require more launches.
 
-_(33 additional items in raw.jsonl)_
+_(27 additional items in raw.jsonl)_

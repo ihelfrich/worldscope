@@ -2,219 +2,274 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-20
-record_count: 161
-new_today: 153
+record_count: 186
+new_today: 183
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-153 new of 161 total items today.
+183 new of 186 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-56259) — *2026-07-20*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-39223) — *2026-07-20*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 8:04AM CDT until July 20 at 9:00PM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e016846db79a1a6bbbc7bcb6cb9577df667e9c59.002.1) — *2026-07-20*
-  > ...RED FLAG WARNING REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 8
-PM MDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR CORSON
-AND DEWEY...
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 6:45PM CDT until July 20 at 7:15PM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88cec02f44584c2a127e0f6e26bbd672ec7c6096.001.1) — *2026-07-20*
+  > At 645 PM CDT, a severe thunderstorm was located over Talleyrand, or
+12 miles east of Sigourney, moving southeast at 30 mph.
 
-...RED FLAG WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 9
-PM CDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 8:04AM CDT until July 20 at 9:00PM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e016846db79a1a6bbbc7bcb6cb9577df667e9c59.001.1) — *2026-07-20*
-  > ...RED FLAG WARNING REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 8
-PM MDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR CORSON
-AND DEWEY...
+HAZARD...60 mph wind gusts and half dollar size hail.
 
-...RED FLAG WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 9
-PM CDT THIS EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 20 at 8:00AM CDT until July 20 at 8:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.001.1) — *2026-07-20*
-  > * WHAT...Dangerously hot conditions with heat index values up to 107
-expected.
+SOURCE...Radar indicated.
 
-* WHERE...Portions of northwest and west central Iowa, northeast
-Nebraska, and southeast South Dakota.
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roof
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 5:43PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf8b606069ccd8d3d684e48120da9c5ea4a27689.001.1) — *2026-07-20*
+  > At 542 PM MDT, Doppler radar was tracking a strong thunderstorm near
+Glenwood Springs, moving southwest at 15 mph.
 
-* WHEN...From 11 AM this morning to 8 PM CDT this evening.
+HAZARD...Half inch hail.
 
-* IMPACTS...Heat related illnesses i
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 8:00AM CDT until July 20 at 8:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.003.1) — *2026-07-20*
-  > * WHAT...Heat index values up to 104 expected.
+SOURCE...Radar indicated.
 
-* WHERE...Portions of northwest Iowa and south central and southeast
-South Dakota.
+IMPACT...Minor hail damage to vegetation is possible.
 
-* WHEN...From 11 AM this morning to 8 PM CDT this evening.
+Locations impacted include...
+Glenwood Springs and Cattl
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 7:43PM EDT until July 20 at 8:45PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0d395acb376cee9b1067751596424c189cdfb39.001.1) — *2026-07-20*
+  > SVRRAH
+
+The National Weather Service in Raleigh has issued a
+
+* Severe Thunderstorm Warning for...
+Orange County in central North Carolina...
+Durham County in central North Carolina...
+
+* Until 845 PM EDT.
+
+* At 743 PM EDT, a severe thunderstorm was located near Mebane, or
+near H
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued July 20 at 7:43PM EDT until July 20 at 8:15PM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89636d1c049471e07765e11bb7582e9156dc8211.001.1) — *2026-07-20*
+  > At 743 PM EDT/643 PM CDT/, a severe thunderstorm capable of producing
+a tornado was located 8 miles southeast of Powers, or 20 miles
+southwest of Escanaba, moving southeast at 25 mph.
+
+HAZARD...Tornado and baseball size hail.
+
+SOURCE...Radar indicated rotation.
+
+IMPACT...Flying d
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 6:42PM CDT until July 20 at 7:45PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eee5b9aab46b06c5b51734877f78d30a983cf31a.001.1) — *2026-07-20*
+  > SMWLIX
+
+The National Weather Service in New Orleans has issued a
+
+* Special Marine Warning for...
+Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA
+out 20 nm...
+Coastal waters from Port Fourchon Louisiana to Lower Atchafalaya
+River LA from 20 to 60 NM...
+Terrebon
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 20 at 4:42PM MST until July 20 at 7:45PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10a9c933d7799cc50f8a660c1d3f8244cfb9fd47.001.1) — *2026-07-20*
+  > FFWFGZ
+
+The National Weather Service in Flagstaff has issued a
+
+* Flash Flood Warning for...
+Navajo County in north central Arizona...
+Apache County in northeastern Arizona...
+
+* Until 745 PM MST.
+
+* At 442 PM MST, Doppler radar indicated thunderstorms producing
+heavy rain from W
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 6:41PM CDT until July 20 at 7:15PM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2c5d4940af793cd5fe0e91d67fbf9e58cff37204.001.1) — *2026-07-20*
+  > At 640 PM CDT, a severe thunderstorm was located near Gibson, or 11
+miles east of Montezuma, and is nearly stationary.
+
+HAZARD...60 mph wind gusts and half dollar size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, sid
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 6:40PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d69aecce54ae6035e1b15a98575d3ef2298fe7a.001.1) — *2026-07-20*
+  > At 640 PM CDT, Doppler radar was tracking a strong thunderstorm over
+North Loup, or 11 miles southeast of Ord, moving southeast at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured obj
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:38PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f99041dc11db8bc1ecd836964e8f7c0a9196d1cc.001.1) — *2026-07-20*
+  > At 737 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from Dry Fork to near Yanceyville to near Jericho.
+Movement was east at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 5:38PM MDT until July 20 at 6:15PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b876f6fa75a120b13eaf92cface9ef971f992d8a.001.1) — *2026-07-20*
+  > SVREPZ
+
+The National Weather Service in El Paso has issued a
+
+* Severe Thunderstorm Warning for...
+South central Luna County in southwestern New Mexico...
+
+* Until 615 PM MDT.
+
+* At 538 PM MDT, a severe thunderstorm was located near Sunshine,
+moving southwest at 10 mph.
+
+HAZARD..
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 6:38PM CDT until July 21 at 9:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28a3860b7a3ebed1c1c24bb7526e9df893dd99a0.001.1) — *2026-07-20*
+  > * WHAT...Heat index values up to 105 expected with some know hotter
+locations experience actual temperatures above 105.
+
+* WHERE...A portion of the Panhandle of Texas.
+
+* WHEN...From 1 PM to 9 PM CDT Tuesday.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 8:00AM CDT until July 20 at 4:00PM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b67250488079e3d386696bf387cc3c2ff7aea48.002.1) — *2026-07-20*
-  > * WHAT...Heat index values up to 103 expected.
+illnesse
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 4:36PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39398d83b961f5b8318dd0691760360902c0af97.001.1) — *2026-07-20*
+  > At 435 PM PDT, Doppler radar was tracking a strong thunderstorm 9
+miles north of Elko, moving northwest at 10 mph.
 
-* WHERE...Portions of southwest Minnesota and southeast South Dakota.
+HAZARD...Wind gusts up to 40 mph and half inch hail.
 
-* WHEN...From 11 AM this morning to 4 PM CDT this afternoon.
+SOURCE...Radar indicated.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.002.1) — *2026-07-20*
-  > The Pennsylvania Department of Environmental Protection has
-issued a code ORANGE air quality alert for Monday, for the Mon
-Valley area.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 5:36PM MDT until July 20 at 6:15PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61b058911f5c80b5e31972efeca759b582e9b0f1.001.1) — *2026-07-20*
+  > SVREPZ
 
-A code ORANGE air quality alert means that air pollution
-concentrations within the region may become unhealthy for sensitive
-groups. Sensitive 
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.003.1) — *2026-07-20*
-  > The Pennsylvania Department of Environmental Protection has issued
-a code ORANGE air quality alert for Monday, for Indiana county.
+The National Weather Service in El Paso has issued a
 
-A code ORANGE air quality alert means that air pollution
-concentrations within the region may become unhealthy for sensitive
-groups. Sensitive group
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 20 at 9:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ca79f5007850eeea5078b57baaa19bbd53d1881.001.1) — *2026-07-20*
-  > The Pennsylvania Department of Environmental Protection has
-issued a code ORANGE air quality alert for Monday, for the greater
-Pittsburgh region, including Allegheny, Butler, Beaver, Armstrong,
-Washington, Westmoreland and Fayette counties.
+* Severe Thunderstorm Warning for...
+Southwestern Dona Ana County in south central New Mexico...
 
-A code ORANGE air quality alert means 
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 20 at 5:54AM PDT until July 23 at 9:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.758d3b1f1b159e68a24ac0f3c0437f40e4740def.001.1) — *2026-07-20*
-  > * WHAT...Dangerously hot conditions with temperatures 100 to 102
-degrees, and 101 to 105 in the Columbia Basin possible. This will
-pose a moderate to major risk of heat-related illness.
+* Until 615 PM MDT.
 
-* WHERE...Eastern Columbia River Gorge of Oregon and Washington,
-Lower Columbia Basin of Oreg
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 8:49AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ca954fe435897e417548134b71ca5f465792f5a.001.1) — *2026-07-20*
+* At 536 PM MDT, a severe thunderstorm was located 4 miles northwest
+of Afton, moving southwest at 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:35PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42a145f9a2202e855243b42ad98828bd48e8fe14.001.1) — *2026-07-20*
+  > At 735 PM EDT, a strong thunderstorm was over Boynton, or near
+Ringgold, moving south at 10 mph.
+
+HAZARD...Up to 40 mph wind, pea sized hail and frequent cloud to
+ground lightning.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect minor damage to tree limbs and blowing around of
+light,
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 6:35PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5adfee1367f896bfe0b37e6e01c1a9c6a99bef1.001.1) — *2026-07-20*
+  > At 635 PM CDT, Doppler radar was tracking a cluster of strong
+thunderstorms capable of producing waterspouts over marine areas
+along a line extending from 13 miles southeast of Amelia to 13 miles
+west of Cocodrie. Movement was southwest at 15 mph.
+
+HAZARD...Waterspouts and winds 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 5:34PM MDT until July 20 at 8:00PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e5e0cf552197c0d1ea995d9ddd2a86fb3f2716b.001.1) — *2026-07-20*
+  > * WHAT...Temperatures remaining in the upper 90's to low 100's
+through the next several hours.
+
+* WHERE...Dawes County and Northern Sioux County.
+
+* WHEN...Until 8 PM MDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 5:34PM MDT until July 20 at 8:00PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e5e0cf552197c0d1ea995d9ddd2a86fb3f2716b.002.1) — *2026-07-20*
+  > * WHAT...Temperatures remaining in the upper 90's to low 100's
+through the next several hours.
+
+* WHERE...In Nebraska, Banner County, Box Butte County, Morrill
+County, Scotts Bluff County, and Southern Sioux County. In
+Wyoming, Converse County Lower Elevations, Niobrara County, a
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 7:34PM EDT until July 20 at 8:30PM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abc8adfa47282710379a4bd19061dca43465788a.001.1) — *2026-07-20*
   > SVRMQT
 
 The National Weather Service in Marquette has issued a
 
 * Severe Thunderstorm Warning for...
-Keweenaw County in western Upper Michigan...
-Northern Houghton County in western Upper Michigan...
+East central Delta County in south central Upper Michigan...
+Southern Schoolcraft County in east central Upper Michigan...
 
-* Until 945 AM EDT.
+* Until 830 PM EDT.
 
-* At 849 AM EDT, a severe thunderstorm was located near Re
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 8:48AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86ec5af0829f0a910fedc61020e9f52d6c1658d9.001.1) — *2026-07-20*
+* At 733 PM EDT, a severe thunders
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 7:34PM EDT until July 20 at 8:30PM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a9e9a988d8f15035e19c16d59ba213202e20f34.001.1) — *2026-07-20*
   > SMWMQT
 
 The National Weather Service in Marquette has issued a
 
 * Special Marine Warning for...
-Lake Superior West of Line from Manitou Island to Marquette MI
-Beyond 5NM from shore...
-Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
-Canal MI 5NM off shore to the US
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:42AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f45154d161320a6345682619944dce682d8b9d75.001.1) — *2026-07-20*
-  > At 742 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Grand Meadow to near Rose Creek to near
-Northwood. Movement was southeast at 45 mph.
+Green Bay North of line from Cedar River MI to Rock Island
+Passage...
+Lake Michigan from Seul Choix Point to Rock Island Passage 5NM
+offshore to Mid Lake...
+Seul Choix Point to Point D
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 6:34PM CDT until July 20 at 7:00PM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8f3f7978aea9e7ddfa1daeeb0e3be52a270c01d.001.1) — *2026-07-20*
+  > SVRDMX
+
+The National Weather Service in Des Moines has issued a
+
+* Severe Thunderstorm Warning for...
+Southwestern Story County in central Iowa...
+Southeastern Boone County in central Iowa...
+
+* Until 700 PM CDT.
+
+* At 634 PM CDT, a severe thunderstorm was located over Slater, or
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 20 at 4:33PM MST until July 20 at 7:30PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abe31bf51d7b8cae84d1f10b8653b7f6975b2fab.001.1) — *2026-07-20*
+  > FFWTWC
+
+The National Weather Service in Tucson has issued a
+
+* Flash Flood Warning for...
+Southwestern Cochise County in southeastern Arizona...
+
+* Until 730 PM MST.
+
+* At 433 PM MST, Doppler radar and automated rain gauges indicated
+thunderstorms producing heavy rain across the 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:31PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abac7bfa9fbef1037ab89f9e771e78e75a6036d4.001.1) — *2026-07-20*
+  > At 731 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Wyse Fork, or 9 miles southeast of Kinston, moving east at 25 mph.
 
 HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock dow
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 8:39AM EDT until July 20 at 9:45AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ca2cf1050ca901ead9b00247ec2077023b6957e.001.1) — *2026-07-20*
-  > SVRMQT
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured object
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 20 at 5:31PM MDT until July 20 at 6:15PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad3ad56b989f19e788b4995fb21b2db1c19b28b0.001.1) — *2026-07-20*
+  > SVRCYS
 
-The National Weather Service in Marquette has issued a
+The National Weather Service in Cheyenne has issued a
 
 * Severe Thunderstorm Warning for...
-West central Houghton County in western Upper Michigan...
-Northern Ontonagon County in western Upper Michigan...
+Northwestern Scotts Bluff County in the Panhandle of Nebraska...
+Southwestern Sioux County in the Panhandle of Nebraska...
+East central Goshen County in southeastern Wyoming...
 
-* Until 945 AM EDT.
+* 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 7:30PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1fdf6f1edc1852f38588d07d829025bf1b3eb635.001.1) — *2026-07-20*
+  > At 730 PM EDT, a line of strong thunderstorms was along a line
+extending from Temperance to near Glenwood to near Aline, and moving
+north at 40 MPH.
 
-* At 839 AM EDT, severe thunderstorms were l
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 20 at 8:13AM EDT until July 20 at 9:15AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.376ffb44ca45941274abb2bdc9f0d1c8a1ae5cf4.001.1) — *2026-07-20*
-  > SMWMQT
+HAZARD...40 to 50 MPH wind, frequent cloud to ground lightning and
+heavy rain.
 
-The National Weather Service in Marquette has issued a
+SOURCE...Radar indicated.
 
-* Special Marine Warning for...
-Black River To Ontonagon MI...
-Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
-Canal MI 5NM off shore to the US/Canadian border including Isle
-Royale National Park...
-O
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 20 at 9:34PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a16c355b5cd1b00b5135c175968b6005180df92.001.1) — *2026-07-20*
-  > Corrected typos and updated discussion.
+IMPACT...Expect minor d
 
-...A DEVELOPING MONSOON PATTERN IS EXPECTED TO BRING HEAVY
-DOWNPOURS...GUSTY WINDS...AND CHOPPY SEAS THE NEXT SEVERAL DAYS...
-
-A developing monsoon pattern is producing fresh west-southwesterlies
-and a surge of numerous to widespread local
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 3:33AM AKDT until July 20 at 7:00PM AKDT by NWS Juneau AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95ff62517d43df9e0966f9ddfa55b6aeb1ee4aba.001.1) — *2026-07-20*
-  > * WHAT...Temperatures up to 82 expected.
-
-* WHERE...City of Hyder.
-
-* WHEN...From 1 PM this afternoon to 7 PM AKDT this evening.
-
-* IMPACTS...Individuals not accustomed to these unusually hot
-temperatures for this region may experience heat related illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 20 at 6:30AM CDT until July 20 at 10:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b070c0edcd19a0b03d94958b1a6f346171cdec54.001.1) — *2026-07-20*
-  > * WHAT...Heat index values up to 110 expected.
-
-* WHERE...Portions of north central Kansas and central, east central,
-and south central Nebraska.
-
-* WHEN...From 10 AM this morning to 10 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.027.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.028.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.026.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.029.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.002.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 20 at 3:24AM AKDT until July 21 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61daeeecb1f588dc296ad6aaed86f118419d9ec2.003.1) — *2026-07-20*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 20 at 6:23AM CDT until July 20 at 9:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9b7d20c4afef808ff2dc7b4c32dcf4ee6901ef9.001.1) — *2026-07-20*
-  > ...RED FLAG WARNING REMAINS IN EFFECT FROM NOON CDT /11 AM MDT/ TODAY
-TO 9 PM CDT /8 PM MDT/ THIS EVENING DUE TO WIND AND LOW RELATIVE
-HUMIDITY FOR MORTON, GRANT, SIOUX, AND EMMONS COUNTIES...
-
-.Critical fire weather conditions are expected in parts of south
-central North Dakota 
-
-_(136 additional items in raw.jsonl)_
+_(161 additional items in raw.jsonl)_
