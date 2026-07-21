@@ -2,23 +2,19 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-21
-record_count: 17
+record_count: 15
 new_today: 5
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-5 new of 17 total items today.
+5 new of 15 total items today.
 
 - [M 5.6 - northern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t21z) — *2026-07-20*
   > M5.6 · northern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 5.2 - northern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t23e) — *2026-07-21*
   > M5.2 · northern Mid-Atlantic Ridge · depth 10 km
-- [M 5.2 - 22 km NNW of Scarborough, Trinidad and Tobago](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1wn) — *2026-07-20*
-  > M5.2 · 22 km NNW of Scarborough, Trinidad and Tobago · depth 83.51 km
-- [M 5.1 - 83 km W of Tobelo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1wm) — *2026-07-20*
-  > M5.1 · 83 km W of Tobelo, Indonesia · depth 69.965 km
 - **NEW**  [M 5.0 - Mid-Indian Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t23v) — *2026-07-21*
   > M5.0 · Mid-Indian Ridge · depth 10 km
 - **NEW**  [M 5.0 - 141 km SSW of Gataivai, Samoa](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t232) — *2026-07-20*

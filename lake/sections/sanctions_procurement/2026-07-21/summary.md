@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-21
-record_count: 116
+record_count: 115
 new_today: 1
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-1 new of 116 total items today.
+1 new of 115 total items today.
 
 - [[OFAC] Russia-related Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $1,430,622,665 → SEQIRUS INC: TAS::75 0140::TAS CONSTRUCTION OF VACCINE MANUFACTURING FACI](https://www.usaspending.gov/award/HHSO100200900101C) — *2026-07-21*
   > Agency: Department of Health and Human Services.  Description: TAS::75 0140::TAS CONSTRUCTION OF VACCINE MANUFACTURING FACILITY
 
-_(91 additional items in raw.jsonl)_
+_(90 additional items in raw.jsonl)_

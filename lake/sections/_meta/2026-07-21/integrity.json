@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T09:35:57Z",
-  "summary": "Data integrity \u00b7 31/42 sections fresh \u00b7 5 failing (acled, gdelt_gkg, promed, reliefweb, vip_flights) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-07-21T09:51:07Z",
+  "summary": "Data integrity \u00b7 33/42 sections fresh \u00b7 3 failing (acled, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
@@ -10,14 +10,6 @@
       "last_record_date": "2026-06-02",
       "today_count": 0,
       "consecutive_failures": 46
-    },
-    {
-      "section_id": "gdelt_gkg",
-      "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT returned nothing for any query (rate-limited / blocked)",
-      "last_record_date": "2026-07-20",
-      "today_count": 0,
-      "consecutive_failures": 1
     },
     {
       "section_id": "promed",
@@ -36,14 +28,6 @@
       "consecutive_failures": 46
     },
     {
-      "section_id": "vip_flights",
-      "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): ConnectTimeout: HTTPSConnectionPool(host='opensky-network.org', port=443): Max retries exceeded with url: /api/states/al",
-      "last_record_date": "2026-07-20",
-      "today_count": 0,
-      "consecutive_failures": 1
-    },
-    {
       "section_id": "firms",
       "status": "NO_KEY",
       "reason": "required credential not set: FIRMS_MAP_KEY",
@@ -60,10 +44,10 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "conflict",
+      "section_id": "state_bills",
       "status": "STALE",
-      "reason": "no data today; last good 2026-07-21 (0d)",
-      "last_record_date": "2026-07-21",
+      "reason": "no data today; last good 2026-07-20 (1d)",
+      "last_record_date": "2026-07-20",
       "today_count": 0,
       "consecutive_failures": 0
     },
@@ -102,9 +86,9 @@
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "181 records today",
+      "reason": "184 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 181,
+      "today_count": 184,
       "consecutive_failures": 0
     },
     {
@@ -121,6 +105,14 @@
       "reason": "2 records today",
       "last_record_date": "2026-07-21",
       "today_count": 2,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "conflict",
+      "status": "FRESH",
+      "reason": "38 records today",
+      "last_record_date": "2026-07-21",
+      "today_count": 38,
       "consecutive_failures": 0
     },
     {
@@ -174,9 +166,9 @@
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "690 records today",
+      "reason": "699 records today",
       "last_record_date": "2026-12-28",
-      "today_count": 690,
+      "today_count": 699,
       "consecutive_failures": 0
     },
     {
@@ -196,19 +188,27 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "gdelt_gkg",
+      "status": "FRESH",
+      "reason": "25 records today",
+      "last_record_date": "2026-07-21",
+      "today_count": 25,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "gdelt_regions",
       "status": "FRESH",
-      "reason": "18 records today",
+      "reason": "12 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 18,
+      "today_count": 12,
       "consecutive_failures": 0
     },
     {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "40 records today",
+      "reason": "42 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 40,
+      "today_count": 42,
       "consecutive_failures": 0
     },
     {
@@ -246,9 +246,9 @@
     {
       "section_id": "paper_bets",
       "status": "FRESH",
-      "reason": "145 records today",
+      "reason": "143 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 145,
+      "today_count": 143,
       "consecutive_failures": 0
     },
     {
@@ -262,9 +262,9 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "627 records today",
+      "reason": "641 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 627,
+      "today_count": 641,
       "consecutive_failures": 0
     },
     {
@@ -276,19 +276,11 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "state_bills",
-      "status": "FRESH",
-      "reason": "85 records today",
-      "last_record_date": "2026-07-21",
-      "today_count": 85,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "73 records today",
+      "reason": "77 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 73,
+      "today_count": 77,
       "consecutive_failures": 0
     },
     {
@@ -302,9 +294,9 @@
     {
       "section_id": "ukraine_theater",
       "status": "FRESH",
-      "reason": "58 records today",
+      "reason": "51 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 58,
+      "today_count": 51,
       "consecutive_failures": 0
     },
     {
@@ -324,11 +316,19 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "vip_flights",
+      "status": "FRESH",
+      "reason": "30 records today",
+      "last_record_date": "2026-07-21",
+      "today_count": 30,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "156 records today",
+      "reason": "158 records today",
       "last_record_date": "2026-07-21",
-      "today_count": 156,
+      "today_count": 158,
       "consecutive_failures": 0
     },
     {

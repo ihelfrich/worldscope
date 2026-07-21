@@ -2,17 +2,39 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-21
-record_count: 174
-new_today: 158
+record_count: 175
+new_today: 160
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-158 new of 174 total items today.
+160 new of 175 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-13579) — *2026-07-21*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-23509) — *2026-07-21*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 21 at 5:35AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b230a4cc3d1db33acebcc5b93daaa6dba9db7f83.001.1) — *2026-07-21*
+  > At 535 AM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms over Bluffton, moving east at 40 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 21 at 1:31AM AKDT by NWS Fairbanks AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d7310cf75df58b594493d4f707ae299a96fe0fa.001.1) — *2026-07-21*
+  > At 131 AM AKDT, Doppler radar was tracking a cluster of strong
+thunderstorms 36 miles southeast of Seven Mile, or 46 miles north of
+Murphy Dome, moving northwest at 40 mph.
+
+HAZARD...Pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Heavy rain and frequent lightning.
+
+Locations
 - **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued July 21 at 4:21AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.858da7229a4b797d367fb9013a59bf99dde7319e.001.1) — *2026-07-21*
   > HLSMOB
 
@@ -255,28 +277,5 @@ NEW INFORMATION
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Pote
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 21 at 3:55AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88b6a54148d22616b9c5d1ec477b7816a801e340.010.1) — *2026-07-21*
-  > * LOCATIONS AFFECTED
-- Belle Chasse
 
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 15-25 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39
-
-- **NEW**  [[Severe] Tropical Storm Watch: Tropical Storm Watch issued July 21 at 3:55AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88b6a54148d22616b9c5d1ec477b7816a801e340.006.1) — *2026-07-21*
-  > * LOCATIONS AFFECTED
-- Lafitte
-- Barataria
-- Jean Lafitte
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 20-30 mph with gusts to 35 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: 
-
-_(149 additional items in raw.jsonl)_
+_(150 additional items in raw.jsonl)_
