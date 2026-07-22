@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-22
-record_count: 203
-new_today: 3
+record_count: 205
+new_today: 5
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-3 new of 203 total items today.
+5 new of 205 total items today.
 
 - [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719805&eventtype=EQ) — *2026-07-19*
   > Earthquake · Orange alert · Peru · Magnitude 5.5M, Depth:10km
@@ -62,4 +62,4 @@ state: fresh
 - [[Green] Flood in Afghanistan](https://www.gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL) — *2026-07-19*
   > Flood · Green alert · Afghanistan · Magnitude 0
 
-_(178 additional items in raw.jsonl)_
+_(180 additional items in raw.jsonl)_

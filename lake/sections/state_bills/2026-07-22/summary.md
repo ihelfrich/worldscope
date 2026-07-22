@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-22
-record_count: 227
-new_today: 144
+record_count: 158
+new_today: 47
 state: fresh
 ---
 
 ## State Legislative Action
 
-144 new of 227 total items today.
+47 new of 158 total items today.
 
 - [[Alabama SB 107] Alabama Board of Funeral Services; board authorized to impose administrative fee on funeral establishments for each funeral arranged; initial application, renewal, branch registration, and transfer fees relating to a certificate of authority increased; certificate holder required to]() — *2026-07-21*
   > Occupational Licensing Boards
@@ -59,7 +59,7 @@ state: fresh
   > Arizona space commission; board; membership
 - [[Arizona SB 1662] probation supervision; least restrictive conditions]() — *2026-07-20*
   > probation supervision; least restrictive conditions
-- [[Colorado SB 83] Rule Review Bill]() — *2026-07-21*
-  > Based on the findings and recommendations of the committee on legal services, the act extends all state agency rules that were adopted or amended on or after November 1, 2024, and before November 1, 2025.(Note: This summary applies to this bill as enacted.)
+- **NEW**  [[California SB 754] Menstrual products: disposable tampons and pad products: concerning chemicals.]() — *2026-07-22*
+  > Existing law prohibits any person from manufacturing, distributing, selling, or offering for sale in the state any menstrual products that contain regulated perfluoroalkyl and polyfluoroalkyl substances, as defined. Existing law requires the Department of Toxic Substances Control
 
-_(202 additional items in raw.jsonl)_
+_(133 additional items in raw.jsonl)_

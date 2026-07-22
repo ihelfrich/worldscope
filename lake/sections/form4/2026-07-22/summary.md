@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[KIDOZ INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1318482/000127852126000011/0001278521-26-000011-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:25 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001278521-26-000011 Size: 12 KB
-- **NEW**  [[Williams Tryon M] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1278521/000127852126000011/0001278521-26-000011-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:25 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001278521-26-000011 Size: 12 KB
-- **NEW**  [[KIRBY J SCOTT] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1249555/000010051726000142/0000100517-26-000142-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:16 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0000100517-26-000142 Size: 11 KB
-- **NEW**  [[United Airlines Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/100517/000010051726000142/0000100517-26-000142-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:16 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0000100517-26-000142 Size: 11 KB
-- **NEW**  [[Kim Vyacheslav] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2029485/000119312526311001/0001193125-26-311001-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:14 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001193125-26-311001 Size: 13 KB
-- **NEW**  [[Joint Stock Co Kaspi.kz] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1985487/000119312526311001/0001193125-26-311001-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:14 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001193125-26-311001 Size: 13 KB
-- **NEW**  [[Giroux Richard] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1742734/000174273426000018/0001742734-26-000018-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:12 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001742734-26-000018 Size: 6 KB
-- **NEW**  [[MeiraGTx Holdings plc] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1735438/000174273426000018/0001742734-26-000018-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:12 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001742734-26-000018 Size: 6 KB
-- **NEW**  [[Roivant Sciences Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1635088/000114036126029193/0001140361-26-029193-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001140361-26-029193 Size: 11 KB
-- **NEW**  [[MOMTAZEE JAMES C] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1209181/000114036126029193/0001140361-26-029193-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001140361-26-029193 Size: 11 KB
-- **NEW**  [[Epperly Melissa B,] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1807359/000114036126029192/0001140361-26-029192-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001140361-26-029192 Size: 11 KB
-- **NEW**  [[Roivant Sciences Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1635088/000114036126029192/0001140361-26-029192-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001140361-26-029192 Size: 11 KB
-- **NEW**  [[Oren Ilan] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1643073/000114036126029191/0001140361-26-029191-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001140361-26-029191 Size: 11 KB
-- **NEW**  [[Roivant Sciences Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1635088/000114036126029191/0001140361-26-029191-index.htm) — *2026-07-22*
-  > filed 2026-07-22 01:00 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001140361-26-029191 Size: 11 KB
-- **NEW**  [[Tregillis Cynthia L] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2057088/000126682426000160/0001266824-26-000160-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:56 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001266824-26-000160 Size: 10 KB
-- **NEW**  [[WESTERN DIGITAL CORP] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/106040/000126682426000160/0001266824-26-000160-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:56 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001266824-26-000160 Size: 10 KB
-- **NEW**  [[Talluri Rajendra K] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1961877/000196187726000041/0001961877-26-000041-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:51 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001961877-26-000041 Size: 5 KB
-- **NEW**  [[Enovix Corp] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1828318/000196187726000041/0001961877-26-000041-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:51 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001961877-26-000041 Size: 5 KB
-- **NEW**  [[Herrmann Ken] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2049757/000119312526310991/0001193125-26-310991-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:50 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001193125-26-310991 Size: 13 KB
-- **NEW**  [[Aktis Oncology, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/2035832/000119312526310991/0001193125-26-310991-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:50 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001193125-26-310991 Size: 13 KB
-- **NEW**  [[Quantinuum Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/2110105/000119312526310990/0001193125-26-310990-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:50 UTC · role: Issuer — Filed: 2026-07-21 AccNo: 0001193125-26-310990 Size: 4 KB
-- **NEW**  [[Schulman Robin] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1627835/000119312526310990/0001193125-26-310990-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:50 UTC · role: Reporting — Filed: 2026-07-21 AccNo: 0001193125-26-310990 Size: 4 KB
-- **NEW**  [[Q32 Bio Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/1661998/000119312526310983/0001193125-26-310983-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:40 UTC · amended · role: Issuer — Filed: 2026-07-21 AccNo: 0001193125-26-310983 Size: 5 KB
-- **NEW**  [[TZIANABOS ARTHUR] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1586226/000119312526310983/0001193125-26-310983-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:40 UTC · amended · role: Reporting — Filed: 2026-07-21 AccNo: 0001193125-26-310983 Size: 5 KB
-- **NEW**  [[Lundberg Sven Ante] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1682126/000119312526310982/0001193125-26-310982-index.htm) — *2026-07-22*
-  > filed 2026-07-22 00:39 UTC · amended · role: Reporting — Filed: 2026-07-21 AccNo: 0001193125-26-310982 Size: 5 KB
+- **NEW**  [424B5 - EUDA Health Holdings Ltd (0001847846) (Filer)](https://www.sec.gov/Archives/edgar/data/1847846/000149315226034161/0001493152-26-034161-index.htm) — *2026-07-22*
+  > filed 2026-07-22 11:00 UTC — Filed: 2026-07-22 AccNo: 0001493152-26-034161 Size: 8 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000121390026080174/0001213900-26-080174-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:54 UTC — Filed: 2026-07-22 AccNo: 0001213900-26-080174 Size: 667 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000121390026080174/0001213900-26-080174-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:54 UTC — Filed: 2026-07-22 AccNo: 0001213900-26-080174 Size: 667 KB
+- **NEW**  [424B2 - HSBC USA INC /MD/ (0000083246) (Filer)](https://www.sec.gov/Archives/edgar/data/83246/000110465926085575/0001104659-26-085575-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:25 UTC — Filed: 2026-07-22 AccNo: 0001104659-26-085575 Size: 1 MB
+- **NEW**  [[Lin Shyue-Shyh] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2114025/000104617926000455/0001046179-26-000455-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:17 UTC · role: Reporting — Filed: 2026-07-22 AccNo: 0001046179-26-000455 Size: 8 KB
+- **NEW**  [[TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000455/0001046179-26-000455-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:17 UTC · role: Issuer — Filed: 2026-07-22 AccNo: 0001046179-26-000455 Size: 8 KB
+- **NEW**  [424B2 - BofA Finance LLC (0001682472) (Filer)](https://www.sec.gov/Archives/edgar/data/1682472/000191870426020853/0001918704-26-020853-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:14 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020853 Size: 830 KB
+- **NEW**  [424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)](https://www.sec.gov/Archives/edgar/data/70858/000191870426020853/0001918704-26-020853-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:14 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020853 Size: 830 KB
+- **NEW**  [424B8 - CITIGROUP INC (0000831001) (Filer)](https://www.sec.gov/Archives/edgar/data/831001/000191870426020852/0001918704-26-020852-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:12 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020852 Size: 844 KB
+- **NEW**  [424B8 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)](https://www.sec.gov/Archives/edgar/data/200245/000191870426020852/0001918704-26-020852-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:12 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020852 Size: 844 KB
+- **NEW**  [424B2 - BofA Finance LLC (0001682472) (Filer)](https://www.sec.gov/Archives/edgar/data/1682472/000191870426020851/0001918704-26-020851-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:11 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020851 Size: 816 KB
+- **NEW**  [424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)](https://www.sec.gov/Archives/edgar/data/70858/000191870426020851/0001918704-26-020851-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:11 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020851 Size: 816 KB
+- **NEW**  [[Liu Chang] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1843196/000119312526311236/0001193125-26-311236-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:08 UTC · role: Reporting — Filed: 2026-07-22 AccNo: 0001193125-26-311236 Size: 6 KB
+- **NEW**  [[17 Education & Technology Group Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1821468/000119312526311236/0001193125-26-311236-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:08 UTC · role: Issuer — Filed: 2026-07-22 AccNo: 0001193125-26-311236 Size: 6 KB
+- **NEW**  [424B2 - BofA Finance LLC (0001682472) (Filer)](https://www.sec.gov/Archives/edgar/data/1682472/000191870426020850/0001918704-26-020850-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:08 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020850 Size: 825 KB
+- **NEW**  [424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)](https://www.sec.gov/Archives/edgar/data/70858/000191870426020850/0001918704-26-020850-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:08 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020850 Size: 825 KB
+- **NEW**  [[Ye Gang] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1729171/000119312526311234/0001193125-26-311234-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:06 UTC · role: Reporting — Filed: 2026-07-22 AccNo: 0001193125-26-311234 Size: 14 KB
+- **NEW**  [[Sea Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1703399/000119312526311234/0001193125-26-311234-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:06 UTC · role: Issuer — Filed: 2026-07-22 AccNo: 0001193125-26-311234 Size: 14 KB
+- **NEW**  [[Wang Yanjun] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2113214/000119312526311232/0001193125-26-311232-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:05 UTC · role: Reporting — Filed: 2026-07-22 AccNo: 0001193125-26-311232 Size: 14 KB
+- **NEW**  [[Sea Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1703399/000119312526311232/0001193125-26-311232-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:05 UTC · role: Issuer — Filed: 2026-07-22 AccNo: 0001193125-26-311232 Size: 14 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426020848/0001918704-26-020848-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:01 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020848 Size: 849 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426020848/0001918704-26-020848-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:01 UTC — Filed: 2026-07-22 AccNo: 0001918704-26-020848 Size: 849 KB
+- **NEW**  [425 - ASP Isotopes Inc. (0001921865) (Filed by)](https://www.sec.gov/Archives/edgar/data/1921865/000147793226004434/0001477932-26-004434-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:01 UTC — Filed: 2026-07-22 AccNo: 0001477932-26-004434 Size: 56 KB
+- **NEW**  [425 - ENDRA Life Sciences Inc. (0001681682) (Subject)](https://www.sec.gov/Archives/edgar/data/1681682/000147793226004434/0001477932-26-004434-index.htm) — *2026-07-22*
+  > filed 2026-07-22 10:01 UTC — Filed: 2026-07-22 AccNo: 0001477932-26-004434 Size: 56 KB
+- **NEW**  [424B2 - CITIGROUP INC (0000831001) (Filer)](https://www.sec.gov/Archives/edgar/data/831001/000095010326010970/0000950103-26-010970-index.htm) — *2026-07-22*
+  > filed 2026-07-22 01:49 UTC — Filed: 2026-07-22 AccNo: 0000950103-26-010970 Size: 451 KB
 
 _(15 additional items in raw.jsonl)_

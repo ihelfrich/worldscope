@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-07-22
-record_count: 307
-new_today: 203
+record_count: 308
+new_today: 206
 state: fresh
 ---
 
 ## Chinese Internal News
 
-203 new of 307 total items today.
+206 new of 308 total items today.
 
 - **NEW**  [In Depth: Louis Vuitton’s Trademark Win Sparks Backlash in China - Caixin Global](https://www.caixinglobal.com) — *2026-07-21*
   > <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWVhIWVAySm9MRFBjOGV4dGlqSWFETnVCZURnME9Vb05xaUpKN1RfYnR5eF9lbHFDaUFUTlFFTmRaMWF5dGVyZlpEck9Db3dRb0I5aUxzY3ZSamttWEdYWWttWW9KanJJZkFMeldLcmdEaHJJSlV3SjZPU05jTEhCVWJOcnBMdF9EOGNrVkhTM3dFRnd6OU9seGxoMENGWkt5THpuQUxkTk80cj
@@ -17,8 +17,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNNXFQOFZmNjUzZk5QdnhoTGUwNEhvZGlyNk8xbTJ0SGV2WFBnaXJ5STRxTVRZY3d0S0FEd3JQSVVWNk9aeGhRN2Y4WjJobENmeERhRV83YzlkaHVpMEhEYTJHelkzaHJVNTZQSC04YkxPMUpxNmFNWDdkS2JqcW1ReEFfNjFzRUtNaC1lQVNicHM3NFpPQy1udjBNeVhrZlhrYmNDSG5McnVKQU
 - [China Deploys ‘National Team’ in Multi-Pronged Stock Market Rescue - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1FRUGo4Umx6OVBPUW9BZ3NpYllCUEN5UlpmeHFCQWllYWJmOTFZSUpUdnp6M2hMTzhXQW84M3pmeDBxb053MnJSWjhpTlBTOU0yTUpxX1dwZmJjbk11cXVNYk04VEp5aXI5MDB0V3I1SjRraGZ6VDZETmtEUzRIRDFBaUVLdnVFLS1qQmxVSzFZbTJnSEZncW40MXUwWkJrcW5TZ3doSllNSj
-- [China-Brazil Trade Hits Record High on EV Surge and Shifting Oil Flows - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
-  > <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUnByTXIzTU9nZFkwejhQV3Ffd0t6RlRqbDU0YVBlZGt0UkNVMFNlSjMxRWV2T0psOUZtNnc2ZXZjOHhTbWItNVNnT2VUeUxuRWlfTml2WC1YYmtyV3lybTFwWlZ5VXJ0TUhFQm5GQnMyd25nV2NiMjhiWk5VRnN4Wm9IemU0eDh1S1lJQ2swaGE3Mm91Z0hudDF2TDZId3VUalVDbk1sMjV1dD
 - [Chinese Companies Need a New Cloud Playbook for AI Abroad - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXlFNENaLUtZYW9xVDRNTFo0Q05QSUNRYm1wc0pLcktVc3FfQ2pOMnBGem8ySjF3VWhnSnBZblBYa2pHSkRTSWMzWHo2TDl1TjRiR052V1BmWUFyTUFkOTJXMVRkZVlpMVdWYzJ6N2tVYkN6WERRMloyaWNsazBqM0VkOHh1Sm8tcHR6RFlqSGxaNkhhOWlLbVlsRk5SMGVHVHNvRFlncGpkYW
 - **NEW**  [[TITLE: PRO专享/数据深度专题 - deepview.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9JbXNhZGtDdnFwZy1Ic2dOQmlkQXVjNmVJSGJxVFlfOVlsaGVqY3ZVd3MybVlJQUtrQng2VFBXc3cwZXhkeDZjVi1J] (zh: PRO专享/数据深度专题 - deepview.caixin.com)](https://deepview.caixin.com) — *2026-07-21*
@@ -57,9 +55,11 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YeEozblNYenYyYmNjLUxLT0FoR2J5clRpbzllbnFlOWpCQVR0dUh2ZkFLZWFZX0FFbHkyQ0h1TkFES3FhWkpzbTFBcHVNbEMtOG81M3ZueWtvdjQ3dEpF?oc=5" target="_blank">智能体挑战个人信息保护 各方热议法律边界</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</fon
 - **NEW**  [[TITLE: 野村：美中期选举前联储难加息 日元贬值压力年底前或缓解 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE44aWNNbUVJZXpLNUt3MFNiSEdSOXprcm1aYW1vTUpCMTJJamNyYzdLaGhyS1NJWTlNbnNqdm9EZ2VNc2l3c0hhRkY3SV] (zh: 野村：美中期选举前联储难加息 日元贬值压力年底前或缓解 - 财新)](https://international.caixin.com) — *2026-07-22*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE44aWNNbUVJZXpLNUt3MFNiSEdSOXprcm1aYW1vTUpCMTJJamNyYzdLaGhyS1NJWTlNbnNqdm9EZ2VNc2l3c0hhRkY3SVM2X2ZrZkt4ZTRYWUdYYVJ3cDJ4XzZVeGFkZFlLOEE?oc=5" target="_blank">野村：美中期选举前联储难加息 日元贬值压力年底前或缓解</a>&nbsp;&nbsp;<font color="#6f6f6f"
-- [[TITLE: 李开复：未来一年AI将改变大企业的财报 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMnlHNm8tZWhkT044OFUwRkdtT0N3cEUwMXNYUDBnY01ab0R2MFFRT1J1dEZKSWlKZEc2S3dLcmV2cmR1SDdZUHBBb0dFb3NuU3] (zh: 李开复：未来一年AI将改变大企业的财报 - 财新)](https://companies.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMnlHNm8tZWhkT044OFUwRkdtT0N3cEUwMXNYUDBnY01ab0R2MFFRT1J1dEZKSWlKZEc2S3dLcmV2cmR1SDdZUHBBb0dFb3NuU3pkMmlsTENUd2VXa2RvT0lISE8?oc=5" target="_blank">李开复：未来一年AI将改变大企业的财报</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hTTYxTnhIV2FlYVFiX3AwYnhicmQ3Nk5XY2xvdENyTThPN2xLV3BSOVM1SGRqVUlxVW5ybTRRYmhicG9BN2pWZlNr] (zh: 交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？ - 财新)](https://finance.caixin.com) — *2026-07-22*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hTTYxTnhIV2FlYVFiX3AwYnhicmQ3Nk5XY2xvdENyTThPN2xLV3BSOVM1SGRqVUlxVW5ybTRRYmhicG9BN2pWZlNrRTIyVlNKQ1U5Z0NzVHI2SUFFT0pBeUln?oc=5" target="_blank">交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font
+- [[TITLE: 李开复：未来一年AI将改变大企业的财报 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMnlHNm8tZWhkT044OFUwRkdtT0N3cEUwMXNYUDBnY01ab0R2MFFRT1J1dEZKSWlKZEc2S3dLcmV2cmR1SDdZUHBBb0dFb3NuU3] (zh: 李开复：未来一年AI将改变大企业的财报 - 财新)](https://companies.caixin.com) — *2026-07-21*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMnlHNm8tZWhkT044OFUwRkdtT0N3cEUwMXNYUDBnY01ab0R2MFFRT1J1dEZKSWlKZEc2S3dLcmV2cmR1SDdZUHBBb0dFb3NuU3pkMmlsTENUd2VXa2RvT0lISE8?oc=5" target="_blank">李开复：未来一年AI将改变大企业的财报</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: WAIC机器人观察：模型demo满天飞 规模落地还需几时？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VV9qX2dtQUZVdW5zeVUyXzRYM24yYjZBTEdaS3RmZ2thWTZhZlY4WTFCSVUxY0ZnYmlEOE5ZbmFhOWI4MGtmTXNI] (zh: WAIC机器人观察：模型demo满天飞 规模落地还需几时？ - 财新)](https://companies.caixin.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VV9qX2dtQUZVdW5zeVUyXzRYM24yYjZBTEdaS3RmZ2thWTZhZlY4WTFCSVUxY0ZnYmlEOE5ZbmFhOWI4MGtmTXNIWjZZOTI1N3MzdXZLVkdzOHNwUDdZQ1BYOTc?oc=5" target="_blank">WAIC机器人观察：模型demo满天飞 规模落地还需几时？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</f
 
-_(282 additional items in raw.jsonl)_
+_(283 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-22
-record_count: 111
+record_count: 112
 new_today: 11
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-11 new of 111 total items today.
+11 new of 112 total items today.
 
 - [[OFAC] Russia-related Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $862,390,010 → LEIDOS, INC.: THE PURPOSE OF THIS CONTRACT IS FOR LEIDOS TO PROVIDE THE TR](https://www.usaspending.gov/award/70T04019C9DAP3006) — *2026-07-22*
   > Agency: Department of Homeland Security.  Description: THE PURPOSE OF THIS CONTRACT IS FOR LEIDOS TO PROVIDE THE TRANSPORTATION SECURITY ADMINISTRATION (TSA) WITH AN INTEGRATED LOGISTICS SUPPORT (ILS) PROGRAM TO SUSTAIN GOVERNMENT TRANSPORTATION SECURITY EQUIPMENT (TSE) OWNED AND
 
-_(86 additional items in raw.jsonl)_
+_(87 additional items in raw.jsonl)_

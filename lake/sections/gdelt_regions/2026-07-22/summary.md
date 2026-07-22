@@ -2,36 +2,24 @@
 section: gdelt_regions
 title: World News (by country, top stories)
 date: 2026-07-22
-record_count: 12
-new_today: 12
+record_count: 6
+new_today: 6
 state: fresh
 ---
 
 ## World News (by country, top stories)
 
-12 new of 12 total items today.
+6 new of 6 total items today.
 
-- **NEW**  [[China] CATL to deploy first large - scale sodium - ion energy storage project in Central and Eastern Europe · TechNode](https://technode.com/2026/07/22/catl-to-deploy-first-large-scale-sodium-ion-energy-storage-project-in-central-and-eastern-europe/) — *2026-07-22*
-  > technode.com · English
-- **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/22/WS6a605e24a310986e2b466abf.html) — *2026-07-22*
-  > chinadaily.com.cn · English
-- **NEW**  [[China] Which brands won the FIFA World Cup : a data analysis](https://www.campaignasia.com/article/which-sponsor-brands-won-the-fifa-world-cup-a-data-analysis/4mtztgspg6f0txwtrqkaa6f0xg) — *2026-07-22*
-  > campaignasia.com · English
-- **NEW**  [[China] VW targets rollout of L3 capabilities in China in 2027](http://europe.chinadaily.com.cn/a/202607/22/WS6a6057aca310986e2b466ab0.html) — *2026-07-22*
-  > europe.chinadaily.com.cn · English
-- **NEW**  [[China] China hit an oil and gas output record last year – why is Beijing warning of a squeeze ? ](https://www.scmp.com/economy/china-economy/article/3361437/china-hits-record-oil-and-gas-output-so-why-it-warning-dual-squeeze) — *2026-07-22*
-  > scmp.com · English
-- **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/22/WS6a6050aba310986e2b466a9c.html) — *2026-07-22*
-  > chinadaily.com.cn · English
-- **NEW**  [[Ukraine] EU New Russia Sanctions Package Stalls as Member States Defend Their Interests](https://www.kyivpost.com/post/80812) — *2026-07-22*
-  > kyivpost.com · English
-- **NEW**  [[Ukraine] Syrsky Out , Drapaty In : Fedorov Welcomes Ukraine Military Shakeup](https://www.kyivpost.com/post/80792) — *2026-07-22*
-  > kyivpost.com · English
-- **NEW**  [[Ukraine] Putin AI Army : Deepfakes Posing as Polish Soldiers Spread Kremlin Lies About Ukraine](https://www.kyivpost.com/post/80811) — *2026-07-22*
-  > kyivpost.com · English
-- **NEW**  [[Ukraine] Syrsky Says Army Went From Defense to Offensive Before Exit as Russia Declares Drapatyi Wanted](https://www.kyivpost.com/post/80810) — *2026-07-22*
-  > kyivpost.com · English
-- **NEW**  [[Ukraine] Ukraine Strikes 2 Major Logistics Hubs of Russia Largest Online Retailer](https://www.kyivpost.com/post/80805) — *2026-07-22*
-  > kyivpost.com · English
-- **NEW**  [[Ukraine] Zaluzhny wishes new AFU commander - in - chief endurance and states difficulty of future work](https://en.interfax.com.ua/news/general/1187002.html) — *2026-07-22*
-  > en.interfax.com.ua · English
+- **NEW**  [[Japan] Armadillo Racing is this week Arcade Archives game on Nintendo Switch 2 , Switch](https://nintendoeverything.com/armadillo-racing-is-this-weeks-arcade-archives-game-on-nintendo-switch-2-switch/) — *2026-07-22*
+  > nintendoeverything.com · English
+- **NEW**  [[Japan] Star Fox ( NS2 ) ](https://www.vgchartz.com/article/468532/star-fox-ns2/) — *2026-07-22*
+  > vgchartz.com · English
+- **NEW**  [[Japan] Google Images Turns 25 With a Personalized Redesign](https://www.explosion.com/202749/google-images-turns-25-with-a-personalized-redesign/) — *2026-07-22*
+  > explosion.com · English
+- **NEW**  [[Japan] OpenAI AI Models Broke Free and Hacked Hugging Face](https://www.explosion.com/202734/openais-ai-models-broke-free-and-hacked-hugging-face/) — *2026-07-22*
+  > explosion.com · English
+- **NEW**  [[Japan]   Star Trek : Strange New World Fourth Season Takes Big Swings](https://www.engadget.com/2220481/star-trek-strange-new-worlds-sesason-four-preview/) — *2026-07-22*
+  > engadget.com · English
+- **NEW**  [[Japan] Samsung Galaxy Unpacked July 2026 : Live Updates From The Z Fold 8 And Flip 8 Launch Event](https://www.engadget.com/2219690/samsung-galaxy-unpacked-july-2026-live-blog-z-fold-8-launch/) — *2026-07-22*
+  > engadget.com · English
