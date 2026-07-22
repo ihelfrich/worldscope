@@ -1,22 +1,5 @@
 {
-  "anomalies": [
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Global Times (English): ConnectionError",
-      "evidence": [
-        "chinese-internal-error-global-times--english"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Sixth Tone: ConnectTimeout",
-      "evidence": [
-        "chinese-internal-error-sixth-tone"
-      ],
-      "z_score": null
-    }
-  ],
+  "anomalies": [],
   "date": "2026-07-22",
   "entities_added": [
     {
@@ -26,6 +9,17 @@
         "kind": "country"
       },
       "type": "place"
+    },
+    {
+      "canonical_name": "Caixin Global (via Google News)",
+      "id": "org:newsroom-caixin-global--via-google-news",
+      "metadata": {
+        "country": "China",
+        "kind": "newsroom",
+        "language": "en",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
     },
     {
       "canonical_name": "Caixin 财新 (via Google News)",
@@ -46,17 +40,6 @@
         "kind": "newsroom",
         "language": "zh",
         "tier": "mainstream_partisan_right"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Caixin Global (via Google News)",
-      "id": "org:newsroom-caixin-global--via-google-news",
-      "metadata": {
-        "country": "China",
-        "kind": "newsroom",
-        "language": "en",
-        "tier": "mainstream_independent"
       },
       "type": "org"
     },
@@ -84,11 +67,56 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 202,
+  "new_count": 203,
   "paper_bets": [],
   "predictions": [],
   "record_count": 307,
   "relationships": [
+    {
+      "evidence": [
+        "f519a743875ea5673ae7b7cb1ebe9b28b1eb6deb"
+      ],
+      "from": "org:newsroom-caixin-global--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1e5ca022378a3e21517e9ca6254bb4093b621409"
+      ],
+      "from": "org:newsroom-caixin-global--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ba8da7d3e655d9be58c43ae5eb90927de2c8b106"
+      ],
+      "from": "org:newsroom-caixin-global--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "255ecb9f0690dcb85ba30e3a26c776c1004634a0"
+      ],
+      "from": "org:newsroom-caixin-global--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "619bf30340ff113f860e8bd8cda3cbda40ef1938"
+      ],
+      "from": "org:newsroom-caixin-global--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
     {
       "evidence": [
         "62166f54d402b5af88c3005bffe1e6ce315eb231"
@@ -101,6 +129,15 @@
     {
       "evidence": [
         "025f3606364287d6d001949cbbd235343e5fb0e1"
+      ],
+      "from": "org:newsroom-caixin-财新--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8c0cfc90f71ccdce032a071e1fcb49b6675e4243"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -361,6 +398,15 @@
     },
     {
       "evidence": [
+        "ce04285beacd6bf0ff4fba9b2e8d6b72644bd010"
+      ],
+      "from": "org:newsroom-caixin-财新--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "7a77361980603cc64ef277324fa38c7bb18e2640"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
@@ -379,15 +425,6 @@
     },
     {
       "evidence": [
-        "b3e36628f60a309a1e97bc7c7516ff5ee4a31a22"
-      ],
-      "from": "org:newsroom-caixin-财新--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "1574670d65be1e828855d94fa05a69a6f2076ec1"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
@@ -398,6 +435,15 @@
     {
       "evidence": [
         "c1a3d20a816668a8d7547880d89c7aa2ca094df0"
+      ],
+      "from": "org:newsroom-caixin-财新--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b3e36628f60a309a1e97bc7c7516ff5ee4a31a22"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -523,15 +569,6 @@
     },
     {
       "evidence": [
-        "42b276e197c940109ad76ac3ffdb6321652dbcae"
-      ],
-      "from": "org:newsroom-caixin-财新--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "0d5f176a0572b31077945ac98b777969dc840181"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
@@ -541,7 +578,7 @@
     },
     {
       "evidence": [
-        "10c1ff4bac709e1b6086e4f849316b62313a84a2"
+        "42b276e197c940109ad76ac3ffdb6321652dbcae"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -551,6 +588,15 @@
     {
       "evidence": [
         "9879bb5da3ea507c7a387cb585a202092ba9817e"
+      ],
+      "from": "org:newsroom-caixin-财新--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "10c1ff4bac709e1b6086e4f849316b62313a84a2"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -586,15 +632,6 @@
     },
     {
       "evidence": [
-        "da60ffe2bd9e32f73e6ae1e9c8ce2ea39c3eeba7"
-      ],
-      "from": "org:newsroom-caixin-财新--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "c7f5ec223fca9aaf3b772b770e161d11420bc940"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
@@ -604,7 +641,7 @@
     },
     {
       "evidence": [
-        "9a0bee0c6f3232270155372d6ab10df618a380b5"
+        "da60ffe2bd9e32f73e6ae1e9c8ce2ea39c3eeba7"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -613,7 +650,7 @@
     },
     {
       "evidence": [
-        "ce04285beacd6bf0ff4fba9b2e8d6b72644bd010"
+        "9a0bee0c6f3232270155372d6ab10df618a380b5"
       ],
       "from": "org:newsroom-caixin-财新--via-google-news",
       "to": "place:country-china",
@@ -910,7 +947,7 @@
     },
     {
       "evidence": [
-        "ef30c227995637c3faa557b84be27385d681b742"
+        "30cc89741cbd6144c547d18eafb9d64a86ed7e9b"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -920,15 +957,6 @@
     {
       "evidence": [
         "5384ae1238983cd59e3331127a560e54e9888f52"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "357288f9a79040320343898e8b8bf4e065c85cef"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -992,6 +1020,15 @@
     {
       "evidence": [
         "48a946b6419ef6db1921f67e7f5c0003ae338c12"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9aa29c3cb68a31a8987ec1cb350e4cc706dfbe54"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -1171,6 +1208,15 @@
     },
     {
       "evidence": [
+        "abcd39172aa57c13bcd43e3f37a7a6da8f85c11a"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "0353f221d90c2418cb2cdcbb1a5031311a051b8c"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
@@ -1216,7 +1262,25 @@
     },
     {
       "evidence": [
+        "d489054c7be63b14529a21ee0eab5777452830f6"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "9f4dfee2b1ef424b179667424a54104b5b42e8fd"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "aac4a6677e066306bd6b3d2a8c876e00024de2fa"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -1315,7 +1379,25 @@
     },
     {
       "evidence": [
+        "bfafded684e288f36ff6255f3399edc6fb7810c3"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "e597f514499209afd68340ab3be930f22d6e4540"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a757b2d101ef95f3d3e899c73aca7a06e1005ccb"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -1370,6 +1452,15 @@
     {
       "evidence": [
         "1aeafe7eebf7d830f26a2a8c06eae969cc0d846e"
+      ],
+      "from": "org:newsroom-guancha-观察者网--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3356ae5a3d6c1f2d80f6a1a7a3fb803e7ec35d19"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
       "to": "place:country-china",
@@ -1567,15 +1658,6 @@
     },
     {
       "evidence": [
-        "1ae7e591f719670f148df920448ac40fbb964d4b"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "1672c2e1d81fcdc8e0317ca565445c3b5442add7"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
@@ -1606,87 +1688,6 @@
         "dacf08cb0531c99b2cc9fad7402fc6bf7aa6e01f"
       ],
       "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0eb6bae7c61afa47996d61c8b5bcab276615aee9"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "db3d1117039bca8cac202a2b8c625a57a2a5af3a"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "509f476fc42aea5c526937da2db2dbcc0a958085"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "aae3f51c55445bd027b4b63df4684f98580de569"
-      ],
-      "from": "org:newsroom-guancha-观察者网--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f519a743875ea5673ae7b7cb1ebe9b28b1eb6deb"
-      ],
-      "from": "org:newsroom-caixin-global--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1e5ca022378a3e21517e9ca6254bb4093b621409"
-      ],
-      "from": "org:newsroom-caixin-global--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ba8da7d3e655d9be58c43ae5eb90927de2c8b106"
-      ],
-      "from": "org:newsroom-caixin-global--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "255ecb9f0690dcb85ba30e3a26c776c1004634a0"
-      ],
-      "from": "org:newsroom-caixin-global--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "619bf30340ff113f860e8bd8cda3cbda40ef1938"
-      ],
-      "from": "org:newsroom-caixin-global--via-google-news",
       "to": "place:country-china",
       "type": "reports-on",
       "weight": 1.0
@@ -1783,7 +1784,25 @@
     },
     {
       "evidence": [
+        "a6a01b3644f4085723887cf9df873c4227323b35"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "f343632279b014e12f5037e09d2e4bb151618234"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b09469e63a4ff4bd7e3c73f77b583429aaa822c2"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",
@@ -1801,7 +1820,25 @@
     },
     {
       "evidence": [
+        "7ae19d52a2335d18730854c00e0f10a9cba27a81"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "36c2b6880e84f885d55cf8ffd0630827ec04f445"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "53d4ba8bb5910388d5aa29ced7be9e249ddae235"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",
@@ -1829,6 +1866,15 @@
     {
       "evidence": [
         "7bce33cd701ebd879ca7a9fd96144f04bd6d8992"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0f24c13830097ea299807ebd4e82ce2e658c3235"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",
@@ -1901,15 +1947,6 @@
     {
       "evidence": [
         "675b26e1079930c8d67709da810cf7ebf5f0cd8a"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "654a91d05d77a7cfcc7ef46914a6450f5dd7b12a"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",
@@ -2278,15 +2315,6 @@
     },
     {
       "evidence": [
-        "d3700a062526818d27d553277c147ecdecadfada"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "b0028de35c17e05f340789112350bd11d5d85002"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
@@ -2306,6 +2334,15 @@
     {
       "evidence": [
         "bab6baadf35ec38d6e9e2d4b44294f5683e04087"
+      ],
+      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
+      "to": "place:country-china",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d3700a062526818d27d553277c147ecdecadfada"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",
@@ -2395,15 +2432,6 @@
     },
     {
       "evidence": [
-        "172fe03541be630bf0464bff385bed13f18a6490"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "467e2421c45ad1a3bf9f0af0e5643bf9fa12e339"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
@@ -2477,33 +2505,6 @@
     {
       "evidence": [
         "4dcfca3c1228a11d154299b15d2a10e8043917f0"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c8e6777b78aa3d06a752d86bd5a3700e2cea614c"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e19440027b84114d9038881fc22cbfc81aa9c0ef"
-      ],
-      "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
-      "to": "place:country-china",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "26d55b7da66817b7af153199fefdf814ce96f553"
       ],
       "from": "org:newsroom-people-s-daily-人民日报--via-google-news",
       "to": "place:country-china",

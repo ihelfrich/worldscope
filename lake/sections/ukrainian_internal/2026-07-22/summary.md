@@ -15,6 +15,8 @@ state: fresh
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-22*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Канада закликала до постійного припинення вогню на Близькому Сході | LEDE: Міністерка закордонних справ Канади Аніта Ананд закликала до деескалації та постійного припинення вогню на Близькому С] (uk: Канада закликала до постійного припинення вогню на Близькому Сході)](https://www.pravda.com.ua/news/2026/07/22/8045301/) — *2026-07-22*
+  > Міністерка закордонних справ Канади Аніта Ананд закликала до деескалації та постійного припинення вогню на Близькому Сході, оскільки ситуація там є "досить серйозною".
 - **NEW**  [[TITLE: В МЗС відреагували на "таємну" зустріч експосадовців РФ і Німеччини | LEDE: Речник Міністерства закордонних справ Георгій Тихий висловився щодо "таємної" зустрічі у Баку колишніх високопосадовц] (uk: В МЗС відреагували на "таємну" зустріч експосадовців РФ і Німеччини)](https://www.pravda.com.ua/news/2026/07/22/8045298/) — *2026-07-22*
   > Речник Міністерства закордонних справ Георгій Тихий висловився щодо "таємної" зустрічі у Баку колишніх високопосадовців Німеччини та Росії.
 - **NEW**  [[TITLE: Мобілізований прикордонник намагався втекти зі служби за $3 тисячі | LEDE: Підозру оголосили військовослужбовцю Державної прикордонної служби, який запропонував командиру підрозділу 3 тисячі до] (uk: Мобілізований прикордонник намагався втекти зі служби за $3 тисячі)](https://www.pravda.com.ua/news/2026/07/22/8045294/) — *2026-07-22*
@@ -51,13 +53,11 @@ state: fresh
 - **NEW**  [[TITLE: Держсекретар США каже, що Іран не ставиться "серйозно" до переговорів | LEDE: ] (uk: Держсекретар США каже, що Іран не ставиться "серйозно" до переговорів)](https://www.pravda.com.ua/news/2026/07/22/8045270/) — *2026-07-22*
 - **NEW**  [[TITLE: З вечора ППО збила 3 ракети і більше 200 дронів. Зафіксовано влучання "Іскандера" | LEDE: ЗСУ відбили атаку Росії: збито 204 дрони й 3 ракети, зафіксовано влучання «Іскандера» під Києвом.] (uk: З вечора ППО збила 3 ракети і більше 200 дронів. Зафіксовано влучання "Іскандера)](https://www.pravda.com.ua/news/2026/07/22/8045269/) — *2026-07-22*
   > ЗСУ відбили атаку Росії: збито 204 дрони й 3 ракети, зафіксовано влучання «Іскандера» під Києвом.
-- **NEW**  [[TITLE: Росіяни атакували житловий будинок під Києвом: постраждали 5 людей | LEDE: У селі Чайки під Києвом росіяни влучили в будинок. Постраждали 5 людей, серед них троє дітей.] (uk: Росіяни атакували житловий будинок під Києвом: постраждали 5 людей)](https://www.pravda.com.ua/news/2026/07/22/8045268/) — *2026-07-22*
-  > У селі Чайки під Києвом росіяни влучили в будинок. Постраждали 5 людей, серед них троє дітей.
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-22*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [Kremlin Rules Out Returning Occupied Sumy, Kharkiv Border Areas in Peace Deal – Bloomberg](https://www.kyivpost.com/post/80816) — *2026-07-22*
-  > Russia no longer plans to return occupied parts of Ukraine’s Sumy and Kharkiv regions in any future peace deal, according to Bloomberg. The Kremlin reportedly intends to keep the border areas as buffer zones while pressing ahead with its goal of capturing the entire Donetsk and L
-- **NEW**  [Lithuania Moves Red Army Graves to Leave Behind Soviet Past](https://www.kyivpost.com/post/80814) — *2026-07-22*
-  > Lithuania is exhuming Soviet Red Army graves as part of its drive to erase symbols of Soviet occupation, drawing sharp protests from Moscow. The wartime memorial relocations have become the latest flashpoint in a broader battle over history, memory, and Russia’s influence in the 
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-22*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-22*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
 
 _(82 additional items in raw.jsonl)_

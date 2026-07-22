@@ -3,18 +3,30 @@ section: chinese_internal
 title: Chinese Internal News
 date: 2026-07-22
 record_count: 307
-new_today: 202
+new_today: 203
 state: fresh
 ---
 
 ## Chinese Internal News
 
-202 new of 307 total items today.
+203 new of 307 total items today.
 
+- **NEW**  [In Depth: Louis Vuitton’s Trademark Win Sparks Backlash in China - Caixin Global](https://www.caixinglobal.com) — *2026-07-21*
+  > <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWVhIWVAySm9MRFBjOGV4dGlqSWFETnVCZURnME9Vb05xaUpKN1RfYnR5eF9lbHFDaUFUTlFFTmRaMWF5dGVyZlpEck9Db3dRb0I5aUxzY3ZSamttWEdYWWttWW9KanJJZkFMeldLcmdEaHJJSlV3SjZPU05jTEhCVWJOcnBMdF9EOGNrVkhTM3dFRnd6OU9seGxoMENGWkt5THpuQUxkTk80cj
+- [Cover Story: Europe Fortifies Against China’s New Export Juggernaut - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNNXFQOFZmNjUzZk5QdnhoTGUwNEhvZGlyNk8xbTJ0SGV2WFBnaXJ5STRxTVRZY3d0S0FEd3JQSVVWNk9aeGhRN2Y4WjJobENmeERhRV83YzlkaHVpMEhEYTJHelkzaHJVNTZQSC04YkxPMUpxNmFNWDdkS2JqcW1ReEFfNjFzRUtNaC1lQVNicHM3NFpPQy1udjBNeVhrZlhrYmNDSG5McnVKQU
+- [China Deploys ‘National Team’ in Multi-Pronged Stock Market Rescue - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1FRUGo4Umx6OVBPUW9BZ3NpYllCUEN5UlpmeHFCQWllYWJmOTFZSUpUdnp6M2hMTzhXQW84M3pmeDBxb053MnJSWjhpTlBTOU0yTUpxX1dwZmJjbk11cXVNYk04VEp5aXI5MDB0V3I1SjRraGZ6VDZETmtEUzRIRDFBaUVLdnVFLS1qQmxVSzFZbTJnSEZncW40MXUwWkJrcW5TZ3doSllNSj
+- [China-Brazil Trade Hits Record High on EV Surge and Shifting Oil Flows - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUnByTXIzTU9nZFkwejhQV3Ffd0t6RlRqbDU0YVBlZGt0UkNVMFNlSjMxRWV2T0psOUZtNnc2ZXZjOHhTbWItNVNnT2VUeUxuRWlfTml2WC1YYmtyV3lybTFwWlZ5VXJ0TUhFQm5GQnMyd25nV2NiMjhiWk5VRnN4Wm9IemU0eDh1S1lJQ2swaGE3Mm91Z0hudDF2TDZId3VUalVDbk1sMjV1dD
+- [Chinese Companies Need a New Cloud Playbook for AI Abroad - Caixin Global](https://www.caixinglobal.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXlFNENaLUtZYW9xVDRNTFo0Q05QSUNRYm1wc0pLcktVc3FfQ2pOMnBGem8ySjF3VWhnSnBZblBYa2pHSkRTSWMzWHo2TDl1TjRiR052V1BmWUFyTUFkOTJXMVRkZVlpMVdWYzJ6N2tVYkN6WERRMloyaWNsazBqM0VkOHh1Sm8tcHR6RFlqSGxaNkhhOWlLbVlsRk5SMGVHVHNvRFlncGpkYW
 - **NEW**  [[TITLE: PRO专享/数据深度专题 - deepview.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9JbXNhZGtDdnFwZy1Ic2dOQmlkQXVjNmVJSGJxVFlfOVlsaGVqY3ZVd3MybVlJQUtrQng2VFBXc3cwZXhkeDZjVi1J] (zh: PRO专享/数据深度专题 - deepview.caixin.com)](https://deepview.caixin.com) — *2026-07-21*
   > <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9JbXNhZGtDdnFwZy1Ic2dOQmlkQXVjNmVJSGJxVFlfOVlsaGVqY3ZVd3MybVlJQUtrQng2VFBXc3cwZXhkeDZjVi1JVkFPcllpbmROS0ZZbVhDelZFbnNtbGhHd0tsUWhleFhTcXdfajJXdk1ORlZxS3MyWQ?oc=5" target="_blank">PRO专享/数据深度专题</a>&nbsp;&nbsp;<font color="
 - [[TITLE: 最新财新周刊｜复杂局面下如何稳经济 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1N2FPTWd0Qm1qTlIwWl9lclNjbTA3SnVQdFFnQm9MUGZWNGFMOUVueDlXc1h4Q2s5WGQtRnowNElTWDFDclI3c2NaWXRTdGJYUz] (zh: 最新财新周刊｜复杂局面下如何稳经济 - 财新周刊)](https://weekly.caixin.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1N2FPTWd0Qm1qTlIwWl9lclNjbTA3SnVQdFFnQm9MUGZWNGFMOUVueDlXc1h4Q2s5WGQtRnowNElTWDFDclI3c2NaWXRTdGJYUzNVQVlZbXlEdjI1eEdwNA?oc=5" target="_blank">最新财新周刊｜复杂局面下如何稳经济</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
+- [[TITLE: 最新财新周刊｜热浪侵袭下的动物 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xanpTMUdIMG1SYW5YSzd4N2x1a1JTNDBJVWRFanV5V3g2YVRid2VaaE1FeEhLd1lIcGdqTzVNX3lsM2lha2Y3SGJQNXlNUWNiUmI3] (zh: 最新财新周刊｜热浪侵袭下的动物 - 财新周刊)](https://weekly.caixin.com) — *2026-07-20*
+  > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xanpTMUdIMG1SYW5YSzd4N2x1a1JTNDBJVWRFanV5V3g2YVRid2VaaE1FeEhLd1lIcGdqTzVNX3lsM2lha2Y3SGJQNXlNUWNiUmI3dElEMVpZd3NZa3J3Rw?oc=5" target="_blank">最新财新周刊｜热浪侵袭下的动物</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
 - [[TITLE: 财新观察｜完善扩大居民消费长效机制 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EaVF0MVdpTm5CNFZVYi02TWtoU0JDNnVWT1o4V1dNZUk4UWw0ZXE5RE0tWFh6bjJraDZsSUZ6WU1ZZXpsbThjQU1uSGl5M1BlOX] (zh: 财新观察｜完善扩大居民消费长效机制 - 财新周刊)](https://weekly.caixin.com) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EaVF0MVdpTm5CNFZVYi02TWtoU0JDNnVWT1o4V1dNZUk4UWw0ZXE5RE0tWFh6bjJraDZsSUZ6WU1ZZXpsbThjQU1uSGl5M1BlOXMydWxJRWl4bTYzNlhIRw?oc=5" target="_blank">财新观察｜完善扩大居民消费长效机制</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
 - [[TITLE: 最新财新周刊｜城投转产投虚实 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iVUs4UFVkZnBQaTlYYzd2Z3pYc2lTY3NEZXdYTjdaWWg5aTMtbGFXX3pxRkNyUDIwTFQ3S0N4c0lrSVEwaUV3VnNYb1RXd3pKaHJBV] (zh: 最新财新周刊｜城投转产投虚实 - 财新周刊)](https://weekly.caixin.com) — *2026-07-20*
@@ -49,17 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMnlHNm8tZWhkT044OFUwRkdtT0N3cEUwMXNYUDBnY01ab0R2MFFRT1J1dEZKSWlKZEc2S3dLcmV2cmR1SDdZUHBBb0dFb3NuU3pkMmlsTENUd2VXa2RvT0lISE8?oc=5" target="_blank">李开复：未来一年AI将改变大企业的财报</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hTTYxTnhIV2FlYVFiX3AwYnhicmQ3Nk5XY2xvdENyTThPN2xLV3BSOVM1SGRqVUlxVW5ybTRRYmhicG9BN2pWZlNr] (zh: 交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？ - 财新)](https://finance.caixin.com) — *2026-07-22*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hTTYxTnhIV2FlYVFiX3AwYnhicmQ3Nk5XY2xvdENyTThPN2xLV3BSOVM1SGRqVUlxVW5ybTRRYmhicG9BN2pWZlNrRTIyVlNKQ1U5Z0NzVHI2SUFFT0pBeUln?oc=5" target="_blank">交易商协会规范熊猫债信用评级 与国际主流信用等级如何映射？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font
-- [[TITLE: WAIC机器人观察：模型demo满天飞 规模落地还需几时？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VV9qX2dtQUZVdW5zeVUyXzRYM24yYjZBTEdaS3RmZ2thWTZhZlY4WTFCSVUxY0ZnYmlEOE5ZbmFhOWI4MGtmTXNI] (zh: WAIC机器人观察：模型demo满天飞 规模落地还需几时？ - 财新)](https://companies.caixin.com) — *2026-07-20*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VV9qX2dtQUZVdW5zeVUyXzRYM24yYjZBTEdaS3RmZ2thWTZhZlY4WTFCSVUxY0ZnYmlEOE5ZbmFhOWI4MGtmTXNIWjZZOTI1N3MzdXZLVkdzOHNwUDdZQ1BYOTc?oc=5" target="_blank">WAIC机器人观察：模型demo满天飞 规模落地还需几时？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</f
-- [[TITLE: 蚂蚁国际完成约12亿美元A轮融资 蚂蚁集团、阿里集团等参与 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9relZlTWE4WW1ubFRWQ2VqNG10QWlFcE15MEc3UFg1MG1DMmVDSFJVUldYTzc5enB0RlJ1dkViTVhOU0FEY1BhUVFi] (zh: 蚂蚁国际完成约12亿美元A轮融资 蚂蚁集团、阿里集团等参与 - 财新)](https://finance.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9relZlTWE4WW1ubFRWQ2VqNG10QWlFcE15MEc3UFg1MG1DMmVDSFJVUldYTzc5enB0RlJ1dkViTVhOU0FEY1BhUVFiRmhsVmVkQUx3ZjlBdW1aZzk2M1N3bDNB?oc=5" target="_blank">蚂蚁国际完成约12亿美元A轮融资 蚂蚁集团、阿里集团等参与</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font
-- [[TITLE: 特稿｜LV诉茉莉奶白侵权 纹样商标化边界何在？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wbl8tU1d5TTVfYzVkS1FIaUlGcU1KOHQ4SXhXeHdzeHdiTFo4TEdpVGN5RlNybDY3amEwQ1BSS0RiT1NxT3dKTjVyVU9zUU] (zh: 特稿｜LV诉茉莉奶白侵权 纹样商标化边界何在？ - 财新)](https://companies.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wbl8tU1d5TTVfYzVkS1FIaUlGcU1KOHQ4SXhXeHdzeHdiTFo4TEdpVGN5RlNybDY3amEwQ1BSS0RiT1NxT3dKTjVyVU9zUUdoWF9NM1g5MDJjbTNyUEpiam1EcWE?oc=5" target="_blank">特稿｜LV诉茉莉奶白侵权 纹样商标化边界何在？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- [[TITLE: 长鑫科技660万新股遭弃购 散户为主 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE15c2NNeTA4cXlKQ0pfOHR3NEtzRVRTVFlmVTBFNThSRW54R3dCbGliS2hndVdNc3lqT0V2S0t5VldPTHJjWktYc1NpcjhpSzdlanB] (zh: 长鑫科技660万新股遭弃购 散户为主 - 财新)](https://finance.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE15c2NNeTA4cXlKQ0pfOHR3NEtzRVRTVFlmVTBFNThSRW54R3dCbGliS2hndVdNc3lqT0V2S0t5VldPTHJjWktYc1NpcjhpSzdlanBTU3RkcUJIVE5XU3ZSN2ZB?oc=5" target="_blank">长鑫科技660万新股遭弃购 散户为主</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- [[TITLE: 伊朗革命卫队声称打击并摧毁亚马逊云巴林数据中心 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kU3lHQXl5dldiSWo3SWlqeFRxUTFXUHdtQm4tU1JqdGx2NnNfT1BvNEMwcDkzOFpVN01mM1Z1cFp2MnVnS2Y2b2NQMjBtSm] (zh: 伊朗革命卫队声称打击并摧毁亚马逊云巴林数据中心 - 财新)](https://companies.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kU3lHQXl5dldiSWo3SWlqeFRxUTFXUHdtQm4tU1JqdGx2NnNfT1BvNEMwcDkzOFpVN01mM1Z1cFp2MnVnS2Y2b2NQMjBtSmNkLTBQY29hUWU0dGJwaDdwUE93VDA?oc=5" target="_blank">伊朗革命卫队声称打击并摧毁亚马逊云巴林数据中心</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- [[TITLE: 人身险产品预定利率不变 研究值继续企稳回升 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DWFpJUGhPaWo3a25YWU5oWTRIZHdkcjZuZl96clYzS3dSeGlVSTM5MDZsNXY3ZkJoRmNweEs3dzBPdDlGdUlfc0VzVVV6b1Z4] (zh: 人身险产品预定利率不变 研究值继续企稳回升 - 财新)](https://finance.caixin.com) — *2026-07-21*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DWFpJUGhPaWo3a25YWU5oWTRIZHdkcjZuZl96clYzS3dSeGlVSTM5MDZsNXY3ZkJoRmNweEs3dzBPdDlGdUlfc0VzVVV6b1Z4OFR4UHFTZXotYjNIckFwWFJn?oc=5" target="_blank">人身险产品预定利率不变 研究值继续企稳回升</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
 _(282 additional items in raw.jsonl)_

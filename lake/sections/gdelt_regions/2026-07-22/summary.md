@@ -23,15 +23,15 @@ state: fresh
   > scmp.com · English
 - **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/22/WS6a6050aba310986e2b466a9c.html) — *2026-07-22*
   > chinadaily.com.cn · English
-- **NEW**  [[Japan] EAM Jaishankar meets US State Secy Rubio , discusses strategic ties as Quad FM Meet reconvenes in Manila](http://www.japanherald.com/news/279202522/eam-jaishankar-meets-us-state-secy-rubio-discusses-strategic-ties-as-quad-fm-meet-reconvenes-in-manila) — *2026-07-22*
-  > japanherald.com · English
-- **NEW**  [[Japan] From sand to sensors : How a tech initiative is bridging rural China education gap](http://www.japanherald.com/news/279202667/from-sand-to-sensors-how-a-tech-initiative-is-bridging-rural-china-education-gap) — *2026-07-22*
-  > japanherald.com · English
-- **NEW**  [[Japan] Gold hits two - week high as Fed outlook stays in focus](http://www.japanherald.com/news/279202554/gold-hits-two-week-high-as-fed-outlook-stays-in-focus) — *2026-07-22*
-  > japanherald.com · English
-- **NEW**  [[Japan] Samsung enters US credit card market with Galaxy card to challenge Apple](http://www.japanherald.com/news/279202581/samsung-enters-us-credit-card-market-with-galaxy-card-to-challenge-apple) — *2026-07-22*
-  > japanherald.com · English
-- **NEW**  [[Japan] 36th Hong Kong Book Fair continues to be a beloved cultural event](https://www.jcnnewswire.com/pressrelease/108643/3/36th-Hong-Kong-Book-Fair-continues-to-be-a-beloved-cultural-event) — *2026-07-22*
-  > jcnnewswire.com · English
-- **NEW**  [[Japan] SuperX and Mercuria Asia Forge Strategic Partnership to Build Innovative AI Infrastructure Ecosystem](https://www.jcnnewswire.com/pressrelease/108641/2/SuperX-and-Mercuria-Asia-Forge-Strategic-Partnership-to-Build-Innovative-AI-Infrastructure-Ecosystem) — *2026-07-22*
-  > jcnnewswire.com · English
+- **NEW**  [[Ukraine] EU New Russia Sanctions Package Stalls as Member States Defend Their Interests](https://www.kyivpost.com/post/80812) — *2026-07-22*
+  > kyivpost.com · English
+- **NEW**  [[Ukraine] Syrsky Out , Drapaty In : Fedorov Welcomes Ukraine Military Shakeup](https://www.kyivpost.com/post/80792) — *2026-07-22*
+  > kyivpost.com · English
+- **NEW**  [[Ukraine] Putin AI Army : Deepfakes Posing as Polish Soldiers Spread Kremlin Lies About Ukraine](https://www.kyivpost.com/post/80811) — *2026-07-22*
+  > kyivpost.com · English
+- **NEW**  [[Ukraine] Syrsky Says Army Went From Defense to Offensive Before Exit as Russia Declares Drapatyi Wanted](https://www.kyivpost.com/post/80810) — *2026-07-22*
+  > kyivpost.com · English
+- **NEW**  [[Ukraine] Ukraine Strikes 2 Major Logistics Hubs of Russia Largest Online Retailer](https://www.kyivpost.com/post/80805) — *2026-07-22*
+  > kyivpost.com · English
+- **NEW**  [[Ukraine] Zaluzhny wishes new AFU commander - in - chief endurance and states difficulty of future work](https://en.interfax.com.ua/news/general/1187002.html) — *2026-07-22*
+  > en.interfax.com.ua · English

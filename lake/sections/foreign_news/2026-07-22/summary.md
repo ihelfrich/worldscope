@@ -2,43 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-22
-record_count: 1000
-new_today: 534
+record_count: 1025
+new_today: 563
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-534 new of 1000 total items today.
+563 new of 1025 total items today.
 
+- [[Global] Zelensky sacks Ukraine's top army commander after days of protests](https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.
+- **NEW**  [[Global] Ukrainian drones hit more sites of Russian online retailer Wildberries](https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight.
+- **NEW**  [[Global] Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more](https://www.bbc.co.uk/news/articles/c70gek2kqyno?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.
+- **NEW**  [[Global] India's Modi government under growing pressure as 'cockroach' protests intensify](https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The CJP got a boost on Tuesday when the opposition Congress party demonstrated outside the PM's house.
+- **NEW**  [[Global] France passes law banning under-15s from social media](https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The law will require social media platforms in France to verify all users age from January.
+- **NEW**  [[Global] Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'](https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.
+- **NEW**  [[Global] Police station opens at Hitler's birthplace in bid to rid site of Nazi link](https://www.bbc.co.uk/news/articles/cy5d36e752yo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The opening follows years of controversy about what to do with the 17th-Century former inn, where the Nazi dictator was born.
+- **NEW**  [[Global] US renews strikes on Iran as Trump threatens to attack underground nuclear site](https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.
+- **NEW**  [[Global] Michelin-starred restaurateur faces jail for using ants as dessert garnish](https://www.bbc.co.uk/news/articles/c62qw1qk95eo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Officials say the restaurant in South Korea used some 49,000 ants in various dishes over four years.
+- **NEW**  [[Global] Rebel Wilson cleared in defamation case brought by actress in her own film](https://www.bbc.co.uk/news/articles/c80nv4eevero?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Wilson was accused of defaming young Australian actress Charlotte MacInnes, but cleared by a Sydney court.
+- **NEW**  [[Global] Gruesome images in D4vd hearing are 'worst nightmare' for teen girl's family](https://www.bbc.co.uk/news/articles/c4g4lyze30vo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The court hears the singer ordered a body bag, chainsaws and an inflatable pool to dispose of the teen's body.
+- **NEW**  [[Global] Tunnel collapse in India kills 12 workers](https://www.bbc.co.uk/news/articles/c80nv79204eo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Rescue operation is ongoing but hazardous conditions have hampered efforts to reach those still inside.
+- **NEW**  [[Global] Japan temperatures soar over 40C, marking first 'cruelly hot day'](https://www.bbc.co.uk/news/articles/cp3rz07grngo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The term was introduced in April by the weather agency to describe days when temperatures reach 40C.
+- **NEW**  [[Global] Meet the women breaking world records in lumberjack sports](https://www.bbc.co.uk/news/articles/c6293zk14njo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > The BBC finds out what is driving the sports' increasing popularity with women and what it takes to be the best.
+- **NEW**  [[Global] Why Iran is risking so much over the Strait of Hormuz](https://www.bbc.co.uk/news/articles/cwymx3eevpjo?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > None of the choices facing Iran’s leaders offer a clear path to victory, as the conflict with the US continues.
+- [[Global] Why are thousands protesting for education reform in India?](https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.
+- [[Global] ‘All I think about is her’: Families demand answers as Nigeria's boat disasters keep happening](https://www.bbc.co.uk/news/articles/c309vzn676go?at_medium=RSS&at_campaign=rss) — *2026-07-20*
+  > Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.
+- **NEW**  [[Global] Why WhatsApp usernames could upset Somalia's anti-terror fight](https://www.bbc.co.uk/news/articles/ce97zxdkeyyo?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > People will be able to chat without revealing their contact number once the new feature is rolled out.
+- **NEW**  [[Global] Beluga whales relocated from closed Canadian marine park arrive in US](https://www.bbc.co.uk/news/videos/ckg4x8lpe50o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
+  > Six beluga whales have arrived in the US after being moved from a Canadian marine park that could no longer care for them.
+- [[Global] Watch Texas police officer pull man from burning car](https://www.bbc.co.uk/news/videos/clyej920j5po?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > Bodycam and dashcam footage shows a police officer rescue a man seconds before his car was engulfed in flames in Texas.
+- [[Global] Watch: Flooded towns and evacuations as Chile hit by heavy rain](https://www.bbc.co.uk/news/videos/cy9wq8j2p7qo?at_medium=RSS&at_campaign=rss) — *2026-07-21*
+  > A "state of catastrophe" has been declared in Coquimbo and Huasco following the downpour.
+- [[Global] From hundreds to thousands: How India's 'cockroach' protest movement has grown](https://www.bbc.co.uk/news/videos/c0qvdywj97ko?at_medium=RSS&at_campaign=rss) — *2026-07-20*
+  > BBC's Azadeh Moshiri reports as thousands attempt to march to India's parliament in support of the Cockroach Janta Party's demand for education reforms.
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-22*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-22*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-22*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-22*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-22*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[Global] Health worker monitored for Ebola in London hospital after working in DRC](https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc) — *2026-07-21*
-- [[Global] Healthy diet too expensive for one in three people globally, UN report finds](https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds) — *2026-07-21*
-- **NEW**  [[Global] Trump announces new tariffs on generic drugs to take effect in 2028 – as it happened](https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates) — *2026-07-22*
-- **NEW**  [[Global] Canada cancels joint bridge-opening celebration with US amid trade tensions](https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled) — *2026-07-22*
-- [[Global] Spanish hotel chain ceases operations in Cuba under pressure from Washington](https://www.theguardian.com/world/2026/jul/21/spanish-hotel-chain-ceases-operations-cuba-sanctions-trump) — *2026-07-21*
-- [[Global] US claims of Cuba’s ‘unique threat’ jar with reality of hunger and blackouts](https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba) — *2026-07-21*
-- [[Global] We received no alert, say leaders of First Nations communities razed by Canadian wildfires](https://www.theguardian.com/world/2026/jul/21/first-nations-ontario-canada-wildfires-evacuations-government) — *2026-07-21*
-- **NEW**  [[Global] Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat](https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather) — *2026-07-22*
-- [[Global] Australia spent more than $9m for each asylum seeker held on Nauru last year – so why can’t they afford to buy food?](https://www.theguardian.com/world/2026/jul/20/nauru-asylum-seeker-living-conditions-food-allowance-offshore-processing) — *2026-07-20*
-- **NEW**  [[Global] Court win for low-paid Domino’s workers in underpayment class action – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb) — *2026-07-22*
-- **NEW**  [[Global] People with secret ‘safe phones’ advised to turn off devices during national test of AusAlert emergency warning](https://www.theguardian.com/australia-news/2026/jul/22/people-with-secret-safe-phones-advised-to-turn-off-devices-during-national-test-of-ausalert-emergency-warning) — *2026-07-22*
-- **NEW**  [[Global] Brittany Higgins accuses Pauline Hanson of victim-blaming for calling domestic violence a ‘two-way street’](https://www.theguardian.com/australia-news/2026/jul/22/brittany-higgins-pauline-hanson-domestic-violence-comments-ntwnfb) — *2026-07-22*
-- **NEW**  [[Global] Alleged rape victim ‘could have done a lot better’ if she had made up claims against well-connected Melbourne man, court told](https://www.theguardian.com/australia-news/2026/jul/22/well-connected-melbourne-man-alleged-rape-court-ntwnfb) — *2026-07-22*
-- **NEW**  [[Global] Rebel Wilson wins defamation case brought by co-star after bitter dispute](https://www.theguardian.com/australia-news/2026/jul/22/rebel-wilson-wins-defamation-case-charlotte-macinnes-ntwnfb) — *2026-07-22*
-- **NEW**  [[Global] EU bids to finalise new Russia sanctions amid discontent from some member states – Europe live](https://www.theguardian.com/world/live/2026/jul/22/ukraine-war-russia-sanctions-europe-eu-latest-news-updates) — *2026-07-22*
-- **NEW**  [[Global] Norway’s national oil company profits double to $11.5bn amid war on Iran](https://www.theguardian.com/world/2026/jul/22/norway-national-oil-company-equinor-profits-double-115bn-war-iran) — *2026-07-22*
-- **NEW**  [[Global] ​World’s largest meat company faces legal challenge over green credentials of $6bn global expansion](https://www.theguardian.com/environment/2026/jul/22/meat-multinational-faces-legal-challenge-over-green-credentials-of-6bn-global-expansion-plan) — *2026-07-22*
-- [[Global] Zelenskyy fires Ukraine’s army chief and offers Fedorov ‘prominent position’](https://www.theguardian.com/world/2026/jul/21/zelenskyy-replaces-military-leader-and-brings-back-defence-minister-he-sacked) — *2026-07-21*
-- [[Global] France becomes first EU country to ban social media access for under-15s](https://www.theguardian.com/world/2026/jul/21/france-ban-social-media-access-under-15s) — *2026-07-21*
-- **NEW**  [[Global] Middle East crisis live: US renews strikes on Iran as Trump threatens to attack nuclear site ‘very heavily’](https://www.theguardian.com/world/live/2026/jul/22/middle-east-us-iran-war-trump-houthis-strait-of-hormuz-nuclear-pickaxe-mountain-latest-news-updates) — *2026-07-22*
-- **NEW**  [[Global] Mamdani urges US government to arrest Netanyahu if Israeli PM visits US](https://www.theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority) — *2026-07-22*
 
-_(975 additional items in raw.jsonl)_
+_(1000 additional items in raw.jsonl)_

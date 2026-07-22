@@ -2,14 +2,6 @@
   "anomalies": [
     {
       "category": "feed-failure",
-      "description": "[feed error] Novaya Gazeta Europe: HTTPError",
-      "evidence": [
-        "russian-internal-error-novaya-gazeta-europe"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
       "description": "[feed error] Izvestia: HTTPError",
       "evidence": [
         "russian-internal-error-izvestia"
@@ -29,6 +21,14 @@
       "description": "[feed error] DW Russian: HTTPError",
       "evidence": [
         "russian-internal-error-dw-russian"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] Novaya Gazeta Europe: HTTPError",
+      "evidence": [
+        "russian-internal-error-novaya-gazeta-europe"
       ],
       "z_score": null
     }
@@ -77,28 +77,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "TASS",
-      "id": "org:newsroom-tass",
-      "metadata": {
-        "country": "Russia",
-        "kind": "newsroom",
-        "language": "ru",
-        "tier": "state_controlled"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "The Insider",
-      "id": "org:newsroom-the-insider",
-      "metadata": {
-        "country": "Russia",
-        "kind": "newsroom",
-        "language": "ru",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "BBC Russian",
       "id": "org:newsroom-bbc-russian",
       "metadata": {
@@ -110,8 +88,8 @@
       "type": "org"
     },
     {
-      "canonical_name": "Lenta.ru",
-      "id": "org:newsroom-lenta-ru",
+      "canonical_name": "TASS",
+      "id": "org:newsroom-tass",
       "metadata": {
         "country": "Russia",
         "kind": "newsroom",
@@ -132,6 +110,28 @@
       "type": "org"
     },
     {
+      "canonical_name": "The Insider",
+      "id": "org:newsroom-the-insider",
+      "metadata": {
+        "country": "Russia",
+        "kind": "newsroom",
+        "language": "ru",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Lenta.ru",
+      "id": "org:newsroom-lenta-ru",
+      "metadata": {
+        "country": "Russia",
+        "kind": "newsroom",
+        "language": "ru",
+        "tier": "state_controlled"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "Kommersant",
       "id": "org:newsroom-kommersant",
       "metadata": {
@@ -144,11 +144,20 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 453,
+  "new_count": 465,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 1056,
+  "record_count": 1060,
   "relationships": [
+    {
+      "evidence": [
+        "fdb41e916ebdd7ecf89b2cc55d38a8fbad02e421"
+      ],
+      "from": "org:newsroom-meduza",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
     {
       "evidence": [
         "25e47e3de72036cd674e25c9b1b7640a0a943ddb"
@@ -412,9 +421,63 @@
     },
     {
       "evidence": [
-        "9ff20bc4028231b913ed8105346d741686fdd1f9"
+        "bde59a4b816bb711df2a4dbc941c9d2184ab59ed"
       ],
-      "from": "org:newsroom-meduza",
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "38b468ae02004af025d8f4b04f121d4cf6b9a355"
+      ],
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0d552c44ae6451729fe0230775a39742e97f6df9"
+      ],
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cd653407a4df6b7c1c8396591a1ea8e6a4032886"
+      ],
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "116ff2a26d4643efd9ad153cbada5c11f0b5bcf9"
+      ],
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d57fef38a6d9fb29c51412b6b9596182ea4c645e"
+      ],
+      "from": "org:newsroom-ria-novosti",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ddc3f1cc2af52dd89ded72c902d72ed52f3448c7"
+      ],
+      "from": "org:newsroom-ria-novosti",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
@@ -448,7 +511,7 @@
     },
     {
       "evidence": [
-        "2e64b8f435a887a509a0f594cc1ee805af208125"
+        "695aab09eb176351dfcdfb43d303aa6024dd4f96"
       ],
       "from": "org:newsroom-ria-novosti",
       "to": "place:country-russia",
@@ -530,69 +593,6 @@
     {
       "evidence": [
         "36d63112c99b2055a15acebd54a39c3bd0eedd83"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "86ab7bf9d875da3295ff121807c05436012f74ae"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "46bfa62cb84a3c4fee6bfa6a1cfe400b663bdde1"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3be2c32f813aaec402354b93290d51ad5697e99a"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "376c8f553e0e248a5c57e6a9e8294cf2af34439f"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "47293875f5363ab0a79871806afab5f9b67e9c3a"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9c170e2e4a92db4f51ea38e0b7aaf967a81c4faa"
-      ],
-      "from": "org:newsroom-ria-novosti",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "24f27a2655c30c01de56d96e1222c2dd1230fcfd"
       ],
       "from": "org:newsroom-ria-novosti",
       "to": "place:country-russia",
@@ -1465,6 +1465,375 @@
     },
     {
       "evidence": [
+        "2f95d71f0e82e0e8608c2f9b342ce75447c9f51a"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "31d458896c2e73a54403c8de91779cdba288f300"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "89f8d9579e59d89a45b61066bf606f7b345cdfbc"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b5bf10e25772481daf80b4470f9b58bcf92fe375"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "afd48e1a93a7f8e6ef7b11af7c53ffd3283ceed5"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4ff0c1a4999b38ac22078c800489186042826496"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c7eddcb430ba0eeb83fcfd5bdc7442da3dac75f4"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5aca2de9d8b3390a1655f4d399db63c74a2a8a71"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7549993504e0ed931701e5a4873cf2500ac859a7"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "74ac072ad1df15f862b064213f3ac4642a7c41f5"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f15b6309b1c9a8701e2ba085343cf202b0c33ed1"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9cd452b84c6baf82b10ccd88bd145e2c4bb1909f"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "980bbde5c7a3ce5071ab3abd3ced81f1ddfbfdd3"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6e428aa7feefff35254d97187bf6ad0afbd95491"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "aeef70e322819b1f7916e17a4dcf41ec27b4d756"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7f587197d1faf23f56405b9b2fba7388d1ee2af4"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e814df0dc57a7e22b9b41ed4ba4290214b0f5925"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "00945602923df8c9c513eafe2d6db1279825ec29"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "45b50ed6296d1c51dddbd65250e22e928d3ffcff"
+      ],
+      "from": "org:newsroom-bbc-russian",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b7d5a28c7777abc8c97e4c2eb37a56ce7c1d20fd"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5a851e194beab814bad9e60c2d1eb7b25c329a9e"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "faf37000b1671075fbc411030463bdafa68134b4"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2dfa4006a9f5d23d09f16721d30dde1ffb8de715"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "34a5b335fb032102d4916dfb8ceee60ef36c3e25"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e58817d3c6f94602bd84beb7357b9e83d04c9fdc"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8a25982b9f1a146ee25cbd7904a9a74402074d09"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "da93476aa32f66036efbed6ea9b49d9d5653a66d"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e54ae4186551d9395a39c720ae7f3c31b0939bfa"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ac7350d297392b35b9898c9a33846a4a99cf082a"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b5343edad17719a41b835c26ee634fa95577c0d3"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ce183d1e86b6a498251053a9422acc80b80048d4"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "06bebf1574a7582506678a636587a79a1e521bc8"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "70b5c35b82f521a1dd9a163b9dec2f059fff07b9"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "98c27a2a1a2efc42a217911f15c07eb81ce3d68c"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1a23003856d761f71b4d89a8127bd7634743d4f7"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bb959ea2973a9d2a53fc4769284d655889fb7acd"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c558543a914481325306b8007d0dfa7a321d0422"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9ac9bfe707ae33ca60369c75cc2ece8bbff1cc9c"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "caa030d8d9a029dd5cc41cdc10db9619103ddb13"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d92bcbc5a3b796e7fac77d604fa9753f78b03d3c"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "307c6db2272be81e8dcd08beebe3b0e57926a638"
+      ],
+      "from": "org:newsroom-tass",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "1391ffd9030e636f00636ab727d639a43e01a6a3"
       ],
       "from": "org:newsroom-tass",
@@ -1492,7 +1861,7 @@
     },
     {
       "evidence": [
-        "45200a1bf634be7dc0948213874ffe9b08d8f394"
+        "c623495df6cc6b0d5e3b2213aa25f2fc027ac443"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1537,7 +1906,7 @@
     },
     {
       "evidence": [
-        "054169aa9204fc91c261e5c3d3e80db17115c035"
+        "d7c594a6c5ca29731e1db79e4997ed56fb436e4a"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1546,7 +1915,7 @@
     },
     {
       "evidence": [
-        "7d596844d88ff8acce494846551fba2700b66da4"
+        "a27ea829895d9caad5257900f5546e4e28961479"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1582,7 +1951,7 @@
     },
     {
       "evidence": [
-        "8d3ec0f2eebe6a857d7959bf5b7a0f1a945fe4e0"
+        "41e99cf6cc0b3d4b3ff49c517bf61bf3547a8e8f"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1600,7 +1969,7 @@
     },
     {
       "evidence": [
-        "4fe169e8f99cc961d7df092ac97c59586486c776"
+        "3e5f181fb715535956da1d2d8459efbe0e974d4b"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1609,7 +1978,7 @@
     },
     {
       "evidence": [
-        "d590e96d3c242029b617c67faa0a11cdbd1e97d7"
+        "5c40c917dfa5dee6a2a1e6493e98e931b5f76d55"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1618,7 +1987,7 @@
     },
     {
       "evidence": [
-        "41c010ae0fef4a0d3999c157880ec654452fa1d0"
+        "41385973567aacede4837b29cb2d41e09fb941ef"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1735,15 +2104,6 @@
     },
     {
       "evidence": [
-        "a9fcfdbee8fd822e74352b0404732f2629046dec"
-      ],
-      "from": "org:newsroom-tass",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "7d37557425c323bfc83cd3aa63330b0e2a03f4be"
       ],
       "from": "org:newsroom-tass",
@@ -1762,7 +2122,7 @@
     },
     {
       "evidence": [
-        "aadff82cae2fae38f3571c45b2afa784ececbd48"
+        "e01e28cc95a6d3528c4855f51997df1e6c33bfd6"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1798,7 +2158,7 @@
     },
     {
       "evidence": [
-        "70e92f77fb2384630281a53ccf30be43004e8f16"
+        "0e465c637c1ba9781bb410be7df711f7671c6dc4"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1807,7 +2167,7 @@
     },
     {
       "evidence": [
-        "d0527261d3e2d353bea9484bc7891fdf438e0601"
+        "f3801bfe2eabf00f175e0a64eb90118aa926ecfc"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1843,7 +2203,7 @@
     },
     {
       "evidence": [
-        "56f469785a2208df3d8432e274ef8bd78120d51b"
+        "a80e64448380195d852a0ac76a3e038d37d0f5d8"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -1951,7 +2311,7 @@
     },
     {
       "evidence": [
-        "2376674c6a9f053e1301b2bae19f799c7dd9bfda"
+        "fab9fab2844dbe628dd14905b60850907deddf97"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -2095,7 +2455,7 @@
     },
     {
       "evidence": [
-        "bbbfcd41b66f9affc7113885ada68c6a41d0f2b3"
+        "e8d7d317da87b9d442ead0966272078d6ba6ca57"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -2140,7 +2500,7 @@
     },
     {
       "evidence": [
-        "7d6e17976f7c7e5d88a1e18c4b9c9a447248740a"
+        "db4a9e41ae6ba20340d32cdf7f362ac6ef1c4586"
       ],
       "from": "org:newsroom-tass",
       "to": "place:country-russia",
@@ -2167,189 +2527,270 @@
     },
     {
       "evidence": [
-        "093e0cc71b22a9e4ea1a8a96270bd065134d0d51"
+        "a971043a90c49c5decafa10e269cb1d7af63a1c1"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f9e51b4e287a527af9bde10d32d2f1a4d2397f56"
+        "6a150b59ea620753d67ff93f8bb0042af608b8ae"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0b791696f4b7784dcb9591a829950192e2247162"
+        "7a7ba788a97474e9c00de9c214a4c62f2c538e48"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "86a54aedec88634786ac4560d919079933d9e515"
+        "6a53abe588f0e864631c622e60548b0a6568cdfc"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "eec84cfb1eb6154097d9f1d1277e74560f4b9e12"
+        "b4f1175421da7857b4d4eaa5c4f82b25294cabd9"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1df1e8461f6db371387018969863640f12393358"
+        "0e832351df1db366e9e62a2527900257db0dd50b"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "97717b432b009f60c7281d63fa8e74fc7e0efaae"
+        "90cfb014411a301cba3d31526620ec33bffbed46"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "83f0af85ccc1d3d90b5c23e762172c2dd1af23b9"
+        "c89527516d16408703ce335647eae1ffbcebd0fc"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f4dfcf1f0eb085bc821b13ecb5e7e7ee9a25c141"
+        "6208742ebc213e689ac69ad9da12a98256aac104"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f20a09984d3eee2817ecf2f59d8077d85f884395"
+        "314c89894f20f3bb9934ae20961a4a875ce66807"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "078be1907ab0f80e5388d8a93a5d8d14382e652c"
+        "f045c51319a0019c8b3b4684b9a93f0649ad5616"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "04d1fa121b194a01a1a8cfa4cc4836dead78f371"
+        "77dd1419a59a1ab31c4453c175c31258af461e5a"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "48f30c5a1bc3d19ed6e80f6bed2d2ac603a2d001"
+        "51e7edcaae755e3fd32b600037dfcb783cfa77ac"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "18b38d9f9cb1635b6e8e444b52b23628affbdad6"
+        "279f1df068de9c55be527d677da50f977865bf92"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "56a0f571e91854d546fae4af58410222715f51fc"
+        "514cb94109c290ed40bf805bfd793c3c4320b2c8"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "9e896a7c9cc3ad809820067669aff68556723e4b"
+        "144e5781533a4a72ddc675740a0b3bbe3523716f"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "dd0c7916daf4b369f30c382a084a3b20dc2857c8"
+        "a1152f3ade415235d59bde9f40830b6c272e540d"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f90320169fafbdb405b5dfedf68ce1beb4c2760b"
+        "f232626f529063786646293a824ffbbf13ab5723"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0051513a46186bd5042f4814db62917623aa7a41"
+        "cdf616711b588ac62440457e6f2359b353373aee"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "219f4917cd53c6911a3bbf6814a323b95a96f6c4"
+        "db5e8cbd2c116e33586efe6a525487c7186fbd9b"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b5dd1094b994f38c6418129bb818137e9864a75d"
+        "982f2f8e958db922e1ef6b4f87b5af6ea7a8c6fa"
       ],
-      "from": "org:newsroom-tass",
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ff34d8768953b06e75fac8164e23e7278b4642df"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ff8514b97b0424de069e5fca5dfc8c4a2a377ecc"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4dfb4eb641079af6fcb4912c54bc8134f592dd20"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "424d65109ecb6f8308bcf6dae60ce83575c682c7"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d3c9a858101d75b5ce40d4066070b165fb2d3277"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "268b1e5d43b7c5e945e0b016c46277ceb95e26f2"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "58937db1dc0708f11d7db5fb223fad768637439a"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "de7e894436a68960f69a8643912e7e3b21e41dcf"
+      ],
+      "from": "org:newsroom-rbc",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "91edff3f7c593241bdfa3e298ca8a99168a4f6de"
+      ],
+      "from": "org:newsroom-rbc",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
@@ -2806,171 +3247,99 @@
     },
     {
       "evidence": [
-        "2f95d71f0e82e0e8608c2f9b342ce75447c9f51a"
+        "15f210a679f2a1096ed585cd3012f6ade91ef340"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "31d458896c2e73a54403c8de91779cdba288f300"
+        "65fc03f9da221af3fc0c311b5acbc87cc1cf65f2"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "89f8d9579e59d89a45b61066bf606f7b345cdfbc"
+        "d3c291891d8494582415151f05172f4d38e7a371"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b5bf10e25772481daf80b4470f9b58bcf92fe375"
+        "314f4629d9cad001eb44987c00407c6498a4d546"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "afd48e1a93a7f8e6ef7b11af7c53ffd3283ceed5"
+        "ce53fa394f1ef7e398c80ce9142b851a22433627"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4ff0c1a4999b38ac22078c800489186042826496"
+        "a7e225eb8ed1c473225df359c5e54665ab94c7e0"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "c7eddcb430ba0eeb83fcfd5bdc7442da3dac75f4"
+        "8aa345b96d613a8204b229da8dcb2c6eb01ed578"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "5aca2de9d8b3390a1655f4d399db63c74a2a8a71"
+        "1975a4790fc4a8fff55f996790feaa597313c49a"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7549993504e0ed931701e5a4873cf2500ac859a7"
+        "8e959b0ed5467b002cdf10a54e20544a09533530"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "74ac072ad1df15f862b064213f3ac4642a7c41f5"
+        "5d42aaef04bd62a0cd420667c09f076fee96d883"
       ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f15b6309b1c9a8701e2ba085343cf202b0c33ed1"
+        "eb2f0d1b0f86576458559c1196ba8b6c00e8487e"
       ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9cd452b84c6baf82b10ccd88bd145e2c4bb1909f"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "980bbde5c7a3ce5071ab3abd3ced81f1ddfbfdd3"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6e428aa7feefff35254d97187bf6ad0afbd95491"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "aeef70e322819b1f7916e17a4dcf41ec27b4d756"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7f587197d1faf23f56405b9b2fba7388d1ee2af4"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e814df0dc57a7e22b9b41ed4ba4290214b0f5925"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "00945602923df8c9c513eafe2d6db1279825ec29"
-      ],
-      "from": "org:newsroom-bbc-russian",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "45b50ed6296d1c51dddbd65250e22e928d3ffcff"
-      ],
-      "from": "org:newsroom-bbc-russian",
+      "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
@@ -2978,6 +3347,15 @@
     {
       "evidence": [
         "331e304461ab4f7e1f71a33ec2d01157004bbe59"
+      ],
+      "from": "org:newsroom-lenta-ru",
+      "to": "place:country-russia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6f4f114471376f3bdfeb713226fc0526112fb7a0"
       ],
       "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
@@ -2995,7 +3373,7 @@
     },
     {
       "evidence": [
-        "535be22431f814b08fff48d34b7bd13a11bc860e"
+        "d6ec817dc38c0aed49af4ba6c300e62007b95aba"
       ],
       "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
@@ -3004,7 +3382,7 @@
     },
     {
       "evidence": [
-        "d6ec817dc38c0aed49af4ba6c300e62007b95aba"
+        "535be22431f814b08fff48d34b7bd13a11bc860e"
       ],
       "from": "org:newsroom-lenta-ru",
       "to": "place:country-russia",
@@ -4669,378 +5047,36 @@
     },
     {
       "evidence": [
-        "d53f052840af64ef7afd740523000a5e96e48914"
+        "c8109c8cdee92a2037c4995693e4696f409cb026"
       ],
-      "from": "org:newsroom-lenta-ru",
+      "from": "org:newsroom-kommersant",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1683eec3790d1146a398a4a5212d733f77520da6"
+        "8506948dd9ab51224ca0d7cd85f3a42720a6553a"
       ],
-      "from": "org:newsroom-lenta-ru",
+      "from": "org:newsroom-kommersant",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "8584e73738e3ed1db05316cf0f2821acf967fd27"
+        "328d529157e06a4a9f9d9e0f2bb43f07d82aae26"
       ],
-      "from": "org:newsroom-lenta-ru",
+      "from": "org:newsroom-kommersant",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "280f34809a275fab6cd7b0cdfd3caa5d608f8112"
+        "ddab7372cefce7eb370ed16fdb81cd5815ab0140"
       ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "00ad1047dd9933583ab33cb83390d3c78356a7dd"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e859fa11ec15866df155d10203a0ab9a7f8c00fa"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d5a5f81b50b11a1f05d7bf3e3f5440712dead9fd"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e2a4adcdb40b33d569f437d6af6534da30fafe15"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3ab0ce86d97a2c4233797727c77332191388e7d1"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "19ed162a1f1fd003540e7d2b1219c92564cc35e7"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d28b71768c76174a3cd94a0d6d9dca59c4dd7cc8"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f3b29fa23ca3e8eabd8d320b5beec36ae4e466db"
-      ],
-      "from": "org:newsroom-lenta-ru",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0e832351df1db366e9e62a2527900257db0dd50b"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "90cfb014411a301cba3d31526620ec33bffbed46"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c89527516d16408703ce335647eae1ffbcebd0fc"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6208742ebc213e689ac69ad9da12a98256aac104"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "314c89894f20f3bb9934ae20961a4a875ce66807"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f045c51319a0019c8b3b4684b9a93f0649ad5616"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "77dd1419a59a1ab31c4453c175c31258af461e5a"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "51e7edcaae755e3fd32b600037dfcb783cfa77ac"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "279f1df068de9c55be527d677da50f977865bf92"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "514cb94109c290ed40bf805bfd793c3c4320b2c8"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "144e5781533a4a72ddc675740a0b3bbe3523716f"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a1152f3ade415235d59bde9f40830b6c272e540d"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f232626f529063786646293a824ffbbf13ab5723"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cdf616711b588ac62440457e6f2359b353373aee"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "db5e8cbd2c116e33586efe6a525487c7186fbd9b"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "982f2f8e958db922e1ef6b4f87b5af6ea7a8c6fa"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ff34d8768953b06e75fac8164e23e7278b4642df"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ff8514b97b0424de069e5fca5dfc8c4a2a377ecc"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4dfb4eb641079af6fcb4912c54bc8134f592dd20"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "424d65109ecb6f8308bcf6dae60ce83575c682c7"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d3c9a858101d75b5ce40d4066070b165fb2d3277"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "268b1e5d43b7c5e945e0b016c46277ceb95e26f2"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "58937db1dc0708f11d7db5fb223fad768637439a"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "de7e894436a68960f69a8643912e7e3b21e41dcf"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "91edff3f7c593241bdfa3e298ca8a99168a4f6de"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1dc0ba12f65e3e6a4cf35f47756addb52aa86c19"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "bf2375d3dd0bc8b1612174919fd66e36a58399cf"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f47e2028e26bcdb909b557a661b1f3a1d1cf605f"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f42f11099d92415a6179a516a352f82ba44f969a"
-      ],
-      "from": "org:newsroom-rbc",
-      "to": "place:country-russia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3800827f36c15991c5cd8b64027a772353e39772"
-      ],
-      "from": "org:newsroom-rbc",
+      "from": "org:newsroom-kommersant",
       "to": "place:country-russia",
       "type": "reports-on",
       "weight": 1.0
