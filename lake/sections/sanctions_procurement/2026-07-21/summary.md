@@ -2,21 +2,19 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-21
-record_count: 115
+record_count: 117
 new_today: 1
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-1 new of 115 total items today.
+1 new of 117 total items today.
 
 - [[OFAC] Russia-related Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
 - [[OFAC] Hong Kong-related Designations Updates and Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oeVVfOThEdUF6VTk5a1dMUExXaU1jd24xSkhMOWZ3OEFkZXhfY3NBd2NfaGRER09pUUhROElHbnVXMmlQWDc1djhPTE1hSWdQc0l2SmJ1eDdpT051UEE?oc=5" target="_blank">Hong Kong-related Designations Updates and Removals</a>&nbsp;&nbsp;<font color="
-- [[OFAC] Issuance of Venezuela-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MX0M3a2cwYU5lMTNMSXdDcGRYYk1JZ2NQdm9jeHRRVW9ocHdpTmsyRDMtTWJzT1dNVjBLMWtHa2EyT3RSalE5YlExVnp2OXVVdDdzYnZfRE0wUVpwd0dSTU5B?oc=5" target="_blank">Issuance of Venezuela-related Frequently Asked Question</a>&nbsp;&nbsp;<fon
 - [[OFAC] Non-Proliferation Designations; Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-15*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1dTA1U3RSRUNmaV9Vb0dVWHVwN2lIR2Joei05ejZDQkpTV3lPSmljTGpXR1RVZEp2MGxibnAtVGhYMEJpTHd1YUxFNkdmSUJobkxkMk5NdUx3a2RtbVE?oc=5" target="_blank">Non-Proliferation Designations; Counter Terrorism Designations</a>&nbsp;&nbsp;<f
 - [[OFAC] Iran-related Designations; Iran-related and Counter Terrorism Designation Update; Issuance of Iran-related General License - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-14*
@@ -25,6 +23,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE83N0U3VHRzSGFCWXBYa1U0UHF5MUtDOFBucGgxQWo3VXMwWTBoaVBZTU1kWjNEVGpsa1dTQldHeWtNaDBETW9vMXVMbktseG9XSWNLb2pwcmNuVzV6NmlZaGZNZHE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 13902 of January 10, 20
 - [[OFAC] Hong Kong-Related Sanctions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPOElLNnBfQm5PMTR5SEU0Wk54Qm02WnNlVjhpLVJqcG1lOXFYdkc2QUNTX3FULWhraHJxWTVtLUFYY3pRNUNtaVVwOEJwMnpPZG90N1pWb0l4NVJuTmZPTGZGa1JfRjFLaXZuOU5IVl9YbjNBYlZwRV9qNm4xdGZlWkh6M0Q1YU1Fam93SWZvNS1BcUh1ZkJxQjdUWEk?oc=5" target="_bla
+- [[OFAC] Issuance of Venezuela-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MX0M3a2cwYU5lMTNMSXdDcGRYYk1JZ2NQdm9jeHRRVW9ocHdpTmsyRDMtTWJzT1dNVjBLMWtHa2EyT3RSalE5YlExVnp2OXVVdDdzYnZfRE0wUVpwd0dSTU5B?oc=5" target="_blank">Issuance of Venezuela-related Frequently Asked Question</a>&nbsp;&nbsp;<fon
 - [[OFAC] 1263 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzRnJlcHJtMWVfbnFEQm9VUGY0SnhyY2hiR3pMRlFNU0hLX3JjQ25VWnV0T0dEMk1hTDNOUThZSFlPay0tZUVGZFRGSQ?oc=5" target="_blank">1263</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - **NEW**  [[BIS Entity List] page checksum 47a6bf4796c4](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-21*
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $1,430,622,665 → SEQIRUS INC: TAS::75 0140::TAS CONSTRUCTION OF VACCINE MANUFACTURING FACI](https://www.usaspending.gov/award/HHSO100200900101C) — *2026-07-21*
   > Agency: Department of Health and Human Services.  Description: TAS::75 0140::TAS CONSTRUCTION OF VACCINE MANUFACTURING FACILITY
 
-_(90 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

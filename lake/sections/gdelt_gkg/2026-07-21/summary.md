@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-21
-record_count: 25
-new_today: 25
+record_count: 46
+new_today: 46
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+46 new of 46 total items today.
 
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Razorne poplave u Avganistanu : Najmanje 20 mrtvih , 100 nestalih](https://www.nezavisne.com/novosti/svijet/Razorne-poplave-u-Avganistanu-Najmanje-20-mrtvih-100-nestalih/974370) — *2026-07-21*
-  > nezavisne.com · Serbian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Vzpoura v centru Prahy . Vyškrtnutý Dvořák z ODS údajně spřádá plán pomsty](https://www.novinky.cz/clanek/volby-komunalni-vzpoura-v-centru-prahy-vyskrtnuty-dvorak-z-ods-udajne-sprada-plan-pomsty-40588983) — *2026-07-21*
-  > novinky.cz · Czech · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] У побережья Румынии поразили танкер , направлявшийся в Украину](https://korrespondent.net/world/4895936-u-poberezhia-rumynyy-porazyly-tanker-napravliavshyisia-v-ukraynu) — *2026-07-21*
-  > korrespondent.net · Russian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Rumah Mewah di Medan Meledak , Tim SAR Kerahkan 400 Personel Cari Korban Tertimbun](https://batam.tribunnews.com/news/690189/rumah-mewah-di-medan-meledak-tim-sar-kerahkan-400-personel-cari-korban-tertimbun) — *2026-07-21*
-  > batam.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Preliminary Hearing For D4vd Starts Today | News Radio 690 KTSM](https://ktsmradio.iheart.com/content/2026-07-21-preliminary-hearing-for-d4vd-starts-today/) — *2026-07-21*
-  > ktsmradio.iheart.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Cleopatra : Ratu Terakhir Mesir yang Berjuang di Tengah Bayang - Bayang Romawi](https://www.kompas.com/stori/read/2026/07/21/152240579/cleopatra-ratu-terakhir-mesir-yang-berjuang-di-tengah-bayang-bayang-romawi) — *2026-07-21*
-  > kompas.com · Indonesian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Morawiecki chce rozmawiać z Kaczyńskim . W scenariuszu nie ma stworzenia nowej partii](https://pch24.pl/wiadomosci/morawiecki-chce-rozmawiac-z-kaczynskim-w-scenariuszu-nie-ma-stworzenia-nowej-partii,727161) — *2026-07-21*
-  > pch24.pl · Polish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] الحرس الثوري يعلن مقتل جنود أمريكيين بمنطقة الركبان في الأردن – تلفزيون الفجر](https://alfajertv.com/news/worldnews/737038.html) — *2026-07-21*
-  > alfajertv.com · Arabic · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ισραηλινή επίθεση στοίχισε τη ζωή σε εξαμελή οικογένεια στη Γάζα -... ](https://www.capital.gr/diethni/4006008/israilini-epithesi-stoixise-ti-zoi-se-exameli-oikogeneia-sti-gaza-epibebaiose-to-pligma-o-israilinos-stratos/) — *2026-07-21*
-  > capital.gr · Greek · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] PM Modi Announces Ex Gratia After Sikkim Tunnel Collapse](https://www.deccanchronicle.com/nation/pm-modi-announces-ex-gratia-after-sikkim-tunnel-collapse-1972691) — *2026-07-21*
-  > deccanchronicle.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes]  „ To nie było naturalne . Były szef ochrony Karola Nawrockiego o zatruciu w trakcie kampanii wyborczej](https://pch24.pl/wiadomosci/to-nie-bylo-naturalne-byly-szef-ochrony-karola-nawrockiego-o-zatruciu-w-trakcie-kampanii-wyborczej,727165) — *2026-07-21*
-  > pch24.pl · Polish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Eklat um AfD - Kranz : Bonhoeffer - Großneffe Korenke „ hat Preis verdient  ](https://www.thueringer-allgemeine.de/politik/article412633915/nach-gerangel-um-afd-kranz-bonhoeffer-grossneffe-hat-preis-verdient.html) — *2026-07-21*
-  > thueringer-allgemeine.de · German · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 市長盧秀燕召集17縣市首長 「 反毒油線上國是會議 」 提10大共識籲中央完善食安制度](https://n.yam.com/Article/20260721813070) — *2026-07-21*
-  > n.yam.com · Chinese · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Seat swap after son crash killed mum , inquest told](https://www.theadvocate.com.au/story/9315120/seat-swap-after-sons-crash-killed-mum-inquest-told/) — *2026-07-21*
+- **NEW**  [[Russia oil sanctions perimeter · themes] Inspection Finds Zebra Mussels on Boat Crossing into Manitoba](https://www.chrisd.ca/2026/07/21/manitoba-zebra-mussels-watercraft-invasive-species-inspection/) — *2026-07-21*
+  > chrisd.ca · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] BC Hydro to triple size of its public EV charging network by 2035](https://ominecaexpress.com/2026/07/21/bc-hydro-to-triple-size-of-its-public-ev-charging-network-by-2035/) — *2026-07-21*
+  > ominecaexpress.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Zelensky sacks Ukraine military chief following widespread protests - LocalNews8 . com](https://localnews8.com/news/national-world/cnn-world/2026/07/21/zelensky-sacks-ukraines-military-chief-following-widespread-protests/) — *2026-07-21*
+  > localnews8.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Dow Jones jumps 386 points as global stocks take off](http://www.newjerseytelegraph.com/news/279201899/dow-jones-jumps-386-points-as-global-stocks-take-off) — *2026-07-21*
+  > newjerseytelegraph.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 유안타  카카오뱅크 , 개인사업자 대출 확대 기대 … 수신 성장도 지속  ](https://www.etoday.co.kr/news/view/2605918) — *2026-07-21*
+  > etoday.co.kr · Korean · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Vice Adm . Marc Miguez Assumes Command of U . S . 3rd Fleet – Seapower Magazine](https://seapowermagazine.org/vice-adm-marc-miguez-assumes-command-of-u-s-3rd-fleet/) — *2026-07-21*
+  > seapowermagazine.org · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Brett Barley and One Last Score at Macaronis](https://www.theinertia.com/surf/brett-barley-ends-macaronis-series-with-one-last-score/) — *2026-07-21*
+  > theinertia.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] La iglesia medieval de Valladolid que se transformó en un museo dedicado al pan](https://elpais.com/gastronomia/2026-07-21/la-iglesia-medieval-de-valladolid-que-se-transformo-en-un-museo-dedicado-al-pan.html) — *2026-07-21*
+  > elpais.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Baumfällung am Banter See : Wilhelmshaven erklärt Gründe für Eingriff](https://www.nwzonline.de/wilhelmshaven/baumfaellung-am-banter-see-wilhelmshaven-erklaert-gruende-fuer-eingriff_a_4,3,1232548909.html) — *2026-07-21*
+  > nwzonline.de · German · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Man tossed by Yellowstone bison says hitting the ground was the worst part](https://www.local10.com/news/national/2026/07/21/man-tossed-by-yellowstone-bison-says-hitting-the-ground-was-the-worst-part/) — *2026-07-21*
+  > local10.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Dólar cai para R$ 5 , 07 , menor nível em um mês](https://www.correiodopovo.com.br/not%C3%ADcias/economia/dolar-cai-para-r-507-menor-nivel-em-um-mes-1.1733036) — *2026-07-21*
+  > correiodopovo.com.br · Portuguese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Jade Andrew Edwards told to stop drinking on release from custody | The Advocate](https://www.theadvocate.com.au/story/9314559/jade-andrew-edwards-told-to-stop-drinking-on-release-from-custody/) — *2026-07-21*
   > theadvocate.com.au · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Oil prices ease as mediators propose US - Iran ceasefire](https://www.arabnews.com/node/2651711/business-economy) — *2026-07-21*
-  > arabnews.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] LArzignano si assicura Finizio per la difesa : il classe 2007 ha firmato un triennale](https://www.tuttomercatoweb.com/serie-c/arzignano-assicura-finizio-difesa-classe-2007-firmato-triennale-2255648) — *2026-07-21*
-  > tuttomercatoweb.com · Italian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Så mycket minskar dödsfallen i trafiken](https://www.corren.se/nyheter/utrikes/varlden/artikel/sa-mycket-minskar-dodsfallen-i-trafiken/r9mznkvl) — *2026-07-21*
-  > corren.se · Swedish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] В ВСУ начали готовиться к выходу армии России к границам Харькова](https://lenta.ru/news/2026/07/21/v-vsu-nachali-gotovitsya-k-vyhodu-armii-rossii-k-granitsam-harkova/) — *2026-07-21*
-  > lenta.ru · Russian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Взрывы на танкерах в Ормузском проливе : КСИР обвинил США , подробности инцидента](https://news.mail.ru/society/71706148/) — *2026-07-21*
-  > news.mail.ru · Russian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes]   If needed , will join CJP protest : Mamata Banerjee at Martyr Day rally ; rules out TMC rebel return](https://www.moneycontrol.com/news/india/traitors-won-t-be-allowed-to-return-to-tmc-mamata-banerjee-slams-rebel-camp-at-martyrs-day-rally-13979534.html) — *2026-07-21*
-  > moneycontrol.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Christopher Nolan reveals when fans can expect his next film](https://www.the-independent.com/arts-entertainment/films/news/christopher-nolan-the-odyssey-next-film-gap-b3018529.html) — *2026-07-21*
-  > the-independent.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Kisah Pilu KM Nurul Salsa Tenggelam : Kakek Umar Hilang Bersama Cucu yang Sempat Ia Beri Pelampung](https://bangka.tribunnews.com/news/1690557/kisah-pilu-km-nurul-salsa-tenggelam-kakek-umar-hilang-bersama-cucu-yang-sempat-ia-beri-pelampung) — *2026-07-21*
-  > bangka.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] إحباط محاولة تهريب كمية كبيرة من المخدرات ببالونات موجهة](https://assabeel.net/78859) — *2026-07-21*
-  > assabeel.net · Arabic · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Gia đình thời đại số và bài toán giữ gìn thuần phong mỹ tục](https://thanhnien.vn/gia-dinh-thoi-dai-so-va-bai-toan-giu-gin-thuan-phong-my-tuc-185260721132545955.htm) — *2026-07-21*
+- **NEW**  [[Russia oil sanctions perimeter · themes] Discover Sucimurni - Malaysia ancient secret to pure happiness | The Advocate](https://www.theadvocate.com.au/story/9307981/discover-sucimurni-malaysias-ancient-secret-to-pure-happiness/) — *2026-07-21*
+  > theadvocate.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] El TSXG desestima el recurso de la naviera Mar de Ons y avala sancionarla por ocultar descuentos por discapacidad](https://www.lavozdegalicia.es/noticia/vigo/2026/07/21/tsxg-desestima-recurso-mar-ons-avala-sancionarla-ocultar-descuentos-discapacidad/00031784654029372988463.htm) — *2026-07-21*
+  > lavozdegalicia.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] U . S . crude stockpiles rose 2 . 6M barrels last week , API says ( USO : NYSEARCA ) ](https://seekingalpha.com/news/4616268-u-s-crude-stockpiles-rose-2_6m-barrels-last-week-api-says) — *2026-07-21*
+  > seekingalpha.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Prabowo Mau Luncurkan Motor Listrik Nasional , Apindo Bilang Begini](https://ekonomi.bisnis.com/read/20260722/257/1989814/prabowo-mau-luncurkan-motor-listrik-nasional-apindo-bilang-begini) — *2026-07-21*
+  > ekonomi.bisnis.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Interview with Shane Kampeter , candidate for Missouri 60th House District](https://abc17news.com/voter-guide-2026/2026/07/21/interview-with-shane-kampeter-candidate-for-missouris-60th-house-district/) — *2026-07-21*
+  > abc17news.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] क्या कच्चे तेल की तेजी भारतीय बाजार के लिए खतरे की घंटी है ? ](https://www.sharemanthan.in/upcoming-webinar/462-advice/79684-is-the-surge-in-crude-oil-prices-a-warning-sign-for-the-indian-market) — *2026-07-21*
+  > sharemanthan.in · Hindi · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Attacks between US and Iran across Mideast overshadow efforts to keep diplomacy alive](https://www.local10.com/news/2026/07/21/attacks-between-us-and-iran-across-mideast-overshadow-efforts-to-keep-diplomacy-alive/) — *2026-07-21*
+  > local10.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] US and Iran trade attacks , overshadowing efforts to keep diplomacy alive](https://www.countytimes.co.uk/news/national/26300224.us-iran-trade-attacks-overshadowing-efforts-keep-diplomacy-alive/) — *2026-07-21*
+  > countytimes.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]   十五五  开局看河北｜河北港航发展提速增效](https://baijiahao.baidu.com/s?id=1871276396142201665) — *2026-07-21*
+  > baijiahao.baidu.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Metro Thủ Dầu Một đến trung tâm TP . HCM : Dự kiến đi qua 18 phường](https://thanhnien.vn/metro-thu-dau-mot-den-trung-tam-tphcm-du-kien-di-qua-18-phuong-185260721183830829.htm) — *2026-07-21*
   > thanhnien.vn · Vietnamese · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Pemprov DKI Jakarta Pastikan Produk Pangan di 28 Pasar Aman Dikonsumsi](https://jakarta.jpnn.com/jakarta-terkini/3096/pemprov-dki-jakarta-pastikan-produk-pangan-di-28-pasar-aman-dikonsumsi) — *2026-07-21*
-  > jakarta.jpnn.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Marinas , SC agencies push plan to prevent derelict boats from returning](https://www.live5news.com/2026/07/21/marinas-sc-agencies-push-plan-prevent-derelict-boats-returning/) — *2026-07-21*
+  > live5news.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] دبلوماسية جرش](https://www.raya.ps/articles/1221571.html) — *2026-07-21*
+  > raya.ps · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] La IA , la guerra en Oriente Próximo y la inflación bloquean el camino a nuevos máximos bursátiles](https://cincodias.elpais.com/mercados-financieros/2026-07-21/la-ia-la-guerra-en-oriente-proximo-y-la-inflacion-bloquean-el-camino-a-nuevos-maximos-bursatiles.html) — *2026-07-21*
+  > cincodias.elpais.com · Spanish · tone NA
+
+_(21 additional items in raw.jsonl)_

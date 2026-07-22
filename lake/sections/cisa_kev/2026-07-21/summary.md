@@ -2,15 +2,23 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-07-21
-record_count: 16
-new_today: 0
+record_count: 20
+new_today: 4
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 16 total items today.
+4 new of 20 total items today.
 
+- **NEW**  [CVE-2026-60137 · WordPress Core: WordPress Core SQL Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-60137) — *2026-07-21*
+  > vendor: WordPress · product: Core · CISA remediation by 2026-08-04
+- **NEW**  [CVE-2026-63030 · WordPress Core: WordPress Core Interpretation Conflict Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-63030) — *2026-07-21*
+  > vendor: WordPress · product: Core · CISA remediation by 2026-07-24
+- **NEW**  [CVE-2026-0770 · Langflow Langflow: Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-0770) — *2026-07-21*
+  > vendor: Langflow · product: Langflow · CISA remediation by 2026-07-24
+- **NEW**  [CVE-2021-27137 · DD-WRT DD-WRT: DD-WRT Stack-Based Buffer Overflow Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2021-27137) — *2026-07-21*
+  > vendor: DD-WRT · product: DD-WRT · CISA remediation by 2026-07-24
 - [CVE-2026-58644 · Microsoft SharePoint: Microsoft SharePoint Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-58644) — *2026-07-16*
   > vendor: Microsoft · product: SharePoint · CISA remediation by 2026-07-19
 - [CVE-2026-25089 · Fortinet FortiSandbox: Fortinet FortiSandbox OS Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-25089) — *2026-07-16*

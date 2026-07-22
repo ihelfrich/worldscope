@@ -2,18 +2,18 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-21
-record_count: 186
-new_today: 7
+record_count: 196
+new_today: 12
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-7 new of 186 total items today.
+12 new of 196 total items today.
 
-- [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719206&eventtype=EQ) — *2026-07-19*
+- [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719805&eventtype=EQ) — *2026-07-19*
   > Earthquake · Orange alert · Peru · Magnitude 5.5M, Depth:10km
-- [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719206&eventtype=EQ) — *2026-07-19*
+- [[Orange] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1552752&episodeid=1719805&eventtype=EQ) — *2026-07-19*
   > Earthquake · Orange alert · Peru · Magnitude 5.5M, Depth:10km
 - [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=9&eventtype=DR) — *2025-11-21*
   > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 236648 km2
@@ -27,11 +27,11 @@ state: fresh
   > Drought · Orange alert · Albania, Austria, Bosnia & Herzegovina, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Russia, Sweden, 
 - [[Orange] Drought in Albania, Austria, Bosnia  and  Herzegovina, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Russia, Sweden, Slovakia, San Marino, Ukraine, , ](https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=16&eventtype=DR) — *2025-12-11*
   > Drought · Orange alert · Albania, Austria, Bosnia & Herzegovina, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Russia, Sweden, 
-- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=49&eventtype=FL) — *2026-05-19*
+- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=48&eventtype=FL) — *2026-05-19*
   > Flood · Green alert · United States · Magnitude 0
-- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=49&eventtype=FL) — *2026-05-19*
+- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=48&eventtype=FL) — *2026-05-19*
   > Flood · Green alert · United States · Magnitude 0
-- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=49&eventtype=FL) — *2026-05-19*
+- [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=48&eventtype=FL) — *2026-05-19*
   > Flood · Green alert · United States · Magnitude 0
 - [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=8&eventtype=FL) — *2026-06-13*
   > Flood · Green alert · Philippines · Magnitude 0
@@ -39,27 +39,27 @@ state: fresh
   > Flood · Green alert · Philippines · Magnitude 0
 - [[Green] Flood in Philippines](https://www.gdacs.org/report.aspx?eventid=1103942&episodeid=8&eventtype=FL) — *2026-06-13*
   > Flood · Green alert · Philippines · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=10&eventtype=FL) — *2026-06-23*
+- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=11&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=10&eventtype=FL) — *2026-06-23*
+- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=11&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
-- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=10&eventtype=FL) — *2026-06-23*
+- [[Green] Flood in India](https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=11&eventtype=FL) — *2026-06-23*
   > Flood · Green alert · India · Magnitude 0
+- [[Green] Flood in Mexico](https://www.gdacs.org/report.aspx?eventid=1103981&episodeid=6&eventtype=FL) — *2026-06-28*
+  > Flood · Green alert · Mexico · Magnitude 0
+- [[Green] Flood in Mexico](https://www.gdacs.org/report.aspx?eventid=1103981&episodeid=6&eventtype=FL) — *2026-06-28*
+  > Flood · Green alert · Mexico · Magnitude 0
+- [[Green] Flood in Mexico](https://www.gdacs.org/report.aspx?eventid=1103981&episodeid=6&eventtype=FL) — *2026-06-28*
+  > Flood · Green alert · Mexico · Magnitude 0
 - **NEW**  [[Green] Flood in Afghanistan](https://www.gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL) — *2026-07-19*
   > Flood · Green alert · Afghanistan · Magnitude 0
 - **NEW**  [[Green] Flood in Afghanistan](https://www.gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL) — *2026-07-19*
   > Flood · Green alert · Afghanistan · Magnitude 0
 - **NEW**  [[Green] Flood in Afghanistan](https://www.gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL) — *2026-07-19*
   > Flood · Green alert · Afghanistan · Magnitude 0
-- [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719295&eventtype=EQ) — *2026-07-18*
-  > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
-- [[Green] Earthquake in Scotia Sea](https://www.gdacs.org/report.aspx?eventid=1552700&episodeid=1719295&eventtype=EQ) — *2026-07-18*
-  > Earthquake · Green alert · Scotia Sea · Magnitude 5.5M, Depth:10km
-- [[Green] Earthquake in Mexico](https://www.gdacs.org/report.aspx?eventid=1552874&episodeid=1719340&eventtype=EQ) — *2026-07-19*
-  > Earthquake · Green alert · Mexico · Magnitude 5.5M, Depth:35km
-- [[Green] Earthquake in Mexico](https://www.gdacs.org/report.aspx?eventid=1552874&episodeid=1719340&eventtype=EQ) — *2026-07-19*
-  > Earthquake · Green alert · Mexico · Magnitude 5.5M, Depth:35km
-- **NEW**  [[Green] Earthquake in Pacific-Antarctic Ridge](https://www.gdacs.org/report.aspx?eventid=1553068&episodeid=1719561&eventtype=EQ) — *2026-07-20*
-  > Earthquake · Green alert · Pacific-Antarctic Ridge · Magnitude 5.5M, Depth:10km
+- **NEW**  [[Green] Flood in Japan](https://www.gdacs.org/report.aspx?eventid=1104034&episodeid=1&eventtype=FL) — *2026-07-17*
+  > Flood · Green alert · Japan · Magnitude 0
+- **NEW**  [[Green] Flood in Japan](https://www.gdacs.org/report.aspx?eventid=1104034&episodeid=1&eventtype=FL) — *2026-07-17*
+  > Flood · Green alert · Japan · Magnitude 0
 
-_(161 additional items in raw.jsonl)_
+_(171 additional items in raw.jsonl)_

@@ -2,15 +2,17 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-21
-record_count: 217
-new_today: 158
+record_count: 115
+new_today: 71
 state: fresh
 ---
 
 ## State Legislative Action
 
-158 new of 217 total items today.
+71 new of 115 total items today.
 
+- **NEW**  [[Alabama SB 107] Alabama Board of Funeral Services; board authorized to impose administrative fee on funeral establishments for each funeral arranged; initial application, renewal, branch registration, and transfer fees relating to a certificate of authority increased; certificate holder required to]() — *2026-07-21*
+  > Occupational Licensing Boards
 - [[Alabama HB 225] Education; notice requirement for certain board of education personnel vacancies revised]() — *2026-07-20*
   > Education
 - [[Alabama SB 62] Alabama Charter School Finance Authority, bonding authority established, legislative findings, board membership, powers, contracts, investments]() — *2026-07-20*
@@ -33,6 +35,8 @@ state: fresh
   > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
 - [[Alaska HB 249] An Act relating to the transfer of a vehicle to an insurance company.]() — *2026-07-20*
   > An Act relating to the transfer of a vehicle to an insurance company.
+- **NEW**  [[Arizona HB 2946] municipalities; counties; development fees]() — *2026-07-21*
+  > municipalities; counties; development fees
 - [[Arizona SB 1184] HOAs; uniformed services division flags]() — *2026-07-20*
   > HOAs; uniformed services division flags
 - [[Arizona SB 1338] state; local public benefits; eligibility]() — *2026-07-20*
@@ -53,13 +57,11 @@ state: fresh
   > Arizona space commission; board; membership
 - [[Arizona SB 1662] probation supervision; least restrictive conditions]() — *2026-07-20*
   > probation supervision; least restrictive conditions
-- **NEW**  [[Colorado HB 1176] Modify Fourth-Year Innovation Pilot Program]() — *2026-07-21*
-  > Under the fourth-year innovation pilot program (program), each year the general assembly appropriates an amount to the department of education (department) for the department to distribute to local education providers from which an eligible graduate graduated early. The act:Disco
-- **NEW**  [[Colorado HB 1045] Disabilities Housing Protections]() — *2026-07-21*
-  > The act specifies relevant factors for assessing reasonable accommodations related to assistance animals that may be necessary for an individual with a disability to have an equal opportunity to use and enjoy housing under the 'Colorado Anti-Discrimination Act'. Permitting an ass
-- [[Colorado HB 1028] Second Language Educational Program for High School Students]() — *2026-07-20*
-  > Current law provides for a diploma endorsement of biliteracy by completing certain educational requirements in English in addition to a second language. The act changes the educational requirements for the biliteracy program and creates a diploma endorsement for bilingualism for 
-- [[Colorado HB 1423] Community Corrections Budget Request & Data Information]() — *2026-07-20*
-  > Beginning in state fiscal year 2027-28, the act requires the department of public safety (department) to submit a budget request for community corrections and to include in its budget request information regarding projected community corrections program needs, including certain d
+- **NEW**  [[California SB 711] Taxation: federal conformity.]() — *2026-07-21*
+  > Under the Personal Income Tax Law and the Corporation Tax Law, various provisions of the federal Internal Revenue Code, as enacted as of a specified date, are referenced in various sections of the Revenue and Taxation Code. Those laws provide that for taxable years beginning on o
+- **NEW**  [[California SB 709] Self-service storage facilities: rental agreement disclosures.]() — *2026-07-21*
+  > Existing law, the California Self-Service Storage Facility Act, establishes procedures governing the operation of self-service storage facilities, including specifying remedies for facility owners when occupants are delinquent in paying rent or other charges. 
 
-_(192 additional items in raw.jsonl)_
+This bill would, f
+
+_(90 additional items in raw.jsonl)_
