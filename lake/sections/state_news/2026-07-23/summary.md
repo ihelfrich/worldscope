@@ -2,15 +2,47 @@
 section: state_news
 title: State-Level News
 date: 2026-07-23
-record_count: 772
-new_today: 330
+record_count: 816
+new_today: 385
 state: fresh
 ---
 
 ## State-Level News
 
-330 new of 772 total items today.
+385 new of 816 total items today.
 
+- **NEW**  [[California] Acting Governor Rivas proclaims Disability Pride Month](https://www.gov.ca.gov/2026/07/22/acting-governor-rivas-proclaims-disability-pride-month/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/07/22/acting-g
+- **NEW**  [[California] California delivers major blow to organized retail theft, recovering $76.2 million in stolen goods since 2019](https://www.gov.ca.gov/2026/07/22/california-delivers-major-blow-to-organized-retail-theft-recovering-76-2-million-in-stolen-goods-since-2019/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-delivers-major-blow-to-organized-retail-theft-recovering-76.2-million-in-stolen-goods-since-2019-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Cal
+- **NEW**  [[California] Governor Newsom announces appointments 7.22.2026](https://www.gov.ca.gov/2026/07/22/governor-newsom-announces-appointments-7-22-2026/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/07/22/governor-news
+- [[California] Governor Newsom signs tribal-state gaming compact 7.21.26](https://www.gov.ca.gov/2026/07/21/governor-newsom-signs-tribal-state-gaming-compact-7-21-26/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026
+- [[California] Governor Newsom highlights robust investments in fire prevention and cutting-edge firefighting technology to combat wildfire and save lives](https://www.gov.ca.gov/2026/07/21/governor-newsom-highlights-robust-investments-in-fire-prevention-and-cutting-edge-firefighting-technology-to-combat-wildfire-and-save-lives/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/ft9-1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/07/21/governor-newsom-highlights-rob
+- [[California] Governor Newsom announces appointments 7.21.2026](https://www.gov.ca.gov/2026/07/21/governor-newsom-announces-appointments-7-21-2026/) — *2026-07-22*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/07/2
+- [[California] El Gobernador Newsom reafirma el compromiso de California con los nuevas e importantes inversiones para los veteranos](https://www.gov.ca.gov/2026/07/21/el-gobernador-newsom-reafirma-el-compromiso-de-california-con-los-nuevas-e-importantes-inversiones-para-los-veteranos/) — *2026-07-21*
+- [[California] Governor Newsom doubles down on California’s commitment to veterans with major new investments](https://www.gov.ca.gov/2026/07/21/governor-newsom-doubles-down-on-californias-commitment-to-veterans-with-major-new-investments/) — *2026-07-21*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/7.17.26-Veterans-Services-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/07/21/governor-n
+- [[California] Governor Newsom announces appointments 7.20.26](https://www.gov.ca.gov/2026/07/20/governor-newsom-announces-appointments-7-20-26/) — *2026-07-21*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/07/2
+- **NEW**  [[Alabama] Governor Ivey Signs Executive Order Establishing Commission on Screen-Based Instruction](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-signs-executive-order-establishing-commission-on-screen-based-instruction/) — *2026-07-22*
+  > MONTGOMERY – Governor Kay Ivey on Wednesday signed Executive Order No. 745 establishing the Governor’s Commission on Screen-Based Instruction to study the use, risks and benefits of screen-based instruction in Alabama’s K-12 classrooms and provide evidence-based recommendations o
+- **NEW**  [[Alabama] Executive Order 745](https://governor.alabama.gov/newsroom/2026/07/executive-order-745/) — *2026-07-22*
+  > Download
+- **NEW**  [[Alabama] Executive Order 744](https://governor.alabama.gov/newsroom/2026/07/executive-order-744/) — *2026-07-22*
+  > Download
+- [[Alabama] Probation and Parole Officers’ Week](https://governor.alabama.gov/newsroom/2026/07/probation-and-parole-officers-week-2/) — *2026-07-21*
+  > Download
 - **NEW**  [[California] Lo que revela la venta de dos centros de detención del ICE sobre la nueva estrategia migratoria de Trump.](https://calmatters.org/calmatters-en-espanol/2026/07/venta-de-centros-de-detencion-ice-california/) — *2026-07-22*
   > <figure><img width="1024" height="671" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092225-CalCity-Detention-MV-CM-09.jpg?fit=1024%2C671&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A sign for the CoreCivic California Cit
 - **NEW**  [[California] Universidad Estatal de California otorga un puesto de $340,000 a expresidente que dimitió tras una demanda por discriminación](https://calmatters.org/calmatters-en-espanol/2026/07/cal-state-san-bernardino-presidente-demanda-2/) — *2026-07-22*
@@ -31,35 +63,9 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/050625_CSU-San-Marcos_AH_CM_54.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A gloved laboratory worker adjusts a handh
 - [[California] Presidente de Cal State, en el centro de una demanda por discriminación de 12 millones de dólares, opta a un puesto de transición](https://calmatters.org/calmatters-en-espanol/2026/07/cal-state-san-bernardino-presidente-demanda/) — *2026-07-21*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/04/042224-Inland-Empire-JAH-10.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A wide view of two students walking by a buil
-- **NEW**  [[Alabama] Governor Ivey Signs Executive Order Establishing Commission on Screen-Based Instruction](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-signs-executive-order-establishing-commission-on-screen-based-instruction/) — *2026-07-22*
-  > MONTGOMERY – Governor Kay Ivey on Wednesday signed Executive Order No. 745 establishing the Governor’s Commission on Screen-Based Instruction to study the use, risks and benefits of screen-based instruction in Alabama’s K-12 classrooms and provide evidence-based recommendations o
-- **NEW**  [[Alabama] Executive Order 745](https://governor.alabama.gov/newsroom/2026/07/executive-order-745/) — *2026-07-22*
-  > Download
-- **NEW**  [[Alabama] Executive Order 744](https://governor.alabama.gov/newsroom/2026/07/executive-order-744/) — *2026-07-22*
-  > Download
-- [[Alabama] Probation and Parole Officers’ Week](https://governor.alabama.gov/newsroom/2026/07/probation-and-parole-officers-week-2/) — *2026-07-21*
-  > Download
-- **NEW**  [[Arkansas] Arkansas lawsuit accuses drugmakers of undermining access to discount program](https://arkansasadvocate.com/2026/07/22/arkansas-lawsuit-accuses-drugmakers-of-undermining-access-to-discount-program/) — *2026-07-22*
-  > Arkansas Attorney General Tim Griffin sued multiple major drugmakers Tuesday, alleging they undermined healthcare providers’ access to a federal drug discount program. The 22 defendants include 13 drug manufacturers, their related corporate entities and data management firm Secon
-- **NEW**  [[Arkansas] Leading Dem on US House education panel, advocates blast student loan changes](https://arkansasadvocate.com/2026/07/22/repub/leading-dem-on-us-house-education-panel-advocates-blast-student-loan-changes/) — *2026-07-22*
-  > WASHINGTON — Education experts and advocates warned Wednesday that the recent federal student loan system overhaul stemming from the GOP’s mega tax and spending cut law will drive borrowers to private lenders and could derail their higher education plans.&#160; U.S. Rep. Bobby Sc
-- **NEW**  [[Arkansas] US House approves joint measure to curb Congress’ stock trading, require voter ID](https://arkansasadvocate.com/2026/07/22/repub/us-house-approves-joint-measure-to-curb-congress-stock-trading-require-voter-id/) — *2026-07-22*
-  > WASHINGTON — U.S. House Republicans passed a measure to curb stock trading by members of Congress that was packaged with an unrelated voter ID bill, part of President Donald Trump’s push for major federal involvement in elections. The legislation passed by a vote of 232-198. All 
-- **NEW**  [[Arkansas] US House GOP pushes through budget blueprint for Iran war funding, farm aid](https://arkansasadvocate.com/2026/07/22/repub/us-house-gop-pushes-through-budget-blueprint-for-iran-war-funding-farm-aid/) — *2026-07-22*
-  > WASHINGTON — Republicans in the U.S. House on Wednesday approved their outline for the third party-line budget measure of the second Trump administration, though they won’t be able to begin work on that package until they reach agreement with their Senate colleagues on a plan for
-- **NEW**  [[Arkansas] Food assistance advocates ask Congress to delay GOP megabill shift of SNAP costs to states](https://arkansasadvocate.com/2026/07/22/repub/food-assistance-advocates-ask-congress-to-delay-gop-megabill-shift-of-snap-costs-to-states/) — *2026-07-22*
-  > WASHINGTON — Advocates and public health experts urged Republicans in Congress on Wednesday to implement a two-year delay on requiring states to begin sharing the costs for Supplemental Nutrition Assistance Program benefits.  Provisions of the Republican-backed law that President
-- **NEW**  [[Arkansas] State AGs join legal fight against Trump’s wind farm freeze](https://arkansasadvocate.com/2026/07/22/repub/state-ags-join-legal-fight-against-trumps-wind-farm-freeze/) — *2026-07-22*
-  > A coalition of Democratic state attorneys general has joined a lawsuit seeking to end the Trump administration’s halt of onshore wind projects in the United States. Last week, 18 states and the District of Columbia moved to intervene in a lawsuit filed by wind industry companies 
-- **NEW**  [[Arkansas] US Senate Dems press Mullin to ensure all immigration agents have body cameras](https://arkansasadvocate.com/2026/07/22/repub/us-senate-dems-press-mullin-to-ensure-all-immigration-agents-have-body-cameras/) — *2026-07-22*
-  > WASHINGTON — A supermajority of the U.S. Senate Democratic Caucus has asked Homeland Security Secretary Markwayne Mullin to deploy body cameras to all federal immigration officers, following deadly shootings of immigrants in Texas and Maine. In a July 19 letter addressed to Mulli
-- **NEW**  [[Arkansas] Trump administration claims court victory in mandatory detention](https://arkansasadvocate.com/2026/07/22/repub/trump-administration-claims-court-victory-in-mandatory-detention/) — *2026-07-22*
-  > The Trump administration claimed a rare court victory for its embattled immigration detention policy when an appeals court, covering three states with large detention centers, agreed to stay court rulings that freed three Texas immigrants during an appeal.  The 5th U.S. Circuit C
-- **NEW**  [[Arkansas] Onetime acting FEMA chief fired by Trump now on track to be confirmed to head agency](https://arkansasadvocate.com/2026/07/22/repub/onetime-acting-fema-chief-fired-by-trump-now-on-track-to-be-confirmed-to-head-agency/) — *2026-07-22*
-  > WASHINGTON — The U.S. Senate on Wednesday moved one step closer to confirming the first administrator for the Federal Emergency Management Agency since President Donald Trump took office last year.  The Homeland Security and Governmental Affairs Committee voted 8-4 to send Camero
-- **NEW**  [[Arkansas] USDA reversal on crop insurance change welcomed by farm groups](https://arkansasadvocate.com/2026/07/22/repub/usda-reversal-on-crop-insurance-change-welcomed-by-farm-groups/) — *2026-07-22*
-  > The U.S. Department of Agriculture is reversing course on a change to a federal crop insurance policy to allow farmers to buy more protection if weather or field conditions prevent them from planting a crop.  USDA had eliminated the option to buy additional prevented planting ins
-- **NEW**  [[Arkansas] Citing a hunger ‘crisis,’ US mayors call for end to federal SNAP cuts](https://arkansasadvocate.com/2026/07/22/repub/citing-a-hunger-crisis-u-s-mayors-call-for-end-to-federal-snap-cuts/) — *2026-07-22*
-  > More than 200 American mayors are calling on the federal government to reverse changes that will cost states billions and push millions of people off the food stamp program. This week, the United States Conference of Mayors asked the U.S. Senate’s agriculture committee to reconsi
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-23*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-07-23*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 
-_(747 additional items in raw.jsonl)_
+_(791 additional items in raw.jsonl)_
