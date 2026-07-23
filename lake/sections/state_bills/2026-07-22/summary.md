@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-07-22
 record_count: 158
-new_today: 47
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## State Legislative Action
 
-47 new of 158 total items today.
+0 new of 158 total items today.
 
 - [[Alabama SB 107] Alabama Board of Funeral Services; board authorized to impose administrative fee on funeral establishments for each funeral arranged; initial application, renewal, branch registration, and transfer fees relating to a certificate of authority increased; certificate holder required to]() — *2026-07-21*
   > Occupational Licensing Boards
@@ -31,7 +31,7 @@ state: fresh
   > Military
 - [[Alabama SB 149] Teacher certification; Military Veteran Temporary Teaching Certificate established]() — *2026-07-20*
   > Education
-- **NEW**  [[Alaska HB 193] An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support obl]() — *2026-07-22*
+- [[Alaska HB 193] An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support obl]() — *2026-07-22*
   > An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support
 - [[Alaska SB 143] An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.]() — *2026-07-20*
   > An Act relating to ethics and budget training for school board members; relating to the terms of office of municipal school board members; relating to the size of the city council in second class cities; and providing for an effective date.
@@ -59,7 +59,7 @@ state: fresh
   > Arizona space commission; board; membership
 - [[Arizona SB 1662] probation supervision; least restrictive conditions]() — *2026-07-20*
   > probation supervision; least restrictive conditions
-- **NEW**  [[California SB 754] Menstrual products: disposable tampons and pad products: concerning chemicals.]() — *2026-07-22*
+- [[California SB 754] Menstrual products: disposable tampons and pad products: concerning chemicals.]() — *2026-07-22*
   > Existing law prohibits any person from manufacturing, distributing, selling, or offering for sale in the state any menstrual products that contain regulated perfluoroalkyl and polyfluoroalkyl substances, as defined. Existing law requires the Department of Toxic Substances Control
 
 _(133 additional items in raw.jsonl)_
