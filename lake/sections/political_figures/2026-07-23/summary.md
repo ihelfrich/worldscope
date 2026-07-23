@@ -14,31 +14,31 @@ state: fresh
 
 1. **John James** (Representative, Republican, MI-10th): composite 0.257
    drivers: new_filings=0.57, enforcement_hits=1.00
-   evidence: [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:https://www.]
-2. **J. Hill** (Representative, Republican, AR-2nd): composite 0.225
-   drivers: enforcement_hits=1.00
-   evidence: [lake:political_figures:0001610717-2], [lake:political_figures:0001437749-2], [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
-3. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.157
+   evidence: [lake:political_figures:gkg-20260723], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2]
+2. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.157
    drivers: new_filings=0.57, enforcement_hits=0.50
    evidence: [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
-4. **Dave Min** (Representative, Democratic, CA-47th): composite 0.150
+3. **Dave Min** (Representative, Democratic, CA-47th): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
    evidence: [lake:political_figures:0001398344-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:https://www.]
 5. **Tracey Mann** (Representative, Republican, KS-1st): composite 0.067
    drivers: new_filings=0.67
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
-6. **Clarence Thomas** (Associate Justice, Nonpartisan, United States): composite 0.067
+5. **Clarence Thomas** (Associate Justice, Nonpartisan, United States): composite 0.067
    drivers: new_filings=0.67
    evidence: [lake:political_figures:0001339736-2], [lake:political_figures:0001729897-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
-7. **Rand Paul** (Senator, Republican, KY): composite 0.057
+6. **Rand Paul** (Senator, Republican, KY): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001193125-2]
 8. **Rick Scott** (Senator, Republican, FL): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
-9. **Tim Scott** (Senator, Republican, SC): composite 0.057
+8. **Tim Scott** (Senator, Republican, SC): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
-10. **Austin Scott** (Representative, Republican, GA-8th): composite 0.057
+9. **Austin Scott** (Representative, Republican, GA-8th): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2], [lake:political_figures:0001213900-2]
+10. **Patrick Ryan** (Representative, Democratic, NY-18th): composite 0.057
+   drivers: new_filings=0.57
+   evidence: [lake:political_figures:0001398344-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001213900-2], [lake:political_figures:0001564606-2]

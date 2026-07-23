@@ -2,21 +2,23 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-23
-record_count: 20
-new_today: 16
+record_count: 21
+new_today: 18
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-16 new of 20 total items today.
+18 new of 21 total items today.
 
+- **NEW**  [M 5.1 - 107 km SE of Atka, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/aka2026olrlxi) — *2026-07-23*
+  > M5.1 · 107 km SE of Atka, Alaska · depth 5 km
+- **NEW**  [M 5.1 - 85 km SE of Tatsugō, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2n3) — *2026-07-23*
+  > M5.1 · 85 km SE of Tatsugō, Japan · depth 10 km
 - **NEW**  [M 5.1 - central Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2mi) — *2026-07-23*
   > M5.1 · central Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 5.1 - 61 km SSW of San Pedro de Atacama, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2h9) — *2026-07-22*
   > M5.1 · 61 km SSW of San Pedro de Atacama, Chile · depth 108.731 km
-- [M 5.1 - 121 km NW of Vallenar, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fd) — *2026-07-22*
-  > M5.1 · 121 km NW of Vallenar, Chile · depth 10 km
 - **NEW**  [M 5.0 - Kermadec Islands, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2j3) — *2026-07-22*
   > M5.0 · Kermadec Islands, New Zealand · depth 46.903 km
 - **NEW**  [M 4.9 - 17 km NW of Hihifo, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2jk) — *2026-07-22*

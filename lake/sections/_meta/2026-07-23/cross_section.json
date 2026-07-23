@@ -2,20 +2,21 @@
   "day": "2026-07-23",
   "min_sections_threshold": 3,
   "entities_scanned": 3481,
-  "records_scanned": 2927,
-  "recurrences_found": 94,
+  "records_scanned": 3026,
+  "recurrences_found": 98,
   "by_confidence": {
     "high": [
       {
         "entity_id": "place:state-washington",
         "canonical_name": "Washington",
         "entity_type": "place",
-        "n_sections": 8,
+        "n_sections": 9,
         "total_mentions": 32,
         "confidence": "high",
         "sections": [
           "federal_register",
           "foreign_news",
+          "gdelt_gkg",
           "paper_bets",
           "russian_internal",
           "state_news",
@@ -25,7 +26,8 @@
         ],
         "section_counts": {
           "federal_register": 1,
-          "foreign_news": 8,
+          "foreign_news": 7,
+          "gdelt_gkg": 1,
           "paper_bets": 1,
           "russian_internal": 5,
           "state_news": 8,
@@ -47,8 +49,8 @@
           ],
           "russian_internal": [
             "b190c7c348d36bd067eb21cbc903c783ed7919a3",
-            "3cd126855c8c410af1fedc4c125d6355a572da7e",
-            "bcecb11a855380a724168aeb7e55d068c70eef05"
+            "cc4525b4a8b3d25e67d7bb2e92a79150d9eac5f2",
+            "3cd126855c8c410af1fedc4c125d6355a572da7e"
           ],
           "federal_register": [
             "2026-14927"
@@ -65,6 +67,9 @@
             "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
             "alert-urn:oid:2.49.0.1.840.0.177a302904c9aa98f8d9e2531def6409ad8877f4.001.1",
             "alert-urn:oid:2.49.0.1.840.0.51d9fd83f5c03708b6d1cd0aab23669416db20b0.001.1"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T064500Z-10b34396"
           ]
         }
       },
@@ -72,12 +77,13 @@
         "entity_id": "place:state-new-york",
         "canonical_name": "New York",
         "entity_type": "place",
-        "n_sections": 8,
-        "total_mentions": 15,
+        "n_sections": 9,
+        "total_mentions": 17,
         "confidence": "high",
         "sections": [
           "forecasts",
           "foreign_news",
+          "gdelt_gkg",
           "local_news",
           "paper_bets",
           "political_figures",
@@ -88,6 +94,7 @@
         "section_counts": {
           "forecasts": 2,
           "foreign_news": 2,
+          "gdelt_gkg": 2,
           "local_news": 1,
           "paper_bets": 5,
           "political_figures": 1,
@@ -124,6 +131,10 @@
           ],
           "weather": [
             "afd-OKX-83d1dfbc6683"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T071500Z-69a9e882",
+            "gkg-20260723T064500Z-59015903"
           ]
         }
       },
@@ -343,18 +354,18 @@
         "canonical_name": "Ukraine",
         "entity_type": "place",
         "n_sections": 5,
-        "total_mentions": 41,
+        "total_mentions": 31,
         "confidence": "high",
         "sections": [
           "foreign_news",
-          "gdelt_gkg",
+          "gdelt_regions",
           "paper_bets",
           "ukraine_theater",
           "ukrainian_internal"
         ],
         "section_counts": {
-          "foreign_news": 12,
-          "gdelt_gkg": 18,
+          "foreign_news": 14,
+          "gdelt_regions": 6,
           "paper_bets": 1,
           "ukraine_theater": 1,
           "ukrainian_internal": 9
@@ -376,10 +387,10 @@
           "ukraine_theater": [
             "official-ua-cb5044be4b831d5e"
           ],
-          "gdelt_gkg": [
-            "gkg-20260723T030000Z-b8b94d4a",
-            "gkg-20260723T021500Z-786451e9",
-            "gkg-20260723T021500Z-d8a4ed05"
+          "gdelt_regions": [
+            "https://www.kyivpost.com/post/80883|20260723T081500Z",
+            "https://en.interfax.com.ua/news/general/1187374.html|20260723T080000Z",
+            "https://www.kyivpost.com/post/80861|20260723T034500Z"
           ]
         }
       },
@@ -475,6 +486,50 @@
         }
       },
       {
+        "entity_id": "place:state-california",
+        "canonical_name": "California",
+        "entity_type": "place",
+        "n_sections": 5,
+        "total_mentions": 10,
+        "confidence": "high",
+        "sections": [
+          "federal_register",
+          "paper_bets",
+          "sanctions_procurement",
+          "state_news",
+          "weather"
+        ],
+        "section_counts": {
+          "federal_register": 1,
+          "paper_bets": 3,
+          "sanctions_procurement": 2,
+          "state_news": 1,
+          "weather": 3
+        },
+        "evidence_records": {
+          "paper_bets": [
+            "kalshi:KXMARSVRAIL-50",
+            "kalshi:KXEARTHQUAKECALIFORNIA-35",
+            "predictit:8166"
+          ],
+          "sanctions_procurement": [
+            "usaspending-874dabee24416e57",
+            "usaspending-df6c56b81b4297f8"
+          ],
+          "federal_register": [
+            "2026-14918"
+          ],
+          "state_news": [
+            "c68c7acae5276f3406d087eeabc6a2728fc245dc"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.003.1"
+          ]
+        }
+      },
+      {
         "entity_id": "place:state-virginia",
         "canonical_name": "Virginia",
         "entity_type": "place",
@@ -514,88 +569,6 @@
             "alert-urn:oid:2.49.0.1.840.0.b001e093abbbed5aa8aa2b15208d4d4caa0f209b.002.1",
             "alert-urn:oid:2.49.0.1.840.0.fd4289fec803ee6c5568ec375b3501dd2538eb1b.001.1",
             "alert-urn:oid:2.49.0.1.840.0.125f256d5ab45ab27d8ad1fe2a35bdb095416afd.001.1"
-          ]
-        }
-      },
-      {
-        "entity_id": "place:state-california",
-        "canonical_name": "California",
-        "entity_type": "place",
-        "n_sections": 5,
-        "total_mentions": 9,
-        "confidence": "high",
-        "sections": [
-          "federal_register",
-          "paper_bets",
-          "sanctions_procurement",
-          "state_news",
-          "weather"
-        ],
-        "section_counts": {
-          "federal_register": 1,
-          "paper_bets": 3,
-          "sanctions_procurement": 2,
-          "state_news": 1,
-          "weather": 2
-        },
-        "evidence_records": {
-          "paper_bets": [
-            "kalshi:KXMARSVRAIL-50",
-            "kalshi:KXEARTHQUAKECALIFORNIA-35",
-            "predictit:8166"
-          ],
-          "sanctions_procurement": [
-            "usaspending-874dabee24416e57",
-            "usaspending-df6c56b81b4297f8"
-          ],
-          "federal_register": [
-            "2026-14918"
-          ],
-          "state_news": [
-            "c68c7acae5276f3406d087eeabc6a2728fc245dc"
-          ],
-          "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.002.1",
-            "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.003.1"
-          ]
-        }
-      },
-      {
-        "entity_id": "place:country-united-kingdom",
-        "canonical_name": "United Kingdom",
-        "entity_type": "place",
-        "n_sections": 4,
-        "total_mentions": 43,
-        "confidence": "high",
-        "sections": [
-          "foreign_news",
-          "gdelt_gkg",
-          "paper_bets",
-          "vip_flights"
-        ],
-        "section_counts": {
-          "foreign_news": 35,
-          "gdelt_gkg": 5,
-          "paper_bets": 1,
-          "vip_flights": 2
-        },
-        "evidence_records": {
-          "paper_bets": [
-            "polymarket:2832140"
-          ],
-          "foreign_news": [
-            "30ac61ddca3a69d61a54f360facf5b98c36c7187",
-            "3dfa6e10db55e8e0e88d2a6af807d3632a33add3",
-            "233afbc20d95904245a9c1d43bc944ece33e1f0f"
-          ],
-          "gdelt_gkg": [
-            "gkg-20260723T084500Z-6211b5b6",
-            "gkg-20260723T084500Z-8046e9a",
-            "gkg-20260723T021500Z-d8a4ed05"
-          ],
-          "vip_flights": [
-            "43c6f6:RRR2134",
-            "43c700:RRR2107"
           ]
         }
       },
@@ -865,6 +838,43 @@
         }
       },
       {
+        "entity_id": "place:state-colorado",
+        "canonical_name": "Colorado",
+        "entity_type": "place",
+        "n_sections": 4,
+        "total_mentions": 7,
+        "confidence": "high",
+        "sections": [
+          "gdelt_gkg",
+          "paper_bets",
+          "state_news",
+          "weather"
+        ],
+        "section_counts": {
+          "gdelt_gkg": 1,
+          "paper_bets": 1,
+          "state_news": 3,
+          "weather": 2
+        },
+        "evidence_records": {
+          "state_news": [
+            "state-news-error-colorado-co-governor",
+            "8f05cdbbf54ad43e6d6581b7a35ce00fa8b3a127",
+            "85ab739ccd4c1188d7e689c51105d1da8a6a3093"
+          ],
+          "paper_bets": [
+            "predictit:8191"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.e97837fde771bee9eb7841b7cfb80fbd1bf64b16.001.1"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T051500Z-96d70428"
+          ]
+        }
+      },
+      {
         "entity_id": "person:legislator-florida-bernard",
         "canonical_name": "Bernard",
         "entity_type": "person",
@@ -963,13 +973,14 @@
         "entity_id": "person:legislator-wisconsin-james",
         "canonical_name": "James",
         "entity_type": "person",
-        "n_sections": 6,
-        "total_mentions": 25,
+        "n_sections": 7,
+        "total_mentions": 26,
         "confidence": "medium",
         "sections": [
           "fec",
           "forecasts",
           "foreign_news",
+          "gdelt_gkg",
           "paper_bets",
           "political_figures",
           "weather"
@@ -978,6 +989,7 @@
           "fec": 2,
           "forecasts": 5,
           "foreign_news": 1,
+          "gdelt_gkg": 1,
           "paper_bets": 4,
           "political_figures": 11,
           "weather": 2
@@ -1008,6 +1020,110 @@
           "weather": [
             "alert-urn:oid:2.49.0.1.840.0.177a302904c9aa98f8d9e2531def6409ad8877f4.001.1",
             "alert-urn:oid:2.49.0.1.840.0.c2d0f1130fb34d7b64433bf547325afca6ede6d3.001.1"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T050000Z-15d986d3"
+          ]
+        }
+      },
+      {
+        "entity_id": "place:country-china",
+        "canonical_name": "China",
+        "entity_type": "place",
+        "n_sections": 6,
+        "total_mentions": 176,
+        "confidence": "medium",
+        "sections": [
+          "billionaires",
+          "chinese_internal",
+          "foreign_news",
+          "gdacs",
+          "gdelt_gkg",
+          "tech_news"
+        ],
+        "section_counts": {
+          "billionaires": 1,
+          "chinese_internal": 10,
+          "foreign_news": 97,
+          "gdacs": 1,
+          "gdelt_gkg": 66,
+          "tech_news": 1
+        },
+        "evidence_records": {
+          "foreign_news": [
+            "f4991feba1e47bddaa00a31e997daee6e06cb19d",
+            "362646463d96c168f4da5b3dd2c84c38643de2f7",
+            "f32d36c7309675ab031e31ac0ea5a7d1caaea5ee"
+          ],
+          "billionaires": [
+            "rank:zhang-yiming"
+          ],
+          "chinese_internal": [
+            "3867632889cd35c11bf565bdfcbbf99aa16ed405",
+            "53a30cd83d1350e2f4ccff5ec35726df30ab3515",
+            "9cbaf8bf39e6c60b0bcb9474786221b4696048ff"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T091500Z-e0bf015b",
+            "gkg-20260723T091500Z-98fd939a",
+            "gkg-20260723T091500Z-f467933e"
+          ],
+          "gdacs": [
+            "gdacs-TC-1001294"
+          ],
+          "tech_news": [
+            "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-california-rubio",
+        "canonical_name": "Rubio",
+        "entity_type": "person",
+        "n_sections": 6,
+        "total_mentions": 18,
+        "confidence": "medium",
+        "sections": [
+          "foreign_news",
+          "gdelt_gkg",
+          "gdelt_regions",
+          "paper_bets",
+          "political_figures",
+          "ukrainian_internal"
+        ],
+        "section_counts": {
+          "foreign_news": 8,
+          "gdelt_gkg": 2,
+          "gdelt_regions": 2,
+          "paper_bets": 3,
+          "political_figures": 1,
+          "ukrainian_internal": 2
+        },
+        "evidence_records": {
+          "political_figures": [
+            "secretary-of-state-marco-rubio"
+          ],
+          "paper_bets": [
+            "predictit:8152",
+            "predictit:8171",
+            "polymarket:561975"
+          ],
+          "foreign_news": [
+            "d5cdd6b097e24752c85db54818dd687b720b9776",
+            "0830754216056cd42ca24c50259f12f89007dc25",
+            "225935f36af06644539815e0df23f2547528a093"
+          ],
+          "ukrainian_internal": [
+            "397545392baa81f67d57323b0e1f92360ebe95ce",
+            "c4e8e734aae33676327f9cc07f64a1a881c9f6c1"
+          ],
+          "gdelt_regions": [
+            "https://www.kyivpost.com/post/80883|20260723T081500Z",
+            "https://www.kyivpost.com/post/80862|20260723T034500Z"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T011500Z-5bf2933a",
+            "gkg-20260723T011500Z-f9cddf29"
           ]
         }
       },
@@ -1058,60 +1174,16 @@
         }
       },
       {
-        "entity_id": "person:legislator-rhode-island-place",
-        "canonical_name": "Place",
-        "entity_type": "person",
-        "n_sections": 5,
-        "total_mentions": 19,
-        "confidence": "medium",
-        "sections": [
-          "foreign_news",
-          "paper_bets",
-          "sanctions_procurement",
-          "usgs_quakes",
-          "weather"
-        ],
-        "section_counts": {
-          "foreign_news": 2,
-          "paper_bets": 2,
-          "sanctions_procurement": 1,
-          "usgs_quakes": 5,
-          "weather": 9
-        },
-        "evidence_records": {
-          "paper_bets": [
-            "polymarket:1365893",
-            "manifold:AdpcLEyc8R"
-          ],
-          "sanctions_procurement": [
-            "usaspending-36b9a4cc959a4848"
-          ],
-          "foreign_news": [
-            "07a070481e2a59179a79a674a22512c3bebd2a6b",
-            "47b86cb47d00e37dd2cf3e1ce62777e1e9a03654"
-          ],
-          "weather": [
-            "earthquake-us7000t2mi",
-            "earthquake-us7000t2l3",
-            "earthquake-us7000t2ku"
-          ],
-          "usgs_quakes": [
-            "us7000t2mi",
-            "us7000t2ku",
-            "us7000t2kg"
-          ]
-        }
-      },
-      {
         "entity_id": "person:legislator-south-carolina-graham",
         "canonical_name": "Graham",
         "entity_type": "person",
-        "n_sections": 5,
-        "total_mentions": 6,
+        "n_sections": 6,
+        "total_mentions": 7,
         "confidence": "medium",
         "sections": [
           "commentary",
           "fec",
+          "gdelt_regions",
           "paper_bets",
           "political_figures",
           "ukrainian_internal"
@@ -1119,6 +1191,7 @@
         "section_counts": {
           "commentary": 1,
           "fec": 2,
+          "gdelt_regions": 1,
           "paper_bets": 1,
           "political_figures": 1,
           "ukrainian_internal": 1
@@ -1137,6 +1210,9 @@
           "ukrainian_internal": [
             "5aa3ac4be83661462a6f9171d1a3609b74c537ef"
           ],
+          "gdelt_regions": [
+            "https://www.kyivpost.com/post/80861|20260723T034500Z"
+          ],
           "commentary": [
             "https://marginalrevolution.com/marginalrevolution/2026/07/my-excellent-conversation-with-andrew-graham-dixon.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-andrew-graham-dixon"
           ]
@@ -1146,18 +1222,20 @@
         "entity_id": "place:country-india",
         "canonical_name": "India",
         "entity_type": "place",
-        "n_sections": 4,
-        "total_mentions": 169,
+        "n_sections": 5,
+        "total_mentions": 175,
         "confidence": "medium",
         "sections": [
           "billionaires",
           "foreign_news",
+          "gdelt_gkg",
           "paper_bets",
           "vip_flights"
         ],
         "section_counts": {
           "billionaires": 4,
-          "foreign_news": 162,
+          "foreign_news": 164,
+          "gdelt_gkg": 4,
           "paper_bets": 2,
           "vip_flights": 1
         },
@@ -1176,6 +1254,11 @@
             "96776a344128bf0c1de468a8e93b80f59660ce9e",
             "f8370740745b572e4c06d111f03a90feadcef66e"
           ],
+          "gdelt_gkg": [
+            "gkg-20260723T064500Z-e1a97a03",
+            "gkg-20260723T063000Z-710ee863",
+            "gkg-20260723T050000Z-6fe78e00"
+          ],
           "vip_flights": [
             "800585:INDIA1"
           ]
@@ -1185,19 +1268,21 @@
         "entity_id": "place:country-russia",
         "canonical_name": "Russia",
         "entity_type": "place",
-        "n_sections": 4,
-        "total_mentions": 98,
+        "n_sections": 5,
+        "total_mentions": 94,
         "confidence": "medium",
         "sections": [
           "foreign_news",
           "gdelt_gkg",
+          "gdelt_regions",
           "russian_internal",
           "ukrainian_internal"
         ],
         "section_counts": {
-          "foreign_news": 20,
-          "gdelt_gkg": 50,
-          "russian_internal": 23,
+          "foreign_news": 21,
+          "gdelt_gkg": 42,
+          "gdelt_regions": 1,
+          "russian_internal": 25,
           "ukrainian_internal": 5
         },
         "evidence_records": {
@@ -1207,56 +1292,192 @@
             "foreign-news-error-russia-sputnik--state-controlled"
           ],
           "russian_internal": [
-            "bc9b1d40fbddaee2488c55593fc86f56be756a3c",
-            "3806faba2a1220c6f77134e8fdcc39f3c4163caa",
-            "09466a0bd17d0bc754bbeb42426e0d88fed1fefa"
+            "f66bf85cc84cfb6d29790a3e789af943549e1d3b",
+            "97bc57f7a4d000a7f116f790ba7f056befb8dcf0",
+            "cc4525b4a8b3d25e67d7bb2e92a79150d9eac5f2"
           ],
           "ukrainian_internal": [
             "6cf8827f2ca5e36b4aa859590fa55cd878111658",
             "397545392baa81f67d57323b0e1f92360ebe95ce",
             "df188ca57fa2d2f514fef7c013a558a943f68cf0"
           ],
+          "gdelt_regions": [
+            "https://www.kyivpost.com/post/80883|20260723T081500Z"
+          ],
           "gdelt_gkg": [
-            "gkg-20260723T084500Z-e44a3d2c",
-            "gkg-20260723T084500Z-59e1d5b0",
-            "gkg-20260723T084500Z-ef7f5bf2"
+            "gkg-20260723T091500Z-e0bf015b",
+            "gkg-20260723T091500Z-98fd939a",
+            "gkg-20260723T091500Z-f467933e"
           ]
         }
       },
       {
-        "entity_id": "place:country-italy",
-        "canonical_name": "Italy",
+        "entity_id": "place:country-japan",
+        "canonical_name": "Japan",
         "entity_type": "place",
-        "n_sections": 4,
-        "total_mentions": 22,
+        "n_sections": 5,
+        "total_mentions": 43,
         "confidence": "medium",
         "sections": [
           "billionaires",
           "foreign_news",
           "gdelt_gkg",
-          "vip_flights"
+          "gdelt_regions",
+          "usgs_quakes"
         ],
         "section_counts": {
-          "billionaires": 1,
-          "foreign_news": 18,
-          "gdelt_gkg": 2,
-          "vip_flights": 1
+          "billionaires": 4,
+          "foreign_news": 36,
+          "gdelt_gkg": 1,
+          "gdelt_regions": 1,
+          "usgs_quakes": 1
         },
         "evidence_records": {
           "billionaires": [
-            "rank:giancarlo-devasini"
+            "rank:masayoshi-son",
+            "rank:tadashi-yanai",
+            "mover:masayoshi-son"
           ],
           "foreign_news": [
-            "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
-            "85bcc3b365fed9902fed423940ab3198c990be31",
-            "3af347c0e54af0dfd3ac93932d3f6c92d7fa1ccd"
+            "0d9c04a9be762c57e9e1070226166bb34217190f",
+            "996e62ed2fa4bc3ccc8f21bf062e286a308c2edc",
+            "8c2d4aee29a6742434c764fd308f45090c9e21d0"
+          ],
+          "gdelt_regions": [
+            "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203097|20260723T081500Z"
           ],
           "gdelt_gkg": [
-            "gkg-20260723T084500Z-e44a3d2c",
-            "gkg-20260723T084500Z-147f4e91"
+            "gkg-20260723T003000Z-b8953d63"
           ],
-          "vip_flights": [
-            "33fd24:JEDI02"
+          "usgs_quakes": [
+            "us7000t2n3"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-rhode-island-place",
+        "canonical_name": "Place",
+        "entity_type": "person",
+        "n_sections": 5,
+        "total_mentions": 23,
+        "confidence": "medium",
+        "sections": [
+          "foreign_news",
+          "paper_bets",
+          "sanctions_procurement",
+          "usgs_quakes",
+          "weather"
+        ],
+        "section_counts": {
+          "foreign_news": 2,
+          "paper_bets": 2,
+          "sanctions_procurement": 1,
+          "usgs_quakes": 7,
+          "weather": 11
+        },
+        "evidence_records": {
+          "paper_bets": [
+            "polymarket:1365893",
+            "manifold:AdpcLEyc8R"
+          ],
+          "sanctions_procurement": [
+            "usaspending-36b9a4cc959a4848"
+          ],
+          "foreign_news": [
+            "07a070481e2a59179a79a674a22512c3bebd2a6b",
+            "47b86cb47d00e37dd2cf3e1ce62777e1e9a03654"
+          ],
+          "weather": [
+            "earthquake-aka2026olrlxi",
+            "earthquake-us7000t2mc",
+            "earthquake-us7000t2mi"
+          ],
+          "usgs_quakes": [
+            "aka2026olrlxi",
+            "us7000t2n3",
+            "us7000t2mi"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-west-virginia-green",
+        "canonical_name": "Green",
+        "entity_type": "person",
+        "n_sections": 5,
+        "total_mentions": 7,
+        "confidence": "medium",
+        "sections": [
+          "chinese_internal",
+          "foreign_news",
+          "political_figures",
+          "state_news",
+          "weather"
+        ],
+        "section_counts": {
+          "chinese_internal": 1,
+          "foreign_news": 1,
+          "political_figures": 1,
+          "state_news": 1,
+          "weather": 3
+        },
+        "evidence_records": {
+          "political_figures": [
+            "representative-green-al-tx-9th"
+          ],
+          "foreign_news": [
+            "362646463d96c168f4da5b3dd2c84c38643de2f7"
+          ],
+          "state_news": [
+            "a070cdc2d53e575506b3b081c25cf68c04817720"
+          ],
+          "chinese_internal": [
+            "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-wisconsin-green",
+        "canonical_name": "Green",
+        "entity_type": "person",
+        "n_sections": 5,
+        "total_mentions": 7,
+        "confidence": "medium",
+        "sections": [
+          "chinese_internal",
+          "foreign_news",
+          "political_figures",
+          "state_news",
+          "weather"
+        ],
+        "section_counts": {
+          "chinese_internal": 1,
+          "foreign_news": 1,
+          "political_figures": 1,
+          "state_news": 1,
+          "weather": 3
+        },
+        "evidence_records": {
+          "political_figures": [
+            "representative-green-al-tx-9th"
+          ],
+          "foreign_news": [
+            "362646463d96c168f4da5b3dd2c84c38643de2f7"
+          ],
+          "state_news": [
+            "a070cdc2d53e575506b3b081c25cf68c04817720"
+          ],
+          "chinese_internal": [
+            "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
+            "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
           ]
         }
       },
@@ -1265,7 +1486,7 @@
         "canonical_name": "Israel",
         "entity_type": "place",
         "n_sections": 4,
-        "total_mentions": 17,
+        "total_mentions": 58,
         "confidence": "medium",
         "sections": [
           "forecasts",
@@ -1275,8 +1496,8 @@
         ],
         "section_counts": {
           "forecasts": 2,
-          "foreign_news": 12,
-          "gdelt_gkg": 2,
+          "foreign_news": 11,
+          "gdelt_gkg": 44,
           "paper_bets": 1
         },
         "evidence_records": {
@@ -1293,47 +1514,126 @@
             "israel-x-iran-ceasefire-continues-through-july-25-20260716224448967-454"
           ],
           "gdelt_gkg": [
-            "gkg-20260723T084500Z-ef7f5bf2",
-            "gkg-20260723T084500Z-e1c96f76"
+            "gkg-20260723T091500Z-ad024b74",
+            "gkg-20260723T091500Z-84b9eff2",
+            "gkg-20260723T091500Z-c057ffef"
           ]
         }
       },
       {
-        "entity_id": "person:legislator-california-rubio",
-        "canonical_name": "Rubio",
+        "entity_id": "person:legislator-south-carolina-white",
+        "canonical_name": "White",
         "entity_type": "person",
         "n_sections": 4,
         "total_mentions": 12,
         "confidence": "medium",
         "sections": [
           "foreign_news",
-          "paper_bets",
+          "local_news",
           "political_figures",
-          "ukrainian_internal"
+          "tech_news"
         ],
         "section_counts": {
-          "foreign_news": 6,
-          "paper_bets": 3,
-          "political_figures": 1,
-          "ukrainian_internal": 2
+          "foreign_news": 4,
+          "local_news": 2,
+          "political_figures": 5,
+          "tech_news": 1
         },
         "evidence_records": {
           "political_figures": [
-            "secretary-of-state-marco-rubio"
-          ],
-          "paper_bets": [
-            "predictit:8152",
-            "predictit:8171",
-            "polymarket:561975"
+            "white-house-chief-of-staff-susie-wiles",
+            "deputy-white-house-chief-of-staff-todo",
+            "white-house-press-secretary-todo"
           ],
           "foreign_news": [
-            "d5cdd6b097e24752c85db54818dd687b720b9776",
-            "0830754216056cd42ca24c50259f12f89007dc25",
-            "225935f36af06644539815e0df23f2547528a093"
+            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+            "f40c51420a9f63769901b37bc5f20363c4a91a46",
+            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
           ],
-          "ukrainian_internal": [
-            "397545392baa81f67d57323b0e1f92360ebe95ce",
-            "c4e8e734aae33676327f9cc07f64a1a881c9f6c1"
+          "local_news": [
+            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          ],
+          "tech_news": [
+            "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-tennessee-white",
+        "canonical_name": "White",
+        "entity_type": "person",
+        "n_sections": 4,
+        "total_mentions": 12,
+        "confidence": "medium",
+        "sections": [
+          "foreign_news",
+          "local_news",
+          "political_figures",
+          "tech_news"
+        ],
+        "section_counts": {
+          "foreign_news": 4,
+          "local_news": 2,
+          "political_figures": 5,
+          "tech_news": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "white-house-chief-of-staff-susie-wiles",
+            "deputy-white-house-chief-of-staff-todo",
+            "white-house-press-secretary-todo"
+          ],
+          "foreign_news": [
+            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+            "f40c51420a9f63769901b37bc5f20363c4a91a46",
+            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+          ],
+          "local_news": [
+            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          ],
+          "tech_news": [
+            "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-west-virginia-white",
+        "canonical_name": "White",
+        "entity_type": "person",
+        "n_sections": 4,
+        "total_mentions": 12,
+        "confidence": "medium",
+        "sections": [
+          "foreign_news",
+          "local_news",
+          "political_figures",
+          "tech_news"
+        ],
+        "section_counts": {
+          "foreign_news": 4,
+          "local_news": 2,
+          "political_figures": 5,
+          "tech_news": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "white-house-chief-of-staff-susie-wiles",
+            "deputy-white-house-chief-of-staff-todo",
+            "white-house-press-secretary-todo"
+          ],
+          "foreign_news": [
+            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+            "f40c51420a9f63769901b37bc5f20363c4a91a46",
+            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+          ],
+          "local_news": [
+            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          ],
+          "tech_news": [
+            "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
           ]
         }
       },
@@ -1363,8 +1663,8 @@
           ],
           "foreign_news": [
             "5bcb7ba5a2b3f376ab7ba445566c38a898b5eb85",
-            "f41c03361c122d3d139b422d2776bff0115c195d",
-            "83f5a1b8bd6e952a04876f474de1240c7e348a70"
+            "83f5a1b8bd6e952a04876f474de1240c7e348a70",
+            "f41c03361c122d3d139b422d2776bff0115c195d"
           ],
           "state_news": [
             "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
@@ -1400,14 +1700,50 @@
           ],
           "foreign_news": [
             "5bcb7ba5a2b3f376ab7ba445566c38a898b5eb85",
-            "f41c03361c122d3d139b422d2776bff0115c195d",
-            "83f5a1b8bd6e952a04876f474de1240c7e348a70"
+            "83f5a1b8bd6e952a04876f474de1240c7e348a70",
+            "f41c03361c122d3d139b422d2776bff0115c195d"
           ],
           "state_news": [
             "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
           ],
           "weather": [
             "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
+          ]
+        }
+      },
+      {
+        "entity_id": "place:state-oregon",
+        "canonical_name": "Oregon",
+        "entity_type": "place",
+        "n_sections": 4,
+        "total_mentions": 8,
+        "confidence": "medium",
+        "sections": [
+          "federal_register",
+          "state_news",
+          "ukrainian_internal",
+          "weather"
+        ],
+        "section_counts": {
+          "federal_register": 1,
+          "state_news": 1,
+          "ukrainian_internal": 1,
+          "weather": 5
+        },
+        "evidence_records": {
+          "federal_register": [
+            "2026-14927"
+          ],
+          "state_news": [
+            "532b9073e92cbaa83016e6bceb8a48795b5a2857"
+          ],
+          "ukrainian_internal": [
+            "a0c0462e1d79a08a8730090040cd6b031880e91f"
+          ],
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.002.1",
+            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.002.2",
+            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2"
           ]
         }
       },
@@ -1448,110 +1784,39 @@
         }
       },
       {
-        "entity_id": "place:state-oregon",
-        "canonical_name": "Oregon",
+        "entity_id": "place:state-alaska",
+        "canonical_name": "Alaska",
         "entity_type": "place",
         "n_sections": 4,
         "total_mentions": 7,
         "confidence": "medium",
         "sections": [
-          "federal_register",
+          "paper_bets",
           "state_news",
-          "ukrainian_internal",
+          "usgs_quakes",
           "weather"
         ],
         "section_counts": {
-          "federal_register": 1,
+          "paper_bets": 1,
           "state_news": 1,
-          "ukrainian_internal": 1,
-          "weather": 4
+          "usgs_quakes": 2,
+          "weather": 3
         },
         "evidence_records": {
-          "federal_register": [
-            "2026-14927"
+          "paper_bets": [
+            "predictit:8245"
           ],
           "state_news": [
-            "532b9073e92cbaa83016e6bceb8a48795b5a2857"
-          ],
-          "ukrainian_internal": [
-            "a0c0462e1d79a08a8730090040cd6b031880e91f"
+            "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
           ],
           "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2",
-            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.002.2",
-            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.003.1"
-          ]
-        }
-      },
-      {
-        "entity_id": "person:legislator-west-virginia-green",
-        "canonical_name": "Green",
-        "entity_type": "person",
-        "n_sections": 4,
-        "total_mentions": 6,
-        "confidence": "medium",
-        "sections": [
-          "chinese_internal",
-          "foreign_news",
-          "political_figures",
-          "weather"
-        ],
-        "section_counts": {
-          "chinese_internal": 1,
-          "foreign_news": 1,
-          "political_figures": 1,
-          "weather": 3
-        },
-        "evidence_records": {
-          "political_figures": [
-            "representative-green-al-tx-9th"
+            "alert-urn:oid:2.49.0.1.840.0.b7560a788a19ea53da6e8f87ad2f133fbb7878c0.002.1",
+            "earthquake-aka2026olrlxi",
+            "earthquake-us7000t2mc"
           ],
-          "foreign_news": [
-            "362646463d96c168f4da5b3dd2c84c38643de2f7"
-          ],
-          "chinese_internal": [
-            "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
-          ],
-          "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-            "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
-            "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
-          ]
-        }
-      },
-      {
-        "entity_id": "person:legislator-wisconsin-green",
-        "canonical_name": "Green",
-        "entity_type": "person",
-        "n_sections": 4,
-        "total_mentions": 6,
-        "confidence": "medium",
-        "sections": [
-          "chinese_internal",
-          "foreign_news",
-          "political_figures",
-          "weather"
-        ],
-        "section_counts": {
-          "chinese_internal": 1,
-          "foreign_news": 1,
-          "political_figures": 1,
-          "weather": 3
-        },
-        "evidence_records": {
-          "political_figures": [
-            "representative-green-al-tx-9th"
-          ],
-          "foreign_news": [
-            "362646463d96c168f4da5b3dd2c84c38643de2f7"
-          ],
-          "chinese_internal": [
-            "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
-          ],
-          "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-            "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
-            "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
+          "usgs_quakes": [
+            "aka2026olrlxi",
+            "us7000t2mc"
           ]
         }
       },
@@ -1661,11 +1926,76 @@
         }
       },
       {
+        "entity_id": "place:state-kansas",
+        "canonical_name": "Kansas",
+        "entity_type": "place",
+        "n_sections": 4,
+        "total_mentions": 4,
+        "confidence": "medium",
+        "sections": [
+          "gdelt_gkg",
+          "paper_bets",
+          "political_figures",
+          "state_news"
+        ],
+        "section_counts": {
+          "gdelt_gkg": 1,
+          "paper_bets": 1,
+          "political_figures": 1,
+          "state_news": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "reserve-bank-president-kansas-city-todo"
+          ],
+          "paper_bets": [
+            "predictit:8214"
+          ],
+          "state_news": [
+            "02c7686feeee092a5fa6c5b70317c6734617e9ba"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T071500Z-5fd5b016"
+          ]
+        }
+      },
+      {
+        "entity_id": "place:country-united-kingdom",
+        "canonical_name": "United Kingdom",
+        "entity_type": "place",
+        "n_sections": 3,
+        "total_mentions": 37,
+        "confidence": "medium",
+        "sections": [
+          "foreign_news",
+          "paper_bets",
+          "vip_flights"
+        ],
+        "section_counts": {
+          "foreign_news": 35,
+          "paper_bets": 1,
+          "vip_flights": 1
+        },
+        "evidence_records": {
+          "paper_bets": [
+            "polymarket:2832140"
+          ],
+          "foreign_news": [
+            "30ac61ddca3a69d61a54f360facf5b98c36c7187",
+            "3dfa6e10db55e8e0e88d2a6af807d3632a33add3",
+            "233afbc20d95904245a9c1d43bc944ece33e1f0f"
+          ],
+          "vip_flights": [
+            "43c700:RRR2107"
+          ]
+        }
+      },
+      {
         "entity_id": "place:country-france",
         "canonical_name": "France",
         "entity_type": "place",
         "n_sections": 3,
-        "total_mentions": 37,
+        "total_mentions": 35,
         "confidence": "medium",
         "sections": [
           "billionaires",
@@ -1675,7 +2005,7 @@
         "section_counts": {
           "billionaires": 4,
           "foreign_news": 29,
-          "vip_flights": 4
+          "vip_flights": 2
         },
         "evidence_records": {
           "billionaires": [
@@ -1684,14 +2014,13 @@
             "mover:bernard-arnault"
           ],
           "vip_flights": [
-            "39ca85:SAMU28",
             "39c994:SAMU691",
-            "39ca87:SAMU37"
+            "39ac18:SAMU26"
           ],
           "foreign_news": [
             "a0aeddf00e9cef59e082e8c4696584659c954087",
             "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
-            "eeee44c6ed0d303c2205610800ce6e550085088e"
+            "ca8ebda3fdaaa4ba33c706684378af7f32ded365"
           ]
         }
       },
@@ -1761,104 +2090,100 @@
         }
       },
       {
-        "entity_id": "person:legislator-south-carolina-white",
-        "canonical_name": "White",
-        "entity_type": "person",
+        "entity_id": "place:country-philippines",
+        "canonical_name": "Philippines",
+        "entity_type": "place",
         "n_sections": 3,
-        "total_mentions": 11,
+        "total_mentions": 26,
         "confidence": "medium",
         "sections": [
           "foreign_news",
-          "local_news",
-          "political_figures"
+          "gdelt_gkg",
+          "ukraine_theater"
         ],
         "section_counts": {
-          "foreign_news": 4,
-          "local_news": 2,
-          "political_figures": 5
+          "foreign_news": 21,
+          "gdelt_gkg": 4,
+          "ukraine_theater": 1
         },
         "evidence_records": {
-          "political_figures": [
-            "white-house-chief-of-staff-susie-wiles",
-            "deputy-white-house-chief-of-staff-todo",
-            "white-house-press-secretary-todo"
-          ],
           "foreign_news": [
-            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-            "f40c51420a9f63769901b37bc5f20363c4a91a46",
-            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+            "b9ad3aa0555f290e342a85139ee05833b721e28a",
+            "f1af42ab1c4d47782e017e93b44d3f55557d54f9",
+            "9119cba75e6b305b427be2e364fab9ee8c861a80"
           ],
-          "local_news": [
-            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          "ukraine_theater": [
+            "liveuamap-e9491d6d57499570"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T071500Z-276b3569",
+            "gkg-20260723T060000Z-ef67aef5",
+            "gkg-20260723T053000Z-c8136953"
           ]
         }
       },
       {
-        "entity_id": "person:legislator-tennessee-white",
-        "canonical_name": "White",
-        "entity_type": "person",
+        "entity_id": "place:country-italy",
+        "canonical_name": "Italy",
+        "entity_type": "place",
         "n_sections": 3,
-        "total_mentions": 11,
+        "total_mentions": 21,
         "confidence": "medium",
         "sections": [
+          "billionaires",
           "foreign_news",
-          "local_news",
-          "political_figures"
+          "gdelt_gkg"
         ],
         "section_counts": {
-          "foreign_news": 4,
-          "local_news": 2,
-          "political_figures": 5
+          "billionaires": 1,
+          "foreign_news": 18,
+          "gdelt_gkg": 2
         },
         "evidence_records": {
-          "political_figures": [
-            "white-house-chief-of-staff-susie-wiles",
-            "deputy-white-house-chief-of-staff-todo",
-            "white-house-press-secretary-todo"
+          "billionaires": [
+            "rank:giancarlo-devasini"
           ],
           "foreign_news": [
-            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-            "f40c51420a9f63769901b37bc5f20363c4a91a46",
-            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+            "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
+            "85bcc3b365fed9902fed423940ab3198c990be31",
+            "3af347c0e54af0dfd3ac93932d3f6c92d7fa1ccd"
           ],
-          "local_news": [
-            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          "gdelt_gkg": [
+            "gkg-20260723T084500Z-2d893702",
+            "gkg-20260723T083000Z-8398daf2"
           ]
         }
       },
       {
-        "entity_id": "person:legislator-west-virginia-white",
-        "canonical_name": "White",
+        "entity_id": "person:legislator-minnesota-scott",
+        "canonical_name": "Scott",
         "entity_type": "person",
         "n_sections": 3,
-        "total_mentions": 11,
+        "total_mentions": 15,
         "confidence": "medium",
         "sections": [
-          "foreign_news",
-          "local_news",
-          "political_figures"
+          "political_figures",
+          "state_news",
+          "weather"
         ],
         "section_counts": {
-          "foreign_news": 4,
-          "local_news": 2,
-          "political_figures": 5
+          "political_figures": 11,
+          "state_news": 3,
+          "weather": 1
         },
         "evidence_records": {
           "political_figures": [
-            "white-house-chief-of-staff-susie-wiles",
-            "deputy-white-house-chief-of-staff-todo",
-            "white-house-press-secretary-todo"
+            "senator-scott-rick-fl",
+            "senator-scott-tim-sc",
+            "representative-peters-scott-ca-50th"
           ],
-          "foreign_news": [
-            "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-            "f40c51420a9f63769901b37bc5f20363c4a91a46",
-            "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+          "state_news": [
+            "310a485f1fa73d167632a646b8236ee676ec65e8",
+            "50e9c56740f3ac8ade93f8d357338a5f2b6caf45",
+            "8a91ad2174a842c9297afdaedfe7ed6bcb32ab54"
           ],
-          "local_news": [
-            "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-            "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          "weather": [
+            "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.001.1"
           ]
         }
       },
@@ -2384,8 +2709,8 @@
         "evidence_records": {
           "foreign_news": [
             "e5b5cab20d31bd83241eb365571d9e3b33a7ecf4",
-            "e31c9af03358e8e90d214fefb94a1f13530c3d1a",
-            "e76b04902580cd8b81e33ec25fcf969158eb47c0"
+            "ff7d412a84922843704eaf100ac3fb400300124d",
+            "e31c9af03358e8e90d214fefb94a1f13530c3d1a"
           ],
           "weather": [
             "afd-LSX-a633a90357b9"
@@ -2428,37 +2753,6 @@
         }
       },
       {
-        "entity_id": "place:state-colorado",
-        "canonical_name": "Colorado",
-        "entity_type": "place",
-        "n_sections": 3,
-        "total_mentions": 5,
-        "confidence": "medium",
-        "sections": [
-          "paper_bets",
-          "state_news",
-          "weather"
-        ],
-        "section_counts": {
-          "paper_bets": 1,
-          "state_news": 2,
-          "weather": 2
-        },
-        "evidence_records": {
-          "state_news": [
-            "state-news-error-colorado-co-governor",
-            "85ab739ccd4c1188d7e689c51105d1da8a6a3093"
-          ],
-          "paper_bets": [
-            "predictit:8191"
-          ],
-          "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
-            "alert-urn:oid:2.49.0.1.840.0.e97837fde771bee9eb7841b7cfb80fbd1bf64b16.001.1"
-          ]
-        }
-      },
-      {
         "entity_id": "place:state-florida",
         "canonical_name": "Florida",
         "entity_type": "place",
@@ -2486,37 +2780,6 @@
           "weather": [
             "afd-TBW-ecc478fbb24f",
             "afd-MFL-6fec0d2c81c6"
-          ]
-        }
-      },
-      {
-        "entity_id": "person:legislator-south-carolina-burns",
-        "canonical_name": "Burns",
-        "entity_type": "person",
-        "n_sections": 3,
-        "total_mentions": 5,
-        "confidence": "medium",
-        "sections": [
-          "foreign_news",
-          "gdelt_gkg",
-          "weather"
-        ],
-        "section_counts": {
-          "foreign_news": 1,
-          "gdelt_gkg": 2,
-          "weather": 2
-        },
-        "evidence_records": {
-          "foreign_news": [
-            "1879a31fc1b30cbfc460c8248811211d7f34ca64"
-          ],
-          "weather": [
-            "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.006.1",
-            "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2"
-          ],
-          "gdelt_gkg": [
-            "gkg-20260723T021500Z-d8a4ed05",
-            "gkg-20260723T014500Z-7ec03259"
           ]
         }
       },
@@ -2731,6 +2994,66 @@
         }
       },
       {
+        "entity_id": "person:legislator-alaska-vance",
+        "canonical_name": "Vance",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 4,
+        "confidence": "medium",
+        "sections": [
+          "gdelt_gkg",
+          "paper_bets",
+          "political_figures"
+        ],
+        "section_counts": {
+          "gdelt_gkg": 1,
+          "paper_bets": 2,
+          "political_figures": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "vice-president-jd-vance"
+          ],
+          "paper_bets": [
+            "predictit:8152",
+            "predictit:8171"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T064500Z-10b34396"
+          ]
+        }
+      },
+      {
+        "entity_id": "person:legislator-west-virginia-vance",
+        "canonical_name": "Vance",
+        "entity_type": "person",
+        "n_sections": 3,
+        "total_mentions": 4,
+        "confidence": "medium",
+        "sections": [
+          "gdelt_gkg",
+          "paper_bets",
+          "political_figures"
+        ],
+        "section_counts": {
+          "gdelt_gkg": 1,
+          "paper_bets": 2,
+          "political_figures": 1
+        },
+        "evidence_records": {
+          "political_figures": [
+            "vice-president-jd-vance"
+          ],
+          "paper_bets": [
+            "predictit:8152",
+            "predictit:8171"
+          ],
+          "gdelt_gkg": [
+            "gkg-20260723T064500Z-10b34396"
+          ]
+        }
+      },
+      {
         "entity_id": "place:state-missouri",
         "canonical_name": "Missouri",
         "entity_type": "place",
@@ -2874,64 +3197,6 @@
           ],
           "weather": [
             "alert-urn:oid:2.49.0.1.840.0.b2dadffd17b91fffe779e89150d59bd900feb36c.002.1"
-          ]
-        }
-      },
-      {
-        "entity_id": "place:state-kansas",
-        "canonical_name": "Kansas",
-        "entity_type": "place",
-        "n_sections": 3,
-        "total_mentions": 3,
-        "confidence": "medium",
-        "sections": [
-          "paper_bets",
-          "political_figures",
-          "state_news"
-        ],
-        "section_counts": {
-          "paper_bets": 1,
-          "political_figures": 1,
-          "state_news": 1
-        },
-        "evidence_records": {
-          "political_figures": [
-            "reserve-bank-president-kansas-city-todo"
-          ],
-          "paper_bets": [
-            "predictit:8214"
-          ],
-          "state_news": [
-            "02c7686feeee092a5fa6c5b70317c6734617e9ba"
-          ]
-        }
-      },
-      {
-        "entity_id": "place:state-alaska",
-        "canonical_name": "Alaska",
-        "entity_type": "place",
-        "n_sections": 3,
-        "total_mentions": 3,
-        "confidence": "medium",
-        "sections": [
-          "paper_bets",
-          "state_news",
-          "usgs_quakes"
-        ],
-        "section_counts": {
-          "paper_bets": 1,
-          "state_news": 1,
-          "usgs_quakes": 1
-        },
-        "evidence_records": {
-          "paper_bets": [
-            "predictit:8245"
-          ],
-          "state_news": [
-            "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
-          ],
-          "usgs_quakes": [
-            "us7000t2mc"
           ]
         }
       },
@@ -3081,6 +3346,44 @@
         }
       },
       {
+        "entity_id": "person:legislator-south-carolina-long",
+        "canonical_name": "Long",
+        "entity_type": "person",
+        "n_sections": 4,
+        "total_mentions": 14,
+        "confidence": "low",
+        "sections": [
+          "chinese_internal",
+          "foreign_news",
+          "state_news",
+          "weather"
+        ],
+        "section_counts": {
+          "chinese_internal": 1,
+          "foreign_news": 6,
+          "state_news": 1,
+          "weather": 6
+        },
+        "evidence_records": {
+          "foreign_news": [
+            "bad6b8cacb7bbe5d9d28c5fc6245a9d598f5685c",
+            "74803caae2196008b3fc024a3343ad4dd8e4974a",
+            "c43702c679eb64d80abe479bde9d46db6a55ecff"
+          ],
+          "weather": [
+            "afd-LSX-a633a90357b9",
+            "afd-MFL-6fec0d2c81c6",
+            "afd-FWD-590b0244acf3"
+          ],
+          "state_news": [
+            "8f05cdbbf54ad43e6d6581b7a35ce00fa8b3a127"
+          ],
+          "chinese_internal": [
+            "3d3da90b341af25f37c579233e318c6fd69ecd54"
+          ]
+        }
+      },
+      {
         "entity_id": "person:legislator-california-lee",
         "canonical_name": "Lee",
         "entity_type": "person",
@@ -3157,7 +3460,7 @@
         "canonical_name": "Kyiv",
         "entity_type": "place",
         "n_sections": 3,
-        "total_mentions": 31,
+        "total_mentions": 32,
         "confidence": "low",
         "sections": [
           "foreign_news",
@@ -3166,7 +3469,7 @@
         ],
         "section_counts": {
           "foreign_news": 2,
-          "ukraine_theater": 11,
+          "ukraine_theater": 12,
           "ukrainian_internal": 18
         },
         "evidence_records": {
@@ -3180,42 +3483,9 @@
             "175572b7f16d7e25376231fd3df112fb6350c85f"
           ],
           "ukraine_theater": [
+            "official-ua-9e0cb11e39e4a3fc",
             "official-ua-346b768dc1453d49",
-            "official-ua-9a5ee25959d61a3e",
-            "official-ua-dbcb3591a6024849"
-          ]
-        }
-      },
-      {
-        "entity_id": "person:legislator-south-carolina-long",
-        "canonical_name": "Long",
-        "entity_type": "person",
-        "n_sections": 3,
-        "total_mentions": 13,
-        "confidence": "low",
-        "sections": [
-          "chinese_internal",
-          "foreign_news",
-          "weather"
-        ],
-        "section_counts": {
-          "chinese_internal": 1,
-          "foreign_news": 6,
-          "weather": 6
-        },
-        "evidence_records": {
-          "foreign_news": [
-            "bad6b8cacb7bbe5d9d28c5fc6245a9d598f5685c",
-            "74803caae2196008b3fc024a3343ad4dd8e4974a",
-            "c43702c679eb64d80abe479bde9d46db6a55ecff"
-          ],
-          "weather": [
-            "afd-LSX-a633a90357b9",
-            "afd-MFL-6fec0d2c81c6",
-            "afd-FWD-590b0244acf3"
-          ],
-          "chinese_internal": [
-            "3d3da90b341af25f37c579233e318c6fd69ecd54"
+            "official-ua-9a5ee25959d61a3e"
           ]
         }
       },
@@ -3407,12 +3677,13 @@
       "entity_id": "place:state-washington",
       "canonical_name": "Washington",
       "entity_type": "place",
-      "n_sections": 8,
+      "n_sections": 9,
       "total_mentions": 32,
       "confidence": "high",
       "sections": [
         "federal_register",
         "foreign_news",
+        "gdelt_gkg",
         "paper_bets",
         "russian_internal",
         "state_news",
@@ -3422,7 +3693,8 @@
       ],
       "section_counts": {
         "federal_register": 1,
-        "foreign_news": 8,
+        "foreign_news": 7,
+        "gdelt_gkg": 1,
         "paper_bets": 1,
         "russian_internal": 5,
         "state_news": 8,
@@ -3444,8 +3716,8 @@
         ],
         "russian_internal": [
           "b190c7c348d36bd067eb21cbc903c783ed7919a3",
-          "3cd126855c8c410af1fedc4c125d6355a572da7e",
-          "bcecb11a855380a724168aeb7e55d068c70eef05"
+          "cc4525b4a8b3d25e67d7bb2e92a79150d9eac5f2",
+          "3cd126855c8c410af1fedc4c125d6355a572da7e"
         ],
         "federal_register": [
           "2026-14927"
@@ -3462,6 +3734,9 @@
           "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
           "alert-urn:oid:2.49.0.1.840.0.177a302904c9aa98f8d9e2531def6409ad8877f4.001.1",
           "alert-urn:oid:2.49.0.1.840.0.51d9fd83f5c03708b6d1cd0aab23669416db20b0.001.1"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T064500Z-10b34396"
         ]
       }
     },
@@ -3469,12 +3744,13 @@
       "entity_id": "place:state-new-york",
       "canonical_name": "New York",
       "entity_type": "place",
-      "n_sections": 8,
-      "total_mentions": 15,
+      "n_sections": 9,
+      "total_mentions": 17,
       "confidence": "high",
       "sections": [
         "forecasts",
         "foreign_news",
+        "gdelt_gkg",
         "local_news",
         "paper_bets",
         "political_figures",
@@ -3485,6 +3761,7 @@
       "section_counts": {
         "forecasts": 2,
         "foreign_news": 2,
+        "gdelt_gkg": 2,
         "local_news": 1,
         "paper_bets": 5,
         "political_figures": 1,
@@ -3521,228 +3798,10 @@
         ],
         "weather": [
           "afd-OKX-83d1dfbc6683"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:country-china",
-      "canonical_name": "China",
-      "entity_type": "place",
-      "n_sections": 7,
-      "total_mentions": 165,
-      "confidence": "medium",
-      "sections": [
-        "billionaires",
-        "chinese_internal",
-        "foreign_news",
-        "gdacs",
-        "gdelt_gkg",
-        "gdelt_regions",
-        "vip_flights"
-      ],
-      "section_counts": {
-        "billionaires": 1,
-        "chinese_internal": 9,
-        "foreign_news": 97,
-        "gdacs": 1,
-        "gdelt_gkg": 50,
-        "gdelt_regions": 6,
-        "vip_flights": 1
-      },
-      "evidence_records": {
-        "foreign_news": [
-          "f4991feba1e47bddaa00a31e997daee6e06cb19d",
-          "362646463d96c168f4da5b3dd2c84c38643de2f7",
-          "f32d36c7309675ab031e31ac0ea5a7d1caaea5ee"
-        ],
-        "billionaires": [
-          "rank:zhang-yiming"
-        ],
-        "chinese_internal": [
-          "3867632889cd35c11bf565bdfcbbf99aa16ed405",
-          "9cbaf8bf39e6c60b0bcb9474786221b4696048ff",
-          "bcd4329d40dd7143234a4c7b4a565698c806592d"
-        ],
-        "gdelt_regions": [
-          "http://www.shanghainews.net/news/279204671/beyond-beer-china-brews-new-experiences-to-drive-consumption|20260723T084500Z",
-          "https://www.gizchina.com/iqoo/iqoo-15-ultra-is-finally-heading-global|20260723T084500Z",
-          "https://chinaeconomicreview.com/china-vanke-wins-shenzhen-metro-loan-to-complete-bond-extension/|20260723T083000Z"
         ],
         "gdelt_gkg": [
-          "gkg-20260723T084500Z-e44a3d2c",
-          "gkg-20260723T084500Z-59e1d5b0",
-          "gkg-20260723T084500Z-ef7f5bf2"
-        ],
-        "vip_flights": [
-          "7b103c:AF21"
-        ],
-        "gdacs": [
-          "gdacs-TC-1001294"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-alaska-johnson",
-      "canonical_name": "Johnson",
-      "entity_type": "person",
-      "n_sections": 7,
-      "total_mentions": 15,
-      "confidence": "high",
-      "sections": [
-        "fec",
-        "foreign_news",
-        "form4",
-        "paper_bets",
-        "political_figures",
-        "state_news",
-        "weather"
-      ],
-      "section_counts": {
-        "fec": 1,
-        "foreign_news": 1,
-        "form4": 1,
-        "paper_bets": 2,
-        "political_figures": 5,
-        "state_news": 2,
-        "weather": 3
-      },
-      "evidence_records": {
-        "fec": [
-          "cand:H6LA04138"
-        ],
-        "political_figures": [
-          "senator-johnson-ron-wi",
-          "representative-johnson-henry-ga-4th",
-          "representative-johnson-mike-la-4th"
-        ],
-        "paper_bets": [
-          "kalshi:KXNFLRETIRE-LJOHNSON65",
-          "predictit:8204"
-        ],
-        "foreign_news": [
-          "506435392b1977c998e91ae659a08c4c14d3c3ec"
-        ],
-        "form4": [
-          "0001140361-26-029339"
-        ],
-        "state_news": [
-          "83f11181e4be64524b16e0500ef28657b63ce146",
-          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-california-johnson",
-      "canonical_name": "Johnson",
-      "entity_type": "person",
-      "n_sections": 7,
-      "total_mentions": 15,
-      "confidence": "high",
-      "sections": [
-        "fec",
-        "foreign_news",
-        "form4",
-        "paper_bets",
-        "political_figures",
-        "state_news",
-        "weather"
-      ],
-      "section_counts": {
-        "fec": 1,
-        "foreign_news": 1,
-        "form4": 1,
-        "paper_bets": 2,
-        "political_figures": 5,
-        "state_news": 2,
-        "weather": 3
-      },
-      "evidence_records": {
-        "fec": [
-          "cand:H6LA04138"
-        ],
-        "political_figures": [
-          "senator-johnson-ron-wi",
-          "representative-johnson-henry-ga-4th",
-          "representative-johnson-mike-la-4th"
-        ],
-        "paper_bets": [
-          "kalshi:KXNFLRETIRE-LJOHNSON65",
-          "predictit:8204"
-        ],
-        "foreign_news": [
-          "506435392b1977c998e91ae659a08c4c14d3c3ec"
-        ],
-        "form4": [
-          "0001140361-26-029339"
-        ],
-        "state_news": [
-          "83f11181e4be64524b16e0500ef28657b63ce146",
-          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-south-carolina-johnson",
-      "canonical_name": "Johnson",
-      "entity_type": "person",
-      "n_sections": 7,
-      "total_mentions": 15,
-      "confidence": "high",
-      "sections": [
-        "fec",
-        "foreign_news",
-        "form4",
-        "paper_bets",
-        "political_figures",
-        "state_news",
-        "weather"
-      ],
-      "section_counts": {
-        "fec": 1,
-        "foreign_news": 1,
-        "form4": 1,
-        "paper_bets": 2,
-        "political_figures": 5,
-        "state_news": 2,
-        "weather": 3
-      },
-      "evidence_records": {
-        "fec": [
-          "cand:H6LA04138"
-        ],
-        "political_figures": [
-          "senator-johnson-ron-wi",
-          "representative-johnson-henry-ga-4th",
-          "representative-johnson-mike-la-4th"
-        ],
-        "paper_bets": [
-          "kalshi:KXNFLRETIRE-LJOHNSON65",
-          "predictit:8204"
-        ],
-        "foreign_news": [
-          "506435392b1977c998e91ae659a08c4c14d3c3ec"
-        ],
-        "form4": [
-          "0001140361-26-029339"
-        ],
-        "state_news": [
-          "83f11181e4be64524b16e0500ef28657b63ce146",
-          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
+          "gkg-20260723T071500Z-69a9e882",
+          "gkg-20260723T064500Z-59015903"
         ]
       }
     },
@@ -3750,13 +3809,14 @@
       "entity_id": "person:legislator-wisconsin-james",
       "canonical_name": "James",
       "entity_type": "person",
-      "n_sections": 6,
-      "total_mentions": 25,
+      "n_sections": 7,
+      "total_mentions": 26,
       "confidence": "medium",
       "sections": [
         "fec",
         "forecasts",
         "foreign_news",
+        "gdelt_gkg",
         "paper_bets",
         "political_figures",
         "weather"
@@ -3765,6 +3825,7 @@
         "fec": 2,
         "forecasts": 5,
         "foreign_news": 1,
+        "gdelt_gkg": 1,
         "paper_bets": 4,
         "political_figures": 11,
         "weather": 2
@@ -3795,6 +3856,9 @@
         "weather": [
           "alert-urn:oid:2.49.0.1.840.0.177a302904c9aa98f8d9e2531def6409ad8877f4.001.1",
           "alert-urn:oid:2.49.0.1.840.0.c2d0f1130fb34d7b64433bf547325afca6ede6d3.001.1"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T050000Z-15d986d3"
         ]
       }
     },
@@ -3848,113 +3912,26 @@
       "entity_id": "person:pres-donald-trump",
       "canonical_name": "Donald Trump",
       "entity_type": "person",
-      "n_sections": 5,
-      "total_mentions": 52,
+      "n_sections": 7,
+      "total_mentions": 15,
       "confidence": "high",
       "sections": [
         "federal_register",
         "foreign_news",
         "paper_bets",
+        "political_figures",
         "state_news",
-        "ukrainian_internal"
-      ],
-      "section_counts": {
-        "federal_register": 41,
-        "foreign_news": 5,
-        "paper_bets": 2,
-        "state_news": 3,
-        "ukrainian_internal": 1
-      },
-      "evidence_records": {
-        "paper_bets": [
-          "predictit:8152",
-          "predictit:8171"
-        ],
-        "foreign_news": [
-          "68681d203fb2078fc361bd267b88626e689dc6ea",
-          "48587411da16895d87b6295f91dba860b63a1271",
-          "8c308cc9c3c91b5ab74e555156a0c662f4c3a059"
-        ],
-        "ukrainian_internal": [
-          "5aa3ac4be83661462a6f9171d1a3609b74c537ef"
-        ],
-        "federal_register": [
-          "2026-15024",
-          "2026-15003",
-          "2026-14999"
-        ],
-        "state_news": [
-          "85ab739ccd4c1188d7e689c51105d1da8a6a3093",
-          "9b913163761d1537bf0814cb6703e3938fc5de5a",
-          "89cd743724e1873277a60f0d1d253f07460f49e7"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:country-ukraine",
-      "canonical_name": "Ukraine",
-      "entity_type": "place",
-      "n_sections": 5,
-      "total_mentions": 41,
-      "confidence": "high",
-      "sections": [
-        "foreign_news",
-        "gdelt_gkg",
-        "paper_bets",
-        "ukraine_theater",
-        "ukrainian_internal"
-      ],
-      "section_counts": {
-        "foreign_news": 12,
-        "gdelt_gkg": 18,
-        "paper_bets": 1,
-        "ukraine_theater": 1,
-        "ukrainian_internal": 9
-      },
-      "evidence_records": {
-        "ukrainian_internal": [
-          "ukrainian-internal-error-president-of-ukraine",
-          "5aa3ac4be83661462a6f9171d1a3609b74c537ef",
-          "e8620750d1cdd503efb8d2c270b8071bbaccf5ee"
-        ],
-        "foreign_news": [
-          "foreign-news-error-ukraine-the-kyiv-independent",
-          "d01d852fbdf472ecb5b803cc45cbf9f4deb2dbce",
-          "5c440124ec20113c8755f302749a4cc96de6ca22"
-        ],
-        "paper_bets": [
-          "polymarket:693519"
-        ],
-        "ukraine_theater": [
-          "official-ua-cb5044be4b831d5e"
-        ],
-        "gdelt_gkg": [
-          "gkg-20260723T030000Z-b8b94d4a",
-          "gkg-20260723T021500Z-786451e9",
-          "gkg-20260723T021500Z-d8a4ed05"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-florida-michael",
-      "canonical_name": "Michael",
-      "entity_type": "person",
-      "n_sections": 5,
-      "total_mentions": 19,
-      "confidence": "high",
-      "sections": [
-        "billionaires",
-        "fec",
-        "form4",
-        "local_news",
-        "political_figures"
+        "weather"
       ],
       "section_counts": {
         "billionaires": 3,
         "fec": 1,
-        "form4": 3,
-        "local_news": 2,
-        "political_figures": 10
+        "foreign_news": 1,
+        "form4": 1,
+        "paper_bets": 2,
+        "political_figures": 5,
+        "state_news": 2,
+        "weather": 3
       },
       "evidence_records": {
         "fec": [
@@ -3975,9 +3952,16 @@
           "4f8be2c4cbe01713cc1ed0c263bb992dafa88910"
         ],
         "form4": [
-          "0001731395-26-000007",
-          "0001290673-26-000003",
-          "0001812999-26-000006"
+          "0001140361-26-029339"
+        ],
+        "state_news": [
+          "83f11181e4be64524b16e0500ef28657b63ce146",
+          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
         ]
       }
     },
@@ -3985,22 +3969,22 @@
       "entity_id": "person:legislator-rhode-island-place",
       "canonical_name": "Place",
       "entity_type": "person",
-      "n_sections": 5,
-      "total_mentions": 19,
-      "confidence": "medium",
+      "n_sections": 7,
+      "total_mentions": 15,
+      "confidence": "high",
       "sections": [
         "foreign_news",
         "paper_bets",
-        "sanctions_procurement",
-        "usgs_quakes",
+        "political_figures",
+        "state_news",
         "weather"
       ],
       "section_counts": {
         "foreign_news": 2,
         "paper_bets": 2,
-        "sanctions_procurement": 1,
-        "usgs_quakes": 5,
-        "weather": 9
+        "political_figures": 5,
+        "state_news": 2,
+        "weather": 3
       },
       "evidence_records": {
         "paper_bets": [
@@ -4014,15 +3998,17 @@
           "07a070481e2a59179a79a674a22512c3bebd2a6b",
           "47b86cb47d00e37dd2cf3e1ce62777e1e9a03654"
         ],
-        "weather": [
-          "earthquake-us7000t2mi",
-          "earthquake-us7000t2l3",
-          "earthquake-us7000t2ku"
+        "form4": [
+          "0001140361-26-029339"
         ],
-        "usgs_quakes": [
-          "us7000t2mi",
-          "us7000t2ku",
-          "us7000t2kg"
+        "state_news": [
+          "83f11181e4be64524b16e0500ef28657b63ce146",
+          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
         ]
       }
     },
@@ -4030,22 +4016,26 @@
       "entity_id": "person:legislator-minnesota-port",
       "canonical_name": "Port",
       "entity_type": "person",
-      "n_sections": 5,
-      "total_mentions": 16,
-      "confidence": "low",
+      "n_sections": 7,
+      "total_mentions": 15,
+      "confidence": "high",
       "sections": [
         "federal_register",
         "foreign_news",
-        "ukraine_theater",
-        "ukrainian_internal",
+        "form4",
+        "paper_bets",
+        "political_figures",
+        "state_news",
         "weather"
       ],
       "section_counts": {
-        "federal_register": 2,
-        "foreign_news": 10,
-        "ukraine_theater": 1,
-        "ukrainian_internal": 1,
-        "weather": 2
+        "fec": 1,
+        "foreign_news": 1,
+        "form4": 1,
+        "paper_bets": 2,
+        "political_figures": 5,
+        "state_news": 2,
+        "weather": 3
       },
       "evidence_records": {
         "foreign_news": [
@@ -4189,56 +4179,164 @@
           "8a91ad2174a842c9297afdaedfe7ed6bcb32ab54",
           "9ba027fdb759136f4b890620b8543082d128113b"
         ],
-        "ukrainian_internal": [
-          "a0c0462e1d79a08a8730090040cd6b031880e91f"
+        "form4": [
+          "0001140361-26-029339"
+        ],
+        "state_news": [
+          "83f11181e4be64524b16e0500ef28657b63ce146",
+          "ba59e7bf7b50bbb85d8259710422e7aab0d908b5"
         ],
         "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.b001e093abbbed5aa8aa2b15208d4d4caa0f209b.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.fd4289fec803ee6c5568ec375b3501dd2538eb1b.001.1",
-          "alert-urn:oid:2.49.0.1.840.0.125f256d5ab45ab27d8ad1fe2a35bdb095416afd.001.1"
+          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
         ]
       }
     },
     {
-      "entity_id": "place:state-california",
-      "canonical_name": "California",
+      "entity_id": "place:country-china",
+      "canonical_name": "China",
       "entity_type": "place",
-      "n_sections": 5,
-      "total_mentions": 9,
-      "confidence": "high",
+      "n_sections": 6,
+      "total_mentions": 176,
+      "confidence": "medium",
       "sections": [
-        "federal_register",
+        "billionaires",
+        "chinese_internal",
+        "foreign_news",
+        "gdacs",
+        "gdelt_gkg",
+        "tech_news"
+      ],
+      "section_counts": {
+        "billionaires": 1,
+        "chinese_internal": 10,
+        "foreign_news": 97,
+        "gdacs": 1,
+        "gdelt_gkg": 66,
+        "tech_news": 1
+      },
+      "evidence_records": {
+        "foreign_news": [
+          "f4991feba1e47bddaa00a31e997daee6e06cb19d",
+          "362646463d96c168f4da5b3dd2c84c38643de2f7",
+          "f32d36c7309675ab031e31ac0ea5a7d1caaea5ee"
+        ],
+        "billionaires": [
+          "rank:zhang-yiming"
+        ],
+        "chinese_internal": [
+          "3867632889cd35c11bf565bdfcbbf99aa16ed405",
+          "53a30cd83d1350e2f4ccff5ec35726df30ab3515",
+          "9cbaf8bf39e6c60b0bcb9474786221b4696048ff"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T091500Z-e0bf015b",
+          "gkg-20260723T091500Z-98fd939a",
+          "gkg-20260723T091500Z-f467933e"
+        ],
+        "gdacs": [
+          "gdacs-TC-1001294"
+        ],
+        "tech_news": [
+          "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-california-rubio",
+      "canonical_name": "Rubio",
+      "entity_type": "person",
+      "n_sections": 6,
+      "total_mentions": 18,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "gdelt_gkg",
+        "gdelt_regions",
         "paper_bets",
-        "sanctions_procurement",
-        "state_news",
+        "political_figures",
+        "ukrainian_internal"
+      ],
+      "section_counts": {
+        "foreign_news": 8,
+        "gdelt_gkg": 2,
+        "gdelt_regions": 2,
+        "paper_bets": 3,
+        "political_figures": 1,
+        "ukrainian_internal": 2
+      },
+      "evidence_records": {
+        "political_figures": [
+          "secretary-of-state-marco-rubio"
+        ],
+        "paper_bets": [
+          "predictit:8152",
+          "predictit:8171",
+          "polymarket:561975"
+        ],
+        "foreign_news": [
+          "d5cdd6b097e24752c85db54818dd687b720b9776",
+          "0830754216056cd42ca24c50259f12f89007dc25",
+          "225935f36af06644539815e0df23f2547528a093"
+        ],
+        "ukrainian_internal": [
+          "397545392baa81f67d57323b0e1f92360ebe95ce",
+          "c4e8e734aae33676327f9cc07f64a1a881c9f6c1"
+        ],
+        "gdelt_regions": [
+          "https://www.kyivpost.com/post/80883|20260723T081500Z",
+          "https://www.kyivpost.com/post/80862|20260723T034500Z"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T011500Z-5bf2933a",
+          "gkg-20260723T011500Z-f9cddf29"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-canada",
+      "canonical_name": "Canada",
+      "entity_type": "place",
+      "n_sections": 6,
+      "total_mentions": 9,
+      "confidence": "medium",
+      "sections": [
+        "billionaires",
+        "federal_register",
+        "foreign_news",
+        "paper_bets",
+        "vip_flights",
         "weather"
       ],
       "section_counts": {
+        "billionaires": 1,
         "federal_register": 1,
-        "paper_bets": 3,
-        "sanctions_procurement": 2,
-        "state_news": 1,
-        "weather": 2
+        "foreign_news": 4,
+        "paper_bets": 1,
+        "vip_flights": 1,
+        "weather": 1
       },
       "evidence_records": {
-        "paper_bets": [
-          "kalshi:KXMARSVRAIL-50",
-          "kalshi:KXEARTHQUAKECALIFORNIA-35",
-          "predictit:8166"
+        "foreign_news": [
+          "foreign-news-error-canada-globe-and-mail--canada",
+          "f5ab3b7da2ef8c771a8613551624fe54b01bee2d",
+          "a939b1715d0a618c6976c7f9bab9c10cc979315c"
         ],
-        "sanctions_procurement": [
-          "usaspending-874dabee24416e57",
-          "usaspending-df6c56b81b4297f8"
+        "billionaires": [
+          "rank:changpeng-zhao"
+        ],
+        "paper_bets": [
+          "manifold:9nN5uZnzps"
         ],
         "federal_register": [
-          "2026-14918"
-        ],
-        "state_news": [
-          "c68c7acae5276f3406d087eeabc6a2728fc245dc"
+          "2026-14881"
         ],
         "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.003.1"
+          "afd-PHI-dbfc94db873e"
+        ],
+        "vip_flights": [
+          "c2b585:CFC2967"
         ]
       }
     },
@@ -4246,12 +4344,13 @@
       "entity_id": "person:legislator-south-carolina-graham",
       "canonical_name": "Graham",
       "entity_type": "person",
-      "n_sections": 5,
-      "total_mentions": 6,
+      "n_sections": 6,
+      "total_mentions": 7,
       "confidence": "medium",
       "sections": [
         "commentary",
         "fec",
+        "gdelt_regions",
         "paper_bets",
         "political_figures",
         "ukrainian_internal"
@@ -4259,6 +4358,7 @@
       "section_counts": {
         "commentary": 1,
         "fec": 2,
+        "gdelt_regions": 1,
         "paper_bets": 1,
         "political_figures": 1,
         "ukrainian_internal": 1
@@ -4277,6 +4377,9 @@
         "ukrainian_internal": [
           "5aa3ac4be83661462a6f9171d1a3609b74c537ef"
         ],
+        "gdelt_regions": [
+          "https://www.kyivpost.com/post/80861|20260723T034500Z"
+        ],
         "commentary": [
           "https://marginalrevolution.com/marginalrevolution/2026/07/my-excellent-conversation-with-andrew-graham-dixon.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-andrew-graham-dixon"
         ]
@@ -4286,18 +4389,20 @@
       "entity_id": "place:country-india",
       "canonical_name": "India",
       "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 169,
+      "n_sections": 5,
+      "total_mentions": 175,
       "confidence": "medium",
       "sections": [
         "billionaires",
         "foreign_news",
+        "gdelt_gkg",
         "paper_bets",
         "vip_flights"
       ],
       "section_counts": {
         "billionaires": 4,
-        "foreign_news": 162,
+        "foreign_news": 164,
+        "gdelt_gkg": 4,
         "paper_bets": 2,
         "vip_flights": 1
       },
@@ -4316,6 +4421,11 @@
           "96776a344128bf0c1de468a8e93b80f59660ce9e",
           "f8370740745b572e4c06d111f03a90feadcef66e"
         ],
+        "gdelt_gkg": [
+          "gkg-20260723T064500Z-e1a97a03",
+          "gkg-20260723T063000Z-710ee863",
+          "gkg-20260723T050000Z-6fe78e00"
+        ],
         "vip_flights": [
           "800585:INDIA1"
         ]
@@ -4325,19 +4435,21 @@
       "entity_id": "place:country-russia",
       "canonical_name": "Russia",
       "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 98,
+      "n_sections": 5,
+      "total_mentions": 94,
       "confidence": "medium",
       "sections": [
         "foreign_news",
         "gdelt_gkg",
+        "gdelt_regions",
         "russian_internal",
         "ukrainian_internal"
       ],
       "section_counts": {
-        "foreign_news": 20,
-        "gdelt_gkg": 50,
-        "russian_internal": 23,
+        "foreign_news": 21,
+        "gdelt_gkg": 42,
+        "gdelt_regions": 1,
+        "russian_internal": 25,
         "ukrainian_internal": 5
       },
       "evidence_records": {
@@ -4347,95 +4459,585 @@
           "foreign-news-error-russia-sputnik--state-controlled"
         ],
         "russian_internal": [
-          "bc9b1d40fbddaee2488c55593fc86f56be756a3c",
-          "3806faba2a1220c6f77134e8fdcc39f3c4163caa",
-          "09466a0bd17d0bc754bbeb42426e0d88fed1fefa"
+          "f66bf85cc84cfb6d29790a3e789af943549e1d3b",
+          "97bc57f7a4d000a7f116f790ba7f056befb8dcf0",
+          "cc4525b4a8b3d25e67d7bb2e92a79150d9eac5f2"
         ],
         "ukrainian_internal": [
           "6cf8827f2ca5e36b4aa859590fa55cd878111658",
           "397545392baa81f67d57323b0e1f92360ebe95ce",
           "df188ca57fa2d2f514fef7c013a558a943f68cf0"
         ],
+        "gdelt_regions": [
+          "https://www.kyivpost.com/post/80883|20260723T081500Z"
+        ],
         "gdelt_gkg": [
-          "gkg-20260723T084500Z-e44a3d2c",
-          "gkg-20260723T084500Z-59e1d5b0",
-          "gkg-20260723T084500Z-ef7f5bf2"
+          "gkg-20260723T091500Z-e0bf015b",
+          "gkg-20260723T091500Z-98fd939a",
+          "gkg-20260723T091500Z-f467933e"
         ]
       }
     },
     {
-      "entity_id": "place:country-united-kingdom",
-      "canonical_name": "United Kingdom",
-      "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 43,
+      "entity_id": "person:pres-donald-trump",
+      "canonical_name": "Donald Trump",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 52,
       "confidence": "high",
       "sections": [
+        "federal_register",
         "foreign_news",
-        "gdelt_gkg",
         "paper_bets",
-        "vip_flights"
+        "state_news",
+        "ukrainian_internal"
       ],
       "section_counts": {
-        "foreign_news": 35,
-        "gdelt_gkg": 5,
-        "paper_bets": 1,
-        "vip_flights": 2
+        "federal_register": 41,
+        "foreign_news": 5,
+        "paper_bets": 2,
+        "state_news": 3,
+        "ukrainian_internal": 1
       },
       "evidence_records": {
         "paper_bets": [
-          "polymarket:2832140"
+          "predictit:8152",
+          "predictit:8171"
         ],
         "foreign_news": [
-          "30ac61ddca3a69d61a54f360facf5b98c36c7187",
-          "3dfa6e10db55e8e0e88d2a6af807d3632a33add3",
-          "233afbc20d95904245a9c1d43bc944ece33e1f0f"
+          "68681d203fb2078fc361bd267b88626e689dc6ea",
+          "48587411da16895d87b6295f91dba860b63a1271",
+          "8c308cc9c3c91b5ab74e555156a0c662f4c3a059"
         ],
-        "gdelt_gkg": [
-          "gkg-20260723T084500Z-6211b5b6",
-          "gkg-20260723T084500Z-8046e9a",
-          "gkg-20260723T021500Z-d8a4ed05"
+        "ukrainian_internal": [
+          "5aa3ac4be83661462a6f9171d1a3609b74c537ef"
         ],
-        "vip_flights": [
-          "43c6f6:RRR2134",
-          "43c700:RRR2107"
+        "federal_register": [
+          "2026-15024",
+          "2026-15003",
+          "2026-14999"
+        ],
+        "state_news": [
+          "85ab739ccd4c1188d7e689c51105d1da8a6a3093",
+          "9b913163761d1537bf0814cb6703e3938fc5de5a",
+          "89cd743724e1873277a60f0d1d253f07460f49e7"
         ]
       }
     },
     {
-      "entity_id": "place:country-italy",
-      "canonical_name": "Italy",
+      "entity_id": "place:country-japan",
+      "canonical_name": "Japan",
       "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 22,
+      "n_sections": 5,
+      "total_mentions": 43,
       "confidence": "medium",
       "sections": [
         "billionaires",
         "foreign_news",
         "gdelt_gkg",
-        "vip_flights"
+        "gdelt_regions",
+        "usgs_quakes"
       ],
       "section_counts": {
-        "billionaires": 1,
-        "foreign_news": 18,
-        "gdelt_gkg": 2,
-        "vip_flights": 1
+        "billionaires": 4,
+        "foreign_news": 36,
+        "gdelt_gkg": 1,
+        "gdelt_regions": 1,
+        "usgs_quakes": 1
       },
       "evidence_records": {
         "billionaires": [
-          "rank:giancarlo-devasini"
+          "rank:masayoshi-son",
+          "rank:tadashi-yanai",
+          "mover:masayoshi-son"
         ],
         "foreign_news": [
-          "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
-          "85bcc3b365fed9902fed423940ab3198c990be31",
-          "3af347c0e54af0dfd3ac93932d3f6c92d7fa1ccd"
+          "0d9c04a9be762c57e9e1070226166bb34217190f",
+          "996e62ed2fa4bc3ccc8f21bf062e286a308c2edc",
+          "8c2d4aee29a6742434c764fd308f45090c9e21d0"
+        ],
+        "gdelt_regions": [
+          "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203097|20260723T081500Z"
         ],
         "gdelt_gkg": [
-          "gkg-20260723T084500Z-e44a3d2c",
-          "gkg-20260723T084500Z-147f4e91"
+          "gkg-20260723T003000Z-b8953d63"
         ],
-        "vip_flights": [
-          "33fd24:JEDI02"
+        "usgs_quakes": [
+          "us7000t2n3"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-ukraine",
+      "canonical_name": "Ukraine",
+      "entity_type": "place",
+      "n_sections": 5,
+      "total_mentions": 31,
+      "confidence": "high",
+      "sections": [
+        "foreign_news",
+        "gdelt_regions",
+        "paper_bets",
+        "ukraine_theater",
+        "ukrainian_internal"
+      ],
+      "section_counts": {
+        "foreign_news": 14,
+        "gdelt_regions": 6,
+        "paper_bets": 1,
+        "ukraine_theater": 1,
+        "ukrainian_internal": 9
+      },
+      "evidence_records": {
+        "ukrainian_internal": [
+          "ukrainian-internal-error-president-of-ukraine",
+          "5aa3ac4be83661462a6f9171d1a3609b74c537ef",
+          "e8620750d1cdd503efb8d2c270b8071bbaccf5ee"
+        ],
+        "foreign_news": [
+          "foreign-news-error-ukraine-the-kyiv-independent",
+          "d01d852fbdf472ecb5b803cc45cbf9f4deb2dbce",
+          "5c440124ec20113c8755f302749a4cc96de6ca22"
+        ],
+        "paper_bets": [
+          "polymarket:693519"
+        ],
+        "ukraine_theater": [
+          "official-ua-cb5044be4b831d5e"
+        ],
+        "gdelt_regions": [
+          "https://www.kyivpost.com/post/80883|20260723T081500Z",
+          "https://en.interfax.com.ua/news/general/1187374.html|20260723T080000Z",
+          "https://www.kyivpost.com/post/80861|20260723T034500Z"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-rhode-island-place",
+      "canonical_name": "Place",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 23,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "paper_bets",
+        "sanctions_procurement",
+        "usgs_quakes",
+        "weather"
+      ],
+      "section_counts": {
+        "foreign_news": 2,
+        "paper_bets": 2,
+        "sanctions_procurement": 1,
+        "usgs_quakes": 7,
+        "weather": 11
+      },
+      "evidence_records": {
+        "paper_bets": [
+          "polymarket:1365893",
+          "manifold:AdpcLEyc8R"
+        ],
+        "sanctions_procurement": [
+          "usaspending-36b9a4cc959a4848"
+        ],
+        "foreign_news": [
+          "07a070481e2a59179a79a674a22512c3bebd2a6b",
+          "47b86cb47d00e37dd2cf3e1ce62777e1e9a03654"
+        ],
+        "weather": [
+          "earthquake-aka2026olrlxi",
+          "earthquake-us7000t2mc",
+          "earthquake-us7000t2mi"
+        ],
+        "usgs_quakes": [
+          "aka2026olrlxi",
+          "us7000t2n3",
+          "us7000t2mi"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-florida-michael",
+      "canonical_name": "Michael",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 19,
+      "confidence": "high",
+      "sections": [
+        "billionaires",
+        "fec",
+        "form4",
+        "local_news",
+        "political_figures"
+      ],
+      "section_counts": {
+        "billionaires": 3,
+        "fec": 1,
+        "form4": 3,
+        "local_news": 2,
+        "political_figures": 10
+      },
+      "evidence_records": {
+        "fec": [
+          "cand:H6LA04138"
+        ],
+        "political_figures": [
+          "senator-bennet-michael-f-co",
+          "representative-simpson-michael-id-2nd",
+          "representative-guest-michael-ms-3rd"
+        ],
+        "billionaires": [
+          "rank:michael-dell",
+          "rank:michael-bloomberg",
+          "mover:michael-dell"
+        ],
+        "local_news": [
+          "00e2a8bde02874a8e21c3b26b83d754459df7f2e",
+          "4f8be2c4cbe01713cc1ed0c263bb992dafa88910"
+        ],
+        "form4": [
+          "0001731395-26-000007",
+          "0001290673-26-000003",
+          "0001812999-26-000006"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-minnesota-port",
+      "canonical_name": "Port",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 16,
+      "confidence": "low",
+      "sections": [
+        "federal_register",
+        "foreign_news",
+        "ukraine_theater",
+        "ukrainian_internal",
+        "weather"
+      ],
+      "section_counts": {
+        "federal_register": 2,
+        "foreign_news": 10,
+        "ukraine_theater": 1,
+        "ukrainian_internal": 1,
+        "weather": 2
+      },
+      "evidence_records": {
+        "foreign_news": [
+          "foreign-news-error-global-reuters-top-news",
+          "foreign-news-error-global-reuters-world",
+          "foreign-news-error-global-reuters-business"
+        ],
+        "ukraine_theater": [
+          "firms-fetch-error"
+        ],
+        "federal_register": [
+          "2026-14895",
+          "2026-14894"
+        ],
+        "ukrainian_internal": [
+          "df188ca57fa2d2f514fef7c013a558a943f68cf0"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.6161a2ef6d194e0021ce8211ed006b1372e616ba.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-ohio",
+      "canonical_name": "Ohio",
+      "entity_type": "place",
+      "n_sections": 5,
+      "total_mentions": 16,
+      "confidence": "low",
+      "sections": [
+        "federal_register",
+        "local_news",
+        "paper_bets",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "federal_register": 1,
+        "local_news": 2,
+        "paper_bets": 1,
+        "state_news": 11,
+        "weather": 1
+      },
+      "evidence_records": {
+        "paper_bets": [
+          "predictit:8175"
+        ],
+        "federal_register": [
+          "2026-14888"
+        ],
+        "state_news": [
+          "b7308d484cd0679ff467d37b5eb62ce5c338160b",
+          "e7f02375d55dc7c0c9916b69f23bd901de9a1e3c",
+          "ba624c903bf8334e346f747c397b21ecdbc055f1"
+        ],
+        "local_news": [
+          "00e2a8bde02874a8e21c3b26b83d754459df7f2e",
+          "4f8be2c4cbe01713cc1ed0c263bb992dafa88910"
+        ],
+        "weather": [
+          "afd-DTX-03e13075fc31"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-florida-transportation",
+      "canonical_name": "Transportation",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 14,
+      "confidence": "high",
+      "sections": [
+        "federal_register",
+        "local_news",
+        "political_figures",
+        "sanctions_procurement",
+        "state_news"
+      ],
+      "section_counts": {
+        "federal_register": 5,
+        "local_news": 1,
+        "political_figures": 1,
+        "sanctions_procurement": 4,
+        "state_news": 3
+      },
+      "evidence_records": {
+        "political_figures": [
+          "secretary-of-transportation-sean-duffy"
+        ],
+        "sanctions_procurement": [
+          "usaspending-b38895acda246a08",
+          "usaspending-5a1b724105f0e9fc",
+          "usaspending-8069c281763c273d"
+        ],
+        "federal_register": [
+          "2026-14890",
+          "2026-14889",
+          "2026-14886"
+        ],
+        "state_news": [
+          "4b14129edd555736343b7cdd4cee563cb66174f6",
+          "50e9c56740f3ac8ade93f8d357338a5f2b6caf45",
+          "e7f02375d55dc7c0c9916b69f23bd901de9a1e3c"
+        ],
+        "local_news": [
+          "18d0e9cd4b1317210db06b3f4ce88da5c8e5d178"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-california",
+      "canonical_name": "California",
+      "entity_type": "place",
+      "n_sections": 5,
+      "total_mentions": 10,
+      "confidence": "high",
+      "sections": [
+        "federal_register",
+        "paper_bets",
+        "sanctions_procurement",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "federal_register": 1,
+        "paper_bets": 3,
+        "sanctions_procurement": 2,
+        "state_news": 1,
+        "weather": 3
+      },
+      "evidence_records": {
+        "paper_bets": [
+          "kalshi:KXMARSVRAIL-50",
+          "kalshi:KXEARTHQUAKECALIFORNIA-35",
+          "predictit:8166"
+        ],
+        "sanctions_procurement": [
+          "usaspending-874dabee24416e57",
+          "usaspending-df6c56b81b4297f8"
+        ],
+        "federal_register": [
+          "2026-14918"
+        ],
+        "state_news": [
+          "c68c7acae5276f3406d087eeabc6a2728fc245dc"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.040fd83fc05d38662131bfd74aace32b9eb9ad69.003.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-virginia",
+      "canonical_name": "Virginia",
+      "entity_type": "place",
+      "n_sections": 5,
+      "total_mentions": 9,
+      "confidence": "high",
+      "sections": [
+        "paper_bets",
+        "political_figures",
+        "state_news",
+        "ukrainian_internal",
+        "weather"
+      ],
+      "section_counts": {
+        "paper_bets": 1,
+        "political_figures": 1,
+        "state_news": 3,
+        "ukrainian_internal": 1,
+        "weather": 3
+      },
+      "evidence_records": {
+        "political_figures": [
+          "representative-foxx-virginia-nc-5th"
+        ],
+        "paper_bets": [
+          "predictit:8174"
+        ],
+        "state_news": [
+          "310a485f1fa73d167632a646b8236ee676ec65e8",
+          "8a91ad2174a842c9297afdaedfe7ed6bcb32ab54",
+          "9ba027fdb759136f4b890620b8543082d128113b"
+        ],
+        "ukrainian_internal": [
+          "a0c0462e1d79a08a8730090040cd6b031880e91f"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.b001e093abbbed5aa8aa2b15208d4d4caa0f209b.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.fd4289fec803ee6c5568ec375b3501dd2538eb1b.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.125f256d5ab45ab27d8ad1fe2a35bdb095416afd.001.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-west-virginia-green",
+      "canonical_name": "Green",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 7,
+      "confidence": "medium",
+      "sections": [
+        "chinese_internal",
+        "foreign_news",
+        "political_figures",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "chinese_internal": 1,
+        "foreign_news": 1,
+        "political_figures": 1,
+        "state_news": 1,
+        "weather": 3
+      },
+      "evidence_records": {
+        "political_figures": [
+          "representative-green-al-tx-9th"
+        ],
+        "foreign_news": [
+          "362646463d96c168f4da5b3dd2c84c38643de2f7"
+        ],
+        "state_news": [
+          "a070cdc2d53e575506b3b081c25cf68c04817720"
+        ],
+        "chinese_internal": [
+          "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-wisconsin-green",
+      "canonical_name": "Green",
+      "entity_type": "person",
+      "n_sections": 5,
+      "total_mentions": 7,
+      "confidence": "medium",
+      "sections": [
+        "chinese_internal",
+        "foreign_news",
+        "political_figures",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "chinese_internal": 1,
+        "foreign_news": 1,
+        "political_figures": 1,
+        "state_news": 1,
+        "weather": 3
+      },
+      "evidence_records": {
+        "political_figures": [
+          "representative-green-al-tx-9th"
+        ],
+        "foreign_news": [
+          "362646463d96c168f4da5b3dd2c84c38643de2f7"
+        ],
+        "state_news": [
+          "a070cdc2d53e575506b3b081c25cf68c04817720"
+        ],
+        "chinese_internal": [
+          "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-israel",
+      "canonical_name": "Israel",
+      "entity_type": "place",
+      "n_sections": 4,
+      "total_mentions": 58,
+      "confidence": "medium",
+      "sections": [
+        "forecasts",
+        "foreign_news",
+        "gdelt_gkg",
+        "paper_bets"
+      ],
+      "section_counts": {
+        "forecasts": 2,
+        "foreign_news": 11,
+        "gdelt_gkg": 44,
+        "paper_bets": 1
+      },
+      "evidence_records": {
+        "paper_bets": [
+          "kalshi:KXNEXTISRAELPM-45JAN01"
+        ],
+        "foreign_news": [
+          "foreign-news-error-israel-the-times-of-israel",
+          "ce8360070bb49eb1337afaab445aca53e8dd483d",
+          "fe69b3e21e2d7809745446850d4600ad2fa5a465"
+        ],
+        "forecasts": [
+          "israel-x-iran-ceasefire-continues-through-july-22-20260716224448966",
+          "israel-x-iran-ceasefire-continues-through-july-25-20260716224448967-454"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T091500Z-ad024b74",
+          "gkg-20260723T091500Z-84b9eff2",
+          "gkg-20260723T091500Z-c057ffef"
         ]
       }
     },
@@ -4472,44 +5074,6 @@
         ],
         "weather": [
           "afd-LSX-af5fb9322cbc"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:country-israel",
-      "canonical_name": "Israel",
-      "entity_type": "place",
-      "n_sections": 4,
-      "total_mentions": 17,
-      "confidence": "medium",
-      "sections": [
-        "forecasts",
-        "foreign_news",
-        "gdelt_gkg",
-        "paper_bets"
-      ],
-      "section_counts": {
-        "forecasts": 2,
-        "foreign_news": 12,
-        "gdelt_gkg": 2,
-        "paper_bets": 1
-      },
-      "evidence_records": {
-        "paper_bets": [
-          "kalshi:KXNEXTISRAELPM-45JAN01"
-        ],
-        "foreign_news": [
-          "foreign-news-error-israel-the-times-of-israel",
-          "ce8360070bb49eb1337afaab445aca53e8dd483d",
-          "fe69b3e21e2d7809745446850d4600ad2fa5a465"
-        ],
-        "forecasts": [
-          "israel-x-iran-ceasefire-continues-through-july-22-20260716224448966",
-          "israel-x-iran-ceasefire-continues-through-july-25-20260716224448967-454"
-        ],
-        "gdelt_gkg": [
-          "gkg-20260723T084500Z-ef7f5bf2",
-          "gkg-20260723T084500Z-e1c96f76"
         ]
       }
     },
@@ -4591,6 +5155,44 @@
       }
     },
     {
+      "entity_id": "person:legislator-south-carolina-long",
+      "canonical_name": "Long",
+      "entity_type": "person",
+      "n_sections": 4,
+      "total_mentions": 14,
+      "confidence": "low",
+      "sections": [
+        "chinese_internal",
+        "foreign_news",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "chinese_internal": 1,
+        "foreign_news": 6,
+        "state_news": 1,
+        "weather": 6
+      },
+      "evidence_records": {
+        "foreign_news": [
+          "bad6b8cacb7bbe5d9d28c5fc6245a9d598f5685c",
+          "74803caae2196008b3fc024a3343ad4dd8e4974a",
+          "c43702c679eb64d80abe479bde9d46db6a55ecff"
+        ],
+        "weather": [
+          "afd-LSX-a633a90357b9",
+          "afd-MFL-6fec0d2c81c6",
+          "afd-FWD-590b0244acf3"
+        ],
+        "state_news": [
+          "8f05cdbbf54ad43e6d6581b7a35ce00fa8b3a127"
+        ],
+        "chinese_internal": [
+          "3d3da90b341af25f37c579233e318c6fd69ecd54"
+        ]
+      }
+    },
+    {
       "entity_id": "place:state-arizona",
       "canonical_name": "Arizona",
       "entity_type": "place",
@@ -4631,41 +5233,119 @@
       }
     },
     {
-      "entity_id": "person:legislator-california-rubio",
-      "canonical_name": "Rubio",
+      "entity_id": "person:legislator-south-carolina-white",
+      "canonical_name": "White",
       "entity_type": "person",
       "n_sections": 4,
       "total_mentions": 12,
       "confidence": "medium",
       "sections": [
         "foreign_news",
-        "paper_bets",
+        "local_news",
         "political_figures",
-        "ukrainian_internal"
+        "tech_news"
       ],
       "section_counts": {
-        "foreign_news": 6,
-        "paper_bets": 3,
-        "political_figures": 1,
-        "ukrainian_internal": 2
+        "foreign_news": 4,
+        "local_news": 2,
+        "political_figures": 5,
+        "tech_news": 1
       },
       "evidence_records": {
         "political_figures": [
-          "secretary-of-state-marco-rubio"
-        ],
-        "paper_bets": [
-          "predictit:8152",
-          "predictit:8171",
-          "polymarket:561975"
+          "white-house-chief-of-staff-susie-wiles",
+          "deputy-white-house-chief-of-staff-todo",
+          "white-house-press-secretary-todo"
         ],
         "foreign_news": [
-          "d5cdd6b097e24752c85db54818dd687b720b9776",
-          "0830754216056cd42ca24c50259f12f89007dc25",
-          "225935f36af06644539815e0df23f2547528a093"
+          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+          "f40c51420a9f63769901b37bc5f20363c4a91a46",
+          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
         ],
-        "ukrainian_internal": [
-          "397545392baa81f67d57323b0e1f92360ebe95ce",
-          "c4e8e734aae33676327f9cc07f64a1a881c9f6c1"
+        "local_news": [
+          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+        ],
+        "tech_news": [
+          "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-tennessee-white",
+      "canonical_name": "White",
+      "entity_type": "person",
+      "n_sections": 4,
+      "total_mentions": 12,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "local_news",
+        "political_figures",
+        "tech_news"
+      ],
+      "section_counts": {
+        "foreign_news": 4,
+        "local_news": 2,
+        "political_figures": 5,
+        "tech_news": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "white-house-chief-of-staff-susie-wiles",
+          "deputy-white-house-chief-of-staff-todo",
+          "white-house-press-secretary-todo"
+        ],
+        "foreign_news": [
+          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+          "f40c51420a9f63769901b37bc5f20363c4a91a46",
+          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+        ],
+        "local_news": [
+          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+        ],
+        "tech_news": [
+          "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-west-virginia-white",
+      "canonical_name": "White",
+      "entity_type": "person",
+      "n_sections": 4,
+      "total_mentions": 12,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "local_news",
+        "political_figures",
+        "tech_news"
+      ],
+      "section_counts": {
+        "foreign_news": 4,
+        "local_news": 2,
+        "political_figures": 5,
+        "tech_news": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "white-house-chief-of-staff-susie-wiles",
+          "deputy-white-house-chief-of-staff-todo",
+          "white-house-press-secretary-todo"
+        ],
+        "foreign_news": [
+          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
+          "f40c51420a9f63769901b37bc5f20363c4a91a46",
+          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
+        ],
+        "local_news": [
+          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
+          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+        ],
+        "tech_news": [
+          "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804"
         ]
       }
     },
@@ -4844,8 +5524,8 @@
         ],
         "foreign_news": [
           "5bcb7ba5a2b3f376ab7ba445566c38a898b5eb85",
-          "f41c03361c122d3d139b422d2776bff0115c195d",
-          "83f5a1b8bd6e952a04876f474de1240c7e348a70"
+          "83f5a1b8bd6e952a04876f474de1240c7e348a70",
+          "f41c03361c122d3d139b422d2776bff0115c195d"
         ],
         "state_news": [
           "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
@@ -4881,14 +5561,87 @@
         ],
         "foreign_news": [
           "5bcb7ba5a2b3f376ab7ba445566c38a898b5eb85",
-          "f41c03361c122d3d139b422d2776bff0115c195d",
-          "83f5a1b8bd6e952a04876f474de1240c7e348a70"
+          "83f5a1b8bd6e952a04876f474de1240c7e348a70",
+          "f41c03361c122d3d139b422d2776bff0115c195d"
         ],
         "state_news": [
           "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
         ],
         "weather": [
           "alert-urn:oid:2.49.0.1.840.0.59f1eca87b6bbbf7dd6bfc4b3ab436a244012d92.002.1"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-oregon",
+      "canonical_name": "Oregon",
+      "entity_type": "place",
+      "n_sections": 4,
+      "total_mentions": 8,
+      "confidence": "medium",
+      "sections": [
+        "federal_register",
+        "state_news",
+        "ukrainian_internal",
+        "weather"
+      ],
+      "section_counts": {
+        "federal_register": 1,
+        "state_news": 1,
+        "ukrainian_internal": 1,
+        "weather": 5
+      },
+      "evidence_records": {
+        "federal_register": [
+          "2026-14927"
+        ],
+        "state_news": [
+          "532b9073e92cbaa83016e6bceb8a48795b5a2857"
+        ],
+        "ukrainian_internal": [
+          "a0c0462e1d79a08a8730090040cd6b031880e91f"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.002.1",
+          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.002.2",
+          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:state-colorado",
+      "canonical_name": "Colorado",
+      "entity_type": "place",
+      "n_sections": 4,
+      "total_mentions": 7,
+      "confidence": "high",
+      "sections": [
+        "gdelt_gkg",
+        "paper_bets",
+        "state_news",
+        "weather"
+      ],
+      "section_counts": {
+        "gdelt_gkg": 1,
+        "paper_bets": 1,
+        "state_news": 3,
+        "weather": 2
+      },
+      "evidence_records": {
+        "state_news": [
+          "state-news-error-colorado-co-governor",
+          "8f05cdbbf54ad43e6d6581b7a35ce00fa8b3a127",
+          "85ab739ccd4c1188d7e689c51105d1da8a6a3093"
+        ],
+        "paper_bets": [
+          "predictit:8191"
+        ],
+        "weather": [
+          "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
+          "alert-urn:oid:2.49.0.1.840.0.e97837fde771bee9eb7841b7cfb80fbd1bf64b16.001.1"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T051500Z-96d70428"
         ]
       }
     },
@@ -4929,38 +5682,39 @@
       }
     },
     {
-      "entity_id": "place:state-oregon",
-      "canonical_name": "Oregon",
+      "entity_id": "place:state-alaska",
+      "canonical_name": "Alaska",
       "entity_type": "place",
       "n_sections": 4,
       "total_mentions": 7,
       "confidence": "medium",
       "sections": [
-        "federal_register",
+        "paper_bets",
         "state_news",
-        "ukrainian_internal",
+        "usgs_quakes",
         "weather"
       ],
       "section_counts": {
-        "federal_register": 1,
+        "paper_bets": 1,
         "state_news": 1,
-        "ukrainian_internal": 1,
-        "weather": 4
+        "usgs_quakes": 2,
+        "weather": 3
       },
       "evidence_records": {
-        "federal_register": [
-          "2026-14927"
+        "paper_bets": [
+          "predictit:8245"
         ],
         "state_news": [
-          "532b9073e92cbaa83016e6bceb8a48795b5a2857"
-        ],
-        "ukrainian_internal": [
-          "a0c0462e1d79a08a8730090040cd6b031880e91f"
+          "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
         ],
         "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2",
-          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.002.2",
-          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.003.1"
+          "alert-urn:oid:2.49.0.1.840.0.b7560a788a19ea53da6e8f87ad2f133fbb7878c0.002.1",
+          "earthquake-aka2026olrlxi",
+          "earthquake-us7000t2mc"
+        ],
+        "usgs_quakes": [
+          "aka2026olrlxi",
+          "us7000t2mc"
         ]
       }
     },
@@ -4997,78 +5751,6 @@
         "weather": [
           "alert-urn:oid:2.49.0.1.840.0.177a302904c9aa98f8d9e2531def6409ad8877f4.001.1",
           "alert-urn:oid:2.49.0.1.840.0.c2d0f1130fb34d7b64433bf547325afca6ede6d3.001.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-west-virginia-green",
-      "canonical_name": "Green",
-      "entity_type": "person",
-      "n_sections": 4,
-      "total_mentions": 6,
-      "confidence": "medium",
-      "sections": [
-        "chinese_internal",
-        "foreign_news",
-        "political_figures",
-        "weather"
-      ],
-      "section_counts": {
-        "chinese_internal": 1,
-        "foreign_news": 1,
-        "political_figures": 1,
-        "weather": 3
-      },
-      "evidence_records": {
-        "political_figures": [
-          "representative-green-al-tx-9th"
-        ],
-        "foreign_news": [
-          "362646463d96c168f4da5b3dd2c84c38643de2f7"
-        ],
-        "chinese_internal": [
-          "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
-          "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-wisconsin-green",
-      "canonical_name": "Green",
-      "entity_type": "person",
-      "n_sections": 4,
-      "total_mentions": 6,
-      "confidence": "medium",
-      "sections": [
-        "chinese_internal",
-        "foreign_news",
-        "political_figures",
-        "weather"
-      ],
-      "section_counts": {
-        "chinese_internal": 1,
-        "foreign_news": 1,
-        "political_figures": 1,
-        "weather": 3
-      },
-      "evidence_records": {
-        "political_figures": [
-          "representative-green-al-tx-9th"
-        ],
-        "foreign_news": [
-          "362646463d96c168f4da5b3dd2c84c38643de2f7"
-        ],
-        "chinese_internal": [
-          "f0805e261e5fdb382aee9e9d3de3f5ce2548dddc"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.002.1",
-          "alert-urn:oid:2.49.0.1.840.0.b386eed9c98e0be4cbd32a58d200dd35a635d0e3.001.1",
-          "alert-urn:oid:2.49.0.1.840.0.a86c9c11333e8ebe4bb63ba262fb5efbd12c6cf3.002.1"
         ]
       }
     },
@@ -5213,11 +5895,76 @@
       }
     },
     {
+      "entity_id": "place:state-kansas",
+      "canonical_name": "Kansas",
+      "entity_type": "place",
+      "n_sections": 4,
+      "total_mentions": 4,
+      "confidence": "medium",
+      "sections": [
+        "gdelt_gkg",
+        "paper_bets",
+        "political_figures",
+        "state_news"
+      ],
+      "section_counts": {
+        "gdelt_gkg": 1,
+        "paper_bets": 1,
+        "political_figures": 1,
+        "state_news": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "reserve-bank-president-kansas-city-todo"
+        ],
+        "paper_bets": [
+          "predictit:8214"
+        ],
+        "state_news": [
+          "02c7686feeee092a5fa6c5b70317c6734617e9ba"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T071500Z-5fd5b016"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-united-kingdom",
+      "canonical_name": "United Kingdom",
+      "entity_type": "place",
+      "n_sections": 3,
+      "total_mentions": 37,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "paper_bets",
+        "vip_flights"
+      ],
+      "section_counts": {
+        "foreign_news": 35,
+        "paper_bets": 1,
+        "vip_flights": 1
+      },
+      "evidence_records": {
+        "paper_bets": [
+          "polymarket:2832140"
+        ],
+        "foreign_news": [
+          "30ac61ddca3a69d61a54f360facf5b98c36c7187",
+          "3dfa6e10db55e8e0e88d2a6af807d3632a33add3",
+          "233afbc20d95904245a9c1d43bc944ece33e1f0f"
+        ],
+        "vip_flights": [
+          "43c700:RRR2107"
+        ]
+      }
+    },
+    {
       "entity_id": "place:country-france",
       "canonical_name": "France",
       "entity_type": "place",
       "n_sections": 3,
-      "total_mentions": 37,
+      "total_mentions": 35,
       "confidence": "medium",
       "sections": [
         "billionaires",
@@ -5227,7 +5974,7 @@
       "section_counts": {
         "billionaires": 4,
         "foreign_news": 29,
-        "vip_flights": 4
+        "vip_flights": 2
       },
       "evidence_records": {
         "billionaires": [
@@ -5236,14 +5983,13 @@
           "mover:bernard-arnault"
         ],
         "vip_flights": [
-          "39ca85:SAMU28",
           "39c994:SAMU691",
-          "39ca87:SAMU37"
+          "39ac18:SAMU26"
         ],
         "foreign_news": [
           "a0aeddf00e9cef59e082e8c4696584659c954087",
           "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
-          "eeee44c6ed0d303c2205610800ce6e550085088e"
+          "ca8ebda3fdaaa4ba33c706684378af7f32ded365"
         ]
       }
     },
@@ -5252,7 +5998,7 @@
       "canonical_name": "Kyiv",
       "entity_type": "place",
       "n_sections": 3,
-      "total_mentions": 31,
+      "total_mentions": 32,
       "confidence": "low",
       "sections": [
         "foreign_news",
@@ -5261,7 +6007,7 @@
       ],
       "section_counts": {
         "foreign_news": 2,
-        "ukraine_theater": 11,
+        "ukraine_theater": 12,
         "ukrainian_internal": 18
       },
       "evidence_records": {
@@ -5275,9 +6021,9 @@
           "175572b7f16d7e25376231fd3df112fb6350c85f"
         ],
         "ukraine_theater": [
+          "official-ua-9e0cb11e39e4a3fc",
           "official-ua-346b768dc1453d49",
-          "official-ua-9a5ee25959d61a3e",
-          "official-ua-dbcb3591a6024849"
+          "official-ua-9a5ee25959d61a3e"
         ]
       }
     },
@@ -5347,137 +6093,100 @@
       }
     },
     {
-      "entity_id": "person:legislator-south-carolina-long",
-      "canonical_name": "Long",
+      "entity_id": "place:country-philippines",
+      "canonical_name": "Philippines",
+      "entity_type": "place",
+      "n_sections": 3,
+      "total_mentions": 26,
+      "confidence": "medium",
+      "sections": [
+        "foreign_news",
+        "gdelt_gkg",
+        "ukraine_theater"
+      ],
+      "section_counts": {
+        "foreign_news": 21,
+        "gdelt_gkg": 4,
+        "ukraine_theater": 1
+      },
+      "evidence_records": {
+        "foreign_news": [
+          "b9ad3aa0555f290e342a85139ee05833b721e28a",
+          "f1af42ab1c4d47782e017e93b44d3f55557d54f9",
+          "9119cba75e6b305b427be2e364fab9ee8c861a80"
+        ],
+        "ukraine_theater": [
+          "liveuamap-e9491d6d57499570"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T071500Z-276b3569",
+          "gkg-20260723T060000Z-ef67aef5",
+          "gkg-20260723T053000Z-c8136953"
+        ]
+      }
+    },
+    {
+      "entity_id": "place:country-italy",
+      "canonical_name": "Italy",
+      "entity_type": "place",
+      "n_sections": 3,
+      "total_mentions": 21,
+      "confidence": "medium",
+      "sections": [
+        "billionaires",
+        "foreign_news",
+        "gdelt_gkg"
+      ],
+      "section_counts": {
+        "billionaires": 1,
+        "foreign_news": 18,
+        "gdelt_gkg": 2
+      },
+      "evidence_records": {
+        "billionaires": [
+          "rank:giancarlo-devasini"
+        ],
+        "foreign_news": [
+          "c05199aedb19a9b43944faef52a4c0a50bdcddbb",
+          "85bcc3b365fed9902fed423940ab3198c990be31",
+          "3af347c0e54af0dfd3ac93932d3f6c92d7fa1ccd"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T084500Z-2d893702",
+          "gkg-20260723T083000Z-8398daf2"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-minnesota-scott",
+      "canonical_name": "Scott",
       "entity_type": "person",
       "n_sections": 3,
-      "total_mentions": 13,
-      "confidence": "low",
+      "total_mentions": 15,
+      "confidence": "medium",
       "sections": [
-        "chinese_internal",
-        "foreign_news",
+        "political_figures",
+        "state_news",
         "weather"
       ],
       "section_counts": {
-        "chinese_internal": 1,
-        "foreign_news": 6,
-        "weather": 6
+        "political_figures": 11,
+        "state_news": 3,
+        "weather": 1
       },
       "evidence_records": {
-        "foreign_news": [
-          "bad6b8cacb7bbe5d9d28c5fc6245a9d598f5685c",
-          "74803caae2196008b3fc024a3343ad4dd8e4974a",
-          "c43702c679eb64d80abe479bde9d46db6a55ecff"
+        "political_figures": [
+          "senator-scott-rick-fl",
+          "senator-scott-tim-sc",
+          "representative-peters-scott-ca-50th"
+        ],
+        "state_news": [
+          "310a485f1fa73d167632a646b8236ee676ec65e8",
+          "50e9c56740f3ac8ade93f8d357338a5f2b6caf45",
+          "8a91ad2174a842c9297afdaedfe7ed6bcb32ab54"
         ],
         "weather": [
-          "afd-LSX-a633a90357b9",
-          "afd-MFL-6fec0d2c81c6",
-          "afd-FWD-590b0244acf3"
-        ],
-        "chinese_internal": [
-          "3d3da90b341af25f37c579233e318c6fd69ecd54"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-south-carolina-white",
-      "canonical_name": "White",
-      "entity_type": "person",
-      "n_sections": 3,
-      "total_mentions": 11,
-      "confidence": "medium",
-      "sections": [
-        "foreign_news",
-        "local_news",
-        "political_figures"
-      ],
-      "section_counts": {
-        "foreign_news": 4,
-        "local_news": 2,
-        "political_figures": 5
-      },
-      "evidence_records": {
-        "political_figures": [
-          "white-house-chief-of-staff-susie-wiles",
-          "deputy-white-house-chief-of-staff-todo",
-          "white-house-press-secretary-todo"
-        ],
-        "foreign_news": [
-          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-          "f40c51420a9f63769901b37bc5f20363c4a91a46",
-          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
-        ],
-        "local_news": [
-          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-tennessee-white",
-      "canonical_name": "White",
-      "entity_type": "person",
-      "n_sections": 3,
-      "total_mentions": 11,
-      "confidence": "medium",
-      "sections": [
-        "foreign_news",
-        "local_news",
-        "political_figures"
-      ],
-      "section_counts": {
-        "foreign_news": 4,
-        "local_news": 2,
-        "political_figures": 5
-      },
-      "evidence_records": {
-        "political_figures": [
-          "white-house-chief-of-staff-susie-wiles",
-          "deputy-white-house-chief-of-staff-todo",
-          "white-house-press-secretary-todo"
-        ],
-        "foreign_news": [
-          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-          "f40c51420a9f63769901b37bc5f20363c4a91a46",
-          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
-        ],
-        "local_news": [
-          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-west-virginia-white",
-      "canonical_name": "White",
-      "entity_type": "person",
-      "n_sections": 3,
-      "total_mentions": 11,
-      "confidence": "medium",
-      "sections": [
-        "foreign_news",
-        "local_news",
-        "political_figures"
-      ],
-      "section_counts": {
-        "foreign_news": 4,
-        "local_news": 2,
-        "political_figures": 5
-      },
-      "evidence_records": {
-        "political_figures": [
-          "white-house-chief-of-staff-susie-wiles",
-          "deputy-white-house-chief-of-staff-todo",
-          "white-house-press-secretary-todo"
-        ],
-        "foreign_news": [
-          "cbc1aaa28b086e8689ca2607bf4d7bf68600dd1a",
-          "f40c51420a9f63769901b37bc5f20363c4a91a46",
-          "5c7bc5fd6d41d9eac0781a9c4fae56207916ff24"
-        ],
-        "local_news": [
-          "b569a9296e9895c1f39fa6b8eacfe2f352978854",
-          "35e9fc74524a9d084e9360f2cc0ad555699aa31e"
+          "alert-urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.001.1"
         ]
       }
     },
@@ -6035,8 +6744,8 @@
       "evidence_records": {
         "foreign_news": [
           "e5b5cab20d31bd83241eb365571d9e3b33a7ecf4",
-          "e31c9af03358e8e90d214fefb94a1f13530c3d1a",
-          "e76b04902580cd8b81e33ec25fcf969158eb47c0"
+          "ff7d412a84922843704eaf100ac3fb400300124d",
+          "e31c9af03358e8e90d214fefb94a1f13530c3d1a"
         ],
         "weather": [
           "afd-LSX-a633a90357b9"
@@ -6074,37 +6783,6 @@
         "weather": [
           "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
           "alert-urn:oid:2.49.0.1.840.0.f0b2f16ce370ec0e8df73eed95fe403cf4c60e20.001.1",
-          "alert-urn:oid:2.49.0.1.840.0.e97837fde771bee9eb7841b7cfb80fbd1bf64b16.001.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:state-colorado",
-      "canonical_name": "Colorado",
-      "entity_type": "place",
-      "n_sections": 3,
-      "total_mentions": 5,
-      "confidence": "medium",
-      "sections": [
-        "paper_bets",
-        "state_news",
-        "weather"
-      ],
-      "section_counts": {
-        "paper_bets": 1,
-        "state_news": 2,
-        "weather": 2
-      },
-      "evidence_records": {
-        "state_news": [
-          "state-news-error-colorado-co-governor",
-          "85ab739ccd4c1188d7e689c51105d1da8a6a3093"
-        ],
-        "paper_bets": [
-          "predictit:8191"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.e6ae4005aa9f0eb8de1d4427964e3bf021d6d01a.001.1",
           "alert-urn:oid:2.49.0.1.840.0.e97837fde771bee9eb7841b7cfb80fbd1bf64b16.001.1"
         ]
       }
@@ -6168,37 +6846,6 @@
         ],
         "sanctions_procurement": [
           "usaspending-9593c6a1b6fa1f7d"
-        ]
-      }
-    },
-    {
-      "entity_id": "person:legislator-south-carolina-burns",
-      "canonical_name": "Burns",
-      "entity_type": "person",
-      "n_sections": 3,
-      "total_mentions": 5,
-      "confidence": "medium",
-      "sections": [
-        "foreign_news",
-        "gdelt_gkg",
-        "weather"
-      ],
-      "section_counts": {
-        "foreign_news": 1,
-        "gdelt_gkg": 2,
-        "weather": 2
-      },
-      "evidence_records": {
-        "foreign_news": [
-          "1879a31fc1b30cbfc460c8248811211d7f34ca64"
-        ],
-        "weather": [
-          "alert-urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.006.1",
-          "alert-urn:oid:2.49.0.1.840.0.260f4ba54be88d9cab8e0652b089c733672782e8.001.2"
-        ],
-        "gdelt_gkg": [
-          "gkg-20260723T021500Z-d8a4ed05",
-          "gkg-20260723T014500Z-7ec03259"
         ]
       }
     },
@@ -6473,6 +7120,66 @@
       }
     },
     {
+      "entity_id": "person:legislator-alaska-vance",
+      "canonical_name": "Vance",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 4,
+      "confidence": "medium",
+      "sections": [
+        "gdelt_gkg",
+        "paper_bets",
+        "political_figures"
+      ],
+      "section_counts": {
+        "gdelt_gkg": 1,
+        "paper_bets": 2,
+        "political_figures": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "vice-president-jd-vance"
+        ],
+        "paper_bets": [
+          "predictit:8152",
+          "predictit:8171"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T064500Z-10b34396"
+        ]
+      }
+    },
+    {
+      "entity_id": "person:legislator-west-virginia-vance",
+      "canonical_name": "Vance",
+      "entity_type": "person",
+      "n_sections": 3,
+      "total_mentions": 4,
+      "confidence": "medium",
+      "sections": [
+        "gdelt_gkg",
+        "paper_bets",
+        "political_figures"
+      ],
+      "section_counts": {
+        "gdelt_gkg": 1,
+        "paper_bets": 2,
+        "political_figures": 1
+      },
+      "evidence_records": {
+        "political_figures": [
+          "vice-president-jd-vance"
+        ],
+        "paper_bets": [
+          "predictit:8152",
+          "predictit:8171"
+        ],
+        "gdelt_gkg": [
+          "gkg-20260723T064500Z-10b34396"
+        ]
+      }
+    },
+    {
       "entity_id": "place:state-missouri",
       "canonical_name": "Missouri",
       "entity_type": "place",
@@ -6674,64 +7381,6 @@
         ],
         "weather": [
           "alert-urn:oid:2.49.0.1.840.0.b2dadffd17b91fffe779e89150d59bd900feb36c.002.1"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:state-kansas",
-      "canonical_name": "Kansas",
-      "entity_type": "place",
-      "n_sections": 3,
-      "total_mentions": 3,
-      "confidence": "medium",
-      "sections": [
-        "paper_bets",
-        "political_figures",
-        "state_news"
-      ],
-      "section_counts": {
-        "paper_bets": 1,
-        "political_figures": 1,
-        "state_news": 1
-      },
-      "evidence_records": {
-        "political_figures": [
-          "reserve-bank-president-kansas-city-todo"
-        ],
-        "paper_bets": [
-          "predictit:8214"
-        ],
-        "state_news": [
-          "02c7686feeee092a5fa6c5b70317c6734617e9ba"
-        ]
-      }
-    },
-    {
-      "entity_id": "place:state-alaska",
-      "canonical_name": "Alaska",
-      "entity_type": "place",
-      "n_sections": 3,
-      "total_mentions": 3,
-      "confidence": "medium",
-      "sections": [
-        "paper_bets",
-        "state_news",
-        "usgs_quakes"
-      ],
-      "section_counts": {
-        "paper_bets": 1,
-        "state_news": 1,
-        "usgs_quakes": 1
-      },
-      "evidence_records": {
-        "paper_bets": [
-          "predictit:8245"
-        ],
-        "state_news": [
-          "2d1ef5f235dcdd7a1f75570a6a67170c135d5287"
-        ],
-        "usgs_quakes": [
-          "us7000t2mc"
         ]
       }
     },

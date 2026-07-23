@@ -3,14 +3,54 @@ section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-23
 record_count: 150
-new_today: 141
+new_today: 142
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-141 new of 150 total items today.
+142 new of 150 total items today.
 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 23 at 2:36AM PDT until July 27 at 9:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6c87bc700f02b61c03899bc9b08bcd98593670ca.001.1) — *2026-07-23*
+  > * WHAT...Dangerously hot conditions with high temperatures between
+108 to 112 degrees.
+
+* WHERE...Indian Wells Valley and Mojave Desert.
+
+* WHEN...From 8 AM this morning to 9 PM PDT Monday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-54448) — *2026-07-23*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 23 at 2:31AM PDT until July 24 at 8:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.001.1) — *2026-07-23*
+  > The National Weather Service in Medford has issued a Fire Weather
+Watch, which is in effect from Friday afternoon through Friday
+evening.
+
+* IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...Mostly the Shasta and Scott valleys of Fire
+Weather Zones 2
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 23 at 2:31AM PDT until July 25 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68417e2bb52c4e46759feeadf029171f7dabbef0.002.1) — *2026-07-23*
+  > * IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...In northern California in Fire Weather Zones
+284 and 285, including the Klamath, Shasta and Modoc National
+Forests. In Oregon, nearly all areas east of the Cascades,
+including the Klamath Basin, Fre
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 23 at 1:31AM AKDT until July 24 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7560a788a19ea53da6e8f87ad2f133fbb7878c0.002.1) — *2026-07-23*
+  > Offshore waters forecast for the Gulf of Alaska West of 144W
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential f
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.004.1) — *2026-07-23*
+  > * LOCATIONS AFFECTED
+- Anahuac
+- Beach City
+- Mont Belview
+
+.TODAY...W wind 20 to 35 kt. Seas 8 to 12 ft
 - **NEW**  [[Severe] Flood Watch: Flood Watch issued July 23 at 3:22AM MDT until July 23 at 8:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b63d3f8718435d5fbf2d6a09b7740ba2b0d76e9.001.1) — *2026-07-23*
   > * WHAT...Flooding caused by excessive rainfall continues to be
 possible.
@@ -27,8 +67,6 @@ possible.
 central, southwest, and west central Wyoming, including the
 following areas, in central Wyoming, Casper Mountain, Green
 Mountains and Rattlesna
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-45508) — *2026-07-23*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 23 at 2:13AM PDT until July 23 at 3:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.caf0c597cf2adb047adcdb58e7f2fa136cd249f4.001.1) — *2026-07-23*
   > * WHAT...Northwest winds 20 to 25 kt with gusts up to 30 kt and
 combined seas 7 to 10 ft when conditions are worst.
@@ -129,6 +167,16 @@ NEW INFORMATION
 * CHANGES TO WATCHES AND WARNINGS:
 - The Tropical Storm Warning has been cancelled for Coastal
 Jefferson, Lower Lafou
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 23 at 1:45AM MST until July 26 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c100c1164d11115cad789e81b302a558b2d87e16.002.1) — *2026-07-23*
+  > * WHAT...Dangerously hot conditions expected below 4000 feet, with
+daytime temperatures around 105 degrees at Havasupai Gardens, and
+112 to 114 degrees at Phantom Ranch.
+
+* WHERE...Lower elevations of the Grand Canyon.
+
+* WHEN...From 10 AM Friday to 8 PM MST Sunday.
+
+* IMPACTS...
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 23 at 1:45AM MST until July 26 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c100c1164d11115cad789e81b302a558b2d87e16.001.1) — *2026-07-23*
   > * WHAT...Dangerously hot conditions, with daytime temperatures 105 to
 110 expected.
@@ -140,28 +188,6 @@ Sunday.
 
 * IMPACTS...Most individuals will be at risk for heat-related
 illnesses without effe
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 23 at 1:45AM MST until July 26 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c100c1164d11115cad789e81b302a558b2d87e16.002.1) — *2026-07-23*
-  > * WHAT...Dangerously hot conditions expected below 4000 feet, with
-daytime temperatures around 105 degrees at Havasupai Gardens, and
-112 to 114 degrees at Phantom Ranch.
-
-* WHERE...Lower elevations of the Grand Canyon.
-
-* WHEN...From 10 AM Friday to 8 PM MST Sunday.
-
-* IMPACTS...
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Johnson Bayou
-- Holly Beach
-- Hackberry
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 15-25 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENS
 - **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.004.1) — *2026-07-23*
   > * LOCATIONS AFFECTED
 - Abbeville
@@ -174,6 +200,18 @@ UNCERTAINTY IN TRACK, SIZE AND INTENS
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND 
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.002.1) — *2026-07-23*
+  > * LOCATIONS AFFECTED
+- Johnson Bayou
+- Holly Beach
+- Hackberry
+
+* WIND
+- LATEST LOCAL FORECAST: Below tropical storm force wind
+- Peak Wind Forecast: 15-25 mph with gusts to 30 mph
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENS
 - **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.005.1) — *2026-07-23*
   > * LOCATIONS AFFECTED
 - Avery Island
@@ -185,17 +223,6 @@ UNCERTAINTY IN TRACK, SIZE AND
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential for wind 39
 
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.006.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Burns Point
-- Cypremort Point
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-20 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Poten
 - **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.001.1) — *2026-07-23*
   > * LOCATIONS AFFECTED
 - Nederland
@@ -209,6 +236,17 @@ UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Poten
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRA
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.006.1) — *2026-07-23*
+  > * LOCATIONS AFFECTED
+- Burns Point
+- Cypremort Point
+
+* WIND
+- LATEST LOCAL FORECAST: Below tropical storm force wind
+- Peak Wind Forecast: 10-20 mph with gusts to 30 mph
+
+- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
+UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Poten
 - **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:44AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41dc355eb59cf60d3d820087c312aa3dd9f4294f.003.1) — *2026-07-23*
   > * LOCATIONS AFFECTED
 - Cameron
@@ -221,18 +259,6 @@ UNCERTAINTY IN TRA
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Po
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.001.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Galveston
-- Jamaica Beach
-- West End Galveston Island
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 20-30 mph with gusts to 40 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, S
 - **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.002.1) — *2026-07-23*
   > * LOCATIONS AFFECTED
 - Bolivar
@@ -246,41 +272,5 @@ UNCERTAINTY IN TRACK, S
 evening
 
 - THREAT TO LIFE AND PROPERTY
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.005.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Freeport
-- Lake Jackson
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 15-25 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Potential f
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.004.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Anahuac
-- Beach City
-- Mont Belview
-
-* WIND
-- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 30-40 mph with gusts to 40 mph
-- Window for Tropical Storm force winds: until early this
-evening
-
-- THREAT TO LIFE AND PROPERTY T
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued July 23 at 3:43AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3362d110d00d753463a2821a7f5b644081998fb0.003.1) — *2026-07-23*
-  > * LOCATIONS AFFECTED
-- Dickinson
-- Eastern League City
-- Texas City
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 15-25 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND I
 
 _(125 additional items in raw.jsonl)_
