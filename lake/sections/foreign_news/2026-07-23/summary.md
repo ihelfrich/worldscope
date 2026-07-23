@@ -2,14 +2,14 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-23
-record_count: 989
-new_today: 694
+record_count: 1021
+new_today: 756
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-694 new of 989 total items today.
+756 new of 1021 total items today.
 
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-23*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
@@ -17,49 +17,27 @@ state: fresh
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-23*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-23*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- **NEW**  [[Global] UK millionaires ask Andy Burnham to tax them more](https://www.bbc.co.uk/news/articles/cvgjp79m42go?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Former footballer Gary Lineker and producer Brian Eno write to the new PM telling him "we can afford it".
-- **NEW**  [[Global] Airport drop-off fees up by a third - here are the priciest](https://www.bbc.co.uk/news/articles/c2lqd72d4lqo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The cost of parking closest to the terminal has hit £10 at two of the UK's airports.
-- **NEW**  [[Global] Big bosses reveal the secret to getting hired](https://www.bbc.co.uk/news/videos/cvgxelx3y78o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Business leaders share their best career advice and the qualities they look for when recruiting new staff.
-- **NEW**  [[Global] Firm hacked by rogue OpenAI models says it is 'a wake-up call'](https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the "game has changed".
-- **NEW**  [[Global] Google burning through cash with spiralling AI costs](https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The company said earlier this year it expected to spend as much as $190bn on AI investments.
-- **NEW**  [[Global] Why the UK is dithering over what to do about e-scooters](https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > Why is it taking so long for the government to regulate them, and what are the consequences of delay?
-- [[Global] Some food prices have fallen – but inflation expected to rise from here](https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.
-- **NEW**  [[Global] China's Moonshot AI stole from Anthropic, Trump tech adviser says](https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The allegations come as Chinese AI companies are facing increased US government scrutiny.
-- **NEW**  [[Global] Former Lloyd's of London boss's relationship breached rules, firm says](https://www.bbc.co.uk/news/articles/cre48d34ewzo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The insurance market's chairman said the CEO's conduct "fell significantly below the standards expected of him".
-- **NEW**  [[Global] I travel four hours on a bus per day - the bus fare cap will save me £500 a year](https://www.bbc.co.uk/news/articles/clyv4y3xdvgo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The BBC speaks to people around the country about their view on the newly-announced bus fare cap.
-- [[Global] Will your job be replaced by AI? Here are the roles most affected](https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.
-- **NEW**  [[Global] Aston Martin secures £550m loan deal](https://www.bbc.co.uk/news/articles/cjejx083jkeo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The luxury car maker says the loans will be used to fund current and future product plans.
-- **NEW**  [[Global] OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack](https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.
-- [[Global] Most bus fares in England to be capped at £2 from January](https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The government says the policy will "help with the cost of living and give people the breathing space they need"
-- **NEW**  [[Global] The borough where families are slowly disappearing](https://www.bbc.co.uk/news/articles/cgjxqg08q82o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > Islington is a snapshot of a trend playing out across inner London, Britain and much of the world.
-- **NEW**  [[Global] Ex-Southern Water boss among four charged over alleged plan to manipulate water tests](https://www.bbc.co.uk/news/articles/c36d0njy7jjo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > Matthew Wright is accused alongside three others of trying to save the firm millions in penalties.
-- [[Global] What does an Andy Burnham-led government mean for your money?](https://www.bbc.co.uk/news/articles/cp9ezldrkkgo?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The new PM says he will look at how much people can earn before paying tax but there will be no change yet.
-- [[Global] 'I can't afford to turn the oven on': 7.4m households struggling to buy essentials](https://www.bbc.co.uk/news/articles/cglj9685nj0o?at_medium=RSS&at_campaign=rss) — *2026-07-21*
-  > As Andy Burnham promises “breathing space” for households, millions are unable to buy items such as clothing, heating and food.
-- **NEW**  [[Global] Tokyo urges men to wear shorts to work, but women say it's 'leg hair harassment'](https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss) — *2026-07-21*
-  > The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.
-- **NEW**  [[Global] Government to cut business rates for pubs, clubs and music venues](https://www.bbc.co.uk/news/articles/cq6dg816464o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Some hospitality firms will get a 20% discount from next April, saving an estimated £1,100.
-- **NEW**  [[Global] Charity 'heartbroken' as food ruined in break-in](https://www.bbc.co.uk/news/articles/cyvl4p781g4o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > FareShare North East says it lost 16 tonnes of food - the equivalent of 7,000 meals.
+- **NEW**  [[Global] Two Russian men jailed in Angola for terrorism and spying](https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying) — *2026-07-23*
+- [[Global] Health worker monitored for Ebola in London hospital after working in DRC](https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc) — *2026-07-21*
+- [[Global] Healthy diet too expensive for one in three people globally, UN report finds](https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds) — *2026-07-21*
+- [[Global] Canada cancels joint bridge-opening celebration with US amid trade tensions](https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled) — *2026-07-22*
+- **NEW**  [[Global] Nicaragua’s congress announces ‘work plan’ to suspend elections](https://www.theguardian.com/world/2026/jul/22/nicaragua-daniel-ortega-congress-work-plan-suspend-elections) — *2026-07-22*
+- **NEW**  [[Global] Sperm whales change ‘vowel’ sounds when boats are nearby, scientists discover](https://www.theguardian.com/environment/2026/jul/22/sperm-whales-dominica-clicks-vowels-language-changes-shipping-noise-project-ceti) — *2026-07-22*
+- [[Global] Trump announces new tariffs on generic drugs to take effect in 2028 – as it happened](https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates) — *2026-07-22*
+- **NEW**  [[Global] Trump defends 50% tariffs on Canada, saying ‘they need us to survive’](https://www.theguardian.com/us-news/2026/jul/21/trump-defends-tariff-canada) — *2026-07-21*
+- **NEW**  [[Global] Total solar eclipse books out hotels two years in advance in New Zealand city](https://www.theguardian.com/world/2026/jul/23/total-solar-eclipse-new-zealand-2028-dunedin) — *2026-07-23*
+- **NEW**  [[Global] British woman jailed in Hong Kong for blackmail after accusing banker of rape](https://www.theguardian.com/world/2026/jul/22/british-woman-jailed-hong-kong-false-allegations) — *2026-07-22*
+- [[Global] Australia to warn China it won’t be bullied by ‘provocative‘ actions as it builds military and nuclear arsenal](https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal) — *2026-07-22*
+- [[Global] Michelin-starred restaurant owner in South Korea faces jail over ant dessert](https://www.theguardian.com/world/2026/jul/22/restaurant-owner-south-korea-dried-ants-dessert) — *2026-07-22*
+- [[Global] Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat](https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather) — *2026-07-22*
+- **NEW**  [[Global] Personal and banking details among customer data stolen in Origin Energy hack](https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack) — *2026-07-23*
+- **NEW**  [[Global] Pauline Hanson says domestic violence prevents police from dealing with ‘real crime’ in unearthed interview](https://www.theguardian.com/australia-news/2026/jul/23/pauline-hanson-said-domestic-violence-prevented-police-from-dealing-with-real-in-2025-podcast-ntwnfb) — *2026-07-23*
+- **NEW**  [[Global] Former spy refused visa to give evidence at royal commission – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/23/australia-news-live-china-penny-wong-asean-labor-conference-anthony-albanese-one-nation-pauline-hanson-ntwnfb) — *2026-07-23*
+- **NEW**  [[Global] Husic says Labor ‘allergic to dissent’ as he breaks ranks on key government positions at party conference](https://www.theguardian.com/australia-news/2026/jul/23/ed-husic-dissent-labor-party-national-conference-anthony-albanese-ntwnfb) — *2026-07-23*
+- **NEW**  [[Global] Politician’s claim Earth’s magnetic poles could flip if NT doesn’t use more groundwater criticised by experts](https://www.theguardian.com/australia-news/2026/jul/23/australia-politician-claims-northern-territory-water-could-flip-earths-magnetic-poles) — *2026-07-23*
+- **NEW**  [[Global] New EU sanctions will ‘hit Putin where it hurts most’, says foreign policy chief Kallas – Europe live](https://www.theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates) — *2026-07-23*
+- **NEW**  [[Global] More than 20,000 evacuated after intense wildfire in France](https://www.theguardian.com/world/2026/jul/23/people-evacuated-intense-wildfire-saumos-france) — *2026-07-23*
+- **NEW**  [[Global] Oil prices near $100 a barrel after US attacks Iran and Houthis hit tankers in Red Sea – as it happened](https://www.theguardian.com/business/live/2026/jul/23/andy-burnham-business-rates-pubs-clubs-live-music-vape-shops-european-central-bank-ecb-interest-rates-latest-news-updates) — *2026-07-23*
+- **NEW**  [[Global] EU fines Google €890m for competition breaches over search and apps](https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps) — *2026-07-23*
 
-_(964 additional items in raw.jsonl)_
+_(996 additional items in raw.jsonl)_

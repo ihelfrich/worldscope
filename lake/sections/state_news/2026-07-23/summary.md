@@ -2,43 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-07-23
-record_count: 820
-new_today: 389
+record_count: 861
+new_today: 452
 state: fresh
 ---
 
 ## State-Level News
 
-389 new of 820 total items today.
+452 new of 861 total items today.
 
-- **NEW**  [[Alabama] Governor Ivey Signs Executive Order Establishing Commission on Screen-Based Instruction](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-signs-executive-order-establishing-commission-on-screen-based-instruction/) — *2026-07-22*
-  > MONTGOMERY – Governor Kay Ivey on Wednesday signed Executive Order No. 745 establishing the Governor’s Commission on Screen-Based Instruction to study the use, risks and benefits of screen-based instruction in Alabama’s K-12 classrooms and provide evidence-based recommendations o
-- **NEW**  [[Alabama] Executive Order 745](https://governor.alabama.gov/newsroom/2026/07/executive-order-745/) — *2026-07-22*
-  > Download
-- **NEW**  [[Alabama] Executive Order 744](https://governor.alabama.gov/newsroom/2026/07/executive-order-744/) — *2026-07-22*
-  > Download
-- [[Alabama] Probation and Parole Officers’ Week](https://governor.alabama.gov/newsroom/2026/07/probation-and-parole-officers-week-2/) — *2026-07-21*
-  > Download
-- **NEW**  [[California] Lo que revela la venta de dos centros de detención del ICE sobre la nueva estrategia migratoria de Trump.](https://calmatters.org/calmatters-en-espanol/2026/07/venta-de-centros-de-detencion-ice-california/) — *2026-07-22*
-  > <figure><img width="1024" height="671" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092225-CalCity-Detention-MV-CM-09.jpg?fit=1024%2C671&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A sign for the CoreCivic California Cit
-- **NEW**  [[California] Universidad Estatal de California otorga un puesto de $340,000 a expresidente que dimitió tras una demanda por discriminación](https://calmatters.org/calmatters-en-espanol/2026/07/cal-state-san-bernardino-presidente-demanda-2/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072126-Tomas-Morales-CM-02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Tomás Morales wears academic regalia and stand
-- **NEW**  [[California] Cal State gives $340K job to ex-president who stepped down after discrimination lawsuit](https://calmatters.org/education/2026/07/cal-state-san-bernardino-president-lawsuit-transition-job/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072126-Tomas-Morales-CM-02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Tomás Morales wears academic regalia and stand
-- **NEW**  [[California] Gavin Newsom’s balancing act on taxing the rich](https://calmatters.org/newsletter/gavin-newsom-wealth-tax-proposals/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020226-Newsom-Housing-MO-CM-35.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="California Gov. Gavin Newsom wears a blue 
-- [[California] Newsom’s populist act: Oppose state billionaire tax, embrace federal one](https://calmatters.org/politics/2026/07/newsom-balancing-act-wealth-tax-billionaires/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020226-Newsom-Housing-MO-CM-26.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Gov. Gavin Newsom wears a blue suit jacket
-- [[California] Californians have a right to know about 911 calls from ICE detention centers](https://calmatters.org/commentary/2026/07/inside-ice-detention-centers-california/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072026-Adelanto-CC-AP-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A low-angle photo of an inmate in an orange j
-- [[California] Four myths about insurance in California](https://calmatters.org/economy/2026/07/california-insurance-myths/) — *2026-07-22*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/01/010824_Eaton-Fire_JH_28.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A fireplace standing over the rubble and debris f
-- **NEW**  [[California] What the sale of 2 ICE detention centers reveals about Trump’s new immigration strategy](https://calmatters.org/justice/2026/07/ice-detention-center-sales-why/) — *2026-07-22*
-  > <figure><img width="1024" height="671" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092225-CalCity-Detention-MV-CM-09.jpg?fit=1024%2C671&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A sign for the CoreCivic California Cit
-- [[California] La Casa Blanca admite usar palabras clave para cancelar importantes subvenciones de investigación californianas](https://calmatters.org/calmatters-en-espanol/2026/07/subvenciones-investigacion-california/) — *2026-07-21*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/050625_CSU-San-Marcos_AH_CM_54.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A gloved laboratory worker adjusts a handh
-- [[California] Presidente de Cal State, en el centro de una demanda por discriminación de 12 millones de dólares, opta a un puesto de transición](https://calmatters.org/calmatters-en-espanol/2026/07/cal-state-san-bernardino-presidente-demanda/) — *2026-07-21*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/04/042224-Inland-Empire-JAH-10.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A wide view of two students walking by a buil
 - **NEW**  [[California] Acting Governor Rivas proclaims Disability Pride Month](https://www.gov.ca.gov/2026/07/22/acting-governor-rivas-proclaims-disability-pride-month/) — *2026-07-22*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="GovernorSeal-Blue." decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/07/22/acting-g
@@ -65,6 +37,35 @@ state: fresh
 <p><a href="https://www.gov.ca.gov/2026/07/2
 - [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-23*
   > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Alabama] Opinion | A constitutional question collides with Alabama’s election calendar](https://www.alreporter.com/2026/07/22/opinion-a-constitutional-question-collides-with-alabamas-election-calendar/) — *2026-07-22*
+- **NEW**  [[Alabama] Governor Ivey Signs Executive Order Establishing Commission on Screen-Based Instruction](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-signs-executive-order-establishing-commission-on-screen-based-instruction/) — *2026-07-22*
+  > MONTGOMERY – Governor Kay Ivey on Wednesday signed Executive Order No. 745 establishing the Governor’s Commission on Screen-Based Instruction to study the use, risks and benefits of screen-based instruction in Alabama’s K-12 classrooms and provide evidence-based recommendations o
+- **NEW**  [[Alabama] Executive Order 745](https://governor.alabama.gov/newsroom/2026/07/executive-order-745/) — *2026-07-22*
+  > Download
+- **NEW**  [[Alabama] Executive Order 744](https://governor.alabama.gov/newsroom/2026/07/executive-order-744/) — *2026-07-22*
+  > Download
+- [[Alabama] Probation and Parole Officers’ Week](https://governor.alabama.gov/newsroom/2026/07/probation-and-parole-officers-week-2/) — *2026-07-21*
+  > Download
+- **NEW**  [[Connecticut] CT needs a regulated bear hunt](https://ctmirror.org/2026/07/23/ct-needs-a-regulated-bear-hunt/) — *2026-07-23*
+  > <figure><img width="1024" height="619" src="https://ctmirror.org/wp-content/uploads/2023/01/Screen-Shot-2023-01-21-at-8.51.01-AM.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-c
+- **NEW**  [[Connecticut] The flag belongs to all of us](https://ctmirror.org/2026/07/23/the-flag-belongs-to-all-of-us/) — *2026-07-23*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/Human-chain-4-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/07/Human-chain-
+- **NEW**  [[Connecticut] A generational opportunity for every student in every CT ZIP code](https://ctmirror.org/2026/07/23/cts-blue-ribbon-commission-on-education-funding-is-a-generational-opportunity/) — *2026-07-23*
+  > <figure><img width="1024" height="684" src="https://ctmirror.org/wp-content/uploads/2026/04/Ned-Lamont-executive-order-4.16.26-1024x684.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
+- **NEW**  [[Connecticut] Lamont and Elliott clash, politely, in only TV debate before primary](https://ctmirror.org/2026/07/22/lamont-and-elliott-clash-politely-in-only-tv-debate-before-primary/) — *2026-07-23*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/2026_0722_AQ_DEMGUBPRMRY_101-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conten
+- **NEW**  [[Connecticut] Lamont pledges eviction reform as tenants, lawmakers condemn corporate landlord](https://ctmirror.org/2026/07/22/lamont-eviction-reform-alpha-capital/) — *2026-07-22*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/TENANT-UNION-0721-0722-SG-05-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-c
+- **NEW**  [[Connecticut] A state Senate primary could bring major changes to CT education](https://ctmirror.org/2026/07/22/primary-ct-senate-doug-mccrory-maryam-khan-ayana-taylor/) — *2026-07-22*
+  > <figure><img width="1024" height="684" src="https://ctmirror.org/wp-content/uploads/2026/05/Doug-McCrory-5.6.26-1024x684.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads
+- **NEW**  [[Connecticut] UConn study highlights CT families’ childcare struggles](https://ctmirror.org/2026/07/22/uconn-study-childcare-access/) — *2026-07-22*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/04/IMG_9475-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/04/IM
+- **NEW**  [[Connecticut] Do doctors have to petition insurers to get some care approved?](https://ctmirror.org/2026/07/22/care-doctors-insurers-permission-prior-authorization/) — *2026-07-22*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2016/12/yale-new-haven-hospital-3-e1608677205753.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" sizes="(max-width: 34.9rem) calc(10
+- **NEW**  [[Connecticut] Westport registrars demonstrate voting machines as federal pressures mount](https://ctmirror.org/2026/07/22/westport-ct-voting-machines/) — *2026-07-22*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/CTPublic_Westportvoting2-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/u
+- **NEW**  [[Connecticut] Court upholds Tweed New Haven airport expansion approval](https://ctmirror.org/2026/07/22/tweed-new-haven-airport-expansion/) — *2026-07-22*
+  > <figure><img width="909" height="574" src="https://ctmirror.org/wp-content/uploads/2023/02/Tweed-3-nhi.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2023/02/Tweed-3-n
+- [[Connecticut] What the wildfire smoke is telling us](https://ctmirror.org/2026/07/22/what-is-the-smoke-is-telling-us/) — *2026-07-22*
+  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/07/AP-wildfire-smoke.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/AP
 
-_(795 additional items in raw.jsonl)_
+_(836 additional items in raw.jsonl)_
