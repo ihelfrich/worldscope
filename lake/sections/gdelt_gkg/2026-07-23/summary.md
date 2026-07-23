@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-23
-record_count: 75
-new_today: 0
-state: stale_after_failure
+record_count: 25
+new_today: 25
+state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-0 new of 75 total items today.
+25 new of 25 total items today.
 
-- [[Russia oil sanctions perimeter · themes] ЦБ Турции сохранит ключевую ставку без изменений , заявил аналитик](https://1prime.ru/20260723/tsb-871706923.html) — *2026-07-23*
-  > 1prime.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] TotalEnergies double son bénéfice net au 2e trimestre à 5 , 4 milliards de dollars](https://www.lessentiel.lu/fr/story/guerre-au-moyen-orient-totalenergies-a-double-son-benefice-net-au-2e-trimestre-103607542) — *2026-07-23*
-  > lessentiel.lu · French · tone NA
-- [[Russia oil sanctions perimeter · themes] ЦБ купил юаней на внутреннем рынке на 4 , 8 миллиарда рублей](https://1prime.ru/20260723/tsb-871704455.html) — *2026-07-23*
-  > 1prime.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Félelmetes atommeghajtású csatacirkálóval rukkolt elő Moszkva , de az egész koncepció egy nagy zsákutca lehet](https://www.portfolio.hu/global/20260723/felelmetes-atommeghajtasu-csatacirkaloval-rukkolt-elo-moszkva-de-az-egesz-koncepcio-egy-nagy-zsakutca-lehet-851502) — *2026-07-23*
-  > portfolio.hu · Hungarian · tone NA
-- [[Russia oil sanctions perimeter · themes] Neues Paket mit Strafmaßnahmen : Einigung in Brüssel : EU verhängt neue Russland - Sanktionen - Politik](https://www.rhein-zeitung.de/deutschland-welt/politik/einigung-in-bruessel-eu-verhaengt-neue-russland-sanktionen_arid-4142567.html) — *2026-07-23*
-  > rhein-zeitung.de · German · tone NA
-- [[Russia oil sanctions perimeter · themes] 中聯油案501項產品可重新上架 食藥署 ： 由地方監督 、 業者自主決定 - 生活](https://news.ltn.com.tw/news/life/breakingnews/5515290) — *2026-07-23*
-  > news.ltn.com.tw · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] В Самарской области продолжают поиски второго утонувшего ребенка](https://ria.ru/20260723/rebenok-2106409662.html) — *2026-07-23*
-  > ria.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] سبتمبر نت - النفط فوق 96 دولارا والذهب يتراجع مع اضطرابات هرمز وباب المندب](https://26sep.net/index.php/finance/131697-96-3) — *2026-07-23*
-  > 26sep.net · Arabic · tone NA
-- [[Russia oil sanctions perimeter · themes] Regjeringen advarer mot EUs metanregler : – Det er ingen tjent med](https://www.dagsavisen.no/nyheter/regjeringen-advarer-mot-eus-metanregler-det-er-ingen-tjent-med/10451939) — *2026-07-23*
-  > dagsavisen.no · Norwegian · tone NA
-- [[Russia oil sanctions perimeter · themes] Najem krótkoterminowy w Polsce . W tym miejscu noclegów jest najwięcej](https://turystyka.wp.pl/s/esopot-pl/najem-krotkoterminowy-w-polsce-w-tym-miejscu-noclegow-jest-najwiecej-7310125491058784a) — *2026-07-23*
-  > turystyka.wp.pl · Polish · tone NA
-- [[Russia oil sanctions perimeter · themes] 32 ofiary i wyrok dla kapitana . Wielka tragedia na Netflix – Rozrywka Wprost](https://rozrywka.wprost.pl/filmy/12394386/32-ofiary-i-wyrok-dla-kapitana-wielka-tragedia-na-netflix.html) — *2026-07-23*
-  > rozrywka.wprost.pl · Polish · tone NA
-- [[Russia oil sanctions perimeter · themes] За неделю бензин в Прикамье подорожал на 2 , 44 руб . ](https://perm.rbc.ru/perm/freenews/6a61b3429a7947c85a236093) — *2026-07-23*
-  > perm.rbc.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Een fietstocht van 25 kilometer met veel uitzicht over het water : Theo maakt een rondje om het Leekstermeer](https://www.lc.nl/lifestyle/eropuit/een-fietstocht-van-25-kilometer-met-veel-uitzicht-over-het-water-theo-maakt-een-rondje-om-het-leekstermeer/158554179.html) — *2026-07-23*
-  > lc.nl · Dutch · tone NA
-- [[Russia oil sanctions perimeter · themes] Treasury yields follow oil prices higher , traders await jobs data](https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html) — *2026-07-23*
-  > cnbc.com · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Prețurile petrolului ating cel mai ridicat nivel din ultimele șase săptămâni pe fondul tensiunilor din Iran](https://news.yam.md/ro/story/46455399) — *2026-07-23*
-  > news.yam.md · Romanian · tone NA
-- [[Russia oil sanctions perimeter · themes] EÚ našla dohodu na nových sankciách proti Rusku . Oproti pôvodnému návrhu bude 21 . balík však výrazne miernejší](https://www.ta3.com/clanok/1062243/eu-nasla-dohodu-na-novych-sankciach-proti-rusku-oproti-povodnemu-navrhu-bude-21-balik-vsak-vyrazne-miernejsi) — *2026-07-23*
-  > ta3.com · Slovak · tone NA
-- [[Russia oil sanctions perimeter · themes] Skarb pod wodą w pobliżu Lizbony . Ruszyły poszukiwania .  Nieoceniona wartość  ](https://turystyka.wp.pl/skarb-pod-woda-w-poblizu-lizbony-ruszyly-poszukiwania-nieoceniona-wartosc-7310472981535104a) — *2026-07-23*
-  > turystyka.wp.pl · Polish · tone NA
-- [[Russia oil sanctions perimeter · themes] Giá xăng E10 vượt 21 . 000 đồng / lít](https://baomoi.com/gia-xang-e10-vuot-21-000-dong-lit-c55678150.epi) — *2026-07-23*
-  > baomoi.com · Vietnamese · tone NA
-- [[Russia oil sanctions perimeter · themes] Έρχεται νέα παρέμβαση για τις τιμές βενζίνης και diesel : Τα σενάρια που εξετάζονται](https://sofokleous10.gr/2026/07/23/%CE%AD%CF%81%CF%87%CE%B5%CF%84%CE%B1%CE%B9-%CE%BD%CE%AD%CE%B1-%CF%80%CE%B1%CF%81%CE%AD%CE%BC%CE%B2%CE%B1%CF%83%CE%B7-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B9%CF%82-%CF%84%CE%B9%CE%BC%CE%AD%CF%82-%CE%B2%CE%B5/) — *2026-07-23*
-  > sofokleous10.gr · Greek · tone NA
-- [[Russia oil sanctions perimeter · themes] Een fietstocht van 25 kilometer met veel uitzicht over het water : Theo maakt een rondje om het Leekstermeer](https://www.dvhn.nl/lifestyle/eropuit/een-fietstocht-van-25-kilometer-met-veel-uitzicht-over-het-water-theo-maakt-een-rondje-om-het-leekstermeer/158554177.html) — *2026-07-23*
-  > dvhn.nl · Dutch · tone NA
-- [[Russia oil sanctions perimeter · themes] Fuel Tanker Fire Closes Road Between Swakopmund and Arandis](https://www.namibtimes.net/fuel-tanker-fire-closes-road-between-swakopmund-and-arandis/) — *2026-07-23*
-  > namibtimes.net · English · tone NA
-- [[Russia oil sanctions perimeter · themes] 自动驾驶迈入运行安全时代 ， 李骏院士 ： AI开车车企全责 ， 车辆终身纳入安全监管 - 钛媒体官方网站](https://www.tmtpost.com/8076618.html) — *2026-07-23*
-  > tmtpost.com · Chinese · tone NA
-- [[Russia oil sanctions perimeter · themes] ЕС введет санкции против 32 российских банков](https://1prime.ru/20260723/evrosoyuz-871707281.html) — *2026-07-23*
-  > 1prime.ru · Russian · tone NA
-- [[Russia oil sanctions perimeter · themes] Healing hearts beyond hospitals : China reaches Tanzania vulnerable children](https://dailynews.co.tz/healing-hearts-beyond-hospitals-china-reaches-tanzanias-vulnerable-children/) — *2026-07-23*
-  > dailynews.co.tz · English · tone NA
-- [[Russia oil sanctions perimeter · themes] Ulisse o Odisseo ? ( e Odissèo o Odìsseo ?) ](https://www.ilpost.it/2026/07/08/ulisse-odisseo-odissea-nolan/?homepagePosition=12.2&referrerPost=3638505) — *2026-07-23*
-  > ilpost.it · Italian · tone NA
-
-_(50 additional items in raw.jsonl)_
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Trump : Foreign countries are trying to slow down new U . S . data centers in global AI race ;  Propaganda , PR  ](http://www.belgrade-news.com/townnews/hydrography/trump-foreign-countries-are-trying-to-slow-down-new-u-s-data-centers-in-global/article_563b9eb4-3cfa-465b-9879-6c99f5f8bc01.html) — *2026-07-23*
+  > belgrade-news.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] WH Announces New Tariffs | News Radio 690 KTSM](https://ktsmradio.iheart.com/content/2026-07-23-wh-announces-new-tariffs/) — *2026-07-23*
+  > ktsmradio.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Winner of Theakston Old Peculier Crime Novel of the Year revealed](https://www.enfieldindependent.co.uk/news/national/26405725.winner-theakston-old-peculier-crime-novel-year-revealed/) — *2026-07-23*
+  > enfieldindependent.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Arkansas cop tragically dies saving fiancée life just hours after proposing](https://www.ktvu.com/news/arkansas-cop-dies-saving-fiancee) — *2026-07-23*
+  > ktvu.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] U . S . stocks tumble on dramatic escalation of Iran war](http://www.nepalnational.com/news/279206255/u-s-stocks-tumble-on-dramatic-escalation-of-iran-war) — *2026-07-23*
+  > nepalnational.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Worker dead , another injured as truck rolls over vehicle at Queensland mine](https://www.abc.net.au/news/2026-07-24/truck-rolls-over-vehicle-at-central-queensland-mine/106952686) — *2026-07-23*
+  > abc.net.au · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Starnieuws - PALU : Regering faalt bij aanpak mogelijke milieuramp in Saramacca](https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/93094) — *2026-07-23*
+  > starnieuws.com · Dutch · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Greqia blen  mburojën e Akilit / Athina miraton paketën 3 . 5 miliardë euro për mbrojtjen nga raketat e dronët](https://rtsh.al/greqia-blen-mburojen-e-akilit-athina-miraton-paketen-3-5-miliarde-euro-per-mbrojtjen-nga-raketat-e-dronet/) — *2026-07-23*
+  > rtsh.al · Albanian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Latest Visa Umrah | Beritaharian](https://www.beritaharian.sg/tags/visa-umrah) — *2026-07-23*
+  > beritaharian.sg · Malay · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] MP : Students protest in Bhopal against Delhi Police action on protesters , demand Dharmendra Pradhan resignation](http://www.indiagazette.com/news/279206125/mp-students-protest-in-bhopal-against-delhi-police-action-on-protesters-demand-dharmendra-pradhan-resignation) — *2026-07-23*
+  > indiagazette.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Trump vows any damage to ships will be paid for with seized  Iranian Money  as tensions mount in Strait of Hormuz](https://www.dailymail.com/news/article-16001303/Trump-damage-ships-Strait-Hormuz-Iran.html) — *2026-07-23*
+  > dailymail.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Wildfires prompt large - scale evacuations in Spain Madrid region](http://www.bignewsnetwork.com/news/279206339/wildfires-prompt-large-scale-evacuations-in-spain-madrid-region) — *2026-07-23*
+  > bignewsnetwork.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Sault Ste . Marie man angry after dad spent 3 days in hospital hallway](https://www.timminspress.com:443/news/it-has-been-heartbreaking-son-frustrated-after-elderly-dad-spends-more-than-3-days-in-sault-area-hospital-er-hallway) — *2026-07-23*
+  > timminspress.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Southport killer Axel Rudakubana transferred to psychiatric hospital](https://www.thetottenhamindependent.co.uk/news/national/26405660.southport-killer-axel-rudakubana-transferred-psychiatric-hospital/) — *2026-07-23*
+  > thetottenhamindependent.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Críticas transversales y sumario administrativo de Gendarmería tras conocerse guillatún para El Rana en hospital base de Valdivia](https://www.latercera.com/nacional/noticia/criticas-transversales-y-sumario-administrativo-de-gendarmeria-tras-conocerse-guillatun-para-el-rana-en-hospital-base-de-valdivia/) — *2026-07-23*
+  > latercera.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] What weapons is Russia using in Zaporizhzhia attacks ? ](https://news.az/news/what-weapons-is-russia-using-in-zaporizhzhia-attacks) — *2026-07-23*
+  > news.az · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Extreme heat tests Europe as fires spread and rivers run low](http://www.bignewsnetwork.com/news/279206326/extreme-heat-tests-europe-as-fires-spread-and-rivers-run-low) — *2026-07-23*
+  > bignewsnetwork.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Genea - Musings : Added and Updated MyHeritage Record Collections - Week of 17 to 23 July 2026](https://www.geneamusings.com/2026/07/added-and-updated-myheritage-record_0276917719.html) — *2026-07-23*
+  > geneamusings.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Rm . Sărat : Lucrări neprevăzute pe E85 , în afara bugetului alocat prin „ Anghel Saligny  • Opinia Buzău](https://opiniabuzau.ro/rm-sarat-lucrari-neprevazute-pe-e85-in-afara-bugetului-alocat-prin-anghel-saligny/) — *2026-07-23*
+  > opiniabuzau.ro · Romanian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] North Pole memorial ceremony to add three fallen heroes next month](https://www.youralaskalink.com/news/local/north-pole-memorial-ceremony-to-add-three-fallen-heroes-next-month/article_ed01a001-ae6f-459a-9917-19bfddff907e.html) — *2026-07-23*
+  > youralaskalink.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Presidential Administration : Energy , an element of national identity](https://www.bursa.ro/presidential-administration-energy-an-element-of-national-identity-24576956) — *2026-07-23*
+  > bursa.ro · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] La legge anti - baby gang , minori sempre imputabili se hanno più di 14 anni . Meloni : « Chi sbaglia ne risponde » ](https://www.ilmessaggero.it:443/politica/maranza_minori_imputabili_14_anni_nuova_legge_cosa_prevede-9668875.html) — *2026-07-23*
+  > ilmessaggero.it · Italian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ransom Note Sent To Savannah Guthrie Revealed In Full For The First Time](https://stevefmvirginia.iheart.com/content/2026-07-23-ransom-note-sent-to-savannah-guthrie-revealed-in-full-for-the-first-time/) — *2026-07-23*
+  > stevefmvirginia.iheart.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] John Barrett , Raúl Biord y Miyamoto recorrieron iglesia Nuestra Señora de Las Mercedes](https://www.descifrado.com/2026/07/23/john-barrett-raul-biord-y-miyamoto-recorrieron-iglesia-nuestra-senora-de-las-mercedes/) — *2026-07-23*
+  > descifrado.com · Spanish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Florida bishops appeal for mercy ahead of scheduled executions](https://thecatholicherald.com/article/florida-bishops-appeal-for-mercy-ahead-of-scheduled-executions) — *2026-07-23*
+  > thecatholicherald.com · English · tone NA

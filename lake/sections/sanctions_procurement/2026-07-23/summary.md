@@ -2,27 +2,39 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-23
-record_count: 108
-new_today: 16
+record_count: 123
+new_today: 22
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-16 new of 108 total items today.
+22 new of 123 total items today.
 
+- **NEW**  [[OFAC] Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
 - [[OFAC] Russia-related Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
 - [[OFAC] Hong Kong-related Designations Updates and Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oeVVfOThEdUF6VTk5a1dMUExXaU1jd24xSkhMOWZ3OEFkZXhfY3NBd2NfaGRER09pUUhROElHbnVXMmlQWDc1djhPTE1hSWdQc0l2SmJ1eDdpT051UEE?oc=5" target="_blank">Hong Kong-related Designations Updates and Removals</a>&nbsp;&nbsp;<font color="
-- [[OFAC] Hong Kong-Related Sanctions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPOElLNnBfQm5PMTR5SEU0Wk54Qm02WnNlVjhpLVJqcG1lOXFYdkc2QUNTX3FULWhraHJxWTVtLUFYY3pRNUNtaVVwOEJwMnpPZG90N1pWb0l4NVJuTmZPTGZGa1JfRjFLaXZuOU5IVl9YbjNBYlZwRV9qNm4xdGZlWkh6M0Q1YU1Fam93SWZvNS1BcUh1ZkJxQjdUWEk?oc=5" target="_bla
 - [[OFAC] Issuance of Venezuela-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MX0M3a2cwYU5lMTNMSXdDcGRYYk1JZ2NQdm9jeHRRVW9ocHdpTmsyRDMtTWJzT1dNVjBLMWtHa2EyT3RSalE5YlExVnp2OXVVdDdzYnZfRE0wUVpwd0dSTU5B?oc=5" target="_blank">Issuance of Venezuela-related Frequently Asked Question</a>&nbsp;&nbsp;<fon
+- [[OFAC] Hong Kong-Related Sanctions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
+  > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPOElLNnBfQm5PMTR5SEU0Wk54Qm02WnNlVjhpLVJqcG1lOXFYdkc2QUNTX3FULWhraHJxWTVtLUFYY3pRNUNtaVVwOEJwMnpPZG90N1pWb0l4NVJuTmZPTGZGa1JfRjFLaXZuOU5IVl9YbjNBYlZwRV9qNm4xdGZlWkh6M0Q1YU1Fam93SWZvNS1BcUh1ZkJxQjdUWEk?oc=5" target="_bla
 - [[OFAC] 1263 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-17*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzRnJlcHJtMWVfbnFEQm9VUGY0SnhyY2hiR3pMRlFNU0hLX3JjQ25VWnV0T0dEMk1hTDNOUThZSFlPay0tZUVGZFRGSQ?oc=5" target="_blank">1263</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
-- **NEW**  [[BIS Entity List] page checksum b562eee9df45](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-23*
-  > Page content hash: b562eee9df45. Compare with prior day's hash to detect updates.
+- **NEW**  [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zdEZkSzFGZXFOTVg0T3lWdDRVZlprX0xzM1g3aXlEWURwZHVfekF6ZGZsUXFCZC1nX0FtTmotaVJMVVhOaDRkbGRacnpCazN4SWNPd29faXJmeUZhSEpBMlMyVGc?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
+- **NEW**  [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Dd19XT2dxMFhJM0NiVVhGTUx5RXdhWmJRUlhSSzBBeW5TZjJkbTd6ZkJzWFlURWJLU0VCYUcwc3M5dTBIMF8xeU81eXhsVktvdjNYNDY1N3Q2NzFkaE5vb2trNno?oc=5" target="_blank">CJNG-Linked Networks</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fore
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UkdCc0VmYlZlTjdobU9XbEplVS11Mm0yOTdlYmtfYzVFaUpXMjcyTHZJRnNRZlpTLXhTWlh5alNFY1I2OXpkNkswd0NjSlladDZmVHlJdG1Kcy1kcXc2WXUzU0k?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvSG01VXpWeFNPUERoZkpScGNoSFB1NkNKVXB3VHhzYTVqTnhZV3ZWdDc0aF9BYjZGQ3pOMEk1S01sMTFqSUJ3emk1aE1CeGR5U0plUjBXM2JMWmRHTlJmd18xU1Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
+- **NEW**  [[BIS Entity List] page checksum 58a542043112](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-23*
+  > Page content hash: 58a542043112. Compare with prior day's hash to detect updates.
 - **NEW**  [[USASpending] $42,096,094,267 → UT-BATTELLE LLC: MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATOR](https://www.usaspending.gov/award/DEAC0500OR22725) — *2026-07-23*
   > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATORY
 - **NEW**  [[USASpending] $34,256,470,773 → CONSOLIDATED NUCLEAR SECURITY, LLC: IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 N](https://www.usaspending.gov/award/DENA0001942) — *2026-07-23*
@@ -49,17 +61,5 @@ state: fresh
   > Agency: Department of Energy.  Description: IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION
 - **NEW**  [[USASpending] $2,593,215,439 → THE BOEING COMPANY: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CO](https://www.usaspending.gov/award/80MSFC20C0052) — *2026-07-23*
   > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
-- **NEW**  [[USASpending] $2,404,483,873 → FERMI FORWARD DISCOVERY GROUP, LLC: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACC](https://www.usaspending.gov/award/89243024CSC000002) — *2026-07-23*
-  > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY (FNAL)
-- [[USASpending] $2,170,949,215 → THE TRUSTEES OF PRINCETON UNIVERSITY: MANAGEMENT AND OPERATING CONTRACT FOR THE OPERATION OF THE P](https://www.usaspending.gov/award/DEAC0209CH11466) — *2026-07-23*
-  > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE OPERATION OF THE PRINCETON PLASMA PHYSICS LABORATORY (PPPL)
-- [[USASpending] $2,121,046,270 → HARRIS CORPORATION: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING F](https://www.usaspending.gov/award/693KA821F00222) — *2026-07-23*
-  > Agency: Department of Transportation.  Description: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICATIONS SERVICES.
-- **NEW**  [[USASpending] $1,976,509,108 → AMENTUM TECHNOLOGY, INC.: ENGINEERING SERVICES AND SCIENCE CAPABILITY AUGMENTATION (ES](https://www.usaspending.gov/award/80MSFC18C0011) — *2026-07-23*
-  > Agency: National Aeronautics and Space Administration.  Description: ENGINEERING SERVICES AND SCIENCE CAPABILITY AUGMENTATION (ESSCA)
-- [[USASpending] $1,634,792,955 → NORTHROP GRUMMAN SYSTEMS CORPORATION: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUI](https://www.usaspending.gov/award/NNH15CN76C) — *2026-07-23*
-  > Agency: National Aeronautics and Space Administration.  Description: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPACE STATION 
-- **NEW**  [[USASpending] $1,628,766,368 → IDAHO ENVIRONMENTAL COALITION LLC: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN](https://www.usaspending.gov/award/89304223FEM400000) — *2026-07-23*
-  > Agency: Department of Energy.  Description: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER UNDER SINGLE AWARD MASTER IDIQ CONTRACT 89303321DEM000061.  CLIN 05 S1W D&D IS INCLUDED WITH AUTHORIZATION TO COMMENCE SCOPE 10/1/2023.
 
-_(83 additional items in raw.jsonl)_
+_(98 additional items in raw.jsonl)_

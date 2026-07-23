@@ -2,64 +2,64 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-23
-record_count: 250
-new_today: 217
+record_count: 262
+new_today: 233
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-217 new of 250 total items today.
+233 new of 262 total items today.
 
-- **NEW**  [[St. Louis] Nearly 1.6 million dozen eggs recalled over salmonella risk](https://www.ksdk.com/article/news/nation-world/egg-recall-salmonella/507-f1c71cd3-83d2-4713-9fce-24bad2b02909) — *2026-07-23*
-  > The recall affects eggs sold under several brands at Kroger and Brookshire's grocery stores across multiple Southern states.
-- **NEW**  [[St. Louis] Missouri early voting period opens with a rush that points to high primary turnout](https://www.ksdk.com/article/news/politics/missouri-early-voting-period-opens-with-rush-that-points-high-primary-turnout/63-274b34ee-847f-4af0-9c41-53c1f7eaaed3) — *2026-07-23*
-  > Four times as many voters cast ballots in St. Charles County on Tuesday than on the first day of early voting before the 2024 primary, the elections director said.
-- **NEW**  [[St. Louis] Tropical Storm Bertha makes landfall in Louisiana and moves toward Texas with punishing wind and storm surge](https://www.ksdk.com/article/news/nation-world/tropical-storm-bertha-makes-landfall-in-louisiana-heads-to-texas/507-13b49297-27c8-4c88-8d26-32a94c6a4f6b) — *2026-07-23*
-  > The storm is unlikely to leave behind widespread damage as the heaviest rains are staying offshore.
-- **NEW**  [[St. Louis] US carries out 12th night of strikes against Iran as Houthis claim attacks on oil tankers](https://www.ksdk.com/article/news/nation-world/oil-tankers-attack-red-sea-houthis-war-iran/507-f33569ce-4b69-4d08-84b4-4f08e161f686) — *2026-07-23*
+- **NEW**  [[St. Louis] What’s True in the Lou 7/24/2026](https://www.stlmag.com/games/whats-true-in-the-lou-072426/) — *2026-07-23*
+  > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
+- **NEW**  [[St. Louis] New Music Circle reveals its 68th Season with Horse Lords, Wadada Leo Smith, Vinny Golia, and more](https://www.stlmag.com/culture/music/new-music-circle-reveals-its-68th-season-with-horse-lords-wadada-leo-smith-vinny-golia-and-more/) — *2026-07-23*
+  > <p>Since its inception in 1959, New Music Circle (NMC) has broadened the sonic palette of St. Louis with cutting-edge concert curation and an academic approach that includes workshops, school visits, and artist residencies. Nearly seven decades later, the nonprofit organization c
+- **NEW**  [[St. Louis] Shark Week tears into the St. Louis Aquarium at Union Station](https://www.stlmag.com/culture/shark-week-tears-into-the-st-louis-aquarium-at-union-station/) — *2026-07-23*
+  > <p>Shark-loving St. Louisans can flock to the St. Louis Aquarium at Union Station July 24—August 2 for Shark Week, the aquarium’s celebration of the magnificent and ferocious creatures of the sea. The aquarium will feature a variety of family-friendly activities designed to delig
+- **NEW**  [[St. Louis] Prohibition adds elevated shareable food to its cocktail experience](https://www.stlmag.com/dining/prohibition-adds-elevated-shareable-food-to-its-cocktail-experience/) — *2026-07-23*
+  > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
+- **NEW**  [[St. Louis] Peter Hoffman is fighting vacancy, one derelict house at a time](https://www.stlmag.com/news/peter-hoffman-fighting-vacancy/) — *2026-07-23*
+  > <p>Attorney Peter Hoffman is doing as much as anyone in St. Louis to combat the problem of vacant properties in the city—and there is no doubt that vacancies are indeed a problem. Hoffman calls it “existential.”  ”The population for the region is stagnant,” he says. If we don’t s
+- **NEW**  [[St. Louis] Millennium Hotel’s revolving axle comes down to earth](https://www.stlmag.com/news/millennium-hotel-rotating-axle-city-museum/) — *2026-07-23*
+  > <p>More than 10 years after last powering the revolving restaurant atop the Millennium Hotel, the north tower’s 1,500-pound axle came down this week. But the hulking piece of machinery isn’t headed for the scrapyard: City Museum has agreed to give it a second life. Ainsley Worthl
+- **NEW**  [[St. Louis] O’Fallon teen launches STEM nonprofit for military kids](https://www.stlmag.com/family/ofallon-teen-launches-stem-nonprofit-for-military-kids/) — *2026-07-23*
+  > <p>After moving eight times in her life, rising Westminster Christian Academy senior Lillian Shelton felt like her STEM education was inconsistent.&#160; Shelton’s father is now retired, but served in the U.S. Navy and Air Force for more than 23 years. The family has lived in O’F
+- **NEW**  [[St. Louis] Where in the Lou? – 7/23/2026](https://www.stlmag.com/games/where-in-the-lou-072326/) — *2026-07-23*
+  > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
+- **NEW**  [[St. Louis] First these highway signs didn’t fit. Then came the graffiti](https://www.stlmag.com/news/highway-signs-graffiti-modot/) — *2026-07-22*
+  > <p>Three large signs near the Interstates 44 and 55 interchange south of downtown St. Louis aren’t directing much traffic, though they are turning heads.  The highway signs, meant to guide highway drivers to Memphis (via southbound 55), Tulsa (via westbound 44), or 12th Street, a
+- **NEW**  [[St. Louis] Why innovation takes more than a great idea](https://www.stlmag.com/branded-content/why-innovation-needs-an-ecosystem/) — *2026-07-22*
+  > <p>Most people have heard the word &#8220;ecosystem&#8221; in conversations about startups, innovation, or economic development. Outside those industries, it can sound like another business buzzword. Justin Raymundo wants people to think about it differently. As vice president of
+- **NEW**  [[St. Louis] US military says it’s launching strikes on Iran as clashes escalate over shipping routes](https://www.ksdk.com/article/news/nation-world/oil-tankers-attack-red-sea-houthis-war-iran/507-f33569ce-4b69-4d08-84b4-4f08e161f686) — *2026-07-23*
   > A Houthi attack in the Red Sea threatened to open a new front in a war that has roiled the global economy.
-- **NEW**  [[St. Louis] Winning Powerball numbers for Wednesday, July 22, 2026, and the $567M jackpot](https://www.ksdk.com/article/news/nation-world/winning-powerball-numbers-results-wednesday-july-22-2026/507-1a684870-f7e9-408a-971c-02d5a84b35e9) — *2026-07-23*
-  > The Powerball jackpot surged to $567 million with a $251.8 million cash value.
-- **NEW**  [[St. Louis] 82-year-old North St. Louis County woman finally gets A/C repaired after waiting more than a week](https://www.ksdk.com/article/news/local/82-year-old-north-st-louis-county-woman-still-waiting-for-ac-repair-after-more-than-a-week/63-e9b26ffc-a8c2-428c-851d-0fc2d5b0613f) — *2026-07-23*
+- **NEW**  [[St. Louis] A boater's photo might be 'the last picture' of group drowned in an Ohio river](https://www.ksdk.com/article/news/nation-world/photo-last-group-drowned-ohio-river/507-1b5c4e71-5384-448e-b360-2181c35cbe30) — *2026-07-23*
+  > Marcus L. Martin said he saw five adults in the water and two children on the bank, tracking the description of the group provided by Delaware County authorities.
+- **NEW**  [[St. Louis] Judge sentences former Northwoods officer who drove handcuffed man to empty field and beat him](https://www.ksdk.com/article/news/crime/judge-sentences-former-northwoods-officer-beating-handcuffed-man/63-95baf01a-0531-482f-8947-8604bbc3f307) — *2026-07-23*
+  > Samuel Davis, 28, was sentenced to 10 years in prison, followed by three years of supervised release.
+- **NEW**  [[St. Louis] 18-year-old charged with murder in shooting near MetroLink that left 2 dead](https://www.ksdk.com/article/news/local/18-year-old-charged-with-murder-shooting-near-metrolink-that-left-2-dead/63-af4d298a-4fda-40a1-b4b4-2e62d3bf45f9) — *2026-07-23*
+  > Police say a late-night robbery near the North Hanley MetroLink Station ended in gunfire that left two people dead and two others injured.
+- **NEW**  [[St. Louis] 'Malicious' cyberattack knocks out University City online payment, permitting services for weeks](https://www.ksdk.com/article/news/local/st-louis-malicious-cyberattack-university-city-online-payment-permitting-services/63-791c6884-09c2-4ee9-b2f8-6de99b27a50d) — *2026-07-23*
+  > The city said they have no evidence that residents' personal information was accessed or removed. The city is still working to restore some services.
+- **NEW**  [[St. Louis] More than 16,000 dressers sold at Walmart recalled over injury risk](https://www.ksdk.com/article/news/nation-world/dresser-walmart-enhomee-recall/507-a017009c-ac35-4866-9f50-72e6a9b1137c) — *2026-07-23*
+  > The dressers were sold online at Walmart between September 2023 and March 2026 for about $80.
+- **NEW**  [[St. Louis] Daily Dose: Health insurance job lock, a java benefit and water safety](https://www.ksdk.com/article/news/health/health-insurance-job-lock-java-benefit-water-safety/507-fbe2f361-d462-47cc-9745-b8fabef02879) — *2026-07-23*
+  > New data reveals why many workers stay in jobs they don't want, what your coffee habit does for your heart, and how to stay safe near lakes and rivers this summer.
+- **NEW**  [[St. Louis] Fatal police shooting of man with knife roils Wisconsin capital](https://www.ksdk.com/article/news/nation-world/fatal-police-shooting-madison-wisconsin/507-a45dbb19-d9c0-46f6-9657-dba253c78ef1) — *2026-07-23*
+  > Protesters interrupted a news conference Thursday in which Madison officials identified the man who was shot as a homeless resident.
+- **NEW**  [[St. Louis] Trump imposes double-digit tariffs on dozens of countries as his 10% levies are set to expire](https://www.ksdk.com/article/news/nation-world/trump-double-digit-tariffs-dozens-countries/507-8d598117-c13d-4e8c-b147-0cbcac216d34) — *2026-07-23*
+  > The new tariffs come as temporary 10% worldwide tariffs expire at 12:01 a.m. Friday.
+- **NEW**  [[St. Louis] Man accused of critically injuring Ferguson police officer pleads guilty after first day of trial](https://www.ksdk.com/article/news/crime/travis-brown-trial-elijah-gantt-guilty-plea/63-5cb2ea9b-7b95-48d9-917c-b0d0ba7785ad) — *2026-07-23*
+  > Gantt's trial began with opening statements on Wednesday. Sentencing was set for Nov. 20.
+- **NEW**  [[St. Louis] Tropical Storm Bertha strikes Gulf Coast near the Texas-Louisiana line in second landfall](https://www.ksdk.com/article/news/nation-world/tropical-storm-bertha-makes-landfall-in-louisiana-heads-to-texas/507-13b49297-27c8-4c88-8d26-32a94c6a4f6b) — *2026-07-23*
+  > The storm is unlikely to leave behind widespread damage as the heaviest rains are staying offshore.
+- **NEW**  [[St. Louis] US health officials are investigating new outbreak of diarrhea-causing parasite](https://www.ksdk.com/article/news/nation-world/fda-cyclospora-new-outbreak-cases/507-bfeb46fb-7d0e-4b25-b7da-14780112d831) — *2026-07-23*
+  > The parasite infects food that has come into contact with human feces, most commonly when produce is irrigated or washed with contaminated water.
+- **NEW**  [[St. Louis] U.S. government withdraws subpoenas for NY Times reporters in investigation of sources related to new Air Force One jet](https://www.ksdk.com/article/news/nation-world/us-government-withdraws-subpoenas-ny-times-reporters-air-force-one-leak-investigation/507-79d9c7e5-8440-4411-b8a4-e71e41da0ca2) — *2026-07-23*
+  > A federal judge criticized the government's sloppy legal work, leading it to withdraw subpoenas compelling New York Times reporters to reveal sources.
+- **NEW**  [[St. Louis] Lentil soup cans sold in 28 states recalled over spoil risk](https://www.ksdk.com/article/news/nation-world/amys-lentil-soup-recall-spoil-risk/507-fffafb26-cbc8-4f3e-880b-4e15d8b0c7c3) — *2026-07-23*
+  > The lentil soup cans have defective open pull tabs that could cause the soup to spoil.
+- **NEW**  [[St. Louis] 82-year-old north St. Louis County woman finally gets A/C repaired after waiting more than a week](https://www.ksdk.com/article/news/local/82-year-old-north-st-louis-county-woman-still-waiting-for-ac-repair-after-more-than-a-week/63-e9b26ffc-a8c2-428c-851d-0fc2d5b0613f) — *2026-07-23*
   > It's been nearly a week since KSDK 5's initial report, and the North St. Louis County great-grandmother was fuming because her central air system had not been fixed.
-- **NEW**  [[St. Louis] Special School District of St. Louis County to eliminate seclusion rooms, supine restraints following DOJ investigation](https://www.ksdk.com/article/news/education/special-school-district-of-st-louis-county-eliminate-seclusion-rooms-supine-restraints-following-doj-investigation/63-4923593a-f9dd-4f57-9c13-0788a6d986f2) — *2026-07-23*
-  > The announcement comes months after a federal report revealed widespread overuse of isolation and physical restraints in district schools.
-- **NEW**  [[St. Louis] WATCH: Ohio police officers rescue teen from burning home](https://www.ksdk.com/article/news/nation-world/ohio-police-officers-rescue-teen-burning-home/507-6f4480a0-516e-41e0-8882-1c055fb73626) — *2026-07-23*
-  > Sgt. Michael Roberts and Officer Cory Dorsey helped save a 13-year-old girl before firefighters rescued another occupant on July 5, police said.
-- **NEW**  [[St. Louis] Ferguson Officer Travis Brown in courtroom for opening statements in trial of man accused of critically injuring him](https://www.ksdk.com/article/news/crime/officer-travis-brown-in-courtroom-opening-statements-trial-of-man-accused-critically-injuring-him/63-cd1e211a-cba6-4fa0-84d5-02eaabe32344) — *2026-07-23*
-  > After two days of jury selection, opening statements began Wednesday, with attorneys on both sides describing what the jury will see during the two-week trial.
-- **NEW**  [[St. Louis] Tropical Storm Bertha makes landfall on southern Louisiana with threatening winds](https://www.ksdk.com/article/news/nation-world/tropical-storm-bertha-approaches-us-coast/507-8cfe06e0-4f42-4d82-9404-7997fc145277) — *2026-07-23*
-  > The storm moving slowly along the Gulf Coast on Wednesday is packing strong winds that extend over 100 miles out from its center
-- **NEW**  [[St. Louis] 'Closer than ever': Arizona firefighter donates kidney to save husband's life](https://www.ksdk.com/article/news/nation-world/arizona-firefighter-donates-kidney-husband/507-c5411cc0-bad0-46bd-a765-4a46e2b31cce) — *2026-07-23*
-  > A firefighter donated her kidney to her husband battling stage five kidney disease.
-- **NEW**  [[St. Louis] Breakfast burritos recalled due to risk of undeclared soy](https://www.ksdk.com/article/news/nation-world/breakfast-burrito-recall-undeclared-soy/507-252dc910-63ba-4cd4-8b47-2f2419f7205b) — *2026-07-23*
-  > The recall affects a limited number of burritos that were distributed in eight states.
-- **NEW**  [[St. Louis] Creve Coeur City Hall falling apart, voters to decide on rebuild in November](https://www.ksdk.com/article/news/creve-coeur-city-hall-falling-apart-voters-to-decide-on-rebuild-in-november/63-03e69ee8-f891-466e-b117-674bea434ed1) — *2026-07-22*
-  > Leaks, a broken water main and failing foundation have put Creve Coeur's 75-year-old city hall in disrepair. Voters will decide on a rebuild in November.
-- **NEW**  [[St. Louis] New $231M hospital coming to Cahokia Heights](https://www.ksdk.com/article/news/health/illinois-health-officials-approve-new-231m-hospital-cahokia-heights/63-9ff03747-ed20-4a8e-86ec-92a2124476b7) — *2026-07-22*
-  > The new hospital reportedly will have 108 beds and is designed to expand health services for patients in southern Illinois and the Metro East.
-- **NEW**  [[St. Louis] House Republicans adopt $95 billion package for the Iran war and Trump's priorities](https://www.ksdk.com/article/news/nation-world/house-republicans-adopt-funding-package-iran-war-trumps-priorities/507-554df76c-5303-4d29-a23a-f8999b28d72a) — *2026-07-22*
-  > House Republicans narrowly approved a $95 billion budget including funds for the Iran war.
-- **NEW**  [[St. Louis] 'Don't let me go': Married veterans held hands as Kentucky tornado ruined home](https://www.ksdk.com/article/news/nation-world/married-veterans-held-hands-kentucky-tornado-ruined-home/507-7a9a01e0-143c-427a-ab7d-8793bd359c19) — *2026-07-22*
-  > Sharon and Chris Palmer held hands and huddled around a recliner with their dog as a wall came down and the roof came off.
-- **NEW**  [[St. Louis] Scams surge in St. Charles County as con artists prey on seniors](https://www.ksdk.com/article/news/crime/scams-surge-in-st-charles-county-as-con-artists-prey-on-seniors/63-72158522-40a2-4831-9b14-b42e11508d64) — *2026-07-22*
-  > Police are urging residents to report all fraudulent calls and texts as criminals cast a wide net, leaving older adults highly susceptible.
-- **NEW**  [[St. Louis] US military says it's carrying out strikes on Iran as both sides threaten civilian infrastructure](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-war-strikes-missile-drone-target-attacks-diplomatic-deal/507-c8953336-644b-452d-b245-e1d810b6ccf9) — *2026-07-22*
-  > President Donald Trump warned on Wednesday that the U.S. will destroy one bridge or power plant each time Iran shoots at a ship in the strait.
-- **NEW**  [[St. Louis] She owed $5,000 in taxes when she filed for office. Missouri just outlawed that, after she already made the St. Louis ballot.](https://www.ksdk.com/article/news/local/she-owed-5000-in-taxes-when-she-filed-for-office-missouri-just-outlawed-that-after-she-already-made-the-st-louis-ballot/63-72c067ba-f110-4d80-abc4-334bccb59848) — *2026-07-22*
-  > Donna Baringer spent five years pushing the fix in Jefferson City. It became law after she left the statehouse, and just missed the first local race it was built for
-- **NEW**  [[St. Louis] Viral bald eagle presumed to be Jackie in critical condition after rescue](https://www.ksdk.com/article/news/nation-world/bald-eagle-jackie-rescue-critical-condition/507-eee93444-77a9-4e5f-8eb0-14d279056386) — *2026-07-22*
-  > The County of Los Angeles Department of Parks & Recreation posted a video on social media showing an eagle swimming in Big Bear Lake over the weekend.
-- **NEW**  [[St. Louis] Water main break reported on Hampton Avenue south of I-44](https://www.ksdk.com/article/news/local/water-main-break-reported-hampton-avenue-i44/63-e3e78cd3-4d2e-46bc-b910-42278a4aa326) — *2026-07-22*
-  > It is unclear what caused the water main break as drivers should expect delays.
-- **NEW**  [[St. Louis] Woman injured in bear encounter while hiking in Alaska](https://www.ksdk.com/article/news/nation-world/woman-bear-attack-alaska-anchorage-trail/507-96332601-55bd-4bf9-a721-1aee25eade62) — *2026-07-22*
-  > The woman had been hiking with another person and three dogs when they encountered the brown bear.
-- **NEW**  [[St. Louis] 'Godzilla' star Kaylee Hottle's father shares message for teen driver after fatal crash](https://www.ksdk.com/article/news/nation-world/godzilla-star-kaylee-hottle-father-forgives-driver-fatal-crash-maryland-cause-of-death/507-27561804-e6c3-46b0-94bf-95c92d9014a4) — *2026-07-22*
-  > Hottle, a deaf actor known for her roles in two "Godzilla" films, was one of two passengers when a car went off the road early Tuesday in Maryland.
-- **NEW**  [[St. Louis] Here's which passports hold the most power in 2026](https://www.ksdk.com/article/news/nation-world/most-powerful-passports-2026-rankings-us-passport/507-2e41f88b-71ef-43c6-930c-01f03f2e12b3) — *2026-07-22*
-  > The passport index is a barometer for how much value other nations put on one another for things like trade and cooperation.
-- **NEW**  [[St. Louis] Crash kills 2 teens in Jefferson County Wednesday morning](https://www.ksdk.com/article/news/local/crash-kills-jefferson-county-wednesday-morning/63-5c6fbf15-6846-40f3-b2f4-1348758e2341) — *2026-07-22*
-  > According to a report from the highway patrol, the crash occurred four hours before the car was discovered. The teens were pronounced dead at the scene.
 
-_(225 additional items in raw.jsonl)_
+_(237 additional items in raw.jsonl)_
