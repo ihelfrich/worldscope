@@ -2,42 +2,62 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-24
-record_count: 1057
-new_today: 773
+record_count: 1064
+new_today: 790
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-773 new of 1057 total items today.
+790 new of 1064 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-24*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-24*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-24*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[Global] Two Russian men jailed in Angola for terrorism and spying](https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying) — *2026-07-23*
-- [[Global] MoD cancels army training in Kenya over powers to prosecute British soldiers](https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute) — *2026-07-23*
-- **NEW**  [[Global] Thousands of lightning strikes trigger fresh wildfires in western Canada](https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada) — *2026-07-24*
-- **NEW**  [[Global] Guyanese authorities confirm death of 72 people in sinking of coastal ferry](https://www.theguardian.com/world/2026/jul/24/guyana-coastal-ferry-sinking-deaths-rescue) — *2026-07-24*
-- **NEW**  [[Global] Canadian government urged to block Thomson Reuters data deal with US ICE](https://www.theguardian.com/world/2026/jul/24/canada-government-mark-carney-block-data-sharing-deal-thomson-reuters-us-ice-avi-lewis) — *2026-07-24*
-- **NEW**  [[Global] Masked men invading and taking Amazon communities ‘hostage’ in organised crime surge, say local leaders](https://www.theguardian.com/environment/2026/jul/24/gangs-taking-villages-on-brazil-peru-border-hostage-say-indigenous-leaders) — *2026-07-24*
-- **NEW**  [[Global] Weather tracker: More than 900 wildfires rage across Canada](https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat) — *2026-07-24*
-- [[Global] Total solar eclipse books out hotels two years in advance in New Zealand city](https://www.theguardian.com/world/2026/jul/23/total-solar-eclipse-new-zealand-2028-dunedin) — *2026-07-23*
-- [[Global] British woman jailed in Hong Kong for blackmail after accusing banker of rape](https://www.theguardian.com/world/2026/jul/22/british-woman-jailed-hong-kong-false-allegations) — *2026-07-22*
-- [[Global] Australia to warn China it won’t be bullied by ‘provocative‘ actions as it builds military and nuclear arsenal](https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal) — *2026-07-22*
-- [[Global] Michelin-starred restaurant owner in South Korea faces jail over ant dessert](https://www.theguardian.com/world/2026/jul/22/restaurant-owner-south-korea-dried-ants-dessert) — *2026-07-22*
-- [[Global] Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat](https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather) — *2026-07-22*
-- **NEW**  [[Global] Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre](https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising) — *2026-07-24*
-- **NEW**  [[Global] Pauline Hanson’s domestic violence comments were no stumble](https://www.theguardian.com/australia-news/2026/jul/24/pauline-hanson-domestic-violence-comments-mra-mens-rights-activists-ntwnfb) — *2026-07-24*
-- **NEW**  [[Global] University courses covering Israel-Palestine should be audited, Julian Leeser tells royal commission](https://www.theguardian.com/australia-news/2026/jul/24/university-courses-covering-israel-palestine-should-be-audited-julian-leeser-tells-royal-commission-ntwnfb) — *2026-07-24*
-- **NEW**  [[Global] Julian Leeser says his son no longer feels safe at Jewish events – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb) — *2026-07-24*
-- **NEW**  [[Global] Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’](https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour) — *2026-07-24*
-- **NEW**  [[Global] Trump threatens EU with ‘substantial’ tariffs over fines of US tech giants](https://www.theguardian.com/us-news/2026/jul/24/trump-european-union-tariffs) — *2026-07-24*
-- **NEW**  [[Global] More than 100,000 people flee or lock down as wildfires sweep France and Spain](https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire) — *2026-07-24*
-- **NEW**  [[Global] Woman charged in Ireland after police intercept ‘highly sophisticated’ bomb](https://www.theguardian.com/world/2026/jul/24/woman-man-arrested-ireland-police-intercept-highly-sophisticated-bomb) — *2026-07-24*
-- **NEW**  [[Global] France evacuates Cap Ferret peninsula as Spanish wildfires merge near Madrid – as it happened](https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates) — *2026-07-24*
-- **NEW**  [[Global] Burnham urged to lobby EU leaders directly to waive EES border controls](https://www.theguardian.com/business/2026/jul/24/burnham-urged-to-lobby-eu-leaders-directly-to-waive-ees-border-controls) — *2026-07-24*
+- **NEW**  [[Global] Cover Story newsletter: Should you be afraid of Elon Musk?](https://www.economist.com/the-world-this-week/2026/07/24/cover-story-newsletter-should-you-be-afraid-of-elon-musk) — *2026-07-24*
+  > An exclusive look at how we designed our cover
+- [[Global] Cartoon: America’s trouble getting out of the Iran conflict](https://www.economist.com/the-world-this-week/2026/07/23/cartoon-americas-trouble-getting-out-of-the-iran-conflict) — *2026-07-23*
+  > A lighter take on the news
+- [[Global] Business](https://www.economist.com/the-world-this-week/2026/07/23/business) — *2026-07-23*
+- [[Global] Politics](https://www.economist.com/the-world-this-week/2026/07/23/politics) — *2026-07-23*
+- **NEW**  [[Global] China, Philippine coastguard vessels clash in South China Sea](https://www.aljazeera.com/video/newsfeed/2026/7/24/china-philippine-coastguard-vessels-clash-in-south-china-sea?traffic_source=rss) — *2026-07-24*
+  > China, Philippine coastguard vessels clash in South China Sea.
+- **NEW**  [[Global] Paramount agrees to pause Warner Bros deal while court case plays out](https://www.aljazeera.com/economy/2026/7/24/paramount-agrees-to-pause-warner-bros-deal-while-court-case-plays-out?traffic_source=rss) — *2026-07-24*
+  > The delay, filed in court on Friday, can cost Paramount $1.7bn in fees if the deal is not closed by next June.
+- **NEW**  [[Global] Iran’s Abbas Araghchi vows ‘we fear no one’](https://www.aljazeera.com/video/newsfeed/2026/7/24/irans-abbas-araghchi-vows-we-fear-no-one?traffic_source=rss) — *2026-07-24*
+  > Iranian Foreign Minister Abbas Araghchi said Iran does not fear threats or &#039;succumb to pressures&#039;.
+- **NEW**  [[Global] Fury dominates Wach in Thailand boxing bout ahead of Joshua showdown](https://www.aljazeera.com/sports/2026/7/24/fury-dominates-wach-in-thailand-boxing-bout-ahead-of-joshua-showdown?traffic_source=rss) — *2026-07-24*
+  > Tyson Fury forced his Polish opponent, Mariusz Wach, to retire in the fight at a Muay Thai stadium in Pattaya, Thailand.
+- **NEW**  [[Global] Spanish police accuse tractor driver of sparking wildfire as blazes spread](https://www.aljazeera.com/news/2026/7/24/spanish-police-accuse-tractor-driver-of-sparking-wildfire-as-blazes-spread?traffic_source=rss) — *2026-07-24*
+  > The number of people forced to flee the heatwave-induced fires in Spain and France has now passed the 100,000 mark.
+- **NEW**  [[Global] UNESCO places occupied West Bank, Lebanon sites on endangered heritage list](https://www.aljazeera.com/news/2026/7/24/unesco-places-occupied-west-bank-lebanon-sites-on-endangered-heritage-list?traffic_source=rss) — *2026-07-24*
+  > Sebastia in the occupied West Bank and five Lebanese castles get emergency listing despite Israeli objections.
+- **NEW**  [[Global] US small businesses challenge Trump’s new forced labour tariffs](https://www.aljazeera.com/economy/2026/7/24/us-small-businesses-challenge-trumps-new-forced-labor-tariffs?traffic_source=rss) — *2026-07-24*
+  > In lawsuit on Friday, two small businesses said latest round of tariffs on 60 countries needs to be legally justified.
+- **NEW**  [[Global] Israeli settlers escalate attacks on Palestinians near Nablus](https://www.aljazeera.com/video/newsfeed/2026/7/24/israeli-settlers-escalate-attacks-on-palestinians-near-nablus?traffic_source=rss) — *2026-07-24*
+  > Israeli settlers have set fire to Palestinian homes and vehicles in villages near Nablus
+- **NEW**  [[Global] Venezuela to exit International Criminal Court, accusing it of ‘bias’](https://www.aljazeera.com/news/2026/7/24/venezuela-to-exit-international-criminal-court-accusing-it-of-bias?traffic_source=rss) — *2026-07-24*
+  > Announcement comes as Venezuela has hewed close to Trump administration, who has pledged to&#039;disable&#039; international court.
+- **NEW**  [[Global] Saudi Arabia strikes Houthi-held Hodeidah, Yemeni group says](https://www.aljazeera.com/news/2026/7/24/saudis-strike-yemens-houthi-held-hodeida-rebel-media?traffic_source=rss) — *2026-07-24*
+  > Houthi-controlled foreign ministry warns that the attack will spark further escalation in the Yemeni conflict.
+- **NEW**  [[Global] Canada marks Gordie Howe bridge opening without US after trade war deepens](https://www.aljazeera.com/economy/2026/7/24/canada-marks-gordie-howe-bridge-opening-without-us-after-trade-war-deepens?traffic_source=rss) — *2026-07-24*
+  > Canada cancelled planned cross-border ribbon-cutting ceremony and the milestone opening was only among Canadians.
+- **NEW**  [[Global] Who is Afrah al-Zouba, Yemen’s first female foreign minister?](https://www.aljazeera.com/news/2026/7/24/who-is-afrah-al-zouba-yemens-first-female-foreign-minister?traffic_source=rss) — *2026-07-24*
+  > In a historic first, Afrah al-Zouba was appointed Yemeni foreign minister on July 23.
+- **NEW**  [[Global] Wildfire survivors tell of narrow escape as Spain declares emergency](https://www.aljazeera.com/video/newsfeed/2026/7/24/wildfire-survivors-tell-of-narrow-escape-as-spain-declares-emergency?traffic_source=rss) — *2026-07-24*
+  > More than 10,000 people have been forced to evacuate as firefighters struggle to contain wildfires in central Spain.
+- **NEW**  [[Global] Car bomb attack kills 27 in northwest Pakistan](https://www.aljazeera.com/news/2026/7/24/car-bomb-attack-kills-27-in-northwest-pakistan?traffic_source=rss) — *2026-07-24*
+  > The Pakistani Taliban said four suicide bombers carried out the assault in the country&#039;s northwest.
+- **NEW**  [[Global] ICC prosecutor Karim Khan removed over ‘political’ sex abuse claims](https://www.aljazeera.com/news/2026/7/24/icc-prosecutor-khan-removed-over-sexual-misconduct-allegations-sources?traffic_source=rss) — *2026-07-24*
+  > Karim Khan&#039;s defence team underscores that the prosecutor was removed while many court officials are under US sanctions.
+- **NEW**  [[Global] US school shooter pleads guilty in Georgia following father’s conviction](https://www.aljazeera.com/news/2026/7/24/us-school-shooter-pleads-guilty-in-georgia-following-fathers-conviction?traffic_source=rss) — *2026-07-24*
+  > Colt Gray pleads guilty to killing two students and two teachers in 2024 attack, which upped scrutiny of parental role.
+- **NEW**  [[Global] Oman talking with Tehran on Hormuz as US and Iran continue strikes](https://www.aljazeera.com/news/2026/7/24/oman-talking-with-tehran-on-hormuz-as-us-and-iran-continue-strikes?traffic_source=rss) — *2026-07-24*
+  > Omani delegation in Iran to discuss managing traffic in the strait, which has become the main focus of the US conflict.
 
-_(1032 additional items in raw.jsonl)_
+_(1039 additional items in raw.jsonl)_

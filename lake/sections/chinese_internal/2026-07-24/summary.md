@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-07-24
-record_count: 313
-new_today: 218
+record_count: 314
+new_today: 226
 state: fresh
 ---
 
 ## Chinese Internal News
 
-218 new of 313 total items today.
+226 new of 314 total items today.
 
 - [Vanke Wins New Funding as It Completes Extensions on 2026 Public Bonds - Caixin Global](https://www.caixinglobal.com) — *2026-07-22*
   > <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVp5Wlp3VjNPYXVfRVJmWG9BaVVUU0ZzeXh5TGdVWjVUU2F5R3NNTHFMVWoxLV9hRnRyNzhvR1ZZZU4yLXc0SlNBVmRfZm9wM1RVa2xKVEM2ckViejhEbHRuNGd4c21kWmE3cnJyNXhFcVBDUGdOeWo1ckZSOHBnX3J5MWNORWhuNTFiWEp6QVlyZFBTU1podjcwdUdqeFd6SUlsQXNNQlcxNE
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: 中国绿证价格指数正式发布 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xSU4wMXVzaWg0aVlVYmNNMnZ4dUJZNWFkcTdNR0R0TnlrN0xYa1dUVXY1eFhoZUp0WktYVlpNdmVSd1pxc29KMVJYME40TmhCSDVia0JQN] (zh: 中国绿证价格指数正式发布 - 财新)](https://companies.caixin.com) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xSU4wMXVzaWg0aVlVYmNNMnZ4dUJZNWFkcTdNR0R0TnlrN0xYa1dUVXY1eFhoZUp0WktYVlpNdmVSd1pxc29KMVJYME40TmhCSDVia0JQNnBVLTkxbWMtZjhOVlY?oc=5" target="_blank">中国绿证价格指数正式发布</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(288 additional items in raw.jsonl)_
+_(289 additional items in raw.jsonl)_

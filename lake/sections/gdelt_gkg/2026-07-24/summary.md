@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-24
-record_count: 25
-new_today: 25
+record_count: 54
+new_today: 54
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+54 new of 54 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Targets Georgian Oil Refinery Over Russian Crude Processing](https://www.occrp.org/en/news/eu-targets-georgian-oil-refinery-over-russian-crude-processing) — *2026-07-24*
-  > occrp.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Why the Latest Oil Rally May Be Far From Over](https://oilprice.com/Energy/Crude-Oil/Why-the-Latest-Oil-Rally-May-Be-Far-From-Over.html) — *2026-07-24*
-  > oilprice.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Targets Russian Shadow Fleet , Banks and Crypto in Sweeping 21st Sanctions Package](https://gcaptain.com/eu-targets-russian-shadow-fleet-banks-and-crypto-in-sweeping-21st-sanctions-package/) — *2026-07-24*
-  > gcaptain.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU adopts 21st package of sanctions against Russia](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260723-european-commission01.htm) — *2026-07-24*
-  > globalsecurity.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Foreign Minister Tsahkna : 21st sanctions package keeps the oil price cap painful for Russia and paves the way for a visa ban on combatants](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260723-estonia-mfa01.htm) — *2026-07-24*
-  > globalsecurity.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] 21st package of sanctions : EU hits Russian energy , financial services and crypto hard](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260723-ec01.htm) — *2026-07-24*
-  > globalsecurity.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU expands sanctions on Russia with extensive 21st sanctions package](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260724-fingov01.htm) — *2026-07-24*
-  > globalsecurity.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU agrees on new sanctions package against Russia](https://www.globalsecurity.org/wmd/library/news/russia/2026/07/russia-260723-azertac01.htm) — *2026-07-24*
-  > globalsecurity.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] America Sanctions Are Building a Post - Dollar World](https://fpif.org/americas-sanctions-are-building-a-post-dollar-world/) — *2026-07-24*
-  > fpif.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Caucasian Knot | Videos of the abuse of children in the Sochi kindergarten were published after the arrest of two educators . ](https://www.eng.kavkaz-uzel.eu/articles/77175) — *2026-07-24*
-  > eng.kavkaz-uzel.eu · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Tsahkna : 21st sanctions package maintains painful oil price cap for Russia](https://www.baltictimes.com/tsahkna__21st_sanctions_package_maintains_painful_oil_price_cap_for_russia/) — *2026-07-24*
-  > baltictimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Black Sea Waters Not Safe for Ships Amid Attacks , Moscow Warns](https://www.insurancejournal.com/news/international/2026/07/24/878907.htm) — *2026-07-24*
-  > insurancejournal.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Will the Kashagan dispute change the future of foreign investment in Kazakhstan ? ](https://news.az/news/will-the-kashagan-dispute-change-the-future-of-foreign-investment-in-kazakhstan) — *2026-07-24*
-  > news.az · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Kazakhstan cuts oil output amid suspension of loading operations at Caspian Pipeline Consortium](http://www.azerbaijannews.net/news/279207327/kazakhstan-cuts-oil-output-amid-suspension-of-loading-operations-at-caspian-pipeline-consortium) — *2026-07-24*
-  > azerbaijannews.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Petro - dictatorship Azerbaijan locks up journalists , as EU praises Baku for opening the energy taps](https://euobserver.com/229921/petro-dictatorship-azerbaijan-locks-up-journalists-as-eu-praises-baku-for-opening-the-energy-taps/) — *2026-07-24*
-  > euobserver.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] The Middle East War Has Entered Its Most Dangerous Phase Yet](https://oilprice.com/Geopolitics/Middle-East/The-Middle-East-War-Has-Entered-Its-Most-Dangerous-Phase-Yet.html) — *2026-07-24*
-  > oilprice.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] FIDE President Dvorkovich added to EU Sanctions List](https://en.chessbase.com/post/fide-president-dvorkovich-added-to-eu-sanctions-list) — *2026-07-24*
-  > en.chessbase.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Expands Russia Shadow Fleet Sanctions to Bunkering Vessels](https://shipandbunker.com/news/emea/222130-eu-expands-russia-shadow-fleet-sanctions-to-bunkering-vessels) — *2026-07-24*
-  > shipandbunker.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Approves Biggest Russia Sanctions Yet After Holdout Greece Secured LNG Exemption](https://www.zerohedge.com/markets/eu-approves-biggest-russia-sanctions-yet-after-holdout-greece-secured-lng-exemption) — *2026-07-24*
-  > zerohedge.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Lithuanian FM slams concessions in latest Russia sanctions round](https://www.lrt.lt/en/news-in-english/19/3000051/lithuanian-fm-slams-concessions-in-latest-russia-sanctions-round) — *2026-07-24*
-  > lrt.lt · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU to impose sanctions on Belarusian refineries for gasoline supplies to Russia](https://news.am/en/news/1051408) — *2026-07-24*
-  > news.am · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine Invasion Day 1 , 611 : Zelensky reiterates his commitment to peace negotiations](https://www.dailykos.com/stories/2026/7/23/800074052/community/1611/) — *2026-07-24*
-  > dailykos.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine war briefing : EU sanctions oust Russian president of world chess](https://www.aol.co.uk/articles/ukraine-war-briefing-eu-sanctions-013234000.html) — *2026-07-24*
-  > aol.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Top 10 Job Titles Held By Cats](https://listverse.com/2020/04/18/top-10-job-titles-held-by-cats/) — *2026-07-24*
-  > listverse.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Ships avoid Ukrainian grain ports after Russian attacks](https://japantoday.com/category/world/ships-avoid-ukrainian-grain-ports-after-russian-attacks) — *2026-07-24*
-  > japantoday.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] U . S . Coast Guard Cutter Midgett returns to Honolulu following 5 - month Western Pacific patrol – Seapower Magazine](https://seapowermagazine.org/u-s-coast-guard-cutter-midgett-returns-to-honolulu-following-5-month-western-pacific-patrol/) — *2026-07-24*
+  > seapowermagazine.org · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] CHIP SEAL CONSTRUCTION](https://elynews.com/2026/07/24/chip-seal-construction/) — *2026-07-24*
+  > elynews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 中菲南海接連衝突 川普要與習談 - 國際 - 自由時報電子報](https://news.ltn.com.tw/news/world/paper/1763939) — *2026-07-24*
+  > news.ltn.com.tw · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Five officers hurt in police boat crash were responding to  person in water  ](https://www.burytimes.co.uk/news/national/26409134.five-officers-hurt-police-boat-crash-responding-person-water/) — *2026-07-24*
+  > burytimes.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]  ¿ Quién teme el crudo a 100 dólares ? ](https://www.expansion.com/inversion/2026/07/25/6a63b2de468aeb75258b45b9.html) — *2026-07-24*
+  > expansion.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] New re - entry closet helps former Philadelphia inmates dress to succeed](https://www.phillytrib.com/news/local_news/new-re-entry-closet-helps-former-philadelphia-inmates-dress-to-succeed/article_fcef7d31-448b-46f7-aa25-68b61ef3806b.html) — *2026-07-24*
+  > phillytrib.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] TSXV : SDR Forum Post | Nickdd - 37062345 | Silver hammer is a joke . They get a listing and they bring](https://stockhouse.com/companies/bullboard?symbol=v.sdr&postid=37062345) — *2026-07-24*
+  > stockhouse.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] El intento de inhabilitación del hermano del marqués de Larios](https://www.diariosur.es/sur-historia/intento-inhabilitacion-hermano-marques-larios-20260725002913-nt.html) — *2026-07-24*
+  > diariosur.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Iran war nears turning point as Trump weighs broader attack](https://wgme.com/news/instagram/iran-war-nears-turning-point-as-trump-weighs-broader-attack-strait-of-hormuz-nuclear-program-houthis-red-sea-middle-east-war) — *2026-07-24*
+  > wgme.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 台股再度進入季線攻防戰 短線轉為區間震盪 | ETtoday財經雲](https://finance.ettoday.net/news/3207295) — *2026-07-24*
+  > finance.ettoday.net · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]   Venezuela no está lista para elecciones : Donald Trump desde la Casa Blanca](https://www.ntn24.com/noticias-politica/venezuela-no-esta-lista-para-elecciones-donald-trump-desde-la-casa-blanca-635940) — *2026-07-24*
+  > ntn24.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] אש בחודיידה אחרי פגיעה בספינה בים האדום : סעודיה הפציצה , החות  ים מאיימים](https://www.ynet.co.il/news/article/s1vfvszszx) — *2026-07-24*
+  > ynet.co.il · Hebrew · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] В NYT сообщили об опасении ЕС зависимости от газа США после отказа от России](https://www.vesti.ru/ns/v-nyt-soobshchili-ob-opasenii-es-zavisimosti-ot-gaza-ssha-posle-otkaza-ot-rossii) — *2026-07-24*
+  > vesti.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] US hits Iran as path towards de - escalation uncertain](https://www.queanbeyanage.com.au/story/9317323/us-hits-iran-as-path-towards-de-escalation-uncertain/) — *2026-07-24*
+  > queanbeyanage.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] New Twist In Fatal Fourth Of July Upstate New York Boat Crash](https://wgna.com/ixp/854/p/3-men-appear-in-court-in-fatal-boating-case-in-columiba-county/) — *2026-07-24*
+  > wgna.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Gordie Howe bridge opens with Canadians - only ceremony](https://www.therecord.com/politics/provincial-politics/no-american-guests-as-canadians-cut-ribbon-to-open-gordie-howe-bridge/article_1f20536e-a8e7-5614-af6e-973cc1ceddaa.html) — *2026-07-24*
+  > therecord.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Gheorghiță Vlad , șeful Armatei Române , avertizează că vor mai avea loc incidente în Marea Neagră : Se vor naște vulnerabilități](https://www.bzi.ro/gheorghita-vlad-seful-armatei-romane-avertizeaza-ca-vor-mai-avea-loc-incidente-in-marea-neagra-se-vor-naste-vulnerabilitati-5575965) — *2026-07-24*
+  > bzi.ro · Romanian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] بين نذر الحرب ومساعي الوساطة .. هل تقترب واشنطن من هجوم واسع على إيران ؟ ](https://www.aljazeera.net/news/2026/7/25/%D9%87%D9%84-%D8%AA%D9%82%D8%AA%D8%B1%D8%A8-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%85%D9%86-%D9%87%D8%AC%D9%88%D9%85-%D9%88%D8%A7%D8%B3%D8%B9-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86) — *2026-07-24*
+  > aljazeera.net · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Police Scotland declares major incident amid Cairngorms wildfire](https://www.swindonadvertiser.co.uk/news/national/26409119.police-scotland-declares-major-incident-amid-cairngorms-wildfire/) — *2026-07-24*
+  > swindonadvertiser.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Литва бьет тревогу из - за  опасной тенденции  в новых санкциях против РФ](https://vv.com.ua/20260724/litva-bet-trevogy-iz-za-opasnoi-tendencii-v-novyh-sankciiah-protiv-rf/) — *2026-07-24*
+  > vv.com.ua · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Marsala , Posidonia e rifiuti sulla spiaggia di Berbaro . La protesta](https://www.tp24.it/2026/07/24/cittadinanza/marsala-posidonia-e-rifiuti-sulla-spiaggia-di-berbaro-la-protesta/237358) — *2026-07-24*
+  > tp24.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Un ciclo di incontri in montagna dedicati ai temi delle migrazioni](https://www.interris.it/chiesa-cattolica/dialogo-in-montagna-tra-rifugiati-studiosi-e-operatori/) — *2026-07-24*
+  > interris.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Trump erige su tercer muro arancelario : ¿ cuáles son los países perdedores y ganadores ? ](https://www.expansion.com/economia/2026/07/25/6a63ace9e5fdea65138b45a3.html) — *2026-07-24*
+  > expansion.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Jutarnji list - Puljanin iznio šokantne detalje :  Čuo sam buku , krenula je i dernjava , a onda sam skočio . Imali smo sreće ... ](https://www.jutarnji.hr/vijesti/hrvatska/kamion-herculanee-u-moru-zlatne-stijene-pula-ozlijedeni-istraga-15731097) — *2026-07-24*
+  > jutarnji.hr · Croatian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] US hits Iran as path towards de - escalation uncertain](https://www.edenmagnet.com.au/story/9317323/us-hits-iran-as-path-towards-de-escalation-uncertain/) — *2026-07-24*
+  > edenmagnet.com.au · English · tone NA
+
+_(29 additional items in raw.jsonl)_

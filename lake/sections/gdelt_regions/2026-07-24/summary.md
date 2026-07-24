@@ -11,15 +11,15 @@ state: fresh
 
 6 new of 6 total items today.
 
-- **NEW**  [[South Korea] BTS Leader RM Shares the Leadership Lesson That Changed His Perspective](https://www.kpopstarz.com/articles/323178/20260724/bts-leader-rm-shares-leadership-lesson-that-changed-his-perspective.htm) — *2026-07-24*
-  > kpopstarz.com · English
-- **NEW**  [[South Korea]   Biggest turning point in my life : After 22 years , ex - 2NE1 member Sandara Park finally making her own music](https://www.koreatimes.co.kr/entertainment/k-pop/20260724/biggest-turning-point-in-my-life-after-22-years-ex-2ne1-member-sandara-park-finally-making-her-own-music) — *2026-07-24*
-  > koreatimes.co.kr · English
-- **NEW**  [[South Korea] Investigators detect evidence Shincheonji sect also forced memberships of DPK](https://www.koreatimes.co.kr/southkorea/politics/20260724/investigators-detect-evidence-shincheonji-sect-also-forced-memberships-of-dpk) — *2026-07-24*
-  > koreatimes.co.kr · English
-- **NEW**  [[South Korea] Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates](https://www.koreatimes.co.kr/world/20260724/drones-target-northern-iraqi-city-where-us-forces-are-based-as-us-iran-fighting-escalates) — *2026-07-24*
-  > koreatimes.co.kr · English
-- **NEW**  [[South Korea]  [ INTERVIEW ] Anua believes K - beauty is replacing French luxury](https://www.koreatimes.co.kr/business/companies/20260724/anua-believes-k-beauty-is-replacing-french-luxury) — *2026-07-24*
-  > koreatimes.co.kr · English
-- **NEW**  [[South Korea] Defense export boom tests supply chain resilience](https://www.koreatimes.co.kr/southkorea/defense/20260724/defense-export-boom-tests-supply-chain-resilience) — *2026-07-24*
-  > koreatimes.co.kr · English
+- **NEW**  [[Japan] Wildfire in southwestern France forces evacuation of over 10 , 000](http://www.japanherald.com/news/279206138/wildfire-forces-over-10-000-to-move-overnight-in-southwestern-france) — *2026-07-24*
+  > japanherald.com · English
+- **NEW**  [[Japan] Man , 41 , accused of flashing young girls in Nerima](https://www.tokyoreporter.com/japan-news/man-41-accused-of-flashing-young-girls-in-nerima/) — *2026-07-24*
+  > tokyoreporter.com · English
+- **NEW**  [[Japan] Wall Street divided at week end , Dow gains 235 points](http://www.japanherald.com/news/279208281/wall-street-divided-at-week-s-end-dow-gains-235-points) — *2026-07-24*
+  > japanherald.com · English
+- **NEW**  [[Japan] 3 men ordered to pay ¥112 million over 1993  gym mat  suffocation of classmate](https://www.tokyoreporter.com/japan-news/tabloid/3-men-ordered-to-pay-%C2%A5112-million-over-1993-gym-mat-suffocation-of-classmate/) — *2026-07-24*
+  > tokyoreporter.com · English
+- **NEW**  [[Japan] Hokkaido men re - arrested in massive ¥900 million unordered seafood scam](https://www.tokyoreporter.com/japan-news/hokkaido-men-re-arrested-in-massive-%C2%A5900-million-unordered-seafood-scam/) — *2026-07-24*
+  > tokyoreporter.com · English
+- **NEW**  [[Japan] Jenny Shin breaks out to 5 - shot lead at Women Scottish Open](http://www.japanherald.com/news/279208507/jenny-shin-breaks-out-to-5-shot-lead-at-women-scottish-open) — *2026-07-24*
+  > japanherald.com · English

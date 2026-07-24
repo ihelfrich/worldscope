@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-24
 record_count: 57
-new_today: 38
+new_today: 39
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-38 new of 57 total items today.
+39 new of 57 total items today.
 
 - **NEW**  [[BleepingComputer] OnTrac notifies customers of data breach after network hack](https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/) — *2026-07-24*
   > OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]
@@ -45,28 +45,30 @@ XBOW's testing got the same result on workers across different hosts and network
   > Researchers warned the vulnerability offers an attacker the ability to make key changes to security configurations.
 - **NEW**  [[Cybersecurity Dive] The most vulnerable AI products are also some of the most commonly exposed online](https://www.cybersecuritydive.com/news/industrial-control-systems-ai-internet-exposure-censys-report-preview/826133/) — *2026-07-24*
   > It is becoming increasingly easy for hackers to target vulnerable AI tools on companies&rsquo; networks, even as those companies come to depend on them for more tasks.
+- **NEW**  [[Schneier on Security] Friday Squid Blogging: Illex Squid Catch in the Falklands](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html) — *2026-07-24*
+  > Lower catch this year.
+As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.
+Blog moderation policy.
 - **NEW**  [[Schneier on Security] Why AI Needs a “Genie Coefficient”](https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html) — *2026-07-24*
   > This essay was written with Barath Raghavan, and originally appeared in IEEE Spectrum.
 Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do i
+- **NEW**  [[The Register] Pope's official prayer app commits cardinal sin, leaks 700K+ users' info](https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603) — *2026-07-24*
+  > (Security) hole-ier than thou
+- **NEW**  [[The Register] AMD vibe codes its way past the CUDA moat with ROCm.AI](https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580) — *2026-07-24*
+  > Hey Claude, optimize this model for me
+- **NEW**  [[The Register] Europol flags 4,340 'horrific' URLs linked to The Com](https://www.theregister.com/cyber-crime/2026/07/24/europol-flags-4340-horrific-urls-linked-to-the-com/5278556) — *2026-07-24*
+  > Stop the spread (of online recruiting and propaganda)
+- **NEW**  [[The Register] Tech leaders issue letter to train Uncle Sam about value of open weight AI](https://www.theregister.com/ai-and-ml/2026/07/24/tech-leaders-issue-letter-to-train-uncle-sam-about-value-of-open-weight-ai/5278533) — *2026-07-24*
+  > Can you guess who didn't sign on to the group letter?
 - **NEW**  [[The Register] Dev accidentally commits Copilot binary to FreeBSD ports repo](https://www.theregister.com/os-platforms/2026/07/24/dev-accidentally-commits-copilot-binary-to-freebsd-ports-repo/5278458) — *2026-07-24*
   > Git is aptly named: it isn’t easy – but there are alternatives
-- **NEW**  [[The Register] ChatGPT wants access to your health records so it can be a better not-doctor](https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430) — *2026-07-24*
-  > Feature launches a day after lawsuit alleges chatbot advice contributed to near-fatal embolism
-- **NEW**  [[The Register] Cambodian Prime Minister Hun Manet met with ZTE to deepen cooperation in digital infrastructure and artificial intelligence (AI)](https://www.theregister.com/ai-and-ml/2026/07/24/partner-content/5278416) — *2026-07-24*
-  > PARTNER CONTENT: Focusing on 5G deployment, AI integration, and ICT talent development to drive the nation's digital transformation
-- **NEW**  [[The Register] Flock cameras go up in flames as cops hunt suspected firebugs](https://www.theregister.com/offbeat/2026/07/24/flock-cameras-go-up-in-flames-as-cops-hunt-suspected-firebugs/5278357) — *2026-07-24*
-  > Two license plate readers torched in Georgia amid backlash against the surveillance network
-- **NEW**  [[The Register] Veterans Affairs signs $1.6B deal for an army of Salesforce AI agents](https://www.theregister.com/ai-and-ml/2026/07/24/veterans-affairs-signs-16b-deal-for-an-army-of-salesforce-ai-agents/5278302) — *2026-07-24*
-  > Makes agreement under nose of Oracle, which gets its own $7 billion defense deal
+- **NEW**  [[Ars Technica] Canadian legislator reads out apparent LLM response in floor speech](https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/) — *2026-07-24*
+  > "Here’s a more natural, flowing version of that section..."
+- **NEW**  [[Ars Technica] Anthropic's Opus 5 is about token efficiency, not a capability leap](https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/) — *2026-07-24*
+  > Models are improving quickly, but the cheaper options are often good enough.
+- **NEW**  [[Ars Technica] Roku raises streaming stick prices by up to 60 percent](https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/) — *2026-07-24*
+  > Roku blames RAM shortage after CEO called it "great" for business in May.
 - **NEW**  [[Ars Technica] RFK Jr.'s hand-picked committee approves manufacture of peptides he uses](https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/) — *2026-07-24*
   > There's no human safety or efficacy data, but that no longer seems to matter.
-- **NEW**  [[Ars Technica] Judge rebuffs Trump admin demand for phone records from NYT reporters](https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/) — *2026-07-24*
-  > "We can quash the subpoenas, or you could withdraw the subpoenas,” judge told US.
-- **NEW**  [[Ars Technica] European Union grants US request to restrict satellite images of Iran War region](https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/) — *2026-07-24*
-  > New delay on Copernicus satellite pics comes as US ramps up war with Iran again.
-- **NEW**  [[Ars Technica] Team uses AlphaFold AI to redesign gene-editing proteins to make them safer](https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/) — *2026-07-24*
-  > Google's AlphaFold can help ID what parts of a gene editing protein enable mistakes.
-- **NEW**  [[Ars Technica] This is the world's most advanced robotic servicing satellite—that we know about](https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/) — *2026-07-24*
-  > "These are things that tend to be really hard."
 
 _(32 additional items in raw.jsonl)_

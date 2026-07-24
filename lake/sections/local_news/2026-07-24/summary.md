@@ -2,15 +2,17 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-24
-record_count: 250
-new_today: 170
+record_count: 257
+new_today: 193
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-170 new of 250 total items today.
+193 new of 257 total items today.
 
+- **NEW**  [[St. Louis] The Boom Boom Room moves to Buddy’s in downtown St. Louis](https://www.stlmag.com/dining/the-boom-boom-room-moves-to-buddys-in-downtown-st-louis/) — *2026-07-24*
+  > <p>Two major players in the downtown food and entertainment scene are joining forces for a new collaboration. Buddy’s Local Grill &#38; Bar (1001 Washington) is teaming up with The Boom Boom Room as the new resident entertainment inside its events space. The burlesque-inspired Bo
 - **NEW**  [[St. Louis] Photos: St. Louis Family Playdate at TotSpot Social](https://www.stlmag.com/family/photos-st-louis-family-playdate-at-totspot-social/) — *2026-07-24*
   > <p>On July 23, St. Louis Magazine celebrated one year of Family Playdates with a special birthday celebration at TotSpot Social, presented by Royal Banks of Missouri and sponsored by Ryan Lawn &#38; Tree. Returning to the venue where the series first began made the event even mor
 - **NEW**  [[St. Louis] Ask George: What summertime dish would you drive across St. Louis for?](https://www.stlmag.com/dining/ask-george-what-summertime-dish-would-you-drive-across-st-louis-for/) — *2026-07-24*
@@ -29,37 +31,25 @@ state: fresh
   > <p>Shark-loving St. Louisans can flock to the St. Louis Aquarium at Union Station July 24—August 2 for Shark Week, the aquarium’s celebration of the magnificent and ferocious creatures of the sea. The aquarium will feature a variety of family-friendly activities designed to delig
 - [[St. Louis] Prohibition adds elevated shareable food to its cocktail experience](https://www.stlmag.com/dining/prohibition-adds-elevated-shareable-food-to-its-cocktail-experience/) — *2026-07-23*
   > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
-- [[St. Louis] Peter Hoffman is fighting vacancy, one derelict house at a time](https://www.stlmag.com/news/peter-hoffman-fighting-vacancy/) — *2026-07-23*
-  > <p>Attorney Peter Hoffman is doing as much as anyone in St. Louis to combat the problem of vacant properties in the city—and there is no doubt that vacancies are indeed a problem. Hoffman calls it “existential.”  ”The population for the region is stagnant,” he says. If we don’t s
-- **NEW**  [[St. Louis] General Motors announces $157 million investment in Wentzville plant's paint shop](https://www.ksdk.com/article/news/general-motors-announces-157-million-investment-wentzville-plants-paint-shop/63-122700a9-cbfd-49bd-99cb-b53845ef6c8c) — *2026-07-24*
-  > GM is investing $157 million to modernize the Wentzville Assembly Plant's paint shop, adding a new 28,000-square-foot building over the next year and a half
-- **NEW**  [[St. Louis] Tony Romo arrested on suspicion of operating vehicle while under the influence](https://www.ksdk.com/article/news/nation-world/tony-romo-arrested-milwaukee-for-operating-while-under-the-influence/507-7d1b2336-e220-4346-8152-518cceb13c64) — *2026-07-24*
-  > The former Dallas Cowboys quarterback was arrested in Milwaukee, Wisconsin, on Thursday night.
-- **NEW**  [[St. Louis] Years before missing boy's remains were found outside Belleville, father's girlfriend covered up his location, investigators say](https://www.ksdk.com/article/news/local/illinois-missing-boy-remains-belleville-fathers-girlfriend-cover-up-unsealed-documents-st-louis/63-b7b6ea9c-7cd1-47af-884e-fb85cb247cae) — *2026-07-24*
-  > At the time they were charged, court documents in Jones' case were open and described his efforts to conceal the whereabouts of the child, but Dora's were closed.
-- **NEW**  [[St. Louis] Parasite outbreak tied to lettuce expands to 9 states](https://www.ksdk.com/article/news/nation-world/parasite-outbreak-lettuce-expands-9-states/507-4b5cd2dc-39b9-429d-bd81-eb67f72ce0fc) — *2026-07-24*
-  > Illinois, Kansas, Oklahoma and Pennsylvania were newly linked to the outbreak as investigators continue tracing recalled shredded iceberg lettuce.
-- **NEW**  [[St. Louis] Spencer joins US mayors calling for end to federal SNAP cuts, citing a hunger ‘crisis'](https://www.ksdk.com/article/news/politics/spencer-joins-us-mayors-calling-end-federal-snap-cuts-citing-hunger-crisis/63-87272081-c231-493d-bfa2-fe178fac48f2) — *2026-07-24*
-  > The 210 mayors who signed a letter to Senate leaders said they are on the “front lines of a deepening food security crisis.”
-- **NEW**  [[St. Louis] Teenager pleads guilty to all 55 counts in 2024 fatal shooting at Apalachee High School in Georgia](https://www.ksdk.com/article/news/nation-world/teenager-pleads-guilty-to-2024-school-shooting/507-49f5fe14-be40-40d3-81ec-89370c5621e0) — *2026-07-24*
-  > Colt Gray, 16, entered the plea Friday without having reached a deal with prosecutors. Two teachers and two students died in the 2024 shooting north of Atlanta.
-- **NEW**  [[St. Louis] Ford recalls more than 565,000 Broncos over fire risk](https://www.ksdk.com/article/news/nation-world/ford-recall-broncos-fire-risk/507-a841d9b1-02be-4ed2-b846-997eaa938733) — *2026-07-24*
-  > A wiring harness in the engine compartment can short circuit, potentially causing smoke, warning messages or flames, according to Ford.
-- **NEW**  [[St. Louis] Two New York men plead guilty to smuggling hundreds of protected turtles to Asia](https://www.ksdk.com/article/news/nation-world/two-new-york-men-charged-with-smuggling-turtles-asia/507-acc99660-e6f6-46a2-8279-35f6646cd697) — *2026-07-24*
-  > The turtles, despite being protected by an international treaty, are highly prized as pets in China.
-- **NEW**  [[St. Louis] GM to invest $157M in Wentzville plant as automaker signals long-term commitment](https://www.ksdk.com/article/news/local/gm-invest-157m-wentzville-plant-long-term-commitment/63-e36f8b2d-cc87-4a03-a86d-d358db0bbce6) — *2026-07-24*
-  > GM’s investment is not expected to increase the number of employees at the plant, which has about 4,100 workers and opened in 1983.
-- **NEW**  [[St. Louis] Man charged with murder in drive-by shooting of woman in Greater Ville](https://www.ksdk.com/article/news/crime/man-charged-murder-drive-by-shooting-woman-in-greater-ville/63-085c00a4-d9e6-4e05-a0d8-d94d5a88ccd3) — *2026-07-24*
-  > Brandon King, 21, was charged with first-degree murder, unlawful use of a weapon and two counts of armed criminal action in connection with the July 12 shooting.
-- **NEW**  [[St. Louis] Widespread showers arrive in St. Louis area in Friday, live radar shows](https://www.ksdk.com/article/weather/weather-impact/st-louis-live-weather-radar-rain-showers-arrive-friday-july-24-2026/63-08b160fa-6374-4993-b1bb-4a82ac6be5e0) — *2026-07-24*
-  > Rain may linger into Saturday morning before skies gradually clear and temperatures rebound into the upper 80s.
-- **NEW**  [[St. Louis] LeBron James has announced where he'll play after leaving the Lakers](https://www.ksdk.com/article/news/nation-world/lebron-james-philadelphia-76ers/507-50acb8c6-fa55-42c2-bc93-69d8f12534f4) — *2026-07-24*
-  > In a post on X, James said he was excited to "start this incredible journey one last time."
-- **NEW**  [[St. Louis] Near-abduction of 8-year-old in St. John triggers manhunt for suspect, police say](https://www.ksdk.com/article/news/local/missouri-child-abduction-st-john-manhunt/63-b57921d9-a4e6-4ee3-973a-c096a7ff8359) — *2026-07-24*
-  > Anyone with information is asked to call the St. John Police Department at 314-427-8700 or non-emergency dispatch at 636-529-8210.
-- **NEW**  [[St. Louis] Amazon Prime members have days left to claim up to $51](https://www.ksdk.com/article/news/nation-world/amazon-prime-settlement-deadline-approaching/507-fa97b883-627d-4ac6-b34c-b41ad1acc06f) — *2026-07-24*
-  > The payments stem from a $2.5 billion settlement over allegations Amazon enrolled some customers in Prime without their consent.
-- **NEW**  [[St. Louis] Lil Wayne, Karol G, Pedro Pascal among 32 names to be paved into Hollywood Walk of Fame. See the full list](https://www.ksdk.com/article/news/nation-world/lil-wayne-karol-g-pedro-pascal-nascar-jimmie-johnson/507-3ab1ca00-b954-42fa-a08d-571f79a83512) — *2026-07-24*
-  > For sports, NASCAR's Jimmie Johnson became the first racecar driver to ever be inducted.
+- **NEW**  [[St. Louis] Bell and Bush trade barbs over campaign spending and Israel in fiery faceoff on STLPR](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/missouri-wesley-bell-cori-bush-radio-appearance) — *2026-07-24*
+- **NEW**  [[St. Louis] Friends, family remember 5 killed in East St. Louis ‘family annihilation’](https://www.stlpr.org/law-order/2026-07-24/remember-5-killed-east-st-louis-annihilation) — *2026-07-24*
+- **NEW**  [[St. Louis] Southern Illinois is now home to one of few university-based Samoan language courses in the U.S.](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/southern-illinois-university-edwardsville-is-now-home-to-one-of-few-university-based-samoan-language-courses-in-the-u-s) — *2026-07-24*
+- **NEW**  [[St. Louis] DOJ probe prompts St. Louis County’s Special School District to revise seclusion, restraint policies](https://www.stlpr.org/education/2026-07-24/doj-probe-prompts-st-louis-countys-special-school-district-to-revise-seclusion-restraint-policies) — *2026-07-24*
+- **NEW**  [[St. Louis] Lemay neighbors worry plan to fill quarry with construction waste will bring traffic, floods, noise](https://www.stlpr.org/health-science-environment/2026-07-24/lemay-quarry-construction-waste-traffic-floods-noise) — *2026-07-24*
+- **NEW**  [[St. Louis] A federally endangered plant in Missouri is facing a new threat](https://www.stlpr.org/health-science-environment/2026-07-24/a-federally-endangered-plant-missouri-facing-new-threat) — *2026-07-24*
+- **NEW**  [[St. Louis] Using esports, a St. Louis foundation aims to help gamers score scholarships and careers](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/esports-bgg-foundation-esports) — *2026-07-24*
+- **NEW**  [[St. Louis] After flash floods drove southern Missouri tourists away, business owners say ‘Come float!’](https://www.stlpr.org/economy-business/2026-07-24/after-flash-floods-drove-southern-missouri-tourists-away-business-owners-say-come-float) — *2026-07-24*
+- [[St. Louis] Hawley pushing for disaster money to help St. Louis recover from 2025 tornado](https://www.stlpr.org/government-politics-issues/2026-07-23/hawley-pushing-for-disaster-money-to-help-st-louis-recover-from-2025-tornado) — *2026-07-23*
+- [[St. Louis] Hazelwood voters to weigh personal property tax increase for new fire station](https://www.stlpr.org/government-politics-issues/2026-07-23/hazelwood-voters-weigh-personal-property-tax-increase-fire-station) — *2026-07-23*
+- [[St. Louis] The Millennium Hotel is coming down, its iconic rotating restaurant will live on at the City Museum - First Alert 4](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTc2UDFUbGtqY3UxdUtFdmRXd3duVzNia0xLd1J4UGhlYnNPWWRCZndPTGk5SXNXeS1ZWWZxd3dHR3Jwdll1ZFNRZ0VjTlRJWF9sUzdtU2JBWktVa1ppZ2s0bVlpbTlNNXdMN0RJS3UwZ0pqV01OZXVHakhVRGdTUnpFSXF1eGliaTN6a0VVb3k5ai11NDNDM0xla1BEYW0wRV93Z3ZGUmV6Wl
+- **NEW**  [[St. Louis] Nearly 100 dogs rescued from Metro East hoarding case - First Alert 4](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOQU9xaXltS3A2RzlqRktWZW9UakhNUXBMTDl3Q20tbTdkSkhSR19tTTRXd3ptWERNZzl1UVBSU3dDbDhOOFVnNF9BMmI0eHNzbFprV3NwNGNZTXgzQUJzbGhOdFI3eTZ0NzBZemhuQnRrdno1a1VOS2xEWjBpZ2RNdmFFZlVqMjVaVkgxdjUzVFhFZ9IBpgFBVV95cUxPbm4wQ1NSQnhPUW5fLW
+- **NEW**  [[St. Louis] KMOV Channel 32.1 to be the new home of the ABC Television Network, expanding local news coverage in St. Louis - First Alert 4](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2JDVVVjSmZrd056Y3k3RGpzZm5IN19RSkVrQzNGNFZNUkNneXRKREFrcmoyZHJfQkdvWXhyeWxWWkNXSDZvOG4zbl9GM21LaWlBMFEzaXRMR19PUUxmY3pxdHRzQUIwaDhlcnFwU1dFSUZvQnVHbDJaaFM0MmVHMDdOLXc4YW52NEZUZ29tUVVyQWZESFh2UzlEdmxBODA4X3ZhSmhmTFJ1bD
+- **NEW**  [[St. Louis] Police ask for public’s help in identifying suspects in Carr Square stabbing - First Alert 4](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVhweFpFc0pFei1yQk9pY3NhOUFlV1VjSzM4dGh5SkRUYTY5SGw3NklzTFlNYWFfSUtXckZFeXBqck1yQ1Y0WThfeGI1bzdKZklmMVNYSzlTQ1IzdHBwV1VJaDBMOEV2SkU5Zm1fa21oamxzdzBGcXI2VDJRcWY1UXBDTmVQaXhBVGwzZmpwRUo2bHJnSEI2bWNGYXQ5VWVGUVJxRUUxQ2M?oc
+- [[St. Louis] Parkway School District changes food distributor, prompting WARN Notice - First Alert 4](https://www.firstalert4.com) — *2026-07-22*
+  > <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNV3BPUXB0OHpOT094MFhvMWpkX2lmU0w3bXRkMGtnMGp0UnBzaktaZGtmbEFpVmkwT0lJZXpWempreHdISkxuRVYwVkJvcEFYWE5jdEZIUUtMeTRQRGdXeGlOT09LSFNfM2Uxcm9SUTZVSXVlUTRBd2Z4eWZRclFMRVBMaE9kOUE1TjE4ZFZGNTNZRXpDMEVkYjZ5MGhQTFpfVk9KbkFSUHhMU2
 
-_(225 additional items in raw.jsonl)_
+_(232 additional items in raw.jsonl)_

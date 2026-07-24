@@ -2,15 +2,17 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-07-24
-record_count: 1226
-new_today: 682
+record_count: 1008
+new_today: 690
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-682 new of 1226 total items today.
+690 new of 1008 total items today.
 
+- **NEW**  [[TITLE: Paramount согласилась заморозить процесс поглощения Warner Bros. почти на год | LEDE: <p>Компания Paramount Skydance согласилась заморозить сделку по поглощению Warner Bros. Discovery до 1 июня] (ru: Paramount согласилась заморозить процесс поглощения Warner Bros. почти на год)](https://meduza.io/news/2026/07/24/paramount-soglasilas-zamorozit-protsess-pogloscheniya-warner-bros-na-god) — *2026-07-24*
+  > <p>Компания Paramount Skydance согласилась заморозить сделку по поглощению Warner Bros. Discovery до 1 июня 2027 года — пока федеральный судья не вынесет решение по антимонопольному иску, который ранее подали 12 штатов.<p>
 - **NEW**  [[TITLE: Трамп пригрозил Европе «значительными пошлинами» из-за штрафов, наложенных на американские бигтех-компании | LEDE: <p>Дональд Трамп пообещал, что его администрация начнет расследование в отноше] (ru: Трамп пригрозил Европе «значительными пошлинами» из-за штрафов, наложенных на ам)](https://meduza.io/news/2026/07/24/tramp-prigrozil-evrope-znachitelnymi-poshlinami-iz-za-shtrafov-nalozhennyh-na-amerikanskie-bigteh-kompanii) — *2026-07-24*
   > <p>Дональд Трамп пообещал, что его администрация начнет расследование в отношении Евросоюза в связи с практикой «ограбления» американских компаний, которым ЕС назначает многомиллиардные штрафы.<p>
 - **NEW**  [[TITLE: Прокурора Международного уголовного суда Карима Хана (это он выдал ордер на арест Путина) отстранили от должности по обвинению в домогательствах | LEDE: <p>Страны-участницы Международного уголо] (ru: Прокурора Международного уголовного суда Карима Хана (это он выдал ордер на арес)](https://meduza.io/news/2026/07/24/prokurora-mezhdunarodnogo-ugolovnogo-suda-karima-hana-eto-on-vydal-order-na-arest-putina-otstranili-ot-dolzhnosti-po-obvineniyu-v-domogatelstvah) — *2026-07-24*
@@ -59,7 +61,5 @@ state: fresh
   > <p>Шесть человек погибли, 26 получили ранения в результате удара Украины на предприятие в Кирове, сообщил губернатор Кировской области Александр Соколов.<p>
 - **NEW**  [[TITLE: Пентагон включил Курчатовский институт в список учреждений, угрожающих нацбезопасности США. Ранее в него попали МГУ, ВШЭ и МГТУ имени Баумана | LEDE: <p>Пентагон включил 130 академических и исс] (ru: Пентагон включил Курчатовский институт в список учреждений, угрожающих нацбезопа)](https://meduza.io/news/2026/07/24/pentagon-vklyuchil-mgu-vshe-mgtu-imeni-baumana-v-spisok-uchrezhdeniy-ugrozhayuschih-natsionalnoy-bezopasnosti-ssha) — *2026-07-24*
   > <p>Пентагон включил 130 академических и исследовательских организаций из России, Китая и Ирана в список учреждений, представляющих угрозу национальной безопасности США.<p>
-- **NEW**  [[TITLE: «Золотая корона» прекратила переводы в Грузию, а «Цифра банк» — в Казахстан | LEDE: <p>Система денежных переводов «Золотая Корона» отключила возможность переводить деньги в Грузию, сообщает «Ко] (ru: «Золотая корона» прекратила переводы в Грузию, а «Цифра банк» — в Казахстан)](https://meduza.io/news/2026/07/24/zolotaya-korona-prekratila-perevody-v-gruziyu-a-tsifra-bank-v-kazahstan) — *2026-07-24*
-  > <p>Система денежных переводов «Золотая Корона» отключила возможность переводить деньги в Грузию, сообщает «Код Дурова». <p>
 
-_(1201 additional items in raw.jsonl)_
+_(983 additional items in raw.jsonl)_

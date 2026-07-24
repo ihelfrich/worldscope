@@ -2,15 +2,31 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-24
-record_count: 112
-new_today: 8
+record_count: 252
+new_today: 148
 state: fresh
 ---
 
 ## State Legislative Action
 
-8 new of 112 total items today.
+148 new of 252 total items today.
 
+- **NEW**  [[Alabama HB 42] Motor vehicles; reporting requirements for towed and unclaimed motor vehicles, further provided]() — *2026-07-24*
+  > Motor Vehicles & Traffic
+- **NEW**  [[Alabama HB 159] Retirement benefits, circuit clerks authorized to participate in supernumerary program and Employees' Retirement System based on separate years of service]() — *2026-07-24*
+  > Retirement
+- **NEW**  [[Alabama HB 7] Crimes and offenses, credible threat defined; penalties for crimes of making a terrorist threat in the first or second degree provided further for; principal to immediately contact law enforcement of terrorist threat, suspension of student, readmittance, and restitution provided]() — *2026-07-24*
+  > Crimes & Offenses
+- **NEW**  [[Alabama HB 8] Campus chaplains; public K-12 schools authorized to accept as volunteers, local boards of education and governing bodies authorized to vote on whether to allow, limitations provided]() — *2026-07-24*
+  > Education
+- **NEW**  [[Alabama HB 311] Retirement benefits; participation of qualifying sheriffs in supernumerary program and Employees' Retirement System based on separate years of service authorized]() — *2026-07-24*
+  > Retirement
+- **NEW**  [[Alabama HB 155] Homestead Exemptions; removing the annual verification requirement for qualifying permanently and totally disabled veterans]() — *2026-07-24*
+  > Military
+- **NEW**  [[Alabama HB 75] Public high schools; students excused from class for scholarship acceptance, college commitment, military enlistment]() — *2026-07-24*
+  > Education
+- **NEW**  [[Alabama HB 545] Legal tender; authorizing the rounding of in-person cash transactions to the nearest five cents]() — *2026-07-24*
+  > Consumer Protection
 - [[Alabama SB 136] Sunset law; Alabama Massage Therapy Licensing Board continued with modification until October 1, 2027, when renamed Alabama Massage Advisory Council under the regulatory authority of the Alabama Department of Public Health]() — *2026-07-22*
   > Occupational Licensing Boards
 - [[Alabama SB 183] Alabama Board of Cosmetology and Barbering; natural hair styling exempt from regulation]() — *2026-07-22*
@@ -45,21 +61,5 @@ state: fresh
   > An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful e
 - [[Alaska HB 211] An Act relating to prepaid legal plans.]() — *2026-07-22*
   > An Act relating to prepaid legal plans.
-- [[Alaska HB 193] An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support obl]() — *2026-07-22*
-  > An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support
-- **NEW**  [[California SB 820] Inmates: mental health.]() — *2026-07-24*
-  > Existing law prohibits a person from being tried or adjudged to punishment while that person is mentally incompetent. Existing law establishes a process by which a defendant's mental competency is evaluated. Existing law, in the case of a misdemeanor charge in which the defendant
-- **NEW**  [[California SB 809] Employees and independent contractors: construction trucking.]() — *2026-07-24*
-  > (1) Existing law, as established in the case of Dynamex Operations W. v. Superior Court (2018) 4 Cal.5th 903 (Dynamex) , creates a presumption that a worker who performs services for a hirer is an employee for purposes of claims for wages and benefits arising under wage orders is
-- [[California SB 793] Public safety: lighters: standards: prohibition.]() — *2026-07-23*
-  > Existing law requires the State Fire Marshal to specify standards for the design of cigarette lighters using an 80% acceptance criterion with respect to safety features that prevent operation of the lighters by children 5 years of age or younger. Existing law prohibits a person f
-- [[California AB 2206] Teacher credentialing: community college baccalaureate degrees: designated subjects career technical education teaching credential.]() — *2026-07-23*
-  > Existing law requires the Commission on Teacher Credentialing to establish standards for the issuance and renewal of credentials, certificates, and permits. Existing law prescribes specific minimum requirements a candidate must satisfy to be issued a teaching credential, certific
-- [[California AB 2176] Student housing: intersegmental working group.]() — *2026-07-23*
-  > Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of
-- [[California AB 1567] General plan: annual report: congregate and residential care for the elderly.]() — *2026-07-23*
-  > The Planning and Zoning law requires each planning agency to prepare and the legislative body of each county and city to adopt a comprehensive, long-term general plan containing specified elements, including a housing element. Existing law requires the housing element to be revis
-- [[California AB 2241] School facilities: inclusive school playgrounds.]() — *2026-07-23*
-  > If state funds are used for a public building or facility or local funds are used for a school or community college building or facility, including a school playground, existing law prohibits a contract from being awarded until the Department of General Services issues a written 
 
-_(87 additional items in raw.jsonl)_
+_(227 additional items in raw.jsonl)_

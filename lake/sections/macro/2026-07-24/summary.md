@@ -11,18 +11,18 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-22*
-  > latest: 3.6300000000 as of 2026-07-22
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-22*
-  > latest: 4.3100000000 as of 2026-07-22
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-22*
-  > latest: 4.6700000000 as of 2026-07-22
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-22*
-  > latest: 5.1500000000 as of 2026-07-22
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-23*
+  > latest: 3.6300000000 as of 2026-07-23
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-23*
+  > latest: 4.3700000000 as of 2026-07-23
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-23*
+  > latest: 4.7100000000 as of 2026-07-23
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-23*
+  > latest: 5.1700000000 as of 2026-07-23
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-23*
   > latest: 3.64 as of 2026-07-23
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-23*
-  > latest: 0.34 as of 2026-07-23
+- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-24*
+  > latest: 0.36 as of 2026-07-24
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-06-01*
   > latest: 332.568 as of 2026-06-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-06-01*

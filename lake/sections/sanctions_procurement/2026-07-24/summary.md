@@ -2,19 +2,19 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-24
-record_count: 128
+record_count: 129
 new_today: 9
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-9 new of 128 total items today.
+9 new of 129 total items today.
 
-- [[OFAC] Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
 - **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions; Issuance of Amended Venezuela-related Frequently Asked Question; Publication of Regulatory Amendments - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
+- [[OFAC] Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
 - [[OFAC] Russia-related Designations Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
 - [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $3,116,039,041 → LEIDOS, INC.: SCIENCE OPERATION AND MAINTENANCE SUPPORT FOR THE UNITED STA](https://www.usaspending.gov/award/NSFDACS1219442) — *2026-07-24*
   > Agency: National Science Foundation.  Description: SCIENCE OPERATION AND MAINTENANCE SUPPORT FOR THE UNITED STATES ANTARCTIC PROGRAM
 
-_(103 additional items in raw.jsonl)_
+_(104 additional items in raw.jsonl)_
