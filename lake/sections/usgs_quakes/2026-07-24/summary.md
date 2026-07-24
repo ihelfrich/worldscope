@@ -2,21 +2,17 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-24
-record_count: 20
+record_count: 18
 new_today: 7
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-7 new of 20 total items today.
+7 new of 18 total items today.
 
 - [M 5.8 - 130 km W of Ternate, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2w3) — *2026-07-23*
   > M5.8 · 130 km W of Ternate, Indonesia · depth 49.188 km
-- [M 5.1 - 92 km SE of Atka, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2n5) — *2026-07-23*
-  > M5.1 · 92 km SE of Atka, Alaska · depth 35 km
-- [M 5.1 - 85 km SE of Tatsugō, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2n3) — *2026-07-23*
-  > M5.1 · 85 km SE of Tatsugō, Japan · depth 10 km
 - **NEW**  [M 5.0 - 94 km SSE of Adak, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2wx) — *2026-07-24*
   > M5.0 · 94 km SSE of Adak, Alaska · depth 10 km
 - [M 5.0 - 38 km SSE of Spearman, Texas](https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky) — *2026-07-23*

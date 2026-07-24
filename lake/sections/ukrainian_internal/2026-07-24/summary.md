@@ -2,17 +2,21 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-07-24
-record_count: 119
-new_today: 37
+record_count: 120
+new_today: 38
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-37 new of 119 total items today.
+38 new of 120 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-24*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-24*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: Росіяни розстріляли полоненого українського бійця після допиту | LEDE: Прокуратура розслідує черговий злочин окупантів – розстріл українського військовополоненого на Донеччині.] (uk: Росіяни розстріляли полоненого українського бійця після допиту)](https://www.pravda.com.ua/news/2026/07/24/8045691/) — *2026-07-24*
+  > Прокуратура розслідує черговий злочин окупантів – розстріл українського військовополоненого на Донеччині.
 - **NEW**  [[TITLE: F-16 збив безпілотник, який залетів на територію Румунії | LEDE: Румунський винищувач F-16 24 липня збив безпілотник, який порушив повітряний простір країни.] (uk: F-16 збив безпілотник, який залетів на територію Румунії)](https://www.pravda.com.ua/news/2026/07/24/8045687/) — *2026-07-24*
   > Румунський винищувач F-16 24 липня збив безпілотник, який порушив повітряний простір країни.
 - **NEW**  [[TITLE: Росія потрапила до списку країн, щодо яких США ввели нові мита | LEDE: США ввели нові мита щодо 60 торговельних партнерів, у список яких, зокрема, потрапила й Росія.] (uk: Росія потрапила до списку країн, щодо яких США ввели нові мита)](https://www.pravda.com.ua/news/2026/07/24/8045685/) — *2026-07-24*
@@ -49,15 +53,11 @@ state: fresh
 - **NEW**  [[TITLE: Сибіга і Сікорський обговорили загрозу продовольчій безпеці через атаки РФ у Чорному морі | LEDE: Сибіга і Сікорський обговорили російські атаки, санкції та підтримку України з боку Польщі.] (uk: Сибіга і Сікорський обговорили загрозу продовольчій безпеці через атаки РФ у Чор)](https://www.pravda.com.ua/news/2026/07/24/8045656/) — *2026-07-24*
   > Сибіга і Сікорський обговорили російські атаки, санкції та підтримку України з боку Польщі.
 - **NEW**  [[TITLE: Посол Німеччини завершує роботу в Україні | LEDE: ] (uk: Посол Німеччини завершує роботу в Україні)](https://www.pravda.com.ua/news/2026/07/24/8045652/) — *2026-07-24*
-- **NEW**  [[TITLE: ОВА: Росіяни масовано атакували Одещину БпЛА і ракетами – постраждала жінка й дитина | LEDE: В ніч 24 липня російські окупаційні війська здійснили чергову масовану атаку на Одеську область раке] (uk: ОВА: Росіяни масовано атакували Одещину БпЛА і ракетами – постраждала жінка й ди)](https://www.pravda.com.ua/news/2026/07/24/8045650/) — *2026-07-24*
-  > В ніч 24 липня російські окупаційні війська здійснили чергову масовану атаку на Одеську область ракетами та ударними безпілотниками: двоє людей постраждали, пошкоджено інфраструктуру.
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-24*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-24*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-24*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] Hromadske: HTTPError](https://hromadske.ua/rss) — *2026-07-24*
-  > 404 Client Error: Not Found for url: https://hromadske.ua/rss
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-24*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Romanian F-16 Downs Unidentified Drone During Russian Strike on Ukraine](https://www.kyivpost.com/post/80977) — *2026-07-24*
+  > Romanian President Nicușor Dan said his country’s F-16 downed an unidentified drone violating the airspace at around 11 a.m. on Friday, adding that an investigation is ongoing to establish the full circumstances.
+- **NEW**  [Kyiv Under Rare Daytime Ballistic Missile Strike](https://www.kyivpost.com/post/80973) — *2026-07-24*
+  > Kyiv Post correspondents report multiple explosions in and around the city on Friday, July 24, as the Ukrainian Air Force warns of incoming ballistic missiles in a rare daytime attack. Currenly estimates suggest 12 missiles were launched, including ballistic missiles and the Tsir
 
-_(94 additional items in raw.jsonl)_
+_(95 additional items in raw.jsonl)_

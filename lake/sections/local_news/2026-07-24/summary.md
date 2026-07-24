@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-24
-record_count: 241
-new_today: 51
+record_count: 250
+new_today: 66
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-51 new of 241 total items today.
+66 new of 250 total items today.
 
 - [[St. Louis] What’s True in the Lou 7/24/2026](https://www.stlmag.com/games/whats-true-in-the-lou-072426/) — *2026-07-23*
   > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
@@ -31,8 +31,6 @@ state: fresh
   > <p>Three large signs near the Interstates 44 and 55 interchange south of downtown St. Louis aren’t directing much traffic, though they are turning heads.  The highway signs, meant to guide highway drivers to Memphis (via southbound 55), Tulsa (via westbound 44), or 12th Street, a
 - [[St. Louis] Why innovation takes more than a great idea](https://www.stlmag.com/branded-content/why-innovation-needs-an-ecosystem/) — *2026-07-22*
   > <p>Most people have heard the word &#8220;ecosystem&#8221; in conversations about startups, innovation, or economic development. Outside those industries, it can sound like another business buzzword. Justin Raymundo wants people to think about it differently. As vice president of
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-24*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - **NEW**  [[St. Louis] Explosions are heard near a US base in northern Iraq after US strikes Iran](https://www.ksdk.com/article/news/nation-world/explosions-iraq-military-iran-war-13th-night/507-ac7f528f-1cce-4c73-a24e-77d22edacc1e) — *2026-07-24*
   > An Associated Press journalist heard at least seven blasts Friday morning local time in the city of Irbil, the capital of Iraq’s semi-autonomous Kurdish region.
 - **NEW**  [[St. Louis] Kenmore Air floatplane with 11 on board catches fire after emergency landing in Washington's San Juan Islands](https://www.ksdk.com/article/news/nation-world/kenmore-air-floatplane-crash-san-juan-islands/507-2f2c73c2-98fe-41b4-a322-a876f0ed4b27) — *2026-07-24*
@@ -61,5 +59,7 @@ state: fresh
   > More than 120,000 people are expected at the four-day expo, which is the nation's largest.
 - [[St. Louis] A boater's photo might be 'the last picture' of group drowned in an Ohio river](https://www.ksdk.com/article/news/nation-world/photo-last-group-drowned-ohio-river/507-1b5c4e71-5384-448e-b360-2181c35cbe30) — *2026-07-23*
   > Marcus L. Martin said he saw five adults in the water and two children on the bank, tracking the description of the group provided by Delaware County authorities.
+- [[St. Louis] 18-year-old charged with murder in shooting near MetroLink that left 2 dead](https://www.ksdk.com/article/news/local/18-year-old-charged-with-murder-shooting-near-metrolink-that-left-2-dead/63-af4d298a-4fda-40a1-b4b4-2e62d3bf45f9) — *2026-07-23*
+  > Police say a late-night robbery near the North Hanley MetroLink Station ended in gunfire that left two people dead and two others injured.
 
-_(216 additional items in raw.jsonl)_
+_(225 additional items in raw.jsonl)_

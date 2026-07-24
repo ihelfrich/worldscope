@@ -32,7 +32,7 @@ state: fresh
    evidence: [lake:political_figures:0001916048-2], [lake:political_figures:https://www.]
 7. **Tracey Mann** (Representative, Republican, KS-1st): composite 0.067
    drivers: new_filings=0.67
-   evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
+   evidence: [lake:political_figures:gkg-20260724], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
 8. **Rand Paul** (Senator, Republican, KY): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001193125-2]

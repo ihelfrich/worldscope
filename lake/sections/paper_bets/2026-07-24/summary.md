@@ -25,8 +25,8 @@ date: 2026-07-24
 - Calibration error (ECE): **0.177** · overconfidence **-0.177**
 
 ### Today's market state
-- Active markets indexed: **150**
+- Active markets indexed: **149**
   - polymarket: 15
   - kalshi: 50
-  - manifold: 35
+  - manifold: 34
   - predictit: 50

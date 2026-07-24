@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-24
-record_count: 25
-new_today: 25
+record_count: 43
+new_today: 43
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+43 new of 43 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Rusya , 3 limana saldırı düzenledi – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı](https://www.turktime.com/haber/rusya-3-limana-saldiri-duzenledi/750274) — *2026-07-24*
-  > turktime.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Incendie en Gironde  : l  évacuation de la presqu  île du Cap - Ferret ordonnée , plus de 10 000 ha parcourus par les flammes](https://www.leparisien.fr/environnement/incendie-en-gironde-levacuation-de-la-presquile-du-cap-ferret-ordonnee-8-700-ha-parcourus-par-les-flammes-24-07-2026-S2Y2TFNHWFB57HBVH5BDKHNGQA.php) — *2026-07-24*
-  > leparisien.fr · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Condena de la OMI a los ataques marítimos en el mar Rojo durante el bloqueo hutí](https://www.andaluciainformacion.es/articulo/mundo/condena-omi-ataques-maritimos-mar-rojo-bloqueo-huti/202607241000203440087.html) — *2026-07-24*
-  > andaluciainformacion.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] WSJ ： 伊朗戰爭看不到盡頭 川普已對外交失去耐性 | 國際](https://www.cna.com.tw/news/aopl/202607240184.aspx) — *2026-07-24*
-  > cna.com.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 董秘江湖之商贸零售行业 ： 市井消费与资本市场的摆渡人 ， 串联起万千人间烟火 _ 个股资讯 _ 市场 _ 中金在线](http://sc.stock.cnfol.com/ggzixun/20260724/32316957.shtml) — *2026-07-24*
-  > sc.stock.cnfol.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 中国AI为全球网络安全架桥铺路](http://www.china.com.cn/opinion2020/2026-07/24/content_118616128.shtml) — *2026-07-24*
-  > china.com.cn · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Oil prices hit $100 for the first time since May](https://island.lk/oil-prices-hit-100-for-the-first-time-since-may/) — *2026-07-24*
-  > island.lk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Estreno de Imanes de nevera : Un viaje sonoro a Roma en RNE](https://www.rtve.es/radio/20260724/crimen-carbonara-asesinato-enmudecio-a-roma-rne-estrena-imanes-nevera/17159985.shtml) — *2026-07-24*
-  > rtve.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Ora è tutta la Russia ad avere un problema con il carburante](https://www.ilpost.it/2026/07/11/carenza-carburante-russia/?homepagePosition=25.1&referrerPost=3639617) — *2026-07-24*
-  > ilpost.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Brent Petrol 100 Doların Altına Geriledi](https://www.haberaktuel.com/brent-petrol-100-dolarin-altina-geriledi-3468099) — *2026-07-24*
-  > haberaktuel.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] UK  ready to defend itself  after Iran criticises US using British bases](https://www.keighleynews.co.uk/news/national/26405807.uk-ready-defend-itself-iran-criticises-us-using-british-bases/) — *2026-07-24*
-  > keighleynews.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 14 Personen verletzt – Luxus - Schiff rammt Mauer bei Wiener Kraftwerk](https://www.heute.at/s/luxus-schiff-rammt-mauer-bei-wiener-kraftwerk-120228008) — *2026-07-24*
-  > heute.at · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Die Lage im Überblick : Trump erhöht Druck auf Iran – Bombardements gehen weiter - Politik](https://www.rnz.de/politik/nachrichten_artikel,-Die-Lage-im-Ueberblick-Trump-erhoeht-Druck-auf-Iran-Bombardements-gehen-weiter-_arid,2384498.html) — *2026-07-24*
-  > rnz.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] BCE deve subir taxa de juro pelo menos mais três vezes até 3 % e 3 , 25 % já é uma hipótese](https://sapo.pt/artigo/bce-deve-subir-taxa-de-juro-pelo-menos-mais-tres-vezes-ate-3-e-3-25-ja-e-uma-hipotese-6a630e319c9f29b5ce353c4d) — *2026-07-24*
-  > sapo.pt · Portuguese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Scheffler 3 back after timid start | The Arkansas Democrat - Gazette - Arkansa Best News Source](https://www.arkansasonline.com/news/2026/jul/24/scheffler-3-back-after-timid-start/) — *2026-07-24*
-  > arkansasonline.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 這不是假照片 ！ 龍潭轉運站招牌爆紅 ， 網看傻 ： 以為小畫家P的](https://cars.tvbs.com.tw/life/333841) — *2026-07-24*
-  > cars.tvbs.com.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Ανοδικές τάσεις στο Χρηματιστήριο Αθηνών](https://www.newsbeast.gr/financial/arthro/13254769/anodikes-taseis-sto-chrimatistirio-athinon-10) — *2026-07-24*
-  > newsbeast.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Petrol kritik seviyeyi aştı : Küresel arz endişesi fiyatları tırmandırdı ! – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı](https://www.turktime.com/haber/petrol-kritik-seviyeyi-asti-kuresel-arz-endisesi-fiyatlari-tirmandirdi/750263) — *2026-07-24*
-  > turktime.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] WSJ : Trump bijesan zbog rata s Iranom . Savjetnici strahuju od poraza na međuizborima](https://www.index.hr/vijesti/clanak/wall-street-journal-trump-gubi-strpljenje-zbog-rata-s-iranom/2817088.aspx) — *2026-07-24*
-  > index.hr · Croatian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Трамп : Иранским новцем у САД биће надокнађена штета на бродовима у Ормузу](https://www.rtrs.tv/vijesti/vijest.php?id=654000) — *2026-07-24*
-  > rtrs.tv · Serbian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 蔣萬安號召明聚凱道 「 反毒台 」 卓揆 ： 遊行是人民的權利 | 政治](https://newtalk.tw/news/view/2026-07-24/1049166) — *2026-07-24*
-  > newtalk.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Kerusakan Jembatan di Jalan Siwabesi Kota Atambua Dibiarkan Merana Hampir Tiga Tahun](https://kupang.tribunnews.com/regional-ntt/972951/kerusakan-jembatan-di-jalan-siwabesi-kota-atambua-dibiarkan-merana-hampir-tiga-tahun) — *2026-07-24*
-  > kupang.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump kërcënon se do të përdorë asetet iraniane për të paguar dëmet ndaj anijeve në Ngushticën e Hormuzit](https://24-ore.com/trump-kercenon-se-do-te-perdore-asetet-iraniane-per-te-paguar-demet-ndaj-anijeve-ne-ngushticen-e-hormuzit/) — *2026-07-24*
-  > 24-ore.com · Albanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Ovo je luksuz u kojem će uživati Stoja : Pevačica se seli u Hrvatsku , kupila stanu na  minut do mora  ](https://www.telegraf.rs/jetset/vesti-jetset/4365816-ovo-je-luksuz-u-kojem-ce-uzivati-stoja-pevacica-se-seli-u-hrvatsku-kupila-stanu-na-minut-do-mora) — *2026-07-24*
-  > telegraf.rs · Serbian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Историята на кучето Майло и Феран Торес : Защо футболистът избра домашен любимец от български приют ? ](https://www.novinite.bg/articles/287963/istoriyata-na-kucheto-maylo-i-feran-tores-zashto-futbolistat-izbra-domashen-lyubimec-ot-balgarski-priyut) — *2026-07-24*
-  > novinite.bg · Bulgarian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] صحيفة المنار - البترول يعود إلى صدارة الاحتقان في الضفة الغربية](https://www.manar.com/page-51749-ar.html) — *2026-07-24*
+  > manar.com · Arabic · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] SALUT | El CAP de Castelló dEmpúries consolida les activitats de rem , vela i passejades pels Aiguamolls com a eines de salut](https://www.emporda.info/comarca/2026/07/24/cap-castello-dempuries-consolida-activitats-rem-vela-passejades-aiguamolls-eines-salut-132693315.html) — *2026-07-24*
+  > emporda.info · Catalan · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Laura Loomer meets with Zelenskyy in Ukraine after her major reversal on the war](https://www.nbcnews.com/world/ukraine/laura-loomer-meets-zelenskyy-ukraine-major-reversal-war-rcna589014) — *2026-07-24*
+  > nbcnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Alpinistas desaparecidos : Por que escalar o Huascarán está se tornando cada vez mais perigoso ? ](https://oglobo.globo.com/blogs/clima-extremo/post/2026/07/alpinistas-desaparecidos-por-que-escalar-o-huascaran-esta-se-tornando-cada-vez-mais-perigoso.ghtml) — *2026-07-24*
+  > oglobo.globo.com · Portuguese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Former Corrie star Tracy Shaw heartbreaking cancer update](https://www.wimbledonguardian.co.uk/news/national/uk-today/26405820.former-corrie-star-tracy-shaws-heartbreaking-cancer-update/) — *2026-07-24*
+  > wimbledonguardian.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Villa Erba , doppia magia con Mannarino e Angelica Bove](https://www.ciaocomo.it/2026/07/23/villa-erba-doppia-magia-con-mannarino-e-angelica-bove/340025) — *2026-07-24*
+  > ciaocomo.it · Italian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] 忍三年腿疼难行走 ！ 80 岁老人从泰州奔赴镇江 ， 一台手术重获轻松步履](https://www.yangtse.com/news/jiangsu/202607/t20260724_375440.html) — *2026-07-24*
+  > yangtse.com · Chinese · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Gülistan Doku soruşturması : Handan Sonel dahil 3 kişi adliyeye sevk edildi](https://www.birgun.net/haber/gulistan-doku-sorusturmasi-handan-sonel-dahil-3-kisi-adliyeye-sevk-edildi-725438%20target=_blank%20class=stretched-link) — *2026-07-24*
+  > birgun.net · Turkish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Gunstein Dalane ( 76 ) døde etter drukningsulykken i Agder](https://www.vg.no/nyheter/i/rr9PyA/gunstein-dalane-76-doede-etter-drukningsulykken-i-agder) — *2026-07-24*
+  > vg.no · Norwegian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Τα μηνύματα του πολιτικού κόσμου για τα 52 χρόνια από την αποκατάσταση της Δημοκρατίας](https://www.cretalive.gr/ellada/ta-minymata-toy-politikoy-kosmoy-gia-ta-52-hronia-apo-tin-apokatastasi-tis-dimokratias) — *2026-07-24*
+  > cretalive.gr · Greek · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ecco la verità sul lupo di Camaiore e sul cane predato :  Nessun bambino in pericolo , le persone erano in casa  ](https://www.lastampa.it/la-zampa/2026/07/24/news/lupo_camaiore_cane_destiny_verita_fatti-425490042/) — *2026-07-24*
+  > lastampa.it · Italian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] İstanbulun simgesinde göz göre göre gelen felaket ! İBBnin hatası asırlık mirası rüttü ! ](https://www.haber7.com/guncel/haber/3645904-istanbulun-simgesinde-goz-gore-gore-gelen-felaket-ibbnin-hatasi-asirlik-mirasi-curuttu) — *2026-07-24*
+  > haber7.com · Turkish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Frankreich kämpft gegen Waldbrände : Mehr als 25 . 000 Menschen evakuiert – Halbinsel Cap Ferret wird geräumt](https://www.tagesspiegel.de/gesellschaft/panorama/frankreich-kampft-gegen-waldbrande-mehr-als-25000-menschen-evakuiert--halbinsel-cap-ferret-wird-geraumt-15874067.html) — *2026-07-24*
+  > tagesspiegel.de · German · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] UK  ready to defend itself  after Iran criticises US using British bases](https://www.dudleynews.co.uk/news/national/26405807.uk-ready-defend-itself-iran-criticises-us-using-british-bases/) — *2026-07-24*
+  > dudleynews.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Oracle wins Pentagon software deal worth up to $7bn](https://thenextweb.com/news/oracle-pentagon-software-consolidation-7bn) — *2026-07-24*
+  > thenextweb.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] DNA - spår kopplas till mordmisstänkte D4vd – nekar till brott](https://nyheter24.se/noje/kultur/1500580-dna-pastas-koppla-d4vd-till-mordet) — *2026-07-24*
+  > nyheter24.se · Swedish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] NYT : Iran hylkäsi Yhdysvaltojen aselepoehdotuksen](https://www.keski-uusimaa.fi/uutissuomalainen/9642995) — *2026-07-24*
+  > keski-uusimaa.fi · Finnish · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Jejak Pelarian Ayah Rudapaksa Anak Kandung yang Sempat Dijual Lewat Aplikasi Berbayar Rp300 Ribu](https://belitung.tribunnews.com/lokal/215938/jejak-pelarian-ayah-rudapaksa-anak-kandung-yang-sempat-dijual-lewat-aplikasi-berbayar-rp300-ribu) — *2026-07-24*
+  > belitung.tribunnews.com · Indonesian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Тільки Міноборони : Федоров відкинув всі пропозиції Зеленського – Reuters / vlasti . net](https://vlasti.net/news/367693) — *2026-07-24*
+  > vlasti.net · Ukrainian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] На Лукашевича в Омске начали менять асфальт](https://www.bk55.ru/news/article/258737/) — *2026-07-24*
+  > bk55.ru · Russian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes]  „ Restart în educație : Parlamentul va examina o reformă majoră propusă de ministrul Perciun](https://moldova.europalibera.org/a/restart-in-educatie-parlamentul-examineaza-o-reforma-majora-propusa-de-ministrul-perciun/33810894.html) — *2026-07-24*
+  > moldova.europalibera.org · Romanian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Rubio says U . S . is ready to help end war in Ukraine but no quick deal ahead](https://www.kios.org/2026-07-24/rubio-says-u-s-is-ready-to-help-end-war-in-ukraine-but-no-quick-deal-ahead) — *2026-07-24*
+  > kios.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Почему Зеленский уволил Федорова – заявление Рахманина | Новости Украины](https://news.liga.net/politics/news/nardep-rahmanin-vozvrashtat-fedorova-zelenskomu-net-nikakogo-smysla) — *2026-07-24*
+  > news.liga.net · Russian · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Rubio says U . S . is ready to help end war in Ukraine but no quick deal ahead](https://www.wlrn.org/npr-breaking-news/2026-07-24/rubio-says-u-s-is-ready-to-help-end-war-in-ukraine-but-no-quick-deal-ahead) — *2026-07-24*
+  > wlrn.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Benkunskas dar vakar teikė žuvusiai mergaitei apdovanojimą](https://www.delfi.lt/veidai/zmones/valdas-benkunskas-apie-bmw-avarijoje-zuvusia-19-mete-dar-vakar-jai-teike-apdovanojima-120280960) — *2026-07-24*
+  > delfi.lt · Lithuanian · tone NA
+
+_(18 additional items in raw.jsonl)_

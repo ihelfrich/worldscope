@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-24
-record_count: 166
-new_today: 60
+record_count: 236
+new_today: 130
 state: fresh
 ---
 
 ## State Legislative Action
 
-60 new of 166 total items today.
+130 new of 236 total items today.
 
 - [[Alabama SB 136] Sunset law; Alabama Massage Therapy Licensing Board continued with modification until October 1, 2027, when renamed Alabama Massage Advisory Council under the regulatory authority of the Alabama Department of Public Health]() — *2026-07-22*
   > Occupational Licensing Boards
@@ -62,4 +62,4 @@ state: fresh
 - [[California SB 127] Climate change.]() — *2026-07-23*
   > Existing law establishes the State Energy Resources Conservation and Development Commission (Energy Commission) under the direction of a chairperson. Existing law provides an annual salary for members and for the chairperson and prescribes a method by which those salaries may be 
 
-_(141 additional items in raw.jsonl)_
+_(211 additional items in raw.jsonl)_

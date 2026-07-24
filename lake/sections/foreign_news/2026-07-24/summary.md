@@ -3,14 +3,20 @@ section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-24
 record_count: 1045
-new_today: 542
+new_today: 549
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-542 new of 1045 total items today.
+549 new of 1045 total items today.
 
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-24*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-24*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-24*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] France orders evacuation of tourist spot as hundreds flee wildfires by boat](https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
   > The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.
 - **NEW**  [[Global] US hits dozens of countries with new wave of tariffs](https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
@@ -56,11 +62,5 @@ state: fresh
   > The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.
 - **NEW**  [[Global] CJP protest: The youth movement India's Modi didn't see coming](https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss) — *2026-07-23*
   > The CJP protest began with exam paper leaks. It became India's biggest student movement in years  - why?
-- [[Global] Houthi attacks raise fears of wider Middle East conflict and more global economic damage](https://www.bbc.co.uk/news/articles/cvgve0vxy1yo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.
-- [[Global] Trump's nuclear deal with Saudis jettisons longstanding US demands](https://www.bbc.co.uk/news/articles/cz05lx0xpero?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Signing a nuclear pact in the Middle East is a bold move that has drawn criticism in the US and in Israel.
-- [[Global] 'What was their crime?': BBC visits Iran school where strike killed 120 children](https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Nearly five months on, grief is still raw as a teacher and a mother recall the horror of the attack in Minab.
 
 _(1020 additional items in raw.jsonl)_
