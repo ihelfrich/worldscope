@@ -51,5 +51,5 @@ state: fresh
   > latest: 6.776 as of 2026-07-17
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-07-20*
   > latest: 84.38 as of 2026-07-20
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-22*
-  > latest: 16.64 as of 2026-07-22
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-23*
+  > latest: 18.7 as of 2026-07-23

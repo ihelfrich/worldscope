@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-24
-record_count: 107
-new_today: 3
+record_count: 112
+new_today: 8
 state: fresh
 ---
 
 ## State Legislative Action
 
-3 new of 107 total items today.
+8 new of 112 total items today.
 
 - [[Alabama SB 136] Sunset law; Alabama Massage Therapy Licensing Board continued with modification until October 1, 2027, when renamed Alabama Massage Advisory Council under the regulatory authority of the Alabama Department of Public Health]() — *2026-07-22*
   > Occupational Licensing Boards
@@ -62,4 +62,4 @@ state: fresh
 - [[California AB 2241] School facilities: inclusive school playgrounds.]() — *2026-07-23*
   > If state funds are used for a public building or facility or local funds are used for a school or community college building or facility, including a school playground, existing law prohibits a contract from being awarded until the Department of General Services issues a written 
 
-_(82 additional items in raw.jsonl)_
+_(87 additional items in raw.jsonl)_

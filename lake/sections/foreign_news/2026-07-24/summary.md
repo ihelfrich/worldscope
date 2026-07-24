@@ -2,65 +2,42 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-24
-record_count: 1021
-new_today: 636
+record_count: 1057
+new_today: 773
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-636 new of 1021 total items today.
+773 new of 1057 total items today.
 
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-24*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread](https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.
-- **NEW**  [[Global] US hits dozens of countries with new wave of tariffs](https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.
-- **NEW**  [[Global] US and Iran trade more strikes in Gulf as fears of escalation mount](https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.
-- **NEW**  [[Global] Indonesian babies were trafficked to Singapore. What happens to them now?](https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.
-- **NEW**  [[Global] South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'](https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020.
-- **NEW**  [[Global] Tech titan ordered to pay ex-wife $644m in divorce settlement](https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.
-- **NEW**  [[Global] India's 'cockroach' protesters hold talks with government as stalemate continues](https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The meeting came hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.
-- [[Global] Oil prices hit $100 for the first time since May](https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.
-- [[Global] Saudis must recognise Israel for nuclear deal, says Trump](https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.
-- [[Global] Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says](https://www.bbc.co.uk/news/articles/cn0nykz6lweo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month.
-- [[Global] Ukraine's ousted defence minister insists on being reinstated](https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.
-- [[Global] 'Let's enjoy the ride' says Elon Musk, as AI fears mount](https://www.bbc.co.uk/news/articles/c4gkxppljpyo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Talking to The Economist, Musk said he doesn't care if people hate him and said he was not a racist.
-- [[Global] Nicaragua's legislature debates barring opposition from elections](https://www.bbc.co.uk/news/articles/cd694w0l30do?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The move comes days after President Daniel Ortega demanded 'a wall, a blockade' against opposition parties.
-- [[Global] Ex-governor convicted of murdering a pregnant student in Kenya](https://www.bbc.co.uk/news/articles/cvg9l039ljyo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Okoth Obado was found guilty of killing Sharon Otieno with whom he had had an affair.
-- [[Global] Blocked by censors, China's animal lovers take fight against abuse offline and overseas](https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.
-- [[Global] South Korea woman acquitted of murdering newborn after hospital delivery](https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The woman, who had wanted to end her pregnancy at 36 weeks, gave birth to a baby who doctors later killed.
-- [[Global] Russia's businesses under strain from Ukraine's attacks on Wildberries](https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.
-- [[Global] Canada's 'powerful' dairy sector is in Trump's trade crosshairs](https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > Canada's industry is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs.
-- [[Global] Ghanaians' ICC petition over migrant attacks 'opportunistic', says South Africa](https://www.bbc.co.uk/news/articles/cp87qejzy8go?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The petition argues the violence against migrants in South Africa could amount to crimes against humanity.
-- [[Global] Wreckage of Pan Am plane that shaped aviation safety found 74 years on](https://www.bbc.co.uk/news/articles/cdrvyllxj71o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The deaths of 52 people on the Clipper Endeavor led to the introduction of mandatory pre-flight safety briefings.
-- [[Global] Google and Tesla shares plunge as AI spending rattles markets](https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > As major tech companies race to capitalize on a new wave of AI technology, investors wonder when financial benefits will appear.
-- [[Global] Fire kills 10 members of same family in Peru, police say](https://www.bbc.co.uk/news/articles/cm2g11ng7j2o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > Authorities are investigating the cause of the blaze in Lima as local media report
- it may have been arson.
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-24*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[Global] Two Russian men jailed in Angola for terrorism and spying](https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying) — *2026-07-23*
+- [[Global] MoD cancels army training in Kenya over powers to prosecute British soldiers](https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute) — *2026-07-23*
+- **NEW**  [[Global] Thousands of lightning strikes trigger fresh wildfires in western Canada](https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada) — *2026-07-24*
+- **NEW**  [[Global] Guyanese authorities confirm death of 72 people in sinking of coastal ferry](https://www.theguardian.com/world/2026/jul/24/guyana-coastal-ferry-sinking-deaths-rescue) — *2026-07-24*
+- **NEW**  [[Global] Canadian government urged to block Thomson Reuters data deal with US ICE](https://www.theguardian.com/world/2026/jul/24/canada-government-mark-carney-block-data-sharing-deal-thomson-reuters-us-ice-avi-lewis) — *2026-07-24*
+- **NEW**  [[Global] Masked men invading and taking Amazon communities ‘hostage’ in organised crime surge, say local leaders](https://www.theguardian.com/environment/2026/jul/24/gangs-taking-villages-on-brazil-peru-border-hostage-say-indigenous-leaders) — *2026-07-24*
+- **NEW**  [[Global] Weather tracker: More than 900 wildfires rage across Canada](https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat) — *2026-07-24*
+- [[Global] Total solar eclipse books out hotels two years in advance in New Zealand city](https://www.theguardian.com/world/2026/jul/23/total-solar-eclipse-new-zealand-2028-dunedin) — *2026-07-23*
+- [[Global] British woman jailed in Hong Kong for blackmail after accusing banker of rape](https://www.theguardian.com/world/2026/jul/22/british-woman-jailed-hong-kong-false-allegations) — *2026-07-22*
+- [[Global] Australia to warn China it won’t be bullied by ‘provocative‘ actions as it builds military and nuclear arsenal](https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal) — *2026-07-22*
+- [[Global] Michelin-starred restaurant owner in South Korea faces jail over ant dessert](https://www.theguardian.com/world/2026/jul/22/restaurant-owner-south-korea-dried-ants-dessert) — *2026-07-22*
+- [[Global] Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat](https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather) — *2026-07-22*
+- **NEW**  [[Global] Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre](https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising) — *2026-07-24*
+- **NEW**  [[Global] Pauline Hanson’s domestic violence comments were no stumble](https://www.theguardian.com/australia-news/2026/jul/24/pauline-hanson-domestic-violence-comments-mra-mens-rights-activists-ntwnfb) — *2026-07-24*
+- **NEW**  [[Global] University courses covering Israel-Palestine should be audited, Julian Leeser tells royal commission](https://www.theguardian.com/australia-news/2026/jul/24/university-courses-covering-israel-palestine-should-be-audited-julian-leeser-tells-royal-commission-ntwnfb) — *2026-07-24*
+- **NEW**  [[Global] Julian Leeser says his son no longer feels safe at Jewish events – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb) — *2026-07-24*
+- **NEW**  [[Global] Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’](https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour) — *2026-07-24*
+- **NEW**  [[Global] Trump threatens EU with ‘substantial’ tariffs over fines of US tech giants](https://www.theguardian.com/us-news/2026/jul/24/trump-european-union-tariffs) — *2026-07-24*
+- **NEW**  [[Global] More than 100,000 people flee or lock down as wildfires sweep France and Spain](https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire) — *2026-07-24*
+- **NEW**  [[Global] Woman charged in Ireland after police intercept ‘highly sophisticated’ bomb](https://www.theguardian.com/world/2026/jul/24/woman-man-arrested-ireland-police-intercept-highly-sophisticated-bomb) — *2026-07-24*
+- **NEW**  [[Global] France evacuates Cap Ferret peninsula as Spanish wildfires merge near Madrid – as it happened](https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates) — *2026-07-24*
+- **NEW**  [[Global] Burnham urged to lobby EU leaders directly to waive EES border controls](https://www.theguardian.com/business/2026/jul/24/burnham-urged-to-lobby-eu-leaders-directly-to-waive-ees-border-controls) — *2026-07-24*
 
-_(996 additional items in raw.jsonl)_
+_(1032 additional items in raw.jsonl)_

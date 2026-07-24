@@ -2,17 +2,17 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-24
-record_count: 243
-new_today: 92
+record_count: 250
+new_today: 170
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-92 new of 243 total items today.
+170 new of 250 total items today.
 
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-24*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Photos: St. Louis Family Playdate at TotSpot Social](https://www.stlmag.com/family/photos-st-louis-family-playdate-at-totspot-social/) — *2026-07-24*
+  > <p>On July 23, St. Louis Magazine celebrated one year of Family Playdates with a special birthday celebration at TotSpot Social, presented by Royal Banks of Missouri and sponsored by Ryan Lawn &#38; Tree. Returning to the venue where the series first began made the event even mor
 - **NEW**  [[St. Louis] Ask George: What summertime dish would you drive across St. Louis for?](https://www.stlmag.com/dining/ask-george-what-summertime-dish-would-you-drive-across-st-louis-for/) — *2026-07-24*
   > <p>This may be a first: When I asked SLM&#8217;s dining team to weigh in, two people picked the same dish—and make that three if you include me. Denise Mueller-Peterson, Madi Lee, and I all chose Louie&#8216;s prosciutto and shaved Parmigiano Reggiano appetizer, topped with fat, 
 - **NEW**  [[St. Louis] St. Louis’ 70 Grand bus route is letting riders down, transit group says](https://www.stlmag.com/news/seventy-grand-bus-route/) — *2026-07-24*
@@ -31,35 +31,35 @@ state: fresh
   > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
 - [[St. Louis] Peter Hoffman is fighting vacancy, one derelict house at a time](https://www.stlmag.com/news/peter-hoffman-fighting-vacancy/) — *2026-07-23*
   > <p>Attorney Peter Hoffman is doing as much as anyone in St. Louis to combat the problem of vacant properties in the city—and there is no doubt that vacancies are indeed a problem. Hoffman calls it “existential.”  ”The population for the region is stagnant,” he says. If we don’t s
-- [[St. Louis] Millennium Hotel’s revolving axle comes down to earth](https://www.stlmag.com/news/millennium-hotel-rotating-axle-city-museum/) — *2026-07-23*
-  > <p>More than 10 years after last powering the revolving restaurant atop the Millennium Hotel, the north tower’s 1,500-pound axle came down this week. But the hulking piece of machinery isn’t headed for the scrapyard: City Museum has agreed to give it a second life. Ainsley Worthl
-- **NEW**  [[St. Louis] 'Utterly disappointed' | Students say they were unexpectedly unenrolled from Howard University](https://www.ksdk.com/article/news/nation-world/students-say-unexpectedly-unenrolled-howard-university/507-e27878c5-cc72-4f4d-ab28-e47f9981f8af) — *2026-07-24*
-  > The university says students missed a tuition deadline, while some affected students say they were waiting on scholarship money and had made payment plans.
-- **NEW**  [[St. Louis] Drones target northern Iraqi city where US forces are based as US-Iran fighting escalates](https://www.ksdk.com/article/news/nation-world/explosions-iraq-military-iran-war-13th-night/507-ac7f528f-1cce-4c73-a24e-77d22edacc1e) — *2026-07-24*
-  > An Associated Press journalist heard at least seven blasts Friday morning local time in the city of Irbil, the capital of Iraq’s semi-autonomous Kurdish region.
-- **NEW**  [[St. Louis] 2026 already has more US measles cases than any year since 1991](https://www.ksdk.com/article/news/nation-world/measles-cases-south-carolina-disease-virus/507-9335f660-aa97-47a2-a3a8-9950be6bfb1c) — *2026-07-24*
-  > Although considered eliminated since 2000, the United States could lose its elimination status for the virus this year.
-- **NEW**  [[St. Louis] Autopsy doctor to testify at hearing on whether D4vd faces trial in 14-year-old's killing](https://www.ksdk.com/article/news/nation-world/autopsy-doctor-to-testify-at-hearing-d4vd-killing-14-year-old/507-ad8ecd3e-300d-4cd9-91e9-973c525fda76) — *2026-07-24*
-  > The dismembered and decomposing body was discovered in a Tesla towed from the Hollywood Hills in September, four months after authorities believe she was killed.
-- **NEW**  [[St. Louis] Kenmore Air floatplane with 11 on board catches fire after emergency landing in Washington's San Juan Islands](https://www.ksdk.com/article/news/nation-world/kenmore-air-floatplane-crash-san-juan-islands/507-2f2c73c2-98fe-41b4-a322-a876f0ed4b27) — *2026-07-24*
-  > All 11 people on board of a Kenmore Air floatplane that crashed in the San Juan Islands are alive, according to the company.
-- **NEW**  [[St. Louis] Tropical Storm Bertha weakens after bringing strong winds and heavy surf to Louisiana and Texas](https://www.ksdk.com/article/news/nation-world/tropical-storm-bertha-makes-landfall-in-louisiana-heads-to-texas/507-13b49297-27c8-4c88-8d26-32a94c6a4f6b) — *2026-07-24*
-  > The storm is unlikely to leave behind widespread damage as the heaviest rains are staying offshore.
-- **NEW**  [[St. Louis] Two St. Louis aldermen urge school board to postpone vote on 'Future Ready' plan](https://www.ksdk.com/article/news/education/two-st-louis-aldermen-urge-school-board-to-postpone-vote-on-future-ready-plan/63-bf9ac227-b327-42dc-9fc4-798c5ce84657) — *2026-07-24*
-  > Resolution 78 calls for increased transparency, community engagement, and alignment with previously adopted citywide educational plans.
-- **NEW**  [[St. Louis] Sweetgreen addresses customer concerns amid cyclospora outbreak](https://www.ksdk.com/article/news/nation-world/sweetgreen-statement-cyclospora-outbreak/507-e53d87b0-e167-46f5-b1d0-55e62ab75504) — *2026-07-24*
-  > Sweetgreen addressed concerns on Wednesday night confirming that it has not been associated with the current cyclospora outbreak.
-- **NEW**  [[St. Louis] Gateway Pet Guardians looking for volunteers after 20 dogs rescued in St. Clair County hoarding case](https://www.ksdk.com/article/news/local/gateway-pet-guardians-looking-for-volunteers-after-20-dogs-rescued-in-st-clair-county-hoarding-case/63-c1b3ab05-6000-4063-baa9-cd48861f2c21) — *2026-07-24*
-  > The dogs are now under the care of Gateway Pet Guardians as St. Clair County Animal Services removed 90 animals from a property.
-- [[St. Louis] US military says it’s launching strikes on Iran as clashes escalate over shipping routes](https://www.ksdk.com/article/news/nation-world/oil-tankers-attack-red-sea-houthis-war-iran/507-f33569ce-4b69-4d08-84b4-4f08e161f686) — *2026-07-24*
-  > A Houthi attack in the Red Sea threatened to open a new front in a war that has roiled the global economy.
-- **NEW**  [[St. Louis] 'Spider-Man' jumps to the aid of a man using wheelchair to cross several lanes of traffic](https://www.ksdk.com/article/news/nation-world/spider-man-helps-man-wheelchair-crosswalk-video/507-79287836-08e8-442a-b4db-ec0b4f8b9bc2) — *2026-07-24*
-  > The interaction in Jonesboro, Arkansas, was captured by a street security camera.
-- [[St. Louis] Judge sentences former Northwoods officer who drove handcuffed man to empty field and beat him](https://www.ksdk.com/article/news/crime/judge-sentences-former-northwoods-officer-beating-handcuffed-man/63-95baf01a-0531-482f-8947-8604bbc3f307) — *2026-07-24*
-  > Former Northwoods police Officer Samuel Davis, 28, was sentenced to 10 years in prison, followed by three years of supervised release for beating a man in 2024.
-- [[St. Louis] Man accused of critically injuring Ferguson police officer pleads guilty after first day of trial](https://www.ksdk.com/article/news/crime/travis-brown-trial-elijah-gantt-guilty-plea/63-5cb2ea9b-7b95-48d9-917c-b0d0ba7785ad) — *2026-07-24*
-  > It was Former Officer Travis Brown himself who decided to move forward with Elijah Gantt's blind plea.
-- **NEW**  [[St. Louis] ICE detains Southwest Airlines flight attendant while at work](https://www.ksdk.com/article/news/nation-world/ice-detains-southwest-airlines-flight-attendant-at-work/507-8056f347-f6ac-4fc2-8f6b-eda4e0e36386) — *2026-07-24*
-  > The U.S. Immigration and Customs Enforcement agents made the arrest at Nashville International Airport.
+- **NEW**  [[St. Louis] General Motors announces $157 million investment in Wentzville plant's paint shop](https://www.ksdk.com/article/news/general-motors-announces-157-million-investment-wentzville-plants-paint-shop/63-122700a9-cbfd-49bd-99cb-b53845ef6c8c) — *2026-07-24*
+  > GM is investing $157 million to modernize the Wentzville Assembly Plant's paint shop, adding a new 28,000-square-foot building over the next year and a half
+- **NEW**  [[St. Louis] Tony Romo arrested on suspicion of operating vehicle while under the influence](https://www.ksdk.com/article/news/nation-world/tony-romo-arrested-milwaukee-for-operating-while-under-the-influence/507-7d1b2336-e220-4346-8152-518cceb13c64) — *2026-07-24*
+  > The former Dallas Cowboys quarterback was arrested in Milwaukee, Wisconsin, on Thursday night.
+- **NEW**  [[St. Louis] Years before missing boy's remains were found outside Belleville, father's girlfriend covered up his location, investigators say](https://www.ksdk.com/article/news/local/illinois-missing-boy-remains-belleville-fathers-girlfriend-cover-up-unsealed-documents-st-louis/63-b7b6ea9c-7cd1-47af-884e-fb85cb247cae) — *2026-07-24*
+  > At the time they were charged, court documents in Jones' case were open and described his efforts to conceal the whereabouts of the child, but Dora's were closed.
+- **NEW**  [[St. Louis] Parasite outbreak tied to lettuce expands to 9 states](https://www.ksdk.com/article/news/nation-world/parasite-outbreak-lettuce-expands-9-states/507-4b5cd2dc-39b9-429d-bd81-eb67f72ce0fc) — *2026-07-24*
+  > Illinois, Kansas, Oklahoma and Pennsylvania were newly linked to the outbreak as investigators continue tracing recalled shredded iceberg lettuce.
+- **NEW**  [[St. Louis] Spencer joins US mayors calling for end to federal SNAP cuts, citing a hunger ‘crisis'](https://www.ksdk.com/article/news/politics/spencer-joins-us-mayors-calling-end-federal-snap-cuts-citing-hunger-crisis/63-87272081-c231-493d-bfa2-fe178fac48f2) — *2026-07-24*
+  > The 210 mayors who signed a letter to Senate leaders said they are on the “front lines of a deepening food security crisis.”
+- **NEW**  [[St. Louis] Teenager pleads guilty to all 55 counts in 2024 fatal shooting at Apalachee High School in Georgia](https://www.ksdk.com/article/news/nation-world/teenager-pleads-guilty-to-2024-school-shooting/507-49f5fe14-be40-40d3-81ec-89370c5621e0) — *2026-07-24*
+  > Colt Gray, 16, entered the plea Friday without having reached a deal with prosecutors. Two teachers and two students died in the 2024 shooting north of Atlanta.
+- **NEW**  [[St. Louis] Ford recalls more than 565,000 Broncos over fire risk](https://www.ksdk.com/article/news/nation-world/ford-recall-broncos-fire-risk/507-a841d9b1-02be-4ed2-b846-997eaa938733) — *2026-07-24*
+  > A wiring harness in the engine compartment can short circuit, potentially causing smoke, warning messages or flames, according to Ford.
+- **NEW**  [[St. Louis] Two New York men plead guilty to smuggling hundreds of protected turtles to Asia](https://www.ksdk.com/article/news/nation-world/two-new-york-men-charged-with-smuggling-turtles-asia/507-acc99660-e6f6-46a2-8279-35f6646cd697) — *2026-07-24*
+  > The turtles, despite being protected by an international treaty, are highly prized as pets in China.
+- **NEW**  [[St. Louis] GM to invest $157M in Wentzville plant as automaker signals long-term commitment](https://www.ksdk.com/article/news/local/gm-invest-157m-wentzville-plant-long-term-commitment/63-e36f8b2d-cc87-4a03-a86d-d358db0bbce6) — *2026-07-24*
+  > GM’s investment is not expected to increase the number of employees at the plant, which has about 4,100 workers and opened in 1983.
+- **NEW**  [[St. Louis] Man charged with murder in drive-by shooting of woman in Greater Ville](https://www.ksdk.com/article/news/crime/man-charged-murder-drive-by-shooting-woman-in-greater-ville/63-085c00a4-d9e6-4e05-a0d8-d94d5a88ccd3) — *2026-07-24*
+  > Brandon King, 21, was charged with first-degree murder, unlawful use of a weapon and two counts of armed criminal action in connection with the July 12 shooting.
+- **NEW**  [[St. Louis] Widespread showers arrive in St. Louis area in Friday, live radar shows](https://www.ksdk.com/article/weather/weather-impact/st-louis-live-weather-radar-rain-showers-arrive-friday-july-24-2026/63-08b160fa-6374-4993-b1bb-4a82ac6be5e0) — *2026-07-24*
+  > Rain may linger into Saturday morning before skies gradually clear and temperatures rebound into the upper 80s.
+- **NEW**  [[St. Louis] LeBron James has announced where he'll play after leaving the Lakers](https://www.ksdk.com/article/news/nation-world/lebron-james-philadelphia-76ers/507-50acb8c6-fa55-42c2-bc93-69d8f12534f4) — *2026-07-24*
+  > In a post on X, James said he was excited to "start this incredible journey one last time."
+- **NEW**  [[St. Louis] Near-abduction of 8-year-old in St. John triggers manhunt for suspect, police say](https://www.ksdk.com/article/news/local/missouri-child-abduction-st-john-manhunt/63-b57921d9-a4e6-4ee3-973a-c096a7ff8359) — *2026-07-24*
+  > Anyone with information is asked to call the St. John Police Department at 314-427-8700 or non-emergency dispatch at 636-529-8210.
+- **NEW**  [[St. Louis] Amazon Prime members have days left to claim up to $51](https://www.ksdk.com/article/news/nation-world/amazon-prime-settlement-deadline-approaching/507-fa97b883-627d-4ac6-b34c-b41ad1acc06f) — *2026-07-24*
+  > The payments stem from a $2.5 billion settlement over allegations Amazon enrolled some customers in Prime without their consent.
+- **NEW**  [[St. Louis] Lil Wayne, Karol G, Pedro Pascal among 32 names to be paved into Hollywood Walk of Fame. See the full list](https://www.ksdk.com/article/news/nation-world/lil-wayne-karol-g-pedro-pascal-nascar-jimmie-johnson/507-3ab1ca00-b954-42fa-a08d-571f79a83512) — *2026-07-24*
+  > For sports, NASCAR's Jimmie Johnson became the first racecar driver to ever be inducted.
 
-_(218 additional items in raw.jsonl)_
+_(225 additional items in raw.jsonl)_
