@@ -2,14 +2,14 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-24
-record_count: 1045
-new_today: 549
+record_count: 1021
+new_today: 636
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-549 new of 1045 total items today.
+636 new of 1021 total items today.
 
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
@@ -17,20 +17,24 @@ state: fresh
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-24*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] France orders evacuation of tourist spot as hundreds flee wildfires by boat](https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+- **NEW**  [[Global] Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread](https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
   > The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.
 - **NEW**  [[Global] US hits dozens of countries with new wave of tariffs](https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
   > Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.
-- [[Global] Oil prices hit $100 for the first time since May](https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.
+- **NEW**  [[Global] US and Iran trade more strikes in Gulf as fears of escalation mount](https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.
 - **NEW**  [[Global] Indonesian babies were trafficked to Singapore. What happens to them now?](https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
   > At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.
+- **NEW**  [[Global] South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'](https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020.
 - **NEW**  [[Global] Tech titan ordered to pay ex-wife $644m in divorce settlement](https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
   > The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.
+- **NEW**  [[Global] India's 'cockroach' protesters hold talks with government as stalemate continues](https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > The meeting came hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.
+- [[Global] Oil prices hit $100 for the first time since May](https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss) — *2026-07-23*
+  > The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.
 - [[Global] Saudis must recognise Israel for nuclear deal, says Trump](https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
   > The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.
-- **NEW**  [[Global] India's 'cockroach' protesters and government to hold talks as stalemate continues](https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The meeting comes hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.
 - [[Global] Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says](https://www.bbc.co.uk/news/articles/cn0nykz6lweo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
   > Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month.
 - [[Global] Ukraine's ousted defence minister insists on being reinstated](https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss) — *2026-07-23*
@@ -58,9 +62,5 @@ state: fresh
 - [[Global] Fire kills 10 members of same family in Peru, police say](https://www.bbc.co.uk/news/articles/cm2g11ng7j2o?at_medium=RSS&at_campaign=rss) — *2026-07-22*
   > Authorities are investigating the cause of the blaze in Lima as local media report
  it may have been arson.
-- [[Global] Mamdani backs off pledge to arrest Netanyahu citing lack of authority](https://www.bbc.co.uk/news/articles/c204p64pqzno?at_medium=RSS&at_campaign=rss) — *2026-07-22*
-  > The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.
-- **NEW**  [[Global] CJP protest: The youth movement India's Modi didn't see coming](https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss) — *2026-07-23*
-  > The CJP protest began with exam paper leaks. It became India's biggest student movement in years  - why?
 
-_(1020 additional items in raw.jsonl)_
+_(996 additional items in raw.jsonl)_

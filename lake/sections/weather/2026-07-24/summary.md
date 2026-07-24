@@ -2,263 +2,232 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-24
-record_count: 158
-new_today: 144
+record_count: 157
+new_today: 148
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-144 new of 158 total items today.
+148 new of 157 total items today.
 
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 24 at 5:29AM EDT until July 24 at 6:00AM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ba6cbfa43c1ea2fb5edf808ee094790696342d4.001.1) — *2026-07-24*
-  > SMWILM
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 24 at 7:20AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fed3b1757a4a55e35ebe31f843fdb4f0a5689205.001.1) — *2026-07-24*
+  > Areas of fog will continue affecting much of south central/central
+Nebraska and north central Kansas early this morning. Visibility
+as low as 1 to 1/2 mile will be fairly widespread across much of
+the area, with embedded pockets of the area experiencing at least
+a brief period of
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-59632) — *2026-07-24*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 24 at 5:12AM PDT until July 28 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a73af1f57a8830c5ef33c00f6ac642d48216da7e.001.1) — *2026-07-24*
+  > * WHAT...Long period SW swell will bring an increased risk of
+sneaker waves and strong rip currents. Breaking waves will
+reach up to 10 feet along some south and southwest facing
+beaches and break points.
 
-The National Weather Service in Wilmington has issued a
+* WHERE...Beaches along the Pacific Coast.
 
-* Special Marine Warning for...
-Coastal waters from Surf City to Cape Fear NC out 20 nm...
-Waters from Surf City NC to Little River Inlet SC from 20 to 60
-NM...
+* WHEN...From Saturday morning
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 7:10AM CDT until July 25 at 7:00AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a042d69ff0f6cda549a33483f1489b7dbd2de809.002.1) — *2026-07-24*
+  > * WHAT...Persistent showers may result in excessive rainfall and
+localized flooding.
 
-* Until 600 AM EDT.
+* WHERE...A portion of central Alabama, including the following
+counties, Blount, Cherokee and Etowah.
 
-* At 528 AM EDT, a severe thunde
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 4:28AM CDT until July 24 at 7:00PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b3e4c33daaa9bdd0065bc242929a877bcfbb45e.001.1) — *2026-07-24*
+* WHEN...Through Saturday morning.
+
+* IMPACTS...Excessive runoff may result in flooding of
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 7:10AM CDT until July 25 at 7:00AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a042d69ff0f6cda549a33483f1489b7dbd2de809.001.1) — *2026-07-24*
+  > * WHAT...Persistent showers may result in excessive rainfall and
+localized flooding.
+
+* WHERE...A portion of central Alabama, including the following
+counties, Calhoun, Cleburne, Jefferson, St. Clair, Walker and
+Winston.
+
+* WHEN...Through Saturday morning.
+
+* IMPACTS...Excessive 
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 8:06AM EDT until July 25 at 12:00AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab31d833119194896997b9ffb731edca045a5c88.002.1) — *2026-07-24*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of north central, northeast, and northwest
+Georgia, including the following counties, in north central
+Georgia, Cherokee, Dawson, Fannin, Forsyth, Gilmer, Hall, Lumpkin,
+Pickens and Union
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 8:06AM EDT until July 25 at 12:00AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab31d833119194896997b9ffb731edca045a5c88.001.1) — *2026-07-24*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of north central, northeast, and northwest
+Georgia, including the following areas, in north central Georgia,
+Barrow, Cobb, DeKalb, Douglas, Gwinnett, North Fulton, Rockdale,
+South Fulton 
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 7:27AM EDT until July 25 at 12:00AM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2184776a42d118582df07b1e99a1ba701573b350.001.1) — *2026-07-24*
   > * WHAT...Flash flooding caused by excessive rainfall continues to be
 possible.
 
-* WHERE...Portions of Alabama, including the following areas,
-Cullman, DeKalb, Jackson, Madison, Marshall and Morgan and
-southern middle Tennessee, including the following areas, Franklin
-TN, Lincoln 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-11287) — *2026-07-24*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 24 at 3:24AM MDT by NWS Billings MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95be1bb1ed5c51119638560e4bc2f12ac29a7872.001.1) — *2026-07-24*
-  > At 324 AM MDT, Doppler radar was tracking a line of strong
-thunderstorms extending from 22 miles north of Roundup to 12 miles
-north of Joliet, moving east at 40 mph.
+* WHERE...A portion of southeast South Carolina, including the
+following areas, Charleston, Coastal Colleton, Dorchester, Inland
+Berkeley, Inland Colleton and Tidal Berkeley.
 
-HAZARD...Wind gusts of 40 to 55 mph.
+* WHEN...From noon EDT t
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 24 at 7:24AM EDT until July 24 at 11:30AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebb3c76ee0697793fa15d6b3e620bfbc3faa1a06.001.1) — *2026-07-24*
+  > * WHAT...Flooding caused by excessive rainfall continues.
 
-SOURCE...Radar indicated.
+* WHERE...Central Union County, North Carolina.
 
-IMPACT...Gusty winds could knock down tree limbs
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 24 at 4:23AM CDT until July 25 at 2:00AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c7f042b544c4912b4e3554b88d57ae787f395740.001.1) — *2026-07-24*
-  > ...The National Weather Service in Topeka has issued a Flood Warning
-for the following rivers in Kansas...
+* WHEN...Until 1130 AM EDT.
 
-Salt Creek near Ada affecting Ottawa County.
+* IMPACTS...Flooding of creeks, streams, and other low-lying and
+flood-prone locations is imminent or occurring. At least one road
+remains clos
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 4:11AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.020350d5232db02be8302c24aa6e1b97a72eda37.001.1) — *2026-07-24*
+  > * WHAT...Hot daytime conditions with high temperatures between 100
+and 108 common. Warm overnight conditions will bring less relief
+than usual.
 
-* WHAT...Minor flooding is forecast.
+* WHERE...Antelope Valley.
 
-* WHERE...Salt Creek near Ada.
+* WHEN...Until 8 PM PDT Monday.
 
-* WHEN...From early this morning to late tonight.
+* IMPACTS...There is a high risk for dangerous heat illness,
+especially fo
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 4:11AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.020350d5232db02be8302c24aa6e1b97a72eda37.003.1) — *2026-07-24*
+  > * WHAT...Very warm and humid daytime conditions with high
+temperatures between 82 and 92 common. Warm overnight conditions
+will bring less relief than usual.
 
-* IMP
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued July 24 at 4:19AM CDT until July 24 at 6:00PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acb98fcde42369d5f8d7429a77258885907276c2.001.1) — *2026-07-24*
-  > * WHAT...Dangerous rip currents.
+* WHERE...Coastal areas of Los Angeles, Ventura, and southern Santa
+Barbara Counties.
 
-* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal
-Counties. In Florida, Escambia Coastal, Santa Rosa Coastal and
-Okaloosa Coastal Counties.
+* WHEN...Until 8 PM PDT Monday.
 
-* WHEN...Through this afternoon.
+*
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 4:11AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.020350d5232db02be8302c24aa6e1b97a72eda37.002.1) — *2026-07-24*
+  > * WHAT...Hot daytime conditions with high temperatures between 95
+and 105 common. Warm overnight conditions will bring less relief
+than usual.
 
-* IMPACTS...Rip currents can sweep even the best swimmers away
-f
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 24 at 2:18AM PDT until July 25 at 3:00AM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9db9886ac9b05e5fec79a25714b12fb509582e0.002.1) — *2026-07-24*
-  > * WHAT...Northwest winds 20 to 30 kt with gusts up to 35 kt and
-combined seas 7 to 9 ft when conditions are worst.
+* WHERE...Valleys and mountains of Los Angeles, Ventura, Santa
+Barbara, and San Luis Obispo Counties.
 
-* WHERE...Point Piedras Blancas to Point Sal from 10 to 60 NM.
-
-* WHEN...Until 3 AM PDT Saturday.
-
-* IMPACTS...Strong winds will create dangerous sea conditions
-whi
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 2:13AM MST until July 25 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e64f9d5e8a4e64da619717725b3330540a00b114.001.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions with temperatures of 105 to 113
-degrees expected with Major to Extreme HeatRisk.
-
-* WHERE...Southeast Pinal County, Tohono O'odham Nation, Tucson Metro
-Area, Upper Gila River Valley, and Western Pima County.
-
-* WHEN...From 10 AM this morning to
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 2:13AM MST until July 25 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e64f9d5e8a4e64da619717725b3330540a00b114.002.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions with temperatures of 100 to 105
-expected with Major HeatRisk.
-
-* WHERE...Eastern Cochise County below 5000 feet, Upper San Pedro
-River Valley, and Upper Santa Cruz River Valley/Altar Valley.
-
-* WHEN...From 10 AM this morning to 8 PM MST Saturda
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 24 at 3:09AM MDT until July 28 at 12:00AM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2f9c617e8bf5bbb76f2b1c935491eb9a95e6403.001.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions with moderate to high confidence
-in daytime temperatures over 100. Overnight minimum temperatures
-are unlikely to fall below the mid 70s limiting daily recovery.
-
-* WHERE...The Wasatch Front.
-
-* WHEN...From Saturday afternoon through Monday eve
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 24 at 3:09AM MDT until July 28 at 12:00AM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2f9c617e8bf5bbb76f2b1c935491eb9a95e6403.002.1) — *2026-07-24*
-  > * WHAT...Hazardous conditions with moderate confidence in daytime
-temperatures reaching 97 to 101 across the Cache Valley. Overnight
-minimum temperatures are unlikely to fall below 70 limiting daily
-recovery.
+* WHEN...Until 8 PM PDT Monday.
 
 
-* WHERE...Cache Valley/Utah Portion.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 3:54AM PDT until July 27 at 9:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81f050f5b873c5a7ac85abc6a17d0b6bf2b2f56f.001.1) — *2026-07-24*
+  > * WHAT...Dangerously hot conditions with high temperatures between
+108 to 112 degrees.
 
-* WHEN...From Saturday afternoo
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 2:51AM MDT until July 25 at 9:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb69a3e335f58f60911a9e24045f7b064cd6458d.001.1) — *2026-07-24*
-  > * WHAT...Temperatures from 99 to 103.
+* WHERE...Indian Wells Valley and Mojave Desert.
 
-* WHERE...Fort Collins, Boulder and the western suburbs of Denver,
-Denver, and Greeley.
+* WHEN...Until 9 PM PDT Monday.
 
-* WHEN...From 11 AM to 9 PM MDT both Saturday and Sunday.
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 5:51AM CDT until July 24 at 8:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c0e1415946411a8a447b038f867532e70207d6e.001.1) — *2026-07-24*
+  > * WHAT...Heat index values up to 105 expected.
+
+* WHERE...In Oklahoma, Beaver County. In Texas, Armstrong,
+Collingsworth, Donley, Gray, Hemphill, Lipscomb, Palo Duro Canyon,
+and Wheeler Counties.
+
+* WHEN...From 1 PM this afternoon to 8 PM CDT this evening.
+
+* IMPACTS...Hot temper
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 5:50AM CDT until July 24 at 9:00PM CDT by NWS Lubbock TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.128d467e97a5f71298c8b613adb8bcafca9e2996.001.1) — *2026-07-24*
+  > * WHAT...Heat indices of 105 to 109 expected.
+
+* WHERE...Childress, Cottle, Dickens, Garza, Kent, King, Motley,
+Stonewall, Briscoe, and Hall Counties.
+
+* WHEN...From 1 PM this afternoon to 9 PM CDT this evening.
 
 * IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 24 at 2:51AM MDT until July 26 at 9:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb69a3e335f58f60911a9e24045f7b064cd6458d.001.2) — *2026-07-24*
-  > * WHAT...Temperatures from 99 to 103.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 24 at 6:26AM EDT until July 24 at 8:00PM EDT by NWS Gray ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd6c739ba5176f61657a61c459be06d6230ee3f1.001.1) — *2026-07-24*
+  > * WHAT...Please check with state and local authorities regarding
+guidelines for allowed activities. The warm air temperatures
+in the low to mid 80s may cause people to underestimate the
+dangers of the cold water temperatures which are currently in
+the mid to upper 50s.
 
-* WHERE...Fort Collins, Boulder and the western suburbs of Denver,
-Denver, and Greeley.
-
-* WHEN...From 11 AM to 9 PM MDT both Saturday and Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 24 at 4:48AM EDT until July 24 at 5:45AM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.560a63f085e545f8c84d8372b37e2cde907971c5.001.1) — *2026-07-24*
-  > SMWMHX
-
-The National Weather Service in Newport has issued a
-
-* Special Marine Warning for...
-Pamlico Sound...
-
-* Until 545 AM EDT.
-
-* At 448 AM EDT, a shower capable of producing waterspouts was
-located 7 nm southeast of Swanquarter, moving northeast at 15
-knots.
-
-HAZARD...Water
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 24 at 2:43AM MDT by NWS Billings MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42b324e124bc842701e2e431fb3a5a8d9eede9fb.001.1) — *2026-07-24*
-  > At 243 AM MDT, Doppler radar was tracking a line of strong
-thunderstorms extending from 26 miles north of Ryegate to 19 miles
-northwest of Columbus, moving east at 35 mph.
-
-HAZARD...Wind gusts of 40 to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 24 at 1:30AM PDT until July 25 at 8:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c606cc06b5075bbbcfb2f61401114738424d70a.001.1) — *2026-07-24*
-  > ...WINDY AND BREEZY WITH CRITICAL RELATIVE HUMIDITY TODAY AND
-SATURDAY...
-
-The upper level low will eject into the region bringing windy
-conditions to many of the Cascade Gaps as well as central OR.
-Humidities both Friday and Saturday will be critical.
-
-* AFFECTED AREA...Fire Wea
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 24 at 1:30AM PDT until July 25 at 8:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c606cc06b5075bbbcfb2f61401114738424d70a.002.1) — *2026-07-24*
-  > ...WINDY AND BREEZY WITH CRITICAL RELATIVE HUMIDITY TODAY AND
-SATURDAY...
-
-The upper level low will eject into the region bringing windy
-conditions to many of the Cascade Gaps as well as central OR.
-Humidities both Friday and Saturday will be critical.
-
-* AFFECTED AREA...Fire Wea
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 24 at 4:28AM EDT until July 24 at 5:30AM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cc6acc6258a879ce3e2409bae7d87ed64e1256c.001.1) — *2026-07-24*
-  > SMWILM
-
-The National Weather Service in Wilmington has issued a
-
-* Special Marine Warning for...
-Coastal waters from Surf City to Cape Fear NC out 20 nm...
-Waters from Surf City NC to Little River Inlet SC from 20 to 60
-NM...
-
-* Until 530 AM EDT.
-
-* At 428 AM EDT, severe thunders
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 1:16AM MST until July 27 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.831c27ee2c33372d2612d37fb8e05758baa8340c.002.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 103 to
-118 degrees. Major Heat Risk.
-
-* WHERE...Portions of South-central Arizona.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Overexposure can 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 1:16AM MST until July 27 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.831c27ee2c33372d2612d37fb8e05758baa8340c.003.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 106 to
-118 degrees. Major Heat Risk.
-
-* WHERE...South central Arizona, including the Phoenix metropolitan
-area.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme h
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 1:16AM MST until July 25 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.831c27ee2c33372d2612d37fb8e05758baa8340c.004.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 104 to
-112 degrees. Major Heat Risk.
-
-* WHERE...Globe/Miami, San Carlos, and Tonto Basin.
-
-* WHEN...From 10 AM this morning to 8 PM MST Saturday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 24 at 1:16AM MST until July 27 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.831c27ee2c33372d2612d37fb8e05758baa8340c.001.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 105 to
-120 degrees. Major to Extreme Heat Risk.
-
-* WHERE...Portions of southwest Arizona and southeast California.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ Monday.
-
-* IMPACTS...Heat related illnesses increase significantly du
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 24 at 2:51AM CDT until July 26 at 9:00PM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2784d4f7c104eeb7e94a7ad75070aae5cf42a8fa.001.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions with heat index values of 105
+* WHERE..
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 6:05AM EDT until July 24 at 2:00PM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94de9289d0cf643cb37d8306da964596a736078b.001.1) — *2026-07-24*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
 possible.
 
-* WHERE...In Iowa, Mitchell and Howard Counties. In Minnesota, Mower
-County.
+* WHERE...A portion of eastern North Carolina, including the
+following areas, Beaufort, Greene, Mainland Dare, Mainland Hyde,
+Martin, Northern Outer Banks, Pitt, Tyrrell and Washington.
 
-* WHEN...From Sunday afternoon through Sunday evening.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extr
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 24 at 2:51AM CDT until July 27 at 9:00PM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2784d4f7c104eeb7e94a7ad75070aae5cf42a8fa.002.1) — *2026-07-24*
-  > * WHAT...Dangerously hot conditions with heat index values of 105
+* WHEN...Until 2 PM
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 24 at 6:05AM EDT until July 25 at 8:00AM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94de9289d0cf643cb37d8306da964596a736078b.002.1) — *2026-07-24*
+  > * WHAT...Flooding caused by excessive rainfall continues to be
 possible.
 
-* WHERE...Floyd, Chickasaw, Clayton, Fayette, and Winneshiek
-Counties.
+* WHERE...A portion of eastern North Carolina, including the
+following areas, Coastal Onslow, Duplin, East Carteret, Hatteras
+Island, Inland Onslow, Jones, Lenoir, Northern Craven, Ocracoke
+Island, Pamlico,
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 24 at 1:55AM AKDT until July 25 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4ca21ff5f52a6b99ee2a8abb6398bd3cb0dbd2b.017.1) — *2026-07-24*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* WHEN...From Sunday afternoon through Monday evening.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 24 at 1:55AM AKDT until July 25 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4ca21ff5f52a6b99ee2a8abb6398bd3cb0dbd2b.016.1) — *2026-07-24*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme he
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 24 at 2:41AM CDT until July 26 at 1:25PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25027de881f85272020ace405a4d6d0e3d03ca2b.001.1) — *2026-07-24*
-  > ...The Flood Warning is extended for the following rivers in Texas...
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 24 at 1:55AM AKDT until July 25 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4ca21ff5f52a6b99ee2a8abb6398bd3cb0dbd2b.015.1) — *2026-07-24*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-Nueces River Near Asherton affecting Dimmit County.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 24 at 2:50AM PDT until July 24 at 9:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86c1150954b1b2e23fd11950f0ae27ddc0ad2b96.001.1) — *2026-07-24*
+  > * WHAT...Northwest winds 15 to 25 kt with gusts up to 35 kt.
 
-* WHAT...Major flooding is occurring and major flooding is forecast.
+* WHERE...Coastal Waters from Point Pinos to Point Piedras
+Blancas California out to 10 NM.
 
-* WHERE...Nueces River near Asherton.
+* WHEN...Until 9 PM PDT this evening.
 
-* WHEN...Until early Sunday afternoon.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vesse
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 24 at 2:49AM PDT until July 26 at 9:00PM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1703724dcaa76bfa0f0770ae413b79e4bac00581.002.2) — *2026-07-24*
+  > ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SUNDAY AFTERNOON
+THROUGH SUNDAY EVENING FOR GUSTY WINDS AND LOW HUMIDITY FOR THE
+SIERRA FRONT...
 
-* IMPAC
+* CHANGES...Added overnight recoveries to the humidity section.
 
-_(133 additional items in raw.jsonl)_
+* Affected Area...Fire Weather Zone 420 Northern Sierra Front
+including 
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 24 at 2:49AM PDT until July 26 at 9:00PM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1703724dcaa76bfa0f0770ae413b79e4bac00581.001.2) — *2026-07-24*
+  > ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SUNDAY AFTERNOON
+THROUGH SUNDAY EVENING FOR GUSTY WINDS AND LOW HUMIDITY FOR
+PORTIONS OF NORTHEAST CA AND WESTERN NV...
+
+* CHANGES...Reduced duration of Red Flag hours. Added overnight
+recoveries to the humidity section.
+
+* Affected Ar
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 24 at 2:49AM PDT until July 25 at 9:00PM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1703724dcaa76bfa0f0770ae413b79e4bac00581.001.1) — *2026-07-24*
+  > ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SUNDAY AFTERNOON
+THROUGH SUNDAY EVENING FOR GUSTY WINDS AND LOW HUMIDITY FOR
+PORTIONS OF NORTHEAST CA AND WESTERN NV...
+
+* CHANGES...Reduced duration of Red Flag hours. Added overnight
+recoveries to the humidity section.
+
+* Affected Ar
+
+_(132 additional items in raw.jsonl)_

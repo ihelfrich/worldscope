@@ -2,64 +2,64 @@
 section: vip_flights
 title: Government & military aircraft airborne (OpenSky)
 date: 2026-07-24
-record_count: 28
-new_today: 28
+record_count: 30
+new_today: 30
 state: fresh
 ---
 
 ## Government & military aircraft airborne (OpenSky)
 
-28 new of 28 total items today.
+30 new of 30 total items today.
 
-- **NEW**  [JAF5PW (Bulgaria)](https://opensky-network.org/aircraft-profile?icao24=4520d0) — *2026-07-24*
-  > icao24: 4520d0 · position: (48.7252, 2.3557) · on ground
-- **NEW**  [SAMU49 (France)](https://opensky-network.org/aircraft-profile?icao24=39ca81) — *2026-07-24*
-  > icao24: 39ca81 · position: (47.3274, -1.2703) · alt: 396m · 216km/h
-- **NEW**  [PUMA52 (Slovenia)](https://opensky-network.org/aircraft-profile?icao24=506e19) — *2026-07-24*
-  > icao24: 506e19 · position: (45.8477, 15.2155) · alt: 1554m · 173km/h
-- **NEW**  [SAMU59 (France)](https://opensky-network.org/aircraft-profile?icao24=39b5d1) — *2026-07-24*
-  > icao24: 39b5d1 · position: (50.8037, 2.3471) · alt: 556m · 247km/h
-- **NEW**  [JAF97T (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1ba) — *2026-07-24*
-  > icao24: 44d1ba · position: (45.8284, 12.7586) · alt: 12192m · 695km/h
-- **NEW**  [JAF66L (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a6) — *2026-07-24*
-  > icao24: 44d1a6 · position: (50.8325, 3.9465) · alt: 3931m · 695km/h
-- **NEW**  [JAF3NE (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a5) — *2026-07-24*
-  > icao24: 44d1a5 · position: (43.8461, -1.4581) · alt: 10363m · 872km/h
+- **NEW**  [JAF50T (Bulgaria)](https://opensky-network.org/aircraft-profile?icao24=4520d0) — *2026-07-24*
+  > icao24: 4520d0 · position: (40.9651, -3.1588) · alt: 11285m · 718km/h
+- **NEW**  [PAT097 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfecb) — *2026-07-24*
+  > icao24: adfecb · position: (38.1297, -85.1049) · alt: 3162m · 291km/h
+- **NEW**  [JAF5GA (Bulgaria)](https://opensky-network.org/aircraft-profile?icao24=4520aa) — *2026-07-24*
+  > icao24: 4520aa · position: (33.2957, -6.8767) · alt: 11041m · 822km/h
+- **NEW**  [PAT053 (United States)](https://opensky-network.org/aircraft-profile?icao24=adfe4a) — *2026-07-24*
+  > icao24: adfe4a · position: (32.8709, -88.1182) · alt: 8229m · 482km/h
+- **NEW**  [SAMU691 (France)](https://opensky-network.org/aircraft-profile?icao24=39c994) — *2026-07-24*
+  > icao24: 39c994 · position: (45.5219, 4.4501) · alt: 876m · 230km/h
+- **NEW**  [CFC2967 (Canada)](https://opensky-network.org/aircraft-profile?icao24=c2b585) — *2026-07-24*
+  > icao24: c2b585 · position: (48.5118, 0.9947) · alt: 3063m · 540km/h
+- **NEW**  [PAT251 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae08fa) — *2026-07-24*
+  > icao24: ae08fa · position: (41.9634, -72.6321) · alt: 472m · 319km/h
+- **NEW**  [JAF8WB (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1ba) — *2026-07-24*
+  > icao24: 44d1ba · position: (50.91, 4.494) · on ground · 20km/h
+- **NEW**  [JAF3DN (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a6) — *2026-07-24*
+  > icao24: 44d1a6 · position: (48.6801, 8.5181) · alt: 11277m · 906km/h
+- **NEW**  [JAF2HN (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a7) — *2026-07-24*
+  > icao24: 44d1a7 · position: (41.353, 20.9211) · alt: 11582m · 809km/h
+- **NEW**  [JAF40W (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a5) — *2026-07-24*
+  > icao24: 44d1a5 · position: (50.1358, 3.6604) · alt: 6880m · 748km/h
+- **NEW**  [JAF12M (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1b4) — *2026-07-24*
+  > icao24: 44d1b4 · position: (46.598, -1.5676) · alt: 10972m · 875km/h
 - **NEW**  [JAF5KH (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a2) — *2026-07-24*
-  > icao24: 44d1a2 · position: (39.8128, 24.816) · alt: 10980m · 831km/h
-- **NEW**  [JAF63N (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a1) — *2026-07-24*
-  > icao24: 44d1a1 · position: (50.8945, 4.5042) · alt: -15m · 203km/h
-- **NEW**  [GAF613 (Germany)](https://opensky-network.org/aircraft-profile?icao24=3f7b3c) — *2026-07-24*
-  > icao24: 3f7b3c · position: (55.1681, -3.7414) · alt: 3063m · 514km/h
-- **NEW**  [NCR8845 (United States)](https://opensky-network.org/aircraft-profile?icao24=aabbef) — *2026-07-24*
-  > icao24: aabbef · position: (23.1344, 57.6922) · alt: 11887m · 891km/h
-- **NEW**  [GAF207 (Germany)](https://opensky-network.org/aircraft-profile?icao24=3f447a) — *2026-07-24*
-  > icao24: 3f447a · position: (43.0528, 13.9775) · alt: 9745m · 611km/h
+  > icao24: 44d1a2 · position: (50.9001, 4.4894) · on ground · 2km/h
+- **NEW**  [JAF35D (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d1a1) — *2026-07-24*
+  > icao24: 44d1a1 · position: (44.4614, -4.3755) · alt: 11277m · 756km/h
+- **NEW**  [FAF6526 (France)](https://opensky-network.org/aircraft-profile?icao24=3b75f3) — *2026-07-24*
+  > icao24: 3b75f3 · position: (46.0379, 0.0159) · alt: 2438m · 522km/h
 - **NEW**  [RCH852 (United States)](https://opensky-network.org/aircraft-profile?icao24=ae0812) — *2026-07-24*
-  > icao24: ae0812 · position: (42.6366, -76.3907) · alt: 9136m · 792km/h
-- **NEW**  [NCR810 (United States)](https://opensky-network.org/aircraft-profile?icao24=a9c52e) — *2026-07-24*
-  > icao24: a9c52e · position: (48.7817, -68.9253) · alt: 10058m · 976km/h
-- **NEW**  [NCR8881 (United States)](https://opensky-network.org/aircraft-profile?icao24=aabfa6) — *2026-07-24*
-  > icao24: aabfa6 · position: (23.8131, 57.3758) · alt: 10363m · 861km/h
+  > icao24: ae0812 · position: (38.6013, -103.039) · alt: 9753m · 843km/h
+- **NEW**  [SAMU26 (France)](https://opensky-network.org/aircraft-profile?icao24=39ac18) — *2026-07-24*
+  > icao24: 39ac18 · position: (45.4274, 4.9422) · alt: 533m · 237km/h
+- **NEW**  [NCR4838 (United States)](https://opensky-network.org/aircraft-profile?icao24=a7488c) — *2026-07-24*
+  > icao24: a7488c · position: (50.0512, -10.1399) · alt: 10363m · 946km/h
 - **NEW**  [GAF790 (Germany)](https://opensky-network.org/aircraft-profile?icao24=3f5407) — *2026-07-24*
-  > icao24: 3f5407 · position: (55.9247, -4.0849) · alt: 1036m · 376km/h
-- **NEW**  [GAF197 (Germany)](https://opensky-network.org/aircraft-profile?icao24=3f5342) — *2026-07-24*
-  > icao24: 3f5342 · position: (48.931, 9.1474) · alt: 4015m · 505km/h
-- **NEW**  [NCR809 (United States)](https://opensky-network.org/aircraft-profile?icao24=a95c2f) — *2026-07-24*
-  > icao24: a95c2f · position: (31.0569, -93.4724) · alt: 9890m · 902km/h
-- **NEW**  [JAF7AK (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d2b6) — *2026-07-24*
-  > icao24: 44d2b6 · position: (35.4001, -6.478) · alt: 12192m · 903km/h
-- **NEW**  [JAF1YV (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44d2ab) — *2026-07-24*
-  > icao24: 44d2ab · position: (38.727, 20.2625) · alt: 11582m · 737km/h
+  > icao24: 3f5407 · position: (48.1637, -3.9971) · alt: 4899m · 726km/h
+- **NEW**  [EAGLE3 (United Kingdom)](https://opensky-network.org/aircraft-profile?icao24=43eed2) — *2026-07-24*
+  > icao24: 43eed2 · position: (35.8544, 14.4841) · on ground · 42km/h
+- **NEW**  [JAF54C (Belgium)](https://opensky-network.org/aircraft-profile?icao24=449681) — *2026-07-24*
+  > icao24: 449681 · position: (45.5456, 14.9327) · alt: 11582m · 678km/h
+- **NEW**  [JAF25B (Belgium)](https://opensky-network.org/aircraft-profile?icao24=449683) — *2026-07-24*
+  > icao24: 449683 · position: (46.1757, 11.4299) · alt: 11887m · 900km/h
+- **NEW**  [RRR860 (United Kingdom)](https://opensky-network.org/aircraft-profile?icao24=43c6f4) — *2026-07-24*
+  > icao24: 43c6f4 · position: (53.4491, -2.8146) · alt: 7924m · 766km/h
 - **NEW**  [RRR2152 (United Kingdom)](https://opensky-network.org/aircraft-profile?icao24=43c6f8) — *2026-07-24*
-  > icao24: 43c6f8 · position: (55.664, 5.0656) · alt: 12496m · 871km/h
-- **NEW**  [PUMAB (South Africa)](https://opensky-network.org/aircraft-profile?icao24=009343) — *2026-07-24*
-  > icao24: 009343 · position: (44.7515, -1.1414) · alt: 68m · 100km/h
-- **NEW**  [AF13 (China)](https://opensky-network.org/aircraft-profile?icao24=7b1004) — *2026-07-24*
-  > icao24: 7b1004 · position: (22.3252, 113.9226) · on ground · 27km/h
-- **NEW**  [JAF11G (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44a831) — *2026-07-24*
-  > icao24: 44a831 · position: (36.7786, 26.6067) · alt: 8686m · 757km/h
-- **NEW**  [JAF29J (Belgium)](https://opensky-network.org/aircraft-profile?icao24=44a826) — *2026-07-24*
-  > icao24: 44a826 · position: (39.2382, 19.1276) · alt: 11582m · 763km/h
+  > icao24: 43c6f8 · position: (59.6523, 10.5251) · alt: 6629m · 730km/h
+- **NEW**  [RRR2118 (United Kingdom)](https://opensky-network.org/aircraft-profile?icao24=43c6f3) — *2026-07-24*
+  > icao24: 43c6f3 · position: (49.1271, 1.3922) · alt: 11277m · 814km/h
 
-_(3 additional items in raw.jsonl)_
+_(5 additional items in raw.jsonl)_

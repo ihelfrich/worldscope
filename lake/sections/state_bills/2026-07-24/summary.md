@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-24
-record_count: 236
-new_today: 130
+record_count: 107
+new_today: 3
 state: fresh
 ---
 
 ## State Legislative Action
 
-130 new of 236 total items today.
+3 new of 107 total items today.
 
 - [[Alabama SB 136] Sunset law; Alabama Massage Therapy Licensing Board continued with modification until October 1, 2027, when renamed Alabama Massage Advisory Council under the regulatory authority of the Alabama Department of Public Health]() — *2026-07-22*
   > Occupational Licensing Boards
@@ -47,6 +47,10 @@ state: fresh
   > An Act relating to prepaid legal plans.
 - [[Alaska HB 193] An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support obl]() — *2026-07-22*
   > An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support
+- **NEW**  [[California SB 820] Inmates: mental health.]() — *2026-07-24*
+  > Existing law prohibits a person from being tried or adjudged to punishment while that person is mentally incompetent. Existing law establishes a process by which a defendant's mental competency is evaluated. Existing law, in the case of a misdemeanor charge in which the defendant
+- **NEW**  [[California SB 809] Employees and independent contractors: construction trucking.]() — *2026-07-24*
+  > (1) Existing law, as established in the case of Dynamex Operations W. v. Superior Court (2018) 4 Cal.5th 903 (Dynamex) , creates a presumption that a worker who performs services for a hirer is an employee for purposes of claims for wages and benefits arising under wage orders is
 - [[California SB 793] Public safety: lighters: standards: prohibition.]() — *2026-07-23*
   > Existing law requires the State Fire Marshal to specify standards for the design of cigarette lighters using an 80% acceptance criterion with respect to safety features that prevent operation of the lighters by children 5 years of age or younger. Existing law prohibits a person f
 - [[California AB 2206] Teacher credentialing: community college baccalaureate degrees: designated subjects career technical education teaching credential.]() — *2026-07-23*
@@ -57,9 +61,5 @@ state: fresh
   > The Planning and Zoning law requires each planning agency to prepare and the legislative body of each county and city to adopt a comprehensive, long-term general plan containing specified elements, including a housing element. Existing law requires the housing element to be revis
 - [[California AB 2241] School facilities: inclusive school playgrounds.]() — *2026-07-23*
   > If state funds are used for a public building or facility or local funds are used for a school or community college building or facility, including a school playground, existing law prohibits a contract from being awarded until the Department of General Services issues a written 
-- [[California AB 1694] California Career Technical Education Incentive Grant Program: renewal grants.]() — *2026-07-23*
-  > Existing law establishes the California Career Technical Education Incentive Grant Program, administered by the State Department of Education, with the purpose of encouraging, maintaining, and strengthening the delivery of high-quality career technical education programs. Existin
-- [[California SB 127] Climate change.]() — *2026-07-23*
-  > Existing law establishes the State Energy Resources Conservation and Development Commission (Energy Commission) under the direction of a chairperson. Existing law provides an annual salary for members and for the chairperson and prescribes a method by which those salaries may be 
 
-_(211 additional items in raw.jsonl)_
+_(82 additional items in raw.jsonl)_

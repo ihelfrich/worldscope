@@ -27,17 +27,17 @@ state: fresh
   > United States · Technology · source: Semiconductors · holdings: NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ)
 - [#8 Larry Ellison — $157.76B](https://www.forbes.com/profile/larry-ellison/) — *2026-07-24*
   > United States · Technology · source: Oracle · holdings: ORCL-US(NYSE), ORCL-US(NYSE), PSKY-US(NASDAQ), SPCX-US(NASDAQ)
-- [#9 Bernard Arnault & family — $140.14B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-24*
+- [#9 Bernard Arnault & family — $139.87B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-24*
   > France · Fashion & Retail · source: LVMH · holdings: BIRK-US(NYSE), RMS-FR(EURONEXT PARIS), MC-FR(EURONEXT PARIS)
 - [#10 Warren Buffett — $139.45B](https://www.forbes.com/profile/warren-buffett/) — *2026-07-24*
   > United States · Finance & Investments · source: Berkshire Hathaway · holdings: BRK.A-US(NYSE), BRK.B-US(NYSE)
-- [#11 Amancio Ortega — $136.97B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-24*
+- [#11 Amancio Ortega — $136.93B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-24*
   > Spain · Fashion & Retail · source: Zara · holdings: SAN-ES(MADRID), ENG-ES(MADRID), ITX-ES(MADRID)
 - [#12 Rob Walton & family — $128.13B](https://www.forbes.com/profile/rob-walton/) — *2026-07-24*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
 - [#13 Jim Walton & family — $125.45B](https://www.forbes.com/profile/jim-walton/) — *2026-07-24*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
-- [#14 Carlos Slim Helu & family — $125.30B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-07-24*
+- [#14 Carlos Slim Helu & family — $125.28B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-07-24*
   > Mexico · Telecom · source: Telecom · holdings: AMX-US(NYSE), BT.A-GB(LONDON), FCC-ES(MADRID), GCARSOA1-MX(MEXICO)
 - [#15 Steve Ballmer — $123.52B](https://www.forbes.com/profile/steve-ballmer/) — *2026-07-24*
   > United States · Technology · source: Microsoft · holdings: MSFT-US(NASDAQ), TWTR-US(NYSE)
@@ -47,17 +47,17 @@ state: fresh
   > United States · Finance & Investments · source: Bloomberg LP
 - [#18 Changpeng Zhao — $107.87B](https://www.forbes.com/profile/changpeng-zhao/) — *2026-07-24*
   > Canada · Finance & Investments · source: Cryptocurrency exchange
-- [#19 Thomas Peterffy — $105.31B](https://www.forbes.com/profile/thomas-peterffy/) — *2026-07-24*
-  > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
-- [#20 Bill Gates — $105.30B](https://www.forbes.com/profile/bill-gates/) — *2026-07-24*
+- [#19 Bill Gates — $105.33B](https://www.forbes.com/profile/bill-gates/) — *2026-07-24*
   > United States · Technology · source: Microsoft · holdings: ACGL-US(NASDAQ), ARCO-US(NYSE), AN-US(NYSE), BRK.A-US(NYSE)
-- [#21 Francoise Bettencourt Meyers & family — $91.43B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-24*
+- [#20 Thomas Peterffy — $105.31B](https://www.forbes.com/profile/thomas-peterffy/) — *2026-07-24*
+  > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
+- [#21 Francoise Bettencourt Meyers & family — $91.34B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-24*
   > France · Fashion & Retail · source: L'Oréal · holdings: OR-FR(EURONEXT PARIS)
 - [#22 Giancarlo Devasini — $89.30B](https://www.forbes.com/profile/giancarlo-devasini/) — *2026-07-24*
   > Italy · Finance & Investments · source: Cryptocurrency
-- [#23 Mukesh Ambani — $86.41B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-07-24*
+- [#23 Mukesh Ambani — $86.50B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-07-24*
   > India · Diversified · source: Diversified · holdings: 543940-IN(BSE INDIA), 500325-IN(BSE INDIA)
-- [#24 Gautam Adani — $85.19B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-07-24*
+- [#24 Gautam Adani — $85.36B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-07-24*
   > India · Diversified · source: Infrastructure, commodities · holdings: 512599-IN(BSE INDIA), 542066-IN(BSE INDIA), 541450-IN(BSE INDIA), 532921-IN(BSE INDIA)
 - [#25 Julia Koch & family — $81.19B](https://www.forbes.com/profile/julia-koch/) — *2026-07-24*
   > United States · Diversified · source: Koch, Inc.

@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[Vanderhook Timothy] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1843103/000184310326000014/0001843103-26-000014-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:54 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001843103-26-000014 Size: 16 KB
-- **NEW**  [[Viant Technology Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1828791/000184310326000014/0001843103-26-000014-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:54 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001843103-26-000014 Size: 16 KB
-- **NEW**  [[Vanderhook Christopher] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1843104/000184310426000014/0001843104-26-000014-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:54 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001843104-26-000014 Size: 16 KB
-- **NEW**  [[Viant Technology Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1828791/000184310426000014/0001843104-26-000014-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:54 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001843104-26-000014 Size: 16 KB
-- **NEW**  [[Capital V LLC] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1844767/000184476726000012/0001844767-26-000012-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:53 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001844767-26-000012 Size: 15 KB
-- **NEW**  [[Viant Technology Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1828791/000184476726000012/0001844767-26-000012-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:53 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001844767-26-000012 Size: 15 KB
-- **NEW**  [[Kim Vyacheslav] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2029485/000119312526314785/0001193125-26-314785-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:42 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001193125-26-314785 Size: 16 KB
-- **NEW**  [[Joint Stock Co Kaspi.kz] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1985487/000119312526314785/0001193125-26-314785-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:42 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001193125-26-314785 Size: 16 KB
-- **NEW**  [[McManus Matt] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2067206/000119312526314771/0001193125-26-314771-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:30 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001193125-26-314771 Size: 5 KB
-- **NEW**  [[Fold Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1889123/000119312526314771/0001193125-26-314771-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:30 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001193125-26-314771 Size: 5 KB
-- **NEW**  [[RA Capital Nexus Fund III, L.P.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1883840/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[Artiva Biotherapeutics, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1817241/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Issuer — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[RA Capital Nexus Fund, L.P.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1780117/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[Shah Rajeev M.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1619841/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[Kolchinsky Peter] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1384859/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[RA CAPITAL MANAGEMENT, L.P.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1346824/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[RA Capital Healthcare Fund LP] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1315082/000123191926000791/0001231919-26-000791-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:22 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000791 Size: 22 KB
-- **NEW**  [[RA Capital Nexus Fund III, L.P.] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1883840/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[Artiva Biotherapeutics, Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/1817241/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Issuer — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[RA Capital Nexus Fund, L.P.] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1780117/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[Shah Rajeev M.] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1619841/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[Kolchinsky Peter] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1384859/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[RA CAPITAL MANAGEMENT, L.P.] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1346824/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[RA Capital Healthcare Fund LP] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1315082/000123191926000790/0001231919-26-000790-index.htm) — *2026-07-24*
-  > filed 2026-07-24 01:21 UTC · amended · role: Reporting — Filed: 2026-07-23 AccNo: 0001231919-26-000790 Size: 15 KB
-- **NEW**  [[TENG CHIN-CHI] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1751946/000081367226000085/0000813672-26-000085-index.htm) — *2026-07-24*
-  > filed 2026-07-24 00:55 UTC · role: Reporting — Filed: 2026-07-23 AccNo: 0000813672-26-000085 Size: 24 KB
+- **NEW**  [485BXT - Investment Managers Series Trust II (0001587982) (Filer)](https://www.sec.gov/Archives/edgar/data/1587982/000121390026081131/0001213900-26-081131-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:22 UTC — Filed: 2026-07-24 AccNo: 0001213900-26-081131 Size: 24 KB
+- **NEW**  [485BXT - Investment Managers Series Trust II (0001587982) (Filer)](https://www.sec.gov/Archives/edgar/data/1587982/000121390026081131/0001213900-26-081131-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:22 UTC — Filed: 2026-07-24 AccNo: 0001213900-26-081131 Size: 24 KB
+- **NEW**  [485BXT - Investment Managers Series Trust II (0001587982) (Filer)](https://www.sec.gov/Archives/edgar/data/1587982/000121390026081130/0001213900-26-081130-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:21 UTC — Filed: 2026-07-24 AccNo: 0001213900-26-081130 Size: 24 KB
+- **NEW**  [485BXT - Investment Managers Series Trust II (0001587982) (Filer)](https://www.sec.gov/Archives/edgar/data/1587982/000121390026081130/0001213900-26-081130-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:21 UTC — Filed: 2026-07-24 AccNo: 0001213900-26-081130 Size: 24 KB
+- **NEW**  [424B2 - DEUTSCHE BANK AKTIENGESELLSCHAFT (0001159508) (Filer)](https://www.sec.gov/Archives/edgar/data/1159508/000095010326011128/0000950103-26-011128-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:20 UTC — Filed: 2026-07-24 AccNo: 0000950103-26-011128 Size: 105 KB
+- **NEW**  [425 - Warehouses De Pauw (0002145819) (Subject)](https://www.sec.gov/Archives/edgar/data/2145819/000120864626000033/0001208646-26-000033-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:15 UTC — Filed: 2026-07-23 AccNo: 0001208646-26-000033 Size: 519 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015745/0001999371-26-015745-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:15 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015745 Size: 26 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015745/0001999371-26-015745-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:15 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015745 Size: 26 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015744/0001999371-26-015744-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:13 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015744 Size: 22 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015744/0001999371-26-015744-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:13 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015744 Size: 22 KB
+- **NEW**  [425 - Warehouses De Pauw (0002145819) (Subject)](https://www.sec.gov/Archives/edgar/data/2145819/000120864626000036/0001208646-26-000036-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:13 UTC — Filed: 2026-07-24 AccNo: 0001208646-26-000036 Size: 19 MB
+- **NEW**  [425 - Warehouses De Pauw (0002145819) (Subject)](https://www.sec.gov/Archives/edgar/data/2145819/000120864626000035/0001208646-26-000035-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:13 UTC — Filed: 2026-07-24 AccNo: 0001208646-26-000035 Size: 10 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015743/0001999371-26-015743-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:12 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015743 Size: 22 KB
+- **NEW**  [485BXT - Tidal Trust II (0001924868) (Filer)](https://www.sec.gov/Archives/edgar/data/1924868/000199937126015743/0001999371-26-015743-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:12 UTC — Filed: 2026-07-24 AccNo: 0001999371-26-015743 Size: 22 KB
+- **NEW**  [425 - Warehouses De Pauw (0002145819) (Subject)](https://www.sec.gov/Archives/edgar/data/2145819/000120864626000034/0001208646-26-000034-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:12 UTC — Filed: 2026-07-23 AccNo: 0001208646-26-000034 Size: 11 MB
+- **NEW**  [[Corebridge Financial, Inc.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1889539/000110465926086489/0001104659-26-086489-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:00 UTC · role: Reporting — Filed: 2026-07-24 AccNo: 0001104659-26-086489 Size: 7 KB
+- **NEW**  [[DNP SELECT INCOME FUND INC] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/806628/000110465926086489/0001104659-26-086489-index.htm) — *2026-07-24*
+  > filed 2026-07-24 12:00 UTC · role: Issuer — Filed: 2026-07-24 AccNo: 0001104659-26-086489 Size: 7 KB
+- **NEW**  [[Carmel Sharon] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1981861/000121390026081115/0001213900-26-081115-index.htm) — *2026-07-24*
+  > filed 2026-07-24 11:00 UTC · role: Reporting — Filed: 2026-07-24 AccNo: 0001213900-26-081115 Size: 5 KB
+- **NEW**  [[Beamr Imaging Ltd.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1899005/000121390026081115/0001213900-26-081115-index.htm) — *2026-07-24*
+  > filed 2026-07-24 11:00 UTC · role: Issuer — Filed: 2026-07-24 AccNo: 0001213900-26-081115 Size: 5 KB
+- **NEW**  [[Azaria Eynav] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2009676/000162828026049497/0001628280-26-049497-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:54 UTC · role: Reporting — Filed: 2026-07-24 AccNo: 0001628280-26-049497 Size: 5 KB
+- **NEW**  [[KALTURA INC] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1432133/000162828026049497/0001628280-26-049497-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:54 UTC · role: Issuer — Filed: 2026-07-24 AccNo: 0001628280-26-049497 Size: 5 KB
+- **NEW**  [[Schmidt Joshua D.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1889993/000162828026049491/0001628280-26-049491-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:35 UTC · role: Reporting — Filed: 2026-07-24 AccNo: 0001628280-26-049491 Size: 5 KB
+- **NEW**  [[InterDigital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1405495/000162828026049491/0001628280-26-049491-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:35 UTC · role: Issuer — Filed: 2026-07-24 AccNo: 0001628280-26-049491 Size: 5 KB
+- **NEW**  [[InterDigital, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1405495/000162828026049489/0001628280-26-049489-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:34 UTC · role: Issuer — Filed: 2026-07-24 AccNo: 0001628280-26-049489 Size: 4 KB
+- **NEW**  [[RANKIN JEAN F] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1222716/000162828026049489/0001628280-26-049489-index.htm) — *2026-07-24*
+  > filed 2026-07-24 10:34 UTC · role: Reporting — Filed: 2026-07-24 AccNo: 0001628280-26-049489 Size: 4 KB
 
 _(15 additional items in raw.jsonl)_
