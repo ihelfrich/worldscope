@@ -2,64 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-25
-record_count: 118
-new_today: 118
+record_count: 50
+new_today: 50
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-118 new of 118 total items today.
+50 new of 50 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes]   בובי דרס פרה , ניקי עשתה טוורקינג : בדיחות טראמפ בנשף הנוצץ](https://www.ynet.co.il/news/article/rkuuja11smg) — *2026-07-25*
-  > ynet.co.il · Hebrew · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Saudijska Arabija napala Jemen nakon novih incidenata u Crvenom moru](http://www.avaz.ba/vijesti/globus/1059893/saudijska-arabija-napala-jemen-nakon-novih-incidenata-u-crvenom-moru) — *2026-07-25*
-  > avaz.ba · Serbian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Черные или зеленые : врачи объяснили , какие оливки действительно полезнее для сердца и сосудов](https://www.pravda.ru/news/health/2378018-olives-health-benefits-and-danger/) — *2026-07-25*
-  > pravda.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 全国每人吃5斤才能吃完 ， 昔日网红食物价格腰斩](https://www.163.com/dy/article/L2MPARGV051285EO.html) — *2026-07-25*
-  > 163.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 领克林杰 ： 燃油车下滑幅度超预期](https://www.yicai.com/news/103292075.html) — *2026-07-25*
-  > yicai.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] La Cina prepara la guerra senza sparare : pescherecci - milizia e isole artificiali nel Mar Cinese Meridionale](https://www.panorama.it/attualita/esteri/la-cina-prepara-la-guerra-senza-sparare-pescherecci-milizia-e-isole-artificiali-nel-mar-cinese-meridionale) — *2026-07-25*
-  > panorama.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Топ - менеджер из нефтянки пытается оспорить девятилетний срок за взятку](https://ura.news/news/1053112571) — *2026-07-25*
-  > ura.news · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Апликација за цијене робе и горива у реалном времену помогле би грађанима ( ВИДЕО ) ](https://www.rtrs.tv/vijesti/vijest.php?id=654107) — *2026-07-25*
-  > rtrs.tv · Serbian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] China oil stockpiles cushion global market volatility amid rising crude prices : Sparta Commoditie June Goh](http://www.nepalnational.com/news/279208823/china-oil-stockpiles-cushion-global-market-volatility-amid-rising-crude-prices-sparta-commodities-june-goh) — *2026-07-25*
-  > nepalnational.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Attack On Aramco : जगातील सर्वात मोठ्या तेल कंपनीवर मिसाइल आणि ड्रोन हल्ला ; अमेरिकेची एअर डिफेन्स सिस्टिम अपयशी](https://prahaar.in/2026/07/25/attack-on-aramco-missile-and-drone-attack-on-the-worlds-largest-oil-company-us-air-defense-system-fails/) — *2026-07-25*
-  > prahaar.in · Marathi · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] DIRECT - Incendie de Biscarrosse  : 3 500 hectares brûlés , Sanguinet à son tour évacuée](https://www.ici.fr/nouvelle-aquitaine/landes-40/biscarrosse/direct-incendie-de-biscarrosse-3-000-hectares-brules-sanguinet-a-son-tour-evacuee-5027144) — *2026-07-25*
-  > ici.fr · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 高雄客家米食節暖身開跑 美濃食農小旅行親子必玩](https://n.yam.com/Article/20260725816051) — *2026-07-25*
-  > n.yam.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] ドキュメンタリー映画 『 ミスター ・ ナチュラルと呼ばれた男 』 を制作 。 ロケ地である島根県奥出雲町 、 奈良県吉野町 、 東京都練馬区で試写会 ・ 上映会開催 。 ](https://www.the-miyanichi.co.jp/pressrelease/prtimes/943712.html) — *2026-07-25*
-  > the-miyanichi.co.jp · Japanese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Добавьте сыр и кукурузу к запечённому картофелю результат настолько вкусный , что гарнир станет главным](https://www.pravda.ru/news/recipes/2378016-stuffed-potato-boats-recipe/) — *2026-07-25*
-  > pravda.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Bancoi : La solidaridad ciudadana compensa la ausencia del Estado - Última Hora | Noticias de Paraguay y el mundo , las 24 horas . Noticias nacionales e internacionales , deportes , política . Noticias de último momento . ](https://www.ultimahora.com/bancoi-la-solidaridad-ciudadana-compensa-la-ausencia-del-estado) — *2026-07-25*
-  > ultimahora.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] DPRK Aceh Timur Didesak Segera Umumkan Hasil Pansus HGU Sawit](https://aceh.tribunnews.com/nanggroe/1035690/dprk-aceh-timur-didesak-segera-umumkan-hasil-pansus-hgu-sawit) — *2026-07-25*
+- **NEW**  [[Russia oil sanctions perimeter · themes]  ¿ Qué esperamos de Estados Unidos los demócratas y liberales del continente ? ](https://www.infobae.com/america/opinion/2026/07/25/que-esperamos-de-estados-unidos-los-democratas-y-liberales-del-continente/) — *2026-07-25*
+  > infobae.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] موقع بكرا - ترامب : إيران تُدار حاليًا من قبل ديكتاتور متطرف ولن نسمح لها بامتلاك سلاح نووي](https://bokra.net/Article-1599796) — *2026-07-25*
+  > bokra.net · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] SpaceX星舰第13次试飞圆满收官 首次投放V3星链 助推器与星舰均受控溅落 - 业界动态 - ITBear科技资讯](https://www.itbear.com.cn/html/2026-07/1464074.html) — *2026-07-25*
+  > itbear.com.cn · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Дрони атакували Ростов , Енгельс та Луганськ : у містах виникли пожежі , горить казарма](https://uainfo.org/blognews/1784956735-droni-atakuvali-rostov-engels-ta-lugansk-u-mistah-vinikli.html) — *2026-07-25*
+  > uainfo.org · Ukrainian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 자기 손길 뿌리쳤다고 8살 아이 때려 실신시킨 50대 … 출동한 경찰까지 폭행](https://www.munhwa.com:443/article/11604960) — *2026-07-25*
+  > munhwa.com · Korean · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Yolcu otobüsü otomobile çarptı : 2  si ağır 30 yaralı](https://www.kocaeligazetesi.com.tr/haber/28403124/yolcu-otobusu-otomobile-carpti-2si-agir-30-yarali) — *2026-07-25*
+  > kocaeligazetesi.com.tr · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Grapevine : Light rail , hefty price | The Jerusalem Post](https://www.jpost.com/israel-news/article-903462) — *2026-07-25*
+  > jpost.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Migrant nechce byť deportovaný ani po znásilnení maloletej , vraj je bisexuál](https://www.topky.sk/cl/11/9453693/Sokujuci-argument-27-rocneho-migranta--Znasilnil-14-rocne-dievca-a-odmieta-deportaciu--vraj-je-bisexual-) — *2026-07-25*
+  > topky.sk · Slovak · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Evacuations continue after major incident declared for Cairngorms wildfire](https://www.theargus.co.uk/news/national/26409351.evacuations-continue-major-incident-declared-cairngorms-wildfire/) — *2026-07-25*
+  > theargus.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] La Odisea en cine : claves de la adaptación de Christopher Nolan que pone al héroe ante la violencia y el destino](https://www.infobae.com/cultura/2026/07/25/la-odisea-en-cine-claves-de-la-adaptacion-de-christopher-nolan-que-pone-al-heroe-ante-la-violencia-y-el-destino/) — *2026-07-25*
+  > infobae.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Big Asia stock funds turn to laggards to cut risk from AI swings](https://www.businesstimes.com.sg/companies-markets/big-asia-stock-funds-turn-laggards-cut-risk-ai-swings) — *2026-07-25*
+  > businesstimes.com.sg · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Եմենը հարված է հասցրել Սաուդյան Արաբիայի օբյեկտներին](https://www.yerkir.am/hy/article/2026/07/25/315831) — *2026-07-25*
+  > yerkir.am · Armenian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Frosinone , Brt partenza il 3 agosto : allinizio sarà gratuito](https://www.ilmessaggero.it:443/frosinone/brt_partenza_3_agosto_inizio_sara_gratuito-9671056.html) — *2026-07-25*
+  > ilmessaggero.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Over 40 Degrees Expected in Vienna : To the Water or Better Not Go Out at All ? - How to Behave Properly in Extreme Heat](https://www.vol.at/over-40-degrees-expected-in-vienna-to-the-water-or-better-not-go-out-at-all-how-to-behave-properly-in-extreme-heat/10346630) — *2026-07-25*
+  > vol.at · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Lampedusa e Pantelleria : sequestrati 3 quintali di alimenti](https://meridionews.it/lampedusa-pantelleria-quintali-alimenti-sanzioni/) — *2026-07-25*
+  > meridionews.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Tarif Cukai Rokok 2027 Dipastikan Tidak Naik , Pemerintah Siapkan Layer Baru untuk Tekan Rokok Ilegal](https://aceh.tribunnews.com/news/1035696/tarif-cukai-rokok-2027-dipastikan-tidak-naik-pemerintah-siapkan-layer-baru-untuk-tekan-rokok-ilegal) — *2026-07-25*
   > aceh.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Καύσιμα : Ξανά κοντά στα 2 ευρώ η βενζίνη – « Φρένο » στις μετακινήσεις και τις διακοπές](https://www.tanea.gr/2026/07/25/economy/kaysima-ksana-konta-sta-2-eyro-i-venzini-freno-stis-metakiniseis-kai-tis-diakopes/) — *2026-07-25*
-  > tanea.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Philippines , China trade blame after water cannon clash near Scarborough Shoal in South China Sea](https://gulfnews.com/world/asia/philippines-china-trade-accusations-after-fresh-south-china-sea-confrontation-1.500619712) — *2026-07-25*
-  > gulfnews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 滚动更新 | ​防御台风  红霞 ， 广东累计转移超28万人 ！ 国家防总对广东启动防汛防台风三级应急响应](https://news.ycwb.com/ikimvkltin/content_54249683.htm) — *2026-07-25*
-  > news.ycwb.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] ഹോര്‍മൂസ് കടക്കാന്‍ ശ്രമിച്ച കപ്പലിന് നേരെ വെടിയുതിര്‍ത്തിയതായി യുഎസ്](https://janayugomonline.com/us-says-it-fired-on-ship-trying-to-pass-through-strait-of-hormuz/) — *2026-07-25*
-  > janayugomonline.com · Malayalam · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Los usuarios denuncian el peligro de la carretera del cementerio de Badajoz : estrecha , con baches y con tráfico constante de camiones](https://www.hoy.es/badajoz/peligro-carretera-cementerio-badajoz-20260725105334-nt.html) — *2026-07-25*
-  > hoy.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] معهد ألماني : إمدادات النفط في ألمانيا وأوروبا لا تزال مستقرة](https://www.shorouknews.com/news/view.aspx?cdate=25072026&id=58d764e2-b421-4056-9d8c-ba70a055412c) — *2026-07-25*
-  > shorouknews.com · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Бензин в США подорожал на треть из - за операции против Ирана :: Новости дня / ВЗГЛЯД](https://vz.ru/news/2026/7/25/1437551.html) — *2026-07-25*
-  > vz.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] SpaceX përfundon me sukses testimin e Starship , raketa gjigante realizon ulje të kontrolluar](https://telegrafi.com/spacex-perfundon-me-sukses-testimin-e-starship-raketa-gjigante-realizon-ulje-te-kontrolluar/) — *2026-07-25*
-  > telegrafi.com · Albanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Офшоры , ливийский миллиардер и сексуальные скандалы прокуроров МУС … - Наша аналитика](https://haqqin.az/newsarchive/389248) — *2026-07-25*
-  > haqqin.az · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Bakan Kacır , 6 . Ulusal Arktik Bilimsel Araştırma Seferi ekibini ziyaret etti](https://www.gunes.com/teknoloji/bakan-kacir-6-ulusal-arktik-bilimsel-arastirma-seferi-ekibini-ziyaret-etti-1228467) — *2026-07-25*
+  > gunes.com · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] China oil stockpiles cushion global market volatility amid rising crude prices : Sparta Commoditie June Goh](http://www.europesun.com/news/279208823/china-oil-stockpiles-cushion-global-market-volatility-amid-rising-crude-prices-sparta-commodities-june-goh) — *2026-07-25*
+  > europesun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 直播 ／「 我是人 我反毒台 」 登場 ！ 藍白要角揪5萬人 凱道怒吼護食安 | 致癌油食安究責 | 要聞](https://udn.com/news/story/124948/9650695) — *2026-07-25*
+  > udn.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Revue de presse nigérienne du 24 juillet 2026 : les grandes analyses de la presse nationale](https://nigerdiaspora.net/route-sef-revue-de-presse/revue-de-presse-nigerienne-du-24-juillet-2026-les-grandes-analyses-de-la-presse-nationale) — *2026-07-25*
+  > nigerdiaspora.net · French · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] A vueltas con el petróleo](https://www.diariodenavarra.es/contenidos/participacion/cartasaldirector/2026/07/25/vueltas-petroleo.html) — *2026-07-25*
+  > diariodenavarra.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Keep wasps out of your garden with homemade 3 - ingredient deterrent spray](https://www.walesonline.co.uk/news/homes-property/how-to-deter-wasps-away-34348478) — *2026-07-25*
+  > walesonline.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Tavali po meglenem otoku , streljali na duhove , izgubili 300 mož in rušilca](https://www.24ur.com/magazin/tavali-po-meglenem-otoku-streljali-na-duhove-in-izgubili-300-vojakov.html) — *2026-07-25*
+  > 24ur.com · Slovenian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Guerra in Iran : negli united states cresce il malcontento . Anche la base di Trump mostra crepe](https://www.agensir.it/mondo/2026/07/25/guerra-in-iran-negli-usa-cresce-il-malcontento-anche-la-base-di-trump-mostra-crepe/) — *2026-07-25*
+  > agensir.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Noto lido abusivo a Castel Volturno scatta il blitz della Finanza | sigilli allintero stabilimento](https://www.zazoom.it/2026-07-25/noto-lido-abusivo-a-castel-volturno-scatta-il-blitz-della-finanza-sigilli-allintero-stabilimento/19500576/) — *2026-07-25*
+  > zazoom.it · Italian · tone NA
 
-_(93 additional items in raw.jsonl)_
+_(25 additional items in raw.jsonl)_

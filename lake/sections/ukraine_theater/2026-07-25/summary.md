@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-25
-record_count: 347
-new_today: 85
+record_count: 240
+new_today: 24
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-85 new of 347 total items today.
+24 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-07-25*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -21,10 +21,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] Explosions were also reported in Luhansk - Liveuamap](https://liveuamap.com) — *2026-07-25*
   > <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSGtVZXB0NDZuUmVublZOMDlOcGpXMHJYYmxkQ01McEVVUkgxMTRxdzdSNnY2NDZXV3BSNm9Gck1TellwdGUxWjEtUmYxSHBNVzByMWNucHNjam9oSm9qSzVTTi1pZ2k1YnU4NzBfYmNNZkhUNmhsOTI0TURVZXk4aWdfeWxoSUZO?oc=5" target="_blank">Explosions were also re
-- [[Liveuamap] Power blackout in Sudak after drone strike at the local substation which is still on fire - Liveuamap](https://liveuamap.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNeDI0dkRJcXk5UVpTbXdHVXVVVFhzNFdZNm9wOXBUMUt4dWcxTUxMLWxzTlZCY0tTQzhVWmY3bmloNm12RlZPV0VzQmMyZlQtcEVXSlJUemxUWGdDSzBxSi1qZ0NDa0V3Sy1vajRJY2s2RncwYzNTX2ZrMFFoNVdDTTM2a2NGMnNjVUUtX0ctWQ?oc=5" target="_blank">Power blackou
 - **NEW**  [[Liveuamap] Explosions were reported in Belgorod - Liveuamap](https://liveuamap.com) — *2026-07-25*
   > <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTZfSlZINFUySUZiSUpCaG85VmRTNXQ3TjNxTXR0aFBLeW9qSHNZNDBOVWJYcFFPVVBVcGVqcXpQbFhkOWZ2Qkplalo3VU5acDZGeWMyQ1pVekNPRVZOd3dmS0JKdHlvU2p3Yjc4TUhlbkhaYXh4d044S0NPTWZXajhNMzM?oc=5" target="_blank">Explosions were reported in 
+- [[Liveuamap] Power blackout in Sudak after drone strike at the local substation which is still on fire - Liveuamap](https://liveuamap.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNeDI0dkRJcXk5UVpTbXdHVXVVVFhzNFdZNm9wOXBUMUt4dWcxTUxMLWxzTlZCY0tTQzhVWmY3bmloNm12RlZPV0VzQmMyZlQtcEVXSlJUemxUWGdDSzBxSi1qZ0NDa0V3Sy1vajRJY2s2RncwYzNTX2ZrMFFoNVdDTTM2a2NGMnNjVUUtX0ctWQ?oc=5" target="_blank">Power blackou
 - [[Liveuamap] The EU will include the Moscow Stock Exchange in the 21st package of sanctions against Russia – Reuters - Liveuamap](https://liveuamap.com) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNNGMzMzZ1OWxnY2Rsb0NWaVBQMDlyekhpQnZoNDFUMnJ6c2pLYk1NR0Zrd1VlWlcxYUhhbjU1M0V4OGdoUG9IOGdYT0lOWlhRZEhPamZrU1RVVHhzYWFwb0hyMl8tREpENWNpRC1iUzJTQ3V6MVpWUEVnM2p3VXowM3J3bVpCQ0R6c3hoeEdXMA?oc=5" target="_blank">The EU will i
 - **NEW**  [[Liveuamap] Fires burning at the logistics warehouses near St.Petersburg - Liveuamap](https://liveuamap.com) — *2026-07-25*
@@ -53,13 +53,13 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNZjVlNW5fanBYLUFpTUliWjZWeVRoYlpFWFFfaE93NUd6anFjNW1EdU9XN1NnZlgwc1NseFdGYXVMZTNTMS1IeVVyWk5HNTcxQkt4VVhlcWtIWllIakhzaWRObmxqM2VKNFgyal8wX1E5TzRaNHpHQ3NBNjBHZHZtM2Zxd01LVEhMX3BxNS0xTVhaQ1FpTlI3RkJsclhSQQ?oc=5" target="_
 - [[Liveuamap] Zelensky: In response to Russian attacks on our civilian infrastructure, our cities and communities, two significant logistics facilities were hit - in the Moscow and Tambov regions, at a distance of more than 500 and about 700 kilometers f](https://liveuamap.com) — *2026-07-18*
   > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVFBRkF3blMtcFUwU3BWUXFFaTlpbVNMOXlGV3ByYzc5bUo5TzlqS25fQ01udC04WmVzRzJYUW1JZ0xIVVliYjlmLVVjY0VWR0t3ZkVtajIwVFNFRDduTTVRR0gyTnk4VVRMRk5aVV9XUldQWF9Kc3NreTl5ZkJjMDdDX0NYeEtuQ2Y0NEhacTM?oc=5" target="_blank">Zelensky: In
-- [[Liveuamap] Axios: Iran fired a ballistic missile at a US base in Saudi Arabia tonight. This is Iran&039;s first direct attack on Saudi Arabia in four months. Riyadh Province Saudi Arabia - Liveuamap](https://iran.liveuamap.com) — *2026-07-17*
-  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2JJWVI1V2Nrajhadi1BaUdUUnRnVERidjhaRWZaQjRicDBXU05xSlpST05pOTBscDkyQW0zSGEwT2JYdVJ6djZmTFAya2VpcmZSRmZ3NHBldkUyaUFQSUxqX3QxZ01ReUlVZnlLVkswM0dfVmk2OTJCMXNuanJiVjVaN29wMzNUZjlmd2twbndTdnNEM3hJZS1lSQ?oc=5" target="_blan
 - [[Liveuamap] A drone attack targeted Erbil province in northern Iraq. - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2NsM1BtWEVKQ0ZSQVd1bjE1TC1ycUlPbl9kcWR5UWtJZlhTQjhJMGo3QmU3cGNYQU1RenFtRXVTYzVYWnEybGRMWEZOcU9pZXp0MXNoX3dwbURHMkE5RXU3ZEhvOEVhQ2Fvd21jUUdxbWFwMjExTThwangzYzM2enFxbjF1djJST0xJVEk2LU91U3prSWdlR0hNODI?oc=5" target="_bla
 - [[Liveuamap] Tehran’s Shahran oil depot is completely consumed by a massive blaze after Israeli airstrikes hit the facility tonight - Liveuamap](https://iran.liveuamap.com) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0hJOFptZ1AwZGtTYVd2TnZYVHRkOGhNMGNqS01NZEd2MnM1T0w3QmgwbklDTVRjdkFmYm51bmc0Z0pEMUdmWkJxSHo1QUNFV3VqUzI5RFM5Zzd1RnhoVU93b0xvQjk2Q0loeUtrOTE0U0IwUUpaN3RsOEdoUjlXVjRka1h4WVlxRWhsbkFEZW9fYWJkR0dqaHRB?oc=5" target="_blank"
 - [[Liveuamap] Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-18*
   > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOTXlLWGNLZGpzVG14TVhnTDRadnhZRkR4MC1FWkRrMERLOHlvcjB2YTBVLXBrMjR4WlVscHNfTVU1ckxicTFpYzFQdW51Wk9SQUZyMXZUUUlvRWczcWFvT01KN1Jzd3k4SS1SRERtcjJucGREdDFCYlhtWFJ5N2o1NG5jSQ?oc=5" target="_blank">Lebanon news on live map</a>&
+- [[Liveuamap] Earthquake of magnitude 4.8 - 54 km NNW of San Antonio, Puerto Rico - Liveuamap](https://latam.liveuamap.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQV0J6aThOYW92WDl3b05zSm1qTURNZ1lCMklPQnNKalZNZUg4OU00dXNoVUEzV3NZRVZ0UTVDWjJodGtYT1RNbHRmUDV0LTU5WDlNMkducUkxYUVnc1pFTzdrZWVOWUsxazUtRWkwVVRWallUc00zaXNkUzRHZllWeEVEWQ?oc=5" target="_blank">Earthquake of magnitude 4.8 -
 
-_(322 additional items in raw.jsonl)_
+_(215 additional items in raw.jsonl)_

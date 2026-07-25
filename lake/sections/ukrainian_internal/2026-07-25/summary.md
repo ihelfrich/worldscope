@@ -2,19 +2,23 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-07-25
-record_count: 123
-new_today: 43
+record_count: 124
+new_today: 44
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-43 new of 123 total items today.
+44 new of 124 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-25*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-25*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-25*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: Російський удар по виставці озброєння на Київщині: організатору заходу оголосили підозру | LEDE: Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10] (uk: Російський удар по виставці озброєння на Київщині: організатору заходу оголосили)](https://www.pravda.com.ua/news/2026/07/25/8045854/) — *2026-07-25*
+  > Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10 людей та ще близько 100 дістали поранення, затримали та оголосили йому про підозру.
 - **NEW**  [[TITLE: В Міноборони Румунії розповіли подробиці про нове збиття дрона | LEDE: У Міністерстві оборони Румунії розповіли подробиці інциденту з порушенням повітряного простору країни невідомим дроном і й] (uk: В Міноборони Румунії розповіли подробиці про нове збиття дрона)](https://www.pravda.com.ua/news/2026/07/25/8045852/) — *2026-07-25*
   > У Міністерстві оборони Румунії розповіли подробиці інциденту з порушенням повітряного простору країни невідомим дроном і його подальше збиття.
 - **NEW**  [[TITLE: Трамп жартома допустив, що балотуватиметься на третій президентський термін | LEDE: Президент США Дональд Трамп жартома заговорив про можливість балотування третій термін, що прямо заборонено а] (uk: Трамп жартома допустив, що балотуватиметься на третій президентський термін)](https://www.pravda.com.ua/news/2026/07/25/8045850/) — *2026-07-25*
@@ -52,13 +56,9 @@ state: fresh
   > За добу Сили оборони України ліквідували 1 450 окупантів, загальні втрати ворога зросли — дані Генштабу ЗСУ.
 - **NEW**  [[TITLE: Безпілотники вдарили по Ростову, Енгельсу та Луганську: горить військова казарма | LEDE: У Росії та окупованому Луганську дрони спричинили пожежі на військових й цивільних об'єктах.] (uk: Безпілотники вдарили по Ростову, Енгельсу та Луганську: горить військова казарма)](https://www.pravda.com.ua/news/2026/07/25/8045821/) — *2026-07-25*
   > У Росії та окупованому Луганську дрони спричинили пожежі на військових й цивільних об'єктах.
-- **NEW**  [[TITLE: Ядерний Кремль | LEDE: Бурхливе літо 2026 року ознаменувалося черговим витком військової ескалації.] (uk: Ядерний Кремль)](https://www.pravda.com.ua/articles/2026/07/25/8045563/) — *2026-07-25*
-  > Бурхливе літо 2026 року ознаменувалося черговим витком військової ескалації.
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-25*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-25*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-25*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [SBU Detains Agent for Activating 1,000 Starlinks for Russia](https://www.kyivpost.com/post/81044) — *2026-07-25*
+  > The Security Service of Ukraine (SBU) detained a resident of Dnipro accused of organizing a large-scale scheme to illegally verify and activate more than 1,000 Starlink satellite terminals for Russian forces. According to the SBU, the suspect was recruited via Telegram and used d
+- **NEW**  [Russian Sheskharis Oil Terminal Suspends Loading After Ukrainian Drone Strikes](https://www.kyivpost.com/post/81042) — *2026-07-25*
+  > Russia’s largest Black Sea oil port, the Sheskharis terminal in Novorossiysk, has suspended operations following an increase in Ukrainian drone attacks in the surrounding region. Shipping data and satellite imagery confirm the facility has not loaded crude oil since July 22. Whil
 
-_(98 additional items in raw.jsonl)_
+_(99 additional items in raw.jsonl)_

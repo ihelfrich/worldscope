@@ -17,7 +17,7 @@ state: fresh
    evidence: [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001728746-2], [lake:political_figures:https://www.]
 2. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.257
    drivers: new_filings=0.57, enforcement_hits=1.00
-   evidence: [lake:political_figures:gkg-20260725], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]
+   evidence: [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2]
 3. **J. Hill** (Representative, Republican, AR-2nd): composite 0.240
    drivers: new_filings=0.40, enforcement_hits=1.00
    evidence: [lake:political_figures:gkg-20260724], [lake:political_figures:gkg-20260724], [lake:political_figures:0001828972-2], [lake:political_figures:0001610717-2], [lake:political_figures:0001437749-2]
@@ -38,7 +38,7 @@ state: fresh
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001193125-2]
 9. **Rick Scott** (Senator, Republican, FL): composite 0.057
    drivers: new_filings=0.57
-   evidence: [lake:political_figures:gkg-20260725], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]
+   evidence: [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2]
 10. **Tim Scott** (Senator, Republican, SC): composite 0.057
    drivers: new_filings=0.57
-   evidence: [lake:political_figures:gkg-20260725], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]
+   evidence: [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2]

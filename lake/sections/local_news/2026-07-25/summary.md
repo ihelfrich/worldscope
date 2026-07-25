@@ -2,17 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-25
-record_count: 217
-new_today: 66
+record_count: 239
+new_today: 71
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-66 new of 217 total items today.
+71 new of 239 total items today.
 
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-25*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - [[St. Louis] The Boom Boom Room moves to Buddy’s in downtown St. Louis](https://www.stlmag.com/dining/the-boom-boom-room-moves-to-buddys-in-downtown-st-louis/) — *2026-07-24*
   > <p>Two major players in the downtown food and entertainment scene are joining forces for a new collaboration. Buddy’s Local Grill &#38; Bar (1001 Washington) is teaming up with The Boom Boom Room as the new resident entertainment inside its events space. The burlesque-inspired Bo
 - [[St. Louis] Photos: St. Louis Family Playdate at TotSpot Social](https://www.stlmag.com/family/photos-st-louis-family-playdate-at-totspot-social/) — *2026-07-24*
@@ -33,33 +31,35 @@ state: fresh
   > <p>Shark-loving St. Louisans can flock to the St. Louis Aquarium at Union Station July 24—August 2 for Shark Week, the aquarium’s celebration of the magnificent and ferocious creatures of the sea. The aquarium will feature a variety of family-friendly activities designed to delig
 - [[St. Louis] Prohibition adds elevated shareable food to its cocktail experience](https://www.stlmag.com/dining/prohibition-adds-elevated-shareable-food-to-its-cocktail-experience/) — *2026-07-23*
   > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
-- **NEW**  [[St. Louis] Mega Millions winning numbers for Friday, July 24: Did anyone win the $743M jackpot?](https://www.ksdk.com/article/news/nation-world/mega-millions-winning-numbers-friday-july-24/507-af9b07a3-2342-4305-913d-80e64df8c979) — *2026-07-25*
-  > The Mega Millions jackpot soared to $743 million on Friday, making it the ninth largest in history while continuing to climb. Did you win?
-- **NEW**  [[St. Louis] 'The show must go on,' Trump says in rambling speech at rescheduled correspondents' dinner](https://www.ksdk.com/article/news/nation-world/white-house-correspondents-dinner-redo-trump/507-0ee52c95-29f2-4a54-ad10-98d967f98f90) — *2026-07-25*
-  > Three months after a gunman foiled the White House Correspondents’ Association dinner, guests at the rescheduled event arrived to a different picture.
-- **NEW**  [[St. Louis] Rick Moranis met with standing ovation at 'Spaceballs' sequel Comic-Con panel](https://www.ksdk.com/article/news/nation-world/rick-moranis-spaceballs-sequel-comic-con/507-35a9bdca-275f-4b4b-b0fc-e0e3e69a52cd) — *2026-07-25*
-  > A crowd at the expo's massive Hall H stood to cheer and applaud as the 73-year-old actor — long absent from Hollywood.
-- **NEW**  [[St. Louis] Community groups host space for St. Louis youth following regional safety concerns](https://www.ksdk.com/article/news/local/community-groups-host-space-for-st-louis-youth-following-regional-safety-concerns/63-c786ee83-0c5e-42e5-b86e-0f6c7fe6c1ca) — *2026-07-25*
-  > Event planner and Gateway Social partner with church to give teenagers a secure venue as local leaders seek long-term solutions to youth violence.
-- **NEW**  [[St. Louis] FDA approves over-the-counter Tylenol with naproxen combination](https://www.ksdk.com/article/news/nation-world/tylenol-naproxen-combination-pill-fda-approval/507-b9f958e2-9497-46ed-9c3d-04ed6b8d2493) — *2026-07-25*
-  > The first-of-its kind tablet will combine the popular pain relievers into one.
-- **NEW**  [[St. Louis] Biden drops lawsuit seeking to block release of recordings of his interviews with a ghostwriter](https://www.ksdk.com/article/news/nation-world/biden-drops-lawsuit-recordings-interviews-ghostwriter/507-b8b46d40-c9f3-44f1-8647-7867930176b3) — *2026-07-25*
-  > Biden’s attorneys filed the notice of voluntary dismissal in federal court less than a week after a divided appeals court rejected his bid to block the release.
-- [[St. Louis] Spencer joins US mayors calling for end to federal SNAP cuts, citing a hunger ‘crisis'](https://www.ksdk.com/article/news/politics/spencer-joins-us-mayors-calling-end-federal-snap-cuts-citing-hunger-crisis/63-87272081-c231-493d-bfa2-fe178fac48f2) — *2026-07-25*
-  > The 210 mayors who signed a letter to Senate leaders said they are on the “front lines of a deepening food security crisis.”
-- **NEW**  [[St. Louis] US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports](https://www.ksdk.com/article/news/nation-world/explosions-iraq-military-iran-war-13th-night/507-ac7f528f-1cce-4c73-a24e-77d22edacc1e) — *2026-07-25*
-  > Saudi Arabia struck the port city of Hodeida in Yemen. The conflict shows no signs of easing after 13 nights of strikes.
-- **NEW**  [[St. Louis] Colorado man reunites former Virginia family with long-lost DVD with memories of late son](https://www.ksdk.com/article/news/nation-world/colorado-man-dvd-disc-goodwill-virginia-beach-family/507-c94d273d-bcc7-46d3-a2ad-93aa4001b095) — *2026-07-24*
-  > The disc was returned more than two decades after it was lost after a Colorado man found it in a Goodwill.
-- [[St. Louis] Deputies investigating 'suspicious' deaths of Michigan family of 8](https://www.ksdk.com/article/news/nation-world/michigan-family-killed-house-fire-suspicious-deaths/507-48a4cdf2-5918-467d-9142-1bab22c82e89) — *2026-07-24*
-  > The sheriff's office said two adults and six children were found dead after a house fire and that some of the deceased had been shot.
-- [[St. Louis] North County explosion and teen burn survivor turning pain into purpose 1 year after blast](https://www.ksdk.com/article/news/north-county-explosion-and-teen-burn-survivor-turning-pain-into-purpose-1-year-after-blast/63-32a311f6-b968-427c-9b1d-2e11ada5b612) — *2026-07-24*
-  > Nearly a year after surviving a horrific North County home blast, 19-year-old Dontae Anthony is launching a community initiative to support disaster survivors.
-- [[St. Louis] 'We have a better chance of making it': Flood survivors find hope at Reynolds County resource center](https://www.ksdk.com/article/syndication/ott/weather-plus/we-have-a-better-chance-of-making-it-flood-survivors-find-hope-at-reynolds-county-resource-center/63-62f66ee2-3fc7-4b7b-bacc-c5e4ba6d5e8b) — *2026-07-24*
-  > A one-stop recovery center in Centerville is connecting flood survivors with financial assistance, donated supplies and recovery resources.
-- [[St. Louis] Teen who singer D4vd is accused of killing was pregnant and had abortion, court testimony reveals](https://www.ksdk.com/article/news/nation-world/autopsy-doctor-to-testify-at-hearing-d4vd-killing-14-year-old/507-ad8ecd3e-300d-4cd9-91e9-973c525fda76) — *2026-07-24*
-  > The dismembered and decomposing body was discovered in a Tesla towed from the Hollywood Hills in September, four months after authorities believe she was killed.
-- [[St. Louis] Disneyland welcomes 1 billionth guest, an 8-year-old boy celebrating his birthday](https://www.ksdk.com/article/news/nation-world/disneyland-1-billionth-guest-birthday-boy/507-5bf9da33-8c04-4299-8504-374d76f191d6) — *2026-07-24*
-  > The big milestone also came during the park's 70th birthday celebration.
+- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-25*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Bethalto man charged after police say he threatened school district, officers - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGhoU193UTVuZk0ySmZVUjJKVVRLRHhCcTc4cTdWTFFXRzUtR3dPaU5WXzI3X1l2WW0yeFIyc3p2VTh0YVNCVzB2dnVhOXZYdGgtcGdWNFJIbWFtaGptT01NZ1B4V0s0S3I1akwydzRJZ1k4bDYzcVh5a3d2OXVBSEgxNmdMMHJiWXo0eXd4QUtuSHdUQVZQRER6b19CZU1tT2ZNaVRwSmFIVU
+- **NEW**  [[St. Louis] Nearly 100 dogs rescued from Metro East hoarding case - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOQU9xaXltS3A2RzlqRktWZW9UakhNUXBMTDl3Q20tbTdkSkhSR19tTTRXd3ptWERNZzl1UVBSU3dDbDhOOFVnNF9BMmI0eHNzbFprV3NwNGNZTXgzQUJzbGhOdFI3eTZ0NzBZemhuQnRrdno1a1VOS2xEWjBpZ2RNdmFFZlVqMjVaVkgxdjUzVFhFZ9IBpgFBVV95cUxPbm4wQ1NSQnhPUW5fLW
+- **NEW**  [[St. Louis] KMOV Channel 32.1 to be the new home of the ABC Television Network, expanding local news coverage in St. Louis - KMOV](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2JDVVVjSmZrd056Y3k3RGpzZm5IN19RSkVrQzNGNFZNUkNneXRKREFrcmoyZHJfQkdvWXhyeWxWWkNXSDZvOG4zbl9GM21LaWlBMFEzaXRMR19PUUxmY3pxdHRzQUIwaDhlcnFwU1dFSUZvQnVHbDJaaFM0MmVHMDdOLXc4YW52NEZUZ29tUVVyQWZESFh2UzlEdmxBODA4X3ZhSmhmTFJ1bD
+- **NEW**  [[St. Louis] Investigation underway in Jefferson County after shooting leaves 1 dead, another injured Friday night - KMOV](https://www.firstalert4.com) — *2026-07-25*
+  > <a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZk5oeGNvcFZaYzI5MDEwLXBpS2RxR1B3TzVZRHNrcVlqVTJpRzU0LUt4cHViVnJjQjlIY2FVOS14MG9BUGdpZlNmRl9jYV8zOWZzV1A0VXoxYXJ4Mi1na0dqRTRkN2I4Vm5VR3RQRnk0djVTLVZ5aWtYTXRJZU5USFRZVWxoT3NqcFA3enpSVERuR24wRGpHRVdtTkZBVEF0RGQ2NUFfYVIxUE
+- **NEW**  [[St. Louis] The Millennium Hotel is coming down, its iconic rotating restaurant will live on at the City Museum - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTc2UDFUbGtqY3UxdUtFdmRXd3duVzNia0xLd1J4UGhlYnNPWWRCZndPTGk5SXNXeS1ZWWZxd3dHR3Jwdll1ZFNRZ0VjTlRJWF9sUzdtU2JBWktVa1ppZ2s0bVlpbTlNNXdMN0RJS3UwZ0pqV01OZXVHakhVRGdTUnpFSXF1eGliaTN6a0VVb3k5ai11NDNDM0xla1BEYW0wRV93Z3ZGUmV6Wl
+- **NEW**  [[St. Louis] Why not have the NBA in St. Louis? - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBpelFyZzJEcU1vWG9EbTM5cnI4b3MyUm5lMzgtUGxjcEFDamJCcDdjb0VTdTc0Q2VzWkhhd2JqR1l1emhYcXdHY0taMW80Z09RNzJzY01qS3dKNlM2Q05pS2ZOdEJibF8wS2s0aWpqSElSNDA?oc=5" target="_blank">Why not have the NBA in St. Louis?</a>&nbsp;&nbsp;<f
+- **NEW**  [[St. Louis] St. John police investigating attempted child abduction - KMOV](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1BneVcwbnZRVTlmUVgzM295SkdZT1lGaF9oWHRBU0VPekdGVm1UWG9DTGlUNEZGb2NWaDhrQXFrUTBjWUFsWkRUNW5ERGxwSnlSVHJGQUdPQWU5eEdjYVZ0SEs0bVlVWTlTNjdweEpUY1VpWE9VaTljTXJKUHhMZkpfcW9xbGRwNFFWaVk1NTdESTZkQ3piOUNB?oc=5" target="_blank"
+- **NEW**  [[St. Louis] Police ask for public’s help in identifying suspects in Carr Square stabbing - KMOV](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVhweFpFc0pFei1yQk9pY3NhOUFlV1VjSzM4dGh5SkRUYTY5SGw3NklzTFlNYWFfSUtXckZFeXBqck1yQ1Y0WThfeGI1bzdKZklmMVNYSzlTQ1IzdHBwV1VJaDBMOEV2SkU5Zm1fa21oamxzdzBGcXI2VDJRcWY1UXBDTmVQaXhBVGwzZmpwRUo2bHJnSEI2bWNGYXQ5VWVGUVJxRUUxQ2M?oc
+- **NEW**  [[St. Louis] St. Charles County Police warn residents of the red flags for growing scams - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOU3ptM0h2RFRsendwNHVSczlDQ1Y0LVExbXVyX0JSTUNKNnU1R0lUb1Z6aERYOS1LUkd2U0padHRZQlFZeDRxbjJHNWR5NFhYME11RjdYM2h0VXIzbU5WNElKRnhJYUpIZnRTc01wTVhCaDNUN0dDbnRZbHJzMF9RbUJlU0ZybmlPZVFXT0Q4NEtxckg3bDU3WUtvMjd0VndIdHMwVS1R0gG6AU
+- **NEW**  [[St. Louis] ‘We just wanted it to be over‘: Man pleads guilty in assault of Ferguson officer during 2024 protest - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOUEVGM2dJZGF0ZkYxaDJ0djdUbGo4SmxadGpTSEx1ZnNFWllCdEJ4QU1KQTJuOUJZbnVkTzhDbUw3amdOVUY2Z0kweUxzSDJkOVpkZ1h5VDZRRFRZbEpfRUg1RUNFNEFoOWU0VXJoX3FUZmt3bEExMGlSLVU0TVo5LWVWdXpSbjN0UEJXSTFNV21XaTBBcGk2OW4yTWUwYm1abjZHTdIBuAFBVV
+- **NEW**  [[St. Louis] Baby born in St. Louis weighing less than a pound comes home after a year in the hospital - KMOV](https://www.firstalert4.com) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQc2Q2dE1fdGVCMVJKMmVkbVduTERLQ01sSmNKbTRYM0JiS0NnYm5JLTlfcWNNT3VTc3lRZ1NJdjQ5ZkZIdHltZ1JiUDIwMXVyOUZUQjhfZi1WTThoNDJ4UkJxMlBseGRJeHNyQXNGTmZCa0NVYnFDQ3lfWG5fZXMzaVhlVXNSaXIzalp4Uk9FNjlLaElDZkRUbGtNaWg4WE0xei13M2prUTM5bW
+- **NEW**  [[St. Louis] St. Louis woman says overgrown city-owned lots make it unsafe to leave her home - KMOV](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUlSN3JheWtMWWs3alZtU0hMVGlCbVZpeVk0QUpqTFY5azVxVDh4clRGSEFDX3U2dUJ3S2FXaDJWLWtHZEJTeDJ4OW9pVTZSVnc3a0VHMzZfWDgtaVlGMUlzZkxvUzdvekFUMGFObjRvVVh3UkI5YmR1S2t5clZMZ0NjcnpwTkMtNy1YWDJSZTRMTkVXZ1RqM0hROGlWZXl3U3VhZXV0d09kbH
+- **NEW**  [[St. Louis] ‘Cathedral of South City’ looks to the future with new renovation project - KMOV](https://www.firstalert4.com) — *2026-07-25*
+  > <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQcGtGcXBtOFdYMkVrM3hxai1KS2lhdmlHQ2pObkhFTlBhVG0tVnNYRkZfeWFCWmhhSjRQMW5uaUxsWXZRbjBfZzZ5OTZNUHRwZGdKTzRuOFVGNnVHNkFFaTRZSkt1b19UT0dpRE1nd05nOXd0QzNuNmhhTGh1eWtBOXV4Z3BIYVV4QVNfa2NKUDl2T3VQczBMaXFHeVJRRG5ZUTIw0gG3AUFVX3
+- **NEW**  [[St. Louis] Neighborhood pushes back after proposal to fill inactive quarry - KMOV](https://www.firstalert4.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEtlSlY4UGZfdkFiLUJ2My04RlJwbTJjb01Wc2NkZy1uX2xqeWZCd3RRcTBzbTNWUXhJRzRIQVhhZHQwQnNURVgxZGd2cTBjUlVYRS13eG0xMmpTMkw2eDNMelE2YjJuNy1xUGdCeExwWEJRMnowSTg1U1cxMjNvNXotSm15NUdfd3I3OFowOW41RzE3T3Y1WEVtRVJBUjdWR2fSAbYBQVVfeX
 
-_(192 additional items in raw.jsonl)_
+_(214 additional items in raw.jsonl)_
