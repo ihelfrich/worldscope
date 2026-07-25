@@ -3,20 +3,20 @@ section: commentary
 title: Commentary & analysis (last 7 days)
 date: 2026-07-25
 record_count: 6
-new_today: 2
+new_today: 3
 state: fresh
 ---
 
 ## Commentary & analysis (last 7 days)
 
-2 new of 6 total items today.
+3 new of 6 total items today.
 
+- **NEW**  [[Marginal Revolution] Odysseus notes](https://marginalrevolution.com/marginalrevolution/2026/07/odysseus-notes.html?utm_source=rss&utm_medium=rss&utm_campaign=odysseus-notes) — *2026-07-25*
+  > The subsection of the Georgi Gospodinov novel runs like this: The Shortest Novel About Odysseus After His Return Home One night, now old and flabby and starting to forget, he leaves his home secretly. He&#8217;s sick of everything, so he heads back one last time to see the places
+- **NEW**  [[Marginal Revolution] Saturday assorted links](https://marginalrevolution.com/marginalrevolution/2026/07/saturday-assorted-links-571.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-571) — *2026-07-25*
+  > 1. The 1991 Project&#8217;s oral history collection (led by Shreyas Narla and Shruti) with ~50 hours of interviews with policy reformers and witnesses to India&#8217;s market  liberalization, is now available. 2. Mini Cities. 3. The new Claude, on Mondrian. 4. More on cybersecuri
 - **NEW**  [[Marginal Revolution] A natural experiment in economics](https://marginalrevolution.com/marginalrevolution/2026/07/a-natural-experiment-in-economics.html?utm_source=rss&utm_medium=rss&utm_campaign=a-natural-experiment-in-economics) — *2026-07-25*
   > To study whether and how academics respond to political pressure, we exploit a natural experiment: the publication in early 2025 of a &#8220;blacklist&#8221; of words flagged by the U.S. government. We find that the release of this list led to a sharp reduction in the use of thes
-- **NEW**  [[Marginal Revolution] Crypto markets in everything? (moo)](https://marginalrevolution.com/marginalrevolution/2026/07/crypto-markets-in-everything.html?utm_source=rss&utm_medium=rss&utm_campaign=crypto-markets-in-everything) — *2026-07-25*
-  > Farmers in Parana, Brazil, struggling to get banks to loan them cash, became the first to tokenize livestock and place 10 dairy milk cows’ tokens for trade on the country’s B3 national stock exchange. They generated nearly $20,000 in credit backed by their cattle, signaling the p
-- [[Marginal Revolution] The Decision, the sequel](https://marginalrevolution.com/marginalrevolution/2026/07/the-decision-the-sequel.html?utm_source=rss&utm_medium=rss&utm_campaign=the-decision-the-sequel) — *2026-07-24*
-  > Imagine your career were coming to a close, how would you want it to end?  By earning an especially large sum of money?  Publishing a final wonderful paper?  With an amazing act of mentorship? When it comes to Lebron, had he wanted to finish his career with the guys he enjoys pla
 - [[Conversable Economist] Occupational Licensing: US and International](https://conversableeconomist.com/2026/07/24/occupational-licensing-us-and-international/) — *2026-07-24*
   > The potential benefit of having the government require that certain jobs require an official license is quality control and protection. Personally, I rather like knowing that my nurse or doctor or dentist has gone through courses and training. The potential cost is that requireme
 - [[Conversable Economist] The Job Market for Recent College Graduates](https://conversableeconomist.com/2026/07/23/the-job-market-for-recent-college-graduates/) — *2026-07-23*

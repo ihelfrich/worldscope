@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-25
-record_count: 237
-new_today: 90
+record_count: 252
+new_today: 166
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-90 new of 237 total items today.
+166 new of 252 total items today.
 
 - [[St. Louis] The Boom Boom Room moves to Buddy’s in downtown St. Louis](https://www.stlmag.com/dining/the-boom-boom-room-moves-to-buddys-in-downtown-st-louis/) — *2026-07-24*
   > <p>Two major players in the downtown food and entertainment scene are joining forces for a new collaboration. Buddy’s Local Grill &#38; Bar (1001 Washington) is teaming up with The Boom Boom Room as the new resident entertainment inside its events space. The burlesque-inspired Bo
@@ -31,25 +31,35 @@ state: fresh
   > <p>Shark-loving St. Louisans can flock to the St. Louis Aquarium at Union Station July 24—August 2 for Shark Week, the aquarium’s celebration of the magnificent and ferocious creatures of the sea. The aquarium will feature a variety of family-friendly activities designed to delig
 - [[St. Louis] Prohibition adds elevated shareable food to its cocktail experience](https://www.stlmag.com/dining/prohibition-adds-elevated-shareable-food-to-its-cocktail-experience/) — *2026-07-23*
   > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
-- [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-25*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- **NEW**  [[St. Louis] New St. Louis film shows the painstaking effort to conserve the plant monarch butterflies eat](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-25/new-st-louis-film-shows-the-painstaking-effort-to-conserve-the-plant-monarch-butterflies-eat) — *2026-07-25*
-- [[St. Louis] Bell and Bush trade barbs over campaign spending and Israel in fiery faceoff on STLPR](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/missouri-wesley-bell-cori-bush-radio-appearance) — *2026-07-24*
-- [[St. Louis] Friends, family remember 5 killed in East St. Louis ‘family annihilation’](https://www.stlpr.org/law-order/2026-07-24/remember-5-killed-east-st-louis-annihilation) — *2026-07-24*
-- [[St. Louis] Lemay neighbors worry plan to fill quarry with construction waste will bring traffic, floods, noise](https://www.stlpr.org/health-science-environment/2026-07-24/lemay-quarry-construction-waste-traffic-floods-noise) — *2026-07-24*
-- [[St. Louis] Using esports, a St. Louis foundation aims to help gamers score scholarships and careers](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/esports-bgg-foundation-esports) — *2026-07-24*
-- [[St. Louis] After flash floods drove southern Missouri tourists away, business owners say ‘Come float!’](https://www.stlpr.org/economy-business/2026-07-24/after-flash-floods-drove-southern-missouri-tourists-away-business-owners-say-come-float) — *2026-07-24*
-- [[St. Louis] Southern Illinois is now home to one of few university-based Samoan language courses in the U.S.](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/southern-illinois-university-edwardsville-is-now-home-to-one-of-few-university-based-samoan-language-courses-in-the-u-s) — *2026-07-24*
-- [[St. Louis] DOJ probe prompts St. Louis County’s Special School District to revise seclusion, restraint policies](https://www.stlpr.org/education/2026-07-24/doj-probe-prompts-st-louis-countys-special-school-district-to-revise-seclusion-restraint-policies) — *2026-07-24*
-- [[St. Louis] A federally endangered plant in Missouri is facing a new threat](https://www.stlpr.org/health-science-environment/2026-07-24/a-federally-endangered-plant-missouri-facing-new-threat) — *2026-07-24*
-- [[St. Louis] Hawley pushing for disaster money to help St. Louis recover from 2025 tornado](https://www.stlpr.org/government-politics-issues/2026-07-23/hawley-pushing-for-disaster-money-to-help-st-louis-recover-from-2025-tornado) — *2026-07-23*
-- **NEW**  [[St. Louis] Record attendance at NABJ St. Louis Student Journalism Workshop after format change](https://www.ksdk.com/article/news/community/record-attendance-at-nabj-st-louis-student-journalism-workshop-2026/63-027a533a-672c-40f6-b8a7-761009757660) — *2026-07-25*
-  > Students from across the St. Louis region spent the week producing original stories on community recovery while learning from Black journalists and media leaders.
-- **NEW**  [[St. Louis] Iran reports no new US strikes overnight as tensions remain high](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-war-united-states-no-new-strikes-attacks-overnight-strait-hormuz-control/507-627e8519-50f6-4d64-a696-54b49ebfbdde) — *2026-07-25*
-  > Iran reports no strikes overnight into Saturday, an apparent break in nearly two weeks of U.S. attacks. Tensions remain high over control of the Strait of Hormuz.
-- **NEW**  [[St. Louis] Local bakery buys former St. Louis doughnut shop property](https://www.ksdk.com/article/news/local/business-journal/local-bakery-buys-former-st-louis-doughnut-shop-property/63-8425d9fb-fde2-4876-9034-f31fab8b7d2f) — *2026-07-25*
-  > O’Fashion Donuts, located in the Southwest Garden neighborhood, closed earlier this year.
-- **NEW**  [[St. Louis] Applebee's closes St. Louis County location](https://www.ksdk.com/article/news/local/business-journal/applebees-closing-st-louis-county-location-ballwin/63-41a2ac37-9a88-4b7a-b95a-7931f2a5bb1a) — *2026-07-25*
-  > After 30 years in business, the location closed permanently due to a 30% rent increase, an employee said.
+- **NEW**  [[St. Louis] MLB MVP and 'Survivor' contestant, Jeff Kent gets Hall of Fame idol in Cooperstown](https://www.stltoday.com/sports/professional/mlb/article_0b006bd3-c6d4-5cc4-af50-a332c1b57795.html) — *2026-07-25*
+  > The trio comes from Curaçao, Puerto Rico and California. They played center field and second base. They played for 18 different teams.
+- **NEW**  [[St. Louis] ATHLETICS/](https://www.stltoday.com/image_7e32be24-c79f-5ffe-b52d-7205fe46e0f7.html) — *2026-07-25*
+  > Taryn Parks, Nikki Hiltz and Gracie Morris run in a women's 1,500-meter heat during the USA Track and Field Championships at Icahn Stadium on Thursday in New York.
+- **NEW**  [[St. Louis] ATHLETICS/](https://www.stltoday.com/image_b3d0e3a7-b036-58f9-b573-1b7dc1d3301a.html) — *2026-07-25*
+  > Dalilah Muhammad runs during a training session prior to the USA Track and Field Championships at Icahn Stadium on Wednesday in New York.
+- **NEW**  [[St. Louis] Feb 11, 2026; Denver, Colorado, USA; Memphis Grizzlies guard Kentavious Caldwell-Pope (3) in the second quarter against the Denver Nuggets at Ball Arena. Mandatory Credit: Isaiah J. Downing-Imagn Images](https://www.stltoday.com/image_4e94483f-d96a-5978-bf37-b5bc3dbc622d.html) — *2026-07-25*
+  > The Philadelphia 76ers are reportedly signing Kentavious Caldwell-Pope to a one-year, $3.9 million deal.
+- **NEW**  [[St. Louis] BOXING/JOSHUA-PRENGA](https://www.stltoday.com/image_e77d911c-df43-579b-9fc4-8f9fb912d99e.html) — *2026-07-25*
+  > Anthony Joshua walks down to the ring before his heavyweight fight against Kristian Prenga on Saturday at Jeddah Superdome in Saudi Arabia.
+- **NEW**  [[St. Louis] MOTOR-NASCAR/](https://www.stltoday.com/image_621a746d-c264-55fc-8fca-3dc0998e4bf1.html) — *2026-07-25*
+  > Roush Fenway Keselowski driver Ryan Preece runs a qualification lap at Sonoma Raceway on June 27 in Sonoma, Calif.
+- **NEW**  [[St. Louis] GOLF/](https://www.stltoday.com/image_e307dbf3-aed3-5ef7-8098-7f34b1d390c7.html) — *2026-07-25*
+  > Jackson Koivun acknowledges applause from the gallery after recording an eagle on the 18th hole during the third round of the 3M Open at TPC Twin Cities on Saturday in Blaine, Minn.
+- **NEW**  [[St. Louis] GOLF/](https://www.stltoday.com/image_6e2676f0-88fa-5e5a-b896-08bcf1e59c5b.html) — *2026-07-25*
+  > Michael Kim reads the green on the third hole during the third round of the 3M Open at TPC Twin Cities on Saturday in Blaine, Minn.
+- **NEW**  [[St. Louis] GOLF/](https://www.stltoday.com/image_61c70372-ebc7-5a55-a13e-6be2c3ad5e71.html) — *2026-07-25*
+  > Scottie Scheffler hits a tee shot on the third hole during the third round of the 3M Open at TPC Twin Cities on Saturday in Blaine, Minn.
+- **NEW**  [[St. Louis] NASCAR Cup Series driver Denny Hamlin (11) stands next to his car Saturday, July 25, 2026, during qualifying for the Brickyard](https://www.stltoday.com/image_7ee5d369-ca5a-5eb7-b7eb-46a6096fe45f.html) — *2026-07-25*
+  > NASCAR Cup Series driver Denny Hamlin stands next to his car on Saturday during qualifying for the Brickyard 400 at Indianapolis Motor Speedway.
+- **NEW**  [[St. Louis] East Side Health District provides screenings to community at free health fair in East St. Louis](https://www.ksdk.com/article/news/local/east-side-health-district-provides-screenings-community-free-health-fair-east-st-louis/63-e7d0cfe9-a9f5-461a-870d-4fdb1f86ca02) — *2026-07-25*
+  > The free health clinic resulted in hundreds from the community coming out to get screenings.
+- **NEW**  [[St. Louis] Church members gathered Saturday to honor 3 of the 5 family members killed in targeted East St. Louis mass shooting](https://www.ksdk.com/article/news/local/church-members-gathered-saturday-to-honor-3-of-the-5-family-members-killed-in-targeted-east-st-louis-mass-shooting/63-070eb420-9a04-4d74-991f-d8ce61490344) — *2026-07-25*
+  > Patricia, Cherie, and Devon May's Celebration of Life was held at the House of Prayer to All Nations church.
+- **NEW**  [[St. Louis] Reported stabbing caused Schnucks Downtown to close temporarily](https://www.ksdk.com/article/news/crime/stabbing-downtown-st-louis-schnucks-closed-as-police-investigate/63-569d0ef6-7f73-4a15-b310-ac9244906619) — *2026-07-25*
+  > The grocery chain's downtown location was temporarily closed Saturday as police investigated a stabbing nearby that left a victim critically injured.
+- **NEW**  [[St. Louis] Katy Perry 'appalled' White House used her song in Iran strike video: 'I did not approve this'](https://www.ksdk.com/article/news/nation-world/katy-perry-appalled-firework-song-used-in-white-house-video/507-916c714a-9f9d-4594-bebf-253e5c24fcca) — *2026-07-25*
+  > Katy Perry says the White House did not have permission to use her song "Firework" in a TikTok showing footage of U.S. military strikes in Iran.
+- **NEW**  [[St. Louis] Woman reportedly injured by stray bullet after shooting in Ferguson](https://www.ksdk.com/article/news/local/woman-reportedly-injured-by-stray-bullet-after-shooting-in-ferguson/63-6d6756e6-02e6-47d2-aa4f-a1a2878c2d73) — *2026-07-25*
+  > The shooting was reported shortly after 3:40 p.m. Saturday.
 
-_(212 additional items in raw.jsonl)_
+_(227 additional items in raw.jsonl)_

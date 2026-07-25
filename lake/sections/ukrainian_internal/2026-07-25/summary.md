@@ -2,64 +2,64 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-07-25
-record_count: 134
-new_today: 55
+record_count: 139
+new_today: 65
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-55 new of 134 total items today.
+65 new of 139 total items today.
 
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-25*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-07-25*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-07-25*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-25*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-07-25*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[TITLE: В Грузії назвали причину масштабного блекауту | LEDE: Причиною масштабного відключення електроенергії в Грузії стало відключення лінії електропередачі "Імереті" напругою 500 кВ.] (uk: В Грузії назвали причину масштабного блекауту)](https://www.pravda.com.ua/news/2026/07/25/8045878/) — *2026-07-25*
-  > Причиною масштабного відключення електроенергії в Грузії стало відключення лінії електропередачі "Імереті" напругою 500 кВ.
-- **NEW**  [[TITLE: РЛС, склад боєприпасів і пункти управління БпЛА – Генштаб розповів про уражені цілі на ТОТ | LEDE: ЗСУ атакували російські військові об’єкти на окупованих територіях: склади, РЛС, пункти управл] (uk: РЛС, склад боєприпасів і пункти управління БпЛА – Генштаб розповів про уражені ц)](https://www.pravda.com.ua/news/2026/07/25/8045876/) — *2026-07-25*
-  > ЗСУ атакували російські військові об’єкти на окупованих територіях: склади, РЛС, пункти управління БпЛА. Деталі – від Генштабу.
-- **NEW**  [[TITLE: В ЄС відреагували на новий інцидент з вторгненням дрона в Румунію | LEDE: Глава Європейської ради Антоніу Кошта прокоментував інцидент з дроном, який порушив повітряний простір Румунії і який д] (uk: В ЄС відреагували на новий інцидент з вторгненням дрона в Румунію)](https://www.pravda.com.ua/news/2026/07/25/8045874/) — *2026-07-25*
-  > Глава Європейської ради Антоніу Кошта прокоментував інцидент з дроном, який порушив повітряний простір Румунії і який довелось збити ВПС країни.
-- **NEW**  [[TITLE: Не врятували і антидронові сітки – ССО розповіли деталі удару по російському НПЗ за 2000 км | LEDE: Українські дрони ССО вдруге атакували Тюменський НПЗ за 2000 км від кордону. Не врятували і а] (uk: Не врятували і антидронові сітки – ССО розповіли деталі удару по російському НПЗ)](https://www.pravda.com.ua/news/2026/07/25/8045871/) — *2026-07-25*
-  > Українські дрони ССО вдруге атакували Тюменський НПЗ за 2000 км від кордону. Не врятували і антидронові сітки
-- **NEW**  [[TITLE: Грузія продовжила надання фінансової та медичної допомоги для українців | LEDE: Грузинський уряд продовжив до 1 жовтня 2026 року дію програми фінансової підтримки для громадян України та осіб, ] (uk: Грузія продовжила надання фінансової та медичної допомоги для українців)](https://www.pravda.com.ua/news/2026/07/25/8045870/) — *2026-07-25*
-  > Грузинський уряд продовжив до 1 жовтня 2026 року дію програми фінансової підтримки для громадян України та осіб, які мають право на постійне проживання там, і прибули до Грузії через війну.
-- **NEW**  [[TITLE: Тепло і дощі з грозами – прогноз погоди на 26-28 липня | LEDE: Найближчими днями в Україні очікується тепла погода, у низці областей дощі та грози.] (uk: Тепло і дощі з грозами – прогноз погоди на 26-28 липня)](https://www.pravda.com.ua/news/2026/07/25/8045869/) — *2026-07-25*
-  > Найближчими днями в Україні очікується тепла погода, у низці областей дощі та грози.
-- **NEW**  [[TITLE: Грецька система Patriot знищила дрон і балістичні ракети над Саудівською Аравією | LEDE: Система протиповітряної оборони Patriot, якою керують грецькі військовослужбовці в Саудівській Аравії, у] (uk: Грецька система Patriot знищила дрон і балістичні ракети над Саудівською Аравією)](https://www.pravda.com.ua/news/2026/07/25/8045866/) — *2026-07-25*
-  > Система протиповітряної оборони Patriot, якою керують грецькі військовослужбовці в Саудівській Аравії, у суботу перехопила безпілотник, а також дві балістичні ракети.
-- **NEW**  [[TITLE: Прем’єр Франції про лісові пожежі: такого масштабу ми ще не бачили | LEDE: Прем'єр-міністр Франції Себастьєн Лекорню заявив, що лісові пожежі, які вирують на території країни цього літа, досягл] (uk: Прем’єр Франції про лісові пожежі: такого масштабу ми ще не бачили)](https://www.pravda.com.ua/news/2026/07/25/8045864/) — *2026-07-25*
-  > Прем'єр-міністр Франції Себастьєн Лекорню заявив, що лісові пожежі, які вирують на території країни цього літа, досягли небаченого масштабу.
-- **NEW**  [[TITLE: Сили оборони та СБУ уразили російський завод, НПЗ та кораблі у Каспійському морі | LEDE: Сили оборони уразили російське військове підприємство, нафтопереробний завод, склад паливно-мастильних м] (uk: Сили оборони та СБУ уразили російський завод, НПЗ та кораблі у Каспійському морі)](https://www.pravda.com.ua/news/2026/07/25/8045863/) — *2026-07-25*
-  > Сили оборони уразили російське військове підприємство, нафтопереробний завод, склад паливно-мастильних матеріалів, транспортні судна і військовий корабель окупантів у Каспійському морі.
-- **NEW**  [[TITLE: Новий прем'єр запросив Туска в Україну | LEDE: Новопризначений прем'єр-міністр України Сергій Корецький провів розмову зі своїм польським колегою Дональдом Туском, в ході якої, зокрема, запроси] (uk: Новий прем'єр запросив Туска в Україну)](https://www.pravda.com.ua/news/2026/07/25/8045860/) — *2026-07-25*
-  > Новопризначений прем'єр-міністр України Сергій Корецький провів розмову зі своїм польським колегою Дональдом Туском, в ході якої, зокрема, запросив його приїхати з візитом.
-- **NEW**  [[TITLE: Росіяни зранку вдарили по Запоріжжю: загинула жінка, серед поранених – діти | LEDE: Одна людина загинула та ще 11, серед яких діти, дістали поранення внаслідок російського удару по Запоріжжю вр] (uk: Росіяни зранку вдарили по Запоріжжю: загинула жінка, серед поранених – діти)](https://www.pravda.com.ua/news/2026/07/25/8045858/) — *2026-07-25*
-  > Одна людина загинула та ще 11, серед яких діти, дістали поранення внаслідок російського удару по Запоріжжю вранці 25 липня.
-- **NEW**  [[TITLE: Міністр оборони Італії пропонував посаду Федорову | LEDE: Міністр оборони Італії Гвідо Крозетто розповів, що запропонував Михайлу Федорову, якого нещодавно звільнили з глави Міноборони України,] (uk: Міністр оборони Італії пропонував посаду Федорову)](https://www.pravda.com.ua/news/2026/07/25/8045856/) — *2026-07-25*
-  > Міністр оборони Італії Гвідо Крозетто розповів, що запропонував Михайлу Федорову, якого нещодавно звільнили з глави Міноборони України, посаду радника.
-- **NEW**  [[TITLE: Російський удар по виставці озброєння на Київщині: організатору заходу оголосили підозру | LEDE: Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10] (uk: Російський удар по виставці озброєння на Київщині: організатору заходу оголосили)](https://www.pravda.com.ua/news/2026/07/25/8045854/) — *2026-07-25*
-  > Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10 людей та ще близько 100 дістали поранення, затримали та оголосили йому про підозру.
-- **NEW**  [[TITLE: В Міноборони Румунії розповіли подробиці про нове збиття дрона | LEDE: У Міністерстві оборони Румунії розповіли подробиці інциденту з порушенням повітряного простору країни невідомим дроном і й] (uk: В Міноборони Румунії розповіли подробиці про нове збиття дрона)](https://www.pravda.com.ua/news/2026/07/25/8045852/) — *2026-07-25*
-  > У Міністерстві оборони Румунії розповіли подробиці інциденту з порушенням повітряного простору країни невідомим дроном і його подальше збиття.
-- **NEW**  [[TITLE: Трамп жартома допустив, що балотуватиметься на третій президентський термін | LEDE: Президент США Дональд Трамп жартома заговорив про можливість балотування третій термін, що прямо заборонено а] (uk: Трамп жартома допустив, що балотуватиметься на третій президентський термін)](https://www.pravda.com.ua/news/2026/07/25/8045850/) — *2026-07-25*
-  > Президент США Дональд Трамп жартома заговорив про можливість балотування третій термін, що прямо заборонено американською конституцією.
-- **NEW**  [[TITLE: Від розмінування до результатів: переосмислення протимінної  діяльності в Україні | LEDE: Ефективне розмінування: як Україна може швидше та безпечніше відновити території, спираючись на досвід ] (uk: Від розмінування до результатів: переосмислення протимінної  діяльності в Україн)](https://www.pravda.com.ua/columns/2026/07/25/8045074/) — *2026-07-25*
-  > Ефективне розмінування: як Україна може швидше та безпечніше відновити території, спираючись на досвід Zone Rouge.
-- **NEW**  [[TITLE: Росіяни вночі вдарили по території терміналу "Нової пошти" в Сумах – убили 3 водіїв | LEDE: У Сумах внаслідок російської атаки загинули троє водіїв "Нової пошти".] (uk: Росіяни вночі вдарили по території терміналу "Нової пошти" в Сумах – убили 3 вод)](https://www.pravda.com.ua/news/2026/07/25/8045845/) — *2026-07-25*
-  > У Сумах внаслідок російської атаки загинули троє водіїв "Нової пошти".
-- **NEW**  [[TITLE: Єкатеринбург атакували дрони: на території складу Wildberries вирує пожежа | LEDE: Атака дронами на Wildberries у Єкатеринбурзі: вирує пожежа біля складу] (uk: Єкатеринбург атакували дрони: на території складу Wildberries вирує пожежа)](https://www.pravda.com.ua/news/2026/07/25/8045841/) — *2026-07-25*
-  > Атака дронами на Wildberries у Єкатеринбурзі: вирує пожежа біля складу
-- **NEW**  [[TITLE: У Німеччині кількість випадків незаконного перевезення людей скоротилася майже на 42% | LEDE: У 2025 році в Німеччині різко скоротилася кількість виявлених випадків незаконного ввезення людей, ] (uk: У Німеччині кількість випадків незаконного перевезення людей скоротилася майже н)](https://www.pravda.com.ua/news/2026/07/25/8045840/) — *2026-07-25*
-  > У 2025 році в Німеччині різко скоротилася кількість виявлених випадків незаконного ввезення людей, що збіглося із загальним зменшенням масштабів нелегальної міграції.
-- **NEW**  [[TITLE: Румунія збила ще один дрон, який залетів на її територію | LEDE: Військово-повітряні сили Румунії вранці 25 липня знову збили безпілотник, який порушив повітряний простір країни. Це вже другий ] (uk: Румунія збила ще один дрон, який залетів на її територію)](https://www.pravda.com.ua/news/2026/07/25/8045839/) — *2026-07-25*
-  > Військово-повітряні сили Румунії вранці 25 липня знову збили безпілотник, який порушив повітряний простір країни. Це вже другий випадок за 2 дні.
 - [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-25*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Ukraine War News Today - Top Stories and Breaking Updates from Kyiv Post](https://www.kyivpost.com/thread/81075) — *2026-07-26*
+  > Stay informed with the most important Ukraine breaking news today. This page compiles the top headlines and critical updates from across Ukraine, offering a real-time snapshot of key developments. Whether it’s military updates, political changes, or international reactions — we b
+- **NEW**  [Ukraine Strikes Siberia Refinery as Kazakh Leader Tells Putin War Should End](https://www.kyivpost.com/post/81071) — *2026-07-25*
+  > Ukrainian drones struck a Siberian oil refinery Saturday and disrupted an Urals athletics competition, as Kazakhstan’s president told Russia’s Vladimir Putin the Ukraine war should end during a forum in Siberia’s Omsk.
+- **NEW**  [Russia’s Return to Olympics Exposes IOC’s Moral Collapse](https://www.kyivpost.com/opinion/80801) — *2026-07-25*
+  > The International Olympic Committee’s decision to readmit Russia to the 2028 LA Olympics is a profound betrayal of its mission to promote peace. Russia’s invasions, propaganda and devastation of Ukrainian sport should have warranted a continued ban, not the leniency we have seen.
+- **NEW**  [Russia Cuts Funding for Putin’s Flagship Technology Projects](https://www.kyivpost.com/post/81069) — *2026-07-25*
+  > Russia has cut funding for eight of its key “technological leadership” projects for 2025. Total allocations were reduced by 37.8% to 201.9 billion rubles ($2.6 billion). The most significant cuts impacted the space technology project, which received zero funding, and the Means of
+- **NEW**  [Kazakhstan’s Tokayev Urges Putin to Freeze Ukraine War](https://www.kyivpost.com/post/81070) — *2026-07-25*
+  > During the 22nd Russia-Kazakhstan Interregional Cooperation Forum in Omsk on July 25, Kazakh President Kassym-Jomart Tokayev urged Russian President Vladimir Putin to freeze the war in Ukraine and return to the “Istanbul 2.0” negotiation format. Tokayev compared the conflict unfa
+- **NEW**  [Ukraine Trains Police for War and Democracy](https://www.kyivpost.com/opinion/80677) — *2026-07-25*
+  > The legitimacy of the state depends not only on its ability to punish crime, but also on its ability to protect the vulnerable and respect the dignity of citizens. Ukraine’s police are being trained in extraordinary circumstances not just to uphold the rule of law, but to ensure 
+- **NEW**  [Thoughts En Route to Albania](https://www.kyivpost.com/opinion/81068) — *2026-07-25*
+  > My trip to Tirana at the invitation of the Albanian government offers a new lens on resilience. Albania’s transformation from isolation to a vibrant, confident capital brings parallels with Ukraine’s own struggle against corruption, trauma and Russian disinformation.
+- **NEW**  [EU Allows Member States to Sell Confiscated Russian Oil in 21st Sanctions Package](https://www.kyivpost.com/post/81063) — *2026-07-25*
+  > The EU adopted its 21st sanctions package against Russia on July 23, introducing measures targeting the country’s energy revenues, financial infrastructure, and sanctions evasion tactics. A key provision allows EU member states to legally confiscate and sell crude oil and other c
+- **NEW**  [Trump Administration Warns Ukraine Against Attacking Non-Russian Vessels](https://www.kyivpost.com/post/81066) — *2026-07-25*
+  > The Trump administration has formally warned Ukraine to refrain from attacking non-Russian vessels in the Black Sea. The diplomatic notice followed meetings between senior US officials and Chevron CEO Mike Wirth, whose company chartered one of the four tankers recently targeted b
+- **NEW**  [Why The Economist Scoop Was a Polite Version of the Same Moscow Threat](https://www.kyivpost.com/opinion/80912) — *2026-07-25*
+  > The storied British news journal, long a champion of liberal democracy, merely flogged a pat Russian threat couched as a “wind of change.” Anyone familiar with Russian propaganda techniques will recognize how the supposedly astute Brits have been hoodwinked.
+- **NEW**  [Russian Aerial Bombs Strike Zaporizhzhia, Killing 1, Injuring 11](https://www.kyivpost.com/post/81062) — *2026-07-25*
+  > Russian forces struck the southern city of Zaporizhzhia with three guided aerial bombs on Saturday, July 25, hitting an enterprise dedicated to purifying and delivering drinking water. The regional police reported that emergency responders pulled a woman from the rubble who could
+- **NEW**  [Organizer of Targeted Drone Exhibition Near Kyiv Detained](https://www.kyivpost.com/post/81058) — *2026-07-25*
+  > The chief organizer of a defense technology exhibition struck by a Russian ballistic missile near Kyiv has been detained and notified of suspicion of criminal negligence. Prosecutor General Ruslan Kravchenko stated that the event, which resulted in 10 fatalities and 100 injuries,
+- **NEW**  [Inside Ukraine’s MAGA Breakthrough](https://www.kyivpost.com/post/81043) — *2026-07-25*
+  > From Ben Shapiro’s interview with President Volodymyr Zelensky to Laura Loomer’s visit and Republican support for tougher Russia sanctions, a conservative outreach campaign is challenging the idea that MAGA is inherently hostile to Ukraine.
+- **NEW**  [Italian Defense Minister Offers Advisory Role to Mykhailo Fedorov](https://www.kyivpost.com/post/81056) — *2026-07-25*
+  > Italian Defense Minister Guido Crosetto stated he has offered former Ukrainian Defense Minister Mykhailo Fedorov a role as a military advisor in Rome, describing him as a driving force behind battlefield innovations. Crosetto reportedly contacted Fedorov the day after his July 15
+- **NEW**  [Zelensky Confirms Strikes on Russian Air Defenses, Sanctioned Sea Ships, Deep Logistics](https://www.kyivpost.com/post/81060) — *2026-07-25*
+  > President Volodymyr Zelensky confirmed on Saturday that the country’s defense forces conducted a widespread campaign against Russian military and logistics targets. In a statement, Zelensky outlined strikes on a defense manufacturing plant in Kirov, an oil refinery in Tyumen, a l
+- **NEW**  [Ukraine Plans $1.1 Billion Satellite Constellation to Reduce Reliance on Starlink](https://www.kyivpost.com/post/81054) — *2026-07-25*
+  > Ukrainian satellite communications company Stetman is proceeding with a $1.1 billion plan to deploy a nationally controlled 360-satellite network by 2030 to reduce reliance on foreign-operated services such as Starlink. Working through a joint venture named UASAT with Danish manu
+- **NEW**  [Russian Strike on Ukraine Arms Expo Kills Employee of Polish Defense Firm](https://www.kyivpost.com/post/81055) — *2026-07-25*
+  > A Russian strike targeted a weapons and defense technology exhibition north of Kyiv, resulting in multiple fatalities, including a foreign national. The Polish Foreign Ministry confirmed the foreign victim was not a Polish citizen. President Volodymyr Zelensky criticized the even
+- **NEW**  [Romania Shoots Down Second Intruding Drone in 2 Days](https://www.kyivpost.com/post/81050) — *2026-07-25*
+  > A Romanian F-16 fighter jet intercepted and shot down an unidentified drone that penetrated the country’s airspace on Saturday, July 25, marking the second such incident in two days. The Ministry of National Defense reported that radar systems detected the drone near the Ukrainia
+- **NEW**  [Drone Strike Sparks Fire at Tyumen Oil Refinery in Russia’s Ural Region](https://www.kyivpost.com/post/81057) — *2026-07-25*
+  > A drone strike caused a fire at the Tyumen Oil Refinery (TNPZ) in Russia on Saturday, July 25. Regional Governor Alexander Moor confirmed that a drone fell on the facility’s territory, prompting an emergency response. Local residents reported hearing explosions and air defense ac
+- **NEW**  [Genie Out of the Lamp: Fedorov Isn’t Budging, Protesters Holding Their Ground](https://www.kyivpost.com/post/81048) — *2026-07-25*
+  > Protests in Kyiv have flared up with renewed intensity following former Defense Minister Mykhailo Fedorov’s refusal to return to the government in a different role with reduced powers. Can President Zelensky avoid a political crisis, and could Fedorov have accepted the offer?
+- **NEW**  [SBU Detains Agent for Activating 1,000 Starlinks for Russia](https://www.kyivpost.com/post/81044) — *2026-07-25*
+  > The Security Service of Ukraine (SBU) detained a resident of Dnipro accused of organizing a large-scale scheme to illegally verify and activate more than 1,000 Starlink satellite terminals for Russian forces. According to the SBU, the suspect was recruited via Telegram and used d
 
-_(109 additional items in raw.jsonl)_
+_(114 additional items in raw.jsonl)_

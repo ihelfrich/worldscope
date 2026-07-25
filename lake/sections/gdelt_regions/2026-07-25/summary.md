@@ -2,48 +2,24 @@
 section: gdelt_regions
 title: World News (by country, top stories)
 date: 2026-07-25
-record_count: 18
-new_today: 0
-state: stale_after_failure
+record_count: 6
+new_today: 6
+state: fresh
 ---
 
 ## World News (by country, top stories)
 
-0 new of 18 total items today.
+6 new of 6 total items today.
 
-- [[China] चीन बना विदेशी पर्यटकों की पसंद](https://hindi.cri.cn/2026/07/25/ARTI1784968290724413) — *2026-07-25*
-  > hindi.cri.cn · English
-- [[China] यीवू में विकास का अनुभव](https://hindi.cri.cn/2026/07/25/ARTI1784968388507415) — *2026-07-25*
-  > hindi.cri.cn · English
-- [[China] Trump says US  locked and loaded , vows more Iran strikes while hinting at talks](https://www.scmp.com/news/world/middle-east/article/3361831/trump-says-us-locked-and-loaded-vows-more-iran-strikes-while-hinting-talks) — *2026-07-25*
-  > scmp.com · English
-- [[China] Poster | China Jingdezhen Handicraft Porcelain Industry Sites added to UNESCO World Heritage List](http://www.beijingbulletin.com/news/279208761/poster-china-jingdezhen-handicraft-porcelain-industry-sites-added-to-unesco-world-heritage-list) — *2026-07-25*
-  > beijingbulletin.com · English
-- [[China]   Will not bow to US bullying : Araghchi rejects Washington pressure tactics at SCO summit](http://www.beijingbulletin.com/news/279208673/will-not-bow-to-us-bullying-araghchi-rejects-washington-pressure-tactics-at-sco-summit) — *2026-07-25*
-  > beijingbulletin.com · English
-- [[China] From factory floor to innovation hub : how foreign firms deepen China presence](http://www.beijingbulletin.com/news/279208778/from-factory-floor-to-innovation-hub-how-foreign-firms-deepen-china-presence) — *2026-07-25*
-  > beijingbulletin.com · English
-- [[Japan] Close that Facility : The 2026 Pine Gap Protests](https://nuclear-news.net/2026/07/25/3-b1-close-that-facility-the-2026-pine-gap-protests/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Japan] Fatal fallout](https://nuclear-news.net/2026/07/25/3-b1-fatal-fallout/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Japan] US greenlights Saudi nuclear enrichment without safeguards : Report](https://nuclear-news.net/2026/07/25/2-b1-us-greenlights-saudi-nuclear-enrichment-without-safeguards-report/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Japan] The Fall of Israel Longest - Serving Leader : Is This the End for Netanyahu ? « nuclear - news](https://nuclear-news.net/2026/07/25/3-b-the-fall-of-israels-longest-serving-leader-is-this-the-end-for-netanyahu/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Japan] Russia Financial Crisis Casts a Shadow Over Central Asia Nuclear Future « nuclear - news](https://nuclear-news.net/2026/07/25/2-b1-russias-financial-crisis-casts-a-shadow-over-central-asias-nuclear-future/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Japan] The wear and tear of conflict : Ukraine , Europe , and the twilight of a great deception](https://nuclear-news.net/2026/07/25/3-a-the-wear-and-tear-of-conflict-ukraine-europe-and-the-twilight-of-a-great-deception/) — *2026-07-25*
-  > nuclear-news.net · English
-- [[Ukraine] Khmara at meeting with Whitaker : Ukraine focuses on asymmetric actions and high tech](https://en.interfax.com.ua/news/general/1187866.html) — *2026-07-24*
-  > en.interfax.com.ua · English
-- [[Ukraine] Russia attacks Ukrzaliznytsia passenger train in Dnipropetrovsk region](https://en.interfax.com.ua/news/general/1187880.html) — *2026-07-24*
-  > en.interfax.com.ua · English
-- [[Ukraine] URCS assists victims of Russian air strikes on Zaporizhia](https://en.interfax.com.ua/news/general/1187834.html) — *2026-07-24*
-  > en.interfax.com.ua · English
-- [[Ukraine] Enemy strikes Zaporizhia with KABs , casualties reported – official](https://en.interfax.com.ua/news/general/1187850.html) — *2026-07-24*
-  > en.interfax.com.ua · English
-- [[Ukraine] Zelenskyy instructs preparation of decrees appointing Klymenko , Umerov to NSDC after US meetings](https://en.interfax.com.ua/news/general/1187844.html) — *2026-07-24*
-  > en.interfax.com.ua · English
-- [[Ukraine] Russian airstrike on Sloviansk injures 5 more civilians , including teen](https://en.interfax.com.ua/news/general/1187857.html) — *2026-07-24*
-  > en.interfax.com.ua · English
+- **NEW**  [[Japan] Capcom explains why it putting out so many Resident Evil remakes and why there arent a lot of spin - offs](https://nintendoeverything.com/capcom-explains-why-its-putting-out-so-many-resident-evil-remakes-and-why-there-arent-a-lot-of-spin-offs/) — *2026-07-25*
+  > nintendoeverything.com · English
+- **NEW**  [[Japan] Shigeru Miyamoto believes that people  are no longer just looking for specs  with gaming systems](https://nintendoeverything.com/shigeru-miyamoto-believes-that-people-are-no-longer-just-looking-for-specs-with-gaming-systems/) — *2026-07-25*
+  > nintendoeverything.com · English
+- **NEW**  [[Japan] Marvel Tokon : Fighting Souls PC performance issues being investigated , community - suggested troubleshooting steps shared](https://www.eventhubs.com/news/2026/jul/25/marvel-tokon-pc-performance-issues/) — *2026-07-25*
+  > eventhubs.com · English
+- **NEW**  [[Japan] Avatar Legends : The Fighting Game - Game](http://www.nintendoworldreport.com/game/76523/avatar-legends-the-fighting-game-switch) — *2026-07-25*
+  > nintendoworldreport.com · English
+- **NEW**  [[Japan] Armadillo Racing - Game](http://www.nintendoworldreport.com/game/76520/armadillo-racing-switch-2-arc) — *2026-07-25*
+  > nintendoworldreport.com · English
+- **NEW**  [[Japan] US lawmakers propose AI  kill switch  after OpenAI test](http://www.japanherald.com/news/279206182/us-lawmakers-propose-ai-kill-switch-after-openai-test) — *2026-07-25*
+  > japanherald.com · English

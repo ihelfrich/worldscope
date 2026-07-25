@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-25
-record_count: 46
-new_today: 46
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-46 new of 46 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Donald Trump Iran Statement : क्या ईरान पर सबसे बड़े हमले की तैयारी में अमेरिका ? ट्रंप बोले : हम  लॉक्ड एंड लोडेड , पर बातचीत भी जारी - us iran conflict escalates as trump warns of major strikes](https://hindi.business-standard.com/international/us-iran-conflict-escalates-as-trump-warns-of-major-strikes-id-539641/) — *2026-07-25*
-  > hindi.business-standard.com · Hindi · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Golpe de calor financiero](https://laopinion.co:443/columnistas/golpe-de-calor-financiero) — *2026-07-25*
-  > laopinion.co · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 25 de Xullo](https://www.elprogreso.es/blog/manuel-de-lorenzo/25-de-xullo/202607251325171987552.html) — *2026-07-25*
-  > elprogreso.es · Galician · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Zonguldaklı gemici toprağa verildi - Zonguldak Haberleri - Habertürk Yerel Haberler](https://yerel-haberler.haberturk.com/zonguldak-haberleri/zonguldakli-gemici-topraga-verildi-118875484) — *2026-07-25*
-  > yerel-haberler.haberturk.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Muere un joven de 21 años ahogado en un canal de Amposta](https://www.20minutos.es/cataluna/tarragona/muere-un-joven-21-anos-ahogado-un-canal-amposta_7018892_0.html) — *2026-07-25*
-  > 20minutos.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] উত্তাল সমুদ্রে ইলিশের দেখা মিলছে না , লোকসানের মুখে মৎস্যজীবীরা](https://bartamanpatrika.com/news/hilsa-scarce-in-rough-seas-fishermen-facing-losses) — *2026-07-25*
-  > bartamanpatrika.com · Bengali · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Intelligenza artificiale fuori controllo ? cosa ci insegna il caso di OpenAI](https://www.zazoom.it/2026-07-25/intelligenza-artificiale-fuori-controllo-cosa-ci-insegna-il-caso-di-openai/19501229/) — *2026-07-25*
-  > zazoom.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] مصرع وإصابة العشرات في تصادم حافلتين مدنية وعسكرية على طريق دمشق – دير الزور](https://stepagency-sy.net/incident/467) — *2026-07-25*
-  > stepagency-sy.net · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 11 killed in latest attacks between Ukraine and Russia](https://www.greenocktelegraph.co.uk/news/national/26409504.11-killed-latest-attacks-ukraine-russia/) — *2026-07-25*
-  > greenocktelegraph.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Au cœur dune supercellule , un drone filme une tornade emporter tout sur son passage dans une violence sidérante](https://www.futura-sciences.com/planete/actualites/tornade-coeur-supercellule-drone-filme-tornade-emporter-tout-son-passage-violence-siderante-136518/) — *2026-07-25*
-  > futura-sciences.com · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Hortum yıktı geçti : Böyle bir şey görmedik](https://www.milliyet.com.tr/gundem/hortum-yikti-gecti-boyle-bir-sey-gormedik-7629560) — *2026-07-25*
-  > milliyet.com.tr · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Brits told how to get paid for running washing machines and dishwasher](https://www.express.co.uk/life-style/life/2231256/brits-paid-running-washing-machines) — *2026-07-25*
-  > express.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 藍白上凱道 ！ 萬美玲沒現身 傅崐萁脫口 「 現場有一百萬人 」 | 政治 | 三立新聞網 SETN . COM](https://www.setn.com/news/1878385) — *2026-07-25*
-  > setn.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] António Muchaxo . O visionário do Guincho](https://sol.iol.pt/vida/noticias/antonio-muchaxo-o-visionario-do-guincho/20260725/6a63c3ab0cf2f6a1a1e71e77) — *2026-07-25*
-  > sol.iol.pt · Portuguese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Δήμας : Ο Ε65 αλλάζει τον χάρτη των οδικών μεταφορών στην ηπειρωτική Ελλάδα](https://www.typosthes.gr/politiki/436737_dimas-o-e65-allazei-ton-harti-ton-odikon-metaforon-stin-ipeirotiki-ellada) — *2026-07-25*
-  > typosthes.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 黃國昌提 「 三大要求 」： 酸卓榮泰今天不敢留在台北 | 政治](https://newtalk.tw/news/view/2026-07-25/1049358) — *2026-07-25*
-  > newtalk.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Evacuations continue after major incident declared for Cairngorms wildfire](https://www.milfordmercury.co.uk/news/national/26409351.evacuations-continue-major-incident-declared-cairngorms-wildfire/) — *2026-07-25*
-  > milfordmercury.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 002828 ， 再次筹划控制权变更 ！ 下周一停牌](https://baijiahao.baidu.com/s?id=1871678355726523345) — *2026-07-25*
-  > baijiahao.baidu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 喊話賴清德勇敢面對 韓國瑜允立刻推 《 食安法 》 修法 | 政治](https://newtalk.tw/news/view/2026-07-25/1049361) — *2026-07-25*
-  > newtalk.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Mapping rural data center development finds growing opposition](https://kvia.com/news/us-world/stacker-news/2026/07/25/mapping-rural-data-center-development-finds-growing-opposition/) — *2026-07-25*
-  > kvia.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] СБУ подтвердила поражение российского ракетного катера , двух грузовых судов и нефтедобывающей платформы на Каспии](http://pressorg24.com/news?id=838844) — *2026-07-25*
-  > pressorg24.com · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Какие продукты понижают давление : список от диетологов](https://health.unian.net/health/kakie-produkty-ponizhayut-davlenie-spisok-ot-dietologov-13450209.html) — *2026-07-25*
-  > health.unian.net · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 低卡奶昔選哪一款 ？ 7款口碑爆棚品牌大評比 ， 喝過才知道 》 RENEW PHY｜巧口奶昔哪一款最值得試 ？ - s86d7wr33203 的部落格](https://blog.udn.com:443/s86d7wr33203/191608500) — *2026-07-25*
-  > blog.udn.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Inside Sweden : Why Sweden mountains were worth the wait](https://www.thelocal.se/20260725/inside-sweden-my-first-trip-to-the-swedish-mountains) — *2026-07-25*
-  > thelocal.se · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Речь идет о неделях : Садовый рассказал , когда аэропорты  Львов  и  Борисполь  возобновят работу](http://pressorg24.com/news?id=838834) — *2026-07-25*
-  > pressorg24.com · Russian · tone NA
-
-_(21 additional items in raw.jsonl)_
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] SONA in 2026 | The Manila Times](https://www.manilatimes.net/2026/07/26/opinion/columns/sona-in-2026/2391480) — *2026-07-25*
+  > manilatimes.net · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] He says , he said ; the bitter path to diplomacy](https://www.manilatimes.net/2026/07/26/opinion/columns/he-says-he-said-the-bitter-path-to-diplomacy/2391482) — *2026-07-25*
+  > manilatimes.net · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] PH troublemaker of region – China | The Manila Times](https://www.manilatimes.net/2026/07/26/news/national/ph-troublemaker-of-region-china/2391525) — *2026-07-25*
+  > manilatimes.net · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] DPP lawmakers speak on war resilience in US](https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861399) — *2026-07-25*
+  > taipeitimes.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Kinmen and the law that says no - Taipei Times](https://www.taipeitimes.com/News/editorials/archives/2026/07/26/2003861379) — *2026-07-25*
+  > taipeitimes.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Carpio reiterates proposal to return to Arbitral Tribunal to draft common fishing rules in Scarborough Shoal](https://verafiles.org/articles/carpio-reiterates-proposal-to-return-to-arbitral-tribunal-to-draft-common-fishing-rules-in-scarborough-shoal) — *2026-07-25*
+  > verafiles.org · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords]   Everyone will be loser : Taiwan deputy minister says war with China would be bad for the Pacific](https://www.guampdn.com/news/everyone-will-be-loser-taiwan-deputy-minister-says-war-with-china-would-be-bad-for/article_7a313bc2-b8b3-4b5e-9b58-1afa0e6d5776.html) — *2026-07-25*
+  > guampdn.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Inside Taiwan budding civil defence movement , where ordinary citizens are preparing for disaster](https://www.theglobeandmail.com/world/article-taiwan-china-possible-invasion-civil-defence-groups-train-for-disaster/) — *2026-07-25*
+  > theglobeandmail.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Press Statement of DPRK Foreign Ministry Spokesperson](https://www.globalsecurity.org/wmd/library/news/dprk/2026/dprk-260724-kcna01.htm) — *2026-07-25*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Philippines , China trade blame after water cannon clash near Scarborough Shoal in South China Sea](https://gulfnews.com/world/asia/philippines-china-trade-accusations-after-fresh-south-china-sea-confrontation-1.500619712) — *2026-07-25*
+  > gulfnews.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Ships transiting Strait of Hormuz go dark , hug Iran Coast to evade Tehran wrath](https://nypost.com/2026/07/24/world-news/ships-transiting-strait-of-hormuz-go-dark-hug-irans-coast-to-evade-tehrans-wrath/) — *2026-07-24*
+  > nypost.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Taiwan Adviser Warns Major Cyberattack Could Foreshadow Chinese Invasion](https://www.theepochtimes.com/china/taiwan-adviser-warns-major-cyberattack-could-foreshadow-chinese-invasion-6066670) — *2026-07-24*
+  > theepochtimes.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Secretary of State Marco Rubio Remarks to the Press](https://www.globalsecurity.org/military/library/news/2026/07/mil-260723-state04.htm) — *2026-07-24*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] US top diplomat slams latest water cannon attack at Scarborough](https://www.globalsecurity.org/military/library/news/2026/07/mil-260723-pna05.htm) — *2026-07-24*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Typhoon Noul to make landfall along Guangdong coast , orange alert renewed](http://www.taiwansun.com/news/279207425/typhoon-noul-to-make-landfall-along-guangdong-coast-orange-alert-renewed) — *2026-07-24*
+  > taiwansun.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Rugged mobile computing , DoD procurement modernization , and the global threat landscape](https://militaryembedded.com/radar-ew/rugged-computing/rugged-mobile-computing-dod-procurement-modernization-and-the-global-threat-landscape) — *2026-07-24*
+  > militaryembedded.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Is Scarborough fair ? A litmus test for the rule of law](https://www.philstar.com/opinion/2026/07/25/2544462/scarborough-fair-litmus-test-rule-law) — *2026-07-24*
+  > philstar.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Foreign Ministry Spokesperson Lin Jian Regular Press Conference on July 23 , 2026](https://www.globalsecurity.org/wmd/library/news/china/2026/07/china-260723-prc-mofab01.htm) — *2026-07-24*
+  > globalsecurity.org · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] China blasts Philippines vessels with water cannons anew](https://www.philstar.com/headlines/2026/07/25/2544548/china-blasts-philippines-vessels-water-cannons-anew) — *2026-07-24*
+  > philstar.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Freedom of Navigation - a Principle Still Worth Fighting For](https://conservativehq.com/post/freedom-of-navigation-a-principle-still-worth-fighting-for) — *2026-07-24*
+  > conservativehq.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Chinese ship shoots water cannon at Philippine vessel with CNN crew on board near flashpoint shoal](https://keyt.com/news/national-world/cnn-world/2026/07/24/chinese-ship-shoots-water-cannon-at-philippine-vessel-with-cnn-crew-on-board-near-flashpoint-shoal-2/) — *2026-07-24*
+  > keyt.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Futures Rebound As Brent Dips Below $100](https://www.zerohedge.com/markets/futures-rebound-brent-dips-below-100) — *2026-07-24*
+  > zerohedge.com · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Teodoro denies agreeing to any provisional deal with China](https://www.manilatimes.net/2026/07/24/news/teodoro-denies-agreeing-to-any-provisional-deal-with-china/2391084) — *2026-07-24*
+  > manilatimes.net · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Philippines says ship hit by Chinese water cannon at disputed reef](https://tribune.com.pk/story/2620007/philippines-says-ship-hit-by-chinese-water-cannon-at-disputed-reef) — *2026-07-24*
+  > tribune.com.pk · English · tone NA
+- **NEW**  [[Taiwan Strait + South China Sea · keywords] Philippines again accuses China of using water cannon](https://www.edenmagnet.com.au/story/9317274/philippines-again-accuses-china-of-using-water-cannon/) — *2026-07-24*
+  > edenmagnet.com.au · English · tone NA

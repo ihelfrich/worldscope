@@ -35,7 +35,7 @@ state: fresh
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2]
 8. **Rand Paul** (Senator, Republican, KY): composite 0.057
    drivers: new_filings=0.57
-   evidence: [lake:political_figures:gkg-20260725], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]
+   evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001193125-2]
 9. **Rick Scott** (Senator, Republican, FL): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001652149-2]

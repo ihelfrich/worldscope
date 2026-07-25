@@ -2,43 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-25
-record_count: 1026
-new_today: 532
+record_count: 1036
+new_today: 652
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-532 new of 1026 total items today.
+652 new of 1036 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-25*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-25*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-25*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-25*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[Global] Two Russian men jailed in Angola for terrorism and spying](https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying) — *2026-07-23*
-- [[Global] MoD cancels army training in Kenya over powers to prosecute British soldiers](https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute) — *2026-07-23*
-- [[Global] Thousands of lightning strikes trigger fresh wildfires in western Canada](https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada) — *2026-07-24*
-- [[Global] Guyanese authorities confirm death of 72 people in sinking of coastal ferry](https://www.theguardian.com/world/2026/jul/24/guyana-coastal-ferry-sinking-deaths-rescue) — *2026-07-24*
-- [[Global] Canadian government urged to block Thomson Reuters data deal with US ICE](https://www.theguardian.com/world/2026/jul/24/canada-government-mark-carney-block-data-sharing-deal-thomson-reuters-us-ice-avi-lewis) — *2026-07-24*
-- [[Global] Masked men invading and taking Amazon communities ‘hostage’ in organised crime surge, say local leaders](https://www.theguardian.com/environment/2026/jul/24/gangs-taking-villages-on-brazil-peru-border-hostage-say-indigenous-leaders) — *2026-07-24*
-- [[Global] Weather tracker: More than 900 wildfires rage across Canada](https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat) — *2026-07-24*
-- [[Global] Total solar eclipse books out hotels two years in advance in New Zealand city](https://www.theguardian.com/world/2026/jul/23/total-solar-eclipse-new-zealand-2028-dunedin) — *2026-07-23*
-- **NEW**  [[Global] Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker](https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta) — *2026-07-25*
-- [[Global] Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre](https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising) — *2026-07-24*
-- [[Global] Pauline Hanson’s domestic violence comments were no stumble](https://www.theguardian.com/australia-news/2026/jul/24/pauline-hanson-domestic-violence-comments-mra-mens-rights-activists-ntwnfb) — *2026-07-24*
-- [[Global] University courses covering Israel-Palestine should be audited, Julian Leeser tells royal commission](https://www.theguardian.com/australia-news/2026/jul/24/university-courses-covering-israel-palestine-should-be-audited-julian-leeser-tells-royal-commission-ntwnfb) — *2026-07-24*
-- [[Global] Julian Leeser says his son no longer feels safe at Jewish events – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb) — *2026-07-24*
-- **NEW**  [[Global] France and Spain race to control wildfires as more than 250,000 evacuated – live](https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde) — *2026-07-25*
-- **NEW**  [[Global] What’s behind Maga influencer Laura Loomer’s about-face on Ukraine?](https://www.theguardian.com/us-news/2026/jul/25/laura-loomers-ukraine-visit) — *2026-07-25*
-- **NEW**  [[Global] ‘No time to waste’: Greece bids for Mount Olympus to be included on Unesco list of world heritage sites](https://www.theguardian.com/world/2026/jul/25/no-time-to-waste-greece-bids-for-mount-olympus-to-be-included-on-unesco-list-of-world-heritage-sites) — *2026-07-25*
-- [[Global] More than 200,000 people flee or lock down as wildfires sweep France and Spain](https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire) — *2026-07-24*
-- [[Global] Law student charged after military-grade bomb intercepted near Irish border](https://www.theguardian.com/world/2026/jul/24/woman-man-arrested-ireland-police-intercept-highly-sophisticated-bomb) — *2026-07-24*
-- **NEW**  [[Global] Treasure as trinkets: Zendaya’s earrings renew debate on ownership of ancient artefacts](https://www.theguardian.com/culture/2026/jul/25/treasure-as-trinkets-zendayas-earrings-renew-debate-on-ownership-of-ancient-artefacts) — *2026-07-25*
-- **NEW**  [[Global] Reclaiming stolen childhoods: swimming classes resume in Gaza after three years of war](https://www.theguardian.com/world/2026/jul/25/swimming-classes-resume-gaza-after-three-years-war) — *2026-07-25*
-- [[Global] Trump switched planes in Turkey earlier this month because of threat from Iran proxy forces – report](https://www.theguardian.com/us-news/2026/jul/24/trump-air-force-one-iran-threat) — *2026-07-24*
+- **NEW**  [[Global] Iran accuses Ukraine of deadly attack on Caspian commercial vessel](https://www.aljazeera.com/news/2026/7/25/iran-accuses-ukraine-of-deadly-attack-on-caspian-commercial-vessel?traffic_source=rss) — *2026-07-25*
+  > Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.
+- **NEW**  [[Global] Fire tears through Indonesian village in West Java](https://www.aljazeera.com/video/newsfeed/2026/7/25/fire-tears-through-indonesian-village-in-west-java?traffic_source=rss) — *2026-07-25*
+  > A fire has torn through a traditional village in the Sukabumi Regency of Indonesia&#039;s West Java province.
+- **NEW**  [[Global] One dead, 17 injured as car reportedly strikes crowd at Berlin LGBTQ event](https://www.aljazeera.com/news/2026/7/25/one-dead-14-injured-as-car-reportedly-strikes-crowd-at-berlin-lgbtq-event?traffic_source=rss) — *2026-07-25*
+  > German police say they believe car drove into Tiergarten park, near the route of a Pride march, hitting several people.
+- **NEW**  [[Global] Israeli forces target Gaza’s Al-Aqsa hospital](https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-target-gazas-al-aqsa-hospital?traffic_source=rss) — *2026-07-25*
+  > At least one person was killed and several injured when Israeli drones hit a group of Palestinians near Al-Aqsa hospital
+- **NEW**  [[Global] What’s next for Venezuela’s path to recovery from devastating earthquakes?](https://www.aljazeera.com/news/2026/7/25/whats-next-for-venezuelas-path-to-recovery-from-devastating-earthquakes?traffic_source=rss) — *2026-07-25*
+  > The cost of reconstruction is expected to run into the tens of billions, even as the country faces numerous obstacles.
+- **NEW**  [[Global] Israeli forces tear gas journalists reporting Nablus shootout](https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-tear-gas-journalists-reporting-nablus-shootout?traffic_source=rss) — *2026-07-25*
+  > Israeli troops fired tear gas at Palestinians and journalists in Tal a day after a deadly shootout
+- **NEW**  [[Global] How India’s ‘Cockroach’ protesters shook the Modi government](https://www.aljazeera.com/video/newsfeed/2026/7/25/how-indias-cockroach-protesters-shook-the-modi-government?traffic_source=rss) — *2026-07-25*
+  > India’s Education Minister has resigned after 36 days of continuous protests by Cockroach Janta Party-led people.
+- **NEW**  [[Global] Head of Hamas-led police in northern Gaza killed by Israeli strike](https://www.aljazeera.com/news/2026/7/25/head-of-hamas-led-police-in-northern-gaza-killed-by-israeli-strike?traffic_source=rss) — *2026-07-25*
+  > Four other Palestinians were also killed by Israeli air strikes, and a policeman died from wounds sustained last week.
+- **NEW**  [[Global] At least 35 killed after two buses collide in eastern Syria](https://www.aljazeera.com/video/newsfeed/2026/7/25/at-least-35-killed-after-two-buses-collide-in-eastern-syria?traffic_source=rss) — *2026-07-25*
+  > At least 35 killed after two buses collide in eastern Syria
+- **NEW**  [[Global] Ebola deaths in DRC surge past 1,300 as virus ‘spreading like a wildfire’](https://www.aljazeera.com/news/2026/7/25/ebola-deaths-in-drc-surge-past-1300-as-virus-spreading-like-a-wildfire?traffic_source=rss) — *2026-07-25*
+  > The outbreak is spreading at the fastest rate ever recorded and threatens to become the worst in history.
+- **NEW**  [[Global] How Netanyahu gov’t media reforms risk deepening Israeli press bias](https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss) — *2026-07-25*
+  > Critics decry Israel&#039;s sweeping media reforms, warning of further risks to press freedom and election integrity.
+- **NEW**  [[Global] Why Epstein’s survivors are still fighting](https://www.aljazeera.com/video/newsfeed/2026/7/25/why-epsteins-survivors-are-still-fighting?traffic_source=rss) — *2026-07-25*
+  > Why Epstein&#039;s survivors are still fighting
+- **NEW**  [[Global] Iran’s government spars with state TV as mediators push talks with US](https://www.aljazeera.com/news/2026/7/25/irans-government-spars-with-state-tv-as-mediators-push-talks-with-us?traffic_source=rss) — *2026-07-25*
+  > Gov&#039;t accuses IRIB of &#039;censorship&#039; after parts of president&#039;s speech not aired; station rejects &#039;improper attributions&#039;.
+- **NEW**  [[Global] Worker dies during reconstruction of Barcelona’s Camp Nou Stadium](https://www.aljazeera.com/sports/2026/7/25/construction-worker-dies-in-accident-at-barcelonas-camp-nou-stadium?traffic_source=rss) — *2026-07-25*
+  > Barcelona offer condolences to family of a 54-year-old man who died during Camp Nou redevelopment after blow to head.
+- **NEW**  [[Global] India win second T20 in Zimbabwe to take series as Kishan and Varma shine](https://www.aljazeera.com/sports/2026/7/25/india-win-second-t20-clash-in-zimbabwe-to-take-series-as-kishan-tilak-varma-shine?traffic_source=rss) — *2026-07-25*
+  > Ishan Kishan and Tilak Varma sets up 90-run win over Zimbabwe as India takes 2-0 lead in T20 series.
+- **NEW**  [[Global] ‘We have done it’: Joy as ‘Cockroach’ protests push India minister out](https://www.aljazeera.com/features/2026/7/25/we-have-done-it-joy-as-cockroach-protests-push-india-minister-out?traffic_source=rss) — *2026-07-25*
+  > Education Minister Dharmendra Pradhan resigns after youth-led protests over exam leaks rattle PM Modi&#039;s government.
+- **NEW**  [[Global] Syrian FM calls for Israeli withdrawal in meeting with UN chief](https://www.aljazeera.com/video/newsfeed/2026/7/25/syrian-fm-calls-for-israeli-withdrawal-in-meeting-with-un-chief?traffic_source=rss) — *2026-07-25*
+  > Syrian Foreign Minister Asaad al-Shaibani called for Israel to withdraw immediately and unconditionally from Syria
+- **NEW**  [[Global] The Battle Over Al-Aqsa](https://www.aljazeera.com/video/newsfeed/2026/7/25/the-battle-over-al-aqsa?traffic_source=rss) — *2026-07-25*
+  > What happened when thousands of Israelis stormed the Al-Aqsa Mosque compound under Israeli police protection?
+- **NEW**  [[Global] The Global South is being forced to choose creditors over children](https://www.aljazeera.com/opinions/2026/7/25/the-global-south-is-being-forced-to-choose-creditors-over-children?traffic_source=rss) — *2026-07-25*
+  > The education of millions of children is at risk because of the current global financial order. We need change
+- **NEW**  [[Global] Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG](https://www.aljazeera.com/sports/2026/7/25/atletico-madrid-sign-south-korea-world-cup-star-lee-kang-in-from-psg?traffic_source=rss) — *2026-07-25*
+  > Lee Kang-In makes the switch to Atletico after helping Paris Saint-Germain to consecutive Champions League titles.
+- **NEW**  [[Global] War on Iran: Phase II: Day 14](https://www.aljazeera.com/video/newsfeed/2026/7/25/war-on-iran-phase-ii-day-14?traffic_source=rss) — *2026-07-25*
+  > War on Iran: Phase II: Day 14
+- **NEW**  [[Global] F1 needs better balance between business and sport, says Norris](https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss) — *2026-07-25*
+  > Lando Norris speaks up ahead of Hungarian Grand Prix with drivers feeling new regulations have cramped their speed.
+- **NEW**  [[Global] What’s behind the ICC investigation into Karim Khan?](https://www.aljazeera.com/video/newsfeed/2026/7/25/whats-behind-the-icc-investigation-into-karim-khan?traffic_source=rss) — *2026-07-25*
+  > Lawyers for the ICC’s ousted Chief Prosecutor Karim Khan say he is the victim of a political witchhunt
+- **NEW**  [[Global] Iran blames US for Hormuz dispute as both sides confirm ongoing talks](https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss) — *2026-07-25*
+  > Iran reports no new US strikes overnight into Saturday for the first time in two weeks.
+- **NEW**  [[Global] Baby rescued after Israeli settlers set home on fire amid raids](https://www.aljazeera.com/video/newsfeed/2026/7/25/baby-rescued-after-israeli-settlers-set-home-on-fire-amid-raids?traffic_source=rss) — *2026-07-25*
+  > A baby was rescued by her family after her home was set on fire by Israeli settlers in the occupied West Bank.
 
-_(1001 additional items in raw.jsonl)_
+_(1011 additional items in raw.jsonl)_
