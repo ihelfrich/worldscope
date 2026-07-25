@@ -2,16 +2,16 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-25
-record_count: 120
-new_today: 4
+record_count: 121
+new_today: 5
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-4 new of 120 total items today.
+5 new of 121 total items today.
 
-- [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions; Issuance of Amended Venezuela-related Frequently Asked Question; Publication of Regulatory Amendments - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
+- **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
 - [[OFAC] Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $2,121,046,270 → HARRIS CORPORATION: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING F](https://www.usaspending.gov/award/693KA821F00222) — *2026-07-25*
   > Agency: Department of Transportation.  Description: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICATIONS SERVICES.
 
-_(95 additional items in raw.jsonl)_
+_(96 additional items in raw.jsonl)_

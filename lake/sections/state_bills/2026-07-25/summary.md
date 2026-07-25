@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-25
-record_count: 107
-new_today: 4
+record_count: 151
+new_today: 53
 state: fresh
 ---
 
 ## State Legislative Action
 
-4 new of 107 total items today.
+53 new of 151 total items today.
 
 - [[Alabama HB 42] Motor vehicles; reporting requirements for towed and unclaimed motor vehicles, further provided]() — *2026-07-24*
   > Motor Vehicles & Traffic
@@ -49,17 +49,17 @@ state: fresh
   > An Act relating to the rights of minors undergoing evaluation or inpatient treatment at psychiatric hospitals; relating to the use of seclusion or restraint of minors at psychiatric hospitals; relating to a report published by the Department of Health; relating to inspections by 
 - [[Alaska HB 176] An Act relating to notice of new fees and fee increases from the University of Alaska; relating to billing statements from the University of Alaska; and providing for an effective date.]() — *2026-07-23*
   > An Act relating to notice of new fees and fee increases from the University of Alaska; relating to billing statements from the University of Alaska; and providing for an effective date.
+- **NEW**  [[California SB 822] Unclaimed property: digital financial assets.]() — *2026-07-25*
+  > The Unclaimed Property Law (UPL) prescribes the circumstances under which intangible property escheats to the state, including how and when apparent owners must be notified that their property is at risk of escheating and the manner in which escheated property must be delivered t
+- **NEW**  [[California SB 838] Housing Accountability Act: housing development projects.]() — *2026-07-25*
+  > Existing law, the Housing Accountability Act, among other things, prohibits a local agency from disapproving, or conditioning approval in a manner that renders infeasible, a housing development project for very low, low-, or moderate-income households unless the local agency make
+- **NEW**  [[California SB 848] Pupil safety: school employee misconduct: child abuse prevention.]() — *2026-07-25*
+  > (1) Under existing law, each school district and county office of education is responsible for the overall development, as specified, of a comprehensive school safety plan for each of its schools operating kindergarten or any of grades 1 to 12, inclusive. Existing law requires th
+- **NEW**  [[California SB 839] Oil spills: fishing: water closure: grants: liability.]() — *2026-07-25*
+  > (1) Existing law requires the Director of Fish and Wildlife, within 24 hours of notification of a spill or discharge, as described, to close certain waters to the take of all fish and shellfish. Existing law provides that closure is not required if the Office of Environmental Hea
+- **NEW**  [[California SB 840] Greenhouse gases: Greenhouse Gas Reduction Fund: studies.]() — *2026-07-25*
+  > The California Global Warming Solutions Act of 2006 requires the State Air Resources Board to adopt regulations for greenhouse gas emissions limits and emissions reduction measures to achieve the maximum technologically feasible and cost-effective reductions in greenhouse gas emi
 - [[California SB 820] Inmates: mental health.]() — *2026-07-24*
   > Existing law prohibits a person from being tried or adjudged to punishment while that person is mentally incompetent. Existing law establishes a process by which a defendant's mental competency is evaluated. Existing law, in the case of a misdemeanor charge in which the defendant
-- [[California SB 809] Employees and independent contractors: construction trucking.]() — *2026-07-24*
-  > (1) Existing law, as established in the case of Dynamex Operations W. v. Superior Court (2018) 4 Cal.5th 903 (Dynamex) , creates a presumption that a worker who performs services for a hirer is an employee for purposes of claims for wages and benefits arising under wage orders is
-- [[California SB 793] Public safety: lighters: standards: prohibition.]() — *2026-07-23*
-  > Existing law requires the State Fire Marshal to specify standards for the design of cigarette lighters using an 80% acceptance criterion with respect to safety features that prevent operation of the lighters by children 5 years of age or younger. Existing law prohibits a person f
-- [[California AB 2206] Teacher credentialing: community college baccalaureate degrees: designated subjects career technical education teaching credential.]() — *2026-07-23*
-  > Existing law requires the Commission on Teacher Credentialing to establish standards for the issuance and renewal of credentials, certificates, and permits. Existing law prescribes specific minimum requirements a candidate must satisfy to be issued a teaching credential, certific
-- [[California AB 2176] Student housing: intersegmental working group.]() — *2026-07-23*
-  > Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of
-- [[California AB 1567] General plan: annual report: congregate and residential care for the elderly.]() — *2026-07-23*
-  > The Planning and Zoning law requires each planning agency to prepare and the legislative body of each county and city to adopt a comprehensive, long-term general plan containing specified elements, including a housing element. Existing law requires the housing element to be revis
 
-_(82 additional items in raw.jsonl)_
+_(126 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-25
-record_count: 239
-new_today: 71
+record_count: 237
+new_today: 90
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-71 new of 239 total items today.
+90 new of 237 total items today.
 
 - [[St. Louis] The Boom Boom Room moves to Buddy’s in downtown St. Louis](https://www.stlmag.com/dining/the-boom-boom-room-moves-to-buddys-in-downtown-st-louis/) — *2026-07-24*
   > <p>Two major players in the downtown food and entertainment scene are joining forces for a new collaboration. Buddy’s Local Grill &#38; Bar (1001 Washington) is teaming up with The Boom Boom Room as the new resident entertainment inside its events space. The burlesque-inspired Bo
@@ -33,33 +33,23 @@ state: fresh
   > <p>Since opening last fall, Prohibition (2017 Chouteau) has drawn guests into its intimate, dimly lit setting with expertly crafted cocktails, and immersive speakeasy experience, one built on a deep appreciation for the history and intrigue of the Prohibition era. Now, owners Ric
 - [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-25*
   > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- **NEW**  [[St. Louis] Bethalto man charged after police say he threatened school district, officers - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGhoU193UTVuZk0ySmZVUjJKVVRLRHhCcTc4cTdWTFFXRzUtR3dPaU5WXzI3X1l2WW0yeFIyc3p2VTh0YVNCVzB2dnVhOXZYdGgtcGdWNFJIbWFtaGptT01NZ1B4V0s0S3I1akwydzRJZ1k4bDYzcVh5a3d2OXVBSEgxNmdMMHJiWXo0eXd4QUtuSHdUQVZQRER6b19CZU1tT2ZNaVRwSmFIVU
-- **NEW**  [[St. Louis] Nearly 100 dogs rescued from Metro East hoarding case - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOQU9xaXltS3A2RzlqRktWZW9UakhNUXBMTDl3Q20tbTdkSkhSR19tTTRXd3ptWERNZzl1UVBSU3dDbDhOOFVnNF9BMmI0eHNzbFprV3NwNGNZTXgzQUJzbGhOdFI3eTZ0NzBZemhuQnRrdno1a1VOS2xEWjBpZ2RNdmFFZlVqMjVaVkgxdjUzVFhFZ9IBpgFBVV95cUxPbm4wQ1NSQnhPUW5fLW
-- **NEW**  [[St. Louis] KMOV Channel 32.1 to be the new home of the ABC Television Network, expanding local news coverage in St. Louis - KMOV](https://www.firstalert4.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2JDVVVjSmZrd056Y3k3RGpzZm5IN19RSkVrQzNGNFZNUkNneXRKREFrcmoyZHJfQkdvWXhyeWxWWkNXSDZvOG4zbl9GM21LaWlBMFEzaXRMR19PUUxmY3pxdHRzQUIwaDhlcnFwU1dFSUZvQnVHbDJaaFM0MmVHMDdOLXc4YW52NEZUZ29tUVVyQWZESFh2UzlEdmxBODA4X3ZhSmhmTFJ1bD
-- **NEW**  [[St. Louis] Investigation underway in Jefferson County after shooting leaves 1 dead, another injured Friday night - KMOV](https://www.firstalert4.com) — *2026-07-25*
-  > <a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZk5oeGNvcFZaYzI5MDEwLXBpS2RxR1B3TzVZRHNrcVlqVTJpRzU0LUt4cHViVnJjQjlIY2FVOS14MG9BUGdpZlNmRl9jYV8zOWZzV1A0VXoxYXJ4Mi1na0dqRTRkN2I4Vm5VR3RQRnk0djVTLVZ5aWtYTXRJZU5USFRZVWxoT3NqcFA3enpSVERuR24wRGpHRVdtTkZBVEF0RGQ2NUFfYVIxUE
-- **NEW**  [[St. Louis] The Millennium Hotel is coming down, its iconic rotating restaurant will live on at the City Museum - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTc2UDFUbGtqY3UxdUtFdmRXd3duVzNia0xLd1J4UGhlYnNPWWRCZndPTGk5SXNXeS1ZWWZxd3dHR3Jwdll1ZFNRZ0VjTlRJWF9sUzdtU2JBWktVa1ppZ2s0bVlpbTlNNXdMN0RJS3UwZ0pqV01OZXVHakhVRGdTUnpFSXF1eGliaTN6a0VVb3k5ai11NDNDM0xla1BEYW0wRV93Z3ZGUmV6Wl
-- **NEW**  [[St. Louis] Why not have the NBA in St. Louis? - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBpelFyZzJEcU1vWG9EbTM5cnI4b3MyUm5lMzgtUGxjcEFDamJCcDdjb0VTdTc0Q2VzWkhhd2JqR1l1emhYcXdHY0taMW80Z09RNzJzY01qS3dKNlM2Q05pS2ZOdEJibF8wS2s0aWpqSElSNDA?oc=5" target="_blank">Why not have the NBA in St. Louis?</a>&nbsp;&nbsp;<f
-- **NEW**  [[St. Louis] St. John police investigating attempted child abduction - KMOV](https://www.firstalert4.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1BneVcwbnZRVTlmUVgzM295SkdZT1lGaF9oWHRBU0VPekdGVm1UWG9DTGlUNEZGb2NWaDhrQXFrUTBjWUFsWkRUNW5ERGxwSnlSVHJGQUdPQWU5eEdjYVZ0SEs0bVlVWTlTNjdweEpUY1VpWE9VaTljTXJKUHhMZkpfcW9xbGRwNFFWaVk1NTdESTZkQ3piOUNB?oc=5" target="_blank"
-- **NEW**  [[St. Louis] Police ask for public’s help in identifying suspects in Carr Square stabbing - KMOV](https://www.firstalert4.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVhweFpFc0pFei1yQk9pY3NhOUFlV1VjSzM4dGh5SkRUYTY5SGw3NklzTFlNYWFfSUtXckZFeXBqck1yQ1Y0WThfeGI1bzdKZklmMVNYSzlTQ1IzdHBwV1VJaDBMOEV2SkU5Zm1fa21oamxzdzBGcXI2VDJRcWY1UXBDTmVQaXhBVGwzZmpwRUo2bHJnSEI2bWNGYXQ5VWVGUVJxRUUxQ2M?oc
-- **NEW**  [[St. Louis] St. Charles County Police warn residents of the red flags for growing scams - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOU3ptM0h2RFRsendwNHVSczlDQ1Y0LVExbXVyX0JSTUNKNnU1R0lUb1Z6aERYOS1LUkd2U0padHRZQlFZeDRxbjJHNWR5NFhYME11RjdYM2h0VXIzbU5WNElKRnhJYUpIZnRTc01wTVhCaDNUN0dDbnRZbHJzMF9RbUJlU0ZybmlPZVFXT0Q4NEtxckg3bDU3WUtvMjd0VndIdHMwVS1R0gG6AU
-- **NEW**  [[St. Louis] ‘We just wanted it to be over‘: Man pleads guilty in assault of Ferguson officer during 2024 protest - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOUEVGM2dJZGF0ZkYxaDJ0djdUbGo4SmxadGpTSEx1ZnNFWllCdEJ4QU1KQTJuOUJZbnVkTzhDbUw3amdOVUY2Z0kweUxzSDJkOVpkZ1h5VDZRRFRZbEpfRUg1RUNFNEFoOWU0VXJoX3FUZmt3bEExMGlSLVU0TVo5LWVWdXpSbjN0UEJXSTFNV21XaTBBcGk2OW4yTWUwYm1abjZHTdIBuAFBVV
-- **NEW**  [[St. Louis] Baby born in St. Louis weighing less than a pound comes home after a year in the hospital - KMOV](https://www.firstalert4.com) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQc2Q2dE1fdGVCMVJKMmVkbVduTERLQ01sSmNKbTRYM0JiS0NnYm5JLTlfcWNNT3VTc3lRZ1NJdjQ5ZkZIdHltZ1JiUDIwMXVyOUZUQjhfZi1WTThoNDJ4UkJxMlBseGRJeHNyQXNGTmZCa0NVYnFDQ3lfWG5fZXMzaVhlVXNSaXIzalp4Uk9FNjlLaElDZkRUbGtNaWg4WE0xei13M2prUTM5bW
-- **NEW**  [[St. Louis] St. Louis woman says overgrown city-owned lots make it unsafe to leave her home - KMOV](https://www.firstalert4.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUlSN3JheWtMWWs3alZtU0hMVGlCbVZpeVk0QUpqTFY5azVxVDh4clRGSEFDX3U2dUJ3S2FXaDJWLWtHZEJTeDJ4OW9pVTZSVnc3a0VHMzZfWDgtaVlGMUlzZkxvUzdvekFUMGFObjRvVVh3UkI5YmR1S2t5clZMZ0NjcnpwTkMtNy1YWDJSZTRMTkVXZ1RqM0hROGlWZXl3U3VhZXV0d09kbH
-- **NEW**  [[St. Louis] ‘Cathedral of South City’ looks to the future with new renovation project - KMOV](https://www.firstalert4.com) — *2026-07-25*
-  > <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQcGtGcXBtOFdYMkVrM3hxai1KS2lhdmlHQ2pObkhFTlBhVG0tVnNYRkZfeWFCWmhhSjRQMW5uaUxsWXZRbjBfZzZ5OTZNUHRwZGdKTzRuOFVGNnVHNkFFaTRZSkt1b19UT0dpRE1nd05nOXd0QzNuNmhhTGh1eWtBOXV4Z3BIYVV4QVNfa2NKUDl2T3VQczBMaXFHeVJRRG5ZUTIw0gG3AUFVX3
-- **NEW**  [[St. Louis] Neighborhood pushes back after proposal to fill inactive quarry - KMOV](https://www.firstalert4.com) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEtlSlY4UGZfdkFiLUJ2My04RlJwbTJjb01Wc2NkZy1uX2xqeWZCd3RRcTBzbTNWUXhJRzRIQVhhZHQwQnNURVgxZGd2cTBjUlVYRS13eG0xMmpTMkw2eDNMelE2YjJuNy1xUGdCeExwWEJRMnowSTg1U1cxMjNvNXotSm15NUdfd3I3OFowOW41RzE3T3Y1WEVtRVJBUjdWR2fSAbYBQVVfeX
+- **NEW**  [[St. Louis] New St. Louis film shows the painstaking effort to conserve the plant monarch butterflies eat](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-25/new-st-louis-film-shows-the-painstaking-effort-to-conserve-the-plant-monarch-butterflies-eat) — *2026-07-25*
+- [[St. Louis] Bell and Bush trade barbs over campaign spending and Israel in fiery faceoff on STLPR](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/missouri-wesley-bell-cori-bush-radio-appearance) — *2026-07-24*
+- [[St. Louis] Friends, family remember 5 killed in East St. Louis ‘family annihilation’](https://www.stlpr.org/law-order/2026-07-24/remember-5-killed-east-st-louis-annihilation) — *2026-07-24*
+- [[St. Louis] Lemay neighbors worry plan to fill quarry with construction waste will bring traffic, floods, noise](https://www.stlpr.org/health-science-environment/2026-07-24/lemay-quarry-construction-waste-traffic-floods-noise) — *2026-07-24*
+- [[St. Louis] Using esports, a St. Louis foundation aims to help gamers score scholarships and careers](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/esports-bgg-foundation-esports) — *2026-07-24*
+- [[St. Louis] After flash floods drove southern Missouri tourists away, business owners say ‘Come float!’](https://www.stlpr.org/economy-business/2026-07-24/after-flash-floods-drove-southern-missouri-tourists-away-business-owners-say-come-float) — *2026-07-24*
+- [[St. Louis] Southern Illinois is now home to one of few university-based Samoan language courses in the U.S.](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-24/southern-illinois-university-edwardsville-is-now-home-to-one-of-few-university-based-samoan-language-courses-in-the-u-s) — *2026-07-24*
+- [[St. Louis] DOJ probe prompts St. Louis County’s Special School District to revise seclusion, restraint policies](https://www.stlpr.org/education/2026-07-24/doj-probe-prompts-st-louis-countys-special-school-district-to-revise-seclusion-restraint-policies) — *2026-07-24*
+- [[St. Louis] A federally endangered plant in Missouri is facing a new threat](https://www.stlpr.org/health-science-environment/2026-07-24/a-federally-endangered-plant-missouri-facing-new-threat) — *2026-07-24*
+- [[St. Louis] Hawley pushing for disaster money to help St. Louis recover from 2025 tornado](https://www.stlpr.org/government-politics-issues/2026-07-23/hawley-pushing-for-disaster-money-to-help-st-louis-recover-from-2025-tornado) — *2026-07-23*
+- **NEW**  [[St. Louis] Record attendance at NABJ St. Louis Student Journalism Workshop after format change](https://www.ksdk.com/article/news/community/record-attendance-at-nabj-st-louis-student-journalism-workshop-2026/63-027a533a-672c-40f6-b8a7-761009757660) — *2026-07-25*
+  > Students from across the St. Louis region spent the week producing original stories on community recovery while learning from Black journalists and media leaders.
+- **NEW**  [[St. Louis] Iran reports no new US strikes overnight as tensions remain high](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-war-united-states-no-new-strikes-attacks-overnight-strait-hormuz-control/507-627e8519-50f6-4d64-a696-54b49ebfbdde) — *2026-07-25*
+  > Iran reports no strikes overnight into Saturday, an apparent break in nearly two weeks of U.S. attacks. Tensions remain high over control of the Strait of Hormuz.
+- **NEW**  [[St. Louis] Local bakery buys former St. Louis doughnut shop property](https://www.ksdk.com/article/news/local/business-journal/local-bakery-buys-former-st-louis-doughnut-shop-property/63-8425d9fb-fde2-4876-9034-f31fab8b7d2f) — *2026-07-25*
+  > O’Fashion Donuts, located in the Southwest Garden neighborhood, closed earlier this year.
+- **NEW**  [[St. Louis] Applebee's closes St. Louis County location](https://www.ksdk.com/article/news/local/business-journal/applebees-closing-st-louis-county-location-ballwin/63-41a2ac37-9a88-4b7a-b95a-7931f2a5bb1a) — *2026-07-25*
+  > After 30 years in business, the location closed permanently due to a 30% rent increase, an employee said.
 
-_(214 additional items in raw.jsonl)_
+_(212 additional items in raw.jsonl)_
