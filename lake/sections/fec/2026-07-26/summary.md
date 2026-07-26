@@ -3,13 +3,13 @@ section: fec
 title: Campaign finance (FEC: top fundraisers + recent filings)
 date: 2026-07-26
 record_count: 27
-new_today: 0
+new_today: 4
 state: fresh
 ---
 
 ## Campaign finance (FEC: top fundraisers + recent filings)
 
-0 new of 27 total items today.
+4 new of 27 total items today.
 
 - [[Top] OSSOFF, T. JONATHAN (DEM, Senate GA): $97.99M raised](https://www.fec.gov/data/candidate/S8GA00180/) — *2026-07-26*
   > cycle 2026 receipts $97.99M · disbursements $59.73M · net $+38.26M
@@ -47,17 +47,17 @@ state: fresh
   > cycle 1982 · filing # · receipts $0.02M
 - [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
   > cycle 1982 · filing #
-- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
   > cycle 2010 · filing #720559
-- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+- **NEW**  [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
   > cycle 2010 · filing #720559
 - [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
   > cycle 2014 · filing #948970 · receipts $0.02M
-- [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
+- **NEW**  [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
   > cycle 2014 · filing #987909
 - [[F3X] HUMPAC (AKA AMERICAN MEDICORP GOOD GOV'T CMTE)](https://www.fec.gov/data/filing//) — **
   > cycle 1982 · filing # · receipts $0.00M
-- [[F3] FRIENDS OF LEE FERRELL](https://docquery.fec.gov/pdf/016/13031062016/13031062016.pdf) — **
+- **NEW**  [[F3] FRIENDS OF LEE FERRELL](https://docquery.fec.gov/pdf/016/13031062016/13031062016.pdf) — **
   > cycle 2014 · filing #870438
 - [[F3] SUE LOWDEN FOR U S SENATE](https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf) — **
   > cycle 2010 · filing #732522
