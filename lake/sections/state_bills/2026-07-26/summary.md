@@ -2,15 +2,31 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-26
-record_count: 182
-new_today: 181
+record_count: 117
+new_today: 116
 state: fresh
 ---
 
 ## State Legislative Action
 
-181 new of 182 total items today.
+116 new of 117 total items today.
 
+- **NEW**  [[Alabama HB 42] Motor vehicles; reporting requirements for towed and unclaimed motor vehicles, further provided]() — *2026-07-24*
+  > Motor Vehicles & Traffic
+- **NEW**  [[Alabama HB 159] Retirement benefits, circuit clerks authorized to participate in supernumerary program and Employees' Retirement System based on separate years of service]() — *2026-07-24*
+  > Retirement
+- **NEW**  [[Alabama HB 7] Crimes and offenses, credible threat defined; penalties for crimes of making a terrorist threat in the first or second degree provided further for; principal to immediately contact law enforcement of terrorist threat, suspension of student, readmittance, and restitution provided]() — *2026-07-24*
+  > Crimes & Offenses
+- **NEW**  [[Alabama HB 8] Campus chaplains; public K-12 schools authorized to accept as volunteers, local boards of education and governing bodies authorized to vote on whether to allow, limitations provided]() — *2026-07-24*
+  > Education
+- **NEW**  [[Alabama HB 311] Retirement benefits; participation of qualifying sheriffs in supernumerary program and Employees' Retirement System based on separate years of service authorized]() — *2026-07-24*
+  > Retirement
+- **NEW**  [[Alabama HB 155] Homestead Exemptions; removing the annual verification requirement for qualifying permanently and totally disabled veterans]() — *2026-07-24*
+  > Military
+- **NEW**  [[Alabama HB 75] Public high schools; students excused from class for scholarship acceptance, college commitment, military enlistment]() — *2026-07-24*
+  > Education
+- **NEW**  [[Alabama HB 545] Legal tender; authorizing the rounding of in-person cash transactions to the nearest five cents]() — *2026-07-24*
+  > Consumer Protection
 - **NEW**  [[Alaska HB 324] An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; and relating to unfair trade or deceptive acts or practices.]() — *2026-07-25*
   > An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; and relating to unfair trade or deceptive acts or practices.
 - **NEW**  [[Alaska HB 316] An Act adjusting for inflation the limit for damages for losses that may be awarded for a personal injury or wrongful death.]() — *2026-07-25*
@@ -45,24 +61,5 @@ state: fresh
   > The existing nurse home visitor program (program) provides regular in-home visiting nurse services to low-income first-time mothers during their pregnancies and through their children's second birthday. The nurse home visitor program fund (fund) is subject to annual appropriation
 - **NEW**  [[Colorado HB 1427] Uniform Antitrust Pre-Merger Notification Update]() — *2026-07-24*
   > The act updates the 'Uniform Antitrust Pre-Merger Notification Act' (act) with amendments to the act adopted by the Uniform Law Commission by:Defining 'Uniform Antitrust Pre-Merger Notification Act' for purposes of the act;Requiring the filing of a Hart-Scott-Rodino form with the
-- **NEW**  [[Colorado HB 1374] Kinship Care Funding Provisions]() — *2026-07-24*
-  > The act eliminates financial assistance and supports and reimbursement to county departments of human or social services (county departments) for non-certified kinship care homes.     The act specifies that county departments are not required to provide financial assistance and s
-- **NEW**  [[Colorado SB 154] Modify Colorado Channel Authority Board Appointments]() — *2026-07-24*
-  > The act repeals the requirement that 4 members of the Colorado channel authority board be members of the general assembly.(Note: This summary applies to this bill as enacted.)
-- **NEW**  [[Colorado HB 1298] Background Checks for Child Welfare Placements]() — *2026-07-24*
-  > The act gives county departments of human or social services and the Colorado department of human services (department) the statutory authority needed to conduct the required fingerprint-based criminal history record checks for individuals who provide out-of-home care for child-w
-- **NEW**  [[Delaware HB 211] AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE INNOVATING DELAWARE ACT.]() — *2026-07-25*
-  > This Substitute for House Bill 211 creates the Innovate Delaware Program. This Program allows an Economic Development Organization to apply for a tax credit program through the Division of Small Business. 
-This Substitute also lowers the cap on appropriations to support the tax 
-- **NEW**  [[Delaware HB 481] AN ACT TO AMEND TITLE 26 OF THE DELAWARE CODE RELATING TO THE PUBLIC SERVICE COMMISSION.]() — *2026-07-25*
-  > This Act builds on the customer protections created in Senate Bill 60 in 2025, as follows:
-1. Increases transparency in rates and communications by public utilities.
-2. Requires regular management audits of certain public utilities and regulatory accounting reviews with each ra
-- **NEW**  [[Delaware HB 479] AN ACT TO AMEND TITLE 7 OF THE DELAWARE CODE RELATING TO COMMERCIAL OPERATIONS.]() — *2026-07-25*
-  > This Act safeguards public health by requiring the temporary cessation, or mitigation, of commercial activities that materially elevate nearby residential temperatures during periods of extreme heat. This Act shall be known as the “Community Heat Protection and Industrial Account
-- **NEW**  [[Delaware HB 401] AN ACT TO AMEND TITLE 4 OF THE DELAWARE CODE RELATING TO THE REGULATION OF HEMP PRODUCTS.]() — *2026-07-25*
-  > House Substitute No. 2 for House Bill No. 401 establishes "The Delaware Hemp Regulation Act" under Title 4 of the Delaware Code to create a comprehensive regulatory framework for the sale, distribution, and consumption of hemp-derived cannabinoid products (HDCPs) in the State. It
-- **NEW**  [[District of Columbia B 26-0658] Fiscal Year 2027 Federal Portion Budget Request Act of 2026]() — *2026-07-25*
-  > Fiscal Year 2027 Federal Portion Budget Request Act of 2026
 
-_(157 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

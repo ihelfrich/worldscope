@@ -2,15 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-07-26
-record_count: 454
-new_today: 441
+record_count: 472
+new_today: 459
 state: fresh
 ---
 
 ## State-Level News
 
-441 new of 454 total items today.
+459 new of 472 total items today.
 
+- **NEW**  [[Alabama] Alabama Health Literacy Month](https://governor.alabama.gov/newsroom/2026/07/alabama-health-literacy-month/) — *2026-07-24*
+  > Download
 - **NEW**  [[California] California’s economy isn’t just bigger than Texas and Florida — it’s growing faster, too](https://www.gov.ca.gov/2026/07/24/californias-economy-isnt-just-bigger-than-texas-and-florida-its-growing-faster-too/) — *2026-07-24*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Californias-economy-isnt-just-bigger-than-Texas-and-Florida-—-its-growing-faster-too-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <
@@ -24,8 +26,6 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071526_Reforestation_AHK_CM_75.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Three workers in hard hats push down on a 
 - **NEW**  [[California] Newsom appointed a close ally to this state board. Environmental groups say he has a conflict of interest](https://calmatters.org/environment/2026/07/board-environmental-safety-rhys-williams-resign-lobbying/) — *2026-07-24*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072326-CalEPA-BES-Meeting-MG-CM-23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large video screen displays a person
-- **NEW**  [[Alabama] Alabama Health Literacy Month](https://governor.alabama.gov/newsroom/2026/07/alabama-health-literacy-month/) — *2026-07-24*
-  > Download
 - [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-26*
   > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
 - **NEW**  [[Connecticut] How a CT filmmaker’s first feature won at Sundance](https://ctmirror.org/2026/07/26/ricky-film-rashad-frett-hartford/) — *2026-07-26*
@@ -50,15 +50,17 @@ state: fresh
   > <figure><img width="775" height="451" src="https://ctmirror.org/wp-content/uploads/2026/07/I-am-olmstead.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/I-am-ol
 - **NEW**  [[Connecticut] Congress has given states new housing tools. CT is ready to make them work](https://ctmirror.org/2026/07/24/congress-has-given-states-new-housing-tools-connecticut-is-ready-to-put-them-to-work-chelsea/) — *2026-07-24*
   > <figure><img width="600" height="336" src="https://ctmirror.org/wp-content/uploads/2026/06/Housing-image-copy.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/06/Ho
+- **NEW**  [[Delaware] Delaware’s $2 billion corporate franchise is good business for all Delawareans](https://spotlightdelaware.org/2026/07/26/civics-101-corporate-day1/) — *2026-07-26*
+  > <figure><img width="1024" height="476" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Wilmington_Delaware_skyline_corp-franchise-1-scaled.jpg?fit=1024%2C476&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="as
 - **NEW**  [[Delaware] Carney vetoes water shutoff bill, approves housing bills](https://spotlightdelaware.org/2026/07/24/carney-vetoes-water-shutoff-bill-approves-housing-bills/) — *2026-07-24*
-  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Mayor-John-Carney-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" s
+  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Mayor-John-Carney-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.
 - **NEW**  [[Delaware] Several New Castle County school districts likely to raise property taxes, again](https://spotlightdelaware.org/2026/07/24/several-new-castle-county-school-districts-likely-to-raise-property-taxes-again/) — *2026-07-24*
   > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2025/07/Appo-Matt-Burrows-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="ht
 - **NEW**  [[Delaware] ‘Beyond the Headlines’: How Delaware is responding to the data center boom](https://spotlightdelaware.org/2026/07/24/beyond-the-headlines-how-delaware-is-responding-to-the-data-center-boom/) — *2026-07-24*
   > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Olivia-Podcast-July-2026.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset=
+- [[feed error] DCist (District of Columbia): HTTPError](https://dcist.com/rss) — *2026-07-26*
+  > 404 Client Error: Not Found for url: https://dcist.com/rss
 - [[feed error] FL Governor (Florida): HTTPError](https://www.flgov.com/feed/) — *2026-07-26*
   > 404 Client Error: Not Found for url: https://www.flgov.com/feed/
-- **NEW**  [[Alabama] Environmental groups challenge federal decision to greenlight drilling in Conecuh National Forest](https://www.alreporter.com/2026/07/24/environmental-groups-challenge-federal-decision-to-greenlight-drilling-in-conecuh-national-forest/) — *2026-07-24*
-- **NEW**  [[Alabama] Alabama Republicans highlight military investments in FY27 defense bill](https://www.alreporter.com/2026/07/24/alabama-republicans-highlight-military-investments-in-fy27-defense-bill/) — *2026-07-24*
 
-_(429 additional items in raw.jsonl)_
+_(447 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-26
-record_count: 120
+record_count: 119
 new_today: 38
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-38 new of 120 total items today.
+38 new of 119 total items today.
 
 - **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $2,593,215,439 → THE BOEING COMPANY: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CO](https://www.usaspending.gov/award/80MSFC20C0052) — *2026-07-26*
   > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
 
-_(95 additional items in raw.jsonl)_
+_(94 additional items in raw.jsonl)_

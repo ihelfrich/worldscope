@@ -11,12 +11,24 @@ state: fresh
 
 57 new of 57 total items today.
 
+- **NEW**  [[BleepingComputer] GitHub, PyPI add time-based defenses against supply chain attacks](https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/) — *2026-07-26*
+  > GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]
 - **NEW**  [[The Register] Trump expands voluntary pledge to keep datacenter costs off household power bills](https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346) — *2026-07-26*
   > Pinkie promise gains 200-plus new participants and precisely zero enforcement
 - **NEW**  [[The Register] The last Space Shuttle returned to Earth 15 years ago](https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279) — *2026-07-26*
   > So, how are those commercial replacements working out for you, NASA?
-- **NEW**  [[TechCrunch] Monday.com is the latest tech company to blame AI for layoffs — here are 20 others](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/) — *2026-07-26*
-  > A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.
+- **NEW**  [[Ars Technica] First teaser for Apple TV's Neuromancer debuts at SDCC](https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/) — *2026-07-26*
+  > Plus Mike Flanagan's Carrie teaser, trailers for Dark Matter S2 and Matchbox the Movie, and Marvel news.
+- **NEW**  [[TechCrunch] Can Apple make smart glasses that aren’t a constant privacy threat?](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/) — *2026-07-26*
+  > As Apple prepares to launch its first smart glasses, the company may also be wrestling with how to address consumer privacy concerns.
+- **NEW**  [[TechCrunch] Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/) — *2026-07-26*
+  > On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.
+- **NEW**  [[TechCrunch] Inside one London founder house rewriting the founder-house rules](https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/) — *2026-07-26*
+  > How one founder house is betting work-life balance can beat burnout .
+- **NEW**  [[TechCrunch] Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/) — *2026-07-26*
+  > "The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!"
+- **NEW**  [[TechCrunch] TechCrunch Mobility: Uber bets on its former CEO](https://techcrunch.com/2026/07/26/techcrunch-mobility-uber-bets-on-its-former-ceo/) — *2026-07-26*
+  > Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.
 - **NEW**  [[BleepingComputer] Steam forum ClickFix attacks infect gamers with XMRig cryptominers](https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/) — *2026-07-25*
   > Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]
 - **NEW**  [[BleepingComputer] Malicious sites use JavaScript to build malware in browser memory](https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/) — *2026-07-25*
@@ -61,17 +73,5 @@ Rec
   > Museums are embracing data-driven curation and a shifting technology landscape.
 - **NEW**  [[Ars Technica] Big Tech accused of stonewalling European social media researchers](https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/) — *2026-07-25*
   > Researchers say TikTok, X, and Meta aren't providing data they're legally required to.
-- **NEW**  [[IEEE Spectrum] Poetry for Engineers: A Martian Rover Sends a Postcard Home](https://spectrum.ieee.org/poem-martian-rover) — *2026-07-25*
-  > Already, I’ve almost forgotten rain;I know I will never know that again.I move forward with the powers you gave meto live up to my name, Curiosity.This is a land without leaves, fronds, or spines.If there are plants, they are small and supine,dust hidden, like light here, filtere
-- **NEW**  [[TechCrunch] Warner Bros. lawsuit accuses Amazon of illegally poaching executives](https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/) — *2026-07-25*
-  > The lawsuit will likely renew debates about whether term employment agreements are enforceable under California. law
-- **NEW**  [[TechCrunch] The hacker who humiliated spyware makers and was never caught](https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/) — *2026-07-25*
-  > An awe-inspiring hacktivist who hacked two controversial government spyware makers may be the most prolific hacker to have never gotten caught. What do we know about Phineas Fisher?
-- **NEW**  [[TechCrunch] Elon Musk’s Boring Company reportedly raising funding at a $20 billion valuation](https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/) — *2026-07-25*
-  > Elon Musk's tunneling startup is reportedly in talks for a major new funding round.
-- **NEW**  [[TechCrunch] Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary](https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/) — *2026-07-25*
-  > Kalshi claims the trailer is “defamatory” and contains “both fabricated documents and false and misleading statements.”
-- **NEW**  [[BleepingComputer] OnTrac notifies customers of data breach after network hack](https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/) — *2026-07-24*
-  > OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]
 
 _(32 additional items in raw.jsonl)_
