@@ -11,12 +11,13 @@ state: fresh
 
 6 new of 6 total items today.
 
+- **NEW**  [[Marginal Revolution] The Rug Belt Atlas and Quiz](https://marginalrevolution.com/marginalrevolution/2026/07/oriental-rugs-atlas-and-quiz.html?utm_source=rss&utm_medium=rss&utm_campaign=oriental-rugs-atlas-and-quiz) — *2026-07-26*
+  > I have an amateur interest in Oriental rugs but my eye is untrained. Thus, for fun and learning I created with Fable an Rug Atlas and quiz. The Rug Belt Atlas Check it out. Constructive comments welcome.
+The post The Rug Belt Atlas and Quiz appeared first on <a href="https://marg
 - **NEW**  [[Marginal Revolution] The demand for human enhancement technologies](https://marginalrevolution.com/marginalrevolution/2026/07/the-demand-for-human-enhancement-technologies.html?utm_source=rss&utm_medium=rss&utm_campaign=the-demand-for-human-enhancement-technologies) — *2026-07-26*
   > When a new technology promises large private benefits but may impose social costs that markets do not price, demand need not reveal how citizens want it governed. We examine this using a nationally representative U.S. survey experiment (N=5,556) on human enhancement technologies 
 - **NEW**  [[Marginal Revolution] The common sense of Fareed Zakaria](https://marginalrevolution.com/marginalrevolution/2026/07/the-common-sense-of-fareed-zakaria.html?utm_source=rss&utm_medium=rss&utm_campaign=the-common-sense-of-fareed-zakaria) — *2026-07-26*
   > This is one of the best Op-Eds you will read this year, though it deliberately deemphasizes the personal (no one is attacked) in a manner that will result in less attention.  Better to write the truth!  Excerpt: Why has this [voter discontent} happened? Some of it is economic. Ex
-- **NEW**  [[Marginal Revolution] Odysseus notes](https://marginalrevolution.com/marginalrevolution/2026/07/odysseus-notes.html?utm_source=rss&utm_medium=rss&utm_campaign=odysseus-notes) — *2026-07-25*
-  > The subsection of the Georgi Gospodinov novel runs like this: The Shortest Novel About Odysseus After His Return Home One night, now old and flabby and starting to forget, he leaves his home secretly. He&#8217;s sick of everything, so he heads back one last time to see the places
 - **NEW**  [[Conversable Economist] Occupational Licensing: US and International](https://conversableeconomist.com/2026/07/24/occupational-licensing-us-and-international/) — *2026-07-24*
   > The potential benefit of having the government require that certain jobs require an official license is quality control and protection. Personally, I rather like knowing that my nurse or doctor or dentist has gone through courses and training. The potential cost is that requireme
 - **NEW**  [[Conversable Economist] The Job Market for Recent College Graduates](https://conversableeconomist.com/2026/07/23/the-job-market-for-recent-college-graduates/) — *2026-07-23*

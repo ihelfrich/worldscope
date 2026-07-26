@@ -2,207 +2,230 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-26
-record_count: 187
-new_today: 185
+record_count: 185
+new_today: 183
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-185 new of 187 total items today.
+183 new of 185 total items today.
 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 26 at 5:36AM EDT until July 26 at 8:00PM EDT by NWS Caribou ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2514ab7f71931b40a3bd0e207dd7d57eeb490e3e.001.1) — *2026-07-26*
-  > * WHAT...The warm air temperatures in the 70s to low 80s may
-cause people to underestimate the dangers of the cold water
-temperatures which are currently in the 50 to 55 degree range.
-
-* WHERE...Coastal Hancock and Coastal Washington Counties.
-
-* WHEN...From 8 AM EDT Sunday throu
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-732) — *2026-07-26*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-19518) — *2026-07-26*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 26 at 5:32AM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b5d9bfba057fe31c8136cdba853ebd9a11c5d05.001.1) — *2026-07-26*
-  > Areas of fog may reduce visibility to less than a mile early this
-morning. If driving, slow down, use your low beam headlights, and leave
-plenty of distance ahead of you.
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 26 at 4:30AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.002.2) — *2026-07-26*
-  > * WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 116. For the Extreme Heat Watch,
-dangerously hot conditions with heat index values up to 110
-possible.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.001.1) — *2026-07-26*
+  > * WHAT...Dangerously hot conditions with high temperatures in the
+upper 90s to 105 and low temperatures in the low 70s.
 
-* WHERE...In Iowa, Fremont, Harrison, Mills, Montgomery, Page,
-Pottawattamie, and
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:30AM CDT until July 27 at 7:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.003.1) — *2026-07-26*
-  > * WHAT...Dangerously hot conditions with heat index values up to 115
-expected.
+* WHERE...San Bernardino and Riverside County Valleys-The Inland
+Empire.
 
-* WHERE...Portions of west central Iowa and east central and
-northeast Nebraska.
+* WHEN...Until 8 PM PDT Monday.
 
-* WHEN...Until 7 AM CDT Monday.
+* IMPACTS...Heat related illnesses increase signific
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.002.1) — *2026-07-26*
+  > * WHAT...Dangerously hot conditions with high temperatures of 100 to
+110 and low temperatures in the low 70s to low 80s.
+
+* WHERE...Apple and Lucerne Valleys.
+
+* WHEN...Until 8 PM PDT Monday.
 
 * IMPACTS...Heat related illnesses increase significantly during
-extreme heat and hig
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:30AM CDT until July 26 at 9:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.001.1) — *2026-07-26*
-  > * WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 112. For the Heat Advisory, heat index
-values up to 108 expected.
+extreme heat events.
 
-* WHERE...Portions of east central and southeast Nebraska.
 
-* WHEN...For the Extreme Heat Warning, until 9 PM CDT this
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 4:30AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.001.2) — *2026-07-26*
-  > * WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 112. For the Heat Advisory, heat index
-values up to 108 expected.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.003.1) — *2026-07-26*
+  > * WHAT...Dangerously hot conditions with high temperatures 110 to
+115 and lows in the mid 80s to low 90s.
 
-* WHERE...Portions of east central and southeast Nebraska.
 
-* WHEN...For the Extreme Heat Warning, until 9 PM CDT this
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:30AM CDT until July 27 at 7:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.004.1) — *2026-07-26*
-  > * WHAT...Dangerously hot conditions with heat index values up to 115
+* WHERE...Coachella Valley, San Diego County Deserts, and San
+Gorgonio Pass near Banning.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Heat related illnesses increase sign
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.005.1) — *2026-07-26*
+  > * WHAT...High temperatures in the upper 80s to upper 90s and low
+temperatures in the upper 60s to low 70s.
+
+* WHERE...San Diego County Valleys.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.008.1) — *2026-07-26*
+  > * WHAT...Temperatures in the mid to upper 90s with low temperatures
+in the upper 60s to low 70s.
+
+* WHERE...San Diego County Mountains.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.009.1) — *2026-07-26*
+  > * WHAT...High temperatures in the low to mid 80s and low
+temperatures in the upper 60s to low 70s.
+
+* WHERE...Orange County Coastal Areas.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.007.1) — *2026-07-26*
+  > * WHAT...High temperatures in the low to mid 90s and low
+temperatures in the 70s.
+
+* WHERE...Santa Ana Mountains and Foothills.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.010.1) — *2026-07-26*
+  > * WHAT...High temperatures in the low to mid 90s and low
+temperatures in the upper 60s and lower 70s.
+
+* WHERE...Orange County Inland Areas.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.004.1) — *2026-07-26*
+  > * WHAT...High temperatures in the mid 80s for the mesas and low
+temperatures in the upper 60s and lower 70s.
+
+* WHERE...San Diego County Coastal Areas.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 5:23AM PDT until July 27 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bf3a8103fa3b071e1225d004f7fa628043eb611.006.1) — *2026-07-26*
+  > * WHAT...High temperatures in the mid 80s to upper 90s and lows in
+the mid 60s to mid 70s below 6500 ft.
+
+* WHERE...Riverside County Mountains and San Bernardino County
+Mountains.
+
+* WHEN...Until 8 PM PDT Monday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:10AM CDT until July 26 at 11:00AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.001.2) — *2026-07-26*
+  > * WHAT...For the Heat Advisory, heat index values up to 105
+expected. For the Extreme Heat Warning, dangerously hot conditions
+with heat index values up to 110 expected.
+
+* WHERE...In Minnesota, Norman, Clay, Grant, West Otter Tail, and
+Wilkin Counties. In North Dakota, Cass, Ric
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:10AM CDT until July 26 at 9:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.002.2) — *2026-07-26*
+  > * WHAT...For the Dense Fog Advisory, visibility as low as 1/4 mile
+in dense fog. For the Heat Advisory, heat index values up to 100
 expected.
 
-* WHERE...Antelope, Cedar, Knox, and Pierce Counties.
+* WHERE...Wadena, Hubbard, and South Beltrami Counties.
 
-* WHEN...Until 7 AM CDT Monday.
+* WHEN...For the Dense Fog Advisory, until 10 AM CDT this morning.
+For the Heat 
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 7:10AM CDT until July 26 at 10:00AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.002.1) — *2026-07-26*
+  > * WHAT...For the Dense Fog Advisory, visibility as low as 1/4 mile
+in dense fog. For the Heat Advisory, heat index values up to 100
+expected.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat and high humidity events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:30AM CDT until July 26 at 9:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8dea3f479e9226a6c5c212ddd0456dd79486b46.002.1) — *2026-07-26*
-  > * WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 116. For the Extreme Heat Watch,
-dangerously hot conditions with heat index values up to 110
-possible.
+* WHERE...Wadena, Hubbard, and South Beltrami Counties.
 
-* WHERE...In Iowa, Fremont, Harrison, Mills, Montgomery, Page,
-Pottawattamie, and
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 26 at 4:30AM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.268211f02ed3251878203d6761a3b3be76d0c868.001.1) — *2026-07-26*
-  > Areas of fog have developed across portions of South Texas
-this morning. Expect visibilities generally 1 mile or less
-with a few locations seeing visibilities 1/4 mile or less
-at times.
+* WHEN...For the Dense Fog Advisory, until 10 AM CDT this morning.
+For the Heat 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 7:10AM CDT until July 26 at 9:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.001.1) — *2026-07-26*
+  > * WHAT...For the Heat Advisory, heat index values up to 105
+expected. For the Extreme Heat Warning, dangerously hot conditions
+with heat index values up to 110 expected.
 
-Use caution if traveling as visibility may change rapidly
-in a short amount of time. Use low 
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.001.1) — *2026-07-26*
-  > * WHAT...For the Dense Fog Advisory, visibility one quarter to one
-half mile in dense fog. For the Extreme Heat Warning, dangerously
-hot conditions with heat index values up to 99 expected.
+* WHERE...In Minnesota, Norman, Clay, Grant, West Otter Tail, and
+Wilkin Counties. In North Dakota, Cass, Ric
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:10AM CDT until July 26 at 9:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.003.1) — *2026-07-26*
+  > * WHAT...Heat index values up to 105 expected.
 
-* WHERE...Ashland County. This includes the Tribal Lands of the Bad
-River Reservation. Ot
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.005.2) — *2026-07-26*
+* WHERE...In Minnesota, West Polk County. In North Dakota, Eddy,
+Grand Forks, Nelson, Barnes, Griggs, Ransom, Sargent, and Steele
+Counties.
+
+* WHEN...Until 9 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may c
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:10AM CDT until July 26 at 9:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18b771b5afdb2ee2542fc81356aa9ca3747b6b0f.004.1) — *2026-07-26*
+  > * WHAT...Heat index values up to 105 expected.
+
+* WHERE...Portions of north central, northwest, and west central
+Minnesota and northeast North Dakota.
+
+* WHEN...From 11 AM this morning to 9 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnes
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 26 at 5:07AM PDT until July 29 at 6:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2b52b4fa134c47a199be9892a493a2144e9d3c0.001.1) — *2026-07-26*
+  > * WHAT...Long-period southerly swell will bring an increased risk
+of sneaker waves and strong rip currents. Breaking waves will
+reach up to 10 feet along some south and southwest facing
+beaches and break points.
+
+* WHERE...Beaches along the Pacific Coast
+
+* WHEN...Through Wednesd
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 7:02AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.001.1) — *2026-07-26*
   > * WHAT...For the Dense Fog Advisory, visibility one quarter mile or
-less in dense fog. For the Heat Advisory, heat index values up to
-96 degrees expected.
+less in dense fog. For the Extreme Heat Warning, dangerously hot
+conditions with heat index values up to 102 degrees expected.
 
-* WHERE...Price County.
-
-* WHEN...For the Dense Fog Advisory, until 9 AM CDT this morning.
-For the Heat Advisory, from 11 AM
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.004.1) — *2026-07-26*
-  > * WHAT...For the Dense Fog Advisory, visibility one quarter to one
-half mile in dense fog. For the Heat Advisory, heat index values
-up to 95 degrees expected.
-
-* WHERE...Iron County. This includes the Tribal Lands of the
-northwestern area of the Lac du Flambeau Band.
-
-* WHEN...Fo
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.006.1) — *2026-07-26*
-  > * WHAT...Heat index values up to 96 degrees expected.
-
-* WHERE...Koochiching, Central and North St. Louis, Cook and Lake
-Counties. This includes the Tribal Lands of the Grand Portage
-Reservation and the Bois Forte Band, Lake Vermilion and, Nett Lake
-areas. Other locations includi
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.004.2) — *2026-07-26*
-  > * WHAT...For the Dense Fog Advisory, visibility one quarter to one
-half mile in dense fog. For the Heat Advisory, heat index values
-up to 95 degrees expected.
-
-* WHERE...Iron County. This includes the Tribal Lands of the
-northwestern area of the Lac du Flambeau Band.
-
-* WHEN...Fo
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.005.1) — *2026-07-26*
+* WHERE...In Minnesota, Crow Wing, Aitkin, Pine, Cass, South Itasca,
+and Carlton and
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 7:02AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.001.2) — *2026-07-26*
   > * WHAT...For the Dense Fog Advisory, visibility one quarter mile or
-less in dense fog. For the Heat Advisory, heat index values up to
-96 degrees expected.
+less in dense fog. For the Extreme Heat Warning, dangerously hot
+conditions with heat index values up to 102 degrees expected.
 
-* WHERE...Price County.
+* WHERE...In Minnesota, Crow Wing, Aitkin, Pine, Cass, South Itasca,
+and Carlton and
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 7:02AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.002.1) — *2026-07-26*
+  > * WHAT...For the Dense Fog Advisory, visibility one quarter mile or
+less in dense fog. For the Extreme Heat Warning, dangerously hot
+conditions with heat index values up to 99 degrees expected.
 
-* WHEN...For the Dense Fog Advisory, until 9 AM CDT this morning.
-For the Heat Advisory, from 11 AM
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.003.1) — *2026-07-26*
-  > * WHAT...Dangerously hot conditions with heat index values up to 102
+* WHERE...Ashland and Sawyer Counties. This includes the Tribal
+Lands of the Bad Rive
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 7:02AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.003.1) — *2026-07-26*
+  > * WHAT...Dangerously hot conditions with heat index values up to 98
 degrees expected.
 
-* WHERE...In Minnesota, Crow Wing, Aitkin, Pine, Cass, Itasca, and
-Carlton and South St. Louis Counties. In Wisconsin, Bayfield,
-Burnett, Douglas, and Washburn Counties. This includes the Trib
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.002.1) — *2026-07-26*
+* WHERE...North Itasca County. This includes the Tribal Lands of the
+Bois Forte Band, Deer Creek area.
+
+* WHEN...From 11 AM this morning to 9 PM CDT this evening.
+
+* IMPACTS...Heat related illn
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:02AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.006.1) — *2026-07-26*
+  > * WHAT...Heat index values up to 95 degrees expected.
+
+* WHERE...Koochiching, North St. Louis, Cook and Lake Counties. This
+includes the Tribal Lands of the Bois Forte Band, Nett Lake area
+and the Grand Portage Reservation. Other locations including
+Voyageurs National Park. The e
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 7:02AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.004.2) — *2026-07-26*
   > * WHAT...For the Dense Fog Advisory, visibility one quarter mile or
-less in dense fog. For the Extreme Heat Warning, dangerously hot
-conditions with heat index values up to 100 degrees expected.
+less in dense fog. For the Heat Advisory, heat index values up to
+95 degrees expected.
 
-* WHERE...Sawyer County. This includes the Tribal Lands of the Lac
-Courte Oreilles R
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 26 at 4:27AM CDT until July 26 at 9:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.001.2) — *2026-07-26*
-  > * WHAT...For the Dense Fog Advisory, visibility one quarter to one
-half mile in dense fog. For the Extreme Heat Warning, dangerously
-hot conditions with heat index values up to 99 expected.
+* WHERE...Central St. Louis County. This includes the Tribal Lands
+of the Bois Forte Band, Lake Vermilion area.
 
-* WHERE...Ashland County. This includes the Tribal Lands of the Bad
-River Reservation. Ot
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 4:27AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eeb2ae948ac4f1d9f43b2d80081fb0ae783a580.002.2) — *2026-07-26*
+* WHEN...Fo
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 7:02AM CDT until July 26 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1f2a5610db2664ad07445f9a37e85c5f580c417.005.1) — *2026-07-26*
   > * WHAT...For the Dense Fog Advisory, visibility one quarter mile or
-less in dense fog. For the Extreme Heat Warning, dangerously hot
-conditions with heat index values up to 100 degrees expected.
+less in dense fog. For the Heat Advisory, heat index values up to
+96 degrees expected.
 
-* WHERE...Sawyer County. This includes the Tribal Lands of the Lac
-Courte Oreilles R
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 26 at 5:27AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d65d8942475207478dbb5e5922fcb5a3a41311cf.001.1) — *2026-07-26*
-  > If traveling this morning, be prepared for fog that could
-suddenly reduce visibilities to 1/4 mile or less. Expect the fog
-to dissipate by 9AM EDT. Slow down and allow extra time to reach
-your destination.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 26 at 4:26AM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2293e3bf163ec17ea624a2279c1efc2603a48d9.001.1) — *2026-07-26*
-  > Locally dense fog has formed across portions of central and southeast
-Illinois in the last couple of hours. Visibility may fall below one-
-quarter mile at times through the early morning, leading to
-potentially hazardous travel conditions.
+* WHERE...Price and Iron Counties. This includes the Tribal Lands of
+the northwestern area of the Lac du Flambeau Band.
 
-Expect rapid changes in visibility over
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 26 at 4:23AM CDT until July 26 at 8:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c04053af5fd54987b6c92fd08a54bea8f924d286.001.1) — *2026-07-26*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+* W
 
-* WHERE...Langlade, Lincoln, Oneida, Vilas, and Forest Counties.
-
-* WHEN...Until 8 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 4:23AM CDT until July 26 at 9:00PM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c04053af5fd54987b6c92fd08a54bea8f924d286.002.1) — *2026-07-26*
-  > * WHAT...Heat index values up to 100 expected.
-
-* WHERE...Portage, Waushara, Wood, and Waupaca Counties.
-
-* WHEN...From noon today to 9 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity will increase the risk
-for heat related illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 26 at 3:21AM MDT until July 26 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.757b266371f9225a62eedf07ec96b3097b6f134f.001.1) — *2026-07-26*
-  > * WHAT...Very hot conditions with high temperatures from 95 to 102
-degrees.
-
-* WHERE...Lower elevations of central and north-central Wyoming, east
-of the Continental Divide.
-
-* WHEN...Until 9 PM MDT this evening.
-
-* IMPACTS...Heat related illnesses increase significantly during
-e
-
-_(162 additional items in raw.jsonl)_
+_(160 additional items in raw.jsonl)_

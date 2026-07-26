@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-07-26
-record_count: 25
-new_today: 25
+record_count: 50
+new_today: 50
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+50 new of 50 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · keywords] How America Sanctions are Building a Post - Dollar World](https://www.juancole.com/2026/07/americas-sanctions-building.html) — *2026-07-26*
-  > juancole.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britain and its NATO allies face direct challenge from Putin  within month to test Burnham and probe for cracks in the alliance while Trump distracted with Iran , intelligence insiders warn](https://www.dailymail.com/news/article-16005447/Britain-NATO-allies-direct-challenge-Putin-Burnham-Trump.html) — *2026-07-26*
-  > dailymail.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Caucasian Knot | The private house was damaged during a UAV attack in Kuban . ](https://www.eng.kavkaz-uzel.eu/articles/77208) — *2026-07-25*
-  > eng.kavkaz-uzel.eu · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU targets Georgian refinery with delayed ban over processing of Russian crude](https://weeklyblitz.net/2026/07/26/eu-targets-georgian-refinery-with-delayed-ban-over-processing-of-russian-crude/) — *2026-07-25*
-  > weeklyblitz.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Putin next move ? Five Russian attack scenarios NATO must prepare for](https://www.ynetnews.com/article/hk8gypfsmx) — *2026-07-25*
-  > ynetnews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.japanherald.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > japanherald.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.azerbaijannews.net/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > azerbaijannews.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.beijingbulletin.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > beijingbulletin.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.russiaherald.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > russiaherald.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.newyorkstatesman.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > newyorkstatesman.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.israelherald.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > israelherald.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.nepalnational.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > nepalnational.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.sierraleonetimes.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > sierraleonetimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.laosnews.net/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > laosnews.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.trinidadtimes.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > trinidadtimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.brazilsun.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > brazilsun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.taiwansun.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > taiwansun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.newyorktelegraph.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > newyorktelegraph.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Opinion : Russia Return to Olympics Exposes IOC Moral Collapse](https://www.kyivpost.com/opinion/80801) — *2026-07-25*
-  > kyivpost.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.texasguardian.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > texasguardian.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] EU Allows Member States to Sell Confiscated Russian Oil in 21st Sanctions Package](https://www.kyivpost.com/post/81063) — *2026-07-25*
-  > kyivpost.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.haitisun.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > haitisun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.floridastatesman.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > floridastatesman.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry](http://www.neworleanssun.com/news/279209245/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > neworleanssun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil back at $100 : Time to worry ? ](http://www.arabherald.com/news/279209258/oil-back-at-100-time-to-worry) — *2026-07-25*
-  > arabherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US pauses attacks on Iran for a second day as peace talks continue](https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz) — *2026-07-26*
+  > theguardian.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.wemu.org/npr-national-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > wemu.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.kunm.org/npr-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > kunm.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israeli settlers set fire to West Bank mosques after deadly clash](https://www.al-monitor.com/originals/2026/07/israeli-settlers-set-fire-west-bank-mosques-after-deadly-clash) — *2026-07-26*
+  > al-monitor.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Michigan , Missouri primaries show Democratic divide over Israel](https://www.cnn.com/2026/07/26/politics/michigan-missouri-primaries-democrats-israel) — *2026-07-26*
+  > cnn.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US pauses attacks on Iran for a second day as peace talks continue](https://www.aol.co.uk/articles/us-pauses-attacks-iran-second-111624000.html) — *2026-07-26*
+  > aol.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran says halts Middle East attacks as US holds fire](https://www.al-monitor.com/originals/2026/07/iran-says-halts-middle-east-attacks-us-holds-fire) — *2026-07-26*
+  > al-monitor.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Cori Bush and Wesley Bell rematch sets up key test for Democrats in Missouri](https://www.clickorlando.com/news/politics/2026/07/26/cori-bush-and-wesley-bells-rematch-sets-up-key-test-for-democrats-in-missouri/) — *2026-07-26*
+  > clickorlando.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.wkms.org/npr-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > wkms.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Cabinet approves ban on import of goods made with forced labor](https://www.israelnationalnews.com/flashes/690561) — *2026-07-26*
+  > israelnationalnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.ksut.org/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > ksut.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.krcu.org/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > krcu.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://kansaspublicradio.org/npr-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > kansaspublicradio.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.kunr.org/world-headlines/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > kunr.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.publicradiotulsa.org/npr-national-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > publicradiotulsa.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.wkyufm.org/news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > wkyufm.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US holds fire against Iran as reports emerge of stockpile concerns](https://www.timesofearth.com/2026/07/26/us-holds-fire-against-iran-as-reports-emerge-of-stockpile-concerns/) — *2026-07-26*
+  > timesofearth.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel pitches Canada high - tech trade and safer AI as diplomatic tensions persist](https://toronto.citynews.ca/2026/07/26/israel-pitches-canada-high-tech-trade-and-safer-ai-as-diplomatic-tensions-persist/) — *2026-07-26*
+  > toronto.citynews.ca · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Saudi Arabia hit by attacks from Houthis | The Arkansas Democrat - Gazette](https://www.arkansasonline.com/news/2026/jul/26/saudi-arabia-hit-by-attacks-from-houthis/) — *2026-07-26*
+  > arkansasonline.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://news.wjct.org/national-news/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > news.wjct.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] UN expert Albanese says Khan removal  lines up neatly with fight to neutralise Netanyahu warrant  ](https://www.middleeasteye.net/news/un-expert-albanese-says-khans-removal-lines-neatly-fight-neutralise-netanyahu-warrant) — *2026-07-26*
+  > middleeasteye.net · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.wsiu.org/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > wsiu.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Lebanese displaced by war turn to satellites to check their homes](https://www.wknofm.org/news-from-npr/2026-07-26/lebanese-displaced-by-war-turn-to-satellites-to-check-their-homes) — *2026-07-26*
+  > wknofm.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US says  it is time to dismantle  ICC after Venezuela announces withdrawal](https://www.middleeasteye.net/news/washington-applauds-venezuela-exit-corrupt-and-worthless-icc) — *2026-07-26*
+  > middleeasteye.net · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US puts Iran strikes  on a hold  for talks on peace , Strait of Hormuz](https://www.foxnews.com/live-news/us-iran-peace-strait-hormuz-talks-strikes-hold-july-26) — *2026-07-26*
+  > foxnews.com · English · tone NA
+
+_(25 additional items in raw.jsonl)_

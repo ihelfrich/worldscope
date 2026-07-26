@@ -11,6 +11,8 @@ state: fresh
 
 57 new of 57 total items today.
 
+- **NEW**  [[The Register] Trump expands voluntary pledge to keep datacenter costs off household power bills](https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346) — *2026-07-26*
+  > Pinkie promise gains 200-plus new participants and precisely zero enforcement
 - **NEW**  [[The Register] The last Space Shuttle returned to Earth 15 years ago](https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279) — *2026-07-26*
   > So, how are those commercial replacements working out for you, NASA?
 - **NEW**  [[TechCrunch] Monday.com is the latest tech company to blame AI for layoffs — here are 20 others](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/) — *2026-07-26*
@@ -71,7 +73,5 @@ Rec
   > Kalshi claims the trailer is “defamatory” and contains “both fabricated documents and false and misleading statements.”
 - **NEW**  [[BleepingComputer] OnTrac notifies customers of data breach after network hack](https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/) — *2026-07-24*
   > OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]
-- **NEW**  [[The Record] Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry](https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk) — *2026-07-24*
-  > The new British prime minister is retaining Liz Lloyd in a cyber policy role, making her one of the few Keir Starmer allies remaining in government.
 
 _(32 additional items in raw.jsonl)_

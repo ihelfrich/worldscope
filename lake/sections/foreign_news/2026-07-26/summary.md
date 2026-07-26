@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-26
-record_count: 951
-new_today: 806
+record_count: 980
+new_today: 835
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-806 new of 951 total items today.
+835 new of 980 total items today.
 
-- **NEW**  [[Global] Cover Story newsletter: Should you be afraid of Elon Musk?](https://www.economist.com/the-world-this-week/2026/07/24/cover-story-newsletter-should-you-be-afraid-of-elon-musk) — *2026-07-24*
-  > An exclusive look at how we designed our cover
-- **NEW**  [[Global] Rental searches for pet friendly properties drop after law change](https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > Agents say some renters wrongly believe permission to have a pet is guaranteed.
-- **NEW**  [[Global] Primark's new 'supermarket tactic' to woo customers in online price war](https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.
-- **NEW**  [[Global] ADHD has rewired the workplace. This is what it means for bosses and workers](https://www.bbc.co.uk/news/articles/c70gq125xweo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > As ADHD diagnoses have risen, have workplaces caught up with the needs of the workforce?
-- **NEW**  [[Global] Warning shot or publicity stunt - how worried should we be about the OpenAI hack?](https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss) — *2026-07-25*
-  > Hugging Face said the hack was done at superhuman speed by an AI with little or no human guidance.
-- **NEW**  [[Global] Trump vows to investigate EU over fining of US tech companies](https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The US president says fines against Google, as well as Apple, Meta and Amazon, should be "entirely reversed."
-- **NEW**  [[Global] Paramount and Warner Bros pause $110bn merger amid legal challenge](https://www.bbc.co.uk/news/articles/c8en74yz5e7o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Until a judge reaches a final verdict – or until 1 June 2027 – the Hollywood studios will remain completely separate, competing operations.
-- **NEW**  [[Global] Faisal Islam: The UK's Trump trade deal no longer looks world-beating](https://www.bbc.co.uk/news/articles/c9v4ymwddwgo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > While the US tariffs imposed on the UK are effectively unchanged, other countries now have a better deal.
-- **NEW**  [[Global] Long overdue, life-changing or frivolous? Your thoughts on wedding rule changes](https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The government wants to relax wedding laws so couples can get married almost anywhere.
-- **NEW**  [[Global] UK mortgage rates rise to highest level for a month](https://www.bbc.co.uk/news/articles/c70gknr7z1eo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.
-- **NEW**  [[Global] Watch: Another day, more Trump tariffs - but are they working?](https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The BBC's Samira Hussain explains how President Trump's tariffs affect US economy, who pays the price, and whether they're working.
-- **NEW**  [[Global] US hits dozens of countries with new wave of tariffs](https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.
-- **NEW**  [[Global] We split money equally even when one of us earned a lot more](https://www.bbc.co.uk/news/articles/cz05rdn1n80o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Hannah and Max continued to pool finances after Max was made redundant but took "drastic measures" to cut spending.
-- [[Global] Why are UK fuel prices rising again?](https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > UK petrol and diesel prices are going up again as the price of oil returns to around $100 a barrel.
-- **NEW**  [[Global] Scotch whisky levy lifted as Trump imposes new wave of US tariffs](https://www.bbc.co.uk/news/articles/c7vgz680977o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The Scottish government welcomed the lifting of the 10% levy, which the US President agreed after the state visit of King Charles.
-- **NEW**  [[Global] Tech titan ordered to pay ex-wife $644m in divorce settlement](https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.
-- **NEW**  [[Global] Rental searches for pet friendly properties drop after law change](https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > Agents say some renters wrongly believe permission to have a pet is guaranteed.
-- **NEW**  [[Global] What does the South make of the King of the North?](https://www.bbc.co.uk/news/articles/czekpx8yzj0o?at_medium=RSS&at_campaign=rss) — *2026-07-25*
-  > BBC South has been hearing from people about new PM Andy Burnham's first week in the top job.
-- **NEW**  [[Global] 'We feel the pressure juggling holiday logistics'](https://www.bbc.co.uk/news/articles/c7vg3gnzn6mo?at_medium=RSS&at_campaign=rss) — *2026-07-25*
-  > Parents say childcare costs, unpaid leave and SEND support gaps make summer holidays harder
-- **NEW**  [[Global] Students tell us how to keep graduation outfit costs down](https://www.bbc.co.uk/news/articles/cn8n9lzj136o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Four newly graduated students tell us how they kept the cost of their dresses and suits down.
-- **NEW**  [[Global] We split money equally even when one of us earned a lot more](https://www.bbc.co.uk/news/articles/cz05rdn1n80o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > Hannah and Max continued to pool finances after Max was made redundant but took "drastic measures" to cut spending.
-- **NEW**  [[Global] Money Box](https://www.bbc.co.uk/sounds/play/m002zg12?at_medium=RSS&at_campaign=rss) — *2026-07-25*
-  > What might the new team at the top of government mean for your money?
-- **NEW**  [[Global] How much money do you give for a wedding gift?](https://www.bbc.co.uk/news/videos/c0jlnw825w8o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
-  > You've been invited by the happy couple, but they've asked for cash - not presents. North Londoners tell us what they would do.
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-26*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-26*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-26*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] What we know so far about the Berlin Pride ramming attack](https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss) — *2026-07-26*
   > A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.
-- **NEW**  [[Global] France battles fire 'whirlwinds' as another 55,000 evacuated](https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > More than 340,000 people have now been evacuated from wildfires in France and Spain.
+- **NEW**  [[Global] Firefighters battle wildfire as tens of thousands evacuated near Bordeaux](https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
+  > More than 330,000 people have now been evacuated from wildfires across France and Spain.
+- **NEW**  [[Global] Trump takes swipes at press during White House Correspondents' Dinner](https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > The event celebrated press freedom after the first dinner was cancelled by a shooting in April.
+- **NEW**  [[Global] Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say](https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
+  > The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.
+- **NEW**  [[Global] India's 'cockroach' protest called off after education minister quits](https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.
+- **NEW**  [[Global] Ten killed in Russian attack on drone exhibition near Kyiv](https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.
+- **NEW**  [[Global] Zelensky tries to fix crisis over removal of defence minister and counts the cost](https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Protests have continued over Zelensky's decision to dismiss Mykhailo Fedorov, and some commentators believe he has been damaged politically.
+- **NEW**  [[Global] Iran-backed Houthis claim missile attack on Saudi Arabia](https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.
+- **NEW**  [[Global] Four Palestinians and two Israelis killed in West Bank shooting](https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers.
+- **NEW**  [[Global] ICC top prosecutor removed over sexual misconduct allegations](https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Karim Khan denies allegations of engaging in an improper sexual relationship with a junior ICC staff member and seeking to stop her pursuing her complaint.
+- **NEW**  [[Global] Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion](https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.
+- **NEW**  [[Global] Trump vows to investigate EU over fining of US tech companies](https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > The US president says fines against Google, as well as Apple, Meta and Amazon, should be "entirely reversed."
+- **NEW**  [[Global] Trump orders Smithsonian to post warnings about 'inaccurate' US history](https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > The Trump administration has often accused the world's largest research museum of harbouring an anti-American bias.
+- **NEW**  [[Global] US hits dozens of countries with new wave of tariffs](https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.
+- **NEW**  [[Global] Nigeria's president approves largest military expansion in recent times](https://www.bbc.co.uk/news/articles/cwymjx3nrxvo?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > The government is under intense pressure to tackle a slew of armed groups, many of whom attack civilians.
+- **NEW**  [[Global] World chess chief faces endgame after EU announces Russia war sanctions](https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss) — *2026-07-24*
+  > Arkady Dvorkovich, a former Russian deputy prime minister, now faces an EU travel ban and asset freeze.
+- **NEW**  [[Global] Left-wing Democrats are on a winning run - but can they lure back crucial swing voters?](https://www.bbc.co.uk/news/articles/c5y3rrd32jlo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
+  > They have seen a flurry of recent wins, but Michigan will test their ability to win back working-class voters in crucial states.
+- **NEW**  [[Global] The notorious Cameroonian prison with its own record label](https://www.bbc.co.uk/news/articles/czxqlkrlj7no?at_medium=RSS&at_campaign=rss) — *2026-07-26*
+  > New Bell's inmates have become mini stars, recording songs and music videos from the confines of the jail.
+- **NEW**  [[Global] Would you pay $58.5m to live in this iconic New York building?](https://www.bbc.co.uk/news/articles/c20e5r1pvvdo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
+  > With its renovation nearly complete, the Flatiron is ready for its next - and most extravagant - phase of life.
+- **NEW**  [[Global] What Love Island tells us about the changing face of dating](https://www.bbc.co.uk/news/articles/c935q2k6pxqo?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > From women making the first move to shifting relationship dynamics, Love Island has become a window into Britain's evolving dating culture
+- **NEW**  [[Global] Pizza, pasta, potatoes, protein - how Italian children became so overweight](https://www.bbc.co.uk/news/articles/c33y3151vydo?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > The Mediterranean diet was a blueprint for healthy living, yet Italian children are among the most overweight in Europe according to WHO.
+- **NEW**  [[Global] Smash hit: How Alex Eala's Wimbledon run made everyday Filipinos fall in love with tennis](https://www.bbc.co.uk/news/articles/c3v0lyrndn7o?at_medium=RSS&at_campaign=rss) — *2026-07-25*
+  > Formerly the preserve of the rich, tennis is booming in the basketball- and boxing-obsessed country.
 
-_(926 additional items in raw.jsonl)_
+_(955 additional items in raw.jsonl)_
