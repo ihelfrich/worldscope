@@ -1,0 +1,57 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-07-23
+record_count: 41
+new_today: 41
+state: fresh
+---
+
+## U.S. Federal Action
+
+41 new of 41 total items today.
+
+- **NEW**  [Continuation of the National Emergency With Respect to Mali](https://www.federalregister.gov/documents/2026/07/23/2026-15024/continuation-of-the-national-emergency-with-respect-to-mali) — *2026-07-23*
+- **NEW**  [Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials](https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials) — *2026-07-23*
+- **NEW**  [Made in America Week, 2026](https://www.federalregister.gov/documents/2026/07/23/2026-14999/made-in-america-week-2026) — *2026-07-23*
+- **NEW**  [Captive Nations Week, 2026](https://www.federalregister.gov/documents/2026/07/23/2026-14998/captive-nations-week-2026) — *2026-07-23*
+- **NEW**  [Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Motor Vehicles](https://www.federalregister.gov/documents/2026/07/23/2026-14997/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united) — *2026-07-23*
+- **NEW**  [Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Dairy](https://www.federalregister.gov/documents/2026/07/23/2026-14992/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united) — *2026-07-23*
+- **NEW**  [Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Alcoholic Beverages](https://www.federalregister.gov/documents/2026/07/23/2026-14991/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united) — *2026-07-23*
+- **NEW**  [Further Strengthening Actions Taken To Adjust Imports of Aluminum Into the United States](https://www.federalregister.gov/documents/2026/07/23/2026-14990/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states) — *2026-07-23*
+- **NEW**  [Implementation of the Administrative False Claims Act](https://www.federalregister.gov/documents/2026/07/23/2026-14959/implementation-of-the-administrative-false-claims-act) — *2026-07-23*
+  > This proposed rule would establish procedural regulations for the Administrative False Claims Act (AFCA) at the Export-Import Bank of the United States (EXIM).
+- **NEW**  [International Traffic in Arms Regulations: USML Category I Firearm Suppressors](https://www.federalregister.gov/documents/2026/07/23/2026-14943/international-traffic-in-arms-regulations-usml-category-i-firearm-suppressors) — *2026-07-23*
+  > In support of the President's Executive Order of April 9, 2025, on Reforming Foreign Defense Sales to Improve Speed and Accountability, the Department of State (the Department) issues this interim final rule removing firearm silencers, mufflers, and sound suppressors for non-auto
+- **NEW**  [Implementation of EAR Export Controls on Silencers, Mufflers, and Sound Suppressors; and Other Firearms Related Changes](https://www.federalregister.gov/documents/2026/07/23/2026-14942/implementation-of-ear-export-controls-on-silencers-mufflers-and-sound-suppressors-and-other-firearms) — *2026-07-23*
+  > The Department of Commerce (Commerce), Bureau of Industry and Security (BIS) is revising the Export Administration Regulations (EAR) and the Commerce Control List (CCL) to appropriately control certain silencers, mufflers, and sound suppressors (sound suppressors) that will no lo
+- **NEW**  [Removal of Reporting Requirements](https://www.federalregister.gov/documents/2026/07/23/2026-14937/removal-of-reporting-requirements) — *2026-07-23*
+  > The Equal Employment Opportunity Commission ("EEOC" or "Commission") is issuing a proposed rule to rescind and remove the requirements for the filing of the EEO-1, EEO-2, EEO-3, EEO-4, EEO-5, and EEO-6 reports, and the recordkeeping and record preservation requirements related to
+- **NEW**  [Removal of Obsolete or Unnecessary Requirements](https://www.federalregister.gov/documents/2026/07/23/2026-14934/removal-of-obsolete-or-unnecessary-requirements) — *2026-07-23*
+  > The U.S. Consumer Product Safety Commission (Commission or CPSC) is reviewing its regulations to reduce regulatory burdens and costs. Pursuant to this review, CPSC has identified several obsolete or unnecessary provisions that are being removed or amended in this direct final rul
+- **NEW**  [Spearmint Oil Produced in the Far West; Salable Quantities and Allotment Percentages for the 2026-2027 Marketing Year](https://www.federalregister.gov/documents/2026/07/23/2026-14927/spearmint-oil-produced-in-the-far-west-salable-quantities-and-allotment-percentages-for-the) — *2026-07-23*
+  > This proposed rule would implement a recommendation from the Far West Spearmint Oil Administrative Committee (Committee) to establish salable quantities and allotment percentages for Class 1 (Scotch) and Class 3 (Native) spearmint oil produced in Washington, Idaho, and Oregon and
+- **NEW**  [Approval and Promulgation of State Implementation Plans; New Jersey; RACT Certifications for the 2008 and 2015 Ozone National Ambient Air Quality Standards](https://www.federalregister.gov/documents/2026/07/23/2026-14923/approval-and-promulgation-of-state-implementation-plans-new-jersey-ract-certifications-for-the-2008) — *2026-07-23*
+  > The Environmental Protection Agency (EPA) is proposing to approve a State Implementation Plan (SIP) revision submitted by the State of New Jersey for purposes of certifying and meeting the requirements for Reasonably Available Control Technology (RACT) for the Serious classificat
+- **NEW**  [Grapes Grown in a Designated Area of Southeastern California; Decreased Assessment Rate](https://www.federalregister.gov/documents/2026/07/23/2026-14918/grapes-grown-in-a-designated-area-of-southeastern-california-decreased-assessment-rate) — *2026-07-23*
+  > This proposed rule would implement a recommendation from the California Desert Grape Administrative Committee (Committee) to decrease the assessment rate established for the 2026 and subsequent fiscal periods from $0.030 to $0.025 per 18-pound lug for grapes grown in a designated
+- **NEW**  [Electronic Disclosure by Group Health Plans Under ERISA](https://www.federalregister.gov/documents/2026/07/23/2026-14917/electronic-disclosure-by-group-health-plans-under-erisa) — *2026-07-23*
+  > This proposed rule sets forth a new, additional safe harbor for group health plan administrators to use electronic media (e.g., email or web portal) to furnish documents and information to participants and beneficiaries of plans subject to the Employee Retirement Income Security 
+- **NEW**  [Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages](https://www.federalregister.gov/documents/2026/07/23/2026-14910/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters) — *2026-07-23*
+  > The Food and Drug Administration (FDA or we) is issuing an order to repeal the color additive regulation that allows for the use of Orange B for coloring the casings or surfaces of frankfurters and sausages. We have determined that the authorized use of Orange B has been abandone
+- **NEW**  [Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges](https://www.federalregister.gov/documents/2026/07/23/2026-14909/proposal-to-revoke-the-color-additive-listing-for-use-of-citrus-red-no-2-on-the-skins-of-mature) — *2026-07-23*
+  > The Food and Drug Administration (FDA or we) is proposing to issue an order that would repeal the color additive regulation that allows for the use of Citrus Red No. 2 for coloring the skins of mature oranges. Based on certification data, it appears that Citrus Red No. 2 is no lo
+- **NEW**  [Rescinding Portions of AmeriCorps Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281](https://www.federalregister.gov/documents/2026/07/23/2026-14906/rescinding-portions-of-americorps-title-vi-regulations-to-conform-more-closely-with-the-statutory) — *2026-07-23*
+  > The Corporation for National and Community Service (operating as AmeriCorps) proposes to amend its regulations implementing Title VI of the Civil Rights Act of 1964 ("Title VI") to eliminate disparate- impact liability. The proposed amendments would align the conduct prohibited b
+- **NEW**  [Air Plan Approval; Pennsylvania; Harrisburg-Lebanon-Carlisle-York Maintenance Area, Second 10-Year Maintenance Plan for the 2006 Fine Particulate Matter National Ambient Air Quality Standard](https://www.federalregister.gov/documents/2026/07/23/2026-14902/air-plan-approval-pennsylvania-harrisburg-lebanon-carlisle-york-maintenance-area-second-10-year) — *2026-07-23*
+  > The Environmental Protection Agency (EPA) is proposing to approve under the Clean Air Act (CAA), the Second Maintenance Plan for the Harrisburg-Lebanon-Carlisle and York Maintenance Area (Harrisburg- York Area) for the 2006 Fine Particulate Matter national ambient air quality sta
+- **NEW**  [Medicaid Program; Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes](https://www.federalregister.gov/documents/2026/07/23/2026-14897/medicaid-program-amending-the-indirect-hold-harmless-threshold-of-health-care-related-taxes) — *2026-07-23*
+  > This proposed rule would revise standards for determining whether an indirect hold harmless arrangement exists for a health care- related tax. This proposed rule is necessary to implement a provision in the "One Big Beautiful Bill Act," herein referred to as the "Working Families
+- **NEW**  [Safety Zone; Lake St. Clair; New Baltimore, MI](https://www.federalregister.gov/documents/2026/07/23/2026-14895/safety-zone-lake-st-clair-new-baltimore-mi) — *2026-07-23*
+  > The Coast Guard is establishing a temporary safety zone for navigable waters of Lake St. Clair within a 420-foot radius of Brandenburg Park on Anchor Bay in Lake St. Clair, New Baltimore, MI. The safety zone is needed to protect personnel, vessels, and the marine environment from
+- **NEW**  [Safety Zone; Lake Erie, Avon Lake, OH](https://www.federalregister.gov/documents/2026/07/23/2026-14894/safety-zone-lake-erie-avon-lake-oh) — *2026-07-23*
+  > The Coast Guard is establishing a temporary safety zone for certain navigable waters of Lake Erie. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards associated with an over water fireworks display. Entry of vessels or perso
+- **NEW**  [Rescinding Guidelines for Eliminating Discrimination and Denial of Services on the Basis of Race, Color, National Origin, Sex, and Handicap in Vocational Education Programs](https://www.federalregister.gov/documents/2026/07/23/2026-14893/rescinding-guidelines-for-eliminating-discrimination-and-denial-of-services-on-the-basis-of-race) — *2026-07-23*
+  > The U.S. Department of Health and Human Services (HHS or the Department) rescinds the Guidelines for Eliminating Discrimination and Denial of Services on the Basis of Race, Color, National Origin, Sex, and Handicap in Vocational Education Programs (Guidelines). The Department als
+
+_(16 additional items in raw.jsonl)_
