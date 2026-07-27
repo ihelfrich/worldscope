@@ -11,15 +11,15 @@ state: fresh
 
 6 new of 6 total items today.
 
-- **NEW**  [[South Korea] Govt Upgrades Heat Wave Crisis Advisory to Highest Level l KBS WORLD](https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203166) — *2026-07-27*
-  > world.kbs.co.kr · English
-- **NEW**  [[South Korea] 4 More S . Korean Tidal Flats Added to UNESCO World Heritage List](https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203168) — *2026-07-27*
-  > world.kbs.co.kr · English
-- **NEW**  [[South Korea] 2 More Fatalities from Heat - Related Illnesses Reported amid Heat Wave](https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203170) — *2026-07-27*
-  > world.kbs.co.kr · English
-- **NEW**  [[South Korea] Shin Ji - eun Wins 2nd LGPA Title](https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203167) — *2026-07-27*
-  > world.kbs.co.kr · English
-- **NEW**  [[South Korea] KFA Presidential Election Voter Pool to Expand from 300 to Over 10 , 000](https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203169) — *2026-07-27*
-  > world.kbs.co.kr · English
-- **NEW**  [[South Korea] Yoon conviction in election law case could put PPP on hook for 39 . 7B won in campaign expenses](https://www.hani.co.kr/arti/english_edition/e_national/1270126.html) — *2026-07-27*
-  > hani.co.kr · English
+- **NEW**  [[China] 시진핑 주석 룰라 브라질 대통령과 전화 통화](https://korean.cri.cn/2026/07/27/ARTI1785136977962642) — *2026-07-27*
+  > korean.cri.cn · English
+- **NEW**  [[China] Man linked to Indonesia former top corruption prosecutor found dead](https://www.scmp.com/week-asia/people/article/3361980/man-linked-indonesias-former-top-corruption-prosecutor-found-dead) — *2026-07-27*
+  > scmp.com · English
+- **NEW**  [[China] Huawei Pura 90s Pro Max review](https://www.gsmarena.com/huawei_pura_90s_pro_max-review-2983.php) — *2026-07-27*
+  > gsmarena.com · English
+- **NEW**  [[China] Siegwerk accelerates investment programme to expand global printing inks and coatings capabilities](https://www.european-coatings.com/news/markets-companies/siegwerk-accelerates-investment-programme-to-expand-global-printing-inks-and-coatings-capabilities/) — *2026-07-27*
+  > european-coatings.com · English
+- **NEW**  [[China] vivo X300 E - Full phone specifications](https://www.gsmarena.com/vivo_x300_e_5g-14826.php) — *2026-07-27*
+  > gsmarena.com · English
+- **NEW**  [[China] Gurman : Apple to unveil its smart glasses at WWDC 2027](https://www.gsmarena.com/gurman_apple_to_unveil_its_smart_glasses_at_wwdc_2027-news-73887.php) — *2026-07-27*
+  > gsmarena.com · English

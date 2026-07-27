@@ -23,7 +23,7 @@ state: fresh
    evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
 4. **Al Green** (Representative, Democratic, TX-9th): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:https://www.]
 5. **Elizabeth Warren** (Senator, Democratic, MA): composite 0.125
    drivers: enforcement_hits=0.50
    evidence: [lake:political_figures:0001916048-2], [lake:political_figures:https://www.]

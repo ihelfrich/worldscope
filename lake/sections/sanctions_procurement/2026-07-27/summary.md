@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-27
-record_count: 118
-new_today: 0
+record_count: 119
+new_today: 1
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-0 new of 118 total items today.
+1 new of 119 total items today.
 
 - [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
@@ -23,6 +23,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRU2FpNHZLdlRMbnBhbFdDWERENXRqMHA5QTNiRWZvbVJkbnRKaldzdnJuWDcyVHpuWXJBSHhFeUI5RkhIYzBoZndmejFnVzItY0ZqV0xpT1V0d1lfUmJIMnIyY0Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
+- **NEW**  [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaLTNheHJZUWF1Q1dQODdvNFVwWnYwaWYwRHE5MHBMeEs4UFJ3NkJDdmJPSmozS1JZLWoxNFdnS0VPU1FUTnU1S0pvaw?oc=5" target="_blank">1239</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zdEZkSzFGZXFOTVg0T3lWdDRVZlprX0xzM1g3aXlEWURwZHVfekF6ZGZsUXFCZC1nX0FtTmotaVJMVVhOaDRkbGRacnpCazN4SWNPd29faXJmeUZhSEpBMlMyVGc?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: Department of Energy.  Description: IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION
 - [[USASpending] $3,055,729,526 → SPACE EXPLORATION TECHNOLOGIES CORP.: WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST](https://www.usaspending.gov/award/80MSFC20C0034) — *2026-07-27*
   > Agency: National Aeronautics and Space Administration.  Description: WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRATION, AND ENGINEERING SUPPORT OF THE HUMAN LANDING SYSTEM (HLS) INTEGRATED LANDER.
-- [[USASpending] $2,593,215,439 → THE BOEING COMPANY: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CO](https://www.usaspending.gov/award/80MSFC20C0052) — *2026-07-27*
-  > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
 
-_(93 additional items in raw.jsonl)_
+_(94 additional items in raw.jsonl)_
