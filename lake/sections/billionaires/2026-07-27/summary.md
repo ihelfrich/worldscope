@@ -2,14 +2,14 @@
 section: billionaires
 title: Forbes Real-Time Billionaires (top 30 + biggest movers)
 date: 2026-07-27
-record_count: 32
-new_today: 3
+record_count: 33
+new_today: 4
 state: fresh
 ---
 
 ## Forbes Real-Time Billionaires (top 30 + biggest movers)
 
-3 new of 32 total items today.
+4 new of 33 total items today.
 
 - [#1 Elon Musk — $725.12B](https://www.forbes.com/profile/elon-musk/) — *2026-07-27*
   > United States · Technology · source: Tesla, SpaceX · holdings: SPCX-US(NASDAQ), SPCX-US(NASDAQ), TSLA-US(NASDAQ)
@@ -27,9 +27,9 @@ state: fresh
   > United States · Technology · source: Semiconductors · holdings: NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ)
 - [#8 Larry Ellison — $151.89B](https://www.forbes.com/profile/larry-ellison/) — *2026-07-27*
   > United States · Technology · source: Oracle · holdings: ORCL-US(NYSE), ORCL-US(NYSE), PSKY-US(NASDAQ), SPCX-US(NASDAQ)
-- [#9 Bernard Arnault & family — $142.22B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-27*
+- [#9 Bernard Arnault & family — $142.61B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-27*
   > France · Fashion & Retail · source: LVMH · holdings: BIRK-US(NYSE), RMS-FR(EURONEXT PARIS), MC-FR(EURONEXT PARIS)
-- [#10 Amancio Ortega — $141.06B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-27*
+- [#10 Amancio Ortega — $141.82B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-27*
   > Spain · Fashion & Retail · source: Zara · holdings: SAN-ES(MADRID), ENG-ES(MADRID), ITX-ES(MADRID)
 - [#11 Warren Buffett — $141.02B](https://www.forbes.com/profile/warren-buffett/) — *2026-07-27*
   > United States · Finance & Investments · source: Berkshire Hathaway · holdings: BRK.A-US(NYSE), BRK.B-US(NYSE)
@@ -37,7 +37,7 @@ state: fresh
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
 - [#13 Jim Walton & family — $126.42B](https://www.forbes.com/profile/jim-walton/) — *2026-07-27*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
-- [#14 Carlos Slim Helu & family — $125.41B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-07-27*
+- [#14 Carlos Slim Helu & family — $125.40B](https://www.forbes.com/profile/carlos-slim-helu/) — *2026-07-27*
   > Mexico · Telecom · source: Telecom · holdings: AMX-US(NYSE), BT.A-GB(LONDON), FCC-ES(MADRID), GCARSOA1-MX(MEXICO)
 - [#15 Steve Ballmer — $123.55B](https://www.forbes.com/profile/steve-ballmer/) — *2026-07-27*
   > United States · Technology · source: Microsoft · holdings: MSFT-US(NASDAQ), TWTR-US(NYSE)
@@ -47,11 +47,11 @@ state: fresh
   > United States · Finance & Investments · source: Bloomberg LP
 - [#18 Changpeng Zhao — $107.64B](https://www.forbes.com/profile/changpeng-zhao/) — *2026-07-27*
   > Canada · Finance & Investments · source: Cryptocurrency exchange
-- [#19 Bill Gates — $105.83B](https://www.forbes.com/profile/bill-gates/) — *2026-07-27*
+- [#19 Bill Gates — $105.88B](https://www.forbes.com/profile/bill-gates/) — *2026-07-27*
   > United States · Technology · source: Microsoft · holdings: ACGL-US(NASDAQ), ARCO-US(NYSE), AN-US(NYSE), BRK.A-US(NYSE)
 - [#20 Thomas Peterffy — $105.28B](https://www.forbes.com/profile/thomas-peterffy/) — *2026-07-27*
   > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
-- [#21 Francoise Bettencourt Meyers & family — $91.81B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-27*
+- [#21 Francoise Bettencourt Meyers & family — $92.33B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-27*
   > France · Fashion & Retail · source: L'Oréal · holdings: OR-FR(EURONEXT PARIS)
 - [#22 Giancarlo Devasini — $89.30B](https://www.forbes.com/profile/giancarlo-devasini/) — *2026-07-27*
   > Italy · Finance & Investments · source: Cryptocurrency
@@ -62,4 +62,4 @@ state: fresh
 - [#25 Julia Koch & family — $81.19B](https://www.forbes.com/profile/julia-koch/) — *2026-07-27*
   > United States · Diversified · source: Koch, Inc.
 
-_(7 additional items in raw.jsonl)_
+_(8 additional items in raw.jsonl)_

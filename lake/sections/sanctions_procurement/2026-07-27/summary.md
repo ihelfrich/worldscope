@@ -19,8 +19,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnMlA5MFlYM2FJSjZ1NnIzczNXSmM3Q2tLSjZLaDFBTzFlTllLYWJtUVNnQUNac1lvX1pjYVVvNUlxWVpsQjlJWGNzMkFsVm1TTVRZR3MyUEZOZjBaNHc?oc=5" target="_blank">Russia-related Designations Updates</a>&nbsp;&nbsp;<font color="#6f6f6f">Office 
 - [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Dd19XT2dxMFhJM0NiVVhGTUx5RXdhWmJRUlhSSzBBeW5TZjJkbTd6ZkJzWFlURWJLU0VCYUcwc3M5dTBIMF8xeU81eXhsVktvdjNYNDY1N3Q2NzFkaE5vb2trNno?oc=5" target="_blank">CJNG-Linked Networks</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fore
-- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRU2FpNHZLdlRMbnBhbFdDWERENXRqMHA5QTNiRWZvbVJkbnRKaldzdnJuWDcyVHpuWXJBSHhFeUI5RkhIYzBoZndmejFnVzItY0ZqV0xpT1V0d1lfUmJIMnIyY0Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
 - **NEW**  [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
@@ -31,6 +29,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UkdCc0VmYlZlTjdobU9XbEplVS11Mm0yOTdlYmtfYzVFaUpXMjcyTHZJRnNRZlpTLXhTWlh5alNFY1I2OXpkNkswd0NjSlladDZmVHlJdG1Kcy1kcXc2WXUzU0k?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvSG01VXpWeFNPUERoZkpScGNoSFB1NkNKVXB3VHhzYTVqTnhZV3ZWdDc0aF9BYjZGQ3pOMEk1S01sMTFqSUJ3emk1aE1CeGR5U0plUjBXM2JMWmRHTlJmd18xU1Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
+- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRU2FpNHZLdlRMbnBhbFdDWERENXRqMHA5QTNiRWZvbVJkbnRKaldzdnJuWDcyVHpuWXJBSHhFeUI5RkhIYzBoZndmejFnVzItY0ZqV0xpT1V0d1lfUmJIMnIyY0Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[BIS Entity List] page checksum 58a542043112](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-27*
   > Page content hash: 58a542043112. Compare with prior day's hash to detect updates.
 - [[FARA] Export Control and Sanctions News - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-23*

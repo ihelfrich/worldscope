@@ -2,248 +2,248 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-27
-record_count: 202
-new_today: 194
+record_count: 185
+new_today: 178
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-194 new of 202 total items today.
+178 new of 185 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-44463) — *2026-07-27*
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 8:22AM EDT until July 27 at 8:30AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2eed06c74ef2a30ab458ee41644030a6c855e2fa.001.1) — *2026-07-27*
+  > At 821 AM EDT/721 AM CDT/, a severe thunderstorm was located near
+Bergland, or 8 miles southeast of Porcupine Mountains State Park,
+moving southeast at 55 mph.
+
+HAZARD...60 mph wind gusts and half dollar size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is e
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 27 at 7:21AM CDT until July 27 at 7:30AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.331711aa46f4d0f2304f170af2a43d24e0b7362a.001.1) — *2026-07-27*
+  > Heavy rainfall causing flooding has ended, but water levels will
+remain elevated along small streams and in flood prone areas. Any
+additional storms today will likely cause more flash flooding.
+Please continue to heed remaining road closures.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 27 at 8:19AM EDT until July 27 at 9:15AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dcc0f4a7eb4bac1a8ce204c33776b6e226a3cbc.001.1) — *2026-07-27*
+  > SMWMQT
+
+The National Weather Service in Marquette has issued a
+
+* Special Marine Warning for...
+Black River To Ontonagon MI...
+Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
+Canal MI 5NM off shore to the US/Canadian border including Isle
+Royale National Park...
+S
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 27 at 7:18AM CDT until July 27 at 7:45AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f65528dbe22d270c710b4eba65beea531d53c410.002.1) — *2026-07-27*
+  > For the following areas...
+Lake Superior west of a line from Saxon Harbor WI to Grand Portage MN
+beyond 5NM...
+Outer Apostle Islands Beyond 5 NM from Mainland...
+
+At 718 AM CDT, a severe thunderstorm was located 12 nm northwest of
+Devils Island, moving southeast at 25 knots.
+
+HAZ
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-42790) — *2026-07-27*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 5:35AM CDT until July 27 at 6:15AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cfc2c6544b2f3d743a072ec4533c81daae3471d.001.1) — *2026-07-27*
-  > SVRBMX
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 7:14AM CDT until July 28 at 8:00PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc650e2d7f47b51ac25906f1a1e9cd32393d35aa.001.1) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with heat index values up to 115.
 
-The National Weather Service in Birmingham has issued a
+* WHERE...Portions of East Arkansas, North Mississippi, Southeast
+Missouri, and West Tennessee.
 
-* Severe Thunderstorm Warning for...
-Northwestern Marion County in northwestern Alabama...
+* WHEN...Until 8 PM CDT Tuesday.
 
-* Until 615 AM CDT.
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 7:13AM CDT until July 28 at 9:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38523325643c1f7d454d1174dbda07bdf0cff6f1.002.1) — *2026-07-27*
+  > * WHAT...Maxiumum heat index values of 105 to 109 expected on
+Tuesday.
 
-* At 535 AM CDT, a severe thunderstorm was located 8 miles east of
-Tremont, or 11 miles northwest of H
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 27 at 5:34AM CDT until July 27 at 5:45AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8fe510f20db44ec1b051a527654f28606180d08d.001.1) — *2026-07-27*
-  > For the following areas...
-Lake Michigan from North Point Light WI to Winthrop Harbor IL 5 nm
-off shore to mid lake...
+* WHERE...Barbour, Bullock, Calhoun, Chambers, Cherokee, Clay,
+Cleburne, Coosa, Etowah, Lee, Macon, Pike, Randolph, Russell, St.
+Clair, Talladega, and Tallapoosa Counties.
 
-At 534 AM CDT, a strong thunderstorm was located 34 nm west of South
-Haven Light, moving south at 30 knots.
+* WHEN...From 10 AM to 9 PM CDT Tue
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 7:13AM CDT until July 28 at 9:00PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.38523325643c1f7d454d1174dbda07bdf0cff6f1.001.1) — *2026-07-27*
+  > * WHAT...Maximum heat index values of 105 to 109 expected both this
+afternoon and Tuesday afternoon.
 
-HAZARD...Wind gusts 34 knots or greater and small h
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 5:32AM CDT until July 27 at 6:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.139b2fcc9f51151e03f09cf1cb58ee2c7fba2a38.001.1) — *2026-07-27*
-  > At 532 AM CDT, a severe thunderstorm was located over southeastern
-Boundary Waters Canoe Area Wilderness, or 13 miles south of Gunflint
-Lake, moving southeast at 55 mph.
+* WHERE...Autauga, Bibb, Blount, Chilton, Dallas, Elmore, Fayette,
+Greene, Hale, Jefferson, Lamar, Lowndes, Marengo, Marion,
+Montgomery, Perry, Pickens, Shelby, Sumter, Tuscaloos
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 8:13AM EDT until July 27 at 9:00AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.016956a9ddaad839afcb00d314870d7c0ff78f48.001.1) — *2026-07-27*
+  > SVRGRR
 
-HAZARD...60 mph wind gusts and quarter size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicle
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 5:31AM CDT until July 27 at 6:15AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.60d452757751927a6d5f23161a43bf97463b63e1.001.1) — *2026-07-27*
-  > SVRBMX
-
-The National Weather Service in Birmingham has issued a
+The National Weather Service in Grand Rapids has issued a
 
 * Severe Thunderstorm Warning for...
-Northwestern Walker County in central Alabama...
-Southeastern Marion County in northwestern Alabama...
-Southwestern Winston County in northwestern Alabama...
-Northern Fayette Cou
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 5:26AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb9d6d0d769e1635723da9c5c4d2171cb878e38b.001.1) — *2026-07-27*
-  > At 526 AM CDT, Doppler radar was tracking a strong thunderstorm 9
-miles southeast of Red Bay, moving south at 15 mph.
+Southeastern Van Buren County in southwestern Michigan...
 
-HAZARD...Wind gusts up to 50 mph and pea size hail.
+* Until 900 AM EDT.
 
-SOURCE...Radar indicated.
+* At 813 AM EDT, a severe thunderstorm was located near Hartford, or
+11 miles west of Paw Paw, m
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 7:12AM CDT until July 27 at 7:30AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e909e64c7d961dfd6cc3a58ef2b1afc0ebaded9.002.1) — *2026-07-27*
+  > At 711 AM CDT, a severe thunderstorm was located over Harpersville,
+or near Wilsonville, moving south at 30 mph.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured object
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 27 at 6:21AM EDT until July 27 at 7:15AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8ce7d048aacb1a3ac771564ba89761e9c76a5db.002.1) — *2026-07-27*
-  > For the following areas...
-Open Waters from South Haven to Grand Haven MI...
-
-At 620 AM EDT, a strong thunderstorm was located 31 nm west of
-Saugatuck Pier Heads, moving southeast at 35 knots.
-
-HAZARD...Wind gusts to 40 knots and small hail.
+HAZARD...60 mph wind gusts.
 
 SOURCE...Radar indicated.
 
-IMPACT...S
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 5:21AM CDT until July 27 at 6:15AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e0dd675a8aad7ba8067e3c103e824de2b255bf5.001.1) — *2026-07-27*
-  > SVRDLH
+IMPACT...Expect damage to roofs, siding, and trees.
 
-The National Weather Service in Duluth MN has issued a
+Locations impacted include...
+Sylacauga, Chelsea, Childer
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 27 at 7:11AM CDT until July 27 at 8:15AM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9de8d05c181b37a45bd2f3d817c40509ea1a8f6c.001.1) — *2026-07-27*
+  > SVRILX
+
+The National Weather Service in Lincoln has issued a
 
 * Severe Thunderstorm Warning for...
-West central Cook County in northeastern Minnesota...
-East central St. Louis County in northeastern Minnesota...
-Northern Lake County in northeastern Minnesota...
+Central Cumberland County in east central Illinois...
 
-* Until 615 AM 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 5:18AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.739c5418747b723a33a9e12f9b15719d516ed607.001.1) — *2026-07-27*
-  > At 517 AM CDT, Doppler radar was tracking a strong thunderstorm 10
-miles northwest of Hackleburg, or 10 miles southeast of Red Bay,
-moving south at 30 mph.
+* Until 815 AM CDT.
 
-HAZARD...Wind gusts up to 50 mph.
+* At 711 AM CDT, a severe thunderstorm was located 5 miles northwest
+of Toledo, moving southeast at 15 mp
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 8:09AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a4fc1e2adb9c115eae498d76fca81b762b22822.001.1) — *2026-07-27*
+  > If traveling this morning, be prepared for fog that could
+suddenly reduce visibilities to 1/4 mile or less. Expect the fog
+to dissipate by 10AM EDT. Slow down and allow extra time to reach
+your destination.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 7:09AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f695a00b3004b24193f8ad7d28c014b6b717ff43.001.1) — *2026-07-27*
+  > At 709 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Talladega, moving southeast at 20 mph.
 
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow aro
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 6:18AM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.128ac36932591ba0ac776d2fdbb71e088a46e0cd.001.1) — *2026-07-27*
-  > At 618 AM EDT, Doppler radar was tracking a strong thunderstorm 7
-miles west of Fruitland, moving southeast at 5 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured object
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 5:12AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0753b8d2b91c92f7bc6c2b8418f966dca491f06d.001.1) — *2026-07-27*
-  > At 512 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Ashridge, or 7 miles north of Lynn, moving south at 15 mph.
+unsecured objects.
 
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+Locations impacted inclu
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 8:08AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.432f4eb0c2115db55c6fdce277bdf068614848dd.001.1) — *2026-07-27*
+  > At 807 AM EDT, Doppler radar was tracking a strong thunderstorm near
+Decatur, or near Paw Paw, moving south at 30 mph.
 
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsec
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 5:10AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89e6379ee44432b6aba70a8149bad095fcf55def.001.1) — *2026-07-27*
-  > At 509 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Vandiver, or 9 miles southeast of Leeds, moving south at 35 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+HAZARD...Wind gusts up to 40 mph and half inch hail.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured obje
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 7:05AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303d5e2ffe451cacbcbb76a779567a29f94e8b9e.001.3) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with heat index values up to 115.
 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 27 at 5:10AM CDT until July 29 at 10:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b13f0dd4424b829a54849d7b304ff3e29e1dfdac.001.1) — *2026-07-27*
-  > * WHAT...Life threatening waves of 4 to 6 feet and dangerous
-currents are expected.
+* WHERE...Harrison and Shelby Counties.
 
-* WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha
-Counties.
+* WHEN...Until 10 PM CDT this evening.
 
-* WHEN...From late Monday night through Wednesday morning.
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat and high humidity events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 7:05AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303d5e2ffe451cacbcbb76a779567a29f94e8b9e.005.1) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with heat index values up to 115.
 
-* IMPACTS...Dangerous swimming conditions are expected due to
-hi
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 27 at 5:09AM CDT until July 27 at 8:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.002.1) — *2026-07-27*
-  > * WHAT...Visibility one half mile or less in dense fog.
+* WHERE...Portions of east central and southeast Nebraska.
 
-* WHERE...Washington County.
+* WHEN...Until 10 PM CDT this evening.
 
-* WHEN...Until 8 AM CDT this morning.
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat and high humidity events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 7:05AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303d5e2ffe451cacbcbb76a779567a29f94e8b9e.003.2) — *2026-07-27*
+  > * WHAT...Heat index values up to 109 expected.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 27 at 5:09AM CDT until July 27 at 8:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.005.1) — *2026-07-27*
-  > * WHAT...Visibility as low as 1/2 mile in dense fog.
+* WHERE...In Iowa, Monona County. In Nebraska, Antelope, Cedar, Knox,
+Pierce, Thurston, and Wayne Counties.
 
-* WHERE...Kenosha, Milwaukee, Racine, and Waukesha Counties.
+* WHEN...Until 10 PM CDT this evening.
 
-* WHEN...Until 8 AM CDT this morning.
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 7:05AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303d5e2ffe451cacbcbb76a779567a29f94e8b9e.002.3) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with heat index values up to 117.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 27 at 5:09AM CDT until July 27 at 8:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.003.1) — *2026-07-27*
-  > * WHAT...For the Dense Fog Advisory, visibility as low as 1/2 mile
-in dense fog. For the Heat Advisory, heat index values up to 101
-expected.
+* WHERE...Burt, Dodge, Washington, Boone, Colfax, Cuming, Madison,
+Platte, and Stanton Counties.
 
-* WHERE...Dane, Green, Iowa, Lafayette, Rock, Jefferson, and
-Walworth Counties.
+* WHEN...Until 10 PM CDT this evening.
 
-* WHEN...For the Dense Fog Advisory, until 8 AM CDT this
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 5:09AM CDT until July 27 at 9:00PM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.004.1) — *2026-07-27*
-  > * WHAT...For the Dense Fog Advisory, visibility as low as 1/2 mile
-in dense fog. For the Heat Advisory, heat index values up to 101
-expected.
+* IMPACTS...Heat related illnesses increase significantly during
+extrem
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 7:05AM CDT until July 27 at 10:00PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303d5e2ffe451cacbcbb76a779567a29f94e8b9e.004.1) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with heat index values up to 115.
 
-* WHERE...Columbia, Green Lake, Marquette, and Sauk Counties.
+* WHERE...In Iowa, Fremont, Mills, Montgomery, Page, and
+Pottawattamie Counties. In Nebraska, Douglas and Sarpy Counties.
 
-* WHEN...From 10 AM this morning to 9 PM CDT this evening.
+* WHEN...Until 10 PM CDT this evening.
 
-* IMPACTS...Ho
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 5:09AM CDT until July 27 at 9:00PM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.001.2) — *2026-07-27*
-  > * WHAT...For the Dense Fog Advisory, visibility one half mile or
-less in dense fog. For the Heat Advisory, heat index values up to
-100 expected.
+* IMPACTS...Heat related illnesses increase si
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 8:03AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.067a51d157a0bd63e3c2436005c6213b047fc738.001.1) — *2026-07-27*
+  > At 803 AM EDT, a strong thunderstorm was over Temple, or 11 miles
+northeast of Carrollton, moving southeast at 25 mph.
 
-* WHERE...Dodge County.
-
-* WHEN...For the Dense Fog Advisory, until 8 AM CDT this morning.
-For the Heat Advisory, from 10 AM this morn
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 27 at 5:09AM CDT until July 27 at 8:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.001.1) — *2026-07-27*
-  > * WHAT...For the Dense Fog Advisory, visibility one half mile or
-less in dense fog. For the Heat Advisory, heat index values up to
-100 expected.
-
-* WHERE...Dodge County.
-
-* WHEN...For the Dense Fog Advisory, until 8 AM CDT this morning.
-For the Heat Advisory, from 10 AM this morn
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 5:09AM CDT until July 27 at 9:00PM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d28deabbf99b10c3f409f473166291d864d968.003.2) — *2026-07-27*
-  > * WHAT...For the Dense Fog Advisory, visibility as low as 1/2 mile
-in dense fog. For the Heat Advisory, heat index values up to 101
-expected.
-
-* WHERE...Dane, Green, Iowa, Lafayette, Rock, Jefferson, and
-Walworth Counties.
-
-* WHEN...For the Dense Fog Advisory, until 8 AM CDT this
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 27 at 5:08AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16eb2ae8e5dbdfb11fe638ab6cca957d65f4c454.001.1) — *2026-07-27*
-  > At 507 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Mount Cheaha, or 8 miles northwest of Lineville, moving south at 45
-mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+HAZARD...Up to 40 mph wind, frequent cloud to ground lightning and
+heavy rain.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 3:04AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.977366a2062261cd93274c0c95e7d29780ae37e3.001.2) — *2026-07-27*
-  > * WHAT...Temperatures up to 82.
+IMPACT...Expect minor damage to tree limbs and blowin
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 7:01AM CDT until July 27 at 10:00PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.074d9aeef9b7b6d2c287712eb46bd933c25833f6.001.2) — *2026-07-27*
+  > * WHAT...Heat index values up to 103 are expected this afternoon.
 
-* WHERE...Santa Barbara County Southwestern Coast.
+* WHERE...Portions of central, north central, southwest, and west
+central Nebraska.
 
-* WHEN...Until 8 PM PDT this evening.
+* WHEN...Until 10 PM CDT this evening.
 
-* IMPACTS...There is a high risk for heat illness for sensitive
-populations including the very young, the very old, those without
-air conditioning, and thos
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 3:04AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.977366a2062261cd93274c0c95e7d29780ae37e3.005.1) — *2026-07-27*
-  > * WHAT...Very warm and humid daytime conditions with high
-temperatures between 82 and 92 common. Warm overnight conditions
-will bring less relief than usual.
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 7:01AM CDT until July 27 at 10:00PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.074d9aeef9b7b6d2c287712eb46bd933c25833f6.002.1) — *2026-07-27*
+  > * WHAT...Heat index values up to 101 are expected this afternoon.
 
-* WHERE...Los Angeles County Beaches, Los Angeles County Inland
-Coast including Downtown Los Angeles, Malibu Coast, Palos
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 3:04AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.977366a2062261cd93274c0c95e7d29780ae37e3.004.1) — *2026-07-27*
-  > * WHAT...Hot daytime conditions with high temperatures between 97
-and 107 common. Warm overnight conditions will bring less relief
-than usual.
+* WHERE...Portions of north central, panhandle, southwest, and west
+central Nebraska.
 
-* WHERE...A portion of southwest California.
+* WHEN...Until 10 PM CDT /9 PM MDT/ this evening.
 
-* WHEN...Until 8 PM PDT this evening.
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 27 at 4:56AM PDT until July 27 at 9:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d64648902d92f42cf32109a3df9ac8c774295d2a.001.1) — *2026-07-27*
+  > * WHAT...Dangerously hot conditions with high temperatures up to 108.
 
-* IMPACTS...There is a high risk for dangerous heat
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 3:04AM PDT until July 27 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.977366a2062261cd93274c0c95e7d29780ae37e3.002.2) — *2026-07-27*
-  > * WHAT...For the Heat Advisory, Hot daytime conditions with high
-temperatures between 97 and 107 common. Very warm overnight
-conditions will bring less relief than usual. For the Wind
-Advisory, North winds 25 to 35 mph with gusts up to 50 mph
-expected.
+* WHERE...Indian Wells Valley and Mojave Desert.
 
-* WHERE...Santa Ynez Mount
+* WHEN...Until 9 PM PDT this evening.
 
-_(177 additional items in raw.jsonl)_
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 27 at 7:53AM EDT until July 27 at 9:00AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9da457fa20747bff356e13eb836d9cac2b47a053.001.1) — *2026-07-27*
+  > SMWMQT
+
+The National Weather Service in Marquette has issued a
+
+* Special Marine Warning for...
+Black River To Ontonagon MI...
+Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
+Canal MI 5NM off shore to the US/Canadian border including Isle
+Royale National Park...
+O
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 27 at 5:48AM MDT until July 28 at 12:00AM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2cba34c5dfd1bcb36a19ebfd66480217c4f052c9.005.1) — *2026-07-27*
+  > * WHAT...High temperatures in the upper 90s, with low temperatures
+in the lower 70s providing little relief overnight. HeatRisk will
+be in the orange (moderate) range today.
+
+* WHERE...Cache Valley/Utah Portion.
+
+* WHEN...Until midnight MDT tonight.
+
+* IMPACTS...Hot temperatures 
+
+_(160 additional items in raw.jsonl)_

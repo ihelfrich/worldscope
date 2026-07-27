@@ -2,6 +2,14 @@
   "anomalies": [
     {
       "category": "feed-failure",
+      "description": "[feed error] LIGA.net: HTTPError",
+      "evidence": [
+        "ukrainian-internal-error-liga-net"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
       "description": "[feed error] Kyiv Independent: HTTPError",
       "evidence": [
         "ukrainian-internal-error-kyiv-independent"
@@ -10,9 +18,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] LIGA.net: HTTPError",
+      "description": "[feed error] President of Ukraine: HTTPError",
       "evidence": [
-        "ukrainian-internal-error-liga-net"
+        "ukrainian-internal-error-president-of-ukraine"
       ],
       "z_score": null
     },
@@ -45,22 +53,6 @@
       "description": "[feed error] Hromadske: HTTPError",
       "evidence": [
         "ukrainian-internal-error-hromadske"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] President of Ukraine: HTTPError",
-      "evidence": [
-        "ukrainian-internal-error-president-of-ukraine"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] Hmarochos: HTTPError",
-      "evidence": [
-        "ukrainian-internal-error-hmarochos"
       ],
       "z_score": null
     },
@@ -114,14 +106,116 @@
         "tier": "mainstream_independent"
       },
       "type": "org"
+    },
+    {
+      "canonical_name": "Kyiv",
+      "id": "place:city-kyiv",
+      "metadata": {
+        "country": "Ukraine",
+        "kind": "city"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "Hmarochos",
+      "id": "org:newsroom-hmarochos",
+      "metadata": {
+        "country": "Ukraine",
+        "kind": "newsroom",
+        "language": "uk",
+        "scope": "local-kyiv",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
     }
   ],
   "entities_updated": [],
-  "new_count": 31,
+  "new_count": 38,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 103,
+  "record_count": 117,
   "relationships": [
+    {
+      "evidence": [
+        "81526d16b35f443681aa0267d76dbdfdb49004bb"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6857dc24ff05f0aebea6790fbcb0b5de86f7f0a0"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c9e65fd4de0c6683e957cd86545a72aa7b927212"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "93a4763f2dc07924a37d7ffc2271d12a7b21b5f4"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8000b3bbf55ffc786eb8b87e941200a3c0894de6"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "63ff211c48b7db053bccc5e6a2dd2aaeaeba2b81"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "24b76a8110e9c554d8e44cfec34198728d741c66"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c7a888ff5e7ee5c155c892acd97029b748c340e2"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "146730e1c011e7291c619e3cc482555b21c77d79"
+      ],
+      "from": "org:newsroom-ukrainska-pravda",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
     {
       "evidence": [
         "6550e0637bbe07fd133e5ab70c17524d8b44c163"
@@ -223,81 +317,45 @@
     },
     {
       "evidence": [
-        "755a2a29c9e85e4630c0acce810b639f06e4ce0d"
+        "0c251a79f536de4489b5473d90c078d185aedb4e"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "eeee186b783ad9df49b4363ba4b3526603b8dc73"
+        "7b33f6774fe7f05fe84dcefffd397e73a7dda233"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "ca55ec16b7a4ec8bce94ca3324ded256e386c573"
+        "0ae5f8a753582c2916e3c340e5a5fcea7516c0c3"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a858afca3be2d4bd2fab6e416934fbea98c28c2d"
+        "96709cef2df67b14da4e78e3b10bd7635b32de2b"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "02162bba277af618ca873a53dbd85ecc2df70f59"
+        "f38e037df30060af7e5ff0b686161176426170f6"
       ],
-      "from": "org:newsroom-ukrainska-pravda",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f18ee9c31ce40fceee4975d96a4d685ecbbc38ba"
-      ],
-      "from": "org:newsroom-ukrainska-pravda",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0d21850bf65f1555a489ad9c9848ac1d974c31e5"
-      ],
-      "from": "org:newsroom-ukrainska-pravda",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "05c9d584cce045e4342b72d9f9e9dcb198bbda5b"
-      ],
-      "from": "org:newsroom-ukrainska-pravda",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e2e9ca3e52cacdffe5d39aca67ef4544f72a0f4c"
-      ],
-      "from": "org:newsroom-ukrainska-pravda",
+      "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
@@ -956,6 +1014,96 @@
       ],
       "from": "org:newsroom-kyiv-post",
       "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c2ddbc9e314043911e12a85137f51404e5070e89"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "50cece0bb83e8bab5eda65eada012f7cf62070bb"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5bf37bc0b5cf1f73bd7277cd7e24a147f937cfdf"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f490ee08aa81f09a4b3e280e1c83e509c16fcfdc"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "408000e8c6c00a6a35000e335662e755286500e7"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3770457e1efae9fbb44edbfa5c7948ac1accbcef"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7c2e31dcfeec5be305e754a236458797020aa207"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c30c140de492d7673e3f0117fabf276a67a03bc0"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "080be6a2860f6cade0888e4de2c040ce26d3ed58"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ca7ece06f1fe830f768680286d0ce5d14eb57644"
+      ],
+      "from": "org:newsroom-hmarochos",
+      "to": "place:city-kyiv",
       "type": "reports-on",
       "weight": 1.0
     }
