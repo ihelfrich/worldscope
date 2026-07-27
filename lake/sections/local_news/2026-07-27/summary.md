@@ -2,63 +2,59 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-27
-record_count: 194
-new_today: 87
+record_count: 229
+new_today: 213
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-87 new of 194 total items today.
+213 new of 229 total items today.
 
+- **NEW**  [[St. Louis] St. Louis chefs share their favorite ways to enjoy summertime peaches](https://www.stlmag.com/dining/st-louis-chefs-favorite-ways-summertime-peaches/) — *2026-07-27*
+  > <p>Ask Cheryl: What is your favorite way to enjoy summertime peaches? The other day, I casually grabbed some peaches from Dierberg’s, only to return home and enjoy one of the best fruit experiences of my life. These beauties were at their absolute peak—the embodiment of the peach
+- **NEW**  [[St. Louis] Author Annie Jacobsen hopes for pressure, not panic, from latest apocalyptic release](https://www.stlmag.com/culture/author-annie-jacobsen-hopes-for-pressure-not-panic-from-latest-apocalyptic-release/) — *2026-07-27*
+  > <p>In her bestselling 2024 book, Nuclear War: A Scenario, Pulitzer Prize–nominated author Annie Jacobsen gave readers a highly detailed, heavily researched, minute-by-minute account of how the world might descend into nuclear winter. Now, Jacobsen is back with a new scenario insp
+- **NEW**  [[St. Louis] PuffPies brings Chilean-style empanadas to South St. Louis](https://www.stlmag.com/dining/puffpies-south-st-louis/) — *2026-07-27*
+  > <p>PuffPies (6915 Gravois), the new South City shop specializing in Chilean-style empanadas, didn&#8217;t need a grand opening to make an impression. Despite a quiet debut on July 19, the family-owned shop sold out on its first day. Here&#8217;s what to know before you go. The Me
+- **NEW**  [[St. Louis] Unforgettable farm-to-table experiences in the Midwest](https://www.stlmag.com/culture/travel/farm-to-table-experiences-midwest/) — *2026-07-27*
+  > <p>Claverach Farm &#124; Eureka, Missouri&#160; Located 20 miles from St. Louis, Claverach Farm has been in Sam Hilmer’s family for more than a century. Located on roughly 300 acres, the farm is where Sam and his wife, Rachel, grow a variety of fruits and vegetables. Twenty years
+- **NEW**  [[St. Louis] 5 Midwest wine destinations](https://www.stlmag.com/culture/travel/midwest-wine-destinations/) — *2026-07-27*
+  > <p>Hermann Wine Trail Known for its rich German heritage and historic wineries, Hermann is the easiest wine getaway from St. Louis (beyond Augusta and Defiance) at just 90 minutes west by car or train. The region is known for its Norton grapes, the oldest native grape in the U.S.
+- **NEW**  [[St. Louis] Crushed Red closes Ballwin and St. Charles locations](https://www.stlmag.com/dining/two-locations-of-crushed-red-have-closed/) — *2026-07-27*
+  > <p>The two newest locations of Crushed Red closed over the weekend. The last day of service at the Ballwin (14124 Manchester) and St. Charles (165 Beale, Suite 117) locations was July 25. The company’s other locations remain open. Founder and CEO Chris LaRocca, a veteran restaura
+- **NEW**  [[St. Louis] Top family-friendly events this week in St. Louis](https://www.stlmag.com/family/top-family-friendly-events-this-week-in-st-louis/) — *2026-07-27*
+  > <p>St. Charles County Fair &#124; July 28–August 1 Head to Wentzville for five days of classic fair fun, including livestock shows, motorsports, a rodeo, an exotic petting zoo, tractor pulls, a car show, and more family-friendly entertainment. Rotary Park, 2577 W. Meyer. Celebrat
+- **NEW**  [[St. Louis] Little BAO joins lineup at Wash Ave Food Hall](https://www.stlmag.com/dining/little-bao-joins-lineup-at-wash-ave-food-hall/) — *2026-07-27*
+  > <p>A second food vendor has committed to Wash Ave Food Hall (1122 Washington), the downtown dining and social destination that&#8217;s slated to open in October. Little BAO, the fast-casual sidekick to The BAO (14 N. Central) in Clayton, will offer bao, rice bowls, udon noodle bo
 - **NEW**  [[St. Louis] How a St. Louis insurance exec used AI to help his wife’s facial paralysis](https://www.stlmag.com/news/dynaface-jeff-heaton-rga/) — *2026-07-27*
   > <p>Jeff Heaton turned to research when his wife, Tracy, suffered from left-sided facial paralysis following brain surgery.&#160; “I wanted to make sure she had the best options and the best care,” says Jeff, vice president of Artificial Intelligence Innovation at Reinsurance Grou
 - **NEW**  [[St. Louis] St. Louis County executive candidates aren’t ready to endorse city-county unification](https://www.stlmag.com/news/county-executive-candidates-merger/) — *2026-07-27*
   > <p>Seven years after the failed Better Together plan to reunite St. Louis city and county, local leaders are again contemplating some sort of merger. Most recently, the Regional Business Council, which includes the area’s top 100 CEOs, endorsed the idea of the city reentering the
-- [[St. Louis] Lou’s Clues – 7/27/2026](https://www.stlmag.com/games/lous-clues-072726/) — *2026-07-26*
-  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
-- [[St. Louis] Baileys’ Chocolate Bar and Baileys’ Range to close August 1](https://www.stlmag.com/dining/baileys-range-and-baileys-chocolate-bar-to-close-august-1/) — *2026-07-26*
-  > <p>Baileys’ Chocolate Bar (1915 Park) and Baileys&#8217; Range (4175 Shaw), two longtime restaurants owned by Baileys’ Restaurants, will close following service on August 1. Owners Dave and Kara Bailey announced the decision on Saturday afternoon via a press release and social me
-- **NEW**  [[St. Louis] Western water reservoirs fall to record low levels](https://www.stltoday.com/news/nation-world/science/article_df436426-2a6c-5cba-a087-647835583ac0.html) — *2026-07-27*
-  > Lake Mead and Lake Powell, the country’s two largest reservoirs, have fallen to their lowest combined levels on record.
-- **NEW**  [[St. Louis] St. Louis obituaries for July 27](https://www.stltoday.com/news/local/obituaries/collection_065d8cf1-c1df-5045-919b-dfab3c2c7c40.html) — *2026-07-27*
-  > Read through the obituaries published in the St. Louis Post-Dispatch
-- **NEW**  [[St. Louis] Who's funding the campaign to scrap Missouri's income tax? Supporters aren't saying](https://www.stltoday.com/news/local/government-politics/article_87950b83-9d97-4202-9330-7b97c62f9f7c.html) — *2026-07-27*
-  > The campaign pushing for the income tax phaseout in Amendment 5 has accepted over $15 million in secretive contributions.
-- **NEW**  [[St. Louis] St. Louis Zoo researchers trap turtles in Forest Park to monitor microplastics](https://www.stltoday.com/news/local/metro/article_1aed54a0-225c-4b0f-8fea-83fd3e08313e.html) — *2026-07-27*
-  > Researchers placed four accordion-like nets in a stream that runs past the Forest Park golf course.
-- **NEW**  [[St. Louis] 'Ultimate' dog park pitched in St. Charles County. 'Going to be pretty massive.'](https://www.stltoday.com/news/local/stcharles/article_b691d2e5-1177-4b1b-ba8b-c067868f5b59.html) — *2026-07-27*
-  > The County Council will vote tonight on a $146,500 contract to design a new 68-acre park known as "Sundust Preserve," that will cater exclusively to dogs and their owners when it opens in late 2027.
-- **NEW**  [[St. Louis] When a rival comes to town: Hall of Famer Carlos Beltran’s milestone years with Cardinals](https://www.stltoday.com/sports/professional/mlb/cardinals/article_93c1c23c-7d19-406f-846f-8c8f2c7f3dd0.html) — *2026-07-27*
-  > Newly minted Baseball Hall of Famer spent two memorable seasons in St. Louis with the Cardinals. Take a look back at his time here through the stories the Post-Dispatch told.
-- **NEW**  [[St. Louis] Proposed tax on internet sales aims to help St. Louis County make ends meet](https://www.stltoday.com/news/local/government-politics/article_f3ba6581-9964-46fc-8eae-f0350d308104.html) — *2026-07-27*
-  > Proposition U is on the Aug. 4 primary ballot across the county. Some of the cash would also go to the St. Louis Zoo.
-- **NEW**  [[St. Louis] Man put glue in electrical outlets downtown, vendor says. St. Louis police investigate.](https://www.stltoday.com/news/local/metro/article_bc806525-075f-4239-abfd-e6e5f83a2653.html) — *2026-07-27*
-  > Video shows a man walking along Washington Avenue toward North Tucker Boulevard and pausing briefly by a light post while holding a small white bottle with a cone-shaped blue cap.
-- **NEW**  [[St. Louis] Looking back at Carlos Beltran's time as a Cardinal through stories](https://www.stltoday.com/sports/professional/mlb/cardinals/collection_ff6080bb-209d-4e58-ba96-ba6f38af67b9.html) — *2026-07-27*
-- **NEW**  [[St. Louis] See the July 27, 1926, front page: Charges revised, Bender defense obtains a delay](https://www.stltoday.com/news/archives/article_7876741a-bc5a-47a4-a154-12c75706e178.html) — *2026-07-27*
-  > Headlines from the July 27, 1926, front page include: George J. Tansey, widely known St. Louisan, dies.
-- **NEW**  [[St. Louis] Tate brothers to fight extradition to UK on sex crime charges, kicking off lengthy legal fight](https://www.ksdk.com/article/news/nation-world/tate-brothers-extradition-uk-arrest-rape-sex-trafficking-charges-court/507-9cd53e57-3d00-4717-834f-836531a7e3b0) — *2026-07-27*
-  > The new allegations are the latest in a long-running international legal saga involving the Tates that has spanned the U.S., Britain and Romania.
-- **NEW**  [[St. Louis] After voucher data leak, Missouri treasurer’s office pointed at its contractor](https://www.ksdk.com/article/news/politics/after-voucher-data-leak-missouri-treasurers-office-pointed-at-its-contractor/63-f6901535-e627-42a0-912c-00ff8a26339e) — *2026-07-27*
-  > ClassWallet, the largest software provider in the school-choice industry, says it hands the state unredacted data and has no say in what gets posted.
-- **NEW**  [[St. Louis] Man killed Saturday in Jennings moped crash](https://www.ksdk.com/article/traffic/jennings-moped-crash-jennings-station-road/63-e82dce11-0482-4605-b476-659d9702e815) — *2026-07-27*
-  > An SUV headed west on Jennings Station Road made a left turn, pulling into the path of an eastbound moped, police said.
-- **NEW**  [[St. Louis] Mediators see progress in diplomatic efforts to halt Iran war, regional officials say](https://www.ksdk.com/article/news/nation-world/attack-on-iran/united-states-iran-war-diplomacy-attacks-pause-mediators-negotiation/507-9b91babf-fc38-4851-9630-7447a214463e) — *2026-07-27*
-  > Neither the U.S. nor Iran reported any strikes for three days.
-- **NEW**  [[St. Louis] Thyroid medication described as 'subpotent drug' recalled by FDA](https://www.ksdk.com/article/money/personal-finance/recalls/thyroid-fda-subpotent-drug-levothyroxine-sodium/507-ca74581b-d837-42d9-a7d5-f90f0699abce) — *2026-07-27*
-  > As a Class II recall, the FDA warned that the thyroid drug could cause "temporary or medically reversible adverse health consequences."
-- **NEW**  [[St. Louis] Fiery wrong-way crash on I-64 leaves 2 dead, 1 critically injured](https://www.ksdk.com/article/traffic/wrong-way-crash-on-interstate-64-st-louis/63-da9f9616-5a2e-442e-a202-ab39cf0a6930) — *2026-07-27*
-  > The deadly crash happened late Sunday night on westbound I-64 at Jefferson Avenue.
-- **NEW**  [[St. Louis] Here's what we know about the victims of the Seattle Center shooting](https://www.ksdk.com/article/news/nation-world/seattle-shooting-center-bite-space-needle/507-52d2067c-a0e8-4688-a8f0-55cbdf9a639d) — *2026-07-27*
-  > Two people died at the scene of the shooting; another died in the hospital, where four others are being treated, officials said.
-- **NEW**  [[St. Louis] Police seek second suspect in deadly shooting at Seattle food festival that killed 3](https://www.ksdk.com/article/news/nation-world/seattle-shooting-space-needle-center/507-fdde05f6-4c33-4009-b071-f60f162fbe31) — *2026-07-27*
-  > Seven people were injured and three people were killed after a shooting Sunday evening during a festival near Seattle's Space Needle.
-- **NEW**  [[St. Louis] Ruler Foods closure leaves some south St. Louis residents searching for affordable groceries](https://www.ksdk.com/article/money/business/ruler-foods-south-grand-boulevard-closure-leaves-some-south-st-louis-residents-searching-for-affordable-groceries/63-2e6e6ca3-df04-4a91-a3f2-2d974e4107d1) — *2026-07-27*
-  > Ruler Foods will close its South Grand Boulevard store on July 31, leaving South St. Louis residents worried about losing affordable, walkable grocery access.
-- [[St. Louis] Suspect in deadly Berlin Pride attack is killed in a confrontation with police](https://www.ksdk.com/article/news/nation-world/suspect-berlin-pride-attack-killed-confrontation-police/507-2735b26d-db45-4d81-8da4-2c26bdc35fdd) — *2026-07-27*
-  > German authorities say the suspect in the deadly Berlin Pride attack that killed one person and left 29 injured was shot and killed by police during a confrontation.
-- **NEW**  [[St. Louis] Lakkzoom water heaters sold online recalled after 235 reports of the product catching fire](https://www.ksdk.com/article/news/nation-world/lakkzoom-water-heaters-recalled-fire-risk/507-1dd76590-b7c3-4a61-b61d-f2d20c07c39e) — *2026-07-27*
-  > The Lakkzoom immersion water heaters were sold on Amazon.com and eBay.com from September 2022 through July 2026.
+- **NEW**  [[St. Louis] Salt + Smoke barbecue restaurant to close St. Louis Hills, Ellisville locations](https://www.stltoday.com/article_30aff497-1408-421f-891d-748d3b40bbc7.html) — *2026-07-27*
+  > The location in St. Louis Hills and Ellisville will close Aug. 1. The six other locations will remain open and are “doing really well,” owner says.
+- **NEW**  [[St. Louis] GOLF/](https://www.stltoday.com/image_d8eb6d7c-1d5b-52ee-b80f-43db881715c4.html) — *2026-07-27*
+  > Jackson Koivun lines up a tee shot on the seventh hole during the third round of the 3M Open on Saturday in Blaine, Minn.
+- **NEW**  [[St. Louis] Nov 22, 2025; Stanford, California, USA; Stanford Cardinal players take possession of the axe after the game against the California Golden Bears at Stanford Stadium. Mandatory Credit: Sergio Estrada-Imagn Images](https://www.stltoday.com/image_3229a84a-342d-5cc0-96bd-e464bd465571.html) — *2026-07-27*
+  > Stanford players take possession of the axe after a victory over California at Stanford Stadium on Nov. 22 in Stanford, Calif.
+- **NEW**  [[St. Louis] Ameren pitches its third gas power plant in two years, this time in West Alton](https://www.stltoday.com/news/local/business/article_3e1b4b36-45c7-4446-8e85-77875e049c83.html) — *2026-07-27*
+  > Ameren is pitching another natural gas-fired power plant to state regulators, and wants customers to pay for costs of the project before it's in service.
+- **NEW**  [[St. Louis] Double Lives of Suburban Wives](https://www.stltoday.com/news/multimedia/image_64733363-3d42-590b-99af-12327d5c65ac.html) — *2026-07-27*
+  > Tammy and her husband Drew began discreetly filming their sex lives in college. They dabbled in the practice off and on for years, and now they make an income performing on OnlyFans. They are among the six couples from the…
+- **NEW**  [[St. Louis] 2026 Baseball Hall of Fame class represented the sport's greatest values | Opinion](https://www.stltoday.com/sports/professional/mlb/article_a3560218-7c31-5ff0-b8d5-dea39f1637fb.html) — *2026-07-27*
+  > The new Hall of Fame trio of Jeff Kent, Carlos Beltran and Andruw Jones were here to remind everyone that the traditional statistics should still matter.
+- **NEW**  [[St. Louis] Double Lives of Suburban Wives](https://www.stltoday.com/news/multimedia/image_c85a88bd-8ba0-5525-b6f6-fad1b6e45764.html) — *2026-07-27*
+  > Brianna, who is featured on the new TLC reality series "Double Lives of Suburban Wives," made international headlines when it was revealed that the St. Charles High School teacher had a sexually explicit OnlyFans account. She has since made millions…
+- **NEW**  [[St. Louis] Double Life of Suburban Wives](https://www.stltoday.com/news/multimedia/image_29c60ca2-b907-5c86-a547-7d9281c18f3b.html) — *2026-07-27*
+  > The new 6-episode TLC show "Double Lives of Suburban Wives" follows six St. Louis-area couples as they make adult content for an online service. The show begins at 9 p.m. Aug. 9.
+- **NEW**  [[St. Louis] IMG_3877-scaled-e1785180368241-1536x922.jpg](https://www.stltoday.com/image_bea9b246-2bf1-4352-9fe2-93326f8ddc23.html) — *2026-07-27*
+  > The Planned Parenthood clinic in Springfield began offering medication abortion appointments on Monday after the city went more than 20 years without a local provider (photo submitted).
+- **NEW**  [[St. Louis] Vashon's Jimmy McKinney III commits to SLU. 'It's a big family over there.'](https://www.stltoday.com/sports/college/slu/article_05949fa8-d4b8-4a16-a4d4-91b7e460a96e.html) — *2026-07-27*
+  > Jimmy McKinney III is the third highly regarded area high school player who has chosen to play for the Billikens in recent months.
+- **NEW**  [[St. Louis] Overland couple shot dead in Guatemala after local ICE stop led to deportations](https://www.stlpr.org/law-order/2026-07-27/overland-missouri-couple-killed-guatemala-deportations) — *2026-07-27*
+- **NEW**  [[St. Louis] Missouri reports nearly 600 cyclospora illnesses as Illinois added to federal outbreak investigation](https://www.stlpr.org/news-briefs/2026-07-27/missouri-reports-600-cyclospora-illnesses-illinois-added-to-federal-outbreak-investigation) — *2026-07-27*
+- **NEW**  [[St. Louis] Ameren Missouri asks to build new natural gas plant — and have customers pay up front](https://www.stlpr.org/health-science-environment/2026-07-27/ameren-missouri-build-new-natural-gas-plant-west-alton) — *2026-07-27*
+- **NEW**  [[St. Louis] More days of extreme heat could mean more water main breaks for St. Louis](https://www.stlpr.org/health-science-environment/2026-07-27/more-extreme-heat-more-water-main-breaks-st-louis) — *2026-07-27*
+- **NEW**  [[St. Louis] VonDras says 2nd District nominee needs to reach more than Democrats to beat Wagner](https://www.stlpr.org/podcast/politically-speaking/2026-07-27/vondras-2nd-district-nominee-democrats-wagner) — *2026-07-27*
 
-_(169 additional items in raw.jsonl)_
+_(204 additional items in raw.jsonl)_

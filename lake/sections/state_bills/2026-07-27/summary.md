@@ -4,7 +4,7 @@ title: State Legislative Action
 date: 2026-07-27
 record_count: 14
 new_today: 0
-state: fresh
+state: stale_after_failure
 ---
 
 ## State Legislative Action

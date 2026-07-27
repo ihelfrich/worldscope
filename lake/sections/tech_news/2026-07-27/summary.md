@@ -3,28 +3,54 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-27
 record_count: 57
-new_today: 23
+new_today: 46
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-23 new of 57 total items today.
+46 new of 57 total items today.
 
-- **NEW**  [[The Hacker News] Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html) — *2026-07-27*
-  > The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.
+- **NEW**  [[BleepingComputer] Arista patches VeloCloud Orchestrator zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/) — *2026-07-27*
+  > Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]
+- **NEW**  [[BleepingComputer] New Dysphoria DDoS botnet spreads to 200k devices worldwide](https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/) — *2026-07-27*
+  > A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]
+- **NEW**  [[BleepingComputer] New Certighost PoC exploit lets attackers hijack Windows domains](https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/) — *2026-07-27*
+  > A proof-of-concept exploit for "Certighost," a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]
+- **NEW**  [[BleepingComputer] Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin](https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/) — *2026-07-27*
+  > Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]
+- **NEW**  [[BleepingComputer] Coca-Cola confirms data theft in Fairlife ransomware attack](https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/) — *2026-07-27*
+  > The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]
+- **NEW**  [[The Hacker News] NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework](https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html) — *2026-07-27*
+  > NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.
 
-According to a new analysis by Proofpoint, 
-- **NEW**  [[The Hacker News] TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments](https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html) — *2026-07-27*
-  > Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.
+The 37-member group spans cloud, security, enterprise software, and AI companies
+- **NEW**  [[The Hacker News] Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption](https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html) — *2026-07-27*
+  > Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to 
+- **NEW**  [[The Hacker News] Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw](https://thehackernews.com/2026/07/public-exploit-released-for-patched.html) — *2026-07-27*
+  > Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.
 
-The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, an
-- **NEW**  [[The Hacker News] GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption](https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html) — *2026-07-27*
-  > GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.
+SSD Secure Disc
+- **NEW**  [[The Hacker News] ⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More](https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html) — *2026-07-27*
+  > Monday starts with the usual promise that everything is under control. Then the logs wake up.
 
-"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose 
+This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at fir
+- **NEW**  [[The Hacker News] n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process](https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html) — *2026-07-27*
+  > n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another 
+- **NEW**  [[The Record] Outdated VPNs should be purged from federal agencies, senator says](https://therecord.media/federal-purge-outdated-vpns-wyden-letter) — *2026-07-27*
+  > Intelligence Committee member Ron Wyden wants CISA, OMB and NIST to lead a federal effort to rout out obsolete VPNs from the U.S. government.
+- **NEW**  [[The Record] UK court rejects Bahrain immunity claim in spyware case](https://therecord.media/uk-court-rejects-bahrain-immunity-claim-spyware-case) — *2026-07-27*
+  > The alleged hacking by officials in Bahrain “allowed access to and exfiltration of information on the computers, interception of communications conducted using the computers and use of the computers’ microphones and cameras to surveil the respondents,” according to the court opin
+- **NEW**  [[The Record] Health system in South Carolina, Georgia closes offices after malware affects networks](https://therecord.media/health-system-south-carolina-georgia-disruptions-malware) — *2026-07-27*
+  > On Sunday, AnMed published a statement online saying they were “experiencing a cybersecurity disruption involving malware” and were working to restore systems and determine the scope of the incident.
+- **NEW**  [[The Record] Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis](https://therecord.media/telegram-belarus-activist-russia-cyberattack) — *2026-07-27*
+  > Researchers have uncovered a highly personalized phishing campaign that used Telegram to try to hijack the account of an exiled Belarusian activist, as well as users in Russia and Kazakhstan.
 - **NEW**  [[The Record] Hackers used autonomous AI agent to spy on Thailand's finance ministry](https://therecord.media/thailand-hackers-ai-finance-ministry) — *2026-07-27*
   > Hackers used an autonomous artificial intelligence agent to carry out a cyber-espionage campaign against Thailand's Ministry of Finance, researchers discovered.
+- **NEW**  [[Cybersecurity Dive] Coca-Cola restores most production capacity at dairy unit after ransomware attack](https://www.cybersecuritydive.com/news/coca-cola-restores-most-production-capacity-at-dairy-unit-after-ransomware/826250/) — *2026-07-27*
+  > The company said it does not expect the Fairlife disruption to have a material impact on financial performance or operations.&nbsp;
+- **NEW**  [[Cybersecurity Dive] Tech industry giants say US must embrace openness, transparency in AI](https://www.cybersecuritydive.com/news/ai-open-source-weights-tech-industry-promote/826240/) — *2026-07-27*
+  > Open-source and open-weight AI models are essential cybersecurity tools, two groups of major AI and security firms said.
 - **NEW**  [[Cybersecurity Dive] In the Mythos era, security belongs at runtime](https://www.cybersecuritydive.com/spons/in-the-mythos-era-security-belongs-at-runtime/825478/) — *2026-07-27*
   > Frontier AI cut time-to-exploit from years to hours. Why defense now has to happen at runtime.
 - **NEW**  [[Cybersecurity Dive] What the Trojan horse gets right (and wrong) about AI security](https://www.cybersecuritydive.com/spons/what-the-trojan-horse-gets-right-and-wrong-about-ai-security/825935/) — *2026-07-27*
@@ -32,47 +58,15 @@ The intrusions have resulted in the deployment of previously unreported malware 
 - **NEW**  [[Schneier on Security] Cognyte Sells a Mobile Cell Surveillance Van](https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html) — *2026-07-27*
   > Yet another Israeli mass surveillance company:
 Made by Israeli surveillance company Cognyte, the tech simulates a mobile phone tower, which forces nearby phones to connect to it. That enables cops to keep tabs on any phones in the vicinity ­ whether they’re owned by a suspect in 
-- **NEW**  [[The Register] Microsoft seeks Supreme Court lifeline in pre-owned license battle](https://www.theregister.com/software/2026/07/27/microsoft-seeks-supreme-court-lifeline-in-pre-owned-license-battle/5278823) — *2026-07-27*
-  > £270M ValueLicensing case remains mostly paused while Redmond pursues permission to appeal
-- **NEW**  [[The Register] Digital sovereignty is real in Europe. The UK? Not so much](https://www.theregister.com/columnists/2026/07/27/digital-sovereignty-is-real-in-europe-the-uk-not-so-much/5276852) — *2026-07-27*
-  > Trump's unpredictability is pushing governments and businesses toward open source while Britain remains glued to US tech
-- **NEW**  [[The Register] The roller coaster works, but the Six Flags kiosk has gone off the rails](https://www.theregister.com/offbeat/2026/07/27/the-roller-coaster-works-but-the-six-flags-kiosk-has-gone-off-the-rails/5276467) — *2026-07-27*
-  > Would you like an error with your terror?
-- **NEW**  [[The Register] FOSS smashed one Microsoft monopoly. After 20 years of failure, it's time to smash another](https://www.theregister.com/columnists/2026/07/27/foss-smashed-one-microsoft-monopoly-after-20-years-of-failure-its-time-to-smash-another/5278040) — *2026-07-27*
-  > Word up
-- **NEW**  [[The Register] Google goes it alone with a new cybercrime crew taxonomy](https://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749) — *2026-07-27*
-  > So much for Microsoft and CrowdStrike’s plans for consistent names across the industry
-- **NEW**  [[Ars Technica] Artist sues AI meme generator for selling deeply personal comic as ad template](https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/) — *2026-07-27*
-  > Meme generator may have screwed up by using templates in outputs, expert says.
-- **NEW**  [[Computer Weekly] Why some VMware customers pay for upgrades they never use](https://www.computerweekly.com/opinion/Why-Some-VMware-customers-pay-for-upgrades-they-never-use) — *2026-07-27*
-  > &lt;p&gt;A growing number of VMware customers are doing something that looks contradictory on paper: renewing their &lt;a href="https://www.computerweekly.com/news/366645022/Nationwide-bets-on-VCF-as-Broadcom-responds-to-Tesco"&gt;VMware Cloud Foundation (VCF) subscriptions&lt;/a
-- **NEW**  [[Computer Weekly] AI agents move from experiment to operations in UAE retail](https://www.computerweekly.com/news/366646185/AI-agents-move-from-experiment-to-operations-in-UAE-retail) — *2026-07-27*
-  > &lt;p&gt;The UAE’s retail sector is entering a new phase of digital transformation. While &lt;a href="https://www.computerweekly.com/resources/IT-for-retail-and-logistics" target="_blank" rel="noopener"&gt;e-commerce&lt;/a&gt; continues to expand and consumer expectations evolve,
-- **NEW**  [[Computer Weekly] CW@60: Being there at the start of business computing](https://www.computerweekly.com/feature/CW60-Being-there-at-the-start-of-business-computing) — *2026-07-27*
-  > &lt;div class="imagecaption alignLeft"&gt;
- &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
-&lt;/div&gt; 
-&lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
-- **NEW**  [[Computer Weekly] Why every SaaS platform needs a sanctions kill switch](https://www.computerweekly.com/opinion/Why-every-SaaS-platform-needs-a-sanctions-kill-switch) — *2026-07-27*
-  > &lt;p&gt;For years, sanctions compliance in software companies has been somebody else’s job. The working assumption ran roughly as follows:&lt;/p&gt; 
-&lt;ul class="default-list"&gt; 
- &lt;li&gt;do not take payment from a designated customer;&lt;/li&gt; 
- &lt;li&gt;screen the cus
-- **NEW**  [[MIT Technology Review] The Download: lasers for nuclear fuel, and organ preservation advances](https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/) — *2026-07-27*
-  > This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&#160; Nuclear power provides about 9% of global electricity today, and tha
-- **NEW**  [[MIT Technology Review] The path to artificial superintelligence](https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/) — *2026-07-27*
-  > Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange da
-- **NEW**  [[MIT Technology Review] Closing the data loop in AI-driven drug discovery](https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/) — *2026-07-27*
-  > Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today,
-- **NEW**  [[MIT Technology Review] Building the enterprise environment for agentic AI](https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/) — *2026-07-27*
-  > For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resi
-- **NEW**  [[TechCrunch] Europe got its own TBPN-style live show, and everyone’s angling for a guest spot](https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/) — *2026-07-27*
-  > On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), the popular media publication LadBible, and angel investors from OpenAI and DeepMind. Wit
-- **NEW**  [[TechCrunch] Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/) — *2026-07-27*
-  > Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.
-- [[BleepingComputer] GitHub, PyPI add time-based defenses against supply chain attacks](https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/) — *2026-07-26*
-  > GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]
-- [[Ars Technica] First teaser for Apple TV's Neuromancer debuts at SDCC](https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/) — *2026-07-26*
-  > Plus Mike Flanagan's Carrie teaser, trailers for Dark Matter S2 and Matchbox the Movie, and Marvel news.
+- **NEW**  [[The Register] Leading AI models (even Grok) are all a bunch of leftist punks](https://www.theregister.com/ai-and-ml/2026/07/27/leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks/5279208) — *2026-07-27*
+  > AI seems to have a liberal bias
+- **NEW**  [[The Register] Jensen puts his thumb on the scales against open-weights fearmongering](https://www.theregister.com/ai-and-ml/2026/07/27/jensen-puts-his-thumb-on-the-scales-against-open-weights-fearmongering/5279194) — *2026-07-27*
+  > American AI flag bearers get in line, at least on paper
+- **NEW**  [[The Register] Microsoft lays out a buffet of Windows goodies for JavaScript Developers](https://www.theregister.com/devops/2026/07/27/microsoft-lays-out-a-buffet-of-windows-goodies-for-javascript-developers/5279244) — *2026-07-27*
+  > Just don’t call the WinRT projection for Node.js a lock-in
+- **NEW**  [[The Register] Impostor Chinese models pretend they're Claude](https://www.theregister.com/ai-and-ml/2026/07/27/impostor-chinese-models-pretend-theyre-claude/5279165) — *2026-07-27*
+  > Researchers find GLM and Kimi can adopt Claude's identity, but the evidence stops short of proving distillation
+- **NEW**  [[The Register] Microsoft's solution to AI security: more AI and more acronyms](https://www.theregister.com/security/2026/07/27/microsofts-solution-to-ai-security-more-ai-and-more-acronyms/5279140) — *2026-07-27*
+  > MDASH stuffed with MAI-Cyber-1-Flash and a side of GPT-5.4
 
 _(32 additional items in raw.jsonl)_
