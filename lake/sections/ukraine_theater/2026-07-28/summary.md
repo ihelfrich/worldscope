@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-28
 record_count: 530
-new_today: 162
+new_today: 163
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-162 new of 530 total items today.
+163 new of 530 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-07-28*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -19,7 +19,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3B1Zkt4aksxNGlEVzVVUFYzQUZOTjNTWlJTV0ltRWp1RXBGWGNGZW5hbUFFTmtyWkgwRksybnNMX3VBTUthZ2NBNGxFTmt0X1Zad2tuRW94Z0ltMU1LdUhpcGI2RkRSclNObXZ4MW5ycDBfWEE5Mkh0c19vUWZqODJEYVIyWVVVRENRSlVSUW14UEtw?oc=5" target="_blank">Tokayev
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
-- [[Liveuamap] Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com - Liveuamap](https://sudan.liveuamap.com) — *2026-07-28*
+- [[Liveuamap] Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com - Liveuamap](https://sudan.liveuamap.com) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE1sNnFTQXBqUXNtb2h1bGNKMkdvZHM2RTZlVUdCdWtZTi1Kal93ekNNdUJRZUJsTlA0bUdXWWlFVUlpZw?oc=5" target="_blank">Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com</a>&nbsp;&nbsp
 - [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L

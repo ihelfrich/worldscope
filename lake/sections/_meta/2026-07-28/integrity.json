@@ -1,7 +1,7 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T09:43:32Z",
-  "summary": "Data integrity \u00b7 31/42 sections fresh \u00b7 4 failing (acled, gdacs, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 3 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-07-28T09:58:52Z",
+  "summary": "Data integrity \u00b7 31/42 sections fresh \u00b7 5 failing (acled, gdacs, gdelt_gkg, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
@@ -15,6 +15,14 @@
       "section_id": "gdacs",
       "status": "FAILED",
       "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDACS request failed: HTTPSConnectionPool(host='www.gdacs.org', port=443): Read timed out. (read time",
+      "last_record_date": "2026-07-27",
+      "today_count": 0,
+      "consecutive_failures": 1
+    },
+    {
+      "section_id": "gdelt_gkg",
+      "status": "FAILED",
+      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT returned nothing for any query (rate-limited / blocked)",
       "last_record_date": "2026-07-27",
       "today_count": 0,
       "consecutive_failures": 1
@@ -47,14 +55,6 @@
       "section_id": "mediacloud",
       "status": "NO_KEY",
       "reason": "required credential not set: MEDIACLOUD_API_KEY",
-      "last_record_date": "2026-07-28",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "conflict",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-07-28 (0d)",
       "last_record_date": "2026-07-28",
       "today_count": 0,
       "consecutive_failures": 0
@@ -94,17 +94,17 @@
     {
       "section_id": "billionaires",
       "status": "FRESH",
-      "reason": "37 records today",
+      "reason": "38 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 37,
+      "today_count": 38,
       "consecutive_failures": 0
     },
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "160 records today",
+      "reason": "161 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 160,
+      "today_count": 161,
       "consecutive_failures": 0
     },
     {
@@ -121,6 +121,14 @@
       "reason": "2 records today",
       "last_record_date": "2026-07-28",
       "today_count": 2,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "conflict",
+      "status": "FRESH",
+      "reason": "40 records today",
+      "last_record_date": "2026-07-28",
+      "today_count": 40,
       "consecutive_failures": 0
     },
     {
@@ -174,9 +182,9 @@
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "720 records today",
+      "reason": "731 records today",
       "last_record_date": "2026-12-28",
-      "today_count": 720,
+      "today_count": 731,
       "consecutive_failures": 0
     },
     {
@@ -188,27 +196,19 @@
       "consecutive_failures": 0
     },
     {
-      "section_id": "gdelt_gkg",
-      "status": "FRESH",
-      "reason": "48 records today",
-      "last_record_date": "2026-07-28",
-      "today_count": 48,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "gdelt_regions",
       "status": "FRESH",
-      "reason": "30 records today",
+      "reason": "12 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 30,
+      "today_count": 12,
       "consecutive_failures": 0
     },
     {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "54 records today",
+      "reason": "46 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 54,
+      "today_count": 46,
       "consecutive_failures": 0
     },
     {
@@ -246,9 +246,9 @@
     {
       "section_id": "paper_bets",
       "status": "FRESH",
-      "reason": "133 records today",
+      "reason": "131 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 133,
+      "today_count": 131,
       "consecutive_failures": 0
     },
     {
@@ -262,9 +262,9 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "670 records today",
+      "reason": "686 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 670,
+      "today_count": 686,
       "consecutive_failures": 0
     },
     {
@@ -278,25 +278,25 @@
     {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "61 records today",
+      "reason": "65 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 61,
+      "today_count": 65,
       "consecutive_failures": 0
     },
     {
       "section_id": "tech_news",
       "status": "FRESH",
-      "reason": "12 records today",
+      "reason": "13 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 12,
+      "today_count": 13,
       "consecutive_failures": 0
     },
     {
       "section_id": "ukraine_theater",
       "status": "FRESH",
-      "reason": "95 records today",
+      "reason": "96 records today",
       "last_record_date": "2026-07-28",
-      "today_count": 95,
+      "today_count": 96,
       "consecutive_failures": 0
     },
     {
@@ -326,9 +326,9 @@
     {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "120 records today",
+      "reason": "119 records today",
       "last_record_date": "2026-07-29",
-      "today_count": 120,
+      "today_count": 119,
       "consecutive_failures": 0
     },
     {

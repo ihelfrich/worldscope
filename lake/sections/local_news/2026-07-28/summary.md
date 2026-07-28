@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-28
-record_count: 224
-new_today: 91
+record_count: 215
+new_today: 74
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-91 new of 224 total items today.
+74 new of 215 total items today.
 
 - **NEW**  [[St. Louis] Where Art Thou? – 7/28/2026](https://www.stlmag.com/games/where-art-thou-072826/) — *2026-07-28*
   > <p>Recognize this St. Louis art? Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer and get your 
@@ -31,32 +31,26 @@ state: fresh
   > <p>A second food vendor has committed to Wash Ave Food Hall (1122 Washington), the downtown dining and social destination that&#8217;s slated to open in October. Little BAO, the fast-casual sidekick to The BAO (14 N. Central) in Clayton, will offer bao, rice bowls, udon noodle bo
 - [[St. Louis] How a St. Louis insurance exec used AI to help his wife’s facial paralysis](https://www.stlmag.com/news/dynaface-jeff-heaton-rga/) — *2026-07-27*
   > <p>Jeff Heaton turned to research when his wife, Tracy, suffered from left-sided facial paralysis following brain surgery.&#160; “I wanted to make sure she had the best options and the best care,” says Jeff, vice president of Artificial Intelligence Innovation at Reinsurance Grou
-- **NEW**  [[St. Louis] 2 injured in overnight shooting in Pacific - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5GbkI5VkgzNnJrT2tCZllEMVljWXdLM2VqcUNmUXRwbFc0MVZPWVlHeEF3aUFDSGt6Z0VWbXhwQTNDcEl1MWVBUlhqN3JWbTFjN0paWV9WdGdicy1hdzdYdDJHT0w1akpIa1N1UWQ5MHVOQzh5MUZrLWJabzlBMU9R?oc=5" target="_blank">2 injured in overnight shooting
-- **NEW**  [[St. Louis] Wrong-way crash on I-64 kills 2, injures 1 near downtown St. Louis - First Alert 4](https://www.firstalert4.com) — *2026-07-27*
-  > <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0d6c2ZrcGtFalJQRFdKNXRtSEhERWJBV3ZfVGUwSU5paE5rdllkSFlmUDVsdmRCVXJXa3UtZEh2eFRUQXNZbm9uOGMtd3BvVE5WcTF4QUN3ZEJFZ3BEOUJxLXN4RmZRVF9BbDlmUkYwU01mXzgwbjYxaDlFcTcwQVduTUZLOEtvQXI0OU5hNGhOOE1OZ1VFV21xbU1TWF9UbXhj0gG3AUFVX3
-- **NEW**  [[St. Louis] Salt + Smoke to close 2 locations - First Alert 4](https://www.firstalert4.com) — *2026-07-27*
-  > <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1Yd1hVWld5dEhFdWNRVmJMZC0wS1BmbkJkUG1qbGFCVzZ6X0tiYmxXZTdrV3ZveFJ3ZzF0ZTEwWEJESzd6X0RKaVUyM2xYNV8wX0pGRmYxV3ExNzNERnlyQnR0SzFwSVpmVlYyZGNLQVZCSTRCZlU4?oc=5" target="_blank">Salt + Smoke to close 2 locations</a>&nbsp;&nbs
-- **NEW**  [[St. Louis] Nearly 1,200 police calls logged in two-block area where downtown St. Louis stabbing occurred - First Alert 4](https://www.firstalert4.com) — *2026-07-27*
-  > <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQUUNkdGpFejQ2VElkN3NoWU4wTjd0MVdSZGtPbThNMXJGNXdEVjJhQkNNaFFTRHVBMkNwMEx1SVNmY25ERTRMZVJHNk1LMlJvWk5QX0FyTFpmc0x3SjFtXzg5aEZ0NEEzdGIzUEJVeHZ4VXJSOFl6dWxXeE1teGFUUjR5QjZvRjM0SjZFaS1UeDBWUU4tWnUya1RSakRZU1MtbEtQYnhtSDgzYj
-- **NEW**  [[St. Louis] New shopping center in Glen Carbon bringing 21 businesses to Metro East - First Alert 4](https://www.firstalert4.com) — *2026-07-28*
-  > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNnBrWWhBZGNiaU92V2dKSC1oUFVnVmg3a21WUkhsSktFV2xtaFJXY1BWOFoxaXRGTU1mcElTMkNjcFZzeTBUR201ZnY4amlORHp6UFhJbGtFRGJCaVE4eW50bDlNYzVoVHhYTG1ELTRJSEphdU03OGNlSUZRSGZaVnMwSVBjOU5uUXhuakFTT2RCTlRIZ0M2N1BiR05yZzF0WHlXYVE3UjXSAb
-- **NEW**  [[St. Louis] Mother, daughter die after weekend shooting in House Springs - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNbk83U1J0N1JGWjk2MmNDWWVzLWo2UGRXY1V3NllLT2tsRlhsZ2c3eVFLNHJXMmFxNDVEYUpLXzFBMTZieFE3Yy02YmpqVGhfYzhPcC1hZlJTYlB5Y1doWmluWE5ZTjllRnk4NXJYUmltZkdxejd0WWQ0ZmNQQzZBZnNZYjJPYXFjTnRKTnlydjBGcXIxWW54Q1BFZnJMZ0VWamhWQjl4SVEyUm
-- **NEW**  [[St. Louis] One person dead in Friday night shooting in Alton - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWU54Zl9VaVN6NkJ2MGg1VmNxZ0NFaE44aTA2YVM2X1hpTHJlZmpXYkZRVUhoUUZXSFh6NlR0M1BPM1UwWXRIS01wX29RakRZb1AwZzNXTXlmamh5dVFocWh2cDQ0UUlNVHoyWTFRNUFPUmpUNVVJMFdmX3dlTGNYdVIzNDJlTEpxbWdJ0gGfAUFVX3lxTE9QX0w3U3M0TjFRRjZ0SGxGMWlwRm
-- **NEW**  [[St. Louis] Crime concerns return following downtown stabbing near Mark Twain Hotel - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQcUN3dnVZTUNYY2xsdkdpR3AtTVpkR05FRmdFcm5fLW9ZQVRLemtzR3VyRDFBN3dhX19rR2UyUXl0VVA5VWM3dU1sa3J6UkVmdXd6dGpZdEdKVWdqbnZKZzBPanhPaTcyaXRwNHJIdUJjYWUyMm82TjN3ZHlpSTVhWWxWZzV0OW9OWFVmcXBVR0VPME1NLVFBM2VvUkFWWTJCSVpweU1ydlBjNU
-- **NEW**  [[St. Louis] Crews respond to coal train derailment near Eureka - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPLXRzZFUwby1xX3ppeUptQnMxbXJscmItMUx6UlBjYlZJeUQ4NmxFd2NTYncwYWFNLVB2enF5eDdUd0pta20yNHI3N3lJTXpjcUJoYlNlZUZFOHRvLVNseVVfS0VtQVh4c1YyYUNPZXdfanFSN1h4emE1ZXdOZWhxaWRFdV9DcHlGQ0HSAZ4BQVVfeXFMTnJQM29XOEhMU1c5TUg3Vlh3LUlwem
-- **NEW**  [[St. Louis] Man drowns at Lake of the Ozarks Saturday afternoon - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOanB0a3B0VkxDR1NIeUQzdEVSbkJGVnJxS2lMNTREd2JURjNQeWpZcVkwS0hXVnNwN2hRcVRSUllFT3FFVFkySFJuVi11Z0tfQllneUU5SDVIWlRUMVlaQlpvWEJ0eUE0T25SMjhpTnlsVm81RFdvNW02ck5OT25IZnhQRi1sZDVE?oc=5" target="_blank">Man drowns at Lake of t
-- **NEW**  [[St. Louis] St. Charles man drowns in the White River after medical emergency - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNTS1hb0d6OXRseUZYT2NVb1NhN3p6d01SQWROc3pmcng2bjVXU3ZyOGJfR3AxVUc2WFg5aXRXcWpmdVNTQ0ljUElWU29KWldCNFg5azhPZVoyOVI4MVE0LWRTaHQxZDNtcTVqeXlzYjN0bTFYYWZPX0ZXVXlOcFlkZV9JUFI0YjVZTVFGOEhvTlNzS25BaGN3RDZ3VWlxdw?oc=5" target="_
-- **NEW**  [[St. Louis] Police investigate after woman is shot in Ferguson - First Alert 4](https://www.firstalert4.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0dROERXMnQ3WnlNWW02VGh5cDltc0RpYXRDVGFLek5YZjZjcTFBVk0wUnZScENidTRMSzFreWM2QWpOQW5WMjBlbS10UnNaZWllVHRoSUdIZWtFRnphaDlqYzBoal8xdEdHaGk1cjJ4aXhTQkgtZGZfVGpXczZMMVFtRnlaX3BoLUx0WGdpbUw?oc=5" target="_blank">Police inves
 - [[St. Louis] Overland couple shot dead in Guatemala after local ICE stop led to deportations](https://www.stlpr.org/law-order/2026-07-27/overland-missouri-couple-killed-guatemala-deportations) — *2026-07-27*
 - [[St. Louis] Missouri reports nearly 600 cyclospora illnesses as Illinois added to federal outbreak investigation](https://www.stlpr.org/news-briefs/2026-07-27/missouri-reports-600-cyclospora-illnesses-illinois-added-to-federal-outbreak-investigation) — *2026-07-27*
 - [[St. Louis] Ameren Missouri asks to build new natural gas plant — and have customers pay up front](https://www.stlpr.org/health-science-environment/2026-07-27/ameren-missouri-build-new-natural-gas-plant-west-alton) — *2026-07-27*
+- [[St. Louis] More days of extreme heat could mean more water main breaks for St. Louis](https://www.stlpr.org/health-science-environment/2026-07-27/more-extreme-heat-more-water-main-breaks-st-louis) — *2026-07-27*
+- [[St. Louis] Should Illinois require IDs to vote? Madison County residents will be asked in November](https://www.stlpr.org/government-politics-issues/2026-07-27/illinois-require-ids-vote-madison-county-asked-november) — *2026-07-27*
+- [[St. Louis] VonDras says 2nd District nominee needs to reach more than Democrats to beat Wagner](https://www.stlpr.org/podcast/politically-speaking/2026-07-27/vondras-2nd-district-nominee-democrats-wagner) — *2026-07-27*
+- [[St. Louis] 3 Republicans vie for Franklin County presiding commissioner](https://www.stlpr.org/government-politics-issues/2026-07-27/3-republicans-vie-for-franklin-county-presiding-commissioner) — *2026-07-27*
+- [[St. Louis] Black women in St. Louis area face disparities in breast cancer detection and treatment](https://www.stlpr.org/health-science-environment/2026-07-27/black-women-st-louis-area-face-disparities-breast-cancer-detection-treatment) — *2026-07-27*
+- [[St. Louis] A new law aims to make U.S. housing more affordable. This WashU professor says it doesn’t do enough](https://www.stlpr.org/economy-business/2026-07-27/new-law-housing-affordable-washu-professor-not-enough) — *2026-07-27*
+- **NEW**  [[Atlanta] 3 people killed at Seattle Center identified; victims honored in candlelight vigil](https://www.11alive.com/article/news/nation-world/seattle-shooting-center-vigil/507-e80b8c85-74aa-49b4-b580-48ef4eafc0b7) — *2026-07-28*
+  > The King County Medical Examiner released the names of the 44-year-old man, the 19-year-old man and the 56-year-old woman who died in Sunday's shooting.
+- **NEW**  [[Atlanta] 'I hear you need a kidney': Fan saves life of longtime Ohio sports announcer with paired donation](https://www.11alive.com/article/news/nation-world/toledo-hockey-fan-saves-life-of-longtime-ohio-sports-announcer-kidney-donation/507-ac59f1b0-555f-4f65-9eda-c775f5ef2360) — *2026-07-28*
+  > The longtime Toledo, Ohio, sports announcer will receive a kidney July 29 through a paired donation set in motion by a fan he had never met.
+- [[Atlanta] Thousands of T-Mobile customers across US report outage](https://www.11alive.com/article/news/nation-world/t-mobile-users-outage-latest-updates/507-f6be3924-a4ec-4b38-a90f-67e64fa3dccc) — *2026-07-28*
+  > Thousands of T-Mobile customers across major U.S. cities experienced service outages affecting texting, internet and streaming Monday, according to Downdetector.
+- **NEW**  [[Atlanta] Prescription drug recall: Papaverine injection possibly contaminated with glass and other matter](https://www.11alive.com/article/news/nation-world/american-regent-recall-papaverine-hydrochloride-contamination/507-3e6e652d-9a50-484f-8d2b-0db29e911b6b) — *2026-07-28*
+  > American Regent recalled a batch of Papaverine Hydrochloride Injection medication after finding glass and other matter in vials.
+- [[Atlanta] Kohberger petitions to withdraw guilty plea in Idaho student killings](https://www.11alive.com/article/news/nation-world/bryan-kohberger-university-of-idaho-student-murder-withdraw-guilty-plea/507-19df3964-25b1-413b-a70d-60d60ac63510) — *2026-07-28*
+  > Bryan Kohberger, who was convicted of murder, says he is innocent and wants the case reopened, the New York Times first reported.
+- **NEW**  [[Atlanta] $633M Powerball: Winning numbers for Monday, July 27, 2026](https://www.11alive.com/article/news/nation-world/633m-powerball-winning-numbers-monday-july-27-2026/507-8e4d6589-e84e-49b5-bf4f-b04cf8fcec3f) — *2026-07-28*
+  > The Powerball jackpot increased to $633 million Monday with a $277.3 million lump sum cash option.
 
-_(199 additional items in raw.jsonl)_
+_(190 additional items in raw.jsonl)_

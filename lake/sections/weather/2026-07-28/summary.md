@@ -11,32 +11,28 @@ state: fresh
 
 161 new of 172 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-38030) — *2026-07-28*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52635) — *2026-07-28*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 28 at 2:18AM MST until July 28 at 3:00AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab1cd47a29e24af944937c89439a486a37e2361e.001.1) — *2026-07-28*
-  > SVRTWC
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 28 at 2:42AM MST until July 28 at 3:00AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75f899822588bdaa7f2e8b6ad6ca46921b944934.001.1) — *2026-07-28*
+  > At 242 AM MST, a severe thunderstorm was located 11 miles west of
+Three Points, moving northwest at 25 mph.
 
-The National Weather Service in Tucson has issued a
-
-* Severe Thunderstorm Warning for...
-Central Pima County in southeastern Arizona...
-
-* Until 300 AM MST.
-
-* At 218 AM MST, a severe thunderstorm was located near Three Points,
-moving northwest at 25 mph.
-
-HAZARD...60 mp
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 28 at 5:13AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b34cfbbf0f1d9f8bfa263f6b5de69dd943d42dc1.001.1) — *2026-07-28*
-  > At 513 AM EDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 9 miles southwest of Hide-A-Way Hills to 8
-miles north of South Webster. Movement was southeast at 45 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+HAZARD...60 mph wind gusts and quarter size hail.
 
 SOURCE...Radar indicated.
 
-I
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, siding, and trees.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 28 at 5:37AM EDT until July 28 at 7:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.022f5e0f8d29e20f67487fbe31ce89db07c68a63.001.1) — *2026-07-28*
+  > SMWTAE
+
+The National Weather Service in Tallahassee has issued a
+
+* Special Marine Warning for...
+Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
+Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
+20 NM...
+Waters from Mexico Beach to Apalachicola FL
 - **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 28 at 5:06AM EDT until July 28 at 11:00AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7672756ee609af72ea319479b970cfa357a3aaf6.001.1) — *2026-07-28*
   > * WHAT...Visibility 1/4 mile or less in dense fog.
 
@@ -159,6 +155,15 @@ expected.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.011.1) — *2026-07-28*
+  > * WHAT...High temperatures in the mid 80s to lower 90s for higher
+coastal terrain expected.
+
+* WHERE...Orange County Coastal Areas.
+
+* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.006.1) — *2026-07-28*
   > * WHAT...Dangerously hot conditions with high temperatures in the
 mid 90s in the western valleys to around 105 near the foothills
@@ -169,15 +174,6 @@ expected.
 * WHEN...From 10 AM Friday to 8 PM PDT Sunday.
 
 * IMPACTS...Heat related illnesses increase significan
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.011.1) — *2026-07-28*
-  > * WHAT...High temperatures in the mid 80s to lower 90s for higher
-coastal terrain expected.
-
-* WHERE...Orange County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.003.1) — *2026-07-28*
   > * WHAT...Dangerously hot conditions with high temperatures in the
 mid 90s to 105 expected.

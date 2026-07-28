@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-28
 record_count: 57
-new_today: 13
+new_today: 14
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-13 new of 57 total items today.
+14 new of 57 total items today.
 
 - **NEW**  [[BleepingComputer] Data breach at medical billing firm MCBS affects 1.26 million people](https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/) — *2026-07-28*
   > Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
@@ -35,6 +35,8 @@ The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of op
   > Beijing happy to ‘take all necessary measures’ if sanctioned
 - **NEW**  [[Computer Weekly] The departmental deckchairs have been shuffled – but helping the government's tech challenge how?](https://www.computerweekly.com/opinion/The-departmental-deckchairs-have-been-shuffled-but-helping-the-governments-tech-challenge-how) — *2026-07-28*
   > &lt;p&gt;It’s been a week since &lt;a href="https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department"&gt;the axe fell on the Department for Science, Innovation and Technology (DSIT)&lt;/a&gt;. What have we learned and, critically, ar
+- **NEW**  [[MIT Technology Review] Samsung’s chip workers are jumping ship to rival SK Hynix](https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/) — *2026-07-28*
+  > Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK H
 - **NEW**  [[TechCrunch] Lyft and Baidu enter London’s robotaxi battleground as testing begins](https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/) — *2026-07-28*
   > Baidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025.
 - **NEW**  [[TechCrunch] Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing](https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/) — *2026-07-28*
@@ -67,7 +69,5 @@ The 37-member group spans cloud, security, enterprise software, and AI companies
   > The company said it does not expect the Fairlife disruption to have a material impact on financial performance or operations.&nbsp;
 - [[Cybersecurity Dive] Tech industry giants say US must embrace openness, transparency in AI](https://www.cybersecuritydive.com/news/ai-open-source-weights-tech-industry-promote/826240/) — *2026-07-27*
   > Open-source and open-weight AI models are essential cybersecurity tools, two groups of major AI and security firms said.
-- [[Cybersecurity Dive] In the Mythos era, security belongs at runtime](https://www.cybersecuritydive.com/spons/in-the-mythos-era-security-belongs-at-runtime/825478/) — *2026-07-27*
-  > Frontier AI cut time-to-exploit from years to hours. Why defense now has to happen at runtime.
 
 _(32 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-07-28
-record_count: 450
-new_today: 53
+record_count: 454
+new_today: 57
 state: fresh
 ---
 
 ## State-Level News
 
-53 new of 450 total items today.
+57 new of 454 total items today.
 
 - [[California] California celebrates five years helping students and families plan for school and career through Cradle-to-Career](https://www.gov.ca.gov/2026/07/27/california-celebrates-five-years-helping-students-and-families-plan-for-school-and-career-through-cradle-to-career/) — *2026-07-27*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-celebrates-five-years-helping-students-and-families-plan-for-school-and-career-through-Cradle-to-Career-SEO-GFX-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" a
@@ -19,8 +19,6 @@ state: fresh
 - [[California] California secures federal assistance to support response to Dove Fire in Tuolumne County](https://www.gov.ca.gov/2026/07/26/california-secures-federal-assistance-to-support-response-to-dove-fire-in-tuolumne-county/) — *2026-07-27*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/FMAG-Dove-Fire-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a href="https://www.gov.ca.gov/2026/07/26/california-secures-federal-assistanc
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-28*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
 - **NEW**  [[California] ‘Pretty sure he’s wet:’ Immigration agents used racial slurs during LA sweeps, court records show](https://calmatters.org/justice/2026/07/immigration-agent-text-messages/) — *2026-07-28*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/062025-Bell-Immigration-Raid-GETTY-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Several heavily armed federal im
 - **NEW**  [[California] California pension ruling limits how many vacation hours workers can count for retirement](https://calmatters.org/politics/2026/07/california-pension-vacation-cashouts/) — *2026-07-28*
@@ -37,8 +35,18 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/101724-HECHINGER-Pelican-MO-CM-12.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A blue guard tower rises above chain-li
 - [[California] California bill would let abuse victims use trauma as legal defense for violent crime](https://calmatters.org/justice/2026/07/california-abuse-survivors-violent-convictions/) — *2026-07-27*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092122-ROB-BONTA-GUN-CONTROL-DEPARTMENT-MHN-08-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing glasse
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-07-28*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-28*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- [[Delaware] Get Involved: Georgetown to discuss cottages; Red Clay seeks superintendent feedback](https://spotlightdelaware.org/2026/07/27/get-involved-georgetown-to-discuss-cottages-red-clay-seeks-superintendent-feedback/) — *2026-07-27*
+  > <figure><img width="1000" height="800" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Get-Involved-Artwork-7.27-7.31.png?fit=1000%2C800&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="h
+- [[Delaware] Should Sussex County prevent developers from cutting down trees?](https://spotlightdelaware.org/2026/07/27/should-sussex-county-prevent-developers-from-cutting-down-trees/) — *2026-07-27*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/IMG_0945-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/spotl
+- [[Delaware] How does Delaware operate without a sales tax? The state’s corporate franchise has it covered](https://spotlightdelaware.org/2026/07/26/civics-101-corporate-day3/) — *2026-07-27*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Wilmington-W-stock_corp-franchise.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy
+- [[Delaware] Discover the century-long legal advantage that fuels Delaware’s growth](https://spotlightdelaware.org/2026/07/26/civics-101-corporate-day2/) — *2026-07-27*
+  > <figure><img width="994" height="582" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/chancery-court-1-1-1.jpg?fit=994%2C582&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
+- [[Delaware] Delaware’s $2 billion corporate franchise is good business for all Delawareans](https://spotlightdelaware.org/2026/07/26/civics-101-corporate-day1/) — *2026-07-26*
+  > <figure><img width="1024" height="476" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Wilmington_Delaware_skyline_corp-franchise-1-scaled.jpg?fit=1024%2C476&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="as
 - **NEW**  [[Connecticut] CT hospitals are redesigning ERs for behavioral health crises](https://ctmirror.org/2026/07/28/ct-hospitals-emergency-room-behavioral-health-crisis/) — *2026-07-28*
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/YALE-KID-CRISIS-CENTER-0721-0721-SG-11-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://c
 - **NEW**  [[Connecticut] CT’s hypocrisy about election integrity](https://ctmirror.org/2026/07/28/election-integrity-for-who-joseph/) — *2026-07-28*
@@ -55,13 +63,5 @@ state: fresh
   > <figure><img width="1024" height="643" src="https://ctmirror.org/wp-content/uploads/2026/07/AP-democracy-vouchers.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/0
 - [[Connecticut] How a CT filmmaker’s first feature won at Sundance](https://ctmirror.org/2026/07/26/ricky-film-rashad-frett-hartford/) — *2026-07-26*
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/06/RICKY-FILM-0510-0624-SG-05-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-con
-- [[Connecticut] P.T. Barnum’s Bridgeport was no circus](https://ctmirror.org/2026/07/26/pt-barnums-bridgeport-was-no-circus/) — *2026-07-26*
-  > <figure><img width="675" height="426" src="https://ctmirror.org/wp-content/uploads/2026/07/bridgeport-connecticut-railroad-station.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
-- [[Delaware] Get Involved: Georgetown to discuss cottages; Red Clay seeks superintendent feedback](https://spotlightdelaware.org/2026/07/27/get-involved-georgetown-to-discuss-cottages-red-clay-seeks-superintendent-feedback/) — *2026-07-27*
-  > <figure><img width="1000" height="800" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Get-Involved-Artwork-7.27-7.31.png?fit=1000%2C800&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="h
-- [[Delaware] Should Sussex County prevent developers from cutting down trees?](https://spotlightdelaware.org/2026/07/27/should-sussex-county-prevent-developers-from-cutting-down-trees/) — *2026-07-27*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/IMG_0945-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/spotl
-- [[Delaware] How does Delaware operate without a sales tax? The state’s corporate franchise has it covered](https://spotlightdelaware.org/2026/07/26/civics-101-corporate-day3/) — *2026-07-27*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Wilmington-W-stock_corp-franchise.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy
 
-_(425 additional items in raw.jsonl)_
+_(429 additional items in raw.jsonl)_
