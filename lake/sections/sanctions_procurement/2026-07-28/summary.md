@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-28
-record_count: 116
+record_count: 117
 new_today: 5
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-5 new of 116 total items today.
+5 new of 117 total items today.
 
 - [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
@@ -19,10 +19,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zdEZkSzFGZXFOTVg0T3lWdDRVZlprX0xzM1g3aXlEWURwZHVfekF6ZGZsUXFCZC1nX0FtTmotaVJMVVhOaDRkbGRacnpCazN4SWNPd29faXJmeUZhSEpBMlMyVGc?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
-- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UkdCc0VmYlZlTjdobU9XbEplVS11Mm0yOTdlYmtfYzVFaUpXMjcyTHZJRnNRZlpTLXhTWlh5alNFY1I2OXpkNkswd0NjSlladDZmVHlJdG1Kcy1kcXc2WXUzU0k?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
 - [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
+- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UkdCc0VmYlZlTjdobU9XbEplVS11Mm0yOTdlYmtfYzVFaUpXMjcyTHZJRnNRZlpTLXhTWlh5alNFY1I2OXpkNkswd0NjSlladDZmVHlJdG1Kcy1kcXc2WXUzU0k?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
 - [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaLTNheHJZUWF1Q1dQODdvNFVwWnYwaWYwRHE5MHBMeEs4UFJ3NkJDdmJPSmozS1JZLWoxNFdnS0VPU1FUTnU1S0pvaw?oc=5" target="_blank">1239</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $2,404,483,873 → FERMI FORWARD DISCOVERY GROUP, LLC: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACC](https://www.usaspending.gov/award/89243024CSC000002) — *2026-07-28*
   > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY (FNAL)
 
-_(91 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

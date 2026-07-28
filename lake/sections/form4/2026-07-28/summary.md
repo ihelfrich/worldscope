@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[White Lion Capital LLC] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1952614/000119312526318582/0001193125-26-318582-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:58 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001193125-26-318582 Size: 9 KB
-- **NEW**  [[ACTELIS NETWORKS INC] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1141284/000119312526318582/0001193125-26-318582-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:58 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001193125-26-318582 Size: 9 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034910/0001493152-26-034910-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:52 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034910 Size: 5 KB
-- **NEW**  [[MCKENZIE OBIE] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1953904/000149315226034910/0001493152-26-034910-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:52 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034910 Size: 5 KB
-- **NEW**  [[Chalom Joseph] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2079719/000149315226034909/0001493152-26-034909-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:52 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034909 Size: 5 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034909/0001493152-26-034909-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:52 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034909 Size: 5 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034908/0001493152-26-034908-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:51 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034908 Size: 5 KB
-- **NEW**  [[Bernhard Leslie] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1333581/000149315226034908/0001493152-26-034908-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:51 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034908 Size: 5 KB
-- **NEW**  [[Camarda Michael D] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2133186/000149315226034905/0001493152-26-034905-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:50 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034905 Size: 5 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034905/0001493152-26-034905-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:50 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034905 Size: 5 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034902/0001493152-26-034902-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:49 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034902 Size: 5 KB
-- **NEW**  [[GUTKOWSKI ROBERT M] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1032469/000149315226034902/0001493152-26-034902-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:49 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034902 Size: 5 KB
-- **NEW**  [[Sharplink, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1981535/000149315226034901/0001493152-26-034901-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:49 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001493152-26-034901 Size: 5 KB
-- **NEW**  [[DeLucia Robert Michael] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1399454/000149315226034901/0001493152-26-034901-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:49 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001493152-26-034901 Size: 5 KB
-- **NEW**  [[5C Lending Partners Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1998387/000093041326002192/0000930413-26-002192-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:42 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0000930413-26-002192 Size: 5 KB
-- **NEW**  [[LAWRY SETH W] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1058827/000093041326002192/0000930413-26-002192-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:42 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0000930413-26-002192 Size: 5 KB
-- **NEW**  [[Scribe Therapeutics, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1853921/000178129226000007/0001781292-26-000007-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:42 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0001781292-26-000007 Size: 12 KB
-- **NEW**  [[Lucas Svetlana] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1781292/000178129226000007/0001781292-26-000007-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:42 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0001781292-26-000007 Size: 12 KB
-- **NEW**  [[Fair James Thomas] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2032514/000093041326002191/0000930413-26-002191-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:41 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0000930413-26-002191 Size: 5 KB
-- **NEW**  [[5C Lending Partners Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1998387/000093041326002191/0000930413-26-002191-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:41 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0000930413-26-002191 Size: 5 KB
-- **NEW**  [[5C Lending Partners Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1998387/000093041326002190/0000930413-26-002190-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:40 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0000930413-26-002190 Size: 5 KB
-- **NEW**  [[Finnerty Sheila A] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1876532/000093041326002190/0000930413-26-002190-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:40 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0000930413-26-002190 Size: 5 KB
-- **NEW**  [[5C Lending Partners Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1998387/000093041326002189/0000930413-26-002189-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:39 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0000930413-26-002189 Size: 5 KB
-- **NEW**  [[Roos Jason T] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1828764/000093041326002189/0000930413-26-002189-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:39 UTC · role: Reporting — Filed: 2026-07-27 AccNo: 0000930413-26-002189 Size: 5 KB
-- **NEW**  [[5C Lending Partners Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1998387/000093041326002188/0000930413-26-002188-index.htm) — *2026-07-28*
-  > filed 2026-07-28 01:38 UTC · role: Issuer — Filed: 2026-07-27 AccNo: 0000930413-26-002188 Size: 7 KB
+- **NEW**  [425 - STANDARD BIOTOOLS INC. (0001162194) (Subject)](https://www.sec.gov/Archives/edgar/data/1162194/000114036126029842/0001140361-26-029842-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:22 UTC — Filed: 2026-07-28 AccNo: 0001140361-26-029842 Size: 88 KB
+- **NEW**  [485APOS - Tidal Trust V (0002081107) (Filer)](https://www.sec.gov/Archives/edgar/data/2081107/000199937126016182/0001999371-26-016182-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:17 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016182 Size: 1 MB
+- **NEW**  [485APOS - Tidal Trust V (0002081107) (Filer)](https://www.sec.gov/Archives/edgar/data/2081107/000199937126016182/0001999371-26-016182-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:17 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016182 Size: 1 MB
+- **NEW**  [424B5 - DYNEX CAPITAL INC (0000826675) (Filer)](https://www.sec.gov/Archives/edgar/data/826675/000082667526000084/0000826675-26-000084-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:14 UTC — Filed: 2026-07-28 AccNo: 0000826675-26-000084 Size: 766 KB
+- **NEW**  [424B3 - URUGUAY REPUBLIC OF (0000102385) (Filer)](https://www.sec.gov/Archives/edgar/data/102385/000119312526318917/0001193125-26-318917-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:05 UTC — Filed: 2026-07-28 AccNo: 0001193125-26-318917 Size: 621 KB
+- **NEW**  [424B3 - URUGUAY REPUBLIC OF (0000102385) (Filer)](https://www.sec.gov/Archives/edgar/data/102385/000119312526318915/0001193125-26-318915-index.htm) — *2026-07-28*
+  > filed 2026-07-28 12:02 UTC — Filed: 2026-07-28 AccNo: 0001193125-26-318915 Size: 650 KB
+- **NEW**  [424B3 - KAZIA THERAPEUTICS LTD (0001075880) (Filer)](https://www.sec.gov/Archives/edgar/data/1075880/000121390026081986/0001213900-26-081986-index.htm) — *2026-07-28*
+  > filed 2026-07-28 11:34 UTC — Filed: 2026-07-28 AccNo: 0001213900-26-081986 Size: 37 KB
+- **NEW**  [424B3 - KAZIA THERAPEUTICS LTD (0001075880) (Filer)](https://www.sec.gov/Archives/edgar/data/1075880/000121390026081985/0001213900-26-081985-index.htm) — *2026-07-28*
+  > filed 2026-07-28 11:33 UTC — Filed: 2026-07-28 AccNo: 0001213900-26-081985 Size: 37 KB
+- **NEW**  [424B3 - KAZIA THERAPEUTICS LTD (0001075880) (Filer)](https://www.sec.gov/Archives/edgar/data/1075880/000121390026081984/0001213900-26-081984-index.htm) — *2026-07-28*
+  > filed 2026-07-28 11:32 UTC — Filed: 2026-07-28 AccNo: 0001213900-26-081984 Size: 37 KB
+- **NEW**  [424B3 - KAZIA THERAPEUTICS LTD (0001075880) (Filer)](https://www.sec.gov/Archives/edgar/data/1075880/000121390026081983/0001213900-26-081983-index.htm) — *2026-07-28*
+  > filed 2026-07-28 11:31 UTC — Filed: 2026-07-28 AccNo: 0001213900-26-081983 Size: 37 KB
+- **NEW**  [424B4 - Catalyst Acquisition Corp. (0002104391) (Filer)](https://www.sec.gov/Archives/edgar/data/2104391/000121390026081980/0001213900-26-081980-index.htm) — *2026-07-28*
+  > filed 2026-07-28 11:27 UTC — Filed: 2026-07-28 AccNo: 0001213900-26-081980 Size: 3 MB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016176/0001999371-26-016176-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:32 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016176 Size: 196 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016175/0001999371-26-016175-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:31 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016175 Size: 163 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016174/0001999371-26-016174-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:31 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016174 Size: 219 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016173/0001999371-26-016173-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:30 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016173 Size: 228 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016172/0001999371-26-016172-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:29 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016172 Size: 227 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016171/0001999371-26-016171-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:29 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016171 Size: 227 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016170/0001999371-26-016170-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:28 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016170 Size: 225 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016169/0001999371-26-016169-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:27 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016169 Size: 225 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016168/0001999371-26-016168-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:27 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016168 Size: 228 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016167/0001999371-26-016167-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:26 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016167 Size: 227 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016166/0001999371-26-016166-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:25 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016166 Size: 227 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016165/0001999371-26-016165-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:25 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016165 Size: 225 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016164/0001999371-26-016164-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:24 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016164 Size: 228 KB
+- **NEW**  [497K - T. Rowe Price Retirement Funds, Inc. (0001177017) (Filer)](https://www.sec.gov/Archives/edgar/data/1177017/000199937126016163/0001999371-26-016163-index.htm) — *2026-07-28*
+  > filed 2026-07-28 10:23 UTC — Filed: 2026-07-28 AccNo: 0001999371-26-016163 Size: 229 KB
 
 _(15 additional items in raw.jsonl)_

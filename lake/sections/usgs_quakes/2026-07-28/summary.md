@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-28
-record_count: 24
-new_today: 14
+record_count: 23
+new_today: 16
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-14 new of 24 total items today.
+16 new of 23 total items today.
 
 - **NEW**  [M 6.8 - 5 km E of Uto, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9) — *2026-07-28*
   > M6.8 · 5 km E of Uto, Japan · depth 10 km · PAGER red
@@ -39,20 +39,18 @@ state: fresh
   > M5.0 · 112 km ENE of Georgetown, Saint Helena · depth 10 km
 - [M 5.0 - 88 km SE of Sola, Vanuatu](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg75) — *2026-07-27*
   > M5.0 · 88 km SE of Sola, Vanuatu · depth 10 km
+- **NEW**  [M 4.9 - 10 km SE of Kawalu, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbx) — *2026-07-28*
+  > M4.9 · 10 km SE of Kawalu, Indonesia · depth 158.966 km
 - **NEW**  [M 4.9 - 14 km NNE of Tsunagi, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbn) — *2026-07-28*
   > M4.9 · 14 km NNE of Tsunagi, Japan · depth 10 km
 - [M 4.9 - 206 km W of Abepura, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg2t) — *2026-07-27*
   > M4.9 · 206 km W of Abepura, Indonesia · depth 10 km
-- [M 4.9 - southeast of the Loyalty Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3mw) — *2026-07-27*
-  > M4.9 · southeast of the Loyalty Islands · depth 116.876 km
 - **NEW**  [M 4.8 - 26 km WSW of Santa Cruz, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgav) — *2026-07-28*
   > M4.8 · 26 km WSW of Santa Cruz, Chile · depth 53.496 km
+- **NEW**  [M 4.7 - 198 km NW of Oula Xiuma, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgc3) — *2026-07-28*
+  > M4.7 · 198 km NW of Oula Xiuma, China · depth 10 km
 - **NEW**  [M 4.6 - 38 km S of Mendoza, Argentina](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg9q) — *2026-07-28*
   > M4.6 · 38 km S of Mendoza, Argentina · depth 36.491 km
-- [M 4.6 - 120 km E of Kokopo, Papua New Guinea](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ng) — *2026-07-27*
-  > M4.6 · 120 km E of Kokopo, Papua New Guinea · depth 114.648 km
-- [M 4.6 - 61 km E of La Tirana, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3mh) — *2026-07-27*
-  > M4.6 · 61 km E of La Tirana, Chile · depth 105.235 km
 - **NEW**  [M 4.5 - 38 km N of Ishqoshim, Tajikistan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb4) — *2026-07-28*
   > M4.5 · 38 km N of Ishqoshim, Tajikistan · depth 132.057 km
 - [M 4.5 - Bonin Islands, Japan region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg6e) — *2026-07-27*

@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-28
-record_count: 974
-new_today: 543
+record_count: 980
+new_today: 634
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-543 new of 974 total items today.
+634 new of 980 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-28*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-28*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-28*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Schools to offer technical subjects to pupils from age 14 in England, Burnham says](https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.
-- **NEW**  [[Global] The way you look can help you get a job - here's how](https://www.bbc.co.uk/news/articles/c80neg5rd81o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > While you need to answer the questions in an interview, your appearance and mannerisms are also crucial.
-- **NEW**  [[Global] Is it safe to travel to France and Spain right now?](https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.
-- **NEW**  [[Global] Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits](https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.
-- **NEW**  [[Global] Chip stocks slide in US and Asia as AI jitters rattle investors](https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > Trading on South Korea's Kospi index was paused temporarily on Tuesday morning after slumping by 8%.
-- [[Global] Is it time to stop using glue and labels on paper?](https://www.bbc.co.uk/news/articles/c872nj1n4xyo?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > Labels and adhesives can prevent paper from being recycled but there's new tech aimed at changing that.
-- **NEW**  [[Global] Some people's chats with Claude AI found to be publicly available online](https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > Hundreds of conversations with Anthropic’s chatbot were discovered as being publicly accessible.
-- [[Global] Cracker Barrel chief executive steps down a year after rebrand chaos](https://www.bbc.co.uk/news/articles/cr49z0r54nko?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > Cracker Barrel CEO Julie Masino will exit following customer backlash over modern logo redesign.
-- [[Global] Oil price dives as US and Iran pause attacks](https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The US says attacks on Iran have been halted to give "talks some space", raising hopes of a resolution to the conflict.
-- [[Global] Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut](https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The company's shares soared by nearly 470% in its market debut, as the AI boom drives chip demand.
-- [[Global] Would you choose £50,000 over the chance of £1m?](https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.
-- [[Global] Shein swings to $99m loss as Trump tariffs hit sales](https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.
-- [[Global] Businessman and philanthropist Sir Ian Wood dies aged 84](https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The Aberdeen-based businessman turned his family's boat repair firm into an oil and gas engineering giant.
-- [[Global] Rental searches for pet friendly properties drop after law change](https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss) — *2026-07-26*
-  > Agents say some renters wrongly believe permission to have a pet is guaranteed.
-- **NEW**  [[Global] Is it safe to travel to France and Spain right now?](https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.
-- **NEW**  [[Global] Michelin-starred chef calls for VAT cut for restaurants](https://www.bbc.co.uk/news/articles/cy8mer3vr4do?at_medium=RSS&at_campaign=rss) — *2026-07-28*
-  > Sat Bains offers deli versions of some of his dishes to promote local businesses facing high costs.
-- [[Global] Average income down in real terms, survey says](https://www.bbc.co.uk/news/articles/cvgjqd9zz33o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The results of the 2023/24 Household Expenditure Survey have been published.
-- [[Global] 'I fear for wee families' - home heating oil jumps £100 in three weeks](https://www.bbc.co.uk/news/articles/cly9npzw3y3o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The Consumer Council for Northern Ireland says the price rise is in direct response to the US-Iran conflict.
-- [[Global] Will summer discounts make family days out cheaper?](https://www.bbc.co.uk/news/articles/c36y66kwyj7o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > Parents welcome summer discounts but say days out can still cost more than £100.
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-28*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-28*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Zelensky to press Trump on air defences while in Washington](https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Ukraine's leader is hoping to firm up US commitments to bolstering Kyiv's anti-ballistic missile defences, as Russia has escalated deadly attacks.
 - **NEW**  [[Global] The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback](https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss) — *2026-07-28*
   > The BBC goes on patrol with Ecuador's police, who are grappling with a huge surge in drug crime.
-- [[Global] Trump says Iran war talks taking place during lull in strikes](https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss) — *2026-07-27*
-  > The US president says "there is a good chance that something could happen", as Iran denies direct talks are taking place.
 - **NEW**  [[Global] US walks out of UN Security Council meeting during France's remarks](https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
   > The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.
+- **NEW**  [[Global] Seattle pays tribute to food festival shooting victims](https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Families grieved on Monday as they remembered the three people killed in a shooting at a food festival.
+- **NEW**  [[Global] Zidane confirmed as France head coach](https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Former Real Madrid manager Zinedine Zidane has been confirmed as the head coach of the France national team.
+- **NEW**  [[Global] Odyssey translator writes scathing review of Nolan film adaptation](https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The film has won rave reviews from film critics but a translator of Homer's work was less than impressed.
+- **NEW**  [[Global] Ariana Grande sues hackers who leaked music and videos](https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The pop star is suing to discover the identity of hackers who obtained unreleased photos and songs.
+- **NEW**  [[Global] Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits](https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.
+- **NEW**  [[Global] Hong Kong activist allowed to stay in UK after deportation threat](https://www.bbc.co.uk/news/articles/cpd74e0yy12o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC.
+- **NEW**  [[Global] Zoo staff rescue near-extinct snails from remote rock](https://www.bbc.co.uk/news/articles/cwyq7e5d1gko?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Just 21 Madeiran land snails were found clinging to a rock on Portugal's Bugio Island, say conservationists.
+- [[Global] US singer D4vd to go on trial for murder in death of 14-year-old](https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The star is accused of killing Celeste Rivas Hernandez, whose remains were found in a Tesla registered to his address.
+- [[Global] Number of suspects in fatal Seattle food festival shooting rises to three](https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss) — *2026-07-27*
+  > One suspect is in custody, while a second is being sought and a third is thought to have died at the scene, court documents show.
+- [[Global] Shots fired at US consulate in Toronto for a second time this year](https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a similar attack.
+- **NEW**  [[Global] 'It's a hell of a situation': Spain grapples with devastating wildfires](https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Three fires in the Madrid region have caused special concerns, with a new heatwave expected to hit Spain from Wednesday.
+- **NEW**  [[Global] European wildfires in maps - and how they're being tackled](https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
+  > A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ever.
+- [[Global] A Japanese town wrestles with identity after protests over its first mosque](https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
+  > As Japan increasingly relies on foreign workers, it is also grappling with how to integrate new cultures and religions.
+- [[Global] As the US pauses the war with Iran, is Trump really running out of weapons?](https://www.bbc.co.uk/news/articles/c0qvnk2ezp7o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
+  > The US has fired thousands of hard-to-replace missiles during its war with Iran. We unpack whether its "arsenal of freedom" is perilously low.
+- **NEW**  [[Global] China's new challenge as natural disasters strike - fake AI videos](https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss) — *2026-07-27*
+  > Storms and flooding incidents over the last few months have seen fake videos inundating social media.
+- **NEW**  [[Global] Why Netanyahu's visit with Trump at the White House is high-stakes](https://www.bbc.co.uk/news/videos/c98v94dmmz0o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The meeting comes amid signs of friction between the two leaders and decreasing public support for Israel in the US.
+- **NEW**  [[Global] Confronting gang members at the heart of Ecuador's drug battle](https://www.bbc.co.uk/news/videos/c1l1d429m8eo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Orla Guerin speaks to a gang leader about violence, drugs and infiltrating the police.
+- **NEW**  [[Global] BBC outside court as judge rules singer D4vd will face murder trial](https://www.bbc.co.uk/news/videos/cy745x171rjo?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > The body of 14-year-old Celeste Rivas Hernandez was found last September inside the trunk of a Tesla registered to singer D4vd.
+- **NEW**  [[Global] What to expect from Zelensky and Netanyahu's visit to Washington](https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss) — *2026-07-28*
+  > Republican Senator Lindsay Graham's funeral is bringing the two world leaders to town, where they'll separately visit the White House to discuss their region's wars.
 
-_(949 additional items in raw.jsonl)_
+_(955 additional items in raw.jsonl)_

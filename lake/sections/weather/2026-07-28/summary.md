@@ -2,28 +2,131 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-28
-record_count: 172
-new_today: 161
+record_count: 171
+new_today: 163
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-161 new of 172 total items today.
+163 new of 171 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52635) — *2026-07-28*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 28 at 2:42AM MST until July 28 at 3:00AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75f899822588bdaa7f2e8b6ad6ca46921b944934.001.1) — *2026-07-28*
-  > At 242 AM MST, a severe thunderstorm was located 11 miles west of
-Three Points, moving northwest at 25 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 28 at 8:22AM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e241b20875cf91e88a6715bf06991fcc39fac9bf.001.1) — *2026-07-28*
+  > At 821 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Hoskinston to near Saylor to Kayjay.
+Movement was southeast at 35 mph.
 
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Wind gusts up to 40 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding, and trees.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 28 at 5:37AM EDT until July 28 at 7:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.022f5e0f8d29e20f67487fbe31ce89db07c68a63.001.1) — *2026-07-28*
+IMPACT...Gusty winds could knock
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 28 at 8:22AM EDT until July 29 at 8:00PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9412dc93e0226752feef333dec7f7386737261.001.1) — *2026-07-28*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of central New York, including the following
+areas, Broome, Chenango, Delaware, Otsego and Sullivan and
+northeast Pennsylvania, including the following areas, Lackawanna,
+Luzerne, N
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 28 at 8:21AM EDT until July 28 at 11:15AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b40017d32d13fb7ac9457f829ef10285b987ff8b.001.1) — *2026-07-28*
+  > FFWRLX
+
+The National Weather Service in Charleston has issued a
+
+* Flash Flood Warning for...
+Northwestern Boone County in central West Virginia...
+Lincoln County in central West Virginia...
+North Central Logan County in southern West Virginia...
+East Central Wayne County in west
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-36346) — *2026-07-28*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 28 at 7:12AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e03e6170d244b6d8cf01220fc112fffcac2717f0.001.1) — *2026-07-28*
+  > The combination of hot temperatures and humidity will produce heat
+index values between 105 and 110 degrees for several hours
+this afternoon and early evening. A few locations may briefly
+experience heat index values above 111 degrees.
+
+If spending time outside today, drink plent
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 28 at 8:06AM EDT until July 28 at 12:15PM EDT by NWS Buffalo NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c0f3ae2509db0ad79a6efed1e5d3df46846f442.001.1) — *2026-07-28*
+  > FFWBUF
+
+The National Weather Service in Buffalo has issued a
+
+* Flash Flood Warning for...
+Southwestern Allegany County in western New York...
+Southeastern Cattaraugus County in western New York...
+
+* Until 1215 PM EDT.
+
+* At 806 AM EDT, Doppler radar indicated thunderstorms prod
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 6:54AM CDT until July 28 at 8:00PM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5bf85fedc3bfa3e0eac306036f408ac9f0a26dd.002.1) — *2026-07-28*
+  > * WHAT...Heat index values up to 112.
+
+* WHERE...A portion of Middle Tennessee.
+
+* WHEN...Until 8 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 6:54AM CDT until July 28 at 8:00PM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5bf85fedc3bfa3e0eac306036f408ac9f0a26dd.001.1) — *2026-07-28*
+  > * WHAT...Dangerously hot conditions with heat index values up to 110.
+
+* WHERE...Dickson, Hickman, Houston, Humphreys, Lawrence, Lewis,
+Montgomery, Perry, Stewart, and Wayne Counties.
+
+* WHEN...Until 8 PM CDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantl
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 28 at 7:51AM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6656c945f7e082aa40e9fdeb37a176de29c8fe7.001.1) — *2026-07-28*
+  > At 751 AM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms over Rowdy, or 12 miles north of Hazard, moving east at
+35 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow a
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 28 at 7:49AM EDT until July 28 at 10:45AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32a3b19b6e788f206de094de873d80d1d80ed7ba.001.1) — *2026-07-28*
+  > FFWRLX
+
+The National Weather Service in Charleston has issued a
+
+* Flash Flood Warning for...
+Southeastern Lawrence County in southeastern Ohio...
+Cabell County in central West Virginia...
+Northwestern Lincoln County in central West Virginia...
+Northeastern Wayne County in wester
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 28 at 6:43AM CDT until July 28 at 10:00AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46a539940a1ed1364fe5357c883197536c4e888a.001.1) — *2026-07-28*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Portions of northwest and north central North Dakota,
+including the northern James River Valley.
+
+* WHEN...Until 10 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 7:09AM EDT until July 28 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2666f417add1ed07bd00f05ecb7ad54bb08c6782.001.1) — *2026-07-28*
+  > * WHAT...Heat index values up to 110 degrees expected.
+
+* WHERE...Portions of southeast Georgia and southeast South Carolina.
+
+* WHEN...From 11 AM this morning to 7 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 28 at 6:59AM EDT until July 28 at 10:00AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6904b171e999a43d8bb4807b83e13418e9ef217.001.1) — *2026-07-28*
+  > FFWRLX
+
+The National Weather Service in Charleston has issued a
+
+* Flash Flood Warning for...
+Southern Gallia County in southeastern Ohio...
+Southern Jackson County in southeastern Ohio...
+Central Lawrence County in southeastern Ohio...
+North Central Cabell County in central West
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 28 at 5:54AM CDT until July 28 at 7:30AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d82cd78215d9ffc0327d579d99eb6aad059f0601.001.1) — *2026-07-28*
   > SMWTAE
 
 The National Weather Service in Tallahassee has issued a
@@ -33,6 +136,44 @@ Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
 Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
 20 NM...
 Waters from Mexico Beach to Apalachicola FL
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 28 at 2:26AM AKDT until July 28 at 7:00AM AKDT by NWS Juneau AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb7a510223dacf4e5ba3e025560fa18c8929426a.001.1) — *2026-07-28*
+  > * WHAT...Visibility a quarter mile or less in dense fog.
+
+* WHERE...City and Borough of Yakutat.
+
+* WHEN...Until 7 AM AKDT this morning.
+
+* IMPACTS...Low visibility could make travel conditions hazardous.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 4:21AM MDT until July 28 at 9:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63496e8e8e9dad7564883fb4418b5127e51e43a2.002.1) — *2026-07-28*
+  > * WHAT...Temperatures up to 107.
+
+* WHERE...Most of El Paso County, including the City of El Paso, and
+the Lower Valley down through Hudspeth County.
+
+* WHEN...Until 9 PM MDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 4:21AM MDT until July 28 at 9:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63496e8e8e9dad7564883fb4418b5127e51e43a2.001.1) — *2026-07-28*
+  > * WHAT...Temperatures up to 105.
+
+* WHERE...In New Mexico, all of Dona Ana County, including Las
+Cruces, and the western Tularosa Basin. In Texas, the Salt Flat
+area, including Dell City.
+
+* WHEN...Until 9 PM MDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesse
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 28 at 5:20AM CDT until July 29 at 10:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f247607b26684ed999567cae1f5114208da74219.001.1) — *2026-07-28*
+  > * WHAT...Life threatening waves of 4 to 6 feet and dangerous
+currents are expected.
+
+* WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha
+Counties.
+
+* WHEN...From late Monday night through Wednesday morning.
+
+* IMPACTS...Dangerous swimming conditions are expected due to
+hi
 - **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued July 28 at 5:06AM EDT until July 28 at 11:00AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7672756ee609af72ea319479b970cfa357a3aaf6.001.1) — *2026-07-28*
   > * WHAT...Visibility 1/4 mile or less in dense fog.
 
@@ -97,147 +238,5 @@ mid 90s to 105 below 7000 feet expected.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat event
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.009.1) — *2026-07-28*
-  > * WHAT...High temperatures in the 90s to around 100 below 7000 feet
-expected.
 
-* WHERE...San Bernardino County Mountains.
-
-* WHEN...From 10 AM Thursday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.008.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with high temperatures mid to
-upper 90s east of Interstate 5 expected.
-
-* WHERE...Orange County Inland Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.005.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 122
-expected.
-
-* WHERE...Coachella Valley, San Diego County Deserts, and San
-Gorgonio Pass near Banning.
-
-* WHEN...From 10 AM Thursday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly d
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.010.1) — *2026-07-28*
-  > * WHAT...High temperatures in the mid 80s to around 90 for the mesas
-and other higher coastal terrain expected.
-
-* WHERE...San Diego County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.007.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with temperatures up to 103
-expected.
-
-* WHERE...Santa Ana Mountains and Foothills.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.004.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 114
-expected.
-
-* WHERE...Apple and Lucerne Valleys.
-
-* WHEN...From 10 AM Thursday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.011.1) — *2026-07-28*
-  > * WHAT...High temperatures in the mid 80s to lower 90s for higher
-coastal terrain expected.
-
-* WHERE...Orange County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.006.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s in the western valleys to around 105 near the foothills
-expected.
-
-* WHERE...San Diego County Valleys.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significan
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:56AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3936783c9f9d94fcfd2ed504aacd6d6d3e32ccc9.003.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s to 105 expected.
-
-* WHERE...San Diego County Mountains.
-
-* WHEN...From 10 AM Thursday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued July 28 at 2:55AM MDT until July 28 at 10:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.888a283573880dd910393c6ff76a4a97573996d2.001.1) — *2026-07-28*
-  > * WHAT...Flash flooding caused by excessive rainfall is possible.
-
-* WHERE...Portions of east central and northeast Colorado, including
-the following areas; all of Logan, Washington, Morgan, and Lincoln
-Counties, and the eastern portions of Elbert, Adams, Arapahoe, and
-Weld Count
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 3:51AM CDT until July 28 at 9:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dc294a4203bc00f8666805730c2d7207dae5d0d.001.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with heat index values of
-105-112 expected.
-
-* WHERE...Portions of central, north central, northwest, southwest,
-and west central Mississippi.
-
-* WHEN...From 10 AM this morning to 9 PM CDT this evening.
-
-* IMPACTS...Heat related illnesses incre
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 3:51AM CDT until July 28 at 9:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dc294a4203bc00f8666805730c2d7207dae5d0d.002.1) — *2026-07-28*
-  > * WHAT...Heat index values up to 110.
-
-* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
-central, east central, north central, northeast, south central,
-southeast, and southwest Mississippi.
-
-* WHEN...From 10 AM this morning to 9 PM CDT this evening.
-
-* IMPACTS..
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 28 at 3:46AM CDT until July 28 at 8:00PM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4c8e4570e1f8e849ebebc18532e4eb1c2b93ff2.001.1) — *2026-07-28*
-  > * WHAT...Heat index values up to 106.
-
-* WHERE...Portions of south central and southeast Kansas.
-
-* WHEN...Until 8 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued July 28 at 4:42AM EDT until July 29 at 5:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d5f08be2dc53a9077bf8e68445a9dbd436a5b5d.002.1) — *2026-07-28*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Gulf County Beaches.
-
-* WHEN...Through late tonight.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-
-* ADDITIONAL DETAILS...Westerly winds and swell today will favor
-the west-facin
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 28 at 1:19AM MST until August 2 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.029beb0041cea97b826354e597dcd24e7d602aa7.001.1) — *2026-07-28*
-  > * WHAT...Dangerously hot conditions with temperatures 101 to 106 in
-Santa Cruz and Cochise Counties and 107 to 112 elsewhere. Major to
-Extreme HeatRisk is expected.
-
-* WHERE...Eastern Cochise County below 5000 feet, South Central Pinal
-County, Southeast Pinal County, Tohono O'odh
-
-_(147 additional items in raw.jsonl)_
+_(146 additional items in raw.jsonl)_
