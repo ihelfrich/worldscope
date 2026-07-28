@@ -3,13 +3,13 @@ section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-27
 record_count: 313
-new_today: 44
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## GDACS — global disaster alerts
 
-44 new of 313 total items today.
+0 new of 313 total items today.
 
 - [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=19&eventtype=WF) — *2026-07-22*
   > Wildfire · Red alert · France · Red impact for forestfire in 45805 ha
