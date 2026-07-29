@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-07-29
-record_count: 1089
-new_today: 678
+record_count: 1092
+new_today: 681
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-678 new of 1089 total items today.
+681 new of 1092 total items today.
 
 - **NEW**  [[TITLE: Умер диджей Kavinsky — автор трека Nightcall из фильма «Драйв» | LEDE: <p>В Париже умер Венсан Пьер Клод Белорже, известный как диджей Kavinsky, сообщают Le Parisien и France24.<p>] (ru: Умер диджей Kavinsky — автор трека Nightcall из фильма «Драйв»)](https://meduza.io/news/2026/07/29/umer-didzhey-kavinsky-avtor-treka-nightcall-iz-filma-drayv) — *2026-07-29*
   > <p>В Париже умер Венсан Пьер Клод Белорже, известный как диджей Kavinsky, сообщают Le Parisien и France24.<p>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: Вирусный гепатит может долгое время не вызывать никаких симптомов. И постепенно разрушать печень. Как защититься от такой болезни? И как это лечится? Узнайте все самое важное о гепатитах A, B, ] (ru: Вирусный гепатит может долгое время не вызывать никаких симптомов. И постепенно )](https://meduza.io/cards/virusnyy-gepatit-mozhet-dolgoe-vremya-ne-vyzyvat-nikakih-simptomov-i-postepenno-razrushat-pechen) — *2026-07-28*
   > <p>28 июля — Всемирный день борьбы с гепатитом. И в первую очередь, конечно, имеются в виду вирусные гепатиты, то есть воспаление печени, вызванное вирусом, а не алкоголем, лекарствами или агрессивной иммунной системой (что тоже бывает). C хроническим гепатитом B по всему миру жи
 
-_(1064 additional items in raw.jsonl)_
+_(1067 additional items in raw.jsonl)_

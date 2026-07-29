@@ -3,13 +3,13 @@ section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-29
 record_count: 1005
-new_today: 725
+new_today: 726
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-725 new of 1005 total items today.
+726 new of 1005 total items today.
 
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-29*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
@@ -17,6 +17,8 @@ state: fresh
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-29*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-07-29*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
 - **NEW**  [[Global] US and Saudi Arabia strike ‘Iran-aligned’ groups in Iraq](https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss) — *2026-07-29*
   > The US and Saudi Arabia launched joint air strikes on Iraq, targeting ‘Iran-aligned’ groups.
 - **NEW**  [[Global] Jayden Seales takes five wickets as West Indies beat Pakistan in first Test](https://www.aljazeera.com/sports/2026/7/29/seales-takes-five-wickets-as-west-indies-beat-pakistan-in-first-test?traffic_source=rss) — *2026-07-29*
@@ -59,7 +61,5 @@ state: fresh
   > After escaping war and atrocities, families now battle water shortages and fading hopes of returning home.
 - **NEW**  [[Global] Media not invited as Trump, Netanyahu hold talks at the White House](https://www.aljazeera.com/video/newsfeed/2026/7/29/media-not-invited-as-trump-netanyahu-hold-talks-at-the-white-house?traffic_source=rss) — *2026-07-29*
   > US President Donald Trump has held talks at the White House with Israeli Prime Minister Benjamin Netanyahu.
-- **NEW**  [[Global] Turkiye takes ‘historic step’ on energy alliance with Iraq](https://www.aljazeera.com/news/2026/7/29/turkiye-takes-historic-step-on-energy-alliance-with-iraq?traffic_source=rss) — *2026-07-29*
-  > Ankara could receive 1 million barrels per day of Iraqi oil after Turkish Petroleum stake in BP-run Kirkuk oilfield.
 
 _(980 additional items in raw.jsonl)_

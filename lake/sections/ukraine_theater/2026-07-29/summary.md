@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-29
 record_count: 240
-new_today: 61
+new_today: 63
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-61 new of 240 total items today.
+63 new of 240 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-29*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -19,8 +19,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxORDQwUWJPRW9Ob3ZvSDl0MHcxQUlIUWE2Q0o1U2dZY1NYVVNpVE1TUk1rNmtOMmd3U1FKcVNodHdzNU9DS25VLU1BMlVQbXZkdUEwZWpMTmFiZ2ZRdW9CT2NBQndtTXhVTXZyeWU4YmZvWlcxRXlMemtOeE5JaUhLeVkzY0JUVDkyRmZRTkdaQ3d6aUpOUUE?oc=5" target="_blank">Gene
 - [[Liveuamap] US Central Command: We diverted 17 commercial vessels, disabled two, and inspected two since the resumption of the Iran blockade. Gulf of Oman - Liveuamap](https://iran.liveuamap.com) — *2026-07-29*
   > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQaDlSMkdxV1Z2TV9naDNNZUpGZ3gwQjJpVUNsVGptUkRuVWllWUhEVndkU2I0dGtXMmZoNTNnUmNWc1gwWUVVcDQ2WjlIckE5NWlOQ0oxU0ljd3RJdDFSdGI1Q2xBMHN3bmZrSlExV3AxTlkyUEFZSHdyam50eHhRVW5RWU1FaVpUR1Azb3dvbFQ2bDc0cFZIeE5zbFkyNUk?oc=5" target="
-- [[Liveuamap] Interactive map of Yemen war - Yemen news live map- yemen.liveuamap.com - Liveuamap](https://yemen.liveuamap.com) — *2026-07-27*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE5LRjlBSWZaam5wd1ZUbTlHak5HbU50eDBnQlN5Z2I3UTJGTHhRTHRQSnZEeHNNZmRpSFUwWXQ4a2w2UQ?oc=5" target="_blank">Interactive map of Yemen war - Yemen news live map- yemen.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuama
+- [[Liveuamap] The death toll from the Russian strike on an arms exhibition in the Kyiv region has risen to 11. A 66-year-old man, a diplomat of the Order of Malta, died in hospital from his injuries. On the morning of July 24, Russia struck a location in](https://liveuamap.com) — *2026-07-29*
+  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQOV9GMWhscEl4dW1CVldwbVVZUmQyb1NkQ0toUkFZQmZmc2c0akZOUk9ENFFmR1dBbU9meUZpVG1IUlk3UVQxMzdDQ01hb3VRRVJzT3lJRFJpYXpLdmFjbG1lSFo1MjJqc1ZXS2lELURhZjJWRnFVN2ZraUREQ2lJdUpMdWFDdlp4T3RpYXlKQkFlOXdI?oc=5" target="_blank">The dea
 - [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2016-05-01*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hSFJBLThjMk1IUjZkTHBUcm0zbUhQcWhaZ0haSUl5Vlo1bWw0UTJmYkYxN1VLS2M5S2c1WmowU3Y?oc=5" target="_blank">Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com</a>&nbsp;&n
 - **NEW**  [[Liveuamap] President Zelensky: Ukrainian long range weapons targeted export terminal in Rostov region, oil infrastructure in Yaroslavl region and Udmurtiya Republic 1300 kms from Ukraine - Liveuamap](https://liveuamap.com) — *2026-07-27*
@@ -29,12 +29,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3B1Zkt4aksxNGlEVzVVUFYzQUZOTjNTWlJTV0ltRWp1RXBGWGNGZW5hbUFFTmtyWkgwRksybnNMX3VBTUthZ2NBNGxFTmt0X1Zad2tuRW94Z0ltMU1LdUhpcGI2RkRSclNObXZ4MW5ycDBfWEE5Mkh0c19vUWZqODJEYVIyWVVVRENRSlVSUW14UEtw?oc=5" target="_blank">Tokayev
 - **NEW**  [[Liveuamap] Bulk carrier Golden Leo (Guinea-Bissau flagged, Mumbai-owned, carrying corn from Odesa) capsized in shallow water off the Ukrainian coast today, a week after being hit by three Russian cruise missiles on 19 July. Casualties: 10 killed (9 cr](https://liveuamap.com) — *2026-07-26*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOV2hlRElobHlHYVc5aS1WLTFRUkh3aXdqa1REM2ZuWWRITGQ2dUFVWHE3U2FXM0ZQUEtCYmp4VmVKQVJTSXBWSVU0SXdETjlIN1k5Sm9JRTNTN3ZMOFFKdXREc0JtWUtWUlpkc2pOb1REODFRUHhKQnhzTUwzNzNzTG9Yb2VrRjU2SnhOZVZsREF1dEhFVkJSMmIwa09zUQ?oc=5" target="_
-- **NEW**  [[Liveuamap] The Israeli army: Over the past few days, we found and destroyed dozens of Hezbollah weapons and ammunition in southern Lebanon. Tel Aviv-Yafo, Tel Aviv District - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-29*
-  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNNW4zVzFPdTdYSFVmNDgyN0V0MDZEdGo2WTZueW5iSVJEOXRjSnZHdmhzbFpqcmxheFo1LVB3VWZsOFBwRmFuSHNBeUxwbXhPOW9NSExtZ3JlQm94OEpxaTdNSWs0d0QtbEczZG14U3dKcW82Y1FrZ1hWQ1FVc2lwM0F2cVBQak9MMng4dVh5TE82Zl9ZNkJaSjJYOFVNUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] News Live - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-07-29*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQT1NvYVlxaFVJd3NRT3BlVW9nOHNaRWFyYzlwZUZ4dWJUUGk0UEJDZGZOc0JPdU5ibXYtdmM5LUtJbnB4Y0gtOFItMERmRjhPeS1IeTd5ZnRMUndMS2JXb1dvR09GRVlubzNDMmwzOE0yM0hRQUtpOHhGbGVQa3E1WWtVM1JaamJjeUUtS0w2dk1LSDVlMEszX0Zn?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] Shahab, the Iranian Revolutionary Guard&039;s media outlet, stated: "We targeted an airbase and a central command center for the US military in Jordan with several ballistic missiles." Tehran, Tehran Province - Liveuamap](https://iran.liveuamap.com) — *2026-07-29*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQNGJEcDg4RUlCNjYxVWxiYldLNnN3OTRybUlFdENxV1BrbEpYMmUwa3dTeG54ekM0ZmFBMWFnQmdiV25tdU9JWHFjOEZ4Z0EzRDlERjg2RGx3V251TlA1SGpQMFE0ZWp3bHRJVFdqQ29CSE9EZ0I5U09VenBrLVFjYU1qTER4SXdoejZuckZEQko5cV9zQWc?oc=5" target="_blank">Shah
+- **NEW**  [[Liveuamap] The Israeli army: Over the past few days, we found and destroyed dozens of Hezbollah weapons and ammunition in southern Lebanon. Tel Aviv-Yafo, Tel Aviv District - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-29*
+  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNNW4zVzFPdTdYSFVmNDgyN0V0MDZEdGo2WTZueW5iSVJEOXRjSnZHdmhzbFpqcmxheFo1LVB3VWZsOFBwRmFuSHNBeUxwbXhPOW9NSExtZ3JlQm94OEpxaTdNSWs0d0QtbEczZG14U3dKcW82Y1FrZ1hWQ1FVc2lwM0F2cVBQak9MMng4dVh5TE82Zl9ZNkJaSjJYOFVNUQ?oc=5" target="_
 - **NEW**  [[Liveuamap] Several airstrikes target Yemen's Hodeidah port. Al-Mayadeen reports the strikes were carried out by Saudi forces - Liveuamap](https://yemen.liveuamap.com) — *2026-07-25*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2Eta1Y3dmI3SEZlSy16YS1oTDZYUUFLSEMycWxsZ29UWGF5Tkl4Um1YVUtGSkMtR3g0NjN3QUFwb2NGTGN2ZWVTSENqSUphZjkydm9BRkZ4Z3B3YlVDRWNJSTFnSElwZFZOR3U5cjNoaWVKeXBLWjhPYlVxNi1MMDlVQUlKNmJWbUhvbkd4alJVRTJqMzBCZQ?oc=5" target="_blank">S
 - **NEW**  [[Liveuamap] An explosion carried out by the Israeli army in the town of Hadatha - Liveuamap](https://lebanon.liveuamap.com) — *2026-07-29*
@@ -61,5 +59,9 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUNBY2VnRmxqZl9vb1VwTVQ1ME9sczJ0YkQwR1ZVQ3VzaGhtd0N0R2VYUVZQS2hxR3dIcnZmMmM0a08xSUxMb2RZVHBjTWFKNDJEWlBCZlFKTUxHNmZDamlQVW9fQ21SU1FFbnFiRFM2Nm1pNk1NX3JIS2xoTTBVeWxZZGxLWjI2SUFRUU5oYTRCdTBRY3lGaQ?oc=5" target="_blank">K
 - **NEW**  [[Liveuamap] The Yasen-M-class multipurpose nuclear submarine Ulyanovsk has been removed from its slipway at the Sevmash shipyard in Severodvinsk, the Russian Defense Ministry announced Arkhangelsk Oblast, Russia - Map of Latest News and incidents from ](https://russia.liveuamap.com) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmxXdWJOVEtwd2doYnN1Z0JTdDdVOWFIU2gzSmUwbkFCX3NjM3oxSXBkSG5naEhCa2xHOGNMOXlLQmFVUUNOWTU0eVpGOVFyRUt0TGI2bTd2b3djd2RFbDNzekp1OGRCOURFcHp6anltQWlsX1RPb1BwNEN0YTNuUnpLa2ZVSmlqRU1yQXdiSjlXM3RoWU9yTUNB?oc=5" target="_blank"
+- **NEW**  [[Liveuamap] Iraqi official claims arrest of Ukrainian-affiliated sabotage group. Iraqi National Security Advisor: Ukrainian intelligence cells carry out attacks in Iraq and attribute them to resistance groups. Iraqi institutions have arrested individua](https://iraq.liveuamap.com) — *2026-07-28*
+  > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQVEh5eHBwZ1FiWVI2VVZOLVFIN1V3T2s4OVhNMmVETF80cXZWbTd5NU1jX2pxdjQ2RVNVbF9FMHM2a05KTEh2TmRYLWE5UjlJeG5VY2x4RFhRODhYdllKbWpyRDhTTlJkREs3R3UzbS1wcWlqZHdiX21ocFFmdXRPQk5vb3hkUFozTFZwOWZSUURTWWtmQjcxb3JfX1dqQQ?oc=5" target="_
+- [[Liveuamap] The continued operation of US air defenses at bases in Erbil province - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-07-22*
+  > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNa1lZa2hkYmV6M0dORFVPbVRxVzZlc1VjTmstc0dCTENKSmQ2eVE3eVZwNmd6ZGk0aWdtbFZnOUtWMjl2d1kwQld1S2xnaThOZXVWZmRlcllEVUJsaFNvOUcxZWVSb2N6VmNsV05ZWDluWTdBX2UxUnR1UmxXdjZvTEVyRDBYb0xHblV3TkwtWkNxYkNtMWI0?oc=5" target="_blank">The
 
 _(215 additional items in raw.jsonl)_

@@ -3,13 +3,13 @@ section: chinese_internal
 title: Chinese Internal News
 date: 2026-07-29
 record_count: 299
-new_today: 229
+new_today: 228
 state: fresh
 ---
 
 ## Chinese Internal News
 
-229 new of 299 total items today.
+228 new of 299 total items today.
 
 - **NEW**  [Covid-19 Infections Surge Across China as Virus Reclaims Dominance - Caixin Global](https://www.caixinglobal.com) — *2026-07-28*
   > <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPLS1aQnJKNlQ2Vjh6bXFwZkRFdFYybUJEY2ZTMTV1cUN6T1F1bXlUMkhILW5iU3J3OGF3OFNZQzhaNVJzdlAzRGRLQnctbDJTVjNma1NsM3ROV09tT0Zna3VwV240RHBwZFMwdWpoVzNyMlZNbzlsdkl1a25jQlZiVFRmR2pRMHVRanZmZHNYWDB2S2hTa0tmZTZnYTE3Z0xjNGJqalNudmMxZE

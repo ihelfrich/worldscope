@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-29
-record_count: 219
-new_today: 178
+record_count: 220
+new_today: 179
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-178 new of 219 total items today.
+179 new of 220 total items today.
 
 - **NEW**  [[St. Louis] KSDK’s Art Holliday celebrates Chuck Berry’s pianist Johnnie Johnson in upcoming documentary ‘Johnnie Be Good’](https://www.stlmag.com/culture/music/ksdks-art-holliday-celebrates-chuck-berrys-pianist-johnnie-johnson-in-upcoming-documentary-johnnie-be-good/) — *2026-07-28*
   > <p>Despite being a Rock &#38; Roll Hall of Fame inductee, most people do not know his name. Despite being the man who hired an unknown guitarist named Chuck Berry to be in his band for a performance on New Year’s Eve 1952, most people do not know his name. And despite his name ap
@@ -31,16 +31,8 @@ state: fresh
   > <p>With little fanfare, the Department of Homeland Security recently posted a notice seeking “surge parking” spaces in several U.S. cities on behalf of Immigration and Customs Enforcement. Among those cities is St. Louis.&#160; The “sources sought notice” was posted July 21 and s
 - [[St. Louis] Bush/Bell rematch is far less expensive than 2024—but turnout is trending up](https://www.stlmag.com/news/bush-bell-rematch-turnout/) — *2026-07-28*
   > <p>St. Louisans have already been going to the polls for almost a week as incumbent Representative Wesley Bell faces Cori Bush in a rematch of the 2024 race. Which candidate wins depends on who turns out and, thanks to voters’ increasingly availing themselves of early voting, the
-- **NEW**  [[St. Louis] Pritzker signs school cellphone ban to avoid student distractions](https://www.stlpr.org/education/2026-07-28/pritzker-signs-school-cellphone-ban-to-avoid-student-distractions) — *2026-07-28*
-- **NEW**  [[St. Louis] Panera to relocate headquarters from St. Louis County to Boston area](https://www.stlpr.org/news-briefs/2026-07-28/panera-relocate-st-louis-county-boston) — *2026-07-28*
-- **NEW**  [[St. Louis] St. Louis receives $2.9M in FEMA funding to help with tornado disaster case management](https://www.stlpr.org/government-politics-issues/2026-07-28/st-louis-2-9m-fema-funding-tornado-disaster-case-management) — *2026-07-28*
-- **NEW**  [[St. Louis] More than 100 voices in harmony carry a St. Charles barbershop chorus to its 6th championship](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-28/ambassadors-of-harmony-barbershop-chorus-st-louis-st-charles-championship-society) — *2026-07-28*
-- [[St. Louis] An iconic St. Louis mural is getting a refresh after 40 years](https://www.stlpr.org/culture-history/2026-07-28/iconic-st-louis-mural-refresh-40-years) — *2026-07-28*
-- [[St. Louis] Rep. Bill Hardwick seeks to bring consensus approach to Rolla-area Senate seat](https://www.stlpr.org/podcast/politically-speaking/2026-07-28/rep-bill-hardwick-seeks-to-bring-consensus-approach-to-rolla-area-senate-seat) — *2026-07-28*
-- [[St. Louis] 2 St. Louis high schoolers went to the ‘NBA draft for theater’ — and shone](https://www.stlpr.org/arts/2026-07-28/st-louis-teens-national-high-school-musical-theatre-awards) — *2026-07-28*
-- [[St. Louis] Overland couple shot dead in Guatemala after local ICE stop led to deportations](https://www.stlpr.org/law-order/2026-07-27/overland-missouri-couple-killed-guatemala-deportations) — *2026-07-27*
-- [[St. Louis] Missouri reports nearly 600 cyclospora illnesses as Illinois added to federal outbreak investigation](https://www.stlpr.org/news-briefs/2026-07-27/missouri-reports-600-cyclospora-illnesses-illinois-added-to-federal-outbreak-investigation) — *2026-07-27*
-- [[St. Louis] Ameren Missouri asks to build new natural gas plant — and have customers pay up front](https://www.stlpr.org/health-science-environment/2026-07-27/ameren-missouri-build-new-natural-gas-plant-west-alton) — *2026-07-27*
+- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-07-29*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - **NEW**  [[St. Louis] Who won the Mega Millions jackpot? What we know about Tuesday night's big winner](https://www.ksdk.com/article/news/lottery/mega-millions-tuesday-night-jackpot-money/507-ee8952b3-fefa-4cab-93bf-c78d4f4723be) — *2026-07-29*
   > Beyond the jackpot, two other players from Illinois and New York walked away with "smaller" multimillion-dollar totals.
 - **NEW**  [[St. Louis] St. Louis Police searching for suspects who opened fire on officers](https://www.ksdk.com/article/news/crime/st-louis-police-searching-for-suspects-who-opened-fire-on-officers/63-8e26598d-89d6-48f8-bba3-687b2729fc74) — *2026-07-29*
@@ -51,5 +43,23 @@ state: fresh
   > Diagnosed while pregnant, Kiersten Rapplean is now cancer-free and celebrating the major expansion of the SSM Health St. Joseph Hospital Cancer Center.
 - **NEW**  [[St. Louis] Panera to move headquarters from St. Louis to Boston](https://www.ksdk.com/article/money/business/panera-move-st-louis-boston-first-year-transformation-strategy/63-ddccb07c-59d3-4f20-bc16-8ed98bd7f41b) — *2026-07-29*
   > The new headquarters is expected to open next year.
+- **NEW**  [[St. Louis] 'We just want an arrest,' says mother of Metro East teen shot, killed outside Cahokia Heights McDonald's](https://www.ksdk.com/article/news/crime/metro-east-teen-shot-killed-outside-cahokia-heights-mcdonalds/63-ef54f46e-1c8e-4d31-aeca-cc32a0f05f21) — *2026-07-29*
+  > "I am hurt. I am devastated and  want an arrest," said the mother of Lamerion Davis.
+- **NEW**  [[St. Louis] Mega Millions draws winning numbers for Tuesday, July 28](https://www.ksdk.com/article/news/nation-world/mega-millions-winning-numbers-july-28-2026/507-2b544c2d-4d49-44e6-9fda-cca19f889d5a) — *2026-07-29*
+  > The Mega Millions jackpot soared to $800 million Tuesday, making it the ninth largest in history.
+- **NEW**  [[St. Louis] Death toll rises to 13 as rescuers search for the missing after Japan earthquake](https://www.ksdk.com/article/news/nation-world/magnitude-7-point-1-earthquake-shakes-part-of-southern-japan/507-5e883c98-ec44-4a74-97be-f0068b84c871) — *2026-07-29*
+  > The powerful earthquake caused the second floor at the Aeon Mall shopping center in Kashima Town to collapse, trapping an unknown number of people.
+- **NEW**  [[St. Louis] TSA officers at Alabama airport find stolen Civil War-era cannonballs in checked bag](https://www.ksdk.com/article/news/nation-world/tsa-alabama-airport-stolen-civil-war-era-cannonballs-checked-bag/507-c96e9084-52fb-435f-a634-b3d42cfcfa64) — *2026-07-29*
+  > On the X-ray screen, it looked like a medicine ball. When a TSA officer opened the bag, he immediately worried he might be dealing with something far more dangerous.
+- **NEW**  [[St. Louis] More help on the way for city residents still recovering from the May 16 tornado](https://www.ksdk.com/article/news/more-help-on-the-way-for-city-residents-still-recovering-from-the-may-16-tornado/63-0d365190-e451-4a26-86fa-a938466b1b26) — *2026-07-29*
+  > $2.9 million in additional FEMA funding is on the way to assist St. Louis residents impacted by the May 16 tornado
+- **NEW**  [[St. Louis] Senate confirms Jay Clayton as nation's intelligence director](https://www.ksdk.com/article/news/nation-world/senate-expected-to-confirm-jay-clayton-intelligence-director/507-88d12752-65a4-4a26-a722-a90001ebc276) — *2026-07-29*
+  > Clayton is expected to be confirmed along party lines after a contentious hearing two weeks ago.
+- **NEW**  [[St. Louis] National Chicken Wing Day 2026: Deals and freebies on Wednesday](https://www.ksdk.com/article/news/nation-world/national-chicken-wing-day-deals-freebies/507-8e910f93-f01d-4295-864a-ce0b4f602922) — *2026-07-28*
+  > Restaurants nationwide are offering discounted and free wings on July 29 for National Chicken Wing Day.
+- **NEW**  [[St. Louis] American Airlines flights resume after nationwide system outage](https://www.ksdk.com/article/news/nation-world/american-airlines-ground-stop-system-outage/507-ef7243e2-c19c-4e12-b437-97ddac852961) — *2026-07-28*
+  > An American Airlines IT outage prompted the FAA to issue a ground stop, temporarily preventing planes from taking off Tuesday evening.
+- **NEW**  [[St. Louis] ‘I don't know how to live without her’: Twin sister remembers Jefferson County teen and mother killed in shooting](https://www.ksdk.com/article/news/crime/i-dont-know-how-to-live-without-her-twin-sister-remembers-jefferson-county-teen-and-mother-killed-in-shooting/63-1a84aea7-c660-4a2d-8ec3-6485e55a7730) — *2026-07-28*
+  > Justice Greer is remembering her twin sister Jersey and their mother, Jessica, for the love, laughter, and strength they brought to everyone around them.
 
-_(194 additional items in raw.jsonl)_
+_(195 additional items in raw.jsonl)_

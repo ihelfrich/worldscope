@@ -2,15 +2,17 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-29
-record_count: 155
-new_today: 152
+record_count: 156
+new_today: 153
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-152 new of 155 total items today.
+153 new of 156 total items today.
 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-51009) — *2026-07-29*
+  > Monitoring message only. Please disregard.
 - **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 5:28AM EDT until July 29 at 9:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16a86da6f653873a9c777458c7d27b18c15fcf98.001.1) — *2026-07-29*
   > FFWALY
 
@@ -251,16 +253,5 @@ Parishes.
 * IMPACTS...Wind and wave action will cause currents on the
 lakeshore. Swimmers should not enter the water. Currents can
 carry swimmers away from shore through a sand bar and alo
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 29 at 3:44AM EDT until July 30 at 4:00AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d7257382c44a2bb960792414fded1790cef7931.001.1) — *2026-07-29*
-  > * WHAT...High risk of rip currents.
 
-* WHERE...Erie, Lorain, Cuyahoga, Lake and Ashtabula Lakeshore
-Counties.
-
-* WHEN...Through late tonight.
-
-* IMPACTS...Wind and wave action will cause currents on the
-lakeshore. Swimmers should not enter the water. Currents can
-carry swimmers a
-
-_(130 additional items in raw.jsonl)_
+_(131 additional items in raw.jsonl)_

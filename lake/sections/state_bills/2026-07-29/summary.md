@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-29
-record_count: 258
-new_today: 0
-state: stale_after_failure
+record_count: 117
+new_today: 117
+state: fresh
 ---
 
 ## State Legislative Action
 
-0 new of 258 total items today.
+117 new of 117 total items today.
 
 - [[Alaska SB 86] An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegat]() — *2026-07-29*
   > An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized de
@@ -62,4 +62,4 @@ state: stale_after_failure
 - [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-07-27*
   > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
 
-_(233 additional items in raw.jsonl)_
+_(92 additional items in raw.jsonl)_

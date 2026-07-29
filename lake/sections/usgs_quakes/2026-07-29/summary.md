@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-29
-record_count: 20
+record_count: 19
 new_today: 19
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-19 new of 20 total items today.
+19 new of 19 total items today.
 
 - **NEW**  [M 5.4 - 153 km NE of Neiafu, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgje) — *2026-07-29*
   > M5.4 · 153 km NE of Neiafu, Tonga · depth 10 km
@@ -43,8 +43,6 @@ state: fresh
   > M4.7 · 45 km SSW of Puerto Madero, Mexico · depth 47.981 km
 - **NEW**  [M 4.7 - 8 km SSW of Mifune, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgcq) — *2026-07-28*
   > M4.7 · 8 km SSW of Mifune, Japan · depth 10 km
-- [M 4.7 - 198 km NW of Oula Xiuma, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgc3) — *2026-07-28*
-  > M4.7 · 198 km NW of Oula Xiuma, China · depth 10 km
 - **NEW**  [M 4.6 - 102 km WNW of Aykol, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgla) — *2026-07-29*
   > M4.6 · 102 km WNW of Aykol, China · depth 10 km
 - **NEW**  [M 4.5 - 92 km S of Hihifo, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgg0) — *2026-07-28*
