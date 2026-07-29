@@ -2,16 +2,15 @@
 section: federal_register
 title: U.S. Federal Action
 date: 2026-07-29
-record_count: 20
-new_today: 13
+record_count: 19
+new_today: 12
 state: fresh
 ---
 
 ## U.S. Federal Action
 
-13 new of 20 total items today.
+12 new of 19 total items today.
 
-- **NEW**  [CONTENTS](https://www.federalregister.gov/documents/2026/07/29/X26-10729/contents) — *2026-07-29*
 - **NEW**  [Allocation of Assets in Single-Employer Plans; Interest Assumptions for Valuing Benefits](https://www.federalregister.gov/documents/2026/07/29/C1-2026-13124/allocation-of-assets-in-single-employer-plans-interest-assumptions-for-valuing-benefits) — *2026-07-29*
 - **NEW**  [Continuation of the National Emergency With Respect to Brazil](https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil) — *2026-07-29*
 - **NEW**  [Restoring Trust in the Smithsonian Institution](https://www.federalregister.gov/documents/2026/07/29/2026-15357/restoring-trust-in-the-smithsonian-institution) — *2026-07-29*

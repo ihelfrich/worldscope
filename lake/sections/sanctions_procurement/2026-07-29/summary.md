@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-29
-record_count: 160
-new_today: 16
+record_count: 161
+new_today: 17
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-16 new of 160 total items today.
+17 new of 161 total items today.
 
 - [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
@@ -25,10 +25,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvSG01VXpWeFNPUERoZkpScGNoSFB1NkNKVXB3VHhzYTVqTnhZV3ZWdDc0aF9BYjZGQ3pOMEk1S01sMTFqSUJ3emk1aE1CeGR5U0plUjBXM2JMWmRHTlJmd18xU1Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
 - [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Dd19XT2dxMFhJM0NiVVhGTUx5RXdhWmJRUlhSSzBBeW5TZjJkbTd6ZkJzWFlURWJLU0VCYUcwc3M5dTBIMF8xeU81eXhsVktvdjNYNDY1N3Q2NzFkaE5vb2trNno?oc=5" target="_blank">CJNG-Linked Networks</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fore
-- [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
 - [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaLTNheHJZUWF1Q1dQODdvNFVwWnYwaWYwRHE5MHBMeEs4UFJ3NkJDdmJPSmozS1JZLWoxNFdnS0VPU1FUTnU1S0pvaw?oc=5" target="_blank">1239</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
+- [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRU2FpNHZLdlRMbnBhbFdDWERENXRqMHA5QTNiRWZvbVJkbnRKaldzdnJuWDcyVHpuWXJBSHhFeUI5RkhIYzBoZndmejFnVzItY0ZqV0xpT1V0d1lfUmJIMnIyY0Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[BIS Entity List] page checksum 5dce0c7ac819](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-29*
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $1,150,643,464 → LEIDOS, INC.: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWI](https://www.usaspending.gov/award/47QFCA21C0002) — *2026-07-29*
   > Agency: General Services Administration.  Description: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWIDE NON MEDICAL CONFIDENTIAL COUNSELING SERVICES.
 
-_(135 additional items in raw.jsonl)_
+_(136 additional items in raw.jsonl)_

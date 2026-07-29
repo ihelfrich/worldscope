@@ -21,6 +21,8 @@ state: fresh
   > M5.1 · Kermadec Islands region · depth 35 km
 - **NEW**  [M 5.1 - south of the Fiji Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tggi) — *2026-07-28*
   > M5.1 · south of the Fiji Islands · depth 575.128 km
+- **NEW**  [M 5.0 - South Sandwich Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgm6) — *2026-07-29*
+  > M5.0 · South Sandwich Islands region · depth 60.675 km
 - **NEW**  [M 5.0 - south of Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgkd) — *2026-07-29*
   > M5.0 · south of Tonga · depth 10 km
 - **NEW**  [M 5.0 - 52 km E of Denali National Park, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ovufno) — *2026-07-28*
@@ -41,8 +43,6 @@ state: fresh
   > M4.8 · 10 km WNW of Honmachi, Japan · depth 9.343 km
 - **NEW**  [M 4.7 - 45 km SSW of Puerto Madero, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tget) — *2026-07-28*
   > M4.7 · 45 km SSW of Puerto Madero, Mexico · depth 47.981 km
-- **NEW**  [M 4.7 - 8 km SSW of Mifune, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgcq) — *2026-07-28*
-  > M4.7 · 8 km SSW of Mifune, Japan · depth 10 km
 - **NEW**  [M 4.6 - 102 km WNW of Aykol, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgla) — *2026-07-29*
   > M4.6 · 102 km WNW of Aykol, China · depth 10 km
 - **NEW**  [M 4.5 - 92 km S of Hihifo, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgg0) — *2026-07-28*
