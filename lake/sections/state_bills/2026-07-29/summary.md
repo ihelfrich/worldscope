@@ -2,15 +2,17 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-29
-record_count: 195
-new_today: 195
+record_count: 229
+new_today: 229
 state: fresh
 ---
 
 ## State Legislative Action
 
-195 new of 195 total items today.
+229 new of 229 total items today.
 
+- **NEW**  [[Alaska SB 23] An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.]() — *2026-07-29*
+  > An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.
 - **NEW**  [[Alaska SB 86] An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegat]() — *2026-07-29*
   > An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized de
 - **NEW**  [[Alaska SB 64] An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the crimes ]() — *2026-07-29*
@@ -23,8 +25,6 @@ state: fresh
   > An Act establishing deadlines for the payment of contracts under the State Procurement Code; establishing deadlines for the payment of grants, contracts, and reimbursement agreements to nonprofit organizations, municipalities, and Alaska Native organizations; relating to reports 
 - **NEW**  [[Alaska HB 265] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-07-28*
   > An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.
-- **NEW**  [[Alaska SB 23] An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.
 - **NEW**  [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-07-28*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
 - **NEW**  [[Alaska HB 289] An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.]() — *2026-07-28*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-07-27*
   > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
 
-_(170 additional items in raw.jsonl)_
+_(204 additional items in raw.jsonl)_

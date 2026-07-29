@@ -11,18 +11,18 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-27*
-  > latest: 3.6300000000 as of 2026-07-27
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-27*
-  > latest: 4.3100000000 as of 2026-07-27
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-27*
-  > latest: 4.6500000000 as of 2026-07-27
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-27*
-  > latest: 5.1200000000 as of 2026-07-27
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-07-28*
+  > latest: 3.6300000000 as of 2026-07-28
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-07-28*
+  > latest: 4.2600000000 as of 2026-07-28
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-07-28*
+  > latest: 4.6100000000 as of 2026-07-28
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-07-28*
+  > latest: 5.0900000000 as of 2026-07-28
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-07-28*
   > latest: 3.65 as of 2026-07-28
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-28*
-  > latest: 0.35 as of 2026-07-28
+- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-07-29*
+  > latest: 0.45 as of 2026-07-29
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-06-01*
   > latest: 332.568 as of 2026-06-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-06-01*
@@ -49,7 +49,7 @@ state: fresh
   > latest: 163.7100000000 as of 2026-07-24
 - [[FX] CNY/USD (DEXCHUS)](https://fred.stlouisfed.org/series/DEXCHUS) — *2026-07-24*
   > latest: 6.7719000000 as of 2026-07-24
-- [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-07-20*
-  > latest: 84.38 as of 2026-07-20
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-27*
-  > latest: 18.67 as of 2026-07-27
+- [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-07-27*
+  > latest: 84.25 as of 2026-07-27
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-07-28*
+  > latest: 18.21 as of 2026-07-28

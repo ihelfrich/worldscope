@@ -3,38 +3,38 @@ section: courtlistener
 title: Court opinions of consequence (federal & state)
 date: 2026-07-29
 record_count: 60
-new_today: 31
+new_today: 43
 state: fresh
 ---
 
 ## Court opinions of consequence (federal & state)
 
-31 new of 60 total items today.
+43 new of 60 total items today.
 
-- **NEW**  [U.S. Court of Appeals, 3rd Cir.: Alecto Healthcare Services LLC v.](https://www.courtlistener.com/opinion/10935774/alecto-healthcare-services-llc-v/) — *2026-07-28*
-- [Connecticut Supreme Court: State v. Keaton](https://www.courtlistener.com/opinion/10935657/state-v-keaton/) — *2026-07-28*
-- [Connecticut Supreme Court: State v. Kim](https://www.courtlistener.com/opinion/10935656/state-v-kim/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, D.C. Cir.: Environmental Defense Fund v. EPA](https://www.courtlistener.com/opinion/10935725/environmental-defense-fund-v-epa/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, D.C. Cir.: The Estate of Stephen M. Jennions v. CFTC](https://www.courtlistener.com/opinion/10935724/the-estate-of-stephen-m-jennions-v-cftc/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: In Re: Laura Charlene Goebel](https://www.courtlistener.com/opinion/10935716/in-re-laura-charlene-goebel/) — *2026-07-28*
+- **NEW**  [Arizona Supreme Court: GALLERY v. K HOVNANIAN](https://www.courtlistener.com/opinion/10936210/gallery-v-k-hovnanian/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Bonfiglioli USA, Inc. v. Midwest Engineered Components, Inc.](https://www.courtlistener.com/opinion/10936419/bonfiglioli-usa-inc-v-midwest-engineered-components-inc/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: United States v. Saruba Asante Smith](https://www.courtlistener.com/opinion/10936415/united-states-v-saruba-asante-smith/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 3rd Cir.: Karen Cornish-Adebiyi v. Caesars Entertainment Inc](https://www.courtlistener.com/opinion/10936196/karen-cornish-adebiyi-v-caesars-entertainment-inc/) — *2026-07-29*
+- **NEW**  [U.S. Court of International Trade: Ningxia Guanghua Cherishmet Activated Carbon Co. v. United States](https://www.courtlistener.com/opinion/10936425/ningxia-guanghua-cherishmet-activated-carbon-co-v-united-states/) — *2026-07-29*
+- **NEW**  [U.S. Court of International Trade: Tube Forgings of Am., Inc. v. United States](https://www.courtlistener.com/opinion/10936422/tube-forgings-of-am-inc-v-united-states/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: Serenity Investments, LLC v. Sun Hung Kai Strategic Capital, Ltd.](https://www.courtlistener.com/opinion/10936157/serenity-investments-llc-v-sun-hung-kai-strategic-capital-ltd/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Yates](https://www.courtlistener.com/opinion/10936156/united-states-v-yates/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 2nd Cir.: Civil Rights Corps v. LaSalle](https://www.courtlistener.com/opinion/10936118/civil-rights-corps-v-lasalle/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 2nd Cir.: Ohindo v. Ball](https://www.courtlistener.com/opinion/10936117/ohindo-v-ball/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 2nd Cir.: United States v. Greebel](https://www.courtlistener.com/opinion/10936116/united-states-v-greebel/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Joliet Avionics, Inc. v. City of Aurora, Illinois](https://www.courtlistener.com/opinion/10936420/joliet-avionics-inc-v-city-of-aurora-illinois/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Robert Richardson v. Northwestern Memorial Healthcare](https://www.courtlistener.com/opinion/10936261/robert-richardson-v-northwestern-memorial-healthcare/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Mark Randle](https://www.courtlistener.com/opinion/10936260/united-states-v-mark-randle/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Eugenia Kamberos v. John Kutrubis](https://www.courtlistener.com/opinion/10936204/eugenia-kamberos-v-john-kutrubis/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Jeffrey Jones v. B. Lammer](https://www.courtlistener.com/opinion/10936122/jeffrey-jones-v-b-lammer/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: The Town of Pine Hill, Alabama v. 3M Company](https://www.courtlistener.com/opinion/10936160/the-town-of-pine-hill-alabama-v-3m-company/) — *2026-07-29*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: African People's Education and Defense Fund, Inc. v. Pinellas County](https://www.courtlistener.com/opinion/10936058/african-peoples-education-and-defense-fund-inc-v-pinellas-county/) — *2026-07-29*
 - **NEW**  [U.S. Court of Appeals, 6th Cir.: Socorro Perez-Hernandez v. Todd Blanche](https://www.courtlistener.com/opinion/10935954/socorro-perez-hernandez-v-todd-blanche/) — *2026-07-28*
 - **NEW**  [U.S. Court of Appeals, 6th Cir.: United States v. Cody Dewayne King](https://www.courtlistener.com/opinion/10935953/united-states-v-cody-dewayne-king/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: Michael Davis v. Lockheed Martin Corporation](https://www.courtlistener.com/opinion/10935915/michael-davis-v-lockheed-martin-corporation/) — *2026-07-28*
+- **NEW**  [Delaware Supreme Court: IMO the Petition of Simon Smith for a Writ of Mandamus](https://www.courtlistener.com/opinion/10936176/imo-the-petition-of-simon-smith-for-a-writ-of-mandamus/) — *2026-07-28*
+- **NEW**  [U.S. Court of Appeals, 3rd Cir.: Alecto Healthcare Services LLC v.](https://www.courtlistener.com/opinion/10935774/alecto-healthcare-services-llc-v/) — *2026-07-28*
 - **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Meier](https://www.courtlistener.com/opinion/10935838/united-states-v-meier/) — *2026-07-28*
 - **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Campbell](https://www.courtlistener.com/opinion/10935806/united-states-v-campbell/) — *2026-07-28*
 - **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Mims](https://www.courtlistener.com/opinion/10935776/united-states-v-mims/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 10th Cir.: Church of Jesus Christ of Latter-Day Saints v. National Union Fire Insurance Company of Pittsburg](https://www.courtlistener.com/opinion/10935770/church-of-jesus-christ-of-latter-day-saints-v-national-union-fire/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 10th Cir.: Terry v. Drummond](https://www.courtlistener.com/opinion/10935769/terry-v-drummond/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 10th Cir.: Wildcat Coal v. Pacific Minerals](https://www.courtlistener.com/opinion/10935766/wildcat-coal-v-pacific-minerals/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Lopez](https://www.courtlistener.com/opinion/10935762/united-states-v-lopez/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Alice Stills v. Mead Johnson & Company LLC](https://www.courtlistener.com/opinion/10935913/alice-stills-v-mead-johnson-company-llc/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Gina Wieger v. Mead Johnson & Company LLC](https://www.courtlistener.com/opinion/10935912/gina-wieger-v-mead-johnson-company-llc/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Holli Carter v. Mead Johnson & Company LLC](https://www.courtlistener.com/opinion/10935911/holli-carter-v-mead-johnson-company-llc/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Shondera Drayton v. Mead Johnson & Company LLC](https://www.courtlistener.com/opinion/10935910/shondera-drayton-v-mead-johnson-company-llc/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Terraine Abdullah v. Mead Johnson & Company LLC](https://www.courtlistener.com/opinion/10935909/terraine-abdullah-v-mead-johnson-company-llc/) — *2026-07-28*
-- **NEW**  [Hawaii Supreme Court: Marn, Jr. v. McCully Associates](https://www.courtlistener.com/opinion/10936002/marn-jr-v-mccully-associates/) — *2026-07-28*
-- **NEW**  [Hawaii Supreme Court: State v. Evans](https://www.courtlistener.com/opinion/10936001/state-v-evans/) — *2026-07-28*
-- **NEW**  [Hawaii Supreme Court: Mola v. Lopez-Ruiz](https://www.courtlistener.com/opinion/10935823/mola-v-lopez-ruiz/) — *2026-07-28*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: Anthony Knight v. Cambria Company, LLC](https://www.courtlistener.com/opinion/10935761/anthony-knight-v-cambria-company-llc/) — *2026-07-28*
 
 _(35 additional items in raw.jsonl)_

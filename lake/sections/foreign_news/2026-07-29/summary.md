@@ -2,42 +2,46 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-07-29
-record_count: 1021
-new_today: 770
+record_count: 1047
+new_today: 827
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-770 new of 1021 total items today.
+827 new of 1047 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-29*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-29*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-07-29*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Kenya investigating unexpected deaths of 15 elephants in national park](https://www.theguardian.com/world/2026/jul/29/elephant-deaths-kenya-amboseli-national-park) — *2026-07-29*
-- [[Global] Uganda begins emergency food handouts after 19 die from hunger](https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger) — *2026-07-27*
-- **NEW**  [[Global] Canadians spent $3.3bn less on travel to US in 2025 after Trump’s return to office](https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump) — *2026-07-28*
-- **NEW**  [[Global] Past fires suggest effects of Europe and North America wildfires may linger for years](https://www.theguardian.com/world/2026/jul/28/wildfires-europe-north-america-effects) — *2026-07-28*
-- [[Global] Javier Milei accuses US Democrats of financing ‘anti-Argentina campaign’ at World Cup](https://www.theguardian.com/world/2026/jul/28/javier-milei-accuses-us-democrats-of-financing-anti-argentina-campaign-at-world-cup) — *2026-07-28*
-- [[Global] Pinochet-era soldier jailed for killing folk singer Víctor Jara 53 years ago](https://www.theguardian.com/world/2026/jul/27/pinochet-era-soldier-jailed-for-killing-folk-singer-victor-jara-chile) — *2026-07-27*
-- [[Global] Shots fired near US consulate in Canada for second time in four months](https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto) — *2026-07-27*
-- **NEW**  [[Global] Rescue teams face ‘race against time’ in search for trapped survivors as death toll in Japan rises to at least 13 – live updates](https://www.theguardian.com/world/live/2026/jul/29/sanae-takaichi-rescue-trapped-shopping-centre-mall-japan-earthquake-latest-news-updates) — *2026-07-29*
-- **NEW**  [[Global] ‘The shaking was terrifying’: stories of survival and loss emerge after Japan earthquake](https://www.theguardian.com/world/2026/jul/29/japan-earthquake-stories-people-survival-loss-hikawa-uki) — *2026-07-29*
-- **NEW**  [[Global] Shares in Asian chip firms plunge further as AI sell-off continues](https://www.theguardian.com/business/2026/jul/29/asian-chip-firms-shares-plunge-ai-sell-off-stock-markets) — *2026-07-29*
-- **NEW**  [[Global] ‘Race against time’: Japan earthquake death toll rises as rescue teams search for missing](https://www.theguardian.com/world/2026/jul/29/japan-earthquake-death-aftershocks) — *2026-07-29*
-- **NEW**  [[Global] US bans humanoid robots from China, citing ‘unacceptable risks’](https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china) — *2026-07-28*
-- **NEW**  [[Global] Mother went to South Australia police station day before suspected murder-suicide](https://www.theguardian.com/australia-news/2026/jul/29/sa-police-helena-wright-toddler-death-missing-baby-port-macdonnell-ntwnfb) — *2026-07-29*
-- **NEW**  [[Global] Victorian cults inquiry accidentally shares email address of anonymous survivors with group members](https://www.theguardian.com/australia-news/2026/jul/29/victorian-cults-inquiry-accidentally-shares-email-address-of-anonymous-survivors-with-group-members-ntwnfb) — *2026-07-29*
-- **NEW**  [[Global] Petrol back above $2 a litre in some areas – as it happened](https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb) — *2026-07-29*
-- **NEW**  [[Global] Daniel Andrews says Ben Carroll ‘can win’ Victoria election in rare public statement](https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb) — *2026-07-29*
-- **NEW**  [[Global] Young Liberal power brokers created ‘shit sheet’ on NSW minister accusing him of extramarital affair](https://www.theguardian.com/australia-news/2026/jul/29/icac-operation-rosny-young-liberals-shit-sheet-nsw-minister-david-elliott-ntwnfb) — *2026-07-29*
-- **NEW**  [[Global] Pedro Sánchez says next 12 hours will be ‘decisive’ in battle to contain wildfires – Europe live](https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates) — *2026-07-29*
-- **NEW**  [[Global] BMW to cut ‘as many as 8,000 jobs’ under pressure from Chinese rivals](https://www.theguardian.com/business/2026/jul/29/bmw-cut-jobs-germany-pressure-chinese-rivals) — *2026-07-29*
-- **NEW**  [[Global] French music producer Kavinsky, known for Drive soundtrack hit Nightcall, dies aged 50](https://www.theguardian.com/music/2026/jul/29/kavinsky-french-music-producer-dies-aged-50-drive-soundtrack-nightcall) — *2026-07-29*
-- **NEW**  [[Global] Wednesday briefing: Will Zelenskyy’s domestic struggles harm his reputation on the global stage?](https://www.theguardian.com/world/2026/jul/29/wednesday-briefing-will-zelenskyys-domestic-struggles-harm-his-reputation-on-the-global-stage) — *2026-07-29*
-- **NEW**  [[Global] Almost 4,000 people evacuated from tourist sites near Bordeaux as wildfires rage in France and Spain](https://www.theguardian.com/world/2026/jul/28/france-bordeaux-lacanau-evacuation-wildfires-madrid-spain) — *2026-07-28*
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-07-29*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-07-29*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[India] Bihar cabinet gives nod to fill up 22,981 posts of Anganwadi workers](https://www.thehindu.com/news/national/bihar/bihar-cabinet-gives-nod-to-fill-up-22981-posts-of-anganwadi-workers/article71282475.ece) — *2026-07-30*
+  > Nod for creation of 19 posts of District & Additional Sessions Judge for Exclusive Special Courts; Three posts of DASJ created for Additional Special Courts
+- **NEW**  [[India] OMR residents want foot overbridges to be repaired](https://www.thehindu.com/news/cities/chennai/omr-residents-want-fobs-to-be-repaired/article71282872.ece) — *2026-07-30*
+- **NEW**  [[India] Kerala Tourism to push for driver facilities in star-rating norms for hotels and resorts](https://www.thehindu.com/news/national/kerala/kerala-tourism-to-push-for-driver-facilities-in-star-rating-norms-for-hotels-and-resorts/article71277591.ece) — *2026-07-30*
+- **NEW**  [[India] Workshop to draft action plans for welfare of SHGs begins in Kochi](https://www.thehindu.com/news/national/kerala/workshop-to-draft-action-plans-for-welfare-of-shgs-begins-in-kochi/article71282763.ece) — *2026-07-30*
+- **NEW**  [[India] CJP protest | Fresh reports of detentions, takedown of social media posts emerge](https://www.thehindu.com/news/national/cjp-protest-fresh-reports-of-detentions-takedown-of-social-media-posts-emerge/article71282584.ece) — *2026-07-30*
+- **NEW**  [[India] Bangladeshi national arrested in Kozhikode over illegal stay](https://www.thehindu.com/news/national/kerala/bangladeshi-national-arrested-in-kozhikode-over-illegal-stay/article71282937.ece) — *2026-07-30*
+- **NEW**  [[India] AKPCTA seeks govt. intervention to end administrative crisis at technical varsity](https://www.thehindu.com/news/national/kerala/akpcta-seeks-govt-intervention-to-end-administrative-crisis-at-technical-varsity/article71278018.ece) — *2026-07-30*
+  > Association demands that a Syndicate meeting be convened without further delay to approve pending appointments and promotions
+- **NEW**  [[India] City police incinerate 587 kg of suspected ganja, other seized contraband](https://www.thehindu.com/news/national/kerala/city-police-incinerate-587-kg-of-suspected-ganja-other-seized-contraband/article71282074.ece) — *2026-07-30*
+- **NEW**  [[India] Farmer, worker groups to intensify protests against Centre’s policies](https://www.thehindu.com/news/national/farmer-worker-groups-to-intensify-protests-against-centres-policies/article71282645.ece) — *2026-07-30*
+- **NEW**  [[India] CAQM urges NCR States to deploy drones to monitor stubble burning](https://www.thehindu.com/news/national/caqm-urges-ncr-states-to-deploy-drones-to-monitor-stubble-burning/article71282120.ece) — *2026-07-30*
+- **NEW**  [[India] Centre ‘coercing’ vehicle manufacturers into silence on E20 issue: Kejriwal](https://www.thehindu.com/news/national/centre-coercing-vehicle-manufacturers-into-silence-on-e20-issue-kejriwal/article71282235.ece) — *2026-07-30*
+- **NEW**  [[India] Ambedkar’s photo should be displayed prominently: VCK Councillor](https://www.thehindu.com/news/national/tamil-nadu/ambedkars-photo-should-be-displayed-prominently-vck-councillor/article71282773.ece) — *2026-07-30*
+- **NEW**  [[India] GITAM to host national moot court competition in October](https://www.thehindu.com/news/national/andhra-pradesh/gitam-to-host-national-moot-court-competition-in-october/article71282616.ece) — *2026-07-30*
+- **NEW**  [[India] Govt. simplifies NEET-UG 2026 counselling process](https://www.thehindu.com/news/national/nadda-reviews-neet-ug-counselling-2026-preparedness/article71282356.ece) — *2026-07-30*
+- **NEW**  [[India] GCC Council passes 19 resolutions at nearly six-hour long meeting](https://www.thehindu.com/news/national/tamil-nadu/gcc-council-passes-19-resolutions-at-nearly-six-hour-long-meeting/article71282810.ece) — *2026-07-30*
+- **NEW**  [[India] DVAC books former DMK Minister Senthilbalaji; conducts searches at 41 locations across T.N.](https://www.thehindu.com/news/national/tamil-nadu/dvac-conducts-searches-at-premises-linked-to-former-dmk-minister-senthilbalaji-in-karur/article71280092.ece) — *2026-07-30*
+- **NEW**  [[India] Textile associations demand measures to reduce power costs in T.N.](https://www.thehindu.com/news/cities/Coimbatore/textile-associations-demand-measures-to-reduce-power-costs-in-tn/article71282623.ece) — *2026-07-30*
+  > Southern India Mills Association says the textile industry, which is labour-intensive, will benefit from a hybrid incentive structure that combines upfront capital subsidy, power tariff support, and technology upgrade assistance
+- **NEW**  [[India] AIADMK whip challenges amendment made to Assembly resolution against Mekedatu project](https://www.thehindu.com/news/national/tamil-nadu/aiadmk-whip-challenges-amendment-made-to-assembly-resolution-against-mekedatu-project/article71282519.ece) — *2026-07-30*
+  > Madras High Court Chief Justice Sushrut Arvind Dharmadhikari and Justice G. Arul Murugan are slated to hear the case on Thursday
+- **NEW**  [[India] Vijay to use a common elevator at Namakkal Kavignar Maaligai](https://www.thehindu.com/news/national/tamil-nadu/vijay-to-use-a-common-elevator-at-namakkal-kavignar-maaligai/article71281838.ece) — *2026-07-30*
+- **NEW**  [[India] Kozhikode set to host 12th edition of Malabar River Festival](https://www.thehindu.com/news/national/kerala/kozhikode-set-to-host-12th-edition-of-malabar-river-festival/article71281887.ece) — *2026-07-30*
+- **NEW**  [[India] The scourge beneath HYDRAA’s excesses](https://www.thehindu.com/opinion/op-ed/the-scourge-beneath-hydraas-excesses/article71283050.ece) — *2026-07-30*
+- **NEW**  [[India] Reports of CPI(M) forming temple committee baseless, says Jayarajan](https://www.thehindu.com/news/national/kerala/reports-of-cpim-forming-temple-committee-baseless-saysjayarajan/article71280806.ece) — *2026-07-30*
 
-_(996 additional items in raw.jsonl)_
+_(1022 additional items in raw.jsonl)_

@@ -2,251 +2,275 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-29
-record_count: 154
-new_today: 152
+record_count: 173
+new_today: 171
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-152 new of 154 total items today.
+171 new of 173 total items today.
 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 8:40AM EDT until July 29 at 2:45PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5077d535c54c860d5ff343782708529f2e1f367d.001.1) — *2026-07-29*
-  > FFWALY
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 6:34PM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dd824b7ac6ab631a46576b7b604087177e3f308.001.1) — *2026-07-29*
+  > At 633 PM CDT, Doppler radar indicated a strong thunderstorm near
+Lake Wister State Park, moving east at 5 mph.
 
-The National Weather Service in Albany has issued a
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down small tree limbs and blow
+around unsecured objects.
+
+Locations in o
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:34PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcf5666fc98957f43c614a49ee6416672b8b2dda.001.1) — *2026-07-29*
+  > At 534 PM MDT, Doppler radar was tracking a strong thunderstorm 27
+miles northwest of Parachute, or 46 miles north of Grand Junction,
+moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock dow
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 7:33PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30171b27b706b1d43386587d3919539076a180ac.001.1) — *2026-07-29*
+  > At 732 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Thalmann, or 9 miles west of Dock Junction, moving east at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow aroun
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 5:33PM MDT until July 29 at 6:15PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8540fc0ce86822522ccbb09ab9037fe49b3683d1.001.1) — *2026-07-29*
+  > SVRPUB
+
+The National Weather Service in Pueblo has issued a
+
+* Severe Thunderstorm Warning for...
+South central Fremont County in central Colorado...
+North central Custer County in southeastern Colorado...
+
+* Until 615 PM MDT.
+
+* At 532 PM MDT, a severe thunderstorm was located 1
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 4:33PM MST until July 29 at 5:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9f2cbd630b8f0ae443d544b58f77224a0b72bdab.001.1) — *2026-07-29*
+  > SVRFGZ
+
+The National Weather Service in Flagstaff has issued a
+
+* Severe Thunderstorm Warning for...
+Coconino County in north central Arizona...
+
+* Until 500 PM MST /600 PM MDT/.
+
+* At 433 PM MST /533 PM MDT/, a severe thunderstorm was located over
+Wupatki National Monument, or 2
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:33PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad23eedf408a4ce597502db374b543d1af3a3075.001.1) — *2026-07-29*
+  > At 532 PM MDT, Doppler radar was tracking a strong thunderstorm 7
+miles northeast of Chesterfield Reservoir, moving northeast at 30
+mph.
+
+HAZARD...Wind gusts in excess of 45 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 5:31PM MDT until July 29 at 6:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15541beb500a76bf10b87c81697fce68cc3dfe0e.001.1) — *2026-07-29*
+  > SVRSLC
+
+The National Weather Service in Salt Lake City has issued a
+
+* Severe Thunderstorm Warning for...
+Southwestern Weber County in northern Utah...
+Southeastern Box Elder County in northern Utah...
+Western Davis County in northern Utah...
+Eastern Tooele County in northern Uta
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 5:29PM MDT until July 29 at 6:00PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0caa69be8c08caeb588c5e1d66561152c173b6f3.001.1) — *2026-07-29*
+  > SVRGJT
+
+The National Weather Service in Grand Junction has issued a
+
+* Severe Thunderstorm Warning for...
+West central Grand County in east central Utah...
+
+* Until 600 PM MDT.
+
+* At 529 PM MDT, a severe thunderstorm was located 14 miles east of
+Green River, moving northeast at 2
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 6:28PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdb4907517014f91276a049bbddd754285e398c8.001.1) — *2026-07-29*
+  > At 628 PM CDT, Doppler radar was tracking a strong thunderstorm 8
+miles east of Gilbertown, or 16 miles south of Butler, moving
+southeast at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+uns
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 5:28PM MDT until July 29 at 6:15PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ae98e0f4a2a34fe481059dd2aff6365e934b27f.001.1) — *2026-07-29*
+  > SVRPIH
+
+The National Weather Service in Pocatello has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Bannock County in southeastern Idaho...
+Central Power County in southeastern Idaho...
+Southwestern Bingham County in southeastern Idaho...
+
+* Until 615 PM MDT.
+
+* At 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:28PM MDT by NWS Great Falls MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1920e415eb7722eb1ecb535783dac62b6bdd2336.001.1) — *2026-07-29*
+  > At 528 PM MDT, Doppler radar was tracking a strong thunderstorm 7
+miles south of Ennis, or 13 miles east of Virginia City, moving
+northeast at 25 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree li
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 4:27PM MST until July 29 at 7:30PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ef39bd3f745e01397b2825622b095d8ff415786.001.1) — *2026-07-29*
+  > FFWTWC
+
+The National Weather Service in Tucson has issued a
 
 * Flash Flood Warning for...
-North Central Ulster County in east central New York...
+Southeastern Cochise County in southeastern Arizona...
 
-* Until 245 PM EDT Wednesday.
+* Until 730 PM MST.
 
-* At 840 AM EDT, Doppler radar indicated heavy rain across the
-warned area. Between 2 and 3 inches of 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 29 at 8:37AM EDT until July 29 at 11:19PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64b67f1f2a309ac878c705c431de9e49e23e12d4.001.1) — *2026-07-29*
-  > * WHAT...Minor flooding is occurring and minor flooding is forecast.
+* At 427 PM MST, Doppler radar indicated thunderstorms producing
+between 1 and 2 inches of heavy rain across the 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:27PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c512f686be9f156d0a0e925ed14681890c5f1787.001.1) — *2026-07-29*
+  > At 526 PM MDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Texas Creek to 14 miles southeast of
+Cotopaxi. Movement was northeast at 10 mph.
 
-* WHERE...Esopus Creek at Cold Brook.
+HAZARD...Wind gusts up to 50 mph, hail up to penny size hail, and
+torrential rainfall.
 
-* WHEN...From this morning to late this evening.
-
-* IMPACTS...At 11.0 feet, Flood stage. Water begins to overflow
-banks above Ashokan Reservoir with little damage.
-
-* ADDI
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-53262) — *2026-07-29*
+SOURCE...Radar
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-19187) — *2026-07-29*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 29 at 8:35AM EDT until July 29 at 9:46PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98e6a2fdde85e1d6286894c55f94d143943107c9.001.1) — *2026-07-29*
-  > * WHAT...Minor flooding is forecast.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:25PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.65c9086eea72baf673487f53363c50c7f97b3a34.001.1) — *2026-07-29*
+  > At 525 PM MDT, Doppler radar was tracking a strong thunderstorm over
+Montrose, or 25 miles south of Edgemont, moving east at 15 mph.
 
-* WHERE...Schoharie Creek at Prattsville.
+HAZARD...Wind gusts up to 50 mph and half inch hail.
 
-* WHEN...Until late this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...At 13.0 feet, Minor flooding of basements.
+IMPACT...Gusty winds could knock down tree limbs and blow around
 
-* ADDITIONAL DETAILS...
-- At 8:15 AM EDT Wednesday the stage was 11.7 feet.
-- Forecast...The river will cont
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 29 at 6:30AM MDT until July 31 at 9:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.05b90fd9e1d71a5aeda79b6e241b145044755bb8.001.1) — *2026-07-29*
-  > * WHAT...Temperatures up to 106 expected.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 29 at 7:23PM EDT until July 30 at 6:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f376af1d738fb12cb80728d33d58735c1b24c46.001.1) — *2026-07-29*
+  > * WHAT...Flooding caused by excessive rainfall continues.
 
-* WHERE...Portions of Far West Texas, including El Paso County and
-the Rio Grande Valley in Hudspeth County.
+* WHERE...A portion of east central New York, including the
+following counties, Columbia, Greene and Ulster.
 
-* WHEN...From noon today to 9 PM MDT Friday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 8:16AM EDT until July 29 at 2:15PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.165433673546856afcdc76725003c2049cb72953.001.1) — *2026-07-29*
-  > FFWALY
-
-The National Weather Service in Albany has issued a
-
-* Flash Flood Warning for...
-North Central Rensselaer County in east central New York...
-Southeastern Saratoga County in east central New York...
-Southwestern Washington County in east central New York...
-
-* Until 215 P
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 7:08AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db53ee772fb4bc2116693aaf0183a7babd449bc8.001.1) — *2026-07-29*
-  > The combination of hot temperatures and humidity will produce heat
-index values between 105 and 111 degrees for several hours
-this afternoon and early evening. A few locations may briefly
-experience heat index values above 111 degrees.
-
-If spending time outside today, drink plent
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 8:05AM EDT until July 29 at 11:30AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3acb41c7770ca03d1e2033f81f34148d6f6ae020.001.1) — *2026-07-29*
-  > FFWALY
-
-The National Weather Service in Albany has extended the
-
-* Flash Flood Warning for...
-Eastern Albany County in east central New York...
-Western Rensselaer County in east central New York...
-South Central Saratoga County in east central New York...
-East Central Schenectady
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 29 at 7:56AM EDT until July 29 at 2:00PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.465f293534abe1a9331bcdab264bf93cf23d747f.001.1) — *2026-07-29*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...East Central Delaware County in central New York...
-
-* WHEN...Until 200 PM EDT Wednesday.
+* WHEN...Until 600 AM EDT Thursday.
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone locations is imminent or occurrin
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 29 at 6:53AM CDT until July 29 at 8:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62598b537fd1117e18fb6687384200216b442e69.001.1) — *2026-07-29*
-  > * WHAT...Temperatures and heat index values around 100 expected.
+and f
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:22PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cc11959a9d41799a958f443441a122bc42a21e8.001.1) — *2026-07-29*
+  > At 522 PM MDT, Doppler radar was tracking a line of strong
+thunderstorms extending from 6 miles northwest of Lodgepole to near
+Hoover, or extending from 30 miles west of Lemmon to 40 miles south
+of Buffalo, moving east at 35 mph.
 
-* WHERE...Portions of western and central North Dakota, including
-Bismarck, Dickinson, and Williston.
+HAZARD...Wind gusts of 50 to 55 mph and pea size 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 4:22PM MST until July 29 at 4:45PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64f655d973fe25c9fe5d80efcb707d447c228e1f.001.1) — *2026-07-29*
+  > SVRFGZ
 
-* WHEN...From noon CDT /11 AM MDT/ today to 8 PM CDT /7 PM MDT/ this
-evening.
+The National Weather Service in Flagstaff has issued a
 
-* IMPACTS...Hot temperatures and
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 29 at 4:49AM MST until August 2 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a65569a0b36a5ba06cb2e218574ef24503c9c169.001.1) — *2026-07-29*
-  > * WHAT...Dangerously hot conditions with temperatures 101 to 106 in
-Santa Cruz and Cochise Counties and 107 to 112 elsewhere. Major to
-Extreme HeatRisk is expected.
+* Severe Thunderstorm Warning for...
+Leupp in Coconino County in north central Arizona...
 
-* WHERE...Eastern Cochise County below 5000 feet, South Central Pinal
-County, Southeast Pinal County, Tohono O'odh
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:47AM EDT until July 29 at 1:45PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e5e677f61a71c0981f2e61a9b2d0970923acc15.001.1) — *2026-07-29*
-  > FFWALY
+* Until 545 PM MDT.
 
-The National Weather Service in Albany has issued a
+* At 522 PM MDT, a severe thunderstorm was located 6 miles southeast
+of Leupp, or 19 miles northwest of 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:20PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed19edf5272bc84b5e04d8841b8793f9753ca306.001.1) — *2026-07-29*
+  > At 519 PM MDT, Doppler radar was tracking a strong thunderstorm 12
+miles east of Green River, moving northeast at 55 mph.
 
-* Flash Flood Warning for...
-Northwestern Columbia County in east central New York...
-Eastern Greene County in east central New York...
-Northeastern Ulster County in east central New York...
+HAZARD...Wind gusts of 50 to 55 mph and half inch hail.
 
-* Until 145 PM EDT.
+SOURCE...Radar indicated.
 
-* At 7
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 29 at 7:44AM EDT until July 29 at 2:00PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52f3a8c806027a5daeccd4c1a065f286bad1ac17.001.1) — *2026-07-29*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecure
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 5:19PM MDT until July 29 at 8:30PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ed8b6c36d2c3cd29b651291c5605b77f7164822.001.1) — *2026-07-29*
+  > FFWGJT
 
-* WHERE...North Central Sullivan County in central New York...
-
-* WHEN...Until 200 PM EDT Wednesday.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-prone locations is imminent or occurri
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 6:43AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56aa7bfbbc8db162d2436d9cb0a1b815d61596a3.001.1) — *2026-07-29*
-  > Patchy fog will reduce visibility to one quarter mile or less
-across parts of northwest and north central North Dakota early
-this morning. Motorists should be prepared for rapidly changing
-conditions and use extra caution traveling. Use low beam
-headlights and be extra cautious a
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:40AM EDT until July 29 at 11:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.316fb165add1b317b3b142df7e617f0f0c28888f.001.1) — *2026-07-29*
-  > FFWALY
-
-The National Weather Service in Albany has extended the
+The National Weather Service in Grand Junction has issued a
 
 * Flash Flood Warning for...
-Central Albany County in east central New York...
-Southeastern Schenectady County in east central New York...
+South Central Grand County in east central Utah...
 
-* Until 1100 AM EDT.
+* Until 830 PM MDT.
 
-* At 740 AM EDT, Doppler radar indicated heavy rain i
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:39AM EDT until July 29 at 11:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.854d6caa7cb6c2afad1d53838831daaf1cf5222b.001.1) — *2026-07-29*
-  > FFWALY
+* At 519 PM MDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 0
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 4:17PM MST until July 29 at 5:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad3d606645c1b99bda5da5081629e2f63303b5df.001.1) — *2026-07-29*
+  > SVRTWC
 
-The National Weather Service in Albany has extended the
+The National Weather Service in Tucson has issued a
 
-* Flash Flood Warning for...
-Southwestern Albany County in east central New York...
-Northeastern Greene County in east central New York...
+* Severe Thunderstorm Warning for...
+Southeastern Cochise County in southeastern Arizona...
 
-* Until 1100 AM EDT.
+* Until 500 PM MST.
 
-* At 739 AM EDT, Doppler radar indicated thunderstorm
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:38AM EDT until July 29 at 11:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf5d6d3c0aac9c6c005d21e277c8d7ce2a491351.001.1) — *2026-07-29*
-  > FFWALY
+* At 417 PM MST, a severe thunderstorm was located 13 miles northeast
+of Douglas, moving north at 5 mph.
 
-The National Weather Service in Albany has extended the
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 7:15PM EDT until July 29 at 7:45PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26427b944916917af8eda219cccdd9e349c96d53.002.1) — *2026-07-29*
+  > At 714 PM EDT, severe thunderstorms were located along a line
+extending from 6 miles west of Obrien to 13 miles southwest of Mayo
+to 20 miles southwest of Perry to 19 miles southeast of St. Marks,
+moving southeast at 30 mph.
 
-* Flash Flood Warning for...
-Southwestern Greene County in east central New York...
+HAZARD...60 mph wind gusts.
 
-* Until 1100 AM EDT.
+SOURCE...Radar indicated.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 7:15PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b01a5b27709281359320861f3be95f69e0d04d78.001.1) — *2026-07-29*
+  > At 715 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Yulee, or 7 miles north of Jacksonville International Arpt, moving
+northeast at 20 mph.
 
-* At 738 AM EDT, Doppler radar indicated heavy rain across the
-warned area. Between 2 and 4 inches of rain h
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:37AM EDT until July 29 at 11:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d80687f1252764b9eec603704161d7d6319846ad.001.1) — *2026-07-29*
-  > FFWALY
+HAZARD...Wind gusts of 45 to 55 mph and half inch hail.
 
-The National Weather Service in Albany has extended the
+SOURCE...Radar indicated.
 
-* Flash Flood Warning for...
-South Central Greene County in east central New York...
-Northeastern Ulster County in east central New York...
+IMPACT...Gusty winds could knock down 
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 29 at 7:13PM EDT until July 29 at 8:15PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1fbf4e5ad557decbecfbcf2fa023531b46f1aa7.001.1) — *2026-07-29*
+  > SMWJAX
 
-* Until 1100 AM EDT.
+The National Weather Service in Jacksonville has issued a
 
-* At 737 AM EDT, Doppler radar indicated heavy rain 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 7:24AM EDT until July 29 at 1:30PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51e8381af715ef8cab73cadbda355cc1e94ee85d.001.1) — *2026-07-29*
-  > FFWALY
+* Special Marine Warning for...
+Coastal waters from Fernandina Beach to St. Augustine FL out 20
+NM...
+Waters from Fernandina Beach to St. Augustine FL from 20 to 60
+NM...
 
-The National Weather Service in Albany has issued a
+* Until 815 PM EDT.
 
-* Flash Flood Warning for...
-Central Columbia County in east central New York...
-Northeastern Greene County in east central New York...
-Southwestern Rensselaer County in east central New York...
+* At 713 PM EDT, a s
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 29 at 7:13PM EDT until July 29 at 8:15PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a73008e76bfe942c7ce93237569f506ed8e5893b.001.1) — *2026-07-29*
+  > SVRTAE
 
-* Until 130 PM EDT Wedn
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 29 at 7:03AM EDT until July 29 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aece966d631b1372b57b5206fff0ab5b19f14ba5.001.1) — *2026-07-29*
-  > * WHAT...Dangerously hot conditions with heat index values up to 115
-degrees expected.
+The National Weather Service in Tallahassee has issued a
 
-* WHERE...In Georgia, Coastal Bryan, Coastal Chatham, Coastal
-Liberty, Coastal McIntosh, Inland Chatham, and Inland McIntosh
-Counties. In South Carolina, Beaufort and Coastal Jasper Counties.
+* Severe Thunderstorm Warning for...
+Western Wakulla County in Big Bend Florida...
+Southeastern Liberty County in Big Bend Florida...
+Southwestern Leon County in Big Bend Florida...
+Northeastern Franklin County in 
 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 29 at 7:03AM EDT until July 29 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aece966d631b1372b57b5206fff0ab5b19f14ba5.002.1) — *2026-07-29*
-  > * WHAT...Heat index values up to 110 degrees expected.
-
-* WHERE...Portions of southeast Georgia and southeast South Carolina.
-
-* WHEN...From 11 AM this morning to 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 5:57AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e50b467f0fa7949f11460edb69ea42d9fee5750.001.1) — *2026-07-29*
-  > Patchy fog will reduce visibility to one quarter mile or less in
-parts of north central North Dakota early this morning. Motorists
-should be prepared for rapidly changing conditions and use extra
-caution traveling. Use low beam headlights and be extra cautious
-at intersections an
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 29 at 6:48AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d80d995d8b73d58c68e1e8073ec25f1f9f37a34e.001.1) — *2026-07-29*
-  > If traveling this morning, be prepared for fog that could
-suddenly reduce visibilities to 1/4 mile or less. Expect the fog
-to dissipate by 9AM EDT. Slow down and allow extra time to reach
-your destination.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 29 at 6:40AM EDT until July 29 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe21193eae1e82bf8c191d69050a7c47761d7182.001.1) — *2026-07-29*
-  > FFWALY
-
-The National Weather Service in Albany has extended the
-
-* Flash Flood Warning for...
-Northwestern Columbia County in east central New York...
-Eastern Greene County in east central New York...
-Northeastern Ulster County in east central New York...
-
-* Until 1015 AM EDT.
-
-*
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 29 at 5:29AM CDT until July 29 at 9:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01e8de564cf60fb0647b7d23067c01aa1f15319a.002.1) — *2026-07-29*
-  > * WHAT...Heat index values up to 108 expected.
-
-* WHERE...Collingsworth County and Palo Duro Canyon.
-
-* WHEN...From noon today to 9 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-
-_(129 additional items in raw.jsonl)_
+_(148 additional items in raw.jsonl)_

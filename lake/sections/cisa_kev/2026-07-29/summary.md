@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-07-29
-record_count: 13
-new_today: 0
+record_count: 14
+new_today: 1
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 13 total items today.
+1 new of 14 total items today.
 
+- **NEW**  [CVE-2026-20316 · Cisco Secure Firewall Management Center (FMC): Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-20316) — *2026-07-29*
+  > vendor: Cisco · product: Secure Firewall Management Center (FMC) · CISA remediation by 2026-08-01
 - [CVE-2025-68686 · Fortinet FortiOS: Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2025-68686) — *2026-07-27*
   > vendor: Fortinet · product: FortiOS · CISA remediation by 2026-08-10
 - [CVE-2026-16812 · Arista VeloCloud Orchestrator: Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-16812) — *2026-07-27*
