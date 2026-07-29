@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-29
-record_count: 159
+record_count: 160
 new_today: 16
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-16 new of 159 total items today.
+16 new of 160 total items today.
 
 - [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
@@ -62,4 +62,4 @@ state: fresh
 - [[USASpending] $1,150,643,464 → LEIDOS, INC.: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWI](https://www.usaspending.gov/award/47QFCA21C0002) — *2026-07-29*
   > Agency: General Services Administration.  Description: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWIDE NON MEDICAL CONFIDENTIAL COUNSELING SERVICES.
 
-_(134 additional items in raw.jsonl)_
+_(135 additional items in raw.jsonl)_

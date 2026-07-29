@@ -3,20 +3,20 @@ section: commentary
 title: Commentary & analysis (last 7 days)
 date: 2026-07-29
 record_count: 6
-new_today: 2
+new_today: 3
 state: fresh
 ---
 
 ## Commentary & analysis (last 7 days)
 
-2 new of 6 total items today.
+3 new of 6 total items today.
 
+- **NEW**  [[Marginal Revolution] Data on Chinese innovation](https://marginalrevolution.com/marginalrevolution/2026/07/data-on-chinese-innovation.html?utm_source=rss&utm_medium=rss&utm_campaign=data-on-chinese-innovation) — *2026-07-29*
+  > China&#8217;s technological progress in recent decades has been viewed with admiration, alarm, and (in some cases) doubt. To better understand the Chinese innovation ecosystem, we compile a dataset of almost 14 million domestic Chinese patent publications. We focus on the subset 
+- **NEW**  [[Marginal Revolution] You will learn to love AI writing](https://marginalrevolution.com/marginalrevolution/2026/07/you-will-learn-to-love-ai-writing.html?utm_source=rss&utm_medium=rss&utm_campaign=you-will-learn-to-love-ai-writing) — *2026-07-29*
+  > That is the theme of my latest Free Press article, excerpt: But do I wish to eschew AI writing for the rest of my life? Absolutely not. Most of all, I want AI writing to get better, so it does not irritate me with its clichés and all too obvious identifying marks. I want AI writi
 - **NEW**  [[Marginal Revolution] Congratulations to Ross D. and others](https://marginalrevolution.com/marginalrevolution/2026/07/congratulations-to-ross-d-and-others.html?utm_source=rss&utm_medium=rss&utm_campaign=congratulations-to-ross-d-and-others) — *2026-07-28*
   > Ross Douthat, an opinion columnist at The New York Times, is leaving to join the CBS News program “60 Minutes” as a correspondent, the show’s executive producer said in a memo to staff on Tuesday. Mr. Douthat is among a group of journalists joining for the show’s 59th season, whi
-- **NEW**  [[Marginal Revolution] Tuesday assorted links](https://marginalrevolution.com/marginalrevolution/2026/07/tuesday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-579) — *2026-07-28*
-  > 1. The economics of personal holding companies, including in the Nordics. 2. Jongkuch Mach is a good name for a very tall basketball player. 3. Can AI predict who will be the most important philosopher in 2046?  For economics, the top pick of GPT Pro is Ludwig Straub, second choi
-- [[Marginal Revolution] The Apples and Oranges Tribunal](https://marginalrevolution.com/marginalrevolution/2026/07/the-apples-and-oranges-tribunal.html?utm_source=rss&utm_medium=rss&utm_campaign=the-apples-and-oranges-tribunal) — *2026-07-28*
-  > Suppose that apples sell for more than oranges and Parliament in it&#8217;s wisdom decides that, at last, apples and oranges must be compared. Not by shoppers — shoppers are biased, they merely reveal what they are willing to pay — but by a tribunal, which will determine whether 
 - [[Conversable Economist] Major Stereotypes](https://conversableeconomist.com/2026/07/27/major-stereotypes/) — *2026-07-27*
   > Lots of students come to college looking for what I sometimes call a &#8220;golden ticket&#8221; major&#8211;that is, choosing a major that will assure future prosperity and status. Lots of first-year students show up declaring that their career path is to become a doctor, but a 
 - [[Conversable Economist] Occupational Licensing: US and International](https://conversableeconomist.com/2026/07/24/occupational-licensing-us-and-international/) — *2026-07-24*

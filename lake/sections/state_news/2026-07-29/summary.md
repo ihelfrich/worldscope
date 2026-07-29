@@ -2,17 +2,29 @@
 section: state_news
 title: State-Level News
 date: 2026-07-29
-record_count: 710
-new_today: 290
+record_count: 742
+new_today: 336
 state: fresh
 ---
 
 ## State-Level News
 
-290 new of 710 total items today.
+336 new of 742 total items today.
 
 - **NEW**  [[Alabama] Governor Ivey Highlights Alabama Success at Farnborough International Airshow](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-highlights-alabama-success-at-farnborough-international-airshow/) — *2026-07-28*
   > MONTGOMERY – Governor Kay Ivey on Tuesday announced that Alabama’s strong showing in the Farnborough International Airshow last week resulted in two major industry announcements and more than 50 meetings between the Alabama Department of Commerce’s recruitment team and aviation, 
+- **NEW**  [[California] Vehicle theft in California dropped nearly 25% in 2025](https://www.gov.ca.gov/2026/07/28/vehicle-theft-in-california-dropped-nearly-25-in-2025/) — *2026-07-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Vehicle-theft-in-California-dropped-nearly-25-in-2025-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Vehicle theft in California dropped nearly 25% in 2025" d
+- **NEW**  [[California] Governor Newsom expands statewide partnerships with additional cities to clean up encampments on highways](https://www.gov.ca.gov/2026/07/28/governor-newsom-expands-statewide-partnerships-with-additional-cities-to-clean-up-encampments-on-highways/) — *2026-07-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-expands-statewide-partnerships-with-additional-cities-to-clean-up-encampments-on-highways-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" dec
+- [[California] California celebrates five years helping students and families plan for school and career through Cradle-to-Career](https://www.gov.ca.gov/2026/07/27/california-celebrates-five-years-helping-students-and-families-plan-for-school-and-career-through-cradle-to-career/) — *2026-07-27*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-celebrates-five-years-helping-students-and-families-plan-for-school-and-career-through-Cradle-to-Career-SEO-GFX-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" a
+- [[California] From the 2026 FIFA World Cup to LA28: California is ready](https://www.gov.ca.gov/2026/07/27/from-the-2026-fifa-world-cup-to-la28-california-is-ready/) — *2026-07-27*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/From-the-2026-World-Cup-to-LA28_-California-is-ready-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://w
+- [[California] California secures federal assistance to support response to Dove Fire in Tuolumne County](https://www.gov.ca.gov/2026/07/26/california-secures-federal-assistance-to-support-response-to-dove-fire-in-tuolumne-county/) — *2026-07-27*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/FMAG-Dove-Fire-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/07/26/california-secures-fe
 - **NEW**  [[California] A judge sent a doctor to evaluate California’s largest ICE detention center. What he found](https://calmatters.org/justice/2026/07/ice-detention-center-healthcare-report/) — *2026-07-28*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/012026-California-City-Immigration-Processing-Center-AP-CM-04.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A security 
 - **NEW**  [[California] Antes enseñaban sobre un héroe. Ahora profesores reconsideran las lecciones sobre César Chávez tras acusaciones](https://calmatters.org/calmatters-en-espanol/2026/07/reconsideran-lecciones-sobre-cesar-chavez-tras-acusaciones/) — *2026-07-28*
@@ -35,6 +47,8 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/092122-ROB-BONTA-GUN-CONTROL-DEPARTMENT-MHN-08-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing glasse
 - [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-29*
   > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-07-29*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Connecticut] What if there were no trash to pick up?](https://ctmirror.org/2026/07/29/what-if-there-were-no-trash-to-pick-up/) — *2026-07-29*
   > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/IMG_0683-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uploads/2026
 - **NEW**  [[Connecticut] CT must no longer delay compassion at the end of life](https://ctmirror.org/2026/07/29/ct-can-no-longer-delay-compassion-at-the-end-of-life/) — *2026-07-29*
@@ -49,17 +63,5 @@ state: fresh
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/YALE-KID-CRISIS-CENTER-0721-0721-SG-11-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirro
 - [[Connecticut] CT’s hypocrisy about election integrity](https://ctmirror.org/2026/07/28/election-integrity-for-who-joseph/) — *2026-07-28*
   > <figure><img width="886" height="461" src="https://ctmirror.org/wp-content/uploads/2026/07/Bridgeport-ballot-box-stuffing.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- [[Connecticut] Yes, ConnDOT says, work on that faster train really is under way](https://ctmirror.org/2026/07/27/amtrak-new-haven-line-improvements/) — *2026-07-27*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/caternary-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/c
-- [[Connecticut] PODCAST: How ads are shaping the primary race in CT’s First Congressional District](https://ctmirror.org/2026/07/27/podcast-john-larson-luke-bronin-ads/) — *2026-07-27*
-  > <figure><img width="1024" height="831" src="https://ctmirror.org/wp-content/uploads/2026/03/5C565132-17A4-4CAE-A8C9-A0BCD07C6412-1024x831.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/w
-- [[Connecticut] Connecticut Primary Election 2026 Voter Guide](https://ctmirror.org/2026/07/27/ct-primary-election-2026-voter-guide/) — *2026-07-27*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/11/ELECTION-DAY-1104-SR-13-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- [[Connecticut] Child neglect is vast in CT and DCF may not be so bad](https://ctmirror.org/2026/07/27/child-neglect-is-vast-in-ct-and-dcf-may-not-be-so-bad/) — *2026-07-27*
-  > <figure><img width="769" height="585" src="https://ctmirror.org/wp-content/uploads/2026/07/child-depressed-alone-poverty-e1784902289256.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
-- [[Connecticut] Let’s have democracy funds throughout CT](https://ctmirror.org/2026/07/27/let-a-thousand-democracy-funds-bloom-richie/) — *2026-07-27*
-  > <figure><img width="1024" height="643" src="https://ctmirror.org/wp-content/uploads/2026/07/AP-democracy-vouchers.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/0
-- [[Delaware] From water tricksters to children livestock experts: A slice of the Delaware State Fair](https://spotlightdelaware.org/2026/07/28/from-water-tricksters-to-children-livestock-experts-a-slice-of-the-delaware-state-fair/) — *2026-07-28*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Rylynn-Fields-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcse
 
-_(685 additional items in raw.jsonl)_
+_(717 additional items in raw.jsonl)_
