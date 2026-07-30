@@ -27,11 +27,11 @@ state: fresh
   > United States · Technology · source: Semiconductors · holdings: NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ), NVDA-US(NASDAQ)
 - [#8 Larry Ellison — $154.12B](https://www.forbes.com/profile/larry-ellison/) — *2026-07-30*
   > United States · Technology · source: Oracle · holdings: ORCL-US(NYSE), ORCL-US(NYSE), PSKY-US(NASDAQ), SPCX-US(NASDAQ)
-- [#9 Bernard Arnault & family — $144.58B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-30*
+- [#9 Bernard Arnault & family — $145.02B](https://www.forbes.com/profile/bernard-arnault/) — *2026-07-30*
   > France · Fashion & Retail · source: LVMH · holdings: BIRK-US(NYSE), RMS-FR(EURONEXT PARIS), MC-FR(EURONEXT PARIS)
 - [#10 Warren Buffett — $144.44B](https://www.forbes.com/profile/warren-buffett/) — *2026-07-30*
   > United States · Finance & Investments · source: Berkshire Hathaway · holdings: BRK.A-US(NYSE), BRK.B-US(NYSE)
-- [#11 Amancio Ortega — $143.18B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-30*
+- [#11 Amancio Ortega — $143.39B](https://www.forbes.com/profile/amancio-ortega/) — *2026-07-30*
   > Spain · Fashion & Retail · source: Zara · holdings: SAN-ES(MADRID), ENG-ES(MADRID), ITX-ES(MADRID)
 - [#12 Rob Walton & family — $133.47B](https://www.forbes.com/profile/rob-walton/) — *2026-07-30*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
@@ -47,17 +47,17 @@ state: fresh
   > United States · Finance & Investments · source: Bloomberg LP
 - [#18 Changpeng Zhao — $107.86B](https://www.forbes.com/profile/changpeng-zhao/) — *2026-07-30*
   > Canada · Finance & Investments · source: Cryptocurrency exchange
-- [#19 Bill Gates — $106.66B](https://www.forbes.com/profile/bill-gates/) — *2026-07-30*
+- [#19 Bill Gates — $106.65B](https://www.forbes.com/profile/bill-gates/) — *2026-07-30*
   > United States · Technology · source: Microsoft · holdings: ACGL-US(NASDAQ), ARCO-US(NYSE), AN-US(NYSE), BRK.A-US(NYSE)
 - [#20 Thomas Peterffy — $99.32B](https://www.forbes.com/profile/thomas-peterffy/) — *2026-07-30*
   > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
-- [#21 Francoise Bettencourt Meyers & family — $97.01B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-30*
+- [#21 Francoise Bettencourt Meyers & family — $96.69B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-07-30*
   > France · Fashion & Retail · source: L'Oréal · holdings: OR-FR(EURONEXT PARIS)
 - [#22 Giancarlo Devasini — $89.30B](https://www.forbes.com/profile/giancarlo-devasini/) — *2026-07-30*
   > Italy · Finance & Investments · source: Cryptocurrency
-- [#23 Mukesh Ambani — $88.37B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-07-30*
+- [#23 Mukesh Ambani — $88.30B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-07-30*
   > India · Diversified · source: Diversified · holdings: 543940-IN(BSE INDIA), 500325-IN(BSE INDIA)
-- [#24 Gautam Adani — $83.87B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-07-30*
+- [#24 Gautam Adani — $83.96B](https://www.forbes.com/profile/gautam-adani-1/) — *2026-07-30*
   > India · Diversified · source: Infrastructure, commodities · holdings: 512599-IN(BSE INDIA), 542066-IN(BSE INDIA), 541450-IN(BSE INDIA), 532921-IN(BSE INDIA)
 - [#25 Julia Koch & family — $81.19B](https://www.forbes.com/profile/julia-koch/) — *2026-07-30*
   > United States · Diversified · source: Koch, Inc.

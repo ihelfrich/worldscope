@@ -2,17 +2,37 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-30
-record_count: 159
-new_today: 126
+record_count: 157
+new_today: 124
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-126 new of 159 total items today.
+124 new of 157 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-23430) — *2026-07-30*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-44545) — *2026-07-30*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 4:45AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e12c668c6970682dcb15ebe7d5341438cd9e139.001.1) — *2026-07-30*
+  > At 445 AM CDT/345 AM MDT/, Doppler radar was tracking a strong
+thunderstorm 8 miles south of Roscoe, or 11 miles southeast of
+Ogallala, moving east at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:41AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d418927e420482200f008641d69f5259e17ea16e.001.1) — *2026-07-30*
+  > At 541 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Cross City to 13 miles south of Horseshoe
+Point. Movement was east at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree 
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:26AM PDT until August 3 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3a04a6e52404bbf733c23b1828e91411acfd428.001.1) — *2026-07-30*
   > * WHAT...Dangerously hot conditions with several days of Major to
 Extreme heat risk.
@@ -58,18 +78,6 @@ offer little relief.
 * WHERE...Capitol Reef National Park and Vicinity, Glen Canyon
 Recreation Area/Lake Powell, South Central Utah, Western
 Canyonlands
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:13AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea6044ef1466e4d00bdfc5af645353c52d80314e.001.1) — *2026-07-30*
-  > At 513 AM EDT, Doppler radar was tracking a strong thunderstorm 9
-miles northeast of Tallahassee, moving east at 20 mph.
-
-HAZARD...Wind gusts up to 40 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
-
-Locations i
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.010.1) — *2026-07-30*
   > * WHAT...High temperatures in the mid 80s to around 90 for the mesas
 and other higher coastal terrain expected.
@@ -231,17 +239,5 @@ Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20
 Nm...
 Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
 Coastal waters from  Suwannee River to Keaton 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 30 at 4:45AM EDT until July 30 at 5:45AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c97052d760360ac321aa3dc12bcbf7e2ebb23189.001.1) — *2026-07-30*
-  > FFWTAE
 
-The National Weather Service in Tallahassee has extended the
-
-* Flash Flood Warning for...
-Walton County in the panhandle of Florida...
-
-* Until 445 AM CDT.
-
-* At 345 AM CDT, Doppler radar indicated thunderstorms producing
-heavy rain across the warned area. Between 1 and 
-
-_(134 additional items in raw.jsonl)_
+_(132 additional items in raw.jsonl)_

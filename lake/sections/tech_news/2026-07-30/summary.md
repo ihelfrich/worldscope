@@ -2,14 +2,14 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-30
-record_count: 55
-new_today: 12
+record_count: 50
+new_today: 7
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-12 new of 55 total items today.
+7 new of 50 total items today.
 
 - **NEW**  [[The Hacker News] Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation](https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html) — *2026-07-30*
   > The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni
@@ -23,16 +23,6 @@ Pre
   > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.
 
 
-- **NEW**  [[The Register] 30 years ago, AT&T gave Internet Explorer the default advantage](https://www.theregister.com/offbeat/2026/07/30/30-years-ago-att-gave-internet-explorer-the-default-advantage/5279373) — *2026-07-30*
-  > Netscape still ruled the browser market, but Microsoft had Windows 95, WorldNet, and a very valuable foothold
-- **NEW**  [[The Register] Brighton gig screen goes One Step Beyond with an update pop-up](https://www.theregister.com/offbeat/2026/07/30/brighton-gig-screen-goes-one-step-beyond-with-an-update-pop-up/5279823) — *2026-07-30*
-  > Install now or remind me later? Neither belongs in the House of Fun
-- **NEW**  [[The Register] Headteacher had the most guessable username-password combo you could imagine](https://www.theregister.com/security/2026/07/30/headteacher-had-the-most-guessable-username-password-combo-you-could-imagine/5280709) — *2026-07-30*
-  > Schools often don't prioritize or understand cybersecurity
-- **NEW**  [[The Register] Excuses like 'AI did it' don't exist in the eyes of the law](https://www.theregister.com/legal/2026/07/30/excuses-like-ai-did-it-dont-exist-in-the-eyes-of-the-law/5280767) — *2026-07-30*
-  > If your AI goes rogue, better have a good lawyer
-- **NEW**  [[The Register] Veeam adds support for six more hypervisors in case you are up for a new one](https://www.theregister.com/virtualization/2026/07/30/veeam-adds-support-for-six-more-hypervisors-in-case-you-are-up-for-a-new-one/5280891) — *2026-07-30*
-  > Yes, this is mostly about VMware migrations
 - **NEW**  [[Computer Weekly] Subpostmasters anxious over Horizon replacement as it is delayed yet again](https://www.computerweekly.com/news/366646732/Subpostmasters-anxious-over-Horizon-replacement-as-it-is-delayed-yet-again) — *2026-07-30*
   > &lt;p&gt;The Post Office has delayed signing the Horizon software replacement contract for the sixth time, with sources claiming the losing bidder is challenging the award.&lt;/p&gt; 
 &lt;p&gt;Meanwhile, subpostmasters have accused Fujitsu of “taking its foot off the pedal” after
@@ -70,5 +60,16 @@ In July, Hugging Face, a company that hosts much of the world&#8217;s AI softwar
 - [[Schneier on Security] Long-Lived Vulnerability in Microsoft Secure Boot](https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html) — *2026-07-29*
   > Microsoft&#8217;s Secure Boot has had a serious vulnerability for most of its existence.
 An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discover
+- [[Schneier on Security] Measuring LLMs’ Ability to Perform Cryptanalysis](https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html) — *2026-07-29*
+  > There&#8217;s new benchmark measuring AI&#8217;s ability to perform mathematical cryptanalysis. Anthropic&#8217;s frontier model actually found new attacks.
+The benchmark: &#8220;CryptanalysisBench: Can LLMs do Cryptanalysis?&#8221; The idea is to benchmark the ability of LLMs to
+- [[Ars Technica] Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission](https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/) — *2026-07-29*
+  > HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.
+- [[Ars Technica] Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper](https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/) — *2026-07-29*
+  > Advertisers agreed to “reset” relationship with X.
+- [[Ars Technica] Who wins and who loses after US bans foreign robots?](https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/) — *2026-07-29*
+  > Government ban on foreign-made robots may hinder instead of help US robotics.
+- [[Ars Technica] Comcast store punished low sales by smashing pies in workers' faces, lawsuit claims](https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/) — *2026-07-29*
+  > Comcast, accused of negligence, says lawsuit mischaracterized alleged events.
 
-_(30 additional items in raw.jsonl)_
+_(25 additional items in raw.jsonl)_

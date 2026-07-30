@@ -17,8 +17,8 @@ state: fresh
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-07-30*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] Hromadske: HTTPError](https://hromadske.ua/rss) — *2026-07-30*
-  > 404 Client Error: Not Found for url: https://hromadske.ua/rss
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-30*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 - **NEW**  [[TITLE: Усе свідчить про те, що в Польщі впала російська ракета Х-101 – Туск | LEDE: Премʼєр-міністр Польщі Дональд Туск заявив, що наразі все вказує на те, що уночі в Люблінському воєводстві впала рос] (uk: Усе свідчить про те, що в Польщі впала російська ракета Х-101 – Туск)](https://www.pravda.com.ua/news/2026/07/30/8046517/) — *2026-07-30*
   > Премʼєр-міністр Польщі Дональд Туск заявив, що наразі все вказує на те, що уночі в Люблінському воєводстві впала російська крилата ракета Х-101.
 - **NEW**  [[TITLE: На Одещині затримали посадовця ТЦК, який за 500 л дизпалива обіцяв зняти з розшуку | LEDE: На Одещині правоохоронці затримали начальника одного з відділів територіального центру комплектування ] (uk: На Одещині затримали посадовця ТЦК, який за 500 л дизпалива обіцяв зняти з розшу)](https://www.pravda.com.ua/news/2026/07/30/8046516/) — *2026-07-30*
@@ -58,7 +58,7 @@ state: fresh
   > Армія США уклала з компанією Lockheed Martin контракт на суму до $58,6 млрд на виробництво ракет-перехоплювачів до Patriot.
 - **NEW**  [[TITLE: Добровольці не повинні розчинитися в системі. Чому боротьба за їхній статус – це боротьба за майбутню Україну | LEDE: Статус добровольця: чому держава має визнати внесок добровольців у захист У] (uk: Добровольці не повинні розчинитися в системі. Чому боротьба за їхній статус – це)](https://www.pravda.com.ua/columns/2026/07/30/8046398/) — *2026-07-30*
   > Статус добровольця: чому держава має визнати внесок добровольців у захист України та її майбутнє.
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-07-30*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-07-30*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
 
 _(94 additional items in raw.jsonl)_
