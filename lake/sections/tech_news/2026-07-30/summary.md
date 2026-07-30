@@ -2,71 +2,72 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-30
-record_count: 50
-new_today: 12
+record_count: 57
+new_today: 43
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-12 new of 50 total items today.
+43 new of 57 total items today.
 
+- **NEW**  [[Krebs on Security] Read This Before You Buy That TV Streaming Stick](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/) — *2026-07-30*
+  > Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds 
+- **NEW**  [[BleepingComputer] South Korea fines telco giant KT $39 million for customer data breach](https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/) — *2026-07-30*
+  > South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]
+- **NEW**  [[BleepingComputer] JetBrains warns of critical TeamCity remote code execution flaw](https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/) — *2026-07-30*
+  > JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]
+- **NEW**  [[BleepingComputer] Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers](https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/) — *2026-07-30*
+  > Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]
+- **NEW**  [[BleepingComputer] VMware fixes three critical flaws allowing auth bypass, VM escapes](https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/) — *2026-07-30*
+  > Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]
+- **NEW**  [[BleepingComputer] Google says AI helped Chrome fix 1,072 security bugs in two releases](https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/) — *2026-07-30*
+  > Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]
+- **NEW**  [[The Hacker News] DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html) — *2026-07-30*
+  > Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Con
+- **NEW**  [[The Hacker News] ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories](https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html) — *2026-07-30*
+  > A lot of security still comes down to trusting the wrong screen.
+
+This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and expl
+- **NEW**  [[The Hacker News] Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database](https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html) — *2026-07-30*
+  > A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.
+
+Wiz, which codenamed the chain CosmosEscape, said the exploit chain 
 - **NEW**  [[The Hacker News] Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents](https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html) — *2026-07-30*
   > Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
 
 In his proof of concept, the inter
 - **NEW**  [[The Hacker News] The Network Has Become the Control Plane for AI Security](https://thehackernews.com/2026/07/the-network-has-become-control-plane.html) — *2026-07-30*
   > Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to
-- **NEW**  [[The Hacker News] Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts](https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html) — *2026-07-30*
-  > South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE b
-- **NEW**  [[The Hacker News] SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT](https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html) — *2026-07-30*
-  > The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent
-- **NEW**  [[The Hacker News] Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation](https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html) — *2026-07-30*
-  > The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommuni
+- **NEW**  [[The Record] Semiconductor chip titan Analog Devices reports data breach](https://therecord.media/analog-devices-semiconductor-company-data-breach) — *2026-07-30*
+  > In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
+- **NEW**  [[The Record] North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn](https://therecord.media/north-korea-hackers-ransomware) — *2026-07-30*
+  > Cyberattack tools and infrastructure used by North Korea’s Lazarus Group appear to have been shared with ransomware criminals targeting South Korean organizations — further evidence of deepening entanglement between Pyongyang-backed hackers and  the ransomware ecosystem.
+- **NEW**  [[The Record] North Korean hackers behind major open-source supply chain attacks, Amazon says](https://therecord.media/north-korea-hackers-amazon-malware) — *2026-07-30*
+  > A North Korea-linked hacker group was behind several high-profile compromises of open-source software libraries used by developers worldwide, researchers have found.
 - **NEW**  [[The Record] Cyber extortionists steal data from UK Department for Education](https://therecord.media/united-kingdom-ransomware-education) — *2026-07-30*
   > Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.
+- **NEW**  [[Cybersecurity Dive] Hackers abuse Microsoft Teams in ransomware campaign through fake IT support](https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591/) — *2026-07-30*
+  > Researchers said dozens of US and Canadian firms have been targeted, however, the motivation appears to be financial rather than espionage.
+- **NEW**  [[Cybersecurity Dive] Shadow AI, leadership resistance make AI governance tough for worried CISOs](https://www.cybersecuritydive.com/news/ai-governance-shadow-cisos-okta/826587/) — *2026-07-30*
+  > Fewer than half of CISOs think their bosses see AI security as a business enabler, according to an Okta survey.
+- **NEW**  [[Schneier on Security] American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials](https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html) — *2026-07-30*
+  > He&#8217;s being prosecuted for giving border officials a code that wiped his phone:
+The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick&#8217;s attorneys confirmed 
 - **NEW**  [[Schneier on Security] Should You Use AI for a Task? Here’s a Simple Way to Decide](https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html) — *2026-07-30*
   > This essay originally appeared in The Guardian.
 I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a wast
-- **NEW**  [[Computer Weekly] The Security Interviews: Bronwyn Boyle, Cybermindz](https://www.computerweekly.com/news/366646221/The-Security-Interviews-Bronwyn-Boyle-Cybermindz) — *2026-07-30*
-  > &lt;p&gt;Burnout is becoming a significant &lt;a href="https://www.bbc.co.uk/news/articles/cgqn8e4e700o" target="_blank" rel="noopener"&gt;problem&lt;/a&gt; in the cyber security sector, with an increasing number of cyber security professionals choosing to change careers. This is
-- **NEW**  [[Computer Weekly] Subpostmasters anxious over Horizon replacement as it is delayed yet again](https://www.computerweekly.com/news/366646732/Subpostmasters-anxious-over-Horizon-replacement-as-it-is-delayed-yet-again) — *2026-07-30*
-  > &lt;p&gt;The Post Office has delayed signing the Horizon software replacement contract for the sixth time, with sources claiming the losing bidder is challenging the award.&lt;/p&gt; 
-&lt;p&gt;Meanwhile, subpostmasters have accused Fujitsu of “taking its foot off the pedal” after
-- **NEW**  [[MIT Technology Review] A fundamental flaw leaves LLMs strikingly vulnerable to attack](https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/) — *2026-07-30*
-  > It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge impl
-- **NEW**  [[TechCrunch] Microsoft is openly competing with OpenAI, Anthropic more than ever](https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/) — *2026-07-30*
-  > Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.
-- **NEW**  [[BleepingComputer] Russian hackers exploit Exchange OWA zero-day for long-term mailbox access](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/) — *2026-07-29*
-  > The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
-- [[BleepingComputer] Anthropic confirms Claude is down worldwide](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/) — *2026-07-29*
-  > Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a "529 Overloaded" message, including in Claude and tools that rely on its API. [...]
-- [[BleepingComputer] Cisco warns of FMC static credential flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/) — *2026-07-29*
-  > Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]
-- [[BleepingComputer] Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare](https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/) — *2026-07-29*
-  > Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]
-- [[BleepingComputer] OpenAI agent used exposed credentials at 4 services in Hugging Face breach](https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/) — *2026-07-29*
-  > In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]
-- [[The Record] OpenAI says rogue agent behind Hugging Face hack broke into additional services](https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services) — *2026-07-29*
-  > The four additional targeted organizations weren’t named. OpenAI said they were not affected as severely as Hugging Face.
-- [[The Record] Laundry Bear’s webmail hackers had more in store after February, report says](https://therecord.media/russia-hackers-outlook-webmail-malware) — *2026-07-29*
-  > Researchers say the Russian state-linked hacking group tracked as Laundry Bear recently began exploiting a bug in Microsoft Outlook Web Access.
-- [[The Record] Russia accuses Telegram founder of aiding terrorism, seeks international arrest](https://therecord.media/russia-telegram-durov-arrest) — *2026-07-29*
-  > Russia is seeking to place Telegram founder Pavel Durov on an international wanted list, alleging that the app has been used by Ukrainian intelligence to organize terrorist attacks and conduct espionage inside Russia.
-- [[The Record] Cyberattack hits Angola’s largest telco hours before landmark stock debut](https://therecord.media/angola-unitel-cyberattack-outage) — *2026-07-29*
-  > Angola’s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access.
-- [[Cybersecurity Dive] As data breaches grow costlier, ungoverned AI creates new risks](https://www.cybersecuritydive.com/news/data-breach-costs-ai-governance-ibm/826463/) — *2026-07-29*
-  > Meanwhile, many companies still aren&rsquo;t doing the basics to protect on-premises data, IBM found.
-- [[Schneier on Security] Measuring the Tendency of AI Agents to Go Rogue](https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html) — *2026-07-29*
-  > This essay was written with Barath Raghavan, and originally appeared in The Guardian.
-In July, Hugging Face, a company that hosts much of the world&#8217;s AI software and open-source AI models, was hacked. A malicious dataset had been used to run code on one of its servers. Whoe
-- [[Schneier on Security] Long-Lived Vulnerability in Microsoft Secure Boot](https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html) — *2026-07-29*
-  > Microsoft&#8217;s Secure Boot has had a serious vulnerability for most of its existence.
-An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discover
-- [[Schneier on Security] Measuring LLMs’ Ability to Perform Cryptanalysis](https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html) — *2026-07-29*
-  > There&#8217;s new benchmark measuring AI&#8217;s ability to perform mathematical cryptanalysis. Anthropic&#8217;s frontier model actually found new attacks.
-The benchmark: &#8220;CryptanalysisBench: Can LLMs do Cryptanalysis?&#8221; The idea is to benchmark the ability of LLMs to
-- [[Ars Technica] Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission](https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/) — *2026-07-29*
-  > HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.
+- **NEW**  [[Zero Day Initiative] The July 2026 Apple Security Update Review](https://www.thezdi.com/blog/2026/7/29/the-july-2026-apple-security-update-review) — *2026-07-30*
+  > Welcome to our monthly look at Apple security patches. This release shows that Apple is not immune to the bug apocalypse that is impacting other vendors. Last month, they released 37 unique CVEs compare to this month’s 210. Quite a jump.For July 2026, Apple released 210 unique CV
+- **NEW**  [[The Register] LinkedIn realizes its users have been bathing in AI slop, offers a shower](https://www.theregister.com/ai-and-ml/2026/07/30/linkedin-realizes-its-users-have-been-bathing-in-ai-slop-offers-a-shower/5281436) — *2026-07-30*
+  > AI-riddled social network adds button to report sloppy posts, ditches AI rewrite tools, and promises more to come
+- **NEW**  [[The Register] Oracle adds Google Gemini to the agent menu](https://www.theregister.com/ai-and-ml/2026/07/30/oracle-adds-google-gemini-to-the-agent-menu/5281331) — *2026-07-30*
+  > Chocolate Factory LLMs join Big Red's Fusion automation party
+- **NEW**  [[The Register] GPUs could explode to multiple TB with new storage-inspired memory tech](https://www.theregister.com/storage/2026/07/30/gpus-could-explode-to-multiple-tb-with-new-storage-inspired-memory-tech/5281363) — *2026-07-30*
+  > High-bandwidth flash promises SSD-like capacities with HBM-like speeds, but it's not all unicorns and rainbows
+- **NEW**  [[The Register] Open source project fools AI scrapers with poisoned font](https://www.theregister.com/ai-and-ml/2026/07/30/open-source-project-fools-ai-scrapers-with-poisoned-font/5281303) — *2026-07-30*
+  > ShieldFont is available today if you've got copy that needs protecting
+- **NEW**  [[The Register] Jailed Flock vandal wipes out three cameras, racks up thousands in damages](https://www.theregister.com/security/2026/07/30/jailed-flock-vandal-wipes-out-three-cameras-racks-up-thousands-in-damages/5281224) — *2026-07-30*
+  > A lesson for aspiring vandals: Take out all the cameras, not just the ones that flout your ideals
 
-_(25 additional items in raw.jsonl)_
+_(32 additional items in raw.jsonl)_

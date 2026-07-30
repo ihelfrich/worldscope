@@ -2,41 +2,17 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-30
-record_count: 122
-new_today: 50
+record_count: 87
+new_today: 15
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-50 new of 122 total items today.
+15 new of 87 total items today.
 
-- **NEW**  [[OFAC] Iran-related Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-29*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VcWJIcEJpT1ZIcFROQm9XVHczcEtUanZtTm9RNVJBRE9HT0pFbEZfbnN6bEhuUFNMMEZlQ1VJSFlCX2NOT0hEaGhPVVg2SjJIQ0lzeHRBS2Jab1NxRUE?oc=5" target="_blank">Iran-related Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign
-- **NEW**  [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
-- **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
-- **NEW**  [[OFAC] Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designations; Belarus-related Designation Removal; Issuance of Cuba-related General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IWjlIS0NkdFBvcWVjY21yTlRuNmktRWxlbWFkS1kwQ2N4dkFHWTJFT1NmdTFUbnRQMkR4MTUyQ0RYQVRKS1lfOVdFLVNBRnk4R0RETkRYNnhSLVozTnc?oc=5" target="_blank">Counter Terrorism Designations; Counter Narcotics Designations; Cuba Designation
-- **NEW**  [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaLTNheHJZUWF1Q1dQODdvNFVwWnYwaWYwRHE5MHBMeEs4UFJ3NkJDdmJPSmozS1JZLWoxNFdnS0VPU1FUTnU1S0pvaw?oc=5" target="_blank">1239</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
-- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zdEZkSzFGZXFOTVg0T3lWdDRVZlprX0xzM1g3aXlEWURwZHVfekF6ZGZsUXFCZC1nX0FtTmotaVJMVVhOaDRkbGRacnpCazN4SWNPd29faXJmeUZhSEpBMlMyVGc?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
-- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE56UkdCc0VmYlZlTjdobU9XbEplVS11Mm0yOTdlYmtfYzVFaUpXMjcyTHZJRnNRZlpTLXhTWlh5alNFY1I2OXpkNkswd0NjSlladDZmVHlJdG1Kcy1kcXc2WXUzU0k?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
-- **NEW**  [[OFAC] CJNG-Linked Networks - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Dd19XT2dxMFhJM0NiVVhGTUx5RXdhWmJRUlhSSzBBeW5TZjJkbTd6ZkJzWFlURWJLU0VCYUcwc3M5dTBIMF8xeU81eXhsVktvdjNYNDY1N3Q2NzFkaE5vb2trNno?oc=5" target="_blank">CJNG-Linked Networks</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Fore
-- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Imposing Sanctions on Those Responsible for Repression in - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvSG01VXpWeFNPUERoZkpScGNoSFB1NkNKVXB3VHhzYTVqTnhZV3ZWdDc0aF9BYjZGQ3pOMEk1S01sMTFqSUJ3emk1aE1CeGR5U0plUjBXM2JMWmRHTlJmd18xU1Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Executive Order 14404 of May 1, 2026 Im
-- **NEW**  [[OFAC] CJNG Leadership - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Y0xpU3R2eDBFVk1sMm5yRFBjMVJUVm1OUXRWM3pUOV93d1lOdmNjTWxfSGpHYlRveEtXZnJieUFTaDluNEJkRnRSMVIzQmtIMHdKc1JGSHlTYnZyMFdQV3o1RHQ?oc=5" target="_blank">CJNG Leadership</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
-- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanctions Regulations 31 CFR part 587 GENERAL LICENSE NO. 1 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRU2FpNHZLdlRMbnBhbFdDWERENXRqMHA5QTNiRWZvbVJkbnRKaldzdnJuWDcyVHpuWXJBSHhFeUI5RkhIYzBoZndmejFnVzItY0ZqV0xpT1V0d1lfUmJIMnIyY0Q?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Russian Harmful Foreign Activities Sanc
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-07-30*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
-- **NEW**  [[FARA] Export Control and Sanctions News - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-23*
-  > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rbTNfSVFPM191TXh5NkhIXzhNdEYxWC05aUxKUkpWdFhDdHA2SEp2bV80cVdiLUpkTVh5R3c1aDk2VG1JTG94VWJ2MjlyVVc5VFk4dExkcG9vNUU?oc=5" target="_blank">Export Control and Sanctions News</a>&nbsp;&nbsp;<font color="#6f6f6f">Department of
 - **NEW**  [[USASpending] $42,571,358,868 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-07-30*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL
 - **NEW**  [[USASpending] $35,040,435,874 → TRIAD NATIONAL SECURITY, LLC: IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS](https://www.usaspending.gov/award/89233218CNA000001) — *2026-07-30*
@@ -61,5 +37,29 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
 - [[USASpending] $2,404,483,873 → FERMI FORWARD DISCOVERY GROUP, LLC: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACC](https://www.usaspending.gov/award/89243024CSC000002) — *2026-07-30*
   > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY (FNAL)
+- [[USASpending] $2,032,829,135 → LOCKHEED MARTIN CORP: THE GOVERNMENT IS PROCURING THE NEXT-GENERATION GEOSTATIONAR](https://www.usaspending.gov/award/NNG09HR00C) — *2026-07-30*
+  > Agency: National Aeronautics and Space Administration.  Description: THE GOVERNMENT IS PROCURING THE NEXT-GENERATION GEOSTATIONARY OPERATIONAL ENVIRONMENTAL SATELLITES (GOES) SERIES TO CONTINUE ITS MISSION THROUGH NEW REQUIREMENTS SPECIFIED IN THE GOES-R LEVEL I REQUIREMENTS DOCU
+- **NEW**  [[USASpending] $1,628,766,368 → IDAHO ENVIRONMENTAL COALITION LLC: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN](https://www.usaspending.gov/award/89304223FEM400000) — *2026-07-30*
+  > Agency: Department of Energy.  Description: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER UNDER SINGLE AWARD MASTER IDIQ CONTRACT 89303321DEM000061.  CLIN 05 S1W D&D IS INCLUDED WITH AUTHORIZATION TO COMMENCE SCOPE 10/1/2023.
+- [[USASpending] $1,598,641,181 → BATTELLE SAVANNAH RIVER ALLIANCE, LLC: SAVANNAH RIVER NATIONAL LABORATORY MANAGEMENT AND OPERATING ](https://www.usaspending.gov/award/89303321CEM000080) — *2026-07-30*
+  > Agency: Department of Energy.  Description: SAVANNAH RIVER NATIONAL LABORATORY MANAGEMENT AND OPERATING (M&O) CONTRACT
+- [[USASpending] $1,150,643,464 → LEIDOS, INC.: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWI](https://www.usaspending.gov/award/47QFCA21C0002) — *2026-07-30*
+  > Agency: General Services Administration.  Description: MILITARY AND FAMILY LIFE COUNSELING. REQUIREMENT FOR WORLDWIDE NON MEDICAL CONFIDENTIAL COUNSELING SERVICES.
+- **NEW**  [[USASpending] $1,060,037,519 → KBR WYLE SERVICES, LLC: IGF::CT::IGFMSOC FPDS-NG MISSION SYSTEMS OPERATIONS CONTRACT](https://www.usaspending.gov/award/80JSC017C0006) — *2026-07-30*
+  > Agency: National Aeronautics and Space Administration.  Description: IGF::CT::IGFMSOC FPDS-NG MISSION SYSTEMS OPERATIONS CONTRACT (MSOC)
+- [[USASpending] $1,029,024,846 → LEIDOS, INC.: RESEARCH SUPPORT SERVICES (RSS)](https://www.usaspending.gov/award/89243318CFE000003) — *2026-07-30*
+  > Agency: Department of Energy.  Description: RESEARCH SUPPORT SERVICES (RSS)
+- **NEW**  [[USASpending] $988,198,980 → OPTUM PUBLIC SECTOR SOLUTIONS, INC.: EXPRESS REPORT: 2ND QTR FY2026 MARCH](https://www.usaspending.gov/award/36C10G26K0278) — *2026-07-30*
+  > Agency: Department of Veterans Affairs.  Description: EXPRESS REPORT: 2ND QTR FY2026 MARCH
+- [[USASpending] $912,901,574 → REED TECHNOLOGY AND INFORMATION SERVICES LLC: PATENT DATA AND DOCUMENT MANAGEMENT (PD&DM)](https://www.usaspending.gov/award/1333BJ21C00151002) — *2026-07-30*
+  > Agency: Department of Commerce.  Description: PATENT DATA AND DOCUMENT MANAGEMENT (PD&DM)
+- **NEW**  [[USASpending] $858,305,518 → OPTUM PUBLIC SECTOR SOLUTIONS, INC.: EXPRESS REPORT: 2ND QTR FY 2026 JAN](https://www.usaspending.gov/award/36C10G26K0276) — *2026-07-30*
+  > Agency: Department of Veterans Affairs.  Description: EXPRESS REPORT: 2ND QTR FY 2026 JAN
+- **NEW**  [[USASpending] $848,781,902 → OPTUM PUBLIC SECTOR SOLUTIONS, INC.: EXPRESS REPORT: 2ND QTR FY 2026 FEB](https://www.usaspending.gov/award/36C10G26K0277) — *2026-07-30*
+  > Agency: Department of Veterans Affairs.  Description: EXPRESS REPORT: 2ND QTR FY 2026 FEB
+- [[USASpending] $830,208,540 → CACI, INC. - FEDERAL: CDM DEFEND GROUP A  BRIDGE TASK ORDER](https://www.usaspending.gov/award/47QFRA24F0005) — *2026-07-30*
+  > Agency: General Services Administration.  Description: CDM DEFEND GROUP A  BRIDGE TASK ORDER
+- [[USASpending] $817,387,492 → SYNCOM SPACE SERVICES LLC: IGF::OT::IGF SYNERGY-ACHIEVING CONSOLIDATED OPERATIONS AND M](https://www.usaspending.gov/award/NNS15AA77T) — *2026-07-30*
+  > Agency: National Aeronautics and Space Administration.  Description: IGF::OT::IGF SYNERGY-ACHIEVING CONSOLIDATED OPERATIONS AND MAINTENANCE, COST PLUS INCENTIVE FEE - INDEFINITE DELIVERY INDEFINITE QUANTITY
 
-_(97 additional items in raw.jsonl)_
+_(62 additional items in raw.jsonl)_

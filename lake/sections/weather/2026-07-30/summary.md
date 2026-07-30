@@ -2,242 +2,258 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-30
-record_count: 149
-new_today: 119
+record_count: 173
+new_today: 171
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-119 new of 149 total items today.
+171 new of 173 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 7:22AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bde225b442b1fe2db0fe4ab3642d21ec4ded9058.001.1) — *2026-07-30*
-  > At 721 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Newfolden, moving east at 45 mph.
-
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. Minor hai
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-34748) — *2026-07-30*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-277) — *2026-07-30*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 8:09AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b00e06752daef8e55853ada3b2cc3ddc293daf3.001.1) — *2026-07-30*
-  > At 809 AM EDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Williston Municipal Airport to 7 miles
-north of Beverly Hills. Movement was east at 15 mph.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 6:36PM CDT until July 30 at 7:30PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16af7db9184a730dc08a559eb13ebddf9d48baaa.001.1) — *2026-07-30*
+  > SVRLBF
 
-HAZARD...Wind gusts around 40 mph.
+The National Weather Service in North Platte has issued a
 
-SOURCE...Radar indicated.
+* Severe Thunderstorm Warning for...
+Northeastern Lincoln County in southwestern Nebraska...
+Southeastern Logan County in west central Nebraska...
+Southwestern Custer County in central Nebraska...
 
-IMPACT...Gusty winds could k
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 8:05AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d50dd6a9dbcfd6f0edd9ad294334b2f30094824.001.1) — *2026-07-30*
-  > At 805 AM EDT, Doppler radar was tracking a strong thunderstorm 9
-miles northeast of Williston, moving east at 25 mph.
+* Until 730 PM 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:33PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2906f9ebd5e6c28ba2cf635ed143713d6be9759.001.1) — *2026-07-30*
+  > At 532 PM MDT, Doppler radar was tracking a strong thunderstorm 11
+miles north of Chilly Barton Flat, or 22 miles southeast of Challis,
+moving northeast at 25 mph.
 
-HAZARD...Wind gusts 40 to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
-
-Locations imp
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:01AM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc82c78cdc5f6c699538fa26fdb2a133cfda335e.001.1) — *2026-07-30*
-  > At 600 AM MDT, Doppler radar was tracking a strong thunderstorm near
-The Pines Rec Area, or 20 miles south of Glasgow, moving east at 20
-mph.
-
-HAZARD...Winds in excess of 30 mph and penny size hail.
+HAZARD...Wind gusts of 50 to 55 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:48AM CDT until July 30 at 7:00PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.faf102a317227cac0828da6647dc9b1bcbdeb120.001.1) — *2026-07-30*
-  > * WHAT...Heat index values up to 110 expected.
+IMPACT...Gusty winds could knock
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:29PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0314e8eb672c9378c8439052ad898de2f8963b59.001.1) — *2026-07-30*
+  > At 529 PM MDT, Doppler radar was tracking a strong thunderstorm 13
+miles north of Crowley, or 33 miles east of Pueblo Airport, moving
+east at 25 mph.
 
-* WHERE...Portions of south central and southwest Alabama, northwest
-Florida, and southeast Mississippi.
+HAZARD...Heavy rain, wind gusts up to 50 mph and half inch hail.
 
-* WHEN...From 11 AM this morning to 7 PM CDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illn
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:45AM CDT until July 30 at 9:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.752c25963ee0471961848ed48e6d3b9d3aa62e63.001.1) — *2026-07-30*
-  > * WHAT...Temperatures and heat index values up to 108.
+IMPACT...Gusty winds could knock dow
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 6:27PM CDT until July 30 at 7:15PM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43f91adcfc011498020c6e4b7666594fe7b5e82b.001.1) — *2026-07-30*
+  > SVROAX
 
-* WHERE...Portions of the Panhandle of Oklahoma and the Panhandle of
-Texas.
+The National Weather Service in Omaha has issued a
 
-* WHEN...Until 9 PM CDT this evening.
+* Severe Thunderstorm Warning for...
+Northwestern Antelope County in northeastern Nebraska...
+Western Knox County in northeastern Nebraska...
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 30 at 5:41AM MDT until July 30 at 9:00AM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e491dac9446f0a2428f5d9d4387019a5c49290ce.001.1) — *2026-07-30*
-  > FFWGGW
+* Until 715 PM CDT.
 
-The National Weather Service in Glasgow has issued a
+* At 626 PM CDT, severe thunderstorms were located along
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 7:27PM EDT until July 30 at 7:45PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d6d61189ddf14ff1291716ed1c0ab5fb337a15a0.002.1) — *2026-07-30*
+  > At 727 PM EDT, a severe thunderstorm was located 17 miles west of
+Perry, moving southeast at 25 mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to roofs, siding, and trees.
+
+Locations impacted include...
+Scanlon, Econfina, Cabbage Grove, and S
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 30 at 6:25PM CDT until July 31 at 12:30AM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c5bbcf78a047e71ff4aa29c4d0c88dbb28510db.001.1) — *2026-07-30*
+  > FFWABR
+
+The National Weather Service in Aberdeen has issued a
 
 * Flash Flood Warning for...
-Northeastern Garfield County in northeastern Montana...
-South Central Valley County in northeastern Montana...
+Northwestern Big Stone County in west central Minnesota...
+Southwestern Traverse County in west central Minnesota...
+Northeastern Day County in northeastern South Dakota...
+Southeastern Ma
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 6:25PM CDT until July 30 at 7:30PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4215eec66e94fccd835b54e2933e93f040653584.001.1) — *2026-07-30*
+  > SVRLBF
 
-* Until 900 AM MDT.
+The National Weather Service in North Platte has issued a
 
-* At 541 AM MDT, Doppler radar and automated rain gauges
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 30 at 6:40AM CDT until July 30 at 8:45AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9ab9b0cd1943e06a94a767edc19c9b875a5e0c7.001.1) — *2026-07-30*
+* Severe Thunderstorm Warning for...
+Southern Rock County in north central Nebraska...
+Western Loup County in north central Nebraska...
+Southeastern Brown County in north central Nebraska...
+Northeastern Logan Cou
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:24PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ded0bed6403b60bcc2e696edec4853a85a8dae94.001.1) — *2026-07-30*
+  > At 524 PM MDT, Doppler radar was tracking a strong thunderstorm 7
+miles northeast of Thunder Valley, or 35 miles north of Pine Ridge,
+moving southeast at 30 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 4:21PM PDT until July 31 at 9:00PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dcaa82b1b4af93c35b8cc812cbb9d7ae753ed6d.001.1) — *2026-07-30*
+  > * WHAT...Heat index values up to 93 expected.
+
+* WHERE...White Pine, Northern Lander and Northern Eureka, Southern
+Lander and Southern Eureka, Northern Elko, South Central Elko,
+Southeastern Elko, and Southwest Elko Counties.
+
+* WHEN...From 11 AM to 9 PM PDT Friday.
+
+* IMPACTS...
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:19PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5142973838290b9afdfd78a4591b8dbd78219e88.001.1) — *2026-07-30*
+  > At 519 PM MDT, Doppler radar was tracking a strong thunderstorm 26
+miles north of Seneca, or 38 miles north of Clayton, moving east at
+15 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and b
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:18PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1720a09b4814c8b42fe9e7315ff9787db1fd3611.001.1) — *2026-07-30*
+  > At 518 PM MDT, Doppler radar was tracking a strong thunderstorm near
+Farisita, or 43 miles southwest of Pueblo, moving east at 25 mph.
+
+HAZARD...Heavy rain, wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs an
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:12PM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.144fa3a292610e0123fc8f33271f9b144729069d.001.1) — *2026-07-30*
+  > At 612 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 6 miles southeast of Dozier to near Pinckard.
+Movement was southeast at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree lim
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:11PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae1986e0a11c5704a0da542bc3129887a35c14c8.001.1) — *2026-07-30*
+  > At 511 PM MDT, Doppler radar was tracking a strong thunderstorm 8
+miles north of Grenville, or 14 miles east of Des Moines, moving east
+at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree lim
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 6:10PM CDT until July 30 at 7:15PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9e11b6c17693d3cf336f4675a1879839a849dde.001.1) — *2026-07-30*
+  > SVRLBF
+
+The National Weather Service in North Platte has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Holt County in north central Nebraska...
+Boyd County in north central Nebraska...
+
+* Until 715 PM CDT.
+
+* At 610 PM CDT, severe thunderstorms were located along a 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:06PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ffae854ebe39a5448d7e99a4af231891d683516.001.1) — *2026-07-30*
+  > At 505 PM MDT, Doppler radar was tracking a strong thunderstorm 8
+miles south of Portneuf Gap, or 9 miles west of McCammon, moving east
+at 25 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 30 at 6:05PM CDT until July 30 at 7:00PM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5870630e04801fbaaf9665b9df764f86c6654a4.001.1) — *2026-07-30*
+  > SVRLBF
+
+The National Weather Service in North Platte has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Lincoln County in southwestern Nebraska...
+Southern Logan County in west central Nebraska...
+
+* Until 700 PM CDT.
+
+* At 605 PM CDT, a severe thunderstorm was locat
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 30 at 4:02PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0133935a6d074dcebce72a8522a4d10407e70d47.001.1) — *2026-07-30*
+  > * WHAT...The South Coast AQMD has issued an air quality alert due to
+harmful levels of ozone pollution. Visit
+https://www.aqmd.gov/alertinfo to check current and forecasted air
+quality levels.
+
+* WHERE...Glendora, San Fernando Valley, Santa Clarita Valley, San
+Gabriel Valley, San
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 30 at 4:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93f38db947e86919fae022e93732f25ee38bbe78.001.1) — *2026-07-30*
+  > * WHAT...The South Coast AQMD has issued an air quality alert due to
+harmful levels of ozone pollution. Visit
+https://www.aqmd.gov/alertinfo to check current and forecasted air
+quality levels.
+
+* WHERE...San Bernardino, Redlands, Riverside, Crestline and the
+Coachella Valley.. Le
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:57PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d10e2a710fbe6cafcaf4286e69cc50b7ea81bb13.001.1) — *2026-07-30*
+  > At 656 PM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms along a line extending from near Dowling Park to 13
+miles southwest of Monticello to 7 miles south of St. Marks. Movement
+was southeast at 30 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indica
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:56PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c1be9a94bed89270800d9505b8c97e4435d7c55.001.1) — *2026-07-30*
+  > At 656 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Dowling Park to 6 miles west of Columbia
+to Upland Pines. Movement was southeast at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gu
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:51PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.14041041db2baf73a2a5a3b423df9a9fe9200805.001.1) — *2026-07-30*
+  > At 650 PM EDT, Doppler radar was tracking a strong thunderstorm
+capable of producing a landspout over Alachua, or 9 miles southwest
+of Worthington Spring, moving south at 20 mph.
+
+HAZARD...Landspouts, wind gusts of 50 to 55 mph, minor flooding due
+to heavy rainfall, and pea size 
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 30 at 6:50PM EDT until July 30 at 8:15PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e74fe926443a9a1c1d0577c00f0913c370086d7b.001.1) — *2026-07-30*
   > SMWTAE
 
 The National Weather Service in Tallahassee has issued a
 
 * Special Marine Warning for...
-Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
-Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
-20 NM...
-Waters from Mexico Beach to Apalachicola FL
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 5:10AM MDT until July 31 at 9:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa48e15d3c63a753c1a4a45cddf52f909d5db685.001.1) — *2026-07-30*
-  > * WHAT...Temperatures of 103 to 107 for today and 105 to 109 on
-Friday.
+Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee
+River Fl out to 20 Nm...
+Coastal waters from  Suwannee River to Keaton Beach out 20 NM...
 
-* WHERE...In New Mexico, Northern Dona Ana County, Southern Dona Ana
-County/Mesilla Valley, West Central Tularosa Basin/White Sands,
-and Southwest Desert/Mimbres Basin. In Texas, Eastern/Central El
-Paso Coun
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:48AM EDT until July 30 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5f97f184212a0bf676fbd40f4067407c0004a24.001.1) — *2026-07-30*
-  > * WHAT...Heat index values up to 110 degrees expected.
+* Until 815 PM EDT.
 
-* WHERE...Coastal McIntosh and Inland McIntosh Counties.
+* At 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:41PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.370632f6446eaf13617b7c1b4c5df3bca06631d2.001.1) — *2026-07-30*
+  > At 541 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Dozier to 5 miles southwest of Red Level.
+Movement was southeast at 25 mph.
 
-* WHEN...From 11 AM this morning to 7 PM EDT this evening.
+HAZARD...Wind gusts up to 40 mph.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:04AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d640e43243f77e627f5eeae8285d128d35298aef.001.1) — *2026-07-30*
-  > Some patchy dense fog will restrict visibilities to less than
-one-quarter of a mile across the highest elevations of NE Georgia.
-The fog should lift after 10 AM.
+SOURCE...Radar indicated.
 
-If driving this morning, slow down, use low-beam headlights and
-leave extra distance between you and the vehicle in f
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:57AM MST until August 2 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afde0e27118cbb5d2bb5d2a5fe68eb27b1eeef7e.001.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with temperatures 101 to 106 in
-Santa Cruz and Cochise Counties and 107 to 113 elsewhere. Major to
-Extreme HeatRisk is expected.
+IMPACT...Gusty winds could knock down tree li
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:35PM CDT until July 30 at 11:30PM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3772ca2c57240f8bc32fd0349f8b8ea3ee0989a.001.1) — *2026-07-30*
+  > * WHAT...Flooding caused by excessive rainfall is expected.
 
-* WHERE...Eastern Cochise County below 5000 feet, South Central Pinal
-County, Southeast Pinal County, Tohono O'odh
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:56AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8977028bfd88ad60f6f2bb7fe530e2336787981.001.1) — *2026-07-30*
-  > * WHAT...Flooding caused by excessive rainfall continues.
+* WHERE...Central Faulk County in north central South Dakota...
 
-* WHERE...A portion of east central New York, including the
-following counties, Albany and Schenectady.
-
-* WHEN...Until 1015 AM EDT.
-
-* IMPACTS...Numerous roads remain closed due to flooding. It will
-take several hours fo
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:54AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f85718177f03d9415413c5754f9fb951efd18214.001.1) — *2026-07-30*
-  > * WHAT...Flooding caused by excessive rainfall continues.
-
-* WHERE...Portions of east central and eastern New York, including
-the following counties, in east central New York, Rensselaer,
-Saratoga and Schenectady. In eastern New York, Fulton and
-Montgomery.
-
-* WHEN...Until 1015 A
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:51AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79a60d22e02cd5519e6ea1aa9949dc2bc9db2286.001.1) — *2026-07-30*
-  > * WHAT...Flooding caused by excessive rainfall continues.
-
-* WHERE...A portion of east central New York, including the
-following counties, Albany, Rensselaer, Saratoga and Schenectady.
-
-* WHEN...Until 1015 AM EDT.
-
-* IMPACTS...Numerous roads remain closed due to flooding. It will
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:48AM EDT until July 30 at 10:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5360fe66af0381092e5a128931f6fb299797922.001.1) — *2026-07-30*
-  > * WHAT...Flooding caused by excessive rainfall continues.
-
-* WHERE...A portion of east central New York, including the
-following counties, Columbia, Greene and Ulster.
-
-* WHEN...Until 1000 AM EDT.
+* WHEN...Until 1130 PM CDT.
 
 * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood-pro
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:26AM PDT until August 3 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3a04a6e52404bbf733c23b1828e91411acfd428.001.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with several days of Major to
-Extreme heat risk.
+and flood-prone locations is imminent or occurring. Expe
 
-* WHERE...Indian Wells Valley, Mojave Desert, and Mojave Desert
-Slopes.
-
-* WHEN...From 11 AM this morning to 11 PM PDT Monday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-e
-- **NEW**  [[Severe] Extreme Heat Watch: Extreme Heat Watch issued July 30 at 3:24AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a3d24ee6f27215ae30686958842ecaa54413873.004.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with temperatures up to 105
-possible and overnight lows in the low to mid-70s.
-
-* WHERE...Northern Wasatch Front, Salt Lake Valley, Tooele and Rush
-Valleys, Utah Valley, and Western Uinta Basin.
-
-* WHEN...From Saturday afternoon through Sunday 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 3:24AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a3d24ee6f27215ae30686958842ecaa54413873.002.1) — *2026-07-30*
-  > * WHAT...Temperatures up to 106 expected, with warm overnight lows
-in the upper 60s to low 70s offering little relief.
-
-* WHERE...Castle Country, Eastern Juab/Millard Counties, San Rafael
-Swell, and Great Salt Lake Desert and Mountains.
-
-* WHEN...From noon Saturday to 9 PM MDT Su
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 3:24AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a3d24ee6f27215ae30686958842ecaa54413873.003.1) — *2026-07-30*
-  > * WHAT...Temperatures up to 105 expected. Overnight temperatures are
-expected to recover into the mid- to upper-60s, providing
-temporary relief from daytime heat.
-
-* WHERE...Western Millard and Juab Counties and Southwest Utah.
-
-* WHEN...From noon Saturday to 9 PM MDT Sunday.
-
-* 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 3:24AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a3d24ee6f27215ae30686958842ecaa54413873.001.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with temperatures up to 107
-expected. Warm overnight lows in the upper 60s to mid 70s will
-offer little relief.
-
-* WHERE...Capitol Reef National Park and Vicinity, Glen Canyon
-Recreation Area/Lake Powell, South Central Utah, Western
-Canyonlands
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.006.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s in the western valleys to around 105 near the foothills
-expected.
-
-* WHERE...San Diego County Valleys.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significan
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.010.1) — *2026-07-30*
-  > * WHAT...High temperatures in the mid 80s to around 90 for the mesas
-and other higher coastal terrain expected.
-
-* WHERE...San Diego County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.009.1) — *2026-07-30*
-  > * WHAT...High temperatures in the 90s to around 100 below 6000 feet
-expected.
-
-* WHERE...San Bernardino County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-
-_(124 additional items in raw.jsonl)_
+_(148 additional items in raw.jsonl)_

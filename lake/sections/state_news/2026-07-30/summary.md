@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-07-30
-record_count: 823
-new_today: 121
+record_count: 1045
+new_today: 391
 state: fresh
 ---
 
 ## State-Level News
 
-121 new of 823 total items today.
+391 new of 1045 total items today.
 
 - [[Alabama] Governor Ivey Proclaims Will Roberts Day in Honor of His Bravery and Inspiration to be Strong, Keep Hope and Have Faith](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-proclaims-will-roberts-day-in-honor-of-his-bravery-and-inspiration-to-be-strong-keep-hope-and-have-faith/) — *2026-07-29*
   > MONTGOMERY – Governor Kay Ivey on Wednesday issued a proclamation in honor of William “Will” Roberts, son of ALEA SBI Captain Jason Roberts and his wife Brittney. At just 15 years old, Will passed away on Thursday, July 23, following &#8230; <a href="https://governor.alabama.gov/
@@ -27,8 +27,14 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Vehicle-theft-in-California-dropped-nearly-25-in-2025-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Graphic with a blue-tinted nighttime photo background of 
 - [[California] Governor Newsom expands statewide partnerships with additional cities to clean up encampments on highways](https://www.gov.ca.gov/2026/07/28/governor-newsom-expands-statewide-partnerships-with-additional-cities-to-clean-up-encampments-on-highways/) — *2026-07-28*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-expands-statewide-partnerships-with-additional-cities-to-clean-up-encampments-on-highways-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Graph
+- **NEW**  [[Connecticut] Nearly 18,900 CT children have lost SNAP benefits over past year](https://ctmirror.org/2026/07/30/nearly-18900-ct-children-have-lost-snap-benefits-over-past-year/) — *2026-07-30*
+  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2025/12/AP25336728008267-1024x682.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uplo
+- **NEW**  [[Connecticut] Insurance companies propose higher rates on CT health plans](https://ctmirror.org/2026/07/30/insurance-companies-propose-higher-rates-on-ct-health-plans/) — *2026-07-30*
+  > <figure><img width="1024" height="671" src="https://ctmirror.org/wp-content/uploads/2026/01/AP133679160837-1024x671.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/01/AP133679160
+- **NEW**  [[Connecticut] DeLauro: CT providers’ federal grants represent “amazing victory”](https://ctmirror.org/2026/07/30/ct-federal-grants-bridges-bhcare-delauro/) — *2026-07-30*
+  > <figure><img width="683" height="1024" src="https://ctmirror.org/wp-content/uploads/2025/01/2025_0128_SR_GrantPauseConference560-683x1024.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/w
 - **NEW**  [[Connecticut] Thank you, Hartford, for letting me teach. Now save your public schools](https://ctmirror.org/2026/07/30/thank-you-hartford-for-letting-me-teach-now-save-your-public-schools/) — *2026-07-30*
-  > <figure><img width="1024" height="681" src="https://ctmirror.org/wp-content/uploads/2026/07/teachers-demonstrate-hartford-1024x681.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp
+  > <figure><img width="1024" height="681" src="https://ctmirror.org/wp-content/uploads/2026/07/teachers-demonstrate-hartford-1024x681.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
 - **NEW**  [[Connecticut] We all can act for CT’s greater good](https://ctmirror.org/2026/07/30/we-all-can-act-for-cts-greater-good/) — *2026-07-30*
   > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/AMERICA-LIBRARY-0701-JL-020-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
 - **NEW**  [[Connecticut] The U.S.-imposed fuel crisis in Cuba is inhumane and immoral](https://ctmirror.org/2026/07/30/the-u-s-imposed-fuel-crisis-in-cuba-is-inhumane-and-immoral/) — *2026-07-30*
@@ -55,9 +61,5 @@ state: fresh
   > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/01/2026_0112_SR_IroquoisPipeline_002-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-c
 - [[Connecticut] CT hospitals are redesigning ERs for behavioral health crises](https://ctmirror.org/2026/07/28/ct-hospitals-emergency-room-behavioral-health-crisis/) — *2026-07-28*
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/YALE-KID-CRISIS-CENTER-0721-0721-SG-11-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirro
-- [[Connecticut] CT’s hypocrisy about election integrity](https://ctmirror.org/2026/07/28/election-integrity-for-who-joseph/) — *2026-07-28*
-  > <figure><img width="886" height="461" src="https://ctmirror.org/wp-content/uploads/2026/07/Bridgeport-ballot-box-stuffing.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- [[Alabama] Analysis shows excessive force suits against ADOC officers cost taxpayers $20M](https://www.alreporter.com/2026/07/29/analysis-shows-excessive-force-suits-against-adoc-officers-cost-taxpayers-20m/) — *2026-07-29*
-- [[Alabama] Opinion | Washington has kept immigration broken. Now America needs workers](https://www.alreporter.com/2026/07/29/opinion-washington-has-kept-immigration-broken-now-america-needs-workers/) — *2026-07-29*
 
-_(798 additional items in raw.jsonl)_
+_(1020 additional items in raw.jsonl)_

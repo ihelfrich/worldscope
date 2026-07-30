@@ -2,53 +2,15 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-30
-record_count: 203
-new_today: 183
+record_count: 165
+new_today: 125
 state: fresh
 ---
 
 ## State Legislative Action
 
-183 new of 203 total items today.
+125 new of 165 total items today.
 
-- **NEW**  [[Alaska SB 24] An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use educat]() — *2026-07-30*
-  > An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use e
-- [[Alaska SB 23] An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.]() — *2026-07-29*
-  > An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.
-- [[Alaska SB 86] An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegat]() — *2026-07-29*
-  > An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized de
-- [[Alaska SB 64] An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the crimes ]() — *2026-07-29*
-  > An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the cr
-- [[Alaska SB 140] An Act relating to a matching grant program for fire station construction and renovation; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to a matching grant program for fire station construction and renovation; and providing for an effective date.
-- [[Alaska HB 283] An Act making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.]() — *2026-07-28*
-  > An Act making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.
-- [[Alaska HB 133] An Act establishing deadlines for the payment of contracts under the State Procurement Code; establishing deadlines for the payment of grants, contracts, and reimbursement agreements to nonprofit organizations, municipalities, and Alaska Native organizations; relating to reports from]() — *2026-07-28*
-  > An Act establishing deadlines for the payment of contracts under the State Procurement Code; establishing deadlines for the payment of grants, contracts, and reimbursement agreements to nonprofit organizations, municipalities, and Alaska Native organizations; relating to reports 
-- [[Alaska HB 265] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-07-28*
-  > An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.
-- [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-07-28*
-  > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
-- [[Alaska HB 289] An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.]() — *2026-07-28*
-  > An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.
-- [[Alaska SB 164] An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.]() — *2026-07-28*
-  > An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.
-- [[Alaska SB 205] An Act relating to occupational disability benefits for peace officers and firefighters; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to occupational disability benefits for peace officers and firefighters; and providing for an effective date.
-- [[Alaska SB 89] An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certain he]() — *2026-07-28*
-  > An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certa
-- [[Alaska SB 150] An Act relating to a net metering program; relating to reduced rates in the form of credits for consumer-generators; establishing a net metering reimbursement fund; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to a net metering program; relating to reduced rates in the form of credits for consumer-generators; establishing a net metering reimbursement fund; and providing for an effective date.
-- [[Alaska SB 218] An Act relating to the taxation of electric cooperatives; relating to the taxation of electricity generation and electricity storage facilities; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to the taxation of electric cooperatives; relating to the taxation of electricity generation and electricity storage facilities; and providing for an effective date.
-- [[Alaska SB 233] An Act relating to the Controlled Substances Advisory Committee.]() — *2026-07-28*
-  > An Act relating to the Controlled Substances Advisory Committee.
-- [[Alaska SB 217] An Act relating to employer contributions to the unemployment compensation fund; establishing an employer contribution for the state training and employment program; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to employer contributions to the unemployment compensation fund; establishing an employer contribution for the state training and employment program; and providing for an effective date.
-- [[Alaska SJR 25] Supporting efforts to modernize and improve the United States-Mexico-Canada Agreement; and supporting simplified border crossings and free trade with Canada and Mexico.]() — *2026-07-28*
-  > Supporting efforts to modernize and improve the United States-Mexico-Canada Agreement; and supporting simplified border crossings and free trade with Canada and Mexico.
-- [[Alaska SB 16] An Act relating to a simplified rate filing procedure for refuse utility rate adjustments; relating to Regulatory Commission of Alaska regulations regarding refuse utilities; and providing for an effective date.]() — *2026-07-28*
-  > An Act relating to a simplified rate filing procedure for refuse utility rate adjustments; relating to Regulatory Commission of Alaska regulations regarding refuse utilities; and providing for an effective date.
 - [[Arizona SB 1046] telecommunications infrastructure; equipment requirements]() — *2026-07-28*
   > telecommunications infrastructure; equipment requirements
 - [[Arizona SB 1133] candidate financial disclosures; public officers]() — *2026-07-28*
@@ -61,5 +23,53 @@ state: fresh
   > Existing law, the Short-Term Rental Facilitator Act of 2025, authorizes a local agency to enact an ordinance to require a short-term rental facilitator, as defined, to report, in the form and manner prescribed by the local agency, the physical address of each short-term rental, a
 - **NEW**  [[California AB 1626] Interscholastic athletics: youth sports: coaches: behavioral and mental health training.]() — *2026-07-30*
   > Existing law requires the governing board of each school district to have general control of, and be responsible for, all aspects of the interscholastic athletic policies, programs, and activities in its school district, as provided, and requires the governing board of a school d
+- **NEW**  [[California SB 930] Student Test Taker Privacy Protection Act: end-to-end encryption.]() — *2026-07-30*
+  > Existing law, the California Consumer Privacy Act of 2018 (CCPA) , imposes various obligations on businesses with respect to personal information, as defined. The California Privacy Rights Act of 2020, approved by the voters as Proposition 24 at the November 3, 2020, statewide ge
+- **NEW**  [[California SB 569] Bikeways: reversions and modifications.]() — *2026-07-30*
+  > Existing law grants the legislative body of a city certain powers with respect to city streets and highways, including the power to construct and maintain those streets and highways. Existing law grants the board of supervisors of a county general supervision, management, and con
+- **NEW**  [[California SB 1099] State and local public benefits.]() — *2026-07-30*
+  > Existing law establishes various public social services programs to provide eligible recipients with certain aid or health care benefits, among others. Existing law also requires each county to provide aid to its indigent residents who are not supported by other means under progr
+- **NEW**  [[California AB 1539] Presidential elections: qualifications for office.]() — *2026-07-30*
+  > The Twenty-Second Amendment to the United States Constitution prohibits the election of any person to the office of the President more than twice. Under existing state law, each qualified political party is required to notify the Secretary of State of the names of the party's nom
+- **NEW**  [[California SB 1169] Subdivision Map Act: tentative maps: expiration dates.]() — *2026-07-30*
+  > Existing law, the Subdivision Map Act, (act) vests the authority to regulate and control the design and improvement of subdivisions in the legislative body of a local agency and sets forth procedures governing the processing, approval, conditional approval or disapproval, and fil
+- **NEW**  [[California AB 2134] City council members: absences without permission.]() — *2026-07-30*
+  > Existing law provides that if a city council member is absent without permission from all regular city council meetings for a specified number of days from the last regular meeting they attended, their office becomes vacant and shall be filled as any other vacancy.
 
-_(178 additional items in raw.jsonl)_
+This bill wou
+- **NEW**  [[California SB 1223] Fairs: contracting.]() — *2026-07-30*
+  > Existing law governs fairs in this state, including the California Exposition and State Fair, district agricultural associations, county and district fairs, and citrus fruit fairs. Existing law establishes various requirements applicable to contracts of fairs.
+
+This bill would pr
+- **NEW**  [[California AB 1751] Missing Middle Townhome Ownership Act.]() — *2026-07-30*
+  > Existing law, the Planning and Zoning Law, contains various provisions requiring a local government that receives an application for certain types of qualified housing developments to review the application under a streamlined, ministerial approval process, depending on the type 
+- **NEW**  [[California AB 442] Z'berg-Nejedly Forest Practice Act of 1973: working forest management plans: nonindustrial timber management plans.]() — *2026-07-30*
+  > Under the Z'berg-Nejedly Forest Practice Act of 1973, the Legislature finds and declares the policy of the state to encourage prudent and responsible forest management of nonindustrial timberlands by approving working forest management plans in advance. This bill would increase t
+- **NEW**  [[California SB 1090] Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.]() — *2026-07-30*
+  > Under the Planning and Zoning Law, the legislative body of a county or city may adopt ordinances that, among other things, regulate the use of buildings, structures, and land, as provided. The Subdivision Map Act vests the authority to regulate and control the design and improvem
+- **NEW**  [[California SB 1256] Subdivision Map Act: action or proceeding.]() — *2026-07-30*
+  > The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to prepare, or cause to be prepared, and certify the completion of an environmental impact report on a project that it proposes to carry out or approve that may have a significant effect on the en
+- **NEW**  [[California SB 922] Vehicles: local agency charges: use of streets or highways.]() — *2026-07-30*
+  > Existing law prohibits a local agency from imposing a tax, permit fee, or other charge for the privilege of using its streets or highways, other than a permit fee for an extralegal load unless the local agency had imposed the fee prior to June 1, 1989.
+
+This bill would explicitly
+- **NEW**  [[California SB 1005] Local agency: payment: rounding amount.]() — *2026-07-30*
+  > Existing law requires a public agency to accept specified methods of payment for designated obligations.
+
+This bill would authorize a local agency to round the amount of any payment made wholly or partly in cash to the local agency, or any refund or other amount tendered wholly o
+- **NEW**  [[California SB 1000] California AI Transparency Act.]() — *2026-07-30*
+  > Existing law, the California AI Transparency Act, beginning August 2, 2026, generally regulates provenance data disclosure in content generated by artificial intelligence (AI) , including by requiring a covered provider to make available an AI detection tool at no cost to the use
+- **NEW**  [[California SB 420] Property tax: welfare exemption: detention facilities.]() — *2026-07-30*
+  > The California Constitution authorizes the Legislature to exempt from taxation, in whole or in part, property that is used exclusively for religious, hospital, or charitable purposes, and is owned or held in trust by a nonprofit entity. Pursuant to that authority, existing law pr
+- **NEW**  [[California SB 1172] Bradley-Burns Uniform Local Sales and Use Tax Law: tax sharing agreements.]() — *2026-07-30*
+  > Existing law prohibits a local agency from entering into any form of agreement that would result, directly or indirectly, in the payment, transfer, diversion, or rebate of any tax revenue resulting from the imposition of a sales and use tax under the Bradley-Burns Uniform Local S
+- **NEW**  [[California SB 1211] Criminal procedure: postconviction investigation.]() — *2026-07-30*
+  > Existing law provides for the prosecution of crimes by the district attorney of each county. Existing law establishes procedures for litigating claims of factual innocence based on newly discovered evidence, including a motion for a new trial or a writ of habeas corpus. 
+
+This bi
+- **NEW**  [[California AB 1778] Controlled substances: testosterone.]() — *2026-07-30*
+  > Existing law, the California Uniform Controlled Substances Act, classifies controlled substances into 5 designated schedules, with the most restrictive limitations generally placed on controlled substances classified in Schedule I, and the least restrictive limitations generally 
+- **NEW**  [[California SB 226] Infrastructure revitalization financing districts.]() — *2026-07-30*
+  > Existing law authorizes a legislative body of a city to designate one or more proposed infrastructure revitalization financing districts, as specified, which are legally constituted governmental entities established for the sole purpose of financing certain types of facilities, a
+
+_(140 additional items in raw.jsonl)_
