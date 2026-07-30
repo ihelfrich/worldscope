@@ -2,37 +2,170 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-30
-record_count: 157
-new_today: 124
+record_count: 149
+new_today: 119
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-124 new of 157 total items today.
+119 new of 149 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-44545) — *2026-07-30*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 4:45AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e12c668c6970682dcb15ebe7d5341438cd9e139.001.1) — *2026-07-30*
-  > At 445 AM CDT/345 AM MDT/, Doppler radar was tracking a strong
-thunderstorm 8 miles south of Roscoe, or 11 miles southeast of
-Ogallala, moving east at 10 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 7:22AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bde225b442b1fe2db0fe4ab3642d21ec4ded9058.001.1) — *2026-07-30*
+  > At 721 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Newfolden, moving east at 45 mph.
 
 HAZARD...Wind gusts up to 40 mph and nickel size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 5:41AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d418927e420482200f008641d69f5259e17ea16e.001.1) — *2026-07-30*
-  > At 541 AM EDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Cross City to 13 miles south of Horseshoe
-Point. Movement was east at 10 mph.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hai
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-34748) — *2026-07-30*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 8:09AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b00e06752daef8e55853ada3b2cc3ddc293daf3.001.1) — *2026-07-30*
+  > At 809 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Williston Municipal Airport to 7 miles
+north of Beverly Hills. Movement was east at 15 mph.
 
-HAZARD...Wind gusts up to 40 mph.
+HAZARD...Wind gusts around 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree 
+IMPACT...Gusty winds could k
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 8:05AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d50dd6a9dbcfd6f0edd9ad294334b2f30094824.001.1) — *2026-07-30*
+  > At 805 AM EDT, Doppler radar was tracking a strong thunderstorm 9
+miles northeast of Williston, moving east at 25 mph.
+
+HAZARD...Wind gusts 40 to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations imp
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:01AM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc82c78cdc5f6c699538fa26fdb2a133cfda335e.001.1) — *2026-07-30*
+  > At 600 AM MDT, Doppler radar was tracking a strong thunderstorm near
+The Pines Rec Area, or 20 miles south of Glasgow, moving east at 20
+mph.
+
+HAZARD...Winds in excess of 30 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:48AM CDT until July 30 at 7:00PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.faf102a317227cac0828da6647dc9b1bcbdeb120.001.1) — *2026-07-30*
+  > * WHAT...Heat index values up to 110 expected.
+
+* WHERE...Portions of south central and southwest Alabama, northwest
+Florida, and southeast Mississippi.
+
+* WHEN...From 11 AM this morning to 7 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illn
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:45AM CDT until July 30 at 9:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.752c25963ee0471961848ed48e6d3b9d3aa62e63.001.1) — *2026-07-30*
+  > * WHAT...Temperatures and heat index values up to 108.
+
+* WHERE...Portions of the Panhandle of Oklahoma and the Panhandle of
+Texas.
+
+* WHEN...Until 9 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 30 at 5:41AM MDT until July 30 at 9:00AM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e491dac9446f0a2428f5d9d4387019a5c49290ce.001.1) — *2026-07-30*
+  > FFWGGW
+
+The National Weather Service in Glasgow has issued a
+
+* Flash Flood Warning for...
+Northeastern Garfield County in northeastern Montana...
+South Central Valley County in northeastern Montana...
+
+* Until 900 AM MDT.
+
+* At 541 AM MDT, Doppler radar and automated rain gauges
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 30 at 6:40AM CDT until July 30 at 8:45AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9ab9b0cd1943e06a94a767edc19c9b875a5e0c7.001.1) — *2026-07-30*
+  > SMWTAE
+
+The National Weather Service in Tallahassee has issued a
+
+* Special Marine Warning for...
+Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
+Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
+20 NM...
+Waters from Mexico Beach to Apalachicola FL
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 5:10AM MDT until July 31 at 9:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa48e15d3c63a753c1a4a45cddf52f909d5db685.001.1) — *2026-07-30*
+  > * WHAT...Temperatures of 103 to 107 for today and 105 to 109 on
+Friday.
+
+* WHERE...In New Mexico, Northern Dona Ana County, Southern Dona Ana
+County/Mesilla Valley, West Central Tularosa Basin/White Sands,
+and Southwest Desert/Mimbres Basin. In Texas, Eastern/Central El
+Paso Coun
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 6:48AM EDT until July 30 at 7:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5f97f184212a0bf676fbd40f4067407c0004a24.001.1) — *2026-07-30*
+  > * WHAT...Heat index values up to 110 degrees expected.
+
+* WHERE...Coastal McIntosh and Inland McIntosh Counties.
+
+* WHEN...From 11 AM this morning to 7 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 6:04AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d640e43243f77e627f5eeae8285d128d35298aef.001.1) — *2026-07-30*
+  > Some patchy dense fog will restrict visibilities to less than
+one-quarter of a mile across the highest elevations of NE Georgia.
+The fog should lift after 10 AM.
+
+If driving this morning, slow down, use low-beam headlights and
+leave extra distance between you and the vehicle in f
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:57AM MST until August 2 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.afde0e27118cbb5d2bb5d2a5fe68eb27b1eeef7e.001.1) — *2026-07-30*
+  > * WHAT...Dangerously hot conditions with temperatures 101 to 106 in
+Santa Cruz and Cochise Counties and 107 to 113 elsewhere. Major to
+Extreme HeatRisk is expected.
+
+* WHERE...Eastern Cochise County below 5000 feet, South Central Pinal
+County, Southeast Pinal County, Tohono O'odh
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:56AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8977028bfd88ad60f6f2bb7fe530e2336787981.001.1) — *2026-07-30*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...A portion of east central New York, including the
+following counties, Albany and Schenectady.
+
+* WHEN...Until 1015 AM EDT.
+
+* IMPACTS...Numerous roads remain closed due to flooding. It will
+take several hours fo
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:54AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f85718177f03d9415413c5754f9fb951efd18214.001.1) — *2026-07-30*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Portions of east central and eastern New York, including
+the following counties, in east central New York, Rensselaer,
+Saratoga and Schenectady. In eastern New York, Fulton and
+Montgomery.
+
+* WHEN...Until 1015 A
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:51AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79a60d22e02cd5519e6ea1aa9949dc2bc9db2286.001.1) — *2026-07-30*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...A portion of east central New York, including the
+following counties, Albany, Rensselaer, Saratoga and Schenectady.
+
+* WHEN...Until 1015 AM EDT.
+
+* IMPACTS...Numerous roads remain closed due to flooding. It will
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:48AM EDT until July 30 at 10:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5360fe66af0381092e5a128931f6fb299797922.001.1) — *2026-07-30*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...A portion of east central New York, including the
+following counties, Columbia, Greene and Ulster.
+
+* WHEN...Until 1000 AM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-pro
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:26AM PDT until August 3 at 11:00PM PDT by NWS Hanford CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3a04a6e52404bbf733c23b1828e91411acfd428.001.1) — *2026-07-30*
   > * WHAT...Dangerously hot conditions with several days of Major to
 Extreme heat risk.
@@ -78,15 +211,6 @@ offer little relief.
 * WHERE...Capitol Reef National Park and Vicinity, Glen Canyon
 Recreation Area/Lake Powell, South Central Utah, Western
 Canyonlands
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.010.1) — *2026-07-30*
-  > * WHAT...High temperatures in the mid 80s to around 90 for the mesas
-and other higher coastal terrain expected.
-
-* WHERE...San Diego County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.006.1) — *2026-07-30*
   > * WHAT...Dangerously hot conditions with high temperatures in the
 mid 90s in the western valleys to around 105 near the foothills
@@ -97,6 +221,15 @@ expected.
 * WHEN...From 10 AM Friday to 8 PM PDT Sunday.
 
 * IMPACTS...Heat related illnesses increase significan
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.010.1) — *2026-07-30*
+  > * WHAT...High temperatures in the mid 80s to around 90 for the mesas
+and other higher coastal terrain expected.
+
+* WHERE...San Diego County Coastal Areas.
+
+* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.009.1) — *2026-07-30*
   > * WHAT...High temperatures in the 90s to around 100 below 6000 feet
 expected.
@@ -106,138 +239,5 @@ expected.
 * WHEN...From 10 AM this morning to 8 PM PDT Sunday.
 
 * IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.001.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-upper 90s to 108 expected.
 
-* WHERE...San Bernardino and Riverside County Valleys-The Inland
-Empire.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.011.1) — *2026-07-30*
-  > * WHAT...High temperatures in the mid to upper 80s for higher
-coastal terrain expected.
-
-* WHERE...Orange County Coastal Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.008.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-lower to mid 90s east of Interstate 5 expected.
-
-* WHERE...Orange County Inland Areas.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.003.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s to 105 expected.
-
-* WHERE...San Diego County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.005.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with temperatures of 115 to 120
-expected.
-
-* WHERE...Coachella Valley, San Diego County Deserts, and San
-Gorgonio Pass near Banning.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantl
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.007.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-90s expected.
-
-* WHERE...Santa Ana Mountains and Foothills.
-
-* WHEN...From 10 AM Friday to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.002.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s to 105 below 7000 feet expected.
-
-* WHERE...Riverside County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat e
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 30 at 2:12AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd838439401c151aacb3e2d3be323da5d42317e4.004.1) — *2026-07-30*
-  > * WHAT...Dangerously hot conditions with temperatures of 102 to 112
-expected.
-
-* WHERE...Apple and Lucerne Valleys.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 30 at 4:10AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b83b460fcd08014bc5742cfaf2987a829478c1ca.001.1) — *2026-07-30*
-  > The combination of hot temperatures and humidity will produce heat
-index values between 105 and 111 degrees for several hours
-this afternoon and early evening. A few locations may briefly
-experience heat index values above 111 degrees.
-
-If spending time outside today, drink plent
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 30 at 4:06AM CDT until July 30 at 7:00PM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2899e01edfd3be14b493c7d4b7172f7b2757a7b0.001.1) — *2026-07-30*
-  > * WHAT...Heat index values up to 110 expected.
-
-* WHERE...Portions of southeast Louisiana and southern Mississippi.
-
-* WHEN...From 11 AM this morning to 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued July 30 at 5:01AM EDT until July 30 at 10:15AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95dd71cb90ad7123803f1027a9d83012f1139418.001.1) — *2026-07-30*
-  > * WHAT...Flooding caused by excessive rainfall continues.
-
-* WHERE...A portion of east central New York, including the
-following counties, Columbia, Greene and Rensselaer.
-
-* WHEN...Until 1015 AM EDT.
-
-* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
-and flood
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 30 at 2:00AM PDT until August 1 at 3:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5e2f1e1f3d1e59b892ae752a04eb0096e159100.002.2) — *2026-07-30*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25 kt
-with gusts up to 35 kt. For the Gale Warning, northwest winds 15
-to 30 kt with gusts up to 35 kt expected.
-
-* WHERE...Coastal Waters from Point Arena to Point Reyes
-California out to 10 NM.
-
-* WHEN...For the Small
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued July 30 at 2:00AM PDT until August 1 at 3:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5e2f1e1f3d1e59b892ae752a04eb0096e159100.001.2) — *2026-07-30*
-  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 25
-kt with gusts up to 30 kt and seas 8 to 10 ft. For the Gale
-Warning, northwest winds around 25 kt with gusts up to 35 kt
-and seas 8 to 10 ft expected.
-
-* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
-
-* WH
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 30 at 4:49AM EDT until July 30 at 6:15AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8253f28e58e091e284f6308eff9cf61e7fac6bde.001.1) — *2026-07-30*
-  > SMWTAE
-
-The National Weather Service in Tallahassee has issued a
-
-* Special Marine Warning for...
-Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20
-Nm...
-Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
-Coastal waters from  Suwannee River to Keaton 
-
-_(132 additional items in raw.jsonl)_
+_(124 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-07-30
-record_count: 25
+record_count: 24
 new_today: 10
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-10 new of 25 total items today.
+10 new of 24 total items today.
 
 - [M 5.9 - Kermadec Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tguf) — *2026-07-29*
   > M5.9 · Kermadec Islands region · depth 10 km
@@ -39,8 +39,6 @@ state: fresh
   > M5.0 · 48 km SW of Balangonan, Philippines · depth 63.992 km
 - [M 5.0 - 4 km NNE of Balangonan, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgmy) — *2026-07-29*
   > M5.0 · 4 km NNE of Balangonan, Philippines · depth 54.238 km
-- [M 5.0 - South Sandwich Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgm6) — *2026-07-29*
-  > M5.0 · South Sandwich Islands region · depth 60.675 km
 - [M 4.9 - northern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgs2) — *2026-07-29*
   > M4.9 · northern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 4.8 - 68 km SW of Mago, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgwu) — *2026-07-30*
