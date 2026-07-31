@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-07-31
-record_count: 110
-new_today: 33
+record_count: 111
+new_today: 34
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-33 new of 110 total items today.
+34 new of 111 total items today.
 
 - **NEW**  [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
@@ -17,7 +17,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VcWJIcEJpT1ZIcFROQm9XVHczcEtUanZtTm9RNVJBRE9HT0pFbEZfbnN6bEhuUFNMMEZlQ1VJSFlCX2NOT0hEaGhPVVg2SjJIQ0lzeHRBS2Jab1NxRUE?oc=5" target="_blank">Iran-related Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign
 - **NEW**  [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
-- **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
+- **NEW**  [[OFAC] Iran-related Designations; Issuance of Amended Russia-related General License and Frequently Asked Questions; Issuance of Amended Venezuela-related Frequently Asked Question; Publication of Regulatory Amendments - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YamlxNXNRTUZlZnlsVjdvbWE5WkEyT0Y5OVJNNXhiVmRQbzhxT3lvWUtoLU9rdUdsV2tXSHBKSno1UmNIQzB1eTBBbVBLSXNMdlliak8xc1NnX0FxMWc?oc=5" target="_blank">Iran-related Designations; Issuance of Amended Russia-related General License an
 - **NEW**  [[OFAC] 1239 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-24*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaLTNheHJZUWF1Q1dQODdvNFVwWnYwaWYwRHE5MHBMeEs4UFJ3NkJDdmJPSmozS1JZLWoxNFdnS0VPU1FUTnU1S0pvaw?oc=5" target="_blank">1239</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $1,701,793,005 → CENTRAL PLATEAU CLEANUP COMPANY, LLC: HANFORD CENTRAL PLATEAU CLEANUP CONTRACT - TASK ORDER 4 - EN](https://www.usaspending.gov/award/89303921FEM400037) — *2026-07-31*
   > Agency: Department of Energy.  Description: HANFORD CENTRAL PLATEAU CLEANUP CONTRACT - TASK ORDER 4 - END STATES & BASE OPS.  THIS TASK ORDER IS ISSUED AS AN UNDEFINITIZED TASK ORDER PURSUANT TO CLAUSE H.49, TASK ORDERING PROCEDURE.  NOTICE-TO-PROCEED SHALL BE EFFECTIVE ON OCTOBE
 
-_(85 additional items in raw.jsonl)_
+_(86 additional items in raw.jsonl)_

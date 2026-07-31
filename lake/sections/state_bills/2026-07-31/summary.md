@@ -2,15 +2,19 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-31
-record_count: 93
-new_today: 7
+record_count: 95
+new_today: 30
 state: fresh
 ---
 
 ## State Legislative Action
 
-7 new of 93 total items today.
+30 new of 95 total items today.
 
+- **NEW**  [[Alaska HB 78] An Act relating to the public employees' retirement system and the teachers' retirement system; and providing certain employees an opportunity to choose between the defined benefit and defined contribution plans of the public employees' retirement system and the teachers' retirement s]() — *2026-07-31*
+  > An Act relating to the public employees' retirement system and the teachers' retirement system; and providing certain employees an opportunity to choose between the defined benefit and defined contribution plans of the public employees' retirement system and the teachers' retirem
+- **NEW**  [[Alaska HB 194] An Act establishing an income tax on certain entities producing or transporting oil or gas in the state; approving and ratifying the sale of royalty oil by the State of Alaska to Marathon Petroleum Supply and Trading Company LLC.]() — *2026-07-31*
+  > An Act establishing an income tax on certain entities producing or transporting oil or gas in the state; approving and ratifying the sale of royalty oil by the State of Alaska to Marathon Petroleum Supply and Trading Company LLC.
 - **NEW**  [[Alaska HB 381] An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline Deve]() — *2026-07-31*
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline 
 - **NEW**  [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-07-31*
@@ -25,49 +29,43 @@ state: fresh
   > An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized de
 - **NEW**  [[Alaska SB 64] An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the crimes ]() — *2026-07-29*
   > An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the cr
-- [[California AB 69] FAIR Plan policy notices and renewals.]() — *2026-07-30*
-  > The California FAIR Plan Association is a joint reinsurance association in which all insurers licensed to write basic property insurance participate to administer a program for the equitable apportionment of basic property insurance for persons who are unable to obtain that cover
-- [[California ACR 126] Relative to the Captain Vidar Anderson Memorial Highway.]() — *2026-07-30*
-  > This measure would designate a specified portion of State Highway Route 395 in the County of Mono as the Captain Vidar Anderson Memorial Highway. The measure would request that the Department of Transportation determine the cost of appropriate signs showing this special designati
-- [[California SB 594] Short-Term Rental Facilitator Act of 2026.]() — *2026-07-30*
-  > Existing law, the Short-Term Rental Facilitator Act of 2025, authorizes a local agency to enact an ordinance to require a short-term rental facilitator, as defined, to report, in the form and manner prescribed by the local agency, the physical address of each short-term rental, a
-- [[California AB 1626] Interscholastic athletics: youth sports: coaches: behavioral and mental health training.]() — *2026-07-30*
-  > Existing law requires the governing board of each school district to have general control of, and be responsible for, all aspects of the interscholastic athletic policies, programs, and activities in its school district, as provided, and requires the governing board of a school d
-- [[California SB 930] Student Test Taker Privacy Protection Act: end-to-end encryption.]() — *2026-07-30*
-  > Existing law, the California Consumer Privacy Act of 2018 (CCPA) , imposes various obligations on businesses with respect to personal information, as defined. The California Privacy Rights Act of 2020, approved by the voters as Proposition 24 at the November 3, 2020, statewide ge
-- [[California SB 569] Bikeways: reversions and modifications.]() — *2026-07-30*
-  > Existing law grants the legislative body of a city certain powers with respect to city streets and highways, including the power to construct and maintain those streets and highways. Existing law grants the board of supervisors of a county general supervision, management, and con
-- [[California SB 1099] State and local public benefits.]() — *2026-07-30*
-  > Existing law establishes various public social services programs to provide eligible recipients with certain aid or health care benefits, among others. Existing law also requires each county to provide aid to its indigent residents who are not supported by other means under progr
-- [[California AB 1539] Presidential elections: qualifications for office.]() — *2026-07-30*
-  > The Twenty-Second Amendment to the United States Constitution prohibits the election of any person to the office of the President more than twice. Under existing state law, each qualified political party is required to notify the Secretary of State of the names of the party's nom
-- [[California SB 1169] Subdivision Map Act: tentative maps: expiration dates.]() — *2026-07-30*
-  > Existing law, the Subdivision Map Act, (act) vests the authority to regulate and control the design and improvement of subdivisions in the legislative body of a local agency and sets forth procedures governing the processing, approval, conditional approval or disapproval, and fil
-- [[California AB 2134] City council members: absences without permission.]() — *2026-07-30*
-  > Existing law provides that if a city council member is absent without permission from all regular city council meetings for a specified number of days from the last regular meeting they attended, their office becomes vacant and shall be filled as any other vacancy.
+- **NEW**  [[California AB 1607] Emergency medical services.]() — *2026-07-31*
+  > Existing law establishes the Maddy Emergency Medical Services (EMS) Fund and authorizes each county to establish an emergency medical services fund for reimbursement of costs related to emergency medical services. Existing law, until January 1, 2027, requires 15% of the fund to b
+- **NEW**  [[California AB 1905] Juveniles: custodial interrogation.]() — *2026-07-31*
+  > Existing law prohibits law enforcement officers from employing threats, physical harm, deception, or psychologically manipulative interrogation tactics, as specified, during a custodial interrogation of a person 17 years of age or younger.
 
-This bill wou
-- [[California SB 1223] Fairs: contracting.]() — *2026-07-30*
-  > Existing law governs fairs in this state, including the California Exposition and State Fair, district agricultural associations, county and district fairs, and citrus fruit fairs. Existing law establishes various requirements applicable to contracts of fairs.
-
-This bill would pr
-- [[California AB 1751] Missing Middle Townhome Ownership Act.]() — *2026-07-30*
-  > Existing law, the Planning and Zoning Law, contains various provisions requiring a local government that receives an application for certain types of qualified housing developments to review the application under a streamlined, ministerial approval process, depending on the type 
-- [[California AB 442] Z'berg-Nejedly Forest Practice Act of 1973: working forest management plans: nonindustrial timber management plans.]() — *2026-07-30*
-  > Under the Z'berg-Nejedly Forest Practice Act of 1973, the Legislature finds and declares the policy of the state to encourage prudent and responsible forest management of nonindustrial timberlands by approving working forest management plans in advance. This bill would increase t
-- [[California SB 1090] Planning and zoning: housing development projects: urban lot splits: subdivisions: 2025 Eaton Wildfire: Altadena.]() — *2026-07-30*
-  > Under the Planning and Zoning Law, the legislative body of a county or city may adopt ordinances that, among other things, regulate the use of buildings, structures, and land, as provided. The Subdivision Map Act vests the authority to regulate and control the design and improvem
-- [[California SB 1256] Subdivision Map Act: action or proceeding.]() — *2026-07-30*
-  > The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to prepare, or cause to be prepared, and certify the completion of an environmental impact report on a project that it proposes to carry out or approve that may have a significant effect on the en
-- [[California SB 922] Vehicles: local agency charges: use of streets or highways.]() — *2026-07-30*
-  > Existing law prohibits a local agency from imposing a tax, permit fee, or other charge for the privilege of using its streets or highways, other than a permit fee for an extralegal load unless the local agency had imposed the fee prior to June 1, 1989.
-
-This bill would explicitly
-- [[California SB 1005] Local agency: payment: rounding amount.]() — *2026-07-30*
-  > Existing law requires a public agency to accept specified methods of payment for designated obligations.
-
-This bill would authorize a local agency to round the amount of any payment made wholly or partly in cash to the local agency, or any refund or other amount tendered wholly o
-- [[California SB 1000] California AI Transparency Act.]() — *2026-07-30*
+This bill would prohibit a law enforcem
+- **NEW**  [[California AB 1886] Wards: probation.]() — *2026-07-31*
+  > Existing law subjects a minor between 12 and 17 years of age, inclusive, who violates any federal, state, or local law or ordinance, who persistently or habitually refuses to obey the reasonable and proper orders or directions of the minor's parents, guardian, or custodian, or wh
+- **NEW**  [[California SB 927] Intercountry adoption finalized in a foreign country.]() — *2026-07-31*
+  > In order to establish a record by which an adoptee can prove the facts of a foreign adoption, existing law requires a state resident who has finalized an intercountry adoption in a foreign country to file a petition to readopt within the earlier of 60 days of the adoptee's entry 
+- **NEW**  [[California SCR 108] Relative to the Deputy David Piquette Memorial Highway.]() — *2026-07-31*
+  > This measure would designate a specified portion of State Route 91 in the County of Orange as the Deputy David Piquette Memorial Highway. The measure would request that the Department of Transportation determine the cost of appropriate signs showing this special designation and, 
+- **NEW**  [[California AB 2728] Groundwater: de minimis extractors: fees: exemption.]() — *2026-07-31*
+  > Existing law authorizes a groundwater sustainability agency to impose fees, including, but not limited to, permit fees and fees on groundwater extraction or other regulated activity, to fund the costs of a groundwater sustainability program, and investigations, inspections, compl
+- [[California SB 1000] California AI Transparency Act.]() — *2026-07-31*
   > Existing law, the California AI Transparency Act, beginning August 2, 2026, generally regulates provenance data disclosure in content generated by artificial intelligence (AI) , including by requiring a covered provider to make available an AI detection tool at no cost to the use
+- **NEW**  [[California SB 799] Joint powers authorities: South Bay Regional Housing Trust.]() — *2026-07-31*
+  > Existing law authorizes the establishment of the South Bay Regional Housing Trust, a joint powers authority, by the County of Los Angeles and any or all of the cities within the jurisdiction of the South Bay Cities Council of Governments, with the stated purpose of funding housin
+- **NEW**  [[California AB 2596] Mobilehome parks: federally approved housing programs: compliance with state and local laws.]() — *2026-07-31*
+  > Existing law, the Mobilehome Residency Law, prescribes various terms and conditions of tenancies in mobilehome parks. Existing law authorizes a local agency to be responsible for the enforcement of certain requirements governing mobilehome parks.
 
-_(68 additional items in raw.jsonl)_
+This bill would specify that, in
+- **NEW**  [[California AB 1689] Juvenile courts: temporary probate guardianship.]() — *2026-07-31*
+  > Existing law establishes the jurisdiction of the juvenile court, which may adjudge children to be dependents of the court under certain circumstances, including when the child suffered or there is a substantial risk that the child will suffer serious physical harm, or a parent fa
+- **NEW**  [[California AB 1128] Mobilehome parks: rent caps.]() — *2026-07-31*
+  > Existing law, the Mobilehome Residency Law, prescribes various terms and conditions of tenancies in mobilehome parks. The law defines "mobilehome park" for these purposes to mean an area of land where 2 or more mobilehome sites are rented, or held out for rent, to accommodate mob
+- **NEW**  [[California AB 871] Mandated reporters of suspected financial abuse of an elder or dependent adult.]() — *2026-07-31*
+  > Existing law, the Elder Abuse and Dependent Adult Civil Protection Act, establishes procedures for the reporting, investigation, and prosecution of elder and dependent adult abuse. Existing law requires a mandated reporter of suspected financial abuse of an elder or dependent adu
+- **NEW**  [[California SB 918] Food facilities: retail food safety.]() — *2026-07-31*
+  > Existing law, the California Retail Food Code, establishes uniform health and sanitation standards for retail food facilities, which are primarily enforced by local public health agencies. Violation of the California Retail Food Code is a misdemeanor, except as otherwise provided
+- **NEW**  [[California AB 2125] Groundwater basin adjudication: notice.]() — *2026-07-31*
+  > Existing law requires a plaintiff who files an action to comprehensively determine rights to extract groundwater from a basin to provide the court a draft notice of commencement of groundwater basin adjudication and a draft form answer to adjudication complaint, as specified. Exi
+- **NEW**  [[California AB 2035] Common interest developments: declarations: amendments.]() — *2026-07-31*
+  > Existing law, the Davis-Stirling Common Interest Development Act, provides for the creation and regulation of common interest developments. Existing law requires that a declaration be recorded in order to create a common interest development.
+
+Existing law authorizes the associat
+- **NEW**  [[California AB 2397] Local government: community facilities districts: financing.]() — *2026-07-31*
+  > Existing law, the Mello-Roos Community Facilities Act of 1982, authorizes a local agency, as defined, to initiate proceedings to establish a community facilities district as an alternative method of financing certain public capital facilities and services, especially in developin
+
+_(70 additional items in raw.jsonl)_

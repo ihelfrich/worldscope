@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-31
-record_count: 299
-new_today: 2
+record_count: 311
+new_today: 8
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-2 new of 299 total items today.
+8 new of 311 total items today.
 
 - [[Red] Flood in China](https://www.gdacs.org/report.aspx?eventid=1104051&episodeid=3&eventtype=FL) — *2026-07-25*
   > Flood · Red alert · China · Magnitude 0
@@ -17,10 +17,10 @@ state: fresh
   > Flood · Red alert · China · Magnitude 0
 - [[Red] Flood in China](https://www.gdacs.org/report.aspx?eventid=1104051&episodeid=3&eventtype=FL) — *2026-07-25*
   > Flood · Red alert · China · Magnitude 0
-- [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=28&eventtype=WF) — *2026-07-22*
-  > Wildfire · Red alert · France · Red impact for forestfire in 47895 ha
-- [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=28&eventtype=WF) — *2026-07-22*
-  > Wildfire · Red alert · France · Red impact for forestfire in 47895 ha
+- [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=30&eventtype=WF) — *2026-07-22*
+  > Wildfire · Red alert · France · Red impact for forestfire in 47913 ha
+- [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=30&eventtype=WF) — *2026-07-22*
+  > Wildfire · Red alert · France · Red impact for forestfire in 47913 ha
 - [[Orange] Earthquake in China](https://www.gdacs.org/report.aspx?eventid=1554510&episodeid=1721184&eventtype=EQ) — *2026-07-28*
   > Earthquake · Orange alert · China · Magnitude 5.7M, Depth:10km
 - [[Orange] Earthquake in China](https://www.gdacs.org/report.aspx?eventid=1554510&episodeid=1721184&eventtype=EQ) — *2026-07-28*
@@ -62,4 +62,4 @@ state: fresh
 - [[Green] Flood in United States](https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=61&eventtype=FL) — *2026-05-19*
   > Flood · Green alert · United States · Magnitude 0
 
-_(274 additional items in raw.jsonl)_
+_(286 additional items in raw.jsonl)_

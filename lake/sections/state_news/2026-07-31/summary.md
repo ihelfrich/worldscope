@@ -2,64 +2,66 @@
 section: state_news
 title: State-Level News
 date: 2026-07-31
-record_count: 801
-new_today: 81
+record_count: 948
+new_today: 279
 state: fresh
 ---
 
 ## State-Level News
 
-81 new of 801 total items today.
+279 new of 948 total items today.
 
-- [[Alabama] Governor Ivey Proclaims Will Roberts Day in Honor of His Bravery and Inspiration to be Strong, Keep Hope and Have Faith](https://governor.alabama.gov/newsroom/2026/07/governor-ivey-proclaims-will-roberts-day-in-honor-of-his-bravery-and-inspiration-to-be-strong-keep-hope-and-have-faith/) — *2026-07-29*
-  > MONTGOMERY – Governor Kay Ivey on Wednesday issued a proclamation in honor of William “Will” Roberts, son of ALEA SBI Captain Jason Roberts and his wife Brittney. At just 15 years old, Will passed away on Thursday, July 23, following &#8230; <a href="https://governor.alabama.gov/
-- [[Alabama] Will Roberts Day](https://governor.alabama.gov/newsroom/2026/07/will-roberts-day/) — *2026-07-29*
-  > Download
+- **NEW**  [[California] California launches next phase of state cybersecurity plan as AI changes threat landscape](https://www.gov.ca.gov/2026/07/31/california-launches-next-phase-of-state-cybersecurity-plan-as-ai-changes-threat-landscape/) — *2026-07-31*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/CalSecure-2.0-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p><a href="https://www.gov.ca.gov/2026/07/31/california-launches-next-phase-of-sta
+- **NEW**  [[California] California se moviliza para proteger a las comunidades mientras el calor del verano afecta al oeste del país](https://www.gov.ca.gov/2026/07/31/california-se-moviliza-para-proteger-a-las-comunidades-mientras-el-calor-del-verano-afecta-al-oeste-del-pais/) — *2026-07-31*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-se-moviliza-para-proteger-a-las-comunidades-mientras-el-calor-del-verano-afecta-al-oeste-del-pais-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" 
+- **NEW**  [[California] California mobilizes to protect communities as summer heat builds across the West](https://www.gov.ca.gov/2026/07/31/california-mobilizes-to-protect-communities-as-summer-heat-builds-across-the-west/) — *2026-07-31*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-mobilizes-to-protect-communities-as-summer-heat-builds-across-the-West-SEO-GFX-v2-2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
+<p
+- **NEW**  [[California] Governor Newsom announces California will raise statewide minimum wage](https://www.gov.ca.gov/2026/07/31/governor-newsom-announces-california-will-raise-statewide-minimum-wage/) — *2026-07-31*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-announces-California-will-raise-statewide-minimum-wage-to-highest-in-nation-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Governor Newsom ann
 - [[California] Governor Newsom deploys elite wildfire team to Washington State as western fires surge](https://www.gov.ca.gov/2026/07/29/governor-newsom-deploys-elite-wildfire-team-to-washington-state-as-western-fires-surge/) — *2026-07-30*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-deploys-elite-wildfire-team-to-Washington-State-as-western-fires-surge-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="l
 - [[California] New court documents expose Trump administration’s political targeting of Governor Newsom](https://www.gov.ca.gov/2026/07/29/new-court-documents-expose-trump-administrations-political-targeting-of-governor-newsom/) — *2026-07-29*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/New-court-documents-expose-Trump-administrations-political-targeting-of-Governor-Newsom-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Graphic featuring a 
 - [[California] California accelerates and modernizes state hiring process, saving thousands of hours of staff time](https://www.gov.ca.gov/2026/07/29/california-accelerates-and-modernizes-state-hiring-process-saving-thousands-of-hours-of-staff-time/) — *2026-07-29*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-accelerates-and-modernizes-state-hiring-process-saving-thousands-of-hours-of-staff-time-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Graphic feat
+- **NEW**  [[California] Why federal court struck down Trump’s mass detention policy](https://calmatters.org/newsletter/mass-detention-9th-circuit/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072026-Otay-Mesa-GB-AP-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view of the back of a person standing in a
+- **NEW**  [[California] David Valadao lost in the last anti-Trump blue wave. Will farmers help him win this time?](https://calmatters.org/politics/2026/07/central-valley-congressional-race-agriculture-concerns/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/030626-David-Valadao-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man in a gray suit and coral tie sits beh
+- **NEW**  [[California] This embattled consumer agency went 2 years without a director. Newsom finally appointed one](https://calmatters.org/investigation/2026/07/california-pfb-director-newsom/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072926-PFB-MG-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A graphic combines part of the California state seal 
+- **NEW**  [[California] A California university is cutting ties with the Border Patrol after student outcry](https://calmatters.org/education/2026/07/uc-san-diego-homeland-security-border-patrol-students-protest/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020426_UCSD-Police_AH_003.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
+- **NEW**  [[California] California needs to preserve clean air and public oversight. Why Prop. 45 must be stopped](https://calmatters.org/commentary/2026/07/proposition-45-environment-health-protections/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/02/022124-Chevron-Richmond-LE-CM-14.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The Chevron refinery in Richmond is loca
+- **NEW**  [[California] How California voters can reform misused environmental law to boost needed projects](https://calmatters.org/commentary/2026/07/proposition-45-housing-environmental-reform/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/07/053124-Bakersfield-Rural-Homelessness-LV_06.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction workers building
+- **NEW**  [[California] Is this proposition a $4 billion giveaway to a billionaire-backed LA research center?](https://calmatters.org/politics/elections/2026/07/proposition-38-california/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071326-UC-Irvine-LO-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a blue jacket, wearing a medi
+- **NEW**  [[California] Two cities burned in LA fires settle YIMBY lawsuit](https://calmatters.org/housing/2026/07/yimby-sb9-malibu-pasadena/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/061726-Eaton-Fire-Rebuild-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows several houses un
+- **NEW**  [[California] Watch: CalMatters’ 2nd Ideas Festival gathers elected leaders, community members, students, educators and more](https://calmatters.org/inside-the-newsroom/2026/07/calmatters-ideas-festival-2026/) — *2026-07-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/052126-IdeasFest-FG-14-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A wide view of a crowd of people sitting and li
+- [[California] Court: Trump’s immigrant mass detention policy contradicts 30 years of precedent](https://calmatters.org/justice/2026/07/9th-circuit-mass-detention/) — *2026-07-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/03/022026_Padilla-Otay-Mesa_AH_08_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large detention facility complex sits
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-31*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
 - [[Alaska] Governor Dunleavy Announces Creation of Alaska Military Affairs Office](https://gov.alaska.gov/governor-dunleavy-announces-creation-of-alaska-military-affairs-office/) — *2026-07-30*
   > Strengthens National Defense, Military Partnerships, and Economic Opportunity Today Governor Mike Dunleavy joins Major General Torrence Saxe to announce the establishment of the Alaska Military Affairs Office (AMAO) within the Alaska Department of Military and Veterans Affairs (D
 - [[Alaska] Alaska National Guard Day 2026](https://gov.alaska.gov/alaska-national-guard-day-2026/) — *2026-07-30*
   > WHEREAS, since before World War II, the Alaska National Guard has acted as a first line of defense for the United States of America; and WHEREAS, the Alaska National Guard serves our Nation when called by federal service, and Alaska National Guard members stand ready to serve the
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-07-31*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- [[California] Watch: CalMatters’ 2nd Ideas Festival gathers elected leaders, community members, students, educators and more](https://calmatters.org/inside-the-newsroom/awards-and-announcements/2026/07/calmatters-ideas-festival-2026/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/052126-IdeasFest-FG-14-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A wide view of a crowd of people sitting and li
-- [[California] Court: Trump’s immigrant mass detention policy contradicts 30 years of precedent](https://calmatters.org/justice/2026/07/9th-circuit-mass-detention/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/03/022026_Padilla-Otay-Mesa_AH_08_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large detention facility complex sits
-- [[California] What happened when CA lawmaker tried to put mom in conservatorship](https://calmatters.org/newsletter/california-conservatorship-assemblymember/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/052826-Assembly-Session-MG-CM-12.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A lawmaker wearing glasses and a tan bla
-- [[California] Lawmaker told court her mom had dementia in family property battle. Not so, said doctors](https://calmatters.org/investigation/2026/07/farias-assembly-conservatorship-2/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072226-CONSERVATORSHIP-PT-3-GH-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Photo illustration of Assemblymember An
-- [[California] Oakland families affected most by UCSF decision to move pediatric care across the Bay](https://calmatters.org/commentary/2026/07/pediatric-care-moves-oakland-ucsf/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/070926-UCSF-Childrens-Hospital-BANG-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="People gather outside UCSF Beni
-- [[California] LA fire survivors say Newsom is trying to help utilities reduce their wildfire costs again](https://calmatters.org/economy/2026/07/wildfire-liability-battle/) — *2026-07-30*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/031926-Eaton-Fire-Rebuild-GETTY-CM.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction workers stand on the roof
-- [[California] California fire season has been quiet. A heat wave could change that fast](https://calmatters.org/environment/wildfires/2026/07/dove-fire-heat-wildfires-california/) — *2026-07-29*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072926-Dove-Fire-Cal-Fire-Cal-FIre-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view of two fire trucks parkin
-- [[California] Un juez envió a un médico a evaluar el centro de detención de ICE más grande de California. Esto fue lo que encontró](https://calmatters.org/calmatters-en-espanol/2026/07/centro-detencion-ice-california-reporte/) — *2026-07-29*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/012026-California-City-Immigration-Processing-Center-AP-CM-04.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A security 
-- [[California] Sindicato alega que Kaiser utilizó un algoritmo, y no médicos, para evaluar   pacientes con problemas de salud mental](https://calmatters.org/calmatters-en-espanol/2026/07/sindicato-alega-kaiser-algoritmo-pacientes-salud-mental/) — *2026-07-29*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/121224-Kaiser-JAH-CM-23.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Mental health care workers march outside a Kaiser
-- [[California] Why confide in AI? Teens open up on why they trust chatbots](https://calmatters.org/newsletter/teens-artificial-intelligence-confiding/) — *2026-07-29*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072826-Teens-and-AI-Phones-IS-CM.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A teenager sits on outdoor steps looking
-- **NEW**  [[Connecticut] After losing SNAP benefits, some CT refugees are struggling to afford food](https://ctmirror.org/2026/07/31/ct-refugees-snap-food-assistance/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/REFUGEE-SNAP-072226-JL-017-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-co
-- **NEW**  [[Connecticut] A CT sheep farmer’s view from the solar field](https://ctmirror.org/2026/07/31/a-sheep-farmers-view-from-the-solar-field/) — *2026-07-31*
-  > <figure><img width="1024" height="736" src="https://ctmirror.org/wp-content/uploads/2026/07/Hillview-Farm-Natalie-Cohen-1024x736.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
-- **NEW**  [[Connecticut] Before you vote, learn Duverger’s Law](https://ctmirror.org/2026/07/31/before-you-vote-learn-duvergers-law-robert-t-f/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/ap-gore-bush-nader-ballot.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
-- [[Connecticut] Nearly 18,900 CT children have lost SNAP benefits over past year](https://ctmirror.org/2026/07/30/nearly-18900-ct-children-have-lost-snap-benefits-over-past-year/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2025/12/AP25336728008267-1024x682.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
-- [[Connecticut] Insurance companies propose higher rates on CT health plans](https://ctmirror.org/2026/07/30/insurance-companies-propose-higher-rates-on-ct-health-plans/) — *2026-07-30*
-  > <figure><img width="1024" height="671" src="https://ctmirror.org/wp-content/uploads/2026/01/AP133679160837-1024x671.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026
-- [[Connecticut] DeLauro: CT providers’ federal grants represent “amazing victory”](https://ctmirror.org/2026/07/30/ct-federal-grants-bridges-bhcare-delauro/) — *2026-07-30*
-  > <figure><img width="683" height="1024" src="https://ctmirror.org/wp-content/uploads/2025/01/2025_0128_SR_GrantPauseConference560-683x1024.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/w
-- [[Connecticut] Thank you, Hartford, for letting me teach. Now save your public schools](https://ctmirror.org/2026/07/30/thank-you-hartford-for-letting-me-teach-now-save-your-public-schools/) — *2026-07-30*
-  > <figure><img width="1024" height="681" src="https://ctmirror.org/wp-content/uploads/2026/07/teachers-demonstrate-hartford-1024x681.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
+- **NEW**  [[Delaware] Corporate law giants pour nearly $1M into campaign ad blitz for Democratic incumbents](https://spotlightdelaware.org/2026/07/31/corporate-law-giants-pour-nearly-1m-into-campaign-ad-blitz-for-democratic-incumbents/) — *2026-07-31*
+  > <figure><img width="1024" height="777" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Alliance-PAC.jpg?fit=1024%2C777&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https
+- **NEW**  [[Delaware] Photo Gallery: Sights from the Delaware State Fair](https://spotlightdelaware.org/2026/07/31/photo-gallery-sights-from-the-delaware-state-fair/) — *2026-07-31*
+  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Gallery_15_Kegelman-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
+- **NEW**  [[Delaware] Georgetown reconsiders controversial tiny homes ordinance amid resident pushback](https://spotlightdelaware.org/2026/07/31/georgetown-reconsiders-controversial-tiny-homes-ordinance-amid-resident-pushback/) — *2026-07-31*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/LittleLiving1.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0
+- [[Delaware] ‘Insidious’: Sussex County says new affordable housing law could trample transparency](https://spotlightdelaware.org/2026/07/30/insidious-sussex-county-continues-to-denounce-new-affordable-housing-law/) — *2026-07-30*
+  > <figure><img width="739" height="493" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Sussex-subdivision-web-1.jpg?fit=739%2C493&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="h
+- [[Delaware] New dollars for school construction could push forward delayed projects](https://spotlightdelaware.org/2026/07/30/new-state-dollars-to-school-construction-could-alleviate-project-backlogs/) — *2026-07-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Georgetown-school-construction.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" s
 
-_(776 additional items in raw.jsonl)_
+_(923 additional items in raw.jsonl)_
