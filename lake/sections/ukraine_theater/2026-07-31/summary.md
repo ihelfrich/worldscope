@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-07-31
 record_count: 729
-new_today: 346
+new_today: 347
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-346 new of 729 total items today.
+347 new of 729 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-07-31*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -19,6 +19,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOSHlpRHA4MUZfUzBqcXotVlJicm9La25PLXdSMm9RNFBpYUJNY3l3eHlHSXIyN1NYYS1kM3NOdzZLVU9uMzJxdVR4NWVkNl8tM2xPVUVoY1RxbTF2M2dUeUpNeU9lZ3pTVTVqNFdwbGpPbzlRWGpobHZ5aWZsODJIZGpDVzdGMFZTc2VhVnh0a2ZkMmsxYnZ1UGRn?oc=5" target="_blank"
 - **NEW**  [[Liveuamap] US Central Command: Our forces and Saudi armed forces conducted precision strikes in Iraq against Iranian proxies. US and Saudi fighter jets launched raids targeting logistics sites and weapons depots in eastern Iraq Basra Governorate, Iraq](https://iraq.liveuamap.com) — *2026-07-29*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPOUVtTDVYbWxZNmJTYXpKWm5IQVBKX2dRZW5xM0szM2lyYVp4bG5fbTE4ZTNjajl6YjA5UjZfS3cwSmpDb2MtQU9OcDJHQ1QyNUtkMXc5VGR0Vkh5dnpNN3JWWU10VFZ1a3h4NElCUGMydFlGZUVIWG13VVp2YjVLRFl4dFhjOWFfNmRkVTdBNFZNcEU0YUE?oc=5" target="_blank">US C
+- **NEW**  [[Liveuamap] Ukrainian Air Force: Several waves of Kh-101 cruise missile launches from strategic aircraft: Tu-95MS and Tu-160 - Liveuamap](https://liveuamap.com) — *2026-07-31*
+  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXl6eGFRWGtkTmJDcmsyaHA1OFY0eGlMdDFqR3R2b3ZVUk1TYnRGNGREQ3hzXzIyQVpPY0JRY3JxSGhyek82NkZGTS0zRnJVR1BTRVlTYUVmbzdjU0VzTHM3VG1oMFdiZ21YLWJqZ0ltYUdhNmxGSjQ5bVl4eG9sa1B4UkNvR0daUi0wbWw1bl8ycW0y?oc=5" target="_blank">Ukraini
 - **NEW**  [[Liveuamap] Interactive map of Yemen war - Yemen news live map- yemen.liveuamap.com - Liveuamap](https://yemen.liveuamap.com) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE5LRjlBSWZaam5wd1ZUbTlHak5HbU50eDBnQlN5Z2I3UTJGTHhRTHRQSnZEeHNNZmRpSFUwWXQ4a2w2UQ?oc=5" target="_blank">Interactive map of Yemen war - Yemen news live map- yemen.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuama
 - **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2026-07-29*
@@ -33,8 +35,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFJZbWtxeV9xclppa2RxN21kbEtndkJCMUMyZnY2MS1wOXlMWDc4OGVEaHlvdzA3dndNZUJrSlU3TTQ2dk5HYldHdHRRdENsS0xoZTY0QS1FT2ZwMURFeWdzM1pYVDVJUUloY3lWaVNNcEQzWGUxRTNwX0JfTmJmUEw3NTRkOTBGT3R1OG5ncDEwNzZrb2c?oc=5" target="_blank">Fire
 - **NEW**  [[Liveuamap] FPV drone targeted a car in Kushugum village of Zaporizhzhia region - Liveuamap](https://liveuamap.com) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQdG1xRUExbHc3YjNKSnAyV3BwaUZ1bkgxQ1I2X3dOQWhLalpOTWxvV0ZaSG5ZWEhMU25saEJqRjVMNVRzaVZHVk91VTQ1SUhqZW82QkRTa2N1Y3NHNDJPZHZRZUN6S3E3a0Z2Z3IxNmE0dGVqRTNFUmdXSzNIVmlLTDEyOFF3aGw2MzQ4bnF3VW9KZw?oc=5" target="_blank">FPV drone
-- **NEW**  [[Liveuamap] Explosions were reported near Lviv L&039;viv, Lviv Oblast - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-07-30*
-  > <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVRzT0NvbjRybzl5TzM2bDB2RnVicXh6NkhwaFRHZG4zM3k5TmhwRWJpTENPV0xrR0lKMFZnUTlhLXR4dU1FbkNxSUphRzhGUS1HRnNJdE5JZGh4Q19LSUlXUWtKY1pETWNYTHlvMFd4bXNhSGtjNzhxRlhwX1RtZg?oc=5" target="_blank">Explosions were reported near Lvi
 - **NEW**  [[Liveuamap] NOTAM: FAA issues warning for increased military activity within and adjacent to Bahrain FIR, pilots advised to exercise caution over international waters, maintain continuous listening watch on ATC frequencies. Effective through Oct 27 Gul](https://iran.liveuamap.com) — *2026-07-27*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnVOUEExQ09vZ3NTYmdtVUI5SWE5U3pxYWxIQ0xvdkpqNjZ5al9QNGlYU1N5dkl3eDE1NC1iRXlnc0lhcmFjcS1ib0duN2J4aEpyVTAzRndwRTBZMmJ6aDFJdzZpU05nR0lCVFVNTmp6dUJjN3RLQ3UwNzh2Z3IzNjR0Ui1Vb2hFLVV2dTFhMzNOU3NYRjNUUA?oc=5" target="_blank">N
 - **NEW**  [[Liveuamap] Tokayev, at a meeting with Putin, proposed freezing the war in Ukraine. The meeting of the presidents of Kazakhstan and Russia is taking place in Omsk, Russia. Tokayev stressed that his country has always respected the Ukrainian people, the](https://liveuamap.com) — *2026-07-25*

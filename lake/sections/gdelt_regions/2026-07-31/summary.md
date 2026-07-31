@@ -2,27 +2,15 @@
 section: gdelt_regions
 title: World News (by country, top stories)
 date: 2026-07-31
-record_count: 12
-new_today: 12
+record_count: 6
+new_today: 6
 state: fresh
 ---
 
 ## World News (by country, top stories)
 
-12 new of 12 total items today.
+6 new of 6 total items today.
 
-- **NEW**  [[China] North Korea Needs China and Russia – But Doesnt Want Its People Admiring Them – The Diplomat](https://thediplomat.com/2026/07/north-korea-needs-china-and-russia-but-doesnt-want-its-people-admiring-them/) — *2026-07-31*
-  > thediplomat.com · English
-- **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/31/WS6a6c5e78a310986e2b46867d.html) — *2026-07-31*
-  > chinadaily.com.cn · English
-- **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/31/WS6a6c2fb8a310986e2b4685c0.html) — *2026-07-31*
-  > chinadaily.com.cn · English
-- **NEW**  [[China] Why the Bangsamoro Peace Process Still Depends on Trust](https://thediplomat.com/2026/07/why-the-bangsamoro-peace-process-still-depends-on-trust/) — *2026-07-31*
-  > thediplomat.com · English
-- **NEW**  [[China] Singapore private car population falls to lowest since 2019 , as rental car numbers hit record high – Asia News Network](https://asianews.network/singapores-private-car-population-falls-to-lowest-since-2019-as-rental-car-numbers-hit-record-high/) — *2026-07-31*
-  > asianews.network · English
-- **NEW**  [[China] China Daily Website - Connecting China Connecting the World](http://www.chinadaily.com.cn/www.chinadaily.com.cn/a/202607/31/WS6a6c5f41a310986e2b468685.html) — *2026-07-31*
-  > chinadaily.com.cn · English
 - **NEW**  [[Japan] Video Game News , Reviews , Walkthroughs And Guides | GamingBolt](https://gamingbolt.com/page/6111) — *2026-07-31*
   > gamingbolt.com · English
 - **NEW**  [[Japan] TOPIA 14 : Shibuya Indie Music Night | Ruby Room](https://metropolisjapan.com/events/topia-14-shibuya-indie-music-ruby-room/) — *2026-07-31*

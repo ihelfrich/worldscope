@@ -2,16 +2,42 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-31
-record_count: 162
-new_today: 129
+record_count: 161
+new_today: 128
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-129 new of 162 total items today.
+128 new of 161 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-20530) — *2026-07-31*
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued July 31 at 2:43AM PDT until August 1 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7210f91fa76258ea094c29bfc5e17c809dd29af.001.1) — *2026-07-31*
+  > ...WINDY AND BREEZY WITH CRITICAL RELATIVE HUMIDITY SATURDAY...
+
+.Windy conditions will develop with overlapping low relative
+humidity values Saturday across the Columbia Basin, Eastern
+Mountains, and Central Oregon.
+
+* AFFECTED AREA...Fire Weather Zones 691 Lower Columbia Basin 
+- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued July 31 at 2:40AM PDT until August 1 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89eb79de7e3f9096376bf1d2de1a73243c1d6ea7.001.1) — *2026-07-31*
+  > * WHAT...West winds 25 to 35 mph with gusts up to 50 mph expected.
+
+* WHERE...Kittitas Valley.
+
+* WHEN...From 11 AM to 11 PM PDT Saturday.
+
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and a few power outages may result.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 3:38AM MDT until July 31 at 8:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57cc8392c42c7407eff99c7e5f0e1d83d148844e.001.1) — *2026-07-31*
+  > * WHAT...Temperatures of 100 to 105 expected with the hottest
+readings found in the Rio Grande valley near Socorro.
+
+* WHERE...Middle Rio Grande Valley including the Albuquerque Metro
+Area, Northwest Plateau, Lower Rio Grande Valley, and Chaves County
+Plains.
+
+* WHEN...From noon 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-36092) — *2026-07-31*
   > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 4:25AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08beaa40acb4297cb4374ce2266de3dd2c1f9be7.001.1) — *2026-07-31*
   > At 425 AM CDT, Doppler radar was tracking a cluster of strong
@@ -127,25 +153,6 @@ expected.
 * WHEN...From 10 AM this morning to 8 PM PDT Sunday.
 
 * IMPACTS...Heat related illnesses increase sign
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 2:04AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.011.1) — *2026-07-31*
-  > * WHAT...High temperatures in the mid 80s to lower 90s for higher
-coastal terrain expected.
-
-* WHERE...Orange County Coastal Areas.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 2:04AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.008.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-90s east of Interstate 5 expected.
-
-* WHERE...Orange County Inland Areas.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 2:04AM PDT until August 3 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.001.1) — *2026-07-31*
   > * WHAT...Dangerously hot conditions with high temperatures of 115 to
 120 expected.
@@ -167,6 +174,15 @@ mid 90s to 105 expected.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 2:04AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.011.1) — *2026-07-31*
+  > * WHAT...High temperatures in the mid 80s to lower 90s for higher
+coastal terrain expected.
+
+* WHERE...Orange County Coastal Areas.
+
+* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 2:04AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.005.1) — *2026-07-31*
   > * WHAT...Dangerously hot conditions with temperatures of 100 to 112
 expected.
@@ -174,6 +190,16 @@ expected.
 * WHERE...Apple and Lucerne Valleys.
 
 * WHEN...Until 8 PM PDT Sunday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 2:04AM PDT until August 2 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d71af9d04cd2f3588a3ef89038c2d5772079909.008.1) — *2026-07-31*
+  > * WHAT...Dangerously hot conditions with high temperatures in the
+90s east of Interstate 5 expected.
+
+* WHERE...Orange County Inland Areas.
+
+* WHEN...From 10 AM this morning to 8 PM PDT Sunday.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat events.
@@ -212,34 +238,5 @@ developed across eastern New York and western New England this
 morning. There could be locally dense fog as well through these
 early morning hours, especially for river valley locations. Fog
 should begin to diminish once t
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 3:28AM CDT until July 31 at 7:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63a0d3586f33a26d8427f67dbe8034a4ed2f56bd.001.1) — *2026-07-31*
-  > * WHAT...Heat index values 105-110 expected.
 
-* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
-central and south Mississippi.
-
-* WHEN...From 10 AM this morning to 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat related
-illne
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 2:15AM MDT until August 2 at 9:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cec4ced170b4083879a4609d52da0ed5515aff1.001.1) — *2026-07-31*
-  > * WHAT...Temperatures of 99 to 105 expected.
-
-* WHERE...Greeley and the Urban Corridor, including Fort Collins,
-Boulder, and the Denver metro.
-
-* WHEN...12 PM to 9 PM Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illness.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued July 31 at 2:54AM CDT until July 31 at 8:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13f91bd0e143db3d6b2d8026d78348500b02011d.001.1) — *2026-07-31*
-  > * WHAT...Heat index values up to 110.
-
-* WHERE...Portions of North and East Texas.
-
-* WHEN...Until 8 PM CDT Friday.
-
-* IMPACTS...Hot temperatures and high humidity will increase the
-risk for heat-related illnesses to occur, particularly for
-those working or participating in outdo
-
-_(137 additional items in raw.jsonl)_
+_(136 additional items in raw.jsonl)_

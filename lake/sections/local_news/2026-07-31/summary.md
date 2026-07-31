@@ -2,45 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-31
-record_count: 243
-new_today: 121
+record_count: 244
+new_today: 122
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-121 new of 243 total items today.
+122 new of 244 total items today.
 
-- **NEW**  [[St. Louis] Where in St Charles 7/31/2026](https://www.stlmag.com/games/where-in-st-charles-07326/) — *2026-07-31*
-  > <p>Let&#8217;s see how well you know St. Charles. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the ans
-- **NEW**  [[St. Louis] What’s True in the Lou? – 7/31/2026](https://www.stlmag.com/games/whats-true-in-the-lou-073126/) — *2026-07-31*
-  > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
-- [[St. Louis] Photos: St. Louis Supper Club at Great Heart Brewing Co.](https://www.stlmag.com/dining/photos-st-louis-supper-club-july-2026/) — *2026-07-30*
-  > <p>On July 28, 2026, St. Louis Magazine&#160;hosted our fifth St. Louis Supper Club, presented by ReeceNichols. The secret location: Great Heart Brewing Co.&#160;SLM&#160;dining editors&#160;George Mahe&#160;and&#160;Cheryl Baehr&#160;carefully selected this location as it perfec
-- [[St. Louis] How Nicky Slices founder Nick Williams turned an Instagram pizza side hustle into one of St. Louis’ hottest pizzerias](https://www.stlmag.com/dining/how-nicky-slices-founder-nick-williams-turned-an-instagram-pizza-side-hustle-into-one-of-st-louis-hottest-pizzerias/) — *2026-07-30*
-  > <p>In the dark and uncertain days of mid-2020, Nick Williams created a phenomenon that gave people a little slice of joy when it was in short supply in the form of his Instagram-based take-and-bake pizza business, Nicky Slices. Now, not quite a year after opening the concept as a
-- [[St. Louis] A St. Louisan’s guide to the August 2026 ballot issues](https://www.stlmag.com/news/missouri-ballot-issues-august-2026/) — *2026-07-30*
-  > <p>St. Louisans who head to the polls on or before the August 4 primary election will be treated to a ballot-measure bonanza. The issues below are, to us, the most consequential.&#160; AMENDMENT 1 What it would do: Renew for another 10 years the tiny sliver of the state sales tax
-- [[St. Louis] Great Rivers Greenway will unveil plans for more than 60 artworks along the Brickline Greenway at CAM Art Party](https://www.stlmag.com/culture/great-rivers-greenway-hosts-art-party-at-cam-to-unveil-plans-for-more-than-60-artworks-along-the-brickline-greenway/) — *2026-07-30*
-  > <p>Great Rivers Greenway is currently constructing the Brickline Greenway, which, once completed, will connect 14 neighborhoods and four parks. One of the project’s most significant features is the Northern Connector, a two-mile section between Fairground Park and the Grand Cente
-- [[St. Louis] Film screenings to catch this month](https://www.stlmag.com/culture/film-screenings-to-catch-this-month/) — *2026-07-30*
-  > <p>As we continue through the true doldrums of Missouri summertime, local theaters have plenty of excellent reasons to stay inside with their repertory programming. The Hi-Pointe Theatre has you covered with masterpieces across eras and genres; Arkadin Cinema &#38; Bar hits the w
-- [[St. Louis] Shock poll shows Zimmerman on top in county executive race](https://www.stlmag.com/news/shock-poll-zimmerman-williams/) — *2026-07-30*
-  > <p>A poll taken of St. Louis County voters this month shows County Assessor Jake Zimmerman with a nine point lead over state Senator Brian Williams (D-University City) in the Democratic primary race for county executive—a shock in a race where Williams has been perceived as the f
-- [[St. Louis] The Cardinals’ Tarps Off section: reviewed!](https://www.stlmag.com/news/sports/cardinals-tarps-off-reviewed/) — *2026-07-30*
-  > <p>One in an occasional series of irreverent reviews designed to help people navigate St. Louis in all its quirky glory. It’s no secret that attendance at Cardinals games is way down, and while the internet has no shortage of theories as to why, I can only tell you definitively w
-- [[St. Louis] Rung for Women boasts major salary gains for St. Louis women](https://www.stlmag.com/news/rung-for-women-salary-gains/) — *2026-07-30*
-  > <p>On a beat like economic mobility, few data points are more eye-catching than a local nonprofit—one seeking to uplift women in St. Louis, specifically—saying that graduates of its programming are making tens of thousands more dollars each year, on average, than before their par
-- **NEW**  [[St. Louis] Former pandemic-era health chief to return as St. Louis health director](https://www.stlpr.org/health-science-environment/2026-07-30/former-pandemic-era-health-chief-return-as-st-louis-health-director) — *2026-07-31*
-- [[St. Louis] Illinois to send $400 food relief payments to thousands of families in August](https://www.stlpr.org/news-briefs/2026-07-30/illinois-400-food-relief-payments-august) — *2026-07-30*
-- [[St. Louis] St. Louis board allows data center near Armory to move forward with new rules](https://www.stlpr.org/health-science-environment/2026-07-30/st-louis-board-allows-data-center-near-armory-to-move-forward-with-new-rules) — *2026-07-30*
-- [[St. Louis] Two years after Supreme Court decision, unhoused Missourians face the bulldozer](https://www.stlpr.org/government-politics-issues/2026-07-30/camping-bans-unhoused-missouri) — *2026-07-30*
-- [[St. Louis] Voters to decide the fate of Missouri’s income tax Tuesday — here’s what it would mean](https://www.stlpr.org/government-politics-issues/2026-07-30/missouris-income-tax-amendment-5) — *2026-07-30*
-- [[St. Louis] Kelly wants to fight legalization of video gaming machines if she wins Rolla Senate seat](https://www.stlpr.org/podcast/politically-speaking/2026-07-30/kelly-fight-legalization-video-gaming-machines-rolla-senate-seat) — *2026-07-30*
-- [[St. Louis] Hazelwood, Wentzville schools ask voters to approve ballot items to fill budget holes, build schools](https://www.stlpr.org/education/2026-07-30/hazelwood-wentzville-schools-ask-voters-approve-ballot-items-to-fill-budget-holes-build-schools) — *2026-07-30*
-- [[St. Louis] St. Louis County health officials ask patients for help in cyclospora parasite investigations](https://www.stlpr.org/health-science-environment/2026-07-29/st-louis-county-heath-officials-ask-patients-for-help-cyclospora-parasite-investigations) — *2026-07-29*
-- [[St. Louis] Missouri Gov. Kehoe requests federal disaster declaration following July floods](https://www.stlpr.org/news-briefs/2026-07-29/missouri-gov-kehoe-requests-federal-disaster-declaration-july-floods) — *2026-07-29*
-- [[St. Louis] Lazy gardeners rejoice! St. Louis bees love messy city yards](https://www.stlpr.org/health-science-environment/2026-07-29/st-louis-bees-messy-yards) — *2026-07-29*
 - **NEW**  [[St. Louis] Anthropic says its AI models hacked 3 organizations during testing](https://www.ksdk.com/article/news/nation-world/anthropic-associated-press-ai-models-san-francisco/507-df30bbc7-abb4-41eb-b623-d2a4116e6df2) — *2026-07-31*
   > The AI company behind Claude, posted on its website Thursday that it discovered the three incidents after reviewing more than 141,000 evaluation runs.
 - **NEW**  [[St. Louis] Death toll from Japan earthquake climbs to 34 as rescuers search damaged mall again](https://www.ksdk.com/article/news/nation-world/japan-kumamoto-earthquake-disaster-mall/507-38a0a64e-9023-4463-990c-6bb3492900d4) — *2026-07-31*
@@ -51,5 +21,45 @@ state: fresh
   > The home went viral after hitting the market with a warning most listings don't carry: no showings, no inspections and an occupant who says she isn't leaving.
 - [[St. Louis] Trump says he may pull Blanche's attorney general nomination until dissenting senators leave office](https://www.ksdk.com/article/news/nation-world/trump-todd-blanche-nomination-attorney-general-may-be-pulled/507-57920193-65fe-49b8-aa66-8c3ccd718c22) — *2026-07-31*
   > Trump doubled down Thursday on choosing his former personal lawyer as the nation’s top lawman, calling him “a STAR."
+- **NEW**  [[St. Louis] Missouri’s Amendment 4 sparks a battle over the power of the citizen ballot initiative](https://www.ksdk.com/article/news/local/missouris-amendment-4-sparks-battle-over-the-power-of-the-citizen-ballot-initiative/63-74978fe9-fb19-4c67-a1de-63a4776a4ca2) — *2026-07-31*
+  > Missourians face a pivotal decision on Amendment 4, which seeks to tighten the rules for citizen-led constitutional changes.
+- [[St. Louis] Ferguson police make arrest in fatal gas station shooting of mother in front of her children](https://www.ksdk.com/article/news/crime/police-arrest-man-accused-killing-woman-front-her-children-ferguson-gas-station/63-5ce11737-94eb-4a79-b377-e3d73ff44e6c) — *2026-07-31*
+  > Families of two separate murder victims attend crime prevention forum in Florissant
+- **NEW**  [[St. Louis] Fountain Park neighbors protest tornado repair delays and outcomes](https://www.ksdk.com/article/news/local/fountain-park-neighbors-protest-tornado-repair-delays-and-outcomes/63-66c2fcf4-cab3-422f-b539-a3499a121d16) — *2026-07-31*
+  > Residents report shabby contractor work as city officials cite learning curves in the recovery program.
+- [[St. Louis] Man charged in murder of teen at McDonald's in Cahokia Heights; remains at large](https://www.ksdk.com/article/news/local/man-charged-in-murder-of-teen-at-mcdonalds-in-cahokia-heights-remains-at-large/63-817bdc16-5bd3-42e9-8a2f-58ae7d08fe43) — *2026-07-31*
+  > Prosecutors charged 20-year-old Cleveland J. Ware  with first-degree murder, aggravated discharge of a firearm and aggravated unlawful use of a weapon.
+- **NEW**  [[St. Louis] Marvel's Disney+ series 'Wonder Man' canceled despite Season 2 renewal](https://www.ksdk.com/article/news/nation-world/marvel-disney-series-wonder-man-canceled-despite-season-2-renewal/507-b604f50d-fa51-4b80-819f-ef693bf28ef7) — *2026-07-31*
+  > Disney announced the Season 2 renewal in March, an unusual move, since nearly all of Marvel's live-action series have run for a single season.
+- **NEW**  [[St. Louis] SWAT member's helmet struck by gunfire during exchange with barricaded suspect in Lincoln County](https://www.ksdk.com/article/news/local/swat-members-helmet-struck-by-gunfire-during-exchange-with-barricaded-suspect-in-lincoln-county/63-64008f23-3355-46ed-92b0-c9570f526f97) — *2026-07-31*
+  > The Missouri State Highway Patrol shared photos of the damaged helmet Thursday.
+- **NEW**  [[St. Louis] Trump announces a deal for Hamas to disarm in Gaza, but many hurdles and uncertainty remain](https://www.ksdk.com/article/news/nation-world/israel-hamas-conflict/trump-announces-deal-hamas-disarm-gaza/507-e8dcfc29-132e-4ba2-a6eb-f8578d018ee6) — *2026-07-31*
+  > The White House announcement comes nine months after a U.S.-brokered ceasefire was signed.
+- **NEW**  [[St. Louis] Ohio animal shelter helps disabled kitten with DIY wheelchair that rolls on Hot Wheels](https://www.ksdk.com/article/news/nation-world/cincinnati-shelter-kitten-homemade-wheelchair-hot-wheels/507-811ffc9b-62e1-419f-bac5-35d578bf5071) — *2026-07-31*
+  > A Cincinnati shelter kitten, too small for standard mobility devices, got a homemade wheelchair built from rulers, zip ties and Hot Wheels cars.
+- [[St. Louis] Traffic Safety Town Hall aims to address speeding, reckless driving in north St. Louis County](https://www.ksdk.com/article/news/traffic-safety-town-hall-aims-to-address-speeding-reckless-driving-in-north-st-louis-county/63-88659134-e07e-45bd-a016-75bbff01a1f6) — *2026-07-30*
+  > Residents are invited to the Traffic Safety Town Hall Thursday at 6:30 p.m. at Parkview Library.
+- **NEW**  [[St. Louis] St. Louis board upholds Armory data center permit; SLU sound expert says low-frequency noise can't be blocked](https://www.ksdk.com/article/news/local/st-louis-board-upholds-armory-data-center-permit-slu-sound-expert-says-low-frequency-noise-cant-be-blocked/63-c8e4b5a6-8836-48a0-a006-b2df746f9a97) — *2026-07-30*
+  > The Board of Adjustment upheld the Armory data center permit after 8 hours of testimony. An SLU sound expert says the noise concerns go far beyond decibels.
+- [[St. Louis] Attorney for Nolan Wells' family says experts to review a boat distress call from day he disappeared](https://www.ksdk.com/article/news/nation-world/nolan-wells-experts-to-review-boat-distress-call-from-day-he-disappeared/507-f64cc4af-0383-4e4c-ace4-eb3c1068d4eb) — *2026-07-30*
+  > The call has sparked online speculation and defamation claims amid the investigation into the death of the 18-year-old.
+- [[St. Louis] St. Louis mom heading out to buy diapers was kidnapped and killed in a 'frenzied execution'; 4 years later, charges filed](https://www.ksdk.com/article/news/crime/mom-heading-out-to-buy-diapers-kidnapped-killed-frenzied-execution-charges-filed/63-50048b7f-1376-4dbd-90f0-5397f95349a4) — *2026-07-30*
+  > "The victim was shot multiple times in what can be best described as a frenzied execution," an officer wrote in court documents.
+- [[St. Louis] 2 contractors shoot each other in south St. Louis; one dies at hospital](https://www.ksdk.com/article/news/crime/contractors-shoot-each-other-in-south-st-louis-after-argument/63-a4f72efb-c62e-411d-a64c-83a85369b4aa) — *2026-07-30*
+  > Two contractors got into an argument at a house on Juniata Street and shot each other, police said. One died at the hospital and the other is in serious condition.
+- [[St. Louis] Dunkin' brings back Iced Beverage Buckets and debuts new cup holder accessory](https://www.ksdk.com/article/news/nation-world/dunkin-iced-beverage-buckets-new-cup-holder-accessory/507-9d01f2ad-0ca9-42a5-9caa-29c71a9436bf) — *2026-07-30*
+  > Iced Bucket Beverages are almost back, and this time, Dunkin' customers will have an easier way to transport them.
+- [[St. Louis] St. Louis board denies appeal to conditional use permit for Armory-adjacent data center](https://www.ksdk.com/article/news/local/st-louis-board-denies-appeal-conditional-use-permit-armory-adjacent-data-center/63-e9bc6e1a-41e4-439c-af0f-9dc88008a7e5) — *2026-07-30*
+  > The Board of Adjustment voted to uphold the Board of Public Service’s decision to grant a conditional use permit for a proposed 120-megawatt data center.
+- [[St. Louis] Former St. Louis County health director lands same job with City of St. Louis](https://www.ksdk.com/article/news/local/former-st-louis-county-health-director-lands-same-job-with-city-of-st-louis/63-1a21b31e-d052-4cdc-8678-dcb77a88dd2a) — *2026-07-30*
+  > Khan resigned from the St. Louis County role after flipping off a person at a St. Louis County Council meeting in 2021.
+- [[St. Louis] Minor arrested in connection with fatal Alton shooting, woman charged with obstruction](https://www.ksdk.com/article/news/crime/juvenile-arrested-fatal-alton-shooting-woman-obstruction/63-1b6e7cb7-4864-4ce9-a9f5-f7550a118eb1) — *2026-07-30*
+  > Police said the minor was arrested in connection with the fatal July 24 shooting of 21-year-old Terrance R. Johnson.
+- [[St. Louis] Parents and teachers may see sticker shock for some school supplies this year](https://www.ksdk.com/article/news/nation-world/back-to-school-supplies-sticker-shock-parents-teachers/507-7daef061-1a23-41ec-b029-cce6d96d906d) — *2026-07-30*
+  > The cost of going back to school this year may be higher amid tariffs and rising gas prices.
+- [[St. Louis] Clydesdale named 'Captain' joins St. Louis police as department looks to strengthen mounted patrol](https://www.ksdk.com/article/news/local/st-louis-clydesdale-joins-police-department-mounted-patrol/63-b5268c3c-dcb5-4a18-be11-a24193c8791a) — *2026-07-30*
+  > The new Clydesdale will also help with community engagement, according to police.
+- [[St. Louis] New FCC rule bans foreign-made robot devices, including robot vacuum cleaners](https://www.ksdk.com/article/news/nation-world/fcc-ban-robot-devices-roombas-vacuums/507-54aa2f7d-9f70-4877-91cf-ea07fb338fd0) — *2026-07-30*
+  > The FCC's definition for foreign-made robotic devices could include a wide range of robotic devices, from vacuums to delivery robots to robotic lawnmowers.
 
-_(218 additional items in raw.jsonl)_
+_(219 additional items in raw.jsonl)_

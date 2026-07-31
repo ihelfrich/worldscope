@@ -41,4 +41,4 @@ state: fresh
    evidence: [lake:political_figures:0001140361-2], [lake:political_figures:0001140361-2]
 10. **Tom Cole** (Representative, Republican, OK-4th): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:gkg-20260731], [lake:political_figures:gkg-20260728], [lake:political_figures:0001266824-2], [lake:political_figures:0001266824-2]
+   evidence: [lake:political_figures:gkg-20260728], [lake:political_figures:0001266824-2], [lake:political_figures:0001266824-2]
