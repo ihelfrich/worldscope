@@ -2,25 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-07-31
-record_count: 276
-new_today: 245
+record_count: 282
+new_today: 265
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-245 new of 276 total items today.
+265 new of 282 total items today.
 
-- **NEW**  [[St. Louis] Why St. Louis is poised to lead a ragtime renaissance](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-31/st-louis-ragtime-initiative-rendezvous-music) — *2026-07-31*
-- **NEW**  [[St. Louis] Madison County Board Chairman Slusser defends Fauci hanging post as 'rhetorical hyperbole'](https://www.stlpr.org/government-politics-issues/2026-07-31/madison-county-chairman-slusser-defends-fauci-post) — *2026-07-31*
-- **NEW**  [[St. Louis] Making it harder to amend the Missouri Constitution is facing strong pushback](https://www.stlpr.org/government-politics-issues/2026-07-31/amend-missouri-constitution-strong-pushback) — *2026-07-31*
-- **NEW**  [[St. Louis] Aldermanic committee calls on St. Louis Public Schools to delay vote for school closures](https://www.stlpr.org/education/2026-07-31/aldermanic-committee-calls-st-louis-public-schools-to-delay-vote-school-closures) — *2026-07-31*
-- **NEW**  [[St. Louis] Former pandemic-era health chief to return as St. Louis health director](https://www.stlpr.org/health-science-environment/2026-07-30/former-pandemic-era-health-chief-return-as-st-louis-health-director) — *2026-07-31*
-- [[St. Louis] Illinois to send $400 food relief payments to thousands of families in August](https://www.stlpr.org/news-briefs/2026-07-30/illinois-400-food-relief-payments-august) — *2026-07-30*
-- [[St. Louis] St. Louis board allows data center near Armory to move forward with new rules](https://www.stlpr.org/health-science-environment/2026-07-30/st-louis-board-allows-data-center-near-armory-to-move-forward-with-new-rules) — *2026-07-30*
-- [[St. Louis] Voters to decide the fate of Missouri’s income tax Tuesday — here’s what it would mean](https://www.stlpr.org/government-politics-issues/2026-07-30/missouris-income-tax-amendment-5) — *2026-07-30*
-- [[St. Louis] Kelly wants to fight legalization of video gaming machines if she wins Rolla Senate seat](https://www.stlpr.org/podcast/politically-speaking/2026-07-30/kelly-fight-legalization-video-gaming-machines-rolla-senate-seat) — *2026-07-30*
-- [[St. Louis] Hazelwood, Wentzville schools ask voters to approve ballot items to fill budget holes, build schools](https://www.stlpr.org/education/2026-07-30/hazelwood-wentzville-schools-ask-voters-approve-ballot-items-to-fill-budget-holes-build-schools) — *2026-07-30*
 - **NEW**  [[St. Louis] Meet the Metro East preschooler whose love of lawn care became an internet sensation](https://www.stlmag.com/family/grant-wymer-toddler-of-the-year/) — *2026-07-31*
   > <p>A landscaper pulls into the parking lot, unloads a zero-turn mower, and starts trimming the grass. Most preschoolers barely notice. Grant Wymer doesn&#8217;t miss a thing. He studies every movement, watches every turn of the steering wheel, and asks question after question abo
 - **NEW**  [[St. Louis] The St. Louis beer lover’s guide to American pales ales and IPAs](https://www.stlmag.com/dining/st-louis-beer-lovers-guide-american-pale-ales-and-ipas/) — *2026-07-31*
@@ -41,15 +31,25 @@ state: fresh
   > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
 - [[St. Louis] Photos: St. Louis Supper Club at Great Heart Brewing Co.](https://www.stlmag.com/dining/photos-st-louis-supper-club-july-2026/) — *2026-07-30*
   > <p>On July 28, 2026, St. Louis Magazine hosted our fifth St. Louis Supper Club, presented by ReeceNichols. The secret location: Great Heart Brewing Co. SLM dining editors George Mahe and Cheryl Baehr carefully selected this location as it perfectly captures the “discovery” spirit
-- **NEW**  [[St. Louis] Bonne Terre museum of space seeks to relocate, eyes St. Charles](https://www.stltoday.com/news/multimedia/image_8a2bd54f-e899-548a-804b-d2aa725b9591.html) — *2026-07-31*
-  > Pat Pierce of Farmington stops at exhibit of the Apollo space program at the Space Museum and Grissom Center on Friday, July 31, 2026, in Bonne Terre. The museum dedicated to the history of space exploration has outgrown its space,…
-- **NEW**  [[St. Louis] Bonne Terre museum of space seeks to relocate, eyes St. Charles](https://www.stltoday.com/news/multimedia/image_52edda7e-c442-5809-a62f-beb2d41e30d3.html) — *2026-07-31*
-  > Eli Towers, 8, of Fenton browses exhibits in the Space Museum and Grissom Center on Friday, July 31, 2026, in Bonne Terre. The museum dedicated to the history of space exploration has outgrown its space, according to Earl Mullins, its…
-- **NEW**  [[St. Louis] Florissant to pay $4 million to victims after cop stole nude photos](https://www.stltoday.com/news/local/crime-courts/article_710980ce-3a98-43d0-9d7e-2f90656255b6.html) — *2026-07-31*
-  > The City of Florissant and a former officer reached a $4 million settlement with 24 victims who said the cop stole nude photos from them during traffic stops.
-- **NEW**  [[St. Louis] Bonne Terre museum of space seeks to relocate, eyes St. Charles](https://www.stltoday.com/news/multimedia/image_a2075b8a-af48-5ac1-8353-1e6892d90489.html) — *2026-07-31*
-  > Visitors browse exhibits in the Space Museum and Grissom Center exhibit room on Friday, July 31, 2026, in Bonne Terre. The museum dedicated to the history of space exploration has outgrown its space, according to Earl Mullins, its founder and…
-- **NEW**  [[St. Louis] Bonne Terre museum of space seeks to relocate, eyes St. Charles](https://www.stltoday.com/news/multimedia/image_dcf25bd5-1e11-5ac7-b162-1b989f0ab1b0.html) — *2026-07-31*
-  > Pat Pierce of Farmington passes and exhibit of an actual space suit as she browses the Space Museum and Grissom Center on Friday, July 31, 2026, in Bonne Terre. The museum dedicated to the history of space exploration has outgrown…
+- **NEW**  [[St. Louis] Illinois Prisoner Review Board denies early release for Sean Grayson](https://www.stlpr.org/law-order/2026-07-31/illinois-prisoner-board-denies-sean-grayson) — *2026-07-31*
+- **NEW**  [[St. Louis] Why St. Louis is poised to lead a ragtime renaissance](https://www.stlpr.org/show/st-louis-on-the-air/2026-07-31/st-louis-ragtime-initiative-rendezvous-music) — *2026-07-31*
+- **NEW**  [[St. Louis] Madison County Board Chairman Slusser defends Fauci hanging post as 'rhetorical hyperbole'](https://www.stlpr.org/government-politics-issues/2026-07-31/madison-county-chairman-slusser-defends-fauci-post) — *2026-07-31*
+- **NEW**  [[St. Louis] Making it harder to amend the Missouri Constitution is facing strong pushback](https://www.stlpr.org/government-politics-issues/2026-07-31/amend-missouri-constitution-strong-pushback) — *2026-07-31*
+- **NEW**  [[St. Louis] Aldermanic committee calls on St. Louis Public Schools to delay vote for school closures](https://www.stlpr.org/education/2026-07-31/aldermanic-committee-calls-st-louis-public-schools-to-delay-vote-school-closures) — *2026-07-31*
+- **NEW**  [[St. Louis] Former pandemic-era health chief to return as St. Louis health director](https://www.stlpr.org/health-science-environment/2026-07-30/former-pandemic-era-health-chief-return-as-st-louis-health-director) — *2026-07-31*
+- [[St. Louis] Illinois to send $400 food relief payments to thousands of families in August](https://www.stlpr.org/news-briefs/2026-07-30/illinois-400-food-relief-payments-august) — *2026-07-30*
+- [[St. Louis] St. Louis board allows data center near Armory to move forward with new rules](https://www.stlpr.org/health-science-environment/2026-07-30/st-louis-board-allows-data-center-near-armory-to-move-forward-with-new-rules) — *2026-07-30*
+- [[St. Louis] Voters to decide the fate of Missouri’s income tax Tuesday — here’s what it would mean](https://www.stlpr.org/government-politics-issues/2026-07-30/missouris-income-tax-amendment-5) — *2026-07-30*
+- [[St. Louis] Kelly wants to fight legalization of video gaming machines if she wins Rolla Senate seat](https://www.stlpr.org/podcast/politically-speaking/2026-07-30/kelly-fight-legalization-video-gaming-machines-rolla-senate-seat) — *2026-07-30*
+- **NEW**  [[St. Louis] Police release copies of Nancy Guthrie ransom notes](https://www.stltoday.com/news/nation-world/crime-courts/article_b2ae3003-2c94-5b3e-8749-8a69eb4cd7b5.html) — *2026-07-31*
+  > The Pima County Sheriff’s Department on Friday released copies of two ransom notes in the Nancy Guthrie disappearance case.
+- **NEW**  [[St. Louis] Rocket Classic](https://www.stltoday.com/image_93aa1515-e1e0-577b-ae97-50dd80423023.html) — *2026-07-31*
+  > Cameron Young of the United States plays his tee shot on the ninth hole during the second round of the Rocket Classic on Friday at the Detroit Country Club.
+- **NEW**  [[St. Louis] GOLF/](https://www.stltoday.com/image_c72cb253-f680-5876-a071-b1c2a29b7f74.html) — *2026-07-31*
+  > Rickie Fowler plays his shot from the ninth tee during the second round of the Rocket Classic on Friday at the Detroit Country Club.
+- **NEW**  [[St. Louis] US says contractor caused Reflecting Pool damage](https://www.stltoday.com/news/nation-world/crime-courts/article_763ac9e9-8238-5acb-9087-b44ae5b9e999.html) — *2026-07-31*
+  > The Justice Department moved to drop its case against former U.S. Olympian David “Davey” Hearn, who was accused of vandalizing the landmark, a court filing showed.
+- **NEW**  [[St. Louis] USA-TRUMP/REFLECTING POOL](https://www.stltoday.com/image_f1396f85-afea-5751-8e57-a5b5192010f2.html) — *2026-07-31*
+  > Visitors to the Lincoln Memorial walk near the drained Reflecting Pool on Thursday in Washington.
 
-_(251 additional items in raw.jsonl)_
+_(257 additional items in raw.jsonl)_

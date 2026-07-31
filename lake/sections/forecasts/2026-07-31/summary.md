@@ -3,51 +3,51 @@ section: forecasts
 title: Prediction Markets — most-traded (Polymarket)
 date: 2026-07-31
 record_count: 20
-new_today: 13
+new_today: 12
 state: fresh
 ---
 
 ## Prediction Markets — most-traded (Polymarket)
 
-13 new of 20 total items today.
+12 new of 20 total items today.
 
-- **NEW**  [Counter-Strike: paiN vs Astralis (BO3) - BLAST Bounty Playoffs](https://polymarket.com/event/cs2-pain-ast10-2026-07-30) — *2026-07-31*
-  > yes price: 0% · 24h volume: $1,896,053 · resolves 2026-07-31
-- [Will Adanech Abiebie be the next Prime Minister of Ethiopia?](https://polymarket.com/event/will-adanech-abiebie-be-the-next-prime-minister-of-ethiopia) — *2026-07-31*
-  > yes price: 0% · 24h volume: $1,332,271 · resolves 2026-06-01
-- **NEW**  [Counter-Strike: paiN vs Astralis - Map 2 Winner](https://polymarket.com/event/cs2-pain-ast10-2026-07-30-game2) — *2026-07-31*
-  > yes price: 0% · 24h volume: $1,096,683 · resolves 2026-07-31
-- **NEW**  [New York Yankees vs. Chicago Cubs](https://polymarket.com/event/mlb-nyy-chc-2026-07-31) — *2026-07-31*
-  > yes price: 88% · 24h volume: $1,016,464 · resolves 2026-08-07
-- **NEW**  [Dota 2: Xtreme Gaming vs LGD Gaming - Game 1 Winner](https://polymarket.com/event/dota2-xtreme-lgd-2026-07-31-game1) — *2026-07-31*
-  > yes price: 100% · 24h volume: $868,159 · resolves 2026-07-31
-- **NEW**  [Mubadala Citi DC Open: Alex de Minaur vs Brandon Nakashima](https://polymarket.com/event/atp-minaur-nakashi-2026-07-31) — *2026-07-31*
-  > yes price: 0% · 24h volume: $841,204 · resolves 2026-08-07
-- **NEW**  [LoL: Movistar KOI vs Shifters - Game 1 Winner](https://polymarket.com/event/lol-mkoi-shft-2026-07-31-game1) — *2026-07-31*
-  > yes price: 0% · 24h volume: $786,753 · resolves 2026-07-31
-- **NEW**  [LoL: Movistar KOI vs Shifters (BO3) - LEC Regular Season](https://polymarket.com/event/lol-mkoi-shft-2026-07-31) — *2026-07-31*
-  > yes price: 100% · 24h volume: $767,135 · resolves 2026-07-31
-- [Will Donald Trump publicly insult Vladimir Putin by July 31, 2026?](https://polymarket.com/event/will-donald-trump-publicly-insult-vladimir-putin-by-july-31-2026-20260626210612715) — *2026-07-31*
-  > yes price: 1% · 24h volume: $711,411 · resolves 2026-07-31
 - [U.S. anti-cartel operation outside of the U.S. by July 31?](https://polymarket.com/event/uptspt-anti-cartel-operation-outside-of-the-uptspt-by-july-31-20260616215440524) — *2026-07-31*
-  > yes price: 1% · 24h volume: $707,819 · resolves 2026-07-31
-- [Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586) — *2026-07-31*
-  > yes price: 2% · 24h volume: $704,078 · resolves 2026-09-16
-- [Will NVIDIA be the largest company in the world by market cap on July 31?](https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841) — *2026-07-31*
-  > yes price: 100% · 24h volume: $693,836 · resolves 2026-07-31
-- [Will Apple be the largest company in the world by market cap on July 31?](https://polymarket.com/event/will-apple-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329843) — *2026-07-31*
-  > yes price: 0% · 24h volume: $686,165 · resolves 2026-07-31
+  > yes price: 1% · 24h volume: $845,417 · resolves 2026-07-31
 - **NEW**  [Will Hamas agree to disarm by December 31?](https://polymarket.com/event/will-hamas-agree-to-disarm-by-december-31) — *2026-07-31*
-  > yes price: 62% · 24h volume: $633,811 · resolves 2026-12-31
-- **NEW**  [Will FC Barcelona win on 2026-07-31?](https://polymarket.com/event/clf-bc-bar-2026-07-31-bar) — *2026-07-31*
-  > yes price: 22% · 24h volume: $614,817 · resolves 2026-07-31
-- **NEW**  [LoL: Movistar KOI vs Shifters - Game 2 Winner](https://polymarket.com/event/lol-mkoi-shft-2026-07-31-game2) — *2026-07-31*
-  > yes price: 100% · 24h volume: $575,395 · resolves 2026-07-31
-- **NEW**  [Dota 2: BetBoom Team vs Team Liquid - Game 2 Winner](https://polymarket.com/event/dota2-bb4-liquid-2026-07-31-game2) — *2026-07-31*
-  > yes price: 0% · 24h volume: $547,071 · resolves 2026-07-31
+  > yes price: 66% · 24h volume: $805,100 · resolves 2026-12-31
+- [Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586) — *2026-07-31*
+  > yes price: 2% · 24h volume: $768,282 · resolves 2026-09-16
 - [US x Iran Effective Ceasefire by July 31?](https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045) — *2026-07-31*
-  > yes price: 10% · 24h volume: $503,288 · resolves 2026-07-31
-- **NEW**  [Valorant: BBL Esports vs Gentle Mates (BO3) - VCT EMEA Group Alpha](https://polymarket.com/event/val-bbl1-gm-2026-07-31) — *2026-07-31*
-  > yes price: 100% · 24h volume: $373,168 · resolves 2026-07-31
-- **NEW**  [Mubadala Citi DC Open: Elisabetta Cocciaretto vs Naomi Osaka](https://polymarket.com/event/wta-cocciar-osaka-2026-07-31) — *2026-07-31*
-  > yes price: 3% · 24h volume: $359,646 · resolves 2026-08-07
+  > yes price: 8% · 24h volume: $673,912 · resolves 2026-07-31
+- **NEW**  [Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?](https://polymarket.com/event/will-wti-reach-90-in-july-2026-from-july-27) — *2026-07-31*
+  > yes price: 0% · 24h volume: $542,827 · resolves 2026-08-01
+- [Will the U.S. invade Iran before 2027?](https://polymarket.com/event/will-the-us-invade-iran-before-2027) — *2026-07-31*
+  > yes price: 24% · 24h volume: $522,614 · resolves 2026-12-31
+- **NEW**  [Israel x Iran ceasefire continues through July 31?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243) — *2026-07-31*
+  > yes price: 100% · 24h volume: $475,636 · resolves 2026-07-31
+- **NEW**  [Pittsburgh Pirates vs. Cincinnati Reds](https://polymarket.com/event/mlb-pit-cin-2026-07-31) — *2026-07-31*
+  > yes price: 36% · 24h volume: $414,131 · resolves 2026-08-07
+- [Will the Fed increase interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649) — *2026-07-31*
+  > yes price: 60% · 24h volume: $344,385 · resolves 2026-09-16
+- **NEW**  [Israel x Iran ceasefire continues through August 2?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149) — *2026-07-31*
+  > yes price: 78% · 24h volume: $313,358 · resolves 2026-08-02
+- **NEW**  [Kharg Island no longer under Iranian control by July 31?](https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-july-31) — *2026-07-31*
+  > yes price: 0% · 24h volume: $301,731 · resolves 2026-06-30
+- **NEW**  [Philadelphia Phillies vs. Baltimore Orioles: O/U 8.5](https://polymarket.com/event/mlb-phi-bal-2026-07-31-total-8pt5) — *2026-07-31*
+  > yes price: 78% · 24h volume: $288,957 · resolves 2026-07-31
+- **NEW**  [Will Bitcoin dip to $60,000 in July?](https://polymarket.com/event/will-bitcoin-dip-to-60000-in-july-20260706151220612-754) — *2026-07-31*
+  > yes price: 1% · 24h volume: $256,788 · resolves 2026-08-01
+- **NEW**  [Iran leadership change by August 31?](https://polymarket.com/event/iran-leadership-change-by-august-31-669) — *2026-07-31*
+  > yes price: 5% · 24h volume: $254,264 · resolves 2026-08-31
+- **NEW**  [Will Bitcoin reach $67,500 in July?](https://polymarket.com/event/will-bitcoin-reach-67pt5k-in-july-2026) — *2026-07-31*
+  > yes price: 0% · 24h volume: $236,381 · resolves 2026-08-01
+- [Will there be no change in Fed interest rates after the September 2026 meeting?](https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615) — *2026-07-31*
+  > yes price: 38% · 24h volume: $235,313 · resolves 2026-09-16
+- **NEW**  [Detroit Tigers vs. Athletics](https://polymarket.com/event/mlb-det-oak-2026-07-31) — *2026-07-31*
+  > yes price: 56% · 24h volume: $233,903 · resolves 2026-08-08
+- [Strait of Hormuz traffic returns to normal by July 31?](https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-31) — *2026-07-31*
+  > yes price: 0% · 24h volume: $228,956 · resolves 2026-07-31
+- [Will Adanech Abiebie be the next Prime Minister of Ethiopia?](https://polymarket.com/event/will-adanech-abiebie-be-the-next-prime-minister-of-ethiopia) — *2026-07-31*
+  > yes price: 0% · 24h volume: $227,571 · resolves 2026-06-01
+- **NEW**  [The Memphis Classic: Elvina Kalieva vs Peyton Stearns](https://polymarket.com/event/wta-kalieva-stearns-2026-07-31) — *2026-07-31*
+  > yes price: 100% · 24h volume: $223,417 · resolves 2026-08-07

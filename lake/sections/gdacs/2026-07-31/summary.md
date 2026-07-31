@@ -3,13 +3,13 @@ section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-07-31
 record_count: 311
-new_today: 8
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## GDACS — global disaster alerts
 
-8 new of 311 total items today.
+0 new of 311 total items today.
 
 - [[Red] Flood in China](https://www.gdacs.org/report.aspx?eventid=1104051&episodeid=3&eventtype=FL) — *2026-07-25*
   > Flood · Red alert · China · Magnitude 0

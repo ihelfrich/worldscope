@@ -2,15 +2,25 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-07-31
-record_count: 95
-new_today: 30
+record_count: 152
+new_today: 86
 state: fresh
 ---
 
 ## State Legislative Action
 
-30 new of 95 total items today.
+86 new of 152 total items today.
 
+- **NEW**  [[Alaska HB 222] An Act relating to workplace violence protective orders; relating to attorney fees; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of ]() — *2026-07-31*
+  > An Act relating to workplace violence protective orders; relating to attorney fees; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules
+- **NEW**  [[Alaska HJR 31] Proposing amendments to the Constitution of the State of Alaska relating to whose rights are protected under the Constitution and prohibiting corporate contributions and expenditures in state and local elections.]() — *2026-07-31*
+  > Proposing amendments to the Constitution of the State of Alaska relating to whose rights are protected under the Constitution and prohibiting corporate contributions and expenditures in state and local elections.
+- **NEW**  [[Alaska HJR 43] Affirming the Alaska State Legislature's commitment to voter privacy, election integrity, and the right to vote; expressing concern regarding disclosure of confidential voter information to the United States Department of Justice; and urging action to protect voters in the state.]() — *2026-07-31*
+  > Affirming the Alaska State Legislature's commitment to voter privacy, election integrity, and the right to vote; expressing concern regarding disclosure of confidential voter information to the United States Department of Justice; and urging action to protect voters in the state.
+- **NEW**  [[Alaska HB 298] An Act relating to the Legislative Ethics Act; relating to legislative subpoenas; relating to the jurisdiction of the office of the ombudsman; and providing for an effective date.]() — *2026-07-31*
+  > An Act relating to the Legislative Ethics Act; relating to legislative subpoenas; relating to the jurisdiction of the office of the ombudsman; and providing for an effective date.
+- **NEW**  [[Alaska HB 211] An Act relating to prepaid legal plans.]() — *2026-07-31*
+  > An Act relating to prepaid legal plans.
 - **NEW**  [[Alaska HB 78] An Act relating to the public employees' retirement system and the teachers' retirement system; and providing certain employees an opportunity to choose between the defined benefit and defined contribution plans of the public employees' retirement system and the teachers' retirement s]() — *2026-07-31*
   > An Act relating to the public employees' retirement system and the teachers' retirement system; and providing certain employees an opportunity to choose between the defined benefit and defined contribution plans of the public employees' retirement system and the teachers' retirem
 - **NEW**  [[Alaska HB 194] An Act establishing an income tax on certain entities producing or transporting oil or gas in the state; approving and ratifying the sale of royalty oil by the State of Alaska to Marathon Petroleum Supply and Trading Company LLC.]() — *2026-07-31*
@@ -55,17 +65,5 @@ This bill would specify that, in
   > Existing law establishes the jurisdiction of the juvenile court, which may adjudge children to be dependents of the court under certain circumstances, including when the child suffered or there is a substantial risk that the child will suffer serious physical harm, or a parent fa
 - **NEW**  [[California AB 1128] Mobilehome parks: rent caps.]() — *2026-07-31*
   > Existing law, the Mobilehome Residency Law, prescribes various terms and conditions of tenancies in mobilehome parks. The law defines "mobilehome park" for these purposes to mean an area of land where 2 or more mobilehome sites are rented, or held out for rent, to accommodate mob
-- **NEW**  [[California AB 871] Mandated reporters of suspected financial abuse of an elder or dependent adult.]() — *2026-07-31*
-  > Existing law, the Elder Abuse and Dependent Adult Civil Protection Act, establishes procedures for the reporting, investigation, and prosecution of elder and dependent adult abuse. Existing law requires a mandated reporter of suspected financial abuse of an elder or dependent adu
-- **NEW**  [[California SB 918] Food facilities: retail food safety.]() — *2026-07-31*
-  > Existing law, the California Retail Food Code, establishes uniform health and sanitation standards for retail food facilities, which are primarily enforced by local public health agencies. Violation of the California Retail Food Code is a misdemeanor, except as otherwise provided
-- **NEW**  [[California AB 2125] Groundwater basin adjudication: notice.]() — *2026-07-31*
-  > Existing law requires a plaintiff who files an action to comprehensively determine rights to extract groundwater from a basin to provide the court a draft notice of commencement of groundwater basin adjudication and a draft form answer to adjudication complaint, as specified. Exi
-- **NEW**  [[California AB 2035] Common interest developments: declarations: amendments.]() — *2026-07-31*
-  > Existing law, the Davis-Stirling Common Interest Development Act, provides for the creation and regulation of common interest developments. Existing law requires that a declaration be recorded in order to create a common interest development.
 
-Existing law authorizes the associat
-- **NEW**  [[California AB 2397] Local government: community facilities districts: financing.]() — *2026-07-31*
-  > Existing law, the Mello-Roos Community Facilities Act of 1982, authorizes a local agency, as defined, to initiate proceedings to establish a community facilities district as an alternative method of financing certain public capital facilities and services, especially in developin
-
-_(70 additional items in raw.jsonl)_
+_(127 additional items in raw.jsonl)_

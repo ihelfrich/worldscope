@@ -3,24 +3,24 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-07-31
 record_count: 57
-new_today: 39
+new_today: 41
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-39 new of 57 total items today.
+41 new of 57 total items today.
 
+- **NEW**  [[BleepingComputer] Amgen says cloud data breach exposed patient health, proprietary info](https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/) — *2026-07-31*
+  > Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
+- **NEW**  [[BleepingComputer] Arch Linux disables AUR package adoption to stop malware flood](https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/) — *2026-07-31*
+  > The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]
+- **NEW**  [[BleepingComputer] Online ad firm Adform’s script compromised to steal cryptocurrency](https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/) — *2026-07-31*
+  > Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
 - **NEW**  [[BleepingComputer] OpenAI says its new GPT 5.6 models are becoming more cost-efficient](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/) — *2026-07-31*
   > OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]
 - **NEW**  [[BleepingComputer] Hacker uses DeepSeek AI to autonomously attack vulnerable servers](https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/) — *2026-07-31*
   > A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]
-- **NEW**  [[BleepingComputer] CISA warns of cyberattacks disrupting U.S. water utilities](https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/) — *2026-07-31*
-  > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]
-- **NEW**  [[BleepingComputer] ESET tracks rise in malicious AI skills and adaptable malware](https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/) — *2026-07-31*
-  > Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to d
-- **NEW**  [[BleepingComputer] Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests](https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/) — *2026-07-31*
-  > One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]
 - **NEW**  [[The Hacker News] Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html) — *2026-07-31*
   > A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
 
@@ -49,12 +49,19 @@ Both versions were released last month. In its latest patch for Chrome 151, r
   > Finland stopped power transmissions with Russia at the start of the war in Ukraine, and two related telecom connections will stop at the end of this year, authorities said.
 - **NEW**  [[Cybersecurity Dive] Anthropic says human error let Claude AI models escape test environment and hack third parties](https://www.cybersecuritydive.com/news/anthropic-claude-ai-hacking-test/826708/) — *2026-07-31*
   > The company said its discovery, which followed OpenAI&rsquo;s similar admission, proved the need for better testing guardrails.
+- **NEW**  [[Cybersecurity Dive] US authorities see ‘significant escalation’ in attacks on water system devices](https://www.cybersecuritydive.com/news/us-authorities-escalation-attacks-water-system-devices/826715/) — *2026-07-31*
+  > Hackers have locked operators out of their own OT networks, modified passwords and changed IP addresses.
+- **NEW**  [[Schneier on Security] Friday Squid Blogging: Squid Helps Discover New Marine Species](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html) — *2026-07-31*
+  > The Squid is a new scientific machine:
+One of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. &#8220;That opens up a whole new world 
 - **NEW**  [[Schneier on Security] Anthropic’s Opus 5 Is Better at Resisting Prompt Injection](https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html) — *2026-07-31*
   > The chart is interesting.
 On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it t
 - **NEW**  [[Schneier on Security] Facial Recognition at Madison Square Garden](https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html) — *2026-07-31*
   > Last month, the story broke (alternate link) that Madison Square Garden uses facial recognition software on everyone entering the facility, and&#8212;among other groups&#8212;flags activists that oppose using facial recognition.
 Turns out that the system was shut off for Taylor S
+- **NEW**  [[The Register] Dev who gave HashiCorp its name returns with a faster terminal multiplexer](https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970) — *2026-07-31*
+  > Persistent sessions could be just the beginning
 - **NEW**  [[The Register] The most famous brand in physical security got pwned by ShinyHunters](https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924) — *2026-07-31*
   > Hopefully the company secures houses better than it locks down SaaS systems
 - **NEW**  [[The Register] US bank places trust in ransomware crew that promised to delete its data](https://www.theregister.com/cyber-crime/2026/07/31/us-bank-places-trust-in-ransomware-crew-that-promised-to-delete-its-data/5281888) — *2026-07-31*
@@ -63,13 +70,7 @@ Turns out that the system was shut off for Taylor S
   > Whoever wins, we lose
 - **NEW**  [[The Register] Update Teams mobile app by October or lose your calendar](https://www.theregister.com/software/2026/07/31/update-teams-mobile-app-by-october-or-lose-your-calendar/5281773) — *2026-07-31*
   > A nice little summer job for someone
-- **NEW**  [[The Register] Charities remain locked out of CAF Bank online accounts](https://www.theregister.com/security/2026/07/31/charities-remain-locked-out-of-caf-bank-online-accounts/5281711) — *2026-07-31*
-  > A week into shutdown, 14,000 customers still have no restoration date and some are struggling to pay staff
-- **NEW**  [[Ars Technica] High school defends staying silent while boys made AI nudes of 59 classmates](https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/) — *2026-07-31*
-  > Gaps in laws may help Pennsylvania high school escape AI nudes scandal.
-- **NEW**  [[Ars Technica] Researchers devise a full-color night vision goggle](https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/) — *2026-07-31*
-  > Wavelength and intensity in the infrared are translated into colors in the visible.
-- **NEW**  [[Ars Technica] China could supply EV manufacturing boom with recycled EVs](https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/) — *2026-07-31*
-  > Look at chemistry of batteries and motors shows big opportunity for recycling.
+- **NEW**  [[Ars Technica] Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA](https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/) — *2026-07-31*
+  > Some group with no modern descendants contributed a lot to our genomes.
 
 _(32 additional items in raw.jsonl)_

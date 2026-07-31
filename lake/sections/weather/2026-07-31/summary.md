@@ -2,258 +2,270 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-07-31
-record_count: 195
-new_today: 190
+record_count: 188
+new_today: 186
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-190 new of 195 total items today.
+186 new of 188 total items today.
 
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 31 at 3:14PM CDT until July 31 at 4:15PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a790d0a3f339c71345000db3df4c0fae839138.001.1) — *2026-07-31*
-  > SMWMOB
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 5:32PM MDT until July 31 at 6:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.348f3a97d4f2c74f69d15b195d2264f367d582d9.001.1) — *2026-07-31*
+  > SVRABQ
 
-The National Weather Service in Mobile has issued a
-
-* Special Marine Warning for...
-North Mobile Bay...
-
-* Until 415 PM CDT.
-
-* At 313 PM CDT, a strong thunderstorm capable of producing
-waterspouts was located over Battleship Park, moving east at 10
-knots.
-
-HAZARD...Wate
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 2:14PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3a8ec7a6dc0b4a697ec17ec3d649ab83fbf7829.001.1) — *2026-07-31*
-  > At 214 PM MDT, Doppler radar was tracking a strong thunderstorm near
-Red Wing, or 39 miles northeast of Alamosa, moving southeast at 20
-mph.
-
-HAZARD...Wind gusts up to 50 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and bl
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 3:13PM CDT until July 31 at 4:00PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ddd8d78333ae9553bb67df8c8bc95098a63b3382.001.1) — *2026-07-31*
-  > SVRMEG
-
-The National Weather Service in Memphis has issued a
+The National Weather Service in Albuquerque has issued a
 
 * Severe Thunderstorm Warning for...
-Fayette County in west Tennessee...
-Western Hardeman County in west Tennessee...
-Southeastern Haywood County in west Tennessee...
+South Central Quay County in east central New Mexico...
 
-* Until 400 PM CDT.
+* Until 600 PM MDT.
 
-* At 313 PM CDT, a severe thu
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 1:12PM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.145c70e58b8a070b23e41e3ca2c769979bbe0389.004.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 110 to
-117. Major to Extreme Heat Risk.
+* At 532 PM MDT, a severe thunderstorm was located 10 miles west of
+Wheatland, or 22 miles southeas
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 6:31PM CDT until July 31 at 7:00PM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64dbbf8b420313c80b81949dc3d4d3c1d1680c31.002.1) — *2026-07-31*
+  > At 631 PM CDT, a severe thunderstorm was located near Mount Sterling,
+or 12 miles north of Owensville, moving east at 30 mph.
 
-* WHERE...The Phoenix metropolitan area.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Increase in heat related illnesses, including heat
-cramps, heat exhaustion, and heat stroke.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 1:12PM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.145c70e58b8a070b23e41e3ca2c769979bbe0389.001.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 112 to
-120. Major to Extreme Heat Risk.
-
-* WHERE...In Arizona, Parker Valley and Yuma. In California, Imperial
-Valley, and Palo Verde Valley.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ Monday.
-
-* IMPACTS...Increase in heat rela
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 1:12PM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.145c70e58b8a070b23e41e3ca2c769979bbe0389.003.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
-119. Major to Extreme Heat Risk.
-
-* WHERE...Aguila Valley, Apache Junction/Gold Canyon, Cave Creek/New
-River, Fountain Hills/East Mesa, Gila Bend, Northwest Pinal County,
-Sonoran Desert Natl Monument, Tonopah Dese
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 1:12PM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.145c70e58b8a070b23e41e3ca2c769979bbe0389.005.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 98 to
-115. Major to Extreme Heat Risk.
-
-* WHERE...Dripping Springs, Globe/Miami, Mazatzal Mountains, New
-River Mesa, Pinal/Superstition Mountains, Rio Verde/Salt River, San
-Carlos, Southeast Gila County, Superior, and To
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued July 31 at 1:12PM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.145c70e58b8a070b23e41e3ca2c769979bbe0389.002.1) — *2026-07-31*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 108 to
-120. Major to Extreme Heat Risk.
-
-* WHERE...Mostly rural portions of southwest Arizona and southeast
-California, including Joshua Tree National Park.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ Monday.
-
-* IMPACTS...Increa
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 31 at 3:11PM CDT until July 31 at 3:45PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70d238d6057d2e6be27265f886d342b0880bc374.001.1) — *2026-07-31*
-  > For the following areas...
-North Mobile Bay...
-
-At 311 PM CDT, a strong thunderstorm was located 7 nm northeast of
-Battleship Park, moving east at 15 knots.
-
-HAZARD...Wind gusts to 40 knots.
+HAZARD...60 mph wind gusts and quarter size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Small craft could be damaged in briefly higher winds
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 3:10PM CDT until July 31 at 3:30PM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5de8948eec0618562527cfe6e80e975de9b4ced.002.1) — *2026-07-31*
-  > At 310 PM CDT, a severe thunderstorm was located 7 miles east of
-Saraland, moving east at 20 mph.
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roofs, 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 6:31PM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5827512da8a4b826fc28f0a5632031995fc2327f.001.1) — *2026-07-31*
+  > At 630 PM CDT, Doppler radar was tracking heavy rain producing
+thunderstorms along a line extending from near Bennett to near
+Rozetta. Movement was northeast at 30 mph.
 
-HAZARD...60 mph wind gusts.
+HAZARD...Minor flooding.
 
 SOURCE...Radar indicated.
 
-IMPACT...Expect damage to roofs, siding, and trees.
+IMPACT...Slowing or redirecting of traffic due to ponding
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 5:30PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df88a3c1df442c38023ff0e9d59827838b24dfbc.001.1) — *2026-07-31*
+  > At 528 PM MDT, Thunderstorms were beginning to develop around the
+greater Las Cruces area as an outflow boundary pushed in from the
+north. Expect thunderstorms to increase in coverage over the next
+couple of hours, slowly moving into the city itself.
 
-This severe thunderstorm will remain over mainly rural areas of west
-cen
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 31 at 2:09PM MDT until July 31 at 5:15PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21ec6b5dcec05c0e191fe0f38ce9324c1937d68d.001.1) — *2026-07-31*
+HAZARD...Wind gusts up to 50
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 31 at 7:29PM EDT until July 31 at 9:30PM EDT by NWS Gaylord MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2721c108ad3029eb021d87442b0b7faf17d97725.001.1) — *2026-07-31*
+  > At 729 PM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 2 and 4 inches of rain have
+fallen. The expected rainfall rate is 0.25 to 0.5 inches in 1 hour.
+Additional rainfall amounts of 0.5 to 1 inch are possible in the
+warned area. 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 5:27PM MDT until July 31 at 5:45PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72e621728b9eeb8fe945c041357c4aeaf0c1b536.001.1) — *2026-07-31*
+  > At 527 PM MDT, a severe thunderstorm was located over Cascade Falls,
+or 11 miles south of Hot Springs, moving south at 25 mph.
+
+HAZARD...Half dollar size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Damage to vehicles is expected.
+
+Locations impacted include...
+Cascade Falls and An
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52284) — *2026-07-31*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 31 at 6:26PM CDT until July 31 at 9:30PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3d7c308cf45d8021945681ba273ec620d08dd2e.001.1) — *2026-07-31*
+  > FFWBMX
+
+The National Weather Service in Birmingham has issued a
+
+* Flash Flood Warning for...
+South Central Tuscaloosa County in west central Alabama...
+
+* Until 930 PM CDT.
+
+* At 626 PM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Flash
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 6:26PM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9349b2a8777b2f494bd862d50ac0de39a59b1b9b.001.1) — *2026-07-31*
+  > At 625 PM CDT, Doppler radar was tracking a cluster of strong
+thunderstorms along a line extending from 9 miles south of Blue
+Springs to near Fort Rucker. These storms were nearly stationary.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds coul
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 6:25PM CDT until July 31 at 7:00PM CDT by NWS Springfield MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.761aee5f55f9a75454f2657164e536d9735c1cbd.002.1) — *2026-07-31*
+  > At 624 PM CDT, a severe thunderstorm was located 10 miles northeast
+of Licking, or 11 miles west of Salem, moving east at 25 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind damage to
+roo
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 5:25PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d367666e1249eb5227b4846039baed062e4d8fda.001.1) — *2026-07-31*
+  > At 525 PM MDT, Doppler radar was tracking a strong thunderstorm 9
+miles northeast of Trinchera, or 28 miles north of Des Moines, moving
+east at 20 mph.
+
+HAZARD...Heavy rain, wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock d
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 6:23PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4297f11c2c9d7a9c524aea6cd708de1e72ec942c.001.1) — *2026-07-31*
+  > At 623 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from Deerlick Creek Campgrounds to near Mertz.
+Movement was east at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 6:21PM CDT until July 31 at 7:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90490a5ff1efdb64a423a7b86781671473aa2b83.001.1) — *2026-07-31*
+  > SVROUN
+
+The National Weather Service in Norman has issued a
+
+* Severe Thunderstorm Warning for...
+Western Comanche County in southwestern Oklahoma...
+South central Kiowa County in southwestern Oklahoma...
+Northeastern Tillman County in southwestern Oklahoma...
+
+* Until 700 PM CDT
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 5:19PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4ca296145a336f3ca76a17c95e2ea4ea308d372.001.1) — *2026-07-31*
+  > At 519 PM MDT, Doppler radar was tracking a strong thunderstorm 11
+miles north of Horse Creek, or 26 miles northeast of Laramie, moving
+southeast at 30 mph.
+
+HAZARD...Wind gusts of 50 to 55 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock dow
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 5:19PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe678efacff7cd2fa44b56635ea7774eb11e0c96.001.1) — *2026-07-31*
+  > At 519 PM MDT, Doppler radar was tracking a strong thunderstorm over
+Lyons, or 26 miles south of Fort Collins, moving southeast at 35 mph.
+
+HAZARD...Wind gusts up to 40 mph and half inch size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and b
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 6:18PM CDT until July 31 at 7:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf337b53bab605bb3beb0be5f21afeedf7897e8d.001.1) — *2026-07-31*
+  > SVROUN
+
+The National Weather Service in Norman has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Garvin County in southern Oklahoma...
+Southeastern Grady County in central Oklahoma...
+Southwestern McClain County in central Oklahoma...
+
+* Until 700 PM CDT.
+
+* At 617 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 5:16PM MDT until July 31 at 6:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a58dc007d399f8e005584065ed64420d4e82a63.001.1) — *2026-07-31*
+  > SVRABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Guadalupe County in east central New Mexico...
+Southwestern Quay County in east central New Mexico...
+
+* Until 600 PM MDT.
+
+* At 516 PM MDT, a severe thunderstorm w
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 6:15PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.086e689759fe677b0e78b78bf4a092f535559ce8.001.1) — *2026-07-31*
+  > At 615 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Evergreen, or 8 miles southeast of Tombigbee State Park, moving east
+at 30 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+uns
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 6:15PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25f58fe20bbbad2edec9e23818527275a4e62f9d.001.1) — *2026-07-31*
+  > At 615 PM CDT, Doppler radar was tracking a strong thunderstorm 5
+miles northeast of Alex, moving south at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 6:13PM CDT until July 31 at 7:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f80efccd515d67b05d8fe4c7ae9e58c8dcb4f0fc.001.1) — *2026-07-31*
+  > SVROUN
+
+The National Weather Service in Norman has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Hardeman County in northern Texas...
+
+* Until 700 PM CDT.
+
+* At 613 PM CDT, a severe thunderstorm was located 6 miles north of
+Goodlett, moving south at 15 mph.
+
+HAZARD.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 5:11PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f0a7148cdcef2076506a281c6d320c38b54fa5c.001.1) — *2026-07-31*
+  > At 511 PM MDT, Doppler radar was tracking a line of strong
+thunderstorms extending from near Newkirk to 5 miles northwest of
+Pastura, moving southeast at 30 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock do
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 5:08PM MDT until July 31 at 6:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7494a4f75dcf3e300a9086b2810796164893a04b.001.1) — *2026-07-31*
+  > SVRABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Guadalupe County in east central New Mexico...
+Central Quay County in east central New Mexico...
+Southeastern Harding County in northeastern New Mexico...
+Southeast
+- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 1 at 9:08AM ChST until August 5 at 6:00AM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b128ec36109225759d5e629394a12cf0d92d24df.001.1) — *2026-08-01*
+  > * WHAT...West winds 15 to 25 kt with frequent gusts up to 35 kt
+and seas 7 to 12 feet possible.
+
+* WHERE...Guam Coastal Waters.
+
+* WHEN...From Sunday morning through late Tuesday night.
+
+* IMPACTS...Strong winds can cause hazardous seas which could
+capsize or damage vessels and r
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 31 at 4:52PM MDT until July 31 at 7:45PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5c758810627188243c763a718c072bfb64abef4a.001.1) — *2026-07-31*
   > FFWPUB
 
 The National Weather Service in Pueblo has issued a
 
 * Flash Flood Warning for...
-Northeastern El Paso County in east central Colorado...
+The North and Middle Aspen Acres Burn Scar in...
+East Central Custer County in southeastern Colorado...
+West Central Pueblo County in southeastern Colorado...
 
-* Until 515 PM MDT.
+* Until 745 PM MDT.
 
-* At 209 PM MDT, Doppler radar indicated thunderstorms producing
-heavy rain across the warned area. Between 1 an
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 31 at 1:08PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2399a4567fcef546bd4048b3fd03e7cf77c8b9cb.001.1) — *2026-07-31*
-  > The Oregon Department of Environmental Quality has issued an Air
-Quality Advisory for eastern Clackamas County, which is IN EFFECT
-UNTIL NOON PDT MONDAY.
+* At 452 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued July 31 at 4:44PM MDT until July 31 at 7:45PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc0bff114b72984cb344f927d237826f9aff76ac.001.1) — *2026-07-31*
+  > FFWEPZ
 
-An Air Quality Advisory for Smoke has been issued. Wildfires burning
-in the region combined with forecasted conditions will c
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-2708) — *2026-07-31*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 4:04PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f10c75d2b42c0f16b18ae9a1b3346567642bab5f.001.1) — *2026-07-31*
-  > At 404 PM EDT, Doppler radar was tracking a strong thunderstorm near
-Folkston, moving east at 15 mph.
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
 
-HAZARD...Wind gusts around 40 mph.
+* Flash Flood Warning for...
+West Central Luna County in southwestern New Mexico...
 
-SOURCE...Radar indicated.
+* Until 745 PM MDT.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
+* At 444 PM MDT, A stationary thunderstorm just east of Gage has
+produced over 1 inch of rain in
 
-Locations impacted include...
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued July 31 at 4:01PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61f794abdec5817e6c305434658f80ea6de82a43.001.1) — *2026-07-31*
-  > The Connecticut Department of Energy and Environmental Protection
-has issued an Air Quality Action Day for the following counties:
-
-Southern Fairfield,
-
-from 11 AM to 11 PM EDT Saturday.
-
-An Air Quality Action Day means that Ground Level Ozone within the
-region may approach or ex
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 3:59PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad0bee1f243437cd6af5c4a1feb07179ab57c4db.001.1) — *2026-07-31*
-  > At 358 PM EDT, Doppler radar was tracking a strong thunderstorm over
-Yulee, or 8 miles southwest of Fernandina Beach, moving southeast at
-20 mph.
-
-HAZARD...Wind gusts up to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecu
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 2:59PM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d7d9d2449406f5b5671e9d4350f84746b820530.001.1) — *2026-07-31*
-  > At 259 PM CDT, Doppler radar was tracking a strong thunderstorm over
-Lakeland, or 7 miles northeast of Bartlett, moving east at 20 mph.
-
-HAZARD...Wind gusts up to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured object
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued July 31 at 1:57PM MDT until July 31 at 2:45PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.062ba9f07143338de263d41cec8c407c11f33be8.001.1) — *2026-07-31*
-  > SVRPUB
-
-The National Weather Service in Pueblo has issued a
-
-* Severe Thunderstorm Warning for...
-Northeastern El Paso County in east central Colorado...
-
-* Until 245 PM MDT.
-
-* At 156 PM MDT, a severe thunderstorm was located near Peyton, or 20
-miles northeast of Colorado Spring
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 31 at 12:56PM PDT until August 1 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f90f11d5f72437f91f370a16eadb07df7acdd2e0.001.1) — *2026-07-31*
-  > ...PARTICULARLY DANGEROUS SITUATION (PDS) RED FLAG IN EFFECT 2PM
-UNTIL 8PM SATURDAY FOR THE FOLLOWING AREAS: KITTITAS VALLEY (ZONE
-690) - LOWER COLUMBIA BASIN OF OREGON AND WASHINGTON (ZONE 691)
-- NORTHERN BLUE MOUNTAINS OF OREGON AND WASHINGTON (ZONE 692) -
-CANYON GRASSLANDS OF 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 31 at 12:56PM PDT until August 1 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f90f11d5f72437f91f370a16eadb07df7acdd2e0.002.1) — *2026-07-31*
-  > ...PARTICULARLY DANGEROUS SITUATION (PDS) RED FLAG IN EFFECT 2PM
-UNTIL 8PM SATURDAY FOR THE FOLLOWING AREAS: KITTITAS VALLEY (ZONE
-690) - LOWER COLUMBIA BASIN OF OREGON AND WASHINGTON (ZONE 691)
-- NORTHERN BLUE MOUNTAINS OF OREGON AND WASHINGTON (ZONE 692) -
-CANYON GRASSLANDS OF 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued July 31 at 12:56PM PDT until August 1 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f90f11d5f72437f91f370a16eadb07df7acdd2e0.003.1) — *2026-07-31*
-  > ...PARTICULARLY DANGEROUS SITUATION (PDS) RED FLAG IN EFFECT 2PM
-UNTIL 8PM SATURDAY FOR THE FOLLOWING AREAS: KITTITAS VALLEY (ZONE
-690) - LOWER COLUMBIA BASIN OF OREGON AND WASHINGTON (ZONE 691)
-- NORTHERN BLUE MOUNTAINS OF OREGON AND WASHINGTON (ZONE 692) -
-CANYON GRASSLANDS OF 
-- **NEW**  [[Unknown] Hydrologic Outlook: Hydrologic Outlook issued July 31 at 3:56PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17b464bf606b7ceb1efe969ce902d9871138ba48.001.1) — *2026-07-31*
-  > ESFIND
-
-A slow moving low pressure system will impact central Indiana this
-weekend with widespread showers and scattered thunderstorms
-expected at times. Heavy rainfall will be possible due to
-efficient rainfall rates from repeated rounds of storms,
-primarily late tonight through
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued July 31 at 2:55PM CDT until August 3 at 1:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a12e9954f5c0b226f11f76b4496b9df92198c016.001.1) — *2026-07-31*
-  > * WHAT...Life threatening waves of 4 to 6 feet and dangerous
-currents are expected.
-
-* WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha
-Counties.
-
-* WHEN...From late tonight through late Sunday night.
-
-* IMPACTS...Dangerous swimming conditions are expected due to
-high wa
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued July 31 at 3:54PM EDT until July 31 at 5:30PM EDT by NWS Melbourne FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d74970c75c121feb6d0175c317be0167b1102d1.001.1) — *2026-07-31*
-  > SMWMLB
-
-The National Weather Service in Melbourne has issued a
-
-* Special Marine Warning for...
-Sebastian Inlet to Jupiter Inlet 0-20 nm...
-Sebastian Inlet to Jupiter Inlet 20-60 nm...
-
-* Until 530 PM EDT.
-
-* At 353 PM EDT, a strong thunderstorm was located over Sewall's
-Point, o
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued July 31 at 3:52PM EDT by NWS Melbourne FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09bc01031fba8d0c4e441ef893eaa17af330fa05.001.1) — *2026-07-31*
-  > At 352 PM EDT, Doppler radar was tracking a strong thunderstorm over
-Jensen Beach, moving southeast at 15 mph.
-
-HAZARD...Wind gusts up to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
-
-Locations impacted in
-
-_(170 additional items in raw.jsonl)_
+_(163 additional items in raw.jsonl)_
