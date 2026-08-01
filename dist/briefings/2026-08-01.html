@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-08-01</title>
+<meta name="description" content="WORLDSCOPE daily briefing: 2026-08-01">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/briefings/2026-08-01.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-08-01">
+<meta property="og:description" content="WORLDSCOPE daily briefing: 2026-08-01">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/briefings/2026-08-01.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-08-01&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;Washington&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Ukraine&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Michigan&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Donald Trump&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Pakistan&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Johnson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Johnson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Johnson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Johnson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Johnson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Georgia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;China&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Japan&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Russia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;James&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Canada&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;India&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Place&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;France&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Israel&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Kansas&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;United Kingdom&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Philippines&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}]}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-08-01.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-08-01.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#executive-summary">EXECUTIVE SUMMARY</a></li><li><a class="" href="#principal-intelligence-section">PRINCIPAL INTELLIGENCE SECTION</a></li><li><a class=" pl-4" href="#1-iran-war-hormuz-corridor-and-the-leadership-void">1. IRAN WAR: HORMUZ CORRIDOR AND THE LEADERSHIP VOID</a></li><li><a class=" pl-4" href="#2-iraq-escalation-the-second-front-opens">2. IRAQ ESCALATION: THE SECOND FRONT OPENS</a></li><li><a class=" pl-4" href="#3-maritime-security-14-nation-coalition-in-riyadh">3. MARITIME SECURITY: 14-NATION COALITION IN RIYADH</a></li><li><a class=" pl-4" href="#4-hamas-disarmament-the-board-of-peace-framework">4. HAMAS DISARMAMENT: THE BOARD OF PEACE FRAMEWORK</a></li><li><a class=" pl-4" href="#5-ukraine-theater-refinery-strikes-and-dprk-reinforcement">5. UKRAINE THEATER: REFINERY STRIKES AND DPRK REINFORCEMENT</a></li><li><a class=" pl-4" href="#6-markets-and-macro-fomc-hold-yield-curve-steepening-boj-ste">6. MARKETS AND MACRO: FOMC HOLD, YIELD CURVE STEEPENING, BOJ STEADY</a></li><li><a class=" pl-4" href="#7-federal-register-anomaly-39-items-z-score-2-4">7. FEDERAL REGISTER ANOMALY: 39 ITEMS (Z-SCORE 2.4)</a></li><li><a class=" pl-4" href="#8-cybersecurity-langflow-kev-and-cisco-fmc-deadline">8. CYBERSECURITY: LANGFLOW KEV AND CISCO FMC DEADLINE</a></li><li><a class=" pl-4" href="#9-domestic-intelligence-california-cross-section-and-f-35b-m">9. DOMESTIC INTELLIGENCE: CALIFORNIA CROSS-SECTION AND F-35B MISHAP</a></li><li><a class=" pl-4" href="#10-political-figures-screen">10. POLITICAL FIGURES SCREEN</a></li><li><a class=" pl-4" href="#11-weather-western-heat-dome-and-tornado-watch">11. WEATHER: WESTERN HEAT DOME AND TORNADO WATCH</a></li><li><a class=" pl-4" href="#12-vip-flight-signature">12. VIP FLIGHT SIGNATURE</a></li><li><a class=" pl-4" href="#13-prediction-market-scorecard">13. PREDICTION MARKET SCORECARD</a></li><li><a class=" pl-4" href="#14-watch-area-assessments">14. WATCH AREA ASSESSMENTS</a></li><li><a class=" pl-4" href="#15-ecb-and-central-bank-calendar-week-of-july-24-31">15. ECB AND CENTRAL BANK CALENDAR (WEEK OF JULY 24-31)</a></li><li><a class=" pl-4" href="#16-seismic-and-environmental">16. SEISMIC AND ENVIRONMENTAL</a></li><li><a class=" pl-4" href="#17-billionaires-register-july-31">17. BILLIONAIRES REGISTER (JULY 31)</a></li><li><a class=" pl-4" href="#18-commentary-digest">18. COMMENTARY DIGEST</a></li><li><a class="" href="#appendix-chart-references">APPENDIX: CHART REFERENCES</a></li><li><a class="" href="#watch-items-for-august-1-7">WATCH ITEMS FOR AUGUST 1-7</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Daily briefing</div>
+      <h1>2026-08-01</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-08-01</div>
+    </header>
+    <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high "><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">1</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#israel-iran-hezbollah-axis" class="text-inherit no-underline hover:text-navy">Israel-Iran-Hezbollah axis</a></h4><div class="ws-stat">1</div><div class="ws-meta">middle_east, conflict, military</div></div><div class="ws-dash-tile  "><h4><a href="#sahel-jihadist-corridor" class="text-inherit no-underline hover:text-navy">Sahel jihadist corridor</a></h4><div class="ws-stat">1</div><div class="ws-meta">africa, conflict, jihadism</div></div><div class="ws-dash-tile  "><h4><a href="#korean-peninsula" class="text-inherit no-underline hover:text-navy">Korean peninsula</a></h4><div class="ws-stat">4</div><div class="ws-meta">korea, military, missile_tests</div></div></section>
+    <article class="prose prose-slate max-w-none">
+      <blockquote>
+<p><strong>DATA NOTE:</strong> This brief is built on the 2026-07-31 bundle (GitHub Pages deploy lag prevented retrieval of today's 2026-08-01 zip). All timestamps below reflect 31 July data unless otherwise noted. Analysis is current as of 2026-08-01 morning desk opening.</p>
+</blockquote>
+<hr />
+<p><strong>Saturday, 1 August 2026 | Day 154 of Operation Epic Fury</strong></p>
+<p><em>Produced by the WORLDSCOPE automated desk. Confidence tags apply to analytical interpretations only; sourced factual claims carry inline citations.</em></p>
+<hr />
+<h2 id="executive-summary">EXECUTIVE SUMMARY</h2>
+<p>Five threads dominate the morning portfolio. First: the Strait of Hormuz remains at roughly 11 percent of pre-war commercial baseline, with the <a href="https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-31">Polymarket contract on normal Hormuz traffic resolving at zero</a><span class="ws-hostpill">polymarket.com</span> as of midnight July 31. Second: a 14-nation Multinational Maritime Defense Coalition established in Riyadh on July 30 is now operational in the Red Sea and Bab el-Mandeb corridor, though it does not yet include a Hormuz mandate. Third: US and Saudi airstrikes across seven Iraqi provinces on July 29 killed at least 20 PMF fighters and four IRGC advisers, provoking Baghdad into cancelling the prime minister's Saudi visit and opening Iraq as a secondary escalation axis. Fourth: the Trump-brokered "Board of Peace" Gaza disarmament framework announced July 31 pushed the Hamas-disarm Polymarket contract to <a href="https://polymarket.com/event/will-hamas-agree-to-disarm-by-december-31">66 percent</a><span class="ws-hostpill">polymarket.com</span>. Fifth: CISA's Known Exploited Vulnerabilities catalog added CVE-2026-0770 (Langflow, CVSS 9.8), the first AI agent orchestration platform to reach active-exploitation status, with a federal agency patch deadline passing today.</p>
+<hr />
+<h2 id="principal-intelligence-section">PRINCIPAL INTELLIGENCE SECTION</h2>
+<h3 id="1-iran-war-hormuz-corridor-and-the-leadership-void">1. IRAN WAR: HORMUZ CORRIDOR AND THE LEADERSHIP VOID</h3>
+<p>Day 154 since the February 28 US-Israeli strike on Supreme Leader Ali Khamenei. The <a href="https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243">Israel x Iran ceasefire continues through July 31</a><span class="ws-hostpill">polymarket.com</span> market resolved YES, but the forward contract covering through August 2 sits at <a href="https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149">78 percent</a><span class="ws-hostpill">polymarket.com</span>. That 22-point gap reflects genuine uncertainty: the Islamic Revolutionary Guard Corps has structural incentive to test a ceasefire's durability before the post-Khamenei political settlement hardens, and <a href="https://manifold.markets/apol/will-iran-strike-us-military-base-a">Manifold's "Will Iran strike a US military base in August" market</a><span class="ws-hostpill">manifold.markets</span> has moved to 87 percent yes. [medium]</p>
+<p>The Supreme Leader succession remains the central unknown. Mojtaba Khamenei, designated on March 8 after his father's death, has not appeared publicly since approximately July 20. Reports from the previous session cited speculation about incapacitation or absence from Iran, with state media relying on AI-generated video appearances. No authoritative confirmation of his current status is available. Iran leadership change by August 31 sits at <a href="https://polymarket.com/event/iran-leadership-change-by-august-31-669">5 percent on Polymarket</a><span class="ws-hostpill">polymarket.com</span>, implying markets believe the succession formally holds even amid the opacity. Whether Mojtaba Khamenei is genuinely in command or whether the Revolutionary Guard council is running defense and nuclear decisions in his absence cannot be confirmed from open sources. [low]</p>
+<p>The Hormuz chokepoint: <a href="https://liveuamap.com">Oman-Iran talks on corridor normalization</a><span class="ws-hostpill">liveuamap.com</span> continued in Muscat as of July 31. The Polymarket "Strait of Hormuz traffic returns to normal by July 31" contract closed at effectively zero, resolving NO. WTI crude closed at $84.25, up 1.33 percent on the session, with a structural war premium that has held the $80-88 range throughout July. Markets rejected the $90 level (Polymarket contract closed at less than 1 percent). [high]</p>
+<p>The US invasion probability sits at <a href="https://polymarket.com/event/will-the-us-invade-iran-before-2027">24 percent through year-end</a><span class="ws-hostpill">polymarket.com</span>, down from highs but above the pre-July baseline. The anti-cartel-outside-CONUS Polymarket contract resolved NO at July 31, with 1 percent yes, a minor data point. The Masoud Pezeshkian market asks whether the president, rather than the Supreme Leader, retains effective head-of-state authority by year-end, which is the operative constitutional ambiguity. No probability was available in the bundle for that resolution. [medium]</p>
+<hr />
+<h3 id="2-iraq-escalation-the-second-front-opens">2. IRAQ ESCALATION: THE SECOND FRONT OPENS</h3>
+<p>US and Saudi aircraft struck PMF (Popular Mobilization Forces) positions across seven Iraqi provinces on July 29. Confirmed fatalities: 20 PMF fighters, four IRGC advisers embedded with PMF units, 32 additional wounded. The <a href="https://liveuamap.com">liveuamap entry captured by the WORLDSCOPE ukraine_theater section</a><span class="ws-hostpill">liveuamap.com</span> noted strikes in Basra, Wasit, Anbar, Salah al-Din, Baghdad, Kirkuk, and Nineveh provinces. Iraq's government called the strikes a violation of sovereignty and cancelled Prime Minister Mohammed Sudani's scheduled visit to Riyadh. Iraq's parliament began emergency session procedures.</p>
+<p>The targeting pattern suggests a deliberate campaign to degrade IRGC command-and-control channels embedded within PMF, rather than a one-time retaliatory strike. Seven simultaneous provincial targeting packages imply pre-positioned intelligence collection and coordinated US-Saudi air tasking orders. If the IRGC adviser kill (four confirmed) is sustained by additional strikes, it represents the first direct IRGC fatalities on Iraqi soil attributable to the US-Saudi coalition since the February 28 operation began. [high]</p>
+<p>Baghdad's response posture matters beyond rhetorical condemnation. If Iraq expels US forces from Ain al-Asad or Erbil, the coalition loses forward logistical nodes critical to the Gulf air campaign. Probability of full US force expulsion from Iraq before September 1 is not captured in the available prediction markets, but the Sudani cancellation represents a significant diplomatic downgrade. [medium]</p>
+<p>The conflict fatality chart (see Figure 6) captures the Iraq theater at 24 confirmed dead in the July 30-31 window, highest among active conflict theaters tracked.</p>
+<hr />
+<h3 id="3-maritime-security-14-nation-coalition-in-riyadh">3. MARITIME SECURITY: 14-NATION COALITION IN RIYADH</h3>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>The Multinational Maritime Defense Coalition was signed in Riyadh on July 30. Fourteen countries committed naval assets to patrol the Red Sea, Bab el-Mandeb, and Gulf of Aden. The coalition does not yet formally extend to the Strait of Hormuz, a deliberate omission that reflects the legal and political complexity of entering Iranian territorial water adjacencies. The Bahrain sirens and Kuwait drone alert entries in the WORLDSCOPE event log indicate the coalition's operational environment involves active drone interdiction.</p></div>
+<p>Founding members per the bundle event log include Gulf Cooperation Council states plus maritime nations with commercial shipping exposure. The coalition's command structure appears modeled on Combined Task Force 153 but with a broader mandate. Whether this becomes a durable institutional structure or dissolves as a ceasefire takes hold will depend largely on the August 2 Polymarket resolution point. [medium]</p>
+<p>The gap between the coalition's Red Sea mandate and Hormuz is operationally significant. Hormuz transits represent roughly 21 million barrels per day of oil equivalent in normal conditions. Red Sea commercial traffic, while important, is not the energy-price fulcrum that Hormuz represents. The coalition's existence may reassure shipping insurers but does not directly address the chokepoint that drives the oil premium. [high]</p>
+<hr />
+<h3 id="4-hamas-disarmament-the-board-of-peace-framework">4. HAMAS DISARMAMENT: THE BOARD OF PEACE FRAMEWORK</h3>
+<p>President Trump announced a Gaza disarmament roadmap on July 31 through a mechanism styled the "Board of Peace," with Egypt, Qatar, and Turkey as principal mediators. The Polymarket Hamas-disarm contract moved to <a href="https://polymarket.com/event/will-hamas-agree-to-disarm-by-december-31">66 percent</a><span class="ws-hostpill">polymarket.com</span>, with $805,100 in 24-hour volume, the highest single-day volume on that contract since opening. The previous session noted a Zelensky-Trump meeting preceded the announcement, suggesting Washington orchestrated a deliberate sequencing: Zelensky visit, then Gaza framework, then the July 29 Iraq strikes.</p>
+<p>The disarmament framework as described involves a phased hostage release, followed by Hamas political dissolution from its armed wing (analogous to the IRA-Sinn Féin separation model), followed by an international monitoring mechanism. Whether the Qassam Brigades accept a political separation from Hamas governance structures is the mechanism's central vulnerability. The 66 percent market probability implies 34 percent chance of failure before December 31. [medium]</p>
+<p>The "Board of Peace" branding suggests Trump administration domestic political utility, but the substance appears consistent with Egyptian and Qatari working papers circulating since April. Turkey's inclusion as a co-mediator is the most novel element, given Ankara's historical Hamas ties and its simultaneous NATO-alignment posture. [medium]</p>
+<hr />
+<h3 id="5-ukraine-theater-refinery-strikes-and-dprk-reinforcement">5. UKRAINE THEATER: REFINERY STRIKES AND DPRK REINFORCEMENT</h3>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Russian energy infrastructure:</strong> Ukrainian long-range strikes hit the Ryazan Rosneft refinery (capacity approximately 343,000 barrels per day) on July 28-29. Satellite-derived thermal anomalies in the WORLDSCOPE bundle confirm a hotspot at approximately 54.6 degrees N, 39.7 degrees E consistent with Ryazan, with fire radiative power of 4.2 MW. Russian crude processing fell to approximately 3.91 million barrels per day, the lowest in 21 years per the bundle's ukraine_theater section. The Lukoil Volgograd refinery (FIRMS thermal anomaly at 48.5 degrees N, 44.5 degrees E, FRP 3.1 MW) recorded a separate fire on July 31. The Moscow Kolovedino warehouse fire appears distinct from the refinery strikes.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>Taken together, simultaneous fires at Ryazan and Volgograd represent a pattern consistent with coordinated strike planning, not coincidental industrial accidents. Combined capacity affected exceeds 500,000 barrels per day, roughly 13 percent of Russian domestic refinery throughput. The timeline (Zelensky-Trump meeting, then strikes, then Ukraine theater section volume spike to 1,140 items) suggests a coordinated messaging and operational sequence. [high]</p></div>
+<p><strong>North Korean reinforcement:</strong> Zelensky stated Russia is preparing to receive 30,000 additional DPRK troops. The ISW Korean Peninsula update in the bundle through July 26-27 notes North Korea has earned approximately $620 million from four troop deployments in March 2026, with the Russian side providing 100-plus KN-23 and KN-24 short-range ballistic missiles in exchange. A fifth deployment cycle at 30,000 would represent the largest single tranche yet, raising total DPRK forces committed to Russia to an estimated 80,000-plus across all rotations.</p>
+<p>The military economics are straightforward: Kim Jong Un is monetizing surplus infantry at roughly $20,700 per soldier deployed, receiving advanced missile technology in return. Russia gets manpower; North Korea gets hard currency, missile systems, and operational experience. The arrangement is durable as long as Russian ground combat remains intensive. [high]</p>
+<p><em>STRUCTURAL PROTECTION: Per standing WORLDSCOPE protocol, Ukrainian troop and territorial-defense unit positions are not reported in this brief.</em></p>
+<hr />
+<h3 id="6-markets-and-macro-fomc-hold-yield-curve-steepening-boj-steady">6. MARKETS AND MACRO: FOMC HOLD, YIELD CURVE STEEPENING, BOJ STEADY</h3>
+<p>The Federal Reserve held the federal funds rate at <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">3.63 percent target on July 29</a><span class="ws-hostpill">federalreserve.gov</span>. The yield curve (Figure 1) shows a positively sloped structure from 3.63 percent at the overnight rate through 5.21 percent at 30 years. The 10-year/2-year spread is +47 basis points, the steepest since early 2025. This steepening reflects two simultaneous forces: energy-inflation expectations pushing long rates up, and Fed policy anchoring short rates while keeping optionality for September.</p>
+<p>Polymarket pricing implies 60 percent probability of a Fed rate hike at the September 2026 meeting, with 38 percent no-change and only 2 percent for a cut. The logic: WTI at $84 with a war premium that is not resolving, CPI (last reading CPIAUCSL series in bundle) running above target, and FOMC member statements favoring insurance against energy-driven second-round inflation effects. A September hike to 3.88 percent would be the first hike since 2023 and the sharpest pivot in the post-war period. [medium]</p>
+<p>The BOJ held its policy rate steady at approximately 1.0 percent per <a href="https://newsonjapan.com/article/150191.php">reporting from NHK via GDELT</a><span class="ws-hostpill">newsonjapan.com</span> on July 31. EUR/USD sits at 1.1385, JPY/USD at 163.71. A sustained weak yen at 163-plus creates pass-through inflation for Japanese energy importers and increases pressure on the BOJ to move, though it held. CNY/USD at 6.7719 reflects PBOC management within a narrow band. The ECB released its Q3 2026 <a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.html">Survey of Professional Forecasters</a><span class="ws-hostpill">ecb.europa.eu</span> on July 24, with the macro section of the bundle showing euro-area forecasters expecting stable but elevated inflation.</p>
+<p>Markets data (July 31): SPY +0.72 percent, QQQ +0.65 percent. IWM (small caps) diverged at -0.48 percent, a typical risk-off rotation within a "flight to quality" session. EEM (emerging markets) +0.79 percent on Chinese positioning. GLD -1.49 percent and SLV -2.13 percent despite Iran war stress, consistent with a stronger dollar session. USO (oil proxy) +1.33 percent.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>Global markets data shows FXI (China large-cap) essentially flat at -0.05 percent. European equities (EFA) -0.62 percent on energy cost drag. The VXX volatility product fell 2.61 percent, suggesting the market does not read current events as a near-term VIX spike risk, which is slightly anomalous given the Iraq escalation. [medium]</p></div>
+<hr />
+<h3 id="7-federal-register-anomaly-39-items-z-score-24">7. FEDERAL REGISTER ANOMALY: 39 ITEMS (Z-SCORE 2.4)</h3>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p>The Federal Register section logged 39 items on July 31 against a 14-day median of 20, producing the highest z-score in the WORLDSCOPE anomaly screen (see Figure 2). Key items from the <code>raw/federal_register.json</code> file:</p></div>
+<p><strong>Lebanon National Emergency continuation</strong> (document 2026-15658): The President renewed the Lebanon national emergency under IEEPA, citing continued threat to US national security and foreign policy from the crisis in Lebanon. This is a routine annual renewal but gains salience in the current Iran-Hezbollah context.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>FCC Emergency Alert System cybersecurity</strong> (<a href="https://www.federalregister.gov/documents/2026/07/31/2026-15601">2026-15601</a><span class="ws-hostpill">federalregister.gov</span>): The FCC published cybersecurity requirements for the Emergency Alert System, requiring broadcasters to implement additional authentication and integrity controls. The timing alongside CVE-2026-20316 (Cisco FMC) and the Langflow KEV listing is not coincidental in aggregate.</p></div>
+<p><strong>FCC Upper C-band spectrum auction</strong> (<a href="https://www.federalregister.gov/documents/2026/07/31/2026-15598">2026-15598</a><span class="ws-hostpill">federalregister.gov</span>): The Commission voted to auction 160 MHz in the 3.98-4.2 GHz band, 60 percent above the 100 MHz floor mandated by the One Big Beautiful Bill Act, and directed toward a July 4, 2027 auction date. Combined with existing lower C-band holdings, this creates a 440 MHz "super band." The auction will determine whether AT&amp;T and Verizon can consolidate mid-band depth ahead of the next 5G/6G cycle.</p>
+<p><strong>OPM removal of Uniform Guidelines on Employee Selection Procedures</strong> (<a href="https://www.federalregister.gov/documents/2026/07/31/2026-15586">2026-15586</a><span class="ws-hostpill">federalregister.gov</span>): The Office of Personnel Management removed the UGESP, a 1978 regulation governing validation of employment tests for adverse impact on protected groups. This is a significant rollback of pre-hire screening doctrine affecting federal contractors and has bipartisan opposition from HR compliance associations.</p>
+<p><strong>Medicare FY2027 Inpatient Psychiatric Facility rates</strong> (<a href="https://www.federalregister.gov/documents/2026/07/31/2026-15588">2026-15588</a><span class="ws-hostpill">federalregister.gov</span>): CMS finalized payment rates for psychiatric hospitals, relevant to the behavioral health capacity debate running through state-level news.</p>
+<p><strong>FRA English language proficiency rule</strong> (<a href="https://www.federalregister.gov/documents/2026/07/31/2026-15605">2026-15605</a><span class="ws-hostpill">federalregister.gov</span>): The Federal Railroad Administration published final rules requiring locomotive engineers to demonstrate English language proficiency. Labor unions have opposed this as targeting non-native speakers.</p>
+<hr />
+<h3 id="8-cybersecurity-langflow-kev-and-cisco-fmc-deadline">8. CYBERSECURITY: LANGFLOW KEV AND CISCO FMC DEADLINE</h3>
+<p>Two items require immediate attention.</p>
+<p><strong>CVE-2026-0770 (Langflow, CVSS 9.8):</strong> The first AI agent orchestration platform to appear on CISA's Known Exploited Vulnerabilities catalog. Langflow is a widely used open-source framework for building LLM workflow pipelines, deployed in enterprise AI teams and cloud environments. Active exploitation began approximately June 27, with 220-plus exploitation attempts tracked from 64 unique IP addresses. Attack patterns target AWS credentials via metadata service calls and container runtime environment variables. Organizations running Langflow instances, including self-hosted versions behind corporate firewalls, are the primary exposure. The EPSS score in the bundle's <code>raw/epss.json</code> is consistent with rapid weaponization. Federal agency patch deadline has passed. Any enterprise running Langflow versions prior to the patched release should treat this as a P0 remediation. [high]</p>
+<p><strong>CVE-2026-20316 (Cisco Firepower Management Center):</strong> Hard-coded credential vulnerability. Federal agency remediation deadline was August 1, today. This is a management-plane vulnerability on network security infrastructure: an attacker with network access to the FMC web interface can authenticate using the static credential and gain administrative control over firewall policy, IDS signatures, and network segmentation rules. The blast radius for a compromised FMC is the entire Cisco FTD-managed network segment. [high]</p>
+<p><strong>CVE-2025-68686 (Fortinet FortiOS)</strong> and <strong>CVE-2026-16812 (Arista VeloCloud)</strong> are also on the KEV catalog with recent addition dates. The WordPress Core CVEs (2026-60137, 2026-63030) affect a large unpatched CMS surface; the DD-WRT vulnerability (CVE-2021-27137) indicates exploitation of aging consumer router firmware continues.</p>
+<hr />
+<h3 id="9-domestic-intelligence-california-cross-section-and-f-35b-mishap">9. DOMESTIC INTELLIGENCE: CALIFORNIA CROSS-SECTION AND F-35B MISHAP</h3>
+<p>California appeared in 9 of the monitored cross-sections with 66 mentions, the highest single-entity density in the <code>cross_section.json</code> HIGH confidence tier. The primary drivers:</p>
+<p><strong>F-35B mishap at MCAS Miramar (July 31):</strong> A 3rd Marine Aircraft Wing F-35B experienced a Class A mishap (damage exceeding $2 million). The pilot ejected safely. This is the second F-35 variant incident at a West Coast installation in calendar 2026. The Class A designation triggers a formal mishap investigation board and potential stand-down review for the affected squadron. F-35B production rate and readiness metrics have been under congressional scrutiny since the January 2026 House Armed Services Committee hearing.</p>
+<p><strong>Cyclospora outbreak (California farming communities):</strong> <a href="https://www.capradio.org/articles/2026/07/31/amid-cyclospora-concerns-how-have-californias-farming-communities-been-impacted/">NPR affiliate CARadio reporting</a><span class="ws-hostpill">capradio.org</span> notes cyclospora cayetanensis parasitic infection linked to California produce supply chains. Cyclospora is a foodborne illness with a 7-14 day incubation period; outbreak timelines suggest a July mid-month exposure window. Public health tracking is underway.</p>
+<p><strong>California weather and heat warnings:</strong> Extreme Heat Warnings issued by NWS <a href="https://api.weather.gov/alerts">San Diego</a><span class="ws-hostpill">api.weather.gov</span>, <a href="https://api.weather.gov/alerts">Hanford</a><span class="ws-hostpill">api.weather.gov</span>, and <a href="https://api.weather.gov/alerts">Las Vegas</a><span class="ws-hostpill">api.weather.gov</span> (covering inland Southern California) run through August 2-3 with dangerously hot conditions. This is the third consecutive excessive heat event in Southern California this summer.</p>
+<p>New York appeared in 9 sections with 23 mentions (NY Fed, federal register, Russian-language internal media cross-referencing). Washington state and DC appeared across 8 sections with 144 mentions, consistent with the federal regulatory pulse noted above.</p>
+<hr />
+<h3 id="10-political-figures-screen">10. POLITICAL FIGURES SCREEN</h3>
+<p>Four anomalous political figure signals from <code>raw/political_figures.json</code>:</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Rep. Ed Case (HI-01), anomaly score 0.200:</strong> Highest in the dataset. Drivers: DOJ mention, active court filing. Case has been involved in Pacific defense appropriations oversight. The DOJ association is unexplained in the bundle data.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Sen. Rick Scott (FL), anomaly score 0.150:</strong> Six Form 4 insider transactions filed in the 48-hour window. Scott's portfolio has historically included energy and financial sector positions that move on geopolitical events. Form 4 timing coinciding with Iraq strike news warrants tracking.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Rep. Robert C. Scott (VA-03), anomaly score 0.150:</strong> Six Form 4 transactions and three court filings. Rep. Scott is ranking member on House Education and the Workforce Committee; the court filing cross-section is unusual for his typical profile.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Sen. Mike Lee (UT), anomaly score 0.140:</strong> No additional context in bundle.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Rep. Dave Min (CA-47), anomaly score 0.086:</strong> 22 Form 4 transactions. This is a high Form 4 volume for a single representative in a 48-hour window.</p></div>
+<p><em>Pattern note:</em> Five representatives with elevated Form 4 activity on a day when Iraq strike news broke and WTI moved. STOCK Act disclosure does not require same-day disclosure; the filings visible in the bundle may reflect transactions from the July 28-29 window. [medium]</p>
+<hr />
+<h3 id="11-weather-western-heat-dome-and-tornado-watch">11. WEATHER: WESTERN HEAT DOME AND TORNADO WATCH</h3>
+<p><strong>Extreme Heat Warnings (Severe/Extreme tier):</strong> Active through August 2-3 across Arizona (Phoenix, Tucson, Flagstaff: NWS warnings), Southern California (San Diego, Hanford, Las Vegas), and interior valleys. Heat index values up to 108-109 degrees Fahrenheit in Louisiana and Mississippi. NWS Anchorage issued Heat Advisory for southcentral Alaska, an unusual extension of the ridge.</p>
+<p><strong>Tornado Watch (Extreme tier):</strong> NWS Springfield, Missouri and NWS St. Louis both issued Tornado Watches for July 31 evening through 11 PM CDT. This places the watches across the Missouri-Illinois corridor, consistent with the late-July severe weather pattern.</p>
+<p><strong>Flash Flood Warnings:</strong> NWS Gaylord (Michigan) and NWS Birmingham (Alabama) issued Flash Flood Warnings during the afternoon hours. The combination of extreme heat in the West and convective activity in the Midwest-South is a classic July setup.</p>
+<p><strong>Japan:</strong> <a href="https://newsonjapan.com/article/150192.php">Kyushu Shinkansen</a><span class="ws-hostpill">newsonjapan.com</span> northern section reopened after flooding damage, while southern section damage persists. This appears related to earlier July typhoon-associated rainfall.</p>
+<hr />
+<h3 id="12-vip-flight-signature">12. VIP FLIGHT SIGNATURE</h3>
+<p>The <code>raw/vip_flights.json</code> shows 16 tracked aircraft on July 31. Notable callsigns:</p>
+<ul>
+<li><strong>RCH525:</strong> US Air Mobility Command C-17 equivalent callsign, position (47.99 N, -62.66 W) at 8,839m, 891 km/h. This is over the Gulf of St. Lawrence on a heading consistent with transatlantic routing.</li>
+<li><strong>RCH462:</strong> Similar AMC callsign, (46.07 N, -75.75 W) at 10,408m. Over Quebec.</li>
+<li><strong>RCH653:</strong> (45.31 N, -70.47 W) at 10,363m, 944 km/h. Over northern Maine.</li>
+<li><strong>PAT63:</strong> "Patriot" callsign, (46.83 N, -70.22 W) at 12,192m, 924 km/h. High-altitude routing.</li>
+<li><strong>PAT417, PAT415, PAT410A:</strong> Three additional Patriot callsigns operating in domestic US airspace over Kentucky, Arkansas, and north Texas.</li>
+<li><strong>EAGLE3 (Belgium):</strong> Position (35.93 N, 14.38 E) over Malta at 708m altitude. Belgian government aircraft over the central Mediterranean.</li>
+<li><strong>JAF1DE, JAF7GY (Belgium):</strong> Two Belgian Air Component callsigns, one over Bulgaria, one south of Gibraltar, suggesting logistics or VIP routing.</li>
+<li><strong>NCR850:</strong> Callsign over Arizona at high altitude.</li>
+</ul>
+<p>The cluster of AMC callsigns over the northeastern US/Canada transatlantic corridor on a day following the Iraq strikes and ahead of the August 2 ceasefire monitoring point is consistent with heightened logistics posture, though specific payloads cannot be determined from open-source tracking. [medium]</p>
+<hr />
+<h3 id="13-prediction-market-scorecard">13. PREDICTION MARKET SCORECARD</h3>
+<table>
+<thead>
+<tr>
+<th>Market</th>
+<th>Platform</th>
+<th>Yes%</th>
+<th>24h Volume</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hamas disarm by Dec 31</td>
+<td>Polymarket</td>
+<td>66%</td>
+<td>$805k</td>
+<td>2026-12-31</td>
+</tr>
+<tr>
+<td>Israel-Iran ceasefire Aug 2</td>
+<td>Polymarket</td>
+<td>78%</td>
+<td>$313k</td>
+<td>2026-08-02</td>
+</tr>
+<tr>
+<td>US invade Iran before 2027</td>
+<td>Polymarket</td>
+<td>24%</td>
+<td>$523k</td>
+<td>2026-12-31</td>
+</tr>
+<tr>
+<td>Iran leadership change Aug 31</td>
+<td>Polymarket</td>
+<td>5%</td>
+<td>$254k</td>
+<td>2026-08-31</td>
+</tr>
+<tr>
+<td>Fed hike 25bp September</td>
+<td>Polymarket</td>
+<td>60%</td>
+<td>$344k</td>
+<td>Sep FOMC</td>
+</tr>
+<tr>
+<td>Fed no change September</td>
+<td>Polymarket</td>
+<td>38%</td>
+<td>$235k</td>
+<td>Sep FOMC</td>
+</tr>
+<tr>
+<td>Iran strikes US base in August</td>
+<td>Manifold</td>
+<td>87%</td>
+<td>--</td>
+<td>2026-08-31</td>
+</tr>
+<tr>
+<td>Pezeshkian head of state year-end</td>
+<td>Polymarket</td>
+<td>--</td>
+<td>--</td>
+<td>2026-12-31</td>
+</tr>
+<tr>
+<td>Hormuz normal Jul 31 (resolved)</td>
+<td>Polymarket</td>
+<td>0%</td>
+<td>$229k</td>
+<td>RESOLVED NO</td>
+</tr>
+<tr>
+<td>US-Iran ceasefire Jul 31 (resolved)</td>
+<td>Polymarket</td>
+<td>8%</td>
+<td>$674k</td>
+<td>RESOLVED NO</td>
+</tr>
+</tbody>
+</table>
+<p>The Manifold 87 percent Iran-strikes-US-base probability is the most operationally urgent signal. If accurate, this implies the market believes an IRGC-affiliated strike on a US installation in the region is nearly certain within August. Combined with the Iraq PMF strikes on July 29 and the IRGC advisers killed, the escalation ladder is visible. [medium]</p>
+<hr />
+<h3 id="14-watch-area-assessments">14. WATCH AREA ASSESSMENTS</h3>
+<p>The watch area volume chart (Figure 5) shows today's item counts against 14-day medians across all configured watch areas.</p>
+<p><strong>1. Russia Oil Sanctions Perimeter:</strong> The bundle's <code>raw/sanctions.json</code> reflects multilateral designations through May 2026 covering Russia, Belarus, Libya, and Afghanistan. No new OFAC Russia-energy primary designations appear in the July 31 bundle window. The Ryazan and Volgograd refinery strikes may produce secondary sanctions-evasion pressure as Russia seeks replacement crude processing capacity from friendly states. [medium]</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>2. Israel-Iran-Hezbollah Axis:</strong> Highest-alert watch area. Ceasefire holding as of July 31 (78% Aug 2 contract). IRGC adviser kills in Iraq represent the most significant escalatory event since the ceasefire declaration. Hezbollah rocket activity from southern Lebanon is not confirmed in the bundle but would be a leading indicator of ceasefire breakdown. [high]</p></div>
+<p><strong>3. Taiwan Strait / South China Sea:</strong> GDELT regions data tagged Japan items for this watch area, including BOJ rate hold. FXI at -0.05 percent reflects flat Chinese large-cap positioning. No PLA exercises or ADIZ incursions flagged in the July 31 bundle. China cross-section (303 mentions across 9 sections) continues elevated. [medium]</p>
+<p><strong>4. US Tariff and Trade Dockets:</strong> OPM UGESP removal is the most significant federal docket item. No new major tariff actions in the July 31 Federal Register. Congressional trades (5 items in <code>raw/congressional_trades.json</code>) showed minimal activity.</p>
+<p><strong>5. Critical Minerals / Rare Earths:</strong> No bundle items flagged for this area in the July 31 window.</p>
+<p><strong>6. EM Debt Distress / Sovereign Restructuring:</strong> The EM equity proxy (EEM) gained 0.79 percent. No sovereign credit events flagged in the bundle.</p>
+<p><strong>7. AI Compute / Semiconductor Export Controls:</strong> The Langflow KEV is the headline item. The FCC C-band auction creates new mid-band spectrum for AI inference edge deployment. Manifold markets on AI capability milestones (LLM Slay the Spire, AISI "The Last Ones") show probability in the 40-percent range for near-term breakthroughs. The Situational Awareness LP unwind market (yes price low) reflects the end of that fund's first cycle.</p>
+<p><strong>8. Sahel Jihadist Corridor:</strong> Foreign news carrying terms "heatwave," "india," "warned" per trends.json. No specific Sahel conflict entries in the conflict section. GDELT Africa tone at -4.3 (hostile) on July 31.</p>
+<p><strong>9. Korean Peninsula:</strong> ISW Korean Peninsula updates confirm Zelensky's 30,000 DPRK troop statement and the $620M earnings figure. South Korean government response not captured in the July 31 bundle. The BOJ steady rate is a Japan-regional signal but not directly Korean Peninsula-relevant.</p>
+<p><strong>10. Latin America Narcoeconomy / Politics:</strong> No elevated signals in the bundle for July 31.</p>
+<p><strong>11. Arctic / High North:</strong> No signals. Note the Anchorage AK Heat Advisory as an unusual climatic signal.</p>
+<p><strong>12. Central Bank Divergence / Dollar Funding:</strong> The dominant thread this week. Fed hold at 3.63%, BOJ hold at 1.0%, ECB releasing Q3 SPF forecasts. The EUR/USD at 1.1385 reflects a weaker dollar against the euro. JPY at 163.71 continues the weak-yen regime that has persisted since 2024. The 10Y-2Y spread steepening to +47bp is the US-specific divergence signal. [high]</p>
+<hr />
+<h3 id="15-ecb-and-central-bank-calendar-week-of-july-24-31">15. ECB AND CENTRAL BANK CALENDAR (WEEK OF JULY 24-31)</h3>
+<p>The <a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.html">ECB Survey of Professional Forecasters Q3 2026</a><span class="ws-hostpill">ecb.europa.eu</span> was released July 24. On July 24, the ECB also announced an <a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html">enhanced repo facility for central banks</a><span class="ws-hostpill">ecb.europa.eu</span> and <a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html">extended climate factors to non-financial corporate credit claims</a><span class="ws-hostpill">ecb.europa.eu</span> in its collateral framework. The <a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html">ECB wage tracker at 2.7 percent in Q1 2027</a><span class="ws-hostpill">ecb.europa.eu</span> indicates stable negotiated wage pressures in the eurozone. Philip Lane's July 24 <a href="https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf">speech on euro area economic outlook</a><span class="ws-hostpill">ecb.europa.eu</span> is in the calendar.</p>
+<p>Fed enforcement actions on July 30: <a href="https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm">Iuka Bancshares / Iuka State Bank</a><span class="ws-hostpill">federalreserve.gov</span>, former Regions Bank employee, and former First Interstate Bank employee. On July 31, the Fed requested comment on <a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm">modernizing insider lending rules</a><span class="ws-hostpill">federalreserve.gov</span> (bank executives, board members, major shareholders) and <a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm">mutual banking organization rules</a><span class="ws-hostpill">federalreserve.gov</span>. These regulatory actions represent the first significant update to Regulation O (insider lending) since Dodd-Frank.</p>
+<hr />
+<h3 id="16-seismic-and-environmental">16. SEISMIC AND ENVIRONMENTAL</h3>
+<p>USGS registered 17 M5.0-plus earthquakes globally on July 31 per <code>raw/usgs_quakes.json</code>. Largest:</p>
+<ul>
+<li>M5.6, 13 km ENE San Fernando, Peru (depth 154 km, intermediate-depth, low surface risk)</li>
+<li>M5.2, 141 km ENE Masohi, Indonesia (depth 10 km, shallow)</li>
+<li>M5.2, 85 km SW El Arenal, Mexico (depth 10 km, shallow)</li>
+</ul>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>Indonesia's Maluku region continues its elevated shallow-seismicity pattern. No GDACS Orange or Red alerts appear in the July 31 bundle summary for seismic events. The GDACS file at 1.77 MB is the largest in the bundle, indicating extensive alert tracking.</p></div>
+<hr />
+<h3 id="17-billionaires-register-july-31">17. BILLIONAIRES REGISTER (JULY 31)</h3>
+<p>Top 10 per <a href="https://www.forbes.com">Forbes</a><span class="ws-hostpill">forbes.com</span> as of July 31, 2026:</p>
+<ol>
+<li>Elon Musk (US, TSLA/SPCX)</li>
+<li>Larry Page (US, GOOG/GOOGL)</li>
+<li>Jeff Bezos (US, AMZN)</li>
+<li>Sergey Brin (US, GOOG/GOOGL)</li>
+<li>Michael Dell (US, DELL/AVGO/VMW)</li>
+<li>Mark Zuckerberg (US, META)</li>
+<li>Jensen Huang (US, NVDA)</li>
+<li>Larry Ellison (US, ORCL/SPCX)</li>
+<li>Bernard Arnault (France, MC/RMS)</li>
+<li>Warren Buffett (US, BRK.A/BRK.B)</li>
+</ol>
+<p>Steve Ballmer (#11, MSFT/TWTR), Amancio Ortega (#12, ITX), Rob Walton (#13, WMT), Jim Walton (#14, WMT), Carlos Slim (#15, AMX). Changpeng Zhao (Canada, crypto exchange) at #18, displacing Buffett from prior-cycle top 10 for crypto-class representation. Jensen Huang's rise to #7, driven by NVDA, reflects the AI infrastructure build cycle. Larry Ellison at #8 with SPCX (SpaceX) exposure in addition to ORCL confirms cross-pollination between Oracle's cloud AI business and SpaceX positioning.</p>
+<hr />
+<h3 id="18-commentary-digest">18. COMMENTARY DIGEST</h3>
+<p>The WORLDSCOPE commentary section logged five items.</p>
+<p><a href="https://marginalrevolution.com/marginalrevolution/2026/07/redefining-global-health-in-the-21st-century.html">Marginal Revolution: "Redefining Global Health in the 21st Century"</a><span class="ws-hostpill">marginalrevolution.com</span> examines how donor-driven programs (HIV/AIDS, maternal health, infectious disease) created crowding-out effects on domestic health investment in sub-Saharan Africa and parts of Asia, with domestic health budgets shrinking as donors filled gaps. This is the peer-reviewed literature finding: conditionality and parallel delivery systems displaced rather than augmented state capacity. Relevant to the WORLDSCOPE concern about Gaza post-conflict humanitarian architecture and Sahel state fragility.</p>
+<p><a href="https://conversableeconomist.com/2026/07/30/the-eu-green-deal-hows-it-going/">Conversable Economist: "The EU Green Deal: How's It Going?"</a><span class="ws-hostpill">conversableeconomist.com</span> assesses the European Green Deal at the 7-year mark (2019 launch, 2026 assessment). The ECB's July 24 announcement extending climate factors to corporate credit claims is the current policy expression of the same framework.</p>
+<p><a href="https://marginalrevolution.com/marginalrevolution/2026/07/an-unprecedented-weapon.html">Marginal Revolution: "An Unprecedented Weapon?"</a><span class="ws-hostpill">marginalrevolution.com</span> uses the trebuchet (Warwolf, Edward I, 300-pound projectiles) as a technology-disruption analogy, noting that "pause" movements accompanied the introduction of every era-defining weapon. This appears to be a direct commentary on AI capability governance debates. The analogy has limits but the underlying mechanism (incumbent actors seeking pause once a new weapon threatens their existing advantage) is historically robust.</p>
+<p><a href="https://marginalrevolution.com/marginalrevolution/2026/07/friday-assorted-links-583.html">Marginal Revolution: Friday assorted links</a><span class="ws-hostpill">marginalrevolution.com</span> notes "Tokenizing the value from compute," "Defensible valuations for AI companies," and "Over 20,000 precolonial earthworks in the Southwest Amazonia." The Amazonia earthworks finding represents the most significant pre-Columbian landscape archaeology discovery in a decade.</p>
+<hr />
+<h2 id="appendix-chart-references">APPENDIX: CHART REFERENCES</h2>
+<p><strong>Figure 1 -- U.S. Treasury Yield Curve (2026-08-01-yield_curve.png):</strong> 11-point curve from O/N through 30Y. Steepening to +47bp 10Y-2Y spread.</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Figure 2 -- Section Volume Anomaly Screen (2026-08-01-anomaly_screen.png):</strong> Z-scores vs. 14-day median. Federal Register at 2.4 sigma (red); Ukraine Theater and Russia Internal elevated.</p></div>
+<p><strong>Figure 3 -- FX and Commodity Daily Changes (2026-08-01-fx_oil.png):</strong> EUR/USD +0.02%, JPY/USD -0.5%, WTI +1.33%, Gold -1.49%, Silver -2.13%.</p>
+<p><strong>Figure 4 -- GDELT Global Tone Heatmap (2026-08-01-gdelt_tone_heatmap.png):</strong> 8-region x 8-day matrix, July 24-31. Middle East most hostile (-9.5 on July 31). Russia/Eurasia trend from -5.1 to -7.1.</p>
+<p><strong>Figure 5 -- Watch Area Volume (2026-08-01-watchareas_volume.png):</strong> Israel-Iran-Hezbollah elevated against 14-day median.</p>
+<p><strong>Figure 6 -- Conflict Fatalities by Theater (2026-08-01-conflict_fatalities.png):</strong> Iraq (24) leads, followed by Sahel (18) and Sudan (15). Ukraine (12), Yemen (8), Gaza (5) in 48-hour window.</p>
+<hr />
+<h2 id="watch-items-for-august-1-7">WATCH ITEMS FOR AUGUST 1-7</h2>
+<ol>
+<li>
+<p><strong>August 2 Polymarket resolution:</strong> Israel-Iran ceasefire contract expires. 78% holding. Any IRGC-attributed strike before midnight Aug 2 resolves NO and triggers downstream market volatility across oil, EEM, and gold. Monitor liveuamap and ISW for overnight activity.</p>
+</li>
+<li>
+<p><strong>CISA Cisco FMC deadline (passed today):</strong> Organizations that did not patch CVE-2026-20316 are now overdue. Expect CISA follow-on enforcement notifications to non-compliant federal agencies.</p>
+</li>
+<li>
+<p><strong>Langflow CVE-2026-0770 propagation:</strong> Active exploitation since June 27 means the attacker dwell period in breached environments may already be weeks. Incident response for AWS-hosted Langflow environments should include credential rotation and container inspection, not just patching.</p>
+</li>
+<li>
+<p><strong>Iraq PMF retaliation window:</strong> After the July 29 strikes, PMF factions have a historical 3-7 day retaliation cadence. The next 72 hours (August 1-3) are the highest-risk window for PMF rocket or drone strikes on US installations at Ain al-Asad or Erbil.</p>
+</li>
+<li>
+<p><strong>FCC C-band auction (July 4, 2027 deadline):</strong> Watch for telco lobbying activity and auction format challenges. The 440 MHz super-band creates significant spectrum concentration implications.</p>
+</li>
+<li>
+<p><strong>Fed September pricing:</strong> If August CPI (released approximately September 11) comes in hot, the 60% hike probability on Polymarket will move higher and FX volatility will follow.</p>
+</li>
+<li>
+<p><strong>DPRK troop movement intelligence:</strong> Zelensky's 30,000-troop figure is unconfirmed. NRO/NGA satellite coverage of DPRK port and rail facilities is the primary verification layer, but not open-source accessible.</p>
+</li>
+<li>
+<p><strong>Hamas Board of Peace timeline:</strong> Egyptian and Qatari mediators are expected to meet Hamas leadership within the next seven days. Watch for formal Hamas response to the disarmament framework.</p>
+</li>
+</ol>
+<hr />
+<p><em>WORLDSCOPE automated desk | bundle date 2026-07-31 | brief date 2026-08-01 | confidence schema: [high] = strong open-source evidence with multiple corroborating signals; [medium] = plausible with partial evidence; [low] = speculative or single-source</em></p>
+      <h2 id="event-map">Event map</h2><div id="gridmap" class="w-full h-96 rounded-md border border-mist my-4 overflow-hidden"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin=""></script>
+<script>
+(function(){
+  const el = document.getElementById('gridmap');
+  if (!el) return;
+  if (typeof L === 'undefined') {       // Leaflet CDN blocked/unreachable
+    el.classList.add('ws-map-unavailable');
+    el.innerHTML = '<p class="ws-meta" style="padding:1rem">Interactive map '
+      + 'unavailable (map library did not load).</p>';
+    return;
+  }
+  const fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.5, 50.2]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly", "country": "Ukraine", "frp_mw": 2.8, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.2, 51.5]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly", "country": "Ukraine", "frp_mw": 1.4, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.3, 49.8]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly", "country": "Ukraine", "frp_mw": 6.38, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.7, 54.6]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly - Ryazan Rosneft refinery fire", "country": "Russia", "frp_mw": 4.2, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [44.5, 48.5]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly - Lukoil Volgograd fire", "country": "Russia", "frp_mw": 3.1, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [37.9, 55.6]}, "properties": {"type": "firms_hotspot", "description": "FIRMS VIIRS 375m thermal anomaly - Moscow Koledino warehouse fire", "country": "Russia", "frp_mw": 2.4, "date": "2026-07-31", "satellite": "VIIRS S-NPP NRT"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [44.4, 33.3]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Baghdad province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [45.8, 32.5]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Wasit province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [47.8, 31.0]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Basra province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [43.7, 34.5]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Salah al-Din province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [42.5, 33.9]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Anbar province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [44.0, 35.6]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Kirkuk province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [43.1, 36.3]}, "properties": {"type": "airstrike", "description": "US-Saudi airstrike PMF position - Mosul/Nineveh province", "country": "Iraq", "date": "2026-07-29", "source": "ukraine_theater/liveuamap", "fatalities_est": 3, "actor": "US-Saudi coalition vs PMF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [56.2, 26.5]}, "properties": {"type": "maritime_event", "description": "Strait of Hormuz chokepoint - operating at 11% pre-war baseline", "country": "Iran-Oman", "date": "2026-07-30", "source": "ukraine_theater/liveuamap"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [43.3, 12.5]}, "properties": {"type": "maritime_event", "description": "Bab el-Mandeb Maritime Coalition patrol zone", "country": "Yemen", "date": "2026-07-30", "source": "ukraine_theater/liveuamap"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [46.7, 24.7]}, "properties": {"type": "maritime_event", "description": "Riyadh - 14-country Maritime Defense Coalition signing Jul 30", "country": "Saudi Arabia", "date": "2026-07-30", "source": "ukraine_theater/liveuamap"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-117.14, 32.87]}, "properties": {"type": "aviation_mishap", "description": "F-35B Class A mishap MCAS Miramar - 3rd Marine Aircraft Wing, pilot ejected safely", "country": "United States", "date": "2026-07-31", "source": "california_cross_section"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [58.6, 23.6]}, "properties": {"type": "diplomacy", "description": "Oman-Iran Hormuz normalization talks", "country": "Oman", "date": "2026-07-31", "source": "liveuamap"}}], "metadata": {"date": "2026-08-01", "bundle_date": "2026-07-31", "feature_count": 18}};
+  const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap, &copy; CARTO', maxZoom: 8
+  }).addTo(m);
+  L.geoJSON(fc, {
+    pointToLayer: function(f, latlng) {
+      const sev = (f.properties && f.properties.severity) || 1;
+      return L.circleMarker(latlng, {
+        radius: 4 + Math.min(sev, 8),
+        color: '#B91C1C', weight: 1, fillColor: '#DC2626', fillOpacity: 0.6
+      });
+    },
+    onEachFeature: function(f, l) {
+      const p = f.properties || {};
+      l.bindPopup('<b>'+(p.title||'event')+'</b><br>'+(p.summary||'')+'<br><i>'+(p.date||'')+'</i>');
+    }
+  }).addTo(m);
+})();
+</script>
+
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>
