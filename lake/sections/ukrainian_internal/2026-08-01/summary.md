@@ -2,60 +2,64 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-01
-record_count: 118
-new_today: 38
+record_count: 119
+new_today: 40
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-38 new of 118 total items today.
+40 new of 119 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-01*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-01*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-01*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [[TITLE: Дві ракети вдарили по території "Київмедспецтранс", є руйнування – Кличко | LEDE: Унаслідок російської атаки в ніч на 1 серпня два влучання зафіксували на території комунальної організації "Киї] (uk: Дві ракети вдарили по території "Київмедспецтранс", є руйнування – Кличко)](https://www.pravda.com.ua/news/2026/08/01/8046792/) — *2026-08-01*
-  > Унаслідок російської атаки в ніч на 1 серпня два влучання зафіксували на території комунальної організації "Київмедспецтранс".
-- **NEW**  [[TITLE: Рубіо пообіцяв з’ясувати, чи можна відновити переговори між Україною і РФ | LEDE: США планують дипломатичну активізацію для відновлення мирних переговорів між Україною та Росією найближчими тиж] (uk: Рубіо пообіцяв з’ясувати, чи можна відновити переговори між Україною і РФ)](https://www.pravda.com.ua/news/2026/08/01/8046799/) — *2026-08-01*
-  > США планують дипломатичну активізацію для відновлення мирних переговорів між Україною та Росією найближчими тижнями.
-- **NEW**  [[TITLE: У США розбився винищувач F-35 | LEDE: ] (uk: У США розбився винищувач F-35)](https://www.pravda.com.ua/news/2026/08/01/8046798/) — *2026-08-01*
-- **NEW**  [[TITLE: Зеленський пояснив збиття лише однієї балістичної ракети під час масованої атаки | LEDE: ] (uk: Зеленський пояснив збиття лише однієї балістичної ракети під час масованої атаки)](https://www.pravda.com.ua/news/2026/08/01/8046796/) — *2026-08-01*
-- **NEW**  [[TITLE: У районі Неаполя стався потужний землетрус: є поранені | LEDE: ] (uk: У районі Неаполя стався потужний землетрус: є поранені)](https://www.pravda.com.ua/news/2026/08/01/8046795/) — *2026-08-01*
-- **NEW**  [[TITLE: Росія атакувала Україну 35 ракетами, дві з яких вдалося збити – ПС | LEDE: У ніч на 1 серпня РФ атакувала Україну 35 ракетами й 185 дронами. 156 цілей знешкоджено, є жертви в Києві.] (uk: Росія атакувала Україну 35 ракетами, дві з яких вдалося збити – ПС)](https://www.pravda.com.ua/news/2026/08/01/8046794/) — *2026-08-01*
-  > У ніч на 1 серпня РФ атакувала Україну 35 ракетами й 185 дронами. 156 цілей знешкоджено, є жертви в Києві.
-- **NEW**  [[TITLE: Сили оборони уразили склад морських дронів, мости та підрозділ розвідки РФ у Криму | LEDE: У ніч на 1 серпня Сили оборони України уразили склад російських морських безекіпажних катерів, два зал] (uk: Сили оборони уразили склад морських дронів, мости та підрозділ розвідки РФ у Кри)](https://www.pravda.com.ua/news/2026/08/01/8046793/) — *2026-08-01*
-  > У ніч на 1 серпня Сили оборони України уразили склад російських морських безекіпажних катерів, два залізничні мости та низку інших військових об'єктів на окупованих територіях.
-- **NEW**  [[TITLE: Наслідки удару ворожою балістикою по Києву: 9 загиблих і понад 30 потерпілих | LEDE: Росіяни вдарили балістикою по Києву в ніч на 1 серпня: 9 людей загинуло, понад 20 отримали поранення.] (uk: Наслідки удару ворожою балістикою по Києву: 9 загиблих і понад 30 потерпілих)](https://www.pravda.com.ua/news/2026/08/01/8046784/) — *2026-08-01*
-  > Росіяни вдарили балістикою по Києву в ніч на 1 серпня: 9 людей загинуло, понад 20 отримали поранення.
-- **NEW**  [[TITLE: Латвія закрила кордон з Білоруссю через технічний збій | LEDE: ] (uk: Латвія закрила кордон з Білоруссю через технічний збій)](https://www.pravda.com.ua/news/2026/08/01/8046791/) — *2026-08-01*
-- **NEW**  [[TITLE: Росіяни вбили людину та поранили ще 29 на Херсонщині | LEDE: 31 липня російські обстріли на Херсонщині забрали життя 1 людини, ще 29, зокрема дитина, отримали поранення.] (uk: Росіяни вбили людину та поранили ще 29 на Херсонщині)](https://www.pravda.com.ua/news/2026/08/01/8046790/) — *2026-08-01*
-  > 31 липня російські обстріли на Херсонщині забрали життя 1 людини, ще 29, зокрема дитина, отримали поранення.
-- **NEW**  [[TITLE: "Пекельна ніч у Києві": Сибіга наголосив на потребі у ППО | LEDE: Глава МЗС України Андрій Сибіга заявив, що Росія цієї ночі влаштувала справжнє пекло у Києві та наголосив на потребі терміновог] (uk: "Пекельна ніч у Києві": Сибіга наголосив на потребі у ППО)](https://www.pravda.com.ua/news/2026/08/01/8046789/) — *2026-08-01*
-  > Глава МЗС України Андрій Сибіга заявив, що Росія цієї ночі влаштувала справжнє пекло у Києві та наголосив на потребі термінового зміцнення української ППО.
-- **NEW**  [[TITLE: На фронті сталося 130 боїв, найбільше – на Покровському напрямку | LEDE: Росіяни здійснили 130 атак за добу по всій лінії фронту, найбільше — на Покровському напрямку.] (uk: На фронті сталося 130 боїв, найбільше – на Покровському напрямку)](https://www.pravda.com.ua/news/2026/08/01/8046788/) — *2026-08-01*
-  > Росіяни здійснили 130 атак за добу по всій лінії фронту, найбільше — на Покровському напрямку.
-- **NEW**  [[TITLE: У двох областях за добу росіяни вбили одну людину, ще десятьох – поранили | LEDE: За минулу добу у Дніпропетровській та Донецькій областях росіяни вбили одну людину, десятьох – поранили.] (uk: У двох областях за добу росіяни вбили одну людину, ще десятьох – поранили)](https://www.pravda.com.ua/news/2026/08/01/8046787/) — *2026-08-01*
-  > За минулу добу у Дніпропетровській та Донецькій областях росіяни вбили одну людину, десятьох – поранили.
-- **NEW**  [[TITLE: Сили оборони знешкодили ще 1 470 російських окупантів | LEDE: За минулу добу Сили оборони відмінусували ще 1 470 російських окупантів і 82 артсистеми ворога.] (uk: Сили оборони знешкодили ще 1 470 російських окупантів)](https://www.pravda.com.ua/news/2026/08/01/8046786/) — *2026-08-01*
-  > За минулу добу Сили оборони відмінусували ще 1 470 російських окупантів і 82 артсистеми ворога.
-- **NEW**  [[TITLE: У США розбився винищувач-невидимка F-35B | LEDE: Американський винищувач-невидимка (stealth fighter) F-35B розбився у Каліфорнії, пілот встиг катапультуватися.] (uk: У США розбився винищувач-невидимка F-35B)](https://www.pravda.com.ua/news/2026/08/01/8046783/) — *2026-08-01*
-  > Американський винищувач-невидимка (stealth fighter) F-35B розбився у Каліфорнії, пілот встиг катапультуватися.
-- **NEW**  [[TITLE: Міф проти міфу | LEDE: 1-го серпня в сусідній Польщі відзначають Національний день пам'яті Варшавського повстання. Повстання, яке тривало 63 дні, зазнало поразки, завершилося майже повним руйну] (uk: Міф проти міфу)](https://www.pravda.com.ua/articles/2026/08/01/8046702/) — *2026-08-01*
-  > 1-го серпня в сусідній Польщі відзначають Національний день пам'яті Варшавського повстання. Повстання, яке тривало 63 дні, зазнало поразки, завершилося майже повним руйнуванням польської столиці та загибеллю приблизно 180 000 цивільних осіб.
-- **NEW**  [[TITLE: Через ворожу атаку на Київщині горить підприємство, двоє потерпілих | LEDE: На Київщині внаслідок ворожої атаки спалахнула пожежа на промисловому підприємстві, постраждали двоє людей.] (uk: Через ворожу атаку на Київщині горить підприємство, двоє потерпілих)](https://www.pravda.com.ua/news/2026/08/01/8046782/) — *2026-08-01*
-  > На Київщині внаслідок ворожої атаки спалахнула пожежа на промисловому підприємстві, постраждали двоє людей.
-- **NEW**  [[TITLE: США та Ізраїль можуть завдати ударів по енергетиці Ірану на вихідних – ЗМІ | LEDE: За даними CBS News, США та Ізраїль планують одну з наймасштабніших атак на об'єкти енергетичної інфраструктури] (uk: США та Ізраїль можуть завдати ударів по енергетиці Ірану на вихідних – ЗМІ)](https://www.pravda.com.ua/news/2026/08/01/8046781/) — *2026-08-01*
-  > За даними CBS News, США та Ізраїль планують одну з наймасштабніших атак на об'єкти енергетичної інфраструктури в Ірані на цих вихідних.
-- **NEW**  [[TITLE: У Києві та низці областей лунала друга з початку доби повітряна тривога | LEDE: О 3:17 у Києві та низці областей оголошували другу повітряну тривогу з початку доби.] (uk: У Києві та низці областей лунала друга з початку доби повітряна тривога)](https://www.pravda.com.ua/news/2026/08/01/8046780/) — *2026-08-01*
-  > О 3:17 у Києві та низці областей оголошували другу повітряну тривогу з початку доби.
-- [[TITLE: "Можемо взяти практично все, що захочемо" – Трамп про угоду з Україною про надра | LEDE: Президент США Дональд Трамп зробив заяву з приводу угоди про рідкісноземельні ресурси, яка, за його слов] (uk: "Можемо взяти практично все, що захочемо" – Трамп про угоду з Україною про надра)](https://www.pravda.com.ua/news/2026/08/01/8046779/) — *2026-08-01*
-  > Президент США Дональд Трамп зробив заяву з приводу угоди про рідкісноземельні ресурси, яка, за його словами, забезпечує Сполученим Штатам доступ до українських надр і може виявитися вигіднішою за обсяг наданої американської допомоги.
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-01*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-01*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-08-01*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
+- **NEW**  [Russian Attack on Kyiv Damages Lithuanian Embassy, 25 Ambulances](https://www.kyivpost.com/post/81530) — *2026-08-01*
+  > A massive Russian missile and drone attack on Kyiv damaged the Lithuanian embassy and a medical transport depot, destroying five ambulances and significantly damaging 20 others on Saturday morning. Ukrainian officials confirmed the strike caused major disruptions to the city’s me
 - **NEW**  [Drone Barrage Hits Ufa Refineries and Crimea Bases](https://www.kyivpost.com/post/81525) — *2026-08-01*
   > On Saturday, Aug. 1, a massive Ukrainian drone strike targeted Russian oil refineries in Ufa, Bashkortostan, and military positions in occupied Crimea. The Russian Defense Ministry claimed to have intercepted 274 drones across 16 regions. In Ufa, flight operations were restricted
 - **NEW**  [Ukraine Downs Only 1 Ballistic Missile During Massive Attack on Kyiv](https://www.kyivpost.com/post/81526) — *2026-08-01*
   > A massive overnight Russian attack involving 35 missiles and 185 drones resulted in at least nine deaths and 30 injuries in Kyiv. Due to a critical shortage of Patriot interceptors, Ukrainian air defenses were only able to shoot down one ballistic missile. The strikes affected se
+- **NEW**  [Explainer: Why Kyiv’s Shelters Fail Civilians Under Russian Attack](https://www.kyivpost.com/post/81517) — *2026-08-01*
+  > Bureaucratic delays, geography and outdated architecture have left Ukraine without enough adequate shelters. Even where protection is available, the realities of a high-intensity war often discourage civilians from using it.
+- **NEW**  [Russian E-Commerce Prices Surge After Wildberries Strikes](https://www.kyivpost.com/post/81521) — *2026-08-01*
+  > Prices for goods on major Russian online marketplaces, primarily Wildberries and Ozon, have surged by 10% to 30% in recent days following a series of Ukrainian drone strikes targeting logistics infrastructure. The price hikes are driven by the sudden cancellation of platform-fund
+- **NEW**  [Polish F-16s Intercept Russian Il-20 Plane Over Baltic Sea](https://www.kyivpost.com/post/81519) — *2026-08-01*
+  > Two Polish F-16 fighter jets intercepted a Russian Il-20 reconnaissance aircraft flying over the Baltic Sea approximately 40 kilometers north of Kołobrzeg on July 31. Defense Minister Władysław Kosiniak-Kamysz confirmed the aircraft remained in international airspace but was flyi
+- **NEW**  [Zelensky Updates NSDC Roster Amid Government Reshuffle](https://www.kyivpost.com/post/81516) — *2026-08-01*
+  > President Volodymyr Zelensky updated the composition of Ukraine’s National Security and Defense Council (NSDC) on July 31, bringing in new key leadership following a major government reshuffle. The newly appointed members include Commander-in-Chief Mykhailo Drapatyi, Prime Minist
+- **NEW**  [Ukrainian Woman Assaulted in Polish City of Gdynia](https://www.kyivpost.com/post/81515) — *2026-08-01*
+  > A 40-year-old Ukrainian woman was assaulted from behind with a wooden cane in Gdynia, Poland, on July 30, requiring a brief period of hospitalization. Police are reviewing surveillance footage to identify the suspect, described by witnesses as an elderly man, though a xenophobic 
+- **NEW**  [Trump Claims US Can Take ‘Whatever We Want’ from Ukraine Mines](https://www.kyivpost.com/post/81514) — *2026-08-01*
+  > US President Donald Trump stated in an interview with Real America’s Voice that the critical minerals deal signed with Kyiv allows the US to access Ukraine’s rare earth resources “at any time” and take “pretty much whatever we want,” valuing the agreement at over $300 billion. Th
+- **NEW**  [ISW Russian Offensive Campaign Assessment, July 31, 2026](https://www.kyivpost.com/post/81501) — *2026-08-01*
+  > War in Ukraine - Latest update, key takeaways and map from the Institute for the Study of War on July 31, 2026
+- **NEW**  [Pentagon to Hand Ukraine Aid Command to NATO Ally – Politico](https://www.kyivpost.com/post/81512) — *2026-08-01*
+  > The Pentagon plans to transfer leadership of the command coordinating weapons deliveries and training for Ukraine to another NATO member, Politico reported. Officials said the change should not disrupt military assistance.
+- **NEW**  [Toys and Flowers Cover the Ruins as Radushne Mourns Family Killed by Russian Missile](https://www.kyivpost.com/post/81511) — *2026-08-01*
+  > Six of 10 members of the Voronov family were killed when a Russian missile destroyed their home in Radushne on July 30. President Zelensky said preliminary evidence indicated that Russia used a North Korean ballistic missile.
+- **NEW**  [3 Women Hospitalized After Another Russian Drone Strike on Kharkiv](https://www.kyivpost.com/post/81510) — *2026-08-01*
+  > A Russian drone strike on Kharkiv’s Nemyshlianskyi district injured three women aged 41, 47 and 71. The attack followed two earlier drone strikes on the city’s Saltivskyi district.
+- **NEW**  [The Father, the Daughter and the Kremlin: Why Putin Wants Zhanna Nemtsova in Jail](https://www.kyivpost.com/opinion/81509) — *2026-08-01*
+  > A Moscow court has ordered Zhanna Nemtsova’s arrest over her work with the foundation honoring her murdered father, Boris Nemtsov. The case shows how the Kremlin still fears his democratic legacy and his opposition to Russia’s war against Ukraine.
+- **NEW**  [Fire Breaks Out at St. Basil’s Cathedral on Moscow’s Red Square](https://www.kyivpost.com/post/81508) — *2026-08-01*
+  > A fire broke out in the director’s office at Moscow’s St. Basil’s Cathedral early Saturday, burning an area of about 10 square meters. Around 10 fire engines responded, and the blaze was extinguished without injuries.
+- **NEW**  [9 Killed, 30 Wounded as Russia Pounds Kyiv With Ballistic Missiles](https://www.kyivpost.com/post/81507) — *2026-08-01*
+  > A mass Russian ballistic missile attack killed nine people and wounded 30 across five Kyiv districts. Seven were killed in Darnytskyi, while rescuers evacuated 35 people from a damaged residential building in Solomianskyi.
+- **NEW**  [Trump Casts Doubt on Ukraine Patriot Production License](https://www.kyivpost.com/post/81505) — *2026-08-01*
+  > Donald Trump said Washington has not approved licensed Patriot interceptor production in Ukraine, citing concerns over sharing advanced US weapons technology. His remarks represent a retreat from his July commitment as Kyiv urgently seeks protection from intensifying Russian ball
+- [Ukraine War News Today - Top Stories and Breaking Updates from Kyiv Post](https://www.kyivpost.com/thread/81502) — *2026-08-01*
+  > Stay informed with the most important Ukraine breaking news today. This page compiles the top headlines and critical updates from across Ukraine, offering a real-time snapshot of key developments. Whether it’s military updates, political changes, or international reactions — we b
+- [Sybiha, Kallas Discuss Black Sea Security, Agree on More Pressure Against Russia](https://www.kyivpost.com/post/81500) — *2026-07-31*
+  > Foreign Minister Andrii Sybiha held a call with EU foreign policy chief Kaja Kallas on Friday, briefing her on recent Russian attacks on Ukrainian cities and Black Sea shipping. The two also discussed Ukraine’s defense needs and recent diplomacy with Iran.
+- [General Staff of AFU Reports 207 Combat Clashes in 24 Hours](https://www.kyivpost.com/post/81499) — *2026-07-31*
+  > The General Staff of the Armed Forces of Ukraine (AFU) reported 207 combat clashes over a 24-hour period on Friday, July 31, reporting heaviest fighting near Pokrovsk, where the AFU repelled 28 enemy attacks. Russian forces carried out 55 airstrikes and nearly 2,000 shellings nat
 
-_(93 additional items in raw.jsonl)_
+_(94 additional items in raw.jsonl)_

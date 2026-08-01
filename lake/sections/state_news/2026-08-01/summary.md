@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-01
-record_count: 723
-new_today: 39
+record_count: 725
+new_today: 41
 state: fresh
 ---
 
 ## State-Level News
 
-39 new of 723 total items today.
+41 new of 725 total items today.
 
 - [[Alabama] Ladale Garrett – Talladega County Award](https://governor.alabama.gov/newsroom/2026/07/ladale-garrett-talladega-county-award/) — *2026-07-31*
   > Download
@@ -25,6 +25,14 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-announces-California-will-raise-statewide-minimum-wage-to-highest-in-nation-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Governor Newsom ann
 - [[California] Governor Newsom deploys elite wildfire team to Washington State as western fires surge](https://www.gov.ca.gov/2026/07/29/governor-newsom-deploys-elite-wildfire-team-to-washington-state-as-western-fires-surge/) — *2026-07-30*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-deploys-elite-wildfire-team-to-Washington-State-as-western-fires-surge-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="l
+- **NEW**  [[Alaska] Shooting Sports Month 2026](https://gov.alaska.gov/shooting-sports-month-2026/) — *2026-08-01*
+  > WHEREAS, Alaskans enjoy a variety of outdoor activities throughout the year, and many of those activities, from hiking and hunting to recreational shooting, involve the use of firearms; and WHEREAS, many Alaskans rely on and take pride in the ability to use firearms to feed and p
+- [[Alaska] Governor Dunleavy Announces Creation of Alaska Military Affairs Office](https://gov.alaska.gov/governor-dunleavy-announces-creation-of-alaska-military-affairs-office/) — *2026-07-30*
+  > Strengthens National Defense, Military Partnerships, and Economic Opportunity Today Governor Mike Dunleavy joins Major General Torrence Saxe to announce the establishment of the Alaska Military Affairs Office (AMAO) within the Alaska Department of Military and Veterans Affairs (D
+- [[Alaska] Alaska National Guard Day 2026](https://gov.alaska.gov/alaska-national-guard-day-2026/) — *2026-07-30*
+  > WHEREAS, since before World War II, the Alaska National Guard has acted as a first line of defense for the United States of America; and WHEREAS, the Alaska National Guard serves our Nation when called by federal service, and Alaska National Guard members stand ready to serve the
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-01*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
 - [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-01*
   > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - [[California] Universidad de California rompe relaciones con la Patrulla Fronteriza tras protestas estudiantiles](https://calmatters.org/calmatters-en-espanol/2026/07/universidad-de-california-patrulla-fronteriza-protestas/) — *2026-07-31*
@@ -47,21 +55,13 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071326-UC-Irvine-LO-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a blue jacket, wearing a medi
 - [[California] Two cities burned in LA fires settle YIMBY lawsuit](https://calmatters.org/housing/2026/07/yimby-sb9-malibu-pasadena/) — *2026-07-31*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/061726-Eaton-Fire-Rebuild-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows several houses un
-- **NEW**  [[Alaska] Shooting Sports Month 2026](https://gov.alaska.gov/shooting-sports-month-2026/) — *2026-08-01*
-  > WHEREAS, Alaskans enjoy a variety of outdoor activities throughout the year, and many of those activities, from hiking and hunting to recreational shooting, involve the use of firearms; and WHEREAS, many Alaskans rely on and take pride in the ability to use firearms to feed and p
-- [[Alaska] Governor Dunleavy Announces Creation of Alaska Military Affairs Office](https://gov.alaska.gov/governor-dunleavy-announces-creation-of-alaska-military-affairs-office/) — *2026-07-30*
-  > Strengthens National Defense, Military Partnerships, and Economic Opportunity Today Governor Mike Dunleavy joins Major General Torrence Saxe to announce the establishment of the Alaska Military Affairs Office (AMAO) within the Alaska Department of Military and Veterans Affairs (D
-- [[Alaska] Alaska National Guard Day 2026](https://gov.alaska.gov/alaska-national-guard-day-2026/) — *2026-07-30*
-  > WHEREAS, since before World War II, the Alaska National Guard has acted as a first line of defense for the United States of America; and WHEREAS, the Alaska National Guard serves our Nation when called by federal service, and Alaska National Guard members stand ready to serve the
-- [[Delaware] Corporate law giants pour nearly $1M into campaign ad blitz for Democratic incumbents](https://spotlightdelaware.org/2026/07/31/corporate-law-giants-pour-nearly-1m-into-campaign-ad-blitz-for-democratic-incumbents/) — *2026-07-31*
-  > <figure><img width="1024" height="777" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Alliance-PAC.jpg?fit=1024%2C777&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https
-- [[Delaware] Photo Gallery: Sights from the Delaware State Fair](https://spotlightdelaware.org/2026/07/31/photo-gallery-sights-from-the-delaware-state-fair/) — *2026-07-31*
-  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Gallery_15_Kegelman-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
-- [[Delaware] Georgetown reconsiders controversial tiny homes ordinance amid resident pushback](https://spotlightdelaware.org/2026/07/31/georgetown-reconsiders-controversial-tiny-homes-ordinance-amid-resident-pushback/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/LittleLiving1.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0
-- [[Delaware] ‘Insidious’: Sussex County says new affordable housing law could trample transparency](https://spotlightdelaware.org/2026/07/30/insidious-sussex-county-continues-to-denounce-new-affordable-housing-law/) — *2026-07-30*
-  > <figure><img width="739" height="493" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Sussex-subdivision-web-1.jpg?fit=739%2C493&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="h
-- [[Delaware] New dollars for school construction could push forward delayed projects](https://spotlightdelaware.org/2026/07/30/new-state-dollars-to-school-construction-could-alleviate-project-backlogs/) — *2026-07-30*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Georgetown-school-construction.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" s
+- [[Connecticut] Blumenthal’s bill, mental health grants, Electric Boat: CT politics news](https://ctmirror.org/2026/07/31/ct-politics-blumenthal-bill-mental-health-electric-boat/) — *2026-07-31*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/AP26209820299823-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uplo
+- [[Connecticut] Opposition builds to redevelopment on Norwalk’s Manresa Island](https://ctmirror.org/2026/07/31/manresa-island-opposition-norwalk/) — *2026-07-31*
+  > <figure><img width="880" height="542" src="https://ctmirror.org/wp-content/uploads/2024/10/Austin-and-Allison-McChord.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2024/10/Austin-an
+- [[Connecticut] More than 17% of Connecticut residents live in a ‘pharmacy desert’](https://ctmirror.org/2026/07/31/more-than-17-of-connecticut-residents-live-in-a-pharmacy-desert/) — *2026-07-31*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/CT-STATS-PHARMACY-DESERTS-073026-JL-006-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.or
+- [[Connecticut] Officials criticize ‘misinformation’ in reports on crash that killed cop](https://ctmirror.org/2026/07/31/melissa-esperanza-ramirez-fatal-crash-stamford-new-britain/) — *2026-07-31*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2024/10/IMG_5845-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2024/10/I
 
-_(698 additional items in raw.jsonl)_
+_(700 additional items in raw.jsonl)_

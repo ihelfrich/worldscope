@@ -2,15 +2,114 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-01
-record_count: 177
-new_today: 143
+record_count: 173
+new_today: 150
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-143 new of 177 total items today.
+150 new of 173 total items today.
 
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:27AM PDT until August 1 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8968214573018f07cbdc865d195518ca4c1d9007.001.1) — *2026-08-01*
+  > * WHAT...Long-period southerly swell will bring an increased
+risk of sneaker waves and strong rip currents. Breaking waves
+will reach up to 10 feet along some south and southwest facing
+beaches and break points.
+
+* WHERE...Pacific Coast beaches.
+
+* WHEN...Through Saturday afterno
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 5:27AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86bb62c8dce5e17277cb0aec73e77539e4d75b12.001.1) — *2026-08-01*
+  > Patchy dense fog this morning can be seen on area web cameras and
+has led to reduced visibility to below 1 mile in spots. If
+traveling this morning, give yourself extra time to reach your
+destination and allow additional space between you and other
+drivers as visibilities can abr
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-11333) — *2026-08-01*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:15AM PDT until August 1 at 5:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1a0c0c28cf96071814f785c3c2f6f224a124b36.002.2) — *2026-08-01*
+  > * WHAT...For the Beach Hazards Statement, frequent, moderate to
+strong rip currents and breaking waves due to elevated surf.
+
+* WHERE...Ventura County Beaches.
+
+* WHEN...Through this afternoon.
+
+* IMPACTS... Rip currents can pull swimmers and surfers out to
+sea. Waves can wash pe
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:15AM PDT until August 1 at 5:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1a0c0c28cf96071814f785c3c2f6f224a124b36.003.1) — *2026-08-01*
+  > * WHAT...Dangerous rip currents and elevated surf. Strong,
+frequent rip currents are likely along some beaches,
+especially exposed south to southwest facing beaches along the
+Central Coast.
+
+* WHERE...San Luis Obispo County Beaches, Santa Barbara County
+Central Coast Beaches, San
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 1 at 2:14AM PDT until August 1 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.caf5457bf4c31930d1f287428d5bae190e1f2e4b.001.1) — *2026-08-01*
+  > * IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...In Oregon, the southeastern portion of Fire
+Weather Zone 624 covering the Fremont National Forest and all
+of Fire Weather Zone 625, covering the South Central Oregon
+deserts and BLM Land in Eastern 
+- **NEW**  [[Moderate] Gale Watch: The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.001.2) — *2026-08-01*
+  > The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:10AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.002.3) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, north winds 20 to 25 kt
+with gusts up to 35 kt and seas 6 to 9 ft at 7 seconds
+expected. For the Gale Warning, north winds 25 to 35 kt with
+gusts up to 45 kt and very steep seas 9 to 13 ft at 8 seconds.
+
+* WHERE...All areas.
+
+* WHEN...For th
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:10AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.001.3) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, north winds 20 to 30 kt
+with gusts up to 35 kt and seas 6 to 9 ft at 7 to 8 seconds
+expected. For the Gale Warning, north winds 25 to 35 kt with
+gusts up to 45 kt and very steep seas 9 to 13 ft at 8 seconds.
+
+* WHERE...For the Small Craft Ad
+- **NEW**  [[Moderate] Gale Watch: The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.002.2) — *2026-08-01*
+  > The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 2 at 9:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.003.2) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 20
+kt with gusts up to 30 kt. For the Gale Warning, northwest
+winds 20 to 30 kt with gusts up to 35 kt and seas 8 to 10 ft
+expected.
+
+* WHERE...Coastal Waters from Point Arena to Point Reyes
+California out to 10 NM.
+
+* 
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 3 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.002.2) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 30
+kt with gusts up to 34 kt and seas 8 to 10 ft. For the Gale
+Warning, northwest winds 25 to 35 kt with gusts up to 40 kt
+and seas 10 to 15 ft expected.
+
+* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
+
+* W
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 3 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.001.2) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 25
+kt with gusts up to 30 kt. For the Gale Warning, northwest
+winds 25 to 35 kt with gusts up to 40 kt and seas 10 to 15 ft
+expected.
+
+* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+
+* WHEN...For the Small C
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 1 at 9:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.004.2) — *2026-08-01*
+  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25
+kt with gusts up to 30 kt. For the Gale Warning, northwest
+winds 15 to 25 kt with gusts up to 35 kt expected.
+
+* WHERE...Coastal Waters from Point Pinos to Point Piedras
+Blancas California out to 10 NM.
+
+* WHEN...For
 - **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 5:00AM EDT until August 3 at 8:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.849848052d272768dc1e346927a07771a3455544.002.1) — *2026-08-01*
   > * WHAT...Dangerous swimming conditions expected.
 
@@ -118,139 +217,5 @@ In North Central WY Fire Zones...275...276...282.
 
 * COUNTIES AFFECTED:
 In Central WY...Fremont
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 1:36AM MDT until August 1 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50063b43c63d840f5e2081350386851e19de311.004.1) — *2026-08-01*
-  > * WHAT...Temperatures up to 102 expected.
 
-* WHERE...Eastern Box Elder County.
-
-* WHEN...From noon today to 9 PM MDT this evening.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 1:36AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50063b43c63d840f5e2081350386851e19de311.001.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions with temperatures up to 110.
-Warm overnight lows in the 70s will offer little relief.
-
-* WHERE...Capitol Reef National Park and Vicinity, Glen Canyon
-Recreation Area/Lake Powell, South Central Utah, Western
-Canyonlands, Lower Washington County,
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 1:36AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50063b43c63d840f5e2081350386851e19de311.003.1) — *2026-08-01*
-  > * WHAT...Temperatures up to 105 expected, with warm overnight lows
-in the upper 60s to low 70s offering little relief.
-
-* WHERE...Castle Country, Eastern Juab/Millard Counties, San Rafael
-Swell, Great Salt Lake Desert and Mountains, and Western Uinta
-Basin.
-
-* WHEN...From noon to
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 1:36AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50063b43c63d840f5e2081350386851e19de311.002.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions with temperatures up to 105
-expected. Warm overnight lows in the low to mid 70s will offer
-little relief.
-
-* WHERE...Northern Wasatch Front, Salt Lake Valley, Tooele and Rush
-Valleys, and Utah Valley.
-
-* WHEN...From noon today to 9 PM MDT Sunda
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 1:36AM MDT until August 2 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e50063b43c63d840f5e2081350386851e19de311.005.1) — *2026-08-01*
-  > * WHAT...Temperatures up to 104 expected, with warm overnight lows
-in the upper 60s to low 70s offering little relief.
-
-* WHERE...Western Millard and Juab Counties and Southwest Utah.
-
-* WHEN...From noon today to 9 PM MDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illne
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 1 at 2:36AM CDT until August 3 at 6:00AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ecb7ed81fd0b624d08d43a1deeb4e0e4d2ada72.001.1) — *2026-08-01*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...In Alabama, Mobile Coastal and Baldwin Coastal
-Counties. In Florida, Escambia Coastal, Santa Rosa Coastal and
-Okaloosa Coastal Counties.
-
-* WHEN...From 1 PM CDT this afternoon through late Sunday night.
-
-* IMPACTS...Rip current
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 1:25AM MDT until August 2 at 12:00AM MDT by NWS Billings MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ecec4ce5c787f8c7bd827295c71904431f21541.001.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions with high temperatures of 100 to
-108 expected.
-
-* WHERE...Portions of central, south central, and southeast Montana
-and north central Wyoming.
-
-* WHEN...From noon today to midnight MDT tonight.
-
-* IMPACTS...Heat related illnesses increase signi
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 1 at 5:21PM ChST until August 8 at 4:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5ec3e41bfdad988d82f5de66b14df9cd80b09c5.001.1) — *2026-08-01*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...East facing reefs of the Marianas.
-
-* WHEN...From Sunday afternoon through Saturday afternoon.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-
-* ADDITIONAL DETAILS...Long-period ea
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 12:18AM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc7ccd35c3246f12d516de7958ae0699b17ebdb.004.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 110 to
-117. Major to Extreme Heat Risk.
-
-* WHERE...The Phoenix metropolitan area.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Increase in heat related illnesses, including heat
-cramps, heat exhaustion, and heat stroke.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 12:18AM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc7ccd35c3246f12d516de7958ae0699b17ebdb.003.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
-118. Major to Extreme Heat Risk.
-
-* WHERE...Mostly rural areas of Maricopa County and northern Pinal
-County.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Increase in heat related illnesses, including heat
-cramps,
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 12:18AM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc7ccd35c3246f12d516de7958ae0699b17ebdb.002.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 108 to
-119. Major to Extreme Heat Risk.
-
-* WHERE...Mostly rural portions of southwest Arizona and southeast
-California, including Joshua Tree National Park.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ Monday.
-
-* IMPACTS...Increa
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 12:18AM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc7ccd35c3246f12d516de7958ae0699b17ebdb.001.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 112 to
-120. Major to Extreme Heat Risk.
-
-* WHERE...In Arizona, Parker Valley and Yuma. In California, Imperial
-Valley, and Palo Verde Valley.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ Monday.
-
-* IMPACTS...Increase in heat rela
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 1 at 12:18AM MST until August 3 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bc7ccd35c3246f12d516de7958ae0699b17ebdb.005.1) — *2026-08-01*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 98 to
-114. Major to Extreme Heat Risk.
-
-* WHERE...Southern Gila County and portions of northern Pinal County
-and eastern Maricopa County.
-
-* WHEN...Until 8 PM MST Monday.
-
-* IMPACTS...Increase in heat related illnesses, 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:06AM CDT until August 2 at 7:00PM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c411e1aa26e278411c63b194a8533c55c7974c09.001.1) — *2026-08-01*
-  > * WHAT...High wave action and strong currents expected.
-
-* WHERE...Beaches along Lake Michigan in Manitowoc County.
-
-* WHEN...Through Sunday evening.
-
-* IMPACTS...Dangerous swimming conditions are expected. Strong
-currents can pull swimmers into deeper water and high waves
-can sw
-
-_(152 additional items in raw.jsonl)_
+_(148 additional items in raw.jsonl)_

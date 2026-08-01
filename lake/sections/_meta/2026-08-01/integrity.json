@@ -1,55 +1,47 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T09:14:00Z",
-  "summary": "Data integrity \u00b7 30/42 sections fresh \u00b7 6 failing (acled, gdacs, gdelt_gkg, gdelt_regions, promed) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-08-01T09:37:01Z",
+  "summary": "Data integrity \u00b7 32/42 sections fresh \u00b7 5 failing (acled, gdacs, gdelt_regions, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 1 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
       "status": "FAILED",
-      "reason": "last pull failed (57\u00d7): UpstreamAuthError: ACLED authentication failed (no token)",
+      "reason": "last pull failed (58\u00d7): UpstreamAuthError: ACLED authentication failed (no token)",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 57
+      "consecutive_failures": 58
     },
     {
       "section_id": "gdacs",
       "status": "FAILED",
-      "reason": "last pull failed (2\u00d7): UpstreamHTTPError: GDACS request failed: HTTPSConnectionPool(host='www.gdacs.org', port=443): Read timed out. (read time",
-      "last_record_date": "2026-07-31",
-      "today_count": 0,
-      "consecutive_failures": 2
-    },
-    {
-      "section_id": "gdelt_gkg",
-      "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT returned nothing for any query (rate-limited / blocked)",
-      "last_record_date": "2026-07-31",
-      "today_count": 0,
-      "consecutive_failures": 1
-    },
-    {
-      "section_id": "gdelt_regions",
-      "status": "FAILED",
-      "reason": "last pull failed (3\u00d7): PullTimeout: pull() exceeded 90s deadline (still running)",
+      "reason": "last pull failed (3\u00d7): UpstreamHTTPError: GDACS request failed: HTTPSConnectionPool(host='www.gdacs.org', port=443): Read timed out. (read time",
       "last_record_date": "2026-07-31",
       "today_count": 0,
       "consecutive_failures": 3
     },
     {
+      "section_id": "gdelt_regions",
+      "status": "FAILED",
+      "reason": "last pull failed (4\u00d7): UpstreamHTTPError: GDELT returned nothing for any country (rate-limited / blocked)",
+      "last_record_date": "2026-07-31",
+      "today_count": 0,
+      "consecutive_failures": 4
+    },
+    {
       "section_id": "promed",
       "status": "FAILED",
-      "reason": "last pull failed (57\u00d7): UpstreamHTTPError: ProMED feed request failed: 404 Client Error: Not Found for url: https://www.promedmail.org/promed-po",
+      "reason": "last pull failed (58\u00d7): UpstreamHTTPError: ProMED feed request failed: 404 Client Error: Not Found for url: https://www.promedmail.org/promed-po",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 57
+      "consecutive_failures": 58
     },
     {
       "section_id": "reliefweb",
       "status": "FAILED",
-      "reason": "last pull failed (57\u00d7): UpstreamHTTPError: ReliefWeb request failed: 410 Client Error: Gone for url: https://api.reliefweb.int/v1/reports?appnam",
+      "reason": "last pull failed (58\u00d7): UpstreamHTTPError: ReliefWeb request failed: 410 Client Error: Gone for url: https://api.reliefweb.int/v1/reports?appnam",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 57
+      "consecutive_failures": 58
     },
     {
       "section_id": "firms",
@@ -64,14 +56,6 @@
       "status": "NO_KEY",
       "reason": "required credential not set: MEDIACLOUD_API_KEY",
       "last_record_date": "2026-08-01",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "state_bills",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-07-31 (1d)",
-      "last_record_date": "2026-07-31",
       "today_count": 0,
       "consecutive_failures": 0
     },
@@ -110,9 +94,9 @@
     {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "93 records today",
+      "reason": "103 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 93,
+      "today_count": 103,
       "consecutive_failures": 0
     },
     {
@@ -190,9 +174,9 @@
     {
       "section_id": "foreign_news",
       "status": "FRESH",
-      "reason": "600 records today",
+      "reason": "624 records today",
       "last_record_date": "2027-03-22",
-      "today_count": 600,
+      "today_count": 624,
       "consecutive_failures": 0
     },
     {
@@ -204,11 +188,19 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "gdelt_gkg",
+      "status": "FRESH",
+      "reason": "78 records today",
+      "last_record_date": "2026-08-01",
+      "today_count": 78,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "35 records today",
+      "reason": "43 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 35,
+      "today_count": 43,
       "consecutive_failures": 0
     },
     {
@@ -262,9 +254,9 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "457 records today",
+      "reason": "495 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 457,
+      "today_count": 495,
       "consecutive_failures": 0
     },
     {
@@ -276,35 +268,43 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "state_bills",
+      "status": "FRESH",
+      "reason": "13 records today",
+      "last_record_date": "2026-08-01",
+      "today_count": 13,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "state_news",
       "status": "FRESH",
-      "reason": "37 records today",
+      "reason": "39 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 37,
+      "today_count": 39,
       "consecutive_failures": 0
     },
     {
       "section_id": "tech_news",
       "status": "FRESH",
-      "reason": "4 records today",
+      "reason": "5 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 4,
+      "today_count": 5,
       "consecutive_failures": 0
     },
     {
       "section_id": "ukraine_theater",
       "status": "FRESH",
-      "reason": "17 records today",
+      "reason": "80 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 17,
+      "today_count": 80,
       "consecutive_failures": 0
     },
     {
       "section_id": "ukrainian_internal",
       "status": "FRESH",
-      "reason": "52 records today",
+      "reason": "55 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 52,
+      "today_count": 55,
       "consecutive_failures": 0
     },
     {
@@ -318,17 +318,17 @@
     {
       "section_id": "vip_flights",
       "status": "FRESH",
-      "reason": "28 records today",
+      "reason": "38 records today",
       "last_record_date": "2026-08-01",
-      "today_count": 28,
+      "today_count": 38,
       "consecutive_failures": 0
     },
     {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "75 records today",
+      "reason": "89 records today",
       "last_record_date": "2026-08-02",
-      "today_count": 75,
+      "today_count": 89,
       "consecutive_failures": 0
     },
     {

@@ -3,14 +3,18 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-01
 record_count: 57
-new_today: 4
+new_today: 5
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-4 new of 57 total items today.
+5 new of 57 total items today.
 
+- **NEW**  [[The Hacker News] Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html) — *2026-08-01*
+  > Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.
+
+Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and repo
 - **NEW**  [[The Hacker News] Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html) — *2026-08-01*
   > Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.
 
@@ -41,10 +45,6 @@ The
   > Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.
 
 According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link
-- [[The Hacker News] Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies](https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html) — *2026-07-31*
-  > Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.
-
-Researchers named the operation Fuyao and attributed it to Zhejiang Fengw
 - [[The Record] CISA warns of spike in attacks on water systems as Minnesota incidents probed](https://therecord.media/cisa-warns-of-spike-in-water-system-attacks) — *2026-07-31*
   > The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible."
 - [[The Record] Cyber Command plans Silicon Valley office to drive innovation](https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation) — *2026-07-31*

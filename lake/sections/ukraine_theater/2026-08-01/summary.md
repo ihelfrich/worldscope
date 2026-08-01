@@ -2,19 +2,19 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-08-01
-record_count: 245
-new_today: 57
+record_count: 842
+new_today: 245
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-57 new of 245 total items today.
+245 new of 842 total items today.
 
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-08-01*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-08-01*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-08-01*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[Liveuamap] Ukrainian Air Force: Several waves of Kh-101 cruise missile launches from strategic aircraft: Tu-95MS and Tu-160 - Liveuamap](https://liveuamap.com) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXl6eGFRWGtkTmJDcmsyaHA1OFY0eGlMdDFqR3R2b3ZVUk1TYnRGNGREQ3hzXzIyQVpPY0JRY3JxSGhyek82NkZGTS0zRnJVR1BTRVlTYUVmbzdjU0VzTHM3VG1oMFdiZ21YLWJqZ0ltYUdhNmxGSjQ5bVl4eG9sa1B4UkNvR0daUi0wbWw1bl8ycW0y?oc=5" target="_blank">Ukraini
 - [[Liveuamap] US Central Command: Our forces and Saudi armed forces conducted precision strikes in Iraq against Iranian proxies. US and Saudi fighter jets launched raids targeting logistics sites and weapons depots in eastern Iraq Basra Governorate, Iraq](https://iraq.liveuamap.com) — *2026-07-29*
@@ -45,6 +45,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNbU1RUHhNUlZ5QUg3eDFsMXNrSXdoTlh2djhQWVBfMEQtNlREYUY5dTIxeVB2WWQwUmpjU0J1LU5IUVpMYUVYTnNrRE56dzh3OHhNbVN2VXNDVlM2SFFxakFqQWtERTlKVEVERXZsc0czVjEwNXRFZmZIOGluT0lGSkRPOE0yOUgzT0syV3M1eGRIR0p1QldlZkVn?oc=5" target="_blank"
 - **NEW**  [[Liveuamap] Tokayev, at a meeting with Putin, proposed freezing the war in Ukraine. The meeting of the presidents of Kazakhstan and Russia is taking place in Omsk, Russia. Tokayev stressed that his country has always respected the Ukrainian people, the](https://liveuamap.com) — *2026-07-25*
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3B1Zkt4aksxNGlEVzVVUFYzQUZOTjNTWlJTV0ltRWp1RXBGWGNGZW5hbUFFTmtyWkgwRksybnNMX3VBTUthZ2NBNGxFTmt0X1Zad2tuRW94Z0ltMU1LdUhpcGI2RkRSclNObXZ4MW5ycDBfWEE5Mkh0c19vUWZqODJEYVIyWVVVRENRSlVSUW14UEtw?oc=5" target="_blank">Tokayev
+- **NEW**  [[Liveuamap] Explosion heard west of Bandar Abbas in southern Iran Hormozgan Province, Iran - Liveuamap](https://iran.liveuamap.com) — *2026-07-24*
+  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNX0ZQbkZoaURfOWQ0aHl4Nk5yQWhCVTFEV09uZ2luVFA1MkdhVU5YWVVBS0hJNkxVQ1NSd2NvZHM0c0p0RW1jX2NkVHRJOVFDNVo3eFJQY195RF9JMHVWemlVQXNuYTR1NWlmdk5pd0hpLWhjU3U3azRwektJYUVDbjVzTkpHTnI3SUxyZTlMZFRSblRPR2hlUWNR?oc=5" target="_blank"
 - [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - Liveuamap](https://syria.liveuamap.com) — *2026-07-26*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PZ3A2TnA2elJTZHd3U1BPa0RtaTVZOTh3RlgwLTBLeTUzeS14Z1FldE5KaHFBNERBTVYyTTVvSndiNVNDMmJNT1NLSGlXdGJSUGhPczhKRVVTVVNHOFJZZWFKTVZjbXc?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today</a>&nbsp;&n
 - [[Liveuamap] One of F-16 of Ukrainian Air Force crashed. Pilot has safely ejected - Liveuamap](https://liveuamap.com) — *2026-07-29*
@@ -57,9 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1VTHF3Mk41SDI4Tm5VYkpIWVZneDlOQW05bGdGM0g2VjZjRmVzRXY2N0hZYXJ1UEZxdVJJd0ZjVzRTQ1E1M2VvRDVobEp5c3dPc3RReFF5WU1VYUJrQ094QWdLbk54ZGRUNVNvXy1pQmJPM1I2Vk5jMkNBN2h4TW8?oc=5" target="_blank">Airstrikes reported in Kramatorsk Do
 - **NEW**  [[Liveuamap] Explosion was reported in Kharkiv - Liveuamap](https://liveuamap.com) — *2026-07-31*
   > <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE80MVF5WFZMY1Y4aTVNY2ozTDFhLVZRZUs3OHV1eDBMNkJlRWFOcnVKdUdhWUFhX3JLZ3BRWmVuaGE3cUhnSHpESEhaN1ZrLWV4YkhhMUFBUlVWWWlJTHBBd1pGTzdOVEpnSFBQVC01MDRPYVlUeDljdk5fbXBMTGc?oc=5" target="_blank">Explosion was reported in Kharkiv</a
-- [[Liveuamap] The Greek armed forces claim: A Greek Patriot air defense battery deployed in Saudi Arabia intercepted and destroyed two ballistic missiles launched from Yemen targeting a major oil refinery in the Yanbu region. Al Madinah Province Saudi Ar](https://yemen.liveuamap.com) — *2026-07-26*
-  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNMjdTeVFxTFZtOTN5bEF5VFdEaFd1ZGtFa253Z1ZYTGlaR2hpZDB3bUNMTTI1ZkdsQ1d0eVZCTlBqdEJuQ0xzWkJmX29rNTVIM2ZNQjVkS0MycUNDb0RiOEItSWs3QmpEWVJYR2htTE9KcjE4UXFJWVc2UlNhM3JlQjJtYkVPRUprTXVIdUtpRm42U2JISjJfcDExbw?oc=5" target="_blan
 - [[Liveuamap] A thermal hotspot was detected today on NASA FIRMS at 16.09962, 44.60141 in Yemen&039;s Al Jawf Governorate, likely marking the crash site of the Royal Saudi Air Force (RSAF) Bayraktar Akıncı UCAV shot down by the Houthis Sana&039;a, Capita](https://yemen.liveuamap.com) — *2026-07-29*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOaUtBUmtGQ0czTW1FYzNuT3BXLWVha1JnQi02R3dQbkMySGxEb21vMGlmc3o4czdUQ1N6anBaTXNybVJTMTV0VkVCV2xDcXljLVpDQjBLaG9VLTU5VEZMbWpRcnBRNzg3Z2FZWEk4RkZ6eDZKR0N3WEFRMm9MTFFpRmZybmdBNDVRbEhqVGlqYTI5QjRzV0RIXy1XYkk5dw?oc=5" target="_
 
-_(220 additional items in raw.jsonl)_
+_(817 additional items in raw.jsonl)_
