@@ -3,14 +3,16 @@ section: who_don
 title: WHO Disease Outbreak News
 date: 2026-08-01
 record_count: 40
-new_today: 0
+new_today: 1
 state: fresh
 ---
 
 ## WHO Disease Outbreak News
 
-0 new of 40 total items today.
+1 new of 40 total items today.
 
+- **NEW**  [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614) — *2026-08-01*
+  > The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increases in reported cases and deaths. Initially confined to the Mongbwalu health zone in Ituri Province, over the last two months, the 
 - [Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613) — *2026-07-17*
   > The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo remains active, with sustained transmission driving increases in reported cases and deaths. As of 15 July 2026, a cumulative total of 2124 confirmed cases, including 828 deaths, have been reported
 - [Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612) — *2026-07-03*
@@ -59,7 +61,5 @@ state: fresh
   > Since the beginning of 2025 and as of 21 December 2025, a total of 19 cases of Middle East respiratory syndrome coronavirus (MERS- CoV), including four deaths have been reported to WHO globally. Of the 19 cases, 17 were reported by the Kingdom of Saudi Arabia (KSA), and two were 
 - [Seasonal influenza - Global situation](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON586) — *2025-12-10*
   > Seasonal influenza (‘the flu’) is an acute respiratory infection caused by influenza viruses that circulate globally and year-round. It can cause illness ranging from mild to severe, sometimes resulting in hospitalization or death. Seasonal influenza activity has increased global
-- [Broader transmission of mpox due to clade Ib MPXV – Global situation](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON587) — *2025-12-05*
-  > The purpose of this report is to raise awareness about the local transmission of clade Ib monkeypox virus (MPXV) among men who have sex with men (MSM) in countries previously unaffected or to date reporting only cases linked to travel. This report summarizes recent epidemiologica
 
 _(15 additional items in raw.jsonl)_

@@ -3,51 +3,51 @@ section: forecasts
 title: Prediction Markets — most-traded (Polymarket)
 date: 2026-08-01
 record_count: 20
-new_today: 10
+new_today: 15
 state: fresh
 ---
 
 ## Prediction Markets — most-traded (Polymarket)
 
-10 new of 20 total items today.
+15 new of 20 total items today.
 
-- [U.S. anti-cartel operation outside of the U.S. by July 31?](https://polymarket.com/event/uptspt-anti-cartel-operation-outside-of-the-uptspt-by-july-31-20260616215440524) — *2026-08-01*
-  > yes price: 0% · 24h volume: $1,061,554 · resolves 2026-07-31
-- **NEW**  [LoL: Anyone's Legend vs ThunderTalk Gaming - Game 1 Winner](https://polymarket.com/event/lol-al-tt-2026-08-01-game1) — *2026-08-01*
-  > yes price: 100% · 24h volume: $873,116 · resolves 2026-08-01
-- **NEW**  [LoL: Nongshim Red Force vs BNK FEARX - Game 1 Winner](https://polymarket.com/event/lol-ns-fox1-2026-08-01-game1) — *2026-08-01*
-  > yes price: 100% · 24h volume: $779,833 · resolves 2026-08-01
-- **NEW**  [LoL: Anyone's Legend vs ThunderTalk Gaming - Game 2 Winner](https://polymarket.com/event/lol-al-tt-2026-08-01-game2) — *2026-08-01*
-  > yes price: 100% · 24h volume: $758,453 · resolves 2026-08-01
-- [US x Iran Effective Ceasefire by July 31?](https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045) — *2026-08-01*
-  > yes price: 9% · 24h volume: $665,314 · resolves 2026-07-31
-- **NEW**  [LoL: Anyone's Legend vs ThunderTalk Gaming (BO3) - LPL Group Ascend](https://polymarket.com/event/lol-al-tt-2026-08-01) — *2026-08-01*
-  > yes price: 100% · 24h volume: $661,812 · resolves 2026-08-01
-- [Will the U.S. invade Iran before 2027?](https://polymarket.com/event/will-the-us-invade-iran-before-2027) — *2026-08-01*
-  > yes price: 24% · 24h volume: $640,011 · resolves 2026-12-31
 - [Israel x Iran ceasefire continues through August 2?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149) — *2026-08-01*
-  > yes price: 82% · 24h volume: $599,896 · resolves 2026-08-02
+  > yes price: 78% · 24h volume: $1,112,365 · resolves 2026-08-02
+- **NEW**  [Israel x Iran ceasefire continues through August 1?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-1) — *2026-08-01*
+  > yes price: 99% · 24h volume: $1,062,068 · resolves 2026-08-01
+- **NEW**  [LoL: Karmine Corp vs Natus Vincere - Game 2 Winner](https://polymarket.com/event/lol-kc-navi-2026-08-01-game2) — *2026-08-01*
+  > yes price: 100% · 24h volume: $927,605 · resolves 2026-08-02
+- **NEW**  [LoL: Karmine Corp vs Natus Vincere - Game 1 Winner](https://polymarket.com/event/lol-kc-navi-2026-08-01-game1) — *2026-08-01*
+  > yes price: 100% · 24h volume: $872,295 · resolves 2026-08-02
+- [Will the U.S. invade Iran before 2027?](https://polymarket.com/event/will-the-us-invade-iran-before-2027) — *2026-08-01*
+  > yes price: 26% · 24h volume: $763,497 · resolves 2026-12-31
+- **NEW**  [Will Donald Trump publicly insult Emmanuel Macron by July 31, 2026?](https://polymarket.com/event/will-donald-trump-publicly-insult-emmanuel-macron-by-july-31-2026-20260626210612731) — *2026-08-01*
+  > yes price: 0% · 24h volume: $567,256 · resolves 2026-07-31
+- [US x Iran Effective Ceasefire by July 31?](https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045) — *2026-08-01*
+  > yes price: 14% · 24h volume: $555,584 · resolves 2026-07-31
+- [U.S. anti-cartel operation outside of the U.S. by July 31?](https://polymarket.com/event/uptspt-anti-cartel-operation-outside-of-the-uptspt-by-july-31-20260616215440524) — *2026-08-01*
+  > yes price: 0% · 24h volume: $542,448 · resolves 2026-07-31
+- **NEW**  [LoL: Cloud9 vs Dignitas - Game 1 Winner](https://polymarket.com/event/lol-c9-dig-2026-08-01-game1) — *2026-08-01*
+  > yes price: 0% · 24h volume: $513,062 · resolves 2026-08-02
+- **NEW**  [Milwaukee Brewers vs. Los Angeles Angels](https://polymarket.com/event/mlb-mil-laa-2026-08-01) — *2026-08-01*
+  > yes price: 57% · 24h volume: $500,427 · resolves 2026-08-09
+- **NEW**  [LoL: Cloud9 vs Dignitas - Game 2 Winner](https://polymarket.com/event/lol-c9-dig-2026-08-01-game2) — *2026-08-01*
+  > yes price: 100% · 24h volume: $453,547 · resolves 2026-08-02
+- **NEW**  [Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?](https://polymarket.com/event/will-donald-trump-publicly-insult-tucker-carlson-by-july-31-2026-20260626210612710) — *2026-08-01*
+  > yes price: 100% · 24h volume: $443,709 · resolves 2026-07-31
+- **NEW**  [New York Yankees vs. Chicago Cubs](https://polymarket.com/event/mlb-nyy-chc-2026-08-01) — *2026-08-01*
+  > yes price: 32% · 24h volume: $405,453 · resolves 2026-08-08
+- **NEW**  [Will Ultra Prime win the LPL 2026 season?](https://polymarket.com/event/will-ultra-prime-win-the-lpl-2026-season) — *2026-08-01*
+  > yes price: 0% · 24h volume: $382,445 · resolves 2026-12-31
+- **NEW**  [LoL: Karmine Corp vs Natus Vincere (BO3) - LEC Regular Season](https://polymarket.com/event/lol-kc-navi-2026-08-01) — *2026-08-01*
+  > yes price: 100% · 24h volume: $364,566 · resolves 2026-08-02
+- **NEW**  [Valorant: Team Envy vs FURIA Esports - Map 1 Winner](https://polymarket.com/event/val-nv2-fur-2026-08-01-game1) — *2026-08-01*
+  > yes price: 0% · 24h volume: $353,208 · resolves 2026-08-02
 - [Israel x Iran ceasefire continues through July 31?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243) — *2026-08-01*
-  > yes price: 100% · 24h volume: $580,889 · resolves 2026-07-31
-- [Will Hamas agree to disarm by December 31?](https://polymarket.com/event/will-hamas-agree-to-disarm-by-december-31) — *2026-08-01*
-  > yes price: 66% · 24h volume: $569,628 · resolves 2026-12-31
-- [Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?](https://polymarket.com/event/will-wti-reach-90-in-july-2026-from-july-27) — *2026-08-01*
-  > yes price: 0% · 24h volume: $550,249 · resolves 2026-08-01
-- **NEW**  [Game Handicap: AL (-1.5) vs ThunderTalk Gaming (+1.5)](https://polymarket.com/event/lol-al-tt-2026-08-01-game-handicap-away-1pt5) — *2026-08-01*
-  > yes price: 100% · 24h volume: $357,744 · resolves 2026-08-01
+  > yes price: 100% · 24h volume: $352,717 · resolves 2026-07-31
 - **NEW**  [Will China invade Taiwan by September 30, 2026?](https://polymarket.com/event/will-china-invade-taiwan-by-september-30-2026) — *2026-08-01*
-  > yes price: 1% · 24h volume: $344,274 · resolves 2026-09-30
-- **NEW**  [LoL: Nongshim Red Force vs BNK FEARX (BO3) - LCK Round 3-4 Rise Group](https://polymarket.com/event/lol-ns-fox1-2026-08-01) — *2026-08-01*
-  > yes price: 50% · 24h volume: $319,424 · resolves 2026-08-01
-- **NEW**  [Will Donald Trump publicly insult Vladimir Putin by July 31, 2026?](https://polymarket.com/event/will-donald-trump-publicly-insult-vladimir-putin-by-july-31-2026-20260626210612715) — *2026-08-01*
-  > yes price: 0% · 24h volume: $292,877 · resolves 2026-07-31
-- [Will the Fed increase interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649) — *2026-08-01*
-  > yes price: 60% · 24h volume: $280,888 · resolves 2026-09-16
-- [Iran leadership change by August 31?](https://polymarket.com/event/iran-leadership-change-by-august-31-669) — *2026-08-01*
-  > yes price: 4% · 24h volume: $272,116 · resolves 2026-08-31
-- **NEW**  [Will the Democratic Party control the Senate after the 2026 Midterm elections?](https://polymarket.com/event/will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections) — *2026-08-01*
-  > yes price: 44% · 24h volume: $242,654 · resolves 2026-11-03
-- **NEW**  [Counter-Strike: Liquid vs Atputies (BO3) - Stake Pulse Beat I Group B](https://polymarket.com/event/cs2-tl1-atp1-2026-08-01) — *2026-08-01*
-  > yes price: 64% · 24h volume: $240,051 · resolves 2026-08-01
-- [Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586) — *2026-08-01*
-  > yes price: 2% · 24h volume: $239,741 · resolves 2026-09-16
+  > yes price: 1% · 24h volume: $324,552 · resolves 2026-09-30
+- **NEW**  [LoL: Cloud9 vs Dignitas (BO3) - LCS Regular Season](https://polymarket.com/event/lol-c9-dig-2026-08-01) — *2026-08-01*
+  > yes price: 100% · 24h volume: $308,470 · resolves 2026-08-02
+- **NEW**  [Israel x Iran ceasefire continues through August 3?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-3) — *2026-08-01*
+  > yes price: 70% · 24h volume: $301,216 · resolves 2026-08-03

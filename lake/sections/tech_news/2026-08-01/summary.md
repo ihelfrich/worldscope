@@ -2,15 +2,21 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-01
-record_count: 57
-new_today: 5
+record_count: 52
+new_today: 17
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-5 new of 57 total items today.
+17 new of 52 total items today.
 
+- **NEW**  [[BleepingComputer] Rails patches critical Active Storage flaw with RCE potential](https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/) — *2026-08-01*
+  > A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
+- **NEW**  [[The Hacker News] Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html) — *2026-08-01*
+  > An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.
+
+A March 
 - **NEW**  [[The Hacker News] Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html) — *2026-08-01*
   > Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.
 
@@ -23,10 +29,28 @@ The vulnerability, tracked as CVE-2026-48449, carries a severity score
   > A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.
 
 Researchers track the operation as CaptiveCrunch and att
-- **NEW**  [[The Register] A deep dive into Nvidia's Vera CPU and the Olympus cores that power it](https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056) — *2026-08-01*
-  > 88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip
-- **NEW**  [[The Register] Enterprise cloud infrastructure uptake shows no sign of slowing](https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835) — *2026-08-01*
-  > Cloud revenue now north of $143 billion a quarter, and growth is accelerating
+- **NEW**  [[Ars Technica] Here's how engineers plan to save the satellite sent to save NASA's Swift mission](https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/) — *2026-08-01*
+  > "We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards."
+- **NEW**  [[Ars Technica] Review: Yes, we're still arguing about Nolan's The Odyssey](https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/) — *2026-08-01*
+  > Christopher Nolan's impressionistic remix of Homer's epic poem finds the man behind the myth.
+- **NEW**  [[Ars Technica] As Reddit stock falls, CEO questions value of Google's AI Overviews](https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/) — *2026-08-01*
+  > Reddit may still be considering ending its licensing deal with Google.
+- **NEW**  [[Ars Technica] After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica](https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/) — *2026-08-01*
+  > Autonomous vehicle giant disturbs residents' sleep.
+- **NEW**  [[Ars Technica] Defcon's new badge is a security key you can see inside](https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/) — *2026-08-01*
+  > A removable chip lets hackers inspect their badge—and keep using it after Defcon.
+- **NEW**  [[IEEE Spectrum] Fridays With Bob](https://spectrum.ieee.org/risk) — *2026-08-01*
+  > When I started at Spectrum 25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions. I didn’t find one right away. Then in 2005 we decided to do a special report, foc
+- **NEW**  [[TechCrunch] Inside the London hacker house taking a stand against founder burnout](https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/) — *2026-08-01*
+  > How one founder house is betting work-life balance can beat burnout .
+- **NEW**  [[TechCrunch] Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/) — *2026-08-01*
+  > Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.
+- **NEW**  [[TechCrunch] YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/) — *2026-08-01*
+  > Green offered a remarkable apology, saying that "the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world."
+- **NEW**  [[TechCrunch] Should you still buy your next smartphone — or subscribe to it instead?](https://techcrunch.com/2026/08/01/should-you-still-buy-your-next-smartphone-or-subscribe-to-it-instead/) — *2026-08-01*
+  > Apple's new Upgrade program is the latest sign that smartphone ownership is changing.
+- **NEW**  [[TechCrunch] Sam Altman is still making the case for parenting via ChatGPT](https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/) — *2026-08-01*
+  > OpenAI's CEO seemed excited to share a "cool use case" for parents.
 - [[BleepingComputer] Amgen says cloud data breach exposed patient health, proprietary info](https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/) — *2026-07-31*
   > Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
 - [[BleepingComputer] Arch Linux disables AUR package adoption to stop malware flood](https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/) — *2026-07-31*
@@ -35,16 +59,10 @@ Researchers track the operation as CaptiveCrunch and att
   > Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
 - [[BleepingComputer] OpenAI says its new GPT 5.6 models are becoming more cost-efficient](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/) — *2026-07-31*
   > OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]
-- [[BleepingComputer] Hacker uses DeepSeek AI to autonomously attack vulnerable servers](https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/) — *2026-07-31*
-  > A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]
 - [[The Hacker News] Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html) — *2026-07-31*
   > A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
 
 The
-- [[The Hacker News] HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html) — *2026-07-31*
-  > Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.
-
-According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link
 - [[The Record] CISA warns of spike in attacks on water systems as Minnesota incidents probed](https://therecord.media/cisa-warns-of-spike-in-water-system-attacks) — *2026-07-31*
   > The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible."
 - [[The Record] Cyber Command plans Silicon Valley office to drive innovation](https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation) — *2026-07-31*
@@ -53,26 +71,5 @@ According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishi
   > Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.
 - [[The Record] Finland to disconnect fiber-optic link to Russia as lease expires](https://therecord.media/finland-russia-fiber-optic-disconnection) — *2026-07-31*
   > Finland stopped power transmissions with Russia at the start of the war in Ukraine, and two related telecom connections will stop at the end of this year, authorities said.
-- [[Cybersecurity Dive] Anthropic says human error let Claude AI models escape test environment and hack third parties](https://www.cybersecuritydive.com/news/anthropic-claude-ai-hacking-test/826708/) — *2026-07-31*
-  > The company said its discovery, which followed OpenAI&rsquo;s similar admission, proved the need for better testing guardrails.
-- [[Cybersecurity Dive] US authorities see ‘significant escalation’ in attacks on water system devices](https://www.cybersecuritydive.com/news/us-authorities-escalation-attacks-water-system-devices/826715/) — *2026-07-31*
-  > Hackers have locked operators out of their own OT networks, modified passwords and changed IP addresses.
-- [[Schneier on Security] Friday Squid Blogging: Squid Helps Discover New Marine Species](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html) — *2026-07-31*
-  > The Squid is a new scientific machine:
-One of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. &#8220;That opens up a whole new world 
-- [[Schneier on Security] Anthropic’s Opus 5 Is Better at Resisting Prompt Injection](https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html) — *2026-07-31*
-  > The chart is interesting.
-On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it t
-- [[Schneier on Security] Facial Recognition at Madison Square Garden](https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html) — *2026-07-31*
-  > Last month, the story broke (alternate link) that Madison Square Garden uses facial recognition software on everyone entering the facility, and&#8212;among other groups&#8212;flags activists that oppose using facial recognition.
-Turns out that the system was shut off for Taylor S
-- [[The Register] Dev who gave HashiCorp its name returns with a faster terminal multiplexer](https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970) — *2026-07-31*
-  > Persistent sessions could be just the beginning
-- [[The Register] The most famous brand in physical security got pwned by ShinyHunters](https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924) — *2026-07-31*
-  > Hopefully the company secures houses better than it locks down SaaS systems
-- [[The Register] US bank places trust in ransomware crew that promised to delete its data](https://www.theregister.com/cyber-crime/2026/07/31/us-bank-places-trust-in-ransomware-crew-that-promised-to-delete-its-data/5281888) — *2026-07-31*
-  > History suggests this was not wise
-- [[Ars Technica] Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA](https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/) — *2026-07-31*
-  > Some group with no modern descendants contributed a lot to our genomes.
 
-_(32 additional items in raw.jsonl)_
+_(27 additional items in raw.jsonl)_

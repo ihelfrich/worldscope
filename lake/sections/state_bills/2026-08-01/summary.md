@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-01
-record_count: 96
-new_today: 13
+record_count: 106
+new_today: 82
 state: fresh
 ---
 
 ## State Legislative Action
 
-13 new of 96 total items today.
+82 new of 106 total items today.
 
 - **NEW**  [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
@@ -57,11 +57,9 @@ state: fresh
   > An Act establishing the Alaska Invasive Species Council in the Department of Fish and Game; relating to management of invasive species; and providing for an effective date.
 - [[Alaska SB 24] An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use educat]() — *2026-07-30*
   > An Act relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobacco, a product containing nicotine, or an electronic smoking product; relating to the tobacco use e
-- [[California AB 1607] Emergency medical services.]() — *2026-07-31*
-  > Existing law establishes the Maddy Emergency Medical Services (EMS) Fund and authorizes each county to establish an emergency medical services fund for reimbursement of costs related to emergency medical services. Existing law, until January 1, 2027, requires 15% of the fund to b
-- [[California AB 1905] Juveniles: custodial interrogation.]() — *2026-07-31*
-  > Existing law prohibits law enforcement officers from employing threats, physical harm, deception, or psychologically manipulative interrogation tactics, as specified, during a custodial interrogation of a person 17 years of age or younger.
+- **NEW**  [[California AB 1578] State and local officials: sexual harassment training and education: anti-hate speech training.]() — *2026-08-01*
+  > The California Fair Employment and Housing Act makes specified employment practices unlawful, including the harassment of an employee directly by the employer or indirectly by agents of the employer with the employer's knowledge. Under existing law, the Civil Rights Department ad
+- **NEW**  [[California AB 1669] Student health: medical leaves of absence: mental health.]() — *2026-08-01*
+  > The Donahoe Higher Education Act sets forth, among other things, the missions and functions of California's public and independent segments of higher education and their respective institutions of higher education. The act requests the Regents of the University of California, and
 
-This bill would prohibit a law enforcem
-
-_(71 additional items in raw.jsonl)_
+_(81 additional items in raw.jsonl)_

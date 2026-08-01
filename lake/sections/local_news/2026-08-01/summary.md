@@ -3,63 +3,63 @@ section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-01
 record_count: 255
-new_today: 76
+new_today: 156
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-76 new of 255 total items today.
+156 new of 255 total items today.
 
-- **NEW**  [[St. Louis] Tornado warnings expire for St. Louis region Friday night](https://www.ksdk.com/article/weather/weather-impact/tornado-warning-issued-for-gasconade-county-on-friday/63-ba879968-68db-43eb-9159-87dbc3249885) — *2026-08-01*
-  > Tornado warnings issued Friday night have expired.
-- **NEW**  [[St. Louis] 'She could do almost anything she wanted to do' | American climber killed in Pakistan avalanche remembered for her adventurous spirit](https://www.ksdk.com/article/news/nation-world/american-climber-killed-in-pakistan-avalanche-remembered-adventurous-spirit/507-c3b94f83-d0d0-4fe2-a189-261118e552d1) — *2026-08-01*
-  > Mallory Geis, 39, was attempting her first climb of an 8,000-meter peak in Pakistan when an avalanche struck.
-- **NEW**  [[St. Louis] Downtown St. louis leaders double security and crack down on curfews at site of weekend stabbing](https://www.ksdk.com/article/news/local/downtown-st-louis-leaders-double-security-and-crack-down-on-curfews-at-site-of-weekend-stabbing/63-1d5bf123-6260-4380-a357-748ce6f8f3fb) — *2026-08-01*
-  > Following a violent stabbing outside the Schnucks grocery store last week, neighborhood groups and police are shifting from dispersing crowds to making arrests.
-- **NEW**  [[St. Louis] 1 dead, 1 injured following double shooting at home on Avery Lane in Bridgeton](https://www.ksdk.com/article/news/crime/double-shooting-reported-near-avery-lane-in-bridgeton/63-a004e206-4487-4f3f-b53d-394d50292185) — *2026-08-01*
-  > One person was killed and another injured in a Bridgeton shooting. Police are investigating and questioned a person after the victims were found with gunshot wounds.
-- **NEW**  [[St. Louis] Google pulls controversial AI image-generation tool from Google Earth one day after launch](https://www.ksdk.com/article/news/nation-world/google-earth-ai-image-generation-pulled-one-day-after-launch-misinformation-fears/507-28319409-c3a6-4e51-8883-04df953857f5) — *2026-08-01*
-  > Google rolled back the new tool after critics pushed back, showing how easy it was to generate fake satellite images of real places.
-- **NEW**  [[St. Louis] Tornado watch ends for most counties west of St. Louis Friday evening](https://www.ksdk.com/article/weather/weather-impact/tornado-watch-issued-st-louis-region-friday-july-31-2026/63-f11023e1-d61d-468c-8839-767b6de443d3) — *2026-08-01*
-  > The watch initially was extended into late Friday night.
-- [[St. Louis] Authorities release early ransom note in Nancy Guthrie case, hoping someone recognizes it](https://www.ksdk.com/article/news/nation-world/authorities-release-early-ransom-note-in-nancy-guthrie-case/507-c7915bab-3d58-4af4-9064-2c9aff1e5c93) — *2026-08-01*
-  > The 84-year-old went missing from her home outside Tucson on Feb. 1.
-- **NEW**  [[St. Louis] FIFA president abandons plans to sell World Cup profits to private equity after massive pushback](https://www.ksdk.com/article/sports/soccer/world-cup/fifa-president-abandons-world-cup-investor-plan-amid-backlash/507-9b86c18d-e981-4dc9-8919-ee8b32005de6) — *2026-08-01*
-  > Infantino issued a statement on Friday saying that the divisions caused by the proposal are “no longer in the interest of the objective set out in the first place.”
-- [[St. Louis] Ruler Foods near Tower Grove Park in south St. Louis closes](https://www.ksdk.com/article/news/local/ruler-foods-near-tower-grove-in-south-st-louis-closes/63-50aae902-0aa9-495f-a077-69e3ad4e3e31) — *2026-08-01*
-  > The grocery story had served the community for nearly a decade.
-- **NEW**  [[St. Louis] George Santos agrees to $35,000 settlement in federal probe over Kalshi trades](https://www.ksdk.com/article/news/nation-world/george-santos-settlement-federal-probe-over-kalshi-trades/507-0376f124-a58f-4742-9b0e-ef56c0148580) — *2026-07-31*
-  > Santos said he planned to attend President Donald Trump’s State of the Union address, then bet against his own attendance and did not show.
-- **NEW**  [[St. Louis] Asylum seekers murdered: Bush, Bell blame ICE and Trump for the deportation Overland couple that led to their deaths](https://www.ksdk.com/article/news/asylum-seekers-murdered-bush-bell-blame-ice-and-trump-for-the-deportation-overland-couple-that-led-to-their-deaths/63-eddfef08-83d1-4b3f-9889-236e729c7b32) — *2026-07-31*
-  > MO-01 candidates call to abolish ICE after a deported Overland couple was found murdered in Guatemala. The family was fighting to stay in the U.S. in asylum court.
-- **NEW**  [[St. Louis] 'Suits and Ties' returns: Florissant church revives mentoring program to prepare teens for success](https://www.ksdk.com/article/news/community/florissant-church-revives-mentoring-program-to-prepare-teens-for-success/63-2e6b29e4-0f76-4ac0-9297-e9f6b5259137) — *2026-07-31*
-  > The program's return was announced during a gun violence prevention forum honoring Shakeela Martin and Dominique Hoskins amid renewed concerns over gun violence.
-- [[St. Louis] Justice Department moves to dismiss criminal case against ex-Olympian charged with damaging Reflecting Pool](https://www.ksdk.com/article/news/nation-world/doj-reflecting-pool-vandalism-charges-dismissal/507-8dd71838-24db-410b-9874-a4b576d998c0) — *2026-07-31*
-  > Government lawyers said information provided since the indictment of David Hearn shows that the damage was the result of a “flawed installation by the contractor."
-- [[St. Louis] Marine Corps says F-35B stealth fighter crashed in California, pilot ejected](https://www.ksdk.com/article/news/nation-world/f-35b-stealth-fighter-crashed-california-pilot-ejected/507-76dfa29c-9527-4db9-8e28-711a700fbdee) — *2026-07-31*
-  > The F-35B is one of several versions of the advanced stealth fighter jet and has an engine designed for short takeoffs and vertical landings.
-- [[St. Louis] Cafeteria worker at Mascoutah High School charged with possession of CSAM](https://www.ksdk.com/article/news/crime/mascoutah-cafeteria-worker-csam-possession-high-school/63-ce47940f-7cd7-4f66-9e9d-618e83778f7a) — *2026-07-31*
-  > Anyone with additional information is asked to call Special Investigator Adam Krack at 217-843-0941.
-- [[St. Louis] US congressional candidate arrested in Tennessee after shooting at multiple Flock license plate readers](https://www.ksdk.com/article/news/nation-world/congressional-candidate-arrested-tennessee-shooting-flock-license-plate-readers/507-00c66d31-c717-4c9a-96d9-e7cbea3737a0) — *2026-07-31*
-  > After his arrest, investigators said that Adam Lee Heimerman admitted that he "used a gun" to shoot four ALPR systems between July 14 and July 22.
-- [[St. Louis] Florida postal worker arrested for allegedly stealing winning lottery ticket](https://www.ksdk.com/article/news/nation-world/florida-lottery-ticket-theft-lekaysha-lockhart-mail-carrier-arrested/507-21796294-1965-41ac-8c5d-fc6d327cf6a9) — *2026-07-31*
-  > The investigation began after a Florida Lottery player reported that a winning Pick 4 ticket she mailed through USPS never made it to its intended destination.
-- [[St. Louis] Man struck, killed by trailer near Mississippi River in south St. Louis](https://www.ksdk.com/article/news/local/man-struck-killed-by-trailer-near-mississippi-river-in-south-st-louis/63-d576aa91-8edf-4a43-9837-360304dde25c) — *2026-07-31*
-  > Police said the man died at the hospital shortly after being struck by a trailer.
-- [[St. Louis] 'Overall vaccination rates are declining': U.S. on pace for worst measles year in 3 decades](https://www.ksdk.com/article/news/health/overall-vaccination-rates-are-declining-us-on-pace-for-worst-measles-year-in-3-decades/63-be591c40-f2d7-4b20-8923-18e4fe148f0d) — *2026-07-31*
-  > While Missouri hasn't seen a major outbreak, Dr. Moody said the state has slipped below the vaccination level needed to protect the most vulnerable children.
-- [[St. Louis] FDA weighs in on peptides, VA tests new use for popular drug and wildfire smoke returns](https://www.ksdk.com/article/news/health/fda-peptides-vote-advisory-panel-health-headlines/507-67dddba7-f78c-4690-a3e3-7d411e1926cb) — *2026-07-31*
-  > A closer look at today's biggest health headlines, from a federal peptide vote to a new option for veterans and hazy skies overhead.
-- [[St. Louis] WNBA star Brittney Griner files for divorce from wife Cherelle after 8 years of marriage](https://www.ksdk.com/article/news/nation-world/brittney-griner-divorce-cherelle-griner-ending-marriage/507-ca2b9ce8-bf3b-4073-a935-5d54d7a9f854) — *2026-07-31*
-  > ​Griner, who filed the petition, said the marriage was "irretrievably broken."
-- [[St. Louis] Victims agree to settlement after former Florissant police officer searched their phones during traffic stops](https://www.ksdk.com/article/news/local/florissant-victims-settlement-former-police-officer-searched-their-phones-during-traffic-stops/63-43c678fb-36b3-4757-a3c7-4986c56fd66c) — *2026-07-31*
-  > Julien Alcala and the city of Florissant agreed to pay $4 million to the 24 victims.
-- [[St. Louis] Georgia shopper lost a wallet full of cash and thought it was gone for good. Then a knock came at the door.](https://www.ksdk.com/article/news/nation-world/georgia-shopper-lost-wallet-good-samaritan-returns-it/507-8678dd34-f3f6-4890-a10a-f52d0269286b) — *2026-07-31*
-  > "Thank you for giving me a proud dad moment!”
-- [[St. Louis] A discarded rocket is on a high-speed collision course with the moon](https://www.ksdk.com/article/news/nation-world/space-x-rocket-high-speed-collision-course-with-moon-when/507-5c402d4a-ff60-4bcd-97f3-2f6e0bf16e81) — *2026-07-31*
-  > The high-speed impact with the moon will carve out a crater and send up a plume of dust and rubble that scientists and skygazers are eager to observe.
-- [[St. Louis] Missouri voting locations: Here's where your polling place is for the Aug. 4, 2026, primary election](https://www.ksdk.com/article/news/politics/elections/where-to-vote-in-missouri-primary-election-august-4-2026/63-bcf1e508-d039-4a6f-8cca-643ac64c9838) — *2026-07-31*
-  > Election day is almost here. Here's how to find your Missouri polling location.
+- **NEW**  [[St. Louis] 10 art exhibits to catch this month](https://www.stlmag.com/culture/10-art-exhibits-to-catch-this-month/) — *2026-08-01*
+  > <p>Whether you&#8217;re interested in contemplating independence, exploring stylistic pioneers, or catching the final days of spring and summer programming, there is plenty to take in this month at the city&#8217;s many museums and galleries. Here are a few must-see shows to catc
+- **NEW**  [[St. Louis] Fall & Winter Arts Guide 2026](https://www.stlmag.com/culture/fall-winter-arts-guide-st-louis/) — *2026-08-01*
+  > <p>August STL Fringe Fest AUGUST 4–9 Uncensored, original, and raucous are just a few ways to describe the annual STL Fringe Fest. For its 15th year, the fest will take over a variety of stages in Grand Center and beyond, filling them with more than 40 acts and creators of all ki
+- [[St. Louis] Meet the Metro East preschooler whose love of lawn care became an internet sensation](https://www.stlmag.com/family/grant-wymer-toddler-of-the-year/) — *2026-07-31*
+  > <p>A landscaper pulls into the parking lot, unloads a zero-turn mower, and starts trimming the grass. Most preschoolers barely notice. Grant Wymer doesn&#8217;t miss a thing. He studies every movement, watches every turn of the steering wheel, and asks question after question abo
+- [[St. Louis] The St. Louis beer lover’s guide to American pales ales and IPAs](https://www.stlmag.com/dining/st-louis-beer-lovers-guide-american-pale-ales-and-ipas/) — *2026-07-31*
+  > <p>Walk into almost any St. Louis brewery, and you&#8217;ll find both an American pale ale and an IPA on tap. At first glance, the two styles seem remarkably similar. Both feature American hop varieties known for citrus, pine, and tropical fruit flavors. Both trace their roots to
+- [[St. Louis] Ask George: Where in St. Louis can I get a fresh peach sundae?](https://www.stlmag.com/dining/ask-george-where-in-st-louis-can-i-get-a-fresh-peach-sundae/) — *2026-07-31*
+  > <p>As a kid, I lived near a Bettendorf’s grocery store (later a Schnucks), and one of summer’s greatest pleasures was the fresh peach sundae at its soda fountain. After lunch, my buddies and I would claim a row of swivel stools and order one apiece: ripe local peaches ladled over
+- [[St. Louis] Inside St. Charles County’s war on apartments](https://www.stlmag.com/news/st-charles-county-war-on-apartments/) — *2026-07-31*
+  > <p>Zack Stahr comes from a long line of St. Charles County residents. He grew up there; his parents and grandparents did, too. “Left and came back, left and came back,” he says of the generations of his family that have lived in the area.&#160; &#160;Stahr, 27, feels like he’s be
+- [[St. Louis] WashU professor’s new book ‘The Small Stuff’ advocates finding joy in the sensory](https://www.stlmag.com/culture/ian-bogost-the-small-stuff-washu/) — *2026-07-31*
+  > <p>Washington University professor Ian Bogost has a theory that focusing on sensorial and tactile pleasures—“small stuff,” in his words—can help us be more present in our lives, leading to greater enjoyment. He says his advocacy for appreciating the sensory was put to the test wh
+- [[St. Louis] AI, data centers get a warm reception from St. Louis County executive candidates](https://www.stlmag.com/news/data-centers-ai-citizens-agenda/) — *2026-07-31*
+  > <p>Data centers may be a bipartisan target of antipathy, but you’d never know it to listen to the three leading candidates for St. Louis County executive. The three agreed that large data centers, like those needed to run AI models, should be able to be built in the county. A num
+- [[St. Louis] Top things to do this month in St. Louis](https://www.stlmag.com/culture/top-10-things-to-do-this-month/) — *2026-07-31*
+  > <p>THROUGH AUGUST 9 Kick off the month on a rollercoaster, Ferris wheel, or at the concession stand with the Super Fair at World Wide Technology Raceway. Keep an eye out for special deals Tuesdays through Thursdays—including free student admission and buy one get ones. World Wide
+- [[St. Louis] Where in St Charles 7/31/2026](https://www.stlmag.com/games/where-in-st-charles-07326/) — *2026-07-31*
+  > <p>Let&#8217;s see how well you know St. Charles. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the ans
+- **NEW**  [[St. Louis] 1 person dead following crash near Campbell Avenue and Broadway](https://www.ksdk.com/article/news/local/1-person-dead-following-crash-near-campbell-avenue-and-broadway/63-43116793-1809-4a66-8062-c753ea901010) — *2026-08-01*
+  > Police are advising drivers to avoid the area.
+- **NEW**  [[St. Louis] 3 dead, 2 hurt in shooting near Idaho In-N-Out](https://www.ksdk.com/article/news/nation-world/twin-falls-in-n-out-shooting/507-519ea1f7-8e2f-4f2e-84cd-2f8cf6d14b67) — *2026-08-01*
+  > A spokesperson for the Twin Falls Police Department told NBC three people are dead and two more were hurt as a result of the shooting.
+- **NEW**  [[St. Louis] Dellwood celebrates 75 years with community festival honoring city's history](https://www.ksdk.com/article/news/local/dellwood-celebrates-75-years-with-community-festival-honoring-citys-history/63-5e2d5a29-833a-4510-b3a6-ff06a19a3433) — *2026-08-01*
+  > City leaders say the milestone is an opportunity to celebrate Dellwood's rich history.
+- **NEW**  [[St. Louis] 1 hurt in overnight shooting near Halls Ferry Road in North County](https://www.ksdk.com/article/news/local/1-hurt-in-overnight-shooting-near-halls-ferry-road-in-north-county/63-969afc2c-a79f-45fa-9c45-5c03f9748f4d) — *2026-08-01*
+  > Police responded to the scene just before 11:30 p.m.
+- **NEW**  [[St. Louis] Tenants left without a home after tree collapse destroys apartment units in Lemay](https://www.ksdk.com/article/news/local/tenants-left-without-a-home-after-tree-collapse-destroys-apartment-units-in-lemay/63-6714bfb1-cbc6-4c40-bc7a-719af7010e77) — *2026-08-01*
+  > Lemay firefighters told 5 On Your Side that four people were displaced after trees collapsed on two apartments Friday evening around 5:30 p.m. off Kingston Drive.
+- **NEW**  [[St. Louis] 'The Sopranos' star Vincent Pastore dies at 80](https://www.ksdk.com/article/news/nation-world/the-sopranos-vincent-pastore-dies/507-52f66e71-a2d1-47a2-8146-67fc7a27425c) — *2026-08-01*
+  > Vincent Pastore, known best for playing Salvatore Bonpensiero in "The Sopranos," was found dead at 80 in his Bronx apartment Saturday.
+- **NEW**  [[St. Louis] All lanes open after multi-vehicle crash shuts down I-70 eastbound](https://www.ksdk.com/article/news/local/crash-i-shuts-down-i-70-eastbound/63-de00f2ad-dbd3-4329-8f45-78d516b18340) — *2026-08-01*
+  > The closure was initially reported around 12:05 p.m. Saturday.
+- **NEW**  [[St. Louis] Colorado charter school plans to install pepper-spraying drones for active shooter response](https://www.ksdk.com/article/news/nation-world/colorado-charter-school-pepper-spraying-drones-active-shooter-response/507-125f28d1-e495-4ea2-bfe1-b16d9722e009) — *2026-08-01*
+  > “We will use every tool in our toolbox to keep the kids in our school safe,” the headmaster of John Adams Academy Douglas County in Colorado said.
+- **NEW**  [[St. Louis] Cardinals promote rookie Quinn Mathews; makes MLB debut against Toronto Blue Jays](https://www.ksdk.com/article/news/local/cardinals-promote-rookie-quinn-mathews-makes-mlb-debut-against-toronto-blue-jays/63-c6aaa3c9-243c-4230-9385-f28876d3f7db) — *2026-08-01*
+  > The lefty pitcher will wear No. 60 for the Cardinals.
+- **NEW**  [[St. Louis] Heat wave expected to bring record-breaking temps, heighten wildfire risk in Western US](https://www.ksdk.com/article/weather/heat-wave-record-breaking-temperatures-wildfire-risk/507-3fa4237e-9f4e-4d73-8d8f-d7e96d8f6f1f) — *2026-08-01*
+  > A high-pressure ridge is holding heat close to the ground from Arizona to Montana.
+- **NEW**  [[St. Louis] Iraq and Turkey strike a 1-year oil pipeline deal to boost exports amid ongoing Hormuz closures](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iraq-turkey-pipeline-deal-strait-hormuz-closure-iran-war/507-48b04360-8659-4533-836c-709dc0b3ead4) — *2026-08-01*
+  > Iraq and Turkey have signed a deal to transport Iraqi crude oil through a pipeline to Turkey's port of Ceyhan.
+- **NEW**  [[St. Louis] Professional bowling champion Jakob Butturff dies 'unexpectedly' at age 32](https://www.ksdk.com/article/news/nation-world/professional-bowling-champion-jakob-butturff-dies-age-32-pba-tour/507-d33b3d03-e15d-4341-96fa-52099f15494f) — *2026-08-01*
+  > Jakob Butturff was an eight-time PBA Tour champion.
+- **NEW**  [[St. Louis] Minnesota man accused of crafting a bike trap to discourage kids from riding across his yard](https://www.ksdk.com/article/news/nation-world/minnesota-man-charged-bicycle-trap-kids-yard-complaint-bike-ride-park/507-ea94c41f-ed9c-40dd-9dcb-e051412d4219) — *2026-08-01*
+  > Police said the homemade strip contained about 40 3-inch screws sticking upward and was placed where children regularly rode bikes to a nearby park.
+- **NEW**  [[St. Louis] Black Pride St. Louis brings weekend of celebration and community to new downtown location](https://www.ksdk.com/article/entertainment/events/black-pride-st-louis-brings-weekend-of-celebration-and-community-to-new-downtown-location/63-1c17f725-3341-4316-ba92-102821340698) — *2026-08-01*
+  > The annual event runs Aug. 13-16 and features advocacy, health resources, entertainment and community events centered on this year's "Homecoming" theme.
+- **NEW**  [[St. Louis] Iceland seizes ship run by anti-whaling activist group and detains its crew](https://www.ksdk.com/article/news/nation-world/iceland-whaling-conservation-ship-vessel-detained-captain-paul-watson-foundation/507-75db67e5-a4f6-400f-8878-dcd5dd1670bb) — *2026-08-01*
+  > Authorities in Iceland have reportedly seized a ship run by an anti-whaling activist group and detained its crew.
 
 _(230 additional items in raw.jsonl)_

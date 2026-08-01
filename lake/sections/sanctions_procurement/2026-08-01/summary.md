@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-01
-record_count: 106
+record_count: 104
 new_today: 14
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-14 new of 106 total items today.
+14 new of 104 total items today.
 
 - [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $2,744,085,731 → THE BOEING COMPANY: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CO](https://www.usaspending.gov/award/80MSFC20C0052) — *2026-08-01*
   > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
 
-_(81 additional items in raw.jsonl)_
+_(79 additional items in raw.jsonl)_

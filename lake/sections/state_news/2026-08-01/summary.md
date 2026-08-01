@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-01
-record_count: 725
-new_today: 41
+record_count: 758
+new_today: 92
 state: fresh
 ---
 
 ## State-Level News
 
-41 new of 725 total items today.
+92 new of 758 total items today.
 
 - [[Alabama] Ladale Garrett – Talladega County Award](https://governor.alabama.gov/newsroom/2026/07/ladale-garrett-talladega-county-award/) — *2026-07-31*
   > Download
@@ -25,18 +25,10 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-announces-California-will-raise-statewide-minimum-wage-to-highest-in-nation-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Governor Newsom ann
 - [[California] Governor Newsom deploys elite wildfire team to Washington State as western fires surge](https://www.gov.ca.gov/2026/07/29/governor-newsom-deploys-elite-wildfire-team-to-washington-state-as-western-fires-surge/) — *2026-07-30*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/California-deploys-elite-wildfire-team-to-Washington-State-as-western-fires-surge-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="l
-- **NEW**  [[Alaska] Shooting Sports Month 2026](https://gov.alaska.gov/shooting-sports-month-2026/) — *2026-08-01*
-  > WHEREAS, Alaskans enjoy a variety of outdoor activities throughout the year, and many of those activities, from hiking and hunting to recreational shooting, involve the use of firearms; and WHEREAS, many Alaskans rely on and take pride in the ability to use firearms to feed and p
-- [[Alaska] Governor Dunleavy Announces Creation of Alaska Military Affairs Office](https://gov.alaska.gov/governor-dunleavy-announces-creation-of-alaska-military-affairs-office/) — *2026-07-30*
-  > Strengthens National Defense, Military Partnerships, and Economic Opportunity Today Governor Mike Dunleavy joins Major General Torrence Saxe to announce the establishment of the Alaska Military Affairs Office (AMAO) within the Alaska Department of Military and Veterans Affairs (D
-- [[Alaska] Alaska National Guard Day 2026](https://gov.alaska.gov/alaska-national-guard-day-2026/) — *2026-07-30*
-  > WHEREAS, since before World War II, the Alaska National Guard has acted as a first line of defense for the United States of America; and WHEREAS, the Alaska National Guard serves our Nation when called by federal service, and Alaska National Guard members stand ready to serve the
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-01*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-01*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- **NEW**  [[California] Fierce floods or wild waves? How San Diego is preparing for a winter of extreme weather under El Niño.](https://calmatters.org/environment/2026/08/el-nino-san-diego-winter-weather/) — *2026-08-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/020224_Flood-San-Diego_AH_CM_16.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Floodwater covers a low-lying area at dus
 - [[California] Universidad de California rompe relaciones con la Patrulla Fronteriza tras protestas estudiantiles](https://calmatters.org/calmatters-en-espanol/2026/07/universidad-de-california-patrulla-fronteriza-protestas/) — *2026-07-31*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020426_UCSD-Police_AH_003.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset=
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020426_UCSD-Police_AH_003.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
 - [[California] Tribunal: La política de detención masiva de inmigrantes de Trump contradice 30 años de precedentes](https://calmatters.org/calmatters-en-espanol/2026/07/detencion-masiva-inmigrantes-fallo-judicial/) — *2026-07-31*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/03/022026_Padilla-Otay-Mesa_AH_08_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large detention facility complex sits
 - [[California] Why federal court struck down Trump’s mass detention policy](https://calmatters.org/newsletter/mass-detention-9th-circuit/) — *2026-07-31*
@@ -53,15 +45,23 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/07/053124-Bakersfield-Rural-Homelessness-LV_06.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction workers building
 - [[California] Is this proposition a $4 billion giveaway to a billionaire-backed LA research center?](https://calmatters.org/politics/elections/2026/07/proposition-38-california/) — *2026-07-31*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071326-UC-Irvine-LO-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a blue jacket, wearing a medi
-- [[California] Two cities burned in LA fires settle YIMBY lawsuit](https://calmatters.org/housing/2026/07/yimby-sb9-malibu-pasadena/) — *2026-07-31*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/061726-Eaton-Fire-Rebuild-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view shows several houses un
-- [[Connecticut] Blumenthal’s bill, mental health grants, Electric Boat: CT politics news](https://ctmirror.org/2026/07/31/ct-politics-blumenthal-bill-mental-health-electric-boat/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/AP26209820299823-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uplo
-- [[Connecticut] Opposition builds to redevelopment on Norwalk’s Manresa Island](https://ctmirror.org/2026/07/31/manresa-island-opposition-norwalk/) — *2026-07-31*
-  > <figure><img width="880" height="542" src="https://ctmirror.org/wp-content/uploads/2024/10/Austin-and-Allison-McChord.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2024/10/Austin-an
-- [[Connecticut] More than 17% of Connecticut residents live in a ‘pharmacy desert’](https://ctmirror.org/2026/07/31/more-than-17-of-connecticut-residents-live-in-a-pharmacy-desert/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/CT-STATS-PHARMACY-DESERTS-073026-JL-006-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.or
-- [[Connecticut] Officials criticize ‘misinformation’ in reports on crash that killed cop](https://ctmirror.org/2026/07/31/melissa-esperanza-ramirez-fatal-crash-stamford-new-britain/) — *2026-07-31*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2024/10/IMG_5845-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2024/10/I
+- **NEW**  [[Colorado] Coloradans celebrate 150 years of statehood on a historic Colorado Day](https://coloradonewsline.com/2026/08/01/coloradans-150-years-statehood/) — *2026-08-01*
+  > Coloradans young and old spent a hot, sunny day in downtown Denver celebrating 150 years of Centennial State history with cake, sing-alongs, art projects, Legos, lowriders and even a square dance routine in the halls of the Capitol. After a pancake breakfast, Gov. Jared Polis, dr
+- **NEW**  [[Colorado] Fifty for 150: Local boosters and ‘party trickery’ secured statehood for Colorado in 1876](https://coloradonewsline.com/2026/08/01/fifty-for-150-statehood-secured/) — *2026-08-01*
+  > Colorado may have always been destined to attain statehood, but it owes its identity as the Centennial State to the partisan political interests of the Reconstruction-era Republican Party. The timing of Colorado’s admission into the union in 1876, weeks after the celebration of t
+- [[Colorado] Trump defends massive settlement for ‘great American Patriots’ of Jan. 6, attacks GOP senators](https://coloradonewsline.com/2026/07/31/repub/trump-defends-massive-settlement-jan-6/) — *2026-07-31*
+  > WASHINGTON — President Donald Trump defended his highly criticized, nearly $1.8 billion “anti-weaponization” settlement fund on social media and in a Cabinet meeting Friday, as two key Republican senators withheld support for the president’s nominee for attorney general over Trum
+- [[Colorado] Colorado inspection law unfairly singles out ICE detention center, operator’s lawyers say](https://coloradonewsline.com/2026/07/31/colorado-inspection-law-ice-detention-center/) — *2026-07-31*
+  > Lawyers for the private company that runs Colorado&#8217;s only immigration detention center told a judge Friday that a new state law is unfairly discriminatory and should be struck down. The GEO Group sued the state over House Bill 26-1276, a new law that requires more frequent 
+- [[Colorado] Feds to impose new cuts on lower Colorado River states amid climate-fueled megadrought](https://coloradonewsline.com/briefs/new-cuts-lower-colorado-river/) — *2026-07-31*
+  > The federal government on Friday formalized a set of guidelines for managing water use in the Colorado River Basin over the next decade, if Colorado and six other Western states can&#8217;t come to an agreement on how to deal with declining flows caused in large part by climate c
+- [[Colorado] Trump looks to veterans to fill trucking jobs after booting immigrants from industry](https://coloradonewsline.com/2026/07/31/repub/trump-veterans-trucking-jobs-immigrants/) — *2026-07-31*
+  > WASHINGTON — President Donald Trump announced an initiative Thursday for veterans to quickly obtain commercial driver’s licenses, as the administration attempts to fill vacancies in the industry after pausing license renewals for foreign-born truck drivers. “The radical left want
+- [[Colorado] Republican Victor Marx chooses George Markert as running mate in Colorado governor race](https://coloradonewsline.com/briefs/victor-marx-george-markert-colorado-governor/) — *2026-07-31*
+  > Republican Victor Marx has tapped George Markert, a retired Marine colonel, as his running mate in the race for Colorado governor, Marx announced Friday morning. Markert ran for the Republican nomination for U.S. Senate this year, but did not make the ballot. Before that, Markert
+- [[Colorado] President Ulysses S. Grant proclaimed Colorado a state 150 years ago this week](https://coloradonewsline.com/2026/07/31/1876-statehood-proclamation-grant/) — *2026-07-31*
+  > The telegraphic dispatch, dated Aug. 1 and sent from Washington, D.C., appeared in newspapers across Colorado and the nation the following day. &#8220;The President, in accordance with the provisions of an act of Congress, approved March 3, 1875, has issued his proclamation decla
+- [[Colorado] Fifty for 150: Racist mob attacks Denver Chinese community in 1880 riot](https://coloradonewsline.com/2026/07/31/fifty-for-150-chinese-community-attacked/) — *2026-07-31*
+  > On Halloween night in 1880, a white mob targeted Chinese residents in Denver after a drunken saloon fight, ransacked their homes and businesses, and killed a Chinese man. The killers were never punished and the city failed to compensate people for the tens of thousands of dollars
 
-_(700 additional items in raw.jsonl)_
+_(733 additional items in raw.jsonl)_

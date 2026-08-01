@@ -2,220 +2,268 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-01
-record_count: 173
-new_today: 150
+record_count: 167
+new_today: 165
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-150 new of 173 total items today.
+165 new of 167 total items today.
 
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:27AM PDT until August 1 at 5:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8968214573018f07cbdc865d195518ca4c1d9007.001.1) — *2026-08-01*
-  > * WHAT...Long-period southerly swell will bring an increased
-risk of sneaker waves and strong rip currents. Breaking waves
-will reach up to 10 feet along some south and southwest facing
-beaches and break points.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 6:33PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0553731a278094a32549750e9618d1923ec6da40.001.1) — *2026-08-01*
+  > At 633 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Munford, or 7 miles northeast of Talladega, moving east at 25 mph.
 
-* WHERE...Pacific Coast beaches.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHEN...Through Saturday afterno
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 5:27AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.86bb62c8dce5e17277cb0aec73e77539e4d75b12.001.1) — *2026-08-01*
-  > Patchy dense fog this morning can be seen on area web cameras and
-has led to reduced visibility to below 1 mile in spots. If
-traveling this morning, give yourself extra time to reach your
-destination and allow additional space between you and other
-drivers as visibilities can abr
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-11333) — *2026-08-01*
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured object
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 1 at 7:33PM EDT until August 1 at 8:00PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2d0691a340ed8c17efbe0f059cb0c8f39f9a86f8.001.1) — *2026-08-01*
+  > SVRFFC
+
+The National Weather Service in Peachtree City has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Floyd County in northwestern Georgia...
+Southwestern Whitfield County in northwestern Georgia...
+Southeastern Walker County in northwestern Georgia...
+Northweste
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 7:32PM EDT until August 2 at 8:00PM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb411d4c98117cb6f79a5132a8add859947cf6d6.001.1) — *2026-08-01*
+  > * WHAT...Strong south to north longshore current. There is also a
+Moderate Risk of rip currents expected.
+
+* WHERE...In North Carolina, Coastal Pender and Coastal New
+Hanover Counties. In South Carolina, Coastal Horry and Coastal
+Georgetown Counties.
+
+* WHEN...From 6 AM EDT Sunda
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 5:31PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eae8201784c890ae311b543dab808d9dbcaf78d3.001.1) — *2026-08-01*
+  > At 531 PM MDT, Doppler radar was tracking an area of strong
+thunderstorms 14 miles southwest of Hayden, or 16 miles southwest of
+Amistad, moving southwest at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could kno
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued August 1 at 7:31PM EDT until August 1 at 8:00PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a9dbb77307e66526fa5d59dd5bdccae6f115d33.001.1) — *2026-08-01*
+  > TORILN
+
+The National Weather Service in Wilmington has issued a
+
+* Tornado Warning for...
+East central Wayne County in east central Indiana...
+Northwestern Preble County in west central Ohio...
+Southern Darke County in west central Ohio...
+
+* Until 800 PM EDT.
+
+* At 731 PM EDT, a
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:30PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1af53461f68f1fa336adde7220b17ea9faf3dc45.001.1) — *2026-08-01*
+  > At 730 PM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms near Francisco, moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations im
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 6:29PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c53561ca31c7dad33aeefc2d7d933684ec4d08e.001.1) — *2026-08-01*
+  > At 628 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Gurley, or 13 miles southeast of Huntsville, moving northeast at 30
+mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:29PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.352ca89348d530fbaad2f5e786361fb67d0b034c.001.1) — *2026-08-01*
+  > At 729 PM EDT, a strong thunderstorm was over Fairview, or 9 miles
+south of Chattanooga, moving east at 25 mph.
+
+HAZARD...40 to 50 mph wind, up to penny sized hail, frequent cloud
+to ground lightning and heavy rain.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect minor damage to tree
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 1 at 5:29PM MDT until August 1 at 6:15PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5536fc0f464ebe7a8cac3bd944e5344932eae8d5.001.1) — *2026-08-01*
+  > SVRABQ
+
+The National Weather Service in Albuquerque has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Lincoln County in central New Mexico...
+East Central Socorro County in central New Mexico...
+
+* Until 615 PM MDT.
+
+* At 529 PM MDT, a severe thunderstorm was locate
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued August 1 at 7:28PM EDT until August 1 at 8:00PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bd5d61441fae5352e9b2ac50668e9bf8c8ab453.001.1) — *2026-08-01*
+  > TORILN
+
+The National Weather Service in Wilmington has issued a
+
+* Tornado Warning for...
+Eastern Switzerland County in southeastern Indiana...
+Eastern Carroll County in northern Kentucky...
+Northwestern Grant County in northern Kentucky...
+Northwestern Owen County in northern Ke
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 6:28PM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.403157de00f959ef43397dde23b9a207f5b4462b.001.1) — *2026-08-01*
+  > At 628 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Blooming Grove to near Bedford. Movement
+was east at 25 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow ar
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-57712) — *2026-08-01*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:15AM PDT until August 1 at 5:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1a0c0c28cf96071814f785c3c2f6f224a124b36.002.2) — *2026-08-01*
-  > * WHAT...For the Beach Hazards Statement, frequent, moderate to
-strong rip currents and breaking waves due to elevated surf.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 1 at 5:26PM MDT until August 1 at 6:15PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9907b5c93806baffcb11e50a95068edae1538e06.001.1) — *2026-08-01*
+  > SVRABQ
 
-* WHERE...Ventura County Beaches.
+The National Weather Service in Albuquerque has issued a
 
-* WHEN...Through this afternoon.
+* Severe Thunderstorm Warning for...
+East Central Quay County in east central New Mexico...
 
-* IMPACTS... Rip currents can pull swimmers and surfers out to
-sea. Waves can wash pe
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 2:15AM PDT until August 1 at 5:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b1a0c0c28cf96071814f785c3c2f6f224a124b36.003.1) — *2026-08-01*
-  > * WHAT...Dangerous rip currents and elevated surf. Strong,
-frequent rip currents are likely along some beaches,
-especially exposed south to southwest facing beaches along the
-Central Coast.
+* Until 615 PM MDT.
 
-* WHERE...San Luis Obispo County Beaches, Santa Barbara County
-Central Coast Beaches, San
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 1 at 2:14AM PDT until August 1 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.caf5457bf4c31930d1f287428d5bae190e1f2e4b.001.1) — *2026-08-01*
-  > * IMPACTS...Any fires that develop will likely spread rapidly.
+* At 526 PM MDT, a severe thunderstorm was located near San Jon, or
+22 miles east of Tucumcari, movi
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:25PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58f09c6f8f2162c121e089a997314223e29e9a8f.001.1) — *2026-08-01*
+  > At 725 PM EDT, a strong thunderstorm was located near Carrollton,
+moving northeast at 35 mph.
 
-* AFFECTED AREA...In Oregon, the southeastern portion of Fire
-Weather Zone 624 covering the Fremont National Forest and all
-of Fire Weather Zone 625, covering the South Central Oregon
-deserts and BLM Land in Eastern 
-- **NEW**  [[Moderate] Gale Watch: The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.001.2) — *2026-08-01*
-  > The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:10AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.002.3) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, north winds 20 to 25 kt
-with gusts up to 35 kt and seas 6 to 9 ft at 7 seconds
-expected. For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and very steep seas 9 to 13 ft at 8 seconds.
+HAZARD...Wind gusts up to 45 mph.
 
-* WHERE...All areas.
+SOURCE...Radar indicated.
 
-* WHEN...For th
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:10AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.001.3) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, north winds 20 to 30 kt
-with gusts up to 35 kt and seas 6 to 9 ft at 7 to 8 seconds
-expected. For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and very steep seas 9 to 13 ft at 8 seconds.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* WHERE...For the Small Craft Ad
-- **NEW**  [[Moderate] Gale Watch: The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec2d2e3d5673d3e55df6737efc46db1872fc7ff4.002.2) — *2026-08-01*
-  > The Gale Watch has been replaced. Please see the latest information from NWS Medford OR on this developing situation.
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 2 at 9:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.003.2) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 20
-kt with gusts up to 30 kt. For the Gale Warning, northwest
-winds 20 to 30 kt with gusts up to 35 kt and seas 8 to 10 ft
-expected.
+Locations impacted include...
+Carrollt
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:23PM EDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33b8fc89173492b71c70368ee2cd93f4ff06f74d.001.1) — *2026-08-01*
+  > At 723 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Owenton to near Lawrenceburg. Movement was
+east at 25 mph.
 
-* WHERE...Coastal Waters from Point Arena to Point Reyes
-California out to 10 NM.
+HAZARD...Wind gusts up to 50 mph.
 
-* 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 3 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.002.2) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 30
-kt with gusts up to 34 kt and seas 8 to 10 ft. For the Gale
-Warning, northwest winds 25 to 35 kt with gusts up to 40 kt
-and seas 10 to 15 ft expected.
+SOURCE...Radar indicated.
 
-* WHERE...Waters from Point Reyes to Pigeon Point 10-60 NM.
+IMPACT...Gusty winds could knock down tree limbs and blow arou
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 1 at 7:23PM EDT until August 1 at 8:45PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25d22c098cf177bd48ddd4b46e08b4cbcfe570df.001.1) — *2026-08-01*
+  > At 723 PM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Up to 4 inches of rain have fallen.
+Flash flooding is ongoing.
 
-* W
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 3 at 3:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.001.2) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, northwest winds 20 to 25
-kt with gusts up to 30 kt. For the Gale Warning, northwest
-winds 25 to 35 kt with gusts up to 40 kt and seas 10 to 15 ft
-expected.
+HAZARD...Flash flooding caused by thunderstorms.
 
-* WHERE...Waters from Point Arena to Point Reyes 10-60 NM.
+SOURCE...Radar.
 
-* WHEN...For the Small C
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 1 at 2:09AM PDT until August 1 at 9:00PM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a471b8b0ab10f1fcd63c48f2f6334bf9ad657b47.004.2) — *2026-08-01*
-  > * WHAT...For the Small Craft Advisory, northwest winds 15 to 25
-kt with gusts up to 30 kt. For the Gale Warning, northwest
-winds 15 to 25 kt with gusts up to 35 kt expected.
+IMPACT...Flash flooding of small creeks and streams
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 1 at 7:22PM EDT until August 1 at 8:30PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11ab6a7d3c1e8172a1aeaf4c2b367537bc654cf7.001.1) — *2026-08-01*
+  > At 722 PM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Up to 4 inches of rain have fallen.
+Flash flooding is ongoing.
 
-* WHERE...Coastal Waters from Point Pinos to Point Piedras
-Blancas California out to 10 NM.
+HAZARD...Flash flooding caused by thunderstorms.
 
-* WHEN...For
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 5:00AM EDT until August 3 at 8:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.849848052d272768dc1e346927a07771a3455544.002.1) — *2026-08-01*
-  > * WHAT...Dangerous swimming conditions expected.
+SOURCE...Radar.
 
-*Waves: Waves 2 to 3 feet Sunday morning building to 3 to 5
-feet by late afternoon.
+IMPACT...Flash flooding of small creeks and streams
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:22PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.75dc33baf5d44d615ce0f3913872edadacc32781.001.1) — *2026-08-01*
+  > At 722 PM EDT, a strong thunderstorm was over James H. Floyd State
+Park, or near Summerville, moving northeast at 20 mph.
 
-*Longshore Current: Expected. Moving from north to south along
-the beach.
+HAZARD...Up to 40 mph wind, pea sized hail and frequent cloud to
+ground lightning.
 
-*Structural Currents: Expected, especially on the north sides of
-piers
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 5:00AM EDT until August 3 at 8:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.849848052d272768dc1e346927a07771a3455544.001.1) — *2026-08-01*
-  > * WHAT...Dangerous swimming conditions expected.
+SOURCE...Radar indicated.
 
-*Waves: 1 to 2 feet building to 3 to 5 feet by late this
-afternoon. Waves 3 to 4 feet Sunday morning building to 4 to
-7 feet by late afternoon. The highest waves each day will be
-from New Buffalo to Michigan City.
+IMPACT...Expect minor damage to tree limbs and
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 7:22PM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bee017afd796ec52fa1ee2037ff0ceb85e777854.001.1) — *2026-08-01*
+  > At 722 PM EDT/622 PM CDT/, Doppler radar was tracking a strong
+thunderstorm over Lookout Mountain, or near Chattanooga, moving east
+at 30 mph.
 
-*Longshore Curr
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 2:48AM MDT until August 1 at 8:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29bfb4d517cfdc6dda459301c35d157ea716a9f4.002.1) — *2026-08-01*
-  > * WHAT...Temperatures up to 100 expected.
+HAZARD...Wind gusts up to 50 mph and pea size hail.
 
-* WHERE...Northwest Plateau and West Central Plateau.
+SOURCE...Radar indicated.
 
-* WHEN...From noon today to 8 PM MDT this evening.
+IMPACT...Gusty winds could knock down tree limbs and blo
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 1 at 6:20PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af7fa62de4488ba2e791558ab5606961467622b3.001.1) — *2026-08-01*
+  > At 620 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Glenrio, or 30 miles south of Nara Visa, moving southeast at 20 mph.
 
-* IMPACTS...Hot temperatures may cause heat illnesses.
+HAZARD...Wind gusts of 50 to 55 mph and half inch hail.
 
-* ADDITIONAL DETAILS...Individuals involved in flash flood recovery
-effort
-- **NEW**  [[Unknown] Hydrologic Outlook: Hydrologic Outlook issued August 1 at 3:45AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdd4eb8f1e14463f50534db20902ba04203b65f9.001.1) — *2026-08-01*
-  > ESFIND
+SOURCE...Radar indicated.
 
-A slow moving low pressure system will impact central Indiana
-today and Sunday with showers and isolated thunderstorms at
-times. Heavy rainfall will be possible due to efficient rainfall
-rates from repeated rounds of storms, primarily today and tonight.
-Heavy rain may res
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 3:18AM CDT until August 3 at 9:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a28cee75b13d83002a77adc6b6197f76ba0b3d2.001.1) — *2026-08-01*
-  > * WHAT...High wave action and dangerous currents expected at Lake
-Michigan beaches. Waves 6 to 9 feet expected.
+IMPACT...Gusty winds could knock down tree limbs and blow
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 1 at 7:17PM EDT until August 1 at 10:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16e5ccb51adfd616dad08273473bb23055fb57c5.001.1) — *2026-08-01*
+  > * WHAT...Flooding caused by excessive rainfall continues.
 
-* WHERE...Lake IL, Northern Cook and Central Cook Counties.
+* WHERE...Northeastern Bartholomew County in central Indiana...
+Southwestern Decatur County in central Indiana...
+Johnson County in central Indiana...
+Shelby County in central Indiana...
 
-* WHEN...Through Monday morning.
-
-* IMPACTS...Swimming conditions will be life threatening,
-especially for
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 1 at 3:18AM CDT until August 3 at 9:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a28cee75b13d83002a77adc6b6197f76ba0b3d2.002.1) — *2026-08-01*
-  > * WHAT...High wave action and dangerous currents expected at Lake
-Michigan beaches. Waves 6 to 9 feet expected.
-
-* WHERE...Lake IN and Porter Counties.
-
-* WHEN...From 9 AM CDT this morning through Monday morning.
-
-* IMPACTS...Swimming conditions will be life threatening,
-especial
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 2:16AM MDT until August 2 at 8:00PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24e044d4d21ba70839a4e8d73be2efb1225bf0b1.001.1) — *2026-08-01*
-  > * WHAT...Heat index values up to 105 expected.
-
-* WHERE...Portions of northwestern and southwestern South Dakota.
-
-* WHEN...From 10 AM to 8 PM MDT Sunday.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Unknown] Hydrologic Outlook: Hydrologic Outlook issued August 1 at 3:45AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82bb9bd394257f5e452006cb584e832bfc53f1d4.001.1) — *2026-08-01*
-  > ESFIND
-
-A slow moving low pressure system will impact central Indiana
-today and Sunday with showers and isolated thunderstorms at
-times. Heavy rainfall will be possible due to efficient rainfall
-rates from repeated rounds of storms, primarily today and tonight.
-Heavy rain may res
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 1:39AM MDT until August 2 at 10:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dffcf0fa4a531072802154ae4729bb55f6cce9f1.001.1) — *2026-08-01*
-  > * WHAT...Very hot temperatures expected this weekend. Highs from 98
-to 105 below 5500 feet, 90 to 98 above 5500 feet.
-
-* WHERE...Portions of central, north central, northwest, south
-central, southwest, and west central Wyoming.
-
-* WHEN...From noon today to 10 PM MDT Sunday.
+* WHEN...Until 1000 PM EDT.
 
 * IM
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued August 1 at 1:36AM MDT until August 3 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08426ecb8e83d133ffcb6523feb8c13fda09133e.001.1) — *2026-08-01*
-  > * IMPACTS: Low Humidities...Unseasonably Warm Temperatures...and
-Wind Shift with a Cold Front could cause erratic fire behavior.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 1 at 5:17PM MDT until August 1 at 7:15PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f925f431914fd332b7f4fa6875448f58883bb6a.001.1) — *2026-08-01*
+  > FFWEPZ
 
-* AFFECTED AREA:
-In Central WY Fire Zone....289.
-In Southwest WY Fire Zones...277...279.
-In West Central WY Fire Zone....278.
+The National Weather Service in El Paso Tx/Santa Teresa has issued a
 
-* COUNTIES AFFECTED:
-In
-- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued August 1 at 1:36AM MDT until August 2 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08426ecb8e83d133ffcb6523feb8c13fda09133e.002.1) — *2026-08-01*
-  > * IMPACTS: Low Humidities...Unseasonably Warm Temperatures...and
-Wind Shift with a Cold Front could cause erratic fire behavior.
+* Flash Flood Warning for...
+Northern Otero County in south central New Mexico...
 
-* AFFECTED AREA:
-In Central WY Fire Zones...283...285.
-In North Central WY Fire Zones...275...276...282.
+* Until 715 PM MDT.
 
-* COUNTIES AFFECTED:
-In Central WY...Fremont
+* At 517 PM MDT, Persistent thunderstorms over Bent and Nogal Canyon
+have produced 1 to 1.5 inches
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 1 at 7:16PM EDT until August 1 at 10:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fab4e13a2312dcd8f7695f5e07834fe1e0c848f.001.1) — *2026-08-01*
+  > * WHAT...Flooding caused by excessive rainfall continues.
 
-_(148 additional items in raw.jsonl)_
+* WHERE...Northwestern Bartholomew County in central Indiana...
+Southeastern Johnson County in central Indiana...
+Southwestern Shelby County in central Indiana...
+Northeastern Brown County in south central Indiana...
+
+* W
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 1 at 4:16PM PDT until August 1 at 10:00PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6a1f27959bd29fae832b4eaa4990226ace1a37a.001.1) — *2026-08-01*
+  > * WHAT...High temperatures 100 to 105 degrees expected in the
+valleys.
+
+* WHERE...White Pine, Northern Lander and Northern Eureka, Southern
+Lander and Southern Eureka, Northern Elko, Ruby Mountains and East
+Humboldt Range in Elko, South Central Elko, Southeastern Elko,
+Southwest 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 1 at 7:16PM EDT until August 1 at 10:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c64050de54edcc538784abfe90ed1e4e909dc04.001.1) — *2026-08-01*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Hendricks County in central Indiana...
+
+* WHEN...Until 1000 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring.
+
+* ADDITIONAL DETAILS
+
+_(142 additional items in raw.jsonl)_

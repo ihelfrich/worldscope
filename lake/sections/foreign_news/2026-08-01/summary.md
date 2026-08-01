@@ -2,64 +2,62 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-01
-record_count: 1028
-new_today: 421
+record_count: 1051
+new_today: 628
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-421 new of 1028 total items today.
+628 new of 1051 total items today.
 
-- **NEW**  [[Global] Fifa scraps controversial World Cup investment plan](https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Football's world governing body Fifa abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal.
-- [[Global] Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco](https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.
-- **NEW**  [[Global] Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge](https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.
-- **NEW**  [[Global] Russian strikes on Kyiv kill at least nine, Ukraine officials say](https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.
-- **NEW**  [[Global] Race to rescue remaining climbers after deadly avalanche in Pakistan](https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Poor weather has been hampering the search for seven still missing after Thursday's avalanche on Broad Peak.
-- **NEW**  [[Global] Peru's ex-president leaves jail after 15-year jail term for corruption overturned](https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.
-- [[Global] Hundreds escape Greek wildfire by sea as blazes continue across Europe](https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > Around 500 people, mostly tourists, are evacuated by boat from Agios Vasileios after becoming trapped.
-- **NEW**  [[Global] India's 'cockroach' protesters have wounds consistent with pellet-gun fire, say experts](https://www.bbc.co.uk/news/articles/c74gwvygkjdo?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > Ballistic experts say the dozens of tiny round punctures are tell-tale signs of pellet gun injuries.
-- **NEW**  [[Global] Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs](https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > President Donald Trump had blamed "sick" vandals, and a former Olympian had been charged, but prosecutors now say contractors caused the damage.
-- [[Global] UK rapper Yung Filly found not guilty of raping woman after Australian show](https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.
-- [[Global] Danube's record low levels force shutdown of Hungary's only nuclear plant](https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > Romania, Bulgaria and Serbia are also grappling with the effects of a series of prolonged heatwaves and low rainfall.
-- [[Global] Missile that left crater deep inside Poland was probably Russian - Polish PM](https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.
-- [[Global] Father of teen school shooter sentenced to 15 years in prison](https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > "It is clear you failed as a parent," the judge told Colin Gray, who was found guilty earlier this year on charges stemming from the deadly 2024 school attack.
-- [[Global] Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect](https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > Foul play is ruled out in the record number of elephant deaths for decades in this area of southern Kenya.
-- [[Global] Nicaraguan leader proposes extending presidential term by another year](https://www.bbc.co.uk/news/articles/c0m78k3k31jo?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > It is not the first time the constitution has been amended to allow Daniel Ortega, 80, to stay in power for longer.
-- [[Global] Anthropic's Claude AI escapes to hack into three organisations](https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > It comes just days after rival OpenAI said rogue AI agents had breached other firms' networks.
-- [[Global] Thousands evacuated in Crete as wildfires threaten tourist resorts](https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.
-- **NEW**  [[Global] Death row inmates desperate to escape execution in Saudi Arabia call the BBC](https://www.bbc.co.uk/news/articles/c80nkgdnl4no?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > Dozens of Ethiopians are awaiting execution - some called the BBC to tell their stories.
-- **NEW**  [[Global] Infantino on the brink? Who might replace him if he goes?](https://www.bbc.co.uk/sport/football/articles/c998m4ve0rpo?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Fifa president Gianni Infantino is in the eye of a storm after scrapping his attempt to sell stakes in the World Cup. If he goes, who comes in?
-- [[Global] Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza](https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > The realities of politics, war, zero trust, the deaths of thousands and the destruction of Gaza will make any agreement very complicated.
-- **NEW**  [[Global] How police in US are using the power of podcasts to crack unsolved murders](https://www.bbc.co.uk/news/articles/cpw9q0ekd9eo?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > More police departments are trying to invigorate unsolved murder or missing cases through the power of podcasts.
-- **NEW**  [[Global] Greyhounds bound for Australia as New Zealand racing ban takes effect](https://www.bbc.co.uk/news/articles/c5y62pe9g3no?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > At least two chartered flights carrying up to 150 greyhounds are set to fly to Australia's eastern states, the BBC understands.
-- [[Global] Why limited war with the US may suit Iran better than peace](https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > Iran may believe it can control its conflict carefully enough to keep pressure on the US while avoiding an all-out war.
-- [[Global] India wants to join the strawberry superpowers](https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss) — *2026-07-30*
-  > Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.
-- [[Global] What's in the Gaza peace deal roadmap?](https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > Hamas says it has accepted a disarmament plan for Gaza which will see it lay down its arms and Israeli troops withdraw from the territory.
+- **NEW**  [[Global] Homemade bomb goes off outside upscale Moscow restaurant state officials say](https://www.dw.com/en/homemade-bomb-goes-off-outside-upscale-moscow-restaurant-state-officials-say/a-78205022?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Russian authorities said the blast occurred outside a restaurant on Kudrinskaya Square when a woman allegedly carrying explosives was stopped by a security guard.
+- **NEW**  [[Global] 13 dead after small tourist plane crashes in Peru](https://www.dw.com/en/13-dead-after-small-tourist-plane-crashes-in-peru/a-78204342?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > The plane was taking tourists to see the Nazca Lines, a group of geoglyphs etched into the deserts of southern Peru.
+- **NEW**  [[Global] How does eastern Europe commemorate the Roma Holocaust?](https://www.dw.com/en/how-does-eastern-europe-commemorate-the-roma-holocaust/a-78183503?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > In 2015, the EU designated August 2 as the European Roma Holocaust Memorial Day. In Germany, the day is marked with memorial services, educational activites and public addresses. And in eastern Europe?
+- **NEW**  [[Global] Germany news: Big turnout for Pride after Berlin attack](https://www.dw.com/en/germany-news-big-turnout-for-pride-after-berlin-attack/live-78199317?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Several German cities are holding Pride events a week after a deadly attack on a march in Berlin. A forest fire is burning out of control in Bavaria. DW has more.
+- **NEW**  [[Global] Germany's long road to equality for same-sex couples](https://www.dw.com/en/germany-s-long-road-to-equality-for-same-sex-couples/a-78193914?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > In 2001, same-sex couples in Germany were able to register a civil partnership for the first time. The Civil Partnership Act was a crucial step toward "marriage for all," which was introduced in 2017.
+- **NEW**  [[Global] Germany widens deportations to Afghanistan](https://www.dw.com/en/germany-widens-deportations-to-afghanistan/a-78173466?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Earlier this week, Germany for the first time deported a man with no criminal record to Kabul. Faridoon Tofan, who is currently in deportation detention, fears the same fate.
+- **NEW**  [[Global] Famed climber Nirmal Purja among 10 killed in avalanche](https://www.dw.com/en/famed-climber-nirmal-purja-among-10-killed-in-avalanche/a-78185586?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > A major search was launched after an avalanche struck the expedition high on Pakistan's Broad Peak. The confirmation ended hopes of a rescue and marked the loss of one of the world's best-known high-altitude climbers.
+- **NEW**  [[Global] More women die in heatwaves, but biology 'isn't main cause'](https://www.dw.com/en/more-women-die-in-heatwaves-but-biology-isn-t-main-cause/a-78187451?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > In country after country, more women are dying from the heat than men. But researchers say biology isn't the main reason. Age, working conditions, and unequal access to rest may drive the gap.
+- **NEW**  [[Global] Iran warns neighbors against being US 'defensive shield'](https://www.dw.com/en/iran-warns-neighbors-against-being-us-defensive-shield/live-78201442?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Iran has warned regional states against helping the US as Washington weighs possible "very hard" new strikes. Meanwhile, the Tehran-backed Houthis claim to have diverted eight Saudi tankers from the Red Sea. DW has more.
+- **NEW**  [[Global] Greece battles wildfires, including near Athens](https://www.dw.com/en/greece-battles-wildfires-including-near-athens/a-78201243?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Firefighters were battling blazes in over 70 locations across Greece. Strong winds continue to fan the flames, adding to the firefighters' struggles.
+- **NEW**  [[Global] War in Ukraine: Why Crimea has become a strategic target](https://www.dw.com/en/war-in-ukraine-why-crimea-has-become-a-strategic-target/a-78197135?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Ukraine has stepped up attacks on Russian logistics centers and energy facilities in Crimea. What are the consequences for local supplies, and how does Kyiv hope this strategy will affect the course of the war?
+- **NEW**  [[Global] How crypto miners are stealing power in Southeast Asia](https://www.dw.com/en/how-crypto-miners-are-stealing-power-in-southeast-asia/a-78175364?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Across Southeast Asia, illegal cryptocurrency miners are stealing vast amounts of electricity, straining national grids, and exposing links to organized crime.
+- **NEW**  [[Global] Ceuta: Spain demands EU meeting, blasts 'selfish' response](https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > After Italy temporarily suspended the Schengen deal with Spain, Spanish PM Pedro Sanchez said his county was being "attacked" from within the EU, stressing that Madrid fully restored control over its border. DW has more.
+- **NEW**  [[Global] Germany weighs the future of minijobs](https://www.dw.com/en/germany-weighs-the-future-of-minijobs/a-78147900?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Germany's popular minijob system allows millions of workers, including students, to avoid paying income tax or social security contributions. But a reform is on the cards that may soon end this advantage.
+- **NEW**  [[Global] Ukraine: Zelenskyy says Patriot missile shortage costs lives](https://www.dw.com/en/ukraine-zelenskyy-says-patriot-missile-shortage-costs-lives/a-78198568?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > At least nine people died, and more than 20 were injured after Russia struck Ukraine's capital with ballistic missiles. President Volodymyr Zelenskyy blames a lack of interceptor missiles for the deaths.
+- **NEW**  [[Global] India: Modi says he forgives 'children' who abused him](https://www.dw.com/en/india-modi-says-he-forgives-children-who-abused-him/a-78200008?maca=en-rss-en-top-1022-rdf) — *2026-08-01*
+  > Modi shared a video message in which he described CJP protesters as "misguided children" who deserve guidance.
+- **NEW**  [[Global] UEFA 'rebuilding trust' after FIFA scraps World Cup sell-out plans](https://www.dw.com/en/uefa-rebuilding-trust-after-fifa-scraps-world-cup-sell-out-plans/a-78198144?maca=en-rss-en-top-1022-rdf) — *2026-07-31*
+  > Europe's governing body, UEFA has called Gianni Infantino's decision to abandon his plans to sell stakes in FIFA competitions to private equity investors a "victory for the whole game."
+- [[Global] DR Congo Ebola outbreak becomes world's second-largest ever](https://www.dw.com/en/dr-congo-ebola-outbreak-becomes-world-s-second-largest-ever/a-78196627?maca=en-rss-en-top-1022-rdf) — *2026-07-31*
+  > DR Congo’s fast-spreading Ebola outbreak has exceeded 3,500 cases, overtaking the country’s deadliest epidemic and becoming the world’s second-largest ever. The Bundibugyo strain has no approved vaccine or treatment.
+- [[Global] UK court allows plans for Chinese 'super' embassy to advance](https://www.dw.com/en/uk-court-allows-plans-for-chinese-super-embassy-to-advance/a-78194764?maca=en-rss-en-top-1022-rdf) — *2026-07-31*
+  > A court dismissed a legal challenge against Beijing's new embassy in London, which could become the largest in the UK. The case, brought by a neighborhood association, argued the embassy poses a security threat.
+- [[Global] Why Europe's wildfires are getting harder to stop](https://www.dw.com/en/why-europe-s-wildfires-are-getting-harder-to-stop/a-78194776?maca=en-rss-en-top-1022-rdf) — *2026-07-31*
+  > Wildfires may start with a single spark, but experts say climate change, drought and decades of forest management decisions have created the conditions for Europe's biggest blazes.
+- [[Global] Sudan civil war: When drones strike the classroom](https://www.dw.com/en/sudan-civil-war-when-drones-strike-the-classroom/a-78089487?maca=en-rss-en-top-1022-rdf) — *2026-07-31*
+  > Children in Sudan's besieged city of el-Obeid are afraid to go to school as drone attacks hit civilian infrastructure. Aid groups warn of a worsening humanitarian crisis.
+- [[Global] Cover Story newsletter: The global currency beef](https://www.economist.com/the-world-this-week/2026/07/31/cover-story-newsletter-the-global-currency-beef) — *2026-07-31*
+  > An exclusive look at how we designed our cover
+- [[Global] Cartoon: Who benefits from AI?](https://www.economist.com/the-world-this-week/2026/07/30/cartoon-who-benefits-from-ai) — *2026-07-30*
+  > A lighter take on the news
+- [[Global] Politics](https://www.economist.com/the-world-this-week/2026/07/30/politics) — *2026-07-30*
+- [[Global] Business](https://www.economist.com/the-world-this-week/2026/07/30/business) — *2026-07-30*
 
-_(1003 additional items in raw.jsonl)_
+_(1026 additional items in raw.jsonl)_
