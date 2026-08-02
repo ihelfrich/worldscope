@@ -3,13 +3,13 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-02
 record_count: 103
-new_today: 8
+new_today: 9
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-8 new of 103 total items today.
+9 new of 103 total items today.
 
 - [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
@@ -19,6 +19,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-02*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
+- **NEW**  [[FARA] Criminal Division | Whistleblower Awards Pilot Program - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-31*
+  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWI2RUU1bUxsNUVfVzY1Szk1UGZ4NklKN3d6ajN3UUVrRXh6TEdfdnpoeGo5SzZhTnoyMFpUdDVaTm1BeWVUeEwzaEpjc1RjYkJmRjRiTldOOEYxTGphNGRHYk9ESHRGa05CWGFsTzFfMTczVFlobEJOVm1DeUpNTU5CTzROVGtIaXZOUVl2eDExZHRwaGdTcWtmQQ?oc=5" target="_blan
 - [[FARA] Office of Information Policy | FOIA Library - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-28*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1USXZ3OFQzbG1IRU41dkYzeUwydUdEMUxlR191b01MbzEzbjVjQjZTT0tNRlFNMTZpNVF0aDBnX2NnUVBDMW1HeWJ3YWM2bDAyU0ZzYkhNQnVURUttckh3cA?oc=5" target="_blank">Office of Information Policy | FOIA Library</a>&nbsp;&nbsp;<font color="#6f6f
 - [[USASpending] $42,774,168,231 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-08-02*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: Department of Energy.  Description: CONTRACT 89233224CNA000004 FOR THE MANAGEMENT AND OPERATION OF THE PANTEX PLANT
 - **NEW**  [[USASpending] $3,500,000,000 → DAVIE DEFENSE INC.: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF F](https://www.usaspending.gov/award/70Z02326C93210003) — *2026-08-02*
   > Agency: Department of Homeland Security.  Description: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF FIVE (5) EACH MULTI-PURPOSE POLAR SHIP (MPPS-100) VESSELS HEREAFTER REFERRED TO AS ARCTIC SECURITY CUTTERS (ASCS).
-- **NEW**  [[USASpending] $3,373,486,394 → AEROJET ROCKETDYNE OF DE, INC: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY T](https://www.usaspending.gov/award/NNM16AA02C) — *2026-08-02*
-  > Agency: National Aeronautics and Space Administration.  Description: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY THE CONTRACTOR IN SUPPORT OF PROVIDING SIX RS-25 ENGINES MODIFIED AS NECESSARY FOR THE TECHNICAL REQUIREMENTS UNDER THE SPACE LAUNCH SYSTEM, RECERTIFICA
 
 _(78 additional items in raw.jsonl)_

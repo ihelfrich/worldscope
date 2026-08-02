@@ -2,14 +2,14 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-02
-record_count: 116
-new_today: 34
+record_count: 130
+new_today: 50
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-34 new of 116 total items today.
+50 new of 130 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-02*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
@@ -17,10 +17,34 @@ state: fresh
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-02*
   > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-08-02*
-  > 404 Client Error: Not Found for url: https://babel.ua/rss
-- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-02*
-  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Lubomyr Medvid: ‘Ukraine Can Become Europe’s Teacher, Not Its Stepchild’](https://www.kyivpost.com/post/81494) — *2026-08-02*
+  > For more than six decades, Lubomyr Medvid has explored history, exile, faith and human conscience. In this wartime monologue, he argues that a renewed Ukraine can become Europe’s partner – and even its teacher.
+- **NEW**  [Ukrainian Soldiers’ Homecoming Odyssey](https://www.kyivpost.com/opinion/81412) — *2026-08-02*
+  > The new cinematic adaptation of Homer’s epic is poignantly relevant to the lives of Ukraine’s warriors, who will need to transcend their war experience. Peace is not merely the absence of a foreign enemy. It requires the restoration of justice.
+- **NEW**  [Ukraine’s Success](https://www.kyivpost.com/opinion/81493) — *2026-08-02*
+  > Clearly, Trump must learn how to identify enemies and choose allies more wisely. In Ukraine’s case, he finally appears to be heeding the wisdom contained in the 4th-century Sanskrit proverb: “The enemy of my enemies is my friend.”
+- **NEW**  [Belarus Forms New Airborne Brigade Near Ukraine](https://www.kyivpost.com/post/81585) — *2026-08-02*
+  > Belarus has begun forming a new airborne assault brigade in the southern Gomel region, approximately 40 kilometers (25 miles) from the Ukrainian border. SOF Commander Alexander Ilyukevich announced that the 37th Separate Airborne Assault Brigade is actively recruiting, with one b
+- **NEW**  [Russian Elites Grow Impatient as Propagandists Panic](https://www.kyivpost.com/post/81580) — *2026-08-02*
+  > Vladimir Putin is facing growing internal pressure as Russian elites, including top banker German Gref and oligarch Andrey Melnichenko, express unprecedented impatience over the failing war and economic ruin caused by Ukrainian drone strikes. Reports indicate elites are moving bi
+- **NEW**  [Russian Arms Shipment Reaches Mali via Togo](https://www.kyivpost.com/post/81579) — *2026-08-02*
+  > The sanctioned Russian cargo vessel Mikhail Britnev delivered a large shipment of military vehicles to Mali’s ruling junta via the port of Lomé in Togo. The ship, which departed Baltiysk on June 18 and was escorted through the English Channel by a Russian Ropucha-class landing sh
+- **NEW**  [Russia’s Cyber War Against the West](https://www.kyivpost.com/opinion/81454) — *2026-08-02*
+  > Russia is not just waging an aggressive cyber campaign against the West – a campaign that fits a well-established Russian pattern of using cyber operations to undermine Western governments, collect intelligence, and prepare the battlefield. Moscow has also positioned itself as a 
+- **NEW**  [Russia Strikes Kharkiv Postal Terminal, Kills 1](https://www.kyivpost.com/post/81583) — *2026-08-02*
+  > Russian forces struck a postal terminal in the suburbs of Kharkiv on Sunday, Aug. 2, killing one person and igniting a massive fire that engulfed cargo trucks and equipment. Rescue operations remain ongoing. Later in the morning, Russian forces dropped a FAB-250 guided aerial bom
+- **NEW**  [Russia Strikes Rozetka Hub in Brovary Twice in 24 Hours](https://www.kyivpost.com/post/81577) — *2026-08-02*
+  > Russian forces launched a second drone strike on the main logistics hub of Ukrainian e-commerce company Rozetka in Brovary, Kyiv region, overnight on Aug. 2. Co-founder Iryna Chechotkina confirmed two Shahed drones hit the company’s largest warehouse, though no employees were inj
+- **NEW**  [Zelensky Seeks UAE Help to Secure Black Sea Routes](https://www.kyivpost.com/post/81574) — *2026-08-02*
+  > President Volodymyr Zelensky held talks with UAE President Mohamed bin Zayed Al Nahyan on Aug. 1 to discuss securing Ukrainian maritime routes and global food security. Zelensky noted Ukraine’s past assistance to Gulf partners against Iranian attacks, seeking reciprocal support i
+- **NEW**  [Leaderless but Unstoppable: Ukraine’s Networked Maidan Redefines Protest Power](https://www.kyivpost.com/analysis/81578) — *2026-08-02*
+  > Mass protests in the Ukrainian capital, triggered by the resignation of Defense Minister Mykhailo Fedorov, continue to ramp up, despite the fact that neither Fedorov nor any other prominent figure serves as a clear organizer. Why is this happening?
+- **NEW**  [Armenian PM Pashinyan Resigns in Procedural Move](https://www.kyivpost.com/post/81572) — *2026-08-02*
+  > Armenian Prime Minister Nikol Pashinyan and his cabinet officially resigned on Sunday, Aug. 2. The move is a constitutional requirement triggered by the convening of the newly elected National Assembly. Pashinyan, whose Civil Contract party won a parliamentary majority in the Jun
+- **NEW**  [Russia Launches 1,900 Drones, 1,600 Bombs in a Week](https://www.kyivpost.com/post/81571) — *2026-08-02*
+  > President Volodymyr Zelensky reported that Russian forces launched approximately 1,900 attack drones, 1,600 guided aerial bombs, and 144 missiles against Ukraine over the past week. The attacks targeted 16 regions and damaged over 1,500 objects, including hundreds of residential 
+- **NEW**  [Boris Johnson Goes ‘Into Ukraine’s Kill Zone’ for New Documentary](https://www.kyivpost.com/post/81539) — *2026-08-02*
+  > Boris Johnson’s new Channel 5 documentary follows the former UK prime minister through Zaporizhzhia as he spends 72 hours near Ukraine’s front line. He meets drone units, witnesses devastation around Komyshuvakha, and argues that the West has grown complacent while Ukrainians fig
 - **NEW**  [General Staff Confirms Strikes on Engels Airbase and Saratov Refinery](https://www.kyivpost.com/post/81568) — *2026-08-02*
   > The General Staff of the Armed Forces of Ukraine confirmed that defense forces struck the Engels strategic airfield and the Saratov oil refinery in Russia early Sunday, Aug. 2. The military noted that the Engels base houses Tu-95MS and Tu-160 bombers used to attack Ukraine. Concu
 - **NEW**  [Ukrainian Drones Destroy 8 Russian Radar and Air Defense Sites](https://www.kyivpost.com/post/81567) — *2026-08-02*
@@ -35,31 +59,7 @@ state: fresh
   > Ukrainian drones struck a major oil refinery in Saratov and a Wildberries logistics center in the Samara region early Sunday, Aug. 2. The Saratov strike sparked a large fire, marking the 15th attack on the facility, which previously had operations halted by a July strike. In Sama
 - **NEW**  [Polish Police Arrest Suspect in Attack on Ukrainian Woman](https://www.kyivpost.com/post/81558) — *2026-08-02*
   > Police in the Polish city of Gdynia arrested a 76-year-old man on Saturday, Aug. 1, in connection with the July 30 assault on a 40-year-old Ukrainian woman. The suspect allegedly struck the victim twice on the back of the head with a wooden cane before fleeing. The woman was trea
-- **NEW**  [Blast at Moscow Restaurant Kills 3 Amid General’s Party](https://www.kyivpost.com/post/81556) — *2026-08-02*
-  > An explosion at the Balzi Rossi restaurant in central Moscow on Saturday evening killed three people and injured 21 others. The Russian National Antiterrorism Committee stated that a woman attempted to carry an improvised explosive device into the venue but was stopped by a secur
-- **NEW**  [Russian Strikes Hit Kharkiv and Mykolaiv, Injuring 6](https://www.kyivpost.com/post/81555) — *2026-08-02*
-  > Russian drone strikes targeted Kharkiv and the Mykolaiv region early Sunday morning, injuring at least six people, including three children. In Kharkiv, overnight strikes hit the Industrialnyi, Kyivskyi, and Saltivskyi districts, damaging a high-rise building and causing acute st
-- **NEW**  [ISW Russian Offensive Campaign Assessment, August 1, 2026](https://www.kyivpost.com/post/81549) — *2026-08-02*
-  > War in Ukraine - Latest update, key takeaways and map from the Institute for the Study of War on August 1, 2026
-- [Ukraine War News Today - Top Stories and Breaking Updates from Kyiv Post](https://www.kyivpost.com/thread/81552) — *2026-08-02*
-  > Stay informed with the most important Ukraine breaking news today. This page compiles the top headlines and critical updates from across Ukraine, offering a real-time snapshot of key developments. Whether it’s military updates, political changes, or international reactions — we b
-- [Beyond Borders: Oleksandr Dubovyk’s Universe](https://www.kyivpost.com/post/81321) — *2026-08-01*
-  > As Kyiv prepares to open The Triumph of the Bouquet, a landmark exhibition dedicated to Oleksandr Dubovyk, the 95-year-old artist reflects on freedom, culture, war, and the future of humanity. His words reveal not only one of Ukraine's most influential painters, but also an origi
-- [Ukrainian Drones Sink Russian Ship Yanina, Hit 3 Ufa Refineries](https://www.kyivpost.com/post/81544) — *2026-08-01*
-  > Ukrainian drones conducted a massive coordinated operation early Saturday, August 1. Naval drones sank the Rosatom-affiliated container ship Yanina, a sanctioned vessel with a capacity of over 100,000 tons, approximately 130 miles from Novorossiysk. Concurrently, long-range SBU d
-- [Ukraine at 35: The Fedorov Affair and the Test of Ukraine’s Democratic Maturity](https://www.kyivpost.com/opinion/81548) — *2026-08-01*
-  > What a minister’s dismissal has revealed about the good, bad, and pending in Ukraine’s democracy.
-- [Latvia Closes Belarus Border](https://www.kyivpost.com/post/81523) — *2026-08-01*
-  > Latvia temporarily suspended border crossings with Belarus on Friday evening due to an information system failure at the Pāternieki checkpoint. Interior Minister Jānis Dombrava urged travelers to use alternative routes. The national cybersecurity agency, CERT.LV, stated there is 
-- [Russian ‘Rassvet’ Satellites Secure Two Daily Comms Windows Over Ukraine](https://www.kyivpost.com/post/81538) — *2026-08-01*
-  > The first batch of 16 Russian “Rassvet” satellites, launched by Bureau 1440 in March 2026, has reached its operational orbit and is currently providing at least two daily “communication windows” over Ukraine, each lasting over an hour. According to satellite communications expert
-- [HUR Drones Strike Russian Pantsir System and Boat in Crimea](https://www.kyivpost.com/post/81541) — *2026-08-01*
-  > Operators from Ukraine’s Main Intelligence Directorate (HUR) struck a Russian Pantsir-S1 air defense system in the Kherson region, alongside a Project 1100M Sargan boat in Kerch and a Forpost drone control station in Yevpatoria on the night of July 30. The HUR estimated the value
-- [Belarus Designates Polish Press Agency Website ‘Extremist’](https://www.kyivpost.com/post/81476) — *2026-08-01*
-  > The regime of Belarusian president Alexander Lukashenko has designated the website of Poland’s state-owned news agency, PAP, as “extremist” in a move slammed by leading Belarusian opposition figures.
-- [Trump Threatens Iran With Heavy Strikes on Energy Targets](https://www.kyivpost.com/post/81534) — *2026-08-01*
-  > US President Donald Trump threatened to hit Iran “very hard,” with US media reporting that Washington and Israel are coordinating potential joint strikes on Iranian energy infrastructure, including oil refineries and power plants, as soon as this weekend. The reports follow a rec
-- [Russian Drone Strike on Rozetka Depot in Brovary Kills 1](https://www.kyivpost.com/post/81542) — *2026-08-01*
-  > A Russian daytime drone strike hit a logistics center belonging to the e-commerce company Rozetka in Brovary on Aug. 1, killing a 61-year-old man and injuring six others. The attack also damaged warehouse facilities and at least 12 vehicles. In a separate incident, a strike in th
+- **NEW**  [Blast at Moscow Restaurant Kills 5 Amid General’s Party](https://www.kyivpost.com/post/81556) — *2026-08-02*
+  > An explosion at the Balzi Rossi restaurant in central Moscow on Saturday evening killed five people and injured 21 others. The Russian National Antiterrorism Committee stated that a woman attempted to carry an improvised explosive device into the venue but was stopped by a securi
 
-_(91 additional items in raw.jsonl)_
+_(105 additional items in raw.jsonl)_

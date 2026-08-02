@@ -3,61 +3,61 @@ section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-02
 record_count: 25
-new_today: 0
-state: stale_after_failure
+new_today: 25
+state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-0 new of 25 total items today.
+25 new of 25 total items today.
 
-- [[Russia oil sanctions perimeter · keywords] Ukraine - Russia war latest : At least three dead after bomb explodes near Moscow restaurant](https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-moscow-explosion-putin-zelensky-b3025950.html) — *2026-08-02*
-  > independent.co.uk · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine and Gulf conflicts increasingly intertwined , says Russia - Iran analyst](https://www.lrt.lt/en/news-in-english/19/3005131/ukraine-and-gulf-conflicts-increasingly-intertwined-says-russia-iran-analyst) — *2026-08-02*
-  > lrt.lt · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://www.pressdemocrat.com/2026/08/01/oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show/) — *2026-08-02*
-  > pressdemocrat.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from sanctioned tanker grounded off Oman coast](https://economictimes.indiatimes.com/news/international/world-news/oil-leak-spreads-from-sanctioned-tanker-grounded-off-oman-coast/articleshow/132798933.cms) — *2026-08-02*
-  > economictimes.indiatimes.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://www.niagarafallsreview.ca/business/oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show/article_999ea177-8410-5fdd-8c86-b61b95db4ba7.html) — *2026-08-02*
-  > niagarafallsreview.ca · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://abcnews.com/Business/wireStory/oil-leak-spreads-sanctioned-tanker-grounded-off-oman-135291674) — *2026-08-02*
-  > abcnews.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://mymotherlode.com/news/world/11034792/oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show.html) — *2026-08-01*
-  > mymotherlode.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Caucasian Knot | The cargo ship  Yarina  sank near Novorossiysk after a drone attack . ](https://www.eng.kavkaz-uzel.eu/articles/77394) — *2026-08-01*
-  > eng.kavkaz-uzel.eu · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://www.wral.com/news/ap/7dff0-oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show/) — *2026-08-01*
-  > wral.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Russian Missiles Kill 9 in Ukraine , While One Explodes in NATO Territory](https://www.breitbart.com/politics/2026/07/30/russian-missiles-kill-nine-in-ukraine-while-one-explodes-in-nato-member-state-poland/) — *2026-08-01*
-  > breitbart.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://www.winknews.com/news/international/oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show/article_6bce8f27-ccf2-5b0f-9ca5-b634e58bf562.html) — *2026-08-01*
-  > winknews.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil Spill From Russia - Linked Shadow Fleet Tanker Spreads Off Oman  | Peak Oil News and Message Boards](https://peakoil.com/enviroment/oil-spill-from-russia-linked-shadow-fleet-tanker-spreads-off-oman) — *2026-08-01*
-  > peakoil.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine escalates maritime attacks , hits Russian ship in Black Sea](https://www.presstv.co.uk/Detail/2026/08/01/773536/Ukraine-attack-Russian-ship-Black-Sea-Rosatom) — *2026-08-01*
-  > presstv.co.uk · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show](https://www.yahoo.com/news/world/articles/oil-leak-spreads-sanctioned-tanker-183928205.html) — *2026-08-01*
-  > yahoo.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Oil leak spreads from a sanctioned tanker grounded off Oman , images show – Winnipeg Free Press](https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/08/01/oil-leak-spreads-from-a-sanctioned-tanker-grounded-off-oman-images-show) — *2026-08-01*
-  > winnipegfreepress.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukrainian Drones Sink Russian Ship Yanina , Hit 3 Ufa Refineries](https://www.kyivpost.com/post/81544) — *2026-08-01*
-  > kyivpost.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine Sinks Russian - Flagged Containership in Black Sea](https://maritime-executive.com/article/ukraine-sinks-russian-flagged-containership-in-black-sea-2) — *2026-08-01*
-  > maritime-executive.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine committing piracy Rosatom CEO](http://www.europesun.com/news/279218647/ukraine-committing-piracy-rosatom-ceo) — *2026-08-01*
-  > europesun.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine committing  piracy  - Rosatom CEO](http://www.europesun.com/news/279218646/ukraine-committing-piracy-rosatom-ceo) — *2026-08-01*
-  > europesun.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine committing piracy Rosatom CEO](http://www.russiaherald.com/news/279218647/ukraine-committing-piracy-rosatom-ceo) — *2026-08-01*
-  > russiaherald.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine sinks Russian nuclear giant Rosatom ship as Moscow strikes Kyiv](https://www.albawaba.com/news/ukraine-sinks-russian-nuclear-giant-1634207) — *2026-08-01*
-  > albawaba.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine committing piracy Rosatom CEO](http://www.arabherald.com/news/279218647/ukraine-committing-piracy-rosatom-ceo) — *2026-08-01*
-  > arabherald.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine sinks cargo ship linked to Putin state nuclear corporation as Zelensky begs West for more missiles after latest Russian strike on Kyiv kills nine](https://www.dailymail.com/news/article-16021883/Ukraine-sinks-cargo-ship-linked-Putins-state-nuclear-corporation-Zelensky-begs-West-missiles-latest-Russian-strike-Kyiv-kills-nine.html) — *2026-08-01*
-  > dailymail.com · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Ukraine sinks Russian - owned container ship in Black Sea : company](https://www.justiceinfo.net/en/162792-ukraine-sinks-russian-owned-container-ship-in-black-sea-company.html) — *2026-08-01*
-  > justiceinfo.net · English · tone NA
-- [[Russia oil sanctions perimeter · keywords] Nine killed in strikes on Kyiv , as Ukraine sinks Russian container ship](https://www.yahoo.com/news/world/articles/russian-strikes-kyiv-kill-least-025707505.html) — *2026-08-01*
-  > yahoo.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 不務正業的沈伯洋們 - 天蠍浪子的咖啡杯 - udn部落格](https://blog.udn.com:443/blues1112a/191836498) — *2026-08-02*
+  > blog.udn.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Five dead , 41 missing , after Indonesia ferry catches fire](https://capitalfm.africa/five-dead-41-missing-after-indonesia-ferry-catches-fire/) — *2026-08-02*
+  > capitalfm.africa · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Tehran Did Not Ask Trump To Halt Attacks , Says Iranian Media](http://www.middleeaststar.com/news/279219579/tehran-did-not-ask-trump-to-halt-attacks-says-iranian-media) — *2026-08-02*
+  > middleeaststar.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Al menos cinco muertos y más de 40 desaparecidos tras el incendio de un ferry en Indonesia](https://www.infobae.com/america/mundo/2026/08/02/al-menos-cinco-muertos-y-mas-de-40-desaparecidos-tras-el-incendio-de-un-ferry-en-indonesia/) — *2026-08-02*
+  > infobae.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ceuta . Redes sociais incentivaram ida de jovens migrantes – Observador](https://observador.pt/2026/08/02/a-fronteira-espanhola-esta-aberta-publicacoes-nas-redes-sociais-impulsionaram-mobilizacao-de-milhares-de-jovens-marroquinos-para-ceuta/) — *2026-08-02*
+  > observador.pt · Portuguese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Capital inflows , RBI support limit rupee decline despite 20 % oil price surge in July : Report](http://www.bangladeshsun.com/news/279219430/capital-inflows-rbi-support-limit-rupee-decline-despite-20-oil-price-surge-in-july-report) — *2026-08-02*
+  > bangladeshsun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Heavy rains revive Cauvery reservoirs , ease Karnataka water worries](https://ibcworldnews.com/2026/08/02/heavy-rains-revive-cauvery-reservoirs-ease-karnatakas-water-worries/) — *2026-08-02*
+  > ibcworldnews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Europe facing winter gas squeeze due to Iran conflict](https://www.irishtimes.com/world/middle-east/2026/08/02/europe-facing-winter-gas-squeeze-due-to-iran-conflict/) — *2026-08-02*
+  > irishtimes.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Mueren cinco personas y 41 permanecen desaparecidas en el incendio de un ferry en Indonesia](https://www.elnortedecastilla.es/internacional/asia/mueren-cinco-personas-permanecen-desaparecidas-incendio-ferry-20260802144412-ntrc.html) — *2026-08-02*
+  > elnortedecastilla.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Sagra della Busiata a Salemi , date e programma](https://livesicilia.it/a-salemi-torna-la-sagra-della-busiata-4-giorni-di-gusto-e-cultura/) — *2026-08-02*
+  > livesicilia.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Oil Resumption : Dialogue best path forward , MOSOP tells Ogonis](https://www.vanguardngr.com/2026/08/oil-resumption-dialogue-best-path-forward-mosop-tells-ogonis/) — *2026-08-02*
+  > vanguardngr.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] The Kanwar Yatra Embodies The Profound Essence Of Sanatan Culture](https://www.newsx.com/press-release/the-kanwar-yatra-embodies-the-profound-essence-of-sanatan-culture-255795/) — *2026-08-02*
+  > newsx.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Economic Watch : What is behind Q2 growth in euro area](http://www.bangladeshsun.com/news/279219476/economic-watch-what-is-behind-q2-growth-in-euro-area) — *2026-08-02*
+  > bangladeshsun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ontario wildfire smoke : Checking your car air cabin filter](https://www.guelphmercury.com/news/wildfire-smoke-ontario-air-quality/article_0e5fd8f6-c6a3-5404-bd13-91c9728bc041.html) — *2026-08-02*
+  > guelphmercury.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Blaze on Indonesian passenger ferry leaves at least five dead](https://www.barryanddistrictnews.co.uk/news/national/26429732.blaze-indonesian-passenger-ferry-leaves-least-five-dead/) — *2026-08-02*
+  > barryanddistrictnews.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Summer sun , free tunes :  Were literally just busking  – Lowell Sun](https://www.lowellsun.com/2026/08/02/chicago-summer-busking/) — *2026-08-02*
+  > lowellsun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] На Запорожской АЭС высказались о значениях радиационного фона после атаки ВСУ](https://lenta.ru/news/2026/08/02/na-zaporozhskoy-aes-vyskazalis-o-znacheniyah-radiatsionnogo-fona-posle-ataki-vsu/) — *2026-08-02*
+  > lenta.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Capital inflows , RBI support limit rupee decline despite 20 % oil price surge in July : Report](http://www.utahindependent.com/news/279219430/capital-inflows-rbi-support-limit-rupee-decline-despite-20-oil-price-surge-in-july-report) — *2026-08-02*
+  > utahindependent.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Prince William issues emotional statement after climbing tragedy](https://royalcentral.co.uk/uk/prince-william-issues-emotional-statement-after-climbing-tragedy-218634/) — *2026-08-02*
+  > royalcentral.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Cambodia secures 250 mln USD loan from ADB to shield economy from Middle East impact](http://www.cambodiantimes.com/news/279219369/cambodia-secures-250-mln-usd-loan-from-adb-to-shield-economy-from-middle-east-impact) — *2026-08-02*
+  > cambodiantimes.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Energy Stocks To Follow Today – July 30th](https://www.themarketsdaily.com/2026/08/02/energy-stocks-to-follow-today-july-30th.html) — *2026-08-02*
+  > themarketsdaily.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] बारिश में पसीना और ऑयली स्किन ने बढ़ा दी परेशानी ? ये 5 फेस वॉश रखेंगे त्वचा को फ्रेश , ऑयल - फ्री और ग्लोइंग](https://www.haribhoomi.com/lifestyle/news/five-best-face-wash-for-oily-skin-in-monsoon-skincare-routine-for-oily-face-106904) — *2026-08-02*
+  > haribhoomi.com · Hindi · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Mueren cinco personas y 41 permanecen desaparecidas en el incendio de un ferry en Indonesia](https://www.diariovasco.com/internacional/asia/mueren-cinco-personas-permanecen-desaparecidas-incendio-ferry-20260802144412-ntrc.html) — *2026-08-02*
+  > diariovasco.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Яйця , хліб і м  ясо знову дорожчають . Які продукти змінять ціни вже у серпні - 20 хвилин](https://vn.20minut.ua/Podii/yaytsya-hlib-i-myaso-znovu-dorozhchayut-yaki-produkti-zminyat-tsini-vz-12003440.html) — *2026-08-02*
+  > vn.20minut.ua · Ukrainian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] AI链反弹国内外差异显著 能源链成防御主线 - CFi . CN 中财网](http://www.cfi.net.cn/p20260802000645.html) — *2026-08-02*
+  > cfi.net.cn · Chinese · tone NA

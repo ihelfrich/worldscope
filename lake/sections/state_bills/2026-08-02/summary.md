@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-02
-record_count: 178
-new_today: 0
-state: stale_after_failure
+record_count: 82
+new_today: 22
+state: fresh
 ---
 
 ## State Legislative Action
 
-0 new of 178 total items today.
+22 new of 82 total items today.
 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
@@ -53,13 +53,13 @@ state: stale_after_failure
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline 
 - [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-07-31*
   > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
-- [[California AB 1578] State and local officials: sexual harassment training and education: anti-hate speech training.]() — *2026-08-01*
-  > The California Fair Employment and Housing Act makes specified employment practices unlawful, including the harassment of an employee directly by the employer or indirectly by agents of the employer with the employer's knowledge. Under existing law, the Civil Rights Department ad
-- [[California AB 1669] Student health: medical leaves of absence: mental health.]() — *2026-08-01*
-  > The Donahoe Higher Education Act sets forth, among other things, the missions and functions of California's public and independent segments of higher education and their respective institutions of higher education. The act requests the Regents of the University of California, and
-- [[California AB 706] Forest Organic Residue, Energy, and Safety Transformation (FOREST) and Wildfire Prevention Fund Act.]() — *2026-08-01*
-  > Existing law establishes in the Natural Resources Agency the Department of Forestry and Fire Protection (CAL-FIRE) and makes CAL-FIRE responsible for, among other things, fire protection and prevention, as provided. Existing law establishes the State Board of Forestry and Fire Pr
-- [[California AB 1588] Vehicles: Sideshow Accountability and Community Safety Act.]() — *2026-08-01*
-  > Existing law prohibits a person from, among other things, engaging in, aiding, or abetting a motor vehicle exhibition of speed on a highway or in an offstreet parking facility. Under existing law, a violation of this prohibition is punishable by imprisonment in a county jail for 
+- **NEW**  [[California AB 1924] Statewide homelessness prevention strategy.]() — *2026-08-02*
+  > Existing law establishes the California Interagency Council on Homelessness and requires the council to take various actions to prevent and end homelessness in California. Existing law establishes various programs to prevent homelessness or assist persons experiencing homelessnes
+- **NEW**  [[California AB 1826] Cannabis: recall, embargo, and destruction of cannabis and cannabis products.]() — *2026-08-02*
+  > Existing law, the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) , governs the licensure and regulation of commercial cannabis activities. MAUCRSA prohibits engaging in certain commercial activities with cannabis or a cannabis product that is misbranded or a
+- **NEW**  [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
+  > Existing law establishes the Governor's Office of Business and Economic Development (GO-Biz) within the Governor's office and requires GO-Biz to serve the Governor as the lead entity for economic strategy and the marketing of California on issues relating to business development,
+- **NEW**  [[California AB 2101] Human trafficking: notice and training: disaster sites.]() — *2026-08-02*
+  > Existing law requires specified businesses and other establishments, including, among others, airports, intercity passenger rail or light rail stations, bus stations, and truck stops, to post a notice, as developed by the Department of Justice, that contains information relating 
 
-_(153 additional items in raw.jsonl)_
+_(57 additional items in raw.jsonl)_
