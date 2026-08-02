@@ -2,19 +2,33 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-02
-record_count: 52
-new_today: 4
+record_count: 57
+new_today: 14
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-4 new of 52 total items today.
+14 new of 57 total items today.
 
+- **NEW**  [[BleepingComputer] OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/) — *2026-08-02*
+  > OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]
+- **NEW**  [[BleepingComputer] COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft](https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/) — *2026-08-02*
+  > A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]
 - **NEW**  [[BleepingComputer] Google Chrome may soon block New Tab hijacker extensions by default](https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/) — *2026-08-02*
   > Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]
+- **NEW**  [[The Register] Meet the 'internet radical' who helped Microsoft get email and AT&T get online](https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281) — *2026-08-02*
+  > Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web
 - **NEW**  [[IEEE Spectrum] This Hi-Fi Tape Recorder Changed Radio Forever](https://spectrum.ieee.org/magnetophon-laugh-track) — *2026-08-02*
   > A German engineer wanted a cheaper cigarette. The popular crooner Bing Crosby wanted a vacation. Satisfying both desires inadvertently led to the invention of the laugh track. Along the way there were Nazis, spoils of war, and more than one accidental encounter. Tying together th
+- **NEW**  [[TechCrunch] The global memory shortage hits the MacBook Air](https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/) — *2026-08-02*
+  > The global memory chip shortage appears to be affecting the availability of Apple’s most popular Mac.
+- **NEW**  [[TechCrunch] Sam Altman and AI’s decel debate](https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/) — *2026-08-02*
+  > On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to "pace the rate of AI development."
+- **NEW**  [[TechCrunch] Malaysia is reportedly shutting down Balaji Srinivasan’s Network School](https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/) — *2026-08-02*
+  > Let's see how this "frontier community for techno-optimists" is doing ...
+- **NEW**  [[TechCrunch] TechCrunch Mobility: Two roads diverged — for robotaxis](https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/) — *2026-08-02*
+  > Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.
 - **NEW**  [[TechCrunch] These App Store hidden gems prove there’s still room for great software in the AI era](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/) — *2026-08-02*
   > Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding t
 - [[BleepingComputer] Rails patches critical Active Storage flaw with RCE potential](https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/) — *2026-08-01*
@@ -35,6 +49,12 @@ The vulnerability, tracked as CVE-2026-48449, carries a severity score
   > A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.
 
 Researchers track the operation as CaptiveCrunch and att
+- **NEW**  [[The Register] Unexpected item in the bagging area as Windows Activation error pops up at check-in](https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946) — *2026-08-01*
+  > Bags weighed down by a Microsoft license key
+- **NEW**  [[The Register] A deep dive into Nvidia's Vera CPU and the Olympus cores that power it](https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056) — *2026-08-01*
+  > 88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip
+- **NEW**  [[The Register] Enterprise cloud infrastructure uptake shows no sign of slowing](https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835) — *2026-08-01*
+  > Cloud revenue now north of $143 billion a quarter, and growth is accelerating
 - [[Ars Technica] Here's how engineers plan to save the satellite sent to save NASA's Swift mission](https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/) — *2026-08-01*
   > "We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards."
 - [[Ars Technica] Review: Yes, we're still arguing about Nolan's The Odyssey](https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/) — *2026-08-01*
@@ -47,29 +67,7 @@ Researchers track the operation as CaptiveCrunch and att
   > A removable chip lets hackers inspect their badge—and keep using it after Defcon.
 - [[IEEE Spectrum] Fridays With Bob](https://spectrum.ieee.org/risk) — *2026-08-01*
   > When I started at Spectrum 25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions. I didn’t find one right away. Then in 2005 we decided to do a special report, foc
-- [[TechCrunch] Inside the London hacker house taking a stand against founder burnout](https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/) — *2026-08-01*
-  > How one founder house is betting work-life balance can beat burnout .
-- [[TechCrunch] Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/) — *2026-08-01*
-  > Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.
-- [[TechCrunch] YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/) — *2026-08-01*
-  > Green offered a remarkable apology, saying that "the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world."
-- [[TechCrunch] Should you still buy your next smartphone — or subscribe to it instead?](https://techcrunch.com/2026/08/01/should-you-still-buy-your-next-smartphone-or-subscribe-to-it-instead/) — *2026-08-01*
-  > Apple's new Upgrade program is the latest sign that smartphone ownership is changing.
 - [[BleepingComputer] Amgen says cloud data breach exposed patient health, proprietary info](https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/) — *2026-07-31*
   > Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
-- [[BleepingComputer] Arch Linux disables AUR package adoption to stop malware flood](https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/) — *2026-07-31*
-  > The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]
-- [[BleepingComputer] Online ad firm Adform’s script compromised to steal cryptocurrency](https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/) — *2026-07-31*
-  > Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
-- [[The Hacker News] Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html) — *2026-07-31*
-  > A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
 
-The
-- [[The Record] CISA warns of spike in attacks on water systems as Minnesota incidents probed](https://therecord.media/cisa-warns-of-spike-in-water-system-attacks) — *2026-07-31*
-  > The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible."
-- [[The Record] Cyber Command plans Silicon Valley office to drive innovation](https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation) — *2026-07-31*
-  > The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).
-- [[The Record] Anthropic says its AI hacked real-world companies in three incidents](https://therecord.media/anthropic-ai-hacked-three-real-companies) — *2026-07-31*
-  > Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.
-
-_(27 additional items in raw.jsonl)_
+_(32 additional items in raw.jsonl)_

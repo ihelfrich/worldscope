@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-02
-record_count: 103
+record_count: 104
 new_today: 9
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-9 new of 103 total items today.
+9 new of 104 total items today.
 
 - [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $3,500,000,000 → DAVIE DEFENSE INC.: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF F](https://www.usaspending.gov/award/70Z02326C93210003) — *2026-08-02*
   > Agency: Department of Homeland Security.  Description: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF FIVE (5) EACH MULTI-PURPOSE POLAR SHIP (MPPS-100) VESSELS HEREAFTER REFERRED TO AS ARCTIC SECURITY CUTTERS (ASCS).
 
-_(78 additional items in raw.jsonl)_
+_(79 additional items in raw.jsonl)_

@@ -11,14 +11,14 @@ state: fresh
 
 3 new of 5 total items today.
 
+- **NEW**  [[Marginal Revolution] Sunday assorted links](https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-578.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-578) — *2026-08-02*
+  > 1. The inverseminar, someone else presents your paper. 2. The rise of million-dollar companies with just one employee (WSJ). 3. The political party itself is a big driver of polarization. 4. Gita Gopinath is making sense. 5. GPT Pro (not Astra) on what &#8220;Astra&#8221; means. 
 - **NEW**  [[Marginal Revolution] On the Acemoglu-Autor et.al. fertility result](https://marginalrevolution.com/marginalrevolution/2026/08/on-the-acemoglu-autor-et-al-fertility-result.html?utm_source=rss&utm_medium=rss&utm_campaign=on-the-acemoglu-autor-et-al-fertility-result) — *2026-08-02*
-  > Here is criticism from Revana Sharffuddin.  Here is criticism from JFV.
+  > Here is criticism from Revana Sharfuddin.  Here is criticism from JFV.
 The post On the Acemoglu-Autor et.al. fertility result appeared first on Marginal REVOLUTION.
 - **NEW**  [[Marginal Revolution] Taiwan fact of the day](https://marginalrevolution.com/marginalrevolution/2026/08/taiwan-fact-of-the-day-3.html?utm_source=rss&utm_medium=rss&utm_campaign=taiwan-fact-of-the-day-3) — *2026-08-02*
   > [Annualized] 14% GDP growth in the first half of 2026
 The post Taiwan fact of the day appeared first on Marginal REVOLUTION.
-- **NEW**  [[Marginal Revolution] Mexico (Taiwan) fact of the day](https://marginalrevolution.com/marginalrevolution/2026/08/mexico-taiwan-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=mexico-taiwan-fact-of-the-day) — *2026-08-02*
-  > Mexico has quietly become a cornerstone of the AI boom, providing 40 per cent of US imports this year of the computer servers that are widely used in the data centres powering artificial intelligence. Taiwanese manufacturers are rapidly expanding factories in Mexico to assemble s
 - [[Conversable Economist] The EU Green Deal: How’s It Going?](https://conversableeconomist.com/2026/07/30/the-eu-green-deal-hows-it-going/) — *2026-07-30*
   > Back in the pre-pandemic year of 2019, the European Union passed the European Green Deal, setting a goal of having the EU be climate-neutral in its emissions by 2050. Here in 2026, 20% of that 30-year time window has now passed. The government of the EU have a reputation for stro
 - [[Conversable Economist] Major Stereotypes](https://conversableeconomist.com/2026/07/27/major-stereotypes/) — *2026-07-27*

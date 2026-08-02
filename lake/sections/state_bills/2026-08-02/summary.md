@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-08-02
 record_count: 82
-new_today: 22
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## State Legislative Action
 
-22 new of 82 total items today.
+0 new of 82 total items today.
 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
@@ -53,13 +53,13 @@ state: fresh
   > An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline 
 - [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-07-31*
   > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
-- **NEW**  [[California AB 1924] Statewide homelessness prevention strategy.]() — *2026-08-02*
+- [[California AB 1924] Statewide homelessness prevention strategy.]() — *2026-08-02*
   > Existing law establishes the California Interagency Council on Homelessness and requires the council to take various actions to prevent and end homelessness in California. Existing law establishes various programs to prevent homelessness or assist persons experiencing homelessnes
-- **NEW**  [[California AB 1826] Cannabis: recall, embargo, and destruction of cannabis and cannabis products.]() — *2026-08-02*
+- [[California AB 1826] Cannabis: recall, embargo, and destruction of cannabis and cannabis products.]() — *2026-08-02*
   > Existing law, the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) , governs the licensure and regulation of commercial cannabis activities. MAUCRSA prohibits engaging in certain commercial activities with cannabis or a cannabis product that is misbranded or a
-- **NEW**  [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
+- [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
   > Existing law establishes the Governor's Office of Business and Economic Development (GO-Biz) within the Governor's office and requires GO-Biz to serve the Governor as the lead entity for economic strategy and the marketing of California on issues relating to business development,
-- **NEW**  [[California AB 2101] Human trafficking: notice and training: disaster sites.]() — *2026-08-02*
+- [[California AB 2101] Human trafficking: notice and training: disaster sites.]() — *2026-08-02*
   > Existing law requires specified businesses and other establishments, including, among others, airports, intercity passenger rail or light rail stations, bus stations, and truck stops, to post a notice, as developed by the Department of Justice, that contains information relating 
 
 _(57 additional items in raw.jsonl)_

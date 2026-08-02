@@ -17,7 +17,7 @@ state: fresh
    evidence: [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 2. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.140
    drivers: new_filings=0.40, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
 3. **Dave Min** (Representative, Democratic, CA-47th): composite 0.081
    drivers: new_filings=0.81
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001628280-2]
@@ -32,13 +32,13 @@ state: fresh
    evidence: [lake:political_figures:gkg-20260728], [lake:political_figures:0001556224-2], [lake:political_figures:0001266824-2], [lake:political_figures:0001266824-2]
 7. **Rick Scott** (Senator, Republican, FL): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
 8. **Tim Scott** (Senator, Republican, SC): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
+   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
 9. **Barry Moore** (Representative, Republican, AL-1st): composite 0.040
    drivers: new_filings=0.40
    evidence: [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001493152-2]
 10. **Austin Scott** (Representative, Republican, GA-8th): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
+   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2], [lake:political_figures:0002141901-2], [lake:political_figures:0000100517-2]
