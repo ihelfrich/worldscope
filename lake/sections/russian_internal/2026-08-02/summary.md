@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-08-02
-record_count: 856
-new_today: 315
+record_count: 859
+new_today: 331
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-315 new of 856 total items today.
+331 new of 859 total items today.
 
 - **NEW**  [[TITLE: Трамп вновь отложил атаку на Иран. По его словам, Израиль присоединился к этому решению | LEDE: <p>США отложили атаку на Иран по просьбе самой исламской республики и других стран Ближнего Восто] (ru: Трамп вновь отложил атаку на Иран. По его словам, Израиль присоединился к этому )](https://meduza.io/news/2026/08/02/tramp-vnov-otlozhil-ataku-na-iran-po-ego-slovam-izrail-prisoedinilsya-k-etomu-resheniyu) — *2026-08-02*
   > <p>США отложили атаку на Иран по просьбе самой исламской республики и других стран Ближнего Востока, сообщил Дональд Трамп в соцсети Truth Social.<p>
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: Латвия закрыла границу с Беларусью | LEDE: <p>Латвийско-белорусская граница закрыта «по техническим причинам», сообщил в соцсетях министр внутренних дел Латвии Янис Домбрава.<p>] (ru: Латвия закрыла границу с Беларусью)](https://meduza.io/news/2026/07/31/latviya-zakryla-granitsu-s-belarusyu) — *2026-07-31*
   > <p>Латвийско-белорусская граница закрыта «по техническим причинам», сообщил в соцсетях министр внутренних дел Латвии Янис Домбрава.<p>
 
-_(831 additional items in raw.jsonl)_
+_(834 additional items in raw.jsonl)_

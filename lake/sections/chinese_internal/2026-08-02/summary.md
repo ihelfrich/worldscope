@@ -3,13 +3,13 @@ section: chinese_internal
 title: Chinese Internal News
 date: 2026-08-02
 record_count: 259
-new_today: 127
+new_today: 93
 state: fresh
 ---
 
 ## Chinese Internal News
 
-127 new of 259 total items today.
+93 new of 259 total items today.
 
 - [[TITLE: 遭遇强烈反对 国际足联宣布放弃世界杯股权出售项目 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oM1RIWXNvUHc4MXhnWC1kdmpCeC1ka0ZRZ3hmaWZyVVdwZXBHeTI0MXR2YVRTT0tuWXNBeWtLcUo2LTdxWHRzR2lwQi1UQ] (zh: 遭遇强烈反对 国际足联宣布放弃世界杯股权出售项目 - 财新)](https://mini.caixin.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oM1RIWXNvUHc4MXhnWC1kdmpCeC1ka0ZRZ3hmaWZyVVdwZXBHeTI0MXR2YVRTT0tuWXNBeWtLcUo2LTdxWHRzR2lwQi1UQkNMTFVmejNMTG84ODhxclE?oc=5" target="_blank">遭遇强烈反对 国际足联宣布放弃世界杯股权出售项目</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
@@ -43,10 +43,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sTV82ZFZxaDJWczZjUkhUUjdlZXJIbWs0UU5Sa0lyQkZSbTV3V1VjcTBkazZvUlFNWTIxZWFTUDZrZWZGNkx4cVY0MEJlRnNqd05jVHh6bEpuRkNzM1d3?oc=5" target="_blank">人事观察｜重庆市政府高层“大换血” 六人职务调整</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com<
 - **NEW**  [[TITLE: 视线｜极端高温致多瑙河水位跌破纪录 二战沉船与猛犸象化石接连露出 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fZVRPYkh1OUVFVWx2R0lScDQ2czhTVjJWandkNk1mZlpCX2txQnE5QURnamxOTE5uMTF5WUhiYVBmZ3FCb19LV] (zh: 视线｜极端高温致多瑙河水位跌破纪录 二战沉船与猛犸象化石接连露出 - 财新)](https://photos.caixin.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fZVRPYkh1OUVFVWx2R0lScDQ2czhTVjJWandkNk1mZlpCX2txQnE5QURnamxOTE5uMTF5WUhiYVBmZ3FCb19LVi02VTluT0NvcjNsQmJqQzdtVWhvQkdZZQ?oc=5" target="_blank">视线｜极端高温致多瑙河水位跌破纪录 二战沉船与猛犸象化石接连露出</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fon
-- [[TITLE: 人事观察｜胡衡华落马后 58岁陈新武代理重庆市长 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11U2ZJUFNNUWV6YjdWRWRsMkdFQmpYcTF2QnRXcUVmR3YxRzlTLWI1U1RqbTFjQTZGUDAwYU00bTIxT0F] (zh: 人事观察｜胡衡华落马后 58岁陈新武代理重庆市长 - china.caixin.com)](https://china.caixin.com) — *2026-07-31*
-  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11U2ZJUFNNUWV6YjdWRWRsMkdFQmpYcTF2QnRXcUVmR3YxRzlTLWI1U1RqbTFjQTZGUDAwYU00bTIxT0FEcU9rQVpUV0JKY0ZkdldqVmQ4aU5KUzlYWm5V?oc=5" target="_blank">人事观察｜胡衡华落马后 58岁陈新武代理重庆市长</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com<
 - [[TITLE: 最新财新周刊｜优化摩托车报废制度 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJYnJfYVpGRnByaldNZFRVdTVmdkVRdk9DUVhkN3gya2JRdGxZQXNvWHZBWnh6LXlFZGdSX1YySHk4bEt3WHBkUXZOSVM0cHZQRHp] (zh: 最新财新周刊｜优化摩托车报废制度 - 财新周刊)](https://weekly.caixin.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJYnJfYVpGRnByaldNZFRVdTVmdkVRdk9DUVhkN3gya2JRdGxZQXNvWHZBWnh6LXlFZGdSX1YySHk4bEt3WHBkUXZOSVM0cHZQRHpxekhlYkotSFQ5V0pqMw?oc=5" target="_blank">最新财新周刊｜优化摩托车报废制度</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
+- [[TITLE: 人事观察｜胡衡华落马后 58岁陈新武代理重庆市长 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11U2ZJUFNNUWV6YjdWRWRsMkdFQmpYcTF2QnRXcUVmR3YxRzlTLWI1U1RqbTFjQTZGUDAwYU00bTIxT0F] (zh: 人事观察｜胡衡华落马后 58岁陈新武代理重庆市长 - china.caixin.com)](https://china.caixin.com) — *2026-07-31*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11U2ZJUFNNUWV6YjdWRWRsMkdFQmpYcTF2QnRXcUVmR3YxRzlTLWI1U1RqbTFjQTZGUDAwYU00bTIxT0FEcU9rQVpUV0JKY0ZkdldqVmQ4aU5KUzlYWm5V?oc=5" target="_blank">人事观察｜胡衡华落马后 58岁陈新武代理重庆市长</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com<
 - [[TITLE: 最新封面报道｜电力现货市场元年突进 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kT2tHNGdSWWxGdG1EbUZZdWYxbUtyWmlxYTlfMUJYQW5Sd1YxM3F3T3JwR1BIcGwybWhLODUweF9IT0lwalpTaURvNzhMQnRReH] (zh: 最新封面报道｜电力现货市场元年突进 - 财新周刊)](https://weekly.caixin.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kT2tHNGdSWWxGdG1EbUZZdWYxbUtyWmlxYTlfMUJYQW5Sd1YxM3F3T3JwR1BIcGwybWhLODUweF9IT0lwalpTaURvNzhMQnRReHJuUFBZRExaSW1ZbHpxOA?oc=5" target="_blank">最新封面报道｜电力现货市场元年突进</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
 - [[TITLE: 最新财新周刊｜交友App作局“崩老头” - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE92eGQ5OVNacWNyZlBrYXluZXJLS1g1OHNTQlBSOHlLYTU4Y2U1d1RhdTAxVkk4eGNLUnkteHdhelN4aEg5RU1Vd0tSODV0cXcy] (zh: 最新财新周刊｜交友App作局“崩老头” - 财新周刊)](https://weekly.caixin.com) — *2026-08-01*

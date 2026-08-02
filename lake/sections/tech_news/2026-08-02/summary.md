@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-02
 record_count: 57
-new_today: 5
+new_today: 6
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-5 new of 57 total items today.
+6 new of 57 total items today.
 
 - **NEW**  [[The Register] Meet the 'internet radical' who helped Microsoft get email and AT&T get online](https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281) — *2026-08-02*
   > Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web

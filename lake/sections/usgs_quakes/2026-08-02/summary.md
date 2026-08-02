@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-02
-record_count: 16
-new_today: 8
+record_count: 18
+new_today: 10
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-8 new of 16 total items today.
+10 new of 18 total items today.
 
 - **NEW**  [M 5.6 - 14 km S of Hicks Bay, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl3) — *2026-08-02*
   > M5.6 · 14 km S of Hicks Bay, New Zealand · depth 52.806 km
@@ -25,6 +25,8 @@ state: fresh
   > M5.1 · Tristan da Cunha region · depth 10 km
 - [M 5.1 - Tristan da Cunha region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thfp) — *2026-08-01*
   > M5.1 · Tristan da Cunha region · depth 10 km
+- **NEW**  [M 5.0 - north of Ascension Island](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlb) — *2026-08-02*
+  > M5.0 · north of Ascension Island · depth 10 km
 - **NEW**  [M 4.9 - 149 km S of Severo-Kuril’sk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl2) — *2026-08-02*
   > M4.9 · 149 km S of Severo-Kuril’sk, Russia · depth 33.834 km
 - **NEW**  [M 4.9 - 36 km SSW of Mendi, Papua New Guinea](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thki) — *2026-08-02*
@@ -37,6 +39,8 @@ state: fresh
   > M4.8 · 77 km SE of Atka, Alaska · depth 44.288 km
 - **NEW**  [M 4.8 - 64 km ENE of Noda, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thjm) — *2026-08-02*
   > M4.8 · 64 km ENE of Noda, Japan · depth 56.352 km
+- **NEW**  [M 4.6 - 73 km W of San Antonio de los Cobres, Argentina](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl6) — *2026-08-02*
+  > M4.6 · 73 km W of San Antonio de los Cobres, Argentina · depth 172.527 km
 - [M 4.6 - 14 km WSW of Honmachi, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgz) — *2026-08-01*
   > M4.6 · 14 km WSW of Honmachi, Japan · depth 10 km
 - **NEW**  [M 4.5 - 7 km SSW of Yumare, Venezuela](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thk4) — *2026-08-02*

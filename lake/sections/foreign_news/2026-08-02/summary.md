@@ -2,16 +2,22 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-02
-record_count: 935
-new_today: 350
+record_count: 962
+new_today: 383
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-350 new of 935 total items today.
+383 new of 962 total items today.
 
-- **NEW**  [[Global] Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'](https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss) — *2026-08-02*
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-02*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-02*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-02*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Trump cancels Iran strikes subject to deal being made 'rapidly'](https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss) — *2026-08-02*
   > The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the "perimeters" of a deal had been agreed.
 - **NEW**  [[Global] How Spain's migrant crisis created a political storm - whipped up by social media](https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss) — *2026-08-02*
   > The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.
@@ -55,11 +61,5 @@ state: fresh
   > The BBC's Shaimaa Khalil explains why Gianni Infantino has backed down on his controversial investment proposal.
 - [[Global] What we know about the Pakistan avalanche and missing climbers](https://www.bbc.co.uk/news/videos/c8rny08xnpyo?at_medium=RSS&at_campaign=rss) — *2026-07-31*
   > Three bodies have been recovered so far, with the search continuing for the remaining seven.
-- [[Global] What triggered the mass migrant crossings into Ceuta?](https://www.bbc.co.uk/news/videos/c171nnql1j4o?at_medium=RSS&at_campaign=rss) — *2026-07-31*
-  > An estimated 60,000 migrants from Morocco have crossed into Ceuta, with dozens dying during the journey.
-- [[Global] Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco](https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > Most migrants who reached Spain's North African territory of Ceuta from Morocco have returned, officials said.
-- [[Global] Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up](https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&at_campaign=rss) — *2026-08-01*
-  > The actual presentation of FIFA's plan to part-privatise the World Cup raises many more questions than it answers.
 
-_(910 additional items in raw.jsonl)_
+_(937 additional items in raw.jsonl)_

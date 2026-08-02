@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-02
-record_count: 447
-new_today: 62
+record_count: 449
+new_today: 63
 state: fresh
 ---
 
 ## State-Level News
 
-62 new of 447 total items today.
+63 new of 449 total items today.
 
 - [[California] California launches next phase of state cybersecurity plan as AI changes threat landscape](https://www.gov.ca.gov/2026/07/31/california-launches-next-phase-of-state-cybersecurity-plan-as-ai-changes-threat-landscape/) — *2026-07-31*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/CalSecure-2.0-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
@@ -23,45 +23,45 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/07/Governor-Newsom-announces-California-will-raise-statewide-minimum-wage-to-highest-in-nation-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Governor Newsom ann
 - [[Alabama] Ladale Garrett – Talladega County Award](https://governor.alabama.gov/newsroom/2026/07/ladale-garrett-talladega-county-award/) — *2026-07-31*
   > Download
-- [[Arkansas] Arkansas GOP state Rep. Austin McCollum arrested on domestic battering charges](https://arkansasadvocate.com/2026/08/01/arkansas-gop-state-rep-austin-mccollum-arrested-on-domestic-battering-charges/) — *2026-08-01*
-  > Republican state Rep. Austin McCollum was arrested Saturday on domestic battering charges, prompting Arkansas Gov. Sarah Huckabee Sanders to call for his resignation and House Speaker Brian Evans to strip his leadership positions. McCollum was being held without bond in the Bento
-- [[Arkansas] How Louisiana colleges will use an infusion of tax money for their sports programs](https://arkansasadvocate.com/2026/08/01/repub/how-louisiana-colleges-will-use-an-infusion-of-tax-money-for-their-sports-programs/) — *2026-08-01*
-  > Scholarships and budget balancing are the main ways athletics programs at Louisiana colleges plan to use their allotments of gambling tax revenue under a new state law, but their exact spending might never be known because the law doesn’t require them to disclose it.  The first a
-- [[Arkansas] East Tennessee cities are gearing up to fight data centers](https://arkansasadvocate.com/2026/08/01/repub/east-tennessee-cities-are-gearing-up-to-fight-data-centers/) — *2026-08-01*
-  > Data centers, which store and facilitate data for computer applications, have become more ubiquitous in public discourse over the past few years as artificial intelligence, AI, tools have risen in prominence. In areas where the data centers have located, residents have reported c
-- [[Arkansas] When families question a death investigation, getting a second autopsy can be complicated](https://arkansasadvocate.com/2026/08/01/repub/when-families-question-a-death-investigation-getting-a-second-autopsy-can-be-complicated/) — *2026-08-01*
-  > After investigators ruled 31-year-old high school counselor and coach Kelsey Harris’ death a suicide in 2021, her mother, Kellee, said she was not convinced the inquiry had answered the most important questions. About a week before Kelsey died, police had arrested her boyfriend o
-- [[Arkansas] Online prediction markets rile up state lawmakers](https://arkansasadvocate.com/2026/08/01/repub/online-prediction-markets-rile-up-state-lawmakers/) — *2026-08-01*
-  > CHICAGO — The escalating feud between states and online prediction markets was on full display at a summit of state lawmakers this week as legislators publicly scolded Kalshi and Polymarket, the two most prominent platforms. Prediction market platforms say they are like commodity
-- [[Arkansas] Prosecutors drop vandalism charges for Reflecting Pool damage, blame ‘contractor error’](https://arkansasadvocate.com/2026/07/31/repub/prosecutors-drop-vandalism-charges-for-reflecting-pool-damage-blame-contractor-error/) — *2026-07-31*
-  > WASHINGTON — U.S. Attorney for the District of Columbia Jeanine Pirro moved Friday to dismiss charges against a former Olympian canoeist alleged to have damaged part of the Lincoln Memorial Reflecting Pool. Pirro had charged David Hearn, of Bethesda, Maryland, with destruction of
-- [[Arkansas] Feds reject Arkansas’ request to renew Medicaid expansion program](https://arkansasadvocate.com/2026/07/31/feds-reject-arkansas-request-to-renew-medicaid-expansion-program/) — *2026-07-31*
-  > The Trump administration has rejected Arkansas’ request to renew its hybrid Medicaid expansion, Gov. Sarah Huckabee Sanders’ office said Friday, creating uncertainty about the future of a program providing insurance to more than 200,000 low-income people.  Sam Dubke, a spokespers
-- [[Arkansas] Trump defends massive settlement for ‘great American Patriots’ of Jan. 6, attacks GOP senators](https://arkansasadvocate.com/2026/07/31/repub/trump-defends-massive-settlement-for-great-american-patriots-of-jan-6-attacks-gop-senators/) — *2026-07-31*
-  > WASHINGTON — President Donald Trump defended his highly criticized, nearly $1.8 billion “anti-weaponization” settlement fund on social media and in a Cabinet meeting Friday, as two key Republican senators withheld support for the president’s nominee for attorney general over Trum
-- [[Arkansas] Judge rejects states’ bid to block Medicaid work rules](https://arkansasadvocate.com/2026/07/31/repub/judge-rejects-states-bid-to-block-medicaid-work-rules/) — *2026-07-31*
-  > States will have to meet a Jan. 1 deadline to implement new Medicaid work requirements, after a federal judge denied 25 Democratic-led states’ request to pause implementation of the rule. The broad tax and spending law President Donald Trump signed last summer, the One Big Beauti
-- [[Arkansas] Arkansas Explained: What is the back-to-school sales tax holiday?](https://arkansasadvocate.com/2026/07/31/arkansas-explained-what-is-the-back-to-school-sales-tax-holiday/) — *2026-07-31*
-  > It’s not Black Friday or the holiday season, but expect Arkansas stores to be more crowded than usual this weekend.  Saturday and Sunday mark the state’s annual sales tax holiday, created by lawmakers 15 years ago to provide a tax break to families during back-to-school shopping.
-- [[Arkansas] US Senate panel advances bill to reject Education Department transfers](https://arkansasadvocate.com/2026/07/31/repub/us-senate-panel-advances-bill-to-reject-education-department-transfers/) — *2026-07-31*
-  > WASHINGTON — A bipartisan effort to rein in President Donald Trump’s efforts to dismantle the U.S. Department of Education has cleared its first major legislative hurdle in a bipartisan U.S. Senate committee vote.&#160; The&#160;measure, approved by the Senate Health, Education, 
-- [[Arkansas] Many states expanded care for children, older adults and workers](https://arkansasadvocate.com/2026/07/31/repub/many-states-expanded-care-for-children-older-adults-and-workers/) — *2026-07-31*
-  > Many states have made marked progress over the past two years in extending crucial care and benefits to children, workers and aging adults. But they will be hard-pressed to fill the void left by impending federal cuts to social services, according to a new analysis. A report rele
-- [[Arkansas] Arkansas private schools charge more than what vouchers cover](https://arkansasadvocate.com/2026/07/31/repub/arkansas-private-schools-charge-more-than-what-vouchers-cover/) — *2026-07-31*
-  > Nearly 57,000 students applied for Arkansas’ universal school voucher program, where any student in the state is eligible and can use that state funding towards private school.  However, there’s a gap between how much students are receiving and what private schools are charging. 
-- [[Arkansas] As fires rage in the Pacific Northwest, leaders call all hands on deck](https://arkansasadvocate.com/2026/07/31/repub/as-fires-rage-in-the-pacific-northwest-leaders-call-all-hands-on-deck/) — *2026-07-31*
-  > With dozens of large fires burning across the Pacific Northwest, and nearly 2 million acres burned already, state leaders are calling for firefighting reinforcements and bracing for a grueling August.  “We’re going to have a long year ahead,” said Washington state forester George
-- [[Arkansas] Most states temporarily house foster children in hotels, offices](https://arkansasadvocate.com/2026/07/31/repub/most-states-temporarily-house-foster-children-in-hotels-offices/) — *2026-07-31*
-  > More than 9,000 children in foster care had to temporarily stay in hotels, office buildings and other potentially unsafe settings when states couldn’t find suitable places for them, according to a new federal audit. The inspector general’s office of the U.S. Department of Health 
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-02*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
-- [[Delaware] Corporate law giants pour nearly $1M into campaign ad blitz for Democratic incumbents](https://spotlightdelaware.org/2026/07/31/corporate-law-giants-pour-nearly-1m-into-campaign-ad-blitz-for-democratic-incumbents/) — *2026-07-31*
-  > <figure><img width="1024" height="777" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Alliance-PAC.jpg?fit=1024%2C777&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https
-- [[Delaware] Photo Gallery: Sights from the Delaware State Fair](https://spotlightdelaware.org/2026/07/31/photo-gallery-sights-from-the-delaware-state-fair/) — *2026-07-31*
-  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/Gallery_15_Kegelman-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
-- [[Delaware] Georgetown reconsiders controversial tiny homes ordinance amid resident pushback](https://spotlightdelaware.org/2026/07/31/georgetown-reconsiders-controversial-tiny-homes-ordinance-amid-resident-pushback/) — *2026-07-31*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/07/LittleLiving1.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0
-- [[Colorado] Coloradans celebrate 150 years of statehood on a historic Colorado Day](https://coloradonewsline.com/2026/08/01/coloradans-150-years-statehood/) — *2026-08-01*
-  > Coloradans young and old spent a hot, sunny day in downtown Denver celebrating 150 years of Centennial State history with cake, sing-alongs, art projects, Legos, lowriders and even a square dance routine in the halls of the Capitol. After a pancake breakfast, Gov. Jared Polis, dr
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-02*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Alaska] Farmers Market Week 2026](https://gov.alaska.gov/farmers-market-week-2026/) — *2026-08-02*
+  > WHEREAS, the United States Department of Agriculture (USDA) proclaimed the first National Farmers Market Week in 1999 to raise awareness of efforts nationwide for producers to sell directly to customers; and WHEREAS, a farmers market is an organized assembly of food producers or 
+- **NEW**  [[Alaska] Community Health Center Week 2026](https://gov.alaska.gov/community-health-center-week-2026/) — *2026-08-02*
+  > WHEREAS, for over fifty years, community health centers have delivered accessible and affordable healthcare to underserved and uninsured members of communities across the Nation; and WHEREAS, a community health center’s board is comprised of patients to ensure that each individua
+- [[Alaska] Shooting Sports Month 2026](https://gov.alaska.gov/shooting-sports-month-2026/) — *2026-08-01*
+  > WHEREAS, Alaskans enjoy a variety of outdoor activities throughout the year, and many of those activities, from hiking and hunting to recreational shooting, involve the use of firearms; and WHEREAS, many Alaskans rely on and take pride in the ability to use firearms to feed and p
+- [[California] Fierce floods or wild waves? How San Diego is preparing for a winter of extreme weather under El Niño.](https://calmatters.org/environment/2026/08/el-nino-san-diego-winter-weather/) — *2026-08-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/020224_Flood-San-Diego_AH_CM_16.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Floodwater covers a low-lying area at dus
+- [[California] Universidad de California rompe relaciones con la Patrulla Fronteriza tras protestas estudiantiles](https://calmatters.org/calmatters-en-espanol/2026/07/universidad-de-california-patrulla-fronteriza-protestas/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020426_UCSD-Police_AH_003.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
+- [[California] Tribunal: La política de detención masiva de inmigrantes de Trump contradice 30 años de precedentes](https://calmatters.org/calmatters-en-espanol/2026/07/detencion-masiva-inmigrantes-fallo-judicial/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/03/022026_Padilla-Otay-Mesa_AH_08_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A large detention facility complex sits
+- [[California] Why federal court struck down Trump’s mass detention policy](https://calmatters.org/newsletter/mass-detention-9th-circuit/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072026-Otay-Mesa-GB-AP-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view of the back of a person standing in a
+- [[California] David Valadao lost in the last anti-Trump blue wave. Will farmers help him win this time?](https://calmatters.org/politics/2026/07/central-valley-congressional-race-agriculture-concerns/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/030626-David-Valadao-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man in a gray suit and coral tie sits beh
+- [[California] This embattled consumer agency went 2 years without a director. Newsom finally appointed one](https://calmatters.org/investigation/2026/07/california-pfb-director-newsom/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/072926-PFB-MG-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A graphic combines part of the California state seal 
+- [[California] A California university is cutting ties with the Border Patrol after student outcry](https://calmatters.org/education/2026/07/uc-san-diego-homeland-security-border-patrol-students-protest/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020426_UCSD-Police_AH_003.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https
+- [[California] California needs to preserve clean air and public oversight. Why Prop. 45 must be stopped](https://calmatters.org/commentary/2026/07/proposition-45-environment-health-protections/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/02/022124-Chevron-Richmond-LE-CM-14.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The Chevron refinery in Richmond is loca
+- [[California] How California voters can reform misused environmental law to boost needed projects](https://calmatters.org/commentary/2026/07/proposition-45-housing-environmental-reform/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/07/053124-Bakersfield-Rural-Homelessness-LV_06.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction workers building
+- [[California] Is this proposition a $4 billion giveaway to a billionaire-backed LA research center?](https://calmatters.org/politics/elections/2026/07/proposition-38-california/) — *2026-07-31*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/071326-UC-Irvine-LO-Getty-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a blue jacket, wearing a medi
+- [[feed error] FL Governor (Florida): HTTPError](https://www.flgov.com/feed/) — *2026-08-02*
+  > 404 Client Error: Not Found for url: https://www.flgov.com/feed/
+- **NEW**  [[Connecticut] Lamont’s fiscal success rests on foundation laid by Malloy, others](https://ctmirror.org/2026/08/02/lamonts-fiscal-success-rests-on-foundation-laid-by-malloy-others/) — *2026-08-02*
+  > <figure><img width="1024" height="769" src="https://ctmirror.org/wp-content/uploads/2018/11/CTJH107.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uploads/2018/11/CTJH10
+- **NEW**  [[Connecticut] CT’s $1.6 billion railroad promise](https://ctmirror.org/2026/08/02/connecticuts-1-6-billion-train-promise/) — *2026-08-02*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/caternary-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/07/c
+- [[Connecticut] Blumenthal’s bill, mental health grants, Electric Boat: CT politics news](https://ctmirror.org/2026/07/31/ct-politics-blumenthal-bill-mental-health-electric-boat/) — *2026-07-31*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/AP26209820299823-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
+- [[Connecticut] Opposition builds to redevelopment on Norwalk’s Manresa Island](https://ctmirror.org/2026/07/31/manresa-island-opposition-norwalk/) — *2026-07-31*
+  > <figure><img width="880" height="542" src="https://ctmirror.org/wp-content/uploads/2024/10/Austin-and-Allison-McChord.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
+- [[Connecticut] More than 17% of Connecticut residents live in a ‘pharmacy desert’](https://ctmirror.org/2026/07/31/more-than-17-of-connecticut-residents-live-in-a-pharmacy-desert/) — *2026-07-31*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/CT-STATS-PHARMACY-DESERTS-073026-JL-006-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.or
 
-_(422 additional items in raw.jsonl)_
+_(424 additional items in raw.jsonl)_

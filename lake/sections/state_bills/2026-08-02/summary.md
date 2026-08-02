@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-08-02
 record_count: 178
-new_today: 87
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## State Legislative Action
 
-87 new of 178 total items today.
+0 new of 178 total items today.
 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
