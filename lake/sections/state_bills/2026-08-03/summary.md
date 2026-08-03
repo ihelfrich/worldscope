@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-03
-record_count: 74
-new_today: 10
+record_count: 73
+new_today: 9
 state: fresh
 ---
 
 ## State Legislative Action
 
-10 new of 74 total items today.
+9 new of 73 total items today.
 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
@@ -62,4 +62,4 @@ state: fresh
 - [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
   > Existing law establishes the Governor's Office of Business and Economic Development (GO-Biz) within the Governor's office and requires GO-Biz to serve the Governor as the lead entity for economic strategy and the marketing of California on issues relating to business development,
 
-_(49 additional items in raw.jsonl)_
+_(48 additional items in raw.jsonl)_

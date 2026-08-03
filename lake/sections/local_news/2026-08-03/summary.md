@@ -2,15 +2,19 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-03
-record_count: 192
-new_today: 65
+record_count: 164
+new_today: 78
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-65 new of 192 total items today.
+78 new of 164 total items today.
 
+- **NEW**  [[St. Louis] Event parking switchover trips up downtown St. Louis visitors](https://www.stlmag.com/news/event-parking-downtown-contrary-sign/) — *2026-08-03*
+  > <p>For a while now, people arriving late to a concert at Enterprise Center or a game at Busch Stadium have justified their own tardiness by telling themselves some version of, Well, it’s after 7 p.m., so at least I don’t have to pay for parking. Hours later, many of these very sa
+- **NEW**  [[St. Louis] Hundreds gather to honor couple murdered in Guatemala after removal from Overland](https://www.stlmag.com/news/nixon-perez-paz-glendy-gonzalez-de-la-cruz-overland-guatemala/) — *2026-08-03*
+  > <p>The recent murders of Nixon Pérez Paz and Glendy Marisol González de la Cruz—an Overland couple who had been forced to return to Guatemala—sent shock waves through the St. Louis region’s immigrant Hispanic community. But their tragic deaths also galvanized local resistance to 
 - **NEW**  [[St. Louis] UMSL’s Anchor Accelerator is all about growing local startups](https://www.stlmag.com/business/umsl-anchor-accelerator-grows-local-startups/) — *2026-08-03*
   > <p>Scott Morris is intentionally picky about which companies he chooses for the University of Missouri-St. Louis’ Anchor Accelerator, the business development program he runs as the director of UMSL’s Entrepreneurship and Innovation Center. St. Louis is awash with ventures that s
 - **NEW**  [[St. Louis] Local author Chet Hardin details the toxic relationship behind a shocking crime in ‘The Vampire’s Cult’](https://www.stlmag.com/culture/local-author-chet-hardin-details-the-toxic-relationship-behind-a-shocking-crime-in-the-vampires-cult/) — *2026-08-03*
@@ -21,6 +25,34 @@ state: fresh
   > <p>Whether you&#8217;re interested in contemplating independence, exploring stylistic pioneers, or catching the final days of spring and summer programming, there is plenty to take in this month at the city&#8217;s many museums and galleries. Here are a few must-see shows to catc
 - [[St. Louis] Fall & Winter Arts Guide 2026](https://www.stlmag.com/culture/fall-winter-arts-guide-st-louis/) — *2026-08-01*
   > <p>August STL Fringe Fest AUGUST 4–9 Uncensored, original, and raucous are just a few ways to describe the annual STL Fringe Fest. For its 15th year, the fest will take over a variety of stages in Grand Center and beyond, filling them with more than 40 acts and creators of all ki
+- **NEW**  [[St. Louis] Inside NCAA Headquarters located in Indianapolis on Friday, March 10, 2023.
+
+Ncaa President Charlie Baker](https://www.stltoday.com/image_43d61040-055f-57c2-a027-495a30ceb0dc.html) — *2026-08-03*
+  > Logos of NCAA member schools are displayed on a wall inside NCAA Headquarters in Indianapolis.
+- **NEW**  [[St. Louis] St. Louis obituaries for August 3](https://www.stltoday.com/news/local/obituaries/collection_08764a1f-bbb5-5a71-8ffd-2f3d164fabed.html) — *2026-08-03*
+  > Read through the obituaries published in the St. Louis Post-Dispatch
+- **NEW**  [[St. Louis] Poll: Most say Trump isn't paying attention to their problems](https://www.stltoday.com/news/nation-world/government-politics/article_1027530c-3229-5984-9325-9162028eb596.html) — *2026-08-03*
+  > Ahead of November’s midterms, the poll found 71% of Americans said he has not gone far enough in trying to lower the price of everyday goods.
+- **NEW**  [[St. Louis] Drone company prepares to launch Walmart deliveries by air in St. Louis area](https://www.stltoday.com/news/local/business/article_7d3001a5-1ea9-4980-9b78-25974e4527ae.html) — *2026-08-03*
+  > Wing's build out in St. Louis is part of a larger movement toward aerial drone delivery.
+- **NEW**  [[St. Louis] USA-JUSTICE/BLANCHE](https://www.stltoday.com/image_1a101e6a-006b-5e4a-b272-50b2cd96a297.html) — *2026-08-03*
+  > Acting U.S. Attorney General Todd Blanche walks through the Hart Senate Office Building on Capitol Hill in Washington, D.C., July 29.
+- **NEW**  [[St. Louis] Once derided as a boondoggle, MidAmerica Airport is booming in the Metro East](https://www.stltoday.com/news/local/metro/article_4f8758d1-db42-4c70-9b31-7fa982760c6f.html) — *2026-08-03*
+  > It’s a striking turnaround for an airport long lampooned by critics as the “Gateway to Nowhere.”
+- **NEW**  [[St. Louis] How the Post-Dispatch gathers election results](https://www.stltoday.com/news/local/government-politics/elections/article_68c3eb9c-7843-4db3-a90f-c92dbe5c1174.html) — *2026-08-03*
+  > Here's a quick look at how the Post-Dispatch gathers election results for readers.
+- **NEW**  [[St. Louis] Count ballots by hand or machine? Jefferson County clerk candidates change their minds](https://www.stltoday.com/news/local/government-politics/article_6c5bb766-617f-4c67-bd6f-217d3840e861.html) — *2026-08-03*
+  > The race features four candidates – three Republicans and one Democrat – vying to replace Jeannie Goff, who is set to retire.
+- **NEW**  [[St. Louis] Hochman: Wait, can St. Louis City SC make the playoffs? The boys sure look like it](https://www.stltoday.com/sports/column/benjamin-hochman/article_982a0c95-a780-45bf-bf73-6666f2773c7e.html) — *2026-08-03*
+  > St. Louis City SC has earned points in each of its past eight games.
+- **NEW**  [[St. Louis] St. Louis-area business openings and closings in July](https://www.stltoday.com/news/local/business/article_a0826596-b601-4182-a420-62553abfc1ba.html) — *2026-08-03*
+  > Here are some key retail and business openings and closings for the St. Louis area in July.
+- **NEW**  [[St. Louis] Kay Granger, the first Republican woman from Texas to serve in the US House, has died](https://www.ksdk.com/article/news/nation-world/kay-granger-republican-texas-house-representative-dies-obit/507-b0cf39ac-b4d5-49b4-bdb6-ff65cd657f96) — *2026-08-03*
+  > Kay Granger, the first Republican woman from Texas elected to the U.S. House of Representatives, has died. She was 83.
+- **NEW**  [[St. Louis] Acting Attorney General Todd Blanche rescinds $1.8 billion 'anti-weaponization fund'](https://www.ksdk.com/article/news/nation-world/acting-attorney-general-todd-blanche-rescinds-18-billion-anti-weaponization-fund-president-trump/507-5ba9e93c-6bc5-4b9d-a97f-c87affb31535) — *2026-08-03*
+  > Acting Attorney General Todd Blanche issued an order terminating President Donald Trump’s $1.8 billion “anti-weaponization fund” to compensate his political allies.
+- **NEW**  [[St. Louis] Man shot after fight inside McDonald's restroom in north St. Louis County](https://www.ksdk.com/article/news/crime/north-st-louis-county-shooting-inside-mcdonalds-saint-charles-rock-road/63-239a0d8a-b9a9-4cec-997e-ef08ad602617) — *2026-08-03*
+  > Police said the shooting happened after an argument between two men inside the McDonald's on Saint Charles Rock Road.
 - **NEW**  [[St. Louis] President Trump says Iran war talks will begin Monday after he holds off on 'massive' strikes](https://www.ksdk.com/article/news/nation-world/attack-on-iran/president-trump-threatens-escalation-against-iran-war-conflict-negotiation/507-167bb25b-9000-4617-94d3-a7fedd95257b) — *2026-08-03*
   > President Donald Trump announced new talks to wind down the war in Iran, starting Monday. He has said he's holding off on massive strikes at the urging of allies.
 - **NEW**  [[St. Louis] Fires near Spokane, Washington, have burned 600 structures and forced 60,000 evacuations](https://www.ksdk.com/article/news/nation-world/spokane-fires-washington-state-evacuated/507-25a10d8f-aadb-496b-aa7a-bf13e918ab6e) — *2026-08-03*
@@ -29,37 +61,7 @@ state: fresh
   > Authorities have released more details about the 24-year-old suspect in a Twin Falls, Idaho, mass shooting, who died by a self-inflicted gunshot wound.
 - **NEW**  [[St. Louis] Overland vigil honors deported couple killed in Guatemala](https://www.ksdk.com/article/news/politics/immigration-news/overland-vigil-honors-murdered-immigrant-couple-nixon-perez-paz-glendy-gonzalez-de-la-cruz/63-bfa5a41e-7d81-491b-bcad-71c334a60ca5) — *2026-08-03*
   > Hundreds gathered in Overland to honor a deported couple killed in Guatemala, as leaders and advocates called for justice and support for their daughters.
-- **NEW**  [[St. Louis] Florida man becomes world's youngest professor at age 18, breaking 305-year-old record](https://www.ksdk.com/article/news/nation-world/nathan-thomas-worlds-youngest-professor-florida/507-e0e3601d-7a46-4179-95b9-f8aa296ec5a2) — *2026-08-03*
-  > "I always thought about coming back and teaching," Nathan Thomas, the world's youngest professor, said. "I thought I meant when I was older… like a lot older."
-- [[St. Louis] From reluctant interview to inspirational speaker: A Marine's long way back](https://www.ksdk.com/article/news/local/making-a-difference/from-reluctant-interview-to-inspirational-speaker-marine-cpl-todd-nicely/63-366b9675-eafa-48b9-b2d5-035235b0dd13) — *2026-08-03*
-  > Marine veteran Cpl. Todd Nicely survived a devastating IED blast, PTSD and a suicide attempt. Now he shares his story to help others find hope and purpose.
-- [[St. Louis] Innocent bystander caught in crossfire during south St. Louis restaurant shooting, police say](https://www.ksdk.com/article/news/crime/triple-shooting-in-south-st-louis-gravois-avenue/63-a38891b1-7e9a-41c2-9364-115be74aa596) — *2026-08-03*
-  > A 26-year-old man was critically injured after police said he was caught in gunfire while making a purchase inside a south St. Louis restaurant.
-- **NEW**  [[St. Louis] What to know about August's total solar eclipse](https://www.ksdk.com/article/news/nation-world/august-total-solar-eclipse-information/507-18c07fa1-94cd-475c-86b4-2728c6d80227) — *2026-08-03*
-  > August’s total solar eclipse will sweep over Spain, Iceland and Greenland and be partially visible in a few states.
-- [[St. Louis] Trump says Gulf leaders' input weighed heavily in decision to hold off on ordering new Iran strikes](https://www.ksdk.com/article/news/nation-world/attack-on-iran/president-trump-halts-new-strikes-against-iran/507-e5bf040c-812f-43be-870d-92ef734d19b3) — *2026-08-02*
-  > The emerging deal “would include the Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT, and an end to Iran’s nuclear threat,” Trump wrote Saturday.
-- [[St. Louis] Stunt riders gather to pay tribute to man who drowned in Missouri River](https://www.ksdk.com/article/news/local/stunt-riders-gather-to-pay-tribute-to-a-j-soehlke-who-drowned-in-missouri-river/63-2e825da0-cb5f-4086-ae75-ccafcb942c91) — *2026-08-02*
-  > Stunt riders gathered in Portage Des Sioux to honor A. J. Soehlke, while friends urged water safety after the 22-year-old drowned in the Missouri River.
-- [[St. Louis] Senate leaders reach funding deal to avoid shutdown during campaign season](https://www.ksdk.com/article/news/nation-world/senate-leaders-reach-funding-deal/507-4aa8fe48-88ad-4211-aedf-f7baae87359f) — *2026-08-02*
-  > Senate leaders push for a short-term spending bill to fund the government through early December and avoid a government shutdown.
-- [[St. Louis] What we know about the victims in the Idaho In-N-Out shooting](https://www.ksdk.com/article/news/nation-world/victims-idaho-in-n-out-shooting/507-2b8384c6-cd5f-4be7-ac55-6108ab75868b) — *2026-08-02*
-  > The owner of the Twin Falls, Idaho In-N-Out, where the shooting took place, confirmed one of their employees was killed during the incident.
-- [[St. Louis] Gunman found dead after Idaho shooting that left 3 people dead and injured several others](https://www.ksdk.com/article/news/nation-world/twin-falls-idaho-mass-shooting-in-n-out-burger-investigation/507-3c6d471b-a94c-443c-808e-f8d24eac1a62) — *2026-08-02*
-  > The suspected gunman, identified by police as 24-year-old Chad Williams in a Sunday afternoon press conference, was found dead from a self-inflected gunshot.
-- [[St. Louis] ICE detains woman at St. Charles Sam's Club after police chase; driver sought](https://www.ksdk.com/article/news/local/st-charles-ice-detains-woman-sams-club-driver-flees-traffic-stop/63-ff25165c-28cd-4c00-859a-960e10c1fe8b) — *2026-08-02*
-  > A driver is wanted after police say a Kia fled a traffic stop and two passengers jumped out at the St. Charles Sam’s Club. ICE arrived at the scene soon after.
-- [[St. Louis] Ohio Rep. Marcy Kaptur injured in hit-and-run crash](https://www.ksdk.com/article/news/nation-world/ohio-rep-marcy-kaptur-involved-hit-run-crash/507-3a5667c6-4503-405b-bfb0-2c0b4943606a) — *2026-08-02*
-  > Kaptur is being treated for non-life threatening injuries.
-- [[St. Louis] St. Louis native Robert Crenshaw reflects on performing in 'Ain't Too Proud' at The Muny](https://www.ksdk.com/article/entertainment/music/st-louis-native-robert-crenshaw-reflects-on-performing-in-aint-too-proud-at-the-muny/63-70307805-ec59-4506-ad42-3c442cc72dbf) — *2026-08-02*
-  > After Saturday's rainout, audiences have one last chance to experience the Broadway hit celebrating the legendary Temptations.
-- [[St. Louis] 2 killed when firefighting helicopters collide near Athens as Europe’s wildfire crisis rages](https://www.ksdk.com/article/news/nation-world/firefighting-helicopter-collision-crash-athens-greece-europe-wildfires/507-81164c4e-1765-4cc2-9df8-f9bb6cc0eeba) — *2026-08-02*
-  > Two Greek firefighting helicopters collided in midair as they were battling a wind-driven wildfire west of Athens, sending one aircraft crashing to the ground.
-- [[St. Louis] Man dies after being shot inside car in Old North St. Louis](https://www.ksdk.com/article/news/crime/st-louis-shooting-cass-avenue/63-85401535-489e-486f-85f9-c273deac22f4) — *2026-08-02*
-  > The deadly shooting happened at about 8 p.m. Saturday near a homeless encampment.
-- [[St. Louis] Police: Suspect dead in shooting that killed 3, injured others in Idaho](https://www.ksdk.com/article/news/nation-world/twin-falls-in-n-out-shooting/507-519ea1f7-8e2f-4f2e-84cd-2f8cf6d14b67) — *2026-08-02*
-  > A spokesperson for the Twin Falls Police Department said three people are dead and five more were hurt as a result of the shooting.
-- [[St. Louis] Fast-moving, aggressive wildfires in eastern Washington force thousands to flee](https://www.ksdk.com/article/news/nation-world/fast-moving-aggressive-wildfire-eastern-washington-spokane-evacuations/507-ced04855-50e3-49ef-9b1b-4977a9acfb39) — *2026-08-02*
-  > Fueled by strong winds and dry conditions, the blaze spread into Spokane neighborhoods, destroying structures and prompting emergency declarations.
+- **NEW**  [[St. Louis] Florida man breaks 305-year-old record as world's youngest professor at age 18](https://www.ksdk.com/article/news/nation-world/nathan-thomas-worlds-youngest-professor-florida/507-e0e3601d-7a46-4179-95b9-f8aa296ec5a2) — *2026-08-03*
+  > "I always thought about coming back and teaching," Nathan Thomas, the world's youngest professor, said. "I thought I meant when I was older… like, a lot older."
 
-_(167 additional items in raw.jsonl)_
+_(139 additional items in raw.jsonl)_

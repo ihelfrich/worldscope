@@ -10,9 +10,17 @@
     },
     {
       "category": "feed-failure",
-      "description": "[FIRMS error] ConnectionError",
+      "description": "[Liveuamap error] HTTP 503",
       "evidence": [
-        "firms-fetch-error"
+        "liveuamap-error-503"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[Copernicus EMS error] all endpoints 4xx/5xx",
+      "evidence": [
+        "copernicus-fetch-error"
       ],
       "z_score": null
     }
@@ -38,32 +46,12 @@
       "type": "org"
     },
     {
-      "canonical_name": "Liveuamap",
-      "id": "org:source-liveuamap",
+      "canonical_name": "NASA FIRMS",
+      "id": "org:source-nasa-firms",
       "metadata": {
-        "geo_resolution_m": 1000,
-        "kind": "osint-feed",
-        "latency_hours": 1.5
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "ZSU general staff",
-      "id": "org:source-zsu-general-staff",
-      "metadata": {
-        "geo_resolution_m": 50000,
-        "kind": "official-ua",
-        "latency_hours": 1.0
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "UA Ministry of Defence",
-      "id": "org:source-ua-ministry-of-defence",
-      "metadata": {
-        "geo_resolution_m": 50000,
-        "kind": "official-ua",
-        "latency_hours": 1.0
+        "geo_resolution_m": 375,
+        "kind": "thermal",
+        "latency_hours": 5.0
       },
       "type": "org"
     },
@@ -76,23 +64,13 @@
         "latency_hours": 1.0
       },
       "type": "org"
-    },
-    {
-      "canonical_name": "Institute for the Study of War",
-      "id": "org:source-institute-for-the-study-of-war",
-      "metadata": {
-        "geo_resolution_m": 1000,
-        "kind": "analysis",
-        "latency_hours": 24.0
-      },
-      "type": "org"
     }
   ],
   "entities_updated": [],
-  "new_count": 57,
+  "new_count": 109,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 243,
+  "record_count": 421,
   "relationships": [
     {
       "evidence": [
@@ -105,1935 +83,3609 @@
     },
     {
       "evidence": [
-        "liveuamap-0240b6f357f9bf1e"
+        "firms-theater-2026-08-02-0056-52.805-32.225"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-d13b497823c47ac9"
+        "firms-theater-2026-08-02-0056-52.173-34.430"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-9e2cd2b0686c5c27"
+        "firms-theater-2026-08-02-0056-52.370-33.301"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-32629cb415d7fe44"
+        "firms-theater-2026-08-02-0056-52.063-34.140"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-c1c4543a50ac8845"
+        "firms-theater-2026-08-02-0056-52.064-34.143"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-fac9324bc995305e"
+        "firms-theater-2026-08-02-0058-51.887-34.200"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-219a21b655c2c97a"
+        "firms-theater-2026-08-02-0058-51.798-34.413"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-68762771280f38fc"
+        "firms-theater-2026-08-02-0058-52.848-29.987"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-da11a690b55349f9"
+        "firms-theater-2026-08-02-0058-52.846-29.993"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-1417a67dccac20c0"
+        "firms-theater-2026-08-02-0058-52.667-30.649"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-11ef5679d4a74b7b"
+        "firms-theater-2026-08-02-0058-52.667-30.647"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-f7b21fe688328f22"
+        "firms-theater-2026-08-02-0058-51.894-29.340"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-55927c7477792a26"
+        "firms-theater-2026-08-02-0058-51.893-29.345"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-64e7fd0ad3123f54"
+        "firms-theater-2026-08-02-0058-51.891-29.337"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-7b6d575f963b56c9"
+        "firms-theater-2026-08-02-0058-50.384-30.339"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-caa64da361240e7e"
+        "firms-theater-2026-08-02-0058-51.456-24.719"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-75732e6de2dcb820"
+        "firms-theater-2026-08-02-0058-48.530-34.647"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-3be6612e2da9a9a1"
+        "firms-theater-2026-08-02-0058-48.531-34.648"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-cad21d4f8d5884b6"
+        "firms-theater-2026-08-02-0058-48.474-34.630"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-023adb9b3c82bce1"
+        "firms-theater-2026-08-02-0058-50.542-26.262"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-557767d639fadb11"
+        "firms-theater-2026-08-02-0058-47.733-34.859"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-fbca8b857a66899a"
+        "firms-theater-2026-08-02-0058-47.728-34.856"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-70513255c79d01b9"
+        "firms-theater-2026-08-02-0058-47.598-34.979"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-5238e18bdc9c3e92"
+        "firms-theater-2026-08-02-0058-47.603-34.982"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e8f223bed46943b1"
+        "firms-theater-2026-08-02-0058-47.597-34.979"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-6b11186698b1080f"
+        "firms-theater-2026-08-02-0058-47.596-34.984"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-136f7b8dee1d64d0"
+        "firms-theater-2026-08-02-0058-47.680-34.491"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-7f7e9bf2cdd22606"
+        "firms-theater-2026-08-02-0058-47.882-33.398"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-f7b07a3729ec83c5"
+        "firms-theater-2026-08-02-0058-47.870-33.440"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-5a72648ca3aa37ed"
+        "firms-theater-2026-08-02-0058-47.868-33.444"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-97d235d7798e43f1"
+        "firms-theater-2026-08-02-0058-47.859-33.446"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-ea3c4447193e1aa9"
+        "firms-theater-2026-08-02-0058-49.676-25.518"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-d2e474c5fae79f8f"
+        "firms-theater-2026-08-02-0058-49.674-25.525"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-352f98a6d9cf2ac7"
+        "firms-theater-2026-08-02-0058-49.672-25.516"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-4a42f7cd99894b5e"
+        "firms-theater-2026-08-02-0058-47.349-34.293"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-54896d527575825b"
+        "firms-theater-2026-08-02-0058-49.920-24.136"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-7196ea9495da5c79"
+        "firms-theater-2026-08-02-0058-49.919-24.141"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-61bd244c78039a93"
+        "firms-theater-2026-08-02-0058-47.346-34.290"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-61bd244c78039a93"
+        "firms-theater-2026-08-02-0058-49.902-23.887"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-98a785d04dcbde77"
+        "firms-theater-2026-08-02-0058-49.551-25.326"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-4881899a4928eecc"
+        "firms-theater-2026-08-02-0058-47.288-33.663"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e2ae5da7e7829734"
+        "firms-theater-2026-08-02-0058-47.607-32.331"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-61bd244c78039a93"
+        "firms-theater-2026-08-02-0058-49.107-26.198"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-3fe8fb0bea20a6eb"
+        "firms-theater-2026-08-02-0058-46.682-34.957"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-ae45f07a553cdeda"
+        "firms-theater-2026-08-02-0058-46.676-34.954"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-accfec4ee75e8219"
+        "firms-theater-2026-08-02-0058-46.674-34.959"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-9dec9541de316c86"
+        "firms-theater-2026-08-02-0058-46.665-34.946"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-a23f4a3082bad690"
+        "firms-theater-2026-08-02-0058-46.678-34.956"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-2a2a6b6b585eba56"
+        "firms-theater-2026-08-02-0058-46.676-34.961"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-ec2213badfe14fcf"
+        "firms-theater-2026-08-02-0058-46.667-34.948"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-472d367623e080ed"
+        "firms-theater-2026-08-02-0058-46.662-34.944"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-976f169f3401ad0a"
+        "firms-theater-2026-08-02-0058-46.656-34.941"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-31d1a2dac8f306cf"
+        "firms-theater-2026-08-02-0058-47.289-32.687"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-1823502048179c4e"
+        "firms-theater-2026-08-02-0058-47.287-32.692"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-6b97083ed6110334"
+        "firms-theater-2026-08-02-0058-48.748-26.605"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e6a015bd08d44f1d"
+        "firms-theater-2026-08-02-0058-46.989-33.180"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-8b1f75beac14b1da"
+        "firms-theater-2026-08-02-0058-46.987-33.184"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-232a012a25b81f5e"
+        "firms-theater-2026-08-02-0058-46.979-33.190"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-31a291c3aec52d5d"
+        "firms-theater-2026-08-02-0058-46.981-33.082"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-7429a56c89ccfe25"
+        "firms-theater-2026-08-02-0058-46.978-33.074"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-8910824ee3050740"
+        "firms-theater-2026-08-02-0058-46.955-32.965"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-3d1cf64aafe6ffb2"
+        "firms-theater-2026-08-02-0058-48.976-24.714"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-dbe0a9510e65d313"
+        "firms-theater-2026-08-02-0058-46.376-34.477"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-fbc996e8a25333a6"
+        "firms-theater-2026-08-02-0058-46.741-32.872"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-256e55c2e027ec20"
+        "firms-theater-2026-08-02-0058-46.740-32.871"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-0351e7befd5b8a93"
+        "firms-theater-2026-08-02-0058-47.583-29.768"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-072b441102277040"
+        "firms-theater-2026-08-02-0058-47.582-29.775"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-7114ebe91f16614c"
+        "firms-theater-2026-08-02-0058-47.580-29.782"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-3d91044c41dba010"
+        "firms-theater-2026-08-02-0058-46.741-32.726"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-1141de8f0693bee7"
+        "firms-theater-2026-08-02-0058-46.736-32.722"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e76210c89f867b29"
+        "firms-theater-2026-08-02-0058-46.681-32.705"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-39c0a318652ee20b"
+        "firms-theater-2026-08-02-0058-46.813-32.185"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-fb37bfcd2b16a938"
+        "firms-theater-2026-08-02-0058-47.103-31.025"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-f24558a589b2ed97"
+        "firms-theater-2026-08-02-0058-46.442-32.257"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-24f2d3957f8ad7dc"
+        "firms-theater-2026-08-02-0058-46.298-32.402"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-daefdc6b8e4dc434"
+        "firms-theater-2026-08-02-0058-46.295-32.404"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-441643601754b468"
+        "firms-theater-2026-08-02-0058-46.291-32.397"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-26c39db5e449c486"
+        "firms-theater-2026-08-02-0058-46.295-32.383"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-f3b04276fb798a1e"
+        "firms-theater-2026-08-02-0058-46.290-32.401"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-c0d9dd1387904e82"
+        "firms-theater-2026-08-02-0058-46.286-32.393"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-157fc60a1b89f1ce"
+        "firms-theater-2026-08-02-0058-46.287-32.389"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-3ca124a596c70277"
+        "firms-theater-2026-08-02-0058-46.282-32.386"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-eff71cf7ad89595b"
+        "firms-theater-2026-08-02-0058-46.125-29.759"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-c4232831e32e8540"
+        "firms-theater-2026-08-02-0058-46.897-26.027"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-463c210e4693f3f5"
+        "firms-theater-2026-08-02-0058-45.258-31.673"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e99753de7e5388c1"
+        "firms-theater-2026-08-02-0058-45.260-31.668"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-884275742b19b787"
+        "firms-theater-2026-08-02-0058-45.258-31.669"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-ac38a57b36b083a2"
+        "firms-theater-2026-08-02-0058-45.257-31.674"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-b23f441b7efdcd40"
+        "firms-theater-2026-08-02-0058-45.357-30.901"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-31dd30236b90b96f"
+        "firms-theater-2026-08-02-0058-45.356-30.905"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-a04c2d5d3da4b02a"
+        "firms-theater-2026-08-02-0100-45.125-25.417"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-e14b1aae22b919ff"
+        "firms-theater-2026-08-02-0100-45.377-22.110"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-d4f10f596f623c7a"
+        "firms-theater-2026-08-02-0100-44.239-24.503"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-5999a56a308d802f"
+        "firms-theater-2026-08-02-0100-44.238-24.507"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-90a28bc0fd715811"
+        "firms-theater-2026-08-02-0100-44.473-22.916"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-1a44bb8dab5df897"
+        "firms-theater-2026-08-02-0100-44.474-22.890"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-9054faf6f821a259"
+        "firms-theater-2026-08-02-0100-44.469-22.914"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-c122324130af324f"
+        "firms-theater-2026-08-02-0100-44.473-22.896"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-6878e74c72c8e55b"
+        "firms-theater-2026-08-02-0100-44.470-22.908"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-6fd944e80d7fb4e2"
+        "firms-theater-2026-08-02-0100-44.470-22.889"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-df6572f2046b50c0"
+        "firms-theater-2026-08-02-0100-44.419-23.059"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-6d48732f3b482923"
+        "firms-theater-2026-08-02-0100-44.411-23.062"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7c216fdde1e029c2"
+        "firms-theater-2026-08-02-0100-44.415-23.044"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-674aec7167374ce7"
+        "firms-theater-2026-08-02-0100-44.413-23.050"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-8ba22157d2c859fc"
+        "firms-theater-2026-08-02-0100-44.411-23.043"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-285f88c716764360"
+        "firms-theater-2026-08-02-0100-44.366-23.011"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-1b87d960ca30a60b"
+        "firms-theater-2026-08-02-0100-44.365-23.017"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-d319f642fa141c1f"
+        "firms-theater-2026-08-02-0100-44.364-23.017"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-54b273f45916986f"
+        "firms-theater-2026-08-02-0100-44.365-23.011"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-fdc2da3bf6b429ab"
+        "firms-theater-2026-08-02-0100-44.214-22.734"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-ba3e6e9df13a1760"
+        "firms-theater-2026-08-02-0100-44.211-22.739"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-654c02e2f2dde618"
+        "firms-theater-2026-08-02-0905-52.072-34.127"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-54b273f45916986f"
+        "firms-theater-2026-08-02-0905-52.070-34.130"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-54b273f45916986f"
+        "firms-theater-2026-08-02-0907-51.860-34.501"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-1b4187c1382ea458"
+        "firms-theater-2026-08-02-0907-51.866-34.495"
       ],
-      "from": "org:source-zsu-general-staff",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-8d0a6992099f15bd"
+        "firms-theater-2026-08-02-0907-51.864-34.499"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-eb43c6f6a0a970c3"
+        "firms-theater-2026-08-02-0907-51.861-34.491"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-8d0a6992099f15bd"
+        "firms-theater-2026-08-02-1043-45.159-33.978"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-cb5044be4b831d5e"
+        "firms-theater-2026-08-02-1043-45.163-33.981"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-11d59fb7a3ee27c8"
+        "firms-theater-2026-08-02-1043-45.162-33.977"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-2c5271cc9121ba40"
+        "firms-theater-2026-08-02-1043-44.135-26.592"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7bad52c93451ef70"
+        "firms-theater-2026-08-02-1043-45.257-31.672"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-c89123bacabe4001"
+        "firms-theater-2026-08-02-1043-45.713-34.426"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-358ddd0c4ddf550f"
+        "firms-theater-2026-08-02-1043-45.716-34.425"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-029e60247ada2ed0"
+        "firms-theater-2026-08-02-1043-45.716-34.421"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-d7dc7ac350604edd"
+        "firms-theater-2026-08-02-1043-44.766-28.560"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-73b0472340182a79"
+        "firms-theater-2026-08-02-1043-44.769-28.557"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-bd8b1842aee372a1"
+        "firms-theater-2026-08-02-1043-45.356-30.904"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-f659bdb0ea2882fb"
+        "firms-theater-2026-08-02-1043-44.151-24.319"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-93924d51434b4cac"
+        "firms-theater-2026-08-02-1043-44.241-24.517"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-273bae92c312d1cd"
+        "firms-theater-2026-08-02-1043-46.369-34.865"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-d5afac1084d80a9f"
+        "firms-theater-2026-08-02-1043-46.368-34.859"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-46c5a1b9350814c2"
+        "firms-theater-2026-08-02-1043-46.367-34.854"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-e23e33d8ca9d166f"
+        "firms-theater-2026-08-02-1043-46.371-34.858"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-444359faba069f17"
+        "firms-theater-2026-08-02-1043-46.371-34.853"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7ed006be5b1ff842"
+        "firms-theater-2026-08-02-1043-46.375-34.863"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-01502e8683525347"
+        "firms-theater-2026-08-02-1043-46.375-34.857"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-e8f428465e6d0591"
+        "firms-theater-2026-08-02-1043-46.379-34.862"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-ed9bf5b5d3c333be"
+        "firms-theater-2026-08-02-1043-46.378-34.856"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7abe26b744504bf4"
+        "firms-theater-2026-08-02-1043-44.161-23.098"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-14dac10f441479f4"
+        "firms-theater-2026-08-02-1043-46.348-33.547"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-41f3ce829d04938b"
+        "firms-theater-2026-08-02-1043-44.163-23.097"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-296f4797cddb1536"
+        "firms-theater-2026-08-02-1043-44.168-23.094"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-46bdf9e1c2308a09"
+        "firms-theater-2026-08-02-1043-45.634-29.427"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-1b531ef0aafbb386"
+        "firms-theater-2026-08-02-1043-46.578-34.981"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-0288cadd750f3093"
+        "firms-theater-2026-08-02-1043-46.272-32.395"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7dd8d033ecd2b293"
+        "firms-theater-2026-08-02-1043-46.276-32.399"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-a0caba255c9b1745"
+        "firms-theater-2026-08-02-1043-46.274-32.384"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-0986b56664255596"
+        "firms-theater-2026-08-02-1043-46.278-32.366"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-701afd802463830d"
+        "firms-theater-2026-08-02-1043-46.280-32.360"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-fe96a55234b13529"
+        "firms-theater-2026-08-02-1043-46.286-32.353"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-504698c4ec66740b"
+        "firms-theater-2026-08-02-1043-46.289-32.352"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-962b2f70dd22a2ca"
+        "firms-theater-2026-08-02-1043-46.289-32.347"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-40fd8696851b5d71"
+        "firms-theater-2026-08-02-1043-46.298-32.381"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-66e0b909478c888a"
+        "firms-theater-2026-08-02-1043-46.297-32.376"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-29045c2f2e3ceb00"
+        "firms-theater-2026-08-02-1043-46.293-32.356"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-6cac0f7e0e236b6a"
+        "firms-theater-2026-08-02-1043-46.293-32.351"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-36efeba6e8c9b110"
+        "firms-theater-2026-08-02-1043-46.292-32.346"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-b418064278ec6e3e"
+        "firms-theater-2026-08-02-1043-46.298-32.364"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-995be5fc6c6d270c"
+        "firms-theater-2026-08-02-1043-44.226-22.730"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-666be6a586874dce"
+        "firms-theater-2026-08-02-1043-45.801-29.502"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-b324c9cfd3b3ff5d"
+        "firms-theater-2026-08-02-1043-45.808-29.499"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-59538a5240a4f763"
+        "firms-theater-2026-08-02-1043-45.807-29.493"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-d60a425eca979068"
+        "firms-theater-2026-08-02-1043-46.488-33.239"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-1dcc8b469172535f"
+        "firms-theater-2026-08-02-1043-44.381-23.006"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-a6bdc9359a795e46"
+        "firms-theater-2026-08-02-1043-46.569-33.450"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-4cc83f9dc78d8e90"
+        "firms-theater-2026-08-02-1043-46.522-32.827"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-07f5820823e32356"
+        "firms-theater-2026-08-02-1043-46.521-32.822"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-66b2ad7c632b9256"
+        "firms-theater-2026-08-02-1043-46.524-32.821"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-83fe187292b66a6e"
+        "firms-theater-2026-08-02-1043-46.528-32.825"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-9f2a74b35e4baba3"
+        "firms-theater-2026-08-02-1043-46.528-32.820"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-fff1819ed099ce3f"
+        "firms-theater-2026-08-02-1043-46.531-32.819"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-bff752a097778f52"
+        "firms-theater-2026-08-02-1043-46.731-33.686"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-b204862ab493c17e"
+        "firms-theater-2026-08-02-1043-46.591-32.517"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-6c02f9e3071ef227"
+        "firms-theater-2026-08-02-1043-46.659-32.538"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-34076bb26ed6b01f"
+        "firms-theater-2026-08-02-1043-46.767-32.763"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-fff7dd2a327c9434"
+        "firms-theater-2026-08-02-1043-46.770-32.762"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-433b74a0b94f44ee"
+        "firms-theater-2026-08-02-1043-46.768-32.752"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-b5390cc14dee7940"
+        "firms-theater-2026-08-02-1043-46.917-33.479"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-9d49d541912fce43"
+        "firms-theater-2026-08-02-1043-46.674-31.763"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-a40ef7beaf214366"
+        "firms-theater-2026-08-02-1043-46.690-31.838"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-f49a5dcb8ad3573a"
+        "firms-theater-2026-08-02-1043-46.876-32.905"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-e986fdc383968e33"
+        "firms-theater-2026-08-02-1043-46.717-31.804"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-17dc58e091c6ab38"
+        "firms-theater-2026-08-02-1043-46.721-31.803"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-948fa1bb9c47ae1b"
+        "firms-theater-2026-08-02-1043-46.109-28.437"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-57704034bbe0367a"
+        "firms-theater-2026-08-02-1043-46.112-28.435"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-78f716aab9cc08df"
+        "firms-theater-2026-08-02-1043-46.967-33.119"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-8d0a6992099f15bd"
+        "firms-theater-2026-08-02-1043-47.018-33.423"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-499f243c4f0c0228"
+        "firms-theater-2026-08-02-1043-46.906-32.712"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-a24a8e64a779a0c7"
+        "firms-theater-2026-08-02-1043-46.963-33.046"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-f11b1f2073fa67c4"
+        "firms-theater-2026-08-02-1043-46.957-32.964"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-2e69907f4463102c"
+        "firms-theater-2026-08-02-1043-46.983-33.087"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-c1c0be8238cb8984"
+        "firms-theater-2026-08-02-1043-46.982-33.082"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-04f01d899ad03cc0"
+        "firms-theater-2026-08-02-1043-46.139-28.357"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-94a4c3ce37ccadd5"
+        "firms-theater-2026-08-02-1043-47.000-32.899"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-20fc8edd48b612df"
+        "firms-theater-2026-08-02-1043-47.221-34.353"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-206184c6b81dbf5f"
+        "firms-theater-2026-08-02-1043-46.999-32.894"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-1c0fdd8713d2250b"
+        "firms-theater-2026-08-02-1043-46.359-29.229"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-c8e2f04b8bc55d98"
+        "firms-theater-2026-08-02-1043-47.125-33.548"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-93bc4ae5c782aeb0"
+        "firms-theater-2026-08-02-1043-47.124-33.543"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-5c9811dbf1ffb55a"
+        "firms-theater-2026-08-02-1043-47.129-33.547"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-4c759822d57aecb0"
+        "firms-theater-2026-08-02-1043-46.552-30.138"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-9327818d9decba3a"
+        "firms-theater-2026-08-02-1043-46.550-30.133"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-f7eceb1f0ca9e411"
+        "firms-theater-2026-08-02-1043-46.764-31.135"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-f74f86ab9898c29b"
+        "firms-theater-2026-08-02-1043-47.016-32.545"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-67d78c38617a4625"
+        "firms-theater-2026-08-02-1043-47.327-34.147"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-7064ebd6b5baf6c1"
+        "firms-theater-2026-08-02-1043-47.282-33.679"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-4af125861b1117a2"
+        "firms-theater-2026-08-02-1043-47.131-32.661"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-49d8a1e1059efca4"
+        "firms-theater-2026-08-02-1043-47.293-33.659"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-daab13cfc8d77491"
+        "firms-theater-2026-08-02-1043-47.294-33.664"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-86384a45a3e4aefb"
+        "firms-theater-2026-08-02-1043-47.324-33.819"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-524a4b76263ab79a"
+        "firms-theater-2026-08-02-1043-47.135-32.580"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-607df6b7d06503fd"
+        "firms-theater-2026-08-02-1043-47.025-31.914"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-527c01cc8f92b75f"
+        "firms-theater-2026-08-02-1043-47.417-34.233"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "official-ua-128dbcb3168b96da"
+        "firms-theater-2026-08-02-1043-47.417-34.228"
       ],
-      "from": "org:source-ua-ministry-of-defence",
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.421-34.232"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-46.945-31.173"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-46.902-30.732"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.612-34.715"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.616-34.719"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.615-34.714"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.620-34.723"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.571-34.210"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.669-34.752"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.734-34.860"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-46.809-28.623"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.777-34.247"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.776-34.242"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-46.812-28.622"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.781-34.251"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.780-34.246"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.779-34.241"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.966-34.845"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.859-33.448"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.873-33.422"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.871-33.390"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.867-32.918"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-47.724-31.024"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.166-32.581"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.408-31.933"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.173-29.793"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.172-29.787"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.045-29.028"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.065-28.995"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.061-28.978"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.063-28.989"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.061-28.977"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.151-29.025"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.150-29.019"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.067-28.405"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.073-27.366"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.077-27.364"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.074-27.364"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.695-29.047"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1043-48.698-29.046"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-49.246-29.958"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-49.836-32.097"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-49.673-25.523"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-50.743-31.017"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-50.736-30.738"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-50.735-30.733"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-50.746-30.735"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-50.745-30.729"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.339-34.340"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.342-34.339"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.544-34.653"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.618-34.249"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.658-34.271"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.399-31.968"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.862-34.488"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.866-34.493"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.865-34.487"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.314-30.013"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.062-34.147"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.070-34.132"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.070-34.126"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.074-34.130"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.073-34.124"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.271-28.742"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.274-28.740"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.106-33.834"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.350-33.045"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.350-33.043"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.353-33.042"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.890-29.339"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.895-29.343"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.361-32.249"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.365-32.247"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-51.532-26.525"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.941-32.317"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1045-52.848-29.989"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.162-23.101"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.168-23.101"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.230-25.267"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.212-22.729"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.212-22.734"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.214-22.726"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.214-22.731"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.369-22.415"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.472-22.676"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.477-22.675"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1223-44.477-22.670"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-46.107-28.442"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-46.107-28.433"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-47.125-22.262"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-47.121-22.260"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-47.127-22.260"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-48.063-23.495"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-48.063-23.493"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-48.384-22.868"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-1225-49.757-27.471"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-52.845-29.992"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-52.847-29.989"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-52.238-33.792"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.895-29.341"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.894-29.330"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.892-34.194"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.772-34.069"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.769-34.070"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.648-34.310"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.631-34.210"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.643-34.316"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.634-34.210"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.544-34.653"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-51.544-34.654"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-50.773-30.729"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-50.766-30.720"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-50.766-30.730"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-50.766-30.739"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.523-34.629"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.472-34.627"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.394-33.496"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.394-33.503"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.388-33.496"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.388-33.502"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-48.319-31.403"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.884-33.396"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.877-33.409"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.871-33.434"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.865-33.434"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.865-33.447"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.859-33.446"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.707-34.837"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.708-34.820"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.744-33.024"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.696-34.825"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.744-33.025"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.758-29.877"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.605-34.943"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.600-34.947"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.581-34.832"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.583-34.831"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.575-30.211"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.542-33.692"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.293-33.669"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.296-33.671"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.275-31.305"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.269-31.297"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.269-31.305"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.226-33.859"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.999-33.101"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.987-33.106"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.987-33.113"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.981-33.112"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-47.003-32.873"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.998-33.094"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.998-33.101"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.992-33.107"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.986-33.107"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.980-33.113"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.951-33.047"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.924-33.915"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2259-46.924-33.920"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.854-31.657"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.710-34.967"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.709-34.973"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.704-34.967"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.704-34.972"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.682-34.824"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.672-34.938"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.666-34.938"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.643-33.187"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.528-32.818"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.446-32.290"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.446-32.297"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.370-34.464"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.273-32.367"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.189-32.701"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.189-32.698"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.183-32.698"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-46.120-29.768"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.618-29.361"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.598-29.511"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.593-29.515"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.462-29.070"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.460-29.067"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "firms-theater-2026-08-02-2301-45.258-31.673"
+      ],
+      "from": "org:source-nasa-firms",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-b863a1a4c52ed5d8"
+      ],
+      "from": "org:source-kyiv-city-state-administration",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-6320bfc7e3a9fe2c"
+      ],
+      "from": "org:source-kyiv-city-state-administration",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-6989ba3d0c6753f9"
+      ],
+      "from": "org:source-kyiv-city-state-administration",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-08f822a5ecbebc69"
+      ],
+      "from": "org:source-kyiv-city-state-administration",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
@@ -2178,87 +3830,6 @@
         "official-ua-1a36d8d3664c944a"
       ],
       "from": "org:source-kyiv-city-state-administration",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-6133b03ed9998ee1"
-      ],
-      "from": "org:source-kyiv-city-state-administration",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-9f26d177a9a15e11"
-      ],
-      "from": "org:source-kyiv-city-state-administration",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-51c6a9a7dc86ef2d"
-      ],
-      "from": "org:source-kyiv-city-state-administration",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-8e73f2256ecc2b05"
-      ],
-      "from": "org:source-kyiv-city-state-administration",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
-      ],
-      "from": "org:source-institute-for-the-study-of-war",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
-      ],
-      "from": "org:source-institute-for-the-study-of-war",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
-      ],
-      "from": "org:source-institute-for-the-study-of-war",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
-      ],
-      "from": "org:source-institute-for-the-study-of-war",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
-      ],
-      "from": "org:source-institute-for-the-study-of-war",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
