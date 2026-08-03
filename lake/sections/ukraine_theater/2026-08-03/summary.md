@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-08-03
-record_count: 639
-new_today: 145
+record_count: 243
+new_today: 57
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-145 new of 639 total items today.
+57 new of 243 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-08-03*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -29,14 +29,14 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXl6eGFRWGtkTmJDcmsyaHA1OFY0eGlMdDFqR3R2b3ZVUk1TYnRGNGREQ3hzXzIyQVpPY0JRY3JxSGhyek82NkZGTS0zRnJVR1BTRVlTYUVmbzdjU0VzTHM3VG1oMFdiZ21YLWJqZ0ltYUdhNmxGSjQ5bVl4eG9sa1B4UkNvR0daUi0wbWw1bl8ycW0y?oc=5" target="_blank">Ukraini
 - [[Liveuamap] A ship was targeted and explosions occurred 21 nautical miles northeast of Khasab, Oman. Strait of Hormuz - Liveuamap](https://iran.liveuamap.com) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQX016aEpKSlRxS2kxeEFJRW5UeTdEWmJQQ0tlRlprTVpTbS1lQjV6MDVxREZjbzBCQXd1TDQ4d2VNbVJ4TWZVNGVVLVd3d3NKMDJlZlhmb21YdEdNQlRTZWd1c2dPa0ZDVThjemZncThrVVloTmhHSjQzemZQa1p4N1AxYzdoazNXVlBzRFd4azRVQkcyaUlxUQ?oc=5" target="_blank">A
-- [[Liveuamap] US Central Command: Our forces and Saudi armed forces conducted precision strikes in Iraq against Iranian proxies. US and Saudi fighter jets launched raids targeting logistics sites and weapons depots in eastern Iraq Basra Governorate, Iraq](https://iraq.liveuamap.com) — *2026-07-29*
+- [[Liveuamap] US Central Command: Our forces and Saudi armed forces conducted precision strikes in Iraq against Iranian proxies. US and Saudi fighter jets launched raids targeting logistics sites and weapons depots in eastern Iraq Basra Governorate, Iraq](https://iraq.liveuamap.com) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPOUVtTDVYbWxZNmJTYXpKWm5IQVBKX2dRZW5xM0szM2lyYVp4bG5fbTE4ZTNjajl6YjA5UjZfS3cwSmpDb2MtQU9OcDJHQ1QyNUtkMXc5VGR0Vkh5dnpNN3JWWU10VFZ1a3h4NElCUGMydFlGZUVIWG13VVp2YjVLRFl4dFhjOWFfNmRkVTdBNFZNcEU0YUE?oc=5" target="_blank">US C
 - **NEW**  [[Liveuamap] Israeli Defense Minister Israel Katz: If the Palestinian Authority starts an Intifada, it's war. We will deal with it the same way we dealt with Gaza and Lebanon. Any city involved will be dealt with in the harshest way - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkpCS29tRFYxTEROdGNKVGE0RFE2TktFWGhmUktaaXJEOXZKSHlSZUtMdl9Yel91cGZEYVNtZlQtRHlfNWVDSEoyVUppbGN1NU1VQ2tvNTl6VFpQeUNkUlR0SUZXMlcxTkwtcEJtUlhJNERvenI4ejg3alRXMURRWXRGVjlDNkdWN21odEpUbWczM2Ita1VrNkRnRkZNaUlQcTdXWnJJSGJjcG
-- **NEW**  [[Liveuamap] Ukraine - Liveuamap](https://liveuamap.com) — *2026-08-03*
-  > <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQLTFlZGZsZXFqU3NSNC00bW9kNkdqcmxWcW1NeFlsVWFlV3FXU1RqYkx2UmY0eWdpOEJSOVlPYTNqU3FfV1dFdE5OM0hrV0dXaElFRGFObVc4SDR2aW5WUHpmYk1XajhQTDNNSUFKLW5DeVJmSW1iY1ZsV2RSd0JycF9SYWt2eGpDb3VvaA?oc=5" target="_blank">Ukraine</a>&nbsp;
 - **NEW**  [[Liveuamap] A new airborne assault brigade will be stationed in the Homel region near the Ukrainian border. In Belarus, the formation of the 37th Separate Guards Airborne Assault Brigade of Special Operations Forces is nearing completion. Homel - News ](https://belarus.liveuamap.com) — *2026-08-01*
   > <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQdEhueHpBdnhXaVBXSldZbTg4TTdWbGNybVU5Si1VZmVaaTl2LTBBanl2ZEw0djFLUzJ1Q25xMXdwa2NPWmFGV3RJcldDNFFUUDZTbk1YUnRCaEVJMW9LMVVfdjBUem9ETnJvWHVNemNObkpwSTVwOUlWRWJEazRpNURsc1JXdHVVbnJhanJlb0hOYkJzOG9QRHVJb29xd3c?oc=5" target="
+- **NEW**  [[Liveuamap] At Lyman direction clashes yesterday near Lyman, Stavky, Dibrova and near Novoselivka, Ozerne and Zarichne, - General Staff of Armed Forces of Ukraine reports Donetsk Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live m](https://liveuamap.com) — *2026-08-03*
+  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQUXd2U2NsX2tHYU5zaFo5am1NdWlBd1VpaUpLYkk1UVlvR2o5VFdCWmNLTW9GcEZBaEZDWnhNMGV0VHZtQWc1ZEg2SnV6NWJHODlQWEV5OTJoRWpzZXBfdWozQnlVUm9YOTBoRHBoMmgySFhvWXlFamR4RklINU5WcjRONkYwazYxMjNPcHE5NGg0VEk?oc=5" target="_blank">At Lyman
 - [[Liveuamap] Palestinian Civil Defense: One dead and one wounded in an Israeli raid on Mawasi Khan Yunis, southern Gaza Strip - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-07-31*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQlpZdFpnTnZGbEoyaHlhODZkMGlmLVFXMTczeDhmTkxaT0lwWmFESENlWDYyMEo3eUxMRWhOWVhKMndFSG40Z3FBeGVITXB2NkhaRWZaSUxXZksxZG91b3hXdkJmUlNhREoyUXA4TnZhaTFwT1Q0VDVJTi1ycGRuS3M0Ul8xM1NzbXBYQV9iWXh1SXdDZDZEVktyWV9kcGZ5RjhBUEhwcWk2Rk
 - [[Liveuamap] The ground forces headquarters in Noorabad, Fars was hit three times Fars Province, Iran - Liveuamap](https://iran.liveuamap.com) — *2026-08-01*
@@ -59,7 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFJZbWtxeV9xclppa2RxN21kbEtndkJCMUMyZnY2MS1wOXlMWDc4OGVEaHlvdzA3dndNZUJrSlU3TTQ2dk5HYldHdHRRdENsS0xoZTY0QS1FT2ZwMURFeWdzM1pYVDVJUUloY3lWaVNNcEQzWGUxRTNwX0JfTmJmUEw3NTRkOTBGT3R1OG5ncDEwNzZrb2c?oc=5" target="_blank">Fire
 - [[Liveuamap] Spain has returned about 37,500 of the roughly 50,000–60,000 migrants who entered the Spanish enclave of Ceuta from Morocco since early Friday. Authorities said returns are continuing under an agreement with Morocco Ceuta,Tanger-Tétouan-Al ](https://spain.liveuamap.com) — *2026-08-02*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQYURNaUlxbXBmanNxaWlfbjV4ZmlFS09LWV9OczktdHNyVnRlbG5seEJOUDNxZmRQdnY1dFlPZ2VCUW8wNTNLbC15eVJmRGloa1BUc2xTanQ4SjlNeVlxQ2tkZDJqVnA5U1NDOXJ5T1JndUhJNDZYX0pwS2NyRFhVd2o1YTF3WFFLX09zQW9peVdKYV94VGFF?oc=5" target="_blank">Spa
-- **NEW**  [[Liveuamap] Two civilians were killed and others injured in a drone attack targeting a gas station in Rabak, White Nile State. Drones continued their raids on El Obeid, North Kordofan. - sudan.liveuamap.com](https://sudan.liveuamap.com) — *2026-07-30*
+- [[Liveuamap] Two civilians were killed and others injured in a drone attack targeting a gas station in Rabak, White Nile State. Drones continued their raids on El Obeid, North Kordofan. - Liveuamap](https://sudan.liveuamap.com) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOX0N4bXRqcTBrV1d0enNKYU9MN2xPMUlzNXlvQ3prRFFYX3ZRNlM2ZE1rQTZuaWpjSXRIcWZlQkhvU2E0X3daaS1RX3hDQ2h4MVlFLVA4TUVsRG9xYlVHSUZIMFdGUjEtR19QR0NpWGNORTNSLWhlRUdCdlBaMGRWSkRDOWFwdEdjbXpsU1ZVa2xWSUcwcTI1eURn?oc=5" target="_blank"
 
-_(614 additional items in raw.jsonl)_
+_(218 additional items in raw.jsonl)_

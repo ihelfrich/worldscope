@@ -2,228 +2,255 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-03
-record_count: 173
-new_today: 158
+record_count: 174
+new_today: 161
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-158 new of 173 total items today.
+161 new of 174 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-50103) — *2026-08-03*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-38350) — *2026-08-03*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:24AM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6df808a46232bc9a7c016899c63d3f2bd82658d0.001.1) — *2026-08-03*
-  > At 524 AM EDT, Doppler radar was tracking a strong thunderstorm over
-Mount Kisco, moving northeast at 30 mph.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 3 at 6:31AM EDT until August 3 at 10:00AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f065f720915b5df2b9179410b32b0440f5dee817.001.1) — *2026-08-03*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Portions of northeast Georgia and Upstate South Carolina.
+
+* WHEN...Until 10 AM EDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 6:31AM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b1d5f354f603a2835d8b93a5ae33cd749051a35.001.1) — *2026-08-03*
+  > At 631 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from Oakville to Prospect to near Cheshire to Hamden
+to New Haven to near Orange. Movement was northeast at 50 mph.
 
 HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
+IMPACT...Gusty 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 3 at 6:26AM EDT until August 3 at 8:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7906213ac00cfb5b8de42d83a66ce1b30044ba0e.001.1) — *2026-08-03*
+  > * WHAT...Flooding caused by excessive rainfall is expected.
 
-This strong thundersto
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 4:23AM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c584355201647ec22e1d539f9ef1cdabbb5587b.001.1) — *2026-08-03*
-  > Patchy dense fog has formed across central Illinois in the last
-couple of hours. Visibility may fall below one-quarter mile to one
-mile at times through early morning, leading to potentially
-hazardous travel conditions.
+* WHERE...A portion of southeast Pennsylvania, including the
+following counties, Bucks and Montgomery.
 
-Expect rapid changes in visibility over short distances, wi
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 4:21AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c778deddbb696411ee5cd0b0e27d221a5b4e3da2.001.1) — *2026-08-03*
-  > WHAT...Patchy fog with visibilities around or under a mile.
+* WHEN...Until 800 AM EDT.
 
-WHERE...Mainly south of US Highway 20 and along and east of I-35.
+* IMPACTS...It will take several hours for all the water from these
+storms to work thro
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:25AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70e43140c6592890e268ba29334f4749a41c17bc.001.1) — *2026-08-03*
+  > At 525 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Grygla, or 25 miles northeast of Thief River Falls, moving east at 25
+mph.
 
-WHEN...Through 8am.
+HAZARD...Nickel size hail.
 
-IMPACTS...Drivers should be alert for reduced visibility at
-times.
+SOURCE...Radar indicated.
 
-PREPAREDNESS AND PRECAUTIONARY ACTIONS...If driving this mornin
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:20AM EDT by NWS Gray ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4224c03a1a22764760e0120130f237a37053229a.001.1) — *2026-08-03*
-  > A very moist air mass in place this morning has lead to the
-development of areas of dense fog. Motorists are urged to use
-caution during the morning commute. The fog should gradually thin
-as the rain rates increase.
-- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 3 at 2:19AM PDT until August 4 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a627d30bef8bca25e7679d522df8b57df894ace.001.3) — *2026-08-03*
-  > * WHAT...For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and seas 8 to 13 ft at 9 seconds. For the
-Small Craft Advisory, north winds 25 to 35 kt with gusts up to
-45 kt and seas 8 to 13 ft at 9 seconds. For the Hazardous Seas
-Warning, very steep and hazardous 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 2:19AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a627d30bef8bca25e7679d522df8b57df894ace.001.1) — *2026-08-03*
-  > * WHAT...For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and seas 8 to 13 ft at 9 seconds. For the
-Small Craft Advisory, north winds 25 to 35 kt with gusts up to
-45 kt and seas 8 to 13 ft at 9 seconds. For the Hazardous Seas
-Warning, very steep and hazardous 
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 2:19AM PDT until August 3 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a627d30bef8bca25e7679d522df8b57df894ace.002.1) — *2026-08-03*
-  > * WHAT...For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and seas 10 to 15 ft at 9 seconds. For the
-Hazardous Seas Warning, very steep and hazardous seas 8 to 12
-ft at 9 seconds expected.
+IMPACT...Minor hail damage to vegetation is possible.
 
-* WHERE...All areas beyond 10 nm from shore and south of Cape
-Blanco.
+Locations impacted includ
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 4:23AM MDT until August 4 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cbb3c7f11e606e1249c0da0251473d5d02c3dd8.003.1) — *2026-08-03*
+  > * AFFECTED AREA...Fire Weather Zone 489 San Rafael Swell.
 
-- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 3 at 2:19AM PDT until August 4 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a627d30bef8bca25e7679d522df8b57df894ace.002.2) — *2026-08-03*
-  > * WHAT...For the Gale Warning, north winds 25 to 35 kt with
-gusts up to 45 kt and seas 10 to 15 ft at 9 seconds. For the
-Hazardous Seas Warning, very steep and hazardous seas 8 to 12
-ft at 9 seconds expected.
+* WINDS...Northwest 10 to 20 mph with gusts up to 30 mph.
 
-* WHERE...All areas beyond 10 nm from shore and south of Cape
-Blanco.
+* RELATIVE HUMIDITY...5 to 10 percent. Little to no overnight
+recovery will occur.
 
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 3 at 5:18AM EDT until August 3 at 9:00AM EDT by NWS Caribou ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcbde4383e4089f237e48eb90a773d34f0c91866.001.1) — *2026-08-03*
-  > * WHAT...Visibility of a quarter-mile or less in dense fog.
+* IMPACTS...Critical fire weather conditions are expected. Any
+new fire starts
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 4:23AM MDT until August 3 at 10:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cbb3c7f11e606e1249c0da0251473d5d02c3dd8.001.1) — *2026-08-03*
+  > * AFFECTED AREA...Fire Weather Zone 481 Western Ashley National
+Forest, Fire Weather Zone 483 Southern Ashley National Forest,
+Fire Weather Zone 484 Tavaputs Plateau and Fire Weather Zone
+498 Grand Staircase.
 
-* WHERE...Coastal Hancock, Coastal Washington, Central Washington,
-Interior Hancock, and Southern Penobscot Counties.
+* WINDS...West 10 to 20 mph with gusts up to 30 mph.
 
-* WHEN...Until 9 AM EDT this morning.
+* RELATIVE HUMID
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 4:23AM MDT until August 4 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cbb3c7f11e606e1249c0da0251473d5d02c3dd8.002.1) — *2026-08-03*
+  > * AFFECTED AREA...Fire Weather Zone 482 Western Uintah Basin.
 
-* IMPACTS...Low visibility could make driving conditions haza
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 4:18AM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c6e6060cee71d46455dd4362269fc8388d1e5cc.001.1) — *2026-08-03*
-  > Light winds and humid conditions have resulted in river valley fog
-over much of the area. The fog could be locally dense at times
-with visibilities down to a quarter mile, especially in the river
-valleys and other low-lying areas. Expect conditions to quickly
-improve by 9 AM and 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:14AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dc8ffa81ace0cee76ed66d30dd8b3e92f8a7f74.001.1) — *2026-08-03*
-  > Expect areas of reduced visibility in fog through 900 AM this
-morning...primarily from the Muncie area south to around
-Shelbyville and east. If traveling through these areas early this
-morning, be prepared for fog that could suddenly reduce
-visibilities to 1/2 mile or less. Slow 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 4:12AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3605be30f05622dfc1c8f07987369caecab7bf3d.001.1) — *2026-08-03*
-  > Patchy dense fog with localized visibility below one half of a
-mile will continue this morning. The fog will be thickest in open
-areas, such as farm fields, river valleys, and ditches.
+* WINDS...West 10 to 20 mph with gusts up to 35 mph.
 
-If traveling this morning, use low beam headlights and increase
-following distances.
+* RELATIVE HUMIDITY...9 to 12 percent. Little to no overnight
+recovery will occur.
 
-The fog 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 5:09AM EDT until August 3 at 7:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c3a68735b07a4d84f501a65510718924a0857be.002.1) — *2026-08-03*
-  > At 509 AM EDT, Doppler radar and automated rain gauges indicated
-thunderstorms producing heavy rain across the warned area. Between
-1.5 and 3 inches of rain have fallen. Flooding impacts will
-continue, but no additional rainfall is expected. Flash flooding is
-ongoing or expected 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 5:03AM EDT until August 3 at 8:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.260fdcd850d43d2eb35f6f44cbab3a92b25763ee.001.1) — *2026-08-03*
+* IMPACTS...Critical fire weather conditions are expected. Any
+new fire starts 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 6:20AM EDT until August 3 at 7:30AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8629758da1f64cdcbb72d41e991c5363bee088c3.001.1) — *2026-08-03*
   > FFWALY
 
-The National Weather Service in Albany has issued a
+The National Weather Service in Albany has extended the
 
 * Flash Flood Warning for...
-Southeastern Dutchess County in east central New York...
+Southwestern Litchfield County in northern Connecticut...
+
+* Until 730 AM EDT.
+
+* At 620 AM EDT, Doppler radar and automated rain gauges indicated
+heavy rain falling across the warned ar
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 6:20AM EDT until August 3 at 8:00AM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a7a97383468a3018f0cc273b2a01746f7834646.001.1) — *2026-08-03*
+  > FFWOKX
+
+The National Weather Service in Upton has extended the
+
+* Flash Flood Warning for...
+Northern Bergen County in northeastern New Jersey...
+Northwestern Essex County in northeastern New Jersey...
+Passaic County in northeastern New Jersey...
 
 * Until 800 AM EDT.
 
-* At 503 AM EDT, Doppler radar indicated heavy rain across the
-warned area. Between 1 and 2.5 inches of rain ha
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 3 at 5:00AM EDT until August 3 at 8:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c15c990b05456c96369ea857f32893f5a6723bac.002.1) — *2026-08-03*
-  > * WHAT...Dangerous swimming conditions expected early this morning.
+* At 620 AM
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:19AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ae83b2e6d7f8cbb98ac59a6223fa5d2a9a1c2e0.001.1) — *2026-08-03*
+  > At 519 AM CDT, a strong thunderstorm was located over St. Anthony,
+or 14 miles southwest of Bismarck, moving northeast at 35 mph.
 
-*Waves: Waves 2 to 3 feet subsiding to around 1 foot this
-afternoon.
+HAZARD...Penny size hail.
 
-*Longshore Current: Expected. Moving from north to south along
-the beach.
+SOURCE...Radar indicated.
 
-*Structural Currents: Expected, especially on the north sides of
-p
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 3 at 5:00AM EDT until August 3 at 8:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c15c990b05456c96369ea857f32893f5a6723bac.001.1) — *2026-08-03*
-  > * WHAT...Dangerous swimming conditions expected early this morning.
+IMPACT...Minor hail damage to vegetation is possible.
 
-*Waves: Waves 3 to 4 feet subsiding to 1 to 2 feet this
-afternoon.
+Locations impacted include...
+Mandan, St
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:18AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec20c701b377550eb46708a65ebf2ea8ea1db86e.001.1) — *2026-08-03*
+  > At 518 AM CDT, Doppler radar was tracking a cluster of strong
+thunderstorms near Hamberg, or 22 miles east of Harvey, moving
+northeast at 45 mph.
 
-*Longshore Current: Expected. Moving from north to south along
-the beach.
+HAZARD...Nickel size hail.
 
-*Structural Currents: Expected, especially on the north sides of
-pie
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 2:44AM MDT until August 3 at 9:00PM MDT by NWS Billings MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9515eeab7cb29039823b046c0000cca321478bf9.001.2) — *2026-08-03*
-  > The National Weather Service in Billings has issued a Red Flag
-Warning...which is in effect until 9 PM MDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS: Low humidities and strong gusty winds will create
-erratic fire behavior.
+IMPACT...Minor hail damage to vegetation is possible.
 
-* AFFECTED AREA:
-In Southeast MT and Northwest SD Fire Zone...133.
+Locations impacted incl
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:17AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b23effef3de6b5c28f4490cdc0a1157942230d07.001.1) — *2026-08-03*
+  > Areas of fog and mist will occur before sunrise this morning
+across the area. Visibility less than 1 mile will be possible at
+times. Please use extra caution will driving.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:15AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03a0e77400d846ea953ca7160ec5d3c6b54e44b3.001.1) — *2026-08-03*
+  > At 514 AM CDT, a strong thunderstorm was located 6 miles south of
+Fessenden, or 20 miles southeast of Harvey, moving northeast at 50
+mph.
 
-* COU
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 4:43AM EDT until August 3 at 7:45AM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7a6e027e8981f702f3c385cd25e290e8901fca50.001.1) — *2026-08-03*
-  > FFWOKX
+HAZARD...Wind gusts up to 40 mph and penny size hail.
 
-The National Weather Service in Upton has issued a
+SOURCE...Radar indicated.
 
-* Flash Flood Warning for...
-North Central Fairfield County in southern Connecticut...
-Putnam County in southeastern New York...
-Rockland County in southeastern New York...
-Northern Westchester County in southeastern New
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 4:41AM EDT until August 3 at 7:15AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebfa38880562e429fecb7622a2cc2b95bd0b4ab8.001.1) — *2026-08-03*
+IMPACT...Gusty winds could knock down tree limbs and blow a
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 6:04AM EDT until August 3 at 8:00AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07e14785f27559ab36569b2ee15917d2a2989989.001.1) — *2026-08-03*
+  > At 604 AM EDT, Doppler radar and automated rain gauges indicated
+that heavy rain was falling across the warned area. Between 1 and 3
+inches of rain have fallen. The expected rainfall rate is 1 inch in
+1 hour. Additional rainfall amounts up to 1 inch are possible in the
+warned are
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 5:59AM EDT until August 3 at 9:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9aa33e2a44a508b2f5b4d04d4d6abcf3e293b68.001.1) — *2026-08-03*
   > FFWPHI
 
 The National Weather Service in Mount Holly has issued a
 
 * Flash Flood Warning for...
-Mercer County in central New Jersey...
-Southwestern Middlesex County in northern New Jersey...
-South Central Somerset County in northern New Jersey...
-Northwestern Burlington County in 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 4:33AM EDT until August 3 at 6:30AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8d6ef2645a5b76420918ae0da622a7da0dcceda.001.1) — *2026-08-03*
-  > At 433 AM EDT, Doppler radar indicated heavy rain across the warned
-area. Between 1 and 3.5 inches of rain have fallen based on radar
-estimates and weather stations in the warned area. The expected
-rainfall rate is 1 to 2 inches per hour. Additional rainfall amounts
-of 1 to 2 inc
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 1:29AM PDT until August 3 at 10:00PM PDT by NWS Sacramento CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e2d567aeab96578a3b7227b7757acb1747e7702.001.1) — *2026-08-03*
-  > * WHAT...Temperatures of 102 to 108 expected, with widespread
-Moderate HeatRisk and areas of Major HeatRisk today.
+Middlesex County in northern New Jersey...
+Southeastern Somerset County in northern New Jersey...
 
-* WHERE...Northern, Central, Southern Sacramento Valley and adjacent
-foothills, the northern San Joaquin Valley, and foothills of the
-Sierra.
+* Until 900 AM EDT.
 
-* WHEN...From 10 AM t
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 3 at 1:24AM PDT until August 3 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71b9c248f2a58d35824d512f0e923a2f3e214ead.004.1) — *2026-08-03*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-90s to near 100 below 7000 feet expected.
+* At 559 AM EDT, Doppler radar indicated thunderstorms producing
 
-* WHERE...Riverside County Mountains.
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 3:59AM MDT until August 3 at 8:00PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ca17dc1c3b033e76994594497504fae6a910d9a.001.1) — *2026-08-03*
+  > ...RED FLAG WARNING REMAINS IN EFFECT FROM 11 AM THIS MORNING TO 8 PM
+MDT THIS EVENING DUE TO GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR
+FALL RIVER COUNTY AREA, NORTHERN FOOT HILLS, EASTERN FOOT HILLS,
+CUSTER COUNTY PLAINS, PINE RIDGE AREA, BUTTE COUNTY AREA, PERKINS
+COUNTY, WEST 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 5:55AM EDT until August 3 at 9:00AM EDT by NWS Boston/Norton MA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09ddbfb9f0fc506fee15b65a911c8ea1125f67b5.001.1) — *2026-08-03*
+  > FFWBOX
 
-* WHEN...Until 8 PM PDT this evening.
+The National Weather Service in Norton has issued a
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 3 at 1:24AM PDT until August 3 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71b9c248f2a58d35824d512f0e923a2f3e214ead.003.1) — *2026-08-03*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-mid 90s to 105 expected.
+* Flash Flood Warning for...
+Hartford County in northern Connecticut...
+Northwestern Tolland County in northern Connecticut...
+Hampden County in western Massachusetts...
+Southeastern Hampshire County in western Massachu
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:46AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8cfbbcbec2f21025e3f4ccea55f2385ef7ab620f.001.1) — *2026-08-03*
+  > At 546 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near New Preston to Danbury. Movement was
+northeast at 30 mph.
 
-* WHERE...San Bernardino and Riverside County Valleys-The Inland
-Empire.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHEN...Until 8 PM PDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme he
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 3 at 1:24AM PDT until August 3 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71b9c248f2a58d35824d512f0e923a2f3e214ead.005.1) — *2026-08-03*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-90s to near 100 expected.
+IMPACT...Gusty winds could knock down tree limbs and blow aroun
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 2:45AM PDT until August 4 at 3:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd4d92c83563f183d2a31a573643d9a9563a1503.003.1) — *2026-08-03*
+  > * WHAT...North winds 25 to 35 kt with gusts up to 45 kt and seas
+11 to 14 feet.
 
-* WHERE...San Diego County Mountains.
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
 
-* WHEN...Until 8 PM PDT this evening.
+* WHEN...Until 3 AM PDT Tuesday.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels
+- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 3 at 2:45AM PDT until August 3 at 9:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd4d92c83563f183d2a31a573643d9a9563a1503.001.2) — *2026-08-03*
+  > * WHAT...Very steep and hazardous seas 7 to 12 feet and north
+winds 15 to 25 kt with gusts up to 35 kt expected.
 
-_(148 additional items in raw.jsonl)_
+* WHERE...Coastal waters from Pt. St. George to Cape Mendocino
+CA out 10 nm.
+
+* WHEN...Until 9 AM PDT this morning.
+
+* IMPACTS...Very steep and hazardous seas could c
+- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 3 at 2:45AM PDT until August 3 at 9:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd4d92c83563f183d2a31a573643d9a9563a1503.004.1) — *2026-08-03*
+  > * WHAT...Very steep and hazardous seas 6 to 11 feet and
+northwest winds 15 to 25 kt with gusts up to 35 kt.
+
+* WHERE...Coastal waters from Cape Mendocino to Pt. Arena CA out
+10 nm.
+
+* WHEN...Until 9 AM PDT this morning.
+
+* IMPACTS...Very steep and hazardous seas could capsize or 
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 2:45AM PDT until August 3 at 9:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd4d92c83563f183d2a31a573643d9a9563a1503.002.1) — *2026-08-03*
+  > * WHAT...North winds 25 to 35 kt with gusts up to 40 kt and seas
+9 to 14 feet.
+
+* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
+60 nm.
+
+* WHEN...Until 9 PM PDT this evening.
+
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 3 at 2:45AM PDT until August 4 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7c76bb9e174c76207e6c310de33540e0fce2e45.002.1) — *2026-08-03*
+  > * WHAT...Hot daytime conditions with high temperatures between 95 and
+105 common.
+
+* WHERE...The Cuyama Valley.
+
+* WHEN...From 10 AM this morning to 8 PM PDT Tuesday.
+
+* IMPACTS...There is a high risk for dangerous heat illness,
+especially for sensitive groups like the very young
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 3 at 2:45AM PDT until August 5 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7c76bb9e174c76207e6c310de33540e0fce2e45.001.1) — *2026-08-03*
+  > * WHAT...Dangerously hot conditions with temperatures 100 to 110.
+
+* WHERE...Antelope Valley and nearby foothills.
+
+* WHEN...Until 8 PM PDT Wednesday.
+
+* IMPACTS...There is a high risk for dangerous heat illness,
+especially for sensitive groups like the very young, the very old,
+
+
+_(149 additional items in raw.jsonl)_

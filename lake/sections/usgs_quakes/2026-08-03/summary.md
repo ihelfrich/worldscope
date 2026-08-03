@@ -2,19 +2,17 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-03
-record_count: 18
+record_count: 16
 new_today: 5
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-5 new of 18 total items today.
+5 new of 16 total items today.
 
 - [M 5.3 - north of Ascension Island](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thly) — *2026-08-02*
   > M5.3 · north of Ascension Island · depth 10 km
-- [M 5.3 - 265 km S of ‘Ohonua, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlj) — *2026-08-02*
-  > M5.3 · 265 km S of ‘Ohonua, Tonga · depth 10 km
 - **NEW**  [M 5.2 - 66 km WNW of San Alejandro, Peru](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpt) — *2026-08-03*
   > M5.2 · 66 km WNW of San Alejandro, Peru · depth 125.256 km
 - [M 5.1 - 60 km W of Bahía de Lobos, Mexico](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm1) — *2026-08-02*
@@ -39,8 +37,6 @@ state: fresh
   > M4.6 · 8 km N of Belén, Nicaragua · depth 136.506 km
 - [M 4.6 - 65 km NW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm6) — *2026-08-02*
   > M4.6 · 65 km NW of Ende, Indonesia · depth 51.437 km
-- [M 4.6 - 14 km SE of Honmachi, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlf) — *2026-08-02*
-  > M4.6 · 14 km SE of Honmachi, Japan · depth 10 km
 - **NEW**  [M 4.5 - 5 km NNW of Sánchez, Dominican Republic](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqe) — *2026-08-03*
   > M4.5 · 5 km NNW of Sánchez, Dominican Republic · depth 10 km
 - [M 4.5 - 6 km W of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000thp0) — *2026-08-02*

@@ -2,14 +2,14 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-03
-record_count: 57
-new_today: 13
+record_count: 52
+new_today: 10
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-13 new of 57 total items today.
+10 new of 52 total items today.
 
 - **NEW**  [[The Hacker News] Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable](https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html) — *2026-08-03*
   > Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.
@@ -23,16 +23,8 @@ Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2
   > Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.
 
 "These vu
-- **NEW**  [[The Register] As Larry Ellison bets the farm, Oracle says it loves AI-written code, just not in OpenJDK](https://www.theregister.com/ai-and-ml/2026/08/03/as-larry-ellison-bets-the-farm-oracle-says-it-loves-ai-written-code-just-not-in-openjdk/5281851) — *2026-08-03*
-  > Use it to debug and review, says Big Red, but don't submit its output
-- **NEW**  [[The Register] Claude Code is revolutionizing digital archaeology. Enterprise better dig it](https://www.theregister.com/columnists/2026/08/03/claude-code-is-revolutionizing-digital-archaeology-enterprise-better-dig-it/5281676) — *2026-08-03*
-  > 'As a big AI skeptic, you just blew my mind'
-- **NEW**  [[The Register] AI is 'both the weapon and the target' in latest wave of cyberattacks](https://www.theregister.com/cyber-crime/2026/08/03/ai-is-both-the-weapon-and-the-target-in-latest-wave-of-cyberattacks/5281534) — *2026-08-03*
-  > CrowdStrike tracks 89% surge in machine-assisted activity as patch windows shrink to 48 hours
-- **NEW**  [[The Register] IT boss left root session open for bring-your-kid-to-work day](https://www.theregister.com/os-platforms/2026/08/03/it-boss-left-root-session-open-for-bring-your-kid-to-work-day/5280931) — *2026-08-03*
-  > Daddy, I typed a Unix command! Was it a bad one?
-- **NEW**  [[The Register] Microsoft says 8 GB of RAM should be enough for anyone running Windows 11](https://www.theregister.com/os-platforms/2026/08/03/microsoft-says-8-gb-of-ram-should-be-enough-for-anyone-running-windows-11/5282153) — *2026-08-03*
-  > Redmond adds new items to its make-Windows-better list
+- **NEW**  [[Computer Weekly] Court document in Asato case reveals xAI/Grok sexual prompts](https://www.computerweekly.com/news/366646848/Court-document-in-Asato-case-reveals-xAI-Grok-sexual-prompts) — *2026-08-03*
+  > &lt;p&gt;Court documents in the legal case brought against xAI, the developer of &lt;a href="https://www.computerweekly.com/news/366644374/Labour-MP-Jess-Asato-launches-legal-action-over-Grok-deepfakes"&gt;Grok, by Labour MP Jess Asata&lt;/a&gt; shows that the artificial intellig
 - **NEW**  [[Computer Weekly] MPs demand answers on Fujitsu’s inclusion in lucrative frameworks](https://www.computerweekly.com/news/366646721/MPs-demand-answers-on-Fujitsus-inclusion-in-lucrative-frameworks) — *2026-08-03*
   > &lt;p&gt;MPs on the Business and Trade Select Committee have written to the secretary of state to demand answers over Fujitsu’s inclusion in frameworks worth more than £50bn in total.&lt;/p&gt; 
 &lt;p&gt;Fujitsu is at the centre of the Post Office scandal, with its software havin
@@ -45,6 +37,8 @@ Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
 - **NEW**  [[MIT Technology Review] Here’s why AI agents lie and cheat to reach their goals](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/) — *2026-08-03*
   > MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make mone
+- **NEW**  [[TechCrunch] A Marc Benioff-backed startup thinks AI can solve the AI deployment problem](https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/) — *2026-08-03*
+  > June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.
 - [[BleepingComputer] OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/) — *2026-08-02*
   > OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]
 - [[BleepingComputer] COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft](https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/) — *2026-08-02*
@@ -61,8 +55,6 @@ Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2
   > Let's see how this "frontier community for techno-optimists" is doing ...
 - [[TechCrunch] TechCrunch Mobility: Two roads diverged — for robotaxis](https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/) — *2026-08-02*
   > Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.
-- [[TechCrunch] These App Store hidden gems prove there’s still room for great software in the AI era](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/) — *2026-08-02*
-  > Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding t
 - [[BleepingComputer] Rails patches critical Active Storage flaw with RCE potential](https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/) — *2026-08-01*
   > A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
 - [[The Hacker News] Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html) — *2026-08-01*
@@ -75,5 +67,13 @@ A March
 Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and repo
 - [[Ars Technica] Here's how engineers plan to save the satellite sent to save NASA's Swift mission](https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/) — *2026-08-01*
   > "We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards."
+- [[Ars Technica] Review: Yes, we're still arguing about Nolan's The Odyssey](https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/) — *2026-08-01*
+  > Christopher Nolan's impressionistic remix of Homer's epic poem finds the man behind the myth.
+- [[Ars Technica] As Reddit stock falls, CEO questions value of Google's AI Overviews](https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/) — *2026-08-01*
+  > Reddit may still be considering ending its licensing deal with Google.
+- [[Ars Technica] After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica](https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/) — *2026-08-01*
+  > Autonomous vehicle giant disturbs residents' sleep.
+- [[Ars Technica] Defcon's new badge is a security key you can see inside](https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/) — *2026-08-01*
+  > A removable chip lets hackers inspect their badge—and keep using it after Defcon.
 
-_(32 additional items in raw.jsonl)_
+_(27 additional items in raw.jsonl)_

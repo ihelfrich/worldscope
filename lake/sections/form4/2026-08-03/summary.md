@@ -3,63 +3,63 @@ section: form4
 title: SEC Form 4 insider transactions (recent)
 date: 2026-08-03
 record_count: 40
-new_today: 0
+new_today: 40
 state: fresh
 ---
 
 ## SEC Form 4 insider transactions (recent)
 
-0 new of 40 total items today.
+40 new of 40 total items today.
 
-- [[Allen Zipporah] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2142412/000110465926089353/0001104659-26-089353-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:54 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089353 Size: 5 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089353/0001104659-26-089353-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:54 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089353 Size: 5 KB
-- [[Moore Joshua] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2143799/000110465926089352/0001104659-26-089352-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:54 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089352 Size: 11 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089352/0001104659-26-089352-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:54 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089352 Size: 11 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089351/0001104659-26-089351-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:53 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089351 Size: 5 KB
-- [[RAUCH STACEY] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1511425/000110465926089351/0001104659-26-089351-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:53 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089351 Size: 5 KB
-- [[Borenstein Hali] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1795710/000110465926089350/0001104659-26-089350-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:53 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089350 Size: 16 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089350/0001104659-26-089350-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:53 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089350 Size: 16 KB
-- [[Kleine Brigitte] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2142128/000110465926089349/0001104659-26-089349-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089349 Size: 5 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089349/0001104659-26-089349-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089349 Size: 5 KB
-- [[Permira VI G.P. Ltd] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2148296/000110465926089348/0001104659-26-089348-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089348 Size: 11 KB
-- [[P6 GP Sarl] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2148099/000110465926089348/0001104659-26-089348-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089348 Size: 11 KB
-- [[Refo SCSp] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2146952/000110465926089348/0001104659-26-089348-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089348 Size: 11 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089348/0001104659-26-089348-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089348 Size: 11 KB
-- [[Permira VI L.P.1] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1677909/000110465926089348/0001104659-26-089348-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089348 Size: 11 KB
-- [[Miller Steven Clive] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1883325/000110465926089347/0001104659-26-089347-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089347 Size: 5 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089347/0001104659-26-089347-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089347 Size: 5 KB
-- [[Tchakarov Ivan] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2145916/000110465926089346/0001104659-26-089346-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089346 Size: 14 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089346/0001104659-26-089346-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089346 Size: 14 KB
-- [[Neugeborn Yoram] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2120593/000114036126030539/0001140361-26-030539-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001140361-26-030539 Size: 6 KB
-- [[Global Ship Lease, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1430725/000114036126030539/0001140361-26-030539-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001140361-26-030539 Size: 6 KB
-- [[Coyle John Joseph] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2142660/000110465926089345/0001104659-26-089345-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001104659-26-089345 Size: 5 KB
-- [[Reformation Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1787117/000110465926089345/0001104659-26-089345-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:52 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001104659-26-089345 Size: 5 KB
-- [[Allan David Robert Malcolm] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2105210/000121390026084196/0001213900-26-084196-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:45 UTC · role: Reporting — Filed: 2026-07-31 AccNo: 0001213900-26-084196 Size: 6 KB
-- [[Virtuix Holdings Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1606242/000121390026084196/0001213900-26-084196-index.htm) — *2026-08-01*
-  > filed 2026-08-01 01:45 UTC · role: Issuer — Filed: 2026-07-31 AccNo: 0001213900-26-084196 Size: 6 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022214/0001918704-26-022214-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:32 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022214 Size: 921 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022214/0001918704-26-022214-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:32 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022214 Size: 921 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022213/0001918704-26-022213-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:30 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022213 Size: 669 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022213/0001918704-26-022213-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:30 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022213 Size: 669 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022212/0001918704-26-022212-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:28 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022212 Size: 549 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022212/0001918704-26-022212-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:28 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022212 Size: 549 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022211/0001918704-26-022211-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:26 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022211 Size: 899 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022211/0001918704-26-022211-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:26 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022211 Size: 899 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022210/0001918704-26-022210-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:22 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022210 Size: 624 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022210/0001918704-26-022210-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:22 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022210 Size: 624 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022209/0001918704-26-022209-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:19 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022209 Size: 624 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022209/0001918704-26-022209-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:19 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022209 Size: 624 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022208/0001918704-26-022208-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:18 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022208 Size: 624 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022208/0001918704-26-022208-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:18 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022208 Size: 624 KB
+- **NEW**  [[Tang Kwok Hin] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1975740/000110465926089409/0001104659-26-089409-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:17 UTC · role: Reporting — Filed: 2026-08-03 AccNo: 0001104659-26-089409 Size: 7 KB
+- **NEW**  [[Aurora Mobile Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1737339/000110465926089409/0001104659-26-089409-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:17 UTC · role: Issuer — Filed: 2026-08-03 AccNo: 0001104659-26-089409 Size: 7 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022207/0001918704-26-022207-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:16 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022207 Size: 624 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022207/0001918704-26-022207-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:16 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022207 Size: 624 KB
+- **NEW**  [[MORGAN STANLEY] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/895421/000119312526329456/0001193125-26-329456-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:15 UTC · role: Issuer — Filed: 2026-08-03 AccNo: 0001193125-26-329456 Size: 5 KB
+- **NEW**  [[MITSUBISHI UFJ FINANCIAL GROUP INC] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/67088/000119312526329456/0001193125-26-329456-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:15 UTC · role: Reporting — Filed: 2026-08-03 AccNo: 0001193125-26-329456 Size: 5 KB
+- **NEW**  [424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)](https://www.sec.gov/Archives/edgar/data/1665650/000191870426022206/0001918704-26-022206-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:14 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022206 Size: 713 KB
+- **NEW**  [424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)](https://www.sec.gov/Archives/edgar/data/19617/000191870426022206/0001918704-26-022206-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:14 UTC — Filed: 2026-08-03 AccNo: 0001918704-26-022206 Size: 713 KB
+- **NEW**  [425 - Qorvo, Inc. (0001604778) (Subject)](https://www.sec.gov/Archives/edgar/data/1604778/000110465926089400/0001104659-26-089400-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:13 UTC — Filed: 2026-08-03 AccNo: 0001104659-26-089400 Size: 30 KB
+- **NEW**  [425 - SKYWORKS SOLUTIONS, INC. (0000004127) (Filed by)](https://www.sec.gov/Archives/edgar/data/4127/000110465926089400/0001104659-26-089400-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:13 UTC — Filed: 2026-08-03 AccNo: 0001104659-26-089400 Size: 30 KB
+- **NEW**  [[ZHANG LONGGEN] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1978144/000110465926089399/0001104659-26-089399-index.htm) — *2026-08-03*
+  > filed 2026-08-03 10:12 UTC · role: Reporting — Filed: 2026-08-03 AccNo: 0001104659-26-089399 Size: 6 KB
 
 _(15 additional items in raw.jsonl)_

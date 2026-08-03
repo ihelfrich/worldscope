@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-03
-record_count: 79
-new_today: 6
+record_count: 74
+new_today: 10
 state: fresh
 ---
 
 ## State Legislative Action
 
-6 new of 79 total items today.
+10 new of 74 total items today.
 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
@@ -35,33 +35,31 @@ state: fresh
   > An Act repealing the child care facility revolving loan fund; repealing the child care facility revolving loan fund foreclosure expense account; repealing the child care facility revolving loan fund program; and providing for an effective date.
 - [[Alaska SB 164] An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.]() — *2026-08-01*
   > An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.
+- **NEW**  [[California AB 2461] Oil and gas: bonding requirements.]() — *2026-08-03*
+  > Under existing law, the Geologic Energy Management Division in the Department of Conservation regulates the drilling, operation, maintenance, and abandonment of oil and gas wells in the state. The State Oil and Gas Supervisor supervises the drilling, operation, maintenance, and a
+- **NEW**  [[California AB 2050] Common interest developments: reserve accounts.]() — *2026-08-03*
+  > Existing law, the Davis-Stirling Common Interest Development Act, governs the management and operation of common interest developments, and requires an association to manage a common interest development, including requiring the association to levy regular and special assessments
+- **NEW**  [[California AB 2716] Oil and gas: bonding requirements.]() — *2026-08-03*
+  > Existing law authorizes the Geologic Energy Management Division in the Department of Conservation to require an operator of an oil and gas well to provide, in addition to specified types of required indemnity bonds, an additional amount of security acceptable to the division base
+- **NEW**  [[California AB 2506] Cannabis: tribal-state agreements.]() — *2026-08-03*
+  > Existing law, the Control, Regulate and Tax Adult Use of Marijuana Act (AUMA) , an initiative measure approved by the voters as Proposition 64 at the November 8, 2016, statewide general election, authorizes a person who obtains a state license under AUMA to engage in commercial a
+- **NEW**  [[California AB 2711] Oil and gas: notice of intention.]() — *2026-08-03*
+  > Existing law establishes the Geologic Energy Management Division in the Department of Conservation, under the direction of the State Oil and Gas Supervisor, who is required to supervise the drilling, operation, maintenance, and abandonment of oil and gas wells in the state. Exist
+- **NEW**  [[California AB 2521] California Council on Science and Technology: water availability study: Central Valley.]() — *2026-08-03*
+  > Existing law establishes the Department of Water Resources within the Natural Resources Agency and vests it with various powers and duties related to water. Existing law requires the State Water Resources Control Board to administer a water rights program pursuant to which the bo
+- **NEW**  [[California AB 2146] Supportive housing: prospective tenants: barriers to access.]() — *2026-08-03*
+  > Existing law establishes the Department of Housing and Community Development within the Business, Consumer Services, and Housing Agency and sets forth its powers and duties. Existing law, the Governor's Reorganization Plan No. 1 of 2025 (GRP) , which became effective on July 5, 2
+- [[California AB 2505] Electrical corporations: hydrogen refueling stations.]() — *2026-08-03*
+  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates and charges be just an
+- **NEW**  [[California AB 1594] Surplus nonresidential property: sales by the Department of Transportation: net equity.]() — *2026-08-03*
+  > Existing law establishes priorities and procedures that any state agency disposing of surplus property is required to follow. Existing law sets forth an order of priority for the disposal of surplus nonresidential property. In this regard, existing law requires a tenant in good s
+- **NEW**  [[California AB 2329] Surplus residential property: condition-adjusted fair market value: Cities of Pasadena and South Pasadena.]() — *2026-08-03*
+  > (1) Existing law establishes priorities and procedures that any state agency disposing of surplus property is required to follow. Existing law sets forth an order of priority for the disposal of specified surplus residential property, including that a state agency disposing of si
 - [[California AB 1924] Statewide homelessness prevention strategy.]() — *2026-08-02*
   > Existing law establishes the California Interagency Council on Homelessness and requires the council to take various actions to prevent and end homelessness in California. Existing law establishes various programs to prevent homelessness or assist persons experiencing homelessnes
 - [[California AB 1826] Cannabis: recall, embargo, and destruction of cannabis and cannabis products.]() — *2026-08-02*
   > Existing law, the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) , governs the licensure and regulation of commercial cannabis activities. MAUCRSA prohibits engaging in certain commercial activities with cannabis or a cannabis product that is misbranded or a
 - [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
   > Existing law establishes the Governor's Office of Business and Economic Development (GO-Biz) within the Governor's office and requires GO-Biz to serve the Governor as the lead entity for economic strategy and the marketing of California on issues relating to business development,
-- [[California AB 2101] Human trafficking: notice and training: disaster sites.]() — *2026-08-02*
-  > Existing law requires specified businesses and other establishments, including, among others, airports, intercity passenger rail or light rail stations, bus stations, and truck stops, to post a notice, as developed by the Department of Justice, that contains information relating 
-- [[California AB 2493] Electrical corporations: interconnection: transmission: permitting: auditor.]() — *2026-08-02*
-  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law requires the commission, if it determines that the rules, practices, equipment, appliances, facilities, or service of a public utili
-- [[California AB 2483] Wildland firefighters: Formerly Incarcerated Firefighter Certification and Employment Program.]() — *2026-08-02*
-  > Existing law establishes in the Natural Resources Agency the Department of Forestry and Fire Protection, and requires the department to be responsible for, among other things, fire protection and prevention, as provided.
 
-Existing law establishes the California Conservation Camp 
-- [[California AB 1754] State general obligation bonds: requirements.]() — *2026-08-02*
-  > Existing law, the State General Obligation Bond Law, generally sets forth the procedures for the issuance and sale of bonds governed by its provisions and for the disbursal of the proceeds of the sale of those bonds. Existing law specifies various provisions required for inclusio
-- [[California AB 1965] Cannabis: testing: quality assurance.]() — *2026-08-02*
-  > Existing law, the Control, Regulate and Tax Adult Use of Marijuana Act (AUMA) , an initiative measure, authorizes a person who obtains a state license under AUMA and any applicable local ordinances to engage in commercial adult-use cannabis activity pursuant to that license, if c
-- [[California AB 2593] Corrections: treatment of prisoners.]() — *2026-08-02*
-  > Existing law prohibits the Department of Corrections Rehabilitation from allowing any lack of care that would injure or impair the health of an incarcerated person. Existing law prohibits the department from modifying or canceling the medical treatment of an incarcerated person i
-- [[California AB 2074] Regional transit hub districts: downtown housing developments.]() — *2026-08-02*
-  > The Planning and Zoning Law generally regulates local government zoning and approval of certain types of housing development projects. The law authorizes a development proponent to submit an application for a development that is subject to a prescribed ministerial approval proces
-- [[California AB 2481] Beverage containers: recycling: glass: quality incentive payments.]() — *2026-08-02*
-  > The California Beverage Container Recycling and Litter Reduction Act requires a distributor of beverage containers to pay to the Department of Resources Recycling and Recovery a redemption payment for every beverage container sold or offered for sale, as provided. The act require
-- [[California AB 1578] State and local officials: sexual harassment training and education: anti-hate speech training.]() — *2026-08-02*
-  > The California Fair Employment and Housing Act makes specified employment practices unlawful, including the harassment of an employee directly by the employer or indirectly by agents of the employer with the employer's knowledge. Under existing law, the Civil Rights Department ad
-- [[California AB 1967] Juveniles.]() — *2026-08-02*
-  > (1) Existing law establishes the jurisdiction of the juvenile court, which may adjudge a child to be a dependent of the court under certain circumstances, including when the child suffered, or there is a substantial risk that the child will suffer, serious physical harm. Existing
-
-_(54 additional items in raw.jsonl)_
+_(49 additional items in raw.jsonl)_
