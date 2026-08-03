@@ -3,79 +3,75 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-03
 record_count: 57
-new_today: 21
+new_today: 45
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-21 new of 57 total items today.
+45 new of 57 total items today.
 
+- **NEW**  [[BleepingComputer] New DOUBLECUP ClickFix service hides malware in browser cache images](https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/) — *2026-08-03*
+  > A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named DeviceManager to Windows systems. [...]
+- **NEW**  [[BleepingComputer] Fake Roblox Xeno script launcher pushes infostealer, RAT malware](https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/) — *2026-08-03*
+  > Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]
+- **NEW**  [[BleepingComputer] N-able warns of N-central auth bypass flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/) — *2026-08-03*
+  > N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]
+- **NEW**  [[BleepingComputer] ExfilSquad hackers leak info of over 100,000 UK police officers, staff](https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/) — *2026-08-03*
+  > A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]
+- **NEW**  [[BleepingComputer] Inside the Underground Business of the Android BTMOB RAT malware](https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/) — *2026-08-03*
+  > Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]
+- **NEW**  [[The Hacker News] 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html) — *2026-08-03*
+  > Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.
+
+
+- **NEW**  [[The Hacker News] Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts](https://thehackernews.com/2026/08/google-password-manager-attacks-could.html) — *2026-08-03*
+  > Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.
+
+Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud auth
+- **NEW**  [[The Hacker News] INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html) — *2026-08-03*
+  > The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.
+
+In a report published over the weekend, Resecurity said it observed the INC Ransomware acc
+- **NEW**  [[The Hacker News] ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks](https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html) — *2026-08-03*
+  > This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.
+
+Some of it was clever. Most of it was just acc
 - **NEW**  [[The Hacker News] FOMO in the SOC: Where AI Platforms like Claude Actually Fit](https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html) — *2026-08-03*
   > AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.
 
 AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has
-- **NEW**  [[The Hacker News] Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS](https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html) — *2026-08-03*
-  > An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.
-
-Attack surface management platform Censys said it identified the threat actor running more than 100 web properti
-- **NEW**  [[The Hacker News] PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web](https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html) — *2026-08-03*
-  > The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.
-
-The data included names, organisations and work email addresses belonging to police officers, police staff, criminal ju
-- **NEW**  [[The Hacker News] Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable](https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html) — *2026-08-03*
-  > Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.
-
-The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs 
-- **NEW**  [[The Hacker News] N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete](https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html) — *2026-08-03*
-  > N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.
-
-Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped buil
+- **NEW**  [[The Record] Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen](https://therecord.media/bitcoin-theft-coldcard-cyberattack) — *2026-08-03*
+  > The company behind a popular hardware wallet for bitcoin owners was forced to destroy part of its inventory after thieves siphoned more than $88 million from customers through a firmware vulnerability.
+- **NEW**  [[The Record] Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations](https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations) — *2026-08-03*
+  > A cyberattack compromised tens of thousands of records related to companies, foundations and trusts in Liechtenstein, prompting the government to to form a “crisis unit” to address the breach.
+- **NEW**  [[The Record] Biotech giant Amgen says patient data stolen from third-party cloud systems](https://therecord.media/amgen-hackers-cyberattack-sec) — *2026-08-03*
+  > The biotech giant Amgen informed regulators that patient information and proprietary company data were accessed through a breach of third-party cloud systems.
 - **NEW**  [[The Record] Russian hackers hijack hotel Wi-Fi networks to spy on travelers, Microsoft says](https://therecord.media/russian-wifi-hackers-hotels) — *2026-08-03*
   > Russian state-sponsored hackers have been compromising hotel Wi-Fi networks around the world to steal travelers' login credentials and infect devices with espionage malware, Microsoft said.
+- **NEW**  [[Cybersecurity Dive] OT security coalition urges Congress, CISA to enact reforms amid water sector hacks](https://www.cybersecuritydive.com/news/ot-security-coalition-congress-cisa-reforms-water/826791/) — *2026-08-03*
+  > Iran-nexus hackers are suspected in a broad campaign targeting drinking and wastewater sites in at least seven U.S. states.
+- **NEW**  [[Cybersecurity Dive] China-based hacker employs DeepSeek in autonomous threat campaign](https://www.cybersecuritydive.com/news/china-based-hacker-deepseek-autonomous/826784/) — *2026-08-03*
+  > Researchers said the hacker also attempted to test Western AI tools, but ultimately was forced to revert to manual operations to succeed.&nbsp;
+- **NEW**  [[Cybersecurity Dive] How volunteer cyber experts are helping protect rural water systems](https://www.cybersecuritydive.com/news/water-cybersecurity-def-con-franklin-outcomes/826517/) — *2026-08-03*
+  > A first-in-the-nation program is seeing promising results as it charts a path for supporting the U.S.&rsquo;s most vulnerable infrastructure.
+- **NEW**  [[Schneier on Security] More on the OpenAI Agent’s Attack on Hugging Face](https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html) — *2026-08-03*
+  > Hugging Face has published a detailed timeline of the attack. From the summary:
+The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on
 - **NEW**  [[Schneier on Security] The OpenAI Hack Shows the Genie Is Out of the Bottle](https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html) — *2026-08-03*
   > This essay originally appeared in Foreign Policy.
 Earlier this month, two of OpenAI&#8217;s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild. OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unrelea
-- **NEW**  [[The Register] The AI bubble is already popping; we just don't know it yet](https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004) — *2026-08-03*
-  > Weird times in earnings-land, and we're talking about it on The Reg's home grown podcast
-- **NEW**  [[The Register] UK government investment arm cops to 40-hour leak of officials' contact details](https://www.theregister.com/security/2026/08/03/uk-government-investment-arm-cops-to-40-hour-leak-of-officials-contact-details/5282213) — *2026-08-03*
-  > Employee failed to follow security policy, leaving internal management file open to the public
-- **NEW**  [[The Register] Sci-fi authors Scalzi and Stross decry AI's dystopian impact on their craft](https://www.theregister.com/ai-and-ml/2026/08/03/sci-fi-authors-scalzi-and-stross-decry-ais-dystopian-impact-on-their-craft/5282176) — *2026-08-03*
-  > LLMs are theft by 'absolute scum' who make life harder for writers by putting them in copyright peril
-- **NEW**  [[The Register] As Larry Ellison bets the farm, Oracle says it loves AI-written code, just not in OpenJDK](https://www.theregister.com/ai-and-ml/2026/08/03/as-larry-ellison-bets-the-farm-oracle-says-it-loves-ai-written-code-just-not-in-openjdk/5281851) — *2026-08-03*
-  > Use it to debug and review, says Big Red, but don't submit its output
-- **NEW**  [[The Register] Claude Code is revolutionizing digital archaeology. Enterprise better dig it](https://www.theregister.com/columnists/2026/08/03/claude-code-is-revolutionizing-digital-archaeology-enterprise-better-dig-it/5281676) — *2026-08-03*
-  > 'As a big AI skeptic, you just blew my mind'
-- **NEW**  [[Computer Weekly] Why valuing neurodivergent workers is a cyber security essential](https://www.computerweekly.com/feature/Why-valuing-neurodivergent-workers-is-a-cyber-security-essential) — *2026-08-03*
-  > &lt;p&gt;For any employee in any sector, there is a strong and acknowledged link between feeling valued and experiencing job satisfaction.&lt;/p&gt; 
-&lt;p&gt;This is because it is a “nervous system issue”, explains &lt;a href="https://www.drtracyking.co.uk/" target="_blank" rel=
-- **NEW**  [[Computer Weekly] Court document in Asato case reveals xAI/Grok sexual prompts](https://www.computerweekly.com/news/366646848/Court-document-in-Asato-case-reveals-xAI-Grok-sexual-prompts) — *2026-08-03*
-  > &lt;p&gt;Court documents in the legal case brought against xAI, the developer of &lt;a href="https://www.computerweekly.com/news/366644374/Labour-MP-Jess-Asato-launches-legal-action-over-Grok-deepfakes"&gt;Grok, by Labour MP Jess Asata&lt;/a&gt; shows that the artificial intellig
-- **NEW**  [[Computer Weekly] MPs demand answers on Fujitsu’s inclusion in lucrative frameworks](https://www.computerweekly.com/news/366646721/MPs-demand-answers-on-Fujitsus-inclusion-in-lucrative-frameworks) — *2026-08-03*
-  > &lt;p&gt;MPs on the Business and Trade Select Committee have written to the secretary of state to demand answers over Fujitsu’s inclusion in frameworks worth more than £50bn in total.&lt;/p&gt; 
-&lt;p&gt;Fujitsu is at the centre of the Post Office scandal, with its software havin
-- **NEW**  [[Computer Weekly] Cyber protection against advances in frontier AI models](https://www.computerweekly.com/feature/Cyber-protection-against-advances-in-frontier-AI-models) — *2026-08-03*
-  > &lt;p&gt;In April, the AI Security Institute (AISI) evaluated &lt;a href="https://www.techtarget.com/searchsecurity/news/366643606/First-month-of-Mythos-Preview-testing-exposes-10K-flaws"&gt;Mythos Preview&lt;/a&gt;,&amp;nbsp;the experimental frontier artificial intelligence (AI)
-- **NEW**  [[Computer Weekly] CW@60: Spending 40 years on things that no longer exist](https://www.computerweekly.com/feature/CW60-Spending-40-years-on-things-that-no-longer-exist) — *2026-08-03*
-  > &lt;div class="imagecaption alignLeft"&gt;
- &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
-&lt;/div&gt; 
-&lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
-- **NEW**  [[MIT Technology Review] Here’s why AI agents lie and cheat to reach their goals](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/) — *2026-08-03*
-  > MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make mone
-- **NEW**  [[TechCrunch] Samsung bans smart TV apps that share users’ internet connections with strangers](https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/) — *2026-08-03*
-  > New security research offers a rare view inside residential proxy networks, which rely on apps that share a person's internet connection with someone else.
-- **NEW**  [[TechCrunch] A Marc Benioff-backed startup thinks AI can solve the AI deployment problem](https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/) — *2026-08-03*
-  > June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.
-- [[BleepingComputer] OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/) — *2026-08-02*
-  > OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]
-- [[BleepingComputer] COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft](https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/) — *2026-08-02*
-  > A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]
-- [[BleepingComputer] Google Chrome may soon block New Tab hijacker extensions by default](https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/) — *2026-08-02*
-  > Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]
-- [[IEEE Spectrum] This Hi-Fi Tape Recorder Changed Radio Forever](https://spectrum.ieee.org/magnetophon-laugh-track) — *2026-08-02*
-  > A German engineer wanted a cheaper cigarette. The popular crooner Bing Crosby wanted a vacation. Satisfying both desires inadvertently led to the invention of the laugh track. Along the way there were Nazis, spoils of war, and more than one accidental encounter. Tying together th
-- [[TechCrunch] The global memory shortage hits the MacBook Air](https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/) — *2026-08-02*
-  > The global memory chip shortage appears to be affecting the availability of Apple’s most popular Mac.
+- **NEW**  [[The Register] Google dev kit spurs first-ever agent-on-agent violence](https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496) — *2026-08-03*
+  > Poisoned pull requests contain prompt injection that allows one to control another
+- **NEW**  [[The Register] AI slop pollutes the CVE pipeline with fake vulns](https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462) — *2026-08-03*
+  > With NIST still buried under its backlog, expect AI-generated bogus reports to continue
+- **NEW**  [[The Register] Russian spies turn public Wi-Fi into malware delivery systems](https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399) — *2026-08-03*
+  > Keyloggers, audio-visual surveillance, and token theft on CaptivePortal's agenda as hospitality sector put on alert
+- **NEW**  [[The Register] MediaTek lines up $5B war chest for AI datacenter push](https://www.theregister.com/ai-and-ml/2026/08/03/mediatek-lines-up-5b-war-chest-for-ai-datacenter-push/5282304) — *2026-08-03*
+  > Taiwanese silicon biz believes it can take up to 20% of $80B market with upcoming ASIC chips, but analysts are sceptical
+- **NEW**  [[The Register] Police National Legal Database confirms data theft after dark web leak](https://www.theregister.com/cyber-crime/2026/08/03/police-national-legal-database-confirms-data-theft-after-dark-web-leak/5282332) — *2026-08-03*
+  > ExfilSquad claims 135,000 contact records weeks after hitting the Department for Education
+- **NEW**  [[Ars Technica] US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own](https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/) — *2026-08-03*
+  > $100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.
 
 _(32 additional items in raw.jsonl)_

@@ -2,15 +2,29 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-03
-record_count: 73
-new_today: 9
+record_count: 108
+new_today: 45
 state: fresh
 ---
 
 ## State Legislative Action
 
-9 new of 73 total items today.
+45 new of 108 total items today.
 
+- **NEW**  [[Alabama SB 159] Taxation; Energy use in commercial greenhouses, pivot irrigation systems, and poultry houses, exempt from utility gross receipts and utility service use tax]() — *2026-08-03*
+  > Taxation & Revenue
+- **NEW**  [[Alabama SB 322] Unauthorized entry of a critical infrastructure facility; reservoirs removed from list of facilities]() — *2026-08-03*
+  > Crimes & Offenses
+- **NEW**  [[Alabama SB 376] Mobile County, City of Semmes annexation]() — *2026-08-03*
+  > Mobile County
+- **NEW**  [[Alabama SB 13] Taxation; Energy use in poultry houses, exempt from utility gross receipts and utility service use tax]() — *2026-08-03*
+  > Taxation & Revenue
+- **NEW**  [[Alabama SB 264] Municipalities; annexation, all municipalities authorized to extend corporate limits by resolution and special election]() — *2026-08-03*
+  > Counties & Municipalities
+- **NEW**  [[Alaska HB 16] An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign contr]() — *2026-08-03*
+  > An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign 
+- **NEW**  [[Alaska HB 28] An Act relating to education; relating to reimbursement of school district energy costs; relating to correspondence study program materials; relating to substitute teaching; relating to the qualifications of school board members; relating to school consolidation; relating to the requi]() — *2026-08-03*
+  > An Act relating to education; relating to reimbursement of school district energy costs; relating to correspondence study program materials; relating to substitute teaching; relating to the qualifications of school board members; relating to school consolidation; relating to the 
 - [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-08-01*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
 - [[Alaska SB 181] An Act relating to disclosure of information obtained by the Department of Labor and Workforce Development to other state agencies.]() — *2026-08-01*
@@ -35,6 +49,8 @@ state: fresh
   > An Act repealing the child care facility revolving loan fund; repealing the child care facility revolving loan fund foreclosure expense account; repealing the child care facility revolving loan fund program; and providing for an effective date.
 - [[Alaska SB 164] An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.]() — *2026-08-01*
   > An Act eliminating deductions for the remittance of the motor fuel tax, tobacco taxes, and tire fees; relating to discounts on cigarette stamps; and providing for an effective date.
+- **NEW**  [[California AB 2679] State highways: public parking: traffic control.]() — *2026-08-03*
+  > Existing law establishes the Department of Transportation and vests the department with full possession and control of all state highways and all property and rights in property acquired for state highway purposes. Existing law establishes the Tahoe Transportation District as a s
 - **NEW**  [[California AB 2461] Oil and gas: bonding requirements.]() — *2026-08-03*
   > Under existing law, the Geologic Energy Management Division in the Department of Conservation regulates the drilling, operation, maintenance, and abandonment of oil and gas wells in the state. The State Oil and Gas Supervisor supervises the drilling, operation, maintenance, and a
 - **NEW**  [[California AB 2050] Common interest developments: reserve accounts.]() — *2026-08-03*
@@ -45,21 +61,5 @@ state: fresh
   > Existing law, the Control, Regulate and Tax Adult Use of Marijuana Act (AUMA) , an initiative measure approved by the voters as Proposition 64 at the November 8, 2016, statewide general election, authorizes a person who obtains a state license under AUMA to engage in commercial a
 - **NEW**  [[California AB 2711] Oil and gas: notice of intention.]() — *2026-08-03*
   > Existing law establishes the Geologic Energy Management Division in the Department of Conservation, under the direction of the State Oil and Gas Supervisor, who is required to supervise the drilling, operation, maintenance, and abandonment of oil and gas wells in the state. Exist
-- **NEW**  [[California AB 2521] California Council on Science and Technology: water availability study: Central Valley.]() — *2026-08-03*
-  > Existing law establishes the Department of Water Resources within the Natural Resources Agency and vests it with various powers and duties related to water. Existing law requires the State Water Resources Control Board to administer a water rights program pursuant to which the bo
-- **NEW**  [[California AB 2146] Supportive housing: prospective tenants: barriers to access.]() — *2026-08-03*
-  > Existing law establishes the Department of Housing and Community Development within the Business, Consumer Services, and Housing Agency and sets forth its powers and duties. Existing law, the Governor's Reorganization Plan No. 1 of 2025 (GRP) , which became effective on July 5, 2
-- [[California AB 2505] Electrical corporations: hydrogen refueling stations.]() — *2026-08-03*
-  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates and charges be just an
-- **NEW**  [[California AB 1594] Surplus nonresidential property: sales by the Department of Transportation: net equity.]() — *2026-08-03*
-  > Existing law establishes priorities and procedures that any state agency disposing of surplus property is required to follow. Existing law sets forth an order of priority for the disposal of surplus nonresidential property. In this regard, existing law requires a tenant in good s
-- **NEW**  [[California AB 2329] Surplus residential property: condition-adjusted fair market value: Cities of Pasadena and South Pasadena.]() — *2026-08-03*
-  > (1) Existing law establishes priorities and procedures that any state agency disposing of surplus property is required to follow. Existing law sets forth an order of priority for the disposal of specified surplus residential property, including that a state agency disposing of si
-- [[California AB 1924] Statewide homelessness prevention strategy.]() — *2026-08-02*
-  > Existing law establishes the California Interagency Council on Homelessness and requires the council to take various actions to prevent and end homelessness in California. Existing law establishes various programs to prevent homelessness or assist persons experiencing homelessnes
-- [[California AB 1826] Cannabis: recall, embargo, and destruction of cannabis and cannabis products.]() — *2026-08-02*
-  > Existing law, the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) , governs the licensure and regulation of commercial cannabis activities. MAUCRSA prohibits engaging in certain commercial activities with cannabis or a cannabis product that is misbranded or a
-- [[California AB 2516] California Grid Manufacturing Initiative.]() — *2026-08-02*
-  > Existing law establishes the Governor's Office of Business and Economic Development (GO-Biz) within the Governor's office and requires GO-Biz to serve the Governor as the lead entity for economic strategy and the marketing of California on issues relating to business development,
 
-_(48 additional items in raw.jsonl)_
+_(83 additional items in raw.jsonl)_

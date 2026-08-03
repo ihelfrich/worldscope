@@ -2,17 +2,31 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-03
-record_count: 87
-new_today: 0
+record_count: 104
+new_today: 3
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-0 new of 87 total items today.
+3 new of 104 total items today.
 
+- **NEW**  [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IWGx5VlA1dHJkNG1qMUpGOWtqUGcwekdHU0haaEVSN2lJVlBVZ3laeHp4RFpuOXJZNW9nS1Zxa1pPLUZPMWpUZEpHd0xpcHpXdE0zOUstSzNJNjBDZFE?oc=5" target="_blank">Issuance of Amended Venezuela-related General License and Frequently Asked Quest
+- [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
+- [[OFAC] Iran-related Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-29*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VcWJIcEJpT1ZIcFROQm9XVHczcEtUanZtTm9RNVJBRE9HT0pFbEZfbnN6bEhuUFNMMEZlQ1VJSFlCX2NOT0hEaGhPVVg2SjJIQ0lzeHRBS2Jab1NxRUE?oc=5" target="_blank">Iran-related Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfME94Qk5mb081SG5yN1F0Z2M2WEdEWXl3cHpzckxmV0p5blZha21Xd1VQSlhRTFdETGRteW9LSHRRT2NtT2s5X0dIVFd3VU4tcklFVUtTaFd6aUhUY0FJR2FrTXE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
+- [[OFAC] Sanctions List Removals; Sanctions List Updates - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-27*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUDI5azV3dms4Q3RZeFktVFR2TUtsN1FZbWN4dlJRaXRvQlh6ZU0yMVFHQTNDZ0JHa0FrUjRjdHhPd0c4WXFIcWN2MmZTNnAtSzlWQ2xGbjhmWEdPNlE?oc=5" target="_blank">Sanctions List Removals; Sanctions List Updates</a>&nbsp;&nbsp;<font color="#6f6
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-03*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
+- [[FARA] Criminal Division | Whistleblower Awards Pilot Program - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-31*
+  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWI2RUU1bUxsNUVfVzY1Szk1UGZ4NklKN3d6ajN3UUVrRXh6TEdfdnpoeGo5SzZhTnoyMFpUdDVaTm1BeWVUeEwzaEpjc1RjYkJmRjRiTldOOEYxTGphNGRHYk9ESHRGa05CWGFsTzFfMTczVFlobEJOVm1DeUpNTU5CTzROVGtIaXZOUVl2eDExZHRwaGdTcWtmQQ?oc=5" target="_blan
+- [[FARA] Office of Information Policy | FOIA Library - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-28*
+  > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1USXZ3OFQzbG1IRU41dkYzeUwydUdEMUxlR191b01MbzEzbjVjQjZTT0tNRlFNMTZpNVF0aDBnX2NnUVBDMW1HeWJ3YWM2bDAyU0ZzYkhNQnVURUttckh3cA?oc=5" target="_blank">Office of Information Policy | FOIA Library</a>&nbsp;&nbsp;<font color="#6f6f
 - [[USASpending] $42,774,168,231 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-08-03*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL
 - [[USASpending] $42,257,183,759 → UT-BATTELLE LLC: MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATOR](https://www.usaspending.gov/award/DEAC0500OR22725) — *2026-08-03*
@@ -47,19 +61,5 @@ state: fresh
   > Agency: Department of Energy.  Description: IGF::OT::IGF TAS::89 0222::TAS M&O CONTRACT FOR BNL
 - [[USASpending] $7,660,799,537 → MISSION SUPPORT & TEST SERVICES LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION S](https://www.usaspending.gov/award/DENA0003624) — *2026-08-03*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERVICES LLC (MSTS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NEVADA NATIONAL SECURITY SITE.
-- [[USASpending] $3,544,434,459 → PANTEXAS DETERRENCE, LLC: CONTRACT 89233224CNA000004 FOR THE MANAGEMENT AND OPERATION ](https://www.usaspending.gov/award/89233224CNA000004) — *2026-08-03*
-  > Agency: Department of Energy.  Description: CONTRACT 89233224CNA000004 FOR THE MANAGEMENT AND OPERATION OF THE PANTEX PLANT
-- [[USASpending] $3,500,000,000 → DAVIE DEFENSE INC.: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF F](https://www.usaspending.gov/award/70Z02326C93210003) — *2026-08-03*
-  > Agency: Department of Homeland Security.  Description: THE PURPOSE OF THIS LETTER CONTRACT IS FOR THE DELIVERY OF FIVE (5) EACH MULTI-PURPOSE POLAR SHIP (MPPS-100) VESSELS HEREAFTER REFERRED TO AS ARCTIC SECURITY CUTTERS (ASCS).
-- [[USASpending] $3,373,486,394 → AEROJET ROCKETDYNE OF DE, INC: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY T](https://www.usaspending.gov/award/NNM16AA02C) — *2026-08-03*
-  > Agency: National Aeronautics and Space Administration.  Description: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY THE CONTRACTOR IN SUPPORT OF PROVIDING SIX RS-25 ENGINES MODIFIED AS NECESSARY FOR THE TECHNICAL REQUIREMENTS UNDER THE SPACE LAUNCH SYSTEM, RECERTIFICA
-- [[USASpending] $3,102,091,409 → OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED: IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIEN](https://www.usaspending.gov/award/DESC0014664) — *2026-08-03*
-  > Agency: Department of Energy.  Description: IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION
-- [[USASpending] $2,833,494,612 → FISHER SAND & GRAVEL CO: CONSTRUCT VERTICAL BORDER BARRIER](https://www.usaspending.gov/award/70B01C26F00000017) — *2026-08-03*
-  > Agency: Department of Homeland Security.  Description: CONSTRUCT VERTICAL BORDER BARRIER
-- [[USASpending] $2,744,085,731 → THE BOEING COMPANY: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CO](https://www.usaspending.gov/award/80MSFC20C0052) — *2026-08-03*
-  > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
-- [[USASpending] $2,533,722,927 → UNITED CLEANUP OAK RIDGE LLC: OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS](https://www.usaspending.gov/award/89303523FEM400032) — *2026-08-03*
-  > Agency: Department of Energy.  Description: OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS
 
-_(62 additional items in raw.jsonl)_
+_(79 additional items in raw.jsonl)_

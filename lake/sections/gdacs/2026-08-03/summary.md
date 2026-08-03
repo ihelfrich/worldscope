@@ -2,14 +2,14 @@
 section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-08-03
-record_count: 234
+record_count: 236
 new_today: 3
 state: fresh
 ---
 
 ## GDACS — global disaster alerts
 
-3 new of 234 total items today.
+3 new of 236 total items today.
 
 - [[Red] Flood in China](https://www.gdacs.org/report.aspx?eventid=1104051&episodeid=5&eventtype=FL) — *2026-07-25*
   > Flood · Red alert · China · Magnitude 0
@@ -21,6 +21,10 @@ state: fresh
   > Wildfire · Red alert · France · Red impact for forestfire in 47910 ha
 - [[Red] Forest fires in France](https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=32&eventtype=WF) — *2026-07-22*
   > Wildfire · Red alert · France · Red impact for forestfire in 47910 ha
+- [[Orange] Forest fires in Greece](https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF) — *2026-07-30*
+  > Wildfire · Orange alert · Greece · Orange impact for forestfire in 1568 ha
+- [[Orange] Forest fires in Greece](https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF) — *2026-07-30*
+  > Wildfire · Orange alert · Greece · Orange impact for forestfire in 1568 ha
 - [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=10&eventtype=DR) — *2025-11-21*
   > Drought · Orange alert · Madagascar · Medium impact for agricultural drought in 283053 km2
 - [[Orange] Drought in Madagascar](https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=10&eventtype=DR) — *2025-11-21*
@@ -57,9 +61,5 @@ state: fresh
   > Earthquake · Green alert · Japan · Magnitude 5.5M, Depth:82.29km
 - [[Green] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1555237&episodeid=1721998&eventtype=EQ) — *2026-07-31*
   > Earthquake · Green alert · Peru · Magnitude 5.6M, Depth:154.355km
-- [[Green] Earthquake in Peru](https://www.gdacs.org/report.aspx?eventid=1555237&episodeid=1721998&eventtype=EQ) — *2026-07-31*
-  > Earthquake · Green alert · Peru · Magnitude 5.6M, Depth:154.355km
-- [[Green] Earthquake in Canada](https://www.gdacs.org/report.aspx?eventid=1555461&episodeid=1722251&eventtype=EQ) — *2026-08-01*
-  > Earthquake · Green alert · Canada · Magnitude 5.6M, Depth:10km
 
-_(209 additional items in raw.jsonl)_
+_(211 additional items in raw.jsonl)_

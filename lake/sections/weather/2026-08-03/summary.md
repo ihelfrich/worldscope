@@ -2,233 +2,253 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-03
-record_count: 145
-new_today: 133
+record_count: 177
+new_today: 175
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-133 new of 145 total items today.
+175 new of 177 total items today.
 
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 3 at 8:21AM EDT until August 3 at 9:45AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a58a661cfc313bdd8332108ea2e47f6613bf9bf.001.1) — *2026-08-03*
-  > SMWPHI
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 3 at 7:32PM EDT until August 3 at 8:30PM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a081c38f6b5542e1ec19be08ba99b827d7ec1c5.001.1) — *2026-08-03*
+  > SMWKEY
 
-The National Weather Service in Mount Holly NJ has issued a
+The National Weather Service in Key West has issued a
 
 * Special Marine Warning for...
-Delaware Bay...
-Coastal waters from Cape May NJ to Cape Henlopen DE out 20 nm...
+Hawk Channel and Straits of Florida from west end of Seven Mile
+Bridge to Halfmoon Shoal out 20 nm...
 
-* Until 945 AM EDT.
+* Until 830 PM EDT.
 
-* At 820 AM EDT, a strong thunderstorm was located over Slaughter
-Beach, mov
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-37802) — *2026-08-03*
+* At 730 PM EDT, a waterspout was located over Joe's Tug. The
+- **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued August 3 at 4:28PM MST until August 3 at 6:30PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d8ed9a4af8d4490a3e563b95519dc13f15e939f.001.1) — *2026-08-03*
+  > The National Weather Service in Tucson has issued a
+
+* Dust Storm Warning for...
+Northeastern Cochise County in southeastern Arizona...
+
+* Until 630 PM MST.
+
+* At 428 PM MST, an area of blowing dust was located near San Simon,
+moving west southwest 10 to 15 mph.
+
+HAZARD...Less th
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 3 at 4:28PM MST until August 3 at 5:30PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dcce2c336fb7e9c218aeaa6d3916d80c692819c8.001.1) — *2026-08-03*
+  > SVRTWC
+
+The National Weather Service in Tucson has issued a
+
+* Severe Thunderstorm Warning for...
+North Central Cochise County in southeastern Arizona...
+
+* Until 530 PM MST.
+
+* At 428 PM MST, a severe thunderstorm was located 10 miles west of
+Bowie, moving south at 10 mph. Addit
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-34446) — *2026-08-03*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 4:16AM AKDT until August 3 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3c15f99617dfd7c05d16f7b15f2808afccc6f29.036.1) — *2026-08-03*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 3 at 4:22PM MST until August 3 at 5:15PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ebd136a1504d6cea9bff5960596eb7c3aed202a.001.1) — *2026-08-03*
+  > SVRTWC
 
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 4:16AM AKDT until August 3 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3c15f99617dfd7c05d16f7b15f2808afccc6f29.037.1) — *2026-08-03*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
+The National Weather Service in Tucson has issued a
 
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 8:15AM EDT until August 3 at 11:45AM EDT by NWS Boston/Norton MA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.17baa4881f2daf75312f8650878f3ede70668691.001.1) — *2026-08-03*
-  > FFWBOX
+* Severe Thunderstorm Warning for...
+Northeastern Cochise County in southeastern Arizona...
 
-The National Weather Service in Norton has issued a
+* Until 515 PM MST.
 
-* Flash Flood Warning for...
-West Central Bristol County in southeastern Massachusetts...
-Northwestern Bristol County in Rhode Island...
-Kent County in Rhode Island...
-Providence County in Rhode Island...
-Northeastern W
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 7:11AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11836cef969f3a7ef90af406db2127fbed45e2fb.001.1) — *2026-08-03*
-  > At 710 AM CDT, strong thunderstorms were located along a line
-extending from Bismarck to near St. Anthony. Movement was northeast
-at 50 mph.
+* At 422 PM MST, severe thunderstorms were located along a line from
+20 miles northeast of Portal to 14 m
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 6:19PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.349fe43680179334924039f8e80814c7f10fa2f6.001.1) — *2026-08-03*
+  > A cold frontal passages has brought winds up to 55 mph observed
+across a few sites in south central North Dakota. This cold front
+will continue to impact parts of south central North Dakota the
+next few hours bringing a brief period of windy conditions as it
+passes. Winds will di
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 3 at 7:17PM EDT until August 3 at 8:00PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62bf84a0ea401ba74e2d891f6adff51d8d77f62e.001.1) — *2026-08-03*
+  > SVRRAH
 
-HAZARD...Wind gusts up to 55 mph.
+The National Weather Service in Raleigh has issued a
 
-SOURCE...Surface observations.
+* Severe Thunderstorm Warning for...
+Northeastern Wayne County in central North Carolina...
+Southern Wilson County in central North Carolina...
+East central Johnston County in central North Carolina...
+
+* Until 800 PM 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 5:13PM MDT by NWS Goodland KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a6982c84b346a4ec0985e0e43009ae3512d54d2.001.1) — *2026-08-03*
+  > At 512 PM MDT, Doppler radar was tracking a strong thunderstorm 12
+miles northeast of Yuma, moving east at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecu
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 7:05AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79b3bb3de1827929a76330b953d715e09307821b.001.1) — *2026-08-03*
-  > At 704 AM CDT, Doppler radar was tracking strong thunderstorms over
-mainly rural areas of central Grand Forks County. Movement was east
-at 45 mph.
+unsecured objects. 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 7:10PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40635ab0a41ad628831595790b9348f2a12bcc2c.001.1) — *2026-08-03*
+  > At 709 PM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms along a line extending from 7 miles northwest of
+Fremont to 7 miles east of Pope AAF. These storms were nearly
+stationary.
 
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 5:04AM PDT until August 4 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d3d58513559ee23279de15c3c7802a4e3c55106.001.1) — *2026-08-03*
+IMPACT...Gusty win
+- **NEW**  [[Severe] Dust Storm Warning: Dust Storm Warning issued August 3 at 5:10PM MDT until August 3 at 6:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.633fbcc1db93e5efe19e2db10dc54e270eb47bf4.001.1) — *2026-08-03*
+  > The National Weather Service in El Paso has issued a
+
+* Dust Storm Warning for...
+West central Hidalgo County in southwestern New Mexico...
+
+* Until 600 PM MDT.
+
+* At 510 PM MDT, a dust channel was near Lordsburg, moving south at
+10 mph.
+
+HAZARD...Less than a quarter mile visibil
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 4:10PM MST until August 3 at 6:30PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76e665936315f3ddb6619dd32f7c682743a35189.001.1) — *2026-08-03*
+  > At 410 PM MST, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area have now diminished. Between 1 and 2
+inches of rain have fallen. Flooding impacts will continue, but no
+additional rainfall is expected. Flash flooding is ongoing or
+expected to begin
+- **NEW**  [[Moderate] Dust Advisory: Dust Advisory issued August 3 at 5:00PM MDT until August 3 at 6:00PM MDT by NWS El Paso Tx/Santa Teresa NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3d5883f6d99974fad9cbe5080a6b8f9d05ef9ff.001.1) — *2026-08-03*
+  > The National Weather Service in El Paso has issued a
+
+* Dust Advisory for...
+South central Grant County in southwestern New Mexico...
+West central Hidalgo County in southwestern New Mexico...
+
+* Until 600 PM MDT.
+
+* At 500 PM MDT, a dust channel was 9 miles west of Lordsburg, mov
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 3 at 5:56PM CDT until August 4 at 1:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.416d68c577a6347b6b1b8d6a633b12da891f8cbb.001.1) — *2026-08-03*
+  > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
+537 IN EFFECT UNTIL 1 AM CDT TUESDAY FOR THE FOLLOWING AREAS
+
+IN MINNESOTA THIS WATCH INCLUDES 3 COUNTIES
+
+IN NORTH CENTRAL MINNESOTA
+
+CASS                  ITASCA                KOOCHICHING
+
+THIS INCLUDES THE CITI
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 3 at 5:54PM CDT until August 4 at 1:00AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7cc0ec692ad030cd8accc9a07dde950123de876d.001.1) — *2026-08-03*
+  > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
+537 IN EFFECT UNTIL 1 AM CDT TUESDAY FOR THE FOLLOWING AREAS
+
+IN MINNESOTA THIS WATCH INCLUDES 17 COUNTIES
+
+IN CENTRAL MINNESOTA
+
+WADENA
+
+IN NORTH CENTRAL MINNESOTA
+
+BELTRAMI              HUBBARD               LAKE
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 3:54PM PDT until August 5 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b4861e8dc4c8e7ddb7313410d6a7949015d9c36.002.2) — *2026-08-03*
+  > ...RED FLAG WARNING IN EFFECT FROM 2 PM TO 9 PM PDT WEDNESDAY FOR
+STRONG GUSTY WIND AND LOW RH AND UNSTABLE CONDITIONS FOR FIRE
+WEATHER ZONES 620, 621, 622, AND 623...
+
+* IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...In Oregon, Fire Weather zones
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 3:54PM PDT until August 5 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b4861e8dc4c8e7ddb7313410d6a7949015d9c36.001.1) — *2026-08-03*
+  > The National Weather Service in Medford has issued a Red Flag
+Warning, which is in effect from 2 PM to 9 PM PDT Wednesday.
+
+* IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...In California, Fire Weather zones 282,
+including Mt Shasta City, Dunsmuir 
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 3:54PM PDT until August 4 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b4861e8dc4c8e7ddb7313410d6a7949015d9c36.002.1) — *2026-08-03*
+  > ...RED FLAG WARNING IN EFFECT FROM 2 PM TO 9 PM PDT WEDNESDAY FOR
+STRONG GUSTY WIND AND LOW RH AND UNSTABLE CONDITIONS FOR FIRE
+WEATHER ZONES 620, 621, 622, AND 623...
+
+* IMPACTS...Any fires that develop will likely spread rapidly.
+
+* AFFECTED AREA...In Oregon, Fire Weather zones
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 3:54PM PDT until August 5 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b4861e8dc4c8e7ddb7313410d6a7949015d9c36.003.1) — *2026-08-03*
   > * IMPACTS...Any fires that develop will likely spread rapidly.
 
-* AFFECTED AREA...In Oregon, Fire Weather zones 620, 621, 622,
-and 623, including Medford, Grants Pass, Ashland, Cave
-Junction, Eagle Point, Shady Cove, and the Siskiyous and
-southern Oregon Cascades.
+* AFFECTED AREA...In California...Fire weather zone 280, and in
+Oregon, Fire weather zones 616 and 617. This includes the East
+Evans Creek and Castle fires as well as Roseburg, Toketee
+Falls, Elkton, Tiller, Happy Ca
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 3 at 3:41PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5757fa6580105d9dcca0e1e333c1aab72ff4bd3e.002.1) — *2026-08-03*
+  > The Southwest Clean Air Agency has issued an Air Quality Advisory for
+Clark County.
 
-* WIND...North
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 5:02AM PDT until August 4 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dae38141e461ddb404699a7cf17ddb97a78cf729.002.1) — *2026-08-03*
-  > * WHAT...Temperatures up to 105 will produce moderate to major heat
-risk.
+An Air Quality Advisory for smoke and ozone has been issued.
+Wildfires burning in the region combined with forecasted conditions
+will cause air quality to reach unhealthy levels at times. The Air
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 3 at 3:41PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5757fa6580105d9dcca0e1e333c1aab72ff4bd3e.001.1) — *2026-08-03*
+  > The Southwest Clean Air Agency and the Oregon Department of
+Environmental Quality have issued an Air Quality Advisory, which
+is IN EFFECT UNTIL NOON PDT WEDNESDAY.
 
-* WHERE...Interior Del Norte.
+An Air Quality Advisory for Smoke has been issued. Wildfires burning in the region
+combined with forecasted conditi
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 6:44PM EDT until August 3 at 9:45PM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7313e24132f85cd11591c417e3c4406c9f2c6256.001.1) — *2026-08-03*
+  > FFWILM
 
-* WHEN...From 11 AM to 11 PM PDT Tuesday.
+The National Weather Service in Wilmington has issued a
 
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 5:02AM PDT until August 6 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dae38141e461ddb404699a7cf17ddb97a78cf729.004.1) — *2026-08-03*
-  > * WHAT...Temperatures of 105 to 110 will produce moderate to major
-heat risk.
+* Flash Flood Warning for...
+Northwestern Darlington County in northeastern South Carolina...
 
-* WHERE...Trinity County.
+* Until 945 PM EDT.
 
-* WHEN...From 11 AM Tuesday to 11 PM PDT Thursday.
+* At 644 PM EDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 6:44PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62e130daf31d973649796fc8459a38ac0fb90301.001.1) — *2026-08-03*
+  > At 644 PM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms along a line extending from near Raeford to near
+Mccoll. Movement was east at 15 mph.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 5:02AM PDT until August 4 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dae38141e461ddb404699a7cf17ddb97a78cf729.001.1) — *2026-08-03*
-  > * WHAT...Temperatures up to 105 will produce moderate to major heat
-risk.
-
-* WHERE...Northern Mendocino Interior, Lake County, and Southeastern
-Interior Mendocino.
-
-* WHEN...From 11 AM this morning to 11 PM PDT Tuesday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 5:02AM PDT until August 5 at 9:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dae38141e461ddb404699a7cf17ddb97a78cf729.003.1) — *2026-08-03*
-  > * WHAT...Temperatures to 105 to 110 will produce moderate to major
-heat risk.
-
-* WHERE...Humboldt Interior.
-
-* WHEN...From 11 AM Tuesday to 9 PM PDT Wednesday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 8:01AM EDT until August 3 at 10:00AM EDT by NWS Boston/Norton MA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.323830892e5b5f8d9e395ed4e23f3f9ad78dc439.001.1) — *2026-08-03*
-  > At 801 AM EDT, Doppler radar indicated thunderstorms producing heavy
-rain across the warned area. Between 1 and 2 inches of rain have
-fallen. The expected rainfall rate is 1 to 2 inches in 1 hour.
-Additional rainfall amounts of 1 to 2 inches are possible in the
-warned area. Flash
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 7:00AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7befa84ed96d7692898dec3fb283de3893e5b082.001.1) — *2026-08-03*
-  > At 700 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Malung to 6 miles southwest of Norris
-Camp. Movement was northeast at 25 mph.
-
-HAZARD...Nickel size hail.
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Minor hail damage to vegetation is possib
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 3 at 7:59AM EDT until August 3 at 9:00AM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.771a8f9a6b0f7f016343a5b0ac8c265cd6f47f72.001.1) — *2026-08-03*
-  > SMWTBW
+IMPACT...Gusty winds could knock down tree limbs and bl
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 6:40PM EDT until August 4 at 12:45AM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9182e9e1ceb342a34c1eda28ec43b9a69109d87f.001.1) — *2026-08-03*
+  > FFWRNK
 
-The National Weather Service in Ruskin has issued a
+The National Weather Service in Blacksburg has issued a
 
-* Special Marine Warning for...
-Coastal waters from Englewood to Tarpon Springs FL out 20 NM...
-Tampa Bay waters...
-Waters from Englewood to Tarpon Springs FL out 20 to 60 NM...
+* Flash Flood Warning for...
+Southwestern Amherst County in central Virginia...
+Central Bedford County in south central Virginia...
+East Central Botetourt County in west central Virginia...
+South Central Rockbridge 
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 3:27PM PDT until August 3 at 9:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d229b31c1aa72f9bafe18cd91a86b3acff1a7c.002.1) — *2026-08-03*
+  > * WHAT...North winds 20 to 30 kt with localized gusts to 35 kt
+and seas 9 to 12 feet.
 
-* Until 900 AM EDT.
+* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
+60 nm.
 
-* At 758 AM EDT, st
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 3 at 7:55AM EDT until August 3 at 11:15AM EDT by NWS Gray ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.303764933f6801ce5d5e8caba7e8f17a36ff0760.001.1) — *2026-08-03*
-  > At 755 AM EDT, Doppler radar indicated thunderstorms producing heavy
-rain across the warned area. Between 1 and 2.5 inches of rain have
-fallen. The expected rainfall rate is 1 to 3 inches in 1 hour. Flash
-flooding is ongoing or expected to begin shortly.
+* WHEN...Until 9 PM PDT this evening.
 
-HAZARD...Life threatenin
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 3 at 6:50AM CDT until August 3 at 8:00PM CDT by NWS Lubbock TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9480a07892b6b50b60d09dd060c15a151f05648a.001.1) — *2026-08-03*
-  > * WHAT...Temperatures up to 106.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage v
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 3 at 3:27PM PDT until August 4 at 3:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82d229b31c1aa72f9bafe18cd91a86b3acff1a7c.001.1) — *2026-08-03*
+  > * WHAT...North winds 25 to 35 kt with localized gusts to 45 kt
+and seas 11 to 14 feet.
 
-* WHERE...Childress, Cottle, Motley, Briscoe, and Hall Counties.
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
 
-* WHEN...From 1 PM to 8 PM CDT Monday.
+* WHEN...Until 3 AM PDT Tuesday.
 
-* IMPACTS...Hot temperatures can cause heat illnesses.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 3 at 6:45AM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6018427628a2244fff6980f1071384b78e53dff.001.1) — *2026-08-03*
-  > Patchy dense fog will continue across central Illinois until around
-830 AM. Visibility may fall below one-quarter mile at times, leading
-to potentially hazardous travel conditions.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage 
 
-Expect rapid changes in visibility over short distances, with visibility
-possibly even near zero a
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 3 at 7:35AM EDT until August 3 at 10:00AM EDT by NWS Northern Indiana](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a6588f76dfe4622e57541a693e340f5b8aa0097d.002.1) — *2026-08-03*
-  > * WHAT...Dangerous swimming conditions expected this morning.
-early this morning. Rip currents and longshore currents expected
-due to 2 to 4 foot waves.
-
-* WHERE...In Indiana, Northern La Porte county. In Michigan,
-Southern Berrien county.
-
-* WHEN...Until 10 AM EDT /9 AM CDT/ thi
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 3 at 7:30AM EDT until August 3 at 8:00PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cce2550ffcf99047761bac1d7e1811f7a0e6234.002.1) — *2026-08-03*
-  > * WHAT...Flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...Portions of Big Bend and Panhandle Florida, including the
-following areas, in Big Bend Florida, Coastal Dixie, Coastal
-Franklin, Coastal Jefferson, Coastal Taylor, Coastal Wakulla,
-Inland Dixie, I
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 3 at 5:10AM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b8d8c2811bef13a8e020acf26808bf977e6fb4.001.1) — *2026-08-03*
-  > The Colorado Department of Public Health and Environment has
-issued the following...
-
-WHAT...Air Quality Health Advisory for Wildfire Smoke.
-
-WHERE...Moffat, Rio Blanco, Routt, Jackson, Grand, Larimer and
-Boulder Counties. Locations include, but are not limited to Craig,
-Meeker, 
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 3 at 5:10AM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5905c9bf2e0a7a1260df33e0adf7d869bde7251.001.1) — *2026-08-03*
-  > The Colorado Department of Public Health and Environment has
-issued the following...
-
-WHAT...Air Quality Health Advisory for Wildfire Smoke.
-
-WHERE...Moffat, Rio Blanco, Routt, Jackson, Grand, Larimer and
-Boulder Counties. Locations include, but are not limited to Craig,
-Meeker, 
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 3 at 7:02AM EDT until August 3 at 10:00AM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b44b9fb43bc912f417725e1267d9fb8f6fc39097.001.1) — *2026-08-03*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...Portions of New Jersey, including the following counties,
-Burlington, Camden, Gloucester, Mercer, Middlesex and Somerset and
-southeast Pennsylvania, including the following counties, Bucks,
-Delaware, Montgomer
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 3 at 6:31AM EDT until August 3 at 10:00AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f065f720915b5df2b9179410b32b0440f5dee817.001.1) — *2026-08-03*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Portions of northeast Georgia and Upstate South Carolina.
-
-* WHEN...Until 10 AM EDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 3 at 4:23AM MDT until August 4 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5cbb3c7f11e606e1249c0da0251473d5d02c3dd8.003.1) — *2026-08-03*
-  > * AFFECTED AREA...Fire Weather Zone 489 San Rafael Swell.
-
-* WINDS...Northwest 10 to 20 mph with gusts up to 30 mph.
-
-* RELATIVE HUMIDITY...5 to 10 percent. Little to no overnight
-recovery will occur.
-
-* IMPACTS...Critical fire weather conditions are expected. Any
-new fire starts
-
-_(120 additional items in raw.jsonl)_
+_(152 additional items in raw.jsonl)_

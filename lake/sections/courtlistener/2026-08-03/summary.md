@@ -3,38 +3,38 @@ section: courtlistener
 title: Court opinions of consequence (federal & state)
 date: 2026-08-03
 record_count: 60
-new_today: 5
+new_today: 26
 state: fresh
 ---
 
 ## Court opinions of consequence (federal & state)
 
-5 new of 60 total items today.
+26 new of 60 total items today.
 
 - **NEW**  [Connecticut Supreme Court: Ashworth v. Branford](https://www.courtlistener.com/opinion/10938434/ashworth-v-branford/) — *2026-08-04*
 - **NEW**  [Connecticut Supreme Court: TOV Realty, LLC v. Suarez](https://www.courtlistener.com/opinion/10938433/tov-realty-llc-v-suarez/) — *2026-08-04*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: City of Brunswick v. Honeywell International, Inc.](https://www.courtlistener.com/opinion/10938729/city-of-brunswick-v-honeywell-international-inc/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: United States v. Alonso Pineda-Torres](https://www.courtlistener.com/opinion/10938702/united-states-v-alonso-pineda-torres/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: United States v. Joshua Starling](https://www.courtlistener.com/opinion/10938725/united-states-v-joshua-starling/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Yarlen Henry v. City of Detroit, Mich.](https://www.courtlistener.com/opinion/10938724/yarlen-henry-v-city-of-detroit-mich/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, Federal Cir.: Hepler v. Collins](https://www.courtlistener.com/opinion/10938477/hepler-v-collins/) — *2026-08-03*
+- **NEW**  [Supreme Court of California: Gilead Tenofovir Cases](https://www.courtlistener.com/opinion/10938615/gilead-tenofovir-cases/) — *2026-08-03*
+- **NEW**  [Supreme Court of California: L.A. County Employees Retirement Association v. County of L.A.](https://www.courtlistener.com/opinion/10938614/la-county-employees-retirement-association-v-county-of-la/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Doe](https://www.courtlistener.com/opinion/10938701/united-states-v-doe/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Salgueido](https://www.courtlistener.com/opinion/10938605/united-states-v-salgueido/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: GreenLatinos v. Suncor Energy (U.S.A.)](https://www.courtlistener.com/opinion/10938541/greenlatinos-v-suncor-energy-usa/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Beard](https://www.courtlistener.com/opinion/10938540/united-states-v-beard/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: Dan Pennington v. BHP Billiton Petrol (Fayetteville)](https://www.courtlistener.com/opinion/10938529/dan-pennington-v-bhp-billiton-petrol-fayetteville/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: Lawrence Hamby v. State of Iowa](https://www.courtlistener.com/opinion/10938528/lawrence-hamby-v-state-of-iowa/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: Northland Management & Construction, LLC v. City of Parkville](https://www.courtlistener.com/opinion/10938527/northland-management-construction-llc-v-city-of-parkville/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: Przybocki v. United States Department of Agriculture](https://www.courtlistener.com/opinion/10938532/przybocki-v-united-states-department-of-agriculture/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: Shenzhen Zehuijin Investment Center v. Yingkui](https://www.courtlistener.com/opinion/10938531/shenzhen-zehuijin-investment-center-v-yingkui/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Ridley-Thomas](https://www.courtlistener.com/opinion/10938530/united-states-v-ridley-thomas/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Michelle Cortez Gomez v. Kohl's Corporation](https://www.courtlistener.com/opinion/10938791/michelle-cortez-gomez-v-kohls-corporation/) — *2026-08-03*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: United States v. Elizabeth Hernandez](https://www.courtlistener.com/opinion/10938703/united-states-v-elizabeth-hernandez/) — *2026-07-31*
+- [U.S. Court of Appeals, 6th Cir.: Texas Ass'n of Bus. v. FCC](https://www.courtlistener.com/opinion/10937853/texas-assn-of-bus-v-fcc/) — *2026-07-31*
 - **NEW**  [Alaska Supreme Court: In Re Meeker Revocable Trust U/A/D July 15, 2014](https://www.courtlistener.com/opinion/10938166/in-re-meeker-revocable-trust-uad-july-15-2014/) — *2026-07-31*
-- [U.S. Court of Appeals, 11th Cir.: United States v. Elizabeth Hernandez](https://www.courtlistener.com/opinion/10937893/united-states-v-elizabeth-hernandez/) — *2026-07-31*
-- [U.S. Court of Appeals, 4th Cir.: Colby Crosby v. Colleton County Sheriff's Office](https://www.courtlistener.com/opinion/10938012/colby-crosby-v-colleton-county-sheriffs-office/) — *2026-07-31*
-- [U.S. Court of Appeals, 4th Cir.: Curtis Whateley v. Gerald Lackey](https://www.courtlistener.com/opinion/10938011/curtis-whateley-v-gerald-lackey/) — *2026-07-31*
 - [U.S. Court of Appeals, 3rd Cir.: Gregory Hartmann v. Brian Chudzik](https://www.courtlistener.com/opinion/10937799/gregory-hartmann-v-brian-chudzik/) — *2026-07-31*
 - [U.S. Court of Appeals, 3rd Cir.: Pennsylvania Game Commission v. Thomas E Proctor Heirs Trust](https://www.courtlistener.com/opinion/10937798/pennsylvania-game-commission-v-thomas-e-proctor-heirs-trust/) — *2026-07-31*
-- [U.S. Court of Appeals, 3rd Cir.: United States v. Gregory Turbe](https://www.courtlistener.com/opinion/10937797/united-states-v-gregory-turbe/) — *2026-07-31*
-- [U.S. Court of Appeals, 7th Cir.: Jimia Stokes v. Illinois Department of Corrections](https://www.courtlistener.com/opinion/10937892/jimia-stokes-v-illinois-department-of-corrections/) — *2026-07-31*
-- [U.S. Court of Appeals, 7th Cir.: Maureen Fox v. DuPage Township](https://www.courtlistener.com/opinion/10937891/maureen-fox-v-dupage-township/) — *2026-07-31*
-- [U.S. Court of Appeals, 7th Cir.: Thomas H. Hooper v. Jill R. Crawford](https://www.courtlistener.com/opinion/10937890/thomas-h-hooper-v-jill-r-crawford/) — *2026-07-31*
-- [U.S. Court of Appeals, 7th Cir.: United States v. Mona Ghosh](https://www.courtlistener.com/opinion/10937889/united-states-v-mona-ghosh/) — *2026-07-31*
-- [U.S. Court of Appeals, 7th Cir.: United States v. John Tyler Jones](https://www.courtlistener.com/opinion/10937800/united-states-v-john-tyler-jones/) — *2026-07-31*
-- [U.S. Court of Appeals, 6th Cir.: Texas Ass'n of Bus. v. FCC](https://www.courtlistener.com/opinion/10937853/texas-assn-of-bus-v-fcc/) — *2026-07-31*
-- [Delaware Supreme Court: Delaware Claims Processing Facility, LLC v. DBMP, LLC](https://www.courtlistener.com/opinion/10937663/delaware-claims-processing-facility-llc-v-dbmp-llc/) — *2026-07-31*
-- [U.S. Court of Appeals, 5th Cir.: Bay Area Unitarian v. Ogg](https://www.courtlistener.com/opinion/10937946/bay-area-unitarian-v-ogg/) — *2026-07-31*
-- [U.S. Court of Appeals, 5th Cir.: Fields v. CIR](https://www.courtlistener.com/opinion/10937945/fields-v-cir/) — *2026-07-31*
-- [U.S. Court of Appeals, 5th Cir.: MIECO v. Targa Gas Marketing](https://www.courtlistener.com/opinion/10937944/mieco-v-targa-gas-marketing/) — *2026-07-31*
-- [U.S. Court of Appeals, 9th Cir.: Paxson v. Live Nation Entertainment, Inc.](https://www.courtlistener.com/opinion/10937710/paxson-v-live-nation-entertainment-inc/) — *2026-07-31*
-- [U.S. Court of Appeals, 10th Cir.: Scottsdale Capital Advisors v. USSEC](https://www.courtlistener.com/opinion/10937717/scottsdale-capital-advisors-v-ussec/) — *2026-07-31*
-- [U.S. Court of Appeals, 8th Cir.: United HealthCare Services, Inc. v. AmerisourceBergen Corporation](https://www.courtlistener.com/opinion/10937709/united-healthcare-services-inc-v-amerisourcebergen-corporation/) — *2026-07-31*
-- [U.S. Court of Appeals, 8th Cir.: United States v. Charles Anderson](https://www.courtlistener.com/opinion/10937708/united-states-v-charles-anderson/) — *2026-07-31*
-- [U.S. Court of Appeals, 8th Cir.: United States v. Shelly Ketcher](https://www.courtlistener.com/opinion/10937703/united-states-v-shelly-ketcher/) — *2026-07-31*
-- [U.S. Court of Appeals, D.C. Cir.: Adele Ruppe v. Marco Rubio](https://www.courtlistener.com/opinion/10937727/adele-ruppe-v-marco-rubio/) — *2026-07-31*
 
 _(35 additional items in raw.jsonl)_
