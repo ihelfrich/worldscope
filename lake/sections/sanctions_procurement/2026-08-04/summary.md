@@ -3,27 +3,27 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-04
 record_count: 102
-new_today: 4
+new_today: 6
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-4 new of 102 total items today.
+6 new of 102 total items today.
 
-- [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+- **NEW**  [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IWGx5VlA1dHJkNG1qMUpGOWtqUGcwekdHU0haaEVSN2lJVlBVZ3laeHp4RFpuOXJZNW9nS1Zxa1pPLUZPMWpUZEpHd0xpcHpXdE0zOUstSzNJNjBDZFE?oc=5" target="_blank">Issuance of Amended Venezuela-related General License and Frequently Asked Quest
-- [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
+- **NEW**  [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-07-30*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
-- [[OFAC] Iran-related Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-29*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VcWJIcEJpT1ZIcFROQm9XVHczcEtUanZtTm9RNVJBRE9HT0pFbEZfbnN6bEhuUFNMMEZlQ1VJSFlCX2NOT0hEaGhPVVg2SjJIQ0lzeHRBS2Jab1NxRUE?oc=5" target="_blank">Iran-related Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign
-- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+- **NEW**  [[OFAC] Iran-related Designations - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-07-29*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VcWJIcEJpT1ZIcFROQm9XVHczcEtUanZtTm9RNVJBRE9HT0pFbEZfbnN6bEhuUFNMMEZlQ1VJSFlCX2NOT0hEaGhPVVg2SjJIQ0lzeHRBS2Jab1NxRUE?oc=5" target="_blank">Iran-related Designations</a>&nbsp;&nbsp;<font color="#6f6f6f">ofac.treasury.gov
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfME94Qk5mb081SG5yN1F0Z2M2WEdEWXl3cHpzckxmV0p5blZha21Xd1VQSlhRTFdETGRteW9LSHRRT2NtT2s5X0dIVFd3VU4tcklFVUtTaFd6aUhUY0FJR2FrTXE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-04*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
-- **NEW**  [[FARA] Criminal Division | Whistleblower Awards Pilot Program - justice.gov](https://www.justice.gov) — *2026-07-31*
+- [[FARA] Criminal Division | Whistleblower Awards Pilot Program - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-31*
   > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWI2RUU1bUxsNUVfVzY1Szk1UGZ4NklKN3d6ajN3UUVrRXh6TEdfdnpoeGo5SzZhTnoyMFpUdDVaTm1BeWVUeEwzaEpjc1RjYkJmRjRiTldOOEYxTGphNGRHYk9ESHRGa05CWGFsTzFfMTczVFlobEJOVm1DeUpNTU5CTzROVGtIaXZOUVl2eDExZHRwaGdTcWtmQQ?oc=5" target="_blan
-- **NEW**  [[FARA] Office of Information Policy | FOIA Library - justice.gov](https://www.justice.gov) — *2026-07-28*
+- [[FARA] Office of Information Policy | FOIA Library - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-28*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1USXZ3OFQzbG1IRU41dkYzeUwydUdEMUxlR191b01MbzEzbjVjQjZTT0tNRlFNMTZpNVF0aDBnX2NnUVBDMW1HeWJ3YWM2bDAyU0ZzYkhNQnVURUttckh3cA?oc=5" target="_blank">Office of Information Policy | FOIA Library</a>&nbsp;&nbsp;<font color="#6f6f
 - [[USASpending] $42,774,168,231 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-08-04*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL

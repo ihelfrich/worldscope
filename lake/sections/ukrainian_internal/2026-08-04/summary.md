@@ -2,21 +2,23 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-04
-record_count: 101
-new_today: 30
+record_count: 102
+new_today: 31
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-30 new of 101 total items today.
+31 new of 102 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-04*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-04*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-04*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Росіяни вдарили ракетами поблизу ринку на Одещині: троє людей постраждали | LEDE: Унаслідок ракетної атаки РФ по передмістю Одеси постраждали троє чоловіків, зруйновано цивільну інфраструктуру.] (uk: Росіяни вдарили ракетами поблизу ринку на Одещині: троє людей постраждали)](https://www.pravda.com.ua/news/2026/08/04/8047182/) — *2026-08-04*
+  > Унаслідок ракетної атаки РФ по передмістю Одеси постраждали троє чоловіків, зруйновано цивільну інфраструктуру.
+- **NEW**  [[TITLE: Трамп хоче, щоб у вівторок Іран пішов на угоду щодо відкриття Ормузької протоки | LEDE: Президент США Дональд Трамп тисне на Іран, щоб той ще у вівторок уклав угоду з Оманом щодо Ормузької прот] (uk: Трамп хоче, щоб у вівторок Іран пішов на угоду щодо відкриття Ормузької протоки)](https://www.pravda.com.ua/news/2026/08/04/8047180/) — *2026-08-04*
+  > Президент США Дональд Трамп тисне на Іран, щоб той ще у вівторок уклав угоду з Оманом щодо Ормузької протоки, інакше країні загрожують руйнівні авіаудари.
 - **NEW**  [[TITLE: Росіяни скинули авіабомби на житлові будинки в центрі Краматорська, постраждали 15 людей | LEDE: Росіяни скинули дві авіабомби на центр Краматорська, в результаті чого отримали поранення 4 люди] (uk: Росіяни скинули авіабомби на житлові будинки в центрі Краматорська, постраждали )](https://www.pravda.com.ua/news/2026/08/04/8047177/) — *2026-08-04*
   > Росіяни скинули дві авіабомби на центр Краматорська, в результаті чого отримали поранення 4 людини.
 - **NEW**  [[TITLE: Мадяр відзвітував про атаки на 15 складів Wildberries у РФ | LEDE: За 18 днів українські дрони спалили 13 із 15 складів Wildberries. Нові атаки зафіксовано у Красному Бору та Чехові.] (uk: Мадяр відзвітував про атаки на 15 складів Wildberries у РФ)](https://www.pravda.com.ua/news/2026/08/04/8047172/) — *2026-08-04*
@@ -52,13 +54,11 @@ state: fresh
   > АЕС "Пакш" в Угорщині була на межі повної зупинки через низький рівень води в Дунаї.
 - **NEW**  [[TITLE: Трамп дав Ірану "останній шанс" укласти угоду зі США | LEDE: Президент США Дональд Трамп заявив, що Іран має останню можливість домовитися зі Сполученими Штатами.] (uk: Трамп дав Ірану "останній шанс" укласти угоду зі США)](https://www.pravda.com.ua/news/2026/08/04/8047148/) — *2026-08-04*
   > Президент США Дональд Трамп заявив, що Іран має останню можливість домовитися зі Сполученими Штатами.
-- **NEW**  [[TITLE: У Криму військовий розстріляв товаришів по службі й цивільних: четверо загиблих | LEDE: У селі Хмельницьке біля Севастополя військовий РФ застрелив 4 людей, ще 4 поранено. Підозрюваного затрима] (uk: У Криму військовий розстріляв товаришів по службі й цивільних: четверо загиблих)](https://www.pravda.com.ua/news/2026/08/04/8047146/) — *2026-08-04*
-  > У селі Хмельницьке біля Севастополя військовий РФ застрелив 4 людей, ще 4 поранено. Підозрюваного затримали.
-- **NEW**  [[TITLE: Нового прем’єра Британії критикують за відпустку через два тижні після призначення | LEDE: Прем'єр-міністр Великої Британії Енді Бернем пішов у сімейну відпустку через два тижні після вступу на] (uk: Нового прем’єра Британії критикують за відпустку через два тижні після призначен)](https://www.pravda.com.ua/news/2026/08/04/8047145/) — *2026-08-04*
-  > Прем'єр-міністр Великої Британії Енді Бернем пішов у сімейну відпустку через два тижні після вступу на посаду, що викликало критику з боку опонентів.
-- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-08-04*
-  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-04*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - **NEW**  [Russia May Target Water Supply This Winter, Kyiv Warns](https://www.kyivpost.com/post/81678) — *2026-08-04*
   > Energy Minister Denys Shmyhal said Russia’s next winter campaign may focus on Ukraine’s water infrastructure after devastating attacks on the power grid. He said Kyiv is strengthening critical infrastructure while seeking additional Patriot missiles and financial support from all
+- **NEW**  [A Letter The Economist Conveniently Ignored](https://www.kyivpost.com/opinion/81677) — *2026-08-04*
+  > The Economist was taken to task for its shameless promotion of a man who lives and thrives at Putin’s pleasure and advocates for business as usual with Moscow. Kyiv Post presents a scathing letter to the editor that the British publication decided not to publish.
 
-_(76 additional items in raw.jsonl)_
+_(77 additional items in raw.jsonl)_

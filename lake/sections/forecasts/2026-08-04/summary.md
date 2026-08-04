@@ -22,7 +22,7 @@ state: fresh
 - **NEW**  [LoL: T1 vs Hanwha Life Esports - Game 1 Winner](https://polymarket.com/event/lol-t1-hle1-2026-08-04-game1) — *2026-08-04*
   > yes price: 0% · 24h volume: $782,290 · resolves 2026-08-04
 - [US x Iran Effective Ceasefire by July 31?](https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045) — *2026-08-04*
-  > yes price: 56% · 24h volume: $763,795 · resolves 2026-07-31
+  > yes price: 54% · 24h volume: $763,795 · resolves 2026-07-31
 - [Will Adanech Abiebie be the next Prime Minister of Ethiopia?](https://polymarket.com/event/will-adanech-abiebie-be-the-next-prime-minister-of-ethiopia) — *2026-08-04*
   > yes price: 0% · 24h volume: $747,121 · resolves 2026-06-01
 - **NEW**  [Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-25-bps-after-the-september-2026-meeting-586) — *2026-08-04*
@@ -34,11 +34,11 @@ state: fresh
 - **NEW**  [Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?](https://polymarket.com/event/will-the-fed-decrease-interest-rates-by-50-bps-after-the-september-2026-meeting-863) — *2026-08-04*
   > yes price: 1% · 24h volume: $342,970 · resolves 2026-09-16
 - **NEW**  [US announces end of Iranian blockade by August 7, 2026?](https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690) — *2026-08-04*
-  > yes price: 24% · 24h volume: $321,662 · resolves 2026-08-07
+  > yes price: 23% · 24h volume: $321,662 · resolves 2026-08-07
 - [Israel x Iran ceasefire continues through August 9?](https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-9-20260727170733638) — *2026-08-04*
   > yes price: 88% · 24h volume: $311,288 · resolves 2026-08-09
 - **NEW**  [LoL: Gen.G vs DN SOOPers - Game 1 Winner](https://polymarket.com/event/lol-gen-dnf-2026-08-04-game1) — *2026-08-04*
-  > yes price: 82% · 24h volume: $306,319 · resolves 2026-08-04
+  > yes price: 98% · 24h volume: $306,319 · resolves 2026-08-04
 - [Will Trump speak to Emmanuel Macron in July?](https://polymarket.com/event/will-trump-speak-to-emmanuel-macron-in-july-20260626154217431) — *2026-08-04*
   > yes price: 0% · 24h volume: $298,773 · resolves 2026-07-31
 - [Strait of Hormuz traffic returns to normal by July 31?](https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-31) — *2026-08-04*

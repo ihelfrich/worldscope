@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-04
-record_count: 224
-new_today: 98
+record_count: 206
+new_today: 87
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-98 new of 224 total items today.
+87 new of 206 total items today.
 
 - **NEW**  [[St. Louis] Where Art Thou? – 8/4/2026](https://www.stlmag.com/games/where-art-thou-080426/) — *2026-08-04*
   > <p>Recognize this St. Louis art? Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer and get your 
@@ -31,35 +31,34 @@ state: fresh
   > <p>For a while now, people arriving late to a concert at Enterprise Center or a game at Busch Stadium have justified their own tardiness by telling themselves some version of, Well, it’s after 7 p.m., so at least I don’t have to pay for parking. Hours later, many of these very sa
 - [[St. Louis] Hundreds gather to honor couple murdered in Guatemala after removal from Overland](https://www.stlmag.com/news/nixon-perez-paz-glendy-gonzalez-de-la-cruz-overland-guatemala/) — *2026-08-03*
   > <p>The recent murders of Nixon Pérez Paz and Glendy Marisol González de la Cruz—an Overland couple who had been forced to return to Guatemala—sent shock waves through the St. Louis region’s immigrant Hispanic community. But their tragic deaths also galvanized local resistance to 
-- [[St. Louis] St. Louis County voters to decide on Prop C, Prop U](https://fox2now.com/news/missouri/st-louis-county-voters-to-decide-on-prop-c-prop-u/) — *2026-08-03*
-  > St. Louis County voters will decide on Propositions C and U during Tuesday's primary election, which involve changes to official terms and pay requirements as well as a proposed 3.5% use tax on out-of-state online purchases.
-- **NEW**  [[St. Louis] Judge warns St. Louis County to release police records in assault case](https://fox2now.com/news/fox-files/judge-warns-st-louis-county-to-release-police-records-in-assault-case/) — *2026-08-03*
-  > It’s a case FOX 2 News broke almost two years ago, as road workers were being arrested as we interviewed them. Now, those workers are still being denied police records their attorneys have been asking for. The judge said he's even frustrated.
-- [[St. Louis] Man rescued after trench collapse in Creve Coeur](https://fox2now.com/news/missouri/rescue-underway-after-trench-collapse-in-creve-coeur/) — *2026-08-03*
-  > Emergency crews in Creve Coeur worked to rescue a man trapped in a trench collapse in a residential construction site Monday.
-- [[St. Louis] Cardinals trade Lars Nootbaar to Arizona Diamondbacks: REPORTS](https://fox2now.com/sports/st-louis-cardinals/cardinals-trade-lars-nootbaar-to-arizona-diamondbacks-reports/) — *2026-08-03*
-  > The St. Louis Cardinals are trading outfielder Lars Nootbaar to the Arizona Diamondbacks, according to multiple reports.
-- [[St. Louis] Cardinals trade Dustin May, JoJo Romero to Brewers](https://fox2now.com/sports/st-louis-cardinals/cardinals-trade-dustin-may-jojo-romero-to-brewers/) — *2026-08-03*
-  > The St. Louis Cardinals have traded starting pitcher Dustin May and relief pitcher JoJo Romero to the Milwaukee Brewers, according to multiple reports.
-- **NEW**  [[St. Louis] St. Louis County seeks new executive for first time in 7 years](https://fox2now.com/news/missouri/st-louis-county-seeks-new-executive-for-first-time-in-7-years/) — *2026-08-04*
-  > For the first time in more than 7 hours St. Louis County will be getting a new County Executive.
-- [[St. Louis] Missouri residents call for investigation into alleged sewage discharge in Big River](https://fox2now.com/news/missouri/missouri-residents-call-for-investigation-into-alleged-sewage-discharge-in-big-river/) — *2026-08-03*
-  > Residents in Leadwood, Missouri are calling for an investigation, accusing their city of releasing raw sewage into the Big River.
-- [[St. Louis] Woman charged with shooting friend's boyfriend in north St. Louis](https://fox2now.com/news/missouri/woman-charged-for-shooting-friends-boyfriend-in-north-st-louis/) — *2026-08-03*
-  > A woman has been charged with shooting at her friend’s boyfriend after an argument at a north St. Louis liquor store.
-- **NEW**  [[St. Louis] Oakville residents oppose self-storage proposal](https://fox2now.com/news/missouri/oakville-residents-oppose-self-storage-proposal/) — *2026-08-04*
-  > Residents in an Oakville subdivision are pushing back against a proposal to build a self-storage facility near their neighborhood, voicing concerns about safety, privacy and the impact on the community.
-- [[St. Louis] Steelville, Missouri mayor resigns, citing nepotism clause](https://fox2now.com/news/missouri/steelville-missouri-mayor-resigns-citing-nepotism-clause/) — *2026-08-03*
-  > The mayor for the City of Steelville, Missouri, has resigned just a few months into the job, citing an "error in judgement" over the state's nepotism clause.
-- **NEW**  [[St. Louis] Alec Burleson hits 3 homers as Cardinals outslug Yankees 13-7 after losing 6-run lead](https://fox2now.com/sports/st-louis-cardinals/alec-burleson-hits-3-homers-as-cardinals-outslug-yankees-13-7-after-losing-6-run-lead/) — *2026-08-04*
-  > Alec Burleson hit three two-run homers, including a drive into the second deck in right field that capped a seven-run eighth inning as the St. Louis Cardinals outslugged the New York Yankees for a 13-7 victory Monday night after blowing a six-run lead.
-- **NEW**  [[St. Louis] 'Wild ride', Austin Simmons details journey to Mizzou](https://fox2now.com/sports/wild-ride-austin-simmons-details-journey-to-mizzou/) — *2026-08-04*
-  > Six months before he arrived in Columbia, Mizzou was the last thing on Austin Simmons' mind.
-- **NEW**  [[St. Louis] Two hospitalized after domestic shooting in University City](https://fox2now.com/news/missouri/two-hospitalized-after-domestic-shooting-in-university-city/) — *2026-08-03*
-  > One person was shot and another was injured during a domestic-related incident Monday evening in University City.
-- **NEW**  [[St. Louis] Final day of absentee voting in Missouri leads to active early turnout](https://fox2now.com/news/missouri/final-day-of-absentee-voting-in-missouri-leads-to-active-early-turnout/) — *2026-08-03*
-  > Missouri Secretary of State Denny Hoskins said Tuesday's primary election could reach a turnout of over 1.4 million voters. Some St. Louis County residents turned out for the final day of absentee voting.
-- [[St. Louis] Family mourns mother killed by stray bullet; three men charged](https://fox2now.com/news/missouri/family-mourns-mother-killed-by-stray-bullet-three-men-charged/) — *2026-08-03*
-  > Three men have been charged in the June 30 shooting death of Shakeela Martin, a 35-year-old mother of five who was killed at a Ferguson gas station.
+- **NEW**  [[St. Louis] See the Aug. 4, 1926, front page: Hawes' lead for senator grows to 50,000](https://www.stltoday.com/news/archives/article_1f0d876d-81f2-49cb-9e80-d5e7d8292614.html) — *2026-08-04*
+  > Headlines from the Aug. 4, 1926, front page include: Antisaloon vote falls far below what was forecast
+- **NEW**  [[St. Louis] Dr. Barton Goldsmith: Red flags of high-tech dating](https://www.stltoday.com/article_ad6dc1cc-631e-5707-a73b-efab65256552.html) — *2026-08-04*
+  > When it comes to dating, and online dating in particular, there are things you need to look out for. I’ve been turned down more times than a nerd at the prom, so I know rejection, and I also know it…
+- **NEW**  [[St. Louis] Dailey, Michael](https://www.stltoday.com/obituaries/article_89400e43-555f-5e2e-9ebf-bdf09f3d7bab.html) — *2026-08-04*
+  > Mike died peacefully after a long illness with family present at Mercy South on the 19th of July. A son, brother, father and grandfather, he loved his family and will be greatly missed. Preceded in death by his father Gerry…
+- **NEW**  [[St. Louis] Schnake, Christine](https://www.stltoday.com/obituaries/article_5e0ac519-972d-52a7-a33a-df22af77c66c.html) — *2026-08-04*
+  > Schnake, Christine
+- **NEW**  [[St. Louis] From Chappell Roan to Olivia Dean: How female pop stars came to own their careers](https://www.stltoday.com/life-entertainment/local/music/article_a046ee83-ec8a-44df-953e-e09f5318f3ff.html) — *2026-08-04*
+  > Female pop stardom has changed a lot since the early aughts. Here is a look at what’s changed for the better and the worse.
+- **NEW**  [[St. Louis] It's Election Day!](https://www.stltoday.com/news/article_e58880c8-a6fe-4efb-9ce5-95bafd8bb1b7.html) — *2026-08-04*
+  > Happy Election Day! We're keeping today short and sweet with the information you need so you can get to the polls. Polling places are now open and will remain open until 7 p.m. Do your civic duty, friends.
+- **NEW**  [[St. Louis] STL - The Local Edit - Newsletter Ad](https://www.stltoday.com/image_cee4b6d5-8e62-5d92-9dbd-6a4ddb1927b8.html) — *2026-08-04*
+- **NEW**  [[St. Louis] STL - The Local Edit - Newsletter Ad](https://www.stltoday.com/article_ed27e485-ce92-5e88-b969-3c3d8fdc8342.html) — *2026-08-04*
+  > Get Unlimited Digital!
+- **NEW**  [[St. Louis] Dr. Roach: Doctors leave stroke patient without a single treatment option](https://www.stltoday.com/life-entertainment/local/wellness/article_277795ff-0f69-441a-9012-3364e85911d5.html) — *2026-08-04*
+  > Dear Dr. Roach: A dear friend of ours was diagnosed with lung cancer and subsequently had a stroke. Since then, he was told that he had disseminated intravascular coagulation (DIC) and that there wasn't any treatment for it. The doctors…
+- **NEW**  [[St. Louis] Dailey, Michael Aaron](https://www.stltoday.com/news/local/obituaries/article_125af25e-0470-5930-be0e-74281398312f.html) — *2026-08-03*
+  > April 21, 1967 - July 19, 2026
+- **NEW**  [[St. Louis] Cargo ship reports being hit by an unknown projectile in the Strait of Hormuz](https://www.ksdk.com/article/news/nation-world/cargo-ship-iran-hormuz-strait-president-donald-trump/507-918c6286-0b0e-4660-a4a3-8d3ec2b2ba38) — *2026-08-04*
+  > The cargo ship reported being “hit by an unknown projectile” at 2 a.m. local time while it was 23 miles northeast of Al Khasab in Oman.
+- **NEW**  [[St. Louis] Did anyone win the Powerball? Winning numbers for Monday, Aug. 3, 2026](https://www.ksdk.com/article/news/lottery/powerball-monday-jackpot-million/507-0ccc8fa9-e4db-4390-b9a8-ba7db925ce67) — *2026-08-04*
+  > $753 million was on the line in Monday night's Powerball drawing.
+- **NEW**  [[St. Louis] Powerball $753M jackpot winning numbers: Monday, Aug. 3, 2026](https://www.ksdk.com/article/news/nation-world/powerball-winning-numbers-monday-aug-3-2026/507-d07071c7-065c-4240-ab43-1aeb344a2799) — *2026-08-04*
+  > The Powerball jackpot rose to $748 million Monday. Did you win?
+- **NEW**  [[St. Louis] Arrest made in connection with Spokane, Washington, wildfires](https://www.ksdk.com/article/news/nation-world/suspect-arrest-spokane-washington-wildfires/507-a7c581c0-7db9-40fc-9d50-45c9e0a283df) — *2026-08-04*
+  > A 37-year-old man was arrested in connection with one of three wildfires that have burned more than 700 structures.
+- **NEW**  [[St. Louis] 'This was a monster': Families return to devastation after Washington fires](https://www.ksdk.com/article/news/nation-world/spokane-fires-families-return-devastation/507-27746cb1-6f35-4c26-a0bc-1568c77ab435) — *2026-08-04*
+  > Some Spokane residents returned to their neighborhoods to find their homes in ruins or covered in ash after the fires.
 
-_(199 additional items in raw.jsonl)_
+_(181 additional items in raw.jsonl)_

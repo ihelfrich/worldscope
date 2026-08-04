@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-04
 record_count: 52
-new_today: 5
+new_today: 6
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-5 new of 52 total items today.
+6 new of 52 total items today.
 
 - **NEW**  [[BleepingComputer] Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts](https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/) — *2026-08-04*
   > Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]
@@ -17,6 +17,9 @@ state: fresh
   > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.
 
 The vulnerability, tracked as CVE-
+- **NEW**  [[Computer Weekly] Payment fraud a ‘fully fledged’ transnational security threat, says think tank](https://www.computerweekly.com/news/366646916/Payment-fraud-a-fully-fledged-transnational-security-threat-says-think-tank) — *2026-08-04*
+  > &lt;p&gt;Over half the world’s population are targeted by payment scams each week as authorised payment fraud becomes a “fully fledged” global security threat, rather than a consumer protection issue, warns the Royal United Services Institute (RUSI).&lt;/p&gt; 
+&lt;p&gt;In its la
 - **NEW**  [[Computer Weekly] The King spoke not a word on AI - then the end of term turned](https://www.computerweekly.com/opinion/The-King-spoke-not-a-word-on-AI-then-the-end-of-term-turned) — *2026-08-04*
   > &lt;p&gt;There was pomp and pageant at &lt;a href="https://www.computerweekly.com/news/366643097/Kings-Speech-paves-the-way-for-digital-ID"&gt;state opening of Parliament&lt;/a&gt; some 12 weeks ago. Nothing unusual in that, nor in the lack of any mention of artificial intelligen
 - **NEW**  [[Computer Weekly] How AI kicked in for the 2026 FIFA World Cup](https://www.computerweekly.com/ezine/Computer-Weekly/How-AI-kicked-in-for-the-2026-FIFA-World-Cup) — *2026-08-04*
@@ -58,7 +61,7 @@ Some of it was clever. Most of it was just acc
 - [[Cybersecurity Dive] China-based hacker employs DeepSeek in autonomous threat campaign](https://www.cybersecuritydive.com/news/china-based-hacker-deepseek-autonomous/826784/) — *2026-08-03*
   > Researchers said the hacker also attempted to test Western AI tools, but ultimately was forced to revert to manual operations to succeed.&nbsp;
 - [[Cybersecurity Dive] How volunteer cyber experts are helping protect rural water systems](https://www.cybersecuritydive.com/news/water-cybersecurity-def-con-franklin-outcomes/826517/) — *2026-08-03*
-  > A first-in-the-nation program is yielding promising results as it charts a path for supporting the U.S.&rsquo;s most vulnerable infrastructure.
+  > A first-in-the-nation program is seeing promising results as it charts a path for supporting the U.S.&rsquo;s most vulnerable infrastructure.
 - [[Schneier on Security] More on the OpenAI Agent’s Attack on Hugging Face](https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html) — *2026-08-03*
   > Hugging Face has published a detailed timeline of the attack. From the summary:
 The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on
@@ -71,7 +74,5 @@ Earlier this month, two of OpenAI&#8217;s models broke out of their containment 
   > Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star.
 - [[Ars Technica] Lego deploys Hubble Space Telescope as detailed desktop model](https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/) — *2026-08-03*
   > The orbiting observatory in minifigure scale.
-- [[Ars Technica] An AI-supervised remote exam went so badly that 58,000 students must retake it](https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/) — *2026-08-03*
-  > Top scores increased by 5x.
 
 _(27 additional items in raw.jsonl)_

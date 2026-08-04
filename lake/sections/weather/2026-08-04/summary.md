@@ -2,15 +2,47 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-04
-record_count: 145
-new_today: 101
+record_count: 146
+new_today: 102
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-101 new of 145 total items today.
+102 new of 146 total items today.
 
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 4 at 2:47AM PDT until August 4 at 3:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68216077afcb7ce2491f71524f132e1620e9da7a.001.1) — *2026-08-04*
+  > * WHAT...Very steep and hazardous seas 9 to 11 feet and north
+winds 15 to 25 kt with gusts up to 30 kt expected.
+
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
+
+* WHEN...Until 3 PM PDT this afternoon.
+
+* IMPACTS...Very steep and hazardous seas could 
+- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 4 at 2:47AM PDT until August 4 at 9:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68216077afcb7ce2491f71524f132e1620e9da7a.002.1) — *2026-08-04*
+  > * WHAT...Very steep and hazardous seas 9 to 14 feet and north
+winds 15 to 25 kt with gusts up to 30 kt.
+
+* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
+60 nm.
+
+* WHEN...Until 9 AM PDT this morning.
+
+* IMPACTS...Very steep and hazardous seas could capsize or cause
+- **NEW**  [[Moderate] Hazardous Seas Warning: Hazardous Seas Warning issued August 4 at 2:47AM PDT until August 4 at 3:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68216077afcb7ce2491f71524f132e1620e9da7a.001.2) — *2026-08-04*
+  > * WHAT...Very steep and hazardous seas 9 to 11 feet and north
+winds 15 to 25 kt with gusts up to 30 kt expected.
+
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
+
+* WHEN...Until 3 PM PDT this afternoon.
+
+* IMPACTS...Very steep and hazardous seas could 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-17244) — *2026-08-04*
+  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 4 at 3:37AM MDT until August 4 at 8:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ff3483a0cdf0ed4a6a07f651e6099bf3cc09c39.001.1) — *2026-08-04*
   > * WHAT...Temperatures from 98 to 103 expected.
 
@@ -21,8 +53,6 @@ Highlands.
 * WHEN...From noon today to 8 PM MDT this evening.
 
 * IMPACTS...Hot temperatures may caus
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-7997) — *2026-08-04*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 4 at 2:31AM PDT until August 8 at 8:00PM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.962abfe1ec58fa0e19c7c0164707e5238938e1b9.002.1) — *2026-08-04*
   > * WHAT...Hot conditions expected with highs 80 to 90 degrees above
 8000 feet and 90 to 100 degrees below 8000 feet. This will result
@@ -196,32 +226,5 @@ and Joshua Tree NP.
 * WHEN...Until 8 PM PDT Friday.
 
 * IMPACTS...Heat related illnesses increase significantly
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 4 at 12:24AM PDT until August 8 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1eecc443b6e46002391e0d759fcf63c4cf573001.005.1) — *2026-08-04*
-  > * WHAT...High temperatures mostly in the mid 80s to upper 90s below
-6500 feet expected.
 
-* WHERE...Riverside County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Saturday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 4 at 12:24AM PDT until August 8 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1eecc443b6e46002391e0d759fcf63c4cf573001.006.1) — *2026-08-04*
-  > * WHAT...High temperatures mostly in the mid 80s to upper 90s
-expected.
-
-* WHERE...San Diego County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Saturday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 4 at 12:24AM PDT until August 8 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1eecc443b6e46002391e0d759fcf63c4cf573001.004.1) — *2026-08-04*
-  > * WHAT...High temperatures mostly in the mid 80s to upper 90s below
-6500 feet expected.
-
-* WHERE...San Bernardino County Mountains.
-
-* WHEN...From 10 AM this morning to 8 PM PDT Saturday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-
-_(120 additional items in raw.jsonl)_
+_(121 additional items in raw.jsonl)_

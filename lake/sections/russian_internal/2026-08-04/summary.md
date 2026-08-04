@@ -2,14 +2,14 @@
 section: russian_internal
 title: Russian Internal News (state + in-exile)
 date: 2026-08-04
-record_count: 987
-new_today: 511
+record_count: 943
+new_today: 466
 state: fresh
 ---
 
 ## Russian Internal News (state + in-exile)
 
-511 new of 987 total items today.
+466 new of 943 total items today.
 
 - **NEW**  [[TITLE: В Ленинградской области после атаки украинских беспилотников горит логистический центр Wildberries. Фотографии и видео. С середины июля ВСУ атаковали уже 20 складов маркетплейса | LEDE: <p>Укра] (ru: В Ленинградской области после атаки украинских беспилотников горит логистический)](https://meduza.io/feature/2026/08/04/v-leningradskoy-oblasti-posle-ataki-ukrainskih-bespilotnikov-gorit-logisticheskiy-tsentr-wildberries-fotografii-i-video) — *2026-08-04*
   > <p>Украинские беспилотники в ночь на 4 августа атаковали склад Wildberries в поселке Красный Бор в Ленинградской области, там начался сильный пожар. В компании утверждают, что провели «заблаговременную эвакуацию» сотрудников, пострадавших нет. Губернатор Александр Дрозденко сообщ
@@ -62,4 +62,4 @@ state: fresh
 - [[TITLE: За два года на российских генералов совершили не менее шести покушений в тылу. Трое из них погибли. Вот полный список | LEDE: <p>С начала полномасштабной войны высокопоставленные российские ген] (ru: За два года на российских генералов совершили не менее шести покушений в тылу. Т)](https://meduza.io/feature/2026/08/03/za-dva-goda-na-rossiyskih-generalov-sovershili-ne-menee-shesti-pokusheniy-v-tylu-troe-iz-nih-pogibli-vot-polnyy-spisok) — *2026-08-03*
   > <p>С начала полномасштабной войны высокопоставленные российские генералы не только погибают на фронте, но и становятся целями диверсий в тылу. Как минимум трое генералов погибли в результате взрывов в Москве и Подмосковье; еще в одного стреляли, но он выжил. Последней жертвой, ве
 
-_(962 additional items in raw.jsonl)_
+_(918 additional items in raw.jsonl)_

@@ -2,64 +2,43 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-04
-record_count: 960
-new_today: 541
+record_count: 1000
+new_today: 559
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-541 new of 960 total items today.
+559 new of 1000 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-04*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-04*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-04*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[Global] EU calls for stronger borders after Ceuta migrant crossings](https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Ursula von der Leyen has called for action ahead of an urgent EU interior ministers meeting to discuss the issue.
-- **NEW**  [[Global] Analysis: Trump challenged by cold reality from top allies](https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > A president used to bending US politics to his will faces two stinging losses in a matter of days, writes the BBC's Anthony Zurcher.
-- **NEW**  [[Global] Five dead in Moscow region as Ukraine continues warehouse strikes](https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > Facilities in St Petersburg and Tver were also hit, while at least one was killed in Russian strikes on Ukraine.
-- **NEW**  [[Global] What will happen when a SpaceX rocket collides with the Moon?](https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > Our satellite has endured countless blows over millions of years - and astronomers think this one could be a useful accident.
-- **NEW**  [[Global] Arson arrest made over largest of Washington state's wildfires](https://www.bbc.co.uk/news/articles/c5y3ppmmev1o?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > There are three wildfires in the Spokane area that have forced 60,000 to be evacuated from their homes.
-- **NEW**  [[Global] Soldier kills four in gun rampage in Russian-occupied Crimea](https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > The region's Moscow-installed governor says the gunman has been detained after firing at fellow soldiers and civilians.
-- **NEW**  [[Global] France wildfires reveal hundreds of WW2 shells in village](https://www.bbc.co.uk/news/articles/cgmkxjrrwdvo?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > Explosions heard in Le Porge as the wildfires raged are believed to have have been the old munitions.
-- **NEW**  [[Global] Ariana Grande has had enough of body comments, but 'scrutiny' will linger](https://www.bbc.co.uk/news/articles/c3ek7g857q4o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > The star has taken a "step back" from the spotlight after appearances led to "endless, ongoing public scrutiny".
-- **NEW**  [[Global] I left my wife and twins behind - why this Nigerian man fled South Africa](https://www.bbc.co.uk/news/articles/c4gx2y454w5o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Nigerian Richard Itoro is one of tens of thousands who have abandoned their lives in South Africa.
-- **NEW**  [[Global] US states sue to block Trump tariffs impacting dozens of countries](https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.
-- **NEW**  [[Global] Charity cyclist, 82, dies a day after 3,300 mile ride across Australia](https://www.bbc.co.uk/news/articles/c4gkpwj2je9o?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > Bob Montgomery died unexpectedly just a day after finishing what he had called 'One Last Ride'.
-- [[Global] Rhine falls to record low levels as drought strains Europe's rivers](https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Low water levels in the Rhine, Danube and Po have curtailed the transport of goods and reduced electricity output.
-- [[Global] Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years](https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Photos newly released by Myanmar's military government show Suu Kyi meeting with an ICRC official.
-- [[Global] Threat to oil tankers in Middle East  worst since start of Iran war, analysts say](https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.
-- [[Global] US reports first two deaths linked to  'explosive diarrhoea' outbreak](https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > The illness caused by parasitic infection that spreads through contaminated food or water is not generally life-threatening, health officials say.
-- [[Global] Infantino opponents threaten 'non co-operation' with Fifa](https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Opponents of Fifa president Gianni Infantino are threatening "non co-operation" with the governing body unless he steps down, according to senior Uefa sources.
-- **NEW**  [[Global] 'Digital lifeline' - Gaza tech workers give glimpse of possible future](https://www.bbc.co.uk/news/articles/c1m1xm8ykk2o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Thousands of young people in Gaza are pursuing roles in the digital economy as the territory's wider recovery stalls.
-- **NEW**  [[Global] Did Iran hack water systems in seven US states?](https://www.bbc.co.uk/news/articles/c934dq95zpgo?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > While US President Donald Trump has said Iran is not to blame, cyber experts tell the BBC it likely the attack was at the hands of the Iran.
-- **NEW**  [[Global] Tokenomics: Why making AI pay is tricky](https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > Buyers of AI services are struggling to control costs and sellers are not sure how much to charge.
-- **NEW**  [[Global] Why is Trump Media selling early access to Trump's Truth Social posts?](https://www.bbc.co.uk/news/videos/c74g0q8eey9o?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > The service reportedly costs up to $100,000 (£74,170) per month and offers access to posts from influential accounts milliseconds before they appear online.
-- **NEW**  [[Global] There's a reason child vaccination rates are falling - and it's not social media](https://www.bbc.co.uk/news/articles/c0qvlw2dd0no?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > As child immunisation rates fall across the UK, one clinic in west Yorkshire is taking aggressive steps to boost immunisations
-- **NEW**  [[Global] Why India's youth anger has become Modi's biggest challenge](https://www.bbc.co.uk/news/articles/cm2gv4dgqv4o?at_medium=RSS&at_campaign=rss) — *2026-08-03*
-  > India has the biggest youth population in the world but few are able to find good jobs despite rising education levels.
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-04*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-04*
+  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- [[Global] Stronger EU borders needed after Ceuta crisis, von der Leyen says](https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen) — *2026-08-03*
+- [[Global] How Ceuta migrant crisis exposes divisions within Europe - The Latest](https://www.theguardian.com/news/audio/2026/aug/03/how-ceuta-migrant-crisis-exposes-divisions-within-europe-the-latest) — *2026-08-03*
+- [[Global] Ceuta leader accuses Morocco over ‘atrocity’ of mass border crossing](https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain) — *2026-08-03*
+- [[Global] Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets](https://www.theguardian.com/world/2026/aug/02/ceuta-border-crossing-spain-morocco) — *2026-08-02*
+- [[Global] Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn](https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn) — *2026-08-02*
+- [[Global] Weather tracker: Austria breaks heat records as Japan braces for Typhoon Dolphin](https://www.theguardian.com/environment/2026/aug/03/weather-tracker-austria-heat-europe-japan-typhoon-dolphin) — *2026-08-03*
+- **NEW**  [[Global] Three lions die of suspected heatstroke at Tokyo zoo as Japan swelters](https://www.theguardian.com/world/2026/aug/04/three-lions-dead-suspected-heatstroke-japan-zoo-heatwave) — *2026-08-04*
+- **NEW**  [[Global] Nine Lives, the feral cat that terrorised New Zealand’s rare ducks, is caught after three years](https://www.theguardian.com/world/2026/aug/04/nine-lives-feral-cat-new-zealand-caught-trapped) — *2026-08-04*
+- **NEW**  [[Global] Japan’s prime minister tours earthquake-hit sites as recovery efforts hampered by soaring temperatures](https://www.theguardian.com/world/2026/aug/04/japan-earthquake-prime-minister-visit-recovery-heat-sanae-takaichi) — *2026-08-04*
+- [[Global] Nauru officially changes its name to Naoero](https://www.theguardian.com/world/2026/aug/03/nauru-officially-changes-its-name-to-naoero) — *2026-08-03*
+- [[Global] Yen hits three-month high after Trump helps prop up currency](https://www.theguardian.com/business/2026/aug/03/yen-trump-currency-us-japan) — *2026-08-03*
+- **NEW**  [[Global] NSW will not implement recommendation of long-awaited hate speech report – as it happened](https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb) — *2026-08-04*
+- **NEW**  [[Global] NSW Liberal admits to leaking confidential report to young conservative powerbrokers, inquiry hears](https://www.theguardian.com/australia-news/2026/aug/04/scott-and-damien-are-afraid-senior-liberal-quizzed-about-former-staffers-message-at-icac-ntwnfb) — *2026-08-04*
+- **NEW**  [[Global] Trump wants ‘fair treatment’ in fight over Labor’s levy on tech giants to pay for news, US trade group warns](https://www.theguardian.com/australia-news/2026/aug/04/australia-news-bargaining-incentive-us-trade-trump-albanese) — *2026-08-04*
+- [[Global] Alan Jones trial live updates: former radio broadcaster in Sydney court for day two of indecent assault case – latest news](https://www.theguardian.com/australia-news/live/2026/aug/04/alan-jones-trial-live-updates-day-2-sydney-court-case-latest-news-ntwnfb) — *2026-08-04*
+- **NEW**  [[Global] Charity cyclist Bob Montgomery, 82, dies one day after 5,200km ride across Australia](https://www.theguardian.com/australia-news/2026/aug/04/bob-montgomery-mnd-cyclist-dies-aged-82-death-after-one-last-ride-charity) — *2026-08-04*
+- **NEW**  [[Global] Hungary comes ‘within millimetres’ of shutting down nuclear power plant amid drought crisis – Europe live](https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates) — *2026-08-04*
+- **NEW**  [[Global] UK plastic ‘waste colonialism’ found to be polluting Turkey’s farming heartland](https://www.theguardian.com/environment/2026/aug/04/uk-plastic-waste-colonialism-recycling-exports-contaminating-water-crops-turkey) — *2026-08-04*
+- **NEW**  [[Global] Daphne Caruana Galizia was investigating suspected corruption when killed, jury told](https://www.theguardian.com/world/2026/aug/04/daphne-caruana-galizia-investigating-suspected-corruption-when-killed-jury-told) — *2026-08-04*
+- **NEW**  [[Global] Cancer survivors need protection from future discrimination, say German politicians](https://www.theguardian.com/world/2026/aug/04/cancer-survivors-need-protection-from-future-discrimination-say-german-politicians) — *2026-08-04*
+- **NEW**  [[Global] Price of olive oil expected to rise again as European crops feel the heat](https://www.theguardian.com/business/2026/aug/04/price-olive-oil-expected-rise-again-european-crops-heat-drought-wildfires) — *2026-08-04*
 
-_(935 additional items in raw.jsonl)_
+_(975 additional items in raw.jsonl)_
