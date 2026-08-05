@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-05
-record_count: 19
-new_today: 19
+record_count: 20
+new_today: 20
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-19 new of 19 total items today.
+20 new of 20 total items today.
 
 - **NEW**  [M 6.3 - south of the Kermadec Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i) — *2026-08-05*
   > M6.3 · south of the Kermadec Islands · depth 226.084 km
@@ -33,6 +33,8 @@ state: fresh
   > M4.9 · 45 km SW of Sarangani, Philippines · depth 29.668 km
 - **NEW**  [M 4.9 - Banda Sea](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f) — *2026-08-05*
   > M4.9 · Banda Sea · depth 234.999 km
+- **NEW**  [M 4.8 - 45 km SSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9k) — *2026-08-05*
+  > M4.8 · 45 km SSW of Sarangani, Philippines · depth 35 km
 - **NEW**  [M 4.8 - 64 km SW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7f) — *2026-08-05*
   > M4.8 · 64 km SW of Sarangani, Philippines · depth 35 km
 - **NEW**  [M 4.8 - 55 km WSW of Monywa, Burma (Myanmar)](https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u) — *2026-08-05*

@@ -2,17 +2,39 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-05
-record_count: 145
-new_today: 133
+record_count: 146
+new_today: 134
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-133 new of 145 total items today.
+134 new of 146 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-46794) — *2026-08-05*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-11002) — *2026-08-05*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued August 5 at 3:34AM MDT until August 6 at 8:00PM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.243ce98dd581178c7e43a98d2c675658d0fe7607.001.1) — *2026-08-05*
+  > * AFFECTED AREA...Fire weather zones 120, 122, 134, 135, 136,
+and 137.
+
+* WIND...Northwest at 15 to 25 mph with gusts to 35 mph.
+
+* HUMIDITY...As low as 10 percent south of the Missouri River, and
+as low as 20 percent near the Canadian Border.
+
+* THUNDERSTORMS...None
+
+* IMPACTS..
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 5 at 3:30AM MDT until August 5 at 8:00PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ee19f5ab0db04754e5254bd62673fd3e955a6e6.001.1) — *2026-08-05*
+  > * AFFECTED AREA...In Colorado, Fire Weather Zone 205 Colorado
+River Headwaters and Fire Weather Zone 293 Gunnison Basin
+Forecast Area.
+
+* TIMING...From 1 PM this afternoon to 8 PM MDT this evening.
+
+* WINDS...West 10 to 20 mph with gusts up to 30 mph.
+
+* RELATIVE HUMIDITY...8 to 
 - **NEW**  [[Severe] Flood Watch: Flood Watch issued August 5 at 5:15AM EDT until August 5 at 11:00AM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e57ed3a1b6b3191869996fa2b4724c30e4f9e1b9.002.1) — *2026-08-05*
   > * WHAT...Flash flooding caused by excessive rainfall continues to be
 possible.
@@ -219,24 +241,5 @@ HUMIDITY FOR FIRE WEATHER ZONE 220...
 
 * IMPACTS...Fires will catch and spread quickly. Exercise
 extreme caution with any outdoor burning.
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 5 at 12:26AM MDT until August 5 at 7:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9e7f70f20f313ef2f68fd3afff731cca308ed74.001.1) — *2026-08-05*
-  > ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM THURSDAY AFTERNOON
-THROUGH THURSDAY EVENING FOR GUSTY WINDS AND LOW RELATIVE
-HUMIDITY FOR FIRE WEATHER ZONE 220...
 
-* AFFECTED AREA...Fire Weather Zone 220.
-
-* WINDS...West 10 to 20 mph with gusts up to 30 mph.
-
-* RELATIVE HUMIDITY...A
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 5 at 3:55PM ChST until August 8 at 4:00PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e22289078f00f6ef0d1a70c9144b7856e88c8e2.001.2) — *2026-08-05*
-  > * WHAT...Large breaking waves of 8 to 12 feet and dangerous rip
-currents expected in the surf zone.
-
-* WHERE...For the High Surf Advisory, along west and north facing
-reefs. For the High Rip Current Risk, along west, north, and east
-facing reefs.
-
-* WHEN...Until 4 PM ChST Saturda
-
-_(120 additional items in raw.jsonl)_
+_(121 additional items in raw.jsonl)_

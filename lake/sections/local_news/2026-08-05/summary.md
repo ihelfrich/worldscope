@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-05
-record_count: 230
-new_today: 198
+record_count: 239
+new_today: 207
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-198 new of 230 total items today.
+207 new of 239 total items today.
 
 - **NEW**  [[St. Louis] Zimmerman wins Democratic primary for St. Louis County executive](https://www.stlmag.com/news/jake-zimmerman-wins-democratic-county-executive/) — *2026-08-05*
   > <p>County assessor Jake Zimmerman notched a decisive victory in the Democratic primary for St. Louis County executive yesterday, besting state Senator Brian Williams (D–University City), 46 to 33 percent. State senator Angela Mosley was a distant third, earning 19 percent of the 
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[St. Louis] Wesley Bell wins Democratic nomination for Missouri’s 1st Congressional District, beating Cori Bush](https://www.ksdk.com/article/news/politics/elections/wesley-bell-wins-democratic-nomination-for-missouris-1st-congressional-district-beating-cori-bush/63-f72d8d09-2463-4353-9a68-aab6925ffb30) — *2026-08-05*
   > The local race was watched nationally; its results possibly indicating where the Democratic Party stands on the country's long-running relationship with Israel.
 
-_(205 additional items in raw.jsonl)_
+_(214 additional items in raw.jsonl)_

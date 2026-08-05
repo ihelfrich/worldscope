@@ -26,7 +26,7 @@ date: 2026-08-05
 
 ### Today's market state
 - Active markets indexed: **133**
-  - polymarket: 6
+  - polymarket: 7
   - kalshi: 50
-  - manifold: 27
+  - manifold: 26
   - predictit: 50

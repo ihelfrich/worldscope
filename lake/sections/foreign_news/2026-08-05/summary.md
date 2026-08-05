@@ -2,15 +2,17 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-05
-record_count: 1042
-new_today: 760
+record_count: 1041
+new_today: 762
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-760 new of 1042 total items today.
+762 new of 1041 total items today.
 
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-05*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-05*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-05*
@@ -59,7 +61,5 @@ state: fresh
   > Turkiye club Trabzonspor say they have begun negotiations to sign the Egyptian star forward.
 - **NEW**  [[Global] Bangladesh Truth Seeker](https://www.aljazeera.com/video/witness/2026/8/5/bangladesh-truth-seeker?traffic_source=rss) — *2026-08-05*
   > Amid political upheaval in Bangladesh, a journalist debunks fake news in a fight for his nation’s democratic future.
-- **NEW**  [[Global] Explosions across Kyiv as Russian missiles strike Ukraine’s capital](https://www.aljazeera.com/video/newsfeed/2026/8/5/explosions-across-kyiv-as-russian-missiles-strike-ukraines-capital?traffic_source=rss) — *2026-08-05*
-  > At least one person has been killed after a Russian ballistic missile attack on Ukraine’s capital Wednesday morning.
 
-_(1017 additional items in raw.jsonl)_
+_(1016 additional items in raw.jsonl)_

@@ -11,55 +11,55 @@ state: fresh
 
 50 new of 50 total items today.
 
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Letter : Trump ignorance](http://www.reflector.com/opinion/letters/letter-trumps-ignorance/article_fa78fcfc-d33b-40a5-a8ba-c15acd85dff8.html) — *2026-08-05*
-  > reflector.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] tayyar . org - مراهقة تفارق الحياة بحادث مروّع](https://www.tayyar.org/News/World/735674/_guid=735674) — *2026-08-05*
-  > tayyar.org · Arabic · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] KNKT Ungkap Tantangan Usut Kebakaran KM Mutiara Sentosa 2 , Bangkai Kapal Masih Dicari](https://www.tribunnews.com/regional/7864220/knkt-ungkap-tantangan-usut-kebakaran-km-mutiara-sentosa-2-bangkai-kapal-masih-dicari) — *2026-08-05*
-  > tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] DR Congo Ebola outbreak outstrips response as cases near 3 , 900 - Xinhua](https://english.news.cn/20260805/bcb9c7b9ac754c8888952f57e6fbbbc9/c.html) — *2026-08-05*
-  > english.news.cn · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Po Kinijos sprendimo apriboti lietuvišką lazerių gamintoją – K . Budrio reakcija](https://www.lrytas.lt/verslas/rinkos-pulsas/2026/08/05/news/po-kinijos-sprendimo-apriboti-lietuviska-lazeriu-gamintoja-k-budrio-reakcija-43392520/) — *2026-08-05*
-  > lrytas.lt · Lithuanian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] How to keep my dog safe around open water - 9 steps to take](https://www.bicesteradvertiser.net/news/national/uk-today/26435592.keep-dog-safe-around-open-water---9-steps-take/) — *2026-08-05*
-  > bicesteradvertiser.net · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Fotos de praia no calor extremo mascaram mortes e crise climática](https://www.uol.com.br/ecoa/colunas/tony-marlon/2026/08/05/fotos-de-praia-no-calor-extremo-mascaram-mortes-e-crise-climatica.htm) — *2026-08-05*
-  > uol.com.br · Portuguese · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Νεκρή 61χρονη γυναίκα που παρασύρθηκε από φορτηγό στη Λέρο](https://www.skaikritis.gr/nekri-61chroni-gynaika-pou-parasyrthike-apo-fortigo-sti-lero/) — *2026-08-05*
-  > skaikritis.gr · Greek · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Patvirtinta : galingas sprogimas nusinešė Rusijos generolo žento gyvybę](https://www.15min.lt/naujiena/aktualu/pasaulis/patvirtinta-galingas-sprogimas-nusinese-rusijos-generolo-zento-gyvybe-57-2737406) — *2026-08-05*
-  > 15min.lt · Lithuanian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Stretto di Hormuz , Trump annuncia lintesa con lIran :  Molti progressi , accordo imminente  ](https://www.dire.it/05-08-2026/1260469-stretto-di-hormuz-trump-annuncia-lintesa-con-liran-molti-progressi-accordo-imminente/) — *2026-08-05*
-  > dire.it · Italian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] La Familia Real recibe a una representación de la sociedad balear en el Palacio de Marivent](https://www.larioja.com/sociedad/familia-real-recibe-representacion-sociedad-balear-palacio-20260804230022-ntrc.html) — *2026-08-05*
-  > larioja.com · Spanish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Badenoch defends decision to allow man jailed for antisemitism to stand as councillor](https://www.theguardian.com/politics/2026/aug/05/kemi-badenoch-conservatives-joshua-bonehill-paine-somerset-councillor) — *2026-08-05*
-  > theguardian.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Ez volt Kanada legbizarrabb emberkísérlete : a Derby babák története 3 percben](https://femina.hu/gyerek/kanada-legbizarrabb-emberkiserlete-derby-babak/) — *2026-08-05*
-  > femina.hu · Hungarian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Landslide At Ethiopia Monastery Kills At Least 14 During Prayer Ritual](https://www.outlookindia.com/international/landslide-at-ethiopia-monastery-kills-at-least-14-during-prayer-ritual) — *2026-08-05*
-  > outlookindia.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Яке церковне свято сьогодні , 5 серпня : що потрібно зробити перед Яблучним Спасом , прикмети , традиції та заборони дня](https://mignews.com.ua/rizne/yake-czerkovne-svyato-5-serpnya-v-ukrayini-ta-navishho-sogodni-dilytysya-czybuleyu-iz-susidamy.html) — *2026-08-05*
-  > mignews.com.ua · Ukrainian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Kieve Rus saldırısında ölü sayısı 17  ye çıktı](https://www.haberler.com/guncel/zelenskiy-kiev-bolgesine-yonelik-saldirilarda-can-20119031-haberi/) — *2026-08-05*
-  > haberler.com · Turkish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] جو 24 : إعلام عبري : تعليمات بخفض التصعيد العسكري في قطاع غزة](https://jo24.net/article/574272) — *2026-08-05*
-  > jo24.net · Arabic · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Trump says Hormuz to be opened](http://www.pakistantelegraph.com/news/279223044/trump-says-hormuz-to-be-opened-very-soon-warns-iran-will-be-hit-really-hard-if-no-deal-reached) — *2026-08-05*
-  > pakistantelegraph.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Man charged over death of girl in Arbroath as three other family members taken to hospital](https://www.dailyrecord.co.uk/news/scottish-news/man-charged-over-death-girl-37514943) — *2026-08-05*
-  > dailyrecord.co.uk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Yunanistanda babasının cesedini emekli maaşı için dondurucuda saklay](https://www.kibrispostasi.com/c37-DUNYA/n609999-yunanistanda-babasinin-cesedini-emekli-maasi-icin-dondurucuda-saklayan-kisi-yakalandi) — *2026-08-05*
-  > kibrispostasi.com · Turkish · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Karachi Chehlum procession ends peacefully](https://www.pakistantoday.com.pk/2026/08/05/karachis-chehlum-procession-ends-peacefully-under-tight-security) — *2026-08-05*
-  > pakistantoday.com.pk · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Moove Raises $250 Million at $2 . 1 Billion Valuation to Scale the Global Infrastructure Layer for Autonomous Mobility](https://montrealgazette.com/press-releases/business-wire/moove-raises-250-million-at-2-1-billion-valuation-to-scale-the-global-infrastructure-layer-for-autonomous-mobility/) — *2026-08-05*
-  > montrealgazette.com · English · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Tramp : Dogovor o otvaranju Ormuskog moreuza mogao bi da bude postignut već danas](https://naslovi.net/2026-08-05/snm/tramp-dogovor-o-otvaranju-ormuskog-moreuza-mogao-bi-da-bude-postignut-vec-danas/42181141) — *2026-08-05*
-  > naslovi.net · Serbian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Pirmasis elektrinis lokomotyvas žengia į kitą gamybos etapą](https://ve.lt/verslas/pirmasis-elektrinis-lokomotyvas-zengia-i-kita-gamybos-etapa) — *2026-08-05*
-  > ve.lt · Lithuanian · tone NA
-- **NEW**  [[Israel-Iran-Hezbollah axis · themes] Son dakika ... MHP lideri Bahçeliden Terörsüz Türkiye yasası açıklaması : Dili ve kimliği ne olursa olsun herkes kazandı](https://www.milliyet.com.tr/gundem/son-dakika-mhp-lideri-bahceliden-terorsuz-turkiye-yasasi-aciklamasi-dili-ve-kimligi-ne-olursa-olsun-herkes-kazandi-7635567) — *2026-08-05*
-  > milliyet.com.tr · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] The Manufacturers Life Insurance Company Sells 12 , 559 Shares of ITT Inc . $ITT](https://www.dailypolitical.com/2026/08/05/the-manufacturers-life-insurance-company-sells-12559-shares-of-itt-inc-itt.html) — *2026-08-05*
+  > dailypolitical.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Gli Houthi rivendicano un attacco contro una petroliera saudita nel nord del Mar Rosso](https://www.zazoom.it/2026-08-05/gli-houthi-rivendicano-un-attacco-contro-una-petroliera-saudita-nel-nord-del-mar-rosso/19538056/) — *2026-08-05*
+  > zazoom.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Borsa güne yükselişle başladı - 5 Ağustos 2026](https://www.sozcu.com.tr/borsa-gune-yukselisle-basladi-5-agustos-2026-p342540) — *2026-08-05*
+  > sozcu.com.tr · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Çanakkale Boğazı geçişinde 119 metrelik HAVVA ANAda baca yangını](https://www.haberport.com/haber/canakkale-bogazi-gecisinde-119-metrelik-havva-anada-baca-yangini/3203) — *2026-08-05*
+  > haberport.com · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 习近平经济思想指引中国经济高质量发展行稳致远 - 南海网](https://www.hinews.cn/page?n=2838039&m=1&s=1044) — *2026-08-05*
+  > hinews.cn · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] محافظ الغربية يتابع أعمال رصف طريق سنباط حتى كوبري ميت النور](https://www.dostor.org/5657649) — *2026-08-05*
+  > dostor.org · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 大城易得 ， 强城难求](https://baijiahao.baidu.com/s?id=1872672437391156034) — *2026-08-05*
+  > baijiahao.baidu.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 科技股暴力反攻 ， 存储芯片大消息 ， 苹果压价失败](https://finance.ifeng.com/c/8vLP6mLMD1S) — *2026-08-05*
+  > finance.ifeng.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Хакеры нанесли массированный киберудар по системам водоснабжения США :: Новости дня / ВЗГЛЯД](https://vz.ru/news/2026/8/5/1440306.html) — *2026-08-05*
+  > vz.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]   COP30 is not over : Indigenous peoples press for hard power | News | Eco - Business](https://www.eco-business.com/news/cop30-is-not-over-indigenous-peoples-press-for-hard-power/) — *2026-08-05*
+  > eco-business.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] El hambre como arma](https://www.razon.com.mx/opinion/2026/08/05/el-hambre-como-arma/) — *2026-08-05*
+  > razon.com.mx · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Madonna della Neve la celebrazione alla Cappella Brocchi](https://www.zazoom.it/2026-08-05/madonna-della-neve-la-celebrazione-alla-cappella-brocchi/19538083/) — *2026-08-05*
+  > zazoom.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] DBH Maluku Tengah 2026 Tembus Rp 2 , 71 Miliar , Penyalurannya Dibawah Rata - rata Nasional](https://batam.tribunnews.com/news/691789/dbh-maluku-tengah-2026-tembus-rp-271-miliar-penyalurannya-dibawah-rata-rata-nasional) — *2026-08-05*
+  > batam.tribunnews.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Houthis Claim Missile Attack On Saudi Oil Tanker In Red](https://www.marinelink.com/news/houthis-claim-missile-attack-saudi-oil-541788) — *2026-08-05*
+  > marinelink.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 8月5日收评 ： 半导体板块爆发 _ 中金在线财经号](http://mp.cnfol.com/8714/article/1785915599-142615351.html) — *2026-08-05*
+  > mp.cnfol.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Malaysia Taiyo Biomass to launch EFB plant in Sep](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2861177-malaysia-s-taiyo-biomass-to-launch-efb-plant-in-sep) — *2026-08-05*
+  > argusmedia.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Rakett fra SpaceX har truffet månen](https://www.nrk.no/urix/rakett-fra-spacex-har-truffet-manen-1.17979337) — *2026-08-05*
+  > nrk.no · Norwegian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] BP Q2 2026 profit surges 124 % to $4 . 33bn](https://finance.yahoo.com/energy/articles/bp-q2-2026-profit-surges-085251476.html) — *2026-08-05*
+  > finance.yahoo.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Versión femenina en programas sociales](https://laverdad.com.mx/2026/08/version-femenina-en-programas-sociales/) — *2026-08-05*
+  > laverdad.com.mx · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Levelled twice , rising again : The remarkable comeback of LeBreton Flats](https://ottawacitizen.com:443/news/comeback-lebreton-flats) — *2026-08-05*
+  > ottawacitizen.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] DBH Maluku Tenggara Barat 2026 Tembus Rp 1 , 82 Miliar , Penyalurannya Dibawah Rata - rata Nasional](https://batam.tribunnews.com/news/691787/dbh-maluku-tenggara-barat-2026-tembus-rp-182-miliar-penyalurannya-dibawah-rata-rata-nasional) — *2026-08-05*
+  > batam.tribunnews.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Manyasta ayçiçeği ekiminde artış : rekolte 3 bin 500 tona yakın](https://www.haberport.com/haber/manyasta-aycicegi-ekiminde-artis-rekolte-3-bin-500-tona-yakin/3195) — *2026-08-05*
+  > haberport.com · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Enriquecidas Remesas Familiares](https://laverdad.com.mx/2026/08/enriquecidas-remesas-familiares/) — *2026-08-05*
+  > laverdad.com.mx · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] ضغوط مزدوجة على النفط .. وفرة الإمدادات المحتملة وارتفاع مخزونات أمريكا تهبطان بالأسعار](http://www.non14.net/190589) — *2026-08-05*
+  > non14.net · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Museum expands Library Pass Program to Cochranton , Linesville](https://www.meadvilletribune.com/news/museum-expands-library-pass-program-to-cochranton-linesville/article_0ff18a5d-ed5d-466f-8460-d8f7490f48d7.html) — *2026-08-05*
+  > meadvilletribune.com · English · tone NA
 
 _(25 additional items in raw.jsonl)_

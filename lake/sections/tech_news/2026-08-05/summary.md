@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-05
 record_count: 57
-new_today: 43
+new_today: 44
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-43 new of 57 total items today.
+44 new of 57 total items today.
 
 - **NEW**  [[The Hacker News] Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself](https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html) — *2026-08-05*
   > An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.
@@ -26,6 +26,9 @@ The list of vulnerabilities is as follows -
   > Cybersecurity researchers have disclosed what has been described as a "long-standing supply chain attack" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.
 
 According to Fortinet FortiGuard Labs, the supply chain attac
+- **NEW**  [[Schneier on Security] Vulnerabilities in Car Anti-Theft Device](https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html) — *2026-08-05*
+  > This is disturbing:
+&#8230;a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send 
 - **NEW**  [[The Register] Double trouble for Microsoft as pre-owned software licenses claims converge](https://www.theregister.com/saas/2026/08/05/double-trouble-for-microsoft-as-pre-owned-software-licenses-claims-converge/5282421) — *2026-08-05*
   > Tribunal to explore how £270 million reseller case intersects with multibillion-pound class action
 - **NEW**  [[The Register] New Boeing finally gets going, 15 years after debut](https://www.theregister.com/offbeat/2026/08/05/new-boeing-finally-gets-going-15-years-after-debut/5283213) — *2026-08-05*
@@ -73,7 +76,5 @@ SafeDep verified 353 poisoned versions across 79 package names in the npm regist
   > The designation, announced last week, came a day after Russia's Federal Security Service (FSB) charged Durov with aiding terrorist activity and said it would seek to place him on an international wanted list. The agency accused Telegram of failing to remove channels and bots alle
 - **NEW**  [[The Record] Apple launches new legal challenge against UK over iCloud access](https://therecord.media/apple-uk-tcn-icloud-new-legal-challenge) — *2026-08-04*
   > Seeking to protect users' iCloud accounts, Apple is reportedly mounting a new challenge to British legal demands for ways around the company's Advanced Data Protection feature.
-- **NEW**  [[Cybersecurity Dive] Tech industry alliance proposes AI agent safety reporting program](https://www.cybersecuritydive.com/news/ai-agent-security-exchange-linux-foundation/826940/) — *2026-08-04*
-  > The information-sharing exchange is designed to widely share lessons learned from agentic AI security incidents.
 
 _(32 additional items in raw.jsonl)_
