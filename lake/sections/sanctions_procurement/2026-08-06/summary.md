@@ -2,23 +2,27 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-06
-record_count: 99
-new_today: 7
+record_count: 101
+new_today: 9
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-7 new of 99 total items today.
+9 new of 101 total items today.
 
+- **NEW**  [[OFAC] Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4YjQ1NnltTko0QWJxQ1RFWjdfcHhSQmo0V1NPM3Zmamc3M1BoYlNsOG9VeEktSEZfMmhOZG96c2RoVGhLMW5KQ2FUYTc3Zk5lbWU0azYyNWtQMXhVbWc?oc=5" target="_blank">Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question</a
 - **NEW**  [[OFAC] Counter Terrorism Designations Removals and Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-05*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE00cU1PY0YyQ2QwakJHRWQ1UzA3LW80b0h0b3F1QVEtdGJoeFRmcnVLbHVrd2FzMG01LWVGdnFIYlBUNHprMG5ENjQxTThyTXlVb0h3NzVGTVh6bUxwSWc?oc=5" target="_blank">Counter Terrorism Designations Removals and Update</a>&nbsp;&nbsp;<font color="#
 - [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IWGx5VlA1dHJkNG1qMUpGOWtqUGcwekdHU0haaEVSN2lJVlBVZ3laeHp4RFpuOXJZNW9nS1Zxa1pPLUZPMWpUZEpHd0xpcHpXdE0zOUstSzNJNjBDZFE?oc=5" target="_blank">Issuance of Amended Venezuela-related General License and Frequently Asked Quest
-- [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
+- **NEW**  [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3pwSTJTd1YteXc5Smh2UlpsVFE2eGpGLXA1VVhxNXlZeTYtQ1JHdDItaDlKdDlfTzNmeHk2ZkpJekkzNnh1UnFmXzR3c3A4LVd5NDFZMGNuR0U?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfME94Qk5mb081SG5yN1F0Z2M2WEdEWXl3cHpzckxmV0p5blZha21Xd1VQSlhRTFdETGRteW9LSHRRT2NtT2s5X0dIVFd3VU4tcklFVUtTaFd6aUhUY0FJR2FrTXE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
+- [[OFAC] Counter Terrorism Designations; Non-Proliferation Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-07-30*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wT2xrZVowWGdOc1ZDNVg1dlNrR0JqZDFYT2dzZExVUDBaMGN6Y0FYRDFLamxSWm9nQk9UR1MtRzh3VzlsczV2cER0emlBWGRuNDhhREw1al85a0N5a2c?oc=5" target="_blank">Counter Terrorism Designations; Non-Proliferation Designation Update</a>&nbsp;&n
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-06*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
 - [[FARA] Criminal Division | Whistleblower Awards Pilot Program - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-31*
@@ -57,9 +61,5 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)
 - [[USASpending] $2,533,722,927 → UNITED CLEANUP OAK RIDGE LLC: OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS](https://www.usaspending.gov/award/89303523FEM400032) — *2026-08-06*
   > Agency: Department of Energy.  Description: OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS
-- [[USASpending] $2,496,240,520 → FERMI FORWARD DISCOVERY GROUP, LLC: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACC](https://www.usaspending.gov/award/89243024CSC000002) — *2026-08-06*
-  > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY (FNAL)
-- [[USASpending] $2,188,408,942 → THE TRUSTEES OF PRINCETON UNIVERSITY: MANAGEMENT AND OPERATING CONTRACT FOR THE OPERATION OF THE P](https://www.usaspending.gov/award/DEAC0209CH11466) — *2026-08-06*
-  > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE OPERATION OF THE PRINCETON PLASMA PHYSICS LABORATORY (PPPL)
 
-_(74 additional items in raw.jsonl)_
+_(76 additional items in raw.jsonl)_

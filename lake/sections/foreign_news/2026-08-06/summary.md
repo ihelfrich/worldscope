@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-06
-record_count: 1049
-new_today: 785
+record_count: 1098
+new_today: 859
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-785 new of 1049 total items today.
+859 new of 1098 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-06*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-06*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-06*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] In Odesa, no-one is safe from Russia's new Black Sea strikes](https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > Blackened ships and smashed docks mark Russia's recent surge of attacks on Ukraine's coastline.
-- **NEW**  [[Global] Iran says deal with Oman on Strait of Hormuz is in final stages](https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > Neither the US or Oman have commented on the proposed agreement on the vital waterway.
-- **NEW**  [[Global] Indian journalist Tarun Tejpal convicted in 2013 rape case](https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > The Goa bench of the Bombay High Court overturned a 2021 trial court verdict clearing Tejpal of all charges.
-- **NEW**  [[Global] Iranian footballers who defied Tehran become Australian citizens](https://www.bbc.co.uk/news/articles/cn5nlgxv6vdo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > They were among seven members of Iran's team to be granted humanitarian visas while in Australia for the Women's Asian Cup - but the other five changed their minds and returned home.
-- **NEW**  [[Global] Rihanna is 'in the studio', says partner A$AP Rocky](https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > The singer, who last released a full album in 2016, is in the studio and "cooking", her partner said.
-- **NEW**  [[Global] Outrage as Ugandan football captain beaten to death in street gang attack](https://www.bbc.co.uk/news/articles/cm2g0038yr8o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > The 27-year-old was killed by suspected robbers after resisting an attempt to rob him, police say.
-- **NEW**  [[Global] Air India's new CEO faces financial and safety turbulence](https://www.bbc.co.uk/news/articles/c9987kkrnl5o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > The aftermath of last's year deadly crash and mounting financial losses will be Gebremariam's main challenges.
-- **NEW**  [[Global] Afghan boxer accused of killing Scottish aid worker back in court](https://www.bbc.co.uk/news/articles/cj6390k0e26o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > Sharif Ahmadzai, who is 26 and from Afghanistan, faces charges of homicide with intent, robbery and weapons offences.
-- **NEW**  [[Global] Nigerian security forces rescue more than 300 abductees](https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > The government says the rescue is the country's largest single-day operation by joint security forces.
-- **NEW**  [[Global] After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives](https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages.
-- **NEW**  [[Global] Meta becomes latest firm to say its AI hacked another company](https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.
-- **NEW**  [[Global] Drone carrying explosives found at German airport, police say](https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > The drone was found near Ukrainian cargo planes before another object collided with a cargo aircraft in mid-air.
-- **NEW**  [[Global] Israel strikes south Lebanon after two soldiers killed by explosion](https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Lebanese authorities says one person was killed in the strikes, which came after the first Israeli military fatalities in Lebanon in more than a month.
-- **NEW**  [[Global] Ex-leader Hasina gambles on return to Bangladesh despite death penalty](https://www.bbc.co.uk/news/articles/cvg9j8820v6o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > The 78-year-old has been convicted of crimes against humanity over a deadly crackdown on a 2024 uprising.
-- **NEW**  [[Global] Youth protests have weakened Modi, Indian activist who went on hunger strike tells BBC](https://www.bbc.co.uk/news/articles/cn7nkyr1j7ro?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > The "cockroach" movement was one of the biggest public displays of dissent against India's prime minister in years.
-- **NEW**  [[Global] UN rights chief alarmed by rise in Iran executions since March](https://www.bbc.co.uk/news/articles/c75gvzxrz49o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Volker Türk says 56 people have been executed on national security-related charges, including 27 in cases linked to January's protests.
-- **NEW**  [[Global] Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon](https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > While the collision was an accident, it is a unique scientific gift for planetary geologists that could provide important data for future space missions.
-- **NEW**  [[Global] Waste workers help winner find binned €1m lottery ticket in Italy](https://www.bbc.co.uk/news/articles/c62qvll0z94o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > The player only realised they binned the life-changing ticket after family told them the numbers he played for years had been drawn.
-- **NEW**  [[Global] South Africa plans new rules on ex-leaders' foreign trips after Zuma's visit to India](https://www.bbc.co.uk/news/articles/c1e14lj7vg7o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Jacob Zuma was pictured with a businessmen allegedly at the heart of a corruption scandal in South Africa
-- **NEW**  [[Global] Banned from football at home, Afghan women's team reunite 8,000 miles away](https://www.bbc.co.uk/news/articles/c8dnrpmgv4yo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Women in the team, which is recognised by Fifa, say football has given them freedom and independence.
-- **NEW**  [[Global] El-Sayed's victory sends tremors through Democratic Party](https://www.bbc.co.uk/news/articles/cp309ng0xq1o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > His win in Michigan sets up a high-stakes contest in November, testing a left-wing candidate's popularity in a swing state.
-- [[Global] 'My grandmother subjected my baby to female genital mutilation behind my back'](https://www.bbc.co.uk/news/articles/c3r0vp7n0pro?at_medium=RSS&at_campaign=rss) — *2026-08-04*
-  > In Colombia, where FGM is still practised by some members of an indigenous group, a landmark bill banning the practice has been enacted.
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-06*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] How Abdul El-Sayed’s ‘extraordinary’ win stunned pro-Israel establishment](https://www.aljazeera.com/news/2026/8/6/how-abdul-el-sayeds-extraordinary-win-stunned-pro-israel-establishment?traffic_source=rss) — *2026-08-06*
+  > Michigan progressive fended off AIPAC as well as Democratic establishment in US Senate race, supporters say.
+- **NEW**  [[Global] Far-right fitness clubs mask extremist recruitment, experts warn](https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_nationalism-3-0-nils-adler-060826?traffic_source=rss) — *2026-08-06*
+  > Al Jazeera&#039;s Nils Adler reports on how far-right &#039;Active Clubs&#039; use fitness and camaraderie to recruit young white men.
+- **NEW**  [[Global] Trump signs new executive orders seeking to limit US birthright citizenship](https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss) — *2026-08-06*
+  > The US president&#039;s latest effort comes after Supreme Court ruled against his push to reinterpret constitutional right.
+- **NEW**  [[Global] Toronto police arrest two in US Consulate shooting investigation](https://www.aljazeera.com/news/2026/8/6/toronto-police-arrest-two-in-us-consulate-shooting-investigation?traffic_source=rss) — *2026-08-06*
+  > Suspects recruited via encrypted app and offered money for violent acts, Toronto police reveal after arrests.
+- **NEW**  [[Global] US diplomat Rubio targets Cuban military officials, companies in sanctions](https://www.aljazeera.com/news/2026/8/6/us-diplomat-rubio-targets-cuban-military-officials-companies-in-sanctions?traffic_source=rss) — *2026-08-06*
+  > US says the five entities and eight individuals sanctioned help Cuba acquire military equipment from Russia and China.
+- **NEW**  [[Global] Fire engulfs earthquake housing site in Turkiye](https://www.aljazeera.com/video/newsfeed/2026/8/6/fire-engulfs-earthquake-housing-site-in-turkiye?traffic_source=rss) — *2026-08-06*
+  > A fire broke out at a workers&#039; accommodation camp at a construction site for earthquake housing in Hatay, Turkiye.
+- **NEW**  [[Global] WHO chief: Ebola outbreak in DRC spreading at ‘unprecedented rate’](https://www.aljazeera.com/video/newsfeed/2026/8/6/08-06-sv-ebola-update-funding-drc?traffic_source=rss) — *2026-08-06*
+  > The world&#039;s fastest-growing Ebola outbreak has killed 1,751 people in DR Congo.
+- **NEW**  [[Global] How fragile is Lebanon’s uneasy peace?](https://www.aljazeera.com/video/inside-story/2026/8/6/how-fragile-is-lebanons-uneasy?traffic_source=rss) — *2026-08-06*
+  > Israel goes on the attack after the first soldiers are killed since ceasefire began two months ago.
+- **NEW**  [[Global] US Senator McConnell says he’s been discharged from rehabilitation centre](https://www.aljazeera.com/news/2026/8/6/us-senator-mcconnell-says-hes-been-discharged-from-rehabilitation-centre?traffic_source=rss) — *2026-08-06*
+  > Republican senator has not been seen in public since mid-June, sparking criticism of transparency over his condition.
+- **NEW**  [[Global] Israeli settler charged over Palestinian activist’s killing](https://www.aljazeera.com/video/newsfeed/2026/8/6/israeli-settler-charged-over-palestinian-activists-killing?traffic_source=rss) — *2026-08-06*
+  > Israeli prosecutors have charged a settler with “reckless manslaughter” in the killing of prominent Palestinian activist
+- **NEW**  [[Global] Deadly explosion on minibus near Damascus](https://www.aljazeera.com/video/newsfeed/2026/8/6/deadly-explosion-on-minibus-near-damascus?traffic_source=rss) — *2026-08-06*
+  > Two people were killed and 13 injured when an explosion ripped through a minibus in Jaramana, southeast of Damascus.
+- **NEW**  [[Global] US ends cap on local TV station owners amid concerns of media consolidation](https://www.aljazeera.com/economy/2026/8/6/us-ends-cap-on-local-tv-station-owners-amid-concerns-of-media-consolidation?traffic_source=rss) — *2026-08-06*
+  > Critics say the 39 percent cap was a safeguard against excessive concentration of media ownership in the US.
+- **NEW**  [[Global] Vinicius Jr extends Real Madrid deal to 2032, ending transfer speculation](https://www.aljazeera.com/sports/2026/8/6/vinicius-jr-extends-real-madrid-deal-to-2032-ending-transfer-speculation?traffic_source=rss) — *2026-08-06*
+  > The 26-year-old Brazil international had been linked with a move to English champions Arsenal.
+- **NEW**  [[Global] Israeli attacks wound eight in Lebanon despite Rome talks](https://www.aljazeera.com/news/2026/8/6/israeli-attacks-wound-eight-in-lebanon-despite-rome-talks?traffic_source=rss) — *2026-08-06*
+  > Israel launches strikes on southern Lebanon&#039;s Tyre as third day of the seventh round of US-brokered talks concludes.
+- **NEW**  [[Global] Sudan war threatens ancient Meroe pyramids](https://www.aljazeera.com/video/newsfeed/2026/8/6/sudan-war-threatens-ancient-meroe-pyramids?traffic_source=rss) — *2026-08-06*
+  > Sudan’s ongoing war is endangering the ancient Meroe pyramids, which are a UNESCO World Heritage Site.
+- **NEW**  [[Global] The biggest AI bill for parents yet?](https://www.aljazeera.com/video/newsfeed/2026/8/6/aje-onl-nf_-final-dnrexp-260805-withrowe-chatbotact-060826?traffic_source=rss) — *2026-08-06*
+  > Congress is pushing a new bill forward that would give parents the power over their kid’s interactions with AI chatbots.
+- **NEW**  [[Global] CDC says US salmonella outbreak tied to jalapeno peppers from Mexico](https://www.aljazeera.com/news/2026/8/6/cdc-says-us-salmonella-outbreak-tied-to-jalapeno-peppers-from-mexico?traffic_source=rss) — *2026-08-06*
+  > Salmonella outbreak sickens hundreds across 27 US states.
+- **NEW**  [[Global] Ceuta’s leader says 100 died in border rush as up to 5,000 still in enclave](https://www.aljazeera.com/news/2026/8/6/ceutas-leader-says-100-died-in-border-rush-as-up-to-5000-still-in-enclave?traffic_source=rss) — *2026-08-06*
+  > After migrant surge from Morocco, EU says Spain assured Schengen is safe but warns Europe&#039;s borders are &#039;vulnerable&#039;.
+- **NEW**  [[Global] Poll suggests US adults are facing increased strain from extreme heat](https://www.aljazeera.com/news/2026/8/6/poll-suggests-us-adults-are-facing-increased-strain-from-extreme-heat?traffic_source=rss) — *2026-08-06*
+  > More than half of Americans told the AP-NORC poll that climate change is happening, a slight decline from last year.
+- **NEW**  [[Global] Women expose rape as a weapon of war in Sudan](https://www.aljazeera.com/video/newsfeed/2026/8/6/women-expose-rape-as-a-weapon-of-war-in-sudan?traffic_source=rss) — *2026-08-06*
+  > Women displaced by Sudan&#039;s war are speaking publicly about surviving rape by Rapid Support Forces fighters.
+- **NEW**  [[Global] Houthis launch deadly attacks on Saudi-led coalition forces in Yemen](https://www.aljazeera.com/video/newsfeed/2026/8/6/06-08-reported-ansarallah-yemen-yn?traffic_source=rss) — *2026-08-06*
+  > Yemen&#039;s Houthis say they launched drones and ballistic missiles in Marib and Hadramout.
+- **NEW**  [[Global] Two killed, several wounded in minibus blast near Syria’s Damascus](https://www.aljazeera.com/news/2026/8/6/blast-hits-vehicle-on-outskirts-of-syrias-damascus-state-media?traffic_source=rss) — *2026-08-06*
+  > Body parts found at scene and at least 14 wounded after explosion on minibus in town of Jaramana, Health Ministry says.
 
-_(1024 additional items in raw.jsonl)_
+_(1073 additional items in raw.jsonl)_

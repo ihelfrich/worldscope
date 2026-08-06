@@ -3,38 +3,38 @@ section: courtlistener
 title: Court opinions of consequence (federal & state)
 date: 2026-08-06
 record_count: 60
-new_today: 32
+new_today: 50
 state: fresh
 ---
 
 ## Court opinions of consequence (federal & state)
 
-32 new of 60 total items today.
+50 new of 60 total items today.
 
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: DoorDash, Inc. v. City of New York](https://www.courtlistener.com/opinion/10940028/doordash-inc-v-city-of-new-york/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: United States Ex Rel. Chiles v. Cooke Inc.](https://www.courtlistener.com/opinion/10940027/united-states-ex-rel-chiles-v-cooke-inc/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: Davita M. Key v. Dynamic Security, Inc.](https://www.courtlistener.com/opinion/10940229/davita-m-key-v-dynamic-security-inc/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: United States v. Augustus C. Romain, Jr.](https://www.courtlistener.com/opinion/10940150/united-states-v-augustus-c-romain-jr/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: L.E. v. Superintendent of Cobb County School District](https://www.courtlistener.com/opinion/10940037/le-v-superintendent-of-cobb-county-school-district/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: United States v. Alexander Alli](https://www.courtlistener.com/opinion/10939974/united-states-v-alexander-alli/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: United States v. Marcus Ryan Telfair](https://www.courtlistener.com/opinion/10939957/united-states-v-marcus-ryan-telfair/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 9th Cir.: Committee for a Better Arvin v. United States Environmental Protection Agency](https://www.courtlistener.com/opinion/10940137/committee-for-a-better-arvin-v-united-states-environmental-protection/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 9th Cir.: Inland Empire Waterkeeper v. Corona Clay Company](https://www.courtlistener.com/opinion/10940136/inland-empire-waterkeeper-v-corona-clay-company/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Chapman](https://www.courtlistener.com/opinion/10940135/united-states-v-chapman/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: Thomas Riles v. Officer Laralyn Koster](https://www.courtlistener.com/opinion/10940035/thomas-riles-v-officer-laralyn-koster/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Latroy Currie](https://www.courtlistener.com/opinion/10940034/united-states-v-latroy-currie/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Todd Sutton, Jr.](https://www.courtlistener.com/opinion/10940033/united-states-v-todd-sutton-jr/) — *2026-08-05*
+- **NEW**  [Delaware Supreme Court: Fox News Network, LLC v. Gavin C. Newsom](https://www.courtlistener.com/opinion/10940984/fox-news-network-llc-v-gavin-c-newsom/) — *2026-08-06*
+- **NEW**  [Delaware Supreme Court: Sussex County Planning & Zoning Commission v. Smokey Hollow, LLC](https://www.courtlistener.com/opinion/10940926/sussex-county-planning-zoning-commission-v-smokey-hollow-llc/) — *2026-08-06*
+- **NEW**  [Supreme Court of California: Gorobets v. Jaguar Land Rover North America, LLC](https://www.courtlistener.com/opinion/10940921/gorobets-v-jaguar-land-rover-north-america-llc/) — *2026-08-06*
+- **NEW**  [Supreme Court of California: People v. Hyatt](https://www.courtlistener.com/opinion/10940920/people-v-hyatt/) — *2026-08-06*
+- **NEW**  [D.C. Court of Appeals: Ball v. Hubbard](https://www.courtlistener.com/opinion/10940812/ball-v-hubbard/) — *2026-08-06*
+- **NEW**  [D.C. Court of Appeals: Hatcherson-Ross v. United States](https://www.courtlistener.com/opinion/10940811/hatcherson-ross-v-united-states/) — *2026-08-06*
+- **NEW**  [D.C. Court of Appeals: Hawkins v. United States](https://www.courtlistener.com/opinion/10940810/hawkins-v-united-states/) — *2026-08-06*
+- **NEW**  [D.C. Court of Appeals: Quinn, Racusin & Gazzola Chartered v. Pavich Law Group, P.C.](https://www.courtlistener.com/opinion/10940809/quinn-racusin-gazzola-chartered-v-pavich-law-group-pc/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Demond Liles v. V. Michael Fisher](https://www.courtlistener.com/opinion/10941318/demond-liles-v-v-michael-fisher/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Kathleen Sullivan v. Timothy Miller](https://www.courtlistener.com/opinion/10941316/kathleen-sullivan-v-timothy-miller/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Larry Richardson v. Nathan Falk](https://www.courtlistener.com/opinion/10941315/larry-richardson-v-nathan-falk/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: In Re: Koi Design LLC v. Marron Lawyers, Apc](https://www.courtlistener.com/opinion/10940847/in-re-koi-design-llc-v-marron-lawyers-apc/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: Scannell Properties 516 v. City of Edwardsville, Kansas](https://www.courtlistener.com/opinion/10940915/scannell-properties-516-v-city-of-edwardsville-kansas/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: Scholl v. Walgreens Specialty Pharmacy](https://www.courtlistener.com/opinion/10940914/scholl-v-walgreens-specialty-pharmacy/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: Dish Network L.L.C. v. Gaby Fraifer](https://www.courtlistener.com/opinion/10941326/dish-network-llc-v-gaby-fraifer/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 1st Cir.: United States v. Cooper](https://www.courtlistener.com/opinion/10941479/united-states-v-cooper/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Damond Wiley, Jr.](https://www.courtlistener.com/opinion/10941323/united-states-v-damond-wiley-jr/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Rishi Shah](https://www.courtlistener.com/opinion/10941322/united-states-v-rishi-shah/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Shradha Agarwal](https://www.courtlistener.com/opinion/10941321/united-states-v-shradha-agarwal/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Thomas Duncan](https://www.courtlistener.com/opinion/10940803/united-states-v-thomas-duncan/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: Kristine Williams v. MO Department of Corrections](https://www.courtlistener.com/opinion/10940846/kristine-williams-v-mo-department-of-corrections/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: Rustico Lacsina v. Todd Blanche](https://www.courtlistener.com/opinion/10940845/rustico-lacsina-v-todd-blanche/) — *2026-08-06*
+- **NEW**  [Delaware Supreme Court: Norwood v. State](https://www.courtlistener.com/opinion/10940857/norwood-v-state/) — *2026-08-05*
 - **NEW**  [Delaware Supreme Court: Walker, Cedasha v. Department of Services for Children, Youth and Their Families, Division of Family Services TPR](https://www.courtlistener.com/opinion/10939961/walker-cedasha-v-department-of-services-for-children-youth-and-their/) — *2026-08-05*
 - **NEW**  [U.S. Court of Appeals, 6th Cir.: John Ewalt v. Gatehouse Media Ohio Holdings](https://www.courtlistener.com/opinion/10940228/john-ewalt-v-gatehouse-media-ohio-holdings/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 6th Cir.: Marion Sinclair v. Andrew Meisner](https://www.courtlistener.com/opinion/10940227/marion-sinclair-v-andrew-meisner/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 6th Cir.: Mark Charlton-Perkins v. Univ. of Cincinnati](https://www.courtlistener.com/opinion/10940226/mark-charlton-perkins-v-univ-of-cincinnati/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Dupont Water Company, Inc. v. City of Madison, Indiana](https://www.courtlistener.com/opinion/10940323/dupont-water-company-inc-v-city-of-madison-indiana/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: Elizabeth Schulte v. Kenneth Leners](https://www.courtlistener.com/opinion/10940322/elizabeth-schulte-v-kenneth-leners/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Miguel A. Morales-Garcia](https://www.courtlistener.com/opinion/10940321/united-states-v-miguel-a-morales-garcia/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Ausarian Carney](https://www.courtlistener.com/opinion/10940189/united-states-v-ausarian-carney/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Dominque Maxwell](https://www.courtlistener.com/opinion/10940188/united-states-v-dominque-maxwell/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Frank Smith](https://www.courtlistener.com/opinion/10940187/united-states-v-frank-smith/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Sean Clemon](https://www.courtlistener.com/opinion/10940186/united-states-v-sean-clemon/) — *2026-08-05*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Shawn Pena](https://www.courtlistener.com/opinion/10940185/united-states-v-shawn-pena/) — *2026-08-05*
 
 _(35 additional items in raw.jsonl)_

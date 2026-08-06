@@ -2,64 +2,59 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-06
-record_count: 225
-new_today: 195
+record_count: 273
+new_today: 261
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-195 new of 225 total items today.
+261 new of 273 total items today.
 
-- **NEW**  [[St. Louis] Where in the Lou? – 8/6/2026](https://www.stlmag.com/games/where-in-the-lou-080626/) — *2026-08-06*
-  > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
-- **NEW**  [[St. Louis] Gamlin’s restaurant opens in Maplewood](https://www.stlmag.com/dining/gamlins-restaurant-to-open-in-maplewood-early-next-year/) — *2026-08-06*
-  > <p>The long-awaited Gamlin’s (2704 Sutton) opened on August 4 in downtown Maplewood, marking restaurateur Derek Gamlin’s return to the industry after a five-year absence. Located in the former Elmwood space, the restaurant brings Gamlin together with longtime friend and business 
-- **NEW**  [[St. Louis] St. Louis restaurant openings, closings, and coming soons](https://www.stlmag.com/dining/st-louis-restaurant-openings-closings-coming-soon/) — *2026-08-05*
-  > <p>The following information is accurate as of an early-August press date. Eight restaurant closures in July (including the shutdown of the long-running downtown Syberg&#8217;s) were more than offset by 14 openings, among them Malo, Jordan Goodman&#8217;s newest restaurant in The
-- **NEW**  [[St. Louis] Where in Clayton 8/6/2026](https://www.stlmag.com/games/where-in-clayton-080626/) — *2026-08-05*
-  > <p>Let&#8217;s see how well you know Clayton. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer 
-- **NEW**  [[St. Louis] Top things to do in St. Louis this weekend: August 7–9](https://www.stlmag.com/culture/top-events-in-st-louis-this-weekend/) — *2026-08-05*
-  > <p>Two Gentlemen of Verona &#124; August 4–September 6 TourCo, the late-summer arm of St. Louis Shakespeare Festival, kicks off this week with a traveling production of “Shakespeare’s original rom-com.” It’s performed at parks across the region, with this weekend’s shows at Heman
-- **NEW**  [[St. Louis] St. Louis patients share the medical breakthroughs that changed their lives](https://www.stlmag.com/health/medical-breakthroughs/) — *2026-08-05*
-  > <p>LISTEN TO YOUR HEART As the manager of a cardiac catheterization lab and diagnostic cardiology department, Jill Steiger thought she knew how to avoid becoming a heart disease patient. However, with a family history of heart problems, she also knew not to ignore indicators, whi
-- **NEW**  [[St. Louis] NashPad brings basement concerts to Dogtown](https://www.stlmag.com/culture/music/nashpad-basement-concerts-dogtown/) — *2026-08-05*
-  > <p>Message for the address. Pay what you can. Take what you need. That&#8217;s the invitation to one of St. Louis&#8217; newest music venues: NashPad, a Dogtown basement where local bands play to small crowds, bottled water and earplugs are free, and the goal is simple: make live
-- **NEW**  [[St. Louis] Space Quaker celebrates debut album, ‘First Day,’ with Off Broadway release show](https://www.stlmag.com/culture/music/space-quaker-first-day/) — *2026-08-05*
-  > <p>On August 7, Space Quaker celebrates its debut album, First Day, with a record release show at Off Broadway (3509 Lemp). Especially for a debut, First Day is a densely constructed work, with layers of horns and keyboards dramatizing lead singer/guitarist Robin Harvey’s songs. 
-- **NEW**  [[St. Louis] A house in Skinker-Debaliviere hits the market](https://www.stlmag.com/design/property/5745-lindell-boulevard-debaliviere/) — *2026-08-05*
-  > <p>A Piece of HistoryLocated on Lindell across from the Probstein golf course, this magnificent home appears straight out of a fairytale. Nestled between the Central West End and Clayton neighborhoods, it features front-row views of Forest Park. Traditional LuxuryThis home’s livi
-- **NEW**  [[St. Louis] How St. Louis CITY SC won over Carlo Holse and is selling a new vision to top talent](https://www.stlmag.com/news/sports/st-louis-city-sc-carlo-holseand-recruiting/) — *2026-08-05*
-  > <p>St. Louis CITY SC sporting director Corey Wray wasn’t shy about the scope of work ahead of him when he took over the role last November. Wray laid out his priorities, built out his support staff, hired a manager who aligns with the club&#8217;s vision, and realigned a scouting
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-08-06*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- **NEW**  [[St. Louis] Senate panel to vote on holding Fauci in contempt for refusing to answer questions](https://www.ksdk.com/article/news/nation-world/anthony-fauci-senate/507-cd7cdea0-f010-4213-83f7-de7cd356312f) — *2026-08-06*
-  > Fauci invoked his Fifth Amendment right against self-incrimination more than 100 times when he appeared before the Senate committee.
-- **NEW**  [[St. Louis] Did anyone win the $786M Powerball? Here are winning numbers for Wednesday, Aug. 5](https://www.ksdk.com/article/news/lottery/powerball-winning-numbers-wednesday-august-5-2026/507-0c17e255-610f-4008-805a-a260512baa47) — *2026-08-06*
-  > The lump sum value of Wednesday's jackpot was $341.6 million before taxes.
-- **NEW**  [[St. Louis] Southwest Airlines passenger called flight attendant his 'angel' minutes before she helped save his life](https://www.ksdk.com/article/news/nation-world/southwest-airlines-passenger-flight-attendant-helped-save-his-life/507-34b67887-2002-415a-8834-41a42a187a0f) — *2026-08-06*
-  > “Everyone was exactly where they should have been that day,” said Southwest flight attendant Nina Castro. “It’s a miracle.”
-- **NEW**  [[St. Louis] Missouri voters send clear signal by striking down Amendments 4 and 5](https://www.ksdk.com/article/news/local/missouri-voters-send-clear-signal-by-striking-down-amendments-4-and-5/63-9f5feba9-79b7-4c8e-bada-13f7b8600a82) — *2026-08-06*
-  > The landslide primary vote blocks changes to the citizen initiative process and halts a controversial proposal to eliminate the state income tax.
-- **NEW**  [[St. Louis] Alton mayor secures temporary restraining order in staff appointment dispute with aldermen; city chooses legal counsel](https://www.ksdk.com/article/news/local/alton-mayor-secures-temporary-restraining-order-in-staff-appointment-dispute-with-aldermen-city-chooses-legal-counsel/63-b23500db-be5a-44be-9ca1-e1ba02dd66ec) — *2026-08-06*
-  > A judge granted the mayor a temporary restraining order, and the aldermen hired an attorney as residents urge local government unity.
-- **NEW**  [[St. Louis] 'Operation Eau de Fraud': Chicago man accused of $250,000 luxury fragrance scam](https://www.ksdk.com/article/news/nation-world/luxury-fragrance-scam-quarter-million-dollar-chicago/507-f87968aa-596c-4e60-9b45-2f1d1c506091) — *2026-08-06*
-  > A YouTuber who reviewed fragrances for thousands of subscribers was arrested after allegedly swapping pricey fragrances with clay and used bottles.
-- **NEW**  [[St. Louis] Michael B. Jordan reacts to Oklahoma woman who added his photo to her family photo wall](https://www.ksdk.com/article/news/nation-world/michael-b-jordan-reacts-family-photo-wall-grandson/507-4e4498c2-e2e4-4394-89d3-0775c7beb36f) — *2026-08-06*
-  > Mary Story framed a magazine photo of the actor and displayed it with photos of her grandchildren.
-- **NEW**  [[St. Louis] Webster Groves employees used city funds for trips to strip clubs and cannabis store, state investigation finds](https://www.ksdk.com/article/news/local/missouri-webster-groves-audit-employees-used-city-funds-strip-clubs-cannabis-store/63-a6abd969-ddb2-4e9e-b2a0-0b4af3f59a8c) — *2026-08-05*
-  > State Auditor Scott Fitzpatrick says weak oversight allowed more than $4,300 in improper purchases and says the city manager should have caught the spending sooner.
-- **NEW**  [[St. Louis] Prosecutors seek adult murder charge against 15-year-old accused of killing man while dressed as clown in East St. Louis](https://www.ksdk.com/article/news/crime/east-st-louis-teen-clown-fatal-stabbing-illinois/63-f11014cd-7b35-47ae-9399-d97a72a8128b) — *2026-08-05*
-  > Ring camera footage captured the clown approaching a home, looking into the camera and saying, “I have a gift for you.”
-- **NEW**  [[St. Louis] CDC: Salmonella outbreak linked to jalapeno peppers expands to 27 states](https://www.ksdk.com/article/news/nation-world/salmonella-outbreak-jalapeno-peppers-expands-chipotle-qdoba/507-45586ce4-6fda-4305-8c78-3987d1727e5f) — *2026-08-05*
-  > The CDC said the source of this multistate outbreak was jalapeno peppers from Sinaloa, Mexico, and distributed to places like Chipotle and QDOBA.
-- **NEW**  [[St. Louis] 'I need new underwear': Pilot startled after UPS plane strikes bird during takeoff](https://www.ksdk.com/article/news/nation-world/pilot-startled-ups-plane-bird-strike/507-aaf09a4e-9aca-4e9c-9c61-80cb9a544aa1) — *2026-08-05*
-  > The pilot said he experienced a few bird strikes in his career, but this one was much louder and at a much higher altitude.
-- **NEW**  [[St. Louis] Overland mayor vows not to sign ICE police partnership after deported local couple killed](https://www.ksdk.com/article/news/overland-mayor-vows-not-to-sign-ice-police-partnership-after-deported-local-couple-killed/63-37ffa0e0-9142-426c-b63a-3e2d938b385d) — *2026-08-05*
-  > Overland’s mayor vows local police won't partner with ICE. Marty Little says he refuses to sign a 287g agreement as he stands united with the Hispanic community.
-- **NEW**  [[St. Louis] Rapidly expanding drive-thru coffee chain launches its first mobile app](https://www.ksdk.com/article/news/nation-world/7-brew-coffee-chain-first-mobile-app-secret-menu/507-a41695b3-378d-4487-90cf-46cd31c61b18) — *2026-08-05*
-  > Fans of 7 Brew will soon be able to order their favorite drinks from their phones.
-- **NEW**  [[St. Louis] Suspect still at large a year after Clayton vehicle fire and antisemitic graffiti crime, police say](https://www.ksdk.com/article/news/local/missouri-antisemitic-suspect-at-large-year-after-clayton-vehicle-fire-graffiti-crime/63-08b4d328-7b1b-421d-82cd-b7cd48ef80eb) — *2026-08-05*
-  > The suspect set three cars on fire in a Clayton neighborhood and wrote antisemitic graffiti outside the home of a Jewish family in 2025, police said.
+- **NEW**  [[St. Louis] New Big Backyard Bash festival brings giant inflatables and family fun to St. Charles](https://www.stlmag.com/family/big-backyard-bash/) — *2026-08-06*
+  > <p>When Kayci Crew started traveling the country to work large events, she kept coming back to the same question every time she returned home to St. Louis: Why wasn&#8217;t there a festival built entirely around families spending the day together? &#8220;We have our county fairs.
+- **NEW**  [[St. Louis] Why educators say play is one of the most important parts of learning](https://www.stlmag.com/branded-content/how-play-helps-kids-learn/) — *2026-08-06*
+  > <p>For many children, play is often viewed as a break from learning. Educators, however, see it differently. &#8220;Play is the work of childhood,&#8221; says Steve Coxon, a professor and executive director of the Center for Access and Achievement at Maryville University. As part
+- **NEW**  [[St. Louis] How does play prepare children for handling life’s challenges?](https://www.stlmag.com/branded-content/how-play-supports-childrens-mental-health/) — *2026-08-06*
+  > <p>Anxiety, stress, and emotional challenges are becoming more common topics in conversations about childhood. According to Dr. Mini Tandon, a child and adolescent psychiatrist, one of the most powerful tools that children have for building emotional resilience is also one of the
+- **NEW**  [[St. Louis] How The Magic House’s ‘Play Together’ campaign is encouraging kids to play more often](https://www.stlmag.com/branded-content/why-play-together-matters/) — *2026-08-06*
+  > <p>Across St. Louis, educators and families are noticing the same challenge: Children are spending more time on screens and less time playing together. At The Magic House, the new “Play Together” campaign was created in response to that concern, encouraging families and communiti
+- **NEW**  [[St. Louis] Texas Roadhouse slated to open at Olive Crossing in Olivette](https://www.stlmag.com/dining/texas-roadhouse-slated-to-open-at-olive-crossing-in-olivette/) — *2026-08-06*
+  > <p>Texas Roadhouse is bringing its signature combination of hand-cut steaks, warm rolls, and value-priced meals to Olivette. The casual steakhouse chain has signed on as the newest retail tenant at Olive Crossing, the 14.8-acre mixed-use development on Olive Boulevard just west o
+- **NEW**  [[St. Louis] Local civic groups buy Kiener Plaza’s garages, with big plans for improvements](https://www.stlmag.com/business/local-civic-groups-buy-kiener-plaza-garages/) — *2026-08-06*
+  > <p>Two of downtown St. Louis’ most prominent parking garages are under local control after Arch to Park Equity Fund, Gateway Arch Park Foundation, and the Berges Family Foundation closed on the purchase of the Kiener East and West parking garages last week. The transaction means 
+- **NEW**  [[St. Louis] Thieves turn to key fob relay devices to steal vehicles quickly and quietly](https://www.stlmag.com/news/car-thieves-key-fob-relay-devices/) — *2026-08-06*
+  > <p>A South City resident is sounding the alarm about a new way in which car thieves are stealing vehicles—by hijacking a car’s key fob against itself. Brian Wahby’s vehicle was stolen off the street in Compton Heights last Saturday. He thinks he was a victim of what&#8217;s calle
+- **NEW**  [[St. Louis] Fred Wellman’s race against Ann Wagner is on—but he needs money to win](https://www.stlmag.com/news/fred-wellman-ann-wagner-second-district/) — *2026-08-06*
+  > <p>Military veteran Fred Wellman eked out a victory in the Democratic primary on Tuesday, teeing him up for a tough race against 13-year-incumbent Congresswoman Ann Wagner.&#160; Wellman’s primary battle with Joan VonDras came down to just 2,500 votes. In a brief interview Wednes
+- **NEW**  [[St. Louis] WashU’s Martin says he did not help write the Trump administration’s letter](https://www.stlmag.com/news/washu-andrew-martin-linda-macmahon-letter/) — *2026-08-06*
+  > <p>Secretary of Education Linda McMahon sent a letter Monday to college and university leaders asking them to post statements of principle on their websites detailing how they’ll prevent unruly protests from disrupting classes and foreign influences in their research, among other
+- **NEW**  [[St. Louis] From St. Louis, Mvstermind is turning doubt into musical gold](https://www.stlmag.com/culture/music/mvstermind-muhammad-austin-podcast/) — *2026-08-06*
+  > <p>It’s been quite a summer for the artist known as Mvstermind, whose real name is Muhammad Austin. He has no fewer than five tracks in the new HBO soccer documentary U.S. Against the World, including its thrilling title track. He performed at the World Cup in Los Angeles, helpin
+- **NEW**  [[St. Louis] Jun 23, 2026; Las Vegas, Nevada, USA; New York Liberty guard-forward Betnijah Laney-Hamilton (44) shoots the ball against Las Vegas Aces forward NaLyssa Smith (3) during the third quarter of a WNBA basketball game at Michelob Ultra Arena. Mandatory Credit:](https://www.stltoday.com/image_e87c34e8-1893-5106-968c-f16bfb2d4cbc.html) — *2026-08-06*
+  > New York Liberty guard-forward Betnijah Laney-Hamilton shoots the ball against Las Vegas Aces forward NaLyssa Smith on June 23 in Las Vegas.
+- **NEW**  [[St. Louis] BOXING-ENGLAND/CHAPMAN](https://www.stltoday.com/image_b95e62ec-5baf-5b71-895e-77882d0a15f1.html) — *2026-08-06*
+  > Raven Chapman, left, in action against Karriss Artingstall on March 7, 2025, at the British Featherweight Championship in London.
+- **NEW**  [[St. Louis] Trump signs orders to limit US birthright citizenship](https://www.stltoday.com/news/nation-world/government-politics/article_ffbf02e1-ad6a-5151-945b-7e3bf1fd8847.html) — *2026-08-06*
+  > The move came a month after the U.S. Supreme Court rejected the Republican president's bid to restrict the practice.
+- **NEW**  [[St. Louis] Sep 6, 2025; Charlotte, North Carolina, USA; North Carolina Tar Heels defensive coach Steve Belichick during the first quarter against the Charlotte 49ers at Jerry Richardson Stadium. Mandatory Credit: Jim Dedmon-Imagn Images](https://www.stltoday.com/image_af6bb479-4b15-5e78-b98d-8a34dc08fbe3.html) — *2026-08-06*
+  > North Carolina Tar Heels defensive coach Steve Belichick during the first quarter against the Charlotte 49ers on Sept. 6 in Charlotte, N.C.
+- **NEW**  [[St. Louis] SOCCER-FIFA-STAKE/](https://www.stltoday.com/image_9f8d10de-6af0-54d3-ae65-71726b449cc5.html) — *2026-08-06*
+  > FIFA president Gianni Infantino speaks during the 50th Ordinary UEFA Congress on Feb. 12 in Brussels.
+- **NEW**  [[St. Louis] U.S. Rep. Wesley Bell beats Cori Bush in rematch and retains seat](https://www.stltoday.com/news/multimedia/image_7726962d-2a65-540d-9fa9-dcab22013a75.html) — *2026-08-06*
+  > Former representative Cori Bush among supporters and staff after conceding to her opponent after U.S. Rep. Wesley Bell in the Missouri's 1st Congressional District primary at her election party at Family Haven in Dellwood on Tuesday, Aug. 4, 2026. Bush…
+- **NEW**  [[St. Louis] BASKETBALL-WNBA-MIN-IND/](https://www.stltoday.com/image_62a30980-cdba-518b-86ba-782ac2d0ddb3.html) — *2026-08-06*
+  > Indiana Fever guard Caitlin Clark reacts to a play against the Minnesota Lynx on Sunday in Minneapolis.
+- **NEW**  [[St. Louis] Variety and COCA to put on production of ‘The Addams Family Young@Part’ for kids with and without disabilities](https://www.stltoday.com/news/multimedia/image_d8511ed3-77e7-5ae8-b87d-d240579863f2.html) — *2026-08-06*
+  > Brianna P., 17, of St. Louis, looks out into the crowd during a final scene in a rehearsal for ‘The Addams Family Young@Part’ put on by Variety the Children's Charity of St. Louis at COCA in St. Louis, on Thursday,…
+- **NEW**  [[St. Louis] Variety and COCA to put on production of ‘The Addams Family Young@Part’ for kids with and without disabilities](https://www.stltoday.com/news/multimedia/image_6d36a14a-8185-577d-a197-8ff425267dd2.html) — *2026-08-06*
+  > Performers walk off the stage in character during a rehearsal for ‘The Addams Family Young@Part’ put on by Variety the Children's Charity of St. Louis at COCA in St. Louis, on Thursday, Aug. 6, 2026. With the goal of inclusivity…
+- **NEW**  [[St. Louis] Variety and COCA to put on production of ‘The Addams Family Young@Part’ for kids with and without disabilities](https://www.stltoday.com/news/multimedia/image_cc72925b-b06e-502e-b243-4eca33a01272.html) — *2026-08-06*
+  > Actor Zoe K., center, looks over at actor Evie K. as they practice bows with other performers during a rehearsal for ‘The Addams Family Young@Part’ put on by Variety the Children's Charity of St. Louis at COCA in St. Louis,…
+- **NEW**  [[St. Louis] Italian pasta maker to bring 150 new jobs to St. Charles with manufacturing plant](https://www.stlpr.org/economy-business/2026-08-06/italian-pasta-maker-150-jobs-to-st-charles-manufacturing-plant) — *2026-08-06*
+- **NEW**  [[St. Louis] Respect Missouri Voters sues Hoskins over rejecting amendment protecting ballot items](https://www.stlpr.org/news-briefs/2026-08-06/respect-missouri-voters-sues-hoskins-over-rejecting-amendment-protecting-ballot-items) — *2026-08-06*
+- **NEW**  [[St. Louis] Missouri Republicans rethink strategy after Amendments 4 and 5 fail miserably](https://www.stlpr.org/government-politics-issues/2026-08-06/missouri-republicans-rethink-strategy-after-amendments-4-and-5-fail-miserably) — *2026-08-06*
+- **NEW**  [[St. Louis] Civic group hopes to beautify Kiener Plaza garages, increase downtown St. Louis foot traffic](https://www.stlpr.org/news-briefs/2026-08-06/civic-group-beautify-kiener-plaza-garages-increase-downtown-st-louis-foot-traffic) — *2026-08-06*
+- **NEW**  [[St. Louis] Missouri has third-highest number of cyclosporiasis cases in U.S., CDC says](https://www.stlpr.org/news-briefs/2026-08-06/missouri-third-highest-cyclosporiasis-cases) — *2026-08-06*
 
-_(200 additional items in raw.jsonl)_
+_(248 additional items in raw.jsonl)_
