@@ -14,7 +14,7 @@ state: fresh
 
 1. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.250
    drivers: new_filings=0.50, enforcement_hits=1.00
-   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2]
+   evidence: [lake:political_figures:gkg-20260806], [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2]
 2. **Marco Rubio** (Secretary of State, Republican, United States): composite 0.200
    drivers: enforcement_hits=1.00
    evidence: [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
@@ -35,10 +35,10 @@ state: fresh
    evidence: [lake:political_figures:0001579263-2], [lake:political_figures:0001971617-2], [lake:political_figures:0001961104-2], [lake:political_figures:0000202058-2]
 8. **Rick Scott** (Senator, Republican, FL): composite 0.050
    drivers: new_filings=0.50
-   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2]
+   evidence: [lake:political_figures:gkg-20260806], [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2]
 9. **Tim Scott** (Senator, Republican, SC): composite 0.050
    drivers: new_filings=0.50
-   evidence: [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001652149-2]
+   evidence: [lake:political_figures:gkg-20260806], [lake:political_figures:gkg-20260802], [lake:political_figures:0001636282-2], [lake:political_figures:0001628280-2], [lake:political_figures:0001493152-2]
 10. **Barry Moore** (Representative, Republican, AL-1st): composite 0.050
    drivers: new_filings=0.50
    evidence: [lake:political_figures:0001794783-2], [lake:political_figures:0001104659-2], [lake:political_figures:0001104659-2]

@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-06
-record_count: 114
-new_today: 110
+record_count: 118
+new_today: 114
 state: fresh
 ---
 
 ## State Legislative Action
 
-110 new of 114 total items today.
+114 new of 118 total items today.
 
 - **NEW**  [[Alaska HB 74] An Act establishing the crime of airbag fraud.]() — *2026-08-05*
   > An Act establishing the crime of airbag fraud.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[California AB 2335] Unclaimed property: digital financial assets.]() — *2026-08-06*
   > (1) The Unclaimed Property Law (UPL) prescribes the circumstances under which intangible property, including digital financial assets, escheats to the state, including how and when apparent owners must be notified that their property is at risk of escheating and the manner in whi
 
-_(89 additional items in raw.jsonl)_
+_(93 additional items in raw.jsonl)_

@@ -2,15 +2,19 @@
 section: state_news
 title: State-Level News
 date: 2026-08-06
-record_count: 764
-new_today: 382
+record_count: 768
+new_today: 386
 state: fresh
 ---
 
 ## State-Level News
 
-382 new of 764 total items today.
+386 new of 768 total items today.
 
+- **NEW**  [[Alabama] Carrie Loraine Bowles – Tuscaloosa County Award](https://governor.alabama.gov/newsroom/2026/08/carrie-loraine-bowles-tuscaloosa-county/) — *2026-08-05*
+  > Download
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-06*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[California] Governor Newsom announces appointments 8.5.2026](https://www.gov.ca.gov/2026/08/05/governor-newsom-announces-appointments-8-5-2026/) — *2026-08-06*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
 - **NEW**  [[California] Governor Newsom signs tribal-state gaming compact](https://www.gov.ca.gov/2026/08/05/governor-newsom-signs-tribal-state-gaming-compact-2/) — *2026-08-05*
@@ -29,10 +33,6 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-invites-President-Trump-to-deliver-overdue-wildfire-recovery-funding-during-Los-Angeles-visit-SEO-GFX-v3-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt
 - [[California] Governor Newsom announced the deployment of additional firefighting resources and specialized personnel to Washington and Oregon](https://www.gov.ca.gov/2026/08/04/governor-newsom-announced-the-deployment-of-additional-firefighting-resources-and-specialized-personnel-to-washington-and-oregon/) — *2026-08-04*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- **NEW**  [[Alabama] Carrie Loraine Bowles – Tuscaloosa County Award](https://governor.alabama.gov/newsroom/2026/08/carrie-loraine-bowles-tuscaloosa-county/) — *2026-08-05*
-  > Download
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-06*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - [[Alaska] United States Coast Guard Appreciation Day 2026](https://gov.alaska.gov/united-states-coast-guard-appreciation-day-2026/) — *2026-08-04*
   > WHEREAS, the United States Coast Guard has courageously protected our country’s shores since August 4, 1790, and is the nation’s oldest continuous seafaring service; and WHEREAS, nearly three-quarters of Alaskans reside along our 47,300 miles of coastline, and the Coast Guard is 
 - **NEW**  [[California] Juez de California declara en desacato al DHS en caso relacionado con las redadas de inmigración en Los Ángeles](https://calmatters.org/calmatters-en-espanol/2026/08/los-angeles-inmigracion-desacato/) — *2026-08-05*
@@ -57,11 +57,8 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/020726_Medi-Cal-Doc_JH_CM_65.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A healthcare worker wearing a face mask and 
 - [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-06*
   > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- [[feed error] DCist (District of Columbia): HTTPError](https://dcist.com/rss) — *2026-08-06*
-  > 404 Client Error: Not Found for url: https://dcist.com/rss
-- **NEW**  [[Connecticut] One field, many uses: A mowing question in Durham](https://ctmirror.org/2026/08/06/durham-bobolinks-white-farm/) — *2026-08-06*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/DURHAM-MOWING-073026-JL-006-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-c
-- **NEW**  [[Connecticut] Waterbury’s water main breaks: A century of aging infrastructure](https://ctmirror.org/2026/08/06/waterburys-water-main-breaks-arent-just-bad-luck-theyre-the-result-of-a-century-of-aging-infrastructure-tavares/) — *2026-08-06*
-  > <figure><img width="873" height="570" src="https://ctmirror.org/wp-content/uploads/2026/08/waterbury-water-main-break-tyler-russell-cp.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-c
+- **NEW**  [[Alabama] Opinion | New governor’s poll: So you’re telling me there’s a chance?](https://www.alreporter.com/2026/08/05/opinion-new-governors-poll-so-youre-telling-me-theres-a-chance/) — *2026-08-05*
+- **NEW**  [[Alabama] Opinion | Why democratic socialism is gaining—and what America risks](https://www.alreporter.com/2026/08/05/opinion-why-democratic-socialism-is-gaining-and-what-america-risks/) — *2026-08-05*
+- **NEW**  [[Alabama] Doug Jones calls for independent review of Alabama’s prison system](https://www.alreporter.com/2026/08/05/doug-jones-calls-for-independent-review-of-alabamas-prison-system/) — *2026-08-05*
 
-_(739 additional items in raw.jsonl)_
+_(743 additional items in raw.jsonl)_

@@ -11,6 +11,44 @@ state: fresh
 
 179 new of 189 total items today.
 
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 6 at 5:37AM EDT until August 6 at 6:00AM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.603d165e45bf7ef7e44a88deb619072e087d5ae5.002.1) — *2026-08-06*
+  > For the following areas...
+Bayside and Gulf side from Craig Key to west end of Seven Mile
+Bridge...
+Florida Bay including Barnes Sound, Blackwater Sound, and Buttonwood
+Sound...
+
+At 536 AM EDT, a strong thunderstorm was located over Sprigger Bank
+Light, moving west at 20 knots.
+
+
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-51092) — *2026-08-06*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued August 6 at 3:35AM MDT until August 6 at 7:00PM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4564004c01184c54f298b25c6fd922bd8edbf352.001.1) — *2026-08-06*
+  > * WHAT...Northwest winds 15 to 25 mph with gusts up to 35 mph
+expected.
+
+* WHERE...Fort Peck Lake.
+
+* WHEN...From 9 AM this morning to 7 PM MDT this evening.
+
+* IMPACTS...Strong winds and rough waves on area lakes will create
+hazardous conditions for small craft.
+
+* ADDITIONAL DE
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 6 at 4:35AM CDT until August 6 at 8:30AM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.766c3ff816377752f40cb87a6154e07c679db54f.001.1) — *2026-08-06*
+  > FFWLSX
+
+The National Weather Service in St Louis has issued a
+
+* Flash Flood Warning for...
+Southern Montgomery County in east central Missouri...
+Southwestern Saint Charles County in east central Missouri...
+Warren County in east central Missouri...
+
+* Until 830 AM CDT.
+
+* At 43
 - **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 6 at 4:29AM CDT until August 6 at 9:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.444a2777497cf74fb1cba8dfe1df8bbcdf1637f2.001.1) — *2026-08-06*
   > ...RED FLAG WARNING REMAINS IN EFFECT FROM NOON CDT /11 AM MDT/ TODAY
 TO 9 PM CDT /8 PM MDT/ THIS EVENING DUE TO WIND AND LOW RELATIVE
@@ -25,8 +63,6 @@ HUMIDITY FOR MUCH OF WESTERN NORTH DAKOTA...
 
 .Critical fire weather conditions are expected across much of western
 North Dakota today. Westerly 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-37637) — *2026-08-06*
-  > Monitoring message only. Please disregard.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 6 at 2:22AM PDT until August 7 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63e3da94efe1353df17fa64f1b474ce08775e81c.001.1) — *2026-08-06*
   > * WHAT...Hot temperatures of 95 to 100 degrees with low temperatures
 around 60 to 65 degrees.
@@ -71,17 +107,6 @@ this afternoon into this evening. A few locations may briefly
 experience heat index values above 111 degrees.
 
 If spending time outside today, drink plent
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 6 at 5:06AM EDT until August 6 at 6:00AM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e78f084757b6ff9292cac2cda6a3a873036e0e10.001.1) — *2026-08-06*
-  > SMWKEY
-
-The National Weather Service in Key West has issued a
-
-* Special Marine Warning for...
-Hawk Channel from Ocean Reef to west end of Seven Mile Bridge out
-to the reef...
-Bayside and Gulf side from Craig Key to west end of Seven Mile
-Bridge...
-Florida Bay including Barnes So
 - **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 6 at 4:04AM CDT until August 6 at 9:00AM CDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b68459d7733304e95e9354478fe4304587b77d2.001.1) — *2026-08-06*
   > * WHAT...Visibility 1/4 mile or less in dense fog.
 
@@ -90,16 +115,6 @@ Florida Bay including Barnes So
 * WHEN...Until 9 AM CDT this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 6 at 3:58AM CDT by NWS Dodge City KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9115b774d1e5333b634096361f7f4d6d1e08d9e2.001.1) — *2026-08-06*
-  > At 357 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 7 miles west of Centerview to near Greensburg.
-Movement was southeast at 40 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds 
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 6 at 4:46AM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b08c55594827aa1e2cb80db00d2cdf55c39c3f57.001.1) — *2026-08-06*
   > Areas of fog have developed this morning across portions of the
 region. Visibilities below a half of a mile are possible in the
@@ -207,17 +222,5 @@ heat risk.
 * WHEN...Until 11 PM PDT Friday.
 
 * IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 6 at 12:52AM PDT until August 7 at 11:00PM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad39916771825114076687ea5ad98fab73a7a1a8.001.1) — *2026-08-06*
-  > * WHAT...Temperatures of 100 to 105 will produce moderate to major
-heat risk.
-
-* WHERE...Northern Mendocino Interior, Lake County, and Southeastern
-Interior Mendocino.
-
-* WHEN...From 11 AM to 11 PM PDT Friday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-
-* ADDITIONAL 
 
 _(164 additional items in raw.jsonl)_

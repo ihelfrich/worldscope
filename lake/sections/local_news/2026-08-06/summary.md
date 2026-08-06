@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-06
-record_count: 234
-new_today: 204
+record_count: 225
+new_today: 195
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-204 new of 234 total items today.
+195 new of 225 total items today.
 
 - **NEW**  [[St. Louis] Where in the Lou? – 8/6/2026](https://www.stlmag.com/games/where-in-the-lou-080626/) — *2026-08-06*
   > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
@@ -31,29 +31,35 @@ state: fresh
   > <p>A Piece of HistoryLocated on Lindell across from the Probstein golf course, this magnificent home appears straight out of a fairytale. Nestled between the Central West End and Clayton neighborhoods, it features front-row views of Forest Park. Traditional LuxuryThis home’s livi
 - **NEW**  [[St. Louis] How St. Louis CITY SC won over Carlo Holse and is selling a new vision to top talent](https://www.stlmag.com/news/sports/st-louis-city-sc-carlo-holseand-recruiting/) — *2026-08-05*
   > <p>St. Louis CITY SC sporting director Corey Wray wasn’t shy about the scope of work ahead of him when he took over the role last November. Wray laid out his priorities, built out his support staff, hired a manager who aligns with the club&#8217;s vision, and realigned a scouting
-- **NEW**  [[St. Louis] See the Aug. 6, 1926, front page: Men want to put end to horse, dog racing in Metro East](https://www.stltoday.com/news/archives/article_553e6283-bc0f-4a48-82d9-49dd7d0a3b29.html) — *2026-08-06*
-  > Headlines from the Aug. 6, 1926, front page include: Record set here in use of water, mercury at 98
-- **NEW**  [[St. Louis] Abramovitz, Charlotte](https://www.stltoday.com/obituaries/article_c10cf2c1-abef-5136-b821-f1a1f66331ac.html) — *2026-08-06*
-  > Abramovitz, Charlotte Ann
-- **NEW**  [[St. Louis] Daues, Jerome](https://www.stltoday.com/obituaries/image_5d4f1d08-a38b-575a-925a-901eba393791.html) — *2026-08-06*
-  > Daues, Jerome
-- **NEW**  [[St. Louis] Daues, Jerome](https://www.stltoday.com/obituaries/article_37aaa87b-644b-51d0-a3ff-d2d639220e42.html) — *2026-08-06*
-  > Daues, Jerome C. "Jerry"
-- **NEW**  [[St. Louis] Reusch, John](https://www.stltoday.com/obituaries/article_ec3b3578-380a-50c7-a6cc-db79b6088239.html) — *2026-08-06*
-  > Reusch, John E.
-- **NEW**  [[St. Louis] New job postings for St. Louis job seekers](https://www.stltoday.com/news/local/collection_b79746c8-fe54-56bb-b69b-ac9519d2f8da.html) — *2026-08-06*
-  > Browse through the latest St. Louis employment postings and find your next career.
-- **NEW**  [[St. Louis] Television Q&A: Will 'Elle' be back for sophomore season?](https://www.stltoday.com/life-entertainment/local/movies-tv/article_b1ec921c-e779-4d34-ba49-775382c76458.html) — *2026-08-06*
-  > Q: My family and I just finished watching “Elle” and really enjoyed it. Has Amazon Prime released any info on a possible second season?
-- **NEW**  [[St. Louis] Dr. Roach: Capgras syndrome causes woman to believe spouse is dead](https://www.stltoday.com/life-entertainment/local/wellness/article_895e92ee-fde1-4121-8fff-a276fea88cf1.html) — *2026-08-06*
-  > Dear Dr. Roach: My mom has Capgras syndrome and firmly believes that her husband (my dad) is dead. She thinks that there's someone whom I snuck in and built a lie around, and she tells everyone that this man is…
-- **NEW**  [[St. Louis] Former Seattle Storm head coach Noelle Quinn will be an assistant at UCLA.](https://www.stltoday.com/image_d7534433-c4f3-5114-9028-7cb7bc6ee273.html) — *2026-08-05*
-  > Former Seattle Storm head coach Noelle Quinn will be an assistant at UCLA.
-- **NEW**  [[St. Louis] BackStoppers](https://www.stltoday.com/news/local/obituaries/image_ac90233e-77a6-58c9-9d00-74afdbe8b737.html) — *2026-08-05*
-- **NEW**  [[St. Louis] 7 takeaways from Missouri’s expensive — and potentially unfinished — primary](https://www.stlpr.org/government-politics-issues/2026-08-05/7-takeaways-from-missouris-expensive-and-potentially-unfinished-primary) — *2026-08-05*
-- **NEW**  [[St. Louis] St. Louis County Executive Sam Page hopes voters get third chance on tax for online sales](https://www.stlpr.org/government-politics-issues/2026-08-05/st-louis-county-executive-sam-page-hopes-voters-get-third-chance-on-tax-for-online-sales) — *2026-08-05*
-- **NEW**  [[St. Louis] Suit filed to force a vote on Missouri’s GOP-leaning congressional redistricting map](https://www.stlpr.org/government-politics-issues/2026-08-05/suit-filed-to-force-a-vote-on-missouris-gop-leaning-congressional-redistricting-map) — *2026-08-05*
-- **NEW**  [[St. Louis] Webster Groves staff swiped their credit cards at strip clubs, cannabis shops, investigation finds](https://www.stlpr.org/news-briefs/2026-08-05/webster-groves-credit-cards-strip-clubs-cannabis-shops) — *2026-08-05*
-- **NEW**  [[St. Louis] Missouri added to nationwide cyclospora outbreak, state health officials confirm](https://www.stlpr.org/health-science-environment/2026-08-05/missouri-added-nationwide-cyclospora-outbreak) — *2026-08-05*
+- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-08-06*
+  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
+- **NEW**  [[St. Louis] Senate panel to vote on holding Fauci in contempt for refusing to answer questions](https://www.ksdk.com/article/news/nation-world/anthony-fauci-senate/507-cd7cdea0-f010-4213-83f7-de7cd356312f) — *2026-08-06*
+  > Fauci invoked his Fifth Amendment right against self-incrimination more than 100 times when he appeared before the Senate committee.
+- **NEW**  [[St. Louis] Did anyone win the $786M Powerball? Here are winning numbers for Wednesday, Aug. 5](https://www.ksdk.com/article/news/lottery/powerball-winning-numbers-wednesday-august-5-2026/507-0c17e255-610f-4008-805a-a260512baa47) — *2026-08-06*
+  > The lump sum value of Wednesday's jackpot was $341.6 million before taxes.
+- **NEW**  [[St. Louis] Southwest Airlines passenger called flight attendant his 'angel' minutes before she helped save his life](https://www.ksdk.com/article/news/nation-world/southwest-airlines-passenger-flight-attendant-helped-save-his-life/507-34b67887-2002-415a-8834-41a42a187a0f) — *2026-08-06*
+  > “Everyone was exactly where they should have been that day,” said Southwest flight attendant Nina Castro. “It’s a miracle.”
+- **NEW**  [[St. Louis] Missouri voters send clear signal by striking down Amendments 4 and 5](https://www.ksdk.com/article/news/local/missouri-voters-send-clear-signal-by-striking-down-amendments-4-and-5/63-9f5feba9-79b7-4c8e-bada-13f7b8600a82) — *2026-08-06*
+  > The landslide primary vote blocks changes to the citizen initiative process and halts a controversial proposal to eliminate the state income tax.
+- **NEW**  [[St. Louis] Alton mayor secures temporary restraining order in staff appointment dispute with aldermen; city chooses legal counsel](https://www.ksdk.com/article/news/local/alton-mayor-secures-temporary-restraining-order-in-staff-appointment-dispute-with-aldermen-city-chooses-legal-counsel/63-b23500db-be5a-44be-9ca1-e1ba02dd66ec) — *2026-08-06*
+  > A judge granted the mayor a temporary restraining order, and the aldermen hired an attorney as residents urge local government unity.
+- **NEW**  [[St. Louis] 'Operation Eau de Fraud': Chicago man accused of $250,000 luxury fragrance scam](https://www.ksdk.com/article/news/nation-world/luxury-fragrance-scam-quarter-million-dollar-chicago/507-f87968aa-596c-4e60-9b45-2f1d1c506091) — *2026-08-06*
+  > A YouTuber who reviewed fragrances for thousands of subscribers was arrested after allegedly swapping pricey fragrances with clay and used bottles.
+- **NEW**  [[St. Louis] Michael B. Jordan reacts to Oklahoma woman who added his photo to her family photo wall](https://www.ksdk.com/article/news/nation-world/michael-b-jordan-reacts-family-photo-wall-grandson/507-4e4498c2-e2e4-4394-89d3-0775c7beb36f) — *2026-08-06*
+  > Mary Story framed a magazine photo of the actor and displayed it with photos of her grandchildren.
+- **NEW**  [[St. Louis] Webster Groves employees used city funds for trips to strip clubs and cannabis store, state investigation finds](https://www.ksdk.com/article/news/local/missouri-webster-groves-audit-employees-used-city-funds-strip-clubs-cannabis-store/63-a6abd969-ddb2-4e9e-b2a0-0b4af3f59a8c) — *2026-08-05*
+  > State Auditor Scott Fitzpatrick says weak oversight allowed more than $4,300 in improper purchases and says the city manager should have caught the spending sooner.
+- **NEW**  [[St. Louis] Prosecutors seek adult murder charge against 15-year-old accused of killing man while dressed as clown in East St. Louis](https://www.ksdk.com/article/news/crime/east-st-louis-teen-clown-fatal-stabbing-illinois/63-f11014cd-7b35-47ae-9399-d97a72a8128b) — *2026-08-05*
+  > Ring camera footage captured the clown approaching a home, looking into the camera and saying, “I have a gift for you.”
+- **NEW**  [[St. Louis] CDC: Salmonella outbreak linked to jalapeno peppers expands to 27 states](https://www.ksdk.com/article/news/nation-world/salmonella-outbreak-jalapeno-peppers-expands-chipotle-qdoba/507-45586ce4-6fda-4305-8c78-3987d1727e5f) — *2026-08-05*
+  > The CDC said the source of this multistate outbreak was jalapeno peppers from Sinaloa, Mexico, and distributed to places like Chipotle and QDOBA.
+- **NEW**  [[St. Louis] 'I need new underwear': Pilot startled after UPS plane strikes bird during takeoff](https://www.ksdk.com/article/news/nation-world/pilot-startled-ups-plane-bird-strike/507-aaf09a4e-9aca-4e9c-9c61-80cb9a544aa1) — *2026-08-05*
+  > The pilot said he experienced a few bird strikes in his career, but this one was much louder and at a much higher altitude.
+- **NEW**  [[St. Louis] Overland mayor vows not to sign ICE police partnership after deported local couple killed](https://www.ksdk.com/article/news/overland-mayor-vows-not-to-sign-ice-police-partnership-after-deported-local-couple-killed/63-37ffa0e0-9142-426c-b63a-3e2d938b385d) — *2026-08-05*
+  > Overland’s mayor vows local police won't partner with ICE. Marty Little says he refuses to sign a 287g agreement as he stands united with the Hispanic community.
+- **NEW**  [[St. Louis] Rapidly expanding drive-thru coffee chain launches its first mobile app](https://www.ksdk.com/article/news/nation-world/7-brew-coffee-chain-first-mobile-app-secret-menu/507-a41695b3-378d-4487-90cf-46cd31c61b18) — *2026-08-05*
+  > Fans of 7 Brew will soon be able to order their favorite drinks from their phones.
+- **NEW**  [[St. Louis] Suspect still at large a year after Clayton vehicle fire and antisemitic graffiti crime, police say](https://www.ksdk.com/article/news/local/missouri-antisemitic-suspect-at-large-year-after-clayton-vehicle-fire-graffiti-crime/63-08b4d328-7b1b-421d-82cd-b7cd48ef80eb) — *2026-08-05*
+  > The suspect set three cars on fire in a Clayton neighborhood and wrote antisemitic graffiti outside the home of a Jewish family in 2025, police said.
 
-_(209 additional items in raw.jsonl)_
+_(200 additional items in raw.jsonl)_
