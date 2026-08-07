@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-07
-record_count: 755
-new_today: 68
+record_count: 771
+new_today: 85
 state: fresh
 ---
 
 ## State-Level News
 
-68 new of 755 total items today.
+85 new of 771 total items today.
 
 - [[Alabama] Carrie Loraine Bowles – Tuscaloosa County Award](https://governor.alabama.gov/newsroom/2026/08/carrie-loraine-bowles-tuscaloosa-county/) — *2026-08-05*
   > Download
@@ -33,35 +33,33 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/08/01-Redistricting-Battle-Presser-MG-CM-04.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a suit speaks emphat
 - [[California] California Republicans tried to cut him off. Then he beat them from the right](https://calmatters.org/politics/2026/08/demaio-california-republicans-rightward-wins/) — *2026-08-05*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/07/082125_CA-Legislature_FG_CM-28.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man in a suit and yellow tie speaks into
-- **NEW**  [[California] Governor Newsom proclaims State of Emergency in Calaveras County for the Gann Fire response](https://www.gov.ca.gov/2026/08/06/governor-newsom-proclaims-state-of-emergency-in-calaveras-county-for-the-gann-fire-response/) — *2026-08-07*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Gann-Fire-State-of-the-Emergency-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
-<p><a href="https://www.gov.ca.gov/2026/08/06/governor-newsom-pr
-- **NEW**  [[California] Governor Newsom announces appointments](https://www.gov.ca.gov/2026/08/06/governor-newsom-announces-appointments-39/) — *2026-08-07*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- [[California] Governor Newsom signs legislation 8.6.2026](https://www.gov.ca.gov/2026/08/06/governor-newsom-signs-legislation-8-6-2026/) — *2026-08-06*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- [[California] Trump’s FCC illegally axes limits that protect Americans from broadcast media conglomerates](https://www.gov.ca.gov/2026/08/06/trumps-fcc-illegally-axes-limits-that-protect-americans-from-broadcast-media-conglomerates/) — *2026-08-06*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Trumps-FCC-illegally-axes-limits-that-protect-Americans-from-broadcast-media-conglomerates-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic that sa
-- [[California] Governor Newsom calls on Californians to fight back against Trump’s reckless offshore drilling agenda](https://www.gov.ca.gov/2026/08/06/governor-newsom-calls-on-californians-to-fight-back-against-trumps-reckless-offshore-drilling-agendagovernor-newsom-calls-on-californians-to-fight-back-against-trumps-reckless-offshore-drilling-ag/) — *2026-08-06*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-calls-on-Californians-to-fight-back-against-Trumps-reckless-offshore-drilling-agenda-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding
-- [[California] Governor Newsom announces appointments 8.5.2026](https://www.gov.ca.gov/2026/08/05/governor-newsom-announces-appointments-8-5-2026/) — *2026-08-06*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- [[California] Governor Newsom signs tribal-state gaming compact](https://www.gov.ca.gov/2026/08/05/governor-newsom-signs-tribal-state-gaming-compact-2/) — *2026-08-05*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Blue graphic featuring the official Seal of the Governor of the State of California in white a
-- [[California] California’s tax agency cracks down on $168 million in illicit cannabis, tobacco](https://www.gov.ca.gov/2026/08/05/californias-tax-agency-cracks-down-on-168-million-in-illicit-cannabis-tobacco/) — *2026-08-05*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Californias-tax-agency-cracks-down-on-168-million-in-illicit-cannabis-tobacco-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="la
-- [[California] Governor Newsom secures federal assistance  to support response to Gann Fire in Calaveras County](https://www.gov.ca.gov/2026/08/04/governor-newsom-secures-federal-assistance-to-support-response-to-gann-fire-in-calaveras-county/) — *2026-08-05*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Gann-Fire-FMAG-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
-<p><a href="https://www.gov.ca.gov/2026/08/04/governor-newsom-secur
-- [[California] Governor Newsom announces appointments 8.4.2026](https://www.gov.ca.gov/2026/08/04/governor-newsom-announces-appointments-8-4-2026/) — *2026-08-05*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- **NEW**  [[Connecticut] A reality check for CT’s housing market](https://ctmirror.org/2026/08/07/a-reality-check-for-cts-housing-market/) — *2026-08-07*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/04/CT-Public-housing-construction-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/
-- **NEW**  [[Connecticut] As a new school year begins, let’s put children’s mental health first](https://ctmirror.org/2026/08/07/as-a-new-school-year-begins-lets-put-childrens-mental-health-first-gisselle/) — *2026-08-07*
-  > <figure><img width="937" height="580" src="https://ctmirror.org/wp-content/uploads/2026/07/back-to-school.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/07/back-to-school.jpg 93
-- [[Connecticut] Head Start’s antipoverty mission threatened by Trump administration overhaul](https://ctmirror.org/2026/08/06/trump-head-start-policy-changes/) — *2026-08-06*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/04/2025_0414_SR_HeadStart_005-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/
-- [[Connecticut] CT launches online tool for students to search post-secondary programs](https://ctmirror.org/2026/08/06/ct-higher-education-search-tool/) — *2026-08-06*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/IMG_3124-2-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/08/
+- [[Colorado] Trump again tries to curb birthright citizenship, following Supreme Court loss](https://coloradonewsline.com/2026/08/06/repub/trump-tries-to-curb-birthright-citizenship/) — *2026-08-06*
+  > WASHINGTON — President Donald Trump on Thursday signed two executive orders in his second attempt to deny citizenship to babies born to noncitizens, following the Supreme Court’s defeat this summer of an earlier order to redefine birthright citizenship. Trump said the Supreme Cou
+- [[Colorado] Ban stock trading, Colorado Democrats urge U.S. House speaker](https://coloradonewsline.com/briefs/ban-stock-trading-colorado-democrats/) — *2026-08-06*
+  > Democrats from Colorado are urging U.S. House Speaker Mike Johnson to bring a floor vote on a measure to ban members of Congress, the president and vice president from trading stocks.  The letter signed by more than 30 House Democrats follows the July passage of the Stop Insider 
+- [[Colorado] US Senate panel votes to hold Fauci in contempt for declining to answer COVID questions](https://coloradonewsline.com/2026/08/06/repub/senate-fauci-contempt-covid/) — *2026-08-06*
+  > WASHINGTON — Republicans on a U.S. Senate panel voted Thursday to hold Dr. Anthony Fauci in contempt of Congress after he declined to answer any questions at a hearing last week about the origins of the COVID-19 pandemic. The Senate Homeland Security and Governmental Affairs Comm
+- [[Colorado] Price tag for Trump’s DC deployment of National Guard: $1.4B more through 2029](https://coloradonewsline.com/2026/08/06/repub/dc-deployment-national-guard/) — *2026-08-06*
+  > WASHINGTON — The deployment of National Guard troops hailing from all across the country to Washington, D.C. is expected to cost taxpayers more than $1.4 billion in additional funds through 2029.  The estimate from Jules Hurst III, President Donald Trump’s nominee to be the Penta
+- [[Colorado] House Democrats want to win every Colorado congressional seat this year](https://coloradonewsline.com/briefs/democrats-want-to-win-every-colorado-congressional-seat/) — *2026-08-06*
+  > The campaign arm for Democrats in the U.S. House of Representatives wants to flip all of Colorado’s Republican-held seats in 2026. The Democratic Congressional Campaign Committee, or DCCC, announced Wednesday that it added Colorado’s 3rd and 4th congressional districts to its lis
+- [[Colorado] Colorado history rhymes](https://coloradonewsline.com/2026/08/06/colorado-history-rhymes/) — *2026-08-06*
+  > Daily life in early Colorado history can seem alien to modern observers.  In 1876, the year of statehood, it could take weeks for mail to arrive in Breckenridge, then a hamlet of 250 people that was accessible by wagon road. Denver&#8217;s daily newspaper contained numerous items
+- [[Colorado] Trump urges US Senate to pass bill making daylight saving time permanent](https://coloradonewsline.com/2026/08/05/repub/trump-daylight-saving-time-permanent/) — *2026-08-05*
+  > WASHINGTON — President Donald Trump is urging Republican senators to “release their holds” and pass a measure making daylight saving time permanent nationwide.   A bipartisan bill passed the House in July but faces hurdles in the Senate, where members from both parties have pushe
+- [[Colorado] Wildfire veterans fear federal tactics, extreme fires could put crews at risk](https://coloradonewsline.com/2026/08/05/repub/extreme-fires-could-put-crews-at-risk/) — *2026-08-05*
+  > As millions of acres burn across the western United States, some wildland fire veterans are fearful that aggressive fire suppression tactics ordered by the Trump administration — coupled with extreme, fast-moving blazes — could put firefighters in danger as conditions escalate th
+- [[Colorado] Colorado Democrats begin general election with big cash advantages over GOP rivals](https://coloradonewsline.com/2026/08/05/colorado-democrats-big-cash-advantages/) — *2026-08-05*
+  > Republican candidates are entering the 2026 general election at a major fundraising disadvantage as they hope to defy the odds and put an end to nearly a decade of Democratic dominance in Colorado politics. After spending more than $6 million to secure the Democratic nomination f
+- [[Colorado] Colorado’s new battery recycling bill is a start, but communities still need more protection](https://coloradonewsline.com/2026/08/05/colorados-battery-recycling-bill-more-protection/) — *2026-08-05*
+  > Colorado’s recently passed battery recycling law defines producer responsibility for end-of-life electric vehicle batteries. And California’s SB 615 may soon follow in a state committed to addressing the problem of large-format battery waste. These laws are an important step towa
+- **NEW**  [[Arizona] ‘Sham’ Green Party candidates win primary races over party-backed write-ins](https://azmirror.com/2026/08/06/sham-green-party-candidates-win-primary-races-over-party-backed-write-ins/) — *2026-08-07*
+  > The only Green Party candidates who made it onto Arizona’s primary ballot for governor and secretary of state, and who the party disavowed as frauds, won their races against Green Party-backed write-in candidates.  In the July 21 Primary Election, Risa Lombardo took the governor’
+- **NEW**  [[Arizona] Donald Trump lost on birthright citizenship at the Supreme Court. He’s trying again.](https://azmirror.com/2026/08/06/repub/donald-trump-lost-on-birthright-citizenship-at-the-supreme-court-hes-trying-again/) — *2026-08-06*
+  > WASHINGTON — President Donald Trump on Thursday signed two executive orders in his second attempt to deny citizenship to babies born to noncitizens, following the Supreme Court’s defeat this summer of an earlier order to redefine birthright citizenship. Trump said the Supreme Cou
+- [[Arizona] Voting Rights Act commemoration comes with warnings after Supreme Court rulings](https://azmirror.com/2026/08/06/repub/voting-rights-act-commemoration-comes-with-warnings-after-supreme-court-rulings/) — *2026-08-06*
+  > The Southern Poverty Law Center Thursday commemorated the 61st anniversary of the Voting Rights Act amid ongoing attacks on the landmark legislation.  Speakers at the event celebrated the impact of the law, which reversed decades of disenfranchisement across the South, but warned
+- [[Arizona] Trump administration pushing to gut Head Start early education program for neediest children](https://azmirror.com/2026/08/06/repub/trump-administration-pushing-to-gut-head-start-early-education-program-for-neediest-children/) — *2026-08-06*
+  > The Trump administration appears poised to gut the central policies that shape Head Start, a popular and long-established early childhood education program that serves the country’s neediest children. The Department of Health and Human Services announced the changes Thursday. The
 
-_(730 additional items in raw.jsonl)_
+_(746 additional items in raw.jsonl)_

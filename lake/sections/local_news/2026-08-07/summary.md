@@ -2,15 +2,34 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-07
-record_count: 250
-new_today: 87
+record_count: 249
+new_today: 108
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-87 new of 250 total items today.
+108 new of 249 total items today.
 
+- **NEW**  [[St. Louis] See the Aug. 7, 1926, front page: Dr. T.S. Manning to leave prison within 60 days](https://www.stltoday.com/news/archives/article_1245abcf-6474-4bb1-b8ee-1150807d6697.html) — *2026-08-07*
+  > Headlines from the Aug. 7, 1926, front page include: Gertrude Ederle's own story of record-breaking English Channel swim
+- **NEW**  [[St. Louis] Webster Groves officials charged the city for strip clubs, pot store and Airbnb, audit says](https://www.stltoday.com/news/article_5c7f1063-ad7d-49d9-a7ae-ebe0424f8b37.html) — *2026-08-07*
+  > Plus: Governor says he will still work to cut taxes
+- **NEW**  [[St. Louis] Bensky, Jeffrey](https://www.stltoday.com/obituaries/image_7ea17d8c-668d-5e1c-bb25-9cabfd83c35b.html) — *2026-08-07*
+  > Bensky, Jeffrey
+- **NEW**  [[St. Louis] Bensky, Jeffrey](https://www.stltoday.com/obituaries/article_a3defd20-e75f-5003-a0a1-0aa2f84a5e44.html) — *2026-08-07*
+  > Jeffrey Michael Bensky passed away peacefully on Wednesday, July 15, 2026 surrounded by family in St. Louis, Missouri. He was 74 years old.
+- **NEW**  [[St. Louis] Coughlin, Cornelius](https://www.stltoday.com/obituaries/article_8ab9ff6a-74be-5859-9249-8a137b4f3c70.html) — *2026-08-07*
+  > Coughlin, Cornelius Eugene
+- **NEW**  [[St. Louis] Garavaglia, John](https://www.stltoday.com/obituaries/article_068de6f9-d7be-538b-94be-2926571c0160.html) — *2026-08-07*
+  > Garavaglia, John L. III
+- **NEW**  [[St. Louis] What to stream: Go your own way with films of indie auteur Gregg Araki](https://www.stltoday.com/life-entertainment/local/movies-tv/article_0e95a231-0a35-4d91-a016-4336156698cb.html) — *2026-08-07*
+  > American indie icon Gregg Araki’s 12th feature film hit theaters last week. “I Want Your Sex” is a daring, campy and funny exploration of sexual power dynamics in the workplace, starring a never-better Olivia Wilde and Cooper Hoffman in a…
+- **NEW**  [[St. Louis] The Rewind: August 7](https://www.stltoday.com/newsletter-templates/paid/rewind/image_1df6d6b5-db9f-5f0b-9abc-69ff60b265ea.html) — *2026-08-07*
+- **NEW**  [[St. Louis] The Rewind: August 7](https://www.stltoday.com/newsletter-templates/paid/rewind/article_0ecb0b3a-5540-5480-8a95-77ed443bced2.html) — *2026-08-07*
+  > Webster Groves officials charged the city for strip clubs, pot store and Airbnb, audit says
+- **NEW**  [[St. Louis] Lombard homers in Yankees debut](https://www.stltoday.com/image_723a5d01-f553-5475-80ba-242dd7919795.html) — *2026-08-07*
+  > Yankees shortstop George Lombard Jr. rounds the bases after his solo home run on Tuesday against the Cardinals.
 - **NEW**  [[St. Louis] What’s True in the Lou? – 8/7/2026](https://www.stlmag.com/games/whats-true-in-the-lou-080726/) — *2026-08-07*
   > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
 - [[St. Louis] New Big Backyard Bash festival brings giant inflatables and family fun to St. Charles](https://www.stlmag.com/family/big-backyard-bash/) — *2026-08-06*
@@ -31,23 +50,10 @@ state: fresh
   > <p>Military veteran Fred Wellman eked out a victory in the Democratic primary on Tuesday, teeing him up for a tough race against 13-year-incumbent Congresswoman Ann Wagner.&#160; Wellman’s primary battle with Joan VonDras came down to just 2,500 votes. In a brief interview Wednes
 - [[St. Louis] WashU’s Martin says he did not help write the Trump administration’s letter](https://www.stlmag.com/news/washu-andrew-martin-linda-macmahon-letter/) — *2026-08-06*
   > <p>Secretary of Education Linda McMahon sent a letter Monday to college and university leaders asking them to post statements of principle on their websites detailing how they’ll prevent unruly protests from disrupting classes and foreign influences in their research, among other
-- [[St. Louis] Italian pasta maker to bring 150 new jobs to St. Charles with manufacturing plant](https://www.stlpr.org/economy-business/2026-08-06/italian-pasta-maker-150-jobs-to-st-charles-manufacturing-plant) — *2026-08-06*
-- [[St. Louis] Respect Missouri Voters sues Hoskins over rejecting amendment protecting ballot items](https://www.stlpr.org/news-briefs/2026-08-06/respect-missouri-voters-sues-hoskins-over-rejecting-amendment-protecting-ballot-items) — *2026-08-06*
-- [[St. Louis] Missouri Republicans rethink strategy after Amendments 4 and 5 fail miserably](https://www.stlpr.org/government-politics-issues/2026-08-06/missouri-republicans-rethink-strategy-after-amendments-4-and-5-fail-miserably) — *2026-08-06*
-- [[St. Louis] Civic group hopes to beautify Kiener Plaza garages, increase downtown St. Louis foot traffic](https://www.stlpr.org/news-briefs/2026-08-06/civic-group-beautify-kiener-plaza-garages-increase-downtown-st-louis-foot-traffic) — *2026-08-06*
-- [[St. Louis] Missouri has third-highest number of cyclosporiasis cases in U.S., CDC says](https://www.stlpr.org/news-briefs/2026-08-06/missouri-third-highest-cyclosporiasis-cases) — *2026-08-06*
-- [[St. Louis] How school closures and consolidation will shape the future of education in St. Louis](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-06/school-closures-and-consolidation-shape-future-education-st-louis-public-slps) — *2026-08-06*
-- [[St. Louis] St. Louis advocate praises expansion of voting rights for formerly incarcerated people](https://www.stlpr.org/government-politics-issues/2026-08-06/st-louis-advocate-expansion-voting-rights-formerly-incarcerated-people) — *2026-08-06*
-- [[St. Louis] 7 takeaways from Missouri’s expensive — and potentially unfinished — primary](https://www.stlpr.org/government-politics-issues/2026-08-05/7-takeaways-from-missouris-expensive-and-potentially-unfinished-primary) — *2026-08-05*
-- [[St. Louis] St. Louis County Executive Sam Page hopes voters get third chance on tax for online sales](https://www.stlpr.org/government-politics-issues/2026-08-05/st-louis-county-executive-sam-page-hopes-voters-get-third-chance-on-tax-for-online-sales) — *2026-08-05*
-- [[St. Louis] Suit filed to force a vote on Missouri’s GOP-leaning congressional redistricting map](https://www.stlpr.org/government-politics-issues/2026-08-05/suit-filed-to-force-a-vote-on-missouris-gop-leaning-congressional-redistricting-map) — *2026-08-05*
-- **NEW**  [[St. Louis] The Rewind: August 7](https://www.stltoday.com/newsletter-templates/paid/rewind/image_1df6d6b5-db9f-5f0b-9abc-69ff60b265ea.html) — *2026-08-07*
-- **NEW**  [[St. Louis] The Rewind: August 7](https://www.stltoday.com/newsletter-templates/paid/rewind/article_0ecb0b3a-5540-5480-8a95-77ed443bced2.html) — *2026-08-07*
-  > Webster Groves officials charged the city for strip clubs, pot store and Airbnb, audit says
-- **NEW**  [[St. Louis] Lombard homers in Yankees debut](https://www.stltoday.com/image_723a5d01-f553-5475-80ba-242dd7919795.html) — *2026-08-07*
-  > Yankees shortstop George Lombard Jr. rounds the bases after his solo home run on Tuesday against the Cardinals.
-- **NEW**  [[St. Louis] Lombard homers in Yankees debut](https://www.stltoday.com/article_1426c6ef-da5c-545a-8f30-706b39958cb0.html) — *2026-08-07*
-  > MLB
-- **NEW**  [[St. Louis] Page B5 eedition image](https://www.stltoday.com/image_3cf97725-9e7e-5be2-8f3e-edbf0bb69bae.html) — *2026-08-07*
+- **NEW**  [[Atlanta] Amid cost of living stress, many parents are supporting children well into adulthood](https://www.gpb.org/news/2026/08/07/amid-cost-of-living-stress-many-parents-are-supporting-children-well-adulthood) — *2026-08-07*
+- **NEW**  [[Atlanta] When tragedy strikes, America's wildland firefighters ask, was it 'somebody that we loved?'](https://www.gpb.org/news/2026/08/07/when-tragedy-strikes-americas-wildland-firefighters-ask-was-it-somebody-we-loved) — *2026-08-07*
+- **NEW**  [[Atlanta] Besieged Sudanese city faces relentless drone strikes and risk of mass atrocities, U.N. warns](https://www.gpb.org/news/2026/08/07/besieged-sudanese-city-faces-relentless-drone-strikes-and-risk-of-mass-atrocities) — *2026-08-07*
+- **NEW**  [[Atlanta] Who or what is 'taking a step back from visibility'? The quiz knows](https://www.gpb.org/news/2026/08/07/who-or-what-taking-step-back-visibility-the-quiz-knows) — *2026-08-07*
+- **NEW**  [[Atlanta] The park service says Trump's arch would obstruct historic sites. Could it be moved?](https://www.gpb.org/news/2026/08/07/the-park-service-says-trumps-arch-would-obstruct-historic-sites-could-it-be-moved) — *2026-08-07*
 
-_(225 additional items in raw.jsonl)_
+_(224 additional items in raw.jsonl)_

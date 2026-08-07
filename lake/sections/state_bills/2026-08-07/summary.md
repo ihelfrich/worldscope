@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-07
-record_count: 240
-new_today: 206
+record_count: 131
+new_today: 97
 state: fresh
 ---
 
 ## State Legislative Action
 
-206 new of 240 total items today.
+97 new of 131 total items today.
 
 - **NEW**  [[Alaska SB 133] An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.]() — *2026-08-07*
   > An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Arizona HB 2041] child neglect; financial resources; exception]() — *2026-08-06*
   > child neglect; financial resources; exception
 
-_(215 additional items in raw.jsonl)_
+_(106 additional items in raw.jsonl)_

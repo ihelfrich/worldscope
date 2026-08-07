@@ -3,18 +3,20 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-07
 record_count: 56
-new_today: 6
+new_today: 7
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-6 new of 56 total items today.
+7 new of 56 total items today.
 
 - **NEW**  [[The Hacker News] TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign](https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html) — *2026-08-07*
   > A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain.
 
 "The 
+- **NEW**  [[The Register] Cop who used police system to snoop for info on crook pals sentenced for Computer Misuse Act offenses](https://www.theregister.com/legal/2026/08/07/cop-who-used-police-system-to-snoop-for-info-on-crook-pals-sentenced-for-computer-misuse-act-offenses/5284191) — *2026-08-07*
+  > Former Merseyside police officer sacked after failing to declare he was 'too close' with the wrong crowd
 - **NEW**  [[The Register] Sysadmin summoned to explain italics – to a user with at least two degrees](https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871) — *2026-08-07*
   > What an idiot
 - **NEW**  [[The Register] China launches mysterious probe into security of Palo Alto Networks' products](https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453) — *2026-08-07*
@@ -65,8 +67,6 @@ It&#8217;s a cool idea, but I worry that it&#8217;s mostly security theater:
 &#8220;Our patterns play with that chaos, confuse algorithms and make it way harder to pin you
 - **NEW**  [[The Register] How the famed USENIX Security conf is managing a flood of papers in the AI era](https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374) — *2026-08-06*
   > AI usage is evident but isn't yet a serious problem
-- [[The Register] AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) — *2026-08-06*
-  > Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second
 - **NEW**  [[Ars Technica] Organ donation group accused of trying to take living man's organs faces shutdown](https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/) — *2026-08-06*
   > The organization, Network for Hope, "strongly disagrees" with Trump admin's decision.
 - [[Ars Technica] Explosive drone found hovering near Ukrainian cargo aircraft at German airport](https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/) — *2026-08-06*

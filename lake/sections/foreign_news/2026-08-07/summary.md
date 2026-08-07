@@ -2,43 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-07
-record_count: 1050
-new_today: 465
+record_count: 1026
+new_today: 518
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-465 new of 1050 total items today.
+518 new of 1026 total items today.
 
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-07*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-07*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-07*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[Global] Ebola virus behind massive outbreak in DRC could be mutating, officials say](https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating) — *2026-08-06*
-- [[Global] US to shut five consulates as critics fear China could fill diplomatic vacuum](https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures) — *2026-08-06*
-- [[Global] Top Ugandan footballer killed by robbers armed with paving stones](https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala) — *2026-08-06*
-- [[Global] Nigerian security forces free more than 300 hostages in ‘largest single-day recovery’](https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants) — *2026-08-06*
-- [[Global] ‘Morocco feels emboldened’: Trump’s influence in spotlight after Ceuta disaster](https://www.theguardian.com/world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster) — *2026-08-06*
-- **NEW**  [[Global] Colombia on the brink: ELN guerrilla group prepares for return to war](https://www.theguardian.com/world/ng-interactive/2026/aug/07/colombia-on-the-brink-eln-guerrilla-group-prepares-for-return-to-war) — *2026-08-07*
-- [[Global] Toronto zoo announces birth of pygmy hippo calf, third for mother Kindia](https://www.theguardian.com/world/2026/aug/05/toronto-zoo-pygmy-hippo-calf) — *2026-08-05*
-- [[Global] Mexican influencer shot dead while streaming live on social media](https://www.theguardian.com/world/2026/aug/05/mexico-cesar-gastelum-shot-dead-streaming-live-social-media) — *2026-08-05*
-- [[Global] Peruvian cardinal hails $150m lead poisoning settlement for 1,300 people as a ‘historic milestone’](https://www.theguardian.com/global-development/2026/aug/05/peruvian-cardinal-historic-milestone-150m-lead-poisoning-settlement-1300-children) — *2026-08-05*
-- [[Global] Mexico’s top university orders 58,000 students to resit entrance exam after suspected cheating](https://www.theguardian.com/world/2026/aug/05/mexico-top-university-unam-resit-entrance-exam-cheating-scandal) — *2026-08-05*
-- **NEW**  [[Global] Thailand school shooting: seven killed including suspected attacker, police say](https://www.theguardian.com/world/2026/aug/07/thailand-school-shooting-debsirin-nonthaburi-bangkok) — *2026-08-07*
-- [[Global] ‘Mamma mia!’: Trump tariffs refund ignites 53% profit spike at Nintendo](https://www.theguardian.com/games/2026/aug/06/trump-tariffs-refund-fuels-profit-spike-nintendo) — *2026-08-06*
-- [[Global] Starbucks Korea raided by police after ‘Tank Day’ campaign sparks public outrage](https://www.theguardian.com/world/2026/aug/06/starbucks-korea-raided-police-tank-day-campaign-gwangju-massacre) — *2026-08-06*
-- [[Global] New Zealand capital delights in rare snowfall as southern city residents ski down world’s steepest street](https://www.theguardian.com/world/2026/aug/05/new-zealand-capital-rare-snow-wellington-dunedin-ski-down-worlds-steepest-street) — *2026-08-05*
-- [[Global] ‘Our new champion’: Philippines swept up in tennis fever after Alex Eala’s historic win](https://www.theguardian.com/world/2026/aug/05/alex-eala-philippines-tennis-fever) — *2026-08-05*
-- **NEW**  [[Global] Attorney general warns women and children at risk of ‘harmful conduct’ from smartglasses users – as it happened](https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb) — *2026-08-07*
-- **NEW**  [[Global] Alan Jones trial: complainant wants to ‘humiliate’ broadcaster by revealing intimate details of alleged assaults, defence tells court](https://www.theguardian.com/australia-news/2026/aug/07/alan-jones-trial-defence-court-case-sydney-ntwnfb) — *2026-08-07*
-- **NEW**  [[Global] Man dies after suspected dog attack at rural property in outer Sydney](https://www.theguardian.com/australia-news/2026/aug/07/man-dead-suspected-dog-attack-eschol-park-sydney-suburb-ntwnfb) — *2026-08-07*
-- [[Global] ‘We expected it, but now it’s here’: on the frontline of Australia’s bird flu outbreak, people are distressed](https://www.theguardian.com/environment/2026/aug/07/we-expected-it-but-now-its-here-on-the-frontline-of-australias-bird-flu-outbreak-people-are-distressed) — *2026-08-06*
-- [[Global] Minns said he wouldn’t ‘gloat’ about Icac hearings into the Liberals. Instead, he’s quietly taking out the trash](https://www.theguardian.com/australia-news/2026/aug/07/minns-said-he-wouldnt-gloat-about-icac-hearings-into-the-liberals-instead-hes-quietly-taken-out-the-trash) — *2026-08-06*
-- **NEW**  [[Global] Extreme heat breaks temperature records in central and eastern Europe](https://www.theguardian.com/world/2026/aug/07/extreme-heat-breaks-temperature-records-central-eastern-europe) — *2026-08-07*
+- **NEW**  [[Global] Meta fined $567m in largest child safety ruling against social media giant](https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.
+- [[Global] Argos is getting a makeover - but can it attract new shoppers?](https://www.bbc.co.uk/news/articles/c2lqvwewgp2o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?
+- **NEW**  [[Global] Trump imposes 15% tariff on key chip material to counter China](https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The move  aims to protect US firms as they face increasing competition from China's chip industry.
+- [[Global] EasyJet agrees to £5.7bn takeover by US firm](https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.
+- [[Global] First OpenAI, now Meta - why do AI hacks keep happening?](https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > A flood of companies are revealing AI models gained access to the internet - with real consequences.
+- [[Global] Why airlines are warning over lithium-ion batteries](https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The airline industry wants passengers to be careful when travelling with lithium ion batteries.
+- [[Global] Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'](https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Andre Lavoie joined SpaceX in 2009 as an engineer, now he's looking to cash in his shares in the company.
+- [[Global] Iran says deal with Oman on Strait of Hormuz is in final stages](https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Neither the US or Oman have commented on the proposed agreement on the vital waterway.
+- [[Global] Shorts, strappy tops and sandals: What is acceptable to wear to work?](https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.
+- [[Global] Owner of bike maker Raleigh files for insolvency](https://www.bbc.co.uk/news/articles/c4gv45w4j8eo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Accell, based in the Netherlands, has owned the famous bike brand since 2012.
+- [[Global] Car washes and vape shops can still sponsor skilled foreign workers despite visa changes](https://www.bbc.co.uk/news/articles/cj639rx147eo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The rules were tightened in July 2025 to restrict the scheme mostly to graduate-level employees who would be earning at least £41,700.
+- [[Global] Meta becomes latest firm to say its AI hacked another company](https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.
+- [[Global] US beef prices have soared but farmers aren't making more money](https://www.bbc.co.uk/news/articles/cdrv0k0j662o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > The meat has never been more expensive, due to supply shortages, but there's a big squeeze on profits.
+- [[Global] Winemakers prosper but veg farms wilt in the drought](https://www.bbc.co.uk/news/articles/c141vjlyjgko?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Growers in the West of England search for new crops to grow in a changing climate.
+- [[Global] Thousands of young people missing out on money they don't know about](https://www.bbc.co.uk/news/articles/c1d1z376k4ko?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > People aged between 18 and 23 may have thousands in unclaimed government accounts.
+- [[Global] 'I've had to Botox my CV': Are AI recruitment tools affecting women's careers?](https://www.bbc.co.uk/news/articles/cyvl8y141e4o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Are AI recruitment tools disadvantaging women who are seeking to return to the workplace?
+- [[Global] Air India's new CEO faces financial and safety turbulence](https://www.bbc.co.uk/news/articles/c9987kkrnl5o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The aftermath of last's year deadly crash and mounting financial losses will be Gebremariam's main challenges.
+- [[Global] Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses](https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.
+- [[Global] Infantino sorry for errors but stays Fifa president](https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > Gianni Infantino will remain Fifa president after receiving backing from senior executives, but "sincerely apologises" for errors in his controversial private investment plans.
+- [[Global] Disney agrees deal to let TikTokers use its films and TV shows in videos](https://www.bbc.co.uk/news/articles/c235ev9knm4o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > A deal between will allow some creators to use clips from Disney films and TV shows in their videos.
+- [[Global] Prioritise new jobs over green targets to win public contracts, firms told](https://www.bbc.co.uk/news/articles/ckgdmv7elg8o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > The changes are part of government efforts to tackle the youth unemployment crisis.
+- [[Global] Vegetables to get smaller and more expensive due to hot weather, farmers warn](https://www.bbc.co.uk/news/articles/c4gwv9590xeo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
+  > This year's harvest could be the worst on record due to the exceptionally dry spring and summer.
 
-_(1025 additional items in raw.jsonl)_
+_(1001 additional items in raw.jsonl)_
