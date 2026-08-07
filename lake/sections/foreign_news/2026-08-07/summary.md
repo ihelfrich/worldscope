@@ -2,39 +2,45 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-07
-record_count: 1026
-new_today: 518
+record_count: 1062
+new_today: 653
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-518 new of 1026 total items today.
+653 new of 1062 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-07*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-07*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-07*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[Global] Cartoon: War drags on in Ukraine and Iran](https://www.economist.com/the-world-this-week/2026/08/06/cartoon-war-drags-on-in-ukraine-and-iran) — *2026-08-06*
+  > A lighter take on the news
+- [[Global] Business](https://www.economist.com/the-world-this-week/2026/08/06/business) — *2026-08-06*
+- [[Global] Politics](https://www.economist.com/the-world-this-week/2026/08/06/politics) — *2026-08-06*
 - **NEW**  [[Global] Meta fined $567m in largest child safety ruling against social media giant](https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
   > The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.
 - [[Global] Argos is getting a makeover - but can it attract new shoppers?](https://www.bbc.co.uk/news/articles/c2lqvwewgp2o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?
+- **NEW**  [[Global] US strikes $1.2bn deal to pay German firm to halt offshore wind projects](https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.
 - **NEW**  [[Global] Trump imposes 15% tariff on key chip material to counter China](https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
   > The move  aims to protect US firms as they face increasing competition from China's chip industry.
 - [[Global] EasyJet agrees to £5.7bn takeover by US firm](https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.
-- [[Global] First OpenAI, now Meta - why do AI hacks keep happening?](https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > A flood of companies are revealing AI models gained access to the internet - with real consequences.
 - [[Global] Why airlines are warning over lithium-ion batteries](https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > The airline industry wants passengers to be careful when travelling with lithium ion batteries.
-- [[Global] Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'](https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
-  > Andre Lavoie joined SpaceX in 2009 as an engineer, now he's looking to cash in his shares in the company.
+- [[Global] First OpenAI, now Meta - why do AI hacks keep happening?](https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > A flood of companies are revealing AI models gained access to the internet - with real consequences.
 - [[Global] Iran says deal with Oman on Strait of Hormuz is in final stages](https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > Neither the US or Oman have commented on the proposed agreement on the vital waterway.
 - [[Global] Shorts, strappy tops and sandals: What is acceptable to wear to work?](https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.
+- [[Global] Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'](https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Andre Lavoie joined SpaceX in 2009 as an engineer, now he's looking to cash in his shares in the company.
 - [[Global] Owner of bike maker Raleigh files for insolvency](https://www.bbc.co.uk/news/articles/c4gv45w4j8eo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
   > Accell, based in the Netherlands, has owned the famous bike brand since 2012.
 - [[Global] Car washes and vape shops can still sponsor skilled foreign workers despite visa changes](https://www.bbc.co.uk/news/articles/cj639rx147eo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
@@ -53,13 +59,5 @@ state: fresh
   > The aftermath of last's year deadly crash and mounting financial losses will be Gebremariam's main challenges.
 - [[Global] Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses](https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
   > It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.
-- [[Global] Infantino sorry for errors but stays Fifa president](https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > Gianni Infantino will remain Fifa president after receiving backing from senior executives, but "sincerely apologises" for errors in his controversial private investment plans.
-- [[Global] Disney agrees deal to let TikTokers use its films and TV shows in videos](https://www.bbc.co.uk/news/articles/c235ev9knm4o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > A deal between will allow some creators to use clips from Disney films and TV shows in their videos.
-- [[Global] Prioritise new jobs over green targets to win public contracts, firms told](https://www.bbc.co.uk/news/articles/ckgdmv7elg8o?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > The changes are part of government efforts to tackle the youth unemployment crisis.
-- [[Global] Vegetables to get smaller and more expensive due to hot weather, farmers warn](https://www.bbc.co.uk/news/articles/c4gwv9590xeo?at_medium=RSS&at_campaign=rss) — *2026-08-05*
-  > This year's harvest could be the worst on record due to the exceptionally dry spring and summer.
 
-_(1001 additional items in raw.jsonl)_
+_(1037 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-07
-record_count: 12
+record_count: 10
 new_today: 3
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-3 new of 12 total items today.
+3 new of 10 total items today.
 
 - [M 5.4 - 145 km E of Yamada, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000timf) — *2026-08-06*
   > M5.4 · 145 km E of Yamada, Japan · depth 10 km
@@ -23,15 +23,11 @@ state: fresh
   > M4.9 · 64 km NE of Mangapapa, New Zealand · depth 22.793 km
 - [M 4.9 - 195 km SE of Lorengau, Papua New Guinea](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tikr) — *2026-08-06*
   > M4.9 · 195 km SE of Lorengau, Papua New Guinea · depth 10 km
-- [M 4.9 - 128 km WSW of Port Orford, Oregon](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5) — *2026-08-06*
-  > M4.9 · 128 km WSW of Port Orford, Oregon · depth 10 km
 - **NEW**  [M 4.6 - 51 km WSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj) — *2026-08-07*
   > M4.6 · 51 km WSW of Sarangani, Philippines · depth 43.488 km
 - [M 4.6 - 149 km SE of Petropavlovsk-Kamchatsky, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tipv) — *2026-08-06*
   > M4.6 · 149 km SE of Petropavlovsk-Kamchatsky, Russia · depth 40.732 km
 - [M 4.6 - 148 km E of Miyako, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000timi) — *2026-08-06*
   > M4.6 · 148 km E of Miyako, Japan · depth 10 km
-- [M 4.6 - 5 km ENE of Matsubase, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tijg) — *2026-08-06*
-  > M4.6 · 5 km ENE of Matsubase, Japan · depth 10 km
 - **NEW**  [M 4.5 - 29 km S of Mendoza, Argentina](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tits) — *2026-08-07*
   > M4.5 · 29 km S of Mendoza, Argentina · depth 10 km
