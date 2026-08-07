@@ -11,14 +11,14 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-05*
-  > latest: 3.6300000000 as of 2026-08-05
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-05*
-  > latest: 4.1800000000 as of 2026-08-05
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-05*
-  > latest: 4.6300000000 as of 2026-08-05
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-05*
-  > latest: 5.1700000000 as of 2026-08-05
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-06*
+  > latest: 3.6300000000 as of 2026-08-06
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-06*
+  > latest: 4.2500000000 as of 2026-08-06
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-06*
+  > latest: 4.6900000000 as of 2026-08-06
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-06*
+  > latest: 5.2200000000 as of 2026-08-06
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-06*
   > latest: 3.65 as of 2026-08-06
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-08-06*
@@ -29,10 +29,10 @@ state: fresh
   > latest: 336.065 as of 2026-06-01
 - [[Inflation] Core PCE (PCEPILFE)](https://fred.stlouisfed.org/series/PCEPILFE) — *2026-06-01*
   > latest: 130.266 as of 2026-06-01
-- [[Labor] Unemployment rate (UNRATE)](https://fred.stlouisfed.org/series/UNRATE) — *2026-06-01*
-  > latest: 4.2 as of 2026-06-01
-- [[Labor] Nonfarm payrolls (PAYEMS)](https://fred.stlouisfed.org/series/PAYEMS) — *2026-06-01*
-  > latest: 158984 as of 2026-06-01
+- [[Labor] Unemployment rate (UNRATE)](https://fred.stlouisfed.org/series/UNRATE) — *2026-07-01*
+  > latest: 4.1 as of 2026-07-01
+- [[Labor] Nonfarm payrolls (PAYEMS)](https://fred.stlouisfed.org/series/PAYEMS) — *2026-07-01*
+  > latest: 158858 as of 2026-07-01
 - [[Labor] Job openings (JOLTS) (JTSJOL)](https://fred.stlouisfed.org/series/JTSJOL) — *2026-06-01*
   > latest: 7359 as of 2026-06-01
 - [[Growth] Real GDP (GDPC1)](https://fred.stlouisfed.org/series/GDPC1) — *2026-04-01*
@@ -51,5 +51,5 @@ state: fresh
   > latest: 6.7509000000 as of 2026-07-31
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-08-03*
   > latest: 81.96 as of 2026-08-03
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-05*
-  > latest: 15.81 as of 2026-08-05
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-06*
+  > latest: 15.15 as of 2026-08-06

@@ -2,25 +2,27 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-07
-record_count: 100
-new_today: 12
+record_count: 102
+new_today: 13
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-12 new of 100 total items today.
+13 new of 102 total items today.
 
 - [[OFAC] Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4YjQ1NnltTko0QWJxQ1RFWjdfcHhSQmo0V1NPM3Zmamc3M1BoYlNsOG9VeEktSEZfMmhOZG96c2RoVGhLMW5KQ2FUYTc3Zk5lbWU0azYyNWtQMXhVbWc?oc=5" target="_blank">Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question</a
 - [[OFAC] Counter Terrorism Designations Removals and Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-05*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE00cU1PY0YyQ2QwakJHRWQ1UzA3LW80b0h0b3F1QVEtdGJoeFRmcnVLbHVrd2FzMG01LWVGdnFIYlBUNHprMG5ENjQxTThyTXlVb0h3NzVGTVh6bUxwSWc?oc=5" target="_blank">Counter Terrorism Designations Removals and Update</a>&nbsp;&nbsp;<font color="#
+- [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3pwSTJTd1YteXc5Smh2UlpsVFE2eGpGLXA1VVhxNXlZeTYtQ1JHdDItaDlKdDlfTzNmeHk2ZkpJekkzNnh1UnFmXzR3c3A4LVd5NDFZMGNuR0U?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
 - [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IWGx5VlA1dHJkNG1qMUpGOWtqUGcwekdHU0haaEVSN2lJVlBVZ3laeHp4RFpuOXJZNW9nS1Zxa1pPLUZPMWpUZEpHd0xpcHpXdE0zOUstSzNJNjBDZFE?oc=5" target="_blank">Issuance of Amended Venezuela-related General License and Frequently Asked Quest
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfME94Qk5mb081SG5yN1F0Z2M2WEdEWXl3cHpzckxmV0p5blZha21Xd1VQSlhRTFdETGRteW9LSHRRT2NtT2s5X0dIVFd3VU4tcklFVUtTaFd6aUhUY0FJR2FrTXE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
-- [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
-  > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3pwSTJTd1YteXc5Smh2UlpsVFE2eGpGLXA1VVhxNXlZeTYtQ1JHdDItaDlKdDlfTzNmeHk2ZkpJekkzNnh1UnFmXzR3c3A4LVd5NDFZMGNuR0U?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
+- **NEW**  [[OFAC] Counter Terrorism and Iran-related Designations; Counter Narcotics Designations Removals; Issuance of Amended Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcFZQa2M3dXRLeEpKZENleGltTm1JbGRTYmlQanhQbnp1XzMxVmxqM2hCSl9SNmhsLVBnVkZLRW1sVHRkSWNkaGUxdXQ2OVMzZ19MN0l1LU5Id1dVNHc?oc=5" target="_blank">Counter Terrorism and Iran-related Designations; Counter Narcotics Designations 
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-07*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
 - [[FARA] Criminal Division | Whistleblower Awards Pilot Program - Department of Justice (.gov)](https://www.justice.gov) — *2026-07-31*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: National Aeronautics and Space Administration.  Description: INTERIM CRYOGENIC PROPULSION STAGE FOR SLS
 - **NEW**  [[USASpending] $1,186,157,198 → SCIENCE APPLICATIONS INTERNATIONAL CORPORATION: THE SCOPE OF THE TO IS TO PROVIDE ENTERPRISE IT SERVICES FOR](https://www.usaspending.gov/award/47QFCA21F0001) — *2026-08-07*
   > Agency: General Services Administration.  Description: THE SCOPE OF THE TO IS TO PROVIDE ENTERPRISE IT SERVICES FOR THE USACE.
-- **NEW**  [[USASpending] $1,175,671,370 → BOOZ ALLEN HAMILTON INC: TASK ORDER AWARD](https://www.usaspending.gov/award/47QFCA22F0047) — *2026-08-07*
-  > Agency: General Services Administration.  Description: TASK ORDER AWARD
 
-_(75 additional items in raw.jsonl)_
+_(77 additional items in raw.jsonl)_

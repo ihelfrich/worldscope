@@ -2,25 +2,27 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-08-07
-record_count: 278
-new_today: 189
+record_count: 280
+new_today: 196
 state: fresh
 ---
 
 ## Chinese Internal News
 
-189 new of 278 total items today.
+196 new of 280 total items today.
 
-- **NEW**  [Exclusive: Chinese Supertankers Take Africa Detour to Avoid Red Sea Attacks - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-06*
+- [Exclusive: Chinese Supertankers Take Africa Detour to Avoid Red Sea Attacks - Caixin Global](https://www.caixinglobal.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb1hrU0w2Tmlkcjg1TTJGS0RvWl85WXdYQTVvX0J3TW93Njh0eGxSRzRINmVmaXl3aFlNSkdNdEFkT2U5Q3ZiSFBHUnM1WGxjWUdfYzVJa2ZDOFZFX3FkLVNnSkQ4ckJTREFKSlE4Qjg0TS1CNEFqY2ozNm83aUxzS3Flc200Rjl3SWdNb1ljYzJjcDRXWEFldXJ1QTRNV0hhRWMyeHpLTmx1cH
-- **NEW**  [Exclusive: China Widens Tax Net to Offshore Insurance - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-05*
+- [Exclusive: China Widens Tax Net to Offshore Insurance - Caixin Global](https://www.caixinglobal.com) — *2026-08-05*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeHh5TTJtdUJTaDQ5bk8wMnZpQ3N4NTB4ZVFHUjNpR0dwdThsWjNtVW9qdkg1aklXRU1WNDRueDVYZ3dvLWNRQVRhOUwyLWhFQmtjYWlOaUVCX3NHcXlQb3U0X2FrY2ZnWURxRkZrZTFmUC1WWGJVVmxzZVpjSlpPRDdTVUhSSjFYalNNcV92YTZnQXhfMUJOT1FJdUgxWDVqQmxlalhiVkhjeT
-- **NEW**  [In Depth: Former Shanxi Richest Man Indicted on Mafia, Casino Charges - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-06*
+- **NEW**  [In Depth: Former Shanxi Richest Man Indicted on Mafia, Casino Charges - Caixin Global](https://www.caixinglobal.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUZUOUJtRkNMam1JNXRYUkFPeXdHTE9CYW9OSFBCUzFCZG5EaXhKQlNJYWdYd0tkdWx6VGt0blFXMHBPZ0FrOU1NU0UyX3ljNVdoQm5BT3RTRmNwLWJUUUlua3NsZFZEMDJkemRGdHE3b2tJZXpfNHdianNLTmRUQmRqM0VGaFR1dnQ5aDVWSDhvTHFvaHpqbXdDLXRhN3lxVE9MbHhZWGo2QT
-- **NEW**  [In Depth: Dangdai Founder Ai Luming Detained as Probe Into Debt Crisis Widens - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-06*
+- **NEW**  [In Depth: Dangdai Founder Ai Luming Detained as Probe Into Debt Crisis Widens - Caixin Global](https://www.caixinglobal.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPNDJpbFB1MFhJWFpHZ1NyYkNid3p2NkZzb1ZTODUtREw3bnVqZVZBREhFZW5ralVPekdaUVV1OUFkZ0FrZnpKOHlBYkRiYjc4TnVoQ2liaFN3c1JXY0h2QklDMEJKQVFQLXhJd21LRFZVUU4zN0lnbjBUNFRRQnBBSU40T1FZWXFuQmV5U1NTbzVSc0FzMzQ0WVJqdHB1RFM0ckhWeGNnR1NRcF
 - **NEW**  [[TITLE: 影视 - deepview.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1EOTY2WVNZMUoycjBwYklIR2o1d3ZwRFZFdzhFSTJxd3dkdXF2WlhFUGJHd3NWZTVjZ1F1b0MtZzl2emNIc1JTZGtaaEVvenhxdF] (zh: 影视 - deepview.caixin.com)](https://deepview.caixin.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1EOTY2WVNZMUoycjBwYklIR2o1d3ZwRFZFdzhFSTJxd3dkdXF2WlhFUGJHd3NWZTVjZ1F1b0MtZzl2emNIc1JTZGtaaEVvenhxdFB3YklaTE5jM2M0My02RHk1MXdrSWlnU3ZKRVQ2SQ?oc=5" target="_blank">影视</a>&nbsp;&nbsp;<font color="#6f6f6f">deepview.caixin.c
+- **NEW**  [[TITLE: 夜读精选｜ 贝恩资本宣布收购贡茶在中国大陆无法注册商标后退出市场 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE96QzBqd3R0eE1HaHhUVHNCTzRha2RFM2tSYWc4c254RWZMWlZhX2lpVU9MaWE1OHpfZ3NGTk5mRTRWbElkZHNCM] (zh: 夜读精选｜ 贝恩资本宣布收购贡茶在中国大陆无法注册商标后退出市场 - 财新)](https://www.caixin.com) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE96QzBqd3R0eE1HaHhUVHNCTzRha2RFM2tSYWc4c254RWZMWlZhX2lpVU9MaWE1OHpfZ3NGTk5mRTRWbElkZHNCM3ZaZkx2dHp1R2VOMWNtRXJhQ1JM?oc=5" target="_blank">夜读精选｜ 贝恩资本宣布收购贡茶在中国大陆无法注册商标后退出市场</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 中东局势催化东南亚能源焦虑 多国出台光伏新政加速转型 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hb052bU1oU1hXM3B4Q1JKVExGcldOZU1tRkR4ejk4ZlpUM0N4WlkyLVdSWUtlUGJmbUxzQVJRUzJBblN6TUZsQlpHX3d] (zh: 中东局势催化东南亚能源焦虑 多国出台光伏新政加速转型 - 财新)](https://www.caixin.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hb052bU1oU1hXM3B4Q1JKVExGcldOZU1tRkR4ejk4ZlpUM0N4WlkyLVdSWUtlUGJmbUxzQVJRUzJBblN6TUZsQlpHX3dkcVJkN0VZajRyS3E5WVRs?oc=5" target="_blank">中东局势催化东南亚能源焦虑 多国出台光伏新政加速转型</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 独家｜境外收入征税 保险收益也需缴交？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoa1c2N0VVXzh5RmxQYy1uUGFTekRKV1A3S05fTEs2aHotT3ZUNW5XckFqOXN5TjNlSGVSbG9ITnBYY0VaNnRpVHRkMG5fSENSSn] (zh: 独家｜境外收入征税 保险收益也需缴交？ - 财新)](https://finance.caixin.com) — *2026-08-05*
@@ -41,25 +43,23 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yRHAycXltbmNrZy0tLXdqdWNwclJDYlRrakJYeDJMVnJZNVBtdElGWnFLel9VZUZ6ZXhJNzRSRm0zbkRZQTYteG0waThzaWxLUzRtcU1VYzN1UXJuMHlwTU13?oc=5" target="_blank">今日开盘：两市双双低开 沪指跌幅0.19%</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 火线评论｜广东雷州“特教老师招聘违规”很雷，仍有诸多疑点 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE45Vy1FSHpmclFBdy0yS1hkSmR2eVNWNm9lVHB5cnAyU1VPNU1LT1dYU3JJSlBqWm16U2dyS0o1STVBMk1OdURlU2dLN] (zh: 火线评论｜广东雷州“特教老师招聘违规”很雷，仍有诸多疑点 - 财新)](https://opinion.caixin.com) — *2026-08-06*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE45Vy1FSHpmclFBdy0yS1hkSmR2eVNWNm9lVHB5cnAyU1VPNU1LT1dYU3JJSlBqWm16U2dyS0o1STVBMk1OdURlU2dLNVNob1RMRk5jWnRPSFpnc1c4TjRlYl9R?oc=5" target="_blank">火线评论｜广东雷州“特教老师招聘违规”很雷，仍有诸多疑点</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 海外金融专才回流香港 外籍工作签证翻倍 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVHBBNEg0eldGYzJKcGpXbUpEeWZFNjRpcFA5MGdVTllMbEJIMGpjVmNjNzN6X050ejhnUDlER3daSFQtNHBXanVUSVo4UGc2M3] (zh: 海外金融专才回流香港 外籍工作签证翻倍 - 财新)](https://finance.caixin.com) — *2026-08-07*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVHBBNEg0eldGYzJKcGpXbUpEeWZFNjRpcFA5MGdVTllMbEJIMGpjVmNjNzN6X050ejhnUDlER3daSFQtNHBXanVUSVo4UGc2M3hwWElyalRYR2FnUXRKUUlB?oc=5" target="_blank">海外金融专才回流香港 外籍工作签证翻倍</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 朱学东：咸菜烧丝瓜｜饮食 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DczlFWTFZcFdvUGthdm5YdjFDRXlLX3hlXy1iNlQzLUxacUw5VFdSYkF5cFktUFlndnMxeU9BT2NrdFFBQXBzVW9sTlROUW9TUGpsb3o3b] (zh: 朱学东：咸菜烧丝瓜｜饮食 - 财新)](https://mini.caixin.com) — *2026-08-07*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DczlFWTFZcFdvUGthdm5YdjFDRXlLX3hlXy1iNlQzLUxacUw5VFdSYkF5cFktUFlndnMxeU9BT2NrdFFBQXBzVW9sTlROUW9TUGpsb3o3bDBsX1ZPOEE?oc=5" target="_blank">朱学东：咸菜烧丝瓜｜饮食</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 特朗普签令：禁止赴美生育使新生儿获得美国公民身份的“生育旅游” - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rTUxLQTVHdk5hS0t6aE9QZTczVDZ3N21rd1lQTUNYaXB6Q1U2U3JCUU82aUl0dzRqbXRDcjItRk8xOFIxMktDLV] (zh: 特朗普签令：禁止赴美生育使新生儿获得美国公民身份的“生育旅游” - 财新)](https://mini.caixin.com) — *2026-08-07*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rTUxLQTVHdk5hS0t6aE9QZTczVDZ3N21rd1lQTUNYaXB6Q1U2U3JCUU82aUl0dzRqbXRDcjItRk8xOFIxMktDLVhiMHo4am5WVml0cW5LSnpCcEMzVEE?oc=5" target="_blank">特朗普签令：禁止赴美生育使新生儿获得美国公民身份的“生育旅游”</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 河南“三支一扶”考试规模化作弊 内外勾结提前获取试卷 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE04aFNDNGZWTFRIb0tmMGpxbEtyMk1IaUdPdkVub0hiOXFKdUZqV0dhQ3AyVUtiZ1ByWVA4TTJuclpQa] (zh: 河南“三支一扶”考试规模化作弊 内外勾结提前获取试卷 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE04aFNDNGZWTFRIb0tmMGpxbEtyMk1IaUdPdkVub0hiOXFKdUZqV0dhQ3AyVUtiZ1ByWVA4TTJuclpQa1liUWVlb2x0aUZLUllXa09obEZiZGFrMXZaNko0?oc=5" target="_blank">河南“三支一扶”考试规模化作弊 内外勾结提前获取试卷</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.co
+- **NEW**  [[TITLE: 朱学东：咸菜烧丝瓜｜饮食 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DczlFWTFZcFdvUGthdm5YdjFDRXlLX3hlXy1iNlQzLUxacUw5VFdSYkF5cFktUFlndnMxeU9BT2NrdFFBQXBzVW9sTlROUW9TUGpsb3o3b] (zh: 朱学东：咸菜烧丝瓜｜饮食 - 财新)](https://mini.caixin.com) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DczlFWTFZcFdvUGthdm5YdjFDRXlLX3hlXy1iNlQzLUxacUw5VFdSYkF5cFktUFlndnMxeU9BT2NrdFFBQXBzVW9sTlROUW9TUGpsb3o3bDBsX1ZPOEE?oc=5" target="_blank">朱学东：咸菜烧丝瓜｜饮食</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 成都一区法院原院长 被指“违规挂证执业” - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ybXBtSS1wT0dlSnpnTzJpSFlXYzU2V3ZmMXRqdDQyRWxyTVhSWUhBb0dudVdZUFBZQ3Y5Mi1MNkxWXzlkWU9] (zh: 成都一区法院原院长 被指“违规挂证执业” - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ybXBtSS1wT0dlSnpnTzJpSFlXYzU2V3ZmMXRqdDQyRWxyTVhSWUhBb0dudVdZUFBZQ3Y5Mi1MNkxWXzlkWU9LWHpXcDBGQ0hCczYzLWRlUjV6bUozb1RV?oc=5" target="_blank">成都一区法院原院长 被指“违规挂证执业”</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</fon
-- [[TITLE: 财经早知道｜河南带薪休假新政：领导干部带头，全员应休尽休 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUaW1VSmgxbElxcE14Q1UzRmpBQnNYWENieTQtM2pvQWhSQ3Nqa0hBelZQeTlUaHVZTUwwckdHTWcxM3JBVkpQcThJd] (zh: 财经早知道｜河南带薪休假新政：领导干部带头，全员应休尽休 - 财新)](https://finance.caixin.com) — *2026-08-05*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUaW1VSmgxbElxcE14Q1UzRmpBQnNYWENieTQtM2pvQWhSQ3Nqa0hBelZQeTlUaHVZTUwwckdHTWcxM3JBVkpQcThJdHNBdmFXbFNpaTlmTUdxeXdRRUZCeVJn?oc=5" target="_blank">财经早知道｜河南带薪休假新政：领导干部带头，全员应休尽休</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 人事观察｜长期任职湖北 周新群升任中央政研室副主任 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wOEZpbEdFUDU2OW1RdlRTMXJjNjMzWjZLTGJyX2NFZGFBaGxWdzZfNWpMZ2YzRTRNSmh0RzJXWXFUek] (zh: 人事观察｜长期任职湖北 周新群升任中央政研室副主任 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wOEZpbEdFUDU2OW1RdlRTMXJjNjMzWjZLTGJyX2NFZGFBaGxWdzZfNWpMZ2YzRTRNSmh0RzJXWXFUek9FaUdndXJlel9zTGlPVnJydHoxYi1JWXJUR2dn?oc=5" target="_blank">人事观察｜长期任职湖北 周新群升任中央政研室副主任</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com
 - **NEW**  [[TITLE: 特稿｜国航原党委书记樊澄受贿3847万元二审待宣判 否认大多数指控 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TdlhKNHZrN3daa0FJME4tRWtHY0ZHY3ozbXdlS0RkVEo1M0d2MzFXbjR4YkRFQVljSERDbE] (zh: 特稿｜国航原党委书记樊澄受贿3847万元二审待宣判 否认大多数指控 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TdlhKNHZrN3daa0FJME4tRWtHY0ZHY3ozbXdlS0RkVEo1M0d2MzFXbjR4YkRFQVljSERDbE9oVnJ4dW1zcHdDYjh2VE5uVHl5NUFEN2JMT2U4SEJnWnBN?oc=5" target="_blank">特稿｜国航原党委书记樊澄受贿3847万元二审待宣判 否认大多数指控</a>&nbsp;&nbsp;<font color="#6f6f6f">china.ca
 - **NEW**  [[TITLE: 人事观察｜上海55岁女副市长解冬进京 候任中国侨联副主席 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE0weGM2cWpaczJ0VXl3SF9ka08xQnVvZGV4bXZzV3EwSEZ2ZTBJYXBIWDJ0bjBjMWZoOU5PWHZZc1h] (zh: 人事观察｜上海55岁女副市长解冬进京 候任中国侨联副主席 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE0weGM2cWpaczJ0VXl3SF9ka08xQnVvZGV4bXZzV3EwSEZ2ZTBJYXBIWDJ0bjBjMWZoOU5PWHZZc1hRZmtMUDV0aG9VNUVpWU1DRkJXUlJtdUpYMDZPVlFR?oc=5" target="_blank">人事观察｜上海55岁女副市长解冬进京 候任中国侨联副主席</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.
-- [[TITLE: 罗兰贝格：全球汽车市场逐渐区域化已成趋势 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SV0dzU3kwWXNrNVQ3eGZPSDV5a2dqd2pZeGtUQzFORmxnYzRaTVV4YXpzUmhDYjBsLWVuRGFnRGRoX1NGYmxibEYwbDUyajNRT] (zh: 罗兰贝格：全球汽车市场逐渐区域化已成趋势 - 财新)](https://companies.caixin.com) — *2026-08-06*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SV0dzU3kwWXNrNVQ3eGZPSDV5a2dqd2pZeGtUQzFORmxnYzRaTVV4YXpzUmhDYjBsLWVuRGFnRGRoX1NGYmxibEYwbDUyajNRTnQwbDF1bEJKTWRadHkwSDMtYWY?oc=5" target="_blank">罗兰贝格：全球汽车市场逐渐区域化已成趋势</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 人事观察｜长期任职湖北 周新群升任中央政研室副主任 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wOEZpbEdFUDU2OW1RdlRTMXJjNjMzWjZLTGJyX2NFZGFBaGxWdzZfNWpMZ2YzRTRNSmh0RzJXWXFUek] (zh: 人事观察｜长期任职湖北 周新群升任中央政研室副主任 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
-  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wOEZpbEdFUDU2OW1RdlRTMXJjNjMzWjZLTGJyX2NFZGFBaGxWdzZfNWpMZ2YzRTRNSmh0RzJXWXFUek9FaUdndXJlel9zTGlPVnJydHoxYi1JWXJUR2dn?oc=5" target="_blank">人事观察｜长期任职湖北 周新群升任中央政研室副主任</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com
-- **NEW**  [[TITLE: U17，能否实现中国足球的“青春突围”？｜体坛 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yQTR6cFZueXJNd1p6VzBSNFNzQVpIWlRMdFZ6OHVCX3FhYWFuZWpJQW9adkZGQmMwS0JYRmNtNWowN3ZKdFZCN21iQk9yc0] (zh: U17，能否实现中国足球的“青春突围”？｜体坛 - 财新)](https://mini.caixin.com) — *2026-08-06*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yQTR6cFZueXJNd1p6VzBSNFNzQVpIWlRMdFZ6OHVCX3FhYWFuZWpJQW9adkZGQmMwS0JYRmNtNWowN3ZKdFZCN21iQk9yc01EMU1Gejl4MjVTLXBLelE?oc=5" target="_blank">U17，能否实现中国足球的“青春突围”？｜体坛</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 下周前瞻：生态环境法典施行；巴西总统大选进入竞选阶段 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WeWdpczZaSVlJRjNOeWFOYkxsMnF6V3A3a2E4RkQ3N2VUcUJxeVZrVUhmUm9PVHI5NmQ3YjJjTDNJc] (zh: 下周前瞻：生态环境法典施行；巴西总统大选进入竞选阶段 - china.caixin.com)](https://china.caixin.com) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WeWdpczZaSVlJRjNOeWFOYkxsMnF6V3A3a2E4RkQ3N2VUcUJxeVZrVUhmUm9PVHI5NmQ3YjJjTDNJcFNBTXBKTWdUWGdFZ2pBNlZPSlMtal81dGpRNWlr?oc=5" target="_blank">下周前瞻：生态环境法典施行；巴西总统大选进入竞选阶段</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.co
+- **NEW**  [[TITLE: 视线｜“入侵”还是“人道危机”？难民潮撕裂西班牙飞地休达 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KZ2dCZGNQSkxtejl6V3lJcGkxWnBQTjl4NFVMcnFQZDRrRGRjSU9ldFYtX1BGMzhBVl90R0FWZEJMZ25xWThvd2RZd] (zh: 视线｜“入侵”还是“人道危机”？难民潮撕裂西班牙飞地休达 - 财新)](https://photos.caixin.com) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KZ2dCZGNQSkxtejl6V3lJcGkxWnBQTjl4NFVMcnFQZDRrRGRjSU9ldFYtX1BGMzhBVl90R0FWZEJMZ25xWThvd2RZdTN0TDdMMi1jWldtZzRzaExsNU9QUA?oc=5" target="_blank">视线｜“入侵”还是“人道危机”？难民潮撕裂西班牙飞地休达</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(253 additional items in raw.jsonl)_
+_(255 additional items in raw.jsonl)_

@@ -3,38 +3,38 @@ section: courtlistener
 title: Court opinions of consequence (federal & state)
 date: 2026-08-07
 record_count: 60
-new_today: 23
+new_today: 47
 state: fresh
 ---
 
 ## Court opinions of consequence (federal & state)
 
-23 new of 60 total items today.
+47 new of 60 total items today.
 
 - **NEW**  [Connecticut Supreme Court: LPP Mortgage Ltd. v. Underwood Towers Ltd. Partnership](https://www.courtlistener.com/opinion/10941954/lpp-mortgage-ltd-v-underwood-towers-ltd-partnership/) — *2026-08-11*
 - **NEW**  [Connecticut Supreme Court: LPP Mortgage Ltd. v. Underwood Towers Ltd. Partnership](https://www.courtlistener.com/opinion/10941953/lpp-mortgage-ltd-v-underwood-towers-ltd-partnership/) — *2026-08-11*
-- [U.S. Court of Appeals, 7th Cir.: United States v. Damond Wiley, Jr.](https://www.courtlistener.com/opinion/10941323/united-states-v-damond-wiley-jr/) — *2026-08-06*
-- [U.S. Court of Appeals, 7th Cir.: United States v. Rishi Shah](https://www.courtlistener.com/opinion/10941322/united-states-v-rishi-shah/) — *2026-08-06*
-- [U.S. Court of Appeals, 7th Cir.: United States v. Shradha Agarwal](https://www.courtlistener.com/opinion/10941321/united-states-v-shradha-agarwal/) — *2026-08-06*
-- [U.S. Court of Appeals, 7th Cir.: United States v. Thomas Duncan](https://www.courtlistener.com/opinion/10940803/united-states-v-thomas-duncan/) — *2026-08-06*
-- [Supreme Court of California: Gorobets v. Jaguar Land Rover North America, LLC](https://www.courtlistener.com/opinion/10940921/gorobets-v-jaguar-land-rover-north-america-llc/) — *2026-08-06*
-- [Supreme Court of California: People v. Hyatt](https://www.courtlistener.com/opinion/10940920/people-v-hyatt/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: Farrington v. Poole](https://www.courtlistener.com/opinion/10940800/farrington-v-poole/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: Reyes v. City of New York](https://www.courtlistener.com/opinion/10940799/reyes-v-city-of-new-york/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: SEC V.](https://www.courtlistener.com/opinion/10940798/sec-v/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: The Retail Property Trust v. Nassau Cnty. Dep't of Assessment](https://www.courtlistener.com/opinion/10940797/the-retail-property-trust-v-nassau-cnty-dept-of-assessment/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: United States v. Browning](https://www.courtlistener.com/opinion/10940796/united-states-v-browning/) — *2026-08-06*
-- [Delaware Supreme Court: Fox News Network, LLC v. Gavin C. Newsom](https://www.courtlistener.com/opinion/10940984/fox-news-network-llc-v-gavin-c-newsom/) — *2026-08-06*
-- [Delaware Supreme Court: Sussex County Planning & Zoning Commission v. Smokey Hollow, LLC](https://www.courtlistener.com/opinion/10940926/sussex-county-planning-zoning-commission-v-smokey-hollow-llc/) — *2026-08-06*
-- [U.S. Court of Appeals, 1st Cir.: United States v. Cooper](https://www.courtlistener.com/opinion/10941479/united-states-v-cooper/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: Adler v. Energy Debt Holdings](https://www.courtlistener.com/opinion/10941694/adler-v-energy-debt-holdings/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: Eqbal v. Blanche](https://www.courtlistener.com/opinion/10941690/eqbal-v-blanche/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: Knighton v. Benton County, MS](https://www.courtlistener.com/opinion/10941688/knighton-v-benton-county-ms/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: MAPP v. Floor and Decor](https://www.courtlistener.com/opinion/10941687/mapp-v-floor-and-decor/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: Rivera Castelan v. Taylor](https://www.courtlistener.com/opinion/10941684/rivera-castelan-v-taylor/) — *2026-08-06*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: United States v. Deluna](https://www.courtlistener.com/opinion/10941680/united-states-v-deluna/) — *2026-08-06*
-- [U.S. Court of Appeals, 9th Cir.: In Re: Koi Design LLC v. Marron Lawyers, Apc](https://www.courtlistener.com/opinion/10940847/in-re-koi-design-llc-v-marron-lawyers-apc/) — *2026-08-06*
-- [U.S. Court of Appeals, 8th Cir.: Kristine Williams v. MO Department of Corrections](https://www.courtlistener.com/opinion/10940846/kristine-williams-v-mo-department-of-corrections/) — *2026-08-06*
-- [U.S. Court of Appeals, 8th Cir.: Rustico Lacsina v. Todd Blanche](https://www.courtlistener.com/opinion/10940845/rustico-lacsina-v-todd-blanche/) — *2026-08-06*
+- **NEW**  [U.S. Court of Appeals, 3rd Cir.: S.A.S.B. CORP v. Johnson & Johnson Health Care Systems Inc](https://www.courtlistener.com/opinion/10942249/sasb-corp-v-johnson-johnson-health-care-systems-inc/) — *2026-08-07*
+- **NEW**  [Alaska Supreme Court: Lora Reinbold v. State of Alaska and Alaska Legislature Select Committee on Legislative Ethics](https://www.courtlistener.com/opinion/10942372/lora-reinbold-v-state-of-alaska-and-alaska-legislature-select-committee-on/) — *2026-08-07*
+- **NEW**  [Alaska Supreme Court: SARAH RACHEL MALLETTE and v. GARFIELD TAU ADAMS And](https://www.courtlistener.com/opinion/10942371/sarah-rachel-mallette-and-v-garfield-tau-adams-and/) — *2026-08-07*
+- **NEW**  [Alaska Supreme Court: State of Alaska v. Steven Ridenour](https://www.courtlistener.com/opinion/10942370/state-of-alaska-v-steven-ridenour/) — *2026-08-07*
+- **NEW**  [U.S. Court of International Trade: Kemper AIP Metals, LLC v. United States](https://www.courtlistener.com/opinion/10942173/kemper-aip-metals-llc-v-united-states/) — *2026-08-07*
+- **NEW**  [U.S. Court of International Trade: Kemper AIP Metals, LLC v. United States](https://www.courtlistener.com/opinion/10942172/kemper-aip-metals-llc-v-united-states/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Charles Klein, Jr. v. USPS](https://www.courtlistener.com/opinion/10942256/charles-klein-jr-v-usps/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Cody Henderson v. Village of New Holland](https://www.courtlistener.com/opinion/10942255/cody-henderson-v-village-of-new-holland/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Leandro Spindola v. Todd Blanche](https://www.courtlistener.com/opinion/10942254/leandro-spindola-v-todd-blanche/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Mark Pannek v. U.S. Bank Nat'l Ass'n](https://www.courtlistener.com/opinion/10942253/mark-pannek-v-us-bank-natl-assn/) — *2026-08-07*
+- **NEW**  [Supreme Court of Alabama: In re: Association of County Commissions of Alabama Liability Self-Insurance Fund, Inc. v. Doris Jordan](https://www.courtlistener.com/opinion/10942060/in-re-association-of-county-commissions-of-alabama-liability/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: MOSenecaManufacturer, LLC v. MSHR](https://www.courtlistener.com/opinion/10942167/mosenecamanufacturer-llc-v-mshr/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Terry Ferguson](https://www.courtlistener.com/opinion/10942364/united-states-v-terry-ferguson/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: CSX Transportation, Inc. v. Zayo Group, LLC](https://www.courtlistener.com/opinion/10942160/csx-transportation-inc-v-zayo-group-llc/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Consolidated Chassis Management LLC v. Northland Insurance Company](https://www.courtlistener.com/opinion/10942159/consolidated-chassis-management-llc-v-northland-insurance-company/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Consolidated Chassis Management LLC v. Northland Insurance Company](https://www.courtlistener.com/opinion/10942158/consolidated-chassis-management-llc-v-northland-insurance-company/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Consolidated Chassis Management LLC v. Northland Insurance Company](https://www.courtlistener.com/opinion/10942157/consolidated-chassis-management-llc-v-northland-insurance-company/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Consolidated Chassis Management LLC v. Northland Insurance Company](https://www.courtlistener.com/opinion/10942156/consolidated-chassis-management-llc-v-northland-insurance-company/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Dupont Water Company, Inc. v. City of Madison, Indiana](https://www.courtlistener.com/opinion/10942155/dupont-water-company-inc-v-city-of-madison-indiana/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 7th Cir.: Elizabeth Schulte v. Kenneth Leners](https://www.courtlistener.com/opinion/10942154/elizabeth-schulte-v-kenneth-leners/) — *2026-08-07*
+- **NEW**  [Delaware Supreme Court: Watson v. State](https://www.courtlistener.com/opinion/10942318/watson-v-state/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: Pacificorp v. Sixkiller](https://www.courtlistener.com/opinion/10942258/pacificorp-v-sixkiller/) — *2026-08-07*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Doyle](https://www.courtlistener.com/opinion/10942257/united-states-v-doyle/) — *2026-08-07*
 
 _(35 additional items in raw.jsonl)_

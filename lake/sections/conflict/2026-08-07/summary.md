@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[United Kingdom] Ambleside peace campaigners remember Hiroshima bombing](https://www.nwemail.co.uk/news/26444350.ambleside-peace-campaigners-remember-hiroshima-bombing/) — *2026-08-07*
-  > domain: nwemail.co.uk · language: English · tone:
-- **NEW**  [[India] Punjab Transfers Amritsar Commissioner Gurpreet Singh Bhullar Amid Row Over Jantar Mantar Remarks](https://www.freepressjournal.in/india/punjab-transfers-amritsar-commissioner-gurpreet-singh-bhullar-amid-row-over-jantar-mantar-remarks) — *2026-08-07*
-  > domain: freepressjournal.in · language: English · tone:
-- **NEW**  [[United States] Nude man who allegedly beat man to death in Lahaina faces multiple charges](https://www.kitv.com/news/crime/nude-man-who-allegedly-beat-man-to-death-in-lahaina-faces-multiple-charges/article_a2617def-af26-43bf-a22c-192f5faf66dd.html) — *2026-08-07*
-  > domain: kitv.com · language: English · tone:
-- **NEW**  [[United States] Beyond the markets , Santa Fe galleries celebrate Native art](https://www.santafenewmexican.com/magazines/legacy/nativeartgalleryguide2026/article_f2cbb6b4-8e6f-4e18-ad69-8b9e3ddb9072.html) — *2026-08-07*
-  > domain: santafenewmexican.com · language: English · tone:
-- **NEW**  [[United States] Woman Convicted Of Murdering Her Children Granted Retrial](https://veropatriot.iheart.com/content/2026-08-07-woman-convicted-of-murdering-her-children-granted-retrial/) — *2026-08-07*
-  > domain: veropatriot.iheart.com · language: English · tone:
-- **NEW**  [[United States] Dear Annie : Missing my built - in best friend](https://www.dailyrepublic.com/lifestyle/state-national-lifestyle-columnists/dear-annie-missing-my-built-in-best-friend/article_e6a3b652-15f3-442e-9b8d-24be6cfbb8b6.html) — *2026-08-07*
-  > domain: dailyrepublic.com · language: English · tone:
-- **NEW**  [[India] Beyond BrahMos : India builds next generation of cheap precision weapons](https://timesofindia.indiatimes.com/defence/news/beyond-brahmos-india-builds-next-generation-of-cheap-precision-weapons/articleshow/133032306.cms) — *2026-08-07*
-  > domain: timesofindia.indiatimes.com · language: English · tone:
-- **NEW**  [[United Kingdom] Man rescued from close to summit of Lake District peak Scafell Pike](https://www.nwemail.co.uk/news/26444774.man-rescued-close-summit-lake-district-peak-scafell-pike/) — *2026-08-07*
-  > domain: nwemail.co.uk · language: English · tone:
-- **NEW**  [[Canada] Skull Ridge Gold Announces AGM Results and Strengthens Board with Appointments of Sean A . Kingsley and David Beek](https://montrealgazette.com/press-releases/globe-newswire/skull-ridge-gold-announces-agm-results-and-strengthens-board-with-appointments-of-sean-a-kingsley-and-david-beek/) — *2026-08-07*
-  > domain: montrealgazette.com · language: English · tone:
-- **NEW**  [[United States] Froma Harrop : Who to blame when parents choose not to vaccinate kids ? ](https://www.tribstar.com/opinion/columns/froma-harrop-whos-to-blame-when-parents-choose-not-to-vaccinate-kids/article_e00b37d2-60bf-4b61-8275-199f038fe627.html) — *2026-08-07*
-  > domain: tribstar.com · language: English · tone:
-- **NEW**  [[Germany] PPL Corporation Delivers Solid Second - Quarter 2026 Earnings ; Reaffirms Guidance and Long - Term Growth Outlook](https://www.finanznachrichten.de/nachrichten-2026-08/69250484-ppl-corporation-delivers-solid-second-quarter-2026-earnings-reaffirms-guidance-and-long-term-growth-outlook-008.htm) — *2026-08-07*
-  > domain: finanznachrichten.de · language: English · tone:
-- **NEW**  [[Canada] Drimonis : Montreal rich cultural tapestry is a precious gift that keeps giving](https://montrealgazette.com/opinion/drimonis-montreal-cultural-tapestry-diversity-pluralism-islamophobia-antisemitism/) — *2026-08-07*
-  > domain: montrealgazette.com · language: English · tone:
-- **NEW**  [[South Africa] In new deal , Iran could gain control over ships in Strait of Hormuz](http://www.africaleader.com/news/279223732/proposed-iran-oman-deal-may-make-iran-strait-shipping-authority) — *2026-08-07*
-  > domain: africaleader.com · language: English · tone:
-- **NEW**  [[United States] Astronomers watch the whole process as a huge star dies](https://www.yahoo.com/news/science/articles/astronomers-watch-whole-process-huge-100241232.html) — *2026-08-07*
-  > domain: yahoo.com · language: English · tone:
-- **NEW**  [[United Kingdom] Scottish Labour has turned to rubble , claims leadership hopeful](https://www.nwemail.co.uk/news/national/26444932.scottish-labour-turned-rubble-claims-leadership-hopeful/) — *2026-08-07*
-  > domain: nwemail.co.uk · language: English · tone:
-- **NEW**  [[United States] When tragedy strikes , America wildland firefighters ask , was it  somebody that we loved ? ](https://www.kmuw.org/2026-08-07/when-tragedy-strikes-americas-wildland-firefighters-ask-was-it-somebody-that-we-loved) — *2026-08-07*
-  > domain: kmuw.org · language: English · tone:
-- **NEW**  [[Israel] Israel orders uprooting of trees on 316 dunums in West Bank for settlement expansion](https://www.middleeastmonitor.com/20260807-israel-orders-uprooting-of-trees-on-316-dunums-in-west-bank-for-settlement-expansion/) — *2026-08-07*
-  > domain: middleeastmonitor.com · language: English · tone:
-- **NEW**  [[South Africa] Farewell to Daily Maverick fearless Estelle Ellis](https://www.dailymaverick.co.za/article/2026-08-07-farewell-estelle-ellis-who-chased-broken-lifts-broken-hospitals-and-broken-promises/) — *2026-08-07*
-  > domain: dailymaverick.co.za · language: English · tone:
-- **NEW**  [[United States] Woman Convicted Of Murdering Her Children Granted Retrial](https://newstalk1230.iheart.com/content/2026-08-07-woman-convicted-of-murdering-her-children-granted-retrial/) — *2026-08-07*
-  > domain: newstalk1230.iheart.com · language: English · tone:
-- **NEW**  [[United States] Court Orders Create  Men Prison Within Women Federal Prison  ](https://thefederalist.com/2026/08/07/dueling-court-orders-create-mens-prison-within-a-womens-federal-prison/) — *2026-08-07*
-  > domain: thefederalist.com · language: English · tone:
-- **NEW**  [[United States] Dangote eyes Africa biggest IPO for oil refinery](http://www.stlouisstar.com/news/279222518/dangote-eyes-africa-s-biggest-ipo-for-oil-refinery) — *2026-08-07*
-  > domain: stlouisstar.com · language: English · tone:
-- **NEW**  [[United States] Which American Historical Sites To Visit Before Summer Ends](https://thefederalist.com/2026/08/07/which-iconic-american-historical-sites-to-visit-and-which-to-skip-before-summer-ends/) — *2026-08-07*
-  > domain: thefederalist.com · language: English · tone:
-- **NEW**  [[Australia] Thai teen kills seven in rampage at home and school](https://www.dailyadvertiser.com.au/story/9326003/thai-teen-kills-seven-in-rampage-at-home-and-school/) — *2026-08-07*
-  > domain: dailyadvertiser.com.au · language: English · tone:
-- **NEW**  [[United States] New York Ranks 49th In Everyday Injury Risk Among All 50 States](https://cnynews.com/ixp/498/p/new-york-workplace-injury-risk/) — *2026-08-07*
-  > domain: cnynews.com · language: English · tone:
-- **NEW**  [[South Africa] Dangote eyes Africa biggest IPO for oil refinery](http://www.africaleader.com/news/279222518/dangote-eyes-africa-s-biggest-ipo-for-oil-refinery) — *2026-08-07*
-  > domain: africaleader.com · language: English · tone:
+- **NEW**  [[Indonesia] Sacred places & living lands : How Indigenous Sámi peoples steward biodiversity ( analysis ) ](https://news.mongabay.com/2026/08/sacred-places-living-lands-how-indigenous-sami-peoples-steward-biodiversity-analysis/) — *2026-08-07*
+  > domain: news.mongabay.com · language: English · tone:
+- **NEW**  [[United States] Stacey Abrams : GOP  Intention Is to Dismantle Democracy for All of Us  ](https://www.breitbart.com/politics/2026/08/06/stacey-abrams-gops-intention-is-to-dismantle-democracy-for-all-of-us/) — *2026-08-07*
+  > domain: breitbart.com · language: English · tone:
+- **NEW**  [[United States] Colombia new president vows to remake the country and challenge rebel groups](https://www.wboi.org/npr-news/2026-08-07/colombias-new-president-vows-to-remake-the-country-and-challenge-rebel-groups) — *2026-08-07*
+  > domain: wboi.org · language: English · tone:
+- **NEW**  [[New Zealand] Wild at heart](https://www.odt.co.nz/otago/north-otago/wild-at-heart-wddzetks) — *2026-08-07*
+  > domain: odt.co.nz · language: English · tone:
+- **NEW**  [[United States] White House ballroom construction ordered to stop , appeals court rules](https://www.wapt.com/article/white-house-ballroom-construction-ordered-to-stop/73376639) — *2026-08-07*
+  > domain: wapt.com · language: English · tone:
+- **NEW**  [[United States] GOP Midterm Convention Will Be an Anti - Socialism Hatefest](https://pjmedia.com/rick-moran/2026/08/07/gop-midterm-convention-will-be-an-anti-socialism-hatefest-n4955901) — *2026-08-07*
+  > domain: pjmedia.com · language: English · tone:
+- **NEW**  [[United States] Trump sets up showdown with Supreme Court over issue it already decided](https://www.alternet.org/trump-birthright-citizenship-2677672533/) — *2026-08-07*
+  > domain: alternet.org · language: English · tone:
+- **NEW**  [[United States] Another court blocks White House ballroom work , teeing up a Supreme Court review](https://www.kyuk.org/2026-08-07/another-court-blocks-white-house-ballroom-work-teeing-up-a-supreme-court-review) — *2026-08-07*
+  > domain: kyuk.org · language: English · tone:
+- **NEW**  [[United States] CDC adds almost 100 new cases to expanding US measles outbreak](https://www.cidrap.umn.edu/measles/cdc-adds-almost-100-new-cases-expanding-us-measles-outbreak) — *2026-08-07*
+  > domain: cidrap.umn.edu · language: English · tone:
+- **NEW**  [[India] Spider - Man Opening Week Worldwide Box Office : Fastest USD 500 million club entrant in North America , fetches USD 1 . 31 billion globally](https://www.pinkvilla.com/entertainment/box-office/spider-man-opening-week-worldwide-box-office-fastest-usd-500-million-club-entrant-in-north-america-fetches-usd-1-31-billion-globally-1404781) — *2026-08-07*
+  > domain: pinkvilla.com · language: English · tone:
+- **NEW**  [[Canada] HUNTER : Gangsters bring  all the ammunition  they need to conquer northern Ontario](https://www.timminspress.com:443/news/provincial/gangsters-bring-all-the-ammunition-they-need-to-conquer-north/wcm/ae3ded8f-b7e8-4560-af4a-ab70e70ff41a) — *2026-08-07*
+  > domain: timminspress.com · language: English · tone:
+- **NEW**  [[United States] Scientists Monitored Bedrooms at Night . What They Found Was Alarming](https://www.newsweek.com/scientists-monitored-bedrooms-at-night-what-they-found-was-alarming-12295733) — *2026-08-07*
+  > domain: newsweek.com · language: English · tone:
+- **NEW**  [[India] quote today : Quote of the day by Christopher Walken :  At its best , life is ... Life lessons from inspirational quote on spontaneity , flexibility , excitement and authenticity](https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-christopher-walken-at-its-best-life-is-life-lessons-from-inspirational-quote-on-spontaneity-flexibility-excitement-and-authenticity/articleshow/133041239.cms) — *2026-08-07*
+  > domain: economictimes.indiatimes.com · language: English · tone:
+- **NEW**  [[China] The Dominican Republic Is on the Rebound | Global Finance Magazine](https://gfmag.com/economics-policy-regulation/dominican-republic-rebound/) — *2026-08-07*
+  > domain: gfmag.com · language: English · tone:
+- **NEW**  [[United States] Man arrested on suspicion of kidnapping and sexual assault in Durango](https://www.durangoherald.com/articles/news/man-arrested-on-suspicion-of-kidnapping-and-sexual-assault-in-durango/) — *2026-08-07*
+  > domain: durangoherald.com · language: English · tone:
+- **NEW**  [[United Kingdom] Meta paying price for  cavalier approach  to online safety , say united kingdom campaigners](https://www.thurrockgazette.co.uk/news/national/26447343.meta-paying-price-cavalier-approach-online-safety-say-uk-campaigners/) — *2026-08-07*
+  > domain: thurrockgazette.co.uk · language: English · tone:
+- **NEW**  [[United States] Reba McEntire Son Shares Emotional Tribute To Late Brandon Blackstock](https://k93country.iheart.com/content/2026-08-07-reba-mcentires-son-shares-emotional-tribute-to-late-brandon-blackstock/) — *2026-08-07*
+  > domain: k93country.iheart.com · language: English · tone:
+- **NEW**  [[United States] NE - YO Sued By Woman Who Claims His Dog  Viciously Attacked  Her](https://kisslima.iheart.com/content/2026-08-07-ne-yo-sued-by-woman-who-claims-his-dog-viciously-attacked-her/) — *2026-08-07*
+  > domain: kisslima.iheart.com · language: English · tone:
+- **NEW**  [[United States] Takeaways From Pooh Shiesty New Album  All Eyes On Shiest](https://hiphopnc.com/8819346/pooh-shiesty-all-eyes-on-shiest-takeaways/) — *2026-08-07*
+  > domain: hiphopnc.com · language: English · tone:
+- **NEW**  [[United States] Colombia new president vows to remake the country and challenge rebel groups](https://www.ksfr.org/npr-news/2026-08-07/colombias-new-president-vows-to-remake-the-country-and-challenge-rebel-groups) — *2026-08-07*
+  > domain: ksfr.org · language: English · tone:
+- **NEW**  [[New Zealand] Sarkies watches Aramoana film 20 years on](https://www.odt.co.nz/life-and-style/the-mix/sarkies-watches-aramoana-film-20-years-on-e5uki1qp) — *2026-08-07*
+  > domain: odt.co.nz · language: English · tone:
+- **NEW**  [[United States] Don Lemon Seeks Dismissal Of Charges Over Protest Coverage](https://wrak.iheart.com/content/2026-08-07-don-lemon-seeks-dismissal-of-charges-over-protest-coverage/) — *2026-08-07*
+  > domain: wrak.iheart.com · language: English · tone:
+- **NEW**  [[United States] Abelardo de la Espriella takes office in Colombia with a head start in Washington](https://www.atlanticcouncil.org/dispatches/abelardo-de-la-espriella-takes-office-in-colombia-with-a-head-start-in-washington/) — *2026-08-07*
+  > domain: atlanticcouncil.org · language: English · tone:
+- **NEW**  [[United States] US Senate passes Lindsey Grahams Russia sanctions bill](http://www.bignewsnetwork.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill) — *2026-08-07*
+  > domain: bignewsnetwork.com · language: English · tone:
+- **NEW**  [[United States] Another court blocks White House ballroom work , teeing up a Supreme Court review](https://www.wboi.org/npr-news/2026-08-07/another-court-blocks-white-house-ballroom-work-teeing-up-a-supreme-court-review) — *2026-08-07*
+  > domain: wboi.org · language: English · tone:
 
 _(15 additional items in raw.jsonl)_

@@ -2,227 +2,271 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-07
-record_count: 196
-new_today: 165
+record_count: 199
+new_today: 196
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-165 new of 196 total items today.
+196 new of 199 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-599) — *2026-08-07*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 7:11AM CDT until August 7 at 7:30AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4fff418cb2a7e831269b7d4494291de2b13d3b8c.002.1) — *2026-08-07*
-  > At 711 AM CDT, severe thunderstorms were located along a line
-extending from near Oshawa to near Sebeka, moving east at 20 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 4:19PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98d17453668ec96bf9dc320f07e9a1e7f6dbf209.001.1) — *2026-08-07*
+  > At 418 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Lawn, or near Rainelle, moving east at 10 mph.
 
-HAZARD...60 mph wind gusts and half dollar size hail.
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-r
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 7 at 5:09AM PDT until August 8 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed0292c5d363089efe3ff9b9ff75eebd39c0ecbb.003.1) — *2026-08-07*
-  > ...BREEZY WESTERLY WINDS AND LOW RELATIVE HUMIDITY TODAY AND
-SATURDAY THROUGH THE CASCADE GAPS AND INTO THE COLUMBIA BASIN...
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-.Breezy westerly winds through the Cascade gaps will likely (80%
-chance) overlap with low relative humidity and generate Red Flag
-conditions this afterno
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 7 at 5:09AM PDT until August 8 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed0292c5d363089efe3ff9b9ff75eebd39c0ecbb.002.1) — *2026-08-07*
-  > ...BREEZY WESTERLY WINDS AND LOW RELATIVE HUMIDITY TODAY AND
-SATURDAY THROUGH THE CASCADE GAPS AND INTO THE COLUMBIA BASIN...
+Locations impact
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 7 at 4:19PM EDT until August 7 at 5:00PM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97b98c9572c8c1dfd18a0d6a8a1b1fb3d3de6864.001.1) — *2026-08-07*
+  > SMWMQT
 
-.Breezy westerly winds through the Cascade gaps will likely (80%
-chance) overlap with low relative humidity and generate Red Flag
-conditions this afterno
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 7 at 5:09AM PDT until August 8 at 11:00PM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ed0292c5d363089efe3ff9b9ff75eebd39c0ecbb.001.1) — *2026-08-07*
-  > ...BREEZY WESTERLY WINDS AND LOW RELATIVE HUMIDITY TODAY AND
-SATURDAY THROUGH THE CASCADE GAPS AND INTO THE COLUMBIA BASIN...
-
-.Breezy westerly winds through the Cascade gaps will likely (80%
-chance) overlap with low relative humidity and generate Red Flag
-conditions this afterno
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 5:08AM PDT until August 7 at 10:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21bc0da8222f7888a1218974658e07c9d1007842.001.1) — *2026-08-07*
-  > * WHAT...Hot conditions with high temperatures up to 85 to 90
-degrees expected. This will pose a moderate risk of heat-related
-illness.
-
-* WHERE...Portions of northwest and west central Washington.
-
-* WHEN...Until 10 PM PDT this evening.
-
-* IMPACTS...Heat will significantly incre
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 7:06AM CDT until August 7 at 7:45AM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bbbc90e4937326b31b34e77874315d9650c8155.002.1) — *2026-08-07*
-  > At 706 AM CDT, a severe thunderstorm was located over Granite Falls,
-or 11 miles southeast of Montevideo, moving east at 35 mph.
-
-HAZARD...60 mph wind gusts and half dollar size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 7 at 8:06AM EDT until August 7 at 8:30AM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cff8c20301421f800ed1eb184a4ebc6b41aa2c30.001.1) — *2026-08-07*
-  > SMWKEY
-
-The National Weather Service in Key West has issued a
+The National Weather Service in Marquette has issued a
 
 * Special Marine Warning for...
-Gulf of America including Dry Tortugas and Rebecca Shoal Channel...
-Straits of Florida from Halfmoon Shoal to 20 nm west of Dry
-Tortugas out 20 nm...
+Black River To Ontonagon MI...
+Lake Superior from Saxon Harbor WI to Upper Entrance to Portage
+Canal MI 5NM off shore to the US/Canadian border including Isle
+Royale National Park...
+S
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 7 at 4:19PM EDT until August 7 at 7:15PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76450466b03fc2546955256cd47e88ee71241e75.001.1) — *2026-08-07*
+  > FFWILN
 
-* Until 830 AM EDT.
+The National Weather Service in Wilmington has issued a
 
-* At 806 AM E
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 6:58AM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff53c5ab12dd1754aa0c6b4d1d9a13df46250675.001.1) — *2026-08-07*
-  > At 658 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 4 miles west of Medford to near Pond Creek to
-near Kremlin. Movement was east at 10 mph.
+* Flash Flood Warning for...
+Southeastern Butler County in southwestern Ohio...
+Northwestern Hamilton County in southwestern Ohio...
 
-HAZARD...Wind gusts of 50 to 55 mph and penny size hail.
+* Until 715 PM EDT.
+
+* At 419 PM EDT, radar and automated rain gauges indicated
+t
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 4:19PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c25d3bee6306bf7d4d4a45f112311dd18d1bdbf1.001.1) — *2026-08-07*
+  > At 419 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Peoria, or near Beech Mountain, moving northeast at 5 mph.
+
+HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 6:55AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e51181be8fbd18235f37f544e7e03de3c28ab16d.001.1) — *2026-08-07*
-  > Patchy fog is occuring across portions of southwest Nebraska
-this morning. Expect reductions in visibility along with rapidly
-changing conditions. Fog should diminish by mid-morning, around
-9 AM CDT.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 4:52AM PDT until August 7 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb081bf637b01d18cdb055b9e9c3bec7cb1dee04.003.1) — *2026-08-07*
-  > * WHAT...Hot temperatures of 95 to 100 degrees with low temperatures
-around 60 to 65 degrees.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* WHERE...The Umpqua Valley in central Douglas County, including the
-communities of Roseburg, Elkton, Drain, Sutherlin, Tiller and
-Camas Valley.
+Loca
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 4:19PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.841983068dc39f0447d80924e9dad2a1546e8b87.001.1) — *2026-08-07*
+  > At 419 PM EDT, Doppler radar was tracking a strong thunderstorm 14
+miles west of Brevard, or 8 miles southwest of Black Balsam Area,
+moving northeast at 10 mph.
 
-* WHEN...Until 11 PM PDT this evening.
+HAZARD...Wind gusts up to 40 mph.
 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 4:52AM PDT until August 7 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb081bf637b01d18cdb055b9e9c3bec7cb1dee04.002.1) — *2026-08-07*
-  > * WHAT...Hot temperatures 95 to 100 degrees with low temperatures
-around 55 to 60 degrees.
+SOURCE...Radar indicated.
 
-* WHERE...Klamath, Lake, Modoc and eastern Siskiyou Counties. This
-includes the communities of Klamath Falls, Chemult, Chiloquin,
-Summer Lake, Lakeview, Alturas, Tionesta, Tennant, Macdoel
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 4:52AM PDT until August 7 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb081bf637b01d18cdb055b9e9c3bec7cb1dee04.001.1) — *2026-08-07*
-  > * WHAT...Hot temperatures of 100 to 105 degrees, possibly up to 110
-degrees in the Klamath River Valley, are expected with low
-temperatures in the mid to upper 60s.
+IMPACT...Gusty winds could knock down tree limbs and blo
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 4:18PM EDT until August 7 at 4:30PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4331c2d73e3b971aec93dc1a38afda29d16d1f48.002.1) — *2026-08-07*
+  > At 418 PM EDT, a severe thunderstorm was located over Tatamy, or near
+Easton, moving east at 35 mph.
 
-* WHERE...In California, Central Siskiyou County and Western
-Siskiyou County. In Oregon, Eastern Curry County and 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 4:52AM PDT until August 7 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb081bf637b01d18cdb055b9e9c3bec7cb1dee04.004.1) — *2026-08-07*
-  > * WHAT...Hot temperatures of 90 to 95 degrees expected with low
-temperatures around 60 to 67 degrees.
+HAZARD...60 mph wind gusts.
 
-* WHERE...Siskiyou Mountains and Southern Oregon Cascades south of
-Crater Lake. This includes Lake of the Woods, Howard Prairie and
-Mt Ashland.
+SOURCE...Radar indicated.
 
-* WHEN...Until 11 PM PDT this ev
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:39AM CDT until August 7 at 9:00AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56cbdcd0bf1f310fa86473417c4400e2ef5b41e8.001.1) — *2026-08-07*
-  > * WHAT...Visibility less than one half mile in dense fog.
+IMPACT...Damage to roofs, siding, trees, and power lines is
+possible.
 
-* WHERE...Much of central Iowa.
+Locations impacted include...
+Allentown, Easton, Be
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 3:17PM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f886b6892013470e70479959bc9bab809355ed8.001.1) — *2026-08-07*
+  > At 315 PM CDT, Doppler radar was tracking decaying thunderstorms
+generating strong wind gusts along a line extending from near Blair
+to near St. Charles to 8 miles southwest of Preston. Movement was
+east at 45 mph.
 
-* WHEN...Until 9 AM CDT this morning.
+HAZARD...Wind gusts up to 50 mph.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:39AM CDT until August 7 at 9:00AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56cbdcd0bf1f310fa86473417c4400e2ef5b41e8.002.1) — *2026-08-07*
-  > * WHAT...Visibility less than one half mile in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...Much of central Iowa.
+IM
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 3:17PM CDT until August 7 at 4:15PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b2d00f96befd54429fa3d78790ab08da77a19e71.001.1) — *2026-08-07*
+  > SVRHUN
 
-* WHEN...Until 9 AM CDT this morning.
+The National Weather Service in Huntsville Alabama has issued a
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 7 at 6:36AM CDT until August 7 at 9:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb7ab50e3113e107478e53ef8d2a2040a7a7e9b0.001.1) — *2026-08-07*
-  > * WHAT...Heat index values up to 105 expected.
+* Severe Thunderstorm Warning for...
+South central Jackson County in northeastern Alabama...
+Central DeKalb County in northeastern Alabama...
 
-* WHERE...Palo Duro Canyon.
+* Until 415 PM CDT.
 
-* WHEN...From 1 PM this afternoon to 9 PM CDT this evening.
+* At 317 PM CDT, a severe thunderstorm was 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-23204) — *2026-08-07*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 4:16PM EDT until August 7 at 5:00PM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4053575ba70c6e009645620e98fc6425a02d8b8d.001.1) — *2026-08-07*
+  > SVRMRX
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:35AM CDT until August 7 at 9:00AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a8a88688ac13d54ad271cf6605dade03f6a09f9.002.1) — *2026-08-07*
-  > * WHAT...Visibility 1/4 mile or less in dense fog.
+The National Weather Service in Morristown has issued a
 
-* WHERE...In Iowa, Floyd, Allamakee, Chickasaw, Clayton, Fayette,
-Howard, and Winneshiek Counties. In Minnesota, Fillmore and Houston
-Counties.
+* Severe Thunderstorm Warning for...
+Southwestern Bradley County in east Tennessee...
+Southeastern Hamilton County in east Tennessee...
 
-* WHEN...Until 9 AM CDT this morning.
+* Until 500 PM EDT.
 
-* IMPACTS...Low visibility could make drivin
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:35AM CDT until August 7 at 9:00AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a8a88688ac13d54ad271cf6605dade03f6a09f9.001.1) — *2026-08-07*
-  > * WHAT...Visibility 1/4 mile or less in dense fog.
+* At 416 PM EDT, a severe thunderstorm was located near S
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 7 at 4:16PM EDT until August 7 at 6:00PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50ff540a356604d30fec75a9e0adac529074040a.002.1) — *2026-08-07*
+  > At 416 PM EDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 1.5 and 3 inches of rain have
+fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in
+the warned area. Flash flooding is ongoing or expected to begin
+shortly.
 
-* WHERE...In Iowa, Mitchell County. In Wisconsin, Crawford, Grant,
-Richland, and Vernon Counties.
+H
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 4:15PM EDT until August 7 at 5:00PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.02dc9789e3f95ab90d28d2525b379f786178d8d2.001.1) — *2026-08-07*
+  > At 415 PM EDT, a severe thunderstorm was located over Pleasant Hills,
+or 10 miles west of Aberdeen, moving northeast at 15 mph.
 
-* WHEN...Until 9 AM CDT this morning.
+HAZARD...60 mph wind gusts.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:30AM CDT until August 7 at 10:00AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4428a072495cbdf2d699d207309edcb82ce9fb59.002.1) — *2026-08-07*
-  > * WHAT...Visibility as low as one quarter of a mile in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...Portions of north central Kansas and central, east central,
-and south central Nebraska.
+IMPACT...Damaging winds will cause some trees and large branches to
+fall. This could injure tho
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 4:14PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c95332489fee34ae4cacaef407bd63878262a1a.001.1) — *2026-08-07*
+  > At 414 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Bridgeport, or 7 miles southeast of Clarksburg, moving east at 15
+mph.
 
-* WHEN...Until 10 AM CDT this morning.
+HAZARD...Wind gusts up to 40 mph.
 
-* IMPACTS...Low visibility will make driving conditions hazardous.
-Please 
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:22AM CDT until August 7 at 9:00AM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f02d0355b18f796cf8d3a399ce7359daf9137813.001.1) — *2026-08-07*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...Dubuque County.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured ob
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 3:13PM CDT by NWS Little Rock AR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d92a557036dfbf4e33820904e41996a2b6df08a.001.1) — *2026-08-07*
+  > At 313 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Glenwood, or 16 miles south of Mount Ida, moving southeast at 30 mph.
 
-* WHEN...Until 9 AM CDT this morning.
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:22AM CDT until August 7 at 9:00AM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f02d0355b18f796cf8d3a399ce7359daf9137813.002.1) — *2026-08-07*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...Portions of east central, northeast, and southeast Iowa and
-northeast Missouri.
+IMPACT...Gusty winds could knock down tree limbs and blow
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 4:13PM EDT until August 7 at 5:00PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2efdc3eeb4d24d162e3f0cf78e0a49c677db1c96.001.1) — *2026-08-07*
+  > At 413 PM EDT, a severe thunderstorm was located near
+Charlottesville, moving east at 15 mph.
 
-* WHEN...Until 9 AM CDT this morning.
+HAZARD...60 mph wind gusts.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 7 at 6:16AM CDT until August 7 at 10:00AM CDT by NWS Goodland KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8e826a89a76a3dc1a81db8f1f5c4df2c8e40d27.001.1) — *2026-08-07*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+SOURCE...Radar indicated.
 
-* WHERE...In Kansas, Decatur and Norton Counties. In Nebraska, Red
-Willow County.
+IMPACT...Damaging winds will cause some trees and large branches to
+fall. This could injure those outdoors, as well as damage
+hom
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 3:13PM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13ad9ad6e7c2de7c5471192bf24c1bab16628aad.001.1) — *2026-08-07*
+  > At 312 PM CDT, Doppler radar indicated a cluster of strong
+thunderstorms near Dustin, moving east at 10 mph.
 
-* WHEN...Until 10 AM CDT this morning.
+HAZARD...Wind gusts up to 50 mph and penny size hail.
 
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 6:13AM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.67ad763a1549b9ee619820ffe0ea5e936f77c92e.001.1) — *2026-08-07*
-  > Light winds and humid conditions have resulted in fog across
-the area. The fog will be locally dense at times with
-visibilities down to a quarter mile, especially in the river
-valleys and other low-lying areas. Expect conditions to quickly
-improve by 9 AM.
+SOURCE...Radar indicated.
 
-Motorists should exerc
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 7 at 4:10AM PDT until August 9 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6847d73f2a80f3ead19a50938f40981cbe121ac8.002.1) — *2026-08-07*
-  > * WHAT...Dangerously hot conditions with high temperatures of 108 to
-114 expected.
+IMPACT...Gusty winds could knock down small tree limbs and blow
+around unsecured objects
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 7 at 3:12PM CDT until August 7 at 3:30PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e5ddafca64b0d98400f32cd3fc26e2b5e51b7c.001.1) — *2026-08-07*
+  > At 312 PM CDT, severe thunderstorms were located along a line
+extending from near Wetumka to 4 miles southwest of Horntown, moving
+east at 15 mph.
 
-* WHERE...Coachella Valley, San Diego County Deserts, and San
-Gorgonio Pass near Banning.
+HAZARD...60 mph wind gusts.
 
-* WHEN...Until 8 PM PDT Sunday.
+SOURCE...Radar indicated.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme
+IMPACT...Expect damage to roofs, siding, and trees.
 
-_(171 additional items in raw.jsonl)_
+Locations impacted incl
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 7 at 2:10PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cad5357bc3a014fd02fa005bd9da3d42546484d.001.1) — *2026-08-07*
+  > The Colorado Department of Public Health and Environment has
+issued the following...
+
+WHAT...Action Day for Multiple Pollutants.
+
+WHERE...Douglas, Jefferson, Denver, western Arapahoe, western
+Adams, Broomfield, Boulder, Larimer, and Weld Counties
+
+WHEN...400 PM Thursday August 06
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 7 at 2:10PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cad5357bc3a014fd02fa005bd9da3d42546484d.002.1) — *2026-08-07*
+  > The Colorado Department of Public Health and Environment has
+issued the following...
+
+WHAT...Air Quality Health Advisory for Wildfire Smoke.
+
+WHERE...Routt, Grand, Jackson, Gilpin and Clear Creek Counties.
+Locations include, but are not limited to Steamboat Springs,
+Granby, Hot S
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 3:11PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc053b52b70da5e0b343f4cf91ce560213b825b5.001.1) — *2026-08-07*
+  > At 311 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Tanner, or 7 miles northeast of Decatur. This thunderstorm was nearly
+stationary.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+u
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 4:10PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ca4ab7e9bee539a4df50ef329352fc839ea2b9f.001.1) — *2026-08-07*
+  > At 410 PM EDT, strong thunderstorms were located along a line
+extending from near Pike Lake to near Sardinia, moving east at 25
+mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+u
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 7 at 3:10PM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8abefd0d713b4303cdf17df9ac3bcf53605bba63.001.1) — *2026-08-07*
+  > At 310 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Powell, or over Rainsville. This thunderstorm was nearly stationary.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured obje
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 7 at 2:10PM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.70810374253fde4b7d0391df0634c1c16fc4721b.002.1) — *2026-08-07*
+  > The Colorado Department of Public Health and Environment has
+issued the following...
+
+WHAT...Air Quality Health Advisory for Wildfire Smoke.
+
+WHERE...Montrose, Ouray, Hinsdale, Mineral, Archuleta and southern
+Gunnison Counties. Locations include, but are not limited to
+Montrose, 
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 7 at 2:10PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84393bc88a4d69d9d59551184468d92c5130f98c.001.1) — *2026-08-07*
+  > The Colorado Department of Public Health and Environment has
+issued the following...
+
+WHAT...Air Quality Health Advisory for Ozone.
+
+WHERE...Teller, Fremont and western parts of El Paso and Pueblo
+Counties. Locations include, but are not limited to Cripple Creek,
+Woodland Park, C
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 7 at 2:10PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84393bc88a4d69d9d59551184468d92c5130f98c.002.1) — *2026-08-07*
+  > The Colorado Department of Public Health and Environment has
+issued the following...
+
+WHAT...Air Quality Health Advisory for Wildfire Smoke.
+
+WHERE...Montrose, Ouray, Hinsdale, Mineral, Archuleta and southern
+Gunnison Counties. Locations include, but are not limited to
+Montrose, 
+
+_(174 additional items in raw.jsonl)_
