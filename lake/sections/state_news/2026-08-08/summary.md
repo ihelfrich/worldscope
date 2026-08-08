@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-08
-record_count: 714
-new_today: 115
+record_count: 717
+new_today: 126
 state: fresh
 ---
 
 ## State-Level News
 
-115 new of 714 total items today.
+126 new of 717 total items today.
 
 - **NEW**  [[California] Governor Newsom announces appointments 8.7.26](https://www.gov.ca.gov/2026/08/07/governor-newsom-announces-appointments-8-7-26/) — *2026-08-08*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/05/SEO-Thumbnail-Template-2.0-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Blue background with a white circular emblem in the center. The emblem&#039;s outer ring re
@@ -41,16 +41,27 @@ state: fresh
   > PHENIX CITY – Governor Kay Ivey on Friday introduced the Yearbys, an Alabama family utilizing the CHOOSE Act, the governor’s education savings account (ESA) program. Parents John and Cecily Yearby have five children: Johnna (23), Josiah (15) in 10th grade, &#8230; <a href="https:
 - [[Alabama] Purple Heart Day](https://governor.alabama.gov/newsroom/2026/08/purple-heart-day-2/) — *2026-08-07*
   > Download
-- [[Alabama] Contract Review Committee holds ADOC contracts over prison litigation costs](https://www.alreporter.com/2026/08/07/contract-review-committee-holds-adoc-contracts-over-prison-litigation-costs/) — *2026-08-07*
-- [[Alabama] Harvesters of Hope receives ACLEA award for addressing Alabama’s legal deserts](https://www.alreporter.com/2026/08/07/harvesters-of-hope-receives-aclea-award-for-addressing-alabamas-legal-deserts/) — *2026-08-07*
-- [[Alabama] UA System expands nursing programs amid Alabama shortage](https://www.alreporter.com/2026/08/07/ua-system-expands-nursing-programs-amid-alabama-shortage/) — *2026-08-07*
-- [[Alabama] Alabama AFL-CIO endorses Sheila McNeil for Public Service Commission](https://www.alreporter.com/2026/08/07/alabama-afl-cio-endorses-sheila-mcneil-for-public-service-commission/) — *2026-08-07*
-- [[Alabama] Rep. Sewell marks 61st anniversary of the signing of the Voting Rights Act of 1965](https://www.alreporter.com/2026/08/07/rep-sewell-marks-61st-anniversary-of-the-signing-of-the-voting-rights-act-of-1965/) — *2026-08-07*
-- [[Alabama] Gov. Ivey announces appointments to four agencies](https://www.alreporter.com/2026/08/07/gov-ivey-announces-appointments-to-four-agencies/) — *2026-08-07*
-- [[Alabama] Sen. Britt hails USDA’s $35 million for feral swine control](https://www.alreporter.com/2026/08/07/sen-britt-applauds-35m-announcement-from-usda-to-combat-feral-swine/) — *2026-08-07*
-- [[Alabama] NFIB July Jobs Report: Small Business Employment Index picks back up](https://www.alreporter.com/2026/08/07/nfib-july-jobs-report-small-business-employment-index-picks-back-up/) — *2026-08-07*
-- [[Alabama] SPLC announces “We Decide Alabama” campaign on Voting Rights Act anniversary](https://www.alreporter.com/2026/08/07/splc-announces-we-decide-alabama-campaign-on-voting-rights-act-anniversary/) — *2026-08-07*
-- [[Alabama] Doug Jones significantly outraised Tuberville in July, per campaign finance reports](https://www.alreporter.com/2026/08/06/doug-jones-significantly-outraised-tuberville-in-july-per-campaign-finance-reports/) — *2026-08-06*
-- [[Alabama] Ethics Commission delays revolving door advisory opinion](https://www.alreporter.com/2026/08/06/alabama-ethics-commission-delays-revolving-door-advisory-opinion/) — *2026-08-06*
+- [[California] Los recortes a Medicaid podrían afectar a todos (sí, incluso a ti). He aquí por qué.](https://calmatters.org/calmatters-en-espanol/2026/08/recortes-medicaid-california/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/073007_MLK_HARBOR_HOSPITAL_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Choir members dressed in all black
+- [[California] Last call: CA liquor delivery law ending after lobbying blitz](https://calmatters.org/newsletter/liquor-delivery-law/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/080426_drinks-by-mail_FG_CM_09.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man with gray hair and a flannel button-
+- [[California] Court blocks CHP from firing officer caught in LA overtime scandal](https://calmatters.org/justice/2026/08/chp-officer-overtime-firing/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/060825-California-Highway-Patrol-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elevated nighttime view show
+- [[California] California craft liquor delivery is about to go away thanks to big money lobbying](https://calmatters.org/politics/2026/08/california-craft-distillery-deliveries-lobbying/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/080426_drinks-by-mail_FG_22_CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An individual peers through a wooden struc
+- [[California] How a stronger voter ID law can alleviate doubts in California’s election system](https://calmatters.org/commentary/2026/08/voter-identification-proposition-39-elections/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/051926-Rancho-Cucamonga-WL-GETTY-01-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A voting booth with an American fl
+- [[California] California’s voter ID ballot measure would add unnecessary barriers to a secure system](https://calmatters.org/commentary/2026/08/voter-id-barriers-proposition-39/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/06/110123-Voters-Registration-Tulare-ZS-CM-102.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Local residents in Tulare Cou
+- [[California] Medicaid cuts stand to hit everyone (yes, even you). Here’s why](https://calmatters.org/health/2026/08/the-cut-medi-cal-ripple-effects/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/073007_MLK_HARBOR_HOSPITAL_GETTY_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Choir members dressed in all black
+- [[California] Pension boosts for California police, firefighters could spur increases for other workers](https://calmatters.org/commentary/2026/08/pension-boosts-california-police-firefighters/) — *2026-08-07*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/080224_ParkFireCommandPost_FM_CM_31.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Several CAL FIRE firefighters stand b
+- [[California] ¿Por qué los camioneros siempre parecen estar hablando por teléfono mientras conducen por la autopista?](https://calmatters.org/calmatters-en-espanol/2026/08/camioneros-telefono-salud-mental/) — *2026-08-06*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/061026_TruckDrivers_AP-CM-02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A silhouetted truck driver stands beside the
+- [[California] Why truckers always seem to be on the phone while they drive](https://calmatters.org/newsletter/truck-drivers-cellphones/) — *2026-08-06*
+  > The next time you’re driving along the highway, you may spot truckers cruising by, chatting on their cellphones. That’s not necessarily a bad thing when it comes to your safety or their mental health, writes Gagandeep Singh for CalMatters. Gagandeep spoke to truckers about their 
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-08*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 
-_(689 additional items in raw.jsonl)_
+_(692 additional items in raw.jsonl)_

@@ -14,7 +14,7 @@ state: fresh
 
 1. **Ed Case** (Representative, Democratic, HI-1st): composite 0.100
    drivers: enforcement_hits=0.50
-   evidence: [lake:political_figures:gkg-20260807], [lake:political_figures:gkg-20260804], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260808], [lake:political_figures:gkg-20260807], [lake:political_figures:gkg-20260804], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 2. **Michael Cloud** (Representative, Republican, TX-27th): composite 0.073
    drivers: new_filings=0.73
    evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]

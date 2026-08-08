@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-08
-record_count: 368
-new_today: 261
+record_count: 202
+new_today: 95
 state: fresh
 ---
 
 ## State Legislative Action
 
-261 new of 368 total items today.
+95 new of 202 total items today.
 
 - **NEW**  [[Alaska HB 16] An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign contr]() — *2026-08-08*
   > An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign 
@@ -62,4 +62,4 @@ state: fresh
 - [[Arizona HB 2013] exceptional events; air quality; wildfires]() — *2026-08-06*
   > exceptional events; air quality; wildfires
 
-_(343 additional items in raw.jsonl)_
+_(177 additional items in raw.jsonl)_

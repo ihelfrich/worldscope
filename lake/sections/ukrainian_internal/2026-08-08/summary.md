@@ -2,17 +2,29 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-08
-record_count: 104
-new_today: 39
+record_count: 107
+new_today: 44
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-39 new of 104 total items today.
+44 new of 107 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-08*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-08*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-08*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- **NEW**  [[TITLE: Польща назвала популізмом заяви опозиції щодо депортації українців | LEDE: Польське МВС назвало заяви PiS про депортацію українців популізмом. 95% працюють легально.] (uk: Польща назвала популізмом заяви опозиції щодо депортації українців)](https://www.pravda.com.ua/news/2026/08/08/8047868/) — *2026-08-08*
+  > Польське МВС назвало заяви PiS про депортацію українців популізмом. 95% працюють легально.
+- **NEW**  [[TITLE: Посольство РФ вважає інцидент у Лейпцигу сфабрикованою провокацією | LEDE: ] (uk: Посольство РФ вважає інцидент у Лейпцигу сфабрикованою провокацією)](https://www.pravda.com.ua/news/2026/08/08/8047866/) — *2026-08-08*
+- **NEW**  [[TITLE: Україна уразила ще два НПЗ у Росії – Генштаб | LEDE: У ніч на 8 серпня ЗСУ уразили Ільський і Сизранський НПЗ у РФ та об'єкт у Чорному морі. Є підтверджені пожежі.] (uk: Україна уразила ще два НПЗ у Росії – Генштаб)](https://www.pravda.com.ua/news/2026/08/08/8047863/) — *2026-08-08*
+  > У ніч на 8 серпня ЗСУ уразили Ільський і Сизранський НПЗ у РФ та об'єкт у Чорному морі. Є підтверджені пожежі.
+- **NEW**  [[TITLE: Зеленський: На Київщині загинули 3-річний хлопчик, його бабуся та дідусь, а батьки поранені | LEDE: У Пухівці Київської області внаслідок російської атаки загинуло троє, четверо поранені. Зелен] (uk: Зеленський: На Київщині загинули 3-річний хлопчик, його бабуся та дідусь, а бать)](https://www.pravda.com.ua/news/2026/08/08/8047860/) — *2026-08-08*
+  > У Пухівці Київської області внаслідок російської атаки загинуло троє, четверо поранені. Зеленський закликає посилити санкції.
+- **NEW**  [[TITLE: В Єврокомісії дорікнули Іспанії за перевірки італійських мандрівників | LEDE: ] (uk: В Єврокомісії дорікнули Іспанії за перевірки італійських мандрівників)](https://www.pravda.com.ua/news/2026/08/08/8047859/) — *2026-08-08*
 - **NEW**  [[TITLE: Є лише 6 хвилин на знищення пускових установок: Як протидіяти російській балістиці | LEDE: ] (uk: Є лише 6 хвилин на знищення пускових установок: Як протидіяти російській балісти)](https://www.pravda.com.ua/news/2026/08/08/8047763/) — *2026-08-08*
 - **NEW**  [[TITLE: У Києві після російської атаки виявили тіло людини – КМВА | LEDE: Під час ліквідації наслідків атаки на Київ 8 серпня рятувальники виявили тіло загиблого.] (uk: У Києві після російської атаки виявили тіло людини – КМВА)](https://www.pravda.com.ua/news/2026/08/08/8047857/) — *2026-08-08*
   > Під час ліквідації наслідків атаки на Київ 8 серпня рятувальники виявили тіло загиблого.
@@ -40,23 +52,9 @@ state: fresh
   > Унаслідок нічного обстрілу Києва 8 серпня постраждали 4 людини. Триває ліквідація наслідків атаки.
 - **NEW**  [[TITLE: ВМС США перехопили 51 торгове судно після відновлення блокади Ірану | LEDE: Американські ВМС з моменту відновлення блокади Ірану перехопили 51 торгове судно, повідомляє CENTCOM.] (uk: ВМС США перехопили 51 торгове судно після відновлення блокади Ірану)](https://www.pravda.com.ua/news/2026/08/08/8047841/) — *2026-08-08*
   > Американські ВМС з моменту відновлення блокади Ірану перехопили 51 торгове судно, повідомляє CENTCOM.
-- **NEW**  [[TITLE: Прокляття бліцкригу | LEDE: Восьме серпня. Для наших сучасників ця дата нерозривно пов'язана з російським вторгненням до Грузії 2008 року.] (uk: Прокляття бліцкригу)](https://www.pravda.com.ua/articles/2026/08/08/8047717/) — *2026-08-08*
-  > Восьме серпня. Для наших сучасників ця дата нерозривно пов'язана з російським вторгненням до Грузії 2008 року.
-- **NEW**  [[TITLE: У Києві та деяких областях вдруге за ніч лунала тривога: ворог вдарив по столиці балістикою | LEDE: У ніч на 8 серпня в Києві оголосили повітряну тривогу через ракетну атаку. Фіксували займання] (uk: У Києві та деяких областях вдруге за ніч лунала тривога: ворог вдарив по столиці)](https://www.pravda.com.ua/news/2026/08/08/8047835/) — *2026-08-08*
-  > У ніч на 8 серпня в Києві оголосили повітряну тривогу через ракетну атаку. Фіксували займання в Голосіївському та Оболонському районах.
-- **NEW**  [[TITLE: Армія США витратить 400 млн доларів на лазерні системи для боротьби з дронами – ЗМІ | LEDE: Пентагон уклав контракт із AeroVironment на постачання лазерних систем Locust для знищення дронів.] (uk: Армія США витратить 400 млн доларів на лазерні системи для боротьби з дронами – )](https://www.pravda.com.ua/news/2026/08/08/8047839/) — *2026-08-08*
-  > Пентагон уклав контракт із AeroVironment на постачання лазерних систем Locust для знищення дронів.
-- **NEW**  [[TITLE: Росіяни атакували Київщину: загинули троє людей, серед них дитина | LEDE: Росіяни атакували Броварський район Київщини: 3 загиблих, у тому числі дитина, ще 3 поранено.] (uk: Росіяни атакували Київщину: загинули троє людей, серед них дитина)](https://www.pravda.com.ua/news/2026/08/08/8047838/) — *2026-08-08*
-  > Росіяни атакували Броварський район Київщини: 3 загиблих, у тому числі дитина, ще 3 поранено.
-- **NEW**  [[TITLE: Фон дер Ляєн привітала рішення Сенату США щодо санкцій проти РФ | LEDE: Урсула фон дер Ляєн привітала ухвалення Сенатом США законопроєкту щодо нових санкцій проти РФ.] (uk: Фон дер Ляєн привітала рішення Сенату США щодо санкцій проти РФ)](https://www.pravda.com.ua/news/2026/08/08/8047837/) — *2026-08-08*
-  > Урсула фон дер Ляєн привітала ухвалення Сенатом США законопроєкту щодо нових санкцій проти РФ.
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-08*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-08*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [Remains of 55 Volhynia Massacre Victims Exhumed](https://www.kyivpost.com/post/81956) — *2026-08-08*
-  > Following four weeks of excavation work, Poland’s Institute of National Remembrance (IPN), alongside Ukrainian experts, recovered the remains of 55 victims of the Volhynia massacres at the sites of the former villages of Ostrówki and Wola Ostrowiecka in western Ukraine. The victi
-- **NEW**  [Ukrainian Attacks Threaten Mass Bankruptcies in Russia](https://www.kyivpost.com/post/81955) — *2026-08-08*
-  > A sustained Ukrainian drone campaign targeting the logistics network of Russian e-commerce giant Wildberries threatens to trigger a wave of mass bankruptcies among independent sellers. Hundreds of billions of rubles in inventory have been destroyed across 20 targeted warehouses, 
+- [[feed error] Censor.NET: HTTPError](https://censor.net/news/rss) — *2026-08-08*
+  > 404 Client Error: Not Found for url: https://censor.net/news/rss
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-08*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
 
-_(79 additional items in raw.jsonl)_
+_(82 additional items in raw.jsonl)_

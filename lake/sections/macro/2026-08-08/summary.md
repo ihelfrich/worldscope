@@ -2,14 +2,14 @@
 section: macro
 title: Macro indicators — latest values (FRED)
 date: 2026-08-08
-record_count: 21
+record_count: 20
 new_today: 0
 state: fresh
 ---
 
 ## Macro indicators — latest values (FRED)
 
-0 new of 21 total items today.
+0 new of 20 total items today.
 
 - [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-06*
   > latest: 3.6300000000 as of 2026-08-06
@@ -21,8 +21,6 @@ state: fresh
   > latest: 5.2200000000 as of 2026-08-06
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-06*
   > latest: 3.65 as of 2026-08-06
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-08-07*
-  > latest: 0.46 as of 2026-08-07
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-06-01*
   > latest: 332.568 as of 2026-06-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-06-01*

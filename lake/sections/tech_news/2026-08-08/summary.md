@@ -3,14 +3,20 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-08
 record_count: 56
-new_today: 14
+new_today: 16
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-14 new of 56 total items today.
+16 new of 56 total items today.
 
+- **NEW**  [[The Hacker News] Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html) — *2026-08-08*
+  > Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirm
+- **NEW**  [[The Hacker News] New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens](https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html) — *2026-08-08*
+  > New research shows content inside an email can escape its message boundary and interfere with the webmail interface.
+
+Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party account
 - **NEW**  [[The Hacker News] Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html) — *2026-08-08*
   > Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.
 
@@ -33,14 +39,6 @@ The vulnerability, tr
   > Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]
 - [[BleepingComputer] North Carolina Ports confirms cyberattack disrupting operations](https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/) — *2026-08-07*
   > The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]
-- [[The Hacker News] Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer](https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html) — *2026-08-07*
-  > A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.
-
-"These packages appear to use AI slop squatted, or randomly generated typo-squatting 
-- [[The Hacker News] ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets](https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html) — *2026-08-07*
-  > ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.
-
-The macOS-focused infection chain is designed to deliver a shell script that pr
 - [[The Record] Water utilities group partners with DEF CON offshoot for Water Watch Center](https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa) — *2026-08-07*
   > The National Rural Water Association and a group of cybersecurity experts have formed a program to help cash-strapped utilities face the increase in threats to their systems.
 - [[The Record] US cyber ambassador nominee Cassady confirmed in Senate](https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador) — *2026-08-07*

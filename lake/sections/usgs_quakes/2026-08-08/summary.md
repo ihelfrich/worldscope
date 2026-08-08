@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-08
-record_count: 15
+record_count: 14
 new_today: 11
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-11 new of 15 total items today.
+11 new of 14 total items today.
 
 - **NEW**  [M 5.6 - 57 km WNW of Skwentna, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf) — *2026-08-08*
   > M5.6 · 57 km WNW of Skwentna, Alaska · depth 10 km
@@ -31,8 +31,6 @@ state: fresh
   > M4.6 · 33 km SSW of Sarangani, Philippines · depth 10 km
 - **NEW**  [M 4.6 - 7 km SSW of Caburan, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4i) — *2026-08-07*
   > M4.6 · 7 km SSW of Caburan, Philippines · depth 139.805 km
-- [M 4.6 - 51 km WSW of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj) — *2026-08-07*
-  > M4.6 · 51 km WSW of Sarangani, Philippines · depth 43.488 km
 - **NEW**  [M 4.5 - 2 km ESE of Mehmand Chak, Pakistan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj67) — *2026-08-08*
   > M4.5 · 2 km ESE of Mehmand Chak, Pakistan · depth 10 km
 - **NEW**  [M 4.5 - 122 km WSW of Gorontalo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4x) — *2026-08-07*

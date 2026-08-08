@@ -2,63 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-08
-record_count: 1016
-new_today: 447
+record_count: 1034
+new_today: 506
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-447 new of 1016 total items today.
+506 new of 1034 total items today.
 
-- **NEW**  [[Global] From Tehran’s walls to the world: Iran’s visual propaganda as an art of war (2/2)](https://www.france24.com/en/middle-east/20260808-from-tehran-s-walls-to-the-world-iran-s-visual-propaganda-as-an-art-of-war-2-2) — *2026-08-08*
-  > Tehran at War (Part 2/2). In Iran, the war with the United States is also fought through enormous, state-sponsored posters. Murals transform walls into billboards advertising the official narrative, designed to carry the government's voice far beyond its borders. FRANCE 24 examin
-- **NEW**  [[Global] Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia](https://www.france24.com/en/video/20260808-russian-strikes-kill-three-near-kyiv-zelensky-makes-landmark-visit-to-serbia) — *2026-08-08*
-  > Russian missile strikes killed three people, including a child, ​in ‌the Kyiv region on Saturday, said local authorities. The attack came hours after Ukrainian President Volodymyr Zelensky arrived in Belgrade on a landmark visit to Serbia, a country with close ties to Moscow. FRA
-- **NEW**  [[Global] US pledges $1 billion security aid to Colombia as Trump-endorsed president takes office](https://www.france24.com/en/us-pledges-1-billion-security-aid-to-colombia-as-trump-endorsed-president-takes-office) — *2026-08-08*
-  > The US State Department announced late Friday that President Donald Trump's ​administration plans toprovide $1 billion in security assistance to Colombia as the country's new right-wing President Abelardo De La Espriella was sworn into office. De la Espriella, who calls himself "
-- **NEW**  [[Global] Russian strikes kill three near Kyiv, Zelensky makes landmark visit to Serbia](https://www.france24.com/en/europe/20260808-russian-missile-strikes-near-kyiv-kill-three-including-a-child) — *2026-08-08*
-  > Russian missile strikes killed three people, including a child, ​in ‌the Kyiv region on Saturday, said local authorities, as an air raid alert was declared in and around the Ukrainian capital. The attack came hours after Ukrainian President Volodymyr Zelensky arrived in Belgrade 
-- **NEW**  [[Global] Houthi attacks kill at least 10 in Yemen as rebels target oil-rich Marib](https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib) — *2026-08-07*
-  > At least eight members of Yemeni government forces and two civilians were killed Friday in new attacks by Houthi rebels in an oil-rich province.
-- **NEW**  [[Global] Ebola cases surpasses 4000 cases](https://www.france24.com/en/ebola-cases-surpasses-4000-cases) — *2026-08-07*
-  > In tonight's program, a grim new milestone in the fast-growing Ebola outbreak in the Democratic Republic of Congo as cases surpass 4,000. Also low rainfall and failing pipes leave taps dry in the Gabon capital. Finally rising water levels at Lake Baringo in Kenya push communities
-- [[Global] Exclusive: WFP to extend Palantir contract despite concerns raised in leaked audit](https://www.france24.com/en/americas/20260807-never-speak-about-palantir-leaked-audit-reveals-the-un-s-palantir-problem-united-nations-ai-tech-wfp-iaea-ethics) — *2026-08-07*
-  > The UN's World Food Programme is finalizing a five-year renewal of its contract with US data software firm Palantir despite “key privacy concerns” raised in a leaked 2025 internal audit. The audit, seen by PassBlue and FRANCE 24, reveals UN misgivings about allowing Palantir to p
-- **NEW**  [[Global] Spain imposes border checks on Italy amid Ceuta migration row](https://www.france24.com/en/europe/20260807-spain-imposes-border-checks-on-italy-amid-ceuta-migration-row) — *2026-08-07*
-  > Spain announced Friday that it would introduce border controls for travellers arriving from Italy in retaliation for Rome imposing similar measures. The rare spat between the EU nations came after tens of thousands of people crossed from Morocco to Spain's North African territory
-- [[Global] Winemakers across Europe face the challenges of climate change](https://www.france24.com/en/europe/20260807-winemakers-across-europe-face-the-challenges-of-climate-change) — *2026-08-07*
-  > Winegrowers in France are harvesting their grapes unusually early this season because of the effects of climate change. While the rising global temperatures offer a new chance for winemakers in northern and Scandinavian countries, experts say it’s too early to expect a drastic sh
-- [[Global] 'DRC's largest Ebola outbreak on record: Active conflict and armed groups hamper the response'](https://www.france24.com/en/drc-s-largest-ebola-outbreak-on-record-active-conflict-and-armed-groups-hamper-the-response) — *2026-08-07*
-  > Sharon Gaffney is pleased to welcome Heather Kerr, Country Director for Congo at the International Rescue Committee. The current Ebola outbreak in the Democratic Republic of the Congo is unprecedented, not simply because of its scale, but because it spread undetected for months b
-- [[Global] US appeals court halts construction of Trump’s $400 million White House ballroom project](https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project) — *2026-08-07*
-  > A federal appeals court on Friday ordered US President Donald Trump’s administration to stop construction of its $400 million ballroom on the site of the White House's demolished East Wing. The court added that a president cannot fundamentally reshape the White House without cong
-- [[Global] Meta fined in child safety case](https://www.france24.com/en/meta-fined-in-child-safety-case) — *2026-08-07*
-  > A US state court has ordered Meta to pay $567 million and restrict some Facebook and Instagram features for children, in what is being described as the largest child-safety ruling against the company. The court found that Meta had created a “public nuisance” that endangered young
-- [[Global] 'There's no turning back': UEFA stands by boycott despite Infantino's apology](https://www.france24.com/en/video/20260807-there-s-no-turning-back-uefa-stands-by-boycott-despite-infantino-s-apology) — *2026-08-07*
-  > UEFA continues to apply pressure on FIFA President Gianni Infantino to resign, while the Norwegian federation turn up the heat with 3 separate referrals to the federation's ethics committee. Antonia Kerrigan reports.
-- [[Global] Turkey, Saudi, Pakistan: Attack on one nation deemed an attack on all](https://www.france24.com/en/turkey-saudi-pakistan-attack-on-one-nation-deemed-an-attack-on-all) — *2026-08-07*
-  > Pakistan, Turkey and Saudi Arabia have signed a mutual defence agreement, under which an armed attack on any one of the three countries will be treated as an attack on all. The pact comes as Saudi Arabia seeks to diversify its security partnerships after repeated attacks on its c
-- [[Global] Concerts of pro-Assad singers cancelled after protests in Syria](https://www.france24.com/en/middle-east/20260807-concerts-pro-assad-singers-cancelled-syrian-public-protests) — *2026-08-07*
-  > The concerts of several musicians accused of supporting former Syrian president Bashar al-Assad have been cancelled this summer in towns across Syria. People in the city of Homs tore down posters announcing performances by singers Mohamad Iskandar and Hossam Jneed, denouncing the
-- [[Global] Players use football to champion Afghan women's rights](https://www.france24.com/en/video/20260807-players-use-football-to-champion-afghan-women-s-rights) — *2026-08-07*
-  > The 23 players of Afghanistan's women's football team who now live abroad, have travelled to New Zealand for a training camp and to play two unofficial friendly games against the Cook Islands. Banned from playing at home, this is the first time they have been together since footb
-- [[Global] Saudi Arabia, Pakistan and Turkey sign mutual defence agreement](https://www.france24.com/en/middle-east/20260807-saudi-arabia-pakistan-and-turkey-sign-mutual-defence-agreement) — *2026-08-07*
-  > Saudi Arabia, Pakistan and Turkey signed a mutual defence pact on Friday that would treat any act of aggression on one of the three nations as an attack on all of them, the allies said in a joint statement. However, it did not specify if the agreement would bind them to any parti
-- [[Global] USA: Democratic party's progressive wing 'can win primaries', but can they win in swing states?](https://www.france24.com/en/usa-democrats-progressive-wing-can-win-primaries-can-they-win-a-general-election) — *2026-08-07*
-  > Stuart Norval is pleased to welcome Steven Ekovich, Professor Emeritus of Political Science at American University of Paris. The Michigan Democratic Senate primary offers a revealing case study of the struggle between ideological conviction and electoral pragmatism. Ericovich arg
-- **NEW**  [[Global] US pledges $1 billion security aid to Colombia as Trump-endorsed president takes office](https://www.france24.com/en/americas/20260807-us-announces-1-billion-in-security-aid-to-colombia-as-trump-endorsed-president-takes-office) — *2026-08-07*
-  > The US State Department announced late Friday that President Donald Trump's ​administration plans toprovide $1 billion in security assistance to Colombia as the country's new right-wing President Abelardo De La Espriella was sworn into office. De la Espriella, who calls himself "
-- [[Global] Pope Leo to meet clergy abuse victims during upcoming France visit](https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit) — *2026-08-07*
-  > Pope Leo XIV will meet with victims of sexual abuse within the Catholic Church during his planned trip to France from September 25 to 28, the Vatican said Friday. The Holy See did not immediately provide details about the meeting, which comes after the pontiff vowed to further ef
-- [[Global] Turkey, Saudi Arabia and Pakistan sign defense pact](https://www.france24.com/en/turkey-saudi-arabia-and-pakistan-sign-defense-pact) — *2026-08-07*
-  > Progressive Democrats are hoping to build momentum after left-wing candidate Abdul El-Sayed narrowly defeated an establishment-backed rival in Michigan’s US Senate primary. The race was seen as a test of the party’s future direction, with El-Sayed campaigning on universal healthc
-- [[Global] Live: Saudi Arabia, Pakistan, Turkey sign defence pact stating 'attack on one is attack on all' ⤵️](https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact) — *2026-08-07*
-- [[Global] Michigan race: El-Sayed victory shows progressive candidates can be highly competitive](https://www.france24.com/en/video/20260807-usa-democrats-progressive-wing-can-win-primaries-can-they-win-a-general-election) — *2026-08-07*
-  > Delano D'Souza is pleased to welcome Ian Reifowitz, SUNY Distinguished Professor Historical Studies at SUNY Empire State University. The Michigan Democratic Senate primary illustrates a broader tension reshaping American politics: the contest is not simply between progressive and
-- [[Global] Thailand: Gunman killed grandparents before school attack](https://www.france24.com/en/thailand-gunman-killed-grandparents-before-school-attack) — *2026-08-07*
-  > A deadly shooting spree at a school outside Bangkok has ended after police said the suspected gunman, a 14-year-old student, killed himself. Authorities say the teenager began the rampage at home, where he shot his grandparents, before heading to the school. Police say the gun be
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-08*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-08*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-08*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-08*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Child among three killed in Russian missile attacks near Kyiv](https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.
+- **NEW**  [[Global] The phone book that led us to Assad's spy chief in hiding](https://www.bbc.co.uk/news/articles/c4gyrzn8p94o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > How we tracked down "The Spider" who was once one of the most-feared men in Syria.
+- **NEW**  [[Global] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies](https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Italy introduced border controls following an influx of about 78,000 migrants from  Morocco into the neighbouring Spanish exclave of Ceuta.
+- **NEW**  [[Global] Thai PM vows to introduce stricter gun laws after eight killed in shooting](https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Eight people were killed when a 14-year-old opened fire at his home and school before shooting himself dead.
+- **NEW**  [[Global] I was standing in front of my teacher when she was shot, Thai pupil says](https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The student says she feared never seeing her mother again after the attack killed five teachers.
+- **NEW**  [[Global] 'I ran because I knew I would die': Russian drones target medics in Ukraine](https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.
+- [[Global] Saudi Arabia, Turkey and Pakistan sign defence pact](https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.
+- [[Global] Spanish police arrest 78 people in bust of 'one of largest' smuggling networks](https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons.
+- **NEW**  [[Global] Hunter Biden tells BBC his pardon was 'not good' for America or his father's legacy](https://www.bbc.co.uk/news/articles/cy8ey458pv5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > In a wide-ranging BBC interview, the former president's son denied having any interest in running for office and said his father's cancer has spread.
+- **NEW**  [[Global] Book hidden in fireplace returned to Australian library 150 years overdue](https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > It is thought an apprentice stonemason who worked on the Houses of Parliament in London borrowed it.
+- **NEW**  [[Global] Kidnapped rare Serbian eagle freed into wild after rescue](https://www.bbc.co.uk/news/articles/cdewxgw69exo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Feliks the eagle was abducted as he first flew the nest in Serbia and wound up in the Middle East with poachers who demanded a ransom.
+- **NEW**  [[Global] Sophia Laforteza steps away from Katseye, the second member to depart this year](https://www.bbc.co.uk/news/articles/c4g305dz0y9o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The announcement came comes after fellow bandmate Manon Bannerman went on a hiatus from the ensemble.
+- [[Global] Mexico and Peru restore diplomatic relations after asylum row](https://www.bbc.co.uk/news/articles/cz7dy1l3e77o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Relations broke down after former Peruvian Prime Minister Betssy Chávez sought asylum in the Mexican embassy in November 2025.
+- [[Global] A new youth agitation grips an Indian state after 'cockroach' protests](https://www.bbc.co.uk/news/articles/c5ywv6egvx8o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Weeks after the CJP protests shook Delhi, a new youth-led movement over jobs and recruitment is gathering force in Jharkhand.
+- [[Global] Meta fined $567m in largest child safety ruling against social media giant](https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.
+- [[Global] Trump administration to pay German firm $1.2bn to halt US wind projects](https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.
+- [[Global] Trump again tries to limit US birthright citizenship with new executive orders](https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship.
+- [[Global] Australian aviation crew carries out daring midwinter Antarctica rescue](https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C.
+- [[Global] Trump denies US weapons shortage and says information 'leakers' being 'hunted down'](https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > While precise data is classified, publicly available information suggests the US has used up many difficult-to-manufacture weapons.
+- [[Global] Thousands of migrants still in Ceuta after border crisis, local leader says](https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > The Spanish territory's mayor-president also says 100 deaths occurred as a result of 78,000 migrants crossing from neighbouring Morocco.
+- [[Global] South Korea space agency shares Moon images after SpaceX rocket debris crash](https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss) — *2026-08-06*
+  > Seoul's lunar orbiter captured images of the Moon before and after part of SpaceX's rocket hit its surface on Wednesday.
+- [[Global] Two people convicted in relation to death of French streamer](https://www.bbc.co.uk/news/articles/c8rnmdy4enpo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Raphaël Graven, 46, died in August 2025, with his death live broadcast on the streaming platform Kick.
 
-_(991 additional items in raw.jsonl)_
+_(1009 additional items in raw.jsonl)_
