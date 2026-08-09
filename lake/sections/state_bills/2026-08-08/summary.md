@@ -3,15 +3,15 @@ section: state_bills
 title: State Legislative Action
 date: 2026-08-08
 record_count: 202
-new_today: 95
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## State Legislative Action
 
-95 new of 202 total items today.
+0 new of 202 total items today.
 
-- **NEW**  [[Alaska HB 16] An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign contr]() — *2026-08-08*
+- [[Alaska HB 16] An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign contr]() — *2026-08-08*
   > An Act requiring a group supporting or opposing a candidate or ballot proposition in a state or local election to maintain an address in the state; amending campaign contribution limits for state and local office; directing the Alaska Public Offices Commission to adjust campaign 
 - [[Alaska HB 69] An Act relating to the base student allocation; and providing for an effective date.]() — *2026-08-08*
   > An Act relating to the base student allocation; and providing for an effective date.
@@ -25,13 +25,13 @@ state: fresh
   > An Act relating to optional municipal property tax exemptions for real property owned and occupied by volunteer certified or licensed providers of fire fighting, emergency medical, mobile intensive care paramedic services, or hazardous materials response services; relating to opt
 - [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-08-07*
   > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
-- **NEW**  [[Alaska HB 285] An Act relating to the electronic health information exchange system; and providing for an effective date.]() — *2026-08-07*
+- [[Alaska HB 285] An Act relating to the electronic health information exchange system; and providing for an effective date.]() — *2026-08-07*
   > An Act relating to the electronic health information exchange system; and providing for an effective date.
-- **NEW**  [[Alaska HB 232] An Act relating to the examination and treatment of minors; relating to consent for behavioral and mental health treatment for minors 16 years of age or older; and providing for an effective date.]() — *2026-08-07*
+- [[Alaska HB 232] An Act relating to the examination and treatment of minors; relating to consent for behavioral and mental health treatment for minors 16 years of age or older; and providing for an effective date.]() — *2026-08-07*
   > An Act relating to the examination and treatment of minors; relating to consent for behavioral and mental health treatment for minors 16 years of age or older; and providing for an effective date.
-- **NEW**  [[Alaska HJR 32] Expressing commitment to the rural health transformation program; acknowledging the critical health care challenges facing rural areas of the state; and urging action by the Governor and the Alaska delegation in Congress to continue to advocate for the state's interests and advance t]() — *2026-08-07*
+- [[Alaska HJR 32] Expressing commitment to the rural health transformation program; acknowledging the critical health care challenges facing rural areas of the state; and urging action by the Governor and the Alaska delegation in Congress to continue to advocate for the state's interests and advance t]() — *2026-08-07*
   > Expressing commitment to the rural health transformation program; acknowledging the critical health care challenges facing rural areas of the state; and urging action by the Governor and the Alaska delegation in Congress to continue to advocate for the state's interests and advan
-- **NEW**  [[Alaska HB 292] An Act relating to insurance coverage for pediatric autoimmune neuropsychiatric disorders; and providing for an effective date.]() — *2026-08-07*
+- [[Alaska HB 292] An Act relating to insurance coverage for pediatric autoimmune neuropsychiatric disorders; and providing for an effective date.]() — *2026-08-07*
   > An Act relating to insurance coverage for pediatric autoimmune neuropsychiatric disorders; and providing for an effective date.
 - [[Alaska SB 133] An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.]() — *2026-08-07*
   > An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.
