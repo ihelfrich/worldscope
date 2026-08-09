@@ -2,21 +2,25 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-09
-record_count: 102
-new_today: 47
+record_count: 106
+new_today: 53
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-47 new of 102 total items today.
+53 new of 106 total items today.
 
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-09*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-09*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-09*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: Зеленський: За тиждень РФ випустила по Україні 61 ракету, 56 із них – по балістичній траєкторії | LEDE: Протягом останнього тижня Росія застосувала проти України 61 ракету різних типів, з яких ] (uk: Зеленський: За тиждень РФ випустила по Україні 61 ракету, 56 із них – по балісти)](https://www.pravda.com.ua/news/2026/08/09/8047961/) — *2026-08-09*
+  > Протягом останнього тижня Росія застосувала проти України 61 ракету різних типів, з яких 56 атакували по балістичній траєкторії, а також понад 1560 ударних безпілотників і 1540 керованих авіабомб.
+- **NEW**  [[TITLE: Іран озвучив свої вимоги до США для відкриття Ормузької протоки | LEDE: ] (uk: Іран озвучив свої вимоги до США для відкриття Ормузької протоки)](https://www.pravda.com.ua/news/2026/08/09/8047960/) — *2026-08-09*
+- **NEW**  [[TITLE: У Харкові кількість постраждалих від удару зросла до 23, під завалами шукають людей | LEDE: Унаслідок російського удару по багатоповерхівці у Харкові 23 постраждалих, 2 загиблих, серед поранени] (uk: У Харкові кількість постраждалих від удару зросла до 23, під завалами шукають лю)](https://www.pravda.com.ua/news/2026/08/09/8047958/) — *2026-08-09*
+  > Унаслідок російського удару по багатоповерхівці у Харкові 23 постраждалих, 2 загиблих, серед поранених є 5-річна дитина.
+- **NEW**  [[TITLE: У Румунії зникла загроза зупинки АЕС – вода у Дунаї піднялася | LEDE: ] (uk: У Румунії зникла загроза зупинки АЕС – вода у Дунаї піднялася)](https://www.pravda.com.ua/news/2026/08/09/8047957/) — *2026-08-09*
 - **NEW**  [[TITLE: "Мадяр": СБС уразили С-400 у Геленджику, який напередодні бив ракетами по Україні | LEDE: Сили безпілотних систем атакували ЗРК С-400 у Геленджику та ще чотири цілі ППО РФ у ніч на 9 серпня.] (uk: "Мадяр": СБС уразили С-400 у Геленджику, який напередодні бив ракетами по Україн)](https://www.pravda.com.ua/news/2026/08/09/8047954/) — *2026-08-09*
   > Сили безпілотних систем атакували ЗРК С-400 у Геленджику та ще чотири цілі ППО РФ у ніч на 9 серпня.
 - **NEW**  [[TITLE: У Косові депутатка закидала прем’єра яйцями у залі парламенту | LEDE: ] (uk: У Косові депутатка закидала прем’єра яйцями у залі парламенту)](https://www.pravda.com.ua/news/2026/08/09/8047951/) — *2026-08-09*
@@ -44,17 +48,11 @@ state: fresh
   > Пентагон закликав збільшити виробництво озброєнь через критичний дефіцит на тлі війни з Іраном.
 - **NEW**  [[TITLE: Війна і ЗМІ | LEDE: До війни я працював на телебаченні. І коли йшов до армії – саме ТБ було осередком усього політичного.] (uk: Війна і ЗМІ)](https://www.pravda.com.ua/articles/2026/08/09/8047734/) — *2026-08-09*
   > До війни я працював на телебаченні. І коли йшов до армії – саме ТБ було осередком усього політичного.
-- **NEW**  [[TITLE: Син Байдена розповів, що рак в його батька поширився на кістки | LEDE: Син Джо Байдена повідомив, що рак у його батька дав метастази в кістки та ослабив його здоров'я.] (uk: Син Байдена розповів, що рак в його батька поширився на кістки)](https://www.pravda.com.ua/news/2026/08/09/8047935/) — *2026-08-09*
-  > Син Джо Байдена повідомив, що рак у його батька дав метастази в кістки та ослабив його здоров'я.
-- **NEW**  [[TITLE: Біля берегів Туреччини перехопили підводний безпілотник – ЗМІ | LEDE: Підводний безпілотник знайшли біля Артвіна в Туреччині, екстрені служби на місці, подробиці з'ясовують.] (uk: Біля берегів Туреччини перехопили підводний безпілотник – ЗМІ)](https://www.pravda.com.ua/news/2026/08/09/8047936/) — *2026-08-09*
-  > Підводний безпілотник знайшли біля Артвіна в Туреччині, екстрені служби на місці, подробиці з'ясовують.
-- **NEW**  [[TITLE: Російський Бєлгород опинився під атакою дронів: лунали вибухи, спалахнули пожежі | LEDE: У Бєлгороді внаслідок атаки безпілотників пошкоджено житлові будинки та університет, лунають вибухи.] (uk: Російський Бєлгород опинився під атакою дронів: лунали вибухи, спалахнули пожежі)](https://www.pravda.com.ua/news/2026/08/09/8047934/) — *2026-08-09*
-  > У Бєлгороді внаслідок атаки безпілотників пошкоджено житлові будинки та університет, лунають вибухи.
-- **NEW**  [[TITLE: У Херсоні через ворожий дрон постраждала 12-річна дитина | LEDE: Внаслідок атаки російського безпілотника у Херсоні постраждала 12-річна дівчинка. Її госпіталізовано з травмами.] (uk: У Херсоні через ворожий дрон постраждала 12-річна дитина)](https://www.pravda.com.ua/news/2026/08/09/8047933/) — *2026-08-09*
-  > Внаслідок атаки російського безпілотника у Херсоні постраждала 12-річна дівчинка. Її госпіталізовано з травмами.
 - [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-09*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- **NEW**  [GANNA: ‘I Want Ukrainian Folk Music to Be Heard for Its Beauty, Not Because of War’](https://www.kyivpost.com/post/81949) — *2026-08-09*
-  > For more than a decade, Berlin-based Ukrainian artist GANNA has explored and reimagined traditional Ukrainian songs through jazz, electronics and improvisation. Ahead of her performance at the Vyrii Festival, she speaks to Kyiv Post about preserving living traditions, Europe’s gr
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-09*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [Belarus Opposition Waits for Its Solidarity Moment](https://www.kyivpost.com/analysis/81994) — *2026-08-09*
+  > Almost six years after Alexander Lukashenko claimed a fraudulent election victory, Belarusian opposition leader Sviatlana Tsikhanouskaya compares her exiled democratic movement to Poland’s underground Solidarity. While Belarus experienced a similar mass mobilization in 2020, Luka
 
-_(77 additional items in raw.jsonl)_
+_(81 additional items in raw.jsonl)_

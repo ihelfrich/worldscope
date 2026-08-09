@@ -2,15 +2,27 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-09
-record_count: 87
+record_count: 99
 new_today: 6
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-6 new of 87 total items today.
+6 new of 99 total items today.
 
+- [[OFAC] Counter Terrorism and Iran-related Designations; Counter Narcotics Designations Removals; Issuance of Amended Iran-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-07*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcFZQa2M3dXRLeEpKZENleGltTm1JbGRTYmlQanhQbnp1XzMxVmxqM2hCSl9SNmhsLVBnVkZLRW1sVHRkSWNkaGUxdXQ2OVMzZ19MN0l1LU5Id1dVNHc?oc=5" target="_blank">Counter Terrorism and Iran-related Designations; Counter Narcotics Designations 
+- [[OFAC] Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4YjQ1NnltTko0QWJxQ1RFWjdfcHhSQmo0V1NPM3Zmamc3M1BoYlNsOG9VeEktSEZfMmhOZG96c2RoVGhLMW5KQ2FUYTc3Zk5lbWU0azYyNWtQMXhVbWc?oc=5" target="_blank">Cuba-related Designations; Issuance of Cuba-related Frequently Asked Question</a
+- [[OFAC] Frequently Asked Questions - Newly Added - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-06*
+  > <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQ3pwSTJTd1YteXc5Smh2UlpsVFE2eGpGLXA1VVhxNXlZeTYtQ1JHdDItaDlKdDlfTzNmeHk2ZkpJekkzNnh1UnFmXzR3c3A4LVd5NDFZMGNuR0U?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office
+- [[OFAC] Counter Terrorism Designations Removals and Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-05*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE00cU1PY0YyQ2QwakJHRWQ1UzA3LW80b0h0b3F1QVEtdGJoeFRmcnVLbHVrd2FzMG01LWVGdnFIYlBUNHprMG5ENjQxTThyTXlVb0h3NzVGTVh6bUxwSWc?oc=5" target="_blank">Counter Terrorism Designations Removals and Update</a>&nbsp;&nbsp;<font color="#
+- [[OFAC] Issuance of Amended Venezuela-related General License and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IWGx5VlA1dHJkNG1qMUpGOWtqUGcwekdHU0haaEVSN2lJVlBVZ3laeHp4RFpuOXJZNW9nS1Zxa1pPLUZPMWpUZEpHd0xpcHpXdE0zOUstSzNJNjBDZFE?oc=5" target="_blank">Issuance of Amended Venezuela-related General License and Frequently Asked Quest
+- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR Part 591 GENERAL LICENSE NO. 5Y Authorizing Certain Tra - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-03*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfME94Qk5mb081SG5yN1F0Z2M2WEdEWXl3cHpzckxmV0p5blZha21Xd1VQSlhRTFdETGRteW9LSHRRT2NtT2s5X0dIVFd3VU4tcklFVUtTaFd6aUhUY0FJR2FrTXE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-09*
   > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
 - [[USASpending] $22,440,930,497 → THE BOEING COMPANY: INTERNATIONAL SPACE STATION](https://www.usaspending.gov/award/NAS1510000) — *2026-08-09*
@@ -49,17 +61,5 @@ state: fresh
   > Agency: General Services Administration.  Description: IGF::OT::IGF TASK ORDER (TO) 47QFCA18F0067 IS HEREBY AWARDED TO ALION SCIENCE AND TECHNOLOGY CORPORATION TO PROVIDE CONTRACTOR SUPPORT TO THE JOINT CAPABILITY EMBEDDED TECHNOLOGY INSERTION AND INTEGRATION (JCETII) REMOTE SENS
 - [[USASpending] $877,300,916 → PERATON INC.: OPERATIONAL PLANNING IMPLEMENTATION AND ASSESSMENT SERVICES ](https://www.usaspending.gov/award/47QFCA21F0058) — *2026-08-09*
   > Agency: General Services Administration.  Description: OPERATIONAL PLANNING IMPLEMENTATION AND ASSESSMENT SERVICES (OPIAS) BASE AWARD.
-- **NEW**  [[USASpending] $876,771,741 → HII MISSION TECHNOLOGIES CORP: THE PURPOSE OF THIS ACTION IS TO AWARD A TASK ORDER - JOINT ](https://www.usaspending.gov/award/47QFCA23F0036) — *2026-08-09*
-  > Agency: General Services Administration.  Description: THE PURPOSE OF THIS ACTION IS TO AWARD A TASK ORDER - JOINT NETWORK OF ENGINEERING AND EMERGING OPERATIONS (JNEEO)
-- **NEW**  [[USASpending] $873,510,388 → BCCG A JOINT VENTURE: CONSTRUCTION OF BORDER BARRIER WALL SYSTEM.](https://www.usaspending.gov/award/70B01C25F00001121) — *2026-08-09*
-  > Agency: Department of Homeland Security.  Description: CONSTRUCTION OF BORDER BARRIER WALL SYSTEM.
-- [[USASpending] $859,669,886 → BOOZ ALLEN HAMILTON INC: NEW TO - EHRM PMO IO SUPPORT](https://www.usaspending.gov/award/36C10B22N10070023) — *2026-08-09*
-  > Agency: Department of Veterans Affairs.  Description: NEW TO - EHRM PMO IO SUPPORT
-- [[USASpending] $839,875,190 → AMGEN USA INC: TREATMENT FOR USE IN A MASS CASUALTY EVENT WHERE THROMBOCYTO](https://www.usaspending.gov/award/75A50122C00065) — *2026-08-09*
-  > Agency: Department of Health and Human Services.  Description: TREATMENT FOR USE IN A MASS CASUALTY EVENT WHERE THROMBOCYTOPENIA OR PLATELET LOSS IS A MAJOR CONCERN.
-- [[USASpending] $837,225,881 → CACI, INC. - FEDERAL: CDM DEFEND GROUP A  BRIDGE TASK ORDER](https://www.usaspending.gov/award/47QFRA24F0005) — *2026-08-09*
-  > Agency: General Services Administration.  Description: CDM DEFEND GROUP A  BRIDGE TASK ORDER
-- [[USASpending] $814,435,946 → L3HARRIS TECHNOLOGIES, INC.: ENGINEERING SERVICES AND DEVELOPMENT LEADING TO THE DELIVERY](https://www.usaspending.gov/award/NNG10XA06C) — *2026-08-09*
-  > Agency: National Aeronautics and Space Administration.  Description: ENGINEERING SERVICES AND DEVELOPMENT LEADING TO THE DELIVERY OF THE CROSS TRACK INFRARED SOUNDER (CRIS) INSTRUMENT AND SUPPORT.
 
-_(62 additional items in raw.jsonl)_
+_(74 additional items in raw.jsonl)_

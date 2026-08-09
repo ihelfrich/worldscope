@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-09
-record_count: 95
-new_today: 95
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-95 new of 95 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Tiempo hoy en Talca : jornada del 9 de agosto de 2026](https://www.vlnradio.cl/noticias/nacional/region-del-maule/2026/08/08/tiempo-hoy-en-talca-jornada-del-9-de-agosto-de-2026/) — *2026-08-09*
-  > vlnradio.cl · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 大道行天下丨以心相交 ， 成其久远 中国元首外交的世界情怀与大国气派](https://news.sina.com.cn/c/xl/2026-08-09/doc-inimtchp3425723.shtml) — *2026-08-09*
-  > news.sina.com.cn · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Iran rejects Oman talks link to Hormuz reopening](https://kashmirreader.com/2026/08/09/iran-rejects-oman-talks-link-to-hormuz-reopening/) — *2026-08-09*
-  > kashmirreader.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 拔老樹吹歪電線杆 ！ 淡水龍捲風總長度2 . 5公里 「 龍捲風權威 」 曝災情 | 生活 | 三立新聞網 SETN . COM](https://www.setn.com/news/1886509) — *2026-08-09*
-  > setn.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Iran Demands U . S . Action To Reopen Strait Of Hormuz](https://whoradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/) — *2026-08-09*
-  > whoradio.iheart.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]   白海豚  云系庞大影响面广 ， 全省大部有大雨暴雨部分大暴雨](https://baijiahao.baidu.com/s?id=1873022751114459611) — *2026-08-09*
-  > baijiahao.baidu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Kinoprogramm Reutlingen : Die besten Kinofilme am Sonntag , 09 . 08 . 2026](https://www.news.de/lokales/857907175/kinoprogramm-reutlingen-was-laeuft-heute-am-09-08-2026-im-kino-neue-filme-aktuell-highlights-und-kinofilme-fuer-kinder-bei-open-air-kino-reutlingen-cineplex-planie-kamino-reutlingen/1/) — *2026-08-09*
-  > news.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Kleingeld wechseln bei Edeka : Tausch ohne Gebühren im Supermarkt](http://www.wa.de/verbraucher/kleingeld-wechseln-bei-edeka-tausch-ohne-gebuehren-im-supermarkt-zr-94434953.html) — *2026-08-09*
-  > wa.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] ВС РФ нанесли удары по портовой инфраструктуре и морским судам Украины](https://www.m24.ru/news/09082026/928704) — *2026-08-09*
-  > m24.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] El agua en el norte aprieta pizarras ; el partido recién empieza](https://rurales.elpais.com.uy/opinion/el-agua-en-el-norte-aprieta-pizarras-el-partido-recien-empieza) — *2026-08-09*
-  > rurales.elpais.com.uy · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] کیریبین جزیرے مارٹنیک کا تاریخی آتش فشاں](https://dailyaaj.com.pk/news/158114) — *2026-08-09*
-  > dailyaaj.com.pk · Urdu · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 白海豚暴風圈縮小 有望提前解除海警 | ETtoday生活新聞](https://www.ettoday.net/news/20260809/3216093.htm) — *2026-08-09*
-  > ettoday.net · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Scontro frontale tra due auto sulla 45 : quattro feriti , coinvolti due bambini](https://www.ilpiacenza.it/cronaca/incidente-stradale/scontro-frontale-tra-due-auto-sulla-45-quattro-feriti-coinvolti-due-bambini.html) — *2026-08-09*
-  > ilpiacenza.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Aug 9 , 1953  black day  in J & K history : Dr Farooq Abdullah](https://kashmirreader.com/2026/08/09/aug-9-1953-black-day-in-jks-history-dr-farooq-abdullah/) — *2026-08-09*
-  > kashmirreader.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Irán cree tener a Trump acorralado con el estrecho de Ormuz , pero su estrategia entraña grandes riesgos](https://www.elmundo.es/internacional/2026/08/09/6a781ddafdddffce508b457c.html) — *2026-08-09*
-  > elmundo.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Caldo estremo | l  inganno della narrazione emergenziale sta nel non chiarire la vera causa del problema](https://www.zazoom.it/2026-08-09/caldo-estremo-linganno-della-narrazione-emergenziale-sta-nel-non-chiarire-la-vera-causa-del-problema/19551487/) — *2026-08-09*
-  > zazoom.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Starnieuws - Tempo opvoeren om risico blacklisting te verkleinen](https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/93328) — *2026-08-09*
-  > starnieuws.com · Dutch · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Umman : Hürmüz Boğazı  ndaki seyrüsefer müzakereleri olumlu ilerliyor](https://www.ensonhaber.com/umman-hurmuz-bogazindaki-seyrusefer-muzakereleri-olumlu-ilerliyor-h1556043) — *2026-08-09*
-  > ensonhaber.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Défense dAry Abittan et de B . B ., duo avec Enrico Macias , soutien aux pompiers du Var , invocation de la pluie ... Mireille Mathieu sur tous les fronts à Saint - Tropez](https://www.nicematin.com/culture/people/defense-d-ary-abittan-et-de-b-b-duo-avec-enrico-macias-soutien-aux-pompiers-du-var-invocation-de-la-pluie-mireille-mathieu-sur-tous-les-fronts-a-saint-tropez-10703002) — *2026-08-09*
-  > nicematin.com · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] EastEnders fans  rumble  Danny Dyer return and four cast exits after Kellie Bright quits](https://www.aol.co.uk/articles/eastenders-fans-rumble-danny-dyer-064643000.html) — *2026-08-09*
-  > aol.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Хейтерам снятого на Алтае  Колобка  грозит уголовный срок](https://www.amic.ru/news/heyteram-snyatogo-na-altae-kolobka-grozit-ugolovnyy-srok-589747) — *2026-08-09*
-  > amic.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Irani vendos kushtet për rihapjen e Hormuzit : Heqje sanksionesh dhe kompensim për dëmet e luftës](https://www.gazetatema.net/bota/irani-vendos-kushtet-per-rihapjen-e-hormuzit-heqje-sanksionesh-dhe-kompensi-i578598) — *2026-08-09*
-  > gazetatema.net · Albanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 浙江广大党员干部迎战台风  白海豚  风雨中筑起  红色堤坝  ](https://baijiahao.baidu.com/s?id=1873028062457881045) — *2026-08-09*
-  > baijiahao.baidu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] THE Silver & Gold Thread ( merged ) : Economics & Finance - Page 37 - Peak Oil News and Message Boards](https://peakoil.com/forums/viewtopic.php?p=1503784) — *2026-08-09*
-  > peakoil.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Schnelle Wiedereröffnung der Straße von Hormus ungewiss](https://www.traunsteiner-tagblatt.de/nachrichten_artikel,-schnelle-wiedereroeffnung-der-strasse-von-hormus-ungewiss-_arid,1010705.html) — *2026-08-09*
-  > traunsteiner-tagblatt.de · German · tone NA
-
-_(70 additional items in raw.jsonl)_
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran war : Houthis claim attack on Saudi oil facility](https://www.dw.com/en/iran-war-houthis-claim-attack-on-saudi-oil-facility/live-78289364) — *2026-08-09*
+  > dw.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] ICC oversight body urges Chad and Venezuela to reverse withdrawal](http://www.venezuelastar.com/news/279227907/icc-oversight-body-urges-chad-and-venezuela-to-reverse-withdrawal) — *2026-08-09*
+  > venezuelastar.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.kenyastar.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > kenyastar.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.batonrougepost.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > batonrougepost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords]   Missile for missile , fire for fire : Iraq militia vows retaliation against US , Saudi Arabia](https://timesofindia.indiatimes.com/world/middle-east/missile-for-missile-fire-for-fire-iraq-militia-vows-retaliation-against-us-saudi-arabia/articleshow/133063872.cms) — *2026-08-09*
+  > timesofindia.indiatimes.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords]   Missiles can only be countered with missiles : Iraqi militia vows revenge over US - Saudi strikes](https://aninews.in/news/world/middle-east/missiles-can-only-be-countered-with-missiles-iraqi-militia-vows-revenge-over-us-saudi-strikes20260809122641/) — *2026-08-09*
+  > aninews.in · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.iranherald.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > iranherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Readers sound off on lawful demonstrations , crowing about communism and Optimum rules](https://www.nydailynews.com/2026/08/09/readers-sound-off-on-lawful-demonstrations-crowing-about-communism-and-optimum-rules/) — *2026-08-09*
+  > nydailynews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.arabherald.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > arabherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Outgoing Yahalom Commander :  The failure of October 7 is etched in our minds  ](https://www.israelnationalnews.com/news/431424) — *2026-08-09*
+  > israelnationalnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] THE ODYSSEY & THE GIFT THAT BROKE THE WORLD](https://tribune.com.pk/story/2622843/the-odyssey-the-gift-that-broke-the-world) — *2026-08-09*
+  > tribune.com.pk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] What is the  Green Rafah  project approved by Netanyahu ? ](https://www.albawaba.com/news/what-green-rafah-project-approved-1634663) — *2026-08-09*
+  > albawaba.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Women Demand Life protesters call for October 7 commission of inquiry](http://www.jpost.com/israel-news/article-904935) — *2026-08-09*
+  > jpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] IDF did not report Hezbollah drone attack to avoid  harming Israeli forces  ](http://www.jpost.com/israel-news/defense-news/article-904925) — *2026-08-09*
+  > jpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz](https://www.businesstoday.in/world/story/no-attacks-on-allies-compensation-iran-lays-down-six-demands-to-reopen-hormuz-548156-2026-08-09) — *2026-08-09*
+  > businesstoday.in · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israeli media says Netanyahu okayed reconstruction in southern Gaza](https://www.middleeasteye.net/live-blog/live-blog-update/israeli-media-says-netanyahu-okayed-reconstruction-southern-gaza) — *2026-08-09*
+  > middleeasteye.net · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel needs an off - ramp from Iran , Lebanon and Netanyahu politics](https://www.ynetnews.com/opinions-analysis/article/rklz8yhuge) — *2026-08-09*
+  > ynetnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel opposes Gaza peace plan  in its current form , minister says - Israel & Jewish News](https://www.jns.org/news/israel-news/israel-opposes-gaza-peace-plan-in-its-current-form-minister-says) — *2026-08-09*
+  > jns.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.middleeaststar.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > middleeaststar.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] New York City must fully investigate Mamdani Twitter bot army](https://www.jpost.com/opinion/article-904916) — *2026-08-09*
+  > jpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Sasha Gusov captures post - Oct . 7 life across Israel in dramatic new photo book](https://www.jpost.com/israel-news/article-904748) — *2026-08-09*
+  > jpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] The next Senator from South Carolina](https://www.washingtonexaminer.com/daily-memo/4680324/the-next-senator-from-south-carolina/) — *2026-08-09*
+  > washingtonexaminer.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran makes new Hormuz demands as missile hits Emirati ship](http://www.heraldglobe.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship) — *2026-08-09*
+  > heraldglobe.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Deconstructing the Anti - Argentina Propaganda in the FIFA World Cup](https://countercurrents.org/2026/08/deconstructing-the-anti-argentina-propaganda-in-the-fifa-world-cup/) — *2026-08-09*
+  > countercurrents.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] SECURITY NIGHTMARE : NYPD Warns Mamdani Anti - Netanyahu Crusade Could Create  Powder Keg  During UN Visit – The Yeshiva World](https://www.theyeshivaworld.com/news/israel-news/2583574/security-nightmare-nypd-warns-mamdanis-anti-netanyahu-crusade-could-create-powder-keg-during-un-visit.html) — *2026-08-09*
+  > theyeshivaworld.com · English · tone NA

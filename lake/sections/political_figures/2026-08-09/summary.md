@@ -17,7 +17,7 @@ state: fresh
    evidence: [lake:political_figures:0002097393-2], [lake:political_figures:0001192482-2], [lake:political_figures:0001556224-2], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 2. **Ed Case** (Representative, Democratic, HI-1st): composite 0.100
    drivers: enforcement_hits=0.50
-   evidence: [lake:political_figures:gkg-20260809], [lake:political_figures:gkg-20260808], [lake:political_figures:gkg-20260807], [lake:political_figures:gkg-20260804], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260808], [lake:political_figures:gkg-20260807], [lake:political_figures:gkg-20260804], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 3. **Andy Harris** (Representative, Republican, MD-1st): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0001579263-2], [lake:political_figures:0001971617-2], [lake:political_figures:0001961104-2], [lake:political_figures:0000202058-2]

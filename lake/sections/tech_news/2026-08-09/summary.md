@@ -3,14 +3,16 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-09
 record_count: 56
-new_today: 10
+new_today: 11
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-10 new of 56 total items today.
+11 new of 56 total items today.
 
+- **NEW**  [[The Register] Ransomware gangs skip the CEO, head straight for the 40-something IT manager](https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499) — *2026-08-09*
+  > Gen Xers who feel triggered by this should remember to unplug the network cable and call the cops
 - **NEW**  [[BleepingComputer] Hackers breach TrueConf to trojanize client installers with backdoors](https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/) — *2026-08-08*
   > The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
 - [[The Hacker News] Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html) — *2026-08-08*
@@ -67,7 +69,5 @@ The vulnerability, tr
   > IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.
 - [[The Record] Irregular, firm behind AI hacking incidents, won't say if there were more](https://therecord.media/irregular-ai-security-company-incidents) — *2026-08-07*
   > A spokesperson said Irregular’s investigation into what happened with Anthropic, OpenAI and Meta's AI models was ongoing and that they could not “go into further details.”
-- [[Cybersecurity Dive] Experts say healthcare faces cybersecurity crisis: ‘These are patient safety issues’](https://www.cybersecuritydive.com/news/healthcare-cybersecurity-crisis-def-con/827378/) — *2026-08-07*
-  > Regulatory failures, funding constraints and industry consolidation have created serious hacking risks.
 
 _(31 additional items in raw.jsonl)_

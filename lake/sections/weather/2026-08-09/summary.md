@@ -2,42 +2,64 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-09
-record_count: 160
-new_today: 134
+record_count: 168
+new_today: 142
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-134 new of 160 total items today.
+142 new of 168 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 2:51AM CDT until August 9 at 3:15AM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08178e81fd402124656e8059e930621093f62e37.001.1) — *2026-08-09*
-  > At 251 AM CDT, a severe thunderstorm was located over Devoe, or 14
-miles east of Faulkton, moving southeast at 25 mph.
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-31284) — *2026-08-09*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 4:36AM CDT until August 9 at 5:00AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d4890ef2ef03aaf0578ebf1884856bd344496aa.002.1) — *2026-08-09*
+  > At 435 AM CDT, a severe thunderstorm was located near Superior, or
+near Spirit Lake, moving northeast at 25 mph.
 
-HAZARD...60 mph wind gusts and quarter size hail.
+HAZARD...Golf ball size hail and 60 mph wind gusts.
 
 SOURCE...Radar indicated.
 
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding,
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 2:49AM CDT until August 9 at 3:45AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea1c1c9e36b787cd85b9d6ed27f0d73f3fd5e3d7.001.1) — *2026-08-09*
+IMPACT...People and animals outdoors will be injured. Expect hail
+damage to roofs, sid
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 4:34AM CDT until August 9 at 5:00AM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a1d896b0a9c7fe02dd45f938c719087d0225b9c.001.1) — *2026-08-09*
+  > SVRDMX
+
+The National Weather Service in Des Moines has issued a
+
+* Severe Thunderstorm Warning for...
+Western Emmet County in northwestern Iowa...
+
+* Until 500 AM CDT.
+
+* At 434 AM CDT, a severe thunderstorm was located over Terril, or 10
+miles southwest of Estherville, moving no
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 4:32AM CDT until August 9 at 5:00AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b28d5a528fb6363180d84f87118f7ecd73788514.001.1) — *2026-08-09*
   > SVRFSD
 
 The National Weather Service in Sioux Falls has issued a
 
 * Severe Thunderstorm Warning for...
-Northwestern Clay County in northwestern Iowa...
-East central O'Brien County in northwestern Iowa...
+Southeastern Dickinson County in northwestern Iowa...
 
-* Until 345 AM CDT.
+* Until 500 AM CDT.
 
-* At 249 AM CDT, a severe thunderstorm was located nea
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-24106) — *2026-08-09*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 2:31AM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81d2e3d2de133ca2e9ca46a6e2d4c8704a789d48.001.1) — *2026-08-09*
-  > At 231 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Blaine, or 14 miles north of Minneapolis, moving east at 35 mph.
+* At 432 AM CDT, a severe thunderstorm was located over Terril, or 10
+miles southwest of Estherville,
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 4:30AM CDT until August 9 at 4:45AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.addfeccc3f08a1756466d8b0f80e8feff9b1e6b2.001.1) — *2026-08-09*
+  > At 430 AM CDT, a severe thunderstorm was located 7 miles northwest of
+Pattonsburg, or 10 miles southeast of Albany, moving southeast at 30
+mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Hail damage to vehicles is expected. Expect wind
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 4:30AM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26619f61715996a8b3aaf3a69c0f4964333d4069.001.1) — *2026-08-09*
+  > At 430 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Somerset, or 18 miles north of River Falls, moving east at 40 mph.
 
 HAZARD...Penny size hail.
 
@@ -46,199 +68,170 @@ SOURCE...Radar indicated.
 IMPACT...Minor damage to outdoor objects is possible.
 
 Locations impacted include...
-Coon R
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:31AM MST until August 9 at 8:00PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.477ae79b842733b64569b031b2f15e2c525d0776.001.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions expected below 4500 feet, with
-daytime temperatures ranging from 95 to 105 degrees at Havasupai
-Gardens, 110 to 115 degrees at Phantom Ranch, and 102 to 106 at
-Page.
+Meno
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 9 at 4:29AM CDT until August 9 at 4:45AM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad8b2904d72fca29dc7cdf11679da4d2232f5087.001.1) — *2026-08-09*
+  > At 429 AM CDT, a severe thunderstorm was located near Redfield,
+moving southeast at 20 mph.
 
-* WHERE...Lower elevations of the Grand Canyon, and Marble and Glen
-Canyons; 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 2:29AM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae3f2e710f577eaf7df8ad4df690e73973ee64d1.001.1) — *2026-08-09*
-  > At 229 AM CDT, Doppler radar was tracking a line of strong
-thunderstorms extending from over Rice to 6 miles northwest of
-Zimmerman, or extending from 16 miles north of St. Cloud to 23 miles
-east of St. Cloud, moving east at 40 mph.
-
-HAZARD...Wind gusts up to 30 mph and penny siz
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 12:24AM PDT until August 9 at 10:00PM PDT by NWS Sacramento CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bffc84d3f4d58b9430869d0f0635c5fe06f30cf8.001.1) — *2026-08-09*
-  > * WHAT...High temperatures of 101 to 107 and low temperatures of 65
-to 80 expected, with Moderate to Major HeatRisk.
-
-* WHERE...The Sacramento and San Joaquin Valleys, Foothills, Coast
-Range, and Sierra north of Highway 50.
-
-* WHEN...Until 10 PM PDT this evening.
-
-* IMPACTS...ot 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 3:08AM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a708772ef5a447dbb665c45b86e26916ebee853c.001.1) — *2026-08-09*
-  > At 308 AM EDT, Doppler radar was tracking a strong thunderstorm 9
-miles north of Kingwood, moving east at 20 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
+HAZARD...Ping pong ball size hail and 60 mph wind gusts.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. M
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:04AM MST until August 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3f6ca301b9934c44092ca65ec195420088dd3df.002.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 106 to
-113. Major Heat Risk.
+IMPACT...People and animals outdoors will be injured. Expect hail
+damage to roofs, siding, windows, an
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 9 at 2:28AM PDT until August 10 at 10:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebc2f9e6c6b34cb8ce88748c4627042179c9f1d.002.1) — *2026-08-09*
+  > * WHAT...North winds 25 to 30 kt with gusts up to 40 kt and seas
+9 to 12 feet.
 
-* WHERE...Aguila Valley, Apache Junction/Gold Canyon, Cave Creek/New
-River, Fountain Hills/East Mesa, Gila Bend, Northwest Pinal County,
-Sonoran Desert Natl Monument, Tonopah Desert, and Wes
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:04AM MST until August 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3f6ca301b9934c44092ca65ec195420088dd3df.004.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 99 to
-111. Major Heat Risk.
+* WHERE...Waters from Cape Mendocino to Pt. Arena CA from 10 to
+60 nm.
 
-* WHERE...Chuckwalla Mountains, Chiriaco Summit, Joshua Tree NP East,
-and Joshua Tree NP West.
+* WHEN...Until 10 AM PDT Monday.
 
-* WHEN...Until 8 PM PDT this evening.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessels and r
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 9 at 2:28AM PDT until August 12 at 3:00AM PDT by NWS Eureka CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ebc2f9e6c6b34cb8ce88748c4627042179c9f1d.001.1) — *2026-08-09*
+  > * WHAT...North winds 20 to 30 kt with gusts up to 40 kt and seas
+9 to 12 feet.
 
-* IMPACTS...Heat related illnesses increase significantl
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:04AM MST until August 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3f6ca301b9934c44092ca65ec195420088dd3df.005.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 106 to
-115. Major Heat Risk.
+* WHERE...Waters from Pt. St. George to Cape Mendocino CA from
+10 to 60 nm.
 
-* WHERE...Imperial County Southeast, Imperial County Southwest,
-Imperial County West, Imperial Valley, and Salton Sea.
+* WHEN...Until 3 AM PDT Wednesday.
 
-* WHEN...Until 8 PM PDT this evening.
+* IMPACTS...Strong winds will cause hazardous seas which could
+capsize or damage vessel
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 3:27AM MDT until August 9 at 8:00PM MDT by NWS Denver CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d139b1b84b917e2a4417ec4f2edfd1d8be7b9fb1.001.1) — *2026-08-09*
+  > * WHAT...Hot temperatures ranging from 95 to 102 degrees.
 
-* IMPACTS...Heat related illnes
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:04AM MST until August 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3f6ca301b9934c44092ca65ec195420088dd3df.001.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 107 to
-113. Major Heat Risk.
+* WHERE...Denver metro, western suburbs of Denver, and portions of
+the Urban Corridor including Boulder.
 
-* WHERE...In Arizona, Central La Paz, Gila River Valley, Kofa, Parker
-Valley, Southeast Yuma County, and Yuma. In California, Chuckwalla
-Valley and Palo Verde Valley.
+* WHEN...Until 8 PM MDT this evening.
 
-* WHEN...Until 8 PM MS
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 12:04AM MST until August 9 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e3f6ca301b9934c44092ca65ec195420088dd3df.003.1) — *2026-08-09*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 109 to
-112. Major Heat Risk.
+* IMPACTS...Hot temperatures may cause heat illness.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 4:21AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5eb72408c756ba189ffaf21d1c93b82efc595ab1.001.1) — *2026-08-09*
+  > Patchy dense fog has developed across portions of the local area
+early this morning. Expect temporarily reduced visibilities as
+low as one quarter of a mile to be possible through 8 AM.
+Motorists should prepare for rapidly changing conditions and allow
+for extra time to reach the
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 3:18AM MDT until August 9 at 8:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.299a0850a87efa01188612b6d2c80b28de826039.002.1) — *2026-08-09*
+  > * WHAT...High temperatures from 102 to 108.
 
-* WHERE...Buckeye/Avondale, Central Phoenix, Deer Valley, East
-Valley, North Phoenix/Glendale, Northwest Valley,
-Scottsdale/Paradise Valley, South Mountain/Ahwatukee, and Southeast
-Valley/Qu
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:03AM CDT until August 10 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807933a83cf2e1d6900702e6f1d57cb2d1a3e2b7.003.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 105.
+* WHERE...Crowley, Otero, Prowers, and Bent Counties, including the
+cities of La Junta, Las Animas and Lamar.
 
-* WHERE...Christian, Shelby, Clark, Cumberland, Clay, Crawford,
-Effingham, Jasper, Lawrence, and Richland Counties.
+* WHEN...From noon today to 8 PM MDT this evening.
 
-* WHEN...From noon to 7 PM CDT Monday.
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 3:18AM MDT until August 10 at 7:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.299a0850a87efa01188612b6d2c80b28de826039.001.1) — *2026-08-09*
+  > * WHAT...High temperatures in El Paso and eastern Fremont Counties
+from 92 to 102, highs in Pueblo County from 97 to 105 on Sunday.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:03AM CDT until August 9 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807933a83cf2e1d6900702e6f1d57cb2d1a3e2b7.001.1) — *2026-08-09*
-  > * WHAT...Heat index values between 100 and 105.
+* WHERE...Pueblo, El Paso and eastern Fremont Counties, including the
+cities of Pueblo, Colorado Springs and Canon City.
 
-* WHERE...Mason, Menard, Sangamon, Cass, Fulton, Morgan, Schuyler,
-and Scott Counties.
+* WHEN...For the first He
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 3:18AM MDT until August 9 at 8:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.299a0850a87efa01188612b6d2c80b28de826039.001.2) — *2026-08-09*
+  > * WHAT...High temperatures in El Paso and eastern Fremont Counties
+from 92 to 102, highs in Pueblo County from 97 to 105 on Sunday.
 
-* WHEN...For the first Heat Advisory, from noon today to 7 PM CDT
-this evening. For the second Heat Advisory, from noon to 7 PM CDT
-Monday.
+* WHERE...Pueblo, El Paso and eastern Fremont Counties, including the
+cities of Pueblo, Colorado Springs and Canon City.
 
-* 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:03AM CDT until August 9 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807933a83cf2e1d6900702e6f1d57cb2d1a3e2b7.002.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 105.
+* WHEN...For the first He
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 9 at 4:16AM CDT until August 9 at 9:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.249294245e3d2dc683e2bd7df88f198eb39fe5f4.001.1) — *2026-08-09*
+  > * WHAT...Visibility of one-half mile or less in dense fog.
 
-* WHERE...Knox County.
+* WHERE...Benton TN, Carroll, Decatur, Gibson, Henderson, Henry,
+Obion, and Weakley Counties.
 
-* WHEN...From noon today to 7 PM CDT this evening.
+* WHEN...Until 9 AM CDT this morning.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:03AM CDT until August 10 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.807933a83cf2e1d6900702e6f1d57cb2d1a3e2b7.001.2) — *2026-08-09*
-  > * WHAT...Heat index values between 100 and 105.
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 4:15AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8588520b5da5eaa5662c4b19c8d7a487b6a84780.001.1) — *2026-08-09*
+  > Patchy fog, locally dense, will persist through mid-morning.
+The fog should lift by mid-morning. Due to the patchy nature of
+the fog, motorists should be prepared for rapid fluctuations in
+visibility.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 4:07AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b4bca444e8a6d05c93543ccdf265d79a3c36fb1.001.1) — *2026-08-09*
+  > Patchy fog, locally dense, will persist through mid-morning.
+The fog should lift by mid-morning. Due to the patchy nature of
+the fog, motorist should be prepared for rapid fluctuations in
+visibility.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 9 at 5:04AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96f849e3effa411c07ffe1333361880a17158715.001.1) — *2026-08-09*
+  > Webcams and surface observations show low clouds and patchy dense
+fog affecting portions of the area early this morning. Locations
+around Gainesville, Lake City, and northward to near Jesup,
+Georgia have reported visibility less than 1 mile.
 
-* WHERE...Mason, Menard, Sangamon, Cass, Fulton, Morgan, Schuyler,
-and Scott Counties.
+The nature of the fog is such that vi
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 9 at 3:42AM CDT until August 9 at 7:00AM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d653129f75644bdba740ae17e282cc096e739bc6.002.1) — *2026-08-09*
+  > SEVERE THUNDERSTORM WATCH 545 REMAINS VALID UNTIL 7 AM CDT THIS
+MORNING FOR THE FOLLOWING AREAS
 
-* WHEN...For the first Heat Advisory, from noon today to 7 PM CDT
-this evening. For the second Heat Advisory, from noon to 7 PM CDT
-Monday.
+IN SOUTH DAKOTA THIS WATCH INCLUDES 10 COUNTIES
 
-* 
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 9 at 12:55AM MDT until August 9 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1813304b8accf6aaadaa00d919f4a728e049f8ad.001.1) — *2026-08-09*
-  > * AFFECTED AREA:
-In Central WY Fire Zones...280...283...285...288...289...300.
-In North Central WY Fire Zones...275...276...281...282...287.
-In Northwest WY Fire Zones...140...286.
-In Southwest WY Fire Zones...277...279.
-In West Central WY Fire Zone....278.
+IN CENTRAL SOUTH DAKOTA
 
-* COUNTIES AFFECTED:
+HAND                  HYDE
 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 8 at 11:53PM PDT until August 10 at 8:00AM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.208b992fdfb12ac8371d1becdcc43754a4184cad.001.1) — *2026-08-08*
-  > * WHAT...High temperatures of 101 to 106 degrees with overnight lows
-of 67 to 74 degrees. Widespread Major HeatRisk with isolated
-Extreme HeatRisk in lower valleys.
+IN NORTH CENTRAL SOUTH DAKOTA
 
-* WHERE...Western Nevada Basin and Range including Pyramid Lake.
+FAULK
 
-* WHEN...Until 8 AM PDT Monday.
+IN NORTHEAST SOUTH DAKOTA
 
-* IMPACTS...Hea
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 8 at 11:53PM PDT until August 10 at 8:00AM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.208b992fdfb12ac8371d1becdcc43754a4184cad.002.1) — *2026-08-08*
-  > * WHAT...High temperatures of 97 to 102 degrees with overnight lows
-of 55 to 70 degrees. Widespread Moderate to Major HeatRisk.
+CLARK           
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 9 at 2:35AM MDT until August 9 at 9:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fcce36f96af1d988c091f304a74320029b46047c.001.1) — *2026-08-09*
+  > ...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT THIS EVENING
+FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES
+475 AND 476...
 
-* WHERE...In California, Lassen-Eastern Plumas-Eastern Sierra
-Counties and Surprise Valley California. In Nevada, Northern Washoe
-County and Greater Re
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 8 at 11:53PM PDT until August 10 at 8:00AM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.208b992fdfb12ac8371d1becdcc43754a4184cad.003.1) — *2026-08-08*
-  > * WHAT...High temperatures of 98 to 103 degrees with overnight lows
-of 63 to 73 degrees. Widespread Moderate to Major HeatRisk.
+* AFFECTED AREA...Fire Weather Zone 475 East Salmon River
+Mountains/Salmon NF and Fire Weather Zone 476 Lemhi and Lost
+River Range/Cha
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:14AM MDT until August 9 at 8:00PM MDT by NWS Albuquerque NM](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9a8ee39b00ccdb2831d54ebdb2cace524161418.001.1) — *2026-08-09*
+  > * WHAT...Temperatures from 100 to 102 expected.
 
-* WHERE...Mineral and Southern Lyon Counties.
+* WHERE...Northwest Plateau.
 
-* WHEN...Until 8 AM PDT Monday.
+* WHEN...From noon today to 8 PM MDT this evening.
 
-* IMPACTS...Heat related illnesses will be more likely, especially
-for 
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:51AM EDT until August 9 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3d5f2c427cc103cbccb73a90e8e3b4dcce0a12c.004.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 98 expected.
+* IMPACTS...Hot temperatures may cause heat illnesses.
 
-* WHERE...Bronx, Kings (Brooklyn), New York (Manhattan), Northern
-Queens, Richmond (Staten Island), and Southern Queens Counties.
+* ADDITIONAL DETAILS...The hottest temperatures in the low 100s will
+be along the San Juan Ri
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 1:04AM PDT until August 10 at 8:00PM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5d29109ec660f8bf3be1224cfea468fac6a5bc7.001.1) — *2026-08-09*
+  > * WHAT...Dangerously hot conditions with highs of 110 to 115 in the
+Las Vegas Valley, Pahrump, Moapa Valley, and the Colorado River
+Valley, and up to 120 in Death Valley. Warm overnight temperatures
+will result in little relief overnight.
 
-* WHEN...From 10 AM this morning to 7 PM EDT this evening.
+* WHERE...Lake Mohave, Lake Mead, Lower 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 1:04AM PDT until August 9 at 8:00PM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5d29109ec660f8bf3be1224cfea468fac6a5bc7.003.1) — *2026-08-09*
+  > * WHAT...Hot conditions expected with highs 80 to 90 degrees above
+8000 feet and 90 to 100 degrees below 8000 feet. This will result
+in Moderate Heat Risk.
 
-* IMPACTS...Hot temperatures and high humi
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:51AM EDT until August 9 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3d5f2c427cc103cbccb73a90e8e3b4dcce0a12c.001.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 97 expected.
+* WHERE...In California, Eastern Sierra Slopes and White Mountains of
+Inyo County. In Nevada, Sheep Range and Spring Mounta
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 9 at 1:04AM PDT until August 9 at 8:00PM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5d29109ec660f8bf3be1224cfea468fac6a5bc7.002.1) — *2026-08-09*
+  > * WHAT...Dangerously hot conditions with highs 110 to 120 degrees
+across the Mojave Desert. Highs 95 to 105 degrees across most of
+the southern Great Basin and Arizona Strip. Little to no overnight
+relief is expected, particularly in the Mojave Desert where lows of
+80 to 95 degre
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 9 at 2:03AM MDT until August 9 at 9:00PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9e3cdd9fdf6c422653a379ced44163503d8c1e0.001.1) — *2026-08-09*
+  > * AFFECTED AREA...Fire weather zones 417 through 433.
 
-* WHERE...Northern Fairfield, Northern Middlesex, Northern New Haven,
-Northern New London, Southern Fairfield, Southern Middlesex,
-Southern New Haven, and Southern New London Counties.
+* WIND...West to northwest winds from 15 to 25 mph with gusts up
+to 40 mph west of I-25, with shifting and much more variable
+winds expected east of I-25.
 
-* WHEN...From 10 AM this morning to 7 PM EDT th
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:51AM EDT until August 9 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3d5f2c427cc103cbccb73a90e8e3b4dcce0a12c.002.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 97 expected.
+* HUMIDITY...RH values between 8 and 14 percent.
 
-* WHERE...Eastern Bergen, Eastern Essex, Eastern Passaic, Eastern
-Union, Hudson, Western Bergen, Western Essex, and Western Union
-Counties.
+* ADDITIONAL DETAIL
 
-* WHEN...From 10 AM this morning to 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 9 at 2:51AM EDT until August 9 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3d5f2c427cc103cbccb73a90e8e3b4dcce0a12c.005.1) — *2026-08-09*
-  > * WHAT...Heat index values up to 100 expected.
-
-* WHERE...Northeast Suffolk, Northern Nassau, Northwest Suffolk,
-Southeast Suffolk, Southern Nassau, and Southwest Suffolk Counties.
-
-* WHEN...From 10 AM this morning to 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high 
-
-_(135 additional items in raw.jsonl)_
+_(143 additional items in raw.jsonl)_

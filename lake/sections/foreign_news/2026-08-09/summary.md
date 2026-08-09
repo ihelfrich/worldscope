@@ -2,45 +2,15 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-09
-record_count: 973
-new_today: 581
+record_count: 951
+new_today: 601
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-581 new of 973 total items today.
+601 new of 951 total items today.
 
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-09*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-09*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-09*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-09*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] Is football AI-proof? Why tech investors wanted a slice of the World Cup](https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss) — *2026-08-08*
-  > What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?
-- [[Global] How a 90-second power outage sparked chaos for rail commuters](https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > The incident raised questions about how a disrupted power supply can have such a widespread impact.
-- [[Global] Goodwin considers selling part of defence business](https://www.bbc.co.uk/news/articles/c20dgpl0z4jo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > The firm is a key supplier of components to UK and US frigate and submarine programmes.
-- [[Global] Surprise fall in US jobs last month as slow summer continues](https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > Analysts had expected an uptick in the number of jobs created, but the number of roles fell by 23,000 in July.
-- [[Global] Meta fined $567m in largest child safety ruling against social media giant](https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.
-- [[Global] Trump administration to pay German firm $1.2bn to halt US wind projects](https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.
-- [[Global] Trump imposes 15% tariff on key chip material to counter China](https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > The move  aims to protect US firms as they face increasing competition from China's chip industry.
-- [[Global] Shop selling second-hand school uniforms for £5](https://www.bbc.co.uk/news/articles/czxe31e3enqo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
-  > A charity for families facing poverty runs the swap shop for uniforms to help with the cost of living.
-- [[Global] Jeweller 'priced out' of Christmas market stall this year](https://www.bbc.co.uk/news/articles/c0qv4g4k4zpo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > Alex says a change in operator and rise in costs means this is the first winter she will not be renting a stall.
-- [[Global] Mums hope school uniform swap will help families](https://www.bbc.co.uk/news/articles/c5yrqr8npe9o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > Items were donated to the pair for a swap event held in Tavistock Library.
-- [[Global] What do people want from Argos?](https://www.bbc.co.uk/news/videos/clyj57g4kkeo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
-  > As Sainsbury agrees to sell Argos for £120m, we ask people if they still shop there, and what the new owners can do to compete with big online retailers like Amazon.
 - **NEW**  [[Global] Israel accused of weaponising archaeology at ancient West Bank sites](https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss) — *2026-08-08*
   > Israel is planning large-scale land expropriations in historic, Palestinian areas of the West Bank.
 - **NEW**  [[Global] Hundreds arrested over French wildfires, but who is to blame?](https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
@@ -61,5 +31,35 @@ state: fresh
   > Italy introduced border controls following an influx of about 78,000 migrants from  Morocco into the neighbouring Spanish exclave of Ceuta.
 - [[Global] Child among three killed in Russian missile attacks near Kyiv](https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
   > Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.
+- **NEW**  [[Global] Typhoon Dolphin batters Japan's Okinawa before bearing down on China](https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > The storm has cut power to at least 44,000 buildings and injured five people on the Japanese island.
+- **NEW**  [[Global] State of emergency declared as fast-moving Canada wildfire doubles in size](https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss) — *2026-08-09*
+  > The Bald Range wildfire in British Columbia, still considered "out of control", has spread over more than 36 sq miles (95 sq km).
+- [[Global] Thai PM vows to introduce stricter gun laws after eight killed in shooting](https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Eight people were killed when a 14-year-old opened fire at his home and school before shooting himself dead.
+- [[Global] Saudi Arabia, Turkey and Pakistan sign defence pact](https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.
+- [[Global] Spanish police arrest 78 people in bust of 'one of largest' smuggling networks](https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons.
+- **NEW**  [[Global] NBA forward Clarke's death due to effects of drugs](https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > Memphis Grizzlies forward Brandon Clarke's death was due to the effects of heroin and cocaine, the Los Angeles medical authority reveals.
+- **NEW**  [[Global] Hunter Biden tells BBC his pardon was 'not good' for US or his father's legacy](https://www.bbc.co.uk/news/articles/cy8ey458pv5o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > In a wide-ranging BBC interview, the former president's son denies any interest in running for office and says his father's cancer has spread.
+- [[Global] Book hidden in fireplace returned to Australian library 150 years overdue](https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > It is thought an apprentice stonemason who worked on the Houses of Parliament in London borrowed it.
+- [[Global] Kidnapped rare Serbian eagle freed into wild after rescue](https://www.bbc.co.uk/news/articles/cdewxgw69exo?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > Feliks the eagle was abducted as he first flew the nest in Serbia and wound up in the Middle East with poachers who demanded a ransom.
+- **NEW**  [[Global] Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope](https://www.bbc.co.uk/news/articles/c9q94lxqrzzo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > The country is home to some of the world's most unique species - but it is losing them at an alarming rate.
+- **NEW**  [[Global] How a schoolteacher's son became Kashmir's first India Test cricketer](https://www.bbc.co.uk/news/articles/c2elpkg1l0jo?at_medium=RSS&at_campaign=rss) — *2026-08-09*
+  > Auqib Nabi becomes Jammu and Kashmir's first cricketer to get India Test call-up, inspiring millions.
+- [[Global] The phone book that led us to Assad's spy chief in hiding](https://www.bbc.co.uk/news/articles/c4gyrzn8p94o?at_medium=RSS&at_campaign=rss) — *2026-08-07*
+  > How we tracked down "The Spider" who was once one of the most-feared men in Syria.
+- [[Global] 'I ran because I knew I would die': Russian drones target medics in Ukraine](https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.
+- [[Global] He's been frozen on Everest for 30 years, now 'Green Boots' may finally be coming home](https://www.bbc.co.uk/news/articles/cz05xn35xj7o?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > For decades, an Indian man's lime shoes have been a grim trail marker for many climbing the world's highest peak.
+- [[Global] Scale of devastation shocks US city's fire-seasoned residents](https://www.bbc.co.uk/news/articles/cvglpvgljzdo?at_medium=RSS&at_campaign=rss) — *2026-08-08*
+  > One Spokane resident tells the BBC she realised the immense danger when she heard the fire had jumped over the river.
 
-_(948 additional items in raw.jsonl)_
+_(926 additional items in raw.jsonl)_
