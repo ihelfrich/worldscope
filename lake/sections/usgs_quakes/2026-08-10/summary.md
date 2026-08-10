@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-10
-record_count: 15
-new_today: 15
+record_count: 16
+new_today: 16
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-15 new of 15 total items today.
+16 new of 16 total items today.
 
 - **NEW**  [M 5.5 - east central Pacific Ocean](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjj) — *2026-08-10*
   > M5.5 · east central Pacific Ocean · depth 10 km
@@ -23,6 +23,8 @@ state: fresh
   > M4.9 · 88 km ENE of Hihifo, Tonga · depth 10 km
 - **NEW**  [M 4.9 - 211 km SE of Sarangani, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjhn) — *2026-08-09*
   > M4.9 · 211 km SE of Sarangani, Philippines · depth 35 km
+- **NEW**  [M 4.8 - 80 km ESE of Isangel, Vanuatu](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjk6) — *2026-08-10*
+  > M4.8 · 80 km ESE of Isangel, Vanuatu · depth 10 km
 - **NEW**  [M 4.8 - 46 km WNW of Hicks Bay, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjz) — *2026-08-10*
   > M4.8 · 46 km WNW of Hicks Bay, New Zealand · depth 71.243 km
 - **NEW**  [M 4.8 - 7 km ESE of Mabini, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgd) — *2026-08-09*

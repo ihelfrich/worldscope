@@ -3,16 +3,18 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-08-10
 record_count: 776
-new_today: 504
+new_today: 510
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-504 new of 776 total items today.
+510 new of 776 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-08-10*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-08-10*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[FIRMS] thermal anomaly 52.805, 32.226 (FRP 0.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.226,52.805,9z) — *2026-08-09*
   > VIIRS S-NPP NRT, sat N, acquired 2026-08-09 0026Z, FRP 0.44 MW
 - [[FIRMS] thermal anomaly 52.847, 29.993 (FRP 3.22 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.993,52.847,9z) — *2026-08-09*
@@ -58,8 +60,6 @@ state: fresh
 - [[FIRMS] thermal anomaly 47.415, 33.538 (FRP 3.63 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.538,47.415,9z) — *2026-08-09*
   > VIIRS S-NPP NRT, sat N, acquired 2026-08-09 0028Z, FRP 3.63 MW
 - [[FIRMS] thermal anomaly 47.413, 33.529 (FRP 3.63 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.529,47.413,9z) — *2026-08-09*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-08-09 0028Z, FRP 3.63 MW
-- [[FIRMS] thermal anomaly 47.411, 33.536 (FRP 3.63 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.536,47.411,9z) — *2026-08-09*
   > VIIRS S-NPP NRT, sat N, acquired 2026-08-09 0028Z, FRP 3.63 MW
 
 _(751 additional items in raw.jsonl)_

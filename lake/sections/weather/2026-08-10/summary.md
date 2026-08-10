@@ -2,18 +2,135 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-10
-record_count: 132
-new_today: 103
+record_count: 131
+new_today: 105
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-103 new of 132 total items today.
+105 new of 131 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-32) — *2026-08-10*
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 4:29AM CDT until August 10 at 8:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.607183f6cfdbc5253a9a9d41f6ecdf3b4028f259.002.1) — *2026-08-10*
+  > * WHAT...Heat index values up to 107 expected.
+
+* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
+central, north central, northwest, southwest, and west central
+Mississippi.
+
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
+
+* IMPACTS...Hot temperatures
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 4:29AM CDT until August 10 at 8:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.607183f6cfdbc5253a9a9d41f6ecdf3b4028f259.001.1) — *2026-08-10*
+  > * WHAT...Heat index values up to 107 expected.
+
+* WHERE...Copiah, Hinds, Holmes, Madison MS, Yazoo, and Lincoln
+Counties.
+
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
+
+* ADDITIONAL DETAILS...
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 10 at 5:27AM EDT until August 10 at 6:15AM EDT by NWS Detroit/Pontiac MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2e601d49021823c2097a10b47932f0f65300812.001.1) — *2026-08-10*
+  > At 526 AM EDT, severe thunderstorms were located along a line
+extending from near Pinckney to near Tecumseh, moving east at 40 mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to roofs, siding, and trees.
+
+These severe storms will be near...
+De
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-5925) — *2026-08-10*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 2:23AM MDT until August 10 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ea079f0778d9fe2638213b45ffacd428360e4b3.004.1) — *2026-08-10*
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 10 at 2:24AM MST until August 10 at 10:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dffa09eb6f5227b4486af2a56d5e13401c9173a.001.1) — *2026-08-10*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...A portion of Southeast Arizona, including the following
+areas, Baboquivari Mountains, Catalina and Rincon Mountains, South
+Central Pinal County, Southeast Pinal County, Tohono O'odham
+Nation
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 5:09AM EDT by NWS Detroit/Pontiac MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0eb35889d6925ee706437dcc40b70794985c3ce.001.1) — *2026-08-10*
+  > At 509 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Brooklyn to near Onsted to near Clayton.
+Movement was east at 40 mph.
+
+HAZARD...Wind gusts up to 50 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knoc
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 5:08AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8d95c59c3b7c37ccc81c3026bb4441f18af5e63.001.1) — *2026-08-10*
+  > At 508 AM EDT, Doppler radar was tracking a strong thunderstorm over
+Wyoming, or near Grand Rapids, moving east at 30 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 5:03AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9fa0921c51d35cfbefa7b02163493639fbf45ca.001.1) — *2026-08-10*
+  > At 502 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 13 miles southeast of Frankfort to near Lebanon
+to 14 miles northwest of Brownsburg. Movement was southeast at 40
+mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 10 at 5:01AM EDT until August 10 at 5:30AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.138dcdeafe0c5c52bcd1e64a71f328e86c28e559.001.1) — *2026-08-10*
+  > SVRGRR
+
+The National Weather Service in Grand Rapids has issued a
+
+* Severe Thunderstorm Warning for...
+Eastern Jackson County in south central Michigan...
+
+* Until 530 AM EDT.
+
+* At 500 AM EDT, severe thunderstorms were located along a line
+extending from 6 miles southwest of St
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 10 at 3:59AM CDT until August 12 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.36957863cf1ec13f9e066cc8254808a8a99159a6.001.1) — *2026-08-10*
+  > * WHAT...Dangerously hot conditions with heat index values up to 108.
+
+* WHERE...In Kansas, Linn KS and Miami Counties. In Missouri, Cooper,
+Howard, Pettis, Saline, Bates, Cass, Henry, and Johnson MO
+Counties.
+
+* WHEN...Until 8 PM CDT Wednesday.
+
+* IMPACTS...Heat related illnesse
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 10 at 1:57AM PDT until August 10 at 8:00PM PDT by NWS Las Vegas NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8366fc4bb5ac814b6bb644f68770ce9697e30c91.001.1) — *2026-08-10*
+  > * WHAT...Dangerously hot conditions with highs of 110 to 115 in the
+Las Vegas Valley, Pahrump, Moapa Valley, and the Colorado River
+Valley, and up to 120 in Death Valley. Warm overnight temperatures
+will result in little relief overnight.
+
+* WHERE...Lake Mohave, Lake Mead, Lower 
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 10 at 1:55AM PDT until August 12 at 11:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ac51f619b11144397cd9334c2c5358299ea2643.001.1) — *2026-08-10*
+  > * WHAT...For the Gale Warning, north winds 25 to 35 kt with gusts
+up to 40 kt and seas 8 to 13 ft at 7 seconds. For the Small
+Craft Advisory, north winds 20 to 30 kt with gusts up to 35 kt
+and seas 6 to 9 ft at 7 seconds.
+
+* WHERE...Gales south of Port Orford and within 40 nm of 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 3:40AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc7ff7ae48dacd63f5132e75712ec5c716c7fe3a.001.1) — *2026-08-10*
+  > Locally dense fog has developed over parts of north-central
+Wisconsin early this morning. This fog is reducing visibilities to
+under one quarter mile in spots. The fog is expected to lift after
+7 AM.
+
+If you encounter dense fog while driving this morning, be sure to
+use your low-
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 2:23AM MDT until August 10 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ea079f0778d9fe2638213b45ffacd428360e4b3.001.1) — *2026-08-10*
   > The National Weather Service in Riverton has issued a Red Flag
 Warning, which is in effect from noon today to 9 PM MDT this
 evening.
@@ -21,7 +138,7 @@ evening.
 * IMPACTS: Low Humidities...Hot Temperatures...Strong Gusty
 Winds...and Dry Thunderstorms with gusty and erratic outflow
 winds could cause erratic
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 2:23AM MDT until August 10 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ea079f0778d9fe2638213b45ffacd428360e4b3.001.1) — *2026-08-10*
+- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 2:23AM MDT until August 10 at 9:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ea079f0778d9fe2638213b45ffacd428360e4b3.004.1) — *2026-08-10*
   > The National Weather Service in Riverton has issued a Red Flag
 Warning, which is in effect from noon today to 9 PM MDT this
 evening.
@@ -45,26 +162,6 @@ evening.
 * IMPACTS: Low Humidities...Hot Temperatures...Strong Gusty
 Winds...and Dry Thunderstorms with gusty and erratic outflow
 winds could cause erratic
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 10 at 4:16AM EDT until August 10 at 4:30AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff94df5e4a72ff972b77cbfb27358b6962582fb6.001.1) — *2026-08-10*
-  > At 415 AM EDT, severe thunderstorms were located along a line
-extending from near Delphi to 7 miles southeast of Lafayette to 9
-miles east of Williamsport, moving southeast at 30 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail dam
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 10 at 4:14AM EDT until August 10 at 5:15AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c2c3d71a2633f9c9debac641d6b8207b395fe28.001.1) — *2026-08-10*
-  > SVRIND
-
-The National Weather Service in Indianapolis has issued a
-
-* Severe Thunderstorm Warning for...
-Southern Tippecanoe County in west central Indiana...
-Clinton County in central Indiana...
-Central Boone County in central Indiana...
-Montgomery County in west central Indiana.
 - **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 10 at 4:11AM EDT until August 10 at 10:00AM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.898244a6f2f1b055c49878f4559742b22d63b8b1.001.1) — *2026-08-10*
   > * WHAT...Visibility of one quarter mile or less in areas of dense
 fog.
@@ -112,41 +209,6 @@ River Range/Challis NF.
 * HUMIDITY...As low as 10 percent.
 
 * IMPACTS...Wind reaching these speeds and humi
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 12:59AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aab6c75e588977a148a4b59593ed190d2e41aa2e.001.1) — *2026-08-10*
-  > At 1258 AM MST, Doppler radar was tracking a strong thunderstorm 12
-miles west of Bullard Peak, or 15 miles south of Alamo Lake, moving
-west at 10 mph.
-
-HAZARD...Wind gusts up to 50 mph and half inch hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree lim
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 10 at 12:54AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e76bde52044433880dc63e438b89297aa4c08de.001.1) — *2026-08-10*
-  > At 1254 AM MST, emergency management reported a strong thunderstorm 8
-miles south of Vicksburg Junction, or 44 miles west of Tonopah,
-moving west at 20 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph and pea size hail.
-
-SOURCE...Emergency management.
-
-IMPACT...Gusty winds could knock d
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 10 at 12:42AM MST until August 10 at 2:15AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9ba35a94e6093c2b8a36b50aa25e4fcdd578db1.001.1) — *2026-08-10*
-  > At 1242 AM MST, Doppler radar and automated rain gauges indicated
-thunderstorms producing heavy rain across the warned area. Between
-0.75 and 1.5 inches of rain have fallen. Additional rainfall amounts
-up to 0.1 inches are possible in the warned area. Flash flooding is
-ongoing or
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.001.1) — *2026-08-10*
-  > * WHAT...Heat index values up to 97.
-
-* WHERE...Southern Fairfield and Southern New Haven Counties.
-
-* WHEN...Until 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.002.1) — *2026-08-10*
   > * WHAT...Heat index values up to 98.
 
@@ -158,6 +220,15 @@ Counties.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.001.1) — *2026-08-10*
+  > * WHAT...Heat index values up to 97.
+
+* WHERE...Southern Fairfield and Southern New Haven Counties.
+
+* WHEN...Until 7 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.004.1) — *2026-08-10*
   > * WHAT...Heat index values up to 98.
 
@@ -168,74 +239,5 @@ Queens, Richmond (Staten Island), and Southern Queens Counties.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.005.1) — *2026-08-10*
-  > * WHAT...Heat index values up to 98.
 
-* WHERE...Northern Nassau, Northwest Suffolk, Southern Nassau, and
-Southwest Suffolk Counties.
-
-* WHEN...Until 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 10 at 3:35AM EDT until August 10 at 7:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec189e6db8f48707ee8d909e3f49240d08fe1a6d.003.1) — *2026-08-10*
-  > * WHAT...Heat index values up to 95.
-
-* WHERE...Northern Westchester, Rockland, and Southern Westchester
-Counties.
-
-* WHEN...Until 7 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 10 at 2:32AM CDT until August 10 at 7:00AM CDT by NWS Chicago IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e975c9f060e5d7489ecd908d1ac813d22748af1c.001.1) — *2026-08-10*
-  > * WHAT...Flooding caused by excessive rainfall is expected.
-
-* WHERE...Northeastern Livingston County in central Illinois...
-East Central La Salle County in north central Illinois...
-Southern Grundy County in northeastern Illinois...
-
-* WHEN...Until 700 AM CDT.
-
-* IMPACTS...Creek
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 10 at 12:30AM MST until August 10 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d9bc574de8c48855d7bdfa5465d7717176508c2.001.1) — *2026-08-10*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 107 to
-112 with apparent temperatures between 110 and 120 degrees. Major
-Heat Risk.
-
-* WHERE...In Arizona, Parker Valley and Yuma. In California,
-Chuckwalla Valley, Imperial County West, Imperial Valley, Palo
-Verde Valle
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 10 at 12:29AM MST until August 10 at 2:45AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a56d985239544c0e0da2919606c285d7cc1bea2.001.1) — *2026-08-10*
-  > FFWPSR
-
-The National Weather Service in Phoenix has extended the
-
-* Flash Flood Warning for...
-Maricopa County in south central Arizona...
-Pinal County in southeastern Arizona...
-
-* Until 245 AM MST.
-
-* At 1229 AM MST, gauge reports indicated thunderstorm runoff
-continuing to tra
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 1:14AM MDT until August 10 at 9:00PM MDT by NWS Rapid City SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66a40e778a67f4e13c3f34d25a5f9aed9cfe7280.001.1) — *2026-08-10*
-  > ...RED FLAG WARNING IN EFFECT FROM NOON TODAY TO 9 PM MDT THIS
-EVENING DUE TO GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FALL RIVER
-COUNTY AREA, NORTHERN CAMPBELL, SOUTHERN CAMPBELL, CROOK COUNTY
-PLAINS, AND WESTON COUNTY PLAINS...
-
-The National Weather Service in Rapid City SD ha
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued August 10 at 1:03AM MDT until August 10 at 9:00PM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88b8fc20efce9f253fe8857e753f10aaafb23866.001.1) — *2026-08-10*
-  > The National Weather Service in Cheyenne has issued a Red Flag
-Warning, which is in effect from noon today to 9 PM MDT this
-evening.
-
-* AFFECTED AREA...Fire weather zones 417 through 427.
-
-* WIND...West to northwest at 10 to 20 mph with gusts up to 35
-mph.
-
-* HUMIDITY...Between 9
-
-_(107 additional items in raw.jsonl)_
+_(106 additional items in raw.jsonl)_

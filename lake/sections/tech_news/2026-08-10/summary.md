@@ -2,14 +2,14 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-10
-record_count: 56
-new_today: 13
+record_count: 51
+new_today: 10
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-13 new of 56 total items today.
+10 new of 51 total items today.
 
 - **NEW**  [[The Hacker News] Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials](https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html) — *2026-08-10*
   > Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer.
@@ -22,16 +22,10 @@ The names of the extensions are below -
   > OpenAI has announced that it's pausing some "internal activities" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.
 
 In response to the discovery, the AI ups
-- **NEW**  [[The Register] Smart glasses are only smart if we train them to be good. Then they'll be fantastic](https://www.theregister.com/columnists/2026/08/10/smart-glasses-are-only-smart-if-we-train-them-to-be-good-then-theyll-be-fantastic/5284545) — *2026-08-10*
-  > Just add smart humans – and a pinch of dog
-- **NEW**  [[The Register] Demoralized developer's desperate hack came back to haunt him on LinkedIn](https://www.theregister.com/software/2026/08/10/demoralized-developers-desperate-hack-came-back-to-haunt-him-on-linkedin/5284476) — *2026-08-10*
-  > A script that shouldn't have worked, on a project that never ended, for a company that hardly cared
-- **NEW**  [[The Register] Linus Torvalds says AI has made 'huge' Linux kernel updates the new normal](https://www.theregister.com/os-platforms/2026/08/10/linus-torvalds-says-ai-has-made-huge-linux-kernel-updates-the-new-normal/5285268) — *2026-08-10*
-  > He’s not thrilled, but won’t let it delay the release of version 7.2
-- **NEW**  [[The Register] Advertisers are trying to influence AI bots with secret ads](https://www.theregister.com/ai-and-ml/2026/08/10/advertisers-are-trying-to-influence-ai-bots-with-secret-ads/5285093) — *2026-08-10*
-  > PLUS: Hiveminds are emerging to hack the planet, and open-weight models are the new new red scare.
-- **NEW**  [[The Register] NEC tests parking tech that only starts charging once you exit your car](https://www.theregister.com/software/2026/08/10/nec-tests-parking-tech-that-only-starts-charging-once-you-exit-your-car/5285245) — *2026-08-10*
-  > PLUS: Infosys to wear Crocs for a decade; Fujifilm may quit printers; 2GW datacenter debuts in western China; and more!
+- **NEW**  [[MIT Technology Review] AI for science needs reasoning, not just data](https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/) — *2026-08-10*
+  > Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the en
+- **NEW**  [[MIT Technology Review] These startups are chasing the next big thing in LLMs](https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/) — *2026-08-10*
+  > MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need
 - **NEW**  [[Ars Technica] Mount Toba eruption doesn't seem like it could nearly kill our species](https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/) — *2026-08-09*
   > The massive Toba eruption seems to have had little climate impact.
 - **NEW**  [[TechCrunch] Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry](https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/) — *2026-08-09*
@@ -72,5 +66,11 @@ The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, all
   > The National Rural Water Association and a group of cybersecurity experts have formed a program to help cash-strapped utilities face the increase in threats to their systems.
 - [[The Record] US cyber ambassador nominee Cassady confirmed in Senate](https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador) — *2026-08-07*
   > NTIA official Adam Cassady becomes the second person confirmed to be the State Department's ambassador-at-large for cyber policy.
+- [[The Record] New Mexico judge orders Meta to pay $567 million in kids online safety case](https://therecord.media/new-mexico-judge-orders-meta-567-million-kids-safety) — *2026-08-07*
+  > The money will be used to create a fund to mitigate social media harms, including by carving out $420 million for treatment for New Mexico youth who have been hurt on the platforms.
+- [[The Record] Military device manufacturer discloses cyber incident to SEC](https://therecord.media/military-device-manufacturer-discloses-cyber-incident) — *2026-08-07*
+  > IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.
+- [[The Record] Irregular, firm behind AI hacking incidents, won't say if there were more](https://therecord.media/irregular-ai-security-company-incidents) — *2026-08-07*
+  > A spokesperson said Irregular’s investigation into what happened with Anthropic, OpenAI and Meta's AI models was ongoing and that they could not “go into further details.”
 
-_(31 additional items in raw.jsonl)_
+_(26 additional items in raw.jsonl)_
