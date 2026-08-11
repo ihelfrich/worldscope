@@ -2,33 +2,33 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-08-11
-record_count: 241
-new_today: 207
+record_count: 243
+new_today: 214
 state: fresh
 ---
 
 ## Chinese Internal News
 
-207 new of 241 total items today.
+214 new of 243 total items today.
 
-- **NEW**  [China Takes World’s Fastest Train One Step Closer to Market - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-10*
+- **NEW**  [China Takes World’s Fastest Train One Step Closer to Market - Caixin Global](https://www.caixinglobal.com) — *2026-08-10*
   > <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnFfYzRyR1dmZ19NRTBCbUpYT0hGaDV1Y1VJRkFXRU11V0h2Ull2VlZYQzBMUG8walJ4UHBHcjZ0d0NxNzY2RnhWd3lmLXRqbXYzQzVqR1ZPbS05NS0zdDNHd2RrSGExU3E1SDVDcVNaYjBsWFZydEYwdWIxN3V3X0dmQTZLc0FjbWJpUTZuWFJuQS1BemRhUzYzWFpvbXhHc3g3ZHh6ZWliMm
-- **NEW**  [Cover Story: China’s Drive to Shore Up Social Security Funds Brings a Payroll Shock - caixinglobal.com](https://www.caixinglobal.com) — *2026-08-10*
+- [Cover Story: China’s Drive to Shore Up Social Security Funds Brings a Payroll Shock - Caixin Global](https://www.caixinglobal.com) — *2026-08-10*
   > <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbjdrWmNYcGdKQ0p0UnFYWkRiM3NGaTAyXzFGb3VMWnF5RUZpbXc0T2l2TFlCNjRBbFgzSWZWLWlRQkVSQnBZUWFGSUFuaFZhdjdDLUFIcHRUSkdzYUx0M1lHZ2NGRUNBUy14TkM0REpVTVc1VUxaR3RJSGVpX1VmTEVHcUotWGRYdkNZaU16LXFpX0w3eGlIdVNGTTV4RmhoTVJoZ3p4YUJsWG
-- [[TITLE: 被爆炒、高溢价 QDII、国投白银LOF明确被退市 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kRlJxWmRiUzZDak5CSmtGa2c5eU8yN2hvTVhsVVNHTmdJaV95MERtSWpmMHNSRllySlJoN3Y2aTU2SS1vWlBvY29kMXQ5] (zh: 被爆炒、高溢价 QDII、国投白银LOF明确被退市 - 财新)](https://finance.caixin.com) — *2026-08-09*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kRlJxWmRiUzZDak5CSmtGa2c5eU8yN2hvTVhsVVNHTmdJaV95MERtSWpmMHNSRllySlJoN3Y2aTU2SS1vWlBvY29kMXQ5RnBUVUdSRE84UVNueWxrd2tHZW1B?oc=5" target="_blank">被爆炒、高溢价 QDII、国投白银LOF明确被退市</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 反腐记｜宋致远被查 张建华领刑 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11YXBDM0UwcHFKWTh4N1ZCejlhQVNfWEN4S2x3bmY3am81VkVtZ2xvYmd1SHFUMjhhZF9wLVZiTXhmZ0hBWE5sbFBQ] (zh: 反腐记｜宋致远被查 张建华领刑 - china.caixin.com)](https://china.caixin.com) — *2026-08-09*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE11YXBDM0UwcHFKWTh4N1ZCejlhQVNfWEN4S2x3bmY3am81VkVtZ2xvYmd1SHFUMjhhZF9wLVZiTXhmZ0hBWE5sbFBQaHRGM2VsZzhSalhqWFFwYmpyWnFn?oc=5" target="_blank">反腐记｜宋致远被查 张建华领刑</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</font>
+- [[TITLE: 被爆炒、高溢价 QDII、国投白银LOF明确被退市 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kRlJxWmRiUzZDak5CSmtGa2c5eU8yN2hvTVhsVVNHTmdJaV95MERtSWpmMHNSRllySlJoN3Y2aTU2SS1vWlBvY29kMXQ5] (zh: 被爆炒、高溢价 QDII、国投白银LOF明确被退市 - 财新)](https://finance.caixin.com) — *2026-08-09*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kRlJxWmRiUzZDak5CSmtGa2c5eU8yN2hvTVhsVVNHTmdJaV95MERtSWpmMHNSRllySlJoN3Y2aTU2SS1vWlBvY29kMXQ5RnBUVUdSRE84UVNueWxrd2tHZW1B?oc=5" target="_blank">被爆炒、高溢价 QDII、国投白银LOF明确被退市</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 河南西平“7.30”刑案嫌犯落网 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxRzVoanN3dnJicGpYVFlqd1lGUmt0a1JkbzNYcGU4UDNINmNqalAwX2FrR1c5QWxjLTJFMFpVTExRbkw5Q0ZFYlF] (zh: 河南西平“7.30”刑案嫌犯落网 - china.caixin.com)](https://china.caixin.com) — *2026-08-09*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxRzVoanN3dnJicGpYVFlqd1lGUmt0a1JkbzNYcGU4UDNINmNqalAwX2FrR1c5QWxjLTJFMFpVTExRbkw5Q0ZFYlF2TzlhR2pVZll6S2dRcjVSX2cwX18w?oc=5" target="_blank">河南西平“7.30”刑案嫌犯落网</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</font>
 - [[TITLE: 财经早知道｜公积金最高可贷340万元，北京楼市新政超预期 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYcUc0aWM0TUVTVHVlc1ZlTlVJRUNiVlFXLUQwT1BxcmRxcldUOW5Sb1paQzZsUE40SFJRZURUeEdIdU0tbjVpNktRc] (zh: 财经早知道｜公积金最高可贷340万元，北京楼市新政超预期 - 财新)](https://finance.caixin.com) — *2026-08-09*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYcUc0aWM0TUVTVHVlc1ZlTlVJRUNiVlFXLUQwT1BxcmRxcldUOW5Sb1paQzZsUE40SFJRZURUeEdIdU0tbjVpNktRcUJyZ0VSZ0RtbENFNVJINmVyR3BNTVFn?oc=5" target="_blank">财经早知道｜公积金最高可贷340万元，北京楼市新政超预期</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- [[TITLE: 多家上市公司宣布：收到美国关税退税 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdjZzY1JTQ1AwYkc1bUc2b3FHLWU2eU1IYzllODBVZ0FFdVd5Y21vQmZpNlVWckN4X25QWDhBUHhzT3VVUGFlcUgtRFJ2V1lNdW1B] (zh: 多家上市公司宣布：收到美国关税退税 - 财新)](https://mini.caixin.com) — *2026-08-09*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdjZzY1JTQ1AwYkc1bUc2b3FHLWU2eU1IYzllODBVZ0FFdVd5Y21vQmZpNlVWckN4X25QWDhBUHhzT3VVUGFlcUgtRFJ2V1lNdW1Bc0p1RTdlT1RUelE?oc=5" target="_blank">多家上市公司宣布：收到美国关税退税</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 多家上市公司宣布：收到美国关税退税 - mini.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdjZzY1JTQ1AwYkc1bUc2b3FHLWU2eU1IYzllODBVZ0FFdVd5Y21vQmZpNlVWckN4X25QWDhBUHhzT3VVUGFlcUg] (zh: 多家上市公司宣布：收到美国关税退税 - mini.caixin.com)](https://mini.caixin.com) — *2026-08-09*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdjZzY1JTQ1AwYkc1bUc2b3FHLWU2eU1IYzllODBVZ0FFdVd5Y21vQmZpNlVWckN4X25QWDhBUHhzT3VVUGFlcUgtRFJ2V1lNdW1Bc0p1RTdlT1RUelE?oc=5" target="_blank">多家上市公司宣布：收到美国关税退税</a>&nbsp;&nbsp;<font color="#6f6f6f">mini.caixin.com</font>
 - [[TITLE: 最新封面报道｜夯实社保 - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4c0d1YnJla0E3VUNHSHN6YnFsSkRVWUZVRlpKMnNSWV9SaHZ1RUpEQWF2ZFRuLTh0ZW51b2JqdEJJYXM4dklBV2tEdl92MXQzMlMyTjRp] (zh: 最新封面报道｜夯实社保 - 财新周刊)](https://weekly.caixin.com) — *2026-08-11*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4c0d1YnJla0E3VUNHSHN6YnFsSkRVWUZVRlpKMnNSWV9SaHZ1RUpEQWF2ZFRuLTh0ZW51b2JqdEJJYXM4dklBV2tEdl92MXQzMlMyTjRpQ01XejRFMkQtcA?oc=5" target="_blank">最新封面报道｜夯实社保</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
-- [[TITLE: 7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WakZrY3JfSXA0WWdwRllVUWNDR2gyRWZFRWx0V1FNWUpjYm84VnZVVHBtYU5Sanp0UXItRWRJY1l3cFcwUkpI] (zh: 7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落 - 财新)](https://economy.caixin.com) — *2026-08-09*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WakZrY3JfSXA0WWdwRllVUWNDR2gyRWZFRWx0V1FNWUpjYm84VnZVVHBtYU5Sanp0UXItRWRJY1l3cFcwUkpIOWlVZXF4NUtSbVZUb29uYy1xekJiOE55RTRn?oc=5" target="_blank">7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</
+- **NEW**  [[TITLE: 7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落 - economy.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WakZrY3JfSXA0WWdwRllVUWNDR2gyRWZFRWx0V1FNWUpjYm84VnZVVHBtYU5Sanp0UXIt] (zh: 7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落 - economy.caixin.com)](https://economy.caixin.com) — *2026-08-09*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WakZrY3JfSXA0WWdwRllVUWNDR2gyRWZFRWx0V1FNWUpjYm84VnZVVHBtYU5Sanp0UXItRWRJY1l3cFcwUkpIOWlVZXF4NUtSbVZUb29uYy1xekJiOE55RTRn?oc=5" target="_blank">7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落</a>&nbsp;&nbsp;<font color="#6f6f6f">econ
 - [[TITLE: 最新财新周刊｜欧洲高温改变了什么？ - 财新周刊 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HLXRZVXRITzAzemNhYnk2MkIxdWhfekMxRzUyTUlsMTVwUGN0bUZSc3B3dWNZV0RzYkJGeEx5TE85blJJWkY1U3U3c1lIeDA4Sk] (zh: 最新财新周刊｜欧洲高温改变了什么？ - 财新周刊)](https://weekly.caixin.com) — *2026-08-10*
   > <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HLXRZVXRITzAzemNhYnk2MkIxdWhfekMxRzUyTUlsMTVwUGN0bUZSc3B3dWNZV0RzYkJGeEx5TE85blJJWkY1U3U3c1lIeDA4SkZtWXdxZ2pQdmZ1Yi1naA?oc=5" target="_blank">最新财新周刊｜欧洲高温改变了什么？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新周刊</font>
 - **NEW**  [[TITLE: Arm - deepview.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5YQlBQdWFheGN2cUMydGY4eXVNX3NsN0tnV3hHYkRZS1pqU0hCT0pVTmdub3dWLVJNXzRNczMtMlJGRE52YWVMZFJha3BkMGlGc] (zh: Arm - deepview.caixin.com)](https://deepview.caixin.com) — *2026-08-09*
@@ -53,13 +53,13 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2eS1XZlk3YnpsNFRZbVdna2xzUWxTSVFSSVlyVVpLa09yU08tUklqZkp4LU41ZFNVYk81UGN3ZXZqaUNCOFRGRGs3TmxkQXpsSGRhemNPRnQwNUl1WjRj?oc=5" target="_blank">中国一重原副总陆文俊 敛财6798万余元一审获刑15年</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.c
 - [[TITLE: 足浴店卖淫案牵出多名警员 有人当股东有人打招呼 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oQ0VlTkMza3E5Rk9haDlHR05RblV4ejVJUU82bV9zUlk3Z1M0d2dQdmdqLXpFcUtaVXkta1ZWWVNwUE9f] (zh: 足浴店卖淫案牵出多名警员 有人当股东有人打招呼 - china.caixin.com)](https://china.caixin.com) — *2026-08-10*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oQ0VlTkMza3E5Rk9haDlHR05RblV4ejVJUU82bV9zUlk3Z1M0d2dQdmdqLXpFcUtaVXkta1ZWWVNwUE9fXzdlYnJzdUtodGpFRFhHZVZiQWlkUGxJWC04?oc=5" target="_blank">足浴店卖淫案牵出多名警员 有人当股东有人打招呼</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</
-- [[TITLE: 全球最快动车组CR450列车完成60万公里运用考核 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZY28zZGFmMWU4ekFrNkhwZ0YwOTNGNmNCay1KbFZoblh4NFo3dG91anJjSDAxbjBxb3lXVDFRb2lyZXhEMV9GQmY5cERz] (zh: 全球最快动车组CR450列车完成60万公里运用考核 - 财新)](https://companies.caixin.com) — *2026-08-10*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZY28zZGFmMWU4ekFrNkhwZ0YwOTNGNmNCay1KbFZoblh4NFo3dG91anJjSDAxbjBxb3lXVDFRb2lyZXhEMV9GQmY5cERzdFg5Umw1eGFNaGVxUWYzaG1WUnJBYnk?oc=5" target="_blank">全球最快动车组CR450列车完成60万公里运用考核</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: Meta发布开源小模型Muse Glimmer 使用“蒸馏”训练 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MZkczLTMyR1JsT1RRVUh0Z1NNTUFpelFKaHh5cXNOY21KUnNtcktlVmM0dndkZkNtSHFrSGxIbVhIR1pGY0w0M] (zh: Meta发布开源小模型Muse Glimmer 使用“蒸馏”训练 - 财新)](https://companies.caixin.com) — *2026-08-11*
   > <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MZkczLTMyR1JsT1RRVUh0Z1NNTUFpelFKaHh5cXNOY21KUnNtcktlVmM0dndkZkNtSHFrSGxIbVhIR1pGY0w0MmJ6dnVBc1RXemM5YVRUQVl1dXU4Ri1aM2NHWXhyNjA?oc=5" target="_blank">Meta发布开源小模型Muse Glimmer 使用“蒸馏”训练</a>&nbsp;&nbsp;<font color="#6f6f6f
 - **NEW**  [[TITLE: 人事观察｜曾参与汶川、玉树地震救灾 孙硕鹏任民政部副部长 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6czMwQ2VXMHV6YjEzR2dkSmhHTnU0Y1NFOHNKU2VRRzk0TDU2bGlzUjk0TndxUUYwRjFZUDVzYUx] (zh: 人事观察｜曾参与汶川、玉树地震救灾 孙硕鹏任民政部副部长 - china.caixin.com)](https://china.caixin.com) — *2026-08-10*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6czMwQ2VXMHV6YjEzR2dkSmhHTnU0Y1NFOHNKU2VRRzk0TDU2bGlzUjk0TndxUUYwRjFZUDVzYUxsQ1hjT0IxSWdoUGlZWVlhYlVBOHV1Y2NpdU80cW8w?oc=5" target="_blank">人事观察｜曾参与汶川、玉树地震救灾 孙硕鹏任民政部副部长</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.
-- **NEW**  [[TITLE: 泰国校园枪击案致枪手在内9人死亡 警方认为作案动机复杂 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE54aUQxM1J3dEN1c1lfb3RpdVd3X05uWkFCcGhoT3E3d2I1OGpVdEpjQUxUTzFLYmhoRG5tR0dtQ181Wm9MLXF0eUstOX] (zh: 泰国校园枪击案致枪手在内9人死亡 警方认为作案动机复杂 - 财新)](https://international.caixin.com) — *2026-08-10*
-  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE54aUQxM1J3dEN1c1lfb3RpdVd3X05uWkFCcGhoT3E3d2I1OGpVdEpjQUxUTzFLYmhoRG5tR0dtQ181Wm9MLXF0eUstOXBpbUN5UV84U3BhLUEtUzZaZ2otMDFndjRJbGxaTVE?oc=5" target="_blank">泰国校园枪击案致枪手在内9人死亡 警方认为作案动机复杂</a>&nbsp;&nbsp;<font color="#6f6f6f"
+- **NEW**  [[TITLE: 虚假招工套路多：面试、协议、实习都是假的 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PRG5mcGdXM25EMG1GaHBQZzZMei1odElZQ1BnWHFFUkZRckJaNXRkODdFdFRWeENtdHJJeWNteWFWSWVJR1J] (zh: 虚假招工套路多：面试、协议、实习都是假的 - china.caixin.com)](https://china.caixin.com) — *2026-08-11*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PRG5mcGdXM25EMG1GaHBQZzZMei1odElZQ1BnWHFFUkZRckJaNXRkODdFdFRWeENtdHJJeWNteWFWSWVJR1JKd0dxeHZZMkdiSEczVTZ1dHhkRFMyaUsw?oc=5" target="_blank">虚假招工套路多：面试、协议、实习都是假的</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</fon
+- [[TITLE: 全球最快动车组CR450列车完成60万公里运用考核 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZY28zZGFmMWU4ekFrNkhwZ0YwOTNGNmNCay1KbFZoblh4NFo3dG91anJjSDAxbjBxb3lXVDFRb2lyZXhEMV9GQmY5cERz] (zh: 全球最快动车组CR450列车完成60万公里运用考核 - 财新)](https://companies.caixin.com) — *2026-08-10*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZY28zZGFmMWU4ekFrNkhwZ0YwOTNGNmNCay1KbFZoblh4NFo3dG91anJjSDAxbjBxb3lXVDFRb2lyZXhEMV9GQmY5cERzdFg5Umw1eGFNaGVxUWYzaG1WUnJBYnk?oc=5" target="_blank">全球最快动车组CR450列车完成60万公里运用考核</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(216 additional items in raw.jsonl)_
+_(218 additional items in raw.jsonl)_

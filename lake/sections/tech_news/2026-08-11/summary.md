@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-11
 record_count: 55
-new_today: 35
+new_today: 38
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-35 new of 55 total items today.
+38 new of 55 total items today.
 
 - **NEW**  [[The Hacker News] Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine](https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html) — *2026-08-11*
   > Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.
@@ -29,6 +29,14 @@ The plant supplies heat to roughly 50,000 residents. Recove
   > Solves tech support tickets faster and more accurately by keeping them away from LLMs
 - **NEW**  [[The Register] Anthropic pledges to embed watermarks to help discern AI slop in sop to EU](https://www.theregister.com/ai-and-ml/2026/08/11/anthropic-pledges-to-embed-watermarks-to-help-discern-ai-slop-in-sop-to-eu/5285792) — *2026-08-11*
   > EU rules cited as reason for effort to trace AI output ancestry
+- **NEW**  [[Computer Weekly] Nearly 60% of people regretted taking social media financial advice](https://www.computerweekly.com/news/366648053/Nearly-60-of-people-regretted-taking-social-media-financial-advice) — *2026-08-11*
+  > &lt;p&gt;An average of £3,000 was lost by people as a result of financial investment fraud via social media platforms, according to a TSB survey. The warning comes as more people use unregulated advice via tech platforms and artificial intelligence (AI).&lt;/p&gt; 
+&lt;p&gt;The f
+- **NEW**  [[Computer Weekly] Why the next AI race will be won at the inference layer](https://www.computerweekly.com/news/366648013/Why-the-next-AI-race-will-be-won-at-the-inference-layer) — *2026-08-11*
+  > &lt;p&gt;As enterprises transition generative artificial intelligence (GenAI) from pilot projects to production systems, attention is shifting from training large language models (LLMs) to managing the growing cost and complexity of inference.&lt;/p&gt; 
+&lt;p&gt;According to a r
+- **NEW**  [[Computer Weekly] Gartner: Why cyber security must shift to outcomes against AI-led attacks](https://www.computerweekly.com/news/366646658/Gartner-Why-cybersecurity-must-shift-to-outcomes-against-AI-led-attacks) — *2026-08-11*
+  > &lt;p&gt;As frontier artificial intelligence (AI) models become capable of reasoning across increasingly complex environments, the gap between &lt;a href="https://www.computerweekly.com/opinion/Stop-debating-frontier-AI-start-defending-against-it"&gt;discovering a vulnerability a
 - **NEW**  [[TechCrunch] OpenAI reportedly completed a $7 billion employee tender offer](https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/) — *2026-08-11*
   > San Francisco's housing market is in trouble again.
 - **NEW**  [[BleepingComputer] Hackers breached a small Polish energy plant via private APN last year](https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/) — *2026-08-10*
@@ -65,12 +73,5 @@ That pretty much covers the mood this week. Old bugs are back, supply chains are
   > Justin Swaddle, of Leeds in northern England, targeted 117 female victims aged 13 to 17, according to the National Crime Agency.
 - **NEW**  [[Cybersecurity Dive] Civil-society initiative will pay cybersecurity vendors to protect rural water systems](https://www.cybersecuritydive.com/news/water-cybersecurity-mdr-services-def-con-franklin/827449/) — *2026-08-10*
   > The group is seeking philanthropic grants, but its founder said the federal government ultimately needs to step in.
-- **NEW**  [[Schneier on Security] Python Now Has a Post-Quantum Encryption Library](https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html) — *2026-08-10*
-  > This is good:
-Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature prim
-- **NEW**  [[Ars Technica] Ars Live: Ross Scott discusses the Stop Killing Games movement](https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/) — *2026-08-10*
-  > Our discussion takes place live on August 11 at 3 pm ET.
-- **NEW**  [[Ars Technica] With new open models, Meta pitches another reboot of its struggling AI strategy](https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/) — *2026-08-10*
-  > Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.
 
 _(30 additional items in raw.jsonl)_

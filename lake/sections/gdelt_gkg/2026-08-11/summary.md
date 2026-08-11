@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-11
-record_count: 50
-new_today: 50
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-50 new of 50 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Niedrigwasser am Rhein macht Tanken teurer](https://www.az-online.de/wirtschaft/niedrigwasser-am-rhein-macht-tanken-teurer-zr-94437654.html) — *2026-08-11*
-  > az-online.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Правительство продлило сниженный норматив продаж бензина на бирже](https://1prime.ru/20260811/benzin-872182359.html) — *2026-08-11*
-  > 1prime.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] DBH Kab . Tanjung Jabung Barat 2026 Tembus Rp173 , 64 Miliar , Penyalurannya Lampaui Rata - rata Nasional](https://batam.tribunnews.com/news/692376/dbh-kab-tanjung-jabung-barat-2026-tembus-rp17364-miliar-penyalurannya-lampaui-rata-rata-nasional) — *2026-08-11*
-  > batam.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Gino Oliva e la svolta nella nuova fotografia : una mostra sulle tappe della rivoluzione](https://www.ilgazzettino.it:443/nordest/treviso/gino_oliva_fotografia_mostra_12_settembre_15_novembre_castelfranco-9701310.html) — *2026-08-11*
-  > ilgazzettino.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Benzín a nafta opäť zdraželi : Čo čaká slovenských vodičov ? ](https://www.cas.sk/spravy/motoristi-maju-hlavy-v-smutku-ceny-paliv-v-europe-lamu-rekordy-aky-vyvoj-mozeme-ocakavat) — *2026-08-11*
-  > cas.sk · Slovak · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] ВС РФ поразили в Киеве терминал « Новой почты » с товарами двойного назначения](https://news.mail.ru/society/71949923/) — *2026-08-11*
-  > news.mail.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Colombia searches for missing after powerful earthquake kills at least 111](https://www.somersetcountygazette.co.uk/news/national/26452627.colombia-searches-missing-powerful-earthquake-kills-least-111/) — *2026-08-11*
-  > somersetcountygazette.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Empresas adelantan compras de regalos corporativos para reducir costos y proteger liquidez](https://nuevaprensa.web.ve/empresas-adelantan-compras-de-regalos-corporativos-para-reducir-costos-y-proteger-liquidez/) — *2026-08-11*
-  > nuevaprensa.web.ve · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Sensex slides 449 pts ; metal shares decline](https://www.business-standard.com/markets/capital-market-news/sensex-slides-449-pts-metal-shares-decline-126081100769_1.html) — *2026-08-11*
-  > business-standard.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Iran - U . S . Updates : Trump claims control of Strait of Hormuz , demands compensation from Iran as stalemate deepens](https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/) — *2026-08-11*
-  > cbsnews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] На Алтае появится чат - бот с информацией о наличии топлива](https://1prime.ru/20260811/altaj-872184627.html) — *2026-08-11*
-  > 1prime.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Jetour T1 за 4 , 4 млн рублей : чем удивила самая дорогая версия популярного кроссовера в РФ](https://www.pravda.ru/news/auto/2387355-jetour-t1-limited-edition/) — *2026-08-11*
-  > pravda.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] eKyc : ఆగస్ట్ 16 నుంచి వారి ఎల్పీజీ గ్యాస్ కనెక్షన్లు రద్దు ..! ](https://vaartha.com/national/lpg-gas-connection-ekyc-deadline-august-16-rules-and-details/758467/) — *2026-08-11*
-  > vaartha.com · Telugu · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Франция и Испания оказались под прицелом критики за рост импорта российского СПГ](https://www.pravda.ru/economics/2387350-eu-russian-lng-imports/) — *2026-08-11*
-  > pravda.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]  „ Als Träger : Menschenhaar wird zur Barriere gegen Meeresverschmutzung](http://www.come-on.de/deutschland-welt/ungewoehnlich-menschenhaar-barriere-gegen-meeresverschmutzung-plastik-oel-ozean-zr-94436664.html) — *2026-08-11*
-  > come-on.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Армія РФ втратила на війні проти України ще 1190 військових і два засоби ППО](https://www.ukrinform.ua/rubric-ato/4153009-armia-rf-vtratila-na-vijni-proti-ukraini-se-1190-vijskovih-i-dva-zasobi-ppo.html) — *2026-08-11*
-  > ukrinform.ua · Ukrainian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump scoffs at Iran demand for war reparations and other Mideast developments](http://www.rockymounttelegram.com/news/national/trump-scoffs-at-irans-demand-for-war-reparations-and-other-mideast-developments/article_b4a0a04e-7acc-5a44-92bc-12e720750f92.html) — *2026-08-11*
-  > rockymounttelegram.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 银盛泛美7 . 07亿摘得顺义后沙峪宅地 ， 龙湖龙智造确定代建代销 ！ ](https://www.163.com/dy/article/L42FHMPJ05567UMA.html) — *2026-08-11*
-  > 163.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Война , 11 августа . Минус воронежский Wildberries , удары по двум дальним НПЗ . Страшная ночь в Запорожье и не только](http://gazetaby.com/post/vojna-11-avgusta-minus-voronezhskij-wildberries-udary-po-dvum-dalnim-n/215745/) — *2026-08-11*
-  > gazetaby.com · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Borse caute con focus su Hormuz e tassi . Oro tocca i massimi da due mesi](https://www.ilsole24ore.com/art/borse-cinesi-miste-e-hong-kong-calo-mentre-si-allontana-riapertura-hormuz-AJczNsj) — *2026-08-11*
-  > ilsole24ore.com · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] ERAM Holdings Appoints Alok Kumar as CEO to Lead Human Capital Management Business in India](https://www.business-standard.com/content/press-releases-ani/eram-holdings-appoints-alok-kumar-as-ceo-to-lead-human-capital-management-business-in-india-126081100623_1.html) — *2026-08-11*
-  > business-standard.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Österreichs Wirtschaft stagniert : WIFO sieht nur schmale Erholung](https://kurier.at/wirtschaft/wifo-wirtschaft-stagnation-oesterreich-konsum-wachstum-industrie/403182578) — *2026-08-11*
-  > kurier.at · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Oil prices surge as Trump , Iran demands cloud Hormuz deal](https://tradearabia.com:443/News/466420/Oil-prices-surge-as-Trump-Iran-demands-cloud-Hormuz-deal) — *2026-08-11*
-  > tradearabia.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] El petróleo podría dispararse hacia 120 - 140 dólares si el bloqueo de Ormuz se prolonga](https://www.bolsamania.com/capitalbolsa/noticias/materias-primas/el-petroleo-podria-dispararse-hacia-120-140-dolares-si-el-bloqueo-de-ormuz-se-prolonga--23233923.html) — *2026-08-11*
-  > bolsamania.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Nur 5 Minuten pro Tag : Diese einfache Haar - Routine sollten Sie sich angewöhnen](https://www.chip.de/news/gesundheit-fitness/nur-5-minuten-pro-tag-diese-einfache-haar-routine-sollten-sie-sich-angewoehnen_22260c31-7d13-4904-b33b-ae64d8a7555b.html) — *2026-08-11*
-  > chip.de · German · tone NA
-
-_(25 additional items in raw.jsonl)_
+- **NEW**  [[Russia oil sanctions perimeter · themes] Трампа таємно доправили на навантажувачі до літака після саміту НАТО в Туреччині через потенційні загрози з боку Ірану – ЗМІ](https://interfax.com.ua/news/general/1192292.html) — *2026-08-11*
+  > interfax.com.ua · Ukrainian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 11 أغسطس 2026 .. أسعار الذهب تقفز 125 جنيها وعيار 21 يسجل 6250 جنيها](https://www.shorouknews.com/news/view.aspx?cdate=11082026&id=9f7d77a9-0feb-4826-abda-4013a56fae9f) — *2026-08-11*
+  > shorouknews.com · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ukraine greift 2 . 500 Kilometer hinter der Front an : Raffinerie beschädigt](http://www.schwaebische-post.de/welt/politik/ukraine-greift-500-kilometer-hinter-der-front-an-raffinerie-beschaedigt-krieg-russland-zr-94437936.html) — *2026-08-11*
+  > schwaebische-post.de · German · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Libya oil refinery fire : Firefighters battle huge blaze after drone attack](https://www.bbc.co.uk/news/articles/cp308z9pl30o) — *2026-08-11*
+  > bbc.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Πετρελαιοκηλίδα 400 τετρ . χιλιομέτρων απειλεί θαλάσσιο καταφύγιο](https://www.kerkida.net/epikairotita/petrelaiokilida-400-tetr-hiliometron-apeilei-thalassio-katafygio) — *2026-08-11*
+  > kerkida.net · Greek · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Devizapiac Augusztus 10 . – Az euró és a dollár kiütötte a forintot](https://tozsdeforum.hu/gazdasag/deviza/devizapiac-augusztus-11-nem-birja-a-forint-az-tempot-az-euro-es-a-dollar-elindult-felfele/) — *2026-08-11*
+  > tozsdeforum.hu · Hungarian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Pojačan intenzitet saobraćaja , danas zatvoren i put Mateševo – Andrijevica :: Servisne informacije :: RTCG - Radio Televizija Crne Gore](https://rtcg.me/vijesti/servisne-informacije/872303/pojacan-intenzitet-saobracaja-danas-zatvoren-i-put-matesevoandrijevica.html) — *2026-08-11*
+  > rtcg.me · Bosnian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] استهداف مستودع الزاوية النفطي .. حريق يهدد إمدادات الوقود والمنشآت الحيوية](https://www.libyaakhbar.com/libya-news/2852612.html) — *2026-08-11*
+  > libyaakhbar.com · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]   白海豚  深入内陆 未来降雨范围还将北扩 _ 央广网](https://news.cnr.cn/native/gd/20260811/t20260811_527757850.shtml) — *2026-08-11*
+  > news.cnr.cn · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Todo lo que necesitas para hacer repostería en casa : 8 utensilios de WMF perfectos elaborar recetas dulces en cuestión de minutos](https://www.mundodeportivo.com/elrecomendador/hogar/20260811/1004209433/necesitas-reposteria-casa-8-utensilios-wmf-perfectos-elaborar-recetas-dulces-cuestion-minutos-mkt-wmf-amz.html) — *2026-08-11*
+  > mundodeportivo.com · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ra quân giải tỏa vi phạm trong phạm vi bảo vệ công trình thủy lợi hồ Đồng Đò](https://baomoi.com/ra-quan-giai-toa-vi-pham-trong-pham-vi-bao-ve-cong-trinh-thuy-loi-ho-dong-do-c55809676.epi) — *2026-08-11*
+  > baomoi.com · Vietnamese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Colombia searches for missing after powerful earthquake kills at least 111](https://www.harrowtimes.co.uk/news/national/26452627.colombia-searches-missing-powerful-earthquake-kills-least-111/) — *2026-08-11*
+  > harrowtimes.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Rama i përgjigjet Beogradit : Kosova nuk është territor serb , burimet natyrore nuk janë të Serbisë](https://kallxo.com/lajm/rama-i-pergjigjet-beogradit-kosova-nuk-eshte-territor-serb-burimet-natyrore-nuk-jane-te-serbise/) — *2026-08-11*
+  > kallxo.com · Albanian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Trump scoffs at Iran demand for war reparations and other Mideast developments](https://www.union-bulletin.com/news/national/trump-scoffs-at-irans-demand-for-war-reparations-and-other-mideast-developments/article_1087801a-a97b-50df-8d22-86f904aa96ba.html) — *2026-08-11*
+  > union-bulletin.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Großbritannien : Schlimmste Ernährungskrise seit Jahrzehnten droht](https://www.kreiszeitung.de/politik/grossbritannien-steht-vor-der-schlimmsten-ernaehrungskrise-seit-jahrzehnten-zr-94437859.html) — *2026-08-11*
+  > kreiszeitung.de · German · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Bitcoin Prognose am 10 . August 2026 , warum 853 Millionen Dollar in den ETFs den BTC Kurs kaum bewegen](https://www.wallstreet-online.de/nachricht/21228468-bitcoin-prognose-10-august-2026-853-millionen-dollar-etfs-btc-kurs-bewegen) — *2026-08-11*
+  > wallstreet-online.de · German · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Gurih Merdeka ! Resep Tahu Bakso Merah Putih untuk Sajian 17 Agustus , Bisa Jadi Ide Jualan & Camilan](https://aceh.tribunnews.com/lifestyle/1038260/gurih-merdeka-resep-tahu-bakso-merah-putih-untuk-sajian-17-agustus-bisa-jadi-ide-jualan-camilan) — *2026-08-11*
+  > aceh.tribunnews.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 金價盤中登4400美元 銀樓牌價寫2個月新高 | 金融](https://news.ustv.com.tw/newsdetail/20260811A048?newsall=true&type=144) — *2026-08-11*
+  > news.ustv.com.tw · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Iran will not reopen Strait of Hormuz without US concessions](https://navhindtimes.in/worldnews/iran-will-not-reopen-strait-of-hormuz-without-us-concessions/) — *2026-08-11*
+  > navhindtimes.in · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Водолазы у тонущего ресторана Aquarel Hall на набережной Макарова - 11 августа 2026](https://www.fontanka.ru/2026/08/11/76581555/) — *2026-08-11*
+  > fontanka.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] El Gobierno descarta dar un  no  a la planta de SAIC en Ferrol por la seguridad nacional y le pondrá condiciones](https://www.informacion.es/economia/2026/08/11/gobierno-compatibilidad-planta-saic-seguridad-nacional-defensa-ferrol-133255947.html) — *2026-08-11*
+  > informacion.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Najbolje i najjednostavnije pržene lignje prema starom receptu](https://www.index.hr/food/clanak/najbolje-i-najjednostavnije-przene-lignje-prema-starom-receptu/2822613.aspx?index_tid=1118093&index_ref=naslovnica_magazin_najnovije_d) — *2026-08-11*
+  > index.hr · Croatian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] İran gaz tesisi vurgunda üretim kapasitesi düştü](https://www.haberler.com/guncel/iran-petrol-bakanligi-aseluye-deki-tesiste-gunluk-20134928-haberi/) — *2026-08-11*
+  > haberler.com · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 欧洲持续干旱多瑙河水位大降 二战德国沉船遗骸重见天日](https://finance.sina.com.cn/tech/discovery/2026-08-11/doc-inimxrnp4314853.shtml) — *2026-08-11*
+  > finance.sina.com.cn · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]  「 みちびき7号機 」 成功も他国に依存しない日本版GPSは遠く 昨年の打ち上げ失敗が痛手](https://www.sankei.com/article/20260811-24P465MYN5JEZLJNSFCWFZFZ7A/) — *2026-08-11*
+  > sankei.com · Japanese · tone NA

@@ -2,63 +2,42 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-11
-record_count: 971
-new_today: 733
+record_count: 980
+new_today: 753
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-733 new of 971 total items today.
+753 new of 980 total items today.
 
-- **NEW**  [[Global] Why a soccer field in one German city may become a flood zone](https://www.dw.com/en/why-a-soccer-field-in-one-german-city-may-become-a-flood-zone/a-78278373?maca=en-rss-en-top-1022-rdf) — *2026-08-11*
-  > Western Europe has recorded its hottest-ever June and July, and extreme weather from wildfires to storms are here to stay. How can we adapt to what seems to be the new normal? Cities like Kiel in Germany are trying.
-- **NEW**  [[Global] India news: Jharkhand student leader hospitalized after police use force](https://www.dw.com/en/india-news-jharkhand-student-leader-hospitalized-after-police-use-force/live-78314106?maca=en-rss-en-top-1022-rdf) — *2026-08-11*
-  > Devendra Nath Mahto joined a march to the state Assembly despite being on a nine-day hunger strike. The CJP denounced the police use of tear gas, batons and water cannons against protesters as "inhuman." DW has more.
-- **NEW**  [[Global] Germany news: Rhine levels could cause production cuts](https://www.dw.com/en/germany-news-rhine-levels-could-cause-production-cuts/live-78313874?maca=en-rss-en-top-1022-rdf) — *2026-08-11*
-  > The summer heat is not only causing water levels in Germany's key river arteries to drop to dangerously low levels, but also contributing to wildfires in several areas. Follow DW for more.
-- **NEW**  [[Global] Middle East: Trump took secret flight out of Turkey over Iran threat](https://www.dw.com/en/middle-east-trump-took-secret-flight-out-of-turkey-over-iran-threat/live-78313883?maca=en-rss-en-top-1022-rdf) — *2026-08-11*
-  > President Donald Trump reportedly used an elaborate ruse to leave the NATO summit in Turkey, amid a credible assassination threat. Meanwhile, oil prices rose as hopes for a deal on the Strait of Hormuz fade. DW has more.
-- **NEW**  [[Global] Trump pushes overhaul of US policy on vaccines for children](https://www.dw.com/en/trump-pushes-overhaul-of-us-policy-on-vaccines-for-children/a-78313546?maca=en-rss-en-top-1022-rdf) — *2026-08-11*
-  > In an executive order, President Trump calls for fewer recommended childhood vaccinations and more spacing between shots. Medical experts say the changes lack scientific backing and could leave children less protected.
-- **NEW**  [[Global] Turkey MPs back historic law on reintegrating PKK militants](https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Turkey's parliament has taken a major step toward ending four decades of conflict with the PKK. The new law sets out how some militants can return to civilian life, but leaves Abdullah Ocalan's future unresolved.
-- **NEW**  [[Global] Russia: Top court bans opposition anti-war party from vote](https://www.dw.com/en/russia-top-court-bans-opposition-anti-war-party-from-vote/a-78313252?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Yabloko, Russia's only anti-war party, has been barred from September's parliamentary elections. The motion to bar Yabloko was filed by the nationalist pro-Kremlin party Rodina.
-- **NEW**  [[Global] Colombia earthquake: Death toll rises to over 100](https://www.dw.com/en/colombia-earthquake-death-toll-rises-to-over-100/a-78307841?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > A powerful earthquake, measured at magnitude 7.4, has struck Colombia, killing dozens of people and trapping many under rubble. Cities including Cali, Pereira and Manizales were among the hardest-hit.
-- **NEW**  [[Global] Why the Rhine drought is bad news for Germany's recovery](https://www.dw.com/en/why-the-rhine-drought-is-bad-news-for-germany-s-recovery/a-78300076?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Germany’s inland waterways still move around 5% of the nation's goods. With the Rhine at a critically low level, DW explores how the drought is hitting the economy where it hurts most.
-- **NEW**  [[Global] India news: Jharkhand police use tear gas, water cannons to disperse student protesters](https://www.dw.com/en/india-news-jharkhand-police-use-tear-gas-water-cannons-to-disperse-student-protesters/live-78299334?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Police used force to disperse students marching towards the Jharkhand assembly, as protests over alleged irregularities in government recruitment exams entered their third week. DW has more.
-- **NEW**  [[Global] Which country is the new Mecca defense pact targeting?](https://www.dw.com/en/which-country-is-the-new-mecca-defense-pact-targeting/a-78307673?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Observers suggest the new alliance between Saudi Arabia, Turkey and Pakistan won't result in any of the countries fighting for each other. Instead it's about preventing Iran and Israel from regional dominance, they say.
-- **NEW**  [[Global] How climate change is reshaping Africa's malaria risk](https://www.dw.com/en/how-climate-change-is-reshaping-africa-s-malaria-risk/a-78304711?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Researchers say warming temperatures are altering malaria transmission patterns across Africa, creating new challenges for health systems and disease control.
-- **NEW**  [[Global] Middle East: Iran wants US concessions before opening Hormuz](https://www.dw.com/en/middle-east-iran-wants-us-concessions-before-opening-hormuz/live-78305309?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Iran's Foreign Ministry reiterated that the US must meet several demands before the Strait of Hormuz is reopened. Meanwhile, Germany says Donald Trump's plan for Gaza could get Hamas to put down its weapons. DW has more.
-- **NEW**  [[Global] ASEAN closing ranks as cyberscam threat escalates](https://www.dw.com/en/asean-closing-ranks-as-cyberscam-threat-escalates/a-78304710?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Southeast Asian governments are searching for a joint strategy against cyberscammers, a criminal industry that has grown too big, too connected and too embedded in ASEAN economies to be solved just by policing.
-- **NEW**  [[Global] India: Anger over exam irregularities spreads to Jharkhand](https://www.dw.com/en/india-anger-over-exam-irregularities-spreads-to-jharkhand/a-78304059?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Inspired by the Cockroach movement, young people in India's eastern state of Jharkhand are marching on the state assembly to demand transparency and a probe into alleged irregularities in civil service recruitment exams.
-- **NEW**  [[Global] UEFA, other football federations unite against Infantino](https://www.dw.com/en/uefa-other-football-federations-unite-against-infantino/a-78301601?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > A few weeks ago, Gianni Infantino looked set for another unopposed term as FIFA president. Now, with an election looming, the beleagured football executive is counting the numbers and could be hanging by a thread.
-- **NEW**  [[Global] Ukrainian drone attack kills at least 13 in central Russia](https://www.dw.com/en/ukrainian-drone-attack-kills-at-least-13-in-central-russia/a-78300485?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Ukraine launched hundreds of drones at targets inside Russia, according to Russian officials. The strikes killed more than a dozen in one of Kyiv's deadliest attacks since the Russian invasion began over four years ago.
-- **NEW**  [[Global] Thai ex-lawmaker shoots local official dead over loan](https://www.dw.com/en/thai-ex-lawmaker-shoots-local-official-dead-over-loan/a-78300045?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > A former lawmaker confessed to shooting a senior official at a government office over a money dispute, police have said. The incident came just days after Thailand's deadliest shooting in nearly four years.
-- [[Global] When extreme heat threatens Europe's nuclear power](https://www.dw.com/en/when-extreme-heat-threatens-europe-s-nuclear-power/a-78297778?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Warm rivers and low water levels are forcing nuclear power plants to reduce output across Europe. Over a year, the losses are minimal, but on critical days the loss of power has consequences for grids and prices.
-- [[Global] China: Typhoon Dolphin prompts mass evacuation, canceled flights](https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Even as it weakens, Typhoon Dolphin is disrupting life in China. Close to 1,500 flights have been canceled in Shanghai while parts of Beijing are under flood alert.
-- [[Global] Germany news: Low water on Rhine could sever freight route](https://www.dw.com/en/germany-news-low-water-on-rhine-could-sever-freight-route/live-78299336?maca=en-rss-en-top-1022-rdf) — *2026-08-10*
-  > Germany's inland shipping association has warned that the Rhine could soon become effectively split in two as water levels continue to fall. In Berlin, a man was shot dead near a busy central transport hub. DW has more.
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-11*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-11*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-11*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[India] Tamil Nadu Assembly adopts resolution seeking abolition of NEET for undergraduate medical courses](https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-assembly-adopts-resolution-seeking-abolition-of-neet-for-undergraduate-medical-courses/article71331476.ece) — *2026-08-11*
+- [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-11*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-11*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[India] Nasa invites Isro to join Moon Base program under Artemis Accords](https://www.hindustantimes.com/india-news/nasa-invites-isro-to-join-moon-base-program-under-artemis-accords-india-us-space-101786438648872.html) — *2026-08-11*
+- **NEW**  [[India] At least 31 school kids in Kolkata’s govt school fall ill, hospitalised: Officials](https://www.hindustantimes.com/india-news/at-least-31-school-kids-in-kolkata-s-govt-school-fall-ill-hospitalised-officials-101786438428128.html) — *2026-08-11*
+- **NEW**  [[India] Kanwariyas form human chain to let Muslim man's funeral procession cross highway](https://www.hindustantimes.com/india-news/kanwariyas-form-human-chain-to-let-muslim-mans-funeral-procession-cross-delhi-dehradun-highway-meerut-news-101786434056590.html) — *2026-08-11*
+- **NEW**  [[India] Chaos in Ranchi: ABVP workers climb on police bus, protesters detained](https://www.hindustantimes.com/india-news/jharkhand-protests-abvp-workers-climb-on-police-bus-protesters-detained-in-ranchi-jpsc-jssc-row-101786436039634.html) — *2026-08-11*
+- **NEW**  [[India] Cal HC extends interim protection from arrest to Abhishek Banerjee till August 31](https://www.hindustantimes.com/india-news/cal-hc-extends-interim-protection-from-arrest-to-abhishek-banerjee-till-august-31-101786436391129.html) — *2026-08-11*
+- **NEW**  [[India] SC seeks Centre’s response on CBI probe into fake lawyers, CJP activities](https://www.hindustantimes.com/india-news/sc-seeks-centre-s-response-on-cbi-probe-into-fake-lawyers-cjp-activities-101786436085497.html) — *2026-08-11*
+- **NEW**  [[India] ‘Sunil Tatkare’s election illegal’: Complaint challenges Maha NCP chief's reappointment](https://www.hindustantimes.com/india-news/sunil-tatkare-s-election-illegal-complaint-challenges-maha-ncp-chiefs-reappointment-101786433636276.html) — *2026-08-11*
+- **NEW**  [[India] Messi visit row: Kerala sports department submits probe report to govt](https://www.hindustantimes.com/india-news/messi-visit-row-kerala-sports-department-submits-probe-report-to-govt-101786435153438.html) — *2026-08-11*
+- **NEW**  [[India] Prakash Raj claims name dropped in Bengaluru voters' list after SIR: 'Kya kya kaagaz dikhana padega'](https://www.hindustantimes.com/india-news/prakash-raj-claims-name-dropped-in-bengaluru-voters-list-after-sir-kya-kya-kaagaz-dikhana-padega-101786434082506.html) — *2026-08-11*
+- **NEW**  [[India] Bill to bar state taxes on minerals tabled in Parliament, Oppn calls for committee review](https://www.hindustantimes.com/india-news/minerals-mines-taxes-cesses-levies-g-kishan-reddy-mineral-rights-royalty-jharkhand-odisha-rajasthan-chhattisgarh-101786429974110.html) — *2026-08-11*
+- **NEW**  [[India] SC asks Centre to treat PIL for supervisory mechanism against digital harms as representation](https://www.hindustantimes.com/india-news/sc-asks-centre-to-treat-pil-for-supervisory-mechanism-against-digital-harms-as-representation-101786433862078.html) — *2026-08-11*
+- **NEW**  [[India] Suvendu Adhikari's helicopter makes emergency landing in Bengal's Kolaghat due to inclement weather](https://www.hindustantimes.com/india-news/bengal-cm-suvendu-adhikari-helicopter-makes-emergency-landing-in-kolaghat-inclement-weather-rain-kolkata-bjp-101786433574029.html) — *2026-08-11*
+- **NEW**  [[India] Tiger spotted in Chhattisgarh’s Dantewada; 10 villages alerted: Officials](https://www.hindustantimes.com/india-news/tiger-spotted-in-chhattisgarh-s-dantewada-10-villages-alerted-officials-101786433384672.html) — *2026-08-11*
+- **NEW**  [[India] Kerala student injured in Maharashtra taekwondo event; family alleges referee negligence](https://www.hindustantimes.com/india-news/kerala-student-injured-in-maharashtra-taekwondo-event-family-alleges-referee-negligence-101786433124620.html) — *2026-08-11*
+- **NEW**  [[India] Driver couldn't see unfinished bridge: 9 of family killed in MP as van swept away](https://www.hindustantimes.com/india-news/driver-couldnt-see-unfinished-bridge-9-of-family-killed-in-mp-as-van-swept-away-101786423713545.html) — *2026-08-11*
+- **NEW**  [[India] Protest vs protest at Parliament as govt, Opposition square off over Ram Temple, Jharkhand and more](https://www.hindustantimes.com/india-news/parliament-monsoon-session-2026-protests-opposition-cjp-march-amit-shah-ram-mandir-theft-nda-rahul-gandhi-jharkhand-news-101786431109839.html) — *2026-08-11*
+- **NEW**  [[India] BJP trying to mislead protesting students for political gains: Jharkhand CM Hemant Soren](https://www.hindustantimes.com/india-news/bjp-trying-to-mislead-protesting-students-for-political-gains-jharkhand-cm-hemant-soren-101786432666941.html) — *2026-08-11*
+- **NEW**  [[India] On final day on Yatra, relay race-like ‘Daak Kanwar’ takes spotlight](https://www.hindustantimes.com/india-news/on-final-day-on-yatra-relay-race-like-daak-kanwar-takes-spotlight-kanwar-yatra-last-day-shivratri-101786422666648.html) — *2026-08-11*
+- **NEW**  [[India] House panel criticises continuing delays in construction of Eklavya schools](https://www.hindustantimes.com/india-news/house-panel-criticises-continuing-delays-in-construction-of-eklavya-schools-101786432784721.html) — *2026-08-11*
+- **NEW**  [[India] Register FIR in cases of missing persons immediately, irrespective of age or gender: SC](https://www.hindustantimes.com/india-news/register-fir-in-cases-of-missing-persons-immediately-irrespective-of-age-or-gender-sc-101786431527749.html) — *2026-08-11*
+- **NEW**  [[India] ‘Abolish NEET; undermines poor, rural, backward students’: Tamil Nadu assembly passes Vijay govt's resolution](https://www.hindustantimes.com/india-news/abolish-neet-it-undermines-rural-poor-backward-students-tamil-nadu-presents-resolution-in-assembly-101786430864546.html) — *2026-08-11*
+- **NEW**  [[India] Heavy to very heavy rain likely in parts of Delhi over next 3 hours; waterlogging, traffic snarls expected](https://www.hindustantimes.com/india-news/delhi-rain-alert-imd-forecast-traffic-guidelines-waterlogging-weather-red-orange-yellow-alert-met-department-101786430552403.html) — *2026-08-11*
 
-_(946 additional items in raw.jsonl)_
+_(955 additional items in raw.jsonl)_

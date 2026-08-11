@@ -32,7 +32,7 @@ state: fresh
    evidence: [lake:political_figures:0001520262-2], [lake:political_figures:0001520262-2], [lake:political_figures:0001520262-2], [lake:political_figures:0002097393-2]
 7. **Michael Cloud** (Representative, Republican, TX-27th): composite 0.057
    drivers: new_filings=0.57
-   evidence: [lake:political_figures:gkg-20260811], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
+   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
 8. **Ketanji Brown Jackson** (Associate Justice, Nonpartisan, United States): composite 0.057
    drivers: new_filings=0.57
    evidence: [lake:political_figures:0001520262-2], [lake:political_figures:0001520262-2], [lake:political_figures:0001520262-2], [lake:political_figures:0002097393-2]
