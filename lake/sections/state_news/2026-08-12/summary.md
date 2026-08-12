@@ -2,19 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-08-12
-record_count: 681
-new_today: 334
+record_count: 691
+new_today: 344
 state: fresh
 ---
 
 ## State-Level News
 
-334 new of 681 total items today.
+344 new of 691 total items today.
 
-- [[Alabama] Governor Kay Ivey Encourages 1st, 2nd, 6th and 7th Congressional District Alabamians to Vote](https://governor.alabama.gov/newsroom/2026/08/governor-kay-ivey-encourages-1st-2nd-6th-and-7th-congressional-district-alabamians-to-vote/) — *2026-08-10*
-  > Governor Ivey encouraged Alabamians in the state&#8217;s 1st, 2nd, 6th and 7th congressional districts to vote in the upcoming Tuesday, August 11, 2026 Special Congressional Primary Election. (Governor&#8217;s Office, Gina Maiola &#038; Alyssa Turner)
-- [[Alabama] Governor Ivey Encourages 1st, 2nd, 6th and 7th Congressional District Alabamians to Head to the Polls for Special Primary Election](https://governor.alabama.gov/newsroom/2026/08/governor-ivey-encourages-1st-2nd-6th-and-7th-congressional-district-alabamians-to-head-to-the-polls-for-special-primary-election/) — *2026-08-10*
-  > MONTGOMERY – Governor Kay Ivey on Monday encouraged Alabamians in the state’s 1st, 2nd, 6th and 7th congressional districts to vote in the upcoming Tuesday, August 11, 2026, Special Congressional Primary Election. “The strength and success of the United States &#8230; <a href="ht
 - **NEW**  [[California] First Partner Siebel Newsom, Governor Newsom, and #HalfTheStory launch California’s first Teen Tech Council](https://www.gov.ca.gov/2026/08/11/first-partner-siebel-newsom-governor-newsom-and-halfthestory-launch-californias-first-teen-tech-council/) — *2026-08-11*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/IMG_5845-1-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="First Partner Jennifer Siebel Newsom with California teens at the CA Tech Council launch" decoding="async" 
 - **NEW**  [[California] Governor Newsom fast-tracks 1,700 new affordable housing units](https://www.gov.ca.gov/2026/08/11/governor-newsom-fast-tracks-1700-new-affordable-housing-units/) — *2026-08-11*
@@ -32,35 +28,39 @@ state: fresh
 <p><a href="https://www.gov.ca.gov/
 - [[California] Governor Newsom announces new AI cyber defense program to protect California’s critical infrastructure](https://www.gov.ca.gov/2026/08/10/governor-newsom-announces-new-ai-cyber-defense-program-to-protect-californias-critical-infrastructure/) — *2026-08-10*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-new-AI-cyber-defense-program-to-protect-Californias-critical-infrastructure-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic
-- **NEW**  [[Arkansas] Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums](https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/) — *2026-08-11*
-  > Little Rock and Pulaski County haven’t paused approvals of data centers — despite months of trying — even as they’ve faced community pushback over two major facilities planned in the area. But across Arkansas, other cities and counties aren’t having the same problem. Independence
-- **NEW**  [[Arkansas] Arkansas lawmakers, NAACP seek accountability over state trooper punching 18-year-old](https://arkansasadvocate.com/2026/08/11/arkansas-lawmakers-naacp-seek-accountability-over-state-trooper-punching-18-year-old/) — *2026-08-11*
-  > The Arkansas Legislative Black Caucus and NAACP Arkansas State Conference are calling for answers about a traffic stop involving a state trooper punching an 18-year-old that has gained national attention.  Rep. Jay Richardson, a Fort Smith Democrat and caucus chairman, told the A
-- **NEW**  [[Arkansas] More college students will have access to abortion medication](https://arkansasadvocate.com/2026/08/11/repub/more-college-students-will-have-access-to-abortion-medication/) — *2026-08-11*
-  > When college students head back to campus for the fall semester, more of them will have guaranteed access to abortion medication. Colorado recently joined California, Illinois, Massachusetts and New York in requiring public colleges and universities to provide abortion medication
-- **NEW**  [[Arkansas] Trump taken via catering truck to secret flight amid Iran threats, report says](https://arkansasadvocate.com/2026/08/11/repub/trump-taken-via-catering-truck-to-secret-flight-amid-iran-threats-report-says/) — *2026-08-11*
-  > WASHINGTON — President Donald Trump covertly traveled across Europe in a military plane in July after Iran threatened his life, according to a bombshell report Monday night by The Washington Post that revealed press and White House officials remained on a decoy Air Force One. The
-- **NEW**  [[Arkansas] With new tactics, ICE reaches new high in monthly arrests](https://arkansasadvocate.com/2026/08/11/repub/with-new-tactics-ice-reaches-new-high-in-monthly-arrests/) — *2026-08-11*
-  > Federal immigration agents are employing new tactics — from arresting academics at airports to setting up a checkpoint at a popular creek in a National Forest — to boost their arrest numbers, leading to more arrests in July than in any previous month of the Trump administration. 
-- **NEW**  [[Arkansas] March of Dimes report highlights Arkansas’ gaps in maternity care](https://arkansasadvocate.com/2026/08/11/march-of-dimes-report-highlights-arkansas-gaps-in-maternity-care/) — *2026-08-11*
-  > About 78,000 Arkansas girls and women between the ages of 15 and 44 lived in a county with nowhere to give birth and no obstetric physicians in 2024, according to a Tuesday report from the women’s and children’s advocacy group March of Dimes. Almost half of Arkansas’ 75 counties 
-- **NEW**  [[Arkansas] Watermelons and Arkansas politics collide in Hope festival](https://arkansasadvocate.com/2026/08/11/watermelons-and-politics-collide-in-hope-arkansas-festival/) — *2026-08-11*
-  > The southwest Arkansas town of Hope is known for growing two things: governors and watermelons. Immortalized by former President Bill Clinton who ran as the “Man from Hope” in 1992, the town of 8,400 is also the birthplace of former Gov. Mike Huckabee, the father of Gov. Sarah Hu
-- [[Arkansas] Trump urges shift in childhood vaccine recommendations, calls for splitting up MMR vaccine](https://arkansasadvocate.com/2026/08/10/repub/trump-urges-shift-in-childhood-vaccine-recommendations-calls-for-splitting-up-mmr-vaccine/) — *2026-08-10*
-  > WASHINGTON — President Donald Trump on Monday signed a&#160;sweeping executive order that aims to reshape guidance surrounding childhood vaccines, standing alongside Health and Human Services Secretary Robert F. Kennedy Jr., and was met with immediate pushback. The order — which 
-- [[Arkansas] Anti-abortion groups urge attorney general to halt mailing of abortion pills](https://arkansasadvocate.com/2026/08/10/repub/anti-abortion-groups-urge-attorney-general-to-halt-mailing-of-abortion-pills/) — *2026-08-10*
-  > A group of leading anti-abortion organizations sent a letter to newly confirmed U.S. Attorney General Todd Blanche urging him to review the U.S. Department of Justice’s authority to use  a 150-year-old anti-obscenity law to prevent people from obtaining abortion medication or oth
-- [[Arkansas] New drug-resistant fungal disease increases among vulnerable patients](https://arkansasadvocate.com/2026/08/10/repub/new-drug-resistant-fungal-disease-increases-among-vulnerable-patients/) — *2026-08-10*
-  > Twenty-eight states this year have reported over 3,500 cases of patients sick with the drug-resistant yeast candida auris, which can cause severe illness and is often reported in healthcare facilities. As of Aug. 1, 3,544 clinical cases of candida auris, or C. auris, have been re
-- [[Arkansas] Todd Blanche sworn in as attorney general after contentious Senate confirmation](https://arkansasadvocate.com/2026/08/10/repub/todd-blanche-sworn-in-as-attorney-general-after-contentious-senate-confirmation/) — *2026-08-10*
-  > WASHINGTON — Todd Blanche took the oath of office as U.S. attorney general at a brief ceremony in the Oval Office Monday, following the Senate’s narrow vote to approve his nomination as the nation’s top law enforcement official over the weekend.&#160; Blanche, who served as actin
-- [[Arkansas] Arkansas governor to appoint temporary Supreme Court justice to fill in for Webb](https://arkansasadvocate.com/briefs/arkansas-governor-to-appoint-temporary-supreme-court-justice-to-fill-in-for-webb/) — *2026-08-10*
-  > Arkansas Gov. Sarah Huckabee Sanders will appoint a temporary special justice to fill in for Barbara Webb, who has been recovering from a fall at her home, the governor’s office said Monday.  In a letter dated Monday, Chief Justice Baker requested that the Republican governor app
-- [[Arkansas] Medicaid expansion in Arkansas: A timeline of the first-in-the-nation hybrid model](https://arkansasadvocate.com/2026/08/10/medicaid-expansion-in-arkansas-a-timeline-of-the-first-in-the-nation-hybrid-model/) — *2026-08-10*
-  > Arkansas was the first Southern state to expand Medicaid under the Affordable Care Act, and the first to use a model that relied on private insurance to do so. But a recent decision by the Trump administration to not renew the program has created uncertainty for more than 200,000
-- [[Arkansas] Medicaid Work Rule Leaves Homeless People in the Cold](https://arkansasadvocate.com/2026/08/10/medicaid-work-rule-leaves-homeless-people-in-the-cold/) — *2026-08-10*
-  > MISSOULA, Mont. — Tywon Pugh has seizures that make it hard to find and keep a job. “They called me a ‘liability to the job site,’” Pugh said, recalling the words of his manager when a seizure cost him his last job at a fast-food restaurant in this western Montana city. When the 
-- [[Arkansas] ‘I wanted the pregnancy. It was just so scary.’](https://arkansasadvocate.com/2026/08/10/repub/i-wanted-the-pregnancy-it-was-just-so-scary/) — *2026-08-10*
-  > Hailey Allred and Jessica Perigo don’t know each other, but last year they were both financially insecure and living in abortion-ban states, where reproductive health clinics and maternity wards have closed in recent years, when they unexpectedly became pregnant. Both found a loc
+- **NEW**  [[California] Según el estado, casi en ninguna parte de California se está construyendo lo suficiente. He aquí por qué](https://calmatters.org/calmatters-en-espanol/2026/08/california-progreso-vivienda-asequible/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/03/052423_Santa-Monica-Construction-ZS_CM_27.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriorit
+- **NEW**  [[California] ¿Cómo funciona el nuevo programa de reembolso de $3,500 para vehículos eléctricos en California?](https://calmatters.org/calmatters-en-espanol/2026/08/programa-reembolso-vehiculos-electricos-california/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/012924_EVFILE-KSM-26_KQED_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A close-up of a charging pump inserted in
+- **NEW**  [[California] Very few CA cities are meeting Newsom’s housing goals](https://calmatters.org/newsletter/california-city-housing-goals/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/052423-Santa-Monica-Construction-ZS-CM-21.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A bulldozer on the corner of 7t
+- **NEW**  [[California] No court reporter? Record the hearing, California Supreme Court rules](https://calmatters.org/politics/2026/08/court-reporter-california-supreme-court/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/062926_Stenotypes-Court-Reporter_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The hands of two unidentifiable pe
+- **NEW**  [[California] Almost nowhere in California is building enough, according to the state. Here’s why](https://calmatters.org/housing/2026/08/california-rhna-housing-affordable-progress/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/03/052423_Santa-Monica-Construction-ZS_CM_27.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="laz
+- **NEW**  [[California] Is California’s slow road to high-speed rail worth chipping in $1 billion a year?](https://calmatters.org/commentary/2026/08/slow-bullet-train-spending-california/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/030623-High-Speed-Rail-LV_CM_17.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction on the High-Speed Rail above
+- **NEW**  [[California] Minority rule in California? How Proposition 43 would tie the hands of local governments](https://calmatters.org/commentary/2026/08/proposition-43-taxes-minority-rule/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/080224_ParkFireCommandPost_FM__CM_34.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Firefighters roll up yellow fire hos
+- **NEW**  [[California] California courts muddied tax rules set by voters. Proposition 43 cleans up their mistake](https://calmatters.org/commentary/2026/08/california-constitution-proposition-43-taxes/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_OC-Election_JH_CM_13.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="People stand in front of black voting booths 
+- **NEW**  [[California] California Supreme Court says cities can’t add extra hurdles to tax refunds](https://calmatters.org/economy/2026/08/marathon-petroleum-tax-refund/) — *2026-08-11*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/040126_Marathon-Refinery_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view a giant American Flag ha
+- [[California] Yacimiento petrolífero se convirtió en el primer depósito de carbono de California. ¿Quién será responsable si algo sale mal?](https://calmatters.org/calmatters-en-espanol/2026/08/deposito-carbono-california-sin-leyes/) — *2026-08-10*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/030424-Carbon-Capture-LV_CM_17.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A pumpjack stands in an open oil field beh
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-12*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- [[Alabama] Governor Kay Ivey Encourages 1st, 2nd, 6th and 7th Congressional District Alabamians to Vote](https://governor.alabama.gov/newsroom/2026/08/governor-kay-ivey-encourages-1st-2nd-6th-and-7th-congressional-district-alabamians-to-vote/) — *2026-08-10*
+  > Governor Ivey encouraged Alabamians in the state&#8217;s 1st, 2nd, 6th and 7th congressional districts to vote in the upcoming Tuesday, August 11, 2026 Special Congressional Primary Election. (Governor&#8217;s Office, Gina Maiola &#038; Alyssa Turner)
+- [[Alabama] Governor Ivey Encourages 1st, 2nd, 6th and 7th Congressional District Alabamians to Head to the Polls for Special Primary Election](https://governor.alabama.gov/newsroom/2026/08/governor-ivey-encourages-1st-2nd-6th-and-7th-congressional-district-alabamians-to-head-to-the-polls-for-special-primary-election/) — *2026-08-10*
+  > MONTGOMERY – Governor Kay Ivey on Monday encouraged Alabamians in the state’s 1st, 2nd, 6th and 7th congressional districts to vote in the upcoming Tuesday, August 11, 2026, Special Congressional Primary Election. “The strength and success of the United States &#8230; <a href="ht
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-12*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- **NEW**  [[Delaware] ‘Beyond the Headlines’: A look at Delaware’s recreational marijuana market after one year](https://spotlightdelaware.org/2026/08/11/beyond-the-headlines-a-look-at-delawares-recreational-marijuana-market-after-one-year/) — *2026-08-12*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Julia-Podcast-1-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset
+- **NEW**  [[Delaware] Court pauses Pentagon blacklist for Middletown pharma plant co.](https://spotlightdelaware.org/2026/08/11/court-pauses-pentagon-blacklist-for-middletown-pharma-plant-co/) — *2026-08-11*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/WuXi-June-2026-2-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/
+- **NEW**  [[Delaware] Refinery appeals a nearly $1M fine, setting up a fight with a stricter DNREC](https://spotlightdelaware.org/2026/08/11/refinery-appeals-nearly-1m-fine/) — *2026-08-11*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2025/07/Delaware-City-Refinery-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
 
-_(656 additional items in raw.jsonl)_
+_(666 additional items in raw.jsonl)_

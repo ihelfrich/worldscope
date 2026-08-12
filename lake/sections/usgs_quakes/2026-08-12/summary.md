@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-12
-record_count: 18
+record_count: 17
 new_today: 17
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-17 new of 18 total items today.
+17 new of 17 total items today.
 
 - **NEW**  [M 5.2 - 42 km ESE of Naalehu, Hawaii](https://earthquake.usgs.gov/earthquakes/eventpage/hv75018296) — *2026-08-12*
   > M5.2 · 42 km ESE of Naalehu, Hawaii · depth 10.73 km
@@ -43,7 +43,5 @@ state: fresh
   > M4.6 · 7 km W of Lunca Jariștei, Romania · depth 140.003 km
 - **NEW**  [M 4.6 - Banda Sea](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx1) — *2026-08-11*
   > M4.6 · Banda Sea · depth 170.699 km
-- [M 4.6 - 99 km SSE of Sand Point, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjwh) — *2026-08-11*
-  > M4.6 · 99 km SSE of Sand Point, Alaska · depth 36.925 km
 - **NEW**  [M 4.5 - 264 km SW of Severo-Kuril’sk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx7) — *2026-08-11*
   > M4.5 · 264 km SW of Severo-Kuril’sk, Russia · depth 174.304 km

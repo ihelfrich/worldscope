@@ -2,17 +2,21 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-12
-record_count: 53
-new_today: 41
+record_count: 58
+new_today: 47
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-41 new of 53 total items today.
+47 new of 58 total items today.
 
 - **NEW**  [[BleepingComputer] Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse](https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/) — *2026-08-12*
   > Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]
+- **NEW**  [[The Hacker News] Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations](https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html) — *2026-08-12*
+  > Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.
+
+Threat intelligence firm CloudSEK now
 - **NEW**  [[The Hacker News] SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html) — *2026-08-12*
   > SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.
 
@@ -25,6 +29,16 @@ The vulnerability, rooted in Microsoft Defender for Windows, demonstrates
   > Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.
 
 The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insu
+- **NEW**  [[The Register] UK puts £14B cloud framework in place with SMEs promised a bigger slice](https://www.theregister.com/public-sector/2026/08/12/uk-puts-14b-cloud-framework-in-place-with-smes-promised-a-bigger-slice/5286204) — *2026-08-12*
+  > Global players dominate the market. Will public sector buyers give local suppliers a look-in?
+- **NEW**  [[The Register] Nailed it: Toolstation gives its store IT an ASUS NUC refurb](https://www.theregister.com/on-prem/2026/08/12/sponsored-nailed-it-toolstation-gives-its-store-it-an-asus-nuc-refurb/5284128) — *2026-08-12*
+  > SPONSORED FEATURE: Toolstation swapped aging Linux tills across branches for compact ASUS NUCs on ChromeOS Flex, cutting support tickets and freeing counter space
+- **NEW**  [[The Register] Agents made my retro tech safe to use again and showed their real value as testers of ideas](https://www.theregister.com/ai-and-ml/2026/08/12/agents-made-my-retro-tech-safe-to-use-again-and-showed-their-real-value-as-testers-of-ideas/5286632) — *2026-08-12*
+  > Let's all go a bit mad scientist and see if software can validate our wildest theories
+- **NEW**  [[The Register] Zuck’s Chinese agentic prey escapes, will resume standalone ops](https://www.theregister.com/ai-and-ml/2026/08/12/zucks-chinese-agentic-prey-escapes-will-resume-standalone-ops/5286598) — *2026-08-12*
+  > Manus AI will delete some data to satisfy legal requirements
+- **NEW**  [[The Register] India’s central bank wants AI to approve loans that humans would reject](https://www.theregister.com/ai-and-ml/2026/08/12/indias-central-bank-wants-ai-to-approve-loans-that-humans-would-reject/5286572) — *2026-08-12*
+  > Regulator hopes for greater financial inclusion, without extra risk or blaming models for bad decisions
 - **NEW**  [[Ars Technica] DEF CON crowd suspected in fake-hotspot attack on Delta flight](https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/) — *2026-08-12*
   > FBI Atlanta confirms it's looking into the incident, no arrests made.
 - **NEW**  [[Computer Weekly] Dubai ranks second globally in AI adoption as investment in digital infrastructure accelerates](https://www.computerweekly.com/news/366648913/Dubai-ranks-second-globally-in-AI-adoption-as-investment-in-digital-infrastructure-accelerates) — *2026-08-12*
@@ -45,6 +59,8 @@ The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case o
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
 - **NEW**  [[Computer Weekly] Where next for digital government?](https://www.computerweekly.com/ezine/Computer-Weekly/Where-next-for-digital-government) — *2026-08-12*
   > In this week’s Computer Weekly, after new UK prime minister Andy Burnham scrapped the Whitehall department responsible for technology, we examine the future for digital government. As pressure grows on cyber security leaders, we find out how security chiefs can avoid burnout. And
+- **NEW**  [[MIT Technology Review] How we picked 35 of the world’s top young scientists and engineers](https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/) — *2026-08-12*
+  > Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems.&#160; By finding the top you
 - **NEW**  [[TechCrunch] India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand](https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/) — *2026-08-12*
   > Yulu aims to have a fleet of 200,000 bikes in the next two years and faster electric two-wheelers, aiming at new logistics use cases.
 - **NEW**  [[Krebs on Security] Microsoft Plugs Nearly 400 Security Holes](https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/) — *2026-08-11*
@@ -61,23 +77,7 @@ The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case o
   > Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.
 
 The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to esca
-- **NEW**  [[The Hacker News] Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html) — *2026-08-11*
-  > Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.
-
-The new version, tra
 - **NEW**  [[The Record] NSA installs DHS lawyer as new general counsel](https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel) — *2026-08-11*
   > Kerianne Tobitsch, who most recently served as a senior lawyer at the Homeland Security Department, is the NSA's new general counsel, sources told Recorded Future News.
-- **NEW**  [[The Record] Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout](https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response) — *2026-08-11*
-  > The hackers claimed to have exfiltrated 6 terabytes of data, including highly sensitive health information like records related to sexual assault, mental health, abortions and sexual harassment incidents.
-- **NEW**  [[The Record] Cyberattack on logistics giant Ceva hits retailers and Steam customers across Europe](https://therecord.media/ceva-logistics-cyberattack-bol-steam-debijenkorf-ace-tate) — *2026-08-11*
-  > Operations at eight European warehouses belonging to France's CEVA Logistics have reportedly been disrupted by a cyberattack, and several other companies are feeling the effects.
-- **NEW**  [[The Record] Local governments in four states dealing with cyberattacks that have shut down services](https://therecord.media/cyberattacks-ransomware-local-governments) — *2026-08-11*
-  > Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.
-- **NEW**  [[The Record] Kids’ online safety bill faces dim prospects of passage this session despite progress](https://therecord.media/kids-online-safety-act-congress) — *2026-08-11*
-  > Proponents of the Kids Online Safety Act are cheering recent progress but acknowledge a long road ahead for legislation that, despite mounting political pressure, may be difficult to pass this session.
-- **NEW**  [[Cybersecurity Dive] Former BlackFile affiliates linked to extortion campaign targeting private equity](https://www.cybersecuritydive.com/news/former-blackfile-extortion-campaign-private-equity/827574/) — *2026-08-11*
-  > Researchers warned that hackers are using voice-phishing attacks to pressure company employees under the guise of providing IT help desk services.
-- **NEW**  [[Cybersecurity Dive] CVE Program eyes automation and globalization to weather AI ‘vulnpocalypse’](https://www.cybersecuritydive.com/news/cve-program-ai-black-hat-def-con/827477/) — *2026-08-11*
-  > The vulnerability-coordination project has had a rocky few years, but a key leader says it will &ldquo;flourish and improve.&rdquo;
 
-_(28 additional items in raw.jsonl)_
+_(33 additional items in raw.jsonl)_

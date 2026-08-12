@@ -2,17 +2,23 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-12
-record_count: 113
-new_today: 65
+record_count: 115
+new_today: 68
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-65 new of 113 total items today.
+68 new of 115 total items today.
 
-- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-12*
-  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- **NEW**  [[TITLE: В уряді Польщі кажуть, що їхня економіка зупиниться без українців | LEDE: Заступник міністра внутрішніх справ Польщі Мачей Дущик звернув увагу на внесок українців у функціонування польської еко] (uk: В уряді Польщі кажуть, що їхня економіка зупиниться без українців)](https://www.pravda.com.ua/news/2026/08/12/8048363/) — *2026-08-12*
+  > Заступник міністра внутрішніх справ Польщі Мачей Дущик звернув увагу на внесок українців у функціонування польської економіки.
+- **NEW**  [[TITLE: ЗМІ: Польський експосадовець, якого розшукує Варшава, перебуває у Придністров'ї | LEDE: ] (uk: ЗМІ: Польський експосадовець, якого розшукує Варшава, перебуває у Придністров'ї)](https://www.pravda.com.ua/news/2026/08/12/8048362/) — *2026-08-12*
+- **NEW**  [[TITLE: У Польщі обурені, що Starlink виключив їх країну з європейської зони сервісу | LEDE: ] (uk: У Польщі обурені, що Starlink виключив їх країну з європейської зони сервісу)](https://www.pravda.com.ua/news/2026/08/12/8048356/) — *2026-08-12*
+- **NEW**  [[TITLE: Справа про катування в Одеському РТЦК: ДБР оголосило ще чотири підозри | LEDE: Кількість підозрюваних працівників ТЦК на Одещині зросла до 13. Досудове розслідування дій ДБР триває.] (uk: Справа про катування в Одеському РТЦК: ДБР оголосило ще чотири підозри)](https://www.pravda.com.ua/news/2026/08/12/8048353/) — *2026-08-12*
+  > Кількість підозрюваних працівників ТЦК на Одещині зросла до 13. Досудове розслідування дій ДБР триває.
+- **NEW**  [[TITLE: Путін одягнув форму ВМФ і видав нову порцію погроз Заходу | LEDE: Путін відвідав Сахалін, заявив про загрози з боку НАТО, пригрозив відповіддю на затримання суден РФ.] (uk: Путін одягнув форму ВМФ і видав нову порцію погроз Заходу)](https://www.pravda.com.ua/news/2026/08/12/8048352/) — *2026-08-12*
+  > Путін відвідав Сахалін, заявив про загрози з боку НАТО, пригрозив відповіддю на затримання суден РФ.
 - **NEW**  [[TITLE: Зеленський: Дрони "Паляниця" і ракети "Нептун" відпрацювали по морській базі РФ в Новоросійську | LEDE: Україна завдала ударів дронами "Паляниця" і ракетами "Нептун" по російській військово-мор] (uk: Зеленський: Дрони "Паляниця" і ракети "Нептун" відпрацювали по морській базі РФ )](https://www.pravda.com.ua/news/2026/08/12/8048350/) — *2026-08-12*
   > Україна завдала ударів дронами "Паляниця" і ракетами "Нептун" по російській військово-морській базі в Новоросійську.
 - **NEW**  [[TITLE: Російські дрони атакували склади на Київщині: поранена одна людина | LEDE: У Броварському районі Київщини під час дронової атаки сталася пожежа на складах, поранено чоловіка.] (uk: Російські дрони атакували склади на Київщині: поранена одна людина)](https://www.pravda.com.ua/news/2026/08/12/8048349/) — *2026-08-12*
@@ -42,23 +48,15 @@ state: fresh
   > У Херсоні внаслідок атаки безпілотників дві людини загинули, ще двоє отримали поранення.
 - **NEW**  [[TITLE: Генштаб оновив дані про втрати ворога: мінус ще 1 260 російських окупантів | LEDE: За минулу добу у війні проти України Росія втратила ще 1 260 військових і 388 одиниць автомобільної техніки та] (uk: Генштаб оновив дані про втрати ворога: мінус ще 1 260 російських окупантів)](https://www.pravda.com.ua/news/2026/08/12/8048321/) — *2026-08-12*
   > За минулу добу у війні проти України Росія втратила ще 1 260 військових і 388 одиниць автомобільної техніки та автоцистерн.
-- **NEW**  [[TITLE: У Києві та низці областей лунала повітряна тривога через загрозу балістики | LEDE: На світанку 12 серпня у столиці України та низці областей оголосили повітряну тривогу через загрозу ворожої ба] (uk: У Києві та низці областей лунала повітряна тривога через загрозу балістики)](https://www.pravda.com.ua/news/2026/08/12/8048320/) — *2026-08-12*
-  > На світанку 12 серпня у столиці України та низці областей оголосили повітряну тривогу через загрозу ворожої балістики.
-- **NEW**  [[TITLE: Росіян, які б підтримували українську незалежність, немає. Яким бачили життя в Україні агенти ЦРУ – дослідження УП | LEDE: У березні 1967 року в поле зору інформатора ЦРУ в Римі потрапили зірки] (uk: Росіян, які б підтримували українську незалежність, немає. Яким бачили життя в У)](https://www.pravda.com.ua/articles/2026/08/12/8048258/) — *2026-08-12*
-  > У березні 1967 року в поле зору інформатора ЦРУ в Римі потрапили зірки київського "Динамо" та збірної СРСР з футболу Валерій Поркуян і Йожеф Сабо. Згідно з доповіддю, яку віднайшла УП в архівах американської спецслужби, агент спілкувався з ними в готелі Lux поруч із центральним з
-- **NEW**  [[TITLE: США заявили про удари по судну, яке спробувало прорвати блокаду Ірану в Ормузі | LEDE: Американські військові заявили, що завдали удару по судну під прапором Панами, яке намагалося пройти через] (uk: США заявили про удари по судну, яке спробувало прорвати блокаду Ірану в Ормузі)](https://www.pravda.com.ua/news/2026/08/12/8048319/) — *2026-08-12*
-  > Американські військові заявили, що завдали удару по судну під прапором Панами, яке намагалося пройти через Оманську затоку та порушити блокаду Ірану, встановлену США, прямуючи до іранського порту.
-- **NEW**  [[TITLE: Росіяни вдарили по Запоріжжю: спалахнув "Епіцентр", понад тисячу споживачів – без світла | LEDE: Через ворожі удари в Запоріжжі понад 1000 споживачів без світла, спалахнув "Епіцентр".] (uk: Росіяни вдарили по Запоріжжю: спалахнув "Епіцентр", понад тисячу споживачів – бе)](https://www.pravda.com.ua/news/2026/08/12/8048318/) — *2026-08-12*
-  > Через ворожі удари в Запоріжжі понад 1000 споживачів без світла, спалахнув "Епіцентр".
-- **NEW**  [[TITLE: Окупанти заявили про масовану атаку дронів на Севастополь | LEDE: За даними окупаційної влади, Севастополь атакують десятки дронів.] (uk: Окупанти заявили про масовану атаку дронів на Севастополь)](https://www.pravda.com.ua/news/2026/08/12/8048317/) — *2026-08-12*
-  > За даними окупаційної влади, Севастополь атакують десятки дронів.
-- **NEW**  [Russian Strikes Hit Epicentr Store in Zaporizhzhia, Kill 2 in Kherson](https://www.kyivpost.com/post/82189) — *2026-08-12*
-  > Russia struck a shopping center in Zaporizhzhia overnight, a day after a deadly missile attack on the city that included North Korean-supplied ballistic missiles, Ukrainian officials said. The latest strike caused extensive damage to an Epicentr store, while overnight Russian att
-- **NEW**  [‘The Best Drone Is One That Never Rises’: Germany Mulls Cyberattacks on Russian Drone Makers](https://www.kyivpost.com/post/82182) — *2026-08-12*
-  > Germany is considering giving its intelligence services new powers to launch preemptive cyberattacks against Russian drone manufacturers, a senior lawmaker said. The proposal aims to disrupt threats before they reach Germany, but civil liberties groups warn the reforms could dram
-- **NEW**  [July Was Deadliest Month for Civilians in Ukraine Since 2022, Monitoring Group Says](https://www.kyivpost.com/post/82179) — *2026-08-12*
-  > At least 634 civilians were killed in July in strikes on civilian infrastructure, making it the deadliest month in at least 2.5 years, according to the Conflict Intelligence Team. More than 4,590 people were injured, with around 30% of the fatalities recorded in Russia or occupie
-- **NEW**  [North Korean-Supplied Missiles Attack Ukraine as Russia Escalates Air War](https://www.kyivpost.com/analysis/82178) — *2026-08-12*
-  > North Korean ballistic missiles struck Zaporizhzhia alongside Russian Zirkon missiles and glide bombs, killing six civilians and wounding 19. The attack highlights deepening Moscow–Pyongyang military ties and Ukraine’s air-defense shortages.
+- [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-12*
+  > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-12*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-12*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-12*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Trump’s Envoys’ Kyiv Visit Will Embarrass Them &amp; Offend Ukrainians | Bohdan Nahaylo](https://www.kyivpost.com/videos/82196) — *2026-08-12*
+  > US President Donald Trump’s real estate mogul friend Steve Witkoff and son-in-law Jared Kushner, whom Trump has appointed as his special peace envoys, are expected to finally visit Kyiv, after already having met with Russian envoys several times, including in Moscow. Can their di
 
-_(88 additional items in raw.jsonl)_
+_(90 additional items in raw.jsonl)_

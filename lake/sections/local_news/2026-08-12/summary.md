@@ -2,37 +2,15 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-12
-record_count: 235
-new_today: 200
+record_count: 244
+new_today: 211
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-200 new of 235 total items today.
+211 new of 244 total items today.
 
-- **NEW**  [[St. Louis] Photos: St. Louis Family Playdate at Metro Theater Company](https://www.stlmag.com/family/photos-st-louis-family-playdate-metro-theater/) — *2026-08-11*
-  > <p>On August 7, St. Louis Magazine hosted a Family Playdate at Metro Theater Company, presented by Royal Banks of Missouri and sponsored by Ryan Lawn &#38; Tree. This Back-to-School Rave was the ultimate dance party for kiddos and their grown-ups alike. With the help of our Spin 
-- **NEW**  [[St. Louis] Purina Farms turns 100: How St. Louis families can celebrate this season](https://www.stlmag.com/family/purina-farms-100/) — *2026-08-11*
-  > <p>For generations of St. Louis families, a trip to Purina Farms has been a childhood rite of passage. It&#8217;s where kids have met farm animals for the first time, watched dogs leap through the air, and discovered just how exciting an afternoon spent around animals can be. The
-- **NEW**  [[St. Louis] St. Louis Children’s Choirs find music and connection on Portugal tour](https://www.stlmag.com/family/st-louis-childrens-choirs-portugal-tour/) — *2026-08-11*
-  > <p>For members of the St. Louis Children&#8217;s Choirs, a recent performance tour through Portugal was about much more than singing overseas. Over the course of a week, 37 students performed in a world-renowned concert hall, a nearly 900-year-old church, and an intimate theater;
-- **NEW**  [[St. Louis] Why Jefferson City deserves more than a day trip](https://www.stlmag.com/branded-content/jefferson-city-weekend-getaway-missouri-capital/) — *2026-08-11*
-  > <p>The Missouri State Capitol&#8216;s dome has become Jefferson City&#8217;s calling card. It draws families, history buffs, school groups, and weekend travelers from across the Show-Me State and beyond. Many tour the Capitol, stop by the Missouri State Penitentiary, and then hea
-- **NEW**  [[St. Louis] Trainwreck Saloon owners retiring, selling historic Rock Hill tavern](https://www.stlmag.com/dining/trainwreck-saloon-owners-retiring-selling-historic-rock-hill-tavern/) — *2026-08-11*
-  > <p>The historic Trainwreck Saloon (9243 Manchester) is pulling into the station for a temporary stop. Longtime owners George and Kris Hansford are retiring after 44 years and selling the landmark tavern, which will temporarily close at the end of the month for renovations before 
-- **NEW**  [[St. Louis] As Marcel Hartel nears an exit, St. Louis CITY SC must adapt on the fly](https://www.stlmag.com/news/sports/marcel-hartel-exit-st-louis-city-sc/) — *2026-08-11*
-  > <p>Marcel Hartel’s absence hung in the air as St. Louis CITY SC manager Yoann Damet coordinated training on Monday morning. While the transfer has not been officially announced, Hartel has arrived in Hanover, Germany, and, according to sports reporter Florian Plettenberg, will be
-- **NEW**  [[St. Louis] What the research says about school closures like the ones St. Louis is weighing](https://www.stlmag.com/news/research-school-closures-slps/) — *2026-08-11*
-  > <p>In 2012 and 2013, the School District of Philadelphia closed 30 of its 247 schools to address declining enrollment, long-term fiscal deficits, and lagging academic achievement. A few years later, two researchers at the University of Pennsylvania compared the changes in academi
-- **NEW**  [[St. Louis] BK Bike School aims to get St. Louis kids riding in an hour](https://www.stlmag.com/business/bk-bike-school-bobby-kelting/) — *2026-08-11*
-  > <p>In the past five years, Bobby Kelting and his crew have taught close to 2,000 St. Louis kids how to ride a bike. And a few adults, too: Kelting believes it is never too late to learn.&#160; Kelting’s BK Bike School offers one-hour private lessons for kids ages four and up, pri
-- **NEW**  [[St. Louis] Car thieves use mechanics’ tools to target vehicles—and brag about it on TikTok](https://www.stlmag.com/news/car-thieves-on-board-diagnostics-tiktok/) — *2026-08-11*
-  > <p>Gary Hosna is a lifelong resident of the Shaw neighborhood who keeps a close eye on the happenings of the neighborhood. He manages neighborhood groups on Facebook and Nextdoor, and he’s engaged with the police and the neighborhood improvement specialist. Lately what he’s seein
-- **NEW**  [[St. Louis] Podcast: Hear what happens when St. Louis dads ‘dad up’](https://www.stlmag.com/news/dads-economic-mobility-audio-podcast/) — *2026-08-11*
-  > <p>We write; you read. That’s how it works here at SLM. But what if the voices in a written story hold so much nuance and feeling, they merit being heard directly? That’s what happened when senior editor Nicholas Phillips recorded the interviews for his feature about efforts to h
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-08-12*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
 - **NEW**  [[St. Louis] David Crowley defeats Francesca Hong in close Wisconsin Democratic primary for governor](https://www.ksdk.com/article/news/nation-world/david-crowley-wisconsin-democrat-francesca-hong/507-42541e4e-990c-4eb6-95e2-d43c8a9b9ab3) — *2026-08-12*
   > Incumbent Gov. Tony Evers had backed Crowley's campaign while Hong drew endorsements from national progressives.
 - **NEW**  [[St. Louis] Key races to watch for the Aug. 11 primaries: Live results maps for elections in 6 states](https://www.ksdk.com/article/news/politics/elections/tuesday-primary-election-results-preview-august-11/507-bdb34b62-08bf-4d32-9233-ba6062b190b7) — *2026-08-12*
@@ -61,5 +39,27 @@ state: fresh
   > After a rare spinal stroke at age 19 paralyzed her from the neck down, Jessica Marchant has fought hard to regain some movement in her arms.
 - **NEW**  [[St. Louis] Sir Rod Stewart calls off remaining tour dates after coronary stent procedure](https://www.ksdk.com/article/news/nation-world/rod-stewart-cancels-tour-coronary-stent-procedure/507-56842071-a0c5-418e-970b-488bfd9ccdd9) — *2026-08-11*
   > The Grammy-winning rock 'n' roll singer said he is on the mend after the medical procedure.
+- **NEW**  [[St. Louis] 'She died protecting her kids': Family shares final act of Swansea mother killed in murder-suicide](https://www.ksdk.com/article/news/crime/she-died-protecting-her-kids-family-shares-final-act-of-swansea-mother-killed-in-murder-suicide/63-abdadde9-e11f-4c8b-974f-1b5706c8338e) — *2026-08-11*
+  > Family says the mother of five endured years of harassment from the man police believe killed her, while previously obtaining an order of protection against him.
+- [[St. Louis] Woman killed in Cahokia Heights murder-suicide had protection order](https://www.ksdk.com/article/news/crime/illinois-murder-suicide-cahokia-heights-investigation/63-eebd8a94-7be0-45c0-a092-34026883c3ee) — *2026-08-11*
+  > Police said a man killed a woman before taking his own life Saturday night in Cahokia Heights. Court records show she had sought protection from him.
+- **NEW**  [[St. Louis] 'Author: OpenAI': Metadata contradicts Missouri lawmakers' denials about who wrote their AI playbook](https://www.ksdk.com/article/news/local/author-openai-metadata-contradicts-missouri-lawmakers-denials-about-who-wrote-their-ai-playbook/63-7b808ba8-cce3-4a32-8c55-d22232c61435) — *2026-08-11*
+  > The chairman said no large language model was used. Then "not to my knowledge." The file was born five days earlier with an AI company's name in embedded metadata.
+- **NEW**  [[St. Louis] 'The Office' actress Lucy Davis reveals terminal cancer diagnosis](https://www.ksdk.com/article/news/nation-world/actress-lucy-davis-cancer-diagnosis/507-0148e505-4ded-490e-99f7-caf8a2bac9e4) — *2026-08-11*
+  > Lucy Davis reveals she was diagnosed with Stage 4 breast cancer, sharing her acceptance and urging early medical checks.
+- **NEW**  [[St. Louis] Live results: Wisconsin governor primary election](https://www.ksdk.com/article/news/politics/elections/wisconsin-governor-primary-election-live-results-maps/507-032f4f55-4c0c-478c-88e4-61ae8e95b9a3) — *2026-08-11*
+  > Check the results as they come in using this county-by-county map.
+- **NEW**  [[St. Louis] High school football player in Arkansas practices with a venomous snake in his helmet](https://www.ksdk.com/article/news/nation-world/snake-helmet-high-school-football-cottonmouth/507-6982f4ec-ee26-4cc0-af9e-61d69fb6c2f6) — *2026-08-11*
+  > “It was unreal," said the Maumelle, Arkansas, animal services director after the cottonmouth was found in the player's helmet.
+- **NEW**  [[St. Louis] Julie Andrews confirms she won't return for 'Princess Diaries 3'](https://www.ksdk.com/article/news/nation-world/julie-andrews-wont-return-for-princess-diaries-3/507-4d21b0dd-3c6c-4a5f-99ce-cc89ab50372f) — *2026-08-11*
+  > “I’m not completely retired, but it’s a different kind of work that I do these days," Andrews said in an interview this week.
+- **NEW**  [[St. Louis] Real-time election results: South Carolina special primary Senate race to replace Lindsey Graham](https://www.ksdk.com/article/news/politics/elections/south-carolina-us-senate-special-primary-election-results/507-6567aab6-c08d-465a-bab4-69a25c7873ef) — *2026-08-11*
+  > South Carolina Republicans are voting in a special primary to replace the late Sen. Lindsey Graham. Track the results using an interactive map.
+- **NEW**  [[St. Louis] Florida officer used Flock camera database 717 times to track estranged wife's vehicle, affidavit says](https://www.ksdk.com/article/news/nation-world/florida-officer-suspect-charges-flock-cameras-estranged-wife/507-4786ed59-8204-4f37-90ff-2ef3c21ef5a8) — *2026-08-11*
+  > The officer is facing charges and was placed on administrative leave.
+- **NEW**  [[St. Louis] $1 billion Powerball jackpot: How much would a winner take home after taxes?](https://www.ksdk.com/article/news/nation-world/powerball-jackpot-how-much-after-taxes/507-c965709b-22a4-4a81-95da-dcfaa27555ce) — *2026-08-11*
+  > If you beat the Powerball jackpot's astronomical odds, you'll have a hefty tax bill waiting for you.
+- **NEW**  [[St. Louis] City leaders hold ribbon-cutting to unveil brand-new Cahokia High School](https://www.ksdk.com/article/news/local/city-leaders-hold-ribbon-cutting-to-unveil-brand-new-cahokia-high-school/63-cb2f74e7-0663-42bf-86ce-672eef3110fa) — *2026-08-11*
+  > The new Cahokia High School on Camp Jackson Road will replace the district’s aging high school, which is more than 70 years old.
 
-_(210 additional items in raw.jsonl)_
+_(219 additional items in raw.jsonl)_
