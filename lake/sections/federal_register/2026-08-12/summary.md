@@ -1,0 +1,61 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-08-12
+record_count: 29
+new_today: 16
+state: fresh
+---
+
+## U.S. Federal Action
+
+16 new of 29 total items today.
+
+- **NEW**  [Appellate Jurisdiction Update II](https://www.federalregister.gov/documents/2026/08/12/2026-16456/appellate-jurisdiction-update-ii) — *2026-08-12*
+  > The Merit Systems Protection Board (MSPB or Board) is amending its regulations to remove references to MSPB's jurisdiction over probationary termination, suitability, and reduction-in-force (RIF) appeals. This revision reflects the Office of Personnel Management's (OPM's) resciss
+- **NEW**  [Community Reinvestment Act Regulations](https://www.federalregister.gov/documents/2026/08/12/2026-16454/community-reinvestment-act-regulations) — *2026-08-12*
+  > The Office of the Comptroller of the Currency (OCC) and the Federal Deposit Insurance Corporation (FDIC) are proposing to amend their Community Reinvestment Act rules by making certain substantive, technical, and process-oriented changes to refocus on the statutory objective of e
+- **NEW**  [Imposition of Import Restrictions on Categories of Archaeological and Ethnological Material of Nepal](https://www.federalregister.gov/documents/2026/08/12/2026-16432/imposition-of-import-restrictions-on-categories-of-archaeological-and-ethnological-material-of-nepal) — *2026-08-12*
+  > This document amends U.S. Customs and Border Protection (CBP) regulations to reflect the imposition of import restrictions on certain archaeological and ethnological material from the Federal Democratic Republic of Nepal (Nepal). These restrictions are imposed pursuant to an agre
+- **NEW**  [Special Local Regulation; Casco Bay, Flotilla To Fight Cancer, Long Island, ME](https://www.federalregister.gov/documents/2026/08/12/2026-16428/special-local-regulation-casco-bay-flotilla-to-fight-cancer-long-island-me) — *2026-08-12*
+  > The Coast Guard is establishing a temporary special local regulation for the navigable waters of Casco Bay, in the vicinity of Cow Island, in the Town of Long Island, ME, to support an offshore concert with spectator vessels. This regulation is needed to protect spectators and ma
+- **NEW**  [Special Local Regulation; Daugherty Creek, Crisfield, MD](https://www.federalregister.gov/documents/2026/08/12/2026-16426/special-local-regulation-daugherty-creek-crisfield-md) — *2026-08-12*
+  > The Coast Guard is establishing a temporary special local regulation (SLR) for certain waters of Daugherty Creek, off Wellington Beach, near Crisfield, MD. This action is necessary to provide for the safety of life on these navigable waters during a power boat racing event on Sep
+- **NEW**  [Rescission of DOE's Procedures for Traffic Control on the Nevada Test Site](https://www.federalregister.gov/documents/2026/08/12/2026-16425/rescission-of-does-procedures-for-traffic-control-on-the-nevada-test-site) — *2026-08-12*
+  > This interim final rule rescinds DOE's regulations outlining the establishment of traffic control regulations on the Nevada National Security Site (NNSS), formerly known as the Nevada Test Site. This action is being taken to remove regulations that are obsolete because the NNSS u
+- **NEW**  [Guide To Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce; Guidance for Industry; Availability](https://www.federalregister.gov/documents/2026/08/12/2026-16420/guide-to-minimize-biological-hazards-in-ready-to-eat-fresh-cut-produce-guidance-for-industry) — *2026-08-12*
+  > The Food and Drug Administration (FDA or we) is announcing the availability of a final guidance for industry entitled "Guide to Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce." This guidance supersedes a previous guidance, entitled "Guide to Minimize Microbial Food
+- **NEW**  [Adoption and Foster Care Analysis and Reporting System](https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system) — *2026-08-12*
+  > This document withdraws a proposed rule that was published in the Federal Register on January 11, 2008. The proposed rule would have amended the Adoption and Foster Care Analysis and Reporting System (AFCARS) regulations at 45 CFR 1355.40 and the appendices to Part 1355 to modify
+- **NEW**  [Schedules of Controlled Substances: Temporary Placement of O-Desmethyltramadol in Schedule I](https://www.federalregister.gov/documents/2026/08/12/2026-16413/schedules-of-controlled-substances-temporary-placement-of-o-desmethyltramadol-in-schedule-i) — *2026-08-12*
+  > The Drug Enforcement Administration issues this temporary order to schedule O-desmethyltramadol (other names: O-DSMT; desmetramadol; 3-[(1R,2R)-2-[(dimethylamino)methyl]-1- hydroxycyclohexyl]phenol), including its isomers, esters, ethers, salts, and salts of isomers, esters and e
+- **NEW**  [Special Conditions: Skyryse, Robinson Helicopter Company Model R66 Helicopter; Flight Control System Annunciation of Control](https://www.federalregister.gov/documents/2026/08/12/2026-16412/special-conditions-skyryse-robinson-helicopter-company-model-r66-helicopter-flight-control-system) — *2026-08-12*
+  > These special conditions are issued for the Robinson Helicopter Company (Robinson) Model R66 helicopter. This helicopter, as modified by Skyryse, will have a novel or unusual design feature when compared to the state of technology envisioned in the airworthiness standards for nor
+- **NEW**  [Safety Zone; T/V DENISE FOSS (O.N. 1254223), Honolulu, HI](https://www.federalregister.gov/documents/2026/08/12/2026-16407/safety-zone-tv-denise-foss-on-1254223-honolulu-hi) — *2026-08-12*
+  > The Coast Guard is establishing a temporary safety zone for navigable waters within a 500-yard radius of the T/V DENISE FOSS (O.N. 1254223) and its tow, FOSS 3612 (O.N. 1255436). The moving safety zone is needed to protect personnel, vessels, and the marine environment from poten
+- **NEW**  [Security Zone; U.S. Coast Guard Base, Los Angeles Harbor Main Channel, Los Angeles, CA](https://www.federalregister.gov/documents/2026/08/12/2026-16406/security-zone-us-coast-guard-base-los-angeles-harbor-main-channel-los-angeles-ca) — *2026-08-12*
+  > The Coast Guard is proposing to establish a permanent security zone extending 40 yards into the navigable waters of the main channel of Los Angeles Harbor including the entire perimeter of the Coast Guard Base on Terminal Island. This action is necessary for the security of milit
+- **NEW**  [List of Approved Spent Fuel Storage Casks: NAC International, Inc., MAGNASTOR® Storage System, Certificate of Compliance No. 1031, Amendment Nos. 16 and 17 and Revisions to Amendment Nos. 0 through 16](https://www.federalregister.gov/documents/2026/08/12/2026-16398/list-of-approved-spent-fuel-storage-casks-nac-international-inc-magnastor-storage-system-certificate) — *2026-08-12*
+  > The U.S. Nuclear Regulatory Commission (NRC) is confirming the effective date of September 14, 2026, for the direct final rule that was published in the Federal Register on July 1, 2026. This direct final rule amended the NAC MAGNASTOR System listing within the "List of approved 
+- **NEW**  [Amendment of Class E Airspace Over Staunton, VA](https://www.federalregister.gov/documents/2026/08/12/2026-16393/amendment-of-class-e-airspace-over-staunton-va) — *2026-08-12*
+  > This action amends Class E airspace over Staunton, VA. This action expands that portion of the Staunton, VA Class E5 airspace extending to the northwest of Bridgewater Air Park from "within 1.5 miles either side of the 338[deg] bearing from the airport extending from the 8.3-mile
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes](https://www.federalregister.gov/documents/2026/08/12/2026-16389/airworthiness-directives-the-boeing-company-airplanes) — *2026-08-12*
+  > The FAA proposes to supersede Airworthiness Directive (AD) 2022-15-01, which applies to certain The Boeing Company Model 787-8, 787-9, and 787-10 airplanes. AD 2022-15-01 requires inspecting certain vertical fin tension bolt holes; reviewing the bolt sealant application installat
+- **NEW**  [Powered Micromobility Devices](https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices) — *2026-08-12*
+  > The National Park Service finalizes a management framework for the use of powered micromobility devices within the National Park System. The final rule defines powered micromobility devices separately from motor vehicles, traditional bicycles, electric bicycles, and human powered
+- [Ending Birth Tourism](https://www.federalregister.gov/documents/2026/08/11/2026-16404/ending-birth-tourism) — *2026-08-11*
+- [Continuing To Protect the Meaning and Value of American Citizenship](https://www.federalregister.gov/documents/2026/08/11/2026-16403/continuing-to-protect-the-meaning-and-value-of-american-citizenship) — *2026-08-11*
+- [National Purple Heart Day, 2026](https://www.federalregister.gov/documents/2026/08/11/2026-16401/national-purple-heart-day-2026) — *2026-08-11*
+- [Adjusting Imports of Polysilicon and Its Derivatives Into the United States](https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states) — *2026-08-11*
+- [Schedules of Controlled Substances: Rescheduling of Suvorexant, Lemborexant, and Daridorexant From Schedule IV Into Schedule V](https://www.federalregister.gov/documents/2026/08/11/2026-16375/schedules-of-controlled-substances-rescheduling-of-suvorexant-lemborexant-and-daridorexant-from) — *2026-08-11*
+  > The Drug Enforcement Administration proposes to transfer suvorexant ([(7R)-4-(5-chloro-1,3-benzoxazol-2-yl)-7-methyl-1,4- diazepan-1-yl]-[5-methyl-2-(triazol-2-yl)phenyl]methanone), lemborexant ((1R,2S)-2-[(2,4-dimethylpyrimidin-5-yl)oxymethyl]-2-(3-fluorophenyl)- N-(5-fluoropyri
+- [NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security](https://www.federalregister.gov/documents/2026/08/11/2026-16374/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security) — *2026-08-11*
+  > The U.S. Nuclear Regulatory Commission (NRC) is amending its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Advisory Com
+- [NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security](https://www.federalregister.gov/documents/2026/08/11/2026-16373/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security) — *2026-08-11*
+  > The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Ad
+- [Reforms to 13 CFR 124.103 To Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage for Individually Owned Firms Only. Reforms Do Not Impact Entity-Owned Firms](https://www.federalregister.gov/documents/2026/08/11/2026-16370/reforms-to-13-cfr-124103-to-remove-sbas-8a-programs-rebuttable-presumption-of-social-disadvantage) — *2026-08-11*
+  > The U.S. Small Business Administration ("SBA" or "Agency") amends its regulations to align the Section 8(a) Business Development Program (8(a) BD program) with constitutional requirements and the law. The rule applies only to the 8(a) BD eligibility of small businesses owned and 
+- [Geographic Targeting Order Imposing Recordkeeping and Reporting Requirements on Certain Financial Institutions in Minnesota](https://www.federalregister.gov/documents/2026/08/11/2026-16365/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-financial) — *2026-08-11*
+  > FinCEN is issuing this Geographic Targeting Order, requiring banks and money transmitters located in the Counties of Hennepin and Ramsey, Minnesota to retain and report records of certain payments of $3,000 or more.
+
+_(4 additional items in raw.jsonl)_
