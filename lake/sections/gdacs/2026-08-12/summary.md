@@ -3,13 +3,13 @@ section: gdacs
 title: GDACS — global disaster alerts
 date: 2026-08-12
 record_count: 315
-new_today: 24
-state: fresh
+new_today: 0
+state: stale_after_failure
 ---
 
 ## GDACS — global disaster alerts
 
-24 new of 315 total items today.
+0 new of 315 total items today.
 
 - [[Red] Earthquake in Colombia](https://www.gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ) — *2026-08-10*
   > Earthquake · Red alert · Colombia · Magnitude 7.4M, Depth:110.285km
