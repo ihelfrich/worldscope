@@ -20,7 +20,7 @@ state: fresh
    evidence: [lake:political_figures:0002097393-2], [lake:political_figures:0001192482-2], [lake:political_figures:0001556224-2], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 3. **Nancy Mace** (Representative, Republican, SC-1st): composite 0.182
    drivers: new_filings=0.82, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
+   evidence: [lake:political_figures:gkg-20260813], [lake:political_figures:gkg-20260813], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
 4. **Michael Cloud** (Representative, Republican, TX-27th): composite 0.073
    drivers: new_filings=0.73
    evidence: [lake:political_figures:0002004239-2], [lake:political_figures:0001962329-2], [lake:political_figures:0002045034-2], [lake:political_figures:0002004299-2], [lake:political_figures:0001493152-2]

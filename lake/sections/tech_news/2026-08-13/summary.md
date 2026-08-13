@@ -3,30 +3,39 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-13
 record_count: 58
-new_today: 38
+new_today: 42
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-38 new of 58 total items today.
+42 new of 58 total items today.
 
 - **NEW**  [[The Hacker News] Attackers Exploit SharePoint Authentication Bypass After Public PoC Release](https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html) — *2026-08-13*
   > Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.
 
 The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from 
+- **NEW**  [[The Register] Everything is better with pickles... except Windows](https://www.theregister.com/offbeat/2026/08/13/everything-is-better-with-pickles-except-windows/5284978) — *2026-08-13*
+  > Operating system indigestion pops up over chicken sandwich ad
 - **NEW**  [[The Register] Passwords stored in public Google Doc then showed up in search results](https://www.theregister.com/security/2026/08/13/passwords-stored-in-public-google-doc-then-showed-up-in-search-results/5287028) — *2026-08-13*
   > Developer spotted hostname and credential string lurking in autocomplete
 - **NEW**  [[The Register] Cisco thinks Mythos means instant death for unsupported networking kit](https://www.theregister.com/networks/2026/08/13/cisco-thinks-mythos-means-instant-death-for-unsupported-networking-kit/5287204) — *2026-08-13*
   > CEO says buyers are moving fast and shuffling budgets to replace old boxen
-- **NEW**  [[The Register] Tencent says it could make instant profits on $53bn hardware splurge by renting it for AI workloads](https://www.theregister.com/off-prem/2026/08/13/tencent-says-it-could-make-instant-profits-on-53bn-hardware-splurge-by-renting-it-for-ai-workloads/5287181) — *2026-08-13*
+- **NEW**  [[The Register] Tencent says it could make instant profits on $53B hardware splurge by renting it for AI workloads](https://www.theregister.com/off-prem/2026/08/13/tencent-says-it-could-make-instant-profits-on-53b-hardware-splurge-by-renting-it-for-ai-workloads/5287181) — *2026-08-13*
   > Plans to build models instead because it thinks selling tokens will prove more lucrative in the long term
 - **NEW**  [[The Register] Chinese Loongson processors have leaky caches, researchers find](https://www.theregister.com/security/2026/08/13/chinese-loongson-processors-have-leaky-caches-researchers-find/5287137) — *2026-08-13*
   > Attackers could extract data, even working from inside a guest VM
-- **NEW**  [[The Register] OpenAI ad service can bill customers for up to one day after they pause campaigns](https://www.theregister.com/ai-and-ml/2026/08/13/openai-ad-service-can-bill-customers-for-up-to-one-day-after-they-pause-campaigns/5287110) — *2026-08-13*
-  > ChatGPT Ads, I wish I knew how to quit you
+- **NEW**  [[Computer Weekly] Rimini Street bids to broaden CIO appeal with agentic AI move](https://www.computerweekly.com/news/366648894/Rimini-Street-bids-to-broaden-CIO-appeal-with-agentic-AI-move) — *2026-08-13*
+  > &lt;p&gt;Rimini Street, a pioneer in enterprise software third-party maintenance, is steering a new course, having recently released Rimini Govern for AI, a managed service said to help IT leaders hasten and moderate &lt;a href="https://www.techtarget.com/ai/feature/The-rise-of-t
+- **NEW**  [[Computer Weekly] Ryanair signs five-year Google Cloud AI partnership](https://www.computerweekly.com/news/366649262/Ryanair-signs-five-year-Google-Cloud-AI-partnership) — *2026-08-13*
+  > &lt;p&gt;Ryanair has signed a five-year partnership with Google Cloud that will see Europe’s largest airline deploy Gemini Enterprise and Google Workspace to 35,000 employees and &lt;a href="https://www.computerweekly.com/podcast/Podcast-How-customers-use-multi-cloud-and-mitigate
+- **NEW**  [[Computer Weekly] At least six police forces have racked up contracts with Palantir worth £7.8m](https://www.computerweekly.com/news/366648893/At-least-six-police-forces-have-racked-up-contracts-with-Palantir-worth-78m) — *2026-08-13*
+  > &lt;p&gt;At least six different police forces have recently used artificial intelligence (AI) investigation tools provided by Palantir Technologies, Computer Weekly and Good Law Project have found.&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Agreements between Palantir and these police forces 
 - **NEW**  [[Computer Weekly] Oracle Cloud Infrastructure gets hybrid quantum capabilities](https://www.computerweekly.com/news/366649217/Oracle-Cloud-Infrastructure-gets-hybrid-quantum-capabilities) — *2026-08-13*
   > &lt;p&gt;&lt;a href="https://www.computerweekly.com/news/366621552/Research-team-demonstrates-certified-quantum-randomness"&gt;Quantum computing company Quantinuum&lt;/a&gt; has signed a multi-year strategic partnership with Oracle to bring quantum computing to Oracle Cloud Infra
+- **NEW**  [[MIT Technology Review] How kids feel about AI, in their own words](https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/) — *2026-08-13*
+  > When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share
 - **NEW**  [[BleepingComputer] "City-Forum" data-theft attacks target Salesforce, ServiceNow portals](https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/) — *2026-08-12*
   > An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]
 - **NEW**  [[BleepingComputer] Android malware combo takes out loans and relays victims' credit cards](https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/) — *2026-08-12*
@@ -61,14 +70,5 @@ According to Picus Labs' new Blue Report 2026, which measured more than 338 mill
   > Researchers disclosed the bug to Microsoft after examining a long-running campaign by North Korean hackers to exploit the job application process.
 - **NEW**  [[Cybersecurity Dive] Hackers abuse AI models to find new entry paths](https://www.cybersecuritydive.com/news/google-cloudaccenture/827689/) — *2026-08-12*
   > Network defenders are racing to secure their IT systems before criminal and state-actors circumvent existing guardrails.
-- **NEW**  [[Cybersecurity Dive] Cisco says software vulnerability could let hackers crash firewalls](https://www.cybersecuritydive.com/news/cisco-firewall-vulnerabilities-vpn-crash/827688/) — *2026-08-12*
-  > Threat actors have already begun exploiting the flaw, according to the U.S. government.
-- **NEW**  [[Schneier on Security] Prompt Injections for Defense](https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html) — *2026-08-12*
-  > This seems to work:
-Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts d
-- **NEW**  [[Ars Technica] Toddler's tragic death from brain-destroying amoeba offers lessons for doctors](https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/) — *2026-08-12*
-  > Boy's unusual symptoms could help identify the next case sooner.
-- **NEW**  [[Ars Technica] The web’s newest weapon against AI scrapers is a font](https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/) — *2026-08-12*
-  > “ShieldFont” aims to poison AI training data without making pages unreadable for people.
 
 _(33 additional items in raw.jsonl)_

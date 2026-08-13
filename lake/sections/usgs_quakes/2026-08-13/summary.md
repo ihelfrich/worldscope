@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-13
-record_count: 9
-new_today: 9
+record_count: 10
+new_today: 10
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-9 new of 9 total items today.
+10 new of 10 total items today.
 
 - **NEW**  [M 6.0 - South Sandwich Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74) — *2026-08-12*
   > M6.0 · South Sandwich Islands region · depth 10 km
@@ -27,5 +27,7 @@ state: fresh
   > M4.6 · 15 km WSW of Honmachi, Japan · depth 10 km
 - **NEW**  [M 4.6 - 55 km SW of Champerico, Guatemala](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk75) — *2026-08-12*
   > M4.6 · 55 km SW of Champerico, Guatemala · depth 35 km
+- **NEW**  [M 4.5 - 222 km SSW of Severo-Kuril’sk, Russia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkeb) — *2026-08-13*
+  > M4.5 · 222 km SSW of Severo-Kuril’sk, Russia · depth 35 km
 - **NEW**  [M 4.5 - 125 km NNW of Ambon, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk6n) — *2026-08-12*
   > M4.5 · 125 km NNW of Ambon, Indonesia · depth 10 km

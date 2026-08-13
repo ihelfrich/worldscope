@@ -2,64 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-13
-record_count: 50
-new_today: 50
+record_count: 72
+new_today: 72
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-50 new of 50 total items today.
+72 new of 72 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] US – Iran standoff deepens : Strait of Hormuz disruption , oil spill in Oman and flight updates UAE residents need today ( Aug . 13 , 2026 ) ](https://gulfnews.com/uae/us-iran-standoff-what-uae-residents-need-to-know-today-aug-13-2026-1.500639365) — *2026-08-13*
-  > gulfnews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Colombian President invokes](http://www.bignewsnetwork.com/news/279238466/colombian-president-invokes-economic-emergency-to-expedite-earthquake-relief-265-dead-3494-injured-so-far) — *2026-08-13*
-  > bignewsnetwork.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Imbarcazione scuffiata a circa 300 metri dalla costa di Ortona : quattro persone messe in salvo](https://www.chietitoday.it/cronaca/barca-ribaltata-ortona-famiglia-salvata-bagnini-soccorsi.html) — *2026-08-13*
-  > chietitoday.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Adana Kozanda Sel ve Dolu Sonrası Mısır Hasadı Başladı](https://www.mersinhaber.com/haber-adana-kozanda-sel-ve-dolu-sonrasi-misir-hasadi-basladi/740872) — *2026-08-13*
-  > mersinhaber.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Venezuela : Dont Blame the Victim](http://www.venezuelastar.com/news/279237931/venezuela-dont-blame-the-victim) — *2026-08-13*
-  > venezuelastar.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] أسعار الذهب ترتفع إلى أعلى مستوى منذ شهرين](https://24.ae/article/965194/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%AA%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-%D8%A3%D8%B9%D9%84%D9%89-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D9%85%D9%86%D8%B0-%D8%B4%D9%87%D8%B1%D9%8A%D9%86) — *2026-08-13*
-  > 24.ae · Arabic · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Υποχωρεί στα 88 δολ . το πετρέλαιο με το βλέμμα στα Στενά του Ορμούζ](https://www.in.gr/2026/08/13/economy/diethnis-oikonomia/ypoxorei-sta-88-dol-to-petrelaio-me-to-vlemma-sta-stena-tou-ormouz/) — *2026-08-13*
-  > in.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Travis Barker reveals one rule in Kourtney Kardashian marriage](http://www.femalefirst.co.uk/celebrity/travis-barker-reveals-one-rule-kourtney-kardashian-marriage-1448973.html) — *2026-08-13*
-  > femalefirst.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Yacht di lusso da 8 milioni di euro affondato a Porto Cervo : era stato consegnato al proprietario solo pochi giorni prima](https://www.today.it/attualita/yacht-di-lusso-affondato-porto-cervo-cosa-e-successo.html) — *2026-08-13*
-  > today.it · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Desalojan una boda celta en un sitio vetado para ver el eclipse en Barreiros y salvan a un alérgico picado por avispas](https://www.lavozdegalicia.es/noticia/amarina/barreiros/2026/08/12/desalojan-boda-celta-sitio-vetado-barreiros-salvan-alergico-picado-avispas/00031786568997540861703.htm) — *2026-08-13*
-  > lavozdegalicia.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Israelis caught with tobacco may be involved in  ant smuggling  ](https://cyprus-mail.com/2026/08/13/israelis-caught-with-tobacco-may-be-involved-in-ant-smuggling) — *2026-08-13*
-  > cyprus-mail.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Off the coast of Sicily this month , a fisherman named Giacomo De Mola noticed something odd on his sonar and dove in anyway what he found was a Roman merchant ship , undisturbed on the seafloor for more than two thousand years , dating to a period w...](https://scienceblog.com/n-off-the-coast-of-sicily-this-month-a-fisherman-named-giacomo-de-mola-noticed-something-odd-on-his-sonar-and-dove-in-anyway-what-he-found-was-a-roman-merchant-ship-undisturbed-on-seafloor/) — *2026-08-13*
-  > scienceblog.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 闪电评论 | 风起齐鲁 ， 绿意生长 _ 原创阵地 _ 齐鲁时评 _ 齐鲁网](https://pinglun.iqilu.com/yuanchuang/2026/0813/5935833.shtml) — *2026-08-13*
-  > pinglun.iqilu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] जानें क्यों खास है राजस्थानी पापड़ की सब्जी , स्वाद और परंपरा का है बेहतरीन संगम](https://hindi.pardaphash.com/discover-what-makes-rajasthani-papad-ki-sabzi-special-a-perfect-blend-of-taste-and-tradition/) — *2026-08-13*
-  > hindi.pardaphash.com · Hindi · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Stocks Settle Lower Ahead of Wednesday CPI Report](https://finance.yahoo.com/markets/stocks/articles/stocks-settle-lower-ahead-wednesday-203643108.html) — *2026-08-13*
-  > finance.yahoo.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Kades Mataram Musi Rawas Tegaskan Motor Koperasi Merah Putih Viral Angkut Sawit Bukan Milik Desanya](https://sumsel.tribunnews.com/sumsel/1026423/kades-mataram-musi-rawas-tegaskan-motor-koperasi-merah-putih-viral-angkut-sawit-bukan-milik-desanya) — *2026-08-13*
-  > sumsel.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Zealandia Continent , दुनिया के खोए 8वें महाद्वीप को वैज्ञानिकों ने खोजा , भारत से लगभग दोगुना , 8 . 5 करोड़ साल से समुद्र में डूबा - zealandia earth hidden eighth continent resurfaces beneath pacific ocean new zealand - Science News News](https://navbharattimes.indiatimes.com/world/science-news/zealandia-earth-hidden-eighth-continent-resurfaces-beneath-pacific-ocean-new-zealand/articleshow/133202444.cms) — *2026-08-13*
-  > navbharattimes.indiatimes.com · Hindi · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] BLM seeking public comment on proposed lease sale that includes Roan Plateau parcels](https://www.gjsentinel.com/news/western_colorado/blm-seeking-public-comment-on-proposed-lease-sale-that-includes-roan-plateau-parcels/article_128e027c-7a8e-46a6-8134-82c02981c0be.html) — *2026-08-13*
-  > gjsentinel.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Éclipse solaire dans les Landes  : Banos sest offert un moment convivial , entre entraide et débrouille](https://www.sudouest.fr:443/landes/banos/eclipse-solaire-dans-les-landes-banos-s-est-offert-un-moment-convivial-entre-entraide-et-debrouille-30235350.php) — *2026-08-13*
-  > sudouest.fr · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Maximum workplace temperature rule update as united kingdom heads for 38C](https://www.stokesentinel.co.uk/news/uk-world-news/maximum-workplace-temperature-rule-update-11107347) — *2026-08-13*
-  > stokesentinel.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Hari Jadi ke - 76 Kalsel , Pemprov Paparkan Sederet Pencapaian](https://banjarmasin.tribunnews.com/kalsel/1371984/hari-jadi-ke-76-kalsel-pemprov-paparkan-sederet-pencapaian) — *2026-08-13*
-  > banjarmasin.tribunnews.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Fox News Wont Help Trump Sell His Lies On A Major Issue Anymore](https://www.huffingtonpost.co.uk/entry/even-fox-news-wont-help-trump-sell-his-lies-on-a-major-issue-anymore_uk_6a7d5412e4b08accea256ec1) — *2026-08-13*
-  > huffingtonpost.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Iran - Krieg aktuell : Unklare Lage bei Straße von Hormus – Teheran kontert Trump](http://www.come-on.de/politik/iran-krieg-aktuell-strasse-von-hormus-bleibt-gesperrt-teheran-kontert-trump-zr-94441369.html) — *2026-08-13*
-  > come-on.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] UAE flight status today : Emirates , Etihad , Air Arabia and flydubai cancellations , India travel advisory and Gulf route updates](https://gulfnews.com/business/aviation/uae-flight-status-india-travel-advisory-emirates-etihad-and-air-arabia-cancellations-1.500639328) — *2026-08-13*
-  > gulfnews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Donald Trump poursuivi pour avoir vendu ses publications sur Truth Social](https://www.generation-nt.com/actualites/donald-trump-truth-social-monetisation-publication-2079730) — *2026-08-13*
-  > generation-nt.com · French · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine hits major Russian naval base | The Arkansas Democrat - Gazette](https://www.arkansasonline.com/news/2026/aug/13/ukraine-hits-major-russian-naval-base/) — *2026-08-13*
+  > arkansasonline.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian strike sparks fire at Ukraine port ; Zelenskyy seeks interceptors - Dominican Republic Post – Caribbean News , Business , Travel & Culture](https://dominicanrepublicpost.com/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors/) — *2026-08-13*
+  > dominicanrepublicpost.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] An overnight Ukrainian blitz damages Russia Black Sea naval stronghold , Zelenskyy says | News , Sports , Jobs](https://www.lahainanews.com/wire/?category=5041&ID=397392) — *2026-08-13*
+  > lahainanews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] ADAPTIVE INDOMITABLE UKRAINE Reversal of Ru Occupation in the Southeast Continues . 745 Sq Km & 26 Villages Liberated Since January](https://www.dailykos.com/stories/2026/8/13/800083633/community/adaptive-indomitable-ukraines-reversal-of-russian-occupation/) — *2026-08-13*
+  > dailykos.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Black Sea : Drone war escalates , hitting global wheat exports | Queensland Country Life](https://www.queenslandcountrylife.com.au/story/9329736/black-sea-drone-war-escalates-hitting-global-wheat-exports/) — *2026-08-13*
+  > queenslandcountrylife.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil eases as weaker demand outlook counters Mideast supply concerns](https://www.arabnews.com/node/2654482/business-economy) — *2026-08-13*
+  > arabnews.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Khmara : Ukraine to destroy Russian infrastructure , logistics to switch off military machine](https://en.interfax.com.ua/news/general/1192800.html) — *2026-08-13*
+  > en.interfax.com.ua · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine hits Russia Novorossiysk port , grain terminals](https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html) — *2026-08-13*
+  > cnbc.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Putin Threatens Retaliation Over Russian Ship Seizures](https://www.businessinsider.com/russia-ukraine-war-putin-western-ships-retaliation-shadow-fleet-europe-2026-8) — *2026-08-13*
+  > businessinsider.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Oman oil spill spreads to mainland beaches , threatens Masirah Island](https://www.newindianexpress.com/world/2026/Aug/13/oman-oil-spill-spreads-to-mainland-beaches-threatens-masirah-island) — *2026-08-13*
+  > newindianexpress.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil eases as weaker demand outlook counters Mideast supply concerns](https://tribune.com.pk/story/2623643/oil-eases-as-weaker-demand-outlook-counters-mideast-supply-concerns) — *2026-08-13*
+  > tribune.com.pk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine War , Day 1 , 632 : Kyiv Damages Russian Warships and Grain Terminals in Strikes on Novorossiysk](https://eaworldview.com/2026/08/ukraine-war-novorossiysk-kyiv-damages-russian-warships-and-grain-terminals/) — *2026-08-13*
+  > eaworldview.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian strike sparks fire at Ukraine port ; Zelenskyy seeks interceptors](https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors) — *2026-08-13*
+  > aljazeera.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Black Sea : Drone war escalates , hitting global wheat exports | Stock & Land](https://www.stockandland.com.au/story/9329736/black-sea-drone-war-escalates-hitting-global-wheat-exports/) — *2026-08-13*
+  > stockandland.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil spill from tanker damaged by explosions reaches Oman coast](https://www.freemalaysiatoday.com/category/world/2026/08/13/oil-spill-from-tanker-damaged-by-explosions-reaches-oman-coast) — *2026-08-13*
+  > freemalaysiatoday.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Oman says oil spill from stricken tanker has reached its coast](https://www.aljazeera.com/economy/2026/8/13/oman-says-oil-spill-from-stricken-tanker-has-reached-its-coast) — *2026-08-13*
+  > aljazeera.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Moscow says it knows where Western ships sail as Putin threatens to seize vessels](https://www.yahoo.com/news/world/articles/moscow-says-knows-where-western-055952381.html) — *2026-08-13*
+  > yahoo.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Putin threatens retaliation for Western seizures of commercial vessels](https://jamaica-gleaner.com/article/world-news/20260813/putin-threatens-retaliation-western-seizures-commercial-vessels) — *2026-08-13*
+  > jamaica-gleaner.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Blackout hits Sevastopol after Ukrainian attack](https://news.az/news/blackout-hits-sevastopol-after-ukrainian-attack) — *2026-08-13*
+  > news.az · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Ukraine strikes Russian grain export terminals - Baltic News Network](https://bnn-news.com/ukraine-strikes-russian-grain-export-terminals-282786) — *2026-08-13*
+  > bnn-news.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian Attack Sets Ablaze Ukraine Izmail Port infrastructure](https://english.aawsat.com/world/5306402-russian-attack-sets-ablaze-ukraines-izmail-port-infrastructure) — *2026-08-13*
+  > english.aawsat.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Black Sea : Drone war escalates , hitting global wheat exports | Stock Journal](https://www.stockjournal.com.au/story/9329736/black-sea-drone-war-escalates-hitting-global-wheat-exports/) — *2026-08-13*
+  > stockjournal.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Black Sea : Drone war escalates , hitting global wheat exports | North Queensland Register](https://www.northqueenslandregister.com.au/story/9329736/black-sea-drone-war-escalates-hitting-global-wheat-exports/) — *2026-08-13*
+  > northqueenslandregister.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Will Respond to Ship Seizures , Putin Warns European Nations](https://kashmirlife.net/russia-will-respond-to-ship-seizures-putin-warns-european-nations-447751/) — *2026-08-13*
+  > kashmirlife.net · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · keywords] Black Sea : Drone war escalates , hitting global wheat exports | Farm Weekly](https://www.farmweekly.com.au/story/9329736/black-sea-drone-war-escalates-hitting-global-wheat-exports/) — *2026-08-13*
+  > farmweekly.com.au · English · tone NA
 
-_(25 additional items in raw.jsonl)_
+_(47 additional items in raw.jsonl)_

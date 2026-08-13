@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-13
-record_count: 239
-new_today: 222
+record_count: 229
+new_today: 208
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-222 new of 239 total items today.
+208 new of 229 total items today.
 
 - **NEW**  [[St. Louis] Van Hoesen House of Cheesecakes opens first storefront in Rock Hill](https://www.stlmag.com/dining/van-hoesen-house-of-cheesecakes-opens-first-storefront-in-rock-hill/) — *2026-08-12*
   > <p>The Rock Hill dining landscape just got a lot sweeter, thanks to a wildly popular local cheesecake brand. Van Hoesen House of Cheesecakes, a two-year-old business known for its elevated cheesecakes, is set to softly open its first brick-and-mortar location at 9226 Manchester t
@@ -31,6 +31,8 @@ state: fresh
   > <p>Anthony D’Agostino&#160; PETER AND PAUL COMMUNITY SERVICES D’Agostino led the charge this winter as the city coordinated its first emergency winter shelter effort in recent memory that was in direct collaboration with nonprofits—as well as the first that local service provider
 - **NEW**  [[St. Louis] St. Louis Magazine’s A-List Awards 2026](https://www.stlmag.com/a-list/2026/) — *2026-08-12*
   > <p>St. Louis Magazine’s annual A-List Awards recognize the region’s finest—from art to dining, shopping to those shaping the region—as chosen by readers and editors. More than 430,000 votes were cast to determine the readers’ choice winners and finalists. Read on to see if your f
+- **NEW**  [[St. Louis] Who won the Powerball jackpot? What we know about Wednesday night's billion-dollar winner](https://www.ksdk.com/article/news/nation-world/powerball-jackpot-billion-dollars-winner-illinois/507-3c76de8c-e094-4643-8f2a-04fa7d0e7033) — *2026-08-13*
+  > Ever heard of the expression one in a million? Wednesday night's winner overcame much steeper odds than that.
 - **NEW**  [[St. Louis] Winning numbers for Powerball's $1 billion jackpot](https://www.ksdk.com/article/news/nation-world/powerball-jackpot-drawing-numbers-lottery-billion-aug-12/507-10f62e5e-f3a0-4250-bb50-bb6fcedf42e5) — *2026-08-13*
   > The lump sum value of Wednesday's jackpot was $433.1 million before taxes.
 - **NEW**  [[St. Louis] More than a telethon: Mike Bush's 40-year commitment to St. Louis MDA families](https://www.ksdk.com/article/news/local/mike-bush-40-year-commitment-to-st-louis-mda-families/63-cdf5ddd6-1de5-4ee5-a3c3-70ef085ec41f) — *2026-08-13*
@@ -59,7 +61,5 @@ state: fresh
   > It will be the grocery chain's 29th location.
 - **NEW**  [[St. Louis] LIVE RADAR: Strong storms moving through parts of the St. Louis metro area](https://www.ksdk.com/article/weather/weather-impact/live-radar-strong-storms-st-louis-metro-area/63-1f2b0688-93a2-42a7-a87a-7d3c18bdc32e) — *2026-08-12*
   > Scattered strong storms are moving through the area.
-- **NEW**  [[St. Louis] Whole Foods recalls 43 more products with jalapeno due to salmonella concerns](https://www.ksdk.com/article/news/nation-world/whole-foods-recall-jalapeno-salmonella-concerns/507-b18db843-feb9-4cbf-ba2b-40497adbec2b) — *2026-08-12*
-  > Whole Foods recalled dozens of jalapeno-containing products in multiple states due to salmonella concerns. Here's a full list.
 
-_(214 additional items in raw.jsonl)_
+_(204 additional items in raw.jsonl)_

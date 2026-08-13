@@ -2,17 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-08-13
-record_count: 664
-new_today: 337
+record_count: 681
+new_today: 354
 state: fresh
 ---
 
 ## State-Level News
 
-337 new of 664 total items today.
+354 new of 681 total items today.
 
-- **NEW**  [[Alabama] Governor Ivey Announces Die Casting Company ‘2A USA’ to Make $32 Million Investment to Expand Auburn Facility](https://governor.alabama.gov/newsroom/2026/08/governor-ivey-announces-die-casting-company-2a-usa-to-make-32-million-investment-to-expand-auburn-facility/) — *2026-08-12*
-  > MONTGOMERY — Governor Kay Ivey on Wednesday announced that Italian aluminum die casting company 2A USA is again expanding its Auburn manufacturing facility with a $32 million investment. The Tier I automotive industry supplier’s expansion will increase production capacity for &#8
 - **NEW**  [[California] Governor Newsom and First Partner Siebel Newsom announce California State Parks’ FREE Fourth Grade Pass Now Available for 2026/27 School Year](https://www.gov.ca.gov/2026/08/12/governor-newsom-and-first-partner-siebel-newsom-announce-california-state-parks-free-fourth-grade-pass-now-available-for-2026-27-school-year/) — *2026-08-12*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-and-First-Partner-Siebel-Newsom-announce-California-State-Parks-FREE-Fourth-Grade-Pass-Now-Available-for-202627-School-Year-SEO-GFX-150x150.png" class="attachment-thumbnail size-t
 - **NEW**  [[California] California’s latest efficiency wins include access to life-saving heat tools, smarter and faster hiring efforts, and simplified business tax filing](https://www.gov.ca.gov/2026/08/12/californias-latest-efficiency-wins-include-access-to-life-saving-heat-tools-smarter-and-faster-hiring-efforts-and-simplified-business-tax-filing/) — *2026-08-12*
@@ -26,8 +24,8 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsoms-mental-health-reform-continues-to-deliver-announcing-15-new-projects-expanding-care-across-the-state-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-im
 - **NEW**  [[Alaska] Governor Dunleavy Introduces Compromise AK LNG Tax Legislation](https://gov.alaska.gov/governor-dunleavy-introduces-compromise-ak-lng-tax-legislation/) — *2026-08-12*
   > Today Governor Mike Dunleavy transmitted to the Legislature a compromise bill establishing the tax and oversight framework for the Alaska LNG project which can clear the way for the project to begin securing financing. The bill is identical to the Conference Committee version of 
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-13*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Alabama] Governor Ivey Announces Die Casting Company ‘2A USA’ to Make $32 Million Investment to Expand Auburn Facility](https://governor.alabama.gov/newsroom/2026/08/governor-ivey-announces-die-casting-company-2a-usa-to-make-32-million-investment-to-expand-auburn-facility/) — *2026-08-12*
+  > MONTGOMERY — Governor Kay Ivey on Wednesday announced that Italian aluminum die casting company 2A USA is again expanding its Auburn manufacturing facility with a $32 million investment. The Tier I automotive industry supplier’s expansion will increase production capacity for &#8
 - **NEW**  [[California] Corte Suprema de California dictamina que municipalidades no pueden añadir obstáculos a devoluciones de impuestos](https://calmatters.org/calmatters-en-espanol/2026/08/marathon-petroleum-impuestos/) — *2026-08-12*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/040126_Marathon-Refinery_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view a giant American Flag ha
 - **NEW**  [[California] CA gig workers clear new milestone in push for union](https://calmatters.org/newsletter/gig-worker-union-milestone/) — *2026-08-12*
@@ -48,17 +46,19 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/062926_Stenotypes-Court-Reporter_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The hands of two unidentifiable pe
 - [[California] Almost nowhere in California is building enough, according to the state. Here’s why](https://calmatters.org/housing/2026/08/california-rhna-housing-affordable-progress/) — *2026-08-11*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/03/052423_Santa-Monica-Construction-ZS_CM_27.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="laz
-- [[feed error] FL Governor (Florida): HTTPError](https://www.flgov.com/feed/) — *2026-08-13*
-  > 404 Client Error: Not Found for url: https://www.flgov.com/feed/
-- **NEW**  [[Delaware] These startups are now cleared for takeoff, thanks to a boost from the state](https://spotlightdelaware.org/2026/08/12/sponsored-dsb-ssbci/) — *2026-08-13*
-  > <figure><img width="1024" height="576" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Tori-Gel-Pipetting-1.jpg?fit=1024%2C576&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcse
-- **NEW**  [[Delaware] Delaware nixes the possibility of near-term nuclear power](https://spotlightdelaware.org/2026/08/12/delaware-nixes-the-possibility-of-near-term-nuclear-power/) — *2026-08-12*
-  > <figure><img width="1024" height="576" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/GE-SMR.jpg?fit=1024%2C576&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/spotlightdelaw
-- **NEW**  [[Delaware] Years after COVID, have Delaware schools embraced too much technology?](https://spotlightdelaware.org/2026/08/12/years-after-covid-have-delaware-schools-embraced-technology-too-much/) — *2026-08-12*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/APPQ-CLECC-IMG_5284-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcse
-- [[Delaware] ‘Beyond the Headlines’: A look at Delaware’s recreational marijuana market after one year](https://spotlightdelaware.org/2026/08/11/beyond-the-headlines-a-look-at-delawares-recreational-marijuana-market-after-one-year/) — *2026-08-12*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Julia-Podcast-1-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="http
-- [[Delaware] Court pauses Pentagon blacklist for Middletown pharma plant co.](https://spotlightdelaware.org/2026/08/11/court-pauses-pentagon-blacklist-for-middletown-pharma-plant-co/) — *2026-08-11*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/06/WuXi-June-2026-2-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="htt
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-13*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-13*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Connecticut] How many bears are there in CT? Here’s what it takes to find out.](https://ctmirror.org/2026/08/13/ct-black-bears-survey/) — *2026-08-13*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/BEAR-CENSUS-0804-JL-018-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-conte
+- **NEW**  [[Connecticut] CT doesn’t have a childcare crisis. It has a childcare policy crisis](https://ctmirror.org/2026/08/13/connecticut-doesnt-have-a-childcare-crisis-connecticut-has-a-childcare-policy-crisis/) — *2026-08-13*
+  > <figure><img width="1024" height="684" src="https://ctmirror.org/wp-content/uploads/2026/08/child-care-usda-1024x684.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/202
+- **NEW**  [[Connecticut] Larson lost to a younger challenger. Could Blumenthal face a similar test?](https://ctmirror.org/2026/08/12/ct-congressional-delegation-blumenthal-age/) — *2026-08-12*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/Blumenthal-0812-JL-003-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uplo
+- **NEW**  [[Connecticut] Which CT towns had the highest voter turnout for the primaries?](https://ctmirror.org/2026/08/12/ct-primary-voter-turnout/) — *2026-08-12*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/ELECTION-DAY-0811-JL-001-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/up
+- **NEW**  [[Connecticut] CT joins multistate lawsuit over federal mortgage escrow rules](https://ctmirror.org/2026/08/12/mortgage-escrow-lawsuit-tong-ct/) — *2026-08-12*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/LAMONT-DEMOCRACY-072026-JL-009-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-cont
 
-_(639 additional items in raw.jsonl)_
+_(656 additional items in raw.jsonl)_

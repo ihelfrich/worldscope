@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-08-13
-record_count: 261
-new_today: 207
+record_count: 270
+new_today: 220
 state: fresh
 ---
 
 ## Chinese Internal News
 
-207 new of 261 total items today.
+220 new of 270 total items today.
 
 - [[TITLE: 高盛 - deepview.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5mbFZ2MUFHMHBjR25WRWdSVU1RSmNZY2o0Wl9mMjdFSlpoMF9Kbm1Rc1V5YzdPc1VhdmFFakV3ZU1INkdNN1FWVXpnMkZZNTNnTW] (zh: 高盛 - deepview.caixin.com)](https://deepview.caixin.com) — *2026-08-11*
   > <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5mbFZ2MUFHMHBjR25WRWdSVU1RSmNZY2o0Wl9mMjdFSlpoMF9Kbm1Rc1V5YzdPc1VhdmFFakV3ZU1INkdNN1FWVXpnMkZZNTNnTWtOQ1ZJSkh0T0pmMnJVN0hKSk94RGc0NjMtbHZ2UQ?oc=5" target="_blank">高盛</a>&nbsp;&nbsp;<font color="#6f6f6f">deepview.caixin.c
@@ -31,22 +31,24 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE13ODBKUm9nNHJKYWItQzNsRHJPUUhhUk4zZVFYemhBV1NQSHR0dWhCRzhJMFFTZ0ZjSlhkRWpiaFA2VEJYMTNXVGVIbVZYNVlvcm5tcGcxMDNXekZGM1E?oc=5" target="_blank">宇树上市，高管、核心员工获配超180万股</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 朱镕基，中国走向世界的形象代言人｜纪念 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mOWs3LThMbkdJQ1Ntc0NFSmxVaHpCUndaT1BkampBY1BCNmlBUWFSZjNDSFI2a1RUM01JSjZablo3bGVyeThwYzc5bVFpQS02Wm] (zh: 朱镕基，中国走向世界的形象代言人｜纪念 - 财新)](https://mini.caixin.com) — *2026-08-13*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mOWs3LThMbkdJQ1Ntc0NFSmxVaHpCUndaT1BkampBY1BCNmlBUWFSZjNDSFI2a1RUM01JSjZablo3bGVyeThwYzc5bVFpQS02Wm9OZmdrcHpLb1duYkE?oc=5" target="_blank">朱镕基，中国走向世界的形象代言人｜纪念</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 南苏丹暴发独立以来最严重霍乱疫情 已致1700余人死亡 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5YQmp3M2tmOGE1WGJNQjR5OEkwMTluNHp0QnRnQi1fU2ZKcXkwUmhtaFd1djhLNG9sU2RZZlFUcG5qeW1ieTBRNTZkcH] (zh: 南苏丹暴发独立以来最严重霍乱疫情 已致1700余人死亡 - 财新)](https://international.caixin.com) — *2026-08-13*
+  > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5YQmp3M2tmOGE1WGJNQjR5OEkwMTluNHp0QnRnQi1fU2ZKcXkwUmhtaFd1djhLNG9sU2RZZlFUcG5qeW1ieTBRNTZkcHBvbWFwRU56dnh2UlFMTk4xUzlKM2x0ckM4cFBJT0E?oc=5" target="_blank">南苏丹暴发独立以来最严重霍乱疫情 已致1700余人死亡</a>&nbsp;&nbsp;<font color="#6f6f6f"
 - **NEW**  [[TITLE: 荣耀发万元“机器人手机” IPO动作密集 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OUkNJSGM0Rjlkc3lEdEJmSXFpYjZOSVFnRnlrMk84d2NNZFVkYWhWT3JTZlJhel9hMXVsUDE5TjZGTEtBYjU3dTlOUDNUaHQ3V] (zh: 荣耀发万元“机器人手机” IPO动作密集 - 财新)](https://companies.caixin.com) — *2026-08-13*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OUkNJSGM0Rjlkc3lEdEJmSXFpYjZOSVFnRnlrMk84d2NNZFVkYWhWT3JTZlJhel9hMXVsUDE5TjZGTEtBYjU3dTlOUDNUaHQ3VWlPdk41bnhOc0JQNDhaLTBobDI?oc=5" target="_blank">荣耀发万元“机器人手机” IPO动作密集</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzYTdYZDJZZEQzWm5mdFo4SmgxcTREYVJydU1VODlncTA5SDFwazgwcFhKT0hvVmt0SWxLRTI0VWN2Y3Uwc0VSMUFSOHh] (zh: 火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？ - 财新)](https://opinion.caixin.com) — *2026-08-13*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzYTdYZDJZZEQzWm5mdFo4SmgxcTREYVJydU1VODlncTA5SDFwazgwcFhKT0hvVmt0SWxLRTI0VWN2Y3Uwc0VSMUFSOHhPcDJMT0RvOURxSWZHZ0t5ZGZ5WVhB?oc=5" target="_blank">火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 为什么设立？政策目的何在？央行全解银行间市场数据报告库 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yTEoxV05xWmRMRjBCR1poWVFlRXJwREkyRm45Z0MyeTRFbzhaY1ZIQWJCYXpsNENLWkZHRVZGY2hfZXB4N3NDQTZjY2] (zh: 为什么设立？政策目的何在？央行全解银行间市场数据报告库 - 财新)](https://finance.caixin.com) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yTEoxV05xWmRMRjBCR1poWVFlRXJwREkyRm45Z0MyeTRFbzhaY1ZIQWJCYXpsNENLWkZHRVZGY2hfZXB4N3NDQTZjY2p1YlBtc0RKcnlCUjR4XzVHWl9EWE13?oc=5" target="_blank">为什么设立？政策目的何在？央行全解银行间市场数据报告库</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 华裔币圈大佬巴拉圭坠楼身亡 自称曾掌管逾20亿美元资产 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yaFVOT1JCYmJNU2RfNHhsbjRTN0E2UDdidjlkSUFoREJUR0tmQVR5QmtSc09nRkl0MGRkX0lqUEtkc1M0Ny13dFlXM0] (zh: 华裔币圈大佬巴拉圭坠楼身亡 自称曾掌管逾20亿美元资产 - 财新)](https://finance.caixin.com) — *2026-08-13*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yaFVOT1JCYmJNU2RfNHhsbjRTN0E2UDdidjlkSUFoREJUR0tmQVR5QmtSc09nRkl0MGRkX0lqUEtkc1M0Ny13dFlXM05qbGZtVUY5ZTBCMDdRb0VQeVVRZXhB?oc=5" target="_blank">华裔币圈大佬巴拉圭坠楼身亡 自称曾掌管逾20亿美元资产</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: 火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzYTdYZDJZZEQzWm5mdFo4SmgxcTREYVJydU1VODlncTA5SDFwazgwcFhKT0hvVmt0SWxLRTI0VWN2Y3Uwc0VSMUFSOHh] (zh: 火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？ - 财新)](https://opinion.caixin.com) — *2026-08-13*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzYTdYZDJZZEQzWm5mdFo4SmgxcTREYVJydU1VODlncTA5SDFwazgwcFhKT0hvVmt0SWxLRTI0VWN2Y3Uwc0VSMUFSOHhPcDJMT0RvOURxSWZHZ0t5ZGZ5WVhB?oc=5" target="_blank">火线评论｜外籍人才扎堆回流香港 缘何韩国精英最吃香？</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 联合国拉加经委会报告：拉美地区应避免僵化结盟 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8zRXd4c2t5dFVFZHJ0QV8tLXdZanFDR21iUzRqVTRaa2hLaUZoMkZhM1BJck80Nmg4SDdhaWRfQmpLakJLSGx2Z19UaFpxUmJ] (zh: 联合国拉加经委会报告：拉美地区应避免僵化结盟 - 财新)](https://international.caixin.com) — *2026-08-13*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8zRXd4c2t5dFVFZHJ0QV8tLXdZanFDR21iUzRqVTRaa2hLaUZoMkZhM1BJck80Nmg4SDdhaWRfQmpLakJLSGx2Z19UaFpxUmJYWUt3TG03M2RpVkMyN0RQOHZKbzZnWGk5U3c?oc=5" target="_blank">联合国拉加经委会报告：拉美地区应避免僵化结盟</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</
 - **NEW**  [[TITLE: 朱梅：一句“美女”带来的2.15亿美元巨额罚单 | 出海·专栏 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zR3c2T0ZJdmMybTVSV2Q0MFJBbGh5d05YN3pvZE80RUcxcUNzWUQ3ckNqZFBHLXZVUFR2RmVzZ1hWclRsUTNrbV] (zh: 朱梅：一句“美女”带来的2.15亿美元巨额罚单 | 出海·专栏 - 财新)](https://companies.caixin.com) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zR3c2T0ZJdmMybTVSV2Q0MFJBbGh5d05YN3pvZE80RUcxcUNzWUQ3ckNqZFBHLXZVUFR2RmVzZ1hWclRsUTNrbVFnQnpmY3hFT0V6VFhzc0d5eXFoM09zV2lpNnU?oc=5" target="_blank">朱梅：一句“美女”带来的2.15亿美元巨额罚单 | 出海·专栏</a>&nbsp;&nbsp;<font color="#6f6f6f">财新<
-- [[TITLE: 银行理财热衷打新 底仓波动打破稳赚神话 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YRVM1WjcyREtSNnFGUWVTM0J6QVVqZHRFWTVqTFBSRG02eW9OS1JLVWYtYlRVc0tKTHJfSmtXczZHSFhzTl9JVU1ESjJJbmphaj] (zh: 银行理财热衷打新 底仓波动打破稳赚神话 - 财新)](https://finance.caixin.com) — *2026-08-11*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YRVM1WjcyREtSNnFGUWVTM0J6QVVqZHRFWTVqTFBSRG02eW9OS1JLVWYtYlRVc0tKTHJfSmtXczZHSFhzTl9JVU1ESjJJbmphajNZNTZLX1FHU0NINldZUUlR?oc=5" target="_blank">银行理财热衷打新 底仓波动打破稳赚神话</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 广东进口额连续五个月同比增长逾三成 芯片涨价放大进口增量 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE04WmdFXzFkRGp6V2hYVWxPQWVtWmlDNjlub1M1bWo4amZMbWtYcWVjc1h0TXhMYzhISHhSQWh1V2pQRDR1ckc3NlZVR] (zh: 广东进口额连续五个月同比增长逾三成 芯片涨价放大进口增量 - 财新)](https://economy.caixin.com) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE04WmdFXzFkRGp6V2hYVWxPQWVtWmlDNjlub1M1bWo4amZMbWtYcWVjc1h0TXhMYzhISHhSQWh1V2pQRDR1ckc3NlZVRVJyWlJrQ0F6cmdra2FfSnRqVVZzeGJ3?oc=5" target="_blank">广东进口额连续五个月同比增长逾三成 芯片涨价放大进口增量</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: 银行理财热衷打新 底仓波动打破稳赚神话 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YRVM1WjcyREtSNnFGUWVTM0J6QVVqZHRFWTVqTFBSRG02eW9OS1JLVWYtYlRVc0tKTHJfSmtXczZHSFhzTl9JVU1ESjJJbmphaj] (zh: 银行理财热衷打新 底仓波动打破稳赚神话 - 财新)](https://finance.caixin.com) — *2026-08-11*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YRVM1WjcyREtSNnFGUWVTM0J6QVVqZHRFWTVqTFBSRG02eW9OS1JLVWYtYlRVc0tKTHJfSmtXczZHSFhzTl9JVU1ESjJJbmphajNZNTZLX1FHU0NINldZUUlR?oc=5" target="_blank">银行理财热衷打新 底仓波动打破稳赚神话</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 米琴：《奥德赛》中的“善待外乡人”主题 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uNVhTVk5VSFNQLXlzeTlDMmJ1am9mR0RhUFVITkt6Z2Itd1YxMGljeUdNUzdoS3RhczhWS2hyTEVKTnhIUmVzNGdZaVp3dWp5bE] (zh: 米琴：《奥德赛》中的“善待外乡人”主题 - 财新)](https://mini.caixin.com) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uNVhTVk5VSFNQLXlzeTlDMmJ1am9mR0RhUFVITkt6Z2Itd1YxMGljeUdNUzdoS3RhczhWS2hyTEVKTnhIUmVzNGdZaVp3dWp5bE1YSGw2SDRTMi0ySUE?oc=5" target="_blank">米琴：《奥德赛》中的“善待外乡人”主题</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 前七月法拍住宅成交增长逾四成 均价同比下降9% - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE54M2I5OVFfZi1NZllHMy14NnlQdkczc1ZfU1QyYWgyN0t3MThiZHBMMmoxZDNuenl5R3pfMGw1b3hwb2djQkNpOER1ckdsRF] (zh: 前七月法拍住宅成交增长逾四成 均价同比下降9% - 财新)](https://companies.caixin.com) — *2026-08-12*
@@ -59,7 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NQzNvZmgyaEs4U21xaUplMGZJUXlsTm5uR0dIRnVmUUVBbGdocGgyOElsalJDdVp1d0NjSm4wUE1xN2hlODZ0eGszY1VBVk5vN0Y5dkxxU2JETjZKY2xCWjhB?oc=5" target="_blank">独家｜银行老将杨兵兵“空降”光大资产任党委书记</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 腾讯股价跌超5% 预告发布更大参数模型Hy4 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BMlY5VDJoZVp5UUhranU4bURXS3ZvcHdYY0R1OWdRbTh2OXQtX2hYSWxQbnkxRnpZcERPaEdrdmhLUXBxV2RiQkl4MG5BZlJ] (zh: 腾讯股价跌超5% 预告发布更大参数模型Hy4 - 财新)](https://companies.caixin.com) — *2026-08-13*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BMlY5VDJoZVp5UUhranU4bURXS3ZvcHdYY0R1OWdRbTh2OXQtX2hYSWxQbnkxRnpZcERPaEdrdmhLUXBxV2RiQkl4MG5BZlJ2clJweldlSlNZVm1XcUxtSklFY18?oc=5" target="_blank">腾讯股价跌超5% 预告发布更大参数模型Hy4</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: 央行推动短端利率调控框架 综合运用、适时调整货币政策工具 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVQnIwX2NzdHVhNmpiMTdSdlNzdUVJWjhhOTFoQUVNNVVfMVBVVEwxd1c2STN2blJmMmdObkxVa0VWRlYyNm1Rc2dNR] (zh: 央行推动短端利率调控框架 综合运用、适时调整货币政策工具 - 财新)](https://finance.caixin.com) — *2026-08-12*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVQnIwX2NzdHVhNmpiMTdSdlNzdUVJWjhhOTFoQUVNNVVfMVBVVEwxd1c2STN2blJmMmdObkxVa0VWRlYyNm1Rc2dNR2tRTkZFLUlucWF2aldwTWN4a1hJTmtn?oc=5" target="_blank">央行推动短端利率调控框架 综合运用、适时调整货币政策工具</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(236 additional items in raw.jsonl)_
+_(245 additional items in raw.jsonl)_
