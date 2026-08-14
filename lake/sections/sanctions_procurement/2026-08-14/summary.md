@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-14
-record_count: 98
-new_today: 9
+record_count: 97
+new_today: 10
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-9 new of 98 total items today.
+10 new of 97 total items today.
 
 - [[OFAC] Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Rice Lake Weighing Systems, Inc. - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KM2xuWkpnZFJWR2VvZE54SjVUOXg4dThpVmVVdTdXelVXUXJrMTEzR3RuUDVhenY2UUhBVnZjczg0eXhLa2Nid05kNC1xTlYyWUIyT0ZOcU1Tb2NYcnc?oc=5" target="_blank">Settlement Agreement between the U.S. Department of the Treasury's Office of For
@@ -19,8 +19,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NcFZQa2M3dXRLeEpKZENleGltTm1JbGRTYmlQanhQbnp1XzMxVmxqM2hCSl9SNmhsLVBnVkZLRW1sVHRkSWNkaGUxdXQ2OVMzZ19MN0l1LU5Id1dVNHc?oc=5" target="_blank">Counter Terrorism and Iran-related Designations; Counter Narcotics Designations 
 - [[OFAC] 1257 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-07*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE55VlBIczFoM0dkM0JGS2FUc1g1TTBXYndWdjZmZHNicDU2YlRURzlQdFdidkZsRFJ0NnhxYVVNYzJkUjJfWW1nOHBlVQ?oc=5" target="_blank">1257</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
-- [[BIS Entity List] page checksum 50c8997bcf9e](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-14*
-  > Page content hash: 50c8997bcf9e. Compare with prior day's hash to detect updates.
+- **NEW**  [[BIS Entity List] page checksum 5399e2d9c7b0](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-14*
+  > Page content hash: 5399e2d9c7b0. Compare with prior day's hash to detect updates.
 - [[USASpending] $27,583,176,865 → SAVANNAH RIVER NUCLEAR SOLUTIONS LLC: MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SIT](https://www.usaspending.gov/award/DEAC0908SR22470) — *2026-08-14*
   > Agency: Department of Energy.  Description: MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.
 - [[USASpending] $10,560,504,772 → WASHINGTON RIVER PROTECTION SOLUTIONS LLC: MANAGEMENT OF THE HANFORD SITE TANK FARMS](https://www.usaspending.gov/award/DEAC2708RV14800) — *2026-08-14*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[USASpending] $670,147,981 → AT&T ENTERPRISES, LLC: CO: TELLY RENFROE AWARD OF NEW TASK ORDER BASE YEAR INITIAL ](https://www.usaspending.gov/award/15JPSS19F00000507) — *2026-08-14*
   > Agency: Department of Justice.  Description: CO: TELLY RENFROE AWARD OF NEW TASK ORDER BASE YEAR INITIAL FUNDING
 
-_(73 additional items in raw.jsonl)_
+_(72 additional items in raw.jsonl)_

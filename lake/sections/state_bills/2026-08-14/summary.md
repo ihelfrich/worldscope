@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-14
-record_count: 120
-new_today: 118
+record_count: 129
+new_today: 126
 state: fresh
 ---
 
 ## State Legislative Action
 
-118 new of 120 total items today.
+126 new of 129 total items today.
 
 - **NEW**  [[Alaska HB 309] An Act relating to the boundaries of the Jonesville Public Use Area; and providing for an effective date.]() — *2026-08-13*
   > An Act relating to the boundaries of the Jonesville Public Use Area; and providing for an effective date.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[Arizona SB 1242] mental health; hearings; audiovisual technology]() — *2026-08-13*
   > mental health; hearings; audiovisual technology
 
-_(95 additional items in raw.jsonl)_
+_(104 additional items in raw.jsonl)_

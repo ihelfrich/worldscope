@@ -3,14 +3,16 @@ section: who_don
 title: WHO Disease Outbreak News
 date: 2026-08-14
 record_count: 40
-new_today: 0
+new_today: 1
 state: fresh
 ---
 
 ## WHO Disease Outbreak News
 
-0 new of 40 total items today.
+1 new of 40 total items today.
 
+- **NEW**  [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615) — *2026-08-14*
+  > The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is in a phase of intense transmission. It is the largest Ebola outbreak ever reported in the country and expanding faster than any previous Ebola outbreak. The epidemic is increasingly characteriz
 - [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614) — *2026-08-01*
   > The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increases in reported cases and deaths. Initially confined to the Mongbwalu health zone in Ituri Province, over the last two months, the 
 - [Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613) — *2026-07-17*
@@ -59,7 +61,5 @@ state: fresh
   > On 26 January 2026, the Ministry of Health of Ethiopia declared the end of the Marburg virus disease (MVD) outbreak. This declaration came after two consecutive incubation periods (a total of 42 days) since the last person confirmed with MVD died and was given a safe and dignifie
 - [Middle East respiratory syndrome coronavirus - Global update](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON591) — *2025-12-24*
   > Since the beginning of 2025 and as of 21 December 2025, a total of 19 cases of Middle East respiratory syndrome coronavirus (MERS- CoV), including four deaths have been reported to WHO globally. Of the 19 cases, 17 were reported by the Kingdom of Saudi Arabia (KSA), and two were 
-- [Seasonal influenza - Global situation](https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON586) — *2025-12-10*
-  > Seasonal influenza (‘the flu’) is an acute respiratory infection caused by influenza viruses that circulate globally and year-round. It can cause illness ranging from mild to severe, sometimes resulting in hospitalization or death. Seasonal influenza activity has increased global
 
 _(15 additional items in raw.jsonl)_

@@ -11,16 +11,16 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-12*
-  > latest: 3.6300000000 as of 2026-08-12
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-12*
-  > latest: 4.2000000000 as of 2026-08-12
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-12*
-  > latest: 4.6800000000 as of 2026-08-12
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-12*
-  > latest: 5.2400000000 as of 2026-08-12
-- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-12*
-  > latest: 3.62 as of 2026-08-12
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-13*
+  > latest: 3.6300000000 as of 2026-08-13
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-13*
+  > latest: 4.1500000000 as of 2026-08-13
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-13*
+  > latest: 4.6300000000 as of 2026-08-13
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-13*
+  > latest: 5.2100000000 as of 2026-08-13
+- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-13*
+  > latest: 3.62 as of 2026-08-13
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-08-13*
   > latest: 0.48 as of 2026-08-13
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-07-01*
@@ -51,5 +51,5 @@ state: fresh
   > latest: 6.7474000000 as of 2026-08-07
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-08-11*
   > latest: 84.77 as of 2026-08-11
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-12*
-  > latest: 14.55 as of 2026-08-12
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-13*
+  > latest: 14.63 as of 2026-08-13

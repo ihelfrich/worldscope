@@ -2,71 +2,65 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-14
-record_count: 1027
-new_today: 735
+record_count: 1076
+new_today: 811
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-735 new of 1027 total items today.
+811 new of 1076 total items today.
 
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-14*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-14*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-14*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] NATO jets shoot down drone flying over eastern Latvia](https://www.france24.com/en/europe/20260814-nato-jets-shoot-down-drone-flying-over-eastern-latvia) — *2026-08-14*
-  > Fighter jets ​on a NATO air defence mission shot down ​a drone that entered the airspace of Latvia, a NATO and European Union member, early Friday, Latvia's armed forces ​said.
-- **NEW**  [[Global] France evacuates hundreds as new wildfire threatens southwestern Landes region](https://www.france24.com/en/france/20260814-france-evacuates-hundreds-new-wildfire-threatens-southwestern-landes-region) — *2026-08-14*
-  > Authorities evacuated 525 people from the village of Luglon Friday as a new wildfire tore through southwestern France, burning 1,100 hectares and advancing to within a few kilometres of the village centre amid an unprecedented wildfire season.
-- **NEW**  [[Global] Nigel Farage beats Count Binface to regain UK parliamentary seat in widely mocked by-election](https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election) — *2026-08-14*
-  > The anti-immigrant Reform UK party leader Nigel Farage beat comic opponent Count Binface on Friday as was expected, regaining the seat in Parliament he quit a month ago to trigger the widely mocked by-election in the seaside town of Clacton.
-- **NEW**  [[Global] Spain's World Cup final hero Ferran Torres closes in on PSG transfer](https://www.france24.com/en/tv-shows/sports/20260814-spain-s-world-cup-final-hero-ferran-torres-closes-in-on-psg-transfer) — *2026-08-14*
-  > Paris Saint-Germain have reached an agreement with Barcelona to sign Ferran Torres, according to reports in French and Spanish outlets on Thursday evening. The forward, who scored the match-winner for Spain in the World Cup final, is expected to sign with the European champions f
-- **NEW**  [[Global] US sailors report dire conditions as replacement carrier heads to Middle East](https://www.france24.com/en/new-us-aircraft-carrier-heads-towards-middle-east-after-reports-of-dire-conditions-on-uss-lincoln) — *2026-08-14*
-  > Reports of declining mental health and supply issues have been flagged by US sailors aboard the aircraft carrier USS Lincoln deployed to the Middle East, with some attempting to throw themselves into the sea. The ship has so far spent a record 260 uninterrupted days at sea as it 
-- **NEW**  [[Global] Live: US sailors report dire conditions as replacement carrier heads to Middle East](https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before) — *2026-08-14*
-  > Reports of declining mental health and supply issues have been flagged by US sailors aboard the aircraft carrier USS Lincoln deployed to the Middle East, with some attempting to throw themselves into the sea. The ship has so far spent a record 260 uninterrupted days at sea as it 
-- **NEW**  [[Global] Trump imposes tariffs of up to 100% on drone imports](https://www.france24.com/en/americas/20260814-donald-trump-imposes-tariffs-of-up-to-100-on-imported-drones) — *2026-08-14*
-  > President Donald Trump on Thursday imposed tariffs of up to 100% on imported drones and their components, including from key US allies, citing national security concerns and a need to reduce US reliance on foreign suppliers. The measures are set to take effect in 21 days.
-- **NEW**  [[Global] Cuba's indicted ex-president Raul Castro makes rare public appearance](https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event) — *2026-08-13*
-  > Cuba's Raul Castro made a rare public appearance on Thursday at a celebration marking the centenary of his brother Fidel's birth. The 95-year-old former president received a standing ovation at the secure event in Havana amid a deepening economic crisis and frequent energy blacko
-- **NEW**  [[Global] Ceremony held in Zimbabwe to pay tribute to capsized ferry victims](https://www.france24.com/en/ceremony-to-pay-tribute-to-capsized-ferry-victims) — *2026-08-13*
-  > In tonight's programme: Mourners gather in memory of the 44 people killed in Tuesday's ferry accident on Zimbabwe's Lake Kariba. Also, ballot counting has started in Zambia, where President Hichilema's is expected to win a second term. Finally, researchers reckon that the rising 
-- **NEW**  [[Global] Lagos: Electric vehicles offer an alternative as fuel prices soar](https://www.france24.com/en/video/20260813-lagos-electric-vehicles-offer-an-alternative-as-fuel-prices-soar) — *2026-08-13*
-  > If you know Nigeria's city of Lagos, you're surely familiar with the hum of its traffic jams. But a new sound is emerging... or rather, one is disappearing.
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-14*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Teenage British cyclist Finlay ⁠Tarling dies in Tour of Portugal accident](https://www.france24.com/en/sport/20260814-teenage-british-cyclist-finlay-tarling-dies-in-tour-of-portugal-accident) — *2026-08-14*
+  > 19-year-old British cyclist Finlay ⁠Tarling died ​following a "serious accident" during the eighth stage ​of the Tour of Portugal race, tour organisers and his team said on Friday.
+- **NEW**  [[Global] Kenya: Mysterious illness kills more than a dozen elephants](https://www.france24.com/en/video/20260814-kenya-mysterious-illness-kills-more-than-a-dozen-elephants) — *2026-08-14*
+  > In Kenya, since the end of June, at least 19 elephants, mostly females or young animals, have died after displaying the same symptoms, notably partial paralysis preventing them from standing.
+- **NEW**  [[Global] Race to free trapped quake survivor offers hope in Colombia](https://www.france24.com/en/americas/20260814-race-to-free-trapped-survivor-offers-hope-in-colombia-earthquake-zone) — *2026-08-14*
+  > Rescue workers rushed to free a survivor Friday in Colombia amid the rubble left by a powerful earthquake nearly four days earlier that killed at least 285 people and injured 4,000. Some 400 people were still missing and tens of thousands of homes were ​damaged, leaving many Colo
+- **NEW**  [[Global] Europe: Raging wildfires scorch large swaths of the continent](https://www.france24.com/en/video/20260814-europe-raging-wildfires-scorch-large-swaths-of-the-continent) — *2026-08-14*
+  > Firefighters across Europe battled multiple fires August 14 as a new wave of record-breaking heat baked a swath of the continent. The historic temperatures are linked to human-caused climate change, and are hitting countries better suited for long cold seasons and ill-equipped fo
+- **NEW**  [[Global] France wildfire forces 520 to evacuate](https://www.france24.com/en/france-wildfire-forces-520-to-evacuate) — *2026-08-14*
+  > Around 520 residents in France’s southwestern Landes region have been evacuated as a raging wildfire has burned through more than 1,000 hectares since Thursday. Significant reinforcements have been mobilised, while authorities warn that the fire’s trajectory remains unpredictable
+- **NEW**  [[Global] France blocks under 15 social media ban](https://www.france24.com/en/france-blocks-under-15-social-media-ban) — *2026-08-14*
+  > France’s Constitutional Council has blocked a bill that would have banned social media access for under-15s, ruling that it infringed on freedom of expression. It’s a setback for President Emmanuel Macron, who has championed the legislation and has now asked his prime minister to
+- **NEW**  [[Global] West Bank: Washington condemns siege of Palestinian homes](https://www.france24.com/en/video/20260814-west-bank-washington-condemns-siege-of-palestinian-homes) — *2026-08-14*
+  > Settlers have been besieging homes in Qusra ​for almost a week, intensifying ‌pressure on Palestinians.
+- **NEW**  [[Global] Birthrate drop in North Africa](https://www.france24.com/en/birthrate-drop-in-north-africa) — *2026-08-14*
+  > The Maghreb region is experiencing a dramatic decline in birth rates, with most women now having fewer than three children, compared with seven or eight on average in the 1970s. Ellen Gainsford looks at what is driving this major demographic shift.
+- **NEW**  [[Global] World Bank to fund 645-metre bridge linking Bangui and Zongo](https://www.france24.com/en/world-bank-to-fund-645-metre-bridge-linking-bangui-and-zongo) — *2026-08-14*
+  > The Central African Republic and the Democratic Republic of Congo are set to build a new bridge linking their two major cities, Bangui and Zongo. The 60-million-dollar project will see the construction of a 645-metre bridge across the Congo River, aimed at strengthening trade and
+- **NEW**  [[Global] Mount Etna continues to erupt in Italy](https://www.france24.com/en/mount-etna-continues-to-erupt-in-italy) — *2026-08-14*
+  > Flights at Catania airport in Sicily remain suspended because of ongoing volcanic activity from Mount Etna. But for those already on the island, the spectacular lava flows have become a major attraction, drawing crowds of tourists to safe viewing points. Companies organising guid
+- **NEW**  [[Global] Chadian President Déby pardons jailed main rival and 8 opposition leaders](https://www.france24.com/en/africa/20260814-chadian-president-d%C3%A9by-pardons-jailed-main-rival-and-8-opposition-leaders) — *2026-08-14*
+  > Chad’s President Mahamat Idriss Déby on Friday pardoned the jailed ex-prime minister and leader of Chad’s main opposition party Succès Masra, along with eight other party leaders. Masra had been serving a 20-year sentence, convicted of hate speech, xenophobia and inciting a massa
+- **NEW**  [[Global] 🔴 France's constitutional authority strikes down social media ban for under-15s](https://www.france24.com/en/france/20260814-france-s-constitutional-authority-strikes-down-social-media-ban-for-under-15s) — *2026-08-14*
+- **NEW**  [[Global] France's constitutional authority strikes down social media ban for under-15s](https://www.france24.com/en/france/20260814-france-s-constitutional-authority-strikes-down-social-media-ban-for-under-15s) — *2026-08-14*
+  > France's constitutional council struck down a proposed ban on social media for children under 15 on Friday, citing freedom of expression. President Emmanuel Macron tasked Prime Minister Sébastien Lecornu with re-working ​the draft legislation to take the Constitutional Council's 
+- **NEW**  [[Global] Mount Etna's ongoing volcanic activity disrupts summer travel](https://www.france24.com/en/mount-etna-s-ongoing-volcanic-activity-disrupts-summer-travel) — *2026-08-14*
+  > Ash spewing from Sicily's Mount Etna has closed the Italian island’s largest airport for the fifth consecutive day, stranding hundreds of summer holiday travellers during the busiest travel week of the year. Catania’s airport will remain closed until early August 15. While Etna, 
+- **NEW**  [[Global] Zambia suspends vote count nationwide amid reports of violence, ballot theft](https://www.france24.com/en/africa/20260814-zambia-suspends-election-vote-counting-over-reports-of-violence) — *2026-08-14*
+  > Zambia's electoral commission on Friday suspended vote counting from Thursday's presidential and parliamentary elections for at least 24 hours due to “violence targeted at poll staff” and reported instances of theft of marked ballot papers. Former minister Brian Mundubile, the ma
+- **NEW**  [[Global] Japan: Record rains kill eight, strand thousands at Narita airport](https://www.france24.com/en/video/20260814-japan-record-rains-kill-eight-strand-thousands-at-narita-airport) — *2026-08-14*
+  > Record rainfall has caused deadly flooding in Japan, leaving thousands stranded at Narita Airport during the Obon holiday period.
+- **NEW**  [[Global] Ferry sinking kills 46 in rural Zimbabwe](https://www.france24.com/en/ferry-sinking-kills-46-in-rural-zimbabwe) — *2026-08-14*
+  > In Zimbabwe, hundreds of people have attended a memorial service following a ferry disaster on Lake Kariba that claimed at least 46 lives. The boat was a vital link for villagers and fish traders around the vast lake, but was reportedly overloaded when it ran into trouble on Tues
+- **NEW**  [[Global] Europe swelters under fifth heatwave of summer](https://www.france24.com/en/europe-swelters-under-fifth-heatwave-of-summer) — *2026-08-14*
+  > A large part of Europe is in the grip of its fifth heatwave of the summer, with temperatures in parts of France soaring to 40 degrees Celsius. And the extreme weather is also taking a toll on the world’s oceans: last month, average global sea temperatures reached a record high of
+- **NEW**  [[Global] West Bank: Palestinians families trapped in home](https://www.france24.com/en/west-bank-palestinians-families-trapped-in-home) — *2026-08-14*
+  > Israeli settlers are carrying out a campaign of violence and intimidation against the Palestinian village of Qusra in the occupied West Bank, where families have had their electricity and water supplies cut off, in what residents say is an attempt to force them from their homes. 
+- **NEW**  [[Global] West Bank: Palestinians families trapped in homes](https://www.france24.com/en/west-bank-palestinians-families-trapped-in-homes) — *2026-08-14*
+  > Israeli settlers are conducting a campaign of violence and intimidation against the Palestinian village of Qusra in the occupied West Bank. Families have had their electricity and water supplies cut off, in what residents say is an attempt to force them from their homes. 
 
-As soaring fuel prices have hit Nigeria in recent years, some motorists are turning to electric vehicles. But in Africa's 
-- **NEW**  [[Global] Solar eclipse 2026: Africa witnesses partial eclipse](https://www.france24.com/en/video/20260813-solar-eclipse-2026-africa-witnesses-partial-eclipse) — *2026-08-13*
-  > Part of the world turned its eyes to the skies this Wednesday.
+Accord
+- **NEW**  [[Global] Ukraine war: Grain attacks raise food price fears](https://www.france24.com/en/ukraine-war-grain-attacks-raise-food-price-fears) — *2026-08-14*
+  > Ukraine and Russia have been trading attacks on each other’s grain warehouses, raising concerns that the damage to food supplies could push global food prices higher. France 24 International affairs editor Philippe Turle shares more insights on the subject.
+- **NEW**  [[Global] Global sea temperature reach 21 degrees amid heatwaves](https://www.france24.com/en/global-sea-temperature-reach-21-degrees-amid-heatwaves) — *2026-08-14*
+  > A large part of Europe is in the grip of its fifth heatwave of the summer, with temperatures in parts of France soaring to 40 degrees Celsius. And the extreme weather is also taking a toll on the world’s oceans: last month, average global sea temperatures reached a record high of
 
-The eclipse was also visible across Africa. In Tabarka, where the phenomenon was most pronounced in Tunisia, 59.06% of the Sun was obscured.
-
-The partial eclipse was also visible from Dakar and several regions of Sen
-- **NEW**  [[Global] Russia-Ukraine war: Grain hub attacks raise fears over global food prices](https://www.france24.com/en/video/20260813-russia-ukraine-war-grain-hub-attacks-raise-fears-over-global-food-prices) — *2026-08-13*
-  > Kyiv and Moscow have been trading attacks on each other's grain warehouses, as concerns mount that global food prices could rise as a result.
-
-Russia struck Ukraine's largest grain shipment port on the Danube overnight, causing damage and setting off a fire. The attack came a day
-- **NEW**  [[Global] Colombia rescuers cling to hope as quake survival window closes](https://www.france24.com/en/video/20260813-colombia-rescuers-cling-to-hope-as-quake-survival-window-closes) — *2026-08-13*
-  > Rescuers in Colombia made a last-ditch effort to locate earthquake survivors early Thursday, as the critical 72-hour window for finding people alive drew to a close. Our journalist Rosa Perez gives us the lastest information.
-- **NEW**  [[Global] European drought shrivels crops despite farmers’ best efforts to adapt](https://www.france24.com/en/europe/20260813-european-drought-shrivels-crops-despite-farmers-best-efforts-to-adapt) — *2026-08-13*
-  > The drought roasting much of Europe this summer is taking a heavy toll on crops across the continent, from potatoes in the Netherlands to corn in Bosnia. Triodos, a Dutch bank with a focus on sustainability, has warned that this could reduce gross domestic product across the EU b
-- **NEW**  [[Global] Eurovision: Winners involved in 'armed conflict' now ineligible to host contest](https://www.france24.com/en/eurovision-winners-involved-in-armed-conflict-now-ineligible-to-host-contest) — *2026-08-13*
-  > The winning country in Eurovision will be ineligible to host the contest the following year if involved in an armed conflict or a "sensitive geopolitical situation" that could impact the safety of the event, organisers said on August 12. The rules for the contest were updated fol
-- **NEW**  [[Global] Gaza's beekeepers are rebuilding their livelihoods amid the ruins of war](https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war) — *2026-08-13*
-  > Amid the rubble and debris of Gaza's bombed-out landscape, beekeepers are rebuilding their livelihoods, handling swarms and collecting what little honey they can from the colonies that survived the war. Ibrahim al-Dabbeh, head of the Cooperative Association of Beekeepers in the G
-- **NEW**  [[Global] West Bank: "In recent weeks, we've seen a striking escalation in violent acts"](https://www.france24.com/en/video/20260813-west-bank-in-recent-weeks-we-ve-seen-a-striking-escalation-in-violent-acts) — *2026-08-13*
-  > Israeli forces on Thursday moved against rogue settlers laying siege to Palestinians amid unusually strong US criticism, even as Israel inaugurated an emblematic settlement elsewhere in the West Bank. Our correspondent Noga Tarnopolsky tells us more.
-- **NEW**  [[Global] Japan protests Putin's first visit to disputed islands](https://www.france24.com/en/video/20260813-japan-protests-putin-s-first-visit-to-disputed-islands) — *2026-08-13*
-  > President Vladimir Putin visited Russia's far-eastern Kuril islands for the first time on Thursday, prompting protests by Japan which also claims the territory.
-- **NEW**  [[Global] Russian strike on Ukraine passenger train kills 2](https://www.france24.com/en/video/20260813-russian-strike-on-ukraine-passenger-train-kills-2) — *2026-08-13*
-  > A Russian drone attack on a train carrying hundreds of passengers in southern Ukraine killed two people on Thursday. Our correspondent Emmanuelle Chaze tells us more.
-- **NEW**  [[Global] 🔴 Mali pardons French official Yann ​Vézilier, who was sentenced to 20 years in prison](https://www.france24.com/en/africa/20260813-mali-grants-presidential-pardon-to-french-national-sentenced-to-20-years-in-prison) — *2026-08-13*
-- **NEW**  [[Global] West Bank: "What we see is an escalation in methods"](https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods) — *2026-08-13*
-  > Israeli settlers have besieged three homes in the occupied West Bank for several days, including one owned by a Palestinian American, in what the US ambassador called a "horrific act of terror" on Thursday. We discuss the situation with our guest, Allegra Pacheco, chief of party 
-- **NEW**  [[Global] Russian detained over plot to 'execute' Ukrainian-American in Warsaw, Tusk says](https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says) — *2026-08-13*
-  > Poland has arrested a Russian national who was allegedly hired to plan an "execution" targeting a Ukrainian-American dual citizen in Warsaw, Prime Minister Donald Tusk said Thursday. Tusk said it was the first time that “someone on the order of Russia” had sought to attack an Ame
-
-_(1002 additional items in raw.jsonl)_
+_(1051 additional items in raw.jsonl)_

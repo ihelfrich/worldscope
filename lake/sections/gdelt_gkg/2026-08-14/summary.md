@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-14
-record_count: 49
-new_today: 49
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-49 new of 49 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes]  « Первый пошел »: вице - адмирал Франции погиб после удара баллистики в Одессе](https://www.mk.ru/politics/2026/08/14/pervyy-poshel-viceadmiral-francii-pogib-posle-udara-ballistiki-v-odesse.html) — *2026-08-14*
-  > mk.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 熬夜暗沉能用什么泥膜改善 ？ 哪款泥膜能提亮 ？ 4款泥膜实测](https://baijiahao.baidu.com/s?id=1873481062878393294) — *2026-08-14*
-  > baijiahao.baidu.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Після завершення першої хвилі вступної кампанії ІФНТУНГ вже обрало на 30 % більше абітурієнтів , а ніж торік](https://pravda.if.ua/pislya/) — *2026-08-14*
-  > pravda.if.ua · Ukrainian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Recalculan el valor de Vaca Muerta : estiman más de 30 . 000 millones de barriles](https://www.elcordillerano.com.ar/noticias/2026/08/14/256402-recalculan-el-valor-de-vaca-muerta-estiman-mas-de-30000-millones-de-barriles) — *2026-08-14*
-  > elcordillerano.com.ar · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] מבחני רכב - לפאס L8 ( נהיגה ראשונה ) – מתכון מוכר , רק משופר](https://www.icar.co.il/test_drive/rkl20wclfx/) — *2026-08-14*
-  > icar.co.il · Hebrew · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Deutsche Bank verhoogt koersdoel Fastned](https://www.beursduivel.be/Nieuws/874676/Deutsche-Bank-verhoogt-koersdoel-Fastned.aspx) — *2026-08-14*
-  > beursduivel.be · Dutch · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Huilenses responden a llamado de solidaridad a favor de las víctimas del sismo](https://www.lanacion.com.co/huilenses-responde-a-llamado-de-solidaridad-a-favor-de-las-victimas-del-sismo/) — *2026-08-14*
-  > lanacion.com.co · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Russian campaign against cargo ships disrupts Ukraine Black Sea trade](https://en.apa.az/europe/russian-campaign-against-cargo-ships-disrupts-ukraines-black-sea-trade-nyt-520306) — *2026-08-14*
-  > en.apa.az · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Indian benchmark indices open lower amid range - bound trade ; Nifty slips over 75 points](http://www.jamaicantimes.com/news/279240725/indian-benchmark-indices-open-lower-amid-range-bound-trade-nifty-slips-over-75-points) — *2026-08-14*
-  > jamaicantimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 桐乡深化  两新  融合推动规上工业攀高向新 - 新华网](http://www.zj.xinhuanet.com/20260814/0ae693533d754af3b7f7d7a1036a2d38/c.html) — *2026-08-14*
-  > zj.xinhuanet.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Oljefondet advares om farlig konsentrasjonsrisiko i KI - aksjer](https://www.dagbladet.no/meninger/farlig-konsentrasjon/85009999) — *2026-08-14*
-  > dagbladet.no · Norwegian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Motorinde kademeli ÖTVyle 9 TL indirim - Ekonomi Haberleri](https://www.sabah.com.tr/ekonomi/motorinde-kademeli-otvyle-9-tl-indirim-7641232) — *2026-08-14*
-  > sabah.com.tr · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Рынок акций РФ растет после вчерашнего снижения на 3 % ](https://1prime.ru/20260814/rynok-872304096.html) — *2026-08-14*
-  > 1prime.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] A natural educator - The Journal](https://www.nujournal.com/news/local-news/2026/08/14/a-true-natural-educator/) — *2026-08-14*
-  > nujournal.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Azerbaijani oil price falls 1 . 6 % ](https://en.apa.az/energy-and-industry/azerbaijani-oil-price-falls-16-520295) — *2026-08-14*
-  > en.apa.az · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Sočni popečci od lososa savršen su izbor za ljetni roštilj](https://www.novilist.hr/life/socni-popecci-od-lososa-savrsen-su-izbor-za-ljetni-rostilj/) — *2026-08-14*
-  > novilist.hr · Croatian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 7月新能源汽车销量占比首次超过60 ％， 出口成最大增量来源](https://www.163.com/dy/article/L4A68BGH0512D03F.html) — *2026-08-14*
-  > 163.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] BOLSA DE MADRID | El Ibex 35 frena los máximos semanales pese al alivio por el IPC de EEUU](https://www.elperiodico.com/es/economia/20260814/ibex-35-hoy-14-agosto-133350696) — *2026-08-14*
-  > elperiodico.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Insolvenz bei Luxuswerft nach Bayesian - Schiffsunglück](http://www.kreisbote.de/wirtschaft/insolvenz-bei-luxuswerft-nach-tragischem-schiffsunglueck-zr-94443114.html) — *2026-08-14*
-  > kreisbote.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] A Texas company bid for a Greenland oil boom and a Dr . Phil documentary is delayed but undaunted](https://fortune.com/2026/08/14/texas-company-greenland-oil-boom-dr-phil-documentary/) — *2026-08-14*
-  > fortune.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Cecilie Hellestveit mener Etikkrådet er blitt tannløst](https://www.aftenposten.no/okonomi/i/Bxzmjv/cecilie-hellestveit-mener-etikkraadet-er-blitt-tannloest) — *2026-08-14*
-  > aftenposten.no · Norwegian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Secretul milionarilor din Moldova ! Dividendele le aduc de patru ori mai mulți bani decât salariile](https://news.yam.md/ro/story/54118755) — *2026-08-14*
-  > news.yam.md · Romanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Piyasalar allak bullak ! Rüzgar tersine döndü](https://www.bursadabugun.com/haber/piyasalar-allak-bullak-ruzgar-tersine-dondu-1941970.html) — *2026-08-14*
-  > bursadabugun.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Ταυτοποιήθηκε ο οδηγός του βυτιοφόρου που οδηγούσε επικίνδυνα - Ειδήσεις και νέα της Πελοποννήσου και όλης της Ελλάδας](https://www.flynews.gr/taytopoiithike-o-odigos-tou-vytioforou-pou-odigouse-epikindyna/) — *2026-08-14*
-  > flynews.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Hürmüz tehdidi petrolde tansiyonu yükseltti ! Brent ve WTI haftalık prime koşuyor](https://www.sabah.com.tr/ekonomi/hurmuz-tehdidi-petrolde-tansiyonu-yukseltti-brent-ve-wti-haftalik-prime-kosuyor-7641324) — *2026-08-14*
-  > sabah.com.tr · Turkish · tone NA
-
-_(24 additional items in raw.jsonl)_
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Kushner to travel to Israel , Egypt to discuss Gaza plan , sources say](https://www.clevelandjewishnews.com/jns/kushner-to-travel-to-israel-egypt-to-discuss-gaza-plan-sources-say/article_5962dfc3-e5a2-5142-9094-25c8dc27bcdc.html) — *2026-08-14*
+  > clevelandjewishnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Netanyahu rejects Trump Gaza plan , pursues Greater Israel agenda](https://www.wsws.org/en/articles/2026/08/14/ragp-a14.html) — *2026-08-14*
+  > wsws.org · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US Engaged in Shuttle Diplomacy between Lebanon , Israel to Salvage the Negotiations](https://english.aawsat.com/arab-world/5307002-us-engaged-shuttle-diplomacy-between-lebanon-israel-salvage-negotiations) — *2026-08-14*
+  > english.aawsat.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Tel Aviv Public Relations Firms 2026](https://everything-pr.com/tel-aviv-public-relations-firms) — *2026-08-14*
+  > everything-pr.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Hezbollah Chief Slams Lebanon - Israel Talks](https://english.aawsat.com/arab-world/5307007-hezbollah-chief-slams-lebanon-israel-talks) — *2026-08-14*
+  > english.aawsat.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] BARKAT DENIES PLOT : Minister Says He Never Planned To Oust Netanyahu](https://www.theyeshivaworld.com/news/israel-news/2585775/barkat-denies-plot-minister-says-he-never-planned-to-oust-netanyahu.html) — *2026-08-14*
+  > theyeshivaworld.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] A Progressive Perspective : When something isnt working , you should try to fix it](https://www.trentonian.com/2026/08/14/a-progressive-perspective-when-something-isnt-working-you-should-try-to-fix-it/) — *2026-08-14*
+  > trentonian.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Jared Kushner to visit Israel and Egypt next week to talk Gaza](https://www.greeleytribune.com/2026/08/14/jared-kushner-israel-egypt-gaza/) — *2026-08-14*
+  > greeleytribune.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Netanyahu trashed by British Jews for calling united kingdom  the Islamic Republic of Britain  ](https://www.aol.co.uk/articles/netanyahu-trashed-british-jews-calling-183407000.html) — *2026-08-14*
+  > aol.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Delaware Firm Behind Israeli Instagram Page Pushing pro - Netanyahu Content](https://www.haaretz.com/israel-news/elections/2026-08-13/ty-article/.premium/likud-linked-production-company-publishes-netanyahu-supporters/0000019f-f705-d28e-a3df-f75501fb0000) — *2026-08-14*
+  > haaretz.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Jared Kushner to visit Israel and Egypt next week to talk Gaza](https://www.republicanherald.com/2026/08/14/jared-kushner-israel-egypt-gaza/) — *2026-08-14*
+  > republicanherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] What we know about Israeli settler siege on Palestinian homes in Qusra](https://www.thenationalnews.com/news/mena/2026/08/14/what-we-know-about-israeli-settlers-siege-on-palestinian-homes-in-qusra/) — *2026-08-14*
+  > thenationalnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Palestinians besieged in West Bank village fear Israeli settlers will seize their homes](https://www.sandiegouniontribune.com/2026/08/14/israel-palestinians-west-bank/) — *2026-08-14*
+  > sandiegouniontribune.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Netanyahu trashed by British Jews for calling united kingdom  the Islamic Republic of Britain  ](https://www.mirror.co.uk/news/uk-news/netanyahu-islamist-republic-britain-criticism-37554215) — *2026-08-14*
+  > mirror.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Hezbollah leader rejects U . S .- mediated Lebanon - Israel framework agreement](http://www.bignewsnetwork.com/news/279242207/hezbollah-leader-rejects-us-mediated-lebanon-israel-framework-agreement) — *2026-08-14*
+  > bignewsnetwork.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US ambassador to Beirut says Israeli attacks in south Lebanon will continue until Hezbollah is disarmed](https://www.thenationalnews.com/news/mena/2026/08/14/us-ambassador-to-beirut-says-israeli-attacks-in-south-lebanon-will-continue-until-hezbollah-is-disarmed/) — *2026-08-14*
+  > thenationalnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Gaza beekeepers put the buzz back into their business](https://www.thenationalnews.com/news/mena/2026/08/14/gazas-beekeepers-struggle-to-put-the-buzz-back-into-their-business/) — *2026-08-14*
+  > thenationalnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] New  Muslim NATO   Aimed at Israel , Official Warns , but Experts Say Pact Is Largely Declarative](https://www.algemeiner.com/2026/08/14/new-muslim-nato-aimed-israel-official-warns-experts-say-pact-largely-declarative/) — *2026-08-14*
+  > algemeiner.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US wants Netanyahu to condemn settler siege in Palestinian village , officials say](https://www.channelnewsasia.com/world/palestine-activists-israel-us-netanyahu-6320386) — *2026-08-14*
+  > channelnewsasia.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Benjamin Netanyahu describes united kingdom as  first Islamic republic to get a nuclear weapon  – The Frontier Post](https://thefrontierpost.com/benjamin-netanyahu-describes-uk-as-first-islamic-republic-to-get-a-nuclear-weapon/) — *2026-08-14*
+  > thefrontierpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Netanyahu calls Britain first  Islamic Republic  with Nuclear weapons](http://www.albawaba.com/index.php/node/netanyahu-calls-britain-first-islamic-republic-1635018) — *2026-08-14*
+  > albawaba.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Advice to Jewish Democrats : Trump - supporting Republicans are graver threat than far - left , Israel - hating Democrats – San Diego Jewish World](https://www.sdjewishworld.com/2026/08/14/advice-to-jewish-democrats-trump-supporting-republicans-are-graver-threat-than-far-left-israel-hating-democrats/) — *2026-08-14*
+  > sdjewishworld.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Analysis : Israel government cant disown West Bank settler violence | Israel - Palestine conflict News](https://www.aljazeera.com/news/2026/8/14/analysis-israels-government-cant-disown-west-bank-settler-violence) — *2026-08-14*
+  > aljazeera.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel calls for police to replace military in handling West Bank settlers](https://thefrontierpost.com/israel-calls-for-police-to-replace-military-in-handling-west-bank-settlers/) — *2026-08-14*
+  > thefrontierpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Palestinians besieged in West Bank village fear Israeli settlers will seize their homes](https://www.news4jax.com/news/world/2026/08/14/palestinians-besieged-in-west-bank-village-fear-israeli-settlers-will-seize-their-homes/) — *2026-08-14*
+  > news4jax.com · English · tone NA

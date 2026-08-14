@@ -3,13 +3,13 @@ section: fec
 title: Campaign finance (FEC: top fundraisers + recent filings)
 date: 2026-08-14
 record_count: 27
-new_today: 3
+new_today: 4
 state: fresh
 ---
 
 ## Campaign finance (FEC: top fundraisers + recent filings)
 
-3 new of 27 total items today.
+4 new of 27 total items today.
 
 - [[Top] OSSOFF, T. JONATHAN (DEM, Senate GA): $97.99M raised](https://www.fec.gov/data/candidate/S8GA00180/) — *2026-08-14*
   > cycle 2026 receipts $97.99M · disbursements $59.73M · net $+38.26M
@@ -35,31 +35,31 @@ state: fresh
   > cycle 2026 receipts $21.05M · disbursements $19.29M · net $+1.76M
 - [[Top] JOHNSON, JAMES MICHAEL (REP, House LA): $20.98M raised](https://www.fec.gov/data/candidate/H6LA04138/) — *2026-08-14*
   > cycle 2026 receipts $20.98M · disbursements $12.62M · net $+8.36M
-- [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing #
-- [[F3] SUE LOWDEN FOR U S SENATE](https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf) — **
-  > cycle 2010 · filing #732522
 - **NEW**  [[F3] FRIENDS OF LEE FERRELL](https://docquery.fec.gov/pdf/016/13031062016/13031062016.pdf) — **
   > cycle 2014 · filing #870438
-- [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing # · receipts $0.02M
-- **NEW**  [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
-  > cycle 2014 · filing #987909
-- [[F3X] UNITED ASSN OF JOURNEYMEN & APPRETICES PLUMBING & PIPEFITTING LOCAL 63](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing #
+- [[F3] SUE LOWDEN FOR U S SENATE](https://docquery.fec.gov/pdf/146/10020412146/10020412146.pdf) — **
+  > cycle 2010 · filing #732522
 - [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
   > cycle 2014 · filing #948970 · receipts $0.02M
-- [[F3X] HUMPAC (AKA AMERICAN MEDICORP GOOD GOV'T CMTE)](https://www.fec.gov/data/filing//) — **
-  > cycle 1982 · filing # · receipts $0.00M
+- [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing #
 - [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
   > cycle 2010 · filing #720559
+- [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing # · receipts $0.02M
+- [[F3X] UNITED ASSN OF JOURNEYMEN & APPRETICES PLUMBING & PIPEFITTING LOCAL 63](https://www.fec.gov/data/filing//) — **
+  > cycle 1982 · filing #
 - [[F3X] CHANGE FOR THE BETTER](https://docquery.fec.gov/pdf/229/12030703229/12030703229.pdf) — **
   > cycle 2012 · filing #758677
-- [[FRQ] MAD DOG PAC](https://docquery.fec.gov/pdf/430/201911150300051430/201911150300051430.pdf) — **
-  > cycle 2020 · filing #
-- [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
-  > cycle 2014 · filing #948970 · receipts $0.02M
-- **NEW**  [[F3X] GROOM LAW GROUP, CHARTERED POLITICAL ACTION COMMITTEE](https://docquery.fec.gov/pdf/225/202602050300519225/202602050300519225.pdf) — **
-  > cycle 2026 · filing #-1000977
+- **NEW**  [[F3] FRIENDS OF SCOTT ROBINSON](https://docquery.fec.gov/pdf/424/13031062424/13031062424.pdf) — **
+  > cycle 2014 · filing #870444 · receipts $0.00M
+- [[F3] ANGELS FOR JOHN GAY](https://docquery.fec.gov/pdf/315/11030582315/11030582315.pdf) — **
+  > cycle 2010 · filing #720559
+- [[F3] BUCK FOR COLORADO](https://docquery.fec.gov/pdf/867/12020164867/12020164867.pdf) — **
+  > cycle 2012 · filing #768060 · receipts $0.00M
+- **NEW**  [[F7] CALIFORNIA TEACHERS ASSOCIATION](https://docquery.fec.gov/pdf/694/201607070300079694/201607070300079694.pdf) — **
+  > cycle 2016 · filing #1081800
+- **NEW**  [[F3] DOUTHITT FOR CONGRESS](https://docquery.fec.gov/pdf/443/14031332443/14031332443.pdf) — **
+  > cycle 2014 · filing #987909
 
 _(2 additional items in raw.jsonl)_
