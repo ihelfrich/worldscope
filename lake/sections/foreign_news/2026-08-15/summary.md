@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-15
-record_count: 1011
-new_today: 439
+record_count: 1007
+new_today: 513
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-439 new of 1011 total items today.
+513 new of 1007 total items today.
 
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-15*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-15*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-15*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] South Korea’s president wants talks with North to end Korean War](https://www.aljazeera.com/video/newsfeed/2026/8/15/south-koreas-president-wants-talks-with-north-to-end-korean-war?traffic_source=rss) — *2026-08-15*
-  > South Korean President Lee Jae Myung has proposed talks with North Korea to formally end the Korean War.
-- **NEW**  [[Global] Small-scale projects offer hope for Gaza farmers rebuilding lives](https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss) — *2026-08-15*
-  > Greenhouses and rented plots are lifelines for Gaza&#039;s farmers, helping them grow crops despite the extensive destruction
-- **NEW**  [[Global] How a Sudanese refugee became a head teacher in a Chadian camp](https://www.aljazeera.com/news/2026/8/15/how-a-sudanese-refugee-became-a-head-teacher-in-a-chadian-camp?traffic_source=rss) — *2026-08-15*
-  > Displaced by Sudan’s war, Sahra now leads a refugee school where education offers children safety and hope.
-- **NEW**  [[Global] Morocco boosts Ceuta security amid calls for mass migrant crossing](https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-26-morocco-ceuta-foritfication-clip-mp4?traffic_source=rss) — *2026-08-15*
-  > Morocco has added barbed wire and more police near Spain’s Ceuta enclave after online calls for another mass crossing.
-- **NEW**  [[Global] On the ground in Indonesia following 7.7 magnitude earthquake](https://www.aljazeera.com/video/newsfeed/2026/8/15/on-the-ground-in-indonesia-following-7-7-magnitude-earthquake?traffic_source=rss) — *2026-08-15*
-  > A powerful 7.7 magnitude earthquake struck off eastern Indonesia early Saturday, killing at least five people.
-- **NEW**  [[Global] Taiwan passes defence budget after record delay, retains drone funding](https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding?traffic_source=rss) — *2026-08-15*
-  > Taiwan parliament ends deadlock, ensuring vital drone programme funding amid rising cross-strait tensions with Beijing.
-- **NEW**  [[Global] Iran says no decision yet on a return to talks with the US](https://www.aljazeera.com/news/2026/8/15/iran-says-no-decision-yet-on-a-return-to-talks-with-the-us?traffic_source=rss) — *2026-08-15*
-  > FM Abbas Araghchi says Iran is working with Oman on routes, but Hormuz shipping depends on US meeting conditions.
-- **NEW**  [[Global] What we know about the crisis aboard the USS Lincoln](https://www.aljazeera.com/video/newsfeed/2026/8/15/what-we-know-about-the-crisis-aboard-the-uss-lincoln?traffic_source=rss) — *2026-08-15*
-  > The US President has brushed off reports of dire conditions and a mental health crisis aboard the USS Abraham Lincoln.
-- **NEW**  [[Global] Did the US really destroy Iran’s ballistic missile capability?](https://www.aljazeera.com/video/newsfeed/2026/8/15/08-11-2026-tia-us-iran-munitions-quotable?traffic_source=rss) — *2026-08-15*
-  > The US claims it destroyed Iran’s missile capability, but a former White House adviser calls that a “pipe dream&quot;.
-- **NEW**  [[Global] India marks 80th Independence Day with military display](https://www.aljazeera.com/video/newsfeed/2026/8/15/india-marks-80th-independence-day-with-military-display?traffic_source=rss) — *2026-08-15*
-  > India marked its 80th Independence Day at Delhi’s historic Red Fort.
-- **NEW**  [[Global] HRW says US civil rights enforcement reduced under Trump: What to know](https://www.aljazeera.com/news/2026/8/15/hrw-says-us-civil-rights-enforcement-reduced-under-trump-what-to-know?traffic_source=rss) — *2026-08-15*
-  > A new report documents how federal agencies have reduced the number of civil rights cases they pursue as staffing falls.
-- **NEW**  [[Global] US President Trump says he will declare Strait of Hormuz US territory](https://www.aljazeera.com/video/newsfeed/2026/8/15/us-president-trump-says-he-will-declare-strait-of-hormuz-us-territory?traffic_source=rss) — *2026-08-15*
-  > US President Donald Trump said he will “soon” declare the Strait of Hormuz a US territory.
-- **NEW**  [[Global] Venezuela says 131 political prisoners freed amid post-Maduro talks](https://www.aljazeera.com/news/2026/8/15/venezuela-says-131-political-prisoners-freed-amid-post-maduro-talks?traffic_source=rss) — *2026-08-15*
-  > As detainees granted &#039;alternative&#039; to imprisonment, US welcomes release as crucial step for Venezuela&#039;s reconciliation.
-- **NEW**  [[Global] 7.7-magnitude earthquake strikes eastern Indonesia](https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss) — *2026-08-15*
-  > A powerful 7.7-magnitude earthquake struck eastern Indonesia, damaging buildings and sending residents to higher ground.
-- **NEW**  [[Global] At least 20 killed as magnitude 7.7 quake hits Indonesia](https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia?traffic_source=rss) — *2026-08-15*
-  > The death toll is expected to climb further as emergency teams continue search and rescue efforts.
-- **NEW**  [[Global] Mangione pleads guilty as polarising CEO killing reaches new phase](https://www.aljazeera.com/video/newsfeed/2026/8/15/mangione-pleads-guilty-as-polarising-ceo-killing-reaches-new-phase?traffic_source=rss) — *2026-08-15*
-  > Luigi Mangione pleaded guilty to federal charges over the fatal shooting of UnitedHealthcare CEO Brian Thompson in 2024.
-- **NEW**  [[Global] Buenaventura residents criticise state neglect after Colombia’s earthquake](https://www.aljazeera.com/features/longform/2026/8/15/buenaventura-residents-criticise-state-neglect-after-colombias-earthquake?traffic_source=rss) — *2026-08-15*
-  > Locals in impoverished areas say the insufficient government response after the earthquake speaks to a broader trend.
-- **NEW**  [[Global] Lula holds slim lead over Flavio Bolsonaro ahead of Brazil election](https://www.aljazeera.com/news/2026/8/15/lula-holds-slim-lead-over-flavio-bolsonaro-ahead-of-brazil-election?traffic_source=rss) — *2026-08-15*
-  > A new poll shows Lula leading Bolsonaro, but the gap has closed ahead of Brazil&#039;s high-stakes presidential election.
-- **NEW**  [[Global] UN urges support for Afghan women’s aid five years into Taliban rule](https://www.aljazeera.com/news/2026/8/15/un-urges-support-for-afghan-womens-aid-five-years-into-taliban-rule?traffic_source=rss) — *2026-08-15*
-  > More than half of women’s organisations operating in Afghanistan could cease operations within next year: UN Women.
-- **NEW**  [[Global] Families angered by slow search for loved ones after Colombia quake](https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-colombia-quake-reported-mp4?traffic_source=rss) — *2026-08-15*
-  > Families are demanding answers over loved ones buried under rubble in Cali, Colombia after Monday’s 7.4 magnitude quake.
-- **NEW**  [[Global] Iran war live: Trump vows to make Hormuz US territory ‘pretty soon’](https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon?traffic_source=rss) — *2026-08-15*
-  > US President Trump says that &#039;pretty soon&#039; he will declare the Strait of Hormuz a US territory once Iran is defeated.
-- **NEW**  [[Global] Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal](https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss) — *2026-08-14*
-  > Hezbollah criticises Beirut’s approach, accusing officials of exposing the Lebanese army to risks and Israeli pressure.
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-15*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia](https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss) — *2026-08-15*
+  > A search and rescue operation is under way to find survivors in Flores, an island in eastern Indonesia.
+- **NEW**  [[Global] 'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty](https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > It marked the first time a court had heard Mangione describe how he committed a crime that garnered worldwide attention.
+- **NEW**  [[Global] BBC seeks to subpoena Trump's family members in Panorama lawsuit](https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss) — *2026-08-15*
+  > The BBC's lawyers argue Trump's family members "have personal knowledge" of his intentions in the speech he gave outside the US Capitol on 6 January 2021.
+- **NEW**  [[Global] US aircraft carrier on way to relieve USS Lincoln after issues reported aboard](https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.
+- [[Global] Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers](https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Two families have been trapped in their homes in the occupied West Bank for several days.
+- [[Global] France's top court blocks social media ban for under-15s](https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > The Constitutional Council says it infringes upon freedom of expression - but President Macron vows to prepare a new draft.
+- [[Global] Builders unearth €9m gold stash sealed in walls of Belgian property](https://www.bbc.co.uk/news/articles/c5ydzg0dnz7o?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Construction workers found the stash in the walls of a cellar while drilling to lay sewage pipes.
+- [[Global] 'Unprecedented' rain in Japan kills eight people](https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > The storm cut power to more than 20,000 households and left 7,000 people stranded at Tokyo's Narita airport.
+- [[Global] Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule](https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Women across the country speak of public floggings, losing their jobs, and barriers to healthcare that endanger lives.
+- **NEW**  [[Global] Dozens injured and thousands evacuated in Croatia wildfire](https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Officials say the blaze, near the port town of Omis, is one of the worst in Croatia's history.
+- [[Global] Instagram accounts fuelling Ceuta crisis with paid advice for help to cross](https://www.bbc.co.uk/news/articles/c89n20wj9kko?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > BBC's Top Comment podcast has found a network of Instagram profiles glamourising the swim around the Morocco-Ceuta border fence.
+- [[Global] Zambia vote counting resumes after pause over alleged attacks on polling staff](https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > The electoral commission said violence had "resulted in the theft of marked ballot papers".
+- **NEW**  [[Global] The Polygamist's creator says women see themselves reflected in her Netflix hit](https://www.bbc.co.uk/news/articles/cd0xk82mrpyo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Zimbabwean novelist Sue Nyathi self-funded her debut novel and now asks who can afford to write at all.
+- **NEW**  [[Global] Europe's scorched landscapes seen from space after summer heatwaves](https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss) — *2026-08-15*
+  > From glaciers shrinking to an exposed shipwreck,  satellites capture the impact of extreme heat and drought.
+- **NEW**  [[Global] Many Canadians are boycotting the US, so this is where they're travelling instead](https://www.bbc.co.uk/news/articles/c8jnwnw22ngo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > From exploring their own backyard to travelling abroad, many Canadians are spending their money elsewhere to send a message to the US president.
+- **NEW**  [[Global] Five years after the Taliban swept to power, does the West have any influence?](https://www.bbc.co.uk/news/articles/cm2gp5g0xngo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Five years after the Taliban swept to power, many are asking whether the West has any bargaining chips left
+- **NEW**  [[Global] I wish I had been a more rebellious teenager, says Bella Ramsey](https://www.bbc.co.uk/news/articles/c87nwq9qe24o?at_medium=RSS&at_campaign=rss) — *2026-08-15*
+  > Ramsey stars in a new film about a cancer survivor who attends “chemo camp” and finds friendship, love and freedom.
+- **NEW**  [[Global] How is parkour helping these seniors avoid injuries?](https://www.bbc.co.uk/news/videos/c7vg06pjdmqo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > In one of the world's fastest aging countries, older people are finding creative ways to stay healthy.
+- [[Global] Why is Selena Gomez being sued?](https://www.bbc.co.uk/news/videos/cly58dnde5yo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > BBC journalist Ana Guerra-Moore looks at why investors who backed Wondermind Global are claiming the pop star failed to fulfil promises.
+- [[Global] Moment €9m worth of art stolen from Italy museum](https://www.bbc.co.uk/news/videos/cddjlrzd26eo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Police released the CCTV footage after the art, which was stolen in March, was recovered.
+- [[Global] Watch: What happens if Luigi Mangione pleads guilty today?](https://www.bbc.co.uk/news/videos/c36dyep3k1ko?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Attorneys for Mangione, who is accused of killing United Healthcare CEO Brian Thompson, are meeting federal prosecutors on Friday.
+- [[Global] BBC Verify speaks to woman who filmed ICE agent pointing gun at her](https://www.bbc.co.uk/news/videos/c1m12m12nzzo?at_medium=RSS&at_campaign=rss) — *2026-08-13*
+  > BBC Verify has examined footage shared by a Virginia woman in which an ICE agent points his gun at her.
 
-_(986 additional items in raw.jsonl)_
+_(982 additional items in raw.jsonl)_

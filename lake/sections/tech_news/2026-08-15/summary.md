@@ -3,14 +3,16 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-15
 record_count: 58
-new_today: 9
+new_today: 10
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-9 new of 58 total items today.
+10 new of 58 total items today.
 
+- **NEW**  [[The Register] Lego's supersized Hubble deserves a little more shine](https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858) — *2026-08-15*
+  > Excellent internal detail cannot entirely disguise some penny-pinching choices
 - **NEW**  [[The Register] Anthropic says text watermarking scheme relies on inconsequential words](https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156) — *2026-08-15*
   > 'Shall I compare thee to a summer's afternoon' is the sort of thing this will make, and others look likely to adopt it
 - [[Krebs on Security] Who’s Tracking You? Use This New Service to Find Out](https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/) — *2026-08-14*
@@ -47,8 +49,6 @@ OpenAI, and then Anthropic, were each formed by AI developers who feared unrestr
   > Another one bites the dust
 - [[The Register] Russian missile uses Nvidia AI chip to help target Ukraine](https://www.theregister.com/offbeat/2026/08/14/russian-missile-uses-nvidia-ai-chip-to-help-target-ukraine/5287976) — *2026-08-14*
   > Kyiv wants tighter controls to keep foreign silicon out of Moscow's weapons
-- [[The Register] Trump sends the US Navy back to the steam age](https://www.theregister.com/offbeat/2026/08/14/trump-sends-the-us-navy-back-to-the-steam-age/5287936) — *2026-08-14*
-  > Troublesome electromagnetic catapults look set to be replaced with old-fashioned technology
 - [[Ars Technica] Vulnerability giving attackers full control of Macs is under active exploitation](https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/) — *2026-08-14*
   > Screen-sharing bug lets remote hackers log in without a password.
 - [[Ars Technica] First test flight of largest all-electric aircraft used just $5 of electricity](https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/) — *2026-08-14*

@@ -2,14 +2,14 @@
 section: billionaires
 title: Forbes Real-Time Billionaires (top 30 + biggest movers)
 date: 2026-08-15
-record_count: 34
+record_count: 30
 new_today: 0
 state: fresh
 ---
 
 ## Forbes Real-Time Billionaires (top 30 + biggest movers)
 
-0 new of 34 total items today.
+0 new of 30 total items today.
 
 - [#1 Elon Musk — $864.25B](https://www.forbes.com/profile/elon-musk/) — *2026-08-15*
   > United States · Technology · source: Tesla, SpaceX · holdings: SPCX-US(NASDAQ), SPCX-US(NASDAQ), TSLA-US(NASDAQ)
@@ -62,4 +62,4 @@ state: fresh
 - [#25 Julia Koch & family — $81.19B](https://www.forbes.com/profile/julia-koch/) — *2026-08-15*
   > United States · Diversified · source: Koch, Inc.
 
-_(9 additional items in raw.jsonl)_
+_(5 additional items in raw.jsonl)_

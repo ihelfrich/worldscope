@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-15
-record_count: 33
-new_today: 28
+record_count: 34
+new_today: 29
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-28 new of 33 total items today.
+29 new of 34 total items today.
 
 - **NEW**  [M 7.7 - 68 km NNW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2) — *2026-08-14*
   > M7.7 · 68 km NNW of Ende, Indonesia · depth 10 km · PAGER orange
@@ -29,6 +29,8 @@ state: fresh
   > M5.3 · 49 km NE of Labuan Bajo, Indonesia · depth 10 km
 - **NEW**  [M 5.2 - 1 km SW of Otura, Spain](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2) — *2026-08-14*
   > M5.2 · 1 km SW of Otura, Spain · depth 10 km
+- **NEW**  [M 5.1 - 71 km NNE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkx5) — *2026-08-15*
+  > M5.1 · 71 km NNE of Ruteng, Indonesia · depth 10 km
 - **NEW**  [M 5.1 - 71 km NNW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwq) — *2026-08-15*
   > M5.1 · 71 km NNW of Ende, Indonesia · depth 10 km
 - **NEW**  [M 5.1 - 71 km NNE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvp) — *2026-08-15*
@@ -59,7 +61,5 @@ state: fresh
   > M4.7 · 46 km NNE of Ruteng, Indonesia · depth 10 km
 - **NEW**  [M 4.7 - 16 km SSE of Tomioka, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvn) — *2026-08-15*
   > M4.7 · 16 km SSE of Tomioka, Japan · depth 50.197 km
-- **NEW**  [M 4.7 - 78 km NNW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvd) — *2026-08-15*
-  > M4.7 · 78 km NNW of Ende, Indonesia · depth 10 km
 
-_(8 additional items in raw.jsonl)_
+_(9 additional items in raw.jsonl)_
