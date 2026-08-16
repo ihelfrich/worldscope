@@ -2,34 +2,20 @@
 section: state_news
 title: State-Level News
 date: 2026-08-16
-record_count: 366
-new_today: 97
+record_count: 369
+new_today: 103
 state: fresh
 ---
 
 ## State-Level News
 
-97 new of 366 total items today.
+103 new of 369 total items today.
 
 - [[California] Governor Newsom announces appointments 8.14.2026](https://www.gov.ca.gov/2026/08/14/governor-newsom-announces-appointments-8-14-2026/) — *2026-08-15*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
 - [[California] IBank closes $236 million in bond financing for La Brea Tar Pits Reimagine Project](https://www.gov.ca.gov/2026/08/14/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/) — *2026-08-14*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/IBank-closes-236-million-in-bond-financing-for-La-Brea-Tar-Pits-Reimagine-Project-SEO-GFX-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" />
 <p><a h
-- **NEW**  [[Colorado] No more ‘hypothetical situations’: States move to fortify elections against Trump](https://coloradonewsline.com/2026/08/15/repub/states-fortify-elections-against-trump/) — *2026-08-15*
-  > State Democratic officials are preparing for chaos at the polls this November, as President Donald Trump casts doubt on election security and pushes for more federal involvement in local voting.  “We&#8217;re no longer talking about hypothetical situations,” said Nick Brown, Wash
-- [[Colorado] Colorado Rep. Mandy Lindsay defends caucus payments during ethics hearing](https://coloradonewsline.com/briefs/colorado-rep-mandy-lindsay-defends-caucus-payments-during-ethics-hearing/) — *2026-08-14*
-  > Colorado Rep. Mandy Lindsay told lawmakers on Friday that she did not fully understand the level of financial responsibility involved when she became co-chair of the House Democratic Caucus, and that there was an unset expectation around the accounting and organization of caucus 
-- [[Colorado] Congressional approval not needed for White House ballroom, Trump tells high court](https://coloradonewsline.com/2026/08/14/repub/white-house-ballroom-trump-high-court/) — *2026-08-14*
-  > WASHINGTON — President Donald Trump asked the U.S. Supreme Court Thursday to intervene in a lower court decision that halts his $400 million White House ballroom construction unless he receives authorization from Congress. The administration&#160;requested the justices grant an i
-- [[Colorado] An 1876 Colorado ‘railroad war’ climaxed with the kidnapping of a federal judge](https://coloradonewsline.com/2026/08/14/1876-kidnapping-federal-judge/) — *2026-08-14*
-  > On the morning of Aug. 15, 1876, Judge Amherst Stone left Golden on a northbound Colorado Central Railroad train to Boulder, where he was expected to formalize a ruling that would put the financially troubled railroad into receivership. He never arrived. Just north of Ralston Cre
-- [[Colorado] Health of Colorado priest in ICE custody deteriorating after almost a year in detention](https://coloradonewsline.com/2026/08/14/colorado-priest-ice-custody-deteriorating/) — *2026-08-14*
-  > A 78-year-old priest who has been in immigration detention in Aurora for almost a year continues to present symptoms of respiratory illness with no improvement in his condition.   Edward Nalwamba, a citizen of Uganda who has lived in Colorado for more than two decades, has been i
-- [[Colorado] Democrats push nearly 250 state bills opposing federal immigration efforts](https://coloradonewsline.com/2026/08/14/repub/democrats-state-bills-immigration-efforts/) — *2026-08-14*
-  > Democratic lawmakers proposed nearly 250 bills in state capitols this year seeking to limit federal immigration efforts as they sought to push back against what they view as federal government overreach.  In a new report tallying 2026 action, State Futures, a nonprofit coordinati
-- [[Colorado] Municipal collective bargaining law in Colorado effectively permits union busting](https://coloradonewsline.com/2026/08/14/municipal-collective-bargaining-colorado-union-busting/) — *2026-08-14*
-  > While Colorado labor organizers and activists have been (rightly) concerned for the past several years with passing the Worker Protection Act, there is an often overlooked but equally important route toward worker empowerment in the state: Municipal collective bargaining. The Wor
 - **NEW**  [[California] After refinery explosions, California lawmakers move to preserve safety rules](https://calmatters.org/digital-democracy/2026/08/refinery-safety-california-gas/) — *2026-08-15*
   > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/10/100225-El-Segundo-Fire-AP-CM.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Flames and smoke rise from an industrial fir
 - **NEW**  [[California] US DOJ finds ‘unbroken pattern’ of sexual abuse by California prison staff](https://calmatters.org/justice/2026/08/prisons-sexual-abuse/) — *2026-08-15*
@@ -46,14 +32,35 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/050625_CSU-San-Marcos_AH_CM_12.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Students walk up and down a concrete set o
 - [[California] Where did the birds go? Once-abundant wetlands are drying up after federal staff cutbacks](https://calmatters.org/environment/2026/08/wildlife-refuge-after-doge/) — *2026-08-14*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/112017_112017_Wildlife_Refuge_SM_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Black and white birds fly over a w
-- [[Alabama] Jefferson County judge hears new challenge to Tuberville residency](https://www.alreporter.com/2026/08/14/jefferson-county-judge-hears-new-challenge-to-tuberville-residency/) — *2026-08-14*
-- [[Alabama] Public schools vs. the Loch Ness Monster and the absurd CHOOSE Act](https://www.alreporter.com/2026/08/14/public-schools-vs-the-loch-ness-monster-and-the-absurd-choose-act/) — *2026-08-14*
-- [[Alabama] Alabama education department budget holds staffing flat as costs rise](https://www.alreporter.com/2026/08/14/alabama-education-budget-holds-staffing-flat-as-costs-rise/) — *2026-08-14*
-- [[Alabama] PSC candidate McNeil pushes Alabama data center accountability plan](https://www.alreporter.com/2026/08/14/psc-candidate-mcneil-pushes-alabama-data-center-accountability-plan/) — *2026-08-14*
-- [[Alabama] Dixon has no “immediate plans” to run for another public office after CD6 loss](https://www.alreporter.com/2026/08/14/dixon-has-no-immediate-plans-to-run-for-another-public-office-after-cd6-loss/) — *2026-08-14*
-- [[Alabama] Sen. Britt, Commissioner Blankenship receive awards from Alabama Wildlife Federation](https://www.alreporter.com/2026/08/14/sen-britt-commissioner-blankenship-receive-awards-from-alabama-wildlife-federation/) — *2026-08-14*
-- [[Alabama] Governor denies clemency, execution of Jeremy Williams carried out](https://www.alreporter.com/2026/08/14/governor-denies-clemency-execution-of-jeremy-williams-carried-out/) — *2026-08-14*
-- **NEW**  [[Arkansas] Controlling wild pigs can work if it’s a group effort](https://arkansasadvocate.com/2026/08/15/controlling-wild-pigs-can-work-if-its-a-group-effort/) — *2026-08-15*
-  > The federal government is injecting millions of dollars into efforts to combat feral hogs – and it’s considering spending even more in the coming years. The problem has grown for decades, but our research has found that a recently revived federal effort offers the potential for b
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-16*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-16*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- **NEW**  [[Connecticut] CT’s first state-funded methadone vans expand access to treatment](https://ctmirror.org/2026/08/16/ct-methadone-vans/) — *2026-08-16*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/MOBILE-METHADONE-0731-0717-SG-01-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirro
+- **NEW**  [[Connecticut] The high-speed railroad never built — 120 years ago](https://ctmirror.org/2026/08/16/the-high-speed-railroad-never-built-120-years-ago/) — *2026-08-16*
+  > <figure><img width="1024" height="642" src="https://ctmirror.org/wp-content/uploads/2026/08/Chicago-New_York_Electric_Air_Line_Railroad_Car_-La_Porte_IN-1024x642.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset
+- [[Connecticut] Gender-affirming care, Russia sanctions and Kalshi: CT politics news](https://ctmirror.org/2026/08/14/ct-politics-news-august-14/) — *2026-08-14*
+  > <figure><img width="870" height="584" src="https://ctmirror.org/wp-content/uploads/2026/01/ct-childrens-hosp.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/01/ct-
+- [[Connecticut] Stowe Center explores independence in Black abolitionists’ stories](https://ctmirror.org/2026/08/14/stowe-center-exhibit-black-independence-freedom/) — *2026-08-14*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/STOWE-CENTER-EXHIBITION-0807-SG-09-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.or
+- [[Connecticut] Bronin won because of voters young, old and everything in between](https://ctmirror.org/2026/08/14/bronin-won-because-of-voters-young-old-and-everything-in-between/) — *2026-08-14*
+  > <figure><img width="1024" height="809" src="https://ctmirror.org/wp-content/uploads/2026/08/H3gR3-which-towns-was-bronin-most-popular-in--1024x809.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmir
+- [[Connecticut] CT’s GOP says it can win the 5th Congressional District race](https://ctmirror.org/2026/08/14/cts-gop-says-it-can-win-the-5th-congressional-district-race/) — *2026-08-14*
+  > <figure><img width="1024" height="576" src="https://ctmirror.org/wp-content/uploads/2026/08/CTPublic-Waterbury-1024x576.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads
+- [[Connecticut] CT’s 1st Congressional District candidates share housing affordability plans](https://ctmirror.org/2026/08/14/housing-affordability-bronin-chai/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/09/Hartford-Housing-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
+- [[Connecticut] Many immigrants with legal status could lose Medicare coverage](https://ctmirror.org/2026/08/14/many-immigrants-with-legal-status-could-lose-medicare-coverage/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/03/2025_0303_SR_ImmigrantsRally_171-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-co
+- [[Connecticut] Why all the flack about Flock](https://ctmirror.org/2026/08/14/why-all-the-flack-about-flock-bill/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/AP26015654981548.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/08/AP2
+- [[Delaware] Meyer joins national immigration task force, yet Delaware bills remain unsigned](https://spotlightdelaware.org/2026/08/14/meyer-joins-national-immigration-task-force-yet-de-immigration-bills-remain-unsigned/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/04/50044960247_9bfe5be886_o-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="
+- [[Delaware] Delaware hospital oversight board approves new regulations](https://spotlightdelaware.org/2026/08/14/delaware-hospital-oversight-board-approves-new-regulations/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Health-care-costs-stock-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.
+- [[Delaware] Daycare is costly, but providers in Delaware are struggling too](https://spotlightdelaware.org/2026/08/14/daycare-is-costly-but-providers-in-delaware-are-struggling-too/) — *2026-08-14*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Eugenia-Mumford-and-students-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="la
+- **NEW**  [[feed error] FL Governor (Florida): HTTPError](https://www.flgov.com/feed/) — *2026-08-16*
+  > 404 Client Error: Not Found for url: https://www.flgov.com/feed/
 
-_(341 additional items in raw.jsonl)_
+_(344 additional items in raw.jsonl)_

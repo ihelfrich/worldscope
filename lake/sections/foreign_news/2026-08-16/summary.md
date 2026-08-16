@@ -2,14 +2,14 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-16
-record_count: 950
-new_today: 553
+record_count: 940
+new_today: 564
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-553 new of 950 total items today.
+564 new of 940 total items today.
 
 - [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-16*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
@@ -17,13 +17,11 @@ state: fresh
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-16*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-16*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[Global] Cover Story newsletter: Inside Afghanistan](https://www.economist.com/the-world-this-week/2026/08/14/cover-story-newsletter-inside-afghanistan) — *2026-08-14*
-  > An exclusive look at how we designed our cover
-- **NEW**  [[Global] Rescuers search for survivors of powerful Indonesia earthquake](https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss) — *2026-08-16*
-  > Officials say a rapid assessment into the impact of the earthquake that destroyed hundreds of buildings and killed 47 is under way.
-- **NEW**  [[Global] Hawaii battles strong winds and rain as Hurricane Lala threat looms](https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss) — *2026-08-16*
+- **NEW**  [[Global] Five killed as Russia launches fresh aerial attacks across Ukraine](https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss) — *2026-08-16*
+  > Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.
+- **NEW**  [[Global] Thousands displaced by deadly Indonesia earthquake as rescue efforts continue](https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss) — *2026-08-16*
+  > Hundreds of homes and public buildings have been severely damaged with at least 51 people killed.
+- **NEW**  [[Global] Hurricane Lala lashes Hawaii with strong winds and torrential rain](https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss) — *2026-08-16*
   > If the storm makes landfall, it will be Hawaii's first direct hit by a hurricane in 34 years.
 - **NEW**  [[Global] Twelve killed as Polish bus veers off Hungarian motorway](https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss) — *2026-08-16*
   > Dozens more are seriously injured after the tourist bus overturned in the early hours of Sunday morning.
@@ -61,5 +59,7 @@ state: fresh
   > It marked the first time a court had heard Mangione describe how he committed a crime that garnered worldwide attention.
 - [[Global] Europe's scorched landscapes seen from space after summer heatwaves](https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss) — *2026-08-15*
   > From glaciers shrinking to an exposed shipwreck,  satellites capture the impact of extreme heat and drought.
+- **NEW**  [[Global] The Polygamist's author says women see themselves reflected in her Netflix hit](https://www.bbc.co.uk/news/articles/cd0xk82mrpyo?at_medium=RSS&at_campaign=rss) — *2026-08-14*
+  > Zimbabwean novelist Sue Nyathi self-funded her debut novel and now asks who can afford to write at all.
 
-_(925 additional items in raw.jsonl)_
+_(915 additional items in raw.jsonl)_

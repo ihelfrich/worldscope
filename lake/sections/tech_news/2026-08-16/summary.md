@@ -2,23 +2,17 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-16
-record_count: 58
-new_today: 10
+record_count: 53
+new_today: 9
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-10 new of 58 total items today.
+9 new of 53 total items today.
 
 - **NEW**  [[BleepingComputer] New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/) — *2026-08-15*
   > A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]
-- **NEW**  [[The Register] ChainDrop worm crawls into npm supply chain, evades standard defenses](https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958) — *2026-08-15*
-  > Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks
-- [[The Register] Lego's supersized Hubble deserves a little more shine](https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858) — *2026-08-15*
-  > Excellent internal detail cannot entirely disguise some penny-pinching choices
-- [[The Register] Anthropic says text watermarking scheme relies on inconsequential words](https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156) — *2026-08-15*
-  > 'Shall I compare thee to a summer's afternoon' is the sort of thing this will make, and others look likely to adopt it
 - **NEW**  [[Ars Technica] VisionQuest trailer kicks off Disney's D23 fan event](https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/) — *2026-08-15*
   > Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter
 - **NEW**  [[Ars Technica] Ukraine strikes major Russian rocket factory with cruise missiles](https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/) — *2026-08-15*
@@ -61,9 +55,18 @@ I&#8217;m speaking online (via Zoom) at a League of Women Voters event on Tuesd
 - [[Schneier on Security] If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them](https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html) — *2026-08-14*
   > This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.
 OpenAI, and then Anthropic, were each formed by AI developers who feared unrestrained corporate AI development&#8212;specifically, that companies like Google and Meta would steer the technolog
-- [[The Register] DeepSeek's innovative harness treats everything as a plug-in](https://www.theregister.com/ai-and-ml/2026/08/14/deepseeks-innovative-harness-treats-everything-as-a-plug-in/5288095) — *2026-08-14*
-  > Chinese AI labs keep moving forward while US labs play defense
-- [[The Register] 1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack](https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003) — *2026-08-14*
-  > Another one bites the dust
+- [[Ars Technica] Vulnerability giving attackers full control of Macs is under active exploitation](https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/) — *2026-08-14*
+  > Screen-sharing bug lets remote hackers log in without a password.
+- [[Ars Technica] First test flight of largest all-electric aircraft used just $5 of electricity](https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/) — *2026-08-14*
+  > Airline-backed venture aims to develop a hybrid-electric commercial aircraft.
+- [[Computer Weekly] Quintas Energy deploys AI through Box to power workflows](https://www.computerweekly.com/news/366649394/Quintas-Energy-deploys-AI-through-Box-to-power-workflows) — *2026-08-14*
+  > &lt;p&gt;Quintas Energy, which provides independent asset management services to the renewable energy sector, is deploying Box to establish a &lt;a href="https://www.computerweekly.com/news/366639242/RWS-Global-deploys-Boxs-AI-tools-to-streamline-contract-workflow"&gt;secure, int
+- [[Computer Weekly] Most Influential Women in UK Tech: The 2026 longlist](https://www.computerweekly.com/news/366648897/Most-Influential-Women-in-UK-Tech-The-2026-longlist) — *2026-08-14*
+  > &lt;p&gt;Now in its 15&lt;sup&gt;th&lt;/sup&gt; year, Computer Weekly’s list of the most influential women in UK technology&amp;nbsp;&lt;a href="https://www.computerweekly.com/news/2240159491/The-most-influential-women-in-UK-IT"&gt;has been running since 2012&lt;/a&gt;, launched 
+- [[Computer Weekly] CW@60: Still amazed - three times computers changed my life](https://www.computerweekly.com/feature/CW60-Still-amazed-three-times-computers-changed-my-life) — *2026-08-14*
+  > &lt;div class="imagecaption alignLeft"&gt;
+ &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
+&lt;/div&gt; 
+&lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
 
-_(33 additional items in raw.jsonl)_
+_(28 additional items in raw.jsonl)_

@@ -26,18 +26,18 @@ state: fresh
    evidence: [lake:political_figures:0002004239-2], [lake:political_figures:0001962329-2], [lake:political_figures:0002045034-2], [lake:political_figures:0002004299-2], [lake:political_figures:0001493152-2]
 5. **Rick Scott** (Senator, Republican, FL): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:gkg-20260815], [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2]
+   evidence: [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2]
 6. **Tim Scott** (Senator, Republican, SC): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:gkg-20260815], [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2]
+   evidence: [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2]
 7. **Austin Scott** (Representative, Republican, GA-8th): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:gkg-20260815], [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 8. **Steve Cohen** (Representative, Democratic, TN-9th): composite 0.040
    drivers: new_filings=0.40
    evidence: [lake:political_figures:0001213900-2], [lake:political_figures:0001213900-2]
 9. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.040
    drivers: new_filings=0.40
-   evidence: [lake:political_figures:gkg-20260815], [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001628280-2], [lake:political_figures:https://www.]
 10. **Richard Blumenthal** (Senator, Democratic, CT): composite 0.025
    evidence: [lake:political_figures:0001883345-2]

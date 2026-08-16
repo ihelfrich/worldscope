@@ -11,54 +11,55 @@ state: fresh
 
 100 new of 204 total items today.
 
-- [[St. Louis] Photos: St. Louis Kids Book Club at Clark Family Branch](https://www.stlmag.com/family/photos-st-louis-kids-book-club-at-clark-family-branch/) — *2026-08-14*
-  > <p>On August 13, 2026, families gathered at the St. Louis County Library’s Clark Family Branch for St. Louis Magazine’s Kids Book Club, presented by PNC and The Clark Family and hosted by St. Louis County Library. The monthly series brings families together to share stories, spar
-- [[St. Louis] Ask George: When I see that a restaurant is having a soft opening, does that mean it’s open to the public?](https://www.stlmag.com/dining/ask-george-soft-openings-open-to-public/) — *2026-08-14*
-  > <p>When I see that a restaurant is having a soft&#160;opening, does that mean it’s open to the public? —Nora M., St. Louis The term “soft&#160;opening&#8221; is a nebulous moniker that’s become even more so over the years, so the short answer to the question is “sometimes.” In da
-- [[St. Louis] What’s True in the Lou? – 8/14/2026](https://www.stlmag.com/games/whats-true-in-the-lou-081526/) — *2026-08-14*
-  > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
-- **NEW**  [[St. Louis] Family searches for missing 41-year-old man in East St. Louis](https://fox2now.com/news/illinois/family-searches-for-missing-41-year-old-man-in-east-st-louis/) — *2026-08-16*
-  > A family is pleading for help finding 41-year-old Perrin Cooper, who has been missing from East St. Louis since Monday.
-- **NEW**  [[St. Louis] Baby rescued from hot car in north St. Louis; Two parents arrested](https://fox2now.com/news/missouri/baby-rescued-from-hot-car-in-north-st-louis-two-parents-arrested/) — *2026-08-15*
-  > St. Louis police officers rescued a 6-month-old baby who was left unattended in hot car Saturday in north St. Louis. Both of the baby's parents were arrested shortly thereafter, police say.
-- **NEW**  [[St. Louis] History! Cardinals' rising star Joshua Baez homers in first three MLB at-bats](https://fox2now.com/sports/st-louis-cardinals/cardinals-newcomer-joshua-baez-homers-on-first-pitch-of-first-mlb-at-bat/) — *2026-08-15*
-  > A Major League Baseball debut for the history books: St. Louis Cardinals outfielder Joshua Baez hit a home run in each of his first three MLB at-bats. He's now the only player in baseball history to ever do that.
-- **NEW**  [[St. Louis] Missouri Amendment 3 set for November ballots - What would it do?](https://fox2now.com/news/missouri/missouri-amendment-3-set-for-november-ballots-what-would-it-do/) — *2026-08-16*
-  > Missouri voters will decide on three statewide constitutional amendments in the November 2026 general election, headlined by Amendment 3, which could reinstate abortion bans across the state in most cases.
-- **NEW**  [[St. Louis] Freedom 13 memorial ride honors fallen Marine Jared Schmitz](https://fox2now.com/news/missouri/freedom-13-memorial-ride-honors-fallen-marine-jared-schmitz/) — *2026-08-16*
-  > Hundreds of motorists gathered Saturday to take part in the "Angels of Abbey Gate Memorial Ride," an event held in memory of fallen U.S. Marine and Missouri native Jared Schmitz.
-- **NEW**  [[St. Louis] Carlinville, Illinois competes in Hallmark's 'Merriest Christmas Town' contest](https://fox2now.com/news/illinois/carlinville-illinois-competes-in-hallmarks-merriest-christmas-town-contest/) — *2026-08-16*
-  > For years, many people have said Carlinville, Illinois feels like it's right out of a Hallmark movie. Now, the small town could actually become the setting for one.
-- **NEW**  [[St. Louis] Fourth suspect charged in murder of mother at Ferguson gas station](https://fox2now.com/news/missouri/fourth-suspect-charged-in-murder-of-mother-at-ferguson-gas-station/) — *2026-08-15*
-  > A fourth suspect has now been arrested and charged in connection with the murder of a mother who was fatally shot in front of her children earlier this year at a Ferguson gas station.
-- [[St. Louis] 2026 BMW Championship in St. Louis: What to know](https://fox2now.com/sports/2026-bmw-championship-in-st-louis-what-to-know/) — *2026-08-14*
-  > Next week marks an important event in the sports world as 50 golfers come to St. Louis to compete in the BMW Championship.
-- **NEW**  [[St. Louis] E. coli levels in Missouri's Big River slightly improve, but still unsafe](https://fox2now.com/news/missouri/e-coli-levels-in-missouris-big-river-slightly-improve-but-still-unsafe/) — *2026-08-15*
-  > E.coli levels in the Big River near Leadwood, Missouri, are slightly improving, but remain high, one week after state officials identified raw sewage in the river and problems with the city's wastewater treatment system.
-- **NEW**  [[St. Louis] Mid-Missouri teen dies after drowning in swimming pool](https://fox2now.com/news/missouri/mid-missouri-teen-dies-after-drowning-in-swimming-pool/) — *2026-08-15*
-  > A teenager from mid-Missouri died when he drowned in a swimming pool Friday evening, according to the Missouri State Highway Patrol.
-- **NEW**  [[St. Louis] Joshua Báez slugs 3 homers in historic debut; Cardinals win 8-4 over Cubs](https://fox2now.com/sports/st-louis-cardinals/joshua-baez-slugs-3-homers-in-historic-debut-cardinals-win-8-4-over-cubs/) — *2026-08-15*
-  > Joshua Báez became the first player to hit three home runs in his first three at-bats in the major leagues, leading the St. Louis Cardinals to an 8-4 victory over the Chicago Cubs on Saturday.
-- **NEW**  [[St. Louis] Webster Groves kids bake nearly 600 cookies to raise money for animals in need](https://fox2now.com/news/missouri/webster-groves-kids-bake-nearly-600-cookies-to-raise-money-for-animals-in-need/) — *2026-08-16*
-  > A Webster Groves family, led by three young kids, spent their Saturday running a bake sale and raising money for a good cause: To help animals in need.
-- [[St. Louis] Police catch man accused of robbing Chase Bank in Fairview Heights](https://fox2now.com/news/illinois/police-catch-man-accused-of-robbing-chase-bank-in-fairview-heights/) — *2026-08-15*
-  > A man was taken into custody Thursday after allegedly robbing a Chase Bank in Fairview Heights.
-- **NEW**  [[St. Louis] Webster Groves family hosts bake sale to support Animal Protective Association](https://fox2now.com/news/missouri/local-family-hosting-bake-sale-in-support-of-the-apa/) — *2026-08-15*
-  > On Saturday, Aug. 15, the Elchert family will host its 3rd bake sale at their home down the road from in Webster Groves from 10 a.m. to noon. If you plan to attend, there will be signs in the area to guide you.
-- [[St. Louis] Commuters brace for westbound I-64 shutdown in Illinois](https://fox2now.com/news/illinois/commuters-brace-for-westbound-i-64-shutdown-in-illinois/) — *2026-08-15*
-  > Travis Askew lives in East St. Louis and takes westbound I-64 to work. He’s bracing for a closure that was scheduled to begin at 9 p.m. on Friday and last until 5 a.m. on Monday, August 24.
-- [[St. Louis] Copper thieves target Caseyville church next to police station](https://fox2now.com/news/illinois/copper-thieves-target-caseyville-church-next-to-police-station/) — *2026-08-15*
-  > It’s St. Stephen Catholic Church on South Main, where someone reportedly stole copper downspouts – right next to Caseyville, P.D.
-- [[St. Louis] Police still searching for killer in Baden shooting](https://fox2now.com/news/missouri/police-still-searching-for-killer-in-baden-shooting/) — *2026-08-15*
-  > Homicide detectives are asking for the public’s help identifying the person or people responsible for the deadly shooting of a man in the city’s Baden neighborhood.
-- [[St. Louis] Cardinals to promote powerful prospect Joshua Baez](https://fox2now.com/sports/st-louis-cardinals/cardinals-to-promote-powerful-prospect-joshua-baez/) — *2026-08-15*
-  > At long last, the St. Louis Cardinals are promoting Joshua Baez, minor league baseball's home run leader this season, for his major league debut.
-- [[St. Louis] Suspects caught after car strikes St. Louis police SUV](https://fox2now.com/news/missouri/suspects-caught-after-car-strikes-st-louis-police-suv/) — *2026-08-15*
-  > Multiple suspects were taken into custody after a car wanted in connection with a burglary struck a St. Louis Metropolitan Police Department vehicle while officers attempted to make a traffic stop.
-- [[St. Louis] MoDOT celebrates I-70's 70th birthday](https://fox2now.com/news/missouri/modot-celebrates-i-70s-70th-birthday/) — *2026-08-14*
-  > The Missouri Department of Transportation (MODOT) celebrated the 70th birthday of the launch of the construction of Interstate 70 that began in St.  Charles in 1956.
-- **NEW**  [[St. Louis] Cahokia football schedule](https://stats.stlhighschoolsports.com/sports/football/stats/teamschedule.php?t=31&s=980) — *2026-08-16*
-- **NEW**  [[St. Louis] Missouri’s first ketamine therapy practice bets on what comes next](https://www.stltoday.com/news/state-regional/government-politics/article_863a7bff-3ac7-5569-ac86-0f992edf3954.html) — *2026-08-16*
-  > Anne Bethune opened Missouri’s first ketamine-assisted therapy practice in 2019. Now she’s pushing lawmakers to expand access to psilocybin-assisted treatment.
+- **NEW**  [[St. Louis] New aircraft carrier heads to the Middle East amid reports of issues on USS Abraham Lincoln](https://www.ksdk.com/article/news/nation-world/aircraft-carrier-asia-iran-war-western-hemisphere/507-58c39336-1132-4c5c-98fa-6bb8df1dc415) — *2026-08-16*
+  > The USS George Washington is departing the Pacific and expected to replace the USS Abraham Lincoln in the Middle East.
+- **NEW**  [[St. Louis] Italian pasta maker closes on St. Charles factory](https://www.ksdk.com/article/news/local/business-journal/italian-pasta-maker-bertagni-closes-on-st-charles-factory/63-5b684540-dd6c-42db-98a8-da1d5b8718c1) — *2026-08-16*
+  > Bertagni 1882 is taking over the former General Mills plant and is expected to create 150 jobs.
+- **NEW**  [[St. Louis] 2 in custody after 6-month-old rescued from hot vehicle near North Kingshighway, police say](https://www.ksdk.com/article/news/local/2-in-custody-after-6-month-old-rescued-from-hot-vehicle-near-north-kingshighway-police-say/63-8081d312-7cb2-4360-b9ad-23e55e7b0a13) — *2026-08-16*
+  > Security personnel rescued the child from the vehicle, and he received immediate medical care.
+- **NEW**  [[St. Louis] Heat pushes back start time for Day 2 of Blues at the Arch, but doesn't keep the crowds away](https://www.ksdk.com/article/news/local/heat-pushes-back-start-time-for-day-2-of-blues-at-the-arch-but-doesnt-keep-the-crowds-away/63-f2bfa662-e760-4617-90a2-19740ae055f2) — *2026-08-16*
+  > Organizers delayed Saturday's Blues at the Arch by two hours because of the heat, but festivalgoers still turned out with fans, umbrellas and cold drinks.
+- **NEW**  [[St. Louis] Lala strengthens into a hurricane and bears down on Hawaii’s Big Island with heavy rain, winds](https://www.ksdk.com/article/weather/hurricane/hawaii-big-island-hurricane-landfall-threat-tropical-storm-lala/507-cd707aa0-012b-4710-8cf9-c9b5c52cad2e) — *2026-08-16*
+  > The National Hurricane Center said Lala’s maximum sustained winds increased to 75 mph, making it a Category 1 hurricane.
+- **NEW**  [[St. Louis] Bruce Willis makes rare public appearance at daughter's wedding](https://www.ksdk.com/article/news/nation-world/bruce-willis-daughters-wedding/507-399a5246-79bf-44f1-b1a8-474226fdaa40) — *2026-08-16*
+  > Bruce Willis attended his daughter Tallulah's wedding in Idaho on Saturday. Here are some photos of the Willis daughter's big day.
+- **NEW**  [[St. Louis] 17-year-old falls to his death inside abandoned New Orleans building](https://www.ksdk.com/article/news/nation-world/boy-falls-to-death-abandoned-new-orleans-building/507-3082741b-d7a3-42aa-8074-f5d8101433b1) — *2026-08-16*
+  > A 17-year-old boy died after falling in an abandoned New Orleans building, according to the police.
+- **NEW**  [[St. Louis] Man arrested in Mississippi a day after being added to FBI '10 Most Wanted' list](https://www.ksdk.com/article/news/nation-world/man-arrested-in-mississippi-a-day-after-being-added-to-fbi-10-most-wanted-list/507-61122750-a7e3-4942-b3e4-48023bf8a804) — *2026-08-15*
+  > Gregory Henderson Jr. was arrested by the FBI one day after being added to their "10 Most Wanted" list.
+- **NEW**  [[St. Louis] Gateway Dragon Boat Festival returns,  bringing free fun to Creve Coeur Lake](https://www.ksdk.com/article/news/local/gateway-dragon-boat-festival-returns-bringing-free-fun-to-creve-coeur-lake/63-77209f98-72d0-44fe-8a5c-c83441020afa) — *2026-08-15*
+  > The Gateway Dragon Boat Festival went until 3 p.m. Saturday at Creve Coeur Lake Memorial Park.
+- **NEW**  [[St. Louis] Man who fired back at In-N-Out shooter recounts harrowing encounter](https://www.ksdk.com/article/news/nation-world/jordan-salinas-recounts-encounter-in-n-out-shooting-idaho/507-be43ab98-82cb-4b31-b9b5-42aa94bc0488) — *2026-08-15*
+  > After a 2021 mall shooting in Boise, Idaho, Jordan Salinas decided to train in case he was ever in the area during an active shooting.
+- **NEW**  [[St. Louis] Urban League of Metropolitan St. Louis offers free resources at this weekend's expo](https://www.ksdk.com/article/news/local/urban-league-of-metropolitan-st-louis-offers-free-resources-at-this-weekends-expo/63-422bec19-acb7-4397-bb89-038e3a69030c) — *2026-08-15*
+  > Saturday's event included free back-to-school physicals, immunizations, health screenings, dental services, and so much more.
+- **NEW**  [[St. Louis] 1 person killed in 3-vehicle crash near Beacon Car Wash in Pacific, Missouri](https://www.ksdk.com/article/traffic/1-person-killed-in-3-vehicle-crash-near-beacon-car-wash-in-pacific-missouri/63-295cbfa9-1290-4191-a0c2-0452a7227243) — *2026-08-15*
+  > The crash happened near 675 E. Osage, where troopers responded to the scene.
+- **NEW**  [[St. Louis] Black Pride STL cancels remainder of weekend expo due to incident at event site parking lot](https://www.ksdk.com/article/news/local/black-pride-stl-cancels-remainder-of-weekend-expo-due-to-incident-at-event-site-parking-lot/63-cd300301-027c-403f-8706-8df633c7043e) — *2026-08-15*
+  > The weekend had started with a comedy show headlined by Jenelle Banks, followed by an Advocacy Day at St. Louis City Hall.
+- **NEW**  [[St. Louis] Firefighters leave nearly $1,000 tip for server whose family lost their home in the Spokane fires](https://www.ksdk.com/article/news/nation-world/firefighters-leave-tip-waitress-lost-home-spokane-washington-fires/507-e8536c69-3a18-4451-a426-6db9d446df4b) — *2026-08-15*
+  > "It shows me that there is kind of pure goodness in humanity that I don't think I've really experienced yet," she said.
+- [[St. Louis] Pixar gives first look at 'Coco 2,' announces 'Ghost Market' at D23](https://www.ksdk.com/article/news/nation-world/coco-2-pixar-d23-ghost-market-incredibles-gatto/507-350c286a-9204-4388-946e-8216ffad68a1) — *2026-08-15*
+  > The animation studio released concept art for its upcoming projects at Disney's fan event.
+- [[St. Louis] Good Samaritan helps Texas police officer rescue child from burning vehicle](https://www.ksdk.com/article/news/nation-world/good-samaritan-texas-officer-rescue-child-burning-vehicle/507-de2695e0-efcb-4e66-82a6-c31ec8f7f417) — *2026-08-15*
+  > The driver suffered a medical emergency and drove off the road, police said.
+- [[St. Louis] St. Louis Blues hosts second annual Icebreaker Invitational for top girls hockey programs](https://www.ksdk.com/article/news/local/st-louis-blues-hosts-second-annual-icebreaker-invitational-for-top-girls-hockey-programs/63-da070afa-f7c1-4dde-8fc9-5d748fb47b78) — *2026-08-15*
+  > The event will feature appearances from local Olympians Joy and Jincy Dunne, who will participate in sessions with the young players.
+- [[St. Louis] Small town, big footprint: Sauget celebrates 100 years in the Metro East](https://www.ksdk.com/article/news/local/small-town-big-footprint-sauget-celebrates-100-years-in-the-metro-east/63-fa1a3e24-176f-45b5-8f59-9e1e5f7e01d5) — *2026-08-15*
+  > The Metro East village has only about 120 residents, but its population swells into the thousands each workday.
+- [[St. Louis] 6 dead, including suspect, in series of killings in Michigan](https://www.ksdk.com/article/news/nation-world/6-dead-including-suspect-michigan-shootings/507-2add2c4a-1afc-464f-8773-0b8472cfd023) — *2026-08-15*
+  > Michigan State Police said the shooting victims were found in three locations.
+- [[St. Louis] MoDOT marks 70 years of Interstate 70 with St. Charles ceremony](https://www.ksdk.com/article/news/community/transportation/modot-marks-70-years-of-interstate-70-with-st-charles-ceremony/63-18c40446-ef2e-41b3-a4df-52966b9ee95f) — *2026-08-15*
+  > MoDOT celebrated I-70's 70th anniversary a day late with a St. Charles ceremony, highlighting original 1950s pavement still in use.
+- [[St. Louis] Mark Rydell, the Oscar-nominated director of 'On Golden Pond,' dies at 97](https://www.ksdk.com/article/news/nation-world/mark-rydell-director-on-golden-pond-dies/507-77f4eed5-b250-4c24-b266-6a34a2740504) — *2026-08-15*
+  > His daughter, Amy Rydell, confirmed that he died Thursday of natural causes.
+- [[St. Louis] Construction workers in Belgium unearth mysterious stash of gold worth $10M](https://www.ksdk.com/article/news/nation-world/belgium-gold-bars-stash-construction-workers/507-96b73f56-4ffe-4beb-b04a-82c0a35f2a6b) — *2026-08-15*
+  > The workers found the treasure trove bricked up in a cellar wall while working on a renovation project.
+- [[St. Louis] 2 soldiers identified after fatal military helicopter crash in Texas](https://www.ksdk.com/article/news/nation-world/soldiers-identified-after-fatal-helicopter-crash/507-1caa50b7-8365-42f8-a1b1-90bc898f00bf) — *2026-08-15*
+  > Two soldiers from Fort Hood were identified after being killed in a crash involving an AH-64 Apache helicopter in Salado, Texas.
+- [[St. Louis] Illinois EPA cites Cahokia Heights, utility over drinking water quality](https://www.ksdk.com/article/tech/science/environment/illinois-epa-cites-cahokia-heights-utility-over-drinking-water-quality/63-19bb96b9-6828-458e-87dd-237cf2c7f8f3) — *2026-08-14*
+  > State regulators found low chlorine levels in the water supply, validating the long-ignored concerns of residents facing sewage and water crises.
+- [[St. Louis] Unsafe E. coli levels persist on Big River a week after Missouri town's wastewater issues were identified](https://www.ksdk.com/article/news/local/missouri-unsafe-e-coli-levels-big-river-town-wastewater-issues-identified/63-1d6dc9c4-d81c-49ae-871a-ee37bc1b76fc) — *2026-08-14*
+  > The highest human waste levels were found near the city of Leadwood. Here's how far downstream tests found the waste.
 
 _(179 additional items in raw.jsonl)_

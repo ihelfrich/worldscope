@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-16
-record_count: 25
-new_today: 25
+record_count: 50
+new_today: 50
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+50 new of 50 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · keywords] What Bessent economic isolation of Iran could look like](https://www.moneycontrol.com/world/what-bessent-s-economic-isolation-of-iran-could-look-like-2-article-14006530.html) — *2026-08-16*
-  > moneycontrol.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Lavrov : Worse is coming for Ukraine war machine](https://www.sott.net/article/507941-Lavrov-Worse-is-coming-for-Ukraines-war-machine) — *2026-08-15*
-  > sott.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Threatens to Board united kingdom and French Ships over  Shadow Fleet  Seizures](https://www.breitbart.com/politics/2026/08/15/russia-threatens-to-board-british-and-french-ships-in-revenge/) — *2026-08-15*
-  > breitbart.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] What Bessent economic isolation of Iran could look like](https://economictimes.indiatimes.com/news/international/world-news/what-bessents-economic-isolation-of-iran-could-look-like/articleshow/133264419.cms) — *2026-08-15*
-  > economictimes.indiatimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russia Threatens to Board united kingdom and French Ships over  Shadow Fleet  Seizures](https://www.breitbart.com/europe/2026/08/15/russia-threatens-to-board-british-and-french-ships-in-revenge/) — *2026-08-15*
-  > breitbart.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Caucasian Knot | Russian wheat has been sent to Armenia through the territory of Azerbaijan . ](https://www.eng.kavkaz-uzel.eu/articles/77759) — *2026-08-15*
-  > eng.kavkaz-uzel.eu · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil climbs over $1 on tanker attacks , no progrees on peace](https://www.thedailystar.net/business/news/oil-climbs-over-1-tanker-attacks-no-progrees-peace-4248076) — *2026-08-15*
-  > thedailystar.net · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Oil climbs over US$1 on tanker attacks , no progress on peace](https://www.businesstimes.com.sg/companies-markets/oil-climbs-over-us1-tanker-attacks-no-progress-peace) — *2026-08-15*
-  > businesstimes.com.sg · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Scott McKay The Necessary Men Episode 2 : The Faraway Plans | The American Spectator](https://spectator.org/scott-mckays-the-necessary-men-episode-2-the-faraway-plans/) — *2026-08-15*
-  > spectator.org · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britains forgotten proxy war against Russia](http://www.iraqsun.com/news/279242434/britains-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > iraqsun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.iraqsun.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > iraqsun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Worse is coming for Ukraine Lavrov](http://www.europesun.com/news/279242348/worse-is-coming-for-ukraine-lavrov) — *2026-08-15*
-  > europesun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Worse is coming for Ukraine](http://www.europesun.com/news/279242362/worse-is-coming-for-ukraine-lavrov) — *2026-08-15*
-  > europesun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britain forgotten proxy war against Russia](http://www.europesun.com/news/279242445/britain-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > europesun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britain forgotten proxy war against Russia](http://www.theuknews.com/news/279242445/britain-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > theuknews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britains forgotten proxy war against Russia](http://www.theuknews.com/news/279242434/britains-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > theuknews.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britains forgotten proxy war against Russia](http://www.europesun.com/news/279242434/britains-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > europesun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Britains forgotten proxy war against Russia](http://www.parisguardian.com/news/279242434/britains-forgotten-proxy-war-against-russia) — *2026-08-15*
-  > parisguardian.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.middleeaststar.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > middleeaststar.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.heraldglobe.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > heraldglobe.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.europesun.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > europesun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.kenyastar.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > kenyastar.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Worse is coming for Ukraine Lavrov](http://www.russiaherald.com/news/279242348/worse-is-coming-for-ukraine-lavrov) — *2026-08-15*
-  > russiaherald.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Russian retribution , Islamic NATO , showdown in the West Bank , the German spy machine : RT stories that shaped the week](http://www.austinglobe.com/news/279242483/russian-retribution-islamic-nato-showdown-in-the-west-bank-the-german-spy-machine-rt-stories-that-shaped-the-week) — *2026-08-15*
-  > austinglobe.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · keywords] Worse is coming for Ukraine](http://www.russiaherald.com/news/279242362/worse-is-coming-for-ukraine-lavrov) — *2026-08-15*
-  > russiaherald.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 米イラン 「 不安定な膠着 」／ 覚書期限 、 海峡開放見えず | 全国ニュース](http://www.shikoku-np.co.jp/national/main/article.aspx?id=20260816000335) — *2026-08-16*
+  > shikoku-np.co.jp · Japanese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Disneyland offers sneak peek at new Coco boat ride](https://www.sbsun.com/2026/08/15/disneyland-offers-sneak-peek-at-new-coco-boat-ride/) — *2026-08-16*
+  > sbsun.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] В Петербурге врачи спасли подростка с язвой , проведя уникальную операцию](https://life.ru/p/1912425) — *2026-08-16*
+  > life.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Giá vàng hôm nay ( chiều 16 - 8 ): Vàng SJC giữ ngưỡng 144 triệu đồng / lượng bán ra](https://baomoi.com/gia-vang-hom-nay-chieu-16-8-vang-sjc-giu-nguong-144-trieu-dong-luong-ban-ra-c55844213.epi) — *2026-08-16*
+  > baomoi.com · Vietnamese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] القضاء العراقي يكشف عن كمية الأموال والذهب المضبوطة بقضية  فساد  عدنان الجميلي](https://arabic.cnn.com/middle-east/article/2026/08/16/iraqi-judiciary-seizes-funds-and-gold-in-al-jumaili-corruption-case) — *2026-08-16*
+  > arabic.cnn.com · Arabic · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Người đàn ông cào nghêu kể hành trình sống sót sau hơn 10 giờ trôi dạt giữa biển](https://tienphong.vn/nguoi-dan-ong-cao-ngheu-ke-hanh-trinh-song-sot-sau-hon-10-gio-troi-dat-giua-bien-post1868304.tpo) — *2026-08-16*
+  > tienphong.vn · Vietnamese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 日報 ： 警惕舊日本軍隊借殼還魂](https://portal.sina.com.hk/news-china/sina/2026/08/16/1888414/%E6%97%A5%E5%A0%B1%EF%BC%9A%E8%AD%A6%E6%83%95%E8%88%8A%E6%97%A5%E6%9C%AC%E8%BB%8D%E9%9A%8A%E5%80%9F%E6%AE%BC%E9%82%84%E9%AD%82/) — *2026-08-16*
+  > portal.sina.com.hk · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Primo controesodo dellestate , è bollino rosso lungo le autostrade della Liguria : la situazione - Primocanale . it](https://www.primocanale.it/attualit%c3%a0/70489-ferragosto-liguria-traffico-autostrade-16-agosto-bollino-rosso-la-situazione-live.html) — *2026-08-16*
+  > primocanale.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Bupati Aceh Barat larang lomba panjat pinang saat HUT ke - 81 RI](https://www.antaranews.com/berita/5697141/bupati-aceh-barat-larang-lomba-panjat-pinang-saat-hut-ke-81-ri) — *2026-08-16*
+  > antaranews.com · Indonesian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Četvero Portugalaca nestalo u malom čamcu . Za posljednjim se traga peti dan](https://www.index.hr/vijesti/clanak/cetvero-portugalaca-nestalo-u-malom-camcu-za-posljednjim-se-traga-peti-dan/2824158.aspx) — *2026-08-16*
+  > index.hr · Croatian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Τα 5 καλύτερα μέρη για να χτίσει κανείς μια ζωή στο εξωτερικό](https://www.reporter.gr/diethnh/diethneis-eidhseis/683103-ta-5-kalytera-meri-gia-na-xtisei-kaneis-mia-zoi-sto-eksoteriko) — *2026-08-16*
+  > reporter.gr · Greek · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Μπαράζ ουκρανικών επιθέσεων στη Μόσχα με 600 drones – Φλόγες και μαύροι καπνοί σε αποθήκες της Wildberries](https://www.inewsgr.com/93/baraz-oukranikon-epitheseon-sti-moscha-me-600-drones--floges-kai-mavroi-kapnoi-se-apothikes-tis-Wildberries.htm) — *2026-08-16*
+  > inewsgr.com · Greek · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Recept za domaću Nutellu : Zdrava verzija omiljenog čokoladnog namaza](https://www.vecernji.hr/lifestyle/recept-za-domacu-nutellu-zdrava-verzija-omiljenog-cokoladnog-namaza-1985520) — *2026-08-16*
+  > vecernji.hr · Croatian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Soy de Ceuta y esto es lo que he vivido tras el salto masivo : así cambia una ciudad cuando 72 . 000 personas llegan de golpe](https://www.elcorreogallego.es/sociedad/2026/08/16/soy-ceuta-vivido-tras-salto-masivo-cambia-ciudad-72000-personas-llegan-golpe-133400164.html) — *2026-08-16*
+  > elcorreogallego.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Aquellos cines](https://www.andaluciainformacion.es/blog/paco-fernandez-frias/aquellos-cines/202608161034133455760.html) — *2026-08-16*
+  > andaluciainformacion.es · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] В Ашхабаде состоялись первые туркменско - бангладешские политические консультации](https://www.turkmenistan.ru:443/ru/articles/49301.html) — *2026-08-16*
+  > turkmenistan.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Il pasticcio del ponte D ( imenticato ). Ditta cacciata , lavori fermi e ambulanze bloccate](https://www.romatoday.it/dossier/potere/ponte-d-ostia-pomezia-cosa-succede.html) — *2026-08-16*
+  > romatoday.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Reviewing C3is ( NASDAQ : CISS ) & Harbour Energy ( OTCMKTS : PMOIF ) ](https://www.themarketsdaily.com/2026/08/16/reviewing-c3is-nasdaqciss-harbour-energy-otcmktspmoif.html) — *2026-08-16*
+  > themarketsdaily.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 中市府表揚山線里鄰長及民政人員 六連霸里長拚建設到父子接棒服務成亮點 黃副市長 ： 感謝守護鄰里](https://n.yam.com/Article/20260816858625) — *2026-08-16*
+  > n.yam.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Gulf nations growing impatient with Trump diplomatic efforts regarding truce with Iran : Report](http://www.bruneinews.net/news/279244740/gulf-nations-growing-impatient-with-trump-diplomatic-efforts-regarding-truce-with-iran-report) — *2026-08-16*
+  > bruneinews.net · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Renaissance Technologies LLC Sells 132 , 797 Shares of Core Laboratories Inc . $CLB](https://www.dailypolitical.com/2026/08/16/renaissance-technologies-llc-sells-132797-shares-of-core-laboratories-inc-clb.html) — *2026-08-16*
+  > dailypolitical.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] ABD basını Mekke Anlaşması  na dikkat çekti : ABDnin yetersiz olduğu düşünülüyor](https://www.haber7.com/dunya/haber/3651636-abd-basini-mekke-anlasmasina-dikkat-cekti-abdnin-yetersiz-oldugu-dusunuluyor) — *2026-08-16*
+  > haber7.com · Turkish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] בגלל מנגל : תייר ישראלי נעצר ביוון בחשד שגרם לשריפה](https://www.inn.co.il/news/704038) — *2026-08-16*
+  > inn.co.il · Hebrew · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Θεσσαλονίκη : Στον δήμο Καλαμαριάς το αρχείο του φωτογράφου Γιάννη Κυριακίδη](https://www.typosthes.gr/thessaloniki/438936_thessaloniki-ston-dimo-kalamarias-arheio-toy-fotografoy-gianni-kyriakidi) — *2026-08-16*
+  > typosthes.gr · Greek · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] قناة النيل للأخبار |  وول ستريت  الأمريكية : الصراع الإيرانى الأمريكى بات اقتصاديا](https://www.nile.eg/%D9%88%D9%88%D9%84-%D8%B3%D8%AA%D8%B1%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B9-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%89) — *2026-08-16*
+  > nile.eg · Arabic · tone NA
+
+_(25 additional items in raw.jsonl)_
