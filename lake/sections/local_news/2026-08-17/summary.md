@@ -2,15 +2,37 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-17
-record_count: 166
-new_today: 97
+record_count: 169
+new_today: 107
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-97 new of 166 total items today.
+107 new of 169 total items today.
 
+- **NEW**  [[St. Louis] See the Aug. 17, 1926, front page: Ex-constable at Desloge is shot to death through window](https://www.stltoday.com/news/archives/article_55e85d0d-7764-45a6-83c0-f9697c244067.html) — *2026-08-17*
+  > Headlines from the Aug. 17, 1926, front page include: Bottle dropped from plane hits woman in auto
+- **NEW**  [[St. Louis] The Short List: August 17](https://www.stltoday.com/newsletter-templates/paid/short-list/article_ab48b70d-c9ff-48a8-a7b3-ac4f120f3c16.html) — *2026-08-17*
+  > Welcome to The Short List newsletter, a look at what's ahead in the St. Louis area — key news happenings, big sports matchups, can't-miss events and maybe even food recommendations.
+- **NEW**  [[St. Louis] The story behind why a 9/11 steel beam was at Busch Stadium](https://www.stltoday.com/news/article_9e09403d-b642-4ab4-84ce-34383925a440.html) — *2026-08-17*
+  > Plus: Chesterfield man uses AI skills for medical app to help his wife and others
+- **NEW**  [[St. Louis] FIRM FINDS WAY TO MAKE STERILE FLIES](https://www.stltoday.com/image_453c6479-6228-5bd1-aff0-5ba4ee9033ff.html) — *2026-08-17*
+  > A Colorado potato beetle is photographed Friday, Aug. 7, 2026, at Agragene's Maryland Heights headquarters. Agragene rears the troublesome insects in order to conduct genetic experiments. The company develops genetic methods to control pests to help foster the success of…
+- **NEW**  [[St. Louis] FIRM FINDS WAY TO MAKE STERILE FLIES](https://www.stltoday.com/image_4e11ce74-279c-5a69-ba75-777731ed1615.html) — *2026-08-17*
+  > Delaney Jones, an associate scientist at Agragene, screens strains of genetically modified pupae of the spotted wing drosophila fly on Friday, Aug. 7, 2026, at the company's Maryland Heights headquarters.
+- **NEW**  [[St. Louis] FIRM FINDS WAY TO MAKE STERILE FLIES](https://www.stltoday.com/article_d2aa1197-12d9-50c9-a82b-47709a060392.html) — *2026-08-17*
+  > AGRICULTURE
+- **NEW**  [[St. Louis] Planning chief apologizes for data center debate 'confusion'](https://www.stltoday.com/article_a8b83791-9e27-5cbe-bc04-e020d81cf8f5.html) — *2026-08-17*
+  > ST. LOUIS — The city's planning chief has apologized for "confusion" at a meeting last week where he said an unidentified elected official raised concerns about proposed rules for data centers, leading to an abrupt recess.
+- **NEW**  [[St. Louis] Medicaid work rule leaves some homeless in the cold](https://www.stltoday.com/image_393a4442-b617-5b33-826f-f0e6d4375fdf.html) — *2026-08-17*
+  > Izzy Kadrmas, a medical assistant at a clinic for people without stable housing in Missoula, Mont., tests Tywon Pugh's blood oxygen saturation.
+- **NEW**  [[St. Louis] Medicaid work rule leaves some homeless in the cold](https://www.stltoday.com/article_346ee2cd-55f3-5b60-97b1-c460207328bf.html) — *2026-08-17*
+  > MISSOULA, Mont. — Tywon Pugh has seizures that make it hard to find and keep a job.
+- **NEW**  [[St. Louis] LAW AND ORDER](https://www.stltoday.com/article_3ce3fffa-79ff-5aaa-8b54-572686c7bd56.html) — *2026-08-17*
+  > ST. LOUIS — Man arrested after shooting, chase: St. Louis police said a man is in custody after shooting another man in downtown St. Louis overnight Saturday, an incident in which a police SUV also was struck.
+- **NEW**  [[St. Louis] Hayden Panettiere said she felt like she had 'a lot more life to live' in May interview](https://www.ksdk.com/article/news/nation-world/hayden-panettiere-heroes-actress-death-memoir/507-d1d11f6d-0a27-4fe4-9462-dacc1ac9fae8) — *2026-08-17*
+  > The interview was part of the actress' promotional tour for her memoir, "This is Me: A Reckoning," where the Panettiere is open about entering rehab for alcoholism.
 - **NEW**  [[St. Louis] Shooting, fiery crash in downtown St. Louis leave man critically injured; suspect in custody](https://www.ksdk.com/article/news/crime/downtown-st-louis-shooting-locust-tucker/63-6faa7eed-ed7d-462b-bddb-db58d09c8df1) — *2026-08-17*
   > A downtown St. Louis shooting left a man critically injured, forced nearby SWAT officers to take cover and ended with a fiery crash.
 - **NEW**  [[St. Louis] Tropical Storm Lala rakes Hawaii with high winds and rain without making landfall](https://www.ksdk.com/article/weather/hurricane/hurricane-lala-hawaii/507-59a13e20-2e1c-47c9-95bf-88b21880d33f) — *2026-08-17*
@@ -39,27 +61,5 @@ state: fresh
   > Two children, including a 4-year-old, were injured during the shooting, according to police. Police have not publicly identified a suspect in the shooting.
 - **NEW**  [[St. Louis] Southwest passengers stuck on tarmac for hours after bomb threat at Houston airport](https://www.ksdk.com/article/news/nation-world/hobby-airport-reported-bomb-threat/507-2547205a-c66d-4cda-92a9-53e02422168f) — *2026-08-16*
   > Police investigated a bomb threat at William P. Hobby Airport in Houston. Passengers said they waited hours aboard planes on the tarmac during the investigation.
-- **NEW**  [[St. Louis] FDA inspects Taylor Farms facility as part of its investigation into the cyclosporiasis outbreak](https://www.ksdk.com/article/news/nation-world/fda-inspects-taylor-farms-facility-cyclospora-outbreak/507-9f31147f-d6a3-482f-9edf-5b8f1ae1aee2) — *2026-08-16*
-  > The FDA is inspecting Taylor Farms de Mexico as the outbreak linked to its iceberg lettuce reaches 17 states and two deaths.
-- **NEW**  [[St. Louis] Fatal crash shuts down Route 141 in Maryland Heights](https://www.ksdk.com/article/traffic/crash-shuts-down-route-141-in-maryland-heights/63-bd4dc9fc-e908-463a-b505-0c39fa26a5c1) — *2026-08-16*
-  > The deadly crash happened on northbound Route 141 at River Valley Drive. Both directions of traffic were closed as crews worked at the scene.
-- **NEW**  [[St. Louis] Cedar Hill man charged with shooting his wife](https://www.ksdk.com/article/news/crime/cedar-hill-man-charged-with-shooting-wife/63-74241f0f-2011-4682-8418-47f04712b14a) — *2026-08-16*
-  > Court documents say a man admitted to shooting his wife in the head and neck after she was taken to a hospital for what was initially reported as a fall.
-- **NEW**  [[St. Louis] 1 killed, 1 seriously injured in head-on crash near Beacon Car Wash in Pacific](https://www.ksdk.com/article/traffic/1-person-killed-in-3-vehicle-crash-near-beacon-car-wash-in-pacific-missouri/63-295cbfa9-1290-4191-a0c2-0452a7227243) — *2026-08-16*
-  > A Pacific man was killed after his car crossed into oncoming traffic while attempting to pass a stopped pickup truck, troopers said.
-- [[St. Louis] New aircraft carrier heads to the Middle East amid reports of issues on USS Abraham Lincoln](https://www.ksdk.com/article/news/nation-world/aircraft-carrier-asia-iran-war-western-hemisphere/507-58c39336-1132-4c5c-98fa-6bb8df1dc415) — *2026-08-16*
-  > The USS George Washington is departing the Pacific and expected to replace the USS Abraham Lincoln in the Middle East.
-- [[St. Louis] Italian pasta maker closes on St. Charles factory](https://www.ksdk.com/article/news/local/business-journal/italian-pasta-maker-bertagni-closes-on-st-charles-factory/63-5b684540-dd6c-42db-98a8-da1d5b8718c1) — *2026-08-16*
-  > Bertagni 1882 is taking over the former General Mills plant and is expected to create 150 jobs.
-- [[St. Louis] Heat pushes back start time for Day 2 of Blues at the Arch, but doesn't keep the crowds away](https://www.ksdk.com/article/news/local/heat-pushes-back-start-time-for-day-2-of-blues-at-the-arch-but-doesnt-keep-the-crowds-away/63-f2bfa662-e760-4617-90a2-19740ae055f2) — *2026-08-16*
-  > Organizers delayed Saturday's Blues at the Arch by two hours because of the heat, but festivalgoers still turned out with fans, umbrellas and cold drinks.
-- [[St. Louis] Lala strengthens into a hurricane and bears down on Hawaii’s Big Island with heavy rain, winds](https://www.ksdk.com/article/weather/hurricane/hawaii-big-island-hurricane-landfall-threat-tropical-storm-lala/507-cd707aa0-012b-4710-8cf9-c9b5c52cad2e) — *2026-08-16*
-  > The National Hurricane Center said Lala’s maximum sustained winds increased to 75 mph, making it a Category 1 hurricane.
-- [[St. Louis] Bruce Willis makes rare public appearance at daughter's wedding](https://www.ksdk.com/article/news/nation-world/bruce-willis-daughters-wedding/507-399a5246-79bf-44f1-b1a8-474226fdaa40) — *2026-08-16*
-  > Bruce Willis attended his daughter Tallulah's wedding in Idaho on Saturday. Here are some photos of the Willis daughter's big day.
-- [[St. Louis] 17-year-old falls to his death inside abandoned New Orleans building](https://www.ksdk.com/article/news/nation-world/boy-falls-to-death-abandoned-new-orleans-building/507-3082741b-d7a3-42aa-8074-f5d8101433b1) — *2026-08-16*
-  > A 17-year-old boy died after falling in an abandoned New Orleans building, according to the police.
-- [[St. Louis] Man arrested in Mississippi a day after being added to FBI '10 Most Wanted' list](https://www.ksdk.com/article/news/nation-world/man-arrested-in-mississippi-a-day-after-being-added-to-fbi-10-most-wanted-list/507-61122750-a7e3-4942-b3e4-48023bf8a804) — *2026-08-15*
-  > Gregory Henderson Jr. was arrested by the FBI one day after being added to their "10 Most Wanted" list.
 
-_(141 additional items in raw.jsonl)_
+_(144 additional items in raw.jsonl)_

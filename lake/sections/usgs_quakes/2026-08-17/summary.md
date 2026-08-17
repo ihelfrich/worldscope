@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-17
-record_count: 22
-new_today: 21
+record_count: 24
+new_today: 24
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-21 new of 22 total items today.
+24 new of 24 total items today.
 
 - **NEW**  [M 5.7 - 65 km NNW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eay) — *2026-08-17*
   > M5.7 · 65 km NNW of Ende, Indonesia · depth 48.947 km
@@ -29,6 +29,8 @@ state: fresh
   > M5.0 · 215 km ENE of Levuka, Fiji · depth 564.366 km
 - **NEW**  [M 5.0 - 81 km NNE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e86) — *2026-08-16*
   > M5.0 · 81 km NNE of Ruteng, Indonesia · depth 10 km
+- **NEW**  [M 4.9 - 61 km NW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ech) — *2026-08-17*
+  > M4.9 · 61 km NW of Ende, Indonesia · depth 28.252 km
 - **NEW**  [M 4.9 - 90 km NE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebh) — *2026-08-17*
   > M4.9 · 90 km NE of Ruteng, Indonesia · depth 10 km
 - **NEW**  [M 4.9 - 77 km N of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e9a) — *2026-08-16*
@@ -37,12 +39,14 @@ state: fresh
   > M4.9 · South Atlantic Ocean · depth 10 km
 - **NEW**  [M 4.9 - 112 km NNE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7q) — *2026-08-16*
   > M4.9 · 112 km NNE of Ruteng, Indonesia · depth 10 km
+- **NEW**  [M 4.8 - 52 km NNW of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed1) — *2026-08-17*
+  > M4.8 · 52 km NNW of Ende, Indonesia · depth 10 km
 - **NEW**  [M 4.8 - 84 km NNE of Labuan Bajo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebc) — *2026-08-17*
   > M4.8 · 84 km NNE of Labuan Bajo, Indonesia · depth 29.528 km
 - **NEW**  [M 4.7 - 83 km NNE of Labuan Bajo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7s) — *2026-08-16*
   > M4.7 · 83 km NNE of Labuan Bajo, Indonesia · depth 10 km
-- [M 4.6 - 68 km ESE of Madang, Papua New Guinea](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e6s) — *2026-08-16*
-  > M4.6 · 68 km ESE of Madang, Papua New Guinea · depth 130.097 km
+- **NEW**  [M 4.6 - 43 km WNW of Turangi, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebp) — *2026-08-17*
+  > M4.6 · 43 km WNW of Turangi, New Zealand · depth 177.408 km
 - **NEW**  [M 4.5 - 35 km E of Poso, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eb0) — *2026-08-17*
   > M4.5 · 35 km E of Poso, Indonesia · depth 10 km
 - **NEW**  [M 4.5 - 71 km NNE of Labuan Bajo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eav) — *2026-08-17*

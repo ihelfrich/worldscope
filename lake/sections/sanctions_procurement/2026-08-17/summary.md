@@ -3,18 +3,18 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-17
 record_count: 93
-new_today: 2
+new_today: 0
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-2 new of 93 total items today.
+0 new of 93 total items today.
 
-- **NEW**  [[OFAC] Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Rice Lake Weighing Systems, Inc. - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-08-12*
+- [[OFAC] Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Rice Lake Weighing Systems, Inc. - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-12*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KM2xuWkpnZFJWR2VvZE54SjVUOXg4dThpVmVVdTdXelVXUXJrMTEzR3RuUDVhenY2UUhBVnZjczg0eXhLa2Nid05kNC1xTlYyWUIyT0ZOcU1Tb2NYcnc?oc=5" target="_blank">Settlement Agreement between the U.S. Department of the Treasury's Office of For
-- **NEW**  [[OFAC] DEPARTMENT OF THE TREASURY - ofac.treasury.gov](https://ofac.treasury.gov) — *2026-08-12*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IM2MtOVJwM2RGa3NqZnoyNkJaVnlpbDk0V0JqZW9QRV95YTdDZlQ4Z3FvSWFTemFvTi1GMzVFT3FpX0R0NVd3OW1Yb3JVUnFJWUc1Y3BHbWYwY0J3RldFNkJwTVk?oc=5" target="_blank">DEPARTMENT OF THE TREASURY</a>&nbsp;&nbsp;<font color="#6f6f6f">ofac.tre
+- [[OFAC] DEPARTMENT OF THE TREASURY - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-12*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IM2MtOVJwM2RGa3NqZnoyNkJaVnlpbDk0V0JqZW9QRV95YTdDZlQ4Z3FvSWFTemFvTi1GMzVFT3FpX0R0NVd3OW1Yb3JVUnFJWUc1Y3BHbWYwY0J3RldFNkJwTVk?oc=5" target="_blank">DEPARTMENT OF THE TREASURY</a>&nbsp;&nbsp;<font color="#6f6f6f">Office o
 - [[BIS Entity List] page checksum 5399e2d9c7b0](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-17*
   > Page content hash: 5399e2d9c7b0. Compare with prior day's hash to detect updates.
 - [[USASpending] $35,144,939,584 → TRIAD NATIONAL SECURITY, LLC: IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS](https://www.usaspending.gov/award/89233218CNA000001) — *2026-08-17*
