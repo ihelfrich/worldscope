@@ -2,62 +2,64 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-18
-record_count: 25
-new_today: 25
+record_count: 41
+new_today: 41
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-25 new of 25 total items today.
+41 new of 41 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] Le premier ministre Carney sattend à parler au président Trump dici mercredi](https://www.lerefletdulac.com/nouvelles-nationales/le-premier-ministre-carney-sattend-a-parler-au-president-trump-dici-mercredi/) — *2026-08-18*
-  > lerefletdulac.com · French · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Russian missiles hit Izmail port in southern Ukraine](http://www.dallassun.com/news/279247436/russian-strike-targets-izmail-port-in-ukraine-s-odesa-region) — *2026-08-18*
-  > dallassun.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 河西精装洋房3 . 5万 / ㎡起加推 ！ 南开旁高层特惠126万起 ！ ](https://www.163.com/dy/article/L4KCMMJ00515CFHN.html) — *2026-08-18*
-  > 163.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Prohibido bañarse , corte de digestión : las dos horas más largas del verano](https://www.publico.es/culturas/prohibido-banarse-corte-digestion-dos-horas-largas-verano.html) — *2026-08-18*
-  > publico.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] INFORME CLIMA | 2025 registró máximos históricos en emisiones atmosféricas , subida del mar y calor oceánico](https://www.laopiniondezamora.es/medio-ambiente/2026/08/18/informe-2025-registro-maximos-historicos-133445399.html) — *2026-08-18*
-  > laopiniondezamora.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Անօդաչուների զանգվածային հարձակում Մոսկվայի վրա ․ օդանավակայանների աշխատանքը դադարեցվել է](https://www.azatutyun.am/a/33832643.html) — *2026-08-18*
-  > azatutyun.am · Armenian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Επενδύσεις στη Λιβύη και στόχος για 2 εκατ . βαρέλια](https://www.sbctv.gr/2026/08/%CE%B5%CF%80%CE%B5%CE%BD%CE%B4%CF%85%CF%83%CE%B5%CE%B9%CF%82-%CF%83%CF%84%CE%B7-%CE%BB%CE%B9%CE%B2%CF%85%CE%B7/) — *2026-08-18*
-  > sbctv.gr · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Indian bonds wobble on oil strain , RBI swap pullback](https://economictimes.indiatimes.com/markets/bonds/indian-bonds-wobble-on-oil-strain-rbi-swap-pullback/articleshow/133313452.cms) — *2026-08-18*
-  > economictimes.indiatimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] По яких об  єктах України Росія битиме восени та взимку – прогноз французького OSINT - аналітика](https://www.radiosvoboda.org/a/rosiya-drony-rakety-urazhennya-cleman-molen/33832022.html) — *2026-08-18*
-  > radiosvoboda.org · Ukrainian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Șantierul DN 73 Câmpulung - Brașov , aproape de final înainte de termen : Lucrările pe lotul montan ajung la 80 % ](https://www.libertatea.ro/stiri/santier-dn-73-campulung-brasov-aproape-de-final-stadiu-lucrari-5854222) — *2026-08-18*
-  > libertatea.ro · Romanian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Eva Garea : « Exponer tus obras es como separarte de un hijo y volver a verlo al cabo de un tiempo » ](https://www.lavozdegalicia.es/noticia/barbanza/2026/08/18/exponer-tus-obras-separarte-hijo-volver-verlo-cabo-tiempo/0003_202608B18C2991.htm) — *2026-08-18*
-  > lavozdegalicia.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump amenaza con bombardear  sin piedad  a Omán – EntornoInteligente . com](https://www.entornointeligente.com/trump-amenaza-con-bombardear-sin-piedad-a-oman/) — *2026-08-18*
-  > entornointeligente.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Thành phố Hồ Chí Minh gỡ vướng dự án , thúc giải ngân đầu tư công](https://vietstock.vn/2026/08/thanh-pho-ho-chi-minh-go-vuong-du-an-thuc-giai-ngan-dau-tu-cong-768-1482000.htm) — *2026-08-18*
-  > vietstock.vn · Vietnamese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 海格塞斯成代罪羔羊 ? 對伊戰事一團糟 林肯號出大狀況 川普民調創新低 | 國際](https://newtalk.tw/news/view/2026-08-18/1054159) — *2026-08-18*
-  > newtalk.tw · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Мошенники стали обманывать автомобилистов , которые хотят приобрести бензин : популярные схемы](https://misanec.ru/2026/08/18/%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8-%D1%81%D1%82%D0%B0%D0%BB%D0%B8-%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8/) — *2026-08-18*
-  > misanec.ru · Russian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 战火中如何  好好吃饭 ？《 龙餐馆 》 给出平凡人的答案](https://www.yicai.com/news/103321659.html) — *2026-08-18*
-  > yicai.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Somalia : Gulf War Fallout - Somali Households Pay the Price of Trade Disruption](https://allafrica.com/stories/202608180010.html) — *2026-08-18*
-  > allafrica.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] BÖRSE ONLINE – Seit 1987 unterstützt BÖRSE ONLINE jede Woche Anleger bei ihren Investment - Entscheidungen . Zentrale Themen der Berichterstattung sind fundamentale Markt - und Aktienanalysen , Charttechnik , Handelsstrategien sowie verschiedene Trad...](https://www.boerse-online.de/dpa-afx/dax-flash-leitindex-entfernt-sich-etwas-weiter-vom-rekordhoch-545704.html) — *2026-08-18*
-  > boerse-online.de · German · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Pasqualino Gourmet 2026 ad Alberobello : 40mila presenze e trionfo di Cibum](https://www.pugliain.net/297188-pasqualino-gourmet-alberobello-successo/) — *2026-08-18*
-  > pugliain.net · Italian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] El viaje de 300 kilómetros entre Madrid y Valencia puede salirte por 5 euros si conduces un eléctrico](https://www.20minutos.es/motor/actualidad/viaje-300-kilometros-entre-madrid-valencia-puede-salirte-por-5-euros-si-conduces-electrico_7021882_0.html) — *2026-08-18*
-  > 20minutos.es · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Nhịp đập Thị trường 18 / 08 : Nhóm dầu khí tích cực , PLX , GAS tăng mạnh](https://vietstock.vn/2026/08/nhip-dap-thi-truong-1808-nhom-dau-khi-tich-cuc-plx-gas-tang-manh-1636-1482074.htm) — *2026-08-18*
-  > vietstock.vn · Vietnamese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Irã teme que novas sanes dos EUA agravem colapso econômico e agitao social](https://noticias.r7.com/internacional/ira-teme-que-novas-sancoes-dos-eua-agravem-colapso-economico-e-agitacao-social-18082026/) — *2026-08-18*
-  > noticias.r7.com · Portuguese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Çanakkalede meydana gelen kazada , bariyerlere çarpan kamyondaki 2 kişi yaşamını yitirdi . ](https://www.mersinhaber.com/haber-canakkalede-kamyon-bariyerlere-ok-gibi-saglandi-2-olu/745089) — *2026-08-18*
-  > mersinhaber.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] All candidates fail interview for Malawi top anti - corruption job - Featured News Malawi](https://www.nyasatimes.com/all-candidates-fail-interview-for-malawis-top-anti-corruption-job/) — *2026-08-18*
-  > nyasatimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Russian missiles hit Izmail port in southern Ukraine](http://www.singaporestar.com/news/279247436/russian-strike-targets-izmail-port-in-ukraine-s-odesa-region) — *2026-08-18*
-  > singaporestar.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Tues , Aug 18 - The New Hampshire Gazette](https://www.nhgazette.com/2026/08/18/tues-aug-18-2/) — *2026-08-18*
+  > nhgazette.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Рејтингот на Трамп падна на најниско ниво од почетокот на мандатот](https://mkd.mk/svet/rejtingot-na-tramp-padna-na-najnisko-nivo-od-pochetokot-na-mandatot/) — *2026-08-18*
+  > mkd.mk · Macedonian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 打破静养误区 上海德达医院个性化心脏康复赋能心脏病患回归常态 _ 中华网](https://digi.china.com/articles/20260818/202608181943625.html) — *2026-08-18*
+  > digi.china.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 柜子 / 衣柜翻新收纳选哪家 ？ 科学收纳方案解析 - 热点资讯 - ITBear科技资讯](https://www.itbear.com.cn/html/2026-08/1505199.html) — *2026-08-18*
+  > itbear.com.cn · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]  « Кредиты , микродоли и внезапная родня »: частые споры при оформлении наследства и как их решить / Новости экономики Красноярска и Красноярского края / Newslab . Ru](https://newslab.ru/article/1430178) — *2026-08-18*
+  > newslab.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Adultos mayores , el rango de peatones que más muere por accidentes de tránsito](https://www.elnuevosiglo.com.co/nacion/adultos-mayores-el-rango-de-peatones-que-mas-mueren-por-accidentes-de-transito) — *2026-08-18*
+  > elnuevosiglo.com.co · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ex - bikie leader accused of worksite threat to family](https://www.illawarramercury.com.au/story/9332966/ex-bikie-leader-accused-of-worksite-threat-to-family/) — *2026-08-18*
+  > illawarramercury.com.au · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Iran threatens new offensive while US rules out extending ceasefire deal](https://tribune.com.pk/story/2624528/iran-threatens-new-offensive-while-us-rules-out-extending-ceasefire-deal) — *2026-08-18*
+  > tribune.com.pk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Marruecos frustra el intento de cientos de migrantes subsaharianos de alcanzar Ceuta | España | EL PAÍS](https://www.nuovaresistenza.org/2026/08/marruecos-frustra-el-intento-de-cientos-de-migrantes-subsaharianos-de-alcanzar-ceuta-espana-el-pais/) — *2026-08-18*
+  > nuovaresistenza.org · Spanish · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] In the news today : Tariff deadline looms , B . C . wildfires , Tumbler Ridge demolition – Winnipeg Free Press](https://www.winnipegfreepress.com/canada/2026/08/18/in-the-news-today-tariff-deadline-looms-b-c-wildfires-tumbler-ridge-demolition) — *2026-08-18*
+  > winnipegfreepress.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 印尼獨立81週年 雅加達各地歡度國慶 | 國際](https://www.cna.com.tw/news/aopl/202608180170.aspx) — *2026-08-18*
+  > cna.com.tw · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes]   I found my boyfriend secret sex den full of blow - up dolls , jazz mags and bonking diaries  ](https://www.dailystar.co.uk/just-jane/i-found-boyfriends-secret-sex-37530216) — *2026-08-18*
+  > dailystar.co.uk · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 18 августа в России отмечают День географа – Учительская газета](https://ug.ru/18-avgusta-v-rossii-otmechayut-den-geografa/) — *2026-08-18*
+  > ug.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] C  è il divieto , si tuffa . Annega a ventanni sotto gli occhi del cugino](https://www.ilgiorno.it/lecco/cronaca/ce-il-divieto-si-tuffa-e2395218) — *2026-08-18*
+  > ilgiorno.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Νέα δημοσκόπηση για Τραμπ : Κατρακλύσε στο 33 %, πλήγμα στην εικόνα του Ιράν και καύσιμα](https://www.inewsgr.com/27/nea-dimoskopisi-gia-trab-katraklyse-sto-33-pligma-stin-eikona-tou-iran-kai-kafsima.htm) — *2026-08-18*
+  > inewsgr.com · Greek · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] JP Morgan Retains Nifty 50 Target At 27 , 000 As India Q1 FY27 Earnings Growth Accelerates](https://www.freepressjournal.in/business/jp-morgan-retains-nifty-50-target-at-27000-as-indias-q1-fy27-earnings-growth-accelerates) — *2026-08-18*
+  > freepressjournal.in · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ask the Psychic : About self - love](https://www.sentinelandenterprise.com/2026/08/18/ask-the-psychic-about-self-love/) — *2026-08-18*
+  > sentinelandenterprise.com · English · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] News zu Iran : Erdoğan ruft Trump zu Diplomatie im Iran - Krieg auf](https://www.sueddeutsche.de/politik/liveblog-nahost-iran-usa-news-trump-erdogan-frieden-li.3530668) — *2026-08-18*
+  > sueddeutsche.de · German · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Растящите цени на петрола притиснаха пазарите в Азия](https://www.investor.bg/a/538-pazari/435233-rastyashtite-tseni-na-petrola-pritisnaha-pazarite-v-aziya) — *2026-08-18*
+  > investor.bg · Bulgarian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] LEurope ouvre dans le rouge avec le regain de tensions au M .- O - 18 / 08 / 2026 à 09 : 45](https://www.boursorama.com/bourse/actualites/l-europe-ouvre-dans-le-rouge-avec-le-regain-de-tensions-au-m-o-39909f36b35125d769a2bde427b93df5) — *2026-08-18*
+  > boursorama.com · French · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] 伊朗称正在起草与阿曼的海上航线计划](https://baijiahao.baidu.com/s?id=1873758280735549142) — *2026-08-18*
+  > baijiahao.baidu.com · Chinese · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Залить АИ - 92 класса 5 или АИ - 95 класса 3 : что хуже для машины ответ эксперта](https://primamedia.ru/news/2591790/) — *2026-08-18*
+  > primamedia.ru · Russian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Carburanti , Mimit : prezzo medio benzina a 1 , 994 euro e gasolio a 2 , 099 euro](https://www.borsaitaliana.it/borsa/notizie/teleborsa/economia/carburanti-mimit-prezzo-medio-benzina-a-1994-euro-e-gasolio-a-2099-euro-39_2026-08-18_TLB.html) — *2026-08-18*
+  > borsaitaliana.it · Italian · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Les Bourses européennes ouvrent prudemment - 18 / 08 / 2026 à 09 : 10](https://www.boursorama.com/bourse/actualites/les-bourses-europeennes-ouvrent-prudemment-e352ebc5b14177d4fda5c91a540a4f2b) — *2026-08-18*
+  > boursorama.com · French · tone NA
+- **NEW**  [[Russia oil sanctions perimeter · themes] Ship attacked during Strait of Hormuz transit and other news from the Middle East – Winnipeg Free Press](https://www.winnipegfreepress.com/world/2026/08/18/ship-attacked-during-strait-of-hormuz-transit-and-other-news-from-the-middle-east) — *2026-08-18*
+  > winnipegfreepress.com · English · tone NA
+
+_(16 additional items in raw.jsonl)_

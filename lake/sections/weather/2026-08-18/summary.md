@@ -2,38 +2,101 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-18
-record_count: 155
-new_today: 153
+record_count: 159
+new_today: 157
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-153 new of 155 total items today.
+157 new of 159 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 2:32AM CDT until August 18 at 3:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3548714db088c43d95cc11fab91ebce9c0ee7e28.001.1) — *2026-08-18*
-  > At 231 AM CDT, severe thunderstorms were located along a line
-extending from near Waverly to 2 miles east of Hickman to near
-Cortland, moving southeast at 50 mph.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 4:24AM CDT until August 18 at 4:30AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.48aaf9ede358ca66682ae81e5855cbb3adcabd76.001.1) — *2026-08-18*
+  > The storm which prompted the warning has weakened below severe
+limits, and no longer poses an immediate threat to life or property.
+Therefore, the warning will be allowed to expire.
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-21873) — *2026-08-18*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 18 at 5:06AM EDT until August 19 at 4:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.930b8b55e6a76d03ec0587bdc64d6b6e19eeb21a.001.1) — *2026-08-18*
+  > * WHAT...Dangerous rip currents expected.
 
-HAZARD...70 mph wind gusts.
+* WHERE...Bay and Gulf County Beaches.
 
-SOURCE...Multiple measured wind gusts between 60 to 70 mph in
-Lancaster County.
+* WHEN...From noon EDT /11 AM CDT/ today through late tonight.
 
-IMPACT
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 2:30AM CDT until August 18 at 3:30AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.369474e47ecedc5adc6380f1777e2a6947bb45b8.001.1) — *2026-08-18*
-  > SVROAX
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from shore into deeper water.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 6:56PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92d38127993f837526b83249e3a345d4f42ad9b8.001.1) — *2026-08-18*
+  > Invest 92W has steadily organized today and is now subject to the
+Joint Typhoon Warning Center's Tropical Cyclone Formation Alert.
+Invest 92W is currently located near 8N155E or 180 miles east of
+Chuuk. Invest 92W is drifting westward at less than 5 mph. Numerous
+to widespread sh
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 4:56AM EDT by NWS Buffalo NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a064284b2f1133c1fc25fc6abe2dd8167754928.001.1) — *2026-08-18*
+  > Patchy dense fog is impacting the Western Southern Tier,
+especially in and near river and creek valleys. The dense fog will
+reduce visibility to a quarter mile or less. Motorists should slow
+down, maintain plenty of stopping distance ahead of their vehicles,
+and use their low bea
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 6:56PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7e6bd7bc943976f1b4cfe38d2460272af07b7b2.001.1) — *2026-08-18*
+  > Invest 92W has steadily organized today and is now subject to the
+Joint Typhoon Warning Center's Tropical Cyclone Formation Alert.
+Invest 92W is currently located near 8N155E or 180 miles east of
+Chuuk. Invest 92W is drifting westward at less than 5 mph. Numerous
+to widespread sh
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 18 at 4:52AM EDT until August 18 at 9:00AM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ec878272f1efdb38d3c3c72ce6176c6e71339c.001.1) — *2026-08-18*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
 
-The National Weather Service in Omaha has issued a
+* WHERE...Elk, McKean, and Warren Counties.
 
-* Severe Thunderstorm Warning for...
-Johnson County in southeastern Nebraska...
-Nemaha County in southeastern Nebraska...
-Otoe County in southeastern Nebraska...
-Cass County in southeastern Nebraska...
+* WHEN...Until 9 AM EDT this morning.
 
-* Until 330 AM CD
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 4:52AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.61137fe93f33b6797a92fae10341b2ea370fc6c5.001.1) — *2026-08-18*
+  > Areas of fog, notably within river valleys, have developed and
+could impact the morning commute. Visibilities will be below a
+half of a mile at times in the thickest of the fog. Please slow
+down and allow extra time to reach your destination.
+
+Conditions are expected to improve s
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 18 at 1:46AM PDT until August 20 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8683156cb82db0e8003892bfdae383a4b47aac7.001.1) — *2026-08-18*
+  > * WHAT...High temperatures of 92 to 105 expected, with most areas
+seeing peak heat on Wednesday and Thursday. Low temperatures are
+expected to range from the upper 60s to lower 70s at lower
+elevations to the mid 70s to lower 80s in the foothills and
+mountains.
+
+* WHERE...A portio
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 18 at 4:39AM EDT until August 18 at 2:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bfaed42bd77c680bf9a6960a5e3f41d40a19ce36.001.1) — *2026-08-18*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northeastern Washington County in southeastern Ohio...
+
+* WHEN...Until 200 PM EDT Tuesday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 18 at 4:35AM EDT until August 18 at 2:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.671078b165cc591cdd9d8b6f3a61e7e53f0cfd81.001.1) — *2026-08-18*
+  > * WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northeastern Washington County in southeastern Ohio...
+
+* WHEN...Until 200 PM EDT Tuesday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 4:06AM EDT by NWS Burlington VT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3afb5448edc93987600afb93cc0f8d8e53056374.001.1) — *2026-08-18*
+  > Dense valley fog has developed overnight in the typical areas,
+but also in less frequent locations, including the Champlain
+Valley. The fog is more patchy across the higher terrain, but
+still present in many narrow higher terrain valleys. The fog will
+become more widespread aroun
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 18 at 3:53AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd3fd7e493ee68d4b51167b13ee4fd231967e33c.001.1) — *2026-08-18*
+  > Patchy dense fog has developed across the area, especially along
+the Hudson River Valley and in many narrow or sheltered higher
+terrain valleys. The fog will reduce visibility to a half mile or
+less, so drivers are urged to use caution this morning and be
+prepared for rapidly cha
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 18 at 12:28AM MST until August 21 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9799ff32747581365f339f94b4eb95a243bc174d.001.1) — *2026-08-18*
   > * WHAT...Dangerously hot and humid conditions. Afternoon temperatures
 106 to 114 expected. Major Heat Risk.
@@ -70,66 +133,6 @@ Sonoran Desert Natl Monument, and Tonopah De
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat events. Overexposure can cau
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-53483) — *2026-08-18*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 2:25AM CDT until August 18 at 3:15AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b666f75783da8cef9abb2ea783e3ef156624908b.001.1) — *2026-08-18*
-  > SVROAX
-
-The National Weather Service in Omaha has issued a
-
-* Severe Thunderstorm Warning for...
-Central Gage County in southeastern Nebraska...
-
-* Until 315 AM CDT.
-
-* At 225 AM CDT, a severe thunderstorm was located near Clatonia, or
-11 miles north of Beatrice, moving southeast
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 2:24AM CDT until August 18 at 3:15AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7219f332ca70c3f441620a8f2f25e42d5db62572.001.1) — *2026-08-18*
-  > SVRFSD
-
-The National Weather Service in Sioux Falls has issued a
-
-* Severe Thunderstorm Warning for...
-Northwestern Charles Mix County in south central South Dakota...
-Northwestern Gregory County in south central South Dakota...
-Southwestern Brule County in south central South Da
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 18 at 2:20AM CDT until August 18 at 3:00AM CDT by NWS Aberdeen SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ca1f64ca6214f18a382fbcb0e5e97042b220b32.001.1) — *2026-08-18*
-  > SVRABR
-
-The National Weather Service in Aberdeen has issued a
-
-* Severe Thunderstorm Warning for...
-Southeastern Lyman County in central South Dakota...
-
-* Until 300 AM CDT.
-
-* At 220 AM CDT, a severe thunderstorm was located 6 miles west of
-Dude Ranch, or 8 miles west of Oacoma,
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 18 at 2:20AM CDT until August 18 at 4:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8195178cf6a248e3d419db059fd67df4fb8363d0.001.1) — *2026-08-18*
-  > THE NATIONAL WEATHER SERVICE HAS EXTENDED SEVERE THUNDERSTORM
-WATCH 594 TO INCLUDE THE FOLLOWING AREAS UNTIL 4 AM CDT EARLY
-THIS MORNING
-
-IN NEBRASKA THIS WATCH INCLUDES 6 COUNTIES
-
-IN SOUTHEAST NEBRASKA
-
-CASS                  JOHNSON               NEMAHA
-OTOE                  PA
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 18 at 2:20AM CDT until August 18 at 4:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8195178cf6a248e3d419db059fd67df4fb8363d0.002.1) — *2026-08-18*
-  > SEVERE THUNDERSTORM WATCH 594 REMAINS VALID UNTIL 4 AM CDT EARLY
-THIS MORNING FOR THE FOLLOWING AREAS
-
-IN NEBRASKA THIS WATCH INCLUDES 6 COUNTIES
-
-IN EAST CENTRAL NEBRASKA
-
-BUTLER
-
-IN SOUTHEAST NEBRASKA
-
-GAGE                  JEFFERSON             LANCASTER
-SALINE                
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 18 at 12:20AM MST until August 21 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96fa759e26d82815e8786879cced7e05d5a5d234.001.1) — *2026-08-18*
   > * WHAT...Dangerously hot conditions with high temperatures ranging
 between 103 to 110 degrees and low temperatures 79 to 85 degrees.
@@ -208,62 +211,5 @@ illnesses.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 18 at 1:32AM CDT until August 18 at 8:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e802a4b217ec516c7845e3e564ddc474cf0a5b8d.002.1) — *2026-08-18*
-  > * WHAT...Heat index values up to 107 expected.
 
-* WHERE...Portions of northwest, southwest, and western Oklahoma and
-northern Texas.
-
-* WHEN...From 11 AM this morning to 8 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 18 at 1:32AM CDT until August 18 at 8:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e802a4b217ec516c7845e3e564ddc474cf0a5b8d.001.1) — *2026-08-18*
-  > * WHAT...Dangerously hot conditions with heat index values up to 109
-expected.
-
-* WHERE...Portions of central, east central, northern, southeast, and
-southern Oklahoma.
-
-* WHEN...From 11 AM this morning to 8 PM CDT this evening.
-
-* IMPACTS...Heat related illnesses increase signif
-- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 18 at 1:29AM CDT until August 18 at 4:00AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68295592bd483ee6bc0e03f92bebf9faed6065b9.002.1) — *2026-08-18*
-  > SEVERE THUNDERSTORM WATCH 594 REMAINS VALID UNTIL 4 AM CDT EARLY
-THIS MORNING FOR THE FOLLOWING AREAS
-
-IN NEBRASKA THIS WATCH INCLUDES 11 COUNTIES
-
-IN CENTRAL NEBRASKA
-
-MERRICK
-
-IN EAST CENTRAL NEBRASKA
-
-POLK                  YORK
-
-IN SOUTH CENTRAL NEBRASKA
-
-ADAMS                
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 18 at 2:27AM EDT until August 18 at 8:00PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b233d303fa9c43d5527f2946b7899d5ae6e393cc.001.1) — *2026-08-18*
-  > * WHAT...Heat index values up to 105 to 107 expected.
-
-* WHERE...The southern and eastern Piedmont, Sandhills, and Coastal
-Plain.
-
-* WHEN...From 11 AM this morning to 8 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 18 at 1:21AM CDT until August 18 at 8:00PM CDT by NWS Dodge City KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db37a4b93a1874f101810ee068b00d8eb733e464.001.1) — *2026-08-18*
-  > * WHAT...Heat index values up to 106 expected.
-
-* WHERE...Barber, Comanche, Kiowa, Pratt, Stafford, and Clark
-Counties.
-
-* WHEN...From 1 PM this afternoon to 8 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-
-_(130 additional items in raw.jsonl)_
+_(134 additional items in raw.jsonl)_

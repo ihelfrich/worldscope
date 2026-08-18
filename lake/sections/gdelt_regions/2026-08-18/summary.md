@@ -11,15 +11,15 @@ state: fresh
 
 6 new of 6 total items today.
 
+- **NEW**  [[Japan] Until Dawn 2 Announced For PS5 , Releasing In 2027](https://gamerheadlines.com/until-dawn-2-announced-for-ps5-releasing-in-2027/) — *2026-08-18*
+  > gamerheadlines.com · English
+- **NEW**  [[Japan] Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis](https://www.asahi.com/ajw/articles/16815306) — *2026-08-18*
+  > asahi.com · English
+- **NEW**  [[Japan] Evo Vegas 2026 Registration Crash Signals Prestige Loss](https://gamerheadlines.com/evo-vegas-2026-registration-crash-signals-prestige-loss/) — *2026-08-18*
+  > gamerheadlines.com · English
+- **NEW**  [[Japan] 007 First Light Is Out Here The Best Merch To Pair With It](https://gamerheadlines.com/007-first-light-is-out-heres-the-best-merch-to-pair-with-it/) — *2026-08-18*
+  > gamerheadlines.com · English
 - **NEW**  [[Japan] Student shooter kills classmate and himself at Philippine school](https://japantoday.com/category/world/at-least-2-hit-in-a-shooting-at-a-school-in-the-southern-philippines) — *2026-08-18*
   > japantoday.com · English
 - **NEW**  [[Japan] Did an Arizona Warehouse Manager Try to Trap Workers From ICE ? ](https://attackofthefanboy.com/news/an-arizona-warehouse-manager-allegedly-blocked-workers-from-leaving-after-an-ice-tip-and-workers-say-they-were-held-hostages/) — *2026-08-18*
   > attackofthefanboy.com · English
-- **NEW**  [[Japan] Itoshima Records Seismic Intensity 4](https://www.fukuoka-now.com/en/news/itoshima-records-seismic-intensity-4/) — *2026-08-18*
-  > fukuoka-now.com · English
-- **NEW**  [[Japan] RIVER OF SNAKES - FUKUOKA LIVE](https://www.fukuoka-now.com/en/event/river-of-snakes-2026/) — *2026-08-18*
-  > fukuoka-now.com · English
-- **NEW**  [[Japan] Fukuoka Assembly Speaker Plans to Resign](https://www.fukuoka-now.com/en/news/fukuoka-assembly-speaker-plans-to-resign/) — *2026-08-18*
-  > fukuoka-now.com · English
-- **NEW**  [[Japan] Kitazaki Shared Taxi Service to Launch](https://www.fukuoka-now.com/en/news/kitazaki-shared-taxi-service-to-launch/) — *2026-08-18*
-  > fukuoka-now.com · English

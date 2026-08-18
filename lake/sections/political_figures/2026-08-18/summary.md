@@ -14,13 +14,13 @@ state: fresh
 
 1. **Donald J. Trump** (President, Republican, United States): composite 0.200
    drivers: enforcement_hits=1.00
-   evidence: [lake:political_figures:gkg-20260818], [lake:political_figures:gkg-20260818], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817]
+   evidence: [lake:political_figures:gkg-20260818], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817]
 2. **Todd Blanche** (Attorney General (acting), Republican, United States): composite 0.200
    drivers: enforcement_hits=1.00
    evidence: [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.], [lake:political_figures:https://www.]
 3. **Nancy Mace** (Representative, Republican, SC-1st): composite 0.182
    drivers: new_filings=0.82, enforcement_hits=0.50
-   evidence: [lake:political_figures:gkg-20260813], [lake:political_figures:gkg-20260813], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
+   evidence: [lake:political_figures:gkg-20260818], [lake:political_figures:gkg-20260813], [lake:political_figures:gkg-20260813], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]
 4. **Richard Blumenthal** (Senator, Democratic, CT): composite 0.125
    drivers: enforcement_hits=0.50
    evidence: [lake:political_figures:0001883345-2], [lake:political_figures:https://www.]

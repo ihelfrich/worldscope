@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-18
-record_count: 214
-new_today: 207
+record_count: 216
+new_today: 211
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-207 new of 214 total items today.
+211 new of 216 total items today.
 
 - **NEW**  [[St. Louis] Where Art Thou? – 8/18/2026](https://www.stlmag.com/games/where-art-thou-081826/) — *2026-08-18*
   > <p>Recognize this St. Louis art? Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer and get your 
@@ -19,6 +19,8 @@ state: fresh
   > <p>Mount Magazine State Park&#160;&#124;&#160;Arkansas As the highest point in Arkansas, Mount Magazine State Park attracts visitors for its&#160;views. If you’re into extreme sports, there are plenty of opportunities for mountain biking, rock climbing, and ATV riding—there are e
 - **NEW**  [[St. Louis] St. Louis judge issues warrant for Jill Stein’s arrest](https://www.stlmag.com/news/jill-stein-warrant-arrest-judge/) — *2026-08-17*
   > <p>Perennial Green Party presidential candidate Jill Stein faces an arrest warrant in Missouri after neither she nor her attorney appeared at a hearing Monday morning related to misdemeanor charges for the alleged assault of a bicycle cop at Washington University more than two ye
+- **NEW**  [[St. Louis] Lou’s Clues – 8/17/2026](https://www.stlmag.com/games/lous-clues-081726/) — *2026-08-17*
+  > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
 - **NEW**  [[St. Louis] Macis’ Prime BBQ joins kitchen lineup at Wash Ave Food Hall](https://www.stlmag.com/dining/macis-prime-bbq-joins-kitchen-lineup-at-wash-ave-food-hall/) — *2026-08-17*
   > <p>An additional food vendor has signed on at Wash Ave Food Hall (1122 Washington), the downtown dining and social destination slated to open in October. Macis&#8217; Prime BBQ will join Little BAO (a concept specializing in bao, rice bowls, and udon noodle bowls), Steve’s Smash 
 - **NEW**  [[St. Louis] The new children’s book encouraging families to rediscover Forest Park](https://www.stlmag.com/family/childrens-book-forest-park/) — *2026-08-17*
@@ -29,29 +31,30 @@ state: fresh
   > <p>Something Rotten! &#124; August 17–23Shakespeare meets showbiz in The Muny’s season finale, a musical comedy about two Renaissance-era brothers desperate to write a hit while living in the shadow of William Shakespeare. When a soothsayer predicts that the future of theater inv
 - **NEW**  [[St. Louis] More home than hotel, The Truitt expands to a historic house in Lafayette Square](https://www.stlmag.com/design/more-home-than-hotel-the-truitt-expands-to-a-historic-house-in-lafayette-square/) — *2026-08-17*
   > <p>Ryan Hiser and David Tran didn&#8217;t set out to become hoteliers. Hiser’s professional background is as a therapist and Tran worked in healthcare.&#160; But as early adopters of Airbnb–in 2013, they began renting out a room in their two-bedroom, one-bathroom house in Kansas 
-- **NEW**  [[St. Louis] Gabe Angieri is leaving Arch Grants after 10 years](https://www.stlmag.com/business/gabe-angieri-leaving-arch-grants/) — *2026-08-17*
-  > <p>The leader of one of the most visible St. Louis organizations supporting startups is stepping down.&#160; Arch Grants announced Monday morning that executive director Gabe Angieri will be leaving after a decade with the orgnaization. Angieri took over the top role in 2022 afte
-- **NEW**  [[St. Louis] Winning STL: St. Louis cuisine goes global](https://www.stltoday.com/news/multimedia/videos/video_5972c331-87c0-5767-9079-1c80d37a0ba1.html) — *2026-08-18*
-  > Shayn Prapaisilp, chief operating officer of STJ Holdings which includes Global Foods, United Provisions, Chao Baan, King &amp; I, Oishi Sushi and Oishi Steakhouse, discusses how his family business has been able to grow over the years as St. Louis&#8230;
-- **NEW**  [[St. Louis] Dr. Roach: Shingles patient doesn't experience pain due to vaccination](https://www.stltoday.com/life-entertainment/local/wellness/article_556c29ce-df73-4a5d-b8e3-160ee9b5c409.html) — *2026-08-18*
-  > Dear Dr. Roach: I was reading your recent column about shingles. Several years ago, I contracted shingles, even after getting the shingles vaccine. It hit me in my left eye, so I went to my eye doctor. (I wasn't sure…
-- **NEW**  [[St. Louis] Hartweger, Gordon Gravius](https://www.stltoday.com/news/local/obituaries/image_5957ac92-ba05-5dfb-8c7a-f756fd0d063b.html) — *2026-08-17*
-- **NEW**  [[St. Louis] Hartweger, Gordon Gravius](https://www.stltoday.com/news/local/obituaries/article_61edb753-fc1b-5257-9d35-5b41bb411416.html) — *2026-08-17*
-  > July 14, 1939 - August 16, 2026
-- **NEW**  [[St. Louis] Luetkenhaus, Rickey](https://www.stltoday.com/news/local/obituaries/article_84c26fe8-1b58-5646-a233-a4a311a107ca.html) — *2026-08-17*
-  > July 5, 1959 - August 14, 2026
-- **NEW**  [[St. Louis] Leonard, Dorothy A. (nee Padgett)](https://www.stltoday.com/news/local/obituaries/article_b0ea9aff-3639-51b1-9407-285f0bd6fb65.html) — *2026-08-17*
-  > June 12, 1947 - August 16, 2026
-- **NEW**  [[St. Louis] Knoll, Kenneth John](https://www.stltoday.com/news/local/obituaries/image_78843c6d-4ea0-535b-8452-164cc5ed557d.html) — *2026-08-17*
-- **NEW**  [[St. Louis] Knoll, Kenneth John](https://www.stltoday.com/news/local/obituaries/article_db9cd9e4-4b45-5f28-82f2-5eb09516f9fe.html) — *2026-08-17*
-  > October 15, 1956 - August 4, 2026
-- **NEW**  [[St. Louis] Williams (née KELLY), Nancy Ellen](https://www.stltoday.com/news/local/obituaries/image_4bfa7954-c282-50c2-8a5e-9695cdcd18e0.html) — *2026-08-17*
-- **NEW**  [[St. Louis] Williams (née KELLY), Nancy Ellen](https://www.stltoday.com/news/local/obituaries/article_b1f96a60-e4a8-5181-b675-2a6b1506363f.html) — *2026-08-17*
-  > December 22, 1951 - July 14, 2026
-- **NEW**  [[Atlanta] A dispute about fact vs. fiction at the trial over Tupac Shakur's 1996 killing](https://www.gpb.org/news/2026/08/18/dispute-about-fact-vs-fiction-at-the-trial-over-tupac-shakurs-1996-killing) — *2026-08-18*
-- **NEW**  [[Atlanta] Palestinian American returns to his West Bank home, under siege by Israeli settlers](https://www.gpb.org/news/2026/08/18/palestinian-american-returns-his-west-bank-home-under-siege-by-israeli-settlers) — *2026-08-18*
-- **NEW**  [[Atlanta] Here are Alaska's 2026 primary election results](https://www.gpb.org/news/2026/08/18/here-are-alaskas-2026-primary-election-results) — *2026-08-18*
-- **NEW**  [[Atlanta] Here are Florida's 2026 primary election results](https://www.gpb.org/news/2026/08/18/here-are-floridas-2026-primary-election-results) — *2026-08-18*
-- **NEW**  [[Atlanta] Here are Wyoming's 2026 primary election results](https://www.gpb.org/news/2026/08/18/here-are-wyomings-2026-primary-election-results) — *2026-08-18*
+- **NEW**  [[St. Louis] See the Aug. 18, 1926, front page: Man killed by assassin hired by bootleggers, police say](https://www.stltoday.com/news/archives/article_4a3d6c36-364d-48f6-a2c0-83c23e188b0a.html) — *2026-08-18*
+  > Headlines from the Aug. 18, 1926, front page include: Four men deny being on $75,000 bond to Becker
+- **NEW**  [[St. Louis] Dr. Barton Goldsmith: Love, relationships and political differences](https://www.stltoday.com/life-entertainment/article_f759de59-e39a-5351-bd8e-857bafb22d10.html) — *2026-08-18*
+  > Unless you’ve gone off the grid, you know we have a historic election this year, and it’s dividing the country as well as some relationships. I have never seen more partners in disagreement over the candidates and the issues. I’m…
+- **NEW**  [[St. Louis] Patron asks St. Charles County library to ban the Bible](https://www.stltoday.com/news/article_5113c050-bb8c-4447-af5b-70cbc2db5f9e.html) — *2026-08-18*
+  > Plus: Workers at the Alamo Drafthouse at The Foundry in St. Louis look to unionize
+- **NEW**  [[St. Louis] Hartweger, Gordon](https://www.stltoday.com/obituaries/image_f78e06c6-d764-5fe8-8731-73ab968c7577.html) — *2026-08-18*
+  > Hartweger, Gordon
+- **NEW**  [[St. Louis] Hartweger, Gordon](https://www.stltoday.com/obituaries/article_7ab9f4e0-7223-5f70-a379-ad55505b9462.html) — *2026-08-18*
+  > Hartweger, Gordon Gravius
+- **NEW**  [[St. Louis] Leonard, Dorothy](https://www.stltoday.com/obituaries/article_d892626e-f0b3-53f8-9e7a-f4ba5d4fb564.html) — *2026-08-18*
+  > Leonard, Dorothy A. (nee Padgett)
+- **NEW**  [[St. Louis] Luetkenhaus, Rickey](https://www.stltoday.com/obituaries/article_43aed06c-d6a5-5b65-9ea3-010a908dc608.html) — *2026-08-18*
+  > Luetkenhaus, Rickey
+- **NEW**  [[St. Louis] Turner, Joyce](https://www.stltoday.com/obituaries/article_bf0fd1cf-59c1-5f2b-8d18-916ec39a296d.html) — *2026-08-18*
+  > Turner, Joyce M. (nee Wehmeyer)
+- **NEW**  [[St. Louis] Williams, Nancy](https://www.stltoday.com/obituaries/image_130049e9-bcc8-52b2-a312-bb525bc9d33e.html) — *2026-08-18*
+  > Williams, Nancy
+- **NEW**  [[St. Louis] Williams, Nancy](https://www.stltoday.com/obituaries/article_6eb0d416-40b0-59fe-9a0b-0203a8e14577.html) — *2026-08-18*
+  > Born December 22, 1951, in Kirkwood Missouri, Nancy Ellen Williams (née KELLY) passed away peacefully on July 14, 2026. She was preceded in death by her husband Tudor Williams, her father Lawrence Edward Kelly (McDonnell-Douglas) her mother Virginia Beth BAILEY…
+- **NEW**  [[St. Louis] The Grooveliner puts the ‘fun’ in power-funk with the new album ‘Live From Your Mom’s House’](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-17/grooveliner-fun-power-funk-new-album) — *2026-08-17*
+- **NEW**  [[St. Louis] Cyclosporiasis cases near 2,000 in Missouri, but doctors see signs outbreak may be peaking](https://www.stlpr.org/news-briefs/2026-08-17/cyclosporiasis-cases-near-2000-missouri) — *2026-08-17*
+- **NEW**  [[St. Louis] Missouri child abuse investigators are overwhelmed again as backlogs return](https://www.stlpr.org/government-politics-issues/2026-08-17/missouri-child-abuse-investigators-backlogs-return) — *2026-08-17*
+- **NEW**  [[St. Louis] Online database of Riverfront Times articles gets more stories and redesign](https://www.stlpr.org/culture-history/2026-08-17/online-database-riverfront-times-articles-redesign) — *2026-08-17*
+- **NEW**  [[St. Louis] Missouri nonprofit gets $25K to help families care for their senior dogs](https://www.stlpr.org/economy-business/2026-08-17/missouri-nonprofit-gets-25k-to-help-families-care-for-their-senior-dogs) — *2026-08-17*
 
-_(189 additional items in raw.jsonl)_
+_(191 additional items in raw.jsonl)_

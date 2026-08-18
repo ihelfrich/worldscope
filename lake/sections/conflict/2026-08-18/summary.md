@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[Germany] Cash from care , upside from concrete ; Initiate with BUY : BUY , PT € 2 . 80 ( SOTP ). Hamburg holding : united kingdom ... ](https://www.finanznachrichten.de/nachrichten-2026-08/69337082-cash-from-care-upside-from-concrete-initiate-with-buy-buy-pt-euro-2-80-sotp-hamburg-holding-uk-091.htm) — *2026-08-18*
-  > domain: finanznachrichten.de · language: English · tone:
-- **NEW**  [[Australia] Drugs seized at Bellarine property](https://www.krock.com.au/local-news/drugs-seized-at-bellarine-property/) — *2026-08-18*
-  > domain: krock.com.au · language: English · tone:
-- **NEW**  [[United States] Russian missiles hit Izmail port in southern Ukraine](http://www.dallassun.com/news/279247436/russian-strike-targets-izmail-port-in-ukraine-s-odesa-region) — *2026-08-18*
-  > domain: dallassun.com · language: English · tone:
-- **NEW**  [[United States] St Luke East Texas Hospitals To Adopt New Names in October](https://kfox95.com/ixp/151/p/st-lukes-hospitals-renamed-commonspirit/) — *2026-08-18*
-  > domain: kfox95.com · language: English · tone:
-- **NEW**  [[United States] 2026 Ram Power Wagon Tradesman Conquers Colorado Brutal Red Cone Trail](https://www.off-road.com/blog/2026-ram-power-wagon-tradesman-conquers-colorado-s-brutal-red-cone-trail/) — *2026-08-18*
-  > domain: off-road.com · language: English · tone:
-- **NEW**  [[Malaysia] Indian model Twisha Sharma died by suicide , no significant injuries suggesting physical assault : AIIMS medical board report](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/18/indian-model-twisha-sharma-died-by-suicide-no-significant-injuries-suggesting-physical-assault-aiims-medical-board-report) — *2026-08-18*
-  > domain: thestar.com.my · language: English · tone:
-- **NEW**  [[United States] A dispute about fact vs . fiction at the trial over Tupac Shakur 1996 killing](https://www.wrkf.org/npr-news/2026-08-18/a-dispute-about-fact-vs-fiction-at-the-trial-over-tupac-shakurs-1996-killing) — *2026-08-18*
-  > domain: wrkf.org · language: English · tone:
-- **NEW**  [[United States] UK wage growth 3 . 5 % in the second quarter](https://finance.yahoo.com/economy/articles/uk-wage-growth-3-5-060527547.html) — *2026-08-18*
-  > domain: finance.yahoo.com · language: English · tone:
-- **NEW**  [[India]   Wont budge until all demands met : Jharkhand student leader Piyush Kumar on JSSC - CGL , TDPL exam protest](https://aninews.in/news/national/politics/wont-budge-until-all-demands-met-jharkhand-student-leader-piyush-kumar-on-jssc-cgl-tdpl-exam-protest20260818111149/) — *2026-08-18*
-  > domain: aninews.in · language: English · tone:
-- **NEW**  [[United Kingdom] Black Country students celebrate impressive A - Level results](https://www.dudleynews.co.uk/news/26472344.black-country-students-celebrate-impressive-a-level-results/) — *2026-08-18*
-  > domain: dudleynews.co.uk · language: English · tone:
-- **NEW**  [[United States] Florida holds primaries for governor and Congress , testing Trump grip on adopted state](https://mymotherlode.com/news/national/general-election/11074489/florida-holds-primaries-for-governor-and-congress-testing-trumps-grip-on-adopted-state.html) — *2026-08-18*
-  > domain: mymotherlode.com · language: English · tone:
-- **NEW**  [[United States] US , Canada hold last - minute talks to stop 50 % U . S . tariffs on $20 billion worth of Canadian goods](https://mymotherlode.com/news/national/11074412/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods.html) — *2026-08-18*
-  > domain: mymotherlode.com · language: English · tone:
-- **NEW**  [[Nigeria] Kenya : NCIC Summons Homa Bay Town MP Kaluma Over Alleged Hate Speech](https://allafrica.com/stories/202608180083.html) — *2026-08-18*
-  > domain: allafrica.com · language: English · tone:
-- **NEW**  [[Nigeria] Kenya : 18 Journalists , Two Drivers Attacked in Two Months , MCK Says](https://allafrica.com/stories/202608180105.html) — *2026-08-18*
-  > domain: allafrica.com · language: English · tone:
-- **NEW**  [[Nigeria] Kenya : 146 Pedestrians Killed in July As Fatalities Drop By Nearly 18 % ](https://allafrica.com/stories/202608180100.html) — *2026-08-18*
-  > domain: allafrica.com · language: English · tone:
-- **NEW**  [[United States] What to watch Tuesday : Redistricting scrambles Florida as Alaska pits Dan Sullivan v . Dan Sullivan](https://mymotherlode.com/news/national/11074475/what-to-watch-tuesday-redistricting-scrambles-florida-as-alaska-pits-dan-sullivan-v-dan-sullivan.html) — *2026-08-18*
-  > domain: mymotherlode.com · language: English · tone:
-- **NEW**  [[Nigeria] Somalia : Gulf War Fallout - Somali Households Pay the Price of Trade Disruption](https://allafrica.com/stories/202608180010.html) — *2026-08-18*
-  > domain: allafrica.com · language: English · tone:
-- **NEW**  [[United States] Palestinian family in West Bank fear settler violence will rob them of home](https://www.kazu.org/npr-news/2026-08-17/palestinian-family-in-west-bank-fear-settler-violence-will-rob-them-of-home) — *2026-08-18*
-  > domain: kazu.org · language: English · tone:
-- **NEW**  [[Australia] Battle of Long Tan still carries scars 60 years on](https://www.dungogchronicle.com.au/story/9332838/battle-of-long-tan-still-carries-scars-60-years-on/) — *2026-08-18*
-  > domain: dungogchronicle.com.au · language: English · tone:
-- **NEW**  [[South Korea] Yum Jung Ah And Park Eun Bin Confirmed For New Film](https://www.soompi.com/article/1863556wpp/yum-jung-ah-and-park-eun-bin-confirmed-for-new-film) — *2026-08-18*
-  > domain: soompi.com · language: English · tone:
-- **NEW**  [[United States] Judge blocks the Trump admin from moving FBI headquarters](https://www.koat.com/article/judge-blocks-trump-moving-fbi-headquarters/73458092) — *2026-08-18*
-  > domain: koat.com · language: English · tone:
-- **NEW**  [[Iraq] Kushner leaves Jerusalem with Trump Gaza plan still stalled](https://www.middle-east-online.com/en/kushner-leaves-jerusalem-trump%E2%80%99s-gaza-plan-still-stalled) — *2026-08-18*
-  > domain: middle-east-online.com · language: English · tone:
-- **NEW**  [[United States] Joel Freedman : Explains Importance of Retirement Income Planning](https://marketrealist.com/guides/joel-freedman-financial-advisor-explains-the-importance-of-retirement-income-planning/) — *2026-08-18*
-  > domain: marketrealist.com · language: English · tone:
-- **NEW**  [[United States] Florida holds primaries for governor and Congress , testing Trump grip on adopted state](https://www.clickorlando.com/news/politics/2026/08/18/florida-holds-primaries-for-governor-and-congress-testing-trumps-grip-on-adopted-state/) — *2026-08-18*
-  > domain: clickorlando.com · language: English · tone:
-- **NEW**  [[Singapore] Russian missiles hit Izmail port in southern Ukraine](http://www.singaporestar.com/news/279247436/russian-strike-targets-izmail-port-in-ukraine-s-odesa-region) — *2026-08-18*
-  > domain: singaporestar.com · language: English · tone:
+- **NEW**  [[United States] Tues , Aug 18 - The New Hampshire Gazette](https://www.nhgazette.com/2026/08/18/tues-aug-18-2/) — *2026-08-18*
+  > domain: nhgazette.com · language: English · tone:
+- **NEW**  [[United States] Fear grips children after deadly earthquake in eastern Indonesia leaves thousands displaced](https://www.thesunchronicle.com/news/nation_world/fear-grips-children-after-deadly-earthquake-in-eastern-indonesia-leaves-thousands-displaced/article_4ae8ca15-e9e5-5446-8122-900d45f27d10.html) — *2026-08-18*
+  > domain: thesunchronicle.com · language: English · tone:
+- **NEW**  [[United Kingdom] Vacancies slip again as private sector pay growth falls to near six - year low](https://www.borehamwoodtimes.co.uk/news/national/26472606.vacancies-slip-private-sector-pay-growth-falls-near-six-year-low/) — *2026-08-18*
+  > domain: borehamwoodtimes.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] BBC series Poldark to be available on ITVX from September](https://www.wandsworthguardian.co.uk/news/national/uk-today/26472613.bbc-series-poldark-available-itvx-september/) — *2026-08-18*
+  > domain: wandsworthguardian.co.uk · language: English · tone:
+- **NEW**  [[Pakistan] Security forces kill another nine terrorists in Balochistan](https://dunyanews.tv/en/Pakistan/968474-security-forces-kill-another-nine-terrorists-in-balochistan) — *2026-08-18*
+  > domain: dunyanews.tv · language: English · tone:
+- **NEW**  [[United Kingdom] Walpole Highway author John Rudd publishes late uncle memoir to spotlight the haulage industry](https://www.fenlandcitizen.co.uk/news/author-publishes-memoir-shining-spotlight-on-haulage-industr-9478855/) — *2026-08-18*
+  > domain: fenlandcitizen.co.uk · language: English · tone:
+- **NEW**  [[Australia] Ex - bikie leader accused of worksite threat to family](https://www.illawarramercury.com.au/story/9332966/ex-bikie-leader-accused-of-worksite-threat-to-family/) — *2026-08-18*
+  > domain: illawarramercury.com.au · language: English · tone:
+- **NEW**  [[Pakistan] Iran threatens new offensive while US rules out extending ceasefire deal](https://tribune.com.pk/story/2624528/iran-threatens-new-offensive-while-us-rules-out-extending-ceasefire-deal) — *2026-08-18*
+  > domain: tribune.com.pk · language: English · tone:
+- **NEW**  [[Canada] In the news today : Tariff deadline looms , B . C . wildfires , Tumbler Ridge demolition – Winnipeg Free Press](https://www.winnipegfreepress.com/canada/2026/08/18/in-the-news-today-tariff-deadline-looms-b-c-wildfires-tumbler-ridge-demolition) — *2026-08-18*
+  > domain: winnipegfreepress.com · language: English · tone:
+- **NEW**  [[United States] A dispute about fact vs . fiction at the trial over Tupac Shakur 1996 killing](https://www.wuft.org/2026-08-18/a-dispute-about-fact-vs-fiction-at-the-trial-over-tupac-shakurs-1996-killing) — *2026-08-18*
+  > domain: wuft.org · language: English · tone:
+- **NEW**  [[] Phil Collins Shares Rare Health Update , Reflecting on Sobriety and Ongoing Recovery](https://www.wiog.com/2026/08/18/phil-collins-shares-rare-health-update-reflecting-on-sobriety-and-ongoing-recovery/) — *2026-08-18*
+  > domain: wiog.com · language: English · tone:
+- **NEW**  [[United States] Student kills schoolmate and himself in livestreamed Philippine school attack , official says](https://www.thesunchronicle.com/news/nation_world/student-kills-schoolmate-and-himself-in-livestreamed-philippine-school-attack-official-says/article_152770d8-865f-5001-b659-758446371534.html) — *2026-08-18*
+  > domain: thesunchronicle.com · language: English · tone:
+- **NEW**  [[Cyprus] Negotiators to meet on Thursday ahead of leader meeting](https://cyprus-mail.com/2026/08/18/negotiators-to-meet-on-thursday-ahead-of-leaders-meeting) — *2026-08-18*
+  > domain: cyprus-mail.com · language: English · tone:
+- **NEW**  [[United States] A New Federal Rule Could Rein In State Medicaid Innovation](https://www.governing.com/policy/a-new-federal-rule-could-rein-in-state-medicaid-innovation) — *2026-08-18*
+  > domain: governing.com · language: English · tone:
+- **NEW**  [[United States] Palestinian American returns to his West Bank home , under siege by Israeli settlers](https://www.kyuk.org/2026-08-17/palestinian-american-returns-to-his-west-bank-home-under-siege-by-israeli-settlers) — *2026-08-18*
+  > domain: kyuk.org · language: English · tone:
+- **NEW**  [[Kenya] Natalie Githinji Undergoes Endometriosis Surgery , Admitted To ICU – Ghafla ! ](https://www.ghafla.co.ke/natalie-githinji-undergoes-endometriosis-surgery-admitted-to-icu/) — *2026-08-18*
+  > domain: ghafla.co.ke · language: English · tone:
+- **NEW**  [[Philippines] Permanent evacuation centers eyed in Quezon City](https://www.philstar.com/metro/2026/08/18/2550143/permanent-evacuation-centers-eyed-quezon-city) — *2026-08-18*
+  > domain: philstar.com · language: English · tone:
+- **NEW**  [[New Zealand] State Highway 1 , Hurunui closed following crash – LiveNews . co . nz](https://livenews.co.nz/2026/08/18/state-highway-1-hurunui-closed-following-crash/) — *2026-08-18*
+  > domain: livenews.co.nz · language: English · tone:
+- **NEW**  [[Ireland] Social media platforms must step up to stamping out showing illegal activities – Lynch](https://www.thecork.ie/2026/08/18/social-media-platforms-must-step-up-to-stamping-out-showing-illegal-activities-lynch/) — *2026-08-18*
+  > domain: thecork.ie · language: English · tone:
+- **NEW**  [[India] Pak govt cracks down on protesting healthcare workers as Sindh protests expose systemic neglect](https://news.webindia123.com/news/Articles/World/20260818/4488305.html) — *2026-08-18*
+  > domain: news.webindia123.com · language: English · tone:
+- **NEW**  [[United States] CorMedix Inc $CRMD Shares Acquired by Quantinno Capital Management LP](https://www.tickerreport.com/banking-finance/13547793/cormedix-inc-crmd-shares-acquired-by-quantinno-capital-management-lp.html) — *2026-08-18*
+  > domain: tickerreport.com · language: English · tone:
+- **NEW**  [[United States] Palestinian family in West Bank fear settler violence will rob them of home](https://www.wuft.org/2026-08-17/palestinian-family-in-west-bank-fear-settler-violence-will-rob-them-of-home) — *2026-08-18*
+  > domain: wuft.org · language: English · tone:
+- **NEW**  [[United Kingdom] Máiría Cahill : Will President Connolly do the decent thing and contact Ann Travers ? ](https://www.irishnews.com/opinion/mairia-cahill-why-wont-president-connolly-do-the-decent-thing-and-contact-ann-travers-J3E7VMBJJBAQHJHRIPUVCQOLGA/) — *2026-08-18*
+  > domain: irishnews.com · language: English · tone:
+- **NEW**  [[United Kingdom] EastEnders airs unexpected Mitchell return after lengthy absense leaving fans floored](https://www.dailystar.co.uk/tv/eastenders-airs-unexpected-mitchell-return-37563026) — *2026-08-18*
+  > domain: dailystar.co.uk · language: English · tone:
+- **NEW**  [[Australia] Finley Show Society cancels 2026 poultry event , impact of H5N1 | The Border Mail](https://www.bordermail.com.au/story/9332317/finley-show-society-cancels-2026-poultry-event-impact-of-h5n1/) — *2026-08-18*
+  > domain: bordermail.com.au · language: English · tone:
 
 _(15 additional items in raw.jsonl)_
