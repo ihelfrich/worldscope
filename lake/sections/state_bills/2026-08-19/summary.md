@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-19
-record_count: 173
-new_today: 165
+record_count: 181
+new_today: 173
 state: fresh
 ---
 
 ## State Legislative Action
 
-165 new of 173 total items today.
+173 new of 181 total items today.
 
 - **NEW**  [[Alaska HB 110] An Act relating to the rural health transformation program; relating to the interstate medical licensure compact; relating to the PA licensure compact; relating to the psychology interjurisdictional compact; relating to the practice of respiratory care; relating to the duties of the ]() — *2026-08-18*
   > An Act relating to the rural health transformation program; relating to the interstate medical licensure compact; relating to the PA licensure compact; relating to the psychology interjurisdictional compact; relating to the practice of respiratory care; relating to the duties of 
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[California AB 2772] Interior designers.]() — *2026-08-18*
   > (1) Existing law, until January 1, 2027, provides a comprehensive scheme for the certification and regulation of interior designers. Existing law establishes the California Council for Interior Design Certification (council) , which is a nonprofit organization consisting of certi
 
-_(148 additional items in raw.jsonl)_
+_(156 additional items in raw.jsonl)_

@@ -20,7 +20,7 @@ state: fresh
    evidence: [lake:political_figures:0001883345-2], [lake:political_figures:https://www.]
 3. **Andy Barr** (Representative, Republican, KY-6th): composite 0.125
    drivers: enforcement_hits=0.50
-   evidence: [lake:political_figures:0002002093-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260818], [lake:political_figures:0002002093-2], [lake:political_figures:https://www.]
 4. **Nancy Mace** (Representative, Republican, SC-1st): composite 0.082
    drivers: new_filings=0.82
    evidence: [lake:political_figures:gkg-20260813], [lake:political_figures:gkg-20260813], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001493152-2]

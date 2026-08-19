@@ -2,62 +2,64 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-19
-record_count: 100
-new_today: 57
+record_count: 103
+new_today: 60
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-57 new of 100 total items today.
+60 new of 103 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-19*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
-- **NEW**  [[TITLE: У вівторок нардепи 5 годин говорили з кандидатами в міністри. Зранку комітет схвалив Хмару | LEDE: 18 серпня народні депутати понад п'ять годин розмовляли з кандидатами на посади міністра оборо] (uk: У вівторок нардепи 5 годин говорили з кандидатами в міністри. Зранку комітет схв)](https://www.pravda.com.ua/news/2026/08/19/8049264/) — *2026-08-19*
-  > 18 серпня народні депутати понад п'ять годин розмовляли з кандидатами на посади міністра оборони та міністра закордонних справ. Зранку 19 серпня зустрічі продовжилися.
-- **NEW**  [[TITLE: Окупанти атакували дроном маршрутку в Херсоні: 4 людини загинули, ще 5 поранені | LEDE: У Корабельному районі Херсона дрон РФ атакував маршрутку: 4 людини загинули, ще 4 жінки поранені.] (uk: Окупанти атакували дроном маршрутку в Херсоні: 4 людини загинули, ще 5 поранені)](https://www.pravda.com.ua/news/2026/08/19/8049269/) — *2026-08-19*
-  > У Корабельному районі Херсона дрон РФ атакував маршрутку: 4 людини загинули, ще 4 жінки поранені.
-- **NEW**  [[TITLE: УП: НАБУ і САП прийшли з обшуками до нардепа Столара та заступниці керівника ОП Мудрої | LEDE: НАБУ і САП у межах спецоперації проводять обшуки у народного депутата Вадима Столара, обраного до ] (uk: УП: НАБУ і САП прийшли з обшуками до нардепа Столара та заступниці керівника ОП )](https://www.pravda.com.ua/news/2026/08/19/8049267/) — *2026-08-19*
-  > НАБУ і САП у межах спецоперації проводять обшуки у народного депутата Вадима Столара, обраного до парламенту від нині забороненої партії "Опозиційна платформа – За життя", та заступниці керівника Офісу президента Ірини Мудрої.
-- **NEW**  [[TITLE: У Києві Volkswagen врізався в маршрутку і вилетів на зупинку: 2 загиблих, 4 поранених | LEDE: Правоохоронці працюють на місці смертельної ДТП у Солом'янському районі Києва. За попередньою інфор] (uk: У Києві Volkswagen врізався в маршрутку і вилетів на зупинку: 2 загиблих, 4 пора)](https://www.pravda.com.ua/news/2026/08/19/8049266/) — *2026-08-19*
-  > Правоохоронці працюють на місці смертельної ДТП у Солом'янському районі Києва. За попередньою інформацією, є двоє загиблих і четверо поранених.
-- **NEW**  [[TITLE: НАБУ і САП анонсували спецоперацію "Форест Гамп" щодо злочинної організації за участі нардепів і посадовців ОП | LEDE: НАБУ і САП проводять спецоперацію "Форест Гамп" з викриття злочинної орган] (uk: НАБУ і САП анонсували спецоперацію "Форест Гамп" щодо злочинної організації за у)](https://www.pravda.com.ua/news/2026/08/19/8049261/) — *2026-08-19*
-  > НАБУ і САП проводять спецоперацію "Форест Гамп" з викриття злочинної організації, яка, за даними слідства, діяла під керівництвом чинного та колишнього народних депутатів за участі високопосадовців Офісу президента та інших осіб.
-- **NEW**  [[TITLE: Партизани "АТЕШ" знищили три вежі зв’язку окупантів на Курщині | LEDE: Партизанський рух "АТЕШ" заявив про ліквідацію трьох російських веж зв'язку в Курській області.] (uk: Партизани "АТЕШ" знищили три вежі зв’язку окупантів на Курщині)](https://www.pravda.com.ua/news/2026/08/19/8049260/) — *2026-08-19*
-  > Партизанський рух "АТЕШ" заявив про ліквідацію трьох російських веж зв'язку в Курській області.
-- **NEW**  [[TITLE: ПС знову назвали кількість запущених РФ ракет: вночі Росія атакувала 2 "Іскандерами" і 65 дронами | LEDE: У ніч на 19 серпня РФ атакувала Україну ракетами та БпЛА. ППО збила 58 цілей, атака ще ] (uk: ПС знову назвали кількість запущених РФ ракет: вночі Росія атакувала 2 "Іскандер)](https://www.pravda.com.ua/news/2026/08/19/8049257/) — *2026-08-19*
-  > У ніч на 19 серпня РФ атакувала Україну ракетами та БпЛА. ППО збила 58 цілей, атака ще тривала станом на ранок.
-- **NEW**  [[TITLE: За минулу добу на фронті відбулося 239 боєзіткнень, 31 атака – на Костянтинівському напрямку | LEDE: Протягом 18 серпня на фронті зафіксували 239 бойових зіткнень, найактивніше російські військ] (uk: За минулу добу на фронті відбулося 239 боєзіткнень, 31 атака – на Костянтинівськ)](https://www.pravda.com.ua/news/2026/08/19/8049254/) — *2026-08-19*
-  > Протягом 18 серпня на фронті зафіксували 239 бойових зіткнень, найактивніше російські війська атакували на Костянтинівському напрямку, де Сили оборони відбивали 31 штурм.
-- **NEW**  [[TITLE: Нідерланди засудили санкції США проти голови Міжнародного кримінального суду | LEDE: ] (uk: Нідерланди засудили санкції США проти голови Міжнародного кримінального суду)](https://www.pravda.com.ua/news/2026/08/19/8049253/) — *2026-08-19*
-- **NEW**  [[TITLE: У російському Дзержинську лунали вибухи, під атакою міг бути завод вибухових речовин | LEDE: У Дзержинську РФ прогриміли вибухи. Повідомляють про атаку дронів і задимлення на заводі вибухових р] (uk: У російському Дзержинську лунали вибухи, під атакою міг бути завод вибухових реч)](https://www.pravda.com.ua/news/2026/08/19/8049252/) — *2026-08-19*
-  > У Дзержинську РФ прогриміли вибухи. Повідомляють про атаку дронів і задимлення на заводі вибухових речовин.
-- **NEW**  [[TITLE: Трамп на три дні відклав запровадження 50% мит на товари з Канади | LEDE: Трамп відклав нові 50% мита на канадські товари на три дні через домовленість США і Канади.] (uk: Трамп на три дні відклав запровадження 50% мит на товари з Канади)](https://www.pravda.com.ua/news/2026/08/19/8049251/) — *2026-08-19*
-  > Трамп відклав нові 50% мита на канадські товари на три дні через домовленість США і Канади.
-- **NEW**  [[TITLE: Росіяни за добу понад тисячу разів атакували Запорізьку область: 2 загиблих, 10 поранених | LEDE: В результаті атак РФ на Запоріжжя 18 серпня: 2 загиблих, 10 поранених, значні руйнування.] (uk: Росіяни за добу понад тисячу разів атакували Запорізьку область: 2 загиблих, 10 )](https://www.pravda.com.ua/news/2026/08/19/8049250/) — *2026-08-19*
-  > В результаті атак РФ на Запоріжжя 18 серпня: 2 загиблих, 10 поранених, значні руйнування.
-- **NEW**  [[TITLE: Генштаб про втрати ворога: мінус ще 1 190 російських окупантів | LEDE: За минулу добу у війні проти України Росія втратила ще 1 190 вояк] (uk: Генштаб про втрати ворога: мінус ще 1 190 російських окупантів)](https://www.pravda.com.ua/news/2026/08/19/8049249/) — *2026-08-19*
-  > За минулу добу у війні проти України Росія втратила ще 1 190 вояк
-- **NEW**  [[TITLE: Південна Корея заявила про скорочення спільних із США військових навчань | LEDE: Після заяв Трампа Південна Корея також заявила про скорочення спільних із США військових навчань.] (uk: Південна Корея заявила про скорочення спільних із США військових навчань)](https://www.pravda.com.ua/news/2026/08/19/8049247/) — *2026-08-19*
-  > Після заяв Трампа Південна Корея також заявила про скорочення спільних із США військових навчань.
-- **NEW**  [[TITLE: Міжнародний кримінальний суд відреагував на санкції США | LEDE: У МКС заявили, що санкції проти їхніх співробітників підривають верховенство права.] (uk: Міжнародний кримінальний суд відреагував на санкції США)](https://www.pravda.com.ua/news/2026/08/19/8049246/) — *2026-08-19*
-  > У МКС заявили, що санкції проти їхніх співробітників підривають верховенство права.
-- **NEW**  [[TITLE: Другу ніч поспіль російська влада нарікає на атаку безпілотників на Москву | LEDE: У ніч на 19 серпня російська влада вчергове заявила про атаку безпілотників на Москву.] (uk: Другу ніч поспіль російська влада нарікає на атаку безпілотників на Москву)](https://www.pravda.com.ua/news/2026/08/19/8049245/) — *2026-08-19*
-  > У ніч на 19 серпня російська влада вчергове заявила про атаку безпілотників на Москву.
-- **NEW**  [[TITLE: Трамп хоче зустрітися з лідером Північної Кореї цієї осені – WSJ | LEDE: За даними WSJ, Трамп наполягає на зустрічі з лідером КНДР цієї осені.] (uk: Трамп хоче зустрітися з лідером Північної Кореї цієї осені – WSJ)](https://www.pravda.com.ua/news/2026/08/19/8049244/) — *2026-08-19*
-  > За даними WSJ, Трамп наполягає на зустрічі з лідером КНДР цієї осені.
-- **NEW**  [[TITLE: Ворожі дрони атакували Запоріжжя: загинула людина, шестеро поранених | LEDE: Внаслідок удару росіян по Запоріжжю загинула людина, є поранені.] (uk: Ворожі дрони атакували Запоріжжя: загинула людина, шестеро поранених)](https://www.pravda.com.ua/news/2026/08/19/8049242/) — *2026-08-19*
-  > Внаслідок удару росіян по Запоріжжю загинула людина, є поранені.
-- **NEW**  [[TITLE: МАГАТЕ отримало інформацію про вибух дрона на зупинці для працівників окупованої ЗАЕС | LEDE: У МАГАТЕ заявили, що отримали інформацію від директора окупованої ЗАЕС про вибух дрона на автобусні] (uk: МАГАТЕ отримало інформацію про вибух дрона на зупинці для працівників окупованої)](https://www.pravda.com.ua/news/2026/08/19/8049240/) — *2026-08-19*
-  > У МАГАТЕ заявили, що отримали інформацію від директора окупованої ЗАЕС про вибух дрона на автобусній зупинці, якою користуються працівники станції, внаслідок чого є загиблий і 16 потерпілих.
-- **NEW**  [[TITLE: У Німеччині прогнозують зниження врожаю зерна через спеку | LEDE: ] (uk: У Німеччині прогнозують зниження врожаю зерна через спеку)](https://www.pravda.com.ua/news/2026/08/18/8049239/) — *2026-08-18*
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-19*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
 - [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-19*
   > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
 - [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-08-19*
   > 404 Client Error: Not Found for url: https://babel.ua/rss
+- [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-19*
+  > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
+- **NEW**  [Trump Scales Back Joint Drills With South Korea](https://www.kyivpost.com/post/82654) — *2026-08-19*
+  > Trump’s decision to scale back US-South Korea military exercises has raised concerns about the consequences for regional security. Critics argue he overestimates his relationship with Kim Jong-un, potentially strengthening North Korea’s regime and aggression. Germany’s Süddeutsch
+- **NEW**  [NABU Starts ‘Forest Gump’ Operation, Uncovers Crisis Plan](https://www.kyivpost.com/post/82652) — *2026-08-19*
+  > Ukraine’s National Anti-Corruption Bureau and Specialized Anti-Corruption Prosecutor’s Office are conducting a special operation targeting an alleged criminal organization led by a current and former lawmaker. During searches, investigators found a document outlining a crisis com
+- **NEW**  [Open the Black Sea for Shipping!](https://www.kyivpost.com/opinion/82649) — *2026-08-19*
+  > The Russo-Ukrainian War is heating up in the Black Sea this summer, with tit-for-tat attacks on shipping. The Ukrainian economy is at risk and needs the help of Europeans, particularly the Baltic states.
 - **NEW**  [NATO Draws Up 3-Step Plan to Fight Russia if Putin Attacks the Baltics](https://www.kyivpost.com/post/82637) — *2026-08-19*
   > NATO has reportedly developed a three-part strategy for a potential Russian attack on the Baltic states. According to Bild, the plan includes suppressing Russian missile systems, deploying autonomous drones along NATO’s borders and striking key military and logistical targets ins
 - **NEW**  [EXPLAINER: 35 Years Ago Today, the World Held Its Breath](https://www.kyivpost.com/post/82636) — *2026-08-19*
   > On this day in 1991, a failed hardline coup in Moscow became the final shock that pushed Ukraine from asserted sovereignty to independence. As Soviet authority faltered, Ukraine’s democratic forces, sovereignty Communists led by Leonid Kravchuk, and public protests in Kyiv, conve
+- **NEW**  [‘Zero Tolerance’: Polish Woman Charged After Alleged Nationality-Based Attack on Ukrainian Siblings](https://www.kyivpost.com/post/82635) — *2026-08-19*
+  > A 46-year-old Polish woman has been charged after allegedly verbally and physically attacking two Ukrainian siblings, aged 14 and 12, in Bydgoszcz. Police say the incident involved nationality-based insults and damage to the children’s toy drone.
+- **NEW**  [Major Explosives Plant Hit Again as Ukrainian Drones Strike Across Russia Overnight](https://www.kyivpost.com/post/82634) — *2026-08-19*
+  > Ukrainian drones targeted the Sverdlov explosives plant in Dzerzhinsk, according to Russian and OSINT reports, marking another attack on the facility this year. Overnight strikes were also reported in Ufa, the Tula region, and near Moscow, with casualties reported in Ufa.
+- **NEW**  [ISW Russian Offensive Campaign Assessment, August 18, 2026](https://www.kyivpost.com/post/82627) — *2026-08-19*
+  > War in Ukraine - Latest update, key takeaways and map from the Institute for the Study of War on August 18, 2026
+- **NEW**  [Estonia Probes Possible Russian Sabotage After Fire at Defense Firm Supplying Ukraine](https://www.kyivpost.com/post/82624) — *2026-08-19*
+  > Estonia is investigating whether Russia was behind a suspected arson attack on Milrem Robotics, whose unmanned military systems are used in Ukraine.
+- **NEW**  [2 Killed, 10 Wounded as Russia Hits Zaporizhzhia Region 1,019 Times in 24 Hours](https://www.kyivpost.com/post/82623) — *2026-08-19*
+  > Russian forces carried out 1,019 attacks across 52 settlements in the Zaporizhzhia region, including 717 drone strikes, 19 airstrikes and 276 artillery attacks. Two people were killed and 10 wounded.
+- **NEW**  [Lavrov Threatens UK With ‘Consequences’ Over Ukraine War](https://www.kyivpost.com/post/82622) — *2026-08-19*
+  > Sergei Lavrov says Moscow could treat British involvement in Ukrainian strikes on Russia as participation in the war, escalating an earlier embassy warning to London.
+- **NEW**  [Fedorov Calls for Wartime Elections, Says Putin Shouldn’t Set the Timeline](https://www.kyivpost.com/post/82618) — *2026-08-18*
+  > Former Defense Minister Mykhailo Fedorov has called for Ukraine to develop a mechanism to hold elections during the war, arguing Russia should not be able to dictate when Ukrainian citizens vote. His remarks came hours after President Volodymyr Zelensky nominated a permanent repl
+- **NEW**  [Russian Strike Halts DTEK Thermal Power Plant](https://www.kyivpost.com/post/82617) — *2026-08-18*
+  > Russia carried out a massive strike on a DTEK thermal power plant in Ukraine on Tuesday, Aug. 18, forcing the station to halt electricity generation. According to DTEK, its thermal power plants have been attacked more than 230 times since the start of the full-scale invasion in 2
+- **NEW**  [Russian Jet-Powered ‘Shahed’ Drone Reaches Western Ukraine for First Time](https://www.kyivpost.com/post/82616) — *2026-08-18*
+  > A Russian jet-powered “Shahed” drone flew roughly 900 kilometers (nearly 560 miles) from Crimea into western Ukraine on Tuesday, Aug. 18, marking the farthest such strike recorded so far. According to Ukrainian monitoring systems, the flight path was designed to avoid air defense
+- **NEW**  [Ukraine, Belgium Advance Talks on Drone Deal](https://www.kyivpost.com/post/82615) — *2026-08-18*
+  > President Volodymyr Zelensky discussed possible signing dates with Belgian Deputy Prime Minister Maxime Prévot on Tuesday, Aug. 18, as Ukraine and Belgium move forward with finalizing a Drone Deal.
+- **NEW**  [Germany Opens Drone Defense Research Center After Leipzig Airport Incident](https://www.kyivpost.com/post/82614) — *2026-08-18*
+  > Germany opened a new drone security research center on Tuesday, Aug. 18, less than two weeks after an explosive-laden unmanned aerial vehicle (UAV) was found near a Ukrainian cargo plane at Leipzig-Halle Airport. German Interior Minister Alexander Dobrindt called the incident par
+- **NEW**  [Stun Grenade Injures 4 in Russian School After Counter-Terrorism Exercise Goes Wrong](https://www.kyivpost.com/post/82613) — *2026-08-18*
+  > Russian media said four teachers were injured in a school in the Moscow region after law enforcement accidentally lobbed a stun grenade into a room during an anti-terrorism drill. Similar exercises began in 2024, with the same year marked by the infamous Crocus concert hall shoot
+- **NEW**  [Kanye West to Perform 2 Shows in Russia’s St. Petersburg This October](https://www.kyivpost.com/post/82606) — *2026-08-18*
+  > US pop-star Kanye West announced two concerts in Russia St. Petersburg in October, with tickets ranging 9,000-160,000 rubles ($106-$1,880) sold out in hours as local agencies reported massive spike in train and hotel searches. A Russian producer said it is likely to bring about a
+- **NEW**  [Zelensky Submits Khmara, Sybiha Nominations to Parliament](https://www.kyivpost.com/post/82605) — *2026-08-18*
+  > Presidential submissions naming Yevhenii Khmara as defense minister and Andriy Sybiha as foreign minister have been submitted to Ukraine’s parliament, according to Ukrainian lawmakers. Both officials currently serve as acting heads of their ministries. Parliament is expected to c
+- **NEW**  [Controversial Ukrainian Lawmaker Bezuhla Returns to Servant of the People Party](https://www.kyivpost.com/post/82604) — *2026-08-18*
+  > Mariana Bezuhla has returned to the Servant of the People legislative party after leaving it in summer 2024. Two other Servant of the People lawmakers, Bohdan Morklianyk and Viktoriia Reznikova, also took their oaths on Aug. 18 after entering the Verkhovna Rada to replace lawmake
 
-_(75 additional items in raw.jsonl)_
+_(78 additional items in raw.jsonl)_

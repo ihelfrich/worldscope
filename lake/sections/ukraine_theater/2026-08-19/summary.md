@@ -2,23 +2,23 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-08-19
-record_count: 234
-new_today: 177
+record_count: 792
+new_today: 650
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-177 new of 234 total items today.
+650 new of 792 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-08-19*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-08-19*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[Liveuamap] 2 people killed, 13 wounded as result of Russian missile strikes at the ArcelorMittal metallurgical plant in Kryvyi Rih, crucial equipment damaged Kryvyi Rih, Dnipropetrovsk Oblast - Ukraine Interactive map - Ukraine Latest news on live map](https://liveuamap.com) — *2026-08-18*
-  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNVWVjb1dWXzRqNnM0T3lkckRKN1JHVlVHMFJpZnFPQU9Dcm1mbWxHVlpDb2tXcWIxR29lNUtGNTlhMGs1M0FoZTMtYlZOYjQtOEU1blh5ZEFrd2l4WnVSODY5TWdudW04Wno0bzNnWmlnTzRjbEVfVW5qeHdQYVBNTDduS3pzZFp3TFVXcGJQY0tPV0Nk?oc=5" target="_blank">2 peopl
 - **NEW**  [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
+- **NEW**  [[Liveuamap] 2 people killed, 13 wounded as result of Russian missile strikes at the ArcelorMittal metallurgical plant in Kryvyi Rih, crucial equipment damaged Kryvyi Rih, Dnipropetrovsk Oblast - Ukraine Interactive map - Ukraine Latest news on live map](https://liveuamap.com) — *2026-08-18*
+  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNVWVjb1dWXzRqNnM0T3lkckRKN1JHVlVHMFJpZnFPQU9Dcm1mbWxHVlpDb2tXcWIxR29lNUtGNTlhMGs1M0FoZTMtYlZOYjQtOEU1blh5ZEFrd2l4WnVSODY5TWdudW04Wno0bzNnWmlnTzRjbEVfVW5qeHdQYVBNTDduS3pzZFp3TFVXcGJQY0tPV0Nk?oc=5" target="_blank">2 peopl
 - **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - iran.liveuamap.com](https://iran.liveuamap.com) — *2016-07-28*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - [[Liveuamap] Israel-Palestine - Liveuamap](https://israelpalestine.liveuamap.com) — *2016-04-27*
@@ -31,8 +31,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOTU9BNmJjUkhRdkl4bktncFBIX2p5V3JPWmVjOVgyNnpKMGpCTUliRkp4ZVF1S3lxckZCR0FKZFhGU2RVdi1JWnVScWxOakdFOHhybXlZcWc3aEpsZkRHd1ItaURBNzExMDlrNmZDWnV0OWFXLWQ2MjVTdmRIbkdSLTlCZ2YwSUR4N1pFVXNJMkpaMUk?oc=5" target="_blank">At South
 - **NEW**  [[Liveuamap] Explosions were reported in Moscow region - Liveuamap](https://liveuamap.com) — *2026-08-18*
   > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQMnFXQ1FXWF9QUFhiMVVvQkFhNVJFYm5Pb2dlUjhYNUVrcEhZbUtfdjltWWdXWk5pS2hoampxMWxSQ1N4UHQwUkpzVGFxUG96U1B5SjdvRGM1TDhjV0l3R3A5RmpsekphdDJvVmhQM19zQnZqeXNxQ19sQ1REYXk4b1NsYkxDQ3YzT1Ixd3RR?oc=5" target="_blank">Explosions were
-- [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] Yemeni air defenses shoot down Houthi drones over Taizz. Footage shows Houthi drones flying over Mocha and air defenses intercepting them. Mocha, Taizz Governorate - Interactive map of Yemen war - Liveuamap](https://yemen.liveuamap.com) — *2026-08-09*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQenBRamFGdXYxSVc3UW1qQkh0bVpYMjdOWVpTQnZCQlNqZV83aTZWdlltSHNKT3BUdFhZd0YxVjlwR1RvWUppRlZ5T2M1ajJ0cjR3SW1ja3ZwTDJtU1BPaUdZSGcxQUd1VGVvekxBT05Jdk1qWFVGZkREblR6ZnF5TWpBc0J1Q0RyUmt3TjZnSmhqZGtrdzc4?oc=5" target="_blank">Yem
 - **NEW**  [[Liveuamap] In protest against the attack on those returning to Ras al-Ayn in the Hasakah countryside, protesters smashed a sign at the Kobani district directorate in the Aleppo countryside amid a tense situation in the city. - Liveuamap](https://syria.liveuamap.com) — *2026-08-14*
@@ -61,5 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fWW02QWNGczhPMWVEc0h6eV85bDVqNjRKRFBKSENadC04TFEzM0MwdWEzS3VPeEp3amxEMTFNVFVKRk1rUnY0U2ZzVzVISUQtMmNnWVVLdlV5Zw?oc=5" target="_blank">Day of news on live map - August, 18 2026 - Interactive map of Yemen war</a>&nbsp;&nb
 - [[Liveuamap] Field sources: Houthi ground forces are moving from Dhamar and Ibb towards areas on the Red Sea coast in Hodeidah and near Mocha. Military sources: The movements and shelling indicate Houthi intentions to reach areas near Bab al-Mandab and ](https://yemen.liveuamap.com) — *2026-08-17*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPaUY1OVVuemk2SEc5bGJWWExDTU5WVFhIUDB3Yi1hRUxDNlNWN2QxVXhRRW9MQlJIbXdreTUxYzZQek4tOFdqMWtQTjk4SDVRTmJtOXR6NzYxWmZycTlSNno3S0ZBTWFkRmtLUTZ2THRPQ0VjQ055LTJaa0tFRWRBRXdMMEpNRHNMdjJnb3pha1ZWUEd0cGtPblpB?oc=5" target="_blank"
+- [[Liveuamap] Earthquake of magnitude 4.8 - 159 km ESE of Saipan, Northern Mariana Islands - Liveuamap](https://pacific.liveuamap.com) — *2026-08-18*
+  > <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQU0QyMk03MU1jT2FTWi1EcjV4RXc4THNTZE1yblNPVnpRRkdXaTkzb2ZGaEhEM01kRGlEUGRROHVqQ2pISmVlOWpmNXk1djA3RHU3TG9vQnotWWlEVXpDY1hLOTBlNWxybDg2U1dtWjQwdmItZVAzNnlSTWhEOXZ4QTJMaUdYNjVsWFhnM3hjbTVKajdU?oc=5" target="_blank">Earthqu
 
-_(209 additional items in raw.jsonl)_
+_(767 additional items in raw.jsonl)_

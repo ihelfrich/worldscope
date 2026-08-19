@@ -2,64 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-19
-record_count: 991
-new_today: 752
+record_count: 978
+new_today: 749
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-752 new of 991 total items today.
+749 new of 978 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-19*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-08-19*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-08-19*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-08-19*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- **NEW**  [[Global] 'Banned over a pair of £2 sandals': Why some sellers are complaining about Vinted](https://www.bbc.co.uk/news/articles/cx2kwnrn5zpo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Several thousands of Vinted users say they have been wrongly suspended or permanently banned from the preloved app.
-- **NEW**  [[Global] Trump pauses new tariffs on Canada for three days, saying deal close](https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss) — *2026-08-19*
-  > The US president says the two sides are finalising documents to avert import taxes targeting a range of Canadian goods.
-- **NEW**  [[Global] Meta hooked children on Facebook and Instagram, US court hears](https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.
-- **NEW**  [[Global] Mobile payments on the rise but cash decline slows](https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Nine in 10 mobile wallet users have their debit card loaded as their default payment method, new data shows.
-- **NEW**  [[Global] The critical tech staying safe by going underground](https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > The war in Ukraine has spurred people to consider putting vital infrastructure underground.
-- **NEW**  [[Global] Chinese robotics giant Unitree soars in stock market debut](https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss) — *2026-08-19*
-  > Shares in the world's biggest humanoid robot maker started trading on Shanghai's Star market on Wednesday.
-- **NEW**  [[Global] Jump in energy bills drives UK inflation to highest rate for four months](https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss) — *2026-08-19*
-  > The cost of things is now rising at a faster pace compared with last month.
-- **NEW**  [[Global] Global borrowing costs hit fresh highs over oil, AI and inflation concerns](https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Interest rates on long-term US, UK, German and Japanese government debt have soared.
-- **NEW**  [[Global] Wetherspoons bans customers playing music from phones in pubs](https://www.bbc.co.uk/news/articles/cnvnl8gy22lo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > The pub chain says the decision follows complaints about "other people's videos and amplified phone conversations".
-- **NEW**  [[Global] American Airlines to bring back TV screens on US flights](https://www.bbc.co.uk/news/articles/c70glp55y95o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > It is also adding more premium seats, with the changes aimed at improving the travel experience and boosting revenue.
-- [[Global] Job vacancies at five-year low as smaller firms scale back recruitment](https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Small firms cite labour and operating costs as reasons for scaling back hiring, the UK's statistics body says.
-- **NEW**  [[Global] Carney's final chance to convince Trump as US-Canada trade deadline looms](https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > Negotiators want a deal to avoid fresh US tariffs - though Canadians are not in the mood to offer many concessions.
-- **NEW**  [[Global] From jumpers to slug pellets - how British wool is back in demand](https://www.bbc.co.uk/news/articles/c8xnkjwdn5wo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > An increased demand in wool has meant prices have increased more than 70% in the last year.
-- [[Global] 'I'm in Barbados': The dos and don'ts of writing an out-of-office reply](https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > As we hit peak holiday season, the BBC looks at the dos and don'ts of composing a good out-of-office message.
-- **NEW**  [[Global] Disney and ABC sue Trump's media regulator to stop early licence renewal](https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > The network accuses the administration of retaliating against ABC because it "disapproves of what ABC broadcasts".
-- **NEW**  [[Global] AI to help planes avoid climate-warming 'sky graffiti'](https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere.
-- [[Global] US states call for big changes to Instagram and Facebook as Meta child privacy trial begins](https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > US states are suing the social media giant to force an overhaul of its platforms for young users.
-- [[Global] Ferguson shipyard to cut a quarter of its workforce](https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > The state-owned yard on the Clyde will lose 70 of its 283 staff through a voluntary redundancy process as it awaits confirmation of promised new orders.
-- [[Global] Disabled people in England to get 24-hour free bus travel](https://www.bbc.co.uk/news/articles/cjwx5vx21y2o?at_medium=RSS&at_campaign=rss) — *2026-08-18*
-  > The change, which has been welcomed by campaign groups, will come into effect in England from April.
-- [[Global] Film commission backs Amazon MGM expansion of Berkshire studios](https://www.bbc.co.uk/news/articles/c9d8wjvd2q4o?at_medium=RSS&at_campaign=rss) — *2026-08-17*
-  > The Berkshire film studio was previously home to iconic horror studio Hammer Films.
-- [[Global] Does Reform's plan to cut £50bn in welfare spending add up?](https://www.bbc.co.uk/news/articles/crl76jkxel3o?at_medium=RSS&at_campaign=rss) — *2026-08-17*
-  > BBC Verify breaks down what the party says it wants to do to cut the benefits bill - and how realistic it is.
-- [[Global] Fifa official sacked after Infantino plan criticism](https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o?at_medium=RSS&at_campaign=rss) — *2026-08-17*
-  > Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino.
+- **NEW**  [[Global] US pilot lands jet without front wheels after landing gear failure](https://www.aljazeera.com/video/newsfeed/2026/8/19/us-pilot-lands-jet-without-front-wheels-after-landing-gear-failure?traffic_source=rss) — *2026-08-19*
+  > US pilot lands jet without front wheels after landing gear failure
+- **NEW**  [[Global] Kelsey Mitchell ties WNBA scoring record in Fever win over Tempo](https://www.aljazeera.com/sports/2026/8/19/kelsey-mitchell-ties-wnba-scoring-record-in-fever-win-over-tempo?traffic_source=rss) — *2026-08-19*
+  > The three-time All-Star made history when she registered 20 or more points in a WNBA game for the 20th straight time.
+- **NEW**  [[Global] Ukraine’s sacked defence minister calls for wartime elections](https://www.aljazeera.com/video/newsfeed/2026/8/19/ukraines-sacked-defence-minister-calls-for-wartime-elections?traffic_source=rss) — *2026-08-19*
+  > Ukraine’s sacked defence minister calls for wartime elections
+- **NEW**  [[Global] Breastfeeding in Gaza: Mothers seek help to provide for their babies](https://www.aljazeera.com/features/2026/8/19/breastfeeding-in-gaza-mothers-seek-help-to-provide-for-their-babies?traffic_source=rss) — *2026-08-19*
+  > Breastfeeding mothers in Gaza struggle to feed their babies amid hunger, displacement, stress and living conditions.
+- **NEW**  [[Global] Sabalenka cruises through as Medvedev falls to Nakashima at Cincinnati Open](https://www.aljazeera.com/sports/2026/8/19/no-1-sabalenka-slams-wang-to-advance-at-cincinnati-open-medvedev-nakashima?traffic_source=rss) — *2026-08-19*
+  > Top-ranked Aryna Sabalenka lost just four games to breeze into fourth round while Brandon Nakashima recorded a huge win.
+- **NEW**  [[Global] Musiala collapses for Bayern again as ‘neurological disorder’ diagnosed](https://www.aljazeera.com/sports/2026/8/19/musiala-collapses-for-bayern-again-as-neurological-disorder-diagnosed?traffic_source=rss) — *2026-08-19*
+  > Bayern Munich and Germany&#039;s Jamal Musiala collapses on field for second time but &#039;very optimistic&#039; about condition.
+- **NEW**  [[Global] Aid workers faced record number of attacks in 2025, UN says](https://www.aljazeera.com/news/2026/8/19/aid-workers-faced-record-number-of-attacks-in-2025-un-says?traffic_source=rss) — *2026-08-19*
+  > Gaza remains the deadliest place for humanitarian workers for third consecutive year, with 186 killed in 2025.
+- **NEW**  [[Global] Who won and lost in Florida primaries: Key takeaways](https://www.aljazeera.com/news/2026/8/19/who-won-and-lost-in-florida-primaries-key-takeaways?traffic_source=rss) — *2026-08-19*
+  > Florida primaries reveal political shifts, reshaping key races ahead of crucial US midterm elections in November.
+- **NEW**  [[Global] South Africa to Australia: Why coal profits are surging during Iran war](https://www.aljazeera.com/news/2026/8/19/south-africa-to-australia-why-coal-profits-are-surging-during-iran-war?traffic_source=rss) — *2026-08-19*
+  > Coal companies are reporting a huge rise in profits, but analysts say global clean energy transition is still on track.
+- **NEW**  [[Global] Scaling back US-South Korea drills may fail to woo Kim away from China](https://www.aljazeera.com/video/newsfeed/2026/8/19/scaling-back-us-south-korea-drills-may-fail-to-woo-kim-away-from-china?traffic_source=rss) — *2026-08-19*
+  > Trump is scaling back US-South Korea military exercises as he signals interest in renewed talks with Kim Jong Un.
+- **NEW**  [[Global] Ukraine’s ousted defence minister calls for elections during war](https://www.aljazeera.com/news/2026/8/19/ukraines-ousted-defence-minister-calls-for-elections-during-war?traffic_source=rss) — *2026-08-19*
+  > Mykhailo Fedorov&#039;s call is first such demand by a major Ukrainian political figure since Russia&#039;s full-scale invasion.
+- **NEW**  [[Global] Lebanon no longer a safe haven for former Syrian regime officials](https://www.aljazeera.com/features/2026/8/19/lebanon-no-longer-a-safe-haven-for-former-syrian-regime-officials?traffic_source=rss) — *2026-08-19*
+  > Figures connected to the former Syrian regime are still in Lebanon but risk being returned.
+- **NEW**  [[Global] Former US official calls shift in relations with Syria ‘surreal’](https://www.aljazeera.com/video/newsfeed/2026/8/19/former-us-official-calls-shift-in-relations-with-syria?traffic_source=rss) — *2026-08-19*
+  > A former US State Department advisor on Syria tells Al Jazeera’s ‘This is America’ the improved relationship
+- **NEW**  [[Global] South Korea, US scale back annual military drills after Trump’s order](https://www.aljazeera.com/news/2026/8/19/south-korea-us-scale-back-annual-military-drills-after-trumps-order?traffic_source=rss) — *2026-08-19*
+  > Seoul says the duration of the annual Ulchi Freedom Shield exercise has been reduced from 11 days to five.
+- **NEW**  [[Global] Attackers go ‘house to house’ killing 25 villagers in central Nigeria](https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss) — *2026-08-19*
+  > An attack on a village in Nigeria’s central Plateau state has killed at least 25 people.
+- **NEW**  [[Global] Bali gym owner kicks out three Israeli tourists for links to ‘IDF’](https://www.aljazeera.com/video/newsfeed/2026/8/19/bali-gym-owner-kicks-out-three-israeli-tourists-for-links-to?traffic_source=rss) — *2026-08-19*
+  > A gym owner in Indonesia has posted a video on social media explaining why he refused service to three Israeli tourists.
+- **NEW**  [[Global] US unions sue over new visa rule for foreign students, journalists](https://www.aljazeera.com/news/2026/8/19/us-unions-sue-over-new-visa-rule-for-foreign-students-journalists?traffic_source=rss) — *2026-08-19*
+  > New rule caps student and exchange visas to four years, while most journalist visas will be limited to 240 days.
+- **NEW**  [[Global] UAE imposes indefinite trade embargo on Iran over alleged missile attacks](https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks?traffic_source=rss) — *2026-08-19*
+  > Iran denies launching missiles at the UAE, suggesting the incident was a &#039;false flag operation&#039;.
+- **NEW**  [[Global] US sanctions International Criminal Court’s president and top lawyer](https://www.aljazeera.com/video/newsfeed/2026/8/19/us-sanctions-international-criminal-courts-president-and-top-lawyer?traffic_source=rss) — *2026-08-19*
+  > The US has sanctioned International Criminal Court president Tomoko Akane and trial lawyer Abdoulaye Seye.
+- **NEW**  [[Global] Trial begins that could force Meta to change Facebook and Instagram](https://www.aljazeera.com/video/newsfeed/2026/8/19/trial-begins-that-could-force-meta-to-change-facebook-and-instagram?traffic_source=rss) — *2026-08-19*
+  > A landmark trial has begun in California over allegations Meta deliberately designed its platforms to be addictive.
+- **NEW**  [[Global] Trump pauses 50 percent tariffs on Canada in last-minute deal](https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss) — *2026-08-19*
+  > Washington and Ottawa announce agreement to delay new tariffs on Canadian exports shortly before midnight deadline.
+- **NEW**  [[Global] US refineries taking in half of Venezuela’s oil output, official says](https://www.aljazeera.com/news/2026/8/19/venezuela-oil-exports-surge-with-us-refineries-taking-in-half-of-output?traffic_source=rss) — *2026-08-19*
+  > US official says Venezuela is sending 500,000 of its 1.25 million barrels per day output to Gulf Coast refineries.
 
-_(966 additional items in raw.jsonl)_
+_(953 additional items in raw.jsonl)_
