@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-20
-record_count: 226
-new_today: 197
+record_count: 235
+new_today: 200
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-197 new of 226 total items today.
+200 new of 235 total items today.
 
 - **NEW**  [[St. Louis] Where in the Lou? – 8/20/2026](https://www.stlmag.com/games/where-in-the-lou-082026/) — *2026-08-20*
   > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
@@ -31,18 +31,28 @@ state: fresh
   > <p>The Good Hospitality Group’s busy summer continues with the August 20 opening of Baia (4199 Manchester) in the former Taha’a Twisted Tiki space in The Grove. Executive chef Jon Priestley’s menu centers on seafood and pasta favorites from the Italian Riviera, with thoughtfully 
 - **NEW**  [[St. Louis] St. Louis startups secure millions in latest bioscience funding rounds](https://www.stlmag.com/business/st-louis-startups-bioscience-funding-rounds/) — *2026-08-19*
   > <p>Two St. Louis bioscience startups announced major seed funding rounds in late July, with Aurenar raising $5.7 million and Pairidex securing $4.89 million. Both companies attracted more investor interest than the amount of money they initially sought, a promising sign for busin
-- **NEW**  [[St. Louis] Judge blocks referendum over Missouri congressional redistricting map](https://www.stlpr.org/government-politics-issues/2026-08-19/judge-blocks-referendum-over-missouri-congressional-redistricting-map) — *2026-08-19*
-- **NEW**  [[St. Louis] Judge rejects plan that would make it harder to change initiatives passed by Missouri voters](https://www.stlpr.org/government-politics-issues/2026-08-19/cole-county-judge-rejects-ballot-initiative-reform-november-election) — *2026-08-19*
-- **NEW**  [[St. Louis] Cole County judge to rule quickly on referendum on new congressional map](https://www.stlpr.org/government-politics-issues/2026-08-19/cole-county-judge-to-rule-quickly-on-referendum-on-new-congressional-map) — *2026-08-19*
-- **NEW**  [[St. Louis] How a teacher used Lego to bring the most magical place on Earth to the Metro East](https://www.stlpr.org/culture-history/2026-08-19/illinois-disney-world-lego-kragle-kreations) — *2026-08-19*
-- **NEW**  [[St. Louis] Missouri schools to receive report cards on academic performance following Kehoe’s order](https://www.stlpr.org/education/2026-08-19/missouri-schools-receive-report-cards-on-academic-performance-following-governors-order) — *2026-08-19*
-- **NEW**  [[St. Louis] St. Louis County moves to bar people from asking for money aggressively in public](https://www.stlpr.org/news-briefs/2026-08-19/st-louis-county-moves-to-bar-people-from-asking-for-money-aggressively-in-public) — *2026-08-19*
-- **NEW**  [[St. Louis] More people in St. Louis could qualify for radiation compensation under bipartisan bill](https://www.stlpr.org/government-politics-issues/2026-08-19/st-louis-expand-radiation-compensation-bipartisan-bill) — *2026-08-19*
-- [[St. Louis] New website aims to make theater more accessible for artists and fans in St. Louis](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-19/new-website-aims-make-theatre-accessible-artists-fans-st-louis) — *2026-08-19*
-- [[St. Louis] Court hears arguments that could decide the future of Missouri citizen ballot initiatives](https://www.stlpr.org/government-politics-issues/2026-08-18/court-hears-arguments-that-could-decide-the-future-of-missouri-citizen-ballot-initiatives) — *2026-08-19*
-- [[St. Louis] Page says St. Louis County’s financial woes will soon affect the police department](https://www.stlpr.org/government-politics-issues/2026-08-18/page-says-st-louis-countys-financial-woes-will-soon-affect-the-police-department) — *2026-08-18*
-- **NEW**  [[St. Louis] 1 dead after Pennsylvania State Police helicopter, small plane collide mid-air](https://www.ksdk.com/article/news/nation-world/pennsylvania-state-police-helicopter-crash-collision-cessna-plane/507-e6fed380-b894-46e3-a0fc-ef7f1c83e538) — *2026-08-20*
-  > A Cessna 150 airplane and a Bell 407 helicopter crashed Wednesday evening in Carlisle, Pennsylvania, according to an FAA representative.
+- **NEW**  [[St. Louis] See the Aug. 20, 1926, front page: Silence greets hunt for clue in club shooting](https://www.stltoday.com/news/archives/article_e4a28f38-84fe-4138-be26-ef0e27dbe9da.html) — *2026-08-20*
+  > Headlines from the Aug. 20, 1926, front page include: C and N.W. Line building freight gate to St. Louis
+- **NEW**  [[St. Louis] Bodycam footage shows St. Louis County cop fire into vehicle full of teens](https://www.stltoday.com/news/article_ec0f3e15-fc11-4870-af29-bb62abaae78d.html) — *2026-08-20*
+  > Plus: Judge denies bid to let voters challenge Missouri's new congressional maps
+- **NEW**  [[St. Louis] Baldwin, Michael](https://www.stltoday.com/obituaries/article_01f8b305-7823-52fd-86c0-3f9d26a9536e.html) — *2026-08-20*
+  > Baldwin, Michael Jerome
+- **NEW**  [[St. Louis] Berkowitz, Alan](https://www.stltoday.com/obituaries/article_ceed3c14-5432-550a-8f0b-1de84d85aa77.html) — *2026-08-20*
+  > Berkowitz, Alan Jay
+- **NEW**  [[St. Louis] Dobrich, Jeannie](https://www.stltoday.com/obituaries/article_f7ad739b-65db-5fd3-a84c-d6945392c2fa.html) — *2026-08-20*
+  > Dobrich, Jeannie K.
+- **NEW**  [[St. Louis] Goggin, Mary](https://www.stltoday.com/obituaries/image_d932fc05-e1c4-55ca-b9a4-94b8ac4874ca.html) — *2026-08-20*
+  > Goggin, Mary
+- **NEW**  [[St. Louis] Goggin, Mary](https://www.stltoday.com/obituaries/article_f96ec67c-fa71-58c3-8b20-79c805db81f8.html) — *2026-08-20*
+  > Mary Louise Goggin, born February 21, 1937. A lifelong Catholic and product of the St Louis Catholic education system. Mary Loue worked as a nurse for the St. Louis Meat Packers Union. She married Dr. James Goggin. More information online…
+- **NEW**  [[St. Louis] Homan, Scott](https://www.stltoday.com/obituaries/article_1553987f-70d4-5a10-8fd0-c665ba2897e6.html) — *2026-08-20*
+  > Homan, Scott Thomas
+- **NEW**  [[St. Louis] Vancil, Edward](https://www.stltoday.com/obituaries/article_79a46493-57f0-5008-9bb5-d775a3978342.html) — *2026-08-20*
+  > Vancil, Edward
+- **NEW**  [[St. Louis] New job postings for St. Louis job seekers](https://www.stltoday.com/news/local/collection_08904b3e-f520-56c9-9e60-62f3ace37184.html) — *2026-08-20*
+  > Browse through the latest St. Louis employment postings and find your next career.
+- **NEW**  [[St. Louis] Pilot killed in mid-air collision with Pennsylvania police helicopter](https://www.ksdk.com/article/news/nation-world/pennsylvania-state-police-helicopter-crash-collision-cessna-plane/507-e6fed380-b894-46e3-a0fc-ef7f1c83e538) — *2026-08-20*
+  > Officials say both state troopers aboard the helicopter survived the crash Wednesday.
 - **NEW**  [[St. Louis] St. Louis property owner baffled after crew was set to demolish her tornado-battered home without her permission](https://www.ksdk.com/article/news/local/st-louis-property-owner-crew-was-set-to-demolish-her-tornado-battered-home-wrong-addres/63-9db0840c-757c-4dfa-a293-d183bf9a71ee) — *2026-08-20*
   > "I still can't believe it. What if I had not driven down my street? Would my property had been demolished?" said Terry Owens.
 - **NEW**  [[St. Louis] St. Louis 911 response times scrutinized in new report using data from 2017-2019](https://www.ksdk.com/article/news/local/st-louis-911-response-times-scrutinized-in-new-report-using-data-from-2017-2019/63-8725f72d-efc5-4527-abaa-2f4868893cbd) — *2026-08-20*
@@ -52,4 +62,4 @@ state: fresh
 - **NEW**  [[St. Louis] St. Louis County police chief 'unsure' on officers' reasoning for firing 11 shots into vehicle filled with teens](https://www.ksdk.com/article/news/local/st-louis-police-shoot-at-car-filled-with-teens-fourth-of-july-weekend/63-86d3c0d6-9844-4569-a52c-e3829338abaf) — *2026-08-20*
   > One officer repeatedly told the teens to drive away. Seconds later, another officer approached from the opposite direction, told them to stop and opened fire.
 
-_(201 additional items in raw.jsonl)_
+_(210 additional items in raw.jsonl)_

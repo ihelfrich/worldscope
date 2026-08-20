@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-08-20
-record_count: 615
-new_today: 257
+record_count: 632
+new_today: 281
 state: fresh
 ---
 
 ## State-Level News
 
-257 new of 615 total items today.
+281 new of 632 total items today.
 
 - **NEW**  [[California] Governor Newsom announces appointments 8.19.26](https://www.gov.ca.gov/2026/08/19/governor-newsom-announces-appointments-8-19-26/) — *2026-08-20*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/05/SEO-Thumbnail-Template-2.0-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Blue background with a white circular emblem in the center. The emblem&#039;s outer ring re
@@ -44,23 +44,23 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/032426_Truth-Forum_AH_CM_16.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The aisle of an audience section of a meeting
 - [[California] ¿Votará California por un candidato ‘progresista’ en la contienda por el cargo de comisionado de seguros?](https://calmatters.org/calmatters-en-espanol/2026/08/california-progresista-comisionado-de-seguros/) — *2026-08-18*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/022126-Jane-Kim-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing a bright pink blazer speaks at 
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-20*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Delaware] Democratic attorney general candidates face off at Spotlight Delaware debate](https://spotlightdelaware.org/2026/08/19/democratic-attorney-general-candidates-face-off-at-spotlight-delaware-debate/) — *2026-08-20*
-  > <figure><img width="1024" height="676" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/AG-debate-crop.jpg?fit=1024%2C676&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="htt
-- **NEW**  [[Delaware] Meyer endorsements draw swift Senate criticism; create election deja vu](https://spotlightdelaware.org/2026/08/19/meyer-endorsements-draw-swift-senate-criticism-create-election-deja-vu/) — *2026-08-19*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/IMG_3641-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/spotl
-- **NEW**  [[Delaware] Harrington denies data center proposal despite a $1M offer](https://spotlightdelaware.org/2026/08/19/harrington-denies-data-center-proposal-despite-a-1-million-offer/) — *2026-08-19*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Harrington-data-center-meeting-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="
-- **NEW**  [[Delaware] ‘Replicate it’: Education secretary highlights bright spots amid disappointing test scores](https://spotlightdelaware.org/2026/08/19/replicate-it-education-secretary-highlights-bright-spots-amid-disappointing-test-scores/) — *2026-08-19*
-  > <figure><img width="1004" height="737" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Education-graphic.png?fit=1004%2C737&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https:
-- [[Delaware] Data centers loom over the New Castle County Council primary election campaigns](https://spotlightdelaware.org/2026/08/18/data-centers-loom-over-the-new-castle-county-council-primary-election-campaigns/) — *2026-08-18*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Data-Center-UNSPLACH-Ache.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset
-- [[Delaware] Georgetown Guatemalan community brings a piece of home with them](https://spotlightdelaware.org/2026/08/18/georgetown-guatemalan-community-brings-a-piece-of-home-with-them/) — *2026-08-18*
-  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/fiestaTacana-scaled.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="http
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-20*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - **NEW**  [[Connecticut] The benefits of war?](https://ctmirror.org/2026/08/20/the-benefits-of-war/) — *2026-08-20*
   > <figure><img width="880" height="565" src="https://ctmirror.org/wp-content/uploads/2026/08/Electri-boat-sub-Wisconsin.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uplo
 - **NEW**  [[Connecticut] CT leaders cheer 5 years of LEAP as chronic absenteeism declines](https://ctmirror.org/2026/08/19/ct-leaders-cheer-5-years-of-leap-as-chronic-absenteeism-declines/) — *2026-08-19*
   > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/LEAP-ANNIVERSARY-0819-SG-10-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
+- **NEW**  [[Connecticut] CT health providers work to curb HUSKY losses from ‘Big Beautiful’ bill](https://ctmirror.org/2026/08/19/ct-health-providers-husky-losses-hr1/) — *2026-08-19*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/07/HOSPITAL-AFFORDABILITY-0720-0713-SG-04-Edit-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirro
+- **NEW**  [[Connecticut] Appeals court upholds ban on immigration enforcement at some churches](https://ctmirror.org/2026/08/19/immigration-enforcement-churches-ban/) — *2026-08-19*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/11/AP-ice-arrest.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2025/11/AP-ice
+- [[Connecticut] The science that protects our children doesn’t take a summer vacation](https://ctmirror.org/2026/08/19/the-science-that-protects-our-children-doesnt-take-a-summer-vacation/) — *2026-08-19*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/pfizer-campus-sign-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/
+- **NEW**  [[Connecticut] CT officials fear Dominion-NextEra merger could raise electric costs](https://ctmirror.org/2026/08/18/nextera-dominion-merger-electricity-costs/) — *2026-08-18*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/10/2025_1002_SR_MillstoneTour_237-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-cont
+- [[Connecticut] CT winter heating benefits tick up but still lag pre-pandemic levels](https://ctmirror.org/2026/08/18/ct-winter-heating-benefits-liheap/) — *2026-08-18*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2024/09/2024_0916_SR_HeatingAssistance_092-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
+- [[Connecticut] Bridgeport exhibit shows Greene Homes through residents’ eyes: ‘It’s our story to tell’](https://ctmirror.org/2026/08/18/bridgeport-greene-homes-public-housing-exhibit-photos-voices/) — *2026-08-18*
+  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/GH-Photovoice-9-1024x683.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/20
 
-_(590 additional items in raw.jsonl)_
+_(607 additional items in raw.jsonl)_

@@ -21,12 +21,12 @@ date: 2026-08-20
 
 ### Forecast skill
 - Bet edge: insufficient resolved data
-- Predictions resolved: **359** · Brier **0.070** · skill vs climatology **-1.16**
-- Calibration error (ECE): **0.195** · overconfidence **-0.195**
+- Predictions resolved: **372** · Brier **0.069** · skill vs climatology **-1.21**
+- Calibration error (ECE): **0.196** · overconfidence **-0.196**
 
 ### Today's market state
-- Active markets indexed: **139**
+- Active markets indexed: **140**
   - polymarket: 10
   - kalshi: 50
-  - manifold: 29
+  - manifold: 30
   - predictit: 50

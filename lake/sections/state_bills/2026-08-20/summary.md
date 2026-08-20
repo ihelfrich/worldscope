@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-20
-record_count: 251
-new_today: 225
+record_count: 139
+new_today: 127
 state: fresh
 ---
 
 ## State Legislative Action
 
-225 new of 251 total items today.
+127 new of 139 total items today.
 
 - **NEW**  [[Alaska SB 226] An Act relating to the sale of homemade food.]() — *2026-08-19*
   > An Act relating to the sale of homemade food.
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[California AB 1647] Juveniles: transfer to criminal court: criminal procedure.]() — *2026-08-19*
   > Existing law, as amended by the Public Safety and Rehabilitation Act of 2016, enacted by Proposition 57 at the November 8, 2016, statewide general election, authorizes the district attorney to make a motion to transfer a minor from juvenile court to a court of criminal jurisdicti
 
-_(226 additional items in raw.jsonl)_
+_(114 additional items in raw.jsonl)_

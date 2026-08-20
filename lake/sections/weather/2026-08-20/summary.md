@@ -2,237 +2,73 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-20
-record_count: 173
-new_today: 170
+record_count: 177
+new_today: 174
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-170 new of 173 total items today.
+174 new of 177 total items today.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:34AM CDT until August 20 at 3:15AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3679bfdd6ad9bfadb6029eafd01f2107429724f6.001.1) — *2026-08-20*
-  > SVRMEG
-
-The National Weather Service in Memphis has issued a
-
-* Severe Thunderstorm Warning for...
-Northeastern Mississippi County in eastern Arkansas...
-Southeastern Pemiscot County in southeastern Missouri...
-Crockett County in west Tennessee...
-Southwestern Weakley County in w
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:34AM CDT until August 20 at 2:45AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd546af18fe28c70d790b8e5317c76f3648bbffc.002.1) — *2026-08-20*
-  > At 234 AM CDT, a severe thunderstorm was located near Bradleytown, or
-7 miles west of Dyersburg, moving east at 40 mph.
-
-HAZARD...60 mph wind gusts and quarter size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Hail damage to vehicles is expected. Expect wind damage to
-roofs, siding
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 3:32AM EDT until August 20 at 4:00AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.117781455965d26310192de070d39a1f21234a55.001.1) — *2026-08-20*
-  > SVRIND
-
-The National Weather Service in Indianapolis has issued a
-
-* Severe Thunderstorm Warning for...
-Southeastern Shelby County in central Indiana...
-Southeastern Rush County in central Indiana...
-Decatur County in central Indiana...
-Jennings County in southeastern Indiana...
-
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:32AM CDT until August 20 at 3:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1f1b18cb4c3d894728288632e7734521fc32846.001.1) — *2026-08-20*
-  > At 232 AM CDT, severe thunderstorms were located along a line from
-near Lovelaceville to near Olive Branch, or along a line from 8 miles
-northeast of Bardwell to 9 miles southeast of Scott City, moving
-southeast at 40 mph.
-
-HAZARD...60 mph wind gusts.
-
-SOURCE...Radar indicated.
-
-
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 2:29AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.254b3337029c5ad84c7acde80f908f1baaa6bef2.001.1) — *2026-08-20*
-  > At 228 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Waverly to near Huntingdon to near
-Bradford. Movement was east at 20 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree l
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 20 at 3:28AM EDT until August 21 at 2:00AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.43730da542cd8847e7a70ec4400a3caed428c4fb.001.1) — *2026-08-20*
-  > * WHAT...Dangerous rip currents expected.
-
-* WHERE...Gulf County Beaches.
-
-* WHEN...From noon EDT /11 AM CDT/ today through late tonight.
-
-* IMPACTS...Rip currents can sweep even the best swimmers away
-from shore into deeper water.
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-890) — *2026-08-20*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52559) — *2026-08-20*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 12:27AM PDT until August 20 at 9:00PM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8bfc8d49ce2520d9b68cc7fff851b02e69529b06.001.1) — *2026-08-20*
-  > * WHAT...Max temperatures ranging from 98 to 103.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 5:27AM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.988871031bc657e6b5e376e629a9c69df199dedc.001.1) — *2026-08-20*
+  > At 526 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 9 miles southeast of Columbia to 6 miles west
+of Cabell to near Albany. Movement was east at 40 mph.
 
-* WHERE...Southeastern Elko County.
+HAZARD...Wind gusts up to 50 mph and half inch hail.
 
-* WHEN...From 11 AM this morning to 9 PM PDT this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...Hot temperatures may cause heat illnesses, especially for
-individual working outdoors, the elderly, young children, and 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 20 at 12:27AM MST until August 21 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.605cb2e506d6d83872482e06c28c65ba96358289.001.1) — *2026-08-20*
-  > * WHAT...Dangerously hot conditions with high temperatures ranging
-between 103 to 110 degrees and low temperatures 79 to 85 degrees.
-Major HeatRisk is expected.
+IMPACT
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 2:26AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ead8daddb3a173a0582041e1e4d57d771872394.001.1) — *2026-08-20*
+  > At 226 AM MST, Doppler radar was tracking a strong thunderstorm over
+Camp Creek, or 17 miles north of Scottsdale, moving west at 10 mph.
 
+HAZARD...Wind gusts up to 50 mph and half inch hail.
 
-* WHERE...South Central Pinal County, Southeast Pinal County, Tohono
-O'odham Nation, Tucson Metro Area, Upper Gila Ri
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 20 at 3:27AM EDT until August 20 at 2:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a9cf32b89d85e195357600e39227544f6386994.001.1) — *2026-08-20*
-  > * WHAT...Flash flooding caused by excessive rainfall continues to be
-possible.
+SOURCE...Radar indicated.
 
-* WHERE...Portions of southeast Ohio, including the following
-counties, Athens, Meigs, Morgan, Perry, Vinton and Washington and
-West Virginia, including the following counties, Doddridge,
-Harrison, Pl
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 2:26AM CDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42c719f6f3609334ac63cd3d3ee431cdafb21b73.001.1) — *2026-08-20*
-  > At 226 AM CDT, Doppler radar was tracking a strong thunderstorm 7
-miles east of Morgantown, moving northeast at 30 mph.
+IMPACT...Gusty winds could knock down tree limbs and blow aro
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 4:26AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32baa578c54995690279f7c1566e09d40a028b5c.001.1) — *2026-08-20*
+  > At 425 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 13 miles south of Hurricane Mills to 7 miles
+northwest of Linden to near Darden. Movement was southeast at 40 mph.
 
 HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
+IMPACT...Gu
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 2:20AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0a529e26d7316e6bf0114d6dbcc6c0e15c7d7b0.001.1) — *2026-08-20*
+  > At 220 AM MST, Doppler radar was tracking a strong thunderstorm over
+Cotton Center, or 11 miles northeast of Gila Bend, moving southwest
+at 15 mph.
 
-Locations im
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 3:26AM EDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2ee82eb59a367fe4567a786331bdd1be1be9ae0.001.1) — *2026-08-20*
-  > At 326 AM EDT/226 AM CDT/, Doppler radar was tracking a strong
-thunderstorm 10 miles north of Leitchfield, moving east at 45 mph.
-
-HAZARD...Wind gusts up to 40 mph.
+HAZARD...Wind gusts of 50 to 55 mph and half inch hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
+IMPACT...Gusty winds could knock down tree limb
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 20 at 4:17AM CDT until August 20 at 8:15AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44d35671e94648dc8a083a334eb7f6a50cbfd9cb.001.1) — *2026-08-20*
+  > FFWPAH
 
-Lo
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 20 at 2:23AM CDT until August 20 at 10:00AM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1a0e58727319f226f1f982ff08402855200b3d2.001.1) — *2026-08-20*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Merrick, Nance, Polk, York, Clay, Fillmore, Hamilton,
-Nuckolls, and Thayer Counties.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 2:21AM CDT until August 20 at 7:00PM CDT by NWS Corpus Christi TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d4bb574b809927141ee8b47c1e85b852a67633f.001.1) — *2026-08-20*
-  > * WHAT...Heat index values up to 112 expected.
-
-* WHERE...Bee, Coastal Aransas, Coastal Calhoun, Coastal Kleberg,
-Coastal Nueces, Coastal Refugio, Coastal San Patricio, Goliad,
-Inland Calhoun, Inland Kleberg, Inland Nueces, Inland Refugio,
-Inland San Patricio, Jim Wells, Live Oak
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 20 at 2:21AM CDT until August 20 at 9:00AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90bdc0ed891c5450e4a3eb83820a6276469b0094.001.1) — *2026-08-20*
-  > * WHAT...Visibility below one half a mile in dense fog.
-
-* WHERE...Portions of northwest and west central Iowa, northeast
-Nebraska, and southeast South Dakota.
-
-* WHEN...Until 9 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 20 at 2:18AM CDT until August 20 at 10:00AM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ef5be3f860940251f1a223b1425448a77bd4be5.001.1) — *2026-08-20*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Portions of northeast Kansas and north central and
-northwest Missouri.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 20 at 2:17AM CDT until August 20 at 10:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.665e5a736a833b47fbdc7b2be680944de6b8fecc.001.1) — *2026-08-20*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Portions of southwest and west central Iowa and east
-central, northeast, and southeast Nebraska.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:11AM CDT until August 20 at 2:45AM CDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8ac1b95070c1b4a7fdb0d0d7b1d5b7b1aed82a0.001.1) — *2026-08-20*
-  > SVRLMK
-
-The National Weather Service in Louisville has issued a
-
-* Severe Thunderstorm Warning for...
-Southwestern Logan County in south central Kentucky...
-
-* Until 245 AM CDT.
-
-* At 211 AM CDT, a severe thunderstorm was located near Guthrie,
-moving east at 35 mph.
-
-HAZARD...60 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 2:09AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64e4677a0322365286fbebed72ced24248033bc9.001.1) — *2026-08-20*
-  > At 209 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Horseshoe Lake Conservation Area, or 9 miles northwest of Cairo,
-moving southeast at 50 mph.
-
-HAZARD...Wind gusts up to 50 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and bl
-- **NEW**  [[Moderate] Dust Advisory: Dust Advisory issued August 20 at 12:02AM MST until August 20 at 1:00AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b3542cfb7be46bdb4c51dd45ee365101bcfd105.001.1) — *2026-08-20*
-  > The National Weather Service in Phoenix has issued a
-
-* Dust Advisory for...
-East central La Paz County in west central Arizona...
-Northeastern Yuma County in southwestern Arizona...
-Maricopa County in south central Arizona...
-
-* Until 100 AM MST.
-
-* At 1201 AM MST, a dust channe
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 5:01PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33978193160d7e8b2a25b25539a70aa3febf31f8.001.1) — *2026-08-20*
-  > An intensifying monsoon surge along the southern peripheries of a
-developing trough axis stretching from TS Saudel westward, is
-expected to enhance a secondary embedded monsoon disturbance that
-will bring intensely heavy showers and persistently fresh to strong
-westerlies to much
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:00AM CDT until August 20 at 3:00AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.96c399bcef5e8eaae32ce51a46cb5093fa211633.001.1) — *2026-08-20*
-  > SVROHX
-
-The National Weather Service in Nashville has issued a
-
-* Severe Thunderstorm Warning for...
-Northern Dickson County in Middle Tennessee...
-Eastern Montgomery County in Middle Tennessee...
-Cheatham County in Middle Tennessee...
-Southeastern Houston County in Middle Tennes
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 20 at 2:55AM EDT until August 20 at 9:00AM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1682d88a818a4a986d6ebcf5d2553bc50eee9fe5.001.1) — *2026-08-20*
-  > FFWIND
-
-The National Weather Service in Indianapolis has issued a
+The National Weather Service in Paducah has issued a
 
 * Flash Flood Warning for...
-Southwestern Hendricks County in central Indiana...
-Northwestern Morgan County in central Indiana...
-Southeastern Putnam County in west central Indiana...
+Marshall County in western Kentucky...
 
-* Until 900 AM EDT Thursday.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 1:54AM CDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a870f6ae65e2551bbbd5e1455dd3f7d18af533d.001.1) — *2026-08-20*
-  > At 154 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Whitesville, moving east at 35 mph.
+* Until 815 AM CDT.
 
-HAZARD...Wind gusts up to 40 mph.
+* At 417 AM CDT, Doppler radar indicated thunderstorms producing
+heavy rain across the warned area. Between 2 and 3 inches of ra
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 4:15AM CDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0315bd7abcf55d52ed46f362d38c21a59db51e6.001.1) — *2026-08-20*
+  > At 414 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Burkesville, moving east at 45 mph.
+
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
@@ -240,14 +76,188 @@ IMPACT...Gusty winds could knock down tree limbs and blow around
 unsecured objects.
 
 Locations impacted include.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 2:50AM EDT until August 20 at 8:00PM EDT by NWS Charleston SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.291d9dd0e056953f68eea9bd943237ffbc626e75.001.1) — *2026-08-20*
-  > * WHAT...Heat index values up to 110 expected.
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 20 at 4:15AM CDT until August 20 at 7:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82e33ce7ea2010a70c2eeb1d209383b294ef680d.002.1) — *2026-08-20*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
 
-* WHERE...Portions of southeast Georgia and southeast South Carolina.
+* WHERE...Parts of far southeast Missouri, far southern Illinois, and
+most of western Kentucky.
 
-* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+* WHEN...Until 7 AM CDT this morning.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+c
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 20 at 4:15AM CDT until August 20 at 7:15AM CDT by NWS Nashville TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e10dd03771867dc8ea8ee17ea12f09e1db1db0e4.001.1) — *2026-08-20*
+  > FFWOHX
 
-_(148 additional items in raw.jsonl)_
+The National Weather Service in Nashville has issued a
+
+* Flash Flood Warning for...
+Hickman County in Middle Tennessee...
+Southern Humphreys County in Middle Tennessee...
+Lewis County in Middle Tennessee...
+Western Maury County in Middle Tennessee...
+Perry County in Midd
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 20 at 2:08AM MST until August 20 at 2:45AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5ba10eca70e93e1706f497fdd9028e1843d0574b.001.1) — *2026-08-20*
+  > SVRPSR
+
+The National Weather Service in Phoenix has issued a
+
+* Severe Thunderstorm Warning for...
+East central La Paz County in west central Arizona...
+
+* Until 245 AM MST.
+
+* At 208 AM MST, a severe thunderstorm was located 14 miles south of
+Vicksburg Junction, or 41 miles west
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 4:02AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07381e0bd231aa86e81963b553a6126057262c4f.001.1) — *2026-08-20*
+  > At 402 AM CDT, Doppler radar was tracking a line of strong
+thunderstorms extending from 6 miles south of Dongola to 5 miles east
+of Benton, or extending from 14 miles southeast of Anna to 5 miles
+east of Benton, moving east at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 1:56AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1adbb16329552745a4ec3a80cb724dd0d9132f52.001.1) — *2026-08-20*
+  > At 156 AM MST, Doppler radar was tracking a strong thunderstorm 15
+miles south of Vicksburg Junction, or 40 miles west of Tonopah,
+moving west at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree l
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 4:52AM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.928d88ed7a93c5eceb75fec94d4f730fe75ffbcc.001.1) — *2026-08-20*
+  > Areas of fog expected across parts of northeast South Carolina and
+southeast North Carolina. The fog may become locally dense,
+reducing visibilities on area roadways.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 3:49AM CDT until August 20 at 8:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9da77f629bfdee518e4728f2788ca1048ea7f44a.001.1) — *2026-08-20*
+  > * WHAT...Heat index values up to 110 degrees expected.
+
+* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
+much of eastern Mississippi.
+
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat relat
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 20 at 3:49AM CDT until August 20 at 5:00AM CDT by NWS Paducah KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f40254effa443875566103285d1315b49bb6b1a.002.1) — *2026-08-20*
+  > SEVERE THUNDERSTORM WATCH 602 REMAINS VALID UNTIL 5 AM CDT EARLY
+THIS MORNING FOR THE FOLLOWING AREAS
+
+IN ILLINOIS THIS WATCH INCLUDES 7 COUNTIES
+
+IN SOUTHERN ILLINOIS
+
+ALEXANDER             HARDIN                JOHNSON
+MASSAC                POPE                  PULASKI
+UNION
+
+
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 20 at 3:48AM CDT until August 20 at 10:00AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf4ad663ad6d6002cda08e80692a37f606ecf076.001.1) — *2026-08-20*
+  > * WHAT...Visibility one quarter to one half mile in dense fog.
+
+* WHERE...Republic, Washington, Brown, Marshall, and Nemaha Counties.
+
+* WHEN...Until 10 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 20 at 4:45AM EDT until August 20 at 6:07PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5088aae5751d0b34d973d94bfc166789caa3a41.001.1) — *2026-08-20*
+  > ...The Flood Warning is extended for the following rivers...
+
+Great Miami River at Sidney.
+
+* WHAT...Minor flooding is occurring and minor flooding is forecast.
+
+* WHERE...Great Miami River at Sidney.
+
+* WHEN...Until this evening.
+
+* IMPACTS...At 11.0 feet, Custenborder Field has
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 20 at 4:43AM EDT until August 20 at 7:45AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6fb9928ccf13a2b74ea3861f33a44c7395006e71.001.1) — *2026-08-20*
+  > FFWILN
+
+The National Weather Service in Wilmington has extended the
+
+* Flash Flood Warning for...
+Northwestern Fairfield County in central Ohio...
+Eastern Franklin County in central Ohio...
+Southwestern Licking County in central Ohio...
+
+* Until 745 AM EDT.
+
+* At 443 AM EDT, Broa
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 20 at 3:40AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4df63dde664f1b53535c301b2a07c5c9aaa77c67.001.1) — *2026-08-20*
+  > At 340 AM CDT, Doppler radar was tracking a strong thunderstorm 8
+miles southeast of Atwood, or 8 miles southwest of Huntingdon, moving
+east at 40 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limb
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued August 20 at 1:40AM PDT until August 21 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c16745cbdd73d7ed06ce26ea44840e56578f1ae.001.1) — *2026-08-20*
+  > * IMPACTS...Gusty winds combined with low RH could lead to the
+rapid spread of any new or existing fires.
+
+* AFFECTED AREA...In ORZ624...Fire weather zone 624, including
+the Wrights Spring Fire.
+
+* WIND...Southwest 10-15 mph with gusts to 25-30 mph possible.
+
+* HUMIDITY...Minimum
+- **NEW**  [[Severe] Fire Weather Watch: Fire Weather Watch issued August 20 at 1:40AM PDT until August 21 at 9:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c16745cbdd73d7ed06ce26ea44840e56578f1ae.002.1) — *2026-08-20*
+  > * IMPACTS...Gusty winds combined with low RH could lead to the
+rapid spread of any new or existing fires.
+
+* AFFECTED AREA...In California...Fire weather zones 281, 284
+and285.
+
+* WIND...South to southwest 10 to 20 mph with gusts 25 to 30
+mph possible.
+
+* HUMIDITY...Minimum humid
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 20 at 4:37AM EDT until August 21 at 8:00AM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4c99e938274e00d953f14e0bf693e7df4571e5f.001.1) — *2026-08-20*
+  > ...The National Weather Service in Wilmington has issued a Flood
+Warning for the following rivers...
+
+Little Miami River at Spring Valley.
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Little Miami River at Spring Valley.
+
+* WHEN...From early this morning to Friday morning.
+
+*
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 1:31AM PDT until August 20 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3095a6a2484d1248e8aebbee65f428d69778411.001.1) — *2026-08-20*
+  > * WHAT...High temperatures of 92 to 105 expected, with most areas
+seeing peak heat on Wednesday and Thursday. Low temperatures are
+expected to range from the upper 60s to lower 70s at lower
+elevations to the mid 70s to lower 80s in the foothills and
+mountains.
+
+* WHERE...A portio
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 20 at 1:31AM PDT until August 20 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0a3474f41bfb13ca10e29ef735906f3a773e3b3.002.1) — *2026-08-20*
+  > * WHAT...Temperatures up to 105.
+
+* WHERE...San Bernardino and Riverside County Valleys-The Inland
+Empire.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 20 at 1:31AM PDT until August 23 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0a3474f41bfb13ca10e29ef735906f3a773e3b3.001.1) — *2026-08-20*
+  > * WHAT...Dangerously hot conditions with temperatures up to 112.
+
+* WHERE...Coachella Valley, San Diego County Deserts, and San
+Gorgonio Pass near Banning.
+
+* WHEN...Until 8 PM PDT Sunday.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+
+_(152 additional items in raw.jsonl)_
