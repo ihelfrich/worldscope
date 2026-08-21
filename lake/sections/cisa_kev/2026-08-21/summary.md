@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-08-21
-record_count: 12
-new_today: 2
+record_count: 13
+new_today: 3
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-2 new of 12 total items today.
+3 new of 13 total items today.
 
+- **NEW**  [CVE-2026-73570 · Synacor Zimbra Collaboration Suite (ZCS): Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-73570) — *2026-08-21*
+  > vendor: Synacor · product: Zimbra Collaboration Suite (ZCS) · CISA remediation by 2026-08-24
 - **NEW**  [CVE-2026-72530 · TrueConf Server: TrueConf Server Code Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-72530) — *2026-08-20*
   > vendor: TrueConf · product: Server · CISA remediation by 2026-09-03
 - **NEW**  [CVE-2026-72529 · TrueConf Server: TrueConf Server Missing Authentication for Critical Function Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-72529) — *2026-08-20*

@@ -19,8 +19,8 @@ state: fresh
   > latest: 4.6500000000 as of 2026-08-19
 - [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-19*
   > latest: 5.1900000000 as of 2026-08-19
-- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-19*
-  > latest: 3.62 as of 2026-08-19
+- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-20*
+  > latest: 3.63 as of 2026-08-20
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-08-20*
   > latest: 0.5 as of 2026-08-20
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-07-01*
@@ -51,5 +51,5 @@ state: fresh
   > latest: 6.7412000000 as of 2026-08-14
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-08-18*
   > latest: 86.48 as of 2026-08-18
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-19*
-  > latest: 14.89 as of 2026-08-19
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-08-20*
+  > latest: 16.01 as of 2026-08-20

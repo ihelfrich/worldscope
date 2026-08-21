@@ -3,38 +3,38 @@ section: courtlistener
 title: Court opinions of consequence (federal & state)
 date: 2026-08-21
 record_count: 60
-new_today: 31
+new_today: 60
 state: fresh
 ---
 
 ## Court opinions of consequence (federal & state)
 
-31 new of 60 total items today.
+60 new of 60 total items today.
 
-- **NEW**  [Connecticut Supreme Court: Lasa Extract, LLC v. Zoning Board of Appeals](https://www.courtlistener.com/opinion/10953945/lasa-extract-llc-v-zoning-board-of-appeals/) — *2026-08-25*
-- **NEW**  [D.C. Court of Appeals: Burton as Trustee of the EB Trust v. Chase Point Unit Owners Ass'n](https://www.courtlistener.com/opinion/10953958/burton-as-trustee-of-the-eb-trust-v-chase-point-unit-owners-assn/) — *2026-08-20*
-- **NEW**  [D.C. Court of Appeals: Edwards & Jones v. Wilmington Savings Fund Society, FSB](https://www.courtlistener.com/opinion/10953957/edwards-jones-v-wilmington-savings-fund-society-fsb/) — *2026-08-20*
-- **NEW**  [D.C. Court of Appeals: In re Turkel](https://www.courtlistener.com/opinion/10953956/in-re-turkel/) — *2026-08-20*
-- **NEW**  [D.C. Court of Appeals: Peoples v. CIH Properties](https://www.courtlistener.com/opinion/10953955/peoples-v-cih-properties/) — *2026-08-20*
-- **NEW**  [U.S. Court of International Trade: Inspired Ventures, LLC v. United States](https://www.courtlistener.com/opinion/10954031/inspired-ventures-llc-v-united-states/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 5th Cir.: Hughey v. Tippah County](https://www.courtlistener.com/opinion/10954267/hughey-v-tippah-county/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, Federal Cir.: Gordon v. Collins](https://www.courtlistener.com/opinion/10954029/gordon-v-collins/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, Federal Cir.: Harris-Campbell v. Treasury](https://www.courtlistener.com/opinion/10954028/harris-campbell-v-treasury/) — *2026-08-20*
-- **NEW**  [Hawaii Supreme Court: In re: Ludwig](https://www.courtlistener.com/opinion/10954246/in-re-ludwig/) — *2026-08-20*
-- **NEW**  [Hawaii Supreme Court: In re: Ludwig](https://www.courtlistener.com/opinion/10954245/in-re-ludwig/) — *2026-08-20*
-- **NEW**  [Delaware Supreme Court: Project Labrador Holdco, LLC v. Bakkt Opco Holdings, LLC](https://www.courtlistener.com/opinion/10953959/project-labrador-holdco-llc-v-bakkt-opco-holdings-llc/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, D.C. Cir.: Adsync Technologies, Inc. v. FAA (PUBLIC REISSUED)](https://www.courtlistener.com/opinion/10954198/adsync-technologies-inc-v-faa-public-reissued/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 10th Cir.: United States v. Kahn](https://www.courtlistener.com/opinion/10954139/united-states-v-kahn/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Peter J. Braun](https://www.courtlistener.com/opinion/10954197/united-states-v-peter-j-braun/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 7th Cir.: United States v. Peter J. Braun](https://www.courtlistener.com/opinion/10954196/united-states-v-peter-j-braun/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 2nd Cir.: Juca v. Banks](https://www.courtlistener.com/opinion/10954020/juca-v-banks/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: Asli Jama v. Berkshire Hathaway Homestate Ins. Co.](https://www.courtlistener.com/opinion/10954101/asli-jama-v-berkshire-hathaway-homestate-ins-co/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: Minnesota Voters Alliance v. Keith Ellison](https://www.courtlistener.com/opinion/10954100/minnesota-voters-alliance-v-keith-ellison/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Holsey Ellingburg, Jr.](https://www.courtlistener.com/opinion/10954097/united-states-v-holsey-ellingburg-jr/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Joshua Nesbitt](https://www.courtlistener.com/opinion/10954096/united-states-v-joshua-nesbitt/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Kentrell Powell](https://www.courtlistener.com/opinion/10954095/united-states-v-kentrell-powell/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Todd Boyd](https://www.courtlistener.com/opinion/10954094/united-states-v-todd-boyd/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 8th Cir.: Wendy Guida v. Cass County, Nebraska](https://www.courtlistener.com/opinion/10954093/wendy-guida-v-cass-county-nebraska/) — *2026-08-20*
-- **NEW**  [U.S. Court of Appeals, 11th Cir.: Annette Kingsolver v. U.S. Attorney General](https://www.courtlistener.com/opinion/10954215/annette-kingsolver-v-us-attorney-general/) — *2026-08-20*
+- **NEW**  [Connecticut Supreme Court: Lasa Extract, LLC v. Zoning Board of Appeals](https://www.courtlistener.com/opinion/10954386/lasa-extract-llc-v-zoning-board-of-appeals/) — *2026-08-25*
+- **NEW**  [Connecticut Supreme Court: State v. Toste](https://www.courtlistener.com/opinion/10954385/state-v-toste/) — *2026-08-25*
+- **NEW**  [Supreme Court of Alabama: Dalton D. Banks v. Darla Lashay Persall; Dean Smith; Fuller, Willingham & Carter, LLC; Melvin Hasting; and Thomas Drake II](https://www.courtlistener.com/opinion/10954438/dalton-d-banks-v-darla-lashay-persall-dean-smith-fuller-willingham/) — *2026-08-21*
+- **NEW**  [Supreme Court of Alabama: I. Ripon Britton, Jr., and Gregory H. Hawley v. Yashiba Glenn Blanchard, in her official capacity as Jefferson County Judge of Probate](https://www.courtlistener.com/opinion/10954437/i-ripon-britton-jr-and-gregory-h-hawley-v-yashiba-glenn-blanchard-in/) — *2026-08-21*
+- **NEW**  [Supreme Court of Alabama: In re: Grady L. Floyd, Jr., Gabrielle Floyd, and Charlie Floyd, Jr. v. Escambia County Community Hospital, Inc.](https://www.courtlistener.com/opinion/10954436/in-re-grady-l-floyd-jr-gabrielle-floyd-and-charlie-floyd-jr-v/) — *2026-08-21*
+- **NEW**  [Supreme Court of Alabama: Ivy Fund Manager, LLC, d/b/a OC Ventures; Ivy Midtown GP, LLC; and NDG Student Living, LLC, d/b/a Varsity Campus v. CDH Real Estate Investment Management Company, Ltd.; Cook Summit Holding, LLC; and Cook Summit Investor, LLC](https://www.courtlistener.com/opinion/10954435/ivy-fund-manager-llc-dba-oc-ventures-ivy-midtown-gp-llc-and-ndg/) — *2026-08-21*
+- **NEW**  [Arizona Supreme Court: AROJOJOYE v. ALLEN](https://www.courtlistener.com/opinion/10954614/arojojoye-v-allen/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 10th Cir.: Fuston v. Quick](https://www.courtlistener.com/opinion/10954531/fuston-v-quick/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 3rd Cir.: United States v. Christopher Birry](https://www.courtlistener.com/opinion/10954569/united-states-v-christopher-birry/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 3rd Cir.: United States v. Philip Epps](https://www.courtlistener.com/opinion/10954568/united-states-v-philip-epps/) — *2026-08-21*
+- **NEW**  [Delaware Supreme Court: Young Min Ban v. Joseph P. Manheim](https://www.courtlistener.com/opinion/10954648/young-min-ban-v-joseph-p-manheim/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, Federal Cir.: Miller v. Collins](https://www.courtlistener.com/opinion/10954432/miller-v-collins/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, Federal Cir.: US Inventor, Inc. v. Squires](https://www.courtlistener.com/opinion/10954431/us-inventor-inc-v-squires/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 8th Cir.: United States v. Nicole Roy](https://www.courtlistener.com/opinion/10954525/united-states-v-nicole-roy/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: United States v. Cisneros](https://www.courtlistener.com/opinion/10954636/united-states-v-cisneros/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: Cherry v. Washington Department of Fish and Wildlife](https://www.courtlistener.com/opinion/10954528/cherry-v-washington-department-of-fish-and-wildlife/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 9th Cir.: State of California v. United States Bureau of Alcohol Tobacco Firearms and Explosives, Et A](https://www.courtlistener.com/opinion/10954527/state-of-california-v-united-states-bureau-of-alcohol-tobacco-firearms-and/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Latoreya Till v. Kenneth King](https://www.courtlistener.com/opinion/10954744/latoreya-till-v-kenneth-king/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: OPERS v. FHLMC](https://www.courtlistener.com/opinion/10954743/opers-v-fhlmc/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 6th Cir.: Russ Gordon v. City of Hamtramck, Mich.](https://www.courtlistener.com/opinion/10954742/russ-gordon-v-city-of-hamtramck-mich/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 5th Cir.: Kipp Flores v. AMH Creekside](https://www.courtlistener.com/opinion/10954634/kipp-flores-v-amh-creekside/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 2nd Cir.: In Re Grand Jury Subpoenas to the Office of the New York State Attorney General](https://www.courtlistener.com/opinion/10954424/in-re-grand-jury-subpoenas-to-the-office-of-the-new-york-state-attorney/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 2nd Cir.: United States v. Martin](https://www.courtlistener.com/opinion/10954423/united-states-v-martin/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: Rishi Ramdial v. U.S. Attorney General](https://www.courtlistener.com/opinion/10954676/rishi-ramdial-v-us-attorney-general/) — *2026-08-21*
+- **NEW**  [U.S. Court of Appeals, 11th Cir.: John Wilson, Jr. v. Secretary, Florida Department of Corrections](https://www.courtlistener.com/opinion/10954468/john-wilson-jr-v-secretary-florida-department-of-corrections/) — *2026-08-21*
 
 _(35 additional items in raw.jsonl)_
