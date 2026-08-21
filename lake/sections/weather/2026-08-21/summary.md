@@ -2,246 +2,245 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-21
-record_count: 185
+record_count: 182
 new_today: 180
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-180 new of 185 total items today.
+180 new of 182 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-48260) — *2026-08-21*
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:22AM PDT until August 21 at 10:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d616c60b5eecac9f314935bc002c7c53fb3b800c.001.1) — *2026-08-21*
+  > * WHAT...High temperatures ranging from the mid 90s to just over 100
+degrees resulting in Major HeatRisk.
+
+* WHERE...Much of the Inland Northwest.
+
+* WHEN...From 11 AM this morning to 10 PM PDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+
+* ADDITIONAL DE
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:21AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5faa9c70fede164cd590266e99f24697a25209f.001.1) — *2026-08-21*
+  > At 421 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Tamola, or 12 miles northwest of York, moving southeast at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured object
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 5:18AM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa2129b0c6598d2fc19821aee22bd3d4dbcbd0e6.001.1) — *2026-08-21*
+  > At 518 AM EDT, Doppler radar was tracking a strong thunderstorm over
+Morristown, moving northeast at 30 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted incl
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 5:18AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2fafb53f9eed8e52cf970ca58b6872fd486d46d3.001.1) — *2026-08-21*
+  > At 518 AM EDT, Doppler radar was tracking a strong thunderstorm 8
+miles west of Pickens, or near Keowee Toxaway State Park, moving
+northeast at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree lim
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-48559) — *2026-08-21*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 2:33AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a142747757359c9148f678a66ce12743d5c0fd0.001.1) — *2026-08-21*
-  > At 232 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Stacyville, or 15 miles north of Osage, moving east at 35 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:15AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6b906c9866c2041407fb4bc3156b96cf25c2783.001.1) — *2026-08-21*
+  > At 415 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Pell City, moving east at 25 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:15AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7eaeb6ab08d85ff11ad53fef13f38948da723aa.001.1) — *2026-08-21*
+  > At 415 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 9 miles north of Thedford to near Purdum to
+near Dunning. Movement was east at 15 mph.
+
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty win
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 5:11AM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8cd7fce8782130e48172273a0103d5cface4eb53.001.1) — *2026-08-21*
+  > At 511 AM EDT, Doppler radar was tracking a strong thunderstorm 7
+miles northwest of Rutledge, moving northeast at 25 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:08AM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b0a2b1742534d91e3ead118d3543234256f3800.001.1) — *2026-08-21*
+  > At 407 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Waverly, or near Columbus, moving southeast at 30 mph.
 
 HAZARD...Wind gusts up to 50 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-un
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 21 at 3:31AM EDT until August 21 at 10:00PM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9280d26c96e0903351ae71a5125937915185d35.001.1) — *2026-08-21*
-  > * WHAT...Dangerous swimming conditions are due to high wave
-action and strong rip currents.
+unsecured 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 21 at 5:08AM EDT until August 21 at 5:45AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3251629c541feaf5977c7862b008f669bec44f47.001.1) — *2026-08-21*
+  > SVRGSP
 
-* WHERE...Southern Schoolcraft County.
+The National Weather Service in Greenville-Spartanburg has issued a
 
-* WHEN...Through this evening.
+* Severe Thunderstorm Warning for...
+Franklin County in northeastern Georgia...
+Stephens County in northeastern Georgia...
+Eastern Habersham County in northeastern Georgia...
+Central Rabun County in nort
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 5:02AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7e38107d07067eda0ca6dd7abc89d8dd660a165.001.1) — *2026-08-21*
+  > At 501 AM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 7 miles south of Franklin to 3 miles northeast
+of Toccoa to 4 miles west of Carnesville. Movement was northeast at
+20 mph.
 
-* IMPACTS...High wave action and dangerous currents will lead to
-life threatening swimming conditions. Waves in rap
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 2:27AM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc812fc364ad00714d191f6910a8350eb22cc237.001.1) — *2026-08-21*
-  > At 225 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Lamar, moving south at 30 mph.
+HAZARD...Wind gusts up to 50 mph and pea size hail.
 
-HAZARD...Wind gusts of 40 mph and pea size hail.
+SOURCE...Rad
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 21 at 4:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ee49ef73e02c343b304c3793d9724647031c341d.001.1) — *2026-08-21*
+  > AQAMEG
+
+The Shelby County Health Department has issued a Code Orange Ozone
+Forecast effective for Shelby County Tennessee, Crittenden County
+Arkansas, and DeSoto County Mississippi, including the city of
+Memphis for today. This ozone forecast is due to forecasted ozone
+values tha
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:51AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.771b2a55e734843008f6ecb893743b0b1e064224.001.1) — *2026-08-21*
+  > Patchy dense fog has developed across the area this morning with
+visibility half a mile or less. Low visibility could make driving
+conditions hazardous. If driving, slow down, use your low-beam
+headlights, and leave plenty of distance ahead of you. The fog is
+expected to dissipat
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 3:44AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c83e309b81fe80802938e94c928ce5fc554ccc18.001.1) — *2026-08-21*
+  > At 344 AM CDT, Doppler radar was tracking a strong thunderstorm over
+Houston, moving southeast at 20 mph.
+
+HAZARD...Winds in excess of 30 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. Minor damage to ou
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 3:22AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e68c4353b8140b2252044c5115344a7922b92704.001.1) — *2026-08-21*
-  > At 322 AM EDT, a strong thunderstorm was over Mount Bethel, or near
-Marietta, moving east at 10 mph.
+unsecured objects. Minor h
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 21 at 1:42AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea337d13270bf068df28a1ccec6355504da349ae.001.1) — *2026-08-21*
+  > * WHAT...Dangerously hot conditions with temperatures up to 113
+through Sunday, and up to 115 for Tuesday through Friday of next
+week.
 
-HAZARD...Up to 40 mph wind, frequent cloud to ground lightning and
-heavy rain.
+* WHERE...Coachella Valley, San Diego County Deserts, and San
+Gorgonio Pass near Banning.
 
-SOURCE...Radar indicated.
+* WHEN...Until 8 PM PDT Friday August 28th.
 
-IMPACT...Expect minor damage to tree limbs and blowing around of
-light,
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 2:22AM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51a4de6a3312721d750359b153975fd35b5275df.001.1) — *2026-08-21*
-  > At 222 AM CDT, Doppler radar indicated a strong thunderstorm over
-Hanna, moving south at 20 mph.
-
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down small tree limbs and blow
-around unsecured objects. Minor hai
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 21 at 2:19AM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6992a3d8d2ed779d889130a6faa91002d4971e5b.001.1) — *2026-08-21*
-  > The following statement was issued by the Oklahoma Department of
-Environmental Quality from 10 AM to 10 PM CDT Friday.
-
-An Air Quality Alert for Ozone has been issued for Friday, August 21
-for the Oklahoma City Metropolitan area due to expected high
-concentrations of ozone.
-
-Publ
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 2:19AM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b17f488ad3bcc5531dd74269ab839490babb455d.001.1) — *2026-08-21*
-  > At 219 AM CDT, Doppler radar indicated a strong thunderstorm 7 miles
-west of Sperry, moving south at 20 mph.
-
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down small tree limbs and blow
-around unsecured object
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 21 at 3:17AM EDT until August 21 at 2:00PM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.adc0945bf95cc6a246b386df7759ae9384643c36.001.1) — *2026-08-21*
-  > ...The National Weather Service in Cleveland has issued a Flood
-Warning for the following rivers in Ohio...
-
-Scioto River Near Larue affecting Marion County.
-
-For the Scioto River...including Larue...Minor flooding is forecast.
-
-* WHAT...Minor flooding is forecast.
-
-* WHERE...Sci
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:11AM CDT until August 21 at 9:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a5ce2105bc9fba566eaa693e99e65a169c09cd2.002.1) — *2026-08-21*
-  > * WHAT...Heat index values up to 108.
-
-* WHERE...Portions of central, northern, northwest, southwest, and
-western Oklahoma and northern Texas.
-
-* WHEN...Until 9 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 21 at 2:11AM CDT until August 21 at 9:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a5ce2105bc9fba566eaa693e99e65a169c09cd2.001.1) — *2026-08-21*
-  > * WHAT...Dangerously hot conditions with heat index values up to 111.
-
-* WHERE...Portions of central, east central, southeast, southern, and
-southwest Oklahoma and northern Texas.
-
-* WHEN...Until 9 PM CDT this evening.
-
-* IMPACTS...Heat related illnesses increase significantly du
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 5:11PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dc4ca092daaac32c00dd708ee8d996bc56129c3.001.1) — *2026-08-21*
-  > Corrected more typos.
-
-...ENHANCED MONSOON SURGE TO CONTINUE PRODUCING HEAVY RAINFALL AND
-GUSTY WINDS TO PALAU AND YAP THE NEXT FEW DAYS...
-
-An intensifying monsoon surge along the southern peripheries of a
-developing trough axis stretching from TS Saudel southwestward, is
-expect
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 3:10AM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a67fa45d43a2759013ef6c9fefb92f2fabf5a982.001.1) — *2026-08-21*
-  > At 310 AM EDT, Doppler radar was tracking a strong thunderstorm 8
-miles west of Brevard, or 5 miles northwest of Rosman, moving east at
-15 mph.
-
-HAZARD...Wind gusts up to 40 mph and pea size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and bl
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 2:06AM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30421837b2a7cc150863baae22a8b96ad3d61333.001.1) — *2026-08-21*
-  > At 206 AM CDT, Doppler radar was tracking a cluster of strong
-thunderstorms 7 miles north of Gore Springs, or 10 miles northeast of
-Grenada, moving southeast at 30 mph.
+* IMPACT
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:34AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49055bac1af9d718191b7cac767b82d0ee325bab.001.1) — *2026-08-21*
+  > Patchy dense fog has developed across the area this morning with
+visibility half a mile or less. Low visibility could make driving
+conditions hazardous. If driving, slow down, use your low-beam
+headlights, and leave plenty of distance ahead of you. The fog is
+expected to dissipat
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:33AM EDT by NWS Morristown TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31452ecddd938055106146aafdce7f0472ec7edc.001.1) — *2026-08-21*
+  > At 433 AM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms near Gatlinburg, moving northeast at 25 mph.
 
 HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:56AM AST until August 21 at 5:00PM AST by NWS San Juan PR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c31920e477ffd9c17e8e69e4f96570880831ce73.001.1) — *2026-08-21*
-  > * WHAT...This level of heat affects most individuals sensitive to
-heat, especially those without effective cooling and/or adequate
-hydration. expected.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* WHERE...Portions of Puerto Rico and Virgin Islands.
+Locations i
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 21 at 4:10AM EDT until August 21 at 4:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4acb8ac6c3ce3fa19a92f33111a68d0aef7e0680.001.1) — *2026-08-21*
+  > * WHAT...Flooding caused by excessive rainfall continues.
 
-* WHEN...From 10 AM this morning to 5 PM AST this afternoon.
+* WHERE...North Central Washington County in southeastern Ohio...
 
-* IMPACTS.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 21 at 1:55AM CDT until August 21 at 5:00AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d36663337f87c7af2bf751f8dad9ecd5f8187300.001.1) — *2026-08-21*
-  > FFWBMX
+* WHEN...Until 400 PM EDT Friday.
 
-The National Weather Service in Birmingham has issued a
+* IMPACTS...In Macksburg, Main Street near the creek floods and
+agricultural fields adjacent to creek flood at 13 feet.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 21 at 3:06AM CDT until August 21 at 5:00AM CDT by NWS Birmingham AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.baf84f91d042ed68b2ce4d1bfdc08dd2802c732a.001.1) — *2026-08-21*
+  > At 306 AM CDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 2 and 4 inches of rain have
+fallen. Flooding impacts will continue, but no additional rainfall is
+expected. Flash flooding is ongoing or expected to begin shortly.
 
-* Flash Flood Warning for...
-Northern and Central Blount County in central Alabama...
+HAZARD...
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:01AM MDT until August 21 at 10:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c0457f456532ee1910dfe9d6ac03b4a73ea8f0a.001.1) — *2026-08-21*
+  > * WHAT...Temperatures up to 95 expected.
 
-* Until 500 AM CDT.
+* WHERE...Beaverhead - Lemhi Highlands, Big Hole Mountains, Teton
+Valley, Bear Lake Valley, and Blackfoot Mountains.
 
-* At 155 AM CDT, Doppler radar indicated thunderstorms producing
-heavy rain across the warned area. Between
-- **NEW**  [[Unknown] Hydrologic Outlook: Hydrologic Outlook issued August 21 at 4:41PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c199f958fb7a6d3fac967a99d8836475b85ad47a.001.1) — *2026-08-21*
-  > ESFGUM
+* WHEN...From noon today to 10 PM MDT this evening.
 
-This Hydrologic Outlook is for Guam, Rota, Tinian, and Saipan.
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:01AM MDT until August 21 at 10:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c0457f456532ee1910dfe9d6ac03b4a73ea8f0a.003.1) — *2026-08-21*
+  > * WHAT...Temperatures up to 95 expected.
 
-A monsoon surge is developing well south of Tropical Storm Saudel and
-will lift northward across the Marianas late this weekend and into
-next week.
+* WHERE...Arco/Mud Lake Desert, Franklin/Eastern Oneida Region, Marsh
+and Arbon Highlands, and Upper Snake River Plain.
 
-Some uncertainty remains regarding potential rainfall impac
-- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 21 at 1:29AM CDT until August 21 at 5:00AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.857703c78eb6612adb0855cb247ae55759428b3c.001.1) — *2026-08-21*
+* WHEN...From noon today to 10 PM MDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses, including
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 21 at 2:01AM MDT until August 21 at 10:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c0457f456532ee1910dfe9d6ac03b4a73ea8f0a.002.1) — *2026-08-21*
+  > * WHAT...Temperatures up to 98 expected.
+
+* WHERE...Wood River Foothills, Eastern Magic Valley, Shoshone/Lava
+Beds, Lower Snake River Plain, Raft River Region, and Southern
+Hills/Albion Mountains.
+
+* WHEN...From noon today to 10 PM MDT this evening.
+
+* IMPACTS...Hot temperatures 
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 21 at 3:55AM EDT until August 21 at 2:00PM EDT by NWS Indianapolis IN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bef4d611dc52b46882e32986dd5d45df8bf94fbf.001.1) — *2026-08-21*
   > * WHAT...Flooding caused by excessive rainfall is expected.
 
-* WHERE...Southeastern Limestone County in north central Alabama...
-Madison County in north central Alabama...
-Northern Morgan County in north central Alabama...
-Northwestern Jackson County in northeastern Alabama...
-No
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 21 at 2:25AM EDT until August 21 at 8:00PM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a953def127271dda9fdfa48973322a4d53ef5f02.001.1) — *2026-08-21*
-  > * WHAT...High wave action, strong currents, and dangerous
-swimming conditions expected. Piers may be heavily swamped by
-waves.
+* WHERE...Central Rush County in central Indiana...
 
-* WHERE...Mason and Oceana counties.
+* WHEN...Until 200 PM EDT Friday.
 
-* WHEN...From 2 PM EDT this afternoon through this evening.
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying
+and flood-prone locations is imminent or occurring. Streams
+co
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 21 at 2:52AM CDT until August 21 at 5:00AM CDT by NWS Huntsville AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b629133730ca8606b0ef8d679c7f62c24e63bfa.001.1) — *2026-08-21*
+  > * WHAT...Flooding caused by excessive rainfall is expected.
 
-* IMPACTS...Strong currents can pull swimmers into de
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 21 at 2:23AM EDT until August 21 at 10:00AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7990214b046145ae0932579f2a55066c55ab2fe.002.1) — *2026-08-21*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+* WHERE...Cullman County in north central Alabama...
+Southwestern Morgan County in north central Alabama...
+Southeastern Lawrence County in northwestern Alabama...
 
-* WHERE...Portions of central New York and northeast Pennsylvania.
+* WHEN...Until 500 AM CDT.
 
-* WHEN...Until 10 AM EDT this morning.
+* IMPACTS...It will take s
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 3:51AM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d01dea3f0400de6c35e5f50ac272df61c5ccf613.001.1) — *2026-08-21*
+  > Patchy dense fog has developed across the area, especially along
+the Hudson River Valley and in many narrow or sheltered higher
+terrain valleys. The fog will reduce visibility to a half mile or
+less, so drivers are urged to use caution this morning and be
+prepared for rapidly cha
 
-* IMPACTS...Low visibility could make driving conditions hazardous,
-especially in valley locations.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 21 at 2:23AM EDT until August 21 at 10:00AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7990214b046145ae0932579f2a55066c55ab2fe.001.1) — *2026-08-21*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Southern Cayuga County.
-
-* WHEN...Until 10 AM EDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:22PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ecdfb7dfdff990d6692b37e9985eb266743c87f8.001.1) — *2026-08-21*
-  > Corrected typo.
-
-...ENHANCED MONSOON SURGE TO CONTINUE PRODUCING HEAVY RAINFALL AND
-GUSTY WINDS TO PALAU AND YAP THE NEXT FEW DAYS...
-
-An intensifying monsoon surge along the southern peripheries of a
-developing trough axis stretching from TS Saudel southwestward, is
-expected to 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 21 at 4:20PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.58daa310772ec676de3916f82b8ec9a6fff2dcc2.001.1) — *2026-08-21*
-  > An intensifying monsoon surge along the southern peripheries of a
-developing trough axis stretching from TS Saudel southwestward, is
-expected to continue to enhance a newly formed Invest 97W just over
-Yap. Intense showers and thunderstorms are expected to peak at Yap
-tonight and 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 21 at 2:19AM EDT until August 21 at 6:15AM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8dd6e16bbaba95b9e3e865419f1943a72bdb1246.001.1) — *2026-08-21*
-  > FFWFFC
-
-The National Weather Service in Peachtree City has issued a
-
-* Flash Flood Warning for...
-Southeastern Catoosa County in northwestern Georgia...
-Southeastern Walker County in northwestern Georgia...
-Central Whitfield County in northwestern Georgia...
-
-* Until 615 AM EDT.
-
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 21 at 2:13AM EDT until August 22 at 8:00AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c99b779fadbd4b5ef175eea83bd5e3e3702ca658.001.1) — *2026-08-21*
-  > * WHAT...Flooding caused by excessive rainfall is possible.
-
-* WHERE...A portion of central North Carolina, including the
-following counties, Alamance, Chatham, Cumberland, Durham, Harnett,
-Hoke, Johnston, Lee, Montgomery, Moore, Orange, Randolph, Richmond,
-Sampson, Scotland, Sta
-
-_(160 additional items in raw.jsonl)_
+_(157 additional items in raw.jsonl)_

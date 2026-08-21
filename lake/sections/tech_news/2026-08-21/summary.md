@@ -3,33 +3,43 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-21
 record_count: 56
-new_today: 39
+new_today: 40
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-39 new of 56 total items today.
+40 new of 56 total items today.
 
+- **NEW**  [[The Hacker News] GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure](https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html) — *2026-08-21*
+  > A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.
+
+The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or
 - **NEW**  [[The Hacker News] Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution](https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html) — *2026-08-21*
   > Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.
 
 The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting 
+- **NEW**  [[The Register] Wi-Fi 7's WPA3 protections come with a compatibility catch](https://www.theregister.com/networks/2026/08/21/wi-fi-7s-wpa3-protections-come-with-a-compatibility-catch/5289614) — *2026-08-21*
+  > CableLabs wants hardware makers to embrace a workaround that keeps legacy kit connected
+- **NEW**  [[The Register] Debian is 33, Haiku is 25, and neither is standing still](https://www.theregister.com/os-platforms/2026/08/21/debian-is-33-haiku-is-25-and-neither-is-standing-still/5290144) — *2026-08-21*
+  > One remains a pillar of Linux, while the other keeps the BeOS dream alive
 - **NEW**  [[The Register] EE invites mobile users to live life in the 5G Fast Lane – for a price](https://www.theregister.com/networks/2026/08/21/ee-invites-mobile-users-to-live-life-in-the-5g-fast-lane-for-a-price/5290303) — *2026-08-21*
   > Network slicing offers a prioritized experience for those prepared to pay for a premium monthly plan
 - **NEW**  [[The Register] Developer given Mission:Impossible - fixing rubbish code that could crash a city - simply chose not to accept it](https://www.theregister.com/software/2026/08/21/developer-given-missionimpossible-fixing-rubbish-code-that-could-crash-a-city-simply-chose-not-to-accept-it/5290120) — *2026-08-21*
   > After imagining explosions, blackouts, and daring escapes, this techie decided the best thing to do was just not doing the job
 - **NEW**  [[The Register] Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.](https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838) — *2026-08-21*
   > Secure Workload Software has five nasty flaws and even SaaS users have updates to install
-- **NEW**  [[The Register] Alibaba Cloud plans to use fewer Western chips, to boost its already huge AI margins](https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815) — *2026-08-21*
-  > Cloudy AI is Chinese giant’s ‘most certain’ path to growth as e-commerce slows
-- **NEW**  [[The Register] Supermicro fired staff after probe into $2.5 billion GPUs-to-China smuggling operation](https://www.theregister.com/legal/2026/08/21/supermicro-fired-staff-after-probe-into-25-billion-gpus-to-china-smuggling-operation/5290791) — *2026-08-21*
-  > Policies and code of conduct breached
 - **NEW**  [[Computer Weekly] CW@60: The networks behind a connected society](https://www.computerweekly.com/feature/CW60-The-networks-behind-a-connected-society) — *2026-08-21*
   > &lt;div class="imagecaption alignLeft"&gt;
  &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
 &lt;/div&gt; 
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
+- **NEW**  [[MIT Technology Review] Mother tongue](https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/) — *2026-08-21*
+  > “Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now was the moment when 
+- **NEW**  [[MIT Technology Review] When AI designs a drug, who gets the credit?](https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/) — *2026-08-21*
+  > When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack of companies using A
+- **NEW**  [[MIT Technology Review] This company’s plans to deploy space mirrors could jeopardize the night sky for many](https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/) — *2026-08-21*
+  > A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbital plans to launch a test satellite called Eärendil-1 that w
 - **NEW**  [[TechCrunch] Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada](https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/) — *2026-08-21*
   > Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months.
 - **NEW**  [[TechCrunch] AI data startup Micro1 reaches $500M gross run rate amid AI training boom](https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/) — *2026-08-21*
@@ -54,10 +64,6 @@ The affe
   > A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.
 
 Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hi
-- **NEW**  [[The Hacker News] AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html) — *2026-08-20*
-  > The U.S. government on Wednesday warned of an "active threat" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.
-
-The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct 
 - **NEW**  [[The Record] China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware](https://therecord.media/china-cyber-espionage-central-asia) — *2026-08-20*
   > Suspected military-grade hackers based in China used artificial intelligence to develop malware in a campaign to penetrate Central Asian governments.
 - **NEW**  [[The Record] Senators press TikTok over withholding of safety features for some users](https://therecord.media/senators-press-tiktok-over-withholding-safety-features) — *2026-08-20*
@@ -66,12 +72,5 @@ The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs)
   > Resilience, not prevention, is key, analysts at the credit-rating agency said in a pair of new reports.
 - **NEW**  [[Schneier on Security] Detailed Timeline of OpenAI’s Cyberattack on Hugging Face](https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html) — *2026-08-20*
   > OpenAI presented details of its AI&#8217;s model&#8217;s cyberattack on Hugging Face at Black Hat last week. Simon Willison details the timeline. It&#8217;s really interesting to read through&#8212;and really impressive cyberoffense work.
-- **NEW**  [[Schneier on Security] Police Are Hiding Their Use of Flock Surveillance Cameras](https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html) — *2026-08-20*
-  > A usage policy for Flock license plate reader cameras tells police not to talk about the cameras:
-When cops use Flock to arrest someone in Wapello County, Iowa, they don&#8217;t want them to know. A usage policy for the automated license plate reader cameras in the county tells p
-- **NEW**  [[Ars Technica] US distributor of China’s most popular humanoid robots pivots after US ban](https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/) — *2026-08-20*
-  > FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.
-- **NEW**  [[Ars Technica] Europe cancels planned upgrades for Ariane 6 rocket](https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/) — *2026-08-20*
-  > Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.
 
 _(31 additional items in raw.jsonl)_

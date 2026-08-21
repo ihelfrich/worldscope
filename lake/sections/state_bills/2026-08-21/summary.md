@@ -2,53 +2,15 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-21
-record_count: 139
-new_today: 67
+record_count: 81
+new_today: 68
 state: fresh
 ---
 
 ## State Legislative Action
 
-67 new of 139 total items today.
+68 new of 81 total items today.
 
-- **NEW**  [[Alaska HB 216] An Act approving the transfer of land owned by the Alaska Railroad Corporation to the City of Whittier; and providing for an effective date.]() — *2026-08-21*
-  > An Act approving the transfer of land owned by the Alaska Railroad Corporation to the City of Whittier; and providing for an effective date.
-- **NEW**  [[Alaska HB 286] An Act relating to an optional municipal tax exemption for the homes of volunteer firefighters and volunteer providers of emergency medical services or mobile intensive care paramedic services; and providing for an effective date.]() — *2026-08-21*
-  > An Act relating to an optional municipal tax exemption for the homes of volunteer firefighters and volunteer providers of emergency medical services or mobile intensive care paramedic services; and providing for an effective date.
-- **NEW**  [[Alaska HB 282] An Act relating to municipal regulation of automated traffic safety cameras.]() — *2026-08-21*
-  > An Act relating to municipal regulation of automated traffic safety cameras.
-- **NEW**  [[Alaska HB 289] An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.]() — *2026-08-20*
-  > An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.
-- **NEW**  [[Alaska HB 239] An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful explo]() — *2026-08-20*
-  > An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful e
-- **NEW**  [[Alaska HB 133] An Act establishing deadlines for the payment of contracts under the State Procurement Code; establishing deadlines for the payment of grants, contracts, and reimbursement agreements to nonprofit organizations, municipalities, and Alaska Native organizations; relating to reports from]() — *2026-08-20*
-  > An Act establishing deadlines for the payment of contracts under the State Procurement Code; establishing deadlines for the payment of grants, contracts, and reimbursement agreements to nonprofit organizations, municipalities, and Alaska Native organizations; relating to reports 
-- **NEW**  [[Alaska HB 91] An Act relating to the lawful operation of retail marijuana stores; relating to marijuana cultivation; relating to the registration of marijuana establishments; relating to marijuana taxes; relating to the duties of the Department of Revenue; and providing for an effective date.]() — *2026-08-20*
-  > An Act relating to the lawful operation of retail marijuana stores; relating to marijuana cultivation; relating to the registration of marijuana establishments; relating to marijuana taxes; relating to the duties of the Department of Revenue; and providing for an effective date.
-- [[Alaska SB 226] An Act relating to the sale of homemade food.]() — *2026-08-19*
-  > An Act relating to the sale of homemade food.
-- [[Alaska SB 111] An Act relating to the diagnosis, maintenance, and repair of consumer products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to the diagnosis, maintenance, and repair of consumer products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.
-- [[Alaska SB 249] An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; relating to unfair trade or deceptive acts or practices; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; relating to unfair trade or deceptive acts or practices; and providing for an effective date.
-- [[Alaska SB 185] An Act relating to the business of insurance; relating to exceptions to prohibited rebates; relating to the powers of the director of the division of insurance; relating to prohibited practices in the advertisement of insurance; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to the business of insurance; relating to exceptions to prohibited rebates; relating to the powers of the director of the division of insurance; relating to prohibited practices in the advertisement of insurance; and providing for an effective date.
-- [[Alaska SB 196] An Act establishing a behavioral health crisis services surcharge; establishing the behavioral health crisis services fund; and providing for an effective date.]() — *2026-08-19*
-  > An Act establishing a behavioral health crisis services surcharge; establishing the behavioral health crisis services fund; and providing for an effective date.
-- [[Alaska SB 244] An Act relating to travel insurance.]() — *2026-08-19*
-  > An Act relating to travel insurance.
-- [[Alaska SB 252] An Act relating to the Uniform Commercial Code; relating to secured transactions; relating to controllable accounts, controllable electronic records, and controllable payment intangibles; relating to sales; relating to negotiable instruments; relating to letters of credit; relating t]() — *2026-08-19*
-  > An Act relating to the Uniform Commercial Code; relating to secured transactions; relating to controllable accounts, controllable electronic records, and controllable payment intangibles; relating to sales; relating to negotiable instruments; relating to letters of credit; relati
-- [[Alaska SB 150] An Act relating to a net metering program; relating to reduced rates in the form of credits for consumer-generators; establishing a net metering reimbursement fund; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to a net metering program; relating to reduced rates in the form of credits for consumer-generators; establishing a net metering reimbursement fund; and providing for an effective date.
-- [[Alaska SB 248] An Act relating to the practice of genetic counseling; relating to the licensure of genetic counselors; establishing the Genetic Counseling Advisory Council; relating to the duties of the State Medical Board; relating to telehealth by licensed genetic counselors; relating to medical ]() — *2026-08-19*
-  > An Act relating to the practice of genetic counseling; relating to the licensure of genetic counselors; establishing the Genetic Counseling Advisory Council; relating to the duties of the State Medical Board; relating to telehealth by licensed genetic counselors; relating to medi
-- [[Alaska SB 225] An Act relating to trusts; relating to trust proceedings; relating to nonjudicial settlement agreements in trust matters; relating to the powers of trustees; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to trusts; relating to trust proceedings; relating to nonjudicial settlement agreements in trust matters; relating to the powers of trustees; and providing for an effective date.
-- [[Alaska SB 35] An Act relating to transportation network companies and delivery network companies; and relating to occupational accident insurance.]() — *2026-08-19*
-  > An Act relating to transportation network companies and delivery network companies; and relating to occupational accident insurance.
-- [[Alaska SB 180] An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.]() — *2026-08-19*
-  > An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.
 - **NEW**  [[California SB 1187] Open meetings.]() — *2026-08-20*
   > Existing law, the Ralph M. Brown Act, requires, with specified exceptions, that all meetings of a legislative body, as defined, of a local agency be open and public and that all persons be permitted to attend and participate.
 
@@ -63,5 +25,45 @@ state: fresh
   > Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care, and makes a willful violation of the act a crime. Existing law provides for the regulation of health
 - **NEW**  [[California SB 526] Health facilities: clinics.]() — *2026-08-20*
   > Existing law requires the State Department of Public Health to license and regulate clinics, as defined. A violation of these provisions is a crime. Existing law requires any person, firm, association, partnership, or corporation desiring a license for a clinic to file with the d
+- **NEW**  [[California SB 259] Fair Online Pricing Act.]() — *2026-08-20*
+  > The California Consumer Privacy Act of 2018 grants to a consumer various rights with respect to personal information, as defined, that is collected by a business, as defined, including the right to request that a business delete personal information about the consumer that the bu
+- **NEW**  [[California SB 1175] Lobbyist registration and termination.]() — *2026-08-20*
+  > The Political Reform Act of 1974 requires individual lobbyists to prepare certifications, as specified, for filing with the Secretary of State. If any change occurs in the information contained in a lobbyist certification, or if a lobbyist terminates all activity that required ce
+- **NEW**  [[California AB 1929] Health care coverage: investments: disclosure.]() — *2026-08-20*
+  > Existing federal law, the Patient Protection and Affordable Care Act (PPACA) , requires each state to establish an American Health Benefit Exchange to facilitate the purchase of qualified health benefit plans by qualified individuals and qualified small employers. Existing state 
+- **NEW**  [[California AB 2785] Elections: redistricting information.]() — *2026-08-20*
+  > Proposition 11, which was approved by the voters at the November 4, 2008, statewide general election, establishes the Citizens Redistricting Commission and requires the commission to adjust the boundary lines of State Senate and Assembly districts. Proposition 11 also requires th
+- **NEW**  [[California SB 891] Missing and Murdered Indigenous Persons Justice Program.]() — *2026-08-20*
+  > Existing law establishes the Department of Justice, and makes the department responsible, in part, for overseeing statewide criminal justice programs.
 
-_(114 additional items in raw.jsonl)_
+Existing law requires the Department of Justice to provide technical assistance to local law enforcement agencies and tribal gov
+- **NEW**  [[California SB 1057] Licensing: certified nurse assistants and home health aides.]() — *2026-08-20*
+  > Existing law provides for the licensure and regulation of health facilities, clinics, home health agencies, and hospice agencies, as defined, by the State Department of Public Health. Existing law provides for the certification of nurse assistants and home health aides by the dep
+- **NEW**  [[California AB 1809] Public contracts: school and community college districts.]() — *2026-08-20*
+  > (1) Existing law, the Local Agency Public Construction Act, authorizes job order contracting, as defined, for school districts until January 1, 2027. Existing law requires job order contractors to submit a questionnaire to the school district containing specified information veri
+- **NEW**  [[California AB 2576] Transit-oriented development: exclusions: historic sites.]() — *2026-08-20*
+  > Existing law provides that a housing development project shall be an allowed use as a transit-oriented housing development if specified conditions and requirements are met. Existing law provides that these provisions do not apply to a local agency until July 1, 2026, unless the l
+- **NEW**  [[California SB 1264] Probate: notice of death for child support obligations.]() — *2026-08-20*
+  > Existing law sets forth the rules of practice applicable to probate. For estates for which letters testamentary or letters of administration are issued on or after January 1, 2026, existing law requires the general personal representative or the estate attorney of a decedent's es
+- **NEW**  [[California AB 1712] City of Santa Fe Springs: sale of water utility property.]() — *2026-08-20*
+  > Existing law authorizes the furnishing of utility services by publicly owned public utilities, including municipal corporations, that are subject to control by their governing bodies. Existing law authorizes any municipal corporation to acquire, construct, own, operate, or lease 
+- **NEW**  [[California AJR 9] National parks: federal funding.]() — *2026-08-20*
+  > This measure would urge the President of the United States and Congress of the United States to immediately restore full and consistent funding and staffing for the National Park Service.
+- **NEW**  [[California AB 2503] California Interscholastic Federation: pupil health: heat illness: guidelines.]() — *2026-08-20*
+  > Existing law describes the California Interscholastic Federation (CIF) as a voluntary organization that consists of school and school-related personnel with responsibility for administering interscholastic athletic activities in secondary schools, and sets forth the Legislature's
+- **NEW**  [[California AB 1836] California State Nonprofit Security Grant Program.]() — *2026-08-20*
+  > Existing law establishes the California State Nonprofit Security Grant Program under the administration of the Director of Emergency Services to improve the physical security of nonprofit organizations that are at high risk of violent attacks or hate crimes due to ideology, belie
+- **NEW**  [[California SB 845] Pupil instruction: career technical education, career education, work-based learning, work experience education, and apprenticeships.]() — *2026-08-20*
+  > (1) Existing law authorizes the governing board of a school district to authorize a pupil who meets specified criteria to attend community college. Existing law requires a pupil to receive credit for community college courses that the pupil completes at the level determined appro
+- **NEW**  [[California AB 1562] Elections: precinct board members.]() — *2026-08-20*
+  > Existing law requires a county elections official to divide each jurisdiction within the county into precincts and to appoint a precinct board for each precinct at least 29 days before an election within the jurisdiction. Any voter may apply to the county elections official for a
+- **NEW**  [[California AB 2380] Pest control: registration fees.]() — *2026-08-20*
+  > Existing law authorizes the board of supervisors of any county to establish reasonable fees for the registration of any person advertising, soliciting, or operating as a pest control business and limits the registration fee of certain pest control businesses to the amount necessa
+- **NEW**  [[California SB 401] Political Reform Act of 1974: filing deadlines: emergency situations.]() — *2026-08-20*
+  > Under the Political Reform Act of 1974, various individuals and entities, including candidates, committees that support candidates and ballot measures, lobbyists, slate mailer organizations, and public officials, are required to periodically file certain statements and reports th
+- **NEW**  [[California SB 955] Beverage containers: supermarkets: reverse vending machines.]() — *2026-08-20*
+  > (1) The California Beverage Container Recycling and Litter Reduction Act requires the Department of Resources Recycling and Recovery to designate convenience zones annually and to ensure that at least one certified recycling center that meets specific requirements is located with
+- **NEW**  [[California SB 357] Juveniles: delinquency.]() — *2026-08-20*
+  > Existing law subjects a minor between 12 and 17 years of age, who violates any federal, state, or local law or ordinance, and a minor under 12 years of age who is alleged to have committed specified serious offenses, to the jurisdiction of the juvenile court, which may adjudge th
+
+_(56 additional items in raw.jsonl)_
