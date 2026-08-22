@@ -3,14 +3,18 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-22
 record_count: 54
-new_today: 14
+new_today: 15
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-14 new of 54 total items today.
+15 new of 54 total items today.
 
+- **NEW**  [[The Register] Skylab completists, clear some shelf space for 26 DVDs](https://www.theregister.com/offbeat/2026/08/22/skylab-completists-clear-some-shelf-space-for-26-dvds/5290531) — *2026-08-22*
+  > Decades of archive hunting recover downlinks, silent reels, and footage once thought lost
+- **NEW**  [[The Register] Casio decides it's about time the simple digital watch got a little smarter](https://www.theregister.com/personal-tech/2026/08/22/casio-decides-its-about-time-the-simple-digital-watch-got-a-little-smarter/5291223) — *2026-08-22*
+  > F-B100W adds Bluetooth and step tracking while keeping a two-year battery
 - **NEW**  [[TechCrunch] Michael Polansky is training an AI model on skin that’s still alive](https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/) — *2026-08-22*
   > Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now 
 - **NEW**  [[TechCrunch] Japanese space tech startup Letara expands beyond satellite thrusters with $16M](https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/) — *2026-08-22*
@@ -67,9 +71,5 @@ The incident stemmed from a single evaluation where agents w
   > Quarantining leaked credentials is not good enough
 - **NEW**  [[The Register] Cloverleaf deal is latest example of Nvidia using its war chest to patch cracks in the AI bubble](https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369) — *2026-08-21*
   > Nv's new chips need new datacenters, but you can't have bit barns without power
-- **NEW**  [[The Register] Salesforce partners not seeing meaningful revenue from Agentforce AI platform, report says](https://www.theregister.com/saas/2026/08/21/salesforce-partners-not-seeing-meaningful-revenue-from-agentforce-ai-platform-report-says/5291167) — *2026-08-21*
-  > Show us the money
-- **NEW**  [[The Register] AI companies are burning books, advocates complain to FTC](https://www.theregister.com/ai-and-ml/2026/08/21/ai-companies-are-burning-books-advocates-complain-to-ftc/5291299) — *2026-08-21*
-  > Fahrenheit 203, the temperature GPUs stop gorging on literature
 
 _(29 additional items in raw.jsonl)_

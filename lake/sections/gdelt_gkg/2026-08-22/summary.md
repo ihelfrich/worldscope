@@ -2,64 +2,62 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-08-22
-record_count: 75
-new_today: 75
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-75 new of 75 total items today.
+25 new of 25 total items today.
 
-- **NEW**  [[Russia oil sanctions perimeter · themes] 8月新能源汽车预计销量104万辆 每卖出3辆车只有1辆油车](https://finance.sina.com.cn/tech/roll/2026-08-22/doc-inipeimw3242892.shtml) — *2026-08-22*
-  > finance.sina.com.cn · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Libyanın akaryakıt altyapısını Türkiyenin Deha ı yeniden yapılandıracak - Haber Hürriyeti](https://www.haberhurriyeti.com/haber/28562008/libyanin-akaryakit-altyapisini-turkiyenin-dehasi-yeniden-yapilandiracak) — *2026-08-22*
-  > haberhurriyeti.com · Turkish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Trump Sebut Iran Belum Siap untuk Kesepakatan , AS Siapkan Sanksi Baru](https://www.jawapos.com/internasional/2608220202/trump-sebut-iran-belum-siap-untuk-kesepakatan-as-siapkan-sanksi-baru) — *2026-08-22*
-  > jawapos.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] El USS Abraham Lincoln : Estados Unidos debe exigir la verdad](https://spanish.christianpost.com/voices/el-uss-abraham-lincoln-estados-unidos-debe-exigir-la-verdad.html) — *2026-08-22*
-  > spanish.christianpost.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 墨西哥两名渔民靠冷藏箱在海上漂流5天获救 ， 5天没吃没喝](https://finance.sina.com.cn/tech/roll/2026-08-22/doc-inipeimv1295703.shtml) — *2026-08-22*
-  > finance.sina.com.cn · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]   十五五  时期 ， 美丽重庆建设如何推进 ？ 来看规划→ - 华龙网 - 重庆市委市政府官方新闻门户](https://www.cqnews.net/web/content_1540706162511982592.html) — *2026-08-22*
-  > cqnews.net · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Egyre drágul a dízel , ki tudja , hol lesz a vége](https://mfor.hu/cikkek/makro/egyre-dragul-a-dizel-ki-tudja-hol-lesz-a-vege.html) — *2026-08-22*
-  > mfor.hu · Hungarian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Turai Chana Dal Recipe By Rinkoo Singh , झींगा  चना दाल की सब्जी ... नाम पढ़कर मत खाना धोखा , स्वाद में शानदार और हेल्दी भी , रिंकू की रसोई से मिली रेसिपी - how to make jhinga chana dal ki sabji or turai chana dal by using rinkoo singh special recipe...](https://navbharattimes.indiatimes.com/hindi-recipes/how-to-make-jhinga-chana-dal-ki-sabji-or-turai-chana-dal-by-using-rinkoo-singh-special-recipe/articleshow/133402299.cms) — *2026-08-22*
-  > navbharattimes.indiatimes.com · Hindi · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 金价银价油价集体上涨 市场避险情绪升温 _ 新闻频道 _ 中华网](https://news.china.com/socialgd/10000169/20260822/49692144.html) — *2026-08-22*
-  > news.china.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Resep Kentang Crispy 3 Bahan , Camilan Simpel yang Renyah dan Gurih](https://www.jawapos.com/kuliner/2608220083/resep-kentang-crispy-3-bahan-camilan-simpel-yang-renyah-dan-gurih) — *2026-08-22*
-  > jawapos.com · Indonesian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] At least 13 Tunisians missing after migrant boat sinks](https://www.canberratimes.com.au/story/9335259/at-least-13-tunisians-missing-after-migrant-boat-sinks/) — *2026-08-22*
-  > canberratimes.com.au · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes]  【 一線看中國 】 廣西再有暴雨 河南災後河面漂浮大量死魚 | 廣西暴雨 | 新熱帶低壓 | 山東社區大爆炸](https://www.ntdtv.com/b5/2026/08/22/a104126311.html) — *2026-08-22*
-  > ntdtv.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Top 10 Royals Who Scandalously Renounced Their Titles](https://listverse.com/2017/08/06/top-10-royals-who-scandalously-renounced-their-titles/) — *2026-08-22*
-  > listverse.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Hombre muere baleado al interior de camioneta en centro de Santiago : atacantes llegaron en motocicleta](https://www.latercera.com/nacional/noticia/hombre-muere-baleado-al-interior-de-camioneta-en-santiago-atacantes-llegaron-en-motocicleta/) — *2026-08-22*
-  > latercera.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] New Yeast Breakthrough Paves Way for High - Performance Green Aviation](https://www.azom.com/news.aspx?newsID=65719) — *2026-08-22*
-  > azom.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Трамп назвав Ормузьку протоку американською : що відбувається](https://www.unian.ua/world/tramp-nazvav-ormuzku-protoku-amerikanskoyu-shcho-vidbuvayetsya-13477077.html) — *2026-08-22*
-  > unian.ua · Ukrainian · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Ρωσία : Στόχος των ουκρανών η πλουσιότερη γυναίκα της χώρας](https://www.philenews.com/kosmos/article/1761731/stochos-ton-oukranikon-drone-i-plousioteri-gineka-tis-rosias-pia-ine-i-daskala-pou-echtise-ti-rosiki-amazon-ke-eftiaxe-periousia-81-dis/) — *2026-08-22*
-  > philenews.com · Greek · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] At least 13 Tunisians missing after migrant boat sinks](https://www.dailyadvertiser.com.au/story/9335259/at-least-13-tunisians-missing-after-migrant-boat-sinks/) — *2026-08-22*
-  > dailyadvertiser.com.au · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 万亿 ， 国产存储终极IPO要来了 _ 财富号评论 ( cfhpl ) 股吧 _ 东方财富网股吧](https://guba.eastmoney.com/o/news,cfhpl,1762760333.html) — *2026-08-22*
-  > guba.eastmoney.com · Chinese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] In 2019 , Bahrain sank a 70 - metre Boeing 747 in 22 metres of water , making the jumbo jet the centrepiece of a 100 , 000 - square - metre reef park | World News](https://timesofindia.indiatimes.com/world/rest-of-world/in-2019-bahrain-sank-a-70-metre-boeing-747-in-22-metres-of-water-making-the-jumbo-jet-the-centrepiece-of-a-100000-square-metre-reef-park/articleshow/133376475.cms) — *2026-08-22*
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israeli settler blockades part of escalating violence against Palestinians in the occupied West Bank](https://www.cbc.ca/news/world/israeli-siege-occupied-west-bank-qusra-9.7315801) — *2026-08-22*
+  > cbc.ca · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Israel denounces Türkiye as Ankara requests Interpol Red Notice for Netanyahu](http://europe.chinadaily.com.cn/a/202608/22/WS6a8914f9a3106bc57421ce50.html) — *2026-08-22*
+  > europe.chinadaily.com.cn · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Turkey requests international arrest warrant for Netanyahu over Gaza flotilla arrest](https://www.premiumtimesng.com/foreign/904560-turkey-requests-international-arrest-warrant-for-netanyahu-over-gaza-flotilla-arrest.html) — *2026-08-22*
+  > premiumtimesng.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Implications of Mecca defense pact for Israel , India](http://www.jpost.com/defense-and-tech/article-906236) — *2026-08-22*
+  > jpost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Production of strategic military equipment tripled during US - Israeli aggression : Defense Ministry](https://www.presstv.co.uk/Detail/2026/08/22/774828/Production-strategic-military-equipment-tripled-during-US-Israeli-aggression--Defense-Ministry) — *2026-08-22*
+  > presstv.co.uk · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.nigeriasun.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > nigeriasun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Benjamin Netanyahu :  Antisemitic dictator : Netanyahu slams Turkey Erdogan , vows not to tolerate aggression in Syria](https://timesofindia.indiatimes.com/world/middle-east/antisemitic-dictator-netanyahu-slams-turkeys-erdogan-vows-not-to-tolerate-aggression-in-syria/articleshow/133417564.cms) — *2026-08-22*
   > timesofindia.indiatimes.com · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Chilango - ¿ Te hace falta drama ? Descubre 3 festivales de teatro en la CDMX](https://www.chilango.com/que-hacer/arte-y-cultura/festivales-de-teatro-imperdibles-cdmx-2026/) — *2026-08-22*
-  > chilango.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Banguat eleva a 4 . 3 % previsión de crecimiento económico de Guatemala para el 2026](https://www.prensalibre.com/economia/banguat-eleva-a-4-3-prevision-de-crecimiento-economico-de-guatemala-para-el-2026/) — *2026-08-22*
-  > prensalibre.com · Spanish · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] 5 nhược điểm của xe SUV khung gầm rời : Sự thật cần biết trước khi  xuống tiền  ](https://baomoi.com/5-nhuoc-diem-cua-xe-suv-khung-gam-roi-su-that-can-biet-truoc-khi-xuong-tien-c55888051.epi) — *2026-08-22*
-  > baomoi.com · Vietnamese · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] Island hopping through stone - age history in Ireland , Wales and the Isle of Man](https://www.aol.co.uk/articles/island-hopping-stone-age-history-060057000.html) — *2026-08-22*
-  > aol.co.uk · English · tone NA
-- **NEW**  [[Russia oil sanctions perimeter · themes] В США выступили с неожиданным предложением России](https://ria.ru/20260822/rossiya-2112428262.html) — *2026-08-22*
-  > ria.ru · Russian · tone NA
-
-_(50 additional items in raw.jsonl)_
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Gaza next phase puts Trump , Netanyahu and Hamas on collision course [ ANALYSIS ] ](https://www.azernews.az/analysis/262593.html) — *2026-08-22*
+  > azernews.az · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Erdogan legal jihad : Why Turkey arrest warrant for Netanyahu attacks Israeli sove](https://www.ynetnews.com/opinions-analysis/article/rj11zcoldmg) — *2026-08-22*
+  > ynetnews.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] August 21st , 2026](https://www.marklevinshow.com/2026/08/21/august-21st-2026/) — *2026-08-22*
+  > marklevinshow.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] West Bank : Israel - Backed Settler Violence Drives Displacement](https://www.juancole.com/2026/08/settler-violence-displacement.html) — *2026-08-22*
+  > juancole.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.europesun.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > europesun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Turkey Seeks Interpol Red Notice Against Israeli PM Netanyahu : How Gaza Flotilla Interception Triggered The Case](https://www.newsx.com/world/turkey-seeks-interpol-red-notice-against-israeli-pm-netanyahu-how-gaza-flotilla-interception-triggered-the-case-263038/) — *2026-08-22*
+  > newsx.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.batonrougepost.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > batonrougepost.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.austinglobe.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > austinglobe.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.kenyastar.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > kenyastar.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] 中東風雲錄 -- 開欄文 ： 埃及的加薩重建方案 -- Al Jazeera - 時事論壇](https://city.udn.com/2976/7247690?raid=7297956) — *2026-08-22*
+  > city.udn.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran wont interfere in Iraq internal affairs , backs withdrawal of foreign forces : Ghalibaf](http://www.arabherald.com/news/279257305/iran-wont-interfere-in-iraq-internal-affairs-backs-withdrawal-of-foreign-forces-ghalibaf) — *2026-08-22*
+  > arabherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.arabherald.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > arabherald.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran wont interfere in Iraq internal affairs , backs withdrawal of foreign forces : Ghalibaf](https://news.webindia123.com/news/Articles/World/20260822/4489555.html) — *2026-08-22*
+  > news.webindia123.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] US Treasury Classifies Hezbollah As Arm Of The IRGC , Not A  Stand - Alone  Group](https://www.zerohedge.com/geopolitical/us-treasury-classifies-hezbollah-arm-irgc-not-stand-alone-group) — *2026-08-22*
+  > zerohedge.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Trkiye asks Interpol to help arrest Netanyahu](http://www.bignewsnetwork.com/news/279257378/trkiye-asks-interpol-to-help-arrest-netanyahu) — *2026-08-22*
+  > bignewsnetwork.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran wont interfere in Iraq internal affairs , backs withdrawal of foreign forces : Ghalibaf](http://www.iraqsun.com/news/279257305/iran-wont-interfere-in-iraq-internal-affairs-backs-withdrawal-of-foreign-forces-ghalibaf) — *2026-08-22*
+  > iraqsun.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] World News : Türkiye issues arrest warrant for Netanyahu over Gaza aid blockade](https://www.gdnonline.com:443/Details/1404139) — *2026-08-22*
+  > gdnonline.com · English · tone NA
+- **NEW**  [[Israel-Iran-Hezbollah axis · keywords] Iran wont interfere in Iraq internal affairs , backs withdrawal of foreign forces : Ghalibaf](http://www.heraldglobe.com/news/279257305/iran-wont-interfere-in-iraq-internal-affairs-backs-withdrawal-of-foreign-forces-ghalibaf) — *2026-08-22*
+  > heraldglobe.com · English · tone NA

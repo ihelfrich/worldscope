@@ -15,8 +15,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaN0VpbDk2cFIzWVZYczVzXzB5WGhBX3VIYXViMWJqN0stZ1V5aHoxaVkxWGxkWlljaGs5N1ZQSHotT3J1NE9lbUtDZFpuX3pXUk1sTzBzLUd2VlFrdXc?oc=5" target="_blank">Issuance of Venezuela-related General Licenses and Associated Frequently Asked Q
 - [[OFAC] Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designations; Issuance of Russia-related General License; Issuance of Associated Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-20*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lcVI4LUpUZnNNVFZfZTlOOVdxRzNBYkZWQ2ZoQlpCM25rUzR5MW13SWQxenZwZENad2tWMTJnODdhS2RjcFhxekdIVXFrejB6djlILVhsNEJsMFl4Qnc?oc=5" target="_blank">Counter Narcotics, Counter Terrorism, Cuba-related, and Iran-related Designation
-- **NEW**  [[OFAC] 1266 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-21*
-  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ia0NMVmFsajZFNWlFZFV0NTMtbjZSc014bGI1a3lwZHh3a3k3c1owVmMydnVXMG9RSXhibVM4TFVKa0NTdTR1NVZHWQ?oc=5" target="_blank">1266</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - [[OFAC] International Criminal Court-related Designations; Venezuela-related Designation; Issuance of International Criminal Court-related General License - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-18*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLV3B1c0dERThhR3RuQzk2V1FHQnJqazU3SGp3ak9yR21rZWlhUlZVell1UHlDc3dWQ3VyTkE4ZzRmZjZtN04td2lfUlRCR3FlYjJkWWYzVjVjRVUzWHc?oc=5" target="_blank">International Criminal Court-related Designations; Venezuela-related Designation
 - [[OFAC] Ecuadorian Maritime Cocaine Trafficking Network - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-20*
@@ -31,6 +29,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uWjZ6ZU9CQ0JLRDBnXzAtMHJVWk1ObXJrSF8yb21OQW9KRlBXYzRpMEROV3hfSm1mVWVsbHQwdS1GendQTTQ0S1MzbElJQWFwV19UTF8wU0JQb3FuZkh4NDVESjc?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL International Criminal Court-Related Sa
 - [[OFAC] 1265 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-20*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TNi1ZQ3lZWGNkS2s1OEdTc3d2Ty1FVktlMWpQeEZuLWtrVU5VbzMydjV0Q3V4TWItTjdDd2pESHFybXlseXB3dUtPMA?oc=5" target="_blank">1265</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
+- **NEW**  [[OFAC] 1266 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-21*
+  > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ia0NMVmFsajZFNWlFZFV0NTMtbjZSc014bGI1a3lwZHh3a3k3c1owVmMydnVXMG9RSXhibVM4TFVKa0NTdTR1NVZHWQ?oc=5" target="_blank">1266</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
 - [[BIS Entity List] page checksum 71c5c4961d51](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-22*
   > Page content hash: 71c5c4961d51. Compare with prior day's hash to detect updates.
 - [[FARA] Trial Attorney, GS-0905-14/15 - Department of Justice (.gov)](https://www.justice.gov) — *2026-08-15*

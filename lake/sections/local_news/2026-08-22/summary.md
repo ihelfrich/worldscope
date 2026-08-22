@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-22
-record_count: 245
-new_today: 101
+record_count: 255
+new_today: 112
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-101 new of 245 total items today.
+112 new of 255 total items today.
 
 - [[St. Louis] Is it OK to ask a restaurant where its lettuce comes from?](https://www.stlmag.com/dining/ask-george-do-you-think-its-inappropriate-or-insulting-to-ask-a-restaurant-where-it-sources-its-lettuce/) — *2026-08-21*
   > <p>Do you think it’s inappropriate or insulting to ask a restaurant where it sources its lettuce? —Laura R., St. Louis This question is especially timely, given yesterday&#8217;s CDC&#8217;s update that the number of cyclospora cases has risen substantially, with 10,930 confirmed
@@ -29,27 +29,37 @@ state: fresh
   > <p>One of Clayton’s most popular restaurants wants to give diners on its prominent downtown patio more separation from the comings and goings on the street. But Clayton officials don’t want that protection to wall off one of the city’s most socially vibrant corners. Finding a com
 - [[St. Louis] Where in the Lou? – 8/20/2026](https://www.stlmag.com/games/where-in-the-lou-082026/) — *2026-08-20*
   > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
-- **NEW**  [[St. Louis] Proposed charter school could be a first for Riverview Gardens, set to open next year](https://www.stlpr.org/education/2026-08-21/proposed-charter-school-could-be-a-first-for-riverview-gardens-set-to-open-next-year) — *2026-08-21*
-- **NEW**  [[St. Louis] GroveFest won’t return this year, but Oktoberfest and bar crawl planned in its place](https://www.stlpr.org/arts/2026-08-21/grovefest-oktoberfest-bar-crawl-planned) — *2026-08-21*
-- **NEW**  [[St. Louis] Reggie Jones, mayor of Dellwood, dies Friday](https://www.stlpr.org/government-politics-issues/2026-08-21/reggie-jones-mayor-dellwood-dies) — *2026-08-21*
-- [[St. Louis] Fate of Missouri congressional redistricting top of mind at governor’s annual ham breakfast](https://www.stlpr.org/government-politics-issues/2026-08-20/fate-of-missouri-congressional-redistricting-top-of-mind-at-governors-annual-ham-breakfast) — *2026-08-21*
-- [[St. Louis] $5M fund seeks to repair tornado-damaged rentals in north St. Louis](https://www.stlpr.org/news-briefs/2026-08-21/5m-fund-repair-tornado-damaged-rentals-north-st-louis) — *2026-08-21*
-- [[St. Louis] St. Louis Sheriff’s Office settles 13 race and age discrimination complaints with the EEOC](https://www.stlpr.org/government-politics-issues/2026-08-21/st-louis-sheriffs-office-settles-13-race-age-discrimination-complaints-eeoc) — *2026-08-21*
-- [[St. Louis] Two years ago she was forced out. Now Ratcliffe will sit on Explore St. Louis board that ousted her.](https://www.stlpr.org/news-briefs/2026-08-21/ratcliffe-explore-st-louis-board-ousted-her) — *2026-08-21*
-- [[St. Louis] Explained: What you should know about data center regulations around St. Louis](https://www.stlpr.org/government-politics-issues/2026-08-21/explained-st-louis-area-data-center-regulations) — *2026-08-21*
-- [[St. Louis] Flock cameras are bagged up after employee abused system, St. Charles County Police say](https://www.stlpr.org/news-briefs/2026-08-20/st-charles-county-police-ditch-flock-cameras-employee-abused-system) — *2026-08-20*
-- [[St. Louis] Foodies Eat First and Tenacious Eats join forces for a ‘Sinners’-themed dining experience](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-20/foodies-eat-first-tenacious-eats-dining-sinners-st-louis) — *2026-08-20*
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-08-22*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- [[St. Louis] 1 dead in crash in Washington County, Mo. - First Alert 4](https://www.firstalert4.com) — *2026-08-20*
-  > <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOcnctQ012ZEFKYjY3ZWZaUUlBQU4yRGs0NTlJcDRJekJlOWJJWjZ4MVdKbTNFaHJrNC1jR1Z0cHRwTEViYmExZUxDenRQSi1wU1otaE05Q1hDX3pmY0g0RUVYWmpuOTU2eDV2a1BtTlc5QVhldVZHYjFpbkRZdk50TVZOMFhzemNrUEVTMw?oc=5" target="_blank">1 dead in crash i
-- **NEW**  [[St. Louis] Dellwood Mayor Reggie Jones dies - First Alert 4](https://www.firstalert4.com) — *2026-08-21*
-  > <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFBLMTBRMG5XUWxaQ0lPbzZaQXpnT21LWjJBUU1hQ0c0RzZBS3NQNVdSVEgxRTBCcHhxSVJxWEtoRHpkOGxJM1JTSEhGQ01fa2g4dzFsamJnUXpGZG55dDdGVG5aeE9NWGpKWG95bjR2LTh2Y2REVGI1UHBDR0rSAZABQVVfeXFMTkY2cVVBc2J0c3BkWVZiSkZpX196dFJHUFQ5Yy1Fc2lKbG16Ul
-- [[St. Louis] Here are the exclusive food, drink items you can get during Banana Ball at Busch Stadium - First Alert 4](https://www.firstalert4.com) — *2026-08-20*
-  > <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQa1dkVW52SGpwbXRfa2E2YWZVckhJRXlBbkhBeDMwNHEwRVlUdU4xVHppRHBDRl9UdmxUY0VSZVR1MHhUZ3FTUXFvUjkyeXRBbHZ4TDI0c1BVZWxKRmN1SFRINFk2U2Rrdldidk9UTXFsZl9mWER2UnBZOVVEUFV4ZzY4T0lrTzk3cFdxOXR6RU12aWFBTXFaelh2TmQxUjNaUFFDcTJLc1ZTbF
-- [[St. Louis] Owner of vehicle in fatal crash killing WashU Ph.D. student submits DNA to police, attorney says - First Alert 4](https://www.firstalert4.com) — *2026-08-21*
-  > <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEdsNmZTaGxRd0sxVXdMUDBwZVQ4Mno3b0JuOVJnM3M5Z3BpMTY2WnNlMllIaXZsNmdMUTNVaUhxSHF6RHBEZzZLaFFJdmEyanBIRXBpbFFTRzZ6TFVNbW9HaXh3c2ozaGxYTW9WNjdzaF9XNjNDQnphLTRmSHM5UF9UV2c1NmoyZDNLRDdSTFFWTVczS0loVlVSSDBhVms2Zi14aTZrV2xwb2
-- **NEW**  [[St. Louis] Family visiting St. Louis for medical care awakened by volleys of gunfire outside a short-term rental - First Alert 4](https://www.firstalert4.com) — *2026-08-22*
-  > <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxOSW5ZQUlvbDFqNi01UXRQZTNHSks5dENCV1dFYzRYM0VvSGgzT1JlS1NaRHk0bDMzYXlBMElrSU9zSFdtMzF6YXN1TEZnbVNSREFGeTBlU3JrUjA1Q2piTnlaUm1ramxXWE5HRjRZRUFZdWxWQl9HY3RoRXZ3QVVyZTg3VWs2QzU5c3FEMUVYSGFtd3NSY3I5SFlJcjhKQ05Gc0RHekdiRExYcG
+- **NEW**  [[St. Louis] US is set to impose 50% tariffs on $20 billion worth of Canadian products](https://www.ksdk.com/article/news/nation-world/us-tariff-canada-products/507-c859bac6-a562-41d7-ac87-bda50537379b) — *2026-08-22*
+  > Canada immediately said it would retaliate with its own tariffs after failed last-minute negotiations between the historic allies.
+- **NEW**  [[St. Louis] 3 states to take big water cuts as Colorado River supplies continue to plunge](https://www.ksdk.com/article/news/nation-world/colorado-river-water-cuts-arizona-california-nevada/507-b5e96ad4-a301-4ab9-9279-1a66cdc217c0) — *2026-08-22*
+  > A prolonged drought and low snowpack are adding more stress on Western states that rely on the Colorado River's water.
+- [[St. Louis] CVPA employee brought gun to school, now in custody, police say](https://www.ksdk.com/article/news/local/cvpa-employee-gun-at-school-thursday/63-8b44cc5f-bdf5-42d6-b03c-fe06fcec2f84) — *2026-08-22*
+  > The public safety officer detained the employee, took him to the district's main office downtown and called police, investigators said.
+- **NEW**  [[St. Louis] 3 boys, 1 man recovering after pair of dogs attacked them in Belleville neighborhood](https://www.ksdk.com/article/news/local/3-boys-1-man-recovering-after-pair-of-dogs-attacked-them-in-belleville-neighborhood/63-c0bb6560-5197-4f83-b854-79059df822e5) — *2026-08-22*
+  > Ashley Jett, Director of Animal Services and Rescue, confirms the dogs are now under quarantine at the St. Clair County Animal Control Center.
+- **NEW**  [[St. Louis] Man charged with shooting, injuring another man in Clayton Thursday](https://www.ksdk.com/article/news/crime/man-charged-shooting-clayton-thursday/63-041d42e0-a0d1-4320-8584-2931fbb64a4e) — *2026-08-22*
+  > Anyone with information related to this investigation is encouraged to contact the Clayton Police Department Detective Bureau at 314-290-8416.
+- **NEW**  [[St. Louis] Dellwood Mayor Reggie Jones dies at 53, leaving behind decades of community leadership](https://www.ksdk.com/article/news/local/dellwood-mayor-reggie-jones-has-died/63-46d70233-1f0c-41b4-825e-b4bb9da5ec3e) — *2026-08-22*
+  > Regional leaders, faith communities, and local youth organizations mourn the loss of the long-serving public servant.
+- **NEW**  [[St. Louis] Brian Hickerson's brother speaks out on Hayden Panettiere's death, recalls finding her unconscious](https://www.ksdk.com/article/news/nation-world/hayden-panettiere-death-new-details-zack-hickerson-comments/507-5b5264ae-e819-42ba-96db-e64a94d964c0) — *2026-08-22*
+  > In a new interview, Zach Hickerson recalled that Panettiere's on-and-off again boyfriend administered Narcan after finding her unconscious.
+- **NEW**  [[St. Louis] Cardinals held lead 3 times but fell to Phillies, 7-6 in extra innings](https://www.ksdk.com/article/sports/cardinals-held-lead-3-times-but-fell-to-phillies-7-6-in-extra-innings/63-57f208ef-7731-4e2f-8a93-9f37f3201667) — *2026-08-22*
+  > Quinn Mathews will get the start on Saturday night in place of Pallante. The team will have to make another roster move before the game.
+- **NEW**  [[St. Louis] TikTok reaches $400 million settlement with US Justice Department over children's privacy](https://www.ksdk.com/article/news/nation-world/tiktok-settlement-justice-department-children-privacy/507-116d939d-893c-4449-b6b6-713227af97d0) — *2026-08-22*
+  > Since the DOJ’s lawsuit in 2024, TikTok has undergone major changes, most notably in the ownership structure of its U.S. arm.
+- **NEW**  [[St. Louis] 'Banana Ball' returns to Busch Stadium for games against Loco Beach Coconuts](https://www.ksdk.com/article/news/local/banana-ball-returns-to-busch-stadium-this-weekend/63-78dd2244-0fc5-4b13-834e-bd155b204c99) — *2026-08-22*
+  > Busch Stadium is celebrating the team's epic return with pregame festivities and special concessions.
+- **NEW**  [[St. Louis] More than 150,000 fans, $50M impact: BMW Championship brings major economic boost to St. Louis](https://www.ksdk.com/article/sports/golf/more-than-150000-fans-50m-impact-bmw-championship-brings-major-economic-boost-to-st-louis/63-f0d722e0-7666-4a21-95fc-cd946971e70a) — *2026-08-22*
+  > A record crowd packed Bellerive Thursday, as the championship boosts hotels, restaurants and local businesses across the region.
+- **NEW**  [[St. Louis] The PWHL's Walter Cup championship trophy went missing while in transit to Alberta](https://www.ksdk.com/article/news/nation-world/pwhls-walter-cup-championship-trophy-missing/507-e6527664-cddb-4117-aa4e-814f3733730b) — *2026-08-21*
+  > It’s unclear where the Walter Cup was last seen.
+- [[St. Louis] Supreme Court chief justice allowing work to continue on President Trump’s $400M White House ballroom](https://www.ksdk.com/article/news/nation-world/supreme-court-chief-justice-white-house-ballroom-construction-continues-president-donald-trump/507-ef4ed331-dfb8-46b1-8dd2-ce4122bc49ee) — *2026-08-21*
+  > Chief Justice John Roberts signed a temporary order allowing work to continue while the court considers an emergency appeal from the Trump administration.
+- **NEW**  [[St. Louis] Cinemark brings back fan-favorite popcorn promotion for one day](https://www.ksdk.com/article/news/nation-world/cinemark-bring-your-own-bucket-promotion-sept-6/507-46636a9e-413a-47a2-87cd-cdc522594a87) — *2026-08-21*
+  > The company announced that it is bringing back the “Bring Your Own Bucket” promotion on Sunday, Sept. 6.
+- **NEW**  [[St. Louis] 'Our hope is strong': Earth, Wind & Fire shares health update on drummer John Paris](https://www.ksdk.com/article/news/nation-world/earth-wind-fire-drummer-john-paris-recovery/507-10911f62-1d32-4df6-a11d-2ad0380862ac) — *2026-08-21*
+  > The drummer was placed in a coma after suffering a medical emergency earlier this month just minutes before taking the stage.
+- **NEW**  [[St. Louis] Misuse of license plate readers sparks push for a ban in St. Charles County](https://www.ksdk.com/article/news/local/misuse-of-license-plate-readers-sparks-push-for-a-ban-in-st-charles-county/63-2463fce4-6c16-470e-8db2-19a7f3539b73) — *2026-08-21*
+  > Following a misuse of surveillance technology by a St. Charles County police employee, local council members propose banning automated license plate readers.
 
-_(220 additional items in raw.jsonl)_
+_(230 additional items in raw.jsonl)_
