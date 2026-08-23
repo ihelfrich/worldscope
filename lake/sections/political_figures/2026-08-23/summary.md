@@ -14,7 +14,7 @@ state: fresh
 
 1. **Donald J. Trump** (President, Republican, United States): composite 0.200
    drivers: enforcement_hits=1.00
-   evidence: [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817], [lake:political_figures:gkg-20260817]
+   evidence: [lake:political_figures:gkg-20260823], [lake:political_figures:gkg-20260823], [lake:political_figures:gkg-20260823], [lake:political_figures:gkg-20260823], [lake:political_figures:gkg-20260822]
 2. **Tim Scott** (Senator, Republican, SC): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
    evidence: [lake:political_figures:0001307581-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001683168-2], [lake:political_figures:0001217160-2], [lake:political_figures:0001193125-2]

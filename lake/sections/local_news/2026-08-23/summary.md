@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-23
-record_count: 228
-new_today: 118
+record_count: 218
+new_today: 109
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-118 new of 228 total items today.
+109 new of 218 total items today.
 
 - [[St. Louis] Is it OK to ask a restaurant where its lettuce comes from?](https://www.stlmag.com/dining/ask-george-do-you-think-its-inappropriate-or-insulting-to-ask-a-restaurant-where-it-sources-its-lettuce/) — *2026-08-21*
   > <p>Do you think it’s inappropriate or insulting to ask a restaurant where it sources its lettuce? —Laura R., St. Louis This question is especially timely, given yesterday&#8217;s CDC&#8217;s update that the number of cyclospora cases has risen substantially, with 10,930 confirmed
@@ -21,8 +21,8 @@ state: fresh
   > <p>A St. Louis attorney is being sued by the executive chairman of a billion dollar critical minerals company after the attorney allegedly urged his ex-wife to make a &#8220;defamatory and outrageous” call to the executive’s Idaho housekeeper. The lawsuit, filed in federal court 
 - [[St. Louis] What’s True in the Lou? – 8/21/2026](https://www.stlmag.com/games/whats-true-in-the-lou-082126/) — *2026-08-21*
   > <p>How closely do you follow St. Louis news? We’re testing your knowledge of the stories we covered this week in the St. Louis Daily newsletter—the good, the bad, and the goofy. Submit your name at the end for a chance to be featured in The Daily among each week’s top scorers, an
-- **NEW**  [[St. Louis] Survivor of North St. Louis County house explosion turns recovery into inspiration through sneaker ball](https://www.ksdk.com/article/news/local/survivor-of-north-st-louis-county-house-explosion-turns-recovery-into-inspiration-through-sneaker-ball/63-ec0df1fd-9598-437a-890e-379e612f1925) — *2026-08-23*
-  > 5 On Your Side's Melanie Johnson hosted the event on Friday that highlighted Anthony's recovery and celebrated others making a difference in the community.
+- **NEW**  [[St. Louis] Survivor of north St. Louis County home explosion turns recovery into inspiration through sneaker ball](https://www.ksdk.com/article/news/local/survivor-of-north-st-louis-county-house-explosion-turns-recovery-into-inspiration-through-sneaker-ball/63-ec0df1fd-9598-437a-890e-379e612f1925) — *2026-08-23*
+  > 5 On Your Side's Melanie Johnson hosted the event Friday, highlighting Anthony's recovery and celebrating others making a difference in the community.
 - **NEW**  [[St. Louis] Viral curbside futon photo fuels panhandling debate in St. Louis County](https://www.ksdk.com/article/news/local/viral-curbside-futon-photo-fuels-panhandling-debate-in-st-louis-county/63-09398e9b-05cb-415d-b30a-b8338e10f214) — *2026-08-23*
   > A viral photo of a futon set up on a St. Louis County curb is fueling debate as leaders pass a new ordinance targeting aggressive panhandling.
 - **NEW**  [[St. Louis] Idaho woman swims solo across the English Channel: 'It just sounded like such an epic challenge'](https://www.ksdk.com/article/news/nation-world/idaho-woman-swims-solo-across-english-channel/507-dc535a47-4ced-4626-adf9-7c4b6c5f9335) — *2026-08-23*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[St. Louis] The CW drops Miss USA pageant from its broadcast lineup days before competition](https://www.ksdk.com/article/news/nation-world/miss-usa-teen-pageant-broadcast-the-cw-network-broadcast-schedule/507-6e8ab217-0018-43b1-9b8b-8e658b8fcd56) — *2026-08-22*
   > The pageants will now be streamed live on a separate media platform, which aired the competitions in 2025 as well.
 
-_(203 additional items in raw.jsonl)_
+_(193 additional items in raw.jsonl)_

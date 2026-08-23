@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-23
-record_count: 100
-new_today: 59
+record_count: 137
+new_today: 96
 state: fresh
 ---
 
 ## State Legislative Action
 
-59 new of 100 total items today.
+96 new of 137 total items today.
 
 - [[Alaska SB 280] An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for an ]() — *2026-08-22*
   > An Act relating to the taxation of certain natural gas pipeline property; relating to municipal taxation limitations; establishing an alternative volumetric tax on natural gas throughput; relating to the allocation of revenue from the alternative volumetric tax; and providing for
@@ -62,4 +62,4 @@ state: fresh
 - [[Alaska HJR 45] Urging the United States Congress to fully fund the Individuals with Disabilities Education Act.]() — *2026-08-21*
   > Urging the United States Congress to fully fund the Individuals with Disabilities Education Act.
 
-_(75 additional items in raw.jsonl)_
+_(112 additional items in raw.jsonl)_
