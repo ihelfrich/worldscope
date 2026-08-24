@@ -2,17 +2,41 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-24
-record_count: 188
-new_today: 123
+record_count: 194
+new_today: 135
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-123 new of 188 total items today.
+135 new of 194 total items today.
 
+- **NEW**  [[St. Louis] The 40th anniversary of ‘Harp Attack!’ shines a light on St. Louis’ rich harmonica history](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-24/40th-anniversary-harp-attack-shines-light-st-louis-rich-harmonica-history) — *2026-08-24*
+- **NEW**  [[St. Louis] Sean Grayson, former cop convicted of killing Sonya Massey, dies](https://www.stlpr.org/law-order/2026-08-23/sean-grayson-former-cop-convicted-killing-sonya-massey-dies) — *2026-08-24*
 - **NEW**  [[St. Louis] Lou’s Clues – 8/24/2026](https://www.stlmag.com/games/lous-clues-082426/) — *2026-08-24*
   > <p>Put your emoji-decoding skills to the test with Lou’s Clues—the weekly family puzzle game inspired by all things STL! Each puzzle challenges kids and grown-ups to work together to crack the clue. Whether you solve it in seconds or laugh your way through wild guesses, Lou’s Clu
+- **NEW**  [[St. Louis] See the Aug. 24, 1926, front page: Valentino burial to be in America, funeral Monday](https://www.stltoday.com/news/archives/article_3f5202ce-9996-4cea-b147-81fd29d61912.html) — *2026-08-24*
+  > Headlines from the Aug. 24, 1926, front page include: Bank employee's books found to be $16,000 short
+- **NEW**  [[St. Louis] New laws go into effect Friday](https://www.stltoday.com/news/article_7301c0c1-287f-4b5e-90ca-d44976e63ffa.html) — *2026-08-24*
+  > Plus: Kirkwood took millions from its electric utility, treated it like 'slush fund' before crash
+- **NEW**  [[St. Louis] 'I LEARNED FROM A GREAT TEACHER'](https://www.stltoday.com/image_fb2636ba-4a4d-50e3-9245-22c848306aab.html) — *2026-08-24*
+  > School nurse Erin Rimkus, left, talks with April Maldonado, center, and her son Christian Maldonado before an all-district gathering of teachers Tuesday, Aug. 18, 2026, at Kirkwood High School. Christian is a new teacher in the Kirkwood School District, joining…
+- **NEW**  [[St. Louis] State put teen in foster home not licensed to care for him](https://www.stltoday.com/article_00c89739-d939-5883-b825-fd7f0e77d06e.html) — *2026-08-24*
+  > It was after 5 p.m. on May 13, and 17-year-old Korbin Papadopoulos sat in the Macon County office of the Missouri Children's Division waiting for his next foster placement.
+- **NEW**  [[St. Louis] Federal policy complicates battle against opioids](https://www.stltoday.com/image_462f4462-1400-5a5e-a258-9e3a0bf495db.html) — *2026-08-24*
+  > Baltimore Mayor Brandon Scott is joined by other city officials as he provides an update after a mass overdose incident in the city's Penn North neighborhood in July 2025.
+- **NEW**  [[St. Louis] Federal policy complicates battle against opioids](https://www.stltoday.com/image_571ca241-64e2-5c2c-9f74-d13eff521ef6.html) — *2026-08-24*
+  > Naloxone, an overdose reversal drug, is spread out on a street corner for people to take after a 2025 mass overdose incident in Baltimore's Penn North neighborhood.
+- **NEW**  [[St. Louis] Federal policy complicates battle against opioids](https://www.stltoday.com/article_4fab339d-8eb8-5b93-a57f-252fb81ac616.html) — *2026-08-24*
+  > Last year, Baltimore had three mass overdose incidents in the span of three months in its Penn North neighborhood.
+- **NEW**  [[St. Louis] Mississippi ranks as most dangerous state for fatal crashes](https://www.stltoday.com/article_04a572aa-b316-5d32-b4b7-c13c48ac24bf.html) — *2026-08-24*
+  > Mississippi is the most dangerous state for drivers based on its rate of fatal crashes per 100,000 residents, according to a new analysis of federal data.
+- **NEW**  [[St. Louis] IN TODAY'S SPORTS SECTION](https://www.stltoday.com/article_f4424535-0bdc-511e-85a6-fc0c9f600fe9.html) — *2026-08-24*
+  > From Benjamin Hochman's column:
+- **NEW**  [[St. Louis] LAW AND ORDER](https://www.stltoday.com/article_7fa98b20-9e75-5c61-9290-40c7042329c2.html) — *2026-08-24*
+  > CLAYTON — Man gets 18 years for 2021 homicide: Dan Pruitt, 34, was sentenced to 18 years in prison Friday for the 2021 murder of Courtland Crump.
+- **NEW**  [[St. Louis] Thousands evacuate Reno, Nevada, as 'human-caused' fire rips through neighborhoods](https://www.ksdk.com/article/news/nation-world/reno-nevada-fire-evacuate-thousands-joe-lombardo/507-d1d8c764-8f38-4e2d-9d7b-fc6b1a5e90cd) — *2026-08-24*
+  > Nevada's governor declared a state of emergency and mobilized the National Guard.
 - **NEW**  [[St. Louis] Dozens of animals saved from 'horrid' conditions in Madison County](https://www.ksdk.com/article/news/crime/animals-saved-from-horrid-conditions-in-madison-county-glen-carbon-granite-city/63-f97e1b84-7807-48a2-8847-77289239c3e4) — *2026-08-24*
   > Authorities rescued dozens of animals from two Madison County, Illinois, properties, while more than 10 dogs were found dead.
 - **NEW**  [[St. Louis] He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.](https://www.ksdk.com/article/news/nation-world/navy-father-uss-lincoln-border-patrol-arrest/507-c882406d-eac3-4747-b25a-43356dd1f3d9) — *2026-08-24*
@@ -35,31 +59,5 @@ state: fresh
   > Lauren Salkin's lawsuit accuses Sheridan, Paramount and other studios and producers of copying her 2016 series pitch and turning it into "Yellowstone."
 - **NEW**  [[St. Louis] Wet dog food recalled over metal contamination risk](https://www.ksdk.com/article/news/nation-world/fromm-wet-dog-food-recalled-metal-contamination-risk/507-5c6b84c7-cd70-458b-b1c2-05fcf584eb94) — *2026-08-23*
   > Fromm Family Foods is recalling nearly 6,000 cases of two canned dog food varieties after complaints of potential metal contamination.
-- **NEW**  [[St. Louis] Vine-inspired app Divine launches with a ‘human-made’ content focus](https://www.ksdk.com/article/news/nation-world/vine-inspired-app-divine-launches-ai-ban/507-b0f3081c-667d-42a6-b974-9ff465322551) — *2026-08-23*
-  > The app features six-second looping videos and an archive of more than 2.5 million clips from the original Vine.
-- **NEW**  [[St. Louis] COVID cases are on the rise nationwide ahead of cold and flu season](https://www.ksdk.com/article/news/nation-world/covid-cases-rise-cold-flu-rsv-influenza-respiratory-illness-virus/507-0577b09d-ff2a-4b95-9700-44c3a17bd0ed) — *2026-08-23*
-  > Cases of COVID-19 are trending upward, ahead of the more traditional cold, flu and RSV season that typically begins in late summer and early fall.
-- **NEW**  [[St. Louis] Deadly semitruck rollover crash closes eastbound I-270 in Glen Carbon](https://www.ksdk.com/article/traffic/semitruck-rollover-closes-eastbound-i-270-in-glen-carbon/63-da7da8a5-bc18-4b53-8e09-dea5e5a2ea0f) — *2026-08-23*
-  > IDOT expected eastbound lanes to remain closed until 2:30 p.m. Sunday.
-- **NEW**  [[St. Louis] Humanoid breaks Usain Bolt's 100m time — and other human records — at Beijing robot games](https://www.ksdk.com/article/news/nation-world/humanoid-breaks-human-record-usain-bolt-sprint-high-jump-robot-games/507-1d72480e-1ee7-4c73-b4db-aa7067dce9a0) — *2026-08-23*
-  > A robot finished the sprint in 9.39 seconds, topping Bolt’s 9.58-second mark from 2009. Another robot surpassed the human high jump record.
-- **NEW**  [[St. Louis] East St. Louis shooting leaves 2 injured Sunday](https://www.ksdk.com/article/news/crime/east-st-louis-shooting-missouri-avenue-sunday/63-e789a387-8be9-4164-96cc-0809429aeb0b) — *2026-08-23*
-  > The investigation remained ongoing Sunday afternoon, and no arrests had been made in the shooting.
-- **NEW**  [[St. Louis] Buckcherry says band and crew 'unharmed' in deadly South Carolina crash involving tour bus](https://www.ksdk.com/article/news/nation-world/buckcherry-tour-bus-deadly-crash-spartanburg-county-south-carolina/507-c3336724-b6de-46e8-ada3-ed7f6f6ac2af) — *2026-08-23*
-  > The band issued a statement Friday evening, saying that the touring crew and members of the band were "safe and unharmed."
-- **NEW**  [[St. Louis] Man shot, killed Sunday in north St. Louis](https://www.ksdk.com/article/news/crime/shooting-north-st-louis-cottage-avenue/63-c3ad0f29-98fa-49e5-a75f-39467f1808bf) — *2026-08-23*
-  > The shooting happened at about 7:30 a.m. on Cottage Avenue.
-- **NEW**  [[St. Louis] Alabama high school football team breaks nation's longest losing streak with first win since 2015](https://www.ksdk.com/article/news/nation-world/huntsville-alabama-high-school-football-team-breaks-losing-streak/507-45c1a010-c261-4c74-8c0f-e84aba3d4528) — *2026-08-23*
-  > An Alabama high school football team held the record for the longest losing streak in the nation. That ended Saturday night, with its first win since 2015.
-- **NEW**  [[St. Louis] USS Abraham Lincoln returns to San Diego amid calls for probe into crew conditions](https://www.ksdk.com/article/news/nation-world/aircraft-carrier-uss-abraham-lincoln-returns-san-diego-crew-conditions-investigation/507-0f7a2ec9-785d-461e-b9ba-e1cd1196c978) — *2026-08-23*
-  > The USS Abraham Lincoln returns to the U.S. after a long deployment. It's at the center of a probe into alleged reports of mental health issues and supply shortages.
-- [[St. Louis] Survivor of north St. Louis County home explosion turns recovery into inspiration through sneaker ball](https://www.ksdk.com/article/news/local/survivor-of-north-st-louis-county-house-explosion-turns-recovery-into-inspiration-through-sneaker-ball/63-ec0df1fd-9598-437a-890e-379e612f1925) — *2026-08-23*
-  > 5 On Your Side's Melanie Johnson hosted the event Friday, highlighting Anthony's recovery and celebrating others making a difference in the community.
-- [[St. Louis] Viral curbside futon photo fuels panhandling debate in St. Louis County](https://www.ksdk.com/article/news/local/viral-curbside-futon-photo-fuels-panhandling-debate-in-st-louis-county/63-09398e9b-05cb-415d-b30a-b8338e10f214) — *2026-08-23*
-  > A viral photo of a futon set up on a St. Louis County curb is fueling debate as leaders pass a new ordinance targeting aggressive panhandling.
-- **NEW**  [[St. Louis] 'It just sounded like such an epic challenge' | Idaho woman swims solo across the English Channel](https://www.ksdk.com/article/news/nation-world/idaho-woman-swims-solo-across-english-channel/507-dc535a47-4ced-4626-adf9-7c4b6c5f9335) — *2026-08-23*
-  > Christine Turpin became one of just 2,100 people and the first ever from her home state to accomplish the feat.
-- [[St. Louis] Hawaii braces for Tropical Storm Moke, but cleanup from Hurricane Lala is just beginning](https://www.ksdk.com/article/news/nation-world/tropical-storm-moke-hawaii-big-island-hurricane-lala-flash-flood-landslide-rain-winds/507-954a4e5b-3fb6-45e3-b03f-f54d19ea45a7) — *2026-08-23*
-  > Tropical Storm Moke advanced toward Hawaii on Saturday, likely bringing more heavy rainfall and strong gusts to the Big Island.
 
-_(163 additional items in raw.jsonl)_
+_(169 additional items in raw.jsonl)_

@@ -3,13 +3,13 @@ section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-24
 record_count: 19
-new_today: 18
+new_today: 19
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-18 new of 19 total items today.
+19 new of 19 total items today.
 
 - **NEW**  [M 6.0 - 33 km SSW of Honchō, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmz6) — *2026-08-23*
   > M6.0 · 33 km SSW of Honchō, Japan · depth 42.867 km
@@ -19,10 +19,10 @@ state: fresh
   > M5.3 · southern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 5.2 - 61 km NE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0s) — *2026-08-23*
   > M5.2 · 61 km NE of Ruteng, Indonesia · depth 10 km
-- [M 5.2 - 124 km ESE of Kirakira, Solomon Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmxn) — *2026-08-23*
-  > M5.2 · 124 km ESE of Kirakira, Solomon Islands · depth 120.328 km
 - **NEW**  [M 5.0 - 228 km ESE of Attu Station, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn19) — *2026-08-23*
   > M5.0 · 228 km ESE of Attu Station, Alaska · depth 13.186 km
+- **NEW**  [M 4.9 - 10 km NNW of Cot, Costa Rica](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn2j) — *2026-08-24*
+  > M4.9 · 10 km NNW of Cot, Costa Rica · depth 10 km
 - **NEW**  [M 4.9 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1z) — *2026-08-24*
   > M4.9 · southern Mid-Atlantic Ridge · depth 10 km
 - **NEW**  [M 4.9 - 11 km N of Bowangshan, China](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1h) — *2026-08-24*

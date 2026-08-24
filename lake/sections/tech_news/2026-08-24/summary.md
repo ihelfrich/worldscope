@@ -3,31 +3,42 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-24
 record_count: 55
-new_today: 15
+new_today: 19
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-15 new of 55 total items today.
+19 new of 55 total items today.
 
+- **NEW**  [[The Hacker News] UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit](https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html) — *2026-08-24*
+  > Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors.
+
+The vast majority of the targets are located in Brazil, B
+- **NEW**  [[Cybersecurity Dive] Salesforce gave every org the same free scanner. Attackers already know what it misses.](https://www.cybersecuritydive.com/spons/salesforce-gave-every-org-the-same-free-scanner-attackers-already-know-wha/828063/) — *2026-08-24*
+  > A defense every attacker can rehearse against isn't a defense. It's a false sense of security.
+- **NEW**  [[The Register] Canonical backs quest to translate mountains of C into safe Rust with AI](https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959) — *2026-08-24*
+  > Bungs banknotes at Bristol boffins to find out if mature code survives the machine
+- **NEW**  [[The Register] Software should work, and talking about it needn't be boring](https://www.theregister.com/columnists/2026/08/24/software-should-work-and-talking-about-it-neednt-be-boring/5290862) — *2026-08-24*
+  > Bingeing the boxed set of binary bafflement
+- **NEW**  [[The Register] China calls off ambitious ice-hunting moonshot a day before flight](https://www.theregister.com/science/2026/08/24/china-calls-off-ambitious-ice-hunting-moonshot-a-day-before-flight/5291536) — *2026-08-24*
+  > Chang'e 7 didn’t meet unspecified ‘launch requirements’
 - **NEW**  [[The Register] Batch file automated a clean-up job, then fouled itself by deleting the wrong directory](https://www.theregister.com/software/2026/08/24/batch-file-automated-a-clean-up-job-then-fouled-itself-by-deleting-the-wrong-directory/5290873) — *2026-08-24*
   > It survived testing and the boss signed off, so who was really to blame?
 - **NEW**  [[The Register] AI-driven upgrade of communications energy storage empowers a new energy ecosystem for multiple industries](https://www.theregister.com/ai-and-ml/2026/08/24/sponsored-ai-driven-upgrade-of-communications-energy-storage-empowers-a-new-energy-ecosystem-for-multiple-industries/5290186) — *2026-08-24*
   > SPONSORED FEATURE: Embedding AI at communication sites to empower energy optimization, power grid stability control and low-carbon development
+- **NEW**  [[Computer Weekly] How can the UK plan rationally for the datacentre future it needs?](https://www.computerweekly.com/opinion/How-can-the-UK-plan-rationally-for-the-datacentre-future-it-needs) — *2026-08-24*
+  > &lt;p&gt;Rising &lt;a href="https://www.computerweekly.com/resources/Data-Centre"&gt;demand for datacentres&lt;/a&gt; is fuelled by rapid technological development and increased reliance on digital and AI innovations in personal and professional life.&lt;/p&gt; 
+&lt;p&gt;The gove
 - **NEW**  [[Computer Weekly] CW@60: From Moon landings to AI - how our relationship with technology has changed](https://www.computerweekly.com/feature/CW60-From-Moon-landings-to-AI-how-our-relationship-with-technology-has-changed) — *2026-08-24*
   > &lt;div class="imagecaption alignLeft"&gt;
  &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
 &lt;/div&gt; 
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
+- **NEW**  [[MIT Technology Review] Kids outlearn AI—and we still don’t know why](https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/) — *2026-08-24*
+  > People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the 
 - **NEW**  [[BleepingComputer] ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/) — *2026-08-23*
   > The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]
-- **NEW**  [[The Register] Ancient ‘Who owns Linux?’ case now has one foot very deep in the grave](https://www.theregister.com/software/2026/08/24/ancient-who-owns-linux-case-now-has-one-foot-very-deep-in-the-grave/5291513) — *2026-08-23*
-  > Appeals court upholds decision the case is dead, but Xinuos is trying for a long-shot re-hearing
-- **NEW**  [[The Register] How Cursor beat Git's scalability shortcomings](https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421) — *2026-08-23*
-  > S3 keeps the source of truth while local NVMe repositories do the latency-sensitive work
-- **NEW**  [[The Register] An ultra-rare piece of Microsoft history could be hiding on your shelf](https://www.theregister.com/offbeat/2026/08/23/an-ultra-rare-piece-of-microsoft-history-could-be-hiding-on-your-shelf/5291118) — *2026-08-23*
-  > Red Tetris stickers and shirtless Windows 95 tots - accidental collectibles gathering dust
 - **NEW**  [[Ars Technica] Due to need for 'absolute success,' China delays critical Moon launch to 2027](https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/) — *2026-08-23*
   > "The Chang’e 7 mission does not meet the conditions for launch."
 - **NEW**  [[Ars Technica] Volcanoes that made history](https://arstechnica.com/science/2026/08/volcanoes-that-made-history/) — *2026-08-23*
@@ -58,17 +69,5 @@ As part of the settlement, the social media platform will pay $300 million imm
   > A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]
 - [[BleepingComputer] Hundreds of leaked AWS keys give full control over corporate accounts](https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/) — *2026-08-21*
   > More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]
-- [[The Hacker News] 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2](https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html) — *2026-08-21*
-  > Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0.
-
-"When the module loads, it locates
-- [[The Hacker News] Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html) — *2026-08-21*
-  > Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software fl
-- [[The Hacker News] Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet](https://thehackernews.com/2026/08/android-car-malware-spreads-through.html) — *2026-08-21*
-  > Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.
-
-Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloa
-- [[The Hacker News] Wazuh and AI For Enhanced SOC Workflows](https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html) — *2026-08-21*
-  > Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster de
 
 _(30 additional items in raw.jsonl)_
