@@ -63,7 +63,7 @@ exercises.
 |---|---|
 | `tract_geoid_2010` | as above |
 | `tract_geoid_2000` | the 2000-census tract that contributed the largest share of this 2010 tract's population (Census 2010 tract relationship file, `POPPCT10`) |
-| `poppct10` | that share, in percent. 100 = the tract didn't change between censuses. Low values mean the mapping is genuinely uncertain — worth flagging in your write-up. |
+| `poppct10` | that share, in percent. 100 = the tract didn't change between censuses. Low values mean the mapping is uncertain — flag them in your write-up. |
 | `n_deals` | transactions, FY2003–2007 |
 | `total_qlici` | dollars, FY2003–2007 |
 

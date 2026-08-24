@@ -79,28 +79,29 @@ identification idea, data, sample rules, specification, headline numbers.
 
 # The idea, in plain words
 
-**The program.** The New Markets Tax Credit (enacted 2000) gives investors a 39%
-federal tax credit for equity put into community development entities, which must
-invest it in businesses and real estate in low-income communities. Billions of
-dollars flow through it.
+The New Markets Tax Credit (enacted 2000) gives investors a 39% federal tax credit
+for equity put into community development entities, which must invest it in
+businesses and real estate in low-income communities. Billions of dollars flow
+through it.
 
-**The rule.** A tract is a "low-income community" if its poverty rate is at least
-20%, *or* its median family income is at most 80% of the area median — state median
-for non-metro tracts, the larger of state and metro median for metro tracts.
+A census tract is a "low-income community" if its poverty rate is at least 20%,
+*or* its median family income is at most 80% of the area median — state median for
+non-metro tracts, the larger of state and metro median for metro tracts. Cross either
+threshold and you're eligible for that capital.
 
-**The trick.** A tract at 79.9% of area income and a tract at 80.1% are, for any
-economic purpose, the same place. One is eligible for subsidized capital and the
-other is not. Comparing tracts just below the line to tracts just above is about as
-close to a randomized experiment as observational data gets. That's a regression
-discontinuity design.
+A tract at 79.9% of area income and a tract at 80.1% are, for any economic purpose,
+the same place. But one is eligible for subsidized capital and the other isn't.
+Comparing tracts just below the line to tracts just above is about as close to a
+randomized experiment as observational data gets — that's a regression discontinuity
+design.
 
-**The first stage.** None of it matters unless the rule actually moves money. Do
-just-below tracts really get more NMTC investment than just-above tracts? That jump
-is what we're estimating.
+Of course, none of it matters unless the rule actually moves money. Do just-below
+tracts really get more NMTC investment than tracts just above? That jump is what
+we're estimating — and it's called the first stage.
 
-**Why the lab cares.** "Does public money pull private money into places it
-otherwise skips?" is the question Katia's COMPETE2020 project asks about Portugal.
-You're learning the US benchmark for the thing you'll help her build.
+One more thing: "does public money pull private money into places it otherwise
+skips?" is the question Katia's COMPETE2020 project asks about Portugal. You're
+building the US benchmark for the thing you'll help her measure.
 
 Vocabulary you'll need: *running variable* (the income ratio the rule is applied
 to), *cutoff* (0.80), *window* or *bandwidth* (how close to the cutoff a tract must
@@ -274,7 +275,7 @@ mean(elig$metro)                                      # ~0.75
 > number you built from scratch hits an external benchmark, say so in your write-up;
 > that's what credibility looks like.
 
-Here is the trap that quietly ruins this replication: eligibility is income ≤ 80%
+Watch out for a trap that quietly ruins this replication: eligibility is income ≤ 80%
 **or** poverty ≥ 20%. A tract at 85% of area income with 22% poverty is eligible.
 Leave those tracts in and your "ineligible" side is contaminated and the jump
 shrinks. Find how Freedman handles this in the paper, then build the clean sample:
@@ -314,7 +315,7 @@ mean(analysis$got_nmtc)   # small — most tracts never see a deal
 ```
 
 Some deal tracts won't appear in `analysis`. Account for them: poverty-route tracts
-you dropped on purpose, Puerto Rico, genuinely odd GEOIDs. "I can explain every row
+you dropped on purpose, Puerto Rico, stray GEOIDs. "I can explain every row
 I dropped" is the difference between a replication and a vibe.
 
 ## Run the first stage
