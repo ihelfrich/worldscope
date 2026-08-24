@@ -78,6 +78,12 @@ jobs:
           OPENFEC_API_KEY: ${{ secrets.OPENFEC_API_KEY }}
           GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
           ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
+          # Configured as repo secrets since May and read by no code until now.
+          # BEA has no keyless mode (hard requirement); BLS and Congress.gov
+          # both work unauthenticated but at sharply lower limits.
+          BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
           WORLDSCOPE_SKIP: sanctions,people
         run: python -m worldscope.preflight
 
@@ -107,6 +113,12 @@ jobs:
           OPENFEC_API_KEY: ${{ secrets.OPENFEC_API_KEY }}
           GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
           ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
+          # Configured as repo secrets since May and read by no code until now.
+          # BEA has no keyless mode (hard requirement); BLS and Congress.gov
+          # both work unauthenticated but at sharply lower limits.
+          BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
           # CI can't see the local 2.6 GB OpenSanctions corpus or the
           # PEP index built from it. Skip those sections so locally-generated
           # content (from Ian's machine, where the data files live) carries

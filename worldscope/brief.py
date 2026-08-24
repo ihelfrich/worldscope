@@ -32,12 +32,15 @@ from .render import render_page
 from .lib.watchareas import load_watch_areas, tag_items
 from .sections import SectionState
 from .sections.acled import AcledSection
+from .sections.bea import BeaSection
 from .sections.billionaires import BillionairesSection
+from .sections.bls import BlsSection
 from .sections.cisa_kev import CisaKevSection
 from .sections.epss import EpssSection
 from .sections.commentary import CommentarySection
 from .sections.tech_news import TechNewsSection
 from .sections.conflict import ConflictSection
+from .sections.congress import CongressSection
 from .sections.congressional_record import CongressionalRecordSection
 from .sections.congressional_trades import CongressionalTradesSection
 from .sections.courtlistener import CourtListenerSection
@@ -91,6 +94,12 @@ SECTION_REGISTRY = [
     PaperBetsSection,
     WeatherSection,
     MacroSection,
+    # Three sources whose credentials had been configured for months and read
+    # by zero code. BEA and BLS sit next to macro because they answer the same
+    # question from primary statistical agencies rather than via FRED.
+    BeaSection,
+    BlsSection,
+    CongressSection,
     MarketsSection,
     MarketsGlobalSection,
     SanctionsProcurementSection,

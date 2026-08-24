@@ -48,7 +48,14 @@ STALE_DAYS = 3
 # Sections whose adapters return empty without a credential. Keyed by section id;
 # value is the list of env vars that must ALL be present for the section to work.
 # (Source: the adapters' own environ.get() calls.)
-REQUIRED_KEYS: dict[str, list[str]] = {
+# Hand-maintained fallback ONLY. The authoritative answer is each Section's
+# own `requires_env` declaration, which the base class enforces before pull().
+# This dict used to be the only source, and it is exactly the drift that let
+# credentials go missing: a section could require a key that this file had
+# never heard of, so a missing key classified as EMPTY ("quiet day") instead
+# of NO_KEY ("broken sensor"). It is kept only for the case where the section
+# registry cannot be imported.
+_FALLBACK_REQUIRED_KEYS: dict[str, list[str]] = {
     "macro":      ["FRED_API_KEY"],
     # markets falls back to keyless Yahoo, so it has no hard credential need.
     "mediacloud": ["MEDIACLOUD_API_KEY"],
@@ -56,6 +63,31 @@ REQUIRED_KEYS: dict[str, list[str]] = {
     "firms":      ["FIRMS_MAP_KEY"],
     "state_bills": ["OPENSTATES_API_KEY"],
 }
+
+
+def required_keys() -> dict[str, list[str]]:
+    """section_id -> hard-required env vars, read from the sections themselves.
+
+    Derived rather than declared, so a new section that needs a credential
+    cannot be invisible here. Imported lazily: brief.py pulls in integrity for
+    its stage, so a module-level import would cycle.
+    """
+    try:
+        from .brief import SECTION_REGISTRY
+    except Exception:  # pragma: no cover - only if the registry cannot load
+        return dict(_FALLBACK_REQUIRED_KEYS)
+    derived = {
+        cls.id: list(cls.requires_env)
+        for cls in SECTION_REGISTRY
+        if getattr(cls, "requires_env", ())
+    }
+    for sid, keys in _FALLBACK_REQUIRED_KEYS.items():
+        derived.setdefault(sid, keys)
+    return derived
+
+
+# Backwards-compatible alias for readers that expect the old mapping.
+REQUIRED_KEYS: dict[str, list[str]] = _FALLBACK_REQUIRED_KEYS
 
 STATUS_ORDER = ["FAILED", "NO_KEY", "EMPTY", "STALE", "SKIPPED", "FRESH"]
 
@@ -119,7 +151,7 @@ def classify_section(
 
 def _missing_keys(section_id: str, env: Optional[dict] = None) -> list[str]:
     env = env if env is not None else os.environ
-    return [k for k in REQUIRED_KEYS.get(section_id, []) if not env.get(k)]
+    return [k for k in required_keys().get(section_id, []) if not env.get(k)]
 
 
 # ---------------------------------------------------------------------------
@@ -288,7 +320,7 @@ def _main(argv: Optional[list[str]] = None) -> int:
     sids = section_ids_from_registry()
     if not sids:  # fallback: whatever the lake has seen, plus key-gated sections
         seen = [r[0] for r in conn.execute("SELECT DISTINCT section_id FROM records")]
-        sids = sorted(set(seen) | set(REQUIRED_KEYS))
+        sids = sorted(set(seen) | set(required_keys()))
     reports = assess(conn, sids, today=today, store=SnapshotStore())
     print(summary_line(reports), "\n")
     for r in reports:
