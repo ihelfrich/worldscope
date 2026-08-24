@@ -40,7 +40,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
+import re
 import sqlite3
+import uuid
 from contextlib import contextmanager
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
@@ -364,7 +367,209 @@ class Lake:
 
     def _migrate(self) -> None:
         assert self._conn is not None
-        self._conn.executescript(SCHEMA_V1)
+        # SCHEMA_V1 re-runs on every open (CREATE ... IF NOT EXISTS). Once a
+        # forecast table has become a view, its original CREATE INDEX lines
+        # fail with "views may not be indexed" — the equivalent indexes now
+        # live on the _versions table and are created by the migration.
+        already = self._conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE name = 'predictions_versions'"
+        ).fetchone()
+        self._conn.executescript(_schema_sql(skip_versioned_indexes=bool(already)))
+        self._migrate_to_versioned()
+        self._drop_stale_foreign_keys()
+
+    # ------------------------------------------------------------------ #
+    # Append-only forecast record
+    # ------------------------------------------------------------------ #
+
+    def _migrate_to_versioned(self) -> None:
+        """Convert each forecast table into `<t>_versions` + a view named `<t>`.
+
+        Every one of these was written with INSERT OR REPLACE against a single
+        primary key, which is a full-row overwrite: a prediction's confidence
+        or a bet's entry price could be rewritten by any later run. The
+        pipeline also ran twice a day (daily-brief.yml triggered on push as
+        well as cron), so the second run overwrote the first run's forecasts
+        by construction.
+
+        The view keeps the ORIGINAL column list, in the original order, so
+        `SELECT *` returns exactly what it did before and no reader — the MCP
+        server, track_record, signals, claims, graphics, site_builder — needs
+        to change.
+
+        Idempotent: presence of `<t>_versions` means the work is done.
+        """
+        conn = self._conn
+        assert conn is not None
+
+        for table, spec in VERSIONED_TABLES.items():
+            existing = conn.execute(
+                "SELECT type FROM sqlite_master WHERE name = ?", (table,)
+            ).fetchone()
+            already = conn.execute(
+                "SELECT 1 FROM sqlite_master WHERE name = ?", (f"{table}_versions",)
+            ).fetchone()
+            if already or existing is None or existing["type"] != "table":
+                continue
+
+            cols = list(conn.execute(f"PRAGMA table_info({table})"))
+            names = [c["name"] for c in cols]
+
+            # Rebuild the column definitions from PRAGMA rather than copying
+            # the original DDL. That deliberately drops PRIMARY KEY and
+            # REFERENCES clauses: `id` is now a logical key that repeats across
+            # revisions, and paper_bet_marks.bet_id cannot carry a foreign key
+            # to paper_bets once that name is a view.
+            defs = []
+            for c in cols:
+                piece = f'"{c["name"]}" {c["type"] or "TEXT"}'
+                if c["notnull"]:
+                    piece += " NOT NULL"
+                if c["dflt_value"] is not None:
+                    piece += f" DEFAULT {c['dflt_value']}"
+                defs.append(piece)
+
+            col_list = ", ".join(f'"{n}"' for n in names)
+            as_of_col = spec["as_of"]
+            key_col = spec["key"]
+
+            conn.executescript(f"""
+                CREATE TABLE "{table}_versions" (
+                    row_uid       INTEGER PRIMARY KEY AUTOINCREMENT,
+                    {", ".join(defs)},
+                    as_of         TEXT NOT NULL,
+                    run_id        TEXT,
+                    revision      INTEGER NOT NULL DEFAULT 1,
+                    superseded_at TEXT
+                );
+                INSERT INTO "{table}_versions" ({col_list}, as_of, run_id, revision)
+                    SELECT {col_list},
+                           COALESCE("{as_of_col}", '1970-01-01T00:00:00Z'),
+                           NULL,
+                           1
+                    FROM "{table}";
+                DROP TABLE "{table}";
+                CREATE VIEW "{table}" AS
+                    SELECT {col_list} FROM "{table}_versions"
+                     WHERE superseded_at IS NULL;
+                CREATE INDEX IF NOT EXISTS "idx_{table}_ver_key"
+                    ON "{table}_versions"("{key_col}", revision);
+                CREATE INDEX IF NOT EXISTS "idx_{table}_ver_asof"
+                    ON "{table}_versions"(as_of);
+                CREATE INDEX IF NOT EXISTS "idx_{table}_ver_current"
+                    ON "{table}_versions"(superseded_at);
+            """)
+
+    def _drop_stale_foreign_keys(self) -> None:
+        """Rebuild claim_evidence without its REFERENCES claims(id) clause.
+
+        `claims` is a view now, and SQLite reports `foreign key mismatch` on
+        any insert into a table whose FK points at one. claim_evidence is not
+        itself versioned (its parent claim is), so it only needs the constraint
+        removed, not a version history.
+        """
+        conn = self._conn
+        assert conn is not None
+        row = conn.execute(
+            "SELECT sql FROM sqlite_master WHERE name = 'claim_evidence'"
+        ).fetchone()
+        if row is None or "REFERENCES claims" not in (row["sql"] or ""):
+            return
+        conn.executescript("""
+            PRAGMA foreign_keys = OFF;
+            CREATE TABLE claim_evidence_new (
+                claim_id      TEXT NOT NULL,
+                record_id     TEXT NOT NULL,
+                section_id    TEXT,
+                source_id     TEXT,
+                source_tier   TEXT,
+                support_label TEXT NOT NULL DEFAULT 'supports',
+                evidence_role TEXT,
+                weight        REAL NOT NULL DEFAULT 1.0,
+                record_date   TEXT,
+                PRIMARY KEY (claim_id, record_id)
+            );
+            INSERT INTO claim_evidence_new SELECT
+                claim_id, record_id, section_id, source_id, source_tier,
+                support_label, evidence_role, weight, record_date
+            FROM claim_evidence;
+            DROP TABLE claim_evidence;
+            ALTER TABLE claim_evidence_new RENAME TO claim_evidence;
+            CREATE INDEX IF NOT EXISTS idx_claim_ev_record
+                ON claim_evidence(record_id);
+            PRAGMA foreign_keys = ON;
+        """)
+
+    def _append_version(self, table: str, key_value: str, payload: dict,
+                        *, run_id: Optional[str] = None) -> None:
+        """Supersede the current revision for `key_value`, then insert a new one.
+
+        `as_of` is the moment the system came to hold this row, which is the
+        write time -- NOT the domain time. They are different things and
+        conflating them breaks point-in-time reconstruction: a prediction
+        carries `made_at`, a bet carries `timestamp_bet`, and those stay in
+        their own columns as domain facts. `knowledge_as_of` asks "what did the
+        system believe at instant T", which only the write time can answer.
+
+        Both statements run in one transaction: a partial application would
+        leave either two current revisions or none, and the forecast record is
+        the one thing in this system that must not be ambiguous.
+        """
+        spec = VERSIONED_TABLES[table]
+        key_col = spec["key"]
+        now = _utcnow_precise()
+        conn = self._ensure_open()
+
+        conn.execute("BEGIN")
+        try:
+            row = conn.execute(
+                f'SELECT MAX(revision) AS r FROM "{table}_versions" '
+                f'WHERE "{key_col}" = ?',
+                (key_value,),
+            ).fetchone()
+            next_rev = (row["r"] or 0) + 1
+
+            conn.execute(
+                f'UPDATE "{table}_versions" SET superseded_at = ? '
+                f'WHERE "{key_col}" = ? AND superseded_at IS NULL',
+                (now, key_value),
+            )
+
+            payload = dict(payload)
+            payload["as_of"] = now
+            payload["run_id"] = run_id or process_run_id()
+            payload["revision"] = next_rev
+
+            cols = ", ".join(f'"{k}"' for k in payload)
+            marks = ", ".join("?" for _ in payload)
+            conn.execute(
+                f'INSERT INTO "{table}_versions" ({cols}) VALUES ({marks})',
+                tuple(payload.values()),
+            )
+            conn.execute("COMMIT")
+        except Exception:
+            conn.execute("ROLLBACK")
+            raise
+
+    def knowledge_as_of(self, table: str, when: str) -> list[dict]:
+        """What the system held to be true in `table` at instant `when`.
+
+        The precondition for any backtest that is not contaminated by
+        look-ahead: it returns the revision that was current at that moment,
+        not the one that is current now.
+        """
+        if table not in VERSIONED_TABLES:
+            raise ValueError(
+                f"knowledge_as_of: {table!r} is not versioned. Versioned "
+                f"tables are: {', '.join(sorted(VERSIONED_TABLES))}"
+            )
+        conn = self._ensure_open()
+        rows = conn.execute(
+            f'SELECT * FROM "{table}_versions" '
+            f' WHERE as_of <= ? AND (superseded_at IS NULL OR superseded_at > ?)',
+            (when, when),
+        ).fetchall()
+        return [dict(r) for r in rows]
 
     def close(self) -> None:
         if self._conn is not None:
@@ -596,22 +801,26 @@ class Lake:
                        target_date: Optional[str], resolution_criteria: str,
                        predicted_outcome: str, confidence: float,
                        training_window_days: Optional[int], indicators_used: list[str],
-                       method: str, evidence: list[str], section_id: Optional[str]
+                       method: str, evidence: list[str], section_id: Optional[str],
+                       run_id: Optional[str] = None,
                        ) -> None:
-        conn = self._ensure_open()
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO predictions
-              (id, made_at, target_date, resolution_criteria, predicted_outcome,
-               confidence, training_window_days, indicators_used_json, method,
-               evidence_json, section_id)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-            (prediction_id, made_at or _utcnow(), target_date, resolution_criteria,
-             predicted_outcome, confidence, training_window_days,
-             json.dumps(indicators_used, sort_keys=True),
-             method, json.dumps(evidence, sort_keys=True), section_id),
-        )
+        """Record a forecast. Append-only: re-recording the same prediction_id
+        supersedes the prior revision rather than overwriting it, so the
+        confidence stated at the time of the call survives."""
+        stamped = made_at or _utcnow()
+        self._append_version("predictions", prediction_id, {
+            "id": prediction_id,
+            "made_at": stamped,
+            "target_date": target_date,
+            "resolution_criteria": resolution_criteria,
+            "predicted_outcome": predicted_outcome,
+            "confidence": confidence,
+            "training_window_days": training_window_days,
+            "indicators_used_json": json.dumps(indicators_used, sort_keys=True),
+            "method": method,
+            "evidence_json": json.dumps(evidence, sort_keys=True),
+            "section_id": section_id,
+        }, run_id=run_id)
 
     def resolve_prediction(self, *, prediction_id: str, resolved_at: str,
                            actual_outcome: str) -> None:
@@ -622,44 +831,55 @@ class Lake:
         realized 0/1 truth value; the predicted probability is ``confidence``."""
         conn = self._ensure_open()
         row = conn.execute(
-            "SELECT predicted_outcome, confidence FROM predictions WHERE id = ?",
-            (prediction_id,),
+            "SELECT * FROM predictions WHERE id = ?", (prediction_id,),
         ).fetchone()
+        if row is None:
+            return
         brier: Optional[float] = None
-        if row is not None:
-            predicted_outcome, confidence = row[0], row[1]
-            try:
-                actual = 1.0 if str(actual_outcome).strip().upper() == \
-                    str(predicted_outcome).strip().upper() else 0.0
-                brier = (float(confidence) - actual) ** 2
-            except (TypeError, ValueError):
-                brier = None
-        conn.execute(
-            "UPDATE predictions SET resolved_at = ?, actual_outcome = ?, "
-            "brier_contribution = ? WHERE id = ?",
-            (resolved_at, actual_outcome, brier, prediction_id),
-        )
+        try:
+            actual = 1.0 if str(actual_outcome).strip().upper() == \
+                str(row["predicted_outcome"]).strip().upper() else 0.0
+            brier = (float(row["confidence"]) - actual) ** 2
+        except (TypeError, ValueError):
+            brier = None
+
+        # Settlement is a new revision, not an in-place UPDATE. The unresolved
+        # row stays queryable, which is what lets knowledge_as_of() answer
+        # "was this call still open on date D" -- the question a backtest has
+        # to ask. (It also has to be an append now: `predictions` is a view.)
+        payload = dict(row)
+        payload["resolved_at"] = resolved_at
+        payload["actual_outcome"] = actual_outcome
+        payload["brier_contribution"] = brier
+        self._append_version("predictions", prediction_id, payload)
 
     def add_paper_bet(self, *, bet_id: str, market_platform: str, market_id: str,
                       market_url: Optional[str], market_question: str,
                       market_resolves_at: Optional[str], side: str,
                       size_usd: float, price_at_bet: float,
                       rationale: str, evidence: list[str], model_version: str,
-                      confidence_band: str, section_id: Optional[str]) -> None:
-        conn = self._ensure_open()
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO paper_bets
-              (id, market_platform, market_id, market_url, market_question,
-               market_resolves_at, side, size_usd, price_at_bet, timestamp_bet,
-               rationale, evidence_json, model_version, confidence_band, section_id)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-            (bet_id, market_platform, market_id, market_url, market_question,
-             market_resolves_at, side, size_usd, price_at_bet, _utcnow(),
-             rationale, json.dumps(evidence, sort_keys=True),
-             model_version, confidence_band, section_id),
-        )
+                      confidence_band: str, section_id: Optional[str],
+                      run_id: Optional[str] = None) -> None:
+        """Record a simulated trade. Append-only: price_at_bet and side are the
+        entry terms at the moment of the call and must never be rewritten."""
+        stamped = _utcnow()
+        self._append_version("paper_bets", bet_id, {
+            "id": bet_id,
+            "market_platform": market_platform,
+            "market_id": market_id,
+            "market_url": market_url,
+            "market_question": market_question,
+            "market_resolves_at": market_resolves_at,
+            "side": side,
+            "size_usd": size_usd,
+            "price_at_bet": price_at_bet,
+            "timestamp_bet": stamped,
+            "rationale": rationale,
+            "evidence_json": json.dumps(evidence, sort_keys=True),
+            "model_version": model_version,
+            "confidence_band": confidence_band,
+            "section_id": section_id,
+        }, run_id=run_id)
 
     def mark_paper_bet(self, *, bet_id: str, mark_date: str,
                        days_since_bet: int, mark_price: float) -> None:
@@ -684,15 +904,15 @@ class Lake:
         ).fetchone()
         delta = (mark_price - prev_mark["mark_price"]) if prev_mark else None
         mark_id = hashlib.sha1(f"{bet_id}|{days_since_bet}".encode()).hexdigest()
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO paper_bet_marks
-              (id, bet_id, mark_date, days_since_bet, mark_price,
-               unrealized_pnl, delta_vs_prev)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-            """,
-            (mark_id, bet_id, mark_date, days_since_bet, mark_price, unrealized, delta),
-        )
+        self._append_version("paper_bet_marks", mark_id, {
+            "id": mark_id,
+            "bet_id": bet_id,
+            "mark_date": mark_date,
+            "days_since_bet": days_since_bet,
+            "mark_price": mark_price,
+            "unrealized_pnl": unrealized,
+            "delta_vs_prev": delta,
+        })
 
     def resolve_paper_bet(self, *, bet_id: str, resolved_at: str,
                           final_outcome: str) -> None:
@@ -717,28 +937,27 @@ class Lake:
         bet_date = datetime.fromisoformat(bet_ts.replace("Z", "+00:00"))
         res_date = datetime.fromisoformat(resolved_at.replace("Z", "+00:00"))
         holding = (res_date.date() - bet_date.date()).days
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO paper_bet_resolutions
-              (bet_id, resolved_at, final_outcome, final_pnl, holding_period_days)
-            VALUES (?, ?, ?, ?, ?)
-            """,
-            (bet_id, resolved_at, final_outcome, final_pnl, holding),
-        )
+        self._append_version("paper_bet_resolutions", bet_id, {
+            "bet_id": bet_id,
+            "resolved_at": resolved_at,
+            "final_outcome": final_outcome,
+            "final_pnl": final_pnl,
+            "holding_period_days": holding,
+        })
 
     def add_anomaly(self, *, anomaly_id: str, section_id: str, category: str,
                     z_score: Optional[float], description: str,
-                    evidence: list[str]) -> None:
-        conn = self._ensure_open()
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO anomalies
-              (id, section_id, category, z_score, description, evidence_json, detected_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-            """,
-            (anomaly_id, section_id, category, z_score, description,
-             json.dumps(evidence, sort_keys=True), _utcnow()),
-        )
+                    evidence: list[str], run_id: Optional[str] = None) -> None:
+        stamped = _utcnow()
+        self._append_version("anomalies", anomaly_id, {
+            "id": anomaly_id,
+            "section_id": section_id,
+            "category": category,
+            "z_score": z_score,
+            "description": description,
+            "evidence_json": json.dumps(evidence, sort_keys=True),
+            "detected_at": stamped,
+        }, run_id=run_id)
 
     # ---- claims (the evidence engine) -----------------------------------
 
@@ -748,7 +967,8 @@ class Lake:
                      n_sections: int, event_time: Optional[str] = None,
                      requires_followup: bool = False, when: Optional[str] = None,
                      method: str = "claim-extract-v1",
-                     model_version: Optional[str] = None) -> str:
+                     model_version: Optional[str] = None,
+                     run_id: Optional[str] = None) -> str:
         """Insert or update a claim by its stable key. Preserves first_seen and
         records the previous confidence so movement is visible. Returns the id."""
         conn = self._ensure_open()
@@ -759,23 +979,29 @@ class Lake:
         ).fetchone()
         confidence_prev = existing["confidence"] if existing else None
         first_seen = existing["first_seen"] if existing else when
-        conn.execute(
-            """
-            INSERT OR REPLACE INTO claims
-              (id, claim_key, claim_text, claim_type, status, confidence,
-               confidence_prev, actors_json, places_json, topics_json,
-               n_sources, n_sections, event_time, requires_followup,
-               first_seen, last_seen, method, model_version)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-            (claim_id, claim_key, claim_text, claim_type, status, float(confidence),
-             confidence_prev,
-             json.dumps(actors, ensure_ascii=False),
-             json.dumps(places, ensure_ascii=False),
-             json.dumps(topics, ensure_ascii=False),
-             n_sources, n_sections, event_time, 1 if requires_followup else 0,
-             first_seen, when, method, model_version),
-        )
+        # Append-only. A claim's confidence movement over days IS the signal
+        # (claims.py tracks it explicitly), so overwriting the row destroyed
+        # the very history the module was built to accumulate.
+        self._append_version("claims", claim_id, {
+            "id": claim_id,
+            "claim_key": claim_key,
+            "claim_text": claim_text,
+            "claim_type": claim_type,
+            "status": status,
+            "confidence": float(confidence),
+            "confidence_prev": confidence_prev,
+            "actors_json": json.dumps(actors, ensure_ascii=False),
+            "places_json": json.dumps(places, ensure_ascii=False),
+            "topics_json": json.dumps(topics, ensure_ascii=False),
+            "n_sources": n_sources,
+            "n_sections": n_sections,
+            "event_time": event_time,
+            "requires_followup": 1 if requires_followup else 0,
+            "first_seen": first_seen,
+            "last_seen": when,
+            "method": method,
+            "model_version": model_version,
+        }, run_id=run_id)
         return claim_id
 
     def add_claim_evidence(self, *, claim_id: str, record_id: str,
@@ -838,6 +1064,78 @@ class Lake:
 
 def _utcnow() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+_PROCESS_RUN_ID: Optional[str] = None
+
+
+def process_run_id() -> str:
+    """Stable identifier for the pipeline run that is writing.
+
+    Prefers GITHUB_RUN_ID/GITHUB_RUN_ATTEMPT so a row can be traced back to the
+    exact Actions run that produced it; falls back to a per-process uuid for
+    local runs. Generated once and reused, so every forecast written by one run
+    shares an id and `knowledge_as_of` can attribute a revision to its author.
+
+    A NULL run_id means the row predates versioning and must not be treated as
+    a pre-registered call.
+    """
+    global _PROCESS_RUN_ID
+    if _PROCESS_RUN_ID is None:
+        gh = os.environ.get("GITHUB_RUN_ID")
+        if gh:
+            attempt = os.environ.get("GITHUB_RUN_ATTEMPT", "1")
+            _PROCESS_RUN_ID = f"gha:{gh}.{attempt}"
+        else:
+            _PROCESS_RUN_ID = f"local:{uuid.uuid4().hex[:16]}"
+    return _PROCESS_RUN_ID
+
+
+def _utcnow_precise() -> str:
+    """Microsecond-resolution stamp for the version timeline.
+
+    `as_of` and `superseded_at` order revisions against each other, so second
+    resolution is not enough: two forecasts written in the same second would be
+    indistinguishable in time and knowledge_as_of() could not reconstruct which
+    was current. Sorts lexicographically alongside the second-resolution stamps
+    on migrated rows, because both are zero-padded ISO-8601 UTC.
+    """
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+
+
+def _schema_sql(*, skip_versioned_indexes: bool) -> str:
+    """SCHEMA_V1, optionally without the CREATE INDEX lines that target tables
+    which the versioning migration has already replaced with views."""
+    if not skip_versioned_indexes:
+        return SCHEMA_V1
+    pattern = re.compile(
+        r"^CREATE INDEX[^;]*\bON\s+(" + "|".join(VERSIONED_TABLES) + r")\s*\(",
+        re.IGNORECASE,
+    )
+    return "\n".join(
+        line for line in SCHEMA_V1.splitlines() if not pattern.match(line.strip())
+    )
+
+# Tables that constitute the forecast record: what the system claimed, when,
+# and at what price. Each becomes `<name>_versions` with a view at `<name>`.
+#
+#   key    the logical identity that repeats across revisions
+#   as_of  the existing column that dates a pre-migration row
+#
+# claim_evidence is deliberately NOT versioned: it is a join table whose parent
+# claim IS versioned, and versioning both would multiply storage without adding
+# recoverable information. records/ is likewise left on upsert — its
+# authoritative vintage is the on-disk lake/sections/<id>/<date>/raw.jsonl
+# snapshot, which the table merely indexes.
+VERSIONED_TABLES: dict[str, dict[str, str]] = {
+    "predictions":           {"key": "id",     "as_of": "made_at"},
+    "paper_bets":            {"key": "id",     "as_of": "timestamp_bet"},
+    "paper_bet_marks":       {"key": "id",     "as_of": "mark_date"},
+    "paper_bet_resolutions": {"key": "bet_id", "as_of": "resolved_at"},
+    "anomalies":             {"key": "id",     "as_of": "detected_at"},
+    "claims":                {"key": "id",     "as_of": "first_seen"},
+}
 
 
 def schema_hash_of(rows: Iterable[dict]) -> str:
