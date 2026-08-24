@@ -1,7 +1,7 @@
 # Worldscope remediation — audit, as-built, and what is still blocked
 
 **Date:** 2026-08-24
-**Status:** Phases 1–3 built and committed. Phase 4 not started. Phase 5 partially built.
+**Status:** Phases 1–4 built and committed. Phase 5 partially built.
 **Baseline:** `origin/main` at `4eaf0a4b`.
 
 ---
@@ -224,9 +224,46 @@ is now unconditional.
 
 Ten workflow-invariant tests make each of these a red test if reverted.
 
-### 2.11 Verification
+### 2.11 Pre-registration and multiple-testing control (Phase 4)
 
-**394 tests. One failure**, `test_political_figures.py::test_at_least_ten_figures_have_nonzero_score`,
+A rule's identity is its content: name, canonical params, and a sha256 of the
+implementing module. Registration is `INSERT OR IGNORE` on that key, so
+re-registering cannot move the timestamp — **backdating a rule to cover a
+position already taken is impossible by construction, not by policy**.
+`trial_count()` is what `n_trials` means in the deflated Sharpe, and it is not
+recoverable after the fact, which is the entire reason the registry exists.
+
+`worldscope/scoring/multiple_testing.py` implements Deflated Sharpe (Bailey &
+López de Prado 2014), PBO via CSCV (Bailey, Borwein, López de Prado & Zhu
+2015), and Hansen's SPA (2005) with a stationary bootstrap — numpy-only. Each
+test is paired with a deliberately-broken baseline, so an estimator that
+always passes would be visible as such.
+
+**Three things measurement caught that reasoning did not:**
+
+- **SPA over-rejected.** Measured size at nominal 5% was 0.115 (k=10) and
+  0.145 (k=50) — the exact error the test exists to prevent. Cause: a fixed
+  bootstrap block length applied to near-independent differentials. Block
+  length is now chosen from observed autocorrelation; size returned to
+  0.068/0.062 (MC se 0.011) with power 1.000.
+- **The residual distortion is intrinsic.** Under real autocorrelation no
+  block length gives nominal size at n=300 (0.10 at τ≈2, 0.14 at τ≈4.5, 0.26
+  at τ≈20), and Newey-West moved it only 0.136 → 0.120. `SPAResult` therefore
+  reports `effective_n` and `reliable`, and states that an unreliable p-value
+  is a **lower bound** — it errs toward declaring skill that is not there.
+- **A units bug would have inverted the verdict.** The scorecard passed
+  `var(returns)/n` as `var_sharpe` — the variance of the *mean*, not of the
+  *Sharpe*. That overstated the deflation threshold ~66× and scored a
+  genuinely skilled 60-bet record at DSR 0.60 instead of 0.96: the difference
+  between keeping a rule and discarding it.
+
+PBO and SPA need ≥2 rules with overlapping live history, so they switch on by
+themselves the first day that exists. SPA's benchmark is **doing nothing**,
+not the best rule.
+
+### 2.12 Verification
+
+**501 tests. One failure**, `test_political_figures.py::test_at_least_ten_figures_have_nonzero_score`,
 which reads `lake/sections/*` artifacts excluded by this clone's sparse
 checkout — environmental, not a regression.
 
@@ -278,12 +315,6 @@ redraw them.
 
 ## 4. Not built
 
-- **Phase 4 — honest search.** Pre-registration of decision rules (hash,
-  timestamp, frozen params, written before the rule trades), then deflated
-  Sharpe, PBO via CSCV, and Hansen's SPA across the live rule set. This is what
-  would convert "update the approach every day" from a specification search
-  into a defensible sequential-testing programme. Phase 2 is its precondition
-  and is now in place.
 - **Phase 5 remainder.** The three sections the registry sketches but never
   built (Maritime/AISStream, Elections, Anomaly); new surface — EDGAR
   full-text, AIS chokepoint transits, night-lights, commodity flows,
