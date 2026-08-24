@@ -9,11 +9,21 @@ API: https://apidoc.reliefweb.int/  (no key required, polite UA needed)
 """
 from __future__ import annotations
 
+import os
+
 import requests
 
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-API = "https://api.reliefweb.int/v1/reports"
+# v1 was decommissioned: it now answers 410 with
+#   "The API version 'v1' has been decommissioned. Please use version 'v2'."
+# v2 additionally rejects unregistered callers with 403
+#   "You are not using an approved appname."
+# so this section cannot work until an appname is registered at
+# https://apidoc.reliefweb.int/parameters#appname and set as
+# RELIEFWEB_APPNAME. Declared in optional_env so preflight names it.
+API = "https://api.reliefweb.int/v2/reports"
+DEFAULT_APPNAME = "worldscope"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
 
 
@@ -25,9 +35,15 @@ class ReliefWebSection(Section):
     PULL_TIMEOUT_S = 45
     LIMIT = 40
 
+    # Capability contract: v2 rejects unregistered callers with HTTP 403.
+    # Optional rather than required because the default appname may still be
+    # approved for some callers; when it is not, the 403 surfaces as an
+    # UpstreamAuthError naming the registration URL.
+    optional_env = ('RELIEFWEB_APPNAME',)
+
     def pull(self) -> list[dict]:
         params = {
-            "appname": "worldscope",
+            "appname": os.environ.get("RELIEFWEB_APPNAME") or DEFAULT_APPNAME,
             "limit": self.LIMIT,
             "sort[]": "date.created:desc",
             "fields[include][]": [

@@ -4,7 +4,7 @@ RSS feed of unusual disease outbreaks. The closest the open web gets to
 real-time biosurveillance. Posts include human, animal, plant, and
 zoonotic outbreaks with location and source citations.
 
-Feed: https://promedmail.org/promed-posts/?cat=feed (RSS)
+Feed: https://promedmail.org/promed-post/?feed=rss2 (RSS)
 
 Items carry the disease name in the title; we parse common patterns
 ("Avian influenza - North America (12): USA") to surface country.
@@ -19,7 +19,11 @@ import requests
 
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-FEED = "https://promedmail.org/promed-posts/?cat=feed"
+# The best remaining candidate, not a working feed. See pull() for what was
+# verified on 2026-08-24: every RSS path either 404s or answers 200 with the
+# site's HTML shell. Kept pointed here so the failure is specific and the next
+# person starts from the last thing tried rather than re-deriving it.
+FEED = "https://promedmail.org/promed-post/?feed=rss2"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
 
 
@@ -45,6 +49,29 @@ class PromedSection(Section):
             resp.raise_for_status()
         except requests.RequestException as e:
             raise UpstreamHTTPError(f"ProMED feed request failed: {e}") from e
+        # ProMED migrated to a Next.js single-page app. Every RSS path now
+        # answers 200 with the HTML shell instead of a feed, which XML-parses
+        # into zero <item> elements — so the section reported a world with no
+        # outbreak reports in it rather than a relocated feed.
+        #
+        # Verified 2026-08-24: /promed-posts/?cat=feed 404, /feed/ 404,
+        # /promed-post/?feed=rss2 returns 200 text/html. The site's Payload CMS
+        # API at /api/posts exists but holds 5 announcement posts, not the
+        # outbreak archive; the archive collection was not discoverable
+        # unauthenticated. Raising is the honest state until it is found.
+        # getattr: the content sniff is the real check, and a Content-Type is
+        # advisory anyway. Not depending on it keeps this working against any
+        # response-like object.
+        ctype = (getattr(resp, "headers", {}) or {}).get("Content-Type", "").lower()
+        body_head = resp.content[:200].lstrip()
+        if b"<rss" not in body_head and b"<feed" not in body_head:
+            raise UpstreamParseError(
+                f"ProMED returned {ctype or 'an unknown content type'} rather "
+                f"than RSS ({FEED}). The site is now a single-page app and the "
+                f"feed has moved; find the current endpoint before trusting "
+                f"this section's silence."
+            )
+
         try:
             root = ET.fromstring(resp.content)
         except ET.ParseError as e:

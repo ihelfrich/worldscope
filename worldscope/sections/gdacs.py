@@ -19,7 +19,15 @@ import requests
 
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-API = "https://www.gdacs.org/gdacsapi/api/events/geteventlist/MAP"
+# The .../geteventlist/MAP endpoint this section was written against now
+# returns HTTP 400 — GDACS retired it. Verified 2026-08-24: MAP 400,
+# SEARCH 200 with the identical GeoJSON FeatureCollection shape (100
+# features, same `properties` keys), so the parser below is unchanged.
+#
+# The failure was invisible until the section trust rule started being
+# enforced: gdacs simply produced no lake artifact at all, which read as a
+# world with no disasters in it rather than a dead endpoint.
+API = "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
 
 EVENT_TYPES = {
