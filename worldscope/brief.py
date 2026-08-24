@@ -19,8 +19,11 @@ Usage:
 from __future__ import annotations
 
 import argparse
-from datetime import date
+import json
+import time
+from datetime import date, datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
@@ -131,14 +134,51 @@ SECTION_REGISTRY = [
 ]
 
 
-def _run_stage(label: str, fn) -> None:
-    """Run one defensive post-section stage. A failure here logs but never
-    blocks the brief — the daily run must complete even if graphics, maps, or
-    the site build fail."""
+# Stages whose failure should redden the run. The rest degrade: a flaky
+# upstream must never cost the day's brief.
+REQUIRED_STAGES = frozenset({
+    "graphics", "maps", "cross-section", "signals", "claims",
+    "scorecard", "site-builder",
+})
+
+
+def _run_stage(label: str, fn, report: Optional[dict] = None) -> None:
+    """Run one post-section stage, recording its fate.
+
+    This used to catch every exception and print. `daily-brief.yml` installed
+    the bare package, so `embeddings`, `graphics`, `maps`, `ukraine-maps` and
+    the DuckDB warehouse ImportError'd on their local imports and vanished
+    into a log line nobody read — 100 green runs out of the last 100, while
+    five of eleven stages produced nothing.
+
+    Two tiers now:
+      ImportError  a missing dependency is a deployment defect, not a runtime
+                   hiccup. Raised, so the run goes red immediately.
+      anything else recorded and survived, then the job fails at the end if a
+                   REQUIRED stage was among them.
+    """
+    started = time.monotonic()
+    entry = {"status": "ok", "error_type": None, "error_message": None,
+             "required": label in REQUIRED_STAGES}
     try:
         fn()
-    except Exception as ex:  # pragma: no cover - defensive
+    except (ImportError, ModuleNotFoundError) as ex:
+        entry.update(status="failed", error_type=type(ex).__name__,
+                     error_message=str(ex))
+        if report is not None:
+            entry["duration_ms"] = int((time.monotonic() - started) * 1000)
+            report[label] = entry
+        print(f"::error::[{label}] missing dependency: {ex}. "
+              f"Install the 'ci' extra: pip install -e '.[ci]'")
+        raise
+    except Exception as ex:
+        entry.update(status="failed", error_type=type(ex).__name__,
+                     error_message=str(ex)[:500])
         print(f"[{label}] failed: {type(ex).__name__}: {ex}")
+    finally:
+        entry["duration_ms"] = int((time.monotonic() - started) * 1000)
+        if report is not None and label not in report:
+            report[label] = entry
 
 
 def _list_archive(out_dir: Path) -> list[date]:
@@ -372,6 +412,62 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
               f"{site_stats['section_pages']} index pages, "
               f"{site_stats['day_pages']} day pages")
 
+    # Per-stage outcome, written to dist/run_report.json below. Before this,
+    # a stage that failed left only a print in a log nobody read.
+    stage_report: dict[str, dict] = {}
+
+    def _stage_scorecard() -> None:
+        """Write the forecast scorecard where a human will actually see it.
+
+        track_record has always computed the right numbers -- Brier skill vs
+        climatology, ECE, realized edge over the market's own implied
+        probability. It was reachable only from the MCP server, from
+        paper_bets' own summary, and from graphics.py (which never ran,
+        because matplotlib was not installed). So the fact that the system was
+        scoring -1.42 skill vs climatology, and had placed zero bets in 66
+        days, never surfaced anywhere Ian would read it.
+        """
+        from .lake import Lake
+        from .scoring.track_record import (
+            headline_edge, score_paper_bets_by_venue, score_predictions_split,
+        )
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            preds = [dict(r) for r in conn.execute(
+                "SELECT * FROM predictions WHERE actual_outcome IS NOT NULL "
+                "AND actual_outcome != ''")]
+            bets = [dict(r) for r in conn.execute(
+                "SELECT b.*, r.final_outcome, r.final_pnl, r.holding_period_days "
+                "  FROM paper_bets b "
+                "  JOIN paper_bet_resolutions r ON r.bet_id = b.id")]
+        finally:
+            lake.close()
+
+        split = score_predictions_split(preds)
+        edge = headline_edge(bets)
+        by_venue = score_paper_bets_by_venue(bets)
+
+        scorecard = {
+            "predictions": {
+                "self_graded": split["self_graded"]["skill"].as_dict(),
+                "self_graded_caveat": split["self_graded"]["caveat"],
+                "externally_resolved": split["externally_resolved"]["skill"].as_dict(),
+            },
+            "bets": {
+                "headline_edge": edge,
+                "by_venue": {k: v.as_dict() for k, v in by_venue.items()},
+            },
+        }
+        out = Path(out_dir) / "scorecard.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(scorecard, indent=2, default=str), encoding="utf-8")
+
+        ext = split["externally_resolved"]["skill"]
+        print(f"[scorecard] externally-resolved: n={ext.n_resolved} "
+              f"brier_skill={ext.brier_skill_score} ece={ext.ece}")
+        print(f"[scorecard] real-money edge: {edge['note']}")
+
     for label, fn in (
         ("embeddings", _stage_embeddings),
         ("graphics", _stage_graphics),
@@ -386,8 +482,45 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         # at the very top of the page — it is the front-page experience.
         ("stories", _stage_stories),
         ("site-builder", _stage_site_builder),
+        # Last: it reads what every other stage wrote.
+        ("scorecard", _stage_scorecard),
     ):
-        _run_stage(label, fn)
+        _run_stage(label, fn, stage_report)
+
+    # Write the run report before anything else can fail. It is the only
+    # artifact that says what actually ran, and it is most valuable precisely
+    # on the runs that went wrong.
+    failed_required = [
+        name for name, e in stage_report.items()
+        if e["status"] == "failed" and e["required"]
+    ]
+    run_report = {
+        "schema": 1,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "date": today.isoformat(),
+        "stages": stage_report,
+        "sections": {
+            sid: {
+                "state": st.state,
+                "record_count": len(st.items),
+                "new_count": len(st.new),
+                "error_type": st.error_type,
+                "error": st.error,
+            }
+            for sid, st in states.items()
+        },
+        "failed_required_stages": failed_required,
+        "ok": not failed_required,
+    }
+    report_path = Path(out_dir) / "run_report.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(run_report, indent=2, default=str),
+                           encoding="utf-8")
+    for name, entry in sorted(stage_report.items()):
+        if entry["status"] == "failed":
+            level = "error" if entry["required"] else "warning"
+            print(f"::{level}::stage {name} failed: "
+                  f"{entry['error_type']}: {entry['error_message']}")
 
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and
@@ -459,13 +592,33 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     return page
 
 
-def main() -> None:
+def main() -> int:
     p = argparse.ArgumentParser(description="Generate today's WORLDSCOPE briefing")
     p.add_argument("--section", action="append", help="restrict to specific section id(s)")
     p.add_argument("--out", default="dist", help="output directory (default: dist)")
+    p.add_argument("--allow-stage-failure", action="store_true",
+                   help="exit 0 even if a required stage failed (debugging only)")
     args = p.parse_args()
     run(args.section, out_dir=args.out)
 
+    # The brief is written either way -- a degraded brief beats no brief. But
+    # the RUN fails, so a required stage cannot go dark behind a green check
+    # the way graphics, maps and embeddings did for three months.
+    report_path = Path(args.out) / "run_report.json"
+    if args.allow_stage_failure or not report_path.exists():
+        return 0
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return 0
+    failed = report.get("failed_required_stages") or []
+    if failed:
+        print(f"::error::required stage(s) failed: {', '.join(failed)}. "
+              f"The brief was still written; see dist/run_report.json.")
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    import sys
+    sys.exit(main())

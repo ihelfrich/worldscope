@@ -8,9 +8,22 @@ across everything.
 
 For each high-volume market in today's paper_bets pull, it asks Claude
 (Sonnet) to compare today's evidence base against the current market price.
-If the system's credence diverges from the market by >= EDGE_THRESHOLD (8%)
-AND the evidence is at least medium-confidence, the section records a paper
-bet via lake.add_paper_bet().
+A bet is recorded only when all of the following hold:
+
+  * |credence - price| >= EDGE_THRESHOLD (8% raw), AND
+  * the venue is real-money (worldscope.scoring.venues). Manifold is mana and
+    PredictIt is wound down; on 2026-08-24 those two were 82 of the 140
+    markets this section indexed, and a "bet" on them cannot be evidence of
+    edge, AND
+  * the edge survives estimated round-trip costs by >= MIN_NET_EDGE. Spreads
+    widen toward 0 and 1, which is exactly where apparent edges are largest,
+    so ignoring costs biased hardest in the direction the strategy most
+    wanted to trade.
+
+NOTE: this section requires ANTHROPIC_API_KEY (declared in requires_env). It
+previously wrote "skipping placement" to stderr and returned [] when the key
+was absent, which is how it placed zero bets on 66 consecutive days while
+every workflow run reported success.
 
 Sizing follows Kelly-lite:
     size_usd = BASE_UNIT * min(edge * 5, 1.0) * confidence_multiplier
@@ -31,6 +44,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from . import Section, SectionState
+from ..scoring import venues as _venues
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 LAKE_SECTIONS = REPO_ROOT / "lake" / "sections"
@@ -40,6 +54,9 @@ EDGE_THRESHOLD = 0.08            # Place a bet only if |our - market| >= 8%
 BASE_UNIT_USD = 100.0            # Notional unit per bet (paper dollars)
 MAX_BET_FRACTION = 0.05          # No single bet > 5% of total notional risked
 MAX_NEW_BETS_PER_DAY = 8         # Conservative cap to avoid over-trading
+# Net-of-cost floor. EDGE_THRESHOLD above is a RAW edge; a raw 8% on a thin
+# book near the tails can be negative once the round trip is paid for.
+MIN_NET_EDGE = 0.02
 MODEL = "claude-sonnet-4-6"      # Reasoning model for the placement decision
 
 
@@ -327,7 +344,38 @@ class PaperBetPlacementSection(Section):
                 if edge < EDGE_THRESHOLD:
                     continue   # safety check; Claude should have filtered
 
+                platform = market.get("platform") or ""
+
+                # Only real-money venues are tradeable propositions. Manifold
+                # is mana and PredictIt is wound down; a "bet" there cannot be
+                # evidence of edge, and on 2026-08-24 those two were 82 of the
+                # 140 markets this section indexed.
+                if not _venues.is_scoreable(platform):
+                    sys.stderr.write(
+                        f"[paper_bet_placement] skipping {market_id} on "
+                        f"{platform}: {_venues.classify(platform)} venue\n")
+                    continue
+
                 size_usd = round(_kelly_lite_size(edge, confidence_band), 2)
+
+                # Costs. An 8% raw edge is not automatically a tradeable one:
+                # spreads widen toward 0 and 1, which is exactly where the
+                # model's apparent edges are largest, so ignoring them biases
+                # hardest in the direction the strategy most wants to trade.
+                volume = market.get("volume_usd") or market.get("volume")
+                try:
+                    volume = float(volume) if volume is not None else None
+                except (TypeError, ValueError):
+                    volume = None
+                cost = _venues.round_trip_cost(
+                    platform, price=price, size_usd=size_usd, volume_usd=volume)
+                net = edge - cost
+                if net <= MIN_NET_EDGE:
+                    sys.stderr.write(
+                        f"[paper_bet_placement] skipping {market_id}: raw edge "
+                        f"{edge:.3f} - cost {cost:.3f} = {net:.3f} net, below "
+                        f"the {MIN_NET_EDGE:.3f} floor\n")
+                    continue
                 bet_id = hashlib.sha1(
                     f"{today}|{market_id}|{side}".encode()
                 ).hexdigest()

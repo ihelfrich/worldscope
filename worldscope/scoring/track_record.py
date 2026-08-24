@@ -291,3 +291,125 @@ def score_paper_bets_from_connection(conn) -> BetSkill:
     cols = [d[0] for d in cur.description]
     rows = [dict(zip(cols, r)) for r in cur.fetchall()]
     return score_paper_bets(rows)
+
+
+# --------------------------------------------------------------------------
+# venue-aware scoring
+#
+# score_paper_bets() above pools every platform, which made realized_edge --
+# the only number that claims the system beat the crowd -- include Manifold
+# (play money) and PredictIt (wound down). See worldscope.scoring.venues.
+# --------------------------------------------------------------------------
+
+def score_paper_bets_by_venue(rows: Iterable[dict]) -> dict[str, "BetSkill"]:
+    """Score resolved bets separately per venue class.
+
+    Reported side by side rather than merged: the play-money book is still
+    informative as sentiment, it just cannot be cited as forecasting skill.
+    """
+    from . import venues as _v
+    return {
+        cls: score_paper_bets(subset)
+        for cls, subset in _v.partition(rows).items()
+    }
+
+
+def headline_edge(rows: Iterable[dict]) -> dict:
+    """The single defensible edge number, or an explicit refusal to report one.
+
+    Real-money venues only, and only above a sample size where the estimate
+    means anything. A point estimate off three resolved bets is noise, and
+    printing it next to the word "edge" invites reading it as a result.
+    """
+    from . import venues as _v
+
+    rows = list(rows)
+    real = _v.partition(rows)[_v.REAL_MONEY]
+    skill = score_paper_bets(real)
+
+    excluded = {
+        cls: len(subset)
+        for cls, subset in _v.partition(rows).items()
+        if cls != _v.REAL_MONEY and subset
+    }
+
+    reportable = skill.n_resolved >= _v.MIN_REPORTABLE_N and skill.realized_edge is not None
+    if reportable:
+        note = (f"real-money venues only ({skill.n_resolved} resolved); "
+                f"excluded by venue class: {excluded or 'none'}")
+    elif skill.n_resolved == 0:
+        note = ("no resolved real-money bets. "
+                f"excluded by venue class: {excluded or 'none'}")
+    else:
+        note = (f"insufficient sample: {skill.n_resolved} resolved real-money "
+                f"bets, {_v.MIN_REPORTABLE_N} required before an edge estimate "
+                f"is meaningful")
+
+    return {
+        "venue_class": _v.REAL_MONEY,
+        "n_resolved": skill.n_resolved,
+        "realized_edge": skill.realized_edge,
+        "hit_rate": skill.hit_rate,
+        "hit_rate_ci95": skill.hit_rate_ci95,
+        "mean_implied_prob": skill.mean_implied_prob,
+        "reportable": reportable,
+        "excluded_by_venue": excluded,
+        "note": note,
+    }
+
+
+# --------------------------------------------------------------------------
+# self-graded vs externally-resolved forecasts
+#
+# signals.py emits predictions of the form "this key will remain
+# cross-section-salient over horizon H", and grade_due_predictions() resolves
+# them by re-reading the same lake that produced them. The lake is therefore
+# both the forecaster and the referee.
+#
+# That Brier score measures the persistence of the system's own attention, not
+# skill at forecasting the world. It is also nearly free to score well on,
+# because salient things tend to stay salient — which is exactly what produced
+# a flattering Brier of 0.067 alongside a brier_skill_score of -1.42 (far
+# WORSE than climatology) on 2026-08-24.
+#
+# Both numbers are worth reporting. Pooling them is not.
+# --------------------------------------------------------------------------
+
+# Methods whose resolution criterion is evaluated against the lake itself.
+SELF_GRADED_METHODS = frozenset({"signal-fusion-v1", "research-radar-v1"})
+
+
+def is_self_graded(row: dict) -> bool:
+    return str(row.get("method") or "").strip() in SELF_GRADED_METHODS
+
+
+def score_predictions_split(rows: Iterable[dict], *, bins: int = 10) -> dict:
+    """Score self-graded and externally-resolved forecasts separately.
+
+    Returns both, plus an explicit statement of what the self-graded number
+    does and does not support, so it cannot be quoted as forecasting skill by
+    someone reading only the headline.
+    """
+    rows = list(rows)
+    selfg = [r for r in rows if is_self_graded(r)]
+    external = [r for r in rows if not is_self_graded(r)]
+
+    return {
+        "self_graded": {
+            "skill": score_predictions(selfg, bins=bins),
+            "methods": sorted(SELF_GRADED_METHODS),
+            "caveat": (
+                "The lake produces both these predictions and their "
+                "resolutions, so this measures the persistence of the "
+                "system's own attention, not skill at forecasting the world. "
+                "It must not be cited as evidence of predictive edge."
+            ),
+        },
+        "externally_resolved": {
+            "skill": score_predictions(external, bins=bins),
+            "caveat": (
+                "Resolved against outcomes the system does not control. This "
+                "is the number that speaks to forecasting skill."
+            ),
+        },
+    }
