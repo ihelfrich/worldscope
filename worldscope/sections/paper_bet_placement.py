@@ -60,6 +60,20 @@ MIN_NET_EDGE = 0.02
 MODEL = "claude-sonnet-4-6"      # Reasoning model for the placement decision
 
 
+def _module_fingerprint() -> str:
+    """sha256 of this module's source.
+
+    Part of the rule's identity: changing the decision logic without changing
+    a named parameter would otherwise let a new hypothesis inherit the old
+    one's track record.
+    """
+    try:
+        src = Path(__file__).read_bytes()
+    except OSError:
+        return "unavailable"
+    return hashlib.sha256(src).hexdigest()[:16]
+
+
 def _confidence_multiplier(band: str) -> float:
     return {"low": 0.5, "medium": 1.0, "high": 1.5}.get(band, 1.0)
 
@@ -326,6 +340,29 @@ class PaperBetPlacementSection(Section):
         market_by_id = {m["market_id"]: m for m in markets if m.get("market_id")}
 
         lake = Lake.open()
+
+        # Pre-register the decision rule BEFORE any bet references it. The id
+        # is derived from the parameters and a fingerprint of this module's
+        # source, so tuning EDGE_THRESHOLD produces a different rule with its
+        # own record rather than silently inheriting the old one's. That count
+        # is what n_trials means in the deflated Sharpe ratio.
+        rule_id = lake.register_rule(
+            name="paper-bet-placement",
+            params={
+                "edge_threshold": EDGE_THRESHOLD,
+                "min_net_edge": MIN_NET_EDGE,
+                "base_unit_usd": BASE_UNIT_USD,
+                "max_bet_fraction": MAX_BET_FRACTION,
+                "max_new_bets_per_day": MAX_NEW_BETS_PER_DAY,
+                "model": MODEL,
+                "sizing": "kelly_lite:min(edge*5,1)*confidence_multiplier",
+                "venue_filter": "real_money_only",
+                "cost_model": "venues.round_trip_cost",
+            },
+            code_fingerprint=_module_fingerprint(),
+            notes="Daily prediction-market placement decision.",
+        )
+
         placed_items: list[dict] = []
 
         for d in decisions[:MAX_NEW_BETS_PER_DAY]:
@@ -403,6 +440,7 @@ class PaperBetPlacementSection(Section):
                     model_version=f"placement-v2-signals::{MODEL}",
                     confidence_band=confidence_band,
                     section_id=self.id,
+                    rule_id=rule_id,
                 )
 
                 placed_items.append({

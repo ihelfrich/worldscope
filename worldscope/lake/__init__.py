@@ -285,6 +285,29 @@ CREATE TABLE IF NOT EXISTS anomalies (
 CREATE INDEX IF NOT EXISTS idx_anom_section ON anomalies(section_id);
 CREATE INDEX IF NOT EXISTS idx_anom_time    ON anomalies(detected_at);
 
+-- Rule registry: pre-registered decision rules.
+--
+-- Every multiple-testing correction needs to know how many hypotheses were
+-- tried, and that number cannot be recovered after the fact. If a rule is
+-- edited in place and its record follows it, "one rule that worked" is
+-- indistinguishable from "the eighteenth variant of a rule that did not".
+--
+-- rule_id is derived from the CONTENT (name + canonical params + code
+-- fingerprint), so a tuned threshold is a different rule with a fresh record,
+-- and re-registering identical content is a no-op that cannot move the
+-- timestamp. Backdating a rule to cover a trade already made is therefore
+-- impossible by construction rather than by policy.
+CREATE TABLE IF NOT EXISTS rule_registry (
+    rule_id           TEXT PRIMARY KEY,
+    name              TEXT NOT NULL,
+    params_json       TEXT NOT NULL,
+    code_fingerprint  TEXT,
+    registered_at     TEXT NOT NULL,
+    registered_by_run TEXT,
+    notes             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_rule_name ON rule_registry(name, registered_at);
+
 -- Briefs: cost + token accounting for each rendered brief.
 CREATE TABLE IF NOT EXISTS briefs (
     date         TEXT NOT NULL,
@@ -376,6 +399,7 @@ class Lake:
         ).fetchone()
         self._conn.executescript(_schema_sql(skip_versioned_indexes=bool(already)))
         self._migrate_to_versioned()
+        self._ensure_rule_columns()
         self._drop_stale_foreign_keys()
 
     # ------------------------------------------------------------------ #
@@ -550,6 +574,137 @@ class Lake:
         except Exception:
             conn.execute("ROLLBACK")
             raise
+
+    def _ensure_rule_columns(self) -> None:
+        """Add rule_id to the versioned forecast tables and refresh the views.
+
+        Additive: existing readers keep working, and rows written before
+        pre-registration existed carry NULL, which is exactly the marker
+        `preregistration_violations()` looks for.
+        """
+        conn = self._conn
+        assert conn is not None
+        for table in ("predictions", "paper_bets"):
+            versions = f"{table}_versions"
+            row = conn.execute(
+                "SELECT 1 FROM sqlite_master WHERE name = ?", (versions,)
+            ).fetchone()
+            if row is None:
+                continue
+            cols = [c["name"] for c in conn.execute(f"PRAGMA table_info({versions})")]
+            if "rule_id" in cols:
+                continue
+            conn.execute(f'ALTER TABLE "{versions}" ADD COLUMN rule_id TEXT')
+            cols.append("rule_id")
+            public = [c for c in cols if c not in
+                      ("row_uid", "as_of", "run_id", "revision", "superseded_at")]
+            col_list = ", ".join(f'"{c}"' for c in public)
+            conn.executescript(f"""
+                DROP VIEW IF EXISTS "{table}";
+                CREATE VIEW "{table}" AS
+                    SELECT {col_list} FROM "{versions}"
+                     WHERE superseded_at IS NULL;
+            """)
+
+    # ---- pre-registration ------------------------------------------------
+
+    def register_rule(self, *, name: str, params: dict,
+                      code_fingerprint: Optional[str] = None,
+                      notes: Optional[str] = None) -> str:
+        """Register a decision rule and return its content-derived id.
+
+        Idempotent: registering identical content again returns the same id
+        and leaves the original timestamp untouched. That is the whole point —
+        a rule cannot be quietly backdated to cover a position already taken.
+        """
+        payload = json.dumps(
+            {"name": name, "params": params, "code": code_fingerprint or ""},
+            sort_keys=True, separators=(",", ":"), default=str,
+        )
+        rule_id = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+        conn = self._ensure_open()
+        conn.execute(
+            """
+            INSERT OR IGNORE INTO rule_registry
+              (rule_id, name, params_json, code_fingerprint,
+               registered_at, registered_by_run, notes)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (rule_id, name,
+             json.dumps(params, sort_keys=True, default=str),
+             code_fingerprint, _utcnow_precise(), process_run_id(), notes),
+        )
+        return rule_id
+
+    def get_rule(self, rule_id: str) -> Optional[dict]:
+        conn = self._ensure_open()
+        row = conn.execute(
+            "SELECT * FROM rule_registry WHERE rule_id = ?", (rule_id,)
+        ).fetchone()
+        if row is None:
+            return None
+        out = dict(row)
+        try:
+            out["params"] = json.loads(out.get("params_json") or "{}")
+        except json.JSONDecodeError:
+            out["params"] = {}
+        return out
+
+    def rule_versions(self, name: str) -> list[dict]:
+        """Every registered variant of `name`, oldest first.
+
+        The length of this list IS `n_trials` for the deflated Sharpe ratio.
+        """
+        conn = self._ensure_open()
+        rows = conn.execute(
+            "SELECT * FROM rule_registry WHERE name = ? ORDER BY registered_at",
+            (name,),
+        ).fetchall()
+        return [dict(r) for r in rows]
+
+    def trial_count(self, name: Optional[str] = None) -> int:
+        """How many distinct hypotheses have been registered."""
+        conn = self._ensure_open()
+        if name is None:
+            row = conn.execute("SELECT COUNT(*) c FROM rule_registry").fetchone()
+        else:
+            row = conn.execute(
+                "SELECT COUNT(*) c FROM rule_registry WHERE name = ?", (name,)
+            ).fetchone()
+        return int(row["c"])
+
+    def preregistration_violations(self) -> list[dict]:
+        """Bets whose rule was absent, unregistered, or registered afterwards.
+
+        Any of the three means the position was not taken under a rule fixed in
+        advance, so it cannot contribute to an out-of-sample record. Reported
+        rather than blocked: the bets are real and belong in the P&L; they just
+        do not count as evidence of pre-registered skill.
+        """
+        conn = self._ensure_open()
+        rows = conn.execute(
+            """
+            SELECT b.id AS bet_id, b.rule_id, b.as_of, r.registered_at
+              FROM paper_bets_versions b
+              LEFT JOIN rule_registry r ON r.rule_id = b.rule_id
+             WHERE b.superseded_at IS NULL
+            """
+        ).fetchall()
+        out: list[dict] = []
+        for r in rows:
+            if not r["rule_id"]:
+                reason = "no_rule"
+            elif r["registered_at"] is None:
+                reason = "unregistered_rule"
+            elif r["registered_at"] > r["as_of"]:
+                reason = "rule_registered_after_bet"
+            else:
+                continue
+            out.append({"bet_id": r["bet_id"], "rule_id": r["rule_id"],
+                        "bet_as_of": r["as_of"],
+                        "rule_registered_at": r["registered_at"],
+                        "reason": reason})
+        return out
 
     def knowledge_as_of(self, table: str, when: str) -> list[dict]:
         """What the system held to be true in `table` at instant `when`.
@@ -803,6 +958,7 @@ class Lake:
                        training_window_days: Optional[int], indicators_used: list[str],
                        method: str, evidence: list[str], section_id: Optional[str],
                        run_id: Optional[str] = None,
+                       rule_id: Optional[str] = None,
                        ) -> None:
         """Record a forecast. Append-only: re-recording the same prediction_id
         supersedes the prior revision rather than overwriting it, so the
@@ -859,7 +1015,8 @@ class Lake:
                       size_usd: float, price_at_bet: float,
                       rationale: str, evidence: list[str], model_version: str,
                       confidence_band: str, section_id: Optional[str],
-                      run_id: Optional[str] = None) -> None:
+                      run_id: Optional[str] = None,
+                      rule_id: Optional[str] = None) -> None:
         """Record a simulated trade. Append-only: price_at_bet and side are the
         entry terms at the moment of the call and must never be rewritten."""
         stamped = _utcnow()
@@ -879,6 +1036,7 @@ class Lake:
             "model_version": model_version,
             "confidence_band": confidence_band,
             "section_id": section_id,
+            "rule_id": rule_id,
         }, run_id=run_id)
 
     def mark_paper_bet(self, *, bet_id: str, mark_date: str,

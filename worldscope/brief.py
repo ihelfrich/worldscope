@@ -416,6 +416,113 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     # a stage that failed left only a print in a log nobody read.
     stage_report: dict[str, dict] = {}
 
+    def _search_diagnostics(bets: list[dict]) -> dict:
+        """Multiple-testing control over the strategy search itself.
+
+        "Revise the method every day until it beats the market" is a
+        specification search. These are the numbers that say whether a good
+        result survived being searched for. They are computed on real-money
+        resolved bets only, and each declines to report rather than emit a
+        meaningless point estimate on a thin sample.
+        """
+        import numpy as _np
+        from .lake import Lake as _Lake
+        from .scoring import multiple_testing as _mt
+        from .scoring import venues as _v
+
+        lake = _Lake.open()
+        try:
+            n_trials = lake.trial_count()
+            violations = lake.preregistration_violations()
+        finally:
+            lake.close()
+
+        real = _v.partition(bets)[_v.REAL_MONEY]
+        pnl = _np.array([float(b.get("final_pnl") or 0.0) for b in real])
+
+        out: dict = {
+            "n_registered_rules": n_trials,
+            "preregistration_violations": len(violations),
+            "violation_reasons": sorted({v["reason"] for v in violations}),
+            "n_real_money_resolved": int(pnl.size),
+        }
+
+        # DSR needs a dispersion of Sharpes across trials to define its
+        # threshold. With one rule and no cross-trial variance there is
+        # nothing to deflate against, and inventing a number would be worse
+        # than saying so.
+        if pnl.size < _mt.MIN_OBS_FOR_SHARPE or n_trials < 2:
+            out["deflated_sharpe"] = None
+            out["note"] = (
+                f"not computable yet: {pnl.size} resolved real-money bets "
+                f"across {n_trials} registered rule(s). Needs at least "
+                f"{_mt.MIN_OBS_FOR_SHARPE} bets and 2 rules."
+            )
+            return out
+
+        sr = _mt.sharpe_ratio(pnl)
+        out["sharpe_naive"] = None if sr is None else round(sr, 4)
+
+        # var_sharpe is the dispersion of SHARPE RATIOS across trials. Measure
+        # it from the rules that actually ran when there are two or more;
+        # otherwise fall back to the estimator's null sampling variance.
+        # Passing the variance of returns here instead understates DSR by
+        # orders of magnitude.
+        trial_matrix, _rids, _dates = _mt.daily_returns_by_rule(real)
+        if trial_matrix.size and trial_matrix.shape[1] >= 2:
+            trial_sharpes = [_mt.sharpe_ratio(trial_matrix[:, j])
+                             for j in range(trial_matrix.shape[1])]
+            trial_sharpes = [x for x in trial_sharpes if x is not None]
+            var_sharpe = (float(_np.var(trial_sharpes, ddof=1))
+                          if len(trial_sharpes) >= 2
+                          else _mt.null_sharpe_variance(pnl.size, sr or 0.0))
+            out["var_sharpe_source"] = "observed across registered rules"
+        else:
+            var_sharpe = _mt.null_sharpe_variance(pnl.size, sr or 0.0)
+            out["var_sharpe_source"] = "null sampling variance (single rule)"
+
+        out["deflated_sharpe"] = round(_mt.deflated_sharpe_ratio(
+            pnl, n_trials=n_trials, var_sharpe=var_sharpe), 4)
+        out["note"] = (
+            "deflated_sharpe is the probability the record beats what the "
+            "best of n_registered_rules noise runs would have produced; "
+            "HIGH is good, below ~0.95 is not evidence of skill"
+        )
+
+        # PBO and SPA compare configurations against each other, so they need
+        # two or more rules with overlapping live history. They switch on by
+        # themselves the first day that exists, rather than sitting as dead
+        # code waiting to be remembered.
+        matrix, rule_ids, dates = _mt.daily_returns_by_rule(real)
+        if matrix.size and matrix.shape[0] >= 16 and matrix.shape[1] >= 2:
+            try:
+                pbo = _mt.pbo_cscv(matrix, n_splits=8)
+                out["pbo"] = pbo.as_dict()
+            except ValueError as exc:
+                out["pbo"] = {"unavailable": str(exc)}
+
+            # Benchmark is DOING NOTHING (zero return), not the best rule.
+            # Testing the best rule against the others answers "is my best rule
+            # better than my other rules", which is not the question. The
+            # question is whether any rule beats not trading, given that the
+            # best of them was chosen by looking.
+            losses = -matrix          # SPA is stated in losses; lower is better
+            spa = _mt.spa_test(_np.zeros(matrix.shape[0]), losses,
+                               n_boot=500, seed=0)
+            out["spa"] = spa.as_dict()
+            out["spa"]["benchmark"] = "no position (zero return)"
+            if spa.best_model is not None and spa.best_model < len(rule_ids):
+                out["spa"]["best_rule"] = rule_ids[spa.best_model]
+        else:
+            out["pbo"] = None
+            out["spa"] = None
+            out["cross_rule_note"] = (
+                f"PBO and SPA compare rules against each other and need >= 2 "
+                f"rules with >= 16 overlapping days of resolved bets; "
+                f"currently {len(rule_ids)} rule(s), {len(dates)} shared days."
+            )
+        return out
+
     def _stage_scorecard() -> None:
         """Write the forecast scorecard where a human will actually see it.
 
@@ -447,8 +554,10 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         split = score_predictions_split(preds)
         edge = headline_edge(bets)
         by_venue = score_paper_bets_by_venue(bets)
+        search = _search_diagnostics(bets)
 
         scorecard = {
+            "search_integrity": search,
             "predictions": {
                 "self_graded": split["self_graded"]["skill"].as_dict(),
                 "self_graded_caveat": split["self_graded"]["caveat"],
