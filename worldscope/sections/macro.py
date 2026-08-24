@@ -80,6 +80,9 @@ class MacroSection(Section):
     title = "Macro indicators — latest values (FRED)"
     emoji = "📊"
 
+    # Capability contract: FRED refuses unauthenticated series requests.
+    requires_env = ('FRED_API_KEY',)
+
     def pull(self) -> list[dict]:
         key = os.environ.get("FRED_API_KEY")
         if not key:

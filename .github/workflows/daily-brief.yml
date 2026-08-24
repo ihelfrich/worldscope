@@ -1,8 +1,15 @@
 name: Daily briefing
 
+# NOTE: deliberately NOT triggered on push.
+#
+# It used to be. The desk-officer routine commits briefings/<date>.md with a
+# PAT, PAT-authored pushes do trigger workflows, and so every day this entire
+# pipeline ran twice: once on the 07:00 cron and again ~09:20 after the
+# routine's commit. That meant two full crawls of ~41 upstream sources for one
+# brief, and — because the lake wrote predictions and paper_bets with
+# INSERT OR REPLACE — the second run silently overwrote the first run's
+# forecast record every single day.
 on:
-  push:
-    branches: [main]
   schedule:
     # 07:00 UTC = 03:00 ET (EDT) / 02:00 ET (EST). Runs 2 hours before the
     # desk-officer routine (09:00 UTC) and 3 hours before the morning Pushover
@@ -46,7 +53,33 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
-      - run: pip install -e .
+      # The 'ci' extra carries matplotlib, fiona, duckdb and the mediacloud
+      # SDK. Installing the bare package is why the graphics, maps,
+      # ukraine-maps, embeddings and warehouse stages ImportError'd into a
+      # swallowed log line on every run since May.
+      - run: pip install -e ".[ci]"
+
+      - name: Preflight — verify credentials and dependencies
+        # Fails the run when a REQUIRED credential or package is absent,
+        # before 41 upstream pulls are spent producing a brief that silently
+        # omits half its sections. Degraded (optional) capabilities are
+        # reported but do not block.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COURTLISTENER_API_TOKEN: ${{ secrets.COURTLISTENER_API_TOKEN }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
+          ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          MEDIACLOUD_API_KEY: ${{ secrets.MEDIACLOUD_API_KEY }}
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          OPENFEC_API_KEY: ${{ secrets.OPENFEC_API_KEY }}
+          GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
+          ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
+          WORLDSCOPE_SKIP: sanctions,people
+        run: python -m worldscope.preflight
+
       - name: Generate briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -58,6 +91,12 @@ jobs:
           MEDIACLOUD_API_KEY: ${{ secrets.MEDIACLOUD_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          # Lifts FEC off the shared DEMO_KEY (~30 req/hr) and turns on the
+          # GovInfo Congressional Record feed, which backs 30% of the
+          # political-figures composite score.
+          OPENFEC_API_KEY: ${{ secrets.OPENFEC_API_KEY }}
+          GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
+          ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
           # CI can't see the local 2.6 GB OpenSanctions corpus or the
           # PEP index built from it. Skip those sections so locally-generated
           # content (from Ian's machine, where the data files live) carries

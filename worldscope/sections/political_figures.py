@@ -15,9 +15,13 @@ Scorer lives in `worldscope.scoring.figure_anomaly`.
 Signal sources:
   Quiver Quantitative STOCK Act PTRs (reused from congressional_trades section's
     cached snapshot in the lake; no refetch).
-  GovInfo Congressional Record (`https://api.govinfo.gov/collections/CREC`)
-    for speech transcripts. Requires GOVINFO_API_KEY env. Falls back to empty
-    when the key is absent.
+  GovInfo Congressional Record, read from the `congressional_record`
+    section's lake artifacts (which own the CREC acquisition). This backs
+    speech_volume and speech_topic_drift. Both scored exactly 0.0 for every
+    figure from the section's creation until 2026-08-24, because `speeches`
+    was hardcoded to [] here -- 30% of the composite weight, silently absent.
+    `component_coverage` in structured.json now reports per-component data
+    availability so a dead feed cannot hide inside the weighted sum again.
   GDELT GKG (reused from gdelt_gkg section) for entity-level 24h vs 30d tone.
   SEC EDGAR Form 4 (reused from form4 section) for officer/family insider
     transactions naming a figure or close family.
@@ -270,6 +274,75 @@ def _load_gdelt_gkg_from_lake() -> list[dict]:
     return rows
 
 
+def _load_congressional_record_from_lake(days: int = 90) -> dict[str, list[dict]]:
+    """Floor-speech rows from the congressional_record section, keyed by bioguide.
+
+    This replaces the hardcoded ``"speeches": []`` that made speech_volume and
+    speech_topic_drift — 30% of the composite anomaly weight — score 0.0 for
+    every figure on every day since the section was written.
+
+    The scorer's baseline window is 90 days, so we read that far back. The
+    upstream section pulls a 7-day incremental window each run, and the history
+    accumulates in the lake.
+
+    Rows arrive as lake records: everything the section emitted beyond
+    id/url/title/summary/date lives under ``extra``.
+    """
+    folder = LAKE_SECTIONS / "congressional_record"
+    if not folder.exists():
+        return {}
+    dirs = sorted([d for d in folder.iterdir() if d.is_dir()], reverse=True)
+    by_bioguide: dict[str, list[dict]] = defaultdict(list)
+    for d in dirs[:days]:
+        raw_path = d / "raw.jsonl"
+        if not raw_path.exists():
+            continue
+        with open(raw_path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                extra = obj.get("extra") or {}
+                bioguide = extra.get("bioguide_id") or ""
+                if not bioguide:
+                    continue
+                by_bioguide[bioguide].append({
+                    "date": obj.get("record_date") or "",
+                    "word_count": int(extra.get("word_count") or 0),
+                    "title": extra.get("title") or (obj.get("original_text") or "")[:200],
+                    "topic_vector": extra.get("topic_vector"),
+                    "url": obj.get("original_url"),
+                    "record_id": obj.get("id"),
+                })
+    # Chronological, oldest first: speech_topic_drift_score compares the mean of
+    # the LAST `recent_n` rows against the rows preceding them, so ordering is
+    # load-bearing, not cosmetic.
+    for rows in by_bioguide.values():
+        rows.sort(key=lambda r: r.get("date") or "")
+    return dict(by_bioguide)
+
+
+def _speech_embed_matrix(rows: list[dict]) -> Optional["np.ndarray"]:
+    """Stack per-speech topic vectors into the (N, D) matrix the scorer wants.
+
+    Returns None when fewer than two vectors are available — topic drift is
+    undefined against a single observation, and the scorer already treats None
+    as "no signal" rather than "no drift".
+    """
+    import numpy as np
+    vecs = [r["topic_vector"] for r in rows if r.get("topic_vector")]
+    if len(vecs) < 2:
+        return None
+    try:
+        return np.asarray(vecs, dtype=np.float64)
+    except (ValueError, TypeError):
+        return None
+
+
 def _load_form4_from_lake() -> list[dict]:
     folder = LAKE_SECTIONS / "form4"
     if not folder.exists():
@@ -337,7 +410,10 @@ def _fetch_courtlistener_recent(figure_name: str, *, days: int = 14,
     """
     if not figure_name:
         return []
-    token = os.environ.get("COURTLISTENER_API_TOKEN") or os.environ.get("COURTLISTENER_API_KEY")
+    # Canonical name only. This previously also accepted COURTLISTENER_API_KEY,
+    # a legacy alias no workflow ever set — two names for one credential is
+    # precisely the ambiguity that let NASA_FIRMS_KEY / FIRMS_MAP_KEY diverge.
+    token = os.environ.get("COURTLISTENER_API_TOKEN")
     headers = {"User-Agent": UA, "Accept": "application/json"}
     if token:
         headers["Authorization"] = f"Token {token}"
@@ -404,6 +480,9 @@ class PoliticalFiguresSection(Section):
     # other signals already place them in the top K of the pre-CL ranking.
     CL_QUERY_TOP_K = 25
 
+    # Capability contract: Reads either name; both only lift rate limits.
+    optional_env = ('COURTLISTENER_API_TOKEN',)
+
     def __init__(self, store=None):
         super().__init__(store=store)
         self._cached_signals: Optional[dict] = None
@@ -421,6 +500,7 @@ class PoliticalFiguresSection(Section):
         gdelt_all = _load_gdelt_gkg_from_lake()
         form4_all = _load_form4_from_lake()
         doj_all = _fetch_doj_rss()
+        speeches_by_bioguide = _load_congressional_record_from_lake()
 
         # PTRs: group by Quiver "Representative" string (last_first or similar).
         ptr_by_norm: dict[str, list[dict]] = defaultdict(list)
@@ -438,6 +518,7 @@ class PoliticalFiguresSection(Section):
             "gdelt_all": gdelt_all,
             "form4_all": form4_all,
             "doj_all": doj_all,
+            "speeches_by_bioguide": speeches_by_bioguide,
             # The freshest signal date actually present in the COMMITTED LAKE.
             # The scorer measures recency against THIS rather than wall-clock
             # today, so a lake that is a few days stale (CI, a fresh checkout
@@ -519,10 +600,20 @@ class PoliticalFiguresSection(Section):
                         "url": row.get("url"),
                     })
 
+        # ---- floor speech (GovInfo CREC, joined on bioguide) --------------
+        # Was hardcoded to [] / None, which zeroed speech_volume (0.15) and
+        # speech_topic_drift (0.15) for every figure on every run.
+        # Registry slot stubs (Reserve Bank presidents, agency chairs) carry
+        # bioguide_id "TODO" and are not members of Congress; they have no
+        # floor speech by construction.
+        speeches: list[dict] = []
+        if bg and bg != "TODO":
+            speeches = index.get("speeches_by_bioguide", {}).get(bg, [])
+
         return {
             "ptrs": ptrs,
-            "speeches": [],          # GovInfo speeches require key; left empty
-            "speech_embed": None,
+            "speeches": speeches,
+            "speech_embed": _speech_embed_matrix(speeches),
             "gdelt_tone": tones,
             "filings": filings,
             "doj_hits": doj_hits,
@@ -533,7 +624,7 @@ class PoliticalFiguresSection(Section):
     # ---- pull -----------------------------------------------------------
 
     def pull(self) -> list[dict]:
-        from ..scoring.figure_anomaly import FigureAnomalyScorer
+        from ..scoring.figure_anomaly import CoverageTracker, FigureAnomalyScorer
 
         registry = load_registry()
         if not registry:
@@ -574,6 +665,12 @@ class PoliticalFiguresSection(Section):
 
         # Build the final items list
         out: list[dict] = []
+        # Track which components had ANY input across the whole roster. A
+        # component at 0/600 is a dead source, not a calm week; speech_volume
+        # and speech_topic_drift sat at exactly that for months with nothing
+        # in the output to show it.
+        coverage = CoverageTracker()
+        self._coverage = coverage
         today_iso = date.today().isoformat()
         for fig, sig, _pre_score in pre_scored:
             fid = fig.get("id") or "unknown"
@@ -602,6 +699,7 @@ class PoliticalFiguresSection(Section):
             row = scorer.score(fig, sig)
             score = row["anomaly_score"]
             comps = row["components"]
+            coverage.observe(row["component_coverage"])
 
             # Build evidence list: collapse signal record_ids that drove the
             # score into one list for the lake.
@@ -693,6 +791,16 @@ class PoliticalFiguresSection(Section):
 
     def emit_structured(self, state_obj: SectionState) -> dict:
         base = super().emit_structured(state_obj)
+        # Which of the six weighted components actually had input data.
+        # Without this, a dead feed is indistinguishable from a calm week.
+        cov = getattr(self, "_coverage", None)
+        if cov is not None and cov.total:
+            base["component_coverage"] = {
+                "figures_scored": cov.total,
+                "with_data": dict(cov.counts),
+                "dead_components": cov.dead(),
+                "dead_weight_share": round(cov.dead_weight(), 4),
+            }
         entities: dict[str, dict] = {}
         rels: list[dict] = []
         anomalies: list[dict] = []
@@ -754,6 +862,7 @@ class PoliticalFiguresSection(Section):
         return base
 
     def synthesize_summary(self, state: SectionState) -> str:
+        _cov = getattr(self, "_coverage", None)
         active = [it for it in state.items
                   if not it.get("_error") and not it.get("is_stub")]
         ranked = sorted(active, key=lambda it: it.get("anomaly_score", 0.0),
@@ -767,6 +876,7 @@ class PoliticalFiguresSection(Section):
             f"record_count: {len(state.items)}",
             f"active_figures: {len(active)}",
             f"scored_above_zero: {len(nz)}",
+            f"dead_components: {','.join(_cov.dead()) if _cov and _cov.dead() else 'none'}",
             f"state: {state.state}",
             "---",
             "",

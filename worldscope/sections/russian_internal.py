@@ -139,6 +139,10 @@ class RussianInternalSection(Section):
     LOOKBACK_DAYS = 2
     MAX_WORKERS = 10
 
+    # Capability contract: The raw cross-language pull is valuable on its own;
+    # only the analysis layer degrades.
+    optional_env = ('ANTHROPIC_API_KEY',)
+
     def pull(self) -> list[dict]:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
         raw_items: list[dict] = []

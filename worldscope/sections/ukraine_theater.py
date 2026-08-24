@@ -828,6 +828,10 @@ class UkraineTheaterSection(Section):
         ("copernicus",   _fetch_copernicus_ems),
     ]
 
+    # Capability contract: Without it the air-alert layer falls back to the
+    # deprecated v1 endpoint.
+    optional_env = ('ALERTS_IN_UA_TOKEN',)
+
     def pull(self) -> list[dict]:
         all_items: list[dict] = []
         with ThreadPoolExecutor(max_workers=8) as pool:

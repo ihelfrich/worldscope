@@ -35,6 +35,7 @@ from .sections.epss import EpssSection
 from .sections.commentary import CommentarySection
 from .sections.tech_news import TechNewsSection
 from .sections.conflict import ConflictSection
+from .sections.congressional_record import CongressionalRecordSection
 from .sections.congressional_trades import CongressionalTradesSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.fec import FECSection
@@ -115,8 +116,10 @@ SECTION_REGISTRY = [
     ForecastsSection,
     CommentarySection,
     TechNewsSection,
-    # Must run AFTER congressional_trades, gdelt_gkg, and form4: it reads
-    # those sections' lake artifacts to build its per-figure signal index.
+    # Must run AFTER congressional_trades, gdelt_gkg, form4 and
+    # congressional_record: it reads those sections' lake artifacts to build
+    # its per-figure signal index.
+    CongressionalRecordSection,
     PoliticalFiguresSection,
     # MUST RUN LAST: placement reads every other section's summary.md
     # from today before deciding where to place paper bets.

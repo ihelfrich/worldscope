@@ -125,6 +125,9 @@ class CourtListenerSection(Section):
     MAX_WORKERS = 24           # concurrent court fetches
     PULL_TIMEOUT_S = 90        # section deadline (override base 75: ~65 courts)
 
+    # Capability contract: Anonymous access works; the token only lifts rate limits.
+    optional_env = ('COURTLISTENER_API_TOKEN',)
+
     def _fetch_court(self, court: str, label: str, jurisdiction: str,
                      cap: int, headers: dict, start: str) -> list[dict]:
         """Fetch and parse up to `cap` recent opinions for one court.

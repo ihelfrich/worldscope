@@ -35,7 +35,7 @@ only does the math.
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import date, datetime, timedelta, timezone
 from typing import Any, Iterable, Optional
 
@@ -301,6 +301,88 @@ def enforcement_hits_score(doj_hits: Iterable[dict],
 # --------------------------------------------------------------------- #
 
 
+def _has_rows(x) -> bool:
+    try:
+        return len(x) > 0
+    except TypeError:
+        return bool(x)
+
+
+def _component_coverage(signals: dict) -> dict[str, bool]:
+    """Which components had any input data at all for this figure.
+
+    A weighted sum cannot distinguish "this member gave no speeches" from
+    "the speech feed is dead". For three months it was the latter — speeches
+    was hardcoded to [] — and every figure's composite was quietly missing 30%
+    of its weight with nothing in the output to show it.
+
+    Coverage is reported, never used to rescale: silently renormalising the
+    composite would replace one invisible distortion with another.
+    """
+    embed = signals.get("speech_embed")
+    # Topic drift needs at least two observations to have a direction.
+    embed_ok = embed is not None and getattr(embed, "shape", (0,))[0] >= 2
+
+    return {
+        "stock_activity": _has_rows(signals.get("ptrs") or []),
+        "speech_volume": _has_rows(signals.get("speeches") or []),
+        "speech_topic_drift": bool(embed_ok),
+        "gdelt_tone": _has_rows(signals.get("gdelt_tone") or []),
+        "new_filings": _has_rows(signals.get("filings") or []),
+        "enforcement_hits": (
+            _has_rows(signals.get("doj_hits") or [])
+            or _has_rows(signals.get("oig_hits") or [])
+            or _has_rows(signals.get("court_hits") or [])
+        ),
+    }
+
+
+@dataclass
+class CoverageTracker:
+    """Fleet-level roll-up of per-figure component coverage.
+
+    Answers the question nobody could previously ask: across all ~600 figures
+    scored today, how many had any data behind each component? A component at
+    0/600 is a broken source, not a calm week.
+    """
+
+    counts: dict[str, int] = field(default_factory=lambda: {k: 0 for k in COMPONENT_WEIGHTS})
+    total: int = 0
+
+    def observe(self, coverage: dict[str, bool]) -> None:
+        self.total += 1
+        for name, ok in coverage.items():
+            if ok:
+                self.counts[name] = self.counts.get(name, 0) + 1
+
+    def dead(self) -> list[str]:
+        """Components for which not a single figure had input data."""
+        if self.total == 0:
+            return []
+        return sorted(k for k in COMPONENT_WEIGHTS if self.counts.get(k, 0) == 0)
+
+    def dead_weight(self) -> float:
+        """Share of the composite's weight backed by no data at all."""
+        return sum(COMPONENT_WEIGHTS[k] for k in self.dead())
+
+    def render(self) -> str:
+        if self.total == 0:
+            return "no figures scored"
+        parts = [
+            f"{k} {self.counts.get(k, 0)}/{self.total}"
+            for k in sorted(COMPONENT_WEIGHTS, key=lambda x: -COMPONENT_WEIGHTS[x])
+        ]
+        line = "component coverage: " + " · ".join(parts)
+        dead = self.dead()
+        if dead:
+            line += (
+                f"\nDEAD COMPONENTS ({self.dead_weight():.0%} of composite weight): "
+                + ", ".join(dead)
+                + " — no figure had any input data; treat the ranking as partial."
+            )
+        return line
+
+
 @dataclass
 class FigureAnomalyScorer:
     """Stateless scorer. Wrap inputs with `score(figure, signals)`."""
@@ -327,6 +409,7 @@ class FigureAnomalyScorer:
                 today=today,
             ),
         )
+        coverage = _component_coverage(signals)
         return {
             "id": figure.get("id"),
             "name": figure.get("name"),
@@ -335,6 +418,13 @@ class FigureAnomalyScorer:
             "components": asdict(comps),
             "anomaly_score": comps.composite(),
             "weights": dict(COMPONENT_WEIGHTS),
+            # Which components actually had input data behind them, and what
+            # share of the composite's weight that represents. Reporting only:
+            # the score above is unchanged by this.
+            "component_coverage": coverage,
+            "effective_weight": sum(
+                w for name, w in COMPONENT_WEIGHTS.items() if coverage.get(name)
+            ),
         }
 
 

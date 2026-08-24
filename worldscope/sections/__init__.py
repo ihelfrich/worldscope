@@ -60,6 +60,16 @@ class MissingCredential(SourceUnavailable):
     """A required API key / credential is not set in the environment."""
 
 
+class MissingDependency(SourceUnavailable):
+    """A required Python package for this source is not installed.
+
+    Distinct from MissingCredential because the remedy is different: a
+    credential is set by the operator, a dependency by the build. Both are
+    deployment defects that must surface as a failed source rather than a
+    quiet day.
+    """
+
+
 class UpstreamHTTPError(SourceUnavailable):
     """The upstream returned a non-2xx status or the request failed."""
 
@@ -156,8 +166,67 @@ class Section(ABC):
     source_country: Optional[str] = "US"
     source_language: str = "en"
 
+    # --- Capability contract -------------------------------------------------
+    # What this section needs in order to consult its upstream at all.
+    #
+    # These exist because the trust rule above was documented but unenforced:
+    # firms.py did `if not os.environ.get("FIRMS_MAP_KEY"): return []`, so a
+    # credential that was never configured looked exactly like a quiet day —
+    # for three months, across ~180 green workflow runs.
+    #
+    #   requires_env      absent -> MissingCredential, pull() is never called
+    #   optional_env      absent -> section still runs, in a degraded mode it
+    #                     is responsible for describing in its own output
+    #   requires_packages absent -> MissingDependency, pull() is never called
+    #
+    # Declare every credential the module reads; tests/test_capabilities.py
+    # enforces that statically.
+    requires_env: tuple[str, ...] = ()
+    optional_env: tuple[str, ...] = ()
+    requires_packages: tuple[str, ...] = ()
+
     def __init__(self, store: Optional[SnapshotStore] = None) -> None:
         self.store = store or SnapshotStore()
+
+    # ---- capability check ---------------------------------------------------
+
+    @classmethod
+    def missing_env(cls) -> list[str]:
+        """Required env vars that are absent or empty, in declaration order."""
+        return [v for v in cls.requires_env if not os.environ.get(v)]
+
+    @classmethod
+    def missing_packages(cls) -> list[str]:
+        """Required importable packages that are not installed."""
+        import importlib.util
+        out = []
+        for pkg in cls.requires_packages:
+            try:
+                if importlib.util.find_spec(pkg) is None:
+                    out.append(pkg)
+            except (ImportError, ValueError):
+                out.append(pkg)
+        return out
+
+    def _check_capabilities(self) -> None:
+        """Raise before pull() if this section cannot possibly succeed.
+
+        Ordering matters: credentials first, because a missing key is the
+        far more common operator-facing failure and naming it is more useful
+        than naming a package.
+        """
+        missing = self.missing_env()
+        if missing:
+            raise MissingCredential(
+                f"{self.id}: required environment variable(s) not set: "
+                f"{', '.join(missing)}"
+            )
+        pkgs = self.missing_packages()
+        if pkgs:
+            raise MissingDependency(
+                f"{self.id}: required package(s) not installed: "
+                f"{', '.join(pkgs)}"
+            )
 
     # ---- to implement -------------------------------------------------------
 
@@ -234,6 +303,10 @@ class Section(ABC):
         error_type: Optional[str] = None
         _t0 = time.monotonic()
         try:
+            # Capability gate: a missing credential or package is a broken
+            # sensor, not a quiet day. Checked here rather than inside pull()
+            # so no adapter can opt out of it.
+            self._check_capabilities()
             raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
         except Exception as exc:

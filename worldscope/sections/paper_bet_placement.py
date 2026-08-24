@@ -207,15 +207,13 @@ def _call_claude_for_decisions(summaries: dict[str, str],
     """Ask Claude Sonnet which markets are mispriced given today's evidence and
     cross-source signals. Returns a list of decision dicts. Empty list on any
     failure (degraded ok)."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        sys.stderr.write("[paper_bet_placement] no ANTHROPIC_API_KEY; skipping placement\n")
-        return []
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        sys.stderr.write("[paper_bet_placement] anthropic SDK missing; skipping placement\n")
-        return []
+    # Both are guaranteed by the section's requires_env / requires_packages;
+    # the base class raises before pull() is reached. Kept as a hard assertion
+    # rather than a silent skip: writing "skipping placement" to stderr and
+    # returning [] is exactly how this section placed zero bets on 66
+    # consecutive days while every workflow run reported success.
+    api_key = os.environ["ANTHROPIC_API_KEY"]
+    from anthropic import Anthropic
 
     system_prompt, user_prompt = _build_decision_prompts(
         summaries, markets, signals or [])
@@ -257,6 +255,12 @@ class PaperBetPlacementSection(Section):
     source_language = "en"
 
     PULL_TIMEOUT_S = 120
+
+    # Capability contract: The placement decision IS the model call. Without it the section
+    # places zero bets, which is what it silently did for 66 straight
+    # days. Hard requirement so the failure is visible.
+    requires_env = ('ANTHROPIC_API_KEY',)
+    requires_packages = ('anthropic',)
 
     def pull(self) -> list[dict]:
         """Read today's section summaries + market state, ask Claude where to

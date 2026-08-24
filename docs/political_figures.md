@@ -114,7 +114,7 @@ section run):
 |---|---|---|
 | `CONGRESS_GOV_API_KEY` | Library of Congress API (api.congress.gov) | speech_volume, speech_topic_drift, committees field on registry. Replaces retired ProPublica Congress API |
 | `GOVINFO_API_KEY` | GovInfo Congressional Record bulk API | speech_volume, speech_topic_drift |
-| `COURTLISTENER_API_TOKEN` (or `COURTLISTENER_API_KEY`) | CourtListener RECAP search | enforcement_hits (already partially live without key, but key lifts rate limits) |
+| `COURTLISTENER_API_TOKEN` | CourtListener RECAP search | enforcement_hits (already partially live without key, but key lifts rate limits) |
 
 Until those keys land, the section runs with `speech_volume` and
 `speech_topic_drift` permanently at 0, and `enforcement_hits` capped by the

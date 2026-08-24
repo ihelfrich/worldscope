@@ -38,6 +38,9 @@ class FECSection(Section):
     RECENT_FILINGS = 15
     CURRENT_CYCLE = 2026  # update when the next cycle's data is current
 
+    # Capability contract: Falls back to DEMO_KEY, which api.data.gov caps near 30 req/hr.
+    optional_env = ('OPENFEC_API_KEY',)
+
     def pull(self) -> list[dict]:
         session = requests.Session()
         session.headers["User-Agent"] = UA

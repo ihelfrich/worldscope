@@ -30,6 +30,18 @@ analytics = [
 sources = [
   "mediacloud>=4.0",
 ]
+# What the daily pipeline actually needs in CI to run every stage.
+#
+# Deliberately excludes sentence-transformers: it pulls torch (~2 GB, several
+# minutes per run) for one optional stage. Everything here is small and fast,
+# and each entry corresponds to a stage that silently no-op'd for three months
+# because `pip install -e .` installed none of them.
+ci = [
+  "matplotlib>=3.7",    # graphics stage
+  "fiona>=1.9",         # maps + ukraine-maps stages
+  "duckdb>=0.9",        # lib/warehouse.py anomaly screen
+  "mediacloud>=4.0",    # mediacloud section
+]
 # Everything, for a full local environment.
 all = [
   "matplotlib>=3.7",

@@ -54,6 +54,9 @@ class AcledSection(Section):
 
     PULL_TIMEOUT_S = 120
 
+    # Capability contract: ACLED has no anonymous tier; without both, every query 401s.
+    requires_env = ('ACLED_EMAIL', 'ACLED_PASSWORD')
+
     def _load_cached_token(self) -> str | None:
         if not TOKEN_CACHE.exists():
             return None

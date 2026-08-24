@@ -26,7 +26,7 @@ import os
 from typing import Any
 
 from ..lib.watchareas import load_watch_areas
-from . import Section
+from . import Section, UpstreamAuthError
 
 try:
     import mediacloud.api as _mc_api
@@ -44,14 +44,21 @@ class MediaCloudSection(Section):
     PER_AREA = 50
     DAYS_BACK = 2
 
+    # Capability contract: Needs both the key and the vendor SDK (the 'sources' extra).
+    requires_env = ('MEDIACLOUD_API_KEY',)
+    requires_packages = ('mediacloud',)
+
     def pull(self) -> list[dict]:
-        api_key = os.environ.get("MEDIACLOUD_API_KEY")
-        if not api_key or _mc_api is None:
-            return []
+        # Key and SDK are both guaranteed by requires_env / requires_packages.
+        api_key = os.environ["MEDIACLOUD_API_KEY"]
         try:
             search = _mc_api.SearchApi(api_key)
-        except Exception:
-            return []
+        except Exception as exc:
+            # A client the SDK refuses to construct is a broken source, not a
+            # quiet news day. Raise so source_health records the outage.
+            raise UpstreamAuthError(
+                f"mediacloud: SearchApi init failed: {type(exc).__name__}: {exc}"
+            ) from exc
         areas = load_watch_areas()
         prio_rank = {"high": 0, "normal": 1, "low": 2}
         areas.sort(key=lambda a: prio_rank.get(a.priority, 1))

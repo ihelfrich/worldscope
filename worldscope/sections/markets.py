@@ -104,6 +104,9 @@ class MarketsSection(Section):
 
     THROTTLE_S = 0.6
 
+    # Capability contract: Falls back to Yahoo's keyless chart endpoint.
+    optional_env = ('FINNHUB_API_KEY',)
+
     def pull(self) -> list[dict]:
         key = os.environ.get("FINNHUB_API_KEY")
         provider = "Finnhub" if key else "Yahoo"

@@ -82,6 +82,9 @@ class StateBillsSection(Section):
         "West Virginia", "Wisconsin", "Wyoming",
     ]
 
+    # Capability contract: OpenStates v3 rejects unauthenticated GraphQL calls.
+    requires_env = ('OPENSTATES_API_KEY',)
+
     def pull(self) -> list[dict]:
         api_key = os.environ.get("OPENSTATES_API_KEY")
         if not api_key:

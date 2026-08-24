@@ -66,14 +66,18 @@ class FirmsSection(Section):
     MIN_CONFIDENCE = {"nominal", "n", "high", "h"}  # drop low-confidence
     THROTTLE_S = 1.0
 
+    # Capability contract: NASA FIRMS issues a per-user MAP_KEY; the API has no keyless mode.
+    requires_env = ('FIRMS_MAP_KEY',)
+
     def _zone_url(self, key: str, west: float, south: float, east: float, north: float) -> str:
         area = f"{west},{south},{east},{north}"
         return f"{ENDPOINT}/{key}/{SOURCE}/{area}/{self.DAY_RANGE}"
 
     def pull(self) -> list[dict]:
-        key = os.environ.get("FIRMS_MAP_KEY")
-        if not key:
-            return []
+        # Presence is guaranteed by requires_env; the base class raises
+        # MissingCredential before pull() is reached. Returning [] here is
+        # what made a never-configured key look like a quiet day.
+        key = os.environ["FIRMS_MAP_KEY"]
         items: list[dict] = []
         for zone, w, s, e, n in ZONES:
             url = self._zone_url(key, w, s, e, n)

@@ -37,7 +37,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          # Shallow. This ran fetch-depth: 0 — a full-history clone of a
+          # 1.36 GB repository — 24 times a day. The commit step below only
+          # needs to add PNGs on top of the tip.
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -46,19 +49,35 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
+        # Was `pip install -r requirements.txt` while daily-brief.yml used
+        # `pip install -e .` — two dependency paths that drifted apart. Both
+        # now install the package with the same extras.
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -e ".[ci]"
 
       - name: Install web-intel (Go crawler)
+        # Best-effort by design: the section has a documented fallback path.
+        # Made explicit rather than hidden behind `|| echo`, so the log says
+        # which mode the run is in.
         run: |
-          go install github.com/ihelfrich/web-intel@latest || echo "web-intel install skipped; section will fall back"
+          if go install github.com/ihelfrich/web-intel@latest; then
+            echo "web-intel=full" >> "$GITHUB_ENV"
+          else
+            echo "::warning::web-intel install failed; ukraine_theater will use its fallback crawler"
+            echo "web-intel=fallback" >> "$GITHUB_ENV"
+          fi
 
       - name: Run Ukraine theater section only
         env:
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
           ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
-          NASA_FIRMS_KEY: ${{ secrets.NASA_FIRMS_KEY }}
+          # Was NASA_FIRMS_KEY, which worldscope/sections/firms.py has never
+          # read — it reads FIRMS_MAP_KEY. The thermal-anomaly layer was
+          # therefore blind in every hourly refresh since the workflow was
+          # written.
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
           FORCE_FULL_RECRAWL: ${{ github.event.inputs.force_full_recrawl }}
         run: |
           python -m worldscope.run_section --section ukraine_theater --emit-maps

@@ -26,11 +26,27 @@ from typing import Optional
 from . import Section
 
 # Override via env if you put the corpus somewhere else.
+#
+# The historical default pointed at ~/Projects/econscope/..., which is the
+# *old* machine's layout; this one keeps repositories under ~/Developer. A
+# wrong default is indistinguishable from an empty corpus at runtime, so try
+# both known locations before giving up.
+_CORPUS_RELPATH = Path("econscope") / "data" / "opensanctions" / "entities.ftm.json"
+_CORPUS_CANDIDATES = (
+    Path.home() / "Developer" / _CORPUS_RELPATH,
+    Path.home() / "Projects" / _CORPUS_RELPATH,
+)
+
+
+def _default_corpus_path() -> Path:
+    for candidate in _CORPUS_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    return _CORPUS_CANDIDATES[0]
+
+
 DEFAULT_DATA_PATH = Path(
-    os.environ.get(
-        "OPENSANCTIONS_DATA",
-        str(Path.home() / "Projects" / "econscope" / "data" / "opensanctions" / "entities.ftm.json"),
-    )
+    os.environ.get("OPENSANCTIONS_DATA") or _default_corpus_path()
 )
 
 # Datasets we care about for a sanctions briefing — drop PEP and pure-Wikidata.
@@ -65,6 +81,11 @@ class SanctionsSection(Section):
     title = "Sanctions & Designations (recent)"
     emoji = "⚖️"
     PULL_TIMEOUT_S = 200   # 2.6 GB FtM scan takes ~100s on a warm cache
+
+    # Capability contract: a path override, not a credential. The corpus is a
+    # local 2.6 GB file; CI sets WORLDSCOPE_SKIP=sanctions and carries forward
+    # the snapshot generated on Ian's machine.
+    optional_env = ('OPENSANCTIONS_DATA',)
 
     # Window matches the corpus refresh cadence. If the local file is from
     # May 18 and today is May 25, a 14-day window leaves zero hits because
