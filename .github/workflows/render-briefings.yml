@@ -54,7 +54,22 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
-      - run: pip install markdown pyyaml anthropic
+      - run: pip install -e ".[ci]"
+
+      - name: Restore dist/ + lake
+        # dist/ is no longer in git, and a Pages deployment replaces the WHOLE
+        # site. Rendering into an empty dist/ would publish only the briefs and
+        # silently delete zips/, sections/ and assets/ — including the
+        # zips/<date>.zip the desk-officer routine fetches every morning.
+        # site_builder also reads lake artifacts to rebuild section pages.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m worldscope.blobsync restore --paths dist,lake
+
+      - name: Fingerprint dist/ before rendering
+        id: before
+        run: echo "sum=$(find dist -type f -newermt '1970-01-01' -print0 2>/dev/null | sort -z | xargs -0 sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
       - name: Render every brief to HTML
         env:
           # lets the homepage generator translate foreign headlines (Haiku)
@@ -63,42 +78,32 @@ jobs:
       - name: Rebuild section pages so Tailwind sees their classes
         # The site_builder emits HTML with the same utility classes the
         # brief uses; rebuild before compiling CSS so nothing gets purged.
-        run: |
-          pip install -e . || true
-          python -m worldscope.site_builder --out dist --days 3 || true
+        # No `|| true`: a failure here means the section drill-downs are stale
+        # or missing, which is worth a red run rather than a silent gap.
+        run: python -m worldscope.site_builder --out dist --days 3
       - name: Compile Tailwind CSS
         run: npm run build:css
-      - name: Commit dist/ briefings (race-safe)
+      - name: Publish dist/ and decide whether to deploy
         id: commit
+        # Replaces a `git add -f dist/...` + commit + 5-attempt rebase-push
+        # loop. dist/ is generated output; it goes to the data release and to
+        # the Pages artifact, never into git history.
+        #
+        # `changed` still gates the deploy, but it is now derived from the
+        # rendered bytes rather than from whether git found a diff.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "worldscope-bot"
-          git config user.email "noreply@github.com"
-          # Stage rendered HTML and the compiled CSS, tolerating absent folders.
-          [ -d dist/briefings ] && git add -f dist/briefings || true
-          [ -d dist/weekly_briefings ] && git add -f dist/weekly_briefings || true
-          [ -d dist/sections ] && git add -f dist/sections || true
-          [ -f dist/assets/tailwind.css ] && git add -f dist/assets/tailwind.css || true
-          # If nothing changed, exit cleanly.
-          if git diff --staged --quiet; then
-            echo "No rendered-HTML changes to commit"
+          set -euo pipefail
+          AFTER=$(find dist -type f -print0 2>/dev/null | sort -z | xargs -0 sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)
+          if [ "$AFTER" = "${{ steps.before.outputs.sum }}" ]; then
+            echo "dist/ is byte-identical after rendering; nothing to publish"
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
-          git commit -m "rendered briefs ($(date -u +%Y-%m-%d))"
-          # Retry-with-rebase loop. Concurrent commits from the pushover
-          # workflow or the routine itself otherwise reject our push and
-          # leave the HTML undeployed -> 404 on the link Pushover sends.
-          for attempt in 1 2 3 4 5; do
-            if git push; then
-              echo "Pushed on attempt $attempt"
-              break
-            fi
-            echo "Push rejected on attempt $attempt; rebasing on origin/main"
-            # Regenerated HTML/CSS conflicts: prefer OUR fresh build (-X theirs
-            # favors the replayed commit during rebase). Abort cleanly if stuck.
-            git pull --rebase --autostash -X theirs origin main || git rebase --abort
-          done
+          python -m worldscope.blobsync persist --paths dist
+
       # The scheduled catch-up runs (4x/day) usually find nothing new to
       # render; redeploying an identical dist/ just burns a Pages deployment
       # and has been failing with "Deployment failed, try again later".

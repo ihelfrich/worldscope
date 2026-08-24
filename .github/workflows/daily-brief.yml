@@ -39,10 +39,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Full history: the commit/push step rebases onto origin/main on a
-          # reject, and a shallow clone can't find the merge base — which
-          # silently failed every day, freezing the committed lake for 13 days.
-          fetch-depth: 0
+          # Shallow. The old full-history clone existed for a commit/push step
+          # that rebased onto origin/main on a reject; there is no such step
+          # any more, because the lake is no longer committed. blobsync's
+          # one-time git-history seed deepens on demand if it ever needs to.
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -80,6 +81,15 @@ jobs:
           WORLDSCOPE_SKIP: sanctions,people
         run: python -m worldscope.preflight
 
+      - name: Restore lake + snapshot store
+        # The lake is no longer in git. Restore order is local -> newest
+        # data-* release -> git history (one-time migration seed) -> cold
+        # start. A cold start is announced loudly rather than silently
+        # producing a brief with no day-over-day comparisons.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m worldscope.blobsync restore --paths lake,data
+
       - name: Generate briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -111,42 +121,28 @@ jobs:
         # Runs after the Python build so it sees every class referenced in the
         # freshly-generated HTML before purging unused utilities.
         run: npm run build:css
-      - name: Prune + VACUUM lake + snapshot store under the 100MB git limit
-        # The lake crossed GitHub's hard 100MB file limit (bloated by ~22k
-        # quarantine rows), so the push was rejected for ~13 days. Then
-        # data/store.sqlite did the same on 2026-07-05. Keep both well under
-        # the limit before committing.
+      - name: Prune + VACUUM lake + snapshot store
+        # Originally kept both files under GitHub's hard 100 MB per-file limit,
+        # which the lake crossed (bloated by ~22k quarantine rows) and froze
+        # the push for ~13 days. That limit no longer applies now the lake
+        # lives in a Release, but retention still matters: it bounds the
+        # tarball and keeps restore fast.
         run: python -m worldscope.lake_maintenance
-      - name: Commit archive + snapshot store + lake
-        run: |
-          git config user.name "worldscope-bot"
-          git config user.email "noreply@github.com"
-          git add -f dist/ data/store.sqlite lake/ || true
-          if git diff --staged --quiet; then
-            echo "no changes"; exit 0
-          fi
-          git commit -m "briefing $(date -u +%Y-%m-%d)"
-          # Retry-with-rebase: same race-safety as render-briefings.yml. This
-          # job races many concurrent pushers (hourly, render, pushover), so
-          # give it more attempts with backoff, and FAIL LOUDLY if it never
-          # lands — a swallowed failure here is what froze the lake silently.
-          pushed=0
-          for attempt in 1 2 3 4 5 6 7 8; do
-            if git push; then
-              echo "Pushed on attempt $attempt"; pushed=1; break
-            fi
-            echo "Push rejected on attempt $attempt; rebasing onto origin/main"
-            # Generated artifacts (dist/, lake/, store) are fully rebuilt each
-            # run, so on a conflict prefer OUR fresh copy (-X theirs favors the
-            # commit being replayed during a rebase). Abort cleanly if it can't.
-            git fetch origin main
-            git rebase -X theirs origin/main || git rebase --abort
-            sleep $((attempt * 3))
-          done
-          if [ "$pushed" != "1" ]; then
-            echo "::error::daily-brief could not push after 8 attempts — lake not updated"
-            exit 1
-          fi
+
+      - name: Persist lake + snapshot store to the data release
+        # Replaces `git add -f dist/ data/store.sqlite lake/` plus an
+        # 8-attempt rebase-retry push loop. That committed 948 MB of
+        # regenerated data into a public repository and made four workflows
+        # fight over one branch.
+        #
+        # dist/ is included: a Pages deployment replaces the whole site, and
+        # render-briefings.yml deploys independently later in the day. If it
+        # started from an empty dist/ it would publish only the briefs and
+        # delete zips/, sections/ and assets/ from the live site.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m worldscope.blobsync persist --paths lake,data,dist
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

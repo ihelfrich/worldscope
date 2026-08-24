@@ -12,12 +12,29 @@ venv/
 build/
 .eggs/
 
-# Lake: keep the directory structure committed but exclude transient
-# SQLite write-ahead-log files. The lake/db/worldscope.sqlite database
-# IS committed so the orchestrator has a consistent shared state across
-# CI runs.
-lake/db/*.sqlite-wal
-lake/db/*.sqlite-shm
+# Generated data does not belong in git.
+#
+# It was committed anyway — `git add -f` in daily-brief.yml overrode these
+# rules — until 2026-08-24. That put 948 MB (96% of the tracked tree) of
+# regenerated artifacts into a 1.36 GB public repository growing ~35 MB/day,
+# and made four workflows contend on one branch through an 8-attempt
+# `git rebase -X theirs` loop.
+#
+# Durable storage is now a GitHub Release per day (`data-YYYY-MM-DD`), written
+# and read by worldscope/blobsync.py. dist/ needs no storage at all: it is
+# regenerated every run and reaches Pages via upload-pages-artifact, which
+# never reads git.
+#
+# History still contains these paths; nothing was rewritten. blobsync's
+# restore path can seed itself from that history if no release exists yet.
+lake/
+dist/
+data/store.sqlite
+data/store.sqlite-wal
+data/store.sqlite-shm
+
+# blobsync staging
+.blobsync/
 
 # Tailwind build artifacts
 node_modules/

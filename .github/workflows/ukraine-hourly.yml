@@ -68,6 +68,14 @@ jobs:
             echo "web-intel=fallback" >> "$GITHUB_ENV"
           fi
 
+      - name: Restore the Ukraine theater lake subtree
+        # Scoped deliberately: this job runs 24x/day and only ever writes
+        # lake/sections/ukraine_theater. Restoring the whole lake would move
+        # ~563 MB an hour to update a few megabytes.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m worldscope.blobsync restore --paths lake/sections/ukraine_theater
+
       - name: Run Ukraine theater section only
         env:
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
@@ -82,18 +90,25 @@ jobs:
         run: |
           python -m worldscope.run_section --section ukraine_theater --emit-maps
 
-      - name: Commit & push refreshed artifacts
+      - name: Persist the theater subtree
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m worldscope.blobsync persist --paths lake/sections/ukraine_theater
+
+      - name: Commit refreshed maps
+        # Only the map PNGs go to git now. The lake artifacts this job also
+        # writes used to be committed here every hour; they now travel in the
+        # data release. Note the add below has no -f and never did — once
+        # lake/ became gitignored, this step stopped staging it automatically.
         run: |
           git config user.name "ukraine-hourly-bot"
           git config user.email "bot@worldscope.local"
           DATE=$(date -u +%F)
-          git add lake/sections/ukraine_theater/${DATE}/ briefings/${DATE}-ukraine*.png 2>/dev/null || true
-          git diff --staged --quiet && echo "no changes" && exit 0
-          git commit -m "ukraine hourly refresh ${DATE} $(date -u +%H:%M)Z"
-
-          # Retry-with-rebase loop, same pattern as render-briefings.yml
+          git add briefings/${DATE}-ukraine*.png 2>/dev/null || true
+          git diff --staged --quiet && echo "no new maps" && exit 0
+          git commit -m "ukraine hourly maps ${DATE} $(date -u +%H:%M)Z"
           for i in 1 2 3 4 5; do
-            if git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push origin HEAD; then
+            if git push origin HEAD; then
               echo "push ok on attempt $i"
               exit 0
             fi
@@ -101,5 +116,5 @@ jobs:
             git pull --rebase origin main || git rebase --abort
             sleep $((i * 3))
           done
-          echo "all retries failed"
+          echo "::error::ukraine-hourly could not push refreshed maps"
           exit 1

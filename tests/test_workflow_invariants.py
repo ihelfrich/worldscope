@@ -131,6 +131,9 @@ def test_every_secret_referenced_is_read_by_something():
         "PUSHOVER_USER_KEY", "PUSHOVER_APP_TOKEN", "USER_KEY", "APP_TOKEN",
         "GITHUB_TOKEN", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY",
         "ALERT_MESSAGE",
+        # Read by the `gh` CLI that worldscope.blobsync shells out to,
+        # not by Python itself.
+        "GH_TOKEN",
     }
 
     unread: set[str] = set()
