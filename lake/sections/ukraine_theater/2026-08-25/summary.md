@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-08-25
-record_count: 233
-new_today: 68
+record_count: 880
+new_today: 508
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-68 new of 233 total items today.
+508 new of 880 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-08-25*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
@@ -23,6 +23,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] Israel-Palestine - Liveuamap](https://israelpalestine.liveuamap.com) — *2016-04-27*
   > <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NcWp5WDZfanl1bHV4Skt0RG5yZGQtVnBTbUhsMFRQMUpSdDlxV2Nvc25Kd3hzQU9jM1pFRnh2eDRJbDUyN19VQ1hQVVI5LUU?oc=5" target="_blank">Israel-Palestine</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
+- [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2016-04-27*
+  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2016-05-01*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hSFJBLThjMk1IUjZkTHBUcm0zbUhQcWhaZ0haSUl5Vlo1bWw0UTJmYkYxN1VLS2M5S2c1WmowU3Y?oc=5" target="_blank">Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com</a>&nbsp;&n
 - [[Liveuamap] Drones have attacked Ozon warehouses in Chapaevsk, Samara region - Liveuamap](https://liveuamap.com) — *2026-08-22*
@@ -31,10 +33,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPSFNtazFxQ1BXSFZMTlkteVZCbG4wNDY5U0FKSEZmcDBsMEhPbWtIZHFLMWRTZmwwdlVYb1BVWGJDNEdHektpYkN5dWE5WkluM0Y2elVfOURuOV9xakVVR3oxSE0yMzNUSmt3WENPT0gtMXc2aEN0YVF3Q0M4aWkzdnlubEtGS2VscGxELUx2QlZVVXFhcThJdWdOMXQxd3Rv?oc=5" target=
 - **NEW**  [[Liveuamap] Israeli forces arrest 11 citizens during raids and incursions into a number of West Bank cities at dawn today. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-08-24*
   > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLWdiSjJKMVNUMVVCR3dRTWY4Q051dnZqSDd5QVJTdDNxWlI5bXhEWmJ5RU9say1QN085RFlueUY0RjVGWHpEMjNod2pra25yREpYTUhxYTBiSFF3Q0NmV1Z4Z1U4QTBCRmVnRmZld3Rxcl8zOFJvSVdRM01wT0pMcEx0VWhrVUNORmJPYXZuRzdyYVYzMF9fbS1mRHhhRlE2dTlRc21BU0Q?oc
-- **NEW**  [[Liveuamap] Overnight Russia launched 127 strike drones, - Ukrainian Air Force - Liveuamap](https://liveuamap.com) — *2026-08-23*
-  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQTW9uWjNGSHhqbkMtT1Q0NS1zbGJ5d0ZzVGVfMGJSUHNrUnVFVVFBMmdpX0xodi11QjZEc0Z5VmlCalNPcVFVbTdnSnNmdVNPTXJzbGdTSVZiM0xNS21xQkZEQ3pVa0t2UjRKV290V01MODNhb290RnFDeDEyQ2VjYUZrUW9jV1pPaWRBSE1CZw?oc=5" target="_blank">Overnight Rus
-- **NEW**  [[Liveuamap] At Huliaipole direction clashes yesterday near Tsvitkove, Verkhnya Tersa, Hirke, - General Staff of Armed Forces of Ukraine reports Zaporizhia Oblast, Ukraine - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-08-22*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNXy1DZGhsZ3lQRGpjbEZQRVhKSmVXalBqb2E0dkk1SUN6bHRQVThtUWs1T2NRbFNEWjAyNXFBREQ2Y1NMQkpyQVR6MDFodDE0Rm1nV3JveDhtVFQ1UThSVEcwZ24zcDZNUG1ZZnRwRnctSFFNclgyWnJYOXpkaENFOUxUUGZkS1BhN2oyaE42YWdQRGs?oc=5" target="_blank">At Hulia
+- **NEW**  [[Liveuamap] At Orikhiv direction clashes yesterday near Pavlivka, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-08-24*
+  > <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNY0g4YWotVXBMQWpOZVBzQ251TmprbnZrcWJRM0RCUkpnTFFPb1JGOFVNR09zX2QyNmVfejE5NE1vUlg1Uk04ZklvNXJKVlZOb3BRMVVVN19GRXN6RGllQjQ4MzFTaGwwS0tVZjl0S3VjVE5EMWFUNXhGVzg1RWMxc2xJck51Yzc1SWFOSXBaYw?oc=5" target="_blank">At Orikhiv di
 - **NEW**  [[Liveuamap] Poland has summoned Israel&039;s ambassador, stating that it is "very disappointed" after Israel decided to discontinue criminal proceedings into the 2024 Gaza airstrike that killed Polish aid worker Damian Sobol Warszawa, mazowieckie - Liv](https://israelpalestine.liveuamap.com) — *2026-08-25*
   > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1E0RnUzOUJBaGo0X0dxQ2RLV0dLeVdRakZHbnV4ekdnc09SaTFqYm1XRXR6Qng2cnJQRFlJT25rWXZodWtYX2JCNjBvRUkyYXE3WHg2M0VQUU5MemptSGNqeFg4OHJJZTdMZm1LSnF1bzJnT0hEMVd0VnBLdEFRektuMDMtdF9LN1VPWXVtN21Fb1BwVkdEWWlwbkdYU1J1Y2p0LWZSa1U?oc
 - **NEW**  [[Liveuamap] Artillery shelling targets Al-Mansouri town South Governorate, Lebanon - Lebanon news on live map - Liveuamap](https://lebanon.liveuamap.com) — *2026-08-24*
@@ -53,13 +53,13 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFB3NW9NMUo4dGs4dlJBR1p1OVdsVGd6S19nMUl1cGh0eFgxVGNNcnB4Z1dNQ3VaYUtkbHNyQzJ4RWVPSnRfOHVCS3JkZVd4YTA2c0NCbmNfdGd5cWNYQnVQQTNIdlZkRWtsUFdRTGE0eDUyN1c4UHYyaFJSSVdfQQ?oc=5" target="_blank">Iraq news map in English - News from 
 - [[Liveuamap] Day of news on live map - August, 19 2026 - News about Hezbollah organization, in Lebanon, In Syria on live map - Liveuamap](https://hezbollah.liveuamap.com) — *2026-08-22*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zb1ZNVm9Ub3pCSXd4U05QSWZad2RJMFBOSEx3TTh6YThKMUliaXZuMzQtXzJVWEd5Z3J6d1V4QU8weE1BNVZpb2YyRER4cFNKMEE1YjYxX3Jtc0lxb3Bv?oc=5" target="_blank">Day of news on live map - August, 19 2026 - News about Hezbollah organization, 
+- **NEW**  [[Liveuamap] Day of news on the map - July, 31 2026 - Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-08-24*
+  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE81eURoZ1N2SHp5S001SF9JVTZxSDVzZml0ZkhyMjNHd2hSaDNSZVFoUk1oRi1VNXV4eHdmazA2cmNZeTM3aDh2RXR2dE16LXFYSlNidVAtSjZrOXB3?oc=5" target="_blank">Day of news on the map - July, 31 2026 - Somalia latest news in English on live map
 - **NEW**  [[Liveuamap] Earthquake of magnitude 4.6 - 51 km WSW of Sarangani, Philippines - disasters.liveuamap.com](https://disasters.liveuamap.com) — *2026-08-22*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sMnJPZE1ZekZQd3hFY2I3YXRScFZoSGZ6TGh6WXZQQWxROERvMDYzNmV2TmtjNExvYnFYTUhZaGNzYXA4MUo1d01SOFdmQUIxUm4yMUNfckF1Q1BndWJF?oc=5" target="_blank">Earthquake of magnitude 4.6 - 51 km WSW of Sarangani, Philippines</a>&nbsp;&nbs
+- **NEW**  [[Liveuamap] Day of news on live map - August, 23 2026 - Interactive map of Baltic states: Estonia, Latvia, Lithuania, Finland and Sweden - baltics.liveuamap.com - Liveuamap](https://baltics.liveuamap.com) — *2026-08-23*
+  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6a1NHdXJKRk5vMmI1T3h4NHFwQ1ZYR3JjZGU0MDV2Wlk3LVVqejVhOUNmWG1tMjU0ODRaNHBSRzE4MTdSM3k2UVUyNHd1Y2tiS2pwT2tLaTdXX3hq?oc=5" target="_blank">Day of news on live map - August, 23 2026 - Interactive map of Baltic states: Eston
 - **NEW**  [[Liveuamap] Earthquake of magnitude 5.3 - 227 km E of Levuka, Fiji - disasters.liveuamap.com](https://disasters.liveuamap.com) — *2026-08-23*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE40Mk1HVlZJcENudnVPaUdmLXpPUDZCR1VuTEZOam9nTkhTZENGVHg5bGpIZWxfb1luVFJUTHpJSE5ZLUF5dF9CRWxrS2pSYTB5RWVCaldFQ3NUT0sxalpZ?oc=5" target="_blank">Earthquake of magnitude 5.3 - 227 km E of Levuka, Fiji</a>&nbsp;&nbsp;<font col
-- [[Liveuamap] Day of news on the map - June, 05 2026 - Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-08-23*
-  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE14Nk1vTTRHSzhSaWxqc1ZpQjVGOEtSQXRBTDRXU1k4SlVVU2psQS15QnhuZVpjVmk5aDJzUFNGRjhONGlmUW9sZlJtSjZjekIzZzRjVlZLeGtYV2E2?oc=5" target="_blank">Day of news on the map - June, 05 2026 - Somalia latest news in English on live map
-- **NEW**  [[Liveuamap] Day of news on the map - шілде, 19 2026 - Somalia latest news in English on live map - Liveuamap](https://somalia.liveuamap.com) — *2026-08-24*
-  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fclhaaW1zVUdoU1lkTHpMRFVFX3lWcGFNQ2dPUWZTeXQ3NTQ1dGtxN0RrVDZQTHZYcE15S3hDczJfN2RKb0gyeExUVDJPbUNnTXQ2dEF2RmgyMHVa?oc=5" target="_blank">Day of news on the map - шілде, 19 2026 - Somalia latest news in English on live ma
 
-_(208 additional items in raw.jsonl)_
+_(855 additional items in raw.jsonl)_

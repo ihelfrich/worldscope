@@ -3,24 +3,35 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-25
 record_count: 55
-new_today: 42
+new_today: 45
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-42 new of 55 total items today.
+45 new of 55 total items today.
 
 - **NEW**  [[The Hacker News] Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data](https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html) — *2026-08-25*
   > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
 
 The vulnerabili
+- **NEW**  [[The Register] Crooks push Mac malware through fake OpenAI Codex ads](https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899) — *2026-08-25*
+  > Sponsored search results lead developers straight into a ClickFix malware trap
+- **NEW**  [[The Register] HMRC dangles £500M carrot for National Insurance system revamp](https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869) — *2026-08-25*
+  > Taxman wants to drag creaky NPS into agile era
+- **NEW**  [[The Register] What is virtualization modernization?](https://www.theregister.com/virtualization/2026/08/25/sponsored-what-is-virtualization-modernization/5290459) — *2026-08-25*
+  > SPONSORED EXPLAINER: Why you should take a long-term approach to rethinking your virtualization portfolio
+- **NEW**  [[The Register] Australia’s record industry won’t chart tunes recorded in the key of AI](https://www.theregister.com/ai-and-ml/2026/08/25/australias-record-industry-wont-chart-tunes-recorded-in-the-key-of-ai/5292074) — *2026-08-25*
+  > This is basically a riff on ‘You wouldn’t steal a car’ and means only the human league can have a hit
 - **NEW**  [[The Register] SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year](https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067) — *2026-08-25*
   > And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt
-- **NEW**  [[The Register] IBM announces chip that natively executes Arm and Z instructions concurrently](https://www.theregister.com/systems/2026/08/25/ibm-announces-chip-that-natively-executes-arm-and-z-instructions-concurrently/5292059) — *2026-08-25*
-  > Cunning plan to expand the amount of software that runs on mainframes is also an admission ISVs are focusing their energies elsewhere
-- **NEW**  [[The Register] Microsoft AI watermarks in Paint and Photos are linked to user IDs, researcher finds](https://www.theregister.com/ai-and-ml/2026/08/25/microsoft-ai-watermarks-in-paint-and-photos-are-linked-to-user-ids-researcher-finds/5292034) — *2026-08-25*
-  > Privacy? Not if you use hosted AI services
+- **NEW**  [[Computer Weekly] Argentina’s ‘techno-authoritarian’ turn expands state spying](https://www.computerweekly.com/news/366649409/Argentinas-techno-authoritarian-turn-expands-state-spying) — *2026-08-25*
+  > &lt;p&gt;The unchecked deployment of artificial intelligence (AI) surveillance tools by the Argentinian government is reinforcing a “techno-authoritarian infrastructure of social control”, according to Amnesty International.&lt;/p&gt; 
+&lt;p&gt;In a report published 19 August, ti
+- **NEW**  [[MIT Technology Review] Welcome to the spiderverse, a world measured through webs](https://www.technologyreview.com/2026/08/25/1141750/welcome-to-spiderverse-arachnid-webs/) — *2026-08-25*
+  > Counting the creatures in the world around us is critical for a raft of conservation efforts. It helps scientists gauge biodiversity, track migration, and spot invasive species. That census-taking, though, often requires humans to tabulate what they see, trap, or otherwise sense—
+- **NEW**  [[MIT Technology Review] I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.](https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/) — *2026-08-25*
+  > Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and 
 - **NEW**  [[TechCrunch] India’s Airbound bags $37M to take on trucks with rocket-like drones](https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/) — *2026-08-25*
   > Airbound's ultra-lightweight approach to drone delivery has attracted backing from Greenoaks, DoorDash, and Silicon Valley investor Lachy Groom.
 - **NEW**  [[TechCrunch] Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC](https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/) — *2026-08-25*
@@ -61,16 +72,5 @@ According to findings from Gen Digital, WordlistLoader is being used to deliver 
   > A new strain of malware is being used to infect Android-based car systems, turning the devices into part of a botnet.
 - **NEW**  [[Cybersecurity Dive] UK power facility disabled for days after suspected state-linked cyberattack](https://www.cybersecuritydive.com/news/uk-power-facility-disabled-Iran-cyberattack/828599/) — *2026-08-24*
   > The disruption took place amid a wave of attacks targeting vulnerable industrial devices in the water and energy sectors.
-- **NEW**  [[Cybersecurity Dive] House Democrats ask GAO to study CISA workforce cuts](https://www.cybersecuritydive.com/news/cisa-workforce-cuts-congress-letter-gao-study/828596/) — *2026-08-24*
-  > The five lawmakers, who serve on the Homeland Security Committee, said Congress didn&rsquo;t know enough about the Trump administration&rsquo;s changes to the cybersecurity agency.
-- [[Cybersecurity Dive] Salesforce gave every org the same free scanner. Attackers already know what it misses.](https://www.cybersecuritydive.com/spons/salesforce-gave-every-org-the-same-free-scanner-attackers-already-know-wha/828063/) — *2026-08-24*
-  > A defense every attacker can rehearse against isn't a defense. It's a false sense of security.
-- **NEW**  [[Schneier on Security] Criminal Deception in Silicon Valley](https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html) — *2026-08-24*
-  > Interesting paper:
-Abstract: With entrepreneurial fraud cases on the rise, we investigate how entrepreneurs carry out criminal deception, employing deceptive means to defraud audiences. Analyzing court data from Silicon Valley ventures and their founders prosecuted for fraud betw
-- **NEW**  [[The Register] You don't want this Sleepwalker backdoor on your Windows machine](https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021) — *2026-08-24*
-  > Its own command language, 23 instructions - signs point to 'well-resourced operation rather than an opportunistic one'
-- **NEW**  [[The Register] Browser fingerprint tool shows how easy you are to track using the latest sneaky tricks](https://www.theregister.com/security/2026/08/24/browser-fingerprint-tool-shows-how-easy-you-are-to-track-using-the-latest-sneaky-tricks/5292015) — *2026-08-24*
-  > Glassbox dev admits he had some help from Claude to build locally running tool
 
 _(30 additional items in raw.jsonl)_

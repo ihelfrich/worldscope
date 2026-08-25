@@ -2,14 +2,14 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-08-25
-record_count: 16
-new_today: 16
+record_count: 17
+new_today: 17
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-16 new of 16 total items today.
+17 new of 17 total items today.
 
 - **NEW**  [M 6.0 - 215 km NNE of Lospalos, Timor Leste](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn41) — *2026-08-24*
   > M6.0 · 215 km NNE of Lospalos, Timor Leste · depth 10 km
@@ -17,6 +17,8 @@ state: fresh
   > M5.5 · 108 km NE of Hengchun, Taiwan · depth 14.608 km
 - **NEW**  [M 5.5 - 207 km SSE of Amahai, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn33) — *2026-08-24*
   > M5.5 · 207 km SSE of Amahai, Indonesia · depth 10 km
+- **NEW**  [M 5.0 - 31 km S of Nemuro, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbv) — *2026-08-25*
+  > M5.0 · 31 km S of Nemuro, Japan · depth 96.855 km
 - **NEW**  [M 5.0 - 209 km NNE of Lospalos, Timor Leste](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn80) — *2026-08-24*
   > M5.0 · 209 km NNE of Lospalos, Timor Leste · depth 9.947 km
 - **NEW**  [M 5.0 - southern Mid-Atlantic Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn3t) — *2026-08-24*
