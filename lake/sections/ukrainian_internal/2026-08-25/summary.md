@@ -2,23 +2,28 @@
 section: ukrainian_internal
 title: Ukrainian Internal News (national + local Kyiv)
 date: 2026-08-25
-record_count: 106
-new_today: 53
+record_count: 107
+new_today: 54
 state: fresh
 ---
 
 ## Ukrainian Internal News (national + local Kyiv)
 
-53 new of 106 total items today.
+54 new of 107 total items today.
 
 - [[feed error] LIGA.net: HTTPError](https://www.liga.net/news/rss.xml) — *2026-08-25*
   > 403 Client Error: Forbidden for url: https://www.liga.net/news/rss.xml
+- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-25*
+  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-25*
+  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
+- **NEW**  [[TITLE: У Єврокомісії знають про операцію "Форест Гамп" і нагадують про "нульову терпимість до корупції" | LEDE: ] (uk: У Єврокомісії знають про операцію "Форест Гамп" і нагадують про "нульову терпимі)](https://www.pravda.com.ua/news/2026/08/25/8050203/) — *2026-08-25*
 - **NEW**  [[TITLE: Марина Стародубська: 8 неочевидних кроскультурних фактів про Україну | LEDE: ] (uk: Марина Стародубська: 8 неочевидних кроскультурних фактів про Україну)](https://www.pravda.com.ua/news/2026/08/25/8050207/) — *2026-08-25*
 - **NEW**  [[TITLE: Вісім неочевидних кроскультурних фактів про Україну | LEDE: Вісім цікавих кроскультурних фактів про суспільні зміни, очікування та реальність в Україні за 35 років.] (uk: Вісім неочевидних кроскультурних фактів про Україну)](https://www.pravda.com.ua/columns/2026/08/25/8050205/) — *2026-08-25*
   > Вісім цікавих кроскультурних фактів про суспільні зміни, очікування та реальність в Україні за 35 років.
-- **NEW**  [[TITLE: Сили оборони уразили Афіпський НПЗ та Астраханський ГПЗ, які забезпечують армію РФ | LEDE: У ніч на 25 серпня Сили оборони повторно атакували нафтопереробний завод "Афіпський" у Краснодарському] (uk: Сили оборони уразили Афіпський НПЗ та Астраханський ГПЗ, які забезпечують армію )](https://www.pravda.com.ua/news/2026/08/25/8050204/) — *2026-08-25*
-  > У ніч на 25 серпня Сили оборони повторно атакували нафтопереробний завод "Афіпський" у Краснодарському краї РФ, а в ніч на 24 серпня – установки сепарації газу Астраханського газопереробного заводу з системи "Газпрому", обидва підприємства задіяні у забезпеченні російської армії.
-- **NEW**  [[TITLE: Росіяни завдали масованого авіаудару по Краматорську: є постраждалі | LEDE: Росіяни завдали авіаудару по Краматорську: відомо про жертв і поранених, пошкоджено житло та торгові об'єкти.] (uk: Росіяни завдали масованого авіаудару по Краматорську: є постраждалі)](https://www.pravda.com.ua/news/2026/08/25/8050201/) — *2026-08-25*
+- **NEW**  [[TITLE: Сили оборони уразили Афіпський НПЗ та Астраханський ГПЗ, які забезпечують армію РФ | LEDE: ЗСУ уразили Афіпський НПЗ і Астраханський газозавод, які забезпечують армію РФ, підтверджено пожежу.] (uk: Сили оборони уразили Афіпський НПЗ та Астраханський ГПЗ, які забезпечують армію )](https://www.pravda.com.ua/news/2026/08/25/8050204/) — *2026-08-25*
+  > ЗСУ уразили Афіпський НПЗ і Астраханський газозавод, які забезпечують армію РФ, підтверджено пожежу.
+- **NEW**  [[TITLE: Росіяни 8 разів атакували Краматорськ авіабомбами: 11 поранених, серед них немовля | LEDE: Росіяни завдали авіаудару по Краматорську: відомо про жертв і поранених, пошкоджено житло та торгові о] (uk: Росіяни 8 разів атакували Краматорськ авіабомбами: 11 поранених, серед них немов)](https://www.pravda.com.ua/news/2026/08/25/8050201/) — *2026-08-25*
   > Росіяни завдали авіаудару по Краматорську: відомо про жертв і поранених, пошкоджено житло та торгові об'єкти.
 - **NEW**  [[TITLE: Storm Shadow для України: Кремль пригрозив Британії "напіввіськовими діями" проти її збройних заводів | LEDE: Радник Кремля попередив про можливі атаки на британські заводи після передачі Украї] (uk: Storm Shadow для України: Кремль пригрозив Британії "напіввіськовими діями" прот)](https://www.pravda.com.ua/news/2026/08/25/8050199/) — *2026-08-25*
   > Радник Кремля попередив про можливі атаки на британські заводи після передачі Україні технологій Storm Shadow.
@@ -46,14 +51,9 @@ state: fresh
   > Біля аеропорту Лейпциг/Галле виявили третій дрон із вибуховою речовиною. Влада підозрює причетність Росії.
 - **NEW**  [[TITLE: Вночі окупанти запустили по Україні 150 дронів і дві ракети, ППО знешкодила 124 БпЛА | LEDE: У ніч на 25 серпня Росія атакувала Україну 150 дронами, "Іскандером-М" та Х-31П, знищено 124 БпЛА, з] (uk: Вночі окупанти запустили по Україні 150 дронів і дві ракети, ППО знешкодила 124 )](https://www.pravda.com.ua/news/2026/08/25/8050176/) — *2026-08-25*
   > У ніч на 25 серпня Росія атакувала Україну 150 дронами, "Іскандером-М" та Х-31П, знищено 124 БпЛА, зафіксовано влучання на 17 локаціях.
-- **NEW**  [[TITLE: Чеський мандрівник проїхав на велосипеді "Україна" з Естонії до Москви | LEDE: ] (uk: Чеський мандрівник проїхав на велосипеді "Україна" з Естонії до Москви)](https://www.pravda.com.ua/news/2026/08/25/8050174/) — *2026-08-25*
-- [[feed error] Kyiv Independent: HTTPError](https://kyivindependent.com/rss/) — *2026-08-25*
-  > 404 Client Error: Not Found for url: https://kyivindependent.com/rss/
+- [[feed error] Babel: HTTPError](https://babel.ua/rss) — *2026-08-25*
+  > 404 Client Error: Not Found for url: https://babel.ua/rss
 - [[feed error] Vechirniy Kyiv: HTTPError](https://vechirniy.kyiv.ua/feed) — *2026-08-25*
   > 403 Client Error: Forbidden for url: https://vechirniy.kyiv.ua/feed
-- [[feed error] President of Ukraine: HTTPError](https://www.president.gov.ua/en/news/rss/2027) — *2026-08-25*
-  > 403 Client Error: Forbidden for url: https://www.president.gov.ua/en/news/rss/2027
-- **NEW**  [Ukraine Сelebrates 35 Years of Independence](https://www.kyivpost.com/post/83054) — *2026-08-25*
-  > Ukraine’s 35 years of independence have brought major democratic and institutional reforms, but often only after public pressure and crises. Current debates over elections and corruption reflect the freedoms Ukraine is defending. Valerii Zaluzhnyi argues that neglecting national 
 
-_(81 additional items in raw.jsonl)_
+_(82 additional items in raw.jsonl)_

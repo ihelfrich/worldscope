@@ -2,15 +2,21 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-08-25
-record_count: 278
-new_today: 219
+record_count: 279
+new_today: 221
 state: fresh
 ---
 
 ## Chinese Internal News
 
-219 new of 278 total items today.
+221 new of 279 total items today.
 
+- **NEW**  [China’s Fiscal Revenue Surges as State Spending Stagnates - Caixin Global](https://www.caixinglobal.com) — *2026-08-24*
+  > <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPclBkR2oxdkNPMVdKYzlHTDU4RFNrYm03STh2M2FUNWhfdW1qOEtacTU0eUFSX3NYRkFMU0F4MnN0dTNoMlJNd1NNMk1HY3hZN2g5QVZfRFRTUVRCQk9DRHVhUndvUVM1T1NMZ1pjaDhRazZMZmdZdXJMNUJVak9JQkRva3lFd3FVUkFkZ1NON1NrNmZraGVWZWUyVzUwV3NuZUoyU21Fd3hpZW
+- **NEW**  [Cover Story: China Tech Firms Drive AI Data Center Boom in Southeast Asia - Caixin Global](https://www.caixinglobal.com) — *2026-08-24*
+  > <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPc29fbE0tSk5NWWxYUEhFT2ZGVExGbWZ4UWZQaXE3SnhZaEJvSXVZdjk4cWg1Nl95T3BVYVlVVHRpaFcxeGlTRGpDaEdjYUVCRmVyeXhiUGthMmhCNFA2YjFLTTFHdEJQUlJKaHpMSThZTTQyM3NKRDNQU3JqNE43OG1aMElsTmh2VHlxOHFvTVpvVlpkRk4xa0lLNko1bTlzM1YzdXl4Q2FUay
+- **NEW**  [China’s Draft Outbound Investment Rules Target Individuals, Tighten Oversight - Caixin Global](https://www.caixinglobal.com) — *2026-08-24*
+  > <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOQTB6OUR1RXNuR1kxRDBTcWxxc3JZSUZFMjI3eXlpYkYyc0ROZDR0THlZVy1vRGNiN3Z3RU40X2lIMWo4R2hheG1tcnpkeEJyYkxXUUs4N21LeVU4V083LXVGaGVybUg5UnVLZEJsRFF3TDYzNWJfRjhKaVAtVzlHM3NxS0dVX3d6ek9GS0dwaUtnMWd5RmwwRzhveVh5SWhCcjdPa2htc2FORj
 - [[TITLE: 人事观察｜中央纪委副书记调整 赵世勇、张忠获晋升 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9icHNtYlc1UTFjWlBSTHBJajN6TXA2aTdVRXBUVURxMFpzYTlaOGJjWmk3cll2REprYlp1Z0hHV3gtY2Z] (zh: 人事观察｜中央纪委副书记调整 赵世勇、张忠获晋升 - china.caixin.com)](https://china.caixin.com) — *2026-08-23*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9icHNtYlc1UTFjWlBSTHBJajN6TXA2aTdVRXBUVURxMFpzYTlaOGJjWmk3cll2REprYlp1Z0hHV3gtY2Zac1VfQlJLNWhIWm1OMXdxNUx4Nk9VVFZTY3Nr?oc=5" target="_blank">人事观察｜中央纪委副书记调整 赵世勇、张忠获晋升</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com<
 - **NEW**  [[TITLE: 财新闻｜旗下奶粉被控致病，美国雅培：将赔偿6.7亿美元 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QOVViZUUyZlhIRWhtN3g2aUZ2TzZqMEJTVWViM3hwQl9DaHBXTGhxYTVqVHI4RVFYN2lPdGtUR3RKWnM2b1JGeG5BaE] (zh: 财新闻｜旗下奶粉被控致病，美国雅培：将赔偿6.7亿美元 - 财新)](https://mini.caixin.com) — *2026-08-23*
@@ -55,11 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BR1BocFNmcmNlRDRwWFc2SVRSRUx6b0xrYk5pNFF3NHFyRGJNU0U4OW9TY0hmZEZha2pDdzVkUWd6eTU1eTdLcDhzdGsyZlF2b1BsOWMtMmNTcGx3X2ZSS0pGZWg?oc=5" target="_blank">中东战争重构供需 中国石化上半年净利大增两成</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 人事观察｜57岁女高官郑莉履新贵阳市委书记 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tazlMOVFKcENKR2xBQmpBUl9rU3pZYzB5d0tZRkFMOHZnNmhjdmZsWTBnaWg2b2E4Sk92RkVFNVhiWmQyVF] (zh: 人事观察｜57岁女高官郑莉履新贵阳市委书记 - china.caixin.com)](https://china.caixin.com) — *2026-08-25*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tazlMOVFKcENKR2xBQmpBUl9rU3pZYzB5d0tZRkFMOHZnNmhjdmZsWTBnaWg2b2E4Sk92RkVFNVhiWmQyVFdGR0dxSG9LWWhnTl9DMjQ1TXI2ZVhCT0xN?oc=5" target="_blank">人事观察｜57岁女高官郑莉履新贵阳市委书记</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</fo
-- **NEW**  [[TITLE: 火线评论｜45岁的任羽中贪腐近20年，北大不应如此“兼容并包” - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE03TGhsdUxZaFhtWWZnNXBheTRfRWwzanAzQ2xDQ3ZzMXVFNk1wZ2ZrRjh5Vm04NW16YnhpYV9uUzdobFFGazNwS1] (zh: 火线评论｜45岁的任羽中贪腐近20年，北大不应如此“兼容并包” - 财新)](https://opinion.caixin.com) — *2026-08-25*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE03TGhsdUxZaFhtWWZnNXBheTRfRWwzanAzQ2xDQ3ZzMXVFNk1wZ2ZrRjh5Vm04NW16YnhpYV9uUzdobFFGazNwS1ZXTEZRYXpfbFk1LWQwTTdJMHZuTEg5eUtn?oc=5" target="_blank">火线评论｜45岁的任羽中贪腐近20年，北大不应如此“兼容并包”</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fo
-- **NEW**  [[TITLE: 北部湾一海底天然气管线环评获批 环境部要求施工期间保护布氏鲸 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ITlpEMHNrS2J1Z1BPdDFlYUZKUzRGdjVKUGttQzk1NTV3QW1fdFE1UkllNE8zWFJ6RnhiUnlwNk9KbTZPNEc1djg] (zh: 北部湾一海底天然气管线环评获批 环境部要求施工期间保护布氏鲸 - 财新)](https://science.caixin.com) — *2026-08-25*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ITlpEMHNrS2J1Z1BPdDFlYUZKUzRGdjVKUGttQzk1NTV3QW1fdFE1UkllNE8zWFJ6RnhiUnlwNk9KbTZPNEc1djg5ekg4di1ZXy1SalE2TUVCSHE3Qjg2V3hn?oc=5" target="_blank">北部湾一海底天然气管线环评获批 环境部要求施工期间保护布氏鲸</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fon
-- **NEW**  [[TITLE: 在碎叶城的废墟上，看见李白｜纪行 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QR21BOUpxNDJLLVk5X3BrUHBSR25WN00wRDRNYjRIalRvS2xNX1M4dDhLN0IxYlJVUTJuY3JhQVZpdVRlZjB5ZlhDWFAzcDJvUkFzZ] (zh: 在碎叶城的废墟上，看见李白｜纪行 - 财新)](https://mini.caixin.com) — *2026-08-25*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QR21BOUpxNDJLLVk5X3BrUHBSR25WN00wRDRNYjRIalRvS2xNX1M4dDhLN0IxYlJVUTJuY3JhQVZpdVRlZjB5ZlhDWFAzcDJvUkFzZ0ItQ3Y5UU5FRVE?oc=5" target="_blank">在碎叶城的废墟上，看见李白｜纪行</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(253 additional items in raw.jsonl)_
+_(254 additional items in raw.jsonl)_

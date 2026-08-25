@@ -41,8 +41,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NV093MTRsaDBralhKenlwOEp2U0FQWkVTczJDVGFFTFFvb0hLUmh1eGdnUWVKQkZPaVd3Z0VLdXAwMDA5dVJFT2xad0s?oc=5" target="_blank">Frequently Asked Questions - Newly Added</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets C
 - **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Iranian Transactions and Sanctions Regulations 31 CFR part 560 GENERAL LICENSE BB Authorizing - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-24*
   > <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1UYUFXbkxYQ0VqNjg3eE5ncnl2SkgzeDNKU2lEbFJEQllZQ0dONnRRLWs5X2F0dExCNVQwM1JPZ1Z2SHE5YjF1dlpTak1EaXhsZ3BkYWdka0tKbE1GS3c2bHpHWUVwQUpkU1NMWHJB?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Iranian Transactions and S
-- **NEW**  [[BIS Entity List] page checksum 920e78fe652c](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-25*
-  > Page content hash: 920e78fe652c. Compare with prior day's hash to detect updates.
+- **NEW**  [[BIS Entity List] page checksum b3518bb4eea8](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-08-25*
+  > Page content hash: b3518bb4eea8. Compare with prior day's hash to detect updates.
 - [[USASpending] $42,774,168,231 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-08-25*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL
 - [[USASpending] $41,316,801,718 → LAWRENCE LIVERMORE NATIONAL SECURITY, LLC: TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT](https://www.usaspending.gov/award/DEAC5207NA27344) — *2026-08-25*

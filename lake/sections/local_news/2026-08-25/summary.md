@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-25
-record_count: 232
-new_today: 216
+record_count: 238
+new_today: 222
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-216 new of 232 total items today.
+222 new of 238 total items today.
 
 - **NEW**  [[St. Louis] Where Art Thou? – 8/25/2026](https://www.stlmag.com/games/where-art-thou-082526/) — *2026-08-25*
   > <p>Recognize this St. Louis art? Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer and get your 
@@ -31,25 +31,35 @@ state: fresh
   > <p>St. Louis has an abundance of wonderful breakfast spots, and one of the things these restaurants have perfected especially well is the breakfast sandwich. You can find delicious daytime handhelds all over town, but these 15 represent the essential stops on any breakfast sandwi
 - **NEW**  [[St. Louis] The Wedge, Alton’s first coworking space, is a hit with workers](https://www.stlmag.com/business/the-wedge-alton-first-coworking-space/) — *2026-08-24*
   > <p>The Wedge Innovation Center opened in downtown Alton, Illinois, in April 2025. What started as a historic building has been transformed into a 55,000-square-foot coworking space complete with a gym, mother&#8217;s room, private offices, and a rooftop view of downtown Alton tha
-- **NEW**  [[St. Louis] Students return to Shenandoah Elementary in St. Louis while SLPS closures loom](https://www.stlpr.org/education/2026-08-24/students-return-to-shenandoah-elementary-st-louis-while-slps-closures-loom) — *2026-08-24*
-- **NEW**  [[St. Louis] MetroLink completes $62M in security upgrades and new fare collection at all platforms](https://www.stlpr.org/government-politics-issues/2026-08-24/metrolink-security-upgrades-fare-collection-platforms) — *2026-08-24*
-- **NEW**  [[St. Louis] Missouri reports more than 2,000 cyclosporiasis cases as curve flattens, outbreak slows](https://www.stlpr.org/news-briefs/2026-08-24/missouri-2-000-cyclosporiasis-cases-curve-flattens) — *2026-08-24*
-- **NEW**  [[St. Louis] To understand plastic’s impact on humans, scientists study Forest Park’s turtles](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-24/plastics-humans-scientists-study-forest-parks-turtles-st-louis-zoo-institute) — *2026-08-24*
-- **NEW**  [[St. Louis] St. Louis Zoo animals go to the doctor too — and their care is surprisingly similar to ours](https://www.stlpr.org/health-science-environment/2026-08-24/animals-at-st-louis-zoo-get-healthcare-similar-to-ours-maybe-even-better) — *2026-08-24*
-- **NEW**  [[St. Louis] Sen. Slotkin says America’s campaign finance system is broken — and she can fix it](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-24/sen-elissa-slotkin-america-campaign-finance-system-broken-st-louis) — *2026-08-24*
-- **NEW**  [[St. Louis] Food delivery robots won’t grace the sidewalks of Missouri S&T this year](https://www.stlpr.org/health-science-environment/2026-08-24/food-delivery-robots-wont-grace-sidewalks-of-missouri-s-t-this-year) — *2026-08-24*
-- **NEW**  [[St. Louis] St. Louis staple known for its heart-healthy Asian fusion cuisine closes doors after 22 years](https://www.stlpr.org/economy-business/2026-08-24/st-louis-staple-known-for-its-heart-healthy-asian-fusion-cuisine-closes-doors-after-22-years) — *2026-08-24*
-- [[St. Louis] The 40th anniversary of ‘Harp Attack!’ shines a light on St. Louis’ rich harmonica history](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-24/40th-anniversary-harp-attack-shines-light-st-louis-rich-harmonica-history) — *2026-08-24*
-- [[St. Louis] Sean Grayson, former cop convicted of killing Sonya Massey, dies](https://www.stlpr.org/law-order/2026-08-23/sean-grayson-former-cop-convicted-killing-sonya-massey-dies) — *2026-08-24*
-- **NEW**  [[St. Louis] See the Aug. 25, 1926, front page: Gov. orders Becker to place license funds in treasury](https://www.stltoday.com/news/archives/article_4ff009d4-0c5b-4dc0-8121-982ac02c5295.html) — *2026-08-25*
-  > Headlines from the Aug. 25, 1926, front page include: Grit saves life of Lt. Bettis in plane crash
-- **NEW**  [[St. Louis] Dr. Barton Goldsmith: My unexpected love affair with a robot](https://www.stltoday.com/article_5a7e9c02-d457-55ac-bf1c-3079f8bacb39.html) — *2026-08-25*
-  > Love affairs can begin in the strangest of ways, and this one was no exception. We met online, through Groupon, to be exact. I didn’t go there to meet anyone. I was just casually distributing my disposable income. But those…
-- **NEW**  [[St. Louis] Here’s why St. Louis is spending nearly $500K to fix a tornado-damaged home](https://www.stltoday.com/news/article_0157c44b-648d-478d-ac15-8a62c4405a36.html) — *2026-08-25*
-  > Plus: SLPS spent millions fixing up buildings marked for closure
-- **NEW**  [[St. Louis] DiMartino, Francesca](https://www.stltoday.com/obituaries/article_9f4dac10-bd68-5ed7-a09e-de6f4d419b9a.html) — *2026-08-25*
-  > DiMartino, Francesca
-- **NEW**  [[St. Louis] Eifler, Charles](https://www.stltoday.com/obituaries/article_8278c485-2e05-5398-a24b-9a1e1828cbab.html) — *2026-08-25*
-  > Eifler, Charles T.
+- **NEW**  [[St. Louis] National bookstore chain opening 4th St. Louis-area location](https://www.ksdk.com/article/news/local/business-journal/bookstore-half-price-books-opening-south-st-louis-county/63-3facb248-93e5-41db-9d35-972a6e59938d) — *2026-08-25*
+  > Half Price Books will buy and sell new and used books, magazines, comics, records, CDs, DVDs and collectible items.
+- **NEW**  [[St. Louis] Boeing lands $131B federal contract for F-15 work in St. Louis](https://www.ksdk.com/article/news/local/business-journal/boeing-lands-131b-federal-contract-for-f-15-work-in-st-louis/63-0b74c684-00bf-4787-bc15-49e41db9a9dc) — *2026-08-25*
+  > Boeing secured a federal contract worth up to $131.23 billion for F-15 fighter jet production, modernization and support work in St. Louis.
+- **NEW**  [[St. Louis] Dream's Angel Reese breaks WNBA record with 26 rebounds against Sparks, sets single-season record as well](https://www.ksdk.com/article/news/nation-world/angel-reese-wnba-los-angeles-atlanta-dream/507-7c747d63-9792-42a9-bfdf-cafd53aa5454) — *2026-08-25*
+  > Reese surpassed Chamique Holdsclaw’s record of 24 rebounds, set on May 23, 2003, for Washington.
+- **NEW**  [[St. Louis] Here's how to find out if you're eligible for Kroger's $17M pharmacy settlement](https://www.ksdk.com/article/news/nation-world/eligible-kroger-17-million-pharmacy-settlement/507-c8303f1a-5007-4dc6-8e3e-b5fd9ec41216) — *2026-08-25*
+  > The deadline to make a claim is Dec. 21, 2026.
+- **NEW**  [[St. Louis] Full recipe box found in antique shop takes woman on search for owner's kin](https://www.ksdk.com/article/news/nation-world/recipe-box-minnesota-antique-shop-search-owners-family/507-2719f2c0-39c5-41ee-ba02-52c6f067af98) — *2026-08-25*
+  > An antique find turned into a heartfelt mission to reunite a family's heirloom recipe box with its rightful owner.
+- **NEW**  [[St. Louis] Southwest Airlines flight attendant dies during layover in Hawaii](https://www.ksdk.com/article/news/nation-world/southwest-flight-attendant-dies-during-layover/507-a4d58ec9-56fc-4085-9648-df1440440f52) — *2026-08-25*
+  > The Honolulu Police Department confirmed they are investigating the incident as an unattended death.
+- **NEW**  [[St. Louis] St. Louis launches program to aid tornado survivors with water bills as shutoff moratorium ends](https://www.ksdk.com/article/news/local/as-seen-on-tv/st-louis-launches-program-to-aid-tornado-survivors-with-water-bills-as-shutoff-moratorium-ends/63-6747de46-4c83-4ec7-b3c6-63d6ee1d36d4) — *2026-08-25*
+  > As the city ends its moratorium, tornado victims owing a collective $4.3 million in water debt are offered new pathways to assistance.
+- **NEW**  [[St. Louis] Canada to announce retaliatory tariffs as Trump tells its leaders to ‘fall in line’](https://www.ksdk.com/article/news/nation-world/canada-us-retaliatory-tariffs-source-report/507-8f197259-f353-4b96-9ab5-84278761913c) — *2026-08-25*
+  > President Donald Trump escalated the dispute again Monday, telling Canadian leaders to “fall in line” or face consequences “far WORSE.”
+- **NEW**  [[St. Louis] Firefighters make progress against a Nevada wildfire that's destroyed more than 30 homes](https://www.ksdk.com/article/news/nation-world/reno-nevada-fire-evacuate-thousands-joe-lombardo/507-d1d8c764-8f38-4e2d-9d7b-fc6b1a5e90cd) — *2026-08-25*
+  > Nevada's governor declared a state of emergency and mobilized the National Guard.
+- **NEW**  [[St. Louis] Indictments against 4 Ohio family members reveal new details surrounding child endangerment case](https://www.ksdk.com/article/news/nation-world/ohio-child-endangerment-case-siders-family-indictments/507-fd2cee0a-cbbf-41f4-b09b-d996923dcbdb) — *2026-08-25*
+  > Officials in Ohio released new information on a separate investigation that led authorities to discover 16 children in "deplorable conditions" inside a home.
+- **NEW**  [[St. Louis] Victims of Oregon quintuple homicide identified](https://www.ksdk.com/article/news/nation-world/victims-forest-grove-oregon-quintuple-homicide-identified/507-54f39484-75a8-4695-9bfa-a222bc58accb) — *2026-08-25*
+  > The suspected killer was the boyfriend of one of the victims, authorities said. They lived together on the property in a rural area outside Portland.
+- **NEW**  [[St. Louis] 'The Emperor is a fan of Flock': Man dressed as Darth Vader speaks in support of Flock cameras](https://www.ksdk.com/article/news/nation-world/emperor-fan-flock-darth-vader-support-flock-cameras/507-4d45a241-e67b-4496-9e71-eb1221985e9d) — *2026-08-25*
+  > A man dressed as the "Star Wars" villain jokingly spoke to San Diego city officials in support of license plate reader cameras.
+- **NEW**  [[St. Louis] 'This is wrong and this is racist': Target pulls Halloween costume, apologizes after backlash](https://www.ksdk.com/article/news/nation-world/target-pulls-racist-halloween-costume-apologizes-backlash/507-64786256-1e5b-42e9-a538-b0ef5d5d449b) — *2026-08-24*
+  > A Target spokesperson said, "As a company, we know we got this wrong, and we are deeply sorry."
+- **NEW**  [[St. Louis] Police shoot person with 'multiple weapons' in Granite City, officers say](https://www.ksdk.com/article/news/local/police-shoot-suspect-multiple-weapons-granite-city/63-53cc1106-b81e-431b-ba5c-1e328e3dc9dd) — *2026-08-24*
+  > Neighbors told 5 On Your Side the suspect was screaming, threatening to set off a grenade.
+- **NEW**  [[St. Louis] 'How to Lose a Guy in 10 Days' sequel in early development](https://www.ksdk.com/article/news/nation-world/how-to-lose-a-guy-in-10-days-sequel-kate-hudson-matthew-mcconaughey/507-7ed6d490-8030-459e-b025-2251b320a9c5) — *2026-08-24*
+  > Paramount is developing a sequel to the beloved 2003 rom-com, with Kate Hudson producing and hopes to reunite her with co-star Matthew McConaughey.
 
-_(207 additional items in raw.jsonl)_
+_(213 additional items in raw.jsonl)_

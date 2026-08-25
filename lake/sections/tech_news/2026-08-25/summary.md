@@ -11,6 +11,10 @@ state: fresh
 
 45 new of 55 total items today.
 
+- **NEW**  [[The Hacker News] Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access](https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html) — *2026-08-25*
+  > Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators.
+
+The vulnerabilities, as disclosed b
 - **NEW**  [[The Hacker News] Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data](https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html) — *2026-08-25*
   > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
 
@@ -58,10 +62,6 @@ McAfee Labs said it detected and blocked more than 6,300 attempts to access mali
   > A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.
 
 That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks t
-- **NEW**  [[The Hacker News] WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords](https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html) — *2026-08-24*
-  > Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.
-
-According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera S
 - **NEW**  [[The Record] US sanctions Iranian cyber actors as UK discloses power plant attack](https://therecord.media/iran-cyberattacks-us-uk) — *2026-08-24*
   > The U.S. sanctioned several Iranian nationals for cyberattacks on critical infrastructure just days after reports emerged of a cyber intrusion on a small power plant in the United Kingdom.
 - **NEW**  [[The Record] New Zealand to pursue social media ban for children under 16](https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children) — *2026-08-24*

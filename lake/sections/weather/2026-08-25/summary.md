@@ -2,17 +2,27 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-25
-record_count: 141
-new_today: 137
+record_count: 143
+new_today: 139
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-137 new of 141 total items today.
+139 new of 143 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-9887) — *2026-08-25*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-25542) — *2026-08-25*
   > Monitoring message only. Please disregard.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 25 at 4:36AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.880daf856289e108a5e43ee0ab04c53a8e995af3.001.1) — *2026-08-25*
+  > At 435 AM CDT, Doppler radar was tracking a strong thunderstorm over
+northern Lower Red Lake, or 37 miles north of Bemidji, moving
+northeast at 45 mph.
+
+HAZARD...Wind gusts up to 40 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could bring hazardous co
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 25 at 4:17AM CDT by NWS North Platte NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b77019931d0c297f39c3d917e8e42f10b06d1f9b.001.1) — *2026-08-25*
   > At 417 AM CDT, Doppler radar was tracking a strong thunderstorm near
 Tryon, moving southeast at 40 mph.
@@ -221,14 +231,5 @@ County Inland Central Coast, and Santa Ynez Valley.
 * WHEN...From 10 AM Wednesday to 8 PM PDT Thursday.
 
 * IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 25 at 12:02AM PDT until August 28 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.359007049044b9758a546697d04465c4866e762f.003.1) — *2026-08-25*
-  > * WHAT...For the Heat Advisory, temperatures up to 98. For the
-Extreme Heat Warning, dangerously hot conditions with temperatures
-up to 112 expected.
 
-* WHERE...A portion of southwest California.
-
-* WHEN...For the Heat Advisory, until 10 AM PDT this morning. For the
-Extreme Heat 
-
-_(116 additional items in raw.jsonl)_
+_(118 additional items in raw.jsonl)_

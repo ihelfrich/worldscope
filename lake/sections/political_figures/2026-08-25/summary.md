@@ -14,13 +14,13 @@ state: fresh
 
 1. **Tim Scott** (Senator, Republican, SC): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001307581-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001683168-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824]
 2. **Austin Scott** (Representative, Republican, GA-8th): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001307581-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001683168-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824]
 3. **Robert Scott** (Representative, Democratic, VA-3rd): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50
-   evidence: [lake:political_figures:0001307581-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001683168-2], [lake:political_figures:https://www.]
+   evidence: [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824]
 4. **Judy Chu** (Representative, Democratic, CA-28th): composite 0.140
    drivers: new_filings=0.40, enforcement_hits=0.50
    evidence: [lake:political_figures:0001628280-2], [lake:political_figures:0000906107-2], [lake:political_figures:https://www.]
@@ -38,7 +38,7 @@ state: fresh
    evidence: [lake:political_figures:0001193125-2], [lake:political_figures:0001570465-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001570465-2], [lake:political_figures:0001193125-2]
 9. **Rick Scott** (Senator, Republican, FL): composite 0.050
    drivers: new_filings=0.50
-   evidence: [lake:political_figures:0001307581-2], [lake:political_figures:0001493152-2], [lake:political_figures:0001683168-2]
+   evidence: [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824], [lake:political_figures:gkg-20260824]
 10. **Pete Stauber** (Representative, Republican, MN-8th): composite 0.050
    drivers: new_filings=0.50
    evidence: [lake:political_figures:0001214659-2], [lake:political_figures:0001214659-2], [lake:political_figures:0001214659-2]
