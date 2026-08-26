@@ -2,60 +2,181 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-26
-record_count: 134
-new_today: 130
+record_count: 133
+new_today: 131
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-130 new of 134 total items today.
+131 new of 133 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-4067) — *2026-08-26*
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 26 at 5:21AM EDT until August 26 at 5:45AM EDT by NWS Key West FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.174c203656a312ce4254f2053ed11ec41d81c51e.001.1) — *2026-08-26*
+  > SMWKEY
+
+The National Weather Service in Key West has issued a
+
+* Special Marine Warning for...
+Straits of Florida from Ocean Reef to Craig Key 20 to 60 nm out...
+
+* Until 545 AM EDT.
+
+* At 521 AM EDT, a strong thunderstorm was located 29 nm northeast of
+Floyd's Wall Northeast, mo
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-11824) — *2026-08-26*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 26 at 2:34AM CDT until August 26 at 2:45AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea772676158dc43e99e4ff9b101b8ac696b8e2d4.001.1) — *2026-08-26*
-  > At 234 AM CDT, a severe thunderstorm was located near Muscoda, or 12
-miles south of Richland Center, moving southeast at 30 mph.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 26 at 5:13AM EDT until August 26 at 5:45AM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e0a9809c8ee27b5d288a99d9a15ac73dfd3b945.001.1) — *2026-08-26*
+  > SMWMFL
 
-HAZARD...Quarter size hail.
+The National Weather Service in Miami has issued a
 
-SOURCE...Radar indicated.
+* Special Marine Warning for...
+Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM
+excluding the territorial waters of Bahamas...
 
-IMPACT...Damage to vehicles is expected.
+* Until 545 AM EDT.
 
-Locations impacted include...
-Muscoda, Orion, Red Oa
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 26 at 2:28AM CDT until August 26 at 3:15AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.326a766636c49943ff145a7c4db167acb6f417a6.001.1) — *2026-08-26*
-  > SVRMKX
+* At 513 AM EDT, a strong thunderstorm was located 32 nm 
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 2:11AM PDT until August 26 at 9:00PM PDT by NWS Spokane WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.021bdc4744c4f6b5ba19289a80e796f04709987e.001.1) — *2026-08-26*
+  > * WHAT...High temperatures 97 to 102F in the Lewiston-Clarkston
+Valley resulting in moderate to locally major HeatRisk.
 
-The National Weather Service in Milwaukee/Sullivan has issued a
+* WHERE...Culdesac, Lapwai, Clarkston, Lewiston, and Peck.
 
-* Severe Thunderstorm Warning for...
-Northwestern Iowa County in south central Wisconsin...
+* WHEN...Until 9 PM PDT this evening.
 
-* Until 315 AM CDT.
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 2:02AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b779658e516af9f7287b38d270c577decf2cd17.001.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions with high temperatures ranging
+between 104 to 111 degrees and low temperatures 79 to 85 degrees.
+Major to Extreme HeatRisk today through Saturday.
 
-* At 227 AM CDT, a severe thunderstorm was located over Muscoda, or
-10 miles south of Richlan
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 2:25AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.314084ff9342f419294857849dfd42d15c462eff.001.1) — *2026-08-26*
-  > At 225 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Muscoda, or 11 miles south of Richland Center, moving southeast at 30
-mph.
 
-HAZARD...Wind gusts up to 50 mph and nickel size hail.
+* WHERE...Pinal County, Tohono O'odham Nation, Tucson Metro Area,
+Upper Gila River Valley, and 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 2:02AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b779658e516af9f7287b38d270c577decf2cd17.002.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions with temperatures 98 to 105
+degrees expected. Overnight lows 71 to 78 degrees. Major HeatRisk
+is expected today through Saturday with isolated Extreme HeatRisk.
 
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 1:24AM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.83e646d5770cd7bb76f582773bf2f1f54f8209fb.001.1) — *2026-08-26*
-  > At 124 AM MDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Wildcat Hills State Recreation Area to
-near Oliver Reservoir to near Grover to 13 miles north of Purcell.
-Movement was southeast at 40 mph.
+* WHERE...Eastern Cochise County below 5000 feet, Upper San Pedro
+River Valley, an
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 3:01AM MDT by NWS Cheyenne WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b2b4472a10745ba249670a3520984b8ee1d91a7.001.1) — *2026-08-26*
+  > At 301 AM MDT, Doppler radar was tracking a strong thunderstorm over
+Sidney Municipal Airport, or near Sidney, moving southeast at 30 mph.
 
 HAZARD...Wind gusts up to 50 mph.
 
-SOURCE..
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured obj
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 28 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.006.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 104 to
+116. Major Heat Risk.
+
+* WHERE...Chuckwalla Mountains, Salton Sea, Chiriaco Summit, and
+Joshua Tree NP East.
+
+* WHEN...Until 8 PM PDT Friday.
+
+* IMPACTS...Overexposure can cause heat cramps and heat exhaustion to
+
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.005.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 103 to
+113. Major to Extreme Heat Risk.
+
+* WHERE...San Carlos.
+
+* WHEN...Until 8 PM MST Saturday.
+
+* IMPACTS...Increase in heat related illnesses, including heat
+cramps, heat exhaustion, and heat stroke. Heat stroke can 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.003.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 108 to
+117. Major to Extreme Heat Risk.
+
+* WHERE...The Phoenix metropolitan area.
+
+* WHEN...Until 8 PM MST Saturday.
+
+* IMPACTS...Increase in heat related illnesses, including heat
+cramps, heat exhaustion, and heat strok
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.001.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 107 to
+118. Major to Extreme Heat Risk.
+
+* WHERE...Portions of southwest Arizona and southeast California.
+
+* WHEN...Until 8 PM MST /8 PM PDT/ Saturday.
+
+* IMPACTS...Increase in heat related illnesses, including heat
+cra
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 28 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.004.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 104 to
+113. Major to Extreme Heat Risk.
+
+* WHERE...Dripping Springs, Globe/Miami, and Tonto Basin.
+
+* WHEN...Until 8 PM MST Friday.
+
+* IMPACTS...Increase in heat related illnesses, including heat
+cramps, heat exhaustion,
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 26 at 1:36AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9603f674e124e415aca43c199524bbab3ae5c730.002.1) — *2026-08-26*
+  > * WHAT...Dangerously hot conditions. Afternoon temperatures 106 to
+117. Major to Extreme Heat Risk.
+
+* WHERE...Aguila Valley, Apache Junction/Gold Canyon, Cave Creek/New
+River, Fountain Hills/East Mesa, Gila Bend, Northwest Pinal County,
+Sonoran Desert Natl Monument, Tonopah Dese
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 3:34AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ae58de721ae31572bab7288e86a76e15b1d7cfc.001.1) — *2026-08-26*
+  > At 333 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Blanchardville, or 11 miles southeast of Dodgeville, moving southeast
+at 30 mph.
+
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree lim
+- **NEW**  [[Severe] Flash Flood Watch: Flash Flood Watch issued August 26 at 2:32AM MDT until August 26 at 9:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f63524dc3ddd8027da82146e334550443096b31.001.1) — *2026-08-26*
+  > * WHAT...Flash flooding and debris flows caused by excessive rainfall
+will be possible over the Aspen Acres Burn Scar.
+
+* WHERE...Aspen Acres Burn Scar.
+
+* WHEN...From noon MDT today through this evening.
+
+* IMPACTS...Heavy rainfall over the Aspen Acres Burn Scar is expected
+up t
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 26 at 3:32AM CDT until August 26 at 9:00AM CDT by NWS Topeka KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf07bb14b50f63955678c92aaf8d3fdd77065e9e.001.1) — *2026-08-26*
+  > * WHAT...Visibility one quarter of a mile or less in dense fog.
+
+* WHERE...Brown, Marshall, and Nemaha Counties.
+
+* WHEN...Until 9 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 26 at 3:03AM CDT until August 26 at 11:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d44a37cff6dfad5122cca1ceacda0bf73b14ce69.002.1) — *2026-08-26*
+  > * WHAT...High waves and dangerous currents expected.
+
+* WHERE...Beaches along Lake Michigan in Door County.
+
+* WHEN...Until 11 AM CDT this morning.
+
+* IMPACTS...Dangerous swimming conditions are expected. Strong
+currents can pull swimmers into deeper water and high waves
+can swee
+- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued August 25 at 11:47PM AKDT until August 28 at 4:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b972183f9b069b176b75a8b32dd50174ad0f7a22.001.1) — *2026-08-25*
+  > * WHAT...South to southwest winds 25 to 35 mph with gusts up to 50
+mph expected, mainly near the coast.
+
+* WHERE...Kuskokwim Delta, Western Capes, and Northern Bristol Bay
+Coast.
+
+* WHEN...From 10 AM Thursday to 4 PM AKDT Friday.
+
+* IMPACTS...Gusty winds will blow around unsecure
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 2:23AM CDT until August 26 at 7:00PM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a275fb1452652cbed881c0ee65f4d75ea5390279.001.1) — *2026-08-26*
   > * WHAT...Heat index values 107 to 112.
 
@@ -68,15 +189,6 @@ illnesses.
 
 * ADDITIONAL DETAILS...Hotter conditions are expected on Wednesday
 wi
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 2:13AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85e4c31af918b2713b69d590cdf8fac54100ce41.001.1) — *2026-08-26*
-  > At 213 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Gate, or 11 miles northwest of Laverne, moving southeast at 20 mph.
-
-HAZARD...Wind gusts of 50 to 55 mph and pea size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow a
 - **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 26 at 5:04PM ChST by NWS Tiyan GU](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.287be45f41cf096a908f52413b9a817daf2cb0b5.001.1) — *2026-08-26*
   > An active monsoon pattern will continue to bring scattered to
 numerous, locally heavy, showers and isolated to scattered
@@ -127,123 +239,5 @@ coastal areas, particularly along south and southwest-facing
 beaches.
 
 * WHEN...From early Wed
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 1:37AM CDT until August 26 at 7:00PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6e917e469f78577caa3d4d8f419956f6f1d63ba.003.1) — *2026-08-26*
-  > * WHAT...Temperatures up to 104 and heat index values up to 110
-expected this afternoon.
 
-* WHERE...Caldwell, Fayette, Gonzales, Lavaca, and Lee Counties.
-
-* WHEN...Until 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 1:37AM CDT until August 26 at 7:00PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6e917e469f78577caa3d4d8f419956f6f1d63ba.002.1) — *2026-08-26*
-  > * WHAT...Temperatures up to 104 and heat index values up to 108
-expected this afternoon.
-
-* WHERE...Atascosa, Bexar, Comal, De Witt, Guadalupe, Hays, Karnes,
-and Wilson Counties.
-
-* WHEN...Until 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 1:37AM CDT until August 26 at 7:00PM CDT by NWS Austin/San Antonio TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6e917e469f78577caa3d4d8f419956f6f1d63ba.001.1) — *2026-08-26*
-  > * WHAT...Temperatures up to 104 and heat index values up to 106
-expected this afternoon.
-
-* WHERE...Bastrop, Burnet, Llano, Travis, and Williamson Counties.
-
-* WHEN...Until 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 26 at 1:33AM CDT until August 26 at 9:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49c9a13bd145ac8366a74b0fd7d191848202f8eb.001.1) — *2026-08-26*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...In Iowa, Fremont, Mills, Montgomery, and Page Counties. In
-Nebraska, Gage, Johnson, Nemaha, Otoe, Pawnee, and Richardson
-Counties.
-
-* WHEN...Until 9 AM CDT this morning.
-
-* IMPACTS...Low visibility could make d
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 25 at 10:32PM AKDT until August 26 at 10:00AM AKDT by NWS Juneau AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31be491cf3500e13f94eac58969d119ccca8e1ec.001.1) — *2026-08-25*
-  > * WHAT...Visibility less than 1 mile, at times down to 1/4 mile, in
-dense fog.
-
-* WHERE...City and Borough of Wrangell, Petersburg Borough, and
-Western Kupreanof Island and Kuiu Island.
-
-* WHEN...Until 10 AM AKDT Wednesday.
-
-* IMPACTS...Low visibility could make travel conditions
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 1:27AM CDT until August 26 at 9:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c7965223d17a6c2af4a3845a2c847fbe43235863.001.1) — *2026-08-26*
-  > * WHAT...Temperatures up to 104 and heat index values up to 108.
-
-* WHERE...North and Central Texas.
-
-* WHEN...Until 9 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity will increase the risk
-for heat-related illnesses to occur, particularly for those working
-o
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 26 at 12:00AM CDT until August 26 at 7:00PM CDT by NWS Shreveport LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec40a0faab20776197310471abcd13b9d9e7473a.001.1) — *2026-08-26*
-  > * WHAT...Heat index values up to 109 expected.
-
-* WHERE...Portions of extreme southwest Arkansas, all of northern
-Louisiana, and all of eastern Texas.
-
-* WHEN...From 11 AM to 7 PM CDT Wednesday.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 25 at 9:59PM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d68f0c602b707a3f6525978e7dadbfc1717040bd.003.1) — *2026-08-25*
-  > * WHAT...Dangerously hot conditions with high temperatures in the mid
-90s to 105 expected.
-
-* WHERE...Santa Ana Mountains and Foothills.
-
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Hot temperatures may ca
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 25 at 9:59PM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d68f0c602b707a3f6525978e7dadbfc1717040bd.001.1) — *2026-08-25*
-  > * WHAT...Dangerously hot conditions with high temperatures up to 110
-expected. Overnight low temperatures will be mostly in the 70s.
-
-* WHERE...San Bernardino and Riverside County Valleys-The Inland
-Empire.
-
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesses incr
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 25 at 9:59PM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d68f0c602b707a3f6525978e7dadbfc1717040bd.002.1) — *2026-08-25*
-  > * WHAT...Dangerously hot conditions with high temperatures during the
-peak of the heat on Thursday and Friday in the upper 90s in the
-western valleys to 108 in the inland valleys expected. Low
-temperatures will be mostly in the 70s.
-
-* WHERE...San Diego County Valleys.
-
-* WHEN...
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 25 at 9:59PM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d68f0c602b707a3f6525978e7dadbfc1717040bd.009.1) — *2026-08-25*
-  > * WHAT...High temperatures in the 90s below 6000 feet expected.
-
-* WHERE...San Bernardino County Mountains below 6000 feet.
-
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Hot temperatures may cause heat illn
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 25 at 9:59PM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d68f0c602b707a3f6525978e7dadbfc1717040bd.007.1) — *2026-08-25*
-  > * WHAT...Dangerously hot conditions with high temperatures in the mid
-90s to 105 expected. Low temperatures will be mostly in the 70s.
-
-* WHERE...Orange County Inland Areas.
-
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme
-
-_(109 additional items in raw.jsonl)_
+_(108 additional items in raw.jsonl)_

@@ -2,9 +2,9 @@
   "anomalies": [
     {
       "category": "feed-failure",
-      "description": "[feed error] CO Governor (Colorado): HTTPError",
+      "description": "[feed error] AZ Governor (Arizona): HTTPError",
       "evidence": [
-        "state-news-error-colorado-co-governor"
+        "state-news-error-arizona-az-governor"
       ],
       "z_score": null
     },
@@ -13,6 +13,22 @@
       "description": "[feed error] DCist (District of Columbia): HTTPError",
       "evidence": [
         "state-news-error-district-of-columbia-dcist"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] GA Governor (Georgia): HTTPError",
+      "evidence": [
+        "state-news-error-georgia-ga-governor"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] CO Governor (Colorado): HTTPError",
+      "evidence": [
+        "state-news-error-colorado-co-governor"
       ],
       "z_score": null
     },
@@ -34,9 +50,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] GA Governor (Georgia): HTTPError",
+      "description": "[feed error] MD Governor (Maryland): HTTPError",
       "evidence": [
-        "state-news-error-georgia-ga-governor"
+        "state-news-error-maryland-md-governor"
       ],
       "z_score": null
     },
@@ -58,33 +74,9 @@
     },
     {
       "category": "feed-failure",
-      "description": "[feed error] MD Governor (Maryland): HTTPError",
-      "evidence": [
-        "state-news-error-maryland-md-governor"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] AZ Governor (Arizona): HTTPError",
-      "evidence": [
-        "state-news-error-arizona-az-governor"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
       "description": "[feed error] NY Governor (New York): HTTPError",
       "evidence": [
         "state-news-error-new-york-ny-governor"
-      ],
-      "z_score": null
-    },
-    {
-      "category": "feed-failure",
-      "description": "[feed error] TX Governor (Texas): ConnectionError",
-      "evidence": [
-        "state-news-error-texas-tx-governor"
       ],
       "z_score": null
     },
@@ -103,6 +95,14 @@
         "state-news-error-utah-deseret-news--ut"
       ],
       "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[feed error] TX Governor (Texas): HTTPError",
+      "evidence": [
+        "state-news-error-texas-tx-governor"
+      ],
+      "z_score": null
     }
   ],
   "date": "2026-08-26",
@@ -114,6 +114,16 @@
         "kind": "us-state"
       },
       "type": "place"
+    },
+    {
+      "canonical_name": "CalMatters",
+      "id": "org:newsroom-calmatters",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "California",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
     },
     {
       "canonical_name": "CA Governor",
@@ -144,6 +154,34 @@
       "type": "org"
     },
     {
+      "canonical_name": "Alabama Political Reporter",
+      "id": "org:newsroom-alabama-political-reporter",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Alabama",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Connecticut",
+      "id": "place:state-connecticut",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "CT Mirror",
+      "id": "org:newsroom-ct-mirror",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Connecticut",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "Alaska",
       "id": "place:state-alaska",
       "metadata": {
@@ -158,6 +196,34 @@
         "kind": "newsroom",
         "state": "Alaska",
         "tier": "primary_document"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Alaska Beacon",
+      "id": "org:newsroom-alaska-beacon",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Alaska",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Arkansas",
+      "id": "place:state-arkansas",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "Arkansas Advocate",
+      "id": "org:newsroom-arkansas-advocate",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Arkansas",
+        "tier": "mainstream_independent"
       },
       "type": "org"
     },
@@ -180,26 +246,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "Alabama Political Reporter",
-      "id": "org:newsroom-alabama-political-reporter",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Alabama",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Alaska Beacon",
-      "id": "org:newsroom-alaska-beacon",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Alaska",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Colorado",
       "id": "place:state-colorado",
       "metadata": {
@@ -213,24 +259,6 @@
       "metadata": {
         "kind": "newsroom",
         "state": "Colorado",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Arkansas",
-      "id": "place:state-arkansas",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Arkansas Advocate",
-      "id": "org:newsroom-arkansas-advocate",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Arkansas",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -326,34 +354,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "Honolulu Civil Beat",
-      "id": "org:newsroom-honolulu-civil-beat",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Hawaii",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Indiana",
-      "id": "place:state-indiana",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Indiana Capital Chronicle",
-      "id": "org:newsroom-indiana-capital-chronicle",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Indiana",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Kansas",
       "id": "place:state-kansas",
       "metadata": {
@@ -408,6 +408,52 @@
       "type": "org"
     },
     {
+      "canonical_name": "Massachusetts",
+      "id": "place:state-massachusetts",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "CommonWealth Beacon",
+      "id": "org:newsroom-commonwealth-beacon",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Massachusetts",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Honolulu Civil Beat",
+      "id": "org:newsroom-honolulu-civil-beat",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Hawaii",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Indiana",
+      "id": "place:state-indiana",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "Indiana Capital Chronicle",
+      "id": "org:newsroom-indiana-capital-chronicle",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Indiana",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "Maine",
       "id": "place:state-maine",
       "metadata": {
@@ -444,19 +490,37 @@
       "type": "org"
     },
     {
-      "canonical_name": "Massachusetts",
-      "id": "place:state-massachusetts",
+      "canonical_name": "Michigan",
+      "id": "place:state-michigan",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "CommonWealth Beacon",
-      "id": "org:newsroom-commonwealth-beacon",
+      "canonical_name": "Michigan Advance",
+      "id": "org:newsroom-michigan-advance",
       "metadata": {
         "kind": "newsroom",
-        "state": "Massachusetts",
+        "state": "Michigan",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Maryland",
+      "id": "place:state-maryland",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "Maryland Matters",
+      "id": "org:newsroom-maryland-matters",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Maryland",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -498,24 +562,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "Michigan",
-      "id": "place:state-michigan",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Michigan Advance",
-      "id": "org:newsroom-michigan-advance",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Michigan",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Missouri",
       "id": "place:state-missouri",
       "metadata": {
@@ -529,60 +575,6 @@
       "metadata": {
         "kind": "newsroom",
         "state": "Missouri",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "New Jersey",
-      "id": "place:state-new-jersey",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "NJ Spotlight News",
-      "id": "org:newsroom-nj-spotlight-news",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "New Jersey",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Maryland",
-      "id": "place:state-maryland",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Maryland Matters",
-      "id": "org:newsroom-maryland-matters",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Maryland",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Nevada",
-      "id": "place:state-nevada",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "Nevada Current",
-      "id": "org:newsroom-nevada-current",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Nevada",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -624,19 +616,19 @@
       "type": "org"
     },
     {
-      "canonical_name": "New Hampshire",
-      "id": "place:state-new-hampshire",
+      "canonical_name": "Nevada",
+      "id": "place:state-nevada",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "New Hampshire Bulletin",
-      "id": "org:newsroom-new-hampshire-bulletin",
+      "canonical_name": "Nevada Current",
+      "id": "org:newsroom-nevada-current",
       "metadata": {
         "kind": "newsroom",
-        "state": "New Hampshire",
+        "state": "Nevada",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -660,19 +652,19 @@
       "type": "org"
     },
     {
-      "canonical_name": "Ohio",
-      "id": "place:state-ohio",
+      "canonical_name": "New Hampshire",
+      "id": "place:state-new-hampshire",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "Ohio Capital Journal",
-      "id": "org:newsroom-ohio-capital-journal",
+      "canonical_name": "New Hampshire Bulletin",
+      "id": "org:newsroom-new-hampshire-bulletin",
       "metadata": {
         "kind": "newsroom",
-        "state": "Ohio",
+        "state": "New Hampshire",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -696,6 +688,24 @@
       "type": "org"
     },
     {
+      "canonical_name": "Oklahoma",
+      "id": "place:state-oklahoma",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "Oklahoma Voice",
+      "id": "org:newsroom-oklahoma-voice",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "Oklahoma",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
       "canonical_name": "North Dakota",
       "id": "place:state-north-dakota",
       "metadata": {
@@ -714,19 +724,19 @@
       "type": "org"
     },
     {
-      "canonical_name": "Oklahoma",
-      "id": "place:state-oklahoma",
+      "canonical_name": "Ohio",
+      "id": "place:state-ohio",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "Oklahoma Voice",
-      "id": "org:newsroom-oklahoma-voice",
+      "canonical_name": "Ohio Capital Journal",
+      "id": "org:newsroom-ohio-capital-journal",
       "metadata": {
         "kind": "newsroom",
-        "state": "Oklahoma",
+        "state": "Ohio",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -750,19 +760,19 @@
       "type": "org"
     },
     {
-      "canonical_name": "Rhode Island",
-      "id": "place:state-rhode-island",
+      "canonical_name": "New Jersey",
+      "id": "place:state-new-jersey",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "Rhode Island Current",
-      "id": "org:newsroom-rhode-island-current",
+      "canonical_name": "NJ Spotlight News",
+      "id": "org:newsroom-nj-spotlight-news",
       "metadata": {
         "kind": "newsroom",
-        "state": "Rhode Island",
+        "state": "New Jersey",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -786,19 +796,19 @@
       "type": "org"
     },
     {
-      "canonical_name": "South Dakota",
-      "id": "place:state-south-dakota",
+      "canonical_name": "Rhode Island",
+      "id": "place:state-rhode-island",
       "metadata": {
         "kind": "us-state"
       },
       "type": "place"
     },
     {
-      "canonical_name": "South Dakota Searchlight",
-      "id": "org:newsroom-south-dakota-searchlight",
+      "canonical_name": "Rhode Island Current",
+      "id": "org:newsroom-rhode-island-current",
       "metadata": {
         "kind": "newsroom",
-        "state": "South Dakota",
+        "state": "Rhode Island",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -817,6 +827,24 @@
       "metadata": {
         "kind": "newsroom",
         "state": "South Carolina",
+        "tier": "mainstream_independent"
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "South Dakota",
+      "id": "place:state-south-dakota",
+      "metadata": {
+        "kind": "us-state"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "South Dakota Searchlight",
+      "id": "org:newsroom-south-dakota-searchlight",
+      "metadata": {
+        "kind": "newsroom",
+        "state": "South Dakota",
         "tier": "mainstream_independent"
       },
       "type": "org"
@@ -948,34 +976,6 @@
       "type": "org"
     },
     {
-      "canonical_name": "CalMatters",
-      "id": "org:newsroom-calmatters",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "California",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
-      "canonical_name": "Connecticut",
-      "id": "place:state-connecticut",
-      "metadata": {
-        "kind": "us-state"
-      },
-      "type": "place"
-    },
-    {
-      "canonical_name": "CT Mirror",
-      "id": "org:newsroom-ct-mirror",
-      "metadata": {
-        "kind": "newsroom",
-        "state": "Connecticut",
-        "tier": "mainstream_independent"
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "New York",
       "id": "place:state-new-york",
       "metadata": {
@@ -995,11 +995,101 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 312,
+  "new_count": 336,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 681,
+  "record_count": 700,
   "relationships": [
+    {
+      "evidence": [
+        "a539e0a7805a35f887008030e2b6dd8e6fb62723"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "87e2cd47c7b497430714f53a0b428dafe99ea551"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "aad4f5fd5e6bcf51242cf5e1119dffed610f5e56"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1f2b0aa671a4dcda2dca1d62e61020e02bf79829"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f2f654ccba4b3ceff0ef5b6e111528315a8570a2"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "80068e9a0dc27de3c2fc6368a62dbec93bf49814"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d169e0af6e4ae7b7dc9c30df3747eab15e01a722"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "94a6cfc6104930918c257152c2494b13959d7d58"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4cd25e0d6dc7cca9d4adb33b4d6a42161d455fb9"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2afe1fd9c8f783706be28559b59d05c2a536c724"
+      ],
+      "from": "org:newsroom-calmatters",
+      "to": "place:state-california",
+      "type": "reports-on",
+      "weight": 1.0
+    },
     {
       "evidence": [
         "b95ca8359e43a21f17291e9983b869e6aae2b5d1"
@@ -1096,96 +1186,6 @@
       ],
       "from": "org:newsroom-al-governor",
       "to": "place:state-alabama",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8fb8096712d38c869bdfc37b936185710de9dbed"
-      ],
-      "from": "org:newsroom-ak-governor",
-      "to": "place:state-alaska",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1250893f2128792fa2f60fc6bdf469af12e4b0d3"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1909d6b5945c580dd06b80282722adc27c4a2f00"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "adf2928d5939ca413f37abe9380692f8e87e5901"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a01b8440096c431d868de10ab93153d1f1ccc5a4"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b79cbc9484b19049b2afa49c8bbd3913c14ea6c1"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3e15d5c35996670491bffeb878830e8092d0e2a0"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a16127da26861ee61803234d72ec4f1f8d222741"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3dff1cf89bf543ad06586b8ad2b8af0d7eb1aefa"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "78366a37607a0c0a34474d3c872285e015469106"
-      ],
-      "from": "org:newsroom-arizona-mirror",
-      "to": "place:state-arizona",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1326,6 +1326,132 @@
     },
     {
       "evidence": [
+        "09948f56a8d117f7b687f14e1ed9e689809fc97c"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "86e36ccbd4def00c297422eca0bef4ecf4d8f676"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ba012924186e29fc7d62624fa3f44db13f3aceab"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ed92643e17f6125c77b48ec7e66640270671db47"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "98ba72ff34938b6d0ba067bd4c0948cf8b87c1d9"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b3a7a66f8c98b29b8fe52ff53d444d564dc5b544"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dc1991cbd8d823a47f59ad35566d9d0873a865e2"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9def175c9ac7eee1409586b6346b2c26c8d88be6"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "091bb64e69117478e7a67a479cb17b5e69eaafa2"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0d834ca55f57c6008cfc6e4ea958f14810a03ee0"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "19a64d5dbf452a740f8373c83087fc593c9e638e"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c9c31cb31e480cfadc5374997272460d655ece76"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fca9f077fd27f7d54f5f4b02db0f6c92bf6fe37a"
+      ],
+      "from": "org:newsroom-ct-mirror",
+      "to": "place:state-connecticut",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8fb8096712d38c869bdfc37b936185710de9dbed"
+      ],
+      "from": "org:newsroom-ak-governor",
+      "to": "place:state-alaska",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "8a210dfa8996b7a552abf5f36712f7a750814d81"
       ],
       "from": "org:newsroom-alaska-beacon",
@@ -1429,69 +1555,6 @@
       ],
       "from": "org:newsroom-alaska-beacon",
       "to": "place:state-alaska",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9a1129743fed174317388ae7c2426c8dde1db323"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ad2e06adaf1e729775c596b2fad1197bf3a438a8"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "83c47165ddfd3b5376079aa02a6f293220d3ef7e"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cadb294dde33cc7ce280765baa3418ea55158a40"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b3a73c4a824c5ff1ebe87b3c535ba252a9a9577e"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6523c88f89c9e1f39bd44a7fd340648397eea428"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ab116a75b88534e65755a47ec3e9d92c6dc9f363"
-      ],
-      "from": "org:newsroom-colorado-newsline",
-      "to": "place:state-colorado",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1663,6 +1726,150 @@
       ],
       "from": "org:newsroom-arkansas-advocate",
       "to": "place:state-arkansas",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1250893f2128792fa2f60fc6bdf469af12e4b0d3"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1909d6b5945c580dd06b80282722adc27c4a2f00"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "adf2928d5939ca413f37abe9380692f8e87e5901"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a01b8440096c431d868de10ab93153d1f1ccc5a4"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b79cbc9484b19049b2afa49c8bbd3913c14ea6c1"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3e15d5c35996670491bffeb878830e8092d0e2a0"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a16127da26861ee61803234d72ec4f1f8d222741"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3dff1cf89bf543ad06586b8ad2b8af0d7eb1aefa"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "78366a37607a0c0a34474d3c872285e015469106"
+      ],
+      "from": "org:newsroom-arizona-mirror",
+      "to": "place:state-arizona",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9a1129743fed174317388ae7c2426c8dde1db323"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ad2e06adaf1e729775c596b2fad1197bf3a438a8"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "83c47165ddfd3b5376079aa02a6f293220d3ef7e"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cadb294dde33cc7ce280765baa3418ea55158a40"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b3a73c4a824c5ff1ebe87b3c535ba252a9a9577e"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6523c88f89c9e1f39bd44a7fd340648397eea428"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ab116a75b88534e65755a47ec3e9d92c6dc9f363"
+      ],
+      "from": "org:newsroom-colorado-newsline",
+      "to": "place:state-colorado",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -1983,6 +2190,15 @@
     },
     {
       "evidence": [
+        "62de113afbec1d38f5b86b98ff38ff114de8bf1c"
+      ],
+      "from": "org:newsroom-georgia-recorder",
+      "to": "place:state-georgia",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "7cfa6a87518889b87a6c25d7049cb989446c62ef"
       ],
       "from": "org:newsroom-georgia-recorder",
@@ -2208,172 +2424,10 @@
     },
     {
       "evidence": [
-        "da181144fe66798e952514f5342a0c662f1bab03"
+        "8963c3c287a16c13009db10317a6f7d1b7eb7fe6"
       ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9a99992f023daf3490211d16540cc9de587cf679"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8466bca7b37cea70da13037207479ecfe79f23f1"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d8220536d45effc349205ed579f506af614fce87"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1602859af8eb9ac69c35b673360801cc7bf28bab"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "12770e60258a8537d624b6d47cda8abd001f2a2d"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "47c227eb3fd7a60acaf402e12c80e06a14ba0994"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "44447c3e7e1fcb8277294a5003c5ae2da94063b7"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "36d209fa1ccddd7261a9dca11f8ae6b4b87d6383"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf43decc132ee8ee49671eddb8a29f2200d8001b"
-      ],
-      "from": "org:newsroom-honolulu-civil-beat",
-      "to": "place:state-hawaii",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "52f9d99cc78da70a56e8ab675faaab7c02b49848"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0c74815f1754c2a929304417d4d50a8cc10c54c9"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "6858125c580881cd7dc1cdbdc6e7db857bdc9d94"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "71f72981824217be6c8f7eb9d5437242ebb72c40"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a2dd2bcff760d40bb51e5bde7389f13664853025"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0e0fb4fc26a8117bdb5a4a55d3d46f8060284865"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3dac5b664be673e872f46546458db5b22dd13602"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "138fd82a03c90d1d62d0ad715495e9f070b19e74"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "329e2bc5b43216719f2baa2e70d2621cb53264e0"
-      ],
-      "from": "org:newsroom-indiana-capital-chronicle",
-      "to": "place:state-indiana",
+      "from": "org:newsroom-kansas-reflector",
+      "to": "place:state-kansas",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -2770,6 +2824,285 @@
       ],
       "from": "org:newsroom-kentucky-lantern",
       "to": "place:state-kentucky",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b1bac1725902b80c909535aab23c10eec6ae8eb1"
+      ],
+      "from": "org:newsroom-commonwealth-beacon",
+      "to": "place:state-massachusetts",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4ee1c17fffa55d1c700bffaf40726796b02ac76d"
+      ],
+      "from": "org:newsroom-commonwealth-beacon",
+      "to": "place:state-massachusetts",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2d42644dc3d18b934e583bef73318b504172ffe0"
+      ],
+      "from": "org:newsroom-commonwealth-beacon",
+      "to": "place:state-massachusetts",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "36cbaedb337dd22167048632794d40958bfe00c2"
+      ],
+      "from": "org:newsroom-commonwealth-beacon",
+      "to": "place:state-massachusetts",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "da181144fe66798e952514f5342a0c662f1bab03"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9a99992f023daf3490211d16540cc9de587cf679"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8466bca7b37cea70da13037207479ecfe79f23f1"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d8220536d45effc349205ed579f506af614fce87"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1602859af8eb9ac69c35b673360801cc7bf28bab"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "12770e60258a8537d624b6d47cda8abd001f2a2d"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "47c227eb3fd7a60acaf402e12c80e06a14ba0994"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "44447c3e7e1fcb8277294a5003c5ae2da94063b7"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "36d209fa1ccddd7261a9dca11f8ae6b4b87d6383"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf43decc132ee8ee49671eddb8a29f2200d8001b"
+      ],
+      "from": "org:newsroom-honolulu-civil-beat",
+      "to": "place:state-hawaii",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fb82e0e2f61965076c2b4ec17b0b128f8aef8678"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "829521df1aff09391e4b6ce7f6b0ce38eb8f021f"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3789e047cb08884d4d936c1a12261b65a6a0c9e0"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "52f9d99cc78da70a56e8ab675faaab7c02b49848"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0c74815f1754c2a929304417d4d50a8cc10c54c9"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6858125c580881cd7dc1cdbdc6e7db857bdc9d94"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "71f72981824217be6c8f7eb9d5437242ebb72c40"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a2dd2bcff760d40bb51e5bde7389f13664853025"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0e0fb4fc26a8117bdb5a4a55d3d46f8060284865"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3dac5b664be673e872f46546458db5b22dd13602"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "138fd82a03c90d1d62d0ad715495e9f070b19e74"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "329e2bc5b43216719f2baa2e70d2621cb53264e0"
+      ],
+      "from": "org:newsroom-indiana-capital-chronicle",
+      "to": "place:state-indiana",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b556913af8df4af0b38031e902d9eb3f2f021f84"
+      ],
+      "from": "org:newsroom-portland-press-herald",
+      "to": "place:state-maine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ad7110dc19657d03ec346839906f9bfc337dc4b7"
+      ],
+      "from": "org:newsroom-portland-press-herald",
+      "to": "place:state-maine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "c88f459479780af280b253e9746ed15749cd0031"
+      ],
+      "from": "org:newsroom-portland-press-herald",
+      "to": "place:state-maine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "265d054c9672cb9810f10296a3abf91984318531"
+      ],
+      "from": "org:newsroom-portland-press-herald",
+      "to": "place:state-maine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2a96d9d843704a29459cdfbfbcfa9810870cdc94"
+      ],
+      "from": "org:newsroom-portland-press-herald",
+      "to": "place:state-maine",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -3180,51 +3513,6 @@
     },
     {
       "evidence": [
-        "df7d5dbe2cfe94551dc66c70ca399262bd80be88"
-      ],
-      "from": "org:newsroom-portland-press-herald",
-      "to": "place:state-maine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4f3c1b45661f16ed34ccd16858c62409e4dcc2ff"
-      ],
-      "from": "org:newsroom-portland-press-herald",
-      "to": "place:state-maine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "929770738ec40c6af076ba6e331725cb52863ed3"
-      ],
-      "from": "org:newsroom-portland-press-herald",
-      "to": "place:state-maine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d9bced1cf56e458bb498ca2faf92da6ef99dc551"
-      ],
-      "from": "org:newsroom-portland-press-herald",
-      "to": "place:state-maine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ef3d789fef64d891706fc3db4f296e7956eca506"
-      ],
-      "from": "org:newsroom-portland-press-herald",
-      "to": "place:state-maine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "40d854af4737eb81c67f9e7cbb404db04f64eda1"
       ],
       "from": "org:newsroom-louisiana-illuminator",
@@ -3405,235 +3693,10 @@
     },
     {
       "evidence": [
-        "b1bac1725902b80c909535aab23c10eec6ae8eb1"
+        "84273ce4c42f369ec38496eb3341f4234b32ad8a"
       ],
-      "from": "org:newsroom-commonwealth-beacon",
-      "to": "place:state-massachusetts",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4ee1c17fffa55d1c700bffaf40726796b02ac76d"
-      ],
-      "from": "org:newsroom-commonwealth-beacon",
-      "to": "place:state-massachusetts",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2d42644dc3d18b934e583bef73318b504172ffe0"
-      ],
-      "from": "org:newsroom-commonwealth-beacon",
-      "to": "place:state-massachusetts",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "36cbaedb337dd22167048632794d40958bfe00c2"
-      ],
-      "from": "org:newsroom-commonwealth-beacon",
-      "to": "place:state-massachusetts",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e30b7ee736bab2bea8065de332e8a3ecb3996a13"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4fad19ae660f910e2cdbef042ca44b5f0703cc43"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "abc847cd856b1c3cc7943efc85eb86d8603774e1"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0679a763ef87cc012deafc613a8501f85d266e1a"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7dde9bc2f3b0035004f0086d60ee293f970ea0e9"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a5475219cc93724a2b94e0b3b8706cb12160a996"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "923ad6ca895dd53b5ae95906522ca299bef0aed1"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7fb7f9b31660aca7e1f5343cc8b3b3451cec7e8c"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9d3113e37fb9070c4862f3f29f19cb629b39b914"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "aab92b7da40f3f5cec87e4a39cc7518c1d52ddfb"
-      ],
-      "from": "org:newsroom-mississippi-today",
-      "to": "place:state-mississippi",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d2493764cf346d82b489f16b08cbb8f88364c63d"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a819e86a29546c485e18d3d92ed8cec165310547"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fe682bb1eb776c1e336e7a53e13569258901f107"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "89caf998fa06760f047325a4a3e5f4ede9edc5d8"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0f0e4f5c633576ff8c4431c9b66375545aaa93dd"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "25a23e5f30f3ddc17e728f7a74a6d052630db712"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "5d4926a812a46117ffb7619de67d1f374ff0ef1d"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "eb9c0230a7c22ae2ee1436c96ece6d8a50ddec0b"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3c6a15d3dae84d4f7eb01d9e35d75a21a8e3819f"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0c96dce1fb7b110ca6ca877e1ab511d62337605c"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf2e02d87bc76cf1884f75b2846a4047bd08b972"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "368c872c3f86aa1cfd679907aff7a64713445f18"
-      ],
-      "from": "org:newsroom-minnesota-reformer",
-      "to": "place:state-minnesota",
+      "from": "org:newsroom-michigan-advance",
+      "to": "place:state-michigan",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -3837,190 +3900,19 @@
     },
     {
       "evidence": [
-        "47eb72f35624c431a848a028c2b07ba51990b30a"
+        "ce2a7177ed3c76e65fe9092df189b66ab68c1efe"
       ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
+      "from": "org:newsroom-maryland-matters",
+      "to": "place:state-maryland",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "17c367f0f01eb220db892dd8d61a493c2e358a35"
+        "5793580ded9244ebae343163d684df7bc74ffc5c"
       ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "09e0db55e38f67facad5c97a3fd25777116bc959"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0569fc69d8abb8cc23302296537b13082ed77854"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2d7db294b3a583ec66f87b2bb6e0e7216ee638b7"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a8c3e57dc4e7d217525560e5a32e9f338c23a76f"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a49267cef4ded420af315cd25ee053855c2c300c"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1b824b910639c70cfc1f3d381076cb855ff9c9f9"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0fce5fb097f2fe89536470d1668ecc911f831427"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "461792212044c8a1bd61aba4003703931ac6f764"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0df7a34f606cbaeee98bcdf9fd4113b5f2ed765f"
-      ],
-      "from": "org:newsroom-missouri-independent",
-      "to": "place:state-missouri",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b6c8af2b3470a1fef4ef0729c472810e4e6d3daa"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "253fdd4988383a8234e00f0933c2b6ee266c87fb"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3e442d80bbcac5b55c9098cd5ed6e3961eb68460"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0e24577d8c22c353dd4e5f206c1de099a3314f11"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4acbab2d50d96a19503157fdd74c1adbfea32b63"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a23239d190bdeb1ed910f9362cefa163ac2215de"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7765098ac6f54e7292487132fba7d7a0fc41ad94"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4eca8e4213d63b1499b484f494e0e296d39661d3"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "38b93a6a53572676537240fccef6175c70f06e94"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "47ca48081c735f92609da1e99a1e1b35c882ebc4"
-      ],
-      "from": "org:newsroom-nj-spotlight-news",
-      "to": "place:state-new-jersey",
+      "from": "org:newsroom-maryland-matters",
+      "to": "place:state-maryland",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -4170,82 +4062,298 @@
     },
     {
       "evidence": [
-        "b253f5ae08e6284afe724c2ab284314475cb59dd"
+        "e30b7ee736bab2bea8065de332e8a3ecb3996a13"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a19b8aa794ee29ebcebb0285b2ce5f3413d11ad0"
+        "4fad19ae660f910e2cdbef042ca44b5f0703cc43"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a5f77a4663c3ae7aedde5de515a743f4f8cddec7"
+        "abc847cd856b1c3cc7943efc85eb86d8603774e1"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "75d1c6b1207430d9776c8c99045d873793421d07"
+        "0679a763ef87cc012deafc613a8501f85d266e1a"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e76c54869e22343ccb99dd12a30421be641f4ade"
+        "7dde9bc2f3b0035004f0086d60ee293f970ea0e9"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7be0360cf6e43720ff7271f89d195207caf3021e"
+        "a5475219cc93724a2b94e0b3b8706cb12160a996"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e95d95aa93ef71bf7f0352a0496a031614eb2317"
+        "923ad6ca895dd53b5ae95906522ca299bef0aed1"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "fcecb18dd0c4b20a8dacead92e6df8759677dbb8"
+        "7fb7f9b31660aca7e1f5343cc8b3b3451cec7e8c"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e4e59112ed76144b73f50d2eb085ae6d3ca50504"
+        "9d3113e37fb9070c4862f3f29f19cb629b39b914"
       ],
-      "from": "org:newsroom-nevada-current",
-      "to": "place:state-nevada",
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "aab92b7da40f3f5cec87e4a39cc7518c1d52ddfb"
+      ],
+      "from": "org:newsroom-mississippi-today",
+      "to": "place:state-mississippi",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "d2493764cf346d82b489f16b08cbb8f88364c63d"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a819e86a29546c485e18d3d92ed8cec165310547"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fe682bb1eb776c1e336e7a53e13569258901f107"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "89caf998fa06760f047325a4a3e5f4ede9edc5d8"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0f0e4f5c633576ff8c4431c9b66375545aaa93dd"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "25a23e5f30f3ddc17e728f7a74a6d052630db712"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "5d4926a812a46117ffb7619de67d1f374ff0ef1d"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "eb9c0230a7c22ae2ee1436c96ece6d8a50ddec0b"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3c6a15d3dae84d4f7eb01d9e35d75a21a8e3819f"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0c96dce1fb7b110ca6ca877e1ab511d62337605c"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf2e02d87bc76cf1884f75b2846a4047bd08b972"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "368c872c3f86aa1cfd679907aff7a64713445f18"
+      ],
+      "from": "org:newsroom-minnesota-reformer",
+      "to": "place:state-minnesota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "47eb72f35624c431a848a028c2b07ba51990b30a"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "17c367f0f01eb220db892dd8d61a493c2e358a35"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "09e0db55e38f67facad5c97a3fd25777116bc959"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0569fc69d8abb8cc23302296537b13082ed77854"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2d7db294b3a583ec66f87b2bb6e0e7216ee638b7"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a8c3e57dc4e7d217525560e5a32e9f338c23a76f"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a49267cef4ded420af315cd25ee053855c2c300c"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1b824b910639c70cfc1f3d381076cb855ff9c9f9"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0fce5fb097f2fe89536470d1668ecc911f831427"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "461792212044c8a1bd61aba4003703931ac6f764"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0df7a34f606cbaeee98bcdf9fd4113b5f2ed765f"
+      ],
+      "from": "org:newsroom-missouri-independent",
+      "to": "place:state-missouri",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -4575,82 +4683,82 @@
     },
     {
       "evidence": [
-        "0b1c1f68f7a7d935b991616fbd5c2fa97d581293"
+        "b253f5ae08e6284afe724c2ab284314475cb59dd"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "4eba15cd2750add46b7ea07007f142f122f05eba"
+        "a19b8aa794ee29ebcebb0285b2ce5f3413d11ad0"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "f80e71126d2fe59414bc083ac56ec6fe57b396aa"
+        "a5f77a4663c3ae7aedde5de515a743f4f8cddec7"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b334be3be815d40b5886fc9f166008dbe7afc952"
+        "75d1c6b1207430d9776c8c99045d873793421d07"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "6bea6912acc7d4403572e42560f29b380264498f"
+        "e76c54869e22343ccb99dd12a30421be641f4ade"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "51600e0a73b27a2a516c841087c506dc246a43cf"
+        "7be0360cf6e43720ff7271f89d195207caf3021e"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1a74282abcbe3a6cf2dd7f92add2980240d4f3a1"
+        "e95d95aa93ef71bf7f0352a0496a031614eb2317"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "a02638e97c33814d5d0f93ed7023987ef5956437"
+        "fcecb18dd0c4b20a8dacead92e6df8759677dbb8"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b220c9a5ca08a00e89b8e3252c62c6864480e108"
+        "e4e59112ed76144b73f50d2eb085ae6d3ca50504"
       ],
-      "from": "org:newsroom-new-hampshire-bulletin",
-      "to": "place:state-new-hampshire",
+      "from": "org:newsroom-nevada-current",
+      "to": "place:state-nevada",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -4908,6 +5016,537 @@
     },
     {
       "evidence": [
+        "b9620d6bc6adbba51bd943d20c09509d589c5078"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fca71c8934bfd2ccbd137aef29b88461546b893b"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0b1c1f68f7a7d935b991616fbd5c2fa97d581293"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4eba15cd2750add46b7ea07007f142f122f05eba"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f80e71126d2fe59414bc083ac56ec6fe57b396aa"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b334be3be815d40b5886fc9f166008dbe7afc952"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6bea6912acc7d4403572e42560f29b380264498f"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "51600e0a73b27a2a516c841087c506dc246a43cf"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1a74282abcbe3a6cf2dd7f92add2980240d4f3a1"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a02638e97c33814d5d0f93ed7023987ef5956437"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b220c9a5ca08a00e89b8e3252c62c6864480e108"
+      ],
+      "from": "org:newsroom-new-hampshire-bulletin",
+      "to": "place:state-new-hampshire",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1b0fa13da7e9ddaae56c407d1c943bca8fadda34"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fb9edb62ca2515b813a988ff09f25db56294c384"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0105c34e7c7c98c117212ff09c003837dab82bbd"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "86ddc0fd82903319862dc3b096fa5c4b6e3229bc"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "02a6e33017de18cd3a5cfa481ef8d46b306e8804"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e6eda28ca626238b2a1a55d91be9d95fc9aa262b"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "eeb9709c8a8db2597f7bfb9f7b15ed93618e0bad"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "8eee9445bea05404e6909b410340e032d4da936d"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2ff1c4a114972a1986c7af7a4c2675878a4eba67"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "57a405a287e81988cb64b3787eeb6f73a5529d14"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2e60b4c0f1d3de8e95c62397a29090020802b13a"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3b8ac324a15634ca7bd739cd64278b693252fe71"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "dc2b6176734227fed53b2756d5fd514b0dc7c180"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "446aab2e780f56c0066577b35ef51d219679cecc"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3056e85cfa766257d112ab898550edcd55a2aeff"
+      ],
+      "from": "org:newsroom-nc-newsline",
+      "to": "place:state-north-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "12ad12492bb3d8c4bcc140f299f0cfd5dd192451"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cab2917d4ff26933e7d2df80d847ce28d0ef4b3d"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9a2ab475d1ab8c8cf0c52d6ba23a2a1f046c3070"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "89484e895c69fa26796913a1cc7c182ee0b46f93"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3c16e84a4a01ad5c3013e0f2cd658f1df5288b6c"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1c9ef534a7e102ab646fbecbaf50097d0f659eeb"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2160be785da9eb0e82471c16c4a78847ca95f306"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3ab9a4c7aa91068b87d353b3f7cd7f3ba8273a74"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2b7bebff9e5d18bcfb1e88b60272fe652aa6187c"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3ada44624750e288afed133fa96371b60c30e308"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "06ec4f7838d8ec56934f0aef781f6382fb02471a"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7f9f2547ac18f7fb19b9be2634eb3f381f357f0d"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "28363c869426b2dac1958464947eec2279bf73d6"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "4dd1da21f7badde7e4d8ff0251f9951130b7578b"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7c894a28b99eb8d5eca0ee86f88f0f3c239e3711"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "fd4d2d19b5184c5ab139cda5ed3ab7f79f59b17c"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e9ee65e19085c364989dbcdfb059b3ed21cb24db"
+      ],
+      "from": "org:newsroom-oklahoma-voice",
+      "to": "place:state-oklahoma",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9d1121b73c19b94ecc3ea4e9ad1aebe2beb22ca7"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "22f5728a693133efffc7b8ff02898ef479e659c0"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "94a6f9eebbec4e9b51f00586c94a684dc20f9100"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a551037852d215fdca7cd01c1379b8d2222f6568"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "9b44c4acab15070d5fd74c6cc38f6c2001d65075"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1c2c41b903b4c8ab5a0934999ea36a159e7f1ee3"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "099ad97309f0e5cf23605d5ff021ad9d48eb5b9c"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "23ca1ff7f385a98b071b4912adaf6494bd883659"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ccc43129a0b6ef10f69ee5e6dcb4824e56ab285f"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0d94d783c9b8b752a81b0c2b8b8028fde85354d8"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3ea23cf38e91a6dde48fc329f272896de46a4318"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1caabd362c7afb99dae7ff1ceae1083e075e75e2"
+      ],
+      "from": "org:newsroom-north-dakota-monitor",
+      "to": "place:state-north-dakota",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "efc33596f5af3f90a78150a22b95c484557593b9"
+      ],
+      "from": "org:newsroom-ohio-capital-journal",
+      "to": "place:state-ohio",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2c44cbcf453275a016fe119a6a08e10cdb1ad935"
+      ],
+      "from": "org:newsroom-ohio-capital-journal",
+      "to": "place:state-ohio",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "6c70086232791c721dd3edab2262d66b15d557a5"
+      ],
+      "from": "org:newsroom-ohio-capital-journal",
+      "to": "place:state-ohio",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cb54fa760677b339ee4f8dfd15539f5b398a33c9"
+      ],
+      "from": "org:newsroom-ohio-capital-journal",
+      "to": "place:state-ohio",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "ef22aba7695fd438f1393d723c697d40a711d761"
       ],
       "from": "org:newsroom-ohio-capital-journal",
@@ -5133,402 +5772,6 @@
     },
     {
       "evidence": [
-        "1b0fa13da7e9ddaae56c407d1c943bca8fadda34"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fb9edb62ca2515b813a988ff09f25db56294c384"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0105c34e7c7c98c117212ff09c003837dab82bbd"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "86ddc0fd82903319862dc3b096fa5c4b6e3229bc"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "02a6e33017de18cd3a5cfa481ef8d46b306e8804"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e6eda28ca626238b2a1a55d91be9d95fc9aa262b"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "eeb9709c8a8db2597f7bfb9f7b15ed93618e0bad"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "8eee9445bea05404e6909b410340e032d4da936d"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2ff1c4a114972a1986c7af7a4c2675878a4eba67"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "57a405a287e81988cb64b3787eeb6f73a5529d14"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2e60b4c0f1d3de8e95c62397a29090020802b13a"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3b8ac324a15634ca7bd739cd64278b693252fe71"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "dc2b6176734227fed53b2756d5fd514b0dc7c180"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "446aab2e780f56c0066577b35ef51d219679cecc"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3056e85cfa766257d112ab898550edcd55a2aeff"
-      ],
-      "from": "org:newsroom-nc-newsline",
-      "to": "place:state-north-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9d1121b73c19b94ecc3ea4e9ad1aebe2beb22ca7"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "22f5728a693133efffc7b8ff02898ef479e659c0"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "94a6f9eebbec4e9b51f00586c94a684dc20f9100"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a551037852d215fdca7cd01c1379b8d2222f6568"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9b44c4acab15070d5fd74c6cc38f6c2001d65075"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1c2c41b903b4c8ab5a0934999ea36a159e7f1ee3"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "099ad97309f0e5cf23605d5ff021ad9d48eb5b9c"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "23ca1ff7f385a98b071b4912adaf6494bd883659"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ccc43129a0b6ef10f69ee5e6dcb4824e56ab285f"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0d94d783c9b8b752a81b0c2b8b8028fde85354d8"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3ea23cf38e91a6dde48fc329f272896de46a4318"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1caabd362c7afb99dae7ff1ceae1083e075e75e2"
-      ],
-      "from": "org:newsroom-north-dakota-monitor",
-      "to": "place:state-north-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "12ad12492bb3d8c4bcc140f299f0cfd5dd192451"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cab2917d4ff26933e7d2df80d847ce28d0ef4b3d"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9a2ab475d1ab8c8cf0c52d6ba23a2a1f046c3070"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "89484e895c69fa26796913a1cc7c182ee0b46f93"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3c16e84a4a01ad5c3013e0f2cd658f1df5288b6c"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1c9ef534a7e102ab646fbecbaf50097d0f659eeb"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2160be785da9eb0e82471c16c4a78847ca95f306"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3ab9a4c7aa91068b87d353b3f7cd7f3ba8273a74"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2b7bebff9e5d18bcfb1e88b60272fe652aa6187c"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "3ada44624750e288afed133fa96371b60c30e308"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "06ec4f7838d8ec56934f0aef781f6382fb02471a"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7f9f2547ac18f7fb19b9be2634eb3f381f357f0d"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "28363c869426b2dac1958464947eec2279bf73d6"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4dd1da21f7badde7e4d8ff0251f9951130b7578b"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7c894a28b99eb8d5eca0ee86f88f0f3c239e3711"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fd4d2d19b5184c5ab139cda5ed3ab7f79f59b17c"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "e9ee65e19085c364989dbcdfb059b3ed21cb24db"
-      ],
-      "from": "org:newsroom-oklahoma-voice",
-      "to": "place:state-oklahoma",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "45824ce7008d8dda94e014cac124060203bde9fe"
       ],
       "from": "org:newsroom-oregon-capital-chronicle",
@@ -5619,127 +5862,91 @@
     },
     {
       "evidence": [
-        "19296e304dd9f489c14d01a8565b62776e6ba2f7"
+        "b6c8af2b3470a1fef4ef0729c472810e4e6d3daa"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "73da7377b3e44d6dd85b08b10e2916949332c68f"
+        "253fdd4988383a8234e00f0933c2b6ee266c87fb"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "b4d9566308bb5b0bc37a4b60ca3820b18d77e8db"
+        "3e442d80bbcac5b55c9098cd5ed6e3961eb68460"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "057e9de8856aa693c4881c3d33e067a05335204a"
+        "0e24577d8c22c353dd4e5f206c1de099a3314f11"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "0a2496349da6d65e3110a9b500a6a416f4308c39"
+        "4acbab2d50d96a19503157fdd74c1adbfea32b63"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "bc093960ba96125a9519db1f0718958469b0d0e4"
+        "a23239d190bdeb1ed910f9362cefa163ac2215de"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "e0e4c56648a4857af9a644bf4e7bb7a83abaa0b8"
+        "7765098ac6f54e7292487132fba7d7a0fc41ad94"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "21f981a127ebe8ec20a2e964a400954b29bd4d35"
+        "4eca8e4213d63b1499b484f494e0e296d39661d3"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "1c7af598cfb415cc52668566764f3601647d6f30"
+        "38b93a6a53572676537240fccef6175c70f06e94"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "7e7aca6a213ab4862fa11735ab9035f238eda13f"
+        "47ca48081c735f92609da1e99a1e1b35c882ebc4"
       ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "7ac56089a81e72dded94f81d597290a475457737"
-      ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f765fcd56c5bbd8df2304ce656ce67bc899b37f2"
-      ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf3a0783af3f4e1a7fea4ed28f3b8dd63e84553a"
-      ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "592ab8ac13ea9a8b51d381020141538aa613a2f6"
-      ],
-      "from": "org:newsroom-rhode-island-current",
-      "to": "place:state-rhode-island",
+      "from": "org:newsroom-nj-spotlight-news",
+      "to": "place:state-new-jersey",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -5898,6 +6105,231 @@
     },
     {
       "evidence": [
+        "a4913032ef8dc65ebdbcedc3f0d75840ad1af881"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "3199cd1280ce1a753c2d7c5d2881e0cdf28873be"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "19296e304dd9f489c14d01a8565b62776e6ba2f7"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "73da7377b3e44d6dd85b08b10e2916949332c68f"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b4d9566308bb5b0bc37a4b60ca3820b18d77e8db"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "057e9de8856aa693c4881c3d33e067a05335204a"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "0a2496349da6d65e3110a9b500a6a416f4308c39"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "bc093960ba96125a9519db1f0718958469b0d0e4"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "e0e4c56648a4857af9a644bf4e7bb7a83abaa0b8"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "21f981a127ebe8ec20a2e964a400954b29bd4d35"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "1c7af598cfb415cc52668566764f3601647d6f30"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7e7aca6a213ab4862fa11735ab9035f238eda13f"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "7ac56089a81e72dded94f81d597290a475457737"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f765fcd56c5bbd8df2304ce656ce67bc899b37f2"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf3a0783af3f4e1a7fea4ed28f3b8dd63e84553a"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "592ab8ac13ea9a8b51d381020141538aa613a2f6"
+      ],
+      "from": "org:newsroom-rhode-island-current",
+      "to": "place:state-rhode-island",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "ded34cd48dcfc7984b7886c1462963387c893e8d"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a72fa4ac145295402ec03941e020a08e707ec5da"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "2c6b5eb6c3e649c9606b37a285f66748acefb161"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "cf1aca3d60592244b49b2d02e54456178de98b28"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "46b181d5a0e9b9e3db6cd2149ceb068713dff89a"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "b3ffe55bbc85f830977a2dad34d78fceb04bcd0b"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "f02b421923af728f43643d18643fcaff0f25a93e"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "a7ad67a412961eebc486d54fd4cdf52d44c989ba"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "886803d9e0e10cd9b4262c43c5be9f1836833d1d"
+      ],
+      "from": "org:newsroom-sc-daily-gazette",
+      "to": "place:state-south-carolina",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "f5bc40dacbc0e4c5a49fedfc516fb77db3b9ab51"
       ],
       "from": "org:newsroom-south-dakota-searchlight",
@@ -6001,87 +6433,6 @@
       ],
       "from": "org:newsroom-south-dakota-searchlight",
       "to": "place:state-south-dakota",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ded34cd48dcfc7984b7886c1462963387c893e8d"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a72fa4ac145295402ec03941e020a08e707ec5da"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2c6b5eb6c3e649c9606b37a285f66748acefb161"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "cf1aca3d60592244b49b2d02e54456178de98b28"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "46b181d5a0e9b9e3db6cd2149ceb068713dff89a"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b3ffe55bbc85f830977a2dad34d78fceb04bcd0b"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f02b421923af728f43643d18643fcaff0f25a93e"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a7ad67a412961eebc486d54fd4cdf52d44c989ba"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "886803d9e0e10cd9b4262c43c5be9f1836833d1d"
-      ],
-      "from": "org:newsroom-sc-daily-gazette",
-      "to": "place:state-south-carolina",
       "type": "reports-on",
       "weight": 1.0
     },
@@ -6591,6 +6942,24 @@
     },
     {
       "evidence": [
+        "18fb2356378a00d05ea76e62cc386b5899b4f3e7"
+      ],
+      "from": "org:newsroom-wisconsin-examiner",
+      "to": "place:state-wisconsin",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "89560dfb6b792fa8d7d69463e28e96497b6f183b"
+      ],
+      "from": "org:newsroom-wisconsin-examiner",
+      "to": "place:state-wisconsin",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "ea845e27567a11bd8dfe633e2d1bd9f7dc7cc9f3"
       ],
       "from": "org:newsroom-wisconsin-examiner",
@@ -6793,204 +7162,6 @@
       ],
       "from": "org:newsroom-virginia-mercury",
       "to": "place:state-virginia",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "a539e0a7805a35f887008030e2b6dd8e6fb62723"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "87e2cd47c7b497430714f53a0b428dafe99ea551"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "aad4f5fd5e6bcf51242cf5e1119dffed610f5e56"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "1f2b0aa671a4dcda2dca1d62e61020e02bf79829"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "f2f654ccba4b3ceff0ef5b6e111528315a8570a2"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "80068e9a0dc27de3c2fc6368a62dbec93bf49814"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "d169e0af6e4ae7b7dc9c30df3747eab15e01a722"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "94a6cfc6104930918c257152c2494b13959d7d58"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "4cd25e0d6dc7cca9d4adb33b4d6a42161d455fb9"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "2afe1fd9c8f783706be28559b59d05c2a536c724"
-      ],
-      "from": "org:newsroom-calmatters",
-      "to": "place:state-california",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "86e36ccbd4def00c297422eca0bef4ecf4d8f676"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ba012924186e29fc7d62624fa3f44db13f3aceab"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "ed92643e17f6125c77b48ec7e66640270671db47"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "98ba72ff34938b6d0ba067bd4c0948cf8b87c1d9"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "b3a7a66f8c98b29b8fe52ff53d444d564dc5b544"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "dc1991cbd8d823a47f59ad35566d9d0873a865e2"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "9def175c9ac7eee1409586b6346b2c26c8d88be6"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "091bb64e69117478e7a67a479cb17b5e69eaafa2"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "0d834ca55f57c6008cfc6e4ea958f14810a03ee0"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "19a64d5dbf452a740f8373c83087fc593c9e638e"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "c9c31cb31e480cfadc5374997272460d655ece76"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "fca9f077fd27f7d54f5f4b02db0f6c92bf6fe37a"
-      ],
-      "from": "org:newsroom-ct-mirror",
-      "to": "place:state-connecticut",
       "type": "reports-on",
       "weight": 1.0
     },

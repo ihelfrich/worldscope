@@ -2,15 +2,35 @@
 section: state_news
 title: State-Level News
 date: 2026-08-26
-record_count: 681
-new_today: 312
+record_count: 700
+new_today: 336
 state: fresh
 ---
 
 ## State-Level News
 
-312 new of 681 total items today.
+336 new of 700 total items today.
 
+- **NEW**  [[California] Surprise Solano County vote kills California Forever’s shipyard bill for this year](https://calmatters.org/politics/2026/08/california-forever-shipbuilding-solano-county-vote/) — *2026-08-26*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082526_Solano-County-Board-of-Supervisors_AHK_CM_03.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Solano County supervi
+- **NEW**  [[California] With clock ticking, California lawmakers reject key parts of Newsom’s wildfire plan](https://calmatters.org/politics/2026/08/california-wildfire-package-newsom-lawmakers-balk/) — *2026-08-26*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082426-Eaton-Fire-Survivors-MG-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Wildfire survivors hold signs during
+- **NEW**  [[California] CalMatters sues UCLA over refusal to disclose athlete payments](https://calmatters.org/newsletter/ucla-nil-lawsuit/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/110825_UCLA-Football_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Football players dressed in blue and gold u
+- **NEW**  [[California] Counting votes quickly and accurately are not mutually exclusive. Here’s how California can do it](https://calmatters.org/commentary/2026/08/counting-votes-quickly-accurately-california/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/04/110525_Election-Counting-Fresno_LV_CM_15.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy
+- **NEW**  [[California] Federal wildfire crews are stretched thin. California is stepping in to help](https://calmatters.org/environment/wildfires/2026/08/california-wildfires-forest-fuels-management/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/072226_Diablo-Canyon-Fire-Gaps_LV_CM_02.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An aerial view of a break carved 
+- **NEW**  [[California] Help CalMatters report on what happens to drivers after they cause a serious car crash](https://calmatters.org/investigation/2026/08/car-crash-survey/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/092425_DUI-DeathsMemorial_JAH_CM_10.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Afternoon sunlight shines down on a s
+- **NEW**  [[California] California’s local governments rush to ask for tax increases before voters get the chance to curb them](https://calmatters.org/commentary/2026/08/local-governments-tax-increases-california/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/060226_Chico-Elections_SO_CM_07.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elderly person wearing a beige hat and
+- [[California] California justices seem skeptical of Sheriff Chad Bianco’s defense in ballot seizure case](https://calmatters.org/politics/2026/08/riverside-county-ballot-seizure-supreme-court/) — *2026-08-25*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082426-Chad-Bianco-Court-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A uniformed sheriff smiles while speaki
+- [[California] Why sex abuse survivors and broke school districts are at odds in Legislature’s final days](https://calmatters.org/politics/2026/08/california-legislature-child-sex-abuse-claims/) — *2026-08-24*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/042126_School_AH_CM_11.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Children wearing backpacks stand together on a sch
+- [[California] En las ciudades más grandes de California, Turner’s Outdoorsman es de las principales fuentes de armas usadas en delitos](https://calmatters.org/calmatters-en-espanol/2026/08/turners-outdoorsman-armas-california/) — *2026-08-24*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/071222_GunFile_LV_CM_005.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Several handguns, including a silver revolver, a
 - **NEW**  [[California] Governor Newsom announces appointments 8.25.2026](https://www.gov.ca.gov/2026/08/25/governor-newsom-announces-appointments-8-25-2026/) — *2026-08-26*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
 - **NEW**  [[California] Governor, First Partner statement on the passing of Dolly Parton](https://www.gov.ca.gov/2026/08/25/governor-first-partner-statement-on-the-passing-of-dolly-parton/) — *2026-08-25*
@@ -32,29 +52,9 @@ state: fresh
   > MONTGOMERY – Governor Kay Ivey on Tuesday announced the activation of a statewide notification system to more quickly alert the public in the event of floods and other disasters. The action follows the governor’s January 13, 2026, state of the &#8230; <a href="https://governor.al
 - [[Alabama] Governor Ivey Announces First Grants in Major New Rural Healthcare Program Totaling More than $144 Million](https://governor.alabama.gov/newsroom/2026/08/governor-ivey-announces-first-grants-in-major-new-rural-healthcare-program-totaling-more-than-144-million/) — *2026-08-24*
   > MONTGOMERY – Governor Kay Ivey on Monday announced the awarding of 138 grants worth a total of more than $144 million to healthcare providers and institutions throughout the state as part of the Alabama Rural Health Transformation Program (ARHTP). The &#8230; <a href="https://gov
-- [[Alaska] Alaska Hydropower Day 2026](https://gov.alaska.gov/alaska-hydropower-day-2026/) — *2026-08-24*
-  > WHEREAS, Alaska is a state rich in energy with an abundance of natural resources and remains committed to their responsible development to promote long-term prosperity for all Alaskans; and WHEREAS, hydropower plays a vital role in Alaska’s energy landscape, supplying nearly 29 p
-- **NEW**  [[Arizona] Clean Elections set to demand $4.7M repayment from candidates amid fraud allegations](https://azmirror.com/2026/08/25/clean-elections-set-to-demand-4-7m-repayment-from-candidates-amid-fraud-allegations/) — *2026-08-26*
-  > The Arizona Citizens Clean Elections Commission is set on Thursday to discuss accusations that three candidates unlawfully qualified for $4.7 million in public funds and broke campaign finance rules — and it may ask them to repay the money.  In letters sent Tuesday to Green Party
-- **NEW**  [[Arizona] One judge’s order is still blocking Trump from restricting vote-by-mail](https://azmirror.com/2026/08/25/repub/one-judges-order-is-still-blocking-trump-from-restricting-vote-by-mail/) — *2026-08-25*
-  > WASHINGTON —&#160;The&#160;U.S. Supreme Court on Monday handed a procedural victory to President Donald Trump on an&#160;executive order to curb mail-in voting, but the administration is still fighting a separate ruling that limits a portion of the order and remains in effect — c
-- **NEW**  [[Arizona] ‘With 1,000% certainty’: Voters say candidates faked their donations to get public campaign cash](https://azmirror.com/2026/08/25/with-1000-certainty-voters-say-candidates-faked-their-donations-to-get-public-campaign-cash/) — *2026-08-25*
-  > At least six Arizona residents say three statewide candidates falsely used their names to qualify for more than $4.7 million in public campaign funding. “I can tell you right now, with 1,000% certainty, that I did not make a single contribution, let alone three of them,” Christop
-- **NEW**  [[Arizona] Cheaper health insurance changed their lives. Then it went away.](https://azmirror.com/2026/08/25/repub/cheaper-health-insurance-changed-their-lives-then-it-went-away/) — *2026-08-25*
-  > Part 1 of an occasional series on how people are being affected by the expiration of Affordable Care Act subsidies. EDWARDS, Miss. — Every now and then a freight train rumbles through, creaking and groaning on the rusted tracks that run along the edge of the largely deserted down
-- **NEW**  [[Arizona] Sanctuary policies are keeping prisoners in local jails away from ICE](https://azmirror.com/2026/08/25/repub/sanctuary-policies-are-keeping-prisoners-in-local-jails-away-from-ice/) — *2026-08-25*
-  > As more states seek ways to limit immigration enforcement, a Stateline analysis shows one tactic has had an effect: making it more difficult for local law enforcement to hand over people they are holding in city or county jails to federal immigration authorities. The analysis fou
-- [[Arizona] Supreme Court lifts block on Trump’s mail-in ballot order, for now](https://azmirror.com/2026/08/24/repub/federal-judge-slams-usps-over-mail-ballot-rule-issued-despite-her-order/) — *2026-08-24*
-  > WASHINGTON — With just over two months until the November midterms, the U.S. Supreme Court gave way Monday for President Donald Trump to have a hand in regulating mail-in ballots nationwide, a voting method he has falsely claimed is rife with corruption since he lost the 2020 pre
-- [[Arizona] GOP leans into Trump’s deportation agenda, but Arizona voters want fair treatment](https://azmirror.com/2026/08/24/gop-leans-into-trumps-deportation-agenda-but-arizona-voters-want-fair-treatment/) — *2026-08-24*
-  > While Republican candidates are leaning into harsh anti-immigrant rhetoric and aligning themselves with Trump’s mass deportation campaign to attract voters ahead of November’s midterms, a recent survey shows that most Arizonans prefer an immigration enforcement strategy that emph
-- [[Arizona] Dems have an enthusiasm edge in Senate battlegrounds while the GOP clings to the ‘slimmest of advantages’](https://azmirror.com/2026/08/24/repub/dems-have-an-enthusiasm-edge-in-senate-battlegrounds-while-the-gop-clings-to-the-slimmest-of-advantages/) — *2026-08-24*
-  > WASHINGTON — Voters throughout much of the country will cast ballots for their U.S. senator this fall, but just nine states hold the power to determine control of the chamber — setting the course for which presidential nominees can secure confirmation and what bills advance durin
-- [[Arizona] A post-Dobbs first: A court recognizes a constitutional right to some abortions](https://azmirror.com/2026/08/24/repub/a-post-dobbs-first-a-court-recognizes-a-constitutional-right-to-some-abortions/) — *2026-08-24*
-  > A federal court ruling out of Idaho has potential implications for exceptions in abortion bans nationwide and could eventually end up before the U.S. Supreme Court to decide. U.S. District Judge B. Lynn Winmill ruled earlier this month that the 14th Amendment of the U.S. Constitu
 - **NEW**  [[Alabama] Jones challenges Tuberville to debate across Alabama—or just on data centers](https://www.alreporter.com/2026/08/25/jones-challenges-tuberville-to-debate-across-alabama-or-just-on-data-centers/) — *2026-08-25*
 - **NEW**  [[Alabama] ADP Chair Bobby Singleton to join Andrew Sneed’s town hall in Decatur](https://www.alreporter.com/2026/08/25/adp-chair-bobby-singleton-to-join-andrew-sneeds-town-hall-in-decatur/) — *2026-08-25*
 - **NEW**  [[Alabama] ACCA calls for review of planning and zoning authority as data center debate looms large](https://www.alreporter.com/2026/08/25/acca-calls-for-review-of-planning-and-zoning-authority-as-data-center-debate-looms-large/) — *2026-08-25*
 - **NEW**  [[Alabama] Alabama awards $144 million in rural health care grants](https://www.alreporter.com/2026/08/25/alabama-awards-144-million-in-rural-health-care-grants/) — *2026-08-25*
 
-_(656 additional items in raw.jsonl)_
+_(675 additional items in raw.jsonl)_

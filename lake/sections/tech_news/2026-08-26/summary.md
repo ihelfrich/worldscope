@@ -3,14 +3,20 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-26
 record_count: 55
-new_today: 44
+new_today: 45
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-44 new of 55 total items today.
+45 new of 55 total items today.
 
+- **NEW**  [[The Hacker News] INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown](https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html) — *2026-08-26*
+  > An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects.
+
+"The operation, which brought together 22 countries from six continents, is a response to the escalating global threat posed by
+- **NEW**  [[The Hacker News] Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode](https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html) — *2026-08-26*
+  > An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design.
 - **NEW**  [[The Hacker News] Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload](https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html) — *2026-08-26*
   > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.
 
@@ -19,19 +25,29 @@ The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of rem
   > Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode.
 
 SOCRadar Threa
+- **NEW**  [[The Register] Debian polls its developers on whether to burn the bots, tame the bots, or let 'em loose](https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270) — *2026-08-26*
+  > Eight-way ballot on AI code puts the distro's fractious democracy through its paces
+- **NEW**  [[The Register] Sopra Steria's £370M Capita spat heads for 2028 courtroom showdown](https://www.theregister.com/public-sector/2026/08/26/sopra-sterias-370m-capita-spat-heads-for-2028-courtroom-showdown/5292234) — *2026-08-26*
+  > French SI still crying foul over shared services contract, alleges bid was 42% under DWP's own cost model
 - **NEW**  [[The Register] India’s crewed space program will fly this year, after missing 2022 and 2025 targets](https://www.theregister.com/science/2026/08/26/indias-crewed-space-program-will-fly-this-year-after-missing-2022-and-2025-targets/5292478) — *2026-08-26*
   > A space station by 2035 is ISRO’s new mission
 - **NEW**  [[The Register] Self-hosted email is in steep decline, Microsoft and Google are taking over](https://www.theregister.com/software/2026/08/26/self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over/5292471) — *2026-08-26*
   > Oh great, Big Tech is now in prime position to decide which messages get through
+- **NEW**  [[Computer Weekly] AI datacentres must provide proof, not promises](https://www.computerweekly.com/opinion/AI-datacentres-must-provide-proof-not-promises) — *2026-08-26*
+  > &lt;p&gt;Datacentres are now designated as critical infrastructure in the United States, the UK, the EU, China, and other countries. National AI training and inference capacity is viewed as vital to competitiveness and security, and has prompted governments to encourage AI infras
 - **NEW**  [[Computer Weekly] CW@60: My computers and me](https://www.computerweekly.com/feature/CW60-My-computers-and-me) — *2026-08-26*
   > &lt;div class="imagecaption alignLeft"&gt;
  &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
 &lt;/div&gt; 
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
+- **NEW**  [[MIT Technology Review] Raised on AI](https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/) — *2026-08-26*
+  > When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her o
+- **NEW**  [[MIT Technology Review] AI models flub these intelligence tests. Can you fare any better?](https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/) — *2026-08-26*
+  > Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 19
 - **NEW**  [[MIT Technology Review] Bill Gates says we’ve passed AI’s danger thresholds. Now what?](https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/) — *2026-08-26*
   > It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marin
 - **NEW**  [[TechCrunch] Ventures Platform goes bigger — and broader — with its second Africa fund](https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/) — *2026-08-26*
-  > The Pan-African venture firm has raised $83 million and plans to invest in startups beyond its home market of Nigeria.
+  > The Pan-African venture firm has raised $84 million and plans to invest in startups beyond its home market of Nigeria.
 - **NEW**  [[TechCrunch] India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call](https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/) — *2026-08-26*
   > Ringg has raised $10 million from Peak XV as a part of its Series A extension.
 - **NEW**  [[TechCrunch] Robotics startup Generalist reaches $3B valuation, sources say](https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/) — *2026-08-26*
@@ -52,27 +68,9 @@ SOCRadar Threa
   > The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an "unprecedented, whole-of-government, economic campaign" against the nation and its enablers.
 
 "We are launching an economic onslaught against Iran's financial co
-- **NEW**  [[The Hacker News] A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw](https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html) — *2026-08-25*
-  > Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.
-
-The findings were shared with The Hacker 
-- **NEW**  [[The Hacker News] WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android](https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html) — *2026-08-25*
-  > Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.
-
-The tech giant said more than 1 billio
 - **NEW**  [[The Record] 58 arrested in international cybercrime crackdown](https://therecord.media/58-arrested-international-cybercrime-crackdown-interpol) — *2026-08-25*
   > Interpol officials said it uncovered a crime-as-a-service network in Argentina run by 196 people that provided website domains and money laundering support to West African organized crime groups like Black Axe.
 - **NEW**  [[The Record] Employee benefits platform Paylogix says hackers stole financial and health data](https://therecord.media/paylogix-cyberattack-akira-ransomware) — *2026-08-25*
   > The benefits management firm Paylogix told regulators that hackers stole sensitive information on tens of thousands of people from its systems.
-- **NEW**  [[The Record] Ukraine to give Britain access to battlefield data to train AI](https://therecord.media/ukraine-uk-ai-drone-data) — *2026-08-25*
-  > Ukraine will give Britain access to a vast trove of battlefield data collected during the war with Russia, allowing U.K. companies and researchers to use it to train and test artificial intelligence systems.
-- **NEW**  [[The Record] UK government seeks powers to secretly block risky tech suppliers](https://therecord.media/uk-technology-national-security) — *2026-08-25*
-  > The British government is seeking new powers to ban certain technology vendors from supplying companies working in the country’s critical sectors — potentially doing so in secret.
-- **NEW**  [[The Record] Large DDoS attack knocks Norwegian public services offline](https://therecord.media/norway-cyberattack-ddos-government) — *2026-08-25*
-  > The Norwegian Digitalisation Agency said it was working with its IT partner to stabilize systems affected by a distributed denial-of-service attack, with some services gradually coming back online.
-- **NEW**  [[Cybersecurity Dive] Researchers warn about chained SharePoint sequence](https://www.cybersecuritydive.com/news/researchers-warn-about-chained-sharepoint-sequence/828726/) — *2026-08-25*
-  > An authentication bypass flaw is already under exploitation, the latest in a series of recent SharePoint attacks.&nbsp;
-- **NEW**  [[Cybersecurity Dive] CISA orders agencies to fix exploited Zimbra vulnerability](https://www.cybersecuritydive.com/news/cisa-zimbra-flaw-patch-mandate-kev/828718/) — *2026-08-25*
-  > The collaboration software&rsquo;s developer took almost a full month to patch the flaw after disclosing it.
 
 _(30 additional items in raw.jsonl)_

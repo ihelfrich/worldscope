@@ -2,14 +2,14 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-26
-record_count: 246
-new_today: 197
+record_count: 255
+new_today: 208
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-197 new of 246 total items today.
+208 new of 255 total items today.
 
 - **NEW**  [[St. Louis] South City favorite Stan’s Bar suffers major fire](https://www.stlmag.com/news/south-city-favorite-stans-bar-suffers-major-fire/) — *2026-08-25*
   > <p>A South City bar described as a second home to many patrons had its insides gutted by a daytime fire. Bystanders say that Stan’s Bar caught fire around noon on Tuesday. Normally, they would have been open at the time. Fortunately, because an employee had injured her shoulder, 
@@ -31,21 +31,35 @@ state: fresh
   > <p>Every weekday morning during the school year involves pretty much the same things: oversleeping, running behind, and lots of yelling. What they rarely involve is a healthy breakfast. Like most harried families, I count it as a win if my daughter remembers to grab a granola bar
 - [[St. Louis] Missouri AG asks the court to force Cori Bush’s Politivist Power to turn over records](https://www.stlmag.com/news/cori-bush-polivist-power-ag-records/) — *2026-08-24*
   > <p>The Missouri Attorney General is demanding answers from Politivist Power, an organization founded by former Congresswoman Cori Bush. Politivist was formed as a 501(c)(4), a tax-exempt social welfare organization that, unlike 501(c)(3) nonprofits, can engage in significant poli
-- **NEW**  [[feed error] St. Louis Post-Dispatch (St. Louis): HTTPError](https://www.stltoday.com/search/?f=rss) — *2026-08-26*
-  > 429 Client Error: Too Many Requests for url: https://www.stltoday.com/search/?f=rss
-- **NEW**  [[St. Louis] Page wants public health at the center of conversations about data centers in St. Louis County](https://www.stlpr.org/news-briefs/2026-08-25/page-wants-public-health-at-the-center-of-conversations-about-data-centers-in-st-louis-county) — *2026-08-25*
-- **NEW**  [[St. Louis] Dellwood officials will choose replacement for late Mayor Reggie Jones in September](https://www.stlpr.org/government-politics-issues/2026-08-25/dellwood-officials-will-choose-replacement-for-late-mayor-reggie-jones-in-september) — *2026-08-25*
-- **NEW**  [[St. Louis] De Soto police investigate damage to Flock camera](https://www.stlpr.org/news-briefs/2026-08-25/de-soto-police-damage-flock-camera) — *2026-08-25*
-- **NEW**  [[St. Louis] Platypus bar owner pleads guilty to racking up credit card charges in partner's name](https://www.stlpr.org/news-briefs/2026-08-25/st-louis-platypus-bar-owner-tony-saputo-pleads-guilty-credit-card-charges) — *2026-08-25*
-- **NEW**  [[St. Louis] Belleville Police Chief Matt Eiskant dies after ‘courageous battle’ with cancer](https://www.stlpr.org/law-order/2026-08-25/belleville-police-chief-matt-eiskant-dies) — *2026-08-25*
-- **NEW**  [[St. Louis] Metro East lawmaker seeks answers about Granite City hospital in letter to CEOs](https://www.stlpr.org/health-science-environment/2026-08-25/metro-east-lawmaker-granite-city-hospital) — *2026-08-25*
-- **NEW**  [[St. Louis] St. Louis ends moratorium on water shutoffs for tornado victims, provides financial relief](https://www.stlpr.org/government-politics-issues/2026-08-25/st-louis-ends-moratorium-water-shutoffs-for-tornado-victims-provides-financial-relief) — *2026-08-25*
-- **NEW**  [[St. Louis] St. Louis man leads the charge to bring suicide ‘postvention’ to the construction industry](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-25/st-louis-suicide-postvention-prevention-construction-industry-skilled-trades) — *2026-08-25*
-- **NEW**  [[St. Louis] Mike Bush looks back on a 41-year career at KSDK](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-25/mike-bush-retires-career-ksdk) — *2026-08-25*
-- **NEW**  [[St. Louis] Millions of older Americans don't have enough to eat, as food prices rise beyond fixed incomes](https://www.stlpr.org/2026-08-24/older-americans-high-food-prices) — *2026-08-25*
-- **NEW**  [[Atlanta] Target faces renewed backlash for Halloween costume with 'minstrel show features'](https://www.gpb.org/news/2026/08/26/target-faces-renewed-backlash-for-halloween-costume-minstrel-show-features) — *2026-08-26*
-- **NEW**  [[Atlanta] More than 50 kidnapped as violent gang attack in Haiti leaves 47 dead](https://www.gpb.org/news/2026/08/26/more-50-kidnapped-violent-gang-attack-in-haiti-leaves-47-dead) — *2026-08-26*
-- **NEW**  [[Atlanta] Dolly Parton, one of country music's most singular performers, has died at age 80](https://www.gpb.org/news/2026/08/25/dolly-parton-one-of-country-musics-most-singular-performers-has-died-at-age-80) — *2026-08-26*
-- **NEW**  [[Atlanta] Sen. Darline Graham wins GOP nomination for U.S. Senate in South Carolina](https://www.gpb.org/news/2026/08/25/sen-darline-graham-wins-gop-nomination-for-us-senate-in-south-carolina) — *2026-08-26*
+- **NEW**  [[St. Louis] See the Aug. 26, 1926, front page: Gentry declares Becker liable for Englewood bank loss](https://www.stltoday.com/news/archives/article_ee92bca8-f4c3-48e7-8c73-d5fc24a75f1f.html) — *2026-08-26*
+  > Headlines from the Aug. 26, 1926, front page include: Head city nurse out, 'too much politics'
+- **NEW**  [[St. Louis] Cebuhar, Robert](https://www.stltoday.com/obituaries/article_86d410f3-2d45-575a-8c05-46314c8c28bc.html) — *2026-08-26*
+  > Cebuhar, Robert "Bob" J.
+- **NEW**  [[St. Louis] McGauly, Sharon](https://www.stltoday.com/obituaries/article_33aa202c-f134-5697-83ab-513b093e2f77.html) — *2026-08-26*
+  > McGauly, Sharon
+- **NEW**  [[St. Louis] Sippy, Jean](https://www.stltoday.com/obituaries/image_e3c43115-8ef1-5fba-89e9-00ff4503ad62.html) — *2026-08-26*
+  > Sippy, Jean
+- **NEW**  [[St. Louis] Sippy, Jean](https://www.stltoday.com/obituaries/article_e1160701-fc88-5d7d-abb9-983ea5da1b3f.html) — *2026-08-26*
+  > Jean Whittemore Sippy passed away at the age of 91 in St. Louis, Missouri on August 23rd, 2026. Jean was the daughter of the late Martha Trees Whittemore and Russell Granville Whittemore. She is preceded in death by her beloved…
+- **NEW**  [[St. Louis] EGRETS, HERONS BOMBARD BLOCK](https://www.stltoday.com/image_eb47e84c-6815-5b9b-ac76-03e7ff379b1b.html) — *2026-08-26*
+  > A juvenile little blue heron, left, pesters an adult little blue heron for food as they roost high in a tree in the 4000 block of Olive Street in St. Louis on Monday, Aug. 17, 2026. The neighborhood is filled…
+- **NEW**  [[St. Louis] EGRETS, HERONS BOMBARD BLOCK](https://www.stltoday.com/image_eeb9f5dc-9ed3-5f77-ab08-5956e4f07855.html) — *2026-08-26*
+  > A juvenile blue heron walks through the grass in the 4000 block of Olive Street in St. Louis as a resident who says she doesn't like the birds goes to her apartment on Monday, Aug. 17, 2026.
+- **NEW**  [[St. Louis] EGRETS, HERONS BOMBARD BLOCK](https://www.stltoday.com/article_0a5e2b87-bf72-59c2-93e7-552780a9fad9.html) — *2026-08-26*
+  > CENTRAL WEST END
+- **NEW**  [[St. Louis] Entertainer, philanthropist was queen of country music](https://www.stltoday.com/image_1bf81027-4c6c-5a6c-8f7e-62ea88007a53.html) — *2026-08-26*
+  > American country music star Dolly Parton performs June 29, 2014, on the Pyramid Stage at Worthy Farm in Somerset, during the Glastonbury Festival.
+- **NEW**  [[St. Louis] Entertainer, philanthropist was queen of country music](https://www.stltoday.com/article_87c0f1f7-4ddf-5ea8-8ebc-6331e89bf2d9.html) — *2026-08-26*
+  > Dolly Parton, the "Queen of Country Music," a philanthropist supporting a diverse array of projects and causes and Dollywood's Dreamer-in-Chief, has died, according to her social media accounts.
+- **NEW**  [[St. Louis] ICE agent charged in Minnesota shooting could be released from Texas jail](https://www.ksdk.com/article/news/nation-world/ice-agent-minnesota-shooting-texas-jail/507-6be94b1a-ce7d-4527-8594-48cf717d19f1) — *2026-08-26*
+  > An ICE agent is charged in Minnesota after allegedly firing his gun through a house door, striking a man in his leg, and then lying to justify the shooting.
+- **NEW**  [[St. Louis] Dan Sullivan, GOP candidate with same name as incumbent, advances in Alaska US Senate primary](https://www.ksdk.com/article/news/nation-world/alaska-dan-sullivan-elections-same-name-ranked-choice/507-78263c2a-0aef-4bf4-bff7-20867159c857) — *2026-08-26*
+  > President Donald Trump endorsed Sen. Sullivan for reelection and called the other Sullivan’s candidacy an attempt to trick voters.
+- **NEW**  [[St. Louis] 'Dead people are not home decor': New law in Idaho targets the sale of human remains](https://www.ksdk.com/article/news/nation-world/dead-people-home-decor-law-idaho-targets-sale-human-remains/507-52f5fe67-925b-427c-b284-4102581a6e68) — *2026-08-26*
+  > Idaho's new law, co-drafted by University of Idaho law student Desalyn Swank, makes selling or displaying human remains a felony.
+- **NEW**  [[St. Louis] Key races to watch for the Aug. 25 special and runoff elections: Live results for 3 states](https://www.ksdk.com/article/news/politics/elections/david-scott-lindsey-graham-oklahoma-georgia-president-donald-trump-south-carolina/507-b245c633-bbd6-4dfe-99f5-e1b1e26f2609) — *2026-08-26*
+  > Two runoff election races held Tuesday, Aug. 25, will feature a family member looking to replace a member of Congress who died this year.
+- **NEW**  [[St. Louis] Sen. Darline Graham wins GOP primary runoff to replace her late brother in US Senate](https://www.ksdk.com/article/news/nation-world/darline-graham-gop-primary-runoff-replace-brother-us-senate/507-b2b0905d-c30e-4417-91c4-95300421736e) — *2026-08-26*
+  > Despite being a political unknown, Darline Graham bested some of South Carolina’s top political names in the special election.
 
-_(221 additional items in raw.jsonl)_
+_(230 additional items in raw.jsonl)_

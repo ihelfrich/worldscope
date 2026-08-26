@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-26
-record_count: 104
-new_today: 84
+record_count: 92
+new_today: 72
 state: fresh
 ---
 
 ## State Legislative Action
 
-84 new of 104 total items today.
+72 new of 92 total items today.
 
 - **NEW**  [[Alaska SB 140] An Act relating to a matching grant program for fire station construction and renovation; and providing for an effective date.]() — *2026-08-26*
   > An Act relating to a matching grant program for fire station construction and renovation; and providing for an effective date.
@@ -64,4 +64,4 @@ This bill would
 - **NEW**  [[California SB 872] Delta Levees and Canal Subsidence Fund.]() — *2026-08-25*
   > Existing law, the Sacramento-San Joaquin Delta Reform Act of 2009, declares that the Sacramento-San Joaquin Delta (Delta) is a critically important natural resource for California and the nation and it serves as both the hub of the California water system and the most valuable es
 
-_(79 additional items in raw.jsonl)_
+_(67 additional items in raw.jsonl)_
