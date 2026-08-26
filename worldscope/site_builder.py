@@ -83,7 +83,7 @@ SECTION_DESCRIPTIONS = {
     "state_bills": "OpenStates state legislation aggregator",
     "local_news": "St. Louis + Atlanta hyperlocal",
     "foreign_news": "37 countries, multi-tier foreign-language and English-language",
-    "chinese_internal": "Chinese-language domestic press with Claude translation",
+    "chinese_internal": "Chinese-language domestic press with model-assisted translation",
     "russian_internal": "Russian-language press: state + business + in-exile",
     "ukrainian_internal": "Ukrainian press: national + Kyiv-local + government",
     "ukraine_theater": "Total-theater monitoring: ACLED + FIRMS + DeepStateMap + OSINT",

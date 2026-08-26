@@ -11,18 +11,11 @@ a single bad response never aborts the surrounding briefing run.
 """
 from __future__ import annotations
 
-import os
-from typing import Optional
-
-# Optional Anthropic SDK import — gracefully no-op if not configured
-try:
-    import anthropic  # type: ignore
-except ImportError:
-    anthropic = None  # type: ignore
+from . import model_gateway
 
 # Single source of truth for the synthesis model, shared with overview.py and
 # overridable via env so the id can be bumped without code edits.
-SYNTH_MODEL = os.environ.get("WORLDSCOPE_SYNTH_MODEL", "claude-sonnet-4-6")
+SYNTH_MODEL = model_gateway.DEFAULT_MODEL
 
 SYSTEM = """You are a research-grade desk officer writing a daily intelligence
 briefing for an economist. The brief must be:
@@ -96,35 +89,22 @@ def synthesize(section_title: str, items: list[dict], new_ids: set[str]) -> str:
             f"Most recent: {items[0].get('title','')[:160]}."
         )
 
-    if anthropic is None or not os.environ.get("ANTHROPIC_API_KEY"):
+    if not model_gateway.available():
         return _fallback()
 
     try:
-        client = anthropic.Anthropic()
-        resp = client.messages.create(
-            model=SYNTH_MODEL,
+        result = model_gateway.generate(
+            SYSTEM,
+            PROMPT.format(
+                section_title=section_title,
+                items_text=items_text,
+                new_indices=", ".join(str(i) for i in new_indices) or "none",
+            ),
             max_tokens=400,
-            # Cache the static system prompt. Note: Sonnet 4.6's minimum
-            # cacheable prefix is ~2048 tokens, so this short prompt may not
-            # actually cache — it's correct and harmless, and engages if the
-            # prompt grows.
-            system=[{
-                "type": "text",
-                "text": SYSTEM,
-                "cache_control": {"type": "ephemeral"},
-            }],
-            messages=[{
-                "role": "user",
-                "content": PROMPT.format(
-                    section_title=section_title,
-                    items_text=items_text,
-                    new_indices=", ".join(str(i) for i in new_indices) or "none",
-                )
-            }],
         )
     except Exception as exc:  # network/auth/API errors must not abort the brief
         print(f"[synth] {section_title}: API call failed "
               f"({type(exc).__name__}: {exc}); using deterministic fallback")
         return _fallback()
-    text = _first_text(resp)
+    text = result.text
     return text or _fallback()

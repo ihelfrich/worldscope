@@ -13,7 +13,7 @@ synthesis pass can weight tier-1 (primary documents, central banks) over
 state-controlled when they conflict.
 
 For the Chinese-language internal layer, see chinese_internal.py (separate
-section because it requires a Claude-Haiku translation step at ingest).
+section because it requires a model-assisted translation step at ingest).
 """
 from __future__ import annotations
 

@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
   pages: write
   id-token: write
 
@@ -54,7 +55,14 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot@1.0.80
       - run: pip install -e ".[ci]"
+
+      - name: Copilot inference canary
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: test -n "$(copilot -p 'Reply READY.' -s --no-ask-user --available-tools= --model auto)"
 
       - name: Restore dist/ + lake
         # dist/ is no longer in git, and a Pages deployment replaces the WHOLE
@@ -72,8 +80,8 @@ jobs:
 
       - name: Render every brief to HTML
         env:
-          # lets the homepage generator translate foreign headlines (Haiku)
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Lets render-time generation use the provider-neutral model gateway.
+          GITHUB_TOKEN: ${{ github.token }}
         run: python tools/render_brief.py
       - name: Rebuild section pages so Tailwind sees their classes
         # The site_builder emits HTML with the same utility classes the

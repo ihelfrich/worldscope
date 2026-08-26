@@ -4,12 +4,12 @@ chinese_internal — Chinese-language news from inside the PRC.
 Pulls from a curated set of mainland Chinese sources spanning the
 party-line / state-media / market-liberal / nationalist-intellectual
 spectrum. Each item is translated to English at ingestion time using
-Claude Haiku (~$0.003/day at our volume), and both the original Chinese
+the shared model gateway, and both the original Chinese
 and the English translation are stored in raw.jsonl.
 
 This is the ONE section where ingestion is not pure-Python — the
 translation step requires the Anthropic SDK. The cost stays low because:
-  - Haiku is cheap ($0.25/M input, $1.25/M output)
+  - Translation is batched to reduce inference calls.
   - We only translate title + first ~200 Chinese characters
   - We're capped at ~50 items/day across all feeds
 
@@ -112,50 +112,9 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
 
 
 def _translate_with_haiku(texts: list[str]) -> list[str]:
-    """Translate a batch of Chinese strings to English via Claude Haiku.
-    Returns a list of English translations in the same order. On any failure,
-    returns the input texts unchanged (degraded but not broken)."""
-    if not texts:
-        return []
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        # No key in environment -> skip translation, return originals
-        return texts
-
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return texts
-
-    client = Anthropic(api_key=api_key)
-
-    # Single batched call: prompt has all the items, model returns JSON array.
-    numbered = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, start=1))
-    prompt = (
-        "Translate each of the following Chinese news items into concise English. "
-        "Preserve names, organizations, and numeric values exactly. Reply with ONLY "
-        "a JSON array of strings, one per input, in order. No commentary, no markdown.\n\n"
-        f"Items:\n{numbered}"
-    )
-
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5",   # cheap + fast; falls back if unavailable
-            max_tokens=2000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
-        # Strip code-fence wrappers if Haiku added them
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(line for line in lines if not line.startswith("```"))
-        translations = json.loads(text)
-        if isinstance(translations, list) and len(translations) == len(texts):
-            return [str(t) for t in translations]
-    except Exception as exc:
-        print(f"[chinese_internal] translation failed: {type(exc).__name__}: {exc}",
-              file=sys.stderr)
-    return texts   # degraded: return originals on any failure
+    """Translate via the shared provider gateway; retain originals offline."""
+    from .. import model_gateway
+    return model_gateway.translate(texts, "Chinese")
 
 
 class ChineseInternalSection(Section):
@@ -170,7 +129,7 @@ class ChineseInternalSection(Section):
     source_license = "varies-per-feed"
     attribution_required = True
     attribution_text = (
-        "Chinese-language excerpts translated by Claude Haiku at ingestion. "
+        "Chinese-language excerpts translated through the shared model gateway. "
         "Per-feed attribution preserved in raw.jsonl. State-controlled sources "
         "labeled explicitly (tier=state_controlled)."
     )
@@ -183,7 +142,7 @@ class ChineseInternalSection(Section):
 
     # Capability contract: The raw cross-language pull is valuable on its own;
     # only the analysis layer degrades.
-    optional_env = ('ANTHROPIC_API_KEY',)
+    optional_env = ()
 
     def pull(self) -> list[dict]:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
@@ -241,7 +200,7 @@ class ChineseInternalSection(Section):
         zh_items = [it for it in raw_items if it.get("source_lang") == "zh" and not it.get("_error")]
         if zh_items:
             # Title + lede combined for each, capped at 200 chars to keep
-            # Haiku input size reasonable
+            # Keep batched inference input size reasonable
             inputs = [
                 f"TITLE: {it.get('title','')} | LEDE: {(it.get('summary','') or '')[:200]}"
                 for it in zh_items

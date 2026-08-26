@@ -4,7 +4,7 @@ Worldscope's defining failure mode was invisible degradation. Between May and
 August 2026 the pipeline reported success on ~180 consecutive workflow runs
 while:
 
-  * ANTHROPIC_API_KEY was never set, so paper_bet_placement placed zero bets
+  * model inference was not provisioned, so paper_bet_placement placed zero bets
     on 66 consecutive days and every LLM synthesis path ran on a template;
   * FIRMS_MAP_KEY was never set, so the thermal-anomaly layer returned [];
   * MEDIACLOUD_API_KEY and the mediacloud SDK were both absent;
@@ -34,6 +34,7 @@ import argparse
 import importlib.util
 import json
 import os
+import shutil
 import sys
 from dataclasses import dataclass, field
 from typing import Any, Iterable, Optional, Sequence
@@ -79,8 +80,8 @@ STAGE_REQUIREMENTS: tuple[StageRequirement, ...] = (
         note="DuckDB time-series warehouse behind the anomaly screen",
     ),
     StageRequirement(
-        "synthesis", env=("ANTHROPIC_API_KEY",), required=True,
-        note="brief prose + section synthesis; falls back to a template",
+        "synthesis", packages=("cmd:copilot",), required=False,
+        note="Copilot CLI prose + decisions; Actions uses its ephemeral GITHUB_TOKEN",
     ),
 )
 
@@ -231,6 +232,8 @@ class Report:
 # --------------------------------------------------------------------------- #
 
 def _installed(pkg: str) -> bool:
+    if pkg.startswith("cmd:"):
+        return shutil.which(pkg.removeprefix("cmd:")) is not None
     try:
         return importlib.util.find_spec(pkg) is not None
     except (ImportError, ValueError):

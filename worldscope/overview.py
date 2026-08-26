@@ -7,23 +7,16 @@ document that frames the day in arc-of-events terms: not just "what
 happened" but "what happened in relation to what was happening, and what's
 coming up next."
 
-When ANTHROPIC_API_KEY is set, an LLM pass writes the prose with strict
-grounding (cite by index, refuse if unsupported). Without the key, a
-deterministic template still produces a useful document.
+When the provider-neutral model gateway is available, an LLM pass writes the
+prose with strict grounding. Otherwise a deterministic template remains.
 """
 from __future__ import annotations
 
-import os
 from datetime import date
 from typing import Any
 
-try:
-    import anthropic  # type: ignore
-except ImportError:
-    anthropic = None  # type: ignore
-
 from .calendar import CalendarItem
-from .synth import SYNTH_MODEL, _first_text
+from . import model_gateway
 from .textutil import clean_text
 
 
@@ -119,30 +112,19 @@ def build_overview(
     # LLM path. Any failure (network/auth/empty or non-text response) falls
     # through to the deterministic template below rather than aborting the
     # brief after every section has already been pulled.
-    if anthropic is not None and os.environ.get("ANTHROPIC_API_KEY"):
+    if model_gateway.available():
         try:
-            client = anthropic.Anthropic()
-            resp = client.messages.create(
-                model=SYNTH_MODEL,
+            result = model_gateway.generate(
+                SYSTEM,
+                PROMPT.format(
+                    today_date=today.isoformat(),
+                    section_pulls=section_pulls,
+                    trends_summary=trends_summary,
+                    calendar_summary=calendar_summary,
+                ),
                 max_tokens=1200,
-                # Cache the static system prompt (auto-caches the last
-                # cacheable block) so the identical preamble isn't re-billed.
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{
-                    "role": "user",
-                    "content": PROMPT.format(
-                        today_date=today.isoformat(),
-                        section_pulls=section_pulls,
-                        trends_summary=trends_summary,
-                        calendar_summary=calendar_summary,
-                    ),
-                }],
             )
-            text = _first_text(resp)
+            text = result.text
             if text:
                 return text
             print("[overview] empty/non-text API response; using deterministic fallback")
@@ -176,6 +158,6 @@ def build_overview(
         "",
         "*Calendar currently shows recent central-bank announcements (often forward-looking). Explicit forthcoming-event APIs — FRED release calendar, FOMC dates, Treasury auctions, SCOTUS oral argument calendar — land in a later sprint.*",
         "",
-        "*Note: this is the deterministic fallback. Set `ANTHROPIC_API_KEY` for synthesized prose.*",
+        "*Note: this is the deterministic fallback; model inference was unavailable.*",
     ]
     return "\n".join(lines)

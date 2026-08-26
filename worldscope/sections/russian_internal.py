@@ -23,8 +23,8 @@ Three tiers:
     - DW Russian           https://www.dw.com/atom/rss-ru-all
     - Radio Liberty Russia https://www.svoboda.org/api/zr-piye
 
-Russian-language items are translated to English at ingestion via Claude
-Haiku (~$0.003/day at our volume). The gap between TASS framing and
+Russian-language items are translated to English at ingestion through the
+shared model gateway. The gap between TASS framing and
 Meduza framing of the same event tells you what the Kremlin is
 comfortable having amplified vs what's actually happening.
 
@@ -77,41 +77,12 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
 
 
 def _translate_with_haiku(texts: list[str], source_lang: str = "Russian") -> list[str]:
-    if not texts: return []
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key: return texts
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return texts
-    client = Anthropic(api_key=api_key)
-    numbered = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, start=1))
-    prompt = (
-        f"Translate each of the following {source_lang} news items into concise English. "
-        "Preserve names, organizations, and numeric values exactly. Note: if the source "
-        "uses propagandistic euphemisms (e.g. 'special military operation'), preserve "
-        "the original phrasing in quotes and add a brief clarification in brackets. "
-        "Reply with ONLY a JSON array of strings, one per input, in order. "
-        "No commentary, no markdown.\n\n"
-        f"Items:\n{numbered}"
+    from .. import model_gateway
+    return model_gateway.translate(
+        texts, source_lang,
+        guidance=("If the source uses propagandistic euphemisms, preserve the original "
+                  "phrasing in quotes and add a brief clarification in brackets."),
     )
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=2500,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(line for line in lines if not line.startswith("```"))
-        translations = json.loads(text)
-        if isinstance(translations, list) and len(translations) == len(texts):
-            return [str(t) for t in translations]
-    except Exception as exc:
-        print(f"[russian_internal] translation failed: {type(exc).__name__}: {exc}",
-              file=sys.stderr)
-    return texts
 
 
 class RussianInternalSection(Section):
@@ -126,7 +97,7 @@ class RussianInternalSection(Section):
     source_license = "varies-per-feed"
     attribution_required = True
     attribution_text = (
-        "Russian-language excerpts translated by Claude Haiku at ingestion. "
+        "Russian-language excerpts translated through the shared model gateway. "
         "Per-feed attribution preserved in raw.jsonl. State-controlled "
         "(TASS, RIA, Izvestia, Lenta) and in-exile independent (Meduza, "
         "Novaya Gazeta Europe, iStories, etc.) sources distinguished by "
@@ -141,7 +112,7 @@ class RussianInternalSection(Section):
 
     # Capability contract: The raw cross-language pull is valuable on its own;
     # only the analysis layer degrades.
-    optional_env = ('ANTHROPIC_API_KEY',)
+    optional_env = ()
 
     def pull(self) -> list[dict]:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()

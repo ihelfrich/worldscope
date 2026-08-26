@@ -22,6 +22,7 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
   pages: write
   id-token: write
 
@@ -54,11 +55,18 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot@1.0.80
       # The 'ci' extra carries matplotlib, fiona, duckdb and the mediacloud
       # SDK. Installing the bare package is why the graphics, maps,
       # ukraine-maps, embeddings and warehouse stages ImportError'd into a
       # swallowed log line on every run since May.
       - run: pip install -e ".[ci]"
+
+      - name: Copilot inference canary
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: test -n "$(copilot -p 'Reply READY.' -s --no-ask-user --available-tools= --model auto)"
 
       - name: Preflight — verify credentials and dependencies
         # Fails the run when a REQUIRED credential or package is absent,
@@ -66,7 +74,6 @@ jobs:
         # omits half its sections. Degraded (optional) capabilities are
         # reported but do not block.
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COURTLISTENER_API_TOKEN: ${{ secrets.COURTLISTENER_API_TOKEN }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
@@ -98,7 +105,7 @@ jobs:
 
       - name: Generate briefing
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
           COURTLISTENER_API_TOKEN: ${{ secrets.COURTLISTENER_API_TOKEN }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}

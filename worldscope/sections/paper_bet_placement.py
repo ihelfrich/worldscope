@@ -6,8 +6,8 @@ from today (their summary.md + structured.json files) rather than pulling from
 an upstream API. It runs LAST in the daily registry so it can synthesize
 across everything.
 
-For each high-volume market in today's paper_bets pull, it asks Claude
-(Sonnet) to compare today's evidence base against the current market price.
+For each high-volume market in today's paper_bets pull, it asks the configured
+provider-neutral model to compare today's evidence against the market price.
 A bet is recorded only when all of the following hold:
 
   * |credence - price| >= EDGE_THRESHOLD (8% raw), AND
@@ -20,10 +20,9 @@ A bet is recorded only when all of the following hold:
     so ignoring costs biased hardest in the direction the strategy most
     wanted to trade.
 
-NOTE: this section requires ANTHROPIC_API_KEY (declared in requires_env). It
-previously wrote "skipping placement" to stderr and returned [] when the key
-was absent, which is how it placed zero bets on 66 consecutive days while
-every workflow run reported success.
+Scheduled runs use GitHub Copilot CLI through the workflow's short-lived token. A
+provider outage is emitted as a distinct unavailable state, never mislabeled
+as a valid decision to place zero bets.
 
 Sizing follows Kelly-lite:
     size_usd = BASE_UNIT * min(edge * 5, 1.0) * confidence_multiplier
@@ -37,6 +36,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 import os
 import sys
 from datetime import date, datetime, timezone
@@ -45,6 +45,7 @@ from typing import Any, Optional
 
 from . import Section, SectionState
 from ..scoring import venues as _venues
+from .. import model_gateway
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 LAKE_SECTIONS = REPO_ROOT / "lake" / "sections"
@@ -52,12 +53,11 @@ LAKE_SECTIONS = REPO_ROOT / "lake" / "sections"
 # Decision thresholds
 EDGE_THRESHOLD = 0.08            # Place a bet only if |our - market| >= 8%
 BASE_UNIT_USD = 100.0            # Notional unit per bet (paper dollars)
-MAX_BET_FRACTION = 0.05          # No single bet > 5% of total notional risked
 MAX_NEW_BETS_PER_DAY = 8         # Conservative cap to avoid over-trading
 # Net-of-cost floor. EDGE_THRESHOLD above is a RAW edge; a raw 8% on a thin
 # book near the tails can be negative once the round trip is paid for.
 MIN_NET_EDGE = 0.02
-MODEL = "claude-sonnet-4-6"      # Reasoning model for the placement decision
+MODEL = model_gateway.DEFAULT_MODEL
 
 
 def _module_fingerprint() -> str:
@@ -209,9 +209,9 @@ def _build_decision_prompts(summaries: dict[str, str], markets: list[dict],
         "- Cite the specific section names AND any cross-source signal keys that "
         "  support each decision.\n"
         f"- Output AT MOST {MAX_NEW_BETS_PER_DAY} decisions, ranked by edge × confidence.\n"
-        "- Output VALID JSON only — a single array of objects. No prose, no "
+        "- Output VALID JSON only as {\"decisions\": [...]}. No prose, no "
         "  markdown fences, no commentary.\n\n"
-        "Schema per decision:\n"
+        "Schema for each object inside decisions:\n"
         "{\n"
         '  "market_id": str,\n'
         '  "platform": str,\n'
@@ -232,43 +232,50 @@ def _build_decision_prompts(summaries: dict[str, str], markets: list[dict],
     return system_prompt, user_prompt
 
 
-def _call_claude_for_decisions(summaries: dict[str, str],
-                               markets: list[dict],
-                               signals: Optional[list] = None) -> list[dict]:
-    """Ask Claude Sonnet which markets are mispriced given today's evidence and
-    cross-source signals. Returns a list of decision dicts. Empty list on any
-    failure (degraded ok)."""
-    # Both are guaranteed by the section's requires_env / requires_packages;
-    # the base class raises before pull() is reached. Kept as a hard assertion
-    # rather than a silent skip: writing "skipping placement" to stderr and
-    # returning [] is exactly how this section placed zero bets on 66
-    # consecutive days while every workflow run reported success.
-    api_key = os.environ["ANTHROPIC_API_KEY"]
-    from anthropic import Anthropic
-
+def _call_model_for_decisions(summaries: dict[str, str],
+                              markets: list[dict],
+                              signals: Optional[list] = None) -> tuple[list[dict], model_gateway.ModelResult]:
+    """Return validated decisions plus the exact provider/model provenance."""
     system_prompt, user_prompt = _build_decision_prompts(
         summaries, markets, signals or [])
-
+    result = model_gateway.generate(system_prompt, user_prompt, json_mode=True)
+    text = result.text.strip()
+    if text.startswith("```") and text.endswith("```"):
+        lines = text.splitlines()
+        text = "\n".join(lines[1:-1]).strip()
     try:
-        client = Anthropic(api_key=api_key)
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=4000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_prompt}],
-        )
-        text = resp.content[0].text.strip()
-        # Strip code fences if present
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(L for L in lines if not L.startswith("```"))
-        decisions = json.loads(text)
-        if not isinstance(decisions, list):
-            return []
-        return decisions
-    except Exception as exc:
-        sys.stderr.write(f"[paper_bet_placement] Claude call failed: {type(exc).__name__}: {exc}\n")
-        return []
+        payload = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise model_gateway.ModelGatewayError("placement model returned invalid JSON") from exc
+    decisions = payload.get("decisions") if isinstance(payload, dict) else payload
+    if not isinstance(decisions, list) or not all(isinstance(d, dict) for d in decisions):
+        raise model_gateway.ModelGatewayError("placement response must contain a decisions array")
+    market_by_id = {m.get("market_id"): m for m in markets if m.get("market_id")}
+    allowed_sections = set(summaries)
+    allowed_signals = {getattr(s, "key", None) for s in (signals or [])}
+    valid: list[dict] = []
+    for decision in decisions:
+        try:
+            market = market_by_id[decision["market_id"]]
+            credence = float(decision["credence"])
+            if not math.isfinite(credence) or not 0 <= credence <= 1:
+                continue
+            if decision.get("platform") != market.get("platform"):
+                continue
+            band = decision.get("confidence_band")
+            if band not in {"low", "medium", "high"}:
+                continue
+            evidence = decision.get("evidence_sections", [])
+            cited = decision.get("signals_cited", [])
+            if (not isinstance(evidence, list) or not set(evidence) <= allowed_sections or
+                    not isinstance(cited, list) or not set(cited) <= allowed_signals):
+                continue
+            valid.append(decision)
+        except (KeyError, TypeError, ValueError):
+            continue
+    if decisions and not valid:
+        raise model_gateway.ModelGatewayError("placement model returned no semantically valid decisions")
+    return valid, result
 
 
 class PaperBetPlacementSection(Section):
@@ -290,11 +297,11 @@ class PaperBetPlacementSection(Section):
     # Capability contract: The placement decision IS the model call. Without it the section
     # places zero bets, which is what it silently did for 66 straight
     # days. Hard requirement so the failure is visible.
-    requires_env = ('ANTHROPIC_API_KEY',)
-    requires_packages = ('anthropic',)
+    requires_env = ()
+    requires_packages = ()
 
     def pull(self) -> list[dict]:
-        """Read today's section summaries + market state, ask Claude where to
+        """Read today's section summaries + market state, ask the model where to
         place bets, record them via lake.add_paper_bet(). Returns the placed
         bets as items for the standard contract pipeline."""
         from ..lake import Lake
@@ -322,7 +329,7 @@ class PaperBetPlacementSection(Section):
                 "_skipped": True,
             }]
 
-        decisions = _call_claude_for_decisions(summaries, markets, signals)
+        decisions, model_result = _call_model_for_decisions(summaries, markets, signals)
 
         if not decisions:
             return [{
@@ -331,8 +338,8 @@ class PaperBetPlacementSection(Section):
                 "title": "[paper_bet_placement] No bets placed today",
                 "url": "",
                 "summary": "The decision module did not identify any markets "
-                           "with sufficient edge today. Either evidence converges "
-                           "with market consensus, or Claude API was unavailable.",
+                           "with sufficient net edge today. This is a valid model "
+                           "decision, not an inference outage.",
                 "_skipped": True,
             }]
 
@@ -352,9 +359,9 @@ class PaperBetPlacementSection(Section):
                 "edge_threshold": EDGE_THRESHOLD,
                 "min_net_edge": MIN_NET_EDGE,
                 "base_unit_usd": BASE_UNIT_USD,
-                "max_bet_fraction": MAX_BET_FRACTION,
                 "max_new_bets_per_day": MAX_NEW_BETS_PER_DAY,
-                "model": MODEL,
+                "model": model_result.model,
+                "provider": model_result.provider,
                 "sizing": "kelly_lite:min(edge*5,1)*confidence_multiplier",
                 "venue_filter": "real_money_only",
                 "cost_model": "venues.round_trip_cost",
@@ -373,13 +380,15 @@ class PaperBetPlacementSection(Section):
                 market = market_by_id[market_id]
                 price = float(market.get("yes_price") or 0.5)
                 credence = float(d.get("credence") or 0.5)
-                side = d.get("side", "YES").upper()
+                # Direction is mechanically implied by credence versus the
+                # current YES price; never trust a contradictory model label.
+                side = "YES" if credence > price else "NO"
                 confidence_band = d.get("confidence_band", "medium").lower()
                 if confidence_band not in {"low", "medium", "high"}:
                     confidence_band = "medium"
                 edge = abs(credence - price)
                 if edge < EDGE_THRESHOLD:
-                    continue   # safety check; Claude should have filtered
+                    continue   # safety check; the model should have filtered
 
                 platform = market.get("platform") or ""
 
@@ -423,7 +432,9 @@ class PaperBetPlacementSection(Section):
                 # signal keys, so the bet's provenance is auditable.
                 evidence = list(evidence_sections) + [
                     f"signal:{k}" for k in signals_cited
-                ]
+                ] + [f"prompt-sha256:{model_result.prompt_hash}",
+                     f"response-sha256:{model_result.response_hash}",
+                     f"inferred-at:{model_result.inferred_at}"]
 
                 lake.add_paper_bet(
                     bet_id=bet_id,
@@ -437,7 +448,7 @@ class PaperBetPlacementSection(Section):
                     price_at_bet=price,
                     rationale=d.get("rationale", "")[:1000],
                     evidence=evidence,
-                    model_version=f"placement-v2-signals::{MODEL}",
+                    model_version=f"placement-v3::{model_result.provider}::{model_result.model}",
                     confidence_band=confidence_band,
                     section_id=self.id,
                     rule_id=rule_id,
@@ -464,6 +475,11 @@ class PaperBetPlacementSection(Section):
                     "rationale": d.get("rationale", ""),
                     "market_platform": market.get("platform"),
                     "market_id": market_id,
+                    "model_provider": model_result.provider,
+                    "model_name": model_result.model,
+                    "prompt_hash": model_result.prompt_hash,
+                    "response_hash": model_result.response_hash,
+                    "inferred_at": model_result.inferred_at,
                 })
             except Exception as exc:
                 sys.stderr.write(
@@ -518,7 +534,7 @@ class PaperBetPlacementSection(Section):
         lines.append("---")
         lines.append("**Disclosure:** these are simulated bets only. "
                      "No real money is staked. Decisions made by "
-                     f"{MODEL}; sizing follows Kelly-lite at "
+                     f"{MODEL} through the configured provider; sizing follows Kelly-lite at "
                      f"base ${BASE_UNIT_USD:.0f} × min(edge×5, 1.0) × "
                      f"confidence multiplier ({{0.5,1.0,1.5}}). "
                      f"Track record: see paper_bets section.")
@@ -544,6 +560,7 @@ class PaperBetPlacementSection(Section):
                 "evidence": (item.get("evidence_sections", [])
                              + [f"signal:{k}" for k in item.get("signals_cited", [])]),
                 "confidence_band": item.get("confidence_band"),
-                "model_version": f"placement-v2-signals::{MODEL}",
+                "model_version": (f"placement-v3::{item.get('model_provider','unknown')}::"
+                                  f"{item.get('model_name', MODEL)}"),
             })
         return base

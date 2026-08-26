@@ -77,40 +77,11 @@ FEEDS: list[tuple[str, str, str, str, str, str]] = [
 
 
 def _translate_with_haiku(texts: list[str]) -> list[str]:
-    if not texts: return []
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key: return texts
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return texts
-    client = Anthropic(api_key=api_key)
-    numbered = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, start=1))
-    prompt = (
-        "Translate each of the following Ukrainian news items into concise English. "
-        "Preserve names (Ukrainian transliterations preferred: Kyiv not Kiev; "
-        "Mykolaiv not Nikolaev; etc.), organizations, and numeric values exactly. "
-        "Reply with ONLY a JSON array of strings, one per input, in order. "
-        "No commentary, no markdown.\n\n"
-        f"Items:\n{numbered}"
+    from .. import model_gateway
+    return model_gateway.translate(
+        texts, "Ukrainian",
+        guidance="Prefer Ukrainian transliterations such as Kyiv and Mykolaiv.",
     )
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=2500,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(line for line in lines if not line.startswith("```"))
-        translations = json.loads(text)
-        if isinstance(translations, list) and len(translations) == len(texts):
-            return [str(t) for t in translations]
-    except Exception as exc:
-        print(f"[ukrainian_internal] translation failed: {type(exc).__name__}: {exc}",
-              file=sys.stderr)
-    return texts
 
 
 class UkrainianInternalSection(Section):
@@ -125,7 +96,7 @@ class UkrainianInternalSection(Section):
     source_license = "varies-per-feed"
     attribution_required = True
     attribution_text = (
-        "Ukrainian-language excerpts translated by Claude Haiku at ingestion. "
+        "Ukrainian-language excerpts translated through the shared model gateway. "
         "Per-feed attribution preserved in raw.jsonl. Ukrainian transliterations "
         "used throughout (Kyiv not Kiev; Mykolaiv not Nikolaev)."
     )
@@ -138,7 +109,7 @@ class UkrainianInternalSection(Section):
 
     # Capability contract: The raw cross-language pull is valuable on its own;
     # only the analysis layer degrades.
-    optional_env = ('ANTHROPIC_API_KEY',)
+    optional_env = ()
 
     def pull(self) -> list[dict]:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=self.LOOKBACK_DAYS)).date()
