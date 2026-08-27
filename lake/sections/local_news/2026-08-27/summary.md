@@ -2,64 +2,54 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-08-27
-record_count: 236
-new_today: 200
+record_count: 254
+new_today: 225
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-200 new of 236 total items today.
+225 new of 254 total items today.
 
+- **NEW**  [[St. Louis] Sports comedy ‘The Streak’ seeks St. Louis extras for basketball game scenes](https://www.stlmag.com/culture/sports-comedy-the-streak-seeks-st-louis-extras-for-basketball-game-scenes/) — *2026-08-27*
+  > <p>Another film production is taking over St. Louis, and this time there’s an exciting opportunity for local basketball fans and film lovers alike to take part in some of the action. The inspirational sports comedy The Streak, directed by comedian Steve Byrne, will film around St
+- **NEW**  [[St. Louis] The Mountain Goats head to The Pageant with Candlebox](https://www.stlmag.com/culture/music/the-mountain-goats-head-to-the-pageant-with-candlebox/) — *2026-08-27*
+  > <p>Following a sold-out show at Delmar Hall in May, The Mountain Goats were recently announced as the direct support for grunge legends Candlebox for a short run of shows in September, which includes a show at The Pageant on September 17. The announcement also coincided with the 
+- **NEW**  [[St. Louis] Top food and drink events in St. Louis](https://www.stlmag.com/dining/top-food-and-drink-events-in-st-louis/) — *2026-08-27*
+  > <p>August 29: Sip &#8216;N Serve Drag Brunch: No Skip Playlist! August 29: The St. Louis Margarita Festival August 29-30: Festival of Nations September 3: Midnight Margaritas Mixology September 4: The Indomitable Spirit of America 250th Bourbon Release Party September 5: Shades &
+- **NEW**  [[St. Louis] How St. Louis can crush the 2028 Olympic marathon trials](https://www.stlmag.com/news/sports/2028-olympic-marathon-trials/) — *2026-08-27*
+  > <p>St. Louis rose to the top of the heap of cities bidding for the 2028 U.S. Olympic marathon trials when it was chosen earlier this year. The designation speaks to the region’s ability to put on major sporting events and presents another opportunity to capitalize on the incoming
+- **NEW**  [[St. Louis] Driver hit in hit-and-run finds herself in city-county tangle](https://www.stlmag.com/news/driver-hit-and-run-city-county-tangle/) — *2026-08-27*
+  > <p>A rising senior at Washington University was waiting for the light to change at the intersection of Forest Park Parkway and Skinker Boulevard when the car behind her was rear-ended, slamming that car into hers and damaging her vehicle’s bumper. “I just feel this jolt in my bac
+- **NEW**  [[St. Louis] ‘Double Lives of Suburban Wives’ treats St. Louis like a freak show](https://www.stlmag.com/culture/double-lives-of-suburban-wives-tlc-freak-show/) — *2026-08-27*
+  > <p>While society has moved away from the type of freak show that showcases people with unusual physical characteristics, TLC has built a successful business out of putting them on TV instead.&#160; From conjoined twins to little people, the majority of TLC’s programming is made u
+- **NEW**  [[St. Louis] ProvanAI is developing a way to predict ovarian cancer risk from mammograms](https://www.stlmag.com/business/provanai-ovarian-cancer-risk-from-mammogram/) — *2026-08-27*
+  > <p>When Joy Jiang and Graham Colditz sold their first startup, Prognosia Inc., to Seoul-based Lunit last year, it didn’t mark the end of the duo’s foray into entrepreneurship, but rather a launching point to tackle a much larger idea. Prognosia grew from the software the two Wash
 - **NEW**  [[St. Louis] Where in the Lou? – 8/27/2026](https://www.stlmag.com/games/where-in-the-lou-082726/) — *2026-08-27*
   > <p>Let&#8217;s see how well you know St. Louis. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you get. Submit your scores with your name and email to the leaderboard for a chance to be featured among each week&#8
 - **NEW**  [[St. Louis] Missouri pastor Kenneth Sparks is found guilty on all counts](https://www.stlmag.com/news/missouri-pastor-kenneth-sparks-guilty/) — *2026-08-26*
   > <p>After a three-day trial in federal court, a Missouri minister was found guilty on 20 counts related to pandemic loan fraud.  Kenneth Sparks, aka Apostle KC Sparks, was indicted in July of 2024 on 33 counts of wire fraud, identity theft, and other crimes alleging he duped paris
 - **NEW**  [[St. Louis] The Clydesdale opens August 27 at Ballpark Village](https://www.stlmag.com/dining/the-clydesdale-opens-at-ballpark-village/) — *2026-08-26*
   > <p>Ballpark Village is betting that a beloved hometown chef will provide its next culinary chapter: James Beard Award-winning chef Kevin Nashan has partnered with Live! Hospitality &#38; Entertainment to open The Clydesdale (601 Clark), which partially occupies the ground floor o
-- **NEW**  [[St. Louis] Worried about your memory? These St. Louis resources can help protect your brain health](https://www.stlmag.com/health/brain-health/) — *2026-08-26*
-  > <p>We all forget why we walked into a room or struggle to recall a name from time to time. But when do those everyday memory lapses become something worth mentioning to a doctor? And just as importantly, what can we do now to keep our brains healthy as we age? One place to turn w
-- **NEW**  [[St. Louis] Paint Louis returns for a weekend of hip-hop and graffiti on the riverfront](https://www.stlmag.com/culture/paint-louis-returns-for-a-weekend-of-hip-hop-and-graffiti-on-the-riverfront/) — *2026-08-26*
-  > <p>Every year, across Labor Day weekend, the flood wall along the riverfront takes on a new life. Take a walk along the 2.5-mile stretch that reaches from Chouteau to Arsenal, and you’ll hear the hiss of spray paint as hundreds of graffiti artists paint their finest work in the h
-- **NEW**  [[St. Louis] Meet Brian the Balloon Guy, the St. Louis balloon artist taking kids’ parties to the next level](https://www.stlmag.com/family/brian-the-balloon-guy/) — *2026-08-26*
-  > <p>A balloon dog is one thing. A 6-foot-tall Charizard made from roughly 150 balloons is another. For St. Louis entertainer Brian the Balloon Guy, twisting balloons for kids’ birthday parties has grown into an art form, a social media following, and a career built around making k
-- **NEW**  [[St. Louis] Inside the St. Louis bubble factory behind the beloved Bubble Bus](https://www.stlmag.com/family/bubble-bus/) — *2026-08-26*
-  > <p>There are few things that can send a crowd of St. Louis kids running like the arrival of the Bubble Bus. For nearly 20 years, its iridescent magic has floated through birthday parties, festivals, and family events across the region, leaving plenty of delighted, bubble-chasing 
-- **NEW**  [[St. Louis] Yemeni chai shop MOTW now open on the Delmar Loop](https://www.stlmag.com/dining/yemeni-chai-shop-motw-now-open-on-the-delmar-loop/) — *2026-08-26*
-  > <p>Growing up in Town &#38; Country, Shamaas Nyazee wasn’t much of a coffee drinker. But he developed a taste for it as an adult, and he started to enjoy the camaraderie of coffeehouse culture. Now, Nyazee co-owns several franchises of Indianapolis-based MOTW Coffee (6509 Delmar)
-- **NEW**  [[St. Louis] Top things to do in St. Louis this weekend: August 28–30](https://www.stlmag.com/culture/top-events-in-st-louis-this-weekend/) — *2026-08-26*
-  > <p>See Also: Trader Bob’s Flash Revival &#124; August 28 &#38; 29 St. Louis’ oldest tattoo shop brings some of the country’s finest tattoo artists together to ink archival flash art, all while raising money for charity. This year’s beneficiary is Rung for Women. Noon–8 p.m. Trade
-- **NEW**  [[St. Louis] A new center aims to make St. Louis a hub of global AI innovation](https://www.stlmag.com/business/spirit-of-st-louis-ai-innovation-center-launches/) — *2026-08-26*
-  > <p>St. Louis is set to house a new innovation center dedicated to using geospatial and artificial intelligence breakthroughs to foster solutions to major national and global challenges.  The local nonprofit GeoSTL made the announcement Wednesday morning, sharing that it, along wi
-- **NEW**  [[St. Louis] More than 1,300 are missing in Nepal and Tibet after catastrophic floods caused by glacial collapse](https://www.ksdk.com/article/news/nation-world/americans-missing-avalanche-deadly-flash-floods-nepal/507-862bade7-e031-442e-a877-193f4ab9676c) — *2026-08-27*
-  > Experts said a glacial collapse caused the disaster in the warming Himalayan region.
-- **NEW**  [[St. Louis] Small plane crashes in water next to remote Alaska coastal town, killing 4](https://www.ksdk.com/article/news/nation-world/small-plane-crashes-remote-alaska-coastal-town/507-ef87b864-5002-4f49-b4af-699cd712a53c) — *2026-08-27*
-  > It's the second fatal plane crash in Alaska in less than a week.
-- **NEW**  [[St. Louis] Grab your dirty sodas, 'The Secret Lives of Mormon Wives' is coming back for Season 5](https://www.ksdk.com/article/news/nation-world/secret-lives-mormon-wives-season-5-trailer/507-a0f8c0ce-318b-43b2-8d6a-c05ae2bdf94d) — *2026-08-27*
-  > The new season starts Sept. 10.
-- **NEW**  [[St. Louis] Yayoi Kusama, who splashed polka dots across art world, dies at 97 in Tokyo](https://www.ksdk.com/article/news/nation-world/yayoi-kusama-japanese-artist-polka-dots-dies/507-51b2a272-18ac-4c21-8b13-44728228ae0b) — *2026-08-27*
-  > Kusama, one of Japan’s most respected contemporary artists, died Aug. 14 at a hospital in Tokyo, her studio said.
-- **NEW**  [[St. Louis] Buckingham Palace guards band plays '9 to 5' in tribute to Dolly Parton](https://www.ksdk.com/article/news/nation-world/buckingham-palace-guards-dolly-parton-tribute/507-e159270d-e0d1-4688-ac6d-90855a7f87e3) — *2026-08-27*
-  > The Coldstream Guards Band performed Dolly Parton's classic at Buckingham Palace on Tuesday.
-- **NEW**  [[St. Louis] Big 12 becomes latest conference to ban former NFL players while NFL reiterates its rules](https://www.ksdk.com/article/news/nation-world/big-12-ban-former-nfl-players/507-f1eba372-0f91-4720-9bf0-9a43cd757477) — *2026-08-27*
-  > The decision by the Big 12 came a day after rulings by the SEC and Big Ten.
-- **NEW**  [[St. Louis] Amazon raises Kindle, Fire TV and Echo prices as much as 60%](https://www.ksdk.com/article/news/nation-world/amazon-raises-kindle-fire-tv-echo-prices/507-36531d8b-e042-4122-b74c-c5c28e9d3eb4) — *2026-08-27*
-  > The price increases hit Kindle e-readers, Fire TV streamers, Echo speakers and eero mesh routers.
-- **NEW**  [[St. Louis] Low-income tenants scramble to find new housing as Mark Twain Hotel closes Sept. 1](https://www.ksdk.com/article/news/low-income-tenants-scramble-to-find-new-housing-as-mark-twain-hotel-closes-sept-1/63-dbd7f0d4-7a10-4022-874d-75cdddf5feec) — *2026-08-27*
-  > The Mark Twain Hotel is closing on Sept. 1, leaving the hundreds of people living there without a home
-- **NEW**  [[St. Louis] US State Department pauses visa appointments for immigrants worldwide](https://www.ksdk.com/article/news/nation-world/state-department-pauses-visa-appointments-immigrants-worldwide/507-cd8b33d1-d4dd-4557-8299-4335f31569bb) — *2026-08-26*
-  > The department said staff will undergo "in-depth training" to look for applicants who might rely on public benefits in the U.S.
-- **NEW**  [[St. Louis] ‘Nobody was inside’: Staffing issue delayed opening of South City bar hours before devastating fire](https://www.ksdk.com/article/money/business/small-business/nobody-was-inside-staffing-issue-delayed-opening-of-south-city-bar-hours-before-devastating-fire/63-a9b118b0-0dbf-46d1-8723-56e98d655246) — *2026-08-26*
-  > Stan’s Bar normally would have been open when the fire broke out Tuesday, but a staffing issue pushed its opening to 4 p.m. No one was inside.
-- **NEW**  [[St. Louis] Arrest made in 2024 Bevo Mill homicide](https://www.ksdk.com/article/news/crime/arrest-made-in-2024-bevo-mill-homicide/63-7a249e35-a172-471f-b065-84e9a47d66c8) — *2026-08-26*
-  > The investigation remains ongoing. Anyone with information about the incident is urged to call the Homicide Division directly at 314-444-5371.
-- **NEW**  [[St. Louis] Trial date set for man accused of planning 9/11 attacks](https://www.ksdk.com/article/news/nation-world/trial-date-set-man-accused-planning-911-attacks/507-1401c50e-2b2d-4ebc-b22c-32e726f4822f) — *2026-08-26*
-  > Khalid Sheikh Mohammed has been held at the U.S. military base in Guantanamo since 2003.
-- **NEW**  [[St. Louis] Ferguson Police Chief Troy Doyle focuses on reform, staffing challenges](https://www.ksdk.com/article/news/crime/ferguson-police-chief-troy-doyle-focuses-on-reform-staffing-challenges/63-2f09b7ba-80b9-4f77-b75a-e1d546ade141) — *2026-08-26*
-  > Chief's contract extension through 2030 aims to bring long-term stability after years of leadership turnover
-- **NEW**  [[St. Louis] ‘He was Belleville PD’: Department remembers Chief Matthew Eiskant after battle with cancer](https://www.ksdk.com/article/life/people/he-was-belleville-pd-department-remembers-chief-matthew-eiskant-after-battle-with-cancer/63-13ea2263-cc7a-48c0-9db5-d52d77ed8e4a) — *2026-08-26*
-  > The longtime Belleville officer rose from patrolman to police chief during a 25-year career. His department will give him a final sendoff with police honors.
-- **NEW**  [[St. Louis] St. Louis theater and music figures remember Dolly Parton's warmth, kindness](https://www.ksdk.com/article/news/entertainment-news/st-louis-theater-and-music-figures-remember-dolly-partons-warmth-kindness/63-a0397173-a03e-4a89-b133-51ef0b368857) — *2026-08-26*
-  > Blueberry Hill's Joe Edwards and The Muny's Mike Isaacson share personal memories of Dolly Parton, who died Tuesday at 80, from her time in St. Louis.
+- **NEW**  [[St. Louis] $10M in federal funds headed to downtown St. Louis greenway expansion, other paths](https://www.stlpr.org/government-politics-issues/2026-08-27/downtown-st-louis-brickline-greenway-10m-federal-funding) — *2026-08-27*
+- **NEW**  [[St. Louis] A St. Louis program aimed to prevent evictions. A short-term rental fee could help sustain it](https://www.stlpr.org/government-politics-issues/2026-08-27/st-louis-right-counsel-expansion-efforts) — *2026-08-27*
+- **NEW**  [[St. Louis] AI growth requires huge electric grid upgrades, study finds](https://www.stlpr.org/health-science-environment/2026-08-27/study-ai-growth-electric-grid-upgrades) — *2026-08-27*
+- **NEW**  [[St. Louis] Have dreams of becoming a chef? A paid apprenticeship at Propel Kitchens in St. Louis can help](https://www.stlpr.org/economy-business/2026-08-27/propel-kitchen-st-louis-chef-apprenticeship) — *2026-08-27*
+- **NEW**  [[St. Louis] Published in St. Louis, board game Wingspan expands to dragons, fish and new pocket edition](https://www.stlpr.org/show/st-louis-on-the-air/2026-08-27/st-louis-board-game-wingspan-dragons-fish-new-pocket-edition) — *2026-08-27*
+- **NEW**  [[St. Louis] Judge hits pause on ousted St. Louis sheriff’s federal pretrial to review briefings](https://www.stlpr.org/law-order/2026-08-26/judge-hits-pause-st-louis-sheriff-alfred-montgomery-federal-pre-trial) — *2026-08-26*
+- **NEW**  [[St. Louis] St. Louis officials plan to demolish long-vacant parking garage as part of downtown revitalization](https://www.stlpr.org/government-politics-issues/2026-08-26/st-louis-demolish-long-vacant-parking-garage-downtown-revitalization) — *2026-08-26*
+- **NEW**  [[St. Louis] Can dog breeding be ethical? Some small-scale St. Louis breeders say yes](https://www.stlpr.org/health-science-environment/2026-08-26/st-louis-ethical-dog-breeding) — *2026-08-26*
+- **NEW**  [[St. Louis] SLPS looks to close 14 schools, scale back its original plan to shutter up to 20 buildings](https://www.stlpr.org/education/2026-08-26/slps-looks-to-close-14-schools-scale-back-original-plan-shutter-up-to-20-buildings) — *2026-08-26*
+- **NEW**  [[St. Louis] How a typhoon and peanut butter jars brought rare snails to St. Louis](https://www.stlpr.org/health-science-environment/2026-08-26/st-louis-zoo-rare-guam-snail-rescue) — *2026-08-26*
+- **NEW**  [[St. Louis] Peter Cullen, voice of Optimus Prime and Eeyore, dies at 85](https://www.ksdk.com/article/news/nation-world/peter-cullen-optimus-prime-eeyore-dies/507-1bb159d0-352e-4573-9cc2-3d7f3599224b) — *2026-08-27*
+  > Peter Cullen voiced the popular characters from "Transformers" and "Winnie the Pooh" for decades in dozens of movies and TV shows.
+- **NEW**  [[St. Louis] President Trump signs executive order to rename Lake Ontario to Lake America](https://www.ksdk.com/article/news/politics/president-trump-executive-order-lake-ontario-name-change-america-trade-war-canada/507-cedcb899-d82b-47a4-b85c-66dcfa130ce0) — *2026-08-27*
+  > The executive order comes as the trade war between the United States and Canada intensifies.
+- **NEW**  [[St. Louis] Daily Dose: Robotic breast surgery, a breakthrough cancer pill and sweetener concerns](https://www.ksdk.com/article/news/health/daily-dose-health/robotic-breast-surgery-breakthrough-cancer-pill-sweetener-concerns/507-d9871dce-55f1-40f9-99fc-c9567040ffc0) — *2026-08-27*
+  > Today's health news includes a new robotic breast cancer surgery, a promising pancreatic cancer drug, hormone therapy research and a sweetener study.
+- **NEW**  [[St. Louis] What a tick bite could mean: From Lyme disease to rare viruses](https://www.ksdk.com/article/news/nation-world/tick-bite-explained-lyme-disease-rare-viruses/507-7eed77df-1e60-4468-8433-61e3698012de) — *2026-08-27*
+  > Ticks can spread far more than an itchy bite — from a classic bullseye rash to a virus with no available treatment.
+- **NEW**  [[St. Louis] WATCH: Jury deliberations begin in Lindsay Clancy's trial in the killings of her 3 children](https://www.ksdk.com/article/news/nation-world/watch-closing-arguments-underway-lindsay-clancys-trial-killings-3-children/507-5dec8a2e-652f-4d92-91b0-fc82d5146b0e) — *2026-08-27*
+  > In a Massachusetts trial that draws national attention to maternal mental health, Lindsay Clancy is accused of murdering her three children.
 
-_(211 additional items in raw.jsonl)_
+_(229 additional items in raw.jsonl)_

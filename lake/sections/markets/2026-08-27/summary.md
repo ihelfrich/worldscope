@@ -11,45 +11,45 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[US equities] S&P 500 (SPY): 766.08 ▲ +0.02%](https://finance.yahoo.com/quote/SPY) — *2026-08-26*
-  > close 766.08 · chg +0.17 (+0.02%) · day range 763.93–767.35
-- [[US equities] Nasdaq 100 (QQQ): 711.37 ▲ +0.09%](https://finance.yahoo.com/quote/QQQ) — *2026-08-26*
-  > close 711.37 · chg +0.65 (+0.09%) · day range 707.97–713.02
-- [[US equities] Russell 2000 (IWM): 298.93 ▼ -0.10%](https://finance.yahoo.com/quote/IWM) — *2026-08-26*
-  > close 298.93 · chg -0.30 (-0.10%) · day range 298.13–299.95
-- [[Intl equities] MSCI EAFE (EFA): 108.27 ▼ -0.50%](https://finance.yahoo.com/quote/EFA) — *2026-08-26*
-  > close 108.27 · chg -0.54 (-0.50%) · day range 108.14–108.82
-- [[EM equities] MSCI EM (EEM): 67.17 ▼ -0.12%](https://finance.yahoo.com/quote/EEM) — *2026-08-26*
-  > close 67.17 · chg -0.08 (-0.12%) · day range 67.14–67.55
-- [[China equities] China large-cap (FXI): 35.55 ▼ -0.03%](https://finance.yahoo.com/quote/FXI) — *2026-08-26*
-  > close 35.55 · chg -0.01 (-0.03%) · day range 35.53–35.72
-- [[FX] DXY proxy (UUP): 28.02 ▲ +0.29%](https://finance.yahoo.com/quote/UUP) — *2026-08-26*
-  > close 28.02 · chg +0.08 (+0.29%) · day range 28.00–28.04
-- [[FX] EUR/USD (FXE): 107.60 ▼ -0.19%](https://finance.yahoo.com/quote/FXE) — *2026-08-26*
-  > close 107.60 · chg -0.20 (-0.19%) · day range 107.50–107.63
-- [[FX] JPY/USD (FXY): 57.55 ▼ -0.14%](https://finance.yahoo.com/quote/FXY) — *2026-08-26*
-  > close 57.55 · chg -0.08 (-0.14%) · day range 57.50–57.59
-- [[Rates] 20+yr Treasury (TLT): 83.30 ▼ -0.20%](https://finance.yahoo.com/quote/TLT) — *2026-08-26*
-  > close 83.30 · chg -0.17 (-0.20%) · day range 83.07–83.30
-- [[Rates] 7-10yr Treasury (IEF): 93.32 ▼ -0.20%](https://finance.yahoo.com/quote/IEF) — *2026-08-26*
-  > close 93.32 · chg -0.19 (-0.20%) · day range 93.23–93.36
-- [[Rates] 1-3yr Treasury (SHY): 82.05 ▼ -0.04%](https://finance.yahoo.com/quote/SHY) — *2026-08-26*
-  > close 82.05 · chg -0.03 (-0.04%) · day range 82.03–82.06
-- [[Commodities] Gold (GLD): 421.32 ▼ -1.58%](https://finance.yahoo.com/quote/GLD) — *2026-08-26*
-  > close 421.32 · chg -6.75 (-1.58%) · day range 420.31–424.95
-- [[Commodities] Silver (SLV): 61.59 ▼ -1.17%](https://finance.yahoo.com/quote/SLV) — *2026-08-26*
-  > close 61.59 · chg -0.73 (-1.17%) · day range 61.02–61.96
-- [[Commodities] WTI Crude (USO): 127.35 ▲ +0.95%](https://finance.yahoo.com/quote/USO) — *2026-08-26*
-  > close 127.35 · chg +1.20 (+0.95%) · day range 125.41–129.46
-- [[Commodities] Natural Gas (UNG): 10.41 ▲ +1.76%](https://finance.yahoo.com/quote/UNG) — *2026-08-26*
-  > close 10.41 · chg +0.18 (+1.76%) · day range 10.30–10.51
-- [[Commodities] Agriculture (DBA): 28.59 ▲ +1.10%](https://finance.yahoo.com/quote/DBA) — *2026-08-26*
-  > close 28.59 · chg +0.31 (+1.10%) · day range 28.28–28.66
-- [[Credit] High yield (HYG): 79.90 ▼ -0.03%](https://finance.yahoo.com/quote/HYG) — *2026-08-26*
-  > close 79.90 · chg -0.02 (-0.03%) · day range 79.78–79.91
-- [[Credit] IG corporate (LQD): 106.78 ▼ -0.07%](https://finance.yahoo.com/quote/LQD) — *2026-08-26*
-  > close 106.78 · chg -0.08 (-0.07%) · day range 106.59–106.80
-- [[Vol] VIX futures (VXX): 18.54 ▼ -0.70%](https://finance.yahoo.com/quote/VXX) — *2026-08-26*
-  > close 18.54 · chg -0.13 (-0.70%) · day range 18.52–18.77
-- [[Crypto] Bitcoin futures (BITO): 10.58 ▼ -0.75%](https://finance.yahoo.com/quote/BITO) — *2026-08-26*
-  > close 10.58 · chg -0.08 (-0.75%) · day range 10.47–10.62
+- [[US equities] S&P 500 (SPY): 770.86 ▲ +0.62%](https://finance.yahoo.com/quote/SPY) — *2026-08-27*
+  > close 770.86 · chg +4.78 (+0.62%) · day range 767.16–772.36
+- [[US equities] Nasdaq 100 (QQQ): 718.59 ▲ +1.01%](https://finance.yahoo.com/quote/QQQ) — *2026-08-27*
+  > close 718.59 · chg +7.22 (+1.01%) · day range 714.52–720.63
+- [[US equities] Russell 2000 (IWM): 299.55 ▲ +0.21%](https://finance.yahoo.com/quote/IWM) — *2026-08-27*
+  > close 299.55 · chg +0.62 (+0.21%) · day range 298.14–300.31
+- [[Intl equities] MSCI EAFE (EFA): 107.86 ▼ -0.38%](https://finance.yahoo.com/quote/EFA) — *2026-08-27*
+  > close 107.86 · chg -0.41 (-0.38%) · day range 107.61–108.14
+- [[EM equities] MSCI EM (EEM): 67.35 ▲ +0.27%](https://finance.yahoo.com/quote/EEM) — *2026-08-27*
+  > close 67.35 · chg +0.18 (+0.27%) · day range 67.20–67.69
+- [[China equities] China large-cap (FXI): 35.21 ▼ -0.96%](https://finance.yahoo.com/quote/FXI) — *2026-08-27*
+  > close 35.21 · chg -0.34 (-0.96%) · day range 35.19–35.36
+- [[FX] DXY proxy (UUP): 28.00 ▼ -0.07%](https://finance.yahoo.com/quote/UUP) — *2026-08-27*
+  > close 28.00 · chg -0.02 (-0.07%) · day range 27.99–28.02
+- [[FX] EUR/USD (FXE): 107.58 ▼ -0.02%](https://finance.yahoo.com/quote/FXE) — *2026-08-27*
+  > close 107.58 · chg -0.02 (-0.02%) · day range 107.54–107.66
+- [[FX] JPY/USD (FXY): 57.54 ▼ -0.02%](https://finance.yahoo.com/quote/FXY) — *2026-08-27*
+  > close 57.54 · chg -0.01 (-0.02%) · day range 57.51–57.56
+- [[Rates] 20+yr Treasury (TLT): 83.05 ▼ -0.30%](https://finance.yahoo.com/quote/TLT) — *2026-08-27*
+  > close 83.05 · chg -0.25 (-0.30%) · day range 83.00–83.36
+- [[Rates] 7-10yr Treasury (IEF): 93.18 ▼ -0.15%](https://finance.yahoo.com/quote/IEF) — *2026-08-27*
+  > close 93.18 · chg -0.14 (-0.15%) · day range 93.16–93.38
+- [[Rates] 1-3yr Treasury (SHY): 82.05 ▲ +0.00%](https://finance.yahoo.com/quote/SHY) — *2026-08-27*
+  > close 82.05 · chg +0.00 (+0.00%) · day range 82.03–82.08
+- [[Commodities] Gold (GLD): 422.10 ▲ +0.19%](https://finance.yahoo.com/quote/GLD) — *2026-08-27*
+  > close 422.10 · chg +0.78 (+0.19%) · day range 418.43–423.25
+- [[Commodities] Silver (SLV): 62.49 ▲ +1.46%](https://finance.yahoo.com/quote/SLV) — *2026-08-27*
+  > close 62.49 · chg +0.90 (+1.46%) · day range 61.08–62.97
+- [[Commodities] WTI Crude (USO): 130.84 ▲ +2.74%](https://finance.yahoo.com/quote/USO) — *2026-08-27*
+  > close 130.84 · chg +3.49 (+2.74%) · day range 127.31–130.96
+- [[Commodities] Natural Gas (UNG): 10.65 ▲ +2.31%](https://finance.yahoo.com/quote/UNG) — *2026-08-27*
+  > close 10.65 · chg +0.24 (+2.31%) · day range 10.44–10.73
+- [[Commodities] Agriculture (DBA): 28.90 ▲ +1.08%](https://finance.yahoo.com/quote/DBA) — *2026-08-27*
+  > close 28.90 · chg +0.31 (+1.08%) · day range 28.59–28.91
+- [[Credit] High yield (HYG): 79.88 ▼ -0.03%](https://finance.yahoo.com/quote/HYG) — *2026-08-27*
+  > close 79.88 · chg -0.02 (-0.03%) · day range 79.86–79.97
+- [[Credit] IG corporate (LQD): 106.67 ▼ -0.10%](https://finance.yahoo.com/quote/LQD) — *2026-08-27*
+  > close 106.67 · chg -0.11 (-0.10%) · day range 106.64–106.86
+- [[Vol] VIX futures (VXX): 18.27 ▼ -1.46%](https://finance.yahoo.com/quote/VXX) — *2026-08-27*
+  > close 18.27 · chg -0.27 (-1.46%) · day range 18.18–18.58
+- [[Crypto] Bitcoin futures (BITO): 10.85 ▲ +2.55%](https://finance.yahoo.com/quote/BITO) — *2026-08-27*
+  > close 10.85 · chg +0.27 (+2.55%) · day range 10.64–10.91

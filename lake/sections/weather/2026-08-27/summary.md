@@ -2,259 +2,264 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-27
-record_count: 141
-new_today: 139
+record_count: 145
+new_today: 144
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-139 new of 141 total items today.
+144 new of 145 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 4:28AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28823df992e61da30fe279d05520c25c29a04c00.001.1) — *2026-08-27*
-  > At 427 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from Mocane to 3 miles west of Elmwood to 3 miles
-northeast of Perryton. Movement was east at 25 mph.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:58PM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b914b921a0fb2cef47ccef4e1b42fa4bbafc356.001.1) — *2026-08-27*
+  > At 158 PM EDT, Doppler radar was tracking a strong thunderstorm 12
+miles south of Leary, or 12 miles west of Newton, moving northeast at
+5 mph.
 
-HAZARD...Wind gusts up to 50 mph and pea size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gu
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-17185) — *2026-08-27*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 27 at 4:26AM CDT until August 27 at 5:30AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be3008a6e86f986c58ee806221f8ae78051e081c.001.1) — *2026-08-27*
-  > SMWLIX
-
-The National Weather Service in New Orleans has issued a
-
-* Special Marine Warning for...
-Lake Pontchartrain...
-
-* Until 530 AM CDT.
-
-* At 426 AM CDT, a severe thunderstorm was located near The Mid Point
-Of The Causeway Bridge, moving southwest at 15 knots.
-
-HAZARD...Wind
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 4:23AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91c2bf1b1841d17eb2c38586307f25262aabee5a.001.1) — *2026-08-27*
-  > At 423 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Salem to near Maringouin. Movement was
-east at 35 mph.
-
-HAZARD...Winds in excess of 40 mph.
+HAZARD...Wind gusts up to 40 mph.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 27 at 4:11AM CDT until August 27 at 8:00PM CDT by NWS Fort Worth TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9626d2ee501dc6fc932d80b2ea3d0d05d712f6d8.002.1) — *2026-08-27*
-  > * WHAT...Heat index values up to 109.
+unsecure
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-5952) — *2026-08-27*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Extreme] Tornado Warning: Tornado Warning issued August 27 at 1:57PM EDT until August 27 at 2:30PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a09132c45e5b265028f919c31af99029912a3b3.001.1) — *2026-08-27*
+  > TORPHI
 
-* WHERE...Portions of North and Central Texas
+The National Weather Service in Mount Holly NJ has issued a
 
-* WHEN...Until 8 PM CDT this evening.
+* Tornado Warning for...
+Central Salem County in southern New Jersey...
 
-* IMPACTS...Hot temperatures and high humidity will increase the risk
-for heat-related illnesses to occur, particularly for those working
-or participating 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 2:06AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f42ac74b98a1d2df2003223cd375e616764d63.001.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures ranging
-between 104 to 110 degrees and low temperatures 79 to 85 degrees.
-Major to Extreme HeatRisk today through Saturday.
+* Until 230 PM EDT.
 
+* At 157 PM EDT, a severe thunderstorm capable of producing a tornado
+was located near Woodstown, or 10 miles southea
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 27 at 1:56PM EDT until August 27 at 9:00PM EDT by NWS Albany NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e3750ada28036a179f45ad8a14d1bca91a186eb.001.1) — *2026-08-27*
+  > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
+631 IN EFFECT UNTIL 9 PM EDT THIS EVENING FOR THE FOLLOWING AREAS
 
-* WHERE...Pinal County, Tohono O'odham Nation, Tucson Metro Area,
-Upper Gila River Valley, and 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 2:06AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90f42ac74b98a1d2df2003223cd375e616764d63.002.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with temperatures 98 to 105
-degrees. Overnight lows 71 to 78 degrees. Major HeatRisk is
-expected today through Saturday with isolated Extreme HeatRisk.
+IN CONNECTICUT THIS WATCH INCLUDES 1 COUNTY
 
-* WHERE...Pinal County, Tohono O'odham Nation, Tucson Metro Area,
-Upper Gila River Valley, 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 3:59AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b17c8f9420542ab330fe480e55634c334b410683.001.1) — *2026-08-27*
-  > At 358 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from 8 miles northwest of Perryton to 8 miles
-southeast of Spearman to 18 miles east of Stinnett to 4 miles north
-of Pampa. Movement was east at 25 mph.
+IN NORTHWESTERN CONNECTICUT
 
-HAZARD...Wind gusts of 50 to 55 mph and 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 3:52AM CDT by NWS Dodge City KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fe8d266aecc42e400074292f07d77c70b973593.001.1) — *2026-08-27*
-  > At 352 AM CDT, Doppler radar was tracking a strong thunderstorm very
-near Liberal, moving east at 25 mph.
+LITCHFIELD
 
-HAZARD...Wind gusts of 50 to 55 mph.
+IN MASSACHUSETTS THIS WATCH INCLUDES 1 COUNTY
+
+IN WESTERN MAS
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:55PM EDT by NWS Greenville-Spartanburg SC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5823cfcd46b04febf6447cc4664264c3c8df3ea8.001.1) — *2026-08-27*
+  > At 154 PM EDT, Doppler radar was tracking a strong thunderstorm 13
+miles north of Walhalla, or 7 miles north of Oconee State Park,
+moving east at 10 mph.
+
+HAZARD...Wind gusts up to 40 mph and pea size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree li
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 27 at 1:54PM EDT until August 27 at 9:00PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.844bbda67878e46d8fb085f3f97a0fa0117554e2.001.1) — *2026-08-27*
+  > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
+631 IN EFFECT UNTIL 9 PM EDT THIS EVENING FOR THE FOLLOWING AREAS
+
+IN NEW YORK THIS WATCH INCLUDES 16 COUNTIES
+
+IN CENTRAL NEW YORK
+
+BROOME                CHEMUNG               CHENANGO
+CORTLAND              DELAWA
+- **NEW**  [[Severe] Severe Thunderstorm Watch: Severe Thunderstorm Watch issued August 27 at 1:53PM EDT until August 27 at 9:00PM EDT by NWS Buffalo NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cd13236b077b959b3492bfd4aa27c501ec820d7.001.1) — *2026-08-27*
+  > THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH
+631 IN EFFECT UNTIL 9 PM EDT THIS EVENING FOR THE FOLLOWING AREAS
+
+IN NEW YORK THIS WATCH INCLUDES 3 COUNTIES
+
+IN CENTRAL NEW YORK
+
+CAYUGA                LEWIS                 OSWEGO
+
+THIS INCLUDES THE CITIES OF AU
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:52PM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6af404d86181c5b86a652382f68ee5c47b65b8d4.001.1) — *2026-08-27*
+  > At 152 PM EDT, Doppler radar was tracking a strong thunderstorm near
+West Bradenton, or near Bradenton, moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
 unsecured objects.
 
-This strong thunderstor
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 3:48AM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ecbcd1a36c6f4b2403b6fe97cbd4d5092c3053ed.001.1) — *2026-08-27*
-  > At 348 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Baker, or 11 miles south of Liberal, moving southeast at 30 mph.
 
-HAZARD...Wind gusts of 50 to 55 mph and half inch hail.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:52PM EDT by NWS State College PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d8f31231d62802ddafc17e3ebea3cb847663144.001.1) — *2026-08-27*
+  > At 152 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Mechanicsburg, moving east at 15 mph.
+
+HAZARD...Wind gusts up to 50 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow aro
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 27 at 1:42AM PDT until August 27 at 11:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d728dec800cb1c1a1ec8c1ee94b4a48d91c1848.001.1) — *2026-08-27*
-  > * WHAT...Dangerous rip currents and breaking waves due to
-elevated surf expected.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor ha
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 27 at 1:51PM EDT until August 27 at 2:15PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abbce8a4733695d44fa24eedebcc7079a593d0f1.001.1) — *2026-08-27*
+  > At 151 PM EDT, a severe thunderstorm was located over Old Bridge, or
+10 miles southeast of New Brunswick, moving east at 20 mph.
 
-* WHERE...Catalina and Santa Barbara Islands, Ventura County
-Beaches, Malibu Coast and Los Angeles County Beaches.
+HAZARD...60 mph wind gusts.
 
-* WHEN...Through this evening.
+SOURCE...Radar indicated.
 
-* IMPACTS...There is an increased risk of ocean d
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 3:31AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dc9d48a600a71e102087c94ff76723e74b87094.001.1) — *2026-08-27*
-  > At 330 AM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from Enterprise to Little Springs to 6 miles
-northwest of Gloster to Fort Adams. Movement was southeast at 30 mph.
+IMPACT...Expect damage to trees and power lines.
 
-HAZARD...Wind gusts up to 50 mph and nickel size hail.
+Locations impacted include...
+Middletown, Ol
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 27 at 1:51PM EDT until August 27 at 11:00PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c51bf00b39bd135d70c9a2526847262ddbd2e46c.001.1) — *2026-08-27*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
 
-SOURCE...Radar indicat
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 27 at 1:19AM PDT until August 27 at 11:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d32696264c553f26fe7c7547ec5135cae9c455a1.001.1) — *2026-08-27*
-  > * WHAT...Elevated surf of 3-5 feet with sets up to 7 feet
-expected along with dangerous rip currents and minor coastal
-flooding.
+* WHERE...Portions of southern Connecticut, including the following
+areas, Northern Fairfield and Southern Fairfield, northeast New
+Jersey, including the following areas, Eastern Bergen, Eastern
+Essex
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 27 at 1:50PM EDT until August 27 at 5:45PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9af4c0bf6739fb2e6563e5a3763ecc71e945af46.001.1) — *2026-08-27*
+  > FFWPHI
 
-* WHERE...San Diego County coastal areas and Orange County
-coastal areas, particularly along south and southwest-facing
-beaches.
+The National Weather Service in Mount Holly has issued a
 
-* WHEN...Through thi
-- **NEW**  [[Severe] Flash Flood Watch: Flash Flood Watch issued August 27 at 2:05AM MDT until August 27 at 9:00PM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5049aaafa4480de164dc7ab5ee0cf8bfb9a2f945.001.1) — *2026-08-27*
-  > * WHAT...Flash flooding and debris flows caused by excessive rainfall
-will be possible over the Aspen Acres Burn Scar.
+* Flash Flood Warning for...
+Northeastern New Castle County in northern Delaware...
+Northwestern Salem County in southern New Jersey...
 
-* WHERE...Aspen Acres Burn Scar.
+* Until 545 PM EDT.
 
-* WHEN...From 1 PM MDT this afternoon through this evening.
+* At 150 PM EDT, Doppler radar indicated thunderstorms p
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:49PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e635f8d08e1243bff007b8830ce691165ed1d88f.001.1) — *2026-08-27*
+  > At 149 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Nassau Village-Ratliff to near
+Jacksonville to Normandy. Movement was northeast at 15 mph.
 
-* IMPACTS...Heavy rainfall over the Aspen Acres Burn Scar is expe
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.009.1) — *2026-08-27*
-  > * WHAT...High temperatures in the 90s below 6000 feet expected.
+HAZARD...Wind gusts around 40 mph.
 
-* WHERE...San Bernardino County Mountains below 6000 feet.
+SOURCE...Radar indicated.
 
-* WHEN...Until 8 PM PDT Friday.
+IMPACT...Gusty winds could kn
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 27 at 1:46PM EDT until August 27 at 2:15PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.edfefda5916f9be85eec47075368c8d09a20c5a8.002.1) — *2026-08-27*
+  > At 145 PM EDT, a severe thunderstorm was located over Carneys Point,
+or near Wilmington, moving northeast at 15 mph.
 
-* IMPACTS...Hot temperatures may cause heat illnesses.
+HAZARD...60 mph wind gusts and quarter size hail.
 
-* ADDITIONAL DETAILS...Low temperatures 10 to 15 degrees above nor
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.004.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures in the mid
-90s to 105 expected.
+SOURCE...Radar indicated.
 
-* WHERE...San Diego County Mountains.
+IMPACT...Minor hail damage to vehicles is possible. Expect wind
+damage to trees and 
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 27 at 1:42PM EDT until August 27 at 2:15PM EDT by NWS Tampa Bay Ruskin FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b33e1cd09d7a06487191d930aebc4d541c6a823.001.1) — *2026-08-27*
+  > SMWTBW
 
-* WHEN...Until 8 PM PDT Friday.
+The National Weather Service in Ruskin has issued a
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
+* Special Marine Warning for...
+Coastal waters from Englewood to Tarpon Springs FL out 20 NM...
+Tampa Bay waters...
 
-* ADDITIONAL DETAILS...Low te
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.008.1) — *2026-08-27*
-  > * WHAT...High temperatures in the mid 80s near the beaches to the mid
-to upper 90s for the mesas and other higher coastal terrain
-expected. Low temperatures will be mostly in the 70s.
+* Until 215 PM EDT.
 
-* WHERE...San Diego County Coastal Areas.
+* At 141 PM EDT, strong thunderstorms were located along a line
+extending from Lo
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 27 at 10:42AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9f9f3a9dc8e85469873b66c7ea6fe7eb2b002f36.001.1) — *2026-08-27*
+  > AQAPSR
 
-* WHEN...Until 8 PM PDT Friday.
+The Arizona Department of Environmental Quality (ADEQ) has issued a
+PM-10 High Pollution Advisory for Pinal County today.
 
-* IMPACTS...Hot tem
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.003.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures in the mid
-90s to 105 expected.
+An episode of strong and gusty winds is forecast to generate
+widespread blowing dust that may result in local PM-10 concentrations
+that pose a health
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 27 at 1:42PM EDT until August 27 at 2:30PM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d388354b7f34464a05354e0ee2146332aa6eaaf.001.1) — *2026-08-27*
+  > SVRBGM
 
-* WHERE...Santa Ana Mountains and Foothills County.
+The National Weather Service in Binghamton has issued a
 
-* WHEN...Until 8 PM PDT Friday.
+* Severe Thunderstorm Warning for...
+Southeastern Seneca County in central New York...
+Northeastern Schuyler County in central New York...
+Southeastern Cayuga County in central New York...
+Northern Tompkins County i
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:41PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c8b01db7919bdcfca9cc05c8676512c5d85dca99.001.1) — *2026-08-27*
+  > At 141 PM EDT, Doppler radar was tracking a strong thunderstorm near
+Kings Ferry, or near Hilliard, moving east at 20 mph.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
+HAZARD...Wind gusts around 40 mph.
 
-* ADDITIONAL DE
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.011.1) — *2026-08-27*
-  > * WHAT...High temperatures in the mid 80s near the beaches to the
-lower to mid 90s for higher coastal terrain expected. Low
-temperatures mostly in the 70s.
+SOURCE...Radar indicated.
 
-* WHERE...Orange County Coastal Areas.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* WHEN...Until 8 PM PDT Friday.
+Location
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 27 at 10:39AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e318b1352ad3c3315422543142d93491c42f7e2c.001.1) — *2026-08-27*
+  > AQAPSR
 
-* IMPACTS...Hot temperatures may cause heat illnes
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.002.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-upper 90s in the western valleys to around 106 in the inland
-valleys expected. Low temperatures will be mostly in the 70s.
+The Arizona Department of Environmental Quality (ADEQ) has extended
+an Ozone High Pollution Advisory for the Phoenix Metro Area through
+Friday.
 
-* WHERE...San Diego County Valleys.
+This means that forecast weather conditions combined with existing
+ozone levels are expected to result in local maximum 8-hour 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 27 at 1:38PM EDT until August 27 at 5:00PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ae12a92ce469a95ba5ed6e2c33f91274a18c637.001.1) — *2026-08-27*
+  > At 138 PM EDT, local law enforcement reported thunderstorms producing
+heavy rain across the warned area. Between 2 and 3 inches of rain
+have fallen. The expected rainfall rate is 1 to 3 inches in 1 hour.
+Additional rainfall amounts of 1 to 3 inches are possible in the
+warned area
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 27 at 1:38PM EDT until August 27 at 2:45PM EDT by NWS Melbourne FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47eef960c1f3e84179b920c84d72b8fcb5e0ef9a.001.1) — *2026-08-27*
+  > SMWMLB
 
-* WHEN...Until 8 PM PDT Friday.
+The National Weather Service in Melbourne has issued a
 
-* IMPACTS...Heat rel
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.006.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures of 112 to
-116 expected. Low temperatures will be mostly in the mid 80s to mid
-90s.
+* Special Marine Warning for...
+Sebastian Inlet to Jupiter Inlet 0-20 nm...
 
-* WHERE...Coachella Valley, San Diego County Deserts, and San
-Gorgonio Pass near Banning Counties.
+* Until 245 PM EDT.
 
-* WHEN...Until 8 PM PDT Friday.
+* At 138 PM EDT, a strong thunderstorm was located over South Beach,
+or near Vero Beach, moving northeast at 10 knots.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:36PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e3f5e98a576179b4907e36810b17f5b93e01579.001.1) — *2026-08-27*
+  > At 136 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from Ocala Airport to near Silver Springs Shores.
+Movement was northeast at 20 mph.
 
-* IM
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.007.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures in the mid
-90s to 102 expected. Low temperatures will be mostly in the 70s.
+HAZARD...Wind gusts around 40 mph.
 
-* WHERE...Orange County Inland Areas.
+SOURCE...Radar indicated.
 
-* WHEN...Until 8 PM PDT Friday.
+IMPACT...Gusty winds could knock down tree lim
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:34PM EDT by NWS Burlington VT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.76800ba2549d3cd1f72cb93ecaf3778a3fe33630.001.1) — *2026-08-27*
+  > At 134 PM EDT, Doppler radar was tracking a strong thunderstorm 7
+miles northwest of Colton, or 17 miles south of Potsdam Village,
+moving northeast at 35 mph.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.010.1) — *2026-08-27*
-  > * WHAT...High temperatures in the mid 90s to 105 expected.
+HAZARD...Wind gusts up to 40 mph and pea size hail.
 
-* WHERE...Riverside County Mountains.
+SOURCE...Radar indicated.
 
-* WHEN...Until 8 PM PDT Friday.
+IMPACT...Gusty winds could knock down tr
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 27 at 1:30PM EDT by NWS Upton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d7a897e9434ef5a1baa39f1aa672a2ddc417a61.001.1) — *2026-08-27*
+  > At 130 PM EDT, Doppler radar was tracking a strong thunderstorm over
+Union, or near Elizabeth, moving northeast at 20 mph.
 
-* IMPACTS...Hot temperatures may cause heat illnesses.
+HAZARD...Wind gusts up to 40 mph and pea size hail.
 
-* ADDITIONAL DETAILS...Low temperatures 10 to 15 degrees above normal
-will limit relief from
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.005.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures in the
-upper 90s to 108 expected.
+SOURCE...Radar indicated.
 
-* WHERE...Apple and Lucerne Valleys.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured o
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 27 at 1:28PM EDT until August 27 at 3:45PM EDT by NWS Mount Holly NJ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7596ac88f1889335254fbe235cfde20377aaa4ff.001.1) — *2026-08-27*
+  > At 128 PM EDT, local law enforcement reported thunderstorms producing
+heavy rain across the warned area. Between 2 and 3 inches of rain
+have fallen. The expected rainfall rate is 1 to 2 inches in 1 hour.
+Additional rainfall amounts of 1 to 3 inches are possible in the
+warned area
 
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-
-* ADDITIONAL DETAILS...Low t
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 27 at 12:50AM PDT until August 28 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f4cb3c6c61a40c2e7c83204e564099d3732a774.001.1) — *2026-08-27*
-  > * WHAT...Dangerously hot conditions with high temperatures from 100
-to 110 expected. Overnight low temperatures will be mostly in the
-70s.
-
-* WHERE...San Bernardino and Riverside County Valleys-The Inland
-Empire.
-
-* WHEN...Until 8 PM PDT Friday.
-
-* IMPACTS...Heat related illnesse
-
-_(116 additional items in raw.jsonl)_
+_(120 additional items in raw.jsonl)_

@@ -2,74 +2,74 @@
 section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-27
-record_count: 55
-new_today: 42
+record_count: 56
+new_today: 49
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-42 new of 55 total items today.
+49 new of 56 total items today.
 
-- **NEW**  [[BleepingComputer] CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/) — *2026-08-27*
-  > CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]
-- **NEW**  [[BleepingComputer] ATF confirms “major incident” after recent Qilin breach claims](https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/) — *2026-08-27*
-  > ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]
-- **NEW**  [[The Hacker News] New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access](https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html) — *2026-08-27*
-  > Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root she
-- **NEW**  [[The Hacker News] CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs](https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html) — *2026-08-27*
-  > The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exp
-- **NEW**  [[The Register] Check out the width of that Debian display](https://www.theregister.com/offbeat/2026/08/27/check-out-the-width-of-that-debian-display/5292353) — *2026-08-27*
-  > Somebody might be aware, but does anyone care?
-- **NEW**  [[The Register] AI use among UK teachers doubles, but working hours still don't come down](https://www.theregister.com/public-sector/2026/08/27/ai-use-among-uk-teachers-doubles-but-working-hours-still-dont-come-down/5292551) — *2026-08-27*
-  > F- for AI in test of reducing burden of teacher workload
-- **NEW**  [[The Register] You could own AI.slop, if applicant for new global top-level domains get their way](https://www.theregister.com/networks/2026/08/27/you-could-own-aislop-if-applicant-for-new-global-top-level-domains-get-their-way/5292831) — *2026-08-27*
-  > Resistance is futile: .borg is on the list, along with .itiswhatitis, .therapy, and.hype. If that’s scary, might a cup of .tea help?
-- **NEW**  [[The Register] Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year](https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823) — *2026-08-27*
-  > Also thinks Arm can give it a hand on the edge during RAMpocalypse
-- **NEW**  [[The Register] FBI seizes hacking tools it says China used to attack NASA, DOE, US Senate and other critical networks](https://www.theregister.com/security/2026/08/27/fbi-seizes-hacking-tools-it-says-china-used-to-attack-nasa-doe-us-senate-and-other-critical-networks/5292742) — *2026-08-27*
-  > Beijing's botnets busted.
-- **NEW**  [[Computer Weekly] Deutsche Bank selects Thought Machine to support core system reduction](https://www.computerweekly.com/news/366649776/Deutsche-Bank-selects-Thought-Machine-to-support-core-system-reduction) — *2026-08-27*
-  > &lt;p&gt;Deutsche Bank’s private bank will use Thought Machine’s cloud-based banking platform as it reduces core systems from 15 to two cloud-based platforms, after agreeing a 10-year deal.&lt;/p&gt; 
-&lt;p&gt;As part of its plan to simplify its private banking landscape, the Ger
-- **NEW**  [[Computer Weekly] CW@60: Technology must move businesses forward, not hold them back](https://www.computerweekly.com/feature/CW60-Technology-must-move-businesses-forward-not-hold-them-back) — *2026-08-27*
-  > &lt;div class="imagecaption alignLeft"&gt;
- &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
-&lt;/div&gt; 
-&lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
-- **NEW**  [[TechCrunch] Nvidia closes in on Hugging Face acquisition](https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/) — *2026-08-27*
-  > Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.
-- **NEW**  [[TechCrunch] Viral AI startup Instinct has raised $350M at a $2.5B valuation](https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/) — *2026-08-27*
-  > The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.
-- **NEW**  [[BleepingComputer] Critical Avada WordPress theme flaw enables zero-click RCE](https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/) — *2026-08-26*
-  > A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]
-- **NEW**  [[BleepingComputer] New GPUThor attack defeats NVIDIA ECC protection for root access](https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/) — *2026-08-26*
-  > A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]
-- **NEW**  [[BleepingComputer] Meta agrees to $18 billion settlement over teen social media harms](https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/) — *2026-08-26*
-  > Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by children and teenagers. [...]
-- **NEW**  [[The Hacker News] FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations](https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html) — *2026-08-26*
-  > The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive networks in the country.
+- **NEW**  [[Krebs on Security] Two Alleged ‘TeamPCP’ Hackers Arrested in Australia](https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/) — *2026-08-27*
+  > Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.
 
-The activity has been attributed to a Chi
-- **NEW**  [[The Hacker News] Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler](https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html) — *2026-08-26*
-  > Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC).
+In a statement released today, the Australian Federal Police 
+- **NEW**  [[BleepingComputer] PaperCut warns of NG, MF flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/) — *2026-08-27*
+  > PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]
+- **NEW**  [[BleepingComputer] Manchester Airports Group says hackers stole travelers' data](https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/) — *2026-08-27*
+  > The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]
+- **NEW**  [[BleepingComputer] How Threat Research and MDR Help SMBs Build a Defensive Edge](https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/) — *2026-08-27*
+  > Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...
+- **NEW**  [[BleepingComputer] Android 17 adds ECH support to make web browsing harder to track](https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/) — *2026-08-27*
+  > Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]
+- **NEW**  [[BleepingComputer] Australia arrests alleged TeamPCP hackers behind supply-chain attacks](https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/) — *2026-08-27*
+  > Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]
+- **NEW**  [[The Hacker News] Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE](https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html) — *2026-08-27*
+  > Credit:&nbsp;Hacktron
+Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traver
+- **NEW**  [[The Hacker News] ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories](https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html) — *2026-08-27*
+  > A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.
 
-Group-IB, in a new analysis published 
-- **NEW**  [[The Hacker News] NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions](https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html) — *2026-08-26*
-  > Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessions in the process.
+The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waitin
+- **NEW**  [[The Hacker News] Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers](https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html) — *2026-08-27*
+  > Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers.
 
-In a report shared with The Hacker News 
-- **NEW**  [[The Record] Exclusive: NSA to host a hacker reunion in bid to rebuild secretive unit](https://therecord.media/nsa-to-host-hacker-reunion-in-bid-to-rebuild-secretive-unit) — *2026-08-26*
-  > The National Security Agency will welcome back to campus potentially hundreds of former members of the elite group known as Tailored Access Operations (TAO) to celebrate the division’s recent rebranding.
-- **NEW**  [[The Record] Medical device firm Boston Scientific says cyberattack has disrupted shipment processes](https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes) — *2026-08-26*
-  > The company released a statement and filed documents with the Securities and Exchange Commission (SEC) saying a cybersecurity incident was discovered on Tuesday.
-- **NEW**  [[The Record] Meta pledges to overhaul kids’ safety protections, pay $17 billion to settle social media case](https://therecord.media/meta-settlement-children-online-safety-social-media) — *2026-08-26*
-  > A multibillion-dollar settlement with attorneys general from nearly every U.S. state and territory will mean new privacy and safety protections in Meta products.
-- **NEW**  [[The Record] US takes down alleged Chinese hacking tools used against Federal Reserve, DOJ and Senate](https://therecord.media/qscan-qtrouter-us-takedown-alleged-china-hacking-tools) — *2026-08-26*
-  > The DOJ said it disrupted Chinese state-backed tools used to scan, infect and exploit IoT devices for attacks on federal agencies and multiple industries.
-- **NEW**  [[The Record] Iran-linked hackers expand infrastructure across Europe and Middle East, report says](https://therecord.media/iran-linked-hackers-expand-infrastructure-europe-middle-east) — *2026-08-26*
-  > Researchers said they identified servers and domains associated with several countries in Europe and the Middle East, potentially pointing to a broader targeting profile for an Iranian hacking group.
-- **NEW**  [[Cybersecurity Dive] Boston Scientific says cyberattack disrupted order processing, shipping](https://www.cybersecuritydive.com/news/boston-scientific-cyberattack-disrupted-order-processing-shipping/828816/) — *2026-08-26*
-  > The medical device-maker says it cannot yet determine any financial impact from the attack it suffered this week.
+The security flaw, which d
+- **NEW**  [[The Hacker News] Learn How to Build Security Operations Ready for AI-Powered Attacks](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html) — *2026-08-27*
+  > Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.
 
-_(30 additional items in raw.jsonl)_
+Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than tradition
+- **NEW**  [[The Hacker News] Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html) — *2026-08-27*
+  > The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gatew
+- **NEW**  [[The Record] Finland appeals court revives case against Eagle S Officers over cable breaks](https://therecord.media/finland-appeals-court-revives-case-against-eagle-s) — *2026-08-27*
+  > The appeals court sent the case back to the Helsinki District Court to be heard on its merits, although the three men, who had previously been detained in Finland, have since left the country.
+- **NEW**  [[The Record] Chinese and Russian spies stepping up cyberattacks, German companies report](https://therecord.media/germany-cyberattacks-china-russia) — *2026-08-27*
+  > Foreign intelligence services, particularly those from China and Russia, are increasingly behind cyberattacks on German companies, according to a new survey of the country’s private sector.
+- **NEW**  [[The Record] Cyberattack on Manchester Airports Group exposes data of 8.7 million customers](https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info) — *2026-08-27*
+  > A spokesperson told The Yorkshire Post that roughly 8.7 million people were impacted, although they did not provide a date range. They added that in the “vast majority” of cases, the only information accessed was an email address.
+- **NEW**  [[The Record] Australia charges two men for TeamPCP supply-chain hacking spree](https://therecord.media/australia-teampcp-hackers-arrested) — *2026-08-27*
+  > Two men in Australia were charged Wednesday over their alleged membership in TeamPCP, the cybercrime group blamed for one of the most damaging hacking campaigns of the past year.
+- **NEW**  [[The Record] DOJ firearms agency says hackers breached system containing investigation targets](https://therecord.media/doj-atf-cyberattack-qilin-ransomware) — *2026-08-27*
+  > The Bureau of Alcohol, Tobacco, Firearms and Explosives confirmed it experienced a cyberattack on a system containing investigation information, as a prolific ransomware gang claimed to have carried out the breach.
+- **NEW**  [[Cybersecurity Dive] Hundreds of agents went rogue in lead up to Hugging Face breach](https://www.cybersecuritydive.com/news/hundreds-agents-rogue-lead-up-hugging-face-breach/828963/) — *2026-08-27*
+  > OpenAI released a technical breakdown of the historic incident and plans changes to prevent such an occurrence from happening again.&nbsp;
+- **NEW**  [[Cybersecurity Dive] Federal authorities disrupt China-backed hacking operation targeting US critical infrastructure](https://www.cybersecuritydive.com/news/federal-authorities-disrupt-china-hacking-US-critical-infrastructure/828913/) — *2026-08-27*
+  > Compromised IoT devices were used in a yearslong campaign against key sectors and U.S. government agencies.
+- **NEW**  [[Schneier on Security] LLM-Based Social Engineering Scams](https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html) — *2026-08-27*
+  > OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive:
+The network simultaneously conducted multiple types of scams, often blending elements from different schemes. For instance, operators used dating personas to build trust before i
+- **NEW**  [[The Register] ATF responds to 'major' cybersecurity incident after ransomware gang's claims](https://www.theregister.com/security/2026/08/27/atf-responds-to-major-cybersecurity-incident-after-ransomware-gangs-claims/5292990) — *2026-08-27*
+  > US Justice Department investigating the breach
+- **NEW**  [[The Register] Schrödinger's backup: not actually recovered until you try to restore IT](https://www.theregister.com/security/2026/08/27/sponsored-schroedingers-backup-not-actually-recovered-until-you-try-to-restore-it/5286772) — *2026-08-27*
+  > SPONSORED FEATURE: Verify and survive: your backup isn't real 'til you test it
+- **NEW**  [[The Register] Nitter might be no more, but Twitter is back (sort of)](https://www.theregister.com/personal-tech/2026/08/27/nitter-might-be-no-more-but-twitter-is-back-sort-of/5292949) — *2026-08-27*
+  > Twitter.now aims to fill the bird-shaped hole left by X. For a fee
+- **NEW**  [[The Register] Salesforce boasts: 50% of bookings were from 'customers refilling the tank... they consume Flex Credits, they want more'](https://www.theregister.com/software/2026/08/27/salesforce-boasts-50-of-bookings-were-from-customers-refilling-the-tank-they-consume-flex-credits-they-want-more/5292927) — *2026-08-27*
+  > As SaaS giant gets a boost from Claudeforce, users might want to know how their AI use will be monetized
+- **NEW**  [[The Register] Cybercrooks jet off with Manchester Airports Group customer data](https://www.theregister.com/security/2026/08/27/cybercrooks-jet-off-with-manchester-airports-group-customer-data/5292943) — *2026-08-27*
+  > UK’s largest airport operator believes 8.7 million customers affected
+- **NEW**  [[Ars Technica] Why did 1,000 Swiss citizens bury their underpants?](https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/) — *2026-08-27*
+  > Study: Land use is the biggest factor in determining decomposition rates of organic cotton underpants.
+
+_(31 additional items in raw.jsonl)_

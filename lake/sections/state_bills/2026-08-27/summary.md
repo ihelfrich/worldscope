@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-27
-record_count: 229
-new_today: 197
+record_count: 269
+new_today: 236
 state: fresh
 ---
 
 ## State Legislative Action
 
-197 new of 229 total items today.
+236 new of 269 total items today.
 
 - **NEW**  [[Alaska HB 271] An Act relating to the royalty rate for the Kitchen Lights Unit; and providing for an effective date.]() — *2026-08-27*
   > An Act relating to the royalty rate for the Kitchen Lights Unit; and providing for an effective date.
@@ -37,31 +37,29 @@ state: fresh
   > An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.
 - [[Alaska HB 283] An Act making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.]() — *2026-08-25*
   > An Act making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.
-- **NEW**  [[California SB 661] Airports: financial assistance.]() — *2026-08-26*
-  > The State Aeronautics Act establishes the Aeronautics Account in the State Transportation Fund, and continuously appropriates the moneys in the account for expenditure for airport purposes by the Division of Aeronautics within the Department of Transportation and the California T
-- [[California AB 2244] Non-Ultraprocessed Certified food standard.]() — *2026-08-26*
-  > Existing law defines, for certain school-related purposes, "ultraprocessed food" as any food or beverage that contains a specified substance and either high amounts of saturated fat, sodium, or added sugar or a nonnutritive sweetener or other substance, as specified. Existing law
-- **NEW**  [[California SB 991] Residential care facilities for the elderly: categorization of citations.]() — *2026-08-26*
-  > Existing law, the California Residential Care Facilities for the Elderly Act (act) , requires the State Department of Social Services to license, inspect, and regulate residential care facilities for the elderly, as defined, and imposes criminal penalties on a person who violates
-- **NEW**  [[California AB 2051] Public resources: coastal resources: Coastal Resilience Permitting Working Group.]() — *2026-08-26*
-  > (1) The California Coastal Act of 1976 requires any person wishing to perform or undertake any development in the coastal zone, as defined, in addition to obtaining any other permit required by law from any local government or from any state, regional, or local agency, to obtain 
-- **NEW**  [[California SB 958] California Environmental Quality Act: environmental impacts: building height.]() — *2026-08-26*
-  > The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to prepare, or cause to be prepared, and certify the completion of an environmental impact report on a project that it proposes to carry out or approve that may have a significant effect on the en
-- **NEW**  [[California AB 1599] Public transit: California Transit Stop Registry: transit datasets.]() — *2026-08-26*
-  > Existing law establishes the Department of Transportation and vests it with various powers and duties.
-
-This bill would require the department to create, on or before June 1, 2027, and with input from transit operators, the California Transit Stop Registry as a centralized, state
-- **NEW**  [[California AB 2490] Teacher credentialing: emergency career substitute teaching permit: alternative qualifications.]() — *2026-08-26*
+- **NEW**  [[California SB 802] Housing finance and development: Sacramento Regional Housing and Homelessness Joint Powers Authority Act.]() — *2026-08-27*
+  > (1) Existing law, the Joint Exercise of Powers Act, authorizes 2 or more public agencies, by agreement, to form a joint powers authority to exercise any power common to the contracting parties, as specified. Existing law authorizes the agreement to set forth the manner by which t
+- **NEW**  [[California SB 1004] Law enforcement: masks.]() — *2026-08-27*
+  > Existing law makes it a crime for a law enforcement officer to wear a facial covering in the performance of their duties, except as specified. Existing law defines law enforcement officer for these purposes as anyone designated by California law as a peace officer who is employed
+- **NEW**  [[California SCR 197] Relative to California Youth Homelessness Outreach, Prevention, and Education (HOPE) Month.]() — *2026-08-27*
+  > This measure would proclaim the month of November 2026 as California Youth Homelessness Outreach, Prevention, and Education (HOPE) Month to recognize the need for individuals, schools, communities, businesses, local governments, and the state to take action on behalf of runaway a
+- [[California AB 2166] Multifamily housing development: offsite housing factories: backstop financing.]() — *2026-08-27*
+  > The Bergeson-Peace Infrastructure and Economic Development Bank Act creates within the Governor's Office of Business and Economic Development the California Infrastructure and Economic Development Bank (bank) and requires it to administer the act, which, among other things, provi
+- **NEW**  [[California AB 1969] California Community Schools Partnership Program: Promise Neighborhoods.]() — *2026-08-27*
+  > The Budget Act of 2026 appropriates, for the 2026–27 fiscal year, $1,000,000,000 from the General Fund to the State Department of Education to administer the California Community Schools Partnership Program to distribute funding to local educational agencies, as defined, in accor
+- **NEW**  [[California SB 331] Health care coverage: hearing aids.]() — *2026-08-27*
+  > Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care and makes a willful violation of the act a crime. Existing law also provides for the regulation of he
+- **NEW**  [[California AB 2490] Teacher credentialing: emergency career substitute teaching permit: alternative qualifications.]() — *2026-08-27*
   > Existing law requires the Commission on Teacher Credentialing to establish standards and procedures for the issuance and renewal of credentials, certificates, and permits. Under existing regulations, the requirements for the initial issuance of an emergency career substitute teac
-- **NEW**  [[California SB 849] Physicians and surgeons: sexual misconduct and offenses: reinstatement of surrendered certificate.]() — *2026-08-26*
-  > Existing law, the Medical Practice Act, provides for the licensure and regulation of the practice of medicine by the Medical Board of California. The act requires the board to automatically revoke a license under certain circumstances and authorizes the person to petition the boa
-- **NEW**  [[California AB 1696] Emergency services and care: nurse-midwives.]() — *2026-08-26*
-  > Existing law provides for the licensing and regulation of health facilities by the State Department of Public Health and generally makes a violation of those provisions a crime. Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regu
-- **NEW**  [[California AB 2640] Commission on State Mandates: state mandates.]() — *2026-08-26*
-  > Existing law creates the Commission on State Mandates and establishes procedures for implementing the requirement in the California Constitution that the state reimburse local agencies and school districts for certain costs mandated by the state. Existing law makes a reimbursemen
-- **NEW**  [[California AB 1555] Community colleges: exemption from nonresident tuition fee: College of the Siskiyous.]() — *2026-08-26*
-  > (1) Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, as one of the segments of public postsecondary education in this state. Existing law establishes community college districts th
-- **NEW**  [[California SB 964] Prescription drug coverage: dose adjustments.]() — *2026-08-26*
-  > Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care, and makes a willful violation of the act a crime. Existing law provides for the regulation of health
+- **NEW**  [[California SB 909] Public works.]() — *2026-08-27*
+  > Existing law requires that, except as specified, not less than the general prevailing rate of per diem wages be paid to workers employed on public works and imposes misdemeanor penalties for a willful violation of this requirement. Existing law defines "public works" for the purp
+- **NEW**  [[California SB 993] Board of Behavioral Sciences: licensees: notices.]() — *2026-08-27*
+  > Existing law establishes the Board of Behavioral Sciences and sets forth its powers and duties, including, but not limited to, the licensing, registration, and regulation of marriage and family therapists, educational psychologists, clinical social workers, and professional clini
+- **NEW**  [[California AB 1328] Medi-Cal reimbursements: nonemergency ambulance and other transportation.]() — *2026-08-27*
+  > Existing law establishes the Medi-Cal program, which is administered by the State Department of Health Care Services and under which qualified low-income individuals receive health care services, including emergency or nonemergency medical or nonmedical transportation services. T
+- **NEW**  [[California AB 883] Data brokers: accessible deletion mechanism: deletion of personal information of elected officials and judges.]() — *2026-08-27*
+  > Existing law establishes the California Privacy Protection Agency (CPPA) to enforce various laws protecting the privacy of individuals. If a business knowingly collects and sells to third parties the personal information of a consumer with whom the business does not have a direct
+- **NEW**  [[California AB 2337] Peace officers: theft.]() — *2026-08-27*
+  > Existing law establishes the Commission on Peace Officer Standards and Training (POST) to set minimum standards for the recruitment and training of peace officers and to develop training courses and curriculum. Existing law authorizes POST to suspend or revoke the certification o
 
-_(204 additional items in raw.jsonl)_
+_(244 additional items in raw.jsonl)_

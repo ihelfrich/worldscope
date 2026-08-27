@@ -2,15 +2,21 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-08-27
-record_count: 17
-new_today: 6
+record_count: 20
+new_today: 9
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-6 new of 17 total items today.
+9 new of 20 total items today.
 
+- **NEW**  [CVE-2023-49105 · ownCloud ownCloud: ownCloud Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2023-49105) — *2026-08-27*
+  > vendor: ownCloud · product: ownCloud · CISA remediation by 2026-08-30
+- **NEW**  [CVE-2026-53362 · Linux Kernel: Linux Kernel Unspecified Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-53362) — *2026-08-27*
+  > vendor: Linux · product: Kernel · CISA remediation by 2026-08-30
+- **NEW**  [CVE-2026-66384 · JFrog Artifactory: JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-66384) — *2026-08-27*
+  > vendor: JFrog · product: Artifactory · CISA remediation by 2026-09-10
 - **NEW**  [CVE-2021-23758 · Ajax.NET Professional Ajax.NET Professional: Ajax.NET Professional Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2021-23758) — *2026-08-26*
   > vendor: Ajax.NET Professional · product: Ajax.NET Professional · CISA remediation by 2026-09-09
 - **NEW**  [CVE-2015-3246 · Red Hat Libuser: Red Hat Libuser Race Condition Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2015-3246) — *2026-08-26*
