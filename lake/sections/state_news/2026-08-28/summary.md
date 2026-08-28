@@ -2,21 +2,17 @@
 section: state_news
 title: State-Level News
 date: 2026-08-28
-record_count: 795
-new_today: 385
+record_count: 804
+new_today: 399
 state: fresh
 ---
 
 ## State-Level News
 
-385 new of 795 total items today.
+399 new of 804 total items today.
 
-- **NEW**  [[Alabama] Flags Lowered Honoring American Patriot Roy Henry Drinkard](https://governor.alabama.gov/newsroom/2026/08/flags-lowered-honoring-american-patriot-roy-henry-drinkard/) — *2026-08-27*
-  > Download
-- [[Alabama] College Colors Day](https://governor.alabama.gov/newsroom/2026/08/college-colors-day-7/) — *2026-08-27*
-  > Download
-- [[Alabama] We Card Awareness Month](https://governor.alabama.gov/newsroom/2026/08/we-card-awareness-month-5/) — *2026-08-27*
-  > Download
+- **NEW**  [[feed error] CalMatters (California): HTTPError](https://calmatters.org/feed/) — *2026-08-28*
+  > 429 Client Error: Too Many Requests for url: https://calmatters.org/feed/
 - **NEW**  [[California] Governor Newsom announces $44 million for tribal stewardship, salmon recovery and desert protection projects](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects/) — *2026-08-28*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" de
 - **NEW**  [[California] Governor Newsom signs bipartisan measure to strengthen suicide prevention efforts for boys, young men](https://www.gov.ca.gov/2026/08/28/governor-newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men/) — *2026-08-28*
@@ -38,29 +34,32 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/California-answers-the-call-The-state-has-deployed-3372-personnel-since-June-to-support-disaster-response-across-the-country-and-abroad-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumb
 - [[California] Governor Newsom proclaims Farmworker Day](https://www.gov.ca.gov/2026/08/26/governor-newsom-proclaims-farmworker-day/) — *2026-08-26*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Blue graphic featuring the official Seal of the Governor of the State of California in white a
-- **NEW**  [[Arizona] With costs high and Trump unpopular, Democrats favored to retake the House](https://azmirror.com/2026/08/28/repub/with-costs-high-and-trump-unpopular-democrats-favored-to-retake-the-house/) — *2026-08-28*
-  > WASHINGTON — With less than 70 days until midterm elections, Democrats remain favored to regain the majority in the U.S. House.&#160;&#160; President Donald Trump’s anemic approval ratings amid the war in Iran, concerns over the economy and a coalitional shift within the party&#1
-- **NEW**  [[Arizona] Judge again freezes Trump mail-voting rule, citing states’ constitutional election power](https://azmirror.com/2026/08/28/repub/judge-again-freezes-trump-mail-voting-rule-citing-states-constitutional-election-power/) — *2026-08-28*
-  > A federal judge froze for two weeks a Trump administration regulation to restrict mail voting late Thursday, calling the U.S. Postal Service rule a violation of states’ power to administer elections. U.S. District Judge Indira Talwani’s&#160;temporary restraining order reinstated
-- **NEW**  [[Arizona] Fringe candidates’ lawyer cries ‘conspiracy’ as Clean Elections fraud probe barrels ahead](https://azmirror.com/2026/08/27/fringe-candidates-lawyer-cries-conspiracy-as-clean-elections-fraud-probe-barrels-ahead/) — *2026-08-27*
-  > The Clean Elections Commission on Thursday ordered its executive director to continue to investigate three fringe statewide candidates suspected of falsely obtaining millions in public funds for their campaigns. When that investigation is completed, they want him to make a recomm
-- **NEW**  [[Arizona] AG Mayes to examine Flock surveillance cameras and Arizonans’ privacy rights](https://azmirror.com/2026/08/27/ag-mayes-to-examine-flock-surveillance-cameras-and-arizonans-privacy-rights/) — *2026-08-27*
-  > As multiple Arizona cities and towns cancel their contracts with the AI-powered license plate reader company Flock amid reports of police misuse and public outrage at the expanding surveillance state, Attorney General Kris Mayes announced her agency will be reviewing the technolo
-- **NEW**  [[Arizona] Postal Service presses ahead on Trump mail-voting rule despite lawsuits](https://azmirror.com/2026/08/27/repub/postal-service-presses-ahead-on-trump-mail-voting-rule-despite-lawsuits/) — *2026-08-27*
-  > WASHINGTON — The U.S. Postal Service took another step Thursday in implementing a Trump administration policy to restrict mail-in voting, even as a high-stakes legal battle plays out and midterm elections approach. The agency published an&#160;FAQ about its new rule that compels 
-- **NEW**  [[Arizona] Mayes calls Trump lawsuit against in-state tuition for immigrant students ‘baseless’](https://azmirror.com/2026/08/27/mayes-calls-trump-lawsuit-against-in-state-tuition-for-immigrant-students-baseless/) — *2026-08-27*
-  > Arizona voters in 2022 approved Proposition 308, which reversed a law voters had enshrined 16 years earlier that explicitly forbade non-citizens from receiving state subsidized help, including financial aid or in-state tuition rates.  The new law allows any student, regardless of
-- **NEW**  [[Arizona] Trump administration sues Arizona over in-state tuition for undocumented immigrants](https://azmirror.com/2026/08/27/repub/trump-administration-sues-arizona-over-in-state-tuition-for-undocumented-immigrants/) — *2026-08-27*
-  > WASHINGTON — The U.S. Department of Justice on Thursday sued&#160;Arizona,&#160;New Mexico,&#160;Oregon and&#160;Washington over laws that allow immigrants in the country without legal status to pay in-state college tuition in the states where they live. President Donald Trump’s 
-- **NEW**  [[Arizona] Housing, trucking, tax credits: Trump’s anti-immigrant agenda has a wide reach](https://azmirror.com/2026/08/27/repub/housing-trucking-tax-credits-trumps-anti-immigrant-agenda-has-a-wide-reach/) — *2026-08-27*
-  > WASHINGTON — The U.S. Department of Treasury’s recent proposed regulation to limit refunds for certain tax credits based on immigration status is the latest move by the Trump administration to restrict noncitizens’ access to federal benefits. In President Donald Trump’s return to
-- [[Arizona] Hundreds of thousands of Arizonans could be removed from the mail voting list in 2027](https://azmirror.com/2026/08/27/hundreds-of-thousands-of-arizonans-could-be-removed-from-the-mail-voting-list-in-2027/) — *2026-08-27*
-  > Arizona could remove hundreds of thousands of voters from its automatic mail ballot list under the provisions of a state law coming to bear next year. The 2027 removals will be the first under the law, signed in 2021 by former Gov. Doug Ducey, a Republican. The statute requires c
-- [[Arizona] Childcare crisis leaves Arizona families ‘just subsisting,’ parents say](https://azmirror.com/2026/08/26/childcare-crisis-leaves-arizona-families-just-subsisting-parents-say/) — *2026-08-27*
-  > Affordability is top of mind for voters going into the November election, and early childhood advocates hope that will be enough to fuel support for investments in Arizona’s backlogged childcare assistance program.  “Everybody is talking about affordability, and childcare should 
-- [[Arizona] Arizona, other Dem-led states sue again over mail-voting rule after Supreme Court win for Trump](https://azmirror.com/2026/08/26/repub/arizona-other-dem-led-states-sue-again-over-mail-voting-rule-after-supreme-court-win-for-trump/) — *2026-08-26*
-  > Democrat-led states and voting rights groups re-filed lawsuits Wednesday to block the Trump administration from executing a new regulation to restrict mail-in voting, while a federal judge lifted a nationwide pause on the policy in line with this week’s U.S. Supreme Court decisio
-- [[Arizona] Border Patrol SWAT team blocks Arizona tribal police from trespassing border wall contractors](https://azmirror.com/2026/08/26/border-patrol-swat-team-blocks-arizona-tribal-police-from-trespassing-border-wall-contractors/) — *2026-08-26*
-  > Around 20 &#8220;masked, armed&#8221; Border Patrol agents, including the agency SWAT team, blockaded Tohono O&#8217;odham police from issuing trespassing citations and removing border-wall construction workers from the Southern Arizona reservation on Tuesday. The private contrac
+- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-28*
+  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
+- **NEW**  [[Alabama] Flags Lowered Honoring American Patriot Roy Henry Drinkard](https://governor.alabama.gov/newsroom/2026/08/flags-lowered-honoring-american-patriot-roy-henry-drinkard/) — *2026-08-27*
+  > Download
+- [[Alabama] College Colors Day](https://governor.alabama.gov/newsroom/2026/08/college-colors-day-7/) — *2026-08-27*
+  > Download
+- [[Alabama] We Card Awareness Month](https://governor.alabama.gov/newsroom/2026/08/we-card-awareness-month-5/) — *2026-08-27*
+  > Download
+- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-28*
+  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
+- **NEW**  [[Delaware] Sussex County hires consultant to study library funding; library leaders skeptical](https://spotlightdelaware.org/2026/08/28/sussex-county-hires-consultant-to-study-library-funding-library-leaders-skeptical/) — *2026-08-28*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Georgetown-Library-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" src
+- **NEW**  [[Delaware] Christina to replace police officers with constables in middle schools](https://spotlightdelaware.org/2026/08/28/christina-to-replace-police-officers-with-constables-in-middle-schools/) — *2026-08-28*
+  > <figure><img width="768" height="618" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/School-resource-officer.jpg?fit=768%2C618&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com
+- **NEW**  [[Delaware] Project Washington pulls appeal, data center won’t proceed under current plan](https://spotlightdelaware.org/2026/08/28/delaware-city-data-center-will-not-move-forward-under-current-plans/) — *2026-08-28*
+  > <figure><img width="1024" height="576" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Project-Washington-rendering-web.jpg?fit=1024%2C576&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy"
+- [[Delaware] Democratic treasurer race tops $1M in funding as outside groups join](https://spotlightdelaware.org/2026/08/27/democratic-treasurer-race-tops-1m-in-funding-as-outside-groups-join/) — *2026-08-27*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Smith-Lauzen.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0.
+- [[Delaware] Months later, investigators still don’t know cause of fire at historic Black church](https://spotlightdelaware.org/2026/08/27/months-later-investigators-still-dont-know-cause-of-fire-at-historic-black-church/) — *2026-08-27*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/IMG_2373-scaled.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://
+- [[Delaware] Developers big and small to compete for Wilmington’s $8.4M housing subsidy](https://spotlightdelaware.org/2026/08/26/developers-big-and-small-to-compete-for-wilmingtons-8-4m-housing-subsidy/) — *2026-08-26*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2024/09/Imani-Village.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="New housing units are seen in Imani Village in Wilmi
+- [[Delaware] State fails to quash Sussex resident’s appeal of offshore wind approval](https://spotlightdelaware.org/2026/08/26/state-fails-to-quash-sussex-residents-appeal-of-offshore-wind-approval/) — *2026-08-26*
+  > <figure><img width="1024" height="684" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2025/08/Wind-farm-sunset-UNSPLASH-full.jpg?fit=1024%2C684&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" s
+- [[Delaware] Leadership Delaware seeks applicants for Class of 2027](https://spotlightdelaware.org/2026/08/25/sponsored-ldi-class-of-2027/) — *2026-08-26*
+  > <figure><img width="1024" height="577" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/ldi4.png?fit=1024%2C577&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0.wp.com/s
+- **NEW**  [[Alabama] Judge temporarily halts “secret” plan to build Elmore County replacement hospital](https://www.alreporter.com/2026/08/28/judge-temporarily-halts-secret-plan-to-build-elmore-county-replacement-hospital/) — *2026-08-28*
 
-_(770 additional items in raw.jsonl)_
+_(779 additional items in raw.jsonl)_

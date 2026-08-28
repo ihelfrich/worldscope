@@ -11,14 +11,14 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-26*
-  > latest: 3.63 as of 2026-08-26
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-26*
-  > latest: 4.19 as of 2026-08-26
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-26*
-  > latest: 4.66 as of 2026-08-26
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-26*
-  > latest: 5.18 as of 2026-08-26
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-08-27*
+  > latest: 3.63 as of 2026-08-27
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-08-27*
+  > latest: 4.2 as of 2026-08-27
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-08-27*
+  > latest: 4.67 as of 2026-08-27
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-08-27*
+  > latest: 5.19 as of 2026-08-27
 - [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-08-27*
   > latest: 3.64 as of 2026-08-27
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-08-27*

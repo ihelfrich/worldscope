@@ -23,10 +23,10 @@ state: fresh
   > M5.0 · 19 km NW of Fuji, China · depth 10 km
 - **NEW**  [M 5.0 - northern East Pacific Rise](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tch3) — *2026-08-28*
   > M5.0 · northern East Pacific Rise · depth 10 km
+- **NEW**  [M 4.9 - Southwest Indian Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcnj) — *2026-08-28*
+  > M4.9 · Southwest Indian Ridge · depth 10 km
 - **NEW**  [M 4.9 - 264 km WNW of Houma, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgb) — *2026-08-27*
   > M4.9 · 264 km WNW of Houma, Tonga · depth 520.313 km
-- **NEW**  [M 4.8 - 63 km NE of Kuji, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcef) — *2026-08-27*
-  > M4.8 · 63 km NE of Kuji, Japan · depth 63.827 km
 - **NEW**  [M 4.6 - 26 km W of Ollagüe, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjv) — *2026-08-28*
   > M4.6 · 26 km W of Ollagüe, Chile · depth 131.354 km
 - **NEW**  [M 4.6 - 176 km NNE of Lospalos, Timor Leste](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcj1) — *2026-08-28*

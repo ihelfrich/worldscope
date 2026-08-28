@@ -3,13 +3,13 @@ section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-08-28
 record_count: 113
-new_today: 25
+new_today: 27
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-25 new of 113 total items today.
+27 new of 113 total items today.
 
 - **NEW**  [[OFAC] Iran-related and Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-28*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3Q0t6Q285dnZ1TXpIWUpnQjVhUU5jTzNWbGg1c2lVU3JOa2hRNEZNV0hhM0ZaazB3dVQzYkxiMlgzdEVGTTd4WmpSMi1FY3RCY2xnYzgtREJ6S0RRVGc?oc=5" target="_blank">Iran-related and Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6
@@ -43,6 +43,8 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4cnZ2bnBaOGY4Q1VtQTZydmhic3NvbVFwY1hvWGphdXFuRGVlaUhfRV9Xam9vTlFBbk9pUmlCMk15SU9uV3VXWGFJVTZadmRTNTl3cHlRSU9lS29vQ2lFelhqLUY?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - [[OFAC] Issuance of Venezuela-related General Licenses and Associated Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-21*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaN0VpbDk2cFIzWVZYczVzXzB5WGhBX3VIYXViMWJqN0stZ1V5aHoxaVkxWGxkWlljaGs5N1ZQSHotT3J1NE9lbUtDZFpuX3pXUk1sTzBzLUd2VlFrdXc?oc=5" target="_blank">Issuance of Venezuela-related General Licenses and Associated Frequently Asked Q
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 61A Authorizing the Supply - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-27*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xSXdYWVdCcWhSS2llV215bXZqd2tIVFphWTNZM3hGYV9mcDkxNkloTnA4cTRrWWkxbnlCTFlTd08xVVc1cUJTOE9WTWJWdkNSWC15Ymg0eENGOUJNVVhlRzJreDE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 47B Authorizing the Sale o - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-27*
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQUTlreWFhMnV6d01LdzhTRHBsdUxWeFl3V0kzN0Q5UVJFT3pLQ1lranBSM25ZV2xldGVoa0UxR1k0cmx3aWRWdmM5a1R2YTBuRXhBcG5mUDZiWkJNN2xDcjVSbl8?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Iranian Transactions and Sanctions Regulations 31 CFR part 560 GENERAL LICENSE BB Authorizing - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-24*
@@ -51,8 +53,6 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE13aVJNMFVRaVl6LVUyVlJ1bngtNEhOd1UzRVdoSU8tbEY2Qmt6a3oxWnJDUDNLWTlSRF9PSVV6bXpfYXVyZ2poVFRhaW0zMzdsN2MwYlRBRHRrWnBwU3pQS2kxWEQ?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - [[OFAC] 1266 - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-21*
   > <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ia0NMVmFsajZFNWlFZFV0NTMtbjZSc014bGI1a3lwZHh3a3k3c1owVmMydnVXMG9RSXhibVM4TFVKa0NTdTR1NVZHWQ?oc=5" target="_blank">1266</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign Assets Control (.gov)</font>
-- [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 61 Authorizing the Supply - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-21*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zVmJIai15RDZMcVROY1UzX3o1ejZ0bjZOMS1sYTZaN2NpendYQkE1eE9NTGhkRW9QMzhjVzZhQTdjR2Z0Q1JoM2o1NloxRGluLV9zQ2F0dVIxTV9zV2xmWUViZGU?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
 - **NEW**  [[OFAC] Frequently Asked Questions - Recently Updated - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-27*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YbXROR05VV1VPRk01TDZ1OC1FczRsRWxEaDJEWGxMajVXSmc2Mkd5b1hvNjhrTFg2cW0zSEV6b3R1aHBzTGhFMUNOMEd1YlJqSDJDaG50V0J0dHNNcXc?oc=5" target="_blank">Frequently Asked Questions - Recently Updated</a>&nbsp;&nbsp;<font color="#6f6f6
 - [[OFAC] DETERMINATION PURSUANT TO SECTION 1(a)(i) OF EXECUTIVE ORDER 13902 Aviation, Digital Asset, Gold, Shipping, and Technology Sect - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-24*

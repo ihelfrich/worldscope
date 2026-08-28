@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-28
-record_count: 107
-new_today: 61
+record_count: 174
+new_today: 128
 state: fresh
 ---
 
 ## State Legislative Action
 
-61 new of 107 total items today.
+128 new of 174 total items today.
 
 - **NEW**  [[Alaska HB 10] An Act relating to the Board of Regents of the University of Alaska; and providing for an effective date.]() — *2026-08-27*
   > An Act relating to the Board of Regents of the University of Alaska; and providing for an effective date.
@@ -66,4 +66,4 @@ Thi
 - **NEW**  [[California AB 1640] California Restaurant Reservation AntiPiracy Act.]() — *2026-08-28*
   > Existing law regulates various businesses to preserve and regulate competition and prohibit unfair practices, among other purposes. Existing law imposes various business practice restrictions on a food delivery platform, defined as an online business that acts as an intermediary 
 
-_(82 additional items in raw.jsonl)_
+_(149 additional items in raw.jsonl)_
