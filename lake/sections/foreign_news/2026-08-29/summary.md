@@ -2,40 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-08-29
-record_count: 1030
-new_today: 486
+record_count: 1027
+new_today: 561
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-486 new of 1030 total items today.
+561 new of 1027 total items today.
 
-- [[feed error] AP Top News (RSSHub): HTTPError](https://rsshub.app/ap/topics/apf-topnews) — *2026-08-29*
-  > 403 Client Error: Forbidden for url: https://rsshub.app/ap/topics/apf-topnews
-- [[Global] Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid](https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid) — *2026-08-28*
-- [[Global] What could Meta’s US settlement mean around the world – and what now for other claims against firm?](https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact) — *2026-08-28*
-- [[Global] UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’](https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism) — *2026-08-27*
-- **NEW**  [[Global] Trump announces new US oil agreement with Venezuela](https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement) — *2026-08-28*
-- [[Global] Venezuelan opposition up in arms over reports US wants big stake in oil and gas](https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake) — *2026-08-28*
-- [[Global] Tropical Storm Dolly downgraded to ‘open tropical wave’ as it heads to Caribbean](https://www.theguardian.com/weather/2026/aug/28/tropical-storm-dolly-caribbean) — *2026-08-28*
-- [[Global] Detroit despairs as ‘insanity’ of Trump’s Canada trade war punishes city](https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan) — *2026-08-28*
-- [[Global] Trump signs executive order to rename Lake Ontario as Lake America](https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america) — *2026-08-27*
-- **NEW**  [[Global] Search continues as number missing in Nepal-Tibet floods rises to 2,478 – as it happened](https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates) — *2026-08-29*
-- [[Global] At least 93,000 ‘in great need’ after Nepal-Tibet flash floods, says Red Cross](https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll) — *2026-08-28*
-- [[Global] Families of 33 missing Britons rush to Nepal as fears grow of more floods](https://www.theguardian.com/world/2026/aug/28/families-missing-britons-nepal-flash-floods) — *2026-08-28*
-- [[Global] USS Abraham Lincoln to visit port in Thailand after more than 250 days at sea](https://www.theguardian.com/us-news/2026/aug/27/uss-abraham-lincoln-thailand-visit) — *2026-08-28*
-- [[Global] Nepal-Tibet flood rescue efforts resume after being halted by overflowing lake](https://www.theguardian.com/world/2026/aug/28/flash-flood-risk-halt-rescue-tibet-nepal-death-toll-china-lake-burst) — *2026-08-28*
-- **NEW**  [[Global] Statins can safely cut risk of heart attacks or strokes in healthy people aged over 70, world-first clinical trial shows](https://www.theguardian.com/australia-news/2026/aug/29/statins-reduce-risk-heart-attack-stroke-over-70s-clinical-trial) — *2026-08-29*
-- **NEW**  [[Global] Plug-in solar panels could save households up to $370 a year – if Australia made them legal as in the UK](https://www.theguardian.com/environment/2026/aug/29/plug-in-solar-panels-could-save-households-370-a-year-and-experts-say-australia-should-copy-the-uk-in-legalising-them) — *2026-08-29*
-- **NEW**  [[Global] What we know about the Australians missing in the Nepal floods](https://www.theguardian.com/australia-news/2026/aug/29/what-we-know-about-the-australians-missing-in-the-nepal-floods) — *2026-08-29*
-- **NEW**  [[Global] Controversial plans for a Daniel Andrews sculpture officially scrapped by Victorian government](https://www.theguardian.com/australia-news/2026/aug/29/controversial-plans-for-a-daniel-andrews-sculpture-officially-scrapped-by-victorian-government) — *2026-08-28*
-- **NEW**  [[Global] Number of Australians missing in Nepal’s deadly floods rises again, as Albanese deploys more personnel](https://www.theguardian.com/world/2026/aug/29/australians-missing-nepal-floods-total-rises-albanese-dfat-personnel-arriving) — *2026-08-28*
-- **NEW**  [[Global] ‘Winter panic’: EU gas stores at their lowest level in 13 years](https://www.theguardian.com/business/2026/aug/29/european-gas-stores-lowest-13-years-eu-price) — *2026-08-29*
-- **NEW**  [[Global] Ireland will be united, says Gordon Brown](https://www.theguardian.com/uk-news/2026/aug/29/ireland-will-be-united-says-gordon-brown) — *2026-08-29*
-- **NEW**  [[Global] ‘The butcher may be gone, but to many he is a hero’: victims condemn glorification of Mladić](https://www.theguardian.com/world/2026/aug/29/bosnia-reaction-death-ratko-mladic) — *2026-08-29*
-- [[Global] Russia ‘losing 6,000 more troops in Ukraine each month than it can recruit’](https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west) — *2026-08-28*
-- [[Global] Norway’s King Harald dies aged 89](https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links) — *2026-08-28*
-- **NEW**  [[Global] Bondi library returns book How to Sell a Genocide to shelves after State Library ‘outlines the law’](https://www.theguardian.com/australia-news/2026/aug/28/sydney-library-returns-book-how-to-sell-a-genocide-to-shelves-after-state-library-intervenes-ntwnfb) — *2026-08-28*
+- **NEW**  [[Global] Footage of Tibet floods isn't being shown in China - and we know little about victims there](https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.
+- **NEW**  [[Global] At least 37 dead and hundreds evacuated after strike on Kyiv warehouse](https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > An investigation has been launched into the storage of weapons in the deopt near a residential area.
+- **NEW**  [[Global] Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil](https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Venezuelan interim president says the unusual agreement will help revive her country's economy.
+- **NEW**  [[Global] Landlady to 9/11 hijackers reveals their links to alleged Saudi spy](https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > A woman who rented out homes to two al-Qaeda members speaks publicly for the first time - to the BBC.
+- [[Global] Norway mourns King Harald as Haakon VIII ascends throne](https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto "all for norway".
+- [[Global] Right-wing commentator Milo Yiannopoulos detained by ICE](https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > The British citizen, who lives and works in the US, has supported Trump and ICE agents in the past.
+- **NEW**  [[Global] Close race as Iceland votes on whether to restart talks on joining EU](https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Turbulent international affairs have brought the vote forward, but the campaign has focused more on Iceland's vital fishing industry.
+- **NEW**  [[Global] Ex-White House teleprompter operator ordered to pay $172,000 for Trump speech bets](https://www.bbc.co.uk/news/articles/c4gj2dl4x52o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > The staffer was found to have used his prior knowledge of the president's speeches to place lucrative bets.
+- **NEW**  [[Global] Dutch health institute issues 'red alert' over Trump-shaped ecstasy pills](https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > The drugs have a delayed effect which "increases the risk of overdose", the health institute says.
+- [[Global] Oslo mayor calls off wedding ceremony after death of Norway's king](https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Anne Lindboe, the mayor of Norway's capital, had planned to marry her fiance on Friday.
+- [[Global] Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say](https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > But they say Moscow will likely continue its "hybrid activity" against Nato members, short of direct military action.
+- **NEW**  [[Global] Canada poaches dozens of top US researchers for its universities](https://www.bbc.co.uk/news/articles/c209gd5jnq1o?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Researchers in fields like climate and medicine are being lured north by new research funding.
+- **NEW**  [[Global] Berlin is being blackmailed by hackers, mayor says](https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.
+- [[Global] Thieves steal 600-diamond necklace from Vienna museum in broad daylight](https://www.bbc.co.uk/news/articles/cqxvwpe0plro?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Police are hunting two suspects they believe bought a ticket for the exhibition to get at the jewellery.
+- [[Global] Greenland says findings on genocide allegation not final](https://www.bbc.co.uk/news/articles/czxzv29p12lo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Experts examined the use of forced contraception on the Inuit community during the 1960s and 70s.
+- [[Global] Violence breaks out in Ceuta as migrant crisis continues](https://www.bbc.co.uk/news/articles/cy9zj11gwzxo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > A group of migrants is accused of throwing stones at a military vehicle, while some locals set fire to their camps on the beach.
+- [[Global] World's youngest reigning traditional monarch dies aged 34](https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > King Oyo ascended to the throne of Uganda's Tooro kingdom when he was just three years old.
+- **NEW**  [[Global] US plans to cut off military aid to key Middle East ally, BBC told](https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Iraqi Kurdistan fears the Trump administration's plan will make the region more vulnerable to further attacks from Iran.
+- [[Global] Two-year curfew lifted in Sudan's capital](https://www.bbc.co.uk/news/articles/c2076gxr0llo?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > The military authorities retook control of the city 18 months ago, but the conflict continues elsewhere.
+- [[Global] Shootings surge as drug gangs torment Brussels](https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > This year alone there have been more than 65 shootings in the Belgian capital, as drug crime soars.
+- **NEW**  [[Global] Somali piracy surges as the impact of the US-Iran war ripples outwards](https://www.bbc.co.uk/news/articles/cr4vx4pneydo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Two ships were seized within four days last week raising to at least 13 the number attacked since January.
+- **NEW**  [[Global] How 'Book Queen' Dolly Parton inspired millions of children with gift of reading](https://www.bbc.co.uk/news/articles/cpwlrrzp8eeo?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Families across the globe share how free books from Parton's Imagination Library helped their children.
+- **NEW**  [[Global] Forget Starbucks coffee - Gen Z like their drinks ice cold](https://www.bbc.co.uk/news/articles/cm2r9n2mrp8o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Young consumers are choosing cold, customisable drinks and coffee chains are racing to catch up.
+- **NEW**  [[Global] What tariffs will really cost Canadians and Americans](https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_medium=RSS&at_campaign=rss) — *2026-08-29*
+  > Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now?
+- [[Global] Satellite images reveal scale of flood devastation in Nepal villages](https://www.bbc.co.uk/news/articles/cd68vpjv21do?at_medium=RSS&at_campaign=rss) — *2026-08-28*
+  > Before-and-after images show villages, bridges and a key Nepal-Tibet border crossing washed away by devastating floodwaters.
 
-_(1005 additional items in raw.jsonl)_
+_(1002 additional items in raw.jsonl)_

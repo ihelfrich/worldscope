@@ -3,16 +3,22 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-29
 record_count: 56
-new_today: 14
+new_today: 17
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-14 new of 56 total items today.
+17 new of 56 total items today.
 
+- **NEW**  [[The Register] Startup bags $7M to build drone-interceptor-in-a-backpack systems](https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176) — *2026-08-29*
+  > Spike drone defense system is designed to be carried in a rucksack or mounted on top of a vehicle
 - **NEW**  [[The Register] Xbox respawns IKEA furniture with gaming range](https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911) — *2026-08-29*
   > At last, somewhere comfy to sit while your PlayStation 5 game loads
+- **NEW**  [[Ars Technica] I asked 100 companies for my data. Some deleted it instead.](https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/) — *2026-08-29*
+  > Testing 100 companies found privacy requests often led to confusion and dead ends.
+- **NEW**  [[TechCrunch] Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/) — *2026-08-29*
+  > The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.
 - **NEW**  [[BleepingComputer] McKesson discloses breach after ShinyHunters claims patient data theft](https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/) — *2026-08-28*
   > Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]
 - [[BleepingComputer] PaperCut releases second emergency patch for exploited flaws](https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/) — *2026-08-28*
@@ -60,17 +66,11 @@ Earlier this month, about 40 top mathematicians gathered at OpenAI&#8217;s offic
   > How come that super-smart AI of yours didn't figure this out, frontier labs?
 - **NEW**  [[The Register] AWS Route 53 DNS service reimagined...as a file system?](https://www.theregister.com/offbeat/2026/08/28/aws-route-53-dns-service-reimaginedas-a-file-system/5293357) — *2026-08-28*
   > Cloud industry pros have a bit of fun at Amazon's expense
-- [[The Register] LibreOffice 26.8 is out – local first, and with no AI](https://www.theregister.com/applications/2026/08/28/libreoffice-268-is-out-local-first-and-with-no-ai/5293301) — *2026-08-28*
-  > It looks a bit clunky, but it does the job – and on your own computer
 - **NEW**  [[Ars Technica] Court rules Kalshi sports bets aren't "swaps," just gambling with a different name](https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/) — *2026-08-28*
   > Kalshi can't evade Nevada gambling laws by calling bets "swaps," judges rule.
 - **NEW**  [[Ars Technica] Cities terminate Flock contracts at record pace in August](https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/) — *2026-08-28*
   > Cancellations have accelerated.
 - **NEW**  [[Ars Technica] "RFK Jr. has lied to the Senate": Lawmakers call for criminal probe, ouster](https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/) — *2026-08-28*
   > RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.
-- [[Ars Technica] Trump blacklisting of "woke" Anthropic deemed illegal by federal judge](https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/) — *2026-08-28*
-  > Anthropic refused to support lethal autonomous warfare and mass surveillance.
-- [[Ars Technica] Here's what we know about the "space academy" Trump just announced](https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders/) — *2026-08-28*
-  > "It's called the US Space Academy. That's a big deal."
 
 _(31 additional items in raw.jsonl)_

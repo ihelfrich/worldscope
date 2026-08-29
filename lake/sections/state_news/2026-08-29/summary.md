@@ -2,17 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-08-29
-record_count: 632
-new_today: 116
+record_count: 648
+new_today: 134
 state: fresh
 ---
 
 ## State-Level News
 
-116 new of 632 total items today.
+134 new of 648 total items today.
 
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-29*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
 - [[California] Governor Newsom announces $44 million for tribal stewardship, salmon recovery and desert protection projects](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects/) — *2026-08-28*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" de
 - [[California] Governor Newsom signs bipartisan measure to strengthen suicide prevention efforts for boys, young men](https://www.gov.ca.gov/2026/08/28/governor-newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men/) — *2026-08-28*
@@ -39,27 +37,29 @@ state: fresh
   > Download
 - [[Alabama] We Card Awareness Month](https://governor.alabama.gov/newsroom/2026/08/we-card-awareness-month-5/) — *2026-08-27*
   > Download
-- **NEW**  [[California] What to know about the new California privacy law that became a flashpoint over free speech](https://calmatters.org/politics/2026/08/immigrant-services-privacy-nick-shirley/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/061625-Farm-Visit-Rural-Mobile-Health-LV-CM-30.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A medical professional wea
-- **NEW**  [[California] Will lawmakers water down data center rules?](https://calmatters.org/newsletter/data-center-lobbying/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/091225_End-Of-Session_FG_CM_35.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A crowd of people, dressed in suits and bu
-- **NEW**  [[California] California’s budget is so convoluted that even experts are perplexed at what it contains](https://calmatters.org/commentary/2026/08/california-budget-transparency/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/06/051426_May-Budget-Revise_MG_CM_17.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A suited public official speaks at a po
-- **NEW**  [[California] The data center backlash is here — and Big Tech is spending big to combat it](https://calmatters.org/economy/technology/2026/08/california-data-center-backlash-big-tech-lobbying/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/091225_End-Of-Session_FG_CM_26.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The silhouette of a person holding their p
-- **NEW**  [[California] California Democrats race to ban electric shock gloves before ICE buys them](https://calmatters.org/politics/2026/08/california-ice-electric-shock-gloves/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082726-Shock-Gloves-DL-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a jailer uniform holds up a b
-- **NEW**  [[California] California lawmakers reject caps on abuse payouts, but deal could still give schools relief](https://calmatters.org/politics/2026/08/california-schools-sex-assault-legislation-deal/) — *2026-08-27*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/042126_Math-Screener_AH_CM_07.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The back of an unidentifiable elementary sc
-- **NEW**  [[California] Tomó una decisión fatal a los 22 años. Ahora está en prisión, intentando encontrarse a sí misma cada día](https://calmatters.org/calmatters-en-espanol/2026/08/prision-california-rehabilitacion-dui/) — *2026-08-27*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/081326_Grace-Coleman_-BF_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with short brown hair and wearing
-- **NEW**  [[California] Reducing drug penalties likely increased homelessness in California, new report says](https://calmatters.org/housing/homelessness/2026/08/ppic-prop-47-study-drugs-homelessness/) — *2026-08-27*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/100824_Inside-Safe_CS_CM_20.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A tent with shopping carts and plastic tarps 
-- **NEW**  [[California] She caused a terrible crime. Now she’s trying to answer why](https://calmatters.org/newsletter/inside-california-prison-rehabilitation/) — *2026-08-27*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/081326_Grace-Coleman_-BF_CM_04.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person, standing inside a prison cell, l
-- **NEW**  [[California] She made a fatal choice at 22. Now she’s in prison, figuring herself out one day at a time](https://calmatters.org/justice/2026/08/california-prisons-rehabilitation-after-dui/) — *2026-08-27*
-  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/081326_Grace-Coleman_-BF_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person with short brown hair and wearing
-- [[Connecticut] CT to pay Miguel Cardona $250k to consult for commission he leads](https://ctmirror.org/2026/08/28/ct-to-pay-miguel-cardona-250k-to-consult-for-commission-he-leads/) — *2026-08-28*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2024/04/2024_0416_SR_FAFSA_058_1-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-cont
+- **NEW**  [[Arkansas] After firefighting deaths, advocates alarmed by ‘deepening wildfire crisis,’ agencies’ strategies](https://arkansasadvocate.com/2026/08/29/repub/after-firefighting-deaths-advocates-alarmed-by-deepening-wildfire-crisis-agencies-strategies/) — *2026-08-29*
+  > Help was on the way. Five firefighters were about to be flown to safety after a new wildfire broke out on rugged terrain at the Utah-Colorado border in June, whipped by furious, dry winds.  But it was too smoky for the helicopter to land, according to a preliminary federal report
+- **NEW**  [[Arkansas] This Washington town is burning. That’s the plan.](https://arkansasadvocate.com/2026/08/29/repub/this-washington-town-is-burning-thats-the-plan/) — *2026-08-29*
+  > ROSLYN, Wash. — Francisco Martinez hefts a canister filled with a mixture of diesel fuel and gasoline. A tongue of flame dances above the nozzle. He tips the drip torch forward — whoosh — and a stream of blazing liquid races across the forest floor. In less than a minute, a long 
+- **NEW**  [[Arkansas] Researchers expect ‘biggest year yet’ for energy siting bills in 2027](https://arkansasadvocate.com/2026/08/29/repub/researchers-expect-biggest-year-yet-for-energy-siting-bills-in-2027/) — *2026-08-29*
+  > An analysis of renewable energy siting bills across the U.S. during 2026 legislative sessions found the majority of introduced bills were aimed at restricting renewable energy infrastructure, though most of the enacted bills were permissive to the industry.  Researchers who worke
+- **NEW**  [[Arkansas] After decades of overhunting, black bears are slowly recolonizing the lower Mississippi River basin](https://arkansasadvocate.com/2026/08/29/repub/after-decades-of-overhunting-black-bears-are-slowly-recolonizing-the-lower-mississippi-river-basin/) — *2026-08-29*
+  > On the Fourth of July, a picture of a black bear sitting on the edge of a Tennessee cornfield sparked a social media flurry. It was the beginning of a deluge. Over the next month, bears would be recorded running through yards and sprinting through a golf course on a rainy day.  R
+- **NEW**  [[Arkansas] Tennessee governor backs plan to name Nashville airport for Dolly Parton](https://arkansasadvocate.com/2026/08/28/repub/tennessee-governor-backs-plan-to-name-nashville-airport-for-dolly-parton/) — *2026-08-28*
+  > Tennessee Gov. Bill Lee and Nashville International Airport officials announced plans Friday to rename the airport in Dolly Parton’s honor. Lee discussed the idea this week with Parton’s team after the legendary singer, songwriter and philanthropist died at age 80, and they said 
+- **NEW**  [[Arkansas] Trump administration appeals latest order freezing rule on mail-in voting](https://arkansasadvocate.com/2026/08/28/repub/trump-administration-appeals-latest-order-freezing-rule-on-mail-in-voting/) — *2026-08-28*
+  > WASHINGTON — President Donald Trump’s administration is appealing a federal judge’s temporary pause on a U.S. Postal Service regulation that places new restrictions on mail-in voting, according to a Friday&#160;court filing.&#160; The administration is headed to the U.S. Court of
+- [[Arkansas] 2 candidates file for Arkansas House vacancy created by lawmaker’s resignation](https://arkansasadvocate.com/2026/08/28/2-candidates-file-for-arkansas-house-vacancy-created-by-lawmakers-resignation/) — *2026-08-28*
+  > Two candidates are seeking to fill the vacancy left by Republican Rep. Austin McCollum’s resignation following domestic violence charges this month.  Republican Kara Armas of Pea Ridge and Democrat Parker Stohlton of Bella Vista filed by the noon deadline Friday to run for the Ho
+- [[Arkansas] School district cuts student access to Central Arkansas Library System’s online materials](https://arkansasadvocate.com/2026/08/28/school-district-cuts-student-access-to-central-arkansas-library-systems-online-materials/) — *2026-08-28*
+  > A central Arkansas school district cut students’ access to the local public library’s online educational materials in response to a federal court ruling that a 2023 law restricting library content can take effect, a district spokesperson said Thursday. The Pulaski County Special 
+- [[Arkansas] Judge reinstates pause on Trump order limiting mail ballots](https://arkansasadvocate.com/2026/08/28/repub/judge-reinstates-pause-on-trump-order-limiting-mail-ballots/) — *2026-08-28*
+  > A federal judge froze for two weeks a Trump administration regulation to restrict mail voting late Thursday, calling the U.S. Postal Service rule a violation of states’ power to administer elections. U.S. District Judge Indira Talwani’s&#160;temporary restraining order reinstated
+- [[Arkansas] To protect forests, I learned to burn them](https://arkansasadvocate.com/2026/08/28/repub/learning-to-burn/) — *2026-08-28*
+  > AUBURN, Wash. — In the back row of a small community college classroom, I sip my coffee and consider a cumulus cloud, a puffy white pillar over an expanse of blue. I’m not staring out the window, but at a presentation on a screen at the front of the room.  Cumulus clouds are a te
+- [[Arkansas] Dolly Parton showed us a different kind of Southern politics](https://arkansasadvocate.com/2026/08/28/repub/dolly-parton-showed-us-a-different-kind-of-southern-politics/) — *2026-08-28*
+  > I stared at my phone, waiting for the interview of my life. Dolly Parton was scheduled to call to promote the first national tour of her musical “9 to 5” at Greenville’s Peace Center. This was January 2011, when I was an arts writer at The Greenville News. But Dolly was 10 minute
+- [[Arkansas] Arkansas librarian fired after opposing book ban efforts to receive $275K in settlement](https://arkansasadvocate.com/2026/08/27/arkansas-librarian-fired-after-opposing-book-ban-efforts-to-receive-275k-in-settlement/) — *2026-08-27*
+  > A central Arkansas county agreed this week to pay $275,000 to the former library director who was fired after speaking against local conservatives’ push to limit children&#8217;s access to books. Saline County announced Thursday it had reached a settlement with Patty Hector, who 
 
-_(607 additional items in raw.jsonl)_
+_(623 additional items in raw.jsonl)_

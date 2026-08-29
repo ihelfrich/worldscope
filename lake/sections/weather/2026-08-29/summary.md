@@ -2,46 +2,207 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-29
-record_count: 83
-new_today: 68
+record_count: 85
+new_today: 73
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-68 new of 83 total items today.
+73 new of 85 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 4:32AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68e4727a89f8cdf0de07cfc89ee4866abc2348b0.001.1) — *2026-08-29*
-  > At 430 AM CDT, Numerous thunderstorms with very heavy rain were over
-the northern parts of Otter Tail county.  1 to 3 inches of rain has
-fallen in the last 3 hours in these areas. Gusty winds as well.  The
-storms were moving east-southeast at 30 mph.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 8:54AM EDT until August 29 at 10:00AM EDT by NWS Wilmington NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a60c29b4feed59229ff43ccb871702ce15d8e397.001.1) — *2026-08-29*
+  > SMWILM
 
-HAZARD...Wind gusts up to 40
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 5:30AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c32d1e938acfe7c3754daf0c344874798df0405f.001.1) — *2026-08-29*
-  > Patchy dense fog is being seen from Gwinn eastward early this
-morning as observations are reporting visibilities down to a
-quarter mile or less at times. Drivers should remain aware of
-their surroundings and keep their low-beam headlights on if going
-through a fog bank this morni
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-44942) — *2026-08-29*
+The National Weather Service in Wilmington has issued a
+
+* Special Marine Warning for...
+Waters from Surf City NC to Little River Inlet SC from 20 to 60
+NM...
+
+* Until 1000 AM EDT.
+
+* At 853 AM EDT, a severe thunderstorm capable of producing
+waterspouts was located 7 nm s
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 7:51AM CDT until August 29 at 9:00AM CDT by NWS Mobile AL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d0c389a9e4bb9a8c9c4cf27fd93e8dd7d2145e6.001.1) — *2026-08-29*
+  > SMWMOB
+
+The National Weather Service in Mobile has issued a
+
+* Special Marine Warning for...
+Waters from Okaloosa-Walton County Line to Pensacola FL from 20 to
+60 NM...
+Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM...
+
+* Until 900 AM CDT.
+
+* At 750 AM CDT, strong thu
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 5:51AM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c87d7af5b9d889e8b66ccec4c5dca57f6d9900a.001.1) — *2026-08-29*
+  > At 550 AM PDT, Doppler radar was tracking a strong thunderstorm 14
+miles west of Cherry Creek, moving northeast at 40 mph. These cells
+are producing a lot of cloud to ground lightning strikes as well
+as heavy rain and could pass very close to the Kearny fire.
+
+HAZARD...Wind gusts
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-15456) — *2026-08-29*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 5:24AM EDT until August 29 at 6:30AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2c4c093d718f2f33a840b88ec5efd3fedd5e230.002.1) — *2026-08-29*
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 7:29AM CDT until August 29 at 8:15AM CDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e8cce70a4b8ca4c0a8ac56f61984aeda72a9cd7.002.1) — *2026-08-29*
   > For the following areas...
-Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee
-River Fl out to 20 Nm...
-Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20
-Nm...
-Waters from Suwannee River to Apalachicola FL from 20 to 60 NM...
+Coastal Waters from Mexico Beach to Apalachicola out 20 NM...
+Coastal waters from Okaloosa-Walton County Line to Mexico Beach out
+20 NM...
 
-At 524 AM EDT, severe 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 2:02AM PDT by NWS Elko NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.986770c6b3b80b4d4dadfe2fd3523372f360f627.001.1) — *2026-08-29*
-  > At 158 AM PDT, Doppler radar was tracking a cluster of strong
-thunderstorms 9 miles southwest of Schellbourne, moving northeast at
-45 mph. These cells have a history of producing cloud to ground
-lightning strikes and could pass very close to the Kearny fire.
+At 729 AM CDT, severe thunderstorms capable of producing waterspouts
+were located along a line extending from 17 
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 5:26AM MST until August 31 at 5:00AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.570e6afe9011b3cd343d50eeace1bc8a705a5f28.001.1) — *2026-08-29*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
 
-HAZARD...Wind gusts 
+* WHERE...Tucson Metro Area, Southeast Pinal County, Tohono O'odham
+Nation, Upper San Pedro River Valley Upper Santa Cruz River
+Valley/Altar Valley, Baboquivari Mountains, Catalina and Rincon
+Mountain
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:25AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f37a8017d5a91733c8076e74b3f2177e4a7a2436.002.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 98 to 105
+degrees. Overnight lows 71 to 78 degrees. Major HeatRisk is
+expected today through Saturday with isolated Extreme HeatRisk.
+
+* WHERE...Pinal County, Tohono O'odham Nation, Tucson Metro Area,
+Upper Gila River Valley, 
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:25AM MST until August 29 at 8:00PM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f37a8017d5a91733c8076e74b3f2177e4a7a2436.001.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with high temperatures ranging
+between 104 to 110 degrees and low temperatures 79 to 85 degrees.
+Major to Extreme HeatRisk today through Saturday.
+
+* WHERE...Pinal County, Tohono O'odham Nation, Tucson Metro Area,
+Upper Gila River Valley, and W
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 8:23AM EDT until August 29 at 9:30AM EDT by NWS Newport/Morehead City NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49134c42737ecdd25d25e17a625387fb9cd8056d.001.1) — *2026-08-29*
+  > SMWMHX
+
+The National Weather Service in Newport has issued a
+
+* Special Marine Warning for...
+Neuse and Bay Rivers...
+Pamlico Sound...
+
+* Until 930 AM EDT.
+
+* At 822 AM EDT, a severe thunderstorm capable of producing
+waterspouts was located near The Mouth Of The Neuse River, movi
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.003.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures up to 95.
+
+* WHERE...Santa Ana Mountains and Foothills.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.008.1) — *2026-08-29*
+  > * WHAT...Temperatures 82 to 88.
+
+* WHERE...Orange County Coastal Areas.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.004.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 85 to 95.
+
+* WHERE...San Diego County Mountains.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.005.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 105 to 112.
+
+* WHERE...Coachella Valley, San Diego County Deserts, and San
+Gorgonio Pass near Banning.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat event
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.001.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 96 to 103.
+
+* WHERE...San Bernardino and Riverside County Valleys-The Inland
+Empire.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.002.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 92 to 98.
+
+* WHERE...San Diego County Valleys.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.006.1) — *2026-08-29*
+  > * WHAT...Dangerously hot conditions with temperatures 92 to 96.
+
+* WHERE...Orange County Inland Areas.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Heat related illnesses increase significantly during
+extreme heat events.
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 5:20AM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9b3be8b10959d26839331e11aac69647b59838f.007.1) — *2026-08-29*
+  > * WHAT...Temperatures 85 to 91.
+
+* WHERE...San Diego County Coastal Areas.
+
+* WHEN...Until 8 PM PDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 29 at 5:04AM PDT until August 29 at 9:00AM PDT by NWS San Francisco CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53e0675cb0477c9b6fb10a6822f99698ca2f6fb1.001.1) — *2026-08-29*
+  > * WHAT...Visibility 1/4 miles or less in dense fog.
+
+* WHERE...The Sonoma County valleys, especially along Highway 101
+from Healdsburg to Novato.
+
+* WHEN...Until 9 AM PDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Severe] Flood Warning: Flood Warning issued August 29 at 6:10AM CDT until August 29 at 6:32PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.716c095f7354e6ee9498e98b0fa5a8534c9b55ed.001.1) — *2026-08-29*
+  > ...The Flood Warning continues for the following rivers in
+Illinois...
+
+Illinois River at Beardstown affecting Morgan, Brown, Cass and
+Schuyler Counties.
+
+.The following forecasts are based on observed precipitation, soil
+moisture conditions, and forecast precipitation.
+
+* WHAT..
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 6:07AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.07b889a32c4583a2fe4109b100c118505307ac6c.001.1) — *2026-08-29*
+  > Areas of fog will reduce the visibility to one half mile or less
+in parts of northwest and north central North Dakota this morning.
+Motorists should be prepared for rapidly changing visibilities,
+and should use extra caution traveling. Use low beam headlights
+and be extra cautiou
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 6:03AM CDT by NWS Sioux Falls SD](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cd2e74c6b98ed5774e01f35d904fb0203d5aed6.001.1) — *2026-08-29*
+  > As a weakening line of thunderstorms continues to progress
+eastwards this morning, pockets of stronger winds between 50-60
+mph have been left in it wake. With this in mind, a special
+weather statement will be in effect through 830am to capture the
+enhanced surface feature.
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 29 at 6:30AM AST until August 31 at 6:00PM AST by NWS San Juan PR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.184761b840f71543c1f3f6dc114a2a95cd224659.001.1) — *2026-08-29*
+  > * WHAT..Life-threatening rip current.
+
+* WHERE...Beaches of northern, eastern and southeastern Puerto
+Rico, Vieques, Culebra, and the US Virgin Islands.
+
+* WHEN...From Sunday morning through Monday afternoon.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away
+from sh
 - **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 29 at 4:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b86bc354bc34830b69315436641ced53f99d58e.001.1) — *2026-08-29*
   > AQAMEG
 
@@ -60,17 +221,6 @@ Wallowa Valley.
 
 * IMPACTS...Frost and freeze conditions could kill crops, other
 sensitive vegetation and possibly damage unprotected
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued August 29 at 4:36AM EDT until August 29 at 6:30AM EDT by NWS Tallahassee FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e204e94ec2080d475d735d8dd238d6755a37260.001.1) — *2026-08-29*
-  > SMWTAE
-
-The National Weather Service in Tallahassee has issued a
-
-* Special Marine Warning for...
-Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee
-River Fl out to 20 Nm...
-Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20
-Nm...
-Coastal waters fro
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 1:20AM PDT until August 29 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97a3c89bfc31fd87a79dfc32319e682e703051ea.003.1) — *2026-08-29*
   > * WHAT...Temperatures up to 103.
 
@@ -79,157 +229,5 @@ Coastal waters fro
 * WHEN...Until 8 PM PDT this evening.
 
 * IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 1:20AM PDT until August 29 at 8:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.97a3c89bfc31fd87a79dfc32319e682e703051ea.001.2) — *2026-08-29*
-  > * WHAT...Temperatures up to 88.
 
-* WHERE...Santa Barbara County Southwestern Coast.
-
-* WHEN...Until 8 PM PDT this evening.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 1:55AM MDT until August 30 at 12:00PM MDT by NWS Riverton WY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ade42f2b087fe163be03afeb59c65affcee76f0d.001.1) — *2026-08-29*
-  > * WHAT...Flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...Portions of central, northwest, and west central Wyoming,
-including the following areas, in central Wyoming, Wind River
-Mountains West. In northwest Wyoming, Absaroka Mountains, Jackson
-Hole, Teto
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 3:48AM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f89fc0981c465b896fcef38d11808f9339d6195.001.1) — *2026-08-29*
-  > Patchy dense fog has developed across portions of inland Northeast
-Florida and inland Southeast Georgia early this morning with local
-visibilities below one half mile at times through sunrise.
-Conditions will improve between 8 am and 9 am this morning.
-
-The nature of the fog is s
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 12:09AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46f6de1392dacb3b9319570731abfce3d7295203.003.1) — *2026-08-29*
-  > * WHAT...Dangerously hot and humid conditions. Afternoon temperatures
-108 to 111. Major Heat Risk.
-
-* WHERE...The Phoenix metropolitan area.
-
-* WHEN...Until 8 PM MST this evening.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Overexposure 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 12:09AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46f6de1392dacb3b9319570731abfce3d7295203.001.1) — *2026-08-29*
-  > * WHAT...Dangerously hot and humid conditions. Afternoon temperatures
-107 to 115. Major Heat Risk.
-
-* WHERE...Portions of southwest Arizona and southeast California.
-
-* WHEN...Until 8 PM MST /8 PM PDT/ this evening.
-
-* IMPACTS...Heat related illnesses increase significantly durin
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 12:09AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46f6de1392dacb3b9319570731abfce3d7295203.002.1) — *2026-08-29*
-  > * WHAT...Dangerously hot and humid conditions. Afternoon temperatures
-105 to 112. Major Heat Risk.
-
-* WHERE...A portion of south central Arizona.
-
-* WHEN...Until 8 PM MST this evening.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Overexpo
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 29 at 12:09AM MST until August 29 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46f6de1392dacb3b9319570731abfce3d7295203.004.1) — *2026-08-29*
-  > * WHAT...Dangerously hot conditions. Afternoon temperatures 103 to
-109. Major Heat Risk.
-
-* WHERE...San Carlos.
-
-* WHEN...Until 8 PM MST this evening.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events. Overexposure can cause heat cramps and hea
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 12:06AM MST until August 30 at 5:00AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7151cf81f1ea3fed9f21c27356cc0f3a90dc89b.001.1) — *2026-08-29*
-  > * WHAT...Flash flooding caused by excessive rainfall is possible.
-
-* WHERE...A portion of south central Arizona, including the Phoenix
-Metro, all of Gila and Pinal Counties, and much of Maricopa County.
-
-* WHEN...From Saturday afternoon through late Saturday night.
-
-* IMPACTS...E
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 28 at 11:48PM MST until August 30 at 5:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dd2c83dad0e6660d9649c7833aa84cade70769d.001.1) — *2026-08-28*
-  > * WHAT...Flash flooding caused by excessive rainfall is possible.
-
-* WHERE...Northern Gila County, Yavapai County, and Oak Creek and
-Sycamore Canyons.
-
-* WHEN...From Saturday afternoon through late Saturday night.
-
-* IMPACTS...Flash flooding will be possible in creeks, normally d
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 1:33AM AST until August 29 at 5:00PM AST by NWS San Juan PR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e7afee88cefadb7d7e2462fa7b43b94823c8338.001.1) — *2026-08-29*
-  > * WHAT...This level of heat affects most individuals sensitive to
-heat, especially those without effective cooling and/or adequate
-hydration. expected.
-
-* WHERE...Portions of Puerto Rico and Virgin Islands.
-
-* WHEN...From 10 AM this morning to 5 PM AST this afternoon.
-
-* IMPACTS.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 28 at 11:40PM CDT until August 29 at 7:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.643736066ce4d64d2aba20195be59cfd59fbf524.001.1) — *2026-08-28*
-  > * WHAT...Temperature values up to 105 expected
-
-* WHERE...Palo Duro Canyon State Park.
-
-* WHEN...From 1 PM to 7 PM CDT Saturday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 28 at 9:06PM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ea6e50478b0bd270f9bf78044cbf8f226f39f21.004.1) — *2026-08-28*
-  > * WHAT...Hot conditions continue into Saturday with highs up to 97
-degrees. Low temperatures will be in the upper 60s to low 70s.
-
-* WHERE...San Diego County Mountains.
-
-* WHEN...Until 8 PM PDT Saturday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme he
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 28 at 9:06PM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ea6e50478b0bd270f9bf78044cbf8f226f39f21.006.1) — *2026-08-28*
-  > * WHAT...Hot conditions continue into Saturday with highs up to 95.
-Low temperatures will be in the low 70s.
-
-* WHERE...Orange County Inland Areas.
-
-* WHEN...Until 8 PM PDT Saturday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-
-* ADDITIO
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 28 at 9:06PM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ea6e50478b0bd270f9bf78044cbf8f226f39f21.003.1) — *2026-08-28*
-  > * WHAT...Hot conditions will continue into Saturday with highs up to
-98 degrees. Low temperatures will be in the low to mid-70s.
-
-* WHERE...Santa Ana Mountains and Foothills.
-
-* WHEN...Until 8 PM PDT Saturday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extr
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 28 at 9:06PM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ea6e50478b0bd270f9bf78044cbf8f226f39f21.002.1) — *2026-08-28*
-  > * WHAT...Hot conditions continue into Saturday with high temperatures
-up to 98 degrees. Lows will be in the low 70s.
-
-* WHERE...San Diego County Valleys.
-
-* WHEN...Until 8 PM PDT Saturday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat events.
-
-* A
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued August 28 at 9:06PM PDT until August 29 at 8:00PM PDT by NWS San Diego CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8ea6e50478b0bd270f9bf78044cbf8f226f39f21.001.1) — *2026-08-28*
-  > * WHAT...Hot conditions continue into Saturday with high temperatures
-up to 103 degrees. Lows will be in the mid to upper 70s.
-
-* WHERE...San Bernardino and Riverside County Valleys-The Inland
-Empire.
-
-* WHEN...Until 8 PM PDT Saturday.
-
-* IMPACTS...Heat related illnesses increase
-
-_(58 additional items in raw.jsonl)_
+_(60 additional items in raw.jsonl)_
