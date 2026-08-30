@@ -3,13 +3,13 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-08-30
 record_count: 56
-new_today: 12
+new_today: 13
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-12 new of 56 total items today.
+13 new of 56 total items today.
 
 - **NEW**  [[The Hacker News] TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html) — *2026-08-30*
   > Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.
@@ -17,6 +17,8 @@ state: fresh
 "While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply
 - **NEW**  [[The Register] Turns out Brits would quite like their private messages to stay private](https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994) — *2026-08-30*
   > Polling finds two-thirds don't trust this government, or any future one, with access to their encrypted chats
+- **NEW**  [[Ars Technica] Inside Meta’s push to put robots to work in data centers](https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/) — *2026-08-30*
+  > The company is testing robots on tasks that can performed by technicians.
 - **NEW**  [[BleepingComputer] Anthropic is cutting Claude Code's current weekly limits by 17%](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) — *2026-08-29*
   > Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]
 - **NEW**  [[BleepingComputer] Brave browser adds email aliases to help users evade tracking](https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/) — *2026-08-29*
@@ -69,9 +71,5 @@ The vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos L
   > Researchers at Palo Alto Networks&rsquo; Unit 42 warn that threat actors are already using AI to accelerate cyberattacks beyond the abilities of modern defenses.
 - [[Cybersecurity Dive] CISA identifies security hurdles that led to very different results in two red-team engagements](https://www.cybersecuritydive.com/news/cisa-red-team-exercises-lessons-cloud-soc/828733/) — *2026-08-28*
   > The agency said its recent simulated cyberattacks offered several key lessons for many organizations.
-- [[Schneier on Security] Friday Squid Blogging: Truckload of Squid Spills in Rhode Island](https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html) — *2026-08-28*
-  > Ugh:
-A tractor-trailer rollover sent a truckload of squid spilling into a Rhode Island roadway, leaving a stench as they sat in the road for hours in the summer heat. Local authorities have dubbed it the &#8220;Squidpocalypse of &#8217;26.&#8221;
-That would be twenty tons of squi
 
 _(31 additional items in raw.jsonl)_

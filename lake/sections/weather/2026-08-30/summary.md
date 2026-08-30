@@ -3,61 +3,148 @@ section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-30
 record_count: 70
-new_today: 67
+new_today: 68
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-67 new of 70 total items today.
+68 new of 70 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-49177) — *2026-08-30*
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 6:28AM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09e740afa96c2a1afcea61b800050dd79a8ab08a.001.1) — *2026-08-30*
+  > At 628 AM MDT, Doppler radar was tracking a strong thunderstorm near
+Green River, moving northeast at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted inc
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-47063) — *2026-08-30*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 30 at 4:16AM CDT until August 30 at 5:00AM CDT by NWS Omaha/Valley NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d756f263e4f68832db044b604f236dffd89c11eb.001.1) — *2026-08-30*
-  > SVROAX
+- **NEW**  [[Moderate] Winter Weather Advisory: Winter Weather Advisory issued August 30 at 4:22AM AKDT until September 1 at 4:00AM AKDT by NWS Fairbanks AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f810f4e46839b2720d2dad4f7f3aead8c724800.001.1) — *2026-08-30*
+  > * WHAT...Snow and breezy winds expected. Total snow accumulations of
+5 to 8 inches across higher elevations of the Richardson Highway
+north of Isabel Pass, with heavier amounts above pass level. Winds
+gusting as high as 40 mph.
 
-The National Weather Service in Omaha has issued a
+* WHERE...Eastern Alaska Range.
 
-* Severe Thunderstorm Warning for...
-Southwestern Colfax County in northeastern Nebraska...
-Southern Platte County in northeastern Nebraska...
-Northwestern Butler County in east central Nebraska...
+* WHEN...From midn
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 4:17AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aad5a8e0961cd5ede40e59fbba7007b607e36e2e.017.1) — *2026-08-30*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-* Until 500 AM CDT.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 4:17AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aad5a8e0961cd5ede40e59fbba7007b607e36e2e.006.1) — *2026-08-30*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 4:17AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aad5a8e0961cd5ede40e59fbba7007b607e36e2e.016.1) — *2026-08-30*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 30 at 4:13AM CDT until August 30 at 5:15AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b02fa4d100a245816cf29b2dee7eb12273835dc.001.1) — *2026-08-30*
-  > SVRBIS
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 4:17AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aad5a8e0961cd5ede40e59fbba7007b607e36e2e.015.1) — *2026-08-30*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
 
-The National Weather Service in Bismarck has issued a
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 30 at 8:03AM EDT until August 30 at 10:00AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.beb1b6d020c2db2c23ac674c7e1960f6b31656c5.001.1) — *2026-08-30*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
 
-* Severe Thunderstorm Warning for...
-North Central McKenzie County in northwestern North Dakota...
-South Central Williams County in northwestern North Dakota...
+* WHERE...A portion of central North Carolina.
 
-* Until 515 AM CDT.
+* WHEN...Until 10 AM EDT this morning.
 
-* At 413 AM CDT, a severe thunders
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 4:06AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26fba855da3b662e9f392eb7fe6a4e4180a02554.001.1) — *2026-08-30*
-  > At 406 AM CDT /306 AM MDT/, Doppler radar was tracking a strong
-thunderstorm 8 miles northwest of Watford City, moving northeast at
-10 mph.
+* IMPACTS...Low visibility could make driving conditions hazardous.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 4:00AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.508464be89302126d055f8638a39416d6f8543f3.002.1) — *2026-08-30*
+  > Offshore waters forecast for the Gulf of Alaska West of 144W
 
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
 
-SOURCE...Radar indicated.
+.TODAY...NW wind 10 to 25 kt. Seas 6 to 9 ft
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 30 at 3:49AM AKDT until August 31 at 5:00AM AKDT by NWS Fairbanks AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a069f2206bac5be686e033f82acc21ab7ac0a477.006.1) — *2026-08-30*
+  > Northwestern Alaska Coastal Waters out 100 NM
 
-IMPACT...Gusty winds could knock down tree limbs and blo
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 4:03AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.439d21c6c33b12d94693b80994d76496014f84a5.001.1) — *2026-08-30*
-  > At 403 AM CDT /303 AM MDT/, Doppler radar was tracking a strong
-thunderstorm 9 miles northwest of Alexander, or 15 miles south of
-Williston, moving northeast at 10 mph.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent the average of the highest one-
+third of the combined wind-wave and swell height.
 
-HAZARD...Wind gusts up to 40 mph and nickel size hail.
+.TODAY...W winds 35 kt. Seas 8 ft.
+.TONIGHT...NW winds 35
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 6:37AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa00c47bfebdd22c1dcc01cd3f1b51eff4d099c0.001.1) — *2026-08-30*
+  > Patchy fog will reduce the visibility to one quarter mile in
+parts of central North Dakota this morning. Motorists should be
+prepared for rapidly changing visibilities, and should use extra
+caution traveling. Use low beam headlights and be extra cautious
+at intersections and rail
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 7:36AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.628c8ed5b0fe21bdbad239b6879d9d454149e8df.001.1) — *2026-08-30*
+  > Low visibility across portions of central North Carolina could
+make driving conditions locally hazardous in spots this morning.
+If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you. Be on the lookout for sudden changes in
+visibility, especially wh
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 7:32AM EDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e44e7dfd30f46d7839b8ac85d37c1facdd771cf9.001.1) — *2026-08-30*
+  > Areas of dense fog are being seen in the higher terrain areas of
+Marquette County this morning. Drivers should use their low-beam
+headlights if out this morning. The fog should lift later this
+morning.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 30 at 7:32AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9875ffe089f32d8606ce2a68275d078b58ff7405.001.1) — *2026-08-30*
+  > Low visibility across portions of central North Carolina could
+make driving conditions locally hazardous in spots this morning.
+If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you. Be on the lookout for sudden changes in
+visibility, especially wh
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 30 at 4:23AM MST until September 1 at 12:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d815cfa0e8262334011c0defee645dc56a2c991.001.2) — *2026-08-30*
+  > The Flood Watch is cancelled for Yavapai County, northern Gila
+County, and Oak Creek and Sycamore Canyons.
 
-SOURCE...Radar indicated.
+Flooding is no longer expected to pose a threat. Please continue to
+heed remaining road closures.
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 30 at 4:23AM MST until September 1 at 12:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d815cfa0e8262334011c0defee645dc56a2c991.002.1) — *2026-08-30*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
 
-IMPACT...Gusty winds could 
+* WHERE...Apache, Coconino, and Navajo counties.
+
+* WHEN...From 2 PM MST  /3 PM MDT/ this afternoon through Monday
+evening.
+
+* IMPACTS...Flash flooding will be possible in creeks, normally dry
+washes,
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 30 at 4:18AM MDT until August 31 at 12:00AM MDT by NWS Grand Junction CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.288a2a16d2afeb4e229d13e7fc71686e9995e0d1.001.1) — *2026-08-30*
+  > * WHAT...Flash flooding caused by excessive rainfall is possible.
+
+* WHERE...Portions of Colorado, including the following areas,
+Central Colorado River Basin, Central Gunnison and Uncompahgre
+River Basin, Central Yampa River Basin, Debeque to Silt Corridor,
+Flat Tops, Four Corne
+- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued August 30 at 3:48AM MDT until August 30 at 6:00PM MDT by NWS Glasgow MT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.440050f41e55e72769b6173471cb3c5b7961425f.001.1) — *2026-08-30*
+  > * WHAT...West winds 15 to 25 mph with gusts up to 35 mph expected.
+
+* WHERE...Fort Peck Lake.
+
+* WHEN...From 7 AM this morning to 6 PM MDT this evening.
+
+* IMPACTS...Strong winds and rough waves on area lakes will create
+hazardous conditions for small craft.
+
+* ADDITIONAL DETAILS
 - **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 30 at 4:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2652b20b4cdab7a1501a6b41bd2f2c86bdfbaede.001.1) — *2026-08-30*
   > AQAMEG
 
@@ -114,123 +201,5 @@ Rico, Vieques, Culebra, and the U.S. Virgin Islands.
 * WHEN...From 6 AM AST this morning through Monday afternoon.
 
 * IMPACTS...Rip currents can sweep even the best swimmers aw
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 30 at 2:44AM CDT until August 30 at 10:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.baf5eb4ec96b67967a5b47dcfc67483faccef7e1.001.1) — *2026-08-30*
-  > * WHAT...Dangerous swimming conditions are expected along the
-Lake Superior shoreline due to high wave action and strong rip
-currents.
-
-* WHERE...Minnesota Park Point and Wisconsin Point Beaches.
-
-* WHEN...From 6 AM CDT this morning through this evening.
-
-* IMPACTS...Life-threate
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 30 at 2:18AM CDT until August 30 at 7:00PM CDT by NWS Norman OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b28dd9d7a8c9f989eb4f871db3e366aa83e2ec7a.001.1) — *2026-08-30*
-  > * WHAT...Temperatures or heat index values up to 107 expected.
-
-* WHERE...Portions of central, northern, and northwest Oklahoma.
-
-* WHEN...From 1 PM this afternoon to 7 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 10:19PM MST until September 1 at 12:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b08cb3cebc52bc203eb3e61a5bcb1d7e2f51278.001.2) — *2026-08-29*
-  > * WHAT...Flash flooding caused by excessive rainfall is possible.
-
-* WHERE...Yavapai and northern Gila counties.
-
-* WHEN...Until 5 AM MST Sunday.
-
-* IMPACTS...Flash flooding will be possible in creeks, normally dry
-washes, and swimming holes, and over recently burned areas.
-Low-w
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 10:19PM MST until August 30 at 5:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b08cb3cebc52bc203eb3e61a5bcb1d7e2f51278.001.1) — *2026-08-29*
-  > * WHAT...Flash flooding caused by excessive rainfall is possible.
-
-* WHERE...Yavapai and northern Gila counties.
-
-* WHEN...Until 5 AM MST Sunday.
-
-* IMPACTS...Flash flooding will be possible in creeks, normally dry
-washes, and swimming holes, and over recently burned areas.
-Low-w
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 10:19PM MST until September 1 at 12:00AM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b08cb3cebc52bc203eb3e61a5bcb1d7e2f51278.002.1) — *2026-08-29*
-  > * WHAT...Flash flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...Apache, Coconino, Navajo, Yavapai and northern Gila
-counties.
-
-* WHEN...From Sunday afternoon through Monday evening.
-
-* IMPACTS...Flash flooding will be possible in creeks, normally dry
-was
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 11:43PM CDT until August 30 at 8:00PM CDT by NWS Tulsa OK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01f231e2b992f8a78f536ebf216945891b0198d0.001.1) — *2026-08-29*
-  > * WHAT...Heat index values up to 106 expected.
-
-* WHERE...A portion of northeast Oklahoma.
-
-* WHEN...From noon to 8 PM CDT Sunday.
-
-* IMPACTS...Heat related illnesses are possible especially impacting
-those not acclimated to the conditions or those performing
-strenuous activities
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 29 at 11:03PM CDT until August 30 at 7:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.476229b9d7e57dd7c74c9e364b17f58fad25ddbe.001.1) — *2026-08-29*
-  > * WHAT...Temperatures up to 105 expected.
-
-* WHERE...Palo Duro Canyon State Park.
-
-* WHEN...From 1 PM to 7 PM CDT Sunday.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Severe] Freeze Warning: Freeze Warning issued August 29 at 8:50PM PDT until August 30 at 9:00AM PDT by NWS Pendleton OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1d0545b231342db8b11883c2a2fd51249bb65200.001.1) — *2026-08-29*
-  > * WHAT...Sub-freezing temperatures as low as 30 degrees possible in
-Wallowa Valley.
-
-* WHERE...Wallowa County.
-
-* WHEN...From 1 AM to 9 AM PDT Sunday.
-
-* IMPACTS...Frost and freeze conditions could kill crops, other
-sensitive vegetation and possibly damage unprotected outdoor
-plu
-- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 29 at 7:50PM AKDT until August 31 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5086400b19fc1aa73efcb558722e740e932db61d.029.1) — *2026-08-29*
-  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
-Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
-
-Wind forecasts reflect the predominant speed and direction
-expected. Sea forecasts represent an average of the highest
-one-third of the combined wind w
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 29 at 7:38PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5200b9bdc8ffa3645c3074dd8fba206a44641eb.001.1) — *2026-08-29*
-  > Strong northwesterly winds have developed across Shelikof Strait
-and the waters around southern Kodiak Island. These winds are
-resuspending ash from the 1912 Katmai-Novarupta eruption,
-potentially causing haze and trace amounts of ash accumulation.
-The villages of Karluk and Lars
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 29 at 9:36PM MDT until August 31 at 9:00PM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1417d8241f93316a1a902d43a8dff0c0be7d93b9.001.1) — *2026-08-29*
-  > * WHAT...Flash flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...A portion of Utah, including the following areas, Castle
-Country, Central Mountains, Eastern Juab/Millard Counties, San
-Rafael Swell, Sanpete Valley, Sevier Valley, Bryce Canyon Country,
-Cap
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 29 at 9:55PM EDT until August 30 at 8:00PM EDT by NWS Caribou ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f98ce85770510885d4ec347d0335ee6e5f628bc4.001.1) — *2026-08-29*
-  > * WHAT...The warm air temperatures from the mid 70 to around 80
-may cause people to underestimate the dangers of the cold water
-temperatures which are currently in the 50 to 55 degree range.
-
-* WHERE...Coastal Hancock and Coastal Washington Counties.
-
-* WHEN...From 8 AM EDT Sunda
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued August 29 at 5:47PM PDT until August 31 at 3:00PM PDT by NWS Los Angeles/Oxnard CA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45c41abae30bc3203b7be5df21011d473581c698.001.1) — *2026-08-29*
-  > * WHAT...Dangerous rip currents and breaking waves with isolated
-sets up to 6 feet due to elevated surf from southerly swells.
-
-* WHERE...Ventura County Beaches, Malibu Coast and Los Angeles
-County Beaches.
-
-* WHEN...Through Monday afternoon.
-
-* IMPACTS...There is an increased ri
 
 _(45 additional items in raw.jsonl)_

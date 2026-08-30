@@ -2,31 +2,15 @@
 section: state_news
 title: State-Level News
 date: 2026-08-30
-record_count: 394
-new_today: 70
+record_count: 412
+new_today: 92
 state: fresh
 ---
 
 ## State-Level News
 
-70 new of 394 total items today.
+92 new of 412 total items today.
 
-- [[Alabama] Flags Lowered Honoring Former State Representative Charles Wiley Whatley](https://governor.alabama.gov/newsroom/2026/08/flags-lowered-honoring-former-state-representative-charles-wiley-whatley/) — *2026-08-28*
-  > Download
-- **NEW**  [[California] Governor Newsom statement on compromise to address wildfire risk, support fire survivors, and create stronger accountability](https://www.gov.ca.gov/2026/08/29/governor-newsom-statement-on-compromise-to-address-wildfire-risk-support-fire-survivors-and-create-stronger-accountability/) — *2026-08-29*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- [[California] Governor Newsom announces $44 million for tribal stewardship, salmon recovery and desert protection projects](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects/) — *2026-08-28*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" de
-- [[California] Governor Newsom signs bipartisan measure to strengthen suicide prevention efforts for boys, young men](https://www.gov.ca.gov/2026/08/28/governor-newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men/) — *2026-08-28*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding
-- [[California] Governor Newsom announces $2.7 billion for 150+ projects to expand and make California’s transportation system more resilient](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-2-7-billion-for-150-projects-to-expand-and-make-californias-transportation-system-more-resilient/) — *2026-08-28*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-2.7-billion-for-150-projects-to-harden-Californias-transportation-system-against-extreme-weather-and-expand-transit-options-SEO-GFX-150x150.png" class="attachment-thumbn
-- [[California] BUY CALIFORNIAN: Governor Newsom launches new campaign to help consumers identify California-made products](https://www.gov.ca.gov/2026/08/28/buy-californian-governor-newsom-launches-new-campaign-to-help-consumers-identify-california-made-products/) — *2026-08-28*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/BUY-CALIFORNIAN_-Governor-Newsom-launches-new-campaign-to-help-consumers-identify-California-made-products-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-- [[California] Governor Newsom signs legislation 8.27.2026](https://www.gov.ca.gov/2026/08/27/governor-newsom-signs-legislation-8-27-2026/) — *2026-08-28*
-  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-08-30*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
 - **NEW**  [[California] California lawmakers strike wildfire deal that leaves out most of Newsom’s big demands](https://calmatters.org/politics/2026/08/final-legislature-wildfire-deal-newsom/) — *2026-08-29*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082426-Eaton-Fire-Survivors-MG-CM-13.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Wildfire survivors and supporters ho
 - [[California] Trump cuts to these college outreach programs are hurting rural California students](https://calmatters.org/education/2026/08/trio-cuts-college-outreach-rural-california-students/) — *2026-08-29*
@@ -41,25 +25,39 @@ state: fresh
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/091225_End-Of-Session_FG_CM_26.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The silhouette of a person holding their p
 - [[California] California Democrats race to ban electric shock gloves before ICE buys them](https://calmatters.org/politics/2026/08/california-ice-electric-shock-gloves/) — *2026-08-28*
   > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082726-Shock-Gloves-DL-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a jailer uniform holds up a b
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-08-30*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
-- **NEW**  [[Connecticut] In Danbury, some are hiding from ICE. Others are following them.](https://ctmirror.org/2026/08/30/in-danbury-some-are-hiding-from-ice-others-are-following-them/) — *2026-08-30*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/Danbury-ICE-0827-SG-06-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-conten
-- [[Connecticut] CT to pay Miguel Cardona $250k to consult for commission he leads](https://ctmirror.org/2026/08/28/ct-to-pay-miguel-cardona-250k-to-consult-for-commission-he-leads/) — *2026-08-28*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2024/04/2024_0416_SR_FAFSA_058_1-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/up
-- [[Connecticut] More CT residents hold degrees past high school. But where?](https://ctmirror.org/2026/08/28/more-ct-residents-hold-degrees-past-high-school-but-where/) — *2026-08-28*
-  > <figure><img width="1024" height="809" src="https://ctmirror.org/wp-content/uploads/2026/08/MXsKv-which-towns-have-the-highest-of-residents-holding-a-post-high-school-degree--1024x809.png" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async"
-- [[Connecticut] Union benefits package looms large over CT campaigns](https://ctmirror.org/2026/08/28/union-benefits-package-looms-large-over-ct-campaigns/) — *2026-08-28*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/05/2025_0501_SR_Rallies_303-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/up
-- [[Connecticut] Bridgeport voters deserve answers on absentee ballot fraud](https://ctmirror.org/2026/08/28/bridgeport-voters-deserve-answers-on-absentee-ballot-fraud/) — *2026-08-28*
-  > <figure><img width="1024" height="754" src="https://ctmirror.org/wp-content/uploads/2023/10/cp101323abhearing2-210-1024x754.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uplo
-- [[Connecticut] Medical aid in dying: one physician’s perspective](https://ctmirror.org/2026/08/28/medical-aid-in-dying-one-physicians-perspective/) — *2026-08-28*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/08/hospice-caring-elderly-picryl.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upload
-- [[feed error] FL Governor (Florida): HTTPError](https://www.flgov.com/feed/) — *2026-08-30*
-  > 404 Client Error: Not Found for url: https://www.flgov.com/feed/
-- [[Delaware] Get Involved: Early voting, assessment reforms, statewide planning updates, more](https://spotlightdelaware.org/2026/08/29/get-involved-early-voting-assessment-reforms-statewide-planning-updates-more/) — *2026-08-29*
-  > <figure><img width="1000" height="800" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Get-Involved-Artwork-Template-1000x800-14.png?fit=1000%2C800&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetch
-- [[Delaware] Sussex County hires consultant to study library funding; library leaders skeptical](https://spotlightdelaware.org/2026/08/28/sussex-county-hires-consultant-to-study-library-funding-library-leaders-skeptical/) — *2026-08-28*
-  > <figure><img width="1024" height="683" src="https://i0.wp.com/spotlightdelaware.org/wp-content/uploads/2026/08/Georgetown-Library-web.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.co
+- [[Alabama] Flags Lowered Honoring Former State Representative Charles Wiley Whatley](https://governor.alabama.gov/newsroom/2026/08/flags-lowered-honoring-former-state-representative-charles-wiley-whatley/) — *2026-08-28*
+  > Download
+- **NEW**  [[California] Governor Newsom statement on compromise to address wildfire risk, support fire survivors, and create stronger accountability](https://www.gov.ca.gov/2026/08/29/governor-newsom-statement-on-compromise-to-address-wildfire-risk-support-fire-survivors-and-create-stronger-accountability/) — *2026-08-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
+- [[California] Governor Newsom announces $44 million for tribal stewardship, salmon recovery and desert protection projects](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects/) — *2026-08-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-44-million-for-tribal-stewardship-salmon-recovery-and-desert-protection-projects-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" de
+- [[California] Governor Newsom signs bipartisan measure to strengthen suicide prevention efforts for boys, young men](https://www.gov.ca.gov/2026/08/28/governor-newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men/) — *2026-08-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-signs-bipartisan-measure-to-strengthen-suicide-prevention-efforts-for-boys-young-men-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding
+- [[California] Governor Newsom announces $2.7 billion for 150+ projects to expand and make California’s transportation system more resilient](https://www.gov.ca.gov/2026/08/28/governor-newsom-announces-2-7-billion-for-150-projects-to-expand-and-make-californias-transportation-system-more-resilient/) — *2026-08-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/Governor-Newsom-announces-2.7-billion-for-150-projects-to-harden-Californias-transportation-system-against-extreme-weather-and-expand-transit-options-SEO-GFX-150x150.png" class="attachment-thumbn
+- [[California] BUY CALIFORNIAN: Governor Newsom launches new campaign to help consumers identify California-made products](https://www.gov.ca.gov/2026/08/28/buy-californian-governor-newsom-launches-new-campaign-to-help-consumers-identify-california-made-products/) — *2026-08-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/08/BUY-CALIFORNIAN_-Governor-Newsom-launches-new-campaign-to-help-consumers-identify-California-made-products-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+- [[California] Governor Newsom signs legislation 8.27.2026](https://www.gov.ca.gov/2026/08/27/governor-newsom-signs-legislation-8-27-2026/) — *2026-08-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
+- [[Colorado] GOP path to retaining US House majority narrowing as midterms near](https://coloradonewsline.com/2026/08/29/repub/gop-path-to-retaining-us-house-majority-narrowing-as-midterms-near/) — *2026-08-29*
+  > WASHINGTON — With less than 70 days until midterm elections, Democrats remain favored to regain the majority in the U.S. House.&#160;&#160; President Donald Trump’s anemic approval ratings amid the war in Iran, concerns over the economy and a coalitional shift within the party&#1
+- [[Colorado] Front Range cities will vote on tax measure to fund Colorado Connector rail service](https://coloradonewsline.com/2026/08/28/front-range-cities-vote-colorado-connector/) — *2026-08-28*
+  > The fate of a decades-long effort to restore intercity passenger rail service to the Front Range is now in the hands of Colorado voters. The board of the Front Range Passenger Rail District voted 14-1 Friday to refer a sales tax measure to the November ballots of voters in 30 mun
+- [[Colorado] Judge reinstates pause on Trump order limiting mail ballots](https://coloradonewsline.com/2026/08/28/repub/judge-reinstates-pause-mail-ballots/) — *2026-08-28*
+  > A federal judge froze for two weeks a Trump administration regulation to restrict mail voting late Thursday, calling the U.S. Postal Service rule a violation of states’ power to administer elections. U.S. District Judge Indira Talwani’s&#160;temporary restraining order reinstated
+- [[Colorado] Following years of turmoil, county approves contract with Pueblo sheriff union](https://coloradonewsline.com/2026/08/28/county-contract-pueblo-sheriff-union/) — *2026-08-28*
+  > Pueblo County commissioners Thursday approved a collective bargaining agreement for the county sheriff&#8217;s office more than two years after its employees first voted to form a union.  The agreement follows years of turmoil between union leadership and outgoing Pueblo Sheriff 
+- [[Colorado] At their 1876 convention, Colorado Democrats hoped for an upset in the first state elections](https://coloradonewsline.com/2026/08/28/1876-colorado-democratic-state-convention/) — *2026-08-28*
+  > One week after Republicans met in Pueblo, Colorado Democrats convened their first state convention at Manitou Springs on Aug. 29, 1876. A special train from Denver, ferrying as many as 200 convention-bound passengers, “was handsomely decorated with flags and banners bearing the n
+- [[Colorado] Trump has widened scope of anti-immigrant policy in second term](https://coloradonewsline.com/2026/08/28/repub/trump-anti-immigrant-policy/) — *2026-08-28*
+  > WASHINGTON — The U.S. Department of Treasury’s recent proposed regulation to limit refunds for certain tax credits based on immigration status is the latest move by the Trump administration to restrict noncitizens’ access to federal benefits. In President Donald Trump’s return to
+- [[Colorado] The number of Denver overdose deaths is shocking. The city is making it worse.](https://coloradonewsline.com/2026/08/28/denver-overdose-deaths-shocking/) — *2026-08-28*
+  > Aug. 31 is Overdose Grief Day, when people impacted by the preventable and devastating overdose crisis come together to acknowledge all those who have experienced an overdose, the lives we have lost, as well as loved ones and others affected. For the last two years, nearly two pe
+- [[Colorado] Weiser debates independent Lopez in first Colorado governor debate, with Marx absent](https://coloradonewsline.com/2026/08/27/weiser-lopez-colorado-debate-marx-absent/) — *2026-08-28*
+  > Democratic Attorney General Phil Weiser kicked off debate season Thursday night without his main opponent in the race for Colorado governor, Republican Victor Marx, facing off instead against independent candidate Greg Lopez at an event in Colorado Springs. In his first debate ap
+- [[Colorado] Democrat Jessica Killin criticizes Rep. Jeff Crank’s record in first debate](https://coloradonewsline.com/2026/08/27/democrat-jessica-killin-criticizes-rep-jeff-cranks-record-in-first-debate/) — *2026-08-28*
+  > Democrat Jessica Killin repeatedly criticized U.S. Rep. Jeff Crank&#8217;s attitude toward the war in Iran during a debate Thursday night, as Crank repeated that he thinks President Donald Trump should have sought congressional approval before military action. “The fact is, Presi
+- [[Alabama] Judge temporarily halts “secret” plan to build Elmore County replacement hospital](https://www.alreporter.com/2026/08/28/judge-temporarily-halts-secret-plan-to-build-elmore-county-replacement-hospital/) — *2026-08-28*
+- [[Alabama] Doug Jones says his first act as governor will be expanding Medicaid](https://www.alreporter.com/2026/08/28/doug-jones-says-his-first-act-as-governor-will-be-expanding-medicaid/) — *2026-08-28*
 
-_(369 additional items in raw.jsonl)_
+_(387 additional items in raw.jsonl)_

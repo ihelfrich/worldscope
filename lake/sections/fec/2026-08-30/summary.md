@@ -3,13 +3,13 @@ section: fec
 title: Campaign finance (FEC: top fundraisers + recent filings)
 date: 2026-08-30
 record_count: 27
-new_today: 0
+new_today: 1
 state: fresh
 ---
 
 ## Campaign finance (FEC: top fundraisers + recent filings)
 
-0 new of 27 total items today.
+1 new of 27 total items today.
 
 - [[Top] OSSOFF, T. JONATHAN (DEM, Senate GA): $97.99M raised](https://www.fec.gov/data/candidate/S8GA00180/) — *2026-08-30*
   > cycle 2026 receipts $97.99M · disbursements $59.73M · net $+38.26M
@@ -37,8 +37,6 @@ state: fresh
   > cycle 2026 receipts $20.98M · disbursements $12.62M · net $+8.36M
 - [[F3] CITIZENS FOR JOHN RARIG](https://www.fec.gov/data/filing//) — **
   > cycle 1982 · filing #
-- [[F3] COMMITTEE TO ELECT SHAWN PINKSTON](https://docquery.fec.gov/pdf/787/13031062787/13031062787.pdf) — **
-  > cycle 2014 · filing #948970 · receipts $0.02M
 - [[F3] JOEL BALAM FOR CONGRESS COMMITTEE](https://docquery.fec.gov/pdf/567/12030782567/12030782567.pdf) — **
   > cycle 2012 · filing #783936 · receipts $0.00M
 - [[F3] NEW MEXICANS FOR BILL RICHARDSON](https://www.fec.gov/data/filing//) — **
@@ -61,5 +59,7 @@ state: fresh
   > cycle 2010 · filing #720559
 - [[F7] CALIFORNIA TEACHERS ASSOCIATION](https://docquery.fec.gov/pdf/694/201607070300079694/201607070300079694.pdf) — **
   > cycle 2016 · filing #1081800
+- [[F3] FRIENDS OF SCOTT ROBINSON](https://docquery.fec.gov/pdf/424/13031062424/13031062424.pdf) — **
+  > cycle 2014 · filing #870444 · receipts $0.00M
 
 _(2 additional items in raw.jsonl)_
