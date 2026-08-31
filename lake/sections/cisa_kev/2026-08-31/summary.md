@@ -2,15 +2,19 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-08-31
-record_count: 20
-new_today: 0
+record_count: 22
+new_today: 2
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 20 total items today.
+2 new of 22 total items today.
 
+- **NEW**  [CVE-2026-82078 · PaperCut NG/MF: PaperCut NG/MF Unsafe Reflection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-82078) — *2026-08-28*
+  > vendor: PaperCut · product: NG/MF · CISA remediation by 2026-09-11
+- **NEW**  [CVE-2026-81578 · PaperCut NG/MF: PaperCut NG/MF Missing Authentication for Critical Function Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-81578) — *2026-08-28*
+  > vendor: PaperCut · product: NG/MF · CISA remediation by 2026-09-11
 - [CVE-2023-49105 · ownCloud ownCloud: ownCloud Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2023-49105) — *2026-08-27*
   > vendor: ownCloud · product: ownCloud · CISA remediation by 2026-08-30
 - [CVE-2026-53362 · Linux Kernel: Linux Kernel Unspecified Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-53362) — *2026-08-27*

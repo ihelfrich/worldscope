@@ -2,129 +2,30 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-08-31
-record_count: 90
-new_today: 87
+record_count: 103
+new_today: 101
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-87 new of 90 total items today.
+101 new of 103 total items today.
 
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-2423) — *2026-08-31*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-33661) — *2026-08-31*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 31 at 4:11AM CDT by NWS Brownsville TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.026b858abec57db2e5deb3d1c958a017ed847af5.001.1) — *2026-08-31*
-  > The combination of hot temperatures and humidity levels will
-produce heat index values between 105 and 110 degrees for several
-hours this afternoon into this evening. A few locations may
-briefly experience heat index values at or above 111 degrees.
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 31 at 8:34AM MDT until August 31 at 10:30AM MDT by NWS Salt Lake City UT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.998257a4f59f8d05e5026b6479b0bcf7dd822009.001.1) — *2026-08-31*
+  > FFWSLC
 
-If spending time outside, drin
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 31 at 2:04AM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab21f8d7336f46bd8128e78444beddb8264936f7.001.1) — *2026-08-31*
-  > At 203 AM MST, Doppler radar was tracking strong thunderstorms along
-a line extending from Punkin Center to near Four Peaks to 7 miles
-south of Apache Lake. Movement was northeast at 15 mph.
+The National Weather Service in Salt Lake City has extended the
 
-HAZARD...Wind gusts up to 50 mph and pea size hail.
+* Flash Flood Warning for...
+Southern Kane County in southern Utah...
 
-SOURCE...Radar indicated.
+* Until 1030 AM MDT.
 
-IMPACT..
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued August 31 at 4:00AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f47329ef3ac085a5450596e9907dabbefa5cc92.001.1) — *2026-08-31*
-  > AQAMEG
-
-The Shelby County Health Department has issued a Code Orange Ozone
-Forecast effective for Shelby County Tennessee, Crittenden County
-Arkansas, and DeSoto County Mississippi, including the city of
-Memphis for today. This ozone forecast is due to forecasted ozone
-values tha
-- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued August 31 at 1:46AM MST until August 31 at 2:45AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c978108720b090fc8275e36d2d6c4125cfb3f673.001.1) — *2026-08-31*
-  > SVRTWC
-
-The National Weather Service in Tucson has issued a
-
-* Severe Thunderstorm Warning for...
-North Central Cochise County in southeastern Arizona...
-South Central Graham County in southeastern Arizona...
-
-* Until 245 AM MST.
-
-* At 146 AM MST, a severe thunderstorm was locate
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 1:35AM PDT until September 2 at 11:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fd081ddff9da3056b6eedf43ab87fede1f1bd0e.002.1) — *2026-08-31*
-  > * WHAT...Southeast winds 25 to 35 kt possible.
-
-* WHERE...East Entrance U. S. Waters Strait Of Juan De Fuca and
-Northern Inland Waters Including The San Juan Islands.
-
-* WHEN...From Tuesday evening through Wednesday evening.
-
-* IMPACTS...Strong winds can cause hazardous seas whic
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 1:35AM PDT until September 2 at 11:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fd081ddff9da3056b6eedf43ab87fede1f1bd0e.001.1) — *2026-08-31*
-  > * WHAT...South winds 25 to 35 kt
-
-* WHERE...Coastal Waters from Cape Flattery to Cape Shoalwater
-out to 60 nm.
-
-* WHEN...From Tuesday evening through Wednesday evening.
-
-* IMPACTS...Strong winds can cause hazardous seas which could
-capsize or damage vessels and reduce visibility.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued August 31 at 4:21AM EDT by NWS Burlington VT](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b637f7a28764709a1ba15e297ecdbd20a07292f7.001.1) — *2026-08-31*
-  > Fog is widespread across the region this morning, extending beyond
-the typical river valleys. The most dense fog is spread across St.
-Lawrence County and in northern Vermont. Give extra time to get
-to your destination. Avoid using high beams and adjust speeds to
-give space and ti
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued August 31 at 3:17AM CDT until August 31 at 7:00PM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.952de9193767ff5e44a251cdabbab676dcd52cb3.001.1) — *2026-08-31*
-  > * WHAT...West winds 20 to 35 mph with gusts up to 45 mph expected.
-
-* WHERE...Benson, Cavalier, Eastern Walsh, Grand Forks, Nelson,
-Pembina, Ramsey, Towner, and Western Walsh Counties.
-
-* WHEN...From noon today to 7 PM CDT this evening.
-
-* IMPACTS...Gusty winds will blow around u
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued August 31 at 3:07AM CDT until August 31 at 7:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39bb296feaa92adf828d458d1f57c315033ccbaa.001.1) — *2026-08-31*
-  > * WHAT...West winds to 30 mph with gusts up to 50 mph expected.
-
-* WHERE...Eastern McLean, Mercer, Sheridan, Western McLean, and Dunn
-Counties.
-
-* WHEN...From 10 AM CDT /9 AM MDT/ this morning to 7 PM CDT /6 PM
-MDT/ this evening.
-
-* IMPACTS...Objects left unsecured outside will b
-- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued August 31 at 3:07AM CDT until August 31 at 7:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39bb296feaa92adf828d458d1f57c315033ccbaa.002.1) — *2026-08-31*
-  > * WHAT...West winds to 35 mph with gusts up to 55 mph expected.
-
-* WHERE...Much of northwest and north central North Dakota.
-
-* WHEN...From 10 AM CDT /9 AM MDT/ this morning to 7 PM CDT /6 PM
-MDT/ this evening.
-
-* IMPACTS...Objects left unsecured outside will be blown around.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 31 at 2:54AM CDT until September 2 at 7:00PM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26a227ff8b1a8a499eeef7aced18b0b7e4d8e261.001.1) — *2026-08-31*
-  > * WHAT...Heat index values up to 100-103 degrees.
-
-* WHERE...Portions of central and south central Iowa, including the
-Des Moines metro.
-
-* WHEN...From 1 PM this afternoon to 7 PM CDT Wednesday.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-
-* ADDITION
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 31 at 2:51AM CDT until September 2 at 7:00PM CDT by NWS Quad Cities IA IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24fbccea2cfafbbef78a9dc10cfa58e4eade50a4.001.1) — *2026-08-31*
-  > * WHAT...Heat index values up to 103 expected.
-
-* WHERE...Portions of northwest and west central Illinois, east
-central and southeast Iowa, and northeast Missouri.
-
-* WHEN...From 1 PM this afternoon to 7 PM CDT Wednesday.
-
-* IMPACTS...Hot temperatures and high humidity may cause 
-- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 31 at 3:44AM AST until August 31 at 6:00PM AST by NWS San Juan PR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4e380f96c701c49543f1284f1fbeaf3abd0bcb11.001.1) — *2026-08-31*
+* At 834 AM MDT, gauge reports indicated thunderstorms producing
+heavy rain across the warned area. Between 0.25 a
+- **NEW**  [[Moderate] Rip Current Statement: Rip Current Statement issued August 31 at 10:30AM AST until August 31 at 6:00PM AST by NWS San Juan PR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cbabf582b0cc1b0460dcb11808109f772ce4d186.001.1) — *2026-08-31*
   > * WHAT..Life-threatening rip currents.
 
 * WHERE...Beaches of northern, eastern and southeastern Puerto
@@ -134,89 +35,178 @@ Rico, Vieques, Culebra, and the U.S. Virgin Islands.
 
 * IMPACTS...Rip currents can sweep even the best swimmers away
 from shore into deeper w
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 12:36AM PDT until September 2 at 11:00PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d7b6dabf1bee24900f4309c9eedbfe642638203.003.1) — *2026-08-31*
-  > * WHAT...Seas 8 to 13 ft at 11 seconds and south winds 25 to 35
-kt with gusts up to 40 kt possible.
+- **NEW**  [[Moderate] Wind Advisory: Wind Advisory issued August 31 at 9:01AM CDT until August 31 at 7:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21df723cfc6a69330a3ab00e5ce4be652ac0ce87.001.1) — *2026-08-31*
+  > * WHAT...West winds to 35 mph with gusts up to 55 mph expected.
 
-* WHERE...Outer Coastal Waters from Cape Shoalwater to Florence
-10 to 60 NM offshore, Coastal waters from Cape Falcon to Cape
-Foulweather OR out 10 NM, and Coastal waters from Cap
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 12:36AM PDT until September 2 at 11:00PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d7b6dabf1bee24900f4309c9eedbfe642638203.001.2) — *2026-08-31*
-  > * WHAT...For the Small Craft Advisory, Rough bar conditions
-expected. For the Gale Watch, seas 9 to 14 ft at 11 seconds
-and south winds 25 to 35 kt with gusts up to 40 kt possible.
+* WHERE...Northwest and north central North Dakota.
 
-* WHERE...In the Main Channel of the Columbia River Bar.
+* WHEN...Until 7 PM CDT /6 PM MDT/ this evening.
 
-* WHEN...Small Craft Advisory, from 2 PM
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 12:36AM PDT until September 2 at 11:00PM PDT by NWS Portland OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d7b6dabf1bee24900f4309c9eedbfe642638203.002.2) — *2026-08-31*
-  > * WHAT...For the Small Craft Advisory, seas 3 to 6 ft at 6
-seconds and north winds 10 to 20 kt with gusts up to 25 kt
-expected. For the Gale Watch, seas 9 to 14 ft at 12 seconds
-and south winds 25 to 35 kt with gusts up to 40 kt possible.
+* IMPACTS...Things left unsecured outside will be blown around.
+- **NEW**  [[Moderate] Winter Weather Advisory: Winter Weather Advisory issued August 31 at 5:52AM AKDT until September 1 at 4:00AM AKDT by NWS Fairbanks AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fe73d1b86629632511eaf775bb169ab2f52997de.001.1) — *2026-08-31*
+  > * WHAT...Snow and breezy winds. Total snow accumulations of 3 to 7
+inches above 2500 feet along the Richardson Highway near Isabel
+Pass, with heavier amounts above pass level. Northerly winds
+gusting as high as 40 mph.
 
-* WHERE...Coastal waters from Cape Shoal
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 31 at 2:33AM CDT until August 31 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.26c443477415cdaac6c534ce50d14c691978b142.001.1) — *2026-08-31*
-  > * WHAT...Visibility of one quarter mile or less in dense fog.
+* WHERE...Eastern Alaska Range.
+
+* WHEN...Until 4 AM AKDT Tu
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 31 at 6:38AM MST until August 31 at 8:30AM MST by NWS Tucson AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cb4870db3c9602c410484fbf284b743ab0da2c6.001.1) — *2026-08-31*
+  > FFWTWC
+
+The National Weather Service in Tucson has extended the
+
+* Flash Flood Warning for...
+Central Pima County in southeastern Arizona...
+
+* Until 830 AM MST.
+
+* At 638 AM MST, Doppler radar and automated rain gauges indicated
+thunderstorms producing heavy rain across the warn
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued August 31 at 6:17AM MST until August 31 at 2:15PM MST by NWS Flagstaff AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.942aea99b212d7600b85e4e8bfcc70f25a9033ff.001.1) — *2026-08-31*
+  > FFWFGZ
+
+The National Weather Service in Flagstaff has issued a
+
+* Flash Flood Warning for...
+The Paria River in...
+Coconino County in north central Arizona...
+
+* Until 215 PM MST /315 PM MDT/ Tonight.
+
+* At 617 AM MST /717 AM MDT/, Doppler radar indicated thunderstorms
+producing 
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued August 31 at 7:55AM CDT until August 31 at 10:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.179e366391ae801a5d1a4c6fdf0573125a2c64b2.001.1) — *2026-08-31*
+  > * WHAT...Visibility around one quarter mile in dense fog.
 
 * WHERE...Carlton and South St. Louis County.
 
-* WHEN...Until 9 AM CDT this morning.
+* WHEN...Until 10 AM CDT this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued August 31 at 12:22AM PDT until September 2 at 5:00PM PDT by NWS Medford OR](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8fede10a44bddbb331af1fb2de162f25ccab809c.001.2) — *2026-08-31*
-  > * WHAT...For the Small Craft Advisory, north winds 10 to 20 kt
-with gusts up to 25 kt and seas 5 to 8 ft at 15 seconds. For
-the Gale Watch, south winds 25 to 35 kt with gusts up to 45 kt
-and seas 8 to 13 ft at 9 seconds possible.
+- **NEW**  [[Severe] Flash Flood Watch: Flash Flood Watch issued August 31 at 6:35AM MDT until September 1 at 12:00AM MDT by NWS Pueblo CO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff884c147ba7cc31e23f693433ad4a64a43fe37c.001.1) — *2026-08-31*
+  > * WHAT...Flash flooding and debris flows caused by excessive rainfall
+continue to be possible over the Willow burn scar.
 
-* WHERE...All areas north of Pt. St. George and s
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 31 at 2:19AM CDT until August 31 at 8:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9ebb616af91d59ee80af89f8196b55bb3f38a62.001.1) — *2026-08-31*
-  > * WHAT...Heat index values in excess of 105 degrees expected and up
-to 110 degrees possible.
+* WHERE...A portion of central Colorado, including the following
+areas, Eastern Sawatch Mountains Above 11000 Feet, Central Lake
+County Below 11000 Feet and W
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.010.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
-central, northwest, southwest, and west central Mississippi.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.026.2) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...From noon today to 8 PM CDT this evening.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.011.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMP
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 31 at 12:13AM MST until August 31 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9595b9e6c2a2d5e31223ea62af263c1744786173.001.1) — *2026-08-31*
-  > The environment will remain conducive for periods of showers and
-thunderstorms through much of Monday, some of which will be capable
-of producing moderate to heavy rainfall. Training of storms could
-lead to an additional 1 to 2 inches of rainfall causing rapid run-off
-and floodin
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 31 at 12:13AM MST until August 31 at 12:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9595b9e6c2a2d5e31223ea62af263c1744786173.003.1) — *2026-08-31*
-  > The environment will remain conducive for periods of showers and
-thunderstorms through much of Monday, some of which will be capable
-of producing moderate to heavy rainfall. Training of storms could
-lead to an additional 1 to 2 inches of rainfall causing rapid run-off
-and floodin
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued August 31 at 12:13AM MST until August 31 at 8:00PM MST by NWS Phoenix AZ](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9595b9e6c2a2d5e31223ea62af263c1744786173.002.1) — *2026-08-31*
-  > The environment will remain conducive for periods of showers and
-thunderstorms through much of Monday, some of which will be capable
-of producing moderate to heavy rainfall. Training of storms could
-lead to an additional 1 to 2 inches of rainfall causing rapid run-off
-and floodin
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 31 at 1:44AM CDT until September 3 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29dbf24f1d48808fea9f846974e1a299a9d42072.002.1) — *2026-08-31*
-  > * WHAT...Heat index values up to 105 expected.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.012.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Christian, Mason, Menard, Sangamon, Cass, Fulton, Knox,
-Morgan, Schuyler, and Scott Counties.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.026.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...From 1 PM this afternoon to 7 PM CDT Thursday.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.027.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesse
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued August 31 at 1:44AM CDT until September 3 at 7:00PM CDT by NWS Lincoln IL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29dbf24f1d48808fea9f846974e1a299a9d42072.001.1) — *2026-08-31*
-  > * WHAT...Heat index values from 100 to 105 expected.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.028.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Portions of central, east central, and southeast Illinois.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.027.2) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...From 1 PM this afternoon to 7 PM CDT Thursday.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.029.1) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f3088a9af5a0cfddda6ff298abea94342357dfe.028.2) — *2026-08-31*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-_(65 additional items in raw.jsonl)_
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1fa4afd392048649cdc6a3ef420f6ed4cb29f9f.004.1) — *2026-08-31*
+  > Offshore Waters Forecast for the Bering Sea
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
+
+.TODAY...SW wind 20 to 35 kt. Seas 9 to 14 ft. Patchy fog.
+.T
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:29AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1fa4afd392048649cdc6a3ef420f6ed4cb29f9f.002.1) — *2026-08-31*
+  > Offshore Waters Forecast for the Bering Sea
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and swell height.
+
+.TODAY...S wind 20 to 35 kt. Seas 8 to 13 ft. Rain.
+.TONIGHT.
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:25AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50810e234b97464534766539cae2abdac833d4e.007.1) — *2026-08-31*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:25AM AKDT until August 31 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50810e234b97464534766539cae2abdac833d4e.006.1) — *2026-08-31*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:25AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50810e234b97464534766539cae2abdac833d4e.015.1) — *2026-08-31*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued August 31 at 4:25AM AKDT until September 1 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b50810e234b97464534766539cae2abdac833d4e.017.1) — *2026-08-31*
+  > Coastal Waters Forecast for the Northern Gulf of Alaska Coast
+up to 100 nm out including Kodiak Island and Cook Inlet.
+
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind wave and s
+
+_(78 additional items in raw.jsonl)_

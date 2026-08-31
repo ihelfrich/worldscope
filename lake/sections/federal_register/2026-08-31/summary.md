@@ -2,20 +2,18 @@
 section: federal_register
 title: U.S. Federal Action
 date: 2026-08-31
-record_count: 29
+record_count: 27
 new_today: 0
 state: fresh
 ---
 
 ## U.S. Federal Action
 
-0 new of 29 total items today.
+0 new of 27 total items today.
 
-- [[No title available]](https://www.federalregister.gov/documents/2026/08/31/X26-20831/no-title-available) — *2026-08-31*
-- [Further Ensuring Affordable Beef for the American Consumer](https://www.federalregister.gov/documents/2026/08/31/X26-10831/further-ensuring-affordable-beef-for-the-american-consumer) — *2026-08-31*
 - [Affirmative Asylum Referrals Without Interview](https://www.federalregister.gov/documents/2026/08/31/C3-2026-15190/affirmative-asylum-referrals-without-interview) — *2026-08-31*
 - [Declaring a National Emergency To Secure the United States Bulk-Power System](https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system) — *2026-08-31*
-- [[No title available]](https://www.federalregister.gov/documents/2026/08/31/2026-17842/no-title-available) — *2026-08-31*
+- [Further Ensuring Affordable Beef for the American Consumer](https://www.federalregister.gov/documents/2026/08/31/2026-17842/further-ensuring-affordable-beef-for-the-american-consumer) — *2026-08-31*
 - [Fifth Anniversary of the Attack at Abbey Gate](https://www.federalregister.gov/documents/2026/08/31/2026-17841/fifth-anniversary-of-the-attack-at-abbey-gate) — *2026-08-31*
 - [Permitting Use of Computer-Based, Three-Dimensional Simulation for Periodic Refresher Training on Brake Systems](https://www.federalregister.gov/documents/2026/08/31/2026-17792/permitting-use-of-computer-based-three-dimensional-simulation-for-periodic-refresher-training-on) — *2026-08-31*
   > This rule permits railroads to use a simulation that is instructor-led, computer-based, and three-dimensional (3D) to satisfy the hands-on portion of periodic refresher training under FRA's brake system training requirements, consistent with waivers FRA has granted to date. This 
@@ -55,5 +53,9 @@ state: fresh
   > In response to a request from the Alliance for Automotive Innovation (Auto Innovators), NHTSA is announcing a 30-day extension of the public comment period for the interim final rule (IFR) published on July 31, 2026 amending NHTSA's general exemption regulations to remove languag
 - [Process for Authorizing Seasonal Migratory Game Bird Hunting](https://www.federalregister.gov/documents/2026/08/31/2026-17733/process-for-authorizing-seasonal-migratory-game-bird-hunting) — *2026-08-31*
   > The U.S. Fish and Wildlife Service (Service or we) is changing the administrative process for authorizing seasonal migratory game bird hunting in the United States. Migratory game bird hunting regulations are currently promulgated annually to provide opportunities for recreation 
+- [Rescinding Unnecessary Notice and Comment Procedures](https://www.federalregister.gov/documents/2026/08/31/2026-17731/rescinding-unnecessary-notice-and-comment-procedures) — *2026-08-31*
+  > This final rule rescinds the Administration's policy of engaging in notice and comment rulemaking even where the Administrative Procedure Act does not require notice and comment rulemaking. As a result of this final rule, the Administration will follow the default requirements of
+- [Rescission of Coordinated Enforcement Regulations](https://www.federalregister.gov/documents/2026/08/31/2026-17726/rescission-of-coordinated-enforcement-regulations) — *2026-08-31*
+  > The Department of Labor (Department) is rescinding the regulations that established formal procedures for coordination of enforcement activities among the Wage and Hour Division (WHD), Occupational Safety and Health Administration (OSHA), and Employment and Training Administratio
 
-_(4 additional items in raw.jsonl)_
+_(2 additional items in raw.jsonl)_

@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-08-31
-record_count: 118
-new_today: 54
+record_count: 78
+new_today: 70
 state: fresh
 ---
 
 ## State Legislative Action
 
-54 new of 118 total items today.
+70 new of 78 total items today.
 
 - [[Alaska SB 19] An Act relating to the use and possession of electronic devices by prisoners.]() — *2026-08-30*
   > An Act relating to the use and possession of electronic devices by prisoners.
@@ -19,57 +19,51 @@ state: fresh
   > An Act creating a veteran sentencing program; relating to release procedures; amending Rules 35 and 43, Alaska Rules of Criminal Procedure; and providing for an effective date.
 - [[Alaska SB 219] An Act relating to perfluoroalkyl and polyfluoroalkyl substances; relating to thermal remediation of perfluoroalkyl and polyfluoroalkyl substance contamination; and providing for an effective date.]() — *2026-08-29*
   > An Act relating to perfluoroalkyl and polyfluoroalkyl substances; relating to thermal remediation of perfluoroalkyl and polyfluoroalkyl substance contamination; and providing for an effective date.
-- [[California AB 1969] California Community Schools Partnership Program: Promise Neighborhoods.]() — *2026-08-30*
-  > The Budget Act of 2026 appropriates, for the 2026–27 fiscal year, $1,000,000,000 from the General Fund to the State Department of Education to administer the California Community Schools Partnership Program to distribute funding to local educational agencies, as defined, in accor
-- [[California SB 1079] Department of Forestry and Fire Protection: Fire Innovation Unit.]() — *2026-08-30*
-  > Existing law establishes the Department of Forestry and Fire Protection and establishes various programs for the prevention and reduction of wildfires. 
+- **NEW**  [[California AB 1665] School athletics: coaches: youth athletics behavioral and mental health training.]() — *2026-08-31*
+  > Existing law requires the governing board of a school district to have general control of, and be responsible for, all aspects of the interscholastic athletic policies, programs, and activities in its school district, as provided, and requires the governing board of a school dist
+- **NEW**  [[California AB 282] Elections: seizure of election materials.]() — *2026-08-31*
+  > Under existing law, a county elections official is required to prepare a certified statement of the results of an election and submit it to the county board of supervisors within 30 days of the election.
 
-This bill, which would be operative until January 1, 2033, and upon appropriation by the Legislature, would establish the Fire
-- [[California AB 2760] Law enforcement: wearable electroshock devices.]() — *2026-08-30*
-  > Existing law requires each law enforcement agency, on or before January 1, 2021, to maintain a policy that provides a minimum standard on the use of force. Existing law requires that the policy include, among other things, training standards and requirements relating to demonstra
-- [[California AB 2414] Developmental services: direct support professionals.]() — *2026-08-30*
-  > Existing law, the Lanterman Developmental Disabilities Services Act, requires the State Department of Developmental Services to contract with regional centers for the provision of community services and supports for persons with developmental disabilities and their families. Exis
-- [[California AB 1546] Vehicles: driving under the influence.]() — *2026-08-30*
-  > Under existing law, if a person is convicted of either driving under the influence (DUI) of any alcoholic beverage or drug, or under the combined influence of any alcoholic beverage and drug or driving while having 0.08% or more, by weight, of alcohol in the person's blood within
-- [[California AB 1709] Covered platforms: age restriction: e-Safety Advisory Commission.]() — *2026-08-30*
-  > Existing law, the Protecting Our Kids from Social Media Addiction Act, prohibits an operator of an addictive internet-based service or application from providing an addictive feed, as defined, to a user unless the operator does not have actual knowledge that the user is a minor, 
-- [[California AB 2575] Health care services: artificial intelligence.]() — *2026-08-30*
-  > Existing law charges the Labor Commissioner with enforcement of various labor laws, including investigation of employee complaints.
+This bill would make it a felony, punishable by imprisonment for 16 months 
+- **NEW**  [[California AB 739] Common interest developments: managing agent fees.]() — *2026-08-31*
+  > Existing law, the Davis-Stirling Common Interest Development Act, governs the formation and operation of common interest developments, and requires a common interest development to be managed by an association, as specified. Existing law, unless otherwise provided by the governin
+- **NEW**  [[California AB 2484] San Diego Metropolitan Transit System: transactions and use tax: voter initiatives.]() — *2026-08-31*
+  > The Mills-Deddeh Transit Development Act establishes the San Diego Metropolitan Transit Development Board, also known as the San Diego Metropolitan Transit System (MTS) , governed by a 15-member board with specified powers and duties related to the operation of public transit ser
+- **NEW**  [[California SB 615] Vehicle traction batteries.]() — *2026-08-31*
+  > Existing law requires the Secretary for Environmental Protection to convene the Lithium-Ion Car Battery Recycling Advisory Group to review, and advise the Legislature on, policies pertaining to the recovery and recycling of lithium-ion vehicle batteries sold with motor vehicles i
+- **NEW**  [[California AB 1946] Reporting mechanism: child sexual abuse material.]() — *2026-08-31*
+  > Existing law requires a social media platform to take certain actions with respect to child sexual abuse material on the social media platform, including requiring the platform to provide, in a mechanism that is reasonably accessible to users, a means for a user who is a Californ
+- **NEW**  [[California AB 2644] Gambling Control Act.]() — *2026-08-31*
+  > (1) Existing law, the Gambling Control Act, provides for the licensure and regulation of various legalized gambling activities and establishments by the California Gambling Control Commission and the investigation and enforcement of those activities and establishments by the Depa
+- **NEW**  [[California SB 1048] State Seal of Climate Literacy.]() — *2026-08-31*
+  > Existing law establishes the State Seal of Civic Engagement to recognize pupils who have demonstrated excellence in civics education and participation and have demonstrated an understanding of the United States Constitution, the California Constitution, and the democratic system 
+- **NEW**  [[California AB 2218] Water policy: California Native American tribes.]() — *2026-08-31*
+  > Existing law establishes the sovereignty of the state.
 
-This bill would declare it is the policy of the state that a worker providing direct patient care be free to use their professional judgment to mak
-- [[California SB 16] Mental health: involuntary commitment.]() — *2026-08-30*
-  > Existing law, the Lanterman-Petris-Short Act, provides for the involuntary detention and treatment of persons with specified mental health disorders. Under the act, when a person, as a result of a mental health disorder, is a danger to others, or to themselves, or gravely disable
-- [[California AB 1642] Wildfires: contamination standards.]() — *2026-08-30*
-  > Existing law establishes the Department of Toxic Substances Control, which regulates the handling and management of hazardous waste and hazardous materials, and establishes the Office of Environmental Health Hazard Assessment and the State Air Resources Board. Existing federal la
-- [[California AB 2493] Electrical corporations: interconnection: Public Utilities Commission: transmission development monitor.]() — *2026-08-30*
-  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law requires the commission, if it determines that the rules, practices, equipment, appliances, facilities, or service of a public utili
-- [[California SB 113] Budget Act of 2026.]() — *2026-08-30*
-  > The Budget Act of 2026 made appropriations for the support of state government for the 2026–27 fiscal year.
+This bill would require the state government to support California Native Americans to maintain cultural and linguistic traditions, practice ecosystem stewardship, and engage in good faith government-to-government consultati
+- **NEW**  [[California SB 1401] Criminal procedure: competence to stand trial.]() — *2026-08-31*
+  > Existing law prohibits a person from being tried or adjudged to punishment while that person is mentally incompetent. Existing law requires the court to, for a person found mentally incompetent and not charged with certain felony offenses, among other things, determine whether re
+- **NEW**  [[California AB 1608] Office of the Inspector General, High-Speed Rail.]() — *2026-08-31*
+  > Existing law creates the High-Speed Rail Authority to develop and implement a high-speed rail system in the state. Existing law creates the High-Speed Rail Authority Office of the Inspector General and authorizes the High-Speed Rail Authority Inspector General to initiate an audi
+- [[California AB 2383] Electricity: data centers.]() — *2026-08-31*
+  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates and charges be just an
+- **NEW**  [[California AB 1405] Artificial intelligence: auditors: registration.]() — *2026-08-31*
+  > Existing law establishes the Department of Technology within the Government Operations Agency. Existing law requires the department to conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision sys
+- **NEW**  [[California SB 667] Railroads: safety: report.]() — *2026-08-31*
+  > Existing law requires the Public Utilities Commission to annually report to the Legislature on sites on railroad lines in the state that the commission finds to be hazardous, including a list of all railroad sites in the state that it determines pose a local safety hazard. Existi
+- **NEW**  [[California AB 2417] State Teachers' Retirement System: community colleges: part-time faculty.]() — *2026-08-31*
+  > Existing law establishes the California Community Colleges, administered by the Board of Governors of the California Community Colleges, as one of the segments of public postsecondary education in the state. Existing law requires the board to appoint a chief executive officer, kn
+- **NEW**  [[California AB 1235] California State University: skilled and trained workforce requirement.]() — *2026-08-31*
+  > Existing law establishes requirements that apply when a public entity is required by statute or regulation to obtain an enforceable commitment that a bidder, contractor, or other entity will use a skilled and trained workforce to complete a contract or project. Existing law also 
+- **NEW**  [[California SB 1261] Aging and Disability Resource Connection program.]() — *2026-08-31*
+  > Existing law establishes an Aging and Disability Resource Connection (ADRC) program, administered by the California Department of Aging, to provide information to consumers and their families on available long-term services and supports (LTSS) programs and to assist older adults,
+- **NEW**  [[California AB 1707] Electricians: certification application, examination, and renewal.]() — *2026-08-31*
+  > Existing law establishes the Division of Labor Standards Enforcement, under the direction of the Labor Commissioner, within the Department of Industrial Relations, for the purpose of enforcing labor laws. Existing law requires the division to maintain minimum standards for the co
+- **NEW**  [[California AB 2465] State government: benefits.]() — *2026-08-31*
+  > Existing law generally provides various benefits, including grant programs and tax credits. Existing law, the California Values Act, generally prohibits California law enforcement agencies from using their moneys or personnel for immigration enforcement purposes, except as specif
+- **NEW**  [[California AB 2261] Protective orders.]() — *2026-08-31*
+  > Existing law allows the court to issue a protective order restraining a defendant from any contact with the victim if the defendant has been convicted of specified crimes, including a crime involving domestic violence, human trafficking, a crime in furtherance of a criminal stree
+- **NEW**  [[California AB 2775] Chiropractic Act.]() — *2026-08-31*
+  > Existing law, the Chiropractic Act, enacted by an initiative measure, provides for the licensure and regulation of chiropractors in this state by the State Board of Chiropractic Examiners. Existing law subjects the powers and duties of the board to review by the appropriate polic
 
-This bill would amend that budget act by amending, adding, and repealing items of appropriation and making other changes.
-
-This bill would declare that it is to take effec
-- [[California AB 2005] Housing developments: urban lot split: owner-occupancy.]() — *2026-08-30*
-  > (1) Under the Planning and Zoning Law, the legislative body of a city or county may adopt ordinances that, among other things, regulate the use of buildings, structures, and land, as provided. The Subdivision Map Act vests the authority to regulate and control the design and impr
-- [[California AB 1331] Workplace surveillance.]() — *2026-08-30*
-  > Existing law establishes the Division of Labor Standards Enforcement within the Department of Industrial Relations. Existing law authorizes the division, which is headed by the Labor Commissioner, to enforce the Labor Code and all labor laws of the state the enforcement of which 
-- [[California AB 1871] Pupil instruction: dual enrollment: College and Career Access Pathways partnerships.]() — *2026-08-30*
-  > Existing law authorizes the governing board of a community college district to enter into a College and Career Access Pathways (CCAP) partnership with the governing board of a school district, a county office of education, or the governing body of a charter school for the purpose
-- [[California AB 2047] Firearms: 3-dimensional printing blocking technology.]() — *2026-08-30*
-  > Existing law makes it a crime to knowingly or willfully cause another person to engage in the unlawful manufacture of firearms or knowingly or willfully aiding, abetting, prompting, or facilitating the unlawful manufacture of firearms, including the manufacture of assault weapons
-- [[California AB 2727] Corrections: parole and prerelease treatment.]() — *2026-08-30*
-  > Existing law requires the Board of Parole Hearings, among other responsibilities, to conduct parole suitability hearings and determine whether an individual is suitable for parole. Existing law establishes the Elderly Parole Program for the purpose of reviewing parole suitability
-- [[California AB 1307] Licensed Dentists from Mexico Pilot Program.]() — *2026-08-30*
-  > Existing law, the Licensed Dentists from Mexico Pilot Program, requires the Dental Board of California to issue 3-year nonrenewable permits to practice dentistry to dentists from Mexico who meet specified criteria.
-
-This bill would repeal those provisions and replace them with a 
-- [[California AB 1795] Smoke Damage Recovery Act.]() — *2026-08-30*
-  > (1) Existing law generally regulates classes of insurance, including fire and residential property insurance. Existing law specifies the measure of indemnity under an open fire insurance policy that requires payment of actual cash value or replacement cost. If there is a covered 
-- [[California SB 1098] Public Utilities Commission: memorandum and balancing accounts.]() — *2026-08-30*
-  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations and gas corporations. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates a
-- [[California AB 2440] Arts and Music in Schools—Funding Guarantee and Accountability Act: allowable uses: pooled funding: certifications.]() — *2026-08-30*
-  > Existing law, the Arts and Music in Schools—Funding Guarantee and Accountability Act, an initiative measure approved by the voters as Proposition 28 at the November 8, 2022, statewide general election, provides a minimum source of annual funding to K–12 public schools, including 
-- [[California AB 1349] Consumer protection: ticket sellers.]() — *2026-08-30*
-  > Existing law provides comprehensive regulation of ticket sellers, defined as a person who, for compensation, commission, or otherwise, sells admission tickets to a sporting, musical, theater, or any other entertainment event. In this regard, existing law, among other things, proh
-
-_(93 additional items in raw.jsonl)_
+_(53 additional items in raw.jsonl)_
