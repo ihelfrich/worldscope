@@ -2,72 +2,68 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-09-01
-record_count: 89
-new_today: 82
+record_count: 62
+new_today: 57
 state: fresh
 ---
 
 ## State Legislative Action
 
-82 new of 89 total items today.
+57 new of 62 total items today.
 
 - **NEW**  [[Alaska SB 158] An Act relating to administrative areas for regulation of certain commercial set net entry permits; and providing for an effective date.]() — *2026-08-31*
   > An Act relating to administrative areas for regulation of certain commercial set net entry permits; and providing for an effective date.
 - [[Alaska SB 19] An Act relating to the use and possession of electronic devices by prisoners.]() — *2026-08-30*
   > An Act relating to the use and possession of electronic devices by prisoners.
-- **NEW**  [[California AB 114] Budget Acts of 2022, 2023, 2024, and 2025.]() — *2026-08-31*
-  > The Budget Acts of 2022, 2023, 2024, and 2025 made appropriations for the support of state government for the 2022–23, 2023–24, 2024–25, and 2025–26 fiscal years, respectively.
+- **NEW**  [[California SB 942] Civil detainees.]() — *2026-09-01*
+  > Existing law, the Lanterman-Petris-Short (LPS) Act, authorizes the involuntary commitment and treatment of a person, when the person, as a result of a mental health disorder, is a danger to themselves or others, or is gravely disabled. Existing law grants persons involuntarily de
+- **NEW**  [[California SB 327] Public utilities: review of accounts: electrical and gas corporations: rates: political influence activities.]() — *2026-09-01*
+  > Existing law authorizes the Public Utilities Commission to fix the rates and charges for public utilities, including electrical corporations and gas corporations, and requires those rates and charges to be just and reasonable. Under existing law, a regulated public utility is pro
+- **NEW**  [[California AB 1728] Community colleges: common course numbering system: career technical education public safety courses.]() — *2026-09-01*
+  > Existing law requires the California Community Colleges, on or before July 1, 2027, to adopt a common course numbering system for all general education requirement courses and transfer pathway courses, and requires each community college campus, on or before July 1, 2027, to inco
+- **NEW**  [[California AB 194] Transportation.]() — *2026-09-01*
+  > Existing law, until September 1, 2031, requires the State Air Resources Board, with funds provided in the Budget Act of 2026, to establish a new zero-emission electric vehicle incentive program for first-time zero-emission vehicle buyers and, as part of that program, to enter int
+- **NEW**  [[California AB 2167] Property tax: documentary transfer tax: exemptions: nonprofit corporations chartered under tribal or federal law.]() — *2026-09-01*
+  > (1) The California Constitution authorizes the Legislature to exempt from taxation, in whole or in part, property that is used exclusively for religious, hospital, or charitable purposes, and is owned or held in trust by a nonprofit entity. Pursuant to that authority, existing la
+- **NEW**  [[California AB 2012] Vehicles: transportation of manufactured homes.]() — *2026-09-01*
+  > Existing law authorizes the Department of Transportation or a local authority, upon application in writing and if good cause appears, to issue a special or annual permit for the transporting of a manufactured home that does not exceed 14 feet in total width, exclusive of lights a
+- **NEW**  [[California SB 1246] Autonomous vehicles.]() — *2026-09-01*
+  > (1) Existing law authorizes the operation of an autonomous vehicle on public roads for testing purposes by a driver who possesses the proper class of license for the type of vehicle operated if specified requirements are satisfied. Existing law prohibits the operation of an auton
+- **NEW**  [[California AB 2414] Developmental services: direct support professionals.]() — *2026-09-01*
+  > Existing law, the Lanterman Developmental Disabilities Services Act, requires the State Department of Developmental Services to contract with regional centers for the provision of community services and supports for persons with developmental disabilities and their families. Exis
+- **NEW**  [[California SB 661] Airports: financial assistance.]() — *2026-09-01*
+  > The State Aeronautics Act establishes the Aeronautics Account in the State Transportation Fund, and continuously appropriates the moneys in the account for expenditure for airport purposes by the Division of Aeronautics within the Department of Transportation and the California T
+- **NEW**  [[California SB 1116] Planning and zoning: housing development projects: subdivisions.]() — *2026-09-01*
+  > (1) Under the Planning and Zoning Law, the legislative body of a city or county may adopt ordinances that, among other things, regulate the use of buildings, structures, and land, as provided. The Subdivision Map Act vests the authority to regulate and control the design and impr
+- **NEW**  [[California AB 2076] The Parent's Accountability and Child Protection Act: online marketplaces: nitrous oxide.]() — *2026-09-01*
+  > Existing law requires a person or business that conducts business in California and that seeks to sell specified products or services, to take reasonable steps, as specified, to ensure that the purchaser is of legal age at the time of purchase or delivery, including, but not limi
+- **NEW**  [[California AB 115] Budget Act of 2025.]() — *2026-09-01*
+  > This bill would express the intent of the Legislature to enact statutory changes relating to the Budget Act of 2025.
+- **NEW**  [[California SB 58] Air quality: standard: hydrogen sulfide.]() — *2026-09-01*
+  > Existing law generally designates the State Air Resources Board as the state agency with the primary responsibility for the control of vehicular air pollution, and designates air pollution control districts and air quality management districts with the primary responsibility for 
+- **NEW**  [[California SB 1414] County of San Bernardino Citizens Redistricting Commission.]() — *2026-09-01*
+  > Existing law requires the board of supervisors of each county, following each decennial federal census, and using that census as a basis, to adjust the boundaries of any or all of the supervisorial districts of the county so that the districts are as nearly equal in population as
+- **NEW**  [[California AB 2700] Public Utilities Commission: electrical corporations: wildfire victim restitution shortfalls: report: restitution mechanisms.]() — *2026-09-01*
+  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including electrical corporations. Existing law requires the Wildfire Fund Administrator, in consultation with the commission and other entities, to prepare and submit to the Legis
+- **NEW**  [[California AB 1116] Elections: voter registration.]() — *2026-09-01*
+  > Existing law authorizes a person who is qualified to register to vote and who has a valid California driver's license or state identification card to submit an affidavit of voter registration electronically on the Secretary of State's internet website. Existing law requires this 
+- **NEW**  [[California AB 1905] Juveniles: custodial interrogation.]() — *2026-09-01*
+  > Existing law prohibits law enforcement officers from employing threats, physical harm, deception, or psychologically manipulative interrogation tactics, as specified, during a custodial interrogation of a person 17 years of age or younger.
 
-This bill would amend those budget acts by amending, adding, and repealing items of appropriation and 
-- **NEW**  [[California SB 1369] Recall petitions.]() — *2026-08-31*
-  > (1) Existing law requires a state or local initiative, referendum, or recall petition that is required to be signed by voters to contain specified notices, including a notice that the petition may be circulated by a paid signature gatherer or volunteer.
+This bill would prohibit a law enforcem
+- **NEW**  [[California AB 2543] Emergency preparedness: fuel and transportation resources: assessment.]() — *2026-09-01*
+  > Existing law, the California Emergency Services Act, generally prescribes duties with regard to various types of emergencies and disasters, including requiring the Governor to coordinate the State Emergency Plan and those programs necessary for the mitigation of the effects of an
+- **NEW**  [[California AB 760] Income taxes: exclusions: 2026 Garden Grove chemical leak.]() — *2026-09-01*
+  > The Personal Income Tax Law and the Corporation Tax Law, in conformity with federal income tax law, generally define "gross income" as income from whatever source derived, except as specifically excluded, and provide various exclusions from gross income. 
 
-This bill would additiona
-- **NEW**  [[California AB 2163] Energy: Strategic Clean Energy and Critical Mineral Development Zones.]() — *2026-08-31*
-  > Existing law, the Warren-Alquist State Energy Resources Conservation and Development Act, establishes the State Energy Resources Conservation and Development Commission and prescribes the authorities, duties, and responsibilities of the commission pertaining to energy matters.
+This bill would, for ta
+- **NEW**  [[California AB 2594] Voluntary employees' beneficiary association pilot program.]() — *2026-09-01*
+  > Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care. Existing law authorizes the Director of the Department of Managed Health Care to authorize a pilot p
+- **NEW**  [[California AB 1680] California FAIR Plan Association.]() — *2026-09-01*
+  > The California FAIR Plan Association is a joint reinsurance association in which all insurers licensed to write basic property insurance participate to administer a program for the equitable apportionment of basic property insurance for persons who are unable to obtain that cover
+- **NEW**  [[California AB 2577] Safe Drinking Water and Toxic Enforcement Act of 1986: settlements: attorney's fees.]() — *2026-09-01*
+  > The Safe Drinking Water and Toxic Enforcement Act of 1986, an initiative measure approved by the voters as Proposition 65 at the November 4, 1986, statewide general election, prohibits a person, in the course of doing business, from knowingly and intentionally exposing any indivi
+- **NEW**  [[California SB 1345] Foster children: rights of foster youth.]() — *2026-09-01*
+  > Existing law generally provides for the placement of foster youth in various settings and governs the provision of child welfare services, which is defined to mean public social services that are directed toward the accomplishment of specified purposes, including protecting and p
 
-T
-- **NEW**  [[California AB 1609] Customer service chatbots.]() — *2026-08-31*
-  > Existing law prohibits a person from using a bot, as defined, to mislead another person about the bot's artificial identity to incentivize the purchase or sale of goods or services, among other things. Existing law requires an operator of a companion chatbot, as defined, to provi
-- **NEW**  [[California AB 2469] Data centers: water use disclosures.]() — *2026-08-31*
-  > The Planning and Zoning Law authorizes the legislative body of any county or city to adopt ordinances that, among other things, regulate the use of buildings, structures, and land as between industry, businesses, residences, and open space, as specified.
-
-This bill would prohibit
-- [[California SB 1009] Juveniles: detention.]() — *2026-08-31*
-  > (1) Existing law requires a court to determine whether a minor in custody will be released from, or detained in, custody, considering, among other things, whether it is a matter of immediate and urgent necessity for the protection of the minor or reasonably necessary for the prot
-- **NEW**  [[California AB 1896] Public employment: disqualifications.]() — *2026-08-31*
-  > Existing law contains numerous provisions governing the qualifications, standards, and training of peace officers. Existing law specifies circumstances that disqualify a person from holding office or being employed as a peace officer, including, among other things, having been co
-- **NEW**  [[California SB 716] Local government: ordinances: penalties for violation: nonresidential structures.]() — *2026-08-31*
-  > Existing law makes the violation of a county ordinance or a city ordinance a misdemeanor unless by ordinance it is made an infraction. Existing law specifies monetary fines for any violation of local ordinances that is an infraction, not to exceed specified amounts that vary base
-- **NEW**  [[California AB 175] Developmental services: community placement plans and community resource development plans.]() — *2026-08-31*
-  > Existing law, the Lanterman Developmental Disabilities Services Act, requires the State Department of Developmental Services to contract with regional centers to provide services and supports to persons with developmental disabilities and their families. Existing law requires the
-- **NEW**  [[California AB 1811] Health professionals.]() — *2026-08-31*
-  > (1) Existing federal law requires the Secretary of Health and Human Services to designate health professional shortage areas and requires the secretary, in establishing criteria for the designation of those areas, to consider, among other things, the ratio of available health man
-- **NEW**  [[California SB 167] Higher education budget trailer bill.]() — *2026-08-31*
-  > Existing law prohibits a student who will be 28 years of age or older by December 31 of an award year from receiving a California Community College Transfer Cal Grant Entitlement Award except, from the 2026–27 award year to the 2030–31 award year, inclusive, existing law instead 
-- **NEW**  [[California SB 1130] Invasion of privacy: wearable recording devices.]() — *2026-08-31*
-  > Existing law prohibits the intentional use of an electronic amplifying or recording device to eavesdrop upon or record a confidential communication, as specified, without the consent of all parties to the communication. Existing law additionally prohibits tapping a communication 
-- **NEW**  [[California AB 196] School Energy Efficiency Stimulus Program.]() — *2026-08-31*
-  > Existing law vests the Public Utilities Commission (PUC) with regulatory authority over public utilities, including electrical corporations and gas corporations. Existing law requires the PUC to require those electrical corporations with 250,000 or more customer accounts in the s
-- **NEW**  [[California AB 191] 2028 Olympic and Paralympic Games.]() — *2026-08-31*
-  > (1) Existing law, the State Athletic Commission Act, establishes in the Department of Consumer Affairs the State Athletic Commission with prescribed licensing, regulatory, and disciplinary functions relating to boxing, wrestling, and martial arts. The act prohibits an event from 
-- **NEW**  [[California AB 1813] Electricity: customer renewable energy subscription program.]() — *2026-08-31*
-  > Existing law vests the Public Utilities Commission (PUC) with regulatory authority over public utilities, including electrical corporations. Existing law requires the PUC, on or before March 31, 2024, to evaluate each customer renewable energy subscription program to determine if
-- **NEW**  [[California AB 2513] Wildfire: Regional Forest and Fire Capacity Program: local assistance grant program: regional landscape grants.]() — *2026-08-31*
-  > Existing law requires the Wildfire and Forest Resilience Task Force, including the Natural Resources Agency, the California Environmental Protection Agency, the Office of Planning and Research, and the Department of Forestry and Fire Protection, in coordination with certain publi
-- **NEW**  [[California SB 186] Income taxes: film tax credits.]() — *2026-08-31*
-  > (1) The Personal Income Tax Law and the Corporation Tax Law authorize various credits against the taxes imposed by those laws, including various motion picture credits, commonly referred to as motion picture credit 1.0, 2.0, 3.0, and 4.0, and the certified studio credit, to be al
-- [[California AB 190] Early care and education.]() — *2026-08-31*
-  > (1) Existing law, the Early Education Act, among other things, requires the Superintendent of Public Instruction to administer all California state preschool programs. The act establishes a standard reimbursement rate for both the part-day and full-day preschool programs, as prov
-- **NEW**  [[California SB 192] Energy: transmission infrastructure accelerator: financing.]() — *2026-08-31*
-  > (1) Existing law creates the Energy Unit within the Governor's Office of Business and Economic Development (GO-Biz) and requires the unit to establish a Transmission Infrastructure Accelerator (accelerator) , in coordination with certain entities, for purposes of developing a fin
-- **NEW**  [[California SB 715] Elections.]() — *2026-08-31*
-  > Existing law requires the Secretary of State to transmit a certified list of candidates for partisan and voter-nominated offices eligible to be voted on within each county to the county elections official at least 68 days before a primary or general election. Existing law also re
-- **NEW**  [[California AB 2103] Office of Data and Innovation: Engaged California Program.]() — *2026-08-31*
-  > Existing law establishes the Office of Data and Innovation within the Government Operations Agency with a mission to deliver better government services to the people of California through technology and service innovation, data, and design. Existing law establishes the Data and I
-- **NEW**  [[California SCR 180] Hydrogen: decarbonization tool.]() — *2026-08-31*
-  > This measure would recognize hydrogen as a key decarbonization tool when produced, transported, and utilized in accordance with a carbon intensity standard that ensures verifiable lifecycle greenhouse gas reductions; supports the continued development and refinement of carbon int
-- [[California AB 192] Energy: transmission infrastructure accelerator: financing.]() — *2026-08-31*
-  > (1) Existing law creates the Energy Unit within the Governor's Office of Business and Economic Development (GO-Biz) and requires the unit to establish a Transmission Infrastructure Accelerator (accelerator) , in coordination with certain entities, for purposes of developing a fin
-
-_(64 additional items in raw.jsonl)_
+_(37 additional items in raw.jsonl)_

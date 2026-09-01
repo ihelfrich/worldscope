@@ -2,172 +2,161 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-09-01
-record_count: 137
-new_today: 135
+record_count: 145
+new_today: 144
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-135 new of 137 total items today.
+144 new of 145 total items today.
 
-- **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued September 1 at 4:34AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7dfe3e0817447706f47e391f096ba064f76528b0.001.1) — *2026-09-01*
-  > HLSHGX
-
-This product covers Southeast Texas
-
-EDOUARD BECOMING BETTER ORGANIZED AS IT APPROACHES THE COAST NEAR THE TEXAS
-AND LOUISIANA BORDER.
-
-NEW INFORMATION
----------------
-
-* CHANGES TO WATCHES AND WARNINGS:
-- A Tropical Storm Warning has been issued for Southern Liberty
-
-* C
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-53668) — *2026-09-01*
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-44627) — *2026-09-01*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 4:20AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae839e7d2c74c9feb772a68f09eac089fa0d40c5.001.1) — *2026-09-01*
-  > * WHAT...Southeast winds 30 to 35 kt with gusts up to 50 kt near
-the center and seas 4 to 8 ft.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 1 at 8:09AM EDT by NWS Binghamton NY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb627ec4ca9852e5cfc30f968d59cb0d6235d66c.001.1) — *2026-09-01*
+  > At 808 AM EDT, Doppler radar was tracking a cluster of strong
+thunderstorms over Union Center, or near Endicott, moving east at 45
+mph.
 
-* WHERE...Portions of and the coastal lakes and bays of the Gulf
-of America.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHEN... This evening into tomorrow.
+SOURCE...Radar indicated.
 
-* IMPACTS...Tropical storm force winds and hazardous seas will
-cap
-- **NEW**  [[Severe] Flood Watch: Flood Watch issued September 1 at 4:14AM CDT until September 2 at 7:00AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39a303dbc31cf3efd85f3db65a23bd4e81aa7da4.001.1) — *2026-09-01*
-  > * WHAT...Flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...A portion of southeast Texas, including the following
-areas, Bolivar Peninsula, Brazoria Islands, Chambers, Coastal
-Brazoria, Coastal Galveston, Coastal Harris, Fort Bend, Galveston
-Island, Inland
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 1 at 4:11AM CDT until September 1 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2cc87292b7d0b5272b29aa59be808c11e8dfb0a.001.1) — *2026-09-01*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Barron and Rusk Counties.
-
-* WHEN...Until 9 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 1 at 4:10AM CDT until September 1 at 9:00AM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.591b76acc1528f88e53199417d13126f720d7e09.001.1) — *2026-09-01*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Price, Ashland, Bayfield, Douglas, Iron, Sawyer, and
-Washburn Counties.
-
-* WHEN...Until 9 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued September 1 at 4:08AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dcaabff422244e988afdb4afe4db48e5307dbb2.001.1) — *2026-09-01*
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured object
+- **NEW**  [[Moderate] Tropical Cyclone Local Statement: Tropical Cyclone Local Statement issued September 1 at 7:01AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.600eadd749db164aeca7e4457b3085c4012c3e00.001.1) — *2026-09-01*
   > HLSLCH
 
 This product covers Southwest Louisiana and Southeast Texas
 
-**Tropical Storm Edouard Expected To Strengthen Before Landfall This Afternoon**
+**Tropical Storm Edouard Expected To Strengthen Before Landfall This
+Afternoon**
+
 
 NEW INFORMATION
 ---------------
 
 * CHANGES TO WATCHES AND WARNINGS:
-- A Tropical Storm Warning has been issued for Hardin, Northe
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 4:08AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12f9c5d238caa23942590517ff9423e61791380f.001.1) — *2026-09-01*
-  > * WHAT...Winds 20 to 25 knots. Gusts up to 45 knots in rainbands.
-Seas 3 to 5 ft, occasionally higher.
+- A Tropical Storm Warning has been issued for Northern Calc
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 1 at 7:00AM CDT until September 1 at 7:00PM CDT by NWS Jackson MS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.917d98a65aec6780765af07a3fa19eadaf58f769.001.1) — *2026-09-01*
+  > * WHAT...Heat index values up to 110 expected.
 
-* WHERE...Coastal waters from High Island to Freeport TX out 20
-NM and Waters from High Island to Freeport TX from 20 to 60 NM.
+* WHERE...Portions of southeast Arkansas, northeast Louisiana, and
+central, north central, northwest, south central, southwest, and
+west central Mississippi.
 
-* WHEN...Until 9 AM CDT Wednesday.
+* WHEN...From 11 AM this morning to 7 PM CDT this evening.
 
-* IMPACTS..
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 4:05AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8348993b47e58a3ec9d99e3a0cb40aa7b6d46e70.002.1) — *2026-09-01*
-  > * LOCATIONS AFFECTED
-- Anahuac
-- Beach City
-- Mont Belview
+* IMPACTS...H
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 1 at 6:56AM CDT until September 1 at 9:00AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b931ccf30324a197d15bd43ebe9999398f3663a8.001.1) — *2026-09-01*
+  > * WHAT...Visibility one quarter mile or less in dense fog through 8
+am, then visibilities should improve gradually.
 
-* WIND
-- LATEST LOCAL FORECAST: Tropical storm force gusts.
-- Peak Wind Forecast: 20-30 mph with gusts to 40 mph
-- Higher winds likely if system deviates a little west of the
-expected track.
+* WHERE...Portions of central, north central, and northeast
+Wisconsin.
 
-- THREAT TO LIFE AND PROPERT
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 4:05AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8348993b47e58a3ec9d99e3a0cb40aa7b6d46e70.001.1) — *2026-09-01*
-  > * LOCATIONS AFFECTED
-- Bolivar
-- Crystal Beach
-- High Island
+* WHEN...Until 9 AM CDT this morning.
 
-* WIND
-- LATEST LOCAL FORECAST: Potential tropical storm force gusts.
-- Peak Wind Forecast: Generally 20-30 MPH, but gusting over 45
-MPH within heavy rainbands. Higher winds likely if center
-deviates west of the track.
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 4:05AM CDT by NWS Houston/Galveston TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8348993b47e58a3ec9d99e3a0cb40aa7b6d46e70.003.1) — *2026-09-01*
-  > A Tropical Storm Warning means tropical storm-force winds are
-expected somewhere within this area within the next 36 hours
+* IMPACTS...Low visibility could make driving condit
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.022.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* LOCATIONS AFFECTED
-- Ames
-- Devers
-- Liberty
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.019.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WIND
-- LATEST LOCAL FORECAST: Winds generally 15-25 MPH. Gusts over 40
-MPH expected within rainbands. High
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 1 at 4:03AM CDT until September 4 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.483e5bcdc41a121751072a2bfc287cc7a2171595.001.1) — *2026-09-01*
-  > * WHAT...Heat index values up to 105.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.021.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Portions of east central and northeast Kansas and central,
-north central, northeast, northwest, and west central Missouri.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.026.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...Until 8 PM CDT Friday.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.005.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.037.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.027.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued September 1 at 1:59AM PDT until September 2 at 11:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d1b462a07e9c244117ec2f313f190a951fc964.001.1) — *2026-09-01*
-  > * WHAT...South winds 25 to 35 kt and seas 6 to 11 ft possible.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.020.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...Coastal Waters from Cape Flattery to Cape Shoalwater
-out to 60 nm.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.024.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...From this evening through Wednesday evening.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.025.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMPACTS...Strong winds can cause hazardous seas which could
-capsize or damage ves
-- **NEW**  [[Moderate] Gale Watch: Gale Watch issued September 1 at 1:59AM PDT until September 2 at 11:00PM PDT by NWS Seattle WA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d1b462a07e9c244117ec2f313f190a951fc964.002.1) — *2026-09-01*
-  > * WHAT...Southeast winds 20 to 30 kt with frequent gusts to 35 kt
-possible.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.012.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHERE...East Entrance U. S. Waters Strait Of Juan De Fuca,
-Northern Inland Waters Including The San Juan Islands and
-Admiralty Inlet.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 1 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.029.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* WHEN...From this evening through Wednesday evening.
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.018.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* IMPACTS..
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.010.1) — *2026-09-01*
-  > A Tropical Storm Warning means tropical storm-force winds are
-expected somewhere within this area within the next 36 hours
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Moderate] Gale Warning: Gale Warning issued September 1 at 3:54AM AKDT until September 2 at 5:00PM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f35646b4452ecc443137ac9cfe95775bc173843.023.1) — *2026-09-01*
+  > Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The
+Alaska Peninsula Waters and the Aleutian Islands up to 100 nm out.
 
-* LOCATIONS AFFECTED
-- Kountze
-- Lumberton
-- Silsbee
-
-* WIND
-- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 35-45 mph w
-- **NEW**  [[Severe] Hurricane Watch: Hurricane Watch issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.003.1) — *2026-09-01*
+Wind forecasts reflect the predominant speed and direction
+expected. Sea forecasts represent an average of the highest
+one-third of the combined wind w
+- **NEW**  [[Severe] Hurricane Watch: Hurricane Watch issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.003.1) — *2026-09-01*
   > * LOCATIONS AFFECTED
 - Johnson Bayou
 - Holly Beach
@@ -179,29 +168,7 @@ expected somewhere within this area within the next 36 hours
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRACK, SIZE AND INTENS
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.007.1) — *2026-09-01*
-  > A Tropical Storm Warning means tropical storm-force winds are
-expected somewhere within this area within the next 36 hours
-
-* LOCATIONS AFFECTED
-- Mauriceville
-
-* WIND
-- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 40-50 mph with gusts to 60 m
-- **NEW**  [[Extreme] Storm Surge Warning: Storm Surge Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.003.2) — *2026-09-01*
-  > * LOCATIONS AFFECTED
-- Johnson Bayou
-- Holly Beach
-- Hackberry
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-35 mph with gusts to 45 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENS
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.001.3) — *2026-09-01*
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.001.3) — *2026-09-01*
   > * LOCATIONS AFFECTED
 - Nederland
 - Port Arthur
@@ -214,76 +181,57 @@ UNCERTAINTY IN TRACK, SIZE AND INTENS
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
 UNCERTAINTY IN TRA
-- **NEW**  [[Extreme] Storm Surge Warning: Storm Surge Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.004.1) — *2026-09-01*
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.002.1) — *2026-09-01*
   > * LOCATIONS AFFECTED
-- Cameron
-- Creole
-- Grand Chenier
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-15 mph with gusts to 30 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Po
-- **NEW**  [[Severe] Hurricane Watch: Hurricane Watch issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.001.1) — *2026-09-01*
-  > * LOCATIONS AFFECTED
-- Nederland
-- Port Arthur
-- Sabine Pass
-- Sea Rim State Park
-
-* WIND
-- LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 25-35 mph with gusts to 45 mph
-
-- THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRA
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.002.1) — *2026-09-01*
-  > A Tropical Storm Warning means tropical storm-force winds are
-expected somewhere within this area within the next 36 hours
-
-* LOCATIONS AFFECTED
 - Bridge City
 - Orange
 - Vidor
 
 * WIND
 - LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 45-55 mph wi
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.004.2) — *2026-09-01*
+- Peak Wind Forecast: 45-55 mph with gusts to 65 mph
+- Window for Tropical Storm force winds: until late this
+afternoon
+
+- THREAT TO LIFE AND PROPERTY THAT IN
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.012.1) — *2026-09-01*
   > * LOCATIONS AFFECTED
-- Cameron
-- Creole
-- Grand Chenier
+- Kountze
+- Lumberton
+- Silsbee
+
+* WIND
+- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
+- Peak Wind Forecast: 35-45 mph with gusts to 50 mph
+- Window for Tropical Storm force winds: until early this
+evening
+
+- THREAT TO LIFE AND PROPERTY THAT IN
+- **NEW**  [[Extreme] Storm Surge Warning: Storm Surge Warning issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.003.2) — *2026-09-01*
+  > * LOCATIONS AFFECTED
+- Johnson Bayou
+- Holly Beach
+- Hackberry
 
 * WIND
 - LATEST LOCAL FORECAST: Below tropical storm force wind
-- Peak Wind Forecast: 10-15 mph with gusts to 30 mph
+- Peak Wind Forecast: 25-35 mph with gusts to 45 mph
 
 - THREAT TO LIFE AND PROPERTY THAT INCLUDES TYPICAL FORECAST
-UNCERTAINTY IN TRACK, SIZE AND INTENSITY: Po
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.009.1) — *2026-09-01*
+UNCERTAINTY IN TRACK, SIZE AND INTENS
+- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 6:53AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9d2f334b4e17cdb489664abf31fdcbf3f04ccbc.006.1) — *2026-09-01*
   > A Tropical Storm Warning means tropical storm-force winds are
 expected somewhere within this area within the next 36 hours
 
 * LOCATIONS AFFECTED
-- Buna
-- Evadale
+- Lake Charles
+- Carlyss
+- Bell City
+- Hayes
+- Iowa
 
 * WIND
-- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 30-40 mph with gusts to 50
-- **NEW**  [[Severe] Tropical Storm Warning: Tropical Storm Warning issued September 1 at 3:57AM CDT by NWS Lake Charles LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.93537552deb6372dcd86a80e9188997e2580c6ad.006.1) — *2026-09-01*
-  > A Tropical Storm Warning means tropical storm-force winds are
-expected somewhere within this area within the next 36 hours
+- LATEST LOCAL FORECAST: Below tropical storm force wind
+- Peak Wind Foreca
 
-* LOCATIONS AFFECTED
-- Beaumont
-- China
-
-* WIND
-- LATEST LOCAL FORECAST: Equivalent Tropical Storm force wind
-- Peak Wind Forecast: 35-45 mph with gusts to 
-
-_(112 additional items in raw.jsonl)_
+_(120 additional items in raw.jsonl)_
