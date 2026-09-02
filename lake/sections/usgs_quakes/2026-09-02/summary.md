@@ -3,18 +3,20 @@ section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-09-02
 record_count: 19
-new_today: 18
+new_today: 19
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-18 new of 19 total items today.
+19 new of 19 total items today.
 
 - **NEW**  [M 5.6 - 159 km WSW of Abepura, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhl) — *2026-09-02*
   > M5.6 · 159 km WSW of Abepura, Indonesia · depth 69.052 km
 - **NEW**  [M 5.3 - 66 km NNW of Arthurs Point, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj8) — *2026-09-02*
   > M5.3 · 66 km NNW of Arthurs Point, New Zealand · depth 10 km
+- **NEW**  [M 5.2 - South Sandwich Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr) — *2026-09-02*
+  > M5.2 · South Sandwich Islands region · depth 84.064 km
 - **NEW**  [M 5.2 - 70 km NNW of Arthurs Point, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdjg) — *2026-09-02*
   > M5.2 · 70 km NNW of Arthurs Point, New Zealand · depth 10 km
 - **NEW**  [M 5.2 - 95 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdin) — *2026-09-02*
@@ -29,8 +31,6 @@ state: fresh
   > M4.9 · 98 km SSW of Nikolski, Alaska · depth 38.517 km
 - **NEW**  [M 4.9 - 56 km NNE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tder) — *2026-09-01*
   > M4.9 · 56 km NNE of Ruteng, Indonesia · depth 10 km
-- [M 4.9 - 117 km WNW of Pangai, Tonga](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbc) — *2026-09-01*
-  > M4.9 · 117 km WNW of Pangai, Tonga · depth 198.068 km
 - **NEW**  [M 4.7 - 43 km NE of Ruteng, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj7) — *2026-09-02*
   > M4.7 · 43 km NE of Ruteng, Indonesia · depth 10 km
 - **NEW**  [M 4.7 - Mid-Indian Ridge](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh4) — *2026-09-01*

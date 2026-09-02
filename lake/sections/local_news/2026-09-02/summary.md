@@ -2,15 +2,21 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-09-02
-record_count: 239
-new_today: 201
+record_count: 243
+new_today: 212
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-201 new of 239 total items today.
+212 new of 243 total items today.
 
+- **NEW**  [[St. Louis] A home in the Grand Center Arts District hits the market](https://www.stlmag.com/design/property/3830-olive-street-grand-center/) — *2026-09-02*
+  > <p>Contemporary LivingDesigned by renowned MOS Architects, this single-family residence blends both contemporary and outdoor living. Expansive glass walls throughout the house frame views of the surrounding gardens and outdoor spaces, and clean lines and intentional design elemen
+- **NEW**  [[St. Louis] 5 ways St. Louis can take care of its e-bike problem](https://www.stlmag.com/culture/5-ways-st-louis-can-take-care-of-its-e-bike-problem/) — *2026-09-02*
+  > <p>As St. Louis continues to be smothered by an avalanche of technology-driven problems like computer-assisted carjackings and energy-guzzling data centers, there’s only one problem we can all agree is worse than all of these things combined: people riding e-bikes. An e-bike is l
+- **NEW**  [[St. Louis] St. Louis is already seeing results from Missouri legislature’s plan to revitalize downtowns](https://www.stlmag.com/business/st-louis-seeing-results-innovation-zone-law/) — *2026-09-02*
+  > <p>There was fanfare and palpable relief earlier this year when Governor Mike Kehoe signed into law sweeping legislation designed to boost the economic prospects of downtowns across the state. And now, backers of the Missouri Innovation, Public Safety, and Accountability Act say 
 - **NEW**  [[St. Louis] South County man shouted racial slur, opened fire on teen](https://www.stlmag.com/news/kyle-blair-slur-opened-fire/) — *2026-09-01*
   > <p>A South County man in his 40s turned himself into police on Monday after allegedly going on a racial slur-filled rampage at his apartment complex off Lemay Ferry Road. Kyle C. Blair is currently in St. Louis County Jail facing four felonies for allegedly shooting at his neighb
 - **NEW**  [[St. Louis] Where in Chesterfield 9/2/2026](https://www.stlmag.com/games/where-in-chesterfield-090226/) — *2026-09-01*
@@ -25,41 +31,35 @@ state: fresh
   > <p>In this latest edition of This Month in Your Garden, Ian Graves of Quiet Village Landscaping, shares his to-do list 1. Prepare for fall As one hot summer comes to a close, temperatures will (hopefully) start to cool down and leaves will begin to fall. “There are a few things t
 - [[St. Louis] Grace Meat + Three closing September 13 in the Grove](https://www.stlmag.com/dining/grace-meat-three-closing-september-13-in-the-grove/) — *2026-09-01*
   > <p>Grace Meat + Three (4270 Manchester), the nine-year-old restaurant inspired by the Southern tradition of pairing a choice of meat with three side dishes, will close after service on September 13, owners Rick and Elisa Lewis announced. With its lease in The Grove coming up for 
-- [[St. Louis] Restaurant manager sues after being fired over Facebook post about Charlie Kirk](https://www.stlmag.com/news/restaurant-manager-sues-lombardos-charlie-kirk/) — *2026-09-01*
-  > <p>The former general manager of Lombardo’s Restaurant alleges he was wrongfully terminated from his job after expressing his opinions about the assassinaiton of Charlie Kirk last September.&#160; On the same day as the conservative commentator was killed while speaking at a Utah
-- [[St. Louis] As a South City scrap recycler hums, neighbors fear the Patch is being scavenged for parts](https://www.stlmag.com/news/sa-recycling-patch-neighbors/) — *2026-09-01*
-  > <p>On any given day, if you should happen to find yourself near the intersection of Broadway and East Nagel in the Patch neighborhood, you’re likely to see a steady stream of down-on-their-luck types hauling scrap metal toward an out-of-the-way recycling facility squeezed between
-- **NEW**  [[St. Louis] Innovation Week looks to fill the gap of entrepreneurial focused events in St. Louis this fall](https://www.stlmag.com/business/innovation-week-entrepreneurial-event-gap/) — *2026-09-01*
-  > <p>Mike Seper wasn’t intending to organize a series of innovation-focused events this October, but the director of innovation and intellectual property at the University of Missouri-St. Louis jumped in when he saw an autumn lull in related programming. STL Startup Week, which has
-- **NEW**  [[St. Louis] See the Sept. 2, 1926, front page: Bomb wrecks bootleg plant; two men hurt](https://www.stltoday.com/news/archives/article_fe935cd5-4a2f-4746-8ff8-7b36f4cbbecf.html) — *2026-09-02*
-  > Headlines from the Sept. 2, 1926, front page include: Cardinals win first game from Chicago, 2-0; Rhem pitches in second
-- **NEW**  [[St. Louis] NAACP says city should expand or replace downtown jail](https://www.stltoday.com/news/article_7a4e6637-237a-4f9c-b700-ac8e7aefde71.html) — *2026-09-02*
-  > Plus": Endangered wolf pups get a push from zoo
-- **NEW**  [[St. Louis] Altepeter, Gloria](https://www.stltoday.com/obituaries/article_85c3b6e2-5b06-5b2e-9f5a-51e76cbcc3fb.html) — *2026-09-02*
-  > Altepeter, Gloria
-- **NEW**  [[St. Louis] Dickey, William](https://www.stltoday.com/obituaries/article_58a38350-5aa4-5cbb-8a18-a9d658b26559.html) — *2026-09-02*
-  > Dickey, William "Bill" Wayne
-- **NEW**  [[St. Louis] Duda, Bernard](https://www.stltoday.com/obituaries/article_cb8be1e7-9362-5d26-aade-5d864bcd33ba.html) — *2026-09-02*
-  > Duda, Bernard W.
-- **NEW**  [[St. Louis] Ivancic, Thomas](https://www.stltoday.com/obituaries/article_e49059e0-e7d6-526d-9a0f-eecff0b5c835.html) — *2026-09-02*
-  > LOCAL 1
-- **NEW**  [[St. Louis] Link, Donald](https://www.stltoday.com/obituaries/article_36d3766c-ff01-5924-a832-9c294fd0e20a.html) — *2026-09-02*
-  > Link, Donald W.
-- **NEW**  [[St. Louis] Wittman, Bonnie](https://www.stltoday.com/obituaries/image_0ca05216-da35-555b-9652-285bd6a1284c.html) — *2026-09-02*
-  > Wittman, Bonnie
-- **NEW**  [[St. Louis] Wittman, Bonnie](https://www.stltoday.com/obituaries/article_ac945dc4-4af4-5d8a-8a3e-4d2516fcd57a.html) — *2026-09-02*
-  > Wittman (nee Schlenk), Bonnie Colleen
-- **NEW**  [[St. Louis] OLD 'SIX FLAGS' HAD ROUGH YEAR](https://www.stltoday.com/image_471e1dbe-4a49-5cc4-a180-2dca75c747ea.html) — *2026-09-02*
-  > Park visitors ride Batman: The Ride on Saturday, June 20, at Six Flags St. Louis in Eureka. The new owners of the park recently rebranded the amusement park as Mid America Adventure.
-- **NEW**  [[St. Louis] Seven finalists named for 2027 Missouri Teacher of the Year](https://fox2now.com/news/missouri/seven-finalists-named-for-2027-missouri-teacher-of-the-year/) — *2026-09-01*
-  > The Missouri Department of Elementary and Secondary Education has announced the seven finalists for the 2027 Missouri Teacher of the Year award, recognizing educators who are making an extraordinary impact in classrooms across the state.
-- **NEW**  [[St. Louis] Missouri sets new requirements for SNAP benefits starting next month](https://fox2now.com/news/missouri/missouri-sets-new-requirements-for-snap-benefits-starting-next-month/) — *2026-09-01*
-  > Starting next month, Missouri will require more documentation from people applying for or renewing SNAP benefits.
-- **NEW**  [[St. Louis] Child safe after man barricades himself in St. Louis home](https://fox2now.com/news/missouri/child-safe-after-man-barricades-himself-in-st-louis-home/) — *2026-09-02*
-  > A man surrendered to police Tuesday night after allegedly barricading himself inside a home during a police investigation.
-- [[St. Louis] Over 330,000 Illinois homes at risk from abandoned mines](https://fox2now.com/news/illinois/over-330000-illinois-homes-at-risk-from-abandoned-mines/) — *2026-08-31*
-  > Over 300,000 Illinois homes sit atop abandoned mines, with more than a century of coal mining having left a hidden network of tunnels across the state.
-- **NEW**  [[St. Louis] Trio charged after $3,800 Ulta Beauty theft and police chase](https://fox2now.com/news/illinois/trio-charged-after-3800-ulta-beauty-theft-and-police-chase/) — *2026-09-01*
-  > Three women are being charged after police say they stole around $3,800 worth of items from an Ulta Beauty store before trying to drive away from police in a chase through four communities in the Metro East.
+- **NEW**  [[St. Louis] Democratic socialists' next hurdle: Winning over Black voters](https://www.stltoday.com/news/nation-world/government-politics/article_2136bf04-e858-51d9-8ad3-7ca4986f6792.html) — *2026-09-02*
+  > After a summer of victories for Democratic Socialists of America-aligned candidates, the movement faces a new test: whether it can win over Black voters.
+- **NEW**  [[St. Louis] St. Louis obituaries for September 2](https://www.stltoday.com/news/local/obituaries/collection_c8f6fb6e-b459-542d-a935-f13a64d0cf45.html) — *2026-09-02*
+  > Read through the obituaries published in the St. Louis Post-Dispatch
+- **NEW**  [[St. Louis] Massive Counterpublic project scatters new art across St. Louis](https://www.stltoday.com/life-entertainment/local/events/article_9e20aa75-6265-48d0-9fa8-ee0147713438.html) — *2026-09-02*
+  > The vast majority of the 50 art exhibitions are new and being seen for the first time.
+- **NEW**  [[St. Louis] Inside Cardinals' daily conversation that launched 13 runs vs. LA, Thomas Saggese's 2 homers](https://www.stltoday.com/sports/professional/mlb/cardinals/article_a954ef12-4380-49ca-8c19-dc40852ae57c.html) — *2026-09-02*
+  > A practice in hitters' meetings prepared lineup for a steady drumbeat of offense in a 13-8 victory and the most runs by a Cardinals team ever at Dodger Stadium.
+- **NEW**  [[St. Louis] Missouri AG spends $167,000 in state funds on abortion PSA ahead of November vote](https://www.stltoday.com/news/local/government-politics/article_f701ae8a-a012-5894-8168-7d3588038fc0.html) — *2026-09-02*
+  > Missouri Attorney General Catherine Hanaway’s office is airing a “women’s health PSA” warning patients about abortion clinics less than three months before voters decide whether to reinstate a near-total abortion ban Hanaway supports. The video cost $167,000 in state funds…
+- **NEW**  [[St. Louis] Opinion: The right questions to ask when data centers make their pitch](https://www.stltoday.com/opinion/column/article_c5c22381-6829-4511-a82a-9056d529c0c9.html) — *2026-09-02*
+  > In Quincy, Wash., data centers provide three-fourths of the city’s property tax revenue, and residents have watched their tax rates fall for years.
+- **NEW**  [[St. Louis] Webster Groves takes step forward by winning first season opener since 2017](https://www.stltoday.com/sports/high-school/football/article_6fdb5a7e-4e1e-4764-9ac6-c03f94c3c05a.html) — *2026-09-02*
+  > "We felt like the kids needed to understand that this was going to be a huge opportunity," Webster Groves coach Conner White said.
+- **NEW**  [[St. Louis] High school athletes of the week: Sept. 2, 2026](https://www.stltoday.com/sports/high-school/athletes-of-the-week/article_a2a11dc8-5d23-4c85-92ff-1e1ef1ffd47a.html) — *2026-09-02*
+  > Check out the first Post-Dispatch Athletes of the Week for the 2026-27 school year!
+- **NEW**  [[St. Louis] Rah Digga carries hip-hop’s past forward at Paint Louis](https://www.stltoday.com/life-entertainment/local/music/article_d0dd2a9d-e21f-4c87-a428-30f265587df0.html) — *2026-09-02*
+  > Rapper, actress, educator: Rah Digga brings all three sides of herself to St. Louis for this year’s Paint Louis.
+- **NEW**  [[St. Louis] Three more chances for public input on St. Louis Public Schools closure plan](https://www.stltoday.com/news/local/education/article_81afd06a-ad7f-40a1-8503-f67a09c0de1c.html) — *2026-09-02*
+  > Alderwoman Alisha Sonnier will host a meeting Wednesday and SLPS will host two meetings later this month.
+- **NEW**  [[St. Louis] What happens next if the jury in the Lindsay Clancy murder trial can't reach a verdict?](https://www.ksdk.com/article/news/nation-world/lindsay-clancy-murder-trial-cant-reach-verdict-what-happens/507-d3449d5c-5b7f-4941-b5cf-3e8d3d8ad3a5) — *2026-09-02*
+  > If jurors deadlock in Lindsay Clancy’s murder trial, a mistrial would be declared and prosecutors would decide whether to retry the case.
+- **NEW**  [[St. Louis] Blues prospect may never recover after collapsing in Arizona last month, family's attorney says](https://www.ksdk.com/article/sports/nhl/blues-prospect-may-never-recover-collapsing-arizona-attorney-says/63-3e060d8e-9696-451e-9995-b648566ebcc5) — *2026-09-02*
+  > The attorney says he's spoken with people who were there and claims the workout involved little rest and limited access to water.
+- **NEW**  [[St. Louis] US oil giant Chevron has confirmed plans to expand its operations in Venezuela](https://www.ksdk.com/article/news/nation-world/chevron-venezuela-pentagon-profit/507-d9dcfaea-4390-444a-964c-a1910170f280) — *2026-09-02*
+  > Joint venture plans include investing more than $7 billion over the next five years, more than doubling production to approximately 600,000 barrels a day.
+- **NEW**  [[St. Louis] Iran fires on Persian Gulf neighbors after US military strikes Iranian military targets](https://www.ksdk.com/article/news/nation-world/attack-on-iran/iran-bahrain-kuwait-jordan-uae-middle-east-united-states/507-ea5b0a6e-5b47-4a47-91bc-64314f8718d1) — *2026-09-02*
+  > Bahrain, which hosts an important U.S. naval base, said its air defense systems intercepted incoming fire from Iran, accusing Iran of “attacks targeting civilians."
+- **NEW**  [[St. Louis] Edouard weakens into tropical depression after making landfall near Texas-Louisiana line; heavy rain still expected](https://www.ksdk.com/article/weather/hurricane/edouard-weakens-tropical-depression-landfall-texas-louisiana/507-c852b0bf-fead-4a69-85a4-ada869c00e4d) — *2026-09-02*
+  > The National Hurricane Center expected Edouard to dump 3 to 7 inches of rain, with up to 12 inches in some areas.
 
-_(214 additional items in raw.jsonl)_
+_(218 additional items in raw.jsonl)_

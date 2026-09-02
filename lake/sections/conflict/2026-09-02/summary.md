@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[India] Vijaya Lakshmi Pandit : the lamp of India](https://www.thehindu.com/children/vijaya-lakshmi-pandit-the-lamp-of-india/article71395091.ece) — *2026-09-02*
-  > domain: thehindu.com · language: English · tone:
-- **NEW**  [[United States] Report : South Florida hospitals would absorb over two - thirds of Amendment 3 healthcare impact | Health Wellness](https://www.miamitimesonline.com/lifestyles/health_wellness/report-south-florida-hospitals-would-absorb-over-two-thirds-of-amendment-3-s-healthcare-impact/article_2e388fce-1443-459e-ab6e-25fa578817d3.html) — *2026-09-02*
-  > domain: miamitimesonline.com · language: English · tone:
-- **NEW**  [[India] Lindsay Clancy : Netizens fume as TikTok trend shows women pretending to harm their kids ,  Totally sick and demented  ](https://www.hindustantimes.com/trending/us/lindsay-clancy-netizens-fume-as-tiktok-trend-shows-women-pretending-to-harm-their-kids-totally-sick-and-demented-101788335946140.html) — *2026-09-02*
-  > domain: hindustantimes.com · language: English · tone:
-- **NEW**  [[Trinidad and Tobago] US Energy Secretary Wright to visit Venezuela amid Chevron plans to expand operations](http://www.trinidadtimes.com/news/279281054/us-energy-secretary-wright-to-visit-venezuela-amid-chevron-plans-to-expand-operations) — *2026-09-02*
-  > domain: trinidadtimes.com · language: English · tone:
-- **NEW**  [[China] What Shenzhen transformation reveals about the path to an Asia - Pacific community](http://en.people.cn/n3/2026/0902/c90000-20495222.html) — *2026-09-02*
-  > domain: en.people.cn · language: English · tone:
-- **NEW**  [[China] Climate change warnings preceded Nepal disaster , say experts](https://www.eco-business.com/news/climate-change-warnings-preceded-nepal-disaster-say-experts/) — *2026-09-02*
-  > domain: eco-business.com · language: English · tone:
-- **NEW**  [[Kenya] Scandal rocks Aga Khan Hospital Kisumu Branch as Dr . CLARA NAFULA is accused of having MECHI with her boss , Dr . BERNARD ODUOR , to secure promotion](https://www.kenyan-post.com/2026/09/scandal-rocks-aga-khan-hospital-kisumu.html) — *2026-09-02*
-  > domain: kenyan-post.com · language: English · tone:
-- **NEW**  [[United Kingdom] Anzá Activity Accelerating | Company Announcement](https://www.investegate.co.uk/announcement/rns/orosur-mining-inc--omi/anz-activity-accelerating/9751174) — *2026-09-02*
-  > domain: investegate.co.uk · language: English · tone:
-- **NEW**  [[United States] Congo Ebola outbreak shows no signs of slowing as deaths top 3 , 000](https://www.clickondetroit.com/news/world/2026/09/02/deaths-in-congos-fast-moving-ebola-outbreak-top-3000-spread-of-disease-shows-no-signs-of-slowing/) — *2026-09-02*
-  > domain: clickondetroit.com · language: English · tone:
-- **NEW**  [[India] 70 , 584 corruption complaints received against govt depts in 2025 ; banks , Railways top chart](https://www.hindustantimes.com/india-news/70584-corruption-complaints-received-against-govt-depts-in-2025-banks-railways-top-chart-101788336479156.html) — *2026-09-02*
-  > domain: hindustantimes.com · language: English · tone:
-- **NEW**  [[Ghana] Police deny tear - gassing pensioners in Lagos , say viral image AI - generated](https://thechronicle.com.gh/police-deny-tear-gassing-pensioners-in-lagos-say-viral-image-ai-generated/) — *2026-09-02*
-  > domain: thechronicle.com.gh · language: English · tone:
-- **NEW**  [[Nigeria] Preventing HIV : What Nigerians Need To Know](https://leadership.ng/preventing-hiv-what-nigerians-need-to-know/) — *2026-09-02*
-  > domain: leadership.ng · language: English · tone:
-- **NEW**  [[China] Geologists diagnose hazardous cliffs in central China - People Daily Online](http://en.people.cn/n3/2026/0902/c90000-20495211.html) — *2026-09-02*
-  > domain: en.people.cn · language: English · tone:
-- **NEW**  [[United Kingdom] Remembering Dolly Parton and her remarkable legacy](https://www.theargus.co.uk/news/26510891.remembering-dolly-parton-remarkable-legacy/) — *2026-09-02*
-  > domain: theargus.co.uk · language: English · tone:
-- **NEW**  [[United Kingdom] Iran fires on Gulf neighbours despite Trump threats to escalate US attacks](https://www.thetottenhamindependent.co.uk/news/national/26513864.iran-fires-gulf-neighbours-despite-trumps-threats-escalate-us-attacks/) — *2026-09-02*
-  > domain: thetottenhamindependent.co.uk · language: English · tone:
-- **NEW**  [[Germany] BlackRock American Income Trust Plc - Portfolio Update](https://www.finanznachrichten.de/nachrichten-2026-09/69472455-blackrock-american-income-trust-plc-portfolio-update-008.htm) — *2026-09-02*
-  > domain: finanznachrichten.de · language: English · tone:
-- **NEW**  [[United States] Health Update : Lionel Richie Hospitalized Following Concert Performance](https://www.wncv.com/2026/09/02/health-update-lionel-richie-hospitalized-following-concert-performance/) — *2026-09-02*
-  > domain: wncv.com · language: English · tone:
-- **NEW**  [[Pakistan] Death toll from Nepal flash floods rises to 1 , 127 : Police](http://www.southeastasiapost.com/news/279280630/death-toll-from-nepal-flash-floods-rises-to-1127-police) — *2026-09-02*
-  > domain: southeastasiapost.com · language: English · tone:
-- **NEW**  [[Jamaica] US Energy Secretary Wright to visit Venezuela amid Chevron plans to expand operations](http://www.jamaicantimes.com/news/279281054/us-energy-secretary-wright-to-visit-venezuela-amid-chevron-plans-to-expand-operations) — *2026-09-02*
-  > domain: jamaicantimes.com · language: English · tone:
-- **NEW**  [[United Kingdom] Iran fires on Gulf neighbours despite Trump threats to escalate US attacks](https://www.cravenherald.co.uk/news/national/26513864.iran-fires-gulf-neighbours-despite-trumps-threats-escalate-us-attacks/) — *2026-09-02*
-  > domain: cravenherald.co.uk · language: English · tone:
-- **NEW**  [[Azerbaijan] UN commends Azerbaijan mine clearance activities](https://www.trend.az/azerbaijan/society/4219837.html) — *2026-09-02*
-  > domain: trend.az · language: English · tone:
-- **NEW**  [[United Kingdom]   Im married to a workaholic so feel like a single mum  ](https://www.aol.co.uk/articles/m-married-workaholic-feel-single-080935000.html) — *2026-09-02*
-  > domain: aol.co.uk · language: English · tone:
-- **NEW**  [[India] Why PM Modi wants Indians to keep their gold , holidays and weddings in India](https://www.moneycontrol.com/news/india/why-pm-modi-wants-indians-to-keep-their-gold-holidays-and-weddings-in-india-14020781.html) — *2026-09-02*
-  > domain: moneycontrol.com · language: English · tone:
-- **NEW**  [[Ghana] Barcelona complete signing of Arsenal striker Jesus - The Ghanaian Chronicle](https://thechronicle.com.gh/barcelona-complete-signing-of-arsenal-striker-jesus/) — *2026-09-02*
-  > domain: thechronicle.com.gh · language: English · tone:
-- **NEW**  [[Bermuda] Northern Re grows in - force premium since launch to more than $1 billion](https://www.artemis.bm/news/northern-re-grows-in-force-premium-since-launch-to-more-than-1-billion/) — *2026-09-02*
-  > domain: artemis.bm · language: English · tone:
+- **NEW**  [[] Nearly £3 , 000 raised for family after death of brother](https://www.glasgowtimes.co.uk/news/scottish-news/26515065.nearly-3-000-raised-family-death-brother/) — *2026-09-02*
+  > domain: glasgowtimes.co.uk · language: English · tone:
+- **NEW**  [[Canada] The weak link in Canada ambitions - The Globe and Mail](https://www.theglobeandmail.com/opinion/editorials/article-the-weak-link-in-canadas-ambitions/) — *2026-09-02*
+  > domain: theglobeandmail.com · language: English · tone:
+- **NEW**  [[Virgin Islands] Thousands still missing as Nepal - Tibet flood relief & recovery intensifies](http://www.virginislandsnewsonline.com/en/news/thousands-still-missing-as-nepal-tibet-flood-relief-recovery-intensifies/) — *2026-09-02*
+  > domain: virginislandsnewsonline.com · language: English · tone:
+- **NEW**  [[United States] Iran Claims U . S . Attack Killed Civilians At Wedding](https://570wkbn.iheart.com/content/2026-09-02-iran-claims-us-attack-killed-civilians-at-wedding/) — *2026-09-02*
+  > domain: 570wkbn.iheart.com · language: English · tone:
+- **NEW**  [[Ireland] HSE fined more than €600k after medical records found covered in animal droppings and mould](https://www.irishmirror.ie/news/irish-news/hse-fined-more-600k-after-37617657) — *2026-09-02*
+  > domain: irishmirror.ie · language: English · tone:
+- **NEW**  [[United Kingdom] Trump threat against an NBC journalist is an attack on reality | Margaret Sullivan](https://www.theguardian.com/commentisfree/2026/sep/02/trump-nbc-fcc-kristin-welker) — *2026-09-02*
+  > domain: theguardian.com · language: English · tone:
+- **NEW**  [[South Africa] APO Group - Africa Newsroom / Press release | Response must outpace spread of Ebola : United Nations ( UN ) relief chief](https://www.africa-newsroom.com/press/response-must-outpace-spread-of-ebola-un-relief-chief) — *2026-09-02*
+  > domain: africa-newsroom.com · language: English · tone:
+- **NEW**  [[Ireland] Six people taken to hospital after emergency services attend serious collision](https://www.irishmirror.ie/news/irish-news/six-people-taken-hospital-after-37618631) — *2026-09-02*
+  > domain: irishmirror.ie · language: English · tone:
+- **NEW**  [[Canada] Hong Kong activist Joshua Wong pleads guilty to new national security charges](https://www.theglobeandmail.com/world/article-hong-kong-activist-joshua-wong-pleads-guilty-national-security-charges/) — *2026-09-02*
+  > domain: theglobeandmail.com · language: English · tone:
+- **NEW**  [[India]   Horror place : Kerala HC slams govt over conditions at mental health centres](https://www.thenewsminute.com/kerala/horror-places-kerala-hc-slams-govt-over-conditions-at-mental-health-centres) — *2026-09-02*
+  > domain: thenewsminute.com · language: English · tone:
+- **NEW**  [[United States] How Low - Dose Aspirin May Reduce Preeclampsia Risks For Moms](http://www.walkermn.com/online_features/health_and_wellness/how-low-dose-aspirin-may-reduce-preeclampsia-risks-for-moms/article_e4f97faf-a3cb-522b-9868-30852886d68a.html) — *2026-09-02*
+  > domain: walkermn.com · language: English · tone:
+- **NEW**  [[United Kingdom] Resisting Canada far right Dominion Society](https://socialistworker.co.uk/anti-racism/resisting-canadas-far-right-dominion-society/) — *2026-09-02*
+  > domain: socialistworker.co.uk · language: English · tone:
+- **NEW**  [[United States] Two Killed In AZ Gay Bar Shooting | KFYR 550 AM / 99 . 7 FM](https://kfyr.iheart.com/content/2026-09-02-two-killed-in-az-gay-bar-shooting/) — *2026-09-02*
+  > domain: kfyr.iheart.com · language: English · tone:
+- **NEW**  [[United Kingdom] Burnham promises  politics done differently  but what will he really change ? ](https://socialistworker.co.uk/labour/burnham-promises-politics-done-differently-but-what-will-he-really-change/) — *2026-09-02*
+  > domain: socialistworker.co.uk · language: English · tone:
+- **NEW**  [[United Kingdom] Iran fires on Gulf neighbours despite Trump threats to escalate US attacks](https://www.northwalespioneer.co.uk/news/national/26513864.iran-fires-gulf-neighbours-despite-trumps-threats-escalate-us-attacks/) — *2026-09-02*
+  > domain: northwalespioneer.co.uk · language: English · tone:
+- **NEW**  [[Canada] Live updates : Bank of Canada expected to hold key interest rate as trade war with U . S . escalates](https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-live-updates-september-2-trade-war/) — *2026-09-02*
+  > domain: theglobeandmail.com · language: English · tone:
+- **NEW**  [[United States] India prime minister is wooing the GenZ while cracking down on them](https://www.wuwf.org/2026-09-02/indias-prime-minister-is-wooing-the-genz-while-cracking-down-on-them) — *2026-09-02*
+  > domain: wuwf.org · language: English · tone:
+- **NEW**  [[United States] Worthplaying | Sept . 2 , 2026 News](https://worthplaying.com/archive/2026/9/2/) — *2026-09-02*
+  > domain: worthplaying.com · language: English · tone:
+- **NEW**  [[United States] NETANYAHU RESPONDS : PM Rejects  Betrayal  Claims Amid Uproar Over Wife Remarks – The Yeshiva World](https://www.theyeshivaworld.com/news/israel-news/2592766/netanyahu-responds-pm-rejects-betrayal-claims-amid-uproar-over-wifes-remarks.html) — *2026-09-02*
+  > domain: theyeshivaworld.com · language: English · tone:
+- **NEW**  [[Ireland] Fundraiser launched for family following sudden death of dad - of - nine](https://www.irishmirror.ie/news/irish-news/fundraiser-launched-family-following-sudden-37617827) — *2026-09-02*
+  > domain: irishmirror.ie · language: English · tone:
+- **NEW**  [[United States] Kelmscott Serious Crash 2 September](https://www.miragenews.com/kelmscott-serious-crash-2-september-1737438/) — *2026-09-02*
+  > domain: miragenews.com · language: English · tone:
+- **NEW**  [[United States] DCF records at center of argument in Waterbury captivity case](https://www.courant.com/2026/09/02/dcf-records-at-center-of-argument-over-attempt-to-toss-claim-filed-in-waterbury-captivity-case/) — *2026-09-02*
+  > domain: courant.com · language: English · tone:
+- **NEW**  [[United States] Federal Judge Drops Harassment Suit Against Lizzo | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX](https://newstalk1400online.iheart.com/content/2026-09-02-federal-judge-drops-harassment-suit-against-lizzo/) — *2026-09-02*
+  > domain: newstalk1400online.iheart.com · language: English · tone:
+- **NEW**  [[Kenya] Oga Obinna Denies Sacrifice Allegations Following Stoopid Boy Passing](https://www.ghafla.co.ke/oga-obinna-denies-sacrifice-allegations-following-stoopid-boys-passing/) — *2026-09-02*
+  > domain: ghafla.co.ke · language: English · tone:
+- **NEW**  [[] Glasgow hospice praised for delivering  exceptional  care](https://www.glasgowtimes.co.uk/news/26514391.glasgow-hospice-praised-delivering-exceptional-care/) — *2026-09-02*
+  > domain: glasgowtimes.co.uk · language: English · tone:
 
 _(15 additional items in raw.jsonl)_
