@@ -4,7 +4,7 @@ title: WHO Disease Outbreak News
 date: 2026-09-01
 record_count: 40
 new_today: 0
-state: fresh
+state: stale_after_failure
 ---
 
 ## WHO Disease Outbreak News
