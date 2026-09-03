@@ -1,0 +1,48 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-09-03
+record_count: 18
+new_today: 18
+state: fresh
+---
+
+## U.S. Federal Action
+
+18 new of 18 total items today.
+
+- **NEW**  [Establishing the United States Space Academy](https://www.federalregister.gov/documents/2026/09/03/2026-18141/establishing-the-united-states-space-academy) — *2026-09-03*
+- **NEW**  [List of Approved Spent Fuel Storage Casks: Holtec International HI-STORM Flood/Wind System, Certificate of Compliance No. 1032, Amendment No. 10](https://www.federalregister.gov/documents/2026/09/03/2026-18107/list-of-approved-spent-fuel-storage-casks-holtec-international-hi-storm-floodwind-system-certificate) — *2026-09-03*
+  > The U.S. Nuclear Regulatory Commission (NRC) is confirming the effective date of October 6, 2026, for the direct final rule that was published in the Federal Register on July 23, 2026. This direct final rule amended the Holtec International HI-STORM Flood/Wind System listing with
+- **NEW**  [Form PF; Reporting Requirements for All Filers and Large Hedge Fund Advisers; Further Extension of Compliance Date](https://www.federalregister.gov/documents/2026/09/03/2026-18104/form-pf-reporting-requirements-for-all-filers-and-large-hedge-fund-advisers-further-extension-of) — *2026-09-03*
+  > The Commodity Futures Trading Commission (the "CFTC") and the Securities and Exchange Commission (the "SEC") (collectively, "we" or the "Commissions") are further extending the compliance date for the amendments to Form PF that were adopted on February 8, 2024, from October 1, 20
+- **NEW**  [Notice of Availability and Request for Comment: Revision to the Voluntary Standard for Products Containing Button Cell or Coin Batteries](https://www.federalregister.gov/documents/2026/09/03/2026-18103/notice-of-availability-and-request-for-comment-revision-to-the-voluntary-standard-for-products) — *2026-09-03*
+  > The U.S. Consumer Product Safety Commission's (Commission or CPSC) mandatory rule, Safety Standard for Button Cell or Coin Batteries and Consumer Products Containing Such Products, incorporates by reference UL 4200A, Standard for Safety for Products Incorporating Button Batteries
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/03/2026-18072/airworthiness-directives-airbus-sas-airplanes) — *2026-09-03*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus SAS Model A318, A319, A320, and A321 series airplanes. This proposed AD was prompted by reports of one engine fire switch self-releasing, causing an uncommanded in-flight shut down to one engine. This pro
+- **NEW**  [Special Local Regulation; Allegheny River Mile Markers 0-3.5 and Ohio River Mile Marker 0-3, Pittsburgh, PA](https://www.federalregister.gov/documents/2026/09/03/2026-18062/special-local-regulation-allegheny-river-mile-markers-0-35-and-ohio-river-mile-marker-0-3-pittsburgh) — *2026-09-03*
+  > The Coast Guard is establishing a temporary special local regulation (SLR) on the waters of the Allegheny River from mile marker 0 to mile marker 3.5 and the Ohio River from mile marker 0 to mile marker 3 in Pittsburgh, PA. This action is necessary to provide for the safety of li
+- **NEW**  [Determining the Appropriate Penalty for Federal Employees Charged With Misconduct](https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct) — *2026-09-03*
+  > The Merit Systems Protection Board (MSPB or Board) is issuing a final rule amending its regulations governing the Board's review of the reasonableness of an agency's chosen penalty in misconduct-based adverse actions appealed to the Board. Under the final rule, the Board will no 
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/03/2026-18055/airworthiness-directives-airbus-sas-airplanes) — *2026-09-03*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Airbus SAS Model A350-1041 airplanes. This AD was prompted by the detection of missing chamfers under the heads of critical fasteners on the primary structure of both pylons. This AD requires an inspection of the 
+- **NEW**  [Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes](https://www.federalregister.gov/documents/2026/09/03/2026-18053/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes) — *2026-09-03*
+  > The FAA is adopting a new airworthiness directive (AD) for certain ATR-GIE Avions de Transport R[eacute]gional Model ATR42-500 airplanes. This AD was prompted by a determination that a new airworthiness limitation is necessary. This AD requires revising the existing maintenance o
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/03/2026-18052/airworthiness-directives-airbus-sas-airplanes) — *2026-09-03*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Airbus SAS Model A318-112; Model A319-115, -132, and -133; Model A320-214, -216, -232, -233, -251N, and -271N; and Model A321-211, -213, -231, -271N, -251NX, -253NX, and -271NX airplanes. This AD was prompted by a
+- **NEW**  [Safety Zone; Outer Harbor, Buffalo, NY](https://www.federalregister.gov/documents/2026/09/03/2026-18044/safety-zone-outer-harbor-buffalo-ny) — *2026-09-03*
+  > The Coast Guard is establishing a temporary safety zone for navigable waters on the Outer Harbor, Buffalo, NY. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards associated with an over water fireworks display. Entry of vess
+- **NEW**  [Cause of Airline Delay and Cancellation Categories Under Section 511(b) of the FAA Reauthorization Act of 2024](https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act) — *2026-09-03*
+  > The U.S. Department of Transportation (Department or DOT) is amending its regulations governing how air carriers report the causes of flight cancellations and delays. This action implements Section 511(b) of the FAA Reauthorization Act of 2024, which mandates that ten specific ty
+- **NEW**  [Establishing the Digital Opportunity Data Collection; Modernizing the FCC Form 477 Data Program; Delete, Delete, Delete; Corrections](https://www.federalregister.gov/documents/2026/09/03/2026-18033/establishing-the-digital-opportunity-data-collection-modernizing-the-fcc-form-477-data-program) — *2026-09-03*
+  > On June 24, 2026, the Federal Communications Commission (FCC) published a final rule which became effective on July 24, 2026. That document inadvertently failed to revise a certain defined term in FCC regulations. This document corrects the final rule.
+- **NEW**  [Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments](https://www.federalregister.gov/documents/2026/09/03/2026-18032/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures) — *2026-09-03*
+  > This rule establishes, amends, suspends, or removes Standard Instrument Approach Procedures (SIAPS) and associated Takeoff Minimums and Obstacle Departure procedures (ODPs) for operations at certain airports. These regulatory actions are needed because of the adoption of new or r
+- **NEW**  [Pacific Halibut Fisheries; Catch Sharing Plan; Modify Pacific Halibut Individual Fishing Quota (IFQ) Vessel Use Caps in IFQ Regulatory Areas 4A, 4B, 4C, 4D, and 4E](https://www.federalregister.gov/documents/2026/09/03/2026-18031/pacific-halibut-fisheries-catch-sharing-plan-modify-pacific-halibut-individual-fishing-quota-ifq) — *2026-09-03*
+  > NMFS proposes regulations to modify the Pacific halibut (halibut) Individual Fishing Quota (IFQ) Program to revise vessel harvest limitations for IFQ halibut harvested in IFQ regulatory Areas (Areas) 4A, 4B, 4C, 4D, and 4E by establishing a vessel harvest limit of five percent of
+- **NEW**  [Fisheries Off West Coast States; West Coast Salmon Fisheries; 2026 Specifications and Management Measures; Correction](https://www.federalregister.gov/documents/2026/09/03/2026-18029/fisheries-off-west-coast-states-west-coast-salmon-fisheries-2026-specifications-and-management) — *2026-09-03*
+  > NMFS established fishery management measures for the ocean salmon fisheries off Washington, Oregon, and California for the season beginning May 16, 2026, until the effective date of the 2027 management measures, which we expect to be May 16, 2027 (the 2026 ocean salmon fishing se
+- **NEW**  [Airworthiness Directives; Pratt & Whitney Division Engines](https://www.federalregister.gov/documents/2026/09/03/2026-18019/airworthiness-directives-pratt-and-whitney-division-engines) — *2026-09-03*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Pratt & Whitney Division (PW) Model PW4074D, PW4077D, PW4084D, PW4090, and PW4090-3 engines. This AD was prompted by the discovery of a quality escape involving incorrect shot peening on certain high- pressure com
+- **NEW**  [Television Broadcasting Services Colusa, California](https://www.federalregister.gov/documents/2026/09/03/2026-18015/television-broadcasting-services-colusa-california) — *2026-09-03*
+  > This document proposes to amend the Table of TV Allotments (Table) of the Federal Communications Commission's (Commission) rules in response to a petition for rulemaking filed by One Ministries, Inc. (Petitioner), the licensee of NCE television station KEDS(TV) (KEDS or Station),
