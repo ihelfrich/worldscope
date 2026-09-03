@@ -2,14 +2,14 @@
 section: billionaires
 title: Forbes Real-Time Billionaires (top 30 + biggest movers)
 date: 2026-09-03
-record_count: 40
-new_today: 10
+record_count: 33
+new_today: 3
 state: fresh
 ---
 
 ## Forbes Real-Time Billionaires (top 30 + biggest movers)
 
-10 new of 40 total items today.
+3 new of 33 total items today.
 
 - [#1 Elon Musk — $872.34B](https://www.forbes.com/profile/elon-musk/) — *2026-09-03*
   > United States · Technology · source: Tesla, SpaceX · holdings: SPCX-US(NASDAQ), SPCX-US(NASDAQ), TSLA-US(NASDAQ)
@@ -29,11 +29,11 @@ state: fresh
   > United States · Technology · source: Oracle · holdings: ORCL-US(NYSE), ORCL-US(NYSE), PSKY-US(NASDAQ), SPCX-US(NASDAQ)
 - [#9 Steve Ballmer — $152.65B](https://www.forbes.com/profile/steve-ballmer/) — *2026-09-03*
   > United States · Technology · source: Microsoft · holdings: MSFT-US(NASDAQ), TWTR-US(NYSE)
-- [#10 Amancio Ortega — $144.57B](https://www.forbes.com/profile/amancio-ortega/) — *2026-09-03*
+- [#10 Amancio Ortega — $144.27B](https://www.forbes.com/profile/amancio-ortega/) — *2026-09-03*
   > Spain · Fashion & Retail · source: Zara · holdings: SAN-ES(MADRID), ENG-ES(MADRID), ITX-ES(MADRID)
 - [#11 Warren Buffett — $143.67B](https://www.forbes.com/profile/warren-buffett/) — *2026-09-03*
   > United States · Finance & Investments · source: Berkshire Hathaway · holdings: BRK.A-US(NYSE), BRK.B-US(NYSE)
-- [#12 Bernard Arnault & family — $134.45B](https://www.forbes.com/profile/bernard-arnault/) — *2026-09-03*
+- [#12 Bernard Arnault & family — $134.57B](https://www.forbes.com/profile/bernard-arnault/) — *2026-09-03*
   > France · Fashion & Retail · source: LVMH · holdings: BIRK-US(NYSE), RMS-FR(EURONEXT PARIS), MC-FR(EURONEXT PARIS)
 - [#13 Rob Walton & family — $128.18B](https://www.forbes.com/profile/rob-walton/) — *2026-09-03*
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
@@ -45,7 +45,7 @@ state: fresh
   > United States · Fashion & Retail · source: Walmart · holdings: WMT-US(NASDAQ)
 - [#17 Changpeng Zhao — $114.61B](https://www.forbes.com/profile/changpeng-zhao/) — *2026-09-03*
   > Canada · Finance & Investments · source: Cryptocurrency exchange
-- [#18 Bill Gates — $110.74B](https://www.forbes.com/profile/bill-gates/) — *2026-09-03*
+- [#18 Bill Gates — $110.79B](https://www.forbes.com/profile/bill-gates/) — *2026-09-03*
   > United States · Technology · source: Microsoft · holdings: ACGL-US(NASDAQ), ARCO-US(NYSE), AN-US(NYSE), BRK.A-US(NYSE)
 - [#19 Michael Bloomberg — $109.42B](https://www.forbes.com/profile/michael-bloomberg/) — *2026-09-03*
   > United States · Finance & Investments · source: Bloomberg LP
@@ -53,13 +53,13 @@ state: fresh
   > United States · Finance & Investments · source: Discount brokerage · holdings: IBKR-US(NASDAQ), NMAX-US(NYSE)
 - [#21 Zhang Yiming — $100.80B](https://www.forbes.com/profile/zhang-yiming/) — *2026-09-03*
   > China · Technology · source: TikTok
-- [#22 Francoise Bettencourt Meyers & family — $94.52B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-09-03*
+- [#22 Francoise Bettencourt Meyers & family — $94.56B](https://www.forbes.com/profile/francoise-bettencourt-meyers/) — *2026-09-03*
   > France · Fashion & Retail · source: L'Oréal · holdings: OR-FR(EURONEXT PARIS)
-- [#23 Mukesh Ambani — $89.89B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-09-03*
+- [#23 Mukesh Ambani — $89.44B](https://www.forbes.com/profile/mukesh-ambani/) — *2026-09-03*
   > India · Diversified · source: Diversified · holdings: 543940-IN(BSE INDIA), 500325-IN(BSE INDIA)
 - [#24 Giancarlo Devasini — $89.30B](https://www.forbes.com/profile/giancarlo-devasini/) — *2026-09-03*
   > Italy · Finance & Investments · source: Cryptocurrency
 - [#25 Jeff Yass — $85.71B](https://www.forbes.com/profile/jeff-yass/) — *2026-09-03*
   > United States · Finance & Investments · source: Trading, investments
 
-_(15 additional items in raw.jsonl)_
+_(8 additional items in raw.jsonl)_

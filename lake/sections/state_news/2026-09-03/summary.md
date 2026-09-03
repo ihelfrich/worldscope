@@ -2,14 +2,14 @@
 section: state_news
 title: State-Level News
 date: 2026-09-03
-record_count: 718
-new_today: 305
+record_count: 737
+new_today: 332
 state: fresh
 ---
 
 ## State-Level News
 
-305 new of 718 total items today.
+332 new of 737 total items today.
 
 - **NEW**  [[Alabama] Governor Ivey Backs Trump Administration Trucking Crackdown as Alabama Leads the Way](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-backs-trump-administration-trucking-crackdown-as-alabama-leads-the-way/) — *2026-09-02*
   > MONTGOMERY – Governor Kay Ivey on Wednesday applauded the Trump Administration for launching a sweeping federal initiative to combat fraud and illegal activity in the commercial trucking industry, while highlighting Alabama’s leadership on the issue. Cracking down on these bad &#
@@ -30,37 +30,37 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/B0954947-3264-40FA-A530-D8DCD4877E05-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
 - [[California] Governor Newsom announces appointments 8.31.2026](https://www.gov.ca.gov/2026/08/31/governor-newsom-announces-appointments-8-31-2026/) — *2026-09-01*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2024/05/6C94C750-0DF8-46C6-A8E3-00EA4F1B1ADD-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="White “Governor Gavin Newsom” logo beside a walking California grizzly bear and s
-- **NEW**  [[Connecticut] New Steelpointe apartments fuel affordability debate in Bridgeport](https://ctmirror.org/2026/09/03/bridgeport-steelpointe-the-august-apartments/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/STEELPOINTE-BPT-0825-SG-04-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-co
-- **NEW**  [[Connecticut] We are one rainstorm away from another public health crisis](https://ctmirror.org/2026/09/03/we-are-one-rainstorm-away-from-another-public-health-crisis/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/screenshot-2026-07-07-at-74105-am-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
-- **NEW**  [[Connecticut] Education expert starting with the wrong question](https://ctmirror.org/2026/09/03/education-expert-starting-with-the-wrong-question/) — *2026-09-03*
-  > <figure><img width="1024" height="684" src="https://ctmirror.org/wp-content/uploads/2026/06/Blue-Ribbon-Commission-kids-6.4.26-1024x684.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
-- **NEW**  [[Connecticut] Auditors: Millions given to Blue Hills Civic Assoc. unaccounted for](https://ctmirror.org/2026/09/02/blue-hills-civic-association-audit/) — *2026-09-02*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/04/IMG_0003-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/04/IM
-- **NEW**  [[Connecticut] Lawmakers could subpoena CT Children’s over gender care deal with Trump](https://ctmirror.org/2026/09/02/lawmakers-subpoena-connecticut-childrens-gender-affirming-care-trump/) — *2026-09-02*
-  > <figure><img width="1024" height="681" src="https://ctmirror.org/wp-content/uploads/2026/06/221122_CTChildrens_05-1024x681.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploa
-- **NEW**  [[Connecticut] Quickly closed window shields CT Capitol cop from knife attack](https://ctmirror.org/2026/09/02/ct-state-capitol-police-knife-attack/) — *2026-09-02*
-  > <figure><img width="1024" height="740" src="https://ctmirror.org/wp-content/uploads/2026/09/13E12F19-2946-48A0-98E8-EEE0F7181325-1024x740.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/
-- **NEW**  [[Connecticut] Ryan Fazio claims Lamont ‘destroyed’ fiscal caps. But did he?](https://ctmirror.org/2026/09/02/ryan-fazio-claims-lamont-destroyed-fiscal-caps-but-did-he/) — *2026-09-02*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/02/2026_0204_SR_SessionFirstDay_2375-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-c
-- [[Connecticut] A dam owner drained this secluded pond. DEEP wants it restored](https://ctmirror.org/2026/09/02/old-killingly-pond-drained-dam/) — *2026-09-02*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/KILLINGLY-POND-0818-SG-15-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/u
-- [[Connecticut] Nepal’s calamity is a call for action here](https://ctmirror.org/2026/09/02/nepals-calamity-is-a-call-for-action-here/) — *2026-09-02*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/09/AP-nepal.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/09/AP-nepal.jp
-- [[Connecticut] Connecticut’s climate costs are coming home to Glastonbury](https://ctmirror.org/2026/09/02/connecticuts-climate-costs-are-coming-home-to-glastonbury/) — *2026-09-02*
-  > <figure><img width="640" height="480" src="https://ctmirror.org/wp-content/uploads/2023/07/IMG_1822.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2023/07/IMG_1822.jpg
-- [[Connecticut] What Bridgeport and Fairfield reveal about who shows up for school](https://ctmirror.org/2026/09/02/what-bridgeport-and-fairfield-reveal-about-who-gets-to-show-up-for-school/) — *2026-09-02*
-  > <figure><img width="988" height="658" src="https://ctmirror.org/wp-content/uploads/2025/02/absenteeism-chart.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2025/02/abs
-- [[Connecticut] Rep. John Santanella defeats Thomas Tyler in court-ordered primary](https://ctmirror.org/2026/09/01/rep-john-santanella-defeats-thomas-tyler-in-court-ordered-primary/) — *2026-09-02*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/08/ELECTION-DAY-0811-JL-009-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/up
-- [[Connecticut] Yale demonstrators ring in semester with calls on school to ‘democratize’](https://ctmirror.org/2026/09/01/yale-university-protest-trump-administration/) — *2026-09-02*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/09/YALE-PROTEST-0901-SG-09-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- [[Connecticut] Stephanie Thomas unsure if report of federal elections probe is true](https://ctmirror.org/2026/09/01/stephanie-thomas-unsure-if-report-of-federal-elections-probe-is-true/) — *2026-09-01*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/09/IMG_2015-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/09/I
-- [[Connecticut] Report: Economic instability in CT hits lower-income families hardest](https://ctmirror.org/2026/09/01/ct-voices-state-of-economy/) — *2026-09-01*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2025/02/2025_0203_SR_HousingPolicy051-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
-- [[Connecticut] Judge blocks NY ‘climate Superfund’ law as other states watch closely](https://ctmirror.org/2026/09/01/ny-climate-superfund-blocked/) — *2026-09-01*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/02/Climate_Superfund-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/
+- **NEW**  [[Alaska] Flags to be Flown at Half-Staff in Honor of Former Representative Carl Morgan](https://gov.alaska.gov/flags-to-be-flown-at-half-staff-in-honor-of-former-representative-carl-morgan/) — *2026-09-01*
+  > Governor Dunleavy has ordered that Alaska and United States flags fly at half-staff between sunrise and sunset on September 2, 2026, in honor of former legislator Carl Morgan.
+- **NEW**  [[Alaska] Recovery Month 2026](https://gov.alaska.gov/recovery-month-2026/) — *2026-09-01*
+  > WHEREAS, it is essential that all Alaskans recognize the critical need for affordable, accessible, and high-quality substance abuse treatment; and WHEREAS, substance abuse, co-occurring mental disorders, and related physical illnesses are significant public health challenges that
+- **NEW**  [[Alaska] Support Dog and Cat Adoption Month 2026](https://gov.alaska.gov/support-dog-and-cat-adoption-month-2026/) — *2026-09-01*
+  > WHEREAS, the State of Alaska values the lives of dogs and cats and supports adoption; and WHEREAS, a 90 percent save rate of dogs and cats who are unowned will be achieved if more Alaskans seeking a pet choose to adopt from their local animal shelter or rescue group; and WHEREAS,
+- **NEW**  [[Alaska] Alaska Blood Donation Week 2026](https://gov.alaska.gov/alaska-blood-donation-week-2026/) — *2026-09-01*
+  > WHEREAS, the State of Alaska is committed to ensuring the safety and security of its residents and those visiting our state by ensuring that our medical centers have a sufficient supply of blood; and WHEREAS, a local in-state sufficient blood supply is crucial for treating those 
+- **NEW**  [[Alaska] Childhood Cancer Awareness Month 2026](https://gov.alaska.gov/childhood-cancer-awareness-month-2026/) — *2026-09-01*
+  > WHEREAS, our children are our most precious resource, and their well-being is vital to a bright future for Alaska; and WHEREAS, cancer is a life-altering diagnosis for anyone, and its impact is felt more profoundly when it touches a child and their family; and WHEREAS, pediatric 
+- **NEW**  [[California] Is Gavin Newsom in his lame duck era?](https://calmatters.org/newsletter/gavin-newsom-lame-duck-months/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/090126_Wildfire-Bill-Session_MG_CM_17.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A close-sup view of a person&#039;s
+- **NEW**  [[California] Why a signature Newsom power move flopped in the last days of the Legislative session](https://calmatters.org/politics/2026/09/newsom-lame-duck-session/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/071326_Newsom-Housing-MO_CM_08.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Gov. Gavin Newsom frowns and looks downwar
+- **NEW**  [[California] Defense tech has unleashed a new weapons boom in Southern California](https://calmatters.org/economy/technology/2026/09/defense-tech-has-unleashed-a-new-weapons-boom-in-southern-california/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082626-Defense-Contracts-MG-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A collage illustration shows military figh
+- **NEW**  [[California] Newsom’s pattern of closed-door dealmaking is unbefitting of a presidential hopeful](https://calmatters.org/commentary/2026/09/newsom-closed-door-dealmaking-water/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/042226-Delta-Pipeline-Ranching-MG-CM-31.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An irrigation canal carries water
+- **NEW**  [[California] Sacramento school district’s financial crisis exemplifies politicization of public education](https://calmatters.org/commentary/dan-walters/2026/09/sacramento-school-budget-crisis/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/042126_Math-Screener_AH_CM_22.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An over-the-shoulder view of a young studen
+- [[California] In standoff with Newsom, California Democrats claw back $450 million for climate projects](https://calmatters.org/politics/2026/09/climate-change-carbon-market/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/09/042220_Housing-Construction_BANG_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Construction workers wearing green
+- [[California] Why a bill to juice condo construction died even though California lawmakers voted for it](https://calmatters.org/housing/2026/09/condo-construction-bill-dies/) — *2026-09-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/02/080719_LosAngeles_AW_CM_61.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Apartment complexes in Little Tokyo in Los Ang
+- [[California] California utilities to reclaim unused money from school air conditioning program](https://calmatters.org/environment/climate-change/2026/09/failed-school-air-conditioning-extension-calshape/) — *2026-09-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/05/111222_Lake-Marie-Elementary_LJ_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Elementary-age student walk through
+- [[California] Wildfire liability bill dies without a vote on final day of session](https://calmatters.org/economy/2026/09/wildfire-liability-bill-dies-without-a-vote-on-final-day-of-session/) — *2026-09-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/010824_Eaton-Fire_JH_CM_06.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An electrical substation and power lines stand
+- [[California] Should California backfill science funding Trump cut? Voters could decide in 2028](https://calmatters.org/education/higher-education/2026/09/science-research-california-2/) — *2026-09-01*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/0726222-UCSD-Campus-AD-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing a backpack walks toward the
+- **NEW**  [[Colorado] Why the rushed Postal Service plan for mail-in voting has states in a panic](https://coloradonewsline.com/2026/09/03/repub/rushed-postal-service-mail-in-voting/) — *2026-09-03*
+  > President Donald Trump’s executive order placing new restrictions on mail-in voting would assign state officials a Herculean task to reach compliance before the crucial midterm elections. The order directed the U.S. Postal Service to strictly regulate the envelope design of mail-
 
-_(693 additional items in raw.jsonl)_
+_(712 additional items in raw.jsonl)_

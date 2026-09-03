@@ -4,13 +4,13 @@ title: U.S. Political Figures (per-figure anomaly tracking)
 date: 2026-09-03
 record_count: 613
 active_figures: 576
-scored_above_zero: 31
+scored_above_zero: 29
 state: fresh
 ---
 
 ## U.S. Political Figures (per-figure anomaly tracking)
 
-31 of 576 active figures registered a non-zero anomaly score today. Top 10:
+29 of 576 active figures registered a non-zero anomaly score today. Top 10:
 
 1. **John Larson** (Representative, Democratic, CT-1st): composite 0.240
    drivers: new_filings=0.40, enforcement_hits=1.00
@@ -36,9 +36,9 @@ state: fresh
 8. **Derrick Van Orden** (Representative, Republican, WI-3rd): composite 0.050
    drivers: new_filings=0.50
    evidence: [lake:political_figures:0001437749-2], [lake:political_figures:0001437749-2], [lake:political_figures:0001437749-2]
-9. **Lisa Blunt Rochester** (Senator, Democratic, DE): composite 0.040
-   drivers: new_filings=0.40
-   evidence: [lake:political_figures:0000902664-2], [lake:political_figures:0000902664-2]
-10. **Andy Kim** (Senator, Democratic, NJ): composite 0.040
+9. **Andy Kim** (Senator, Democratic, NJ): composite 0.040
    drivers: new_filings=0.40
    evidence: [lake:political_figures:0001520138-2], [lake:political_figures:0001520138-2], [lake:political_figures:0001193125-2], [lake:political_figures:0001570465-2], [lake:political_figures:0001193125-2]
+10. **Mike Lee** (Senator, Republican, UT): composite 0.040
+   drivers: new_filings=0.40
+   evidence: [lake:political_figures:0001046179-2], [lake:political_figures:0001046179-2], [lake:political_figures:0001903596-2]

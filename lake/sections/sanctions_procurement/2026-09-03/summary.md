@@ -11,10 +11,10 @@ state: fresh
 
 12 new of 110 total items today.
 
-- [[OFAC] Issuance of Amended Venezuela-related General Licenses and Associated Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-27*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xZEUyaVprZTJoMlNWY2FQM1RfT2pqcUtseEJ3c055aE9KR2NCUUp6TFhPVklyTUtxSERrRGRPRkFwMUZaZ1k0am9BUk5XVEl2ZVI2eHBnRTl1c1ZFNVE?oc=5" target="_blank">Issuance of Amended Venezuela-related General Licenses and Associated Frequently
 - **NEW**  [[OFAC] Reminder to file the 2026 Annual Report of Blocked Property; Issuance of Amended Venezuela-related General Licenses and Frequently Asked Question - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-02*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE00TjgwdmdjZThFdnVxXzd1SzNFYk1zSXptSzlTT3JNYVc5VHBmek52SFUtUWtneWNlejFfc2hNaWx0dmNFdTBybk5mV09fTTU3Nm9EaXNlamtqM3Nzb1E?oc=5" target="_blank">Reminder to file the 2026 Annual Report of Blocked Property; Issuance of Amended
+- [[OFAC] Issuance of Amended Venezuela-related General Licenses and Associated Frequently Asked Questions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-27*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xZEUyaVprZTJoMlNWY2FQM1RfT2pqcUtseEJ3c055aE9KR2NCUUp6TFhPVklyTUtxSERrRGRPRkFwMUZaZ1k0am9BUk5XVEl2ZVI2eHBnRTl1c1ZFNVE?oc=5" target="_blank">Issuance of Amended Venezuela-related General Licenses and Associated Frequently
 - [[OFAC] Iran-related and Counter Terrorism Designations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-08-28*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3Q0t6Q285dnZ1TXpIWUpnQjVhUU5jTzNWbGg1c2lVU3JOa2hRNEZNV0hhM0ZaazB3dVQzYkxiMlgzdEVGTTd4WmpSMi1FY3RCY2xnYzgtREJ6S0RRVGc?oc=5" target="_blank">Iran-related and Counter Terrorism Designations</a>&nbsp;&nbsp;<font color="#6f6
 - **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 54C Authorizing the Supply - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-02*
