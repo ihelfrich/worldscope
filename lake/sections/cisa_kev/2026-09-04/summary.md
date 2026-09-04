@@ -2,15 +2,17 @@
 section: cisa_kev
 title: CISA Known Exploited Vulnerabilities (last 14d)
 date: 2026-09-04
-record_count: 21
-new_today: 0
+record_count: 22
+new_today: 1
 state: fresh
 ---
 
 ## CISA Known Exploited Vulnerabilities (last 14d)
 
-0 new of 21 total items today.
+1 new of 22 total items today.
 
+- **NEW**  [CVE-2026-85046 · Google Chromium V8: Google Chromium V8 Type Confusion Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-85046) — *2026-09-04*
+  > vendor: Google · product: Chromium V8 · CISA remediation by 2026-09-18
 - [CVE-2026-59822 · BerriAI LiteLLM: BerriAI LiteLLM Improper Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-59822) — *2026-09-02*
   > vendor: BerriAI · product: LiteLLM · CISA remediation by 2026-09-16
 - [CVE-2026-48710 · Kludex Starlette: Kludex Starlette HTTP Request/Response Smuggling Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-48710) — *2026-09-02*

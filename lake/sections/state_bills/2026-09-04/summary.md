@@ -3,13 +3,13 @@ section: state_bills
 title: State Legislative Action
 date: 2026-09-04
 record_count: 96
-new_today: 67
+new_today: 80
 state: fresh
 ---
 
 ## State Legislative Action
 
-67 new of 96 total items today.
+80 new of 96 total items today.
 
 - **NEW**  [[Alaska HB 265] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-09-04*
   > An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.

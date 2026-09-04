@@ -2,46 +2,36 @@
 section: usgs_quakes
 title: USGS earthquakes (M4.5+, past day)
 date: 2026-09-04
-record_count: 17
-new_today: 17
+record_count: 12
+new_today: 12
 state: fresh
 ---
 
 ## USGS earthquakes (M4.5+, past day)
 
-17 new of 17 total items today.
+12 new of 12 total items today.
 
-- **NEW**  [M 5.5 - 100 km S of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te4b) — *2026-09-03*
-  > M5.5 · 100 km S of Nikolski, Alaska · depth 10 km
-- **NEW**  [M 5.3 - 104 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2m) — *2026-09-03*
-  > M5.3 · 104 km SSW of Nikolski, Alaska · depth 10 km
+- **NEW**  [M 5.4 - Kermadec Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te9t) — *2026-09-04*
+  > M5.4 · Kermadec Islands region · depth 10 km
 - **NEW**  [M 5.2 - 28 km S of Cilacap, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82) — *2026-09-04*
   > M5.2 · 28 km S of Cilacap, Indonesia · depth 10 km
-- **NEW**  [M 5.2 - 271 km SSE of Dunhuang, China](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te21) — *2026-09-03*
-  > M5.2 · 271 km SSE of Dunhuang, China · depth 10 km
-- **NEW**  [M 5.2 - 100 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdys) — *2026-09-03*
-  > M5.2 · 100 km SSW of Nikolski, Alaska · depth 10 km · TSUNAMI
-- **NEW**  [M 5.1 - Owen Fracture Zone region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdzk) — *2026-09-03*
-  > M5.1 · Owen Fracture Zone region · depth 10 km
+- **NEW**  [M 5.1 - 25 km W of Padangsidempuan, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck) — *2026-09-04*
+  > M5.1 · 25 km W of Padangsidempuan, Indonesia · depth 121.712 km
 - **NEW**  [M 5.0 - South Sandwich Islands region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8r) — *2026-09-04*
   > M5.0 · South Sandwich Islands region · depth 10 km
 - **NEW**  [M 5.0 - 236 km ESE of Attu Station, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te7l) — *2026-09-04*
   > M5.0 · 236 km ESE of Attu Station, Alaska · depth 10 km · TSUNAMI
-- **NEW**  [M 5.0 - Fiji region](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2i) — *2026-09-03*
-  > M5.0 · Fiji region · depth 619.049 km
+- **NEW**  [M 4.9 - south of the Fiji Islands](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tea7) — *2026-09-04*
+  > M4.9 · south of the Fiji Islands · depth 76.735 km
 - **NEW**  [M 4.9 - 98 km W of Gorontalo, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te55) — *2026-09-03*
   > M4.9 · 98 km W of Gorontalo, Indonesia · depth 111.177 km
-- **NEW**  [M 4.9 - 90 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdyi) — *2026-09-03*
-  > M4.9 · 90 km SSW of Nikolski, Alaska · depth 44.444 km
 - **NEW**  [M 4.8 - 29 km WSW of Salamanca, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te5e) — *2026-09-03*
   > M4.8 · 29 km WSW of Salamanca, Chile · depth 81.851 km
 - **NEW**  [M 4.8 - 57 km N of Ende, Indonesia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51) — *2026-09-03*
   > M4.8 · 57 km N of Ende, Indonesia · depth 10 km
-- **NEW**  [M 4.8 - 81 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te09) — *2026-09-03*
-  > M4.8 · 81 km SSW of Nikolski, Alaska · depth 35 km
-- **NEW**  [M 4.8 - 65 km S of Isangel, Vanuatu](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdz8) — *2026-09-03*
-  > M4.8 · 65 km S of Isangel, Vanuatu · depth 112.706 km
-- **NEW**  [M 4.5 - 11 km N of Jordán, Colombia](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20) — *2026-09-03*
-  > M4.5 · 11 km N of Jordán, Colombia · depth 144.678 km
-- **NEW**  [M 4.5 - 78 km SSW of Nikolski, Alaska](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te02) — *2026-09-03*
-  > M4.5 · 78 km SSW of Nikolski, Alaska · depth 35 km
+- **NEW**  [M 4.7 - 2 km NNW of Cabangan, Philippines](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95) — *2026-09-04*
+  > M4.7 · 2 km NNW of Cabangan, Philippines · depth 61.292 km
+- **NEW**  [M 4.6 - 32 km NW of Raumati Beach, New Zealand](https://earthquake.usgs.gov/earthquakes/eventpage/us7000tede) — *2026-09-04*
+  > M4.6 · 32 km NW of Raumati Beach, New Zealand · depth 50.571 km
+- **NEW**  [M 4.5 - 36 km WSW of Ollagüe, Chile](https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p) — *2026-09-04*
+  > M4.5 · 36 km WSW of Ollagüe, Chile · depth 130.651 km

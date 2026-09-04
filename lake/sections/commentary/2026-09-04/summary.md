@@ -11,13 +11,13 @@ state: fresh
 
 4 new of 6 total items today.
 
+- **NEW**  [[Marginal Revolution] How are the market valuations for the U.S: insurers doing?](https://marginalrevolution.com/marginalrevolution/2026/09/how-are-the-market-valuations-for-the-u-s-insurers-doing.html?utm_source=rss&utm_medium=rss&utm_campaign=how-are-the-market-valuations-for-the-u-s-insurers-doing) — *2026-09-04*
+  > U.S. insurance stocks have been doing quite well since the beginning of May 2026, and they have materially outperformed the overall market. I’m using the May 1 close through the September 3 close so that we compare complete trading days; these are price changes, excluding dividen
+- **NEW**  [[Marginal Revolution] Friday assorted links](https://marginalrevolution.com/marginalrevolution/2026/09/friday-assorted-links-589.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-589) — *2026-09-04*
+  > 1. &#8220;After work, we&#8217;ll have each other.&#8221; 2. Gloria Steinem, RIP (NYT). 3. Henry Oliver on Finding Emily. 4. Solve for the Russian family squabble equilibrium (short video). 5. New Fuchsia Dunlop book due out October 20. 6. The O-Ring model, restated for AI. 7. Jo
 - **NEW**  [[Marginal Revolution] Real GDP Per Capita and the Standard of Living](https://marginalrevolution.com/marginalrevolution/2026/09/real-gdp-per-capita-and-the-standard-of-living.html?utm_source=rss&utm_medium=rss&utm_campaign=real-gdp-per-capita-and-the-standard-of-living) — *2026-09-04*
   > We are freshening up some of our videos with updated data so now is a good time to remind everyone that Modern Principles of Economics is best principles of economics textbook; great videos, clear writing and excellent applications and examples!
 The post Real GDP Per Ca
-- **NEW**  [[Marginal Revolution] Shout it from the rooftops (of the data centers)](https://marginalrevolution.com/marginalrevolution/2026/09/shout-it-from-the-rooftops-of-the-data-centers.html?utm_source=rss&utm_medium=rss&utm_campaign=shout-it-from-the-rooftops-of-the-data-centers) — *2026-09-04*
-  > Data-center investment has become one of the largest capital-expenditure cycles in financial markets, with U.S. hyperscalers expected to deploy roughly $700 billion in 2026. This investment boom has raised concerns that large computing loads impose external costs on households th
-- **NEW**  [[Marginal Revolution] Share price numbers for the Hugging Face incident](https://marginalrevolution.com/marginalrevolution/2026/09/more-numbers-for-the-hugging-face-incident.html?utm_source=rss&utm_medium=rss&utm_campaign=more-numbers-for-the-hugging-face-incident) — *2026-09-04*
-  > &#8230;major publicly traded cybersecurity firms lost roughly $65–80 billion, or about 8–10% of their combined value, in the days following disclosure of the Hugging Face/OpenAI incident; by early September they had recovered roughly $58 billion, representing about 70–90% of that
 - **NEW**  [[Conversable Economist] Gross and Net US Investment](https://conversableeconomist.com/2026/09/03/gross-and-net-us-investment/) — *2026-09-03*
   > Each year, more than half of the total or gross investment by US firms just makes up for depreciation in older equipment and knowledge. in recent year, it&#8217;s more like 75% of current year investment just offsets depreciation. Here are the figures from the ever-useful FRED we
 - [[Conversable Economist] US Energy: Source to End-Use](https://conversableeconomist.com/2026/09/02/us-energy-source-to-end-use/) — *2026-09-02*

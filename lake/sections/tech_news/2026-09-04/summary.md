@@ -3,16 +3,36 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-09-04
 record_count: 56
-new_today: 39
+new_today: 47
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-39 new of 56 total items today.
+47 new of 56 total items today.
 
-- **NEW**  [[BleepingComputer] Google warns of new Chrome zero-day flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/) — *2026-09-04*
-  > Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]
+- **NEW**  [[BleepingComputer] IDScan sued over alleged data breach affecting 153 million drivers](https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/) — *2026-09-04*
+  > Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]
+- **NEW**  [[BleepingComputer] Critical Citrix NetScaler auth bypass now leveraged in attacks](https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/) — *2026-09-04*
+  > Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]
+- **NEW**  [[BleepingComputer] Microsoft says some users can’t open the Teams desktop client](https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/) — *2026-09-04*
+  > Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]
+- **NEW**  [[BleepingComputer] 39 New Methods That Compromise Passkey Authentication](https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/) — *2026-09-04*
+  > Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries withou
+- **NEW**  [[BleepingComputer] New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/) — *2026-09-04*
+  > An anonymous security researcher who uses the "Nightmare Eclipse" handle released a CrowdStrike Falcon zero-day exploit named "FalconFlank" that lets attackers escalate privileges on up-to-date Windows systems. [...]
+- **NEW**  [[The Hacker News] Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters](https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html) — *2026-09-04*
+  > Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters.
+
+"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure 
+- **NEW**  [[The Hacker News] PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution](https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html) — *2026-09-04*
+  > PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.
+
+The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical d
+- **NEW**  [[The Hacker News] New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html) — *2026-09-04*
+  > A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.
+
+The attackers named the implant ted in debug str
 - **NEW**  [[The Hacker News] Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html) — *2026-09-04*
   > Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.
 
@@ -24,58 +44,39 @@ The vulnerabilities in question are -
   > Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.
 
 The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those
-- **NEW**  [[The Hacker News] Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day](https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html) — *2026-09-04*
-  > Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.
-
-The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's J
-- **NEW**  [[The Hacker News] GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests](https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html) — *2026-09-04*
-  > OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the "world's most intelligent and aligned model."
-
-The development comes days after the artificial intelligence (AI) company said the model had reached the "Critical" cybersecurity capability threshold unde
+- **NEW**  [[The Record] US, Britain to coordinate on scam center takedowns](https://therecord.media/scam-compounds-coordination-us-uk-memorandum) — *2026-09-04*
+  > The U.S. Department of Justice and the U.K.'s National Crime Agency and Crown Prosecutor signed a memorandum to cooperate on cases involving Southeast Asian scam operations.
+- **NEW**  [[The Record] UK account-hack losses surge as new reporting system exposes hidden cases](https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes) — *2026-09-04*
+  > In its first annual assessment, published Friday, the City of London Police said victims reported losing £6.3 million ($8.5 million) to account hacks in the year ending March 31, up from £1.2 million ($1.6 million) a year earlier.
+- **NEW**  [[The Record] Russian data centers face new security requirements amid Ukraine's drone threats](https://therecord.media/russia-data-centers-ukraine-drone-threats) — *2026-09-04*
+  > Russia's data centers are concentrated in areas increasingly exposed to Ukrainian drone attacks. The Kremlin wants them to stiffen their physical defenses.
+- **NEW**  [[The Record] G7 urges organizations to prepare for quantum cyber threats](https://therecord.media/g7-urges-organizations-to-prepare-for-quantum-threats) — *2026-09-04*
+  > In a joint advisory released Thursday, the G7 Cyber Security Working Group and the U.S. Cybersecurity and Infrastructure Security Agency, CISA, said organizations should begin moving to post-quantum cryptography now.
+- **NEW**  [[The Record] US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure](https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks) — *2026-09-04*
+  > Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
+- **NEW**  [[Cybersecurity Dive] Nvidia’s $12.9B Hugging Face deal could benefit enterprises](https://www.cybersecuritydive.com/news/Nvidia-acquires-hugging-face-enterprises/829697/) — *2026-09-04*
+  > The chipmaker&rsquo;s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.
+- **NEW**  [[Schneier on Security] Using a VM to Contain an AI Agent](https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html) — *2026-09-04*
+  > It won&#8217;t work:
+My suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact.
+An off-the-shelf VM is 
 - **NEW**  [[Schneier on Security] Security Vulnerability in a Voting System](https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html) — *2026-09-04*
   > It&#8217;s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools.
 Nearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses af
 - **NEW**  [[Schneier on Security] AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks](https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html) — *2026-09-04*
   > We cannot forget that AI coding agents are not yet trustworthy:
 Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted
-- **NEW**  [[The Register] Wayve and Uber steal a march on Waymo with paid self-driving London rides](https://www.theregister.com/ai-and-ml/2026/09/04/wayve-and-uber-steal-a-march-on-waymo-with-paid-self-driving-london-rides/5294451) — *2026-09-04*
-  > 15 Mustangs on the city streets, but the Nissan LEAF follow-up could dispense with the safety driver
-- **NEW**  [[The Register] Enjoy the Windows 10 Update Experience at London's O2](https://www.theregister.com/offbeat/2026/09/04/enjoy-the-windows-10-update-experience-at-londons-o2/5294302) — *2026-09-04*
-  > The new extreme sport: Windows Updates
-- **NEW**  [[The Register] US law firm accuses UK AI software firm of unwanted contract renewal when it tried to leave](https://www.theregister.com/legal/2026/09/04/us-law-firm-accuses-uk-ai-software-firm-of-unwanted-contract-renewal-when-it-tried-to-leave/5293995) — *2026-09-04*
-  > Customer alleges AI telco system had frequent issues, did not work as promised, as vendor sues separately  for non payment
-- **NEW**  [[The Register] UK military wants lasers to stop drone swarms without running out of ammo](https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176) — *2026-09-04*
-  > Project PANOPTES puts £5M on the table for an autonomous, vehicle-mounted defense
-- **NEW**  [[The Register] Best eSIM for travel 2026: which one offers the best value for money?](https://www.theregister.com/personal-tech/2026/09/04/partner-content-best-esim-for-travel-2026-which-one-offers-the-best-value-for-money/5293006) — *2026-09-04*
-  > PARTNER CONTENT: Price isn't everything
-- **NEW**  [[Computer Weekly] Post Office Horizon scandal explained: Everything you need to know](https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know) — *2026-09-04*
-  > &lt;p&gt;After more than 20 years, what is now referred to as the Post Office Horizon scandal has become headline news. Computer Weekly has &lt;a href="https://www.computerweekly.com/news/2240089230/Bankruptcy-prosecution-and-disrupted-livelihoods-Postmasters-tell-their-story"&gt
-- **NEW**  [[Computer Weekly] Snowflake pivots to AI platforming](https://www.computerweekly.com/feature/Snowflake-pivots-to-AI-platforming) — *2026-09-04*
-  > &lt;p&gt;Artificial intelligence (AI) has moved past the initial stages of the gold rush. In a scramble to avoid getting lost in the noise surrounding the &lt;a href="https://www.techtarget.com/ai/definition/What-is-GenAI-Generative-AI-explained"&gt;generative AI&lt;/a&gt; hyperb
-- **NEW**  [[Computer Weekly] The future of AI depends on the quality of the data behind It](https://www.computerweekly.com/opinion/The-future-of-AI-depends-on-the-quality-of-the-data-behind-It) — *2026-09-04*
-  > &lt;p&gt;One of the biggest lessons from working with data is that having more information does not automatically mean having better insight. Data only creates value when it helps the business make a better decision, catch a problem while there is still time to do something about
-- **NEW**  [[Computer Weekly] Nvidia acquires Hugging Face and becomes open platform provider](https://www.computerweekly.com/news/366650116/Nvidia-acquires-Hugging-Face-and-becomes-open-platform-provider) — *2026-09-04*
-  > &lt;p&gt;Nvidia CEO Jensen Huang announced &lt;a href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"&gt;on his blog&lt;/a&gt; that the company would be acquiring &lt;a href="https://www.techtarget.com/whatis/definition/Hugging-Face"&gt;Hugging Face&lt;/a&gt; for 
-- **NEW**  [[Computer Weekly] CW@60: From cassettes to cellular - how early constraints built a modern CTO](https://www.computerweekly.com/feature/CW60-From-cassettes-to-cellular-how-early-constraints-built-a-modern-CTO) — *2026-09-04*
-  > &lt;div class="imagecaption alignLeft"&gt;
- &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
-&lt;/div&gt; 
-&lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
-- **NEW**  [[MIT Technology Review] Data from drones in Ukraine is fueling a new Wild West marketplace](https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/) — *2026-09-04*
-  > Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which the
-- **NEW**  [[TechCrunch] Feds launch investigation into Tesla’s Cybercab deployment](https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/) — *2026-09-04*
-  > The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin.
-- **NEW**  [[TechCrunch] The sameness problem behind those unappetizing AI-generated menus](https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/) — *2026-09-04*
-  > While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.
-- **NEW**  [[TechCrunch] Crusoe reportedly raises $3B at a  $30B valuation](https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/) — *2026-09-04*
-  > The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.
-- **NEW**  [[BleepingComputer] French hospital fined €500,000 after breach exposes data of 727,000](https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/) — *2026-09-03*
-  > France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]
-- **NEW**  [[BleepingComputer] Coder's registry infrastructure compromised to push malicious modules](https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/) — *2026-09-03*
-  > Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]
-- **NEW**  [[BleepingComputer] HPE patches critical ArubaOS-CX remote code execution flaw](https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/) — *2026-09-03*
-  > Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]
-- **NEW**  [[BleepingComputer] Microsoft: KB5120998 mouse reset bug affects only non-English PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/) — *2026-09-03*
-  > Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]
+- **NEW**  [[The Register] Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident](https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554) — *2026-09-04*
+  > Two cases of agents escaping to solve unsolvable problems paints an uncomfortable question: Is the entire internet in OpenAI's experimental agentic firing line?
+- **NEW**  [[The Register] My Word. Microsoft's prepping Similarity Checker for retirement](https://www.theregister.com/applications/2026/09/04/my-word-microsofts-prepping-similarity-checker-for-retirement/5294550) — *2026-09-04*
+  > Built-in plagiarism police to hand in badge next month
+- **NEW**  [[The Register] Canonical shuttering some of its legacy chat channels](https://www.theregister.com/os-platforms/2026/09/04/canonical-shuttering-some-of-its-legacy-chat-channels/5294524) — *2026-09-04*
+  > The Ubuntu Pastebin went in June, IRC gets demoted next
+- **NEW**  [[The Register] Microsoft to bounce mail from outdated Exchange servers](https://www.theregister.com/on-prem/2026/09/04/microsoft-to-bounce-mail-from-outdated-exchange-servers/5294506) — *2026-09-04*
+  > 2016 and 2019 installations must meet the October 2025 baseline to reach cloud-hosted inboxes
+- **NEW**  [[The Register] PostgreSQL 19 connects the dots with standardized graph queries](https://www.theregister.com/databases/2026/09/04/postgresql-19-connects-the-dots-with-standardized-graph-queries/5294500) — *2026-09-04*
+  > Baked-in SQL syntax arrives through multi-vendor collaboration, although indexing still needs to catch up
+- **NEW**  [[Ars Technica] Medieval manuscripts are "biological time capsules" for deadly sheeppox virus](https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/) — *2026-09-04*
+  > Other archives and libraries around the world may also contain genetic traces of past disease outbreaks.
 
 _(31 additional items in raw.jsonl)_

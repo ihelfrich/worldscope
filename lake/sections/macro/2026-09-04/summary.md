@@ -2,25 +2,23 @@
 section: macro
 title: Macro indicators — latest values (FRED)
 date: 2026-09-04
-record_count: 21
+record_count: 20
 new_today: 0
 state: fresh
 ---
 
 ## Macro indicators — latest values (FRED)
 
-0 new of 21 total items today.
+0 new of 20 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-09-02*
-  > latest: 3.63 as of 2026-09-02
 - [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-09-02*
   > latest: 4.39 as of 2026-09-02
 - [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-09-02*
   > latest: 4.79 as of 2026-09-02
 - [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-09-02*
   > latest: 5.27 as of 2026-09-02
-- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-09-02*
-  > latest: 3.65 as of 2026-09-02
+- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-09-03*
+  > latest: 3.66 as of 2026-09-03
 - [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-09-03*
   > latest: 0.43 as of 2026-09-03
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-07-01*
@@ -29,10 +27,10 @@ state: fresh
   > latest: 336.789 as of 2026-07-01
 - [[Inflation] Core PCE (PCEPILFE)](https://fred.stlouisfed.org/series/PCEPILFE) — *2026-07-01*
   > latest: 130.658 as of 2026-07-01
-- [[Labor] Unemployment rate (UNRATE)](https://fred.stlouisfed.org/series/UNRATE) — *2026-07-01*
-  > latest: 4.1 as of 2026-07-01
-- [[Labor] Nonfarm payrolls (PAYEMS)](https://fred.stlouisfed.org/series/PAYEMS) — *2026-07-01*
-  > latest: 158858 as of 2026-07-01
+- [[Labor] Unemployment rate (UNRATE)](https://fred.stlouisfed.org/series/UNRATE) — *2026-08-01*
+  > latest: 4.1 as of 2026-08-01
+- [[Labor] Nonfarm payrolls (PAYEMS)](https://fred.stlouisfed.org/series/PAYEMS) — *2026-08-01*
+  > latest: 159075 as of 2026-08-01
 - [[Labor] Job openings (JOLTS) (JTSJOL)](https://fred.stlouisfed.org/series/JTSJOL) — *2026-07-01*
   > latest: 7271 as of 2026-07-01
 - [[Growth] Real GDP (GDPC1)](https://fred.stlouisfed.org/series/GDPC1) — *2026-04-01*
@@ -51,5 +49,5 @@ state: fresh
   > latest: 6.726 as of 2026-08-28
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-09-01*
   > latest: 91.48 as of 2026-09-01
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-09-02*
-  > latest: 15.2 as of 2026-09-02
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-09-03*
+  > latest: 14.32 as of 2026-09-03

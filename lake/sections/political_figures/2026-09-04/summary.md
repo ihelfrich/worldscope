@@ -4,13 +4,13 @@ title: U.S. Political Figures (per-figure anomaly tracking)
 date: 2026-09-04
 record_count: 613
 active_figures: 576
-scored_above_zero: 30
+scored_above_zero: 42
 state: fresh
 ---
 
 ## U.S. Political Figures (per-figure anomaly tracking)
 
-30 of 576 active figures registered a non-zero anomaly score today. Top 10:
+42 of 576 active figures registered a non-zero anomaly score today. Top 10:
 
 1. **Rick Scott** (Senator, Republican, FL): composite 0.150
    drivers: new_filings=0.50, enforcement_hits=0.50

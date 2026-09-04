@@ -2,229 +2,285 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-09-04
-record_count: 132
-new_today: 131
+record_count: 171
+new_today: 170
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-131 new of 132 total items today.
+170 new of 171 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 6:53AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b7dbd7c5229219dc85331d6aafb2e4a60c723d1.001.1) — *2026-09-04*
-  > At 653 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Napowan Scout Camp, or 11 miles east of Wautoma, moving east at 40
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:15PM EDT until September 4 at 5:00PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae25ae5eab49904ae6462a450e6e3ecc1688e425.001.1) — *2026-09-04*
+  > SVRLWX
+
+The National Weather Service in Sterling Virginia has issued a
+
+* Severe Thunderstorm Warning for...
+South central Spotsylvania County in central Virginia...
+
+* Until 500 PM EDT.
+
+* At 414 PM EDT, a severe thunderstorm was located 9 miles northeast
+of Mineral, moving sout
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:14PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.054d74a36256662f82d62c2d2218c0e5e9985a70.001.1) — *2026-09-04*
+  > At 414 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Sanderling to near Grandy. Movement was
+southeast at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph, heavy rain, and frequent
+lightning.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds cou
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:14PM EDT until September 4 at 4:30PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9382735f3d6d00901d5ff6f10f114708f8e5ef84.002.1) — *2026-09-04*
+  > At 414 PM EDT, a severe thunderstorm was located near Madison
+Heights, or 8 miles north of Concord, moving southeast at 25 mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to roofs, siding, and trees.
+
+Locations impacted include...
+Appomattox..
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:13PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22d581b2f6c6de70f124b7ca3151c6500fd7755f.001.1) — *2026-09-04*
+  > At 412 PM EDT, strong outflow thunderstorms were located along a
+line extending from 7 miles east of Waynesville to near Sabina,
+moving southeast at 35 mph.  Winds will occur in advance of any
+storms.
+
+HAZARD...Wind gusts up to 45 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty w
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 3:13PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ae516c4157554b4160760e76669e881b03c267cd.001.1) — *2026-09-04*
+  > At 312 PM CDT, Doppler radar was tracking a strong thunderstorm 10
+miles northeast of Borger, moving north at 5 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impac
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:12PM EDT until September 4 at 5:15PM EDT by NWS Blacksburg VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8f641aa3b0638f932e6de1eff49f0f2ca0cfdb5.001.1) — *2026-09-04*
+  > SVRRNK
+
+The National Weather Service in BLACKSBURG has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Surry County in northwestern North Carolina...
+Northwestern Stokes County in north central North Carolina...
+
+* Until 515 PM EDT.
+
+* At 412 PM EDT, a severe thunders
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:11PM EDT until September 4 at 4:30PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d88a6b7f34d29facfa361dc47d14fe0d509b72e.002.1) — *2026-09-04*
+  > At 411 PM EDT, a severe thunderstorm was located 10 miles northeast
+of Mineral, moving southeast at 25 mph.
+
+HAZARD...60 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Damaging winds will cause some trees and large branches to
+fall. This could injure t
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 3:11PM CDT by NWS Des Moines IA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7accbdf88540313e805c3e54bb5dffcb822ce9aa.001.1) — *2026-09-04*
+  > At 311 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Aplington, or 9 miles south of Allison, moving east at 15 mph.
+
+HAZARD...Wind gusts up to 40 mph and penny size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:10PM EDT until September 4 at 5:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da1fcb54bd9705caff0423db82789ed0f9151f01.001.1) — *2026-09-04*
+  > SVRAKQ
+
+The National Weather Service in Wakefield has issued a
+
+* Severe Thunderstorm Warning for...
+Eastern Bertie County in northeastern North Carolina...
+Southwestern Chowan County in northeastern North Carolina...
+
+* Until 500 PM EDT.
+
+* At 410 PM EDT, a severe thunderstorm w
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:09PM EDT by NWS Jacksonville FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7bffa5101535ed42acff5860e8b6795b56f153bc.001.1) — *2026-09-04*
+  > At 409 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Middleburg to near Florahome. Movement was
+northeast at 10 mph.
+
+HAZARD...Wind gusts around 40 mph and minor flooding due to heavy
+rainfall.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty 
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:09PM EDT until September 4 at 4:30PM EDT by NWS Baltimore MD/Washington DC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ce3a0f23f215c5b3fbe4472528344901f4db343c.002.1) — *2026-09-04*
+  > At 409 PM EDT, severe thunderstorms were located along a line
+extending from near Bull Run to 6 miles south of Linton Hall, moving
+east at 40 mph.
+
+HAZARD...70 mph wind gusts and quarter size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Damaging winds will cause some trees and larg
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:08PM EDT until September 4 at 5:00PM EDT by NWS Wakefield VA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb80116c2751ddaca8d831e1308c62e04d855f92.001.1) — *2026-09-04*
+  > SVRAKQ
+
+The National Weather Service in Wakefield has issued a
+
+* Severe Thunderstorm Warning for...
+Northeastern Louisa County in central Virginia...
+
+* Until 500 PM EDT.
+
+* At 408 PM EDT, a severe thunderstorm was located 10 miles north of
+Mineral, moving southeast at 25 mph.
+
+
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:08PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7babd5164562263342df3caabe13526c6f5d5b2c.001.1) — *2026-09-04*
+  > At 408 PM EDT, a strong thunderstorm was located near Richmond,
+moving southeast at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph, pea size hail, frequent
+cloud-to-ground lightning, and very heavy rain.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and 
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-38168) — *2026-09-04*
+  > Monitoring message only. Please disregard.
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:07PM EDT until September 4 at 4:45PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e499b67673c116dd38c0393982a2c7c870570a14.001.1) — *2026-09-04*
+  > SVRRAH
+
+The National Weather Service in Raleigh has issued a
+
+* Severe Thunderstorm Warning for...
+Alamance County in central North Carolina...
+Northeastern Guilford County in central North Carolina...
+
+* Until 445 PM EDT.
+
+* At 407 PM EDT, severe thunderstorms were located along
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:07PM EDT until September 4 at 4:30PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.750e44c67136b42a58da78420e475db779d6a8b4.001.1) — *2026-09-04*
+  > At 407 PM EDT, a severe thunderstorm was located near Birch River, or
+10 miles north of Summersville, moving southeast at 25 mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to roofs, siding, and trees.
+
+Locations impacted include...
+Birch Rive
+- **NEW**  [[Severe] Severe Thunderstorm Warning: Severe Thunderstorm Warning issued September 4 at 4:06PM EDT until September 4 at 4:45PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaf2e65a8d84c5d894f8622237262d6ba6232af7.001.1) — *2026-09-04*
+  > SVRILN
+
+The National Weather Service in Wilmington has issued a
+
+* Severe Thunderstorm Warning for...
+Eastern Butler County in southwestern Ohio...
+Warren County in southwestern Ohio...
+Southeastern Montgomery County in west central Ohio...
+
+* Until 445 PM EDT.
+
+* At 405 PM EDT, 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:05PM EDT by NWS Louisville KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9072d47fffc65dd265c4ed7a300935e497ca6814.001.1) — *2026-09-04*
+  > At 404 PM EDT/304 PM CDT/, Doppler radar was tracking a cluster of
+strong thunderstorms 7 miles south of Liberty, moving southeast at 15
 mph.
 
 HAZARD...Wind gusts up to 50 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow 
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued September 4 at 6:51AM CDT until September 4 at 9:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.672dc79b1642a498a973967eda3bef47b9ad7589.001.1) — *2026-09-04*
-  > At 651 AM CDT, Doppler radar indicated thunderstorms producing heavy
-rain across the warned area. Between 1 and 3 inches of rain have
-fallen. The expected rainfall rate is 0.5 to 1.5 inches in 1 hour.
-Additional rainfall amounts of 1 to 2 inches are possible in the
-warned area. F
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 6:50AM CDT until September 4 at 8:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7da5a72dc7ca35ac493c1a8d845a16ea230273d3.001.1) — *2026-09-04*
-  > * WHAT...Temperatures up to 105 degrees expected.
+IMPACT...Gusty winds could knock down tree limbs and blow
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 3:04PM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eca074d1e49c18482776312d32310f2c265fd7f1.001.1) — *2026-09-04*
+  > At 304 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Ossian, or 7 miles southeast of Decorah, moving east at 30 mph.
 
-* WHERE...Palo Duro Canyon.
-
-* WHEN...From 1 PM this afternoon to 8 PM CDT this evening.
-
-* IMPACTS...Hot temperatures may cause heat illnesses.
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-58009) — *2026-09-04*
-  > Monitoring message only. Please disregard.
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 7:35AM EDT until September 4 at 9:00AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dfb0068cd068a159915dd183112474156052a63.001.1) — *2026-09-04*
-  > SMWCLE
-
-The National Weather Service in Cleveland has issued a
-
-* Special Marine Warning for...
-Nearshore waters from Maumee Bay OH to the Islands OH...
-Open waters from Maumee Bay OH to The Islands OH...
-
-* Until 900 AM EDT.
-
-* At 735 AM EDT, a strong thunderstorm was located ne
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 3:29AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f972dbb8bc9e177d85540ffc8a3fa072c4a2dd92.001.1) — *2026-09-04*
-  > Water levels during high tides today and Saturday morning will
-peak at 1 foot or less above the normal highest tide line, similar
-to observed water levels on Thursday morning. At these levels, no
-flooding is expected. The timing of highest water will be between
-5am and 8am each m
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued September 4 at 6:22AM CDT until September 4 at 9:15AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.246fe96de817f6a9a724d5ccbc0911b7c329a1b6.001.1) — *2026-09-04*
-  > FFWLIX
-
-The National Weather Service in New Orleans has issued a
-
-* Flash Flood Warning for...
-Northwestern Jefferson Parish in southeastern Louisiana...
-Western Orleans Parish in southeastern Louisiana...
-
-* Until 915 AM CDT.
-
-* At 622 AM CDT, Doppler radar indicated thunderstor
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 7:16AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20822045be75652aecc0c612b778e8588ba71f86.001.1) — *2026-09-04*
-  > Patchy dense fog has developed early this morning, especially in
-low-lying areas. Motorists should be prepared for rapidly
-fluctuating visibility from unrestricted to locally under one-
-quarter of a mile if traveling early this morning. Use your low
-beam headlights and maintain s
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 6:38AM EDT until September 4 at 8:15AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68fcf868e534bf1961f6aa1e0648c9f3a4e16a76.001.1) — *2026-09-04*
-  > SMWGRR
-
-The National Weather Service in Grand Rapids has issued a
-
-* Special Marine Warning for...
-Nearshore and Open Waters from St Joseph to Grand Haven MI...
-
-* Until 815 AM EDT.
-
-* At 637 AM EDT, strong thunderstorms were located along a line
-extending from 12 nm east of Mona
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 6:32AM EDT by NWS Detroit/Pontiac MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e300ed0a3a2a157878eca249224963fe1a9c6413.001.1) — *2026-09-04*
-  > At 631 AM EDT, Doppler radar was tracking a strong thunderstorm over
-Brooklyn, or 8 miles west of Manchester, moving southeast at 35 mph.
-
-HAZARD...Winds in excess of 40 mph and pea size hail.
+HAZARD...Wind gusts up to 50 mph and nickel size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Gusty winds could knock down tree limbs and blow a
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 6:25AM EDT until September 4 at 8:00PM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f2ca64d335110760761afde4a026245f308809d.001.1) — *2026-09-04*
-  > * WHAT...Heat index values peaking in the the 103 to 108 degree
-range.
+IMPACT...Gusty winds could knock down tree limbs and blow aroun
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 4:03PM EDT until September 4 at 4:30PM EDT by NWS Miami FL](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e24be8f801a04dab5a359055a8e067f8ce88138.001.1) — *2026-09-04*
+  > SMWMFL
 
-* WHERE...Portions of east central, northeast, south central, and
-southeast Kentucky.
+The National Weather Service in Miami has issued a
 
-* WHEN...Until 8 PM EDT this evening.
+* Special Marine Warning for...
+Lake Okeechobee...
 
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illness.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 4 at 5:15AM CDT until September 4 at 10:00AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cddccc19d014610ed0bef99840f318a5a16642b.002.1) — *2026-09-04*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+* Until 430 PM EDT.
 
-* WHERE...Most of western and central North Dakota.
+* At 403 PM EDT, a severe thunderstorm capable of producing
+waterspouts was located near Calusa, moving east at 5 knots.
 
-* WHEN...Until 10 AM CDT /9 AM MDT/ this morning.
+HAZARD...Waterspouts and 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:01PM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.27518bac63f0d5723cc68940ac3e494fa2d17ad1.001.1) — *2026-09-04*
+  > At 401 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Monroeton to near Elon. Movement was
+southeast at 5 mph.
 
-* IMPACTS...Low visibility will make driving conditions hazardous.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 4 at 5:15AM CDT until September 4 at 10:00AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cddccc19d014610ed0bef99840f318a5a16642b.001.1) — *2026-09-04*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
+HAZARD...Wind gusts up to 40 mph.
 
-* WHERE...Most of western and central North Dakota.
+SOURCE...Radar indicated.
 
-* WHEN...Until 10 AM CDT /9 AM MDT/ this morning.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:01PM EDT by NWS Wilmington OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.322077c7157b65bc293072654e97585e7d0e6a33.001.1) — *2026-09-04*
+  > At 401 PM EDT, a strong thunderstorm was located near Glenwood,
+moving southeast at 35 mph.
 
-* IMPACTS...Low visibility will make driving conditions hazardous.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:51AM EDT by NWS Gray ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0afc62c128d08b2de29aca9f10673c1f2c26edf.001.1) — *2026-09-04*
-  > Areas of fog, locally dense with visibility occasionally down to
-around a quarter mile will continue to occur across the region
-this morning. If traveling this morning, remain alert for rapidly
-changing visibilities. Maintain a safe distance between other
-vehicles and allow extra
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:38AM EDT by NWS Caribou ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9416601fd63bd153db763c3ecedbfaf72ece326f.001.1) — *2026-09-04*
-  > Areas of fog, locally dense with visibility occasionally down to
-around a quarter mile, will occur across the region this morning.
-If traveling this morning remain alert for rapidly changing
-visibilities. Maintain a safe distance between other vehicles and
-allow extra time to rea
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued September 4 at 4:36AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71e581bbb84e9ad0671288ad948c1c8f6dc04c63.001.1) — *2026-09-04*
-  > AQAMEG
+HAZARD...Wind gusts up to 45 mph.
 
-The Shelby County Health Department has issued a Code Orange Ozone
-Forecast effective for Shelby County Tennessee, Crittenden County
-Arkansas, and DeSoto County Mississippi, including the city of
-Memphis for today. This ozone forecast is due to forecasted ozone
-values tha
-- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued September 4 at 5:34AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b014db57e5348e9ad68f428fbc2ee40ff3acade.001.1) — *2026-09-04*
-  > The Forsyth County Office of Environmental Assistance and Protection
-in Winston Salem NC has issued a Code Orange Air Quality Action Day
-for Ground Level Ozone, from 10 AM this morning to 8 PM EDT this
-evening.
+SOURCE...Radar indicated.
 
-An Air Quality Action Day means that Ground Level Ozone
-concentratio
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 4:24AM CDT until September 5 at 8:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09a30850d02e026216d9c932dff9e45d1bba4ced.001.1) — *2026-09-04*
-  > * WHAT...Afternoon heat index values as high as 105 to 110 with
-overnight low temperatures in the 70s.
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
 
-* WHERE...Portions of north central Kansas and east central and south
-central Nebraska.
+Locations impacted include...
+Brookville
+- **NEW**  [[Severe] Flood Watch: Flood Watch issued September 4 at 4:01PM EDT until September 5 at 8:00AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6850937ad38737471aef8220d888011cd7568f01.002.1) — *2026-09-04*
+  > * WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
 
-* WHEN...Until 8 PM CDT Saturday.
+* WHERE...A portion of northern West Virginia, including the
+following areas, Eastern Preston, Marion, Monongalia, Preston and
+Ridges of Eastern Monongalia and Northwestern Preston.
 
-* IMPACTS...Hot temperatures and high humidity may c
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued September 4 at 4:18AM CDT until September 5 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54425d38cb0cd1af5614610adf4d1285282905da.002.1) — *2026-09-04*
-  > * WHAT...Dangerously hot and prolonged conditions with heat index
-values up to 105.
+* WHEN...Through 
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:00PM EDT by NWS Charleston WV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0b9f70f954a9610a89e730592618d169a1474e63.001.1) — *2026-09-04*
+  > At 400 PM EDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Clay to near Sissonville. Movement was
+southeast at 30 mph.
 
-* WHERE...Portions of north central, northeast, and northwest
-Missouri.
+HAZARD...Wind gusts up to 50 mph.
 
-* WHEN...Until 8 PM CDT Saturday.
+SOURCE...Radar indicated.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat and high 
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued September 4 at 4:18AM CDT until September 8 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54425d38cb0cd1af5614610adf4d1285282905da.001.1) — *2026-09-04*
-  > * WHAT...Dangerously hot and prolonged conditions with heat index
-values up to 105.
+IMPACT...Gusty winds could knock down tree limbs and blow aro
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 2:59PM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.169f65eaac15824b73c351d87b2cde8e6211ad68.001.1) — *2026-09-04*
+  > At 259 PM CDT, emergency management reported strong thunderstorms
+along a line extending from 12 miles northeast of Harpers Ferry to 8
+miles north of Monona. Movement was east at 25 mph.
 
-* WHERE...Portions of east central and northeast Kansas and central,
-north central, northwest, and west central Missouri.
+HAZARD...Wind gusts up to 50 mph and half inch hail.
 
-* WHEN...Until 8 PM CDT Tuesday.
+SOURCE...Emergency management.
 
-* IMPACTS...Heat related illnesses inc
-- **NEW**  [[Severe] Flash Flood Watch: Flash Flood Watch issued September 4 at 3:18AM MDT until September 4 at 7:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.401ca847b03c90922d3356c26bf979552c5bfc2e.001.1) — *2026-09-04*
-  > * WHAT...Flash flooding and debris flows caused by excessive rainfall
-continue to be possible over the Wapiti Fire burn scar.
+IMPACT
 
-* WHERE...A portion of central Idaho, including the following area,
-Sawtooth/Stanley Basin.
-
-* WHEN...Through this evening.
-
-* IMPACTS...Heavy rainfall o
-- **NEW**  [[Moderate] Lake Wind Advisory: Lake Wind Advisory issued September 4 at 2:02AM PDT until September 4 at 9:00PM PDT by NWS Reno NV](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.184b6f59f60a1b6ce9c474c7fe9d182a1203f962.001.1) — *2026-09-04*
-  > * WHAT...Southwest winds 15 to 25 mph with gusts up to 35 mph. Wave
-heights up to 3 feet on Lake Tahoe and Pyramid Lake.
-
-* WHERE...Greater Lake Tahoe Area, Lassen-Eastern Plumas-Eastern
-Sierra Counties, Mono County, Mineral and Southern Lyon Counties,
-Greater Reno-Carson City-Mi
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 4:53AM EDT until September 4 at 8:00PM EDT by NWS Peachtree City GA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e74f4818845b3923e56ad5c3015bc20d69a4bd4.001.1) — *2026-09-04*
-  > * WHAT...Heat index values up to 106.
-
-* WHERE...Bartow, Catoosa, Chattooga, Dade, Floyd, Gordon, Murray,
-Polk, Walker, and Whitfield Counties.
-
-* WHEN...Until 8 PM EDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 3:51AM CDT until September 4 at 6:00PM CDT by NWS Twin Cities/Chanhassen MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f34b5b0248f81a4058663f188cf4def551f7ab2f.001.1) — *2026-09-04*
-  > * WHAT...Heat index values up to 97 expected.
-
-* WHERE...Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and
-Washington Counties.
-
-* WHEN...From 1 PM this afternoon to 6 PM CDT this evening.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 4 at 3:51AM CDT until September 4 at 10:00AM CDT by NWS Grand Forks ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94c68e3fc050c8e779ff61ca48843231ba86efb4.001.1) — *2026-09-04*
-  > * WHAT...Visibility one quarter mile or less in dense fog.
-
-* WHERE...Portions of northwest Minnesota and northeast and southeast
-North Dakota.
-
-* WHEN...Until 10 AM CDT this morning.
-
-* IMPACTS...Low visibility could make driving conditions hazardous.
-
-_(107 additional items in raw.jsonl)_
+_(146 additional items in raw.jsonl)_
