@@ -3,14 +3,16 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-09-04
 record_count: 56
-new_today: 36
+new_today: 39
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-36 new of 56 total items today.
+39 new of 56 total items today.
 
+- **NEW**  [[BleepingComputer] Google warns of new Chrome zero-day flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/) — *2026-09-04*
+  > Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]
 - **NEW**  [[The Hacker News] Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html) — *2026-09-04*
   > Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.
 
@@ -30,16 +32,28 @@ The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), ha
   > OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the "world's most intelligent and aligned model."
 
 The development comes days after the artificial intelligence (AI) company said the model had reached the "Critical" cybersecurity capability threshold unde
+- **NEW**  [[Schneier on Security] Security Vulnerability in a Voting System](https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html) — *2026-09-04*
+  > It&#8217;s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools.
+Nearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses af
+- **NEW**  [[Schneier on Security] AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks](https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html) — *2026-09-04*
+  > We cannot forget that AI coding agents are not yet trustworthy:
+Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted
+- **NEW**  [[The Register] Wayve and Uber steal a march on Waymo with paid self-driving London rides](https://www.theregister.com/ai-and-ml/2026/09/04/wayve-and-uber-steal-a-march-on-waymo-with-paid-self-driving-london-rides/5294451) — *2026-09-04*
+  > 15 Mustangs on the city streets, but the Nissan LEAF follow-up could dispense with the safety driver
+- **NEW**  [[The Register] Enjoy the Windows 10 Update Experience at London's O2](https://www.theregister.com/offbeat/2026/09/04/enjoy-the-windows-10-update-experience-at-londons-o2/5294302) — *2026-09-04*
+  > The new extreme sport: Windows Updates
 - **NEW**  [[The Register] US law firm accuses UK AI software firm of unwanted contract renewal when it tried to leave](https://www.theregister.com/legal/2026/09/04/us-law-firm-accuses-uk-ai-software-firm-of-unwanted-contract-renewal-when-it-tried-to-leave/5293995) — *2026-09-04*
   > Customer alleges AI telco system had frequent issues, did not work as promised, as vendor sues separately  for non payment
 - **NEW**  [[The Register] UK military wants lasers to stop drone swarms without running out of ammo](https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176) — *2026-09-04*
   > Project PANOPTES puts £5M on the table for an autonomous, vehicle-mounted defense
 - **NEW**  [[The Register] Best eSIM for travel 2026: which one offers the best value for money?](https://www.theregister.com/personal-tech/2026/09/04/partner-content-best-esim-for-travel-2026-which-one-offers-the-best-value-for-money/5293006) — *2026-09-04*
   > PARTNER CONTENT: Price isn't everything
-- **NEW**  [[The Register] On Call: User who handled life-or-death situations struggled with the SHIFT key](https://www.theregister.com/personal-tech/2026/09/04/on-call-user-who-handled-life-or-death-situations-struggled-with-the-shift-key/5294131) — *2026-09-04*
-  > Novel interpretations of the keyboard made for trouble @ work
-- **NEW**  [[The Register] Google engineer unplugged every fiber they could see and – surprise! – took down a chunk of the G-Cloud](https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418) — *2026-09-04*
-  > This sounds like a RTFM error at hyperscale
+- **NEW**  [[Computer Weekly] Post Office Horizon scandal explained: Everything you need to know](https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know) — *2026-09-04*
+  > &lt;p&gt;After more than 20 years, what is now referred to as the Post Office Horizon scandal has become headline news. Computer Weekly has &lt;a href="https://www.computerweekly.com/news/2240089230/Bankruptcy-prosecution-and-disrupted-livelihoods-Postmasters-tell-their-story"&gt
+- **NEW**  [[Computer Weekly] Snowflake pivots to AI platforming](https://www.computerweekly.com/feature/Snowflake-pivots-to-AI-platforming) — *2026-09-04*
+  > &lt;p&gt;Artificial intelligence (AI) has moved past the initial stages of the gold rush. In a scramble to avoid getting lost in the noise surrounding the &lt;a href="https://www.techtarget.com/ai/definition/What-is-GenAI-Generative-AI-explained"&gt;generative AI&lt;/a&gt; hyperb
+- **NEW**  [[Computer Weekly] The future of AI depends on the quality of the data behind It](https://www.computerweekly.com/opinion/The-future-of-AI-depends-on-the-quality-of-the-data-behind-It) — *2026-09-04*
+  > &lt;p&gt;One of the biggest lessons from working with data is that having more information does not automatically mean having better insight. Data only creates value when it helps the business make a better decision, catch a problem while there is still time to do something about
 - **NEW**  [[Computer Weekly] Nvidia acquires Hugging Face and becomes open platform provider](https://www.computerweekly.com/news/366650116/Nvidia-acquires-Hugging-Face-and-becomes-open-platform-provider) — *2026-09-04*
   > &lt;p&gt;Nvidia CEO Jensen Huang announced &lt;a href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"&gt;on his blog&lt;/a&gt; that the company would be acquiring &lt;a href="https://www.techtarget.com/whatis/definition/Hugging-Face"&gt;Hugging Face&lt;/a&gt; for 
 - **NEW**  [[Computer Weekly] CW@60: From cassettes to cellular - how early constraints built a modern CTO](https://www.computerweekly.com/feature/CW60-From-cassettes-to-cellular-how-early-constraints-built-a-modern-CTO) — *2026-09-04*
@@ -47,6 +61,10 @@ The development comes days after the artificial intelligence (AI) company said t
  &lt;img src="https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg" alt="Computer Weekly 60th anniversary logo" width="226" height="117"&gt;
 &lt;/div&gt; 
 &lt;p&gt;&lt;i&gt;On 22 September 2026, Computer We
+- **NEW**  [[MIT Technology Review] Data from drones in Ukraine is fueling a new Wild West marketplace](https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/) — *2026-09-04*
+  > Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which the
+- **NEW**  [[TechCrunch] Feds launch investigation into Tesla’s Cybercab deployment](https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/) — *2026-09-04*
+  > The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin.
 - **NEW**  [[TechCrunch] The sameness problem behind those unappetizing AI-generated menus](https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/) — *2026-09-04*
   > While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.
 - **NEW**  [[TechCrunch] Crusoe reportedly raises $3B at a  $30B valuation](https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/) — *2026-09-04*
@@ -59,23 +77,5 @@ The development comes days after the artificial intelligence (AI) company said t
   > Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]
 - **NEW**  [[BleepingComputer] Microsoft: KB5120998 mouse reset bug affects only non-English PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/) — *2026-09-03*
   > Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]
-- **NEW**  [[BleepingComputer] OpenAI confirms ChatGPT is down ahead of 'Astra' model launch](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/) — *2026-09-03*
-  > ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]
-- **NEW**  [[The Hacker News] ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories](https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html) — *2026-09-03*
-  > The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?
-
-That idea runs through this edition. Attackers use real tools, fake login pages, old account links, an
-- **NEW**  [[The Record] Large group of Serbian opposition, activist figures targeted with spyware](https://therecord.media/serbia-spyware-pegasus-europe) — *2026-09-03*
-  > At least 14 Serbians have been targeted with advanced spyware since December, with victims including a member of Parliament, a local opposition politician and student protesters, according to digital forensic researchers.
-- **NEW**  [[The Record] US and Canadian court data exposed in Thomson Reuters breach](https://therecord.media/thomson-reuters-cyberattack-data) — *2026-09-03*
-  > Sealed court information and sensitive personal data were exposed in a breach of a Thomson Reuters records platform affecting courts in at least 12 U.S. states, the U.S. Virgin Islands and Canada.
-- **NEW**  [[Cybersecurity Dive] SonicWall urges immediate patching of chained vulnerabilities](https://www.cybersecuritydive.com/news/sonicwall-immediate-patching-chained-vulnerabilities/829567/) — *2026-09-03*
-  > Just weeks after a wave of ransomware attacks, new flaws in SMA1000 series appliances are being exploited.
-- **NEW**  [[Cybersecurity Dive] Government, industry partner to shut down long-running Sality botnet](https://www.cybersecuritydive.com/news/doj-crowdstrike-botnet-sality-takedown/829512/) — *2026-09-03*
-  > A nonprofit group is now working to contact the botnet&rsquo;s victims.
-- [[Schneier on Security] Researching Employment Scams](https://www.schneier.com/blog/archives/2026/09/researching-employment-scams.html) — *2026-09-03*
-  > Researchers built a fake company to study fake employee scams.
-- **NEW**  [[Ars Technica] Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them](https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/) — *2026-09-03*
-  > CDC staff had already accepted the measles death reports when RFK Jr. meddled.
 
 _(31 additional items in raw.jsonl)_

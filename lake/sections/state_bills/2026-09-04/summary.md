@@ -2,14 +2,14 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-09-04
-record_count: 95
-new_today: 9
+record_count: 96
+new_today: 67
 state: fresh
 ---
 
 ## State Legislative Action
 
-9 new of 95 total items today.
+67 new of 96 total items today.
 
 - **NEW**  [[Alaska HB 265] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-09-04*
   > An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.
@@ -41,27 +41,27 @@ state: fresh
   > Proposing an amendment to the Constitution of the State of Alaska requiring the governor to submit a balanced budget to the legislature.
 - [[Alaska SB 86] An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegat]() — *2026-09-02*
   > An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized de
-- [[California AB 611] Voluntary tax contribution funds: spinal cord injury research.]() — *2026-09-03*
-  > Existing law allows an individual taxpayer to contribute amounts in excess of their personal income tax liability for the support of specified funds and accounts, including, among others, to the California Cancer Research Voluntary Tax Contribution Fund. 
+- **NEW**  [[California AB 2122] Infractions: warrants and penalties.]() — *2026-09-04*
+  > (1) Existing law makes it a misdemeanor to willfully fail to appear in court, as specified. Existing law, when a person has failed to appear and has not posted bail, requires the magistrate to issue a warrant for the person's arrest within 20 days of the failure to appear.
 
-This bill, for taxable 
-- [[California AB 2266] Electricity: load-serving entities.]() — *2026-09-03*
-  > Existing law requires the Public Utilities Commission to set resource adequacy and resource procurement obligations for load-serving entities, which include electrical corporations, electric service providers, and community choice aggregators. Existing law requires various compli
-- [[California AB 2313] Gas corporations: gas distribution service line replacements: alternatives.]() — *2026-09-03*
-  > Existing law vests the Public Utilities Commission with regulatory authority over public utilities, including gas corporations. Existing law requires, until January 1, 2031, gas corporations to submit to the commission an annual map that includes, among other things, the location
-- [[California ACR 162] Relative to the Congressman Doug LaMalfa Memorial Highway.]() — *2026-09-03*
-  > This measure would designate a specified portion of State Route 99 in the County of Butte as the Congressman Doug LaMalfa Memorial Highway. The measure would request that the Department of Transportation determine the cost of appropriate signs showing this special designation and
-- [[California AB 1590] California Career Technical Education Incentive Grant Program: revised allocation formula.]() — *2026-09-03*
-  > Existing law establishes the California Career Technical Education Incentive Grant Program, administered by the State Department of Education, with the purpose of encouraging, maintaining, and strengthening the delivery of high-quality career technical education programs. Existin
-- [[California AB 2518] San Diego Gas and Electric Company: energization pilot program.]() — *2026-09-03*
-  > Existing law vests the Public Utilities Commission with regulatory jurisdiction over public utilities, including electrical corporations. Existing law requires each public utility to furnish and maintain adequate, efficient, just, and reasonable service, instrumentalities, equipm
-- [[California AB 2633] Secondhand dealers.]() — *2026-09-03*
-  > Existing law imposes upon secondhand dealers and coin dealers a uniform, statewide, state-administered program of regulation of persons whose principal business is buying, selling, trading, auctioning, or taking in pawn tangible personal property, as defined, and requires a secon
-- [[California AB 2263] Santa Clara Valley Transportation Authority: employee housing: transit-oriented joint development projects.]() — *2026-09-03*
-  > Existing law establishes the Santa Clara Valley Transportation Authority (VTA) in order to meet the public transit problems of the County of Santa Clara. Existing law authorizes the VTA to purchase or otherwise acquire property for transit-oriented joint development projects, as 
-- [[California AB 1555] Community colleges: exemption from nonresident tuition fee: College of the Siskiyous.]() — *2026-09-03*
+This 
+- **NEW**  [[California AB 2428] Criminal fees.]() — *2026-09-04*
+  > Existing law imposes various fees, contingent upon a criminal arrest, prosecution, or conviction, for the cost of administering the criminal justice system, including traffic violator school fees, costs for when a minor is adjudged a ward of the court, as specified, or costs incu
+- **NEW**  [[California AB 2771] California Private Postsecondary Education Act of 2009.]() — *2026-09-04*
+  > The California Private Postsecondary Education Act of 2009 provides, among other things, for student protections and regulatory oversight of private postsecondary educational institutions in the state. The act is enforced by the Bureau for Private Postsecondary Education within t
+- **NEW**  [[California AB 2573] Voter registration information: confidentiality.]() — *2026-09-04*
+  > Under existing law, the residence address, telephone number, and email address of a registered voter is confidential, except that under certain circumstances a county elections official must disclose that information to any candidate for federal, state, or local office, to any co
+- [[California AB 1555] Community colleges: exemption from nonresident tuition fee: College of the Siskiyous.]() — *2026-09-04*
   > (1) Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, as one of the segments of public postsecondary education in this state. Existing law establishes community college districts th
-- [[California SJR 6] Federal funding for essential state infrastructure, technology, and economic development.]() — *2026-09-03*
-  > This measure would urge President Donald J. Trump and Congress to protect and maintain the historic investments made possible by the Bipartisan Infrastructure Law, the CHIPS and Science Act, and the Inflation Reduction Act of 2022.
+- **NEW**  [[California SB 1164] Elections.]() — *2026-09-04*
+  > The California Voting Rights Act of 2001 (CVRA) prohibits a political subdivision from imposing or applying an at-large method of election for members of the political subdivision's governing body in a manner that impairs the ability of a protected class to elect candidates of it
+- **NEW**  [[California SB 1173] Jury instructions: lesser related offenses.]() — *2026-09-04*
+  > Existing law authorizes the finder of fact in a criminal prosecution to find the defendant guilty of an offense that is necessarily included in the charged offense. Case law requires the trial court to instruct the jury that it must find the defendant guilty of a necessarily incl
+- **NEW**  [[California AB 2028] Deferred deposit transactions: assessments.]() — *2026-09-04*
+  > The California Deferred Deposit Transaction Law generally provides for the licensure and regulation by the Commissioner of Financial Protection and Innovation of a person who engages in the business of making deferred deposit transactions. The law requires each licensee to pay to
+- [[California AB 2588] District agricultural associations: board of directors: vacancies.]() — *2026-09-04*
+  > Existing law divides the state into agricultural districts, and provides for the management of these districts by district agricultural associations. Existing law requires the officers of the association to consist of a board of directors of 9 members, establishes a 4-year term o
+- **NEW**  [[California SB 925] Fusion energy: State Energy Resources Conservation and Development Commission: strategic plan: certification and environmental review.]() — *2026-09-04*
+  > Existing law requires the State Energy Resources Conservation and Development Commission to undertake various actions in furtherance of meeting the state's clean energy and pollution reduction objectives. Existing law requires the commission, beginning November 1, 2003, and bienn
 
-_(70 additional items in raw.jsonl)_
+_(71 additional items in raw.jsonl)_

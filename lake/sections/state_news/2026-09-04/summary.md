@@ -2,15 +2,35 @@
 section: state_news
 title: State-Level News
 date: 2026-09-04
-record_count: 659
-new_today: 305
+record_count: 677
+new_today: 330
 state: fresh
 ---
 
 ## State-Level News
 
-305 new of 659 total items today.
+330 new of 677 total items today.
 
+- **NEW**  [[California] Fact check: Is Sam Altman right that almonds use more water than ChatGPT queries?](https://calmatters.org/environment/2026/09/sam-altman-almonds-chatgpt-water-california/) — *2026-09-04*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/030323-FarmLand-LV_CM_19.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A tractor sprays water between rows of flowering
+- **NEW**  [[California] Why Trump’s demand for trucker records sets off CA privacy alarms](https://calmatters.org/newsletter/driver-license-database-trucker/) — *2026-09-03*
+  > <figure><img width="1024" height="683" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/01/120224_Drumm-Avenue_CS_CM_13.jpg?fit=1024%2C683&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A row of stacked white shipping containers w
+- **NEW**  [[California] As California debated sharing data on drivers, Homeland Security subpoenaed 17 million records](https://calmatters.org/economy/technology/2026/09/driver-license-database-subpoena/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/102622-TRUCKS-AP-NB-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Trucks line up to enter a Port of Oakland shipping
+- **NEW**  [[California] Clock is ticking as LA Olympics organizers plan massive spending spree to retool venues](https://calmatters.org/commentary/2026/09/los-angeles-olympics-organizers-games/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/090226-Reynold-Hoover-TS-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person in a suit and red tie stands o
+- **NEW**  [[California] California’s top Democrats struggle but can’t resolve the question of wildfire liability](https://calmatters.org/commentary/2026/09/california-democrats-newsom-wildfire-liability/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/09/010825_Eaton-Power-Lines_CM_22.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A view of electrical towers and power line
+- **NEW**  [[California] California schools are sitting on arts money. A change in law might get them to spend it](https://calmatters.org/education/k-12-education/2026/09/arts-education-money-california/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/02/121223-SanPasqualDistrict-Winterhaven-KC-CM-6.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Third grade students partic
+- **NEW**  [[California] California kills bill regulating Flock cameras even as public rage grows](https://calmatters.org/economy/technology/2026/09/california-kills-flock-camera-regulation-again/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/090126-Flock-protest-KJ-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A person wearing a baseball cap holds a bla
+- **NEW**  [[California] How Silicon Valley used Main Street’s outrage against California privacy law](https://calmatters.org/economy/technology/2026/09/california-privacy-act-reform-for-small-business-helped-big-tech/) — *2026-09-03*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/052325-Senate-Suspense-FG-CM-11.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="California Sen. Anna Caballero sits at th
+- [[California] Is Gavin Newsom in his lame duck era?](https://calmatters.org/newsletter/gavin-newsom-lame-duck-months/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/090126_Wildfire-Bill-Session_MG_CM_17.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A close-sup view of a person&#039;s
+- [[California] Defense tech has unleashed a new weapons boom in Southern California](https://calmatters.org/economy/technology/2026/09/defense-tech-has-unleashed-a-new-weapons-boom-in-southern-california/) — *2026-09-02*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/08/082626-Defense-Contracts-MG-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A collage illustration shows military figh
 - [[Alabama] Governor Ivey Backs Trump Administration Trucking Crackdown as Alabama Leads the Way](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-backs-trump-administration-trucking-crackdown-as-alabama-leads-the-way/) — *2026-09-02*
   > MONTGOMERY – Governor Kay Ivey on Wednesday applauded the Trump Administration for launching a sweeping federal initiative to combat fraud and illegal activity in the commercial trucking industry, while highlighting Alabama’s leadership on the issue. Cracking down on these bad &#
 - **NEW**  [[California] California and the Australian state of Queensland ink new partnership to accelerate climate resilience, agricultural technology, and innovation](https://www.gov.ca.gov/2026/09/03/california-and-the-australian-state-of-queensland-ink-new-partnership-to-accelerate-climate-resilience-agricultural-technology-and-innovation/) — *2026-09-03*
@@ -26,41 +46,21 @@ state: fresh
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Californias-legal-cannabis-market-generates-8.4-billion-for-Californians-as-state-cracks-down-on-illicit-operators-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" a
 - [[California] Governor Newsom announces CalGuard has seized $534 million in deadly fentanyl, helping keep drugs off the streets as crime falls statewide](https://www.gov.ca.gov/2026/09/02/governor-newsom-announces-calguard-has-seized-534-million-in-deadly-fentanyl-helping-keep-drugs-off-the-streets-as-crime-falls-statewide/) — *2026-09-02*
   > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-announces-CalGuard-has-seized-534-million-in-deadly-fentanyl-helping-keep-drugs-off-the-streets-as-crime-falls-statewide-SEO-GFX-150x150.png" class="attachment-thumbnail size-thum
-- [[feed error] AZ Governor (Arizona): HTTPError](https://azgovernor.gov/feed) — *2026-09-04*
-  > 404 Client Error: Not Found for url: https://azgovernor.gov/feed
-- [[feed error] CO Governor (Colorado): HTTPError](https://www.colorado.gov/governor/news/feed) — *2026-09-04*
-  > 403 Client Error: Forbidden for url: https://www.colorado.gov/governor/news/feed
-- **NEW**  [[Connecticut] Citizens’ group pledges big ideas to reform CT property tax](https://ctmirror.org/2026/09/04/citizens-group-pledges-big-ideas-to-reform-ct-property-tax/) — *2026-09-04*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2024/03/download-2-1-1024x682.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-content/uploads
-- **NEW**  [[Connecticut] ICE tactics in Danbury are wrong](https://ctmirror.org/2026/09/04/ice-tactics-in-danbury-are-wrong/) — *2026-09-04*
-  > <figure><img width="1024" height="682" src="https://ctmirror.org/wp-content/uploads/2026/09/ap-ice-in-danbury-2.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://ctmirror.org/wp-content/uploads/2026/09/ap-ice-in-danbu
-- **NEW**  [[Connecticut] Parents, we are on your side](https://ctmirror.org/2026/09/04/parents-we-are-on-your-side-a-future-doctors-plea-against-vaccine-hesitancy/) — *2026-09-04*
-  > <figure><img width="800" height="534" src="https://ctmirror.org/wp-content/uploads/2026/05/measles-vaccination.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/05/m
-- **NEW**  [[Connecticut] Fazio opposed to data-center tax break, not data centers](https://ctmirror.org/2026/09/03/fazio-opposed-to-data-center-tax-break-not-data-centers/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/09/4DBAF587-780F-42AA-82F0-4BDBBDDB949B_1_105_c.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/w
-- **NEW**  [[Connecticut] In Danbury, Sen. Blumenthal hears ‘emotional’ accounts of ICE operation](https://ctmirror.org/2026/09/03/danbury-accounts-immigration-enforcement/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/09/BLUMENTHAL-IMMIGRATION-0903-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content
-- **NEW**  [[Connecticut] Major protest held in Danbury to denounce ICE arrests](https://ctmirror.org/2026/09/03/ice-protest-danbury/) — *2026-09-03*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/09/WSHU-Danbury-protest-4-1024x683.webp" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/upl
-- **NEW**  [[Connecticut] Trump pushes to remove tax exemption for private colleges with DEI policies](https://ctmirror.org/2026/09/03/trump-private-colleges-tax-exempt-status-dei/) — *2026-09-03*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/07/Yale-Campus-071026-JL-001-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/u
-- **NEW**  [[Connecticut] Assistant principal at New Haven school under DCF investigation](https://ctmirror.org/2026/09/03/hillhouse-high-school-assistant-principal-dcf-investigation/) — *2026-09-03*
-  > <figure><img width="720" height="540" src="https://ctmirror.org/wp-content/uploads/2026/09/New-Haven-Indy-Hillhouse-asst-principal.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-conte
-- [[Connecticut] New Steelpointe apartments fuel affordability debate in Bridgeport](https://ctmirror.org/2026/09/03/bridgeport-steelpointe-the-august-apartments/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/STEELPOINTE-BPT-0825-SG-04-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/
-- [[Connecticut] We are one rainstorm away from another public health crisis](https://ctmirror.org/2026/09/03/we-are-one-rainstorm-away-from-another-public-health-crisis/) — *2026-09-03*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/screenshot-2026-07-07-at-74105-am-1024x768.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
-- [[Connecticut] Education expert starting with the wrong question](https://ctmirror.org/2026/09/03/education-expert-starting-with-the-wrong-question/) — *2026-09-03*
-  > <figure><img width="1024" height="684" src="https://ctmirror.org/wp-content/uploads/2026/06/Blue-Ribbon-Commission-kids-6.4.26-1024x684.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-
-- [[Connecticut] Auditors: Millions given to Blue Hills Civic Assoc. unaccounted for](https://ctmirror.org/2026/09/02/blue-hills-civic-association-audit/) — *2026-09-02*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/04/IMG_0003-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploads/2026/04/IM
-- [[Connecticut] Lawmakers could subpoena CT Children’s over gender care deal with Trump](https://ctmirror.org/2026/09/02/lawmakers-subpoena-connecticut-childrens-gender-affirming-care-trump/) — *2026-09-02*
-  > <figure><img width="1024" height="681" src="https://ctmirror.org/wp-content/uploads/2026/06/221122_CTChildrens_05-1024x681.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/uploa
-- [[Connecticut] Quickly closed window shields CT Capitol cop from knife attack](https://ctmirror.org/2026/09/02/ct-state-capitol-police-knife-attack/) — *2026-09-02*
-  > <figure><img width="1024" height="740" src="https://ctmirror.org/wp-content/uploads/2026/09/13E12F19-2946-48A0-98E8-EEE0F7181325-1024x740.jpeg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/
-- [[Connecticut] Ryan Fazio claims Lamont ‘destroyed’ fiscal caps. But did he?](https://ctmirror.org/2026/09/02/ryan-fazio-claims-lamont-destroyed-fiscal-caps-but-did-he/) — *2026-09-02*
-  > <figure><img width="1024" height="683" src="https://ctmirror.org/wp-content/uploads/2026/02/2026_0204_SR_SessionFirstDay_2375-1024x683.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-c
-- [[Connecticut] A dam owner drained this secluded pond. DEEP wants it restored](https://ctmirror.org/2026/09/02/old-killingly-pond-drained-dam/) — *2026-09-02*
-  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/08/KILLINGLY-POND-0818-SG-15-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://ctmirror.org/wp-content/u
+- **NEW**  [[Alaska] Alaska legislator asks state to prosecute candidate for Lt. Gov. and former attorney general](https://alaskabeacon.com/2026/09/03/alaska-legislator-asks-state-to-prosecute-candidate-for-lt-gov-and-former-attorney-general/) — *2026-09-04*
+  > Anchorage Democrat Rep. Andrew Gray has asked acting attorney general Cori Mills to prosecute former attorney general Treg Taylor and his wife, Republican lieutenant governor candidate Jodi Taylor, for allegedly failing to file required financial reports. Gray, chair of the House
+- **NEW**  [[Alaska] Amid fractured GOP field, a Democrat could be headed for the Alaska governor’s mansion](https://alaskabeacon.com/2026/09/03/amid-fractured-gop-field-a-democrat-could-be-headed-for-the-alaska-governors-mansion/) — *2026-09-03*
+  > This story was originally published by the Anchorage Press.  The improbable rise of a long-shot Democratic candidate now has the party positioned to capture the Alaska governor’s mansion for the first time in more than two decades, veteran political observers from across the ideo
+- **NEW**  [[Alaska] President Trump vows to campaign in Alaska for incumbent Republican US Sen. Dan Sullivan](https://alaskabeacon.com/2026/09/03/president-trump-vows-to-campaign-in-alaska-for-incumbent-republican-us-sen-dan-sullivan/) — *2026-09-03*
+  > President Donald Trump said Wednesday in Washington, D.C., that he will travel to Alaska to campaign on behalf of incumbent Republican U.S. Sen. Dan Sullivan, who appears to be facing a close race against Democratic challenger Mary Peltola.  “I will go to Alaska to help Dan Sulli
+- **NEW**  [[Alaska] Final Journey: Carlisle begins its ninth repatriation of students who never made it home](https://alaskabeacon.com/2026/09/03/final-journey-carlisle-begins-its-ninth-repatriation-of-students-who-never-made-it-home/) — *2026-09-03*
+  > This story was originally published by ICT. WARNING: This story contains disturbing details about boarding schools. If you are feeling triggered, here is a resource list from the National Native American Boarding School Healing Coalition. CARLISLE, Pennsylvania — The Carlisle Bar
+- **NEW**  [[Alaska] Election experts see few legal options for Trump to meddle with polling places](https://alaskabeacon.com/2026/09/03/repub/election-experts-see-few-legal-options-for-trump-to-meddle-with-polling-places/) — *2026-09-03*
+  > WASHINGTON — President Donald Trump said earlier this year he’d “do anything necessary to make sure we have honest elections” this fall, declining to rule out sending the National Guard or federal law enforcement officers to polling locations throughout the country. Those comment
+- **NEW**  [[Alaska] Trump’s newest order on birthright citizenship blocked in federal court](https://alaskabeacon.com/2026/09/03/repub/trumps-newest-order-on-birthright-citizenship-blocked-in-federal-court/) — *2026-09-03*
+  > A federal judge in Maryland Wednesday blocked President Donald Trump’s second attempt to redefine birthright citizenship.&#160; In a preliminary injunction, U.S. District Judge Deborah Boardman barred the Trump administration from carrying out the president&#8217;s executive orde
+- **NEW**  [[Alaska] Suicide deaths and attempts among Alaska youth continue at high rates, report shows](https://alaskabeacon.com/2026/09/03/suicide-deaths-and-attempts-among-alaska-youth-continue-at-high-rates-report-shows/) — *2026-09-03*
+  > The suicide-death rate for young Alaskans hit a 10-year high last year and the rate of suicide attempts has increased over the past decade, state health officials reported. From 2016 to 2025, there were 174 suicide deaths among Alaska youths under the age of 18 and 4,101 document
+- [[Alaska] Early detection is the most practical way to improve cancer outcomes in Alaska](https://alaskabeacon.com/2026/09/02/early-detection-is-the-most-practical-way-to-improve-cancer-outcomes-in-alaska/) — *2026-09-03*
+  > Every August, Alaskans gather in Palmer for the State Fair. They come for the exhibits, the food, and the chance to see neighbors from across the state. On Thursday, Aug. 27, a good number of them also came for something less festive and more useful: cancer screening. That day wa
 
-_(634 additional items in raw.jsonl)_
+_(652 additional items in raw.jsonl)_

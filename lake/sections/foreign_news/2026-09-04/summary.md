@@ -2,33 +2,37 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-09-04
-record_count: 1117
-new_today: 775
+record_count: 1120
+new_today: 815
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-775 new of 1117 total items today.
+815 new of 1120 total items today.
 
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-09-04*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-09-04*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-09-04*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-09-04*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - **NEW**  [[Global] Controversial Jackdaw gas field set to be approved in weeks, sources say](https://www.bbc.co.uk/news/articles/cj9xe09jz4eo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
   > The government is set to give the go-ahead for the gas field off the coast of Aberdeen, the BBC understands.
-- **NEW**  [[Global] Volkswagen board approves plan to cut another 50,000 jobs](https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
-  > The group - which includes Audi, Porsche, Skoda as well as the VW brand - plans to cut a total of 100,000 posts by 2030.
-- **NEW**  [[Global] Argentine leader threatens to sanction oil firms and reiterates Falklands claim](https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss) — *2026-09-04*
-  > Javier Milei reiterates his country's claim on the British overseas territory, saying the "winds of change" favour it.
-- **NEW**  [[Global] 'I lost my savings after a job interview scam'](https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss) — *2026-09-03*
-  > Jobseekers, especially Gen Z, are being targeted with fake, booby-trapped recruitment apps.
+- **NEW**  [[Global] Stock up on food to prepare for extreme weather, minister warns](https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > Dame Angela Eagle warns the weather event could lead to extreme storms this winter.
+- **NEW**  [[Global] US diesel prices hit an all-time-high](https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices.
 - **NEW**  [[Global] Prosecco, cakes and beauty products - how to get birthday freebies and why there's a catch](https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
   > Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.
+- **NEW**  [[Global] Volkswagen board approves plan to cut another 50,000 jobs](https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > The group - which includes Audi, Porsche, Skoda as well as the VW brand - plans to cut a total of 100,000 posts by 2030.
 - **NEW**  [[Global] From 'dog fruit' to darling: India's avocado boom](https://www.bbc.co.uk/news/articles/clyjzpgv29do?at_medium=RSS&at_campaign=rss) — *2026-09-04*
   > Demand for avocados is booming in India and local growers hope to grab more of the market.
+- **NEW**  [[Global] 'I lost my savings after a job interview scam'](https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss) — *2026-09-03*
+  > Jobseekers, especially Gen Z, are being targeted with fake, booby-trapped recruitment apps.
+- **NEW**  [[Global] Argentine leader threatens to sanction oil firms and reiterates Falklands claim](https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > Javier Milei reiterates his country's claim on the British overseas territory, saying the "winds of change" favour it.
 - **NEW**  [[Global] Is India's internet boom running into an undersea problem?](https://www.bbc.co.uk/news/articles/cx2r2mzelxko?at_medium=RSS&at_campaign=rss) — *2026-09-03*
   > At least 13 of India's 18 intercontinental cables come ashore within six kilometres of Mumbai's Versova beach.
 - **NEW**  [[Global] Nvidia strikes $12.9bn deal to buy AI platform Hugging Face](https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss) — *2026-09-03*
@@ -57,9 +61,5 @@ state: fresh
   > Huge AI spending plans and the ongoing war in Iran are driving up borrowing costs around the world.
 - [[Global] Uber to cut over 3,000 jobs in major global restructuring](https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss) — *2026-09-02*
   > The company says cutting roles would make its operations "simpler and faster".
-- [[Global] Netherlands moves billions in gold to London in 'crisis preparedness' move](https://www.bbc.co.uk/news/articles/cvgy51xlz39o?at_medium=RSS&at_campaign=rss) — *2026-09-02*
-  > The Dutch central bank removes some of its gold reserves from the US and Canada, saying it is because of "increasing geopolitical unrest".
-- [[Global] Why are UK borrowing costs rising and what does it mean for me?](https://www.bbc.co.uk/news/articles/cwyxydr7gv9o?at_medium=RSS&at_campaign=rss) — *2026-09-02*
-  > Some government borrowing costs have hit their highest level for 28 years - what does it mean for you?
 
-_(1092 additional items in raw.jsonl)_
+_(1095 additional items in raw.jsonl)_

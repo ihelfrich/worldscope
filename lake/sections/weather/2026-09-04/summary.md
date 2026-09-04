@@ -2,38 +2,153 @@
 section: weather
 title: U.S. Weather + Severe / Climate Outlooks
 date: 2026-09-04
-record_count: 149
-new_today: 146
+record_count: 132
+new_today: 131
 state: fresh
 ---
 
 ## U.S. Weather + Severe / Climate Outlooks
 
-146 new of 149 total items today.
+131 new of 132 total items today.
 
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:30AM CDT by NWS Marquette MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d5f731c219c4b0f3b62a9736cd9571935b148cd.001.1) — *2026-09-04*
-  > At 430 AM CDT, Doppler radar was tracking a strong thunderstorm 9
-miles east of Pound, or 11 miles west of Marinette, moving east at 40
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 6:53AM CDT by NWS Green Bay WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b7dbd7c5229219dc85331d6aafb2e4a60c723d1.001.1) — *2026-09-04*
+  > At 653 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Napowan Scout Camp, or 11 miles east of Wautoma, moving east at 40
 mph.
 
-HAZARD...Nickel size hail.
+HAZARD...Wind gusts up to 50 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
-IMPACT...Minor hail damage to vegetation is possible.
+IMPACT...Gusty winds could knock down tree limbs and blow 
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued September 4 at 6:51AM CDT until September 4 at 9:00AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.672dc79b1642a498a973967eda3bef47b9ad7589.001.1) — *2026-09-04*
+  > At 651 AM CDT, Doppler radar indicated thunderstorms producing heavy
+rain across the warned area. Between 1 and 3 inches of rain have
+fallen. The expected rainfall rate is 0.5 to 1.5 inches in 1 hour.
+Additional rainfall amounts of 1 to 2 inches are possible in the
+warned area. F
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 6:50AM CDT until September 4 at 8:00PM CDT by NWS Amarillo TX](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7da5a72dc7ca35ac493c1a8d845a16ea230273d3.001.1) — *2026-09-04*
+  > * WHAT...Temperatures up to 105 degrees expected.
 
-Locations impacted include..
-- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-50889) — *2026-09-04*
+* WHERE...Palo Duro Canyon.
+
+* WHEN...From 1 PM this afternoon to 8 PM CDT this evening.
+
+* IMPACTS...Hot temperatures may cause heat illnesses.
+- **NEW**  [[Unknown] Test Message: Montgomery](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-58009) — *2026-09-04*
   > Monitoring message only. Please disregard.
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:26AM CDT by NWS La Crosse WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1760f832178699531898c93bb82c9ef5e39229ad.001.1) — *2026-09-04*
-  > At 426 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Galesville, or 14 miles southeast of Arcadia, moving east at 45 mph.
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 7:35AM EDT until September 4 at 9:00AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0dfb0068cd068a159915dd183112474156052a63.001.1) — *2026-09-04*
+  > SMWCLE
 
-HAZARD...Wind gusts up to 40 mph and penny size hail.
+The National Weather Service in Cleveland has issued a
+
+* Special Marine Warning for...
+Nearshore waters from Maumee Bay OH to the Islands OH...
+Open waters from Maumee Bay OH to The Islands OH...
+
+* Until 900 AM EDT.
+
+* At 735 AM EDT, a strong thunderstorm was located ne
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 3:29AM AKDT by NWS Anchorage AK](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f972dbb8bc9e177d85540ffc8a3fa072c4a2dd92.001.1) — *2026-09-04*
+  > Water levels during high tides today and Saturday morning will
+peak at 1 foot or less above the normal highest tide line, similar
+to observed water levels on Thursday morning. At these levels, no
+flooding is expected. The timing of highest water will be between
+5am and 8am each m
+- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued September 4 at 6:22AM CDT until September 4 at 9:15AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.246fe96de817f6a9a724d5ccbc0911b7c329a1b6.001.1) — *2026-09-04*
+  > FFWLIX
+
+The National Weather Service in New Orleans has issued a
+
+* Flash Flood Warning for...
+Northwestern Jefferson Parish in southeastern Louisiana...
+Western Orleans Parish in southeastern Louisiana...
+
+* Until 915 AM CDT.
+
+* At 622 AM CDT, Doppler radar indicated thunderstor
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 7:16AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.20822045be75652aecc0c612b778e8588ba71f86.001.1) — *2026-09-04*
+  > Patchy dense fog has developed early this morning, especially in
+low-lying areas. Motorists should be prepared for rapidly
+fluctuating visibility from unrestricted to locally under one-
+quarter of a mile if traveling early this morning. Use your low
+beam headlights and maintain s
+- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 6:38AM EDT until September 4 at 8:15AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.68fcf868e534bf1961f6aa1e0648c9f3a4e16a76.001.1) — *2026-09-04*
+  > SMWGRR
+
+The National Weather Service in Grand Rapids has issued a
+
+* Special Marine Warning for...
+Nearshore and Open Waters from St Joseph to Grand Haven MI...
+
+* Until 815 AM EDT.
+
+* At 637 AM EDT, strong thunderstorms were located along a line
+extending from 12 nm east of Mona
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 6:32AM EDT by NWS Detroit/Pontiac MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e300ed0a3a2a157878eca249224963fe1a9c6413.001.1) — *2026-09-04*
+  > At 631 AM EDT, Doppler radar was tracking a strong thunderstorm over
+Brooklyn, or 8 miles west of Manchester, moving southeast at 35 mph.
+
+HAZARD...Winds in excess of 40 mph and pea size hail.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow a
+- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 6:25AM EDT until September 4 at 8:00PM EDT by NWS Jackson KY](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f2ca64d335110760761afde4a026245f308809d.001.1) — *2026-09-04*
+  > * WHAT...Heat index values peaking in the the 103 to 108 degree
+range.
+
+* WHERE...Portions of east central, northeast, south central, and
+southeast Kentucky.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illness.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 4 at 5:15AM CDT until September 4 at 10:00AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cddccc19d014610ed0bef99840f318a5a16642b.002.1) — *2026-09-04*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Most of western and central North Dakota.
+
+* WHEN...Until 10 AM CDT /9 AM MDT/ this morning.
+
+* IMPACTS...Low visibility will make driving conditions hazardous.
+- **NEW**  [[Moderate] Dense Fog Advisory: Dense Fog Advisory issued September 4 at 5:15AM CDT until September 4 at 10:00AM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6cddccc19d014610ed0bef99840f318a5a16642b.001.1) — *2026-09-04*
+  > * WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Most of western and central North Dakota.
+
+* WHEN...Until 10 AM CDT /9 AM MDT/ this morning.
+
+* IMPACTS...Low visibility will make driving conditions hazardous.
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:51AM EDT by NWS Gray ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c0afc62c128d08b2de29aca9f10673c1f2c26edf.001.1) — *2026-09-04*
+  > Areas of fog, locally dense with visibility occasionally down to
+around a quarter mile will continue to occur across the region
+this morning. If traveling this morning, remain alert for rapidly
+changing visibilities. Maintain a safe distance between other
+vehicles and allow extra
+- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:38AM EDT by NWS Caribou ME](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9416601fd63bd153db763c3ecedbfaf72ece326f.001.1) — *2026-09-04*
+  > Areas of fog, locally dense with visibility occasionally down to
+around a quarter mile, will occur across the region this morning.
+If traveling this morning remain alert for rapidly changing
+visibilities. Maintain a safe distance between other vehicles and
+allow extra time to rea
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued September 4 at 4:36AM CDT by NWS Memphis TN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71e581bbb84e9ad0671288ad948c1c8f6dc04c63.001.1) — *2026-09-04*
+  > AQAMEG
+
+The Shelby County Health Department has issued a Code Orange Ozone
+Forecast effective for Shelby County Tennessee, Crittenden County
+Arkansas, and DeSoto County Mississippi, including the city of
+Memphis for today. This ozone forecast is due to forecasted ozone
+values tha
+- **NEW**  [[Unknown] Air Quality Alert: Air Quality Alert issued September 4 at 5:34AM EDT by NWS Raleigh NC](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b014db57e5348e9ad68f428fbc2ee40ff3acade.001.1) — *2026-09-04*
+  > The Forsyth County Office of Environmental Assistance and Protection
+in Winston Salem NC has issued a Code Orange Air Quality Action Day
+for Ground Level Ozone, from 10 AM this morning to 8 PM EDT this
+evening.
+
+An Air Quality Action Day means that Ground Level Ozone
+concentratio
 - **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 4:24AM CDT until September 5 at 8:00PM CDT by NWS Hastings NE](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.09a30850d02e026216d9c932dff9e45d1bba4ced.001.1) — *2026-09-04*
   > * WHAT...Afternoon heat index values as high as 105 to 110 with
 overnight low temperatures in the 70s.
@@ -44,28 +159,6 @@ central Nebraska.
 * WHEN...Until 8 PM CDT Saturday.
 
 * IMPACTS...Hot temperatures and high humidity may c
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:21AM EDT by NWS Cleveland OH](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f8fcb91993020fdae2848c2ed350b78f5c2bba2.001.1) — *2026-09-04*
-  > At 521 AM EDT, Doppler radar was tracking a strong thunderstorm over
-Holland, or near Toledo, moving southeast at 35 mph.
-
-HAZARD...Half inch hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Minor hail damage to vegetation is possible.
-
-Locations impacted include...
-Toledo, Perrysburg,
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 5:18AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e597faa55b601daef316c7c831b576fb1730ccf.001.1) — *2026-09-04*
-  > At 517 AM EDT, Doppler radar was tracking a strong thunderstorm over
-Charlotte, moving southeast at 35 mph.
-
-HAZARD...Winds in excess of 40 mph and nickel size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. Mi
 - **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued September 4 at 4:18AM CDT until September 5 at 8:00PM CDT by NWS Kansas City/Pleasant Hill MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54425d38cb0cd1af5614610adf4d1285282905da.002.1) — *2026-09-04*
   > * WHAT...Dangerously hot and prolonged conditions with heat index
 values up to 105.
@@ -87,18 +180,6 @@ north central, northwest, and west central Missouri.
 * WHEN...Until 8 PM CDT Tuesday.
 
 * IMPACTS...Heat related illnesses inc
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:18AM CDT by NWS New Orleans LA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a887905a9e3b03d12d106bf235b226d32bbdf4d.001.1) — *2026-09-04*
-  > At 418 AM CDT, Doppler radar was tracking a strong thunderstorm near
-Shoreline Park, or near Waveland, moving west at 15 mph.
-
-HAZARD...Wind gusts up to 40 mph.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects.
-
-The st
 - **NEW**  [[Severe] Flash Flood Watch: Flash Flood Watch issued September 4 at 3:18AM MDT until September 4 at 7:00PM MDT by NWS Pocatello ID](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.401ca847b03c90922d3356c26bf979552c5bfc2e.001.1) — *2026-09-04*
   > * WHAT...Flash flooding and debris flows caused by excessive rainfall
 continue to be possible over the Wapiti Fire burn scar.
@@ -145,110 +226,5 @@ North Dakota.
 * WHEN...Until 10 AM CDT this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.
-- **NEW**  [[Moderate] Beach Hazards Statement: Beach Hazards Statement issued September 4 at 3:50AM CDT until September 4 at 10:00PM CDT by NWS Duluth MN](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6686a9be90d2fa2302028152c6d59fa4f015a8f.001.1) — *2026-09-04*
-  > * WHAT...Dangerous swimming conditions are expected along the
-Lake Superior shoreline due to high wave action and strong rip
-currents.
 
-* WHERE...Minnesota Park Point and Wisconsin Point Beaches.
-
-* WHEN...From 6 AM CDT this morning through this evening.
-
-* IMPACTS...Life-threate
-- **NEW**  [[Moderate] Heat Advisory: Heat Advisory issued September 4 at 3:49AM CDT until September 8 at 8:00PM CDT by NWS Wichita KS](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5f33e4d0a795e85f12970c49aabff5ee94d07d60.001.1) — *2026-09-04*
-  > * WHAT...Heat index values around 105.
-
-* WHERE...Portions of central, east central, south central, and
-southeast Kansas.
-
-* WHEN...Until 8 PM CDT Tuesday.
-
-* IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-- **NEW**  [[Severe] Flash Flood Warning: Flash Flood Warning issued September 4 at 4:47AM EDT until September 4 at 5:45AM EDT by NWS Pittsburgh PA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33d8eb5cf00be93357e58995424a006376236615.001.1) — *2026-09-04*
-  > At 447 AM EDT, local law enforcement reported flooding from recent
-thunderstorms that produced heavy rainfall in the warned area.
-Between 0.5 and 2 inches of rain have fallen. Flooding impacts will
-continue, but no additional rainfall is expected.
-
-HAZARD...Flash flooding caused 
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 4:44AM EDT until September 4 at 5:45AM EDT by NWS Boston/Norton MA](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8eb882f2a442f4198563dd7afd4b9aa24c5159f.001.1) — *2026-09-04*
-  > SMWBOX
-
-The National Weather Service in Boston/Norton has issued a
-
-* Special Marine Warning for...
-Block Island Sound...
-Coastal Waters from Montauk NY to Marthas Vineyard extending out to
-20 NM South of Block Island...
-Rhode Island Sound...
-
-* Until 545 AM EDT.
-
-* At 444 AM EDT
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 4:39AM EDT until September 4 at 6:45AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0190815737d01c3b279e58207085537e00d0c4dd.001.1) — *2026-09-04*
-  > SMWGRR
-
-The National Weather Service in Grand Rapids has issued a
-
-* Special Marine Warning for...
-Nearshore Waters from Holland to Pentwater MI...
-Open Waters from South Haven to Manistee MI...
-
-* Until 645 AM EDT.
-
-* At 439 AM EDT, strong thunderstorms were located along a line
-- **NEW**  [[Severe] Special Marine Warning: Special Marine Warning issued September 4 at 3:36AM CDT until September 4 at 4:45AM CDT by NWS Milwaukee/Sullivan WI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6f8f081d27159c8b6fdd76b1e3b6e92371549f5.001.1) — *2026-09-04*
-  > For the following areas...
-Lake Michigan nearshore and open waters to mid lake from Sheboygan WI
-to North Port Light WI...
-
-At 336 AM CDT, strong thunderstorms were located along a line
-extending from 14 nm east of Sheboygan to 15 nm east of Oostburg to
-near Port Washington, movi
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued September 4 at 3:26AM CDT until September 5 at 8:00PM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52e8e5a85e89f3cc9361086832c62ab3609a4f5c.001.1) — *2026-09-04*
-  > * WHAT...Dangerously hot conditions with heat index values up to 107.
-
-* WHERE...Portions of south central, southwest, and west central
-Illinois and central, east central, northeast, and southeast
-Missouri.
-
-* WHEN...Until 8 PM CDT Saturday.
-
-* IMPACTS...Heat related illnesses in
-- **NEW**  [[Severe] Extreme Heat Warning: Extreme Heat Warning issued September 4 at 3:26AM CDT until September 5 at 8:00PM CDT by NWS St Louis MO](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52e8e5a85e89f3cc9361086832c62ab3609a4f5c.002.1) — *2026-09-04*
-  > * WHAT...Dangerously hot conditions with heat index values up to 110.
-
-* WHERE...In Illinois, Madison IL, Monroe IL, and Saint Clair IL
-Counties. In Missouri, Jefferson MO, Saint Charles MO, Saint Louis
-City MO, and Saint Louis MO Counties.
-
-* WHEN...Until 8 PM CDT Saturday.
-
-* I
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued September 4 at 3:21AM CDT until September 4 at 9:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e5eac08f8286ceb2c87e850d41903f41be0346e.001.1) — *2026-09-04*
-  > ...RED FLAG WARNING IN EFFECT FROM NOON TODAY TO 8 PM MDT THIS
-EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR FAR SOUTHWEST NORTH
-DAKOTA...
-
-.Critical fire weather conditions are expected in far southwest North
-Dakota this afternoon and early evening. South-southeast winds are
-- **NEW**  [[Severe] Red Flag Warning: Red Flag Warning issued September 4 at 3:21AM CDT until September 4 at 9:00PM CDT by NWS Bismarck ND](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e5eac08f8286ceb2c87e850d41903f41be0346e.002.1) — *2026-09-04*
-  > ...RED FLAG WARNING IN EFFECT FROM NOON TODAY TO 8 PM MDT THIS
-EVENING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR FAR SOUTHWEST NORTH
-DAKOTA...
-
-.Critical fire weather conditions are expected in far southwest North
-Dakota this afternoon and early evening. South-southeast winds are
-- **NEW**  [[Moderate] Special Weather Statement: Special Weather Statement issued September 4 at 4:18AM EDT by NWS Grand Rapids MI](https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ee1c73551d7195a6953ddde666efc0fc89e7676.001.1) — *2026-09-04*
-  > At 418 AM EDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Saranac to near Portland. Movement was
-east at 45 mph.
-
-HAZARD...Winds in excess of 40 mph and penny size hail.
-
-SOURCE...Radar indicated.
-
-IMPACT...Gusty winds could knock down tree l
-
-_(124 additional items in raw.jsonl)_
+_(107 additional items in raw.jsonl)_

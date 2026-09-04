@@ -11,55 +11,55 @@ state: fresh
 
 40 new of 40 total items today.
 
-- **NEW**  [[WOLSFELD MATTHEW C] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1258563/000125856326000002/0001258563-26-000002-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:58 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001258563-26-000002 Size: 6 KB
-- **NEW**  [[NORTHERN TECHNOLOGIES INTERNATIONAL CORP] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/875582/000125856326000002/0001258563-26-000002-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:58 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001258563-26-000002 Size: 6 KB
-- **NEW**  [[Powelson Robert F] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1779542/000100975926000009/0001009759-26-000009-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:57 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001009759-26-000009 Size: 6 KB
-- **NEW**  [[Capstone Energy Plus, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1009759/000100975926000009/0001009759-26-000009-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:57 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001009759-26-000009 Size: 6 KB
-- **NEW**  [[Real REMAX Group Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/2136387/000110465926105169/0001104659-26-105169-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:55 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105169 Size: 17 KB
-- **NEW**  [[Carlson Erik] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1426816/000110465926105169/0001104659-26-105169-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:55 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105169 Size: 17 KB
-- **NEW**  [[Real REMAX Group Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/2136387/000110465926105168/0001104659-26-105168-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:53 UTC · amended · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105168 Size: 20 KB
-- **NEW**  [[Carlson Erik] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1426816/000110465926105168/0001104659-26-105168-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:53 UTC · amended · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105168 Size: 20 KB
-- **NEW**  [[Miller John P.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1709137/000100975926000008/0001009759-26-000008-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:52 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001009759-26-000008 Size: 4 KB
-- **NEW**  [[Capstone Energy Plus, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1009759/000100975926000008/0001009759-26-000008-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:52 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001009759-26-000008 Size: 4 KB
-- **NEW**  [[Real REMAX Group Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/2136387/000110465926105167/0001104659-26-105167-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:52 UTC · amended · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105167 Size: 8 KB
-- **NEW**  [[RAFFAELI C CATHLEEN] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1096461/000110465926105167/0001104659-26-105167-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:52 UTC · amended · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105167 Size: 8 KB
-- **NEW**  [[Real REMAX Group Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/2136387/000110465926105166/0001104659-26-105166-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:50 UTC · amended · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105166 Size: 23 KB
-- **NEW**  [[Jenkins Leah R] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1991141/000110465926105166/0001104659-26-105166-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:50 UTC · amended · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105166 Size: 23 KB
-- **NEW**  [[Real REMAX Group Inc.] Form 4/A (Issuer)](https://www.sec.gov/Archives/edgar/data/2136387/000110465926105165/0001104659-26-105165-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · amended · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105165 Size: 6 KB
-- **NEW**  [[Jenkins Norman K.] Form 4/A (Reporting)](https://www.sec.gov/Archives/edgar/data/1712525/000110465926105165/0001104659-26-105165-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · amended · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105165 Size: 6 KB
-- **NEW**  [[Close Christopher J.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1627359/000100975926000007/0001009759-26-000007-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001009759-26-000007 Size: 4 KB
-- **NEW**  [[Capstone Energy Plus, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1009759/000100975926000007/0001009759-26-000007-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001009759-26-000007 Size: 4 KB
-- **NEW**  [[Plump Andrew Stewart] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1977689/000139506426000335/0001395064-26-000335-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001395064-26-000335 Size: 5 KB
-- **NEW**  [[TAKEDA PHARMACEUTICAL CO LTD] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1395064/000139506426000335/0001395064-26-000335-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:49 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001395064-26-000335 Size: 5 KB
-- **NEW**  [[Sridhar KR] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1746277/000119312526382495/0001193125-26-382495-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:45 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001193125-26-382495 Size: 10 KB
-- **NEW**  [[Bloom Energy Corp] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1664703/000119312526382495/0001193125-26-382495-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:45 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001193125-26-382495 Size: 10 KB
-- **NEW**  [[Drucker Mann Lindsay] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2008127/000110465926105163/0001104659-26-105163-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:40 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001104659-26-105163 Size: 15 KB
-- **NEW**  [[Oddity Tech Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1907085/000110465926105163/0001104659-26-105163-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:40 UTC · role: Issuer — Filed: 2026-09-03 AccNo: 0001104659-26-105163 Size: 15 KB
-- **NEW**  [[SHERWIN STEPHEN A] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1079462/000107946226000008/0001079462-26-000008-index.htm) — *2026-09-04*
-  > filed 2026-09-04 01:39 UTC · role: Reporting — Filed: 2026-09-03 AccNo: 0001079462-26-000008 Size: 4 KB
+- **NEW**  [[LYNCH G PATRICK] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1258554/000125855426000005/0001258554-26-000005-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:54 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001258554-26-000005 Size: 7 KB
+- **NEW**  [[NORTHERN TECHNOLOGIES INTERNATIONAL CORP] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/875582/000125855426000005/0001258554-26-000005-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:54 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001258554-26-000005 Size: 7 KB
+- **NEW**  [424B3 - Veraxa Biotech AG - Post de-SPAC (0002079109) (Filer)](https://www.sec.gov/Archives/edgar/data/2079109/000182912626009754/0001829126-26-009754-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:51 UTC — Filed: 2026-09-04 AccNo: 0001829126-26-009754 Size: 154 KB
+- **NEW**  [424B3 - Veraxa Biotech AG - Post de-SPAC (0002079109) (Filer)](https://www.sec.gov/Archives/edgar/data/2079109/000182912626009753/0001829126-26-009753-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:48 UTC — Filed: 2026-09-04 AccNo: 0001829126-26-009753 Size: 152 KB
+- **NEW**  [40-17G - Horizon Technology Finance Corp (0001487428) (Filer)](https://www.sec.gov/Archives/edgar/data/1487428/000148742826000001/0001487428-26-000001-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:46 UTC — Filed: 2026-09-04 AccNo: 0001487428-26-000001 Size: 2 MB
+- **NEW**  [[Liu Chang] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1843196/000119312526382783/0001193125-26-382783-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:39 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001193125-26-382783 Size: 6 KB
+- **NEW**  [[17 Education & Technology Group Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1821468/000119312526382783/0001193125-26-382783-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:39 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001193125-26-382783 Size: 6 KB
+- **NEW**  [[Privitera Salvatore] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1336063/000133606326000006/0001336063-26-000006-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:39 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001336063-26-000006 Size: 4 KB
+- **NEW**  [[AtriCure, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1323885/000133606326000006/0001336063-26-000006-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:39 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001336063-26-000006 Size: 4 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097408/0001213900-26-097408-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:32 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097408 Size: 59 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097407/0001213900-26-097407-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:32 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097407 Size: 59 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097406/0001213900-26-097406-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:32 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097406 Size: 58 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097405/0001213900-26-097405-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:31 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097405 Size: 59 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097404/0001213900-26-097404-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:31 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097404 Size: 58 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097403/0001213900-26-097403-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:30 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097403 Size: 57 KB
+- **NEW**  [424B3 - SunPower Inc. (0001838987) (Filer)](https://www.sec.gov/Archives/edgar/data/1838987/000121390026097402/0001213900-26-097402-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:30 UTC — Filed: 2026-09-04 AccNo: 0001213900-26-097402 Size: 57 KB
+- **NEW**  [[Mawjee Jehan] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2115154/000162828026060610/0001628280-26-060610-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:13 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001628280-26-060610 Size: 21 KB
+- **NEW**  [[Borr Drilling Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1715497/000162828026060610/0001628280-26-060610-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:13 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001628280-26-060610 Size: 21 KB
+- **NEW**  [[Snowling Harvey Edward] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2116137/000162828026060608/0001628280-26-060608-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:12 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001628280-26-060608 Size: 23 KB
+- **NEW**  [[Borr Drilling Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1715497/000162828026060608/0001628280-26-060608-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:12 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001628280-26-060608 Size: 23 KB
+- **NEW**  [[Vaaler Magnus] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2118679/000162828026060606/0001628280-26-060606-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:11 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001628280-26-060606 Size: 23 KB
+- **NEW**  [[Borr Drilling Ltd] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1715497/000162828026060606/0001628280-26-060606-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:11 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001628280-26-060606 Size: 23 KB
+- **NEW**  [[Funk Edric C] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1952093/000162828026060604/0001628280-26-060604-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:10 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001628280-26-060604 Size: 11 KB
+- **NEW**  [[TORO CO] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/737758/000162828026060604/0001628280-26-060604-index.htm) — *2026-09-04*
+  > filed 2026-09-04 11:10 UTC · role: Issuer — Filed: 2026-09-04 AccNo: 0001628280-26-060604 Size: 11 KB
+- **NEW**  [[Zhu Hansong] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1854421/000119312526382752/0001193125-26-382752-index.htm) — *2026-09-04*
+  > filed 2026-09-04 10:54 UTC · role: Reporting — Filed: 2026-09-04 AccNo: 0001193125-26-382752 Size: 11 KB
 
 _(15 additional items in raw.jsonl)_

@@ -11,12 +11,13 @@ state: fresh
 
 4 new of 6 total items today.
 
+- **NEW**  [[Marginal Revolution] Real GDP Per Capita and the Standard of Living](https://marginalrevolution.com/marginalrevolution/2026/09/real-gdp-per-capita-and-the-standard-of-living.html?utm_source=rss&utm_medium=rss&utm_campaign=real-gdp-per-capita-and-the-standard-of-living) — *2026-09-04*
+  > We are freshening up some of our videos with updated data so now is a good time to remind everyone that Modern Principles of Economics is best principles of economics textbook; great videos, clear writing and excellent applications and examples!
+The post Real GDP Per Ca
 - **NEW**  [[Marginal Revolution] Shout it from the rooftops (of the data centers)](https://marginalrevolution.com/marginalrevolution/2026/09/shout-it-from-the-rooftops-of-the-data-centers.html?utm_source=rss&utm_medium=rss&utm_campaign=shout-it-from-the-rooftops-of-the-data-centers) — *2026-09-04*
   > Data-center investment has become one of the largest capital-expenditure cycles in financial markets, with U.S. hyperscalers expected to deploy roughly $700 billion in 2026. This investment boom has raised concerns that large computing loads impose external costs on households th
 - **NEW**  [[Marginal Revolution] Share price numbers for the Hugging Face incident](https://marginalrevolution.com/marginalrevolution/2026/09/more-numbers-for-the-hugging-face-incident.html?utm_source=rss&utm_medium=rss&utm_campaign=more-numbers-for-the-hugging-face-incident) — *2026-09-04*
   > &#8230;major publicly traded cybersecurity firms lost roughly $65–80 billion, or about 8–10% of their combined value, in the days following disclosure of the Hugging Face/OpenAI incident; by early September they had recovered roughly $58 billion, representing about 70–90% of that
-- **NEW**  [[Marginal Revolution] Astra, doing poetry](https://marginalrevolution.com/marginalrevolution/2026/09/astra-doing-poetry.html?utm_source=rss&utm_medium=rss&utm_campaign=astra-doing-poetry) — *2026-09-03*
-  > One prompt, no cherry-picking: TC: &#8220;Now a short poem in the style of the very best Rilke, in German:&#8221; Die Hand im Schlaf Nun liegt sie offen. Alles, was sie hielt, ist in die eigne Schwere heimgekehrt. Nur eine kleine Höhlung bleibt, als hätte ein Vogel hier geruht un
 - **NEW**  [[Conversable Economist] Gross and Net US Investment](https://conversableeconomist.com/2026/09/03/gross-and-net-us-investment/) — *2026-09-03*
   > Each year, more than half of the total or gross investment by US firms just makes up for depreciation in older equipment and knowledge. in recent year, it&#8217;s more like 75% of current year investment just offsets depreciation. Here are the figures from the ever-useful FRED we
 - [[Conversable Economist] US Energy: Source to End-Use](https://conversableeconomist.com/2026/09/02/us-energy-source-to-end-use/) — *2026-09-02*
