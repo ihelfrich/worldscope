@@ -326,6 +326,79 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         finally:
             lake.close()
 
+    def _stage_foresight() -> None:
+        # Temporal lead/lag early-warning miner. Reads the same lake as
+        # signals/radar but along the TIME axis: learns which keys reliably
+        # precede which others (A surges → B elevates L days later), gated by a
+        # Bonferroni-corrected binomial significance test so a thin history can't
+        # mint confident coincidences. Emits today's early warnings (a leader
+        # fired today while its follower is still quiet) as falsifiable emergence
+        # predictions on the same Brier loop signals uses, grades any now due,
+        # writes a foresight.json artifact, and prepends a "Foresight" panel.
+        # Failure here never blocks the brief.
+        from . import foresight as _fs
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            rules, warnings, _intensity, _axis = _fs.build_foresight(
+                today=today, days=_fs.DEFAULT_WINDOW_DAYS, conn=conn)
+            preds = _fs.warnings_to_predictions(warnings, today=today)
+            n_written = _fs.persist_predictions(lake, preds)
+            graded = _fs.grade_due_predictions(lake, conn, today=today)
+            _fs.write_foresight_artifact(today, rules, warnings)
+            panel = _fs.render_foresight_panel(rules, warnings)
+            if panel:
+                sections_html.insert(0, panel)
+            n_pred = sum(1 for r in rules if r.predictive)
+            print(f"[foresight] {len(rules)} lead/lag rules · {n_pred} predictive "
+                  f"· {len(warnings)} warnings · wrote {n_written} predictions "
+                  f"· graded {graded} due")
+        finally:
+            lake.close()
+
+    def _stage_threads() -> None:
+        # Cross-day story-thread tracker: links the daily top-story clusters that
+        # cover the same evolving event into persistent threads, derives each
+        # thread's coverage-breadth momentum (escalating/steady/cooling), writes
+        # a story_threads.json artifact, and prepends a "Developing Situations"
+        # panel. Reuses stories.build_stories per day. Never blocks a brief.
+        from . import story_threads as _stt
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            threads = _stt.build_threads(today=today, days=_stt.DEFAULT_WINDOW_DAYS, conn=conn)
+            _stt.write_threads_artifact(today, threads)
+            panel = _stt.render_threads_panel(threads)
+            if panel:
+                sections_html.insert(0, panel)
+            active = sum(1 for t in threads if t.active_today)
+            print(f"[threads] {len(threads)} developing threads · {active} active today")
+        finally:
+            lake.close()
+
+    def _stage_track_record() -> None:
+        # Forecast track record. Reads the lake's predictions ledger (signals +
+        # foresight), prepends a compact skill/commitment panel linking to the
+        # full public page (which _stage_site_builder renders to
+        # dist/track-record.html). Makes the self-grading loop legible to a
+        # reader instead of leaving it buried in SQLite. Never blocks a brief.
+        from . import track_record_page as _trp
+        from .lake import Lake
+        lake = Lake.open()
+        try:
+            conn = lake._ensure_open()
+            rows = _trp.load_predictions(conn)
+            panel = _trp.render_panel(rows)
+            if panel:
+                sections_html.insert(0, panel)
+            resolved, pending = _trp.partition(rows)
+            print(f"[track-record] {len(rows)} forecasts on ledger · "
+                  f"{len(pending)} open · {len(resolved)} resolved")
+        finally:
+            lake.close()
+
     def _stage_cross_section() -> None:
         # Stage 1 analytical pass: cross-section entity recurrence. Pre-computes
         # which entities appear in 3+ sections today and writes
@@ -378,6 +451,9 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("integrity", _stage_integrity),
         ("signals", _stage_signals),
         ("radar", _stage_radar),
+        ("foresight", _stage_foresight),
+        ("threads", _stage_threads),
+        ("track-record", _stage_track_record),
         ("claims", _stage_claims),
         # Runs after the other panel stages so its insert(0) puts Top Stories
         # at the very top of the page — it is the front-page experience.

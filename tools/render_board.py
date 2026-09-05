@@ -305,12 +305,36 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
     connections_html = _connections_section(conn_data, esc)
 
     n_threads = len(threads)
+    # Front-door navigation to the rest of the static site. The homepage is this
+    # board (render_board), which otherwise links nowhere — so the Developing /
+    # Forecasts / Sections / Archive pages would be unreachable from the front
+    # door. asset_base keeps links correct for both the homepage (./) and the
+    # mockup (../../).
+    _nav_css = (
+        ".ws-nav{display:flex;gap:16px;flex-wrap:wrap;align-items:center;"
+        "font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;"
+        "text-transform:uppercase}"
+        ".ws-nav a{color:#C9C2B1;text-decoration:none;padding:2px 0;"
+        "border-bottom:1px solid transparent;transition:color .15s,border-color .15s}"
+        ".ws-nav a:hover{color:#F4F1E8;border-color:#C0392B}"
+        ".ws-nav a.on{color:#F4F1E8;border-color:#C0392B}"
+    )
+    nav_html = (
+        '<nav class="ws-nav" aria-label="Primary">'
+        f'<a href="{asset_base}index.html" class="on" aria-current="page">Board</a>'
+        f'<a href="{asset_base}developing.html">Developing</a>'
+        f'<a href="{asset_base}track-record.html">Forecasts</a>'
+        f'<a href="{asset_base}sections/">Sections</a>'
+        f'<a href="{asset_base}briefings/">Archive</a>'
+        '</nav>'
+    )
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>WORLDSCOPE · Situation Board · {today.isoformat()}</title>
-<style>{_CSS}{rr.EXTRA_CSS}{rr.CUSTOM_CSS}{_CSS_TAIL}</style></head><body>
+<style>{_CSS}{rr.EXTRA_CSS}{rr.CUSTOM_CSS}{_CSS_TAIL}{_nav_css}</style></head><body>
 <header class="top">
   <div class="brand"><span class="mk"></span>WORLDSCOPE<span class="sub">SITUATION BOARD</span></div>
+  {nav_html}
   <div class="meta"><span class="live"><i></i>LIVE</span> · {today.strftime('%A %d %B %Y').upper()}</div>
 </header>
 
