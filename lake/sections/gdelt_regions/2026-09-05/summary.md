@@ -11,15 +11,15 @@ state: fresh
 
 6 new of 6 total items today.
 
-- **NEW**  [[China] Guangdong turns AI advances into affordable innovation](http://news.cnwest.com/szyw/a/2026/09/05/23427290.html) — *2026-09-05*
-  > news.cnwest.com · English
-- **NEW**  [[China] 4 . 2 Gallon Portable Washing Machine | 12  x12  x13  Foldable Mini Washer](https://www.dealgenius.com/products/4-2-gallon-foldable-portable-washing-machine-with-spin-basket) — *2026-09-05*
-  > dealgenius.com · English
-- **NEW**  [[China] 200 PK Assorted Small Toys for Parties & Rewards](https://www.dealgenius.com/products/200pc-bulk-party-favor-assorted-small-toys-great-for-any-occasion) — *2026-09-05*
-  > dealgenius.com · English
-- **NEW**  [[China]   Bottany Plants Lately  Premium Midweight Ringspun Cotton T - Shirt](https://www.dealgenius.com/products/bottany-plants-lately-premium-midweight-ringspun-cotton-t-shirt-mens-womens-fits) — *2026-09-05*
-  > dealgenius.com · English
-- **NEW**  [[China] Kids Bamboo Utensil Set - Eco - Friendly Cooking Tool](https://www.dealgenius.com/products/tovla-jr-4pc-kids-bamboo-utensil-set-perfect-for-little-chefs) — *2026-09-05*
-  > dealgenius.com · English
-- **NEW**  [[China] Core Kitchen Silicone 12  & 8 . 25  Spoons](https://www.dealgenius.com/products/core-kitchen-12-and-8-25-silicone-spoons-with-bamboo-handles) — *2026-09-05*
-  > dealgenius.com · English
+- **NEW**  [[Japan] South Korea exports surpass full - year record , hit $709 . 4bn so far](https://asia.nikkei.com/economy/trade/south-korea-exports-surpass-full-year-record-hit-709.4bn-so-far) — *2026-09-05*
+  > asia.nikkei.com · English
+- **NEW**  [[Japan] Philippine VP Duterte posts bail after arrest order for alleged threats](https://asia.nikkei.com/politics/philippine-vp-duterte-posts-bail-after-arrest-order-for-alleged-threats) — *2026-09-05*
+  > asia.nikkei.com · English
+- **NEW**  [[Japan] China summer travel boom loses heat](https://asia.nikkei.com/spotlight/caixin/china-s-summer-travel-boom-loses-heat) — *2026-09-05*
+  > asia.nikkei.com · English
+- **NEW**  [[Japan] Nintendo Switch eShop charts - September 5 , 2026 - Tomodachi Life : Living the Dream on a crazy run](https://nintendoeverything.com/nintendo-switch-eshop-charts-september-5-2026/) — *2026-09-05*
+  > nintendoeverything.com · English
+- **NEW**  [[Japan] Next Nintendo Direct ? - Nintendo Switch 2 Forum - Page 1097 ( Page 1097 ) ](https://www.nintendolife.com/forums/nintendo-switch-2/next_nintendo_direct?start=21920) — *2026-09-05*
+  > nintendolife.com · English
+- **NEW**  [[Japan] Thais slurp up Japan - style Sanuki udon noodles](https://asia.nikkei.com/business/food-beverage/thais-slurp-up-japan-style-sanuki-udon-noodles) — *2026-09-05*
+  > asia.nikkei.com · English

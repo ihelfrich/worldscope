@@ -2,14 +2,14 @@
 section: billionaires
 title: Forbes Real-Time Billionaires (top 30 + biggest movers)
 date: 2026-09-05
-record_count: 33
-new_today: 1
+record_count: 30
+new_today: 0
 state: fresh
 ---
 
 ## Forbes Real-Time Billionaires (top 30 + biggest movers)
 
-1 new of 33 total items today.
+0 new of 30 total items today.
 
 - [#1 Elon Musk — $908.22B](https://www.forbes.com/profile/elon-musk/) — *2026-09-05*
   > United States · Technology · source: Tesla, SpaceX · holdings: SPCX-US(NASDAQ), SPCX-US(NASDAQ), TSLA-US(NASDAQ)
@@ -62,4 +62,4 @@ state: fresh
 - [#25 Jeff Yass — $85.71B](https://www.forbes.com/profile/jeff-yass/) — *2026-09-05*
   > United States · Finance & Investments · source: Trading, investments
 
-_(8 additional items in raw.jsonl)_
+_(5 additional items in raw.jsonl)_

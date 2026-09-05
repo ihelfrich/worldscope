@@ -3,13 +3,13 @@ section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-09-05
 record_count: 234
-new_today: 112
+new_today: 124
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-112 new of 234 total items today.
+124 new of 234 total items today.
 
 - [[St. Louis] Ask George: Should you tip restaurant workers more on holidays, such as Labor Day?](https://www.stlmag.com/dining/ask-george-should-you-tip-restaurant-workers-more-on-holidays-such-as-labor-day/) — *2026-09-04*
   > <p>It’s easy to see both sides of this issue. On the one hand, restaurant workers are giving up part of their holiday so others among us can enjoy theirs, oftentimes during a hot, busy shift. Adding a few dollars or extra percentage points is a relatively inexpensive way to ackno
@@ -31,34 +31,25 @@ state: fresh
   > <p>Located at the heart of Ferguson, Ferguson Chophouse (242 S. Florissant) serves up prime-cut steaks, fresh seafood, and more. Industry veterans Kirk Saunders and chef Kevin Green run the restaurant, which is open for dinner Thursday through Sunday. Here’s what to know before y
 - [[St. Louis] Jake Zimmerman is looking forward to playing Whiteyball](https://www.stlmag.com/news/jake-zimmerman-whiteyball-county-executive/) — *2026-09-03*
   > <p>For 14 years, Jake Zimmerman likes to joke, he’s had “the least sexy job in politics.” The St. Louis native and Harvard Law grad has made that lack of pizzazz his calling card. He could have gone to New York City and made a lot of money at a big law firm. He could have [&#8230
-- **NEW**  [[St. Louis] See the Sept. 5, 1926, front page: Minister's son admits killing 2 at roadhouse](https://www.stltoday.com/news/archives/article_250c33fc-27db-4b8e-8e2b-bccb60cae876.html) — *2026-09-05*
-  > Headlines from the Sept. 5, 1926, front page include: Brilliant spectacle as Greater St. Louis Exposition is opened
-- **NEW**  [[St. Louis] MacCarthy, John](https://www.stltoday.com/obituaries/article_10b85485-d015-53b6-beef-468233271213.html) — *2026-09-05*
-  > MacCarthy, John P.
-- **NEW**  [[St. Louis] Reinventing Business Internet from the Ground Up and the Sky Down](https://www.stltoday.com/online_features/tech_talk_and_innovation/image_23a88e47-4d43-5d68-af04-f6a954c4174b.html) — *2026-09-05*
-  > Powered by America’s fastest 5G internet and integrated with Starlink, SuperBroadband delivers virtually unbreakable connectivity.
-- **NEW**  [[St. Louis] Reinventing Business Internet from the Ground Up and the Sky Down](https://www.stltoday.com/online_features/tech_talk_and_innovation/article_67807ad1-015c-5630-9a07-737f786ab6be.html) — *2026-09-05*
-  > (NAPSI)—Here’s news many companies may consider out of this world: A revolutionary business internet solution that combines the largest 5G network with Starlink. Called SuperBroadband, this groundbreaking service delivers ultimate redundancy, unmatched coverage and unprecedented 
-- **NEW**  [[St. Louis] When Federal Programs and Workers are Cut,  Main Street Bears the Cost](https://www.stltoday.com/online_features/money_and_finance/image_f7cc6ee7-1949-51fe-b710-1d97fd8bf6d6.html) — *2026-09-05*
-- **NEW**  [[St. Louis] When Federal Programs and Workers are Cut,  Main Street Bears the Cost](https://www.stltoday.com/online_features/money_and_finance/article_5e15a5a2-dca8-5f95-8965-5786ab150197.html) — *2026-09-05*
-  > by Edith Mwangi
-- **NEW**  [[St. Louis] Helping Parents Help Their Kids In School](https://www.stltoday.com/online_features/green_living/image_42ffac79-44a7-5653-a5f0-120abcf5b915.html) — *2026-09-05*
-  > The school your children returned to this fall doesn’t have to be the school they return to next fall—it can be a much better fit for them.
-- **NEW**  [[St. Louis] Helping Parents Help Their Kids In School](https://www.stltoday.com/online_features/green_living/article_51dd78bd-7471-584a-aa2c-965f2e88731d.html) — *2026-09-05*
-  > (NAPSI)—Here’s news about education many parents may be glad to learn: More than 1.5 million students are heading back to school this fall with the help of a private educational choice program, a number that would have been almost unimaginable…
-- **NEW**  [[St. Louis] Dorm Room and Apartment Shopping:  How to Pick Upholstered Furniture and Bedding](https://www.stltoday.com/online_features/green_living/image_f6ef6efe-0f7e-5bab-a73e-6b7b07835d05.html) — *2026-09-05*
-  > Choosing dorm room furniture is no time to lie down on the job.
-- **NEW**  [[St. Louis] Dorm Room and Apartment Shopping:  How to Pick Upholstered Furniture and Bedding](https://www.stltoday.com/online_features/green_living/article_3383b6c3-ab68-5a62-b8e9-135d7a3a55d3.html) — *2026-09-05*
-  > (NAPSI)—If you are shopping for your college student’s dorm room or apartment, you want to choose furniture and bedding that meets their needs and will last while they are at college. Here are some questions to consider when selecting upholstered…
-- [[St. Louis] Principal in Francis Howell School District arrested, charged with possession of child porn](https://fox2now.com/news/missouri/principal-in-francis-howell-school-district-arrested-charged-with-possession-of-child-porn/) — *2026-09-04*
-  > An assistant principal in the Francis Howell School District has been arrested and charged with possession of child pornography, officials say.
-- **NEW**  [[St. Louis] Post Master General examines problems at St. Louis USPS](https://fox2now.com/news/missouri/post-master-general-examines-problems-at-st-louis-usps/) — *2026-09-04*
-  > Members of the House Oversight Committee, joined by Postmaster General David Steiner, toured the U.S. Postal Service Processing and Distribution Center in downtown St. Louis Friday as lawmakers look into ongoing problems involving the facility.
-- **NEW**  [[St. Louis] 2 officers resign after shooting teens following St. Louis County pool party](https://fox2now.com/news/missouri/2-officers-resign-after-shooting-teens-following-st-louis-county-pool-party/) — *2026-09-04*
-  > Two St. Louis County police officers involved in the July 5 shooting of two teenagers following a large pool party have resigned, the department confirmed Friday.
-- [[St. Louis] Lindsay Clancy murder trial ends in mistrial after days of deliberation, delays](https://fox2now.com/news/national/lindsay-clancy-murder-trial-ends-in-hung-jury/) — *2026-09-04*
-  > After days of deliberation, the judge in the Lindsay Clancy murder case announced Friday afternoon that he was declaring a mistrial.
-- **NEW**  [[St. Louis] Northwoods family seeks help after water main repair destroys driveway](https://fox2now.com/news/missouri/northwoods-family-seeks-help-after-water-main-repair-destroys-driveway/) — *2026-09-05*
-  > An 83-year-old Northwoods homeowner and her family are raising safety concerns after a July 20 water main break and subsequent repair excavation left her driveway cracked and uneven.
+- [[St. Louis] Hoskins vows to fight on despite stinging rebuke from Missouri Supreme Court](https://www.stlpr.org/show/st-louis-on-the-air/2026-09-04/hoskins-vows-fight-stinging-rebuke-missouri-supreme-court) — *2026-09-04*
+- [[St. Louis] St. Louis County animal shelter bets on waived adoption fee events to control overcrowding](https://www.stlpr.org/news-briefs/2026-09-04/st-louis-county-animal-shelter-waived-adoption-fee-events-overcrowding) — *2026-09-04*
+- [[St. Louis] Metro East Literacy Project puts books in the hands of young readers and their parents](https://www.stlpr.org/show/st-louis-on-the-air/2026-09-04/metro-east-literacy-project-free-books-children-parents) — *2026-09-04*
+- [[St. Louis] Sprinklers, shade and cool treats: St. Louis festivals plan for extreme heat over Labor Day weekend](https://www.stlpr.org/news/2026-09-04/st-louis-festivals-extreme-heat-labor-day-weekend) — *2026-09-04*
+- [[St. Louis] Missouri Supreme Court puts Respect Missouri Voters plan on November ballot](https://www.stlpr.org/government-politics-issues/2026-09-03/respect-missouri-voters-initiative-petitions) — *2026-09-03*
+- [[St. Louis] Missouri Supreme Court puts referendum to overturn new congressional map on ballot](https://www.stlpr.org/government-politics-issues/2026-09-03/missouri-supreme-court-referendum-congressional-map) — *2026-09-03*
+- [[St. Louis] St. Louis’ haunted and historic Lemp Mansion is for sale](https://www.stlpr.org/economy-business/2026-09-04/st-louis-haunted-historic-lemp-mansion-for-sale) — *2026-09-03*
+- [[St. Louis] Trump approves Missouri’s disaster declaration for July flash flooding incident](https://www.stlpr.org/news-briefs/2026-09-03/trump-approves-missouri-disaster-declaration-july-flooding) — *2026-09-03*
+- [[St. Louis] Missouri House candidate charged in plot to plant drugs on Republican primary opponent](https://www.stlpr.org/government-politics-issues/2026-09-03/missouri-house-candidate-charged-in-plot-to-plant-drugs-on-republican-primary-opponent) — *2026-09-03*
+- **NEW**  [[St. Louis] Are the stars aligned for a downtown St. Louis renaissance? Spencer and Kehoe say yes](https://www.stlpr.org/government-politics-issues/2026-09-03/downtown-st-louis-renaissance-spencer-kehoe) — *2026-09-03*
+- **NEW**  [[St. Louis] Catch up on the latest in St. Louis-area high school football](https://www.stltoday.com/sports/high-school/football/article_b076215b-0979-4b27-980f-9c3b7ccbd08b.html) — *2026-09-05*
+  > See scores, game stories, standout performances, photos and video from the second weekend of high school football in Missouri and third in Illinois.
+- **NEW**  [[St. Louis] Q&A: How uncommon is this sweltering St. Louis September?](https://www.stltoday.com/news/local/metro/article_2b27efce-c3a7-40c5-a746-1107fc0878d9.html) — *2026-09-05*
+  > How long has it been since we've had five straight days of 99-plus, like St. Louis did this week? When was it last this hot in September?
+- **NEW**  [[St. Louis] Five things to watch when City SC faces Vancouver on Saturday night](https://www.stltoday.com/sports/professional/mls/city-sc/article_addcfe88-86ac-40b1-b829-ad1edd412bfa.html) — *2026-09-05*
+  > After lots of rearranging of the lineup off the field, the time for City SC coach Yoann Damet to put the talent in order on the field comes Saturday, when City SC faces the first-place Vancouver Whitecaps at BC Place.
+- **NEW**  [[St. Louis] Simple approach helps make Webster Groves' Clark Montgomery one of state's best swimmers](https://www.stltoday.com/sports/high-school/boys-swimming/article_6ee8ac11-07dd-4a3e-8b7e-ceed84c92114.html) — *2026-09-05*
+  > Clark Montgomery has made state appearances in each of his first three seasons with the Statesmen and has earned a pair of individual medals the last two.
+- **NEW**  [[St. Louis] Ump took issue with rookie's cap. Cardinals irked by ump. Ivan Herrera's homer erases it all.](https://www.stltoday.com/sports/professional/mlb/cardinals/article_e52a64a1-e15d-482d-89a9-2f79cc7ca7ec.html) — *2026-09-05*
+  > Cardinals manager Oli Marmol called it a 'power-hungry' move for umpire to tell rookie to adjust his tilted cap, and it nearly cost the Cardinals before a ninth-inning homer erased all the frustrations with a 7-6 victory vs. the Rockies.
 
 _(209 additional items in raw.jsonl)_

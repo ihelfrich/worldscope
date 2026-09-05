@@ -2,42 +2,64 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-09-05
-record_count: 1081
-new_today: 500
+record_count: 1085
+new_today: 551
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-500 new of 1081 total items today.
+551 new of 1085 total items today.
 
-- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-09-05*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-09-05*
-  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
 - [[feed error] Reuters Top News: ConnectionError](https://feeds.reuters.com/reuters/topNews) — *2026-09-05*
   > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
-- [[Global] UN votes to adopt new world map that shows Africa’s true scale](https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa) — *2026-09-04*
-- [[Global] Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach](https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach) — *2026-09-03*
-- [[Global] ‘We continue to suffer’: victims of apartheid-era Sharpeville massacre demand compensation](https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid) — *2026-09-03*
-- **NEW**  [[Global] Trump’s ‘retribution’ could now include Falklands as favor to Milei – and revenge on the UK](https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk) — *2026-09-04*
-- [[Global] Colombia president provokes disgust by posing with bodies of ‘terrorists’](https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella) — *2026-09-04*
-- [[Global] Javier Milei: ‘winds of change’ support Argentina’s claim to Falkland Islands](https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands) — *2026-09-04*
-- [[Global] UK hits back at Argentinian Falklands claim and insists islands remain British](https://www.theguardian.com/uk-news/2026/sep/04/uk-ministers-hit-back-argentinian-falkland-islands-claim) — *2026-09-04*
-- [[Global] Nobel laureate Machado: ‘Illegitimate’ Venezuela regime has no right to strike US oil deal](https://www.theguardian.com/world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime) — *2026-09-03*
-- [[Global] South Korea pushes back on reports it is readying Hormuz deployment amid US pressure](https://www.theguardian.com/world/2026/sep/04/south-korea-pushes-back-reports-hormuz-deployment-us-pressure) — *2026-09-04*
-- [[Global] Yen soars as Bank of Japan tipped to raise interest rates](https://www.theguardian.com/business/2026/sep/03/yen-soars-bank-of-japan-tipped-to-raise-interest-rates) — *2026-09-03*
-- **NEW**  [[Global] Sydney reaches 33C in potentially warmest start to spring since mid-1800s, while snow forecast in southern NSW](https://www.theguardian.com/australia-news/2026/sep/05/sydney-set-to-hit-33c-in-warmest-start-to-spring-since-mid-1800s-while-snow-forecast-in-southern-nsw) — *2026-09-05*
-- [[Global] Australia’s housing prices are trending down. See which suburbs have had the biggest falls](https://www.theguardian.com/australia-news/2026/sep/05/house-prices-trending-down-sydney-melbourne-brisbane-perth-darwin) — *2026-09-04*
-- [[Global] Pocock says skilled migrants should be top priority as Australia faces shortage of AI workers and tradies – as it happened](https://www.theguardian.com/australia-news/live/2026/sep/04/anthony-albanese-pauline-hanson-actu-union-labor-one-nation-coalition-angus-taylor-ntwnfb) — *2026-09-04*
-- [[Global] Charles Perrottet denies asking brother as premier to appoint cabinet minister, Icac hears](https://www.theguardian.com/australia-news/2026/sep/04/charles-perrottet-denies-asking-premier-brother-to-appoint-cabinet-minister-icac-ntwnfb) — *2026-09-04*
-- [[Global] Australian ski resorts to close up to a month early due to global heating and El Niño](https://www.theguardian.com/environment/2026/sep/04/australian-ski-resorts-to-close-up-to-a-month-early-due-to-global-heating-and-el-nino) — *2026-09-04*
-- **NEW**  [[Global] ‘Every girl now wants to be a boxer’: excitement in Katie Taylor’s home town for her valedictory bout](https://www.theguardian.com/world/2026/sep/05/katie-taylor-boxing-valedictory-bout-croke-park-ireland) — *2026-09-05*
-- [[Global] Russian drone strike on Ukraine’s security services HQ is a ‘major escalation’, says Ukraine’s foreign minister – as it happened](https://www.theguardian.com/world/live/2026/sep/04/russia-ukraine-eu-ministers-migration-hubs-meloni-bardella-latest-news-updates) — *2026-09-04*
-- [[Global] Russia strikes Ukraine intelligence HQ in ‘major escalation’](https://www.theguardian.com/world/2026/sep/04/russia-strikes-ukraine-intelligence-hq-kyiv-major-escalation) — *2026-09-04*
-- [[Global] Germany urges EU to cut Russians’ holiday visas after sabotage attacks](https://www.theguardian.com/world/2026/sep/04/germany-russian-visas-eu-countries) — *2026-09-04*
-- [[Global] Deadly escalation in Black Sea attacks prompts fears of even higher food prices](https://www.theguardian.com/world/2026/sep/04/deadly-black-sea-attacks-threaten-grain-exports-food-prices-russia-ukraine) — *2026-09-04*
-- **NEW**  [[Global] Death on the road to Rafah: the night the IDF targeted World Central Kitchen aid workers](https://www.theguardian.com/world/2026/sep/05/gaza-aid-workers-world-central-kitchen-idf-israel) — *2026-09-05*
-- **NEW**  [[Global] ‘Guilt by association’: why seven international aid workers were killed in Israeli airstrike](https://www.theguardian.com/world/2026/sep/05/aid-workers-gaza-killed-in-israel-airstrike-investigation) — *2026-09-05*
+- [[feed error] Reuters World: ConnectionError](https://feeds.reuters.com/Reuters/worldNews) — *2026-09-05*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- [[feed error] Reuters Business: ConnectionError](https://feeds.reuters.com/reuters/businessNews) — *2026-09-05*
+  > HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+- **NEW**  [[Global] Mistrial declared in Lindsay Clancy murder case, after jury deadlocks](https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > The mistrial now puts the murder case - and Clancy's future - in limbo as to whether she will be held criminally liable in the deaths of her three kids.
+- **NEW**  [[Global] Trump envoys arrive in Moscow ahead of Ukraine talks, reports say](https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > Steve Witkoff and Jared Kushner are due to hold talks with Russia before travelling to Ukraine on Sunday.
+- [[Global] Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect](https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere.
+- **NEW**  [[Global] Nepal rescuers try to reach dozens trapped in tunnel after two found alive](https://www.bbc.co.uk/news/articles/c7903j1vpe5o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > More than 1,300 people have died and thousands are missing, but rescuers' hopes have risen after finding survivors in a tunnel.
+- **NEW**  [[Global] Trump signs order to remove endangered species protection for grey wolves](https://www.bbc.co.uk/news/articles/c62k677d4lzo?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > The US president says the move will help ranchers, but conservationists say it could derail efforts to recover populations.
+- [[Global] UN votes to adopt new world map to reflect Africa's true size](https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > The Togo-sponsored resolution was backed by 164 nations - with the US as the only nation to vote against it.
+- **NEW**  [[Global] Germany's far-right AfD bids for first taste of power in eastern vote](https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > If it wins an outright majority in Saxony-Anhalt, it would be the first time a far-right party has held state-level power in Germany since World War Two.
+- **NEW**  [[Global] At least two dead in blast at Bolivia military barracks](https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > Authorities fear the death toll in Viacha will rise and warn people to stay away from the barracks due to a risk of further explosions.
+- [[Global] Russia hits Ukrainian security headquarters in drone attack, Zelensky says](https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > The unmanned aerial vehicle struck without warning in the heart of the Ukrainian capital.
+- [[Global] 'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors](https://www.bbc.co.uk/news/videos/cd79vp91321o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > There are still hundreds of workers trapped in a network of tunnels that run along the Trishuli river.
+- **NEW**  [[Global] Tate brothers officially indicted with trafficking and sex crimes in Romania](https://www.bbc.co.uk/news/articles/c7v4npv1m22o?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > Andrew and Tristan Tate are currently in a Miami jail fighting extradition to the UK over separate charges and deny all the allegations.
+- [[Global] Argentine couple to return Nazi-looted painting to rightful owner](https://www.bbc.co.uk/news/articles/cy0zxjp50j6o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > The late-baroque Portrait of a Lady was lost for 80 years until it was spotted in photographs of a house for sale near Buenos Aires.
+- [[Global] UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says](https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > The comments come as Argentinian president Javier Milei says the "winds of change" favoured his country's claim on the British overseas territory.
+- [[Global] Body of world's youngest traditional king returns home to Uganda amid succession row](https://www.bbc.co.uk/news/articles/clylwgn8jk3o?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > King Oyo died in the US last week aged 34 after receiving treatment for an aggressive form of cancer.
+- **NEW**  [[Global] Lindsay Clancy murder trial has divided US on whether she's victim or criminal](https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > Some say the case shed light on the mental health struggles of mothers, while others argue it's no excuse for murder.
+- **NEW**  [[Global] Why are European countries moving their gold out of North America?](https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > The Netherlands has relocated 86 tonnes of the shiny stuff - what's going on?
+- **NEW**  [[Global] Nepal bet nearly everything on hydropower - the floods show why that's a problem](https://www.bbc.co.uk/news/articles/cy0zx368prno?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > More than 10% of Nepal's energy generation capacity was knocked out by last week's floods.
+- **NEW**  [[Global] Is Russia proving better at protecting friends than fighting enemies in West Africa?](https://www.bbc.co.uk/news/articles/cx2z75keq58o?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > Russian forces were brought in to help defeat jihadists but they also defend the military leadership in Niger.
+- **NEW**  [[Global] Flock says its cameras make US safer - so why are they being sabotaged?](https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_medium=RSS&at_campaign=rss) — *2026-09-05*
+  > The AI-powered cameras have been vandalised across the US, as citizens object to the growing surveillance network.
+- [[Global] How could US-Iran conflict end? Three experts give their views](https://www.bbc.co.uk/news/articles/cgjql614glvo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > After renewed strikes this week, does either side have an exit strategy?
+- [[Global] 'Layer upon layer of miracles' to find tunnel survivors, Nepal rescue adviser tells BBC](https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > From searching for a buried tunnel entrance to blowing up rocks the size of cars, rescuers had to surmount multiple challenges to reach survivors.
+- [[Global] Kenya's chai lovers are not happy as the nation's cows run dry](https://www.bbc.co.uk/news/articles/cgqd9ldegjqo?at_medium=RSS&at_campaign=rss) — *2026-09-04*
+  > Supermarket shelves are emptying, sellers are rationing supplies and prices are rising.
 
-_(1056 additional items in raw.jsonl)_
+_(1060 additional items in raw.jsonl)_

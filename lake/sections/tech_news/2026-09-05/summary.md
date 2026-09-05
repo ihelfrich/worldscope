@@ -11,6 +11,8 @@ state: fresh
 
 15 new of 56 total items today.
 
+- **NEW**  [[BleepingComputer] OpenAI admits it didn't disclose rogue AI wiki hijacking incident](https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/) — *2026-09-05*
+  > OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model "misalignment" rather than a security breach. [...]
 - **NEW**  [[The Hacker News] Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel](https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html) — *2026-09-05*
   > A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass ar
 - **NEW**  [[The Hacker News] Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities](https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html) — *2026-09-05*
@@ -27,8 +29,6 @@ The Arctic Wolf Adversary Research Team said it observed attackers exploiting CV
   > Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]
 - [[BleepingComputer] 39 New Methods That Compromise Passkey Authentication](https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/) — *2026-09-04*
   > Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries withou
-- [[BleepingComputer] New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/) — *2026-09-04*
-  > An anonymous security researcher who uses the "Nightmare Eclipse" handle released a CrowdStrike Falcon zero-day exploit named "FalconFlank" that lets attackers escalate privileges on up-to-date Windows systems. [...]
 - [[The Hacker News] Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters](https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html) — *2026-09-04*
   > Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters.
 
@@ -53,8 +53,6 @@ The attackers named the implant ted in debug str
   > Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
 - [[Cybersecurity Dive] Nvidia’s $12.9B Hugging Face deal could benefit enterprises](https://www.cybersecuritydive.com/news/Nvidia-acquires-hugging-face-enterprises/829697/) — *2026-09-04*
   > The chipmaker&rsquo;s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.
-- **NEW**  [[Cybersecurity Dive] OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders](https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/) — *2026-09-04*
-  > Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.
 - **NEW**  [[Schneier on Security] Friday Squid Blogging: Squid on a Stick at the New York State Fair](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html) — *2026-09-04*
   > Looks tasty.
 As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.
@@ -75,5 +73,7 @@ Researchers at a stealth startup in Israel scanned 6,214 live domains belonging 
   > AI workstation promises to put up to 576 GB of HBM3e and 16 TB/s of memory bandwidth on your desk
 - **NEW**  [[The Register] ASCII smuggling isn't just an AI security risk](https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595) — *2026-09-04*
   > Phishers find a new use for invisible Unicode tag characters
+- [[The Register] Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident](https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554) — *2026-09-04*
+  > Two cases of agents escaping to solve unsolvable problems paints an uncomfortable question: Is the entire internet in OpenAI's experimental agentic firing line?
 
 _(31 additional items in raw.jsonl)_

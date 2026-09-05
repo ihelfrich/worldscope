@@ -2,14 +2,14 @@
 section: chinese_internal
 title: Chinese Internal News
 date: 2026-09-05
-record_count: 274
-new_today: 192
+record_count: 276
+new_today: 227
 state: fresh
 ---
 
 ## Chinese Internal News
 
-192 new of 274 total items today.
+227 new of 276 total items today.
 
 - [[TITLE: 昔日“彩电一哥”康佳公告主动退市，今起停牌 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wbU5pbzU5MFBfVDVqOXRHUHVSOWF6Mzl6S0FTZ0pvQ2dlNHB2a0NYNjc2UGt4NnJiRTVYVHNzNFRBOGNkelA5d2JjVVhsVVZK] (zh: 昔日“彩电一哥”康佳公告主动退市，今起停牌 - 财新)](https://mini.caixin.com) — *2026-09-04*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wbU5pbzU5MFBfVDVqOXRHUHVSOWF6Mzl6S0FTZ0pvQ2dlNHB2a0NYNjc2UGt4NnJiRTVYVHNzNFRBOGNkelA5d2JjVVhsVVZKMDFVQk1FSHQyc1UxSEE?oc=5" target="_blank">昔日“彩电一哥”康佳公告主动退市，今起停牌</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
@@ -37,22 +37,22 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHY1R3bkY5ZkVVY2dodG16X0dkckFDUVIxSnlQVVBNVGU2RmpENFlDMU1TU1FzeTQwbEQ0RkQwdFlKNTZUQWFIUlRUUS1NcGFKdDZmWWtFQ2JJUkVua1hkWEF3?oc=5" target="_blank">“投资于人”：内涵、约束与实现路径</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 联合国报告：破1.5℃升温阈值在所难免 紧急救灾或挤出长期转型资金 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE05WUotSHRZWHgtWlluaHBjLVhNUzl2XzJaMWZtbXUwYlR6Z0NvYU9WbnBRWkJFTnI5OXRJSV] (zh: 联合国报告：破1.5℃升温阈值在所难免 紧急救灾或挤出长期转型资金 - china.caixin.com)](https://china.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE05WUotSHRZWHgtWlluaHBjLVhNUzl2XzJaMWZtbXUwYlR6Z0NvYU9WbnBRWkJFTnI5OXRJSVI4djFrejJxaTFIbmhPOUt6TlJoTDhqNHZQS2FIQ1gtN0h3?oc=5" target="_blank">联合国报告：破1.5℃升温阈值在所难免 紧急救灾或挤出长期转型资金</a>&nbsp;&nbsp;<font color="#6f6f6f">china.ca
-- [[TITLE: 李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援 - companies.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fSkNtR0RwYmJfQk1oM042S0szTElocnljRFpwbVJMVFhFbGhFUUtaWFY0VEZLM1JaN09V] (zh: 李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援 - companies.caixin.com)](https://companies.caixin.com) — *2026-09-03*
-  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fSkNtR0RwYmJfQk1oM042S0szTElocnljRFpwbVJMVFhFbGhFUUtaWFY0VEZLM1JaN09VcEp2UjNsVjlJTmxrSV9ZSGRPVlA2OGR0Rkd4U2hPbHFDSU9KWmxRWTY?oc=5" target="_blank">李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援</a>&nbsp;&nbsp;<font color="#6f6f6f">com
+- **NEW**  [[TITLE: 李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fSkNtR0RwYmJfQk1oM042S0szTElocnljRFpwbVJMVFhFbGhFUUtaWFY0VEZLM1JaN09VcEp2UjNsVjlJTmxrSV] (zh: 李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援 - 财新)](https://companies.caixin.com) — *2026-09-03*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fSkNtR0RwYmJfQk1oM042S0szTElocnljRFpwbVJMVFhFbGhFUUtaWFY0VEZLM1JaN09VcEp2UjNsVjlJTmxrSV9ZSGRPVlA2OGR0Rkd4U2hPbHFDSU9KWmxRWTY?oc=5" target="_blank">李嘉诚、李兆基、黄廷方基金纷纷捐款 支援西藏吉隆泥石流灾区救援</a>&nbsp;&nbsp;<font color="#6f6f6f">财新<
 - **NEW**  [[TITLE: AI、电气化与资源竞争：全球经济的新逻辑 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SRlVlMnFZdk0yUXpGRlcwRnhvZ0tYOUpJRmE3RjJrbTYxRHladTA5RWJPT0d5YURpVWNlYlJCRC1YVFF4UVpxV0FNWFhhUTd4d] (zh: AI、电气化与资源竞争：全球经济的新逻辑 - 财新)](https://opinion.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SRlVlMnFZdk0yUXpGRlcwRnhvZ0tYOUpJRmE3RjJrbTYxRHladTA5RWJPT0d5YURpVWNlYlJCRC1YVFF4UVpxV0FNWFhhUTd4d2FwX1NURnM0RzVKMHhBaVJ3?oc=5" target="_blank">AI、电气化与资源竞争：全球经济的新逻辑</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - [[TITLE: 法眼｜“电驴”限速应否上调？道交法修订问计公众 - china.caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VUVNSamR0TEJ0ZzZNMk5oMUZSNTdkMUFRMWk3bnM0R2VEQ0hiUlFhR0lJYWtzbzBsbjduN05GVVdJRGg1] (zh: 法眼｜“电驴”限速应否上调？道交法修订问计公众 - china.caixin.com)](https://china.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VUVNSamR0TEJ0ZzZNMk5oMUZSNTdkMUFRMWk3bnM0R2VEQ0hiUlFhR0lJYWtzbzBsbjduN05GVVdJRGg1emRxZ3lYNGpUOWhiNW51NGZSSkRsN2ROUkc0?oc=5" target="_blank">法眼｜“电驴”限速应否上调？道交法修订问计公众</a>&nbsp;&nbsp;<font color="#6f6f6f">china.caixin.com</
 - [[TITLE: 莱比锡机场遇袭事件致德俄关系再恶化 俄领馆和文化机构遭关闭 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5sdjg3R1l1YzdwblZFbklCeWVubm9ySEpOalNDek10SGZ1QllFUjVoYkR5aG1pdFFucHpTOGRzUDdPcmMzYWhLbGtB] (zh: 莱比锡机场遇袭事件致德俄关系再恶化 俄领馆和文化机构遭关闭 - 财新)](https://international.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5sdjg3R1l1YzdwblZFbklCeWVubm9ySEpOalNDek10SGZ1QllFUjVoYkR5aG1pdFFucHpTOGRzUDdPcmMzYWhLbGtBTUVpN09JMFBFeHVSWER0UUdFZkFwb0I5azNibnlZaVE?oc=5" target="_blank">莱比锡机场遇袭事件致德俄关系再恶化 俄领馆和文化机构遭关闭</a>&nbsp;&nbsp;<font color="#6f6f6
-- [[TITLE: 昭君古渡｜黄河两岸⑤ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rRjRZNXRNN0lpUFJDQ2lFRzZTMEh4b3ZFTjZBWVJnZFJScUtNTEd4YjRtQlJLTUp0bGpTN0hHUDFUR1l6WlBSQkRtaFBpYWlsWUdNRGhiejV] (zh: 昭君古渡｜黄河两岸⑤ - 财新)](https://mini.caixin.com) — *2026-09-03*
-  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rRjRZNXRNN0lpUFJDQ2lFRzZTMEh4b3ZFTjZBWVJnZFJScUtNTEd4YjRtQlJLTUp0bGpTN0hHUDFUR1l6WlBSQkRtaFBpYWlsWUdNRGhiejV3NVdqanc?oc=5" target="_blank">昭君古渡｜黄河两岸⑤</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CZ0Rtd0wtcEo5RDlrU0RCdFdVd2ZLUTFvaVJfWWFsM3JUMFpyclJEcWJNR2VQVlRDblYyQ28zUnpNVWJPT] (zh: Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化 - 财新)](https://www.caixin.com) — *2026-09-03*
-  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CZ0Rtd0wtcEo5RDlrU0RCdFdVd2ZLUTFvaVJfWWFsM3JUMFpyclJEcWJNR2VQVlRDblYyQ28zUnpNVWJPTnM1MXl4MEItalFwQXdqQ3VHeWUxN3Bv?oc=5" target="_blank">Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
-- **NEW**  [[TITLE: AI基建泡沫的边界：不只是GDP的25% - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubkZOcUs1V2VVbUNTR1kyR1lRSXFreDdLR2FXeXBxZ3FqMVdLR1hkaFJyMlBnOU5QODhWVVktLXJwRlVPOUlpYkdobThpT0VvT] (zh: AI基建泡沫的边界：不只是GDP的25% - 财新)](https://opinion.caixin.com) — *2026-09-03*
-  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubkZOcUs1V2VVbUNTR1kyR1lRSXFreDdLR2FXeXBxZ3FqMVdLR1hkaFJyMlBnOU5QODhWVVktLXJwRlVPOUlpYkdobThpT0VvTkpQY1ZhaEhCN1V1R24weXFn?oc=5" target="_blank">AI基建泡沫的边界：不只是GDP的25%</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- [[TITLE: Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化 - caixin.com | LEDE: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CZ0Rtd0wtcEo5RDlrU0RCdFdVd2ZLUTFvaVJfWWFsM3JUMFpyclJEcWJNR2VQVlRDblYyQ28zU] (zh: Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化 - caixin.com)](https://www.caixin.com) — *2026-09-03*
+  > <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CZ0Rtd0wtcEo5RDlrU0RCdFdVd2ZLUTFvaVJfWWFsM3JUMFpyclJEcWJNR2VQVlRDblYyQ28zUnpNVWJPTnM1MXl4MEItalFwQXdqQ3VHeWUxN3Bv?oc=5" target="_blank">Anthropic、Meta、谷歌、 阿里齐发模型更新编程能力较量白热化</a>&nbsp;&nbsp;<font color="#6f6f6f">caixin.co
 - **NEW**  [[TITLE: 火线评论｜“批量劝退应届毕业生”之后，星宇该用什么灯照亮前程 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxUmNJeU1zUVRGT09rUWZhbmhLOVowV2ZkR2M4QkxRdFI2ako3dDFHWXZvR1JRWjNfeGRrVXRlcE5ELU9TSC1qS2t] (zh: 火线评论｜“批量劝退应届毕业生”之后，星宇该用什么灯照亮前程 - 财新)](https://opinion.caixin.com) — *2026-09-04*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxUmNJeU1zUVRGT09rUWZhbmhLOVowV2ZkR2M4QkxRdFI2ako3dDFHWXZvR1JRWjNfeGRrVXRlcE5ELU9TSC1qS2tHX2tvdVhXQzQzOGJTZDc0di1iQmRRNXhn?oc=5" target="_blank">火线评论｜“批量劝退应届毕业生”之后，星宇该用什么灯照亮前程</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</fon
+- [[TITLE: 昭君古渡｜黄河两岸⑤ - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rRjRZNXRNN0lpUFJDQ2lFRzZTMEh4b3ZFTjZBWVJnZFJScUtNTEd4YjRtQlJLTUp0bGpTN0hHUDFUR1l6WlBSQkRtaFBpYWlsWUdNRGhiejV] (zh: 昭君古渡｜黄河两岸⑤ - 财新)](https://mini.caixin.com) — *2026-09-03*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rRjRZNXRNN0lpUFJDQ2lFRzZTMEh4b3ZFTjZBWVJnZFJScUtNTEd4YjRtQlJLTUp0bGpTN0hHUDFUR1l6WlBSQkRtaFBpYWlsWUdNRGhiejV3NVdqanc?oc=5" target="_blank">昭君古渡｜黄河两岸⑤</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
+- **NEW**  [[TITLE: AI基建泡沫的边界：不只是GDP的25% - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubkZOcUs1V2VVbUNTR1kyR1lRSXFreDdLR2FXeXBxZ3FqMVdLR1hkaFJyMlBnOU5QODhWVVktLXJwRlVPOUlpYkdobThpT0VvT] (zh: AI基建泡沫的边界：不只是GDP的25% - 财新)](https://opinion.caixin.com) — *2026-09-03*
+  > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubkZOcUs1V2VVbUNTR1kyR1lRSXFreDdLR2FXeXBxZ3FqMVdLR1hkaFJyMlBnOU5QODhWVVktLXJwRlVPOUlpYkdobThpT0VvTkpQY1ZhaEhCN1V1R24weXFn?oc=5" target="_blank">AI基建泡沫的边界：不只是GDP的25%</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 - **NEW**  [[TITLE: 财新闻｜高三学生踢足球意外受伤，将同学、学校告上法庭，北京法院：驳回 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYY2loeFAzSXg1NE1GT1V1U1NhLVdYaUZIYmNQUmNwNmZ1Smx5RFpNVWtaSndSbHBTajhGemtMQkI0aEZWMnp] (zh: 财新闻｜高三学生踢足球意外受伤，将同学、学校告上法庭，北京法院：驳回 - 财新)](https://mini.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYY2loeFAzSXg1NE1GT1V1U1NhLVdYaUZIYmNQUmNwNmZ1Smx5RFpNVWtaSndSbHBTajhGemtMQkI0aEZWMnpqUHRLZ2FEZEdQNWkzM0VhVHdSNmhicHc?oc=5" target="_blank">财新闻｜高三学生踢足球意外受伤，将同学、学校告上法庭，北京法院：驳回</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font
 - **NEW**  [[TITLE: 美联储之“鹰”或难持久，降息仍是主导方向 - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE41bFRNc21jUXdXZXAtT3RiaE95bU1lWndDeFg2TWRBRUxXU2w5YTAyOGJlY2VuVTkzS2haaF94S3dmTjB2OXZlT2IycURCMUF1V] (zh: 美联储之“鹰”或难持久，降息仍是主导方向 - 财新)](https://opinion.caixin.com) — *2026-09-03*
@@ -62,4 +62,4 @@ state: fresh
 - **NEW**  [[TITLE: 需要重视的全球“资金失衡” - 财新 | LEDE: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ETEVUaXFOcEZiV2NpRGFjMV9SenhEN2pGY3B6ZUpWMEpua3o1THpMRFZ3ZXFEQ2RUb2N3SzA5aVhSaWt2eS1xcTRLc055b01iTFRkWFR3] (zh: 需要重视的全球“资金失衡” - 财新)](https://opinion.caixin.com) — *2026-09-03*
   > <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ETEVUaXFOcEZiV2NpRGFjMV9SenhEN2pGY3B6ZUpWMEpua3o1THpMRFZ3ZXFEQ2RUb2N3SzA5aVhSaWt2eS1xcTRLc055b01iTFRkWFR3V2JCcWR6MW1IaG9n?oc=5" target="_blank">需要重视的全球“资金失衡”</a>&nbsp;&nbsp;<font color="#6f6f6f">财新</font>
 
-_(249 additional items in raw.jsonl)_
+_(251 additional items in raw.jsonl)_
