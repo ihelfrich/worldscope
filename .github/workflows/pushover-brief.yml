@@ -6,8 +6,10 @@ name: Pushover brief delivery
 # the same push event; whichever finished first won the race and the
 # loser's commit was rejected, producing dead links in notifications.)
 #
-# Idempotency: each notification commits a marker into .pushover-sent.json
-# so the same brief is never notified twice even if the workflow re-runs.
+# Best-effort deduplication: an accepted notification atomically updates the
+# local .pushover-sent.json marker before it is committed. The remote send and
+# repository commit are not one transaction, so a crash between them can still
+# cause a retry to send a duplicate.
 
 on:
   workflow_run:
@@ -52,11 +54,13 @@ jobs:
 
       - id: pick
         name: Pick the newest brief that hasn't been notified yet
+        env:
+          MANUAL_BRIEF: ${{ github.event.inputs.brief }}
         run: |
-          set -e
-          MANUAL="${{ github.event.inputs.brief }}"
+          set -euo pipefail
+          MANUAL="$MANUAL_BRIEF"
           SENT_FILE=".pushover-sent.json"
-          mkdir -p $(dirname "$SENT_FILE")
+          mkdir -p "$(dirname "$SENT_FILE")"
           [ -f "$SENT_FILE" ] || echo "[]" > "$SENT_FILE"
 
           if [ -n "$MANUAL" ] && [ -f "$MANUAL" ]; then
@@ -72,7 +76,7 @@ jobs:
           fi
 
           # Idempotency: skip if already notified
-          if python3 -c "import json,sys; sent=json.load(open('$SENT_FILE')); sys.exit(0 if '$CHANGED' in sent else 1)"; then
+          if python3 -c 'import json,sys; sent=json.load(open(sys.argv[1])); sys.exit(0 if sys.argv[2] in sent else 1)' "$SENT_FILE" "$CHANGED"; then
             echo "already notified for $CHANGED, skipping"
             echo "file=" >> $GITHUB_OUTPUT
             exit 0
@@ -96,37 +100,29 @@ jobs:
       - name: Send Pushover
         if: steps.pick.outputs.file != ''
         env:
-          USER_KEY:  ${{ secrets.PUSHOVER_USER_KEY }}
-          APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          PUSHOVER_USER_KEY:  ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          BRIEF_FILE: ${{ steps.pick.outputs.file }}
+          BRIEF_KIND: ${{ steps.pick.outputs.kind }}
+          BRIEF_HEADLINE: ${{ steps.pick.outputs.headline }}
+          BRIEF_URL_PATH: ${{ steps.pick.outputs.url_path }}
         run: |
-          if [ -z "$USER_KEY" ] || [ -z "$APP_TOKEN" ]; then
-            echo "Pushover credentials missing; set PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN as repo secrets"
-            exit 0
-          fi
-          BRIEF_URL="https://ihelfrich.github.io/worldscope/${{ steps.pick.outputs.url_path }}"
-          # curl -F "message=</tmp/body.txt" reads the file as the field value.
-          curl -fsS \
-            -F "token=$APP_TOKEN" \
-            -F "user=$USER_KEY" \
-            -F "title=${{ steps.pick.outputs.kind }} brief: ${{ steps.pick.outputs.headline }}" \
-            -F "message=</tmp/body.txt" \
-            -F "url=$BRIEF_URL" \
-            -F "url_title=Full brief" \
-            -F "priority=0" \
-            https://api.pushover.net/1/messages.json
+          BRIEF_URL="https://ihelfrich.github.io/worldscope/${BRIEF_URL_PATH}"
+          python -m worldscope.pushover_delivery \
+            --brief "${BRIEF_FILE}" \
+            --sent-file .pushover-sent.json \
+            --title "${BRIEF_KIND} brief: ${BRIEF_HEADLINE}" \
+            --message-file /tmp/body.txt \
+            --url "$BRIEF_URL" \
+            --priority 0
 
-      - name: Mark notified
+      - name: Commit validated delivery receipt
         if: steps.pick.outputs.file != ''
+        env:
+          BRIEF_FILE: ${{ steps.pick.outputs.file }}
         run: |
-          python3 -c "
-          import json
-          sent = json.load(open('.pushover-sent.json'))
-          if '${{ steps.pick.outputs.file }}' not in sent:
-              sent.append('${{ steps.pick.outputs.file }}')
-          json.dump(sent, open('.pushover-sent.json', 'w'), indent=2)
-          "
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
           git add .pushover-sent.json
-          git diff --staged --quiet || git commit -m "pushover: notified ${{ steps.pick.outputs.file }}"
+          git diff --staged --quiet || git commit -m "pushover: notified ${BRIEF_FILE}"
           git push

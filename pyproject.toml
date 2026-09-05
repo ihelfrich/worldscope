@@ -30,6 +30,15 @@ analytics = [
 sources = [
   "mediacloud>=4.0",
 ]
+# Exact dependency surface used by the scheduled daily workflow. Keeping this
+# separate avoids the multi-gigabyte sentence-transformers dependency in
+# `analytics` while ensuring required graphics/maps/warehouse stages exist.
+ci = [
+  "matplotlib>=3.7",
+  "fiona>=1.9",
+  "duckdb>=0.9",
+  "mediacloud>=4.0",
+]
 # Everything, for a full local environment.
 all = [
   "matplotlib>=3.7",

@@ -1,8 +1,6 @@
 name: Daily briefing
 
 on:
-  push:
-    branches: [main]
   schedule:
     # 07:00 UTC = 03:00 ET (EDT) / 02:00 ET (EST). Runs 2 hours before the
     # desk-officer routine (09:00 UTC) and 3 hours before the morning Pushover
@@ -46,7 +44,7 @@ jobs:
           cache: npm
       - name: Install Tailwind toolchain
         run: npm ci --no-audit --no-fund
-      - run: pip install -e .
+      - run: pip install -e ".[ci]"
       - name: Generate briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -78,6 +76,24 @@ jobs:
         # data/store.sqlite did the same on 2026-07-05. Keep both well under
         # the limit before committing.
         run: python -m worldscope.lake_maintenance
+      - name: Publish dated readiness contract
+        # Composition waits for this exact-date manifest instead of assuming
+        # that a fixed clock time means the raw producer finished.
+        env:
+          WS_REPOSITORY: ${{ github.repository }}
+          WS_RUN_ID: ${{ github.run_id }}
+          WS_RUN_ATTEMPT: ${{ github.run_attempt }}
+          WS_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          RUN_DATE=$(python -c "import json; print(json.load(open('dist/run_report.json'))['date'])")
+          python -m worldscope.readiness publish-daily \
+            --dist dist \
+            --date "$RUN_DATE" \
+            --repository "$WS_REPOSITORY" \
+            --run-id "$WS_RUN_ID" \
+            --run-attempt "$WS_RUN_ATTEMPT" \
+            --sha "$WS_SHA"
       - name: Commit archive + snapshot store + lake
         run: |
           git config user.name "worldscope-bot"

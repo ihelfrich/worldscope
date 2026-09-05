@@ -19,8 +19,11 @@ Usage:
 from __future__ import annotations
 
 import argparse
-from datetime import date
+from datetime import date, datetime, timezone
+import json
 from pathlib import Path
+import time
+from typing import Optional
 
 from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
@@ -128,14 +131,40 @@ SECTION_REGISTRY = [
 ]
 
 
-def _run_stage(label: str, fn) -> None:
-    """Run one defensive post-section stage. A failure here logs but never
-    blocks the brief — the daily run must complete even if graphics, maps, or
-    the site build fail."""
+REQUIRED_STAGES = frozenset({
+    "graphics", "maps", "cross-section", "signals", "claims", "site-builder",
+})
+
+
+def _run_stage(label: str, fn, report: Optional[dict] = None) -> None:
+    """Run a post-section stage and preserve its machine-readable outcome.
+
+    Missing packages are deployment defects and stop immediately. Other
+    failures are recorded so optional stages may degrade while the readiness
+    gate later rejects a failure in any required stage.
+    """
+    started = time.monotonic()
+    entry = {"status": "ok", "error_type": None, "error_message": None,
+             "required": label in REQUIRED_STAGES}
     try:
         fn()
+    except (ImportError, ModuleNotFoundError) as ex:
+        entry.update(status="failed", error_type=type(ex).__name__,
+                     error_message=str(ex)[:500])
+        if report is not None:
+            entry["duration_ms"] = int((time.monotonic() - started) * 1000)
+            report[label] = entry
+        print(f"::error::[{label}] missing dependency: {ex}. "
+              f"Install the 'ci' extra: pip install -e '.[ci]'")
+        raise
     except Exception as ex:  # pragma: no cover - defensive
+        entry.update(status="failed", error_type=type(ex).__name__,
+                     error_message=str(ex)[:500])
         print(f"[{label}] failed: {type(ex).__name__}: {ex}")
+    finally:
+        entry["duration_ms"] = int((time.monotonic() - started) * 1000)
+        if report is not None and label not in report:
+            report[label] = entry
 
 
 def _list_archive(out_dir: Path) -> list[date]:
@@ -163,6 +192,7 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     states: dict[str, SectionState] = {}
     sections_html: list[str] = []
     source_attribution: dict[str, dict] = {}
+    stage_report: dict[str, dict] = {}
     for cls in SECTION_REGISTRY:
         if section_ids and cls.id not in section_ids:
             continue
@@ -384,7 +414,41 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         ("stories", _stage_stories),
         ("site-builder", _stage_site_builder),
     ):
-        _run_stage(label, fn)
+        _run_stage(label, fn, stage_report)
+
+    failed_required = [
+        name for name, entry in stage_report.items()
+        if entry["status"] == "failed" and entry["required"]
+    ]
+    run_report = {
+        "schema": 1,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "date": today.isoformat(),
+        "stages": stage_report,
+        "sections": {
+            sid: {
+                "state": state.state,
+                "record_count": len(state.items),
+                "new_count": len(state.new),
+                "source_date": state.source_date,
+                "comparison_date": state.comparison_date,
+                "error_type": state.error_type,
+                "error": state.error,
+            }
+            for sid, state in states.items()
+        },
+        "failed_required_stages": failed_required,
+        "ok": not failed_required,
+    }
+    report_path = out_dir / "run_report.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(run_report, indent=2, default=str),
+                           encoding="utf-8")
+    for name, entry in sorted(stage_report.items()):
+        if entry["status"] == "failed":
+            level = "error" if entry["required"] else "warning"
+            print(f"::{level}::stage {name} failed: "
+                  f"{entry['error_type']}: {entry['error_message']}")
 
     # 1e. Mirror the generated PNGs into briefings/<date>-<name>.png so the
     # renderer's discover_assets() finds them. Without this, the maps and

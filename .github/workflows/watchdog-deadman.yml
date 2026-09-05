@@ -57,8 +57,8 @@ jobs:
       - name: Alert if stale and not muted
         if: steps.age.outputs.stale == 'true'
         env:
-          USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
-          APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           MUTE_UNTIL: ${{ vars.WATCHDOG_MUTE_UNTIL }}
           AGE_HOURS: ${{ steps.age.outputs.age_hours }}
         run: |
@@ -75,15 +75,7 @@ jobs:
               exit 0
             fi
           fi
-          if [ -z "$USER_KEY" ] || [ -z "$APP_TOKEN" ]; then
-            echo "::notice::Pushover credentials missing; set PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN as repo secrets. Skipping."
-            exit 0
-          fi
-          curl -fsS \
-            --form-string "token=$APP_TOKEN" \
-            --form-string "user=$USER_KEY" \
-            --form-string "title=Mac watchdog CRIT" \
-            --form-string "message=Mac watchdog silent >48h — laptop dead, asleep for days, or watchdog broken" \
-            --form-string "priority=1" \
-            https://api.pushover.net/1/messages.json
-          echo "dead-man alert sent (heartbeat age: ${AGE_HOURS}h)"
+          python -m worldscope.pushover_delivery \
+            --title "Mac watchdog CRIT" \
+            --message "Mac watchdog silent >48h — laptop dead, asleep for days, or watchdog broken (heartbeat age: ${AGE_HOURS}h)" \
+            --priority 1
