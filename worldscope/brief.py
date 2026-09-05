@@ -39,6 +39,7 @@ from .sections.congressional_trades import CongressionalTradesSection
 from .sections.courtlistener import CourtListenerSection
 from .sections.fec import FECSection
 from .sections.federal_register import FederalRegisterSection
+from .sections.gov_us import GovUSSection
 from .sections.firms import FirmsSection
 from .sections.forecasts import ForecastsSection
 from .sections.form4 import Form4Section
@@ -76,6 +77,7 @@ from .trends import section_trend
 
 SECTION_REGISTRY = [
     FederalRegisterSection,
+    GovUSSection,
     StateBillsSection,
     StateNewsSection,
     LocalNewsSection,
