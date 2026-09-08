@@ -148,6 +148,26 @@ jobs:
         # tarball and keeps restore fast.
         run: python -m worldscope.lake_maintenance
 
+      - name: Publish dated readiness contract
+        # Downstream composition must wait for this exact-date manifest.  It
+        # is written only when run_report.json says every required stage
+        # succeeded and the matching non-empty bundle exists.
+        env:
+          WS_REPOSITORY: ${{ github.repository }}
+          WS_RUN_ID: ${{ github.run_id }}
+          WS_RUN_ATTEMPT: ${{ github.run_attempt }}
+          WS_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          RUN_DATE=$(python -c "import json; print(json.load(open('dist/run_report.json'))['date'])")
+          python -m worldscope.readiness publish-daily \
+            --dist dist \
+            --date "$RUN_DATE" \
+            --repository "$WS_REPOSITORY" \
+            --run-id "$WS_RUN_ID" \
+            --run-attempt "$WS_RUN_ATTEMPT" \
+            --sha "$WS_SHA"
+
       - name: Persist lake + snapshot store to the data release
         # Replaces `git add -f dist/ data/store.sqlite lake/` plus an
         # 8-attempt rebase-retry push loop. That committed 948 MB of

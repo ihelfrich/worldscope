@@ -25,21 +25,14 @@ jobs:
   relay:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Send Pushover alert
         env:
-          USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
-          APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           ALERT_MESSAGE: ${{ inputs.message }}
         run: |
-          if [ -z "$USER_KEY" ] || [ -z "$APP_TOKEN" ]; then
-            echo "::notice::Pushover credentials missing; set PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN as repo secrets. Skipping."
-            exit 0
-          fi
-          curl -fsS \
-            --form-string "token=$APP_TOKEN" \
-            --form-string "user=$USER_KEY" \
-            --form-string "title=Mac watchdog CRIT" \
-            --form-string "message=$ALERT_MESSAGE" \
-            --form-string "priority=1" \
-            https://api.pushover.net/1/messages.json
-          echo "alert relayed to Pushover"
+          python -m worldscope.pushover_delivery \
+            --title "Mac watchdog CRIT" \
+            --message "$ALERT_MESSAGE" \
+            --priority 1

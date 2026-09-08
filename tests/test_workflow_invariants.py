@@ -75,6 +75,33 @@ def test_daily_brief_runs_preflight_before_generating():
     )
 
 
+def test_daily_brief_publishes_dated_readiness_before_persisting_dist():
+    """Without this step, the composer has no successful dated dependency gate."""
+    body = _read("daily-brief.yml")
+    publish = "worldscope.readiness publish-daily"
+    persist = "worldscope.blobsync persist --paths lake,data,dist"
+    assert publish in body
+    assert body.index("worldscope.brief --out dist") < body.index(publish)
+    assert body.index(publish) < body.index(persist)
+
+
+def test_pushover_workflows_use_the_validated_delivery_boundary():
+    """Raw curl accepted `status:1` plus `no active devices` as delivery."""
+    for name in ("pushover-brief.yml", "watchdog-deadman.yml", "watchdog-alert.yml"):
+        body = _strip_comments(_read(name))
+        assert "python -m worldscope.pushover_delivery" in body, name
+        assert "api.pushover.net/1/messages.json" not in body, name
+
+
+def test_brief_marker_is_written_only_by_validated_delivery_helper():
+    """A separate marker step can run after a skipped or soft-failed send."""
+    body = _strip_comments(_read("pushover-brief.yml"))
+    assert "--brief \"${{ steps.pick.outputs.file }}\"" in body
+    assert "--sent-file .pushover-sent.json" in body
+    assert "sent.append" not in body
+    assert "json.dump(sent" not in body
+
+
 @pytest.mark.parametrize("name", ["daily-brief.yml", "ukraine-hourly.yml"])
 def test_firms_key_uses_the_name_the_code_reads(name: str):
     """worldscope/sections/firms.py reads FIRMS_MAP_KEY and nothing else."""
