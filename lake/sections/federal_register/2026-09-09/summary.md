@@ -1,0 +1,45 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-09-09
+record_count: 16
+new_today: 16
+state: fresh
+---
+
+## U.S. Federal Action
+
+16 new of 16 total items today.
+
+- **NEW**  [Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Western Aleutian District of the Bering Sea and Aleutian Islands Management Area](https://www.federalregister.gov/documents/2026/09/09/2026-18391/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-western-aleutian) — *2026-09-09*
+  > NMFS is prohibiting directed fishing for Pacific ocean perch in the Western Aleutian district (WAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceedin
+- **NEW**  [Federal Motor Vehicle Safety Standard No. 213a; Child Restraint Systems-Side Impact Protection; Federal Motor Vehicle Safety Standard No. 213; Child Restraint Systems, Federal Motor Vehicle Safety Standard No. 213b; Child Restraint Systems; Incorporation by Reference](https://www.federalregister.gov/documents/2026/09/09/2026-18380/federal-motor-vehicle-safety-standard-no-213a-child-restraint-systems-side-impact-protection-federal) — *2026-09-09*
+  > This final rule amends the safety standards for child restraint systems (CRSs). NHTSA is amending Federal motor vehicle safety standard (FMVSS) No. 213a, "Child restraint systems--side impact protection," to exempt school bus CRSs from the standard's requirements as long as they 
+- **NEW**  [Airworthiness Directives; Bombardier, Inc. Airplanes](https://www.federalregister.gov/documents/2026/09/09/2026-18376/airworthiness-directives-bombardier-inc-airplanes) — *2026-09-09*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for certain Bombardier, Inc., Model BD-700-2A12 airplanes. This proposed AD was prompted by reports of fuel leakage near rib 6 during production pressure testing. An investigation found oversized holes in a certain outb
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/09/2026-18375/airworthiness-directives-airbus-sas-airplanes) — *2026-09-09*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for certain Airbus SAS Model A350-941 and A350-1041 airplanes. This proposed AD was prompted by reports of failure of hydraulic engine driven pumps (EDPs) of the standard EDP-06. This proposed AD would require, dependin
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/09/2026-18372/airworthiness-directives-airbus-sas-airplanes) — *2026-09-09*
+  > The FAA proposes to supersede Airworthiness Directive (AD) 2023-07-02, which applies to all Airbus SAS Model A330-200, -300, -800, and -900 series airplanes; and Model A340-200, -300, -500, and -600 series airplanes. AD 2023-07-02 requires replacing the doghouse door lock placard
+- **NEW**  [Labels 888, 889, 891, and 892, Discontinued](https://www.federalregister.gov/documents/2026/09/09/2026-18371/labels-888-889-891-and-892-discontinued) — *2026-09-09*
+  > The Postal Service is proposing to amend Mailing Standards of the United States Postal Service, Domestic Mail Manual (DMM[supreg]) to discontinue the use of Label 888 and Label 889 respectively. Revisions to the DMM concern only Labels 888 and 889.
+- **NEW**  [Safety Zone; Brandon Road Lock and Dam to Lake Michigan Including Des Plaines River, Chicago Sanitary and Ship Canal, Chicago River, and Calumet-Saganashkee Channel, Chicago, IL](https://www.federalregister.gov/documents/2026/09/09/2026-18369/safety-zone-brandon-road-lock-and-dam-to-lake-michigan-including-des-plaines-river-chicago-sanitary) — *2026-09-09*
+  > The Coast Guard will enforce a segment of the Safety Zone, Brandon Road Lock and Dam to Lake Michigan including Des Plaines River, Chicago Sanitary and Ship Canal, Chicago River, and Calumet-Saganashkee Channel Chicago, IL, on the Chicago River (South Branch) and Chicago Sanitary
+- **NEW**  [Improving the Effectiveness of the Robocall Mitigation Database; Call Authentication Trust Anchor; Advanced Methods To Target and Eliminate Unlawful Robocalls](https://www.federalregister.gov/documents/2026/09/09/2026-18366/improving-the-effectiveness-of-the-robocall-mitigation-database-call-authentication-trust-anchor) — *2026-09-09*
+  > In this document, the Federal Communications Commission (Commission) proposes steps to strengthen the reliability, integrity, and effectiveness of the Robocall Mitigation Database (RMD or Database) as a core component of its illegal-call prevention framework. The Commission propo
+- **NEW**  [Drawbridge Operation Regulation; Atlantic Intracoastal Waterway, Fort Pierce, FL](https://www.federalregister.gov/documents/2026/09/09/2026-18364/drawbridge-operation-regulation-atlantic-intracoastal-waterway-fort-pierce-fl) — *2026-09-09*
+  > The Coast Guard is removing the existing drawbridge operation regulation for the A1A North Causeway bridge, across the Atlantic Intracoastal Waterway, mile 964.8, near Fort Pierce, FL. The drawbridge is under demolition, and the bascule spans have been permanently removed from th
+- **NEW**  [Government in the Sunshine Act Regulations; Technical Amendments](https://www.federalregister.gov/documents/2026/09/09/2026-18353/government-in-the-sunshine-act-regulations-technical-amendments) — *2026-09-09*
+  > The Federal Mine Safety and Health Review Commission is issuing a final rule to make nomenclature changes to reflect that the Commission's Government in the Sunshine Act Regulations are administered by the Commission's Office of the General Counsel. Accordingly, references in the
+- **NEW**  [Registration of Lawful Permanent Residence for Children Born to Foreign Government Employees in the United States](https://www.federalregister.gov/documents/2026/09/09/2026-18345/registration-of-lawful-permanent-residence-for-children-born-to-foreign-government-employees-in-the) — *2026-09-09*
+  > Department of Homeland Security (DHS), U.S. Citizenship and Immigration Services (USCIS) is amending its regulations to permit children born in the United States to "foreign government employees" who are not U.S. citizens to register for permanent residence. DHS is also making co
+- **NEW**  [Simplified Geographic Preference Procurement in Child Nutrition Programs](https://www.federalregister.gov/documents/2026/09/09/2026-18337/simplified-geographic-preference-procurement-in-child-nutrition-programs) — *2026-09-09*
+  > This direct final rule amends geographic preference option language in National School Lunch Program, School Breakfast Program, Special Milk Program for Children, Child and Adult Care Program, and Summer Food Service Program regulations. The changes are customer- focused and inte
+- **NEW**  [Air Plan Approvals; Indiana; Prong 4 (Visibility) for the 2015 Ozone National Ambient Air Quality Standard](https://www.federalregister.gov/documents/2026/09/09/2026-18334/air-plan-approvals-indiana-prong-4-visibility-for-the-2015-ozone-national-ambient-air-quality) — *2026-09-09*
+  > The U.S. Environmental Protection Agency (EPA) is approving a portion of Indiana's State Implementation Plan (SIP) submission regarding the infrastructure requirements in Clean Air Act (CAA) section 110 for the 2015 ozone National Ambient Air Quality Standards (NAAQS). The infras
+- **NEW**  [Air Plan Approval; New York; Interstate Transport Requirements for the 2010 SO2 NAAQS](https://www.federalregister.gov/documents/2026/09/09/2026-18324/air-plan-approval-new-york-interstate-transport-requirements-for-the-2010-so2-naaqs) — *2026-09-09*
+  > The Environmental Protection Agency (EPA or the Agency) is approving a State Implementation Plan (SIP) submitted by the State of New York for purpose of demonstrating that the State satisfies the interstate transport requirements, also known as the "good neighbor" provision of th
+- **NEW**  [Updated Definition of “Waters of the United States”](https://www.federalregister.gov/documents/2026/09/09/2026-18317/updated-definition-of-waters-of-the-united-states) — *2026-09-09*
+  > The purpose of this supplemental notice of proposed rulemaking is for the U.S. Environmental Protection Agency (EPA) and the Department of the Army ("the agencies") to supplement and seek additional comment on certain aspects of an earlier proposal, published on November 20, 2025
+- **NEW**  [Watermelon Research and Promotion Plan; Realignment; Withdrawal of Proposed Rule](https://www.federalregister.gov/documents/2026/09/09/2026-18313/watermelon-research-and-promotion-plan-realignment-withdrawal-of-proposed-rule) — *2026-09-09*
+  > The Agricultural Marketing Service (AMS) is withdrawing a proposed rule, published in the Federal Register on September 19, 2025, that proposed adjusting the Watermelon Research and Promotion Plan (Plan) by realigning several production districts and reducing the number of import
