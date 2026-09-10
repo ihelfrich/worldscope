@@ -4,7 +4,7 @@ title: Macro indicators — latest values (FRED)
 date: 2026-09-09
 record_count: 21
 new_today: 0
-state: fresh
+state: stale_after_failure
 ---
 
 ## Macro indicators — latest values (FRED)
