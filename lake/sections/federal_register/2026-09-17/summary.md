@@ -1,0 +1,55 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-09-17
+record_count: 22
+new_today: 16
+state: fresh
+---
+
+## U.S. Federal Action
+
+16 new of 22 total items today.
+
+- **NEW**  [Airworthiness Directives; Pratt & Whitney Engines](https://www.federalregister.gov/documents/2026/09/17/2026-19094/airworthiness-directives-pratt-and-whitney-engines) — *2026-09-17*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for all Pratt & Whitney (PW) Model PW1519G, PW1521G, PW1521GA, PW1521G- 3, PW1524G, PW1524G-3, PW1525G, PW1525G-3, PW1919G, PW1919G-RC, PW1921G, PW1921G-RC, PW1922G, PW1923G, and PW1923G-A engines with a certain high-pr
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/17/2026-19090/airworthiness-directives-airbus-sas-airplanes) — *2026-09-17*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus SAS Model A300 B4-600, B4-600R, and F4-600R series airplanes; and Model A300 C4-605R Variant F airplanes (collectively called Model A300-600 series airplanes). This proposed AD was prompted by a determina
+- **NEW**  [Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes](https://www.federalregister.gov/documents/2026/09/17/2026-19089/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes) — *2026-09-17*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for all ATR-GIE Avions de Transport R[eacute]gional Model ATR42 and ATR72 airplanes. This proposed AD was prompted by reports of uncommanded nose landing gear (NLG) retraction. This proposed AD would require a leakage t
+- **NEW**  [Airworthiness Directives; Airbus SAS Airplanes](https://www.federalregister.gov/documents/2026/09/17/2026-19084/airworthiness-directives-airbus-sas-airplanes) — *2026-09-17*
+  > The FAA is adopting a new airworthiness directive (AD) for all Airbus SAS Model A330-243, A330-243F, A330-341, A330-342, and A330-343 airplanes. This AD was prompted by reports of cracked and broken restraint brackets of the anti-ice piccolo tube found during maintenance on certa
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes](https://www.federalregister.gov/documents/2026/09/17/2026-19083/airworthiness-directives-the-boeing-company-airplanes) — *2026-09-17*
+  > The FAA is adopting a new airworthiness directive (AD) for certain The Boeing Company Model 767-300F series airplanes. This AD was prompted by a report of a supplier notice of escapement documenting that some titanium cargo track crown fittings had suspect material certifications
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes](https://www.federalregister.gov/documents/2026/09/17/2026-19082/airworthiness-directives-the-boeing-company-airplanes) — *2026-09-17*
+  > The FAA is adopting a new airworthiness directive (AD) for certain The Boeing Company Model 737-8, 737-9, and 737-8200 airplanes. This AD was prompted by reports indicating cracks in the bear strap and stub frame at the forward galley door cutout. This AD requires inspections for
+- **NEW**  [Medical Devices; Exemption From Premarket Notification: Radiology Computer-Aided Detection and/or Diagnosis Devices and Computer-Aided Triage and Notification Devices](https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor) — *2026-09-17*
+  > The Food and Drug Administration (FDA) is publishing an order setting forth its final determination regarding a partial exemption from the premarket notification requirements for radiology computer- aided detection and/or diagnosis devices and computer-aided triage and notificati
+- **NEW**  [Rescission of the Greenhouse Gas Findings for Fossil Fuel-Fired Power Plants and Repeal of Regulations for Power Plant Greenhouse Gas Emissions Under Clean Air Act Section 111](https://www.federalregister.gov/documents/2026/09/17/2026-19072/rescission-of-the-greenhouse-gas-findings-for-fossil-fuel-fired-power-plants-and-repeal-of) — *2026-09-17*
+  > In this action, the U.S. Environmental Protection Agency (EPA) is supplementing its proposal to repeal all greenhouse gas (GHG) emission standards for fossil fuel-fired electric generating units (EGUs) to effectuate the best reading of Clean Air Act (CAA) section 111. We propose 
+- **NEW**  [Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units](https://www.federalregister.gov/documents/2026/09/17/2026-19071/partial-repeal-of-the-carbon-pollution-standards-for-fossil-fuel-fired-electric-generating-units) — *2026-09-17*
+  > In this final rule, the U.S. Environmental Protection Agency (EPA) is repealing most provisions of the 2024 Carbon Pollution Standards for greenhouse gas (GHG) emissions from fossil fuel-fired electric generating units (EGUs) based on a reevaluation of the best system of emission
+- **NEW**  [Revocation of Obsolete Rules Regarding Infant Bouncer Seats and Stationary Activity Centers](https://www.federalregister.gov/documents/2026/09/17/2026-19065/revocation-of-obsolete-rules-regarding-infant-bouncer-seats-and-stationary-activity-centers) — *2026-09-17*
+  > The U.S. Consumer Product Safety Commission (Commission or CPSC) is withdrawing a direct final rule that would remove two obsolete rules concerning infant bouncer seats and stationary activity centers that was published in the Federal Register on July 22, 2026, because the Commis
+- **NEW**  [Safety Zone; Key West Main Ship Channel, and Fleming Key Cut, Key West, FL](https://www.federalregister.gov/documents/2026/09/17/2026-19060/safety-zone-key-west-main-ship-channel-and-fleming-key-cut-key-west-fl) — *2026-09-17*
+  > The Coast Guard is establishing two temporary safety zones to support U.S. military training operations. Zone 1 will encompass the navigable waters of Fleming Key Cut within a 500-foot radius of surface support vessels. Zone 2 will encompass the navigable waters of the Key West M
+- **NEW**  [Drawbridge Operation Regulation; Connecticut River, East Haddam, CT](https://www.federalregister.gov/documents/2026/09/17/2026-19059/drawbridge-operation-regulation-connecticut-river-east-haddam-ct) — *2026-09-17*
+  > The Coast Guard proposes to modify the operating schedule that governs the Route 82 Bridge across Connecticut River, mile 16.8, at East Haddam, CT. The bridge owner, Connecticut Department of Transportation (CTDOT), submitted a request on July 10, 2026, to remove the opening rest
+- **NEW**  [Drawbridge Operation Regulation; Niantic River, Between Waterford and Niantic, CT](https://www.federalregister.gov/documents/2026/09/17/2026-19058/drawbridge-operation-regulation-niantic-river-between-waterford-and-niantic-ct) — *2026-09-17*
+  > The Coast Guard proposes to modify the operating schedule that governs the Route 156 Bridge across Niantic River, mile 0.1, between Waterford and Niantic, CT. The bridge owner, Connecticut Department of Transportation (CTDOT), submitted a request on July 10, 2026, to remove the o
+- **NEW**  [Drawbridge Operation Regulation; Mystic River, Mystic, CT](https://www.federalregister.gov/documents/2026/09/17/2026-19057/drawbridge-operation-regulation-mystic-river-mystic-ct) — *2026-09-17*
+  > The Coast Guard proposes to modify the operating schedule that governs the Route 1 Bridge across Mystic River, mile 2.8, at Mystic, CT. The bridge owner, Connecticut Department of Transportation (CTDOT), submitted a request on July 10, 2026, to remove the opening restrictions cur
+- **NEW**  [Special Local Regulation; Maumee River, Toledo, OH](https://www.federalregister.gov/documents/2026/09/17/2026-19056/special-local-regulation-maumee-river-toledo-oh) — *2026-09-17*
+  > The Coast Guard is establishing a temporary special local regulation (SLR) for certain navigable waters of the Maumee River near Toledo, OH. This action is necessary to provide for the safety of life on these navigable waters during the Glass City Regatta occurring on September 1
+- **NEW**  [Airworthiness Directives; Bell Textron Canada Limited Helicopters](https://www.federalregister.gov/documents/2026/09/17/2026-19052/airworthiness-directives-bell-textron-canada-limited-helicopters) — *2026-09-17*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Bell Textron Canada Limited Model 505 helicopters. This AD was prompted by reports that the identification plate affixed to certain tail cone assemblies contains an incorrect part number (P/N), which may not accur
+- [Revised Medical Criteria for Evaluating Cardiovascular Disorders](https://www.federalregister.gov/documents/2026/09/16/C1-2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders) — *2026-09-16*
+- [Continuation of the National Emergency With Respect to Persons Who Commit, Threaten To Commit, or Support Terrorism](https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or) — *2026-09-16*
+- [Indiana: Approval of State Coal Combustion Residuals Permit Program](https://www.federalregister.gov/documents/2026/09/16/2026-19027/indiana-approval-of-state-coal-combustion-residuals-permit-program) — *2026-09-16*
+  > The Environmental Protection Agency (EPA or the Agency) is proposing to approve Indiana's Coal Combustion Residuals (CCR) partial permit program under the Resource Conservation and Recovery Act (RCRA). After reviewing the CCR permit program application submitted by the Indiana De
+- [Racial Nondiscrimination in Private Schools; Hearing](https://www.federalregister.gov/documents/2026/09/16/2026-19013/racial-nondiscrimination-in-private-schools-hearing) — *2026-09-16*
+  > This document provides a notice of public hearing on the notice of proposed rulemaking (REG-119986-25) published in the Federal Register on September 4, 2026. The proposed regulations would update existing regulations to provide that a private school is not described as an organi
+- [Whistleblower Award Determination](https://www.federalregister.gov/documents/2026/09/16/2026-19006/whistleblower-award-determination) — *2026-09-16*
+  > The Commodity Futures Trading Commission ("Commission" or "CFTC") is amending its rules implementing section 23 of the Commodity Exchange Act ("CEA"). Section 23 of the CEA and the Commission's implementing regulations provide for the payment of awards, subject to certain limitat
+- [Annual Fireworks Displays and Other Events in the USCG Heartland District Requiring Safety Zones](https://www.federalregister.gov/documents/2026/09/16/2026-18996/annual-fireworks-displays-and-other-events-in-the-uscg-heartland-district-requiring-safety-zones) — *2026-09-16*
+  > The Coast Guard will enforce a safety zone for the University of Pittsburgh Drone Show on September 17, 2026, to provide for the safety of life on navigable waterways during this event. Our regulation for annual fireworks displays and other events within the Heartland Coast Guard
