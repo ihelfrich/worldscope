@@ -4,7 +4,7 @@ title: World News (by country, top stories)
 date: 2026-09-19
 record_count: 0
 new_today: 0
-state: fresh_empty
+state: stale_after_failure
 ---
 
 ## World News (by country, top stories)
