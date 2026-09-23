@@ -1,0 +1,49 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-09-23
+record_count: 20
+new_today: 18
+state: fresh
+---
+
+## U.S. Federal Action
+
+18 new of 20 total items today.
+
+- **NEW**  [Enhancing Program Integrity and Interagency Coordination in the Administration of the H-1B Nonimmigrant Visa Program](https://www.federalregister.gov/documents/2026/09/23/2026-19555/enhancing-program-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b) — *2026-09-23*
+- **NEW**  [Restriction on Entry of Certain Nonimmigrant Workers](https://www.federalregister.gov/documents/2026/09/23/2026-19554/restriction-on-entry-of-certain-nonimmigrant-workers) — *2026-09-23*
+- **NEW**  [Public Water System Supervision Program Revision for the State of Arkansas](https://www.federalregister.gov/documents/2026/09/23/2026-19500/public-water-system-supervision-program-revision-for-the-state-of-arkansas) — *2026-09-23*
+  > Notice is hereby given that the State of Arkansas is revising its approved Public Water System Supervision (PWSS) program. Arkansas has adopted the Environmental Protection Agency (EPA) drinking water rules for the Consumer Confidence Report Rule Revisions. Therefore, the EPA int
+- **NEW**  [Air Plan Approval; North Carolina; Charlotte-Rock Hill Area Maintenance Plan for the 2008 8-Hour Ozone NAAQS](https://www.federalregister.gov/documents/2026/09/23/2026-19495/air-plan-approval-north-carolina-charlotte-rock-hill-area-maintenance-plan-for-the-2008-8-hour-ozone) — *2026-09-23*
+  > On February 28, 2025, the State of North Carolina, through the North Carolina Department of Environmental Quality, Division of Air Quality (NCDAQ), submitted a request for the U.S. Environmental Protection Agency (EPA) to approve a State Implementation Plan (SIP) revision contain
+- **NEW**  [Patient Protection and Affordable Care Act; Temporary Moratoria on Certain Agent and Broker Registration To Participate in the Exchanges](https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker) — *2026-09-23*
+  > This interim final rule with comment period (IFC) codifies the Department of Health and Human Services' (HHS) authority to impose a temporary moratorium pausing the registration of agents and brokers that do not have a current Plan Year registration with the Federally- facilitate
+- **NEW**  [Fisheries of the South Atlantic; 2026 South Atlantic Red Snapper Recreational Fishing Season](https://www.federalregister.gov/documents/2026/09/23/2026-19456/fisheries-of-the-south-atlantic-2026-south-atlantic-red-snapper-recreational-fishing-season) — *2026-09-23*
+  > For the 2026 fishing year, NMFS announces the red snapper recreational fishing season dates in the South Atlantic exclusive economic zone (EEZ). Announcing the opening and closing dates of the red snapper recreational season is an accountability measure (AM) for the recreational 
+- **NEW**  [Revision of Freedom of Information Act Regulations](https://www.federalregister.gov/documents/2026/09/23/2026-19448/revision-of-freedom-of-information-act-regulations) — *2026-09-23*
+  > The Architectural and Transportation Barriers Compliance Board (Access Board or Board) is issuing this final rule to update its regulations under the Freedom of Information Act (FOIA). The Board replaces its existing FOIA regulations with this rule, which streamlines the language
+- **NEW**  [Safety Zone; Massachusetts Bay, Boston, MA](https://www.federalregister.gov/documents/2026/09/23/2026-19430/safety-zone-massachusetts-bay-boston-ma) — *2026-09-23*
+  > The Coast Guard is proposing to establish a temporary safety zone for a certain navigable water of Massachusetts Bay, 22 miles northeast of Boston, MA. The safety zone is needed to protect personnel, vessels, and the maritime public from potential hazards created by subsea demoli
+- **NEW**  [Safety Zone; Zach's Bay, Wantagh, NY](https://www.federalregister.gov/documents/2026/09/23/2026-19429/safety-zone-zachs-bay-wantagh-ny) — *2026-09-23*
+  > The Coast Guard is establishing a temporary safety zone for certain navigable waters of Zach's Bay, near Wantagh, NY. The safety zone is needed to protect swimmers, personnel, vessels, and the marine environment from potential hazards created by a swim event at Jones Beach State 
+- **NEW**  [Safety Zone; Brandon Road Lock and Dam to Lake Michigan Including Des Plaines River, Chicago Sanitary and Ship Canal, Chicago River, and Calumet-Saganashkee Channel, Chicago, IL](https://www.federalregister.gov/documents/2026/09/23/2026-19428/safety-zone-brandon-road-lock-and-dam-to-lake-michigan-including-des-plaines-river-chicago-sanitary) — *2026-09-23*
+  > The Coast Guard will enforce a moving safety zone on the South Branch of the Chicago River between South Damen Avenue at mile marker 321 and the Lake Street Bridge at mile marker 325.5 for the floating up of the bridge leaf for the CDOT Bridge repair. During the enforcement perio
+- **NEW**  [Publication of Iran-Related Web General Licenses Y and Z](https://www.federalregister.gov/documents/2026/09/23/2026-19424/publication-of-iran-related-web-general-licenses-y-and-z) — *2026-09-23*
+  > The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing two Iran-related general licenses (GLs): GLs Y and Z. These GLs were previously made available on OFAC's website.
+- **NEW**  [Publication of the Democratic Republic of the Congo Sanctions Regulations Web General License 2](https://www.federalregister.gov/documents/2026/09/23/2026-19423/publication-of-the-democratic-republic-of-the-congo-sanctions-regulations-web-general-license-2) — *2026-09-23*
+  > The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing a general license (GL) issued pursuant to the Democratic Republic of the Congo Sanctions Regulations: GL 2. This GL was previously made available on OFAC's website.
+- **NEW**  [Publication of Venezuela Sanctions Regulations Web General Licenses 5X and 5Y](https://www.federalregister.gov/documents/2026/09/23/2026-19422/publication-of-venezuela-sanctions-regulations-web-general-licenses-5x-and-5y) — *2026-09-23*
+  > The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing two general licenses (GLs) issued pursuant to the Venezuela Sanctions Regulations: GL 5X and 5Y, each of which was previously made available on OFAC's website.
+- **NEW**  [Publication of International Criminal Court-Related Sanctions Regulations Web General License 12](https://www.federalregister.gov/documents/2026/09/23/2026-19421/publication-of-international-criminal-court-related-sanctions-regulations-web-general-license-12) — *2026-09-23*
+  > The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing a general license (GL) issued pursuant to the International Criminal Court-Related Sanctions Regulations: GL 12. This GL was previously made available on OFAC's website.
+- **NEW**  [Airworthiness Directives; Textron Aviation, Inc. (Type Certificate Previously Held by Cessna Aircraft Company) Airplanes](https://www.federalregister.gov/documents/2026/09/23/2026-19411/airworthiness-directives-textron-aviation-inc-type-certificate-previously-held-by-cessna-aircraft) — *2026-09-23*
+  > The FAA proposes to supersede Airworthiness Directive (AD) 2015-07-03, which applies to certain Cessna Aircraft Company (Cessna) (type certificate currently held by Textron Aviation, Inc.) (Textron) Model 402C and 414A airplanes. Since the FAA issued AD 2015-07-03, there have bee
+- **NEW**  [International Traffic in Arms Regulations: Clarifying Policies of Denial, Updating the Major Non-NATO Ally List, and Minor Corrections; Corrections](https://www.federalregister.gov/documents/2026/09/23/2026-19404/international-traffic-in-arms-regulations-clarifying-policies-of-denial-updating-the-major-non-nato) — *2026-09-23*
+  > On September 18, 2026, the Department of State revised the International Traffic in Arms Regulations (ITAR) to clarify certain policy-of-denial provisions, update country policies for Ethiopia and Somalia, add Saudi Arabia and Peru to the list of major non-NATO allies, and make o
+- **NEW**  [Amendment to the Uniform Procedures for State Highway Safety Grant Programs](https://www.federalregister.gov/documents/2026/09/23/2026-19403/amendment-to-the-uniform-procedures-for-state-highway-safety-grant-programs) — *2026-09-23*
+  > This action amends the uniform procedures implementing the State Highway Safety Grant Program to waive, for fiscal year (FY) 2027, the requirement that targets for the common performance measures be identical to targets in the Federal Highway Administration State Highway Safety I
+- **NEW**  [Schedules of Controlled Substances: Placement of 4-Hydroxy-N,N-Diisopropyltryptamine (4-OH-DiPT), 5-Methoxy-alpha-Methyltryptamine (5-MeO-AMT), 5-Methoxy-N-Methyl-N-Isopropyltryptamine (5-MeO-MiPT), 5-Methoxy-N,N-Diethyltryptamine (5-MeO-DET), and N,N-Diisopropyltryptamine (DiPT) Into Schedule I](https://www.federalregister.gov/documents/2026/09/23/2026-19400/schedules-of-controlled-substances-placement-of-4-hydroxy-nn-diisopropyltryptamine-4-oh-dipt) — *2026-09-23*
+  > The Drug Enforcement Administration proposes placing five tryptamine hallucinogens, 4-hydroxy-N,N-diisopropyltryptamine (other names: 4-OH-DiPT; 3-(2-(diisopropylamino)ethyl)-1H-indol-4- ol), 5-methoxy-alpha-methyltryptamine (other names: 5-MeO-AMT; 1-(5- methoxy-1H-indol-3-yl)pr
+- [Restoring American Saltwater Angling and Recreation](https://www.federalregister.gov/documents/2026/09/22/2026-19417/restoring-american-saltwater-angling-and-recreation) — *2026-09-22*
+- [Reinvigorating America's Hunting Heritage](https://www.federalregister.gov/documents/2026/09/22/2026-19416/reinvigorating-americas-hunting-heritage) — *2026-09-22*
