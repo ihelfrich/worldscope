@@ -1,0 +1,48 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-09-26
+record_count: 18
+new_today: 18
+state: fresh
+---
+
+## U.S. Federal Action
+
+18 new of 18 total items today.
+
+- **NEW**  [Information Reporting Regarding Qualified Opportunity Zones and Updated Qualified Opportunity Fund Certification and Decertification Procedures](https://www.federalregister.gov/documents/2026/09/28/C1-2026-18574/information-reporting-regarding-qualified-opportunity-zones-and-updated-qualified-opportunity-fund) — *2026-09-28*
+- **NEW**  [Notice of Policy Change and Rescission of Single-Pilot Training Exemptions for Certain Cessna Aircraft](https://www.federalregister.gov/documents/2026/09/28/2026-19843/notice-of-policy-change-and-rescission-of-single-pilot-training-exemptions-for-certain-cessna) — *2026-09-28*
+  > Based on safety concerns and a review that revealed widespread non-compliance with the exemptions, the FAA is announcing its decision to cease issuing exemptions that allow certain Cessna aircraft that require two pilots to operate as a single-pilot operation, and notifying curre
+- **NEW**  [Establishment, Modification, and Revocation of Class E Airspace; Alaska, AK](https://www.federalregister.gov/documents/2026/09/28/2026-19815/establishment-modification-and-revocation-of-class-e-airspace-alaska-ak) — *2026-09-28*
+  > This action supplements a notice of proposed rulemaking (NPRM) published by the FAA in the Federal Register on June 17, 2025, which proposed to establish Class E domestic en route airspace (Class E6) within a designated landmass and within 12 miles from a designated shoreline ass
+- **NEW**  [Fisheries Off West Coast States; West Coast Salmon Fisheries; Rebuilding Plan for the Overfished Queets River Spring/Summer Chinook Salmon Stock](https://www.federalregister.gov/documents/2026/09/28/2026-19813/fisheries-off-west-coast-states-west-coast-salmon-fisheries-rebuilding-plan-for-the-overfished) — *2026-09-28*
+  > This final rule will implement the rebuilding plan recommended by the Pacific Fishery Management Council (Council) for the overfished Queets River Spring/Summer Chinook salmon stock (Queets sp/su Chinook salmon). This final rule identifies changes to the regulations to implement 
+- **NEW**  [Fisheries of the Caribbean, Gulf of America, and South Atlantic; Snapper-Grouper Fishery of the South Atlantic; Regulatory Amendment 36](https://www.federalregister.gov/documents/2026/09/28/2026-19801/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-snapper-grouper-fishery-of-the-south) — *2026-09-28*
+  > NMFS issues regulations to implement Regulatory Amendment 36 under the Fishery Management Plan for the Snapper-Grouper Fishery of the South Atlantic (Snapper-Grouper FMP). This final rule revises the recreational vessel limits for gag and black grouper. Additionally, this final r
+- **NEW**  [Capital Construction Fund Revision; Correction](https://www.federalregister.gov/documents/2026/09/28/2026-19786/capital-construction-fund-revision-correction) — *2026-09-28*
+  > MARAD published a document in the Federal Register on Tuesday, September 22, 2026, concerning requests for comments to the proposed revision of its Capital Construction Fund (CCF) program regulations and an associated proposed information collection. MARAD already maintains an ac
+- **NEW**  [National Emission Standards for Hazardous Air Pollutants for Gasoline Distribution Facilities and Standards of Performance for Bulk Gasoline Terminals Reconsideration](https://www.federalregister.gov/documents/2026/09/28/2026-19774/national-emission-standards-for-hazardous-air-pollutants-for-gasoline-distribution-facilities-and) — *2026-09-28*
+  > On May 8, 2024, the U.S. Environmental Protection Agency (EPA) published the National Emission Standards for Hazardous Air Pollutants (NESHAP): Gasoline Distribution Technology Reviews and New Source Performance Standards (NSPS) Review for Bulk Gasoline Terminals final rule ("202
+- **NEW**  [Airworthiness Directives; Safran Helicopter Engines, S.A. Engines](https://www.federalregister.gov/documents/2026/09/28/2026-19762/airworthiness-directives-safran-helicopter-engines-sa-engines) — *2026-09-28*
+  > The FAA is superseding Airworthiness Directive (AD) 2023-15-03 for all Safran Helicopter Engines, S.A. (Safran) Model Arrius 2B2 engines. AD 2023-15-03 required revising the airworthiness limitations section (ALS) of the existing engine maintenance manual (EMM) or instructions fo
+- **NEW**  [Airworthiness Directives; Hélicoptères Guimbal Helicopters](https://www.federalregister.gov/documents/2026/09/28/2026-19761/airworthiness-directives-hlicoptres-guimbal-helicopters) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for certain H[eacute]licopt[egrave]res Guimbal (HG) Model Cabri G2 helicopters. This AD was prompted by a report of a potential malfunction of the helicopter emergency locator transmitter (ELT) and subsequent findings of weak
+- **NEW**  [Airworthiness Directives; Costruzioni Aeronautiche Tecnam S.P.A. Airplanes](https://www.federalregister.gov/documents/2026/09/28/2026-19760/airworthiness-directives-costruzioni-aeronautiche-tecnam-spa-airplanes) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Costruzioni Aeronautiche Tecnam S.p.A. (Tecnam) Model P2006T airplanes. This AD was prompted by a report of partial detachment of the left aileron due to a missing hinge pin. This AD requires a one- time detailed 
+- **NEW**  [Airworthiness Directives; Airbus Helicopters](https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for certain Airbus Helicopters Model EC 130 T2 helicopters. This AD was prompted by the determination that helicopter operators received main rotor blades (MRB) that are not certified to be installed on their helicopters and 
+- **NEW**  [Airworthiness Directives; Airbus Helicopters Deutschland GmbH (AHD) Helicopters](https://www.federalregister.gov/documents/2026/09/28/2026-19757/airworthiness-directives-airbus-helicopters-deutschland-gmbh-ahd-helicopters) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for all Airbus Helicopters Deutschland GmbH (AHD) Model EC135P1, EC135P2, EC135P2+, EC135P3, EC135T1, EC135T2, EC135T2+, EC135T3, and EC635T2+ helicopters. This AD was prompted by a determination that in cases of loss of oil 
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes](https://www.federalregister.gov/documents/2026/09/28/2026-19754/airworthiness-directives-the-boeing-company-airplanes) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for certain The Boeing Company Model 787-8, 787-9, and 787-10 airplanes. This AD was prompted by a report that cargo liner joint sealing tape could be missing in particular areas on certain airplanes. The absence of this tape
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes](https://www.federalregister.gov/documents/2026/09/28/2026-19751/airworthiness-directives-the-boeing-company-airplanes) — *2026-09-28*
+  > The FAA is adopting a new airworthiness directive (AD) for all The Boeing Company Model 777-200, -200LR, -300, -300ER, and 777F series airplanes. This AD was prompted by a report of an overheated alternating current motor pump (ACMP) that caused a fire in the main landing gear (M
+- **NEW**  [Marine Protection: Modification To Expand Ocean Dredged Material Disposal Sites Offshore of Corpus Christi, Texas](https://www.federalregister.gov/documents/2026/09/28/2026-19745/marine-protection-modification-to-expand-ocean-dredged-material-disposal-sites-offshore-of-corpus) — *2026-09-28*
+  > The Environmental Protection Agency (EPA) is issuing a rule that modifies the existing EPA-designated ocean dredged material disposal sites (ODMDSs) offshore of Corpus Christi, Texas; specifically, the Corpus Christi Ship Channel (CCSC) ODMDS and the Corpus Christi New Work (CCNW
+- **NEW**  [Section 108 Loan Guarantee Program: Announcement of Fee To Cover Credit Subsidy Costs for FY 2027](https://www.federalregister.gov/documents/2026/09/28/2026-19743/section-108-loan-guarantee-program-announcement-of-fee-to-cover-credit-subsidy-costs-for-fy-2027) — *2026-09-28*
+  > This document announces the fee that HUD will collect from borrowers of loans guaranteed under HUD's Section 108 Loan Guarantee Program (Section 108 Program) to offset the credit subsidy costs of the guaranteed loans pursuant to commitments awarded in Fiscal Year 2027 in the even
+- **NEW**  [Hazardous Materials: Incorporation of ASME Code Section XII and the National Board Inspection Code](https://www.federalregister.gov/documents/2026/09/28/2026-19741/hazardous-materials-incorporation-of-asme-code-section-xii-and-the-national-board-inspection-code) — *2026-09-28*
+  > PHMSA is amending the Hazardous Materials Regulations (HMR) to incorporate by reference and authorize the use of the 2015 edition of the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code, Section XII--Rules for Construction and Continued Service of T
+- **NEW**  [Airworthiness Directives; Airbus Helicopters](https://www.federalregister.gov/documents/2026/09/28/2026-19729/airworthiness-directives-airbus-helicopters) — *2026-09-28*
+  > The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus Helicopters Model AS 365 N2, AS 365 N3, EC 155 B, EC 155 B1, SA 365 N, and SA 365 N1 helicopters. This proposed AD was prompted by gaps between the seals and engine cowling, which were found during an inv
