@@ -1,0 +1,65 @@
+---
+section: sanctions_procurement
+title: Government Action: Sanctions + Procurement + Foreign Agents
+date: 2026-09-29
+record_count: 104
+new_today: 13
+state: fresh
+---
+
+## Government Action: Sanctions + Procurement + Foreign Agents
+
+13 new of 104 total items today.
+
+- **NEW**  [[OFAC] Issuance of Amended Venezuela General Licenses - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-28*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE85eVlQdTZVbXl1QnA5aUVSXy05QU4wZnRtYVRVNHh1ZU1fNThCQkpkdFVKMFJTRHJrcHY2T3MxaVhFczdmM0lkSnJ4d0szWlJvbkduT2ZDNHYwWXFPeWc?oc=5" target="_blank">Issuance of Amended Venezuela General Licenses</a>&nbsp;&nbsp;<font color="#6f6f
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 48D Authorizing the Supply - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-28*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jTU1KLW9JODN3UlU3bXJGWWN5WVd1LTRXQzFpQUJqa3J2UFhPWjJuRWpaV3B2NDJLa09nbGo3RG9ZNURXam1TanJUbHI1ZmRwT1YwdkR1NUR2eVJ2b1VQd29BVUE?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
+- **NEW**  [[OFAC] Publication of Regulatory Amendments; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA) - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-24*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE85U05nN3B2SV85TEhOQXVVVFZFeHJaSGF1OXloaUJUcnFiZlJNVEhpNUd6UlhOTDRsdm1aVUxvUVRLVUtKUnNJekd1TXIzdXlIZkFfMFBqaHI0TUNmTVE?oc=5" target="_blank">Publication of Regulatory Amendments; Publication of Report for Licensing Activi
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 46E Authorizing Certain Ac - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-28*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE95RnpRdGxqeVdwQXk4YXRmZzB1WG54ZGZ6SjhacGh3SVBEQUx1ekRWX0t2Y3cydUdEcUZBR2pSWUEwTFdncFRMVHNyRTBsUlZhVHBPZGY2UkJnM3p1OURBTWtoNjI?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
+- **NEW**  [[OFAC] BILLING CODE 4810-AL DEPARTMENT OF THE TREASURY Office of Foreign Assets Control 31 CFR Part 505 Sanctions Penalties Regulations - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-24*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mV0NKRG8yYnE3UnFGOGVTd184SXlRSE10RU52Y0l0dGVWRS1nVUV0OXNnY1ctMloyb2NQbDk0X3p0VTdtOFhPOEphRXZGSXRZMnJxTWdtZExQOGRQZkhvSUNuQ00?oc=5" target="_blank">BILLING CODE 4810-AL DEPARTMENT OF THE TREASURY Office of Foreign Assets
+- **NEW**  [[OFAC] Democratic Republic of the Congo-related Designations Removals - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-23*
+  > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5odUtTdWZIZ3hVcEg3NkxjZEtJQVp2d1ROWWRsVmlfalJjLWhpd21FbXhWa3ZGN2tDRWwtT2o1U200NWtzbTljdjJMd21Pd0JONTlETFpVTV8wTkxrSWc?oc=5" target="_blank">Democratic Republic of the Congo-related Designations Removals</a>&nbsp;&nbsp;<f
+- **NEW**  [[OFAC] OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR part 591 GENERAL LICENSE NO. 49B Authorizing Negotiatio - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-28*
+  > <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ydzhmQ2Q5WXZYaU9IS192a0xLMENoMW1JbFlTaHJnYzlKN2NTb095V0VZbnhpRkZnQjlZOThKeVFIa24wekc5UTA5ak4ycjMzMk9YWjN3b2pubWJ5YU5JTDc1eTY?oc=5" target="_blank">OFFICE OF FOREIGN ASSETS CONTROL Venezuela Sanctions Regulations 31 CFR 
+- **NEW**  [[OFAC] Recent Actions - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-09-25*
+  > <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE4xb1kzOVUweWtuYy1pVmM3cnR1U29pbEp1X2x6cndoMHlvOVZiTU9JeG1BbzB0TzNOWUk4TXRXYmJMVUhFS0tQRzBSWEh2bndnYktyQk9saXlWcGZobGVHWWwwczZMM3JhdXBUNWhYQ3lldw?oc=5" target="_blank">Recent Actions</a>&nbsp;&nbsp;<font color="#6f6f6f">O
+- [[BIS Entity List] page checksum 6008268dd5c4](https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list) — *2026-09-29*
+  > Page content hash: 6008268dd5c4. Compare with prior day's hash to detect updates.
+- [[USASpending] $43,198,666,452 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-09-29*
+  > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL
+- [[USASpending] $41,519,790,022 → LAWRENCE LIVERMORE NATIONAL SECURITY, LLC: TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT](https://www.usaspending.gov/award/DEAC5207NA27344) — *2026-09-29*
+  > Agency: Department of Energy.  Description: TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE MANAGEMENT AND OPERATION OF THE LAWRENCE LIVERMORE NATIONAL LABORATORY (LLNL). THE CONTRACTOR SHALL, IN ACCORDANCE WITH THE PROVISIONS OF THIS CONTRACT, ACCO
+- [[USASpending] $35,199,796,917 → TRIAD NATIONAL SECURITY, LLC: IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS](https://www.usaspending.gov/award/89233218CNA000001) — *2026-09-29*
+  > Agency: Department of Energy.  Description: IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LABORATORY
+- [[USASpending] $34,654,023,639 → CONSOLIDATED NUCLEAR SECURITY, LLC: IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 N](https://www.usaspending.gov/award/DENA0001942) — *2026-09-29*
+  > Agency: Department of Energy.  Description: IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COMPLEX, PANTEX PLANT, WITH AN OPTION FOR SAVANNAH RIVER TRITIUM OPERATIONS
+- [[USASpending] $11,062,841,994 → ALLIANCE FOR ENERGY INNOVATION, LLC: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWAB](https://www.usaspending.gov/award/DEAC3608GO28308) — *2026-09-29*
+  > Agency: Department of Energy.  Description: AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY
+- [[USASpending] $3,384,867,722 → AEROJET ROCKETDYNE OF DE, INC: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY T](https://www.usaspending.gov/award/NNM16AA02C) — *2026-09-29*
+  > Agency: National Aeronautics and Space Administration.  Description: IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY THE CONTRACTOR IN SUPPORT OF PROVIDING SIX RS-25 ENGINES MODIFIED AS NECESSARY FOR THE TECHNICAL REQUIREMENTS UNDER THE SPACE LAUNCH SYSTEM, RECERTIFICA
+- [[USASpending] $3,278,904,846 → LEIDOS, INC.: SCIENCE OPERATION AND MAINTENANCE SUPPORT FOR THE UNITED STA](https://www.usaspending.gov/award/NSFDACS1219442) — *2026-09-29*
+  > Agency: National Science Foundation.  Description: SCIENCE OPERATION AND MAINTENANCE SUPPORT FOR THE UNITED STATES ANTARCTIC PROGRAM
+- [[USASpending] $2,605,706,613 → SAVANNAH RIVER MISSION COMPLETION, LLC: THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMP](https://www.usaspending.gov/award/89303723FEM400292) — *2026-09-29*
+  > Agency: Department of Energy.  Description: THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMPLETION CONTRACT - TASK ORDER 6 (LIQUID WASTE OPERATIONS).
+- [[USASpending] $2,310,378,129 → HARRIS CORPORATION: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING F](https://www.usaspending.gov/award/693KA821F00222) — *2026-09-29*
+  > Agency: Department of Transportation.  Description: THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICATIONS SERVICES.
+- [[USASpending] $2,192,010,425 → BLUE ORIGIN MANUFACTURING, LLC: RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING](https://www.usaspending.gov/award/80MSFC23CA014) — *2026-09-29*
+  > Agency: National Aeronautics and Space Administration.  Description: RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED LANDER.
+- [[USASpending] $2,120,623,738 → ORACLE HEALTH GOVERNMENT SERVICES, INC.: EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS](https://www.usaspending.gov/award/36C10B22N0051EHRM) — *2026-09-29*
+  > Agency: Department of Veterans Affairs.  Description: EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS
+- [[USASpending] $2,089,442,660 → BOLLINGER SHIPYARDS LOCKPORT, L.L.C.: THE UNITED STATES COAST GUARD HAS A REQUIREMENT TO PROCURE U](https://www.usaspending.gov/award/HSCG2316CAFR625) — *2026-09-29*
+  > Agency: Department of Homeland Security.  Description: THE UNITED STATES COAST GUARD HAS A REQUIREMENT TO PROCURE UP TO TWENTY-SIX (26) FAST RESPONSE CUTTERS (FRCS) ON A FIRM FIXED PRICE (FFP) BASIS WITH AN ECONOMIC PRICE ADJUSTMENT (EPA).  PHASE II OF THE FRC PROGRAM WILL COMPLE
+- [[USASpending] $2,022,176,161 → AMI METALS, INC: BULK STEEL FOR SOUTHWEST BORDER BARRIER CONSTRUCTION PROJECT](https://www.usaspending.gov/award/70B01C26C00000006) — *2026-09-29*
+  > Agency: Department of Homeland Security.  Description: BULK STEEL FOR SOUTHWEST BORDER BARRIER CONSTRUCTION PROJECTS
+- [[USASpending] $1,795,059,878 → GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.: GLOBAL SECURITY ENGINEERING&SUPPLY CHAIN SERVICES.](https://www.usaspending.gov/award/19AQMM18C0185) — *2026-09-29*
+  > Agency: Department of State.  Description: GLOBAL SECURITY ENGINEERING&SUPPLY CHAIN SERVICES.
+- [[USASpending] $1,780,030,031 → NORTHROP GRUMMAN SYSTEMS CORPORATION: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUI](https://www.usaspending.gov/award/NNH15CN76C) — *2026-09-29*
+  > Agency: National Aeronautics and Space Administration.  Description: IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS OF COMMERCIAL ORBITAL TRANSPORTATION SERVICES SPACE ACT AGREEMENT DEVELOPMENT PROGRAM AND AN EXISTING INTERNATIONAL SPACE STATION 
+- [[USASpending] $1,657,305,176 → IDAHO ENVIRONMENTAL COALITION LLC: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN](https://www.usaspending.gov/award/89304223FEM400000) — *2026-09-29*
+  > Agency: Department of Energy.  Description: THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER UNDER SINGLE AWARD MASTER IDIQ CONTRACT 89303321DEM000061.  CLIN 05 S1W D&D IS INCLUDED WITH AUTHORIZATION TO COMMENCE SCOPE 10/1/2023.
+
+_(79 additional items in raw.jsonl)_
