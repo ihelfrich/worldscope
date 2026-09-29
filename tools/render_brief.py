@@ -31,6 +31,11 @@ from pathlib import Path
 import markdown
 import yaml
 
+try:
+    from tools.html_sanitize import sanitize_html
+except ImportError:  # run as a script from tools/
+    from html_sanitize import sanitize_html
+
 REPO = Path(__file__).resolve().parent.parent
 WATCH = REPO / "watchareas.yaml"
 
@@ -404,6 +409,7 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
         body_md,
         extensions=["tables", "fenced_code", "attr_list", "toc"],
     )
+    body_html = sanitize_html(body_html)
     headings = extract_headings(md_text)
     body_html = inject_heading_anchors(body_html, headings)
     body_html = host_pill_links(body_html)

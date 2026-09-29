@@ -83,7 +83,17 @@ _STOPWORDS = {
 # Records whose text contains any of these are dropped before fusion: they are
 # feed-failure stubs or scraper errors, not content.
 _ERROR_MARKERS = ("[feed error]", "httperror", "feed error", "[error]",
-                  "[stub]", "incumbent not verified", "slot reserved")
+                  "[stub]", "incumbent not verified", "slot reserved",
+                  "error]", "connectionerror", "httpsconnectionpool",
+                  "httpconnectionpool", "max retries exceeded")
+
+# Sections that are derived from, or static relative to, other lake data.
+# Their daily-repeating boilerplate ("Representative", "Senator") would make
+# keys look corroborated and let predictions grade YES trivially.
+DERIVED_SECTIONS = frozenset({
+    "political_figures", "paper_bets", "paper_bet_placement", "forecasts",
+    "signals", "radar",
+})
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WRAP_RE = re.compile(r"\[(?:TITLE|LEDE)\s*[:\]]", re.IGNORECASE)
@@ -118,6 +128,8 @@ def _clean_text(text: str) -> str:
 
 def is_noise_record(rec: dict) -> bool:
     """True for feed-failure stubs / scraper errors that must not be fused."""
+    if str(rec.get("section_id") or rec.get("section") or "") in DERIVED_SECTIONS:
+        return True
     if rec.get("_error") or (isinstance(rec.get("extra"), dict) and rec["extra"].get("_error")):
         return True
     blob = f"{rec.get('title') or ''} {rec.get('original_text') or ''}".lower()
@@ -376,6 +388,8 @@ def grade_key_outcome(
     for rec in records:
         day = _parse_day(rec)
         if day is None or day <= made or day > target:
+            continue
+        if is_noise_record(rec):
             continue
         if key in record_keys(rec):
             sections.add(str(rec.get("section_id") or rec.get("section") or "?"))

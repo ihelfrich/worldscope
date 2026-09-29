@@ -83,6 +83,7 @@ def _source_health(report: Mapping[str, Any]) -> dict[str, Any]:
         "stale_after_failure": by_state["stale_after_failure"],
         "no_data": by_state["no_data"],
         "failed_sections": failed,
+        "degraded": bool(by_state["stale_after_failure"] or failed),
         "source_dates": source_dates,
     }
 

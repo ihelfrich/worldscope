@@ -496,9 +496,13 @@ class PoliticalFiguresSection(Section):
         filings: list[dict] = []
         if last:
             ll = last.lower()
+            first_tokens = {t for t in norm.split() if len(t) > 1 and t != ll}
             for row in index["form4_all"]:
                 fn = (row.get("filer_name") or "").lower()
-                if ll and ll in fn:
+                fn_tokens = set(re.findall(r"[a-z']+", fn))
+                # whole-token surname AND a first-name token; a bare
+                # substring on surname matches every "Smith"/"Scott" insider
+                if ll and ll in fn_tokens and (fn_tokens & first_tokens):
                     filings.append({
                         "date": row.get("date"),
                         "kind": "form4",
