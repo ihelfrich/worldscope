@@ -1,0 +1,68 @@
+---
+section: state_news
+title: State-Level News
+date: 2026-09-30
+record_count: 824
+new_today: 415
+state: fresh
+---
+
+## State-Level News
+
+415 new of 824 total items today.
+
+- **NEW**  [[California] Why CA’s poverty rate is second only to Louisiana](https://calmatters.org/newsletter/why-california-poverty-rate-is-second-only-to-louisiana/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2024/10/102524_Unhoused-Voting_FG_CM_28.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A side view of a man on a bike next to ho
+- **NEW**  [[California] California high-speed rail fails to accomplish most of its legislative goals for 2026](https://calmatters.org/politics/2026/09/high-speed-rail-legislative-wins-losses/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/091225-High-Speed-Rail-LV-CM-09.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="An elevated concrete viaduct for Californ
+- **NEW**  [[California] LA can make the Olympics cleaner and greener than the World Cup](https://calmatters.org/commentary/2026/09/olympics-los-angeles-cleaner-greener/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/011326-LA-Olympics-2028-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="The Olympic cauldron burns against a clear 
+- **NEW**  [[California] California’s hallmark economic sectors are confronting threats to their survival](https://calmatters.org/commentary/2026/09/california-economic-sectors-threats-survival/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/073025-Tablas-Creek-Vineyard-LV-CM-32.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A wide view of rows of grapevines a
+- **NEW**  [[California] Abortion pills to be offered at California community college health centers under new law](https://calmatters.org/education/2026/09/abortion-pills-california-community-college-health-centers-law/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/032624-Mifepristone-Abortion-Rights-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Close-up of a person holding a 
+- **NEW**  [[California] A new California law will prohibit sales of disposable vapes. Here’s why](https://calmatters.org/economy/2026/09/disposable-vapes-new-law/) — *2026-09-30*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/062519-SF-Vape-GETTY-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A customer stands at the counter of a vape shop a
+- **NEW**  [[California] New California law frees up funds for sober homeless housing](https://calmatters.org/housing/homelessness/2026/09/sober-housing-haney/) — *2026-09-29*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/080924_SF-Sweep_MO_CM_24.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A man, who seems to be experiencing homelessness
+- **NEW**  [[California] Data from 911 calls at ICE detention centers must be disclosed under new California law](https://calmatters.org/justice/2026/09/ice-detention-center-911-calls-law/) — *2026-09-29*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2026/09/082317-Otay-Mesa-AP-CM.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Several people in dark green uniforms and rubber c
+- **NEW**  [[California] Cómo los inmigrantes se ven excluidos de la posibilidad de comprar una vivienda en California, incluso cuando pueden permitírselo](https://calmatters.org/calmatters-en-espanol/2026/09/inmigrantes-excluidos-de-comprar-vivienda/) — *2026-09-29*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/030322-House-Sale-AP-CM-01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="A &quot;for sale&quot; sign is posted in front
+- **NEW**  [[California] Newsom firma nuevas leyes para controlar a los agentes de inmigración ante incremento de la campaña de deportación de Trump](https://calmatters.org/calmatters-en-espanol/2026/09/nuevas-leyes-inmigracion/) — *2026-09-29*
+  > <figure><img width="1024" height="682" src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/12/081525_ICE-Arrest_AP_CM_01.jpg?fit=1024%2C682&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Federal agents — dressed in dark green uniform
+- **NEW**  [[California] Governor Newsom announces appointments 9.29.26](https://www.gov.ca.gov/2026/09/29/governor-newsom-announces-appointments-9-29-26/) — *2026-09-30*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2019/02/GovernorSeal-Blue.png?resize=150,150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Blue graphic featuring the official Seal of the Governor of the State of California in white a
+- **NEW**  [[California] State leaders agree: Governor Newsom’s signature on federal immigration enforcement bills protects Californians](https://www.gov.ca.gov/2026/09/29/state-leaders-agree-governor-newsoms-signature-on-federal-immigration-enforcement-bills-protects-californians/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/WTAS-ICE-accountability-bills-signing-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic that says State leaders agree: Governor Newsom’s signature on federal i
+- **NEW**  [[California] Governor Newsom signs housing legislation, cementing California’s record progress to reduce unsheltered homelessness and build more homes](https://www.gov.ca.gov/2026/09/29/governor-newsom-signs-housing-legislation-cementing-californias-record-progress-to-reduce-unsheltered-homelessness-and-build-more-homes/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-signs-housing-legislation-cementing-Californias-record-progress-to-reduce-unsheltered-homelessness-and-build-more-homes-SEO-GFX-2-150x150.png" class="attachment-thumbnail size-thu
+- **NEW**  [[California] Governor Newsom signs legislation to accelerate wildfire prevention projects, strengthen fire response, and harden communities against future disasters](https://www.gov.ca.gov/2026/09/29/governor-newsom-signs-legislation-to-accelerate-wildfire-prevention-projects-strengthen-fire-response-and-harden-communities-against-future-disasters/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Wildfire-Laws-1-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/09/29/governor-newsom-sign
+- **NEW**  [[California] As Trump targets public lands, Governor Newsom expands free state parks access, announces record conservation progress, and signs legislation protecting California’s coast and wildlife](https://www.gov.ca.gov/2026/09/29/as-trump-targets-public-lands-governor-newsom-expands-free-state-parks-access-announces-record-conservation-progress-and-signs-legislation-protecting-californias-coast-and-wildlife/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/bill1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/09/29/as-trump-targets-public-lands-
+- **NEW**  [[California] Governor Newsom signs historic legislation designating California Asian American and Native Hawaiian Pacific Islander-serving institutions](https://www.gov.ca.gov/2026/09/29/governor-newsom-signs-historic-legislation-designating-california-asian-american-and-native-hawaiian-pacific-islander-serving-institutions/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-signs-historic-legislation-designating-California-Asian-American-and-Native-Hawaiian-Pacific-Islander-serving-institutions-SEO-GFX-150x150.png" class="attachment-thumbnail size-th
+- **NEW**  [[California] Governor Newsom signs bills to push back on Trump’s Orwellian immigration tactics to protect immigrant communities](https://www.gov.ca.gov/2026/09/29/governor-newsom-signs-bills-to-push-back-on-trumps-orwellian-immigration-tactics-to-protect-immigrant-communities/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-signs-bills-to-push-back-on-Trumps-Orwellian-immigration-tactics-to-protect-immigrant-communities-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image"
+- [[California] Governor Newsom honors fallen California Highway Patrol Officer Brian Liles](https://www.gov.ca.gov/2026/09/28/governor-newsom-honors-fallen-california-highway-patrol-officer-brian-liles/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-honors-fallen-California-Highway-Patrol-Officer-Brian-Liles-SEO-GFX-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A graphic that says Governor Newsom
+- [[California] Governor Newsom signs commonsense legislation to make your life easier](https://www.gov.ca.gov/2026/09/28/governor-newsom-signs-commonsense-legislation-to-make-your-life-easier/) — *2026-09-29*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Common-sense-laws-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" />
+<p><a href="https://www.gov.ca.gov/2026/09/28/governor-newsom-si
+- [[California] Governor Newsom signs legislation protecting parents’ rights in youth football](https://www.gov.ca.gov/2026/09/28/governor-newsom-signs-legislation-protecting-parents-rights-in-youth-football/) — *2026-09-28*
+  > <img width="150" height="150" src="https://www.gov.ca.gov/wp-content/uploads/2026/09/Governor-Newsom-signs-legislation-protecting-parents-rights-in-youth-football-SEO-GFX-v2-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="la
+- **NEW**  [[Alabama] Governor Ivey Authorizes Construction for Major Mobile River Bridge and Bayway Project, Sets Groundbreaking Date](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-authorizes-construction-for-major-mobile-river-bridge-and-bayway-project-sets-groundbreaking-date/) — *2026-09-29*
+  > MONTGOMERY – Governor Kay Ivey on Tuesday announced that she has formally authorized the start of construction on the major Mobile River Bridge and Bayway project, paving the way for the project’s groundbreaking this week. With a construction cost of &#8230; <a href="https://gove
+- **NEW**  [[Alabama] Governor Ivey Announces First Phase of  Birmingham Northern Beltline Now Open to Traffic](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-announces-first-phase-of-birmingham-northern-beltline-now-open-to-traffic/) — *2026-09-29*
+  > MONTGOMERY — Governor Kay Ivey on Tuesday announced the opening of the first segment of the new Birmingham Northern Beltline (SR-959). The Alabama Department of Transportation (ALDOT) officially opened the new roadway between SR-79 and SR-75 in northeast Jefferson County &#8230; 
+- [[Alabama] Governor Ivey Announces Creation of ‘Alabama STEM Council Seal of Approval,’ Calls for Applications](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-announces-creation-of-alabama-stem-council-seal-of-approval-calls-for-applications/) — *2026-09-28*
+  > MONTGOMERY — Governor Kay Ivey on Monday announced the ‘Alabama STEM Council Seal of Approval,’ a new initiative recognizing high-quality STEM programs and events across the state. The initiative is in partnership with the Alabama STEM Council of the Alabama &#8230; <a href="http
+- [[Alabama] Governor Ivey Announces Finance Director Bill Poole to Depart, Names Doryan Carlton to Lead the Department](https://governor.alabama.gov/newsroom/2026/09/governor-ivey-announces-finance-director-bill-poole-to-depart-names-doryan-carlton-to-lead-the-department/) — *2026-09-28*
+  > MONTGOMERY – Governor Kay Ivey on Monday announced her Department of Finance Director Bill Poole will depart at the end of the week after 16 years of state service. The governor is also excited to share that Doryan Carlton will &#8230; <a href="https://governor.alabama.gov/newsro
+- **NEW**  [[Connecticut] Could MLK Corridor title help revitalize Bridgeport’s East End?](https://ctmirror.org/2026/09/30/bridgeport-east-end-mlk-corridor/) — *2026-09-30*
+  > <figure><img width="1024" height="768" src="https://ctmirror.org/wp-content/uploads/2026/09/BPT-MLK-CORRIDOR-0923-SG-11-1024x768.jpg" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://ctmirror.org/wp-c
+
+_(799 additional items in raw.jsonl)_
