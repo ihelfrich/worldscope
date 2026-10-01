@@ -13,7 +13,7 @@ from typing import Any, Mapping
 
 SCHEMA_VERSION = 1
 PRODUCER = "worldscope-daily-brief"
-DEFAULT_MAX_AGE_HOURS = 10
+DEFAULT_MAX_AGE_HOURS = 6
 
 
 class ReadinessError(RuntimeError):
