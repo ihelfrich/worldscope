@@ -1,0 +1,64 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-10-06
+record_count: 26
+new_today: 21
+state: fresh
+---
+
+## U.S. Federal Action
+
+21 new of 26 total items today.
+
+- **NEW**  [Eliminating Obsolete Regulations Related to the 911 Grant Program](https://www.federalregister.gov/documents/2026/10/06/2026-20493/eliminating-obsolete-regulations-related-to-the-911-grant-program) — *2026-10-06*
+  > In this action, NTIA and NHTSA are removing regulations related to the 911 Grant Program because the program is no longer active and there have been no new appropriations to revive or extend it. This removal is intended to eliminate obsolete regulatory language, ensure that the C
+- **NEW**  [Safety Zone; Red Bull Flugtag, Intercoastal Waterway, Biscayne Bay, Miami, FL](https://www.federalregister.gov/documents/2026/10/06/2026-20491/safety-zone-red-bull-flugtag-intercoastal-waterway-biscayne-bay-miami-fl) — *2026-10-06*
+  > The Coast Guard is proposing to establish a temporary safety zone for certain navigable waters on the Intercoastal Waterway portion of Biscayne Bay in Miami, FL. The safety zone is needed to protect spectators, vessels, and the marine environment from potential hazards associated
+- **NEW**  [Basin Regulations; Water Code](https://www.federalregister.gov/documents/2026/10/06/2026-20480/basin-regulations-water-code) — *2026-10-06*
+  > The Commission proposes to amend its Water Code and Comprehensive Plan to require water supply systems serving the public (purveyors) to report water use by their largest customers.
+- **NEW**  [Establishment of Class E Airspace; Peoria, IL](https://www.federalregister.gov/documents/2026/10/06/2026-20479/establishment-of-class-e-airspace-peoria-il) — *2026-10-06*
+  > This action establishes Class E airspace at OSF St Francis Medical Center Heliport, Peoria, IL. This action supports new instrument procedures and instrument flight rule (IFR) operations.
+- **NEW**  [Security Zone; Patapsco River, Baltimore, MD](https://www.federalregister.gov/documents/2026/10/06/2026-20477/security-zone-patapsco-river-baltimore-md) — *2026-10-06*
+  > The Coast Guard is establishing a temporary security zone for certain navigable waters of the Patapsco River. The security zone is needed to protect persons, including those under the protection of the United States Secret Service (USSS), and property from terrorist acts and inci
+- **NEW**  [Investment Adviser Performance-Based Compensation Modernization](https://www.federalregister.gov/documents/2026/10/06/2026-20474/investment-adviser-performance-based-compensation-modernization) — *2026-10-06*
+  > The Securities and Exchange Commission (the "Commission") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital
+- **NEW**  [Modification of Class E Airspace; Gunnison-Crested Butte Regional Airport, Gunnison, CO](https://www.federalregister.gov/documents/2026/10/06/2026-20473/modification-of-class-e-airspace-gunnison-crested-butte-regional-airport-gunnison-co) — *2026-10-06*
+  > This action proposes to modify the Class E airspace designated as a surface area, the Class E airspace area designated as an extension to a Class E surface area, and the Class E airspace area extending upward from 700 feet above the surface at Gunnison-Crested Butte Regional Airp
+- **NEW**  [Privacy Act Exemptions](https://www.federalregister.gov/documents/2026/10/06/2026-20469/privacy-act-exemptions) — *2026-10-06*
+  > In accordance with the Privacy Act of 1974, as amended (Privacy Act), the Department of the Treasury (Treasury) is issuing a final rule, exempting a new system of records entitled "Department of the Treasury, Treasury .032--Federal Program Waste, Fraud, and Abuse Tip Intake and R
+- **NEW**  [Initial Air Quality Designations for the 2024 Revised Primary Annual Fine Particle (PM2.5) National Ambient Air Quality Standards (NAAQS)](https://www.federalregister.gov/documents/2026/10/06/2026-20468/initial-air-quality-designations-for-the-2024-revised-primary-annual-fine-particle-pm25-national) — *2026-10-06*
+  > The U.S. Environmental Protection Agency (EPA) is providing notice of the Agency's intended approach for area designations for the 2024 primary annual fine particulate matter (PM<INF>2.5</INF>) National Ambient Air Quality Standard (NAAQS) (the 2024 annual PM<INF>2.5</INF> NAAQS)
+- **NEW**  [Adviser and Regulated Fund Custody Rules; Crypto Custody Rules](https://www.federalregister.gov/documents/2026/10/06/2026-20466/adviser-and-regulated-fund-custody-rules-crypto-custody-rules) — *2026-10-06*
+  > The Securities and Exchange Commission (the "Commission" or the "SEC") is proposing new custody rules under the Investment Company Act of 1940 (the "Investment Company Act") and amendments to related reporting and recordkeeping requirements to address how regulated investment com
+- **NEW**  [Radio Broadcasting Services; Selmer, Tennessee](https://www.federalregister.gov/documents/2026/10/06/2026-20464/radio-broadcasting-services-selmer-tennessee) — *2026-10-06*
+  > This document amends the Table of FM Allotments, of the Federal Communications Commission's (Commission) rules, by deleting vacant Channel 288A at Selmer, Tennessee, because it does not comply with the minimum distance separation requirements of the Commission's rules. Channel 28
+- **NEW**  [Radio Broadcasting Services; Whitehall, Michigan](https://www.federalregister.gov/documents/2026/10/06/2026-20463/radio-broadcasting-services-whitehall-michigan) — *2026-10-06*
+  > This document amends the Table of FM Allotments, of the Federal Communications Commission's (Commission) rules, by substituting Channel 258A for vacant Channel 248A at Whitehall, Michigan. A staff engineering analysis determines that Channel 258A can be allotted to Whitehall cons
+- **NEW**  [Adoption of Updated EDGAR Filer Manual](https://www.federalregister.gov/documents/2026/10/06/2026-20461/adoption-of-updated-edgar-filer-manual) — *2026-10-06*
+  > The Securities and Exchange Commission ("Commission") is adopting amendments to Volume II of the Electronic Data Gathering, Analysis, and Retrieval system Filer Manual ("EDGAR Filer Manual" or "Filer Manual") and related rules and forms. EDGAR Release 26.3 will be deployed in the
+- **NEW**  [Medical Devices; Exemptions From Premarket Notification: Class II Devices; Certain Clinical Toxicology Test Systems](https://www.federalregister.gov/documents/2026/10/06/2026-20448/medical-devices-exemptions-from-premarket-notification-class-ii-devices-certain-clinical-toxicology) — *2026-10-06*
+  > The Food and Drug Administration (FDA) is publishing an order setting forth its final determination to exempt certain class II clinical toxicology test systems from premarket notification (510(k)) requirements, subject to certain limitations. This exemption from 510(k) requiremen
+- **NEW**  [Transparency in Coverage](https://www.federalregister.gov/documents/2026/10/06/2026-20447/transparency-in-coverage) — *2026-10-06*
+  > These final rules set forth requirements that amend the regulations under the Public Health Service Act, the Employee Retirement Income Security Act of 1974, and the Internal Revenue Code regarding price transparency reporting requirements for non- grandfathered group health plan
+- **NEW**  [Medical Devices; Immunology and Microbiology Devices; Classification of the High Throughput DNA Sequencing for Hereditary Cancer Predisposition Assessment Test System](https://www.federalregister.gov/documents/2026/10/06/2026-20443/medical-devices-immunology-and-microbiology-devices-classification-of-the-high-throughput-dna) — *2026-10-06*
+  > The Food and Drug Administration (FDA) is classifying the high throughput DNA sequencing for hereditary cancer predisposition assessment test system into class II (special controls). The special controls that apply to the device type are identified in this order and will be part 
+- **NEW**  [Medical Devices; Cardiovascular Devices; Classification of the Hyperoxia Monitoring Device Adjunct to Pulse Oximetry](https://www.federalregister.gov/documents/2026/10/06/2026-20441/medical-devices-cardiovascular-devices-classification-of-the-hyperoxia-monitoring-device-adjunct-to) — *2026-10-06*
+  > The Food and Drug Administration (FDA) is classifying the hyperoxia monitoring device adjunct to pulse oximetry into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classifi
+- **NEW**  [Medical Devices; General and Plastic Surgery Devices; Classification of the Focused Ultrasound System for Non-Thermal, Mechanical Tissue Ablation](https://www.federalregister.gov/documents/2026/10/06/2026-20440/medical-devices-general-and-plastic-surgery-devices-classification-of-the-focused-ultrasound-system) — *2026-10-06*
+  > The Food and Drug Administration (FDA) is classifying the focused ultrasound system for non-thermal, mechanical tissue ablation into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified langu
+- **NEW**  [Reef Fish Fishery of the Gulf of America; Amendment 62](https://www.federalregister.gov/documents/2026/10/06/2026-20435/reef-fish-fishery-of-the-gulf-of-america-amendment-62) — *2026-10-06*
+  > NMFS issues regulations to implement management measures described in Amendment 62 to the Fishery Management Plan for the Reef Fish Resources of the Gulf (FMP), as prepared and submitted by the Gulf Council (Council). This final rule and Amendment 62 revise the catch limits and s
+- **NEW**  [Requirements for Certain Transactions Involving Convertible Virtual Currency or Digital Assets; Withdrawal](https://www.federalregister.gov/documents/2026/10/06/2026-20430/requirements-for-certain-transactions-involving-convertible-virtual-currency-or-digital-assets) — *2026-10-06*
+  > FinCEN is withdrawing a notice of proposed rulemaking (NPRM) that proposed requiring banks and money service businesses (MSBs) to submit reports, keep records, and verify the identity of customers in relation to transactions involving convertible virtual currency (CVC) or digital
+- **NEW**  [Proposal of Special Measure Regarding Convertible Virtual Currency Mixing, as a Class of Transactions of Primary Money Laundering Concern; Withdrawal](https://www.federalregister.gov/documents/2026/10/06/2026-20429/proposal-of-special-measure-regarding-convertible-virtual-currency-mixing-as-a-class-of-transactions) — *2026-10-06*
+  > FinCEN is withdrawing its finding and proposed rulemaking, pursuant to section 311 of the USA PATRIOT Act, that international Convertible Virtual Currency (CVC) mixing is a class of transactions of primary money laundering concern and that a special measure requiring enhanced rec
+- [Presidential Determination on the Revocation of Presidential Determinations Related to Lebanon](https://www.federalregister.gov/documents/2026/10/05/2026-20439/presidential-determination-on-the-revocation-of-presidential-determinations-related-to-lebanon) — *2026-10-05*
+- [Airworthiness Directives; Airbus Helicopters](https://www.federalregister.gov/documents/2026/10/05/2026-20411/airworthiness-directives-airbus-helicopters) — *2026-10-05*
+  > The FAA proposes to supersede Airworthiness Directive (AD) 2026-12-09, which applies to all Airbus Helicopters Model AS350B, AS350BA, AS350B1, and AS350D helicopters. AD 2026-12-09 requires revising the airworthiness limitations section (ALS) of the existing maintenance manual (M
+- [Airworthiness Directives; DG Aviation GmbH (Type Certificate Previously Held by DG Flugzeugbau GmbH) Gliders](https://www.federalregister.gov/documents/2026/10/05/2026-20393/airworthiness-directives-dg-aviation-gmbh-type-certificate-previously-held-by-dg-flugzeugbau-gmbh) — *2026-10-05*
+  > The FAA proposes to supersede Airworthiness Directive (AD) 2025-13-08, which applies to all DG Aviation GmbH Model DG-1000T gliders. AD 2025-13-08 requires revising the glider flight manual and installing "Motor INOP" placards to prohibit operation with the powerplant. Since issu
+- [Overpressure Blast Effects Analysis Burden Reducing Clarification](https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification) — *2026-10-05*
+  > FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to amend the regulations to state that a far-field overpressure blast effects an
+
+_(1 additional items in raw.jsonl)_
