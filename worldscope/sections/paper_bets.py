@@ -3,7 +3,7 @@ paper_bets — the system's daily simulated prediction-market trades.
 
 Each day this section does three things:
   1. Pulls the current state of every active market from Polymarket, Kalshi,
-     PredictIt, and Manifold (markets with > $10K cumulative volume).
+     and Manifold (markets with > $10K cumulative volume).
   2. Marks-to-market every open paper bet at its 1/5/14/30/60/90-day
      milestone (whichever applies for today's date relative to the
      bet's open date).
@@ -25,8 +25,6 @@ For each market platform we use:
   - Polymarket:  https://gamma-api.polymarket.com  (free, no auth)
   - Kalshi:      https://api.elections.kalshi.com   (free public endpoint
                                                        for active markets)
-  - PredictIt:   https://www.predictit.org/api/marketdata/all/  (deprecated
-                                                       in 2023, may still work)
   - Manifold:    https://api.manifold.markets/v0    (free, no auth)
 
 If any platform returns failure, the section degrades gracefully — the
@@ -55,14 +53,14 @@ class PaperBetsSection(Section):
     emoji = "🎯"
 
     source_id = "prediction-markets-aggregate"
-    source_name = "Polymarket + Kalshi + PredictIt + Manifold"
+    source_name = "Polymarket + Kalshi + Manifold"
     source_url = "https://github.com/ihelfrich/worldscope"
     source_tier = "prediction_market"
     source_license = "varies-per-platform"
     attribution_required = True
     attribution_text = (
         "Market state from Polymarket gamma API, Kalshi public API, "
-        "PredictIt market-data endpoint, and Manifold v0 API. Paper bets "
+        "and Manifold v0 API. Paper bets "
         "are simulations only; no real money is staked."
     )
     source_country = None
@@ -78,8 +76,6 @@ class PaperBetsSection(Section):
         items.extend(self._pull_polymarket())
         items.extend(self._pull_kalshi())
         items.extend(self._pull_manifold())
-        # PredictIt deprecated 2023; we still try opportunistically.
-        items.extend(self._pull_predictit())
         return items
 
     # ---- platform pulls -------------------------------------------------
@@ -220,35 +216,6 @@ class PaperBetsSection(Section):
                 "volume_mana": volume,
                 "end_date": (datetime.fromtimestamp(m["closeTime"]/1000, tz=timezone.utc).isoformat()
                              if m.get("closeTime") else None),
-            })
-        return out
-
-    def _pull_predictit(self) -> list[dict]:
-        url = "https://www.predictit.org/api/marketdata/all/"
-        try:
-            resp = requests.get(url, headers={"User-Agent": UA}, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.RequestException as exc:
-            # PredictIt was wound down in 2023; failures are expected.
-            return []
-        out = []
-        for m in (data.get("markets") or [])[:50]:
-            mid = m.get("id")
-            if not mid: continue
-            out.append({
-                "id": f"predictit:{mid}",
-                "date": date.today().isoformat(),
-                "title": f"[PredictIt] {m.get('name','')}"[:300],
-                "url": m.get("url") or f"https://www.predictit.org/markets/detail/{mid}",
-                "summary": "",
-                "platform": "predictit",
-                "market_id": str(mid),
-                "question": m.get("name", ""),
-                "contracts": [
-                    {"name": c.get("name"), "lastTradePrice": c.get("lastTradePrice")}
-                    for c in (m.get("contracts") or [])
-                ],
             })
         return out
 

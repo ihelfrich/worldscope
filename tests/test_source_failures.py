@@ -70,6 +70,8 @@ def test_reliefweb_http_error_raises(monkeypatch, tmp_path):
 
 
 def test_promed_http_error_raises(monkeypatch, tmp_path):
+    # ProMED only fetches when a feed URL is configured (public feed retired).
+    monkeypatch.setenv("PROMED_FEED_URL", "https://example.invalid/promed.rss")
     monkeypatch.setattr(promed.requests, "get",
                         lambda *a, **k: (_ for _ in ()).throw(requests.RequestException("down")))
     with pytest.raises(UpstreamHTTPError):
@@ -77,6 +79,7 @@ def test_promed_http_error_raises(monkeypatch, tmp_path):
 
 
 def test_promed_parse_error_raises(monkeypatch, tmp_path):
+    monkeypatch.setenv("PROMED_FEED_URL", "https://example.invalid/promed.rss")
     class FakeResp:
         content = b"<<< this is not xml >>>"
         def raise_for_status(self):
