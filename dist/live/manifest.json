@@ -1,0 +1,282 @@
+{
+ "generated_at": "2026-10-09T18:26:58Z",
+ "generated_ts": 1791570418,
+ "days": 7,
+ "network": true,
+ "layers": [
+  {
+   "layer": "firms",
+   "file": "layers/firms.geojson",
+   "count": 1,
+   "freshest_ts": 1791369900,
+   "freshest_at": "2026-10-07T10:45:00Z",
+   "inputs": [
+    "lake:firms",
+    "live:eonet"
+   ],
+   "severity": "FRP (MW): <5 \u2192 2, <20 \u2192 4, <50 \u2192 6, <150 \u2192 8, else 10; low confidence \u22121. EONET wildfire events fixed at 5."
+  },
+  {
+   "layer": "quakes",
+   "file": "layers/quakes.geojson",
+   "count": 122,
+   "freshest_ts": 1791568565,
+   "freshest_at": "2026-10-09T17:56:05Z",
+   "inputs": [
+    "lake:usgs_quakes+weather",
+    "live:usgs"
+   ],
+   "severity": "Magnitude: <4.5 \u2192 2, <5 \u2192 4, <5.5 \u2192 5, <6 \u2192 6, <6.5 \u2192 7, <7 \u2192 8, <7.5 \u2192 9, else 10; +1 if tsunami flag or PAGER orange/red (capped at 10)."
+  },
+  {
+   "layer": "gdacs",
+   "file": "layers/gdacs.geojson",
+   "count": 202,
+   "freshest_ts": 1791568565,
+   "freshest_at": "2026-10-09T17:56:05Z",
+   "inputs": [
+    "lake:gdacs",
+    "live:gdacs_rss",
+    "live:eonet"
+   ],
+   "severity": "GDACS alert level: Green \u2192 3, Orange \u2192 6, Red \u2192 9. EONET open events: 5 (volcanoes/severe storms 6)."
+  },
+  {
+   "layer": "conflict",
+   "file": "layers/conflict.geojson",
+   "count": 0,
+   "freshest_ts": null,
+   "freshest_at": null,
+   "inputs": [
+    "lake:acled",
+    "live:gdelt_geo:hezbollah",
+    "live:gdelt_geo:taiwan strait",
+    "live:gdelt_geo:sahel",
+    "live:gdelt_geo:rare earth",
+    "live:gdelt_geo:shadow fleet",
+    "live:gdelt_geo:houthi",
+    "live:gdelt_geo:north korea missile",
+    "live:gdelt_geo:south china sea"
+   ],
+   "severity": "ACLED fatalities: 0 \u2192 3, 1\u20134 \u2192 5, 5\u20139 \u2192 6, 10\u201324 \u2192 7, 25\u201349 \u2192 8, 50+ \u2192 9. GDELT GEO article count: log2 scale 2\u20138."
+  },
+  {
+   "layer": "ukraine",
+   "file": "layers/ukraine.geojson",
+   "count": 1551,
+   "freshest_ts": 1791570418,
+   "freshest_at": "2026-10-09T18:26:58Z",
+   "inputs": [
+    "lake:ukraine_theater",
+    "live:deepstatemap"
+   ],
+   "severity": "FIRMS thermal as firms layer; ACLED conflict-events as conflict layer; air alerts 6; frontline polygons 5."
+  },
+  {
+   "layer": "flights",
+   "file": "layers/flights.geojson",
+   "count": 130,
+   "freshest_ts": 1791469334,
+   "freshest_at": "2026-10-08T14:22:14Z",
+   "inputs": [
+    "lake:vip_flights"
+   ],
+   "severity": "Tracked aircraft: 3 baseline, +2 if inside a watch area, +1 if airborne above 9 km (cap 7)."
+  },
+  {
+   "layer": "weather_alerts",
+   "file": "layers/weather_alerts.geojson",
+   "count": 197,
+   "freshest_ts": 1791570420,
+   "freshest_at": "2026-10-09T18:27:00Z",
+   "inputs": [
+    "lake:weather",
+    "live:nws_alerts"
+   ],
+   "severity": "NWS severity: Extreme \u2192 9, Severe \u2192 7, Moderate \u2192 5, Minor \u2192 3, Unknown \u2192 2."
+  },
+  {
+   "layer": "watch_areas",
+   "file": "layers/watch_areas.geojson",
+   "count": 6,
+   "freshest_ts": 1791570418,
+   "freshest_at": "2026-10-09T18:26:58Z",
+   "inputs": [
+    "watchareas.yaml"
+   ],
+   "severity": "Watch-area priority: high \u2192 7, normal \u2192 5, low \u2192 3."
+  }
+ ],
+ "inputs": [
+  {
+   "name": "lake:firms",
+   "layer": "firms",
+   "ok": true,
+   "count": 0,
+   "error": null
+  },
+  {
+   "name": "lake:usgs_quakes+weather",
+   "layer": "quakes",
+   "ok": true,
+   "count": 106,
+   "error": null
+  },
+  {
+   "name": "lake:gdacs",
+   "layer": "gdacs",
+   "ok": true,
+   "count": 0,
+   "error": null
+  },
+  {
+   "name": "lake:acled",
+   "layer": "conflict",
+   "ok": true,
+   "count": 0,
+   "error": null
+  },
+  {
+   "name": "lake:ukraine_theater",
+   "layer": "ukraine",
+   "ok": true,
+   "count": 1679,
+   "error": null
+  },
+  {
+   "name": "lake:vip_flights",
+   "layer": "flights",
+   "ok": true,
+   "count": 130,
+   "error": null
+  },
+  {
+   "name": "lake:weather",
+   "layer": "weather_alerts",
+   "ok": true,
+   "count": 0,
+   "error": null
+  },
+  {
+   "name": "watchareas.yaml",
+   "layer": "watch_areas",
+   "ok": true,
+   "count": 6,
+   "error": null
+  },
+  {
+   "name": "live:usgs",
+   "layer": "quakes",
+   "ok": true,
+   "count": 16,
+   "error": null,
+   "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+  },
+  {
+   "name": "live:gdacs_rss",
+   "layer": "gdacs",
+   "ok": true,
+   "count": 196,
+   "error": null,
+   "url": "https://www.gdacs.org/xml/rss.xml"
+  },
+  {
+   "name": "live:eonet",
+   "layer": "firms+gdacs",
+   "ok": true,
+   "count": 7,
+   "error": null,
+   "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
+  },
+  {
+   "name": "live:gdelt_geo:hezbollah",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=hezbollah&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:taiwan strait",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22taiwan+strait%22&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:sahel",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=sahel&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:rare earth",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22rare+earth%22&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:shadow fleet",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22shadow+fleet%22&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:houthi",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=houthi&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:north korea missile",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22north+korea+missile%22&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:gdelt_geo:south china sea",
+   "layer": "conflict",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22south+china+sea%22&format=geojson&timespan=24h&maxpoints=250",
+   "url": "https://api.gdeltproject.org/api/v2/geo/geo"
+  },
+  {
+   "name": "live:nws_alerts",
+   "layer": "weather_alerts",
+   "ok": true,
+   "count": 197,
+   "error": null,
+   "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
+  },
+  {
+   "name": "live:deepstatemap",
+   "layer": "ukraine",
+   "ok": true,
+   "count": 113,
+   "error": null
+  }
+ ],
+ "counts": {
+  "firms": 1,
+  "quakes": 122,
+  "gdacs": 202,
+  "conflict": 0,
+  "ukraine": 1551,
+  "flights": 130,
+  "weather_alerts": 197,
+  "watch_areas": 6
+ },
+ "note": "Analytic context only. Not safety or navigation guidance."
+}

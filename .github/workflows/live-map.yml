@@ -1,0 +1,79 @@
+name: Live map hourly
+
+# Hourly rebuild of the static god's-eye map under dist/live/: lake-derived
+# geo layers plus keyless live feeds (USGS, GDACS, EONET, GDELT GEO, NWS).
+# Everything is generated here and published as static files; the page never
+# calls a keyed API.
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: live-map
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[ci]"
+      - name: Build live map
+        run: python -m worldscope.godseye --out dist/live --days 7
+      - name: Commit dist/live
+        run: |
+          git config user.name "worldscope-bot"
+          git config user.email "noreply@github.com"
+          git add -f dist/live || true
+          if git diff --staged --quiet; then
+            echo "no changes"; exit 0
+          fi
+          git commit -m "live map $(date -u +%Y-%m-%dT%H:%MZ)"
+          pushed=0
+          for attempt in 1 2 3 4 5; do
+            if git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push origin HEAD; then
+              echo "push ok on attempt $attempt"; pushed=1; break
+            fi
+            echo "push failed attempt $attempt, rebasing"
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep $((attempt * 3))
+          done
+          if [ "$pushed" != "1" ]; then
+            echo "::error::live-map could not push after 5 attempts"
+            exit 1
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

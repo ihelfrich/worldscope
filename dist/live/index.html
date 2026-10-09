@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>WORLDSCOPE · God's-eye</title>
+<meta name="description" content="Static god's-eye OSINT map: lake-derived and keyless live geo layers, rebuilt hourly. Analytic context only.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+<style>
+:root {
+  color-scheme: dark;
+  --surface:#1a1a19; --plane:#0d0d0d; --panel:#141413;
+  --text:#ffffff; --text-2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --border:rgba(255,255,255,.10); --ring:#1a1a19;
+  --c-ukraine:#3987e5; --c-firms:#d95926; --c-gdacs:#199e70; --c-weather_alerts:#c98500;
+  --c-flights:#d55181; --c-quakes:#9085e9; --c-conflict:#e66767; --c-watch_areas:#c3c2b7;
+  --ok:#0ca30c; --critical:#d03b3b;
+  --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --surface:#fcfcfb; --plane:#f9f9f7; --panel:#ffffff;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --border:rgba(11,11,11,.10); --ring:#fcfcfb;
+  --c-ukraine:#2a78d6; --c-firms:#eb6834; --c-gdacs:#1baf7a; --c-weather_alerts:#eda100;
+  --c-flights:#e87ba4; --c-quakes:#4a3aa7; --c-conflict:#e34948; --c-watch_areas:#52514e;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--plane);color:var(--text);font:14px/1.4 var(--sans);display:flex;flex-direction:column;overflow:hidden}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer}
+button:hover{background:var(--grid)}
+button[aria-pressed="true"]{background:var(--text);color:var(--plane);border-color:var(--text)}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:8px 16px;background:var(--panel);border-bottom:1px solid var(--grid)}
+.brand{font-weight:700;letter-spacing:.12em;font-size:12px;text-decoration:none;color:var(--text-2)}
+.brand b{color:var(--text)}
+h1{font-size:15px;font-weight:600;margin:0}
+.spacer{flex:1}
+.time{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.time label{color:var(--muted);font-size:12px}
+.time input[type=range]{width:140px;accent-color:var(--text-2)}
+.time output{font-variant-numeric:tabular-nums;min-width:3.5em;color:var(--text-2);font-size:12px}
+#chips{display:flex;gap:6px;padding:6px 16px;overflow-x:auto;background:var(--panel);border-bottom:1px solid var(--grid);scrollbar-width:thin}
+.chip{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px;padding:3px 9px;border-radius:999px}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c);box-shadow:0 0 0 1.5px var(--ring)}
+.chip.area i{border-radius:2px;background:transparent;border:1.5px solid var(--c)}
+.chip[aria-pressed="false"]{opacity:.5}
+.chip[aria-pressed="true"]{background:var(--grid);color:var(--text);border-color:var(--grid)}
+.chip .n{font-variant-numeric:tabular-nums;color:var(--muted)}
+.chip[aria-pressed="true"] .n{color:var(--text-2)}
+main{flex:1;display:flex;min-height:0;position:relative}
+#map{flex:1;background:var(--surface);min-height:200px}
+.leaflet-container{font:inherit;background:var(--surface)}
+.leaflet-tile-pane .basemap{filter:invert(1) hue-rotate(180deg) brightness(.72) contrast(.88) saturate(.25)}
+:root[data-theme="light"] .leaflet-tile-pane .basemap{filter:saturate(.35) contrast(.95)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel);color:var(--text);box-shadow:0 2px 12px rgba(0,0,0,.4)}
+.leaflet-popup-content{margin:10px 12px;font-size:13px;line-height:1.4}
+.leaflet-popup-content .t{font-weight:600;margin-bottom:4px}
+.leaflet-popup-content .m{color:var(--muted);font-size:11px;font-family:var(--mono);margin-top:6px}
+.leaflet-popup-content a{color:var(--c-ukraine)}
+.leaflet-control-zoom a{background:var(--panel);color:var(--text);border-color:var(--grid)}
+.leaflet-control-attribution{background:rgba(0,0,0,.35);color:var(--text-2);font-size:10px}
+:root[data-theme="light"] .leaflet-control-attribution{background:rgba(255,255,255,.6)}
+.leaflet-control-attribution a{color:inherit}
+.ws-cluster{display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--c);color:#fff;font-size:11px;font-weight:600;box-shadow:0 0 0 2px var(--ring);opacity:.85;font-variant-numeric:tabular-nums}
+.marker-cluster{background:none}
+.unavailable{display:flex;align-items:center;justify-content:center;height:100%;padding:24px;text-align:center;color:var(--text-2)}
+aside{width:340px;max-width:100%;background:var(--panel);border-left:1px solid var(--grid);overflow-y:auto;padding:12px 16px 24px;scrollbar-width:thin}
+aside h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px;font-weight:600}
+aside h2:first-child{margin-top:2px}
+aside p{margin:4px 0;color:var(--text-2);font-size:12px}
+.ent{padding:6px 0;border-bottom:1px solid var(--grid)}
+.ent .nm{display:flex;align-items:baseline;gap:6px}
+.ent .nm b{font-weight:600}
+.ent .ty{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.ent .ns{margin-left:auto;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.secs{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.secs span{font-size:10px;padding:1px 6px;border-radius:999px;background:var(--grid);color:var(--text-2);font-family:var(--mono)}
+.story{padding:6px 0;border-bottom:1px solid var(--grid);font-size:12.5px}
+.story a{text-decoration:none}
+.story a:hover{text-decoration:underline}
+.story .m{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.wa{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--grid);width:100%;text-align:left;border-radius:0;border-left:0;border-right:0;border-top:0}
+.wa:hover{background:var(--grid)}
+.wa .pr{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);min-width:4.2em}
+.wa .n{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--text-2);font-size:12px}
+.brief{display:block;margin:8px 0 0;padding:8px 10px;border:1px solid var(--border);border-radius:6px;text-decoration:none;font-size:12.5px}
+.brief:hover{background:var(--grid)}
+footer{background:var(--panel);border-top:1px solid var(--grid);padding:6px 16px;font-size:11.5px;color:var(--text-2);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+footer .note{color:var(--muted);font-style:italic}
+footer details{display:inline}
+footer summary{cursor:pointer;color:var(--text-2)}
+footer ul{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:4px 10px;font-family:var(--mono);font-size:10.5px}
+footer li .ok{color:var(--ok)} footer li .fail{color:var(--critical)}
+.legend{display:flex;align-items:center;gap:4px;color:var(--muted);font-size:11px}
+.legend i{display:inline-block;border-radius:50%;background:var(--muted)}
+#panelbtn{display:none}
+@media (max-width:820px){
+  header{padding:8px 12px;gap:6px 10px}
+  h1{font-size:14px}
+  .time input[type=range]{width:100px}
+  #chips{padding:6px 12px}
+  aside{position:absolute;inset:0;width:100%;border-left:0;z-index:1000;display:none}
+  aside.open{display:block}
+  #panelbtn{display:inline-block}
+  footer{padding:6px 12px;font-size:11px}
+  footer .legend{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="../index.html"><b>WORLDSCOPE</b> · live</a>
+  <h1>God's-eye</h1>
+  <span class="spacer"></span>
+  <div class="time" role="group" aria-label="Time window">
+    <button data-h="24">24h</button><button data-h="72" aria-pressed="true">72h</button><button data-h="168">7d</button>
+    <label for="win">window</label>
+    <input id="win" type="range" min="6" max="168" step="6" value="72" aria-label="Window in hours">
+    <output for="win" id="winout">72h</output>
+  </div>
+  <button id="theme" title="Toggle light/dark">◐</button>
+  <button id="panelbtn" aria-pressed="false">Forest</button>
+</header>
+<div id="chips" role="group" aria-label="Layers"></div>
+<main>
+  <div id="map" role="application" aria-label="World map of OSINT layers"></div>
+  <aside id="forest" aria-label="Forest: cross-source signals">
+    <h2>Forest · cross-source entities</h2>
+    <div id="ents"><p>Loading…</p></div>
+    <h2>Top stories</h2>
+    <div id="stories"><p>Loading…</p></div>
+    <h2>Watch areas</h2>
+    <div id="was"></div>
+    <div id="brieflink"></div>
+  </aside>
+</main>
+<footer id="status">
+  <span id="gen">Generated 2026-10-09T18:26:58Z · lake window 7d</span>
+  <span class="legend">severity <i style="width:6px;height:6px;opacity:.4"></i><i style="width:9px;height:9px;opacity:.7"></i><i style="width:12px;height:12px"></i> size + opacity</span>
+  <details><summary id="inputsum">inputs …</summary><ul id="inputs"></ul></details>
+  <span class="note">Analytic context only. Not safety or navigation guidance.</span>
+  <noscript><span>JavaScript is required to render the map layers.</span></noscript>
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<script>
+(function () {
+  'use strict';
+  var LAYERS = [
+    { id: 'ukraine', label: 'Ukraine theater', cluster: true },
+    { id: 'firms', label: 'Thermal (FIRMS)', cluster: true },
+    { id: 'gdacs', label: 'Hazards (GDACS/EONET)', cluster: false },
+    { id: 'weather_alerts', label: 'Weather alerts', cluster: true },
+    { id: 'flights', label: 'Aircraft', cluster: true },
+    { id: 'quakes', label: 'Earthquakes', cluster: false },
+    { id: 'conflict', label: 'Conflict (ACLED/GDELT)', cluster: true },
+    { id: 'watch_areas', label: 'Watch areas', area: true }
+  ];
+  var state = { now: Math.floor(Date.now() / 1000), hours: 72, manifest: null, visible: {}, data: {}, groups: {} };
+  var map = null, tiles = null, hasL = typeof L !== 'undefined', hasCluster = hasL && typeof L.markerClusterGroup === 'function';
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var httpUrl = function (u) { return /^https?:\/\//i.test(String(u || '')) ? String(u) : ''; };
+  var cssVar = function (name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); };
+  var fmtTs = function (ts) { return ts ? new Date(ts * 1000).toISOString().replace('T', ' ').slice(0, 16) + 'Z' : '—'; };
+  var fmtH = function (h) { return h >= 48 && h % 24 === 0 ? (h / 24) + 'd' : h + 'h'; };
+
+  try {
+    var saved = localStorage.getItem('godseye-theme');
+    if (saved === 'light' || saved === 'dark') document.documentElement.setAttribute('data-theme', saved);
+  } catch (e) {}
+  var isLight = function () { return document.documentElement.getAttribute('data-theme') === 'light'; };
+
+  function tileLayer() {
+    return L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18, className: 'basemap'
+    });
+  }
+
+  if (hasL) {
+    map = L.map('map', { worldCopyJump: true, preferCanvas: false, zoomControl: true }).setView([25, 15], 2);
+    tiles = tileLayer().addTo(map);
+    L.control.scale({ imperial: false }).addTo(map);
+  } else {
+    $('map').innerHTML = '<div class="unavailable">Interactive map unavailable: the Leaflet library (unpkg.com) did not load. Layer files remain available under <code>layers/</code>.</div>';
+  }
+
+  function popupHtml(p) {
+    var url = httpUrl(p.url);
+    var h = '<div class="t">' + esc(p.title) + '</div>';
+    if (p.summary) h += '<div>' + esc(p.summary) + '</div>';
+    h += '<div class="m">' + esc(p.date || '') + ' · ' + esc(p.source || '') + ' · sev ' + esc(p.severity) + '</div>';
+    if (url) h += '<div class="m"><a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer nofollow">primary source ↗</a></div>';
+    return h;
+  }
+
+  function styleFor(def, p) {
+    var sev = Math.max(1, Math.min(10, +p.severity || 1));
+    var c = cssVar('--c-' + def.id) || '#888';
+    if (def.area || (p.kind === 'frontline')) {
+      return { color: c, weight: def.area ? 1.2 : 1.5, opacity: def.area ? 0.75 : 0.9, fillColor: c, fillOpacity: def.area ? 0.04 : 0.12 };
+    }
+    return { radius: 3 + sev * 0.75, color: cssVar('--ring') || '#111', weight: 1, opacity: 0.9, fillColor: c, fillOpacity: 0.3 + sev * 0.06 };
+  }
+
+  function makeGroup(def) {
+    if (def.cluster && hasCluster) {
+      return L.markerClusterGroup({
+        maxClusterRadius: 38, chunkedLoading: true, disableClusteringAtZoom: 10,
+        spiderfyOnMaxZoom: true, showCoverageOnHover: false,
+        iconCreateFunction: function (cl) {
+          var n = cl.getChildCount(), s = n < 10 ? 26 : n < 100 ? 32 : 38;
+          return L.divIcon({ html: '<div class="ws-cluster" style="--c:var(--c-' + def.id + ');width:' + s + 'px;height:' + s + 'px">' + n + '</div>', className: 'marker-cluster', iconSize: [s, s] });
+        }
+      });
+    }
+    return L.featureGroup();
+  }
+
+  function buildLayer(def, fc) {
+    var feats = (fc && fc.features) || [];
+    var items = [];
+    feats.forEach(function (f) {
+      var p = f.properties || {}, g = f.geometry;
+      if (!g) return;
+      var lyr;
+      try {
+        if (g.type === 'Point') {
+          lyr = L.circleMarker([g.coordinates[1], g.coordinates[0]], styleFor(def, p));
+        } else {
+          lyr = L.geoJSON(f, { style: function () { return styleFor(def, p); } });
+        }
+      } catch (e) { return; }
+      lyr._wsProps = p;
+      lyr.bindPopup(function () { return popupHtml(p); }, { maxWidth: 320 });
+      items.push({ ts: +p.ts || 0, layer: lyr, area: !!def.area });
+    });
+    state.data[def.id] = items;
+    state.groups[def.id] = makeGroup(def);
+    if (state.visible[def.id]) state.groups[def.id].addTo(map);
+  }
+
+  function applyFilter() {
+    var since = state.now - state.hours * 3600, until = state.now + 2 * 86400;
+    LAYERS.forEach(function (def) {
+      var items = state.data[def.id] || [], g = state.groups[def.id];
+      if (!g) return;
+      g.clearLayers();
+      var keep = items.filter(function (it) { return it.area || (it.ts >= since && it.ts <= until); }).map(function (it) { return it.layer; });
+      if (g.addLayers) g.addLayers(keep); else keep.forEach(function (l) { g.addLayer(l); });
+      var chip = document.querySelector('.chip[data-id="' + def.id + '"] .n');
+      if (chip) chip.textContent = keep.length + (keep.length !== items.length ? '/' + items.length : '');
+    });
+  }
+
+  function renderChips(manifest) {
+    var counts = (manifest && manifest.counts) || {};
+    var box = $('chips');
+    box.innerHTML = '';
+    LAYERS.forEach(function (def) {
+      var on = counts[def.id] > 0 || def.area;
+      state.visible[def.id] = on;
+      var b = document.createElement('button');
+      b.className = 'chip' + (def.area ? ' area' : '');
+      b.setAttribute('data-id', def.id);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.style.setProperty('--c', 'var(--c-' + def.id + ')');
+      b.innerHTML = '<i></i>' + esc(def.label) + ' <span class="n">' + esc(counts[def.id] == null ? '…' : counts[def.id]) + '</span>';
+      b.addEventListener('click', function () {
+        state.visible[def.id] = !state.visible[def.id];
+        b.setAttribute('aria-pressed', state.visible[def.id] ? 'true' : 'false');
+        var g = state.groups[def.id];
+        if (g && map) { if (state.visible[def.id]) g.addTo(map); else map.removeLayer(g); }
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function renderStatus(manifest) {
+    if (!manifest) return;
+    $('gen').textContent = 'Generated ' + (manifest.generated_at || '?') + ' · lake window ' + (manifest.days || '?') + 'd';
+    var inputs = manifest.inputs || [], ok = inputs.filter(function (i) { return i.ok; }).length;
+    $('inputsum').textContent = 'inputs ' + ok + ' ok · ' + (inputs.length - ok) + ' failed';
+    var ul = $('inputs');
+    ul.innerHTML = '';
+    inputs.forEach(function (i) {
+      var li = document.createElement('li');
+      li.innerHTML = '<span class="' + (i.ok ? 'ok' : 'fail') + '">' + (i.ok ? '✓' : '✕') + '</span> ' + esc(i.name) + (i.ok ? ' (' + esc(i.count) + ')' : ' — ' + esc(i.error || 'failed'));
+      ul.appendChild(li);
+    });
+  }
+
+  function renderSignals(sig) {
+    var ents = $('ents'), st = $('stories'), was = $('was'), bl = $('brieflink');
+    ents.innerHTML = ''; st.innerHTML = ''; was.innerHTML = ''; bl.innerHTML = '';
+    var E = (sig && sig.entities) || [];
+    if (!E.length) ents.innerHTML = '<p>No cross-section entities available.</p>';
+    E.slice(0, 25).forEach(function (e) {
+      var d = document.createElement('div');
+      d.className = 'ent';
+      var secs = Object.keys(e.section_counts || {}).sort(function (a, b) { return e.section_counts[b] - e.section_counts[a]; });
+      d.innerHTML = '<div class="nm"><b>' + esc(e.name) + '</b><span class="ty">' + esc(e.type || '') + '</span><span class="ns">' + esc((e.sections || []).length) + ' sections · ' + esc(e.count) + '</span></div>'
+        + '<div class="secs">' + secs.slice(0, 6).map(function (s) { return '<span>' + esc(s) + ' ' + esc(e.section_counts[s]) + '</span>'; }).join('') + '</div>';
+      ents.appendChild(d);
+    });
+    var S = (sig && sig.stories) || [];
+    if (!S.length) st.innerHTML = '<p>No story clusters available.</p>';
+    S.slice(0, 10).forEach(function (s) {
+      var d = document.createElement('div');
+      d.className = 'story';
+      var url = httpUrl(s.url);
+      var head = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(s.headline) + '</a>' : esc(s.headline);
+      d.innerHTML = head + '<div class="m">' + esc(s.n_records) + ' records · ' + esc(s.n_outlets) + ' outlets · ' + esc(s.n_sections) + ' sections</div>';
+      st.appendChild(d);
+    });
+    var wc = (sig && sig.watch_area_counts && sig.watch_area_counts.counts) || {};
+    var areas = ((state.data.watch_areas_fc || {}).features || []);
+    if (!areas.length) was.innerHTML = '<p>No watch-area polygons.</p>';
+    areas.forEach(function (f) {
+      var p = f.properties || {};
+      var b = document.createElement('button');
+      b.className = 'wa';
+      b.innerHTML = '<span class="pr">' + esc(p.priority || '') + '</span><span>' + esc(p.name || p.title) + '</span><span class="n">' + esc(wc[p.name] == null ? '' : wc[p.name]) + '</span>';
+      b.title = 'Zoom to ' + (p.name || '');
+      b.addEventListener('click', function () {
+        if (!map || !p.bbox) return;
+        map.fitBounds([[p.bbox[1], p.bbox[0]], [p.bbox[3], p.bbox[2]]], { padding: [20, 20] });
+        if (window.innerWidth <= 820) togglePanel(false);
+      });
+      was.appendChild(b);
+    });
+    var lb = sig && sig.latest_brief;
+    if (lb && lb.url && /^\.\.\/briefings\/[\w-]+\.html$/.test(lb.url)) {
+      bl.innerHTML = '<a class="brief" href="' + esc(lb.url) + '">Latest brief · ' + esc(lb.date) + ' →</a>';
+    }
+    if (sig && sig.day) {
+      var p = document.createElement('p');
+      p.textContent = 'Cross-section day ' + sig.day + (sig.watch_area_counts && sig.watch_area_counts.day ? ' · watch-area tags from ' + sig.watch_area_counts.day : '');
+      bl.appendChild(p);
+    }
+  }
+
+  function setHours(h) {
+    state.hours = h;
+    $('win').value = h;
+    $('winout').textContent = fmtH(h);
+    document.querySelectorAll('.time button').forEach(function (b) { b.setAttribute('aria-pressed', +b.getAttribute('data-h') === h ? 'true' : 'false'); });
+    applyFilter();
+  }
+  document.querySelectorAll('.time button').forEach(function (b) { b.addEventListener('click', function () { setHours(+b.getAttribute('data-h')); }); });
+  $('win').addEventListener('input', function () { setHours(+this.value); });
+
+  function togglePanel(force) {
+    var a = $('forest'), open = typeof force === 'boolean' ? force : !a.classList.contains('open');
+    a.classList.toggle('open', open);
+    $('panelbtn').setAttribute('aria-pressed', open ? 'true' : 'false');
+  }
+  $('panelbtn').addEventListener('click', function () { togglePanel(); });
+
+  $('theme').addEventListener('click', function () {
+    var next = isLight() ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('godseye-theme', next); } catch (e) {}
+    LAYERS.forEach(function (def) { (state.data[def.id] || []).forEach(function (it) { if (it.layer.setStyle) it.layer.setStyle(styleFor(def, it.layer._wsProps || {})); }); });
+  });
+
+  function getJSON(path) {
+    return fetch(path, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); });
+  }
+
+  getJSON('manifest.json').catch(function () { return null; }).then(function (manifest) {
+    state.manifest = manifest;
+    if (manifest && manifest.generated_ts) state.now = Math.max(manifest.generated_ts, state.now - 7 * 86400);
+    renderChips(manifest);
+    renderStatus(manifest);
+    var loads = LAYERS.map(function (def) {
+      return getJSON('layers/' + def.id + '.geojson').catch(function () { return { type: 'FeatureCollection', features: [] }; }).then(function (fc) {
+        if (def.id === 'watch_areas') state.data.watch_areas_fc = fc;
+        if (!hasL) return;
+        buildLayer(def, fc);
+      });
+    });
+    return Promise.all(loads);
+  }).then(function () {
+    if (hasL) { applyFilter(); setHours(state.hours); }
+    return getJSON('signals.json').catch(function () { return null; });
+  }).then(function (sig) {
+    renderSignals(sig);
+  }).catch(function (e) {
+    $('ents').innerHTML = '<p>Signals unavailable: ' + esc(e && e.message) + '</p>';
+  });
+})();
+</script>
+</body>
+</html>
