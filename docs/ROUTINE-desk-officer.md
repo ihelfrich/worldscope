@@ -11,13 +11,22 @@ produced stale or missing briefs. This file is the source of truth for both.
 | Step | Owner | Time |
 |---|---|---|
 | Raw collection, bundle, readiness manifest, Pages deploy | `daily-brief.yml` | cron `17 6 * * *` UTC, lands ~06:45-08:30Z |
-| Desk-officer composition | Claude Routine | **05:30 CT (10:30Z)**, retry slot **08:30 CT (13:30Z)** |
+| Desk-officer composition, primary | `compose-brief.yml` (claude-code-action, Opus) | `workflow_run` on "Daily briefing" success, so it never races |
+| Desk-officer composition, fallback | Claude Routine | **05:30 CT (10:30Z)**, retry slot **08:30 CT (13:30Z)** |
 | Markdown to HTML render | `render-briefings.yml` | on push of `briefings/**.md` |
 | Pushover delivery | `pushover-brief.yml` | after render, plus crons 11:30-13:30Z |
+| Output dead-man | `brief-deadman.yml` | 14:30Z, alerts if `briefings/<today>.md` is missing |
 
-The routine checks `status/daily/<TODAY>.json` where TODAY is the Chicago
+Both composers are idempotent on `briefings/<TODAY>.md`, so whichever lands
+first wins and the other exits quietly. `compose-brief.yml` is API-billed
+(one Opus run a day; set a spend cap in the Anthropic console) and can be
+switched off with the repository variable `COMPOSE_IN_ACTIONS=false`. The
+Routine is subscription-billed and only matters if that switch is off or the
+Actions run fails.
+
+The consumer checks `status/daily/<TODAY>.json` where TODAY is the Chicago
 date. The manifest's `generated_at` must be younger than 6 hours, which is
-why the two slots above sit 4 and 7 hours after the producer's cron.
+why the Routine slots above sit 4 and 7 hours after the producer's cron.
 
 ## Canonical prompt
 

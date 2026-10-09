@@ -54,6 +54,20 @@ def test_daily_publishes_readiness_before_committing_dist():
     assert body.index(publish) < body.index("Commit archive + snapshot store + lake")
 
 
+def test_compose_brief_gates_on_readiness_before_claude_and_never_pushes_from_claude():
+    body = _read("compose-brief.yml")
+    gate = body.index("worldscope.readiness check-daily")
+    claude = body.index("anthropics/claude-code-action")
+    commit = body.index("Validate and commit the brief")
+    assert gate < claude < commit
+    assert "sha256sum -c" in body
+    assert 'workflows: ["Daily briefing"]' in body
+    assert "vars.COMPOSE_IN_ACTIONS != 'false'" in body
+    tools = body.split("--allowedTools", 1)[1].split("\n", 1)[0]
+    assert "git" not in tools
+    assert "Bash(git:*)" in body.split("--disallowedTools", 1)[1].split("\n", 1)[0]
+
+
 def test_pushover_workflows_use_validated_delivery_boundary():
     for name in ("pushover-brief.yml", "watchdog-deadman.yml", "watchdog-alert.yml",
                  "brief-deadman.yml"):

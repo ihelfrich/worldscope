@@ -1,0 +1,168 @@
+name: Compose desk-officer brief
+
+# Composes briefings/<date>.md inside Actions, chained to the raw producer by
+# workflow_run so it can never race GitHub's cron drift (the cause of the
+# 2026-09-06..10-09 outage). The claude.ai Routine remains an optional
+# fallback: both paths are idempotent on briefings/<date>.md.
+#
+# Kill switch: set the repository variable COMPOSE_IN_ACTIONS to "false".
+# Cost: one Claude Opus run per day, metered on ANTHROPIC_API_KEY; keep a
+# spend cap set in the Anthropic console.
+
+on:
+  workflow_run:
+    workflows: ["Daily briefing"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      max_age_hours:
+        description: "Accept a readiness manifest up to this many hours old"
+        required: false
+        default: "6"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: compose-brief
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  compose:
+    if: >-
+      (github.event_name != 'workflow_run' ||
+       github.event.workflow_run.conclusion == 'success') &&
+      vars.COMPOSE_IN_ACTIONS != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[ci]"
+
+      - name: Gate on today's readiness manifest and idempotence
+        id: gate
+        env:
+          MAX_AGE_HOURS: ${{ github.event.inputs.max_age_hours || '6' }}
+        run: |
+          set -euo pipefail
+          TODAY=$(TZ=America/Chicago date +%F)
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          if [ -s "briefings/${TODAY}.md" ]; then
+            echo "briefings/${TODAY}.md already on main; nothing to do"
+            echo "go=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          MANIFEST="dist/status/daily/${TODAY}.json"
+          if [ ! -s "$MANIFEST" ]; then
+            echo "::error::SOURCE_NOT_READY ${TODAY}: ${MANIFEST} missing on main"
+            exit 1
+          fi
+          python -m worldscope.readiness check-daily \
+            --manifest "$MANIFEST" --date "$TODAY" \
+            --max-age-hours "$MAX_AGE_HOURS" | tee /tmp/readiness.txt
+          grep -o 'degraded source: .*' /tmp/readiness.txt \
+            | sed 's/^degraded source: //' > /tmp/degraded.txt || true
+          EXPECTED=$(python -c "import json;print(json.load(open('$MANIFEST'))['bundle']['sha256'])")
+          BYTES=$(python -c "import json;print(json.load(open('$MANIFEST'))['bundle']['bytes'])")
+          ZIP="dist/zips/${TODAY}.zip"
+          [ "$(stat -c %s "$ZIP")" = "$BYTES" ] || { echo "::error::bundle byte count mismatch"; exit 1; }
+          echo "${EXPECTED}  ${ZIP}" | sha256sum -c -
+          rm -rf /tmp/ws/bundle && mkdir -p /tmp/ws/bundle
+          python - "$ZIP" /tmp/ws/bundle <<'PY'
+          import sys, zipfile, pathlib
+          zip_path, out = sys.argv[1], pathlib.Path(sys.argv[2])
+          with zipfile.ZipFile(zip_path) as zf:
+              for member in zf.namelist():
+                  p = pathlib.PurePosixPath(member)
+                  if p.is_absolute() or ".." in p.parts:
+                      raise SystemExit(f"refusing traversal member: {member}")
+              zf.extractall(out)
+          print("extracted", len(zf.namelist()), "members")
+          PY
+          echo "go=true" >> "$GITHUB_OUTPUT"
+
+      - name: Compose the brief
+        if: steps.gate.outputs.go == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: |
+            --model claude-opus-5-5
+            --max-turns 120
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(python:*),Bash(python3:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(wc:*),Bash(mkdir:*),Bash(cp:*),Bash(jq:*)"
+            --disallowedTools "Bash(git:*),Bash(curl:*),Bash(wget:*),Bash(gh:*)"
+          prompt: |
+            You are the WORLDSCOPE morning desk officer for Dr. Ian Helfrich,
+            running inside GitHub Actions. Your only job this run is to write
+            one dated brief and its sibling artifacts into the repository
+            working tree. A later workflow step commits and pushes; you never
+            run git, never send notifications, never trigger other workflows.
+
+            TODAY is ${{ steps.gate.outputs.today }} (America/Chicago). The
+            verified daily bundle for TODAY is already extracted at
+            /tmp/ws/bundle (raw/<section>.json, manifest.json, trends.json,
+            calendar.json). The readiness validator has already passed; the
+            degraded required sources it named, if any, are listed one per
+            line in /tmp/degraded.txt and must appear verbatim in the brief's
+            "Source coverage" line. watchareas.yaml and
+            lake/sections/_meta/${{ steps.gate.outputs.today }}/cross_section.json
+            are in the repository checkout (the latter may be absent; say so
+            in one line if it is).
+
+            Read docs/ROUTINE-editorial-spec.md first and follow it exactly:
+            structure, length, confidence tags, chart list and dedup rule,
+            style rules, the Ukraine theater protections, and the map file.
+            Use the free live supplements and up to 12 primary-source
+            follow-ups it allows. Never substitute web research for a
+            missing required input; name the gap instead.
+
+            Build the six charts with matplotlib (Agg) into
+            briefings/${{ steps.gate.outputs.today }}-<name>.png, the events
+            GeoJSON into briefings/${{ steps.gate.outputs.today }}-events.geojson,
+            and the brief into briefings/${{ steps.gate.outputs.today }}.md.
+            If a chart's data is missing, skip it and say so where it would
+            have appeared. Link https://ihelfrich.github.io/worldscope/live/
+            once from the Headline as the live view.
+
+            When finished, print one line:
+            RECEIPT data_date=<date> words=<n> charts=<n> mapped_events=<n> degraded=<comma list or none>
+
+      - name: Validate and commit the brief
+        if: steps.gate.outputs.go == 'true'
+        env:
+          TODAY: ${{ steps.gate.outputs.today }}
+        run: |
+          set -euo pipefail
+          BRIEF="briefings/${TODAY}.md"
+          [ -s "$BRIEF" ] || { echo "::error::no brief written at $BRIEF"; exit 1; }
+          WORDS=$(wc -w < "$BRIEF")
+          [ "$WORDS" -ge 2500 ] || { echo "::error::brief too short ($WORDS words)"; exit 1; }
+          head -1 "$BRIEF" | grep -q "^# Morning brief" || { echo "::error::brief lacks the expected title"; exit 1; }
+          if grep -q $'\xe2\x80\x94' "$BRIEF"; then echo "::warning::brief contains em-dashes"; fi
+          git config user.name "worldscope-desk"
+          git config user.email "noreply@github.com"
+          git add "$BRIEF"
+          ls briefings/${TODAY}-*.png >/dev/null 2>&1 && git add briefings/${TODAY}-*.png || true
+          [ -s "briefings/${TODAY}-events.geojson" ] && git add "briefings/${TODAY}-events.geojson" || true
+          git diff --staged --quiet && { echo "nothing staged"; exit 1; }
+          git commit -m "morning brief ${TODAY}"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then echo "pushed on attempt $attempt"; exit 0; fi
+            echo "push rejected on attempt $attempt; rebasing"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep $((attempt * 3))
+          done
+          echo "::error::could not push the brief after 5 attempts"
+          exit 1

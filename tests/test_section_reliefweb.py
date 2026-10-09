@@ -92,7 +92,8 @@ def test_uses_v2_with_appname_and_keeps_item_schema(monkeypatch, tmp_path):
 
     assert seen["url"] == "https://api.reliefweb.int/v2/reports"
     assert seen["timeout"]
-    assert seen["params"]["appname"] == "worldscope"
+    assert seen["params"]["appname"] == reliefweb.DEFAULT_APPNAME
+    assert reliefweb.DEFAULT_APPNAME == "helfrich-worldscope-7k3q"
     assert seen["params"]["sort[]"] == "date.created:desc"
     assert "body-html" in seen["params"]["fields[include][]"]
 

@@ -22,7 +22,8 @@ Verified live 2026-10-09:
     one answers 400 "Missing appname parameter". Limits: 1000 entries per
     call, 1000 calls per day.
 
-The appname is read from RELIEFWEB_APPNAME (default "worldscope"). A 403 is
+The appname is read from RELIEFWEB_APPNAME (default "helfrich-worldscope-7k3q",
+the name requested from ReliefWeb on 2026-10-09; override if they adjust it). A 403 is
 raised as UpstreamAuthError so the run report shows the real cause rather
 than a quiet empty.
 """
@@ -37,7 +38,7 @@ from . import Section, UpstreamAuthError, UpstreamHTTPError, UpstreamParseError
 
 API = "https://api.reliefweb.int/v2/reports"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
-DEFAULT_APPNAME = "worldscope"
+DEFAULT_APPNAME = "helfrich-worldscope-7k3q"
 
 MAX_ATTEMPTS = 3
 BACKOFF_S = 2.0
