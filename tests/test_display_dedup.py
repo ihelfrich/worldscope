@@ -49,3 +49,58 @@ def test_distinct_headlines_are_preserved_and_ordered():
 
 def test_empty_input_returns_empty():
     assert Section._dedup_display_items([]) == []
+
+
+# ---- render_html must never emit untrusted strings as live HTML ------------
+
+from worldscope.sections import STATE_FRESH, SectionState
+
+
+class _Sec(Section):
+    id = "xss_probe"
+    title = "Probe"
+    emoji = "P"
+
+    def pull(self):  # pragma: no cover - never called
+        return []
+
+
+def _render(items, synth=None):
+    sec = object.__new__(_Sec)  # skip __init__: render_html needs no store
+    state = SectionState(section_id="xss_probe", title="Probe", emoji="P",
+                         state=STATE_FRESH, items=items, new=[],
+                         comparison_date=None, source_date="2026-10-09")
+    return sec.render_html(state, synth)
+
+
+def test_synth_paragraph_is_escaped_not_rendered_as_html():
+    payload = "<img src=x onerror=alert(1)><script>alert(2)</script> & \"quotes\""
+    out = _render([], synth=payload)
+    assert "<script" not in out and "<img" not in out and "onerror" not in out.replace("onerror=", "")
+    assert "&lt;img src=x onerror=alert(1)&gt;&lt;script&gt;" in out
+    assert "&amp; &quot;quotes&quot;" in out
+    assert "<p class='synth'>" in out
+
+
+def test_item_href_blocks_javascript_and_data_urls():
+    items = [
+        {"_id": "1", "title": "A real headline here", "url": "javascript:alert(1)"},
+        {"_id": "2", "title": "Another real headline", "url": "data:text/html,<script>1</script>"},
+        {"_id": "3", "title": "Third real headline", "url": "https://ok.example/a?x=1&y=2"},
+    ]
+    out = _render(items)
+    assert "javascript:" not in out
+    assert "data:text/html" not in out
+    assert out.count("href='#'") == 2
+    assert "href='https://ok.example/a?x=1&amp;y=2'" in out
+
+
+def test_item_title_and_summary_remain_escaped():
+    items = [{"_id": "1", "title": "Real <b>bold</b> headline", "url": "https://x.example",
+              "summary": "<script>alert(1)</script> sum"}]
+    out = _render(items)
+    assert "<script" not in out
+    assert "<b>" not in out
+    assert "alert(1) sum" in out  # clean_text strips tags, leaving inert text
+    assert "Real bold headline" in out
+

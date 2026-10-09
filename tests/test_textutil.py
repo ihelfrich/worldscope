@@ -1,5 +1,5 @@
 """Tests for HTML/text hygiene helpers (worldscope.textutil)."""
-from worldscope.textutil import clean_text, strip_html
+from worldscope.textutil import clean_text, safe_href, strip_html
 
 
 def test_strips_figure_and_img_blobs():
@@ -31,3 +31,19 @@ def test_empty_and_none_safe():
     assert strip_html(None) == ""
     assert strip_html("") == ""
     assert clean_text(None, 10) == ""
+
+
+
+def test_safe_href_allows_only_http_and_https():
+    assert safe_href("https://example.com/a?b=1&c=2") == "https://example.com/a?b=1&c=2"
+    assert safe_href("http://example.com") == "http://example.com"
+    assert safe_href("HTTPS://EXAMPLE.COM/x") == "HTTPS://EXAMPLE.COM/x"
+    assert safe_href("  https://padded.example  ") == "https://padded.example"
+
+
+def test_safe_href_blocks_script_and_data_schemes_and_bypasses():
+    for bad in ("javascript:alert(1)", "JaVaScRiPt:alert(1)", " \t\njavascript:alert(1)",
+                "data:text/html;base64,PHNjcmlwdD4=", "vbscript:msgbox", "//evil.example",
+                "ftp://x", "mailto:x@y", "#", "", None, "https://a.example/\x00x"):
+        assert safe_href(bad) == "#", repr(bad)
+

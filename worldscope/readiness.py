@@ -15,6 +15,16 @@ SCHEMA_VERSION = 1
 PRODUCER = "worldscope-daily-brief"
 DEFAULT_MAX_AGE_HOURS = 6
 
+# Sources whose absence makes a brief materially worse. A stale one never
+# blocks readiness (the bundle is still real), but it must be named so the
+# consumer can say so in the brief instead of calling it a quiet day.
+REQUIRED_SOURCES = frozenset({
+    "acled", "cisa_kev", "conflict", "federal_register", "firms", "forecasts",
+    "gdacs", "gdelt_gkg", "macro", "markets", "political_figures", "reliefweb",
+    "ukraine_theater", "usgs_quakes",
+})
+MAX_STALE_DAYS = 3
+
 
 class ReadinessError(RuntimeError):
     """The requested daily artifact is absent, stale, or incomplete."""
@@ -87,6 +97,42 @@ def _source_health(report: Mapping[str, Any]) -> dict[str, Any]:
     }
 
 
+def degradation(source_health: Mapping[str, Any], data_date: str, *,
+                required: frozenset[str] = REQUIRED_SOURCES,
+                max_stale_days: int = MAX_STALE_DAYS) -> dict[str, Any]:
+    """Name every required source that is missing or older than the threshold."""
+    day = date.fromisoformat(_parse_day(data_date))
+    source_dates = source_health.get("source_dates") or {}
+    stale: dict[str, Any] = {}
+    reasons: list[str] = []
+    for section_id in sorted(required):
+        if section_id not in source_dates:
+            stale[section_id] = {"source_date": None, "stale_days": None}
+            reasons.append(f"{section_id}: not in run report")
+            continue
+        value = source_dates.get(section_id)
+        if not isinstance(value, str) or not value:
+            stale[section_id] = {"source_date": None, "stale_days": None}
+            reasons.append(f"{section_id}: no data")
+            continue
+        try:
+            age = (day - date.fromisoformat(value)).days
+        except ValueError:
+            stale[section_id] = {"source_date": value, "stale_days": None}
+            reasons.append(f"{section_id}: unparseable source_date {value!r}")
+            continue
+        if age > max_stale_days:
+            stale[section_id] = {"source_date": value, "stale_days": age}
+            reasons.append(f"{section_id}: last good data {value} ({age}d old)")
+    return {
+        "degraded": bool(reasons),
+        "degraded_reasons": reasons,
+        "stale_required_sources": stale,
+        "required_sources": sorted(required),
+        "max_stale_days": max_stale_days,
+    }
+
+
 def publish_daily_ready(dist: Path, data_date: str, *, repository: str = "",
                         run_id: str = "", run_attempt: str = "",
                         commit_sha: str = "", now: datetime | None = None) -> Path:
@@ -110,6 +156,7 @@ def publish_daily_ready(dist: Path, data_date: str, *, repository: str = "",
     bundle_path = dist / "zips" / f"{data_date}.zip"
     if not bundle_path.is_file() or bundle_path.stat().st_size <= 0:
         raise ReadinessError(f"dated bundle missing or empty: {bundle_path}")
+    source_health = _source_health(report)
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "producer": PRODUCER,
@@ -121,12 +168,14 @@ def publish_daily_ready(dist: Path, data_date: str, *, repository: str = "",
                    "bytes": bundle_path.stat().st_size},
         "run_report": {"path": "run_report.json", "sha256": _sha256(report_path),
                        "failed_required_stages": []},
-        "source_health": _source_health(report),
+        "source_health": source_health,
+        "degradation": degradation(source_health, data_date),
         "github": {"repository": repository, "run_id": run_id,
                    "run_attempt": run_attempt, "sha": commit_sha},
     }
     output = dist / "status" / "daily" / f"{data_date}.json"
     _atomic_json(output, manifest)
+    _atomic_json(dist / "status" / "daily" / "latest.json", manifest)
     return output
 
 
@@ -185,6 +234,21 @@ def validate_daily_ready(manifest: Mapping[str, Any], *, expected_date: str,
     return manifest
 
 
+def degraded_reasons(manifest: Mapping[str, Any]) -> list[str]:
+    """Reasons the producer flagged, recomputed for manifests that predate the field."""
+    block = manifest.get("degradation")
+    if isinstance(block, Mapping) and isinstance(block.get("degraded_reasons"), list):
+        return [str(item) for item in block["degraded_reasons"]]
+    source_health = manifest.get("source_health")
+    data_date = manifest.get("data_date")
+    if not isinstance(source_health, Mapping) or not isinstance(data_date, str):
+        return []
+    try:
+        return degradation(source_health, data_date)["degraded_reasons"]
+    except ReadinessError:
+        return []
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Publish or validate daily readiness")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -207,9 +271,11 @@ def main(argv: list[str] | None = None) -> int:
                                       run_attempt=args.run_attempt,
                                       commit_sha=args.sha))
         else:
-            validate_daily_ready(_load_object(args.manifest, "readiness manifest"),
-                                 expected_date=args.date,
-                                 max_age_hours=args.max_age_hours)
+            manifest = validate_daily_ready(
+                _load_object(args.manifest, "readiness manifest"),
+                expected_date=args.date, max_age_hours=args.max_age_hours)
+            for reason in degraded_reasons(manifest):
+                print(f"::warning::degraded source: {reason}")
             print(f"ready: {args.date}")
     except ReadinessError as exc:
         print(f"::error::{exc}")

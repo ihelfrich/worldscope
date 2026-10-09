@@ -2,13 +2,23 @@ name: Daily briefing
 
 on:
   schedule:
-    # 07:00 UTC = 03:00 ET (EDT) / 02:00 ET (EST). Runs 2 hours before the
-    # desk-officer routine (09:00 UTC) and 3 hours before the morning Pushover
-    # (10:00 UTC = 06:00 ET). Sequence: data pull (07:00) -> bundle + Pages
-    # deploy (~07:30-08:00) -> desk officer reads zip + composes brief (09:00)
-    # -> render-briefings.yml renders MD to HTML on commit (~09:30) ->
-    # Pushover sends today's freshly-composed brief at 06:00 ET (10:00 UTC).
-    - cron: "0 7 * * *"
+    # 06:17 UTC = 01:17 CDT / 00:17 CST, so the UTC date stamped on the bundle
+    # is already the America/Chicago date the desk-officer routine asks for.
+    #
+    # Why not "0 7": GitHub delays top-of-the-hour scheduled runs under load.
+    # Observed starts for "0 7 * * *" between 2026-09-03 and 2026-10-09 were
+    # 11:03Z..15:24Z (4-8 h late), which put every bundle outside the 6-hour
+    # readiness window of the 09:00Z routine. No desk-officer brief shipped
+    # between 2026-09-06 and 2026-10-09 as a result. Off-peak minutes drift
+    # far less. Composition is now chained to this run by workflow_run
+    # (compose-brief.yml), so it cannot race. If the claude.ai Routine is
+    # kept as a fallback it must still leave margin:
+    #   producer 06:17Z (+drift) -> readiness manifest ~06:45-08:30Z
+    #   compose-brief.yml        immediately after, via workflow_run
+    #   desk-officer routine     10:30Z (05:30 CT) fallback, idempotent
+    #   Pushover delivery        11:30-13:30Z (existing crons)
+    # The manifest's generated_at must be < 6 h old when a consumer fires.
+    - cron: "17 6 * * *"
   workflow_dispatch:  # so you can fire manually too
 
 permissions:
@@ -56,6 +66,10 @@ jobs:
           MEDIACLOUD_API_KEY: ${{ secrets.MEDIACLOUD_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          # Not a secret: ReliefWeb's pre-approved appname. Empty falls back
+          # to the adapter default; set the repo variable if ReliefWeb
+          # approves a different name than the one requested.
+          RELIEFWEB_APPNAME: ${{ vars.RELIEFWEB_APPNAME }}
           # CI can't see the local 2.6 GB OpenSanctions corpus or the
           # PEP index built from it. Skip those sections so locally-generated
           # content (from Ian's machine, where the data files live) carries

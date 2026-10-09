@@ -2,7 +2,9 @@
 foreign_news — international news coverage, ~85 feeds across ~50 countries.
 
 Curated by tier:
-  - Major wire services (Reuters, AP, AFP, BBC, NHK, DW, Al Jazeera, etc.)
+  - Major wire services / global outlets (BBC, NHK, DW, Al Jazeera, France 24,
+    etc.). Reuters retired its public RSS endpoints and the AP-via-RSSHub
+    mirror now returns 403, so neither is carried.
   - Major regional flagship papers (SCMP, Strait Times, Le Monde, etc.)
   - State-controlled (RT, Xinhua-English, Press TV, Sputnik) — flagged as such
   - International organizations (IMF, World Bank, UN, OCHA, BIS, OECD)
@@ -36,10 +38,6 @@ from ._util import slug as _slug
 # (country, feed_url, source_label, tier)
 FEEDS: list[tuple[str, str, str, str]] = [
     # ---- WIRE SERVICES + GLOBAL OUTLETS (mainstream_independent) -----------
-    ("Global",        "https://feeds.reuters.com/reuters/topNews",          "Reuters Top News",          "mainstream_independent"),
-    ("Global",        "https://feeds.reuters.com/Reuters/worldNews",        "Reuters World",             "mainstream_independent"),
-    ("Global",        "https://feeds.reuters.com/reuters/businessNews",     "Reuters Business",          "mainstream_independent"),
-    ("Global",        "https://rsshub.app/ap/topics/apf-topnews",           "AP Top News (RSSHub)",      "mainstream_independent"),
     ("Global",        "https://feeds.bbci.co.uk/news/world/rss.xml",        "BBC World News",            "mainstream_independent"),
     ("Global",        "https://feeds.bbci.co.uk/news/business/rss.xml",     "BBC Business",              "mainstream_independent"),
     ("Global",        "https://www.aljazeera.com/xml/rss/all.xml",          "Al Jazeera English",        "mainstream_independent"),

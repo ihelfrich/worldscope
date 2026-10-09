@@ -28,7 +28,7 @@ import re
 import threading
 import time
 
-from ..textutil import clean_text, strip_html
+from ..textutil import clean_text, safe_href, strip_html
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
@@ -345,7 +345,8 @@ class Section(ABC):
             # title/url/summary/date originate from untrusted upstream feeds and
             # scrapers; escape every interpolated value to prevent stored XSS and
             # broken markup. quote=True so a value can't break out of href='...'.
-            url = html.escape(it.get("url", "#") or "#", quote=True)
+            # safe_href first: html.escape can't stop javascript:/data: hrefs.
+            url = html.escape(safe_href(it.get("url")), quote=True)
             title = html.escape(strip_html(it.get("title")) or "(no title)")
             item_date = html.escape(it.get("date", "") or "")
             summary = html.escape(clean_text(it.get("summary"), 280))
@@ -357,7 +358,12 @@ class Section(ABC):
             )
         if not display_items:
             items_html.append("<li class='empty'>no items in this section.</li>")
-        synth_html = f"<p class='synth'>{synth}</p>" if synth else ""
+        # synth is LLM prose synthesised from the same untrusted feed text as
+        # the items (a prompt-injected headline can carry markup straight
+        # through the model), so it gets the same treatment: escaped, never
+        # trusted as HTML. It is plain text by contract (no links expected).
+        synth_html = (f"<p class='synth'>{html.escape(str(synth), quote=True)}</p>"
+                      if synth else "")
         hidden_note = (
             f" <span class='count'>· {n_hidden} repetitive/broken hidden</span>"
             if n_hidden > 0 else ""

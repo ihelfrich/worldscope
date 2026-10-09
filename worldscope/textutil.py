@@ -37,3 +37,25 @@ def clean_text(text, maxlen: int | None = None) -> str:
     if maxlen is not None and len(t) > maxlen:
         t = t[:maxlen].rstrip() + "…"
     return t
+
+
+_SAFE_SCHEME_RE = re.compile(r"^https?://", re.IGNORECASE)
+
+
+def safe_href(url) -> str:
+    """Return `url` if it is an absolute http(s) URL, else "#".
+
+    `html.escape` alone does not make an href safe: `javascript:alert(1)` and
+    `data:text/html;base64,...` contain nothing to escape and execute on
+    click. Feed/scraper URLs are untrusted, so only http(s) is allowed through;
+    leading whitespace/control characters (a classic filter bypass) are
+    stripped before the scheme check. Call this BEFORE html.escape.
+    """
+    if not url:
+        return "#"
+    cleaned = re.sub(r"^[\s\x00-\x1f\x7f]+", "", str(url)).strip()
+    if not cleaned or re.search(r"[\x00-\x1f\x7f]", cleaned):
+        return "#"
+    if not _SAFE_SCHEME_RE.match(cleaned):
+        return "#"
+    return cleaned

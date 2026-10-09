@@ -43,6 +43,28 @@ warnings.filterwarnings("ignore")
 
 # Theater + Kyiv bboxes (lon_min, lon_max, lat_min, lat_max for matplotlib axes)
 THEATER_BBOX = (22, 40, 44, 53)
+
+
+def _match_grid(src: np.ndarray, shape: tuple[int, int]) -> np.ndarray:
+    """Return `src` resampled (nearest-neighbour) to `shape` = (ny, nx).
+
+    Raster layers that share a bbox but were rasterised at different
+    resolutions can't be multiplied/added directly: numpy refuses to broadcast
+    (200, 300) against (220, 320). Both grids are axis-aligned over the same
+    extent, so index-space nearest sampling keeps every cell at the same
+    lon/lat. No-op when the shapes already agree.
+    """
+    src = np.asarray(src)
+    if src.ndim != 2:
+        raise ValueError(f"_match_grid expects a 2-D grid, got shape {src.shape}")
+    ny, nx = int(shape[0]), int(shape[1])
+    if src.shape == (ny, nx):
+        return src
+    if src.shape[0] == 0 or src.shape[1] == 0:
+        return np.zeros((ny, nx), dtype=src.dtype)
+    rows = np.minimum((np.arange(ny) * src.shape[0] / ny).astype(int), src.shape[0] - 1)
+    cols = np.minimum((np.arange(nx) * src.shape[1] / nx).astype(int), src.shape[1] - 1)
+    return src[np.ix_(rows, cols)]
 KYIV_BBOX = (29.5, 32.5, 49.5, 51.5)
 
 UKRAINE_CITIES = {
@@ -495,12 +517,19 @@ class UkraineMaps:
         if pts:
             arr = np.asarray(pts)
             w = np.asarray(weights)
+            # Rasterise the activity KDE on the SAME (ny, nx) lattice as the
+            # population proxy. It used to be 300x200 against a 320x220
+            # population grid, and the product below then failed with
+            # "operands could not be broadcast together" every hour from
+            # 2026-09-13 on (run_section swallowed it as a map-emit warning).
             grid = _kde_grid(arr, w, (bbox[0], bbox[1], bbox[2], bbox[3]),
-                             nx=300, ny=200, bandwidth_deg=0.45)
+                             nx=nx, ny=ny, bandwidth_deg=0.45)
             grid_n = grid / (grid.max() + 1e-9)
             # Multiply by population: only color cells where activity
-            # overlaps inhabited grid cells.
-            # Resample pop_n to grid shape (already aligned by construction)
+            # overlaps inhabited grid cells. _match_grid is the belt-and-braces
+            # guard so the two layers always share a shape even if one of
+            # the resolutions is changed again.
+            grid_n = _match_grid(grid_n, pop_n.shape)
             heat = grid_n * np.nan_to_num(pop_n, nan=0.0)
             heat = np.where(heat < 0.02, np.nan, heat)
             ax.imshow(
