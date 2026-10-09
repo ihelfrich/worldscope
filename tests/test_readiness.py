@@ -122,6 +122,68 @@ def test_publish_writes_hash_bound_dated_manifest(tmp_path):
         },
     }
     assert manifest["github"]["run_id"] == "33962276791"
+    latest = json.loads((dist / "status/daily/latest.json").read_text())
+    assert latest == manifest
+
+
+def test_publish_names_stale_required_sources_without_blocking(tmp_path):
+    readiness = _readiness_module()
+    dist = tmp_path / "dist"
+    dist.mkdir()
+    _write_successful_run(dist)
+    path = readiness.publish_daily_ready(dist, "2026-09-05")
+    block = json.loads(path.read_text())["degradation"]
+    assert block["degraded"] is True
+    assert block["max_stale_days"] == 3
+    stale = block["stale_required_sources"]
+    assert "gdacs" not in stale            # fresh today
+    assert "acled" not in stale            # 2 days old, inside threshold
+    assert stale["reliefweb"] == {"source_date": None, "stale_days": None}
+    reasons = set(block["degraded_reasons"])
+    assert "reliefweb: not in run report" in reasons
+    assert not any(r.startswith(("markets", "promed")) for r in reasons)
+
+
+def test_degradation_thresholds():
+    readiness = _readiness_module()
+    health = {"source_dates": {
+        "acled": "2026-09-01", "macro": "2026-09-02", "firms": "",
+        "markets": "2026-09-05",
+    }}
+    block = readiness.degradation(
+        health, "2026-09-05", required=frozenset({"acled", "macro", "firms", "markets"}),
+        max_stale_days=3,
+    )
+    assert block["degraded"] is True
+    assert block["stale_required_sources"] == {
+        "acled": {"source_date": "2026-09-01", "stale_days": 4},
+        "firms": {"source_date": None, "stale_days": None},
+    }
+    assert block["degraded_reasons"] == [
+        "acled: last good data 2026-09-01 (4d old)",
+        "firms: no data",
+    ]
+    fresh = readiness.degradation(
+        {"source_dates": {"markets": "2026-09-05"}}, "2026-09-05",
+        required=frozenset({"markets"}),
+    )
+    assert fresh == {
+        "degraded": False, "degraded_reasons": [], "stale_required_sources": {},
+        "required_sources": ["markets"], "max_stale_days": 3,
+    }
+
+
+def test_consumer_recomputes_degradation_for_legacy_manifests():
+    readiness = _readiness_module()
+    manifest = {
+        "data_date": "2026-09-05",
+        "source_health": {"source_dates": {"acled": "2026-06-02",
+                                            "markets": "2026-09-05"}},
+    }
+    reasons = readiness.degraded_reasons(manifest)
+    assert "acled: last good data 2026-06-02 (95d old)" in reasons
+    assert all(not r.startswith("markets") for r in reasons)
+    assert readiness.degraded_reasons({"degradation": {"degraded_reasons": ["x"]}}) == ["x"]
 
 
 def test_consumer_gate_rejects_yesterdays_manifest():

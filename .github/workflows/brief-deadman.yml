@@ -1,0 +1,63 @@
+name: Brief dead-man switch
+
+# The September 2026 outage went unnoticed for 34 days because every check
+# watched inputs (collection ran, readiness published) and nothing watched
+# the output. This watches the output: by 14:30Z the desk-officer brief for
+# today must exist on main, or Ian gets one high-priority push.
+
+on:
+  schedule:
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Look for today's brief and today's readiness manifest
+        id: look
+        run: |
+          set -euo pipefail
+          TODAY=$(TZ=America/Chicago date +%F)
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          missing=""
+          [ -s "briefings/${TODAY}.md" ] || missing="${missing} briefings/${TODAY}.md"
+          [ -s "dist/status/daily/${TODAY}.json" ] || missing="${missing} dist/status/daily/${TODAY}.json"
+          if [ -f "status/source_not_ready_${TODAY}.txt" ]; then
+            missing="${missing} (routine recorded SOURCE_NOT_READY)"
+          fi
+          echo "missing=${missing}" >> "$GITHUB_OUTPUT"
+          if [ -n "$missing" ]; then
+            echo "::error::missing for ${TODAY}:${missing}"
+          else
+            echo "brief and manifest present for ${TODAY}"
+          fi
+      - name: Alert if the brief is missing and not muted
+        if: steps.look.outputs.missing != ''
+        env:
+          PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          MUTE_UNTIL: ${{ vars.BRIEF_DEADMAN_MUTE_UNTIL }}
+          TODAY: ${{ steps.look.outputs.today }}
+          MISSING: ${{ steps.look.outputs.missing }}
+        run: |
+          set -euo pipefail
+          if [ -n "$MUTE_UNTIL" ] && echo "$MUTE_UNTIL" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' \
+             && ! [[ "$MUTE_UNTIL" < "$TODAY" ]]; then
+            echo "muted until $MUTE_UNTIL"
+            exit 0
+          fi
+          python -m worldscope.pushover_delivery \
+            --title "Worldscope: no brief for ${TODAY}" \
+            --message "Missing by 14:30Z:${MISSING}. Check the Daily briefing run and the desk-officer routine." \
+            --url "https://github.com/ihelfrich/worldscope/actions" \
+            --priority 1

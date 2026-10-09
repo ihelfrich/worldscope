@@ -1,76 +1,98 @@
 # WORLDSCOPE
 
-Daily global political, economic, and OSINT briefing engine. Pulls from
-~40 free / freemium sources, detects what changed since yesterday,
-synthesizes a tight executive paragraph per section, and renders to a
-single HTML page archived day by day.
+Daily global political, economic and OSINT intelligence engine. ~40 primary
+sources are pulled every day into a versioned data lake, analysed
+deterministically (surges, convergence, story clusters, claims, calibration),
+synthesised into a brief, and published as static HTML on GitHub Pages. A
+second, long-form brief is composed by a Claude Code Routine from the day's
+verified bundle. A live map at `/live/` refreshes hourly.
 
-Built by Dr. Ian Helfrich on the chassis pattern from ECONSCOPE and LEXSCOPE.
+Built by Dr. Ian Helfrich.
 
-## What it does (Phase 1 — current)
+- Site: https://ihelfrich.github.io/worldscope/
+- Live map: https://ihelfrich.github.io/worldscope/live/
+- Architecture and roadmap: [ARCHITECTURE.md](ARCHITECTURE.md)
+- Latest red-team: [docs/REDTEAM-2026-10-09.md](docs/REDTEAM-2026-10-09.md)
 
-Sections that ship working today:
+## Products
 
-- **🏛️ U.S. Federal Action** — every executive order, presidential memo,
-  rule, and proposed rule from the Federal Register (last 7 days),
-  diffed against yesterday's pull.
+| Product | Produced by | Path |
+|---|---|---|
+| Daily section digest + overview | `daily-brief.yml` (Python, Tier-4 synthesis) | `dist/<date>.html` |
+| Dated bundle for downstream composition | same | `dist/zips/<date>.zip` + `dist/status/daily/<date>.json` |
+| Long-form desk-officer brief | Claude Code Routine ([spec](docs/ROUTINE-desk-officer.md)) | `briefings/<date>.md` → `dist/briefings/<date>.html` |
+| Ukraine theater maps | `ukraine-hourly.yml` | `briefings/<date>-ukraine_*.png` |
+| God's-eye live map | `live-map.yml` | `dist/live/` |
+| Pushover delivery | `pushover-brief.yml` | phone |
 
-## What it does (Phase 1 — planned this week)
+## Sources
 
-- **🏦 Macro + central banks** — FRED daily releases, Fed/ECB/BoE/BIS speeches
-- **⚖️ Sanctions + legal + filings** — OpenSanctions deltas, CourtListener
-  new opinions, key EDGAR 8-K filings
-- **📊 Markets snapshot** — FX, sovereign yields, equity indices, commodities
-- **🌍 News digest by region** — GDELT top stories filtered to a country watchlist
-- **💬 Commentary + forecasts** — Tooze, Setser, Levine, Smith, Milanović, Weber
-  substack posts; Metaculus + GoodJudgment forecast moves
-- **✈️ VIP flight convergence** — OpenSky Network, detect 3+ VIP aircraft
-  arriving at the same airport within 72h (signals diplomatic activity)
+Government and filings: Federal Register, Congress/OpenStates, FEC, SEC Form
+4, CourtListener, CISA KEV, EPSS, OFAC/EU/UK sanctions, USAspending.
+Conflict and hazards: ACLED, GDELT (DOC, GKG, GEO), NASA FIRMS, USGS, GDACS,
+ReliefWeb, WHO DON, NWS/SPC/NHC, DeepStateMap and alerts.in.ua for Ukraine.
+Markets and macro: FRED, Finnhub, Stooq, CoinGecko, open.er-api. Prediction
+markets: Polymarket, Kalshi, Manifold. Press: ~300 RSS feeds across US
+state/local, foreign, Chinese, Russian and Ukrainian outlets (Haiku
+translation), MediaCloud, Substack commentary. People: Wikidata changes,
+OpenSky VIP flights, Forbes, a local OpenSanctions PEP corpus.
 
-## Architecture
+Every source has a health state (fresh, fresh_empty, carry_forward,
+stale_after_failure, no_data) in `dist/run_report.json`, and the readiness
+manifest names any **required** source older than 3 days under
+`degradation`.
+
+## Layout
 
 ```
 worldscope/
-├── sections/        one module per briefing section
-├── store/           SQLite snapshot store (delta detection)
-├── synth.py         LLM synthesis (Claude API) with grounding constraints
-├── render.py        HTML page renderer
+├── sections/        one adapter per source (subclass Section, implement pull())
+├── lake/            SQLite lake + per-day JSONL; schema in lake/__init__.py
+├── history.py       cross-time query API over live DB + lake/archive partitions
+├── godseye.py       builds dist/live (GeoJSON layers + Leaflet page)
+├── signals.py radar.py stories.py claims.py   deterministic analysis
+├── synth.py overview.py                       Tier-4 LLM synthesis, cached
+├── readiness.py     dated producer/consumer contract (publish-daily, check-daily)
+├── lake_maintenance.py  size ceiling with archive-before-evict
 ├── brief.py         orchestrator + CLI
-└── .github/workflows/daily-brief.yml   06:00 ET cron + GH Pages deploy
+tools/render_brief.py   Markdown brief → Tailwind HTML with embedded map
+mcp-server/             read-only MCP server over the lake
+docs/                   routine prompt, editorial spec, red-team reports
 ```
-
-Every section subclasses `Section` and implements one method (`pull()`).
-The base class handles snapshot storage, delta detection, and HTML rendering.
-Adding a new section is one file.
 
 ## Run locally
 
 ```bash
-pip install -e .
-export ANTHROPIC_API_KEY=sk-...     # optional: enables LLM synthesis
-python -m worldscope.brief
-open dist/index.html
+pip install -e ".[all,dev]"
+export ANTHROPIC_API_KEY=sk-...        # optional: enables LLM synthesis
+python -m worldscope.brief --out dist  # full daily build
+python -m worldscope.godseye --out dist/live --days 7
+python -m worldscope.history counts --since 2026-06-01
+pytest
 ```
 
-## What ships in CI
+## Keys
 
-GitHub Actions runs the briefing every day at 06:00 America/New_York (10:30
-UTC; trim to exact 06:00 local later). The dist/ archive commits back to
-the repo and deploys to GitHub Pages. The HTML has `robots: noindex` so
-search engines won't pick it up; if you want true privacy, flip the repo
-to private (requires GH Pro).
+| Key | Needed for |
+|---|---|
+| `ANTHROPIC_API_KEY` | section synthesis, overview, translation, paper-bet placement |
+| `FRED_API_KEY` | macro |
+| `COURTLISTENER_API_TOKEN` | court opinions (rate limit) |
+| `ACLED_EMAIL`, `ACLED_PASSWORD` | ACLED OAuth |
+| `FIRMS_MAP_KEY` | NASA FIRMS |
+| `MEDIACLOUD_API_KEY`, `OPENSTATES_API_KEY`, `FINNHUB_API_KEY`, `OPENFEC_API_KEY` | respective sections |
+| `PUSHOVER_USER_KEY`, `PUSHOVER_APP_TOKEN` | delivery |
 
-## API keys needed
+Keys live only in CI secrets and `.env`. No key is ever shipped to the
+browser; the public site is static and a visitor triggers zero API calls.
 
-| Key | Required for | Where |
+## Schedules (UTC)
+
+| Workflow | Cron | Note |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | LLM synthesis (paragraphs grounded in cited items) | secrets / `.env` |
-| `COURTLISTENER_API_TOKEN` | court-opinion section (lifts rate limit) | already in `~/Projects/econscope/.env` |
-| `FRED_API_KEY` | macro section | already in `~/Projects/econscope/.env` |
-
-Without any of these, the corresponding section either uses the anonymous
-rate limit or falls back to a deterministic prose summary.
-
----
-
-Dr. Ian Helfrich · 2026
+| `daily-brief.yml` | `17 6 * * *` | off-peak minute; see the comment in the file for why |
+| Claude Routine | 10:30 (retry 13:30) | configured in claude.ai |
+| `render-briefings.yml` | on push + `15 11-13` | |
+| `pushover-brief.yml` | after render + `30 11-13` | |
+| `ukraine-hourly.yml` | `15 * * * *` | |
+| `live-map.yml` | `37 * * * *` | |

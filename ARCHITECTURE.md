@@ -87,6 +87,16 @@ What each candidate "upgrade" is actually for, and our stance:
 in their browser, or the repo approaches ~1 GB. Until then it only adds a bill,
 a network dependency, and a key-in-CI surface for capability we don't use.
 
+**Status 2026-10-09: the ~1 GB trigger has fired.** `lake/sections/**` is
+864 MB of uncompressed per-day JSONL and `dist/` adds ~15 MB a day. Worse, the
+85 MB ceiling on `lake/db/worldscope.sqlite` (GitHub's 100 MB file limit) was
+evicting history so aggressively that the queryable lake held nine days. The
+fix in place: `lake_maintenance.py` archives every evicted row into monthly
+gzip JSONL partitions under `lake/archive/` before deleting it, and
+`worldscope/history.py` is the single query API over live DB + archive. The
+open decision is where the archive lives long-term (compressed in-repo,
+GitHub Releases, or the Hugging Face dataset from roadmap item 2).
+
 ---
 
 ## 5. The engines (how the pieces fit)
@@ -121,8 +131,34 @@ snapshot store  ──┐                         worldscope/store/         (car
         ▼
    render → dist/ (static HTML)            tools/render_brief.py, site_builder.py
         ▼
-   GitHub Pages  +  Pushover               .github/workflows/*
+   readiness manifest                      worldscope/readiness.py
+   dist/status/daily/<date>.json           (hash-bound bundle + degradation)
+        ▼                       ▼
+   GitHub Pages                 desk-officer Routine (Claude Code)
+   + Pushover                   reads the dated bundle, composes
+   .github/workflows/*          briefings/<date>.md        docs/ROUTINE-*.md
+
+   hourly, independent:  godseye.py → dist/live/ (GeoJSON layers + Leaflet)
+                         history.py  ← lake DB + lake/archive/ partitions
 ```
+
+**The producer/consumer contract.** `daily-brief.yml` is the only writer of
+raw data. It publishes `status/daily/<date>.json` only after a successful
+same-date run, with the bundle's SHA-256 and byte count, the run report's
+hash, per-source health, and a `degradation` block naming any **required**
+source whose last good data is older than `MAX_STALE_DAYS`. The Routine
+validates with `python -m worldscope.readiness check-daily` and composes
+nothing on failure. Degradation never blocks (the bundle is real) but is
+printed as warnings and belongs in the brief's "Source coverage" line.
+
+**The timing lesson (2026-09-06 to 2026-10-09).** A clock-scheduled consumer
+and a clock-scheduled producer on GitHub's shared cron is a race, and GitHub
+delays top-of-the-hour schedules by hours. The strict 6-hour readiness window
+turned that race into 34 days of no brief. Rules now: producer on an
+off-peak minute (`17 6`), consumer at least 4 hours later with a retry slot,
+and a dead-man check on the *output* (`briefings/<today>.md`) rather than on
+inputs. The clean fix, if the billing model allows it, is a `workflow_run`
+trigger that composes inside Actions and cannot race.
 
 **signals vs radar — the distinction that keeps them from overlapping:**
 
@@ -157,8 +193,24 @@ tables are the rails; `signals.py` and `radar.py` fill them.
 
 ---
 
+## 6b. The god's-eye view (shipped 2026-10-09, v1)
+
+`worldscope/godseye.py` turns every coordinate-bearing record in the lake
+(FIRMS, USGS, GDACS, ACLED, GDELT GEO, Ukraine theater, VIP flights, weather
+alerts) plus a few keyless live feeds into static GeoJSON layers under
+`dist/live/layers/`, a `manifest.json` with per-input health, a
+`signals.json` "forest" panel from `cross_section.json`, and one
+self-contained Leaflet page at `/live/`. `live-map.yml` rebuilds it hourly.
+It obeys the one hard rule: the browser fetches only same-origin static files.
+It is analytic context, never safety or navigation guidance, and the page
+says so. v2 direction: cross-day story identity on the map, geocoded entity
+pins, and a static 2σ watch-area digest.
+
 ## 7. Roadmap (cost-aware, in priority order)
 
+0. **Output dead-man.** Alert when `briefings/<today>.md` is absent by
+   14:00Z. This is the check that would have caught the September outage on
+   day one. Cheapest, highest value.
 1. **Source discovery → human-in-the-loop Routine.** `radar.discover_candidate_sources`
    already surfaces recurring external domains we don't ingest. Next: a weekly
    Claude Code **Routine** that reads that list (+ thin watch-area coverage),

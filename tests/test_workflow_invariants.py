@@ -55,7 +55,8 @@ def test_daily_publishes_readiness_before_committing_dist():
 
 
 def test_pushover_workflows_use_validated_delivery_boundary():
-    for name in ("pushover-brief.yml", "watchdog-deadman.yml", "watchdog-alert.yml"):
+    for name in ("pushover-brief.yml", "watchdog-deadman.yml", "watchdog-alert.yml",
+                 "brief-deadman.yml"):
         body = _strip_comments(_read(name))
         assert "python -m worldscope.pushover_delivery" in body, name
         assert "api.pushover.net/1/messages.json" not in body, name

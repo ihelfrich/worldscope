@@ -2,13 +2,20 @@ name: Daily briefing
 
 on:
   schedule:
-    # 07:00 UTC = 03:00 ET (EDT) / 02:00 ET (EST). Runs 2 hours before the
-    # desk-officer routine (09:00 UTC) and 3 hours before the morning Pushover
-    # (10:00 UTC = 06:00 ET). Sequence: data pull (07:00) -> bundle + Pages
-    # deploy (~07:30-08:00) -> desk officer reads zip + composes brief (09:00)
-    # -> render-briefings.yml renders MD to HTML on commit (~09:30) ->
-    # Pushover sends today's freshly-composed brief at 06:00 ET (10:00 UTC).
-    - cron: "0 7 * * *"
+    # 06:17 UTC = 01:17 CDT / 00:17 CST, so the UTC date stamped on the bundle
+    # is already the America/Chicago date the desk-officer routine asks for.
+    #
+    # Why not "0 7": GitHub delays top-of-the-hour scheduled runs under load.
+    # Observed starts for "0 7 * * *" between 2026-09-03 and 2026-10-09 were
+    # 11:03Z..15:24Z (4-8 h late), which put every bundle outside the 6-hour
+    # readiness window of the 09:00Z routine. No desk-officer brief shipped
+    # between 2026-09-06 and 2026-10-09 as a result. Off-peak minutes drift
+    # far less. The consumer schedule must still leave margin:
+    #   producer 06:17Z (+drift) -> readiness manifest ~06:45-08:30Z
+    #   desk-officer routine     10:30Z (05:30 CT), retry slot 13:30Z
+    #   Pushover delivery        11:30-13:30Z (existing crons)
+    # The manifest's generated_at must be < 6 h old when the routine fires.
+    - cron: "17 6 * * *"
   workflow_dispatch:  # so you can fire manually too
 
 permissions:
