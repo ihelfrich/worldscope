@@ -68,16 +68,36 @@ def main(argv=None) -> int:
     except Exception as exc:
         print(f"[{sec.id}] to_lake failed: {type(exc).__name__}: {exc}")
 
+    rc = 0
     if args.emit_maps and args.section == "ukraine_theater":
-        try:
-            from .cartography_ukraine import UkraineMaps
-            for name, path in UkraineMaps().render_all(today.isoformat()).items():
-                print(f"[ukraine-map] {name}: {path}")
-            print(f"[run_section] mirrored {_mirror_maps(today.isoformat())} maps into briefings/")
-        except Exception as exc:
-            print(f"[run_section] map emit failed (data still refreshed): "
-                  f"{type(exc).__name__}: {exc}")
-    return 0
+        rc = emit_ukraine_maps(today.isoformat())
+    return rc
+
+
+def emit_ukraine_maps(stem: str) -> int:
+    """Render + mirror the Ukraine theater maps. Returns 0 on success, 1 on
+    failure. The data refresh (resolve + to_lake) has already completed by
+    the time this runs, so a map failure never loses data, but it must not
+    hide behind a green check either: we emit a `::error::` annotation and
+    the caller exits non-zero so the Actions run shows red. The workflow's
+    commit step runs `if: !cancelled()` so the refreshed lake is still
+    pushed."""
+    try:
+        from .cartography_ukraine import UkraineMaps
+        rendered = UkraineMaps().render_all(stem)
+        for name, path in rendered.items():
+            print(f"[ukraine-map] {name}: {path}")
+        n = _mirror_maps(stem)
+        print(f"[run_section] mirrored {n} maps into briefings/")
+        if not rendered:
+            print("::error title=ukraine maps::render_all produced no maps")
+            return 1
+        return 0
+    except Exception as exc:
+        print(f"[run_section] map emit failed (data still refreshed): "
+              f"{type(exc).__name__}: {exc}")
+        print(f"::error title=ukraine maps::map emit failed: {type(exc).__name__}: {exc}")
+        return 1
 
 
 if __name__ == "__main__":

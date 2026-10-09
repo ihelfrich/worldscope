@@ -46,24 +46,38 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
+        # `.[ci]` (same as daily-brief.yml) brings fiona, which the map
+        # renderer needs for the Natural Earth world polygons; the plain
+        # requirements.txt install silently degraded the maps to no borders
+        # ("world polygons load failed: No module named 'fiona'").
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -e ".[ci]"
 
       - name: Install web-intel (Go crawler)
         run: |
           go install github.com/ihelfrich/web-intel@latest || echo "web-intel install skipped; section will fall back"
 
       - name: Run Ukraine theater section only
+        id: refresh
         env:
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
           ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
-          NASA_FIRMS_KEY: ${{ secrets.NASA_FIRMS_KEY }}
+          # The FIRMS adapter reads FIRMS_MAP_KEY (worldscope/sections/firms.py),
+          # the same secret daily-brief.yml passes. NASA_FIRMS_KEY was never
+          # read by any code path.
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           FORCE_FULL_RECRAWL: ${{ github.event.inputs.force_full_recrawl }}
+        # run_section exits non-zero (with a ::error:: annotation) when the
+        # map render fails, so a broken map shows up red instead of as a
+        # green check with a buried log line. The lake refresh completes
+        # before the maps are attempted, so the commit step below still runs.
         run: |
           python -m worldscope.run_section --section ukraine_theater --emit-maps
 
       - name: Commit & push refreshed artifacts
+        # Push the refreshed lake snapshot even when the map step failed.
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "ukraine-hourly-bot"
           git config user.email "bot@worldscope.local"

@@ -308,6 +308,77 @@ def strip_google_news_links(html_body: str) -> str:
     )
 
 
+# Markdown passes raw HTML through untouched, and the briefing markdown is
+# itself built from untrusted feed/scraper text, so the rendered body is a
+# stored-XSS sink on the public Pages site. No sanitizer dependency is
+# available (bleach/nh3 are not in pyproject), so this is a conservative
+# regex pass over the *body only*: the page template (LEAFLET_SCRIPT, the
+# network seed, lucide/alpine loaders) is added by this renderer after the
+# pass and is never subject to it.
+_DANGEROUS_TAGS = ("script", "iframe", "object", "embed", "base", "meta", "link")
+_BLOCK_TAG_RE = re.compile(
+    r"<\s*(script|iframe|object|embed)\b[^>]*>.*?<\s*/\s*\1\s*>",
+    re.IGNORECASE | re.DOTALL,
+)
+_LONE_TAG_RE = re.compile(
+    r"<\s*/?\s*(?:" + "|".join(_DANGEROUS_TAGS) + r")\b[^>]*>?",
+    re.IGNORECASE,
+)
+_ON_ATTR_RE = re.compile(
+    r"""\s+on[a-z0-9_-]+\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)""",
+    re.IGNORECASE,
+)
+_URL_ATTR_RE = re.compile(
+    r"""(\s+(?:href|src|action|formaction|xlink:href|poster|background)\s*=\s*)"""
+    r"""("([^"]*)"|'([^']*)'|([^\s>]+))""",
+    re.IGNORECASE,
+)
+_TAG_RE = re.compile(r"<([a-zA-Z][^>]*)>")
+
+
+def _dangerous_url(value: str) -> bool:
+    """True for javascript:/vbscript:/data:text/html URLs, including the usual
+    entity-encoded and whitespace-padded bypasses (`&#106;avascript:`,
+    `java\tscript:`)."""
+    decoded = html.unescape(value)
+    compact = re.sub(r"[\s\x00-\x1f\x7f]", "", decoded).lower()
+    return compact.startswith(("javascript:", "vbscript:", "data:text/html",
+                               "data:application/", "data:image/svg+xml"))
+
+
+def _sanitize_tag(match: re.Match) -> str:
+    tag = match.group(0)
+    tag = _ON_ATTR_RE.sub("", tag)
+
+    def fix_url(m: re.Match) -> str:
+        raw = m.group(3) if m.group(3) is not None else (
+            m.group(4) if m.group(4) is not None else m.group(5))
+        if _dangerous_url(raw or ""):
+            return f'{m.group(1)}"#"'
+        return m.group(0)
+
+    return _URL_ATTR_RE.sub(fix_url, tag)
+
+
+def sanitize_html(html_body: str) -> str:
+    """Strip active content from markdown-derived HTML.
+
+    Removes <script>/<iframe>/<object>/<embed> elements (with their content),
+    lone <base>/<meta>/<link> tags, every on*= event-handler attribute and
+    any javascript:/vbscript:/data:text/html URL attribute (replaced with
+    "#"). Ordinary markup, external http(s) links, images and tables pass
+    through unchanged.
+    """
+    if not html_body:
+        return html_body
+    out = _BLOCK_TAG_RE.sub("", html_body)
+    # Run twice so a nested or split wrapper (`<scr<script>ipt>`) cannot
+    # reassemble into a tag after the first removal.
+    out = _LONE_TAG_RE.sub("", _LONE_TAG_RE.sub("", out))
+    out = _TAG_RE.sub(_sanitize_tag, out)
+    return out
+
+
 def dedupe_images(html_body: str) -> str:
     """Strip duplicate <img> tags pointing at the same src."""
     seen: set[str] = set()
@@ -410,6 +481,9 @@ def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     body_html = callout_pass(body_html)
     body_html = dedupe_images(body_html)
     body_html = strip_google_news_links(body_html)
+    # Last pass over the markdown-derived body, before the template (Leaflet
+    # embed, network seed) is added around it.
+    body_html = sanitize_html(body_html)
     areas = load_watch_dashboard()
     dash = dashboard_html(areas, md_text)
     side = sidebar_html(headings, areas)

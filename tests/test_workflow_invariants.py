@@ -88,3 +88,45 @@ def test_pushover_workflow_never_embeds_expressions_in_shell_source():
     assert "${{" not in shell_source
     assert 'python3 -c "' not in shell_source
     assert "MANUAL_BRIEF: ${{ github.event.inputs.brief }}" in body
+
+
+def test_pushover_pick_step_does_not_sigpipe_or_use_mtime():
+    body = _strip_comments(_read("pushover-brief.yml"))
+    pick = body.split("- id: pick", 1)[1].split("- name: Send Pushover", 1)[0]
+    # `... | head -c N > file` closes the pipe early and SIGPIPEs sed under
+    # `set -o pipefail` whenever the brief is longer than N bytes.
+    assert not re.search(r"\|\s*head\s+-c", pick)
+    # mtime is checkout time in CI; the date in the filename must decide.
+    assert "ls -t" not in pick
+    assert "python -m worldscope.pushover_delivery pick" in pick
+    assert "--body-file /tmp/body.txt" in pick
+    assert '--github-output "$GITHUB_OUTPUT"' in pick
+
+
+def test_pushover_receipt_push_retries_with_rebase():
+    body = _strip_comments(_read("pushover-brief.yml"))
+    commit = body.split("- name: Commit validated delivery receipt", 1)[1]
+    assert "git pull --rebase --autostash origin main" in commit
+    assert re.search(r"for attempt in 1 2 3 4 5", commit)
+    # a bare, unguarded push must not remain
+    assert not re.search(r"^\s*git push\s*$", commit, re.M)
+
+
+def test_ukraine_hourly_installs_ci_extras_and_passes_firms_key_code_reads():
+    body = _read("ukraine-hourly.yml")
+    assert 'pip install -e ".[ci]"' in body
+    assert "pip install -r requirements.txt" not in body
+    firms = (WF.parents[1] / "worldscope" / "sections" / "firms.py").read_text()
+    assert 'os.environ.get("FIRMS_MAP_KEY")' in firms
+    assert "FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}" in body
+    assert "NASA_FIRMS_KEY" not in _strip_comments(body)
+
+
+def test_ukraine_hourly_commits_lake_even_when_map_step_fails():
+    body = _strip_comments(_read("ukraine-hourly.yml"))
+    commit = body.split("- name: Commit & push refreshed artifacts", 1)[1]
+    assert re.search(r"^\s*if:\s*\$\{\{\s*!cancelled\(\)\s*\}\}", commit, re.M)
+    run = body.split("- name: Run Ukraine theater section only", 1)[1].split("- name:", 1)[0]
+    assert "continue-on-error" not in run
+    assert "--emit-maps" in run
+
