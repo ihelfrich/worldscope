@@ -2,21 +2,17 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-09
-record_count: 626
-new_today: 380
+record_count: 627
+new_today: 383
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-380 new of 626 total items today.
+383 new of 627 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-10-09*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-09*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[acled exception] UpstreamAuthError]() — *2026-10-09*
-  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - **NEW**  [[FIRMS] thermal anomaly 50.546, 26.262 (FRP 1.05 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@26.262,50.546,9z) — *2026-10-08*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-08 0141Z, FRP 1.05 MW
 - **NEW**  [[FIRMS] thermal anomaly 50.541, 26.258 (FRP 0.97 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@26.258,50.541,9z) — *2026-10-08*
@@ -61,5 +57,9 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-08 0143Z, FRP 0.78 MW
 - **NEW**  [[FIRMS] thermal anomaly 51.964, 34.084 (FRP 1.93 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.084,51.964,9z) — *2026-10-08*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-08 0143Z, FRP 1.93 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.964, 34.091 (FRP 2.78 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.091,51.964,9z) — *2026-10-08*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-08 0143Z, FRP 2.78 MW
+- **NEW**  [[FIRMS] thermal anomaly 44.092, 26.339 (FRP 4.2 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@26.339,44.092,9z) — *2026-10-08*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-08 1128Z, FRP 4.2 MW
 
-_(601 additional items in raw.jsonl)_
+_(602 additional items in raw.jsonl)_
