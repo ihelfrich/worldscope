@@ -15,7 +15,10 @@ rejected. maintain_store() applies the same treatment to it.
 This module, run before the daily commit, keeps both DBs healthy:
   1. prune the quarantine table to a short retention window,
   2. prune records (and orphaned links) beyond a rolling window (insurance
-     against unbounded future growth),
+     against unbounded future growth) — every record row about to be
+     evicted (by age or by the size ceiling below) is first written to
+     lake/archive/<table>/YYYY-MM.jsonl.gz via worldscope.lake_archive, so
+     cross-time history stays queryable through worldscope.history,
   3. prune snapshot-store history beyond a rolling window, always keeping
      the newest row per section (the render carry-forward reads it),
   4. VACUUM to reclaim freed pages,
@@ -23,6 +26,7 @@ This module, run before the daily commit, keeps both DBs healthy:
 
     python -m worldscope.lake_maintenance            # default thresholds
     python -m worldscope.lake_maintenance --keep-days 120
+    python -m worldscope.lake_maintenance --no-archive   # evict without archiving
 """
 from __future__ import annotations
 
@@ -30,6 +34,9 @@ import argparse
 import sqlite3
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Optional
+
+from .lake_archive import DEFAULT_ARCHIVE, archive_records_where
 
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_LAKE = REPO / "lake" / "db" / "worldscope.sqlite"
@@ -48,14 +55,37 @@ def _exec(con: sqlite3.Connection, sql: str, params=()) -> int:
         return 0
 
 
+def _archive(con: sqlite3.Connection, archive_dir: Optional[Path],
+             where_sql: str, params, totals: dict) -> None:
+    """Archive-before-evict: copy the records (+ record_entities) that the
+    following DELETE will remove into the monthly gzip partitions. A failure
+    here must NOT be swallowed — losing history silently is the bug this
+    exists to fix — so it propagates and the eviction does not happen."""
+    if archive_dir is None:
+        return
+    res = archive_records_where(con, where_sql, params, root=archive_dir)
+    totals["records_archived"] += res.get("records", 0)
+    totals["links_archived"] += res.get("record_entities", 0)
+    for m in res.get("months", []):
+        totals.setdefault("months", [])
+        if m not in totals["months"]:
+            totals["months"].append(m)
+
+
 def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
              quarantine_keep_days: int = 2, max_mb: float = 85.0,
-             vacuum: bool = True) -> dict:
+             vacuum: bool = True,
+             archive_dir: Optional[Path] = DEFAULT_ARCHIVE) -> dict:
+    """Prune + VACUUM the lake. Every `records` row evicted here (by
+    keep_days or by the max_mb ceiling) is archived first under
+    `archive_dir` (lake/archive by default; pass None to disable).
+    """
     db_path = Path(db_path)
     if not db_path.exists():
         print(f"[lake-maint] no lake at {db_path}")
         return {"ok": False}
     before = db_path.stat().st_size
+    archived = {"records_archived": 0, "links_archived": 0, "months": []}
     now = datetime.now(timezone.utc)
     q_cut = (now - timedelta(days=quarantine_keep_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
     r_cut = (now - timedelta(days=keep_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -67,6 +97,7 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
         # also hard-cap quarantine so a single bad day can't balloon it
         _exec(con, "DELETE FROM quarantine WHERE id IN "
                    "(SELECT id FROM quarantine ORDER BY detected_at DESC LIMIT -1 OFFSET 2000)")
+        _archive(con, archive_dir, "ingested_at < ?", (r_cut,), archived)
         nr = _exec(con, "DELETE FROM records WHERE ingested_at < ?", (r_cut,))
         # clean up links/embeddings orphaned by the record prune
         _exec(con, "DELETE FROM record_entities WHERE record_id NOT IN (SELECT id FROM records)")
@@ -87,6 +118,7 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
                 print(f"::warning::lake still {db_path.stat().st_size/1e6:.1f}MB "
                       f"with no records left to prune — non-record tables are the bloat")
                 break
+            _archive(con, archive_dir, "date(ingested_at) = ?", (oldest,), archived)
             nr += _exec(con, "DELETE FROM records WHERE date(ingested_at) = ?", (oldest,))
             _exec(con, "DELETE FROM record_entities WHERE record_id NOT IN (SELECT id FROM records)")
             _exec(con, "DELETE FROM record_embeddings WHERE record_id NOT IN (SELECT id FROM records)")
@@ -100,11 +132,18 @@ def maintain(db_path: Path = DEFAULT_LAKE, *, keep_days: int = 120,
     mb = after / 1e6
     print(f"[lake-maint] quarantine pruned ~{nq} rows, records pruned ~{nr} rows · "
           f"{before/1e6:.1f}MB -> {mb:.1f}MB")
+    if archive_dir is not None and archived["records_archived"]:
+        print(f"[lake-maint] archived {archived['records_archived']} records + "
+              f"{archived['links_archived']} entity links to {archive_dir} "
+              f"(months: {', '.join(archived['months'])})")
     if mb > SOFT_WARN_MB:
         print(f"::warning::lake is {mb:.1f}MB, approaching GitHub's 100MB limit — "
               f"tighten --keep-days or move the lake out of git (LFS / external store)")
     return {"ok": True, "before": before, "after": after, "mb": mb,
-            "quarantine_deleted": nq, "records_deleted": nr}
+            "quarantine_deleted": nq, "records_deleted": nr,
+            "records_archived": archived["records_archived"],
+            "links_archived": archived["links_archived"],
+            "archive_dir": str(archive_dir) if archive_dir is not None else None}
 
 
 # SQL fragment for the rows that must never be pruned: the newest snapshot
@@ -179,10 +218,15 @@ def main(argv=None) -> int:
                     help="retain snapshots within this many days of the newest")
     ap.add_argument("--store-max-mb", type=float, default=80.0)
     ap.add_argument("--no-vacuum", action="store_true")
+    ap.add_argument("--archive-dir", default=str(DEFAULT_ARCHIVE),
+                    help="where evicted records are archived as monthly .jsonl.gz")
+    ap.add_argument("--no-archive", action="store_true",
+                    help="evict without archiving (history is lost; not recommended)")
     args = ap.parse_args(argv)
     res = maintain(Path(args.db), keep_days=args.keep_days,
                    quarantine_keep_days=args.quarantine_keep_days,
-                   max_mb=args.lake_max_mb, vacuum=not args.no_vacuum)
+                   max_mb=args.lake_max_mb, vacuum=not args.no_vacuum,
+                   archive_dir=None if args.no_archive else Path(args.archive_dir))
     store_res = maintain_store(Path(args.store), keep_days=args.store_keep_days,
                                max_mb=args.store_max_mb, vacuum=not args.no_vacuum)
     return 0 if (res.get("ok") and store_res.get("ok")) else 1

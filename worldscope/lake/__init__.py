@@ -33,8 +33,9 @@ Public API:
     Lake.add_anomaly(...)
 
 Schema versioning:
-    schema_version row in `meta` table. Migrations are idempotent SQL files
-    in worldscope/lake/migrations/. open() runs every pending migration.
+    schema_version row in `meta` table. SCHEMA_V1 is the self-bootstrapping
+    base; later versions are idempotent migration scripts in MIGRATIONS,
+    applied in order by open() and recorded by bumping meta.schema_version.
 """
 from __future__ import annotations
 
@@ -319,6 +320,23 @@ CREATE TABLE IF NOT EXISTS record_embeddings (
 CREATE INDEX IF NOT EXISTS idx_re_indexed ON record_embeddings(indexed_at);
 """
 
+# v2: records.ingested_at is first-seen (upsert_record no longer overwrites it
+# on conflict — that was wiping the only cross-time signal the lake had);
+# last_seen_at carries the most recent re-ingestion. Existing rows get
+# last_seen_at = ingested_at. Applied by Lake._migrate when schema_version < 2.
+SCHEMA_V2 = r"""
+UPDATE records SET last_seen_at = ingested_at WHERE last_seen_at IS NULL;
+UPDATE meta SET value = '2' WHERE key = 'schema_version' AND CAST(value AS INTEGER) < 2;
+"""
+
+# (version, column adds, script) — ALTER TABLE ADD COLUMN is not idempotent in
+# SQLite, so column additions are declared separately and guarded by
+# PRAGMA table_info before the script runs.
+MIGRATIONS: list[tuple[int, list[tuple[str, str, str]], str]] = [
+    (2, [("records", "last_seen_at", "TEXT")], SCHEMA_V2),
+]
+SCHEMA_VERSION = 2
+
 
 # --------------------------------------------------------------------- #
 # Lake API
@@ -364,7 +382,23 @@ class Lake:
 
     def _migrate(self) -> None:
         assert self._conn is not None
-        self._conn.executescript(SCHEMA_V1)
+        conn = self._conn
+        conn.executescript(SCHEMA_V1)
+        for version, columns, script in MIGRATIONS:
+            cur = int(conn.execute(
+                "SELECT value FROM meta WHERE key='schema_version'").fetchone()[0])
+            if cur >= version:
+                continue
+            for table, column, decl in columns:
+                have = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+                if column not in have:
+                    conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")
+            conn.executescript(script)
+
+    def schema_version(self) -> int:
+        conn = self._ensure_open()
+        return int(conn.execute(
+            "SELECT value FROM meta WHERE key='schema_version'").fetchone()[0])
 
     def close(self) -> None:
         if self._conn is not None:
@@ -521,21 +555,27 @@ class Lake:
                       original_url: Optional[str], original_text: Optional[str],
                       original_lang: str = "en", record_date: Optional[str] = None,
                       license: Optional[str] = None, extra: Optional[dict] = None) -> None:
+        """Insert or refresh one record. `ingested_at` is FIRST-SEEN: it is
+        set on insert and never overwritten on conflict (a re-ingested item
+        keeps its original timestamp, which is what lake_maintenance's age
+        eviction and the archive partitioning key on). `last_seen_at` moves
+        forward on every upsert."""
         conn = self._ensure_open()
+        now = _utcnow()
         conn.execute(
             """
             INSERT INTO records
-              (id, source_id, section_id, ingested_at, original_url,
+              (id, source_id, section_id, ingested_at, last_seen_at, original_url,
                original_text, original_lang, record_date, license, extra_json)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(id) DO UPDATE SET
-              ingested_at = excluded.ingested_at,
+              last_seen_at = excluded.last_seen_at,
               original_url = excluded.original_url,
               original_text = excluded.original_text,
               record_date = excluded.record_date,
               extra_json = excluded.extra_json
             """,
-            (record_id, source_id, section_id, _utcnow(),
+            (record_id, source_id, section_id, now, now,
              original_url, (original_text or "")[:500], original_lang,
              record_date, license, json.dumps(extra or {}, sort_keys=True)),
         )
