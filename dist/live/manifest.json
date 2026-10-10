@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-10T16:01:23Z",
- "generated_ts": 1791648083,
+ "generated_at": "2026-10-10T20:19:53Z",
+ "generated_ts": 1791663593,
  "days": 7,
  "network": true,
  "layers": [
   {
    "layer": "firms",
    "file": "layers/firms.geojson",
-   "count": 1,
-   "freshest_ts": 1791369900,
-   "freshest_at": "2026-10-07T10:45:00Z",
+   "count": 0,
+   "freshest_ts": null,
+   "freshest_at": null,
    "inputs": [
     "lake:firms",
     "live:eonet"
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 160,
-   "freshest_ts": 1791635995,
-   "freshest_at": "2026-10-10T12:39:55Z",
+   "count": 168,
+   "freshest_ts": 1791648342,
+   "freshest_at": "2026-10-10T16:05:42Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,7 +31,7 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 339,
+   "count": 327,
    "freshest_ts": 1791635995,
    "freshest_at": "2026-10-10T12:39:55Z",
    "inputs": [
@@ -63,9 +63,9 @@
   {
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
-   "count": 1692,
-   "freshest_ts": 1791648083,
-   "freshest_at": "2026-10-10T16:01:23Z",
+   "count": 1817,
+   "freshest_ts": 1791663593,
+   "freshest_at": "2026-10-10T20:19:53Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -87,8 +87,8 @@
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
    "count": 30,
-   "freshest_ts": 1791648120,
-   "freshest_at": "2026-10-10T16:02:00Z",
+   "freshest_ts": 1791663480,
+   "freshest_at": "2026-10-10T20:18:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1791648083,
-   "freshest_at": "2026-10-10T16:01:23Z",
+   "freshest_ts": 1791663593,
+   "freshest_at": "2026-10-10T20:19:53Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -140,7 +140,7 @@
    "name": "lake:ukraine_theater",
    "layer": "ukraine",
    "ok": true,
-   "count": 1882,
+   "count": 2007,
    "error": null
   },
   {
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 52,
+   "count": 47,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -183,9 +183,9 @@
   {
    "name": "live:eonet",
    "layer": "firms+gdacs",
-   "ok": true,
-   "count": 13,
-   "error": null,
+   "ok": false,
+   "count": 0,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='eonet.gsfc.nasa.gov', port=443): Read timed out. (read timeout=15)",
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
   {
@@ -269,11 +269,11 @@
   }
  ],
  "counts": {
-  "firms": 1,
-  "quakes": 160,
-  "gdacs": 339,
+  "firms": 0,
+  "quakes": 168,
+  "gdacs": 327,
   "conflict": 0,
-  "ukraine": 1692,
+  "ukraine": 1817,
   "flights": 132,
   "weather_alerts": 30,
   "watch_areas": 6
