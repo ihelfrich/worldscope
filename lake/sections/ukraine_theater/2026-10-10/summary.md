@@ -3,13 +3,13 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-10
 record_count: 433
-new_today: 76
+new_today: 77
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-76 new of 433 total items today.
+77 new of 433 total items today.
 
 - [[FIRMS] thermal anomaly 52.807, 32.225 (FRP 0.93 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.225,52.807,9z) — *2026-10-09*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-09 0122Z, FRP 0.93 MW
