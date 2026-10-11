@@ -2,21 +2,15 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-11
-record_count: 494
-new_today: 228
+record_count: 597
+new_today: 337
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-228 new of 494 total items today.
+337 new of 597 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-10-11*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-11*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- [[acled exception] UpstreamAuthError]() — *2026-10-11*
-  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - **NEW**  [[FIRMS] thermal anomaly 47.786, 29.015 (FRP 0.85 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.015,47.786,9z) — *2026-10-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0105Z, FRP 0.85 MW
 - **NEW**  [[FIRMS] thermal anomaly 44.774, 33.860 (FRP 0.66 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.860,44.774,9z) — *2026-10-10*
@@ -61,5 +55,11 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0107Z, FRP 1.92 MW
 - **NEW**  [[FIRMS] thermal anomaly 44.282, 23.033 (FRP 0.89 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.033,44.282,9z) — *2026-10-10*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0107Z, FRP 0.89 MW
+- **NEW**  [[FIRMS] thermal anomaly 44.290, 23.043 (FRP 1.16 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.043,44.290,9z) — *2026-10-10*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0107Z, FRP 1.16 MW
+- **NEW**  [[FIRMS] thermal anomaly 44.284, 23.033 (FRP 0.68 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.033,44.284,9z) — *2026-10-10*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0107Z, FRP 0.68 MW
+- **NEW**  [[FIRMS] thermal anomaly 44.197, 23.275 (FRP 0.76 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.275,44.197,9z) — *2026-10-10*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-10 0107Z, FRP 0.76 MW
 
-_(469 additional items in raw.jsonl)_
+_(572 additional items in raw.jsonl)_
