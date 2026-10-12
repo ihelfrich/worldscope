@@ -5,18 +5,16 @@ on:
     # 06:17 UTC = 01:17 CDT / 00:17 CST, so the UTC date stamped on the bundle
     # is already the America/Chicago date the desk-officer routine asks for.
     #
-    # Why not "0 7": GitHub delays top-of-the-hour scheduled runs under load.
-    # Observed starts for "0 7 * * *" between 2026-09-03 and 2026-10-09 were
-    # 11:03Z..15:24Z (4-8 h late), which put every bundle outside the 6-hour
-    # readiness window of the 09:00Z routine. No desk-officer brief shipped
-    # between 2026-09-06 and 2026-10-09 as a result. Off-peak minutes drift
-    # far less. Composition is now chained to this run by workflow_run
-    # (compose-brief.yml), so it cannot race. If the claude.ai Routine is
-    # kept as a fallback it must still leave margin:
-    #   producer 06:17Z (+drift) -> readiness manifest ~06:45-08:30Z
-    #   compose-brief.yml        immediately after, via workflow_run
-    #   desk-officer routine     10:30Z (05:30 CT) fallback, idempotent
-    #   Pushover delivery        11:30-13:30Z (existing crons)
+    # Observed delay: GitHub queues this run 6-8 h late regardless of the
+    # minute chosen. Observed actual starts (2026-10-10..10-11): 12:31Z-12:49Z.
+    # Composition is chained to this run by workflow_run (compose-brief.yml),
+    # so it cannot race and timing is irrelevant for that path. If the
+    # claude.ai Routine is kept as a fallback, it must fire AFTER this run
+    # consistently finishes (observed ~13:04Z); schedule it at 15:00Z or later:
+    #   producer 06:17Z (+6-8 h drift) -> manifest lands ~12:30-15:30Z
+    #   compose-brief.yml              immediately after, via workflow_run
+    #   desk-officer routine           15:00Z (10:00 CT) fallback, idempotent
+    #   Pushover delivery              11:30-13:30Z (existing crons)
     # The manifest's generated_at must be < 6 h old when a consumer fires.
     - cron: "17 6 * * *"
   workflow_dispatch:  # so you can fire manually too
