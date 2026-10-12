@@ -10,9 +10,9 @@ produced stale or missing briefs. This file is the source of truth for both.
 
 | Step | Owner | Time |
 |---|---|---|
-| Raw collection, bundle, readiness manifest, Pages deploy | `daily-brief.yml` | cron `17 6 * * *` UTC, lands ~06:45-08:30Z |
+| Raw collection, bundle, readiness manifest, Pages deploy | `daily-brief.yml` | cron `17 6 * * *` UTC; GitHub queues it 6-8 h late -- observed actual finish ~12:30-15:30Z |
 | Desk-officer composition, primary | `compose-brief.yml` (claude-code-action, Opus) | `workflow_run` on "Daily briefing" success, so it never races |
-| Desk-officer composition, fallback | Claude Routine | **05:30 CT (10:30Z)**, retry slot **08:30 CT (13:30Z)** |
+| Desk-officer composition, fallback | Claude Routine | **10:00 CT (15:00Z)** -- must be after the producer consistently finishes |
 | Markdown to HTML render | `render-briefings.yml` | on push of `briefings/**.md` |
 | Pushover delivery | `pushover-brief.yml` | after render, plus crons 11:30-13:30Z |
 | Output dead-man | `brief-deadman.yml` | 14:30Z, alerts if `briefings/<today>.md` is missing |
@@ -23,6 +23,29 @@ first wins and the other exits quietly. `compose-brief.yml` is API-billed
 switched off with the repository variable `COMPOSE_IN_ACTIONS=false`. The
 Routine is subscription-billed and only matters if that switch is off or the
 Actions run fails.
+
+### Required setup (compose-brief.yml)
+
+`compose-brief.yml` requires one of these repository secrets to be set
+(Settings -> Secrets and variables -> Actions -> Repository secrets):
+
+- **`ANTHROPIC_API_KEY`** -- a key from console.anthropic.com, OR
+- **`CLAUDE_CODE_OAUTH_TOKEN`** -- the OAuth token from a claude.ai session
+
+Without either, every `compose-brief.yml` run fails immediately. The workflow
+accepts both; set whichever you have. If both are set, `ANTHROPIC_API_KEY`
+takes precedence (it is the `anthropic_api_key` input).
+
+### Required action: reschedule the Routine
+
+The Claude Code Routine was observed firing at 10:30Z (05:30 CT). The
+daily-brief workflow consistently finishes at 12:30-15:30Z due to GitHub
+runner queue delays. The Routine sees a 404 every day and writes
+`status/source_not_ready_<date>.txt` instead of a brief.
+
+**Reschedule the Routine to 15:00Z (10:00 CT)** in the Claude Code session
+or scheduling configuration where it was set up. The `compose-brief.yml`
+primary path is the better long-term solution once the secret is set.
 
 The consumer checks `status/daily/<TODAY>.json` where TODAY is the Chicago
 date. The manifest's `generated_at` must be younger than 6 hours, which is
