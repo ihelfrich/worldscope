@@ -2,19 +2,15 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-13
-record_count: 369
-new_today: 56
+record_count: 368
+new_today: 66
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-56 new of 369 total items today.
+66 new of 368 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-10-13*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-13*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[FIRMS] thermal anomaly 51.075, 34.986 (FRP 0.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.986,51.075,9z) — *2026-10-12*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0028Z, FRP 0.44 MW
 - [[FIRMS] thermal anomaly 50.545, 26.259 (FRP 1.07 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@26.259,50.545,9z) — *2026-10-12*
@@ -51,15 +47,19 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0030Z, FRP 0.95 MW
 - [[FIRMS] thermal anomaly 44.238, 22.557 (FRP 1.22 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.557,44.238,9z) — *2026-10-12*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0030Z, FRP 1.22 MW
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-13*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-10-13*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[acled exception] UpstreamAuthError]() — *2026-10-13*
   > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - **NEW**  [[Liveuamap] Houthis report 119 airstrikes on sites under their control in Hodeidah and Al-Jawf over the past 24 hours. - Liveuamap](https://yemen.liveuamap.com) — *2026-10-13*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPekhITmFhZEFpR3huUENsSVl3d0NFQlF4NEIySnRkekk4ckhOdmV2Y054T1FLMTdCNEtzWjB4dV9RSHZxQ2QxeVE1SkktWHR1dnFqTnRpV0p5bXVBU0h4VXFuTFNkblZyMTI2X081YkFpWUVtUm5RNWUzZ05ZZklCY2JkWkUzR0QwbFJobm9Pa1lsZlFCY2JKbldR?oc=5" target="_blank"
-- [[Liveuamap] Trump announces an immediate "energy ceasefire" between Russia and Ukraine, saying both sides have agreed to the arrangement Washington, District of Columbia - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-10-11*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHJnNUVCY3pycDY1RHdNbjVlbHREcGhkU1lSZ0M3SzVtRzdfdmFDSWtMMndYU0VPcko5c3I4d0F3cE5PbHZQejBYalBHX0pON3I3ZlNBN2w4ZEVTcDM5UDBfV0FVSE5oYTVadUVnd2lDWnpsanRnQXpTdi1PSUhhalNnMEVHSU5rU0xCWWJta0FfU2s?oc=5" target="_blank">Trump an
+- **NEW**  [[Liveuamap] Twenty people were injured in a Russian drone strike on a university building in Rivne. - Liveuamap](https://liveuamap.com) — *2026-10-13*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPeXJ1cUJ0bHlqWmNZOE5XbV96b1F1QjBlSG9YLU9yRzV6N1NhVTNDSEpsWmFBMG9Yam8xbVp2QWpBVEdKLXBheDdVTEpTaVlBeEluSHFzRzljaHNCSUVBTFNrd3BBRzZNTVpJTE5FTTFjZHlUTy0tX0ZyWXl0RlN0NGZjUzNHeFJnN0dYalh0NXllUQ?oc=5" target="_blank">Twenty pe
+- **NEW**  [[Liveuamap] A high-voltage power line was damaged in a Russian attack on Kyiv, Mayor Vitali Klitschko said. He also reported reduced water pressure on both the right and left banks of the city. Emergency repair crews are already working. Kyiv, Kyiv cit](https://liveuamap.com) — *2026-10-11*
+  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1faE92NmdrT1hSYmF4QnJSN3M4eVBZX1VzSHlyZy02SC11VEVVN1NUZk5JR3FjZnp6Z3NyZEMtdnhJQ1JXNFpKREp2bmd0cVNLRTQtaVhpdkFKUlIwTGdB?oc=5" target="_blank">A high-voltage power line was damaged in a Russian attack on Kyiv, Mayor Vitali
 - [[Liveuamap] UK Maritime Trade Operations: Report of unidentified projectile targeting oil tanker in the Strait of Hormuz, causing damage. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-10-11*
   > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlJjY2RDd1RjQmo5S0MtaDE2OGczU3NzMUMwVzV1QlZpdmNKWFlZM1NGTV9fS2RFMk5LZWo2UzhYWmZzaXBnUzlyNmo3VUJJd2Q3NVNyUDE5TWQzRU52ZlBLM1htZ2pzWlRLd0Ewa0l2Y0NJOVBxdXVUZEktejRzS3p5M05XeU9QYm1rREs2VF8tMGVjZVBWbFplSk82Y0tIX3c?oc=5" targ
-- [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2026-10-12*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 
-_(344 additional items in raw.jsonl)_
+_(343 additional items in raw.jsonl)_
