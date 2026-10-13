@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-13
-record_count: 368
-new_today: 66
+record_count: 448
+new_today: 144
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-66 new of 368 total items today.
+144 new of 448 total items today.
 
 - [[FIRMS] thermal anomaly 51.075, 34.986 (FRP 0.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.986,51.075,9z) — *2026-10-12*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0028Z, FRP 0.44 MW
@@ -47,19 +47,19 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0030Z, FRP 0.95 MW
 - [[FIRMS] thermal anomaly 44.238, 22.557 (FRP 1.22 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.557,44.238,9z) — *2026-10-12*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 0030Z, FRP 1.22 MW
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-13*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[DeepStateMap] frontline snapshot, 525 polygons](https://deepstatemap.live/) — *2026-10-13*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[acled exception] UpstreamAuthError]() — *2026-10-13*
-  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
-- **NEW**  [[Liveuamap] Houthis report 119 airstrikes on sites under their control in Hodeidah and Al-Jawf over the past 24 hours. - Liveuamap](https://yemen.liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPekhITmFhZEFpR3huUENsSVl3d0NFQlF4NEIySnRkekk4ckhOdmV2Y054T1FLMTdCNEtzWjB4dV9RSHZxQ2QxeVE1SkktWHR1dnFqTnRpV0p5bXVBU0h4VXFuTFNkblZyMTI2X081YkFpWUVtUm5RNWUzZ05ZZklCY2JkWkUzR0QwbFJobm9Pa1lsZlFCY2JKbldR?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] Twenty people were injured in a Russian drone strike on a university building in Rivne. - Liveuamap](https://liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPeXJ1cUJ0bHlqWmNZOE5XbV96b1F1QjBlSG9YLU9yRzV6N1NhVTNDSEpsWmFBMG9Yam8xbVp2QWpBVEdKLXBheDdVTEpTaVlBeEluSHFzRzljaHNCSUVBTFNrd3BBRzZNTVpJTE5FTTFjZHlUTy0tX0ZyWXl0RlN0NGZjUzNHeFJnN0dYalh0NXllUQ?oc=5" target="_blank">Twenty pe
-- **NEW**  [[Liveuamap] A high-voltage power line was damaged in a Russian attack on Kyiv, Mayor Vitali Klitschko said. He also reported reduced water pressure on both the right and left banks of the city. Emergency repair crews are already working. Kyiv, Kyiv cit](https://liveuamap.com) — *2026-10-11*
-  > <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1faE92NmdrT1hSYmF4QnJSN3M4eVBZX1VzSHlyZy02SC11VEVVN1NUZk5JR3FjZnp6Z3NyZEMtdnhJQ1JXNFpKREp2bmd0cVNLRTQtaVhpdkFKUlIwTGdB?oc=5" target="_blank">A high-voltage power line was damaged in a Russian attack on Kyiv, Mayor Vitali
-- [[Liveuamap] UK Maritime Trade Operations: Report of unidentified projectile targeting oil tanker in the Strait of Hormuz, causing damage. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-10-11*
-  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlJjY2RDd1RjQmo5S0MtaDE2OGczU3NzMUMwVzV1QlZpdmNKWFlZM1NGTV9fS2RFMk5LZWo2UzhYWmZzaXBnUzlyNmo3VUJJd2Q3NVNyUDE5TWQzRU52ZlBLM1htZ2pzWlRLd0Ewa0l2Y0NJOVBxdXVUZEktejRzS3p5M05XeU9QYm1rREs2VF8tMGVjZVBWbFplSk82Y0tIX3c?oc=5" targ
+- **NEW**  [[FIRMS] thermal anomaly 45.656, 34.719 (FRP 4.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.719,45.656,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 4.44 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.660, 34.717 (FRP 4.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.717,45.660,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 4.44 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.659, 34.713 (FRP 4.44 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.713,45.659,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 4.44 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.258, 31.671 (FRP 5.03 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.671,45.258,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 5.03 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.213, 33.414 (FRP 16.75 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.414,46.213,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 16.75 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.213, 33.417 (FRP 8.55 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.417,46.213,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 8.55 MW
+- **NEW**  [[FIRMS] thermal anomaly 46.211, 33.412 (FRP 8.55 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.412,46.211,9z) — *2026-10-12*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-12 1013Z, FRP 8.55 MW
 
-_(343 additional items in raw.jsonl)_
+_(423 additional items in raw.jsonl)_
