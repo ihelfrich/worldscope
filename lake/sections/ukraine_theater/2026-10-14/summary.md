@@ -2,17 +2,19 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-14
-record_count: 365
-new_today: 81
+record_count: 376
+new_today: 101
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-81 new of 365 total items today.
+101 new of 376 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-10-14*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-14*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[FIRMS] thermal anomaly 52.847, 29.989 (FRP 1.25 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.989,52.847,9z) — *2026-10-13*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-13 2350Z, FRP 1.25 MW
 - **NEW**  [[FIRMS] thermal anomaly 51.891, 29.339 (FRP 1.1 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.339,51.891,9z) — *2026-10-13*
@@ -37,29 +39,27 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-13 2352Z, FRP 0.46 MW
 - **NEW**  [[FIRMS] thermal anomaly 45.953, 22.868 (FRP 0.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.868,45.953,9z) — *2026-10-13*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-13 2352Z, FRP 0.54 MW
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-14*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- **NEW**  [[FIRMS] thermal anomaly 51.140, 23.551 (FRP 0.8 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.551,51.140,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 0.8 MW
+- **NEW**  [[FIRMS] thermal anomaly 49.035, 28.115 (FRP 0.82 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@28.115,49.035,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 0.82 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.320, 29.192 (FRP 4.53 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.192,51.320,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0937Z, FRP 4.53 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.846, 29.988 (FRP 1.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.988,52.846,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 1.95 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.845, 29.993 (FRP 1.77 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.993,52.845,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 1.77 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.891, 29.338 (FRP 1.76 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.338,51.891,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 1.76 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.890, 29.343 (FRP 1.02 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.343,51.890,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 1.02 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.894, 29.346 (FRP 0.91 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.346,51.894,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 0.91 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.889, 29.342 (FRP 1.59 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.342,51.889,9z) — *2026-10-14*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-14 0130Z, FRP 1.59 MW
+- [[acled exception] UpstreamAuthError]() — *2026-10-14*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - [[Liveuamap] Houthis report 119 airstrikes on sites under their control in Hodeidah and Al-Jawf over the past 24 hours. - Liveuamap](https://yemen.liveuamap.com) — *2026-10-14*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPekhITmFhZEFpR3huUENsSVl3d0NFQlF4NEIySnRkekk4ckhOdmV2Y054T1FLMTdCNEtzWjB4dV9RSHZxQ2QxeVE1SkktWHR1dnFqTnRpV0p5bXVBU0h4VXFuTFNkblZyMTI2X081YkFpWUVtUm5RNWUzZ05ZZklCY2JkWkUzR0QwbFJobm9Pa1lsZlFCY2JKbldR?oc=5" target="_blank"
-- **NEW**  [[Liveuamap] President Zelensky said Ukraine did not receive intelligence from partners about last night&039;s ballistic missile launches targeting Kyiv Kyiv, Kyiv city - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNY29vak1rR0dpaGJLZDAtN3BpXzBTQk1aMVRhQjdMZUFOUDBIV0RNYlBkdnE1LVlTdUg3Y2F2V3dBeUxLRWMxbEM2UXlEZ3FBOU9PLWtFY0c0RUI0SlpyVXR2YjFBaGdxQXpTVmNmcnJ2YTVoNk9Ea25EVG41SXJKd2xpYUxza3cxX1Z0TmJJWWVkODA5VGc?oc=5" target="_blank">Pres
-- **NEW**  [[Liveuamap] Trump announces an immediate "energy ceasefire" between Russia and Ukraine, saying both sides have agreed to the arrangement Washington, District of Columbia - Ukraine Interactive map - Ukraine Latest news on live map - Liveuamap](https://liveuamap.com) — *2026-10-11*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHJnNUVCY3pycDY1RHdNbjVlbHREcGhkU1lSZ0M3SzVtRzdfdmFDSWtMMndYU0VPcko5c3I4d0F3cE5PbHZQejBYalBHX0pON3I3ZlNBN2w4ZEVTcDM5UDBfV0FVSE5oYTVadUVnd2lDWnpsanRnQXpTdi1PSUhhalNnMEVHSU5rU0xCWWJta0FfU2s?oc=5" target="_blank">Trump an
-- [[Liveuamap] Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com - Liveuamap](https://sudan.liveuamap.com) — *2026-10-12*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE1sNnFTQXBqUXNtb2h1bGNKMkdvZHM2RTZlVUdCdWtZTi1Kal93ekNNdUJRZUJsTlA0bUdXWWlFVUlpZw?oc=5" target="_blank">Sudan latest news in English on live map - South Sudan and Sudan News in English - sudan.liveuamap.com</a>&nbsp;&nbsp
-- [[Liveuamap] Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com - iraq.liveuamap.com](https://iraq.liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hSFJBLThjMk1IUjZkTHBUcm0zbUhQcWhaZ0haSUl5Vlo1bWw0UTJmYkYxN1VLS2M5S2c1WmowU3Y?oc=5" target="_blank">Iraq news map in English - News from Baghdad, Anbar, Kirkuk, Nineveh, Kurdistan regions - iraq.liveuamap.com</a>&nbsp;&n
-- **NEW**  [[Liveuamap] Myanmar latest news in English on live map - Rohingya genocide - myanmar.liveuamap.com - Liveuamap](https://myanmar.liveuamap.com) — *2026-10-12*
-  > <a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE5fNlp5WHY5X2tmSGVDZndYRGp4dkpIZ1VyWm1MZVZTc1lqVDNPbzVIcUlyeDdiTThlLV9lbmhLZlVVZFNw?oc=5" target="_blank">Myanmar latest news in English on live map - Rohingya genocide - myanmar.liveuamap.com</a>&nbsp;&nbsp;<font color="
-- **NEW**  [[Liveuamap] Interactive map of news today in Africa in English - africa.liveuamap.com - Liveuamap](https://africa.liveuamap.com) — *2026-10-14*
-  > <a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1CTm4waTA0clJhT2llTTNVcVJ3UFRTdFJ6TnN1Ym4zWjJsZkJBcjJpLVdHMU9NQThuclJKVS1kRVA4eXc?oc=5" target="_blank">Interactive map of news today in Africa in English - africa.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveu
-- **NEW**  [[Liveuamap] Earthquake of magnitude 4.6 - 63 km W of Bayan Hot, China - Liveuamap](https://china.liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE01d0UzRVJ2MEtPWS1ya2psTjVEeWx1OVNGS20zSWxMa2F6dTVpM1JKMktZMTdyY2lGZ1lTem15NnJkdw?oc=5" target="_blank">Earthquake of magnitude 4.6 - 63 km W of Bayan Hot, China</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
-- [[Liveuamap] UK Maritime Trade Operations: Report of unidentified projectile targeting oil tanker in the Strait of Hormuz, causing damage. - iran.liveuamap.com](https://iran.liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlJjY2RDd1RjQmo5S0MtaDE2OGczU3NzMUMwVzV1QlZpdmNKWFlZM1NGTV9fS2RFMk5LZWo2UzhYWmZzaXBnUzlyNmo3VUJJd2Q3NVNyUDE5TWQzRU52ZlBLM1htZ2pzWlRLd0Ewa0l2Y0NJOVBxdXVUZEktejRzS3p5M05XeU9QYm1rREs2VF8tMGVjZVBWbFplSk82Y0tIX3c?oc=5" targ
-- **NEW**  [[Liveuamap] Gunshots once again heard in central part of Kropyvnytskyi - Liveuamap](https://liveuamap.com) — *2026-10-12*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQczVIemYzMm00Nk1qWTZEN2ZHMVFtWEZhX25mTGZEMW4xTjZkUjB2bjR3eEtQOTh3aHVsX2FkUnF4Rkp6NG1INDN4dTlsUzI1NG01RWVfUVQ3czUybzZxMkRnaGRCT3JETWJ3M2JwdDh3TF9KeUZueEF5M0VhalFjenVUeHJLYzFNdVN0Q0JXNnJpZw?oc=5" target="_blank">Gunshots 
-- **NEW**  [[Liveuamap] At Kostiantynivka direction clashes yesterday near Kostyantynivka, Sofiyivka, Dovha Balka and towards Mykolaypillya, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-10-13*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzNxY2NDVTZreW5ra0hWSkpFcnFjNVlpNGVwSzdiVE5lOHlnOGxBRmJmWXlxa2ZkRURHX1dGY1cyX2ZKYndUNGltSkI5RWpHMEJ4emZRcUJCVFdodXpNNDRJZHFORWoyWEZuckJwM212YklBSmg3ekl2RmV1bjhmbWdrOGxmeGljUDAzcS1tX1ZqZTA?oc=5" target="_blank">At Kosti
 
-_(340 additional items in raw.jsonl)_
+_(351 additional items in raw.jsonl)_
