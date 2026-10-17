@@ -2,15 +2,19 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-17
-record_count: 380
-new_today: 60
+record_count: 384
+new_today: 77
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-60 new of 380 total items today.
+77 new of 384 total items today.
 
+- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-10-17*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-17*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[FIRMS] thermal anomaly 52.848, 29.991 (FRP 1.37 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.991,52.848,9z) — *2026-10-16*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 1.37 MW
 - [[FIRMS] thermal anomaly 52.845, 29.989 (FRP 1.37 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@29.989,52.845,9z) — *2026-10-16*
@@ -55,11 +59,7 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2254Z, FRP 4.48 MW
 - **NEW**  [[FIRMS] thermal anomaly 52.540, 32.074 (FRP 1.18 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@32.074,52.540,9z) — *2026-10-16*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2252Z, FRP 1.18 MW
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-17*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- **NEW**  [[DeepStateMap] frontline snapshot, 524 polygons](https://deepstatemap.live/) — *2026-10-17*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[Liveuamap] A Russian drone attack sparked a fire at an oil depot in the Shepetivka district of Ukraine's Khmelnytskyi region, regional governor Serhii Tiurin reported - Liveuamap](https://liveuamap.com) — *2026-10-15*
-  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOTExzUGNvcXpJRDBSNGl4TUpTeDdEaThtUklYUXgzZU9xTGVsUldlbG92cWE2X3lRR2c4akhQOFF6TnlRcDRILUdLMzJxVmdYUzU4MzEzbkpERlBvUTQ2TFZOb1lDUmhLSkZvUjBGdU1vTWJISVpPOVJQSkU4QTkzX3BwN1J5MnRKVTRUXzN1TW0?oc=5" target="_blank">A Russian dr
+- [[acled exception] UpstreamAuthError]() — *2026-10-17*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 
-_(355 additional items in raw.jsonl)_
+_(359 additional items in raw.jsonl)_
