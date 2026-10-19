@@ -78,6 +78,12 @@ jobs:
           [ -d dist/weekly_briefings ] && git add -f dist/weekly_briefings || true
           [ -d dist/sections ] && git add -f dist/sections || true
           [ -f dist/assets/tailwind.css ] && git add -f dist/assets/tailwind.css || true
+          # CRITICAL: commit the freshly-regenerated homepage. Without this the
+          # committed dist/index.html stays frozen (it froze at 2026-06-03),
+          # and every OTHER Pages deployer (live-map hourly, daily-brief)
+          # uploads the stale committed copy and clobbers this job's fresh
+          # deploy within the hour — the live site never advances.
+          [ -f dist/index.html ] && git add -f dist/index.html || true
           # If nothing changed, exit cleanly.
           if git diff --staged --quiet; then
             echo "No rendered-HTML changes to commit"
