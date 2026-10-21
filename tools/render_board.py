@@ -25,6 +25,57 @@ sys.path.insert(0, str(REPO))
 import render_reasoned as rr  # noqa: E402  (reuse gather + helpers + rich sections)
 from worldscope.theater_map import theater_geojson  # noqa: E402
 from worldscope.graph_view import connections as _graph_connections  # noqa: E402
+from worldscope.momentum import build_momentum  # noqa: E402
+
+_MOM_COLOR = {"surging": "#C0392B", "new": "#9A6B00", "building": "#1F5C3A",
+              "fading": "#8A8276", "steady": "#2C6FA6"}
+
+
+def _spark(series, color, w=112, h=26, pad=3):
+    """Server-rendered inline-SVG sparkline — no JS, prints fine, themes fine."""
+    mx = max(series) or 1
+    n = max(len(series), 2)
+    step = (w - 2 * pad) / (n - 1)
+    pts = [(pad + i * step, h - pad - (v / mx) * (h - 2 * pad))
+           for i, v in enumerate(series)]
+    poly = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = f"{pad:.1f},{h - pad:.1f} {poly} {pts[-1][0]:.1f},{h - pad:.1f}"
+    lx, ly = pts[-1]
+    return (f"<svg class='spark' width='{w}' height='{h}' viewBox='0 0 {w} {h}' "
+            f"role='img' aria-label='daily trend'>"
+            f"<polygon points='{area}' fill='{color}' opacity='0.12'/>"
+            f"<polyline points='{poly}' fill='none' stroke='{color}' stroke-width='1.6'/>"
+            f"<circle cx='{lx:.1f}' cy='{ly:.1f}' r='2.4' fill='{color}'/></svg>")
+
+
+def _momentum_section(mom: dict, esc) -> str:
+    """'Developing' — the board's memory: each story's multi-day trajectory,
+    classified (surging/new/building/fading/steady) with a sparkline."""
+    stories = mom.get("stories") or []
+    if not stories:
+        return ""
+    ndays = len(mom.get("days") or [])
+    rows = []
+    for st in stories:
+        col = _MOM_COLOR.get(st["klass"], "#8A8276")
+        head = re.sub(r"<[^>]+>", "", st.get("headline") or st["label"])
+        rows.append(
+            "<div class='mrow'>"
+            f"<span class='mbadge' style='background:{col}'>{esc(st['klass'].upper())}</span>"
+            f"{_spark(st['records'], col)}"
+            f"<div class='mtext'><div class='mhead'>{esc(rr._oneline(head, 110))}</div>"
+            f"<div class='mmeta'>{esc(st['label'])} · {st['days_present']}/{ndays} days "
+            f"· peak {st['peak']}/day</div></div>"
+            f"<div class='mnow'>{st['records'][-1]}<span>today</span></div></div>")
+    return (
+        "<section class='ws-sec' data-ws-section='momentum' data-ws-label='Developing'>"
+        "<h2 class='ws-h'>Developing <span class='h2sub'>— story momentum across "
+        f"{ndays} days of the lake</span></h2>"
+        f"<div class='momgrid'>{''.join(rows)}</div>"
+        "<div class='ws-cap'>Each line is one story's records-per-day trajectory, keyed "
+        "identically to the claim graph; structural hub terms excluded. Surging = above "
+        "its own baseline · new = first seen today · building = three days of growth "
+        "· fading = collapsing from a peak.</div></section>")
 
 _EDGE_VERB = {"traded": "traded", "signed-by": "signed", "sponsored-by": "sponsored",
               "co-sponsored-by": "co-sponsored", "issued-by": "issued",
@@ -304,6 +355,14 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
         conn_data = {"entities": [], "edges_total": 0}
     connections_html = _connections_section(conn_data, esc)
 
+    # ── Developing: cross-day story momentum (the board's memory) ───────────
+    try:
+        mom = build_momentum(today)
+    except Exception as exc:
+        print("momentum failed:", exc)
+        mom = {"days": [], "stories": []}
+    momentum_html = _momentum_section(mom, esc)
+
     n_threads = len(threads)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -326,6 +385,8 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
   <h2>Threads underneath <span class="h2sub">— what's connecting across domains · click to open</span></h2>
   {threads_html}
 </section>
+
+{momentum_html}
 
 {connections_html}
 
@@ -481,6 +542,20 @@ h2{font-family:var(--serif);font-size:22px;letter-spacing:-.01em;margin:0 0 14px
 _CSS_TAIL = """
 .ws-sec{max-width:1180px}
 .ws-sec h2.ws-h{border-top:2px solid var(--ink)}
+/* Developing / cross-day momentum */
+.momgrid{display:grid;grid-template-columns:1fr 1fr;gap:2px 36px}
+@media(max-width:880px){.momgrid{grid-template-columns:1fr}}
+.mrow{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--hair2)}
+.mbadge{font-family:var(--mono);font-size:8.5px;letter-spacing:.09em;color:#fff;border-radius:3px;
+ padding:3px 0;font-weight:700;flex-shrink:0;width:66px;text-align:center}
+.spark{flex-shrink:0}
+.mtext{flex:1;min-width:0}
+.mhead{font-family:var(--serif);font-size:14.5px;line-height:1.3;display:-webkit-box;
+ -webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mmeta{font-family:var(--mono);font-size:9px;color:var(--faint);margin-top:2px;letter-spacing:.03em}
+.mnow{font-family:var(--serif);font-size:20px;font-weight:700;text-align:right;line-height:1;flex-shrink:0}
+.mnow span{display:block;font-family:var(--mono);font-size:7.5px;color:var(--faint);
+ letter-spacing:.08em;text-transform:uppercase;margin-top:2px;font-weight:400}
 /* interactive theater map */
 .mapgrid{display:grid;grid-template-columns:1.55fr 1fr;gap:22px;align-items:start}
 @media(max-width:880px){.mapgrid{grid-template-columns:1fr}}
