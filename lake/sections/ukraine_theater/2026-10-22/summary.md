@@ -2,19 +2,21 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-22
-record_count: 474
-new_today: 163
+record_count: 477
+new_today: 192
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-163 new of 474 total items today.
+192 new of 477 total items today.
 
-- **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-10-22*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-22*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-10-22*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[acled exception] UpstreamAuthError]() — *2026-10-22*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - [[FIRMS] thermal anomaly 44.774, 33.863 (FRP 0.57 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.863,44.774,9z) — *2026-10-21*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-21 0100Z, FRP 0.57 MW
 - [[FIRMS] thermal anomaly 44.771, 33.862 (FRP 1.03 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.862,44.771,9z) — *2026-10-21*
@@ -59,7 +61,5 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-21 0907Z, FRP 5.97 MW
 - **NEW**  [[FIRMS] thermal anomaly 52.708, 34.448 (FRP 8.53 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.448,52.708,9z) — *2026-10-21*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-21 0907Z, FRP 8.53 MW
-- **NEW**  [[FIRMS] thermal anomaly 52.703, 34.211 (FRP 7.97 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.211,52.703,9z) — *2026-10-21*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-21 0907Z, FRP 7.97 MW
 
-_(449 additional items in raw.jsonl)_
+_(452 additional items in raw.jsonl)_
