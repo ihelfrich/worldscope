@@ -2,14 +2,14 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-23
-record_count: 355
-new_today: 82
+record_count: 394
+new_today: 92
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-82 new of 355 total items today.
+92 new of 394 total items today.
 
 - **NEW**  [[FIRMS] thermal anomaly 45.258, 31.672 (FRP 4.73 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.672,45.258,9z) — *2026-10-22*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-22 1026Z, FRP 4.73 MW
@@ -41,8 +41,10 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnBWZ01PWGJRQ1JSYlliUlpwWFlWZ21QUWhaVnhQTVFnMzhkQWtETWFDWkNlekhMZ0F5WjBLckFDck9yY2xUa1k5UUxaSUNhZjVaNHNhaXd5WlBvQ1hpN0d6dGxLemk5c3RPNThmZ1FKbWpqWlVnNU5FNjh0eERkSFVYRWhndlNVeE04VDRnRjRNcXNRSWc3YTZVODZBNDJaUUI3c19YdktkaH
 - [[ISW] Russian Offensive Campaign Assessment, October 19, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-20*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRUZiRk9iMnJTb0tpV3BWSFBCY2tvUzBrakxjQWxjU1ozNW8wUU13eWtXM3FldVBrVzBoWU1vcVNmeUVEMUxfUTZlclVJN0R0czh3amk1X1ZZamNvb3FpY1hRelphMk9ZWHZYWFNyeWRILWxPMG81VjNGMnlGb1VLMHMwZjFyempuZzJ1eFJUamdzc3JJS3pWdDdjb1VvOHUybGl5aFJ0RG9SMl
-- [[ISW] Russian Offensive Campaign Assessment, October 15, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-15*
-  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLWJGSndhdmZYNXJwYzNHUlZza2lxaGNQMF93eTJRWkcxUUtzdzV6MnZRZEtGZEtFc09pX3BIT2lpWThMTW01U3RJX1kzTjZVRWgzbFVPS01wWnJqWWNvNVE5R1pfWlAzVTBtMlVyYVB5X2hudkI4TE8yTjl6ci1HQkhWTHhvVFpNRkVBTTJYaU9SenBxS0ZNenBfMS1HYjVtNmhnaVkyUTUxTW
+- [[ISW] Russian Offensive Campaign Assessment, October 18, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-18*
+  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVThBMWdscUM3M1ZGckxER2xMbU8teUgwLUItZVdKaUF2U2ViY0J2dm9fcVlMVm15UWNpd1VTVzZqTjMweFlKMFVzcG52ZndvVERkaXp6cGVHVWNLYlhmMndzMC1qaUNYZnpiT0c1YTVOSHNZdk1mT1U1NktlcVJGNkFpLTdXMmpWSE1qUTMxRWdwSWoyZi1VeVVPU3h6RGV2NVZGQ09PRVQyOV
+- **NEW**  [[Liveuamap] US Secretary of State Marco Rubio and NATO Secretary General Mark Rutte discussed security in the Black Sea. - Liveuamap](https://liveuamap.com) — *2026-10-22*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXM0bXp6MHh4ZnpGYmtIRUFBMF92OU5ndnJwS3M3WFVUWVhNRGgta0hoejBpTnZjVmVIVUhSRFlIRTBsTzZnN2RsVEZlQ0RqVjJ0eVB2d2lnODhUT2xuNERzUmRqZ3Q4WUs3b1k0MEFEc25TbHBCR2ctMWx2RGl2VzVZUEw2N0VTYXU5XzZQblFlUQ?oc=5" target="_blank">US Secret
 - **NEW**  [[Liveuamap] Saudi Arabia&039;s Energy Ministry says air defenses intercepted a drone attack targeting a facility at the Shaybah oil field. Two residents and one other person were injured in a vehicle fire – Eastern Province Saudi Arabia - Liveuamap](https://yemen.liveuamap.com) — *2026-10-21*
   > <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPREdYeXdTa1pOdEtPUDRNYmhxOXhGY19pY1FwSl90WmxFMHhpTXVxemNYeHplS2xUMDAxVzdaZDhQZEszVFJEU3ZTVVVzVGRDSzdJZm9ybVJsVWhpM3RVeXc0MnZiSnQ4cmVNbTkyUERMLVY2Q0NQZ3g4Y3BZNzZCWV83RE9QZjJVV0Qyamhwb1dxQldEd05Jd1pVZEJDQQ?oc=5" target="_
 - [[Liveuamap] Ballistic missile strikes have been reported in Kyiv. Preliminary reports indicate that six missiles were launched, with additional launches possible from Russia&039;s Bryansk and Kursk regions. Kyiv, Kyiv city - Ukraine Interactive map - U](https://liveuamap.com) — *2026-10-21*
@@ -59,7 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] Explosion was reported in Zaporizhzhia - Liveuamap](https://liveuamap.com) — *2026-10-21*
   > <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGpGWVBscGxsM1BfRkZaZGRqTDRpaVBLY2FwNG50ZkZld241UDJTSjRVVUY5ZjFJSDBUVjBqOFRjclduM3FPbm5YZnRITjVMYkpOYVlHaW1jU1pMdFFwdGs4NkNxNVRJb3I5VHB1X1BCa3JkR1ZwUWI3UGNiME5Fb2xxUWtCM3M2NXc?oc=5" target="_blank">Explosion was report
-- **NEW**  [[Liveuamap] Explosion was reported in Kharkiv - Liveuamap](https://liveuamap.com) — *2026-10-23*
-  > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOQnlCSDJILTlzcUJMSXlNWFNUMlB1VTVCclVwSlBFclNSMmQ2am1zanVVT0xzdXBuQzNiOUJkX0VPanFNVnhpclZhemZXYU1sWF9BSG9GUld1S2pxVHN0S2NSRVVuUzlxdVN6TXF2cFRQN3hBQ2dkbzNSM0RaODFDbEFMUQ?oc=5" target="_blank">Explosion was reported in Kha
 
-_(330 additional items in raw.jsonl)_
+_(369 additional items in raw.jsonl)_
