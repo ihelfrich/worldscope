@@ -1,0 +1,46 @@
+---
+section: federal_register
+title: U.S. Federal Action
+date: 2026-10-23
+record_count: 17
+new_today: 13
+state: fresh
+---
+
+## U.S. Federal Action
+
+13 new of 17 total items today.
+
+- **NEW**  [Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period](https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult) — *2026-10-23*
+  > In response to a request from the Alliance for Automotive Innovation (Auto Innovators), NHTSA is announcing a 30-day extension of the public comment period for the Supplemental Notice of Proposed Rulemaking (SNPRM) published on September 22, 2026. The SNPRM supplements NHTSA's Se
+- **NEW**  [Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency](https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the) — *2026-10-23*
+  > The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act regarding the issuance of payment stablecoins and certain related activities by entities subject to the OCC's jurisdic
+- **NEW**  [Revision of National Environmental Policy Act Implementing Procedures; Extension of Comment Period](https://www.federalregister.gov/documents/2026/10/23/2026-21699/revision-of-national-environmental-policy-act-implementing-procedures-extension-of-comment-period) — *2026-10-23*
+  > On September 25, 2026, the United States Postal Service (USPS) published an interim final rule with request for comments to partially rescind and update its remaining National Environmental Policy Act (NEPA) implementing procedures, which were promulgated to implement the now-res
+- **NEW**  [Irradiated Fuel Reprocessing Plants](https://www.federalregister.gov/documents/2026/10/23/2026-21690/irradiated-fuel-reprocessing-plants) — *2026-10-23*
+  > The U.S. Nuclear Regulatory Commission (NRC) has received a petition for rulemaking (PRM) from Howard L. Hall, Ph.D., dated August 14, 2026, requesting that the NRC remove the exclusion of irradiated fuel reprocessing plants and establish material control and accounting requireme
+- **NEW**  [Airworthiness Directives; The Boeing Company Airplanes; Correction](https://www.federalregister.gov/documents/2026/10/23/2026-21686/airworthiness-directives-the-boeing-company-airplanes-correction) — *2026-10-23*
+  > The FAA is correcting an airworthiness directive (AD) that was published in the Federal Register. That AD applies to certain The Boeing Company Model 787-8, 787-9, and 787-10 airplanes. As published, a paragraph reference specified in the regulatory text is incorrect. This docume
+- **NEW**  [Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska](https://www.federalregister.gov/documents/2026/10/23/2026-21680/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-by-catcher-vessels-using-trawl-gear) — *2026-10-23*
+  > NMFS is prohibiting directed fishing for Pacific cod by catcher vessels using trawl gear in the Central Regulatory Area of the Gulf of Alaska (GOA). This action is necessary to prevent exceeding the 2026 total allowable catch (TAC) of Pacific cod allocated to catcher vessels usin
+- **NEW**  [Fisheries of the Exclusive Economic Zone Off Alaska; Pollock in Statistical Area 620 in the Gulf of Alaska](https://www.federalregister.gov/documents/2026/10/23/2026-21676/fisheries-of-the-exclusive-economic-zone-off-alaska-pollock-in-statistical-area-620-in-the-gulf-of) — *2026-10-23*
+  > NMFS is prohibiting directed fishing for pollock in Statistical Area 620 in the Gulf of Alaska (GOA). This action is necessary to prevent exceeding the annual 2026 total allowable catch (TAC) of pollock in Statistical Area 620 in the GOA.
+- **NEW**  [21st Century ROAD to Housing Act Prohibition on Large Institutional Investor Purchases of Single-Family Homes](https://www.federalregister.gov/documents/2026/10/23/2026-21675/21st-century-road-to-housing-act-prohibition-on-large-institutional-investor-purchases-of) — *2026-10-23*
+  > The Department of the Treasury (Treasury) is issuing this proposed rule to carry out the purposes of section 1001 of the 21st Century ROAD to Housing Act (the Act or the ROAD Act). Section 1001 of the ROAD Act prohibits large institutional investors from purchasing single-family 
+- **NEW**  [Action Levels for Cadmium in Processed Food Intended for Babies and Young Children; Draft Guidance for Industry; Availability](https://www.federalregister.gov/documents/2026/10/23/2026-21670/action-levels-for-cadmium-in-processed-food-intended-for-babies-and-young-children-draft-guidance) — *2026-10-23*
+  > The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of a draft guidance for industry entitled "Action Levels for Cadmium in Processed Food Intended for Babies and Young Children." The draft guidance, when finalized, will establish action level
+- **NEW**  [Hazard Analysis and Risk-Based Preventive Controls for Human Food; Draft Guidance for Industry; Availability](https://www.federalregister.gov/documents/2026/10/23/2026-21669/hazard-analysis-and-risk-based-preventive-controls-for-human-food-draft-guidance-for-industry) — *2026-10-23*
+  > The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of one additional draft chapter of a multichapter draft guidance for industry titled "Hazard Analysis and Risk-Based Preventive Controls for Human Food." This multichapter draft guidance, whe
+- **NEW**  [Airworthiness Directives; MD Helicopters, LLC Helicopters](https://www.federalregister.gov/documents/2026/10/23/2026-21664/airworthiness-directives-md-helicopters-llc-helicopters) — *2026-10-23*
+  > The FAA is adopting a new airworthiness directive (AD) for certain MD Helicopters, LLC (MDHI) Model 369D, 369E, 369F, 369FF, 369H, and 500N helicopters. This AD was prompted by a report of mechanical damage to the main transmission drive shaft coupling (coupling). This AD require
+- **NEW**  [Supplemental Nutrition Assistance Program: Electronic Benefits Transfer Card Security Measures](https://www.federalregister.gov/documents/2026/10/23/2026-21658/supplemental-nutrition-assistance-program-electronic-benefits-transfer-card-security-measures) — *2026-10-23*
+  > The Food and Nutrition Administration (FNA or the Agency), an agency of the U.S. Department of Agriculture (USDA or the Department), is issuing a rule proposing changes to Supplemental Nutrition Assistance Program (SNAP, the Program) regulations to modernize Electronic Benefit Tr
+- **NEW**  [List of Rules To Be Reviewed Pursuant to the Regulatory Flexibility Act](https://www.federalregister.gov/documents/2026/10/23/2026-21657/list-of-rules-to-be-reviewed-pursuant-to-the-regulatory-flexibility-act) — *2026-10-23*
+  > The Securities and Exchange Commission ("Commission") is publishing a list of rules to be reviewed pursuant to section 610 of the Regulatory Flexibility Act. The list is published to provide the public with notice that these rules are scheduled for review by the agency and to inv
+- [Advancing Women's Health To Improve Outcomes in All Phases of Life](https://www.federalregister.gov/documents/2026/10/22/2026-21666/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life) — *2026-10-22*
+- [Safety Zone; Brownsville Ship Channel, Brownsville, TX](https://www.federalregister.gov/documents/2026/10/22/2026-21636/safety-zone-brownsville-ship-channel-brownsville-tx) — *2026-10-22*
+  > The Coast Guard is establishing a temporary safety zone for navigable waters on the Brownsville Ship Channel. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards associated with an over-sized dead ship tow transiting the area
+- [Virginia: Approval of State Coal Combustion Residuals Permit Program](https://www.federalregister.gov/documents/2026/10/22/2026-21622/virginia-approval-of-state-coal-combustion-residuals-permit-program) — *2026-10-22*
+  > The Environmental Protection Agency (EPA or the Agency) is approving Virginia's coal combustion residuals (CCR) permit program under the Resource Conservation and Recovery Act (RCRA). After reviewing the CCR permit program application submitted by the Virginia Department of Envir
+- [Utah Underground Injection Control Program; Class VI Primacy](https://www.federalregister.gov/documents/2026/10/22/2026-21618/utah-underground-injection-control-program-class-vi-primacy) — *2026-10-22*
+  > The U.S. Environmental Protection Agency (EPA or Agency) has received a complete Underground Injection Control (UIC) program revision application from the State of Utah, requesting primary enforcement responsibility (primacy) for Class VI injection wells under Safe Drinking Water
