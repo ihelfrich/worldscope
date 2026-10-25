@@ -75,7 +75,7 @@ def test_contradiction_flips_status():
 def test_claim_type_priority_news_beats_market():
     recs = [
         _rec("foreign_news", "Acme Corp Berlin Summit strike", source="bbc", entities=ENTS),
-        _rec("paper_bets", "Acme Corp Berlin Summit strike market", source="poly", entities=ENTS),
+        _rec("markets", "Acme Corp Berlin Summit strike market", source="poly", entities=ENTS),
     ]
     c = cl.build_claims(recs, today=TODAY)[0]
     assert c.claim_type == "reported_fact"   # not market_signal
