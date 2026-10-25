@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<title>Dialog — Money Flows</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">DIALOG <span>money flows</span></div>
+  <a class="navlink" href="index.html">← Network explorer</a>
+  <div id="meta" class="meta"></div>
+  <button id="reset" title="Clear selection">Reset</button>
+</header>
+
+<div id="controls">
+  <div class="ctl-group"><label>Flow category</label><div id="catFilters" class="chips"></div></div>
+  <div class="ctl-group"><label>Polarity</label><div class="chips" id="polLegend">
+    <span class="chip" style="cursor:default"><span class="dot" style="background:#909dab"></span>neutral</span>
+    <span class="chip" style="cursor:default"><span class="dot" style="background:#3fb950"></span>support</span>
+    <span class="chip" style="cursor:default"><span class="dot" style="background:#f85149"></span>oppose</span>
+    <span class="chip" style="cursor:default"><span class="dot" style="border:1px dashed #8b949e;background:transparent"></span>amount undisclosed</span>
+  </div></div>
+</div>
+
+<main id="moneyGrid">
+  <section id="sankeyPanel" class="panel">
+    <div class="panel-h">Money flows <small>donor → PAC → candidate · LP → fund → portfolio · gift → trust → grantee · settlements &amp; exits</small></div>
+    <svg id="sankey"></svg>
+  </section>
+  <aside id="detail" class="panel">
+    <div class="panel-h">Detail</div>
+    <div id="detailBody"><p class="muted">Hover a flow for the amount &amp; source. Click a node to isolate its inflows/outflows.</p>
+      <p class="muted small">Public-record / reported figures only. A money tie is a <b>transaction record, not an allegation</b>.
+      Dashed links = amount not publicly disclosed (rendered at uniform width).</p></div>
+  </aside>
+</main>
+
+<div id="tip" class="tip"></div>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/d3-sankey.min.js"></script>
+<script src="money-data.js"></script>
+<script src="money.js"></script>
+</body>
+</html>
