@@ -2,64 +2,64 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-26
-record_count: 474
-new_today: 147
+record_count: 453
+new_today: 142
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-147 new of 474 total items today.
+142 new of 453 total items today.
 
-- **NEW**  [[FIRMS] thermal anomaly 48.977, 24.707 (FRP 1.69 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@24.707,48.977,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 1.69 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.377, 30.927 (FRP 1.31 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.927,45.377,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 1.31 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.260, 31.673 (FRP 1 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.673,45.260,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 1 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.356, 30.905 (FRP 1.6 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.905,45.356,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 1.6 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.356, 30.900 (FRP 1.81 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.900,45.356,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 1.81 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.952, 25.281 (FRP 0.87 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.281,45.952,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 0.87 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.124, 25.420 (FRP 0.4 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.420,45.124,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0003Z, FRP 0.4 MW
-- **NEW**  [[FIRMS] thermal anomaly 51.137, 23.551 (FRP 0.56 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.551,51.137,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0141Z, FRP 0.56 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.123, 25.419 (FRP 1.54 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.419,45.123,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0143Z, FRP 1.54 MW
-- **NEW**  [[FIRMS] thermal anomaly 52.832, 34.725 (FRP 13.37 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.725,52.832,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 0949Z, FRP 13.37 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.053, 23.694 (FRP 1.95 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.694,44.053,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 1.95 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.056, 23.688 (FRP 3.36 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.688,44.056,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 3.36 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.049, 23.446 (FRP 1.6 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.446,44.049,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 1.6 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.156, 23.937 (FRP 2.29 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.937,44.156,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 2.29 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.186, 23.916 (FRP 2.83 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.916,44.186,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 2.83 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.072, 23.143 (FRP 1.8 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.143,44.072,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1128Z, FRP 1.8 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.312, 22.917 (FRP 4.27 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.917,44.312,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 4.27 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.312, 22.912 (FRP 4.27 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.912,44.312,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 4.27 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.285, 22.749 (FRP 2.24 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.749,44.285,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 2.24 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.289, 22.753 (FRP 2.24 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.753,44.289,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 2.24 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.376, 23.040 (FRP 4.19 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.040,44.376,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 4.19 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.670, 23.124 (FRP 1.47 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.124,44.670,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 1.47 MW
-- **NEW**  [[FIRMS] thermal anomaly 44.802, 23.317 (FRP 2.76 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.317,44.802,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 2.76 MW
-- **NEW**  [[FIRMS] thermal anomaly 45.010, 23.231 (FRP 5.02 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.231,45.010,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 5.02 MW
-- **NEW**  [[FIRMS] thermal anomaly 47.145, 24.282 (FRP 2.38 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@24.282,47.145,9z) — *2026-10-24*
-  > VIIRS S-NPP NRT, sat N, acquired 2026-10-24 1130Z, FRP 2.38 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.133, 23.546 (FRP 0.88 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.546,51.133,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0124Z, FRP 0.88 MW
+- **NEW**  [[FIRMS] thermal anomaly 49.021, 22.901 (FRP 2.89 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.901,49.021,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0124Z, FRP 2.89 MW
+- **NEW**  [[FIRMS] thermal anomaly 49.024, 22.903 (FRP 3.48 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.903,49.024,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0124Z, FRP 3.48 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.257, 31.667 (FRP 3.14 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.667,45.257,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0126Z, FRP 3.14 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.251, 31.663 (FRP 3.14 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.663,45.251,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0126Z, FRP 3.14 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.948, 25.277 (FRP 0.94 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.277,45.948,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0126Z, FRP 0.94 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.120, 25.412 (FRP 0.68 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.412,45.120,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0126Z, FRP 0.68 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.047, 34.136 (FRP 0.51 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.136,52.047,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0122Z, FRP 0.51 MW
+- **NEW**  [[FIRMS] thermal anomaly 47.773, 33.881 (FRP 8.14 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.881,47.773,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0930Z, FRP 8.14 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.424, 34.567 (FRP 5.73 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.567,52.424,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0932Z, FRP 5.73 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.423, 34.562 (FRP 4.39 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.562,52.423,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0932Z, FRP 4.39 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.427, 34.558 (FRP 4.39 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.558,52.427,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0932Z, FRP 4.39 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.834, 34.721 (FRP 3.74 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.721,52.834,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0932Z, FRP 3.74 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.897, 34.310 (FRP 2.91 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.310,52.897,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 0932Z, FRP 2.91 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.259, 31.674 (FRP 6.98 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@31.674,45.259,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 6.98 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.355, 30.902 (FRP 2.78 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@30.902,45.355,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 2.78 MW
+- **NEW**  [[FIRMS] thermal anomaly 45.002, 23.220 (FRP 2.74 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@23.220,45.002,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 2.74 MW
+- **NEW**  [[FIRMS] thermal anomaly 47.593, 33.785 (FRP 5.75 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.785,47.593,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 5.75 MW
+- **NEW**  [[FIRMS] thermal anomaly 47.597, 33.784 (FRP 7.37 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.784,47.597,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 7.37 MW
+- **NEW**  [[FIRMS] thermal anomaly 47.775, 33.882 (FRP 5.18 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.882,47.775,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 5.18 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.210, 34.992 (FRP 2.34 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.992,51.210,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 2.34 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.272, 34.752 (FRP 5.06 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.752,51.272,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 5.06 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.276, 34.744 (FRP 5.06 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.744,51.276,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 5.06 MW
+- **NEW**  [[FIRMS] thermal anomaly 51.349, 34.900 (FRP 3.51 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.900,51.349,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 3.51 MW
+- **NEW**  [[FIRMS] thermal anomaly 52.184, 34.025 (FRP 4.39 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@34.025,52.184,9z) — *2026-10-25*
+  > VIIRS S-NPP NRT, sat N, acquired 2026-10-25 1110Z, FRP 4.39 MW
 
-_(449 additional items in raw.jsonl)_
+_(428 additional items in raw.jsonl)_
