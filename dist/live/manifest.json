@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-26T01:41:32Z",
- "generated_ts": 1792978892,
+ "generated_at": "2026-10-26T08:07:49Z",
+ "generated_ts": 1793002069,
  "days": 7,
  "network": true,
  "layers": [
   {
    "layer": "firms",
    "file": "layers/firms.geojson",
-   "count": 1,
-   "freshest_ts": 1792705500,
-   "freshest_at": "2026-10-22T21:45:00Z",
+   "count": 0,
+   "freshest_ts": null,
+   "freshest_at": null,
    "inputs": [
     "lake:firms",
     "live:eonet"
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 189,
-   "freshest_ts": 1792977740,
-   "freshest_at": "2026-10-26T01:22:20Z",
+   "count": 192,
+   "freshest_ts": 1792990420,
+   "freshest_at": "2026-10-26T04:53:40Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,9 +31,9 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 589,
-   "freshest_ts": 1792951200,
-   "freshest_at": "2026-10-25T18:00:00Z",
+   "count": 593,
+   "freshest_ts": 1792972800,
+   "freshest_at": "2026-10-26T00:00:00Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -63,9 +63,9 @@
   {
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
-   "count": 428,
-   "freshest_ts": 1792978892,
-   "freshest_at": "2026-10-26T01:41:32Z",
+   "count": 440,
+   "freshest_ts": 1793002069,
+   "freshest_at": "2026-10-26T08:07:49Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 16,
-   "freshest_ts": 1792978860,
-   "freshest_at": "2026-10-26T01:41:00Z",
+   "count": 17,
+   "freshest_ts": 1793001120,
+   "freshest_at": "2026-10-26T07:52:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1792978892,
-   "freshest_at": "2026-10-26T01:41:32Z",
+   "freshest_ts": 1793002069,
+   "freshest_at": "2026-10-26T08:07:49Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -140,7 +140,7 @@
    "name": "lake:ukraine_theater",
    "layer": "ukraine",
    "ok": true,
-   "count": 679,
+   "count": 657,
    "error": null
   },
   {
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 23,
+   "count": 16,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,7 +176,7 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 318,
+   "count": 322,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
@@ -184,7 +184,7 @@
    "name": "live:eonet",
    "layer": "firms+gdacs",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "error": null,
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
@@ -193,7 +193,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=hezbollah&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -201,7 +201,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22taiwan+strait%22&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 16,
+   "count": 17,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -269,13 +269,13 @@
   }
  ],
  "counts": {
-  "firms": 1,
-  "quakes": 189,
-  "gdacs": 589,
+  "firms": 0,
+  "quakes": 192,
+  "gdacs": 593,
   "conflict": 0,
-  "ukraine": 428,
+  "ukraine": 440,
   "flights": 110,
-  "weather_alerts": 16,
+  "weather_alerts": 17,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
