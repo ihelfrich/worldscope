@@ -2,17 +2,21 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-10-27
-record_count: 288
-new_today: 90
+record_count: 411
+new_today: 205
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-90 new of 288 total items today.
+205 new of 411 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-10-27*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-27*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- [[acled exception] UpstreamAuthError]() — *2026-10-27*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - [[FIRMS] thermal anomaly 44.773, 33.861 (FRP 0.92 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.861,44.773,9z) — *2026-10-26*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-26 0105Z, FRP 0.92 MW
 - [[FIRMS] thermal anomaly 45.953, 25.280 (FRP 1.05 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@25.280,45.953,9z) — *2026-10-26*
@@ -39,20 +43,16 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-27 0048Z, FRP 0.47 MW
 - **NEW**  [[FIRMS] thermal anomaly 44.079, 22.106 (FRP 0.86 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@22.106,44.079,9z) — *2026-10-27*
   > VIIRS S-NPP NRT, sat N, acquired 2026-10-27 0048Z, FRP 0.86 MW
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-10-27*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
-- [[acled exception] UpstreamAuthError]() — *2026-10-27*
-  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - [[ISW] Russian Offensive Campaign Assessment, October 26, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1NqRkNEdENQcEVvQmhGazNBY1FjOG5PdlZYRkhTbGN0Znp3WHdXRmRXWERlYnRxT3luODFNQjRLa01FcEg4Q21HbXJYUjRCb3p5aGJpczJHUGd0Q0JxT3g1WGFSMU5yTXR5aGhXTURfSFJJQVBJVkwtLVpLbHhUMGI4THE0WndncFNiaFJOTEdrWF9mODh2UGdDSXF2V3NHMnNQNEdjdm50TW
 - [[ISW] Iran Update, October 26, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQNVRnQUNaRUwyaGVFMWVWLTh2aTl2WnExanl0b2hVY3J3a2g2UE80QlZJVkxIQzhiVk4tclpmcDRiTTk5MzdYbVhNZlFrdDRqdkxoOEVMMTlHdTVDNy1QNGRJS04zelQ3ck9nUk1LSTBiUVlHbHhoUFZ5dXJhMGNrSEp5aGI?oc=5" target="_blank">Iran Update, October 26, 202
 - [[ISW] Russian Offensive Campaign Assessment, October 25, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnlOT1pZcVRMWWNnRlFJR01hM2JnY3RsSTYzWnJacGhEZFZzVkc3MzdaWHYzYzN0UEtVS2tuR25jZmZLeEwtRDhOX2dYYnpYeUh0TXBaekdidDFJS3RZbFdpcEVjMnRkYUxPWGhKb0tvXzRZLUE0LTdTT0pZZEpUM0ZQaXk1ZVRTUkxvY0hmMkVOQ3cxUkh3TkRQdmpXU25HZWVOVjBBZWpqaE
-- [[ISW] Russian Offensive Campaign Assessment, October 24, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-25*
-  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVGQVlSYnI4d3kwaGJ1NHF2Ync0U1dlTHUySS02UV9XMHFoOEt1QTRTRHNnQjg0dDY3cldKVUxXSWJDRXFSb0VHTnZLeDlDeGZXQXpRMWhyU1V0VmE2RS1BWTg5WV9vbDNkbERON0IySWxnTEFYOHVuZFpyMHloWTcwUTdrTGlob3N0aTdQaXVWUFNzWEZna0hKbjJ5cVlmT1Z3UFJDSm03a3
 - [[ISW] The Myth of Inevitable Russian Victory over Ukraine - Institute for the Study of War](https://understandingwar.org) — *2026-10-23*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQM1RiUlN1NE1XVzdzNHRubnhmZkp3Mm5Uek5aSWgyVmZxazhpLU5ZTzBBUWVVZFRtV2xodjhqQmhZMjlENzlnRm5PYWVQUGRJQU9ZOGViaXNOMnFBaHFDVnBOVzR5QVhfTzFHTW45OTh1MGZJaTlxS2lfeV9Ic2x0amRUcHYxbkYwS3ZVOWdzYURTa2xTMUJn?oc=5" target="_blank">The
+- [[ISW] Russian Offensive Campaign Assessment, October 24, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-10-25*
+  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjVGQVlSYnI4d3kwaGJ1NHF2Ync0U1dlTHUySS02UV9XMHFoOEt1QTRTRHNnQjg0dDY3cldKVUxXSWJDRXFSb0VHTnZLeDlDeGZXQXpRMWhyU1V0VmE2RS1BWTg5WV9vbDNkbERON0IySWxnTEFYOHVuZFpyMHloWTcwUTdrTGlob3N0aTdQaXVWUFNzWEZna0hKbjJ5cVlmT1Z3UFJDSm03a3
 - **NEW**  [[Liveuamap] Egypt&039;s parliament approved authorization for President Abdel Fattah el-Sisi to send defensive reinforcements to Saudi Arabia if requested – Cairo, Egypt - Liveuamap](https://yemen.liveuamap.com) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPa3F4NHNqaG9JMXVrZ2tOZmRmemhwTmlVanNuRmJCX1liMHk5ay11elZKbXdRcXJwcjFjMnMtNlVmZE5XUW1IcHF2eHFqWU9SU1NxWkdKaDl3UmI5akxKdGdlVDM1RWtZMExmTk9Oa09LOUFDNkg0bWlmcE0zNmlxMXFCVFZNZ05FdzRWU3JhT0xVcjVvOXl3?oc=5" target="_blank">Egy
 - **NEW**  [[Liveuamap] SANA correspondent in Daraa: Several explosions were heard in the vicinity of the towns of Nasib and Muzayrib, resulting from airstrikes – Daraa Governorate, Syria - Liveuamap](https://syria.liveuamap.com) — *2026-10-26*
@@ -62,4 +62,4 @@ state: fresh
 - [[Liveuamap] Explosion was reported in Dnipro city – Dnipropetrovsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNek5SYU9WT0JCTGl2dEx1RkVOU1kwUkpsWjYxTUktdnNCaVdyMmdBc0VqU1B1SGpzVDAyVjlRaS1GTmRXNnYxYWFRQ3U1enN4ZnBWSm5EN0llYmFSbXdHRVQxM1lpNk9FMXhROTlPdWRpRjZzT1Rlci1BOGlQYk0wZmpBUFV1TTFa?oc=5" target="_blank">Explosion was reported 
 
-_(263 additional items in raw.jsonl)_
+_(386 additional items in raw.jsonl)_
