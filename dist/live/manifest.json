@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-27T23:10:25Z",
- "generated_ts": 1793142625,
+ "generated_at": "2026-10-28T02:44:52Z",
+ "generated_ts": 1793155492,
  "days": 7,
  "network": true,
  "layers": [
   {
    "layer": "firms",
    "file": "layers/firms.geojson",
-   "count": 1,
-   "freshest_ts": 1792861800,
-   "freshest_at": "2026-10-24T17:10:00Z",
+   "count": 0,
+   "freshest_ts": null,
+   "freshest_at": null,
    "inputs": [
     "lake:firms",
     "live:eonet"
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 199,
-   "freshest_ts": 1793127473,
-   "freshest_at": "2026-10-27T18:57:53Z",
+   "count": 183,
+   "freshest_ts": 1793154105,
+   "freshest_at": "2026-10-28T02:21:45Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,9 +31,9 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 726,
-   "freshest_ts": 1793103636,
-   "freshest_at": "2026-10-27T12:20:36Z",
+   "count": 591,
+   "freshest_ts": 1793151551,
+   "freshest_at": "2026-10-28T01:39:11Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -63,9 +63,9 @@
   {
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
-   "count": 427,
-   "freshest_ts": 1793142625,
-   "freshest_at": "2026-10-27T23:10:25Z",
+   "count": 386,
+   "freshest_ts": 1793155492,
+   "freshest_at": "2026-10-28T02:44:52Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -75,7 +75,7 @@
   {
    "layer": "flights",
    "file": "layers/flights.geojson",
-   "count": 126,
+   "count": 117,
    "freshest_ts": 1793103630,
    "freshest_at": "2026-10-27T12:20:30Z",
    "inputs": [
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 7,
-   "freshest_ts": 1793139600,
-   "freshest_at": "2026-10-27T22:20:00Z",
+   "count": 6,
+   "freshest_ts": 1793151360,
+   "freshest_at": "2026-10-28T01:36:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1793142625,
-   "freshest_at": "2026-10-27T23:10:25Z",
+   "freshest_ts": 1793155492,
+   "freshest_at": "2026-10-28T02:44:52Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -119,14 +119,14 @@
    "name": "lake:usgs_quakes+weather",
    "layer": "quakes",
    "ok": true,
-   "count": 191,
+   "count": 168,
    "error": null
   },
   {
    "name": "lake:gdacs",
    "layer": "gdacs",
    "ok": true,
-   "count": 388,
+   "count": 300,
    "error": null
   },
   {
@@ -140,14 +140,14 @@
    "name": "lake:ukraine_theater",
    "layer": "ukraine",
    "ok": true,
-   "count": 616,
+   "count": 503,
    "error": null
   },
   {
    "name": "lake:vip_flights",
    "layer": "flights",
    "ok": true,
-   "count": 126,
+   "count": 117,
    "error": null
   },
   {
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 17,
+   "count": 21,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,7 +176,7 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 348,
+   "count": 301,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
@@ -184,7 +184,7 @@
    "name": "live:eonet",
    "layer": "firms+gdacs",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "error": null,
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -269,13 +269,13 @@
   }
  ],
  "counts": {
-  "firms": 1,
-  "quakes": 199,
-  "gdacs": 726,
+  "firms": 0,
+  "quakes": 183,
+  "gdacs": 591,
   "conflict": 0,
-  "ukraine": 427,
-  "flights": 126,
-  "weather_alerts": 7,
+  "ukraine": 386,
+  "flights": 117,
+  "weather_alerts": 6,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
