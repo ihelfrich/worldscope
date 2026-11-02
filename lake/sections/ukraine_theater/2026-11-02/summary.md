@@ -2,15 +2,19 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-11-02
-record_count: 369
-new_today: 160
+record_count: 417
+new_today: 172
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-160 new of 369 total items today.
+172 new of 417 total items today.
 
+- **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-11-02*
+  > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-11-02*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[FIRMS] thermal anomaly 50.545, 26.259 (FRP 1.29 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@26.259,50.545,9z) — *2026-11-01*
   > VIIRS S-NPP NRT, sat N, acquired 2026-11-01 0052Z, FRP 1.29 MW
 - **NEW**  [[FIRMS] thermal anomaly 48.974, 24.712 (FRP 1.03 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@24.712,48.974,9z) — *2026-11-01*
@@ -29,18 +33,18 @@ state: fresh
   > VIIRS S-NPP NRT, sat N, acquired 2026-11-01 1038Z, FRP 10.03 MW
 - **NEW**  [[FIRMS] thermal anomaly 44.775, 33.863 (FRP 1.1 MW, conf nominal)](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;@33.863,44.775,9z) — *2026-11-02*
   > VIIRS S-NPP NRT, sat N, acquired 2026-11-02 0037Z, FRP 1.1 MW
-- **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-11-02*
-  > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- **NEW**  [[Liveuamap] Once again explosion was reported in Dnipro city – Dnipropetrovsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-10-30*
-  > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQbWRYM3pwZ3l2ejNMTHVtQUx6MC0td2pxcmhaYThfQVRKdzFRVDhaNnJXTWc1VkZwVGN1dGlidGQ1ZVFQc3FQTW1qUHBtOGo1Nlh6X1dUQlJ6NU5sSmNBX1dubHhGQWNZbUtsTlBoTnlOUVdmNVdKdWpSckkyVThRbHJscTk5bm1KWjNyOHZDT1Y?oc=5" target="_blank">Once again e
+- [[Liveuamap] Explosion heard in Sumy – Sumy, Sums&039;ka oblast - Liveuamap](https://liveuamap.com) — *2026-10-30*
+  > <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE44aVhxaUY1XzAxTUp0Z256RE9xc1o3UUR2emdMNXFuWE1pTkdIRDdxRlN1WGlkd1hKX2xqenNNMHZKTjVNQlFUSU0zWGk2ZnJEZ2ltMUtaeElUMTdUSVphR1dPeFBkMGxuZk56OEVvYWVfWmR2LWc?oc=5" target="_blank">Explosion heard in Sumy – Sumy, Sums&039;ka obla
 - **NEW**  [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
 - **NEW**  [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - Liveuamap](https://iran.liveuamap.com) — *2016-07-28*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - **NEW**  [[Liveuamap] At Kostiantynivka direction clashes yesterday near Kostyantynivka, Sofiyivka, Vilne, Mykolaypillya, Zolotyi Kolodyaz, - General Staff of Armed Forces of Ukraine reports – Donetsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-10-31*
   > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPdDQyVF9GYS1VcmlVSGNIMlZGb29LN2dxek5JQnRfWFFFTUhEMmwyc1FYT1dJS1h2MlNwc2t1MHYxSGFIclllRmk5ejFhZVJCVXVsR2xqNXJtOTlRVTdPbWJFSmJSYmI2dUFnWmw4dGtYS0dzWUFNOWRsQjJzbldOUTZYSzg4QWdRY1ZRM29vd1BIbVU?oc=5" target="_blank">At Kosti
-- **NEW**  [[Liveuamap] A large number of U.S. Air Force aerial refueling tankers are seen lined up at Israel's Ramon Airport - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-11-01*
-  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUDUydXZWemd2NXVEU0hxbUZTMXpYTVRuY0lyUW5aNS12SHZuTGQzZ1ZOQzMxMDlQaFByWkFCZFhjQW9HYnFYdVJ4T25XU3E2M1RPVzdleUxnRDN0aXVKUlJZZC0yOS1vRUcxZUE2a3FUeVU4TWp6bUZxMlhYNGJIeVNPczJxSVh3X0ZXbWRxaHl2emxkSHJHcl9EcXMzTE9sWVBPZUQwM0RyRm
+- **NEW**  [[Liveuamap] 2 people killed,3 wounded as result of Russian strike in Koziatyn of Vinnytsia region – Kozyatyn, Vinnitsa - Liveuamap](https://liveuamap.com) — *2026-11-01*
+  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdUFXbkx4b2pSY2F6d3RQZjRnMHFTRHotd2J3dmstb2M0MnlISk9NbkdUeU9rYzlmUmk5RW9JREVlWFNkTWR6dDFlYU1OdVNSMVRtNXJGR0dHTnA3VmJ1emd4dlBwZTVib2NyOEZGZC10dkNkSEMycEdnVEtTbXBnZlZMdTlZYTJ5dUJLMHBtalZ3Um8?oc=5" target="_blank">2 people
+- **NEW**  [[Liveuamap] Russian President Putin and Mohsen Rezaei, secretary of Iran's Supreme National Security Council, held a phone call - Liveuamap](https://iran.liveuamap.com) — *2026-11-02*
+  > <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0tBbVhneHRfLTBDRWlVV0NHUnp1UDliSnhVc2JGMUoxdk5YdTBhSy1FOTBYYlB3TlJRY1dSeVhYbTFkX1YzbndzWTlaNkkzU0J2b29WQWpqQW5sWXBLY3lFM2VNTFVYTDA5X3BRb3Nuby15enNzVVRKV1RQa1IzekhBY3pLak1ab2xTcGVROHZUUWpwVDQ3MmJRaHllX2tnU3c?oc=5" targ
 - **NEW**  [[Liveuamap] SANA correspondent in Daraa: Several explosions were heard in the vicinity of the towns of Nasib and Muzayrib, resulting from airstrikes – Daraa Governorate, Syria - Liveuamap](https://syria.liveuamap.com) — *2026-10-26*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOanFFNU9Sb2duc2dmM1Q3cWptWG1OZ0hLdkNYdllkWk5XVFdHV2ZKcDBDOU43aDByYXhkQ3Y4d0FXcEVrRV9LTE1nLXV2LXV0WldoMFpQaUR1U2lMMHNoUnVGdDFiSzlIUVJOQ2FrMlR3ZWlpMVB1X2VGWmFWNXpMOWZOM2hSRkFPcVlwSWpZZ0RSdzM4VFYtN0dlczY?oc=5" target="_bla
 - **NEW**  [[Liveuamap] At Pokrovsk direction clashes yesterday near Sofiyivka, Vilne, Svitle, Vodyanske, Vasylivka, Molodetske, Udachne, Dobropillya, Novohryshyne, Myrne, Serhiyivka, Novopavlivka, - General Staff of Armed Forces of Ukraine reports – Dnipropetrovs](https://liveuamap.com) — *2026-11-02*
@@ -57,9 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiREFVX3lxTFA0dG1lT1Jwc2FPWnl5aXpwRTRXZWk2NTJMRFhVRjFOWTRURjNITjhuUkVISkMwQVJPbWhVeHBPNi1wckp5?oc=5" target="_blank">Map of conflict in Jammu and Kashmir - India Pakistan - kashmir.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">
 - **NEW**  [[Liveuamap] Explosion were reported at Jask port – Hormozgan Province, Iran - Liveuamap](https://iran.liveuamap.com) — *2026-10-29*
   > <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNb0hzM1REd1FsMkZ3RDFuVk4xaTJRWTVfcVZSa1B1UnpDaXZYT1NHTHlZczEyY3l4VGd2QkVaeHczSDBmVVZkVUhwYnVxT2owLWdxYWJ6bkc3VGtUaWdEbXhhN3ROWjZ3LXZCQk9aSl9Pb0R5aXZXU2NBOUlvdXcxMERkLXdIVDZHMnduQWRB?oc=5" target="_blank">Explosion were 
-- **NEW**  [[Liveuamap] Earthquake of magnitude 4.8 - Mid-Indian Ridge - Liveuamap](https://disasters.liveuamap.com) — *2026-11-01*
-  > <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFBUdzVzalA1ejRBODRlMGxVa2hHSkNCdTNfUTlSQl9ZU3REYU9EeWk0bmp1R3V5UUFadnlzZTU5aVFLd01ZRWxCWkd0YTE3LWI1Rnl2RGMtN2c0QVpJVWxjNzA5aFR0MlVlNzlVYmJ2TDBIWngwb1lfa0VR?oc=5" target="_blank">Earthquake of magnitude 4.8 - Mid-Indian Ri
-- [[Liveuamap] Fires at the oil refinery in Ufa were contained – Ufa, Bashkiriya - Liveuamap](https://liveuamap.com) — *2026-10-31*
-  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkZCWGpuQlJTYTIweGIxRmd3UWozNjdLSTR4QTVpX2JyemdLX2I4SFRsaS16ajdEQnoyVUJXaHpIbVVjTnMzRHA5NXB4Q090cDdFOXNLcnB0N3oxc0dMMkd5Q1ZxM1VjRjM4N000TFNyaFdQWWpxQ1lmZkwxSnVlZktQbnVaTFVWN0dRYUpfeVN6Nno1NUE?oc=5" target="_blank">Fire
 
-_(344 additional items in raw.jsonl)_
+_(392 additional items in raw.jsonl)_
