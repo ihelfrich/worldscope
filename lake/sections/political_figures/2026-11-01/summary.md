@@ -5,7 +5,7 @@ date: 2026-11-01
 record_count: 613
 active_figures: 576
 scored_above_zero: 24
-state: fresh
+state: stale_after_failure
 ---
 
 ## U.S. Political Figures (per-figure anomaly tracking)
