@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T12:20:45Z",
- "generated_ts": 1793708445,
+ "generated_at": "2026-11-04T00:54:38Z",
+ "generated_ts": 1793753678,
  "days": 7,
  "network": true,
  "layers": [
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 140,
-   "freshest_ts": 1793703827,
-   "freshest_at": "2026-11-03T11:03:47Z",
+   "count": 132,
+   "freshest_ts": 1793752379,
+   "freshest_at": "2026-11-04T00:32:59Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,9 +31,9 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 442,
-   "freshest_ts": 1793685600,
-   "freshest_at": "2026-11-03T06:00:00Z",
+   "count": 751,
+   "freshest_ts": 1793728800,
+   "freshest_at": "2026-11-03T18:00:00Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -63,9 +63,9 @@
   {
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
-   "count": 305,
-   "freshest_ts": 1793708445,
-   "freshest_at": "2026-11-03T12:20:45Z",
+   "count": 298,
+   "freshest_ts": 1793753678,
+   "freshest_at": "2026-11-04T00:54:38Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -75,9 +75,9 @@
   {
    "layer": "flights",
    "file": "layers/flights.geojson",
-   "count": 120,
-   "freshest_ts": 1793635182,
-   "freshest_at": "2026-11-02T15:59:42Z",
+   "count": 123,
+   "freshest_ts": 1793715717,
+   "freshest_at": "2026-11-03T14:21:57Z",
    "inputs": [
     "lake:vip_flights"
    ],
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 47,
-   "freshest_ts": 1793704920,
-   "freshest_at": "2026-11-03T11:22:00Z",
+   "count": 45,
+   "freshest_ts": 1793753640,
+   "freshest_at": "2026-11-04T00:54:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1793708445,
-   "freshest_at": "2026-11-03T12:20:45Z",
+   "freshest_ts": 1793753678,
+   "freshest_at": "2026-11-04T00:54:38Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -119,14 +119,14 @@
    "name": "lake:usgs_quakes+weather",
    "layer": "quakes",
    "ok": true,
-   "count": 131,
+   "count": 125,
    "error": null
   },
   {
    "name": "lake:gdacs",
    "layer": "gdacs",
    "ok": true,
-   "count": 500,
+   "count": 600,
    "error": null
   },
   {
@@ -140,14 +140,14 @@
    "name": "lake:ukraine_theater",
    "layer": "ukraine",
    "ok": true,
-   "count": 361,
+   "count": 341,
    "error": null
   },
   {
    "name": "lake:vip_flights",
    "layer": "flights",
    "ok": true,
-   "count": 120,
+   "count": 123,
    "error": null
   },
   {
@@ -168,16 +168,16 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 11,
+   "count": 13,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
   {
    "name": "live:gdacs_rss",
    "layer": "gdacs",
-   "ok": false,
-   "count": 0,
-   "error": "ParseError: not well-formed (invalid token): line 116, column 111",
+   "ok": true,
+   "count": 229,
+   "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
   {
@@ -201,7 +201,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22taiwan+strait%22&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -209,7 +209,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=sahel&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 47,
+   "count": 45,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -270,12 +270,12 @@
  ],
  "counts": {
   "firms": 0,
-  "quakes": 140,
-  "gdacs": 442,
+  "quakes": 132,
+  "gdacs": 751,
   "conflict": 0,
-  "ukraine": 305,
-  "flights": 120,
-  "weather_alerts": 47,
+  "ukraine": 298,
+  "flights": 123,
+  "weather_alerts": 45,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
