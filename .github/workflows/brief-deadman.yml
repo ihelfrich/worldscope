@@ -2,12 +2,14 @@ name: Brief dead-man switch
 
 # The September 2026 outage went unnoticed for 34 days because every check
 # watched inputs (collection ran, readiness published) and nothing watched
-# the output. This watches the output: by 14:30Z the desk-officer brief for
-# today must exist on main, or Ian gets one high-priority push.
+# the output. This watches the output: by 19:30Z the desk-officer brief for
+# today must exist on main, or Ian gets one high-priority push. The producer
+# cron starts 6-9 h late in practice (12:31Z-15:24Z observed 2026-10-10..12),
+# so an earlier check alerts before the brief could possibly exist.
 
 on:
   schedule:
-    - cron: "30 14 * * *"
+    - cron: "30 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -58,6 +60,6 @@ jobs:
           fi
           python -m worldscope.pushover_delivery \
             --title "Worldscope: no brief for ${TODAY}" \
-            --message "Missing by 14:30Z:${MISSING}. Check the Daily briefing run and the desk-officer routine." \
+            --message "Missing by 19:30Z:${MISSING}. Check the Daily briefing run and the desk-officer routine." \
             --url "https://github.com/ihelfrich/worldscope/actions" \
             --priority 1
