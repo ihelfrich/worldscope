@@ -2,37 +2,41 @@
 section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-11-06
-record_count: 265
-new_today: 91
+record_count: 264
+new_today: 90
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-91 new of 265 total items today.
+90 new of 264 total items today.
 
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-11-06*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-11-06*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- [[acled exception] UpstreamAuthError]() — *2026-11-06*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
+- **NEW**  [[Liveuamap] Explosion was reported near Kalynivka, Vinnytsia region – Vinnytsia Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-11-04*
+  > <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNUU5zWUNlYTJNSVNFc25VS2RLdmU0djNBLTFnX09MT1d2R05uUnBtTlBsSm9pQkFwUzI3QjFBN0ZSTXRqZEJYWW9wUVNYLWwtMGZyay1YaUt6ZXhJOVRYanljeDNMQTh2QXl6REJOd0dUWXp6cWN3bHdxT0QtMVVVZlEwUWsya1BBMXROamJnSGZnZDZiY2c?oc=5" target="_blank">Expl
+- **NEW**  [[Liveuamap] Russian President Putin met with Iran&039;s Supreme National Security Council Secretary Mohsen Rezaei in Moscow. Shortly after the meeting, Russia&039;s Foreign Ministry advised its citizens against traveling to Iran – Moscow, Russia - Live](https://iran.liveuamap.com) — *2026-11-05*
+  > <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQZkJCaXI4dkgtMU9SaGlnSmN3WDRrQTQ5enlsb2F1dVpGTGZBdzBVbWZQYmNfWXNlMjNIN1EwU0RieGFnYU1qQXRJRTI2VG05LWFuN3M0emdjbVVobU4wSzQtU1lNSGJiX0RTMGJrclVnLXR4SWtjblYwbHZSdEZFVjltM2NoMjFwXzR1SnV4cnc3ODREQWJjLWRJSQ?oc=5" target="_blan
 - [[Liveuamap] Ukraine&039;s National Anti-Corruption Bureau (NABU) detained Serhii Duka, first deputy head of the Security Service of Ukraine&039;s (SBU) Department for the Protection of National Statehood, law enforcement sources told Babel. Also among ](https://liveuamap.com) — *2026-11-04*
   > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOekJpbGJQSFk5NkZ2TGo2c2ozSE9KTGNwbXJvTnFSUWNyVXIxY3FQVklDRExpc0NRTEFQaEQyRHR1TmhPcWFFdVM0R0lpUG1NTGJYSmV5Vy14T1I0WWVJVFR1MVdRYWczU1k3NjVxWVNjQ0JxTnROM0VDaWJ1UnZrQlJ3TEFfUkY4ZFBwNUpQUnRIdw?oc=5" target="_blank">Ukraine&0
-- **NEW**  [[Liveuamap] Russia targeted a substation critical to the stable operation of the Khmelnytskyi Nuclear Power Plant with three drones, Energy Minister Shmyhal said. According to him, energy facilities were Russia&039;s primary targets during today&039;s ](https://liveuamap.com) — *2026-11-03*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUdiSENWT01FYnpsazRVQmIzT3JvY1h6bEtYVzJSQXNKTTVtRG5vQkxFMjhLTkwtNmE2by1iRXk4Y2hSamZneXh1eVFadnVLSzZPckpYWVZvamhHRmM1WTZHTWlwRkNMbFJRQmFTQ0Jfd1Y3RXM4aXpnd1YtQklHODc5ZkN3aHpUbDUtUTNUT0p4dw?oc=5" target="_blank">Russia ta
-- [[Liveuamap] Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com - Liveuamap](https://iran.liveuamap.com) — *2026-11-05*
-  > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE1kU0J1MFhkT0JLY29aZnc5TzYzbE1KTTFaQ19pR0JEZ2Zaay1JWFJSSkp2eWp1S1BxVVlub3Y0djQ?oc=5" target="_blank">Iran news on live map in English - War in Iran - Conflict in the Gulf- iran.liveuamap.com</a>&nbsp;&nbsp;<font color="#6
 - [[Liveuamap] Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com - Liveuamap](https://liveuamap.com) — *2014-11-14*
   > <a href="https://news.google.com/rss/articles/CBMiOkFVX3lxTFBsdGdBOUMtUGIzaWpMRVRwa0x4VWY3SlRTTVdTYW83Y01rR0xpSWpXd2xNOWFkV0lWNUE?oc=5" target="_blank">Ukraine Interactive map - Ukraine Latest news on live map - liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
+- **NEW**  [[Liveuamap] Ukraine&039;s Security Service (SBU) detained three suspects in connection with organizing unrest in Petropavlivska Borshchahivka. According to investigators, a woman from the Kyiv region provoked clashes near a temporary National Guard dep](https://liveuamap.com) — *2026-11-04*
+  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNdXczMHFaWWdGN2hpakI2cE45Q2hMckdtUU1PaWwzbnQ1bjFYcVVwd3hmVGkxVGtiaE52QWhqSEx2ZmdkT21RdFhZRl9OWWoxc21rTFVIQjZ3Z003bTU3eHhMV3cwVEVxb0FyMUM5VFc3Rmk0NGx6OFkyRnh2djZ1RThrRk5yZ09uejRUOFExWDBiZw?oc=5" target="_blank">Ukraine&0
 - **NEW**  [[Liveuamap] Yemeni forces: We have gained control of the Sanmat area in Taiz and thwarted infiltration attempts in several sectors. - Liveuamap](https://yemen.liveuamap.com) — *2026-11-05*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUh0THJFZUF5VTFKZ25jM2o4MWYxc3VpMDJ5VHNuUzdhQkFPOVBJNnptaDZzcElVdGdsaGFvRmpvdF9ZbmZlN2R0TkwzdGFLdmFKSjh6Q2IwdXpGZkJFQ3RkcDZ3aEFPQWJQSy1FWnZzc19EYUNoeXhGeTZKQlpQQUt1M3kxbVVkR0Q2TWJ5UzNGSm5iY0ZQeQ?oc=5" target="_blank">Y
+- **NEW**  [[Liveuamap] Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com - Liveuamap](https://syria.liveuamap.com) — *2026-11-06*
+  > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE9YdXlQcnlfZ1U0eXVyRmc1SnpsTzJYMk9hdG1LRlhNazZMRUZ0ejlQOElVejFtUElfbEpEMy05emxjUQ?oc=5" target="_blank">Map of Syrian Civil War - Syria news and incidents today - syria.liveuamap.com</a>&nbsp;&nbsp;<font color="#6f6f6f">L
 - **NEW**  [[Liveuamap] Al-Shifa Medical Center: Injured Palestinians in Gaza&039;s Jabalia refugee camp hit by Israeli strike – Jabalia, Gaza - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-11-05*
   > <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNajZSNUw4SFQ1cHVtdldfaFJfQ2ExbnZEd18yMzRNX1o1ZVE3OFhqUUdJYmNyNk94R2RSMWJwMDVmSUVOeFNOZW1KeGEtblpPSklTc1BnWTNWUkhpeGEtZ09PZlFkbVZhMEkyLVhqN2lSWlZRazI2MTBNN1FPemczdFZSZGtGaVNIdkVWX3BSRG9UN2pxYUNYendVb1M3a2RqbnJHdnNB?oc=5"
-- **NEW**  [[Liveuamap] At Pokrovsk direction clashes yesterday near Vilne, Molodetske, Kucheriv Yar, Dobropillya, Svyatohorivka, Serhiyivka, Novopavlivka, - General Staff of Armed Forces of Ukraine reports – Dnipropetrovsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-11-06*
-  > <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNal9IbF9NNVhqdUpCbmpXUUp2N1NLZkpqZzJDeUoteTdfa3VrM2JZRXVjY3dsdFlaZFJoMmtVdGtxekt1c0ZjdG9XZ2xVampvVjVPei1HdVd5MHgtaWRIcS1YQTlWWWlKYUNsblNPMWV4TW5KT3FIbHpOOVNIWDBXWXRQanVuZ2xFV2xlcWRJNUZNdw?oc=5" target="_blank">At Pokrov
 - [[Liveuamap] Today news from war on Daesh, ISIS in English from Somalia, Egypt, Afghanistan, Iraq, Syria - isis.liveuamap.com - Liveuamap](https://isis.liveuamap.com) — *2026-11-04*
   > <a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE12SnJsXzVKdHlQQldmcmhYWDBjTE40N3kzcmtqTDNXOG1UZWNoR2dLQTdrNFNrNkhuUHNpYm44bm8?oc=5" target="_blank">Today news from war on Daesh, ISIS in English from Somalia, Egypt, Afghanistan, Iraq, Syria - isis.liveuamap.com</a>&nbs
-- **NEW**  [[Liveuamap] The last detainee in the Ra&039;am election bribery affair has been released. Judge Tsavari criticized the police: "Despite remarks given in my decision and in the appeal, the investigating unit has not advanced the case and I have not even](https://israelpalestine.liveuamap.com) — *2026-11-04*
-  > <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUlsRlNPS3dCV3J4VWpFbXdPQ1hKbFJiT0R0aWdwczYxNTBqUW10SnpWNk1iQmpiaXlOTzU2S2VrUzZsWkZPaGVFbml4SkV3cHo4RENBN2ZrVHNDaEZJbndIbmdzOXRUNXdtZ1ZUTGE3Tl94ZWJxeDhtMC1mTGtSYW5DcURMcGJxcG9uSlVDUUtEczRyYmlmSjRyMFRONVJLdFhyNGdWMmJiUQ
+- **NEW**  [[Liveuamap] At Sloviansk direction clashes yesterday near Yurkivka, Mykolayivka, - General Staff of Armed Forces of Ukraine reports - Liveuamap](https://liveuamap.com) — *2026-11-06*
+  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNX0hKX2QyRUFzcjllaXVfcVFXV0gyVDN1d2xVdVR1cXBNNHBWT3g5NG1qOS1oVDVZLXU5Q1JDTWV4SkVnUDM4QUl6Wmw0cEpJR0liS2NfQzBqdGNvSnBZUWoxcnlGeEE0T2hIdWhmS1lsdDduQkwxV0RpMXRqQ1E5UDhFTlpZcHo3X21oX0ZqclRySTA?oc=5" target="_blank">At Slovi
 - **NEW**  [[Liveuamap] Hospital Nasser source: Citizen killed and woman and child injured after shooting in Al-Batn al-Sum, Khan Yunes. - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-11-02*
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkRkTFhRRC1pUmZGZG8tUEExTE5rTzdkemlZS01mWmNLRWJnZmlkRjFDTDE1YkVBY0dNbElObHMyS0V3eHVtaE1JdUFsUm1FOG9GTkVaVDc0ejhWY1BRNFFCWlBHVEtXeHI0anYyd3I3anZXSU1ST0poLVByNUFIcm85d01FemdXNW12YkdoNmh1T2pGREZqbHh1V0pQaGVnbk1xUlRIRGJoME
 - **NEW**  [[Liveuamap] Overnight Russia launched 310 strike drones of different types, - Ukrainian Air Force – Dnipropetrovsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-11-04*
@@ -57,9 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWc3emZ5WVQ1dEQ1OEx0ZWxQYXB6UzZzT2V5WXpCcmxEMXR5YnRHZ1Bsc3Y3clZ6NGszdmw5Nk12SWRkUW1ycUtnaU94TnB4bXNzNnRtVlVncGJodVctR1M3UmljR3hMOU9wYzh2d1lSeEwySElCQzZQMkx3UThVQ0xSQ1Rndw?oc=5" target="_blank">Explosion was reported in
 - **NEW**  [[Liveuamap] Explosion was reported in Dnipro city – Dnipropetrovsk Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-11-05*
   > <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmZlemVhZ0NxMW5uM1dXYzg5cy1JMXdESzZ6dThoUnRpbUV6Uk1BMVlfUzBhbXNRTDMxSGZKVmFMLTMybjl6NjJEeC1uWlJyWUUzeWNqYlpkWElQOTRmRGNtLS13RnhmODhuOVZHSEUtNDJjRE9Yd0o4LW9rRXZnSUJGdWd3SE1I?oc=5" target="_blank">Explosion was reported 
-- **NEW**  [[Liveuamap] Teen shot multiple times in Jackson neighborhood dies – Jackson, Мисисипи - Liveuamap](https://mississippi.liveuamap.com) — *2026-11-06*
-  > <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOajJiR1k1RGlWeHNldjA5b3drSE1FS3Nsd3Vub3BPeG9zX2Q1R2RuT0M2STVkZGhGaTRDNS1iY3luVVA3Z1pja1hnbXlhbHZDcXNZNThDUjdrcXJJYlBfTEJ0aHBMaEY0enhfOWUtSzc4aE5xbTM4eHAySWZLcWdrY21IWXI1U1I5ZUJ3MkZfMGVaSU5FOFVTdnZfYnVYVFlaNUlNbXN6Zw?oc=
-- **NEW**  [[Liveuamap] Israeli airstrike on Nuseirat camp in central Gaza Strip – Bureij, Gaza - Liveuamap](https://israelpalestine.liveuamap.com) — *2026-11-05*
-  > <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPam45Wm52Y3JFTTdRamV3UzhRazg4S1N1ZnBZdlVpOGxIak8weWxxdHZ6Zlo1aVpsZ3pUamRaZWZCbGo1cEVIZ2xBN3RYZF9kZHFzaU8xaDJqSE9xN0dQSW9hQVJuejQyWVpTTjJnS3paSWpaRzVvZWkwZUlYWU1BclZuSUh2aVdXekJHQTRWeWthV3RjYUFlWXJmTDhHYlpFTnp4bU1Mem0?oc
 
-_(240 additional items in raw.jsonl)_
+_(239 additional items in raw.jsonl)_
