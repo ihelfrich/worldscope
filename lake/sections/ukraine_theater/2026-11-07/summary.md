@@ -15,6 +15,8 @@ state: fresh
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
 - [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-11-07*
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
+- [[acled exception] UpstreamAuthError]() — *2026-11-07*
+  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - **NEW**  [[Liveuamap] Several ballistic missiles were launched towards Kyiv region – Kyiv,Kyiv city - Liveuamap](https://liveuamap.com) — *2026-11-06*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPUF93eWJ2R1Fjek02MXdxenpFdmMyVktaWk42a2Z2SVF3Um53QzRGd2RyWUw3Vk8yeHlNV0FRR19DTFBTMVd1ZDJIVFlJU2ROSWRuMUJtcjZMUVZjTHhoczVER1ZTUk5rYi1tcTJRY1JrQ0JZc05FQVdTYzUyNlJvYkF5WTNFYUhMUldydkJySVRqUksxTXc4?oc=5" target="_blank">Sev
 - [[Liveuamap] Explosion was reported near Kalynivka, Vinnytsia region – Vinnytsia Oblast, Ukraine - Liveuamap](https://liveuamap.com) — *2026-11-04*
@@ -59,7 +61,5 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPcVFZdG1NQm1hUElET2V1MTNTMlhkX1VCNmpscEVLR2I0TDJRRmFoNWE4OFhJdXpKeWp4eXB0TWxuUGVvZkRCcjBtRGlTMTR2RDNHYV9JQjdlTzdIV0E3VFZGd2E2U0lVQ29wNVkxUzNHVWE4WjdzQ2czeEh6aW9yN0dwZw?oc=5" target="_blank">Explosion was reported in Kha
 - [[Liveuamap] Drones have attacked oil refinery in Ryazan – Ryazan Oblast, Russia - Liveuamap](https://liveuamap.com) — *2026-11-05*
   > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQWmpFcWcyd3N6V0ZJaWk1NFNHY2I2bEt2bVh3YWFHSWpkQU53UTk1N1h2YXdRd29BWUFnSXNEZTVZdFBkTDZxTExndGhEU0dHOXoyVk1oWU1FTE5nd0t5a0hmM3RLRDhMVWVrMXY0ZW03ajhUSkVXQjhrMHJqRF9QRW9xVEhhblVkQ2dJV09tRVo?oc=5" target="_blank">Drones have 
-- [[Liveuamap] Explosions heard in the Strait of Hormuz – Hormozgan Province - Liveuamap](https://iran.liveuamap.com) — *2026-11-05*
-  > <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOZWZSRXFoOEhQeVktbnAtZmszeWcyMDBEWGliRGVvNEpBRjBGR0kyZ2U2bGVlRmdkLVYwNlVISG0wVkxOd181a1JJRjU3X2FGRjl1MFRsdk1uMUJZcE9sYk9uNFJfbC1pM2tLQ0N1dzJQazBQR1diWUpNSE1iQVRNcHpBaVpHOVViVkpTZHo0aGhiTUk?oc=5" target="_blank">Explosio
 
 _(243 additional items in raw.jsonl)_
