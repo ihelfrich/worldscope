@@ -73,7 +73,16 @@ jobs:
       cancel-in-progress: false
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.first.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
+      # Pages sometimes sits in "syncing_files" until the action's 10-minute
+      # timeout (four runs on 2026-11-10; healthy deploys take 20-60 s). Give
+      # up after 5 minutes and try once more instead of failing the run.
+      - id: first
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 300000
       - id: deployment
+        if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v4

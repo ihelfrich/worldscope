@@ -113,6 +113,16 @@ def _navbar(*, brief_stem: str | None = None, assets_prefix: str = "../") -> str
     """
     zip_href = (f"{assets_prefix}zips/{html.escape(brief_stem)}.zip"
                 if brief_stem else f"{assets_prefix}zips/")
+    # Bundles are kept for a bounded window (worldscope/dist_maintenance.py)
+    # and weekly briefs never had one, so only link a bundle that is there.
+    # Every brief is re-rendered on each run, so the link disappears with it.
+    has_bundle = (not brief_stem
+                  or (REPO / "dist" / "zips" / f"{brief_stem}.zip").is_file())
+    bundle_nav = (f'<a href="{html.escape(zip_href, quote=True)}">Bundle</a>'
+                  if has_bundle else "")
+    bundle_item = (f'<li><a href="{html.escape(zip_href, quote=True)}" '
+                   f'class="block py-1.5">Today\'s bundle</a></li>'
+                   if has_bundle else "")
     return f"""<header class="ws-navbar" x-data="{{ open: false }}">
   <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
     <a href="{assets_prefix}index.html" class="ws-brand text-sm">WORLDSCOPE</a>
@@ -120,7 +130,7 @@ def _navbar(*, brief_stem: str | None = None, assets_prefix: str = "../") -> str
       <a href="{assets_prefix}index.html">Today</a>
       <a href="{assets_prefix}sections/">Sections</a>
       <a href="{assets_prefix}briefings/">Archive</a>
-      <a href="{html.escape(zip_href, quote=True)}">Bundle</a>
+      {bundle_nav}
     </nav>
     <div class="flex-1"></div>
     <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
@@ -151,7 +161,7 @@ def _navbar(*, brief_stem: str | None = None, assets_prefix: str = "../") -> str
       <li><a href="{assets_prefix}index.html" class="block py-1.5">Today</a></li>
       <li><a href="{assets_prefix}sections/" class="block py-1.5">Sections</a></li>
       <li><a href="{assets_prefix}briefings/" class="block py-1.5">Archive</a></li>
-      <li><a href="{html.escape(zip_href, quote=True)}" class="block py-1.5">Today's bundle</a></li>
+      {bundle_item}
       <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
     </ul>
   </nav>
@@ -462,8 +472,17 @@ def _brief_network_seed() -> str:
     return json.dumps({"day": today, "recurrences": compact})
 
 
+# Some briefs reference a chart by its repository path
+# (briefings/<date>-chart.png). The rendered page already lives in
+# briefings/, so that resolved to briefings/briefings/... and 404ed.
+_REPO_RELATIVE_CHART = re.compile(
+    r"\]\((?:\./)?(?:briefings|weekly_briefings)/"
+    r"(\d{4}-(?:\d{2}-\d{2}|W\d{2})-[^)\s]+\.png)")
+
+
 def render_one(md_path: Path, out_dir: Path, kind: str) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
+    md_text = _REPO_RELATIVE_CHART.sub(r"](\1", md_text)
     stem = md_path.stem
     zip_path = REPO / "dist" / "zips" / f"{stem}.zip"
     md_text = strip_stale_zip_notice(md_text, zip_path.exists())

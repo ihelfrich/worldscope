@@ -249,7 +249,45 @@ def degraded_reasons(manifest: Mapping[str, Any]) -> list[str]:
         return []
 
 
+# The UTC date stamped on a bundle must already be the America/Chicago date
+# the consumers ask for; that holds from 06:00Z in winter (05:00Z in summer).
+NOT_BEFORE_UTC = (6, 10)
+
+
+def should_run(now: datetime, dist: Path) -> tuple[bool, str]:
+    """Whether a scheduled producer firing should do the day's collection.
+
+    GitHub starts this repository's scheduled runs 7 to 10 hours late, so the
+    producer is scheduled several times a day and the first firing that
+    arrives after NOT_BEFORE_UTC without a manifest for the UTC date does the
+    work. Every other firing exits here in seconds.
+    """
+    now = now.astimezone(timezone.utc)
+    if (now.hour, now.minute) < NOT_BEFORE_UTC:
+        return False, (f"before {NOT_BEFORE_UTC[0]:02d}:{NOT_BEFORE_UTC[1]:02d}Z; "
+                       "the UTC date is not yet the Chicago date")
+    today = now.date().isoformat()
+    manifest = dist / "status" / "daily" / f"{today}.json"
+    if manifest.is_file():
+        try:
+            if _load_object(manifest, "readiness manifest").get("status") == "ready":
+                return False, f"{today} already published"
+        except ReadinessError:
+            pass  # unreadable manifest: rebuild it
+    return True, f"no ready manifest for {today}"
+
+
 def main(argv: list[str] | None = None) -> int:
+    import sys
+    raw = list(sys.argv[1:] if argv is None else argv)
+    if raw[:1] == ["should-run"]:
+        gate = argparse.ArgumentParser(prog="readiness should-run")
+        gate.add_argument("--dist", type=Path, default=Path("dist"))
+        gate_args = gate.parse_args(raw[1:])
+        run, reason = should_run(datetime.now(timezone.utc), gate_args.dist)
+        print(f"run={'true' if run else 'false'}")
+        print(f"reason={reason}")
+        return 0
     parser = argparse.ArgumentParser(description="Publish or validate daily readiness")
     sub = parser.add_subparsers(dest="command", required=True)
     publish = sub.add_parser("publish-daily")

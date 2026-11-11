@@ -24,6 +24,7 @@ on:
 permissions:
   contents: write
   id-token: write
+  actions: write
 
 concurrency:
   group: compose-brief
@@ -33,11 +34,50 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
+  # Cheap pre-check with no checkout. The producer is scheduled several times
+  # a day and most firings exit at its gate, so this workflow is triggered far
+  # more often than there is anything to compose.
+  decide:
+    if: vars.COMPOSE_IN_ACTIONS != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      go: ${{ steps.decide.outputs.go }}
+    steps:
+      - id: decide
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          HAS_API_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          HAS_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          if [ "$HAS_API_KEY" != "true" ] && [ "$HAS_OAUTH" != "true" ]; then
+            # Not an error: the claude.ai routine is the other composer, and
+            # brief-deadman.yml raises the one alert if no brief lands. A red
+            # run here every day taught everyone to ignore it.
+            echo "::warning::No Claude credential. Set repo secret ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN (from 'claude setup-token') to compose in Actions."
+            echo "go=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if [ "$EVENT" != "workflow_run" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # Judge the producer by its build job, not the whole run: a stalled
+          # Pages deploy used to mark the run failed and cancel the day's
+          # brief (2026-11-10), and a gated-out firing has no build at all.
+          BUILD=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${RUN_ID}/jobs" \
+            --jq '[.jobs[] | select(.name == "build") | .conclusion] | first // "none"')
+          echo "producer build job: ${BUILD}"
+          if [ "$BUILD" = "success" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
   compose:
-    if: >-
-      (github.event_name != 'workflow_run' ||
-       github.event.workflow_run.conclusion == 'success') &&
-      vars.COMPOSE_IN_ACTIONS != 'false'
+    needs: decide
+    if: needs.decide.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -97,6 +137,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: |
             --model claude-opus-5-5
             --max-turns 120
@@ -142,6 +183,7 @@ jobs:
         if: steps.gate.outputs.go == 'true'
         env:
           TODAY: ${{ steps.gate.outputs.today }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           BRIEF="briefings/${TODAY}.md"
@@ -158,7 +200,13 @@ jobs:
           git diff --staged --quiet && { echo "nothing staged"; exit 1; }
           git commit -m "morning brief ${TODAY}"
           for attempt in 1 2 3 4 5; do
-            if git push origin HEAD:main; then echo "pushed on attempt $attempt"; exit 0; fi
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              # A GITHUB_TOKEN push does not fire render-briefings' push
+              # trigger, and its catch-up crons are earlier in the day.
+              gh workflow run render-briefings.yml --ref main
+              exit 0
+            fi
             echo "push rejected on attempt $attempt; rebasing"
             git fetch origin main
             git rebase origin/main || { git rebase --abort; exit 1; }

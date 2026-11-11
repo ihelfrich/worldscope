@@ -21,6 +21,10 @@ on:
     # and was manually re-run). Fires hourly 11:30-13:30 UTC for the daily
     # routine and Friday 20:40 UTC for the weekly routine.
     - cron: "30 11-13 * * *"
+    # The producer has been starting 7-10 h late, so briefs land in the
+    # afternoon UTC; these catch a render that finished after the slots above.
+    - cron: "55 18 * * *"
+    - cron: "55 23 * * *"
     - cron: "40 20 * * 5"
   workflow_dispatch:
     inputs:
