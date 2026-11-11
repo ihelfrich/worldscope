@@ -430,3 +430,19 @@ def test_portfolio_workflow_raises_and_resolves_one_tracked_alert():
     assert "issues: write" in body
     assert "${{ steps.check.outputs.failures }}" not in "\n".join(
         line for line in body.splitlines() if line.strip().startswith(("python3", "--")))
+
+
+def test_every_rebase_on_a_rejected_push_tolerates_a_dirty_tree():
+    # A plain rebase refuses to start when the build left tracked files
+    # modified; with `bash -e` the failed abort then killed the retry loop on
+    # its first attempt (Daily briefing, 2026-11-11).
+    seen = 0
+    for path in sorted(WF.glob("*.yml")):
+        for line in path.read_text().splitlines():
+            code = line.strip()
+            if code.startswith("#"):
+                continue
+            if code.startswith(("git rebase ", "git pull --rebase")) and "origin" in code:
+                seen += 1
+                assert "--autostash" in code, f"{path.name}: {code}"
+    assert seen >= 6

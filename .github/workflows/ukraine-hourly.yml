@@ -93,7 +93,7 @@ jobs:
               exit 0
             fi
             echo "push failed attempt $i, rebasing"
-            git pull --rebase origin main || git rebase --abort
+            git pull --rebase --autostash origin main || git rebase --abort || true
             sleep $((i * 3))
           done
           echo "all retries failed"
