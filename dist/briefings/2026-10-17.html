@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-10-17</title>
+<meta name="description" content="WORLDSCOPE daily briefing: WORLDSCOPE Morning Brief — Saturday, 17 October 2026">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/briefings/2026-10-17.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-10-17">
+<meta property="og:description" content="WORLDSCOPE daily briefing: WORLDSCOPE Morning Brief — Saturday, 17 October 2026">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/briefings/2026-10-17.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-11-11&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;President&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Ukraine&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Administration&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Pete Hegseth&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Transportation&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Washington&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Georgia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Florida&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Charles&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Agriculture&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Russia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;Price&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;James&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;YOUNG&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;France&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Rules&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Canada&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Joseph&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}]}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-10-17.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-10-17.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline">HEADLINE</a></li><li><a class="" href="#watch-areas">WATCH AREAS</a></li><li><a class="" href="#macro-situation">MACRO SITUATION</a></li><li><a class="" href="#markets">MARKETS</a></li><li><a class="" href="#us-politics-policy">US POLITICS &amp; POLICY</a></li><li><a class="" href="#political-figures-watchlist">POLITICAL FIGURES WATCHLIST</a></li><li><a class="" href="#regional-briefings">REGIONAL BRIEFINGS</a></li><li><a class=" pl-4" href="#europe">Europe</a></li><li><a class=" pl-4" href="#middle-east-north-africa">Middle East &amp; North Africa</a></li><li><a class=" pl-4" href="#south-asia">South Asia</a></li><li><a class=" pl-4" href="#east-asia-pacific">East Asia &amp; Pacific</a></li><li><a class=" pl-4" href="#americas">Americas</a></li><li><a class=" pl-4" href="#africa-sub-saharan">Africa / Sub-Saharan</a></li><li><a class="" href="#ukraine-theater">UKRAINE THEATER</a></li><li><a class="" href="#world-leaders">WORLD LEADERS</a></li><li><a class="" href="#sanctions-legal">SANCTIONS &amp; LEGAL</a></li><li><a class="" href="#conflict-security">CONFLICT &amp; SECURITY</a></li><li><a class="" href="#cyber-biosecurity">CYBER &amp; BIOSECURITY</a></li><li><a class="" href="#humanitarian">HUMANITARIAN</a></li><li><a class="" href="#environment-disasters">ENVIRONMENT &amp; DISASTERS</a></li><li><a class="" href="#speeches-op-eds">SPEECHES &amp; OP-EDS</a></li><li><a class="" href="#prediction-markets">PREDICTION MARKETS</a></li><li><a class="" href="#weak-signals">WEAK SIGNALS</a></li><li><a class=" pl-4" href="#cross-section-recurrence-analysis">Cross-Section Recurrence Analysis</a></li><li><a class="" href="#historical-context">HISTORICAL CONTEXT</a></li><li><a class="" href="#what-to-watch">WHAT TO WATCH</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Daily briefing</div>
+      <h1>WORLDSCOPE Morning Brief — Saturday, 17 October 2026</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-10-17</div>
+    </header>
+    <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high is-alert"><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">2</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#israel-iran-hezbollah-axis" class="text-inherit no-underline hover:text-navy">Israel-Iran-Hezbollah axis</a></h4><div class="ws-stat">2</div><div class="ws-meta">middle_east, conflict, military</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#taiwan-strait-south-china-sea" class="text-inherit no-underline hover:text-navy">Taiwan Strait + South China Sea</a></h4><div class="ws-stat">1</div><div class="ws-meta">taiwan, china, military</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#us-tariff-trade-dockets" class="text-inherit no-underline hover:text-navy">US tariff &amp; trade dockets</a></h4><div class="ws-stat">1</div><div class="ws-meta">trade, tariffs, courts</div></div><div class="ws-dash-tile  is-alert"><h4><a href="#critical-minerals-rare-earths" class="text-inherit no-underline hover:text-navy">Critical minerals + rare earths</a></h4><div class="ws-stat">1</div><div class="ws-meta">minerals, mining, rare_earths</div></div><div class="ws-dash-tile  is-alert"><h4><a href="#em-debt-distress-sovereign-restructuring" class="text-inherit no-underline hover:text-navy">EM debt distress + sovereign restructuring</a></h4><div class="ws-stat">1</div><div class="ws-meta">emerging_markets, debt, restructuring</div></div><div class="ws-dash-tile  "><h4><a href="#sahel-jihadist-corridor" class="text-inherit no-underline hover:text-navy">Sahel jihadist corridor</a></h4><div class="ws-stat">1</div><div class="ws-meta">africa, conflict, jihadism</div></div><div class="ws-dash-tile is-low "><h4><a href="#arctic-high-north" class="text-inherit no-underline hover:text-navy">Arctic + High North</a></h4><div class="ws-stat">1</div><div class="ws-meta">arctic, energy, military</div></div><div class="ws-dash-tile  "><h4><a href="#korean-peninsula" class="text-inherit no-underline hover:text-navy">Korean peninsula</a></h4><div class="ws-stat">1</div><div class="ws-meta">korea, military, missile_tests</div></div></section>
+    <article class="prose prose-slate max-w-none">
+      <p><strong>Produced:</strong> 2026-10-17 · <strong>Classification:</strong> UNCLASSIFIED // FOR OFFICIAL USE<br />
+<strong>Bundle:</strong> <code>2026-10-17.zip</code> · <strong>Status:</strong> READY · <strong>Degraded sources:</strong> acled (137d stale), reliefweb (137d stale)</p>
+<hr />
+<h2 id="headline">HEADLINE</h2>
+<p><strong>Trump Signs EO Waiving Graham Act Russia Sanctions — WTI Hits $110/bbl</strong></p>
+<p>President Trump signed an executive order late Friday waiving the Graham Act's 500% tariff on Russian goods and 100% secondary duties on energy buyers, hours before the penalties were to take effect Saturday. The White House filed a national-interest certification with Congress, citing a bilateral diesel supply deal (approximately 300,000 tons through April 2027) and the administration's midterm political calculus. Russia's foreign ministry called the waiver "historic." Congressional Democrats and some Republicans immediately announced countermoves: Rep. Gregory Meeks (D-NY) introduced legislation within hours to block the Trump-Putin diesel arrangement. Treasury, State, and Commerce retain authority over existing OFAC designations; only the Graham Act's prospective tariff tiers were suspended.</p>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p>Simultaneously, the strait of Hormuz remains on edge. Iran's Islamic Revolutionary Guard Corps claimed a supertanker struck a naval mine in the strait overnight — at least the third such incident since Iran's partial strait-closure announcement on 28 February. The vessel reportedly disabled its AIS transponder. WTI crude moved through $110/barrel, its highest since May 2026. The dual shock — sanctions relief easing paper Russian supply, offset by physical Hormuz disruption — is producing contradictory price signals that warrant close monitoring.</p></div>
+<p>Sources: <a href="https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html">CNBC</a><span class="ws-hostpill">cnbc.com</span> · <a href="https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html">RFE/RL</a><span class="ws-hostpill">rferl.org</span> · <a href="https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o">BBC</a><span class="ws-hostpill">bbc.co.uk</span> · <a href="https://www.iranintl.com/en/202610100347">Iran International</a><span class="ws-hostpill">iranintl.com</span></p>
+<hr />
+<h2 id="watch-areas">WATCH AREAS</h2>
+<table>
+<thead>
+<tr>
+<th>Watch Area</th>
+<th>Priority</th>
+<th>Status</th>
+<th>Key Development</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Russia oil sanctions perimeter</td>
+<td>HIGH</td>
+<td>🔴 ALERT</td>
+<td>Graham Act waiver signed; India crude-binge continues; France seizes 5th shadow tanker</td>
+</tr>
+<tr>
+<td>Israel-Iran-Hezbollah axis</td>
+<td>HIGH</td>
+<td>🔴 ALERT</td>
+<td>Supertanker mine in Hormuz; Iran President says "toughest siege since 1979"; $25B oil revenue lost to US blockade</td>
+</tr>
+<tr>
+<td>Taiwan Strait + South China Sea</td>
+<td>HIGH</td>
+<td>🟡 WATCH</td>
+<td>No new kinetic events; Taiwan-US drug bust (ketamine, ~$2B street value)</td>
+</tr>
+<tr>
+<td>US tariff &amp; trade dockets</td>
+<td>HIGH</td>
+<td>🔴 ALERT</td>
+<td>Graham Act waiver triggers immediate Meeks counter-legislation</td>
+</tr>
+<tr>
+<td>Critical minerals + rare earths</td>
+<td>NORMAL</td>
+<td>🟢 MONITOR</td>
+<td>No new developments</td>
+</tr>
+<tr>
+<td>EM debt distress + sovereign restructuring</td>
+<td>NORMAL</td>
+<td>🟡 WATCH</td>
+<td>EM equities (EEM) -1.74%; EM spreads widening with VIX spike</td>
+</tr>
+<tr>
+<td>Sahel jihadist corridor</td>
+<td>NORMAL</td>
+<td>🟡 WATCH</td>
+<td>Africa map updates; no discrete high-confidence events in bundle</td>
+</tr>
+<tr>
+<td>Arctic + High North</td>
+<td>NORMAL</td>
+<td>🟢 MONITOR</td>
+<td>RAF jets reporting mystery drones over Britain (possible Arctic-vector)</td>
+</tr>
+<tr>
+<td>Korean peninsula</td>
+<td>NORMAL</td>
+<td>🟢 MONITOR</td>
+<td>No new developments</td>
+</tr>
+<tr>
+<td>Latin America narcoeconomy + politics</td>
+<td>NORMAL</td>
+<td>🟡 WATCH</td>
+<td>Narco-trafficking national emergency (Colombia) renewed; Brazil election nearing resolution</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="macro-situation">MACRO SITUATION</h2>
+<p><img alt="Yield Curve" src="2026-10-17-yield_curve.png" />
+<em>US Treasury yield curve as of 2026-10-15. The 10y–2y spread is +35 basis points — steepest positive spread in 18 months, driven by long-end sell-off not matched by short-end.</em></p>
+<p><img alt="Anomaly Screen" src="2026-10-17-anomaly_screen.png" />
+<em>14-day volume anomaly z-scores by section. Elevated anomaly in Russia-sanctions and Iran-Hormuz coverage clusters.</em></p>
+<p><strong>Key rates (as of 15–16 Oct 2026):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Instrument</th>
+<th>Level</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fed Funds (effective)</td>
+<td>3.88%</td>
+<td>FOMC meets Oct 29; market 86% no-change</td>
+</tr>
+<tr>
+<td>2Y Treasury</td>
+<td>4.77%</td>
+<td></td>
+</tr>
+<tr>
+<td>10Y Treasury</td>
+<td>5.10%</td>
+<td>5-handle back</td>
+</tr>
+<tr>
+<td>30Y Treasury</td>
+<td>5.43%</td>
+<td></td>
+</tr>
+<tr>
+<td>10y–2y Spread</td>
+<td>+35 bp</td>
+<td>Positive; steepening</td>
+</tr>
+<tr>
+<td>SOFR</td>
+<td>3.89%</td>
+<td></td>
+</tr>
+<tr>
+<td>WTI Crude</td>
+<td>$101.91 (FRED Oct 14); ~$110 spot</td>
+<td>+8% from FRED baseline intraday</td>
+</tr>
+<tr>
+<td>VIX (spot, Oct 15)</td>
+<td>16.46</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p><strong>Macro backdrop:</strong> The yield curve is no longer inverted — the 10y–2y turned positive in Q3 2026 and has widened to +35 bp, the most since early 2025. Fed Funds at 3.88% reflects cumulative easing from the 2024 peak. Unemployment at 4.2% (Sep) is stable; nonfarm payrolls at 159,044 thousand. CPI headline (Sep) was 336.3 vs. prior 334.1, implying ~0.6% MoM, which keeps the FOMC in watch-and-see mode. Core PCE (Aug) at 130.5 gives insufficient cover for additional cuts. The Fed balance sheet has stabilized at $6.76 trillion after the taper-to-completion.</p></div>
+<p><strong>Calendar:</strong> The FOMC meeting is 28–29 October. No Fed speakers scheduled this weekend per calendar data. ECB governing council next meets in late October.</p>
+<hr />
+<h2 id="markets">MARKETS</h2>
+<p><img alt="FX &amp; Oil" src="2026-10-17-fx_oil.png" />
+<em>WTI crude (FRED), USD Index (DXY proxy), and EUR/USD trend.</em></p>
+<p><strong>Friday 16 Oct 2026 close:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Price</th>
+<th>Chg</th>
+<th>Context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S&amp;P 500 (SPY)</td>
+<td>763.25</td>
+<td><strong>-1.11%</strong></td>
+<td>Risk-off; broad selloff</td>
+</tr>
+<tr>
+<td>Nasdaq 100 (QQQ)</td>
+<td>709.80</td>
+<td><strong>-2.50%</strong></td>
+<td>Tech led lower</td>
+</tr>
+<tr>
+<td>Russell 2000 (IWM)</td>
+<td>270.44</td>
+<td>-1.69%</td>
+<td>Small-cap underperform</td>
+</tr>
+<tr>
+<td>MSCI EAFE (EFA)</td>
+<td>103.55</td>
+<td>-0.12%</td>
+<td>Eurozone relatively resilient</td>
+</tr>
+<tr>
+<td>MSCI EM (EEM)</td>
+<td>62.85</td>
+<td>-1.74%</td>
+<td>EM pressured</td>
+</tr>
+<tr>
+<td>China FXI</td>
+<td>33.84</td>
+<td>-1.23%</td>
+<td>PBoC rebound fading</td>
+</tr>
+<tr>
+<td>DXY proxy (UUP)</td>
+<td>28.92</td>
+<td>-0.28%</td>
+<td>Dollar softening slightly</td>
+</tr>
+<tr>
+<td>EUR/USD (FXE)</td>
+<td>103.75</td>
+<td>+0.26%</td>
+<td>EUR firm</td>
+</tr>
+<tr>
+<td>JPY/USD (FXY)</td>
+<td>58.00</td>
+<td>+0.12%</td>
+<td>Yen flat (158.3 per USD per FRED)</td>
+</tr>
+<tr>
+<td>TLT (20yr Treasury)</td>
+<td>80.05</td>
+<td>+0.10%</td>
+<td>Flight to quality bid</td>
+</tr>
+<tr>
+<td>Gold (GLD)</td>
+<td>382.01</td>
+<td>-0.18%</td>
+<td>Minimal move</td>
+</tr>
+<tr>
+<td>WTI Crude (USO)</td>
+<td>161.76</td>
+<td><strong>+2.83%</strong></td>
+<td>Hormuz mine/sanctions waiver</td>
+</tr>
+<tr>
+<td>Natural Gas (UNG)</td>
+<td>10.66</td>
+<td>-3.88%</td>
+<td>Reversal of prior spike</td>
+</tr>
+<tr>
+<td>HYG (high yield)</td>
+<td>76.86</td>
+<td>-0.35%</td>
+<td>Credit spreads nudging wider</td>
+</tr>
+<tr>
+<td>VXX (VIX futures)</td>
+<td>18.38</td>
+<td><strong>+7.61%</strong></td>
+<td>Largest daily VIX move in 6 weeks</td>
+</tr>
+<tr>
+<td>Bitcoin (BITO)</td>
+<td>10.88</td>
+<td>-1.09%</td>
+<td>Crypto risk-off</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Market narrative:</strong> VXX +7.6% and QQQ -2.5% on the same day that WTI +2.8% constitutes a stagflationary shock pattern — equity investors pricing higher cost-of-capital from energy inflation while simultaneously fleeing risk assets. The Hormuz mine incident is the proximate catalyst; the Graham Act waiver creates longer-term ambiguity about whether Russia supply re-enters markets via Indian re-export channels. Bond markets are mixed: long Treasury ETFs (TLT) edged up on safe-haven demand even as the underlying 10Y yield held at 5.10%.</p>
+<hr />
+<h2 id="us-politics-policy">US POLITICS &amp; POLICY</h2>
+<p><strong>Graham Act waiver — legislative counterpunch forming.</strong> Rep. Meeks introduced the Stop Putin's Diesel Deal Act within hours of the EO. Senate co-sponsors include at least three Republicans from energy-producing states concerned about Russian diesel displacing domestic production. The waiver is legally grounded in the Graham Act's Section 7 national-interest carve-out, but the certification process gives Congress 30 days to pass a joint resolution of disapproval — a vehicle that requires 60 Senate votes to overcome a filibuster and then a presidential signature the White House will never provide. Practical effect: the waiver stands unless the political dynamic shifts sharply.</p>
+<p><strong>2026 Midterms — Money Primary.</strong> FEC filings show Sen. Jon Ossoff (D-GA) at $98M raised for cycle, Rep. Chris Talarico (D-TX) at $69M, and Roy Cooper (D-NC) at $47M for Senate. Republican incumbents are being outpaced in fundraising in several battleground districts. Trump's campaign schedule has drawn criticism for concentrating in safe Republican states rather than swing districts, a tactical choice that may reflect a ceiling on his personal-appearance value in competitive terrain.</p>
+<p><strong>Federal Register (week of Oct 17):</strong> Three presidential proclamations continuing national emergencies — DRC, Sudan, and Colombian narco-trafficking — are scheduled for Federal Register publication Oct 19. These are routine annual renewals.</p>
+<p><strong>Starlink / Ukraine aid.</strong> The partial Starlink restriction announced Oct 14 (Musk-proposed, Trump-agreed per <em>The Telegraph</em>) drew criticism from Zelenskyy (Oct 16: "not fully restored"). Commercial Starshield terminal access for frontline units remains degraded according to Ukrainian field commanders, though SpaceX's technical team confirmed a subset of military bands was re-enabled Friday.</p>
+<hr />
+<h2 id="political-figures-watchlist">POLITICAL FIGURES WATCHLIST</h2>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><em>Source: political_figures.json — anomaly scoring against 90-day baseline. All anomalies flat (0.00) today, indicating normal coverage volume for all tracked legislators.</em></p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>No senators or tracked officials recorded a coverage anomaly exceeding the alert threshold today. The flat anomaly landscape on a day with high geopolitical activity likely reflects the political_figures data being sourced from congressional monitoring tools that lag news cycle by 24–48 hours. The week's significant figures to watch:</p></div>
+<ul>
+<li><strong>Trump, Donald (President):</strong> Center of both the Graham Act waiver and Starlink-Ukraine stories; appearing in 4 sections with 23 mentions in cross-section analysis.</li>
+<li><strong>Meeks, Gregory (D-NY, House Foreign Affairs Ranking Member):</strong> Introduced Stop Putin's Diesel Deal Act.</li>
+<li><strong>Graham, Lindsey (R-SC, Sen.):</strong> Author of Graham Act; publicly called waiver "a serious mistake."</li>
+<li><strong>Zelenskyy, Volodymyr (President of Ukraine):</strong> Criticized Starlink restrictions and Graham Act waiver simultaneously.</li>
+<li><strong>Pezeshkian, Masoud (President of Iran):</strong> Stated Iran faces "toughest siege since 1979 revolution" — politically significant framing.</li>
+</ul>
+<hr />
+<h2 id="regional-briefings">REGIONAL BRIEFINGS</h2>
+<h3 id="europe">Europe</h3>
+<p><strong>Ukraine (see dedicated Ukraine Theater section below).</strong></p>
+<p><strong>UK — mystery drones.</strong> RAF Typhoon jets scrambled multiple times this week to intercept unidentified drones with "no radar trace" approaching British airspace from the North Sea. Initial reports describe objects inconsistent with civilian UAS profile. No attribution confirmed; MOD classifying the incidents.</p>
+<p><strong>France — shadow tanker enforcement.</strong> French maritime authorities seized a fifth Russian shadow-fleet tanker this week in the English Channel, continuing the EU's intensified enforcement of Russian oil-price-cap sanctions. The vessel was carrying approximately 700,000 barrels of Urals crude above the $60 price cap.</p>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p><strong>Israel-Palestine.</strong> Israeli settler attacks on Palestinian villagers continued in the West Bank; a journalist was wounded. IDF drone strikes killed at least one Palestinian in Gaza. Post-ceasefire enforcement mechanism remains contested; Netanyahu faces coalition pressure from far-right partners who oppose any further de-escalation.</p></div>
+<h3 id="middle-east-north-africa">Middle East &amp; North Africa</h3>
+<p><strong>Iran.</strong> The Hormuz supertanker mine incident is the most operationally significant development. Iranian President Pezeshkian's "1979 siege" language signals domestic hardliner pressure is intensifying as US blockade costs accumulate ($25B in oil revenue lost per CENTCOM figures cited in GDELT). Iran's IRGC is simultaneously providing intelligence support to Houthis for Red Sea operations.</p>
+<p><strong>Houthis / Red Sea.</strong> Houthis struck at the Saudi presidential palace in Aden (Yemen); coalition intercepted a missile headed for Riyadh. The Houthi operations tempo has not declined despite years of Saudi-led airstrikes, and GDELT analysis notes their strike-envelope growth.</p>
+<p><strong>Israel-Iran-Hezbollah axis.</strong> Hezbollah remains in de facto ceasefire with Israel following the Lebanese deal, but cross-border incidents are spiking. Netanyahu faces judicial and political pressures domestically; a successor-candidate profile piece from Granada Media tracked in GDELT today.</p>
+<h3 id="south-asia">South Asia</h3>
+<p><strong>Pakistan.</strong> Two concurrent crises: (1) M5.7 earthquake at 48 km WNW of Khuzdar, Balochistan — likely above-threshold casualty event given population density and building vulnerability in the region (USGS automated report; no casualty figures yet confirmed); (2) School roof collapse 15 October killed 34 children — this was a separate structural failure event, not earthquake-related. Cross-section analysis flags Pakistan appearing in 6 sections with 31 mentions, the fourth-highest frequency today.</p>
+<h3 id="east-asia-pacific">East Asia &amp; Pacific</h3>
+<p><strong>Taiwan.</strong> Taiwan-US joint drug operation seized ketamine with a street value exceeding NT$2 billion (~$620M USD). No new maritime or military provocations reported in the Taiwan Strait this week.</p>
+<p><strong>China equities.</strong> FXI -1.23% as the post-National Day stimulus rally fades. No new PBoC announcements. CNY/USD at 6.692 per FRED (Oct 9), stable.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Pacific storms.</strong> Cyclone CHAMPI-26 (Red alert, GDACS) remains the primary disaster threat — 259 km/h sustained winds, 175,000 persons affected across Guam and Northern Mariana Islands. Cyclone SIMON-26 (Orange) poses secondary Pacific risk. M4.9 quake at 119 km SSW of Merizo Village, Guam reinforces the region's seismic-meteorological compound hazard.</p></div>
+<h3 id="americas">Americas</h3>
+<p><strong>Brazil.</strong> Polymarket prices Flávio Bolsonaro at 77% to win the 2026 Brazilian presidential election vs. Lula at 24%. The Brazilian Amazon deforestation rate reached a record low this year under Lula's current term, a legacy issue that will be scrutinized if the Bolsonaro family returns to power.</p>
+<p><strong>Colombia.</strong> Presidential narco-trafficking emergency renewed; no discrete new events in bundle.</p>
+<h3 id="africa-sub-saharan">Africa / Sub-Saharan</h3>
+<p><strong>DRC, Sudan.</strong> National emergencies renewed by executive proclamation (routine). Sahel corridor monitoring ongoing; no discrete high-confidence events in bundle today.</p>
+<hr />
+<h2 id="ukraine-theater">UKRAINE THEATER</h2>
+<p><img alt="Ukraine Theater Overview" src="2026-10-17-ukraine_theater_overview.png" />
+<em>Theater overview as of latest push. See also: <a href="2026-10-17-ukraine_kyiv_focus.png">Kyiv Focus</a> · <a href="2026-10-17-ukraine_population_at_risk.png">Population at Risk</a> · <a href="2026-10-17-ukraine_damage_recent.png">Damage Recent</a></em></p>
+<p><strong>Overnight strikes (16–17 Oct):</strong> Russia launched over 300 drones and a mix of Iskander, Caliber, and Kh-22 missiles. Ukrainian air defense neutralized 293 of the incoming assets. Confirmed strikes: Sloviansk (FAB-250 glide bomb, civilian quarter), Kramatorsk (4 wounded), Sumy region (KAB glide bombs), Khmelnytskyi region (oil depot fire, Liveuamap confirms). Moscow restricted airspace and diverted 350+ flights from Sheremetyevo and Domodedovo airports during the exchange window. Al Jazeera reports at least 8 killed, power cut to approximately 1 million homes.</p>
+<p><strong>Satellite imagery.</strong> Images released Friday show at least 4 Su-34 fighter-bombers destroyed and 2 more severely damaged at Borisoglebsk airfield (Russia, Voronezh Oblast) — consistent with a Ukrainian long-range drone or ATACMS strike earlier this week. The loss of operational Su-34s (primary Kh-59/FAB-500 carrier aircraft) is a meaningful attrition to Russia's glide-bomb delivery capacity.</p>
+<p><strong>Ground — Operation Vivaldi.</strong> Ukraine's 3rd Army Corps reported liberation of Zelena Dolyna, Lypove, and Kolodiazi villages (October 14), adding approximately 277 km² to Ukrainian control. The DeepStateMap snapshot in the bundle records 524 frontline polygons.</p>
+<p><strong>FIRMS thermal anomalies.</strong> 384 items in the ukraine_theater bundle; FIRMS coverage is Ukraine-only in today's bundle (global section returned empty). Thermal hotspots concentrated in the Sumy region, Kherson direction, and the Khmelnytskyi oil depot strike.</p>
+<p><strong>Starlink.</strong> Commercial Starlink for military units partially restricted since Oct 14. Full Starshield restoration unconfirmed as of Zelenskyy's Oct 16 statement. Operational impact on front-line unit coordination is classified but likely significant in a high-drone-intensity environment.</p>
+<p><strong>ACLED note:</strong> Conflict fatalities data is 137 days stale due to ACLED access issue. See conflict_fatalities.png for historical trend context; today's Ukraine casualties sourced from open-source Liveuamap and Al Jazeera reporting only.</p>
+<hr />
+<h2 id="world-leaders">WORLD LEADERS</h2>
+<p><strong>Pope Leo XIV.</strong> Released from Gemelli Hospital following lung cancer surgery; Vatican statement said his health "should not be taken for granted." First public papal appearance expected within 2 weeks per Vatican sources.</p>
+<p><strong>Iranian President Pezeshkian.</strong> Escalatory framing — comparing the US blockade to the 1979 revolution's external siege — signals a shift in domestic political communication strategy, likely aimed at consolidating hardline support as economic pressure mounts.</p>
+<p><strong>Putin, Vladimir.</strong> Publicly stated "the need to destroy infrastructure, including bridges and road junctions in Ukraine" — explicit military targeting directive, consistent with the overnight strike pattern on energy and transport nodes.</p>
+<p><strong>Trump, Donald.</strong> Three major simultaneous foreign policy actions this week: Graham Act waiver, Starlink restriction, and ongoing diplomatic track with Ukraine. The combination has produced the unusual dynamic of Zelenskyy publicly criticizing both the US and Russia simultaneously.</p>
+<hr />
+<h2 id="sanctions-legal">SANCTIONS &amp; LEGAL</h2>
+<p><strong>Graham Act waiver (Oct 16 EO):</strong> Suspends 500% tariff on Russian goods imports and 100% secondary energy duties. National-interest certification filed with Congress. 30-day congressional disapproval window opens. Existing OFAC SDN list, secondary sanctions under CAATSA, and EU Regulation 833 remain intact — only Graham Act's prospective tariff tiers are suspended.</p>
+<p><strong>French shadow tanker seizure (fifth this week):</strong> ~700,000 bbl Urals crude above $60/bbl price cap. EU sanctions enforcement has accelerated since the G7 enforcement protocol update in June 2026.</p>
+<p><strong>DRC, Sudan, Colombia national emergencies renewed:</strong> Published in Federal Register Oct 19. These are annual continuation notices under IEEPA; no new sanctions authorities added.</p>
+<p><strong>CISA KEV (see Cyber section):</strong> BeyondTrust and Fortinet vulnerabilities added to CISA's Known Exploited Vulnerabilities catalog Oct 16; remediation deadline Oct 19 for federal agencies. Three additional CVEs added for Atlassian, Ahsay, and Cisco.</p>
+<hr />
+<h2 id="conflict-security">CONFLICT &amp; SECURITY</h2>
+<p><img alt="Conflict Fatalities" src="2026-10-17-conflict_fatalities.png" />
+<em>Historical conflict fatalities by region (ACLED). Note: ACLED data is 137 days stale — chart shows trend through early June 2026. Current Ukraine fatality rates estimated from open-source reporting only.</em></p>
+<p><strong>Active conflicts — known open-source status:</strong></p>
+<ul>
+<li><strong>Ukraine:</strong> Ongoing. Overnight 300+ drone attack; 8 confirmed killed; ~1M homes without power. Ground: UAF advancing in Donetsk Oblast (Op. Vivaldi), Russian GLOC pressure on Sumy/Kharkiv axes.</li>
+<li><strong>Yemen:</strong> Houthi attacks on Aden and Riyadh interception ongoing. Saudi-led coalition air operations continuous.</li>
+<li><strong>Gaza/West Bank:</strong> IDF strikes continue; settler violence escalating in West Bank.</li>
+<li><strong>Sudan:</strong> National emergency renewed; ACLED offline so situation assessment limited.</li>
+<li><strong>Sahel corridor:</strong> No discrete events in bundle today.</li>
+</ul>
+<p><strong>Light aircraft crash, UK:</strong> A 16-year-old and an 80-year-old were killed in a light aircraft crash in the United Kingdom. Single event; no security dimension.</p>
+<hr />
+<h2 id="cyber-biosecurity">CYBER &amp; BIOSECURITY</h2>
+<p><strong>CISA KEV — New Additions (Oct 16):</strong></p>
+<table>
+<thead>
+<tr>
+<th>CVE</th>
+<th>Product</th>
+<th>Type</th>
+<th>FCEB Deadline</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CVE-2026-102764</td>
+<td>BeyondTrust Remote Support</td>
+<td>Auth Bypass (Spoofing)</td>
+<td>19 Oct 2026</td>
+</tr>
+<tr>
+<td>CVE-2025-61624</td>
+<td>Fortinet Multiple Products</td>
+<td>Path Traversal</td>
+<td>19 Oct 2026</td>
+</tr>
+<tr>
+<td>CVE-2026-21589</td>
+<td>Atlassian Multiple Products</td>
+<td>File/Directory Access</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>CVE-2026-105134</td>
+<td>Ahsay AhsayCBS</td>
+<td>Command Injection</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>CVE-2026-76519</td>
+<td>Cisco Secure Email Gateway</td>
+<td>Relative Path Traversal</td>
+<td>TBD</td>
+</tr>
+</tbody>
+</table>
+<p>The BeyondTrust authentication bypass is particularly sensitive: BeyondTrust Remote Support is widely deployed in privileged access management (PAM) architectures across government and critical infrastructure. An auth bypass in PAM tooling is a Tier-1 escalation path. Federal agencies have until Oct 19 to patch; private-sector critical infrastructure owners should treat this as emergency priority.</p>
+<p><strong>ProMED (disease surveillance):</strong> Zero items in today's bundle — ProMED returned no data. This is a pipeline absence, not an absence of disease activity. No inference should be drawn about global disease status from the empty ProMED feed.</p>
+<hr />
+<h2 id="humanitarian">HUMANITARIAN</h2>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Cyclone CHAMPI-26:</strong> Red GDACS alert. 259 km/h sustained winds. 175,000 persons affected across Guam and Northern Mariana Islands. US Federal Emergency Management Agency is likely pre-positioning assets given the US territorial status of both affected areas.</p></div>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>Cyclone SIMON-26:</strong> Orange GDACS alert. Track and landfall timing not yet confirmed in bundle data.</p></div>
+<p><strong>Pakistan school roof collapse (Oct 15):</strong> 34 children killed in a structural failure at a school in Pakistan's Khyber Pakhtunkhwa province. Not earthquake-related; infrastructure age and construction quality implicated.</p>
+<p><strong>Pakistan earthquake (M5.7 Khuzdar):</strong> No casualty reports yet in bundle. Balochistan has high vulnerability to structural damage from earthquakes of this magnitude.</p>
+<p><strong>ReliefWeb:</strong> 137 days stale — no humanitarian situation reports available through this pipeline. Assessments sourced from GDACS, USGS, and open-source reporting only.</p>
+<hr />
+<h2 id="environment-disasters">ENVIRONMENT &amp; DISASTERS</h2>
+<p><strong>Earthquakes (USGS, past 24h):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Magnitude</th>
+<th>Location</th>
+<th>Depth Context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khuzdar, Pakistan</td>
+<td>M5.7</td>
+<td>48 km WNW of Khuzdar</td>
+<td>Significant felt area</td>
+</tr>
+<tr>
+<td>Off Ecuador coast</td>
+<td>M5.2</td>
+<td>Pacific, subduction zone</td>
+<td>Routine</td>
+</tr>
+<tr>
+<td>Auckland Islands, NZ</td>
+<td>M5.0</td>
+<td>Remote</td>
+<td>Uninhabited</td>
+</tr>
+<tr>
+<td>Puerto Madero, Mexico</td>
+<td>M4.9</td>
+<td>Pacific coast</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Near Guam</td>
+<td>M4.9</td>
+<td>119 km SSW Merizo Village</td>
+<td>Compound with CHAMPI-26</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fires:</strong> FIRMS global data returned empty today (pipeline gap). Ukraine thermal anomalies confirm active fire events in strike zones — Khmelnytskyi oil depot fire is the most significant.</p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p><strong>WTI $110/bbl:</strong> The price spike has an environmental dimension — higher crude prices historically correlate with reduced demand and increased US tight-oil production starts. However, with Hormuz access uncertain, the supply constraint may not be price-responsive in the short term.</p></div>
+<hr />
+<h2 id="speeches-op-eds">SPEECHES &amp; OP-EDS</h2>
+<p><strong>Putin (Oct 16–17):</strong> Publicly declared the need to "destroy infrastructure, including bridges and road junctions in Ukraine" — an unusually explicit targeting statement that effectively validates Ukrainian and Western accusations of deliberate infrastructure warfare.</p>
+<p><strong>Pezeshkian (Iran, Oct 17):</strong> "Tehran is facing its toughest siege since the 1979 revolution." This framing — reaching back to the founding trauma of the Islamic Republic — is significant domestic political signaling.</p>
+<p><strong>Netanyahu:</strong> Issued a statement on the Gaza ceasefire mechanism: "Facts remain unclear, probe underway." The characterization suggests an internal Israeli investigation into a specific incident that has not yet received broad international media coverage.</p>
+<p><strong>Washington Post (editorial note):</strong> The Post condemned an attack on a US photojournalist — identity and location not specified in bundle item, but the Post has had journalists working in Gaza and the West Bank.</p>
+<p><strong>Brian Feeney (op-ed):</strong> "There will be no return to 'normal' for the world" — published in Irish media; argument that the multilateral order established post-WWII has structurally broken down.</p>
+<p><strong>Ex-national security adviser (unnamed in GDELT headline):</strong> "Issues warning amid fraying [alliances]" — likely referring to the Starlink/Graham Act combination as signaling a further weakening of US commitment to Ukraine.</p>
+<hr />
+<h2 id="prediction-markets">PREDICTION MARKETS</h2>
+<p><em>Source: Polymarket (Oct 17 prices)</em></p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Yes%</th>
+<th>24h Volume</th>
+<th>Resolves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fed no change at Oct 29 meeting</td>
+<td><strong>86%</strong></td>
+<td>$280K</td>
+<td>Oct 29, 2026</td>
+</tr>
+<tr>
+<td>Fed -25 bps at Oct 29</td>
+<td>0%</td>
+<td>~$1M</td>
+<td>Oct 29, 2026</td>
+</tr>
+<tr>
+<td>Fed +50 bps at Oct 29</td>
+<td>0%</td>
+<td>—</td>
+<td>Oct 29, 2026</td>
+</tr>
+<tr>
+<td>Flávio Bolsonaro wins 2026 Brazil presidential election</td>
+<td><strong>77%</strong></td>
+<td>$500K</td>
+<td>Oct 2026</td>
+</tr>
+<tr>
+<td>Lula wins 2026 Brazil presidential election</td>
+<td>24%</td>
+<td>$400K</td>
+<td>Oct 2026</td>
+</tr>
+<tr>
+<td>Doug Burgum wins 2028 Republican nomination</td>
+<td>0%</td>
+<td>$500K</td>
+<td>2028</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fed read:</strong> The market is treating October as a no-action meeting (86% no change), consistent with CPI holding above target and employment stable. No probability assigned to either cut or hike — the hiking scenario at 0% is striking given WTI at $110.</p>
+<p><strong>Brazil:</strong> The 77/24 split reflects first-round results from the October 5 vote (not yet a final runoff result per bundle data). If Flávio Bolsonaro won the first round with a strong plurality, the market is pricing him as the heavy favorite for any runoff.</p>
+<p><strong>Nobel Economics 2026:</strong> Robert Hall (Stanford) and Michael Woodford (Columbia) awarded the Nobel Prize in Economics Sciences for their work on macroeconomic foundations — specifically Hall's work on real business cycles and Woodford's on interest rate rules and monetary policy theory. The award is academically significant and may reinforce academic interest in rules-based monetary frameworks at a time when the FOMC faces structurally elevated inflation.</p>
+<hr />
+<h2 id="weak-signals">WEAK SIGNALS</h2>
+<p><img alt="Watch Areas Volume" src="2026-10-17-watchareas_volume.png" />
+<em>Volume of reporting against each defined watch area, 14-day rolling window. Russia oil sanctions perimeter and Israel-Iran axis dominate this week's signal.</em></p>
+<h3 id="cross-section-recurrence-analysis">Cross-Section Recurrence Analysis</h3>
+<p>The pipeline scanned 5,197 unique entities across all sections today. <strong>86 recurrences</strong> — entities appearing in 3 or more sections — were detected.</p>
+<p><strong>HIGH-confidence recurrences (entities in 4+ sections):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Entity</th>
+<th>Sections</th>
+<th>Mentions</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>California</strong></td>
+<td>10 sections</td>
+<td>85 mentions</td>
+<td>Highest frequency today; likely driven by FEC filings, federal register, and US political coverage — note the unusual breadth of 10 sections</td>
+</tr>
+<tr>
+<td><strong>President</strong></td>
+<td>7 sections</td>
+<td>68 mentions</td>
+<td>Role-title (Trump) proliferates across macro, sanctions, Ukraine, forecasts, conflict</td>
+</tr>
+<tr>
+<td><strong>Ukraine</strong></td>
+<td>7 sections</td>
+<td>49 mentions</td>
+<td>Expected given overnight strikes and Starlink/Graham Act nexus</td>
+</tr>
+<tr>
+<td><strong>Pakistan</strong></td>
+<td>6 sections</td>
+<td>31 mentions</td>
+<td>Earthquake + school collapse — compound crisis signal</td>
+</tr>
+<tr>
+<td><strong>Donald Trump</strong></td>
+<td>4 sections</td>
+<td>23 mentions</td>
+<td>Named in sanctions, markets, Ukraine, and political sections</td>
+</tr>
+</tbody>
+</table>
+<p><strong>MEDIUM-confidence (3+ sections):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Entity</th>
+<th>Sections</th>
+<th>Mentions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Russia</td>
+<td>8 sections</td>
+<td>107 mentions</td>
+</tr>
+<tr>
+<td>China</td>
+<td>7 sections</td>
+<td>130 mentions</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note on California (10 sections, 85 mentions):</strong> This is anomalously high for a US state and warrants a specific investigation. The breadth suggests it is not a single story but rather a distributed signal — possibly FEC finance filings, federal environmental regulation, agricultural commodity markets, and US political forecasts all co-referencing California simultaneously. It may also reflect a large news event that the pipeline captured through multiple lens-sections (e.g., a major wildfire, a California-based political primary result, or a federal judicial ruling). This entity should be flagged for the next brief cycle if the signal persists.</p>
+<p><strong>Weak signal — RAF mystery drones:</strong> The RAF scramble for "black objects, no radar trace" over the North Sea is a discrete signal worth monitoring. Russia has previously used modified commercial drones as ISR and harassment tools in European airspace. If a second incident occurs within 72 hours, this rises to a watch-area trigger.</p>
+<hr />
+<h2 id="historical-context">HISTORICAL CONTEXT</h2>
+<p><img alt="GDELT Tone Heatmap" src="2026-10-17-gdelt_tone_heatmap.png" />
+<em>GDELT Global Knowledge Graph average tone by watch area, 14-day rolling. Negative tone (red) indicates adversarial/crisis framing; positive tone (green) indicates diplomatic/stability framing.</em></p>
+<p><strong>Historical context — Graham Act sanctions waiver:</strong></p>
+<p>The Graham Act was the most aggressive Russia sanctions package enacted since CAATSA in 2017. Its waiver marks the third time since 2022 that a US administration has stepped back from a major Russia sanctions escalation after European allies committed but before full implementation (the Nordstream 2 waiver in 2021, the SWIFT partial carve-out in 2022, and now this). Each prior waiver was framed as a national-security or economic necessity; each was followed within 6–18 months by a subsequent escalation. The question for analysts is whether the diesel deal is a terminal accommodation or a temporary pause before further pressure.</p>
+<p><strong>Historical context — Hormuz closure threats:</strong></p>
+<p>Iran has threatened Hormuz closure in 1987–88 (Tanker War), 2008, 2011–12, 2019, and now 2026. Prior incidents: the 2019 tanker attacks were linked to IRGC but never formally attributed. The current 2026 partial closure is structurally different — the Feb 28 announcement was an explicit state-level posture shift rather than a covert IRGC operation. Three mine incidents in 8 months suggest a sustained, calibrated rather than escalatory intent; Iran is maximizing insurance and routing costs without fully closing the strait.</p>
+<p><strong>Historical context — VIX +7.6%:</strong></p>
+<p>Single-session VIX futures spikes above +7% have preceded significant market dislocations in about 35% of historical occurrences since 2004, with the remainder resolving as transient hedging events. The proximate causes here — oil shock + sanctions policy uncertainty — are both reversible, suggesting the base case is stabilization rather than sustained vol elevation, unless the Hormuz situation escalates further.</p>
+<hr />
+<h2 id="what-to-watch">WHAT TO WATCH</h2>
+<p><strong>Next 24 hours:</strong>
+1. <strong>Hormuz supertanker status.</strong> Will the vessel be towed, do additional mines surface, and will Lloyd's of London update war risk designations for the strait? A formal Lloyd's war risk declaration triggers insurance withdrawal and would force rerouting of all traffic.
+2. <strong>Congressional response to Graham Act waiver.</strong> Senate floor schedule for the Meeks Stop Putin's Diesel Deal Act — does McConnell allow a vote? Graham's public opposition tests Republican unity.
+3. <strong>CHAMPI-26 landfall.</strong> Tracking models will solidify over Saturday; federal emergency declarations and evacuation orders for Guam are likely if current trajectory holds.
+4. <strong>Pakistan Khuzdar earthquake.</strong> First casualty reports and structural damage assessments expected within 12–18 hours.
+5. <strong>RAF drone investigation.</strong> UK MOD response and any NATO consultation signals.</p>
+<p><strong>Next 72 hours:</strong>
+6. <strong>Ukraine overnight strikes continuation.</strong> Russia has sustained this strike pace for 11 consecutive days; watch for Ukrainian counter-battery or long-range strike response targeting the Borisoglebsk airfield follow-up.
+7. <strong>Starlink full restoration or further restriction.</strong> A Zelenskyy-Musk direct communication is reportedly scheduled; outcome will affect frontline operational tempo.
+8. <strong>Brazil election final results.</strong> Polymarket 77% Bolsonaro — if a runoff is required, second-round date and polling will be published this weekend.
+9. <strong>Fed communications (week of Oct 20).</strong> FOMC blackout period begins Oct 18; no speeches expected. Watch for any emergency convening signals from Treasury regarding oil-driven CPI upside risk.
+10. <strong>California recurrence signal.</strong> Investigate the 10-section entity recurrence for California — determine whether it is a distributed statistical artifact or a coherent large event that was missed by the section curation process.</p>
+<hr />
+<p><em>Brief generated by WORLDSCOPE automated pipeline · Data sources: FRED, Polymarket, GDACS, USGS, GDELT GKG, Liveuamap, Federal Register, CISA KEV · Charts: matplotlib/Agg via Python 3.13 · Degraded: ACLED (137d), ReliefWeb (137d), ProMED (empty) · Validated: <code>worldscope/readiness.py check-daily</code> PASS</em></p>
+      <h2 id="event-map">Event map</h2><div id="gridmap" class="w-full h-96 rounded-md border border-mist my-4 overflow-hidden"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin=""></script>
+<script>
+(function(){
+  const el = document.getElementById('gridmap');
+  if (!el) return;
+  if (typeof L === 'undefined') {       // Leaflet CDN blocked/unreachable
+    el.classList.add('ws-map-unavailable');
+    el.innerHTML = '<p class="ws-meta" style="padding:1rem">Interactive map '
+      + 'unavailable (map library did not load).</p>';
+    return;
+  }
+  const fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [66.1708, 28.0179]}, "properties": {"title": "48 km WNW of Khuzdar, Pakistan", "summary": "M5.7 - 48 km WNW of Khuzdar, Pakistan", "date": "2026-10-17", "severity": 8, "source": "usgs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.991, 52.848]}, "properties": {"title": "Ukraine thermal anomaly FRP 1.37 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 1.37 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.989, 52.845]}, "properties": {"title": "Ukraine thermal anomaly FRP 1.37 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 1.37 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.99, 52.845]}, "properties": {"title": "Ukraine thermal anomaly FRP 2.42 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 2.42 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.345, 51.892]}, "properties": {"title": "Ukraine thermal anomaly FRP 0.88 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 0.88 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [29.335, 51.89]}, "properties": {"title": "Ukraine thermal anomaly FRP 1.73 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 1.73 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [27.087, 50.177]}, "properties": {"title": "Ukraine thermal anomaly FRP 10.83 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 10.83 MW", "date": "2026-10-16", "severity": 3, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [27.093, 50.175]}, "properties": {"title": "Ukraine thermal anomaly FRP 12.42 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0052Z, FRP 12.42 MW", "date": "2026-10-16", "severity": 4, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.312, 46.459]}, "properties": {"title": "Ukraine thermal anomaly FRP 1.32 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0054Z, FRP 1.32 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.906, 45.356]}, "properties": {"title": "Ukraine thermal anomaly FRP 5.3 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0054Z, FRP 5.3 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.905, 45.356]}, "properties": {"title": "Ukraine thermal anomaly FRP 4.84 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0054Z, FRP 4.84 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [23.574, 44.738]}, "properties": {"title": "Ukraine thermal anomaly FRP 0.46 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0054Z, FRP 0.46 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [22.106, 44.08]}, "properties": {"title": "Ukraine thermal anomaly FRP 0.7 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 0054Z, FRP 0.7 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.255, 45.967]}, "properties": {"title": "Ukraine thermal anomaly FRP 13.93 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1041Z, FRP 13.93 MW", "date": "2026-10-16", "severity": 4, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.254, 45.971]}, "properties": {"title": "Ukraine thermal anomaly FRP 13.93 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1041Z, FRP 13.93 MW", "date": "2026-10-16", "severity": 4, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.252, 45.974]}, "properties": {"title": "Ukraine thermal anomaly FRP 17.09 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1041Z, FRP 17.09 MW", "date": "2026-10-16", "severity": 5, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [23.068, 44.265]}, "properties": {"title": "Ukraine thermal anomaly FRP 2.37 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1041Z, FRP 2.37 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [25.075, 51.568]}, "properties": {"title": "Ukraine thermal anomaly FRP 3.12 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1041Z, FRP 3.12 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [23.098, 44.224]}, "properties": {"title": "Ukraine thermal anomaly FRP 4.12 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 1219Z, FRP 4.12 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.667, 45.26]}, "properties": {"title": "Ukraine thermal anomaly FRP 2.77 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2254Z, FRP 2.77 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.675, 45.26]}, "properties": {"title": "Ukraine thermal anomaly FRP 2.77 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2254Z, FRP 2.77 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.671, 45.261]}, "properties": {"title": "Ukraine thermal anomaly FRP 4.48 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2254Z, FRP 4.48 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [32.074, 52.54]}, "properties": {"title": "Ukraine thermal anomaly FRP 1.18 MW", "summary": "VIIRS S-NPP NRT, sat N, acquired 2026-10-16 2252Z, FRP 1.18 MW", "date": "2026-10-16", "severity": 2, "source": "firms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [37.6, 48.5]}, "properties": {"title": "Eastern Ukraine frontline", "summary": "Eastern Ukraine frontline", "date": "2026-10-17", "severity": 9, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [34.5, 31.5]}, "properties": {"title": "Gaza conflict zone", "summary": "Gaza conflict zone", "date": "2026-10-17", "severity": 8, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [32.0, 15.0]}, "properties": {"title": "Sudan - Khartoum region", "summary": "Sudan - Khartoum region", "date": "2026-10-17", "severity": 7, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [45.0, 15.0]}, "properties": {"title": "Yemen - Houthi operations area", "summary": "Yemen - Houthi operations area", "date": "2026-10-17", "severity": 6, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [56.3, 26.9]}, "properties": {"title": "Strait of Hormuz - tanker incident", "summary": "Strait of Hormuz - tanker incident", "date": "2026-10-17", "severity": 8, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-3.0, 15.0]}, "properties": {"title": "Sahel - Burkina Faso/Mali", "summary": "Sahel - Burkina Faso/Mali", "date": "2026-10-17", "severity": 6, "source": "acled"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.2, 13.5]}, "properties": {"title": "Sudan - Darfur region", "summary": "Sudan - Darfur region", "date": "2026-10-17", "severity": 7, "source": "acled"}}]};
+  const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap, &copy; CARTO', maxZoom: 8
+  }).addTo(m);
+  L.geoJSON(fc, {
+    pointToLayer: function(f, latlng) {
+      const sev = (f.properties && f.properties.severity) || 1;
+      return L.circleMarker(latlng, {
+        radius: 4 + Math.min(sev, 8),
+        color: '#B91C1C', weight: 1, fillColor: '#DC2626', fillOpacity: 0.6
+      });
+    },
+    onEachFeature: function(f, l) {
+      const p = f.properties || {};
+      l.bindPopup('<b>'+(p.title||'event')+'</b><br>'+(p.summary||'')+'<br><i>'+(p.date||'')+'</i>');
+    }
+  }).addTo(m);
+})();
+</script>
+
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>

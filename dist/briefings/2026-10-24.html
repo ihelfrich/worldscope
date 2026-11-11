@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-10-24</title>
+<meta name="description" content="WORLDSCOPE daily briefing: Worldscope Morning Brief -- October 24, 2026">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/briefings/2026-10-24.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-10-24">
+<meta property="og:description" content="WORLDSCOPE daily briefing: Worldscope Morning Brief -- October 24, 2026">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/briefings/2026-10-24.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-11-11&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;President&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Ukraine&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Administration&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Pete Hegseth&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Transportation&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Washington&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Georgia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Florida&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Charles&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Agriculture&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Russia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;Price&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;James&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;YOUNG&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;France&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Rules&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Canada&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Joseph&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Martin&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}]}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-10-24.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-10-24.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline-summary">Headline Summary</a></li><li><a class="" href="#watch-areas-status">Watch Areas Status</a></li><li><a class="" href="#macro-conditions">Macro Conditions</a></li><li><a class="" href="#markets">Markets</a></li><li><a class="" href="#us-politics-and-policy">US Politics and Policy</a></li><li><a class="" href="#political-figures-watchlist">Political Figures Watchlist</a></li><li><a class="" href="#regional-briefings">Regional Briefings</a></li><li><a class=" pl-4" href="#europe">Europe</a></li><li><a class=" pl-4" href="#middle-east">Middle East</a></li><li><a class=" pl-4" href="#africa">Africa</a></li><li><a class=" pl-4" href="#asia-pacific">Asia-Pacific</a></li><li><a class=" pl-4" href="#russia-eurasia">Russia/Eurasia</a></li><li><a class="" href="#ukraine-theater">Ukraine Theater</a></li><li><a class="" href="#sanctions-and-legal">Sanctions and Legal</a></li><li><a class="" href="#conflict-and-security">Conflict and Security</a></li><li><a class="" href="#cyber-and-biosecurity">Cyber and Biosecurity</a></li><li><a class="" href="#humanitarian">Humanitarian</a></li><li><a class="" href="#environment-and-disasters">Environment and Disasters</a></li><li><a class="" href="#speeches-op-eds-and-commentary">Speeches, Op-Eds, and Commentary</a></li><li><a class="" href="#prediction-markets">Prediction Markets</a></li><li><a class="" href="#weak-signals">Weak Signals</a></li><li><a class="" href="#historical-context">Historical Context</a></li><li><a class="" href="#what-to-watch-next-72-hours">What to Watch (Next 72 Hours)</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Daily briefing</div>
+      <h1>Worldscope Morning Brief -- October 24, 2026</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-10-24</div>
+    </header>
+    <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high "><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">1</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile is-high "><h4><a href="#israel-iran-hezbollah-axis" class="text-inherit no-underline hover:text-navy">Israel-Iran-Hezbollah axis</a></h4><div class="ws-stat">1</div><div class="ws-meta">middle_east, conflict, military</div></div><div class="ws-dash-tile  "><h4><a href="#sahel-jihadist-corridor" class="text-inherit no-underline hover:text-navy">Sahel jihadist corridor</a></h4><div class="ws-stat">1</div><div class="ws-meta">africa, conflict, jihadism</div></div><div class="ws-dash-tile  "><h4><a href="#korean-peninsula" class="text-inherit no-underline hover:text-navy">Korean peninsula</a></h4><div class="ws-stat">1</div><div class="ws-meta">korea, military, missile_tests</div></div></section>
+    <article class="prose prose-slate max-w-none">
+      <p><em>Prepared 2026-10-24 | Data bundle: 2026-10-24 | War Day 1,704 (Ukraine)</em></p>
+<hr />
+<h2 id="headline-summary">Headline Summary</h2>
+<p>The dominant signal today is convergence at the center of three overlapping arcs: the Kyiv ballistic-missile exchange (now entering its fourth consecutive day), a Netanyahu escalation ladder that has moved from West Bank operations to public calls for Iranian regime change, and a US Treasury curve that has steepened to its most convex posture since early 2024. These arcs are not independent. The Starlink/Musk speed-throttle story -- confirmed in the WSJ and cross-referenced by the political_figures module -- sits at the intersection of all three, because Ukrainian drone corridors depend on high-bandwidth low-earth-orbit comms, the Musk-Trump political relationship sets the terms of US tariff policy (including the Canadian carve-out announced this week), and the bond-market reaction to geopolitical uncertainty is now measurable in the 30Y/2Y spread. The brief proceeds section by section but the reader should hold this triangulation in mind throughout.</p>
+<p><strong>Top items at a glance:</strong></p>
+<ul>
+<li>Russia fires ballistic missiles on Kyiv from Bryansk/Kursk staging (Oct 21); Ukrainian drones strike Tolyatti petrochemical and Oryol industrial facilities (Oct 24)</li>
+<li>Netanyahu: new Iranian Supreme Leader Mojtaba Khamenei "personally ordered nuclear weapons"; calls for regime overthrow</li>
+<li>WHO declares Ebola (Bundibugyo clade) very high risk in DRC -- 9,704 confirmed, 4,687 deaths; spill to Kenya and Nigeria confirmed</li>
+<li>Vanuatu seismic swarm: M6.9 (tsunami flag), M6.3, and 12+ M5+ events at 10km near Port-Olry</li>
+<li>US Treasury 10Y at 4.96%; 30Y at 5.29%; curve fully uninverted (+31bp 10y-2y)</li>
+<li>Brazil presidential second round: Flavio Bolsonaro leads 80/20 on Polymarket</li>
+<li>CISA adds two KEVs: Arista VeloCloud SQL injection, Collabora Online OS command injection</li>
+</ul>
+<hr />
+<h2 id="watch-areas-status">Watch Areas Status</h2>
+<p><em>(12 configured watch areas; counts are items matching keywords in today's bundle vs. 14-day median)</em></p>
+<p><img alt="Watch area item counts vs 14-day median" src="2026-10-24-watchareas_volume.png" /></p>
+<p><strong>Elevated today (above median or new activity):</strong></p>
+<p><strong>Russia oil sanctions perimeter</strong> -- The sanctions module logged new OFAC Iran-related designations on Oct 21, plus the issuance of Russia-related General License No. 1 (31 CFR part 587). A 40,000-tonne diesel tanker departed Russia bound for the USA on Oct 22, a routing that would normally trip secondary-sanctions scrutiny; the tanker identity and flag are not resolved in today's bundle. Belarus and DPRK designations were simultaneously REMOVED, which is structurally unusual and likely reflects a diplomatic channel the administration has not yet publicized [<strong>PLAUSIBLE: basis is the paired timing of additions and removals in the OFAC module, which rarely co-occur without a negotiating rationale</strong>].</p>
+<div class="ws-callout is-good"><span class="ws-label">Easing</span><p><strong>Israel-Iran-Hezbollah axis</strong> -- Netanyahu's West Bank "massive military operation" threat follows two IDF deaths at a checkpoint on Oct 23. His accusation that Mojtaba Khamenei personally ordered nuclear weapons development, and his call for Iranian regime overthrow, represents a public escalation beyond what either the Biden or first-term Trump administrations tolerated from allied heads of government. The Iranian Supreme National Security Council responded same-day: "not a single particle of enriched nuclear material will leave Iran." The gap between these positions makes a negotiated de-escalation mathematically difficult in the near term [<strong>HIGH CONFIDENCE: both statements are sourced from the foreign_news module and corroborated in ukrainian_internal cross-reference</strong>].</p></div>
+<p><strong>Taiwan Strait</strong> -- No tier-1 incidents in today's bundle. The RMB appreciation (USD/CNY 6.685, Caixin headline "After RMB Appreciated 9%") is the primary signal; currency strength at this pace typically precedes or coincides with PBoC political signaling cycles. The Citi approval for the 7th foreign securities firm in China is a small incremental liberalization that runs counter to decoupling narratives.</p>
+<p><strong>US tariff dockets</strong> -- White House lifts tariffs on select Canadian goods effective Oct 30, timed to midterm positioning. The federal_register module shows 14 items today vs. a 14-day median of 26, indicating a quieter-than-normal regulatory publication day; the Canadian carve-out announcement is therefore the dominant trade-policy signal this week.</p>
+<p><strong>Critical minerals</strong> -- No tier-1 items in today's bundle. The NREL Alliance Energy Innovation contract ($11.3B, in the sanctions_procurement module) touches energy materials R&amp;D but the minerals signal is indirect.</p>
+<p><strong>EM debt distress</strong> -- EEM ETF +0.47% today, mildly positive relative to US equities. No sovereign default or IMF tranche items in today's bundle. Brazil election uncertainty (Oct 25 second round) is the primary EM political risk this weekend.</p>
+<p><strong>AI/semicon export controls</strong> -- CISA added Arista VeloCloud Orchestrator (CVE-2026-114625) and Collabora Online (CVE-2026-110447) KEVs on Oct 23. The Kimi 3T-parameter model launch from China is a capability milestone that will likely generate export-control commentary in the coming week. PCAOB auditing activity in Shanghai is ongoing.</p>
+<p><strong>Sahel jihadist corridor</strong> -- The conflict module is stale (ACLED last good data: 2026-06-02, 144 days old; reliefweb also 144 days stale). No fresh Sahel items in bundle. <strong>DATA GAP: Sahel fatality and incident counts are not current. Readers should treat this watch area as degraded until the next ACLED refresh.</strong> The Ethiopia/Tigray item (federal forces capturing all major Tigray cities, now advancing toward Eritrean border) is from the foreign_news module and is current.</p>
+<p><strong>Arctic</strong> -- No tier-1 items. The Russia-Rubio-Rutte Black Sea security discussion is geographically adjacent but not Arctic-specific.</p>
+<p><strong>Korean peninsula</strong> -- No tier-1 items. North Korean designation removal in the OFAC module (alongside Belarus) is noted but unelaborated in available data.</p>
+<p><strong>Latin America</strong> -- Brazil second round Oct 25 (see Brazil section). Polymarket shows Bolsonaro 80%, Lula 20%. Colombia, Venezuela, and Mexico are quiet in today's bundle.</p>
+<p><strong>Central bank divergence</strong> -- ECB Cipollone interview scheduled Oct 24 (today). ECB consumer expectations survey released Oct 23. Fed Funds at 3.88%; FOMC Oct 29 hold probability at 94%. The US curve has steepened materially (see Markets section). This watch area is the most analytically rich of the 12 today.</p>
+<hr />
+<h2 id="macro-conditions">Macro Conditions</h2>
+<p><img alt="US Treasury yield curve Oct 22-23" src="2026-10-24-yield_curve.png" /></p>
+<p>The US Treasury curve on Oct 22-23 presents a fully normalized posture after more than two years of inversion. The 2Y/10Y spread is +31bp (DGS2: 4.65%, DGS10: 4.96%), and the 30Y (5.29%) sits 64bp above the 10Y. This is the steepest the long end has been relative to the belly since early 2024. The SOFR fixing at 3.90% is 2bp above the Fed Funds rate (3.88%), consistent with normal repo conditions and no acute liquidity stress.</p>
+<p>The Federal Reserve holds rates on Oct 29 with 94% probability per Polymarket. The macro inputs support that: September unemployment (UNRATE) is 4.2%, nonfarm payrolls (PAYEMS) at 159,044K, CPI at 336.298 (September) and core PCE at 130.455 (August). None of these deviate sufficiently from the Fed's dual-mandate range to require an inter-meeting adjustment. The supply-shock-era framing from this week's Conversable Economist commentary (World Bank WDR 2026) is analytically apt: the Fed is holding while both inflation and employment remain within tolerance, but the curve steepening reflects a bond market that is pricing longer-duration risk upward independently of near-term policy expectations.</p>
+<p>ECB Cipollone's interview today should be monitored for any hint at the pace of rate normalization in the eurozone. EUR/USD is at 0.893 (dollar at 1.12 implied), meaning the euro has strengthened materially from its 2022-2024 lows but is still below parity. The ECB consumer expectations survey released Oct 23 is not yet in today's bundle.</p>
+<p>The RMB at USD/CNY 6.685 -- with the Caixin headline noting a 9% appreciation -- is a significant structural signal. Chinese currency strength at this pace, if sustained, tightens external financial conditions for dollar-denominated EM borrowers and potentially accelerates the repatriation of dollar assets by Chinese institutional holders.</p>
+<hr />
+<h2 id="markets">Markets</h2>
+<p><img alt="FX changes and energy prices" src="2026-10-24-fx_oil.png" /></p>
+<p>US equities closed mixed-to-weak: SPY -0.52%, QQQ nearly flat (-0.01%), IWM (small caps) -0.33%, EFA (developed ex-US) -0.50%, FXI (China large-caps) -0.43%. EEM (broad EM) was the lone positive at +0.47%, consistent with the RMB appreciation story and residual carry-trade demand into Brazil election positioning.</p>
+<p>FX of note: USD/JPY at 156.84. The yen remains under sustained selling pressure despite Bank of Japan normalization rhetoric; a yen at this level re-introduces carry-trade and intervention risk. USD/INR at 95.04 is elevated relative to the 2025 average, reflecting Indian current-account dynamics and portfolio outflows.</p>
+<p>Energy: the Saudi Shaybah drone intercept (3 injured, no production disruption reported) is the supply-side event to watch. The Port of Faw tanker strikes (SOYIA, IXORA, ON PHOENIX) and the UAE coastal oil spill from a tanker strike add to the maritime risk premium in the Persian Gulf. The UKMTO RPG attack 78NM northeast of Al Jubayl is a geographic escalation -- that position is closer to Saudi terminals than most prior Houthi engagements. Brent prompt pricing is not directly in today's bundle, but the FX/oil chart uses Oct 22-23 Energy Information Administration daily data.</p>
+<p>The Marginal Revolution commentary today (Anthropic Mythos / "Red Line" / cybersecurity ETF inflection, Weisenthal/Cowen) is the kind of analyst-sentiment signal that occasionally precedes retail rotation into a sector. The CISA KEV additions and the Kimi 3T launch are both plausible catalysts for cybersecurity and AI-infrastructure equity positioning next week.</p>
+<hr />
+<h2 id="us-politics-and-policy">US Politics and Policy</h2>
+<p>The White House announced Oct 30 tariff relief on select Canadian goods. The timing -- one week before midterms -- is clearly political. The mechanism is a selective restoration, not a blanket reversal, and the federal_register module does not yet contain the implementing Federal Register notice (the 14-item count today is below the 14-day median of 26, suggesting yesterday's publication cycle was light).</p>
+<p>The Trump administration is suing to block Alaska election certification. The specifics are not fully elaborated in today's bundle, but the filing is in the political_figures module under Nancy Mace (new_filings) and the broader election-integrity docket.</p>
+<p>Hispanic voter shift in Texas is noted in the foreign_news module. AI election ads are proliferating -- a signal the election-interference watch area would flag if it were active in this configuration.</p>
+<p>Top 2026 midterm fundraising (FEC module, through available cutoff): Talarico (TX Senate, Dem) $146M, Ossoff (GA Senate, Dem) $136M, Brown (OH Senate, Dem) $68M, El-Sayed (MI Senate, Dem) $54M, Cooper (NC Senate, Dem) $50M, AOC (NY House, Dem) $38M. The Democratic fundraising advantage in competitive Senate races is the largest since the 2020 cycle [<strong>PLAUSIBLE: the Senate race dollar totals are from the FEC module; comparison to 2020 cycle is from analyst background knowledge and is not directly verifiable in today's bundle</strong>].</p>
+<p>Trump science advisor Michael Kratsios was interviewed by Tyler Cowen this week. Cowen's framing on AI funding ecosystem concerns tracks with the broader physical-capital-buildout theme in this week's AI Infrastructure commentary section.</p>
+<hr />
+<h2 id="political-figures-watchlist">Political Figures Watchlist</h2>
+<p><img alt="Section anomaly z-scores" src="2026-10-24-anomaly_screen.png" /></p>
+<div class="ws-callout is-danger"><span class="ws-label">Alert</span><p>The anomaly screen shows <code>ukraine_theater</code> at 2.8-sigma, the only section exceeding the 2-sigma alert threshold today. This is consistent with the ballistic-missile/drone tempo this week -- the section volume is significantly above its 14-day baseline.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Andy Kim (NJ Senator)</strong> -- anomaly score 0.15 (enforcement_hits + new_filings). No specific enforcement action identified in today's bundle; the flag is quantitative and warrants monitoring for follow-on filings.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Clarence Thomas (SCOTUS)</strong> -- anomaly score 0.0625 (new_filings). Ethics-related filings are the likely driver given the ongoing disclosure controversy, but specific docket numbers are not in today's bundle.</p></div>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Nancy Mace (SC Representative)</strong> -- anomaly score 0.0625 (new_filings + GDELT mention). Likely related to the Alaska election certification lawsuit filing and associated media coverage.</p></div>
+<p><strong>Cross-section entity: "President"</strong> -- The cross-section module identifies "President" appearing in 6 separate data sections (foreign_news, local_news, paper_bets, political_figures, state_news, ukrainian_internal) with 57 total mentions, the highest co-occurrence entity in today's bundle. This breadth of coverage is unusual and typically indicates a major executive-branch action or statement is the organizing event for the news cycle. The Netanyahu/Khamenei dynamic, the Trump tariff reversal, and the Zelensky/Starlink statements are all plausible drivers [<strong>HIGH CONFIDENCE: entity counts from cross_section.json; interpretation of drivers is analytical</strong>].</p>
+<hr />
+<h2 id="regional-briefings">Regional Briefings</h2>
+<h3 id="europe">Europe</h3>
+<p><strong>France</strong>: A racist terrorist attack near Paris on Oct 23 killed 1 person and wounded 5. The Limoges city hall has been damaged. National protests are ongoing. The political context is Le Pen-era political polarization; the attack will likely intensify interior-security discourse ahead of any spring electoral cycle.</p>
+<p><strong>Germany</strong>: US intelligence has assessed a Russian sabotage campaign targeted Leipzig-Halle Airport in August. An arson attack on the Eagle's Nest (Hitler's mountain retreat in Bavaria) has produced a suspect arrest. The paired items -- Russian infrastructure targeting and far-right symbolic site arson -- do not share a causal link but both reinforce the security-environment framing German intelligence agencies have communicated to partners this autumn.</p>
+<p><strong>UK</strong>: The Wednesday Budget includes a £100M AI Biosecurity Lab commitment, a notable line item given the concurrent Ebola outbreak. Tank barrel production returns to the UK after a 20-year hiatus -- a rearmament signal consistent with the NATO expansion of defense procurement. Barclays is cutting 5,000 jobs, citing AI-driven efficiency. The UK fiscal picture heading into the Budget is one of constrained borrowing headroom offset by targeted defense and technology investment.</p>
+<p><strong>Serbia</strong>: The Serbian election (Student List vs. Vucic) is described as neck-and-neck. A Vucic defeat would be the most significant political transition in the Western Balkans since Montenegro's 2020 election and would have implications for EU accession momentum.</p>
+<h3 id="middle-east">Middle East</h3>
+<p><strong>Israel/Palestine</strong>: Netanyahu's threat of a "massive military operation" in the West Bank followed the deaths of two IDF soldiers at a checkpoint on Oct 23. The operation announcement is distinct from the ongoing Gaza campaign; the West Bank theater introduces a second front with its own escalation dynamics. IDF operations are ongoing in Hebron. Gaza's Kerem Shalom crossing is the site of aid-delivery protests.</p>
+<p><strong>Iran</strong>: Netanyahu publicly accused newly confirmed Supreme Leader Mojtaba Khamenei of personally ordering nuclear weapons development. The Iranian SNSC's categorical rejection of any enriched material transfers closes the diplomatic space that the 2015 JCPOA architecture was designed to occupy. The framing from Tehran is maximalist and coordinated: it is unlikely this was an ad hoc statement [<strong>HIGH CONFIDENCE: both statements are in the foreign_news module; the coordinated framing judgment is analytical</strong>].</p>
+<p><strong>Persian Gulf maritime</strong>: The Saudi Shaybah field drone attack (intercepted; 3 injured), the Port of Faw tanker strikes (3 vessels), the UKMTO RPG attack NE of Al Jubayl, and the UAE coastal oil spill from a tanker strike constitute a denser maritime-threat cluster than any single week in the prior six months. The geographic spread -- from Saudi fields to UAE coast to international shipping lanes -- suggests a coordinated harassment campaign rather than opportunistic targeting.</p>
+<h3 id="africa">Africa</h3>
+<p><strong>DRC/Ebola</strong>: The Bundibugyo-clade Ebola outbreak is the most significant biosecurity event in today's brief. As of Oct 20: 9,704 confirmed cases, 4,687 deaths (case fatality rate 48.3%). The geographic spread now includes Kenya (9 cases, 1 death) and Nigeria (1 case, Abuja). WHO risk assessment is very high for DRC, high for neighboring countries. The TUMAINI vaccine trial commenced Oct 23. <strong>The 48% CFR is substantially higher than the 2014-2016 West Africa outbreak's 40% and is the primary epidemiological concern.</strong> A Lagos import with Abuja contact tracing already triggered indicates the Nigerian surveillance system is functional, but Nigeria's healthcare system stress-tested poorly in 2014; this is worth close monitoring [<strong>HIGH CONFIDENCE: all figures from the who_don module</strong>].</p>
+<p><strong>Sudan</strong>: BBC investigation documents systematic RSF paramilitary destruction of healthcare facilities in El-Fasher. The investigation methodology (satellite imagery + survivor testimony) is consistent with prior BBC Africa Eye documentation practices. <strong>DATA GAP: reliefweb is 144 days stale; humanitarian casualty and displacement figures for Sudan are not current in this bundle.</strong></p>
+<p><strong>Kenya</strong>: A building collapse has left 7 people missing; the Ebola second death (above) is a separate event. Both are in the foreign_news module.</p>
+<p><strong>Ethiopia/Tigray</strong>: Federal forces have captured all major Tigray cities and are advancing to the Eritrean border. This is a significant territorial development; the Tigray People's Liberation Front's operational posture as of June (last ACLED data) is now likely obsolete. <strong>DATA GAP: ACLED data is 144 days stale (last good: 2026-06-02); current casualty figures are unavailable.</strong></p>
+<h3 id="asia-pacific">Asia-Pacific</h3>
+<p><strong>China</strong>: The RMB appreciation (USD/CNY 6.685, -9% from its 2025 trough per Caixin framing) is the dominant macro signal. Shanghai CSI opened -0.94% today despite currency strength, suggesting domestic equity sentiment is diverging from the FX signal. The Citi securities firm approval (7th foreign firm licensed) is incremental liberalization. Kimi's 3T-parameter model launch is a frontier-AI capability benchmark that places a Chinese model in competition with GPT-4o-scale architectures. PCAOB auditing of Shanghai-listed firms continues.</p>
+<p>Political personnel: Henan provincial party committee reshuffle (Yang Xiaojing, 49, enters Standing Committee). Hunan: Wang Zhijun (61) takes over as party secretary; Shen Xiaoming (63) steps down. These are cadre-level signals consistent with a Politburo inspection cycle -- the 7th inspection round was reviewed per the chinese_internal module.</p>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>Vanuatu</strong>: A seismic swarm centered near Port-Olry produced an M6.9 (with tsunami flag), an M6.3, and 12+ M5+ events, all at 10km depth. The shallow focal depth amplifies surface shaking and tsunami generation potential. The GDACS module is stale; local emergency management capacity in Vanuatu is limited. <strong>DATA GAP: FIRMS (fire/thermal anomaly) data is empty in today's bundle; post-quake infrastructure damage assessment is not possible from bundle data alone.</strong></p></div>
+<p><strong>Australia</strong>: An independent MP is in serious condition following an alleged car attack. Details are sparse in today's bundle; the incident will be significant if politically motivated.</p>
+<h3 id="russiaeurasia">Russia/Eurasia</h3>
+<p><strong>Russia</strong>: A 40,000-tonne diesel tanker departed Russia for the USA on Oct 22 -- a routing that warrants secondary-sanctions review given G7 price-cap architecture. KPRF (Communist Party) official Mikhailov has been arrested on terrorism-justification charges, extending the Kremlin's campaign to suppress the Communist Party as an independent political actor. Gennady Zyuganov's capacity to maintain party coherence under this pressure is uncertain [<strong>PLAUSIBLE: the Kremlin-vs-Communists dynamic is corroborated in the russian_internal module but the Zyuganov judgment is analytical</strong>].</p>
+<p>Oleg Deripaska won a partial court victory against FBC Media investigators. The case involves allegations of financial misconduct; a Deripaska legal win narrows the evidentiary record available to Western prosecutors tracking Russian oligarch assets.</p>
+<p><strong>Germany (Russian sabotage)</strong>: Separately treated above under Europe.</p>
+<hr />
+<h2 id="ukraine-theater">Ukraine Theater</h2>
+<p><img alt="Ukraine theater overview" src="2026-10-24-ukraine_theater_overview.png" /></p>
+<p><img alt="Kyiv focus" src="2026-10-24-ukraine_kyiv_focus.png" /></p>
+<p><img alt="Population at risk" src="2026-10-24-ukraine_population_at_risk.png" /></p>
+<p><img alt="Recent damage" src="2026-10-24-ukraine_damage_recent.png" /></p>
+<p><strong>War Day 1,704.</strong></p>
+<p>The theater summary for October 24, 2026:</p>
+<p><strong>Missile exchange tempo</strong>: Russia fired ballistic missiles on Kyiv on Oct 21, with confirmed launch staging from Bryansk and Kursk oblasts. The Bryansk/Kursk origin is notable because Ukrainian cross-border drone operations have been targeting logistics nodes in both oblasts; this sequence is consistent with Russian retaliatory patterning from earlier in 2026.</p>
+<p><strong>Ukrainian deep-strike</strong>: Ukrainian drones struck the Tolyatti petrochemical complex and industrial facilities in Oryol on Oct 24. Tolyatti is one of Russia's largest petrochemical producers; a successful strike on production infrastructure there would represent a meaningful degradation of industrial capacity, though one strike is unlikely to be operationally decisive. The Oryol strikes continue a pattern of targeting nodes in the western Russian industrial belt.</p>
+<p><strong>Crimea</strong>: Power and water supplies are restricted following a drone attack. The Crimean infrastructure targeting has been consistent through 2026 and serves both military logistics and civilian morale objectives.</p>
+<p><strong>Starlink</strong>: High-speed service restored (161km/h+ threshold) per the ukrainian_internal module. The WSJ report that Elon Musk ordered a slowdown of military Starlink access is cross-referenced in the political_figures module against the vip_flights module. Zelensky's statement that restrictions remain "active" creates ambiguity -- either the restoration is partial, band-limited, or geographically scoped [<strong>PLAUSIBLE: the Zelensky and WSJ items are in the bundle; the partial-restoration interpretation is analytical</strong>]. The political economy of Starlink access -- dependent on a US private actor who has a documented personal relationship with the US executive -- is a long-duration vulnerability in Ukrainian C2 that no NATO member has yet formally addressed.</p>
+<p><strong>Diplomatic track</strong>: Rubio-Rutte Black Sea security discussions are logged in the foreign_news module. Polymarket puts a Russia-Ukraine diplomatic meeting by Oct 31 at approximately 100%. That market implies the meeting is already scheduled or imminent, not merely probable.</p>
+<p><strong>DeepStateMap</strong>: 522 front-line polygons at 1km resolution are current in the bundle.</p>
+<hr />
+<h2 id="sanctions-and-legal">Sanctions and Legal</h2>
+<p>The Oct 21 OFAC action is structurally unusual: Iran-related designations were added alongside a simultaneous removal of Belarus and DPRK designations. The coterminous removal of adversary designations while adding Iran-related ones is consistent with a backroom negotiating dynamic, possibly connected to the Russia-Ukraine diplomatic meeting expected before Oct 31. Russia-related General License No. 1 (31 CFR part 587) was issued -- the first GL in this part, which governs newly-issued Russian sovereign debt transactions. General Licenses GG and GH for Iran were also issued, which typically authorize narrow categories of permitted transactions.</p>
+<p>The largest US government procurement contracts in the sanctions_procurement module: NTESS/Sandia National Laboratories ($43.5B), Lockheed Martin/Orion Crew Vehicle ($15.6B), Fluor Marine Propulsion/Naval Nuclear Propulsion ($15.1B), Alliance Energy Innovation/NREL ($11.3B), MSTS/Nevada National Nuclear Security Site ($7.7B). The nuclear-security and naval-nuclear contract concentration is notable in the context of a week dominated by nuclear-weapons accusations.</p>
+<hr />
+<h2 id="conflict-and-security">Conflict and Security</h2>
+<p><img alt="Conflict fatality estimates" src="2026-10-24-conflict_fatalities.png" /></p>
+<p><strong>DATA GAP: ACLED conflict fatality data is 144 days stale (last good data: 2026-06-02). The conflict fatalities chart uses the most recent available ACLED data and does not reflect events since June 2. Readers should treat all per-theater fatality figures as lower bounds for the current conflict environment.</strong></p>
+<p>Active theater items from non-ACLED sources in today's bundle:</p>
+<ul>
+<li>Ukraine: ongoing (see Ukraine Theater section)</li>
+<li>Ethiopia/Tigray: federal forces advancing to Eritrean border (foreign_news)</li>
+<li>Sudan/El-Fasher: RSF healthcare destruction (BBC investigation, corroborated in foreign_news)</li>
+<li>Israel/West Bank: IDF escalation threat and ongoing Hebron operations</li>
+<li>Persian Gulf: Houthi/proxy maritime harassment campaign</li>
+</ul>
+<p>The USGS seismic module is current. M5+ events in the Vanuatu swarm are treated under Asia-Pacific. No other M5+ events with population-exposure concern are in today's bundle.</p>
+<hr />
+<h2 id="cyber-and-biosecurity">Cyber and Biosecurity</h2>
+<p><strong>Cyber</strong>: CISA Known Exploited Vulnerabilities (KEV) additions Oct 23:</p>
+<ul>
+<li><strong>CVE-2026-114625</strong>: Arista VeloCloud Orchestrator SQL injection. VeloCloud is SD-WAN infrastructure widely deployed in enterprise and critical-infrastructure environments. A SQL injection at the orchestration layer implies potential for lateral movement and configuration manipulation at scale.</li>
+<li><strong>CVE-2026-110447</strong>: Collabora Online OS command injection. Collabora is the open-source LibreOffice-based document collaboration platform used by European governments, public-sector entities, and privacy-conscious enterprises as a Microsoft 365 alternative.</li>
+</ul>
+<p>Prior-week KEVs still within patch-urgency window: Multiple Plex vulnerabilities, BeyondTrust Remote Support authentication bypass, Fortinet path traversal, Atlassian multiple products, Siemens Software Center. The concentration of enterprise network and document-collaboration CVEs is consistent with the intelligence community's Q3 2026 warning about pre-positioned access operations ahead of the US midterm cycle.</p>
+<p><strong>Biosecurity</strong>: The Ebola (Bundibugyo clade) outbreak is the primary biosecurity event. See Africa section. Additionally:</p>
+<ul>
+<li><strong>WHO DON</strong>: Undetermined etiology pneumonia in Irkutsk, Russia -- an APRI (Arctic and Pacific Research Institute) researcher died Oct 2, with suspected plague noted. This item is in the who_don module and has not yet generated English-language media coverage [<strong>HIGH CONFIDENCE: from who_don module; no corroboration available from other sources in bundle</strong>].</li>
+<li><strong>MERS-CoV Saudi Arabia</strong>: 8 confirmed cases, 1 death, January through October 2026. Endemic but not epidemic; the trajectory is within historical norms.</li>
+</ul>
+<hr />
+<h2 id="humanitarian">Humanitarian</h2>
+<p><strong>DATA GAP: reliefweb data is 144 days stale. Humanitarian displacement, food security, and funding-gap figures are not current in today's bundle.</strong></p>
+<p>From current sources only:</p>
+<ul>
+<li>Ebola response in DRC: TUMAINI vaccine trial launched Oct 23. WHO very-high risk assessment in place.</li>
+<li>Sudan El-Fasher: BBC investigation confirms systematic healthcare facility destruction by RSF. Humanitarian access is effectively absent per prior UN documentation.</li>
+<li>Vanuatu: post-seismic humanitarian needs are unquantified in today's bundle.</li>
+</ul>
+<hr />
+<h2 id="environment-and-disasters">Environment and Disasters</h2>
+<p><strong>Seismic (USGS current)</strong>:</p>
+<ul>
+<li>Vanuatu: M6.9 (tsunami flag), M6.3, 12+ M5+ in swarm near Port-Olry (10km depth, 2026-10-23/24)</li>
+<li>No other M6+ events in current bundle period</li>
+</ul>
+<div class="ws-callout "><span class="ws-label">Anomaly</span><p><strong>DATA GAP: FIRMS (fire/thermal anomaly satellite) data is empty in today's bundle. Active fire monitoring is unavailable.</strong></p></div>
+<p><strong>DATA GAP: GDACS (disaster alerting system) is stale. Supplementary disaster alerting is unavailable.</strong></p>
+<p>The Vanuatu swarm at shallow depth near a populated coastal area (Port-Olry) warrants continued monitoring. The M6.9 tsunami flag will have triggered automated Pacific Tsunami Warning Center advisories; whether those translated into evacuation action is not resolvable from today's bundle.</p>
+<hr />
+<h2 id="speeches-op-eds-and-commentary">Speeches, Op-Eds, and Commentary</h2>
+<p><strong>Michael Kratsios (Trump science advisor), interviewed by Tyler Cowen</strong>: The Cowen/Kratsios discussion on AI funding ecosystem concerns is the most policy-proximate commentary item today. Kratsios's institutional position gives this signal weight: if the administration's science advisor is publicly flagging ecosystem concerns (concentration, infrastructure financing gaps), this may preview regulatory or procurement interventions that would affect the AI-infrastructure equity complex.</p>
+<p><strong>Conversable Economist (Timothy Taylor)</strong>: World Bank WDR 2026 on AI in Development. The supply-shock-era framing is analytically useful for contextualizing the current macro environment -- the Fed is holding while both inflation and employment are within tolerance, but the curve is steepening, meaning the bond market is pricing something the short end is not yet moving to address. The WDR's focus on AI in development economies is a leading indicator of how multilateral institutions will frame AI governance in the next 18-24 months.</p>
+<p><strong>Marginal Revolution</strong>: The Anthropic Mythos / "Red Line" / cybersecurity ETF inflection note (Weisenthal/Cowen) is the kind of secondary-market observation that precedes sector rotation. The specific claim -- that a model release caused a measurable inflection in a cybersecurity ETF -- is testable and would be worth verifying against ETF price data for the relevant date.</p>
+<hr />
+<h2 id="prediction-markets">Prediction Markets</h2>
+<p><em>(Polymarket data from bundle forecasts.json; resolution dates noted where available)</em></p>
+<table>
+<thead>
+<tr>
+<th>Market</th>
+<th>Probability</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FOMC Oct 29 rate hold</td>
+<td>94%</td>
+<td>Oct 29</td>
+</tr>
+<tr>
+<td>Russia-Ukraine diplomatic meeting by Oct 31</td>
+<td>~100%</td>
+<td>Oct 31</td>
+</tr>
+<tr>
+<td>NATO-Russia military clash by Oct 31</td>
+<td>2%</td>
+<td>Oct 31</td>
+</tr>
+<tr>
+<td>US-Iran ceasefire continues through Oct 24</td>
+<td>visible in bundle</td>
+<td>Oct 24</td>
+</tr>
+<tr>
+<td>Brazil: Bolsonaro wins second round</td>
+<td>80%</td>
+<td>Oct 25</td>
+</tr>
+<tr>
+<td>Brazil: Lula wins second round</td>
+<td>20%</td>
+<td>Oct 25</td>
+</tr>
+<tr>
+<td>2026 Balance of Power: D Senate/R House</td>
+<td>1%</td>
+<td>Nov 3</td>
+</tr>
+</tbody>
+</table>
+<p><em>Note: The Brazil market shows a resolution date of Oct 5 in the raw data, which may indicate the market already resolved (Bolsonaro win) or may be a data artifact in the bundle. The 80/20 split is presented as of the last available pricing; readers should verify current Polymarket pricing independently.</em></p>
+<hr />
+<h2 id="weak-signals">Weak Signals</h2>
+<p>The following items are individually low-probability or ambiguous but warrant tracking as potential leading indicators:</p>
+<ol>
+<li>
+<p><strong>OFAC paired add/remove (Iran + Belarus/DPRK)</strong>: The simultaneous addition of Iran designations and removal of Belarus/DPRK designations suggests a multi-lateral negotiating packet rather than independent enforcement actions. If this presages a prisoner exchange, sanctions relief, or diplomatic framework, it would constitute the most significant covert diplomacy disclosure of 2026 Q4.</p>
+</li>
+<li>
+<p><strong>Irkutsk suspected plague death</strong>: An APRI researcher dying with suspected plague in Siberia, surfaced only in a WHO Disease Outbreak News item, has zero English-language coverage as of today's bundle. If confirmed, Yersinia pestis pneumonic form has a near-100% case fatality rate without treatment. The single case is not an outbreak signal but the institutional affiliation (Arctic/Pacific research) and lack of media coverage make it a high-monitoring-priority item.</p>
+</li>
+<li>
+<p><strong>Russia diesel tanker to USA (Oct 22)</strong>: A 40,000-tonne Russian diesel tanker routing to the USA the same week new Russia-related OFAC General Licenses are issued implies a legal authorization channel is operational. If this is the first shipment under GL No. 1, it would signal an active sanctions-relief mechanism that the administration has not publicized.</p>
+</li>
+<li>
+<p><strong>Kimi 3T-parameter model launch</strong>: A Chinese 3-trillion-parameter frontier model launch is a capability benchmark that, if reproducible, would close the gap between Chinese and US frontier AI. Combined with US semiconductor export controls, the timing of this launch may accelerate Congressional pressure for tighter export restrictions -- a potential market-moving legislative development in Q4 2026.</p>
+</li>
+<li>
+<p><strong>Serbia election (Student List vs. Vucic neck-and-neck)</strong>: A Vucic defeat would be the most significant change to the Western Balkans political map in years. The EU accession implications and the Russia-Serbia relationship (gas dependency, historical alignment) make this a high-consequence low-probability event to monitor through election night.</p>
+</li>
+<li>
+<p><strong>GDELT tone heatmap</strong>:</p>
+</li>
+</ol>
+<p><img alt="Regional GDELT tone heatmap" src="2026-10-24-gdelt_tone_heatmap.png" /></p>
+<p>The GDELT tone heatmap shows regional news sentiment. Areas of notably negative tone in the Middle East and Africa are consistent with the conflict and biosecurity events described above.</p>
+<hr />
+<h2 id="historical-context">Historical Context</h2>
+<p>The convergence of a steepening Treasury curve, a sustained Middle East maritime harassment campaign, and a biosecurity escalation at the end of October calls to mind two historical analogues:</p>
+<p><strong>October 1973</strong> (Yom Kippur War aftermath): The Arab oil embargo began in mid-October 1973, producing the first sustained petroleum supply shock in the postwar era. The current Persian Gulf maritime campaign is not an embargo, but the geographic and political logic -- Arab/Iranian proxies targeting shipping infrastructure to impose economic costs on Western-aligned customers -- is structurally similar. The 1973 shock took approximately six weeks to fully register in US gasoline prices; the current campaign has been running for longer but at lower intensity.</p>
+<p><strong>2014-2016 West Africa Ebola</strong>: The Bundibugyo clade is genetically distinct from the Zaire clade responsible for the 2014-2016 outbreak, but the epidemiological trajectory -- DRC origin, cross-border spread to Kenya and Nigeria -- mirrors the geographic diffusion of 2014-2016 in its first 60 days. The critical difference is that the TUMAINI vaccine trial has begun; in 2014, no approved vaccine existed. The CFR difference (48% Bundibugyo vs 40% Zaire in 2014-2016) is not explained by virulence differences alone; healthcare system collapse in conflict zones amplifies apparent CFR.</p>
+<hr />
+<h2 id="what-to-watch-next-72-hours">What to Watch (Next 72 Hours)</h2>
+<p><strong>Highest priority:</strong></p>
+<ol>
+<li>
+<p><strong>Brazil Oct 25 second round</strong> -- Polymarket implies Bolsonaro wins; if Lula closes the gap, EM equity and BRL will move sharply. Watch for crowd-sourced vote-counting irregularity reports given the political polarization.</p>
+</li>
+<li>
+<p><strong>ECB Cipollone interview (today, Oct 24)</strong> -- Any signal on the pace of European rate normalization will affect EUR/USD and European bank equity.</p>
+</li>
+<li>
+<p><strong>Russia-Ukraine diplomatic meeting</strong> -- With Polymarket at ~100% probability for a meeting before Oct 31, logistics details (venue, format, agenda) should emerge by Oct 26-27. Any Ukrainian territorial concession signal will be market-moving and NATO-diplomatically significant.</p>
+</li>
+<li>
+<p><strong>Ebola geographic spread</strong> -- The Nigeria import (Abuja, one case) is the critical monitoring item. Lagos is 500km from Abuja; a secondary spread to Lagos with its 15M population and major international airport hub would change the global risk classification.</p>
+</li>
+<li>
+<p><strong>Vanuatu seismic swarm</strong> -- A continued swarm at shallow depth near Port-Olry with an M6.9 as the initiating event suggests the sequence is not complete. Any M7+ event in the next 72 hours would constitute a humanitarian emergency.</p>
+</li>
+</ol>
+<p><strong>Medium priority:</strong></p>
+<ol>
+<li>FOMC pre-meeting communications (Oct 27-28) for any deviation from the hold consensus.</li>
+<li>Serbia election results.</li>
+<li>Tolyatti and Oryol damage assessment from Ukrainian drone strikes (Oct 24).</li>
+<li>CISA KEV patch compliance at US critical infrastructure operators (Arista VeloCloud in particular).</li>
+<li>Mojtaba Khamenei's first direct response (if any) to Netanyahu's regime-change call.</li>
+</ol>
+<hr />
+<p><em>Data gaps disclosed: ACLED conflict fatality data is 144 days stale (last good: 2026-06-02). reliefweb humanitarian data is 144 days stale. FIRMS fire/thermal data is empty. GDACS disaster alerting is stale. Brazil Polymarket resolution date in bundle may be an artifact; verify independently. All analytical judgments marked [HIGH CONFIDENCE] or [PLAUSIBLE] per bundle interpretation standards.</em></p>
+<p><em>Charts generated from bundle data using Python 3.13/matplotlib. Ukraine theater maps produced by the worldscope cartographer module.</em></p>
+<hr />
+<p><em>Worldscope | ihelfrich/worldscope | 2026-10-24</em></p>
+      <h2 id="event-map">Event map</h2><div id="gridmap" class="w-full h-96 rounded-md border border-mist my-4 overflow-hidden"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin=""></script>
+<script>
+(function(){
+  const el = document.getElementById('gridmap');
+  if (!el) return;
+  if (typeof L === 'undefined') {       // Leaflet CDN blocked/unreachable
+    el.classList.add('ws-map-unavailable');
+    el.innerHTML = '<p class="ws-meta" style="padding:1rem">Interactive map '
+      + 'unavailable (map library did not load).</p>';
+    return;
+  }
+  const fc = {"type": "FeatureCollection", "properties": {"generated": "2026-10-24", "sources": ["usgs_quakes"], "note": "ACLED conflict data 144d stale; conflict events not included"}, "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.5455, -14.0558]}, "properties": {"event_type": "earthquake", "magnitude": 6.9, "depth_km": 10, "place": "197 km WNW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 1, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.8666, -14.0424]}, "properties": {"event_type": "earthquake", "magnitude": 6.3, "depth_km": 10, "place": "170 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.6471, -13.9418]}, "properties": {"event_type": "earthquake", "magnitude": 5.9, "depth_km": 10, "place": "196 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.6982, -14.0833]}, "properties": {"event_type": "earthquake", "magnitude": 5.8, "depth_km": 10, "place": "182 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.5967, -13.9017]}, "properties": {"event_type": "earthquake", "magnitude": 5.8, "depth_km": 10, "place": "203 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.5627, -13.9084]}, "properties": {"event_type": "earthquake", "magnitude": 5.7, "depth_km": 10, "place": "205 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [167.3063, -14.5918]}, "properties": {"event_type": "earthquake", "magnitude": 5.5, "depth_km": 194.632, "place": "55 km NNE of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": "green"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [94.048, 32.5629]}, "properties": {"event_type": "earthquake", "magnitude": 5.3, "depth_km": 10, "place": "223 km ENE of Nagqu, China", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.7535, -14.1278]}, "properties": {"event_type": "earthquake", "magnitude": 5.3, "depth_km": 10, "place": "174 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.551, -13.7325]}, "properties": {"event_type": "earthquake", "magnitude": 5.3, "depth_km": 10, "place": "216 km W of Sola, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.6161, -13.8805]}, "properties": {"event_type": "earthquake", "magnitude": 5.2, "depth_km": 10, "place": "202 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [14.315, 38.7787]}, "properties": {"event_type": "earthquake", "magnitude": 5.2, "depth_km": 10, "place": "50 km WNW of Malfa, Italy", "date": "2026-10-23", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.6088, -13.7972]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 10, "place": "209 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.4664, -13.833]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 10, "place": "218 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.4673, -13.8521]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 10, "place": "217 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.8052, -14.1211]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 10, "place": "170 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.6172, -13.8764]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 10, "place": "203 km NW of Port-Olry, Vanuatu", "date": "2026-10-23", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [142.572, 40.4159]}, "properties": {"event_type": "earthquake", "magnitude": 5.1, "depth_km": 38.138, "place": "72 km ENE of Noda, Japan", "date": "2026-10-23", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.2758, -14.1064]}, "properties": {"event_type": "earthquake", "magnitude": 5.0, "depth_km": 10, "place": "219 km WNW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.4237, -13.8777]}, "properties": {"event_type": "earthquake", "magnitude": 5.0, "depth_km": 10, "place": "219 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [165.8739, -14.165]}, "properties": {"event_type": "earthquake", "magnitude": 5.0, "depth_km": 10, "place": "161 km NW of Port-Olry, Vanuatu", "date": "2026-10-24", "tsunami": 0, "alert": ""}}]};
+  const m = L.map('gridmap', { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap, &copy; CARTO', maxZoom: 8
+  }).addTo(m);
+  L.geoJSON(fc, {
+    pointToLayer: function(f, latlng) {
+      const sev = (f.properties && f.properties.severity) || 1;
+      return L.circleMarker(latlng, {
+        radius: 4 + Math.min(sev, 8),
+        color: '#B91C1C', weight: 1, fillColor: '#DC2626', fillOpacity: 0.6
+      });
+    },
+    onEachFeature: function(f, l) {
+      const p = f.properties || {};
+      l.bindPopup('<b>'+(p.title||'event')+'</b><br>'+(p.summary||'')+'<br><i>'+(p.date||'')+'</i>');
+    }
+  }).addTo(m);
+})();
+</script>
+
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>
