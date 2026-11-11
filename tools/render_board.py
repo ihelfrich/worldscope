@@ -58,7 +58,7 @@ def _momentum_section(mom: dict, esc) -> str:
     rows = []
     for st in stories:
         col = _MOM_COLOR.get(st["klass"], "#8A8276")
-        head = re.sub(r"<[^>]+>", "", st.get("headline") or st["label"])
+        head = re.sub(r"<[^>]*>?", "", st.get("headline") or st["label"])
         rows.append(
             "<div class='mrow'>"
             f"<span class='mbadge' style='background:{col}'>{esc(st['klass'].upper())}</span>"

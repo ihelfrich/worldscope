@@ -1,41 +1,42 @@
 """momentum.py — cross-day story memory for the WORLDSCOPE board.
 
 The board has always been a perfect snapshot of *today*; this module gives it
-a memory. Using the lake's rolling window (~9 days) and the SAME key
-extraction the claims/signals engines use (signals.record_key_pairs), it
-tracks each story key's daily trajectory — records/day and independent
-sections/day — and classifies the movement an analyst actually cares about:
+a memory. It reads the full cross-time corpus through worldscope.history —
+the live lake PLUS the monthly gzip archive that lake_maintenance evicts
+into — so trajectories span weeks, not just the committed DB's ~week. Using
+the SAME key extraction the claims/signals engines use
+(signals.record_key_pairs), it tracks each story key's daily trajectory and
+classifies the movement an analyst actually cares about:
 
   SURGING   today is a multiple of the story's own prior baseline
-  NEW       first appearance today, already multi-section
+  NEW       first appearance in the whole window, already multi-section
   BUILDING  three straight days of growth
-  FADING    was a major story, now collapsing out of the cycle
-  STEADY    the carrying narrative — present nearly every day
+  FADING    was a major story within the last ~10 days, now collapsing
+  STEADY    the carrying narrative — present most of the window
 
 Structural hub terms (keys that are huge every single day: country names,
-heads of state) are excluded; they are backdrop, not movement.
-
-Output feeds the board's "Developing" panel (headline + classification +
-server-rendered sparkline), so the reader sees not just what is happening
-but what is *becoming*.
+heads of state) are excluded; they are backdrop, not movement. Days at the
+start of the window with no data at all (archive gaps) are trimmed so thin
+coverage can't masquerade as novelty.
 """
 from __future__ import annotations
 
-import json
-import sqlite3
+import sqlite3  # noqa: F401  (kept for callers that still pass lake paths)
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from pathlib import Path
 
 from .signals import record_key_pairs
+from . import history
 
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_LAKE = REPO / "lake" / "db" / "worldscope.sqlite"
 
-MAX_DAYS = 9          # matches the lake's committed rolling window
+WINDOW_DAYS = 35       # live lake + archive via worldscope.history
 MIN_TODAY_RECORDS = 3  # a story must be alive today to classify as moving
 HUB_MIN_DAILY = 20     # key with >= this many records EVERY day = structural hub
-HUB_TOTAL = 400        # or just overwhelmingly common across the window
+HUB_PER_DAY = 45       # or averaging this many per day across the window
+FADE_RECENT_DAYS = 10  # a peak older than this is history, not "fading"
 
 # Not stories: calendar fragments, generic nouns, and outlet names (which are
 # attribution, not events). Kept small and surgical — the hub guard and the
@@ -74,90 +75,123 @@ class Story:
     peak: int = 0
 
 
-def _day_records(conn: sqlite3.Connection, day: str) -> list[dict]:
-    out = []
-    for row in conn.execute(
-            "SELECT section_id, original_text, extra_json FROM records "
-            "WHERE substr(ingested_at,1,10)=?", (day,)):
-        rec = {"section_id": row[0], "original_text": row[1] or ""}
-        if row[2]:
+def _iter_window(today: date, days: int, lake_path: Path):
+    """Yield (day_iso, rec) across live DB + archive via worldscope.history."""
+    start = today - timedelta(days=days - 1)
+    for row in history.iter_records(start, today, db_path=lake_path):
+        day = str(row.get("ingested_at") or "")[:10]
+        if not day:
+            continue
+        rec = {"section_id": row.get("section_id") or "",
+               "original_text": row.get("original_text") or ""}
+        extra = row.get("extra_json")
+        if extra:
             try:
-                extra = json.loads(row[2])
-                if isinstance(extra, dict) and extra.get("entities"):
-                    rec["entities"] = extra["entities"]
+                import json as _json
+                e = _json.loads(extra) if isinstance(extra, str) else extra
+                if isinstance(e, dict) and e.get("entities"):
+                    rec["entities"] = e["entities"]
             except (ValueError, TypeError):
                 pass
-        out.append(rec)
-    return out
+        yield day, rec
 
 
-def _classify(r: list[int], s: list[int], days_present: int) -> str:
+def _classify(r: list[int], s: list[int], days_present: int, window: int) -> str:
     today, prior = r[-1], r[:-1]
+
+    def _fading() -> bool:
+        if not prior:
+            return False
+        peak = max(prior)
+        if peak < 8 or today > peak / 3:
+            return False
+        # only "fading" while the collapse is fresh — a peak older than
+        # FADE_RECENT_DAYS is history, not news
+        peak_idx = len(prior) - 1 - prior[::-1].index(peak)
+        return (len(r) - 1 - peak_idx) <= FADE_RECENT_DAYS
+
     if today < MIN_TODAY_RECORDS or s[-1] < 2:
-        # not alive today — only interesting if it USED to be big
-        peak = max(prior) if prior else 0
-        return "fading" if peak >= 8 and today <= peak / 3 else ""
+        return "fading" if _fading() else ""
     if sum(prior) == 0:
         return "new" if today >= 4 else ""
     baseline = sum(prior) / len(prior)
-    if today >= max(6, 2.5 * baseline):
+    # a surge must be near the story's own window high — a big day two days
+    # ago with today in decline is not "surging", however low the baseline
+    if today >= max(6, 2.5 * baseline) and today >= 0.8 * max(r):
         return "surging"
     if len(r) >= 3 and r[-3] < r[-2] < r[-1] and today >= 4:
         return "building"
-    peak = max(prior)
-    if peak >= 8 and today <= peak / 3:
+    if _fading():
         return "fading"
-    if days_present >= 6 and today >= 3:
+    if days_present >= (2 * window) // 3 and today >= 3:
         return "steady"
     return ""
 
 
 def build_momentum(today: date, *, lake_path: Path | None = None,
-                   days: int = MAX_DAYS, limit: int = 12) -> dict:
-    """Return {'days': [iso...], 'stories': [Story-as-dict...]} for the board."""
+                   days: int = WINDOW_DAYS, limit: int = 12) -> dict:
+    """Return {'days': [iso...], 'stories': [Story-as-dict...]} for the board.
+    Reads live lake + archive through worldscope.history, so the window can
+    be far longer than the committed DB's rolling week."""
     lake_path = lake_path or DEFAULT_LAKE
     if not Path(lake_path).exists():
         return {"days": [], "stories": []}
     day_list = [(today - timedelta(days=d)).isoformat() for d in range(days - 1, -1, -1)]
+    day_idx = {d: i for i, d in enumerate(day_list)}
 
     # per key: day-index -> (record count, section set); plus label + best headline
     counts: dict[str, list] = {}
     sections: dict[str, list] = {}
     labels: dict[str, str] = {}
     headlines: dict[str, tuple[int, str]] = {}   # (day_idx, text)
+    day_totals = [0] * len(day_list)
 
-    conn = sqlite3.connect(f"file:{lake_path}?mode=ro", uri=True)
-    try:
-        for di, day in enumerate(day_list):
-            for rec in _day_records(conn, day):
-                for key, cased in record_key_pairs(rec):
-                    key, cased = _canon(key, cased)
-                    if not key or key in _JUNK:
-                        continue
-                    if key not in counts:
-                        counts[key] = [0] * len(day_list)
-                        sections[key] = [set() for _ in day_list]
-                        labels[key] = cased
-                    counts[key][di] += 1
-                    sections[key][di].add(rec["section_id"])
-                    text = rec["original_text"]
-                    best = headlines.get(key)
-                    if text and (best is None or di > best[0]
-                                 or (di == best[0] and len(text) > len(best[1]))):
-                        headlines[key] = (di, text)
-    finally:
-        conn.close()
+    for day, rec in _iter_window(today, days, lake_path):
+        di = day_idx.get(day)
+        if di is None:
+            continue
+        day_totals[di] += 1
+        for key, cased in record_key_pairs(rec):
+            key, cased = _canon(key, cased)
+            if not key or key in _JUNK:
+                continue
+            if key not in counts:
+                counts[key] = [0] * len(day_list)
+                sections[key] = [set() for _ in day_list]
+                labels[key] = cased
+            counts[key][di] += 1
+            sections[key][di].add(rec["section_id"])
+            text = rec["original_text"]
+            best = headlines.get(key)
+            if text and (best is None or di > best[0]
+                         or (di == best[0] and len(text) > len(best[1]))):
+                headlines[key] = (di, text)
+
+    # Trim leading days with no data at all (archive gap / short history):
+    # otherwise every established story looks NEW against phantom zeros.
+    first = next((i for i, t in enumerate(day_totals) if t > 0), 0)
+    if first:
+        day_list = day_list[first:]
+        for key in counts:
+            counts[key] = counts[key][first:]
+            sections[key] = sections[key][first:]
+    window = len(day_list)
+    if window < 2:
+        return {"days": day_list, "stories": []}
 
     stories: list[Story] = []
     for key, r in counts.items():
         total = sum(r)
         if total < 4:
             continue
-        if total >= HUB_TOTAL or all(x >= HUB_MIN_DAILY for x in r):
+        days_on = sum(1 for x in r if x > 0)
+        if (total >= HUB_PER_DAY * window
+                or all(x >= HUB_MIN_DAILY for x in r)
+                or (days_on >= 0.9 * window and total / window >= 12)):
             continue                                  # structural hub, not a story
         s = [len(x) for x in sections[key]]
         days_present = sum(1 for x in r if x > 0)
-        klass = _classify(r, s, days_present)
+        klass = _classify(r, s, days_present, window)
         if not klass:
             continue
         stories.append(Story(
@@ -175,12 +209,19 @@ def build_momentum(today: date, *, lake_path: Path | None = None,
     # and no single class may swallow the whole panel
     caps = {"surging": 5, "new": 3, "building": 3, "fading": 2, "steady": 2}
     picked, used = [], {}
+    seen_heads: set[str] = set()
     for st in stories:
         if used.get(st.klass, 0) >= caps[st.klass]:
             continue
         # containment dedupe: 'russia' vs 'russian', 'iran' vs 'iranian'
         if any(st.key in p.key or p.key in st.key for p in picked):
             continue
+        # headline dedupe: two keys mined from the same record would show the
+        # same headline twice (e.g. a person and their caucus in one story)
+        hnorm = (st.headline or "")[:80].lower().strip()
+        if hnorm and hnorm in seen_heads:
+            continue
+        seen_heads.add(hnorm)
         used[st.klass] = used.get(st.klass, 0) + 1
         picked.append(st)
         if len(picked) >= limit:
