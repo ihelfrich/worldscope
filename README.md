@@ -90,9 +90,12 @@ browser; the public site is static and a visitor triggers zero API calls.
 
 | Workflow | Cron | Note |
 |---|---|---|
-| `daily-brief.yml` | `17 6 * * *` | off-peak minute; see the comment in the file for why |
-| Claude Routine | 10:30 (retry 13:30) | configured in claude.ai |
-| `render-briefings.yml` | on push + `15 11-13` | |
-| `pushover-brief.yml` | after render + `30 11-13` | |
+| `daily-brief.yml` | eight entries a day, gated | GitHub starts this repo's crons 7-10 h late; the first firing after 06:10Z without a manifest for the day builds, the rest exit |
+| `compose-brief.yml` | after `daily-brief.yml` | needs `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` |
+| Claude Routine | 06:45 America/Chicago | configured in claude.ai; delivers by pull request |
+| `auto-merge-briefs.yml` | on the Routine's pull request | lands a PR that carries exactly one valid brief |
+| `render-briefings.yml` | dispatched by the composer + catch-up crons | |
+| `pushover-brief.yml` | after render + catch-up crons | |
+| `brief-deadman.yml` | three entries a day | alerts from 13:00 Chicago if today's brief is missing |
 | `ukraine-hourly.yml` | `15 * * * *` | |
 | `live-map.yml` | `37 * * * *` | |

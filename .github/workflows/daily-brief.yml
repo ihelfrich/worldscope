@@ -10,16 +10,23 @@ on:
     # 11:03Z..15:24Z (4-8 h late), which put every bundle outside the 6-hour
     # readiness window of the 09:00Z routine. No desk-officer brief shipped
     # between 2026-09-06 and 2026-10-09 as a result. Off-peak minutes drift
-    # far less. Composition is now chained to this run by workflow_run
-    # (compose-brief.yml), so it cannot race. If the claude.ai Routine is
-    # kept as a fallback it must still leave margin:
-    #   producer 06:17Z (+drift) -> readiness manifest ~06:45-08:30Z
-    #   compose-brief.yml        immediately after, via workflow_run
-    #   desk-officer routine     10:30Z (05:30 CT) fallback, idempotent
-    #   Pushover delivery        11:30-13:30Z (existing crons)
-    # The manifest's generated_at must be < 6 h old when a consumer fires.
+    # far less (that turned out to be wrong; see below). Composition is
+    # chained to this run by workflow_run (compose-brief.yml), so it cannot
+    # race. Timing for every step is in docs/ROUTINE-desk-officer.md.
     - cron: "17 6 * * *"
-  workflow_dispatch:  # so you can fire manually too
+    # Measured 2026-11-05..11: the 06:17Z entry actually started between
+    # 12:59Z and 16:17Z, 7 to 10 hours late, every day. Nothing downstream
+    # can be on time if this is not, so the producer is scheduled several
+    # times and the gate job lets the first firing that arrives after 06:10Z
+    # without a manifest for the day do the work. The others exit in seconds.
+    - cron: "17 22 * * *"
+    - cron: "47 0 * * *"
+    - cron: "23 2 * * *"
+    - cron: "53 4 * * *"
+    - cron: "11 8 * * *"
+    - cron: "7 10 * * *"
+    - cron: "41 12 * * *"
+  workflow_dispatch:  # manual runs always build
 
 permissions:
   contents: write
@@ -35,7 +42,33 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            worldscope/__init__.py
+            worldscope/readiness.py
+            dist/status/daily
+          sparse-checkout-cone-mode: false
+      - id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; echo "manual run"; exit 0
+          fi
+          python3 -m worldscope.readiness should-run --dist dist | tee /tmp/gate.txt
+          grep '^run=' /tmp/gate.txt >> "$GITHUB_OUTPUT"
   build:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -90,6 +123,10 @@ jobs:
         # data/store.sqlite did the same on 2026-07-05. Keep both well under
         # the limit before committing.
         run: python -m worldscope.lake_maintenance
+      - name: Bound the published tree (GitHub Pages allows 1 GB)
+        # Dated section pages, daily pages and bundles older than 60 days are
+        # unlinked orphans; the raw records stay in lake/.
+        run: python -m worldscope.dist_maintenance --out dist
       - name: Publish dated readiness contract
         # Composition waits for this exact-date manifest instead of assuming
         # that a fixed clock time means the raw producer finished.
@@ -157,7 +194,16 @@ jobs:
       cancel-in-progress: false
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.first.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
+      # Pages sometimes sits in "syncing_files" until the action's 10-minute
+      # timeout (four runs on 2026-11-10; healthy deploys take 20-60 s). Give
+      # up after 5 minutes and try once more instead of failing the run.
+      - id: first
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 300000
       - id: deployment
+        if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v4

@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   relay:
@@ -30,9 +31,11 @@ jobs:
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           ALERT_MESSAGE: ${{ inputs.message }}
         run: |
           python -m worldscope.pushover_delivery \
             --title "Mac watchdog CRIT" \
             --message "$ALERT_MESSAGE" \
-            --priority 1
+            --priority 1 \
+            --fallback-issue mac-watchdog

@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -53,6 +54,7 @@ jobs:
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           MUTE_UNTIL: ${{ vars.SITE_WATCHDOG_MUTE_UNTIL }}
           FAILURES: ${{ steps.fresh.outputs.failures }}
           REHEARSE: ${{ inputs.rehearse }}
@@ -75,7 +77,13 @@ jobs:
             --title "$TITLE" \
             --message "${FAILURES:-see workflow log}" \
             --url "https://github.com/ihelfrich/worldscope/actions/workflows/site-freshness-watchdog.yml" \
-            --priority "$PRIORITY"
+            --priority "$PRIORITY" \
+            --fallback-issue site-stale
+      - name: Close the alert once the site is fresh again
+        if: steps.fresh.outcome == 'success' && inputs.rehearse != true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m worldscope.alerting resolve --key site-stale
       - name: Fail the workflow if checks failed
         if: steps.fresh.outcome == 'failure'
         run: |

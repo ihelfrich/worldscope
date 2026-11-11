@@ -2,16 +2,33 @@ name: Brief dead-man switch
 
 # The September 2026 outage went unnoticed for 34 days because every check
 # watched inputs (collection ran, readiness published) and nothing watched
-# the output. This watches the output: by 14:30Z the desk-officer brief for
-# today must exist on main, or Ian gets one high-priority push.
+# the output. This watches the output: the desk-officer brief for today must
+# be on main by early afternoon Chicago time.
+#
+# It judges state, not the clock. GitHub starts this repository's scheduled
+# runs 7 to 10 hours late, so the old fixed 14:30Z check fired before the
+# producer had even started and failed every day (2026-11-05..10). A firing
+# now alerts only once it is 13:00 or later in Chicago on the day it checks,
+# whenever GitHub happens to start it.
+#
+# The alert is a Pushover page plus one tracked issue ([pipeline-alert:
+# brief-missing]). The issue is the fallback for the weeks Pushover answered
+# "no active devices to send to", and it is closed automatically as soon as a
+# check finds the brief. Runs chained to a composer only ever close it.
 
 on:
+  workflow_run:
+    workflows: ["Compose desk-officer brief", "Land routine briefs"]
+    types: [completed]
   schedule:
-    - cron: "30 14 * * *"
+    - cron: "30 13 * * *"
+    - cron: "30 17 * * *"
+    - cron: "30 21 * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -29,6 +46,7 @@ jobs:
           set -euo pipefail
           TODAY=$(TZ=America/Chicago date +%F)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "hour=$(TZ=America/Chicago date +%-H)" >> "$GITHUB_OUTPUT"
           missing=""
           [ -s "briefings/${TODAY}.md" ] || missing="${missing} briefings/${TODAY}.md"
           [ -s "dist/status/daily/${TODAY}.json" ] || missing="${missing} dist/status/daily/${TODAY}.json"
@@ -42,8 +60,12 @@ jobs:
             echo "brief and manifest present for ${TODAY}"
           fi
       - name: Alert if the brief is missing and not muted
-        if: steps.look.outputs.missing != ''
+        if: >-
+          steps.look.outputs.missing != '' &&
+          github.event_name != 'workflow_run' &&
+          (github.event_name == 'workflow_dispatch' || fromJSON(steps.look.outputs.hour) >= 13)
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           MUTE_UNTIL: ${{ vars.BRIEF_DEADMAN_MUTE_UNTIL }}
@@ -58,6 +80,15 @@ jobs:
           fi
           python -m worldscope.pushover_delivery \
             --title "Worldscope: no brief for ${TODAY}" \
-            --message "Missing by 14:30Z:${MISSING}. Check the Daily briefing run and the desk-officer routine." \
+            --message "Missing this afternoon:${MISSING}. Check the Daily briefing run, the Compose run and the desk-officer routine." \
             --url "https://github.com/ihelfrich/worldscope/actions" \
-            --priority 1
+            --priority 1 \
+            --fallback-issue brief-missing
+      - name: Close the alert once the brief is on main
+        if: steps.look.outputs.missing == ''
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TODAY: ${{ steps.look.outputs.today }}
+        run: |
+          python -m worldscope.alerting resolve --key brief-missing \
+            --note "Recovered: the brief and readiness manifest for ${TODAY} are on main."

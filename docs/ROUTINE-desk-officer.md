@@ -1,37 +1,54 @@
 # Desk-officer routine: schedule and canonical prompt
 
-The daily long-form brief in `briefings/<date>.md` is composed by a Claude
-Code Routine, not by GitHub Actions. The routine depends on the dated
-readiness manifest that `daily-brief.yml` publishes. Both sides must agree on
-timing, and the routine prompt must not contain the legacy fallbacks that
-produced stale or missing briefs. This file is the source of truth for both.
+The daily long-form brief in `briefings/<date>.md` has two composers: the
+`compose-brief.yml` workflow and a claude.ai Routine. Both depend on the dated
+readiness manifest that `daily-brief.yml` publishes, and both are idempotent
+on `briefings/<TODAY>.md`, so whichever lands first wins and the other exits
+quietly. This file is the source of truth for the timing and for the Routine
+prompt.
 
-## Schedule (America/Chicago)
+## What actually happens (measured, not intended)
 
-| Step | Owner | Time |
+GitHub starts this repository's scheduled runs 7 to 10 hours late. Between
+2026-11-05 and 2026-11-11 the `17 6 * * *` producer started between 12:59Z
+and 16:17Z every day, and the "hourly" jobs ran about three times a day. No
+step in this pipeline may therefore depend on a wall-clock time. Each step is
+chained to the one before it, or judges state when it happens to run.
+
+| Step | Owner | Trigger |
 |---|---|---|
-| Raw collection, bundle, readiness manifest, Pages deploy | `daily-brief.yml` | cron `17 6 * * *` UTC, lands ~06:45-08:30Z |
-| Desk-officer composition, primary | `compose-brief.yml` (claude-code-action, Opus) | `workflow_run` on "Daily briefing" success, so it never races |
-| Desk-officer composition, fallback | Claude Routine | **05:30 CT (10:30Z)**, retry slot **08:30 CT (13:30Z)** |
-| Markdown to HTML render | `render-briefings.yml` | on push of `briefings/**.md` |
-| Pushover delivery | `pushover-brief.yml` | after render, plus crons 11:30-13:30Z |
-| Output dead-man | `brief-deadman.yml` | 14:30Z, alerts if `briefings/<today>.md` is missing |
+| Raw collection, bundle, readiness manifest, Pages deploy | `daily-brief.yml` | eight cron entries a day; a gate job lets the first firing after 06:10Z without a manifest for the day do the work |
+| Composition, in Actions | `compose-brief.yml` (claude-code-action, Opus) | `workflow_run` on "Daily briefing", when its `build` job succeeded. Needs `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN`; skips cleanly without one |
+| Composition, Routine | claude.ai scheduled task "WORLDSCOPE morning brief" | 06:45 America/Chicago (claude.ai schedules fire on time) |
+| Landing a Routine brief | `auto-merge-briefs.yml` | the Routine's pull request; merges it if it carries exactly one valid brief |
+| Markdown to HTML render | `render-briefings.yml` | dispatched by whichever composer landed the brief; crons as catch-up |
+| Pushover delivery | `pushover-brief.yml` | after render; crons as catch-up |
+| Output dead-man | `brief-deadman.yml` | alerts once it is 13:00 Chicago or later and `briefings/<today>.md` is missing; opens a `[pipeline-alert:brief-missing]` issue and closes it on recovery |
 
-Both composers are idempotent on `briefings/<TODAY>.md`, so whichever lands
-first wins and the other exits quietly. `compose-brief.yml` is API-billed
-(one Opus run a day; set a spend cap in the Anthropic console) and can be
-switched off with the repository variable `COMPOSE_IN_ACTIONS=false`. The
-Routine is subscription-billed and only matters if that switch is off or the
-Actions run fails.
+`compose-brief.yml` is API-billed (one Opus run a day; set a spend cap in the
+Anthropic console) and can be switched off with the repository variable
+`COMPOSE_IN_ACTIONS=false`. The Routine is subscription-billed.
+`AUTO_MERGE_BRIEFS=false` switches off the landing workflow.
 
-The consumer checks `status/daily/<TODAY>.json` where TODAY is the Chicago
-date. The manifest's `generated_at` must be younger than 6 hours, which is
-why the Routine slots above sit 4 and 7 hours after the producer's cron.
+Two things about the Routine that the September prompt got wrong:
+
+- **It cannot push to main.** A claude.ai cloud session may only push its own
+  `claude/*` branch, so "commit and push" produced a pull request that nobody
+  merged. Opening that pull request is now the delivery step, and
+  `auto-merge-briefs.yml` lands it.
+- **It must not read readiness from the Pages URL.** The site deploys after
+  the commit and sometimes stalls, so the URL returned 404 for a manifest that
+  was already on main. The manifest and bundle are read from the repository
+  checkout at `origin/main`.
+
+The manifest's `generated_at` must be younger than 12 hours for the Routine
+(6 hours for the Actions composer, which runs straight after the producer).
 
 ## Canonical prompt
 
-Paste the block below into the Routine. It supersedes the September prompt
-and its "AUTOMATION REPAIR OVERRIDES" preamble; those rules are folded in.
+The block below is the Routine's operational prompt. It supersedes the
+September prompt and its "AUTOMATION REPAIR OVERRIDES" preamble; those rules
+are folded in.
 
 ```
 You are the WORLDSCOPE morning desk officer for Dr. Ian Helfrich. One run
@@ -41,22 +58,25 @@ or schedules.
 
 READINESS (do this before anything else)
 TODAY = date in America/Chicago.
-GET https://ihelfrich.github.io/worldscope/status/daily/${TODAY}.json with a
-20 s timeout and an HTTP status check. Validate it with the repository's
-own validator:
-  python -m worldscope.readiness check-daily --manifest <file> --date ${TODAY}
+In the repository checkout run: git fetch origin main
+Read the manifest from the repository, not from the website:
+  git show origin/main:dist/status/daily/${TODAY}.json > /tmp/ws/manifest.json
+Validate it with the repository's own validator:
+  python -m worldscope.readiness check-daily --manifest /tmp/ws/manifest.json \
+    --date ${TODAY} --max-age-hours 12
 It requires schema_version 1, producer worldscope-daily-brief, status ready,
-data_date == TODAY, generated_at < 6 h old and not in the future, zero failed
-required stages, and a bundle entry. Any failure is SOURCE_NOT_READY: write
-status/source_not_ready_${TODAY}.txt (once; if it already exists with the
-same reason, exit silently), commit it, and stop. No sleeps, no retries, no
-yesterday's bundle, no web research as a substitute. The next scheduled slot
-is the next attempt.
+data_date == TODAY, generated_at < 12 h old and not in the future, zero
+failed required stages, and a bundle entry. A missing file or any failure is
+SOURCE_NOT_READY: report the exact failing check in your final message and
+stop. Write no file, make no commit and open no pull request for it. No
+sleeps, no retries, no yesterday's bundle, no web research as a substitute.
+The next scheduled run is the next attempt.
 Record every "::warning::degraded source:" line the validator prints; they
 go in the brief header verbatim as "Source coverage".
 
 BUNDLE
-Download only https://ihelfrich.github.io/worldscope/zips/${TODAY}.zip.
+Take the bundle from the repository too:
+  git show origin/main:dist/zips/${TODAY}.zip > /tmp/ws/today.zip
 Verify byte count and SHA-256 against the manifest before unzipping into an
 empty directory; reject any member path containing ".." or starting with
 "/". Also read lake/sections/_meta/${TODAY}/cross_section.json from the
@@ -64,8 +84,7 @@ repository checkout when present.
 
 IDEMPOTENCE
 If origin/main already contains briefings/${TODAY}.md, exit quietly.
-Refetch origin/main before pushing; stop on divergence or unrelated dirty
-files; never force-push.
+Also exit quietly if an open pull request already adds that file.
 
 COMPOSE
 Follow the editorial spec in docs/ROUTINE-editorial-spec.md (sections,
@@ -81,7 +100,11 @@ Headline as the live view.
 COMMIT
 Commit briefings/${TODAY}.md, briefings/${TODAY}-*.png and
 briefings/${TODAY}-events.geojson only, with user worldscope-desk, message
-"morning brief ${TODAY}", and push with -u. Report: data_date, manifest and
+"morning brief ${TODAY}", on your session branch, and push it with -u. You
+cannot push to main and must not try. Open a pull request into main titled
+"morning brief ${TODAY}" containing only those files; the repository's
+"Land routine briefs" workflow validates and merges it, then renders and
+delivers. Never force-push. Report: data_date, manifest and
 bundle SHA-256, degraded sources, word count, chart count, mapped event
 count, commit hash. Distinguish written, pushed, rendered and delivered;
 claim only what you verified.

@@ -1,0 +1,61 @@
+name: Land routine briefs
+
+# The claude.ai desk-officer routine can only push a claude/* branch, so its
+# briefs arrived as pull requests that nobody merged: 58 were open by
+# 2026-11-11 and no desk-officer brief had reached main since 2026-09-05.
+# This lands a pull request that carries exactly one brief and nothing else,
+# closes one that only records SOURCE_NOT_READY, and leaves every other pull
+# request alone.
+#
+# Trust boundary: pull_request_target runs this file and the validator from
+# main, never from the pull request. Nothing from the pull request is checked
+# out or executed; its file list and text are read through the API as data,
+# and no pull-request field is interpolated into a shell command.
+#
+# Kill switch: set the repository variable AUTO_MERGE_BRIEFS to "false".
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: land-brief-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  land:
+    if: >-
+      vars.AUTO_MERGE_BRIEFS != 'false' &&
+      startsWith(github.event.pull_request.head.ref, 'claude/') &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR_NUMBER: ${{ github.event.pull_request.number }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            tools/validate_brief_pr.py
+          sparse-checkout-cone-mode: false
+      - name: Classify the pull request
+        id: classify
+        run: python3 tools/validate_brief_pr.py --repo "$GITHUB_REPOSITORY" --pr "$PR_NUMBER"
+      - name: Merge the brief
+        if: steps.classify.outputs.verdict == 'merge'
+        run: |
+          set -euo pipefail
+          gh pr merge "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
+          # A GITHUB_TOKEN merge does not fire render-briefings' push trigger.
+          gh workflow run render-briefings.yml --repo "$GITHUB_REPOSITORY" --ref main
+      - name: Close a SOURCE_NOT_READY record
+        if: steps.classify.outputs.verdict == 'close'
+        run: gh pr close "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --delete-branch

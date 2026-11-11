@@ -295,6 +295,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--priority", type=int, default=0)
     parser.add_argument("--brief")
     parser.add_argument("--sent-file", type=Path)
+    parser.add_argument(
+        "--fallback-issue", metavar="KEY", default="",
+        help="also record the alert as a tracked GitHub issue under this key; "
+             "the step then succeeds if either channel accepted it")
     args = parser.parse_args(argv)
     if bool(args.brief) != bool(args.sent_file):
         parser.error("--brief and --sent-file must be supplied together")
@@ -306,14 +310,35 @@ def main(argv: list[str] | None = None) -> int:
         "title": args.title, "message": message, "url": args.url,
         "priority": args.priority,
     }
+    issue_ok = _record_issue(args.fallback_issue, args.title, message, args.url) \
+        if args.fallback_issue else False
     try:
         request_id = send_and_record(brief=args.brief, sent_file=args.sent_file,
                                      **common) if args.brief else deliver(**common)
     except PushoverDeliveryError as exc:
+        if issue_ok:
+            # The alert is on record and GitHub notifies the owner, so the
+            # step is not a failure; the dead phone channel is still named.
+            print(f"::warning::Pushover did not deliver ({exc}); alert recorded as a GitHub issue")
+            return 0
         print(f"::error::{exc}")
         return 1
     print(f"Pushover accepted request {request_id}")
     return 0
+
+
+def _record_issue(key: str, title: str, message: str, url: str) -> bool:
+    """Best-effort tracked issue; never raises, so Pushover is still tried."""
+    from worldscope import alerting
+    try:
+        repo, owner, transport = alerting.env_transport()
+        number, created = alerting.raise_alert(repo, key, title, message, url=url,
+                                               owner=owner, transport=transport)
+    except (alerting.AlertError, KeyError, TypeError, ValueError) as exc:
+        print(f"::warning::could not record alert issue: {exc}")
+        return False
+    print(f"alert issue #{number} {'opened' if created else 'updated'}")
+    return True
 
 
 if __name__ == "__main__":

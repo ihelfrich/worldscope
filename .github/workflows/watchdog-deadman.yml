@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   check:
@@ -59,6 +60,7 @@ jobs:
         env:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           MUTE_UNTIL: ${{ vars.WATCHDOG_MUTE_UNTIL }}
           AGE_HOURS: ${{ steps.age.outputs.age_hours }}
         run: |
@@ -78,4 +80,10 @@ jobs:
           python -m worldscope.pushover_delivery \
             --title "Mac watchdog CRIT" \
             --message "Mac watchdog silent >48h — laptop dead, asleep for days, or watchdog broken (heartbeat age: ${AGE_HOURS}h)" \
-            --priority 1
+            --priority 1 \
+            --fallback-issue mac-watchdog-silent
+      - name: Close the alert once the heartbeat is fresh
+        if: steps.age.outputs.stale == 'false'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m worldscope.alerting resolve --key mac-watchdog-silent
