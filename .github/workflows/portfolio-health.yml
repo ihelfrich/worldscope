@@ -1,0 +1,51 @@
+name: Portfolio health
+
+# One nightly look at every public site in data/portfolio.json, and at the
+# scheduled data refreshes behind the ones that have them. The sites are
+# deployed from about fifty separate repositories with nothing watching them;
+# on 2026-11-11 three had served 404 for months.
+#
+# Any problem opens one tracked issue ([pipeline-alert:portfolio-health]) with
+# the list, and the next clean run closes it. Nothing is published.
+
+on:
+  schedule:
+    - cron: "41 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            data/portfolio.json
+            tools/check_portfolio.py
+            worldscope/__init__.py
+            worldscope/alerting.py
+          sparse-checkout-cone-mode: false
+      - name: Check every site and scheduled refresh
+        id: check
+        continue-on-error: true
+        run: python3 tools/check_portfolio.py
+      - name: Open or update the alert
+        if: steps.check.outcome == 'failure'
+        env:
+          FAILURES: ${{ steps.check.outputs.failures }}
+          COUNT: ${{ steps.check.outputs.count }}
+        run: |
+          python3 -m worldscope.alerting raise --key portfolio-health \
+            --title "${COUNT:-some} portfolio site or refresh problem(s)" \
+            --message "${FAILURES:-see the workflow log}" \
+            --url "https://github.com/${GITHUB_REPOSITORY}/actions/workflows/portfolio-health.yml"
+      - name: Close the alert when everything is healthy
+        if: steps.check.outcome == 'success'
+        run: python3 -m worldscope.alerting resolve --key portfolio-health

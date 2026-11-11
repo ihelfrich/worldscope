@@ -348,3 +348,85 @@ def test_auto_merge_never_runs_pull_request_code_or_interpolates_its_fields():
                      if "run:" in line or line.startswith("          "))
     assert "${{ github.event.pull_request" not in runs
     assert "gh workflow run render-briefings.yml" in body
+
+
+# ── portfolio health ─────────────────────────────────────────────────────────
+
+_pspec = importlib.util.spec_from_file_location(
+    "check_portfolio", ROOT / "tools" / "check_portfolio.py")
+cp = importlib.util.module_from_spec(_pspec)
+_pspec.loader.exec_module(cp)
+
+NOW = datetime(2026, 11, 12, 10, 0, tzinfo=timezone.utc)
+PAGE = b"<html>" + b"x" * 1000
+
+
+def _runs(conclusion: str, updated: str) -> bytes:
+    return json.dumps({"workflow_runs": [{"conclusion": conclusion, "updated_at": updated,
+                                          "html_url": "https://example/run"}]}).encode()
+
+
+def test_registry_is_valid_and_lists_each_repo_once():
+    doc = cp.load_registry()
+    repos = [s["repo"] for s in doc["sites"]]
+    assert len(repos) == len(set(repos)) >= 40
+    assert "worldscope" in repos and "ihelfrich.github.io" in repos
+
+
+def test_site_check_retries_transient_errors_but_not_a_404():
+    calls = []
+
+    def flaky(url, headers):
+        calls.append(url)
+        return (502, b"") if len(calls) < 3 else (200, PAGE)
+    assert cp.check_site({"repo": "r", "url": "https://x/"}, flaky, pause=0) is None
+    assert len(calls) == 3
+
+    calls.clear()
+    def gone(url, headers):
+        calls.append(url); return 404, b""
+    assert "HTTP 404" in cp.check_site({"repo": "r", "url": "https://x/"}, gone, pause=0)
+    assert len(calls) == 1
+
+
+def test_an_empty_shell_served_as_200_is_reported():
+    problem = cp.check_site({"repo": "r", "url": "https://x/"}, lambda u, h: (200, b"<html>"),
+                            pause=0)
+    assert problem and "bytes" in problem
+
+
+def test_workflow_check_flags_failure_and_staleness_only():
+    wf = {"file": "refresh.yml", "max_age_days": 3}
+    ok = lambda u, h: (200, _runs("success", "2026-11-11T07:00:00Z"))
+    failed = lambda u, h: (200, _runs("failure", "2026-11-11T07:00:00Z"))
+    stale = lambda u, h: (200, _runs("success", "2026-10-01T07:00:00Z"))
+    never = lambda u, h: (200, b'{"workflow_runs": []}')
+    assert cp.check_workflow("o", "r", wf, NOW, ok) is None
+    assert "last run failure" in cp.check_workflow("o", "r", wf, NOW, failed)
+    assert "has not run for 42 days" in cp.check_workflow("o", "r", wf, NOW, stale)
+    assert "never completed" in cp.check_workflow("o", "r", wf, NOW, never)
+
+
+def test_run_collects_every_problem_across_the_registry():
+    doc = {"owner": "o", "sites": [
+        {"repo": "up", "url": "https://o.github.io/up/"},
+        {"repo": "down", "url": "https://o.github.io/down/"},
+        {"repo": "data", "url": "https://o.github.io/data/",
+         "workflows": [{"file": "refresh.yml", "max_age_days": 3}]}]}
+
+    def fetch(url, headers):
+        if "api.github.com" in url:
+            return 200, _runs("failure", "2026-11-12T07:00:00Z")
+        return (404, b"") if "/down/" in url else (200, PAGE)
+    failures = cp.run(doc, fetch=fetch, now=NOW, pause=0)
+    assert len(failures) == 2
+    assert failures[0].startswith("down: HTTP 404") and failures[1].startswith("data: refresh.yml")
+
+
+def test_portfolio_workflow_raises_and_resolves_one_tracked_alert():
+    body = _read("portfolio-health.yml")
+    assert "alerting raise --key portfolio-health" in body
+    assert "alerting resolve --key portfolio-health" in body
+    assert "issues: write" in body
+    assert "${{ steps.check.outputs.failures }}" not in "\n".join(
+        line for line in body.splitlines() if line.strip().startswith(("python3", "--")))
