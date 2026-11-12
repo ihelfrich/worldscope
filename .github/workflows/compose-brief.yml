@@ -209,7 +209,7 @@ jobs:
             fi
             echo "push rejected on attempt $attempt; rebasing"
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; exit 1; }
+            git rebase --autostash origin/main || { git rebase --abort 2>/dev/null || true; exit 1; }
             sleep $((attempt * 3))
           done
           echo "::error::could not push the brief after 5 attempts"
