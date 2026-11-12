@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError
 
 DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
@@ -53,23 +53,26 @@ class ConflictSection(Section):
         }
         time.sleep(1.0)  # polite throttle
         data = None
+        last = "no response"
         for attempt in range(2):
             try:
                 resp = requests.get(DOC_API, params=params,
                                     headers={"User-Agent": UA}, timeout=25)
                 if resp.status_code == 429:
+                    last = "HTTP 429 (rate limited)"
                     time.sleep(8)
                     continue
                 resp.raise_for_status()
                 data = resp.json()
                 break
-            except Exception:
+            except ValueError as exc:
+                raise UpstreamParseError(f"GDELT DOC returned non-JSON: {exc}") from exc
+            except Exception as exc:
+                last = str(exc)[:160]
                 if attempt == 0:
                     time.sleep(8)
-                else:
-                    return []
-        if not data:
-            return []
+        if data is None:
+            raise UpstreamHTTPError(f"GDELT DOC conflict query failed: {last}")
 
         items: list[dict] = []
         for art in (data.get("articles") or [])[: self.LIMIT]:

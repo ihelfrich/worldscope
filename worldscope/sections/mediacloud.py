@@ -26,7 +26,7 @@ import os
 from typing import Any
 
 from ..lib.watchareas import load_watch_areas
-from . import Section
+from . import MissingCredential, Section, UpstreamAuthError, UpstreamHTTPError
 
 try:
     import mediacloud.api as _mc_api
@@ -46,12 +46,15 @@ class MediaCloudSection(Section):
 
     def pull(self) -> list[dict]:
         api_key = os.environ.get("MEDIACLOUD_API_KEY")
-        if not api_key or _mc_api is None:
-            return []
+        if not api_key:
+            raise MissingCredential("MEDIACLOUD_API_KEY is not set")
+        if _mc_api is None:
+            raise MissingCredential("the 'mediacloud' package is not installed")
         try:
             search = _mc_api.SearchApi(api_key)
-        except Exception:
-            return []
+        except Exception as exc:
+            raise UpstreamHTTPError(f"MediaCloud client init failed: {exc}") from exc
+        queried, ok, errors = 0, 0, []
         areas = load_watch_areas()
         prio_rank = {"high": 0, "normal": 1, "low": 2}
         areas.sort(key=lambda a: prio_rank.get(a.priority, 1))
@@ -67,6 +70,7 @@ class MediaCloudSection(Section):
             if not kws:
                 continue
             query = " OR ".join(f'"{k}"' for k in kws)
+            queried += 1
             try:
                 token: Any = None
                 pulled = 0
@@ -104,7 +108,14 @@ class MediaCloudSection(Section):
                             break
                     if not token:
                         break
-            except Exception:
+                ok += 1
+            except Exception as exc:
+                errors.append(str(exc)[:160])
                 continue
+        if queried and not ok:
+            first = errors[0] if errors else "unknown"
+            if any(w in first.lower() for w in ("401", "403", "unauthor", "forbidden", "token")):
+                raise UpstreamAuthError(f"MediaCloud rejected MEDIACLOUD_API_KEY ({first})")
+            raise UpstreamHTTPError(f"MediaCloud failed for all {queried} watch areas ({first})")
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
         return out
