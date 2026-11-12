@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-12T13:15:00Z",
- "generated_ts": 1794489300,
+ "generated_at": "2026-11-12T21:06:09Z",
+ "generated_ts": 1794517569,
  "days": 7,
  "network": true,
  "layers": [
   {
    "layer": "firms",
    "file": "layers/firms.geojson",
-   "count": 0,
-   "freshest_ts": null,
-   "freshest_at": null,
+   "count": 3,
+   "freshest_ts": 1794442920,
+   "freshest_at": "2026-11-12T00:22:00Z",
    "inputs": [
     "lake:firms",
     "live:eonet"
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 98,
-   "freshest_ts": 1794471448,
-   "freshest_at": "2026-11-12T08:17:28Z",
+   "count": 101,
+   "freshest_ts": 1794513794,
+   "freshest_at": "2026-11-12T20:03:14Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -32,8 +32,8 @@
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
    "count": 1006,
-   "freshest_ts": 1794470046,
-   "freshest_at": "2026-11-12T07:54:06Z",
+   "freshest_ts": 1794484800,
+   "freshest_at": "2026-11-12T12:00:00Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -64,8 +64,8 @@
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
    "count": 111,
-   "freshest_ts": 1794489300,
-   "freshest_at": "2026-11-12T13:15:00Z",
+   "freshest_ts": 1794517569,
+   "freshest_at": "2026-11-12T21:06:09Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 7,
-   "freshest_ts": 1794488940,
-   "freshest_at": "2026-11-12T13:09:00Z",
+   "count": 18,
+   "freshest_ts": 1794517500,
+   "freshest_at": "2026-11-12T21:05:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1794489300,
-   "freshest_at": "2026-11-12T13:15:00Z",
+   "freshest_ts": 1794517569,
+   "freshest_at": "2026-11-12T21:06:09Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 11,
+   "count": 9,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -184,7 +184,7 @@
    "name": "live:eonet",
    "layer": "firms+gdacs",
    "ok": true,
-   "count": 2,
+   "count": 5,
    "error": null,
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 7,
+   "count": 18,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -269,13 +269,13 @@
   }
  ],
  "counts": {
-  "firms": 0,
-  "quakes": 98,
+  "firms": 3,
+  "quakes": 101,
   "gdacs": 1006,
   "conflict": 0,
   "ukraine": 111,
   "flights": 121,
-  "weather_alerts": 7,
+  "weather_alerts": 18,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
