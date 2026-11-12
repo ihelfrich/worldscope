@@ -17,6 +17,8 @@ from worldscope.sections import courtlistener as cl
 
 
 class _FakeResp:
+    status_code = 200  # every real requests.Response carries one
+
     def __init__(self, results):
         self._results = results
 
@@ -40,7 +42,9 @@ def _result(cluster_id, date, name, court):
 class TestCourtListenerSection(unittest.TestCase):
 
     def _run_with_fake(self, fake_get):
-        with mock.patch.object(cl.requests, "get", side_effect=fake_get):
+        # v4 search requires a token; without one pull() raises MissingCredential
+        with mock.patch.dict("os.environ", {"COURTLISTENER_API_TOKEN": "test-token"}), \
+                mock.patch.object(cl.requests, "get", side_effect=fake_get):
             return cl.CourtListenerSection().pull()
 
     def test_state_courts_are_covered(self):

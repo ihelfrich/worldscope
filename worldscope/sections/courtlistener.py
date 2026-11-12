@@ -27,7 +27,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import Section
+from . import MissingCredential, Section, UpstreamAuthError, UpstreamHTTPError
 
 API = "https://www.courtlistener.com/api/rest/v4/search/"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
@@ -126,9 +126,12 @@ class CourtListenerSection(Section):
     PULL_TIMEOUT_S = 90        # section deadline (override base 75: ~65 courts)
 
     def _fetch_court(self, court: str, label: str, jurisdiction: str,
-                     cap: int, headers: dict, start: str) -> list[dict]:
+                     cap: int, headers: dict, start: str) -> tuple[list[dict], str]:
         """Fetch and parse up to `cap` recent opinions for one court.
-        Best-effort: any error returns an empty list for this court."""
+
+        Returns (items, outcome) where outcome is "ok", "auth" (401/403) or
+        "error". One court failing is tolerated; pull() decides whether the
+        failures add up to the whole source being down."""
         try:
             r = requests.get(
                 API,
@@ -141,10 +144,12 @@ class CourtListenerSection(Section):
                 headers=headers,
                 timeout=self.REQUEST_TIMEOUT_S,
             )
+            if r.status_code in (401, 403):
+                return [], "auth"
             r.raise_for_status()
             data = r.json()
         except Exception:
-            return []
+            return [], "error"
         out: list[dict] = []
         for res in (data.get("results") or [])[:cap]:
             rid = res.get("cluster_id") or res.get("id") or 0
@@ -160,10 +165,16 @@ class CourtListenerSection(Section):
                 "court_label": label,
                 "jurisdiction": jurisdiction,
             })
-        return out
+        return out, "ok"
 
     def pull(self) -> list[dict]:
         token = os.environ.get("COURTLISTENER_API_TOKEN")
+        if not token:
+            # v4 search answers 401 to anonymous requests, so without a token
+            # every court "succeeds" with nothing — a silent empty that hid
+            # this source for weeks. Say what is actually wrong.
+            raise MissingCredential("COURTLISTENER_API_TOKEN not set; "
+                                    "CourtListener v4 search requires authentication")
         headers = {"User-Agent": UA, "Accept": "application/json"}
         if token:
             headers["Authorization"] = f"Token {token}"
@@ -174,13 +185,26 @@ class CourtListenerSection(Section):
         jobs += [(c, lbl, "state", self.PER_STATE) for c, lbl in STATE_COURTS.items()]
 
         gathered: list[dict] = []
+        outcomes: dict[str, int] = {"ok": 0, "auth": 0, "error": 0}
         with ThreadPoolExecutor(max_workers=self.MAX_WORKERS) as pool:
             futures = [
                 pool.submit(self._fetch_court, c, lbl, juris, cap, headers, start)
                 for (c, lbl, juris, cap) in jobs
             ]
             for fut in as_completed(futures):
-                gathered.extend(fut.result())
+                items, outcome = fut.result()
+                outcomes[outcome] += 1
+                gathered.extend(items)
+
+        # Some courts failing is normal noise; NONE answering is an outage and
+        # must surface as one instead of an innocuous empty section.
+        if outcomes["ok"] == 0:
+            if outcomes["auth"]:
+                raise UpstreamAuthError(
+                    f"CourtListener rejected the API token for all "
+                    f"{outcomes['auth']} courts (401/403); renew COURTLISTENER_API_TOKEN")
+            raise UpstreamHTTPError(
+                f"CourtListener: all {outcomes['error']} court queries failed")
 
         # Dedupe by cluster id (some cases surface under multiple court ids),
         # then sort by filing date (newest first) and cap.
