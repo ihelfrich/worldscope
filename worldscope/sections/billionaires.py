@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError
 
 API = "https://www.forbes.com/forbesapi/person/rtb/0/-estWorthPrev/true.json"
 UA = "Mozilla/5.0 worldscope/0.1 (Ian Helfrich; ianthelfrich@gmail.com)"
@@ -38,20 +38,27 @@ class BillionairesSection(Section):
 
     TOP_N = 30
     MOVERS_N = 10
+    # Forbes answers 503 to limit=1500 (the ~45 MB response is refused); 200
+    # (~6 MB) is served. Only the top 30 and their day-over-day moves are used.
+    FETCH_LIMIT = 200
 
     def pull(self) -> list[dict]:
         try:
-            resp = requests.get(API, params={"limit": 1500},
+            resp = requests.get(API, params={"limit": self.FETCH_LIMIT},
                                 headers={"User-Agent": UA, "Accept": "application/json"},
                                 timeout=25)
-            resp.raise_for_status()
+        except requests.RequestException as exc:
+            raise UpstreamHTTPError(f"Forbes RTB unreachable: {exc}") from exc
+        if resp.status_code != 200:
+            raise UpstreamHTTPError(f"Forbes RTB answered HTTP {resp.status_code}")
+        try:
             data = resp.json()
-        except Exception:
-            return []
+        except ValueError as exc:
+            raise UpstreamParseError("Forbes RTB returned non-JSON") from exc
 
-        ppl = (data.get("personList") or {}).get("personsLists", [])
+        ppl = ((data or {}).get("personList") or {}).get("personsLists", [])
         if not ppl:
-            return []
+            raise UpstreamParseError("Forbes RTB returned no personsLists")
 
         # Normalize every entry to a dict the section uses
         all_ppl: list[dict] = []

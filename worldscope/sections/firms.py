@@ -31,7 +31,7 @@ from typing import Any
 
 import requests
 
-from . import Section
+from . import MissingCredential, Section, UpstreamAuthError, UpstreamHTTPError
 
 # Bounding boxes: (name, west, south, east, north). FIRMS expects
 # west,south,east,north as the area string.
@@ -73,21 +73,21 @@ class FirmsSection(Section):
     def pull(self) -> list[dict]:
         key = os.environ.get("FIRMS_MAP_KEY")
         if not key:
-            return []
+            raise MissingCredential("FIRMS_MAP_KEY is not set")
         items: list[dict] = []
+        answered, problems = 0, []
         for zone, w, s, e, n in ZONES:
             url = self._zone_url(key, w, s, e, n)
             try:
                 resp = requests.get(url, headers={"User-Agent": UA}, timeout=30)
-                if resp.status_code != 200 or not resp.text.strip():
-                    time.sleep(self.THROTTLE_S)
-                    continue
+                text = resp.text if resp.status_code == 200 else ""
                 # FIRMS returns CSV with header. If quota exceeded or
                 # invalid key, the body is an HTML/text error page.
-                text = resp.text
-                if not text.lstrip().lower().startswith("latitude") and "latitude" not in text[:200].lower():
+                if "latitude" not in text[:200].lower():
+                    problems.append(f"HTTP {resp.status_code}: {(resp.text or '').strip()[:100]}")
                     time.sleep(self.THROTTLE_S)
                     continue
+                answered += 1
                 reader = csv.DictReader(io.StringIO(text))
                 for row in reader:
                     conf = (row.get("confidence") or "").strip().lower()
@@ -117,9 +117,14 @@ class FirmsSection(Section):
                         "satellite": sat,
                         "acq_datetime": f"{acq_date}T{acq_time}Z",
                     })
-            except Exception:
-                pass
+            except Exception as exc:
+                problems.append(str(exc)[:100])
             time.sleep(self.THROTTLE_S)
+        if answered == 0:
+            detail = problems[0] if problems else "no zones queried"
+            if any(w in detail.lower() for w in ("invalid", "map_key", "unauthor", "forbidden")):
+                raise UpstreamAuthError(f"FIRMS rejected FIRMS_MAP_KEY for every zone ({detail})")
+            raise UpstreamHTTPError(f"FIRMS failed for every zone ({detail})")
         # Sort by FRP desc (most intense first), then by zone
         def frp_num(it: dict) -> float:
             try:
