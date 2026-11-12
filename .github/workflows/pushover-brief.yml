@@ -34,6 +34,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: pushover-brief
@@ -83,6 +84,7 @@ jobs:
         env:
           PUSHOVER_USER_KEY:  ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           BRIEF_FILE: ${{ steps.pick.outputs.file }}
           BRIEF_KIND: ${{ steps.pick.outputs.kind }}
           BRIEF_HEADLINE: ${{ steps.pick.outputs.headline }}
@@ -95,7 +97,8 @@ jobs:
             --title "${BRIEF_KIND} brief: ${BRIEF_HEADLINE}" \
             --message-file /tmp/body.txt \
             --url "$BRIEF_URL" \
-            --priority 0
+            --priority 0 \
+            --channel-health-issue pushover-delivery
 
       - name: Commit validated delivery receipt
         if: steps.pick.outputs.file != ''
