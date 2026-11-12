@@ -47,6 +47,8 @@ _JUNK = {
     "friday", "saturday", "sunday", "today", "yesterday",
     "state", "news", "world", "report", "update", "breaking", "live",
     "video", "opinion", "analysis", "exclusive",
+    "pst", "pdt", "mst", "mdt", "cst", "cdt", "est", "edt", "akst", "hst",
+    "utc", "gmt", "am", "pm",  # weather-alert timestamps, not stories
     "man", "woman", "police", "people", "officials", "government", "house",
     "court", "president", "minister", "city", "county",
     "wsj", "nyt", "reuters", "ap", "afp", "bbc", "cnn", "bloomberg", "ft",
