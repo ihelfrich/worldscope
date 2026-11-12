@@ -11,18 +11,18 @@ state: fresh
 
 0 new of 21 total items today.
 
-- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-11-09*
-  > latest: 3.88 as of 2026-11-09
-- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-11-09*
-  > latest: 4.56 as of 2026-11-09
-- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-11-09*
-  > latest: 4.88 as of 2026-11-09
-- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-11-09*
-  > latest: 5.26 as of 2026-11-09
-- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-11-09*
-  > latest: 3.88 as of 2026-11-09
-- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-11-10*
-  > latest: 0.25 as of 2026-11-10
+- [[Rates] Fed Funds Effective Rate (DFF)](https://fred.stlouisfed.org/series/DFF) — *2026-11-11*
+  > latest: 3.88 as of 2026-11-11
+- [[Rates] 2-Year Treasury (DGS2)](https://fred.stlouisfed.org/series/DGS2) — *2026-11-10*
+  > latest: 4.73 as of 2026-11-10
+- [[Rates] 10-Year Treasury (DGS10)](https://fred.stlouisfed.org/series/DGS10) — *2026-11-10*
+  > latest: 4.98 as of 2026-11-10
+- [[Rates] 30-Year Treasury (DGS30)](https://fred.stlouisfed.org/series/DGS30) — *2026-11-10*
+  > latest: 5.35 as of 2026-11-10
+- [[Rates] SOFR (SOFR)](https://fred.stlouisfed.org/series/SOFR) — *2026-11-10*
+  > latest: 3.89 as of 2026-11-10
+- [[Rates] 10y–2y Spread (recession indicator) (T10Y2Y)](https://fred.stlouisfed.org/series/T10Y2Y) — *2026-11-12*
+  > latest: 0.24 as of 2026-11-12
 - [[Inflation] CPI (headline, SA) (CPIAUCSL)](https://fred.stlouisfed.org/series/CPIAUCSL) — *2026-10-01*
   > latest: 337.476 as of 2026-10-01
 - [[Inflation] CPI Core (ex food & energy, SA) (CPILFESL)](https://fred.stlouisfed.org/series/CPILFESL) — *2026-10-01*
@@ -39,8 +39,8 @@ state: fresh
   > latest: 24611.077 as of 2026-07-01
 - [[Growth] Personal consumption (PCE)](https://fred.stlouisfed.org/series/PCE) — *2026-09-01*
   > latest: 22452.8 as of 2026-09-01
-- [[Money] Fed balance sheet (total assets) (WALCL)](https://fred.stlouisfed.org/series/WALCL) — *2026-11-04*
-  > latest: 6748145 as of 2026-11-04
+- [[Money] Fed balance sheet (total assets) (WALCL)](https://fred.stlouisfed.org/series/WALCL) — *2026-11-11*
+  > latest: 6758867 as of 2026-11-11
 - [[Money] M2 money supply (M2SL)](https://fred.stlouisfed.org/series/M2SL) — *2026-09-01*
   > latest: 23413.9 as of 2026-09-01
 - [[FX] EUR/USD (DEXUSEU)](https://fred.stlouisfed.org/series/DEXUSEU) — *2026-11-06*
@@ -51,5 +51,5 @@ state: fresh
   > latest: 6.676 as of 2026-11-06
 - [[Commodities] WTI crude oil (DCOILWTICO)](https://fred.stlouisfed.org/series/DCOILWTICO) — *2026-11-03*
   > latest: 99.64 as of 2026-11-03
-- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-11-10*
-  > latest: 19.46 as of 2026-11-10
+- [[Vol] VIX (S&P 500 implied vol) (VIXCLS)](https://fred.stlouisfed.org/series/VIXCLS) — *2026-11-11*
+  > latest: 17.49 as of 2026-11-11

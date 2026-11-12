@@ -3,77 +3,84 @@ section: tech_news
 title: IT, InfoSys & cybersecurity news (last 7 days)
 date: 2026-11-12
 record_count: 63
-new_today: 35
+new_today: 49
 state: fresh
 ---
 
 ## IT, InfoSys & cybersecurity news (last 7 days)
 
-35 new of 63 total items today.
+49 new of 63 total items today.
 
-- **NEW**  [[The Hacker News] Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories](https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html) — *2026-11-12*
-  > Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.
+- **NEW**  [[BleepingComputer] New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks](https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/) — *2026-11-12*
+  > A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]
+- **NEW**  [[BleepingComputer] Hackers compromise 4,800 GitHub accounts to steal cloud credentials](https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/) — *2026-11-12*
+  > A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]
+- **NEW**  [[BleepingComputer] Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide](https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/) — *2026-11-12*
+  > Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]
+- **NEW**  [[BleepingComputer] New N-able "4EverAble2Shell" zero-day exploited hours after PoC released](https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/) — *2026-11-12*
+  > Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed "4EverAble2Shell" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security u
+- **NEW**  [[BleepingComputer] Apache HTTP Server patches critical HTTP/2 remote code execution flaw](https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/) — *2026-11-12*
+  > A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]
+- **NEW**  [[The Hacker News] Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html) — *2026-11-12*
+  > Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?
 
-The stealer is built to take the secrets and cloud credentials that
-- **NEW**  [[The Hacker News] Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely](https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html) — *2026-11-12*
-  > A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.
+A suspicious login might belong to an employee. An unusual API
+- **NEW**  [[The Hacker News] ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories](https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html) — *2026-11-12*
+  > A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.
 
-Only servers with HTTP/2 enabled are affe
-- **NEW**  [[The Hacker News] ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients](https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html) — *2026-11-12*
-  > ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.
+Attackers are using fake websites, 
+- **NEW**  [[The Hacker News] New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access](https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html) — *2026-11-12*
+  > Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.
 
-In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrast
-- **NEW**  [[The Register] AWS distills its cloud into a local emulator that runs on your PC](https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251) — *2026-11-12*
-  > Hyperscale meets micro-computing by offering APIs to test your apps
-- **NEW**  [[The Register] Disgraced former CA eMudhra blames buggy script for hopelessly weak certificates](https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244) — *2026-11-12*
-  > Couldn’t get the hardware it needed to generate certs, so tried to code a workaround
-- **NEW**  [[The Register] Russian cloud Yandex says drone attacks on its datacenters caused data loss](https://www.theregister.com/off-prem/2026/11/12/russian-cloud-yandex-says-drone-attacks-on-its-datacenters-caused-data-loss/5309234) — *2026-11-12*
-  > Now enables backup by default and hints a little on-prem infra never hurt anyone
-- **NEW**  [[TechCrunch] Who could replace Jensen Huang? A highly unscientific list of possible successors](https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/) — *2026-11-12*
-  > Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.
-- **NEW**  [[Krebs on Security] Who Runs the Ransomware Group Qilin?](https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/) — *2026-11-11*
-  > The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a fe
-- **NEW**  [[BleepingComputer] Baker Tilly notifies clients of data breach at third-party provider](https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/) — *2026-11-11*
-  > The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]
-- **NEW**  [[BleepingComputer] Active ScreenConnect attacks breach MSPs, impact dozens of organizations](https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/) — *2026-11-11*
-  > ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]
-- **NEW**  [[BleepingComputer] eMudhra revokes 8 more CA certificates after private key mishap](https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/) — *2026-11-11*
-  > Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]
-- **NEW**  [[BleepingComputer] Notion says Fireworks breach exposed customer AI chat transcripts](https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/) — *2026-11-11*
-  > Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]
-- **NEW**  [[BleepingComputer] Maersk confirms data breach as WhiteArmor ransomware demands $5 million](https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/) — *2026-11-11*
-  > Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]
-- **NEW**  [[The Hacker News] Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation](https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html) — *2026-11-11*
-  > Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.
+The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys
+- **NEW**  [[The Hacker News] Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry](https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html) — *2026-11-12*
+  > A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.
 
-The vulnerabilities are listed below -
+Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a v
+- **NEW**  [[The Hacker News] Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html) — *2026-11-12*
+  > Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.
 
-
-  CVE-2026-108186 (CVSS score: 9.6) - An improp
-- **NEW**  [[The Hacker News] AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html) — *2026-11-11*
-  > Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.
-
-"In several recently observed i
-- **NEW**  [[The Record] Iran-backed network directed London attacks over FaceTime, US prosecutors say](https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime) — *2026-11-11*
-  > An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.
-- [[The Record] Poland shuts down government services platform ePUAP following cyberattack](https://therecord.media/poland-shuts-down-government-services-platform-cyberattack) — *2026-11-11*
-  > The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.
-- [[The Record] Britain, France set out first guidelines for commercial hacking firms](https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms) — *2026-11-11*
-  > The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.
-- **NEW**  [[Cybersecurity Dive] N-able issues hotfix after researcher dumps PoCs in disclosure spat](https://www.cybersecuritydive.com/news/n-able-hotfix-researcher-pocs-zero-days/874388/) — *2026-11-11*
-  > The company briefly disabled access to its RMM platform after an independent researcher warned of critical flaws.
-- **NEW**  [[Cybersecurity Dive] CISA sets operational priorities for partnerships, risk assessments and systemic action](https://www.cybersecuritydive.com/news/cisa-priorities-memo-risks-partnerships/874381/) — *2026-11-11*
-  > An internal memo from CISA&rsquo;s acting chief instructs senior leaders to keep the new priorities in mind with every choice they make.
-- [[Schneier on Security] Three People Arrested for AI-Enhanced Impersonation Fraud](https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html) — *2026-11-11*
-  > It&#8217;s hard to believe how lucrative this crime can be:
-According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate t
-- **NEW**  [[The Register] US bit barn boom sees energy needs grow 10x as fast as grid capacity](https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191) — *2026-11-11*
-  > Operators face longer connection waits and a growing need to bring their own electricity
-- **NEW**  [[The Register] Scientists check their work and confirm it with update on iconic black hole image](https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183) — *2026-11-11*
-  > And find they were right all along
-- **NEW**  [[Ars Technica] CEO Jensen Huang's job is suddenly on the line at Nvidia](https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/) — *2026-11-11*
-  > The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.
-- **NEW**  [[Ars Technica] T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says](https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/) — *2026-11-11*
-  > Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.
+The critical vulnerabilities that impact NetScaler ADC and NetScaler 
+- **NEW**  [[The Record] Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools](https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted) — *2026-11-12*
+  > The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.
+- **NEW**  [[The Record] United to block customers from using AI agents, citing cyber threats](https://therecord.media/united-airlines-to-block-customers-using-ai-agents) — *2026-11-12*
+  > “Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases" and more, United Airlines said.
+- **NEW**  [[The Record] Shipping giant Maersk says recent cyber incident affected legacy system](https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system) — *2026-11-12*
+  > The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.
+- **NEW**  [[The Record] European authorities take down SteaIC malware servers for second time this year](https://therecord.media/european-authorities-take-down-stealic-malware-second-time) — *2026-11-12*
+  > German authorities on Thursday said investigators traced the rebuilt network to the  Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.
+- **NEW**  [[The Record] ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool) — *2026-11-12*
+  > Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.
+- **NEW**  [[Cybersecurity Dive] AI found widespread IoT vulnerabilities more quickly and cheaply than humans could](https://www.cybersecuritydive.com/news/ai-vulnerabilities-critical-infrastructure-embedded-software/874499/) — *2026-11-12*
+  > The newly discovered vulnerabilities illustrate AI&rsquo;s growing power &mdash; as well as critical infrastructure&rsquo;s continuing weaknesses.
+- **NEW**  [[Schneier on Security] Another Way Police Are Locating People from Their Smartphones](https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html) — *2026-11-12*
+  > Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police.
+The tool collects vast quantities of location data from smartphones via commonly used weather, gaming,
+- **NEW**  [[CISA advisories] Siemens Desigo, Gridscale](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02) — *2026-11-12*
+  > View CSAF
+Summary
+On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as "Node2Shell" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that
+- **NEW**  [[CISA advisories] Siemens RUGGEDCOM APE1808](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05) — *2026-11-12*
+  > View CSAF
+Summary
+Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the work
+- **NEW**  [[CISA advisories] Siemens RUGGEDCOM APE1808](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04) — *2026-11-12*
+  > View CSAF
+Summary
+Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the work
+- **NEW**  [[CISA advisories] Siemens Building Automation and Energy Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01) — *2026-11-12*
+  > View CSAF
+Summary
+On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as "php2shell" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory cove
+- **NEW**  [[CISA advisories] Siemens Industrial Edge Management](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03) — *2026-11-12*
+  > View CSAF
+Summary
+Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is include
+- **NEW**  [[The Register] Microsoft struggling to fix massive cloud outage that's taken down email and Intune](https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531) — *2026-11-12*
+  > ‘Actions taken thus far have not provided the anticipated relief’
+- **NEW**  [[The Register] Google promises its new smart specs won't give creeps their ideal view](https://www.theregister.com/personal-tech/2026/11/12/google-promises-its-new-smart-specs-wont-give-creeps-their-ideal-view/5309497) — *2026-11-12*
+  > 'Intelligent eyewear' has a built-in camera and mic, but there's a recording light to warn you and some stern legalese to discourage abuse
+- **NEW**  [[The Register] A third of US AI chatters are hot at bots, hurling insults at LLMs](https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506) — *2026-11-12*
+  > Anthropic sets behavior standards to protect Claude from rough treatment
 
 _(38 additional items in raw.jsonl)_

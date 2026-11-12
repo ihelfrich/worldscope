@@ -4,7 +4,7 @@ title: Active fires near conflict zones (NASA FIRMS / VIIRS)
 date: 2026-11-12
 record_count: 0
 new_today: 0
-state: fresh_empty
+state: stale_after_failure
 ---
 
 ## Active fires near conflict zones (NASA FIRMS / VIIRS)

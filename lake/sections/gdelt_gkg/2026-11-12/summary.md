@@ -2,14 +2,14 @@
 section: gdelt_gkg
 title: GDELT GKG — themes / entities / watch areas
 date: 2026-11-12
-record_count: 50
-new_today: 50
+record_count: 25
+new_today: 25
 state: fresh
 ---
 
 ## GDELT GKG — themes / entities / watch areas
 
-50 new of 50 total items today.
+25 new of 25 total items today.
 
 - **NEW**  [[Israel-Iran-Hezbollah axis · keywords] UN Security Council to meet on  situation in the Middle East  ](https://news.webindia123.com/news/Articles/World/20261112/4518644.html) — *2026-11-12*
   > news.webindia123.com · English · tone NA
@@ -61,5 +61,3 @@ state: fresh
   > jpost.com · English · tone NA
 - **NEW**  [[Israel-Iran-Hezbollah axis · keywords] France expels Israeli representative of illegal settlements upon arrival in Paris – Ya Libnan](https://yalibnan.com/2026/11/12/france-expels-israeli-representative-of-illegal-settlements-upon-arrival-in-paris/) — *2026-11-12*
   > yalibnan.com · English · tone NA
-
-_(25 additional items in raw.jsonl)_

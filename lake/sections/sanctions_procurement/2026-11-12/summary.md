@@ -2,14 +2,14 @@
 section: sanctions_procurement
 title: Government Action: Sanctions + Procurement + Foreign Agents
 date: 2026-11-12
-record_count: 97
-new_today: 11
+record_count: 99
+new_today: 12
 state: fresh
 ---
 
 ## Government Action: Sanctions + Procurement + Foreign Agents
 
-11 new of 97 total items today.
+12 new of 99 total items today.
 
 - [[OFAC] Iran Designation Update - Office of Foreign Assets Control (.gov)](https://ofac.treasury.gov) — *2026-11-09*
   > <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wRUNDb3V2UFFyQ3l1NV9kR3pYRjFQU3hQUTdURXF3NlFGWnlfV3lYeU9TUGs5MjZPa2RBUnNPeGlUX21CU2Raa3VKN0lfc2JOcWtaczk0Q3E0LUVJb2c?oc=5" target="_blank">Iran Designation Update</a>&nbsp;&nbsp;<font color="#6f6f6f">Office of Foreign A
@@ -23,6 +23,8 @@ state: fresh
   > Page content hash: d94820520592. Compare with prior day's hash to detect updates.
 - [[FARA] National Security Division | Former Assistant Attorney General John A. Eisenberg - Department of Justice (.gov)](https://www.justice.gov) — *2026-11-09*
   > <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNcENhRk9fa1JJb0NROF91eFdobXdrRHQ5NzZwc0drZlEzdXowOVN3ODY5QWJMeXMzTXpaaldwUGlrRGZIRnRPa3h1R1hDUVZmbEkyM01wUnZfQjFEWHl1b3dBd2d4bjI4dk9VY2xHaU9WZzJBWTBUMzA0YkY5Z2djYzZXSnQwN2w0UlhDNU1saVg1ejZlYXJj?oc=5" target="_blank">Nat
+- **NEW**  [[FARA] DOJ Privacy Impact Assessments - Department of Justice (.gov)](https://www.justice.gov) — *2026-11-10*
+  > <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE4tZUNNM0c2MGJYRWY3U21MUEk3d3pEZUs4VGF1dTVoclNCQThSeEtWS3Fia2g4LVhQSnJweFBzYVI3RUFyT2JhV0xod1d4aXRvNXhISk5hZjEyTHNnU0lMc1lVam9iNWdrdkZR?oc=5" target="_blank">DOJ Privacy Impact Assessments</a>&nbsp;&nbsp;<font color="#6f6
 - **NEW**  [[USASpending] $44,093,914,875 → NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL ](https://www.usaspending.gov/award/DENA0003525) — *2026-11-12*
   > Agency: Department of Energy.  Description: IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERING SOLUTIONS OF SANDIA, LLC (NTESS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY, NATIONAL NUCLEAR SECURITY ADMINISTRATION'S SANDIA NATIONAL
 - [[USASpending] $31,223,517,819 → BATTELLE MEMORIAL INSTITUTE: BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               ](https://www.usaspending.gov/award/DEAC0576RL01830) — *2026-11-12*
@@ -59,7 +61,5 @@ state: fresh
   > Agency: Department of Veterans Affairs.  Description: BENEFITS TRANSFORMATION PLATFORM
 - **NEW**  [[USASpending] $449,655,716 → CACI, INC. - FEDERAL: EXECUTE TASK ORDER FOR COMMERCIAL BASED TECHNOLOGY ANALYSIS ](https://www.usaspending.gov/award/47QFCA19F0050) — *2026-11-12*
   > Agency: General Services Administration.  Description: EXECUTE TASK ORDER FOR COMMERCIAL BASED TECHNOLOGY ANALYSIS (CBTA.
-- **NEW**  [[USASpending] $398,925,093 → LEIDOS BIOMEDICAL RESEARCH INC: NCI FY25 OPERATIONAL TASK ORDER](https://www.usaspending.gov/award/75N91024F00011) — *2026-11-12*
-  > Agency: Department of Health and Human Services.  Description: NCI FY25 OPERATIONAL TASK ORDER
 
-_(72 additional items in raw.jsonl)_
+_(74 additional items in raw.jsonl)_

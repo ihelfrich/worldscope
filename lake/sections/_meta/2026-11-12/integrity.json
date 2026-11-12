@@ -1,39 +1,39 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T07:56:42Z",
-  "summary": "Data integrity \u00b7 30/42 sections fresh \u00b7 4 failing (acled, gdelt_regions, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 4 stale \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
+  "generated_at": "2026-11-12T23:56:59Z",
+  "summary": "Data integrity \u00b7 34/42 sections fresh \u00b7 4 failing (acled, conflict, promed, reliefweb) \u00b7 2 awaiting credentials (firms, mediacloud) \u00b7 2 skipped. All published data is drawn from the lake; gaps are shown, not hidden.",
   "sections": [
     {
       "section_id": "acled",
       "status": "FAILED",
-      "reason": "last pull failed (204\u00d7): UpstreamAuthError: ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (chec",
+      "reason": "last pull failed (205\u00d7): UpstreamAuthError: ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (chec",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 204
+      "consecutive_failures": 205
     },
     {
-      "section_id": "gdelt_regions",
+      "section_id": "conflict",
       "status": "FAILED",
-      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT returned nothing for any country (rate-limited / blocked)",
-      "last_record_date": "2026-11-11",
+      "reason": "last pull failed (1\u00d7): UpstreamHTTPError: GDELT DOC conflict query failed: HTTP 429 (rate limited)",
+      "last_record_date": "2026-11-12",
       "today_count": 0,
       "consecutive_failures": 1
     },
     {
       "section_id": "promed",
       "status": "FAILED",
-      "reason": "last pull failed (204\u00d7): FeedRetired: ProMED no longer publishes a public RSS/JSON feed (legacy feed https://promedmail.org/promed-posts/?cat=fee",
+      "reason": "last pull failed (205\u00d7): FeedRetired: ProMED no longer publishes a public RSS/JSON feed (legacy feed https://promedmail.org/promed-posts/?cat=fee",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 204
+      "consecutive_failures": 205
     },
     {
       "section_id": "reliefweb",
       "status": "FAILED",
-      "reason": "last pull failed (204\u00d7): UpstreamAuthError: ReliefWeb rejected appname 'helfrich-worldscope-7k3q' (403): You are not using an approved appname. K",
+      "reason": "last pull failed (205\u00d7): UpstreamAuthError: ReliefWeb rejected appname 'helfrich-worldscope-7k3q' (403): You are not using an approved appname. K",
       "last_record_date": "2026-06-02",
       "today_count": 0,
-      "consecutive_failures": 204
+      "consecutive_failures": 205
     },
     {
       "section_id": "firms",
@@ -41,7 +41,7 @@
       "reason": "required credential not set: FIRMS_MAP_KEY",
       "last_record_date": "2026-11-12",
       "today_count": 0,
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "section_id": "mediacloud",
@@ -49,39 +49,7 @@
       "reason": "required credential not set: MEDIACLOUD_API_KEY",
       "last_record_date": "2026-11-12",
       "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "billionaires",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-11-12 (0d)",
-      "last_record_date": "2026-11-12",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "conflict",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-11-12 (0d)",
-      "last_record_date": "2026-11-12",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "courtlistener",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-11-12 (0d)",
-      "last_record_date": "2026-11-12",
-      "today_count": 0,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "wikidata_changes",
-      "status": "STALE",
-      "reason": "no data today; last good 2026-11-12 (0d)",
-      "last_record_date": "2026-11-12",
-      "today_count": 0,
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     {
       "section_id": "people",
@@ -100,11 +68,19 @@
       "consecutive_failures": 0
     },
     {
+      "section_id": "billionaires",
+      "status": "FRESH",
+      "reason": "30 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 30,
+      "consecutive_failures": 0
+    },
+    {
       "section_id": "chinese_internal",
       "status": "FRESH",
-      "reason": "174 records today",
+      "reason": "309 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 174,
+      "today_count": 309,
       "consecutive_failures": 0
     },
     {
@@ -118,9 +94,9 @@
     {
       "section_id": "commentary",
       "status": "FRESH",
-      "reason": "1 records today",
+      "reason": "4 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 1,
+      "today_count": 4,
       "consecutive_failures": 0
     },
     {
@@ -129,6 +105,14 @@
       "reason": "1 records today",
       "last_record_date": "2026-11-12",
       "today_count": 1,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "courtlistener",
+      "status": "FRESH",
+      "reason": "21 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 21,
       "consecutive_failures": 0
     },
     {
@@ -158,57 +142,65 @@
     {
       "section_id": "forecasts",
       "status": "FRESH",
+      "reason": "35 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 35,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "foreign_news",
+      "status": "FRESH",
+      "reason": "1081 records today",
+      "last_record_date": "2027-03-22",
+      "today_count": 1081,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "form4",
+      "status": "FRESH",
       "reason": "20 records today",
       "last_record_date": "2026-11-12",
       "today_count": 20,
       "consecutive_failures": 0
     },
     {
-      "section_id": "foreign_news",
-      "status": "FRESH",
-      "reason": "524 records today",
-      "last_record_date": "2027-03-22",
-      "today_count": 524,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "form4",
-      "status": "FRESH",
-      "reason": "40 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 40,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "gdacs",
       "status": "FRESH",
-      "reason": "3 records today",
+      "reason": "10 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 3,
+      "today_count": 10,
       "consecutive_failures": 0
     },
     {
       "section_id": "gdelt_gkg",
       "status": "FRESH",
-      "reason": "50 records today",
+      "reason": "75 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 50,
+      "today_count": 75,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "gdelt_regions",
+      "status": "FRESH",
+      "reason": "6 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 6,
       "consecutive_failures": 0
     },
     {
       "section_id": "local_news",
       "status": "FRESH",
-      "reason": "59 records today",
+      "reason": "255 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 59,
+      "today_count": 255,
       "consecutive_failures": 0
     },
     {
       "section_id": "macro",
       "status": "FRESH",
-      "reason": "21 records today",
+      "reason": "1 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 21,
+      "today_count": 1,
       "consecutive_failures": 0
     },
     {
@@ -238,9 +230,9 @@
     {
       "section_id": "paper_bets",
       "status": "FRESH",
-      "reason": "71 records today",
+      "reason": "83 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 71,
+      "today_count": 83,
       "consecutive_failures": 0
     },
     {
@@ -254,9 +246,9 @@
     {
       "section_id": "russian_internal",
       "status": "FRESH",
-      "reason": "449 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 449,
+      "reason": "914 records today",
+      "last_record_date": "2026-11-13",
+      "today_count": 914,
       "consecutive_failures": 0
     },
     {
@@ -270,65 +262,65 @@
     {
       "section_id": "state_bills",
       "status": "FRESH",
+      "reason": "29 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 29,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "state_news",
+      "status": "FRESH",
+      "reason": "390 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 390,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "tech_news",
+      "status": "FRESH",
+      "reason": "51 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 51,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "ukraine_theater",
+      "status": "FRESH",
+      "reason": "72 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 72,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "ukrainian_internal",
+      "status": "FRESH",
+      "reason": "102 records today",
+      "last_record_date": "2026-11-13",
+      "today_count": 102,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "usgs_quakes",
+      "status": "FRESH",
       "reason": "10 records today",
       "last_record_date": "2026-11-12",
       "today_count": 10,
       "consecutive_failures": 0
     },
     {
-      "section_id": "state_news",
-      "status": "FRESH",
-      "reason": "49 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 49,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "tech_news",
-      "status": "FRESH",
-      "reason": "7 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 7,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "ukraine_theater",
-      "status": "FRESH",
-      "reason": "6 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 6,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "ukrainian_internal",
-      "status": "FRESH",
-      "reason": "41 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 41,
-      "consecutive_failures": 0
-    },
-    {
-      "section_id": "usgs_quakes",
-      "status": "FRESH",
-      "reason": "3 records today",
-      "last_record_date": "2026-11-12",
-      "today_count": 3,
-      "consecutive_failures": 0
-    },
-    {
       "section_id": "vip_flights",
       "status": "FRESH",
-      "reason": "14 records today",
+      "reason": "29 records today",
       "last_record_date": "2026-11-12",
-      "today_count": 14,
+      "today_count": 29,
       "consecutive_failures": 0
     },
     {
       "section_id": "weather",
       "status": "FRESH",
-      "reason": "32 records today",
-      "last_record_date": "2026-11-13",
-      "today_count": 32,
+      "reason": "148 records today",
+      "last_record_date": "2026-11-14",
+      "today_count": 148,
       "consecutive_failures": 0
     },
     {
@@ -337,6 +329,14 @@
       "reason": "40 records today",
       "last_record_date": "2026-11-12",
       "today_count": 40,
+      "consecutive_failures": 0
+    },
+    {
+      "section_id": "wikidata_changes",
+      "status": "FRESH",
+      "reason": "28 records today",
+      "last_record_date": "2026-11-12",
+      "today_count": 28,
       "consecutive_failures": 0
     }
   ]

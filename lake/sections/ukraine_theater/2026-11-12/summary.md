@@ -15,8 +15,6 @@ state: fresh
   > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-11-12*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
-- [[acled exception] UpstreamAuthError]() — *2026-11-12*
-  > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
 - **NEW**  [[Liveuamap] Explosions were reported near the Omsk oil refinery – Omsk Oblast, Russia - Liveuamap](https://liveuamap.com) — *2026-11-11*
   > <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPRjlHemdkSmVKa09iN1ZsRmc0QzBwb3Y0ZFQxV1ZBUy1BaERkQnEzTXhuREMwYUFhamhsRjFmbUhUVWh0Sms4bzlaYWthN01WYno3UHZyQ0tJeUFLT2hFZjhJdm9iSFVOcHNXeVZzVVF3WWxHc1E5WDdOd1IwRjk1NUNNZHdLMWstN0JQVzFoYnQ?oc=5" target="_blank">Explosions w
 - **NEW**  [[Liveuamap] Egypt&039;s foreign minister… – Cairo, Egypt - Liveuamap](https://yemen.liveuamap.com) — *2026-11-11*
@@ -61,5 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQk4zalUzWllDS2IzV2Y3NmlfakpYbEhNeHE3YWZuNk9kblhiaGZyWlZzbms1UUJWbWZFUGZ0RUhnS2plUDdkS0pNNXNrX1A0aFhKUFlVUmZ5dVBISVktZmpubHIwR3NUbHFRQ1o0c0RaYjZ0WEYxQl8xOE9KNmxiLUlRVXhyMnFUWHMtWm0xOG1faGJuSkFmS283eDAzX3pyQndadUJsR1doTW
 - **NEW**  [[Liveuamap] Confirming earlier… – Tehran, Tehran Province - Liveuamap](https://iran.liveuamap.com) — *2026-11-11*
   > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnZjSVJYZ21NTXkzZTcyR19LNlV6NHd6c09VdU1Sb1BUaFRFQnpsTHhQSzBlLTM2clB5cWZsTTk3NkoySW5LTUc3TXNkS0tvZTRQUkE3RkF2N05OdVptM21BbzBlYXJUbWpiQkFvMG1XMXNHbFhtazFKT3Vpem11T25SdkhMcHNYaGVvYWF1aTJIeE9uRkc4Rg?oc=5" target="_blank">C
+- **NEW**  [[Liveuamap] An investigation is underway in Northwest Miami-Dade on Monday after a person was stabbed, deputies said - Liveuamap](https://florida.liveuamap.com) — *2026-11-09*
+  > <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZHhoMzdUN3ljOE1YUDVaaWJ4OEhmWWNaSHdyeTdZRFk4bnRRZlZDY3hpSWxidi1UN3BuSE03TkFvd0VyYjViRzdkd1h5Y2Nra0ZIZUNwd2JMVkl1WmdhaXRoSllDR2xhS1VpUUVoRG5hcHZFYnBaZWlMNWlKd2dBSW9mbEhpYWo0VldhWEtfUkdSdVFZb0FwYjU0dU5DTHhKdFFhemg1NDlRdw
 
 _(239 additional items in raw.jsonl)_

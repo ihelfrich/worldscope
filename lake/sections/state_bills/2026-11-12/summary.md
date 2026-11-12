@@ -2,15 +2,51 @@
 section: state_bills
 title: State Legislative Action
 date: 2026-11-12
-record_count: 178
-new_today: 60
+record_count: 122
+new_today: 20
 state: fresh
 ---
 
 ## State Legislative Action
 
-60 new of 178 total items today.
+20 new of 122 total items today.
 
+- [[Alaska HB 234] An Act relating to emergency medical dispatchers; classifying dispatchers in police or fire departments and in state trooper offices as peace officers under the public employees' retirement system; and providing for an effective date.]() — *2026-11-12*
+  > An Act relating to emergency medical dispatchers; classifying dispatchers in police or fire departments and in state trooper offices as peace officers under the public employees' retirement system; and providing for an effective date.
+- **NEW**  [[Alaska HB 289] An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.]() — *2026-11-12*
+  > An Act making appropriations, including supplemental appropriations, capital appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; and providing for an effective date.
+- **NEW**  [[Alaska SB 83] An Act relating to health care insurance; relating to insurance reimbursement for health care services provided through telehealth; relating to telehealth; providing for an effective date by repealing the effective date of secs. 9 and 10, ch. 38, SLA 2022; and providing for an effecti]() — *2026-11-12*
+  > An Act relating to health care insurance; relating to insurance reimbursement for health care services provided through telehealth; relating to telehealth; providing for an effective date by repealing the effective date of secs. 9 and 10, ch. 38, SLA 2022; and providing for an ef
+- **NEW**  [[Alaska HB 211] An Act relating to prepaid legal plans.]() — *2026-11-12*
+  > An Act relating to prepaid legal plans.
+- **NEW**  [[Alaska HB 350] An Act establishing an income tax on certain entities in the state; and providing for an effective date.]() — *2026-11-12*
+  > An Act establishing an income tax on certain entities in the state; and providing for an effective date.
+- **NEW**  [[Alaska HB 316] An Act adjusting for inflation the limit for damages for losses that may be awarded for a personal injury or wrongful death.]() — *2026-11-12*
+  > An Act adjusting for inflation the limit for damages for losses that may be awarded for a personal injury or wrongful death.
+- [[Alaska SB 214] An Act making appropriations, including capital appropriations, supplemental appropriations, and reappropriations; making appropriations to capitalize funds; amending appropriations; and providing for an effective date.]() — *2026-11-12*
+  > An Act making appropriations, including capital appropriations, supplemental appropriations, and reappropriations; making appropriations to capitalize funds; amending appropriations; and providing for an effective date.
+- **NEW**  [[Alaska HB 324] An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; and relating to unfair trade or deceptive acts or practices.]() — *2026-11-12*
+  > An Act relating to virtual currency kiosks; relating to transactions involving virtual currency; and relating to unfair trade or deceptive acts or practices.
+- **NEW**  [[Alaska SB 89] An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certain he]() — *2026-11-12*
+  > An Act relating to physician assistants; relating to collaborative agreements between physicians and physician assistants; relating to the practice of medicine; relating to health care providers; and relating to provisions regarding physician assistants in contracts between certa
+- **NEW**  [[Alaska HB 155] An Act relating to alcohol; relating to local option elections; relating to the statewide database of alcohol purchases; relating to alcohol licenses, endorsements, and permits; relating to municipal regulation and taxation of alcoholic beverages; and providing for an effective date.]() — *2026-11-12*
+  > An Act relating to alcohol; relating to local option elections; relating to the statewide database of alcohol purchases; relating to alcohol licenses, endorsements, and permits; relating to municipal regulation and taxation of alcoholic beverages; and providing for an effective d
+- **NEW**  [[Alaska HB 302] An Act relating to travel insurance; relating to the business of insurance; relating to exceptions to prohibited rebates; relating to the powers of the director of the division of insurance; relating to prohibited practices in the advertisement of insurance; relating to unemployment ]() — *2026-11-12*
+  > An Act relating to travel insurance; relating to the business of insurance; relating to exceptions to prohibited rebates; relating to the powers of the director of the division of insurance; relating to prohibited practices in the advertisement of insurance; relating to unemploym
+- **NEW**  [[Alaska HB 305] An Act relating to compensation of transportation network company drivers.]() — *2026-11-12*
+  > An Act relating to compensation of transportation network company drivers.
+- **NEW**  [[Alaska SB 213] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska]() — *2026-11-12*
+  > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Al
+- **NEW**  [[Alaska SB 277] An Act relating to education; relating to charter school budgets; relating to correspondence study program materials, funding, and student counts; relating to student transportation funding; relating to cooperative arrangements for correspondence study program services entered into b]() — *2026-11-12*
+  > An Act relating to education; relating to charter school budgets; relating to correspondence study program materials, funding, and student counts; relating to student transportation funding; relating to cooperative arrangements for correspondence study program services entered in
+- **NEW**  [[Alaska HB 329] An Act relating to certificates of fitness for employees of an electric utility.]() — *2026-11-12*
+  > An Act relating to certificates of fitness for employees of an electric utility.
+- **NEW**  [[Alaska HB 244] An Act relating to certified nurse aide training; and providing for an effective date.]() — *2026-11-12*
+  > An Act relating to certified nurse aide training; and providing for an effective date.
+- **NEW**  [[Alaska HB 381] An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline Deve]() — *2026-11-12*
+  > An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline 
+- **NEW**  [[Alaska SB 215] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-11-12*
+  > An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.
 - **NEW**  [[Alaska HB 263] An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.]() — *2026-11-12*
   > An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making supplemental appropriations; and providing for an effective date.
 - **NEW**  [[Alaska HB 265] An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date.]() — *2026-11-12*
@@ -25,41 +61,5 @@ state: fresh
   > An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.
 - [[Alaska SB 180] An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.]() — *2026-11-11*
   > An Act relating to the development of the Susitna River power project by the Alaska Energy Authority; relating to the regulation of liquefied natural gas import facilities by the Regulatory Commission of Alaska; and providing for an effective date.
-- [[Alaska SB 137] An Act extending the termination date of the Board of Certified Direct-Entry Midwives; extending the termination date of the Board of Nursing; extending the termination date of the Board of Veterinary Examiners; extending the termination date of the Board of Parole; and providing for]() — *2026-11-11*
-  > An Act extending the termination date of the Board of Certified Direct-Entry Midwives; extending the termination date of the Board of Nursing; extending the termination date of the Board of Veterinary Examiners; extending the termination date of the Board of Parole; and providing
-- [[Alaska HB 334] An Act relating to the issuance of certified copies of birth certificates to unhoused young adults; and relating to the issuance of identification cards to unhoused young adults.]() — *2026-11-11*
-  > An Act relating to the issuance of certified copies of birth certificates to unhoused young adults; and relating to the issuance of identification cards to unhoused young adults.
-- [[Alaska SB 50] An Act relating to the comprehensive plans of first and second class boroughs.]() — *2026-11-11*
-  > An Act relating to the comprehensive plans of first and second class boroughs.
-- [[Alaska SB 237] An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for an ef]() — *2026-11-11*
-  > An Act relating to the powers of the commissioner of administration with respect to motor vehicles; relating to electronic identification cards; relating to data sharing by the Department of Administration; relating to electronic driver's licenses and permits; and providing for a
-- [[Alaska SB 80] An Act extending the termination date of the Big Game Commercial Services Board; extending the termination date of the Board of Massage Therapists; extending the termination date of the Alaska Commission on Aging; extending the termination date of the Marijuana Control Board; and prov]() — *2026-11-11*
-  > An Act extending the termination date of the Big Game Commercial Services Board; extending the termination date of the Board of Massage Therapists; extending the termination date of the Alaska Commission on Aging; extending the termination date of the Marijuana Control Board; and
-- [[Alaska SB 54] An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to t]() — *2026-11-11*
-  > An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating
-- [[Alaska HB 234] An Act relating to emergency medical dispatchers; classifying dispatchers in police or fire departments and in state trooper offices as peace officers under the public employees' retirement system; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to emergency medical dispatchers; classifying dispatchers in police or fire departments and in state trooper offices as peace officers under the public employees' retirement system; and providing for an effective date.
-- [[Alaska SB 214] An Act making appropriations, including capital appropriations, supplemental appropriations, and reappropriations; making appropriations to capitalize funds; amending appropriations; and providing for an effective date.]() — *2026-11-11*
-  > An Act making appropriations, including capital appropriations, supplemental appropriations, and reappropriations; making appropriations to capitalize funds; amending appropriations; and providing for an effective date.
-- [[Alaska SB 15] An Act relating to the sale of alcohol; relating to the posting of warning signs for alcoholic beverages; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to the sale of alcohol; relating to the posting of warning signs for alcoholic beverages; and providing for an effective date.
-- [[Alaska SB 79] An Act relating to wage payments; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to wage payments; and providing for an effective date.
-- [[Alaska HB 162] An Act relating to the diagnosis, maintenance, and repair of products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to the diagnosis, maintenance, and repair of products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.
-- [[Alaska SJR 10] Encouraging the United States Congress to award Hmong veterans of the Vietnam War the Congressional Gold Medal.]() — *2026-11-11*
-  > Encouraging the United States Congress to award Hmong veterans of the Vietnam War the Congressional Gold Medal.
-- [[Alaska HB 217] An Act relating to commercial motor vehicle licensing examinations; regulating autonomous vehicles; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to commercial motor vehicle licensing examinations; regulating autonomous vehicles; and providing for an effective date.
-- [[Alaska HB 153] An Act relating to generation of electricity from renewable energy resources; relating to a renewable portfolio standard; relating to power cost equalization; and providing for an effective date.]() — *2026-11-11*
-  > An Act relating to generation of electricity from renewable energy resources; relating to a renewable portfolio standard; relating to power cost equalization; and providing for an effective date.
-- [[Alaska HB 130] An Act relating to flexible time credit for classified employees in the executive branch who are not eligible for overtime compensation.]() — *2026-11-10*
-  > An Act relating to flexible time credit for classified employees in the executive branch who are not eligible for overtime compensation.
-- [[Alaska HB 290] An Act relating to delivery of resolutions by the governor.]() — *2026-11-10*
-  > An Act relating to delivery of resolutions by the governor.
-- [[Alaska HB 250] An Act establishing the crime of wearing a mask in public while acting as a peace officer; and providing for an effective date.]() — *2026-11-10*
-  > An Act establishing the crime of wearing a mask in public while acting as a peace officer; and providing for an effective date.
-- [[Alaska HB 278] An Act establishing the Alaska-Ireland Trade Commission; and providing for an effective date.]() — *2026-11-10*
-  > An Act establishing the Alaska-Ireland Trade Commission; and providing for an effective date.
 
-_(153 additional items in raw.jsonl)_
+_(97 additional items in raw.jsonl)_

@@ -3,13 +3,13 @@ section: fec
 title: Campaign finance (FEC: top fundraisers + recent filings)
 date: 2026-11-12
 record_count: 27
-new_today: 0
+new_today: 10
 state: fresh
 ---
 
 ## Campaign finance (FEC: top fundraisers + recent filings)
 
-0 new of 27 total items today.
+10 new of 27 total items today.
 
 - [[Top] TALARICO, JAMES (DEM, Senate TX): $146.35M raised](https://www.fec.gov/data/candidate/S6TX00479/) — *2026-11-12*
   > cycle 2026 receipts $146.35M · disbursements $136.43M · net $+9.92M
@@ -35,31 +35,31 @@ state: fresh
   > cycle 2026 receipts $26.87M · disbursements $25.28M · net $+1.60M
 - [[Top] TRONE, DAVID (DEM, House MD): $26.22M raised](https://www.fec.gov/data/candidate/H6MD08549/) — *2026-11-12*
   > cycle 2026 receipts $26.22M · disbursements $25.00M · net $+1.21M
-- [[F1] WE STAND WITH DAN SUPER PAC](https://docquery.fec.gov/pdf/809/202611099945359809/202611099945359809.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046856
-- [[F3] MICHAEL FARRELL FOR UTAH](https://docquery.fec.gov/pdf/045/202611099945358045/202611099945358045.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046802 · receipts $0.00M
-- [[F2] SMITH, D. ADAM](https://docquery.fec.gov/pdf/815/202611099945359815/202611099945359815.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046858
-- [[F3X] WE STAND WITH DAN SUPER PAC](https://docquery.fec.gov/pdf/822/202611099945359822/202611099945359822.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046861 · receipts $0.05M
-- [[F1] BUILDING RELATIONSHIPS IN DIVERSE GEOGRAPHIC ENVIRONMENTS PAC (BRIDGE ](https://docquery.fec.gov/pdf/884/202611099945359884/202611099945359884.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046870
-- [[F1] MOOR FOR SENATE](https://docquery.fec.gov/pdf/612/202611099945358612/202611099945358612.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046829
-- [[F99] CAMPBELL 4 CONGRESS 2026](https://docquery.fec.gov/pdf/249/202611090300367249/202611090300367249.pdf) — *2026-11-09*
+- **NEW**  [[F99] CORY STEELE FOR PRESIDENT](https://docquery.fec.gov/pdf/959/202611119945370959/202611119945370959.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047176
+- **NEW**  [[F99] NEVADA COUNTY REPUBLICAN PARTY](https://docquery.fec.gov/pdf/319/202611119945370319/202611119945370319.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047148
+- **NEW**  [[F2] CAMPBELL, CHRISTOPHER TODD MR](https://docquery.fec.gov/pdf/976/202611119945370976/202611119945370976.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047189
+- [[FRQ] ROLLING SEA ACTION FUND](https://docquery.fec.gov/pdf/404/202611110300367404/202611110300367404.pdf) — *2026-11-11*
   > cycle 2026 · filing #
-- [[F99] JENNIFER KONFRST FOR CONGRESS](https://docquery.fec.gov/pdf/093/202611099945358093/202611099945358093.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046812
-- [[F1] FIRMENT VICTORY FUND](https://docquery.fec.gov/pdf/726/202611099945359726/202611099945359726.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046844
-- [[F1] HOUSE SENATE LEGAL FUND](https://docquery.fec.gov/pdf/650/202611099945358650/202611099945358650.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046837
-- [[F99] NICK BAKER FOR CONGRESS INC](https://docquery.fec.gov/pdf/263/202611090300367263/202611090300367263.pdf) — *2026-11-09*
+- **NEW**  [[F99] CORY STEELE FOR PRESIDENT](https://docquery.fec.gov/pdf/949/202611119945368949/202611119945368949.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047119
+- [[FRQ] NASSAU COUNTY REPUBLICAN COMMITTEE (FEDERAL ACCOUNT)](https://docquery.fec.gov/pdf/312/202611110300367312/202611110300367312.pdf) — *2026-11-11*
   > cycle 2026 · filing #
-- [[F6] STEPHEN LYNCH FOR CONGRESS](https://docquery.fec.gov/pdf/917/202611099945359917/202611099945359917.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046873
-- [[F2] HUIZENGA, WILLIAM P](https://docquery.fec.gov/pdf/113/202611099945358113/202611099945358113.pdf) — *2026-11-09*
-  > cycle 2026 · filing #2046818
+- [[FRQ] DEMOCRATIC PARTY OF GUAM](https://docquery.fec.gov/pdf/411/202611110300367411/202611110300367411.pdf) — *2026-11-11*
+  > cycle 2026 · filing #
+- **NEW**  [[F1] TYRONE BROWN FOR CONGRESS](https://docquery.fec.gov/pdf/192/202611119945369192/202611119945369192.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047143
+- **NEW**  [[F99] CORY STEELE FOR PRESIDENT](https://docquery.fec.gov/pdf/953/202611119945370953/202611119945370953.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047170
+- **NEW**  [[F99] CORY STEELE FOR PRESIDENT](https://docquery.fec.gov/pdf/986/202611119945370986/202611119945370986.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047196
+- **NEW**  [[F3X] EYEPAC POLITICAL ACTION COMMITTEE FOR AMERICAN SOCIETY OF CATARACT AND](https://docquery.fec.gov/pdf/589/202611119945370589/202611119945370589.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047165 · receipts $0.00M
+- **NEW**  [[F2] ELMORE, ROBERT WILLIAM JR](https://docquery.fec.gov/pdf/936/202611119945368936/202611119945368936.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047110
+- **NEW**  [[F99] CORY STEELE FOR PRESIDENT](https://docquery.fec.gov/pdf/980/202611119945370980/202611119945370980.pdf) — *2026-11-11*
+  > cycle 2026 · filing #2047193
 
 _(2 additional items in raw.jsonl)_

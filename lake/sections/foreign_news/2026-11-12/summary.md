@@ -2,39 +2,39 @@
 section: foreign_news
 title: International News + Multilateral Institutions
 date: 2026-11-12
-record_count: 990
-new_today: 684
+record_count: 1062
+new_today: 866
 state: fresh
 ---
 
 ## International News + Multilateral Institutions
 
-684 new of 990 total items today.
+866 new of 1062 total items today.
 
+- **NEW**  [[Global] Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story](https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story) — *2026-11-12*
 - [[Global] Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities](https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities) — *2026-11-10*
 - **NEW**  [[Global] Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies](https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil) — *2026-11-11*
 - **NEW**  [[Global] Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina](https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina) — *2026-11-11*
 - **NEW**  [[Global] Argentinian lawyer mocks UK’s sovereignty claim in Falklands oil case](https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case) — *2026-11-11*
 - [[Global] Killing of journalist underscores deteriorating conditions in Ecuador](https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing) — *2026-11-11*
 - [[Global] Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK](https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts) — *2026-11-10*
+- **NEW**  [[Global] China rules out hosting Cop33 climate summit in 2028](https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028) — *2026-11-12*
 - **NEW**  [[Global] Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair](https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair) — *2026-11-12*
 - [[Global] Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment](https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia) — *2026-11-11*
 - [[Global] US and rest of world must follow China’s lead on green energy, says John Kerry](https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31) — *2026-11-10*
-- **NEW**  [[Global] Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI](https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai) — *2026-11-12*
-- **NEW**  [[Global] Teenager in critical condition after likely ‘train surfing’ on Sydney Harbour Bridge, police say](https://www.theguardian.com/australia-news/2026/nov/12/teenager-in-critical-condition-after-likely-train-surfing-on-sydney-harbour-bridge-police-say) — *2026-11-12*
-- **NEW**  [[Global] Beau Lamarre-Condon says he was diagnosed with cancer by naturopath but doesn’t recall which one, trial hears](https://www.theguardian.com/australia-news/2026/nov/12/beau-lamarre-condon-jesse-baird-phone-murder-trial-ntwnfb) — *2026-11-12*
-- **NEW**  [[Global] ‘He is never leaving the house again’: mother reunites with son missing for six days in Victorian bushland](https://www.theguardian.com/australia-news/2026/nov/12/missing-teenager-walhalla-found-alive-australian-bush) — *2026-11-12*
-- **NEW**  [[Global] Human torso found in sofa in Sydney bushland prompts homicide investigation](https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb) — *2026-11-12*
-- **NEW**  [[Global] ‘The world we know is over’ without urgent climate action, leaders tell Cop31](https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31) — *2026-11-11*
-- **NEW**  [[Global] Millions join Spain’s first general strike in 14 years in protest at housing costs](https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs) — *2026-11-11*
-- **NEW**  [[Global] Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace](https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace) — *2026-11-11*
-- **NEW**  [[Global] US envoys to meet Putin and Zelenskyy separately - as it happened](https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates) — *2026-11-11*
-- **NEW**  [[Global] Is the US blue wave a turning point for Europe, too?](https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too) — *2026-11-11*
-- **NEW**  [[Global] Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems](https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems) — *2026-11-12*
-- **NEW**  [[Global] Trump planning new military assault or tighter sanctions, say Iranian officials](https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials) — *2026-11-11*
-- [[Global] Woman in Saudi Arabia sentenced to 100 lashes for giving birth outside marriage](https://www.theguardian.com/global-development/2026/nov/11/woman-in-saudi-arabia-sentenced-to-100-lashes-for-giving-birth-outside-marriage) — *2026-11-11*
-- [[Global] US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base](https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats) — *2026-11-11*
-- [[Global] Thousands without shelter face lethal conditions in storm-hit Gaza as they wait for 150,000 tents](https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood) — *2026-11-11*
-- [[Global] Disgraced former leader Sheikh Hasina plans return to Bangladesh from exile](https://www.theguardian.com/world/2026/nov/10/disgraced-former-leader-sheikh-hasina-plans-return-to-bangladesh-after-two-years-in-exile) — *2026-11-10*
+- **NEW**  [[Global] Pat Cummins press conference live updates: Australian cricket captain speaks about Usman Khawaja’s ‘sandpapergate’ claims](https://www.theguardian.com/sport/live/2026/nov/13/pat-cummins-press-conference-usman-khawaja-sandpapergate-australia-cricket-captain-statement-ntwnfb) — *2026-11-12*
+- **NEW**  [[Global] Icac’s dirt files expose NSW’s ‘guns for hire’ problem. But neither major party is serious about lobbying reform](https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb) — *2026-11-12*
+- **NEW**  [[Global] Global Microsoft outage affects Outlook and Teams as company says fixes not providing ‘anticipated relief’](https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports) — *2026-11-12*
+- **NEW**  [[Global] What’s behind Australia’s surge in teen extremism?](https://www.theguardian.com/australia-news/2026/nov/13/australia-surge-in-teen-extremism-ntwnfb) — *2026-11-12*
+- **NEW**  [[Global] NSW’s latest news Instagram account has an unlikely group behind it: the Labor party](https://www.theguardian.com/australia-news/2026/nov/13/nsw-newsroom-instagram-account-labor-party) — *2026-11-12*
+- **NEW**  [[Global] Putin takes hard line in US talks as Ukraine says Starlink disrupted again](https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink) — *2026-11-12*
+- **NEW**  [[Global] ‘Win-win’ deal with EU could be done, Andy Burnham says](https://www.theguardian.com/politics/2026/nov/12/win-win-deal-with-eu-could-be-done-andy-burmham-says) — *2026-11-12*
+- **NEW**  [[Global] Norway follows Finland in barring Russian athletes from entering country over Ukraine war](https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine) — *2026-11-12*
+- **NEW**  [[Global] New talks with Russia, Ukraine and European countries agreed, US says - as it happened](https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates) — *2026-11-12*
+- **NEW**  [[Global] The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit](https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit) — *2026-11-12*
+- **NEW**  [[Global] Two men found guilty of helping Iran try to ‘eliminate’ UK-based journalists](https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists) — *2026-11-12*
+- **NEW**  [[Global] Lewis Hamilton says ‘Israel’s genocide in Gaza is appalling’ after Rafah visit](https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel) — *2026-11-12*
+- **NEW**  [[Global] NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary](https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary) — *2026-11-12*
+- **NEW**  [[Global] Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others](https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon) — *2026-11-12*
 
-_(965 additional items in raw.jsonl)_
+_(1037 additional items in raw.jsonl)_

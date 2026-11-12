@@ -2,15 +2,23 @@
 section: local_news
 title: Local News: St. Louis + Atlanta
 date: 2026-11-12
-record_count: 265
-new_today: 201
+record_count: 305
+new_today: 271
 state: fresh
 ---
 
 ## Local News: St. Louis + Atlanta
 
-201 new of 265 total items today.
+271 new of 305 total items today.
 
+- **NEW**  [[St. Louis] In Sugar Creek Valley, a contemporary house rises up among the trees](https://www.stlmag.com/design/in-sugar-creek-valley-a-contemporary-house-rises-up-among-the-trees/) — *2026-11-12*
+  > <p>How do you design a home when the house itself is a work of art?  Thoughtfully and deliberately.&#160; Two years ago, when Tiffany Shell and Doug Eilert moved into their new house in Kirkwood, they had a vision for how they would approach its design. It just took some time to 
+- **NEW**  [[St. Louis] Truman Kennedy and the Grassy Knolls bring the bluegrass in ‘Live! At the Legendary White Water Tavern’](https://www.stlmag.com/culture/music/truman-kennedy-and-the-grassy-knolls-bring-the-bluegrass-in-live-at-the-legendary-white-water-tavern/) — *2026-11-12*
+  > <p>St. Louis-based Americana artist Truman Kennedy and his band, the Grassy Knolls, joined by Adam Faucett, are bringing their signature bluegrass sound to the Venice Café on November 18 to celebrate the release of their new live EP, Live! At the Legendary White Water Tavern.&#16
+- **NEW**  [[St. Louis] Adam Pearson’s annual quest: Helping St. Louisans survive the winter’s cold](https://www.stlmag.com/news/adam-pearson-code-blue-homeless-services/) — *2026-11-12*
+  > <p>For years, the City of St. Louis seemed caught off guard by winter. It wasn’t just the lack of urgency around snow plows (although that was certainly striking to anyone moving from a colder climate). It was also that seemingly every winter, people froze to death because the ci
+- **NEW**  [[St. Louis] Autonomous railcar company Intramotev taps Gabe Angieri for new strategy role](https://www.stlmag.com/business/autonomous-railcar-startup-intramotev-taps-gabe-angieri-for-new-strategy-role/) — *2026-11-12*
+  > <p>Gabe Angieri, the outgoing executive director of Arch Grants, has a new job. Starting in January, he’s set to become the new head of growth and strategy for the local autonomous railcar startup, Intramotev. It’s a bit of a full-circle moment for Angieri, as he’s joining one of
 - **NEW**  [[St. Louis] Where in Clayton 11/12/2026](https://www.stlmag.com/games/where-in-clayton-111226/) — *2026-11-12*
   > <p>Let&#8217;s see how well you know Clayton. Put a pin on the map based on where you think the photograph above was taken; the closer you are, the more points you earn. Enter your email to begin, and click &#8220;lock in my guess&#8221; once you&#8217;re ready to see the answer 
 - **NEW**  [[St. Louis] Where in the Lou – 11/12/2026](https://www.stlmag.com/games/where-in-the-lou-111226/) — *2026-11-12*
@@ -23,43 +31,35 @@ state: fresh
   > <p>The eight-level Famous Barr parking garage is—for better or worse—among the most recognizable structures in downtown St. Louis. A &#8220;fusilli-like spiral of concrete&#8221; was how one local writer once described it. It resembles an extremely low rent version of one half of
 - **NEW**  [[St. Louis] The Sports Bra opens in Maplewood November 13](https://www.stlmag.com/dining/the-sports-bra-st-louis/) — *2026-11-11*
   > <p>On November 13, the first sports bar dedicated exclusively to women’s sports will open its first franchise location in St. Louis. As reported by SLM earlier this year, St. Louis is one of several U.S. cities chosen to open a franchise location of The Sports Bra. Founded in Por
-- **NEW**  [[St. Louis] St. Louis filmmaker Jackie Kelly’s debut feature, ‘Hag,’ returns to play at SLIFF](https://www.stlmag.com/culture/st-louis-filmmaker-jackie-kellys-debut-feature-hag-returns-to-play-at-sliff/) — *2026-11-11*
-  > <p>After premiering at Hysteria Fest in July, local filmmaker Jackie Kelly’s debut feature, Hag, is returning to play at the St. Louis International Film Festival on Saturday, November 14, at 10 p.m. at the Hi-Pointe Theatre. The film stars Kelly as a sex worker who, upon turning
-- [[St. Louis] A home in Centralia, Illinois hits the market](https://www.stlmag.com/design/property/1114-s-perrine-avenue-centralia/) — *2026-11-11*
-  > <p>Rich HistoryIn 1955, architect William Bernoudy designed this home for the editor and publisher of the Centralia Sentinel. Two additions, one in 1998 and the other in 2000, expanded the living space while maintaining the home’s historic character. Thoughtful ArchitectureThe ho
-- [[St. Louis] TerraWatt vs. TERRAWATT embroils St. Louis data center developer in trademark dispute](https://www.stlmag.com/news/terrawatt-vs-terrawatt-trademark-dispute/) — *2026-11-11*
-  > <p>So many new companies want into the data center development game that there apparently aren’t enough company names to go around. The company behind the proposed data center adjacent to The Armory in St. Louis, TerraWatt, is duking it out with another data center developer, TER
-- [[St. Louis] Invest STL’s program to keep Black wealth in North City helped some people stay](https://www.stlmag.com/news/invest-stl-rooted-urban-institute/) — *2026-11-11*
-  > <p>Researchers with the Urban Institute say that a program that ran for three years—giving select Black St. Louisans north of Delmar Boulevard money to invest in their homes or businesses—was an “innovative tool to counter displacement risk,” and found that a marked number of peo
-- **NEW**  [[St. Louis] Missouri's hemp crackdown moves gummies to dispensaries and gives shoppers a say over their data](https://www.ksdk.com/article/news/local/marijuana/missouris-hemp-crackdown-house-bill-2641-moves-gummies-to-dispensaries-and-gives-shoppers-a-say-over-their-data/63-88865a2e-e6b9-45c1-a17c-b9f42ee7332f) — *2026-11-12*
-  > Starting Thursday, Missouri limits sales of many intoxicating hemp products to licensed dispensaries and requires written consent for identifying customer records.
-- **NEW**  [[St. Louis] Frankie Muniz hospitalized after Daytona event practice crash](https://www.ksdk.com/article/news/nation-world/frankie-muniz-hospitalized-daytona-event-practice-crash/507-75a7db45-82df-4c60-af35-d8d86e77290f) — *2026-11-12*
-  > NASCAR driver and actor Frankie Muniz was taken to the hospital after a crash at Daytona International Speedway on Wednesday.
-- **NEW**  [[St. Louis] Man killed, infant hospitalized in Cahokia Heights shooting](https://www.ksdk.com/article/news/crime/man-toddler-shot-inside-car-cahokia-heights/63-f86c0c47-8c75-4c1b-8173-c344cb782cfa) — *2026-11-12*
-  > Police said an infant and a man were in a vehicle when they were struck by gunfire.
-- **NEW**  [[St. Louis] St. Louis Public Schools financial woes uncertain following partial restructuring approval](https://www.ksdk.com/article/news/education/st-louis-public-schools-financial-woes-uncertain-following-partial-restructuring-approval/63-3ff28bb0-ab23-4719-b36b-a92f6b11cae9) — *2026-11-12*
-  > Nine schools will close or be repurposed next year, but tabled votes leave the district's true financial future and projected savings uncertain.
-- **NEW**  [[St. Louis] What we know about Susan Watford, the mother of 3 killed aboard a cruise ship](https://www.ksdk.com/article/news/nation-world/susan-watford-killed-cruise-ship-texas/507-14ebc63b-d0e1-43ac-85a3-84241698bbb3) — *2026-11-12*
-  > Susan Watford's family said they warned her against going on a cruise with her husband, who is now suspected in her murder.
-- **NEW**  [[St. Louis] Father of South Carolina baby who was rescued after being buried alive is charged with attempted murder](https://www.ksdk.com/article/news/nation-world/south-carolina-baby-buried-alive-father-charged-attempted-murder/507-520cdec0-faa1-4ccf-8229-34e010a41244) — *2026-11-12*
-  > The father of an 11-month-old boy who was rescued after being buried alive in a dog crate has been charged with attempted murder in South Carolina.
-- **NEW**  [[St. Louis] I-64 reopens after downed power lines caused closure near Clarkson Road](https://www.ksdk.com/article/traffic/downed-power-lines-close-i-64-in-both-directions-near-clarkson-road/63-cb997359-27c1-44a4-a1d1-f4e66d3b87cb) — *2026-11-12*
-  > Downed power lines shut down I-64 in both directions near Clarkson Road in Chesterfield Wednesday evening. Ameren reported more than 500 customers without power.
-- **NEW**  [[St. Louis] 5 years of fighting climate change haven't done much and stronger targets are needed, report says](https://www.ksdk.com/article/news/nation-world/fighting-climate-change-stronger-targets-needed-report-says/507-bbcfc284-d453-46b4-ba31-c7d882d0a6f4) — *2026-11-12*
-  > A report says the world has failed to slow or stop global warming trends in the past five years because plans weren’t realized and efforts were canceled.
-- **NEW**  [[St. Louis] The historic SS United States, once the fastest ship in the world, is sunk to create an artificial reef](https://www.ksdk.com/article/news/nation-world/ss-united-states-artificial-reef/507-a02af648-720f-4812-b1b1-5d97d300ebb2) — *2026-11-12*
-  > The S.S. United States was sunk Wednesday off the coast of Florida, creating the world's largest artificial reef for the marine life there.
-- **NEW**  [[St. Louis] Actor and stand-up comic Anthony Clark, star of 2000s sitcom 'Yes, Dear,' dies at 62](https://www.ksdk.com/article/news/nation-world/actor-anthony-clark-dies-yes-dear/507-dba64787-891b-466b-862d-4a55c62a5a56) — *2026-11-12*
-  > Actor Anthony Clark has died at age 62, said his "Yes, Dear" co-star Mike O'Malley.
-- **NEW**  [[St. Louis] Data center shows it paid $16K for a license. A St. Louis report put the cost at $200](https://www.ksdk.com/article/news/community/data-centers/data-center-shows-it-paid-16k-for-a-license-a-st-louis-report-put-the-cost-at-200/63-eeb00133-b19b-4ef6-a54e-5f13443672f5) — *2026-11-12*
-  > St. Louis records contradict two claims in a report that Board of Aldermen President Megan Green used to make the case for a new fee on data centers.
-- **NEW**  [[St. Louis] Firefighters dig through rubble after NYC building collapse kills 2 and traps people in wreckage](https://www.ksdk.com/article/news/nation-world/new-york-building-collapse/507-e6b7c99c-6441-4c19-988d-e64d8ab9de46) — *2026-11-12*
-  > A building in Brooklyn has collapsed, and the fire department says people are trapped in the rubble. The NYFD says at least two people were killed.
-- **NEW**  [[St. Louis] United blocks AI agents from booking flights for customers](https://www.ksdk.com/article/news/nation-world/united-ai-agents-blocked-booking-systems-flights/507-77415d11-2322-4590-8789-5eaac986892a) — *2026-11-12*
-  > United says it will block personal AI assistants from its app and website and from booking through travel agencies, citing data security and federal rules.
-- **NEW**  [[St. Louis] Measles herd immunity slipping across the US, doctors warn as cases climb](https://www.ksdk.com/article/news/health/measles-herd-immunity-slipping-across-the-us-doctors-warn-as-cases-climb/63-74520bab-b58b-4dd5-88aa-2ae189f524f9) — *2026-11-12*
-  > Measles cases have topped 5,000 in the U.S. this year, with cases in Missouri and Illinois. Doctors explain who’s at risk and why to call before going in.
-- [[St. Louis] 2-year-old killed in south St. Louis house fire](https://www.ksdk.com/article/news/local/2-year-old-killed-south-st-louis-house-fire/63-a2555859-3041-49db-9ac2-20435031b92d) — *2026-11-12*
-  > Fire Chief Dennis Jenkerson said the house had no electricity, and people inside were using candles and a small heater to stay warm.
+- **NEW**  [[St. Louis] Judge sides with Midtown data center developer over St. Louis' energy requirement](https://www.stltoday.com/news/local/government-politics/article_482b3b29-eae5-4a35-964e-20475aa1f85e.html) — *2026-11-12*
+  > The developer behind the proposed $3.1 billion Midtown data center near the historic Armory will not have to follow additional renewable energy requirements set a St. Louis board after a court ruling issued Thursday.
+- **NEW**  [[St. Louis] NEW YORK-BUILDING/](https://www.stltoday.com/image_8400bac7-35fb-5ce3-971a-15e871a3031c.html) — *2026-11-12*
+  > A search dog and a police officer work at the scene of a partial building collapse Wednesday in New York.
+- **NEW**  [[St. Louis] After suffering concussion in Open Cup final, Burki thinks he can be back in full training soon](https://www.stltoday.com/sports/professional/mls/city-sc/article_dbc8a065-b928-49b6-9f33-e2bb35b67576.html) — *2026-11-12*
+  > Roman Burki suffered a concussion in the Open Cup final and says he's feeling fine and thinks he can be integrated into team training soon
+- **NEW**  [[St. Louis] Youngest pair of Cy Young winners in 41 years shows future of pitching has arrived](https://www.stltoday.com/sports/professional/mlb/article_643e7dd2-1f49-5c39-89d4-e9d5b38cbee5.html) — *2026-11-12*
+  > They embraced the modern ethos of pitching from the moment they turned professional. And now Jacob Misiorowski and Cam Schlittler have proven the future of pitching has arrived.
+- **NEW**  [[St. Louis] BrucePhoto.jpg](https://www.stltoday.com/image_a1feb645-9af4-4bdd-8dfd-2c0c47e86f9f.html) — *2026-11-12*
+  > My 1991 Toyota MR-2 was great fun until it wasn’t!
+- **NEW**  [[St. Louis] Photos: Tracking deplorable conditions at the Northen VIllage apartments](https://www.stltoday.com/news/multimedia/pictures/collection_bab9f5db-19f6-4f8c-a869-3d337e1696cd.html) — *2026-11-12*
+  > Tracking deplorable conditions at the Northern Village apartment complex in St. Louis County
+- **NEW**  [[St. Louis] Exler, Troy](https://www.stltoday.com/obituaries/image_5dc869d5-a30c-5952-8ec8-730132fe4b17.html) — *2026-11-12*
+  > Exler, Troy
+- **NEW**  [[St. Louis] Exler, Troy](https://www.stltoday.com/obituaries/article_39534fab-7ab1-50ea-8f2f-237f05926418.html) — *2026-11-12*
+  > Fish feared him. They can rest easy with the passing of Troy James Exler, 58, of Arnold, Missouri. He was pronounced deceased on November 5, 2026.
+- **NEW**  [[St. Louis] McBride, Janet](https://www.stltoday.com/obituaries/article_40d482df-8722-53d3-a47f-66643fe0e467.html) — *2026-11-12*
+  > McBride, Janet
+- **NEW**  [[St. Louis] Siemer, Patricia](https://www.stltoday.com/obituaries/image_b0666e78-5156-5a65-9bbb-28b2ec5d180d.html) — *2026-11-12*
+  > Siemer, Patricia
+- **NEW**  [[St. Louis] Costco recalls whipped cream in 12 states over possible cleaning chemical contamination](https://www.ksdk.com/article/news/nation-world/costco-kirkland-whipped-cream-recalled-cleaning-chemical-contamination/507-2092d1d9-934c-498a-a459-67438355d14b) — *2026-11-12*
+  > Costco is recalling one batch of Kirkland Signature Real Heavy Whipped Cream because the product may contain a small amount of a cleaning chemical.
+- **NEW**  [[St. Louis] 2 students, teacher injured in stabbing at Black Hawk Middle School, student in custody](https://www.ksdk.com/article/news/crime/large-police-presence-responds-blackhawk-middle-school-1-person-in-custody-warrenton-missouri/63-84fdfff9-4962-4201-8bb7-51ce529e5717) — *2026-11-12*
+  > The Warrenton Police Department said the student was flown to Children's Hospital for treatment. Police said a suspect is in custody.
+- **NEW**  [[St. Louis] Is Microsoft Outlook down? Some service starting to be restored after hourslong outage](https://www.ksdk.com/article/news/nation-world/is-microsoft-outlook-down-issues-reported-thursday/507-c4b3db9a-24e9-4c76-a414-28aa084c18f8) — *2026-11-12*
+  > Microsoft said some service is being restored after an hourslong outage impacting Outlook and Microsoft 365 apps.
+- **NEW**  [[St. Louis] Cargo ship strikes bridge between New Jersey and Philadelphia, lawmaker says, causing major backups](https://www.ksdk.com/article/news/nation-world/tacony-bridge-cargo-ship-strikes-new-jersey-pennsylvania/507-cd2f5c1b-106a-413a-9eae-ffe1cc5454a2) — *2026-11-12*
+  > A cargo ship struck a bridge across the Delaware River on Thursday, disrupting traffic between New Jersey and Philadelphia.
+- **NEW**  [[St. Louis] 4 wounded, 1 killed in DC mass shooting; suspect dead](https://www.ksdk.com/article/news/nation-world/washington-dc-shooting-logan-circle-capital/507-cba74c75-2a6d-4801-bce3-80f69af17cb6) — *2026-11-12*
+  > Five people were shot, one fatally, on Thursday in a Washington, D.C., neighborhood within walking distance of the White House, police said.
 
-_(240 additional items in raw.jsonl)_
+_(280 additional items in raw.jsonl)_

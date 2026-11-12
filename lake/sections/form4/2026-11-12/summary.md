@@ -3,63 +3,63 @@ section: form4
 title: SEC Form 4 insider transactions (recent)
 date: 2026-11-12
 record_count: 40
-new_today: 0
+new_today: 40
 state: fresh
 ---
 
 ## SEC Form 4 insider transactions (recent)
 
-0 new of 40 total items today.
+40 new of 40 total items today.
 
-- [[LanzaTech Global, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1843724/000119312526456010/0001193125-26-456010-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:59 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001193125-26-456010 Size: 6 KB
-- [[KHOSLA VINOD] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1032453/000119312526456010/0001193125-26-456010-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:59 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001193125-26-456010 Size: 6 KB
-- [[Hoge Brett Widney] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1966393/000149315226051085/0001493152-26-051085-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:56 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001493152-26-051085 Size: 4 KB
-- [[Newton Golf Company, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1934245/000149315226051085/0001493152-26-051085-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:56 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001493152-26-051085 Size: 4 KB
-- [[Hanson Michael J.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2075834/000121390026118235/0001213900-26-118235-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001213900-26-118235 Size: 6 KB
-- [[Critical Metals Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1951089/000121390026118235/0001213900-26-118235-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001213900-26-118235 Size: 6 KB
-- [[Sage Antony William Paul] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2119453/000121390026118234/0001213900-26-118234-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001213900-26-118234 Size: 23 KB
-- [[Critical Metals Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1951089/000121390026118234/0001213900-26-118234-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001213900-26-118234 Size: 23 KB
-- [[Zhernov Mykhailo] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2075518/000121390026118233/0001213900-26-118233-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001213900-26-118233 Size: 19 KB
-- [[Critical Metals Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1951089/000121390026118233/0001213900-26-118233-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:49 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001213900-26-118233 Size: 19 KB
-- [[Day Malcolm Raymond] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2076781/000121390026118232/0001213900-26-118232-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:48 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001213900-26-118232 Size: 23 KB
-- [[Critical Metals Corp.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1951089/000121390026118232/0001213900-26-118232-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:48 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001213900-26-118232 Size: 23 KB
-- [[REH Advisors Inc.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2027139/000119312526456002/0001193125-26-456002-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:47 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001193125-26-456002 Size: 7 KB
-- [[HF Sinclair Corp] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1915657/000119312526456002/0001193125-26-456002-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:47 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001193125-26-456002 Size: 7 KB
-- [[KIRBY J SCOTT] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1249555/000010051726000203/0000100517-26-000203-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0000100517-26-000203 Size: 7 KB
-- [[United Airlines Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/100517/000010051726000203/0000100517-26-000203-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0000100517-26-000203 Size: 7 KB
-- [[Nocella Andrew P] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1314824/000010051726000202/0000100517-26-000202-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0000100517-26-000202 Size: 4 KB
-- [[United Airlines Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/100517/000010051726000202/0000100517-26-000202-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0000100517-26-000202 Size: 4 KB
-- [[Leskinen Michael D.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1994659/000010051726000201/0000100517-26-000201-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0000100517-26-000201 Size: 6 KB
-- [[United Airlines Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/100517/000010051726000201/0000100517-26-000201-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0000100517-26-000201 Size: 6 KB
-- [[Gebo Kate] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1724931/000010051726000200/0000100517-26-000200-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0000100517-26-000200 Size: 10 KB
-- [[United Airlines Holdings, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/100517/000010051726000200/0000100517-26-000200-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:45 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0000100517-26-000200 Size: 10 KB
-- [[CP BF Lending, LLC] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1911119/000191111926000004/0001911119-26-000004-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:28 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0001911119-26-000004 Size: 6 KB
-- [[Parabolic Technologies, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1826011/000191111926000004/0001911119-26-000004-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:28 UTC · role: Issuer — Filed: 2026-11-10 AccNo: 0001911119-26-000004 Size: 6 KB
-- [[Ileri Firat] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2087908/000207084926000086/0002070849-26-000086-index.htm) — *2026-11-11*
-  > filed 2026-11-11 02:07 UTC · role: Reporting — Filed: 2026-11-10 AccNo: 0002070849-26-000086 Size: 4 KB
+- **NEW**  [[Liang Charles] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1392942/000139294226000018/0001392942-26-000018-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:44 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001392942-26-000018 Size: 16 KB
+- **NEW**  [[Super Micro Computer, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1375365/000139294226000018/0001392942-26-000018-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:44 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0001392942-26-000018 Size: 16 KB
+- **NEW**  [[Chaudhuri Sarbani] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2064940/000114036126043480/0001140361-26-043480-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:44 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001140361-26-043480 Size: 5 KB
+- **NEW**  [[ROCKET PHARMACEUTICALS, INC.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1281895/000114036126043480/0001140361-26-043480-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:44 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0001140361-26-043480 Size: 5 KB
+- **NEW**  [[Anderson Aaron] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1645073/000095010326017401/0000950103-26-017401-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:43 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0000950103-26-017401 Size: 9 KB
+- **NEW**  [[Meta Platforms, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1326801/000095010326017401/0000950103-26-017401-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:43 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0000950103-26-017401 Size: 9 KB
+- **NEW**  [[Kim Vyacheslav] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2029485/000119312526458888/0001193125-26-458888-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:43 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001193125-26-458888 Size: 28 KB
+- **NEW**  [[Joint Stock Co Kaspi.kz] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1985487/000119312526458888/0001193125-26-458888-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:43 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0001193125-26-458888 Size: 28 KB
+- **NEW**  [[Olivan Javier] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1564475/000095010326017398/0000950103-26-017398-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:40 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0000950103-26-017398 Size: 12 KB
+- **NEW**  [[Meta Platforms, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1326801/000095010326017398/0000950103-26-017398-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:40 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0000950103-26-017398 Size: 12 KB
+- **NEW**  [[Grant James Jason] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2113903/000211390326000004/0002113903-26-000004-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:39 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0002113903-26-000004 Size: 6 KB
+- **NEW**  [[AZUL SA] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1432364/000211390326000004/0002113903-26-000004-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:39 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0002113903-26-000004 Size: 6 KB
+- **NEW**  [[CHEW LEWIS] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1224994/000081367226000127/0000813672-26-000127-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:37 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0000813672-26-000127 Size: 6 KB
+- **NEW**  [[CADENCE DESIGN SYSTEMS INC] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000127/0000813672-26-000127-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:37 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0000813672-26-000127 Size: 6 KB
+- **NEW**  [[BIDZOS D JAMES] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1204816/000120481626000062/0001204816-26-000062-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:35 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001204816-26-000062 Size: 14 KB
+- **NEW**  [[VERISIGN INC/CA] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1014473/000120481626000062/0001204816-26-000062-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:35 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0001204816-26-000062 Size: 14 KB
+- **NEW**  [[Schlacks Jabbok] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2091677/000095010326017397/0000950103-26-017397-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:34 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0000950103-26-017397 Size: 7 KB
+- **NEW**  [[EquipmentShare.com Inc] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1693736/000095010326017397/0000950103-26-017397-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:34 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0000950103-26-017397 Size: 7 KB
+- **NEW**  [[Berho Carranza Diego] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2118015/000211801526000009/0002118015-26-000009-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:33 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0002118015-26-000009 Size: 8 KB
+- **NEW**  [[Vesta Real Estate Corporation, S.A.B. de C.V.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1969373/000211801526000009/0002118015-26-000009-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:33 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0002118015-26-000009 Size: 8 KB
+- **NEW**  [[Zinman Jon] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2001886/000200188626000004/0002001886-26-000004-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:33 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0002001886-26-000004 Size: 6 KB
+- **NEW**  [[AZUL SA] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1432364/000200188626000004/0002001886-26-000004-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:33 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0002001886-26-000004 Size: 6 KB
+- **NEW**  [[Melton Christopher D.] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/2142966/000107997326001481/0001079973-26-001481-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:30 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001079973-26-001481 Size: 8 KB
+- **NEW**  [[Feel The World, Inc.] Form 4 (Issuer)](https://www.sec.gov/Archives/edgar/data/1690455/000107997326001481/0001079973-26-001481-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:30 UTC · role: Issuer — Filed: 2026-11-12 AccNo: 0001079973-26-001481 Size: 8 KB
+- **NEW**  [[Sawicki Mark W] Form 4 (Reporting)](https://www.sec.gov/Archives/edgar/data/1848218/000110465926126370/0001104659-26-126370-index.htm) — *2026-11-12*
+  > filed 2026-11-12 23:30 UTC · role: Reporting — Filed: 2026-11-12 AccNo: 0001104659-26-126370 Size: 5 KB
 
 _(15 additional items in raw.jsonl)_
