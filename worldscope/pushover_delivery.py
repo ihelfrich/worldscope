@@ -299,6 +299,10 @@ def main(argv: list[str] | None = None) -> int:
         "--fallback-issue", metavar="KEY", default="",
         help="also record the alert as a tracked GitHub issue under this key; "
              "the step then succeeds if either channel accepted it")
+    parser.add_argument(
+        "--channel-health-issue", metavar="KEY", default="",
+        help="track the Pushover channel itself under this issue key: open it "
+             "(with a diagnosis) when delivery fails, close it on success")
     args = parser.parse_args(argv)
     if bool(args.brief) != bool(args.sent_file):
         parser.error("--brief and --sent-file must be supplied together")
@@ -316,15 +320,80 @@ def main(argv: list[str] | None = None) -> int:
         request_id = send_and_record(brief=args.brief, sent_file=args.sent_file,
                                      **common) if args.brief else deliver(**common)
     except PushoverDeliveryError as exc:
-        if issue_ok:
-            # The alert is on record and GitHub notifies the owner, so the
+        health_ok = _channel_health(args.channel_health_issue, str(exc)) \
+            if args.channel_health_issue else False
+        if issue_ok or health_ok:
+            # The failure is on record and GitHub notifies the owner, so the
             # step is not a failure; the dead phone channel is still named.
-            print(f"::warning::Pushover did not deliver ({exc}); alert recorded as a GitHub issue")
+            print(f"::warning::Pushover did not deliver ({exc}): {diagnose(str(exc))}")
             return 0
-        print(f"::error::{exc}")
+        print(f"::error::{exc} — {diagnose(str(exc))}")
         return 1
+    if args.channel_health_issue:
+        _channel_health(args.channel_health_issue, None)
     print(f"Pushover accepted request {request_id}")
     return 0
+
+
+# Known Pushover failures, mapped to what the owner must actually do. The raw
+# API text ("no active devices to send to") reads like a transient error but
+# means the phone channel is dead until a human acts — so say that plainly.
+_DIAGNOSES = (
+    ("no active devices",
+     "Your Pushover account has no active device, so nothing reaches your "
+     "phone. Open the Pushover app on your phone and sign in again (or "
+     "re-enable the device under Your Devices at pushover.net). If the app's "
+     "trial ended, it needs its one-time licence before it receives anything."),
+    ("user identifier",
+     "The PUSHOVER_USER_KEY repository secret is not a valid user key. Copy "
+     "the user key from the top of your pushover.net dashboard into the secret."),
+    ("user key is invalid",
+     "The PUSHOVER_USER_KEY repository secret is not a valid user key. Copy "
+     "the user key from the top of your pushover.net dashboard into the secret."),
+    ("application token is invalid",
+     "The PUSHOVER_APP_TOKEN repository secret is not a valid application "
+     "token. Copy it from the application's page at pushover.net."),
+    ("credentials missing",
+     "The PUSHOVER_USER_KEY / PUSHOVER_APP_TOKEN repository secrets are not set."),
+)
+
+
+def diagnose(error: str) -> str:
+    """Plain-English cause and remedy for a Pushover delivery failure."""
+    low = (error or "").lower()
+    for needle, advice in _DIAGNOSES:
+        if needle in low:
+            return advice
+    return ("Pushover refused the message. Check the account and the "
+            "PUSHOVER_USER_KEY / PUSHOVER_APP_TOKEN secrets at pushover.net.")
+
+
+def _channel_health(key: str, error: str | None) -> bool:
+    """Track the delivery channel itself as a GitHub issue under ``key``:
+    open (once) while delivery fails, close as soon as it succeeds again.
+    Best-effort — never raises. Returns True when the failure is on record."""
+    from worldscope import alerting
+    try:
+        repo, owner, transport = alerting.env_transport()
+        if error is None:
+            number = alerting.resolve_alert(
+                repo, key, "Recovered: Pushover accepted a message again.",
+                transport=transport)
+            if number is not None:
+                print(f"delivery recovered; closed alert issue #{number}")
+            return False
+        message = (f"{diagnose(error)}\n\nPushover's response: `{error}`\n\n"
+                   "Until this is fixed, briefs and pipeline alarms that page "
+                   "your phone go nowhere. This issue closes itself on the "
+                   "next successful delivery.")
+        number, created = alerting.raise_alert(
+            repo, key, "Pushover delivery is failing — your phone is not receiving alerts",
+            message, owner=owner, transport=transport)
+    except (alerting.AlertError, KeyError, TypeError, ValueError) as exc:
+        print(f"::warning::could not track delivery health: {exc}")
+        return False
+    print(f"delivery-health issue #{number} {'opened' if created else 'updated'}")
+    return True
 
 
 def _record_issue(key: str, title: str, message: str, url: str) -> bool:
