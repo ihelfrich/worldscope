@@ -22,7 +22,7 @@
 <div class="ws-bg" aria-hidden="true">
   <canvas id="ws-network"></canvas>
 </div>
-<script type="application/json" id="ws-network-seed">{}</script>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-11-12&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;President&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Administration&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Ukraine&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Florida&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Transportation&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Mississippi&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Washington&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Russia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 9}, {&quot;name&quot;: &quot;Rules&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;China&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Green&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Japan&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Price&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;France&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Scott&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Scott&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;James&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Place&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Young&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;YOUNG&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Israel&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Donald Trump&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 3}, {&quot;name&quot;: &quot;Black&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 3}]}</script>
 <script src="../assets/network.js" defer></script>
 <header class="ws-navbar" x-data="{ open: false }">
   <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
@@ -31,7 +31,7 @@
       <a href="../index.html">Today</a>
       <a href="../sections/">Sections</a>
       <a href="../briefings/">Archive</a>
-      <a href="../zips/2026-06-22.zip">Bundle</a>
+      
     </nav>
     <div class="flex-1"></div>
     <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
@@ -62,7 +62,7 @@
       <li><a href="../index.html" class="block py-1.5">Today</a></li>
       <li><a href="../sections/" class="block py-1.5">Sections</a></li>
       <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
-      <li><a href="../zips/2026-06-22.zip" class="block py-1.5">Today's bundle</a></li>
+      
       <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
     </ul>
   </nav>
@@ -79,7 +79,10 @@
     </header>
     <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high "><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">1</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#israel-iran-hezbollah-axis" class="text-inherit no-underline hover:text-navy">Israel-Iran-Hezbollah axis</a></h4><div class="ws-stat">2</div><div class="ws-meta">middle_east, conflict, military</div></div><div class="ws-dash-tile is-high is-alert"><h4><a href="#taiwan-strait-south-china-sea" class="text-inherit no-underline hover:text-navy">Taiwan Strait + South China Sea</a></h4><div class="ws-stat">2</div><div class="ws-meta">taiwan, china, military</div></div></section>
     <article class="prose prose-slate max-w-none">
-      <hr />
+      <blockquote>
+<p><strong>DATA NOTE:</strong> Today's bundle zip was unavailable at generation time. This brief draws on the June 9 bundle (latest available in dist/zips/), supplemented by live web research through June 22. All market data, FOMC outcomes, Ukraine battlefield reporting, and Iran ceasefire status have been updated via web sources as of 0900 UTC.</p>
+</blockquote>
+<hr />
 <h2 id="headline">Headline</h2>
 <div class="ws-callout is-good"><span class="ws-label">Easing</span><p>The Iran-Israel war's fragile architecture held through the weekend. Washington and Tehran signed a <a href="https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire">60-day memorandum of understanding on June 17</a><span class="ws-hostpill">en.wikipedia.org</span> extending the ceasefire while permanent deal talks run in Zurich. WTI crude collapsed from $95.96 on June 1 to $77.50 today on the Strait of Hormuz reopening, but <strong>Kevin Warsh's</strong> debut FOMC meeting (June 17) delivered the year's most hawkish policy signal: nine of eighteen Fed officials now project a rate hike before year-end, erasing months of easing expectations in a single dot plot. Simultaneously, <strong>Xi Jinping's</strong> state visit to Pyongyang (June 8-9) produced a formal China-DPRK cooperation expansion while explicitly ignoring North Korea's nuclear program, the first such public omission since 2017. Both watch areas <strong>Israel-Iran-Hezbollah axis</strong> and <strong>Taiwan Strait + South China Sea</strong> fired. A first-of-kind CISA KEV for an LLM API gateway (LiteLLM) and concurrent supply-chain KEVs for developer tooling (Nx Console, TanStack) signal active exploitation of the AI infrastructure layer.</p></div>
 <hr />
