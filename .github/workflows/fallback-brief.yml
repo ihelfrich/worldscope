@@ -1,0 +1,98 @@
+name: Fallback brief
+
+# Degrade, don't go dark. From 2026-10-25 to 2026-11-12 no brief was composed
+# (no Claude credential; Compose skipped daily while reporting success), and
+# the whole downstream chain went silent for 18 days even though the evidence
+# engine kept running. This publishes a deterministic, clearly-labelled brief
+# from that engine whenever no composed brief exists by mid-afternoon UTC —
+# after the Actions composer (~07-08 UTC) and the claude.ai routine (09:00)
+# have both had their chance — and keeps ONE tracked issue open that names
+# the cause until a composed brief appears again.
+
+on:
+  schedule:
+    - cron: "50 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write   # dispatch render-briefings (GITHUB_TOKEN pushes don't trigger it)
+
+concurrency:
+  group: fallback-brief
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  fallback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e . markdown pyyaml
+      - name: Publish a fallback brief if no composed one exists
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
+          HAS_API_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          HAS_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          TODAY=$(date -u +%F)
+          F="briefings/${TODAY}.md"
+          if [ -s "$F" ] && ! grep -q 'worldscope:fallback-brief' "$F"; then
+            echo "composed brief for ${TODAY} is on main"
+            python -m worldscope.alerting resolve --key composer-offline \
+              --note "Recovered: a composed brief for ${TODAY} is on main."
+            exit 0
+          fi
+          # Never publish from stale data: the site watchdog owns that alarm.
+          if ! python - <<'PY'
+          import sqlite3, sys
+          from datetime import date, timedelta
+          con = sqlite3.connect("file:lake/db/worldscope.sqlite?mode=ro", uri=True)
+          newest = con.execute("SELECT MAX(ingested_at) FROM records").fetchone()[0] or ""
+          fresh = newest[:10] >= (date.today() - timedelta(days=1)).isoformat()
+          print(f"newest lake record: {newest}")
+          sys.exit(0 if fresh else 1)
+          PY
+          then
+            echo "::warning::lake is stale; not publishing a fallback brief from old data"
+            exit 0
+          fi
+          python tools/fallback_brief.py --date "$TODAY" --out "$F"
+          if [ "$HAS_API_KEY" != "true" ] && [ "$HAS_OAUTH" != "true" ]; then
+            CAUSE="The repo has no Claude credential, so the Compose workflow skips every day while reporting success. Set repository secret ANTHROPIC_API_KEY, or CLAUDE_CODE_OAUTH_TOKEN (from 'claude setup-token')."
+          else
+            CAUSE="A composer credential is set, so check the Compose workflow's logs and the claude.ai desk-officer routine."
+          fi
+          python -m worldscope.alerting raise --key composer-offline \
+            --title "Brief composer offline: publishing automated fallback briefs" \
+            --message "No composed brief existed for ${TODAY} by 15:50 UTC, so a deterministic fallback edition was published from the evidence engine. ${CAUSE} This issue closes itself the first day a composed brief lands." \
+            --url "https://ihelfrich.github.io/worldscope/briefings/${TODAY}.html"
+          git config user.name "worldscope-bot"
+          git config user.email "noreply@github.com"
+          git add "$F"
+          if git diff --staged --quiet; then echo "fallback unchanged"; exit 0; fi
+          git commit -m "fallback brief ${TODAY} (composer offline)"
+          pushed=0
+          for attempt in 1 2 3 4 5 6; do
+            if git push; then pushed=1; break; fi
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort 2>/dev/null || true; }
+            sleep $((attempt * 3))
+          done
+          if [ "$pushed" != "1" ]; then
+            echo "::error::could not push the fallback brief"; exit 1
+          fi
+          gh workflow run render-briefings.yml --ref main || \
+            echo "::warning::could not dispatch render; the 17:45 UTC schedule will render it"

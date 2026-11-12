@@ -122,7 +122,7 @@ jobs:
               exit 0
             fi
             echo "Push rejected on attempt $attempt; rebasing on origin/main"
-            git pull --rebase --autostash origin main || git rebase --abort
+            git pull --rebase --autostash origin main || { git rebase --abort 2>/dev/null || true; }
             sleep $((attempt * 3))
           done
           echo "::error::could not push delivery receipt after 5 attempts"

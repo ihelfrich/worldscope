@@ -53,7 +53,7 @@ jobs:
             fi
             echo "push failed attempt $attempt, rebasing"
             git fetch origin main
-            git rebase -X theirs origin/main || git rebase --abort
+            git rebase --autostash -X theirs origin/main || { git rebase --abort 2>/dev/null || true; }
             sleep $((attempt * 3))
           done
           if [ "$pushed" != "1" ]; then

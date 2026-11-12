@@ -57,3 +57,18 @@ def test_error_message_is_bounded_and_report_is_json_serialisable():
     run_stage("radar", lambda: (_ for _ in ()).throw(ValueError("x" * 5000)), report)
     blob = json.loads(json.dumps(report))
     assert len(blob["radar"]["error_message"]) <= 500
+
+
+def test_skipped_stage_is_recorded_as_skipped_not_failed(capsys):
+    from worldscope.brief import StageSkipped, _run_stage
+
+    def optional_absent():
+        raise StageSkipped("ML extra not installed")
+
+    report: dict = {}
+    _run_stage("embeddings", optional_absent, report)
+    entry = report["embeddings"]
+    assert entry["status"] == "skipped"
+    assert entry["error_message"] == "ML extra not installed"
+    out = capsys.readouterr().out
+    assert "skipped" in out and "failed" not in out

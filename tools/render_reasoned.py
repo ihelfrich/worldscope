@@ -94,9 +94,26 @@ def _headline(text: str, max_words: int = 14) -> str:
     return t.rstrip(" .,;:–—-")
 
 
+# A period after these is an abbreviation, not a sentence end: without this,
+# "[St. Louis] Family files suit…" rendered as "[St" across the board.
+_ABBREV = frozenset((
+    "st", "dr", "mr", "mrs", "ms", "jr", "sr", "vs", "gen", "gov", "sen", "rep",
+    "lt", "col", "sgt", "capt", "cmdr", "adm", "maj", "pres", "sec", "prof",
+    "mt", "ft", "ave", "blvd", "rd", "no", "inc", "corp", "co", "ltd", "dept",
+    "univ", "approx", "est", "etc", "jan", "feb", "mar", "apr", "jun", "jul",
+    "aug", "sep", "sept", "oct", "nov", "dec",
+))
+
+
 def _oneline(text: str, max_chars: int = 150) -> str:
     """First sentence of a claim, capped — no run-ons in the lists."""
-    t = re.split(r"(?<=[a-z])\.\s", (text or "").strip())[0].strip()
+    t = (text or "").strip()
+    for m in re.finditer(r"(?<=[a-z])\.\s", t):
+        word = re.search(r"([A-Za-z]+)$", t[:m.start()])
+        if word and word.group(1).lower() in _ABBREV:
+            continue
+        t = t[:m.start()].strip()
+        break
     return (t[:max_chars].rstrip() + "…") if len(t) > max_chars else t
 
 

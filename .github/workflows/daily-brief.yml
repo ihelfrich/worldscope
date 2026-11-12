@@ -168,7 +168,7 @@ jobs:
             # run, so on a conflict prefer OUR fresh copy (-X theirs favors the
             # commit being replayed during a rebase). Abort cleanly if it can't.
             git fetch origin main
-            git rebase -X theirs origin/main || git rebase --abort
+            git rebase --autostash -X theirs origin/main || { git rebase --abort 2>/dev/null || true; }
             sleep $((attempt * 3))
           done
           if [ "$pushed" != "1" ]; then

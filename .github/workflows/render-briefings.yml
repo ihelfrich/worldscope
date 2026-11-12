@@ -107,7 +107,7 @@ jobs:
             echo "Push rejected on attempt $attempt; rebasing on origin/main"
             # Regenerated HTML/CSS conflicts: prefer OUR fresh build (-X theirs
             # favors the replayed commit during rebase). Abort cleanly if stuck.
-            git pull --rebase --autostash -X theirs origin main || git rebase --abort
+            git pull --rebase --autostash -X theirs origin main || { git rebase --abort 2>/dev/null || true; }
           done
       # The scheduled catch-up runs (4x/day) usually find nothing new to
       # render; redeploying an identical dist/ just burns a Pages deployment
