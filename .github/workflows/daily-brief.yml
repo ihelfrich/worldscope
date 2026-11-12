@@ -168,7 +168,10 @@ jobs:
             # run, so on a conflict prefer OUR fresh copy (-X theirs favors the
             # commit being replayed during a rebase). Abort cleanly if it can't.
             git fetch origin main
-            git rebase -X theirs origin/main || git rebase --abort
+            # --autostash: the build leaves tracked files modified outside the
+            # paths this job commits, and a plain rebase then refuses to start
+            # ("You have unstaged changes"), which failed the run on 2026-11-11.
+            git rebase --autostash -X theirs origin/main || git rebase --abort || true
             sleep $((attempt * 3))
           done
           if [ "$pushed" != "1" ]; then
