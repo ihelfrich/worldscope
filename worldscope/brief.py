@@ -136,6 +136,13 @@ REQUIRED_STAGES = frozenset({
 })
 
 
+class StageSkipped(Exception):
+    """Raised by a stage whose optional capability is intentionally absent
+    (e.g. the ML extra in CI). Recorded as status "skipped" — not a failure,
+    and no daily warning: an expected condition logged as a failure every
+    day teaches people to ignore the log, which is how real outages hid."""
+
+
 def _run_stage(label: str, fn, report: Optional[dict] = None) -> None:
     """Run a post-section stage and preserve its machine-readable outcome.
 
@@ -148,6 +155,9 @@ def _run_stage(label: str, fn, report: Optional[dict] = None) -> None:
              "required": label in REQUIRED_STAGES}
     try:
         fn()
+    except StageSkipped as ex:
+        entry.update(status="skipped", error_message=str(ex)[:500])
+        print(f"[{label}] skipped: {ex}")
     except (ImportError, ModuleNotFoundError) as ex:
         entry.update(status="failed", error_type=type(ex).__name__,
                      error_message=str(ex)[:500])
@@ -237,6 +247,10 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
     def _stage_embeddings() -> None:
         # Populate the multilingual embedding index for today. Drives the
         # cross-language MCP semantic search and the headline dedup module.
+        import importlib.util
+        if importlib.util.find_spec("sentence_transformers") is None:
+            raise StageSkipped("ML extra not installed; story clustering and "
+                               "dedup use their deterministic path")
         from .embeddings import EmbeddingIndex  # local import keeps brief lazy
         per_section = EmbeddingIndex().index_today(today.isoformat())
         new_embeds = sum(per_section.values())
