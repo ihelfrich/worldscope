@@ -24,13 +24,10 @@ from __future__ import annotations
 import time
 from datetime import datetime, timedelta, timezone
 
-import requests
-
+from ..lib import gdelt
 from ..lib.watchareas import WatchArea, load_watch_areas
 from . import Section, UpstreamHTTPError
 
-DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
-UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
 
 class GdeltGkgSection(Section):
@@ -40,31 +37,19 @@ class GdeltGkgSection(Section):
 
     PULL_TIMEOUT_S = 180
     PER_QUERY = 25
-    THROTTLE_S = 0.7
-    MAX_RETRIES = 2
     HOURS_BACK = 36
     # Wall-clock budget for the whole pull: stop issuing queries with margin to
     # spare so we return the partial result we have instead of being killed by
     # the PULL_TIMEOUT_S deadline (GDELT 429s used to make this loop overrun).
     BUDGET_S = 150
 
-    def _fetch(self, params: dict) -> dict | None:
-        backoff = 2.0
-        for _ in range(self.MAX_RETRIES):
-            try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA}, timeout=12)
-                if resp.status_code == 429:
-                    time.sleep(backoff)
-                    backoff *= 2
-                    continue
-                resp.raise_for_status()
-                return resp.json()
-            except requests.exceptions.HTTPError:
-                time.sleep(backoff)
-                backoff *= 2
-            except Exception:
-                return None
-        return None
+    def _fetch(self, params: dict, deadline: float = float("inf")) -> dict | None:
+        """One DOC query through the shared GDELT spacer; None on failure."""
+        try:
+            return gdelt.doc_get(params, timeout=12, deadline=deadline)
+        except gdelt.GdeltUnavailable as exc:
+            self.last_error = str(exc)
+            return None
 
     def _build_queries(self, area: WatchArea) -> list[tuple[str, str]]:
         """Return (query_string, sub_label) tuples for an area."""
@@ -104,6 +89,7 @@ class GdeltGkgSection(Section):
         out: list[dict] = []
         seen_urls: set[str] = set()
         got_any = False
+        self.last_error = ""
         deadline = time.monotonic() + self.BUDGET_S
         for area in areas:
             if time.monotonic() > deadline:
@@ -120,8 +106,7 @@ class GdeltGkgSection(Section):
                     "enddatetime": edt,
                     "sort": "datedesc",
                 }
-                data = self._fetch(params)
-                time.sleep(self.THROTTLE_S)
+                data = self._fetch(params, deadline)
                 if not data:
                     continue
                 got_any = True
@@ -158,5 +143,5 @@ class GdeltGkgSection(Section):
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
         if not out and not got_any:
             raise UpstreamHTTPError(
-                "GDELT returned nothing for any query (rate-limited / blocked)")
+                f"GDELT returned nothing for any query ({self.last_error or 'rate-limited / blocked'})")
         return out

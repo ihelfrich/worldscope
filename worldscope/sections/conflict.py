@@ -14,12 +14,9 @@ from __future__ import annotations
 import time
 from datetime import datetime, timedelta, timezone
 
-import requests
-
+from ..lib import gdelt
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
-DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
-UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
 # GDELT theme codes that mark conflict-related coverage. The query OR-combines
 # these against the GDELT GKG (Global Knowledge Graph) theme field.
@@ -35,6 +32,7 @@ class ConflictSection(Section):
     emoji = "⚔️"
 
     LIMIT = 40
+    BUDGET_S = 45  # inside the default 75 s section deadline, incl. a 25 s request
     HOURS = 48
 
     def pull(self) -> list[dict]:
@@ -51,28 +49,13 @@ class ConflictSection(Section):
             "enddatetime": end.strftime("%Y%m%d%H%M%S"),
             "sort": "datedesc",
         }
-        time.sleep(1.0)  # polite throttle
-        data = None
-        last = "no response"
-        for attempt in range(2):
-            try:
-                resp = requests.get(DOC_API, params=params,
-                                    headers={"User-Agent": UA}, timeout=25)
-                if resp.status_code == 429:
-                    last = "HTTP 429 (rate limited)"
-                    time.sleep(8)
-                    continue
-                resp.raise_for_status()
-                data = resp.json()
-                break
-            except ValueError as exc:
-                raise UpstreamParseError(f"GDELT DOC returned non-JSON: {exc}") from exc
-            except Exception as exc:
-                last = str(exc)[:160]
-                if attempt == 0:
-                    time.sleep(8)
-        if data is None:
-            raise UpstreamHTTPError(f"GDELT DOC conflict query failed: {last}")
+        try:
+            data = gdelt.doc_get(params, timeout=25,
+                                 deadline=time.monotonic() + self.BUDGET_S)
+        except gdelt.GdeltUnavailable as exc:
+            if "non-JSON" in str(exc):
+                raise UpstreamParseError(f"GDELT DOC conflict query: {exc}") from exc
+            raise UpstreamHTTPError(f"GDELT DOC conflict query failed: {exc}") from exc
 
         items: list[dict] = []
         for art in (data.get("articles") or [])[: self.LIMIT]:

@@ -12,27 +12,23 @@ shared egress IP was throttled on every call and each 429 took ~11s to be
 served). That latency × 19 sequential countries is what used to push this
 section past its 90s deadline.
 
-Design now:
-  - the per-country queries run on a small ThreadPoolExecutor (2 workers)
-    with a 15s per-request timeout and at most one 429 retry;
-  - the whole pull has a wall-clock budget (BUDGET_S) well inside the
-    section deadline; whatever has completed by then is returned and the
-    rest is abandoned (partial results are acceptable — every country is an
-    independent query);
-  - only when *no* country succeeded is the pull a failure.
+Design now (2026-11-12): every request goes through worldscope.lib.gdelt,
+one process-wide spacer shared with gdelt_gkg and conflict, so the three
+sections stop rate-limiting each other. Two parallel workers here used to
+guarantee self-inflicted 429s; from 2026-11-05 to 11-12 this section got
+0-12 of a possible ~114 stories a day. Countries are queried one at a time
+inside a wall-clock budget (BUDGET_S); the starting country rotates daily
+so a short budget does not always drop the same ones. Partial results are
+fine; only when *no* country answered is the pull a failure.
 """
 from __future__ import annotations
 
 import time
-from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from datetime import datetime, timedelta, timezone
 
-import requests
-
+from ..lib import gdelt
 from . import Section, UpstreamHTTPError
 
-DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
-UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
 
 # (FIPS-ish country code GDELT recognizes, display name).
 # China appears twice — once as the party-state outlet view (CH), once paired
@@ -67,35 +63,23 @@ class GdeltRegionsSection(Section):
     emoji = "🌍"
 
     PER_COUNTRY = 6
-    MAX_WORKERS = 2
     REQUEST_TIMEOUT_S = 15
-    MAX_RETRIES = 2          # one retry after a 429
-    RETRY_SLEEP_S = 5.0      # what GDELT's 429 text asks for
-    PULL_TIMEOUT_S = 75
-    BUDGET_S = 50            # stop collecting with margin; return partial
+    PULL_TIMEOUT_S = 150
+    BUDGET_S = 125           # stop issuing queries; in-flight one may add REQUEST_TIMEOUT_S
 
     def __init__(self, *a, **kw) -> None:
         super().__init__(*a, **kw)
         self._deadline: float = float("inf")
+        self.last_error: str = ""
 
     def _fetch_one(self, code: str, params: dict) -> dict | None:
-        """One country's artlist; None on any failure (never raises).
-        A 429 is retried once after RETRY_SLEEP_S if the budget allows."""
-        for attempt in range(self.MAX_RETRIES):
-            try:
-                resp = requests.get(DOC_API, params=params, headers={"User-Agent": UA},
-                                    timeout=self.REQUEST_TIMEOUT_S)
-                if resp.status_code == 429:
-                    if (attempt + 1 < self.MAX_RETRIES
-                            and time.monotonic() + self.RETRY_SLEEP_S < self._deadline):
-                        time.sleep(self.RETRY_SLEEP_S)
-                        continue
-                    return None
-                resp.raise_for_status()
-                return resp.json()
-            except Exception:
-                return None
-        return None
+        """One country's artlist; None on any failure (never raises)."""
+        try:
+            return gdelt.doc_get(params, timeout=self.REQUEST_TIMEOUT_S,
+                                 deadline=self._deadline)
+        except gdelt.GdeltUnavailable as exc:
+            self.last_error = str(exc)
+            return None
 
     @staticmethod
     def _normalize(name: str, art: dict) -> dict:
@@ -131,32 +115,20 @@ class GdeltRegionsSection(Section):
         self._deadline = time.monotonic() + self.BUDGET_S
         items: list[dict] = []
         got_any = False
-        pool = ThreadPoolExecutor(max_workers=self.MAX_WORKERS, thread_name_prefix="gdelt")
-        try:
-            futures = {}
-            for code, name in WATCHLIST:
-                params = {"query": f"sourcecountry:{code} sourcelang:english", **base}
-                futures[pool.submit(self._fetch_one, code, params)] = name
-            pending = set(futures)
-            while pending:
-                remaining = self._deadline - time.monotonic()
-                if remaining <= 0:
-                    break  # budget spent — return partial instead of overrunning
-                done, pending = wait(pending, timeout=remaining, return_when=FIRST_COMPLETED)
-                for fut in done:
-                    data = fut.result()
-                    if data is None:
-                        continue
-                    got_any = True
-                    name = futures[fut]
-                    for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
-                        items.append(self._normalize(name, art))
-        finally:
-            # Don't wait for in-flight requests; they time out on their own.
-            pool.shutdown(wait=False, cancel_futures=True)
+        shift = datetime.now(timezone.utc).toordinal() % len(WATCHLIST)
+        for code, name in WATCHLIST[shift:] + WATCHLIST[:shift]:
+            if time.monotonic() >= self._deadline:
+                break  # budget spent — return partial instead of overrunning
+            params = {"query": f"sourcecountry:{code} sourcelang:english", **base}
+            data = self._fetch_one(code, params)
+            if data is None:
+                continue
+            got_any = True
+            for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
+                items.append(self._normalize(name, art))
         # Sort newest first for the briefing
         items.sort(key=lambda it: it.get("date", ""), reverse=True)
         if not items and not got_any:
             raise UpstreamHTTPError(
-                "GDELT returned nothing for any country (rate-limited / blocked)")
+                f"GDELT returned nothing for any country ({self.last_error or 'rate-limited / blocked'})")
         return items

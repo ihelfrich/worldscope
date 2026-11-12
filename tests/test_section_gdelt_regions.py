@@ -1,4 +1,4 @@
-"""gdelt_regions: bounded, parallel, partial-tolerant country queries.
+"""gdelt_regions: bounded, sequential, partial-tolerant country queries.
 
 The 429 fixture is the live plain-text body GDELT returned on 2026-10-09:
 "Please limit requests to one every 5 seconds ...". The artlist fixture is
@@ -11,6 +11,7 @@ import time
 import pytest
 import requests
 
+from worldscope.lib import gdelt
 from worldscope.sections import UpstreamHTTPError
 from worldscope.sections import gdelt_regions as gr
 from worldscope.store import SnapshotStore
@@ -27,6 +28,13 @@ ART = {
 }
 RATE_LIMIT_TEXT = ("Please limit requests to one every 5 seconds or contact "
                    "kalev.leetaru5@gmail.com for larger queries.")
+
+
+@pytest.fixture(autouse=True)
+def _fresh_spacer():
+    gdelt.reset()
+    yield
+    gdelt.reset()
 
 
 def _store(tmp_path):
@@ -74,43 +82,39 @@ def test_all_countries_failing_raises(monkeypatch, tmp_path):
         _section(tmp_path).pull()
 
 
-def test_budget_returns_partial_without_waiting_for_slow_queries(monkeypatch, tmp_path):
-    release = threading.Event()
+def test_budget_stops_issuing_queries(monkeypatch, tmp_path):
+    calls = []
+    clock = [0.0]
+    monkeypatch.setattr(gr.time, "monotonic", lambda: clock[0])
 
     def fetch(self, code, params):
-        if code == "CH":
-            return {"articles": [ART]}
-        release.wait(5)          # slow / hung request
+        calls.append(code)
+        clock[0] += 10.0          # each query costs 10 s of wall clock
         return {"articles": [ART]}
 
     monkeypatch.setattr(gr.GdeltRegionsSection, "_fetch_one", fetch)
-    sec = _section(tmp_path, BUDGET_S=0.5, MAX_WORKERS=2)
-    t0 = time.monotonic()
-    try:
-        items = sec.pull()
-    finally:
-        release.set()
-    assert time.monotonic() - t0 < 2.0
-    assert [it["country"] for it in items] == ["China"]
+    items = _section(tmp_path, BUDGET_S=25).pull()
+    assert len(calls) == 3 and len(items) == 3
 
 
-def test_queries_run_concurrently(monkeypatch, tmp_path):
-    active, peak = [0], [0]
+def test_queries_are_sequential_and_cover_every_country(monkeypatch, tmp_path):
+    active, peak, seen = [0], [0], []
     lock = threading.Lock()
 
     def fetch(self, code, params):
         with lock:
             active[0] += 1
             peak[0] = max(peak[0], active[0])
-        time.sleep(0.05)
+        seen.append(code)
         with lock:
             active[0] -= 1
         return {"articles": []}
 
     monkeypatch.setattr(gr.GdeltRegionsSection, "_fetch_one", fetch)
-    items = _section(tmp_path, MAX_WORKERS=2).pull()
+    items = _section(tmp_path).pull()
     assert items == []           # every country answered (empty) -> quiet, not failure
-    assert peak[0] == 2
+    assert peak[0] == 1
+    assert sorted(seen) == sorted(c for c, _ in gr.WATCHLIST)
 
 
 class _Resp:
@@ -130,34 +134,39 @@ class _Resp:
 def test_fetch_one_retries_a_429_once_then_returns(monkeypatch, tmp_path):
     seq = iter([_Resp(429, text=RATE_LIMIT_TEXT), _Resp(200, {"articles": [ART]})])
     seen = []
-    monkeypatch.setattr(gr.requests, "get", lambda url, **k: (seen.append(k), next(seq))[1])
-    sleeps = []
-    monkeypatch.setattr(gr.time, "sleep", lambda s: sleeps.append(s))
+    monkeypatch.setattr(gdelt.requests, "get", lambda url, **k: (seen.append(k), next(seq))[1])
+    monkeypatch.setattr(gdelt.time, "sleep", lambda s: None)
     sec = _section(tmp_path)
     sec._deadline = time.monotonic() + 60
     assert sec._fetch_one("JA", {"query": "q"}) == {"articles": [ART]}
-    assert sleeps == [sec.RETRY_SLEEP_S]
+    assert len(seen) == 2
     assert all(k["timeout"] == sec.REQUEST_TIMEOUT_S for k in seen)
 
 
 def test_fetch_one_gives_up_on_429_when_budget_is_short(monkeypatch, tmp_path):
-    monkeypatch.setattr(gr.requests, "get", lambda url, **k: _Resp(429, text=RATE_LIMIT_TEXT))
-    monkeypatch.setattr(gr.time, "sleep", lambda s: pytest.fail("must not sleep past budget"))
+    monkeypatch.setattr(gdelt.requests, "get", lambda url, **k: _Resp(429, text=RATE_LIMIT_TEXT))
+    sleeps = []
+    monkeypatch.setattr(gdelt.time, "sleep", lambda s: sleeps.append(s))
     sec = _section(tmp_path)
     sec._deadline = time.monotonic() + 1.0
     assert sec._fetch_one("JA", {"query": "q"}) is None
+    assert sum(sleeps) < 1.0     # never waits past the budget
+    assert "429" in sec.last_error
 
 
 def test_fetch_one_never_raises(monkeypatch, tmp_path):
+    monkeypatch.setattr(gdelt.time, "sleep", lambda s: None)
+
     def boom(*a, **k):
         raise requests.ReadTimeout("slow")
-    monkeypatch.setattr(gr.requests, "get", boom)
+    monkeypatch.setattr(gdelt.requests, "get", boom)
     assert _section(tmp_path)._fetch_one("JA", {}) is None
-    monkeypatch.setattr(gr.requests, "get", lambda *a, **k: _Resp(500))
+    monkeypatch.setattr(gdelt.requests, "get", lambda *a, **k: _Resp(500))
     assert _section(tmp_path)._fetch_one("JA", {}) is None
 
 
 def test_deadline_is_inside_section_timeout():
-    assert gr.GdeltRegionsSection.BUDGET_S < 60
+    # all 19 countries fit at one request per MIN_INTERVAL_S
+    assert len(gr.WATCHLIST) * gdelt.MIN_INTERVAL_S <= gr.GdeltRegionsSection.BUDGET_S
     assert gr.GdeltRegionsSection.BUDGET_S + gr.GdeltRegionsSection.REQUEST_TIMEOUT_S \
         <= gr.GdeltRegionsSection.PULL_TIMEOUT_S

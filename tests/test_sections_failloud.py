@@ -47,7 +47,11 @@ def _bare(cls):
 
 @pytest.fixture(autouse=True)
 def _no_sleep(monkeypatch):
+    from worldscope.lib import gdelt
     monkeypatch.setattr("time.sleep", lambda *_: None)
+    monkeypatch.setattr(gdelt, "MIN_INTERVAL_S", 0.0)
+    monkeypatch.setattr(gdelt, "PENALTY_S", 0.0)
+    gdelt.reset()
 
 
 # --- billionaires -----------------------------------------------------------
@@ -138,19 +142,19 @@ def test_wikidata_quiet_window_is_a_genuine_empty(monkeypatch):
 # --- conflict (GDELT DOC) ---------------------------------------------------
 
 def test_conflict_rate_limited_twice_raises(monkeypatch):
-    monkeypatch.setattr(conflict.requests, "get", lambda *a, **k: _Resp(429))
+    monkeypatch.setattr(conflict.gdelt.requests, "get", lambda *a, **k: _Resp(429))
     with pytest.raises(UpstreamHTTPError, match="429"):
         _bare(conflict.ConflictSection).pull()
 
 
 def test_conflict_non_json_raises_parse_error(monkeypatch):
-    monkeypatch.setattr(conflict.requests, "get", lambda *a, **k: _Resp(200, None))
+    monkeypatch.setattr(conflict.gdelt.requests, "get", lambda *a, **k: _Resp(200, None))
     with pytest.raises(UpstreamParseError):
         _bare(conflict.ConflictSection).pull()
 
 
 def test_conflict_quiet_window_is_a_genuine_empty(monkeypatch):
-    monkeypatch.setattr(conflict.requests, "get", lambda *a, **k: _Resp(200, {"articles": []}))
+    monkeypatch.setattr(conflict.gdelt.requests, "get", lambda *a, **k: _Resp(200, {"articles": []}))
     assert _bare(conflict.ConflictSection).pull() == []
 
 
