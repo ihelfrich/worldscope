@@ -67,16 +67,38 @@ def _prefix(key: str) -> str:
     return f"[{LABEL}:{key}]"
 
 
-def find_open(repo: str, key: str, transport: Transport) -> dict | None:
-    """Return the open alert issue for ``key``, if any (pull requests excluded)."""
+def find_all_open(repo: str, key: str, transport: Transport) -> list[dict]:
+    """Every open alert issue for ``key``, oldest first (pull requests excluded).
+
+    More than one exists only if two runs raced: GitHub's issue list can lag a
+    just-created issue by a few seconds.
+    """
     _check(repo, key)
     items = transport("GET", f"/repos/{repo}/issues?state=open&per_page=100", None) or []
-    for item in items:
-        if "pull_request" in item:
-            continue
-        if str(item.get("title", "")).startswith(_prefix(key)):
-            return item
-    return None
+    found = [item for item in items
+             if "pull_request" not in item
+             and str(item.get("title", "")).startswith(_prefix(key))]
+    return sorted(found, key=lambda item: int(item.get("number", 0)))
+
+
+def find_open(repo: str, key: str, transport: Transport) -> dict | None:
+    """Return the oldest open alert issue for ``key``, if any."""
+    found = find_all_open(repo, key, transport)
+    return found[0] if found else None
+
+
+def close_duplicates(repo: str, key: str, transport: Transport) -> list[int]:
+    """Close every open alert issue for ``key`` except the oldest."""
+    found = find_all_open(repo, key, transport)
+    closed = []
+    for dup in found[1:]:
+        number = int(dup["number"])
+        transport("POST", f"/repos/{repo}/issues/{number}/comments",
+                  {"body": f"Duplicate of #{found[0]['number']}."})
+        transport("PATCH", f"/repos/{repo}/issues/{number}",
+                  {"state": "closed", "state_reason": "not_planned"})
+        closed.append(number)
+    return closed
 
 
 def raise_alert(repo: str, key: str, title: str, message: str, *,
