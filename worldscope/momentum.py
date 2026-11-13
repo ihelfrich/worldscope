@@ -21,6 +21,8 @@ coverage can't masquerade as novelty.
 """
 from __future__ import annotations
 
+import re
+
 import sqlite3  # noqa: F401  (kept for callers that still pass lake paths)
 from dataclasses import dataclass, field
 from datetime import date, timedelta
@@ -61,6 +63,9 @@ _JUNK = {
     "senate", "congress", "election", "elections", "governor", "legislature",
     "lawmakers", "voters", "campaign",
     "watch", "feds", "commentary", "recap", "editorial", "letters",
+    # prepositions/adverbs that open a headline and get capitalised there
+    "following", "after", "before", "amid", "despite", "during", "inside",
+    "behind", "ahead", "over", "under", "against", "without", "why", "how",
     "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
     "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois",
     "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland",
@@ -70,6 +75,26 @@ _JUNK = {
     "rhode island", "south carolina", "south dakota", "tennessee", "texas", "utah",
     "vermont", "virginia", "washington", "west virginia", "wisconsin", "wyoming",
 }
+
+
+_TAG_RE = re.compile(r"<[^>]*>?")
+_WRAP_RE = re.compile(r"\[(?:TITLE|LEDE)\s*[:\]]\s*", re.IGNORECASE)
+_WS_RE = re.compile(r"\s+")
+
+
+from .claim_rank import lang_tag, named_mid_sentence  # noqa: E402
+
+
+def _source_rank(section: str) -> int:
+    """Which record's text should represent a story: independent reporting
+    first, then local/state outlets, then markets and structured feeds (a
+    Polymarket question or a quake row is a poor headline for a story)."""
+    from .claim_rank import LOCAL, NON_REPORTING, STRUCTURED
+    if section in NON_REPORTING or section in STRUCTURED:
+        return 0
+    if section in LOCAL:
+        return 1
+    return 2
 
 
 def _canon(key: str, label: str) -> tuple[str, str]:
@@ -161,7 +186,8 @@ def build_momentum(today: date, *, lake_path: Path | None = None,
     counts: dict[str, list] = {}
     sections: dict[str, list] = {}
     labels: dict[str, str] = {}
-    headlines: dict[str, tuple[int, str]] = {}   # (day_idx, text)
+    headlines: dict[str, tuple] = {}   # key -> (rank tuple, text)
+    named: dict[str, int] = {}         # single-word key: records naming it mid-sentence
     day_totals = [0] * len(day_list)
 
     for day, rec in _iter_window(today, days, lake_path):
@@ -179,11 +205,17 @@ def build_momentum(today: date, *, lake_path: Path | None = None,
                 labels[key] = cased
             counts[key][di] += 1
             sections[key][di].add(rec["section_id"])
-            text = rec["original_text"]
-            best = headlines.get(key)
-            if text and (best is None or di > best[0]
-                         or (di == best[0] and len(text) > len(best[1]))):
-                headlines[key] = (di, text)
+            text = _TAG_RE.sub("", _WRAP_RE.sub(" ", rec["original_text"] or ""))
+            text = _WS_RE.sub(" ", text).strip()
+            if text:
+                rank = (di, _source_rank(rec["section_id"]), not lang_tag(text[:160]),
+                        cased.lower() in text[:140].lower(), min(len(text), 400))
+                if (" " not in key and named.get(key, 0) < 2
+                        and named_mid_sentence(cased, text.split(" — ")[0][:200])):
+                    named[key] = named.get(key, 0) + 1
+                best = headlines.get(key)
+                if best is None or rank > best[0]:
+                    headlines[key] = (rank, text)
 
     # Trim leading days with no data at all (archive gap / short history):
     # otherwise every established story looks NEW against phantom zeros.
@@ -202,6 +234,8 @@ def build_momentum(today: date, *, lake_path: Path | None = None,
         total = sum(r)
         if total < 4:
             continue
+        if " " not in key and named.get(key, 0) < 2:
+            continue                      # "Meet", "Following": not a name anywhere
         days_on = sum(1 for x in r if x > 0)
         if (total >= HUB_PER_DAY * window
                 or all(x >= HUB_MIN_DAILY for x in r)
@@ -214,7 +248,7 @@ def build_momentum(today: date, *, lake_path: Path | None = None,
             continue
         stories.append(Story(
             key=key, label=labels[key],
-            headline=(headlines.get(key, (0, ""))[1] or labels[key]),
+            headline=(headlines.get(key, (None, ""))[1] or labels[key]),
             sections_today=s[-1], records=r, sections=s,
             klass=klass, days_present=days_present, peak=max(r)))
 
