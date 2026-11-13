@@ -22,6 +22,7 @@ it carries a machine marker so automation can tell it from a composed one.
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import sys
 from collections import defaultdict
@@ -51,6 +52,25 @@ _DOMAINS = {
     "State media": ["chinese_internal", "russian_internal", "ukrainian_internal"],
 }
 _SEC_DOMAIN = {s: d for d, secs in _DOMAINS.items() for s in secs}
+# General news feeds say little about a story's domain; a claim that also
+# appears in a topical section (tech_news, ukraine_theater, usgs_quakes, ...)
+# belongs to that section's domain. Only all-general claims fall back to them.
+_GENERAL = {"foreign_news", "local_news", "state_news", "chinese_internal",
+            "russian_internal", "ukrainian_internal", "gdelt_regions", "gdelt_gkg",
+            "mediacloud", "commentary"}
+
+
+def domain_of(c) -> str | None:
+    secs = _reporting_sections(c)
+    specific = [s for s in secs if s in _SEC_DOMAIN and s not in _GENERAL]
+    if specific:
+        doms = [_SEC_DOMAIN[s] for s in specific]
+        return max(sorted(set(doms)), key=doms.count)
+    if secs & {"foreign_news", "gdelt_regions", "gdelt_gkg", "mediacloud", "commentary"}:
+        return "Geopolitics"
+    if secs & {"chinese_internal", "russian_internal", "ukrainian_internal"}:
+        return "State media"
+    return None                      # local/state-only: not a world-news domain
 
 
 def is_fallback(path: Path) -> bool:
@@ -62,7 +82,8 @@ def is_fallback(path: Path) -> bool:
 
 
 def _clean(text: str, n: int = 220) -> str:
-    text = re.sub(r"<[^>]*>?", "", text or "")
+    text = html.unescape(re.sub(r"&(\d+);", r"&#\1;", text or ""))  # "&039;" too
+    text = re.sub(r"<[^>]*>?", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return rr._oneline(text, n)
 
@@ -75,15 +96,97 @@ def _label(claim) -> str:
     return rr._STAT.get(claim.status, ("", claim.status))[1]
 
 
-def _lang(claim) -> str:
-    tag = rr._lang_tag(claim.claim_text)
+def _lang_of(text: str) -> str:
+    tag = rr._lang_tag(text)
     return f" _[{tag}, untranslated]_" if tag else ""
+
+
+# Sections that are not independent reporting of an event: prediction markets,
+# scored registries, filings feeds.
+_NON_REPORTING = {"paper_bets", "forecasts", "political_figures", "congressional_trades",
+                  "billionaires", "form4"}
+# Structured feeds whose rows cluster by shape, not by story (unrelated quakes
+# merge into one "claim"): fine for domain lines, never a key development.
+_STRUCTURED = {"usgs_quakes", "weather", "gdacs", "markets", "markets_global", "macro",
+               "firms", "cisa_kev", "epss"}
+_LOCAL = {"local_news", "state_news"}
+_ROUNDUP = re.compile(
+    r"\b(morning brief|evening brief|news ?brief|live updates?|live blog|newsletter|"
+    r"what to know|the latest|week in review|recap|podcast|watch live|in pictures|"
+    r"quiz|horoscope|today in history|top stories|headlines)\b", re.I)
+_TAGGED = re.compile(r"^\[[^\]]*·[^\]]*\]")       # "[Area · themes] ..." watch-area echoes
+
+
+def _evidence(c) -> list:
+    return list(getattr(c, "evidence", None) or [])
+
+
+def _reporting_sections(c) -> set[str]:
+    secs = {e.section for e in _evidence(c)} or set(c.topics)
+    return secs - _NON_REPORTING
+
+
+def _outlets(c) -> int:
+    """Distinct outlets, counting all local/state stations as one: they mostly
+    syndicate the same wire copy, so five of them are one source, not five."""
+    keys = {"local" if e.section in _LOCAL else (e.source_id or e.section)
+            for e in _evidence(c)}
+    return len(keys) or c.n_sources
+
+
+def display_text(c) -> str:
+    """The headline to show: the claim text, or a better evidence title when
+    the claim text is untranslated or a newsletter roundup."""
+    text = c.claim_text or ""
+    if not rr._lang_tag(text) and not _ROUNDUP.search(text):
+        return text
+    for e in _evidence(c):
+        t = (e.title or "").strip()
+        if (t and not rr._lang_tag(t) and not _ROUNDUP.search(t)
+                and e.section not in _NON_REPORTING and len(t.split()) >= 5):
+            return t
+    return text
+
+
+def _junk(c) -> bool:
+    # "contradicted" clusters were, on inspection (2026-11-12), unrelated items
+    # merged by shared words (an EU-Mercosur piece with Lula, ExxonMobil and US
+    # midterm stories as its "evidence"), not genuine disputes; an automated
+    # edition cannot tell the two apart, so it leaves them out.
+    text = display_text(c)
+    return bool(_ROUNDUP.search(text) or _TAGGED.search(text)
+                or not _reporting_sections(c)
+                or c.status == "contradicted")
+
+
+def newsworthiness(c) -> float | None:
+    """Score a claim for the headline and key developments; None drops it.
+
+    Independence first: distinct reporting sections, then distinct outlets
+    (local syndication counted once), then the corroboration grade.
+    """
+    if _junk(c):
+        return None
+    secs = _reporting_sections(c)
+    if secs <= _LOCAL:
+        return None                       # local-only: not world news
+    ev = _evidence(c)
+    if ev and sum(e.section in _STRUCTURED for e in ev) * 2 > len(ev):
+        return None                       # structured-feed cluster, not a story
+    grade = {"primary_confirmed": 1.0, "multi_source": 0.6}.get(c.status, 0.0)
+    return len(secs) * 2.0 + min(_outlets(c), 8) * 0.5 + grade + c.confidence
 
 
 def build(today: date) -> str:
     claims, reports, fresh, preds, _recs = rr._gather(today)
     claims = [c for c in claims if rr._relevant(c)]
-    ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
+    scored = [(newsworthiness(c), c) for c in claims]
+    ranked = [c for sc, c in sorted(((sc, c) for sc, c in scored if sc is not None),
+                                    key=lambda t: t[0], reverse=True)]
+    # Domain lines may use claims the ranking drops (a quake belongs under
+    # Earth & disaster, not key developments), but never junk.
+    by_domain_pool = sorted((c for c in claims if not _junk(c)),
+                            key=lambda c: (len(_reporting_sections(c)), _outlets(c),
                                            c.confidence), reverse=True)
     out: list[str] = []
     w = out.append
@@ -113,11 +216,12 @@ def build(today: date) -> str:
     w("")
     if ranked:
         top = ranked[0]
-        w(f"**{_clean(top.claim_text, 260)}**{_lang(top)}")
+        w(f"**{_clean(display_text(top), 260)}**{_lang_of(display_text(top))}")
         w("")
         w(f"Assessed **{_label(top)}** at {int(top.confidence * 100)}% confidence: "
-          f"{top.n_sources} sources across {top.n_sections} independent sections "
-          f"({', '.join(top.topics[:6])})."
+          f"{_n(_outlets(top), 'independent outlet')} across "
+          f"{_n(len(_reporting_sections(top)), 'section')} "
+          f"({', '.join(sorted(_reporting_sections(top))[:6])})."
           + (f" Note: {top.contradiction_note}" if top.contradiction_note else ""))
     else:
         w("No claim cleared the cross-source corroboration bar today.")
@@ -128,8 +232,8 @@ def build(today: date) -> str:
         w("## Key developments")
         w("")
         for c in ranked[1:11]:
-            w(f"- **{_label(c)}** · {_clean(c.claim_text)}{_lang(c)} "
-              f"— {_n(c.n_sources, 'source')} · {_n(c.n_sections, 'section')}")
+            w(f"- **{_label(c)}** · {_clean(display_text(c))}{_lang_of(display_text(c))} "
+              f"— {_n(_outlets(c), 'outlet')} · {_n(len(_reporting_sections(c)), 'section')}")
         w("")
 
     # ---- momentum -----------------------------------------------------------
@@ -150,10 +254,13 @@ def build(today: date) -> str:
 
     # ---- by domain ----------------------------------------------------------
     buckets: dict[str, list] = defaultdict(list)
-    for c in ranked:
-        doms = [_SEC_DOMAIN[t] for t in c.topics if t in _SEC_DOMAIN]
-        if doms:
-            buckets[max(set(doms), key=doms.count)].append(c)
+    shown = {id(c) for c in ranked[:11]}      # headline + key developments
+    for c in by_domain_pool:
+        if id(c) in shown:
+            continue                          # complement the lists above, don't repeat them
+        dom = domain_of(c)
+        if dom:
+            buckets[dom].append(c)
     if buckets:
         w("## By domain")
         w("")
@@ -164,8 +271,8 @@ def build(today: date) -> str:
             w(f"**{dom}**")
             w("")
             for c in items[:3]:
-                w(f"- {_clean(c.claim_text, 180)}{_lang(c)} _({_label(c).lower()}, "
-                  f"{c.n_sources} src)_")
+                w(f"- {_clean(display_text(c), 180)}{_lang_of(display_text(c))} "
+                  f"_({_label(c).lower()}, {_n(_outlets(c), 'outlet')})_")
             w("")
 
     # ---- connections --------------------------------------------------------
@@ -191,11 +298,16 @@ def build(today: date) -> str:
     if preds:
         w("## Outlook — falsifiable calls")
         w("")
-        for p in preds[:6]:
+        groups: dict[tuple, list[str]] = defaultdict(list)
+        for p in preds[:12]:
             m = rr._KEY_RE.search(p.get("resolution_criteria", ""))
             label = m.group(1) if m else (p.get("_key") or "signal")
-            w(f"- {label} stays cross-source-salient — "
-              f"{int(float(p.get('confidence', 0)) * 100)}% · resolves {p.get('target_date', '')}")
+            key = (int(float(p.get("confidence", 0)) * 100), p.get("target_date", ""))
+            if label not in groups[key]:
+                groups[key].append(label)
+        for (conf, target), labels in groups.items():
+            w(f"- Still cross-source-salient on {target} ({conf}% each): "
+              + ", ".join(labels) + ".")
         w("")
 
     w("---")

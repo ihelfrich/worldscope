@@ -53,6 +53,22 @@ _JUNK = {
     "court", "president", "minister", "city", "county",
     "wsj", "nyt", "reuters", "ap", "afp", "bbc", "cnn", "bloomberg", "ft",
     "axios", "politico", "guardian", "times", "post",
+    # Party and institution words, and bare US state names: the state/local
+    # feeds cover the same parties and states every day, so these "surge"
+    # with feed volume, not with any story (2026-11-12: Democratic, Florida,
+    # Oregon, Republican, Mississippi, Senate, Election in the Developing list).
+    "democratic", "democrat", "democrats", "republican", "republicans", "gop",
+    "senate", "congress", "election", "elections", "governor", "legislature",
+    "lawmakers", "voters", "campaign",
+    "watch", "feds", "commentary", "recap", "editorial", "letters",
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois",
+    "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland",
+    "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana",
+    "nebraska", "nevada", "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania",
+    "rhode island", "south carolina", "south dakota", "tennessee", "texas", "utah",
+    "vermont", "virginia", "washington", "west virginia", "wisconsin", "wyoming",
 }
 
 
