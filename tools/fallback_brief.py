@@ -391,7 +391,7 @@ def build(today: date, *, as_of: date | None = None) -> str:
             w(f"**{dom}**")
             w("")
             for c in items[:3]:
-                w(f"- {_clean(display_text(c), 180)}{_lang_of(display_text(c))} "
+                w(f"- {_clean(display_text(c), 180)}{_lang_of(display_text(c))}{_src(c)} "
                   f"_({_label(c).lower()}, {_n(_outlets(c), 'outlet')})_")
             w("")
 

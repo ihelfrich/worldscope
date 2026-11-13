@@ -46,7 +46,7 @@ def test_momentum_prefers_independent_reporting_for_headlines():
 
 def test_source_url_prefers_independent_reporting():
     ev = [_Ev("local_news", "Kushner, Witkoff land in Moscow", "ksdk"),
-          _Ev("paper_bets", "Will talks succeed?", "manifold"),
+          _Ev("paper_bets", "Will Moscow talks with envoys succeed?", "manifold"),
           _Ev("foreign_news", "US envoys arrive in Moscow", "bbc")]
     for e, u in zip(ev, ("https://ksdk.com/a", "https://manifold.markets/b", "https://bbc.com/c")):
         e.url = u
@@ -56,9 +56,16 @@ def test_source_url_prefers_independent_reporting():
     assert cr.source_url(c) == "https://ksdk.com/a"
     c.claim_text = "US envoys reach Moscow"
     c.evidence = ev[:2]
-    assert cr.source_url(c) == "https://ksdk.com/a"        # local beats a market
+    assert cr.source_url(c) == ""          # a market never cites; local is too unlike
     c.evidence = []
     assert cr.source_url(c) == ""
+
+
+def test_unrelated_fallback_is_left_unlinked():
+    ev = [_Ev("ukraine_theater", "Lula will travel to Spain on Monday", "liveuamap"),
+          _Ev("foreign_news", "EU-Mercosur deal six months on", "mercopress")]
+    ev[0].url, ev[1].url = "https://liveuamap.com", "https://mercopress.com/a"
+    assert cr.source_url(_C("Lula will travel to Spain on Monday", ev)) == ""
 
 
 def test_source_url_skips_bare_homepages():
