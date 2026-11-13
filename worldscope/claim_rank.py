@@ -161,9 +161,17 @@ def source_url(c) -> str:
         article = len(path.strip("/")) > 0 and not path.endswith(_MEDIA_EXT)
         return (article,
                 (e.title or "").strip() == shown,        # the article actually shown
+                reporting,                               # news, not a market or a feed row
                 len(_words(e.title) & shown_words),      # else the most similar story
                 reporting and e.section not in LOCAL,
                 not ROUNDUP.search(e.title or ""),       # a newsletter is not the source
                 e.section not in STATE_MEDIA,            # prefer independent outlets
                 reporting)
-    return max(ev, key=rank).url if ev else ""
+    if not ev:
+        return ""
+    best = max(ev, key=rank)
+    # A wrong citation is worse than none: unless the pick is the article
+    # shown or clearly about the same thing, leave the line unlinked.
+    if (best.title or "").strip() != shown and len(_words(best.title) & shown_words) < 2:
+        return ""
+    return best.url
