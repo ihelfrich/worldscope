@@ -206,7 +206,13 @@ def _parse_rss(xml_bytes: bytes) -> list[dict]:
             if ctag == "title":
                 title = (child.text or "").strip()
             elif ctag == "link":
-                link = (child.attrib.get("href") or child.text or "").strip()
+                # Atom entries can carry several <link>s; only rel="alternate"
+                # (or no rel) is the article. Keeping the last one made bne
+                # IntelliNews items point at their rel="enclosure" image.
+                rel = (child.attrib.get("rel") or "alternate").lower()
+                href = (child.attrib.get("href") or child.text or "").strip()
+                if rel == "alternate" and href and not link:
+                    link = href
             elif ctag in ("pubDate", "published", "updated", "date"):
                 # "date" captures Dublin Core <dc:date>, which many international
                 # / RSS-1.0 feeds use instead of <pubDate>; missing it was a

@@ -14,6 +14,7 @@ headline (an English evidence title for an untranslated claim).
 from __future__ import annotations
 
 import re
+from urllib.parse import urlsplit
 
 # Sections that are not independent reporting of an event: prediction
 # markets, scored registries, filings feeds.
@@ -134,3 +135,35 @@ def named_mid_sentence(label: str, text: str) -> bool:
 
 _PREFIX = re.compile(r"^\s*\[[^\]]*\]\s*")
 _SEGMENT = re.compile(r"\s[|:—–]\s|[:?!.]\s|[‘’'\"“”]")
+
+
+def _words(text: str) -> set[str]:
+    return {w[:5] for w in re.findall(r"[a-z]{4,}", (text or "").lower())}   # crude stem
+
+
+_MEDIA_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".mp4", ".mp3", ".pdf")
+STATE_MEDIA = {"russian_internal", "chinese_internal"}
+
+
+def source_url(c) -> str:
+    """The best link for a claim: a real article (not a homepage or image),
+    preferably the one whose headline is shown (other cluster members can be
+    different stories), then independent over local, non-roundup, non-state
+    reporting; anything with a usable URL as a last resort."""
+    shown = display_text(c).strip()
+    shown_words = _words(shown)
+    ev = [e for e in evidence(c) if (e.url or "").startswith("http")]
+
+    def rank(e):
+        reporting = e.section not in NON_REPORTING and e.section not in STRUCTURED
+        # a bare domain ("https://liveuamap.com") is a homepage, not a source
+        path = urlsplit(e.url).path.lower()
+        article = len(path.strip("/")) > 0 and not path.endswith(_MEDIA_EXT)
+        return (article,
+                (e.title or "").strip() == shown,        # the article actually shown
+                len(_words(e.title) & shown_words),      # else the most similar story
+                reporting and e.section not in LOCAL,
+                not ROUNDUP.search(e.title or ""),       # a newsletter is not the source
+                e.section not in STATE_MEDIA,            # prefer independent outlets
+                reporting)
+    return max(ev, key=rank).url if ev else ""
