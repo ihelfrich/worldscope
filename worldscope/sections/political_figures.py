@@ -305,11 +305,13 @@ def _fetch_doj_rss(timeout: int = 15) -> list[dict]:
     """Pull recent DOJ press releases. Returns minimal rows we'll scan
     against the registry by name."""
     url = "https://www.justice.gov/news/rss"
-    try:
-        import feedparser
-        f = feedparser.parse(url, request_headers={"User-Agent": UA})
-    except Exception:
-        return []
+    import feedparser
+    f = feedparser.parse(url, request_headers={"User-Agent": UA})
+    status = getattr(f, "status", 200)
+    if status >= 400:
+        raise RuntimeError(f"DOJ RSS answered HTTP {status}")
+    if not (f.entries or []) and getattr(f, "bozo", False):
+        raise RuntimeError(f"DOJ RSS unparseable: {getattr(f, 'bozo_exception', '')}"[:160])
     rows: list[dict] = []
     for entry in (f.entries or [])[:75]:
         date_str = ""
@@ -329,7 +331,7 @@ def _fetch_doj_rss(timeout: int = 15) -> list[dict]:
 
 
 def _fetch_courtlistener_recent(figure_name: str, *, days: int = 14,
-                                 timeout: int = 12) -> list[dict]:
+                                 timeout: int = 12) -> list[dict] | None:
     """Targeted CourtListener search for the figure's name in RECAP filings
     over the last `days` days. Returns row dicts.
 
@@ -354,7 +356,7 @@ def _fetch_courtlistener_recent(figure_name: str, *, days: int = 14,
         resp.raise_for_status()
         data = resp.json()
     except Exception:
-        return []
+        return None   # failed lookup: the caller reports it as a signal gap
     rows = []
     for res in (data.get("results") or [])[:5]:
         rows.append({
@@ -420,7 +422,11 @@ class PoliticalFiguresSection(Section):
         ptrs_all = _load_quiver_ptrs_from_lake()
         gdelt_all = _load_gdelt_gkg_from_lake()
         form4_all = _load_form4_from_lake()
-        doj_all = _fetch_doj_rss()
+        try:
+            doj_all = _fetch_doj_rss()
+            doj_error = ""
+        except Exception as exc:
+            doj_all, doj_error = [], str(exc)[:160]
 
         # PTRs: group by Quiver "Representative" string (last_first or similar).
         ptr_by_norm: dict[str, list[dict]] = defaultdict(list)
@@ -438,6 +444,7 @@ class PoliticalFiguresSection(Section):
             "gdelt_all": gdelt_all,
             "form4_all": form4_all,
             "doj_all": doj_all,
+            "doj_error": doj_error,
             # The freshest signal date actually present in the COMMITTED LAKE.
             # The scorer measures recency against THIS rather than wall-clock
             # today, so a lake that is a few days stale (CI, a fresh checkout
@@ -569,8 +576,25 @@ class PoliticalFiguresSection(Section):
         top_for_cl = [(fig, sig) for (fig, sig, _) in ranked[:self.CL_QUERY_TOP_K]
                       if sig is not None]
         cl_results: dict[str, list[dict]] = {}
+        cl_failed = 0
         for fig, _sig in top_for_cl:
-            cl_results[fig["id"]] = _fetch_courtlistener_recent(fig.get("name") or "")
+            hits = _fetch_courtlistener_recent(fig.get("name") or "")
+            if hits is None:
+                cl_failed += 1
+                hits = []
+            cl_results[fig["id"]] = hits
+
+        # A failed feed zeroes its score component for everyone, which reads
+        # as "calm" rather than "unmeasured". Say so on every item.
+        gaps: list[str] = []
+        if index.get("doj_error"):
+            gaps.append(f"DOJ press releases unavailable ({index['doj_error']})")
+        if top_for_cl and cl_failed == len(top_for_cl):
+            gaps.append(f"CourtListener lookups failed for all {cl_failed} top figures")
+        elif cl_failed:
+            gaps.append(f"CourtListener lookups failed for {cl_failed} of {len(top_for_cl)} top figures")
+        if gaps:
+            print(f"[political_figures] signal gaps: {'; '.join(gaps)}", flush=True)
 
         # Build the final items list
         out: list[dict] = []
@@ -643,7 +667,9 @@ class PoliticalFiguresSection(Section):
                     f"Form 4 hits: {len(sig.get('filings') or [])}. "
                     f"DOJ mentions: {len(sig.get('doj_hits') or [])}. "
                     f"Court filings: {len(sig.get('court_hits') or [])}."
-                )[:600],
+                    + (f" Signal gaps: {'; '.join(gaps)}." if gaps else "")
+                )[:800],
+                "signal_gaps": gaps,
                 "figure_id": fid,
                 "figure_name": name,
                 "figure_role": role,
