@@ -75,6 +75,24 @@ def keyword_regex(keywords) -> "re.Pattern | None":
     return _KW_CACHE[key]
 
 
+_COUNTRY_ALIASES = {
+    "us": "united states", "usa": "united states", "u.s.": "united states",
+    "u.s.a.": "united states", "united states of america": "united states",
+    "america": "united states",
+    "uk": "united kingdom", "u.k.": "united kingdom", "britain": "united kingdom",
+    "great britain": "united kingdom",
+    "türkiye": "turkey", "turkiye": "turkey",
+    "russian federation": "russia", "south korea": "korea, south",
+    "republic of korea": "korea, south", "north korea": "korea, north",
+    "dprk": "korea, north", "prc": "china", "people's republic of china": "china",
+}
+
+
+def _country_key(name: str) -> str:
+    k = " ".join((name or "").lower().split())
+    return _COUNTRY_ALIASES.get(k, k)
+
+
 @dataclass
 class WatchArea:
     name: str
@@ -95,9 +113,12 @@ class WatchArea:
         if self.sources and source_id and source_id not in self.sources:
             return False
         # Country match
-        ic = (item.get("country") or "").lower()
-        if self.countries:
-            if any(c.lower() in ic or ic in c.lower() for c in self.countries if c):
+        # Country match: whole names. The old two-way substring test made an
+        # item with no country ("" is in every string) match every area that
+        # lists countries, and "Niger" match "Nigeria".
+        ic = _country_key(item.get("country") or "")
+        if self.countries and ic:
+            if ic in {_country_key(c) for c in self.countries if c}:
                 return True
         # Actor match
         ia = (item.get("actors") or "") + " " + (item.get("actor1") or "") + " " + (item.get("actor2") or "")

@@ -34,3 +34,18 @@ def test_shipped_watch_areas_have_no_ambiguous_bare_keywords():
               "rrp", "sln"}
     for area in load_watch_areas():
         assert not banned & {k.lower() for k in area.keywords}, area.name
+
+
+def test_item_without_country_does_not_match_country_areas():
+    area = WatchArea(name="Sahel", countries=["Mali", "Niger"])
+    assert not area.matches({"title": "AP1000 Design Certification Renewal"})
+    assert not area.matches({"title": "x", "country": ""})
+
+
+def test_country_match_is_whole_name_with_aliases():
+    area = WatchArea(name="Sahel", countries=["Niger"])
+    assert not area.matches({"title": "x", "country": "Nigeria"})
+    assert area.matches({"title": "x", "country": "niger"})
+    us = WatchArea(name="Trade", countries=["United States"])
+    assert us.matches({"title": "x", "country": "USA"})
+    assert us.matches({"title": "x", "country": "U.S."})
