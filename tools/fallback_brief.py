@@ -268,22 +268,12 @@ def _track_record_totals() -> tuple[int, int]:
 
 
 def data_day(today: date) -> date:
-    """The newest day the lake holds collected data for, never after ``today``.
-
-    The daily collection has landed as late as 16:17 UTC, so an edition built
-    earlier must be assembled as of the last collected day: built "as of
-    today" it reported 4/42 sections fresh and every story as fading.
-    """
-    try:
-        from worldscope.lake import Lake
-        lake = Lake.open()
-        conn = lake._ensure_open()
-        newest = conn.execute("SELECT MAX(substr(ingested_at, 1, 10)) FROM records").fetchone()[0]
-        lake.close()
-        return min(today, date.fromisoformat(newest)) if newest else today
-    except Exception as exc:
-        print(f"[fallback] could not read lake data date: {exc}")
-        return today
+    """The newest day the lake holds collected data for, never after ``today``
+    (shared with the board: worldscope.momentum.newest_collected_day). The
+    daily collection has landed as late as 16:17 UTC; built "as of today" the
+    edition reported 4/42 sections fresh and every story as fading."""
+    from worldscope.momentum import newest_collected_day
+    return newest_collected_day(today)
 
 
 def build(today: date, *, as_of: date | None = None) -> str:

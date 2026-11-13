@@ -70,3 +70,16 @@ def test_a_day_with_no_collection_is_not_graded_no(monkeypatch):
                         lambda day, lake_path=None: {"nvidia": {"a", "b", "c"}})
     assert mc.grade_due(lake, c, today=date(2026, 11, 16)) == 1
     assert lake.resolved[0]["actual_outcome"] == "YES"
+
+
+def test_newest_collected_day_never_runs_past_the_data(tmp_path):
+    from worldscope.momentum import newest_collected_day
+    db = tmp_path / "w.sqlite"
+    c = sqlite3.connect(db)
+    c.execute("CREATE TABLE records (ingested_at TEXT)")
+    c.execute("INSERT INTO records VALUES ('2026-11-12T23:52:19Z')")
+    c.commit()
+    c.close()
+    assert newest_collected_day(date(2026, 11, 13), db) == date(2026, 11, 12)
+    assert newest_collected_day(date(2026, 11, 10), db) == date(2026, 11, 10)
+    assert newest_collected_day(date(2026, 11, 13), tmp_path / "missing.sqlite") == date(2026, 11, 13)

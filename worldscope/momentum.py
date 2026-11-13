@@ -171,6 +171,25 @@ def _classify(r: list[int], s: list[int], days_present: int, window: int) -> str
     return ""
 
 
+def newest_collected_day(today: date, lake_path: Path | None = None) -> date:
+    """The newest day the lake holds collected records for, never after
+    ``today``. Between midnight UTC and the daily build, "today" has no data;
+    momentum computed for it shows every story fading ("today 0/day"), which
+    is what the homepage showed each morning until the build landed."""
+    import sqlite3
+    lake_path = Path(lake_path or DEFAULT_LAKE)
+    try:
+        con = sqlite3.connect(f"file:{lake_path}?mode=ro", uri=True)
+        newest = con.execute("SELECT MAX(substr(ingested_at, 1, 10)) FROM records").fetchone()[0]
+        con.close()
+    except sqlite3.Error:
+        return today
+    try:
+        return min(today, date.fromisoformat(newest)) if newest else today
+    except ValueError:
+        return today
+
+
 def build_momentum(today: date, *, lake_path: Path | None = None,
                    days: int = WINDOW_DAYS, limit: int = 12) -> dict:
     """Return {'days': [iso...], 'stories': [Story-as-dict...]} for the board.

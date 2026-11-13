@@ -378,8 +378,11 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
 
     # ── Developing: cross-day story momentum (the board's memory) ───────────
     try:
-        mom = build_momentum(today)
+        from worldscope.momentum import newest_collected_day
+        mom_day = newest_collected_day(today)
+        mom = build_momentum(mom_day)
     except Exception as exc:
+        mom_day = today
         print("momentum failed:", exc)
         mom = {"days": [], "stories": []}
     momentum_html = _momentum_section(mom, esc)
@@ -387,7 +390,7 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
         from worldscope import momentum_calls as mc
         from worldscope.lake import Lake
         _lk = Lake.open()
-        calls = mc.make_calls(mom.get("stories", []), today=today,
+        calls = mc.make_calls(mom.get("stories", []), today=mom_day,
                               record=mc.track_record(_lk._ensure_open()))
         _lk.close()
     except Exception as exc:
