@@ -18,7 +18,7 @@ from datetime import datetime, timedelta, timezone
 
 import feedparser
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError
 
 FEED = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=4&output=atom"
 UA = "Ian Helfrich worldscope/0.1 ianthelfrich@gmail.com"
@@ -49,8 +49,18 @@ class Form4Section(Section):
         cutoff = datetime.now(timezone.utc) - timedelta(hours=self.WINDOW_HOURS)
         try:
             feed = feedparser.parse(FEED, agent=UA)
-        except Exception:
-            return []
+        except Exception as exc:
+            raise UpstreamHTTPError(f"SEC EDGAR Form 4 feed fetch failed: {exc}") from exc
+        # feedparser rarely raises: an HTTP error or a blocked request (EDGAR
+        # refuses agents it doesn't like) arrives as a status or a bozo feed
+        # with no entries, which used to read as "no insider filings".
+        status = getattr(feed, "status", 200)
+        entries = getattr(feed, "entries", []) or []
+        if status >= 400:
+            raise UpstreamHTTPError(f"SEC EDGAR Form 4 feed answered HTTP {status}")
+        if not entries and getattr(feed, "bozo", False):
+            raise UpstreamParseError(
+                f"SEC EDGAR Form 4 feed unparseable: {getattr(feed, 'bozo_exception', '')}"[:200])
 
         items: list[dict] = []
         for e in getattr(feed, "entries", []) or []:

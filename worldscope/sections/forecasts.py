@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import Section
+from . import Section, UpstreamHTTPError, UpstreamParseError, UpstreamSchemaError
 
 API = "https://gamma-api.polymarket.com/markets"
 UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com)"
@@ -38,15 +38,22 @@ class ForecastsSection(Section):
             "ascending": "false",
             "limit": self.LIMIT,
         }
+        # forecasts is a REQUIRED readiness source: a swallowed failure here
+        # used to read as a fresh, empty market day and never degraded.
         try:
             resp = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=25)
-            resp.raise_for_status()
+        except requests.RequestException as exc:
+            raise UpstreamHTTPError(f"Polymarket unreachable: {exc}") from exc
+        if resp.status_code != 200:
+            raise UpstreamHTTPError(f"Polymarket answered HTTP {resp.status_code}")
+        try:
             data = resp.json()
-        except Exception:
-            return []
+        except ValueError as exc:
+            raise UpstreamParseError("Polymarket returned non-JSON") from exc
 
         if not isinstance(data, list):
-            return []
+            raise UpstreamSchemaError(
+                f"Polymarket markets response is a {type(data).__name__}, expected a list")
 
         items: list[dict] = []
         for m in data[: self.LIMIT]:
