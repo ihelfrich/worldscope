@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import datetime as _dt
 import html
+import hashlib
 import json
 import re
 import shutil
@@ -673,20 +674,40 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
     src_dir = REPO / kind
     base = f"https://ihelfrich.github.io/worldscope/{kind}"
     entries: list[str] = []
+    # <updated> must move when a brief is republished (an automated edition
+    # refreshed, a correction), or feed readers keep the first version. The
+    # render job checks out shallowly, so git history can't date a change;
+    # a committed content-hash ledger next to the feed does.
+    state_path = out_dir / ".feed_state.json"
+    try:
+        state = json.loads(state_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        state = {}
+    now_iso = _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for p in pages[:50]:
         md = src_dir / f"{p.stem}.md"
         meta = _brief_meta(md) if md.exists() else {
             "headline": p.stem, "teaser": "",
         }
         try:
-            iso = _dt.date.fromisoformat(p.stem).isoformat() + "T11:00:00Z"
+            published = _dt.date.fromisoformat(p.stem).isoformat() + "T11:00:00Z"
         except ValueError:
-            iso = _dt.datetime.utcnow().isoformat(timespec="seconds") + "Z"
+            published = now_iso
+        digest = (hashlib.sha256(md.read_bytes()).hexdigest()[:16] if md.exists() else "")
+        prev = state.get(p.stem)
+        if prev is None:
+            iso = published                    # first sighting: its own date
+        elif prev.get("hash") != digest:
+            iso = max(published, now_iso)       # republished: bump
+        else:
+            iso = prev.get("updated", published)
+        state[p.stem] = {"hash": digest, "updated": iso}
         entries.append(
             f"  <entry>\n"
             f"    <title>{html.escape(meta['headline'])}</title>\n"
             f"    <link href='{base}/{p.name}'/>\n"
             f"    <id>{base}/{p.stem}</id>\n"
+            f"    <published>{published}</published>\n"
             f"    <updated>{iso}</updated>\n"
             f"    <summary>{html.escape(meta['teaser'])}</summary>\n"
             f"  </entry>"
@@ -704,6 +725,7 @@ def _render_feed(out_dir: Path, kind: str, pages: list[Path]) -> None:
         "</feed>\n"
     )
     out_dir.joinpath("feed.xml").write_text(feed, encoding="utf-8")
+    state_path.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
 
 def render_root_landing(out_root: Path) -> None:
