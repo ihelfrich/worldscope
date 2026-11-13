@@ -57,12 +57,17 @@ WATCHLIST: list[tuple[str, str]] = [
 ]
 
 
+def _norm(name: str) -> str:
+    return "".join(ch for ch in (name or "").lower() if ch.isalpha())
+
+
 class GdeltRegionsSection(Section):
     id = "gdelt_regions"
     title = "World News (by country, top stories)"
     emoji = "🌍"
 
     PER_COUNTRY = 6
+    COMBINED_RECORDS = 250   # DOC API maximum
     REQUEST_TIMEOUT_S = 15
     PULL_TIMEOUT_S = 150
     BUDGET_S = 125           # stop issuing queries; in-flight one may add REQUEST_TIMEOUT_S
@@ -107,7 +112,6 @@ class GdeltRegionsSection(Section):
         base = {
             "mode": "artlist",
             "format": "json",
-            "maxrecords": self.PER_COUNTRY,
             "startdatetime": start.strftime("%Y%m%d%H%M%S"),
             "enddatetime": end.strftime("%Y%m%d%H%M%S"),
             "sort": "datedesc",
@@ -115,17 +119,57 @@ class GdeltRegionsSection(Section):
         self._deadline = time.monotonic() + self.BUDGET_S
         items: list[dict] = []
         got_any = False
+        covered: set[str] = set()
+        by_norm = {_norm(name): name for _, name in WATCHLIST}
+
+        # 1. One request for every country. From shared CI runners GDELT
+        #    rate-limits far below its documented 1 req / 5 s (2026-11-13:
+        #    126 s bought 4 of 19 per-country answers), so a request is the
+        #    scarce resource. If GDELT rejects the OR'd query it answers in
+        #    plain text, which doc_get reports as a failure, and step 2 covers
+        #    every country instead.
+        clause = " OR ".join(f"sourcecountry:{code}" for code, _ in WATCHLIST)
+        combined = self._fetch_one("ALL", {"query": f"({clause}) sourcelang:english",
+                                           "maxrecords": self.COMBINED_RECORDS, **base})
+        if combined is not None:
+            got_any = True
+            per: dict[str, int] = {}
+            for art in combined.get("articles") or []:
+                name = by_norm.get(_norm(art.get("sourcecountry", "")))
+                if name is None or per.get(name, 0) >= self.PER_COUNTRY:
+                    continue
+                per[name] = per.get(name, 0) + 1
+                items.append(self._normalize(name, art))
+            covered = set(per)
+
+        # 2. Top up the countries the combined answer missed, one at a time,
+        #    starting at a daily-rotating offset so a short budget does not
+        #    always drop the same ones.
         shift = datetime.now(timezone.utc).toordinal() % len(WATCHLIST)
+        topped = 0
         for code, name in WATCHLIST[shift:] + WATCHLIST[:shift]:
+            if name in covered:
+                continue
             if time.monotonic() >= self._deadline:
                 break  # budget spent — return partial instead of overrunning
-            params = {"query": f"sourcecountry:{code} sourcelang:english", **base}
+            params = {"query": f"sourcecountry:{code} sourcelang:english",
+                      "maxrecords": self.PER_COUNTRY, **base}
             data = self._fetch_one(code, params)
             if data is None:
                 continue
             got_any = True
-            for art in (data.get("articles") or [])[: self.PER_COUNTRY]:
+            arts = (data.get("articles") or [])[: self.PER_COUNTRY]
+            if arts:
+                topped += 1
+                covered.add(name)
+            for art in arts:
                 items.append(self._normalize(name, art))
+        self.coverage = {"combined": combined is not None, "countries": len(covered),
+                         "of": len(WATCHLIST), "topped_up": topped}
+        print(f"[gdelt_regions] coverage {len(covered)}/{len(WATCHLIST)} countries "
+              f"(combined query {'ok' if combined is not None else 'failed'}, "
+              f"{topped} topped up){'; last error: ' + self.last_error if self.last_error else ''}",
+              flush=True)
         # Sort newest first for the briefing
         items.sort(key=lambda it: it.get("date", ""), reverse=True)
         if not items and not got_any:
