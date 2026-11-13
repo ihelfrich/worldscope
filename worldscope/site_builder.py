@@ -41,6 +41,42 @@ PAGES_BASE = "https://ihelfrich.github.io/worldscope"
 # Pretty-print section IDs as titles. snake_case to Title Case + a few overrides
 # for tighter naming.
 PRETTY_NAMES = {
+    "acled": "ACLED Conflict Events",
+    "billionaires": "Billionaires",
+    "chinese_internal": "Chinese Domestic Press",
+    "commentary": "Commentary",
+    "conflict": "Conflict & Unrest",
+    "congressional_trades": "Congressional Trades",
+    "courtlistener": "CourtListener",
+    "epss": "EPSS Exploit Prediction",
+    "federal_register": "Federal Register",
+    "firms": "NASA FIRMS Fires",
+    "forecasts": "Prediction Markets",
+    "foreign_news": "Foreign News",
+    "form4": "SEC Form 4 Insider Trades",
+    "gdacs": "GDACS Disaster Alerts",
+    "local_news": "Local News",
+    "macro": "Macro Indicators",
+    "markets": "US Markets",
+    "markets_global": "Global Markets",
+    "mediacloud": "MediaCloud",
+    "paper_bet_placement": "Paper-Bet Placement",
+    "paper_bets": "Paper Bets",
+    "people": "People Watch",
+    "political_figures": "Political Figures",
+    "promed": "ProMED Outbreaks",
+    "reliefweb": "ReliefWeb",
+    "russian_internal": "Russian Press",
+    "sanctions": "Sanctions",
+    "sanctions_procurement": "Sanctions & Procurement",
+    "state_bills": "State Legislation",
+    "state_news": "State News",
+    "tech_news": "Tech News",
+    "ukrainian_internal": "Ukrainian Press",
+    "usgs_quakes": "USGS Earthquakes",
+    "weather": "Weather & Hazards",
+    "who_don": "WHO Disease Outbreak News",
+    "wikidata_changes": "Wikidata Leader Edits",
     "cisa_kev": "CISA Known Exploited Vulnerabilities",
     "fec": "FEC Campaign Finance",
     "gdelt_gkg": "GDELT Global Knowledge Graph",
@@ -89,7 +125,46 @@ SECTION_DESCRIPTIONS = {
     "ukraine_theater": "Total-theater monitoring: ACLED + FIRMS + DeepStateMap + OSINT",
     "paper_bets": "Paper-betting prediction-market simulation (no real money)",
     "paper_bet_placement": "Daily paper-bet placement decisions",
+    "epss": "FIRST EPSS: probability each CVE is exploited in the next 30 days",
+    "gdacs": "UN/EC Global Disaster Alert and Coordination System alerts",
+    "tech_news": "Technology press: AI, chips, security, platforms",
+    "usgs_quakes": "USGS significant earthquakes worldwide",
+    "who_don": "World Health Organization Disease Outbreak News",
 }
+
+# Section status from the daily run report, in the same plain words the
+# automated brief uses, so a reader can see a source is down from its card.
+_STATUS_WORDS = {
+    "MissingCredential": "no key", "UpstreamAuthError": "credential rejected",
+    "FeedRetired": "feed retired", "UpstreamSchemaError": "format changed upstream",
+    "UpstreamParseError": "unreadable response", "UpstreamHTTPError": "upstream down",
+    "PullTimeout": "timed out",
+}
+
+
+def section_status(run_report: dict, sid: str) -> tuple[str, str]:
+    """(css class, label) for a section from the run report; ("", "") if unknown.
+    Class names are written out in full so Tailwind's content scan keeps them."""
+    e = (run_report.get("sections") or {}).get(sid)
+    if not isinstance(e, dict):
+        return "", ""
+    state, etype = e.get("state"), e.get("error_type")
+    if state == "fresh":
+        return "ws-status-ok", "fresh"
+    if state == "fresh_empty":
+        return "ws-status-ok", "fresh · quiet day"
+    if state == "carry_forward" and not etype:
+        return "ws-status-held", f"carried from {e.get('source_date') or 'earlier'}"
+    if etype in _STATUS_WORDS:
+        return "ws-status-bad", _STATUS_WORDS[etype]
+    return "ws-status-bad", (state or "unknown").replace("_", " ")
+
+
+def _load_run_report() -> dict:
+    try:
+        return json.loads((REPO / "dist" / "run_report.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
 
 
 def pretty_section(sid: str) -> str:
@@ -461,8 +536,12 @@ def render_section_index(section_id: str, out_root: Path,
     all_dates = _list_section_dates(section_id)
     rendered = set(rendered_dates) if rendered_dates is not None else set(all_dates)
     rows: list[str] = []
+    hidden = 0
     for d in all_dates:
         n = _record_count_for_date(section_id, d)
+        if n == 0 and d not in rendered:
+            hidden += 1          # an empty archived day says nothing; count it below
+            continue
         n_str = f'{n} record{"s" if n != 1 else ""}'
         if d in rendered:
             rows.append(
@@ -496,6 +575,9 @@ def render_section_index(section_id: str, out_root: Path,
         + '<div class="flex flex-col">'
         + "".join(rows)
         + '</div>'
+        + (f'<p class="font-sans text-xs text-slate mt-4">{hidden} earlier day'
+           + ("s" if hidden != 1 else "") + ' with no records not listed.</p>'
+           if hidden else "")
     )
     out_dir = out_root / "sections" / section_id
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -517,15 +599,19 @@ def render_sections_root(out_root: Path) -> Path:
         d.name for d in LAKE.iterdir() if d.is_dir() and not d.name.startswith("_")
     )
     cards: list[str] = []
+    report = _load_run_report()
     for sid in section_ids:
         dates = _list_section_dates(sid)
         latest = dates[0] if dates else None
         latest_n = _record_count_for_date(sid, latest) if latest else 0
         desc = SECTION_DESCRIPTIONS.get(sid, "")
         sid_seg = safe_path_segment(sid)
+        cls, label = section_status(report, sid)
+        chip = (f'<span class="ws-status {cls}">{html.escape(label)}</span>'
+                if label else "")
         cards.append(
             f'<a class="ws-section-card" href="./{html.escape(sid_seg, quote=True)}/">'
-            f'<div class="ws-name">{html.escape(pretty_section(sid))}</div>'
+            f'<div class="ws-name">{html.escape(pretty_section(sid))}{chip}</div>'
             f'<div class="ws-desc">{html.escape(desc)}</div>'
             f'<div class="ws-count">{len(dates)} day'
             + ("s" if len(dates) != 1 else "")
