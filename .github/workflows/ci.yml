@@ -39,5 +39,16 @@ jobs:
           # import (numpy, matplotlib). Install the package itself too so the
           # `worldscope` import path resolves.
           pip install -e ".[dev]"
+      - name: Static check for bug-class errors
+        # Only rules that are bugs, never style: undefined names, names used
+        # before assignment, duplicate definitions, invalid comparisons,
+        # break/continue/return/yield misplaced, mutable default arguments.
+        # A NameError in a rarely-taken path otherwise surfaces in the 06:00
+        # daily build, not in review.
+        run: |
+          pip install "ruff==0.17.5"
+          ruff check --no-cache --output-format github \
+            --select F821,F822,F823,F811,F632,F701,F702,F704,F706,F707,B006 \
+            worldscope tools
       - name: Run tests
         run: pytest

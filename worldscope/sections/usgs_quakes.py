@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import Section, UpstreamHTTPError, UpstreamParseError
+from . import Section, SectionState, UpstreamHTTPError, UpstreamParseError
 
 FEED = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
 UA = "worldscope/0.1 (contact: ianthelfrich@gmail.com)"
