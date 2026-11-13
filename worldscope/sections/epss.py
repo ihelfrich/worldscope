@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import requests
 
-from . import Section, UpstreamHTTPError, UpstreamParseError
+from . import Section, SectionState, UpstreamHTTPError, UpstreamParseError
 
 API = "https://api.first.org/data/v1/epss"
 NVD = "https://nvd.nist.gov/vuln/detail/{cve}"

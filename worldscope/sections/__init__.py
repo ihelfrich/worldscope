@@ -32,7 +32,10 @@ from ..textutil import clean_text, safe_href, strip_html
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import date, datetime, timezone
-from typing import Any, Optional
+from typing import TYPE_CHECKING, Any, Optional
+
+if TYPE_CHECKING:  # annotation only; the lake imports sections lazily
+    from ..lake import ArtifactSet
 
 from ..store import SnapshotStore
 
@@ -512,7 +515,6 @@ class Section(ABC):
         """Write the three-artifact set under lake/sections/<section>/<date>/
         AND mirror the raw records into the lake's `records` table. The
         orchestrator calls this once per section after resolve() returns."""
-        from datetime import datetime, timezone
         from ..lake import Lake, ArtifactSet
 
         lake = lake or Lake.open()

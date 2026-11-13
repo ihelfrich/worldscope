@@ -33,7 +33,7 @@ from __future__ import annotations
 
 import requests
 
-from . import Section, UpstreamHTTPError, UpstreamParseError
+from . import Section, SectionState, UpstreamHTTPError, UpstreamParseError
 
 API_ROOT = "https://www.gdacs.org/gdacsapi/api/events/geteventlist"
 API = f"{API_ROOT}/EVENTS4APP"          # all current events, all types

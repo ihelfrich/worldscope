@@ -190,7 +190,7 @@ CHART_SPECS = [
 ]
 
 
-def _latest_chart_date(today: date) -> Optional[str]:
+def _latest_chart_date(today: date) -> str | None:
     bdir = REPO / "dist" / "briefings"
     for d in range(0, 9):
         ds = (today - timedelta(days=d)).isoformat()
