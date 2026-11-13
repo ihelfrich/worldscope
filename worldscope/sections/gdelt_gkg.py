@@ -26,7 +26,7 @@ import time
 from datetime import datetime, timedelta, timezone
 
 from ..lib import gdelt, gdelt_files
-from ..lib.watchareas import WatchArea, load_watch_areas
+from ..lib.watchareas import WatchArea, keyword_regex, load_watch_areas
 from . import Section, UpstreamHTTPError, UpstreamSchemaError
 
 
@@ -114,13 +114,8 @@ class GdeltGkgSection(Section):
                 subsets.append(("themes", [a for a in batch.articles
                                            if len(a.themes & themes) >= need
                                            and (in_box is None or in_box(a))]))
-            kws = [k for k in area.keywords if k and k.strip()]
-            if kws:
-                # Whole words/phrases, as the DOC path's quoted phrases were;
-                # a substring test let "itc" match "City".
-                kw_re = re.compile(r"(?<!\w)(?:" + "|".join(
-                    re.escape(k.strip()) for k in sorted(kws, key=len, reverse=True))
-                    + r")(?!\w)", re.I)
+            kw_re = keyword_regex(area.keywords)
+            if kw_re is not None:
                 subsets.append(("keywords", [a for a in batch.articles
                                              if kw_re.search(a.title)]))
             if in_box is not None:
