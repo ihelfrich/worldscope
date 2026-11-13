@@ -3,20 +3,30 @@ section: ukraine_theater
 title: Ukraine Theater (total-war monitoring)
 date: 2026-11-13
 record_count: 268
-new_today: 26
+new_today: 32
 state: fresh
 ---
 
 ## Ukraine Theater (total-war monitoring)
 
-26 new of 268 total items today.
+32 new of 268 total items today.
 
-- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-11-13*
-  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - **NEW**  [[DeepStateMap] frontline snapshot, 522 polygons](https://deepstatemap.live/) — *2026-11-13*
   > Daily community-maintained frontline cartography. Polygon coverage in extra.
+- [[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)](https://api.alerts.in.ua/v1/alerts/active.json) — *2026-11-13*
+  > 401 Client Error: Unauthorized for url: https://api.alerts.in.ua/v1/alerts/active.json
 - [[acled exception] UpstreamAuthError]() — *2026-11-13*
   > ACLED rejected credentials for Ianthelfrich@gmail.com: 400 The user credentials were incorrect. (check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)
+- [[ISW] Russian Offensive Campaign Assessment, November 12, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-11-13*
+  > <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOS0ZCNWtnS014SUc5a0VIUWswMkMtaW85LWRaTFdLc1pIRHdtTE5OMG9kNGh6TVF1RE4zTnBuQXc2dG80RHhOdkRkMlZicDhCOG5oZ0pqS0xrcGNwSWg4SlFlV0Q0WXJtTkpfenBwZ0tWX1JCNVdldnJTOHlHQ09oVm5tMXRqY21TbGJLTXN1dzZuRmtidmZfeFhVeHcwTlBOczFrenpfb25aWG
+- [[ISW] Russian Offensive Campaign Assessment, November 11, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-11-12*
+  > <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNbkJQaldRYmhraFQyZG44UzA3NkRXQjd6RkpkQ0FITWJfSG5Ra01Uc2JYamV4WVhkaDlWWi1RUzNFQWRRRERSYUpxNW5ZUXhyWUdzdnpDNlhGam92VEplVTFfWW9TdHNDUThfalVKUndQVGdWdE8wUjdqS3FhbHlfbm1vX3E2YUExM05NNUJZbUNKejJwQ20td1ZzYm5yZjFtZUVvTXQ2QnRVWD
+- [[ISW] Iran Update, November 11, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-11-12*
+  > <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXhKMWgyZXZwTlJ6QWRXRGpqMkFRQzRMWjNCc2ItTElhTkZuUEptcFlvcnBlUVRNa0FLYWU1dTBFdml2NFVNUnYyeGlldTNjLVlVNkpNV3kySmdBYXJwQmdnTEZmalVnR1lGNnlBVEljcGdvVGE3SEJQLTg4b1dOWHV0eVRPZw?oc=5" target="_blank">Iran Update, November 11,
+- [[ISW] Russian Offensive Campaign Assessment, November 10, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-11-11*
+  > <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNMWhDZlpyaThZbEdPM1pTNXgyM3hvOGZzSGFieVY4VkpIdGZpX1ZFYzBrMGRJenozTFlFdTV4YTVfQXl3clNUZEpNc0VBQlhjdl9aRzhsWl9ONTZIMThDeUIyOWdhNFlEcGo2LUNwSXdQejg1N18yN2xGQmRGOERrYWZ4Wm9ydGZYTmZKdnFyYTA0ZU1McVNlUWVaVGhWcXM2WkNlVzVLU3V2Mk
+- [[ISW] Russian Offensive Campaign Assessment, November 9, 2026 - Institute for the Study of War](https://understandingwar.org) — *2026-11-10*
+  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxORlI0bmFuSmpUc294a19RZG8wcjc3SHZVazlidGJNenA3cDNhLTB1bEwyZlZDVzB0cTVHQTc1OG5nNHRYdnVHYUQ1VEdHTmhmTkNJaHV2Zi13bm9CbzFXSnNERnlUSktObGNfaXVuc21KOGF3RGNKYUxVaElEa09jb01ncW1VZGIxbFpMVmhJMEVaZFJMZnQ5NzdDQXcydXZuaFZUQS1sUGpkYn
 - **NEW**  [[Liveuamap] Houthi forces… – Lahij Governorate, Yemen - Liveuamap](https://yemen.liveuamap.com) — *2026-11-12*
   > <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNM0hBdE9zSVA3T1d4cHBKcW9LODlHR2ROODlHMDVBYVBNUE5Sa18tRGVPblM1YnNaS0c3bzItXy1PX2xJZlFDOXdQWWNFTXN5dHlCajB4SWJGZ19iUG1nQ3hENWU0WEoyRVh5aEhRbTBpdTJ5ZzM0R1dGTG1kWGt4UktvSXRsMXFIbURqQVVxaEk1VEF6Z0h1a29UTDE?oc=5" target="_bla
 - [[Liveuamap] Explosions were reported near the Omsk oil refinery – Omsk Oblast, Russia - Liveuamap](https://liveuamap.com) — *2026-11-11*
@@ -49,17 +59,7 @@ state: fresh
   > <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2Y3VzFERHFnSVpldWNvX21NRkhaWFFQTFFrejJpV3hjMEplU1dnUHJsbm5qbjIzTXhIaVo2N0p2Y0IwSjRyWTNxTnphRmNueVpSTFdjV0lGTU5WUXhhSnlsR2QyQkdXNVJCVjNkallxdHM4QVJKYXEwZ2lzZHp5dDY3Z2ZOSW9NdGotYWtVbWZjRTdaTWRfOEFFSGExYmNKSWZZYnFn?oc=5"
 - **NEW**  [[Liveuamap] President Donald Trump says the US-Israel war on Iran is "effectively over" militarily, adding that further military action against Tehran "doesn&039;t seem to be a very necessary thing." – Washington, DC - Liveuamap](https://iran.liveuamap.com) — *2026-11-10*
   > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUg4NzloM3M1dUhuWFJhZkRMX1lxU2VmVFJtLWZmR0RsaDB2RS1CYTc1aHRWb3gzYzVqMFViOTdCdlBvVm5Gd0psRXVIZWFGYU9uZnNUbVJqbG5oY1ZKN2oyZWMzODNUTENReDZlNWlJVTFpRFJlaC1ZZ01mSXF3bGs5WU1peDhkLVF4Yzd5cms3bGY4dHhYSktR?oc=5" target="_blank"
-- [[Liveuamap] Sahel live map: Mali, Burkina, Niger today | Liveuamap - Liveuamap](https://sahel.liveuamap.com) — *2018-05-02*
+- [[Liveuamap] Sahel live map: Mali, Burkina, Niger today | Liveuamap - Liveuamap](https://sahel.liveuamap.com) — *2026-11-12*
   > <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE56SHhvX0RiLU5rSE44a1ZZTjdlOXF5OExSek1NNndobWduM3h4X0wzM28wcnFqZ2lEN3Q4em9mTFBlUQ?oc=5" target="_blank">Sahel live map: Mali, Burkina, Niger today | Liveuamap</a>&nbsp;&nbsp;<font color="#6f6f6f">Liveuamap</font>
-- [[Liveuamap] 58th/Budlong: A call of a man with no clothes jumping in the middle of the street and throwing things at passing cars - Liveuamap](https://california.liveuamap.com) — *2026-11-11*
-  > <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHJYWElnVGJ3dmNiQjllMTVtQ0xhNHZFdHhtczluYWo5M3NIZHFaNXgwSjNZZzZNWmx4cnJ1MFVVVWNvampycTRIa1NnSjdpRVlVTExVYnYwZXZsdDZQS2pHY3EyTmVwdmFzRUxQSTMxNkt4S0ZPRXR6UUNzMkRFM3QxcnJJdlI3bEpkSDFXa0pIU3l6VUJmeTAzNW85X1dXNnExUUdfTFdoMm
-- [[Liveuamap] Authorities in Grady County arrested a suspect… - Liveuamap](https://oklahoma.liveuamap.com) — *2026-11-12*
-  > <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOTjBaUF9fdE05N2dvX0FmSE5wTlljbWhzM0dxMFVCZDVKTFliU0pWVVJlS2FmbnBFZWVmN3JrNHhNQ1M1Q3dMYXY0RVZuX2dvQ2dUdHlkQkdPMkJlMlVpWEg3NUlIM0p2WTE5LU1OT3JfT1U5VXVFZlFEOHhFaVg1bkpYVHRYaGdVV1hVU1pGM3gtOGxld21tVHZLSHZGNkFlMjhhNU44SWhTMm
-- [[Liveuamap] There will be no ceasefire. The Russians rejected our proposal, Zelensky said – København - Liveuamap](https://liveuamap.com) — *2026-11-11*
-  > <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzVBc0lwenM0RF9TRzJVQ2ZTdXpGcUhzTlIxZndmRFQ5Z29TWGtiQ3NXSzBDVDdoYW54bENaSTY0d0RGelczU2p5dF9kZW5MTS13ZURhVkVJZWU2Vk9BdHVYZVJzOUFDRGtNTDI0YjN2bzBuT0lXNlo0d3pzSDB6TFlBRXU3azgtVUk4UXE0N0dFc0tWX01iMg?oc=5" target="_blank">T
-- [[Liveuamap] Still & Box in the 4400 block of West Fulton Street – Chicago, Иллинойс - Liveuamap](https://illinois.liveuamap.com) — *2026-11-12*
-  > <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNUDFzbnMybzY0ZkttU3VvRmlwZXNjNkhxZGlpNnNZWlNyNkVRenhNWS1SS05JS0g0VlhkYnlBNFJYaHZuTkdhRENQQmFpNHk2TG1vcFFTbHRoUy1Md1VuTE1mLWo1ZlozX3l1QTdIWlgtUVVlZlo1VXhsc1g3SS00RWpzMGFFYTEyRXNFbTZ1V0N4TkJJNkZNUTFn?oc=5" target="_blank"
-- [[Liveuamap] Milwaukee WI - 10th/Pierce - shooting scene. Unknown victim status at the time of post – Milwaukee, Wisconsin - Liveuamap](https://wisconsin.liveuamap.com) — *2026-11-11*
-  > <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQk4zalUzWllDS2IzV2Y3NmlfakpYbEhNeHE3YWZuNk9kblhiaGZyWlZzbms1UUJWbWZFUGZ0RUhnS2plUDdkS0pNNXNrX1A0aFhKUFlVUmZ5dVBISVktZmpubHIwR3NUbHFRQ1o0c0RaYjZ0WEYxQl8xOE9KNmxiLUlRVXhyMnFUWHMtWm0xOG1faGJuSkFmS283eDAzX3pyQndadUJsR1doTW
 
 _(243 additional items in raw.jsonl)_
