@@ -48,3 +48,25 @@ def test_track_record_merges_backtest_and_live(tmp_path, monkeypatch):
         ("signal-fusion-v1", '["a","b"]', "YES"), (mc.METHOD, '["surging"]', None)])
     assert mc.track_record(c) == {"surging": (13, 120), "new:episodic": (0, 1)}
     assert mc.track_record(c, include_backtest=False) == {"surging": (1, 1), "new:episodic": (0, 1)}
+
+
+def test_a_day_with_no_collection_is_not_graded_no(monkeypatch):
+    class _Lake:
+        def __init__(self):
+            self.resolved = []
+
+        def resolve_prediction(self, **kw):
+            self.resolved.append(kw)
+    c = sqlite3.connect(":memory:")
+    c.row_factory = sqlite3.Row
+    c.execute("CREATE TABLE predictions (id TEXT, method TEXT, target_date TEXT, "
+              "resolution_criteria TEXT, actual_outcome TEXT)")
+    c.execute("INSERT INTO predictions VALUES ('p1', ?, '2026-11-15', "
+              "'Resolves YES if ''Nvidia'' (key ''nvidia'') ...', NULL)", (mc.METHOD,))
+    lake = _Lake()
+    monkeypatch.setattr(mc, "sections_on_day", lambda day, lake_path=None: {})
+    assert mc.grade_due(lake, c, today=date(2026, 11, 16)) == 0 and lake.resolved == []
+    monkeypatch.setattr(mc, "sections_on_day",
+                        lambda day, lake_path=None: {"nvidia": {"a", "b", "c"}})
+    assert mc.grade_due(lake, c, today=date(2026, 11, 16)) == 1
+    assert lake.resolved[0]["actual_outcome"] == "YES"

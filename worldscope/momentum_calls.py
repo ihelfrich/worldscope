@@ -154,6 +154,8 @@ def grade_due(lake, conn, *, today: date, lake_path=None) -> int:
         day = r["target_date"][:10]
         if day not in by_day:
             by_day[day] = sections_on_day(date.fromisoformat(day), lake_path=lake_path)
+        if not by_day[day]:
+            continue    # nothing collected that day: ungradeable, not a NO
         lake.resolve_prediction(prediction_id=r["id"], resolved_at=today.isoformat(),
                                 actual_outcome=grade_key_on_day(key, by_day[day]))
         graded += 1
