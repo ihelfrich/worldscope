@@ -54,6 +54,7 @@ def stub_engines(monkeypatch):
     monkeypatch.setattr(mom, "build_momentum", lambda d: {"days": [], "stories": []})
     monkeypatch.setattr(gv, "connections", lambda d: {"entities": []})
     monkeypatch.setattr(fb, "data_day", lambda d: d)
+    monkeypatch.setattr(fb, "_carried_forward", lambda: {})
     monkeypatch.setattr(fb, "cross_domain", lambda d: [])
 
 
@@ -206,3 +207,12 @@ def test_edition_built_before_collection_says_data_as_of(stub_engines, monkeypat
 
 def test_edition_after_collection_has_no_data_note(stub_engines):
     assert "Data as of" not in fb.build(date(2026, 11, 12), as_of=date(2026, 11, 12))
+
+
+def test_carried_forward_sections_are_labelled_not_empty(stub_engines, monkeypatch):
+    claims, reports, fresh, preds, recs = rr._gather(date(2026, 11, 12))
+    reports.append(_Report("people", "EMPTY"))
+    monkeypatch.setattr(rr, "_gather", lambda d: (claims, reports, fresh, preds, recs))
+    monkeypatch.setattr(fb, "_carried_forward", lambda: {"people": "2026-05-25"})
+    text = fb.build(date(2026, 11, 12), as_of=date(2026, 11, 12))
+    assert "people (carried from 2026-05-25)" in text and "people (empty)" not in text
