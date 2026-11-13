@@ -211,6 +211,22 @@ def cross_domain(today: date, *, limit: int = 6, min_domains: int = 3,
     return out
 
 
+def _carried_forward() -> dict[str, str]:
+    """Sections the daily run deliberately carried forward (no error), e.g.
+    people/sanctions, which CI skips because their corpus lives on the owner's
+    machine. The integrity view calls them "empty"; the run report knows they
+    are a held snapshot. {section: snapshot date}."""
+    try:
+        import json
+        rep = json.loads((REPO / "dist" / "run_report.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return {sid: e.get("source_date") or "an earlier run"
+            for sid, e in (rep.get("sections") or {}).items()
+            if isinstance(e, dict) and e.get("state") == "carry_forward"
+            and not e.get("error_type")}
+
+
 def data_day(today: date) -> date:
     """The newest day the lake holds collected data for, never after ``today``.
 
@@ -267,7 +283,10 @@ def build(today: date, *, as_of: date | None = None) -> str:
     # ---- source health ------------------------------------------------------
     n = len(reports)
     bad = [r for r in reports if r.status not in ("FRESH", "SKIPPED")]
-    gaps = ", ".join(f"{r.section_id} ({r.status.lower()})" for r in bad[:14])
+    carried = _carried_forward()
+    gaps = ", ".join(
+        f"{r.section_id} (carried from {carried[r.section_id]})" if r.section_id in carried
+        else f"{r.section_id} ({r.status.lower()})" for r in bad[:14])
     w(f"**Source health:** {fresh}/{n} sections fresh."
       + (f" Gaps: {gaps}." if gaps else " No gaps."))
     w("")
