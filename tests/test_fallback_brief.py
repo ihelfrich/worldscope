@@ -54,7 +54,7 @@ def stub_engines(monkeypatch):
     monkeypatch.setattr(mom, "build_momentum", lambda d: {"days": [], "stories": []})
     monkeypatch.setattr(gv, "connections", lambda d: {"entities": []})
     monkeypatch.setattr(fb, "data_day", lambda d: d)
-    monkeypatch.setattr(fb, "_carried_forward", lambda: {})
+    monkeypatch.setattr(fb, "_gap_labels", lambda: {})
     monkeypatch.setattr(fb, "cross_domain", lambda d: [])
 
 
@@ -213,6 +213,21 @@ def test_carried_forward_sections_are_labelled_not_empty(stub_engines, monkeypat
     claims, reports, fresh, preds, recs = rr._gather(date(2026, 11, 12))
     reports.append(_Report("people", "EMPTY"))
     monkeypatch.setattr(rr, "_gather", lambda d: (claims, reports, fresh, preds, recs))
-    monkeypatch.setattr(fb, "_carried_forward", lambda: {"people": "2026-05-25"})
+    monkeypatch.setattr(fb, "_gap_labels", lambda: {"people": "carried from 2026-05-25"})
     text = fb.build(date(2026, 11, 12), as_of=date(2026, 11, 12))
     assert "people (carried from 2026-05-25)" in text and "people (empty)" not in text
+
+
+def test_gap_labels_come_from_the_run_report(tmp_path, monkeypatch):
+    import json
+    (tmp_path / "dist").mkdir()
+    (tmp_path / "dist" / "run_report.json").write_text(json.dumps({"sections": {
+        "people": {"state": "carry_forward", "source_date": "2026-05-25", "error_type": None},
+        "acled": {"state": "stale_after_failure", "error_type": "UpstreamAuthError"},
+        "promed": {"state": "no_data", "error_type": "FeedRetired"},
+        "firms": {"state": "stale_after_failure", "error_type": "MissingCredential"},
+        "markets": {"state": "fresh", "error_type": None}}}))
+    monkeypatch.setattr(fb, "REPO", tmp_path)
+    assert fb._gap_labels() == {"people": "carried from 2026-05-25",
+                                "acled": "credential rejected",
+                                "promed": "feed retired upstream", "firms": "no key"}

@@ -211,20 +211,36 @@ def cross_domain(today: date, *, limit: int = 6, min_domains: int = 3,
     return out
 
 
-def _carried_forward() -> dict[str, str]:
-    """Sections the daily run deliberately carried forward (no error), e.g.
-    people/sanctions, which CI skips because their corpus lives on the owner's
-    machine. The integrity view calls them "empty"; the run report knows they
-    are a held snapshot. {section: snapshot date}."""
+_ERROR_LABEL = {
+    "MissingCredential": "no key",
+    "UpstreamAuthError": "credential rejected",
+    "FeedRetired": "feed retired upstream",
+    "UpstreamSchemaError": "format changed upstream",
+    "UpstreamParseError": "unreadable response",
+    "UpstreamHTTPError": "upstream down",
+    "PullTimeout": "timed out",
+}
+
+
+def _gap_labels() -> dict[str, str]:
+    """Why each non-fresh section is a gap, from the daily run report, which
+    knows more than the integrity view: a deliberately carried snapshot is
+    not "empty", a rejected key is not "no key", a retired feed is not a
+    failure to fix. {section: label}."""
     try:
         import json
         rep = json.loads((REPO / "dist" / "run_report.json").read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return {}
-    return {sid: e.get("source_date") or "an earlier run"
-            for sid, e in (rep.get("sections") or {}).items()
-            if isinstance(e, dict) and e.get("state") == "carry_forward"
-            and not e.get("error_type")}
+    out = {}
+    for sid, e in (rep.get("sections") or {}).items():
+        if not isinstance(e, dict):
+            continue
+        if e.get("state") == "carry_forward" and not e.get("error_type"):
+            out[sid] = f"carried from {e.get('source_date') or 'an earlier run'}"
+        elif e.get("error_type") in _ERROR_LABEL:
+            out[sid] = _ERROR_LABEL[e["error_type"]]
+    return out
 
 
 def data_day(today: date) -> date:
@@ -283,10 +299,9 @@ def build(today: date, *, as_of: date | None = None) -> str:
     # ---- source health ------------------------------------------------------
     n = len(reports)
     bad = [r for r in reports if r.status not in ("FRESH", "SKIPPED")]
-    carried = _carried_forward()
-    gaps = ", ".join(
-        f"{r.section_id} (carried from {carried[r.section_id]})" if r.section_id in carried
-        else f"{r.section_id} ({r.status.lower()})" for r in bad[:14])
+    why = _gap_labels()
+    gaps = ", ".join(f"{r.section_id} ({why.get(r.section_id, r.status.lower())})"
+                     for r in bad[:14])
     w(f"**Source health:** {fresh}/{n} sections fresh."
       + (f" Gaps: {gaps}." if gaps else " No gaps."))
     w("")
