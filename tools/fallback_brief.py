@@ -96,6 +96,15 @@ def _label(claim) -> str:
     return rr._STAT.get(claim.status, ("", claim.status))[1]
 
 
+def _src(c) -> str:
+    """A markdown source link, or "" when the claim has no usable URL."""
+    url = cr.source_url(c) if hasattr(c, "evidence") else ""
+    if not url:
+        return ""
+    url = url.replace(")", "%29").replace(" ", "%20")
+    return f" [source]({url})"
+
+
 def _lang_of(text: str) -> str:
     tag = rr._lang_tag(text)
     return f" _[{tag}, untranslated]_" if tag else ""
@@ -327,7 +336,7 @@ def build(today: date, *, as_of: date | None = None) -> str:
     w("")
     if ranked:
         top = ranked[0]
-        w(f"**{_clean(display_text(top), 260)}**{_lang_of(display_text(top))}")
+        w(f"**{_clean(display_text(top), 260)}**{_lang_of(display_text(top))}{_src(top)}")
         w("")
         w(f"Assessed **{_label(top)}** at {int(top.confidence * 100)}% confidence: "
           f"{_n(_outlets(top), 'independent outlet')} across "
@@ -343,7 +352,7 @@ def build(today: date, *, as_of: date | None = None) -> str:
         w("## Key developments")
         w("")
         for c in ranked[1:11]:
-            w(f"- **{_label(c)}** · {_clean(display_text(c))}{_lang_of(display_text(c))} "
+            w(f"- **{_label(c)}** · {_clean(display_text(c))}{_lang_of(display_text(c))}{_src(c)} "
               f"— {_n(_outlets(c), 'outlet')} · {_n(len(_reporting_sections(c)), 'section')}")
         w("")
 

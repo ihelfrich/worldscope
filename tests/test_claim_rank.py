@@ -42,3 +42,26 @@ def test_momentum_prefers_independent_reporting_for_headlines():
     from worldscope.momentum import _source_rank
     assert _source_rank("foreign_news") > _source_rank("local_news") > _source_rank("paper_bets")
     assert _source_rank("usgs_quakes") == 0
+
+
+def test_source_url_prefers_independent_reporting():
+    ev = [_Ev("local_news", "Kushner, Witkoff land in Moscow", "ksdk"),
+          _Ev("paper_bets", "Will talks succeed?", "manifold"),
+          _Ev("foreign_news", "US envoys arrive in Moscow", "bbc")]
+    for e, u in zip(ev, ("https://ksdk.com/a", "https://manifold.markets/b", "https://bbc.com/c")):
+        e.url = u
+    c = _C("US envoys reach Moscow", ev)                  # no exact headline match
+    assert cr.source_url(c) == "https://bbc.com/c"
+    c.claim_text = "Kushner, Witkoff land in Moscow"      # the shown article wins
+    assert cr.source_url(c) == "https://ksdk.com/a"
+    c.claim_text = "US envoys reach Moscow"
+    c.evidence = ev[:2]
+    assert cr.source_url(c) == "https://ksdk.com/a"        # local beats a market
+    c.evidence = []
+    assert cr.source_url(c) == ""
+
+
+def test_source_url_skips_bare_homepages():
+    ev = [_Ev("ukraine_theater", "x", "liveuamap"), _Ev("local_news", "x", "ksdk")]
+    ev[0].url, ev[1].url = "https://liveuamap.com", "https://ksdk.com/news/a"
+    assert cr.source_url(_C("x", ev)) == "https://ksdk.com/news/a"
