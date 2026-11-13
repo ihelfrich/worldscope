@@ -21,12 +21,13 @@ budget runs out on low-priority areas first.
 """
 from __future__ import annotations
 
+import re
 import time
 from datetime import datetime, timedelta, timezone
 
-from ..lib import gdelt
+from ..lib import gdelt, gdelt_files
 from ..lib.watchareas import WatchArea, load_watch_areas
-from . import Section, UpstreamHTTPError
+from . import Section, UpstreamHTTPError, UpstreamSchemaError
 
 
 
@@ -37,6 +38,7 @@ class GdeltGkgSection(Section):
 
     PULL_TIMEOUT_S = 180
     PER_QUERY = 25
+    FILE_PER_SUBSET = 10     # per area × (themes | keywords | near) on the bulk path
     HOURS_BACK = 36
     # Wall-clock budget for the whole pull: stop issuing queries with margin to
     # spare so we return the partial result we have instead of being killed by
@@ -78,6 +80,80 @@ class GdeltGkgSection(Section):
         return queries
 
     def pull(self) -> list[dict]:
+        # Bulk GKG files first: no rate limit, and the watch-area matching
+        # (themes, headline keywords, bbox) runs locally on ~20k articles.
+        try:
+            batch = gdelt_files.recent_articles()
+        except gdelt_files.GdeltFilesUnavailable:
+            return self._pull_doc()
+        return self._pull_files(batch)
+
+    def _pull_files(self, batch: "gdelt_files.Batch") -> list[dict]:
+        areas = load_watch_areas()
+        prio_rank = {"high": 0, "normal": 1, "low": 2}
+        areas.sort(key=lambda a: prio_rank.get(a.priority, 1))
+        out: list[dict] = []
+        seen_urls: set[str] = set()
+        for area in areas:
+            subsets = []
+            themes = frozenset(t.upper() for t in area.themes if t)
+            in_box = None
+            if area.bbox and len(area.bbox) == 4:
+                w, s_, e, n = area.bbox
+                # Location tags are per mention, so the share inside the box
+                # separates stories set there from passing mentions.
+                in_box = lambda a, w=w, s_=s_, e=e, n=n: bool(a.points) and sum(
+                    s_ <= la <= n and w <= lo <= e for la, lo in a.points
+                ) * 3 >= len(a.points)
+            if themes:
+                # One broad GKG theme tag is a weak signal (ENV_OIL_GAS lands
+                # on celebrity pieces); with 2+ area themes, require 2. Themes
+                # like TERROR are global, so an area with a bbox also needs a
+                # place inside it.
+                need = min(2, len(themes))
+                subsets.append(("themes", [a for a in batch.articles
+                                           if len(a.themes & themes) >= need
+                                           and (in_box is None or in_box(a))]))
+            kws = [k for k in area.keywords if k and k.strip()]
+            if kws:
+                # Whole words/phrases, as the DOC path's quoted phrases were;
+                # a substring test let "itc" match "City".
+                kw_re = re.compile(r"(?<!\w)(?:" + "|".join(
+                    re.escape(k.strip()) for k in sorted(kws, key=len, reverse=True))
+                    + r")(?!\w)", re.I)
+                subsets.append(("keywords", [a for a in batch.articles
+                                             if kw_re.search(a.title)]))
+            if in_box is not None:
+                subsets.append(("near", [a for a in batch.articles if in_box(a)]))
+            for sub, cands in subsets:
+                cands = [a for a in cands if a.url not in seen_urls]
+                for art, echo in gdelt_files.top_stories(cands, self.FILE_PER_SUBSET):
+                    seen_urls.add(art.url)
+                    out.append({
+                        "id": f"gkg-{art.seendate}-{hash(art.url) & 0xFFFFFFFF:x}",
+                        "date": art.date,
+                        "title": f"[{area.name} · {sub}] {art.title}",
+                        "url": art.url,
+                        "summary": (f"{art.domain} · English · tone "
+                                    f"{art.tone if art.tone is not None else 'NA'}"
+                                    + (f" · {echo} other outlets" if echo else "")),
+                        "country": art.country_name,
+                        "domain": art.domain,
+                        "tone": art.tone,
+                        "language": "English",
+                        "themes": area.themes,
+                        "topics": area.topics,
+                        "watch_areas": [area.name],
+                        "_source": self.id,
+                    })
+        if not out and len(batch.articles) >= 1000 and areas:
+            raise UpstreamSchemaError(
+                f"{len(batch.articles)} GKG articles matched none of {len(areas)} watch "
+                "areas; has the GKG layout changed?")
+        out.sort(key=lambda it: it.get("date", ""), reverse=True)
+        return out
+
+    def _pull_doc(self) -> list[dict]:
         areas = load_watch_areas()
         # Priority order: high first
         prio_rank = {"high": 0, "normal": 1, "low": 2}

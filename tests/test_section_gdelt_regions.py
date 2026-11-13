@@ -29,6 +29,16 @@ ART = {
 RATE_LIMIT_TEXT = ("Please limit requests to one every 5 seconds or contact "
                    "kalev.leetaru5@gmail.com for larger queries.")
 
+@pytest.fixture(autouse=True)
+def _doc_path_only(monkeypatch):
+    """These tests exercise the DOC API fallback; no bulk-file download."""
+    from worldscope.lib import gdelt_files
+
+    def unavailable(*a, **k):
+        raise gdelt_files.GdeltFilesUnavailable("disabled in tests")
+    monkeypatch.setattr(gdelt_files, "recent_articles", unavailable)
+
+
 
 @pytest.fixture(autouse=True)
 def _fresh_spacer():
@@ -50,6 +60,8 @@ def _section(tmp_path, **attrs):
 
 def test_partial_results_are_kept_and_normalized(monkeypatch, tmp_path):
     def fetch(self, code, params):
+        if code == "ALL":
+            return None          # combined query rejected -> per-country fallback
         assert params["query"] == f"sourcecountry:{code} sourcelang:english"
         assert params["mode"] == "artlist" and params["maxrecords"] == self.PER_COUNTRY
         if code in ("JA", "UP"):
@@ -82,6 +94,33 @@ def test_all_countries_failing_raises(monkeypatch, tmp_path):
         _section(tmp_path).pull()
 
 
+def test_combined_query_covers_countries_and_tops_up_the_rest(monkeypatch, tmp_path):
+    calls = []
+
+    def fetch(self, code, params):
+        calls.append(code)
+        if code == "ALL":
+            assert params["maxrecords"] == self.COMBINED_RECORDS
+            assert "sourcecountry:JA OR" in params["query"]
+            japan = [{**ART, "url": f"https://jp/{i}"} for i in range(10)]
+            other = [{**ART, "url": "https://x/1", "sourcecountry": "Atlantis"},
+                     {**ART, "url": "https://kr/1", "sourcecountry": "South Korea"}]
+            return {"articles": japan + other}
+        return {"articles": [{**ART, "url": f"https://{code}/1"}]} if code == "UP" else {"articles": []}
+
+    monkeypatch.setattr(gr.GdeltRegionsSection, "_fetch_one", fetch)
+    sec = _section(tmp_path)
+    items = sec.pull()
+    counts = {}
+    for it in items:
+        counts[it["country"]] = counts.get(it["country"], 0) + 1
+    assert counts == {"Japan": sec.PER_COUNTRY, "South Korea": 1, "Ukraine": 1}
+    assert "JA" not in calls and "KS" not in calls      # covered: no top-up
+    assert calls[0] == "ALL" and len(calls) == 1 + len(gr.WATCHLIST) - 2
+    assert sec.coverage == {"combined": True, "countries": 3, "of": len(gr.WATCHLIST),
+                            "topped_up": 1}
+
+
 def test_budget_stops_issuing_queries(monkeypatch, tmp_path):
     calls = []
     clock = [0.0]
@@ -94,7 +133,8 @@ def test_budget_stops_issuing_queries(monkeypatch, tmp_path):
 
     monkeypatch.setattr(gr.GdeltRegionsSection, "_fetch_one", fetch)
     items = _section(tmp_path, BUDGET_S=25).pull()
-    assert len(calls) == 3 and len(items) == 3
+    assert calls[0] == "ALL" and len(calls) == 3   # combined + 2 top-ups
+    assert len(items) == 3
 
 
 def test_queries_are_sequential_and_cover_every_country(monkeypatch, tmp_path):
@@ -105,7 +145,8 @@ def test_queries_are_sequential_and_cover_every_country(monkeypatch, tmp_path):
         with lock:
             active[0] += 1
             peak[0] = max(peak[0], active[0])
-        seen.append(code)
+        if code != "ALL":
+            seen.append(code)
         with lock:
             active[0] -= 1
         return {"articles": []}
