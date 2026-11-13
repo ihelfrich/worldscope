@@ -250,14 +250,16 @@ def build(today: date, *, as_of: date | None = None) -> str:
     w(f"# Morning Brief - {today.strftime('%A %d %B %Y').replace(' 0', ' ')}")
     w("")
     w(MARKER)
-    w("> **Automated edition.** The desk-officer composer did not run today, so this "
+    # A plain paragraph, not a blockquote: the renderer styles blockquotes as
+    # pull quotes, which put this notice in quotation marks as if quoted.
+    w("**Automated edition.** The desk-officer composer did not run today, so this "
       "brief was assembled deterministically from the WORLDSCOPE evidence engine: "
       "corroboration-graded claims, cross-day momentum, the entity graph and "
       "cross-source signals. It contains no model-written analysis — every line "
       "traces to records in the lake.")
     if as_of < today:
-        w(">")
-        w(f"> **Data as of {as_of.strftime('%A %d %B').replace(' 0', ' ')}.** Today's "
+        w("")
+        w(f"**Data as of {as_of.strftime('%A %d %B').replace(' 0', ' ')}.** Today's "
           "collection had not landed when this edition was assembled; it is refreshed "
           "when it does.")
     w("")
