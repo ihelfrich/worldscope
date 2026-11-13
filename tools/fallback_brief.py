@@ -211,8 +211,30 @@ def cross_domain(today: date, *, limit: int = 6, min_domains: int = 3,
     return out
 
 
-def build(today: date) -> str:
-    claims, reports, fresh, preds, _recs = rr._gather(today)
+def data_day(today: date) -> date:
+    """The newest day the lake holds collected data for, never after ``today``.
+
+    The daily collection has landed as late as 16:17 UTC, so an edition built
+    earlier must be assembled as of the last collected day: built "as of
+    today" it reported 4/42 sections fresh and every story as fading.
+    """
+    try:
+        from worldscope.lake import Lake
+        lake = Lake.open()
+        conn = lake._ensure_open()
+        newest = conn.execute("SELECT MAX(substr(ingested_at, 1, 10)) FROM records").fetchone()[0]
+        lake.close()
+        return min(today, date.fromisoformat(newest)) if newest else today
+    except Exception as exc:
+        print(f"[fallback] could not read lake data date: {exc}")
+        return today
+
+
+def build(today: date, *, as_of: date | None = None) -> str:
+    """Brief headed ``today``, assembled from data collected on ``as_of``
+    (default: the newest collected day, see data_day)."""
+    as_of = as_of or data_day(today)
+    claims, reports, fresh, preds, _recs = rr._gather(as_of)
     claims = [c for c in claims if rr._relevant(c)]
     scored = [(newsworthiness(c), c) for c in claims]
     ranked = [c for sc, c in sorted(((sc, c) for sc, c in scored if sc is not None),
@@ -233,6 +255,11 @@ def build(today: date) -> str:
       "corroboration-graded claims, cross-day momentum, the entity graph and "
       "cross-source signals. It contains no model-written analysis — every line "
       "traces to records in the lake.")
+    if as_of < today:
+        w(">")
+        w(f"> **Data as of {as_of.strftime('%A %d %B').replace(' 0', ' ')}.** Today's "
+          "collection had not landed when this edition was assembled; it is refreshed "
+          "when it does.")
     w("")
 
     # ---- source health ------------------------------------------------------
@@ -273,7 +300,7 @@ def build(today: date) -> str:
     # ---- momentum -----------------------------------------------------------
     try:
         from worldscope.momentum import build_momentum
-        mom = build_momentum(today)
+        mom = build_momentum(as_of)
     except Exception as exc:  # never let one engine sink the brief
         print(f"[fallback] momentum unavailable: {exc}")
         mom = {"days": [], "stories": []}
@@ -310,7 +337,7 @@ def build(today: date) -> str:
             w("")
 
     # ---- connections --------------------------------------------------------
-    links = cross_domain(today)
+    links = cross_domain(as_of)
     if links:
         w("## Connections — names that cross domains")
         w("")

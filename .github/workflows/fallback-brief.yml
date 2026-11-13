@@ -11,7 +11,11 @@ name: Fallback brief
 
 on:
   schedule:
+    # 15:50 publishes if today's collection has landed; the daily build has
+    # started as late as 16:17 UTC, so 19:50 publishes either way (labelled
+    # "data as of" the last collected day) and refreshes an earlier edition.
     - cron: "50 15 * * *"
+    - cron: "50 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -55,6 +59,13 @@ jobs:
               --note "Recovered: a composed brief for ${TODAY} is on main."
             exit 0
           fi
+          # Wait for today's collection at the early run: an edition built
+          # before it lands is a day old. The late run publishes regardless.
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(date -u +%H)" -lt 18 ] \
+             && [ ! -f "dist/status/daily/${TODAY}.json" ]; then
+            echo "::notice::today's collection (dist/status/daily/${TODAY}.json) has not landed; the 19:50 run will publish"
+            exit 0
+          fi
           # Never publish from stale data: the site watchdog owns that alarm.
           if ! python - <<'PY'
           import sqlite3, sys
@@ -69,16 +80,19 @@ jobs:
             echo "::warning::lake is stale; not publishing a fallback brief from old data"
             exit 0
           fi
+          FIRST_TODAY=true; [ -s "$F" ] && FIRST_TODAY=false   # an earlier fallback edition exists
           python tools/fallback_brief.py --date "$TODAY" --out "$F"
           if [ "$HAS_API_KEY" != "true" ] && [ "$HAS_OAUTH" != "true" ]; then
             CAUSE="The repo has no Claude credential, so the Compose workflow skips every day while reporting success. Set repository secret ANTHROPIC_API_KEY, or CLAUDE_CODE_OAUTH_TOKEN (from 'claude setup-token')."
           else
             CAUSE="A composer credential is set, so check the Compose workflow's logs and the claude.ai desk-officer routine."
           fi
-          python -m worldscope.alerting raise --key composer-offline \
-            --title "Brief composer offline: publishing automated fallback briefs" \
-            --message "No composed brief existed for ${TODAY} by 15:50 UTC, so a deterministic fallback edition was published from the evidence engine. ${CAUSE} This issue closes itself the first day a composed brief lands." \
-            --url "https://ihelfrich.github.io/worldscope/briefings/${TODAY}.html"
+          if [ "$FIRST_TODAY" = true ]; then   # one note per day, not per run
+            python -m worldscope.alerting raise --key composer-offline \
+              --title "Brief composer offline: publishing automated fallback briefs" \
+              --message "No composed brief existed for ${TODAY} by mid-afternoon UTC, so a deterministic fallback edition was published from the evidence engine. ${CAUSE} This issue closes itself the first day a composed brief lands." \
+              --url "https://ihelfrich.github.io/worldscope/briefings/${TODAY}.html"
+          fi
           git config user.name "worldscope-bot"
           git config user.email "noreply@github.com"
           git add "$F"
