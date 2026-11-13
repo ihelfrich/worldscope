@@ -85,6 +85,9 @@ _STOPWORDS = {
     "nov", "dec", "man", "woman", "men", "women", "people", "police",
     "officials", "government", "congress", "senate", "house", "court",
     "president", "minister", "state", "states", "watch", "video", "live",
+    # pronouns and determiners that start capitalized headline phrases
+    "you", "your", "we", "our", "i", "it", "its", "he", "she", "his", "her",
+    "they", "them", "here", "there", "why", "where", "which", "while", "all",
 }
 
 # Records whose text contains any of these are dropped before fusion: they are
