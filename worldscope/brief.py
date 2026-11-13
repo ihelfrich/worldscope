@@ -298,6 +298,18 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
                 sections_html.insert(0, panel)
             print(f"[signals] {len(sigs)} cross-source signals · "
                   f"wrote {n_written} predictions · graded {graded} due")
+            # Momentum calls: forecasts that can go either way (see
+            # worldscope/momentum_calls.py). Never blocks the brief.
+            try:
+                from . import momentum_calls as _mc
+                from .momentum import build_momentum
+                stories = build_momentum(today).get("stories", [])
+                calls = _mc.make_calls(stories, today=today, record=_mc.track_record(conn))
+                n_calls = _sg.persist_predictions(lake, calls)
+                graded_calls = _mc.grade_due(lake, conn, today=today)
+                print(f"[momentum-calls] wrote {n_calls} · graded {graded_calls} due")
+            except Exception as exc:  # pragma: no cover - defensive
+                print(f"[momentum-calls] skipped: {type(exc).__name__}: {exc}")
         finally:
             lake.close()
 
