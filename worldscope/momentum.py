@@ -23,7 +23,7 @@ from __future__ import annotations
 
 import re
 
-import sqlite3  # noqa: F401  (kept for callers that still pass lake paths)
+import sqlite3
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from pathlib import Path
@@ -176,7 +176,6 @@ def newest_collected_day(today: date, lake_path: Path | None = None) -> date:
     ``today``. Between midnight UTC and the daily build, "today" has no data;
     momentum computed for it shows every story fading ("today 0/day"), which
     is what the homepage showed each morning until the build landed."""
-    import sqlite3
     lake_path = Path(lake_path or DEFAULT_LAKE)
     try:
         con = sqlite3.connect(f"file:{lake_path}?mode=ro", uri=True)
