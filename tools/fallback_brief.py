@@ -243,6 +243,18 @@ def _gap_labels() -> dict[str, str]:
     return out
 
 
+def _momentum_calls(stories: list, as_of: date) -> tuple[list, dict]:
+    try:
+        from worldscope import momentum_calls as mc
+        from worldscope.lake import Lake
+        lake = Lake.open()
+        rec = mc.track_record(lake._ensure_open())
+        lake.close()
+    except Exception:
+        return [], {}
+    return mc.make_calls(stories, today=as_of, record=rec), rec
+
+
 def _track_record_totals() -> tuple[int, int]:
     try:
         from worldscope import signals as sg
@@ -396,9 +408,26 @@ def build(today: date, *, as_of: date | None = None) -> str:
         w("")
 
     # ---- outlook ------------------------------------------------------------
-    if preds:
+    calls, call_rec = _momentum_calls(mom.get("stories", []), as_of)
+    if preds or calls:
         w("## Outlook — falsifiable calls")
         w("")
+    if calls:
+        from worldscope import momentum_calls as mc
+        for c in calls:
+            w(f"- Will **{c['_label']}** ({c['_bucket'].replace(':', ', ')}) still be in "
+              f"{mc.MIN_SECTIONS}+ sections on {c['target_date']}? "
+              f"**{int(round(c['confidence'] * 100))}%**")
+        yes = sum(y for y, _ in call_rec.values())
+        n = sum(k for _, k in call_rec.values())
+        w("")
+        w("_" + (f"Momentum-call record (out-of-sample backtest plus live calls): {yes} of "
+                 f"{n} came true ({100 * yes / n:.0f}%). Surges usually fade within days; "
+                 "probabilities are calibrated per class against this record." if n else
+                 "Momentum calls are new: stated at an uninformative 50% until their "
+                 "own graded record accumulates.") + "_")
+        w("")
+    if preds:
         groups: dict[tuple, list[str]] = defaultdict(list)
         for p in preds[:12]:
             m = rr._KEY_RE.search(p.get("resolution_criteria", ""))
