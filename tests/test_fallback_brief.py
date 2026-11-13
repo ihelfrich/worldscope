@@ -53,6 +53,8 @@ def stub_engines(monkeypatch):
     import worldscope.graph_view as gv
     monkeypatch.setattr(mom, "build_momentum", lambda d: {"days": [], "stories": []})
     monkeypatch.setattr(gv, "connections", lambda d: {"entities": []})
+    monkeypatch.setattr(fb, "data_day", lambda d: d)
+    monkeypatch.setattr(fb, "cross_domain", lambda d: [])
 
 
 def test_fallback_follows_brief_conventions_and_is_marked(stub_engines):
@@ -189,3 +191,18 @@ def test_named_mid_sentence_ignores_title_case_headlines():
     assert fb._named_mid_sentence("Vance", [{"title": "After the rout, Vance tries to rebuild"}])
     assert not fb._named_mid_sentence("Power", [{"title": "Russian Strikes Cut Power To Odesa"}])
     assert not fb._named_mid_sentence("Power", [{"title": "Power supply to improve in winter"}])
+
+
+def test_edition_built_before_collection_says_data_as_of(stub_engines, monkeypatch):
+    from datetime import timedelta
+    seen = {}
+    real = rr._gather
+    monkeypatch.setattr(rr, "_gather", lambda d: (seen.setdefault("d", d), real(d))[1])
+    text = fb.build(date(2026, 11, 13), as_of=date(2026, 11, 13) - timedelta(days=1))
+    assert text.splitlines()[0] == "# Morning Brief - Friday 13 November 2026"
+    assert "**Data as of Thursday 12 November.**" in text
+    assert seen["d"] == date(2026, 11, 12)          # assembled from the collected day
+
+
+def test_edition_after_collection_has_no_data_note(stub_engines):
+    assert "Data as of" not in fb.build(date(2026, 11, 12), as_of=date(2026, 11, 12))
