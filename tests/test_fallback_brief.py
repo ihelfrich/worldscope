@@ -143,3 +143,49 @@ def test_momentum_and_signals_drop_generic_labels():
         assert w in momentum._JUNK
     for w in ("nov", "man", "congress"):
         assert w in signals._STOPWORDS
+
+
+# --- connections ---------------------------------------------------------------
+
+class _Sig:
+    def __init__(self, key, sections, titles, label=None):
+        self.key, self.label = key, label or key.title()
+        self.sections, self.n_sections = sections, len(sections)
+        self.evidence = [{"section": s, "title": t} for s, t in zip(sections, titles)]
+
+
+def _patch_signals(monkeypatch, today_sigs, base_sigs):
+    from worldscope import signals as sg
+    import worldscope.lake as lk
+
+    class _Lake:
+        def _ensure_open(self):
+            return None
+
+        def close(self):
+            pass
+    monkeypatch.setattr(lk.Lake, "open", classmethod(lambda cls, *a, **k: _Lake()))
+    monkeypatch.setattr(sg, "build_signals",
+                        lambda today, conn: today_sigs if today.day == 12 else base_sigs)
+    monkeypatch.setattr(fb, "_country_names", lambda: {"russia"})
+
+
+THREE = ["tech_news", "foreign_news", "markets"]
+
+
+def test_connections_show_new_cross_domain_names_only(monkeypatch):
+    nvidia = _Sig("nvidia", THREE, ["Chips: the Nvidia boss resigns", "Spy story about Nvidia chief",
+                                    "Shares of Nvidia fall"], label="Nvidia")
+    trump = _Sig("trump", THREE, ["The Trump order", "A Trump visit", "Markets and Trump"], "Trump")
+    russia = _Sig("russia", THREE, ["a", "b", "c"], "Russia")
+    power = _Sig("power", THREE, ["Power supply to improve", "Power cuts", "Power Prices Rise Again"],
+                 "Power")
+    _patch_signals(monkeypatch, [nvidia, trump, russia, power], [trump])
+    labels = [x["label"] for x in fb.cross_domain(date(2026, 11, 12))]
+    assert labels == ["Nvidia"]   # Trump: crossed last week too; Russia: place; Power: not a name
+
+
+def test_named_mid_sentence_ignores_title_case_headlines():
+    assert fb._named_mid_sentence("Vance", [{"title": "After the rout, Vance tries to rebuild"}])
+    assert not fb._named_mid_sentence("Power", [{"title": "Russian Strikes Cut Power To Odesa"}])
+    assert not fb._named_mid_sentence("Power", [{"title": "Power supply to improve in winter"}])

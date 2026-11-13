@@ -26,7 +26,7 @@ import html
 import re
 import sys
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -177,6 +177,117 @@ def newsworthiness(c) -> float | None:
     return len(secs) * 2.0 + min(_outlets(c), 8) * 0.5 + grade + c.confidence
 
 
+_REGIONS = {"europe", "european union", "eu", "africa", "asia", "middle east", "america",
+            "latin america", "north america", "south america", "the west", "nato",
+            "united nations", "un", "gulf", "pacific", "atlantic", "arctic", "world",
+            "united states", "us", "uk", "britain", "washington", "moscow", "beijing",
+            "kyiv", "tehran", "gaza", "west bank", "taiwan", "hong kong", "crimea",
+            # demonyms of countries outside the watchlists
+            "french", "german", "british", "american", "european", "spanish", "dutch",
+            "polish", "swedish", "greek", "egyptian", "saudi", "emirati", "qatari",
+            "syrian", "lebanese", "iraqi", "afghan", "pakistani", "korean", "vietnamese",
+            "thai", "filipino", "indonesian", "australian", "african", "arab", "asian"}
+
+
+def _country_names() -> set[str]:
+    names = set(_REGIONS)
+    try:
+        from worldscope.sections.acled import WATCHLIST as ACLED_COUNTRIES
+        names |= {c.lower() for c in ACLED_COUNTRIES}
+    except Exception:
+        pass
+    try:
+        from worldscope.sections.gdelt_regions import ALIASES, WATCHLIST
+        names |= {n.lower() for _, n in WATCHLIST}
+        names |= {a for strong, weak in ALIASES.values() for a in strong + weak}
+    except Exception:
+        pass
+    try:
+        from worldscope.lake import Lake
+        lake = Lake.open()
+        conn = lake._ensure_open()
+        names |= {r[0].lower() for r in conn.execute(
+            "SELECT DISTINCT canonical_name FROM entities WHERE id LIKE 'place:country-%'")}
+        lake.close()
+    except Exception:
+        pass
+    return names
+
+
+def _cross_domain_keys(sigs, places: set[str], min_domains: int) -> dict:
+    out = {}
+    for sig in sigs:
+        if sig.key in places or sig.label.lower() in places:
+            continue
+        doms = sorted({_SEC_DOMAIN[x] for x in sig.sections if x in _SEC_DOMAIN})
+        if len(doms) >= min_domains:
+            out[sig.key] = (sig, doms)
+    return out
+
+
+def _named_mid_sentence(label: str, evidence: list[dict]) -> bool:
+    """True when the word appears capitalised after the first word of some
+    headline: a name, not a sentence-initial common word."""
+    pat = re.compile(rf"\S\s+{re.escape(label)}\b")
+
+    def sentence_case(t: str) -> bool:      # Title Case capitalises everything
+        words = [x for x in re.findall(r"[A-Za-z]{4,}", t)]
+        return bool(words) and sum(x[0].islower() for x in words) >= 0.3 * len(words)
+
+    return any(pat.search(t) and sentence_case(t)
+               for t in ((ev.get("title") or "") for ev in evidence))
+
+
+def cross_domain(today: date, *, limit: int = 6, min_domains: int = 3,
+                 baseline_days: int = 7) -> list[dict]:
+    """Specific names (people, companies, organisations) that surface across
+    several domains today, with one headline per domain as evidence.
+
+    Built from the signals engine (cross-section recurrence of names in
+    headlines). The lake's entity graph cannot do this: its person/org
+    entities come almost entirely from state legislation, so the old section
+    could only ever show legislatures and bill signings. Country and region
+    names are skipped: they cross every domain every day, and so is any name
+    that already crossed as many domains ``baseline_days`` ago (Trump, the
+    White House): the section reports what is newly connecting.
+    """
+    try:
+        from worldscope import signals as sg
+        from worldscope.lake import Lake
+        lake = Lake.open()
+        conn = lake._ensure_open()
+        sigs = sg.build_signals(today=today, conn=conn)
+        base = sg.build_signals(today=today - timedelta(days=baseline_days), conn=conn)
+        lake.close()
+    except Exception as exc:  # never let one engine sink the brief
+        print(f"[fallback] signals unavailable: {exc}")
+        return []
+    from worldscope.momentum import _JUNK
+    places = _country_names() | set(_JUNK) | {"u.s", "u.s.", "white house"}
+    usual = _cross_domain_keys(base, places, min_domains)
+    out = []
+    shown_titles: set[str] = set()
+    for key, (sig, all_doms) in _cross_domain_keys(sigs, places, min_domains).items():
+        if key in usual:
+            continue
+        if " " not in sig.label.strip() and not _named_mid_sentence(sig.label, sig.evidence):
+            continue                      # "Power", "You": capitalised only as a first word
+        if any((ev.get("title") or "").strip() in shown_titles for ev in sig.evidence[:1]):
+            continue                      # same story as an entry above (Nvidia / Jensen Huang)
+        doms: dict[str, str] = {}
+        for ev in sig.evidence:
+            dom = _SEC_DOMAIN.get(ev.get("section", ""))
+            t = (ev.get("title") or "").strip()
+            if dom and t and dom not in doms and not rr._lang_tag(t):
+                doms[dom] = t
+        shown_titles |= set(doms.values())
+        out.append({"label": sig.label, "domains": all_doms, "n_sections": sig.n_sections,
+                    "evidence": list(doms.items())[:3]})
+        if len(out) >= limit:
+            break
+    return out
+
+
 def build(today: date) -> str:
     claims, reports, fresh, preds, _recs = rr._gather(today)
     claims = [c for c in claims if rr._relevant(c)]
@@ -276,22 +387,14 @@ def build(today: date) -> str:
             w("")
 
     # ---- connections --------------------------------------------------------
-    try:
-        from worldscope.graph_view import connections
-        ents = connections(today.isoformat()).get("entities", [])
-    except Exception as exc:
-        print(f"[fallback] entity graph unavailable: {exc}")
-        ents = []
-    if ents:
-        w("## Connections — who links across domains")
+    links = cross_domain(today)
+    if links:
+        w("## Connections — names that cross domains")
         w("")
-        for e in ents[:8]:
-            byverb: dict[str, list] = defaultdict(list)
-            for ed in e.get("edges", []):
-                byverb[ed["type"]].append(ed["other"])
-            rel = "; ".join(f"{v}: {', '.join(o[:3])}" for v, o in byverb.items())
-            w(f"- **{e['name']}** ({e['type']}, {e['n_domains']} domains)"
-              + (f" — {rel}" if rel else ""))
+        for lk in links:
+            ev = "; ".join(f"{dom}: {_clean(t, 90)}" for dom, t in lk["evidence"])
+            w(f"- **{lk['label']}** — {_n(len(lk['domains']), 'domain')} "
+              f"({', '.join(lk['domains'])}), {_n(lk['n_sections'], 'section')}. {ev}")
         w("")
 
     # ---- outlook ------------------------------------------------------------
