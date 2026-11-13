@@ -78,6 +78,13 @@ _STOPWORDS = {
     "september", "october", "november", "december", "monday", "tuesday",
     "wednesday", "thursday", "friday", "saturday", "sunday",
     "district", "county", "city", "department", "office", "national",
+    # month abbreviations and generic people/institution words: they recur
+    # across sections every day, so "Nov", "Man" and "Congress stays salient"
+    # became falsifiable calls that say nothing (2026-11-12 outlook).
+    "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct",
+    "nov", "dec", "man", "woman", "men", "women", "people", "police",
+    "officials", "government", "congress", "senate", "house", "court",
+    "president", "minister", "state", "states", "watch", "video", "live",
 }
 
 # Records whose text contains any of these are dropped before fusion: they are

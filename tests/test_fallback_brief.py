@@ -46,7 +46,7 @@ class _Report:
 def stub_engines(monkeypatch):
     claims = [_Claim("US envoys arrive in Moscow for talks", n=9),
               _Claim("[St. Louis] Family files wrongful death suit", n=3,
-                     secs=("local_news", "state_news"))]
+                     secs=("foreign_news", "tech_news"))]
     reports = [_Report("foreign_news", "FRESH"), _Report("acled", "NO_KEY")]
     monkeypatch.setattr(rr, "_gather", lambda d: (claims, reports, 1, [], []))
     import worldscope.momentum as mom
@@ -78,3 +78,68 @@ def test_fallback_refreshes_its_own_earlier_edition(tmp_path, stub_engines):
     assert fb.is_fallback(out)
     assert fb.main(["--date", "2026-11-12", "--out", str(out)]) == 0
     assert "US envoys arrive in Moscow" in out.read_text(encoding="utf-8")
+
+
+# --- selection rules ---------------------------------------------------------
+
+class _Ev:
+    def __init__(self, section, title="t", source_id=None):
+        self.section, self.title, self.source_id = section, title, source_id or section
+
+
+def _claim(text, evidence, status="multi_source"):
+    c = _Claim(text, status=status, n=len(evidence),
+               secs=tuple(sorted({e.section for e in evidence})))
+    c.evidence = evidence
+    return c
+
+
+def test_local_only_and_roundups_and_disputed_are_not_news():
+    local = _claim("Gas station suit filed", [_Ev("local_news", source_id=f"l{i}") for i in range(5)])
+    roundup = _claim("HT morning brief Nov 10: Trump says X", [_Ev("foreign_news"), _Ev("tech_news")])
+    disputed = _claim("EU-Mercosur deal", [_Ev("foreign_news"), _Ev("ukraine_theater")],
+                      status="contradicted")
+    assert fb.newsworthiness(local) is None
+    assert fb.newsworthiness(disputed) is None
+    assert fb.display_text(roundup) == "HT morning brief Nov 10: Trump says X"  # no better title
+    assert fb.newsworthiness(roundup) is None
+
+
+def test_structured_feed_clusters_are_not_key_developments():
+    quakes = _claim("M5.2 near Popondetta", [_Ev("usgs_quakes"), _Ev("usgs_quakes"), _Ev("weather")])
+    assert fb.newsworthiness(quakes) is None
+
+
+def test_independence_beats_raw_source_count():
+    syndicated = _claim("Wire story", [_Ev("local_news", source_id=f"st{i}") for i in range(6)]
+                        + [_Ev("foreign_news")])
+    independent = _claim("Cross-checked story", [_Ev("foreign_news"), _Ev("tech_news"),
+                                                 _Ev("ukraine_theater")])
+    assert fb._outlets(syndicated) == 2          # six local stations count once
+    assert fb.newsworthiness(independent) > fb.newsworthiness(syndicated)
+
+
+def test_untranslated_claim_shows_an_english_evidence_headline():
+    c = _claim("Anthropic отозвала детали IPO", [
+        _Ev("paper_bets", "Will Lightcone receive money from employees soon"),
+        _Ev("tech_news", "Anthropic sets IPO price range of $70 to $78 per share")])
+    assert fb.display_text(c) == "Anthropic sets IPO price range of $70 to $78 per share"
+
+
+def test_domain_prefers_the_topical_section_over_general_feeds():
+    c = _claim("Anthropic IPO", [_Ev("tech_news"), _Ev("foreign_news"), _Ev("russian_internal")])
+    assert fb.domain_of(c) == "Technology & cyber"
+    assert fb.domain_of(_claim("x", [_Ev("foreign_news")])) == "Geopolitics"
+    assert fb.domain_of(_claim("x", [_Ev("local_news")])) is None
+
+
+def test_html_entities_are_decoded_including_the_malformed_kind():
+    assert fb._clean("Botswana&039;s president &amp; De Beers") == "Botswana's president & De Beers"
+
+
+def test_momentum_and_signals_drop_generic_labels():
+    from worldscope import momentum, signals
+    for w in ("democratic", "florida", "oregon", "senate", "watch", "feds"):
+        assert w in momentum._JUNK
+    for w in ("nov", "man", "congress"):
+        assert w in signals._STOPWORDS
