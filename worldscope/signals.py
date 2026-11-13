@@ -137,9 +137,22 @@ def _norm_key(s: str) -> str:
     return s
 
 
+# Provenance tags: ingestion stamps every item of a feed with its newsroom,
+# source and home place (org:newsroom-ca-governor, place:state-california,
+# place:country-ukraine). They describe where an item came from, not what it
+# says, so any two items of one feed shared two of them and the claim graph
+# chained a newsroom's whole output into one "claim" (2026-11-12: Jensen
+# Huang + nine Newsom press releases; EU-Mercosur + the Pope's Argentina
+# tour, graded "contradicted"). Places a story is about still register via
+# the proper nouns in its headline.
+_AREA_LABEL_RE = re.compile(r"^\[([^\]]*·[^\]]*)\]")
+_PROVENANCE_RE = re.compile(r"^(?:org:(?:newsroom|source)-|place:(?:country|state|city)-)")
+
+
 def _entity_names(rec: dict) -> list[str]:
     """Pull canonical entity names from a record's entities field, which may be
-    a list of strings or of {canonical_name|name|id} dicts."""
+    a list of strings or of {canonical_name|name|id} dicts. Provenance tags
+    (see _PROVENANCE_RE) are skipped."""
     raw = rec.get("entities")
     out: list[str] = []
     if isinstance(raw, str):
@@ -151,6 +164,8 @@ def _entity_names(rec: dict) -> list[str]:
                 cn = it
             elif isinstance(it, dict):
                 cn = it.get("canonical_name") or it.get("name") or it.get("id")
+            if cn and _PROVENANCE_RE.match(str(cn)):
+                continue
             if cn:
                 # 'person:warsh-kevin' -> 'warsh kevin'; plain names pass through
                 cn = str(cn).split(":", 1)[-1].replace("-", " ").replace("_", " ")
@@ -179,10 +194,22 @@ def record_key_pairs(rec: dict, *, max_keys: int = 8) -> list[tuple[str, str]]:
             return
         pairs.setdefault(k, cased.strip())
 
+    text = _clean_text(rec.get("title") or rec.get("original_text") or "")
+    # "[Israel-Iran-Hezbollah axis · keywords] ..." is a watch-area label the
+    # GDELT section puts on every item in that area; mined as keys it chains
+    # the whole area into one claim. Drop the label and anything it spawned.
+    label = _AREA_LABEL_RE.match(text)
+    label_keys: set[str] = set()
+    if label:
+        text = text[label.end():].lstrip()
+        parts = _PROPER_RE.findall(label.group(1)) + [label.group(1).split("·")[0]]
+        label_keys = {_norm_key(m.replace("-", " ")) for m in parts}
+
     for name in _entity_names(rec):
+        if label and _norm_key(name.replace("-", " ")) in label_keys:
+            continue
         add(name)
 
-    text = _clean_text(rec.get("title") or rec.get("original_text") or "")
     for m in _TICKER_RE.findall(text):
         add(m)
     for m in _CVE_RE.findall(text):

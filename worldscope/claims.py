@@ -189,6 +189,7 @@ def build_claims(
     min_sections: int = DEFAULT_MIN_SECTIONS,
     tier_by_source: Optional[dict[str, str]] = None,
     top_n: int = DEFAULT_TOP_N, hub_max: int = 60, min_overlap: int = 2,
+    min_ratio: float = 0.0,
 ) -> list[Claim]:
     """Cluster records that assert the same thing, then grade each cluster.
 
@@ -255,9 +256,15 @@ def build_claims(
             for j in key_index[k]:
                 if j > i:
                     shared[j] += 1
+        ni = sum(1 for k in r["keys"] if k not in hubs)
         for j, n in shared.items():
-            if n >= min_overlap:
-                union(i, j)
+            if n < min_overlap:
+                continue
+            if min_ratio:
+                nj = sum(1 for k in recs[j]["keys"] if k not in hubs)
+                if n < min_ratio * max(1, min(ni, nj)):
+                    continue
+            union(i, j)
 
     groups: dict[int, list[int]] = defaultdict(list)
     for i in range(len(recs)):
