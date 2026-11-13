@@ -357,7 +357,7 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
 
     charts_html = _fix(rr._charts_html(today))
     markets_html = rr._markets_html(recs)
-    outlook_html = rr._outlook_html(preds)
+    outlook_html = ""                     # filled once momentum is known (below)
 
     # ── interactive Ukraine theater map (d3-geo, client-side, real borders) ──
     try:
@@ -383,6 +383,17 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
         print("momentum failed:", exc)
         mom = {"days": [], "stories": []}
     momentum_html = _momentum_section(mom, esc)
+    try:
+        from worldscope import momentum_calls as mc
+        from worldscope.lake import Lake
+        _lk = Lake.open()
+        calls = mc.make_calls(mom.get("stories", []), today=today,
+                              record=mc.track_record(_lk._ensure_open()))
+        _lk.close()
+    except Exception as exc:
+        print("momentum calls failed:", exc)
+        calls = []
+    outlook_html = rr._outlook_html(preds, calls)
 
     n_threads = len(threads)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
