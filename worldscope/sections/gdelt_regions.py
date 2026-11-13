@@ -12,21 +12,28 @@ shared egress IP was throttled on every call and each 429 took ~11s to be
 served). That latency × 19 sequential countries is what used to push this
 section past its 90s deadline.
 
-Design now (2026-11-12): every request goes through worldscope.lib.gdelt,
-one process-wide spacer shared with gdelt_gkg and conflict, so the three
-sections stop rate-limiting each other. Two parallel workers here used to
-guarantee self-inflicted 429s; from 2026-11-05 to 11-12 this section got
-0-12 of a possible ~114 stories a day. Countries are queried one at a time
-inside a wall-clock budget (BUDGET_S); the starting country rotates daily
-so a short budget does not always drop the same ones. Partial results are
-fine; only when *no* country answered is the pull a failure.
+Design now (2026-11-13): primary path is GDELT's bulk GKG files
+(worldscope.lib.gdelt_files), which are static downloads with no rate limit.
+Two CI builds on 2026-11-13 got 1-3 of 19 countries from the DOC API, whose
+throttling of shared runner addresses is far below its documented limit.
+From the last ~8 hours of English GKG articles (~20k), a story belongs to a
+country when its headline names the country, its people, capital or leader
+(ALIASES); ambiguous names ("turkey") also need a city or province of that
+country in GDELT's location tags. Within a country, stories are ranked by how
+many other outlets ran the same story (lib.gdelt_files.top_stories), one per
+outlet, duplicates collapsed.
+
+Fallback when no bulk file can be downloaded: the DOC API, one OR'd query for
+every country, then per-country top-ups through the shared request spacer.
 """
 from __future__ import annotations
 
 import time
 from datetime import datetime, timedelta, timezone
 
-from ..lib import gdelt
+import re
+
+from ..lib import gdelt, gdelt_files
 from . import Section, UpstreamHTTPError
 
 
@@ -57,6 +64,49 @@ WATCHLIST: list[tuple[str, str]] = [
 ]
 
 
+# (strong headline names, ambiguous names that also need a sub-national
+# location tag in that country). Lowercase; matched as whole words/phrases.
+ALIASES: dict[str, tuple[tuple[str, ...], tuple[str, ...]]] = {
+    "CH": (("china", "chinese", "beijing", "shanghai", "xi jinping", "hong kong"), ()),
+    "JA": (("japan", "japanese", "tokyo", "osaka"), ()),
+    "KS": (("south korea", "south korean", "seoul"), ("korean", "korea")),
+    "UP": (("ukraine", "ukrainian", "kyiv", "kiev", "zelensky", "zelenskyy",
+            "kharkiv", "odesa"), ()),
+    "GM": (("germany", "german", "berlin", "bundestag", "merz"), ("munich",)),
+    "IT": (("italy", "italian", "meloni"), ("rome", "milan")),
+    "IS": (("israel", "israeli", "jerusalem", "tel aviv", "netanyahu", "idf"), ()),
+    "IR": (("iran", "iranian", "tehran", "khamenei"), ()),
+    "SA": (("saudi", "riyadh", "jeddah"), ()),
+    "TU": (("turkiye", "türkiye", "turkish", "ankara", "istanbul", "erdogan", "erdoğan"),
+           ("turkey",)),
+    "NI": (("nigeria", "nigerian", "lagos", "abuja", "tinubu"), ()),
+    "EC": (("ecuador", "ecuadorian", "quito", "guayaquil", "noboa"), ()),
+    "CO": (("colombia", "colombian", "bogota", "bogotá", "medellin", "medellín"), ()),
+    "PO": (("portugal", "portuguese", "lisbon"), ("porto",)),
+    "CA": (("canada", "canadian", "ottawa", "carney"), ("toronto", "montreal", "vancouver")),
+    "MX": (("mexico", "mexican", "sheinbaum"), ()),
+    "UK": (("britain", "british", "uk", "england", "scotland", "wales", "london",
+            "starmer"), ()),
+    "BR": (("brazil", "brazilian", "brasilia", "brasília", "lula", "são paulo",
+            "sao paulo", "rio de janeiro"), ()),
+    "IN": (("india", "indian", "new delhi", "delhi", "mumbai", "modi"), ()),
+}
+
+
+def _phrase_re(phrases: tuple[str, ...]) -> re.Pattern | None:
+    if not phrases:
+        return None
+    alts = "|".join(re.escape(p) for p in sorted(phrases, key=len, reverse=True))
+    return re.compile(rf"(?<![\w.])(?:{alts})(?![\w.])", re.I)
+
+
+def _about(code: str, art: "gdelt_files.Article",
+           strong: re.Pattern | None, weak: re.Pattern | None) -> bool:
+    if strong is not None and strong.search(art.title):
+        return True
+    return weak is not None and code in art.subnational and bool(weak.search(art.title))
+
+
 def _norm(name: str) -> str:
     return "".join(ch for ch in (name or "").lower() if ch.isalpha())
 
@@ -68,6 +118,7 @@ class GdeltRegionsSection(Section):
 
     PER_COUNTRY = 6
     COMBINED_RECORDS = 250   # DOC API maximum
+    FILE_HOURS = 8           # bulk GKG window (~20k English articles)
     REQUEST_TIMEOUT_S = 15
     PULL_TIMEOUT_S = 150
     BUDGET_S = 125           # stop issuing queries; in-flight one may add REQUEST_TIMEOUT_S
@@ -107,6 +158,48 @@ class GdeltRegionsSection(Section):
         }
 
     def pull(self) -> list[dict]:
+        try:
+            batch = gdelt_files.recent_articles(self.FILE_HOURS)
+        except gdelt_files.GdeltFilesUnavailable as exc:
+            print(f"[gdelt_regions] bulk files unavailable ({exc}); using the DOC API",
+                  flush=True)
+            return self._pull_doc()
+        return self._pull_files(batch)
+
+    def _pull_files(self, batch: "gdelt_files.Batch") -> list[dict]:
+        items: list[dict] = []
+        covered = 0
+        for code, name in WATCHLIST:
+            strong, weak = ALIASES.get(code, ((name.lower(),), ()))
+            s_re, w_re = _phrase_re(strong), _phrase_re(weak)
+            cands = [a for a in batch.articles if _about(code, a, s_re, w_re)]
+            ignore = frozenset(w for ph in strong + weak for w in ph.split())
+            top = gdelt_files.top_stories(cands, self.PER_COUNTRY, ignore=ignore)
+            covered += bool(top)
+            for art, echo in top:
+                items.append({
+                    "id": f"{art.url}|{art.seendate}",
+                    "date": art.date,
+                    "title": f"[{name}] {art.title}",
+                    "url": art.url,
+                    "summary": (f"{art.domain} · English"
+                                + (f" · {echo} other outlets ran this story" if echo else "")),
+                    "country": name,
+                    "domain": art.domain,
+                    "tone": art.tone if art.tone is not None else "",
+                    "language": "English",
+                    "echo": echo,
+                })
+        self.coverage = {"source": "gkg-files", "countries": covered, "of": len(WATCHLIST),
+                         "files": f"{batch.files_ok}/{batch.files_tried}",
+                         "articles": len(batch.articles)}
+        print(f"[gdelt_regions] coverage {covered}/{len(WATCHLIST)} countries from "
+              f"{len(batch.articles)} GKG articles ({batch.files_ok}/{batch.files_tried} files)",
+              flush=True)
+        items.sort(key=lambda it: (it["country"], -it["echo"]))
+        return items
+
+    def _pull_doc(self) -> list[dict]:
         end = datetime.now(timezone.utc)
         start = end - timedelta(hours=36)
         base = {

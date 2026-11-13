@@ -19,6 +19,16 @@ from worldscope.sections import (
 )
 from worldscope.sections import billionaires, conflict, firms, mediacloud, wikidata_changes
 
+@pytest.fixture(autouse=True)
+def _doc_path_only(monkeypatch):
+    """These tests exercise the DOC API fallback; no bulk-file download."""
+    from worldscope.lib import gdelt_files
+
+    def unavailable(*a, **k):
+        raise gdelt_files.GdeltFilesUnavailable("disabled in tests")
+    monkeypatch.setattr(gdelt_files, "recent_articles", unavailable)
+
+
 
 class _Resp:
     def __init__(self, status=200, payload=None, text=""):

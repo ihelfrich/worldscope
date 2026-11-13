@@ -29,6 +29,16 @@ ART = {
 RATE_LIMIT_TEXT = ("Please limit requests to one every 5 seconds or contact "
                    "kalev.leetaru5@gmail.com for larger queries.")
 
+@pytest.fixture(autouse=True)
+def _doc_path_only(monkeypatch):
+    """These tests exercise the DOC API fallback; no bulk-file download."""
+    from worldscope.lib import gdelt_files
+
+    def unavailable(*a, **k):
+        raise gdelt_files.GdeltFilesUnavailable("disabled in tests")
+    monkeypatch.setattr(gdelt_files, "recent_articles", unavailable)
+
+
 
 @pytest.fixture(autouse=True)
 def _fresh_spacer():

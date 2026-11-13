@@ -14,7 +14,7 @@ from __future__ import annotations
 import time
 from datetime import datetime, timedelta, timezone
 
-from ..lib import gdelt
+from ..lib import gdelt, gdelt_files
 from . import Section, UpstreamHTTPError, UpstreamParseError
 
 
@@ -36,6 +36,34 @@ class ConflictSection(Section):
     HOURS = 48
 
     def pull(self) -> list[dict]:
+        # Bulk GKG files first: no rate limit (see lib.gdelt_files). The DOC
+        # API is the fallback when no file can be downloaded.
+        try:
+            batch = gdelt_files.recent_articles()
+        except gdelt_files.GdeltFilesUnavailable:
+            return self._pull_doc()
+        themes = frozenset(CONFLICT_THEMES)
+        cands = [a for a in batch.articles if a.themes & themes]
+        items = []
+        for art, echo in gdelt_files.top_stories(cands, self.LIMIT):
+            country = art.country_name
+            items.append({
+                "id": f"{art.url}|{art.seendate}",
+                "date": art.date,
+                "title": f"[{country}] {art.title}" if country else art.title,
+                "url": art.url,
+                "summary": (f"domain: {art.domain} · language: English · tone: "
+                            f"{art.tone if art.tone is not None else 'NA'}"
+                            + (f" · {echo} other outlets ran this story" if echo else "")),
+                "country": country,
+                "domain": art.domain,
+                "language": "English",
+                "tone": art.tone if art.tone is not None else "",
+                "themes": sorted(art.themes & themes),
+            })
+        return items
+
+    def _pull_doc(self) -> list[dict]:
         end = datetime.now(timezone.utc)
         start = end - timedelta(hours=self.HOURS)
         # Build the theme-OR query
