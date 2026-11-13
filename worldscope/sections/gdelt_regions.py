@@ -34,7 +34,7 @@ from datetime import datetime, timedelta, timezone
 import re
 
 from ..lib import gdelt, gdelt_files
-from . import Section, UpstreamHTTPError
+from . import Section, UpstreamHTTPError, UpstreamSchemaError
 
 
 # (FIPS-ish country code GDELT recognizes, display name).
@@ -196,6 +196,10 @@ class GdeltRegionsSection(Section):
         print(f"[gdelt_regions] coverage {covered}/{len(WATCHLIST)} countries from "
               f"{len(batch.articles)} GKG articles ({batch.files_ok}/{batch.files_tried} files)",
               flush=True)
+        if not items and batch.articles:
+            raise UpstreamSchemaError(
+                f"{len(batch.articles)} GKG articles but no headline named any of "
+                f"{len(WATCHLIST)} countries; has the GKG layout changed?")
         items.sort(key=lambda it: (it["country"], -it["echo"]))
         return items
 

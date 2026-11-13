@@ -172,3 +172,12 @@ def test_sections_fall_back_to_doc_api_when_files_unavailable(monkeypatch):
     sec = conflict.ConflictSection.__new__(conflict.ConflictSection)
     monkeypatch.setattr(conflict.ConflictSection, "_pull_doc", lambda self: ["doc-path"])
     assert sec.pull() == ["doc-path"]
+
+
+def test_regions_raises_schema_error_when_nothing_matches(monkeypatch):
+    from worldscope.sections import UpstreamSchemaError
+    from worldscope.sections import gdelt_regions as gr
+    batch = _batch(row(title="Local bake sale raises funds", v1loc="", v2loc=""))
+    monkeypatch.setattr(gf, "recent_articles", lambda *a, **k: batch)
+    with pytest.raises(UpstreamSchemaError, match="layout"):
+        gr.GdeltRegionsSection.__new__(gr.GdeltRegionsSection).pull()

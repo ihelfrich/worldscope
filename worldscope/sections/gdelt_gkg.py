@@ -27,7 +27,7 @@ from datetime import datetime, timedelta, timezone
 
 from ..lib import gdelt, gdelt_files
 from ..lib.watchareas import WatchArea, load_watch_areas
-from . import Section, UpstreamHTTPError
+from . import Section, UpstreamHTTPError, UpstreamSchemaError
 
 
 
@@ -146,6 +146,10 @@ class GdeltGkgSection(Section):
                         "watch_areas": [area.name],
                         "_source": self.id,
                     })
+        if not out and len(batch.articles) >= 1000 and areas:
+            raise UpstreamSchemaError(
+                f"{len(batch.articles)} GKG articles matched none of {len(areas)} watch "
+                "areas; has the GKG layout changed?")
         out.sort(key=lambda it: it.get("date", ""), reverse=True)
         return out
 

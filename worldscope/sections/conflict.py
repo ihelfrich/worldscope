@@ -15,7 +15,7 @@ import time
 from datetime import datetime, timedelta, timezone
 
 from ..lib import gdelt, gdelt_files
-from . import Section, UpstreamHTTPError, UpstreamParseError
+from . import Section, UpstreamHTTPError, UpstreamParseError, UpstreamSchemaError
 
 
 # GDELT theme codes that mark conflict-related coverage. The query OR-combines
@@ -44,6 +44,10 @@ class ConflictSection(Section):
             return self._pull_doc()
         themes = frozenset(CONFLICT_THEMES)
         cands = [a for a in batch.articles if a.themes & themes]
+        if not cands and len(batch.articles) >= 1000:
+            raise UpstreamSchemaError(
+                f"{len(batch.articles)} GKG articles but none carry a conflict theme; "
+                "has the GKG layout changed?")
         items = []
         for art, echo in gdelt_files.top_stories(cands, self.LIMIT):
             country = art.country_name
