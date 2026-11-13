@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T18:03:56Z",
- "generated_ts": 1794593036,
+ "generated_at": "2026-11-13T23:53:17Z",
+ "generated_ts": 1794613997,
  "days": 7,
  "network": true,
  "layers": [
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 106,
-   "freshest_ts": 1794588182,
-   "freshest_at": "2026-11-13T16:43:02Z",
+   "count": 113,
+   "freshest_ts": 1794612638,
+   "freshest_at": "2026-11-13T23:30:38Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,7 +31,7 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 924,
+   "count": 879,
    "freshest_ts": 1794588182,
    "freshest_at": "2026-11-13T16:43:02Z",
    "inputs": [
@@ -64,8 +64,8 @@
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
    "count": 111,
-   "freshest_ts": 1794593036,
-   "freshest_at": "2026-11-13T18:03:56Z",
+   "freshest_ts": 1794613997,
+   "freshest_at": "2026-11-13T23:53:17Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1794593036,
-   "freshest_at": "2026-11-13T18:03:56Z",
+   "freshest_ts": 1794613997,
+   "freshest_at": "2026-11-13T23:53:17Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 18,
+   "count": 21,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,7 +176,7 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 289,
+   "count": 244,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
@@ -193,7 +193,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=hezbollah&format=geojson&timespan=24h&maxpoints=250",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -209,7 +209,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=sahel&format=geojson&timespan=24h&maxpoints=250",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -270,8 +270,8 @@
  ],
  "counts": {
   "firms": 2,
-  "quakes": 106,
-  "gdacs": 924,
+  "quakes": 113,
+  "gdacs": 879,
   "conflict": 0,
   "ukraine": 111,
   "flights": 119,
