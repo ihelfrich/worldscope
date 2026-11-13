@@ -13,7 +13,7 @@ Config schema (watchareas.yaml at repo root):
     priority: high            # high | normal | low
     topics: [sanctions, oil, energy]
     themes: [ECON_SANCTIONS, ENV_OIL_GAS]   # GDELT GKG themes
-    keywords:                 # substring match on title/summary (lowercase)
+    keywords:                 # whole-word match on title/summary (plural-tolerant)
       - sberbank
       - rosneft
       - lukoil
@@ -40,6 +40,8 @@ Matcher returns a list of watch-area names per item plus a global rollup.
 """
 from __future__ import annotations
 
+import re
+
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Iterable
@@ -50,6 +52,27 @@ except ImportError:  # graceful fallback for envs without PyYAML
     yaml = None  # type: ignore
 
 DEFAULT_PATH = Path(__file__).parent.parent.parent / "watchareas.yaml"
+
+
+_KW_CACHE: dict[tuple[str, ...], "re.Pattern | None"] = {}
+
+
+def keyword_regex(keywords) -> "re.Pattern | None":
+    """Whole-word, case-insensitive match for any keyword, plural-tolerant.
+
+    Substring matching tagged 1,362 of 20,000 records falsely on 2026-11-13:
+    "cit" (Court of International Trade) hit every "city", "ustr" every
+    "industry", "coup" every "coupon". A trailing s / es / 's is allowed so
+    "houthi" still matches "Houthis".
+    """
+    key = tuple(sorted({k.strip().lower() for k in keywords if k and k.strip()}))
+    if key not in _KW_CACHE:
+        if not key:
+            _KW_CACHE[key] = None
+        else:
+            alts = "|".join(re.escape(k) for k in sorted(key, key=len, reverse=True))
+            _KW_CACHE[key] = re.compile(rf"(?<!\w)(?:{alts})(?:s|es|'s)?(?!\w)", re.I)
+    return _KW_CACHE[key]
 
 
 @dataclass
@@ -104,8 +127,9 @@ class WatchArea:
         haystack_l = haystack.lower()
         if self.locations and any(loc.lower() in haystack_l for loc in self.locations if loc):
             return True
-        # Keyword match (substring on title/summary)
-        if self.keywords and any(kw.lower() in haystack_l for kw in self.keywords if kw):
+        # Keyword match (whole word on title/summary; see keyword_regex)
+        kw_re = keyword_regex(self.keywords) if self.keywords else None
+        if kw_re is not None and kw_re.search(haystack):
             return True
         # Topic match — items can carry an explicit `topics` list
         item_topics = set(t.lower() for t in (item.get("topics") or []))
