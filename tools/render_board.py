@@ -238,11 +238,13 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
     n_primary = sum(1 for c in claims if c.status == "primary_confirmed")
 
     # translate the foreign-script headlines we're most likely to surface
-    pool = [c.claim_text for c in claims[:40] if rr._lang_tag(c.claim_text)]
+    pool = [rr.cr.display_text(c) for c in claims[:40]
+            if rr._lang_tag(rr.cr.display_text(c))]
     tmap = rr._translate(pool)
 
     def tx(c):
-        return tmap.get(c.claim_text, c.claim_text)
+        t = rr.cr.display_text(c)
+        return tmap.get(t, t)
 
     esc = rr._esc
 
@@ -269,8 +271,9 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
             f"<span class='chip' style='background:{DOM_COLOR[d]}'>{esc(DOM_LABEL[d].split(' ')[0])}</span>"
             for d in doms)
         _, label = rr._STAT.get(c.status, ("open", c.status))
-        lt = rr._lang_tag(c.claim_text)
-        tnote = (f" <span class='tnote'>· {lt}→EN</span>" if c.claim_text in tmap else "")
+        lt = rr._lang_tag(rr.cr.display_text(c))
+        tnote = (f" <span class='tnote'>· {lt}→EN</span>"
+                 if rr.cr.display_text(c) in tmap else "")
         conf = int(c.confidence * 100)
         contra = (f"<div class='contra'>{esc(c.contradiction_note)}</div>"
                   if getattr(c, 'contradiction_note', '') else "")
@@ -325,8 +328,9 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
     # ── interactive chart payloads ──────────────────────────────────────────
     th_chart = [{"label": rr._oneline(tx(c), 42), "domains": len(doms),
                  "sources": c.n_sources} for c, doms in threads[:10]]
-    ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
-                                           c.confidence), reverse=True)
+    ranked = rr.cr.rank(claims) or sorted(
+        claims, key=lambda c: (c.status != "contradicted", c.n_sources, c.confidence),
+        reverse=True)
     cl_chart = rr._claims_chart_data(ranked, tmap)
     data_json = json.dumps({"threads": th_chart, "claims": cl_chart})
 
