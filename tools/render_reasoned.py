@@ -27,6 +27,7 @@ from worldscope import claims as cl          # noqa: E402
 from worldscope import signals as sg          # noqa: E402
 from worldscope import integrity as ig        # noqa: E402
 from worldscope.lake import Lake              # noqa: E402
+from worldscope import claim_rank as cr       # noqa: E402
 
 PROTOTYPE = REPO / "dist" / "mockups" / "next" / "reasoned.html"
 OUT = REPO / "dist" / "mockups" / "next" / "reasoned-live.html"
@@ -273,7 +274,7 @@ def _claims_chart_data(ranked: list, tmap: dict) -> list:
     out = []
     for c in ranked[:12]:
         _, label = _STAT.get(c.status, ("open", c.status))
-        out.append({"label": _oneline(tmap.get(c.claim_text, c.claim_text), 44),
+        out.append({"label": _oneline(tmap.get(cr.display_text(c), cr.display_text(c)), 44),
                     "sources": c.n_sources, "status": label,
                     "conf": int(c.confidence * 100)})
     return out
@@ -429,15 +430,20 @@ def render(today: date, *, homepage: bool = False) -> Path:
     theater_html = _theater_html(recs, today)
     outlook_html = _outlook_html(preds)
 
-    # hero = the most-corroborated non-contradicted claim; fall back to the first
-    ranked = sorted(claims, key=lambda c: (c.status != "contradicted", c.n_sources,
-                                           c.confidence), reverse=True)
+    # hero = the most newsworthy claim by independent corroboration (shared
+    # with the automated brief); on a thin day with nothing newsworthy, fall
+    # back to raw corroboration so the page is never empty.
+    ranked = cr.rank(claims) or sorted(
+        claims, key=lambda c: (c.status != "contradicted", c.n_sources, c.confidence),
+        reverse=True)
     hero = ranked[0] if ranked else None
     # Translate the foreign (non-Latin-script) headlines among what we show.
-    tmap = _translate([c.claim_text for c in ranked[:14] if _lang_tag(c.claim_text)])
+    tmap = _translate([cr.display_text(c) for c in ranked[:14]
+                       if _lang_tag(cr.display_text(c))])
 
     def _tx(c):
-        return tmap.get(c.claim_text, c.claim_text)
+        t = cr.display_text(c)
+        return tmap.get(t, t)
 
     n_contra = sum(1 for c in claims if c.status == "contradicted")
     n_primary = sum(1 for c in claims if c.status == "primary_confirmed")
@@ -479,8 +485,8 @@ def render(today: date, *, homepage: bool = False) -> Path:
         pill, label = _STAT.get(c.status, ("open", c.status))
         srcs = " ".join(f"<span class='src'><i></i>{_esc(s)}</span>" for s in c.topics[:5])
         trn = (f" <span style='font-family:var(--mono);font-size:9px;color:var(--gold)'>"
-               f"· translated from {_lang_tag(c.claim_text)}</span>"
-               if c.claim_text in tmap else "")
+               f"· translated from {_lang_tag(cr.display_text(c))}</span>"
+               if cr.display_text(c) in tmap else "")
         rows.append(
             f"<div class='note'><div class='h'>{label} · {int(c.confidence*100)}%"
             f" · {c.n_sources} sources</div>"
@@ -492,8 +498,8 @@ def render(today: date, *, homepage: bool = False) -> Path:
     calls = []
     for c in ranked[:10]:
         pill, label = _STAT.get(c.status, ("open", c.status))
-        lt = _lang_tag(c.claim_text)
-        badge = (f"{lt}→EN" if c.claim_text in tmap else lt) if lt else ""
+        lt = _lang_tag(cr.display_text(c))
+        badge = (f"{lt}→EN" if cr.display_text(c) in tmap else lt) if lt else ""
         tag = (f"<span style='font-family:var(--mono);font-size:9px;color:var(--gold);"
                f"border:1px solid #E2C9B5;border-radius:3px;padding:0 4px;margin-right:6px'>{badge}</span>"
                if badge else "")

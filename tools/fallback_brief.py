@@ -101,80 +101,12 @@ def _lang_of(text: str) -> str:
     return f" _[{tag}, untranslated]_" if tag else ""
 
 
-# Sections that are not independent reporting of an event: prediction markets,
-# scored registries, filings feeds.
-_NON_REPORTING = {"paper_bets", "forecasts", "political_figures", "congressional_trades",
-                  "billionaires", "form4"}
-# Structured feeds whose rows cluster by shape, not by story (unrelated quakes
-# merge into one "claim"): fine for domain lines, never a key development.
-_STRUCTURED = {"usgs_quakes", "weather", "gdacs", "markets", "markets_global", "macro",
-               "firms", "cisa_kev", "epss"}
-_LOCAL = {"local_news", "state_news"}
-_ROUNDUP = re.compile(
-    r"\b(morning brief|evening brief|news ?brief|live updates?|live blog|newsletter|"
-    r"what to know|the latest|week in review|recap|podcast|watch live|in pictures|"
-    r"quiz|horoscope|today in history|top stories|headlines)\b", re.I)
-_TAGGED = re.compile(r"^\[[^\]]*·[^\]]*\]")       # "[Area · themes] ..." watch-area echoes
+from worldscope import claim_rank as cr  # noqa: E402  (shared with the board)
 
-
-def _evidence(c) -> list:
-    return list(getattr(c, "evidence", None) or [])
-
-
-def _reporting_sections(c) -> set[str]:
-    secs = {e.section for e in _evidence(c)} or set(c.topics)
-    return secs - _NON_REPORTING
-
-
-def _outlets(c) -> int:
-    """Distinct outlets, counting all local/state stations as one: they mostly
-    syndicate the same wire copy, so five of them are one source, not five."""
-    keys = {"local" if e.section in _LOCAL else (e.source_id or e.section)
-            for e in _evidence(c)}
-    return len(keys) or c.n_sources
-
-
-def display_text(c) -> str:
-    """The headline to show: the claim text, or a better evidence title when
-    the claim text is untranslated or a newsletter roundup."""
-    text = c.claim_text or ""
-    if not rr._lang_tag(text) and not _ROUNDUP.search(text):
-        return text
-    for e in _evidence(c):
-        t = (e.title or "").strip()
-        if (t and not rr._lang_tag(t) and not _ROUNDUP.search(t)
-                and e.section not in _NON_REPORTING and len(t.split()) >= 5):
-            return t
-    return text
-
-
-def _junk(c) -> bool:
-    # "contradicted" clusters were, on inspection (2026-11-12), unrelated items
-    # merged by shared words (an EU-Mercosur piece with Lula, ExxonMobil and US
-    # midterm stories as its "evidence"), not genuine disputes; an automated
-    # edition cannot tell the two apart, so it leaves them out.
-    text = display_text(c)
-    return bool(_ROUNDUP.search(text) or _TAGGED.search(text)
-                or not _reporting_sections(c)
-                or c.status == "contradicted")
-
-
-def newsworthiness(c) -> float | None:
-    """Score a claim for the headline and key developments; None drops it.
-
-    Independence first: distinct reporting sections, then distinct outlets
-    (local syndication counted once), then the corroboration grade.
-    """
-    if _junk(c):
-        return None
-    secs = _reporting_sections(c)
-    if secs <= _LOCAL:
-        return None                       # local-only: not world news
-    ev = _evidence(c)
-    if ev and sum(e.section in _STRUCTURED for e in ev) * 2 > len(ev):
-        return None                       # structured-feed cluster, not a story
-    grade = {"primary_confirmed": 1.0, "multi_source": 0.6}.get(c.status, 0.0)
-    return len(secs) * 2.0 + min(_outlets(c), 8) * 0.5 + grade + c.confidence
+_NON_REPORTING, _STRUCTURED, _LOCAL = cr.NON_REPORTING, cr.STRUCTURED, cr.LOCAL
+_ROUNDUP, _TAGGED = cr.ROUNDUP, cr.TAGGED
+_evidence, _reporting_sections, _outlets = cr.evidence, cr.reporting_sections, cr.outlets
+display_text, _junk, newsworthiness = cr.display_text, cr.is_junk, cr.newsworthiness
 
 
 _REGIONS = {"europe", "european union", "eu", "africa", "asia", "middle east", "america",
