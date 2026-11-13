@@ -225,6 +225,23 @@ def _connections_section(conn_data: dict, esc) -> str:
         "An entity here appears across ≥2 domains.</div></section>")
 
 
+def _nav(today: date, asset_base: str) -> str:
+    """Links out of the board. Before 2026-11-13 the homepage had none at all,
+    so a reader could not reach the daily brief, the archive or a section."""
+    briefs = sorted(p.stem for p in (REPO / "briefings").glob("20*.md")
+                    if p.stem <= today.isoformat())
+    links = []
+    if briefs:
+        latest = briefs[-1]
+        label = "Today's brief" if latest == today.isoformat() else f"Latest brief · {latest}"
+        links.append(f"<a class='lead' href='{asset_base}briefings/{latest}.html'>{label}</a>")
+    links.append(f"<a href='{asset_base}briefings/'>Archive</a>")
+    if any((REPO / "weekly_briefings").glob("*.md")):
+        links.append(f"<a href='{asset_base}weekly_briefings/'>Weekly</a>")
+    links.append(f"<a href='{asset_base}sections/'>Sections</a>")
+    return "".join(links)
+
+
 def render(today: date, *, out: Path | None = None, asset_base: str = "../../") -> Path:
     out = out or OUT
     try:
@@ -374,6 +391,7 @@ def render(today: date, *, out: Path | None = None, asset_base: str = "../../") 
 <style>{_CSS}{rr.EXTRA_CSS}{rr.CUSTOM_CSS}{_CSS_TAIL}</style></head><body>
 <header class="top">
   <div class="brand"><span class="mk"></span>WORLDSCOPE<span class="sub">SITUATION BOARD</span></div>
+  <nav class="nav">{_nav(today, asset_base)}</nav>
   <div class="meta"><span class="live"><i></i>LIVE</span> · {today.strftime('%A %d %B %Y').upper()}</div>
 </header>
 
@@ -451,6 +469,11 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1
 @keyframes spin{to{transform:rotate(405deg)}}
 .brand .sub{font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.2em;
  color:#A9A293;border-left:1px solid #3A362C;padding-left:11px}
+.nav{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+ text-transform:uppercase}
+.nav a{color:#F4F1E8;text-decoration:none;border-bottom:1px solid #6B6556;padding-bottom:1px}
+.nav a:hover,.nav a:focus{border-bottom-color:#E8B4AC;color:#fff}
+.nav a.lead{color:#E8B4AC;border-bottom-color:#E8B4AC}
 .meta{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:#C9C2B1;display:flex;
  align-items:center;gap:6px}
 .live{display:inline-flex;align-items:center;gap:5px;color:#E8B4AC}
