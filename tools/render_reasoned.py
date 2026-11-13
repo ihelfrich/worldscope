@@ -312,21 +312,31 @@ def _theater_html(recs: list, today: date) -> str:
 _KEY_RE = re.compile(r"'([^']+)' \(key '([^']+)'\)")
 
 
-def _outlook_html(preds: list) -> str:
-    if not preds:
+def _outlook_html(preds: list, calls: list | None = None) -> str:
+    """Momentum calls first (forecasts that can go either way), then the
+    near-certain persistence list condensed to one line."""
+    calls = calls or []
+    if not preds and not calls:
         return ""
     lis = []
-    for p in preds[:6]:
-        crit = p.get("resolution_criteria", "")
-        m = _KEY_RE.search(crit)
-        label = m.group(1) if m else (p.get("_key") or "signal")
-        conf = int(float(p.get("confidence", 0)) * 100)
-        tgt = p.get("target_date", "")
-        lis.append(f"<li><div class='t'>{_esc(label)} stays cross-source-salient</div>"
-                   f"<div class='m'>{conf}% · resolves {tgt}</div></li>")
+    for c in calls[:6]:
+        lis.append(f"<li><div class='t'>Will {_esc(c.get('_label', ''))} still be in 3+ "
+                   f"sections on {_esc(c.get('target_date', ''))}?</div>"
+                   f"<div class='m'>{int(round(float(c.get('confidence', 0)) * 100))}% · "
+                   f"{_esc((c.get('_bucket') or '').replace(':', ', '))}</div></li>")
+    if preds:
+        labels = []
+        for p in preds[:12]:
+            m = _KEY_RE.search(p.get("resolution_criteria", ""))
+            labels.append(m.group(1) if m else (p.get("_key") or "signal"))
+        conf = int(float(preds[0].get("confidence", 0)) * 100)
+        lis.append(f"<li><div class='t'>Still cross-source-salient on "
+                   f"{_esc(preds[0].get('target_date', ''))}: {_esc(', '.join(labels))}</div>"
+                   f"<div class='m'>{conf}% each · persistence calls, near-certain by design</div></li>")
     return _section("Outlook — what we're watching",
                     f"<ul class='ws-list'>{''.join(lis)}</ul>",
-                    cap="Falsifiable calls from cross-source signals · auto-graded", sid="outlook")
+                    cap="Falsifiable calls, auto-graded; probabilities calibrated against each "
+                        "method's own track record", sid="outlook")
 
 
 EXTRA_CSS = """
