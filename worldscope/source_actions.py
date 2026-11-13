@@ -120,6 +120,7 @@ def sync(repo: str, report: Mapping[str, Any], *, owner: str,
     """Bring the tracked issue in line with the report. Returns what happened."""
     actions = actions_from_report(report)
     report_date = str(report.get("date"))
+    alerting.close_duplicates(repo, KEY, transport)
     if not actions:
         number = alerting.resolve_alert(
             repo, KEY, f"Resolved by the {report_date} run: every source has what it needs.",

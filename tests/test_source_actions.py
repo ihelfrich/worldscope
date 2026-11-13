@@ -85,3 +85,16 @@ def test_dry_run_prints_body(tmp_path, capsys):
     p.write_text(json.dumps(_report(firms=_fail("MissingCredential", "FIRMS_MAP_KEY is not set"))))
     assert sa.main(["--report", str(p), "--dry-run"]) == 0
     assert "Add repository secret `FIRMS_MAP_KEY`" in capsys.readouterr().out
+
+
+def test_duplicate_from_a_race_is_closed_and_oldest_kept():
+    gh = FakeGitHub()
+    rep = _report(firms=_fail("MissingCredential", "FIRMS_MAP_KEY is not set"))
+    sa.sync(REPO, rep, owner="me", transport=gh)
+    # simulate a racing run that did not see #1 yet
+    gh.issues[2] = {**gh.issues[1], "number": 2}
+    gh.next = 3
+    msg = sa.sync(REPO, rep, owner="me", transport=gh)
+    assert "#1" in msg
+    assert gh.issues[2]["state"] == "closed" and gh.issues[1]["state"] == "open"
+    assert (2, "Duplicate of #1.") in gh.comments
