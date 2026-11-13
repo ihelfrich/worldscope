@@ -27,3 +27,18 @@ def test_lang_tag_and_display_text():
     assert cr.lang_tag("Анонс") == "RU" and cr.lang_tag("Plain English") == ""
     c = _C("Санкции против банков", [_Ev("foreign_news", "Sanctions imposed on four Russian banks")])
     assert cr.display_text(c) == "Sanctions imposed on four Russian banks"
+
+
+def test_named_mid_sentence_rules():
+    n = cr.named_mid_sentence
+    assert n("Vance", "[Global] After the midterm rout, Vance tries to build his brand")
+    assert not n("Meet", "[St. Louis] Meet Captain Fathom, the dog that deployed")
+    assert not n("Meet", "Who is Hakeem Jeffries? Meet the likely first Black speaker of the House")
+    assert not n("Meet", "‘I don’t feel old’ | Meet the hiker who holds the record")
+    assert not n("Meet", "Trump, Putin To Meet At APEC In China As Europe Seeks Seat")  # Title Case
+
+
+def test_momentum_prefers_independent_reporting_for_headlines():
+    from worldscope.momentum import _source_rank
+    assert _source_rank("foreign_news") > _source_rank("local_news") > _source_rank("paper_bets")
+    assert _source_rank("usgs_quakes") == 0

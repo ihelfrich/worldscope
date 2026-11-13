@@ -108,3 +108,29 @@ def rank(claims) -> list:
     scored = [(newsworthiness(c), c) for c in claims]
     return [c for sc, c in sorted(((sc, c) for sc, c in scored if sc is not None),
                                   key=lambda t: t[0], reverse=True)]
+
+
+_LONG_WORD = re.compile(r"[A-Za-z]{4,}")
+
+
+def sentence_case(text: str) -> bool:
+    """Title Case capitalises every word, so only headlines with a fair share
+    of lowercase words say anything about which words are names."""
+    words = _LONG_WORD.findall(text or "")
+    return bool(words) and sum(w[0].islower() for w in words) >= 0.3 * len(words)
+
+
+def named_mid_sentence(label: str, text: str) -> bool:
+    """True when ``label`` appears capitalised after the first word of a
+    sentence-case headline: a name, not a capitalised first word ("Power",
+    "Following") or a Title Case word ("Meet")."""
+    if not sentence_case(text):
+        return False
+    text = _PREFIX.sub("", text or "")              # "[St. Louis] Meet the hiker..."
+    pat = re.compile(rf"\S\s+{re.escape(label)}\b")
+    # each "|", ":", "—" segment starts a new sentence
+    return any(pat.search(seg.strip()) for seg in _SEGMENT.split(text))
+
+
+_PREFIX = re.compile(r"^\s*\[[^\]]*\]\s*")
+_SEGMENT = re.compile(r"\s[|:—–]\s|[:?!.]\s|[‘’'\"“”]")

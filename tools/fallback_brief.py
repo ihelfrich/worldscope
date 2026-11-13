@@ -158,16 +158,7 @@ def _cross_domain_keys(sigs, places: set[str], min_domains: int) -> dict:
 
 
 def _named_mid_sentence(label: str, evidence: list[dict]) -> bool:
-    """True when the word appears capitalised after the first word of some
-    headline: a name, not a sentence-initial common word."""
-    pat = re.compile(rf"\S\s+{re.escape(label)}\b")
-
-    def sentence_case(t: str) -> bool:      # Title Case capitalises everything
-        words = [x for x in re.findall(r"[A-Za-z]{4,}", t)]
-        return bool(words) and sum(x[0].islower() for x in words) >= 0.3 * len(words)
-
-    return any(pat.search(t) and sentence_case(t)
-               for t in ((ev.get("title") or "") for ev in evidence))
+    return any(cr.named_mid_sentence(label, ev.get("title") or "") for ev in evidence)
 
 
 def cross_domain(today: date, *, limit: int = 6, min_domains: int = 3,
