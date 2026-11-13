@@ -32,6 +32,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write   # source-actions checklist issue
 
 concurrency:
   group: daily-brief
@@ -145,6 +146,15 @@ jobs:
             --run-id "$WS_RUN_ID" \
             --run-attempt "$WS_RUN_ATTEMPT" \
             --sha "$WS_SHA"
+      - name: Sync the "source fixes only you can make" issue
+        # One issue listing missing/rejected credentials, retired feeds and
+        # outages older than 3 days; rewritten in place, comments only when
+        # the list changes, closes itself when empty. Never fails the build.
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m worldscope.source_actions --report dist/run_report.json
       - name: Commit archive + snapshot store + lake
         run: |
           git config user.name "worldscope-bot"
