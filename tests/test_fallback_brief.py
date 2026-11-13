@@ -55,6 +55,7 @@ def stub_engines(monkeypatch):
     monkeypatch.setattr(gv, "connections", lambda d: {"entities": []})
     monkeypatch.setattr(fb, "data_day", lambda d: d)
     monkeypatch.setattr(fb, "_gap_labels", lambda: {})
+    monkeypatch.setattr(fb, "_track_record_totals", lambda: (0, 0))
     monkeypatch.setattr(fb, "cross_domain", lambda d: [])
 
 

@@ -289,7 +289,8 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         try:
             conn = lake._ensure_open()
             sigs = _sg.build_signals(today=today, days=_sg.DEFAULT_WINDOW_DAYS, conn=conn)
-            preds = _sg.signals_to_predictions(sigs, today=today)
+            preds = _sg.signals_to_predictions(sigs, today=today,
+                                               record=_sg.track_record(conn))
             n_written = _sg.persist_predictions(lake, preds)
             graded = _sg.grade_due_predictions(lake, conn, today=today)
             panel = _sg.render_signals_panel(sigs, preds)

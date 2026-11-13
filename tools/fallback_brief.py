@@ -243,6 +243,18 @@ def _gap_labels() -> dict[str, str]:
     return out
 
 
+def _track_record_totals() -> tuple[int, int]:
+    try:
+        from worldscope import signals as sg
+        from worldscope.lake import Lake
+        lake = Lake.open()
+        rec = sg.track_record(lake._ensure_open())
+        lake.close()
+    except Exception:
+        return 0, 0
+    return sum(y for y, _ in rec.values()), sum(n for _, n in rec.values())
+
+
 def data_day(today: date) -> date:
     """The newest day the lake holds collected data for, never after ``today``.
 
@@ -397,6 +409,12 @@ def build(today: date, *, as_of: date | None = None) -> str:
         for (conf, target), labels in groups.items():
             w(f"- Still cross-source-salient on {target} ({conf}% each): "
               + ", ".join(labels) + ".")
+        yes, n = _track_record_totals()
+        if n:
+            w("")
+            w(f"_Track record: {yes:,} of {n:,} graded calls came true ({100 * yes / n:.0f}%). "
+              "Stated probabilities are calibrated against it; persistence calls are "
+              "near-certain by design, so read them as a salience list._")
         w("")
 
     w("---")

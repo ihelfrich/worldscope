@@ -362,12 +362,57 @@ def _prediction_id(key: str, made: str) -> str:
     return hashlib.sha1(f"{METHOD}|{key}|{made}".encode()).hexdigest()
 
 
+CALIBRATION_PRIOR_WEIGHT = 20     # pseudo-observations behind the heuristic band
+CALIBRATION_CAP = 0.99             # never claim certainty
+
+
+def _breadth_bucket(n_sections: int) -> int:
+    return min(n_sections, 6)
+
+
+def track_record(conn, *, method: str = METHOD) -> dict[int, tuple[int, int]]:
+    """{breadth bucket: (resolved YES, resolved total)} for our own graded
+    predictions, bucketed by how many sections the signal spanned (recorded on
+    every prediction as indicators_used_json, and what the heuristic band was
+    derived from)."""
+    out: dict[int, list[int]] = {}
+    try:
+        rows = conn.execute(
+            "SELECT indicators_used_json, actual_outcome FROM predictions "
+            "WHERE method = ? AND actual_outcome IN ('YES', 'NO')", (method,)).fetchall()
+    except Exception:
+        return {}
+    for ind, outcome in rows:
+        try:
+            n = len(json.loads(ind or "[]"))
+        except ValueError:
+            continue
+        b = out.setdefault(_breadth_bucket(n), [0, 0])
+        b[0] += outcome == "YES"
+        b[1] += 1
+    return {k: (v[0], v[1]) for k, v in out.items()}
+
+
+def calibrate(raw: float, n_sections: int, record: dict[int, tuple[int, int]] | None) -> float:
+    """Blend the heuristic probability with the observed hit rate for signals
+    of the same breadth. On 2026-11-12, 1,390 of 1,404 graded calls (99%) had
+    come true against a stated 68-78%: the band was badly underconfident. The
+    heuristic acts as CALIBRATION_PRIOR_WEIGHT pseudo-observations, so a thin
+    record barely moves it and a deep one dominates."""
+    yes, n = (record or {}).get(_breadth_bucket(n_sections), (0, 0))
+    if not n:
+        return raw
+    w = CALIBRATION_PRIOR_WEIGHT
+    return round(min((yes + w * raw) / (n + w), CALIBRATION_CAP), 4)
+
+
 def signals_to_predictions(
     signals: list[Signal],
     *,
     today: date,
     horizon_days: int = DEFAULT_HORIZON_DAYS,
     max_preds: int = 12,
+    record: dict[int, tuple[int, int]] | None = None,
 ) -> list[dict]:
     """Turn the strongest signals into falsifiable predictions in the lake's
     ``add_prediction`` shape.
@@ -389,7 +434,7 @@ def signals_to_predictions(
                 f"{made} and {target}; otherwise NO."
             ),
             "predicted_outcome": "YES",
-            "confidence": s.confidence,
+            "confidence": calibrate(s.confidence, s.n_sections, record),
             "training_window_days": DEFAULT_WINDOW_DAYS,
             "indicators_used": s.sections,
             "method": METHOD,

@@ -173,7 +173,7 @@ def _gather(today: date):
     reports = ig.assess(conn, sids, today=today, store=SnapshotStore())
     fresh = sum(1 for r in reports if r.status == "FRESH")
     sigs = sg.build_signals(today=today, conn=conn)
-    preds = sg.signals_to_predictions(sigs, today=today)
+    preds = sg.signals_to_predictions(sigs, today=today, record=sg.track_record(conn))
     lake.close()
     return claims, reports, fresh, preds, recs
 
