@@ -111,13 +111,16 @@ def _navbar(*, brief_stem: str | None = None, assets_prefix: str = "../") -> str
     `assets_prefix` is the relative path from the current page to dist/, e.g.
     "../" for a /briefings/<date>.html page or "./" for /index.html.
     """
-    zip_href = (f"{assets_prefix}zips/{html.escape(brief_stem)}.zip"
-                if brief_stem else f"{assets_prefix}zips/")
     # Bundles are kept for a bounded window (worldscope/dist_maintenance.py)
     # and weekly briefs never had one, so only link a bundle that is there.
     # Every brief is re-rendered on each run, so the link disappears with it.
-    has_bundle = (not brief_stem
-                  or (REPO / "dist" / "zips" / f"{brief_stem}.zip").is_file())
+    # Pages without a brief (archive, sections) link the newest bundle: the
+    # bare zips/ folder 404s, since GitHub Pages does not list directories.
+    if not brief_stem:
+        zips = sorted((REPO / "dist" / "zips").glob("20*.zip"))
+        brief_stem = zips[-1].stem if zips else None
+    zip_href = f"{assets_prefix}zips/{html.escape(brief_stem or '')}.zip"
+    has_bundle = bool(brief_stem) and (REPO / "dist" / "zips" / f"{brief_stem}.zip").is_file()
     bundle_nav = (f'<a href="{html.escape(zip_href, quote=True)}">Bundle</a>'
                   if has_bundle else "")
     bundle_item = (f'<li><a href="{html.escape(zip_href, quote=True)}" '
