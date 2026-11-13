@@ -23,7 +23,7 @@ from __future__ import annotations
 
 import re
 
-import sqlite3  # noqa: F401  (kept for callers that still pass lake paths)
+import sqlite3
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from pathlib import Path
@@ -169,6 +169,24 @@ def _classify(r: list[int], s: list[int], days_present: int, window: int) -> str
     if days_present >= (2 * window) // 3 and today >= 3:
         return "steady"
     return ""
+
+
+def newest_collected_day(today: date, lake_path: Path | None = None) -> date:
+    """The newest day the lake holds collected records for, never after
+    ``today``. Between midnight UTC and the daily build, "today" has no data;
+    momentum computed for it shows every story fading ("today 0/day"), which
+    is what the homepage showed each morning until the build landed."""
+    lake_path = Path(lake_path or DEFAULT_LAKE)
+    try:
+        con = sqlite3.connect(f"file:{lake_path}?mode=ro", uri=True)
+        newest = con.execute("SELECT MAX(substr(ingested_at, 1, 10)) FROM records").fetchone()[0]
+        con.close()
+    except sqlite3.Error:
+        return today
+    try:
+        return min(today, date.fromisoformat(newest)) if newest else today
+    except ValueError:
+        return today
 
 
 def build_momentum(today: date, *, lake_path: Path | None = None,
