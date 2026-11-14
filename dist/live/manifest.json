@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14T19:29:58Z",
- "generated_ts": 1794684598,
+ "generated_at": "2026-11-14T23:22:53Z",
+ "generated_ts": 1794698573,
  "days": 7,
  "network": true,
  "layers": [
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 118,
-   "freshest_ts": 1794679441,
-   "freshest_at": "2026-11-14T18:04:01Z",
+   "count": 121,
+   "freshest_ts": 1794695026,
+   "freshest_at": "2026-11-14T22:23:46Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,7 +31,7 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 919,
+   "count": 888,
    "freshest_ts": 1794648373,
    "freshest_at": "2026-11-14T09:26:13Z",
    "inputs": [
@@ -64,8 +64,8 @@
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
    "count": 111,
-   "freshest_ts": 1794684598,
-   "freshest_at": "2026-11-14T19:29:58Z",
+   "freshest_ts": 1794698573,
+   "freshest_at": "2026-11-14T23:22:53Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 5,
-   "freshest_ts": 1794669240,
-   "freshest_at": "2026-11-14T15:14:00Z",
+   "count": 6,
+   "freshest_ts": 1794698220,
+   "freshest_at": "2026-11-14T23:17:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1794684598,
-   "freshest_at": "2026-11-14T19:29:58Z",
+   "freshest_ts": 1794698573,
+   "freshest_at": "2026-11-14T23:22:53Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 21,
+   "count": 20,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,7 +176,7 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 273,
+   "count": 243,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
@@ -184,7 +184,7 @@
    "name": "live:eonet",
    "layer": "firms+gdacs",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "error": null,
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
@@ -225,7 +225,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22shadow+fleet%22&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -233,7 +233,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=houthi&format=geojson&timespan=24h&maxpoints=250",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -270,12 +270,12 @@
  ],
  "counts": {
   "firms": 1,
-  "quakes": 118,
-  "gdacs": 919,
+  "quakes": 121,
+  "gdacs": 888,
   "conflict": 0,
   "ukraine": 111,
   "flights": 110,
-  "weather_alerts": 5,
+  "weather_alerts": 6,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
