@@ -2,24 +2,24 @@
   "schema_version": 1,
   "producer": "worldscope-daily-brief",
   "status": "ready",
-  "data_date": "2026-11-15",
-  "generated_at": "2026-11-15T07:20:47Z",
+  "data_date": "2026-11-16",
+  "generated_at": "2026-11-16T07:25:24Z",
   "bundle": {
-    "path": "zips/2026-11-15.zip",
-    "sha256": "f5e74a04e8369a5906cc64043b0a65f3d8580e8adf49bec4be903e67c4bb5c84",
-    "bytes": 1047349
+    "path": "zips/2026-11-16.zip",
+    "sha256": "11d3c2f1d8c5ddd5c1cf85032d43400c485aa1fffe3edb6e062a4f654122c5a3",
+    "bytes": 948552
   },
   "run_report": {
     "path": "run_report.json",
-    "sha256": "bbd341bbf7eda6121c10b348414bc678565a2a5c8eea67de531c8d825809fc7c",
+    "sha256": "381913a9e3213e653a88283259e1f2d6b2b1b00f1144e1420a257965c32f2766",
     "failed_required_stages": []
   },
   "source_health": {
     "counts_by_state": {
       "carry_forward": 2,
-      "fresh": 35,
+      "fresh": 34,
       "no_data": 1,
-      "stale_after_failure": 4
+      "stale_after_failure": 5
     },
     "carry_forward": [
       "people",
@@ -27,6 +27,7 @@
     ],
     "stale_after_failure": [
       "acled",
+      "courtlistener",
       "firms",
       "mediacloud",
       "reliefweb"
@@ -36,6 +37,7 @@
     ],
     "failed_sections": [
       "acled",
+      "courtlistener",
       "firms",
       "mediacloud",
       "promed",
@@ -43,63 +45,68 @@
     ],
     "source_dates": {
       "acled": "2026-06-02",
-      "billionaires": "2026-11-15",
-      "chinese_internal": "2026-11-15",
-      "cisa_kev": "2026-11-15",
-      "commentary": "2026-11-15",
-      "conflict": "2026-11-15",
-      "congressional_trades": "2026-11-15",
+      "billionaires": "2026-11-16",
+      "chinese_internal": "2026-11-16",
+      "cisa_kev": "2026-11-16",
+      "commentary": "2026-11-16",
+      "conflict": "2026-11-16",
+      "congressional_trades": "2026-11-16",
       "courtlistener": "2026-11-15",
-      "epss": "2026-11-15",
-      "fec": "2026-11-15",
-      "federal_register": "2026-11-15",
+      "epss": "2026-11-16",
+      "fec": "2026-11-16",
+      "federal_register": "2026-11-16",
       "firms": "2026-11-12",
-      "forecasts": "2026-11-15",
-      "foreign_news": "2026-11-15",
-      "form4": "2026-11-15",
-      "gdacs": "2026-11-15",
-      "gdelt_gkg": "2026-11-15",
-      "gdelt_regions": "2026-11-15",
-      "local_news": "2026-11-15",
-      "macro": "2026-11-15",
-      "markets": "2026-11-15",
-      "markets_global": "2026-11-15",
+      "forecasts": "2026-11-16",
+      "foreign_news": "2026-11-16",
+      "form4": "2026-11-16",
+      "gdacs": "2026-11-16",
+      "gdelt_gkg": "2026-11-16",
+      "gdelt_regions": "2026-11-16",
+      "local_news": "2026-11-16",
+      "macro": "2026-11-16",
+      "markets": "2026-11-16",
+      "markets_global": "2026-11-16",
       "mediacloud": "2026-11-12",
-      "paper_bet_placement": "2026-11-15",
-      "paper_bets": "2026-11-15",
+      "paper_bet_placement": "2026-11-16",
+      "paper_bets": "2026-11-16",
       "people": "2026-05-25",
-      "political_figures": "2026-11-15",
+      "political_figures": "2026-11-16",
       "promed": null,
       "reliefweb": "2026-06-02",
-      "russian_internal": "2026-11-15",
+      "russian_internal": "2026-11-16",
       "sanctions": "2026-05-25",
-      "sanctions_procurement": "2026-11-15",
-      "state_bills": "2026-11-15",
-      "state_news": "2026-11-15",
-      "tech_news": "2026-11-15",
-      "ukraine_theater": "2026-11-15",
-      "ukrainian_internal": "2026-11-15",
-      "usgs_quakes": "2026-11-15",
-      "vip_flights": "2026-11-15",
-      "weather": "2026-11-15",
-      "who_don": "2026-11-15",
-      "wikidata_changes": "2026-11-15"
+      "sanctions_procurement": "2026-11-16",
+      "state_bills": "2026-11-16",
+      "state_news": "2026-11-16",
+      "tech_news": "2026-11-16",
+      "ukraine_theater": "2026-11-16",
+      "ukrainian_internal": "2026-11-16",
+      "usgs_quakes": "2026-11-16",
+      "vip_flights": "2026-11-16",
+      "weather": "2026-11-16",
+      "who_don": "2026-11-16",
+      "wikidata_changes": "2026-11-16"
     }
   },
   "degradation": {
     "degraded": true,
     "degraded_reasons": [
-      "acled: last good data 2026-06-02 (166d old)",
-      "reliefweb: last good data 2026-06-02 (166d old)"
+      "acled: last good data 2026-06-02 (167d old)",
+      "firms: last good data 2026-11-12 (4d old)",
+      "reliefweb: last good data 2026-06-02 (167d old)"
     ],
     "stale_required_sources": {
       "acled": {
         "source_date": "2026-06-02",
-        "stale_days": 166
+        "stale_days": 167
+      },
+      "firms": {
+        "source_date": "2026-11-12",
+        "stale_days": 4
       },
       "reliefweb": {
         "source_date": "2026-06-02",
-        "stale_days": 166
+        "stale_days": 167
       }
     },
     "required_sources": [
@@ -122,8 +129,8 @@
   },
   "github": {
     "repository": "ihelfrich/worldscope",
-    "run_id": "43688833793",
+    "run_id": "43822602560",
     "run_attempt": "1",
-    "sha": "eab6a2dc7fb98360b2e431c0d1c6f02eb4ae09ee"
+    "sha": "b81e23f9a896e1991da620a0334de36a55d3f36f"
   }
 }
