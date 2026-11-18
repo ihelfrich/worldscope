@@ -1,0 +1,74 @@
+{
+  "anomalies": [
+    {
+      "category": "feed-failure",
+      "description": "[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)",
+      "evidence": [
+        "alerts-fetch-error"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[acled exception] UpstreamAuthError",
+      "evidence": [
+        "acled-exception"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[Liveuamap error] HTTP 503",
+      "evidence": [
+        "liveuamap-error-503"
+      ],
+      "z_score": null
+    },
+    {
+      "category": "feed-failure",
+      "description": "[Copernicus EMS error] all endpoints 4xx/5xx",
+      "evidence": [
+        "copernicus-fetch-error"
+      ],
+      "z_score": null
+    }
+  ],
+  "date": "2026-11-18",
+  "entities_added": [
+    {
+      "canonical_name": "Ukraine",
+      "id": "place:country-ukraine",
+      "metadata": {
+        "kind": "country"
+      },
+      "type": "place"
+    },
+    {
+      "canonical_name": "DeepStateMap",
+      "id": "org:source-deepstatemap",
+      "metadata": {
+        "geo_resolution_m": 1000,
+        "kind": "frontline",
+        "latency_hours": 24.0
+      },
+      "type": "org"
+    }
+  ],
+  "entities_updated": [],
+  "new_count": 3,
+  "paper_bets": [],
+  "predictions": [],
+  "record_count": 5,
+  "relationships": [
+    {
+      "evidence": [
+        "deepstatemap-2026-11-18"
+      ],
+      "from": "org:source-deepstatemap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    }
+  ],
+  "section": "ukraine_theater"
+}
