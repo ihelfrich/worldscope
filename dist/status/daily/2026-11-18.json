@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "producer": "worldscope-daily-brief",
+  "status": "ready",
+  "data_date": "2026-11-18",
+  "generated_at": "2026-11-18T08:04:26Z",
+  "bundle": {
+    "path": "zips/2026-11-18.zip",
+    "sha256": "ab772df35d59a893001dbf8fda8dcddc4a1e7be9b641021d2a825419b8ba735b",
+    "bytes": 1160535
+  },
+  "run_report": {
+    "path": "run_report.json",
+    "sha256": "07fb68bd671bab5eae72e8161e526812a1928db943288556c8884fe2d8eee357",
+    "failed_required_stages": []
+  },
+  "source_health": {
+    "counts_by_state": {
+      "carry_forward": 2,
+      "fresh": 35,
+      "no_data": 1,
+      "stale_after_failure": 4
+    },
+    "carry_forward": [
+      "people",
+      "sanctions"
+    ],
+    "stale_after_failure": [
+      "acled",
+      "firms",
+      "mediacloud",
+      "reliefweb"
+    ],
+    "no_data": [
+      "promed"
+    ],
+    "failed_sections": [
+      "acled",
+      "firms",
+      "mediacloud",
+      "promed",
+      "reliefweb"
+    ],
+    "source_dates": {
+      "acled": "2026-06-02",
+      "billionaires": "2026-11-18",
+      "chinese_internal": "2026-11-18",
+      "cisa_kev": "2026-11-18",
+      "commentary": "2026-11-18",
+      "conflict": "2026-11-18",
+      "congressional_trades": "2026-11-18",
+      "courtlistener": "2026-11-18",
+      "epss": "2026-11-18",
+      "fec": "2026-11-18",
+      "federal_register": "2026-11-18",
+      "firms": "2026-11-12",
+      "forecasts": "2026-11-18",
+      "foreign_news": "2026-11-18",
+      "form4": "2026-11-18",
+      "gdacs": "2026-11-18",
+      "gdelt_gkg": "2026-11-18",
+      "gdelt_regions": "2026-11-18",
+      "local_news": "2026-11-18",
+      "macro": "2026-11-18",
+      "markets": "2026-11-18",
+      "markets_global": "2026-11-18",
+      "mediacloud": "2026-11-12",
+      "paper_bet_placement": "2026-11-18",
+      "paper_bets": "2026-11-18",
+      "people": "2026-05-25",
+      "political_figures": "2026-11-18",
+      "promed": null,
+      "reliefweb": "2026-06-02",
+      "russian_internal": "2026-11-18",
+      "sanctions": "2026-05-25",
+      "sanctions_procurement": "2026-11-18",
+      "state_bills": "2026-11-18",
+      "state_news": "2026-11-18",
+      "tech_news": "2026-11-18",
+      "ukraine_theater": "2026-11-18",
+      "ukrainian_internal": "2026-11-18",
+      "usgs_quakes": "2026-11-18",
+      "vip_flights": "2026-11-18",
+      "weather": "2026-11-18",
+      "who_don": "2026-11-18",
+      "wikidata_changes": "2026-11-18"
+    }
+  },
+  "degradation": {
+    "degraded": true,
+    "degraded_reasons": [
+      "acled: last good data 2026-06-02 (169d old)",
+      "firms: last good data 2026-11-12 (6d old)",
+      "reliefweb: last good data 2026-06-02 (169d old)"
+    ],
+    "stale_required_sources": {
+      "acled": {
+        "source_date": "2026-06-02",
+        "stale_days": 169
+      },
+      "firms": {
+        "source_date": "2026-11-12",
+        "stale_days": 6
+      },
+      "reliefweb": {
+        "source_date": "2026-06-02",
+        "stale_days": 169
+      }
+    },
+    "required_sources": [
+      "acled",
+      "cisa_kev",
+      "conflict",
+      "federal_register",
+      "firms",
+      "forecasts",
+      "gdacs",
+      "gdelt_gkg",
+      "macro",
+      "markets",
+      "political_figures",
+      "reliefweb",
+      "ukraine_theater",
+      "usgs_quakes"
+    ],
+    "max_stale_days": 3
+  },
+  "github": {
+    "repository": "ihelfrich/worldscope",
+    "run_id": "44262733841",
+    "run_attempt": "1",
+    "sha": "70cdf5164dbcd008b2e8cfe4c6c4a2410a0ff31a"
+  }
+}
