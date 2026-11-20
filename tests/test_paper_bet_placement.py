@@ -10,7 +10,7 @@ from worldscope.sections import paper_bet_placement as p
 
 def _signals():
     recs = [
-        {"id": "1", "section_id": "forecasts", "original_text": "Iran talks stall",
+        {"id": "1", "section_id": "state_news", "original_text": "Iran talks stall",
          "record_date": "2026-05-31"},
         {"id": "2", "section_id": "foreign_news", "original_text": "Iran deadline passes",
          "record_date": "2026-05-31"},

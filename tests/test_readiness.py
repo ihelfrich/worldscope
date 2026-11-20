@@ -114,6 +114,7 @@ def test_publish_writes_hash_bound_dated_manifest(tmp_path):
         "stale_after_failure": ["acled"],
         "no_data": ["promed"],
         "failed_sections": ["acled", "promed"],
+        "degraded": True,
         "source_dates": {
             "acled": "2026-09-03",
             "gdacs": "2026-09-05",

@@ -168,3 +168,11 @@ def test_render_panel_is_html_or_empty():
     html = sg.render_signals_panel(sigs, sg.signals_to_predictions(sigs, today=date(2026, 5, 31)))
     assert "<section class='section'>" in html
     assert "Signals" in html
+
+
+def test_derived_sections_and_error_stubs_are_noise():
+    from worldscope.signals import is_noise_record
+    assert is_noise_record({"section_id": "political_figures", "title": "Representative Jane Doe"})
+    assert is_noise_record({"section_id": "markets_global", "title": "[Crypto error] HTTPError"})
+    assert is_noise_record({"section_id": "x", "title": "t", "original_text": "HTTPSConnectionPool(host=a)"})
+    assert not is_noise_record({"section_id": "foreign_news", "title": "Iran talks resume"})

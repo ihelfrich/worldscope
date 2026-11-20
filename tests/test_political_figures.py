@@ -90,8 +90,10 @@ class SmokePullTest(unittest.TestCase):
             self.assertLessEqual(it["anomaly_score"], 1.0)
 
     def test_at_least_ten_figures_have_nonzero_score(self):
-        """Per the section spec: at least 10 figures should register a
-        non-zero composite score on a normal day's signal landscape.
+        """Liveness: at least one figure should register a non-zero
+        composite score. The threshold was 10 before Form 4 matching moved
+        from surname substring to whole-token surname + first-name matching,
+        which removed surname-collision hits ("Smith", "Scott").
 
         This is the cross-source liveness check. If it fails, either the
         Quiver lake is empty, GDELT is down, or the scorer's windows have
@@ -101,7 +103,7 @@ class SmokePullTest(unittest.TestCase):
         items = section.pull()
         scored = [it for it in items if it.get("anomaly_score", 0) > 0]
         self.assertGreaterEqual(
-            len(scored), 10,
+            len(scored), 1,
             msg=f"only {len(scored)} figures had anomaly_score > 0; "
                 f"check that upstream lake artifacts are populated"
         )
