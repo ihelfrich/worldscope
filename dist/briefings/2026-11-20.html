@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" data-theme="heritage"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WORLDSCOPE · 2026-11-20</title>
+<meta name="description" content="WORLDSCOPE daily briefing: Morning Brief - Friday 20 November 2026">
+<link rel="canonical" href="https://ihelfrich.github.io/worldscope/briefings/2026-11-20.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2026-11-20">
+<meta property="og:description" content="WORLDSCOPE daily briefing: Morning Brief - Friday 20 November 2026">
+<meta property="og:url" content="https://ihelfrich.github.io/worldscope/briefings/2026-11-20.html">
+<meta property="og:site_name" content="WORLDSCOPE">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/tailwind.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.452.0/dist/umd/lucide.min.js" defer></script>
+</head><body class="bg-parchment">
+<div class="ws-bg" aria-hidden="true">
+  <canvas id="ws-network"></canvas>
+</div>
+<script type="application/json" id="ws-network-seed">{&quot;day&quot;: &quot;2026-11-20&quot;, &quot;recurrences&quot;: [{&quot;name&quot;: &quot;President&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 10}, {&quot;name&quot;: &quot;Administration&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;Ukraine&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;California&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;Donald Trump&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Transportation&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Agriculture&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Jackson&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;New York&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 5}, {&quot;name&quot;: &quot;Nigeria&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;United Kingdom&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Hong Kong&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Australia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Washington&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Michael&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Florida&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Arizona&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;Illinois&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 4}, {&quot;name&quot;: &quot;China&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 8}, {&quot;name&quot;: &quot;Israel&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Price&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Canada&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Rules&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Black&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 7}, {&quot;name&quot;: &quot;Russia&quot;, &quot;type&quot;: &quot;place&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;White&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;White&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;White&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}, {&quot;name&quot;: &quot;White&quot;, &quot;type&quot;: &quot;person&quot;, &quot;sections&quot;: 6}]}</script>
+<script src="../assets/network.js" defer></script>
+<header class="ws-navbar" x-data="{ open: false }">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8 flex items-center gap-6 py-3">
+    <a href="../index.html" class="ws-brand text-sm">WORLDSCOPE</a>
+    <nav class="hidden lg:flex items-center gap-5 text-sm font-sans" aria-label="Primary">
+      <a href="../index.html">Today</a>
+      <a href="../sections/">Sections</a>
+      <a href="../briefings/">Archive</a>
+      <a href="../zips/2026-11-20.zip">Bundle</a>
+    </nav>
+    <div class="flex-1"></div>
+    <a class="hidden lg:inline-block text-xs text-mist hover:text-white pl-4 ml-2 border-l border-white/20"
+       href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer">
+      helfrich.github.io →
+    </a>
+    <button type="button" class="ws-mobile-toggle" @click="open = !open"
+            :aria-expanded="open.toString()" aria-controls="ws-mobile-menu"
+            aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="!open" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" x-show="open" x-cloak aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <nav id="ws-mobile-menu" class="lg:hidden border-t border-white/10 bg-navy-soft"
+       x-show="open" x-cloak x-transition>
+    <ul class="flex flex-col px-5 py-3 gap-2 text-sm font-sans">
+      <li><a href="../index.html" class="block py-1.5">Today</a></li>
+      <li><a href="../sections/" class="block py-1.5">Sections</a></li>
+      <li><a href="../briefings/" class="block py-1.5">Archive</a></li>
+      <li><a href="../zips/2026-11-20.zip" class="block py-1.5">Today's bundle</a></li>
+      <li><a href="https://ihelfrich.github.io/" target="_blank" rel="noopener noreferrer" class="block py-1.5">helfrich.github.io</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="ws-shell grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] gap-9">
+  <aside class="hidden lg:block">
+    <nav class="ws-sidebar" aria-label="Table of contents"><h3>Watch areas</h3><ul><li><a href="#russia-oil-sanctions-perimeter">Russia oil sanctions perimeter</a></li><li><a href="#israel-iran-hezbollah-axis">Israel-Iran-Hezbollah axis</a></li><li><a href="#taiwan-strait-south-china-sea">Taiwan Strait + South China Sea</a></li><li><a href="#us-tariff-trade-dockets">US tariff &amp; trade dockets</a></li><li><a href="#critical-minerals-rare-earths">Critical minerals + rare earths</a></li><li><a href="#em-debt-distress-sovereign-restructuring">EM debt distress + sovereign restructuring</a></li><li><a href="#ai-compute-semiconductor-export-controls">AI compute + semiconductor export controls</a></li><li><a href="#sahel-jihadist-corridor">Sahel jihadist corridor</a></li><li><a href="#arctic-high-north">Arctic + High North</a></li><li><a href="#korean-peninsula">Korean peninsula</a></li><li><a href="#latin-america-narcoeconomy-politics">Latin America: narcoeconomy + politics</a></li><li><a href="#central-bank-divergence-dollar-funding">Central bank divergence + dollar funding</a></li></ul><h3>Sections</h3><ul><li><a class="" href="#headline">Headline</a></li><li><a class="" href="#key-developments">Key developments</a></li><li><a class="" href="#developing-story-momentum-across-35-days">Developing — story momentum across 35 days</a></li><li><a class="" href="#by-domain">By domain</a></li><li><a class="" href="#connections-names-that-cross-domains">Connections — names that cross domains</a></li><li><a class="" href="#outlook-falsifiable-calls">Outlook — falsifiable calls</a></li></ul></nav>
+  </aside>
+  <main>
+    <header class="ws-masthead">
+      <div class="ws-eyebrow">WORLDSCOPE · Daily briefing</div>
+      <h1>Morning Brief - Friday 20 November 2026</h1>
+      <div class="ws-dateline">prepared for Dr. Ian Helfrich · 2026-11-20</div>
+    </header>
+    <section aria-label="Watch-area dashboard" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 my-6"><div class="ws-dash-tile is-high "><h4><a href="#russia-oil-sanctions-perimeter" class="text-inherit no-underline hover:text-navy">Russia oil sanctions perimeter</a></h4><div class="ws-stat">1</div><div class="ws-meta">sanctions, oil, energy</div></div><div class="ws-dash-tile  "><h4><a href="#ai-compute-semiconductor-export-controls" class="text-inherit no-underline hover:text-navy">AI compute + semiconductor export controls</a></h4><div class="ws-stat">1</div><div class="ws-meta">ai, semiconductors, export_controls</div></div></section>
+    <article class="prose prose-slate max-w-none">
+      <!-- worldscope:fallback-brief -->
+<p><strong>Automated edition.</strong> The desk-officer composer did not run today, so this brief was assembled deterministically from the WORLDSCOPE evidence engine: corroboration-graded claims, cross-day momentum, the entity graph and cross-source signals. It contains no model-written analysis — every line traces to records in the lake.</p>
+<p><strong>Source health:</strong> 35/42 sections fresh. Gaps: promed (feed retired upstream), reliefweb (credential rejected), acled (credential rejected), firms (no key), mediacloud (no key), people (carried from 2026-05-25), sanctions (carried from 2026-05-25).</p>
+<hr />
+<h2 id="headline">Headline</h2>
+<p><strong>Anthropic’s US$81b IPO, gold price drops: 5 figures investors are watching this week</strong> <a href="https://www.scmp.com/business/china-business/article/3375169/anthropics-us81b-ipo-gold-price-drops-5-figures-investors-are-watching-week">source</a><span class="ws-hostpill">scmp.com</span></p>
+<p>Assessed <strong>CONFIRMED</strong> at 92% confidence: 7 independent outlets across 4 sections (chinese_internal, foreign_news, gdelt_gkg, state_news).</p>
+<h2 id="key-developments">Key developments</h2>
+<ul>
+<li><strong>CONFIRMED</strong> · Witkoff, Kushner to Join Coalition of the Willing Summit in Berlin <a href="https://www.kyivpost.com/post/90536">source</a><span class="ws-hostpill">kyivpost.com</span> — 6 outlets · 4 sections</li>
+<li><strong>CONFIRMED</strong> · Jeff Bezos was 'heavily involved' in casting Robert Pattinson as new James Bond, Amazon founder says <a href="https://www.ksdk.com/article/news/nation-world/jeff-bezos-james-bond-decision-robert-pattinson-process/507-6c1d6a53-ff5d-44f9-8aa9-5896e061b2ea">source</a><span class="ws-hostpill">ksdk.com</span> — 5 outlets · 4 sections</li>
+<li><strong>CONFIRMED</strong> · Zelenskyy: We met with Steve Witkoff, Jared Kushner and European national security advisers – Berlin, Berlin - Liveuamap <a href="http://www.shanghaisun.com/news/279441722/american-envoys-to-debrief-ukrainian-team-in-berlin-on-trump-talks-with-xi-putin-zelenskyy">source</a><span class="ws-hostpill">shanghaisun.com</span> — 4 outlets · 4 sections</li>
+<li><strong>CONFIRMED</strong> · Measles no longer considered eliminated in U.S., health agency says, after two-year surge in cases <a href="https://www.newsday.com/news/health/measles-elimination-status-united-states-outbreak-vaccination-new-york-rcd8jc6q">source</a><span class="ws-hostpill">newsday.com</span> — 4 outlets · 4 sections</li>
+<li><strong>CONFIRMED</strong> · Israeli forces have entered Nablus from checkpoint near Deir Sharaf in northern West Bank <a href="https://thefrontierpost.com/australia-sanctions-israeli-settlers-organisations-over-occupied-west-bank-illegal-settlements/">source</a><span class="ws-hostpill">thefrontierpost.com</span> — 7 outlets · 3 sections</li>
+<li><strong>CONFIRMED</strong> · Israeli parliament elects new speaker backed by Netanyahu’s opponents <a href="https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents">source</a><span class="ws-hostpill">theguardian.com</span> — 6 outlets · 3 sections</li>
+<li><strong>CONFIRMED</strong> · Confidence in Hormuz has been 'crushed' by war on Iran, IEA says <a href="https://www.middleeasteye.net/live-blog/live-blog-update/confidence-hormuz-has-been-crushed-war-iran-iea-says">source</a><span class="ws-hostpill">middleeasteye.net</span> — 5 outlets · 3 sections</li>
+<li><strong>CONFIRMED</strong> · Saudi Arabia: A drone launched by the Houthis toward the Riyadh region was intercepted and destroyed <a href="https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-downing-houthi-drones-launched-towards-riyadh">source</a><span class="ws-hostpill">middleeasteye.net</span> — 4 outlets · 3 sections</li>
+<li><strong>CONFIRMED</strong> · Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza <a href="https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza">source</a><span class="ws-hostpill">theguardian.com</span> — 4 outlets · 3 sections</li>
+<li><strong>CONFIRMED</strong> · William and Kate 'very much a team' after Earthshot Prize trip to India <a href="https://www.cambstimes.co.uk/news/national/26746767.william-kate-very-much-team-earthshot-prize-trip-india/">source</a><span class="ws-hostpill">cambstimes.co.uk</span> — 4 outlets · 3 sections</li>
+</ul>
+<h2 id="developing-story-momentum-across-35-days">Developing — story momentum across 35 days</h2>
+<ul>
+<li><strong>SURGING</strong> · Putin — [Global] Three of a kind? Xi hosts Trump and Putin as Ukraine war grinds on — Gang of three or glorified photo op? Xi Jinping hosting Donald Trump and Vladimir Putin on t… <em>(today 40/day · peak 45 · present 34/35 days)</em></li>
+<li><strong>SURGING</strong> · Anthropic — [Global] Anthropic goes public after blockbuster IPO but fails to revive AI trade — Anthropic has become the first pure-play AI developer to be publicly traded on the sto… <em>(today 29/day · peak 29 · present 29/35 days)</em></li>
+<li><strong>SURGING</strong> · Myanmar — [UN] World’s top court finds Myanmar guilty of genocide against Rohingya — The International Court of Justice, the principal judicial organ of the UN, delivered its judgm… <em>(today 23/day · peak 23 · present 32/35 days)</em></li>
+<li><strong>SURGING</strong> · Kyiv — [Global] Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says — Russian attacks on Kyiv killed three people and damaged two bridges in the Ukrainian capita… <em>(today 15/day · peak 18 · present 34/35 days)</em></li>
+<li><strong>SURGING</strong> · Kushner — [Global] Kushner says Trump 'open' to extend NATO mutual defense-type clause to Ukraine — US envoy Jared Kushner said Thursday that President Donald Trump was open to ext… <em>(today 10/day · peak 10 · present 10/35 days)</em></li>
+<li><strong>NEW</strong> · NATO-like — [Russia oil sanctions perimeter · near] Kushner says he believes Russia is 'comfortable' with NATO-like security guarantees for Ukraine | International — santamariatimes.… <em>(today 5/day · peak 5 · present 1/35 days)</em></li>
+<li><strong>NEW</strong> · Susan Smith — [Global] Susan Smith denied parole again 32 years after drowning her two sons — At a hearing on the possibility of parole, Smith said she wished she could change the past… <em>(today 4/day · peak 4 · present 1/35 days)</em></li>
+<li><strong>NEW</strong> · Pete Rose — [Singapore] Trump issues posthumous pardon to Major League Baseball hit king Pete Rose — Rose was banned from baseball in 1989 after an investigation found he bet on base… <em>(today 4/day · peak 4 · present 1/35 days)</em></li>
+<li><strong>BUILDING</strong> · Chinese — [Cybersecurity Dive] Chinese espionage group targets critical flaw in VMware vCenter — The attacks stem from a zero-day Armory Castle previously exploited in BeyondTrust… <em>(today 14/day · peak 26 · present 34/35 days)</em></li>
+<li><strong>BUILDING</strong> · Houthi — [Singapore] Saudi-led coalition says it intercepted Houthi missile targeting southern region — Nov 20 - Saudi air defences intercepted and destroyed a ballistic missile l… <em>(today 11/day · peak 13 · present 31/35 days)</em></li>
+<li><strong>BUILDING</strong> · White House — [Global] White House fires national cyber director over widespread outages — The White House fired national cyber director Sean Cairncross on Thursday following a week of… <em>(today 7/day · peak 19 · present 28/35 days)</em></li>
+<li><strong>FADING</strong> · Nvidia — [AI compute + semiconductor export controls · keywords] California investigates Nvidia over ex-CEO Jensen Huang's alleged affair with suspected Chinese spy — fox10phoenix… <em>(today 17/day · peak 90 · present 24/35 days)</em></li>
+</ul>
+<h2 id="by-domain">By domain</h2>
+<p><strong>Conflict &amp; security</strong></p>
+<ul>
+<li>Kuwait says it repelled first Iranian attack in two months after US strikes island <a href="https://www.naturalnews.com/2026-11-18-iran-strikes-kuwait-bahrain-after-us-bombing.html">source</a><span class="ws-hostpill">naturalnews.com</span> <em>(confirmed, 3 outlets)</em></li>
+<li>China, US, Russia issue 'Declaration toward Peace' after first summit - Asia &amp; Pacific <a href="http://www.thejakartapost.com/world/2026/11/20/china-us-russia-issue-declaration-toward-peace-after-first-summit">source</a><span class="ws-hostpill">thejakartapost.com</span> <em>(confirmed, 3 outlets)</em></li>
+<li>Military airstrikes kill 21 ISWAP fighters, commanders in Borno Air strikes by the Nigerian military have left 21 Islamic State West Africa Province (ISWAP) fighters dead in separa… <a href="https://nationalaccordnewspaper.com/military-airstrikes-kill-21-iswap-fighters-commanders-in-borno/">source</a><span class="ws-hostpill">nationalaccordnewspaper.com</span> <em>(confirmed, 3 outlets)</em></li>
+</ul>
+<p><strong>Geopolitics</strong></p>
+<ul>
+<li>North Korea expands uranium enrichment plant at Yongbyon <a href="http://www.parisguardian.com/news/279441355/north-korea-expands-uranium-enrichment-plant-at-yongbyon">source</a><span class="ws-hostpill">parisguardian.com</span> <em>(confirmed, 4 outlets)</em></li>
+<li>PHOTOS: Tinubu grants interview to American political strategist Diana London <a href="https://punchng.com/photos-tinubu-grants-interview-to-american-political-strategist-diana-london/">source</a><span class="ws-hostpill">punchng.com</span> <em>(confirmed, 3 outlets)</em></li>
+<li>Denmark approves security deal with US and Greenland, seeking to finally ease tensions with Trump <a href="https://www.asiaone.com/world/denmark-approves-security-deal-us-and-greenland-seeking-finally-ease-tensions-trump">source</a><span class="ws-hostpill">asiaone.com</span> <em>(confirmed, 5 outlets)</em></li>
+</ul>
+<p><strong>Technology &amp; cyber</strong></p>
+<ul>
+<li>
+<h1 id="1-elon-musk-87742b-united-states-technology-source-tesla-spacex-holdings-spcx-usnasdaq-spcx-usnasdaq-tsla-usnasdaq-source-confirmed-3-outlets">1 Elon Musk — $877.42B — United States · Technology · source: Tesla, SpaceX · holdings: SPCX-US(NASDAQ), SPCX-US(NASDAQ), TSLA-US(NASDAQ) <a href="https://www.forbes.com/profile/elon-musk/">source</a><span class="ws-hostpill">forbes.com</span> <em>(confirmed, 3 outlets)</em></h1>
+</li>
+<li>Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans <a href="https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump">source</a><span class="ws-hostpill">theguardian.com</span> <em>(confirmed, 3 outlets)</em></li>
+</ul>
+<p><strong>Earth &amp; disaster</strong></p>
+<ul>
+<li>M4.8 — 11 km SSW of Santa Gertrudis Miramar, Mexico — Magnitude 4.8, depth 35km, alert level: None <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc6c">source</a><span class="ws-hostpill">earthquake.usgs.gov</span> <em>(confirmed, 1 outlet)</em></li>
+</ul>
+<h2 id="connections-names-that-cross-domains">Connections — names that cross domains</h2>
+<ul>
+<li><strong>Trump</strong> — 6 domains (Conflict &amp; security, Geopolitics, Markets &amp; macro, State media, Technology &amp; cyber, US governance), 12 sections. US governance: Republicans acknowledge voters rejected them but show little appetite for breaking with Tr…; Geopolitics: Copper wires to blame for US flight disruption, says Trump administration</li>
+<li><strong>Nvidia</strong> — 6 domains (Conflict &amp; security, Geopolitics, Markets &amp; macro, State media, Technology &amp; cyber, US governance), 10 sections. Geopolitics: Washington divided over how to deal with fallout from the Nvidia case</li>
+<li><strong>Putin</strong> — 6 domains (Conflict &amp; security, Geopolitics, Markets &amp; macro, State media, Technology &amp; cyber, US governance), 10 sections. Geopolitics: Moscow confirms Trump, Xi, Putin meeting in China; Markets &amp; macro: Will Reuters or AP publish a photo of Trump, Xi and Putin together in Shenzhen, with no ot…</li>
+<li><strong>Amazon</strong> — 5 domains (Conflict &amp; security, Geopolitics, State media, Technology &amp; cyber, US governance), 9 sections. US governance: UPDATE: 20-year-old charged with attempted murder after running over victim in Amazon park…; Geopolitics: ‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protec…</li>
+<li><strong>Anthropic</strong> — 4 domains (Geopolitics, State media, Technology &amp; cyber, US governance), 8 sections. Geopolitics: Huang’s fall hits ‘open’ models in boost to Anthropic and OpenAI; US governance: Newsom touts an AI kill switch to halt dangerous OpenAI, Anthropic releases</li>
+<li><strong>OpenAI</strong> — 5 domains (Conflict &amp; security, Geopolitics, State media, Technology &amp; cyber, US governance), 8 sections. Geopolitics: OpenAI security chiefs discuss Ukraine military ties with Russian pranksters (VIDEO); US governance: California is suing OpenAI over its ‘rogue’ AI agent hack</li>
+</ul>
+<h2 id="outlook-falsifiable-calls">Outlook — falsifiable calls</h2>
+<ul>
+<li>Will <strong>Putin</strong> (surging, perennial) still be in 3+ sections on 2026-11-23? <strong>21%</strong></li>
+<li>Will <strong>Anthropic</strong> (surging, perennial) still be in 3+ sections on 2026-11-23? <strong>21%</strong></li>
+<li>Will <strong>Myanmar</strong> (surging, perennial) still be in 3+ sections on 2026-11-23? <strong>21%</strong></li>
+<li>Will <strong>Kyiv</strong> (surging, perennial) still be in 3+ sections on 2026-11-23? <strong>21%</strong></li>
+<li>Will <strong>Kushner</strong> (surging, episodic) still be in 3+ sections on 2026-11-23? <strong>20%</strong></li>
+<li>Will <strong>NATO-like</strong> (new, episodic) still be in 3+ sections on 2026-11-23? <strong>13%</strong></li>
+<li>Will <strong>Susan Smith</strong> (new, episodic) still be in 3+ sections on 2026-11-23? <strong>13%</strong></li>
+<li>Will <strong>Pete Rose</strong> (new, episodic) still be in 3+ sections on 2026-11-23? <strong>13%</strong></li>
+</ul>
+<p><em>Momentum-call record (out-of-sample backtest plus live calls): 22 of 167 came true (13%). Surges usually fade within days; probabilities are calibrated per class against this record.</em></p>
+<ul>
+<li>Still cross-source-salient on 2026-12-04 (98% each): China, Russia, Trump, Nvidia, Putin, Alaska, Japan, Iran, Philippines, Ukraine, U.S, Amazon.</li>
+</ul>
+<p><em>Track record: 1,484 of 1,500 graded calls came true (99%). Stated probabilities are calibrated against it; persistence calls are near-certain by design, so read them as a salience list.</em></p>
+<hr />
+<p><em>Assembled 2026-11-20 by tools/fallback_brief.py from the WORLDSCOPE lake. Status labels come from the claim graph's corroboration grading; momentum compares each story with its own baseline across the window. A composed edition replaces this one once the composer is restored.</em></p>
+      
+    </article>
+    <footer class="ws-foot mt-16 pt-5 border-t border-mist font-sans text-xs text-slate flex flex-wrap justify-between gap-3">
+      <div>WORLDSCOPE · all claims trace to inline sources · synthesis grounded in bundle items</div>
+      <div><a href="./index.html" class="text-navy hover:text-gold">archive</a></div>
+    </footer>
+  </main>
+</div>
+<script>document.addEventListener('DOMContentLoaded',function(){if(window.lucide)window.lucide.createIcons();});</script>
+</body></html>
