@@ -23,7 +23,9 @@ permissions:
 
 concurrency:
   group: ukraine-hourly
-  cancel-in-progress: true
+  # Scheduled runs start hours late and bunch up; cancelling the running
+  # one for a newer one meant some refreshes never finished.
+  cancel-in-progress: false
 
 # Opt JS actions into Node.js 24 ahead of the 2026-06-16 forced cutover.
 env:

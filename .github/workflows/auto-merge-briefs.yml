@@ -53,6 +53,12 @@ jobs:
         if: steps.classify.outputs.verdict == 'merge'
         run: |
           set -euo pipefail
+          # The routine opens its pull requests as drafts, and GitHub refuses
+          # to merge a draft ("Pull Request is still a draft"): every brief
+          # from 2026-11-12 on was validated and then left unmerged.
+          if [ "$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)" = "true" ]; then
+            gh pr ready "$PR_NUMBER" --repo "$GITHUB_REPOSITORY"
+          fi
           gh pr merge "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
           # A GITHUB_TOKEN merge does not fire render-briefings' push trigger.
           gh workflow run render-briefings.yml --repo "$GITHUB_REPOSITORY" --ref main

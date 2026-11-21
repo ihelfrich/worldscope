@@ -25,6 +25,7 @@ import hashlib
 import html
 import os
 import re
+import socket
 import threading
 import time
 
@@ -38,6 +39,24 @@ if TYPE_CHECKING:  # annotation only; the lake imports sections lazily
     from ..lake import ArtifactSet
 
 from ..store import SnapshotStore
+
+
+# feedparser.parse(url) fetches with urllib and no timeout of its own; five
+# adapters call it that way. A stalled feed then holds its worker thread long
+# after the pull deadline has passed. requests calls set their own timeouts.
+if socket.getdefaulttimeout() is None:
+    socket.setdefaulttimeout(45)
+
+_EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+")
+
+
+def redact_error(text: str) -> str:
+    """Strip email addresses from an error message.
+
+    Error text is published in the run report, the section pages and the
+    lake, and an upstream error can echo the account a credential belongs to.
+    """
+    return _EMAIL_RE.sub("[address removed]", text or "")
 
 
 class PullTimeout(Exception):
@@ -240,7 +259,7 @@ class Section(ABC):
             raw = _run_with_timeout(self.pull, self.PULL_TIMEOUT_S)
             items = self._tag_ids(raw or [])
         except Exception as exc:
-            error = f"{type(exc).__name__}: {exc}"
+            error = redact_error(f"{type(exc).__name__}: {exc}")
             error_type = type(exc).__name__
         latency_ms = int((time.monotonic() - _t0) * 1000)
 
@@ -515,9 +534,20 @@ class Section(ABC):
         """Write the three-artifact set under lake/sections/<section>/<date>/
         AND mirror the raw records into the lake's `records` table. The
         orchestrator calls this once per section after resolve() returns."""
-        from ..lake import Lake, ArtifactSet
+        from ..lake import Lake
 
+        own_lake = lake is None
         lake = lake or Lake.open()
+        try:
+            return self._to_lake(state, lake)
+        finally:
+            if own_lake:
+                lake.close()
+
+    def _to_lake(self, state: "SectionState", lake) -> "ArtifactSet":
+        from .. import lake as lake_module
+        from ..lake import ArtifactSet
+
         today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         section_date = state.source_date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -728,5 +758,11 @@ class Section(ABC):
             summary_md=summary_md,
             structured=structured,
         )
+        # A failed pull carries the last good day's date and no records.
+        # Writing it would replace that day's raw.jsonl with an empty file,
+        # so the files of a day that already exists are left as they are.
+        if state.error and (
+                lake_module.LAKE_SECTIONS / self.id / section_date / "raw.jsonl").exists():
+            return artifacts
         lake.write_artifacts(artifacts)
         return artifacts
