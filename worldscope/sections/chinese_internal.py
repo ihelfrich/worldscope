@@ -50,6 +50,7 @@ UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com) Mozilla/5.0"
 
 
 from ._util import slug as _slug
+from ..lib.translate import translate_item_titles
 
 
 # (source_label, feed_url, language, tier, notes)
@@ -109,53 +110,6 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
     # ---- State-controlled, English ----------------------------------------
     ("Global Times (English)",                     "https://www.globaltimes.cn/rss/outbrain.xml",                                                                 "en", "state_controlled",        "Hawkish state-controlled English (verified 2026-05-27)"),
 ]
-
-
-def _translate_with_haiku(texts: list[str]) -> list[str]:
-    """Translate a batch of Chinese strings to English via Claude Haiku.
-    Returns a list of English translations in the same order. On any failure,
-    returns the input texts unchanged (degraded but not broken)."""
-    if not texts:
-        return []
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        # No key in environment -> skip translation, return originals
-        return texts
-
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return texts
-
-    client = Anthropic(api_key=api_key)
-
-    # Single batched call: prompt has all the items, model returns JSON array.
-    numbered = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, start=1))
-    prompt = (
-        "Translate each of the following Chinese news items into concise English. "
-        "Preserve names, organizations, and numeric values exactly. Reply with ONLY "
-        "a JSON array of strings, one per input, in order. No commentary, no markdown.\n\n"
-        f"Items:\n{numbered}"
-    )
-
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5",   # cheap + fast; falls back if unavailable
-            max_tokens=2000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
-        # Strip code-fence wrappers if Haiku added them
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(line for line in lines if not line.startswith("```"))
-        translations = json.loads(text)
-        if isinstance(translations, list) and len(translations) == len(texts):
-            return [str(t) for t in translations]
-    except Exception as exc:
-        print(f"[chinese_internal] translation failed: {type(exc).__name__}: {exc}",
-              file=sys.stderr)
-    return texts   # degraded: return originals on any failure
 
 
 class ChineseInternalSection(Section):
@@ -236,19 +190,7 @@ class ChineseInternalSection(Section):
         # Batch-translate the Chinese-language items
         zh_items = [it for it in raw_items if it.get("source_lang") == "zh" and not it.get("_error")]
         if zh_items:
-            # Title + lede combined for each, capped at 200 chars to keep
-            # Haiku input size reasonable
-            inputs = [
-                f"TITLE: {it.get('title','')} | LEDE: {(it.get('summary','') or '')[:200]}"
-                for it in zh_items
-            ]
-            translations = _translate_with_haiku(inputs)
-            for it, en in zip(zh_items, translations):
-                it["title_en"] = en   # combined translation; downstream code
-                                       # uses this for the English-facing surface
-                # Prefix display title with the English translation
-                it["title_original"] = it.get("title", "")
-                it["title"] = f"[{en[:200]}] (zh: {it['title_original'][:80]})"
+            translate_item_titles(zh_items, "zh", purpose="translate:chinese_internal")
 
         return raw_items
 

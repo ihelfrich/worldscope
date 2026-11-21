@@ -50,6 +50,7 @@ UA = "worldscope/0.1 research (contact: ianthelfrich@gmail.com) Mozilla/5.0"
 
 
 from ._util import slug as _slug
+from ..lib.translate import translate_item_titles
 
 
 # (source_label, feed_url, language, tier, notes)
@@ -74,44 +75,6 @@ FEEDS: list[tuple[str, str, str, str, str]] = [
     ("DW Russian",            "https://www.dw.com/atom/rss-ru-all",               "ru", "mainstream_independent",   "Deutsche Welle Russian Service"),
     ("Radio Liberty Russia",  "https://www.svoboda.org/api/zr-piye",              "ru", "mainstream_independent",   "RFE/RL Russian Service"),
 ]
-
-
-def _translate_with_haiku(texts: list[str], source_lang: str = "Russian") -> list[str]:
-    if not texts: return []
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key: return texts
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return texts
-    client = Anthropic(api_key=api_key)
-    numbered = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, start=1))
-    prompt = (
-        f"Translate each of the following {source_lang} news items into concise English. "
-        "Preserve names, organizations, and numeric values exactly. Note: if the source "
-        "uses propagandistic euphemisms (e.g. 'special military operation'), preserve "
-        "the original phrasing in quotes and add a brief clarification in brackets. "
-        "Reply with ONLY a JSON array of strings, one per input, in order. "
-        "No commentary, no markdown.\n\n"
-        f"Items:\n{numbered}"
-    )
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=2500,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(line for line in lines if not line.startswith("```"))
-        translations = json.loads(text)
-        if isinstance(translations, list) and len(translations) == len(texts):
-            return [str(t) for t in translations]
-    except Exception as exc:
-        print(f"[russian_internal] translation failed: {type(exc).__name__}: {exc}",
-              file=sys.stderr)
-    return texts
 
 
 class RussianInternalSection(Section):
@@ -188,17 +151,10 @@ class RussianInternalSection(Section):
         # Batch-translate Russian-language items
         ru_items = [it for it in raw_items if it.get("source_lang") == "ru" and not it.get("_error")]
         if ru_items:
-            # Cap to 60 per run so the translation cost stays bounded (~$0.005/day)
-            translate_batch = ru_items[:60]
-            inputs = [
-                f"TITLE: {it.get('title','')} | LEDE: {(it.get('summary','') or '')[:200]}"
-                for it in translate_batch
-            ]
-            translations = _translate_with_haiku(inputs, source_lang="Russian")
-            for it, en in zip(translate_batch, translations):
-                it["title_en"] = en
-                it["title_original"] = it.get("title", "")
-                it["title"] = f"[{en[:200]}] (ru: {it['title_original'][:80]})"
+            # The section pulls ~500 new Russian items a day; translations
+            # are cached, so the cap bounds only what is new in one run.
+            translate_item_titles(ru_items, "ru", purpose="translate:russian_internal",
+                                  limit=400)
 
         return raw_items
 

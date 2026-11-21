@@ -25,6 +25,7 @@ from pathlib import Path
 import time
 from typing import Optional
 
+from . import llm
 from .bundle import make_bundle
 from .calendar import fetch_calendar, upcoming
 from .overview import build_overview
@@ -466,6 +467,8 @@ def run(section_ids: list[str] | None = None, *, out_dir: Path | str = "dist") -
         },
         "failed_required_stages": failed_required,
         "ok": not failed_required,
+        # What this run spent on model calls, by purpose.
+        "llm_usage": llm.usage_summary(),
     }
     report_path = out_dir / "run_report.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)

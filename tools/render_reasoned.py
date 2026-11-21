@@ -134,29 +134,28 @@ def _translate(texts: list) -> dict:
     """Translate non-English headlines to English via Haiku, batched into one
     call. No-op (returns {}) without ANTHROPIC_API_KEY — so it degrades to the
     original text + a language tag. Any failure falls back silently."""
+    from worldscope import llm
     uniq = [t for t in dict.fromkeys(texts) if t][:12]
-    if not uniq or not os.environ.get("ANTHROPIC_API_KEY"):
+    if not uniq or not llm.available():
         return {}
+    numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(uniq))
+    prompt = ("Translate each numbered news headline into concise English. "
+              "Output ONLY the translations with the same numbering, one per "
+              "line, nothing else.\n\n" + numbered)
     try:
-        import anthropic
-        numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(uniq))
-        prompt = ("Translate each numbered news headline into concise English. "
-                  "Output ONLY the translations with the same numbering, one per "
-                  "line, nothing else.\n\n" + numbered)
-        resp = anthropic.Anthropic(timeout=40).messages.create(
-            model="claude-haiku-4-5-20251001", max_tokens=1200,
-            messages=[{"role": "user", "content": prompt}])
-        body = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
-        out = {}
-        for line in body.splitlines():
-            m = re.match(r"\s*(\d+)\.\s*(.+)", line)
-            if m:
-                i = int(m.group(1)) - 1
-                if 0 <= i < len(uniq):
-                    out[uniq[i]] = m.group(2).strip()
-        return out
-    except Exception:
+        body = llm.complete(prompt, purpose="translate:homepage", model=llm.BULK_MODEL,
+                            max_tokens=1200, timeout=40)
+    except llm.LLMUnavailable as exc:
+        print(f"[render_reasoned] headlines not translated: {exc}")
         return {}
+    out = {}
+    for line in body.splitlines():
+        m = re.match(r"\s*(\d+)\.\s*(.+)", line)
+        if m:
+            i = int(m.group(1)) - 1
+            if 0 <= i < len(uniq):
+                out[uniq[i]] = m.group(2).strip()
+    return out
 
 
 def _gather(today: date):
