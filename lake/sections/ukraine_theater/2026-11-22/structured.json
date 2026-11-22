@@ -2,17 +2,17 @@
   "anomalies": [
     {
       "category": "feed-failure",
-      "description": "[acled exception] UpstreamAuthError",
+      "description": "[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)",
       "evidence": [
-        "acled-exception"
+        "alerts-fetch-error"
       ],
       "z_score": null
     },
     {
       "category": "feed-failure",
-      "description": "[Air alerts error] HTTPError (set ALERTS_IN_UA_TOKEN for v2)",
+      "description": "[acled exception] UpstreamAuthError",
       "evidence": [
-        "alerts-fetch-error"
+        "acled-exception"
       ],
       "z_score": null
     }
@@ -38,22 +38,22 @@
       "type": "org"
     },
     {
-      "canonical_name": "Liveuamap",
-      "id": "org:source-liveuamap",
-      "metadata": {
-        "geo_resolution_m": 1000,
-        "kind": "osint-feed",
-        "latency_hours": 1.5
-      },
-      "type": "org"
-    },
-    {
       "canonical_name": "Institute for the Study of War",
       "id": "org:source-institute-for-the-study-of-war",
       "metadata": {
         "geo_resolution_m": 1000,
         "kind": "analysis",
         "latency_hours": 24.0
+      },
+      "type": "org"
+    },
+    {
+      "canonical_name": "Liveuamap",
+      "id": "org:source-liveuamap",
+      "metadata": {
+        "geo_resolution_m": 1000,
+        "kind": "osint-feed",
+        "latency_hours": 1.5
       },
       "type": "org"
     },
@@ -89,10 +89,10 @@
     }
   ],
   "entities_updated": [],
-  "new_count": 74,
+  "new_count": 83,
   "paper_bets": [],
   "predictions": [],
-  "record_count": 274,
+  "record_count": 272,
   "relationships": [
     {
       "evidence": [
@@ -105,16 +105,52 @@
     },
     {
       "evidence": [
-        "liveuamap-0ac1fffa3fd762a1"
+        "isw-proxy-fd69871db0c6ea92"
       ],
-      "from": "org:source-liveuamap",
+      "from": "org:source-institute-for-the-study-of-war",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "liveuamap-b8bf2dd981fae6d3"
+        "isw-proxy-fd69871db0c6ea92"
+      ],
+      "from": "org:source-institute-for-the-study-of-war",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "isw-proxy-fd69871db0c6ea92"
+      ],
+      "from": "org:source-institute-for-the-study-of-war",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "isw-proxy-fd69871db0c6ea92"
+      ],
+      "from": "org:source-institute-for-the-study-of-war",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "isw-proxy-fd69871db0c6ea92"
+      ],
+      "from": "org:source-institute-for-the-study-of-war",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-0ac1fffa3fd762a1"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -150,15 +186,6 @@
     },
     {
       "evidence": [
-        "liveuamap-4f42751156b4ee26"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-de7fa120a18baa5c"
       ],
       "from": "org:source-liveuamap",
@@ -168,7 +195,7 @@
     },
     {
       "evidence": [
-        "liveuamap-b32df6275e1ccbf8"
+        "liveuamap-a5336ccd78e7e3ef"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -177,7 +204,7 @@
     },
     {
       "evidence": [
-        "liveuamap-8eded9523e575603"
+        "liveuamap-1fefaee9a8227a1e"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -186,16 +213,7 @@
     },
     {
       "evidence": [
-        "liveuamap-c53fc863725b4bba"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-7154e5226df8180c"
+        "liveuamap-81f7cc601113b027"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -213,7 +231,7 @@
     },
     {
       "evidence": [
-        "liveuamap-585cf6704258eacf"
+        "liveuamap-75fb8be457fe560a"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -232,15 +250,6 @@
     {
       "evidence": [
         "liveuamap-34cd4f2dbad1257b"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-59d6758a8cc770c7"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -276,6 +285,15 @@
     },
     {
       "evidence": [
+        "liveuamap-d3bf23974892af43"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "liveuamap-e2d65296626d7bd3"
       ],
       "from": "org:source-liveuamap",
@@ -285,7 +303,7 @@
     },
     {
       "evidence": [
-        "liveuamap-86c719adbe6849c6"
+        "liveuamap-f59c8d6e11d6ad19"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -295,15 +313,6 @@
     {
       "evidence": [
         "liveuamap-39d86953756bc013"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-ee0ad648ff8be643"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -339,33 +348,6 @@
     },
     {
       "evidence": [
-        "liveuamap-15279b476ff0dde0"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-065d12b5dfe1e8ec"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-e811766f5d772837"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-69c74ced21ef645c"
       ],
       "from": "org:source-liveuamap",
@@ -375,25 +357,7 @@
     },
     {
       "evidence": [
-        "liveuamap-e914ed9eb6690f30"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-e22f00e44c36d6d6"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-b4335b6653c3666e"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -447,7 +411,7 @@
     },
     {
       "evidence": [
-        "liveuamap-0c7abaebff20075d"
+        "liveuamap-f399486f8e995faa"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -456,7 +420,7 @@
     },
     {
       "evidence": [
-        "liveuamap-86e8ad2c26483e8a"
+        "liveuamap-b8bf2dd981fae6d3"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -528,15 +492,6 @@
     },
     {
       "evidence": [
-        "liveuamap-fc6c57f59f1079ed"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-d8ce32cebc439f27"
       ],
       "from": "org:source-liveuamap",
@@ -547,6 +502,15 @@
     {
       "evidence": [
         "liveuamap-6df58de8a23808be"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-3967cbedefb18ce5"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -591,7 +555,7 @@
     },
     {
       "evidence": [
-        "liveuamap-f5ec4390d7339bf7"
+        "liveuamap-e89e0d7d3bd68b2a"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -600,7 +564,7 @@
     },
     {
       "evidence": [
-        "liveuamap-068dd43aa86e2dc1"
+        "liveuamap-f5ec4390d7339bf7"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -690,6 +654,15 @@
     },
     {
       "evidence": [
+        "liveuamap-70b00b443d503cc5"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "liveuamap-8222d263744c7be3"
       ],
       "from": "org:source-liveuamap",
@@ -699,34 +672,7 @@
     },
     {
       "evidence": [
-        "liveuamap-97fbad79908dfa11"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-df4272daae7363db"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-4c34093aafb3a86c"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-bd29bd9e74bc371d"
+        "liveuamap-bf3c75c17fe492d6"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -736,15 +682,6 @@
     {
       "evidence": [
         "liveuamap-0c95aa9346b16324"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-93848d94adda4d33"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -780,15 +717,6 @@
     },
     {
       "evidence": [
-        "liveuamap-f3a7bdf9b8876c19"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-c11e1289f0e5d97a"
       ],
       "from": "org:source-liveuamap",
@@ -798,25 +726,7 @@
     },
     {
       "evidence": [
-        "liveuamap-9f26b95c227a5662"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "liveuamap-788c4b08cf87e0c2"
-      ],
-      "from": "org:source-liveuamap",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "liveuamap-64b1c2eb39e3d3b5"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -852,7 +762,7 @@
     },
     {
       "evidence": [
-        "liveuamap-7921700cb16a87f4"
+        "liveuamap-cc0922436e5f243e"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -861,7 +771,7 @@
     },
     {
       "evidence": [
-        "liveuamap-cc0922436e5f243e"
+        "liveuamap-a969dc25f72fffb9"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -906,7 +816,7 @@
     },
     {
       "evidence": [
-        "liveuamap-97df3d2f6eeb1d23"
+        "liveuamap-38cf436419b1044d"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -916,6 +826,15 @@
     {
       "evidence": [
         "liveuamap-8a94e35ff44bc3e6"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-3a423e988e335bce"
       ],
       "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
@@ -969,6 +888,15 @@
     },
     {
       "evidence": [
+        "liveuamap-548cda5e8dd9ee68"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "liveuamap-e8956a110f01c460"
       ],
       "from": "org:source-liveuamap",
@@ -996,6 +924,15 @@
     },
     {
       "evidence": [
+        "liveuamap-9751fce6f96247dc"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "liveuamap-2c8c04b49d30b9a6"
       ],
       "from": "org:source-liveuamap",
@@ -1005,45 +942,117 @@
     },
     {
       "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
+        "liveuamap-b3eebd13a0e2af9d"
       ],
-      "from": "org:source-institute-for-the-study-of-war",
+      "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
+        "liveuamap-0d4df6cb2f01e2aa"
       ],
-      "from": "org:source-institute-for-the-study-of-war",
+      "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
+        "liveuamap-05f3d52302e9fbc4"
       ],
-      "from": "org:source-institute-for-the-study-of-war",
+      "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
+        "liveuamap-47c7e5d06334a084"
       ],
-      "from": "org:source-institute-for-the-study-of-war",
+      "from": "org:source-liveuamap",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
     },
     {
       "evidence": [
-        "isw-proxy-fd69871db0c6ea92"
+        "liveuamap-a3713ca3e56c23ae"
       ],
-      "from": "org:source-institute-for-the-study-of-war",
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-9f52f1ec196be4f7"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-7d79cf6470ebcc50"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-eaf15b368cd49dd8"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-f50b11422589c145"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-f1894556313a101d"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-f422b51d37e54547"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "liveuamap-3a54ca012b40a2c8"
+      ],
+      "from": "org:source-liveuamap",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-3d46c6e835b8a717"
+      ],
+      "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
       "type": "reports-on",
       "weight": 1.0
@@ -1060,15 +1069,6 @@
     {
       "evidence": [
         "official-ua-10e0f46725a8971a"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-3d46c6e835b8a717"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1104,16 +1104,7 @@
     },
     {
       "evidence": [
-        "official-ua-df6572f2046b50c0"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-6d48732f3b482923"
+        "official-ua-2016d52a599af54d"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1131,7 +1122,7 @@
     },
     {
       "evidence": [
-        "official-ua-3df29b769946ae98"
+        "official-ua-6d48732f3b482923"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1158,7 +1149,25 @@
     },
     {
       "evidence": [
+        "official-ua-3df29b769946ae98"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "official-ua-48a80327b0265c81"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-d319f642fa141c1f"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1185,52 +1194,7 @@
     },
     {
       "evidence": [
-        "official-ua-d319f642fa141c1f"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "official-ua-d2ad18593bb00664"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-7688a56376630d96"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-56508bb485d60ee4"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-e4a8f853165d38ea"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-f7e5d093a9db0b2c"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1266,7 +1230,7 @@
     },
     {
       "evidence": [
-        "official-ua-566d30b61133a02e"
+        "official-ua-7688a56376630d96"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1275,7 +1239,7 @@
     },
     {
       "evidence": [
-        "official-ua-cd4e888b110c4e65"
+        "official-ua-56508bb485d60ee4"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1284,16 +1248,7 @@
     },
     {
       "evidence": [
-        "official-ua-509764b667041ffe"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-42ada1bf70616529"
+        "official-ua-e4a8f853165d38ea"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1303,6 +1258,15 @@
     {
       "evidence": [
         "official-ua-66f8f32c4dad39e5"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-f7e5d093a9db0b2c"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1329,7 +1293,25 @@
     },
     {
       "evidence": [
+        "official-ua-566d30b61133a02e"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "official-ua-2f2e173a1fc39da8"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-cd4e888b110c4e65"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1348,6 +1330,24 @@
     {
       "evidence": [
         "official-ua-dae71460c371d505"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-509764b667041ffe"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-42ada1bf70616529"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1419,15 +1419,6 @@
     },
     {
       "evidence": [
-        "official-ua-1196f40a5207babb"
-      ],
-      "from": "org:source-zsu-general-staff",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "official-ua-1379345aa2fffb1e"
       ],
       "from": "org:source-zsu-general-staff",
@@ -1447,6 +1438,15 @@
     {
       "evidence": [
         "official-ua-d5c760d3cfa86c90"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-42e813266a330c32"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1509,7 +1509,16 @@
     },
     {
       "evidence": [
-        "official-ua-42e813266a330c32"
+        "official-ua-1a2f0d7192dcc558"
+      ],
+      "from": "org:source-zsu-general-staff",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-1196f40a5207babb"
       ],
       "from": "org:source-zsu-general-staff",
       "to": "place:country-ukraine",
@@ -1581,15 +1590,6 @@
     },
     {
       "evidence": [
-        "official-ua-2fb25597e92072b7"
-      ],
-      "from": "org:source-ua-ministry-of-defence",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "official-ua-13bd105a095d9495"
       ],
       "from": "org:source-ua-ministry-of-defence",
@@ -1600,15 +1600,6 @@
     {
       "evidence": [
         "official-ua-74d583f56c73268d"
-      ],
-      "from": "org:source-ua-ministry-of-defence",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-2ffb1e355d763e61"
       ],
       "from": "org:source-ua-ministry-of-defence",
       "to": "place:country-ukraine",
@@ -1716,6 +1707,15 @@
     },
     {
       "evidence": [
+        "official-ua-97d5f06a0a212148"
+      ],
+      "from": "org:source-ua-ministry-of-defence",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
         "official-ua-c602fb35792e6de1"
       ],
       "from": "org:source-ua-ministry-of-defence",
@@ -1762,15 +1762,6 @@
     {
       "evidence": [
         "official-ua-48cbaba99dfa8223"
-      ],
-      "from": "org:source-ua-ministry-of-defence",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-97d5f06a0a212148"
       ],
       "from": "org:source-ua-ministry-of-defence",
       "to": "place:country-ukraine",
@@ -1860,15 +1851,6 @@
     },
     {
       "evidence": [
-        "official-ua-8d0a6992099f15bd"
-      ],
-      "from": "org:source-ua-ministry-of-defence",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
         "official-ua-f11b1f2073fa67c4"
       ],
       "from": "org:source-ua-ministry-of-defence",
@@ -1879,15 +1861,6 @@
     {
       "evidence": [
         "official-ua-d4a1ba4f4a9dbec1"
-      ],
-      "from": "org:source-ua-ministry-of-defence",
-      "to": "place:country-ukraine",
-      "type": "reports-on",
-      "weight": 1.0
-    },
-    {
-      "evidence": [
-        "official-ua-206184c6b81dbf5f"
       ],
       "from": "org:source-ua-ministry-of-defence",
       "to": "place:country-ukraine",
@@ -2049,7 +2022,7 @@
     },
     {
       "evidence": [
-        "official-ua-6243c92811b3cb6a"
+        "official-ua-eff036a32082a421"
       ],
       "from": "org:source-ua-ministry-of-defence",
       "to": "place:country-ukraine",
@@ -2140,6 +2113,15 @@
     {
       "evidence": [
         "official-ua-444359faba069f17"
+      ],
+      "from": "org:source-ua-ministry-of-defence",
+      "to": "place:country-ukraine",
+      "type": "reports-on",
+      "weight": 1.0
+    },
+    {
+      "evidence": [
+        "official-ua-ce70b2a772742883"
       ],
       "from": "org:source-ua-ministry-of-defence",
       "to": "place:country-ukraine",
