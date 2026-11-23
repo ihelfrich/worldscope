@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T22:47:28Z",
- "generated_ts": 1795387648,
+ "generated_at": "2026-11-23T04:01:59Z",
+ "generated_ts": 1795406519,
  "days": 7,
  "network": true,
  "layers": [
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 112,
-   "freshest_ts": 1795384695,
-   "freshest_at": "2026-11-22T21:58:15Z",
+   "count": 105,
+   "freshest_ts": 1795403272,
+   "freshest_at": "2026-11-23T03:07:52Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,9 +31,9 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 968,
-   "freshest_ts": 1795348800,
-   "freshest_at": "2026-11-22T12:00:00Z",
+   "count": 831,
+   "freshest_ts": 1795401657,
+   "freshest_at": "2026-11-23T02:40:57Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -64,8 +64,8 @@
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
    "count": 112,
-   "freshest_ts": 1795387648,
-   "freshest_at": "2026-11-22T22:47:28Z",
+   "freshest_ts": 1795406519,
+   "freshest_at": "2026-11-23T04:01:59Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -75,7 +75,7 @@
   {
    "layer": "flights",
    "file": "layers/flights.geojson",
-   "count": 92,
+   "count": 85,
    "freshest_ts": 1795332785,
    "freshest_at": "2026-11-22T07:33:05Z",
    "inputs": [
@@ -86,9 +86,9 @@
   {
    "layer": "weather_alerts",
    "file": "layers/weather_alerts.geojson",
-   "count": 8,
-   "freshest_ts": 1795387320,
-   "freshest_at": "2026-11-22T22:42:00Z",
+   "count": 9,
+   "freshest_ts": 1795405200,
+   "freshest_at": "2026-11-23T03:40:00Z",
    "inputs": [
     "lake:weather",
     "live:nws_alerts"
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1795387648,
-   "freshest_at": "2026-11-22T22:47:28Z",
+   "freshest_ts": 1795406519,
+   "freshest_at": "2026-11-23T04:01:59Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -119,14 +119,14 @@
    "name": "lake:usgs_quakes+weather",
    "layer": "quakes",
    "ok": true,
-   "count": 102,
+   "count": 91,
    "error": null
   },
   {
    "name": "lake:gdacs",
    "layer": "gdacs",
    "ok": true,
-   "count": 800,
+   "count": 700,
    "error": null
   },
   {
@@ -147,7 +147,7 @@
    "name": "lake:vip_flights",
    "layer": "flights",
    "ok": true,
-   "count": 92,
+   "count": 85,
    "error": null
   },
   {
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 13,
+   "count": 16,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,16 +176,16 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 209,
+   "count": 179,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
   {
    "name": "live:eonet",
    "layer": "firms+gdacs",
-   "ok": true,
-   "count": 10,
-   "error": null,
+   "ok": false,
+   "count": 0,
+   "error": "ConnectionError: HTTPSConnectionPool(host='eonet.gsfc.nasa.gov', port=443): Max retries exceeded with url: /api/v3/events?days=3&status=open (Caused by NewConnectionError(\"HTTPSConnection(host='eonet.",
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
   {
@@ -209,7 +209,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=sahel&format=geojson&timespan=24h&maxpoints=250",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -217,7 +217,7 @@
    "layer": "conflict",
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.gdeltproject.org/api/v2/geo/geo?query=%22rare+earth%22&format=geojson&timespan=24h&maxpoints=250",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=15)",
    "url": "https://api.gdeltproject.org/api/v2/geo/geo"
   },
   {
@@ -256,7 +256,7 @@
    "name": "live:nws_alerts",
    "layer": "weather_alerts",
    "ok": true,
-   "count": 8,
+   "count": 9,
    "error": null,
    "url": "https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe"
   },
@@ -270,12 +270,12 @@
  ],
  "counts": {
   "firms": 0,
-  "quakes": 112,
-  "gdacs": 968,
+  "quakes": 105,
+  "gdacs": 831,
   "conflict": 0,
   "ukraine": 112,
-  "flights": 92,
-  "weather_alerts": 8,
+  "flights": 85,
+  "weather_alerts": 9,
   "watch_areas": 6
  },
  "note": "Analytic context only. Not safety or navigation guidance."
