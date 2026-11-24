@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-24T02:36:13Z",
- "generated_ts": 1795487773,
+ "generated_at": "2026-11-24T12:57:15Z",
+ "generated_ts": 1795525035,
  "days": 7,
  "network": true,
  "layers": [
   {
    "layer": "firms",
    "file": "layers/firms.geojson",
-   "count": 0,
-   "freshest_ts": null,
-   "freshest_at": null,
+   "count": 1,
+   "freshest_ts": 1795302900,
+   "freshest_at": "2026-11-21T23:15:00Z",
    "inputs": [
     "lake:firms",
     "live:eonet"
@@ -19,9 +19,9 @@
   {
    "layer": "quakes",
    "file": "layers/quakes.geojson",
-   "count": 110,
-   "freshest_ts": 1795485357,
-   "freshest_at": "2026-11-24T01:55:57Z",
+   "count": 108,
+   "freshest_ts": 1795521313,
+   "freshest_at": "2026-11-24T11:55:13Z",
    "inputs": [
     "lake:usgs_quakes+weather",
     "live:usgs"
@@ -31,9 +31,9 @@
   {
    "layer": "gdacs",
    "file": "layers/gdacs.geojson",
-   "count": 830,
-   "freshest_ts": 1795422038,
-   "freshest_at": "2026-11-23T08:20:38Z",
+   "count": 931,
+   "freshest_ts": 1795518374,
+   "freshest_at": "2026-11-24T11:06:14Z",
    "inputs": [
     "lake:gdacs",
     "live:gdacs_rss",
@@ -64,8 +64,8 @@
    "layer": "ukraine",
    "file": "layers/ukraine.geojson",
    "count": 112,
-   "freshest_ts": 1795487773,
-   "freshest_at": "2026-11-24T02:36:13Z",
+   "freshest_ts": 1795525035,
+   "freshest_at": "2026-11-24T12:57:15Z",
    "inputs": [
     "lake:ukraine_theater",
     "live:deepstatemap"
@@ -75,9 +75,9 @@
   {
    "layer": "flights",
    "file": "layers/flights.geojson",
-   "count": 84,
-   "freshest_ts": 1795421988,
-   "freshest_at": "2026-11-23T08:19:48Z",
+   "count": 97,
+   "freshest_ts": 1795516206,
+   "freshest_at": "2026-11-24T10:30:06Z",
    "inputs": [
     "lake:vip_flights"
    ],
@@ -99,8 +99,8 @@
    "layer": "watch_areas",
    "file": "layers/watch_areas.geojson",
    "count": 6,
-   "freshest_ts": 1795487773,
-   "freshest_at": "2026-11-24T02:36:13Z",
+   "freshest_ts": 1795525035,
+   "freshest_at": "2026-11-24T12:57:15Z",
    "inputs": [
     "watchareas.yaml"
    ],
@@ -119,14 +119,14 @@
    "name": "lake:usgs_quakes+weather",
    "layer": "quakes",
    "ok": true,
-   "count": 98,
+   "count": 105,
    "error": null
   },
   {
    "name": "lake:gdacs",
    "layer": "gdacs",
    "ok": true,
-   "count": 700,
+   "count": 800,
    "error": null
   },
   {
@@ -140,14 +140,14 @@
    "name": "lake:ukraine_theater",
    "layer": "ukraine",
    "ok": true,
-   "count": 49,
+   "count": 56,
    "error": null
   },
   {
    "name": "lake:vip_flights",
    "layer": "flights",
    "ok": true,
-   "count": 84,
+   "count": 97,
    "error": null
   },
   {
@@ -168,7 +168,7 @@
    "name": "live:usgs",
    "layer": "quakes",
    "ok": true,
-   "count": 16,
+   "count": 7,
    "error": null,
    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
   },
@@ -176,7 +176,7 @@
    "name": "live:gdacs_rss",
    "layer": "gdacs",
    "ok": true,
-   "count": 176,
+   "count": 188,
    "error": null,
    "url": "https://www.gdacs.org/xml/rss.xml"
   },
@@ -184,7 +184,7 @@
    "name": "live:eonet",
    "layer": "firms+gdacs",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null,
    "url": "https://eonet.gsfc.nasa.gov/api/v3/events?days=3&status=open"
   },
@@ -269,12 +269,12 @@
   }
  ],
  "counts": {
-  "firms": 0,
-  "quakes": 110,
-  "gdacs": 830,
+  "firms": 1,
+  "quakes": 108,
+  "gdacs": 931,
   "conflict": 0,
   "ukraine": 112,
-  "flights": 84,
+  "flights": 97,
   "weather_alerts": 9,
   "watch_areas": 6
  },
