@@ -128,6 +128,11 @@ jobs:
         # Dated section pages, daily pages and bundles older than 60 days are
         # unlinked orphans; the raw records stay in lake/.
         run: python -m worldscope.dist_maintenance --out dist
+      - name: Remove account addresses from published error text
+        # Old ACLED error messages named the account and were copied into
+        # section pages and lake files. Runs before the readiness contract,
+        # which hashes the bundle.
+        run: python tools/scrub_published_errors.py
       - name: Publish dated readiness contract
         # Composition waits for this exact-date manifest instead of assuming
         # that a fixed clock time means the raw producer finished.

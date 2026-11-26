@@ -207,7 +207,7 @@ class AcledSection(Section):
         })
         if not body:
             raise UpstreamAuthError(
-                f"ACLED rejected credentials for {email}: {self._last_grant_error} "
+                f"ACLED rejected the configured credentials: {self._last_grant_error} "
                 "(check ACLED_EMAIL/ACLED_PASSWORD and that API terms are accepted)")
         self._save_token(body)
         return body["access_token"]

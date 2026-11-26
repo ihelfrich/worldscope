@@ -13,17 +13,11 @@ deterministic template still produces a useful document.
 """
 from __future__ import annotations
 
-import os
 from datetime import date
-from typing import Any
 
-try:
-    import anthropic  # type: ignore
-except ImportError:
-    anthropic = None  # type: ignore
 
 from .calendar import CalendarItem
-from .synth import SYNTH_MODEL, _first_text
+from . import llm
 from .textutil import clean_text
 
 
@@ -119,36 +113,18 @@ def build_overview(
     # LLM path. Any failure (network/auth/empty or non-text response) falls
     # through to the deterministic template below rather than aborting the
     # brief after every section has already been pulled.
-    if anthropic is not None and os.environ.get("ANTHROPIC_API_KEY"):
+    if llm.available():
         try:
-            client = anthropic.Anthropic()
-            resp = client.messages.create(
-                model=SYNTH_MODEL,
-                max_tokens=1200,
-                # Cache the static system prompt (auto-caches the last
-                # cacheable block) so the identical preamble isn't re-billed.
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{
-                    "role": "user",
-                    "content": PROMPT.format(
-                        today_date=today.isoformat(),
-                        section_pulls=section_pulls,
-                        trends_summary=trends_summary,
-                        calendar_summary=calendar_summary,
-                    ),
-                }],
-            )
-            text = _first_text(resp)
-            if text:
-                return text
-            print("[overview] empty/non-text API response; using deterministic fallback")
-        except Exception as exc:
-            print(f"[overview] API call failed ({type(exc).__name__}: {exc}); "
-                  f"using deterministic fallback")
+            return llm.complete(
+                PROMPT.format(
+                    today_date=today.isoformat(),
+                    section_pulls=section_pulls,
+                    trends_summary=trends_summary,
+                    calendar_summary=calendar_summary,
+                ),
+                purpose="overview", system=SYSTEM, max_tokens=1200, effort="medium")
+        except llm.LLMUnavailable as exc:
+            print(f"[overview] {exc}; using deterministic fallback")
 
     # Deterministic fallback
     total_new = sum(len(d["new"]) for _, (_, d) in section_deltas.items())

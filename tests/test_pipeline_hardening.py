@@ -229,7 +229,8 @@ def test_without_the_flag_a_pushover_failure_still_fails(monkeypatch):
 # ── routine pull request validator ───────────────────────────────────────────
 
 TODAY = date(2026, 11, 12)
-BRIEF = "# Morning brief - Thursday 12 November 2026\n\n" + "word " * 3000
+LINKS = " [source](https://example.org/item)" * 12
+BRIEF = "# Morning brief - Thursday 12 November 2026\n\n" + "word " * 3000 + LINKS
 WEEKLY = "# Weekly brief — 2026-W46 (8 November through 13 November)\n\n" + "word " * 1200
 
 
@@ -244,7 +245,7 @@ def test_a_complete_daily_brief_merges():
 
 
 def test_title_may_follow_a_data_note_and_vary_in_case():
-    text = "> **DATA NOTE:** bundle was late\n\n# Morning Brief - Thursday\n\n" + "w " * 3000
+    text = "> **DATA NOTE:** bundle was late\n\n# Morning Brief - Thursday\n\n" + "w " * 3000 + LINKS
     assert vbp.classify(_added("briefings/2026-11-12.md"), text, TODAY)[0] == "merge"
 
 

@@ -17,7 +17,9 @@ permissions:
 
 concurrency:
   group: live-map
-  cancel-in-progress: true
+  # Scheduled runs start hours late and bunch up; cancelling the running
+  # one for a newer one meant some refreshes never finished.
+  cancel-in-progress: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"

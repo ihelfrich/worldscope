@@ -37,6 +37,11 @@ NOT_READY = re.compile(r"^status/source_not_ready_\d{4}-\d{2}-\d{2}\.txt$")
 MAX_FILES = 24
 MAX_MD_BYTES = 600_000
 DAILY_MIN_WORDS = 2500
+# The editorial spec requires an inline primary-source link on every major
+# claim. Routine briefs with no links at all have arrived (2026-11-16,
+# 2026-11-20); an unsourced brief waits for a person.
+DAILY_MIN_LINKS = 10
+LINK = re.compile(r"\]\(https?://")
 WEEKLY_MIN_WORDS = 800
 MAX_AGE_DAYS = 2
 
@@ -82,7 +87,7 @@ def classify(files: list[dict], markdown: str | None, today: date) -> tuple[str,
             return "ignore", f"invalid date {stamp}"
         if not (today - timedelta(days=MAX_AGE_DAYS) <= day <= today + timedelta(days=1)):
             return "ignore", f"brief date {stamp} is not current"
-        phrase, floor = "morning brief", DAILY_MIN_WORDS
+        phrase, floor, min_links = "morning brief", DAILY_MIN_WORDS, DAILY_MIN_LINKS
     else:
         stamp = weekly[0]
         for n in names:
@@ -94,7 +99,7 @@ def classify(files: list[dict], markdown: str | None, today: date) -> tuple[str,
         previous = (today - timedelta(days=7)).isocalendar()
         if (year, week) not in {(current[0], current[1]), (previous[0], previous[1])}:
             return "ignore", f"brief week {stamp} is not current"
-        phrase, floor = "weekly brief", WEEKLY_MIN_WORDS
+        phrase, floor, min_links = "weekly brief", WEEKLY_MIN_WORDS, 0
 
     if markdown is None:
         return "ignore", "brief text unavailable"
@@ -105,6 +110,9 @@ def classify(files: list[dict], markdown: str | None, today: date) -> tuple[str,
         return "ignore", f"brief too short ({words} words, floor {floor})"
     if not _titled(markdown, phrase):
         return "ignore", f"no '# ... {phrase}' title"
+    links = len(LINK.findall(markdown))
+    if links < min_links:
+        return "ignore", f"only {links} source links (floor {min_links})"
     return "merge", f"{stamp}: {words} words, {len(names)} files"
 
 

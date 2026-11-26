@@ -24,13 +24,13 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import sys
-from datetime import date, datetime, timezone
+from datetime import date
 from pathlib import Path
-from typing import Any, Optional
+from typing import Optional
 
 from . import Section, SectionState
+from .. import llm
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 LAKE_SECTIONS = REPO_ROOT / "lake" / "sections"
@@ -40,7 +40,7 @@ EDGE_THRESHOLD = 0.08            # Place a bet only if |our - market| >= 8%
 BASE_UNIT_USD = 100.0            # Notional unit per bet (paper dollars)
 MAX_BET_FRACTION = 0.05          # No single bet > 5% of total notional risked
 MAX_NEW_BETS_PER_DAY = 8         # Conservative cap to avoid over-trading
-MODEL = "claude-sonnet-4-6"      # Reasoning model for the placement decision
+MODEL = llm.SYNTH_MODEL      # Reasoning model for the placement decision
 
 
 def _confidence_multiplier(band: str) -> float:
@@ -207,39 +207,21 @@ def _call_claude_for_decisions(summaries: dict[str, str],
     """Ask Claude Sonnet which markets are mispriced given today's evidence and
     cross-source signals. Returns a list of decision dicts. Empty list on any
     failure (degraded ok)."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        sys.stderr.write("[paper_bet_placement] no ANTHROPIC_API_KEY; skipping placement\n")
-        return []
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        sys.stderr.write("[paper_bet_placement] anthropic SDK missing; skipping placement\n")
+    if not llm.available():
+        sys.stderr.write("[paper_bet_placement] no Claude credential; skipping placement\n")
         return []
 
     system_prompt, user_prompt = _build_decision_prompts(
         summaries, markets, signals or [])
 
     try:
-        client = Anthropic(api_key=api_key)
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=4000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_prompt}],
-        )
-        text = resp.content[0].text.strip()
-        # Strip code fences if present
-        if text.startswith("```"):
-            lines = text.split("\n")
-            text = "\n".join(L for L in lines if not L.startswith("```"))
-        decisions = json.loads(text)
-        if not isinstance(decisions, list):
-            return []
-        return decisions
-    except Exception as exc:
+        answer = llm.complete(user_prompt, purpose="paper-bet-placement", model=MODEL,
+                              system=system_prompt, max_tokens=4000, effort="medium")
+        decisions = json.loads(llm.strip_code_fence(answer))
+    except (llm.LLMUnavailable, ValueError) as exc:
         sys.stderr.write(f"[paper_bet_placement] Claude call failed: {type(exc).__name__}: {exc}\n")
         return []
+    return decisions if isinstance(decisions, list) else []
 
 
 class PaperBetPlacementSection(Section):
